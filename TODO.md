@@ -10,18 +10,18 @@ archive, kept whole, mined but never deleted.
 - [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).
 - [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/GEAR_3_ROUND_1_REVIEW.md)).
 - [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
-- [ ] Gear 3 Round 1: isolated cloud profile/accounting/transport implementation and literal pilot remain unperformed; this request commissioned assessment and filing. Preserve the campaign-specific accepted-allocation record in the source and obtain concrete launch readiness before paid dispatch.
+- [ ] Gear 3 Round 1 is commissioned by the September 13 follow-up: implement isolated profiles, campaign reservations/deadlines, complete evidence transport and frozen comparisons; pass the discarded pilot before science. Enforce $3 pilot, $20 initial release, $40 ordinary use and $50 total including reserve. Preserve Gear 2 workers.
 
 ## Stage 10 commissioned - 2026-09-12
 
-The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.
+The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
 
 - [x] OPS-WAKE-TRANSITIONS: use transition-only watchdogs; record process identities/outputs and end healthy-running turns. No routine liveness timer or mandatory refill before replying.
 - [x] OPS-WAKE-TRANSITIONS: inspect and retire the exact already-landed native notification through the native API; empty queue verified, original proxy failure retained. The native API replacement now passes acceptance/deduplication checks; actual post-final delivery is now observed and its complete producer is internally landed.
 - [x] S10: assess the supplied specification against current theory, lessons, model and prepared source interfaces; record adoption and scope.
 - [x] S10-I1: validate literal model calls, public task boundary, Ghost transport and actual resume on discarded cases; preserve every attempt.
 - [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.
-- [ ] S10-E: apply the newly supplied theory errata at the first results-only waiting period with no appreciable setup remaining, then file its source and complete theory/provenance write-through.
+- [x] S10-E: all six supplied theory errata applied September 13 on the explicit apply-now instruction; unchanged source archived, original quotes/evidence/structure preserved, theory lint passed, provenance recorded.
 - [x] S10-C1: inspect and internally land the first direct/example development producer; retain pending common-cell analysis and evaluation.
 - [x] S10-C2: implement and validate matched direct deliberation on discarded cases; land its instrument receipt.
 - [x] S10-C2: run and internally land matched deliberation on the same frozen development cases; common comparisons remain pending.

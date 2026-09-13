@@ -172,6 +172,16 @@ effect on expertise. Calling expertise "compiled decision structure" (the 2026-0
 describes its formation history, not intact storage of past decisions. The functional object
 remains the trajectory constraint.
 
+> Expertise does help you establish subgoals faster, obviously.
+
+*Curator’s latest editing and appreciation walkthrough in this analysis thread; source date not separately supplied; handoff prepared 2026-09-12; applied to theory 2026-09-13. Wording preserved.*
+
+Expertise can shape which subordinate problems occur to the maker, as well as which
+actions seem available to solve them. A practiced subgoal may fit the present purpose,
+carry over from an earlier purpose, or need deliberate reconstruction and redirection.
+This elaborates the existing transition-model and attention account; it adds no
+cognitive layer.
+
 Expertise can be expressed at mechanics, technique, and purpose levels. Media literacy is one
 high-level entry competence, not the definition of expertise. The transition map spans the
 hierarchy: brush control can make metaphorical control reachable, and conceptual expertise can

@@ -152,6 +152,8 @@ otherwise.**
 `FINDINGS.md`.** Findings is organised by *when we ran it*; this folder by *what we believe*. A result
 recorded only in findings gets lost.
 
-**Simulation results are harvested here too, marked `(sim)`.** They enter as hypotheses with weak
-evidence, not findings. Slotting them in is how we stop treating a simulation artifact as a fact,
-which has already happened once and cost two days.
+**Simulation results are harvested here too, marked `(sim)`**, with the constructed
+substrate and reader identified. Judge their strength for the claim actually tested. A
+controlled result may establish a property of its declared world; the corresponding human
+claim remains a separate hypothesis unless independently tested. Preserve the source,
+assumptions, and claim boundary when carrying either into the relevant section.

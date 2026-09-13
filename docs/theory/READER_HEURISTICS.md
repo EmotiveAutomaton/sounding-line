@@ -147,6 +147,21 @@ along variables that matter to the current decision. When self and maker diverge
 the same shortcut can amplify projection; successful use therefore includes detecting conflict
 and correcting toward target evidence.
 
+> I don't know whether this kind of predictive inference is done all the time, just kind of
+> looser and with wider error bars that catch more notable events, or whether it is something
+> that is cycled in as a second channel. My gut deeply thinks that it's the first one. That it
+> is a single system and not two.
+
+*Curator’s latest editing and appreciation walkthrough in this analysis thread; source date not separately supplied; handoff prepared 2026-09-12; applied to theory 2026-09-13. Wording preserved.*
+
+The curator's current bet is that appreciation is already operating in ordinary perception,
+with attention changing its precision and the parts of the maker model pursued. This
+preserves the self-based generative account without requiring every goal, belief, or
+history variable to be explicitly represented at every moment. A common objective and
+common machinery are different claims: changing precision, changing which variables are
+represented, and switching strategies remain distinguishable possibilities. This extends
+the open human account in HH-23; the model-reader evidence does not settle its architecture.
+
 Three distinctions must not be collapsed: self-based versus target-specific evidence, rapid
 versus deliberative processing, and affective sharing versus cognitive mentalizing. Interpersonal
 studies link direct accuracy, but not assumed similarity, with slower judgments;

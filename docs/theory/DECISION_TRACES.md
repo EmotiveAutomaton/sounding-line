@@ -243,6 +243,21 @@ stops performing does not usually stop labelling. Translation is the *bard*'s se
 ([`READER_HEURISTICS.md`](READER_HEURISTICS.md) §8) made measurable. His own doubt is the load-bearing
 test. *"I don't know if they're extricable or not."*
 
+> Okay, so let's say I'm not able to predict individual edits, but I would be able to predict
+> the change in how their effect makes me feel.
+
+*Curator’s latest editing and appreciation walkthrough in this analysis thread; source date not separately supplied; handoff prepared 2026-09-12; applied to theory 2026-09-13. Wording preserved.*
+
+Editing makes the interaction among goals visible. Author and editor can bring different
+subgoals, audience models, and expertise while negotiating a governing purpose; either
+person may both make and revise. Revisions may also help discover that purpose. A local
+improvement can damage the whole by breaking a dependency. Predicting an edit's effect on
+a reader and predicting the operation that produces it are different achievements.
+Intended response, actual response, and ratification remain separate; greater liking or
+sales is only one possible target. In the curator's designer example, a felt mismatch is
+a reason to seek more evidence, while familiarity with the work may distort the maker's
+estimate of a fresh reader.
+
 **Movement within an artifact** is the other reader-directed prediction:
 
 > I'd imagine that their **attentional focus moves around as they spend a longer amount of time on a

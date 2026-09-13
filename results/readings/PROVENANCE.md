@@ -18,6 +18,25 @@ with the reason.
 
 ---
 
+## Theory application and Gear 3 commission - 2026-09-13
+
+The supplied handoff was prepared September 12; its original recording dates are
+unspecified. All six edits were applied September 13 after the explicit apply-now
+instruction. Four added quotations retain the supplied words; no old quote is retired.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| G3R1.5 | Fully flesh out the prescribed Gear 3 Round 1; usable results justify careful setup. | Campaign-specific implementation commissioned, with isolated live code, finite pilot and spending/evidence safeguards. | TODO; docs/design/GEAR_3_ROUND_1_REVIEW.md | planned |
+| G3R1.4 | Approve public push after errata and sensitive-information review. | Explicit authorization recorded; outgoing history review precedes publication. | Private release validation; Git history | written |
+| S10.E6 | Replace the long analyst afterword with a short standing interpretation. | Compact interpretation with original evidence rows and confidence grades retained. | docs/theory/THE_TRIPLE_INFERENCE.md section 2 | written |
+| S10.E5 | Judge simulation evidence for its actual substrate and tested claim. | Index maintenance rule reconciled with its existing evidence-scope rule. | docs/theory/README.md | written |
+| S10.E4 | A single informative artifact can constrain values; artifact count is not a theorem. | Observation requirement corrected, cross-context validation retained. | docs/theory/THE_TRIPLE_INFERENCE.md section 2 | written |
+| S10.E3 | Editing combines goals; predicting recipient effect differs from predicting the edit. | Literal excerpt, role clarification and separate prospective target added. | docs/theory/DECISION_TRACES.md section 2; THE_TRIPLE_INFERENCE.md section 2 | written |
+| S10.E2 | Expertise helps establish subgoals; makers may reconstruct their own goals from action. | Two literal excerpts and bounded remembered-goal advantage; older quotation preserved. | docs/theory/THREE_COGNITIVE_LAYERS.md section 1; THE_TRIPLE_INFERENCE.md section 2 | written |
+| S10.E1 | Continuous inference is the curator's preferred live hypothesis. | Literal uncertain preference and distinction between common objective and machinery retained. | docs/theory/READER_HEURISTICS.md section 1 | written |
+
+Source: [unchanged supplied errata](../../docs/design/archive/STAGE10_THEORY_ERRATA_2026-09-12.md).
+
 ## Restore inspection and Gear 3 Round 1 review - 2026-09-13
 
 These rows paraphrase the direct audio request; the supplied specification's prior
@@ -34,7 +53,7 @@ The supplied specification is a planning document adopted by the direct commissi
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
-| S10.2 | Direct audio instruction: apply the new theory errata at the first results-only wait with no appreciable setup left, then file it. | Explicit deferred trigger retained while substantial Stage 10 setup continues. | TODO S10-E; docs/design/STAGE10_THEORY_ERRATA_2026-09-12.md (filed pending September 13); private implementation progress | planned |
+| S10.2 | Direct audio instruction: apply the new theory errata at the first results-only wait with no appreciable setup left, then file it. | Original deferred trigger superseded by September 13 apply-now instruction; all six changes applied and source archived. | TODO S10-E; docs/design/archive/STAGE10_THEORY_ERRATA_2026-09-12.md (applied September 13); private implementation progress | written |
 | S10.1 | Direct audio instruction: assess Stage 10, implement immediately if viable, keep Gear 2 and maintain the records. | Supplied study adopted; public forecast, Ghost transport, CoAuthor adapter and direct/example readers implemented and initially checked. | docs/design/PHASE_2_4_STAGE_10_CONTEXT.md; runners/stage10/; OPS-S10-I1 | built |
 
 ## Stage 9 commission and supplied reconstruction — 2026-09-06

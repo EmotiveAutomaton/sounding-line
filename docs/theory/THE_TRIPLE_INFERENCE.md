@@ -265,10 +265,13 @@ process. Stable cross-context structure in that distribution may later provide e
 values, but it is not itself value recovery. This is an explicit reading of the existing
 `q_R(G, tau, V, D, K, H, B, A_tilde, C_m | O, C_ext)` output, not a fourth inference.
 
-Stated this way, two facts fall out that the old formulation suppressed. A single artifact can
-support goal and process inference while values require multiple observations. And a commissioned,
-coerced, or instrumental goal can **diverge** from values; "goal is a temporarily amplified value"
-is the special case where context is friendly, not the definition.
+A single artifact can constrain goal, process, and value hypotheses when the available
+context and alternatives are informative. Repeated, varied observations are the proposed
+way to distinguish persistent motivational organization from situational explanations;
+there is no universal artifact-count requirement (§1 L-tier2; §5 G54; §6 S-15). A
+commissioned, coerced, or instrumental goal can **diverge** from values; "goal is a
+temporarily amplified value" is the special case where context is friendly, not the
+definition.
 
 On who knows the goal *(the 2026-08-23 pass, same provenance)*:
 
@@ -277,11 +280,18 @@ On who knows the goal *(the 2026-08-23 pass, same provenance)*:
 > of the context, but also of what their goal was. The expert reader does not have that privileged
 > access, but can sometimes infer it from a better mapping of the choices made in the domain.
 
-This is an information asymmetry, not a new inference target. The maker's episodic memory can
-supply privileged evidence about the goal that occupied focal attention. It does not supply
-transparent access to auxiliary motivations, automatic habits, or values compiled into expertise.
-The reader lacks that memory channel but may partly offset the gap with context and domain
-expertise. Both are estimating the same goal target, with different observations.
+> You have to reverse engineer your own goals through your actions as you are going.
+
+*Curator’s earlier rehearsal, novelist and filmmaker walkthrough in this analysis thread, question 2; source date not separately supplied; handoff prepared 2026-09-12; applied to theory 2026-09-13. Wording preserved.*
+
+The maker's episodic memory can supply evidence unavailable to another reader, conditional
+on what the maker still remembers. Privileged evidence is not transparent self-access:
+automatic goal elaboration, changed intention, and forgotten subgoals can require
+self-reconstruction during making or after interruption. The earlier quotation's
+“flawless” access is a limiting remembered-goal case, not a general assumption of the
+working account. The artifact can help its maker work backward from choices to the goals
+and expertise that shaped them. Maker and outside reader estimate the same targets from
+different observations.
 
 **A label is a lossy pointer; understanding is realized prediction** *(the 2026-08-30/31
 passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
@@ -303,7 +313,8 @@ A mental-state label is a lossy pointer into `q_R`, not a recovered state. A sho
 about the maker underdetermines the state it names; to carry evidential weight it must be
 realized against the artifact and declared context into a state that changes the reader's
 predictive distribution, and the test of that realization is prospective: the hidden
-continuation, the next edit, stopping, and the changed-context choice. A label whose realization
+continuation, the next edit, stopping, a declared recipient response, or the changed-context
+choice. A label whose realization
 moves none of these has not been cashed, however insightful it sounds.
 
 **A short mental-state label is a pointer, not the reconstructed maker state.** Its operative
@@ -312,10 +323,15 @@ entails a distribution over the maker's remaining decisions. Different descripti
 the same predictive state, and the same words may realize different states for different
 makers; a longer rationale does not solve this by itself. The representation may be language,
 structured slots, a program, or a latent vector; what earns credit is prospective constraint
-on a hidden continuation, next edit, stopping decision, or changed-context choice. Stage 6
+on a hidden continuation, next edit, stopping decision, declared recipient response, or
+changed-context choice. Stage 6
 attempted to instrument this rule, but its hidden dependencies voided the interpretation
 (M-S6). The rule remains a prospective criterion, not a claim that language is the required
 representation of the maker state.
+
+A recipient-effect prediction is credited against a declared, independently checked
+response. It does not establish the exact edit or historical route that produced it.
+The editing example is developed in `DECISION_TRACES.md` §2.
 
 > Predicting the next move largely captures whether you have a full picture of their expertise. What
 > remains are the creator's specific decisions, which you could only recreate with a truly flawless
@@ -440,135 +456,31 @@ method. Each informs a part of this file; none is the claim.
 | **MS-S8** | The maker's share lives in divergences from the standard process and may accumulate across artifacts | **OPEN; diagnosis only (test, L366/L367/L371).** At the larger sample, three earlier artifacts improve surprise alignment by +0.0136 [+0.0032, +0.0235] on Qwen and +0.0073 [-0.0041, +0.0195] on SmolLM2; neither series is monotone and all conditions remain below the domain model. Law/residue recall does not rise with earlier artifacts and the inferred maker model adds no established predictive gain. Neither reader is admitted, so this does not establish the proposed process-based accumulation |
 | **J03-S5** | Along the stream the reader's records become useful in a diagnostic order and a contradiction lowers its confidence | **NARROWED, descriptive (test, L264).** The plan record is reached last and most reliably; the preference record is never useful in two thirds of worlds; after an exact contradiction the reader is more confident and less right in 44 to 62 percent of worlds; on two readers with equifinal plans present the never-useful shares rise to 0.56 to 0.74 and overconfidence sits at half (L292) |
 
-**State of the section's claim.** The generative account remains a framework rather than a
-finding, now with its objects kept apart: expertise as the transition model, process as the
-realized path, the maker's context and subjective action set derived through belief and
-expertise, and the composition claim in its restated form, expertise distorting the available
-possibilities under context, with drive commonality named as the assumption that keeps the
-distortion decodable. Both composition rows are open. The single behavioral fact here cuts the
-right way for a joint account, since a staged pipeline would care about stage order and the
-simulated reader's answer does not move when the order changes; the distortion story's weakest
-named part is attention, flagged by its own author. The products the walkthrough insisted on
-keeping apart have one direct measurement: a small reader recovers a maker's appraisal and its
-intended audience response above the floor and crossed, thinly, confirmed on a fresh split
-(A01-S4), and not on a notice register, where the same reader family gives one answer per
-question whatever the world (A01-S5). The triple's first direct test of goal against standing
-preference finds the reader collapsing them: told the goal, it still reads the goal's axis as
-the chooser's disposition in two thirds of worlds while recovering the plan cleanly, on two
-reader families (J01-S5); along the evidence stream it reaches the plan late and reliably, the
-preference rarely, and does not lower its confidence at a contradiction the exact posterior
-registers (J03-S5); its prediction of the hidden future choice sits under a uniform guess for
-every variant, the one handed the true latents included (J02-S5); it does not see a maker's
-note contradict the record (J04-S5); and the preference it infers predicts a second-episode
-choice worse than the scenario's own prior (J05-S5). In these readers the dispositional product
-is neither recovered nor used, the situational product is half recovered and unused, and only
-the process product is read. Those Stage-5 failures keep their original scope: two reader
-families, one construction family each, and the confound the walkthrough named. The Stage-6
-tournament supplies no constructive comparator to set against them: its routes compiled
-hypotheses through a realizer that read the hidden world, so the nat they cleared over direct
-reading belonged to the privileged simulator, and what that block leaves standing is that an
-exact selector among four supplied controller laws identifies the planted one from the prefix
-where the label reader does not, which is system identification and not reconstruction (M-S6).
-The Stage 7 direct-state ladder does not cleanly answer whether a reader can use fully
-specified operative state: its text omits the solver's full law and rounds parameters,
-and its option readout can exclude candidates. Its negative scores remain observations
-of that interface, while solver-oracle equality remains a program result (K04-S7).
-The larger route is a package comparison, not a pure size test. Give the same readers a
-program that executes the state and reduce their job to naming one missing factor, and the
-gain comes back to the domain model's level or above it, without the factor being named:
-the belief is in the candidate list two times in five and a swapped belief that changes
-the oracle's expectation moves the joint reader one time in fourteen, and asked for the set
-of options the maker believes open, given the beliefs and the law that fix it, the readers
-propose a set that holds the truth one time in twenty (KI-S7). The realizer that the
-maker-state rule needs exists, then, as a program handed the state; for these readers it is
-not the reader, and the open question is whether a reader can propose a whole state that
-program can use (the reconstruction trunk). The expertise law itself is in the evidence
-for such a program: exact selection among supplied laws and a law learned by likelihood
-from two demonstrations both clear the floor by half a nat, the Stage 6 survivor
-replicated clean, while neither reader proposes a law when shown what one looks like; shown three of the
-maker's earlier episodes instead, the law learned from them transfers to a new episode at
-the oracle's level, and one reader proposes it well enough for the solver to use (KL-S7,
-L342), the first reconstruction rung a reader passes on its own proposals, with every
-other factor supplied. Asked for the goal and the belief together, the reader keeps them
-apart and gets both wrong about as often as it gets each wrong alone, and its arm's full
-commitment to a wrong pair is what puts it under the domain model (RJ-S7). Cold, with nothing
-supplied, the same reader names the law's shape in two worlds of three and the belief in one
-of fourteen, and the arm that executes its full proposed state is a nat and a third under the
-domain model while a nat and a half over free-text prediction: the reconstruction claim
-narrows to the regimes where the law is supplied or demonstrated, and what beats the direct
-reader is the realizer, not the reader (RJ-S7, L344). Crossing the same worlds with the
-maker's earlier episodes in view does not rescue the cold reading, and the domain's generic
-shape in view silences the reader rather than informing it, so law recovery is demonstrated while recovery and use of the remaining cold state are
-not established by these interfaces (RG-S7, L345). Where
-the prefix leaves several maker models equivalent, the reader's abstention does not track
-it, withholding on three singletons in four and on three equivalent cases in five, by
-failure to propose rather than by judgment (EQ-S7, L346). And revising the candidates as
-the prefix grows changes nothing, because on four worlds of five there is one candidate
-to revise (RV-S7, L347): the readers' limit is breadth of hypothesis, not its revision.
-Priced against free-text prediction at matched evidence, every structured architecture
-wins, and priced against the domain model none does: structure buys back the direct
-reader's losses by falling back to the prior or by executing a wrong state less badly
-than free text guesses, and nothing beyond the prior (AC-S7, L348). The record's two timescales are
-not separated at this construction's drift: a point date and a mixture over dates predict alike,
-and what a dated history adds to a later choice is the law it carries, nothing beyond the
-aggregate of the episodes (TT-S7, L354). Stage 7 closed at hour 15 with two program effects on untouched confirmation lineages (L357). The learned-law comparison retains its separate evidence; the synthesis advantage over free text inherits the direct-baseline defect. Universal claims about readers or state use cannot be recovered from those comparisons. Naming
-the intended
-latent, or producing a coherent rationale, does not establish understanding, and neither
-does possessing the complete state; the maker-state realization requirement stands as an
-architectural proposal whose realizer, for these readers, is not the reader. The proposed role of expertise is to give a reader a forward model against which the
-maker's choices can be interpreted. Stage 8 establishes a narrower capability split:
-both trained readers predict within the trained domain better than its baseline, while
-both fail the required generation component. Stage 8 admitted no reader and ran no confirmation. These measurements remain diagnostic for the proposed mechanism (P-S8).
+**State of the section's claim.** The generative account links maker-interpreted context,
+feasible choices, governing purpose, expertise formed through prior attention, and the
+realized process. Its distinctive wager is that a reader can use shared generative
+structure to reconstruct and correct a maker model. Reader-enactable routes, historical
+correspondence, and persistent motivational inference remain distinct products.
 
-The raw-surprise diagnostic ranks the designated maker-divergence events poorly. The
-construction defines divergence by how much the maker oracle raises an action's
-probability relative to the domain model. Raw surprise instead ranks an action by how
-unlikely the reader finds it. These are different quantities, so their failed alignment
-does not uniquely identify what representation training installed. Surface or family
-familiarity, incomplete operational competence, and a mismatch between cue and scoring
-target remain competing explanations. The unseen-law result establishes a tested transfer
-boundary, not the learning mechanism (L361). Difficulties with generated histories,
-sustained execution, outcome production, and stopping remain candidates, as retained in
-the intervening interpretation correction (OPS-S9-THEORY-1). The observed diagnostic failure stands; changing
-the explanation does not reverse its sign or confirm a replacement measure.
+For the proposed human route, shared embodied and affective constraints are a load-bearing
+source of that structure. Expertise and attention distort which possibilities are available
+and expressed; the attention-allocation law remains open (G52).
 
-Using a proposed purpose damages expanded prediction compared with the same reader
-without it; supplying the true purpose adds smaller positive point increments. Changed
-context and ambiguity handling have not supplied a robust maker model. Pull ordering is
-more readable than the planted purpose on this construction, not thereby the canonical
-purpose itself. The failed meaning-change crossover does not establish general semantic
-blindness, because it retains the original purpose target when changing the visible
-choices (P-S8).
+The clearest bounded constructive result is an expertise law learned from earlier
+episodes and executed on new ones; the confirmed program result is stronger than the
+limited reader-proposal result (KL-S7). Separating appraisal and intended audience response
+works in one construction and fails in another (A01-S4, A01-S5). Subsequent diagnostics
+separate domain prediction from generation, and execution of supplied law and state from
+ordinary artifact inference. They leave personal-history use and sustained consistency
+unestablished in the tested reader packages (P-S8, I06-S9, C-ROL-S9, C01-S9, C04-S9).
+The failed Stage 6 architecture and Stage 7 state-use instruments retain their recorded
+scope; they cannot settle the proposed human mechanism (M-S6, K04-S7).
 
-Additional artifacts give one small diagnostic improvement at the larger sample, without
-a monotone or above-domain recovery curve. Explicit maker modeling has no established
-predictive benefit in these cells. The accumulation mechanism remains open on readers
-that failed admission (MS-S8). The pursuit remains to distinguish these explanations;
-the warrant is a prediction/generation split and failed diagnostics, not an identified
-surface-only mechanism or demonstrated absence of maker information.
-
-Both families and their base and archived packages retain an execution advantage when
-direct reading receives the full law and state. Their direct predictions fall below the
-uniform floor when pooled, while the archived SmolLM essay contrast remains unresolved.
-Adding code helps both archived packages relative to omission without closing the execution
-gap; neither base package has an established gain from the addition. These observations
-concern reliable consequences in the tested interfaces; they neither identify an internal
-mechanism nor validate ordinary artifact inference. The comparison survives separate scoped
-integrity as descriptive evidence, with shared questions and package limits retained (I06-S9, L384).
-The archived packages differ in sustained interactive execution. Qwen benefits from offered
-actions and shorter-horizon state resets; SmolLM sustains named actions through the tested
-horizon on nearly every world, including stepwise checked claimed outcomes. This limits the
-generality of the first package's short horizon, while leaving whole-log generation and
-correct stopping separate. Reset availability constrains the reset comparison, and artifact
-prompt failures remain failures of the tested interfaces (C-ROL-S9). Altered histories at
-the same state have no resolved mean score effect on either package. Generated histories
-provide no adequately supported population comparison: one SmolLM essay match cannot supply
-grouped uncertainty, and the other domains and package supply none (C01-S9). Both packages
-fail the supplied finite-rule consistency battery, despite different answer patterns
-(C04-S9). These diagnostics distinguish operational capabilities without identifying a
-surface-only mechanism or changing the proposed human expertise account. Their complete
-scoped review licenses those descriptive distinctions, while leaving full-generation admission,
-confirmation and the wider deferred agenda unestablished (L384).
+The live question is whether a reconstructed maker model constrains unfamiliar behavior
+beyond shared domain competence and strong direct prediction. Predicted edits, declared
+recipient effects, and historical recovery are separate achievements. These component
+results keep the question open without establishing the full reconstruction or identifying
+a surface-only explanation of its failures.
 Confidence: one bad test away for the scoped Stage 5 and Stage 8 observations and the
 completed Stage 9 package diagnostics; untested,
 logic only for the proposed expertise and accumulation mechanisms; instrument-dead for

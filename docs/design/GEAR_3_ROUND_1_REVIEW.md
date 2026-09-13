@@ -1,5 +1,10 @@
 # Gear 3 Round 1: viability and filing review
 
+**Subsequent commission, September 13:** the curator now requests full careful setup
+of the prescribed Round 1 campaign, following theory application and a sensitive-data
+review before the approved public push. The assessment below remains its dated
+basis; actual launch requires the finite pilot and enforced campaign ceilings.
+
 **Reviewed September 13, 2026 against `2c9546c79772a0419ee7f3b779c5a9bb3c89f85f`.**
 **Assessment: viable alongside Gear 2; cloud launch is not ready yet.**
 The [supplied specification](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
@@ -120,7 +125,8 @@ to replace the ongoing local study with cloud execution.
 The repository root retains its six operational Markdown entry points: README,
 AGENTS, CLAUDE compatibility pointer, FINDINGS, TODO and CURRENT_STATUS. The parent
 workspace retains AGENTS. Suspicious old copies are in private quarantine, not the
-active source hierarchy. The new [Stage 10 theory errata](STAGE10_THEORY_ERRATA_2026-09-12.md)
-is filed as **APPLICATION PENDING**, with unchanged bytes; apply it at the original
-results-only-wait trigger and archive it only after implementation. The active
+active source hierarchy. The new [Stage 10 theory errata](archive/STAGE10_THEORY_ERRATA_2026-09-12.md)
+was filed as application pending at review time. The subsequent September 13
+apply-now instruction is now implemented: all six edits pass the existing linter,
+and this source is archived with unchanged bytes. The active
 Stage 10 specification remains in its established, referenced location under docs.

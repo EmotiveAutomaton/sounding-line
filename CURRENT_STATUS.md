@@ -10,14 +10,14 @@ The new structured branch passes eleven constructed checks and a fourteen-call l
 
 **ETA:** roughly 3-6 hours for this batch, with substantial uncertainty from prompt mix and local contention. The working full-stage target remains September 16-17 Pacific. Adaptive effort, synthetic effect/constraint tasks, second human source/anchor, selected second-model work and common analysis/final reporting remain. The whole week is not yet queued. No curator decision is required for the current work.
 
-The theory errata remains due at the first results-only wait with no appreciable setup remaining.
+All six new theory errata are applied and the original handoff is archived. Existing quotations and evidence rows are preserved; theory-format checks pass. The September 13 follow-up commissions careful Gear 3 Round 1 implementation under its specific $50 ceiling, alongside Gear 2.
 
 **September 13 maintenance:** suspected restored files were inspected before the
 Gear 3 review. Eleven stale/duplicate untracked files are preserved privately;
 no tracked source changed during containment. [Audit](results/maintenance_20260913/RESTORE_AUDIT.json).
 [Gear 3 Round 1](docs/design/GEAR_3_ROUND_1_REVIEW.md) is viable alongside this local
 work after bounded cloud-adapter preparation. Its source is renamed/archived;
-no cloud run was launched. The theory errata is filed as application pending.
+no cloud run was launched during that review. The later explicit apply-now instruction superseded the errata waiting trigger.
 At 12:59 UTC the original local native worker and wrapper remained alive with
 matching creation identities and no terminal marker; they were not restarted.
 

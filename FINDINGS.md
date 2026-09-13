@@ -54,6 +54,19 @@ interpretability at once, and the same word means different things in each.
 
 **Stage 10 implementation is underway, September 12, 2026.** The supplied reader-prototype plan is adopted in Gear 2 with CPU cooling limits retained. The literal local-model, public Ghost transport and saved-call resume checks have passed; direct and fixed-example readers and the initial CoAuthor source adapter are implemented. The initial CoAuthor and Ghost development producers are complete and verified; the direct/example and matched-deliberation CoAuthor evaluations are complete; the fitted effort policy has completed its reserved prediction producer. The native-procedure reading prediction producers are complete and verified; the human executable-rule predictions are complete and verified, and the procedure-memory and reserved-budget human development producers are complete and verified while broader human readers, other tasks and final scientific analysis remain to be completed. Stage 9's selected packet remains closed; its deferred agenda is separate. [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md).
 
+### S10-E - supplied theory corrections applied
+
+**Maintenance, not an experiment.** Applied all six September 12 errata to the current
+text after the September 13 explicit instruction. Every anchor matched once. Four
+new quotation blocks match the supplied excerpts; all prior quotation lines, evidence
+tables and section headings are preserved. The four changed core files pass the
+existing theory linter. The simulation maintenance rule now uses the same scoped
+evidence standard as its index. No scientific result or claim upgrade is introduced.
+The original handoff is [archived unchanged](docs/design/archive/STAGE10_THEORY_ERRATA_2026-09-12.md);
+recording dates are unspecified, distinct from preparation and application dates.
+The initial application helper stopped before any write on a PowerShell Unicode
+marker mismatch; deriving the section boundary from source fixed the helper.
+
 ### OPS-RESTORE-20260913 - returned files must not regain retired authority
 
 **Hypothesis.** A broad accidental restore could reintroduce retired source documents and cause context drift.

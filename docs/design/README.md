@@ -12,11 +12,12 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 - **Gear 3 Round 1:** [viability assessment](GEAR_3_ROUND_1_REVIEW.md), with the
   [supplied source archived](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
   on the curator's naming/filing request. Viable alongside Gear 2; cloud implementation
-  and launch remain unperformed in this assessment. Its recorded $50 campaign scope
-  is not a general allowance.
-- **APPLICATION PENDING:** [Stage 10 theory errata](STAGE10_THEORY_ERRATA_2026-09-12.md).
-  Filed with unchanged bytes; implementation remains due at the requested first
-  results-only wait after appreciable setup. This is not an applied source archive.
+  and launch were unperformed in the assessment. The subsequent September 13
+  instruction commissions careful implementation of this specific $50 campaign.
+  A discarded pilot and enforced reservations must precede scientific dispatch.
+- **APPLIED September 13:** [Stage 10 theory errata](archive/STAGE10_THEORY_ERRATA_2026-09-12.md).
+  All six corrections are implemented; the original handoff is archived unchanged.
+  Source recording dates remain unspecified; preparation and application dates are distinct.
 
 - **Active stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), explicitly commissioned
   September 12. The supplied prototype study is adopted; local implementation and
