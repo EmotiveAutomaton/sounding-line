@@ -26,6 +26,7 @@ instruction. Four added quotations retain the supplied words; no old quote is re
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
+| S10.G1 | Shift local Stage 10 to first gear after a Gear 3 setup breakpoint, preserving ongoing work and results (September 13 owner message; paraphrase). | Parked scheduling controllers, lowered CPU priority/affinity, preserved active GPU job and registered its terminal checkpoint; explicit Gear 2 required to resume. | FINDINGS OPS-S10-GEAR1; results/phase_2_4_stage_10/GEAR1_TRANSITION.json | built |
 | G3R1.6 | Apply the analyst panel fixes, perform final validation, then launch Round 1 if no unresolved concern remains. | Revision-2 repairs pass 62 checks; bounded pilot continuation authorized without resetting original costs or invocation clocks. | FINDINGS OPS-G3-R1-PANEL; results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json | built |
 | G3R1.5 | Fully flesh out the prescribed Gear 3 Round 1; usable results justify careful setup. | Campaign-specific implementation commissioned, with isolated live code, finite pilot and spending/evidence safeguards. | TODO; docs/design/GEAR_3_ROUND_1_REVIEW.md | planned |
 | G3R1.4 | Approve public push after errata and sensitive-information review. | Explicit authorization recorded; outgoing history review precedes publication. | Private release validation; Git history | written |

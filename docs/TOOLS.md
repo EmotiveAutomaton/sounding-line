@@ -1679,3 +1679,7 @@ The final selected report binds the exact fresh original-ledger reproduction and
 - Gear 3 cache recovery: full archive and provider preemption verified; exact one-recovery/original-expiry reservation and subsequent GPU budget preflight pass. Offline 62-check validation remains; literal GPU admission pending. See [receipt](../results/gear3/G3-S10-READER-1/PANEL_CACHE_RECOVERY.json).
 
 - Gear 3 permitted recovery is submitted through the validated controller under its original expiry. Native owner and transition-only terminal/disappearance watch are recorded; no automatic second recovery. [Receipt](../results/gear3/G3-S10-READER-1/PANEL_CACHE_RECOVERY.json).
+
+**Stage 10 first-gear transition (OPS-S10-GEAR1).** Native parent/child suspension and resume fixture passes. Exact scheduling controllers are parked, the active worker continues, completed inventories and all 162 source hashes verify, and CPU scheduling is reduced. Original native identities/settings support an explicit later resume. [Receipt](../results/phase_2_4_stage_10/GEAR1_TRANSITION.json).
+
+**Gear 3 cache recovery complete.** Full archive, both frozen model identities and original recovery deadline verify. The finite chain submitted the first GPU pilot; device admission remains pending. [Receipt](../results/gear3/G3-S10-READER-1/PANEL_CACHE_RECOVERY.json).

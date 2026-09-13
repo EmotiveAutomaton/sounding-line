@@ -93,7 +93,9 @@ marker mismatch; deriving the section boundary from source fixed the helper.
 
 **Recovery launch, September 13.** The prescribed one Reserve recovery is submitted under the unchanged cache expiry, payload and resources. The finite native chain can then launch the still-unrun GPU pilot, and stops before scientific dispatch. Native identity and completion/failure/disappearance supervision are recorded privately; no further retry is automatic. P plus recovery remains capped at $3.21, with unsettled reservations fully retained.
 
-**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison deliver valid and affordable evidence? | **Infrastructure** | result: all 62 final checks pass | project meaning: offline validation passed; cloud cache was preempted | next engineering obligation: inspect the permitted cache recovery and literal P, freeze measured affordable work, run its finite paired bank and final local consumer | public claim: unchanged | curator decision required: No under the current conditional rollout authorization | detail: repair receipt above.
+**Cache recovery completed, September 13.** METHOD: verified the full recovery archive, original reservation/deadline and both retained model-package, server and quantization identities. Both pinned packages are cached; the one permitted recovery completed without changing its original deadline. Its full reservation remains booked. The existing finite chain has now submitted the first GPU pilot. Literal GPU admission and all scientific comparisons remain pending; no interim scores are reported.
+
+**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison deliver valid and affordable evidence? | **Infrastructure** | result: all 62 final checks pass | project meaning: recovered cache verified; GPU pilot submitted | next engineering obligation: inspect literal P, freeze measured affordable work, run its finite paired bank and final local consumer | public claim: unchanged | curator decision required: No under the current conditional rollout authorization | detail: repair receipt above.
 
 ### OPS-G3-R1-SETUP - bounded cloud production and usable returned evidence
 
@@ -148,6 +150,18 @@ The active billing guard uses the lower actual account headroom, a separate allo
 **Means.** The curator's transition-only instruction replaces earlier timer/refill rules. A healthy long-running process is an acceptable end to an agent turn. Scientific terminal evidence still needs its full landing when the transition is delivered; no new scientific test was harvested. At watchdog installation the human effort evaluation was an unvalidated private draft; its later validation and running evaluation are recorded under OPS-S10-I6.
 
 **Curator roll-up:** theory group: operating infrastructure | question: can unattended work signal only actionable transitions? | **Infrastructure** | result: all 86 checks pass | project meaning: healthy waiting no longer generates routine agent turns | next engineering obligation: inspect the next actual terminal or monitor fault | public claim: unchanged | curator decision required: No | detail: receipt above.
+
+### OPS-S10-GEAR1 - preserve the current experiment while freeing the local machine
+
+**Hypothesis.** Local Stage 10 can enter first gear without losing completed work or interrupting the current prediction job.
+
+**METHOD.** Tested Windows controller-only suspension on a separate parent/child fixture: the child finished, the parent could not dispatch next work, and explicit resume completed normally. Inspected the exact scientific process identities/commands, both frozen plans, all completed job inventories and the source closure before parking only the two scheduling controllers and lowering local Python priority/affinity.
+
+**Found.** The current ScholaWrite evaluation continues; subsequent GPU dispatch is held. Both completed job inventories and all 162 pinned source files verify unchanged. Native resume identities and original CPU settings are retained privately. Current GPU use ends at the existing job boundary, rather than immediately. One terminal/disappearance checkpoint is registered; no scientific process or model service was killed, restarted or rewritten. The separate cloud pilot remains untouched. [Transition receipt](results/phase_2_4_stage_10/GEAR1_TRANSITION.json).
+
+**Means.** First gear is requested and enforced for future local dispatch, while the current GPU job drains safely. The finite bank remains intact for a later explicit Gear 2 instruction. Its current dependency chain has no ready independent CPU job while the unfinished predecessor bank is held. No research tests were harvested and no scientific score or theory claim is changed.
+
+**Curator roll-up:** theory group: execution integrity | question: can the local machine become available without losing study work? | **Infrastructure** | result: next GPU dispatch is held while the current job finishes | project meaning: first-gear transition preserves the finite study | next engineering obligation: inspect the current producer's terminal checkpoint and retain the hold until explicit Gear 2 authorization | public claim: unchanged | curator decision required: No | detail: transition receipt above.
 
 ### OPS-S10-I11 - finite local runway and the second human source
 

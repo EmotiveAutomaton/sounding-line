@@ -1,10 +1,10 @@
 # Current status
 
-Updated 2026-09-13T21:51:42.941380+00:00.
+Updated 2026-09-13T22:31:09.213304+00:00.
 
-**Local queue:** Local Stage 10 remains in Gear 2 under its existing native controllers and frozen source plans. The ScholaWrite bank precedes the 51-job local queue; cooling limits remain.
+**Current local mode:** Stage 10 is entering first gear on the September 13 owner instruction. The current ScholaWrite evaluation finishes normally; both scheduling controllers are parked so no further GPU job can start. Local Python priority is BelowNormal on logical CPUs 16–23. Completed evidence, both frozen plans and all 162 source files remain unchanged. CPU cooling limits stay in place. The preserved four-job bank and 51-job follow-on queue await explicit Gear 2 resumption after the current job. Gear 3 continues separately.
 
-**Gear 3 rollout:** all 62 final offline checks pass. Modal preempted the CPU cache step before the first GPU pilot; the failed app is stopped and original charges remain booked. One recovery is now submitted under the original deadline and identical payload, capped at $0.38 from Reserve. Total pilot plus recovery ceiling is $3.21; P remains at most $2.83. Scientific admission and the measured affordable roster still follow a complete literal pilot.
+**Gear 3 rollout:** all 62 final offline checks pass. The one permitted cache recovery is complete and its full archive, model identities and original deadline verify. The first GPU pilot is submitted. All original reservations remain booked; combined pilot/recovery ceiling is $3.21. Scientific admission and the measured affordable roster remain pending.
 
 The transition-only watcher owns waiting. The next cloud checkpoint is completion/failure of the bounded literal pilot; no routine liveness wakes or per-artifact score reports.
 

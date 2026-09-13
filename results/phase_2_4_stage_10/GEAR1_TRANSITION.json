@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-13T22:31:09.213304+00:00",
+  "status": "FIRST_GEAR_DRAINING_CURRENT_GPU",
+  "owner_authorization": "2026-09-13: shift local Stage 10 to first gear after a Gear 3 setup breakpoint; preserve ongoing work and results",
+  "method": "verified exact native controller/worker identities, commands, frozen source closure and completed file inventories; tested parent-only suspension with an independent child before applying it",
+  "controller_suspension_fixture": "PASS: child finished while controller stayed suspended; next dispatch waited for explicit resume",
+  "controllers_parked": 2,
+  "CPU_priority": "BelowNormal",
+  "CPU_affinity_logical_processors": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "CPU_processes_adjusted": 6,
+  "current_job": "schola-f0-evaluation",
+  "current_job_interrupted": false,
+  "next_GPU_jobs_held": true,
+  "saved_completed_jobs_verified": [
+    {
+      "job": "schola-f0-development",
+      "files": 10744
+    },
+    {
+      "job": "schola-f0-policy",
+      "files": 3
+    }
+  ],
+  "source_files_verified": 162,
+  "source_files_changed": 0,
+  "queue_plans_changed": false,
+  "results_deleted_or_overwritten": false,
+  "new_model_calls_started": 0,
+  "automatic_gear2_return": false,
+  "GPU_availability": "current job finishes normally first; first gear holds subsequent GPU dispatch",
+  "Gear3": "separate authorized pilot continues untouched",
+  "monitoring": "one actual producer completion/failure/disappearance checkpoint; no elapsed-time wake",
+  "theory_change": false,
+  "new_research_tests": 0,
+  "resume_evidence": "private original identities, commands and CPU settings retained",
+  "scientific_scores": "not interpreted"
+}

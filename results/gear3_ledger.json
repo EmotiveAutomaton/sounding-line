@@ -346,8 +346,8 @@
         "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
       },
       "recovery_of": "p-cache-panel-v1",
-      "status": "SUBMITTED",
-      "owner_ended": false,
+      "status": "COMPLETE",
+      "owner_ended": true,
       "provider_charge_cents": null,
       "service_estimate_cents": null,
       "est_actual_dollars": 0.38,
@@ -358,9 +358,95 @@
           "from": "RESERVED",
           "to": "SUBMITTED",
           "evidence": null
+        },
+        {
+          "at": 1789338296.7311506,
+          "from": "SUBMITTED",
+          "to": "COMPLETE",
+          "evidence": {
+            "app_id": "ap-970DXENnqnOtdf4JtQZnbS",
+            "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV",
+            "full_archive_sha256": "a2b5c15f6d795d730e429b90382a2f2663263166f1d311acc2329d272a335528"
+          }
         }
       ],
       "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV"
+    },
+    {
+      "campaign_id": "G3-S10-READER-1",
+      "invocation_id": "p-gpu-panel-v1",
+      "node": "P",
+      "command": [
+        "runners/gear3.py",
+        "round1",
+        "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3"
+      ],
+      "profile": {
+        "job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
+        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+        "startup_seconds": 300
+      },
+      "resources": {
+        "gpu": "L40S",
+        "cpu_request": 2,
+        "cpu_limit": 2,
+        "memory_request_mib": 32768,
+        "memory_limit_mib": 32768,
+        "max_containers": 1,
+        "concurrency": 1,
+        "retries": 0
+      },
+      "duration_cap_seconds": 3000,
+      "expires_at": 1789341300.406803,
+      "ts": 1789338300.406803,
+      "reserved_cents": 217,
+      "booked_cents": 217,
+      "overhead_cents": 25,
+      "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
+      "campaign_authorization": {
+        "campaign": "G3-S10-READER-1",
+        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+        "total_cents": 5000,
+        "ordinary_cents": 4000,
+        "initial_cents": 2000,
+        "node_cents": {
+          "P": 300,
+          "A": 1700,
+          "B": 700,
+          "C": 900,
+          "D": 400,
+          "Reserve": 1000
+        },
+        "resources": {
+          "gpu": "L40S",
+          "cpu_request": 2,
+          "cpu_limit": 2,
+          "memory_request_mib": 32768,
+          "memory_limit_mib": 32768,
+          "max_containers": 1,
+          "concurrency": 1,
+          "retries": 0
+        },
+        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+      },
+      "recovery_of": null,
+      "status": "SUBMITTED",
+      "owner_ended": false,
+      "provider_charge_cents": null,
+      "service_estimate_cents": null,
+      "est_actual_dollars": 2.17,
+      "cost_basis": "entire capped reservation; not an invoice",
+      "events": [
+        {
+          "at": 1789338303.8301654,
+          "from": "RESERVED",
+          "to": "SUBMITTED",
+          "evidence": null
+        }
+      ],
+      "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F"
     }
   ],
   "cap_approvals": [],
