@@ -1,0 +1,101 @@
+{
+  "schema": "gear3.panel_repairs.1",
+  "at": "2026-09-13T21:51:42.941380+00:00",
+  "status": "OFFLINE_VALIDATION_PASS_LITERAL_PILOT_NEXT",
+  "audit": {
+    "path": "docs/archive/study-specs/GEAR_3_ROUND_1_VALIDATION_2026-09-13.md",
+    "sha256": "d12d95b2f9fc3e685d06725cd9fdab9ef86ca16001735f7951c6de9f0d7475a9",
+    "revision": 2
+  },
+  "authority": "Owner explicitly authorizes Round 1 launch after the panel fixes and final validation; original campaign/node/workspace caps remain.",
+  "validation": {
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds": 95.75,
+    "command": "pytest tests/test_gear3_round1.py tests/test_gear3_controller.py tests/test_gear3_adversarial.py tests/test_gear3_comparison.py tests/test_gear3_sequence.py tests/test_gear3_panel.py tests/test_gear3_consumer.py -o addopts= -q --disable-warnings",
+    "evidence_sha256": "bd6e3358552dae25f764eb2d98a56fea1ca3731bac23b699da13709de1a9aadd"
+  },
+  "repairs": {
+    "V1": "Independent bounded AppStop and FunctionCall cancellation; hung/failed operation cannot prevent the other attempt. No stop request establishes ended ownership.",
+    "V2": "One raw-response semantic verifier rebuilds requests, reparses original raw costs/proposals and reexecutes native rules in fresh scratch for partial/full reuse, archive validation and final consumption. Original evidence is immutable.",
+    "V3": "Actual reservation/archive/device/source pilot admission, complete-plan atomic accounting and deterministic complete paired prefix. Local sealed-answer consumer covers A/B/C/D, cheap controls, exact A subsets, explicit exclusions and private worked examples.",
+    "V4": "Campaign expense separate from attributable overlap in current workspace meter; immutable final provider settlement. Unknown charges stay booked; service time is never provider settlement.",
+    "V5": "R2 package contrast renamed; direct package contrast uses actual paired R0; R3-R0 and four-cell interaction retained.",
+    "V6": "One recovery of the original matching work only, no chained/sibling entitlement; ended owner and original expiration remain mandatory.",
+    "V7": "A <=8 events/writer, B <=2 initial events/writer with both history conditions paired. Ghost case breadth precedes extra queries; B/C depend on admitted A.",
+    "V8": "Original choice/probability/invalid/cost/calibration scores retained; fixed .85/.05 human secondary readout, exact .05+.80 vote identity, constant-collapse diagnostic, separate substrates/dependencies and descriptive limits.",
+    "V9": "Both naming conditions retain procedure/support metadata and whole episodes, packed against the longer serialized grounded request plus feedback reserve; real-roster, empty/nonempty and near-cap checks.",
+    "V10": "Actual controller Python 3.13.2 and Modal 1.5.4 pinned; actual signature/import check before reservation."
+  },
+  "additional_defects_repaired": [
+    "Missing exported native PUBLIC_MANIFEST needed by reading induction",
+    "Canonical serialized candidate comparison, rather than Python tuple/list inequality",
+    "Original Ghost answers bound to sealed case files and native future execution, not nonexistent phase evaluator projections"
+  ],
+  "retained_failures": [
+    "Initial pytest default temporary-directory permission failure; subsequent checks use unique private basetemp",
+    "Early fake-SDK fixtures and native-replay tests corrected for newly required actual signature and executor checks",
+    "Native stdout PID and observational timing normalized only after decoded scientific comparison",
+    "Consumer fixture lacked its process-record training view; corrected fixture",
+    "First real-roster freeze exposed tuple/list comparison and missing native evaluator adapter; repaired before admission"
+  ],
+  "old_cache": {
+    "reservation_cents_retained": 28,
+    "provider_apps_at_inspection": 0,
+    "retained_model": "qwen3.5:9b",
+    "larger_model": "partial download, not loadable/admitted",
+    "terminal": "original CPU cache download timed out; original owner hold/cancellation retained",
+    "original_archive": "absent at expected retained export; individual terminal/error/9B-cache receipts retrieved and hashed privately",
+    "gpu_invocations_before_relaunch": 0
+  },
+  "prepared_P": {
+    "new_cache_seconds_cap": 3600,
+    "new_cache_cents_cap": 38,
+    "gpu_seconds_cap": 3000,
+    "gpu_cents_cap": 217,
+    "prior_plus_new_P_cents_cap": 283,
+    "pilot_unit_count": 44,
+    "science_not_yet_admitted": true
+  },
+  "execution_sources": {
+    "runners/stage10/executor_worker.py": "3a6aea4e6b44fb0db28fb76684c78d49a2839bbdabf6c9c296ff8080148c06f7",
+    "runners/stage10/__init__.py": "6cf8d2debdfcde8f71c613e781ddd6c5eac1494e4bbb61fef8004837274223d2",
+    "runners/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runners/stage10/gear3_worker.py": "519b91c44458ca8f87e70db1407d380b43b0482c7a658ce68385f127ff6627dc",
+    "runners/stage10/queue.py": "c4edca31ff97381ff590bf63ce39796e19fb08c682d887d53fe420f9844483b1",
+    "runners/stage10/reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23",
+    "runners/stage10/ollama.py": "02b151dafcc1307258c3dcde8138e619a5807e2c05ffe3b29fdc4b653732647b",
+    "runners/stage10/contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "runners/stage10/gear3_io.py": "60e9175e2e527509780092e279175ec065ad195b296267749f1961d5d684c3a8",
+    "soundingline/gpulock.py": "be9c75035c02d8bfa5bb46d6d72a947cee2e81352bd122b500aec3062a5578e6",
+    "soundingline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "runners/stage9/__init__.py": "dc5122990d63db62066d536b6a439668c8c7e6dc15e1ddbf1896ed6c28969efb",
+    "runners/stage10/gear3_batch.py": "84204a40abb2eec1ab98173770e2513d387aefea3e337c229d0ac8b28786c5e1",
+    "runners/stage10/gear3_replay.py": "5df5d3bf97c9b41df88a89d8aca40f641edbdd0e176f4698c53b1ae382eb3d56",
+    "runners/stage10/ghost.py": "cac7d18624a6fd12687ef4fa77dc40cc7d5d83e31f6a51784722323a436fd37a",
+    "runners/stage10/reading_routes.py": "71d60675fec5ee7b8278d6fe77d766da4b04b2aab57768abeba9b3552c000ec2",
+    "runners/stage10/gear3_memory.py": "766ed30af6bc53c4799b3801020df2a7d00ebf1b1e74aaabb45bbf43ed45e286",
+    "runners/stage10/reading_proposal.py": "ae96eb205469f2517a5e5aa4c0ae4d9aaf0755b1d3d26fc8d82e711e4ebc4e3e",
+    "runners/stage10/proposal.py": "a325bdfcf70dbb8f96aad5a5d53b4da4eef4acf0d4e1c0037d021f25cf2e9f01",
+    "runners/stage10/reading_memory.py": "2c4b6928294938ef0126ada417a1fef8b477624fd91393c9fe41396508868013",
+    "runners/stage10/reading_source.py": "71c041678000bbeeeb7da0944c5f7d5b202e0473b818e71067eb0738bca1fb9e",
+    "runners/stage10/structured.py": "a65c28a6bf13e6d0d16cad86d875ebd0194a454ebfb2fc2a0329652b4d8ef2e4",
+    "runners/stage10/executor.py": "18660f7ddf6e8eb6aead11733a051fc84f7ec4224991107d7722925e7c6b38db",
+    "runners/stage10/deliberation.py": "c21148c17f5df03bf603334fea28aec385f6a6769b8ab6facfbeb155d99b345f",
+    "runners/stage10/human_programs.py": "584c347c00cf9b0164678dc08bc6c864a1f76a745b386ff0716aa457f181e775",
+    "runners/stage10/coauthor.py": "6bd666da549502e4411f9d4edf17f67dfb4c35b83fa136c7aec6b2ecc43a3118",
+    "runners/stage9/coauthor_cases.py": "69087132d2d91a1d67da5295fa19442cef5855d55504cdc1dd04205edb9e765c",
+    "runners/stage9/split_guard.py": "964f43dad24be34712f15ce406b36de5c8f61dc180f525a1376f7f540f849806",
+    "runners/stage9/common.py": "557ca98cde15ed22d0b2585c372b7746da3e2a536430e4cea5792fb857dba433",
+    "runners/stage9/coauthor.py": "e30ecbadec814d53ea82cf79ae903d573dbbd2a3a615b805326ea4833cb6c5ac",
+    "runners/stage9/program_inference.py": "6e43ade6e80bc477c03818ab176194b35d63d7fabe3a0cad1959e29bbb8390fd",
+    "runners/stage10/human_memory_routes.py": "d239ee64e230a9a1ca0a61f32f20ca7d71f1ad805541e6bc903bf870591f310b",
+    "runners/stage10/human_routes.py": "8c36634b062794f8bdf8254194af88fd39bc9129b2cdd107fa3aa5669f16ec4c",
+    "runners/stage10/human_proposal.py": "776787c0245a3606cdcc695082ced555b508a99e9b3cb328d9f41167f271681b",
+    "runners/stage10/human_memory_proposal.py": "d3affafa42774ac980e1b122e01b9d15e42c842b1b15f4daab4e09b3917a0a2e",
+    "runners/stage10/human_memory.py": "f9f2dabfb6a65f22efd8aec9ed89f1fa686149982a891953a7099def516c5d3c"
+  },
+  "public_claim": "Infrastructure only; no scientific scores or theory change; no new tests harvested beyond the commissioned audit repairs."
+}

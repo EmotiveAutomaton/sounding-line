@@ -1,14 +1,12 @@
 # Current status
 
-Updated 2026-09-13T20:24:32.140931+00:00.
+Updated 2026-09-13T21:51:42.941380+00:00.
 
-**Local queue:** Stage 10 is running in Gear 2. The current four-job ScholaWrite scientific bank is followed automatically by a frozen 51-job local queue, including 23 GPU jobs. It covers all five prepared project rotations, a second local model, the small ArgRewrite continuity anchor, synthetic adaptive effort, complete comparisons and final-review assembly. Both native controller identities are verified; the follow-on controller is waiting for the current bank. CPU boost-off and 90% AC maximum remain. [Runway](docs/design/STAGE10_LOCAL_RUNWAY.md).
+**Local queue:** Local Stage 10 remains in Gear 2 under its existing native controllers and frozen source plans. The ScholaWrite bank precedes the 51-job local queue; cooling limits remain.
 
-**Gear 3 held, September 13:** the owner withholds release while the remaining local Stage 10 work is built. New dispatch refuses before cloud reservation. The already-submitted CPU cache app is verified stopped with zero running tasks; no cloud GPU invocation occurred. Its 28-cent reservation and original failure records remain retained pending final billing reconciliation.
+**Gear 3 panel repairs validated:** all 62 final checks pass. The latest owner instruction authorizes bounded rollout after these repairs. The first GPU pilot remains unrun; its prepared chain completes the retained model cache before the discarded literal check. Prior costs stay booked, total P is capped at $2.83, and science requires actual device/source admission and a whole-plan affordability check. [Repairs](results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
 
-**Remaining and timing:** The full finite local runway is built and source-frozen. Expect several days of useful work at prior local throughput, with final synthesis after complete comparisons. It can finish sooner than a calendar week and does not pad elapsed time. A failed branch retains its evidence and blocks dependent work; independent branches continue. No owner decision is currently required for local execution.
-
-The watcher is active with transition-only supervision and no liveness timer. The latest whole-chain event was acknowledged after full internal landing; native message delivery remains distinct from queued acceptance. No unfinished per-artifact scores are reported.
+The transition-only watcher owns waiting. The next cloud checkpoint is completion/failure of the bounded literal pilot; no routine liveness wakes or per-artifact score reports.
 
 ## Historical status snapshots (superseded)
 

@@ -1,6 +1,8 @@
 # Gear 3 Round 1: viability and filing review
 
-**Current owner hold, September 13:** Gear 3 release is withheld while Stage 10 is built locally. The submitted CPU cache app is verified stopped; no cloud GPU invocation occurred. New dispatch refuses before reservation. The original attempt and its 28-cent reservation remain retained for billing reconciliation. Explicit resumption is required.
+**Current panel repair and rollout, September 13:** the latest owner instruction authorizes launch after the supplied fixes and final validation. All 62 final checks pass. [Repair receipt](../../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json). The revision-2 source is [archived unchanged](../archive/study-specs/GEAR_3_ROUND_1_VALIDATION_2026-09-13.md). Literal P and measured affordable science remain separate checkpoints; original costs and expired invocation identities remain retained.
+
+**Historical owner hold, September 13:** Gear 3 release is withheld while Stage 10 is built locally. The submitted CPU cache app is verified stopped; no cloud GPU invocation occurred. New dispatch refuses before reservation. The original attempt and its 28-cent reservation remain retained for billing reconciliation. Explicit resumption is required.
 
 **Subsequent commission, September 13:** the curator now requests full careful setup
 of the prescribed Round 1 campaign, following theory application and a sensitive-data

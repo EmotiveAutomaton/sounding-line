@@ -79,6 +79,18 @@ marker mismatch; deriving the section boundary from source fixed the helper.
 
 **Curator roll-up:** theory group: record integrity | question: did returned files regain current authority? | **Infrastructure** | result: stale copies preserved and isolated | project meaning: canonical sources remain unambiguous | next engineering obligation: retain provenance checks at future filing | public claim: unchanged | curator decision required: No | detail: audit above.
 
+### OPS-G3-R1-PANEL - verified evidence and bounded rollout after the analyst review
+
+**Hypothesis.** The commissioned cloud comparison can return complete, usable evidence without renewing expired work or exceeding its finite allocation.
+
+**METHOD.** Applied the supplied revision-2 audit to the isolated cloud checkout. Tested blocked cancellation, accounting overlap, recovery lineage, rehashed evidence tampering, fresh human/native execution, actual public bundle contents, real outcome-blind source selection and naming parity, and a constructed archive-to-answer-to-A/B/C/D report with known answers. The actual runtime adapter was inspected without creating resources.
+
+**Found.** All 62 final checks pass, with no skips. The consumer preserves complete paired contrasts, cheap controls, original and secondary readouts, explicit unstarted/failed cells and separate cost categories. Real source selection copies sealed native evaluators without decoding outcomes; the known-answer test verifies their eventual join. Earlier test and adapter failures remain retained. The original cancelled CPU cache has no cloud GPU result: the smaller model is cached, the larger download is partial, and its full 28-cent reservation remains booked. [Repair receipt](results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json).
+
+**Means.** The panel fixes pass offline validation. The owner's subsequent conditional rollout instruction supersedes the hold for this bounded campaign. Fresh pilot work retains all prior costs and evidence; its full P ceiling including the original attempt is $2.83. Existing expired invocation IDs are inspection-only. Literal device fit and observed throughput still govern scientific admission and the smaller affordable PLAN. No scientific verdict or theory edit follows from these apparatus checks; no new research test was harvested.
+
+**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison deliver valid and affordable evidence? | **Infrastructure** | result: all 62 final checks pass | project meaning: bounded pilot rollout is ready | next engineering obligation: inspect literal P, freeze measured affordable work, run its finite paired bank and final local consumer | public claim: unchanged | curator decision required: No under the current conditional rollout authorization | detail: repair receipt above.
+
 ### OPS-G3-R1-SETUP - bounded cloud production and usable returned evidence
 
 **Hypothesis.** The prescribed larger-reader comparison can preserve complete evidence and a finite spending boundary alongside the local study.
