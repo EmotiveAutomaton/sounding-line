@@ -69,7 +69,8 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: produce and internally land all four inexpensive baselines on the unchanged development/evaluation cohort; no evaluation answers used.
 - [x] S10-C3: freeze real inexpensive predictions and select the history-intervention rival on development only.
 - [x] S10-C3: validate both history-worker branches and freeze exact-length other-writer donors; preserve all exclusions.
-- [ ] S10-C3: execute and fully land the matched-history producer; complete common-cell analysis afterward.
+- [x] S10-C3: launch the validated matched-history producer with verified native progress and transition-only supervision.
+- [ ] S10-C3: fully land the matched-history producer on terminal; complete common-cell analysis afterward.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.

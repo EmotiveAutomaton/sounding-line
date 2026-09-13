@@ -1,14 +1,16 @@
-# Sounding Line current status
+# Current status
 
-Updated 2026-09-13T01:27:42.099216+00:00.
+Updated 2026-09-13T02:21:23.193353+00:00.
 
-**Stage 10 human effort evaluation is complete and internally landed.** Its original worker has exited and released the GPU. All 576 prediction routes retain their original attempts and costs. Complete replay, source bindings, every literal request, raw parse and policy decision verify without new model calls. The stage's scientific comparisons remain pending; this is a producer completion, not a claim that adaptive effort helps.
+**Stage 10 is running in Gear 2.** The matched-history experiment compares direct reading and grounded procedure memory on 77 opportunities, with at most 231 calls. Only prior handling changes; current drafts, menus and options remain fixed. Nineteen unmatchable opportunities remain explicitly listed. Native identity and initial progress verify.
 
-No GPU experiment is active during the next implementation step. Gear 2 authorization and CPU boost-off/90% AC maximum remain. Next: common strategy comparisons and the remaining evidence/history, recipient/constraint and second-source controls, followed by selected second-model work and the final packet. No curator design decision is currently needed. The theory errata remains queued for the first results-only wait with no appreciable setup remaining.
+The human effort evaluation and all four inexpensive baseline prediction producers are fully landed. The common score/baseline apparatus and both history-worker branches pass their known-answer checks. Selection uses development only; evaluation outcomes have not been used for fitting or scientific comparisons.
 
-The evaluation completion was recovered through the pending-state handoff after native queue delivery failed. The non-LLM watcher continues local transition detection, but current native transport is not verified. Old queued notices are being reconciled as delivered. Routine liveness polling remains disabled; no valid work is restarted for monitoring.
+CPU boost remains disabled and AC maximum processor state is 90%. The non-LLM watcher owns completion, failure and native-disappearance monitoring. No routine ETA/liveness wake is scheduled. The old native queue backlog is cleared through the supported API; future CLI message delivery remains unverified.
 
-[Evaluation producer](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_PRODUCER.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md), [notification transport inspection](results/maintenance_20260912/QUEUE_BACKLOG_INSPECTION.json).
+This run is roughly twenty to forty minutes at prior throughput, subject to local contention. On its terminal event: full internal landing, then common comparisons and the remaining earlier-artifact, recipient/constraint, second-source/model work and final stage packet. The new theory errata remains queued for the first results-only wait with no appreciable setup left. No curator decision is currently required.
+
+[Current launch](results/phase_2_4_stage_10/HUMAN_HISTORY_LAUNCH.json), [human evaluation](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_PRODUCER.json), [baseline producer](results/phase_2_4_stage_10/HUMAN_BASELINE_PRODUCER.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md).
 
 ## Historical status snapshots (superseded)
 
