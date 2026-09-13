@@ -1,0 +1,94 @@
+{
+  "at": "2026-09-13T11:16:23.119349+00:00",
+  "status": "RUNNING",
+  "native_identity_verified": true,
+  "sources": {
+    "runners/stage10/__init__.py": "6cf8d2debdfcde8f71c613e781ddd6c5eac1494e4bbb61fef8004837274223d2",
+    "runners/stage10/contracts.py": "d521c85fa46aee60d594fc0339b7143311186e22140dee5ae543ca7ca7a2fd02",
+    "runners/stage10/ollama.py": "e5391372759bbd0cd9d69631eec94f9db4cf62536ef00b5a54029bbce2890e54",
+    "runners/stage10/reader.py": "cd663a950139f254fadd4668fab0fb1caa2acdcf4c9143c914712bb296135a23",
+    "runners/stage10/queue.py": "c4edca31ff97381ff590bf63ce39796e19fb08c682d887d53fe420f9844483b1",
+    "runners/stage10/phase_queue.py": "946c941dc599d7319142731a192c437c378ea356d80a08a85f817803d7c6a392",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "soundingline/gpulock.py": "be9c75035c02d8bfa5bb46d6d72a947cee2e81352bd122b500aec3062a5578e6",
+    "runners/stage10/deliberation.py": "f7b1343d2c20865e18e165930a20e8ecd992f3314e8b38d8b6c726c013bf549e",
+    "runners/stage10/phase_deliberation.py": "3730f89482e3dad2274cbe30b3e4da88f4f639da880d178508fb528e44850b92",
+    "runners/stage10/earlier_artifacts.py": "2381025b2f6dc0a1221beba530ab13a1941c459c2bf77f756157b3627e3f7ac5"
+  },
+  "prepared_sha256": "9aa3eeda9c4afbae628356e9b0362d8667f84a17751bf1f15e38355718c8f6a5",
+  "counts": {
+    "development": {
+      "identical_earlier_draft": 0,
+      "no_earlier_draft": 1,
+      "prompts": 1,
+      "tasks": 8,
+      "writers": 1
+    },
+    "evaluation": {
+      "identical_earlier_draft": 6,
+      "no_earlier_draft": 14,
+      "prompts": 3,
+      "tasks": 94,
+      "writers": 14
+    },
+    "train": {
+      "identical_earlier_draft": 4,
+      "no_earlier_draft": 2,
+      "prompts": 10,
+      "tasks": 38,
+      "writers": 5
+    }
+  },
+  "jobs": [
+    {
+      "phase": "development",
+      "produces": "development/direct-example/COMPLETE.json",
+      "reader": "direct-example"
+    },
+    {
+      "phase": "development",
+      "produces": "development/deliberation/COMPLETE.json",
+      "reader": "deliberation"
+    },
+    {
+      "phase": "evaluation",
+      "produces": "evaluation/direct-example/COMPLETE.json",
+      "reader": "direct-example"
+    },
+    {
+      "phase": "evaluation",
+      "produces": "evaluation/deliberation/COMPLETE.json",
+      "reader": "deliberation"
+    }
+  ],
+  "planned_model_calls": 408,
+  "planned_routes": 306,
+  "completed_jobs_at_inspection": 0,
+  "active": {
+    "phase": "development",
+    "produces": "development/direct-example/COMPLETE.json",
+    "reader": "direct-example"
+  },
+  "initial_child_progress": {
+    "at": "2026-09-13T11:16:18.508857+00:00",
+    "completed_calls": 6,
+    "current_arm": "R0",
+    "elapsed_seconds": 47.841397599782795,
+    "planned_calls": 16,
+    "status": "RUNNING"
+  },
+  "health": {
+    "temperatures": {
+      "gpu": "44.0 \u00b0C",
+      "cpu": "65.5 \u00b0C"
+    },
+    "caps": {
+      "PERFBOOSTMODE": "0x00000000",
+      "PROCTHROTTLEMAX": "0x0000005a"
+    }
+  },
+  "monitoring": "native process and final chain completion/failure; no routine timer; native API acceptance verified, future idle delivery pending",
+  "rough_batch_eta": "30-60 minutes from launch, local contention dependent",
+  "working_stage_target": "September 16-17 Pacific; provisional, remaining source/model implementation and final analysis remain",
+  "scope": "finite R0/R1/R2 earlier-artifact producer; no scientific comparison or full stage completion"
+}

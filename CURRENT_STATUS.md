@@ -1,16 +1,16 @@
 # Current status
 
-Updated 2026-09-13T02:21:23.193353+00:00.
+Updated 2026-09-13T11:18:31.248016+00:00.
 
-**Stage 10 is running in Gear 2.** The matched-history experiment compares direct reading and grounded procedure memory on 77 opportunities, with at most 231 calls. Only prior handling changes; current drafts, menus and options remain fixed. Nineteen unmatchable opportunities remain explicitly listed. Native identity and initial progress verify.
+**Stage 10 is running in Gear 2.** The earlier-draft bank has four sequential development/evaluation jobs: direct plus examples, then matched deliberation. It contains 102 target opportunities, 306 routes and 408 planned local model calls. Jobs advance without an agent between them. At the final inspection, both development jobs had completed, direct/example evaluation was running and matched-deliberation evaluation was queued. Native worker identity, progress, source pins and terminal monitoring are recorded in the [launch receipt](results/phase_2_4_stage_10/EARLIER_ARTIFACT_LAUNCH.json).
 
-The human effort evaluation and all four inexpensive baseline prediction producers are fully landed. The common score/baseline apparatus and both history-worker branches pass their known-answer checks. Selection uses development only; evaluation outcomes have not been used for fitting or scientific comparisons.
+**The overnight queue had stalled operationally.** The matched-history producer completed at 7:34 p.m. Pacific on September 12. Its five CLI wake attempts failed, leaving no successor running until this recovery. All 154 outputs, requests, costs and rule executions now reproduce and are fully written through. No model inference was repeated. The notification has been acknowledged after landing.
 
-CPU boost remains disabled and AC maximum processor state is 90%. The non-LLM watcher owns completion, failure and native-disappearance monitoring. No routine ETA/liveness wake is scheduled. The old native queue backlog is cleared through the supported API; future CLI message delivery remains unverified.
+The native queue transport replacement passes 96 affected checks and real acceptance/list/deduplication verification. The old failure remains recorded. An actual idle wake on this backend is still unverified. Only final chain completion/failure or native disappearance can trigger a wake; there is no routine timer.
 
-This run is roughly twenty to forty minutes at prior throughput, subject to local contention. On its terminal event: full internal landing, then common comparisons and the remaining earlier-artifact, recipient/constraint, second-source/model work and final stage packet. The new theory errata remains queued for the first results-only wait with no appreciable setup left. No curator decision is currently required.
+CPU boost remains off and AC maximum processor state is 90%; prelaunch CPU/GPU temperatures were 65.5/44.0 degrees Celsius. The earlier-draft adapter passes eight constructed checks and its eight-call training-only literal rehearsal, with the full four-job/replay path exercised. Two oversized evaluation cases are explicit exclusions; empty and identical prior drafts remain retained.
 
-[Current launch](results/phase_2_4_stage_10/HUMAN_HISTORY_LAUNCH.json), [human evaluation](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_PRODUCER.json), [baseline producer](results/phase_2_4_stage_10/HUMAN_BASELINE_PRODUCER.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md).
+**Working ETA:** roughly 30-60 minutes for this batch if recent throughput holds; allow local contention. The stage target remains approximately September 16-17 Pacific, about three to four further days. This is a planning estimate, not a precisely calculated deadline. Remaining structured/adaptive earlier-draft, synthetic effect/constraint, second human source/anchor and second-model work, common analysis and final packet can still move it. The new theory errata remains due at the first results-only wait with no appreciable setup remaining. No curator decision is currently required.
 
 ## Historical status snapshots (superseded)
 
@@ -41,3 +41,18 @@ Next: reconcile the overnight extension, reproduce the selected final calculatio
 [Overnight launch receipt](results/phase_2_4_stage_9/OVERNIGHT_CONTINUATION_LAUNCH.json), [full operational record](FINDINGS.md), [original failed closeout](results/phase_2_4_stage_9/EXECUTION_RECOVERY_CLOSEOUT.json).
 
 **Superseded forecast, retained as history.** Working estimate requested September 11 at 05:05 Pacific: experiments finish around 11:30 a.m.; the selected final audit and report target is 5:00 p.m. today. The experiment estimate uses measured pace and existing job forecasts; the closeout allowance is operator judgment. Another audit defect could move final delivery into September 12. This is a forecast for the current selected workload, not completion of the deferred full Stage 9 roster or a change to the compute cap.
+
+
+### Previous Stage 10 handoff (superseded)
+
+Updated 2026-09-13T02:21:23.193353+00:00.
+
+**Stage 10 is running in Gear 2.** The matched-history experiment compares direct reading and grounded procedure memory on 77 opportunities, with at most 231 calls. Only prior handling changes; current drafts, menus and options remain fixed. Nineteen unmatchable opportunities remain explicitly listed. Native identity and initial progress verify.
+
+The human effort evaluation and all four inexpensive baseline prediction producers are fully landed. The common score/baseline apparatus and both history-worker branches pass their known-answer checks. Selection uses development only; evaluation outcomes have not been used for fitting or scientific comparisons.
+
+CPU boost remains disabled and AC maximum processor state is 90%. The non-LLM watcher owns completion, failure and native-disappearance monitoring. No routine ETA/liveness wake is scheduled. The old native queue backlog is cleared through the supported API; future CLI message delivery remains unverified.
+
+This run is roughly twenty to forty minutes at prior throughput, subject to local contention. On its terminal event: full internal landing, then common comparisons and the remaining earlier-artifact, recipient/constraint, second-source/model work and final stage packet. The new theory errata remains queued for the first results-only wait with no appreciable setup left. No curator decision is currently required.
+
+[Current launch](results/phase_2_4_stage_10/HUMAN_HISTORY_LAUNCH.json), [human evaluation](results/phase_2_4_stage_10/HUMAN_EFFORT_EVALUATION_PRODUCER.json), [baseline producer](results/phase_2_4_stage_10/HUMAN_BASELINE_PRODUCER.json), [comparison freeze](docs/design/STAGE10_COMPARISON_FREEZE.md).

@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-12.**
+**Last updated: 2026-09-13.**
 
 ---
 
@@ -66,9 +66,27 @@ interpretability at once, and the same word means different things in each.
 
 **Native backlog retirement.** METHOD: used the installed app-server API through a bounded helper, without starting a thread or model turn. Listed this owner queue, checked the one remaining message against the unchanged full landings and local acknowledgements for the memory science producer and effort pilot, deleted only that exact submission, and listed again. The native queue is empty. Existing servers and scientific processes were untouched. The earlier unavailable proxy socket remains a failed inspection; direct API inspection/deletion now works. Future watcher CLI delivery is still not established by queue cleanup. [Retirement](results/maintenance_20260912/QUEUE_BACKLOG_RETIREMENT.json).
 
+**Native transport repair, September 13.** METHOD: preserved the five failed CLI attempts for the completed history producer, added a bounded native API transport for this existing owner, and checked acceptance, exact message binding, duplicate prevention, ambiguous-send handling and cancellation. All 96 affected checks pass; the first draft exposed a missing owner argument in the retained CLI branch, repaired before activation. A real native acceptance/list/reconciliation check passes; its already-landed notice was removed individually before becoming stale. The new watcher source is loaded and scanning without errors. No thread or model turn was started by the transport test. Future idle delivery is still a separate observation. [Receipt](results/maintenance_20260912/NATIVE_QUEUE_TRANSPORT.json).
+
 **Means.** The curator's transition-only instruction replaces earlier timer/refill rules. A healthy long-running process is an acceptable end to an agent turn. Scientific terminal evidence still needs its full landing when the transition is delivered; no new scientific test was harvested. At watchdog installation the human effort evaluation was an unvalidated private draft; its later validation and running evaluation are recorded under OPS-S10-I6.
 
 **Curator roll-up:** theory group: operating infrastructure | question: can unattended work signal only actionable transitions? | **Infrastructure** | result: all 86 checks pass | project meaning: healthy waiting no longer generates routine agent turns | next engineering obligation: inspect the next actual terminal or monitor fault | public claim: unchanged | curator decision required: No | detail: receipt above.
+
+### OPS-S10-I9 - earlier draft evidence is distinct from action history
+
+**Hypothesis.** A genuine earlier draft improves future handling prediction beyond the current draft, separately from access to recorded actions.
+
+**METHOD.** Reused the frozen writer/prompt/event allocation and byte-verified reconstructed CoAuthor sessions. Added the most recent usable menu-time draft strictly before each target, within the same session. Source decoding projects public draft/menu fields only; target outcome fields are discarded. No cross-session ordering or handling labels are supplied. The existing direct, example and matched-deliberation readers remain unchanged and share the new evidence and options. The structured and adaptive extensions remain explicit pending work.
+
+**Found.** Eight known-answer checks pass, including the complete four-job queue through constructed transport, unchanged replay, corruption refusal and future/private-field exclusion. All development requests and 94 evaluation requests fit with full reconsideration space reserved; two oversized evaluation opportunities remain explicitly excluded. Empty and identical prior drafts remain in the declared population. Training examples use the same earlier-draft representation. No scientific effect is reported. [Validation and selection](results/phase_2_4_stage_10/EARLIER_ARTIFACT_VALIDATION.json).
+
+**Literal reader admission.** METHOD: ran two training-only interface tasks through direct, retrieved-example and matched-deliberation routes, omitting each queried item from its retrieval pool. All six route outputs parse; eight original calls and 878 generated tokens reconcile. Literal requests and complete cached routes reproduce with no further model calls, and all retained files remain unchanged. This rehearsal supplies no evaluation result. [Pilot](results/phase_2_4_stage_10/EARLIER_ARTIFACT_LITERAL_PILOT.json).
+
+**Four-job science queue launched.** METHOD: verified source-bound admission, native worker identity and initial completed calls, retained CPU boost-off/90% maximum, and registered the complete chain plus native disappearance for transition-only supervision. The queue runs development direct/example, development matched-deliberation, then both evaluation jobs automatically, totaling 306 planned routes and 408 calls. Prelaunch CPU/GPU temperatures were 65.5/44.0 degrees Celsius. Earlier history predictions are fully landed; this new queue supplies earlier-draft predictions only. The native API accepts verified owner messages; an actual post-final wake remains to be observed. [Launch](results/phase_2_4_stage_10/EARLIER_ARTIFACT_LAUNCH.json).
+
+**Means.** The missing evidence view now has a frozen prediction producer and a finite sequence of jobs. It does not complete the six-strategy comparison or establish personal inference. No new test was harvested from the operational request; this implements the existing stage specification.
+
+**Curator roll-up:** theory group: maker differentiation | question: does a prior draft provide useful additional evidence? | **Infrastructure** | result: eight constructed checks pass | project meaning: earlier artifacts remain distinct from process records | next engineering obligation: full producer landing and structured/adaptive extension | public claim: unchanged | curator decision required: No | detail: receipt above.
 
 ### OPS-S10-I8 - personal history is compared with matched other-writer history
 
@@ -80,9 +98,19 @@ interpretability at once, and the same word means different things in each.
 
 **Matched-history producer launched.** METHOD: verified the original source freeze, actual native worker and initial completed routes, retained the GPU lock and cooling settings, and registered completion/failure/native-disappearance supervision. The direct and grounded-memory reader run on the 77 frozen matched opportunities, with at most 231 calls. Original true-history predictions are retained for later matching; no scientific comparison is reported. The native queue backlog is cleared, while future CLI wake delivery remains unverified. [Launch](results/phase_2_4_stage_10/HUMAN_HISTORY_LAUNCH.json).
 
+**Complete prediction producer landed, September 13.** METHOD: reproduced the entire source-bound producer with model calls and rule execution disabled, independently rebuilt all literal requests and raw parses/costs, and separately re-executed every retained bounded rule. All 154 predictions are valid; the original 231 calls, 37,770 generated tokens and 308 rule evaluations reconcile. All 1,313 retained files remain unchanged. The worker finished at 02:34 UTC and released its GPU lock. The completion notice failed five CLI delivery attempts and was recovered through the pending-state handoff; no actual owner-message delivery is claimed. This validates production integrity, not predictive benefit. [Producer](results/phase_2_4_stage_10/HUMAN_HISTORY_PRODUCER.json).
+
+Production integrity for the complete matched-history bank; counts cover both reader routes, and validity denotes protocol parsing, not predictive correctness.
+
+| Check | Verified total |
+|---|---:|
+| Planned and retained predictions | 154 |
+| Original model calls | 231 |
+| Retained files unchanged by inspection | 1,313 |
+
 **Means.** The new worker can compare direct reading and the selected structured rival against their unchanged true-history predictions on the identical eligible population. This is not a history benefit result; paired comparisons and remaining stage tasks are still pending. No scientific test was harvested from the wake itself.
 
-**Curator roll-up:** theory group: maker differentiation | question: does this person's history help more than someone else's? | **Infrastructure** | result: the matched-history worker is validated | project meaning: the declared personalization control is ready to execute | next engineering obligation: launch and fully land its complete prediction producer, then compare the matched population | public claim: unchanged | curator decision required: No | detail: receipts above.
+**Curator roll-up:** theory group: maker differentiation | question: does this person's history help more than someone else's? | **Infrastructure** | result: the complete matched-history producer is internally landed | project meaning: the personalization comparison now has its retained predictions | next engineering obligation: complete the matched scientific comparison and remaining stage branches | public claim: unchanged | curator decision required: No | detail: receipts above.
 
 ### OPS-S10-I7 - reader comparisons retain invalids and inexpensive alternatives
 

@@ -19,6 +19,7 @@ import time
 import uuid
 
 from codex_common import REPO, STATE, atomic_json, audit, database, digest, get, put, singleton
+import codex_queue_api
 
 sys.path.insert(0, str(REPO))
 from runners.stage9.process_identity import native_identity
@@ -205,7 +206,7 @@ def prompt(events):
         "with python tools/codex_watch.py ack EVENT_ID. Do not acknowledge merely receiving this message.")
 
 
-def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
+def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, native_sender=None):
     now = time.time() if now is None else now
     if (state / "watch.cancel").exists():
         return "cancelled"
@@ -248,6 +249,30 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
     if config.get("remote"):
         cmd += ["--remote", config["remote"]]
     try:
+        if config.get('queue_transport') == 'native-api':
+            if config.get('remote'):
+                raise ValueError('native local queue cannot substitute for configured remote')
+            sender = native_sender or codex_queue_api.deliver
+            queue_id = sender(config['codex'], repo, state, owner, prompt(events), [e['id'] for e in events])
+            status, error = 'queued', None
+        else:
+            status, queue_id, error = deliver_cli(cmd, runner, repo, owner)
+    except (TimeoutError, RuntimeError, ValueError, OSError, KeyError, TypeError) as exc:
+        # Native writes can be accepted before an exception; require reconciliation.
+        status, queue_id, error = 'unknown', None, type(exc).__name__ + '; inspect native queue before retry'
+    with database(state) as db:
+        if status == "queued":
+            put(db, "last_dispatch", now)
+        for event in events:
+            attempts = event["attempts"] + 1
+            settled = "failed" if status == "pending" and attempts >= 5 else status
+            db.execute("UPDATE events SET state=?,queue_id=?,error=?,next_try=? WHERE id=?",
+                (settled, queue_id, error, now + min(3600, 60 * 2**attempts), event["id"]))
+    return status
+
+
+def deliver_cli(cmd, runner, repo, owner):
+    try:
         result = runner(cmd, cwd=repo, capture_output=True, text=True, timeout=45,
                         creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
         match = re.search(r"Queued message ([0-9a-f-]+) for thread ([0-9a-f-]+)", result.stdout)
@@ -261,15 +286,7 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None):
         status, queue_id, error = "unknown", None, "queue timed out; inspect queue before retry"
     except OSError as exc:
         status, queue_id, error = "pending", None, type(exc).__name__
-    with database(state) as db:
-        if status == "queued":
-            put(db, "last_dispatch", now)
-        for event in events:
-            attempts = event["attempts"] + 1
-            settled = "failed" if status == "pending" and attempts >= 5 else status
-            db.execute("UPDATE events SET state=?,queue_id=?,error=?,next_try=? WHERE id=?",
-                (settled, queue_id, error, now + min(3600, 60 * 2**attempts), event["id"]))
-    return status
+    return status, queue_id, error
 
 
 def acknowledge(event_id, *, state=STATE, now=None):
@@ -336,6 +353,7 @@ def run(config, state=STATE, repo=REPO):
                        "WHERE state='sending'")
             put(db, "watcher", {"pid": os.getpid(), "started": time.time(),
                 "source_sha256": digest(Path(__file__)),
+                "queue_api_sha256": digest(Path(codex_queue_api.__file__)),
                 "common_sha256": digest(Path(__file__).with_name("codex_common.py"))})
         while not (state / "watch.cancel").exists():
             try:

@@ -1,6 +1,6 @@
 # STATE: the agent's operational file
 
-Watcher transport is verified through actual delivery: after the extension-path repair, the launch notice reached this conversation after its final response. Its unchanged receipt and prior full landing were reconciled before acknowledgement. The same queue continued running.
+Current watcher transport uses the verified native queue API after five CLI failures left the completed history batch idle overnight. Native acceptance/deduplication and loaded watcher sources verify; actual idle delivery on the new backend is still pending. Earlier successful deliveries remain historical evidence.
 
 
 
@@ -22,7 +22,7 @@ receipts determine execution state; later ratified stage contracts override olde
 
 ## Current operating handoff: Stage 10, 2026-09-12
 
-**Current run:** the matched other-writer history producer is running in Gear 2, comparing direct reading and development-selected procedure memory. The full inexpensive baseline producer is internally landed. Native identity and expected outputs are recorded; CPU boost-off/90% maximum remains. The native notification backlog is cleared, and future CLI delivery is still unverified. [Launch](../results/phase_2_4_stage_10/HUMAN_HISTORY_LAUNCH.json).
+**Current run:** the four-job earlier-draft science queue is running in Gear 2, with direct, example and matched-deliberation development/evaluation jobs advancing locally. The complete matched-history producer is internally landed and acknowledged. CPU boost-off/90% maximum remains; native identity and final outputs are recorded. The repaired native transport has passed acceptance checks. [Launch](../results/phase_2_4_stage_10/EARLIER_ARTIFACT_LAUNCH.json).
 
 **Latest operating override:** transition-only monitoring is active. Native identities and expected outputs are in the private Stage 10 handoff. Routine timers are retired; end healthy-running turns and resume only on completion, failure, disappearance or a predefined checkpoint. Terminal inspection is the next action; Gear 2 and cooling authority are unchanged.
 

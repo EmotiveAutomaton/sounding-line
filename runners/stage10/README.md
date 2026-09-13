@@ -151,3 +151,5 @@ replays complete outputs without calls and requires native ownership recovery
 for interrupted work; it does not automatically restart an unfinished attempt.
 Both rival paths pass constructed full-worker checks. The selected real cohort
 and all first/refinement request bounds are frozen before evaluation answers.
+
+`earlier_artifacts.py` projects strictly prior within-session draft snapshots from verified CoAuthor replay, retaining empty and identical priors and explicit context exclusions. It adds no handling labels or operations. Its finite R0/R1/R2 development/evaluation chain has four terminal-guarded jobs, source-bound literal admission and known-answer full-chain replay checks. It does not substitute direct deliberation for the still-pending structured/adaptive extensions.

@@ -10,7 +10,7 @@ archive, kept whole, mined but never deleted.
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.
 
 - [x] OPS-WAKE-TRANSITIONS: use transition-only watchdogs; record process identities/outputs and end healthy-running turns. No routine liveness timer or mandatory refill before replying.
-- [x] OPS-WAKE-TRANSITIONS: inspect and retire the exact already-landed native notification through the native API; empty queue verified, original proxy failure retained. Future CLI wake delivery remains unverified.
+- [x] OPS-WAKE-TRANSITIONS: inspect and retire the exact already-landed native notification through the native API; empty queue verified, original proxy failure retained. The native API replacement now passes acceptance/deduplication checks; actual post-final delivery remains pending.
 - [x] S10: assess the supplied specification against current theory, lessons, model and prepared source interfaces; record adoption and scope.
 - [x] S10-I1: validate literal model calls, public task boundary, Ghost transport and actual resume on discarded cases; preserve every attempt.
 - [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.
@@ -70,7 +70,11 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: freeze real inexpensive predictions and select the history-intervention rival on development only.
 - [x] S10-C3: validate both history-worker branches and freeze exact-length other-writer donors; preserve all exclusions.
 - [x] S10-C3: launch the validated matched-history producer with verified native progress and transition-only supervision.
-- [ ] S10-C3: fully land the matched-history producer on terminal; complete common-cell analysis afterward.
+- [x] S10-C3: fully land the matched-history producer; all requests, parses, costs, rule executions and native exit verify.
+- [ ] S10-C3: complete common-cell and matched-history analysis under the frozen comparisons.
+- [x] S10-C3: prepare and validate chronological earlier-draft evidence and its four-job R0/R1/R2 producer chain; retain empty/identical history and two context exclusions.
+- [x] S10-C3: land the training-only literal earlier-draft pilot and launch the validated four-job chain under transition-only supervision.
+- [ ] S10-C3: land the earlier-draft producer; extend structured/adaptive readers and apply the complete paired comparison.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.

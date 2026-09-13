@@ -34,6 +34,8 @@ Use the installed native API for such bounded owner-only inspection; retain the
 original failure. Queue cleanup does not establish future CLI delivery. [Retirement
 receipt](../results/maintenance_20260912/QUEUE_BACKLOG_RETIREMENT.json).
 
+The September 13 history completion exhausted five CLI attempts and left science idle. The watcher now uses `queue_transport: native-api` through `tools/codex_queue_api.py`: a bounded native helper lists and adds only the existing owner queue. A stable event-batch identity permits reconciliation without duplicating a pending message. Missing or ambiguous receipts become `unknown`, requiring inspection; no backend fallback or blind retry occurs. Private helper stderr is retained. Actual API acceptance, list, deduplication and exact retirement pass, as do 96 affected checks. The watcher records the loaded transport source hash. This fixes verified enqueueing; a future post-final delivery still must be observed separately. [Receipt](../results/maintenance_20260912/NATIVE_QUEUE_TRANSPORT.json).
+
 The curator authorized the full Claude/Fable to Codex/GPT transition on 2026-09-05.
 `AGENTS.md` is the canonical contract; `.agents/skills/grind/SKILL.md` is its operational
 skill. `CLAUDE.md` is a compatibility pointer, and the original contract is archived.
