@@ -54,6 +54,18 @@ interpretability at once, and the same word means different things in each.
 
 **Stage 10 implementation is underway, September 12, 2026.** The supplied reader-prototype plan is adopted in Gear 2 with CPU cooling limits retained. The literal local-model, public Ghost transport and saved-call resume checks have passed; direct and fixed-example readers and the initial CoAuthor source adapter are implemented. The initial CoAuthor and Ghost development producers are complete and verified; the direct/example and matched-deliberation CoAuthor evaluations are complete; the fitted effort policy has completed its reserved prediction producer. The native-procedure reading prediction producers are complete and verified; the human executable-rule predictions are complete and verified, and the human procedure-memory comparison is running while broader human readers, other tasks and final scientific analysis remain to be completed. Stage 9's selected packet remains closed; its deferred agenda is separate. [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md).
 
+### OPS-WAKE-TRANSITIONS - healthy computation does not require repeated agent turns
+
+**Hypothesis.** Local process supervision can detect actionable run transitions without waking the operating agent for unchanged healthy computation.
+
+**METHOD.** Disabled elapsed-time and planned liveness events in transition-only mode, retained final-produce delivery, and added native identity supervision for disappearance or PID reuse without a terminal record. Tested healthy time passage, completed/failed output, missing output, identity reuse and inaccessible inspection, plus the existing scheduling/runtime checks. Inspected the Stop hook and verified the restarted watchdog loaded the changed source and retained no timer.
+
+**Found.** All 86 checks pass with no real model calls. Healthy observations produce no agent event, and disappearance produces one retained monitor fault. Inaccessible identity remains a monitoring failure, not proof of process death. Earlier verification commands encountered an unfinished patch and temporary-directory setup errors; the successful run used a new repository-local temporary root. No scientific worker was restarted. Native identities and expected terminal paths are recorded privately. [Receipt](results/maintenance_20260912/TRANSITION_WATCH.json).
+
+**Means.** The curator's transition-only instruction replaces earlier timer/refill rules. A healthy long-running process is an acceptable end to an agent turn. Scientific terminal evidence still needs its full landing when the transition is delivered; no new scientific test was harvested. The human effort evaluation draft is retained privately and is not validated or launched.
+
+**Curator roll-up:** theory group: operating infrastructure | question: can unattended work signal only actionable transitions? | **Infrastructure** | result: all 86 checks pass | project meaning: healthy waiting no longer generates routine agent turns | next engineering obligation: inspect the next actual terminal or monitor fault | public claim: unchanged | curator decision required: No | detail: receipt above.
+
 ### OPS-S10-I6 - human effort selection uses measured benefits and reserved budgets
 
 **Hypothesis.** A human-record reader can spend extra computation only where development evidence supports its cost, without treating confidence as correctness.

@@ -9,6 +9,7 @@ archive, kept whole, mined but never deleted.
 
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. No cloud activation is authorized.
 
+- [x] OPS-WAKE-TRANSITIONS: use transition-only watchdogs; record process identities/outputs and end healthy-running turns. No routine liveness timer or mandatory refill before replying.
 - [x] S10: assess the supplied specification against current theory, lessons, model and prepared source interfaces; record adoption and scope.
 - [x] S10-I1: validate literal model calls, public task boundary, Ghost transport and actual resume on discarded cases; preserve every attempt.
 - [x] S10-C1: freeze a small R0/R1 science cohort and implement CoAuthor predecision handling with writer/prompt separation.

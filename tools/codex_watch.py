@@ -14,10 +14,14 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
 import time
 import uuid
 
 from codex_common import REPO, STATE, atomic_json, audit, database, digest, get, put, singleton
+
+sys.path.insert(0, str(REPO))
+from runners.stage9.process_identity import native_identity
 
 
 DEADLINE_PATH = "[watch deadline: inspect queue liveness]"
@@ -32,7 +36,8 @@ def owner_active(db, now):
 
 def urgent(event, config):
     name = Path(event["path"]).name.upper()
-    return (name in {"FAILED.JSON", "PAUSED.JSON", "INTERRUPT.JSON", "INTERRUPTS.JSON"}
+    return ((config.get("transition_only") and event["path"] != DEADLINE_PATH)
+            or name in {"FAILED.JSON", "PAUSED.JSON", "INTERRUPT.JSON", "INTERRUPTS.JSON"}
             or name.endswith("_FAILED.JSON")
             or event["path"] in config.get("urgent_paths", []))
 
@@ -97,6 +102,45 @@ def add_event(db, path, content_hash, now):
     return event_id
 
 
+def process_transitions(config, db, repo, now):
+    """Cheap native supervision. Healthy processes never create agent events."""
+    changes = []
+    for job in config.get("process_watches", []):
+        output = (repo / job["failure_output"]).resolve()
+        terminals = [(repo / p).resolve() for p in job["terminal_paths"]]
+        if not output.is_relative_to(repo.resolve()) or any(not p.is_relative_to(repo.resolve()) for p in terminals):
+            raise ValueError("Process watch path outside repository")
+        if output.exists():
+            continue
+        # A final produce owns the completion/failure notification, even during
+        # the short interval before its native worker actually exits.
+        if any(p.is_file() and valid_json(p) for p in terminals):
+            continue
+        try:
+            actual = native_identity(job["native"]["pid"])
+            if actual == job["native"]:
+                continue
+            reason = "process disappeared without terminal output" if actual is None else "PID identity changed without terminal output"
+        except OSError as exc:
+            actual = None
+            reason = "native supervision unavailable: " + type(exc).__name__
+        record = {"at": now, "status": "MONITOR_FAILED", "reason": reason,
+                  "expected_native": job["native"], "observed_native": actual,
+                  "terminal_paths": job["terminal_paths"], "scientific_verdict": False}
+        atomic_json(output, record)
+        changes.append(add_event(db, output.relative_to(repo.resolve()).as_posix(), digest(output), now))
+    return changes
+
+
+def valid_json(path):
+    try:
+        record = json.loads(path.read_text(encoding="utf-8"))
+        return isinstance(record, dict) and (record.get("status") in {"COMPLETE", "PASS", "FITTED", "FAILED"}
+                                              or (path.name == "FAILED.json" and "error" in record))
+    except (ValueError, OSError):
+        return False
+
+
 def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_since=None):
     now = time.time() if now is None else now
     files = list(candidates(config, repo))
@@ -131,7 +175,7 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
         if baseline:
             put(db, "baseline_at", now)
             put(db, "last_fallback", now)
-        else:
+        elif not config.get("transition_only"):
             plan = get(db, "wake_plan")
             if plan and plan["owner"] == get(db, "owner"):
                 if now >= plan["due"] and not plan.get("event_id") and not owner_active(db, now):
@@ -144,6 +188,8 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
                 if now - attended >= config.get("fallback_seconds", 28800):
                     changes.append(add_event(db, DEADLINE_PATH, str(int(now)), now))
                     put(db, "last_fallback", now)
+        if not baseline:
+            changes.extend(process_transitions(config, db, repo, now))
         put(db, "last_scan", now)
     return changes
 

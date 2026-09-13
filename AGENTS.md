@@ -12,6 +12,15 @@ models, interpreting unfinished cells, or changing the current gear. Never conta
 **Runtime:** Codex with GPT is the coding operator. Scientific model arms, credentials,
 locked research files, adapters, and process ownership are separate from that choice.
 Read `docs/CODEX_OPERATIONS.md` for hooks, watcher health, session ownership, and rollback.
+
+**Waiting override, curator instruction 2026-09-12:** a healthy long-running
+process is a legitimate terminal state for the current agent turn. Record its
+native identity and expected outputs, then stop. Use the non-LLM watcher for
+completion, failure, disappearance or a predefined scientific checkpoint.
+Do not schedule routine liveness/ETA wakes, continue from a Stop hook, recurse
+through a queue rule, or invoke an agent merely because work remains. Never
+restart valid work to refresh reports or monitoring clocks. This supersedes
+the older planned-wake timing and mandatory-refill-before-reply rules below.
 A queued message is not proof of an idle wake; require the recorded delivery acknowledgement.
 Keep one operating session for this workspace. Delegate only on an explicit per-task request.
 Read the newest root `CODING_AGENT_ERRATA*.md` maintenance handoff when present. It does

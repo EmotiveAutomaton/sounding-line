@@ -1,5 +1,21 @@
 # Codex operations
 
+## Current waiting policy, 2026-09-12
+
+The curator replaced routine ETA/liveness wakes with transition-only operation.
+Private watcher configuration sets `transition_only: true`; explicit deadline
+plans and elapsed-time fallback cannot create events in that mode. Successful
+terminal produces, failures and predefined checkpoints still notify the owner.
+`process_watches` binds native PID, creation time, executable and terminal paths;
+disappearance or PID reuse without a final produce writes one monitor failure.
+Inaccessible identity is a monitoring fault, never a claim of process death.
+The service polls cheaply; healthy observations never invoke an agent.
+
+Record native identities and expected outputs before ending a turn. No Stop
+hook, recursive queue rule or remaining-work condition may extend it merely
+because a simulation is running. Existing timer-based instructions below are
+historical and superseded. No scientific process is restarted for monitoring.
+
 The curator authorized the full Claude/Fable to Codex/GPT transition on 2026-09-05.
 `AGENTS.md` is the canonical contract; `.agents/skills/grind/SKILL.md` is its operational
 skill. `CLAUDE.md` is a compatibility pointer, and the original contract is archived.
