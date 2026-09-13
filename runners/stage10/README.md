@@ -175,3 +175,9 @@ specified history delta and complete declared contrasts. Paid execution remains
 exclusively under `runners/gear3.py round1` and `round1-plan`, with one canonical
 campaign ledger. Offline verification is not literal cloud or scientific admission.
 See the [Round 1 runbook](../../docs/design/GEAR_3_ROUND_1_REVIEW.md).
+
+The extended Round 1 checks cover partial-unit result reconstruction before new
+calls, exact training/target group separation, full donor provenance and complete
+returned-block replay. Finished export recovery performs no inference and refuses
+an existing archive that differs from its retained attempt. Account/environment
+binding and the lower account allocation are enforced by the campaign controller.

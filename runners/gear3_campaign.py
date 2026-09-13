@@ -108,7 +108,7 @@ class CampaignLedger:
 
     def reserve(self, invocation: str, node: str, command: list[str], profile: dict,
                 seconds: int, overhead_cents: int, *, approval: str, now: float | None = None,
-                recovery_of: str | None = None, cache=False):
+                recovery_of: str | None = None, cache=False, workspace_cap_cents=5000):
         now = time.time() if now is None else now
         if not math.isfinite(now) or node not in NODE_CENTS or not invocation or not approval.strip():
             raise ValueError("invalid invocation authorization")
@@ -117,6 +117,8 @@ class CampaignLedger:
         if not command or any(not isinstance(c, str) or not c for c in command):
             raise ValueError("concrete argument-vector command required")
         if type(cache) is not bool or (cache and node not in {'P','Reserve'}):raise ValueError('undeclared cache reservation')
+        if type(workspace_cap_cents) is not int or not 1000 < workspace_cap_cents <= 5000:
+            raise ValueError("invalid workspace allocation")
         cost = capped_cost_cents(seconds, overhead_cents,cache=cache)
         resources=CACHE_RESOURCE_PROFILE if cache else RESOURCE_PROFILE
         with self.transaction() as data:
@@ -147,6 +149,10 @@ class CampaignLedger:
             elif recovery_of is not None:
                 raise ValueError("repair cannot consume a scientific branch silently")
             totals = self.totals(data)
+            if sum(totals.values())+cost>workspace_cap_cents:
+                raise ValueError("workspace allocation exceeded inside reservation lock")
+            if node!="Reserve" and sum(v for k,v in totals.items() if k!="Reserve")+cost>workspace_cap_cents-1000:
+                raise ValueError("workspace allocation must retain repair reserve")
             if totals[node] + cost > NODE_CENTS[node] or sum(totals.values()) + cost > 5000:
                 raise ValueError("campaign or branch cap exceeded before dispatch")
             if node != "Reserve" and sum(v for k,v in totals.items() if k != "Reserve") + cost > 4000:

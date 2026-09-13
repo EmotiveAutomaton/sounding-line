@@ -42,6 +42,7 @@ def validate(manifest):
     tasks={}
     for row in manifest["tasks"]:
         if set(row) != {"record", "envelope", "group"}: raise ValueError("unexpected target data")
+        if not isinstance(row["group"], str) or not row["group"]: raise ValueError("missing source group")
         task=from_record(row["record"])
         if task.task_id in tasks: raise ValueError("duplicate target record")
         if task.family == "coauthor-handling":
@@ -70,6 +71,12 @@ def validate(manifest):
                 raise ValueError('training answer has missing metadata or unpermitted fields')
         training_ids.update(public)
     if training_ids & set(tasks): raise ValueError("training overlaps target task IDs")
+    if manifest['node'] != 'P':
+        for family,data in manifest['training'].items():
+            field='writer_component' if family=='coauthor-handling' else 'case_id'
+            train_groups={r[field] for r in data['answers']}
+            if any(row['group'] in train_groups for task,row in tasks.values() if task.family==family):
+                raise ValueError('scientific target overlaps a training source group')
     pairs=defaultdict(set); by_task=defaultdict(set); ids=[]
     for unit in manifest["units"]:
         if set(unit)!={"task_id", "model", "arm"} or unit["task_id"] not in tasks or unit["model"] not in profiles or unit["arm"] not in METHODS[manifest["node"]]:
@@ -153,8 +160,16 @@ def run_block(manifest, output: Path, *, ghost_root=None, before_model=None, sto
         expected=digest({"block":binding,"unit":unit})
         if receipt_path.exists():
             saved=read(receipt_path)
-            if saved["binding"]!=expected or saved["files"]!=inventory(folder/"route"):
+            if (saved["binding"]!=expected or saved["files"]!=inventory(folder/"route")
+                    or saved['unit']!=unit or saved['profile']!=asdict(profiles[unit['model']])):
                 raise ValueError("saved unit changed")
+            from unittest.mock import patch
+            def forbidden(*a, **kw): raise ValueError('saved unit replay attempted inference')
+            task,row=tasks[unit['task_id']]
+            with patch.object(ollama, 'api', forbidden):
+                reproduced=dispatch(task,row,unit['arm'],profiles[unit['model']],folder/'route',manifest['training'],ghost_root)
+            if reproduced!=saved['result']:
+                raise ValueError('saved unit native result does not reproduce')
             rows.append(saved);continue
         if unit["model"]!=active:
             if before_model is not None: before_model(profiles[unit["model"]])

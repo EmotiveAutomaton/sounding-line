@@ -11,8 +11,8 @@ from runners.stage10.contracts import digest
 
 
 def account(path):
-    value={'workspace':'fixture-only','observed_at':time.time(),'source':'owner-billing-page','usage_limit_cents':5000,
-        'metered_at_check_cents':0,'net_spend_limit_cents':5000,'remaining_credits_cents':0,'other_workloads':'none','status':'VERIFIED'}
+    value={'workspace':'fixture-only','environment':'main','payment_method_present':True,'storage_allowance_cents':0,'observed_at':time.time(),'source':'owner-billing-page','usage_limit_cents':5000,
+        'metered_at_check_cents':0,'net_spend_limit_cents':5000,'remaining_credits_cents':0,'other_workloads':'none','status':'VERIFIED','cycle_start_at':time.time()-3600,'cycle_end_at':time.time()+86400}
     path.write_text(json.dumps(value));return value
 
 
@@ -24,7 +24,7 @@ def test_account_backstop_and_early_deadline(tmp_path):
     records=[];cancelled=[]
     with controller.deadline_guard(time.time()+.03,lambda:cancelled.append('startup') or 'stopped',records.append):
         time.sleep(.08)
-    assert cancelled==['startup'] and records[0]['status']=='DEADLINE_CANCELLED'
+    assert cancelled==['startup'] and records[0]['status']=='DEADLINE_STOP_REQUESTED'
     records.clear()
     with controller.deadline_guard(time.time()+60,lambda:pytest.fail('early cancellation'),records.append):pass
     assert not records
@@ -100,7 +100,9 @@ def test_controller_reserves_then_preserves_complete_or_unknown(tmp_path,monkeyp
             if path.name=='COMPLETE.json':raise OSError('constructed local receipt failure')
             return original_write(path,value)
         monkeypatch.setattr(controller,'atomic_json',faulty_write)
-    events=[];saved={};volume=SimpleNamespace()
+    events=[];saved={};volume=SimpleNamespace();bound_client=object()
+    monkeypatch.setattr(controller,'provider_client',lambda account:(bound_client,{'workspace':'fixture-only','workspace_id':'wk-fixture'}))
+    monkeypatch.setattr(controller,'stop_app_rpc',lambda client,app_id:events.append('cancel-app') or {'app_id':app_id})
     @contextmanager
     def upload():yield SimpleNamespace(put_file=lambda *a:events.append('upload'))
     volume.batch_upload=upload
@@ -117,7 +119,7 @@ def test_controller_reserves_then_preserves_complete_or_unknown(tmp_path,monkeyp
             assert options['startup_timeout']==30 and options['timeout']==60 and options['include_source'] is False
             return lambda f:SimpleNamespace(spawn=spawn)
         @contextmanager
-        def run(self,**kwargs):assert kwargs['detach'] is False;yield self
+        def run(self,**kwargs):assert kwargs['detach'] is False and kwargs['client'] is bound_client;yield self
     class Call:
         object_id='fc-fixture'
         def get(self,timeout):
@@ -126,7 +128,7 @@ def test_controller_reserves_then_preserves_complete_or_unknown(tmp_path,monkeyp
             return saved['terminal']
         def cancel(self,**kwargs):events.append('cancel-call')
     def spawn(reservation,path,mode):
-        events.append('spawn');terminal={'status':'COMPLETE','reservation_sha256':digest(reservation),'mode':'cache','archive_path':'exports/fixture.zip'}
+        events.append('spawn');terminal={'status':'COMPLETE','reservation_sha256':digest(reservation),'mode':'cache','archive_path':'exports/fixture.zip','owner_ended':True,'source_archive_sha256':checked['archive_sha256']}
         folder=tmp_path/'remote';folder.mkdir();(folder/'TERMINAL.json').write_text(json.dumps(terminal))
         storage.make_archive(folder,tmp_path/'output.zip');saved.update(terminal=terminal,archive=(tmp_path/'output.zip').read_bytes())
         return Call()

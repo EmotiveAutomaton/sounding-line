@@ -40,6 +40,9 @@ def human_source(root):
             files[name]=hashlib.sha256((root/name).read_bytes()).hexdigest()
     if {r['source_event'] for r in groups['train'].values()} & {r['source_event'] for r in groups['evaluation'].values()}:
         raise ValueError('training and target source events overlap')
+    for field in ('writer_component','prompt_component'):
+        if {r[field] for r in groups['train'].values()} & {r[field] for r in groups['evaluation'].values()}:
+            raise ValueError('human training and evaluation dependencies overlap')
     labels=read(root/'train-evaluator.json')
     if digest(labels)!=frozen['evaluator_sha256']['train']:raise ValueError('training labels changed')
     # Preserve the existing complete training pool, including its labelled views.
@@ -141,7 +144,7 @@ def roster(c,*,human_n=64,ghost_n=12,history_n=24,memory_human_n=24,memory_ghost
         original=from_record(p['original']);donor=sources[p['donor_task_id']]
         g=h['groups']['evaluation'][p['donor_task_id']]
         donors[original.task_id]={'group':p['donor_writer'],'dependencies':['prompt:'+g['prompt_component']],
-            'public':from_record(donor).public(),'source_record_sha256':digest(donor)}
+            'public':from_record(donor).public(),'source_record':donor,'source_record_sha256':digest(donor)}
         for condition in ('other-writer','artifact-only'):
             task=from_record(p['altered']) if condition=='other-writer' else replace(original,evidence_view='artifact',
                 evidence={k:v for k,v in original.evidence.items() if k!='earlier_handling'})

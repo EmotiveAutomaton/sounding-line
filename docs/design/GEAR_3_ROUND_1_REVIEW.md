@@ -11,6 +11,37 @@ The [supplied specification](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md
 is archived under the curator's requested name with unchanged bytes. This review
 is an engineering assessment, not a scientific finding or a launch receipt.
 
+## Extended validation and account handoff, September 13
+
+All 42 focused checks now pass; the full 44-route pilot and its 72 model calls were
+rehearsed with constructed transport and actual task execution. Defects in partial
+cache reuse, source-group isolation, cancellation and workspace binding were
+repaired and retested. The [revalidation receipt](../../results/gear3/G3-S10-READER-1/REVALIDATION.json)
+binds reviewed sources and regenerated private preparation-v4. Older packages are
+historical and must not be dispatched against the new sources.
+
+The owner supplied the account's current cycle, usage/credit limits and payment
+method confirmation. Read-only provider inspection verifies the token workspace,
+its single environment, absence of apps and a retained volume. No resource was
+created, changed or deleted. Exact account identity and records remain private in
+`.agent-state/gear3-account.json` on the isolated checkout. They expire after one day;
+refresh before dispatch. A listed card is recorded as present, not a guarantee of a
+future charge. The [workspace guide](../GEAR3_MODAL_WORKSPACE_GUIDE.md) provides the
+navigation steps and explains gross usage versus net spend.
+
+The real workspace cap is lower than the commissioned maximum. Preserve a
+one-dollar allowance for existing storage and the full ten-dollar repair reserve;
+ordinary work must fit the remainder as well as its original branch limits.
+Allocation is checked inside the shared reservation lock. Any additional compute
+or unknown workspace sharing requires a new inventory/allocation, not a fictitious
+empty-account record. No limit increase or account upgrade is needed.
+
+Paid execution has not started. The next step remains the discarded literal
+pilot, followed by inspection of complete returns, both model identities, actual
+GPU residency/peak memory and measured wall cost. Only then freeze affordable
+science; the final evaluator join/packet remains an implementation obligation.
+Do not mistake the prepared sequence driver for an already affordable frozen plan.
+
 ## Commissioned implementation and pilot handoff
 
 Implementation lives on `codex/gear3-round1`, separate from the original local

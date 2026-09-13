@@ -57,7 +57,22 @@ def run_plan(repo,plan_path,account_path):
                 receipt=verify_archive(local/'OUTPUT.zip')
                 original=json.loads((local/'RETRIEVAL.json').read_text())
                 terminal=json.loads((local/'REMOTE_TERMINAL.json').read_text())
-                if receipt!=original or terminal['status']!=saved[0]['status']:raise ValueError('prior retrieval differs')
+                reservation=json.loads((local/'RESERVATION.json').read_text())
+                row=saved[0]
+                immutable=('campaign_id','invocation_id','node','command','profile','resources','duration_cap_seconds',
+                           'expires_at','ts','reserved_cents','overhead_cents','approval','campaign_authorization','recovery_of')
+                if any(reservation[k]!=row[k] for k in immutable):raise ValueError('prior reservation differs from ledger')
+                import zipfile
+                with zipfile.ZipFile(local/'OUTPUT.zip') as z:
+                    embedded=json.loads(z.read('TERMINAL.json'))
+                if (receipt!=original or terminal!=embedded or terminal['status']!=row['status']
+                        or terminal['reservation_sha256']!=digest(reservation)
+                        or terminal['source_archive_sha256']!=job['bundle_sha256']
+                        or terminal.get('owner_ended') is not True):
+                    raise ValueError('prior retrieval differs')
+                evidence=row['events'][-1]['evidence']
+                if evidence['full_archive_sha256']!=receipt['archive_sha256']:
+                    raise ValueError('prior archive differs from terminal ledger evidence')
                 status=terminal['status']
             else:
                 args=SimpleNamespace(account=account_path,bundle=owned(job['bundle']),invocation=identifier,node=job['node'],

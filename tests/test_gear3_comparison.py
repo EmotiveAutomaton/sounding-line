@@ -1,5 +1,5 @@
 from copy import deepcopy
-from dataclasses import replace
+from dataclasses import replace, asdict
 import pytest
 from runners.stage10 import comparison,gear3_comparison as g3,human_memory_checks as fixtures
 from runners.stage10.contracts import digest
@@ -37,8 +37,10 @@ def test_exact_history_delta_and_common_donor_graph(condition):
     altered=[];donors={}
     for t in tasks:
         donor_public=deepcopy(t.public());donor_public['evidence']['earlier_handling']=['reject','accept']
+        donor_record=asdict(replace(t,task_id=digest(['donor',t.task_id])[:32],evidence=deepcopy(donor_public['evidence'])))
+        donor_public=replace(t,task_id=donor_record['task_id'],evidence=donor_record['evidence']).public()
         donors[t.task_id]={'group':'shared-donor','dependencies':['shared-donor-prompt'],
-                           'public':donor_public,'source_record_sha256':digest(donor_public)}
+                           'public':donor_public,'source_record':donor_record,'source_record_sha256':digest(donor_record)}
         evidence=deepcopy(t.evidence)
         if condition=='other-writer':evidence['earlier_handling']=['reject','accept']
         else:evidence.pop('earlier_handling')
@@ -53,6 +55,8 @@ def test_exact_history_delta_and_common_donor_graph(condition):
         with pytest.raises(ValueError):g3.history_contrast(left,bad,condition=condition,donors=donors)
     bad=deepcopy(right);bad['rows'][0]['public']['choices'].reverse()
     with pytest.raises(ValueError):g3.history_contrast(left,bad,condition=condition,donors=donors)
+    bad=deepcopy(donors);bad[tasks[0].task_id]['source_record_sha256']='g'*64
+    with pytest.raises(ValueError):g3.history_contrast(left,right,condition=condition,donors=bad)
     bad=deepcopy(donors);bad[tasks[0].task_id]['public']['evidence']['earlier_handling'].pop()
     with pytest.raises(ValueError):g3.history_contrast(left,right,condition=condition,donors=bad)
 

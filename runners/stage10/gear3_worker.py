@@ -16,8 +16,24 @@ import uuid
 import urllib.request
 from . import gear3_batch as batch,ollama
 from .contracts import digest
-from .gear3_io import durable_attempts,make_archive,verify_archive
+from .gear3_io import durable_attempts,make_archive,verify_archive,inventory
 from .queue import read
+
+
+def finish_export(volume, root, output, terminal):
+    """A finished attempt can recover transport without repeating computation."""
+    export=root/terminal['archive_path']
+    if not export.resolve().is_relative_to((root/'exports').resolve()):
+        raise ValueError('export escapes campaign transport directory')
+    if export.exists():
+        if verify_archive(export)['files']!=inventory(output):
+            raise ValueError('retained export differs from complete attempt')
+    else:
+        temporary=export.with_name(export.name+'.'+uuid.uuid4().hex+'.tmp')
+        make_archive(output,temporary)
+        temporary.replace(export)
+    volume.commit()
+    return terminal
 
 
 def run(volume,reservation,bundle_path,mode):
@@ -31,7 +47,7 @@ def run(volume,reservation,bundle_path,mode):
         # A provider replay returns existing transport identity, not another run.
         terminal=read(output/'TERMINAL.json')
         if terminal['reservation_sha256']!=digest(reservation):raise ValueError('terminal reservation changed')
-        return terminal
+        return finish_export(volume,root,output,terminal)
     if (output/'STARTED.json').exists():
         # A preempted worker may have sent a request without receiving its reply.
         # Preserve the attempt; recovery is a separate charged controller action.
@@ -125,6 +141,4 @@ def run(volume,reservation,bundle_path,mode):
                 'archive_path':'exports/'+invocation+'.zip','billing':'service time only; provider invoice remains separate'}
             ollama.write_new(output/'TERMINAL.json',terminal)
     # The archive is outside the attempt tree; it contains TERMINAL and all logs.
-    export=root/terminal['archive_path'];export.parent.mkdir(parents=True,exist_ok=True)
-    make_archive(output,export);volume.commit()
-    return terminal
+    return finish_export(volume,root,output,terminal)

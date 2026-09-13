@@ -23,17 +23,96 @@ AUTHORITY='2026-09-13 curator commission: set up and run prescribed Gear 3 Round
 def account_backstop(path,*,now=None):
     value=json.loads(path.read_text(encoding='utf8'));now=time.time() if now is None else now
     required={'workspace','observed_at','source','usage_limit_cents','metered_at_check_cents',
-              'net_spend_limit_cents','remaining_credits_cents','other_workloads','status'}
+              'net_spend_limit_cents','remaining_credits_cents','other_workloads','status','cycle_start_at','cycle_end_at','payment_method_present','storage_allowance_cents','environment'}
     if set(value)!=required or value['status']!='VERIFIED' or value['source'] not in {'owner-billing-page','provider-api'}:
         raise ValueError('verified workspace billing backstop required before paid dispatch')
-    if not value['workspace'] or not 0<=now-value['observed_at']<=86400:
+    if not isinstance(value['workspace'],str) or not value['workspace'].strip() or not 0<=now-value['observed_at']<=86400:
         raise ValueError('workspace budget evidence is absent or stale')
+    if not value['cycle_start_at'] <= value['observed_at'] <= now < value['cycle_end_at']:
+        raise ValueError('billing evidence must belong to the current unexpired cycle')
     fields=required & {'usage_limit_cents','metered_at_check_cents','net_spend_limit_cents','remaining_credits_cents'}
     if any(type(value[k])is not int or value[k]<0 for k in fields):raise ValueError('billing values must be nonnegative integer cents')
     if not 0<value['usage_limit_cents']-value['metered_at_check_cents']<=5000 or value['net_spend_limit_cents']>5000:
         raise ValueError('provider usage/net-spend backstop exceeds this campaign ceiling')
-    if value['other_workloads']!='none':raise ValueError('shared-workspace budget interactions require a resolved allocation')
+    if value['payment_method_present'] is not True or not isinstance(value['environment'],str) or not value['environment'].strip():
+        raise ValueError('payment method and explicit environment required')
+    if value['other_workloads'] not in {'none','retained-storage-only'}:
+        raise ValueError('shared-workspace budget interactions require a resolved allocation')
+    allowance=value['storage_allowance_cents']
+    if type(allowance) is not int or allowance<0 or (value['other_workloads']=='retained-storage-only' and allowance<100):
+        raise ValueError('retained storage requires an explicit conservative allowance')
+    if account_campaign_cap(value)<=1000:raise ValueError('insufficient headroom with repair reserve retained')
     return value
+
+
+def account_campaign_cap(account):
+    return min(5000,account['usage_limit_cents']-account['metered_at_check_cents']-account['storage_allowance_cents'])
+
+def account_reservation_guard(account, data, node, cost):
+    totals=CampaignLedger.totals(data); cap=account_campaign_cap(account)
+    if sum(totals.values())+cost>cap:
+        raise ValueError('workspace allocation exceeded before reservation')
+    if node!='Reserve' and sum(v for k,v in totals.items() if k!='Reserve')+cost>min(4000,cap-1000):
+        raise ValueError('workspace allocation must retain the repair reserve')
+
+
+def verify_completed_blocks(job, bundle, restored, ghost_root):
+    if job['mode']!='science': return
+    import zipfile
+    from unittest.mock import patch
+    from .stage10 import gear3_batch, ollama
+    def forbidden(*a,**k): raise ValueError('returned evidence requires an absent model call')
+    with zipfile.ZipFile(bundle) as archive, patch.object(ollama,'api',forbidden):
+        for name in job['blocks']:
+            block=json.loads(archive.read(name)); folder=restored/'blocks'/block['block_id']
+            if not (folder/'COMPLETE.json').is_file(): raise ValueError('completed block missing from returned archive')
+            gear3_batch.run_block(block,folder,ghost_root=ghost_root)
+
+
+def workspace_info(client):
+    """Read token workspace metadata without exposing token/user credentials."""
+    from modal._utils.async_utils import synchronizer
+    from modal_proto import api_pb2
+    @synchronizer.create_blocking
+    async def inspect(bound_client):
+        info = await bound_client.stub.TokenInfoGet(api_pb2.TokenInfoGetRequest(), timeout=15, retry=None)
+        return {'workspace': info.workspace_name, 'workspace_id': info.workspace_id}
+    return inspect(client)
+
+
+def provider_client(account):
+    import modal
+    client = modal.Client.from_env()
+    actual = workspace_info(client)
+    if actual.get('workspace') != account['workspace'] or not actual.get('workspace_id'):
+        raise ValueError('authenticated workspace differs from the inspected billing backstop')
+    return client, actual
+
+
+def stop_app_rpc(client, app_id):
+    from modal._utils.async_utils import synchronizer
+    from modal_proto import api_pb2
+    @synchronizer.create_blocking
+    async def stop(bound_client):
+        await bound_client.stub.AppStop(api_pb2.AppStopRequest(app_id=app_id, source=api_pb2.APP_STOP_SOURCE_CLI), timeout=15, retry=None)
+    stop(client)
+    return {'app_id': app_id, 'status': 'stop requested; final ownership still requires verification'}
+
+
+def request_stop(cancel_call, stop_app):
+    """Always attempt app termination, even if function cancellation fails."""
+    evidence = {}
+    try:
+        if cancel_call is not None:
+            cancel_call(); evidence['call_cancel_requested'] = True
+    except Exception as exc:
+        evidence['call_error'] = repr(exc)
+    try:
+        evidence['app_stop'] = stop_app()
+    except Exception as exc:
+        evidence['app_error'] = repr(exc)
+        raise RuntimeError('provider termination unresolved: '+json.dumps(evidence)) from exc
+    return evidence
 
 
 @contextmanager
@@ -42,7 +121,7 @@ def deadline_guard(expires,cancel,record):
     done=threading.Event()
     def monitor():
         if not done.wait(max(0,expires-time.time())):
-            try:record({'status':'DEADLINE_CANCELLED','at':time.time(),'evidence':cancel()})
+            try:record({'status':'DEADLINE_STOP_REQUESTED','at':time.time(),'evidence':cancel()})
             except Exception as exc:record({'status':'DEADLINE_CANCEL_UNKNOWN','at':time.time(),'error':repr(exc)})
     worker=threading.Thread(target=monitor,daemon=True);worker.start()
     try:yield
@@ -51,6 +130,7 @@ def deadline_guard(expires,cancel,record):
 
 def dispatch(repo,args):
     account=account_backstop(args.account)
+    client, authenticated = provider_client(account)
     import modal  # import and local API inspection incur no cloud allocation
     from .stage10.gear3_bundle import validate_input
     main=authoritative_ledger(repo).parents[1]
@@ -59,6 +139,8 @@ def dispatch(repo,args):
     if job['mode'] not in {'cache','science'}:raise ValueError('unknown campaign job')
     if args.seconds is None or args.startup_seconds is None or not 1<=args.startup_seconds<=args.seconds:
         raise ValueError('explicit startup and total bounds required')
+    if time.time()+args.seconds+60 >= account['cycle_end_at']:
+        raise ValueError('job would cross the verified billing-cycle backstop')
     if job['mode']=='science' and args.node!='Reserve':
         with zipfile.ZipFile(bundle) as z:
             if any(json.loads(z.read(name))['node']!=args.node for name in job['blocks']):raise ValueError('branch differs from reserved job')
@@ -71,33 +153,28 @@ def dispatch(repo,args):
     ledger=CampaignLedger(authoritative_ledger(repo))
     local=repo/'private/gear3/G3-S10-READER-1/invocations'/args.invocation
     if local.exists():raise ValueError('existing invocation requires inspection, not a second dispatch')
+    from .gear3_campaign import capped_cost_cents
+    existing=json.loads(ledger.path.read_text()) if ledger.path.exists() else {'runs':[]}
+    account_reservation_guard(account,existing,args.node,capped_cost_cents(args.seconds,args.overhead_cents,cache=job['mode']=='cache'))
     ledger.enroll(AUTHORITY,repo/'docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md')
     reservation=ledger.reserve(args.invocation,args.node,['runners/gear3.py','round1',checked['archive_sha256']],
-        {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'startup_seconds':args.startup_seconds},
-        args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache')
+        {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'authenticated_workspace':authenticated,'startup_seconds':args.startup_seconds},
+        args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache',workspace_cap_cents=account_campaign_cap(account))
     if reservation.get('existing_reservation'):raise ValueError('existing invocation is inspection-only; never resubmit it')
     app=None;call=None;app_id=None;ledger_terminal=False
     def cancel():
-        # App ID is set before image construction in the installed SDK. A
-        # function call is cancellable while queued/starting as well as running.
-        if call is not None:call.cancel(terminate_containers=True)
-        identity=(app.app_id if app is not None else None) or app_id
-        if identity:
-            import asyncio
-            from modal.client import _Client
-            from modal_proto import api_pb2
-            async def stop_app():
-                client=await _Client.from_env()
-                await client.stub.AppStop(api_pb2.AppStopRequest(app_id=identity,source=api_pb2.APP_STOP_SOURCE_CLI),timeout=15)
-            asyncio.run(stop_app())
-            return {'app_id':identity,'call_id':call.object_id if call else None}
-        raise RuntimeError('provider app identity unresolved; reservation retained')
+        def stop_app():
+            identity=(app.app_id if app is not None else None) or app_id
+            if not identity:
+                raise RuntimeError('provider app identity unresolved; reservation retained')
+            return stop_app_rpc(client, identity)
+        return request_stop((lambda: call.cancel(terminate_containers=True)) if call is not None else None, stop_app)
     terminal=None
     try:
         local.mkdir(parents=True,exist_ok=False);atomic_json(local/'RESERVATION.json',reservation)
         app=modal.App('sounding-line-g3-round1')
         with deadline_guard(reservation['expires_at'],cancel,lambda r:atomic_json(local/'DEADLINE.json',r)):
-            volume=modal.Volume.from_name('sounding-line-g3-round1',create_if_missing=True)
+            volume=modal.Volume.from_name('sounding-line-g3-round1',create_if_missing=True,client=client,environment_name=account['environment'])
             image=(modal.Image.from_registry(IMAGE,add_python='3.13').entrypoint([])
                    .pip_install('numpy==2.4.6'))
             resources=reservation['resources']
@@ -125,7 +202,7 @@ def dispatch(repo,args):
                 max_containers=1,min_containers=0,buffer_containers=0,scaledown_window=2,
                 retries=0,timeout=args.seconds,startup_timeout=args.startup_seconds,
                 volumes={'/campaign':volume},serialized=True,include_source=False)(modal.concurrent(max_inputs=1)(remote))
-            with app.run(detach=False):
+            with app.run(detach=False,client=client,environment_name=account['environment']):
                 app_id=app.app_id
                 atomic_json(local/'APP.json',{'app_id':app.app_id,'expires_at':reservation['expires_at']})
                 if time.time()>=reservation['expires_at']-30:raise TimeoutError('reservation exhausted during app setup')
@@ -137,12 +214,17 @@ def dispatch(repo,args):
                 atomic_json(local/'CALL.json',{'app_id':app.app_id,'call_id':call.object_id,'expires_at':reservation['expires_at']})
                 terminal=call.get(timeout=max(1,reservation['expires_at']-time.time()))
                 atomic_json(local/'REMOTE_TERMINAL.json',terminal)
-                if terminal['reservation_sha256']!=digest(reservation):raise ValueError('remote reservation binding differs')
+                if (terminal['reservation_sha256']!=digest(reservation) or terminal.get('source_archive_sha256')!=checked['archive_sha256']
+                        or terminal.get('owner_ended') is not True or terminal.get('mode')!=job['mode']
+                        or terminal.get('status') not in {'COMPLETE','FAILED'}):
+                    raise ValueError('remote reservation/input/owner binding differs')
                 archive=local/'OUTPUT.zip'
                 with archive.open('xb') as stream:
                     for chunk in volume.read_file(terminal['archive_path']):stream.write(chunk)
                 receipt=verify_archive(archive,local/'restored')
                 if json.loads((local/'restored/TERMINAL.json').read_text())!=terminal:raise ValueError('returned terminal differs from full archive')
+                if terminal['status']=='COMPLETE':
+                    verify_completed_blocks(job,bundle,local/'restored',main/'results/phase_2_4_stage_10/raw/interface-v3/ghost-public')
                 atomic_json(local/'RETRIEVAL.json',receipt)
             ledger.transition(args.invocation,terminal['status'],owner_ended=True,
                 evidence={'app_id':app_id,'call_id':call.object_id,'full_archive_sha256':receipt['archive_sha256']})

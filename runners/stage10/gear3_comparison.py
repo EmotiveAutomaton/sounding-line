@@ -9,6 +9,7 @@ history delta is admitted; common donor/prompt components bind both sides.
 from copy import deepcopy
 from . import comparison
 from .contracts import digest
+from .reader import from_record
 
 
 def indexed(cell):
@@ -66,7 +67,7 @@ def history_contrast(correct,intervened,*,condition,donors):
         x,y=left[key],right[key];donor=donors[key]
         if any(x[k]!=y[k] for k in ('truth','group','event')):
             raise ValueError('history intervention changed target or source identity')
-        if set(donor)!={'group','dependencies','public','source_record_sha256'} or donor['group']==x['group']:
+        if set(donor)!={'group','dependencies','public','source_record','source_record_sha256'} or donor['group']==x['group']:
             raise ValueError('actual other-writer donor required')
         original=x['public'];altered=y['public'];expected=deepcopy(original)
         if original['evidence_view']!='process-record': raise ValueError('original history view required')
@@ -74,7 +75,10 @@ def history_contrast(correct,intervened,*,condition,donors):
         donor_history=donor['public']['evidence']['earlier_handling']
         if donor['public']['evidence_view']!='process-record' or not history or len(history)!=len(donor_history):
             raise ValueError('unaltered equal-length predecision donor required')
-        if len(donor['source_record_sha256'])!=64: raise ValueError('missing donor source binding')
+        if (digest(donor['source_record'])!=donor['source_record_sha256']
+                or from_record(donor['source_record']).public()!=donor['public']
+                or donor['source_record']['task_id']==key):
+            raise ValueError('donor source binding does not reconstruct permitted evidence')
         if condition=='other-writer':expected['evidence']['earlier_handling']=donor_history
         else:
             expected['evidence'].pop('earlier_handling');expected['evidence_view']='artifact'

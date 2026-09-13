@@ -23,14 +23,20 @@ def test_finite_sequence_retirement_replay_and_uncertain_owner(tmp_path,monkeypa
     def dispatch(root,args):
         calls.append(args.invocation);status='FAILED' if outcome=='failed' and args.invocation=='a1' else 'COMPLETE'
         if outcome=='unknown':status='UNKNOWN'
-        with cost.CampaignLedger(ledger).transaction() as data:
-            data['runs'].append({'campaign_id':cost.CAMPAIGN,'invocation_id':args.invocation,'owner_ended':status!='UNKNOWN',
-                'status':status,'command':['fixture',hashlib.sha256(args.bundle.read_bytes()).hexdigest()]})
-        if status=='UNKNOWN':raise RuntimeError('constructed uncertain owner')
+        book=cost.CampaignLedger(ledger)
+        book.enroll('constructed only',Path('docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md'))
+        reservation=book.reserve(args.invocation,args.node,['fixture',hashlib.sha256(args.bundle.read_bytes()).hexdigest()],{},60,0,approval='constructed only')
+        book.transition(args.invocation,'SUBMITTED',call_id='fc-'+args.invocation)
+        if status=='UNKNOWN':
+            book.transition(args.invocation,'UNKNOWN',evidence='constructed uncertain owner')
+            raise RuntimeError('constructed uncertain owner')
         local=root/'private/gear3/G3-S10-READER-1/invocations'/args.invocation;raw=local/'raw';raw.mkdir(parents=True)
-        terminal={'status':status};(raw/'TERMINAL.json').write_text(json.dumps(terminal))
+        terminal={'status':status,'reservation_sha256':digest(reservation),'source_archive_sha256':hashlib.sha256(args.bundle.read_bytes()).hexdigest(),'owner_ended':True}
+        (raw/'TERMINAL.json').write_text(json.dumps(terminal))
         receipt=storage.make_archive(raw,local/'OUTPUT.zip')
+        (local/'RESERVATION.json').write_text(json.dumps(reservation))
         (local/'RETRIEVAL.json').write_text(json.dumps(receipt));(local/'REMOTE_TERMINAL.json').write_text(json.dumps(terminal))
+        book.transition(args.invocation,status,owner_ended=True,evidence={'full_archive_sha256':receipt['archive_sha256']})
         return terminal
     monkeypatch.setattr(sequence,'dispatch',dispatch)
     if outcome in {'unknown','changed-input'}:
@@ -44,5 +50,15 @@ def test_finite_sequence_retirement_replay_and_uncertain_owner(tmp_path,monkeypa
     assert calls==(['a1','c1'] if outcome=='failed' else ['a1','a2','b1','c1'])
     assert sequence.run_plan(repo,path,repo/'unused-account.json')==result
     assert calls==(['a1','c1'] if outcome=='failed' else ['a1','a2','b1','c1'])
+    # A valid archive and matching copied receipts from another completed job
+    # are still the wrong result. Reject before any new dispatch.
+    local=repo/'private/gear3/G3-S10-READER-1/invocations'
+    paths=['OUTPUT.zip','RETRIEVAL.json','REMOTE_TERMINAL.json','RESERVATION.json']
+    original={name:(local/'a1'/name).read_bytes() for name in paths}
+    count=len(calls)
+    for name in paths:(local/'a1'/name).write_bytes((local/'c1'/name).read_bytes())
+    with pytest.raises(ValueError):sequence.run_plan(repo,path,repo/'unused-account.json')
+    assert len(calls)==count
+    for name,blob in original.items():(local/'a1'/name).write_bytes(blob)
     (repo/'private/gear3/G3-S10-READER-1/invocations/a1/OUTPUT.zip').write_bytes(b'corrupt')
     with pytest.raises(Exception):sequence.run_plan(repo,path,repo/'unused-account.json')
