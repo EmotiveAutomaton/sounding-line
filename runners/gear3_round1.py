@@ -158,7 +158,7 @@ def dispatch(repo,args):
     account_reservation_guard(account,existing,args.node,capped_cost_cents(args.seconds,args.overhead_cents,cache=job['mode']=='cache'))
     ledger.enroll(AUTHORITY,repo/'docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md')
     reservation=ledger.reserve(args.invocation,args.node,['runners/gear3.py','round1',checked['archive_sha256']],
-        {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'authenticated_workspace':authenticated,'startup_seconds':args.startup_seconds},
+        {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'authenticated_workspace_sha256':digest(authenticated),'startup_seconds':args.startup_seconds},
         args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache',workspace_cap_cents=account_campaign_cap(account))
     if reservation.get('existing_reservation'):raise ValueError('existing invocation is inspection-only; never resubmit it')
     app=None;call=None;app_id=None;ledger_terminal=False
@@ -172,6 +172,7 @@ def dispatch(repo,args):
     terminal=None
     try:
         local.mkdir(parents=True,exist_ok=False);atomic_json(local/'RESERVATION.json',reservation)
+        atomic_json(local/'AUTHENTICATED_WORKSPACE.json',authenticated)
         app=modal.App('sounding-line-g3-round1')
         with deadline_guard(reservation['expires_at'],cancel,lambda r:atomic_json(local/'DEADLINE.json',r)):
             volume=modal.Volume.from_name('sounding-line-g3-round1',create_if_missing=True,client=client,environment_name=account['environment'])

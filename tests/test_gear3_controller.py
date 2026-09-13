@@ -148,6 +148,8 @@ def test_controller_reserves_then_preserves_complete_or_unknown(tmp_path,monkeyp
         with pytest.raises(TimeoutError):controller.dispatch(repo,args)
     else:assert controller.dispatch(repo,args)['status']=='COMPLETE'
     row=json.loads(ledger.read_text())['runs'][0]
+    assert 'wk-fixture' not in ledger.read_text() and 'fixture-only' not in ledger.read_text()
+    assert row['profile']['authenticated_workspace_sha256']==digest({'workspace':'fixture-only','workspace_id':'wk-fixture'})
     assert row['status']==('UNKNOWN' if failure is True else 'COMPLETE')
     assert row['booked_cents']==row['reserved_cents'] and row['provider_charge_cents'] is None
     assert events[:3]==['app','upload','spawn']
