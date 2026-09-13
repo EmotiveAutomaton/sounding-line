@@ -14,7 +14,7 @@ import time
 
 from runners.stage9.process_identity import native_identity
 from soundingline.gpulock import GPU_LOCK, acquire_gpu_lock, release_gpu_lock
-from . import human_programs as programs, human_proposal as proposal
+from . import human_programs as programs, human_proposal as proposal, ollama
 from .contracts import canonical, digest, parse_forecast
 from .ollama import now, write_new
 from .queue import read, source_identity, status
@@ -27,8 +27,8 @@ def identity():
     return {**source_identity(), **{p: hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in files}}
 
 
-def route(task, output):
-    binding = digest({"sources": identity(), "task": task.public(), "task_id": task.task_id, "arm": "R3"})
+def route(task, output, *, profile=None):
+    binding = ollama.bind_route({"sources": identity(), "task": task.public(), "task_id": task.task_id, "arm": "R3"}, profile)
     if (output / "COMPLETE.json").exists():
         saved = read(output / "COMPLETE.json")
         if saved["binding"] != binding:
@@ -44,7 +44,7 @@ def route(task, output):
     feedback = None; calls = []; executions = []
     for index in range(2):
         directory = output / ("round-" + str(index+1))
-        attempt = proposal.call(task, directory / "proposal", feedback)
+        attempt = proposal.call(task, directory / "proposal", feedback, **ollama.profile_kwargs(profile))
         calls.append(attempt)
         if attempt["status"] != "VALID":
             break

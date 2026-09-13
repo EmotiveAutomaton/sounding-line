@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+from . import ollama
 from .contracts import digest, parse_forecast, canonical
 from .executor import execute, source_identity as executor_identity
 from .ghost import task_from
@@ -26,13 +27,13 @@ def identity():
     return {**core_identity(), **{"runners/stage10/"+f: hashlib.sha256(Path(__file__).with_name(f).read_bytes()).hexdigest() for f in files}}
 
 
-def route(root, envelope, output):
+def route(root, envelope, output, *, profile=None):
     task = task_from(envelope)
     rounds = []
     feedback = None
     for index in range(2):
         folder = output / ("round-"+str(index+1))
-        proposal = propose(task, envelope, folder / "proposal", feedback)
+        proposal = propose(task, envelope, folder / "proposal", feedback, **ollama.profile_kwargs(profile))
         item = {"proposal_binding": proposal["binding"], "status": proposal["status"], "cost": proposal["cost"], "wall_seconds": proposal["wall_seconds"]}
         rounds.append(item)
         if proposal["status"] != "VALID":

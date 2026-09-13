@@ -164,3 +164,14 @@ representation; R1 and both R4 naming conditions share the existing storage
 ceiling and full feedback reservation. Selection records additional context
 exclusions for complete whole-draft requests, and comparison must match those
 task IDs rather than pool different populations. Adaptive effort is separate.
+
+Gear 3 Round 1 uses explicit `ReaderProfile` values through the existing readers;
+legacy requests/bindings are unchanged when no profile is supplied. `gear3_inputs`
+and `gear3_prepare` project existing permitted sources and discarded pilot tasks.
+`gear3_bundle` exports only the reviewed execution closure and selected public inputs.
+`gear3_batch`, `gear3_io` and `gear3_worker` retain full durable nested attempts,
+original expiration and native executions. `gear3_comparison` admits only the
+specified history delta and complete declared contrasts. Paid execution remains
+exclusively under `runners/gear3.py round1` and `round1-plan`, with one canonical
+campaign ledger. Offline verification is not literal cloud or scientific admission.
+See the [Round 1 runbook](../../docs/design/GEAR_3_ROUND_1_REVIEW.md).

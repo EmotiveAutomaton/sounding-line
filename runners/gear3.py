@@ -40,7 +40,9 @@ import time
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-LEDGER = REPO / "results" / "gear3_ledger.json"
+sys.path.insert(0,str(REPO))
+from runners.gear3_campaign import authoritative_ledger
+LEDGER = authoritative_ledger(REPO)
 
 # Modal's rich progress output prints unicode glyphs; the Windows console's cp1252 raised
 # UnicodeEncodeError mid-run and killed the client (2026-08-16). Force utf-8, never crash
@@ -118,6 +120,29 @@ def refuse_over_cap(led: dict, est: float, args) -> None:
 
 
 def main() -> None:
+    if len(sys.argv)>1 and sys.argv[1]=='round1-plan':
+        sys.path.insert(0,str(REPO))
+        from runners.gear3_sequence import run_plan
+        p=argparse.ArgumentParser(description='Execute the finite frozen Round 1 sequence after pilot admission')
+        p.add_argument('--plan',type=Path,required=True);p.add_argument('--account',type=Path,required=True)
+        args=p.parse_args(sys.argv[2:]);result=run_plan(REPO,args.plan.resolve(),args.account.resolve())
+        print(json.dumps({'status':result['status'],'jobs':len(result['jobs']),'scientific_scores':'pending whole-cell analysis'}))
+        return
+    if len(sys.argv)>1 and sys.argv[1]=='round1':
+        # This is the sole paid entry for the separately commissioned campaign.
+        # Existing $10 defaults and all historical uses retain the legacy path.
+        sys.path.insert(0,str(REPO))
+        from runners.gear3_round1 import dispatch
+        p=argparse.ArgumentParser(description='Prescribed G3-S10-READER-1 bounded invocation')
+        p.add_argument('--bundle',type=Path,required=True);p.add_argument('--account',type=Path,required=True)
+        p.add_argument('--invocation',required=True);p.add_argument('--node',choices=['P','A','B','C','D','Reserve'],required=True)
+        p.add_argument('--seconds',type=int,required=True);p.add_argument('--startup-seconds',type=int,required=True)
+        p.add_argument('--overhead-cents',type=int,required=True);p.add_argument('--approval',required=True)
+        p.add_argument('--recovery-of');p.add_argument('--pilot',type=Path);p.add_argument('--plan',type=Path)
+        args=p.parse_args(sys.argv[2:]);result=dispatch(REPO,args)
+        print(json.dumps({'status':result['status'],'mode':result['mode'],'scientific_scores':'pending whole-cell analysis'}))
+        if result['status']!='COMPLETE':sys.exit(1)
+        return
     ap = argparse.ArgumentParser()
     ap.add_argument("mode", choices=["estimate", "run", "ledger"])
     ap.add_argument("--cmd", help="repo-relative runner command line")
@@ -161,6 +186,8 @@ def main() -> None:
     _lock_ledger()
     try:
         led = load_ledger()
+        if any(r.get('campaign_id') and (not r.get('owner_ended')) for r in led['runs']):
+            raise RuntimeError('an unresolved campaign owner prevents another cloud launch')
         if window_spend(led) + est > HARD_CAP_DOLLARS:
             if not args.cap_approval.strip():
                 _unlock_ledger()

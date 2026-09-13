@@ -79,6 +79,18 @@ marker mismatch; deriving the section boundary from source fixed the helper.
 
 **Curator roll-up:** theory group: record integrity | question: did returned files regain current authority? | **Infrastructure** | result: stale copies preserved and isolated | project meaning: canonical sources remain unambiguous | next engineering obligation: retain provenance checks at future filing | public claim: unchanged | curator decision required: No | detail: audit above.
 
+### OPS-G3-R1-SETUP - bounded cloud production and usable returned evidence
+
+**Hypothesis.** The prescribed larger-reader comparison can preserve complete evidence and a finite spending boundary alongside the local study.
+
+**METHOD.** Implemented isolated model profiles, allowlisted source export, durable nested attempts, complete archive replay, source-balanced comparison guards, one authoritative campaign ledger and a finite native sequence driver. Exercised known-answer human fixtures, actual public Ghost executors and simulated provider/model transport, including interruption, corruption, uncertain ownership and local receipt failure. Reproduced the original cheap-control fit from its permitted training allocation.
+
+**Found.** All 27 focused checks pass. The entire 44-route discarded pilot reproduces through real task executors and checked archive extraction without further inference. No paid compute or model-weight download occurred. Both complete model digests and the server/container pins are resolved; a source-bound pilot package and a $2.45 proposed reservation are prepared. Earlier setup, fixture and import failures remain recorded. [Apparatus](results/gear3/G3-S10-READER-1/APPARATUS.json), [operating handoff](docs/design/GEAR_3_ROUND_1_REVIEW.md).
+
+**Means.** Offline transport, execution and cost guards are validated. Actual cloud admission, measured affordable roster and whole-cell scientific analysis remain pending. The provider API verifies access but cannot supply the required workspace billing backstop; owner billing-page information is requested before the paid pilot. Gear 2 and cooling authority remain, with the latest local bank completed. No new research test or scientific interpretation is introduced.
+
+**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison return usable, fully costed evidence? | **Infrastructure** | result: all 27 focused checks pass | project meaning: the literal pilot is prepared | next engineering obligation: verify billing backstop, run the discarded pilot and freeze affordable science | public claim: unchanged | curator decision required: account information only; spending is already authorized | detail: apparatus above.
+
 ### OPS-G3-R1-REVIEW - a bounded larger-reader burst alongside Gear 2
 
 **Hypothesis.** Existing Stage 10 readers and source preparations can support the supplied cloud comparison without interrupting the local study.

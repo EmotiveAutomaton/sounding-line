@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-13T14:05:44.920488+00:00.
+Updated 2026-09-13T15:26:32.418333+00:00.
 
 **Local queue:** the local earlier-draft structured and storage-matched prediction bank is complete and fully internally landed. All 408 routes and 714 calls reconcile, with unchanged input/output bytes and native exit verified. No local scientific worker is running. Gear 2 and CPU boost-off/90% maximum remain authorized; the current implementation focus is the separately commissioned Gear 3 Round 1. [Producer](results/phase_2_4_stage_10/EARLIER_STRUCTURED_PRODUCER.json).
 
 The whole bank finished at 13:32 UTC. The transition watcher remains active; its completion event is acknowledged only after this full landing. No routine wake timer or restart is needed. No unfinished scientific scores are reported.
 
-**Gear 3 Round 1:** theory errata are fully applied and archived; commit e93ecef8f is pushed following the public-release review. Implementation is isolated on `codex/gear3-round1`. Explicit model profiles, one shared campaign ledger, durable request/archive handling, native Ghost execution and the bounded cloud controller are implemented in the isolated checkout. Final offline verification and pilot admission remain in setup. No cloud compute has been dispatched. The provider workspace limits, credits and shared-workload information are requested before the discarded pilot.
+**Gear 3 Round 1:** the isolated implementation passes all 27 focused offline checks. Its source-bound 44-route pilot is prepared with a proposed $2.45 reservation within the $3 pilot cap. Model/container identities, durable transport, native executors, budget/deadline handling and the finite queue driver are implemented. No paid compute or model-weight download has occurred. The API cannot provide the required workspace usage/spend limits, credits or shared-workload information; those billing-page values are requested before the pilot. Actual device/throughput admission, measured affordable PLAN and final scientific packet remain pending. [Setup and runbook](docs/design/GEAR_3_ROUND_1_REVIEW.md), [validation](results/gear3/G3-S10-READER-1/APPARATUS.json).
 
 **Remaining:** complete Gear 3 setup and its discarded pilot, then the frozen affordable study; local adaptive effort, selected task/source branches and the final Stage 10 common analysis remain. No replacement ETA has been calculated during this setup pass.
 

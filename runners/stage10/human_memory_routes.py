@@ -29,11 +29,11 @@ def identity():
             'runners/stage10/human_memory_routes.py': hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
 
 
-def representation_for(task, training, answers, learned, arm):
+def representation_for(task, training, answers, learned, arm, *, profile=None):
     started = time.perf_counter()
     # Charge a common allowance derived from the larger structured request,
     # reserving feedback before selecting memory. No target evidence is removed.
-    base = proposal.request_for(task)
+    base = proposal.request_for(task, **ollama.profile_kwargs(profile))
     used = sum(len(m['content'].encode('utf8')) for m in base['messages'])
     cap = min(memory.STORE_BYTES, 16384 - used - 384 - 512 - FEEDBACK_BYTES - 128)
     if cap <= 0:
@@ -60,10 +60,10 @@ def representation_for(task, training, answers, learned, arm):
     return rep, receipt
 
 
-def route(task, output, arm, training, answers, learned):
-    representation, retrieval = representation_for(task, training, answers, learned, arm)
-    binding = digest({'sources': identity(), 'task': task.public(), 'task_id': task.task_id, 'arm': arm,
-                      'representation': representation, 'training': digest(training), 'answers': digest(answers), 'memory': digest(learned)})
+def route(task, output, arm, training, answers, learned, *, profile=None):
+    representation, retrieval = representation_for(task, training, answers, learned, arm, **ollama.profile_kwargs(profile))
+    binding = ollama.bind_route({'sources': identity(), 'task': task.public(), 'task_id': task.task_id, 'arm': arm,
+                      'representation': representation, 'training': digest(training), 'answers': digest(answers), 'memory': digest(learned)}, profile)
     if (output/'COMPLETE.json').exists():
         saved = read(output/'COMPLETE.json')
         if saved['binding'] != binding:
@@ -78,13 +78,13 @@ def route(task, output, arm, training, answers, learned):
                                          'retrieval': retrieval, 'sources': identity()})
     start = time.perf_counter(); calls = []; executions = []; feedback = None
     if arm == 'R1-memory':
-        attempt = ollama.call(task, output/'direct', examples=representation['examples'], context_tokens=16384,
+        attempt = ollama.call(task, output/'direct', examples=representation['examples'], context_tokens=16384, **ollama.profile_kwargs(profile),
                               instruction='Predict directly using these fixed concrete training episodes. No induced procedures are supplied.')
         calls.append(attempt); forecast = attempt['forecast']; state = attempt['status']
     else:
         for round_number in (1, 2):
             directory = output/('round-' + str(round_number))
-            attempt = proposal.call(task, directory/'proposal', feedback, representation)
+            attempt = proposal.call(task, directory/'proposal', feedback, representation, **ollama.profile_kwargs(profile))
             calls.append(attempt)
             if attempt['status'] != 'VALID':
                 break

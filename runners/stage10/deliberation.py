@@ -17,6 +17,7 @@ from pathlib import Path
 
 from runners.stage9.process_identity import native_identity
 from soundingline.gpulock import GPU_LOCK, acquire_gpu_lock, release_gpu_lock
+from . import ollama
 from .contracts import digest
 from .ollama import call, now, write_new
 from .queue import read, source_identity as direct_source_identity, status
@@ -27,8 +28,8 @@ def identity() -> dict:
     return {**direct_source_identity(), "runners/stage10/deliberation.py": hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
 
 
-def route(task, output):
-    first = call(task, output / "draft", generated_tokens=384, context_tokens=16384)
+def route(task, output, *, profile=None):
+    first = call(task, output / "draft", generated_tokens=384, context_tokens=16384, **ollama.profile_kwargs(profile))
     first_raw = read(output / "draft/RAW.json")
     scratchpad = {"origin": "this reader's earlier unverified response to the same task; not an observation",
                   "parse_status": first["status"], "draft": first_raw.get("message", {}).get("content", "")}
@@ -36,7 +37,7 @@ def route(task, output):
     if digest(second_task.evidence["original_source_evidence"]) != digest(task.evidence):
         raise AssertionError("reconsideration changed original source evidence")
     final = call(second_task, output / "reconsidered", generated_tokens=384, context_tokens=16384,
-                 instruction="Reconsider the original evidence and the earlier reader draft. The draft may be wrong and is not an observed outcome. Return your final direct forecast without inventing a latent maker narrative.")
+                 **ollama.profile_kwargs(profile), instruction="Reconsider the original evidence and the earlier reader draft. The draft may be wrong and is not an observed outcome. Return your final direct forecast without inventing a latent maker narrative.")
     generated = sum(row["cost"]["eval_count"] for row in (first, final))
     if generated > 768:
         raise ValueError("reconsideration exceeded its total output allowance")

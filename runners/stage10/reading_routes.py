@@ -33,12 +33,12 @@ def identity(root):
             "exported-source-closure": digest(executor_identity(root))}
 
 
-def route(root, envelope, output, training, answers, arm, group):
+def route(root, envelope, output, training, answers, arm, group, *, profile=None):
     if arm not in ARMS:
         raise ValueError("undeclared reading arm")
     task = task_from(envelope)
-    binding = digest({"task": task.public(), "envelope": envelope, "training": training, "answers": answers,
-                      "arm": arm, "group": group, "sources": identity(root)})
+    binding = ollama.bind_route({"task": task.public(), "envelope": envelope, "training": training, "answers": answers,
+                      "arm": arm, "group": group, "sources": identity(root)}, profile)
     if (output / "COMPLETE.json").exists():
         saved = read(output / "COMPLETE.json")
         if saved["binding"] != binding:
@@ -54,7 +54,7 @@ def route(root, envelope, output, training, answers, arm, group):
     calls, executions = [], []
     training_calls, representation_bytes = 0, 0
     if arm in {"R0", "R1"}:
-        kwargs = {"context_tokens": 16384}
+        kwargs = {"context_tokens": 16384, **ollama.profile_kwargs(profile)}
         if arm == "R1":
             episodes, selection = memory.examples(task, training, answers)
             representation_bytes = selection["actual_store_bytes"]
@@ -63,7 +63,7 @@ def route(root, envelope, output, training, answers, arm, group):
         final = ollama.call(task, output / "call", **kwargs)
         calls.append(final); state, forecast = final["status"], final["forecast"]
     elif arm == "R2":
-        result = deliberation.route(task, output / "deliberation")
+        result = deliberation.route(task, output / "deliberation", **ollama.profile_kwargs(profile))
         calls = result["calls"]; state, forecast = result["status"], result["forecast"]
     else:
         representation = None
@@ -82,7 +82,7 @@ def route(root, envelope, output, training, answers, arm, group):
         feedback, forecast, state = None, None, "INVALID"
         for index in range(2):
             folder = output / ("round-" + str(index + 1))
-            proposed = proposal.call(task, envelope, folder / "proposal", feedback, memory=representation)
+            proposed = proposal.call(task, envelope, folder / "proposal", feedback, memory=representation, **ollama.profile_kwargs(profile))
             calls.append(proposed); state = proposed["status"]
             if state != "VALID":
                 break
