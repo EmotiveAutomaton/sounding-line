@@ -17,13 +17,14 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-SETUP: remove direct account identity from the public ledger; five affected controller checks pass, full prior validation retained.
 - [x] OPS-G3-R1-SETUP: refresh account inventory and launch the fixed discarded pilot chain with native transition-only supervision.
 - [x] OPS-G3-R1-PANEL: implement revision-2 analyst fixes and pass all 62 final checks; conditional owner rollout authority recorded.
-- [ ] OPS-G3-R1-PANEL: start/inspect the bounded cache-plus-literal pilot, retain previous charges, freeze measured affordable A/B/C/D prefix, complete its finite execution and final packet.
+- [x] OPS-G3-R1-PANEL: fully inspect and land provider-preempted CPU cache; retained archive/charges and one original-deadline Reserve recovery verified.
+- [ ] OPS-G3-R1-PANEL: inspect the submitted one cache recovery and ensuing first literal GPU pilot; freeze measured affordable A/B/C/D prefix and complete its finite execution and final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 
 - [x] S10-I11: validate the finite local dependency queue, ScholaWrite chronology and six-strategy bank; fully land the discarded literal pilot.
 - [x] S10-I11: fully build, validate and launch the finite local runway behind the existing science bank: 51 reviewed jobs, including 23 GPU jobs; full source pins and native transition-only monitoring.
-- [ ] S10-I11: inspect completed project rotations, local-model comparison, continuity anchor, synthetic effort and all common analysis cells; resolve explicit failures/source limits and deliver the single final scientific packet. Gear 3 remains held.
+- [ ] S10-I11: inspect completed project rotations, local-model comparison, continuity anchor, synthetic effort and all common analysis cells; resolve explicit failures/source limits and deliver the single final scientific packet. Gear 3 proceeds separately under the later conditional rollout authorization.
 
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
 
