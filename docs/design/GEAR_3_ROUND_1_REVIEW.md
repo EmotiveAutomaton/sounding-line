@@ -36,11 +36,7 @@ Allocation is checked inside the shared reservation lock. Any additional compute
 or unknown workspace sharing requires a new inventory/allocation, not a fictitious
 empty-account record. No limit increase or account upgrade is needed.
 
-Paid execution has not started. The next step remains the discarded literal
-pilot, followed by inspection of complete returns, both model identities, actual
-GPU residency/peak memory and measured wall cost. Only then freeze affordable
-science; the final evaluator join/packet remains an implementation obligation.
-Do not mistake the prepared sequence driver for an already affordable frozen plan.
+The discarded P chain is now launched through the guarded entry point: CPU cache, then the L40S literal pilot only after verified cache completion. Combined reservations are capped at $2.45. Exact sources and native/provider identities are retained; the watcher resumes the operator only on a terminal transition. [Launch receipt](../../results/gear3/G3-S10-READER-1/PILOT_LAUNCH.json). Complete returned evidence, model/device identity, GPU memory and measured cost still need inspection before freezing affordable science. The final evaluator join/packet remains an implementation obligation.
 
 ## Commissioned implementation and pilot handoff
 

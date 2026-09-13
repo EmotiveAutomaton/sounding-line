@@ -1,103 +1,210 @@
 {
- "runs": [
-  {
-   "ts": 1786905632.888119,
-   "cmd": "runners/run_pan_winner.py --encoder roberta --warmup 0.06 --dropout-scope head --out-tag _gear3check",
-   "gpu": "A100",
-   "est_dollars": 0.88,
-   "duration_s": 1006.2,
-   "est_actual_dollars": 0.73,
-   "approval": "curator 2026-08-16: 'We can try running one of our simple tests that we don't expect to cost more than a few pennies and make sure we get the same results back to validate the wiring itself' - the gear-3 wiring validation, rerunning the head-scope roberta member (local answer 0.8633)",
-   "returncode": 0
-  },
-  {
-   "ts": 1786907572.3954263,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 41.7,
-   "est_actual_dollars": 0.03,
-   "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2",
-   "returncode": 1,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786907577.6916716,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 37.1,
-   "est_actual_dollars": 0.03,
-   "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2",
-   "returncode": 1,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786907649.2038898,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 1918.3,
-   "est_actual_dollars": 1.4,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786907743.570074,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 1815.9,
-   "est_actual_dollars": 1.32,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786909559.646726,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --out-tag _g3sA_s44",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 2024.4,
-   "est_actual_dollars": 1.48,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786909567.6780078,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --channels results/pan25_channels/hard --out-tag _g3sB_s42",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 1796.6,
-   "est_actual_dollars": 1.31,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786911364.4470105,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --out-tag _g3sA_s43",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 1774.4,
-   "est_actual_dollars": 1.29,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
-  },
-  {
-   "ts": 1786911584.174724,
-   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --channels results/pan25_channels/hard --out-tag _g3sB_s44",
-   "gpu": "A100",
-   "est_dollars": 1.46,
-   "duration_s": 1816.5,
-   "est_actual_dollars": 1.32,
-   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-   "returncode": 0,
-   "status": "DONE"
+  "runs": [
+    {
+      "ts": 1786905632.888119,
+      "cmd": "runners/run_pan_winner.py --encoder roberta --warmup 0.06 --dropout-scope head --out-tag _gear3check",
+      "gpu": "A100",
+      "est_dollars": 0.88,
+      "duration_s": 1006.2,
+      "est_actual_dollars": 0.73,
+      "approval": "curator 2026-08-16: 'We can try running one of our simple tests that we don't expect to cost more than a few pennies and make sure we get the same results back to validate the wiring itself' - the gear-3 wiring validation, rerunning the head-scope roberta member (local answer 0.8633)",
+      "returncode": 0
+    },
+    {
+      "ts": 1786907572.3954263,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 41.7,
+      "est_actual_dollars": 0.03,
+      "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2",
+      "returncode": 1,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786907577.6916716,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 37.1,
+      "est_actual_dollars": 0.03,
+      "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2",
+      "returncode": 1,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786907649.2038898,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 1918.3,
+      "est_actual_dollars": 1.4,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786907743.570074,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 1815.9,
+      "est_actual_dollars": 1.32,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786909559.646726,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --out-tag _g3sA_s44",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 2024.4,
+      "est_actual_dollars": 1.48,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786909567.6780078,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --channels results/pan25_channels/hard --out-tag _g3sB_s42",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 1796.6,
+      "est_actual_dollars": 1.31,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786911364.4470105,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --out-tag _g3sA_s43",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 1774.4,
+      "est_actual_dollars": 1.29,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "ts": 1786911584.174724,
+      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --channels results/pan25_channels/hard --out-tag _g3sB_s44",
+      "gpu": "A100",
+      "est_dollars": 1.46,
+      "duration_s": 1816.5,
+      "est_actual_dollars": 1.32,
+      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+      "returncode": 0,
+      "status": "DONE"
+    },
+    {
+      "campaign_id": "G3-S10-READER-1",
+      "invocation_id": "p-cache-v1",
+      "node": "P",
+      "command": [
+        "runners/gear3.py",
+        "round1",
+        "dda9c5760d5e096aa335feaa0130a391a5b4a2c04dd82c043fe8b9b95638015c"
+      ],
+      "profile": {
+        "job_sha256": "576ee32f6b9fff8df7866bf7b9848d712bfc02a886cc810a2546768960ade3b8",
+        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+        "account_evidence_sha256": "c35e6f74adb1577e1070017377f3523c1c3bd0f3617ec797b7771c1dad60ce80",
+        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+        "startup_seconds": 300
+      },
+      "resources": {
+        "gpu": null,
+        "cpu_request": 2,
+        "cpu_limit": 2,
+        "memory_request_mib": 4096,
+        "memory_limit_mib": 4096,
+        "max_containers": 1,
+        "concurrency": 1,
+        "retries": 0
+      },
+      "duration_cap_seconds": 600,
+      "expires_at": 1789324410.2929268,
+      "ts": 1789323810.2929268,
+      "reserved_cents": 28,
+      "booked_cents": 28,
+      "overhead_cents": 25,
+      "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5",
+      "campaign_authorization": {
+        "campaign": "G3-S10-READER-1",
+        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+        "total_cents": 5000,
+        "ordinary_cents": 4000,
+        "initial_cents": 2000,
+        "node_cents": {
+          "P": 300,
+          "A": 1700,
+          "B": 700,
+          "C": 900,
+          "D": 400,
+          "Reserve": 1000
+        },
+        "resources": {
+          "gpu": "L40S",
+          "cpu_request": 2,
+          "cpu_limit": 2,
+          "memory_request_mib": 32768,
+          "memory_limit_mib": 32768,
+          "max_containers": 1,
+          "concurrency": 1,
+          "retries": 0
+        },
+        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+      },
+      "recovery_of": null,
+      "status": "SUBMITTED",
+      "owner_ended": false,
+      "provider_charge_cents": null,
+      "service_estimate_cents": null,
+      "est_actual_dollars": 0.28,
+      "cost_basis": "entire capped reservation; not an invoice",
+      "events": [
+        {
+          "at": 1789323870.6310377,
+          "from": "RESERVED",
+          "to": "SUBMITTED",
+          "evidence": null
+        }
+      ],
+      "call_id": "fc-01M2E06XH70DYKCJZV7C73EHW0"
+    }
+  ],
+  "cap_approvals": [],
+  "campaigns": {
+    "G3-S10-READER-1": {
+      "authorization": {
+        "campaign": "G3-S10-READER-1",
+        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+        "total_cents": 5000,
+        "ordinary_cents": 4000,
+        "initial_cents": 2000,
+        "node_cents": {
+          "P": 300,
+          "A": 1700,
+          "B": 700,
+          "C": 900,
+          "D": 400,
+          "Reserve": 1000
+        },
+        "resources": {
+          "gpu": "L40S",
+          "cpu_request": 2,
+          "cpu_limit": 2,
+          "memory_request_mib": 32768,
+          "memory_limit_mib": 32768,
+          "max_containers": 1,
+          "concurrency": 1,
+          "retries": 0
+        },
+        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+      },
+      "at": 1789323810.2903554
+    }
   }
- ],
- "cap_approvals": []
 }
