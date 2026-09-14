@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-14T01:12:44.511827+00:00.
+Updated 2026-09-14T01:35:58.352635+00:00.
 
 **Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
 
-**Gear 3 supplement submitted:** the two approved original context checks are running under a ten-minute maximum and at most $0.64 from Reserve. Total booked campaign reservations are $3.85, with the $50 campaign cap and lower account limits unchanged. Provider app/call identity, native supervisor and transition-only watcher verify. Ghost reading remains deferred; inspect returned context evidence plus retained complete pilot blocks before scientific admission. Local Stage 10 remains in first gear.
+**Gear 3 science plan ready:** the original complete human/opportunity pilot blocks plus the approved context supplement pass scoped admission. The validated finite plan has 17 jobs and at most $27.90 additional reservations; retained prior costs bring its total to at most $31.75. The unchanged $50 campaign cap, lower account cap and remaining $8.98 repair reserve are enforced. Ghost reading is deferred. Launch the frozen sequence with native transition-only supervision; local Stage 10 remains in first gear.
 
-The transition-only watcher owns waiting. The approved supplement completion/failure is the next cloud checkpoint; local GPU work remains held in first gear. No routine liveness wake is scheduled.
+The transition-only watcher owns waiting. The supplement is fully inspected; scoped pilot admission and the finite science launch are next. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
 
 ## Historical status snapshots (superseded)
 
