@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-14T08:47:53.239400+00:00.
+Updated 2026-09-14T09:41:01.775745+00:00.
 
-**Current local mode:** Stage 10 resumed second gear on the September 14 owner instruction. Both original scheduling controllers resumed at their exact native identities; no completed work was restarted. The verified ScholaWrite evaluation is preserved and the adaptive-reader job is running, followed automatically by the frozen 51-job queue, including 23 GPU jobs. All 164 source pins, 95 input-path references and both installed model digests verify. Normal Python priority and original full CPU affinity are restored; CPU boost-off and 90% AC maximum remain. All branch failures, queue completion and native disappearance have transition-only supervision. Final scientific analysis and the single stage packet remain pending.
+**Current local mode:** Stage 10 continues in second gear. The initial four-job ScholaWrite bank is complete and verified, with completed comparison cells internally landed in L386. The original 51-job follow-on queue has ten complete jobs, one failed branch, four blocked dependants, the second-model evaluation running and thirty-five pending jobs at the latest inspection. Nineteen original GPU jobs remain active or pending. A separate eight-job repair tail, including three contingent GPU jobs, waits for the current queue to finish. It repairs only the failed Ghost pilot's unscored explanation format; original evidence, budgets, gates and running sources remain intact. CPU boost-off and 90% AC maximum remain, with CPU 67.1 C / GPU 51.0 C observed. Native owners, source pins and transition-only monitoring verify. The single final stage packet remains pending.
 
 **Gear 3 Round 1 is complete:** all 17 scientific jobs and the final consumer finished. Offline replay reproduces all four packet files byte for byte; 8,452 retained evidence files and 76 launch files verify. Provider tasks and original native owners have ended. Full write-through is L385; [final curator packet](results/gear3/G3-S10-READER-1/REPORT.md). All $31.75 reservations remain booked pending provider settlement. Local Stage 10 now runs in second gear under the separate September 14 instruction. No new paid work is queued.
 
-The finite cloud campaign is closed and awaits curator review. The local finite runway is fully prepared and running; its remaining branch admissions and final report run in dependency order. No routine liveness wake is scheduled. [Resumption and readiness receipt](results/phase_2_4_stage_10/GEAR2_RESUMPTION.json).
+The finite cloud campaign is closed and awaits curator review. Local branch admissions, analyses and review assembly run in dependency order; the original failed branch and scoped repair remain separate. Both queues must close before final synthesis. No routine liveness wake is scheduled. [Repair and validation receipt](results/phase_2_4_stage_10/READING_EFFORT_REPAIR.json), [initial-bank receipt](results/phase_2_4_stage_10/SCHOLA_F0_BANK_COMPLETE.json).
 
 ## Historical status snapshots (superseded)
 

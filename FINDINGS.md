@@ -52,7 +52,7 @@ interpretability at once, and the same word means different things in each.
 
 ## Where we are, in one paragraph
 
-**Stage 10 implementation is underway, September 12, 2026.** The supplied reader-prototype plan is adopted in Gear 2 with CPU cooling limits retained. The literal local-model, public Ghost transport and saved-call resume checks have passed; direct and fixed-example readers and the initial CoAuthor source adapter are implemented. The initial CoAuthor and Ghost development producers are complete and verified; the direct/example and matched-deliberation CoAuthor evaluations are complete; the fitted effort policy has completed its reserved prediction producer. The native-procedure reading prediction producers are complete and verified; the human executable-rule predictions are complete and verified, and the procedure-memory and reserved-budget human development producers are complete and verified while broader human readers, other tasks and final scientific analysis remain to be completed. Stage 9's selected packet remains closed; its deferred agenda is separate. [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md).
+**Stage 10 is running in second gear, September 14, 2026.** The initial ScholaWrite bank is complete, and its complete comparison cells plus original/earlier CoAuthor, matched history and reserved Ghost opportunity comparisons are internally landed in L386. The finite follow-on queue is running the admitted second local model, with the remaining project rotations and continuity anchor prepared. One Ghost reserved-reading pilot failed admission; its downstream work stopped, and a separate bounded repair waits behind the original queue (OPS-S10-READING-REPAIR). CPU cooling limits remain. Gear 3 Round 1 is fully closed in L385; local Stage 10 still owes its single final scientific packet. [Stage 10 context](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md).
 
 ### S10-E - supplied theory corrections applied
 
@@ -225,6 +225,66 @@ The active billing guard uses the lower actual account headroom, a separate allo
 **Means.** The curator's transition-only instruction replaces earlier timer/refill rules. A healthy long-running process is an acceptable end to an agent turn. Scientific terminal evidence still needs its full landing when the transition is delivered; no new scientific test was harvested. At watchdog installation the human effort evaluation was an unvalidated private draft; its later validation and running evaluation are recorded under OPS-S10-I6.
 
 **Curator roll-up:** theory group: operating infrastructure | question: can unattended work signal only actionable transitions? | **Infrastructure** | result: all 86 checks pass | project meaning: healthy waiting no longer generates routine agent turns | next engineering obligation: inspect the next actual terminal or monitor fault | public claim: unchanged | curator decision required: No | detail: receipt above.
+
+### L386 - initial local reader comparisons: benefits depend on the evidence and baseline
+
+**Hypothesis.** Executing proposed procedures, storing reusable procedures and selecting extra effort improve withheld prediction beyond their matched deliberation, concrete-memory and fixed-effort controls.
+
+**METHOD.** Scored only complete, source-bound prediction cells under the frozen three-comparison plan. The local Qwen reader used the same allowed evidence and output budgets within each strategy pair. Human writers or source projects and constructed cases receive equal weight; shared prompts and constructors define uncertainty components. Half multiclass Brier loss retains invalid forecasts at loss one; unmodified log scores, infinite-support cases, finite-pair denominators, generated-choice accuracy, calibration, every secondary contrast and costs remain in the [complete aggregate record](results/phase_2_4_stage_10/FIRST_COMPLETE_COMPARISONS.json). All four numerical banks reproduce through unchanged consumers. The matched-history calculation reproduces byte for byte, and original evidence remains intact. This is internal landing of completed cells, not the final Stage 10 packet.
+
+The table reports comparator loss minus treated loss: positive favors the treated reader. Procedure execution is compared with matched direct deliberation; procedure memory with storage-matched examples; learned effort with fixed effort. Each ScholaWrite row covers the same nineteen boundaries of one held-out source project, with two targets and three separately scored evidence views. Each human CoAuthor view has fourteen writers joined into one prompt-connected component. Repeated views are not new people. Ghost has four questions from two source cases.
+
+| Complete population / evidence | Execution benefit | Procedure-memory benefit | Learned-effort benefit |
+|---|---:|---:|---:|
+| ScholaWrite edit category / current draft | +0.053750 | -0.070055 | -0.311200 |
+| ScholaWrite edit category / earlier drafts | +0.043075 | +0.088273 | -0.207837 |
+| ScholaWrite edit category / process record | +0.174373 | -0.148808 | -0.298732 |
+| ScholaWrite edit location / current draft | -0.036073 | +0.068326 | +0.140447 |
+| ScholaWrite edit location / earlier drafts | +0.148310 | +0.195020 | -0.109695 |
+| ScholaWrite edit location / process record | +0.014059 | +0.187386 | +0.060732 |
+| CoAuthor handling / current draft (96 events) | -0.057595 | +0.006330 | -0.090602 |
+| CoAuthor handling / process record (96 events) | +0.049636 | +0.023031 | -0.049204 |
+| CoAuthor handling / earlier drafts (94 events) | +0.021687 | -0.099575 | +0.006173 |
+| Ghost changed opportunity / process record (4 questions) | +0.377319 | not in this bank | +0.023969 |
+
+**Found.** Benefits vary by source, target and permitted evidence. In the first ScholaWrite split, execution exceeds matched deliberation on five of six cells; grounded procedure memory exceeds examples on four. Yet the training-only class prior beats every model strategy on five of the six cells; current-process edit-category retrieval is the exception. The single development project cannot admit a generally supported learned extra-work route, so this policy comparison does not establish learned effort allocation. The other four source rotations remain pending.
+
+On original CoAuthor handling, grounded procedure memory has a small advantage over matched examples on current-draft and process-record cells; it loses on earlier drafts. The training class prior has loss 0.303190 and beats every model strategy in both original views. That cheap control is absent from the earlier-draft comparison capsule, so it licenses no earlier-draft superiority over the prior. The earlier view also excludes two original opportunities for context; cross-view differences are not an independently randomized evidence effect.
+
+In the frozen history intervention, only the earlier handling record changes, replaced by an equally long record from another writer while draft, menu, options and target remain fixed. The same seventy-seven eligible opportunities from thirteen writers yield own-history benefits of +0.003474 for direct reading and +0.069313 for grounded procedure memory. Nineteen unmatchable opportunities remain excluded. Shared dependencies leave one component: this supports scoped usefulness of actual session history, not persistent familiarity or personal intent recovery. Historical forecast costs remain in the original [history producer receipt](results/phase_2_4_stage_10/HUMAN_HISTORY_PRODUCER.json).
+
+On the two reserved constructed Ghost cases, executed hypotheses have loss 0.125181 against matched direct deliberation at 0.502500, direct reading at 0.502500, retrieved examples at 0.181875 and the training prior at 0.250000. The benefit/cost policy has loss 0.157906 versus fixed effort at 0.181875. All attempts are valid. These are small, previously exposed changed-opportunity cases, not the separate reconstruction branch, independent human evidence or a population replication.
+
+**Means.** The completed cells narrow a general claim of structured-reader superiority. Some evidence-specific benefits survive their paired controls, while cheap priors and concrete examples remain difficult rivals. Predicted recorded edits, executed candidate policies, historical process and a persistent maker model are distinct outcomes. The corpus/model continuation and final stage integrity remain open. No confirmatory p-values, equivalence claim or new research test were added.
+
+**Curator roll-up:** theory group: bounded reconstruction and evidence use | question: does explicit procedure modeling improve withheld choices beyond matched simpler readers? | **Narrows** | result: benefits vary across completed evidence views and often lose to cheap priors | project meaning: these packages show scoped assistance, not general maker-model recovery | next engineering obligation: finish the frozen independent branches, preserve failed admissions, and assemble the single complete stage packet | public claim: unchanged beyond the stated descriptive cells | curator decision required: No | detail: complete aggregate record above.
+
+### OPS-S10-READING-REPAIR - retain the failed pilot and repair only its response format
+
+**Hypothesis.** The finite queue can preserve a failed literal admission, continue independent experiments and attempt a bounded interface repair without changing the task or scoring rule.
+
+**METHOD.** Replayed the original discarded Ghost pilot with model calls and writes forbidden, inspected the stopped development branch and all four blocked dependants, and independently replayed the admitted second-local-model pilot. Tested a versioned reserved-reading wrapper against complete native development/fit/evaluation, immutable replay, changed-source refusal and deliberate truncation. Froze a separate continuation behind the existing queue; original worker sources and attempts remain untouched.
+
+The table describes apparatus checks, not scientific prediction scores.
+
+| Check | Observed result |
+|---|---|
+| Original Ghost pilot | Four literal calls, one truncated direct response; admission remains false |
+| Development refusal | No new model calls; one failure receipt and four blocked downstream jobs retained |
+| Scoped request repair | Empty unscored explanation; evidence, options, original token budgets and admission criteria preserved |
+| Constructed validation | Four checks pass, none skipped; truncation still refuses admission |
+| Independent local-model pilot | All ten routes valid across sixteen calls; full immutable replay passes |
+| Continuation | Eight reviewed jobs, three GPU jobs, waiting for the current finite queue |
+| Original runway | Ten complete, one failed, four blocked, one running and thirty-five pending at inspection |
+| Cooling and monitoring | CPU 67.1 C / GPU 51.0 C observed; boost off, 90% maximum and transition-only supervision retained |
+
+**Found.** The original direct pilot spent its limited output on explanation and truncated its probability vector. This is an interface failure, not a scientific null. The new wrapper constrains only that unscored explanation and binds its own source into admission. Its live discarded pilot remains queued; constructed checks do not establish that the actual model will pass. If it fails, its dependants retain explicit blocked dispositions without automatic retries. The original finite queue is running the independent second-model evaluation while the repair controller waits behind it. Nineteen GPU jobs remain active or pending in the original queue, plus three contingent repair jobs.
+
+The admitted second-model pilot preserves 95 evidence files and uses the discarded legacy writer. Its sixteen calls generated 2,477 tokens from 26,097 input tokens. Saved server durations total 98.157 seconds, including 16.108 loading, 8.077 prompt evaluation and 72.831 generation; these are callback measurements, not elapsed queue time or invoices. All raw bindings and costs reproduce. The first check invocation refused access to the default temporary folder; a new workspace-local temporary root allowed the full checks to run. The first launcher attempt left no queue or receipt; the corrected helper explicitly adds the repository import path. Neither administrative correction changed scientific evidence.
+
+**Means.** Independent work remains live and the repair has a finite, already prepared path to analysis. The initial ScholaWrite bank's complete four-job inventory and adaptive replay are verified; its completed comparisons receive the separate L386 scientific write-through. Both queues and all original failures must enter the final stage packet. Snapshot temperatures have no hardware sample timestamp. No new hypotheses, cloud work or calendar-week padding were introduced. [Full repair and validation receipt](results/phase_2_4_stage_10/READING_EFFORT_REPAIR.json), [initial-bank receipt](results/phase_2_4_stage_10/SCHOLA_F0_BANK_COMPLETE.json).
+
+**Curator roll-up:** theory group: instrument and execution integrity | question: can one failed interface be repaired without losing evidence or stopping independent work? | **Infrastructure** | result: the original admission refused and a bounded repair waits behind valid work | project meaning: failures remain visible while the prepared study progresses | next engineering obligation: inspect repair admission and reconcile both queues in the final packet | public claim: unchanged | curator decision required: No | detail: repair receipt above.
 
 ### OPS-S10-GEAR2 - resume the preserved local study and verify its full runway
 
@@ -675,6 +735,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ## ⚠ Known weaknesses — open ones only
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
+
+**Initial local Stage 10 scope (L386).** ScholaWrite is currently one completed held-out project, CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. Earlier-draft analysis lacks the cheap-prior row. The reserved reconstruction pilot failed after a truncated direct forecast; independent work continues. These are explicit limits, not permission to erase outcomes or interpret an unfinished rotation bank.
 
 **Gear 3 Round 1 scope (L385).** Complete exposed human and constructed comparisons are available, but shared prompts/constructors/donors collapse the main contrasts to one component. Human task-specific rule voting is not a persistent maker model; naming changes representation access, not historical recovery. Billing remains unsettled. These limits constrain claims without voiding the descriptive scores.
 

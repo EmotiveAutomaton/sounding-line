@@ -1701,3 +1701,18 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Gear 3 final science replay (OPS-G3-R1-PANEL; L385).** All 17 completed jobs replay through the frozen native verifier; all four final packet files reproduce byte for byte, 8,452 retained scientific evidence files remain unchanged, and all 40 model/context loads verify fully GPU resident. No inference, scorer change or cloud submission was required. Provider/native owners have ended; scientific interpretation is in L385. [Inspection](../results/gear3/G3-S10-READER-1/SCIENTIFIC_INSPECTION.json).
 
 **Stage 10 second-gear resumption (OPS-S10-GEAR2).** Both exact native controllers resumed once with saved CPU scheduling restored. Both plans, 164 source pins, all 95 input-path references and both installed model versions verify. Three initial-bank failure notifications were added; all branch failures and queue completion/disappearance are covered without routine wakes. Existing 20-check validation remains applicable to unchanged worker sources. Cooling caps remain; the final scientific packet is pending. [Receipt](../results/phase_2_4_stage_10/GEAR2_RESUMPTION.json).
+
+**First ScholaWrite bank and complete-cell replay (OPS-S10-GEAR2; L386).** All four bank jobs completed; 23,641 retained files verify. All 342 adaptive routes and their 534 saved model calls replay without new inference or evaluation-answer access; original bank owners exited. Four complete numerical banks reproduce and the matched-history calculation is byte-identical. The reserved-reading pilot also replays its original invalid direct response and failed admission. [Bank receipt](../results/phase_2_4_stage_10/SCHOLA_F0_BANK_COMPLETE.json), [completed cells](../results/phase_2_4_stage_10/FIRST_COMPLETE_COMPARISONS.json).
+
+### Reserved Ghost compact-response repair and second-local-model admission
+
+`runners/stage10/reading_effort_compact.py` changes only the unscored explanation
+format and binds that source into the existing literal gate. Four targeted
+native-chain, immutable-replay, evidence/budget and deliberate-truncation checks
+pass with no skips. The real repair pilot is queued, not yet admitted. The
+original truncated pilot and development refusal remain retained, with four
+blocked dependants. The independent Llama pilot admits every required route;
+all 95 evidence files, sixteen raw calls and costs reproduce without new calls.
+A separate eight-job repair tail waits behind the unmodified finite runway.
+Full instrument write-through: OPS-S10-READING-REPAIR and its
+[receipt](../results/phase_2_4_stage_10/READING_EFFORT_REPAIR.json).

@@ -33,6 +33,11 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S10-GEAR1: fully land the completed evaluation, immutable replay, native exit and GPU-lock release; keep both schedulers parked.
 - [x] OPS-S10-GEAR1: retain results through the owner hold; explicit Gear 2 resumption authorized September 14.
 - [x] OPS-S10-GEAR2: resume both exact native controllers without restarting valid work; verify all input paths, frozen sources, installed model identities and transition-only failure monitoring.
+- [x] L386: reproduce and internally land the complete first ScholaWrite split, original/earlier CoAuthor comparisons, exact-length history intervention and reserved Ghost opportunity comparison.
+- [ ] L386: retain the unreported final-stage synthesis until remaining source/model branches close; earlier-draft cheap-prior control remains absent from this capsule.
+- [x] OPS-S10-READING-REPAIR: fully inspect the original failed literal pilot/development refusal and second-local-model admission; preserve all original attempts and blocked dispositions.
+- [x] OPS-S10-READING-REPAIR: validate the versioned empty-explanation wrapper and launch the eight-job repair tail behind the current queue; four checks pass, original sources and budgets unchanged.
+- [ ] OPS-S10-READING-REPAIR: inspect actual compact pilot admission, complete admitted dependent work, and reconcile original plus repair dispositions in the single final stage packet.
 - [ ] OPS-S10-GEAR2: inspect complete queue transitions and final review; retain cooling limits and reconcile the frozen assembly's historical Gear3 hold wording with completed L385 in the final packet.
 
 - [x] S10-I11: validate the finite local dependency queue, ScholaWrite chronology and six-strategy bank; fully land the discarded literal pilot.
@@ -103,7 +108,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: validate both history-worker branches and freeze exact-length other-writer donors; preserve all exclusions.
 - [x] S10-C3: launch the validated matched-history producer with verified native progress and transition-only supervision.
 - [x] S10-C3: fully land the matched-history producer; all requests, parses, costs, rule executions and native exit verify.
-- [ ] S10-C3: complete common-cell and matched-history analysis under the frozen comparisons.
+- [x] S10-C3: complete common-cell and matched-history analysis under the frozen comparisons (L386).
 - [x] S10-C3: prepare and validate chronological earlier-draft evidence and its four-job R0/R1/R2 producer chain; retain empty/identical history and two context exclusions.
 - [x] S10-C3: land the training-only literal earlier-draft pilot and launch the validated four-job chain under transition-only supervision.
 - [x] S10-C3: land the complete earlier-draft producer with unchanged preparation/queue replay, all literal requests/parses/costs and native exit verified.
@@ -113,7 +118,7 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: fully land all earlier-draft R3/R1/R4 predictions and retained costs; unchanged no-call replay and native exit verified.
 - [x] S10-C3: implement and validate earlier-draft effort callbacks, identity-only evaluation preparation and discarded literal admission (OPS-S10-I10).
 - [x] S10-C3: fully land the finite earlier-draft development/fit/evaluation chain with complete raw/cost/routing reconstruction and native exit.
-- [ ] S10-C3: apply the complete earlier-draft paired comparison and selected remaining stage branches.
+- [x] S10-C3: apply the complete earlier-draft paired comparison (L386); selected remaining stage branches continue in S10-I11.
 - [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
 - [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
 - [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.

@@ -196,3 +196,11 @@ it cannot bypass the ordinary identical-evidence strategy guard.
 and worked-example candidates privately. Its COMPLETE receipt is not a final
 scientific verdict. The single stage packet still requires agent inspection
 and the full internal write-through. See the local runway design in docs/design.
+
+`reading_effort_compact.py` is the source-bound repair for the reserved Ghost
+pilot's truncated direct probability vector. It constrains only the unscored
+explanation to an empty string, preserving all evidence, options, token budgets,
+parsing and scoring. Complete native-chain constructed checks pass; a separate
+literal pilot must admit this exact source before development or evaluation.
+The finite repair queue waits for the current runway and retains original
+failures; no live worker source, saved attempt or failed admission is replaced.

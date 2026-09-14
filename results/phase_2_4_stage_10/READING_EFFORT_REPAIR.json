@@ -1,0 +1,99 @@
+{
+  "schema": "stage10.reading-effort-repair.1",
+  "at": "2026-09-14T09:41:01.775745+00:00",
+  "status": "QUEUED_AFTER_CURRENT_RUNWAY",
+  "scientific_verdict": false,
+  "original_failure": {
+    "pilot_admitted": false,
+    "literal_attempts": 4,
+    "invalid_attempts": 1,
+    "reason": "The 256-token direct response truncated before completing the probability vector.",
+    "development_failure": "literal reserved reading admission required",
+    "development_failure_sha256": "ca361351fbe9e1f6a42c5bd259edb128567317351e998405ed0121978e8212a3",
+    "development_new_model_calls": 0,
+    "dependent_jobs_blocked": 4,
+    "original_evidence_retained": true,
+    "pilot_immutable_replay": true
+  },
+  "repair": {
+    "change": "Only the unscored explanation is constrained to an empty string in a versioned request wrapper.",
+    "preserved": [
+      "public evidence",
+      "all answer options",
+      "complete probability vector",
+      "source cohorts",
+      "training-only fit",
+      "256-token first read",
+      "512-token optional route",
+      "768-token total route allowance",
+      "literal admission criteria",
+      "truncation and invalid handling",
+      "scoring code"
+    ],
+    "source": "runners/stage10/reading_effort_compact.py",
+    "source_sha256": "605b71ab289dc3bed43ab4a848577fa6293c75fad83ab10f2c7e1a977a132174",
+    "source_bound_pilot_required": true,
+    "literal_repair_admitted": null,
+    "automatic_retries": 0
+  },
+  "validation": {
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "native_executor_used": true,
+    "model_transport": "constructed; live discarded repair pilot is queued",
+    "tests": [
+      "tests/test_stage10_reading_effort_compact.py",
+      "tests/test_stage10_reading_effort.py"
+    ],
+    "tests_xml_sha256": "0ffad0563a03266e75bc75c4fdecb960909791f41f654e4f113bf126f2617442",
+    "first_check_attempt": "Default temporary-directory access refused setup; original failure retained. Complete checks passed using a new workspace-local temporary root.",
+    "launcher_note": "No launch receipt or queue existed after the first helper attempt; repository import path made explicit before successful launch."
+  },
+  "queue": {
+    "jobs": 8,
+    "gpu_jobs": 3,
+    "source_files": 163,
+    "plan_sha256": "f7215a7c8e85376de4f2383c188b8cdb181d25e10f613d7d4abe9881f214055a",
+    "waits_for": "raw/local-week-runway-v1/COMPLETE.json",
+    "complete": "raw/reading-effort-repair-queue-v1/COMPLETE.json",
+    "failure": "raw/reading-effort-repair-queue-v1/FAILED.json",
+    "native_identity_verified": true,
+    "current_work_restarted": false,
+    "original_source_pins_unchanged": true,
+    "transition_only": true
+  },
+  "resources": {
+    "gear": 2,
+    "cpu_boost": false,
+    "ac_cpu_maximum_percent": 90,
+    "cloud_jobs_added": 0,
+    "new_hypotheses": 0
+  },
+  "second_local_pilot": {
+    "at": "2026-09-14T09:35:43.399246+00:00",
+    "status": "COMPLETE",
+    "files": 95,
+    "admitted": true,
+    "routes": 10,
+    "native_calls": 16,
+    "complete_sha256": "fd492549a6b1a1deb9ae3f3b917c97023dde53de5b4688fd573de274943b5696",
+    "immutable_replay": true,
+    "new_model_calls": 0,
+    "evaluation_answers_opened": false,
+    "pilot_source": "discarded legacy writer",
+    "source_pins_unchanged": true,
+    "route_status_counts": {
+      "VALID": 10
+    },
+    "costs": {
+      "eval_count": 2477,
+      "prompt_eval_count": 26097,
+      "total_duration": 98156728300,
+      "load_duration": 16108017100,
+      "prompt_eval_duration": 8076950000,
+      "eval_duration": 72831466000
+    }
+  },
+  "final_packet": "Reconcile both finite queues, original failures and complete cells before the single stage report. Frozen launch-time Gear 3 wording remains historical; L385 is current."
+}
