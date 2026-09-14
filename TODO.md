@@ -10,7 +10,7 @@ archive, kept whole, mined but never deleted.
 - [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).
 - [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/GEAR_3_ROUND_1_REVIEW.md)).
 - [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
-- [ ] Gear 3 Round 1 is commissioned by the September 13 follow-up: implement isolated profiles, campaign reservations/deadlines, complete evidence transport and frozen comparisons; pass the discarded pilot before science. Enforce $3 pilot, $20 initial release, $40 ordinary use and $50 total including reserve. Preserve Gear 2 workers.
+- [x] Gear 3 Round 1: complete the admitted 17-job package and final write-through (L385). Admission used verified whole pilot blocks plus the approved context supplement; the original full pilot remains failed and Ghost reading deferred. Campaign and lower workspace limits remain unchanged. Local Stage 10 remains in first gear.
 
 - [x] OPS-G3-R1-SETUP: implement and validate the isolated cloud apparatus, native source bundle, complete pilot replay and finite post-pilot driver; 27 focused checks pass.
 - [x] OPS-G3-R1-SETUP: complete extended fault-injection validation and verify workspace, explicit environment, billing-cycle limits, retained storage and payment-method evidence. All 42 checks pass; guide filed.
@@ -24,7 +24,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-PANEL: inspect and fully land the complete context supplement, immutable replay and ended owners.
 - [x] OPS-G3-R1-PANEL: combine verified whole pilot blocks, defer Ghost reading and freeze the affordable 17-job plan.
 - [x] OPS-G3-R1-PANEL: launch the frozen 17-job scientific sequence with verified provider/native ownership.
-- [ ] OPS-G3-R1-PANEL: inspect complete sequence outputs and deliver the final packet.
+- [x] OPS-G3-R1-PANEL: inspect complete sequence outputs and deliver the final packet (L385; all 17 jobs complete, exact offline reproduction).
+- [ ] L385: curator review before a separately commissioned cloud follow-up; no automatic paid expansion. Local Stage 10 remains in first gear with results and frozen queues preserved.
 
 ## Stage 10 commissioned - 2026-09-12
 
