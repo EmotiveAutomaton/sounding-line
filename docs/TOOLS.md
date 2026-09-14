@@ -1679,3 +1679,5 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Stage 10 first-gear completion (OPS-S10-GEAR1).** The complete evaluation reproduces with model access/output creation forbidden; native exit, GPU-lock release, suspended scheduler identities and all 164 source pins verify. No future GPU work was dispatched. [Receipt](../results/phase_2_4_stage_10/SCHOLA_EVALUATION_PRODUCER.json).
 
 **Gear 3 scoped context supplement (OPS-G3-R1-PANEL).** The owner-approved two-call exception binds the original payload and unchanged spending limits. All 45 focused refusal/adapter checks pass; the actual device supplement is still required before scientific admission. [Validation](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_CHECKS.json).
+
+**Gear 3 scoped supplement launch (OPS-G3-R1-PANEL).** Exact-payload dispatch and native terminal supervision are active within the unchanged cap; the complete device receipt remains pending. [Launch](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_LAUNCH.json).
