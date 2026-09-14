@@ -20,7 +20,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-PANEL: fully inspect and land provider-preempted CPU cache; retained archive/charges and one original-deadline Reserve recovery verified.
 - [x] OPS-G3-R1-PANEL: fully land the failed GPU pilot, complete-block replay, original gate refusal and stopped provider/native owners.
 - [x] OPS-G3-R1-PANEL: record approval and validate the exact context supplement, preserving all prior costs and unchanged campaign/account caps.
-- [ ] OPS-G3-R1-PANEL: run and inspect the single approved context supplement; combine only verified whole pilot blocks, defer Ghost reading, then freeze affordable admitted branches and complete the final packet.
+- [x] OPS-G3-R1-PANEL: launch the single approved context supplement with native transition-only supervision.
+- [ ] OPS-G3-R1-PANEL: inspect the submitted supplement on its terminal transition; combine only verified whole pilot blocks, defer Ghost reading, then freeze affordable admitted branches and complete the final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 

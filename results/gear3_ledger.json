@@ -457,6 +457,122 @@
         }
       ],
       "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F"
+    },
+    {
+      "campaign_id": "G3-S10-READER-1",
+      "invocation_id": "p-context-supplement-v1",
+      "node": "Reserve",
+      "command": [
+        "runners/gear3.py",
+        "round1",
+        "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502"
+      ],
+      "profile": {
+        "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
+        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+        "startup_seconds": 300
+      },
+      "resources": {
+        "gpu": "L40S",
+        "cpu_request": 2,
+        "cpu_limit": 2,
+        "memory_request_mib": 32768,
+        "memory_limit_mib": 32768,
+        "max_containers": 1,
+        "concurrency": 1,
+        "retries": 0
+      },
+      "duration_cap_seconds": 600,
+      "expires_at": 1789348852.8938107,
+      "ts": 1789348252.8938107,
+      "reserved_cents": 64,
+      "booked_cents": 64,
+      "overhead_cents": 25,
+      "approval": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
+      "campaign_authorization": {
+        "campaign": "G3-S10-READER-1",
+        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+        "total_cents": 5000,
+        "ordinary_cents": 4000,
+        "initial_cents": 2000,
+        "node_cents": {
+          "P": 300,
+          "A": 1700,
+          "B": 700,
+          "C": 900,
+          "D": 400,
+          "Reserve": 1000
+        },
+        "resources": {
+          "gpu": "L40S",
+          "cpu_request": 2,
+          "cpu_limit": 2,
+          "memory_request_mib": 32768,
+          "memory_limit_mib": 32768,
+          "max_containers": 1,
+          "concurrency": 1,
+          "retries": 0
+        },
+        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+      },
+      "recovery_of": null,
+      "status": "COMPLETE",
+      "owner_ended": true,
+      "provider_charge_cents": null,
+      "service_estimate_cents": null,
+      "est_actual_dollars": 0.64,
+      "cost_basis": "entire capped reservation; not an invoice",
+      "events": [
+        {
+          "at": 1789348256.232515,
+          "from": "RESERVED",
+          "to": "SUBMITTED",
+          "evidence": null
+        },
+        {
+          "at": 1789348404.6041505,
+          "from": "SUBMITTED",
+          "to": "COMPLETE",
+          "evidence": {
+            "app_id": "ap-tC8GdzEAobLHBMuPEhsVSZ",
+            "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR",
+            "full_archive_sha256": "a1293bdeefac296aee249c2147e8d5486c7b8396bd419ccf333868dcdab41b8d"
+          }
+        }
+      ],
+      "supplement_authorization": {
+        "schema": "gear3.scoped-supplement-authorization.1",
+        "authorization_id": "G3R1.7-context-supplement",
+        "owner_instruction": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
+        "approved_date": "2026-09-13",
+        "campaign": "G3-S10-READER-1",
+        "campaign_cap_cents": 5000,
+        "invocation": "p-context-supplement-v1",
+        "node": "Reserve",
+        "seconds": 600,
+        "startup_seconds": 300,
+        "overhead_cents": 25,
+        "reservation_cap_cents": 64,
+        "bundle_sha256": "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502",
+        "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
+        "original_invocation": "p-gpu-panel-v1",
+        "original_bundle_sha256": "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3",
+        "original_job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
+        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+        "block": "P-context-boundary-004",
+        "block_sha256": "95310a90ef044fbafa443508d05ec8aab3f2fde1512fc934db1e99c531f7a61c",
+        "units": 2,
+        "models": [
+          "9b",
+          "27b"
+        ],
+        "automatic_retry": false,
+        "original_failed_pilot_and_costs": "retained unchanged",
+        "scope": "Only the two original input-size checks; Ghost reading deferred. Fresh ten-minute supplement clock explicitly approved. No scientific admission until actual returned evidence is verified. Local Stage 10 remains in first gear."
+      },
+      "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR"
     }
   ],
   "cap_approvals": [],
