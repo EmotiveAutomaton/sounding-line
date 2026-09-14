@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-14T01:35:58.352635+00:00.
+Updated 2026-09-14T01:42:23.564181+00:00.
 
 **Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
 
-**Gear 3 science plan ready:** the original complete human/opportunity pilot blocks plus the approved context supplement pass scoped admission. The validated finite plan has 17 jobs and at most $27.90 additional reservations; retained prior costs bring its total to at most $31.75. The unchanged $50 campaign cap, lower account cap and remaining $8.98 repair reserve are enforced. Ghost reading is deferred. Launch the frozen sequence with native transition-only supervision; local Stage 10 remains in first gear.
+**Gear 3 science is running:** the first scientific job is submitted to Modal and the frozen 17-job native sequence is active. The plan allows at most $27.90 in new reservations, or $31.75 including all prior costs, within the unchanged campaign/account limits and with $8.98 remaining repair reserve protected. Completion includes the local final-packet consumer; failures retire affected domains without automatic retries. The watcher monitors terminal transitions only. Ghost reading stays deferred and local Stage 10 remains in first gear.
 
-The transition-only watcher owns waiting. The supplement is fully inspected; scoped pilot admission and the finite science launch are next. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
+The transition-only watcher owns waiting. The next agent checkpoint is complete sequence/packet, failure or disappearance. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
 
 ## Historical status snapshots (superseded)
 

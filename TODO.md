@@ -23,7 +23,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-PANEL: launch the single approved context supplement with native transition-only supervision.
 - [x] OPS-G3-R1-PANEL: inspect and fully land the complete context supplement, immutable replay and ended owners.
 - [x] OPS-G3-R1-PANEL: combine verified whole pilot blocks, defer Ghost reading and freeze the affordable 17-job plan.
-- [ ] OPS-G3-R1-PANEL: execute the frozen plan, inspect complete outputs and deliver the final packet.
+- [x] OPS-G3-R1-PANEL: launch the frozen 17-job scientific sequence with verified provider/native ownership.
+- [ ] OPS-G3-R1-PANEL: inspect complete sequence outputs and deliver the final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 

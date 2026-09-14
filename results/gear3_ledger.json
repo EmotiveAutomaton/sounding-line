@@ -573,6 +573,82 @@
         "scope": "Only the two original input-size checks; Ghost reading deferred. Fresh ten-minute supplement clock explicitly approved. No scientific admission until actual returned evidence is verified. Local Stage 10 remains in first gear."
       },
       "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR"
+    },
+    {
+      "campaign_id": "G3-S10-READER-1",
+      "invocation_id": "science-a-001",
+      "node": "A",
+      "command": [
+        "runners/gear3.py",
+        "round1",
+        "500cc767e32c1f38b6be2849ce1f83f84cfd4abae9e7ca95c61121186db5ccc0"
+      ],
+      "profile": {
+        "job_sha256": "2b5e501982af5b68b601065b2350500f796bbe93fe5759d35ab6bca1ca09278a",
+        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+        "startup_seconds": 300
+      },
+      "resources": {
+        "gpu": "L40S",
+        "cpu_request": 2,
+        "cpu_limit": 2,
+        "memory_request_mib": 32768,
+        "memory_limit_mib": 32768,
+        "max_containers": 1,
+        "concurrency": 1,
+        "retries": 0
+      },
+      "duration_cap_seconds": 2124,
+      "expires_at": 1789352120.3377807,
+      "ts": 1789349996.3377807,
+      "reserved_cents": 161,
+      "booked_cents": 161,
+      "overhead_cents": 25,
+      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+      "campaign_authorization": {
+        "campaign": "G3-S10-READER-1",
+        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+        "total_cents": 5000,
+        "ordinary_cents": 4000,
+        "initial_cents": 2000,
+        "node_cents": {
+          "P": 300,
+          "A": 1700,
+          "B": 700,
+          "C": 900,
+          "D": 400,
+          "Reserve": 1000
+        },
+        "resources": {
+          "gpu": "L40S",
+          "cpu_request": 2,
+          "cpu_limit": 2,
+          "memory_request_mib": 32768,
+          "memory_limit_mib": 32768,
+          "max_containers": 1,
+          "concurrency": 1,
+          "retries": 0
+        },
+        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+      },
+      "recovery_of": null,
+      "status": "SUBMITTED",
+      "owner_ended": false,
+      "provider_charge_cents": null,
+      "service_estimate_cents": null,
+      "est_actual_dollars": 1.61,
+      "cost_basis": "entire capped reservation; not an invoice",
+      "events": [
+        {
+          "at": 1789349999.860474,
+          "from": "RESERVED",
+          "to": "SUBMITTED",
+          "evidence": null
+        }
+      ],
+      "call_id": "fc-01M2ES65VMP0X1R8T8TXYS6N4P"
     }
   ],
   "cap_approvals": [],
