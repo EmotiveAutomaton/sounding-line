@@ -1,0 +1,522 @@
+{
+  "schema": "stage10.final-examples.1",
+  "finding": "L388",
+  "scope": "Exact model forecasts/rules/costs with human source text and identity withheld; examples illustrate behavior, not independent statistical evidence.",
+  "examples": [
+    {
+      "name": "implementation forecast",
+      "selection": "first retained row in the final project category/current-draft comparison",
+      "substrate": "human scientific-writing draft, project 5",
+      "artifact_context": "Current draft before the next released edit. Human source prose is withheld; exact measured features follow.",
+      "features": {
+        "absolute_word_change": 0,
+        "citation_markers": 0,
+        "constant": 0,
+        "draft_characters": 1042,
+        "draft_lines": 2,
+        "draft_words": 167,
+        "previous_IMPLEMENTATION": 0,
+        "previous_PLANNING": 0,
+        "previous_REVISION": 0,
+        "previous_first_quarter": 0,
+        "previous_last_quarter": 0,
+        "previous_no_change": 0,
+        "previous_second_quarter": 0,
+        "previous_third_quarter": 0,
+        "previous_words": 0,
+        "prior_artifact_available": 0,
+        "prior_record_available": 0,
+        "section_markers": 1
+      },
+      "hypotheses": [
+        {
+          "goal_hypothesis": "Low line count suggests immediate text generation rather than structural planning.",
+          "program": {
+            "below": "IMPLEMENTATION",
+            "feature": "draft_lines",
+            "otherwise": "PLANNING",
+            "threshold": 41.0
+          }
+        },
+        {
+          "goal_hypothesis": "Absence of citation markers implies adding content rather than fixing references.",
+          "program": {
+            "below": "IMPLEMENTATION",
+            "feature": "citation_markers",
+            "otherwise": "REVISION",
+            "threshold": 2.5
+          }
+        }
+      ],
+      "evidence_for": "The exact feature thresholds fire as recorded by the executor.",
+      "evidence_against": "Threshold satisfaction does not identify the writer's purpose. The withheld annotation separately tests the consequence.",
+      "committed_prediction": {
+        "choice": "The next released edit is annotated as implementation: producing text or inserting manuscript objects, citations or references.",
+        "probabilities": {
+          "The next released edit is annotated as revision: changing clarity, coherence, structure, style, formatting, fluency or scientific accuracy.": 0.075,
+          "The next released edit is annotated as implementation: producing text or inserting manuscript objects, citations or references.": 0.85,
+          "The next released edit is annotated as planning: generating or organizing ideas or sections.": 0.075
+        }
+      },
+      "withheld_outcome": "The next released edit is annotated as implementation: producing text or inserting manuscript objects, citations or references.",
+      "generated_correct": true,
+      "cost": {
+        "executor_evaluations": 4,
+        "input_tokens": 5633,
+        "model_calls": 2,
+        "output_tokens": 360,
+        "reasoning_tokens": null,
+        "reasoning_tokens_status": "not separately exposed",
+        "wall_seconds": 6.798912200145423
+      },
+      "source_comparison_sha256": "a5e5c5bb8829185a907f5ce0fe650be3f725b942d6f4d2c85cd5f9b594a7bff6",
+      "private_route_sha256": "acb497e1cae0c23934b36d377bb7fb8730df7a5d79f69aed2df45496e1c3c5c6"
+    },
+    {
+      "name": "confidently wrong planning forecast",
+      "selection": "first task-hash among valid, wrong category forecasts with declared confidence at least .85; illustrative, not prevalence",
+      "substrate": "human scientific-writing draft, project 5",
+      "artifact_context": "Current draft before the next released edit. Human source prose is withheld; exact measured features follow.",
+      "features": {
+        "absolute_word_change": 0,
+        "citation_markers": 0,
+        "constant": 0,
+        "draft_characters": 2082,
+        "draft_lines": 13,
+        "draft_words": 324,
+        "previous_IMPLEMENTATION": 0,
+        "previous_PLANNING": 0,
+        "previous_REVISION": 0,
+        "previous_first_quarter": 0,
+        "previous_last_quarter": 0,
+        "previous_no_change": 0,
+        "previous_second_quarter": 0,
+        "previous_third_quarter": 0,
+        "previous_words": 0,
+        "prior_artifact_available": 0,
+        "prior_record_available": 0,
+        "section_markers": 0
+      },
+      "hypotheses": [
+        {
+          "goal_hypothesis": "If the draft is short (under 500 words), the next action is likely planning to expand structure.",
+          "program": {
+            "below": "PLANNING",
+            "feature": "draft_words",
+            "otherwise": "REVISION",
+            "threshold": 500
+          }
+        },
+        {
+          "goal_hypothesis": "If no prior edit label is available, the system defaults to planning new sections.",
+          "program": {
+            "below": "PLANNING",
+            "feature": "prior_record_available",
+            "otherwise": "REVISION",
+            "threshold": 1
+          }
+        }
+      ],
+      "evidence_for": "The exact feature thresholds fire as recorded by the executor.",
+      "evidence_against": "Threshold satisfaction does not identify the writer's purpose. The withheld annotation separately tests the consequence.",
+      "committed_prediction": {
+        "choice": "The next released edit is annotated as planning: generating or organizing ideas or sections.",
+        "probabilities": {
+          "The next released edit is annotated as planning: generating or organizing ideas or sections.": 0.85,
+          "The next released edit is annotated as implementation: producing text or inserting manuscript objects, citations or references.": 0.075,
+          "The next released edit is annotated as revision: changing clarity, coherence, structure, style, formatting, fluency or scientific accuracy.": 0.075
+        }
+      },
+      "withheld_outcome": "The next released edit is annotated as implementation: producing text or inserting manuscript objects, citations or references.",
+      "generated_correct": false,
+      "cost": {
+        "executor_evaluations": 4,
+        "input_tokens": 3703,
+        "model_calls": 2,
+        "output_tokens": 391,
+        "reasoning_tokens": null,
+        "reasoning_tokens_status": "not separately exposed",
+        "wall_seconds": 7.476974700111896
+      },
+      "source_comparison_sha256": "a5e5c5bb8829185a907f5ce0fe650be3f725b942d6f4d2c85cd5f9b594a7bff6",
+      "private_route_sha256": "1772fe761a50972d08c8850c2015321bd30ecc3b0aa912a8976beddc917d9041"
+    },
+    {
+      "name": "matched history and conflicting choice readout",
+      "selection": "first pair hash where the original generated choice is correct and the swapped generated choice is wrong; illustrative",
+      "substrate": "human handling of offered machine-written suggestions",
+      "artifact_context": "Same current draft, displayed suggestions, option order and target; only eight prior handling records are exchanged for exactly eight records from another writer.",
+      "hypotheses": [
+        "accept and edit",
+        "dismiss menu",
+        "accept and retain",
+        "leave without selection"
+      ],
+      "evidence_for": "Original own history supports the recorded accept-and-retain choice.",
+      "evidence_against": "The swapped generated choice contradicts its own executed probability mixture; this single example does not estimate the average history benefit.",
+      "committed_predictions": {
+        "own_history": {
+          "choice": "Accept an offered model suggestion and leave that insertion unedited before the next new menu.",
+          "probabilities": {
+            "Accept an offered model suggestion, then edit its inserted text before the next new menu.": 0.049999999999999996,
+            "Explicitly dismiss the displayed suggestion menu without a verified selection.": 0.45,
+            "Accept an offered model suggestion and leave that insertion unedited before the next new menu.": 0.45,
+            "Leave this displayed menu without a recorded selection or explicit dismissal.": 0.049999999999999996
+          }
+        },
+        "other_history": {
+          "choice": "Explicitly dismiss the displayed suggestion menu without a verified selection.",
+          "probabilities": {
+            "Accept an offered model suggestion, then edit its inserted text before the next new menu.": 0.049999999999999996,
+            "Explicitly dismiss the displayed suggestion menu without a verified selection.": 0.049999999999999996,
+            "Accept an offered model suggestion and leave that insertion unedited before the next new menu.": 0.85,
+            "Leave this displayed menu without a recorded selection or explicit dismissal.": 0.049999999999999996
+          }
+        }
+      },
+      "withheld_outcome": "Accept an offered model suggestion and leave that insertion unedited before the next new menu.",
+      "cost": {
+        "original_reused": {
+          "model_calls": 2,
+          "input_tokens": 5340,
+          "output_tokens": 371,
+          "wall_seconds": 8.019137600436807,
+          "executor_evaluations": 4
+        },
+        "new_history_intervention": {
+          "model_calls": 2,
+          "input_tokens": 5360,
+          "output_tokens": 385,
+          "wall_seconds": 9.162477299571037,
+          "executor_evaluations": 4
+        }
+      },
+      "private_route_hashes": [
+        "973667d7f5993cef1622bb06dd348de6244646c9800e22b66e03f53ba869666d",
+        "bdc89e32acf08d1f1ca727bb1adddfac47109acac18b81591e613e8f1f25e106"
+      ]
+    },
+    {
+      "name": "legal reconstruction is not historical recovery",
+      "selection": "first retained artifact-view reconstruction row",
+      "substrate": "constructed four-cell Ghost board",
+      "artifact_context": {
+        "declared_context": {
+          "current_observation": {
+            "artifact": 9,
+            "feasible": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "prefix": [],
+            "target": 3
+          },
+          "training_attempts": 16
+        },
+        "final_artifact": 9,
+        "permitted_prior_artifacts": [],
+        "permitted_query_descriptions": [],
+        "public_world": "A four-cell board is an integer bitmask 0..15, initially 0. Actions 0..3 set the corresponding bit; actions 4..7 clear bit action modulo 4. Routes have at most three actions. Artifact distance is the number of differing bits. The construction target is a desired bitmask, not the future observed answer. Current and prior observations are completed separate constructions. The future target is for a NEW construction starting from 0, not continuation of the current artifact. The maker may reuse acquired two-action motifs (0,1) and (2,3). The maker's acquired motifs and actual route are hidden.",
+        "query_costs": {
+          "diagnostic": 0,
+          "earlier_works": 0
+        },
+        "reader_action_budget": 32,
+        "target_request": {
+          "future_target": 12
+        }
+      },
+      "hypotheses_and_evidence": {
+        "assistance": "unchanged public Ghost known-law APIs; maker state not supplied",
+        "candidates": [
+          {
+            "candidate": {
+              "library_index": 0,
+              "reconstruction": [
+                4,
+                5,
+                6
+              ]
+            },
+            "evidence_likelihood": 0.028728751506404065,
+            "future_probabilities": [
+              0.16004908796619252,
+              0.027954350080762302,
+              0.027954350080762302,
+              0.0038880137221534565,
+              0.20655626095589918,
+              0.028728751506404065,
+              0.028728751506404065,
+              0.0023750177141345,
+              0.20655626095589918,
+              0.028728751506404065,
+              0.028728751506404065,
+              0.0023750177141345,
+              0.2122783565330581,
+              0.017549139125693856,
+              0.017549139125693856,
+              0
+            ],
+            "observation_checks": [
+              {
+                "observation": {
+                  "artifact": 9,
+                  "feasible": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "prefix": [],
+                  "target": 3
+                },
+                "probability_of_observation": 0.028728751506404065
+              }
+            ],
+            "reconstruction_execution": {
+              "artifact": 0,
+              "historical_trace_match": "not inspected; execution success is separate",
+              "legal": true,
+              "matches_visible_artifact": false,
+              "primitive_cost": 3
+            }
+          },
+          {
+            "candidate": {
+              "library_index": 1,
+              "reconstruction": [
+                0,
+                1,
+                2
+              ]
+            },
+            "evidence_likelihood": 0.027684751676853026,
+            "future_probabilities": [
+              0.15982387121725344,
+              0.028053305411211038,
+              0.028053305411211038,
+              0.004459963958811119,
+              0.20626560057065957,
+              0.028688325184095264,
+              0.028688325184095264,
+              0.0026482595254480614,
+              0.20626560057065957,
+              0.028688325184095264,
+              0.028688325184095264,
+              0.0026482595254480614,
+              0.2119796441696449,
+              0.017524444451636086,
+              0.017524444451636086,
+              0
+            ],
+            "observation_checks": [
+              {
+                "observation": {
+                  "artifact": 9,
+                  "feasible": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "prefix": [],
+                  "target": 3
+                },
+                "probability_of_observation": 0.027684751676853026
+              }
+            ],
+            "reconstruction_execution": {
+              "artifact": 7,
+              "historical_trace_match": "not inspected; execution success is separate",
+              "legal": true,
+              "matches_visible_artifact": false,
+              "primitive_cost": 3
+            }
+          },
+          {
+            "candidate": {
+              "library_index": 2,
+              "reconstruction": [
+                2,
+                3,
+                4
+              ]
+            },
+            "evidence_likelihood": 0.028688325184095264,
+            "future_probabilities": [
+              0.15423292082369566,
+              0.026938491918147043,
+              0.026938491918147043,
+              0.0037467237095221905,
+              0.20003612868254406,
+              0.027684751676853026,
+              0.027684751676853026,
+              0.002288709818429934,
+              0.20003612868254406,
+              0.027684751676853026,
+              0.027684751676853026,
+              0.002288709818429934,
+              0.23498747472096107,
+              0.01888360660008345,
+              0.01888360660008345,
+              0
+            ],
+            "observation_checks": [
+              {
+                "observation": {
+                  "artifact": 9,
+                  "feasible": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "prefix": [],
+                  "target": 3
+                },
+                "probability_of_observation": 0.028688325184095264
+              }
+            ],
+            "reconstruction_execution": {
+              "artifact": 12,
+              "historical_trace_match": "not inspected; execution success is separate",
+              "legal": true,
+              "matches_visible_artifact": false,
+              "primitive_cost": 3
+            }
+          },
+          {
+            "candidate": {
+              "library_index": 3,
+              "reconstruction": [
+                0,
+                1,
+                2
+              ]
+            },
+            "evidence_likelihood": 0.02764720822484809,
+            "future_probabilities": [
+              0.15402376466697398,
+              0.027035233709948245,
+              0.027035233709948245,
+              0.004298109124645908,
+              0.19976485853050857,
+              0.02764720822484809,
+              0.02764720822484809,
+              0.0025521525590518363,
+              0.19976485853050857,
+              0.02764720822484809,
+              0.02764720822484809,
+              0.0025521525590518363,
+              0.23466880684624353,
+              0.018857998431863435,
+              0.018857998431863435,
+              0
+            ],
+            "observation_checks": [
+              {
+                "observation": {
+                  "artifact": 9,
+                  "feasible": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "prefix": [],
+                  "target": 3
+                },
+                "probability_of_observation": 0.02764720822484809
+              }
+            ],
+            "reconstruction_execution": {
+              "artifact": 7,
+              "historical_trace_match": "not inspected; execution success is separate",
+              "legal": true,
+              "matches_visible_artifact": false,
+              "primitive_cost": 3
+            }
+          }
+        ],
+        "conditional_candidate_mixture": [
+          0.15703642779437277,
+          0.02749479212078061,
+          0.02749479212078061,
+          0.004093061322818409,
+          0.2031605614088843,
+          0.028187980130888746,
+          0.028187980130888746,
+          0.0024635850931485257,
+          0.2031605614088843,
+          0.028187980130888746,
+          0.028187980130888746,
+          0.0024635850931485257,
+          0.2234735761980994,
+          0.018203568457763743,
+          0.018203568457763743,
+          0.0
+        ],
+        "executor_api_evaluations": 72,
+        "mixture_rule": "uniform over distinct proposed candidates, weighted by likelihood of allowed observations; conditional on proposed support only",
+        "model_mismatch": false,
+        "public_state_support_size": 4,
+        "support_warning": "unproposed hypotheses may explain the evidence; this is not a full-support posterior or historical truth"
+      },
+      "committed_prediction": {
+        "choice": "0",
+        "probabilities": {
+          "1": 0.02749479212078061,
+          "2": 0.02749479212078061,
+          "13": 0.018203568457763743,
+          "6": 0.028187980130888746,
+          "5": 0.028187980130888746,
+          "10": 0.028187980130888746,
+          "11": 0.0024635850931485257,
+          "7": 0.0024635850931485257,
+          "9": 0.028187980130888746,
+          "3": 0.004093061322818409,
+          "12": 0.2234735761980994,
+          "8": 0.2031605614088843,
+          "4": 0.2031605614088843,
+          "15": 0.0,
+          "14": 0.018203568457763743,
+          "0": 0.15703642779437277
+        }
+      },
+      "withheld_outcome": "8",
+      "generated_correct": false,
+      "evidence_against": "Legal candidate execution and probability assigned to the true future do not establish the historical trace; unproposed alternatives remain possible.",
+      "cost": {
+        "model_calls": 2,
+        "input_tokens": 4500,
+        "output_tokens": 190,
+        "wall_seconds": 5.4764030002988875,
+        "executor_evaluations": 144
+      },
+      "private_route_sha256": "483c46780c85978eaf893b929700707cdbcc4557512c863e8798dc15a6624dc9"
+    }
+  ],
+  "dependency_damage_example": "not present in the commissioned retained local evidence; not invented"
+}

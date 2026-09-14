@@ -34,15 +34,17 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S10-GEAR1: retain results through the owner hold; explicit Gear 2 resumption authorized September 14.
 - [x] OPS-S10-GEAR2: resume both exact native controllers without restarting valid work; verify all input paths, frozen sources, installed model identities and transition-only failure monitoring.
 - [x] L386: reproduce and internally land the complete first ScholaWrite split, original/earlier CoAuthor comparisons, exact-length history intervention and reserved Ghost opportunity comparison.
-- [ ] L386: retain the unreported final-stage synthesis until remaining source/model branches close; earlier-draft cheap-prior control remains absent from this capsule.
+- [x] L386: retain the unreported final-stage synthesis until remaining source/model branches close; earlier-draft cheap-prior control remains absent from this capsule. Closed in L388 with explicit scope/dispositions.
 - [x] OPS-S10-READING-REPAIR: fully inspect the original failed literal pilot/development refusal and second-local-model admission; preserve all original attempts and blocked dispositions.
 - [x] OPS-S10-READING-REPAIR: validate the versioned empty-explanation wrapper and launch the eight-job repair tail behind the current queue; four checks pass, original sources and budgets unchanged.
-- [ ] OPS-S10-READING-REPAIR: inspect actual compact pilot admission, complete admitted dependent work, and reconcile original plus repair dispositions in the single final stage packet.
-- [ ] OPS-S10-GEAR2: inspect complete queue transitions and final review; retain cooling limits and reconcile the frozen assembly's historical Gear3 hold wording with completed L385 in the final packet.
+- [x] OPS-S10-READING-REPAIR: inspect actual compact pilot admission, complete admitted dependent work, and reconcile original plus repair dispositions in the single final stage packet. Closed in L388 with explicit scope/dispositions.
+- [x] L387: fully inspect and internally land the second local model, ArgRewrite continuity anchor and ScholaWrite rotations one/two; preserve malformed probability vectors and all costs.
+- [x] L387: complete the remaining rotations and final packet; current-draft ArgRewrite invalids remain explicit, with no unplanned retries or silent normalization. Closed in L388 with explicit scope/dispositions.
+- [x] OPS-S10-GEAR2: inspect complete queue transitions and final review; retain cooling limits and reconcile the frozen assembly's historical Gear3 hold wording with completed L385 in the final packet. Closed in L388 with explicit scope/dispositions.
 
 - [x] S10-I11: validate the finite local dependency queue, ScholaWrite chronology and six-strategy bank; fully land the discarded literal pilot.
 - [x] S10-I11: fully build, validate and launch the finite local runway behind the existing science bank: 51 reviewed jobs, including 23 GPU jobs; full source pins and native transition-only monitoring.
-- [ ] S10-I11: inspect completed project rotations, local-model comparison, continuity anchor, synthetic effort and all common analysis cells; resolve explicit failures/source limits and deliver the single final scientific packet. Gear 3 proceeds separately under the later conditional rollout authorization.
+- [x] S10-I11: inspect completed project rotations, local-model comparison, continuity anchor, synthetic effort and all common analysis cells; resolve explicit failures/source limits and deliver the single final scientific packet. Gear 3 proceeds separately under the later conditional rollout authorization. Closed in L388 with explicit scope/dispositions.
 
 The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
 
@@ -67,14 +69,14 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C2: validate actual reserved policy selection without outcome access.
 - [x] S10-C2: launch reserved benefit/cost, confidence-only and fixed policies.
 - [x] S10-C2: land the reserved policy producer with native exit and no-call replay verified.
-- [ ] S10-C2: analyze complete policy comparisons under the central freeze; keep small-case and historical-exposure limits explicit.
+- [x] S10-C2: analyze complete policy comparisons under the central freeze; keep small-case and historical-exposure limits explicit. Closed in L388 with explicit scope/dispositions.
 - [x] S10-C2: freeze reading-source cases, reproduce original training outcomes and validate native procedure/memory components.
 - [x] S10-C2: integrate R3/R4 reading proposals and common-budget retrieval; constructed transport and native execution pass, preserving empty libraries and earlier failed versions.
 - [x] S10-C2: inspect and land the literal reading-route pilot; parser admission passes and reconstruction behavior failures remain retained. Delayed owner delivery reconciled with original evidence and landing.
 - [x] S10-C2: launch the source-separated reading development/evaluation screen with source-bound literal pilot admission.
 - [x] S10-C2: land both reading prediction producers with raw replay, source checks and native exit verified. Delayed owner delivery reconciled without new computation.
-- [ ] S10-C2: apply the frozen comparisons to complete prediction and reconstruction outcomes.
-- [ ] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence.
+- [x] S10-C2: apply the frozen comparisons to complete prediction and reconstruction outcomes. Closed in L388 with explicit scope/dispositions.
+- [x] S10-C2: implement R2 matched direct compute, R3 executed hypotheses, R4 procedures plus memory and R5 development-frozen routing; compare all six on common evidence. Closed in L388 with explicit scope/dispositions.
 - [x] S10-C3: validate an explicit evaluation-phase wrapper for the frozen direct/example readers; target outcomes remain closed.
 - [x] S10-C3: launch frozen CoAuthor evaluation for the validated direct/example readers; verify native progress and retained cooling.
 - [x] S10-C3: land the CoAuthor direct/example evaluation producer; all requests, raw parses and costs reproduced.
@@ -119,9 +121,11 @@ The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_ST
 - [x] S10-C3: implement and validate earlier-draft effort callbacks, identity-only evaluation preparation and discarded literal admission (OPS-S10-I10).
 - [x] S10-C3: fully land the finite earlier-draft development/fit/evaluation chain with complete raw/cost/routing reconstruction and native exit.
 - [x] S10-C3: apply the complete earlier-draft paired comparison (L386); selected remaining stage branches continue in S10-I11.
-- [ ] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting.
-- [ ] S10-C3: selected history/constraint/recipient interventions, bounded second human source and frozen evaluation; prepare optional cloud package locally only.
-- [ ] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report.
+- [x] S10-C3: add remaining evaluation strategies without opening evaluation answers for fitting. Closed in L388 with explicit scope/dispositions.
+- [x] S10-C3: complete the selected history swap, second human source/model and frozen evaluation; recipient effects and dependency-damage/constraint-generalization remain explicitly unavailable/unestablished in the final packet. Separate Gear 3 Round 1 complete (L385).
+- [x] S10-F: complete internal write-through, worked examples, comparison/cost tables and one final stage report. Closed in L388 with explicit scope/dispositions.
+
+- [ ] L388: curator review of the final Stage 10 packet before commissioning new local experiments; no automatic expansion.
 
 ## Selected Stage 9 closeout complete - 2026-09-12 UTC
 

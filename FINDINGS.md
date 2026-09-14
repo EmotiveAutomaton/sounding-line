@@ -259,6 +259,87 @@ On the two reserved constructed Ghost cases, executed hypotheses have loss 0.125
 
 **Curator roll-up:** theory group: bounded reconstruction and evidence use | question: does explicit procedure modeling improve withheld choices beyond matched simpler readers? | **Narrows** | result: benefits vary across completed evidence views and often lose to cheap priors | project meaning: these packages show scoped assistance, not general maker-model recovery | next engineering obligation: finish the frozen independent branches, preserve failed admissions, and assemble the single complete stage packet | public claim: unchanged beyond the stated descriptive cells | curator decision required: No | detail: complete aggregate record above.
 
+### L388 - final local Stage 10 packet: assistance is useful in selected cells, not generally better than simple priors
+
+**Hypothesis.** A compact model of a maker's procedures and goals, combined with remembered examples and executable checks, improves prediction of a withheld choice beyond direct reading and equally budgeted deliberation.
+
+**METHOD.** Compared the six prescribed reader strategies on frozen human revision/handling records and public constructed Ghost tasks. Retained literal requests, malformed answers, executable proposals, development-only fits and all costs. Replayed the complete local queues and comparison consumers without new inference. Human results are descriptive: these are exposed corpora, few source groups and dependent evidence views. The separately completed [Gear 3 Round 1 report](../gear3/G3-S10-READER-1/REPORT.md) remains its own experiment.
+
+**Found.** Structured assistance provides some useful predictive increments, especially with the right earlier evidence. It does not provide a general advantage over simple baselines. A training-frequency prior beats every tested model on both main CoAuthor views and in 27 of 30 ScholaWrite project/target/view cells. Execution helps on selected constructed tasks, but executing a legal proposed route is much easier than recovering the recorded artifact or historical process. The study has finished its finite local selection, including the scoped repair. Its original failed admission remains in the record.
+
+**New complete comparisons.** The table gives the final two ScholaWrite project rotations and repaired reserved Ghost reconstruction comparison. The count is evaluation boundaries or task views within that row. The three differences are comparator minus treated half Brier loss: positive favors execution over matched deliberation, grounded procedure memory over examples, or learned effort over fixed effort. Rows reuse source projects/cases and are not independent tests.
+
+| Complete population | Count | Execution benefit | Procedure-memory benefit | Learned-effort benefit |
+|---|---:|---:|---:|---:|
+| Ghost native reconstruction / reconstruction / artifact | 2 | +0.621894 | +0.621894 | -0.265625 |
+| Ghost native reconstruction / reconstruction / earlier-artifacts | 1 | +0.621896 | +0.621896 | -0.531250 |
+| Project rotation 3 / edit category / artifact | 19 | -0.003340 | +0.108266 | -0.131618 |
+| Project rotation 3 / edit category / earlier-artifacts | 19 | +0.217582 | +0.294309 | -0.015296 |
+| Project rotation 3 / edit category / process-record | 19 | -0.011010 | -0.136759 | +0.132968 |
+| Project rotation 3 / edit location / artifact | 19 | -0.079104 | +0.061369 | +0.051605 |
+| Project rotation 3 / edit location / earlier-artifacts | 19 | -0.021319 | +0.255927 | +0.082926 |
+| Project rotation 3 / edit location / process-record | 19 | +0.032109 | +0.168366 | -0.119212 |
+| Project rotation 4 / edit category / artifact | 19 | -0.185050 | +0.041144 | -0.232942 |
+| Project rotation 4 / edit category / earlier-artifacts | 19 | +0.060877 | -0.038081 | -0.313358 |
+| Project rotation 4 / edit category / process-record | 19 | -0.098354 | -0.456939 | -0.098158 |
+| Project rotation 4 / edit location / artifact | 19 | -0.182808 | -0.215358 | -0.209605 |
+| Project rotation 4 / edit location / earlier-artifacts | 19 | +0.199031 | -0.049119 | -0.368863 |
+| Project rotation 4 / edit location / process-record | 19 | -0.053787 | -0.081058 | -0.159889 |
+
+Across all five ScholaWrite projects (87 boundaries, six separate target/view cells per project), execution beats matched deliberation in 17 of 30 cells and grounded procedures beat examples in 18. The training prior beats every model in 27; learned effort beats fixed effort in six. Every project-specific effort fit has one development project and admits no learned expansion, so this is conservative fallback behavior rather than evidence of learned routing. The complete equal-project means, all invalid denominators, calibration, log losses and secondary contrasts remain in the final table.
+
+The complete reconstruction cell uses two artifact tasks and one earlier-artifact view from very few constructed cases. Grounded and opaque procedures share the executed-prediction score here; equal predictions are not separate demonstrations. All 18 executor responses and 72 candidate executions are legal, but only 16 candidate executions reproduce the visible artifact. Historical traces remain uninspected, and the conditional candidate mixture is not a full-support posterior. The repaired literal pilot passes while its reserved benefit/cost route still has invalid outputs; transport repair does not imply scientific success. All original failed and blocked jobs remain in the record.
+
+The final human comparisons retain the earlier landings: CoAuthor's training prior is stronger than every model on its two main views; the own-history swap improves grounded procedures more than direct reading on 77 matched opportunities; Llama improves direct handling prediction but its execution loses to matched deliberation. ArgRewrite current-draft distributions remain malformed. Earlier-draft inference has no cheap-prior row. These limits preclude a general artifact-to-intent or persistent-personal-model claim.
+
+**Integrity and cost.** All 59 queue jobs and 96,338 inventoried files reconcile. Twenty newly completed jobs, both fits, three complete analysis consumers and both review ledgers reproduce without new inference or original writes. The first private inspector failed on Windows text decoding; its explicit UTF-8 continuation retains the first failure and resumes checked outputs. The original queue closes with 46 complete, one failed and four blocked; the repair closes with eight complete. Source pins and ended native owners verify. Whole-local-tree accounting retains 22,477 model calls, 44,415,757 input tokens, 3,387,545 output tokens and about 21.32 hours of saved server duration, separate from queue waits, executor CPU, agent time and Gear 3. No new p-values or score changes.
+
+**Means.** The finite commissioned local selection is complete. A working pipeline now exposes alternative rules, their consequences, wrong predictions, relevant-history use and costs. Its missing contribution is general improvement beyond strong generic competence, not the ability to produce plausible explanations. Representation, proposal coverage, calibration and target alignment remain constraints. Recipient-effect and dependency-damage/constraint-generalization results are unavailable in this selection; no outcome is invented. No automatic queue extension or new spending follows closure. Existing theory definitions and human-mechanism status remain unchanged.
+
+**Curator roll-up:** theory group: bounded reconstruction and evidence use | question: do explicit maker procedures improve withheld prediction beyond matched reading and generic competence? | **Narrows** | result: local structured assistance helps selected cells while simple priors remain stronger on most human comparisons | project meaning: a useful component prototype does not establish general intent recovery | next engineering obligation: curator review before a newly scoped follow-up, preserving strong baselines and independent targets | public claim: descriptive scoped assistance only; general maker-model and human-mechanism claims remain unlicensed | curator decision required: No for this closure | detail: [final report](results/phase_2_4_stage_10/REPORT.md), [complete table](results/phase_2_4_stage_10/COMPARISONS.json), [prototype examples](results/phase_2_4_stage_10/PROTOTYPE_EXAMPLES.md), [integrity and costs](results/phase_2_4_stage_10/CLOSEOUT.json).
+
+### L387 - completed local comparisons retain strong simple baselines
+
+**Hypothesis.** Structured execution and reusable procedures improve prediction beyond matched direct computation and concrete examples across another reader package and additional human source projects.
+
+**METHOD.** Replayed the completed Llama 3.1 8B human producer, ArgRewrite continuity forecasts and completed ScholaWrite Qwen producers against their immutable raw requests, parsed responses and native execution. Reproduced complete comparison consumers and development fits without new inference. Compared only complete cells under the original frozen criteria: half multiclass Brier loss is a probability error score, lower is better, and invalid forecasts retain loss one. Writers, projects or essays receive equal weight; dependency components remain explicit. All secondary contrasts, probability versus generated-choice scores, calibration, zero-support cases and costs are in the [complete aggregate record](results/phase_2_4_stage_10/SECOND_COMPLETE_COMPARISONS.json). This is internal completed-cell landing, not the final stage report.
+
+**Found.** The second local reader improves direct human prediction relative to the original Qwen package, but execution loses to its own matched direct deliberation in both human views. Grounded procedure memory has a small advantage over its own example memory and loses to the original Qwen procedure memory. The training-frequency prior beats all model strategies in both views. Each view has the same ninety-six opportunities from fourteen writers in one connected component. Package comparisons do not isolate model size or architecture, and repeated evidence views are not additional writers.
+
+The table reports the second local reader's direct loss, then comparator-minus-treated loss for execution versus deliberation and procedure memory versus stored examples. Positive differences favor the structured method. The final column is the identical training-frequency baseline.
+
+| Human evidence | Llama direct loss | Execution benefit | Procedure-memory benefit | Prior loss |
+|---|---:|---:|---:|---:|
+| Current draft | 0.400681 | -0.063961 | +0.002754 | 0.303190 |
+| Prior handling record | 0.392853 | -0.110431 | +0.012457 | 0.303190 |
+
+Llama's direct advantage over Qwen is +0.060396 on current drafts and +0.055504 on prior handling. All of its 960 evaluated routes are valid. Its stored-example forecasts assign zero probability to some realized outcomes, while its direct and executable forecasts do not; the full unmodified log scores remain separate from primary Brier ranking.
+
+The additional ScholaWrite rotations retain nineteen and eleven evaluation boundaries respectively, each from one source project. The table shows the same three frozen benefits as L386: execution versus matched deliberation, grounded procedure memory versus stored examples, and development-selected effort versus fixed effort. Positive favors the first method. Target and evidence views remain separate.
+
+| Rotation / target / evidence | Execution benefit | Procedure-memory benefit | Learned-effort benefit |
+|---|---:|---:|---:|
+| 1 / edit category / current draft | -0.037390 | +0.007491 | -0.037654 |
+| 1 / edit category / earlier drafts | +0.124433 | +0.054646 | -0.083750 |
+| 1 / edit category / process record | -0.093116 | -0.192138 | -0.018364 |
+| 1 / edit location / current draft | +0.032113 | -0.194142 | -0.020326 |
+| 1 / edit location / earlier drafts | +0.083095 | -0.031485 | -0.349932 |
+| 1 / edit location / process record | +0.137847 | +0.105941 | -0.122658 |
+| 2 / edit category / current draft | -0.096562 | -0.001552 | -0.204464 |
+| 2 / edit category / earlier drafts | +0.289060 | +0.168945 | -0.196627 |
+| 2 / edit category / process record | +0.162876 | +0.057025 | -0.125827 |
+| 2 / edit location / current draft | -0.114038 | +0.119752 | -0.007155 |
+| 2 / edit location / earlier drafts | +0.144521 | +0.187139 | -0.076864 |
+| 2 / edit location / process record | +0.043914 | +0.108864 | +0.010945 |
+
+In these two rotations, execution beats matched deliberation in eight of twelve cells and grounded procedure memory beats examples in eight. Learned effort beats fixed effort in only one. The training prior beats every model arm in eleven cells; opaque procedure memory on the first added rotation's process-record location cell is the exception. These view counts are descriptive, not independent tests. The one-project development support still does not establish broadly learned routing. Both later rotations remain outside this landing, and no incomplete five-rotation aggregate is reported.
+
+The small ArgRewrite anchor contains two evaluation essays and twenty-two future revision units per view, with eighty-one source exclusion entries retained. One distribution is elicited per essay and view, then evaluated over its future units; its calls are charged once. Both current-draft reader methods produce invalid probability sums on both essays, yielding system loss one for that view. This is an interface outcome, not evidence that the human purpose is unknowable. Both methods give the same process-record loss, 0.492018, versus the training prior at 0.379122; their paired difference is zero on each essay. No equivalence or population claim follows from two essays. The twelve original evaluation calls, including six malformed calls feeding four invalid routes, remain retained. Probabilities were not silently normalized or regenerated.
+
+**Means.** These completed cells further limit a universal structured-reader advantage. They preserve task-specific benefits without outrunning inexpensive controls or confusing a legal forecast with correct inference. The malformed anchor forecasts count against this reader interface and remain distinct from the active queue's operational health. No new p-values, theory definitions, hypotheses or scientific reruns were introduced. Final interpretation still requires the remaining rotations, repair dispositions and complete stage packet.
+
+**Curator roll-up:** theory group: bounded reconstruction and evidence use | question: do structured readers beat matched computation and concrete examples across local packages and source projects? | **Narrows** | result: some paired benefits survive while simple priors remain stronger on most complete cells | project meaning: scoped reader assistance does not establish general maker-model recovery | next engineering obligation: retain invalids and finish the frozen remaining branches and final packet | public claim: unchanged beyond these descriptive cells | curator decision required: No | detail: aggregate record above.
+
 ### OPS-S10-READING-REPAIR - retain the failed pilot and repair only its response format
 
 **Hypothesis.** The finite queue can preserve a failed literal admission, continue independent experiments and attempt a bounded interface repair without changing the task or scoring rule.
@@ -307,6 +388,8 @@ The table lists operational checks and their observed outcomes, not scientific s
 **Found.** Stage 10 is running in second gear. The ScholaWrite adaptive reader advances and its complete follow-on queue is ready. The first administrative input checker omitted the predecessor queue's future terminal files; classifying those as planned outputs resolved its refusal without any scientific change. Sensor values are endpoint observations without a hardware sample timestamp. [Resumption receipt](results/phase_2_4_stage_10/GEAR2_RESUMPTION.json).
 
 **Means.** Setup for the finite authorized runway is complete. Branch-specific literal admissions still run before their dependent experiments; failures retain evidence and allow independent branches to continue. No duplicate runs, new cloud work or calendar-week padding were added. The frozen private assembler retains launch-time wording about Gear 3 being held; final synthesis must reconcile it with separately completed L385 without editing live worker sources. Final scientific integrity and interpretation remain owed. No tests were harvested this pass.
+
+**September 14 health inspection, 17:51 UTC.** Both native queue owners and the active worker match their recorded creation identities and commands. The original queue has 34 complete jobs, one known failed branch, four blocked dependants, one running job and eleven pending jobs. The fourth ScholaWrite rotation is evaluating; the finite repair tail waits for the predecessor. Six original GPU jobs remain active/pending, plus three contingent repair jobs. Worker progress was three seconds old and stderr empty. The pinned Qwen model is fully resident on GPU; device utilization was 89 percent. CPU 68.6 C and GPU 64–65 C were observed with boost-off/90-percent maximum verified. Watcher code and owner paths verify with no pending events or new queue faults. No valid work was restarted. The inspection verified 58,815 files across twenty-four newly completed jobs and retained 8,531 original calls; all complete comparisons reproduce without new inference. Write-once builders required private output reproduction, and the initial inspector refusals and helper correction remain recorded; original evidence stayed unchanged. Full comparisons are L387. No tests harvested this pass. [Health receipt](results/phase_2_4_stage_10/GEAR2_HEALTH_20260914.json).
 
 **Curator roll-up:** theory group: execution integrity | question: can the local study resume with its complete finite runway intact? | **Infrastructure** | result: the original controllers resumed without restarting completed work | project meaning: authorized local execution is active | next engineering obligation: inspect terminal transitions and deliver the complete final stage packet | public claim: unchanged | curator decision required: No | detail: resumption receipt above.
 
@@ -736,7 +819,7 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
-**Initial local Stage 10 scope (L386).** ScholaWrite is currently one completed held-out project, CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. Earlier-draft analysis lacks the cheap-prior row. The reserved reconstruction pilot failed after a truncated direct forecast; independent work continues. These are explicit limits, not permission to erase outcomes or interpret an unfinished rotation bank.
+**Local Stage 10 scope (L386-L388).** All five ScholaWrite projects have complete comparisons over 87 evaluation boundaries; repeated views and overlapping training roles are not independent replications. CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. Earlier-draft analysis lacks the cheap-prior row. The small ArgRewrite current-draft forecasts have invalid probability sums, retained in the system score. The original reserved reconstruction pilot failed; its separate scoped interface repair and complete comparison are now retained in L388. The original pilot truncated a direct forecast; both finite queues are now closed. These are explicit limits, not permission to erase outcomes or claim untested generalization.
 
 **Gear 3 Round 1 scope (L385).** Complete exposed human and constructed comparisons are available, but shared prompts/constructors/donors collapse the main contrasts to one component. Human task-specific rule voting is not a persistent maker model; naming changes representation access, not historical recovery. Billing remains unsettled. These limits constrain claims without voiding the descriptive scores.
 

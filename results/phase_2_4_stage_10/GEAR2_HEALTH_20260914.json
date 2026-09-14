@@ -1,0 +1,59 @@
+{
+  "status": "HEALTHY_RUNNING_WITH_KNOWN_ISOLATED_FAILURE",
+  "at": "2026-09-14T17:51:37.733782+00:00",
+  "gear": 2,
+  "queues": [
+    {
+      "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+      "counts": {
+        "COMPLETE": 34,
+        "FAILED": 1,
+        "BLOCKED": 4,
+        "RUNNING": 1,
+        "PENDING": 11
+      },
+      "active_job": "schola-runway-f3-evaluation-v1",
+      "remaining_gpu_jobs": 6,
+      "source_pins": 162,
+      "plan_sha256": "4f78d911f9ee06f35f409db2260c92ef52398350be14c2024449d258860ad883",
+      "native_identity_verified": true
+    },
+    {
+      "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+      "counts": {
+        "RUNNING": 1,
+        "PENDING": 7
+      },
+      "active_job": "reading-repair-predecessor-v1",
+      "remaining_gpu_jobs": 3,
+      "source_pins": 163,
+      "plan_sha256": "f7215a7c8e85376de4f2383c188b8cdb181d25e10f613d7d4abe9881f214055a",
+      "native_identity_verified": true
+    }
+  ],
+  "active_status_age_seconds": 3.190089464187622,
+  "active_stderr_empty": true,
+  "watcher_sources_verified": true,
+  "watcher_scan_age_seconds": 25.615341663360596,
+  "pending_events": 0,
+  "transition_only": true,
+  "cpu_celsius": 68.6,
+  "gpu_sensor_celsius": 64.0,
+  "gpu_driver_celsius": 65,
+  "gpu_utilization_percent": 89,
+  "cpu_boost": false,
+  "ac_cpu_maximum_percent": 90,
+  "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "model_fully_gpu_resident": true,
+  "native_restarts": 0,
+  "scientific_source_changes": 0,
+  "new_queue_failures": 0,
+  "new_model_calls_for_verification": 0,
+  "completed_jobs_inspected": 24,
+  "files_verified": 58815,
+  "retained_calls_verified": 8531,
+  "original_failure": "Ghost reserved literal pilot remains unadmitted; original development failed and four dependants blocked. Scoped repair waits behind original queue.",
+  "forecast_failures": "Malformed scientific responses remain invalid under the unchanged system score; they are not scheduler failures.",
+  "inspection_limit": "The first inspector treated write-once builders as resumable; a private-fit reproduction and completed-inventory checks corrected that. An intermediate helper statement-placement error is retained. Guards prevented all writes to original outputs.",
+  "scope": "Operational inspection; L387 records the complete comparison cells. No final-stage claim, new hypothesis, cloud work or liveness timer."
+}

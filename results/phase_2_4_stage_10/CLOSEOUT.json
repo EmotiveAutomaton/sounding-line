@@ -1,0 +1,853 @@
+{
+  "status": "COMPLETE",
+  "finding": "L388",
+  "final_stage_packet": true,
+  "completed_at": "2026-09-14T22:41:59.743526+00:00",
+  "queues": [
+    {
+      "queue": "local-week-runway-v1",
+      "finished_at": "2026-09-14T22:20:17.393193+00:00",
+      "jobs": {
+        "COMPLETE": 46,
+        "BLOCKED": 4,
+        "FAILED": 1
+      },
+      "native_elapsed_seconds_by_declared_resource": {
+        "dependency_wait": 45822.81504,
+        "cpu": 960.6012639999999,
+        "gpu": 46756.96019799999
+      },
+      "terminal_sha256": "ab956f258394e6e52aaff4c97a27d78f927d366b7c9d100aa616fffcad0e2119"
+    },
+    {
+      "queue": "reading-effort-repair-queue-v1",
+      "finished_at": "2026-09-14T22:23:37.630412+00:00",
+      "jobs": {
+        "COMPLETE": 8
+      },
+      "native_elapsed_seconds_by_declared_resource": {
+        "dependency_wait": 45944.153289,
+        "gpu": 183.59544499999998,
+        "cpu": 5.405018999999999
+      },
+      "terminal_sha256": "bc6acf6f062b2296466d110c9c2c5e2f3c90ac6da602c59925db4c1924cd4d18"
+    }
+  ],
+  "inspection": {
+    "status": "COMPLETE",
+    "at": 1789425141.7276227,
+    "checks": [
+      {
+        "job": "schola-runway-f3-evaluation-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 7544,
+        "complete_sha256": "d14951145e16284f730d67a05e4c94b1782600fdf14af0ac9a49e944179e46f4",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 1124,
+        "costs": {
+          "eval_count": 185411,
+          "prompt_eval_count": 2779009,
+          "total_duration": 3880408159900
+        }
+      },
+      {
+        "job": "schola-runway-f3-adaptive-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 5342,
+        "complete_sha256": "8caa88fa68ce12fb04f414fe45d22528b875796b536fd3483f41f8c05955cd3d",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 539,
+        "costs": {
+          "eval_count": 62294,
+          "prompt_eval_count": 977167,
+          "total_duration": 1251751137400
+        }
+      },
+      {
+        "job": "schola-runway-f3-comparison-inputs-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 2,
+        "complete_sha256": "89747135ee0a83d7fd37d69ef01c8059cf907594946b0c509f0dbcd960b1c322",
+        "inspection": "inventory",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "schola-runway-f3-comparison-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 3,
+        "complete_sha256": "2e661fe24b52ac5f07039646829fbd082871898feb20023c408c089497ea3416",
+        "inspection": "complete comparison replay",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        },
+        "result_sha256": "d9e1837db7ca4f5c31741867a328ee93342ffda3356aa56c4e9ba4587f591eea"
+      },
+      {
+        "job": "schola-runway-f4-pilot-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 574,
+        "complete_sha256": "a80d7e2f0f0b9e2ed240c77d9e21fab71a06f092720c33684a59e17142d6193d",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 84,
+        "costs": {
+          "eval_count": 13309,
+          "prompt_eval_count": 201223,
+          "total_duration": 280091292000
+        },
+        "admitted": true
+      },
+      {
+        "job": "schola-runway-f4-development-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 10752,
+        "complete_sha256": "d661cda779c44a386e61c48e55117a5729ce8ef4643a89526f308286f6cabd3f",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 1585,
+        "costs": {
+          "eval_count": 253732,
+          "prompt_eval_count": 3240512,
+          "total_duration": 5042559130500
+        }
+      },
+      {
+        "job": "schola-runway-f4-policy-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 3,
+        "complete_sha256": "51533437dffe195739b274d0a8e71a1444d33273d6e5ecfd2b73099b8ece7561",
+        "inspection": "byte-identical private fit reproduction",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "schola-runway-f4-evaluation-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 7566,
+        "complete_sha256": "c419fba7ff34a8ce6d12b70c51a2eef13cf80fcd4dc0371220df34876475b33f",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 1129,
+        "costs": {
+          "eval_count": 184502,
+          "prompt_eval_count": 2449786,
+          "total_duration": 3842644313600
+        }
+      },
+      {
+        "job": "schola-runway-f4-adaptive-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 5262,
+        "complete_sha256": "af850521178938e9138b915e0a06be52f41e83ceb9d7de47e85fd7ddbdd09edc",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 529,
+        "costs": {
+          "eval_count": 62130,
+          "prompt_eval_count": 787347,
+          "total_duration": 1263127592300
+        }
+      },
+      {
+        "job": "schola-runway-f4-comparison-inputs-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 2,
+        "complete_sha256": "9e3a5f35c4dd04421153a816058d71b85b335c4ee48addd134a8a158a78ca08b",
+        "inspection": "inventory",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "schola-runway-f4-comparison-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 3,
+        "complete_sha256": "9d8b1155108b28a27d16a116befc9f26850461a5af7cb2a8821c2a40d4a4cf8c",
+        "inspection": "complete comparison replay",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        },
+        "result_sha256": "a5e5c5bb8829185a907f5ce0fe650be3f725b942d6f4d2c85cd5f9b594a7bff6"
+      },
+      {
+        "job": "local-week-final-review-v1",
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "files": 4,
+        "complete_sha256": "ace1801497b223dd75e34b62325bb0646bba243788cd348b065d8edc5b4ce46a",
+        "inspection": "complete ledger, cost, source, analysis and fixed-example reconciliation",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        },
+        "result_sha256": "ab5944a254f7a305494e3c1ce847d0f8b1855078e139e01e403df71d74bae2ab"
+      },
+      {
+        "job": "reading-repair-predecessor-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 2,
+        "complete_sha256": "2efff134db541332174e97b3637c83f8f43d972b098c8febd83c475f4e508b7c",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "reading-effort-compact-pilot-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 42,
+        "complete_sha256": "552f79ea1d22ea514cc2068472351177c230b85d57f5130c52f47c0a96199d41",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 4,
+        "costs": {
+          "eval_count": 682,
+          "prompt_eval_count": 8567,
+          "total_duration": 19157069800
+        },
+        "admitted": true
+      },
+      {
+        "job": "reading-effort-compact-development-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 80,
+        "complete_sha256": "095d69f293d7dee521ae0a54645698d7393590138b11c2260befc18c29f466d7",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 8,
+        "costs": {
+          "eval_count": 1359,
+          "prompt_eval_count": 19979,
+          "total_duration": 45364135400
+        }
+      },
+      {
+        "job": "reading-effort-compact-policy-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 3,
+        "complete_sha256": "2a454de8702b1c855105ff53309f4c4acfebfaaa53f500a35d033f5d00042726",
+        "inspection": "byte-identical private compact fit reproduction",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "reading-effort-compact-evaluation-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 171,
+        "complete_sha256": "9786764b061da8fdb2bb5bd14758acabb62c6d7dad6519dceac11211637d3155",
+        "inspection": "native producer replay",
+        "unchanged": true,
+        "retained_model_calls": 14,
+        "costs": {
+          "eval_count": 3662,
+          "prompt_eval_count": 22645,
+          "total_duration": 98187511600
+        }
+      },
+      {
+        "job": "reading-effort-compact-comparison-inputs-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 3,
+        "complete_sha256": "a0db8daf880920bc9bd1cc07e5ae335575c1f341a3ba83abc99acc7fa7d6094e",
+        "inspection": "inventory",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        }
+      },
+      {
+        "job": "reading-effort-compact-comparison-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 3,
+        "complete_sha256": "8665cfcddfa8d72713bed24e997cdab7e5449ad9e0ce33a27f92b1beafac683d",
+        "inspection": "complete comparison replay",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        },
+        "result_sha256": "8fb7f394b027afafb4600f5962e7093be790d5830200b463e9c25beb47253353"
+      },
+      {
+        "job": "reading-effort-repair-review-v1",
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "files": 4,
+        "complete_sha256": "66b4482e08f73a80489eb9616db96cbd77eb22bf1219fdddab13c661f98b996e",
+        "inspection": "complete ledger, cost, source, analysis and fixed-example reconciliation",
+        "unchanged": true,
+        "retained_model_calls": 0,
+        "costs": {
+          "eval_count": 0,
+          "prompt_eval_count": 0,
+          "total_duration": 0
+        },
+        "result_sha256": "1701d13414c1831df8bae6a0c5052f35014caf64fe8b54b7b768e6d1520184f4"
+      }
+    ],
+    "queues": [
+      {
+        "queue": "results/phase_2_4_stage_10/raw/local-week-runway-v1",
+        "all_saved_jobs_replayed": 51,
+        "complete_sha256": "ab956f258394e6e52aaff4c97a27d78f927d366b7c9d100aa616fffcad0e2119",
+        "retained_files": 96030,
+        "all_jobs_succeeded": false
+      },
+      {
+        "queue": "results/phase_2_4_stage_10/raw/reading-effort-repair-queue-v1",
+        "all_saved_jobs_replayed": 8,
+        "complete_sha256": "bc6acf6f062b2296466d110c9c2c5e2f3c90ac6da602c59925db4c1924cd4d18",
+        "retained_files": 308,
+        "all_jobs_succeeded": true
+      }
+    ],
+    "new_model_calls": 0,
+    "new_original_output_writes": 0,
+    "source_pins_unchanged": true
+  },
+  "saved_native_calls": {
+    "files": 22477,
+    "schemas": {
+      "None": 22477
+    },
+    "totals": {
+      "eval_count": 3387545.0,
+      "prompt_eval_count": 44415757.0,
+      "total_duration": 76751669234237.0
+    },
+    "by_output": {
+      "structured-interface-v2": {
+        "calls": 3,
+        "eval_count": 382,
+        "prompt_eval_count": 2869,
+        "total_duration": 7674156700
+      },
+      "structured-interface-v1": {
+        "calls": 3,
+        "eval_count": 383,
+        "prompt_eval_count": 2779,
+        "total_duration": 15730592600
+      },
+      "second-local-pilot-v1": {
+        "calls": 16,
+        "eval_count": 2477,
+        "prompt_eval_count": 26097,
+        "total_duration": 98156728300
+      },
+      "second-local-evaluation-v1": {
+        "calls": 1536,
+        "eval_count": 234740,
+        "prompt_eval_count": 2380804,
+        "total_duration": 7619706318200
+      },
+      "schola-runway-f4-pilot-v1": {
+        "calls": 84,
+        "eval_count": 13309,
+        "prompt_eval_count": 201223,
+        "total_duration": 280091292000
+      },
+      "schola-runway-f4-evaluation-v1": {
+        "calls": 1129,
+        "eval_count": 184502,
+        "prompt_eval_count": 2449786,
+        "total_duration": 3842644313600
+      },
+      "schola-runway-f4-development-v1": {
+        "calls": 1585,
+        "eval_count": 253732,
+        "prompt_eval_count": 3240512,
+        "total_duration": 5042559130500
+      },
+      "schola-runway-f4-adaptive-v1": {
+        "calls": 529,
+        "eval_count": 62130,
+        "prompt_eval_count": 787347,
+        "total_duration": 1263127592300
+      },
+      "schola-runway-f3-pilot-v1": {
+        "calls": 84,
+        "eval_count": 13360,
+        "prompt_eval_count": 201846,
+        "total_duration": 269037926300
+      },
+      "schola-runway-f3-evaluation-v1": {
+        "calls": 1124,
+        "eval_count": 185411,
+        "prompt_eval_count": 2779009,
+        "total_duration": 3880408159900
+      },
+      "schola-runway-f3-development-v1": {
+        "calls": 1579,
+        "eval_count": 255747,
+        "prompt_eval_count": 3212167,
+        "total_duration": 5172668051600
+      },
+      "schola-runway-f3-adaptive-v1": {
+        "calls": 539,
+        "eval_count": 62294,
+        "prompt_eval_count": 977167,
+        "total_duration": 1251751137400
+      },
+      "schola-runway-f2-pilot-v1": {
+        "calls": 84,
+        "eval_count": 13375,
+        "prompt_eval_count": 201255,
+        "total_duration": 270076534600
+      },
+      "schola-runway-f2-evaluation-v1": {
+        "calls": 654,
+        "eval_count": 106208,
+        "prompt_eval_count": 1601966,
+        "total_duration": 2240862054300
+      },
+      "schola-runway-f2-development-v1": {
+        "calls": 1584,
+        "eval_count": 253565,
+        "prompt_eval_count": 3683365,
+        "total_duration": 5122425006900
+      },
+      "schola-runway-f2-adaptive-v1": {
+        "calls": 308,
+        "eval_count": 35563,
+        "prompt_eval_count": 560831,
+        "total_duration": 713648947300
+      },
+      "schola-runway-f1-pilot-v1": {
+        "calls": 83,
+        "eval_count": 13137,
+        "prompt_eval_count": 195322,
+        "total_duration": 251790615800
+      },
+      "schola-runway-f1-evaluation-v1": {
+        "calls": 1133,
+        "eval_count": 184982,
+        "prompt_eval_count": 2497592,
+        "total_duration": 3595821458600
+      },
+      "schola-runway-f1-development-v1": {
+        "calls": 920,
+        "eval_count": 147713,
+        "prompt_eval_count": 2179848,
+        "total_duration": 2828522617300
+      },
+      "schola-runway-f1-adaptive-v1": {
+        "calls": 542,
+        "eval_count": 63041,
+        "prompt_eval_count": 852996,
+        "total_duration": 1192170168900
+      },
+      "schola-runway-f0-pilot-v1": {
+        "calls": 84,
+        "eval_count": 13462,
+        "prompt_eval_count": 208166,
+        "total_duration": 378295811500
+      },
+      "schola-runway-f0-evaluation-v1": {
+        "calls": 1133,
+        "eval_count": 184349,
+        "prompt_eval_count": 2398845,
+        "total_duration": 4514497785900
+      },
+      "schola-runway-f0-development-v1": {
+        "calls": 1582,
+        "eval_count": 254780,
+        "prompt_eval_count": 3388944,
+        "total_duration": 5628925874200
+      },
+      "schola-runway-f0-adaptive-v1": {
+        "calls": 534,
+        "eval_count": 61698,
+        "prompt_eval_count": 784897,
+        "total_duration": 1265692033600
+      },
+      "reading-science-v1": {
+        "calls": 50,
+        "eval_count": 8991,
+        "prompt_eval_count": 124701,
+        "total_duration": 177185565900
+      },
+      "reading-route-check-v1": {
+        "calls": 10,
+        "eval_count": 500,
+        "prompt_eval_count": 640,
+        "total_duration": 1000
+      },
+      "reading-literal-pilot-v1": {
+        "calls": 10,
+        "eval_count": 1724,
+        "prompt_eval_count": 24287,
+        "total_duration": 38717315800
+      },
+      "reading-effort-pilot-v1": {
+        "calls": 4,
+        "eval_count": 717,
+        "prompt_eval_count": 8574,
+        "total_duration": 14768238900
+      },
+      "reading-effort-compact-pilot-v1": {
+        "calls": 4,
+        "eval_count": 682,
+        "prompt_eval_count": 8567,
+        "total_duration": 19157069800
+      },
+      "reading-effort-compact-evaluation-v1": {
+        "calls": 14,
+        "eval_count": 3662,
+        "prompt_eval_count": 22645,
+        "total_duration": 98187511600
+      },
+      "reading-effort-compact-development-v1": {
+        "calls": 8,
+        "eval_count": 1359,
+        "prompt_eval_count": 19979,
+        "total_duration": 45364135400
+      },
+      "interface-v3": {
+        "calls": 4,
+        "eval_count": 535,
+        "prompt_eval_count": 2844,
+        "total_duration": 13636572400
+      },
+      "interface-v2": {
+        "calls": 4,
+        "eval_count": 1214,
+        "prompt_eval_count": 2687,
+        "total_duration": 32484516100
+      },
+      "interface-v1": {
+        "calls": 1,
+        "eval_count": 86,
+        "prompt_eval_count": 332,
+        "total_duration": 12790650700
+      },
+      "human-science-v1": {
+        "calls": 416,
+        "eval_count": 76102,
+        "prompt_eval_count": 706064,
+        "total_duration": 1500540640100
+      },
+      "human-program-pilot-v1": {
+        "calls": 4,
+        "eval_count": 729,
+        "prompt_eval_count": 7579,
+        "total_duration": 20093800500
+      },
+      "human-program-check-v1": {
+        "calls": 4,
+        "eval_count": 480,
+        "prompt_eval_count": 400,
+        "total_duration": 0
+      },
+      "human-memory-science-v1": {
+        "calls": 1040,
+        "eval_count": 179825,
+        "prompt_eval_count": 2413204,
+        "total_duration": 3765310746200
+      },
+      "human-memory-route-check-v2": {
+        "calls": 10,
+        "eval_count": 1000,
+        "prompt_eval_count": 10000,
+        "total_duration": 10
+      },
+      "human-memory-route-check-v1": {
+        "calls": 10,
+        "eval_count": 1000,
+        "prompt_eval_count": 10000,
+        "total_duration": 10
+      },
+      "human-memory-pilot-v2": {
+        "calls": 10,
+        "eval_count": 1733,
+        "prompt_eval_count": 22348,
+        "total_duration": 36741788200
+      },
+      "human-memory-pilot-v1": {
+        "calls": 10,
+        "eval_count": 1689,
+        "prompt_eval_count": 29213,
+        "total_duration": 36935398100
+      },
+      "human-history-evaluation-v1": {
+        "calls": 231,
+        "eval_count": 37770,
+        "prompt_eval_count": 465844,
+        "total_duration": 923167200100
+      },
+      "human-history-checks-v2": {
+        "calls": 14,
+        "eval_count": 1400,
+        "prompt_eval_count": 14000,
+        "total_duration": 14
+      },
+      "human-history-checks-v1": {
+        "calls": 14,
+        "eval_count": 1400,
+        "prompt_eval_count": 14000,
+        "total_duration": 14
+      },
+      "human-effort-pilot-v1": {
+        "calls": 8,
+        "eval_count": 1183,
+        "prompt_eval_count": 14085,
+        "total_duration": 25232081500
+      },
+      "human-effort-fit-check-v1": {
+        "calls": 8,
+        "eval_count": 800,
+        "prompt_eval_count": 8000,
+        "total_duration": 8
+      },
+      "human-effort-evaluation-v1": {
+        "calls": 948,
+        "eval_count": 103596,
+        "prompt_eval_count": 1235990,
+        "total_duration": 2278228564800
+      },
+      "human-effort-evaluation-checks-v2": {
+        "calls": 32,
+        "eval_count": 3200,
+        "prompt_eval_count": 32000,
+        "total_duration": 32
+      },
+      "human-effort-evaluation-checks-v1": {
+        "calls": 22,
+        "eval_count": 2200,
+        "prompt_eval_count": 22000,
+        "total_duration": 22
+      },
+      "human-effort-development-v1": {
+        "calls": 64,
+        "eval_count": 9508,
+        "prompt_eval_count": 112148,
+        "total_duration": 206201550600
+      },
+      "human-effort-check-v1": {
+        "calls": 17,
+        "eval_count": 1700,
+        "prompt_eval_count": 17000,
+        "total_duration": 17
+      },
+      "ghost-opportunity-development-v1": {
+        "calls": 54,
+        "eval_count": 5515,
+        "prompt_eval_count": 45836,
+        "total_duration": 115478409500
+      },
+      "effort-literal-pilot-v1": {
+        "calls": 4,
+        "eval_count": 462,
+        "prompt_eval_count": 3652,
+        "total_duration": 9394540000
+      },
+      "effort-evaluation-v1": {
+        "calls": 24,
+        "eval_count": 2422,
+        "prompt_eval_count": 19541,
+        "total_duration": 56687258600
+      },
+      "effort-development-v1": {
+        "calls": 36,
+        "eval_count": 3933,
+        "prompt_eval_count": 32913,
+        "total_duration": 81114301200
+      },
+      "effort-adapter-check-v1": {
+        "calls": 4,
+        "eval_count": 100,
+        "prompt_eval_count": 80,
+        "total_duration": 4
+      },
+      "effort-adapter-binding-check-v1": {
+        "calls": 6,
+        "eval_count": 150,
+        "prompt_eval_count": 120,
+        "total_duration": 6
+      },
+      "earlier-structured-science-v1": {
+        "calls": 714,
+        "eval_count": 127151,
+        "prompt_eval_count": 1475233,
+        "total_duration": 4340295579000
+      },
+      "earlier-structured-literal-pilot-v1": {
+        "calls": 14,
+        "eval_count": 2500,
+        "prompt_eval_count": 30671,
+        "total_duration": 378405382400
+      },
+      "earlier-effort-science-v1": {
+        "calls": 498,
+        "eval_count": 56245,
+        "prompt_eval_count": 874694,
+        "total_duration": 1462948020000
+      },
+      "earlier-effort-literal-pilot-v1": {
+        "calls": 8,
+        "eval_count": 1164,
+        "prompt_eval_count": 13658,
+        "total_duration": 30900917100
+      },
+      "earlier-artifact-science-v1": {
+        "calls": 408,
+        "eval_count": 44379,
+        "prompt_eval_count": 642689,
+        "total_duration": 1648334943200
+      },
+      "earlier-artifact-literal-pilot-v1": {
+        "calls": 8,
+        "eval_count": 878,
+        "prompt_eval_count": 11016,
+        "total_duration": 130493252600
+      },
+      "deliberation-interface-v2": {
+        "calls": 4,
+        "eval_count": 443,
+        "prompt_eval_count": 4782,
+        "total_duration": 14253218700
+      },
+      "deliberation-interface-v1": {
+        "calls": 4,
+        "eval_count": 443,
+        "prompt_eval_count": 4782,
+        "total_duration": 14253218700
+      },
+      "coauthor-interface-queue-v2": {
+        "calls": 4,
+        "eval_count": 423,
+        "prompt_eval_count": 6728,
+        "total_duration": 21737600400
+      },
+      "coauthor-interface-queue-v1": {
+        "calls": 4,
+        "eval_count": 423,
+        "prompt_eval_count": 6728,
+        "total_duration": 21737600400
+      },
+      "coauthor-interface-corruption-probe": {
+        "calls": 4,
+        "eval_count": 423,
+        "prompt_eval_count": 6728,
+        "total_duration": 21737600400
+      },
+      "coauthor-evaluation-v1": {
+        "calls": 384,
+        "eval_count": 41815,
+        "prompt_eval_count": 541567,
+        "total_duration": 1212787601400
+      },
+      "coauthor-development-v1": {
+        "calls": 32,
+        "eval_count": 3493,
+        "prompt_eval_count": 52968,
+        "total_duration": 103716510700
+      },
+      "coauthor-deliberation-v1": {
+        "calls": 32,
+        "eval_count": 3499,
+        "prompt_eval_count": 37838,
+        "total_duration": 107377972700
+      },
+      "coauthor-deliberation-evaluation-v1": {
+        "calls": 384,
+        "eval_count": 42062,
+        "prompt_eval_count": 386052,
+        "total_duration": 896202380300
+      },
+      "argrewrite-continuity-pilot-v1": {
+        "calls": 12,
+        "eval_count": 2190,
+        "prompt_eval_count": 26202,
+        "total_duration": 52508307500
+      },
+      "argrewrite-continuity-evaluation-v1": {
+        "calls": 12,
+        "eval_count": 2307,
+        "prompt_eval_count": 26515,
+        "total_duration": 40276963300
+      }
+    },
+    "missing_cost": [],
+    "earliest_attempt_time": "2026-09-12T18:30:14.302707+00:00",
+    "latest_attempt_time": "2026-09-14T22:23:32.769025+00:00",
+    "scope": "Saved native ATTEMPT paths counted once; includes discarded pilots and scientific routes, excludes executor CPU and agent work. Callback total_duration is server-reported nanoseconds, not GPU utilization."
+  },
+  "first_retained_call": "2026-09-12T18:30:14.302707+00:00",
+  "first_scientific_launch": "2026-09-12T19:02:25.014015+00:00",
+  "last_scientific_queue_complete": "2026-09-14T22:23:37.630412+00:00",
+  "agent_setup_time": "Not independently metered; not inferred from GPU time or elapsed calendar time.",
+  "gear_authority": 2,
+  "active_scientific_jobs": 0,
+  "new_cloud_work": false,
+  "prior_failed_branch_retained": true,
+  "dispositions": [
+    {
+      "branch": "original reserved reading",
+      "status": "failed admission with four blocked dependants; repaired in a separate complete eight-job queue"
+    },
+    {
+      "branch": "recipient effects",
+      "status": "source unavailable; supplied public interface has no recipient intervention and human records lack independently measured recipient outcomes"
+    },
+    {
+      "branch": "dependency-damage and constraint-generalization intervention",
+      "status": "not established in this finite packet; no proxy result substituted"
+    },
+    {
+      "branch": "earlier-draft cheap prior",
+      "status": "absent from that comparison; no claim of superiority to an unrun prior"
+    },
+    {
+      "branch": "additional optional corpus and fine tuning",
+      "status": "not run; no training or broad population claim"
+    },
+    {
+      "branch": "larger external reader",
+      "status": "separately complete in Gear 3 Round 1, L385; frozen local assembler hold wording is historical"
+    },
+    {
+      "branch": "further local dispatch",
+      "status": "finite authorized selection exhausted; no automatic expansion or occupancy padding"
+    }
+  ]
+}
