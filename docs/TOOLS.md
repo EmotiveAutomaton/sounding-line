@@ -1681,3 +1681,7 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Gear 3 scoped context supplement (OPS-G3-R1-PANEL).** The owner-approved two-call exception binds the original payload and unchanged spending limits. All 45 focused refusal/adapter checks pass; the actual device supplement is still required before scientific admission. [Validation](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_CHECKS.json).
 
 **Gear 3 scoped supplement launch (OPS-G3-R1-PANEL).** Exact-payload dispatch and native terminal supervision are active within the unchanged cap; the complete device receipt remains pending. [Launch](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_LAUNCH.json).
+
+**Gear 3 context supplement verified (OPS-G3-R1-PANEL).** The complete returned context producer replays through original requests and raw replies without new calls or changed evidence; both original model/context loads and terminated owners verify. Composite pilot admission remains next. [Inspection](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_INSPECTION.json).
+
+**Gear 3 scoped admission and complete plan (OPS-G3-R1-PANEL).** Exact original/supplement composition and full plan validation pass. The separate original-P gate still refuses incomplete evidence, and all prior cost/time is retained. The unchanged consumer receives an outcome-blind frozen 17-job roster with explicit exclusions. [Validation](../results/gear3/G3-S10-READER-1/SCOPED_ADMISSION_PLAN.json).

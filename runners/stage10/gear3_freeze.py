@@ -48,7 +48,8 @@ def paired_preflight(rows,training,profiles,native):
 
 
 def consumer_sources(repo):
-    names=['runners/gear3_plan.py','runners/stage10/gear3_freeze.py','runners/stage10/gear3_consumer.py',
+    names=['runners/gear3_plan.py','runners/gear3_scoped_pilot.py','runners/gear3_supplement.py',
+           'runners/stage10/gear3_freeze.py','runners/stage10/gear3_consumer.py',
            'runners/stage10/gear3_readouts.py','runners/stage10/gear3_comparison.py','runners/stage10/comparison.py',
            'runners/stage10/human_baselines.py','runners/stage10/gear3_replay.py','runners/stage10/gear3_batch.py',
            'runners/stage10/reading_source.py','runners/stage10/human_programs.py','runners/stage10/contracts.py']

@@ -96,6 +96,11 @@ def pilot_evidence(repo,invocation,bundle,data,ghost_root):
 
 def validate_pilot(repo,path,data,ghost_root):
     saved=json.loads(path.read_text())
+    if saved.get('schema')=='gear3.scoped_pilot_admission.1':
+        from .gear3_scoped_pilot import compose
+        rebuilt=compose(repo,owned(repo,saved['bundle']),owned(repo,saved['supplement']['bundle']),data,ghost_root)
+        if rebuilt!=saved:raise ValueError('scoped pilot does not reproduce its original evidence')
+        return saved
     if saved.get('schema')!='gear3.pilot_admission.2':raise ValueError('source-bound literal pilot required')
     rebuilt=pilot_evidence(repo,saved['invocation'],owned(repo,saved['bundle']),data,ghost_root)
     if rebuilt!=saved:raise ValueError('pilot admission does not reproduce actual evidence')

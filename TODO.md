@@ -21,7 +21,9 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-PANEL: fully land the failed GPU pilot, complete-block replay, original gate refusal and stopped provider/native owners.
 - [x] OPS-G3-R1-PANEL: record approval and validate the exact context supplement, preserving all prior costs and unchanged campaign/account caps.
 - [x] OPS-G3-R1-PANEL: launch the single approved context supplement with native transition-only supervision.
-- [ ] OPS-G3-R1-PANEL: inspect the submitted supplement on its terminal transition; combine only verified whole pilot blocks, defer Ghost reading, then freeze affordable admitted branches and complete the final packet.
+- [x] OPS-G3-R1-PANEL: inspect and fully land the complete context supplement, immutable replay and ended owners.
+- [x] OPS-G3-R1-PANEL: combine verified whole pilot blocks, defer Ghost reading and freeze the affordable 17-job plan.
+- [ ] OPS-G3-R1-PANEL: execute the frozen plan, inspect complete outputs and deliver the final packet.
 
 ## Stage 10 commissioned - 2026-09-12
 

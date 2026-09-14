@@ -1,0 +1,224 @@
+{
+  "schema": "gear3.scoped-admission-and-plan.1",
+  "at": "2026-09-14T01:35:58.352635+00:00",
+  "status": "PASS_SCOPED_PLAN_FROZEN",
+  "pilot_sha256": "d8a8cdf7a3a4a80cce262ef5ca12ed81d5d771dcf5e895af4ab082d57d5d2625",
+  "plan_sha256": "16b485c2a039d0b4b53d7aaed3e0a34c78a2b7e1772a95a515bce5453a24928e",
+  "analysis_sha256": "302e3889383fed3b898d947312e1fc96f0f7ae57fe37970d5ac831e54a8d1bdb",
+  "admitted_pilot_blocks": [
+    "P-literal-human-001",
+    "P-literal-opportunity-002"
+  ],
+  "deferred_pilot_blocks": [
+    {
+      "block_id": "P-literal-reading-003",
+      "family": "ghost-reading",
+      "reason": "original incomplete block; no units admitted"
+    }
+  ],
+  "context_block": "P-context-boundary-004",
+  "retained_producer_seconds": 813.8499584197998,
+  "method": "whole original native replay, exact approved context evidence, device/ownership/reservation bindings, measured conservative timing and outcome-blind deterministic affordable prefix",
+  "checks": [
+    {
+      "sha256": "80d9b1b8e6a8e7865e0dbc35a522d2139fc92a4095871fad1de13687a2fd820c",
+      "tests": "34",
+      "failures": "14",
+      "errors": "0",
+      "skipped": "0",
+      "time": "16.414"
+    },
+    {
+      "sha256": "708ccb7ac5027a99a80cd0f5baad8199167cc604cc06bc16ce4d09da9627fdb4",
+      "tests": "15",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "10.485"
+    }
+  ],
+  "check_disposition": "34 distinct affected checks pass across the two retained runs. Fourteen initial fixture failures lacked the copied immutable authorization file; all 15 scoped checks then passed, with no skips. The 19 other panel/sequence checks passed in the first run. Actual archive composition and the unchanged legacy full-P refusal pass. Optional private-fixture availability guard added after this executed run.",
+  "production_sources": {
+    "runners/gear3_plan.py": "d2bb3dcce3eb2b41db3677735b7c6df472842794ca144fc8d9e44a20a0e09a61",
+    "runners/gear3_scoped_pilot.py": "beff14fdeebf2eabcd8194cfa23b78b7cae361c7f5e21368473f5106b720ddf8",
+    "runners/stage10/gear3_freeze.py": "23088ac81bbac99e5027939d041bdfc03f522689e87eac8dac805e8f4390bbba"
+  },
+  "jobs": [
+    {
+      "invocation": "science-a-001",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-002",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-003",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-004",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-005",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-006",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-007",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-008",
+      "node": "A",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    },
+    {
+      "invocation": "science-a-009",
+      "node": "A",
+      "seconds": 1251,
+      "dependencies": [],
+      "maximum_cents": 105
+    },
+    {
+      "invocation": "science-a-010",
+      "node": "A",
+      "seconds": 1157,
+      "dependencies": [],
+      "maximum_cents": 99
+    },
+    {
+      "invocation": "science-b-011",
+      "node": "B",
+      "seconds": 3247,
+      "dependencies": [
+        "science-a-001",
+        "science-a-002"
+      ],
+      "maximum_cents": 233
+    },
+    {
+      "invocation": "science-b-012",
+      "node": "B",
+      "seconds": 3247,
+      "dependencies": [
+        "science-a-002",
+        "science-a-003"
+      ],
+      "maximum_cents": 233
+    },
+    {
+      "invocation": "science-b-013",
+      "node": "B",
+      "seconds": 3247,
+      "dependencies": [
+        "science-a-003",
+        "science-a-004",
+        "science-a-005"
+      ],
+      "maximum_cents": 233
+    },
+    {
+      "invocation": "science-c-014",
+      "node": "C",
+      "seconds": 1891,
+      "dependencies": [
+        "science-a-001"
+      ],
+      "maximum_cents": 146
+    },
+    {
+      "invocation": "science-c-015",
+      "node": "C",
+      "seconds": 1891,
+      "dependencies": [
+        "science-a-002"
+      ],
+      "maximum_cents": 146
+    },
+    {
+      "invocation": "science-c-016",
+      "node": "C",
+      "seconds": 1891,
+      "dependencies": [
+        "science-a-003"
+      ],
+      "maximum_cents": 146
+    },
+    {
+      "invocation": "science-d-017",
+      "node": "D",
+      "seconds": 2124,
+      "dependencies": [],
+      "maximum_cents": 161
+    }
+  ],
+  "selected_counts": {
+    "A": 71,
+    "B": 24,
+    "C": 24,
+    "D": 8
+  },
+  "excluded_reasons": {
+    "literal route not admitted": 5,
+    "A counterpart not admitted": 5,
+    "workspace allocation must retain the repair reserve": 8,
+    "unadmitted prefix tail": 18
+  },
+  "affordability": {
+    "additional_cents": 2790,
+    "basis": "whole plan including original pilot and unresolved costs; 1000-cent repair reserve retained",
+    "existing_booked_by_node": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "P": 283,
+      "Reserve": 102
+    },
+    "planned_total_by_node": {
+      "A": 1492,
+      "B": 699,
+      "C": 438,
+      "D": 161,
+      "P": 283,
+      "Reserve": 102
+    },
+    "workspace_snapshot_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c"
+  },
+  "maximum_total_campaign_cents": 3175,
+  "remaining_repair_reserve_cents": 898,
+  "campaign_cap_cents": 5000,
+  "lower_account_limits": "unchanged; full remaining repair reserve and separate storage allowance retained",
+  "evaluation_outcomes_used_for_selection": false,
+  "automatic_retry": false,
+  "scientific_scores": "none; final packet follows full frozen execution",
+  "local_stage10_gear": 1
+}
