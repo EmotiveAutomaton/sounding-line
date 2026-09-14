@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-14T01:42:23.564181+00:00.
+Updated 2026-09-14T07:14:18.138912+00:00.
 
 **Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
 
-**Gear 3 science is running:** the first scientific job is submitted to Modal and the frozen 17-job native sequence is active. The plan allows at most $27.90 in new reservations, or $31.75 including all prior costs, within the unchanged campaign/account limits and with $8.98 remaining repair reserve protected. Completion includes the local final-packet consumer; failures retire affected domains without automatic retries. The watcher monitors terminal transitions only. Ghost reading stays deferred and local Stage 10 remains in first gear.
+**Gear 3 Round 1 is complete:** all 17 scientific jobs and the final consumer finished. Offline replay reproduces all four packet files byte for byte; 8,452 retained evidence files and 76 launch files verify. Provider tasks and original native owners have ended. Full write-through is L385; [final curator packet](results/gear3/G3-S10-READER-1/REPORT.md). All $31.75 reservations remain booked pending provider settlement. Local Stage 10 remains in first gear with its queue preserved. No new paid work is queued.
 
-The transition-only watcher owns waiting. The next agent checkpoint is complete sequence/packet, failure or disappearance. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
+The finite cloud campaign is closed and awaits curator review. Local GPU work remains held in first gear. The transition-only watcher remains available for actual registered state changes; no routine liveness wake or further scientific job is scheduled.
 
 ## Historical status snapshots (superseded)
 

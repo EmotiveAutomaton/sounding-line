@@ -5,7 +5,7 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-13.**
+**Last updated: 2026-09-14.**
 
 ---
 
@@ -93,6 +93,67 @@ marker mismatch; deriving the section boundary from source fixed the helper.
 
 **Curator roll-up:** theory group: execution integrity | question: can the local machine become available without losing study work? | **Infrastructure** | result: the current GPU job finished without interrupting or losing work | project meaning: first-gear transition preserves the finite study | next engineering obligation: retain the verified complete producer and first-gear hold until explicit Gear 2 authorization | public claim: unchanged | curator decision required: No | detail: transition receipt above.
 
+
+## L385 - Larger direct readers improve prediction without a larger reconstruction benefit
+
+**Hypothesis.** A larger reader gains more from explicit reconstruction than from direct prediction or matched deliberation; correct session history and reusable procedures supply useful additional evidence.
+
+**METHOD.** Compared the pinned Qwen 3.5 9B and 27B packages in 17 frozen cloud jobs on human handling of writing suggestions and, separately, constructed Ghost opportunity tasks. Replayed every complete native route from saved raw responses, then joined frozen local evaluator records. The primary measure is half multiclass Brier loss, a probability error score where lower is better; invalid attempts receive loss one. Writers or source cases receive equal weight. Prompt, writer, constructor and donor links determine dependency components. Cheap controls and the fixed same-confidence diagnostic remain separate from primary forecasts.
+
+**Found.** The larger reader did not gain more from explicit reconstruction. It improved direct prediction, while reconstruction hurt its primary score on both main source families. Correct session history helped the larger reader, and descriptive procedure names helped relative to opaque names, but neither establishes a persistent maker model. The simple training-frequency baseline beat every main human model arm on the primary score.
+
+**Means.** This is a completed descriptive comparison of reader packages and assistance methods. It does not isolate parameter count, demonstrate human empathy, recover historical intent, or close the general theory. A maker model inferred from earlier situations and actions, then tested without rebuilding it for each target, remains a candidate for a separately bounded study.
+
+The main human comparison contains 64 opportunities from 14 writers, 21 sessions and three prompts. Its dependency graph joins into one component. The seven Ghost questions span five cases but also one connected component. History uses 24 targets from 13 writers; donor links join the paired comparison into one component. Representation assistance uses 24 targets from 14 writers and three components. Eight additional human opportunities have eight writers and two components; they are a new event slice, not eight new independent writers. No population confidence interval is licensed for these comparisons.
+
+The table reports complete separate populations. A positive difference means the first named method has lower probability error. Reconstruction benefit compares executable proposals with matched deliberation; the interaction subtracts the smaller package's benefit from the larger package's benefit.
+
+| Population | Larger direct benefit | Reconstruction benefit, 9B | Reconstruction benefit, 27B | Interaction |
+|---|---:|---:|---:|---:|
+| Main human handling | +0.0481 | -0.0195 | -0.0652 | -0.0456 |
+| Ghost opportunity | +0.5433 | +0.4590 | -0.0512 | -0.5102 |
+| Additional human events | +0.0409 | +0.0531 | -0.0891 | -0.1422 |
+
+On main human handling, direct loss is 0.4361 for 9B and 0.3880 for 27B; executable proposals give 0.4473 and 0.4579. The training-frequency control gives 0.3209. It assigns zero probability to two realized outcomes, making its log loss infinite; no universal ranking across scoring rules is claimed. Larger direct generated-choice accuracy is 39.6%, versus 25.4% for the smaller package. Larger executable generated-choice accuracy is also 39.6%. At common fixed confidence its direct and executable forecasts tie at loss 0.4979: the primary probability-score disadvantage is not a corresponding loss of generated-choice accuracy. The smaller package's generated choice worsens with execution. Two main 9B attempts are invalid and remain in the system score.
+
+The history table reports probability-error gains from correct predecision session history over the named alternative on the same targets. Positive favors correct history. These are interventions on the reader's evidence, not the human's past.
+
+| Reader and method | Correct versus other-writer history | Correct versus no history | Loss with correct history |
+|---|---:|---:|---:|
+| 9B direct | +0.0437 | -0.0193 | 0.4199 |
+| 9B executable | +0.0031 | +0.0615 | 0.4858 |
+| 27B direct | +0.0858 | +0.0655 | 0.3108 |
+| 27B executable | +0.0646 | +0.1108 | 0.3965 |
+
+Correct history helps 27B against both alternatives under both methods. Its direct generated-choice accuracy improves by 19.2 percentage points against other-writer history and 15.4 against no history. The matched training-frequency control has loss 0.3810 and correct-history persistence 0.5769. Larger direct prediction beats both; its executable route beats persistence but not the frequency control. Smaller direct prediction does better without history than with correct history. Donor-linked support is one component, so these effects remain descriptive.
+
+Representation losses below use the same 24 human targets, with lower better. Opaque and grounded procedures have identical definitions, episodes and support metadata, differing only in descriptions.
+
+| Package | Stored examples | Opaque procedures | Grounded procedures | Grounded benefit over opaque |
+|---|---:|---:|---:|---:|
+| 9B | 0.3623 | 0.4207 | 0.3873 | +0.0334 |
+| 27B | 0.3174 | 0.4064 | 0.3207 | +0.0857 |
+
+For 27B, the naming benefit remains positive after omitting any one connected component, ranging from +0.0500 to +0.1091. Grounded procedures do not beat stored examples overall: difference -0.0033, with descriptive omission range -0.0236 to +0.0243. This is not an equivalence conclusion. The 9B naming range crosses zero, with one invalid grounded attempt retained. Common-confidence scoring narrows the larger naming gain to +0.0286, matching a 3.6-point generated-choice gain. Probability mixture/calibration contributes to the primary-score difference. No historical procedure-recovery claim follows.
+
+On Ghost opportunity, direct loss falls from 0.5730 to 0.0298 with the larger package. Executing proposed candidates improves 9B to 0.1140 but worsens 27B to 0.0809. Both executed probability mixtures rank the realized option first on every weighted case; their separately generated choices achieve only 30% and 80%. All 28 native proposal evaluations execute without a model-mismatch flag, using two to four candidates from supports of 36 or 54. All proposed candidates have positive evidence likelihood. This is conditional operation on proposed support, not true-state recovery or a full-support posterior. Legal program reconstruction and artifact recreation are not measured by this opportunity API; Ghost reading was deferred after its pilot feedback failure.
+
+Across 256 main-human native evaluation rounds, no proposed rule is syntactically constant, but substituting each rule's realized action leaves its single-task mixture unchanged in every check. Smaller generated choices belong to the mixture maximum on 60 of 128 rounds; larger choices on 102 of 128. These are round-level readout diagnostics, not independent makers or reasoning ablations. The current method produces fresh task-specific rules, not a persistent writer model.
+
+The extra eight-event human slice retains a negative larger-reader interaction, while the smaller package benefits from execution there. The training-frequency control still beats all its model methods on primary loss. This source-dependent reversal prevents a blanket method ranking.
+
+**Complete landing.** All 17 frozen scientific jobs completed, including 810 attempted forecast routes with three invalid routes retained. No scientific job or cell was dropped. Five reading-task exclusion entries, five dependent counterparts, eight entries withheld to preserve repair reserve and eighteen prefix-tail entries retain their reasons. These are branch entries, not independent subjects. A second human corpus, adaptive routing and private Ghost confirmation remain unrun. All sources were historically exposed descriptive allocations.
+
+All $31.75 remains booked: $2.83 pilot, $1.02 Reserve repairs, $14.92 main comparisons, $6.99 history, $4.38 representations and $1.61 breadth. No provider-attributed final invoice is available. Zero confirmed cents means unconfirmed billing, not free computation. The unchanged $50 cap leaves $18.25 nominal allowance, subject to the lower workspace backstop; $8.98 of repair reserve remains protected. Originally observed $30 credits and a separate $1 storage allowance do not increase the gross budget. Retained cloud artifacts can still accrue storage charges; no deletion or new resource is commissioned by closeout.
+
+Scientific work records 1,318 model calls, 1,942,658 input tokens and 199,027 generated tokens. Worker duration totals 17,283 seconds, about 4.80 hours; reported model-server duration is about 1.59 hours. Worker time includes loading and execution but is not an invoice or a complete attribution of provider startup/teardown. Sequence plus local consumer took about five hours. Original setup, failed-pilot and repair reservations remain retained.
+
+All 76 bound launch files verify. The 8,452 returned scientific evidence files remain unchanged; offline replay reproduces four final packet files byte for byte with no new inference. All 40 model/context loads verify fully GPU resident. Original scientific native owners have ended. Six scientific apps still listed by the provider are stopped; all seventeen task inventories are empty, with older stopped apps absent from the current list. Local Stage 10 remains in first gear, both scheduling controllers suspended, with results and frozen queues preserved. This closes finite Gear 3 Round 1, not the broader local Stage 10 study.
+
+**Detail.** [Final curator packet](results/gear3/G3-S10-READER-1/REPORT.md) retains every method, control, paired finite-log contrast, component/uncertainty record, readout diagnostic, worked example and resource table. No confirmatory p-value is reported; the multiplicity registry gains no entry.
+
+**Curator roll-up:** theory group: reader reconstruction and maker differentiation | question: does a larger reader make reconstruction and maker-specific evidence more useful? | **Narrows** | result: the larger package improves direct prediction without a larger reconstruction benefit | project meaning: session history and descriptive representations can help within exposed records without establishing a persistent maker model | next engineering obligation: specify a cross-situation comparison only under a new bounded commission; preserve this evidence | public claim: scoped descriptive findings newly licensed; general mechanism unchanged | curator decision required: No for closeout; new paid work requires a separate allocation | detail: final packet above.
+
 ### OPS-G3-R1-PANEL - verified evidence and bounded rollout after the analyst review
 
 **Hypothesis.** The commissioned cloud comparison can return complete, usable evidence without renewing expired work or exceeding its finite allocation.
@@ -123,7 +184,7 @@ marker mismatch; deriving the section boundary from source fixed the helper.
 
 **Scientific sequence launched, September 13 Pacific.** METHOD: bound the committed implementation, all 76 launch source/input files and the frozen complete plan, then started the prescribed native sequence through `runners/gear3.py`. The first scientific app/call is submitted and the native supervisor is alive; it runs at BelowNormal priority on logical CPUs 16-23 while local Stage 10 controllers stay parked. The healthy watcher has scanned since launch with the final packet, failure and disappearance paths registered. All 17 jobs retain their original finite reservations, paired-block dependencies and failure domains. The final local consumer runs only after sequence dispositions are complete. No automatic retry, clock reset, routine model wake or interim scientific score is introduced. [Launch](results/gear3/G3-S10-READER-1/SCOPED_SCIENCE_LAUNCH.json).
 
-**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison deliver valid and affordable evidence? | **Infrastructure** | result: all 62 final checks pass | project meaning: the approved supplement supplies the missing context evidence | next engineering obligation: execute the frozen affordable sequence and inspect its final packet | public claim: unchanged | curator decision required: No; the scoped supplement and unchanged campaign cap are approved | detail: repair receipt above.
+**Curator roll-up:** theory group: reader capability | question: can the finite cloud comparison deliver valid and affordable evidence? | **Infrastructure** | result: all 62 final checks pass | project meaning: the approved supplement supplies the missing context evidence | next engineering obligation: completed sequence and final packet landed in L385 | public claim: unchanged | curator decision required: No; the scoped supplement and unchanged campaign cap are approved | detail: repair receipt above.
 
 ### OPS-G3-R1-SETUP - bounded cloud production and usable returned evidence
 
@@ -563,6 +624,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
+**Gear 3 Round 1 scope (L385).** Complete exposed human and constructed comparisons are available, but shared prompts/constructors/donors collapse the main contrasts to one component. Human task-specific rule voting is not a persistent maker model; naming changes representation access, not historical recovery. Billing remains unsettled. These limits constrain claims without voiding the descriptive scores.
+
 **0 · STAGE-4 ERRATA CORRECTIONS (2026-08-28), the audit pass over the Stage-3 record.** Source:
 the Stage-4 theory errata, applied to the four theory owners the same day (every errata file was
 removed 2026-08-30 on curator ruling; the owners are the record). Each item below changes the *interpretation* of a
@@ -592,8 +655,10 @@ students writing the same essay three times, six years of a topic-controlled sty
 test labels, and 43,000 human-labelled emotion comments. **Two controlled human comparisons have now
 been run and both came back negative or partial** (L5, L7).
 
-**What remains is narrower and harder.** Every *positive* still rides on machine-written or
-public-domain text: the ladder is one model's output, author identification is books. **And the thing
+**What remains is narrower and harder.** Earlier broad identification positives relied on machine-written or
+public-domain text: the ladder is one model's output, author identification is books. The completed
+Gear 3 comparison adds a scoped correct-session-history benefit on recorded human handling
+(L385), without identifying the human inference mechanism or enduring maker traits. **And the thing
 none of the human corpora supply is one maker across DIFFERENT KINDS of artifact**, which is the
 diversity-of-conditions requirement that every dead thread arrives at — depth as a relation to a
 domain, values needing many episodes, the polish that only slips when the performance is costly.
