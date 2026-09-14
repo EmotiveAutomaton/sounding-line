@@ -109,7 +109,7 @@ class CampaignLedger:
     def reserve(self, invocation: str, node: str, command: list[str], profile: dict,
                 seconds: int, overhead_cents: int, *, approval: str, now: float | None = None,
                 recovery_of: str | None = None, cache=False, workspace_cap_cents=5000,
-                reservation_guard=None):
+                reservation_guard=None, supplement_authorization=None):
         now = time.time() if now is None else now
         if not math.isfinite(now) or node not in NODE_CENTS or not invocation or not approval.strip():
             raise ValueError("invalid invocation authorization")
@@ -134,13 +134,21 @@ class CampaignLedger:
                              "duration_cap_seconds": seconds, "approval": approval, "recovery_of": recovery_of,
                              "resources":resources}.items():
                     if row[k] != v: raise ValueError("resume changes frozen invocation")
+                if row.get('supplement_authorization') != supplement_authorization:
+                    raise ValueError('resume changes scoped supplemental authorization')
                 # A caller may inspect this receipt; it is never permission to submit twice.
                 return {**row, "existing_reservation": True}
             if any(r.get("status") in {"RESERVED", "SUBMITTED", "CANCEL_PENDING", "LAUNCHED"} or (r.get("status") == "UNKNOWN" and not r.get("owner_ended")) for r in data["runs"]):
                 raise ValueError("another cloud owner has not ended")
             if node!='Reserve' and profile.get('job_sha256') and any(r.get('campaign_id')==CAMPAIGN and r.get('profile',{}).get('job_sha256')==profile['job_sha256'] for r in data['runs']):
                 raise ValueError('the frozen job already has an invocation; no duplicate scientific dispatch')
-            if node == "Reserve":
+            if supplement_authorization is not None:
+                from .gear3_supplement import verify_reservation
+                verify_reservation(data, supplement_authorization, invocation=invocation,
+                    node=node, command=command, profile=profile, seconds=seconds,
+                    overhead_cents=overhead_cents, cost=cost, approval=approval,
+                    cache=cache, recovery_of=recovery_of)
+            elif node == "Reserve":
                 original = [r for r in data["runs"] if r.get("campaign_id") == CAMPAIGN and r.get("invocation_id") == recovery_of]
                 if len(original) != 1 or original[0].get("owner_ended") is not True:
                     raise ValueError("recovery requires verified prior owner termination")
@@ -178,6 +186,8 @@ class CampaignLedger:
                    "status": "RESERVED", "owner_ended": False, "provider_charge_cents": None,
                    "service_estimate_cents": None, "est_actual_dollars": cost / 100,
                    "cost_basis": "entire capped reservation; not an invoice", "events": []}
+            if supplement_authorization is not None:
+                row['supplement_authorization'] = dict(supplement_authorization)
             data["runs"].append(row)
             return dict(row)
 

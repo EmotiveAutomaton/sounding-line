@@ -139,6 +139,7 @@ def main() -> None:
         p.add_argument('--seconds',type=int,required=True);p.add_argument('--startup-seconds',type=int,required=True)
         p.add_argument('--overhead-cents',type=int,required=True);p.add_argument('--approval',required=True)
         p.add_argument('--recovery-of');p.add_argument('--pilot',type=Path);p.add_argument('--plan',type=Path)
+        p.add_argument('--context-supplement', action='store_true', help='Only the separately approved G3R1.7 context checks')
         args=p.parse_args(sys.argv[2:]);result=dispatch(REPO,args)
         print(json.dumps({'status':result['status'],'mode':result['mode'],'scientific_scores':'pending whole-cell analysis'}))
         if result['status']!='COMPLETE':sys.exit(1)

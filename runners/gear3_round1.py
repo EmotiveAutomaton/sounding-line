@@ -176,6 +176,10 @@ def dispatch(repo,args):
     from .stage10.gear3_bundle import validate_input
     main=authoritative_ledger(repo).parents[1]
     bundle=args.bundle.resolve();job,checked=validate_input(bundle,repo,main/'results/phase_2_4_stage_10/raw/interface-v3/ghost-public')
+    supplement = None
+    if getattr(args, 'context_supplement', False):
+        from .gear3_supplement import verify_payload
+        supplement = verify_payload(repo, bundle, job)
     import zipfile
     if job['mode'] not in {'cache','science'}:raise ValueError('unknown campaign job')
     if args.seconds is None or args.startup_seconds is None or not 1<=args.startup_seconds<=args.seconds:
@@ -209,7 +213,8 @@ def dispatch(repo,args):
     reservation=ledger.reserve(args.invocation,args.node,['runners/gear3.py','round1',checked['archive_sha256']],
         {'job_sha256':digest(job),'image':IMAGE,'account_evidence_sha256':digest(account),'authenticated_workspace_sha256':digest(authenticated),'startup_seconds':args.startup_seconds},
         args.seconds,args.overhead_cents,approval=args.approval,recovery_of=args.recovery_of,cache=job['mode']=='cache',
-        reservation_guard=lambda data,node,cost: account_reservation_guard(account,data,node,cost))
+        reservation_guard=lambda data,node,cost: account_reservation_guard(account,data,node,cost),
+        supplement_authorization=supplement)
     if reservation.get('existing_reservation'):raise ValueError('existing invocation is inspection-only; never resubmit it')
     app=None;call=None;app_id=None;ledger_terminal=False
     def cancel():

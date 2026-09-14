@@ -26,6 +26,7 @@ instruction. Four added quotations retain the supplied words; no old quote is re
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
+| G3R1.7 | Approve the proposed context supplement and continue Gear 3, keeping the existing cap unchanged (September 13 owner instruction). | Exact two-call supplement authorized, capped at $0.64 and ten minutes from Reserve; Ghost reading deferred, prior failed evidence/costs retained, local Stage 10 stays in first gear. | results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_AUTHORIZATION.json | written |
 | G3R1.6 | Apply the analyst panel fixes, perform final validation, then launch Round 1 if no unresolved concern remains. | Revision-2 repairs pass 62 checks; bounded pilot continuation authorized without resetting original costs or invocation clocks. | FINDINGS OPS-G3-R1-PANEL; results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json | built |
 | G3R1.5 | Fully flesh out the prescribed Gear 3 Round 1; usable results justify careful setup. | Campaign-specific implementation commissioned, with isolated live code, finite pilot and spending/evidence safeguards. | TODO; docs/design/GEAR_3_ROUND_1_REVIEW.md | planned |
 | G3R1.4 | Approve public push after errata and sensitive-information review. | Explicit authorization recorded; outgoing history review precedes publication. | Private release validation; Git history | written |

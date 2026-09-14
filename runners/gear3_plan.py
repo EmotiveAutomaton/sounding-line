@@ -29,6 +29,8 @@ def verify_invocation(repo,invocation,bundle,data,ghost_root):
     immutable=('campaign_id','invocation_id','node','command','profile','resources','duration_cap_seconds',
                'expires_at','ts','reserved_cents','overhead_cents','approval','campaign_authorization','recovery_of')
     if any(reservation[k]!=row[k] for k in immutable):raise ValueError('original reservation differs from ledger')
+    if reservation.get('supplement_authorization') != row.get('supplement_authorization'):
+        raise ValueError('supplement authorization differs from original reservation')
     job,checked=gear3_bundle.validate_input(bundle,repo,ghost_root)
     if checked['archive_sha256']!=row['command'][-1] or digest(job)!=row['profile']['job_sha256']:
         raise ValueError('producer input differs from reservation')
