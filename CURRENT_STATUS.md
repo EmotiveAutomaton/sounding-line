@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-13T23:04:17.256558+00:00.
+Updated 2026-09-14T01:00:08.278051+00:00.
 
 **Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
 
-**Gear 3 rollout stopped:** the GPU pilot failed at the Ghost reading feedback allowance before the final context-boundary check. Complete human/opportunity blocks replay, but scientific admission remains closed. Provider tasks and native supervisor have ended; $3.21 remains fully booked pending invoices. An unchanged-source two-call context supplement is prepared at a maximum $0.64 from Reserve, with Ghost reading deferred; its changed payload/fresh ten-minute cap requires the owner decision under the audited recovery rule.
+**Gear 3 continuation approved:** the exact two-call context supplement passes 45 focused checks and read-only provider inspection. It is ready for its single bounded launch: ten minutes maximum, at most $0.64 from Reserve, keeping the $50 campaign and lower account limits unchanged. Prior failed evidence and $3.21 booked costs remain. Ghost reading is deferred; verify actual supplement plus retained complete pilot blocks before admitting science. Local Stage 10 remains in first gear.
 
-The transition-only watcher owns waiting. Both inspected terminals are recorded; the next cloud action requires the scoped owner decision. Local GPU work remains held in first gear. No routine liveness wake is scheduled.
+The transition-only watcher owns waiting. The approved supplement completion/failure is the next cloud checkpoint; local GPU work remains held in first gear. No routine liveness wake is scheduled.
 
 ## Historical status snapshots (superseded)
 

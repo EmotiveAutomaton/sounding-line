@@ -1,0 +1,37 @@
+{
+  "at": "2026-09-14T01:00:08.278051+00:00",
+  "status": "PASS",
+  "tests": 45,
+  "failures": 0,
+  "skips": 0,
+  "test_xml_sha256": "3a549a8098cd769bfd9be282b4358775cecb4b5a9e19591aced6ca5d42e3c373",
+  "tests_as_executed_sha256": "62b5d31371b5351e0253c312a97331dac2ac9500e28d44dd5e024ddbb505fdc6",
+  "post_test_change": "test-file UTF-8 BOM/line endings normalized only",
+  "source_sha256": {
+    "runners/gear3.py": "5fe542a19dbfb0aaa108b5e284ffd438e65cace9b28a4c74e0a48b0802927a00",
+    "runners/gear3_campaign.py": "22979319b1402c11a0f3b385d7b1b9114e9c0a409c0891897b900925329c9c48",
+    "runners/gear3_round1.py": "166a05bec450eb6b477a3e15c8228b732f9e40fbc2c87c9cdc36a6dcb1ab482c",
+    "runners/gear3_plan.py": "29889c5d4f1fa555a23a2c74a6c3b2338eee32ad4cc203fd464fa8d50376c847",
+    "runners/gear3_supplement.py": "c0330acab78bd0692e05b17a70e88b8e23d89ef8b21d8ec5deb4ffefee3c617c",
+    "tests/test_gear3_supplement.py": "c49627f2eb9a11d358695a364adb14d17eeebd27dd1eafbd3f2d0e5329fcf165"
+  },
+  "authorization_sha256": "6bae0c032956f21c3242a5bf0368ec0f74921ec3281869086dd406ee19f5360a",
+  "checks": [
+    "exact prepared input/source bundle verifies",
+    "missing or changed approval, payload, model profile, startup, runtime, amount and branch refuse",
+    "unknown prior owner and changed original pilot refuse",
+    "expired original remains unchanged; only approved supplemental reservation receives its new bounded expiry",
+    "duplicate dispatch and recovery of the supplement refuse",
+    "Reserve and lower workspace guards still bind",
+    "simulated provider is reached only after exact reservation; unknown failure retains full charge"
+  ],
+  "literal_GPU_check": "not yet dispatched",
+  "new_model_calls": 0,
+  "new_research_tests": 0,
+  "current_campaign_booked_cents": 321,
+  "approved_supplement_cap_cents": 64,
+  "combined_ceiling_cents": 385,
+  "campaign_cap_cents": 5000,
+  "local_stage10_gear": 1,
+  "scientific_admission": "pending actual supplementary evidence and retained whole-block replay"
+}
