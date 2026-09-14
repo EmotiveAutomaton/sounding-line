@@ -1685,3 +1685,5 @@ The final selected report binds the exact fresh original-ledger reproduction and
 **Gear 3 context supplement verified (OPS-G3-R1-PANEL).** The complete returned context producer replays through original requests and raw replies without new calls or changed evidence; both original model/context loads and terminated owners verify. Composite pilot admission remains next. [Inspection](../results/gear3/G3-S10-READER-1/CONTEXT_SUPPLEMENT_INSPECTION.json).
 
 **Gear 3 scoped admission and complete plan (OPS-G3-R1-PANEL).** Exact original/supplement composition and full plan validation pass. The separate original-P gate still refuses incomplete evidence, and all prior cost/time is retained. The unchanged consumer receives an outcome-blind frozen 17-job roster with explicit exclusions. [Validation](../results/gear3/G3-S10-READER-1/SCOPED_ADMISSION_PLAN.json).
+
+**Gear 3 finite scientific sequence active (OPS-G3-R1-PANEL).** First provider submission and native ownership verify; the frozen 17-job driver, complete-packet consumer and transition-only supervision are active. [Launch](../results/gear3/G3-S10-READER-1/SCOPED_SCIENCE_LAUNCH.json).
