@@ -10,7 +10,7 @@ archive, kept whole, mined but never deleted.
 - [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).
 - [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/GEAR_3_ROUND_1_REVIEW.md)).
 - [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
-- [x] Gear 3 Round 1: complete the admitted 17-job package and final write-through (L385). Admission used verified whole pilot blocks plus the approved context supplement; the original full pilot remains failed and Ghost reading deferred. Campaign and lower workspace limits remain unchanged. Local Stage 10 remains in first gear.
+- [x] Gear 3 Round 1: complete the admitted 17-job package and final write-through (L385). Admission used verified whole pilot blocks plus the approved context supplement; the original full pilot remains failed and Ghost reading deferred. Campaign and lower workspace limits remain unchanged. Local Stage 10 resumed second gear September 14.
 
 - [x] OPS-G3-R1-SETUP: implement and validate the isolated cloud apparatus, native source bundle, complete pilot replay and finite post-pilot driver; 27 focused checks pass.
 - [x] OPS-G3-R1-SETUP: complete extended fault-injection validation and verify workspace, explicit environment, billing-cycle limits, retained storage and payment-method evidence. All 42 checks pass; guide filed.
@@ -25,13 +25,15 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-G3-R1-PANEL: combine verified whole pilot blocks, defer Ghost reading and freeze the affordable 17-job plan.
 - [x] OPS-G3-R1-PANEL: launch the frozen 17-job scientific sequence with verified provider/native ownership.
 - [x] OPS-G3-R1-PANEL: inspect complete sequence outputs and deliver the final packet (L385; all 17 jobs complete, exact offline reproduction).
-- [ ] L385: curator review before a separately commissioned cloud follow-up; no automatic paid expansion. Local Stage 10 remains in first gear with results and frozen queues preserved.
+- [ ] L385: curator review before a separately commissioned cloud follow-up; no automatic paid expansion. Local Stage 10 resumed second gear with results and frozen queues preserved.
 
 ## Stage 10 commissioned - 2026-09-12
 
 - [x] OPS-S10-GEAR1: park scheduling controllers and lower CPU use without interrupting the active evaluation; completed evidence and source pins verify.
 - [x] OPS-S10-GEAR1: fully land the completed evaluation, immutable replay, native exit and GPU-lock release; keep both schedulers parked.
-- [ ] OPS-S10-GEAR1: retain local first gear and frozen queues; resume higher GPU use only on explicit Gear 2 authorization.
+- [x] OPS-S10-GEAR1: retain results through the owner hold; explicit Gear 2 resumption authorized September 14.
+- [x] OPS-S10-GEAR2: resume both exact native controllers without restarting valid work; verify all input paths, frozen sources, installed model identities and transition-only failure monitoring.
+- [ ] OPS-S10-GEAR2: inspect complete queue transitions and final review; retain cooling limits and reconcile the frozen assembly's historical Gear3 hold wording with completed L385 in the final packet.
 
 - [x] S10-I11: validate the finite local dependency queue, ScholaWrite chronology and six-strategy bank; fully land the discarded literal pilot.
 - [x] S10-I11: fully build, validate and launch the finite local runway behind the existing science bank: 51 reviewed jobs, including 23 GPU jobs; full source pins and native transition-only monitoring.

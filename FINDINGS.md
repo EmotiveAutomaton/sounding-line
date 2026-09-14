@@ -226,6 +226,30 @@ The active billing guard uses the lower actual account headroom, a separate allo
 
 **Curator roll-up:** theory group: operating infrastructure | question: can unattended work signal only actionable transitions? | **Infrastructure** | result: all 86 checks pass | project meaning: healthy waiting no longer generates routine agent turns | next engineering obligation: inspect the next actual terminal or monitor fault | public claim: unchanged | curator decision required: No | detail: receipt above.
 
+### OPS-S10-GEAR2 - resume the preserved local study and verify its full runway
+
+**Hypothesis.** The preserved Stage 10 bank can return to second gear and advance through its prepared finite queue without restarting completed work.
+
+**METHOD.** Matched original native process identities and commands, verified frozen plans and completed inventories, restored saved CPU scheduling and resumed each stopped controller exactly once. Checked every declared input path against existing evidence or a planned producer, both installed model digests and terminal/disappearance monitoring. Existing known-answer validation remains applicable because all worker source pins are unchanged; no new inference was used for readiness checks.
+
+The table lists operational checks and their observed outcomes, not scientific scores.
+
+| Check | Outcome |
+|---|---|
+| Existing controllers | Both resumed at their original identities; no experiment restarted |
+| Frozen evidence | Both plans and 164 source pins verify; completed evaluation retained |
+| Prepared inputs | All 95 path references resolve to existing inputs or declared future outputs |
+| Local model availability | Both installed models match their pinned versions |
+| Remaining execution | One adaptive GPU job running, followed by 51 jobs including 23 GPU jobs |
+| Monitoring | All branch failures and both native queue identities covered; three missing initial-bank failure paths added |
+| Cooling | Boost off and 90% AC CPU maximum retained; observed CPU 65.4 C and GPU 64.0 C after resumption |
+
+**Found.** Stage 10 is running in second gear. The ScholaWrite adaptive reader advances and its complete follow-on queue is ready. The first administrative input checker omitted the predecessor queue's future terminal files; classifying those as planned outputs resolved its refusal without any scientific change. Sensor values are endpoint observations without a hardware sample timestamp. [Resumption receipt](results/phase_2_4_stage_10/GEAR2_RESUMPTION.json).
+
+**Means.** Setup for the finite authorized runway is complete. Branch-specific literal admissions still run before their dependent experiments; failures retain evidence and allow independent branches to continue. No duplicate runs, new cloud work or calendar-week padding were added. The frozen private assembler retains launch-time wording about Gear 3 being held; final synthesis must reconcile it with separately completed L385 without editing live worker sources. Final scientific integrity and interpretation remain owed. No tests were harvested this pass.
+
+**Curator roll-up:** theory group: execution integrity | question: can the local study resume with its complete finite runway intact? | **Infrastructure** | result: the original controllers resumed without restarting completed work | project meaning: authorized local execution is active | next engineering obligation: inspect terminal transitions and deliver the complete final stage packet | public claim: unchanged | curator decision required: No | detail: resumption receipt above.
+
 ### OPS-S10-GEAR1 - preserve the current experiment while freeing the local machine
 
 **Hypothesis.** Local Stage 10 can enter first gear without losing completed work or interrupting the current prediction job.

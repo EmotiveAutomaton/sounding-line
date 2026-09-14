@@ -1,0 +1,62 @@
+{
+  "schema": "stage10.gear2-resumption.1",
+  "at": "2026-09-14T08:47:53.239400+00:00",
+  "status": "RUNNING",
+  "authority": "Explicit owner request September14: local Stage10 Gear2 and full queue pre-setup",
+  "resumed_existing_controllers": 2,
+  "restarted_jobs": 0,
+  "source_files_verified": 164,
+  "frozen_plans": [
+    {
+      "path": ".agent-state/stage10-schola-f0-PLAN.json",
+      "sha256": "3206a17086b4d430a523a0223811e346134429e6b3a71162ff8127f8feff3bd6",
+      "jobs": 4,
+      "gpu_jobs": 3
+    },
+    {
+      "path": ".agent-state/stage10-local-week-PLAN.json",
+      "sha256": "4f78d911f9ee06f35f409db2260c92ef52398350be14c2024449d258860ad883",
+      "jobs": 51,
+      "gpu_jobs": 23
+    }
+  ],
+  "completed_evaluation": "SCHOLA_EVALUATION_PRODUCER.json",
+  "active_job": "schola-f0-adaptive",
+  "active_output": "results/phase_2_4_stage_10/raw/schola-runway-f0-adaptive-v1",
+  "followon_jobs": 51,
+  "followon_gpu_jobs": 23,
+  "input_path_checks": 95,
+  "local_modules": 9,
+  "pinned_local_models_verified": true,
+  "future_branch_outputs_and_final_review_prepared": true,
+  "all_branch_failure_paths_registered": true,
+  "additional_initial_bank_failure_paths": 3,
+  "transition_only": true,
+  "routine_wake_scheduled": false,
+  "cooling": {
+    "cpu_boost_enabled": false,
+    "ac_maximum_processor_percent": 90,
+    "normal_priority_and_original_full_cpu_affinity_restored": true,
+    "observed_after_resume": [
+      {
+        "SensorId": "/amdcpu/0/temperature/2",
+        "Value": "65.4 \u00b0C"
+      },
+      {
+        "SensorId": "/gpu-nvidia/0/temperature/0",
+        "Value": "64.0 \u00b0C"
+      }
+    ],
+    "sensor_caveat": "Endpoint observation; hardware sensor sample timestamp unavailable."
+  },
+  "scientific_verdict": false,
+  "gear3": "Finite Round1 complete in L385; no new paid work queued",
+  "limitations": [
+    "Per-branch literal admissions still execute in the reviewed queue; a failed branch preserves evidence and blocks its dependants while independent work proceeds.",
+    "Finite eligible work is not padded to occupy a calendar week.",
+    "Final scientific integrity, complete-cell interpretation and curator packet remain required.",
+    "Frozen assembler retains its historical Gear3-held disposition; reconcile completed L385 in the final synthesis without editing pinned worker sources."
+  ],
+  "resumption_receipt_sha256": "81ce4837e785dcf7e927e5195ddbd87e0c3f730c5fb6752c43465dd9e566f078",
+  "readiness_receipt_sha256": "39245d807e19ab1f6f8831c026a218835bc5897f6b90de19c0f3096f3876ea6a"
+}

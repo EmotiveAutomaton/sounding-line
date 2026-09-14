@@ -1,12 +1,12 @@
 # Current status
 
-Updated 2026-09-14T07:14:18.138912+00:00.
+Updated 2026-09-14T08:47:53.239400+00:00.
 
-**Current local mode:** Stage 10 is in first gear on the September 13 owner instruction. The ScholaWrite evaluation finished normally, its complete immutable replay passes, and its GPU lock is released. Both scheduling controllers remain parked so no further GPU job can start. Local Python priority remains BelowNormal on logical CPUs 16–23; CPU cooling limits remain. Both frozen plans and the union of 164 source pins verify unchanged. The remaining bank and 51-job follow-on queue are preserved for explicit Gear 2 resumption. Gear 3 has its separate decision below.
+**Current local mode:** Stage 10 resumed second gear on the September 14 owner instruction. Both original scheduling controllers resumed at their exact native identities; no completed work was restarted. The verified ScholaWrite evaluation is preserved and the adaptive-reader job is running, followed automatically by the frozen 51-job queue, including 23 GPU jobs. All 164 source pins, 95 input-path references and both installed model digests verify. Normal Python priority and original full CPU affinity are restored; CPU boost-off and 90% AC maximum remain. All branch failures, queue completion and native disappearance have transition-only supervision. Final scientific analysis and the single stage packet remain pending.
 
-**Gear 3 Round 1 is complete:** all 17 scientific jobs and the final consumer finished. Offline replay reproduces all four packet files byte for byte; 8,452 retained evidence files and 76 launch files verify. Provider tasks and original native owners have ended. Full write-through is L385; [final curator packet](results/gear3/G3-S10-READER-1/REPORT.md). All $31.75 reservations remain booked pending provider settlement. Local Stage 10 remains in first gear with its queue preserved. No new paid work is queued.
+**Gear 3 Round 1 is complete:** all 17 scientific jobs and the final consumer finished. Offline replay reproduces all four packet files byte for byte; 8,452 retained evidence files and 76 launch files verify. Provider tasks and original native owners have ended. Full write-through is L385; [final curator packet](results/gear3/G3-S10-READER-1/REPORT.md). All $31.75 reservations remain booked pending provider settlement. Local Stage 10 now runs in second gear under the separate September 14 instruction. No new paid work is queued.
 
-The finite cloud campaign is closed and awaits curator review. Local GPU work remains held in first gear. The transition-only watcher remains available for actual registered state changes; no routine liveness wake or further scientific job is scheduled.
+The finite cloud campaign is closed and awaits curator review. The local finite runway is fully prepared and running; its remaining branch admissions and final report run in dependency order. No routine liveness wake is scheduled. [Resumption and readiness receipt](results/phase_2_4_stage_10/GEAR2_RESUMPTION.json).
 
 ## Historical status snapshots (superseded)
 
