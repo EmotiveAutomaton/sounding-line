@@ -6,7 +6,7 @@
 
 **Found.** Structured assistance provides some useful predictive increments, especially with the right earlier evidence. It does not provide a general advantage over simple baselines. A training-frequency prior beats every tested model on both main CoAuthor views and in 27 of 30 ScholaWrite project/target/view cells. Execution helps on selected constructed tasks, but executing a legal proposed route is much easier than recovering the recorded artifact or historical process. The study has finished its finite local selection, including the scoped repair. Its original failed admission remains in the record.
 
-[Complete machine-readable comparisons](COMPARISONS.json), [worked prototype examples](PROTOTYPE_EXAMPLES.md), [closeout, costs and integrity](CLOSEOUT.json). Full method/history: FINDINGS L386–L388. These documents form the final local packet; they do not reopen Stage 9 or commission a follow-up.
+[Complete machine-readable comparisons](COMPARISONS.json), [worked prototype examples](PROTOTYPE_EXAMPLES.md), [closeout, costs and integrity](CLOSEOUT.json). Full method/history: FINDINGS L386–L389. The late control completion uses zero new model calls; original predictions and queue counts remain unchanged. These documents form the final local packet; they do not reopen Stage 9 or commission a follow-up.
 
 ## What was compared
 
@@ -18,15 +18,15 @@ Primary tables use **half multiclass Brier loss**, a probability error score fro
 
 ## Human handling of machine-written suggestions
 
-Each row below concerns 96 opportunities from 14 writers, joined into one crossed writer/prompt dependency component. The current-draft and prior-handling views reuse the same opportunities. Losses are equally weighted by writer. The last row concerns 94 earlier-draft opportunities; its inexpensive-prior control is absent, so that comparison does not establish superiority to a prior.
+Each row below concerns 96 opportunities from 14 writers, joined into one crossed writer/prompt dependency component. The current-draft and prior-handling views reuse the same opportunities. Losses are equally weighted by writer. The last row concerns 94 earlier-draft opportunities. Its originally omitted cheap controls were completed afterward using the original fixed methods and training cohort (L389); model scores are unchanged. This late control remains descriptive.
 
 | Evidence | Direct | Matched deliberation | Executed hypotheses | Example memory | Grounded procedures | Training prior |
 |---|---:|---:|---:|---:|---:|---:|
 | Current draft | 0.46108 | 0.44783 | 0.50543 | 0.35906 | 0.35273 | 0.30319 |
 | Prior handling record | 0.44836 | 0.44047 | 0.39084 | 0.36832 | 0.34528 | 0.30319 |
-| Earlier drafts | 0.49035 | 0.48905 | 0.46737 | 0.40175 | 0.50133 | Not included |
+| Earlier drafts | 0.49035 | 0.48905 | 0.46737 | 0.40175 | 0.50133 | 0.30627 |
 
-Grounded procedures improve over example memory on the two main views, but the training prior remains better. Execution improves over matched deliberation with process records and loses with current drafts. Earlier drafts do not give a general procedure-memory improvement.
+Grounded procedures improve over example memory on the two main views, but the training prior remains better. Execution improves over matched deliberation with process records and loses with current drafts. Earlier drafts do not give a general procedure-memory improvement. The completed earlier-draft training prior beats every model on Brier loss; the surface-feature control scores 0.39539 and always-ignore scores 0.97194. The prior assigns zero probability to three actual outcomes and therefore has infinite logarithmic loss. Its primary-score advantage does not imply dominance on every readout. [Complete control receipt](CONTROL_COMPLETION.json).
 
 On the same two main populations, Llama improves direct prediction relative to Qwen by 0.06040 and 0.05550 loss units. Its executed proposals lose to its own matched deliberation by 0.06396 and 0.11043. Its procedure memory slightly improves over its own examples but loses to Qwen procedure memory. A stronger direct package therefore need not produce a stronger incremental benefit from explicit reconstruction.
 
@@ -71,13 +71,13 @@ The [example bundle](PROTOTYPE_EXAMPLES.json) exposes actual alternative rules, 
 
 The prototype is the executable, retained reader pipeline under `runners/stage10/`, not a deployed general-purpose author profiler. Cheap domain frequency, retrieval and structured computation should remain selectable components. A plausible explanation earns no credit unless its consequence improves a properly controlled held-out target. Most human support here comes from simple edit/handling labels, sparse rule vocabularies and short histories. Calibration, proposal coverage and target alignment remain practical limitations.
 
-Recipient-effect recovery is unavailable from the selected public interface and human records. This local packet does not establish a dependency-damage or constraint-generalization intervention; no example or positive conclusion is invented. The earlier-draft prior is missing, extra optional corpora and fine tuning were not run, and no broad population or human-mechanism claim is licensed. These are dispositions and limits, not hidden unfinished queue jobs. The frozen local assembly's statement that Gear 3 was held is historical: the separate approved round is complete in L385.
+Recipient-effect recovery is unavailable from the selected public interface and human records. This local packet does not establish a dependency-damage or constraint-generalization intervention; no example or positive conclusion is invented. The earlier-draft prior omission is repaired in the late control supplement; extra optional corpora and fine tuning were not run, and no broad population or human-mechanism claim is licensed. These are dispositions and limits, not hidden unfinished queue jobs. The frozen local assembly's statement that Gear 3 was held is historical: the separate approved round is complete in L385.
 
 ## Execution, costs and integrity
 
 The first retained literal call is September 12 at 18:30 UTC, and the first scientific launch receipt is 19:02 UTC that day. The main queue completed September 14 at 22:20 UTC and the repair at 22:23 UTC. This finite selection therefore finished its computation within the approximately five-day soft target; no minimum week of GPU occupancy was required.
 
-The main queue has 46 completed jobs, one failed job and four blocked jobs. The repair queue has eight completed jobs. Every job record and all 96,338 files inventoried by these queues reconcile. This landing additionally replayed twenty newly completed jobs, their three complete comparison consumers, both development fits and both final-review ledgers. Earlier complete comparisons retain their prior full landings. No new inference or original-output writes were used. The first inspection helper encountered a Windows text-decoding error; the corrected UTF-8 helper resumed from checked outputs. Original evidence stayed unchanged.
+The main queue has 46 completed jobs, one failed job and four blocked jobs. The repair queue has eight completed jobs. Every job record and all 96,338 files inventoried by these queues reconcile. This landing additionally replayed twenty newly completed jobs, their three complete comparison consumers, both development fits and both final-review ledgers. Earlier complete comparisons retain their prior full landings. No new inference or original-output writes were used. The later L389 control producer and complete comparison add a 0.590-second shared CPU fit/prediction cost, recorded separately; they reproduce exactly and preserve every original model score. The first inspection helper encountered a Windows text-decoding error; the corrected UTF-8 helper resumed from checked outputs. Original evidence stayed unchanged.
 
 The whole local raw tree retains 22,477 native calls, including discarded pilots and scientific routes: 44,415,757 input tokens and 3,387,545 output tokens. Saved server durations sum to approximately 21.32 hours. This is callback service time, not measured GPU utilization, wall-clock occupancy or an invoice. The two follow-on queues record 13.04 hours in GPU-declared jobs and 16.10 minutes in CPU-declared work, separately from 25.49 hours of overlapping predecessor waits. They exclude earlier work and therefore must not be added to the whole-tree callback total. Bank-level costs reuse some controls and also cannot be summed indiscriminately. Agent setup time was not independently metered.
 

@@ -259,11 +259,39 @@ On the two reserved constructed Ghost cases, executed hypotheses have loss 0.125
 
 **Curator roll-up:** theory group: bounded reconstruction and evidence use | question: does explicit procedure modeling improve withheld choices beyond matched simpler readers? | **Narrows** | result: benefits vary across completed evidence views and often lose to cheap priors | project meaning: these packages show scoped assistance, not general maker-model recovery | next engineering obligation: finish the frozen independent branches, preserve failed admissions, and assemble the single complete stage packet | public claim: unchanged beyond the stated descriptive cells | curator decision required: No | detail: complete aggregate record above.
 
+### L389 - omitted earlier-draft controls completed without new model calls
+
+**Hypothesis.** The earlier-draft reader improves withheld human handling prediction beyond an inexpensive training-only baseline.
+
+**METHOD.** Applied the existing fixed CoAuthor class-prior, surface-feature logistic and always-ignore methods to the exact earlier-reader training cohort: 38 opportunities from five writers. The existing current-state projection exposes draft/menu features only. Predicted all 94 frozen evaluation opportunities before opening the complete comparison's outcomes; no evaluation answer selected a fit, recipe, cohort or threshold. Writers are disjoint across training/evaluation. Replayed the original complete analysis and augmented it separately, preserving all ten model strategies, invalids, source hashes, exclusions and central contrasts. The supplemental comparison is late and descriptive, with fourteen evaluation writers in one connected prompt component.
+
+**Found.** The omitted training-frequency baseline is stronger than every model strategy on the primary probability-error score. It assigns zero probability to three observed outcomes, so its logarithmic loss is infinite; this is not superiority on every score. The completion does not change any original model result or license a general maker-recovery claim.
+
+All rows below use the same 94 opportunities and equal writer weighting. Half multiclass Brier loss is a probability error score, lower is better; model-invalid forecasts retain loss one. The last column counts observed outcomes assigned exactly zero probability, making logarithmic loss infinite.
+
+| Reader | Brier loss | Zero-support outcomes |
+|---|---:|---:|
+| Training-frequency prior | 0.306266 | 3 |
+| Current-draft/menu surface features | 0.395392 | 0 |
+| Always ignore | 0.971939 | 91 |
+| Direct reader | 0.490354 | 1 |
+| Storage-matched examples | 0.401752 | 2 |
+| Grounded procedures plus examples | 0.501327 | 0 |
+| Opaque procedures plus examples | 0.393020 | 0 |
+
+The complete thirteen-arm table, paired finite-log denominators, calibration, accuracy and all attempted counts remain in [CONTROL_COMPLETION.json](results/phase_2_4_stage_10/CONTROL_COMPLETION.json) and the final comparison table. No new p-values or population confidence claim. Four focused known-answer/provenance tests pass; independent prior and Brier arithmetic agree; both new outputs reproduce exactly. The shared CPU fit/prediction cost is 0.590 seconds, charged once; verification is separate. No new neural calls or cloud costs. The first test invocation could not access its default temporary directory; explicit workspace scratch resolved this. A tuple-reversal fixture error was corrected before science.
+
+**Means.** This closes the readily repairable omitted baseline rather than treating its absence as a permanent source limitation. The final report/table/closeout, theory row/afterword, instrument record and task list are updated. The final result folder now has an index, stale current-state wording is marked historical, and the L388 cloud-report link resolves. Original scientific evidence, failed admission and all 59 finite-queue dispositions remain intact. Recipient effects lack an appropriate source interface; dependency-damage/constraint-generalization and optional corpus/training branches remain unperformed, with no positive result substituted. No mandatory runnable job remains in the selected queue, and no new research hypothesis was harvested.
+
+**Curator roll-up:** theory group: bounded reconstruction and evidence use | question: does earlier-draft assistance beat a plain training baseline? | **Narrows** | result: the completed cheap baseline beats every model on the primary probability-error score | project meaning: selected assistance still lacks a general advantage over domain competence | next engineering obligation: retain the completed control and unresolved target limits in any follow-up | public claim: unchanged descriptive scope, no general intent-recovery claim | curator decision required: No for this completion | detail: [final report](results/phase_2_4_stage_10/REPORT.md), [audit/control receipt](results/phase_2_4_stage_10/CONTROL_COMPLETION.json).
+
 ### L388 - final local Stage 10 packet: assistance is useful in selected cells, not generally better than simple priors
+
+**Subsequent control completion (L389):** the originally omitted earlier-draft cheap controls are now complete. Original reader scores and this landing remain historical; the final packet incorporates the supplement.
 
 **Hypothesis.** A compact model of a maker's procedures and goals, combined with remembered examples and executable checks, improves prediction of a withheld choice beyond direct reading and equally budgeted deliberation.
 
-**METHOD.** Compared the six prescribed reader strategies on frozen human revision/handling records and public constructed Ghost tasks. Retained literal requests, malformed answers, executable proposals, development-only fits and all costs. Replayed the complete local queues and comparison consumers without new inference. Human results are descriptive: these are exposed corpora, few source groups and dependent evidence views. The separately completed [Gear 3 Round 1 report](../gear3/G3-S10-READER-1/REPORT.md) remains its own experiment.
+**METHOD.** Compared the six prescribed reader strategies on frozen human revision/handling records and public constructed Ghost tasks. Retained literal requests, malformed answers, executable proposals, development-only fits and all costs. Replayed the complete local queues and comparison consumers without new inference. Human results are descriptive: these are exposed corpora, few source groups and dependent evidence views. The separately completed [Gear 3 Round 1 report](results/gear3/G3-S10-READER-1/REPORT.md) remains its own experiment.
 
 **Found.** Structured assistance provides some useful predictive increments, especially with the right earlier evidence. It does not provide a general advantage over simple baselines. A training-frequency prior beats every tested model on both main CoAuthor views and in 27 of 30 ScholaWrite project/target/view cells. Execution helps on selected constructed tasks, but executing a legal proposed route is much easier than recovering the recorded artifact or historical process. The study has finished its finite local selection, including the scoped repair. Its original failed admission remains in the record.
 
@@ -819,7 +847,7 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
-**Local Stage 10 scope (L386-L388).** All five ScholaWrite projects have complete comparisons over 87 evaluation boundaries; repeated views and overlapping training roles are not independent replications. CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. Earlier-draft analysis lacks the cheap-prior row. The small ArgRewrite current-draft forecasts have invalid probability sums, retained in the system score. The original reserved reconstruction pilot failed; its separate scoped interface repair and complete comparison are now retained in L388. The original pilot truncated a direct forecast; both finite queues are now closed. These are explicit limits, not permission to erase outcomes or claim untested generalization.
+**Local Stage 10 scope (L386-L388).** All five ScholaWrite projects have complete comparisons over 87 evaluation boundaries; repeated views and overlapping training roles are not independent replications. CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. The earlier-draft cheap-prior omission was completed separately in L389; original model scores are unchanged. The small ArgRewrite current-draft forecasts have invalid probability sums, retained in the system score. The original reserved reconstruction pilot failed; its separate scoped interface repair and complete comparison are now retained in L388. The original pilot truncated a direct forecast; both finite queues are now closed. These are explicit limits, not permission to erase outcomes or claim untested generalization.
 
 **Gear 3 Round 1 scope (L385).** Complete exposed human and constructed comparisons are available, but shared prompts/constructors/donors collapse the main contrasts to one component. Human task-specific rule voting is not a persistent maker model; naming changes representation access, not historical recovery. Billing remains unsettled. These limits constrain claims without voiding the descriptive scores.
 

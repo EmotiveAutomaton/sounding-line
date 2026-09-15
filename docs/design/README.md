@@ -7,23 +7,21 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-13)
+## Current orientation (2026-09-14)
 
-- **Stage 10 local runway:** [finite Gear 2 execution](STAGE10_LOCAL_RUNWAY.md), source rotations, local comparator, complete analyses and explicit limits. Gear 3 remains held.
+- **Stage 10 local runway complete:** the [frozen execution plan](STAGE10_LOCAL_RUNWAY.md) is retained in place for source-bound replay; its Gear 3 hold wording describes the September 13 starting state. [Final local packet](../../results/phase_2_4_stage_10/README.md), including the completed late cheap controls (L389). Separate Gear 3 Round 1 is complete (L385). No automatic queue extension is scheduled.
 
 - **Gear 3 Round 1:** [viability assessment](GEAR_3_ROUND_1_REVIEW.md), with the
   [supplied source archived](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
   on the curator's naming/filing request. Viable alongside Gear 2; cloud implementation
   and launch were unperformed in the assessment. The subsequent September 13
   instruction commissions careful implementation of this specific $50 campaign.
-  A discarded pilot and enforced reservations must precede scientific dispatch.
+  The approved pilot, supplement and finite scientific dispatch subsequently completed; [final cloud packet](../../results/gear3/G3-S10-READER-1/REPORT.md) records L385. Original assessment and source remain historical.
 - **APPLIED September 13:** [Stage 10 theory errata](archive/STAGE10_THEORY_ERRATA_2026-09-12.md).
   All six corrections are implemented; the original handoff is archived unchanged.
   Source recording dates remain unspecified; preparation and application dates are distinct.
 
-- **Active stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), explicitly commissioned
-  September 12. The supplied prototype study is adopted; local implementation and
-  discarded interface checks begin in Gear 2 with CPU cooling limits retained.
+- **Latest completed stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), commissioned September 12 and locally completed September 14. The context/specification remain the original design; current results and explicit unperformed-branch dispositions are in the final packet. No new phase has been commissioned.
 
 - **Stage 10 comparison plan:** [three frozen strategy comparisons](STAGE10_COMPARISON_FREEZE.md), recorded before evaluation answers are opened; remaining controls and branches stay in scope.
 

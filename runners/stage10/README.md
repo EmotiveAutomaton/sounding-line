@@ -1,5 +1,7 @@
 # Stage 10 reader prototype
 
+**Current status:** the finite local study is complete. [Final packet](../../results/phase_2_4_stage_10/README.md) is authoritative; dated/pending validation notes below describe implementation history. Original modules and source-bound results remain unchanged.
+
 The [current context](../../docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) adopts the
 curator's Stage 10 specification. Stage 9 modules and frozen results remain intact.
 
@@ -204,3 +206,5 @@ parsing and scoring. Complete native-chain constructed checks pass; a separate
 literal pilot must admit this exact source before development or evaluation.
 The finite repair queue waits for the current runway and retains original
 failures; no live worker source, saved attempt or failed admission is replaced.
+
+`earlier_baselines.py` completes the omitted earlier-draft class-prior, surface-feature and always-ignore controls under the original fixed baseline recipe. It uses the same frozen training cohort and projects only current-draft/menu features. Its producer never opens evaluation labels. A separate complete comparison reproduces and preserves all old reader cells, contrasts and costs, then adds the late descriptive controls. Shared CPU fit costs are charged once. `earlier_baseline_checks.py` exercises known answers, leakage/refusal boundaries and immutable reentry. No historical output is overwritten.

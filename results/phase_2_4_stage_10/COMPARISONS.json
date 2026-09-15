@@ -3828,11 +3828,11 @@
     },
     {
       "job": "earlier-comparison-v1",
-      "source_sha256": "71499d6dddc080cd3f05b04e4c024055554bd9208de39ad0c24efd3e54ea2d25",
+      "source_sha256": "7163f9c3f0ce394c21e09bab9ebc858247e49d1030b9036b5b9da1d4fdfa068a",
       "results": [
         {
           "population": "CoAuthor earlier drafts / coauthor-handling / earlier-artifacts",
-          "scope": "Historically exposed descriptive human handling; fixed writer/prompt separation. Model suggestions are not human-authored text.",
+          "scope": "Historically exposed descriptive human handling; fixed writer/prompt separation. Model suggestions are not human-authored text. Late cheap controls share one separately recorded CPU fit; old reader results, exclusions and central contrasts are unchanged.",
           "cells": {
             "R0": {
               "attempted": 94,
@@ -5085,9 +5085,738 @@
               },
               "valid": 93,
               "zero_true_support": 1
+            },
+            "baseline-always-ignore": {
+              "attempted": 94,
+              "brier_system": 0.9719387755102041,
+              "brier_valid": 0.9719387755102041,
+              "dependency_components": 1,
+              "dimensions": [
+                "coauthor-handling",
+                "earlier-artifacts",
+                "human selection and subsequent handling of model-authored suggestions",
+                "historically exposed corpus; descriptive prediction"
+              ],
+              "finite_log_observations": 3,
+              "generated_accuracy_system": 0.02806122448979592,
+              "generated_accuracy_valid": 0.02806122448979592,
+              "generated_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 0.02806122448979592,
+                    "confidence": 1.0,
+                    "index": 9,
+                    "observations": 94,
+                    "writer_or_case_mass": 0.9999999999999999
+                  }
+                ],
+                "expected_calibration_error": 0.971938775510204,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "groups": 14,
+              "invalid": 0,
+              "log_loss_finite": 0.0,
+              "log_loss_valid": "infinite",
+              "population": "CoAuthor earlier drafts / coauthor-handling / earlier-artifacts",
+              "probability_accuracy_valid": 0.02806122448979592,
+              "probability_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 0.02806122448979592,
+                    "confidence": 1.0,
+                    "index": 9,
+                    "observations": 94,
+                    "writer_or_case_mass": 0.9999999999999999
+                  }
+                ],
+                "expected_calibration_error": 0.971938775510204,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "valid": 94,
+              "zero_true_support": 91
+            },
+            "baseline-class-prior": {
+              "attempted": 94,
+              "brier_system": 0.306265589569161,
+              "brier_valid": 0.306265589569161,
+              "dependency_components": 1,
+              "dimensions": [
+                "coauthor-handling",
+                "earlier-artifacts",
+                "human selection and subsequent handling of model-authored suggestions",
+                "historically exposed corpus; descriptive prediction"
+              ],
+              "finite_log_observations": 91,
+              "generated_accuracy_system": 0.5718537414965986,
+              "generated_accuracy_valid": 0.5718537414965986,
+              "generated_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 0.5718537414965987,
+                    "confidence": 0.6000000000000003,
+                    "index": 6,
+                    "observations": 94,
+                    "writer_or_case_mass": 0.9999999999999999
+                  }
+                ],
+                "expected_calibration_error": 0.028146258503401574,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "groups": 14,
+              "invalid": 0,
+              "log_loss_finite": 1.0335685989676409,
+              "log_loss_valid": "infinite",
+              "population": "CoAuthor earlier drafts / coauthor-handling / earlier-artifacts",
+              "probability_accuracy_valid": 0.5718537414965986,
+              "probability_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 0.5718537414965987,
+                    "confidence": 0.6000000000000003,
+                    "index": 6,
+                    "observations": 94,
+                    "writer_or_case_mass": 0.9999999999999999
+                  }
+                ],
+                "expected_calibration_error": 0.028146258503401574,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "valid": 94,
+              "zero_true_support": 3
+            },
+            "baseline-surface-features": {
+              "attempted": 94,
+              "brier_system": 0.3953917347844768,
+              "brier_valid": 0.3953917347844768,
+              "dependency_components": 1,
+              "dimensions": [
+                "coauthor-handling",
+                "earlier-artifacts",
+                "human selection and subsequent handling of model-authored suggestions",
+                "historically exposed corpus; descriptive prediction"
+              ],
+              "finite_log_observations": 94,
+              "generated_accuracy_system": 0.549234693877551,
+              "generated_accuracy_valid": 0.549234693877551,
+              "generated_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 1.0,
+                    "confidence": 0.36132463307209073,
+                    "index": 3,
+                    "observations": 1,
+                    "writer_or_case_mass": 0.011904761904761904
+                  },
+                  {
+                    "accuracy": 0.58,
+                    "confidence": 0.47436954071993775,
+                    "index": 4,
+                    "observations": 7,
+                    "writer_or_case_mass": 0.06377551020408163
+                  },
+                  {
+                    "accuracy": 0.5435466946484785,
+                    "confidence": 0.5422579764029722,
+                    "index": 5,
+                    "observations": 8,
+                    "writer_or_case_mass": 0.08103741496598639
+                  },
+                  {
+                    "accuracy": 0.4545454545454546,
+                    "confidence": 0.6325769741439563,
+                    "index": 6,
+                    "observations": 2,
+                    "writer_or_case_mass": 0.026190476190476188
+                  },
+                  {
+                    "accuracy": 0.4324324324324324,
+                    "confidence": 0.7545124143050068,
+                    "index": 7,
+                    "observations": 11,
+                    "writer_or_case_mass": 0.11011904761904762
+                  },
+                  {
+                    "accuracy": 0.6951976478275074,
+                    "confidence": 0.8635732469791314,
+                    "index": 8,
+                    "observations": 19,
+                    "writer_or_case_mass": 0.2602891156462585
+                  },
+                  {
+                    "accuracy": 0.4831524842946887,
+                    "confidence": 0.9716040552408686,
+                    "index": 9,
+                    "observations": 46,
+                    "writer_or_case_mass": 0.44668367346938775
+                  }
+                ],
+                "expected_calibration_error": 0.31658389796451086,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "groups": 14,
+              "invalid": 0,
+              "log_loss_finite": 2.236923456288325,
+              "log_loss_valid": 2.236923456288325,
+              "population": "CoAuthor earlier drafts / coauthor-handling / earlier-artifacts",
+              "probability_accuracy_valid": 0.549234693877551,
+              "probability_calibration": {
+                "bins": [
+                  {
+                    "accuracy": 1.0,
+                    "confidence": 0.36132463307209073,
+                    "index": 3,
+                    "observations": 1,
+                    "writer_or_case_mass": 0.011904761904761904
+                  },
+                  {
+                    "accuracy": 0.58,
+                    "confidence": 0.47436954071993775,
+                    "index": 4,
+                    "observations": 7,
+                    "writer_or_case_mass": 0.06377551020408163
+                  },
+                  {
+                    "accuracy": 0.5435466946484785,
+                    "confidence": 0.5422579764029722,
+                    "index": 5,
+                    "observations": 8,
+                    "writer_or_case_mass": 0.08103741496598639
+                  },
+                  {
+                    "accuracy": 0.4545454545454546,
+                    "confidence": 0.6325769741439563,
+                    "index": 6,
+                    "observations": 2,
+                    "writer_or_case_mass": 0.026190476190476188
+                  },
+                  {
+                    "accuracy": 0.4324324324324324,
+                    "confidence": 0.7545124143050068,
+                    "index": 7,
+                    "observations": 11,
+                    "writer_or_case_mass": 0.11011904761904762
+                  },
+                  {
+                    "accuracy": 0.6951976478275074,
+                    "confidence": 0.8635732469791314,
+                    "index": 8,
+                    "observations": 19,
+                    "writer_or_case_mass": 0.2602891156462585
+                  },
+                  {
+                    "accuracy": 0.4831524842946887,
+                    "confidence": 0.9716040552408686,
+                    "index": 9,
+                    "observations": 46,
+                    "writer_or_case_mass": 0.44668367346938775
+                  }
+                ],
+                "expected_calibration_error": 0.31658389796451086,
+                "valid_groups": 14,
+                "valid_observations": 94
+              },
+              "valid": 94,
+              "zero_true_support": 0
             }
           },
           "paired": {
+            "R0 vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.4815843537414966
+                },
+                "components": 1,
+                "estimate": 0.4815843537414966,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -1.1525892443835166
+                },
+                "components": 1,
+                "estimate": -1.1525892443835166,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.14370748299319727
+                },
+                "components": 1,
+                "estimate": 0.14370748299319727,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 1
+            },
+            "R0 vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.1840888321995465
+                },
+                "components": 1,
+                "estimate": -0.1840888321995465,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.7183700274297956
+                },
+                "components": 1,
+                "estimate": -0.7183700274297956,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 90
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.40008503401360546
+                },
+                "components": 1,
+                "estimate": -0.40008503401360546,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 1
+            },
+            "R0 vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.0949626869842307
+                },
+                "components": 1,
+                "estimate": -0.0949626869842307,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.4974045125798404
+                },
+                "components": 1,
+                "estimate": 0.4974045125798404,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 93
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.37746598639455786
+                },
+                "components": 1,
+                "estimate": -0.37746598639455786,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 1
+            },
+            "R1 vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.5325582057823129
+                },
+                "components": 1,
+                "estimate": 0.5325582057823129,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -3.532211577698691
+                },
+                "components": 1,
+                "estimate": -3.532211577698691,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.2870748299319728
+                },
+                "components": 1,
+                "estimate": 0.2870748299319728,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R1 vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.13311498015873016
+                },
+                "components": 1,
+                "estimate": -0.13311498015873016,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.5474414940753062
+                },
+                "components": 1,
+                "estimate": -0.5474414940753062,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 89
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.25671768707482995
+                },
+                "components": 1,
+                "estimate": -0.25671768707482995,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R1 vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.043988834943414365
+                },
+                "components": 1,
+                "estimate": -0.043988834943414365,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.5835719048321264
+                },
+                "components": 1,
+                "estimate": 0.5835719048321264,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 92
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.2340986394557823
+                },
+                "components": 1,
+                "estimate": -0.2340986394557823,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R1-memory vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.5701872023809524
+                },
+                "components": 1,
+                "estimate": 0.5701872023809524,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -1.8012259607352874
+                },
+                "components": 1,
+                "estimate": -1.8012259607352874,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.3681122448979592
+                },
+                "components": 1,
+                "estimate": 0.3681122448979592,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R1-memory vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.09548598356009072
+                },
+                "components": 1,
+                "estimate": -0.09548598356009072,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.4340147209792339
+                },
+                "components": 1,
+                "estimate": -0.4340147209792339,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 89
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.17568027210884354
+                },
+                "components": 1,
+                "estimate": -0.17568027210884354,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R1-memory vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.006359838344774916
+                },
+                "components": 1,
+                "estimate": -0.006359838344774916,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.7767297426265308
+                },
+                "components": 1,
+                "estimate": 0.7767297426265308,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 92
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.15306122448979592
+                },
+                "components": 1,
+                "estimate": -0.15306122448979592,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 2
+            },
+            "R2 vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.48288409863945575
+                },
+                "components": 1,
+                "estimate": 0.48288409863945575,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -1.1525892443835166
+                },
+                "components": 1,
+                "estimate": -1.1525892443835166,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.16156462585034012
+                },
+                "components": 1,
+                "estimate": 0.16156462585034012,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
+            },
+            "R2 vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.18278908730158733
+                },
+                "components": 1,
+                "estimate": -0.18278908730158733,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.6703363009523741
+                },
+                "components": 1,
+                "estimate": -0.6703363009523741,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 89
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.3822278911564626
+                },
+                "components": 1,
+                "estimate": -0.3822278911564626,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
+            },
+            "R2 vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.0936629420862715
+                },
+                "components": 1,
+                "estimate": -0.0936629420862715,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.5369906822567562
+                },
+                "components": 1,
+                "estimate": 0.5369906822567562,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 92
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.359608843537415
+                },
+                "components": 1,
+                "estimate": -0.359608843537415,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
+            },
             "R3 vs R2": {
               "attempted_pairs": 94,
               "brier": {
@@ -5121,6 +5850,129 @@
                 },
                 "components": 1,
                 "estimate": 0.12627551020408162,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R3 vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.5045714285714286
+                },
+                "components": 1,
+                "estimate": 0.5045714285714286,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -2.2633240811085846
+                },
+                "components": 1,
+                "estimate": -2.2633240811085846,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.28784013605442177
+                },
+                "components": 1,
+                "estimate": 0.28784013605442177,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R3 vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.16110175736961452
+                },
+                "components": 1,
+                "estimate": -0.16110175736961452,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.817830666691337
+                },
+                "components": 1,
+                "estimate": -0.817830666691337,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 91
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.255952380952381
+                },
+                "components": 1,
+                "estimate": -0.255952380952381,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R3 vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.07197561215429871
+                },
+                "components": 1,
+                "estimate": -0.07197561215429871,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.38844975695978284
+                },
+                "components": 1,
+                "estimate": 0.38844975695978284,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.23333333333333334
+                },
+                "components": 1,
+                "estimate": -0.23333333333333334,
                 "groups": 14,
                 "leave_one_component_out_range": null,
                 "method": "descriptive; no population confidence claim",
@@ -5252,6 +6104,252 @@
               "treated_invalid": 0,
               "treated_zero_support": 0
             },
+            "R4-grounded vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.4706122448979592
+                },
+                "components": 1,
+                "estimate": 0.4706122448979592,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -2.9957322735539917
+                },
+                "components": 1,
+                "estimate": -2.9957322735539917,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.31462585034013607
+                },
+                "components": 1,
+                "estimate": 0.31462585034013607,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R4-grounded vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.19506094104308389
+                },
+                "components": 1,
+                "estimate": -0.19506094104308389,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.8586340302090341
+                },
+                "components": 1,
+                "estimate": -0.8586340302090341,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 91
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.22916666666666669
+                },
+                "components": 1,
+                "estimate": -0.22916666666666669,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R4-grounded vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.10593479582776809
+                },
+                "components": 1,
+                "estimate": -0.10593479582776809,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.3142613729362392
+                },
+                "components": 1,
+                "estimate": 0.3142613729362392,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.20654761904761904
+                },
+                "components": 1,
+                "estimate": -0.20654761904761904,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R4-opaque vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.5789183673469388
+                },
+                "components": 1,
+                "estimate": 0.5789183673469388,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -2.9957322735539917
+                },
+                "components": 1,
+                "estimate": -2.9957322735539917,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.3066326530612245
+                },
+                "components": 1,
+                "estimate": 0.3066326530612245,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R4-opaque vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.08675481859410429
+                },
+                "components": 1,
+                "estimate": -0.08675481859410429,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.4288133308068027
+                },
+                "components": 1,
+                "estimate": -0.4288133308068027,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 91
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.23715986394557823
+                },
+                "components": 1,
+                "estimate": -0.23715986394557823,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R4-opaque vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.002371326621211498
+                },
+                "components": 1,
+                "estimate": 0.002371326621211498,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.7448932825001032
+                },
+                "components": 1,
+                "estimate": 0.7448932825001032,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.2145408163265306
+                },
+                "components": 1,
+                "estimate": -0.2145408163265306,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
             "R5-benefit-cost vs R5-confidence-only": {
               "attempted_pairs": 94,
               "brier": {
@@ -5334,6 +6432,129 @@
               "treated_invalid": 0,
               "treated_zero_support": 0
             },
+            "R5-benefit-cost vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.49399987244897964
+                },
+                "components": 1,
+                "estimate": 0.49399987244897964,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -1.056695220232923
+                },
+                "components": 1,
+                "estimate": -1.056695220232923,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.13477891156462585
+                },
+                "components": 1,
+                "estimate": 0.13477891156462585,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R5-benefit-cost vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.17167331349206352
+                },
+                "components": 1,
+                "estimate": -0.17167331349206352,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.716018563140168
+                },
+                "components": 1,
+                "estimate": -0.716018563140168,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 91
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.40901360544217685
+                },
+                "components": 1,
+                "estimate": -0.40901360544217685,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
+            "R5-benefit-cost vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.0825471682767477
+                },
+                "components": 1,
+                "estimate": -0.0825471682767477,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.510048810980906
+                },
+                "components": 1,
+                "estimate": 0.510048810980906,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.38639455782312926
+                },
+                "components": 1,
+                "estimate": -0.38639455782312926,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 0,
+              "treated_zero_support": 0
+            },
             "R5-confidence-only vs R5-fixed": {
               "attempted_pairs": 94,
               "brier": {
@@ -5374,6 +6595,252 @@
               },
               "treated_invalid": 1,
               "treated_zero_support": 0
+            },
+            "R5-confidence-only vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.48922625000000003
+                },
+                "components": 1,
+                "estimate": 0.48922625000000003,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -3.3011625175120423
+                },
+                "components": 1,
+                "estimate": -3.3011625175120423,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.23707482993197276
+                },
+                "components": 1,
+                "estimate": 0.23707482993197276,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 0
+            },
+            "R5-confidence-only vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.17644693594104308
+                },
+                "components": 1,
+                "estimate": -0.17644693594104308,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.7323278428626043
+                },
+                "components": 1,
+                "estimate": -0.7323278428626043,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 90
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.30671768707482994
+                },
+                "components": 1,
+                "estimate": -0.30671768707482994,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 0
+            },
+            "R5-confidence-only vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.08732079072572728
+                },
+                "components": 1,
+                "estimate": -0.08732079072572728,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.4508832044975311
+                },
+                "components": 1,
+                "estimate": 0.4508832044975311,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 93
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.28409863945578234
+                },
+                "components": 1,
+                "estimate": -0.28409863945578234,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 0
+            },
+            "R5-fixed vs baseline-always-ignore": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": 0.48782714285714285
+                },
+                "components": 1,
+                "estimate": 0.48782714285714285,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 91,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -3.3011625175120423
+                },
+                "components": 1,
+                "estimate": -3.3011625175120423,
+                "groups": 3,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 3
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": 0.23707482993197276
+                },
+                "components": 1,
+                "estimate": 0.23707482993197276,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
+            },
+            "R5-fixed vs baseline-class-prior": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.17784604308390023
+                },
+                "components": 1,
+                "estimate": -0.17784604308390023,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 3,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": -0.7354736810461696
+                },
+                "components": 1,
+                "estimate": -0.7354736810461696,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 89
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.30671768707482994
+                },
+                "components": 1,
+                "estimate": -0.30671768707482994,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
+            },
+            "R5-fixed vs baseline-surface-features": {
+              "attempted_pairs": 94,
+              "brier": {
+                "component_contrasts": {
+                  "1": -0.08871989786858443
+                },
+                "components": 1,
+                "estimate": -0.08871989786858443,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "comparator_invalid": 0,
+              "comparator_zero_support": 0,
+              "direction": "positive favors treated; comparator loss minus treated loss",
+              "finite_log": {
+                "component_contrasts": {
+                  "1": 0.4011992685702835
+                },
+                "components": 1,
+                "estimate": 0.4011992685702835,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 92
+              },
+              "generated_accuracy": {
+                "component_contrasts": {
+                  "1": -0.28409863945578234
+                },
+                "components": 1,
+                "estimate": -0.28409863945578234,
+                "groups": 14,
+                "leave_one_component_out_range": null,
+                "method": "descriptive; no population confidence claim",
+                "observations": 94
+              },
+              "treated_invalid": 1,
+              "treated_zero_support": 1
             }
           },
           "costs": {
@@ -5446,11 +6913,34 @@
               "model_calls": 188,
               "output_tokens": 20785,
               "wall_seconds": 567.9198545007966
+            },
+            "baseline-always-ignore": {
+              "executor_evaluations": 0,
+              "input_tokens": 0,
+              "model_calls": 0,
+              "output_tokens": 0,
+              "wall_seconds": 0
+            },
+            "baseline-class-prior": {
+              "executor_evaluations": 0,
+              "input_tokens": 0,
+              "model_calls": 0,
+              "output_tokens": 0,
+              "wall_seconds": 0
+            },
+            "baseline-surface-features": {
+              "executor_evaluations": 0,
+              "input_tokens": 0,
+              "model_calls": 0,
+              "output_tokens": 0,
+              "wall_seconds": 0
             }
           },
           "exclusion_count": 0
         }
-      ]
+      ],
+      "original_source_sha256": "71499d6dddc080cd3f05b04e4c024055554bd9208de39ad0c24efd3e54ea2d25",
+      "supplement_job": "earlier-controlled-comparison-v1"
     },
     {
       "job": "second-local-comparison-v1",
@@ -52522,5 +54012,11 @@
     "scope": "Repeated proposals/refinements across three evaluation views; not distinct makers. Legality, visible reconstruction, future prediction and historical identity remain separate."
   },
   "uncertainty": "Per-cell grouped estimates and leave-one-component-out ranges retained. One connected CoAuthor component; five ScholaWrite projects with overlapping training roles; two ArgRewrite essays and very few constructed cases. No new p-values or confirmatory claims. Repeated views are not additional participants.",
-  "cost_scope": "Bank costs include reused controls and must not be summed across overlapping banks. Whole-stage saved-call accounting and queue waits are separated in CLOSEOUT.json."
+  "cost_scope": "Bank costs include reused controls and must not be summed across overlapping banks. Whole-stage saved-call accounting and queue waits are separated in CLOSEOUT.json.",
+  "supplement": {
+    "finding": "L389",
+    "receipt": "CONTROL_COMPLETION.json",
+    "old_model_scores_unchanged": true,
+    "new_model_calls": 0
+  }
 }

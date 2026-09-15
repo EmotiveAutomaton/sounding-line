@@ -29,6 +29,8 @@ archive, kept whole, mined but never deleted.
 
 ## Stage 10 commissioned - 2026-09-12
 
+- [x] L389: complete omitted earlier-draft cheap controls, verify original scores and raw evidence remain intact, and reconcile final filing/status records. Four focused checks and immutable real-data replay pass; no neural calls. No remaining dispatch in the finite selection.
+
 - [x] OPS-S10-GEAR1: park scheduling controllers and lower CPU use without interrupting the active evaluation; completed evidence and source pins verify.
 - [x] OPS-S10-GEAR1: fully land the completed evaluation, immutable replay, native exit and GPU-lock release; keep both schedulers parked.
 - [x] OPS-S10-GEAR1: retain results through the owner hold; explicit Gear 2 resumption authorized September 14.
