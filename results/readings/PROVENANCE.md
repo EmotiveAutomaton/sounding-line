@@ -18,6 +18,22 @@ with the reason.
 
 ---
 
+## Contribution study and theory application - 2026-09-18
+
+The supplied errata quotes two prior walkthroughs whose recording dates are unspecified.
+Filed September 18; excerpt wording is preserved without lexical repairs. No older quotation
+is retired. All six focused amendments are applied, with one new OPEN human hypothesis.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S11.RUN | Implement Stage 11, start Gear 2, finish setup, apply errata and file the supplied documents (current audio instruction). | Isolated retrospective runner, both frozen tranches, exact replay, six-case semantic audit and final packet; supplied documents filed after application. | FINDINGS OPS-S11-I1 / L390; docs/design/PHASE_2_4_STAGE_11_CONTEXT.md | built and tested |
+| S11.E1 | Human decisions embodied in this work include expertise compressed from earlier decisions (walkthrough B). | Present judgment distinguished from duration and interchangeable event counts. | docs/theory/DECISION_TRACES.md section 1 | written |
+| S11.E2 | Forwarding, selecting, reviewing and endorsing can differ (walkthrough B, analyst paraphrase). | Review-attribution distinction and observational-equivalence limit; private anecdote omitted. | docs/theory/DECISION_TRACES.md section 1 | written |
+| S11.E3 | Understanding intended experience and what to take from a maker matters beyond later prediction (walkthrough A). | Intended use distinguished from validation target and reader-enactable route. | docs/theory/THE_TRIPLE_INFERENCE.md section 2 | written |
+| S11.E4 | Context may introduce an omitted possibility rather than only reweight it (walkthrough A). | Candidate-set expansion distinguished from reweighting and persuasive framing. | docs/theory/READER_HEURISTICS.md section 4 | written |
+| S11.E5 | Attention may support taking a method while declining an aim; explicitly tentative (walkthrough B). | HH-SELECTIVE-ATTENTION remains OPEN with missing joint human measurements named. | docs/theory/READER_HEURISTICS.md section 4 | written |
+| S11.E6 | Time is a correlate of decisions, not the whole contribution (walkthrough B). | Unsupported analyst absolutes removed; HH-17 and HH-18 blockers clarified, existing findings retained. | docs/theory/READER_HEURISTICS.md section 8 | written |
+
 ## Theory application and Gear 3 commission - 2026-09-13
 
 The supplied handoff was prepared September 12; its original recording dates are

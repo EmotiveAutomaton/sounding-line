@@ -93,6 +93,34 @@ punctuation events remain separately visible; a later editor can reclaim control
 rebuilding the upstream structure. No human/model contribution ratio may be computed by counting
 recovered events as exchangeable units.
 
+**What makes the human contribution worth investigating.**
+
+> I want to know, the thing I most want to know about learning AI was involved in a work is how
+> much effort was put, how many decisions a human made that were put into that specific work.
+> That 100% is what gives it its value and what will cause me to start staring at it carefully
+> to try to reverse engineer.
+
+> Most of the decisions you make or see in an artist's creation are layered previous decisions
+> that were baked in through automaticity and then compressed into expertise.
+
+> I do agree. I care about exercise of judgment because that's how decisions get put in.
+
+*Curator's contribution and selective-attention walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-18. Separate contiguous excerpts, wording preserved.*
+
+The curator's criterion for his own engagement is human decision structure embodied in this
+work, including the maker's accumulated expertise as it shapes present choices. Current
+elapsed time is one clue, not that structure's definition. A brief expert selection may carry
+substantial judgment; a long session may contain little consequential revision. A model's
+unexpected proposal can become the starting point for human recognition, development and
+integration. Originating the idea and exercising judgment remain different contributions.
+
+Delegation may bypass portions of the human's practiced choice structure while preserving
+other portions through selection and reconstruction. How much depends on the actual event
+network and dependencies, not just the number of tool calls or the depth of a delegation chain.
+An exponential loss law has not been established. The curator's valuation supplies a reason
+to investigate these choices, not a validated measure of total mental work or universal worth.
+
 **Event density and causal reach are orthogonal.** Implementation often contains many more
 separately recordable choices and may therefore leave more recoverable traces. A primary-goal,
 framing, or attention-setting event may be rare while changing the feasible set for a large
@@ -114,9 +142,25 @@ events do not by themselves identify control.
 
 *2026-09-04 walkthrough; lightly cleaned transcript.*
 
-The record result of Stage 7 is therefore a program result about ground truth, and the artifact
-claim stands as a claim that is power-bound: several artifacts by one maker and a stronger reader
-than any admitted so far.
+The record result of Stage 7 is a program result about ground truth. More artifacts and a
+stronger reader are proposed ways to improve artifact inference, not a demonstration that
+its only limitation is statistical power. Distinct histories can remain observationally
+equivalent even for a capable reader. The quotation motivates a stronger attempt; it does
+not override the equivalence-class limit stated below.
+
+**Selection does not establish the scope of review.** Analyst clarification of the curator's
+contribution and sharing walkthrough, filed 2026-09-18: generation, selection, attentive review, understanding,
+endorsement, revision and forwarding are distinct contributions. Some may be recorded actions;
+others require evidence beyond a click or an unchanged insertion. Acceptance leaves open both
+examined ratification and unnoticed retention. Editing does not establish that everything else
+was understood.
+
+The sharing example proposes a specific attribution error: the recipient reads choices inside
+a forwarded work as evidence about the sender, although the sender did not inspect those
+choices. A forwarding act may still express an intention to connect. The repair is to infer
+which decisions that participant actually made, and the scope of what was reviewed, rather than
+attribute the entire work to them or erase their contribution altogether. This is an open
+interpretation of the reported experience, not a measured population effect.
 
 Mixed production is therefore represented as a directed event graph. An event may
 propose, select, ratify, veto, integrate, repair, reject, or accept another event; the

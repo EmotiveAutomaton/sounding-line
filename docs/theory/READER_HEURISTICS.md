@@ -463,11 +463,23 @@ hypothesis fails, per §3.
 > The low-quality-paint inference was a shifting of possibilities – the generations of your
 > generative model being weighted differently – not an immediate inductive set of steps.
 
-Context does not license a story in one step. It changes the relative probability of
-maker and process hypotheses, which should then change predictions about other evidence.
-A useful context cue improves held-out recovery; a misleading cue should cause a
-measurable, directionally coherent error; if neither occurs, the cue merely inspired a
-narrative. The tool-conditioned form of the same rule lives in §6.
+> It's possible that the relevant possibilities were already present but weakly weighted.
+> Context might be something I totally missed though.
+
+*Curator's six-question maker-model and context walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-18. Contiguous excerpt, wording preserved.*
+
+Context does not license a story in one step. It can reweight considered maker/process
+hypotheses, or cause a bounded reader to represent a possibility it had omitted. These are
+different computational events even if a more comprehensive model describes both as updating.
+No particular activation function or neural threshold is established by the introspection.
+
+A useful cue should change independently assessable expectations about other evidence; a
+false cue should not acquire authority merely because it organizes many details. One constraint
+can explain several choices, but those choices are then partly dependent observations rather
+than separate confirmations of the same story. A changed felt experience can be worth
+understanding without proving the inferred biography or private intention. The tool-conditioned
+form of the rule lives in §6, and target-specific correction remains open in HH-23 and HH-25.
 
 The flower example adds a candidate reason some context cues reorganize many details:
 a condition believed to persist through much of production may affect several choices
@@ -485,6 +497,31 @@ not a fixed serial architecture. Context-first and joint processing remain live 
 order that lets a false assertion overwrite strong artifact evidence is a trust failure rather
 than successful differentiation. Attention allocation, epistemic weight, process uptake, belief
 uptake, and value change remain separate outcomes.
+
+**Attention may implement part of selective trust.**
+
+> I wonder if attention is how, like control of your attention is what trust becomes, for example.
+
+> By looking I mean directing attention. How interesting. Maybe. This is a maybe.
+
+> And obviously I'm trying to acquire the method while declining the aim. That's clearly a thing.
+
+*Curator's contribution and selective-attention walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-18. Separate contiguous excerpts, wording preserved.*
+
+The proposed mechanism is selective investigation: attend to how a technique works while
+limiting uptake of the source's aims or arguments. The curator includes precision adjustments
+in this broader control of attention. Separating observable selection from later weighting
+therefore need not imply two independent human systems, and the conjecture does not restore
+the previously withdrawn identity between proximal goal and attention.
+
+Protection is expected to be imperfect. Understanding a method may require some of its
+argument or hidden dependencies; expertise might expose those dependencies without providing
+immunity. A source's decision structure includes which evidence it sought, retained and
+presented. Truthful individual examples can therefore coexist with misleading selection.
+Measure continued engagement, process learning, belief uptake and value change separately;
+blanket refusal is not successful selective learning. Neither epistemic disgust nor
+consciousness has been identified with an attention mechanism by the present evidence.
 
 **And apparent errors should eventually revise the reader's model of the maker**:
 
@@ -537,6 +574,7 @@ the reason to expect modest effects.
 | **G167** | Declared context reweights the reader's maker-model distribution, where a false context must not steer equally | **PROJECTION where evidence is absent (test, L155); MIXED at 0.44 where evidence is strong (test, L157); the wing is PAUSED.** With nothing readable to resist it, a false card steers 95 percent as hard as a true one and erases the reader's abstention. Against evidence the reader provably reads at 0.86, a false note still costs forty-two points, wins the toss-up at 0.53, and the conflict is named only 0.15 of the time even when the format offers the option; a true note lifts the reader to 0.99, so any supplied note is treated as high-grade evidence regardless of truth. Context-trust is a separate defect from evidence-reading in this family |
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
+| **HH-SELECTIVE-ATTENTION** | Directed attention, potentially including precision control, supports useful process learning while limiting unwanted uptake from the same source | **OPEN.** Curator conjecture; the human test requires joint measures of attended content, process learning, belief uptake and value change that the current program does not provide. Constructed procedural interference is an analogue, not those missing measurements |
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
@@ -566,10 +604,11 @@ available value (R03-S5, R04-S5).
 The confidence-series instrument exists. Its pooled tracking of exact information does
 not clear the declared band, and the larger reader is particularly overconfident on this
 construction (R05-S5, L329). The additional value of the whole trajectory over its endpoint
-remains untested (HH-9). Context persistence, differentiation order, and process uptake
-before value appraisal remain human hypotheses; no model result licenses their internal
-psychological interpretation. Confidence: one bad test away for these scoped model
-measurements; untested, logic only for the human mechanisms and the endpoint comparison.
+remains untested (HH-9). Context persistence, differentiation order, process uptake
+before value appraisal, and selective uptake through attention remain human hypotheses
+(HH-SELECTIVE-ATTENTION). No model result licenses their internal psychological
+interpretation. Confidence: one bad test away for these scoped model measurements;
+untested, logic only for the human mechanisms and the endpoint comparison.
 
 ## §5. Continuation and stopping
 
@@ -841,12 +880,25 @@ persuasive human-shaped rationale. The effort heuristic belongs to the same fami
 > **It's also the piece that's misfiring on AI specifically. Previously it correlated with effort very
 > highly. Now it does not. That's what's breaking.**
 
-On his account the effort heuristic is a normally-valid inference a new artifact class has broken,
-never a reader bias, and both rows testing it are blocked on measuring *effort*, the quantity
-automaticity makes unobservable by construction. The aesthetics note is now split into three open
-hypotheses at his direction: whether attraction success is actually judgeable by the reader from
-their own response, whether readers historically used polish as an effort cue, and whether
-generated objects break that relationship (HH-22, HH-17, and HH-18 below).
+> time, which is really just a correlate for the number of decisions that were made in a complex space
+
+*Curator's contribution and selective-attention walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-18. Contiguous excerpt, wording preserved.*
+
+The curator's account treats apparent effort as a clue to human decision structure worth
+investigating, including past decisions compressed into present expertise. It proposes that
+familiar polish cues can become misleading when production changes. This is a claim about an
+inference's calibration under different conditions, not proof that the cue was always valid
+or could never be biased. Automaticity makes present duration a poor measure of all the
+structure brought to the work; it does not make every aspect of effort unobservable by
+construction. Logged time, revision, selection and training history measure different things,
+none a complete count of mental decisions.
+
+The three existing hypotheses remain separate: judging attraction from one's own response,
+using polish as a cue, and a changed relationship between polish and the contribution worth
+investigating (HH-22, HH-17, HH-18). The contribution account is specified in
+`DECISION_TRACES.md` §1. The proposed contextual calibration and any proxy for embodied decision
+structure remain unvalidated.
 
 | # | hypothesis | status |
 |---|---|---|
@@ -863,51 +915,32 @@ generated objects break that relationship (HH-22, HH-17, and HH-18 below).
 | **HH-19** | Attention capture and comprehensibility are separable shaping motivations | **OPEN, the load-bearing test.** Measurement side in `DECISION_TRACES.md` §2. Transmissibility and useful learning are separate, unmeasured outcomes; neither is established by comprehension alone |
 | **HH-20** | Makers model the reader's inference and shape the artifact for it | **OPEN.** An artifact as process *plus the maker's model of you* |
 | **HH-21** | Generated text lacks the collaborative half; recast as recoverability, whether a coherent model of the creator's understanding can be recovered without the creator's comprehension-support efforts | **OPEN.** The third account of the unease, and the three predict different things |
-| **HH-17** | Readers historically used polish as an effort cue; the correlation is strong in human corpora, near zero in generated | **OPEN.** Blocked on an effort proxy |
-| **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN.** Follows from HH-17; the reframe is the contribution |
+| **HH-17** | Readers historically used polish as an effort cue; the correlation is strong in human corpora, near zero in generated | **OPEN.** The predicted relation is unmeasured. A defensible proxy must distinguish current labor from decision structure carried by expertise; elapsed time alone does not do so |
+| **HH-18** | The effort heuristic is a broken valid inference, not a reader bias | **OPEN.** The curator's causal reframe; calibration must be assessed in the relevant production conditions. Neither universal prior validity nor immunity to reader bias follows from HH-17 |
 | **HH-22** | Attraction success is judgeable by the reader from their own response | **OPEN.** The self-referring goal read as an instrument; split out of the aesthetics note 2026-08-10 |
 
-**What the table says.** Audience modeling, comprehension support, and attraction remain open
-mechanisms. Easy transmission, useful learning, truthful guidance, and recovery of the maker can
-come apart. A cooperative interpretation can speed reconstruction while increasing vulnerability
-to misleading selection. Neither clarity nor polish identifies the maker's values. The bard
-refinement is the most theory-dense unmeasured material in the file, carrying its own
-incompleteness caveat and two candidate variables of interest whose relationship is deliberately
-uncommitted. The section also holds the project's declared center of gravity, that readers must
-model the generating model to learn from an artifact, a load-bearing assumption still owed direct
-evidence. Comprehension support stands unbound from aesthetics as its own goal, the generated-text
-asymmetry is recast as a recoverability question, and the effort note is split into three
-separable opens sharing one blocker, a defensible proxy for effort. The communicative assumption
-itself is the one prior whose failure mode, confident inference from structure placed to mislead,
-is worse than not holding it. The comprehension-support row has its first number: a worked action
-mapping makes a lesson's rule as learnable when false as when true and as learnable from a source
-steering the recipient as from one helping it, while what the recipient does with its own lot
-follows the source's advice regardless (T01-S4); support is scaffolding for descent, and descent
-is not the same act as trust. The number survived its own repair: the first attempt's worlds
-came from a pool four deep and its interval was too narrow, and the re-run on 128 distinct
-constructions landed in the same band with the honest one, held at 256, and was confirmed on
-the untouched reserve at the same size. The two cards
-that asked whether uptake can be made selective both came back empty in this family:
-reconstructing the source's selection rule loses to reading directly, because the readers
-cannot infer the rule from the source's record though they can use it when told (T02-S4),
-and a lesson in misleading techniques raises no discrimination and lowers acceptance of
-everything, true advice most (T03-S4). So the bard's audience model has its first model-side
-shape: transmission can be made easy, learning can be made to happen, and neither the
-source's goal nor the source's technique is read back, so the cooperative interpretation is
-all cost and no defense here. On a notice register the same reader family reads none of the
-source's factors, predicts none of its behavior, answers surface-identical twins with the same
-confidence, and follows or refuses at one rate whatever the source's history (A02-S5, A05-S5);
-what does move is its threshold: a label, an influence warning, or a reappraisal prompt each
-lower what it accepts, true advice first, with discrimination flat (A04-S5), the criterion shift
-the technique lesson showed, now under three interventions on a second construction. Confidence: the comprehension-support row is one bad test away and confirmed
-on its reserve, two readers of one family, one construction family, one construction repair
-behind it; the two selective-uptake nulls are one bad test away as a pair, the same readers and family;
-the source-world cards (A02-S5 to A05-S5) are one reader on one construction that the reader
-cannot read at its floor, so their nulls bind that reader and the criterion-shift finding is
-now two constructions deep and, with the second contract, two reader families and two versions
-of the source text deep;
-transmissibility against useful learning is measured once, logic beyond it; the rest untested,
-logic only.
+**What the table says.** Audience modeling, comprehension support and attraction remain open
+mechanisms. Easy transmission, useful learning, truthful guidance and recovery of the maker
+can come apart. Neither clarity nor polish identifies values. The curator's polish account
+concerns a potentially changed cue to embodied human decision structure; its calibration and
+a defensible proxy remain unmeasured (HH-17, HH-18, HH-22).
+
+In the tested constructed source/recipient family, worked action mappings improve transmission
+of true and false rules alike, including under conflicting source aims. That scoped benefit
+survived repair and untouched reserve confirmation (T01-S4). Reconstructing the selection rule
+loses to direct reading, and teaching misleading techniques changes acceptance without improving
+discrimination, costing useful true uptake (T02-S4, T03-S4). Descent into a method is therefore
+not evidence of successful selective trust. This pattern keeps the curator's attention proposal
+worth investigating while leaving its human mechanism open.
+
+The source-world readers also fail important factor-reading and identical-evidence checks;
+source history does not change uptake in the tested construction. Labels, warnings and
+reappraisal chiefly move the acceptance threshold while discrimination stays flat (A02-S5 to
+A05-S5). These results constrain the tested interfaces, not every possible protective strategy.
+The hypothesis that directing attention can preserve useful method while declining an aim is
+owned by §4 (HH-SELECTIVE-ATTENTION). Confidence: one bad test away for the scoped model-reader
+transmission and uptake findings; untested, logic only for the human mechanisms and the
+historical polish/contribution relationship.
 
 # Part III: Calibration
 

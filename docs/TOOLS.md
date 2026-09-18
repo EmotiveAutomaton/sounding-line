@@ -10,6 +10,28 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ---
 
+## Stage 11 retrospective contribution instrument
+
+OPS-S11-I1: a separate terminal projection preserves the reviewed CoAuthor handling
+semantics and old prospective guards. Twenty targeted tests, exact synthetic
+CLI packet replay, viewer DOM state checks and eight discarded local interface calls pass.
+Browser visual QA remains unperformed because no browser is connected. The finite comparison is complete (L390); no consistent account benefit is established.
+All 204 responses reparse without new calls, 54 source hashes verify, an independent
+UTF-16 byte replayer matches 290 document boundaries, and independent arithmetic
+matches all 64 aggregate score fields. A separate semantic audit covers the 49
+proposed operations in six cases from six writers; its reviewed viewer preserves
+the original forecasts and renderer. Actual completion delivery is observed in the
+operating conversation, with transport database state distinguished from that receipt. Human text, raw responses and the local
+viewer remain in ignored `results/phase_2_4_stage_11/raw/`. No event-count share,
+inferred review or automatic endorsement is produced. Native-source agreement is
+source consistency, not independent final-document validation.
+
+OPS-S11-REPAIR1: the final validity pass reproduced an unlocated-hypothesis
+filtering defect in the viewer. A versioned presentation wrapper preserves those
+claims after passage selection and labels unlocated references explicitly. All
+184 case/view/passage visibility assertions pass; original forecasts, scores and
+HTML remain intact. Browser visual QA remains unperformed.
+
 ## The one-line version
 
 | tool | what it gives us | status |
@@ -380,6 +402,46 @@ must be checked independently of code licenses or text-sample license hints.
 *Table: the human-input corpora as manifests (hashes, URLs, lengths, license hints in corpora/manifests/stage8_testbed.json; text in the gitignored store; bulk data never re-hosted); no analysis of these corpora ran this stage beyond the loader fixtures and the counts.*
 
 <!-- STAGE8_TESTBED_CATALOG_END -->
+
+### Stage 11 bounded local resource check (2026-09-18)
+
+This read-only check resolves the previous catalog against current local checkouts.
+Revisions below were read from Git with per-command directory trust, without changing
+checkouts or global Git configuration. A directory name is cache presence, not a claim
+that weights or data are complete. Code licenses do not confer dataset rights.
+The bounded follow-up for each entry is to inspect the named entry point and its
+requirements; no external program or paid reader was launched.
+
+| Checkout | Pinned revision | Root license | Entry point | Local cache directories | Bounded next check |
+|---|---|---|---|---|---|
+| acting-as-inverse-inverse-planning | 5b31902bde406493b835c5b6af683d1e3c3baf62 | Unresolved; no root license | README.md | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| AutoToM | 3f569b7ab1d0ee2702ab43ebdc724679d5fc5231 | Apache 2.0 | playground.ipynb | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| BPL | 2c7f679bb0055f29cbade7ef099897c3342bcb79 | MIT | demo_fit.m, fit_motorprograms.m | data | Inspect README.md; do not infer runnable status |
+| CLIPS.jl | 6536a2a86d6b4837481a00e630a2e302c90a5278 | Unresolved; no root license | README.md | assets | Inspect README.md; do not infer runnable status |
+| gpudrive-CoDec | 0cc3cb5b592acbb863ae5517625f6cd064b9d3f7 | Unresolved; no root license | No materialized entry | None at root; completeness unverified | Inspect checkout materialization; do not infer runnable status |
+| Hypothetical-Minds | e1788c051608099f4b89c63d19de889a3706e36b | MIT | main.py, run_scenarios.py | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| inverse_painting | 3a27592d5eab6fa46f7a434ae93df0db32b2d6fd | Unresolved; no root license | No materialized entry | None at root; completeness unverified | Inspect checkout materialization; do not infer runnable status |
+| InversePlanning.jl | 9d4697b7505f960a3bdcb5cc3d8b70acd4cad2fe | Apache 2.0 | README.md | assets | Inspect README.md; do not infer runnable status |
+| iterater | 41adc0818356f78b362a9382a3732e0529f3fe35 | Apache 2.0 | IteraTeR_demo.ipynb | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| LaBToM.jl | b0cb100138370f1675a42a767881aeb07046ddd9 | Unresolved; no root license | README.md | assets | Inspect README.md; do not infer runnable status |
+| MMToM-QA | 9db1ffd8f460736f8d9f4de5ff5339a52893edfe | Apache 2.0 | README.md | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| muma-tom | a62569aff7c99c60f37b037537a26fac5125b49c | Apache 2.0 | README.md | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| newsedits | 34ebd0f1f52412daa77ef6bc6250aca08c57ddb6 | Unresolved; no root license | README.md | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| thought-tracing | 966eb2712714aa29b4d5d2395e39af94a2be90d7 | MIT | hypothesis.py, tracer.py | data | Inspect README.md; do not infer runnable status |
+| timecraft | 52443694c94178fffe7fa6f9659f45902085a2a1 | Unresolved; no root license | make_timelapse.py | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+| verbalized-sampling | d042a7bd72659a6fb8d2e8e0cd6c0333d42d69ba | Apache 2.0 | setup.py | assets, data | Inspect README.md; do not infer runnable status |
+| world-model-evaluation | ba363f05b59fe63f30ff79a3dfbe6609101383f8 | MIT | compression_test.py, detour_analysis.py | None at root; completeness unverified | Inspect README.md; do not infer runnable status |
+
+CoAuthor raw logs and the reviewed private Stage 9 preparation are locally available;
+Stage 11 reconstructed 54 eligible sessions and preserved the source identities and
+inherited exclusions. The installed Qwen 3.5 9B digest matches the admitted configuration.
+The historical July 31 synthesis and August 1 action register were not located in the
+bounded project-index search, so no old note was adopted in place of current theory.
+Local manuscript and personal research archives are available as private capabilities;
+contents and personal archive paths are not published here. They were not ingested.
+This inventory does not commission bulk downloads, alternate weight conversions or
+additional studies. Browser visual QA is unavailable in this session because the
+computer-use provider reports no connected browsers or apps.
 
 ### Stage 9 preparation instruments (2026-09-06, OPS-S9-PREP-1)
 

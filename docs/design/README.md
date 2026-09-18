@@ -7,7 +7,10 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-14)
+## Current orientation (2026-09-18)
+
+- **Stage 11 is complete (L390):** [retrospective contribution commission](PHASE_2_4_STAGE_11_CONTEXT.md), filed unchanged from the supplied September 18 specification. Explicit Gear 2 instruction supersedes its default gear only; finite sample, call, GPU and deadline limits remain. [Runner contract](../../runners/stage11/README.md).
+- **APPLIED September 18:** [contribution, context and selective-attention errata](archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-18.md). All ten exact operations across six amendments passed isolated-copy checks and theory lint. Prior quotations and empirical rows are unchanged. The loose parent copy was deleted after byte-identical archival, as requested.
 
 - **Stage 10 local runway complete:** the [frozen execution plan](STAGE10_LOCAL_RUNWAY.md) is retained in place for source-bound replay; its Gear 3 hold wording describes the September 13 starting state. [Final local packet](../../results/phase_2_4_stage_10/README.md), including the completed late cheap controls (L389). Separate Gear 3 Round 1 is complete (L385). No automatic queue extension is scheduled.
 
@@ -21,7 +24,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
   All six corrections are implemented; the original handoff is archived unchanged.
   Source recording dates remain unspecified; preparation and application dates are distinct.
 
-- **Latest completed stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), commissioned September 12 and locally completed September 14. The context/specification remain the original design; current results and explicit unperformed-branch dispositions are in the final packet. No new phase has been commissioned.
+- **Previous completed stage:** [Stage 10](PHASE_2_4_STAGE_10_CONTEXT.md), commissioned September 12 and locally completed September 14. The context/specification remain the original design; current results and explicit unperformed-branch dispositions are in the final packet. Stage 11 is the separately completed finite commission above; its [final packet](../../results/phase_2_4_stage_11/FINAL_REPORT.md) preserves both tranches and all failures.
 
 - **Stage 10 comparison plan:** [three frozen strategy comparisons](STAGE10_COMPARISON_FREEZE.md), recorded before evaluation answers are opened; remaining controls and branches stay in scope.
 

@@ -5,6 +5,19 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
+## Stage 11 complete - 2026-09-18
+
+- [x] OPS-S11-REPAIR1: final validity audit, reproduce and repair unlocated viewer filtering, pass all case/view/passage regression checks, retain original evidence and receipts; no new scientific calls.
+
+- [x] OPS-S11-I1: complete theory orientation, retrospective source replay, frozen cohorts, inexpensive fits, known-answer tests and literal discarded interface pilot.
+- [x] L390 / S11: execute eight development episodes, then the frozen 24-episode initial and 17-episode extension matched tranches within the original limits. Gear 2 authorized; no cloud or unrelated queue expansion.
+- [x] L390 / S11: reparse raw responses, reproduce writer-balanced complete-tranche scores, audit six examples across four writers and verify the private local viewer script; browser visual QA remains unperformed because no surface is connected.
+- [x] S11: finish bounded resource index, apply supplied theory errata, delete the applied loose source and file the Stage 11 specification. Historical July 31/August 1 notes were not located in the bounded project search; no older theory was substituted.
+- [x] OPS-S11-I1: complete six further cap/control/packet tests and literal synthetic final-packet replay; verify viewer DOM state and all 21 repository locks. Browser visual QA remains unavailable in this session.
+- [x] L390 / S11: land the final comparison and curator packet by the unchanged reporting deadline. No tests harvested beyond this explicit commission.
+
+Science and internal write-through are complete; no automatic refill. L390 visual browser QA remains a disclosed verification limitation, not a new research commission. No tests harvested from the operational wake.
+
 ## Repository integrity and Gear 3 Round 1 review - 2026-09-13
 
 - [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).

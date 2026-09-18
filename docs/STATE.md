@@ -1,5 +1,41 @@
 # STATE: the agent's operational file
 
+## Stage 11 complete - 2026-09-18
+
+The finite Gear 2 commission is complete (L390). Both frozen evaluation tranches,
+24 initial and 17 extension episodes from fourteen writers in total, completed.
+The contribution account has no consistent handling advantage over direct reading;
+the training prior leads every model and feature baseline on probability error.
+No further scientific job is queued under this commission. The native worker exited
+and released its GPU lock. Stage 10 and Gear 3 Round 1 remain closed.
+
+All 204 attempts are preserved: 164 evaluation, 32 development and eight pilot.
+Four evaluation and five development forecasts have invalid probability sums;
+there were no transport retries. Charged GPU service is 0.440201 hours, within the
+original four-hour/256-call limits. CPU boost-off/90-percent maximum is unchanged.
+The original September 18 14:28:38 UTC start and September 20 14:28:38 UTC report
+deadline remain the accounting basis; no clock or scientific source was reset.
+
+Twenty targeted tests pass. All raw responses reparse without new calls, all 54
+source hashes match, independent replay matches 290 document boundaries and
+independent score arithmetic matches 64 fields. Six cases from six writers have
+49 proposed operations audited against source events. The reviewed local viewer
+passes script/reveal checks; visual browser QA is unperformed because no browser
+surface is connected. No deleted/unlocated insertion was available in its frozen
+example pool. The actual terminal wake reached this operating conversation; queue
+acceptance and receipt are separately recorded in the landing.
+
+All six supplied theory amendments are applied; original quotations and prior
+empirical rows are preserved. The errata was archived and its loose source deleted;
+the Stage 11 specification was filed unchanged. The resource index covers seventeen
+local checkouts. The requested July 31/August 1 historical notes were not found in
+the bounded project-index search and were not substituted for current theory.
+
+Final packet: [results/phase_2_4_stage_11/FINAL_REPORT.md](../results/phase_2_4_stage_11/FINAL_REPORT.md).
+Private reviewed viewer: `results/phase_2_4_stage_11/raw/contribution-map-reviewed-v2.html`.
+Raw material and the original computational packet remain intact. No tests were
+harvested from the operational wake; no new scope, cloud spend or delegation follows.
+
 Current watcher transport uses the verified native queue API after five CLI failures left the completed history batch idle overnight. Native acceptance/deduplication, loaded watcher sources and actual post-final delivery of the completed earlier-draft bank verify. Earlier successful deliveries remain historical evidence.
 
 

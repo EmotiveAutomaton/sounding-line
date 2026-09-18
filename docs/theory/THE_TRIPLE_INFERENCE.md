@@ -206,6 +206,39 @@ may stop at a coherent route they could use while the instrument must keep that 
 separate from the process the maker actually used. Sounding Line reports the three
 separately rather than deciding in advance that one substitutes for the others.
 
+**Understanding the work is the intended use; later prediction is one discriminator.**
+
+> We're kind of both in there. And to an extent, that's kind of fine.
+
+> Because the technique I acquire is one that's for me.
+
+> The bigger piece is that I can more easily understand the intended experience. Much more easily.
+
+> There's something here about higher order goals being more visible over time because they
+> capture more lower level decisions.
+
+*Curator's six-question maker-model and context walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-18. Separate contiguous excerpts, wording preserved.*
+
+The curator prioritizes understanding how the work was made, its intended experience, and what
+is worth investigating or taking from this maker. Inferring tools, AI involvement, context and
+human contribution is the immediate instrument ambition. Prediction of an unfamiliar response
+remains a useful validity check; it is not the sole benefit the reader is meant to provide.
+A useful method learned through self-projection and an accurate estimate of the maker are
+separate achievements. A tiny gain in the reader's craft need not be the main value of the
+maker model; it may instead reorganize interpretation and the reader's willingness to update.
+
+A higher-order goal may explain many lower-level choices and connect previously separate
+clues. Explanatory reach is not specificity: a broad aim may fit many makers, and its repeated
+manifestations may share one cause. Expertise can constrain purposeful behavior while also
+expanding the repertoire; it does not make experts universally more predictable than novices.
+
+Historical correction also changes the evidence for a proposed technique. If its only
+warrant was that it supposedly produced this artifact, discovering a different actual route
+removes that warrant. A reconstruction independently made to work retains its demonstrated
+usefulness. The historical route is evidence of feasibility under the maker's conditions,
+not proof that it is best for the reader's body, tools or purpose.
+
 **Why goal remains a separate inference** *(the 2026-08-31 pass; provenance in
 `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
 
@@ -447,6 +480,7 @@ method. Each informs a part of this file; none is the claim.
 | **EQ-S7** | The reader preserves observationally equivalent maker models and chooses a useful next discriminator | **NARROWED (test, L346), 60 worlds, descriptive.** Abstention does not track the prefix's ambiguity: the joint arm withholds on 59 percent of the equivalence cases and on 73 percent of the singletons, within noise of each other, and SmolLM2's abstention is failure to propose on 36 worlds of 60; the discriminator measure is 1.0 against the reader's own greedy choice by construction and is an instrument gap for the next stage; the joint arm's confidence is anti-informative (P10, L346): expected calibration error 0.51, its most confident tenth the worst at any coverage, calibration worse the more evidence the prefix carries; the equivalence attack X14 fires on the same figures (false abstention 0.73 against its ceiling of 0.5), so the run's own criterion records that the readers do not preserve the class |
 | **RV-S7** | The joint reader revises mutually constraining factor hypotheses as the prefix grows, and the revision changes what it predicts | **NARROWED (test, L347), 30 worlds.** A sequential particle arm that re-weighs, resamples, and re-proposes candidate states at prefix checkpoints predicts what the one-shot joint posterior predicts (+0.02 [−0.16, +0.21] nats; Qwen within four hundredths), because the readers propose one candidate set on 48 worlds of 60 and nothing ever collapses or is re-proposed; revision is testable only for a reader with candidate breadth, which neither has at this scale |
 | **AC-S7** | At matched evidence and measured compute, structured computation (a realizer over proposed maker states) beats direct inference-time computation | **NARROWED (test, L348), 40 cold worlds, seven arms.** Every structured arm beats the direct reader (the joint arm +1.5 nats [+0.4, +2.5] pooled; the five conformance-reproduced rivals +1.4 to +2.1), and none beats the domain model: the direct reader is 2.1 nats under the prior, the arms that realize on every world sit at it or a nat under it, and the arms that rarely realize fall back to it; no arm's gain per unit of compute exceeds five hundredths of a nat; the two conformance cells of the day before say the same (L355, L356): the adaptive expansion adds factors at one rate whether a variable is missing or not and costs 0.22 nats against the joint reader where the world is complete, and the synthesized agent model validates on 28 of 30 worlds for one reader, beats the direct reader by 2.86 [1.50, 4.31] and sits 0.72 under the domain model, the effect the freeze selected for confirmation; B02 confirms it on untouched lineages against the direct reader (+3.59 [+2.34, +4.78] on Qwen, pooled +2.19) and finds it counterevidence against the domain model there (pooled −0.32 [−0.54, −0.06]), so the run's second confirmed effect reads: synthesis beats free text and not the prior; direct-reader contrasts are limited by the inherited option readout and unmatched operative information (OPS-ERRATA-2); program-versus-domain results retain their separate scope. Separate cloud comparison (test, L385; human CoAuthor process records and constructed Ghost opportunity tasks, Qwen 3.5 9B/27B model readers with exact executors): the larger package improves direct prediction but its incremental reconstruction benefit is smaller on both main populations. Human grounded procedures help relative to opaque descriptions but do not beat stored examples on the primary score; no persistent maker-model or human-mechanism claim follows.  Initial local Stage 10 complete cells (test, L386; human CoAuthor/ScholaWrite records and constructed Ghost opportunities, local Qwen reader and exact executors) show evidence-specific structured benefits but no general advantage over cheap priors or stored examples. That initial landing covered one ScholaWrite project and two Ghost cases. Further complete local comparisons (test, L387; human CoAuthor/ScholaWrite/ArgRewrite records, local Qwen and Llama model readers with exact executors) retain source-specific benefits: Llama improves direct handling prediction but its executed proposals lose to matched deliberation, and simple priors beat every model on eleven of twelve additional project/view cells. The small ArgRewrite current-draft forecasts have invalid probability sums. Final local Stage 10 closure (test, L388; human revision/handling records and constructed Ghost tasks, local model readers and exact executors) completes all five ScholaWrite projects and the separate reconstruction repair: the training prior beats every model in 27 of 30 project/target/view cells, while legal candidate execution often fails visible-artifact reconstruction. Selected predictive increments and relevant-history effects remain descriptive assistance; general maker-model recovery is not established. The late omitted-control completion (test, L389; human earlier-draft CoAuthor records, local model readers versus fixed training-only controls) leaves original reader scores intact and finds the training prior better than every model on Brier loss, while its zero-support outcomes retain infinite log loss. |
+| **S11-CONTRIBUTION** | A bounded role-labelled contribution account improves retrospective suggestion-handling recovery over direct reading and cheap controls on the same evidence | **OPEN generally; no consistent observed advantage in this scoped test (test, L390; historical human CoAuthor process records, pinned local Qwen reader and exact scorer).** Across two separately scored tranches and two evidence views, account-minus-direct loss improves twice and worsens twice; the training prior beats every model and feature baseline throughout. The six-case log audit finds unsupported review and actor/dependency claims even beside correct handling guesses. This does not test the general event-network theory or establish intended experience, expertise, values or selective attention. |
 | **TT-S7** | The maker's record supports a dated present focus plus an uncertain historical mixture (two timescales), and the dates and order of earlier episodes inform a later choice beyond an aggregate profile | **NARROWED (test, L354; V04 to V06, programs only).** A mixture over dated episodes and a forced point date predict the present episode alike (−0.01 [−0.09, +0.07]); the dated, ordered, and aggregate views of earlier episodes predict a later episode alike (valid nulls); for a later costly choice the dated trajectory beats the domain model (+0.42 [+0.05, +0.84]) and the law-less solver (+0.48) because it carries the law, and beats the aggregate by five hundredths under the floor: the record's two timescales are not separated at this construction's drift, and its history informs through the law alone |
 | **J05-S5** | The standing preference inferred from one episode predicts the maker's choice in a second episode under a stated new goal, beyond habit, topic, and last-goal baselines | **COUNTEREVIDENCE (test, L280), 256 worlds.** −0.73 nats [−0.93, −0.55] against the topic baseline; the reader half a nat under uniform; the preference recovered in a third of worlds; the exact ceiling a quarter of a nat above uniform. Second contract (L293, two readers, the ceiling raised to 0.68 above uniform): −0.26 against the topic prior, both readers under uniform |
 | **C-ROL-S9** | Which action, outcome, reset and artifact assistance changes sustained execution? | **OPEN for full-generation competence; scoped assistance effects measured (test, constructed worlds, archived Qwen and SmolLM models with exact evaluator, L378/L381/L384; C02/C06/C08 diagnostics).** On the same 192 worlds, Qwen reaches sixteen actions only with offered actions (102); SmolLM reaches them with named actions and stepwise checked outcomes (190 in either outcome condition, versus 117 offered). Resets help Qwen at eight actions but reduce SmolLM reach with unavailable states retained. Artifact views fail before four actions throughout. These are package-specific interactive capabilities, not policy quality, correct stopping or whole-log generation; separate scoped integrity is complete, with no full-generation admission |
@@ -485,13 +519,16 @@ records, while task-specific action mixtures do not establish a persistent maker
 to cheap priors or stored examples. The full project rotations and reconstruction repair
 retain that limitation, including the completed earlier-draft baseline; the empirical prior
 can lead on probability error while failing on zero-support logarithmic loss (L386-L389). This dependence persists across local packages and projects,
-with invalid forecasts retained as interface failures. These are bounded assistance effects,
-not a test of human empathy. Predicted edits, declared
+with invalid forecasts retained as interface failures. In retrospective suggestion handling,
+organizing a bounded contribution account provides no consistent advantage over direct
+reading, and the training prior leads both model methods. Correct handling guesses can
+coexist with unsupported actor and review stories; each richer historical relation still
+needs its own evidence (L390). These are bounded assistance effects, not a test of human empathy. Predicted edits, declared
 recipient effects, and historical recovery are separate achievements. These component
 results keep the question open without establishing the full reconstruction or identifying
 a surface-only explanation of its failures.
 Confidence: one bad test away for the scoped Stage 5 and Stage 8 observations and the
-completed Stage 9, Gear 3 and scoped local Stage 10 package diagnostics; untested,
+completed Stage 9, Gear 3 and scoped local Stage 10 and Stage 11 package diagnostics; untested,
 logic only for the proposed expertise and accumulation mechanisms; instrument-dead for
 the clean Stage 7 state-use isolation, the Stage 6 architecture interpretation, and
 the Stage 8 semantic-intervention interpretation.
