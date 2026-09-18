@@ -30,7 +30,10 @@ is complete and internally landed as L397. The [original account intervention](S
 is fully landed as L398; its uncontrolled account-specific attribution is void.
 The [valid-account control repair](S1_ACCOUNT_USE_REPAIR.json) is complete and
 internally landed as L399, with all 348 independent score/transition checks passing.
-The same Gear 2 coordinator now runs the selected human-evidence comparison.
+The [human-evidence comparison](S2_EVIDENCE.json) is complete and internally landed
+as L400, with exact observation reconstruction and 264 independent checks.
+The same Gear 2 coordinator now runs initial breadth review, then account breadth
+and the constructed context comparison.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
 reconciled; [recovery launch](RECOVERY_LAUNCH.json) verifies the new native owner.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.

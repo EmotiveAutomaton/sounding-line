@@ -9,6 +9,69 @@ ran it.
 
 ---
 
+### L400 - fixed before-text evidence helps more reliably than the learned query policy
+
+**Hypothesis.** One additional source observation improves production recovery and selective correction, and a reader-chosen observation improves it more than a fixed or hash-selected observation at the same retrieval count.
+
+**METHOD.** Complete four evidence conditions for sixteen deterministically selected CoAuthor episodes from fourteen writers and fourteen sessions, eleven creative and five argumentative, with three connected dependency components. The common baseline contains the endpoint only. Fixed retrieval supplies the preceding document; hash selection chooses among that document, all displayed alternatives and the first subsequent text-delta event with its recorded source/operations. A separate direct query call sees only the endpoint and menu descriptions, chooses one observation, and shares that exact observation across the reviewed-direct and account-first methods. Each method gets two calls at each evidence level with the unchanged compact target, model, options and token ceilings. These are fresh forecast chains at each tier; the revealed chain does not receive its earlier blind forecast. Reproduce the source roster, all observation contents and exclusions, the frozen plan and training fit; replay all 272 calls and independently check score and transition arithmetic. No source/context exclusions occur.
+
+**Found.** Fixed before-text retrieval improves account-first probability loss for actor, operation and relation, and improves reviewed-direct operation and relation loss while worsening actor loss. It adds useful events for both methods, but no correctly located useful event. The learned query policy worsens all three production losses for both methods relative to their blind baselines and fails to beat fixed retrieval. It chooses alternatives on fifteen episodes and before text on one; hash selection chooses before text on nine, alternatives on five and the insertion event on two. Query choice alone is not evidence that the observation was useful or of human attention.
+
+All rows cover the same sixteen episodes. Half multiclass Brier loss is lower when better, averaging six slots within episode, episodes within writer, then writers equally. Useful yield requires a present event with correct actor, operation and relation; span-correct yield also requires its exact anchors and span state. Invalid final-call counts remain scored and charged. Review means direct prediction followed by its same-tier review; account means account construction followed by its same-tier prediction. The alignment implementation equals the marginal here and is shown once, not as an independent second success.
+
+| Evidence / method | Actor loss | Operation loss | Relation loss | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---:|---:|---:|---:|---:|---:|
+| blind / review | 0.425079 | 0.466200 | 0.390238 | 0.392857 | 0.000000 | 0 |
+| blind / account | 0.529841 | 0.568581 | 0.516599 | 0.142857 | 0.000000 | 2 |
+| fixed / review | 0.455397 | 0.425635 | 0.349286 | 0.464286 | 0.000000 | 0 |
+| fixed / account | 0.422143 | 0.413671 | 0.401633 | 0.571429 | 0.000000 | 1 |
+| random / review | 0.490913 | 0.476895 | 0.441539 | 0.464286 | 0.071429 | 1 |
+| random / account | 0.459603 | 0.518251 | 0.509813 | 0.678571 | 0.000000 | 3 |
+| chosen / review | 0.547103 | 0.624306 | 0.573478 | 0.428571 | 0.000000 | 2 |
+| chosen / account | 0.634762 | 0.595444 | 0.587500 | 0.321429 | 0.000000 | 5 |
+| All conditions / frozen marginal | 0.176502 | 0.178199 | 0.156285 | 2.142857 | 0.000000 | 0 |
+
+**Correction and retrieval value.** Each nonblind condition provides one observation per episode, so its writer-balanced per-episode useful-yield change is also the gain per retrieval. The next table compares each complete condition with its own blind baseline. A triple is a fixed actor/operation/relation slot combination, including absence. Corrected triples repair a wrong baseline combination; preserved correct and new wrong divide the originally correct triples. These are paired outcome differences between fresh chains, not observations of a reader revising an earlier stored belief.
+
+| Retrieval / method | Corrected triples | Preserved correct | New wrong triples | Useful gain per retrieval | Unsupported-claim change |
+|---|---:|---:|---:|---:|---:|
+| fixed / review | 0.821429 | 2.107143 | 0.535714 | 0.071429 | 0.142857 |
+| fixed / account | 1.142857 | 1.500000 | 0.714286 | 0.428571 | 0.035714 |
+| random / review | 0.750000 | 1.678571 | 0.964286 | 0.071429 | -0.071429 |
+| random / account | 0.892857 | 1.428571 | 0.785714 | 0.535714 | -0.178571 |
+| chosen / review | 0.642857 | 1.142857 | 1.500000 | 0.035714 | -0.428571 |
+| chosen / account | 0.392857 | 1.500000 | 0.714286 | 0.178571 | -0.107143 |
+
+Fixed-before retrieval lowers account operation loss by 0.154911 per retrieval and reviewed-direct operation loss by 0.040565. It corrects more triples than it breaks for both methods, but also increases unsupported mental-state claims. Hash retrieval gives the largest useful-event yield for account-first, yet its probability loss is worse than fixed retrieval in every production dimension. Only reviewed-direct hash retrieval supplies any span-correct useful yield. The learned query policy breaks more initially correct triples than it repairs for both methods. Its small positive useful-yield changes do not outweigh these separate failures by definition; no composite score is invented.
+
+Handling losses for review/account are 0.607619/0.684405 blind, 0.429048/0.420952 fixed, 0.424286/0.530595 hash-selected, and 0.451429/0.590952 reader-chosen. Thus all added-evidence conditions improve handling loss over blind while production effects differ. At half operation coverage, review errors are 0.486905, 0.440476, 0.434615 and 0.655311, and account errors 0.619231, 0.451190, 0.423077 and 0.412121 in that order. The number of represented writers varies: review fourteen/fourteen/thirteen/thirteen, account thirteen/fourteen/thirteen/eleven. These conditional risks do not establish a fixed-writer superiority claim. Full coverage curves, raw risks, separate accuracies, span measures and anonymous group distributions are retained. All model production and handling log losses remain infinite; the training marginal has finite support and handling loss 0.299456.
+
+**Realization and control limits.** Only twenty of the 64 first-pass accounts are valid and nonempty: six blind, seven fixed, five hash-selected and two reader-chosen. The remaining 44 pass an explicit invalid marker downstream. No graph-use claim follows from the pipeline differences. All 56 valid first-pass direct forecasts remain unchanged on review; five of eight invalid first forecasts recover, leaving three invalid final reviews. Final account forecasts contain eleven invalids. Across all calls there are 66 invalid responses, all preserved. Duplicate/omitted slots, span-state mismatches and invalid account event order/identity account for these failures.
+
+There are 56 groups of identical complete requests, covering 112 calls; their parsed forecasts and raw message contents agree exactly. These incidental policy overlaps are retained, not treated as independent repetitions or a predeclared unchanged-input arm. Prior runtime variation remains documented (L398-L399). All 64 method/evidence pairs receive identical public evidence. The selector never receives observation contents or private target fields before choosing.
+
+The frozen alignment rival reads top-level before/alternatives fields, not the added observation field; consequently it returns the unchanged training marginal in every condition. That marginal beats both model methods on every production loss, but this is not a comparison with an observation-aware cheap reader. Its large useful yield is unlocated. Do not report that all inexpensive ways of exploiting the observation have been exhausted. The tested acquisition policy is one shared direct selector, not a method-specific or optimal policy. Historically exposed discovery records, common writers and repeated policy inputs do not provide fresh confirmation, population significance or an internal-mechanism conclusion.
+
+**Costs.** The table retains complete arm costs. The shared selector is charged once and shown separately; its extra calls mean reader-chosen acquisition is not compute-matched to fixed retrieval. Every policy uses sixteen case-level retrieval decisions, shared across the two methods. The original analyzer's 96 retrieval count denotes method-specific exposures; there are 48 case/policy decisions across the three retrieval conditions, not 96 independent acquisitions. Local retrieval CPU time is not separately measured.
+
+| Evidence / method | Calls | Charged seconds | Input tokens | Output tokens |
+|---|---:|---:|---:|---:|
+| blind / account | 32 | 428.980731 | 43914 | 24069 |
+| blind / review | 32 | 441.579377 | 48838 | 24956 |
+| chosen / account | 32 | 394.806873 | 44815 | 21672 |
+| chosen / review | 32 | 438.912603 | 50275 | 24787 |
+| fixed / account | 32 | 371.619742 | 50658 | 19937 |
+| fixed / review | 32 | 445.728944 | 55708 | 25154 |
+| random / account | 32 | 396.876052 | 48403 | 21643 |
+| random / review | 32 | 441.342829 | 53407 | 25014 |
+| shared-query | 16 | 77.361995 | 9126 | 207 |
+
+All 144 task blocks close without uncertainty. Total charged service is 3,437.209145 seconds, request time 3,433.479973 seconds, server duration 3,429.361033 seconds, with 405,144 input and 187,439 output tokens. The shared query contributes sixteen valid calls and 77.361995 charged seconds. All 192 independently calculated score fields and 72 transition fields match. Original source/request/response and plan bindings remain intact; semantic replay issues no new calls.
+
+**Means and disposition.** Prefer an explicit before-text reveal over this learned selector as the provisional first reveal for the current prototype, with the original forecast preserved for inspection. This engineering choice follows a complete exposed comparison; it is neither an optimal observation rule nor a new confirmed claim. Retain cheap priors as the production-loss reference and keep useful/span-supported claims separate from category and handling gains. Continue the already frozen initial breadth comparisons and constructed true/irrelevant/misleading-context stress set; the same native Gear 2 coordinator now runs initial breadth review. No new query policy or observation-aware cheap model is fitted to these outcomes. No tests harvested from the wake. Human illustrations and the single Sunday packet remain pending; unfinished breadth and constructed comparisons stay unranked.
+
+**Curator roll-up:** theory group: evidence-conditioned historical recovery | question: does one additional observation improve recovery, and does the reader choose it well? | **Narrows** | result: fixed before-text retrieval improves several recovery targets while the learned selector worsens production probability losses | project meaning: explicit evidence helps this pipeline selectively, without making query choice, graph use or historical fidelity interchangeable | next engineering obligation: preserve before-text as the provisional first reveal and finish breadth/context stress comparisons | public claim: bounded descriptive evidence benefit; learned acquisition superiority unsupported; no observation-aware cheap-rival ranking | curator decision required: No | detail: L400 and `results/phase_2_4_stage_11_1/S2_EVIDENCE.json`.
+
 ### L399 - valid-account interventions change predictions beyond identical-input repeats
 
 **Hypothesis.** Changing a mechanically valid retained production account changes useful historical recovery beyond contemporaneous variation from repeating the same request.

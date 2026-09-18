@@ -13,6 +13,10 @@ The valid-account control repair is complete and internally landed as L399: all
 72 calls and 348 independent score/transition fields replay. Contemporary keep
 requests agree; the original uncontrolled attribution remains void. The bounded
 diagnostic closes with input sensitivity separated from useful recovery.
+The complete human evidence/query comparison is internally landed as L400:
+all 272 calls, source observations and 264 independent fields verify. Fixed
+before-text is the provisional prototype first reveal; fresh chains and the
+observation-insensitive cheap rival remain explicit limits.
 No unfinished comparator is ranked; the single Sunday packet remains pending.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
@@ -25,8 +29,9 @@ reader pilots and dependent contrasts are unavailable, not scientific nulls.
 The recovery coordinator is running in Gear 2 as native PID 74148, creation
 ticks 134342398262659714, executable C:/Python313/python.exe. Its frozen manifest
 is `raw/continuation/QUEUE-recovery-v1.json`. It completed the 72-call valid-account
-diagnostic and advanced to `S2-evidence-review-account-v1` at September 18
-21:38:16 UTC. The same frozen producer and account variant remain in use.
+diagnostic and the selected human-evidence comparison. It advanced to
+`S3-initial-review-v1` at September 18 22:36:50 UTC, with initial account breadth
+and constructed context stress next. The frozen producer remains unchanged.
 The real setup and 24-call fake CLI/reentry remain OPS-S11.1-Q3; the complete
 scientific repair is L399. No valid work was restarted.
 
@@ -72,7 +77,7 @@ Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-l
 Do not modify the sources still pinned by the live coordinator or restart valid work.
 The four-hour coverage checkpoint is inspected (OPS-S11.1-C4). The current wake's
 write-through, actual delivery and recovery ownership are recorded in
-`.agent-state/stage11-1-account-repair-landing.json`. The original uncontrolled
+`.agent-state/stage11-1-evidence-landing.json`. The original uncontrolled
 account-use diagnostic is retained; invalid-marker movement and variation between
 identical requests cannot establish valid account use.
 The available

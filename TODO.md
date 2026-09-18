@@ -35,7 +35,8 @@ archive, kept whole, mined but never deleted.
 - [ ] L397 / S3: execute the already selected review/account breadth, admitted second-reader contrasts and remaining breadth within the existing successor and shared limits.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
-- [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.
+- [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
+- [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; complete the frozen 24-pair contextual stress set before final synthesis.
 - [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
 - [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.

@@ -7,8 +7,9 @@ revision, direct breadth and the original account intervention are fully recorde
 internally (L392-L398). The intervention audit found variation between identical
 requests; its account-specific attribution is void, while its complete outputs
 and charges remain intact. The bounded valid-account repair is complete and
-internally landed as L399. The same coordinator has advanced to the selected
-human-evidence study, with breadth work queued next.
+internally landed as L399. The human-evidence study is also complete and internally
+landed as L400. The same coordinator now runs initial breadth review, followed by
+account breadth and the constructed context comparison.
 
 The original coordinator exited during the installed-reader pilot's transport
 timeout. Both attempts and the full uncertain charge are preserved; that reader
@@ -22,8 +23,9 @@ cloud work or delegation is introduced.
 Real repair requests and remapped graphs validate. A separate literal scratch run
 completes 24 fake calls and immutable reentry adds none. The recovery coordinator's
 native identity, loaded source pins and completion/failure monitoring verify.
-The complete repair replays with 348 independent score/transition checks.
-Next is the complete evidence block or an actual failure; the next predefined
+The complete repair replays with 348 independent score/transition checks; the
+evidence comparison adds 264 matching checks and exact source-observation replay.
+Next is the complete breadth review block or an actual failure; the next predefined
 coverage checkpoint is September 19 04:18 UTC. No routine ETA wake is scheduled.
 
 The twelve-case viewer remains a constructed setup preview; human illustrations
@@ -31,7 +33,7 @@ and the final scientific packet await complete comparisons. Browser visual QA
 remains unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Branch status](results/phase_2_4_stage_11_1/BRANCHES.md),
-[completed repair](results/phase_2_4_stage_11_1/S1_ACCOUNT_USE_REPAIR.json),
+[completed evidence comparison](results/phase_2_4_stage_11_1/S2_EVIDENCE.json),
 [verified launch](results/phase_2_4_stage_11_1/RECOVERY_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18
