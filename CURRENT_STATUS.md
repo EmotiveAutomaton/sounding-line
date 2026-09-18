@@ -2,17 +2,18 @@
 
 ## Stage 11.1 running in Gear 2 - 2026-09-18
 
-The commissioned continuation is active. Its direct reference run is preserved;
-a validated finite coordinator waits for its normal completion and then runs
-independent method pilots, matched comparisons, history, revision and breadth
-work. Up to 1,058 additional attempts are queued, with later-branch reserves and
+The commissioned continuation is active. Both direct-reference tranches are complete,
+replayed and internally landed (L392). Review and account each passed their separate
+literal pilot (OPS-S11.1-I4). The finite coordinator took over normally and is running
+the matched review initial block, followed by account initial, history, revision and
+breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
 the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
 uncertain attempts stop for explicit reconciliation. Completed comparisons determine
 which already prepared evidence and transfer candidates run next.
 
 All 47 targeted tests, a separate checkpoint check, the whole 17-item queue rehearsal
 and 84 viewer state assertions pass. The twelve-case viewer is a constructed setup
-preview; human illustrations and scientific conclusions await complete outputs.
+preview; human illustrations and the final stage synthesis await complete comparisons.
 Browser visual QA is unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Readiness and continuation](results/phase_2_4_stage_11_1/BRANCHES.md),

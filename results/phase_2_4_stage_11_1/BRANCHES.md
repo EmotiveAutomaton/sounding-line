@@ -11,7 +11,7 @@ continuation; one combined scientific packet is due Sunday.
 | Branch | Pursuit | Current evidence/readiness | Next action |
 |---|---|---|---|
 | S0 diagnosis | Separate interface, decision, support and control failures | Offline 204-response replay and separate training-cap sensitivity internally landed, L391 | Carry the prior and low-dimensional alignment rival into the common comparison |
-| S1 common form | Account-first inference versus direct reading and matched review | Direct bank running; separate review/account pilots and initial blocks queued; both extensions prepared | Run each admitted method; optional extensions preserve 40,000 seconds for later branches |
+| S1 common form | Account-first inference versus direct reading and matched review | Both complete direct-reference tranches internally landed (L392); review/account pilots independently pass (OPS-S11.1-I4); matched review initial running, account initial next | Finish the admitted matched initial comparisons before method selection; optional extensions preserve 40,000 seconds for later branches |
 | S1 account use | Determine whether retaining an account changes useful supported inference | Sixteen initial episodes in both views, with removal and different-writer replacement, prepared and gated on complete original accounts | Hold public evidence fixed; score accuracy, useful claims and susceptibility separately |
 | S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; all candidate method pairs prepared and context-checked; query pilot queued | Select leading viable methods from completed S1 comparisons; activate one candidate pair, keeping policy and inference comparisons separate |
 | S3 breadth | Expand source and representation support | 32 initial and 62 remaining breadth episodes; sixteen second-reader episodes; 25 verified released ScholaWrite edits across five projects | Direct references, revision and installed-reader pilots queued; activate leading comparisons after complete S1 selection |
@@ -28,8 +28,8 @@ cached ScholaWrite source for current released-edit annotations. It does not inf
 AI involvement or the author's private purpose. Adapter setup stayed within the
 approximately two focused hours allowed by the brief.
 
-The 17-item serialized queue is live behind the original native owner. Its maximum
-additional allowance is 1,058 calls, including 536 optional extension calls, under
+The 17-item serialized queue took over after the original native owner completed.
+Its original maximum additional allowance is 1,058 calls, including 536 optional extension calls, under
 the unchanged shared ceilings. Failed literal methods retire independently;
 partial/uncertain attempts stop for explicit reconciliation. Every terminal cell
 is registered with the durable watcher for internal write-through. The coordinator

@@ -2,10 +2,15 @@
 
 ## Stage 11.1 active - 2026-09-18
 
-Remaining branch setup is validated and internally landed as OPS-S11.1-Q1.
+The direct reference bank is complete and internally landed as L392: both frozen
+tranches and cheap controls replay, with 144 independently checked score fields.
+The whole-bank event reached this owner conversation. Both sequential pilots also
+pass independently and are internally landed as OPS-S11.1-I4. No unfinished
+scientific comparator has been ranked; the Sunday packet remains pending.
 The finite 17-item coordinator is live as native PID 60004, creation ticks
-134342285739723118. It waits for the exact existing direct worker before taking
-the shared producer lock; it never edits, interrupts or duplicates that worker.
+134342285739723118. It took the shared producer lock after native direct worker
+51860 exited normally. It is running the matched review initial block, with the
+admitted account initial next. It never edits, interrupts or duplicates that worker.
 Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
 attempts, including 536 conditional extension attempts. Shared ceilings remain.
 Completion, failure, disappearance and the brief's scientific checkpoints notify
@@ -37,13 +42,15 @@ GPU seconds. The compact direct pilot now passes and replays (OPS-S11.1-I3), wit
 44 cumulative attempts and 764.595057 GPU seconds before scientific launch. Current
 producer: run_v3b; model interface: models_v3; complete-cell scorer: report_v3b.
 Scientific plan: `raw/plans/S1-direct-v3b.json`, two tranches of 32 and 67 episodes.
-Account/review remain separately gated. The direct bank is observed running as native
-PID 51860, creation ticks 134342253312257031, through the repository Python launcher.
-Its first scientific requests are durably recorded. Whole-bank completion, failure
-and native disappearance are registered with the existing transition-only watcher.
+Account/review have now passed their separate literal gates. The direct bank's native
+PID 51860, creation ticks 134342253312257031, has exited after normal completion.
+All 198 scientific requests and responses are durably recorded and replayed.
+Whole-bank completion, failure and native disappearance were registered with the watcher;
+actual completion delivery is observed in this conversation.
 Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
-Do not modify its pinned sources or restart it. No routine ETA wake is scheduled;
-next is its whole-bank landing, separate account/review gates and the matched initial.
+Do not modify the sources still pinned by the live coordinator or restart valid work.
+No routine ETA wake is scheduled; next is the complete matched initial comparison,
+then explicit leading-method selection for prepared S2/S3 candidates.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23
 sessions, all marked historically exposed. Discovery and breadth remain descriptive;

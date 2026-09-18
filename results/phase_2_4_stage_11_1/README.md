@@ -15,9 +15,12 @@ attempts and model accounts stay in ignored `raw/`.
 The training-cap sensitivity is separate from the published Stage 11 comparison.
 Production target rules and new scientific blocks are frozen before their outcomes.
 
-The Gear 2 direct reference producer is running on 99 episodes in two frozen
-tranches. The compact interface passes its discarded pilot; both failed vector
-pilots remain preserved and charged. Account/review admission is separate.
+The Gear 2 direct reference producer completed 99 episodes in two frozen tranches,
+replayed without new calls and internally landed as L392. The [aggregate reference
+receipt](S1_REFERENCE.json) preserves invalids, coverage and separate target scores.
+Both sequential interfaces independently pass their [discarded pilots](SEQUENTIAL_INTERFACE.json)
+and are internally landed as OPS-S11.1-I4. The coordinator now runs the matched
+review initial, with account initial next. Both failed vector pilots remain charged.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; setup receipts are OPS-S11.1-I1 through I3.
+Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I4.
 This is an active study, not its final scientific packet.

@@ -13,7 +13,9 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
 - [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.
 - [x] OPS-S11.1-I3: validate compact categorical-confidence elicitation and admit the direct method; retain old failures and immutable cost history.
-- [ ] OPS-S11.1-I3: complete separate reviewed-direct and account literal gates, without blocking the direct bank.
+- [x] OPS-S11.1-I3 / OPS-S11.1-I4: complete and independently replay both reviewed-direct and account literal gates; preserve discarded charges and advance to matched initial comparisons.
+- [x] L392 / S1: complete both frozen direct-reference tranches and cheap controls; replay 198 calls, independently verify 144 score fields, and fully land the reference comparison without ranking unfinished methods.
+- [ ] L392 / S1: finish the matched review/account initial blocks, retain all invalids, and select prepared S2/S3 contrasts from complete comparisons while carrying both cheap controls and the later-branch reserve.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
 - [ ] S1: separate account-removal/replacement diagnostic; at most one additional scientific account variant if justified.
 - [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.

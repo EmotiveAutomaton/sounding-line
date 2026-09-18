@@ -9,6 +9,75 @@ ran it.
 
 ---
 
+### OPS-S11.1-I4 - both sequential interfaces independently admitted
+
+**Hypothesis.** Matched direct review and account-first prediction can each realize the frozen common target form before their human-record comparisons begin.
+
+**METHOD.** Run each method's separately frozen discarded pilot on the two executed, endpoint-equivalent histories in both blind evidence tiers. Each block has two ordered calls with equal token ceilings and the common retained-intermediate bound. Reconstruct every request and reparse every raw response, preserving the first-pass intermediate supplied to the second call. Check source and cohort bindings, independent pilot verdicts and closed cost blocks. Syntax realization is the gate; no pilot accuracy is used for method selection.
+
+The table covers whole discarded pilots. Calls include both sequential passes; GPU service includes block overhead and is charged to the new-stage integration allowance.
+
+| Method | Calls | Invalid | Offline semantic replays | Charged GPU seconds |
+|---|---:|---:|---:|---:|
+| Direct prediction then matched review | 8 | 0 | 8 | 154.771358 |
+| Typed account then separate prediction | 8 | 0 | 8 | 150.404251 |
+
+**Found.** Both literal pilots pass, independently of the already admitted direct interface. Their sixteen calls add 305.175609 charged seconds. At the end of these pilots, cumulative new-stage accounting is 258 attempts and 5,454.984244 seconds, including the completed reference bank and all earlier failed pilots. These are historical snapshots; the active comparison continues adding charges. Repeated constructed examples establish interface admission only. The source-pinned finite coordinator took over after the exact original native producer exited, then started the matched review initial tranche; account initial follows without another launch.
+
+**Means.** Advance to the two already frozen matched initial comparisons. No scientific advantage, reliable realization on human records or historical truth follows from these small grammar gates. Preserve invalid scientific forecasts under the same rules, compare completed arms, and keep the later-branch reserve. Generic next-action wording in the immutable pilot templates points to the older direct-bank launch; the current finite manifest and this landing specify the actual continuation. No tests harvested from this operational wake.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can both sequential comparators execute the same finite target contract? | **Infrastructure** | result: both discarded literal pilots pass | project meaning: their matched scientific comparisons are admitted, with no accuracy claim | next engineering obligation: land the complete review and account initial cells and select prepared downstream contrasts | public claim: instrument admission only | curator decision required: No | detail: OPS-S11.1-I4 and `results/phase_2_4_stage_11_1/SEQUENTIAL_INTERFACE.json`.
+
+### L392 - complete production-reference bank and inexpensive rivals
+
+**Hypothesis.** Direct reading of the endpoint or of the endpoint plus displayed alternatives recovers witnessed production relations beyond a training-only marginal and a fixed low-dimensional text-alignment rival.
+
+**METHOD.** Complete the frozen 32-episode initial and 67-episode extension reference tranches on historically exposed CoAuthor records. Both tiers use the same six selection, entry, change, continuation, surrounding-change and removal questions. The pinned local Qwen 3.5 9B reader makes one call per episode/tier, with temperature zero, seed 1101, context 16,384, at most 2,048 generated tokens, four threads and thinking disabled. Compact category/confidence answers expand to the predeclared uncalibrated probability family. Fit the smoothed marginal on fifteen training episodes from five writers; the fixed alignment mixture uses only public before/after text, offers and differences. Neither cheap method is tuned to evaluation results. Reconstruct all requests and reparse every response without model calls; independently calculate the finite probability losses, accuracies and logarithmic losses from retained forecasts and targets.
+
+**Found.** Direct reading shows no advantage over either cheap rival on actor, operation or relation probability error in any complete tranche/tier. With before text and alternatives, alignment also improves these losses over the marginal and recovers more correctly located positive events than the direct reader. This establishes a reference comparison only; reviewed-direct and account-first scientific arms remain unfinished and unranked.
+
+Each row is one complete tranche, evidence tier and method. Initial contains 32 episodes from fourteen writers and twenty sessions; extension contains 67 episodes from thirteen writers and 22 sessions. Artifact supplies the endpoint and common menu-availability fact; alternatives adds before text, every offer and explicit differences. Direct is the local model; marginal is the smoothed training prior; alignment is the fixed text-matching mixture, identical to marginal at artifact-only evidence and omitted there as a duplicate. Actor, operation, relation and handling losses are half multiclass Brier losses, lower being better. Fixed slots are averaged within episode, episodes within writer, then writers equally. Useful yield counts present events with all three actor/operation/relation choices correct; span-correct yield also requires the exact anchor set and span state. Invalids are raw call counts.
+
+| Tranche | Evidence | Method | Actor loss | Operation loss | Relation loss | Handling loss | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Initial | Artifact | Direct | 0.487540 | 0.531528 | 0.409286 | 0.507381 | 0.369048 | 0.035714 | 1 |
+| Initial | Artifact | Marginal | 0.145252 | 0.146453 | 0.157897 | 0.274902 | 2.226190 | 0.000000 | 0 |
+| Initial | Alternatives | Direct | 0.554312 | 0.542730 | 0.478829 | 0.506111 | 0.261905 | 0.023810 | 6 |
+| Initial | Alternatives | Alignment | 0.111933 | 0.115864 | 0.140109 | 0.220315 | 1.678571 | 1.654762 | 0 |
+| Initial | Alternatives | Marginal | 0.145252 | 0.146453 | 0.157897 | 0.274902 | 2.226190 | 0.000000 | 0 |
+| Extension | Artifact | Direct | 0.552157 | 0.610225 | 0.555598 | 0.718291 | 0.135897 | 0.000000 | 9 |
+| Extension | Artifact | Marginal | 0.183616 | 0.184787 | 0.175447 | 0.315207 | 2.185897 | 0.000000 | 0 |
+| Extension | Alternatives | Direct | 0.618010 | 0.600258 | 0.543465 | 0.629816 | 0.193590 | 0.079487 | 18 |
+| Extension | Alternatives | Alignment | 0.133403 | 0.138820 | 0.153249 | 0.212720 | 1.555128 | 1.542308 | 0 |
+| Extension | Alternatives | Marginal | 0.183616 | 0.184787 | 0.175447 | 0.315207 | 2.185897 | 0.000000 | 0 |
+
+The next table separates accuracy, abstention and unsupported claims. Operation accuracy includes all six fixed slots, including absent operations. Coverage is the writer-balanced fraction with a non-unknown operation forecast at confidence at least 0.75. Half-coverage risk is operation error among the highest-confidence half of all fixed questions, averaged within then across participating writers; all fourteen initial and thirteen extension writers remain represented. Contradictions count incorrect, non-unknown finite claims per episode, out of eighteen actor/operation/relation questions. Unsupported attributes count yes/no claims about review, endorsement or understanding, out of three; these logs do not observe those mental states. Invalid output produces no counted claims, so low contradiction counts alone cannot establish usefulness. The JSON retains all other target accuracies, span metrics, unresolved fractions, five coverage levels and group distributions.
+
+| Tranche | Evidence | Method | Operation accuracy | Coverage | Half-coverage risk | Contradictions / episode | Unsupported attributes / episode |
+|---|---|---|---:|---:|---:|---:|---:|
+| Initial | Artifact | Direct | 0.430556 | 0.833333 | 0.543365 | 5.000000 | 0.202381 |
+| Initial | Artifact | Marginal | 0.827381 | 0.666667 | 0.142857 | 2.821429 | 0.000000 |
+| Initial | Alternatives | Direct | 0.426587 | 0.674603 | 0.454726 | 4.416667 | 0.892857 |
+| Initial | Alternatives | Alignment | 0.849206 | 0.831349 | 0.170924 | 2.023810 | 0.000000 |
+| Initial | Alternatives | Marginal | 0.827381 | 0.666667 | 0.142857 | 2.821429 | 0.000000 |
+| Extension | Artifact | Direct | 0.326496 | 0.589744 | 0.496527 | 3.344872 | 0.294872 |
+| Extension | Artifact | Marginal | 0.776496 | 0.666667 | 0.201282 | 3.406410 | 0.000000 |
+| Extension | Alternatives | Direct | 0.373932 | 0.592308 | 0.409615 | 3.724359 | 0.706410 |
+| Extension | Alternatives | Alignment | 0.813248 | 0.826282 | 0.135252 | 2.412821 | 0.000000 |
+| Extension | Alternatives | Marginal | 0.776496 | 0.666667 | 0.201282 | 3.406410 | 0.000000 |
+
+**Failures and dependence.** All 34 invalid direct outputs remain scored at loss one and accuracy zero: 28 repeat or omit a semantic slot, and six mismatch span state and reference. Unique slot reordering is already accepted by the frozen parser; these are not rejected merely for order. There are no retries or discarded scientific calls. Every direct dimension and handling cell retains infinite logarithmic loss, including the valid-only diagnostics: genuine zero probability on observed outcomes survives beyond invalidity. Alignment retains finite production-dimension log losses but infinite handling log loss in both alternatives cells; its zero weight on unchanged acceptance when literal retention fails is not silently smoothed after outcomes. The marginal has finite log loss throughout. Valid-only diagnostics are explicitly reweighted and do not replace all-attempt comparisons.
+
+Both tranches have one connected writer/session/prompt dependency component and share writers. Initial has 22 creative and ten argumentative episodes; extension has 49 creative and eighteen argumentative episodes. They are not independent replications, and no fresh confirmation, p-value or population interval is claimed. Direct writer-level operation losses range from 0.250000 to 0.833333 initially in either tier, and from 0.361273 to 0.875000 for extension artifact and 0.355972 to 0.791667 for extension alternatives. Alternative-view alignment ranges from 0.014380 to 0.339201 initially and 0.014380 to 0.324479 in the extension. Sorted writer/session/prompt/domain distributions and raw target counts are retained without exporting source identities. All-absent and unresolved predictions cannot substitute for the separately reported useful positive yield; the marginal's higher unlocated yield does not establish span recovery.
+
+**Cost and integrity.** All 198 scientific attempts and closed cost blocks are retained, with no transport uncertainty. Input/output tokens total 324,797/155,761; request wall time is 4,381.829732 seconds, server duration 4,379.340846 seconds and charged service 4,385.213578 seconds. At whole-bank completion the new-stage ledger totals 242 attempts and 5,149.808635 charged seconds, including earlier pilots. Mean call latency is 22.130453 seconds and the maximum 28.797722; the declared planning rule gives 40.997153 seconds per further comparable call, not a guaranteed bound. Sequential calls can differ. Hard reservations, shared ceilings, the Sunday clock and the 40,000-second later-branch reserve remain unchanged. CPU rival wall time was not measured by the frozen replay scorer and is not reported as zero. All source/analysis pins and the training fit match; 198 semantic replays and 144 independently computed aggregate score fields pass. The native direct producer exited and the already registered coordinator took over normally. The actual completion message reached this conversation; transport queue acceptance is kept separate from this observed delivery.
+
+**Means and disposition.** Narrow the performance claim for this direct implementation; promote both cheap controls to the prepared evidence and breadth contrasts, with alignment's span information and marginal's finite handling support kept distinct. The result does not identify an exhaustive history, a percentage of human contribution, attention, endorsement, intended experience or values. It does not decide the account advantage while its comparator arms are unfinished. Pursuit: advance to the separately admitted matched review and account initial blocks, then choose the prepared S2/S3 methods on complete comparisons; the finite queue is already executing that continuation. Warrant: a descriptive complete-reference comparison on exposed human process records, not human mechanism evidence or final stage closure. No tests harvested from this operational wake; no loaded scientific source changed.
+
+**Detail:** `results/phase_2_4_stage_11_1/S1_REFERENCE.json`; exact evidence, response-level diagnostics and source identities remain private. The stage's single final curator packet remains pending.
+
+**Curator roll-up:** theory group: historical production recovery | question: does direct reading recover witnessed production relations beyond inexpensive controls? | **Narrows** | result: both cheap rivals outperform direct reading on every complete production-dimension probability comparison | project meaning: richer production inference must clear strong cheap references and retain independent span and mental-attribute checks | next engineering obligation: finish matched review/account comparisons and activate prepared evidence and breadth contrasts | public claim: weakened for this direct implementation; general reconstruction theory unchanged | curator decision required: No | detail: L392 and `results/phase_2_4_stage_11_1/S1_REFERENCE.json`.
+
 ### OPS-S11.1-Q1 - finite continuation queue and remaining branch preparation
 
 **Hypothesis.** The commissioned branches can proceed through a finite, replayable queue while failed methods remain isolated and later comparisons retain compute capacity.
