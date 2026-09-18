@@ -8,8 +8,9 @@ literal pilot (OPS-S11.1-I4). Matched review initial is complete and internally 
 (L393); account initial is complete and internally landed (L394). Query and history
 pilots pass (OPS-S11.1-I5). The history comparison and released-revision comparison
 are complete and internally landed (L395-L396); the revision interface independently
-passes (OPS-S11.1-I6). The finite coordinator is running initial direct breadth,
-with account interventions next. Its original allowance is up to 1,058 further attempts, with reserves and
+passes (OPS-S11.1-I6). Initial direct breadth is complete and internally landed
+(L397). The finite coordinator is running account interventions, with installed-reader
+pilots next. Its original allowance is up to 1,058 further attempts, with reserves and
 the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
 uncertain attempts stop for explicit reconciliation. Completed comparisons determine
 which already prepared evidence and transfer candidates run next. The selected

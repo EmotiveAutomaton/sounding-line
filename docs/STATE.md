@@ -13,13 +13,16 @@ verified aggregate fields. Both auxiliary pilots are landed as OPS-S11.1-I5. The
 history comparison is complete and landed as L395, with exact source-plan replay,
 all 72 calls and 144 independently checked fields. The revision pilot is admitted
 as OPS-S11.1-I6 and its full five-project comparison is landed as L396, with all
-fifty calls and six aggregate fields independently checked. No unfinished
+fifty calls and six aggregate fields independently checked. Initial direct breadth
+is landed as L397: all 32 calls, exact frozen selection and 36 independent fields
+verify. Separate episode keys share discovery writers/sessions; no fresh replication.
+No unfinished
 scientific comparator has been ranked; the Sunday packet remains pending.
 The finite 17-item coordinator is live as native PID 60004, creation ticks
 134342285739723118. It took the shared producer lock after native direct worker
 51860 exited normally. It completed both matched initial arms and both auxiliary
-pilots, S4 history and released revision, and is running S3 initial direct breadth,
-with account interventions next. It never edits, interrupts
+pilots, S4 history, released revision and S3 initial direct breadth, and is running
+account interventions, with installed-reader pilots next. It never edits, interrupts
 or duplicates the original worker.
 Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
 attempts, including 536 conditional extension attempts. Shared ceilings remain.
@@ -70,7 +73,7 @@ The four-hour coverage checkpoint is inspected (OPS-S11.1-C4): capacity and mult
 admitted blocks remain. No routine ETA wake is scheduled; next is a complete block
 or the twelve-hour coverage checkpoint September 19 at 04:18:24 UTC. Selected
 continuation follows the current finite queue's exit. This wake's delivery and
-native inspection are in `.agent-state/stage11-1-history-landing.json`. The account-use diagnostic retains
+native inspection are in `.agent-state/stage11-1-breadth-landing.json`. The account-use diagnostic retains
 invalid-recipient/donor strata; marker/empty movement cannot establish graph use.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23

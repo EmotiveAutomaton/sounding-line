@@ -25,7 +25,8 @@ The complete [account initial comparison](S1_ACCOUNT_INITIAL.json) is internally
 landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-S11.1-I5.
 The [complete history comparison](S4_HISTORY.json) and [released-revision comparison](S3_REVISION.json)
 are internally landed as L395-L396. The [revision interface](REVISION_INTERFACE.json)
-independently passes (OPS-S11.1-I6). The coordinator now runs initial direct breadth.
+independently passes (OPS-S11.1-I6). The [initial direct breadth reference](S3_INITIAL_DIRECT.json)
+is complete and internally landed as L397. The coordinator now runs account interventions.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.
 Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
