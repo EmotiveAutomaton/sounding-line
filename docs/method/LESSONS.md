@@ -574,6 +574,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **A decoding schema is not a reader-visible task specification.** When adapting a
+  working structured-output call, preserve both its constrained format and the schema
+  in the actual message. The Stage 11.1 first builder omitted the latter; its entire
+  discarded pilot failed numeric or span consistency. This does not establish that
+  omission alone caused each error. Retain the failure, repair the interface separately,
+  and test actual calls before scientific admission. Canonical dictionary serialization
+  also cannot communicate a required list order; name that order explicitly or match
+  unique semantic keys. (OPS-S11.1-I1)
+
 - **Base language models below the low billions cannot satisfy multi-constraint generation;
   plan maker matrices around instruction-capable checkpoints or budget for retirement.** Two
   base Pythia makers landed 17 and 28 percent accept-time compliance on a four-constraint

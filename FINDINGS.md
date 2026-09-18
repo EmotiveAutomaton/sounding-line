@@ -9,6 +9,92 @@ ran it.
 
 ---
 
+### OPS-S11.1-I3 - compact direct interface admitted with original failures retained
+
+**Hypothesis.** A compact finite forecast can realize the common target form without allowing invalid vectors or unsupported account structure to block unrelated methods.
+
+**METHOD.** Elicit a category and a fixed confidence level for each actor, operation and relation question and for secondary handling. Expand confidence to the declared category probability with uniform residual mass; retain the original elicitation. Direct, reviewed-direct and account prediction share this restricted, uncalibrated family. Rehearse semantic parsing, private exclusion, independent method gates, raw replay, completed-plan cost snapshots after later work, and full synthetic scoring including target-tamper refusal. Run a separate four-call direct pilot on both blind tiers of the two executed, endpoint-equivalent constructed histories. Accuracy is not the grammar gate.
+
+This is complete instrument validation. Pilot counts do not measure historical accuracy.
+
+| Measure | Result |
+|---|---|
+| Compact direct pilot | All 4 calls valid and replayed without new calls |
+| Additional pilot GPU service | 71.259066 seconds |
+| Cumulative new-stage service | 44 attempts; 764.595057 seconds |
+| Current and retained-version CPU tests | 35 targeted checks passed across their scoped runs |
+| Scientific admission | Direct only; reviewed-direct and account retain separate literal gates |
+
+**Found.** The direct interface realizes the declared form. The source and target roster remains unchanged after a shared 3,072-byte intermediate bound: 99 discovery episodes from fourteen writers and 23 sessions, plus 94 separate breadth episodes. The initial tranche has 32 episodes, the extension 67. A completed-plan replay guard preserves its original historical cost snapshot when later plans add charges; attempts and cumulative budget accounting remain unchanged. The first 32 total attempts give a 27.737965-second planning upper bound, including the failed pilots. Runtime and coverage will be reconsidered on complete scientific blocks.
+
+**Means.** Admit the direct bank while the other methods retain independent gates. All forty earlier failed attempts stay invalid and charged. No human accuracy, account advantage or new theory result follows from syntax realization. Pursuit: 198 direct calls, then matched initial comparisons and the evidence, breadth and history branches within the shared budget. Warrant: an executable, source-audited instrument and descriptive roster, not scientific success. No extra tests were harvested beyond the commissioned branch study.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can the common finite targets be forecast through a functioning interface? | **Infrastructure** | result: the compact direct pilot passes | project meaning: direct reference inference may begin while account admission remains separate | next engineering obligation: run the reference bank and independently gate its sequential comparators | public claim: instrument admission only | curator decision required: No | detail: OPS-S11.1-I3 and `results/phase_2_4_stage_11_1/INTERFACE_V3.json`.
+
+### OPS-S11.1-I2 - retain the vector-interface failure and separate method admission
+
+**Hypothesis.** Making the output schema visible could repair the first interface without changing the scientific targets.
+
+**METHOD.** A separate twenty-call discarded pilot restored the reader-visible schema, explicit slot order, strict span checks and the established numeric grammar. Seven additional CPU checks cover the changed syntax, semantic ordering and unchanged accounting. Original pilot outputs are never reparsed under the repair. The repeated constructed cases remain instrument development, not human evidence.
+
+This table concerns the whole second pilot. Costs remain in the shared new-stage ledger.
+
+| Measure | Complete pilot result |
+|---|---:|
+| Attempts | 20 |
+| Invalid probability sums | 14 |
+| Invalid event order | 4 |
+| Valid structured responses | 2 |
+| Additional charged GPU seconds | 329.707831 |
+
+**Found.** The second literal gate failed. Numeric entries became legal, but most forecasts supplied zero-sum operation vectors; accounts still confused proposal creation with post-selection document entry. The worker stopped before any human-record call, exited, and released the GPU lock. The full repeated pilot remains failed, rather than passing on its few valid outputs.
+
+**Means.** Retire the unrestricted-vector interface for this initial study. The next version elicits a category and one of five declared confidence levels per finite question, assigning the remaining probability uniformly to the other categories. This is a restricted, uncalibrated forecast family shared by all model methods; it is not normalization of malformed old responses. Historical targets and scoring stay fixed. Clarify that an offered proposal exists before selection and document entry follows selection. Give direct, reviewed-direct and account methods separate admission gates so one broken method cannot halt the reference bank. Pursuit: compact direct pilot, then scientific direct bank while other interfaces are checked. Warrant: no scientific method comparison yet; all forty attempts remain discarded and charged. No additional scientific account variant has been tested.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: did the visible schema repair the full interface? | **Infrastructure** | result: the repaired vector pilot still failed | project meaning: method admission must be separated from scientific performance | next engineering obligation: validate compact elicitation and launch the independently gated reference bank | public claim: no scientific conclusion | curator decision required: No | detail: OPS-S11.1-I2 and `results/phase_2_4_stage_11_1/INTERFACE_V2.json`.
+
+### OPS-S11.1-I1 - production-target gates and failed literal interface pilot
+
+**Hypothesis.** A common finite production form can be projected from witnessed source events and realized by the existing local reader without exposing evaluator answers.
+
+**METHOD.** Eighteen targeted CPU checks cover cap sensitivity, exact Unicode/lineage spans, complete deletion, same-visible-endpoint histories, schema/reference/order validation, private-field exclusion, costs and restart, proper-score direction, nonempty utility, writer weighting, the alignment rival and 24 constructed twin pairs. Independently inspected six varied source episodes from six writers against original event sequences and exact before/menu/endpoint text. Then ran twenty discarded calls on two constructed histories, both evidence tiers and the direct/review/account pipelines, with equal sequential ceilings. No human-record inference was admitted.
+
+The table separates semantic source checks from actual model interface realization. Counts are instrument checks and attempts, not scientific accuracy.
+
+| Check | Outcome |
+|---|---|
+| Target/accounting/scoring CPU tests | 18 passed |
+| Varied original-source cases | 6 reviewed; no disputed target |
+| Discarded model attempts | 20 invalid: 16 invalid-number, 4 inconsistent-span failures |
+| Charged local GPU service | 363.628160 seconds; all attempts retained |
+
+**Found.** The literal interface gate failed and stopped scientific admission. The first builder supplied the schema to constrained decoding but omitted it from the reader-visible message, unlike the established Stage 11 request. Responses used negative probability entries and nonempty anchors with absent span states. The observation identifies an interface failure; it does not establish a limitation of contribution inference. The worker exited and released the GPU lock. The watcher also emitted a disappearance fault because the failure JSON lacked its recognized status field; the actual traceback and native exit are preserved, with no uncertain transport or lost attempt.
+
+**Means.** Preserve the entire first interface version and its charges. A separate version restores an explicit visible schema, names slot order, keeps strict numeric/reference checks, and uses the previous proven numeric decoding grammar. Unique slot reordering is handled by semantic identity; duplicate/missing slots remain invalid. This is an instrument repair before scientific exposure, not a new account hypothesis or a reset. Pursuit: repeat the bounded literal gate, then the direct reference bank. Warrant: source/scoring gates passed, model interface not yet admitted. No tests were harvested beyond the commissioned continuation.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can the new common target form be realized safely? | **Infrastructure** | result: the literal pilot failed before human-record inference | project meaning: historical accuracy remains untested in the new form | next engineering obligation: verify the versioned interface repair, then launch the frozen reference bank | public claim: no new scientific claim | curator decision required: No | detail: OPS-S11.1-I1 and `results/phase_2_4_stage_11_1/INTERFACE_V1.json`.
+
+### L391 - Stage 11 training-cap sensitivity and retained-response diagnosis
+
+**Hypothesis.** The requested three-per-writer training cap could change the apparent strength of inexpensive handling controls; invalid forecasts, wrong decisions and unsupported histories are different failures.
+
+**METHOD.** Reparsed all 204 original responses offline without new calls, preserving original producer, fits, scores and packet. Reused deterministic training-only sampling with a cap of three per writer, yielding fifteen episodes from the same five training writers, and refitted the unchanged prior and regularized feature recipes. Scored the original exposed tranches separately, averaging within writer then equally across writers. Stage 11 used a training cap of 96 per writer, contrary to the earlier request; this sensitivity does not replace its primary table. Fixed confidence bins and vocabulary flags are descriptive diagnostics, not learned calibration or a complete semantic audit.
+
+Each row compares original and capped training fits on one complete tranche and evidence view. Half-Brier is lower when the probability forecast is better. The feature recipe is unchanged and not tuned to evaluation outcomes.
+
+| Tranche | Evidence | Prior, original | Prior, capped | Features, original | Features, capped |
+|---|---|---:|---:|---:|---:|
+| initial | artifact | 0.337035 | 0.330000 | 0.671841 | 0.531994 |
+| initial | alternatives | 0.337035 | 0.330000 | 0.549281 | 0.499806 |
+| extension | artifact | 0.254659 | 0.310769 | 0.381920 | 0.290046 |
+| extension | alternatives | 0.254659 | 0.310769 | 0.410301 | 0.358690 |
+
+**Found.** The smaller fit improves every feature probability-loss cell but does not establish a consistent feature advantage over the capped prior. The capped artifact feature fit leads the capped prior in the extension. The capped prior assigns zero support to an observed initial-tranche class, producing infinite log loss there. Original account/direct forecasts and invalid dispositions reproduce. Forty-two valid account responses emit `review` as an operation and two emit `endorse`; these vocabulary counts do not exhaust unsupported claims. The retained six-case source audit supplies the richer historical checks. Full class, invalid, wrong-decision and fixed-bin tables are in the safe aggregate export.
+
+**Means.** Control strength depends on thin training support and the scoring rule. The original account comparison remains intact; it does not exhaust inexpensive production-relation rivals. Pursuit: construct the alignment rival and larger direct reference bank. Warrant: a secondary descriptive sensitivity on exposed human records, with no fresh confirmation or new model calls. Stage 11.1 branches are explicitly commissioned; no extra tests were inferred from the Gear 2 correction. This is an internal landing for the Sunday packet.
+
+**Curator roll-up:** theory group: contribution reconstruction | question: does the training cap change the cheap-control comparison? | **Narrows** | result: capped training improves every feature probability-loss cell but does not establish consistent dominance | project meaning: cheap rivals and probability support require separate scrutiny | next engineering obligation: run the alignment rival and common production targets | public claim: descriptive sensitivity only | curator decision required: No | detail: L391 and `results/phase_2_4_stage_11_1/S0_DIAGNOSIS.json`.
+
 ### OPS-S11-REPAIR1 - unlocated hypotheses survive passage filtering
 
 **Hypothesis.** Selecting a passage should retain creation hypotheses with no supporting location in the endpoint document, without changing forecasts or claiming those hypotheses are true.

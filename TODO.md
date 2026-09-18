@@ -5,6 +5,26 @@
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
 archive, kept whole, mined but never deleted.
 
+## Stage 11.1 commissioned - 2026-09-18
+
+- [x] L391 / S0: reparse 204 retained responses; report the training-cap deviation and separate sensitivity; preserve the published table.
+- [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
+- [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.
+- [x] OPS-S11.1-I3: validate compact categorical-confidence elicitation and admit the direct method; retain old failures and immutable cost history.
+- [ ] OPS-S11.1-I3: complete separate reviewed-direct and account literal gates, without blocking the direct bank.
+- [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
+- [ ] S1: separate account-removal/replacement diagnostic; at most one additional scientific account variant if justified.
+- [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.
+- [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
+- [ ] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history.
+- [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.
+
+Gear 2 is explicitly retained. New clock: September 18 16:18:24 UTC; checkpoint
+September 20 15:00 UTC; reporting begins two hours earlier. Shared ceilings:
+6,400 attempts and 24 charged GPU hours. Internal block landings; one final packet.
+No first-screen closure, cloud spending, downloads or delegation. Later branches
+proceed under the supplied finite continuation rules, not a new automatic campaign.
+
 ## Stage 11 complete - 2026-09-18
 
 - [x] OPS-S11-REPAIR1: final validity audit, reproduce and repair unlocated viewer filtering, pass all case/view/passage regression checks, retain original evidence and receipts; no new scientific calls.

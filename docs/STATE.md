@@ -1,5 +1,37 @@
 # STATE: the agent's operational file
 
+## Stage 11.1 active - 2026-09-18
+
+The curator commissioned the root Stage 11.1 branching brief and explicitly
+corrected allocation to stay in Gear 2. CONTRACT.json preserves the initial default;
+ALLOCATION.json records the active override. Cooling controls and finite limits
+remain: 6,400 attempts, 24 charged GPU hours, September 20 15:00 UTC checkpoint,
+reporting from 13:00 UTC. The new clock starts September 18 16:18:24 UTC.
+
+The immediate CPU diagnosis is complete and internally landed (L391), with no new
+model calls in that diagnosis. Production labels, source audits and eighteen CPU
+checks pass. The first twenty-call discarded model pilot fails its numeric/span
+interface gate (OPS-S11.1-I1); all attempts and 363.628160 GPU seconds are retained.
+The native worker exited with its lock released. The separate visible-schema pilot
+also fails (OPS-S11.1-I2), leaving forty discarded attempts and 693.335991 charged
+GPU seconds. The compact direct pilot now passes and replays (OPS-S11.1-I3), with
+44 cumulative attempts and 764.595057 GPU seconds before scientific launch. Current
+producer: run_v3b; model interface: models_v3; complete-cell scorer: report_v3b.
+Scientific plan: `raw/plans/S1-direct-v3b.json`, two tranches of 32 and 67 episodes.
+Account/review remain separately gated. The direct bank is observed running as native
+PID 51860, creation ticks 134342253312257031, through the repository Python launcher.
+Its first scientific requests are durably recorded. Whole-bank completion, failure
+and native disappearance are registered with the existing transition-only watcher.
+Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
+Do not modify its pinned sources or restart it. No routine ETA wake is scheduled;
+next is its whole-bank landing, separate account/review gates and the matched initial.
+The available
+native evaluation pool contains 222 opportunities from fourteen writers and 23
+sessions, all marked historically exposed. Discovery and breadth remain descriptive;
+there is no fresh human confirmation claim. Preserve all completed Stage 11 sources,
+raw outputs, failures and final packet. This new commission continues through its
+named branches and Sunday packet; an initial result is not campaign closure.
+
 ## Stage 11 complete - 2026-09-18
 
 The finite Gear 2 commission is complete (L390). Both frozen evaluation tranches,
