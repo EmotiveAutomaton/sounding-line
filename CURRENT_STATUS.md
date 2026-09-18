@@ -6,8 +6,10 @@ The commissioned continuation is active. Both direct-reference tranches are comp
 replayed and internally landed (L392). Review and account each passed their separate
 literal pilot (OPS-S11.1-I4). Matched review initial is complete and internally landed
 (L393); account initial is complete and internally landed (L394). Query and history
-pilots pass (OPS-S11.1-I5), and the finite coordinator is running the history comparison,
-followed by revision and breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
+pilots pass (OPS-S11.1-I5). The history comparison and released-revision comparison
+are complete and internally landed (L395-L396); the revision interface independently
+passes (OPS-S11.1-I6). The finite coordinator is running initial direct breadth,
+with account interventions next. Its original allowance is up to 1,058 further attempts, with reserves and
 the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
 uncertain attempts stop for explicit reconciliation. Completed comparisons determine
 which already prepared evidence and transfer candidates run next. The selected
@@ -15,6 +17,10 @@ review/account pair and remaining breadth form a validated nine-item successor
 queue, up to 1,542 attempts. It is prepared, not launched: the existing coordinator
 must first exit and its dispositions be reconciled. Shared resource gates may
 stop optional work before all queued items finish.
+
+The four-hour coverage checkpoint is inspected: native ownership, source bindings,
+multiple admitted blocks and resource capacity verify. The next predefined checkpoint
+is September 19 at 04:18 UTC; completion/failure transitions notify earlier.
 
 All 47 targeted tests, a separate checkpoint check, the whole 17-item queue rehearsal
 and 84 viewer state assertions pass. The twelve-case viewer is a constructed setup

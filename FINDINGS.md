@@ -9,6 +9,96 @@ ran it.
 
 ---
 
+### L396 - observed edit differences do not improve released revision-category recovery
+
+**Hypothesis.** The actual before/after change helps recover a released human revision annotation beyond the endpoint alone.
+
+**METHOD.** Complete both views for 25 deterministically selected released ScholaWrite edits, five from each of five project folds. Reuse the verified cached adapter and preserve whole-pair context exclusions. The endpoint arm receives after text with empty before/differences fields; the revision arm receives before, after and mechanical differences. Both receive identical descriptions of the implementation, planning and revision annotation categories. The pinned Qwen 3.5 9B reader uses temperature zero, seed 1101, context 16,384, a 768-token generation ceiling, four threads and disabled thinking. Convert the declared category/confidence mapping to probabilities without fitting to outcomes. Replay all fifty calls, reconstruct the plan from source, and independently calculate losses and accuracy, averaging within project then across projects.
+
+**Found.** Before/after evidence does not improve aggregate annotation recovery. Both conditions correctly classify nine of 25 edits; revision evidence slightly worsens probability loss. Thirteen retained forecasts change, correcting three cases and breaking three previously correct cases; six remain correct in both. All fifty outputs are mechanically valid. This is a complete bounded comparison, not a claim that revision evidence is generally useless.
+
+Each row covers all five projects and the same 25 edits. Loss is half multiclass Brier loss, lower being better. Logarithmic loss stays infinite when a forecast assigns zero probability to the observed label. Costs are charged GPU seconds for each complete condition.
+
+| Evidence | Probability loss | Accuracy | Log loss | Invalid | Charged seconds |
+|---|---:|---:|---|---:|---:|
+| Endpoint | 0.572275 | 0.360000 | infinite | 0 | 147.718828 |
+| Before/after differences | 0.573700 | 0.360000 | infinite | 0 | 155.578668 |
+
+The target mix is sixteen implementation, five planning and four revision labels. These are released annotator categories for the current edit, not the writer's stated or latent governing purpose. Project probability losses range from 0.347500 to 0.773000 for endpoint and 0.347500 to 0.716000 with differences; project accuracies range from 0.200000 to 0.600000 in both. The aggregate receipt retains the complete project distributions. There is no fresh holdout, population interval, p-value, AI-involvement inference or claim of superiority to a training-only prior. All outputs being valid does not remove confident zero-probability errors.
+
+**Cost and integrity.** Fifty calls and cost blocks replay without uncertainty. Total request time is 302.349071 seconds; charged GPU time is 303.297496 seconds, with 80,097 input and 1,063 output tokens. Endpoint uses 28,407 input tokens and differences 51,690, so the additional evidence is not token-matched. All six independently calculated aggregate score fields match. The exact plan, cached source bindings and original exclusion counts reproduce; no original source or scorer changes. This block completed during the history/checkpoint wake and the same native coordinator advanced to the initial direct breadth block.
+
+**Means and disposition.** Retain the failed aggregate evidence benefit and close this bounded annotation branch. Continue the commissioned production-relation evidence and breadth comparisons rather than repeat these same prompts. Annotation recovery does not settle historical production, intended experience or maker values, and it does not alter the already frozen S2 method selection. No tests harvested from this operational wake; final scientific reporting remains the single Sunday packet.
+
+**Curator roll-up:** theory group: evidence-conditioned interpretation | question: do observed differences improve recovery of released human revision categories? | **Narrows** | result: added revision evidence does not improve aggregate annotation recovery | project meaning: more literal edit evidence need not improve this reader's category judgment | next engineering obligation: preserve the complete source and error comparison while advancing production-relation breadth | public claim: bounded descriptive null; no writer-purpose inference | curator decision required: No | detail: L396 and `results/phase_2_4_stage_11_1/S3_REVISION.json`.
+
+### L395 - reusable earlier history has target-specific effects, without a general advantage
+
+**Hypothesis.** A compact hypothesis built once from a maker's earlier observed choices and reused on later episodes improves production recovery beyond exactly the same raw history, another writer's equally long history and no history.
+
+**METHOD.** Complete four matched conditions on sixteen later CoAuthor episodes, two per writer across eight writers and eight sessions, with three connected dependency components. The pinned local Qwen 3.5 9B reader receives the same current endpoint, before text and alternatives in every condition. Own and donor excerpts both end strictly before either target begins. Their character counts match within writer, at 981 to 1,200 characters. A separate 768-token-ceiling call sees only the own excerpt, constructs at most three slot-linked patterns with alternatives and uncertainty, and is persisted before either target. Reuse that exact output twice; charge construction separately. Target forecasts retain the common 2,048-token ceiling, temperature zero, seed 1101, context 16,384, four threads and disabled thinking. Reconstruct the complete plan from verified original source records, replay every request/response, and independently calculate all finite scores. Cheap controls use current text and ignore history; identical repeated cheap rows are not independent evidence.
+
+**Found.** The reusable hypothesis has no consistent advantage over no history. It lowers operation probability loss and half-coverage operation error, while actor, relation and handling losses worsen and correctly located useful-event yield stays unchanged. It improves all three production losses over own raw history, but own raw history itself worsens all three relative to no history. Correct-writer raw history does not consistently beat donor history. Both cheap rivals beat every model condition on every production loss. This is a bounded historical-inference comparison, not a value-profile or human-mechanism test.
+
+Each row covers the same sixteen episodes. Losses are half multiclass Brier losses, lower being better, averaging six slots within episode and episodes within writer, then writers equally. Useful yield requires a present event with correct actor, operation and relation; span-correct yield additionally requires the exact anchor set and span state. Invalids are retained final-call counts. The cheap rows apply unchanged in all four conditions.
+
+| Evidence or method | Actor loss | Operation loss | Relation loss | Operation accuracy | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| No history | 0.532083 | 0.509253 | 0.456429 | 0.468750 | 0.250000 | 0.125000 | 2 |
+| Own raw history | 0.606250 | 0.624737 | 0.624955 | 0.364583 | 0.375000 | 0.125000 | 6 |
+| Donor raw history | 0.602847 | 0.592891 | 0.622723 | 0.385417 | 0.125000 | 0.000000 | 5 |
+| Own reusable hypothesis | 0.552708 | 0.485326 | 0.544970 | 0.500000 | 0.250000 | 0.125000 | 4 |
+| Fixed text alignment | 0.101108 | 0.102985 | 0.118175 | 0.875000 | 1.500000 | 1.437500 | 0 |
+| Training marginal | 0.158366 | 0.159226 | 0.180094 | 0.781250 | 1.687500 | 0.000000 | 0 |
+
+**Correction and useful support.** Relative to no history, own raw, donor raw and own hypothesis correct respectively 0.500000, 0.375000 and 0.875000 actor/operation/relation triples per episode but introduce 1.000000, 0.875000 and 1.062500 new triple errors. These include absent operations, not only positive events or exact spans. The hypothesis changes 4.000000 categorical triples and 4.750000 categorical-or-confidence triples per episode; movement is not net improvement. Exact span accuracy rises from 0.041667 without history to 0.104167 with the hypothesis, but positive span-correct yield remains 0.125000. Its operation benefit cannot stand in for recovering the whole production account.
+
+Handling losses for none, own raw, donor raw and hypothesis are 0.564583, 0.672500, 0.742917 and 0.649583, with accuracies 0.437500, 0.312500, 0.250000 and 0.312500. All model production and handling cells retain infinite logarithmic loss. Alignment's handling loss is 0.162392 with accuracy 0.812500 but infinite log loss; the marginal's handling loss is 0.337402 with finite log loss. No post-outcome smoothing repairs zero probabilities.
+
+At confidence 0.75, operation coverage is 0.739583, 0.604167, 0.666667 and 0.708333 in the same condition order. At half coverage, writer-mean errors are 0.511905, 0.423377, 0.451948 and 0.244867, each on 48 fixed questions. The selected questions represent eight writers without history and seven in each history condition, so this is matched claim coverage, not identical selected writers or questions. The corresponding raw risks are 0.541667, 0.395833, 0.416667 and 0.270833. Alignment and marginal still lead on writer-mean risk, at 0.090774 and 0.125000. Full curves, writer/session/prompt distributions, target counts, unresolved fractions and separate span metrics remain in the aggregate receipt. Writer operation losses vary substantially; no episode-level interval, significance test or fresh confirmation is claimed.
+
+Contradicted finite claims per episode are 4.562500, 4.000000, 4.812500 and 4.312500. Unsupported review/endorsement/understanding claims are 1.125000, 0.500000, 0.250000 and 0.625000. More invalid calls can suppress claim counts without improving inference. All eight constructions pass syntax and are nonempty, with three hypotheses each and exactly two uses. Their prose is not independently validated: inspection includes inferred intent and brevity claims despite the instruction to avoid motives. These remain model proposals, not observed mental states or recovered values. Seventeen target forecasts fail: sixteen duplicate or omit semantic slots and one mismatches span state/reference. None is dropped or repaired by an uncharged call.
+
+**Cost and integrity.** All 72 calls and closed blocks replay without uncertainty. There are 160,133 input and 50,772 output tokens, 1,389.376022 seconds of request time and 1,390.992686 charged GPU seconds. Construction accounts for 60.256626 request seconds and 60.437720 charged seconds; its request cost amortizes to 3.766039 seconds per use. Forecast request times are 320.707101, 344.996198, 340.697636 and 322.718461 seconds by condition. Adding construction makes the hypothesis pipeline costlier than own raw history on these two uses; a smaller target prompt is not free compression. Character matching does not equate token counts: the own/donor raw conditions use 41,089/41,203 input tokens, while hypothesis forecasts use 37,859 plus 4,213 construction tokens. Source reconstruction reproduces the frozen plan and temporal admission exactly; all 144 independent aggregate fields match. Selection was capped at eight writers, with an insufficient-later-target exclusion retained. Exposed historical records remain descriptive.
+
+**Means and disposition.** Retire this completed bounded history implementation from further identical reruns and advance to the already commissioned evidence and breadth contrasts. Preserve the narrow operation and selective-risk improvements alongside the failures in other targets. This does not retire the reusable maker-model hypothesis, equate later prediction with the reader's ultimate purpose, or establish standing values from a short process excerpt. No new tests were harvested from this wake. The single Sunday packet remains pending.
+
+**Curator roll-up:** theory group: reusable historical inference | question: does a history-derived hypothesis improve later production recovery beyond raw and unrelated history? | **Narrows** | result: the hypothesis improves operation recovery but gives no consistent advantage over no history | project meaning: compressed history, correct-writer evidence and general maker-model recovery remain separate claims | next engineering obligation: retain the complete cost and failure comparison while advancing to evidence and breadth | public claim: target-specific descriptive effect only | curator decision required: No | detail: L395 and `results/phase_2_4_stage_11_1/S4_HISTORY.json`.
+
+### OPS-S11.1-I6 - released-revision interface admitted
+
+**Hypothesis.** The bounded reader can emit a finite released-revision category and confidence before its human annotation comparison begins.
+
+**METHOD.** Complete and replay the two-call discarded constructed revision pilot, verify request whitelists and passing gate contents, and reconcile both closed cost blocks. The categories are annotator labels; syntax admission does not validate classification accuracy, AI involvement or the writer's private purpose.
+
+| Complete pilot check | Result |
+|---|---:|
+| Attempts / invalids | 2 / 0 |
+| Offline semantic replays | 2 |
+| Charged GPU seconds | 10.143891 |
+
+**Found and means.** The interface passes with all costs retained. Input/output tokens are 418/43, request time 10.106685 seconds and server duration 10.054273 seconds. Its separate gate admitted the frozen released-edit comparison, which completed during this write-through and is landed as L396. No new method or test was harvested from the wake.
+
+**Curator roll-up:** theory group: annotation instrument | question: can the released-revision reader realize its finite output contract? | **Infrastructure** | result: the discarded literal pilot passes | project meaning: the bounded human annotation comparison is admitted | next engineering obligation: land its complete comparison and preserve the label-versus-purpose boundary | public claim: interface admission only | curator decision required: No | detail: OPS-S11.1-I6 and `results/phase_2_4_stage_11_1/REVISION_INTERFACE.json`.
+
+### OPS-S11.1-C4 - four-hour coverage checkpoint inspected
+
+**Hypothesis.** Completed coverage and remaining admitted work support continued execution within the original local commission.
+
+**METHOD.** Inspect the predefined four-hour produce, exact native coordinator identity, frozen source pins, every current manifest disposition, available method gates and shared accounting. Record a timestamped snapshot at 20:24 UTC, rather than representing it as exact accounting at the earlier due time. Do not score an unfinished cell or alter the loaded queue.
+
+| Operational checkpoint | Inspected state |
+|---|---|
+| Completed coverage | Initial S1 matrix and S4 history; auxiliary interfaces admitted |
+| Current queue | Revision comparison active at snapshot; direct breadth and account interventions admitted behind it |
+| Selected successor | Nine items prepared and rehearsed, awaiting current owner exit |
+| Accounting snapshot | 642 attempts; 12,235.268745 charged seconds, including any active reservation |
+| Remaining GPU allowance | 74,164.731255 seconds; all branch attempt ceilings intact |
+
+**Found and means.** Continue in Gear 2. The queue has multiple admitted blocks, the selected evidence/breadth successor is ready, and the final human illustrations and Sunday packet remain outstanding. The revision block subsequently completed during this same pass; the immutable checkpoint snapshot stays intact. No branch exhaustion or resource stop requires a new commission. Optional work remains subject to reservations, actual second-reader admission and the original reporting cutoff. The next predefined checkpoint is September 19 at 04:18:24 UTC; completion/failure wakes can occur earlier. No routine ETA wake and no new tests are added.
+
+**Curator roll-up:** theory group: research operations | question: can commissioned work continue after the first coverage checkpoint? | **Infrastructure** | result: admitted work and resource capacity remain available | project meaning: continue the finite commission without first-screen closure | next engineering obligation: land complete blocks and reconcile the successor handoff | public claim: operational inspection only | curator decision required: No | detail: OPS-S11.1-C4 and `results/phase_2_4_stage_11_1/COVERAGE_4H.json`.
+
 ### OPS-S11.1-Q2 - selected evidence and breadth continuation validated
 
 **Hypothesis.** The selected frozen evidence and breadth contrasts can execute through the existing finite coordinator with exact replay, actual method admission and unchanged resource limits.
@@ -1235,6 +1325,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ## ⚠ Known weaknesses — open ones only
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
+
+**Stage 11.1 scope (L391-L396).** Human records are historically exposed; the initial production matrix has one dependency component and the history comparison has three. Pilot syntax admission does not establish reliable scientific realization. Invalid accounts can pass only a marker downstream, and invalid forecasts remain scored and charged. A history hypothesis can contain unsupported motive prose despite its instruction; its syntactic validity is not historical or mental-state validation. Matched coverage can select different writers, character-matched history is not token-matched, and released revision categories are not the author's purpose. Current cheap controls do not consume newly revealed history. No fresh confirmation or general maker-model recovery is established; unfinished branches and the final packet remain pending. Viewer visual QA is still unperformed because no native browser surface is enabled.
 
 **Local Stage 10 scope (L386-L388).** All five ScholaWrite projects have complete comparisons over 87 evaluation boundaries; repeated views and overlapping training roles are not independent replications. CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. The earlier-draft cheap-prior omission was completed separately in L389; original model scores are unchanged. The small ArgRewrite current-draft forecasts have invalid probability sums, retained in the system score. The original reserved reconstruction pilot failed; its separate scoped interface repair and complete comparison are now retained in L388. The original pilot truncated a direct forecast; both finite queues are now closed. These are explicit limits, not permission to erase outcomes or claim untested generalization.
 

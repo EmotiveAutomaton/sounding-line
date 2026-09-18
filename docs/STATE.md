@@ -9,12 +9,17 @@ pass independently and are internally landed as OPS-S11.1-I4. The complete initi
 review comparison is now internally landed as L393, with all sequential intermediates
 replayed and 96 aggregate score fields independently verified. The complete account
 initial and whole initial comparison are landed as L394, with 120 independently
-verified aggregate fields. Both auxiliary pilots are landed as OPS-S11.1-I5. No unfinished
+verified aggregate fields. Both auxiliary pilots are landed as OPS-S11.1-I5. The
+history comparison is complete and landed as L395, with exact source-plan replay,
+all 72 calls and 144 independently checked fields. The revision pilot is admitted
+as OPS-S11.1-I6 and its full five-project comparison is landed as L396, with all
+fifty calls and six aggregate fields independently checked. No unfinished
 scientific comparator has been ranked; the Sunday packet remains pending.
 The finite 17-item coordinator is live as native PID 60004, creation ticks
 134342285739723118. It took the shared producer lock after native direct worker
 51860 exited normally. It completed both matched initial arms and both auxiliary
-pilots and is running S4 history, with revision and breadth next. It never edits, interrupts
+pilots, S4 history and released revision, and is running S3 initial direct breadth,
+with account interventions next. It never edits, interrupts
 or duplicates the original worker.
 Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
 attempts, including 536 conditional extension attempts. Shared ceilings remain.
@@ -61,10 +66,11 @@ Whole-bank completion, failure and native disappearance were registered with the
 actual completion delivery is observed in this conversation.
 Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
 Do not modify the sources still pinned by the live coordinator or restart valid work.
-No routine ETA wake is scheduled; next is the complete history block or the predefined
-four-hour coverage checkpoint at 20:18:24 UTC. Selected continuation follows the
-current finite queue's exit. This wake's delivery and native inspection are in
-`.agent-state/stage11-1-account-landing.json`. The account-use diagnostic retains
+The four-hour coverage checkpoint is inspected (OPS-S11.1-C4): capacity and multiple
+admitted blocks remain. No routine ETA wake is scheduled; next is a complete block
+or the twelve-hour coverage checkpoint September 19 at 04:18:24 UTC. Selected
+continuation follows the current finite queue's exit. This wake's delivery and
+native inspection are in `.agent-state/stage11-1-history-landing.json`. The account-use diagnostic retains
 invalid-recipient/donor strata; marker/empty movement cannot establish graph use.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23

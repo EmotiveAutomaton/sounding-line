@@ -23,9 +23,13 @@ and are internally landed as OPS-S11.1-I4. The complete [review initial comparis
 and [retained-output diagnostic](S1_REVIEW_CHANGES.json) are internally landed as L393.
 The complete [account initial comparison](S1_ACCOUNT_INITIAL.json) is internally
 landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-S11.1-I5.
-The coordinator now runs the history comparison. Both failed vector pilots remain charged.
+The [complete history comparison](S4_HISTORY.json) and [released-revision comparison](S3_REVISION.json)
+are internally landed as L395-L396. The [revision interface](REVISION_INTERFACE.json)
+independently passes (OPS-S11.1-I6). The coordinator now runs initial direct breadth.
+The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.
+Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
 and exact reentry; launch awaits the current coordinator's exit and disposition review.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I5.
+Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I6.
 This is an active study, not its final scientific packet.

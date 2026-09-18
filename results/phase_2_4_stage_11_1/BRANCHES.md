@@ -14,8 +14,8 @@ continuation; one combined scientific packet is due Sunday.
 | S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Review/account selected for downstream contrasts; optional extensions preserve 40,000 seconds for later branches |
 | S1 account use | Determine whether retaining an account changes useful supported inference | Sixteen initial episodes in both views, with removal and different-writer replacement; source accounts complete, validity strata recorded in L394 | Hold evidence fixed; distinguish valid account content from invalid-marker/empty effects in the complete diagnostic |
 | S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Prepared successor carries only this pair; keep policy and inference comparisons separate |
-| S3 breadth | Expand source and representation support | 32 initial and 62 remaining breadth episodes; sixteen second-reader episodes; 25 verified released ScholaWrite edits across five projects | Direct anchors, revision and installed-reader pilots in current queue; selected review/account contrasts and remaining breadth in successor, subject to actual admission |
-| S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Eight writers and sixteen later targets pass strict own/donor temporal cutoffs and matched character envelopes; pilot independently admitted, comparison running | Land the complete comparison; charge construction once and report amortized reuse |
+| S3 breadth | Expand source and representation support | Initial direct breadth running; complete 25-edit/five-project revision comparison landed as L396 after independent pilot admission | Installed-reader pilots remain in current queue; selected review/account contrasts and remaining breadth in successor, subject to actual admission |
+| S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Complete four-condition comparison on eight writers and sixteen targets internally landed as L395; exact source/temporal replay and construction/reuse accounting pass | Retain the bounded result and limitations; advance commissioned evidence/breadth work and final illustrations |
 | S5 viewer | Make hypotheses, evidence and corrections inspectable | Twelve constructed setup cases pass 84 DOM assertions; no enabled browser surface for visual QA | Populate final human illustrations after complete outcomes; retain prior forecasts and unlocated claims |
 
 No fresh human holdout exists within the admitted CoAuthor source: its exposure
@@ -45,6 +45,8 @@ All actual tasks pass context checks; the literal nine-item rehearsal completes
 Launch requires the exact current owner to exit and its dispositions to be reviewed.
 The ceilings may stop optional items; this preparation does not promise their completion.
 
+The [four-hour coverage checkpoint](COVERAGE_4H.json) is inspected: multiple admitted
+blocks and resource capacity remain; selected continuation is still prepared, not launched.
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the
 new clock: September 18 20:18 UTC; September 19 04:18, 16:18 UTC; September 20 04:18
 UTC. These are internal scientific reviews, not routine liveness messages. The

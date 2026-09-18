@@ -23,11 +23,15 @@ archive, kept whole, mined but never deleted.
 - [x] L394 / OPS-S11.1-Q2: validate selected review/account evidence and breadth queue; all nine items rehearse with 92 fake attempts and exact no-call reentry.
 - [ ] L394 / S2-S3: launch prepared QUEUE-selected-v1 only after the current coordinator exits and its full disposition is reconciled; retain shared ceilings and actual per-method admission.
 - [ ] L394 / account use: land the full predeclared diagnostic with valid/invalid recipient and donor strata; assess the bounded repair only from that complete result.
+- [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
+- [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
+- [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
+- [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
 - [ ] S1: separate account-removal/replacement diagnostic; at most one additional scientific account variant if justified.
 - [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.
 - [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
-- [ ] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history.
+- [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
 - [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.
 
 Gear 2 is explicitly retained. New clock: September 18 16:18:24 UTC; checkpoint
