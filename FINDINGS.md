@@ -9,6 +9,44 @@ ran it.
 
 ---
 
+### L401 - breadth review repairs invalid outputs without adding useful production events
+
+**Hypothesis.** A second direct pass on the same evidence improves witnessed production recovery on the separate breadth episodes, beyond one-pass reading and inexpensive controls.
+
+**METHOD.** Complete the frozen reviewed-direct chain on the same thirty-two CoAuthor breadth episodes as L397: nine writers, seventeen sessions, twenty-six creative and six argumentative cases, with one connected dependency component. Each first call sees the endpoint, before text and displayed alternatives; its second call receives the same evidence plus the retained first forecast or an explicit invalid marker. Compare with the independently completed one-pass reference, frozen training marginal and fixed text alignment. Replay all sixty-four review calls and thirty-two reference calls without inference; reproduce source selection, targets, fit and exact requests, and independently check ninety-one score, yield and transition fields.
+
+**Found.** The second pass leaves all twenty-six valid first forecasts unchanged and recovers three of six invalid outputs. All thirty-two first-call requests and raw response contents match the earlier direct reference. The improvement therefore comes entirely from previously invalid outputs in this block. Production and handling probability losses improve, but no useful positive event or correctly located useful event is added. Both cheap rivals still beat review on every production loss. This supports bounded interface recovery, not semantic self-correction or a general review advantage.
+
+All rows cover the same episodes. Half multiclass Brier loss is lower when better, averaging six slots within episode, episodes within writer, then writers equally. Useful yield requires a present event with correct actor, operation and relation; span-correct yield also requires its exact anchors and span state. Invalid final forecasts remain scored and charged. Direct uses one call; review uses two, so this is not an equal-cost comparison. Cheap controls add no model calls.
+
+| Method | Actor loss | Operation loss | Relation loss | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---:|---:|---:|---:|---:|---:|
+| Direct | 0.571031 | 0.528673 | 0.494299 | 0.216667 | 0.083333 | 6 |
+| Review | 0.523364 | 0.485509 | 0.447632 | 0.216667 | 0.083333 | 3 |
+| Alignment | 0.100134 | 0.105595 | 0.116756 | 1.877778 | 1.877778 | 0 |
+| Marginal | 0.142813 | 0.144180 | 0.150060 | 2.294444 | 0.000000 | 0 |
+
+**Reliability and correction.** The added valid outputs recover 0.150000 correct actor/operation/relation triples per writer-balanced episode, preserve all 1.783333 originally correct triples, and introduce no new error on an originally correct triple. Yet useful positive yield is unchanged: the recovered correct triples concern absence. More attempted claims raise contradicted dimensions and unsupported mental attributes. Error among the most confident quarter worsens while half-coverage error slightly improves, so improved average probability loss does not establish consistently safer selective reporting.
+
+The following table gives handling half-Brier loss, contradicted finite dimensions and unsupported mental attributes per episode, then writer-balanced operation error at the fixed most-confident quarter and half of slots. Smaller values are better. Confidence ties use the frozen outcome-independent rule; coverage fractions do not imply calibrated confidence.
+
+| Method | Handling loss | Contradicted / episode | Unsupported / episode | Quarter-coverage error | Half-coverage error |
+|---|---:|---:|---:|---:|---:|
+| Direct | 0.472926 | 4.538889 | 0.738889 | 0.413889 | 0.472316 |
+| Review | 0.419741 | 4.933333 | 0.794444 | 0.454823 | 0.461099 |
+| Alignment | 0.154120 | 1.777778 | 0.000000 | 0.055556 | 0.085083 |
+| Marginal | 0.278027 | 2.700000 | 0.000000 | 0.131746 | 0.138889 |
+
+**Support and scope.** Operation-loss improvement occurs in three writer groups and three sessions; the other groups are unchanged. Both task domains improve, but these are dependent descriptive subsets. Episode keys differ from discovery, training and development; all nine writers, seventeen sessions and three prompts overlap discovery, while none overlaps training or development. This extends episode coverage without establishing independent writer or model replication. Logarithmic production loss remains infinite for both model pipelines because invalid or zero-probability answers remain. The alignment rival retains an infinite handling logarithmic loss, while its production logarithmic losses are finite. The marginal's unlocated spans remain a separate weakness. No population interval, significance test or fresh holdout is claimed.
+
+**Accounting and validity.** All thirty-two review cost blocks close without uncertainty. The sixty-four calls retain nine invalid attempts, six first-pass and three final, all from missing or repeated target slots. Charges total 921.281988 seconds, with 920.523492 request-wall seconds, 122,786 input tokens and 50,381 output tokens. Source pins, exact plan tasks and the training fit reproduce; the frozen scorer is unchanged. Reference costs remain in L397 and are not charged again for offline replay. The repeated-request match here does not erase the earlier L398 mismatch or license a general determinism assumption.
+
+**Means and next action.** Retain review as the admitted matched-effort comparator and expose interface recovery separately from historical correction. Continue the already running account breadth block, then the frozen constructed-context comparison and remaining breadth under the existing limits. Do not rank the unfinished account or extension cells. The final contribution map and Sunday packet must preserve the cheap-rival advantage, unchanged useful yield and selective-error tradeoff. No new tests harvested from this operational wake.
+
+**Curator roll-up.** Theory group: process inference. Question: does another pass on the same evidence improve useful recovery across separate episodes? Outcome: **Narrows**. Result: review recovers three invalid outputs without adding useful positive events. Project meaning: interface repair must remain separate from historical correction. Next engineering obligation: finish the selected account/context comparisons and preserve all prior forecasts in the final illustration. Public claim: unchanged; no semantic self-correction or independent replication claim. Curator decision required: No. Detail: [aggregate replay and comparison](results/phase_2_4_stage_11_1/S3_INITIAL_REVIEW.json); private exact requests and outcomes remain in the ignored source tree. Scientific chat synthesis remains reserved for the commissioned final packet.
+
+---
+
 ### L400 - fixed before-text evidence helps more reliably than the learned query policy
 
 **Hypothesis.** One additional source observation improves production recovery and selective correction, and a reader-chosen observation improves it more than a fixed or hash-selected observation at the same retrieval count.

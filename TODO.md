@@ -32,6 +32,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
 - [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.
 - [x] L397 / S3: replay and fully land initial direct breadth, its cheap controls, exact selection/partition audit and 36 independent score fields; retain episode-versus-writer replication limits.
+- [x] L401 / S3: complete and replay initial breadth review and direct reference; reproduce selection, requests and 91 independent fields; retain invalid recovery versus useful historical correction.
+- [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; finish account breadth and frozen context/extension work.
 - [ ] L397 / S3: execute the already selected review/account breadth, admitted second-reader contrasts and remaining breadth within the existing successor and shared limits.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.

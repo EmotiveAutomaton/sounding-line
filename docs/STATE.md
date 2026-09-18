@@ -17,6 +17,9 @@ The complete human evidence/query comparison is internally landed as L400:
 all 272 calls, source observations and 264 independent fields verify. Fixed
 before-text is the provisional prototype first reveal; fresh chains and the
 observation-insensitive cheap rival remain explicit limits.
+Initial breadth review is complete and internally landed as L401: all 64 review
+and 32 reference calls replay, with 91 independent checks. Request-repeat
+stability, invalid recovery and useful historical correction remain separated.
 No unfinished comparator is ranked; the single Sunday packet remains pending.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
@@ -29,9 +32,9 @@ reader pilots and dependent contrasts are unavailable, not scientific nulls.
 The recovery coordinator is running in Gear 2 as native PID 74148, creation
 ticks 134342398262659714, executable C:/Python313/python.exe. Its frozen manifest
 is `raw/continuation/QUEUE-recovery-v1.json`. It completed the 72-call valid-account
-diagnostic and the selected human-evidence comparison. It advanced to
-`S3-initial-review-v1` at September 18 22:36:50 UTC, with initial account breadth
-and constructed context stress next. The frozen producer remains unchanged.
+diagnostic, selected human-evidence comparison and initial breadth review.
+It advanced to `S3-initial-account-v1` at September 18 22:52:34 UTC, with
+constructed context stress next. The frozen producer remains unchanged.
 The real setup and 24-call fake CLI/reentry remain OPS-S11.1-Q3; the complete
 scientific repair is L399. No valid work was restarted.
 
