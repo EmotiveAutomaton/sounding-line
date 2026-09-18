@@ -21,7 +21,11 @@ receipt](S1_REFERENCE.json) preserves invalids, coverage and separate target sco
 Both sequential interfaces independently pass their [discarded pilots](SEQUENTIAL_INTERFACE.json)
 and are internally landed as OPS-S11.1-I4. The complete [review initial comparison](S1_REVIEW_INITIAL.json)
 and [retained-output diagnostic](S1_REVIEW_CHANGES.json) are internally landed as L393.
-The coordinator now runs account initial. Both failed vector pilots remain charged.
+The complete [account initial comparison](S1_ACCOUNT_INITIAL.json) is internally
+landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-S11.1-I5.
+The coordinator now runs the history comparison. Both failed vector pilots remain charged.
+The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
+and exact reentry; launch awaits the current coordinator's exit and disposition review.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I4.
+Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I5.
 This is an active study, not its final scientific packet.

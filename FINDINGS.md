@@ -9,6 +9,87 @@ ran it.
 
 ---
 
+### OPS-S11.1-Q2 - selected evidence and breadth continuation validated
+
+**Hypothesis.** The selected frozen evidence and breadth contrasts can execute through the existing finite coordinator with exact replay, actual method admission and unchanged resource limits.
+
+**METHOD.** Select the review/account pair from the complete initial comparison in L394. Freeze a separate nine-item manifest referencing existing immutable candidate plans. Context-check every actual task and include every dynamically required method gate in the manifest, so a failed installed-reader pilot blocks its method before dispatch. Rehearse the literal CLI on a private scratch root using two episodes per plan while retaining every condition, both selected methods, and dependent query tasks. Reenter the complete queue and require identical attempt accounting. No real model calls or loaded scientific-source edits occur.
+
+The table describes complete preparation and fake execution, not scientific outcomes.
+
+| Check | Result |
+|---|---|
+| Selected finite queue | Nine items; up to 1,542 additional calls |
+| Literal rehearsal | All nine items complete; 92 fake attempts |
+| Replay | Exact complete reentry; no additional attempts |
+| Input/gate validation | Every real task passes context checks; all actual per-method gates retained |
+| Launch state | Prepared, not launched; exact current coordinator exit and disposition review required |
+
+**Found.** The selected queue passes. The initial private sampling helper incorrectly assumed every reveal was query-selected; fixed-choice reveals also exist. That preparation-only failure launched no model calls and changed no frozen plan. The corrected rehearsal preserves fixed and chosen reveals, random observations, and true/irrelevant/misleading twin conditions. Human evidence comes first, followed by initial leading breadth, constructed twins, second-reader contrasts and remaining breadth. One-pass direct remains the reference and query-policy anchor; both cheap rivals remain in analysis. Only one prepared method pair is activated for S2.
+
+**Means.** Leave the live seventeen-item coordinator unchanged. Its terminal selection/exit wake triggers reconciliation and launch of this prepared successor. Queued work is not guaranteed to fit: shared call, branch, GPU and reporting gates remain binding, and optional breadth may stop under those limits. The current queue's later-branch reserve is preserved. This is operational readiness, not empirical support for the selected methods or a new campaign. No tests harvested from the operational wake.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can the selected downstream comparison run safely through the existing finite queue? | **Infrastructure** | result: selected continuation passes literal execution and exact reentry | project meaning: the commissioned evidence and breadth work is ready for the next native handoff | next engineering obligation: reconcile the current coordinator exit and launch the prepared successor within unchanged limits | public claim: preparation only | curator decision required: No | detail: OPS-S11.1-Q2 and `results/phase_2_4_stage_11_1/SELECTED_CONTINUATION.json`.
+
+### OPS-S11.1-I5 - query and earlier-history interfaces admitted
+
+**Hypothesis.** The evidence selector can choose only a declared observation, and the reusable-history builder can emit a bounded hypothesis without seeing a target artifact or answer.
+
+**METHOD.** Run the separately frozen two-call discarded constructed pilot for each auxiliary interface, then replay both literal producers without inference. Verify plan/source bindings, passing gate contents, public-input whitelists and every closed cost block. Query requests contain public evidence and menu descriptions, without the observations' contents. History requests contain only the earlier recorded-choice string. Syntax realization admits execution; it does not score query usefulness, historical accuracy or human attention.
+
+Each row is one complete discarded pilot. Calls and invalids are raw counts; charged GPU seconds include block overhead and remain in the shared integration ledger.
+
+| Auxiliary interface | Calls | Invalid | Offline semantic replays | Charged GPU seconds |
+|---|---:|---:|---:|---:|
+| Choose a next observation | 2 | 0 | 2 | 9.652267 |
+| Describe an earlier-history hypothesis | 2 | 0 | 2 | 15.966024 |
+
+**Found.** Both independent pilots pass, adding four attempts and 25.618292 charged seconds. Their source and gate receipts replay exactly. The coordinator has already started the admitted earlier-history comparison; the query gate is available for the selected evidence branch. Total accounting through these pilots, before ongoing history work, is 518 attempts and 10,206.849657 charged seconds.
+
+**Means.** Continue the prepared history comparison and admit the selected query/evidence plans subject to the same resource and method gates. Neither a valid menu choice nor a grammatical history hypothesis establishes scientific utility. No tests harvested from this operational wake; no method, gear, source or deadline changed.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can the bounded observation and history interfaces execute without target access? | **Infrastructure** | result: both discarded auxiliary pilots pass | project meaning: the commissioned evidence and history comparisons can proceed | next engineering obligation: land the complete history block and execute the selected evidence comparison | public claim: interface admission only | curator decision required: No | detail: OPS-S11.1-I5 and `results/phase_2_4_stage_11_1/AUXILIARY_INTERFACE.json`.
+
+### L394 - complete initial account comparison and downstream method selection
+
+**Hypothesis.** Constructing a typed contribution account before prediction improves witnessed production recovery beyond direct reading, equally budgeted direct review and inexpensive controls on identical evidence.
+
+**METHOD.** Complete the account arm on the same frozen 32 initial episodes and both blind tiers already scored for direct and review: fourteen writers, twenty sessions, 22 creative and ten argumentative episodes, one connected dependency component. Account construction precedes a separately persisted prediction call. Both two-pass methods share the pinned Qwen 3.5 9B model, seed 1101, temperature zero, 16,384 context, 2,048 tokens per call, four threads, disabled thinking and 3,072-byte retained-intermediate ceiling. An invalid account supplies the declared invalid-intermediate marker to the already budgeted second call; no silent repair or extra call occurs. Compare all complete initial methods, preserving invalid outputs, separate actor/operation/relation and span scores, and the uncalibrated compact confidence mapping. Reconstruct all requests and parse raw outputs; independently recompute the finite score arithmetic. Mechanical account acceptance is not historical validation.
+
+**Found.** The account pipeline has no consistent advantage over direct reading or matched review and loses to both cheap rivals on every production-dimension probability comparison. It improves operation probability loss over both model rivals in both tiers, but actor, relation, handling and useful-event comparisons do not move together. Most first-pass accounts fail the mechanical contract, so the pipeline's observed gains cannot be attributed to consuming a valid contribution graph.
+
+Each row is a complete initial evidence tier and method. Artifact is the endpoint plus common menu-availability fact; alternatives adds before text, all offers and mechanical differences. Direct uses one call; review and account use two. Marginal is the smoothed training-only prior; alignment adds the fixed public-text mixture and equals marginal at artifact-only evidence. Actor, operation and relation losses are half multiclass Brier losses, lower being better, averaging slots within episode, episodes within writer, then writers equally. Useful yield requires a present event with correct actor/operation/relation choices; span-correct useful yield also requires its exact anchor set and span state. Final invalids are raw counts among 32 final forecasts per model/tier. No overall score combines the target families.
+
+| Evidence | Method | Actor loss | Operation loss | Relation loss | Useful / episode | Span-correct useful / episode | Final invalid |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Artifact | Direct | 0.487540 | 0.531528 | 0.409286 | 0.369048 | 0.035714 | 1 |
+| Artifact | Review | 0.463730 | 0.507059 | 0.378878 | 0.369048 | 0.035714 | 0 |
+| Artifact | Account | 0.514577 | 0.456825 | 0.430635 | 0.083333 | 0.000000 | 2 |
+| Artifact | Marginal | 0.145252 | 0.146453 | 0.157897 | 2.226190 | 0.000000 | 0 |
+| Alternatives | Direct | 0.554312 | 0.542730 | 0.478829 | 0.261905 | 0.023810 | 6 |
+| Alternatives | Review | 0.523386 | 0.528841 | 0.466925 | 0.297619 | 0.023810 | 4 |
+| Alternatives | Account | 0.517976 | 0.519683 | 0.484453 | 0.273810 | 0.035714 | 4 |
+| Alternatives | Alignment | 0.111933 | 0.115864 | 0.140109 | 1.678571 | 1.654762 | 0 |
+| Alternatives | Marginal | 0.145252 | 0.146453 | 0.157897 | 2.226190 | 0.000000 | 0 |
+
+**Realization and retained failures.** Only eighteen of 64 first-pass accounts are valid, all nonempty: ten artifact accounts containing sixty events and eight alternatives accounts containing 35 events. Passing the graph's reference/order checks does not establish that any of these events happened. The other 46 accounts fail on span-state/reference mismatch (25), duplicate event or slot (19), or impossible proposed order (two). All six final forecast failures duplicate or omit a target slot. The complete arm therefore retains 52 invalid attempts, not merely its six invalid final forecasts. Every one of the eighteen valid accounts has a valid final forecast; forty invalid accounts also lead to a valid final forecast from the explicit marker, and six remain invalid. Those forty outputs cannot be credited as successful use of a retained account. First-pass failure and final historical error remain distinct.
+
+Account-minus-review actor/operation/relation losses are +0.050847/-0.050233/+0.051757 for artifact and -0.005410/-0.009158/+0.017528 for alternatives. Against direct, they are +0.027037/-0.074702/+0.021349 and -0.036336/-0.023047/+0.005624. Negative favors account. Writer-level operation differences against either comparator range from -0.573056 to +0.406389 for artifact and -0.310764 to +0.441389 for alternatives; the complete sorted distributions remain in the receipt. All support is historically exposed, the writers are dependent, and no p-value, population interval or fresh confirmation is claimed.
+
+Account actor/operation/relation accuracies are 0.468254/0.492063/0.519841 for artifact and 0.480159/0.454365/0.494048 for alternatives. Secondary handling loss is 0.615437 and 0.460635, with accuracy 0.369048 and 0.511905. Every account production dimension and handling cell retains infinite log loss; invalids and confident zero-probability errors are not smoothed away. Exact span accuracy is 0.055556 and 0.109127, but correctly located positive yield is zero and 0.035714. A correct absent span or relation is not positive historical recovery.
+
+At the fixed 0.75 confidence threshold, account operation coverage is 0.773810 and 0.755952; unresolved fractions are 0.226190 and 0.214286. At half coverage, writer-mean operation error is 0.436436 and 0.483222, with all fourteen writers represented. These values outperform review's corresponding operation risks but remain above the cheap controls; they do not combine into a general account advantage. Contradicted finite claims average 4.238095 and 5.321429 per episode. Unsupported review/endorsement/understanding claims average 0.761905 and 1.261905, higher than either model rival in both tiers. Span-state/overlap metrics, all five coverage levels and target/group distributions remain separately available in the aggregate receipt.
+
+**Cost and integrity.** All 128 account attempts and 64 closed blocks replay with no transport uncertainty or retries. Input/output tokens total 207,151/87,977; request wall time is 2,111.905402 seconds, server duration 2,109.710701 seconds and charged GPU service 2,113.418322 seconds. Account/review wall-time ratios are 0.882055 for artifact and 0.734724 for alternatives; account/direct ratios are 1.736022 and 1.430515. Equal token/call ceilings do not imply equal realized time or equal amounts of valid intermediate content. At account-plan completion, the new-stage ledger totals 514 attempts and 10,181.231365 charged seconds. All 128 account attempts and 192 comparator calls reparse; 120 independently calculated aggregate score fields match. Source, target, roster, view and analysis bindings are unchanged. The actual account/query wake reached this conversation; the same native coordinator advanced through the two admitted auxiliary pilots into the history block.
+
+**Disposition and method selection.** Advance to the already prepared review/account pair in S2, with both cheap rivals retained. This is a declared choice from the separate target results, not a fabricated composite winner: review supplies the stronger relation, artifact-actor and useful-event reference; account supplies the lower operation losses and alternatives handling loss. The matched two-pass ceilings preserve the intended account-versus-review contrast. One-pass direct remains the cheaper completed reference and the common query-policy reader. S3 carries account, the strongest direct procedure (review), and the cheap controls beside its already queued one-pass anchor. Freeze this choice on the complete initial matrix before scoring those new conditions; later extensions cannot retroactively make it confirmatory. The high account failure rate remains part of the tested pipeline, not a reason to score only surviving graphs.
+
+The frozen account-use diagnostic remains separate. A pre-dispatch source check finds only five of its 32 replacement conditions have both a valid original recipient account and a valid donor; sixteen donors are invalid, and 23 of 32 removal recipients have invalid original accounts. The runner explicitly carries invalid donors as the marker and removes accounts as an empty event list. Keep the full diagnostic and these strata visible: marker-versus-empty changes cannot establish sensitivity to valid account content. Its eventual complete result, rather than movement alone, will determine whether the already authorized bounded diagnostic repair is useful. No loaded producer or original plan is edited.
+
+**Means.** Preserve the narrow operation benefit and the failures in actor/relation recovery, graph realization and mental-attribute restraint. Neither this pipeline nor its cheap rivals identify an exhaustive history, intended experience, values or a percentage of human contribution. Pursuit: prepared evidence/ambiguity and source/reader breadth comparisons, while independent history work continues. Warrant: the complete descriptive initial implementation comparison only; model extensions remain unranked. No tests harvested beyond the existing branch commission, no gear or budget change, and no first-screen closure. One final curator packet remains due Sunday.
+
+**Curator roll-up:** theory group: historical production recovery | question: does an account consumed before prediction outperform direct and equally budgeted reviewed reading? | **Narrows** | result: operation loss improves but there is no consistent account advantage and graph realization often fails | project meaning: representation use, syntactic admission and useful historical recovery must remain separate claims | next engineering obligation: execute the selected evidence/breadth contrasts and stratify account interventions by valid recipient/donor content | public claim: no general account advantage; general reconstruction theory unchanged | curator decision required: No | detail: L394 and `results/phase_2_4_stage_11_1/S1_ACCOUNT_INITIAL.json`.
+
 ### L393 - initial direct review recovers invalid outputs without revising valid forecasts
 
 **Hypothesis.** A second direct-reading pass on the same evidence improves recovery of witnessed production relations beyond one-pass direct reading and the frozen inexpensive rivals.

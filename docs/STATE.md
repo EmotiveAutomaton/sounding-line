@@ -7,12 +7,14 @@ tranches and cheap controls replay, with 144 independently checked score fields.
 The whole-bank event reached this owner conversation. Both sequential pilots also
 pass independently and are internally landed as OPS-S11.1-I4. The complete initial
 review comparison is now internally landed as L393, with all sequential intermediates
-replayed and 96 aggregate score fields independently verified. No unfinished
+replayed and 96 aggregate score fields independently verified. The complete account
+initial and whole initial comparison are landed as L394, with 120 independently
+verified aggregate fields. Both auxiliary pilots are landed as OPS-S11.1-I5. No unfinished
 scientific comparator has been ranked; the Sunday packet remains pending.
 The finite 17-item coordinator is live as native PID 60004, creation ticks
 134342285739723118. It took the shared producer lock after native direct worker
-51860 exited normally. It completed matched review initial and is running account
-initial, with independent query/history admission next. It never edits, interrupts
+51860 exited normally. It completed both matched initial arms and both auxiliary
+pilots and is running S4 history, with revision and breadth next. It never edits, interrupts
 or duplicates the original worker.
 Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
 attempts, including 536 conditional extension attempts. Shared ceilings remain.
@@ -20,8 +22,15 @@ Completion, failure, disappearance and the brief's scientific checkpoints notify
 through the existing watcher. No routine ETA wake is added. Ownership and terminal
 paths are in `.agent-state/stage11-1-continuation-live.json`.
 
-Prepared S2 candidate pairs, S3 leading contrasts and remaining breadth are ready
-for explicit selection from completed comparisons. Independent history, revision,
+The prepared S2 review/account pair, S3 leading contrasts and remaining breadth are
+selected from the complete initial matrix. Their nine-item successor is frozen at
+`raw/continuation/QUEUE-selected-v1.json`: 1,542 maximum calls, all real tasks
+context-checked, 92 fake attempts across all items/conditions, immutable reentry.
+It is PREPARED, NOT LAUNCHED. Inspect setup-v1 AWAITING_SELECTION and native EXIT
+before launching it through the same coordinator CLI; never overlap coordinators
+or edit the running manifest. Missing second-reader admission skips that method.
+Shared branch/call/GPU/reporting gates remain binding; queued optional work is not
+a guarantee of fitting within remaining time. Independent history, revision,
 direct breadth and installed-reader pilots are already in the finite queue.
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
 human illustrations await complete outputs. Forty-seven targeted checks, a separate
@@ -52,9 +61,11 @@ Whole-bank completion, failure and native disappearance were registered with the
 actual completion delivery is observed in this conversation.
 Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
 Do not modify the sources still pinned by the live coordinator or restart valid work.
-No routine ETA wake is scheduled; next is the complete matched account initial,
-then explicit leading-method selection for prepared S2/S3 candidates. This event's
-delivery and native inspection are in `.agent-state/stage11-1-review-landing.json`.
+No routine ETA wake is scheduled; next is the complete history block or the predefined
+four-hour coverage checkpoint at 20:18:24 UTC. Selected continuation follows the
+current finite queue's exit. This wake's delivery and native inspection are in
+`.agent-state/stage11-1-account-landing.json`. The account-use diagnostic retains
+invalid-recipient/donor strata; marker/empty movement cannot establish graph use.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23
 sessions, all marked historically exposed. Discovery and breadth remain descriptive;

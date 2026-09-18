@@ -11,11 +11,11 @@ continuation; one combined scientific packet is due Sunday.
 | Branch | Pursuit | Current evidence/readiness | Next action |
 |---|---|---|---|
 | S0 diagnosis | Separate interface, decision, support and control failures | Offline 204-response replay and separate training-cap sensitivity internally landed, L391 | Carry the prior and low-dimensional alignment rival into the common comparison |
-| S1 common form | Account-first inference versus direct reading and matched review | Both complete direct-reference tranches internally landed (L392); review/account pilots independently pass (OPS-S11.1-I4); matched review initial complete and internally landed (L393), account initial running | Finish account initial before selecting prepared S2/S3 comparisons; optional extensions preserve 40,000 seconds for later branches |
-| S1 account use | Determine whether retaining an account changes useful supported inference | Sixteen initial episodes in both views, with removal and different-writer replacement, prepared and gated on complete original accounts | Hold public evidence fixed; score accuracy, useful claims and susceptibility separately |
-| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; all candidate method pairs prepared and context-checked; query pilot queued | Select leading viable methods from completed S1 comparisons; activate one candidate pair, keeping policy and inference comparisons separate |
-| S3 breadth | Expand source and representation support | 32 initial and 62 remaining breadth episodes; sixteen second-reader episodes; 25 verified released ScholaWrite edits across five projects | Direct references, revision and installed-reader pilots queued; activate leading comparisons after complete S1 selection |
-| S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Eight writers and sixteen later targets pass strict own/donor temporal cutoffs and matched character envelopes | History pilot and four-condition comparison queued; charge construction once and report amortized reuse |
+| S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Review/account selected for downstream contrasts; optional extensions preserve 40,000 seconds for later branches |
+| S1 account use | Determine whether retaining an account changes useful supported inference | Sixteen initial episodes in both views, with removal and different-writer replacement; source accounts complete, validity strata recorded in L394 | Hold evidence fixed; distinguish valid account content from invalid-marker/empty effects in the complete diagnostic |
+| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Prepared successor carries only this pair; keep policy and inference comparisons separate |
+| S3 breadth | Expand source and representation support | 32 initial and 62 remaining breadth episodes; sixteen second-reader episodes; 25 verified released ScholaWrite edits across five projects | Direct anchors, revision and installed-reader pilots in current queue; selected review/account contrasts and remaining breadth in successor, subject to actual admission |
+| S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Eight writers and sixteen later targets pass strict own/donor temporal cutoffs and matched character envelopes; pilot independently admitted, comparison running | Land the complete comparison; charge construction once and report amortized reuse |
 | S5 viewer | Make hypotheses, evidence and corrections inspectable | Twelve constructed setup cases pass 84 DOM assertions; no enabled browser surface for visual QA | Populate final human illustrations after complete outcomes; retain prior forecasts and unlocated claims |
 
 No fresh human holdout exists within the admitted CoAuthor source: its exposure
@@ -36,6 +36,14 @@ is registered with the durable watcher for internal write-through. The coordinat
 emits a selection disposition when this finite list exhausts; it does not close
 the campaign. [Method and continuation contract](../../runners/stage11_1/METHOD-CONTINUATION.md),
 [setup validity](CONTINUATION_SETUP.json).
+
+The selected successor is frozen separately, leaving the loaded manifest intact.
+Its nine items permit up to 1,542 additional calls: human evidence, initial leading
+breadth, constructed twins, gated second-reader contrasts, then remaining breadth.
+All actual tasks pass context checks; the literal nine-item rehearsal completes
+92 fake attempts and reentry adds none. [Selection receipt](SELECTED_CONTINUATION.json).
+Launch requires the exact current owner to exit and its dispositions to be reviewed.
+The ceilings may stop optional items; this preparation does not promise their completion.
 
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the
 new clock: September 18 20:18 UTC; September 19 04:18, 16:18 UTC; September 20 04:18

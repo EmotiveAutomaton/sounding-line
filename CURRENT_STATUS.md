@@ -5,11 +5,16 @@
 The commissioned continuation is active. Both direct-reference tranches are complete,
 replayed and internally landed (L392). Review and account each passed their separate
 literal pilot (OPS-S11.1-I4). Matched review initial is complete and internally landed
-(L393); the finite coordinator is running account initial, followed by independent
-history, revision and breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
+(L393); account initial is complete and internally landed (L394). Query and history
+pilots pass (OPS-S11.1-I5), and the finite coordinator is running the history comparison,
+followed by revision and breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
 the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
 uncertain attempts stop for explicit reconciliation. Completed comparisons determine
-which already prepared evidence and transfer candidates run next.
+which already prepared evidence and transfer candidates run next. The selected
+review/account pair and remaining breadth form a validated nine-item successor
+queue, up to 1,542 attempts. It is prepared, not launched: the existing coordinator
+must first exit and its dispositions be reconciled. Shared resource gates may
+stop optional work before all queued items finish.
 
 All 47 targeted tests, a separate checkpoint check, the whole 17-item queue rehearsal
 and 84 viewer state assertions pass. The twelve-case viewer is a constructed setup
@@ -17,7 +22,8 @@ preview; human illustrations and the final stage synthesis await complete compar
 Browser visual QA is unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Readiness and continuation](results/phase_2_4_stage_11_1/BRANCHES.md),
-[validation receipt](results/phase_2_4_stage_11_1/CONTINUATION_SETUP.json).
+[validation receipt](results/phase_2_4_stage_11_1/CONTINUATION_SETUP.json),
+[selected continuation](results/phase_2_4_stage_11_1/SELECTED_CONTINUATION.json).
 
 ## Stage 11 complete - 2026-09-18
 
