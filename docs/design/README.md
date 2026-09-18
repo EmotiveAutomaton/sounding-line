@@ -9,6 +9,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-18)
 
+- **Stage 11.1 is active:** [branching continuation](PHASE_2_4_STAGE_11_1_CONTEXT.md), filed byte-for-byte from `SOUNDING_LINE_STAGE_11_1_BRANCHING_STUDY_2026-09-18.md` at the curator's request. Gear 2 is explicitly retained. Historical immutable authority records preserve the original supplied filename; this is its operative location. [Branch readiness](../../results/phase_2_4_stage_11_1/BRANCHES.md).
+
 - **Stage 11 is complete (L390):** [retrospective contribution commission](PHASE_2_4_STAGE_11_CONTEXT.md), filed unchanged from the supplied September 18 specification. Explicit Gear 2 instruction supersedes its default gear only; finite sample, call, GPU and deadline limits remain. [Runner contract](../../runners/stage11/README.md).
 - **APPLIED September 18:** [contribution, context and selective-attention errata](archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-18.md). All ten exact operations across six amendments passed isolated-copy checks and theory lint. Prior quotations and empirical rows are unchanged. The loose parent copy was deleted after byte-identical archival, as requested.
 

@@ -1,5 +1,23 @@
 # Current status
 
+## Stage 11.1 running in Gear 2 - 2026-09-18
+
+The commissioned continuation is active. Its direct reference run is preserved;
+a validated finite coordinator waits for its normal completion and then runs
+independent method pilots, matched comparisons, history, revision and breadth
+work. Up to 1,058 additional attempts are queued, with later-branch reserves and
+the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
+uncertain attempts stop for explicit reconciliation. Completed comparisons determine
+which already prepared evidence and transfer candidates run next.
+
+All 47 targeted tests, a separate checkpoint check, the whole 17-item queue rehearsal
+and 84 viewer state assertions pass. The twelve-case viewer is a constructed setup
+preview; human illustrations and scientific conclusions await complete outputs.
+Browser visual QA is unavailable. The original brief is filed unchanged in the
+[active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
+[Readiness and continuation](results/phase_2_4_stage_11_1/BRANCHES.md),
+[validation receipt](results/phase_2_4_stage_11_1/CONTINUATION_SETUP.json).
+
 ## Stage 11 complete - 2026-09-18
 
 The finite Gear 2 commission is complete (L390). Both frozen evaluation tranches,

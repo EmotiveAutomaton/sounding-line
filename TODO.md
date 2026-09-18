@@ -7,6 +7,8 @@ archive, kept whole, mined but never deleted.
 
 ## Stage 11.1 commissioned - 2026-09-18
 
+- [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.
+- [ ] OPS-S11.1-Q1: land each complete queued block; select prepared S2/S3 leading-method plans from complete S1 comparisons, then populate final human illustrations and the single Sunday packet.
 - [x] L391 / S0: reparse 204 retained responses; report the training-cap deviation and separate sensitivity; preserve the published table.
 - [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
 - [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.

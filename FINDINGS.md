@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S11.1-Q1 - finite continuation queue and remaining branch preparation
+
+**Hypothesis.** The commissioned branches can proceed through a finite, replayable queue while failed methods remain isolated and later comparisons retain compute capacity.
+
+**METHOD.** Freeze outcome-blind evidence/query candidates, separate breadth and installed-reader plans, earlier-history comparisons and the existing ScholaWrite revision adapter. Exercise the literal coordinator CLI across every queued branch on a private scratch root, then reenter it without new attempts. Test known-answer correction against identity and harmful-change cases, strict temporal cutoffs, private-field exclusion, paired evidence, gate verdicts, response/target tampering, partial attempts, uncertain transport, owner stops and cost-receipt failure. Preserve every loaded direct-worker source. File the original branching brief unchanged in the active design folder.
+
+The table reports complete setup checks and finite preparation, not scientific performance.
+
+| Check or prepared scope | Outcome |
+|---|---|
+| Targeted Python suite | 47 checks pass; one additional predefined-checkpoint boundary check passes |
+| Literal whole-queue rehearsal | 17 items complete, 89 fake attempts; exact reentry adds none |
+| Shared research locks | All 21 verify |
+| Queue allowance | Up to 1,058 further attempts; 536 are optional S1 extension attempts behind later-branch reserves |
+| Evidence / ambiguity preparation | Sixteen human episodes and 24 executed twin pairs; leading-method activation awaits completed S1 comparisons |
+| History preparation | Eight writers, two later targets each; both own and donor histories precede target onset |
+| Revision / breadth preparation | Twenty-five released edits across five projects; 32 initial and 62 remaining breadth episodes, sixteen second-reader episodes |
+| Constructed viewer | Twelve cases pass 84 DOM assertions; visual inspection unavailable because no browser surface is enabled |
+
+**Found.** The finite queue and its replay pass. The rehearsal caught a changing timestamp in an immutable owner record; the record now binds stable native identity. The final audit also required refusal of stopped-plan redispatch and GPU-lock release even when the closing cost receipt cannot be written. All three failure cases remain tested. The continuation coordinator is observed waiting for the exact existing native producer; it cannot take the shared producer lock until that owner exits normally. A separate inexpensive helper emits only the brief's predefined scientific coverage and reporting checkpoints. Per-method pilot admission remains required; setup success does not claim that any unrun model interface or scientific comparison has passed.
+
+**Means.** Continue admitted work in Gear 2 with the original ceilings and cooling settings. Complete cells notify for full internal write-through; failed pilots retire only their own method, while partial/uncertain attempts stop for explicit reconciliation. The account-use diagnostic, evidence-policy comparisons, reusable histories and second-reader comparisons retain their separate estimands. The CPU alignment rival stays the frozen text-only comparator in assisted conditions; its inability to use a newly revealed trace is explicit. Final human illustrations and leading-method selection remain outcome-dependent. No new research tests were harvested beyond the authorized branch brief and this setup/validity request. The sole remaining source-name reference in the immutable contract is historical provenance, with its filed location mapped in the design index.
+
+**Curator roll-up:** theory group: contribution-map instrument | question: can the full authorized continuation run without conflating failures, retries or incomplete comparisons? | **Infrastructure** | result: the finite queue passes its complete rehearsal | project meaning: independent prepared branches can continue while completed comparisons determine the next method selection | next engineering obligation: land completed cells and activate the frozen leading-method candidates | public claim: setup validation only | curator decision required: No | detail: OPS-S11.1-Q1 and `results/phase_2_4_stage_11_1/CONTINUATION_SETUP.json`.
+
 ### OPS-S11.1-I3 - compact direct interface admitted with original failures retained
 
 **Hypothesis.** A compact finite forecast can realize the common target form without allowing invalid vectors or unsupported account structure to block unrelated methods.

@@ -2,6 +2,25 @@
 
 ## Stage 11.1 active - 2026-09-18
 
+Remaining branch setup is validated and internally landed as OPS-S11.1-Q1.
+The finite 17-item coordinator is live as native PID 60004, creation ticks
+134342285739723118. It waits for the exact existing direct worker before taking
+the shared producer lock; it never edits, interrupts or duplicates that worker.
+Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
+attempts, including 536 conditional extension attempts. Shared ceilings remain.
+Completion, failure, disappearance and the brief's scientific checkpoints notify
+through the existing watcher. No routine ETA wake is added. Ownership and terminal
+paths are in `.agent-state/stage11-1-continuation-live.json`.
+
+Prepared S2 candidate pairs, S3 leading contrasts and remaining breadth are ready
+for explicit selection from completed comparisons. Independent history, revision,
+direct breadth and installed-reader pilots are already in the finite queue.
+The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
+human illustrations await complete outputs. Forty-seven targeted checks, a separate
+checkpoint check, the 17-item literal rehearsal and 84 viewer DOM assertions pass.
+Visual browser QA is unavailable because the native inventory has no enabled surfaces.
+The commission is filed unchanged at `docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`.
+
 The curator commissioned the root Stage 11.1 branching brief and explicitly
 corrected allocation to stay in Gear 2. CONTRACT.json preserves the initial default;
 ALLOCATION.json records the active override. Cooling controls and finite limits

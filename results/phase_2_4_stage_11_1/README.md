@@ -5,7 +5,7 @@ retained Gear 2. The new clock and ceilings are separate: 6,400 model attempts,
 24 charged GPU hours, Sunday September 20 at 15:00 UTC checkpoint. Reporting starts
 two hours earlier. All historical Stage 11 plans, costs and results remain intact.
 
-The active [commission](../../SOUNDING_LINE_STAGE_11_1_BRANCHING_STUDY_2026-09-18.md)
+The active [commission](../../docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md)
 defines S0 diagnosis, S1 account/direct comparisons, S2 evidence and ambiguity,
 S3 breadth/reader transfer, S4 reusable history, and S5 the inspected local viewer.
 Every block retains pursuit, warrant and a named next action. Early completion
