@@ -26,11 +26,17 @@ landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-
 The [complete history comparison](S4_HISTORY.json) and [released-revision comparison](S3_REVISION.json)
 are internally landed as L395-L396. The [revision interface](REVISION_INTERFACE.json)
 independently passes (OPS-S11.1-I6). The [initial direct breadth reference](S3_INITIAL_DIRECT.json)
-is complete and internally landed as L397. The coordinator now runs account interventions.
+is complete and internally landed as L397. The [original account intervention](S1_ACCOUNT_INTERVENTIONS.json)
+is fully landed as L398; its uncontrolled account-specific attribution is void.
+The [valid-account control repair](ACCOUNT_USE_REPAIR_SETUP.json) now runs in Gear 2.
+The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
+reconciled; [recovery launch](RECOVERY_LAUNCH.json) verifies the new native owner.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.
 Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
-and exact reentry; launch awaits the current coordinator's exit and disposition review.
+and exact reentry; its unchanged plans are now carried in the recovery queue
+after exact original-owner exit and failure reconciliation. Conditional extensions
+follow later branches; unavailable second-reader methods remain gated.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I6.
+Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I7.
 This is an active study, not its final scientific packet.

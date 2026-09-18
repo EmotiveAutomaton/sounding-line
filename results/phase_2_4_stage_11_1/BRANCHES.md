@@ -12,9 +12,9 @@ continuation; one combined scientific packet is due Sunday.
 |---|---|---|---|
 | S0 diagnosis | Separate interface, decision, support and control failures | Offline 204-response replay and separate training-cap sensitivity internally landed, L391 | Carry the prior and low-dimensional alignment rival into the common comparison |
 | S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Review/account selected for downstream contrasts; optional extensions preserve 40,000 seconds for later branches |
-| S1 account use | Determine whether retaining an account changes useful supported inference | Sixteen initial episodes in both views, with removal and different-writer replacement; source accounts complete, validity strata recorded in L394; diagnostic running | Hold evidence fixed; distinguish valid account content from invalid-marker/empty effects in the complete diagnostic |
-| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Prepared successor carries only this pair; keep policy and inference comparisons separate |
-| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader pilots remain in current queue; selected review/account contrasts and remaining breadth in successor, subject to actual admission |
+| S1 account use | Determine whether retaining an account changes useful supported inference | Original diagnostic complete and internally landed as L398; repeat variability voids account-specific attribution | Valid-account repair running: own repeats bookend removal and valid other-writer replacement; preserve complete original matrix |
+| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Active recovery queue carries only this selected pair; keep policy and inference comparisons separate |
+| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); selected Qwen contrasts and remaining breadth in active recovery queue |
 | S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Complete four-condition comparison on eight writers and sixteen targets internally landed as L395; exact source/temporal replay and construction/reuse accounting pass | Retain the bounded result and limitations; advance commissioned evidence/breadth work and final illustrations |
 | S5 viewer | Make hypotheses, evidence and corrections inspectable | Twelve constructed setup cases pass 84 DOM assertions; no enabled browser surface for visual QA | Populate final human illustrations after complete outcomes; retain prior forecasts and unlocated claims |
 
@@ -28,25 +28,23 @@ cached ScholaWrite source for current released-edit annotations. It does not inf
 AI involvement or the author's private purpose. Adapter setup stayed within the
 approximately two focused hours allowed by the brief.
 
-The 17-item serialized queue took over after the original native owner completed.
-Its original maximum additional allowance is 1,058 calls, including 536 optional extension calls, under
-the unchanged shared ceilings. Failed literal methods retire independently;
-partial/uncertain attempts stop for explicit reconciliation. Every terminal cell
-is registered with the durable watcher for internal write-through. The coordinator
-emits a selection disposition when this finite list exhausts; it does not close
-the campaign. [Method and continuation contract](../../runners/stage11_1/METHOD-CONTINUATION.md),
-[setup validity](CONTINUATION_SETUP.json).
+The original 17-item queue completed eleven items before the installed-reader
+transport timeout. Its failed request and full uncertain charge are retained;
+there is no retry or manufactured admission. All original plans remain intact.
+[Failure reconciliation](SECOND_READER_TRANSPORT.json),
+[original setup](CONTINUATION_SETUP.json).
 
-The selected successor is frozen separately, leaving the loaded manifest intact.
-Its nine items permit up to 1,542 additional calls: human evidence, initial leading
-breadth, constructed twins, gated second-reader contrasts, then remaining breadth.
-All actual tasks pass context checks; the literal nine-item rehearsal completes
-92 fake attempts and reentry adds none. [Selection receipt](SELECTED_CONTINUATION.json).
-Launch requires the exact current owner to exit and its dispositions to be reviewed.
-The ceilings may stop optional items; this preparation does not promise their completion.
+The active recovery queue contains the 72-call valid-account repair, all nine
+unchanged [selected successor](SELECTED_CONTINUATION.json) plans, and the two
+original conditional S1 extensions after later branches. Twelve items permit
+at most 2,150 calls, including 536 conditional extensions and 64 second-reader
+calls blocked by absent admission. Original resource gates and extension reserves
+remain binding; this allowance does not promise every optional completion.
+Real repair requests, recipient/donor validation and the 24-fake-call CLI/reentry
+pass. [Repair preparation](ACCOUNT_USE_REPAIR_SETUP.json),
+[verified native launch](RECOVERY_LAUNCH.json).
 
-The [four-hour coverage checkpoint](COVERAGE_4H.json) is inspected: multiple admitted
-blocks and resource capacity remain; selected continuation is still prepared, not launched.
+The [four-hour coverage checkpoint](COVERAGE_4H.json) remains inspected.
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the
 new clock: September 18 20:18 UTC; September 19 04:18, 16:18 UTC; September 20 04:18
 UTC. These are internal scientific reviews, not routine liveness messages. The

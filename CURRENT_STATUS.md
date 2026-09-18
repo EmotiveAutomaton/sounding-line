@@ -2,35 +2,35 @@
 
 ## Stage 11.1 running in Gear 2 - 2026-09-18
 
-The commissioned continuation is active. Both direct-reference tranches are complete,
-replayed and internally landed (L392). Review and account each passed their separate
-literal pilot (OPS-S11.1-I4). Matched review initial is complete and internally landed
-(L393); account initial is complete and internally landed (L394). Query and history
-pilots pass (OPS-S11.1-I5). The history comparison and released-revision comparison
-are complete and internally landed (L395-L396); the revision interface independently
-passes (OPS-S11.1-I6). Initial direct breadth is complete and internally landed
-(L397). The finite coordinator is running account interventions, with installed-reader
-pilots next. Its original allowance is up to 1,058 further attempts, with reserves and
-the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
-uncertain attempts stop for explicit reconciliation. Completed comparisons determine
-which already prepared evidence and transfer candidates run next. The selected
-review/account pair and remaining breadth form a validated nine-item successor
-queue, up to 1,542 attempts. It is prepared, not launched: the existing coordinator
-must first exit and its dispositions be reconciled. Shared resource gates may
-stop optional work before all queued items finish.
+Gear 2 continues on the reconciled recovery queue. All initial methods, history,
+revision, direct breadth and the original account intervention are fully recorded
+internally (L392-L398). The intervention audit found variation between identical
+requests; its account-specific attribution is void, while its complete outputs
+and charges remain intact. A bounded valid-account repair is running with
+unchanged-account repeats, followed by the selected evidence and breadth work.
 
-The four-hour coverage checkpoint is inspected: native ownership, source bindings,
-multiple admitted blocks and resource capacity verify. The next predefined checkpoint
-is September 19 at 04:18 UTC; completion/failure transitions notify earlier.
+The original coordinator exited during the installed-reader pilot's transport
+timeout. Both attempts and the full uncertain charge are preserved; that reader
+continuation is unavailable for this commission. The new twelve-item manifest
+retains all selected plan bindings and original conditional extensions. It allows
+at most 2,150 calls, including 536 conditional extension calls and 64 reader calls
+blocked by absent admission. All original 6,400-call / 24-GPU-hour ceilings,
+cooling limits and reporting clocks remain binding. No new account variant,
+cloud work or delegation is introduced.
 
-All 47 targeted tests, a separate checkpoint check, the whole 17-item queue rehearsal
-and 84 viewer state assertions pass. The twelve-case viewer is a constructed setup
-preview; human illustrations and the final stage synthesis await complete comparisons.
-Browser visual QA is unavailable. The original brief is filed unchanged in the
+Real repair requests and remapped graphs validate. A separate literal scratch run
+completes 24 fake calls and immutable reentry adds none. The recovery coordinator's
+native identity, loaded source pins and completion/failure monitoring verify.
+Next is the complete repair block or an actual failure; the next predefined
+coverage checkpoint is September 19 04:18 UTC. No routine ETA wake is scheduled.
+
+The twelve-case viewer remains a constructed setup preview; human illustrations
+and the final scientific packet await complete comparisons. Browser visual QA
+remains unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
-[Readiness and continuation](results/phase_2_4_stage_11_1/BRANCHES.md),
-[validation receipt](results/phase_2_4_stage_11_1/CONTINUATION_SETUP.json),
-[selected continuation](results/phase_2_4_stage_11_1/SELECTED_CONTINUATION.json).
+[Branch status](results/phase_2_4_stage_11_1/BRANCHES.md),
+[repair setup](results/phase_2_4_stage_11_1/ACCOUNT_USE_REPAIR_SETUP.json),
+[verified launch](results/phase_2_4_stage_11_1/RECOVERY_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18
 

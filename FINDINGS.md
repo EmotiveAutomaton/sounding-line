@@ -9,6 +9,101 @@ ran it.
 
 ---
 
+### L398 - account intervention movement lacks an unchanged-input control
+
+**Hypothesis.** A retained, mechanically valid production account changes the downstream reader's useful historical recovery when public evidence is held fixed.
+
+**METHOD.** Complete the frozen 64-call remove/replace diagnostic on sixteen initial CoAuthor episodes, fourteen writers and fifteen sessions, in both artifact and alternatives views. Compare with each recipient's saved original account prediction, preserving donor/recipient validity separately. Removing supplies an empty graph; replacing remaps a different writer's proposed spans to a real recipient anchor. Invalid source accounts supply the explicit invalid marker. Keep the pinned Qwen reader, temperature zero, seed 1101, four threads, context 16,384 and 2,048-token generation ceiling. Reproduce the exact plan; semantically replay all 64 new calls and 64 unique original source calls; independently calculate 168 aggregate score fields. Compare complete request JSON as well as parsed and raw outputs before interpreting prediction movement.
+
+**Found.** The diagnostic does not identify an account-specific causal effect. Twelve nominal replacements reproduce the original complete request exactly; two nevertheless change their outputs. Most source graphs in this subset are invalid, and only five replacement comparisons have both a valid recipient and a valid donor, all in the alternatives view. The complete descriptive scores remain valid as realized outputs. Attribution of their movement to changed account content is **VOID** without contemporaneous unchanged-input controls; this is not a negative result for account use in general.
+
+Every row covers the same sixteen episodes and three dependency components. Half multiclass Brier losses are lower when better, averaged across six slots within episode, episodes within writer and writers equally. Useful yield requires a present event with correct actor, operation and relation; span-correct yield also requires the exact anchor set and span state. Invalid final calls retain loss one, accuracy zero and their charges. Original-own rows are matched to this subset, not the whole initial bank.
+
+| View and retained account | Actor loss | Operation loss | Relation loss | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---:|---:|---:|---:|---:|---:|
+| artifact / original own | 0.464087 | 0.448710 | 0.378571 | 0.142857 | 0.000000 | 1 |
+| artifact / remove | 0.471389 | 0.487440 | 0.436190 | 0.035714 | 0.000000 | 1 |
+| artifact / replace | 0.514683 | 0.579663 | 0.515476 | 0.107143 | 0.000000 | 2 |
+| alternatives / original own | 0.431587 | 0.459779 | 0.462908 | 0.285714 | 0.000000 | 0 |
+| alternatives / remove | 0.548611 | 0.565615 | 0.534490 | 0.250000 | 0.035714 | 5 |
+| alternatives / replace | 0.306558 | 0.346070 | 0.411845 | 0.000000 | 0.000000 | 1 |
+
+The next table gives writer-balanced per-episode changes from the original own-account forecast. A triple is the actor/operation/relation combination for one fixed slot, including absent events. Forecast movement includes confidence changes. Correction is recovery of a previously wrong triple; new wrong triples lose an initially correct one. Neither measure alone establishes correctly located positive recovery.
+
+| Intervention | Changed forecasts | Corrected triples | New wrong triples | Useful-yield change |
+|---|---:|---:|---:|---:|
+| remove-artifact | 2.250000 | 0.071429 | 0.464286 | -0.107143 |
+| replace-artifact | 1.714286 | 0.107143 | 0.750000 | -0.035714 |
+| remove-alternatives | 3.642857 | 0.678571 | 0.535714 | -0.035714 |
+| replace-alternatives | 5.892857 | 1.107143 | 0.357143 | -0.285714 |
+
+The alternatives donor replacement improves all three probability losses but loses all useful positive yield. Removal also worsens probability losses while occasionally adding a correctly located event. These are distinct tradeoffs, not a composite success score. All model production and handling logarithmic losses remain infinite. Secondary handling, exact-span, coverage, matched-risk and cheap-control cells are retained in the complete aggregate receipt. Invalid output can reduce counted unsupported claims by emitting no usable claims, so reduced verbosity is not itself a benefit.
+
+Validity strata below are selected by mechanical realization, not representative samples. Each row retains its own equal-writer weighting; their means must not be added to reconstruct the whole-cell mean.
+
+| Intervention | Recipient / donor validity | Episodes | Writers | Changed forecasts / episode |
+|---|---|---:|---:|
+| remove-artifact | own-invalid | 12 | 12 | 1.750000 |
+| replace-artifact | own-invalid/donor-invalid | 12 | 12 | 1.000000 |
+| remove-alternatives | own-valid | 5 | 5 | 5.400000 |
+| replace-alternatives | own-valid/donor-valid | 5 | 5 | 6.000000 |
+| remove-alternatives | own-invalid | 11 | 11 | 3.000000 |
+| replace-alternatives | own-invalid/donor-valid | 11 | 11 | 5.818182 |
+| remove-artifact | own-valid | 4 | 4 | 3.750000 |
+| replace-artifact | own-valid/donor-invalid | 4 | 4 | 4.000000 |
+
+**Control failure.** All twelve identical requests occur where both original and replacement artifact accounts are invalid and therefore retained as the same marker. Ten parsed forecasts and raw message contents repeat exactly, including one invalid forecast. One valid forecast changes to another valid forecast; another valid forecast becomes invalid. Model/options/messages/schema and source pins are identical. The reason for this runtime variation is unidentified. These dependent invalid-marker pairs are not a calibrated noise estimate for valid graphs. Their existence defeats a deterministic-repeat assumption even at zero temperature with a fixed seed. Preserve movement as a description, not as proof that the account was used or that the maker's history was recovered. No historical comparison is silently rescored or erased.
+
+**Cost and integrity.** All 64 intervention blocks close without cost uncertainty: 1317.150276 charged seconds, 1,315.591726 request seconds, 114,804 input tokens and 49,849 output tokens. Nine final calls are invalid: eight duplicate or omit target slots, one has inconsistent span state. Source/request/response bindings and original plan all reproduce. The 168 independent arithmetic checks match; original source costs remain in their original ledger, not charged again by replay. All human records remain historically exposed; there is no population interval, p-value or fresh confirmation.
+
+**Means and disposition.** Retain the complete matrix and void only the account-specific attribution this uncontrolled diagnostic cannot support. Execute one bounded control repair using every original valid nonempty account, valid other-writer donors, and unchanged-account repeats before and after the interventions (OPS-S11.1-Q3). This repairs the diagnostic, creates no second account variant and does not tune a prediction method on these outcomes. Continue the selected evidence and breadth comparisons within their original ceilings. No tests harvested from the operational wake; the repair follows the existing brief and standing validity-repair authorization. Scientific synthesis remains the single Sunday packet.
+
+**Curator roll-up:** theory group: historical production recovery | question: does changing a retained account change useful recovery beyond ordinary request-repeat variation? | **Narrows** | result: identical requests sometimes change outputs, leaving the original account-specific attribution unidentified | project meaning: descriptive intervention movement is insufficient evidence of account use or benefit | next engineering obligation: complete valid-graph interventions with contemporaneous unchanged-input controls | public claim: account-use attribution forbidden for this diagnostic; general theory unchanged | curator decision required: No | detail: L398 and `results/phase_2_4_stage_11_1/S1_ACCOUNT_INTERVENTIONS.json`.
+
+### OPS-S11.1-I7 - installed-reader transport failure retained and reconciled
+
+**Hypothesis.** The installed second reader can complete its separate literal admission within the existing frozen per-call resource bound.
+
+**METHOD.** Inspect both attempted direct-pilot requests, the retained response, transport failure and charged blocks; reconstruct and semantically replay the available response. Inspect the original coordinator's native identity, GPU lock, model-service inventory and all eleven completed queue dispositions. Do not retry the missing response or score the unfinished pilot as a scientific comparison.
+
+This table records operational evidence, not model accuracy. Charged seconds include the full uncertain reservation for the missing response.
+
+| Attempted calls | Retained responses | Missing responses | Transport bound, seconds | Charged seconds | Admission |
+|---:|---:|---:|---:|---:|---|
+| 2 | 1 | 1 | 300 | 471.436776 | absent |
+
+**Found.** The second request times out. The first response took 141.424146 request seconds and reparses; the missing response retains its full 330-second charge. The failure stops native coordinator 60004 at September 18 21:05:17 UTC. That native owner has exited, its GPU lock is released and the model service reports no loaded model. Source pins and all eleven earlier completed dispositions verify. The shared ledger at reconciliation contains 740 attempts and 14,357.196578 charged seconds. The absent response is not an invalid forecast, and no passing Llama gate is manufactured.
+
+**Means and disposition.** Retire this second-reader continuation for the current commission because it did not complete under the declared transport/resource bound. The unattempted review/account pilots and dependent reader comparisons are unavailable, not scientific nulls. Do not increase the timeout or replay the uncertain call. Preserve their original plans and all failed evidence; continue the already admitted Qwen evidence and broader-source work, as the brief permits. Carry the original two conditional S1 extensions after later branches in the new immutable recovery manifest. No gear, clock, source, spending or delegation change.
+
+**Curator roll-up:** theory group: reader admission | question: can the installed second reader run within the declared resource bound? | **Infrastructure** | result: the literal pilot stopped on a transport timeout | project meaning: second-reader replication remains unavailable in this commission | next engineering obligation: preserve uncertainty and continue admitted independent work | public claim: no reader-performance or mechanism verdict | curator decision required: No | detail: OPS-S11.1-I7 and `results/phase_2_4_stage_11_1/SECOND_READER_TRANSPORT.json`.
+
+### OPS-S11.1-Q3 - bounded account control repair and recovery queue validated
+
+**Hypothesis.** A valid-account diagnostic can distinguish intervention movement from contemporaneous identical-input variation without changing the frozen scientific producers or restarting completed work.
+
+**METHOD.** Select all original valid nonempty case/view accounts by mechanical validity only, retaining every exclusion. Choose same-view valid donors from a different writer by fixed hash. For each unit run own-repeat A, remove/replace in a public-evidence-hash order, then own-repeat B. Validate real recipient/donor graphs, remapped anchors, context limits, identical own-repeat requests and fixed public evidence. Exercise the existing literal continuation CLI in a separate scratch namespace, including source-account reuse, complete scoring and immutable reentry; test zero movement on identical forecasts and correct direction on known repaired/harmed triples. Fake empty-account route checks are separate from the real nonempty-graph validation.
+
+Each row records a completed setup check or finite allowance, not a scientific outcome.
+
+| Check | Verified scope |
+|---|---|
+| Original mechanically valid accounts | 18 case/view units, 16 episodes, 10 writers; 10 artifact and 8 alternatives |
+| Exclusions | 46 original invalid/empty case/view accounts retained |
+| New diagnostic allowance | 72 calls; same account variant and model options |
+| Exact unchanged requests | 36 full request comparisons pass |
+| Valid remapped replacements | 18 distinct other-writer payloads pass recipient validation |
+| Literal scratch run | 24 fake calls: 8 source and 16 intervention/control calls; reentry adds none |
+| Recovery manifest | 12 unique bound items; maximum 2,150 calls, including 536 conditional extensions and 64 blocked reader calls |
+
+**Found.** All setup checks pass. The existing retained-account path supports the explicit keep controls; no frozen producer source changes. Within each view the primary treatment comparison uses the arithmetic mean of the two keep-arm summary metrics, with keep-to-keep and each treatment-to-keep movement displayed. It does not average forecast probabilities, pool views, fit a noise threshold or turn movement into evidence of mechanism. Original-own contrasts remain secondary. The validity-selected population and intervening runtime history limit attribution even if the repeat controls are quiet.
+
+**Means and disposition.** Freeze `QUEUE-recovery-v1.json`: bounded repair first, all nine unchanged selected successor plans next, original two conditional extensions last. The original selected queue remains intact and is superseded before launch. Its second-reader items retain passing-gate requirements and will be blocked without admission; failed original reader plans are not retried. Exact native exit and all prior dispositions are reconciled before launch. All original budgets, cooling controls and reporting clocks remain binding. Preparation does not guarantee every optional item fits. This is one diagnostic repair under the commissioned account intervention, not an additional account variant or new campaign.
+
+**Launch verification.** At September 18 21:17:06 UTC the reconciled recovery coordinator begins the repair in Gear 2. Exact native identity and manifest binding verify; the original native owner is absent. Completion, failure and disappearance are registered with the existing transition-only watcher. No overlapping coordinator or source change is introduced. `RECOVERY_LAUNCH.json` records operational launch, not a scientific verdict.
+
+**Curator roll-up:** theory group: account-use instrument | question: can a controlled continuation proceed while preserving original failures and budgets? | **Infrastructure** | result: the valid-account control repair passes request, graph and literal-reentry checks | project meaning: account-use attribution has a bounded route to re-examination | next engineering obligation: land complete recovery cells internally and retain all resource dispositions | public claim: setup validity only | curator decision required: No | detail: OPS-S11.1-Q3 and `results/phase_2_4_stage_11_1/ACCOUNT_USE_REPAIR_SETUP.json`.
+
 ### L397 - the separate initial breadth reference retains the cheap-control advantage
 
 **Hypothesis.** Direct reading of the endpoint and displayed alternatives recovers witnessed production relations beyond inexpensive controls on the separate breadth episodes.

@@ -574,6 +574,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **A fixed seed and zero temperature do not prove request-repeat stability.** In
+  the Stage 11.1 account diagnostic, twelve complete requests were identical to
+  their originals but two outputs changed, including one becoming invalid. The
+  mechanism is unidentified. Include contemporaneous unchanged-input repeats
+  before attributing intervention movement to changed content, separate valid
+  graphs from invalid markers, and score benefit beside susceptibility. Keep the
+  original matrix; void its unsupported attribution, not the recorded outputs. (L398)
+
 - **A decoding schema is not a reader-visible task specification.** When adapting a
   working structured-output call, preserve both its constrained format and the schema
   in the actual message. The Stage 11.1 first builder omitted the latter; its entire

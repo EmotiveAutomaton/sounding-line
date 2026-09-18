@@ -2,49 +2,47 @@
 
 ## Stage 11.1 active - 2026-09-18
 
-The direct reference bank is complete and internally landed as L392: both frozen
-tranches and cheap controls replay, with 144 independently checked score fields.
-The whole-bank event reached this owner conversation. Both sequential pilots also
-pass independently and are internally landed as OPS-S11.1-I4. The complete initial
-review comparison is now internally landed as L393, with all sequential intermediates
-replayed and 96 aggregate score fields independently verified. The complete account
-initial and whole initial comparison are landed as L394, with 120 independently
-verified aggregate fields. Both auxiliary pilots are landed as OPS-S11.1-I5. The
-history comparison is complete and landed as L395, with exact source-plan replay,
-all 72 calls and 144 independently checked fields. The revision pilot is admitted
-as OPS-S11.1-I6 and its full five-project comparison is landed as L396, with all
-fifty calls and six aggregate fields independently checked. Initial direct breadth
-is landed as L397: all 32 calls, exact frozen selection and 36 independent fields
-verify. Separate episode keys share discovery writers/sessions; no fresh replication.
-No unfinished
-scientific comparator has been ranked; the Sunday packet remains pending.
-The finite 17-item coordinator is live as native PID 60004, creation ticks
-134342285739723118. It took the shared producer lock after native direct worker
-51860 exited normally. It completed both matched initial arms and both auxiliary
-pilots, S4 history, released revision and S3 initial direct breadth, and is running
-account interventions, with installed-reader pilots next. It never edits, interrupts
-or duplicates the original worker.
-Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
-attempts, including 536 conditional extension attempts. Shared ceilings remain.
-Completion, failure, disappearance and the brief's scientific checkpoints notify
-through the existing watcher. No routine ETA wake is added. Ownership and terminal
-paths are in `.agent-state/stage11-1-continuation-live.json`.
+The direct reference and all initial methods are internally landed (L392-L394),
+as are history, released revision and initial direct breadth (L395-L397).
+Their source, semantic replay and independent score checks remain intact.
+The complete account intervention is now landed as L398: all 64 calls, source
+validity strata and 168 independent fields verify. Exact repeated requests can
+produce changed outputs; original account-specific attribution is void without
+contemporaneous repeat controls. All realized outputs and costs are retained.
+No unfinished comparator is ranked; the single Sunday packet remains pending.
 
-The prepared S2 review/account pair, S3 leading contrasts and remaining breadth are
-selected from the complete initial matrix. Their nine-item successor is frozen at
-`raw/continuation/QUEUE-selected-v1.json`: 1,542 maximum calls, all real tasks
-context-checked, 92 fake attempts across all items/conditions, immutable reentry.
-It is PREPARED, NOT LAUNCHED. Inspect setup-v1 AWAITING_SELECTION and native EXIT
-before launching it through the same coordinator CLI; never overlap coordinators
-or edit the running manifest. Missing second-reader admission skips that method.
-Shared branch/call/GPU/reporting gates remain binding; queued optional work is not
-a guarantee of fitting within remaining time. Independent history, revision,
-direct breadth and installed-reader pilots are already in the finite queue.
+Original coordinator 60004 (creation ticks 134342285739723118) exited on the
+installed Llama direct pilot's transport timeout, September 18 21:05:17 UTC.
+OPS-S11.1-I7 fully reconciles all eleven earlier complete items, both attempted
+pilot requests and the full uncertain charge. No missing response is retried.
+This installed-reader continuation is retired for this commission; unattempted
+reader pilots and dependent contrasts are unavailable, not scientific nulls.
+
+The recovery coordinator is running in Gear 2 as native PID 74148, creation
+ticks 134342398262659714, executable C:/Python313/python.exe. Its frozen manifest
+is `raw/continuation/QUEUE-recovery-v1.json`. It starts with the validated
+72-call valid-account diagnostic: own repeats bookend removal and valid-donor
+replacement, with intervention order fixed by public-evidence hash. All original
+valid nonempty case/view accounts are included, without accuracy selection.
+The real graph/request checks and 24-call fake CLI/reentry pass (OPS-S11.1-Q3).
+This is a diagnostic repair using the same account variant and frozen producer.
+
+Next are all nine unchanged selected S2/S3 plans, then the original two conditional
+S1 extensions. The old selected-v1 manifest remains intact, superseded before
+launch. Recovery has 12 items and a maximum 2,150 calls, including 536 conditional
+extension calls and 64 second-reader calls blocked by absent method gates. Shared
+ceilings and original 40,000-second extension reserves can defer optional work.
+Do not start another coordinator or edit any loaded scientific source. Native
+identity, source binding and registered completion/failure/disappearance paths
+are in `.agent-state/stage11-1-recovery-live.json`. Completion transitions or the
+predefined twelve-hour checkpoint, September 19 04:18:24 UTC, notify the owner;
+there is no routine ETA wake. The commissioned Sunday packet remains open.
+
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
-human illustrations await complete outputs. Forty-seven targeted checks, a separate
-checkpoint check, the 17-item literal rehearsal and 84 viewer DOM assertions pass.
-Visual browser QA is unavailable because the native inventory has no enabled surfaces.
-The commission is filed unchanged at `docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`.
+human illustrations await complete outputs. Original targeted tests, checkpoint
+check, whole queue rehearsal and 84 viewer DOM assertions pass. Browser visual
+QA remains unavailable. The brief is filed unchanged in
+`docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`.
 
 The curator commissioned the root Stage 11.1 branching brief and explicitly
 corrected allocation to stay in Gear 2. CONTRACT.json preserves the initial default;
@@ -69,12 +67,11 @@ Whole-bank completion, failure and native disappearance were registered with the
 actual completion delivery is observed in this conversation.
 Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
 Do not modify the sources still pinned by the live coordinator or restart valid work.
-The four-hour coverage checkpoint is inspected (OPS-S11.1-C4): capacity and multiple
-admitted blocks remain. No routine ETA wake is scheduled; next is a complete block
-or the twelve-hour coverage checkpoint September 19 at 04:18:24 UTC. Selected
-continuation follows the current finite queue's exit. This wake's delivery and
-native inspection are in `.agent-state/stage11-1-breadth-landing.json`. The account-use diagnostic retains
-invalid-recipient/donor strata; marker/empty movement cannot establish graph use.
+The four-hour coverage checkpoint is inspected (OPS-S11.1-C4). The current wake's
+write-through, actual delivery and recovery ownership are recorded in
+`.agent-state/stage11-1-interventions-landing.json`. The original uncontrolled
+account-use diagnostic is retained; invalid-marker movement and variation between
+identical requests cannot establish valid account use.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23
 sessions, all marked historically exposed. Discovery and breadth remain descriptive;

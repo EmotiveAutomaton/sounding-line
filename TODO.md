@@ -21,8 +21,11 @@ archive, kept whole, mined but never deleted.
 - [x] L394 / S1: complete the account initial and whole initial comparison; replay all 320 model calls, independently verify 120 score fields, and fully land the outcome and review/account downstream selection.
 - [x] OPS-S11.1-I5: replay and fully land both independent query/history pilots; continue the admitted history block.
 - [x] L394 / OPS-S11.1-Q2: validate selected review/account evidence and breadth queue; all nine items rehearse with 92 fake attempts and exact no-call reentry.
-- [ ] L394 / S2-S3: launch prepared QUEUE-selected-v1 only after the current coordinator exits and its full disposition is reconciled; retain shared ceilings and actual per-method admission.
-- [ ] L394 / account use: land the full predeclared diagnostic with valid/invalid recipient and donor strata; assess the bounded repair only from that complete result.
+- [x] L394 / OPS-S11.1-I7: reconcile original coordinator transport stop, preserve all charges, retire unavailable installed-reader continuation and carry the selected plans into recovery-v1.
+- [ ] OPS-S11.1-Q3 / S2-S3: run the reconciled recovery queue under shared ceilings and actual method admission; land all complete blocks and resource dispositions.
+- [x] L398 / account use: fully land all 64 interventions, source validity strata, repeated-request failure and 168 independent score checks; retain the complete descriptive matrix and void account-specific attribution.
+- [x] OPS-S11.1-Q3: freeze valid-account control repair, real graph/request checks, scratch CLI/reentry and reconciled recovery manifest.
+- [ ] L398 / account use: complete the bounded valid-account repair; compare with both contemporaneous own repeats, show repeat movement and useful recovery together, retain validity-selected scope.
 - [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
 - [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
