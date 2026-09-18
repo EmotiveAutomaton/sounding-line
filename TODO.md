@@ -25,7 +25,8 @@ archive, kept whole, mined but never deleted.
 - [ ] OPS-S11.1-Q3 / S2-S3: run the reconciled recovery queue under shared ceilings and actual method admission; land all complete blocks and resource dispositions.
 - [x] L398 / account use: fully land all 64 interventions, source validity strata, repeated-request failure and 168 independent score checks; retain the complete descriptive matrix and void account-specific attribution.
 - [x] OPS-S11.1-Q3: freeze valid-account control repair, real graph/request checks, scratch CLI/reentry and reconciled recovery manifest.
-- [ ] L398 / account use: complete the bounded valid-account repair; compare with both contemporaneous own repeats, show repeat movement and useful recovery together, retain validity-selected scope.
+- [x] L398 / L399: complete and fully replay all 72 valid-account repair calls, both keep controls, costs and 348 independent score/transition fields; preserve bounded sensitivity versus benefit and the original void.
+- [ ] L399: carry repeat controls, donor susceptibility and useful-versus-probability tradeoffs into final illustrations and the Sunday packet; continue selected S2/S3 without another diagnostic variant.
 - [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
 - [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
@@ -33,7 +34,7 @@ archive, kept whole, mined but never deleted.
 - [x] L397 / S3: replay and fully land initial direct breadth, its cheap controls, exact selection/partition audit and 36 independent score fields; retain episode-versus-writer replication limits.
 - [ ] L397 / S3: execute the already selected review/account breadth, admitted second-reader contrasts and remaining breadth within the existing successor and shared limits.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
-- [ ] S1: separate account-removal/replacement diagnostic; at most one additional scientific account variant if justified.
+- [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.
 - [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).

@@ -28,7 +28,9 @@ are internally landed as L395-L396. The [revision interface](REVISION_INTERFACE.
 independently passes (OPS-S11.1-I6). The [initial direct breadth reference](S3_INITIAL_DIRECT.json)
 is complete and internally landed as L397. The [original account intervention](S1_ACCOUNT_INTERVENTIONS.json)
 is fully landed as L398; its uncontrolled account-specific attribution is void.
-The [valid-account control repair](ACCOUNT_USE_REPAIR_SETUP.json) now runs in Gear 2.
+The [valid-account control repair](S1_ACCOUNT_USE_REPAIR.json) is complete and
+internally landed as L399, with all 348 independent score/transition checks passing.
+The same Gear 2 coordinator now runs the selected human-evidence comparison.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
 reconciled; [recovery launch](RECOVERY_LAUNCH.json) verifies the new native owner.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.

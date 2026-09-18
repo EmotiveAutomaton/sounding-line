@@ -9,6 +9,48 @@ ran it.
 
 ---
 
+### L399 - valid-account interventions change predictions beyond identical-input repeats
+
+**Hypothesis.** Changing a mechanically valid retained production account changes useful historical recovery beyond contemporaneous variation from repeating the same request.
+
+**METHOD.** Complete the predeclared 72-call repair on every valid nonempty original account: eighteen case/view units from sixteen CoAuthor episodes and ten writers. Artifact includes ten episodes, eight writers, eight sessions and three dependency components; alternatives includes eight episodes, seven writers, eight sessions and one component. Select by mechanical account validity only, never forecast accuracy. For each unit bracket removal and valid different-writer replacement with two exact own-account requests. Fix intervention order by public-evidence hash, yielding eight remove-first and two replace-first artifact units, and four of each in alternatives. Keep the original Qwen model/digest, temperature zero, seed 1101, four threads, context 16,384 and 2,048-token generation ceiling. Reproduce the plan, recipient/donor validation and full requests; replay all outputs; independently check aggregate losses, accuracies and transition arithmetic. Compare each intervention with the mean of the two own-repeat summary metrics, separately by view, as frozen before dispatch. Do not average probabilities.
+
+**Found.** All eighteen contemporaneous own-repeat pairs have identical parsed forecasts and identical raw message contents, while every removal and replacement changes the retained forecast. The repair therefore supports bounded sensitivity to the supplied account under this request protocol. It does not establish that account meaning is followed faithfully or that keeping the original account improves useful historical recovery generally. Removal increases useful positive yield in both views despite worsening operation and relation losses; unrelated replacement slightly improves operation and relation losses in both views while eliminating useful positive yield. Movement, probability quality and supported event recovery remain distinct.
+
+Each row covers the complete view-specific roster. Half multiclass Brier loss is lower when better; average six slots within episode, episodes within writer, then writers equally. Useful yield requires a present event with correct actor, operation and relation; span-correct yield additionally requires its exact anchors and span state. Own A and B are identical, so their mean is shown once; their calls remain separate in the ledger. Invalid final-call counts are raw and retain loss one, accuracy zero and charges.
+
+| Evidence / account | Actor loss | Operation loss | Relation loss | Useful / episode | Span-correct useful / episode | Invalid |
+|---|---:|---:|---:|---:|---:|---:|
+| artifact / own repeats | 0.463542 | 0.258472 | 0.250000 | 0.062500 | 0.000000 | 0 |
+| artifact / remove | 0.445694 | 0.437500 | 0.302083 | 0.375000 | 0.000000 | 1 |
+| artifact / replace | 0.478611 | 0.249514 | 0.249524 | 0.000000 | 0.000000 | 0 |
+| alternatives / own repeats | 0.493175 | 0.477044 | 0.467279 | 0.071429 | 0.000000 | 0 |
+| alternatives / remove | 0.518254 | 0.500000 | 0.547619 | 0.142857 | 0.142857 | 3 |
+| alternatives / replace | 0.523690 | 0.423847 | 0.423044 | 0.000000 | 0.000000 | 1 |
+
+The following table reports writer-balanced per-episode transitions for fixed actor/operation/relation triples, including absent events. Changed forecasts include confidence changes; correction repairs an initially wrong triple and new error loses an initially correct one. Each intervention has the same transition values against A and B because their forecasts coincide; both comparisons are retained in the receipt.
+
+| Evidence / contrast | Changed forecasts | Corrected triples | New wrong triples | Useful-yield change |
+|---|---:|---:|---:|---:|
+| artifact / own A to B | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
+| artifact / own to remove | 4.687500 | 0.562500 | 0.375000 | 0.312500 |
+| artifact / own to replace | 3.187500 | 0.000000 | 0.062500 | -0.062500 |
+| alternatives / own A to B | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
+| alternatives / own to remove | 5.500000 | 1.428571 | 0.214286 | 0.071429 |
+| alternatives / own to replace | 5.428571 | 1.285714 | 0.500000 | -0.071429 |
+
+**Benefit and susceptibility.** Keeping the own account improves operation and relation probability loss over removal in each view. That narrower advantage does not imply more useful events: removal adds 0.312500 useful events per artifact episode and 0.071429 per alternatives episode, with the latter also adding 0.142857 correctly located useful events. Unrelated replacement lowers operation loss by 0.008958/0.053197 and relation loss by 0.000476/0.044235 in artifact/alternatives, but raises actor and handling losses and yields no useful positive event. Overall exact-span accuracy also differs from positive recovery: alternatives replacement raises it to 0.321429 while useful span-correct yield stays zero. Both cheap rivals retain lower production losses than every model condition; alignment's alternatives span-correct useful yield is 1.571429. Repeated cheap rows share the same evidence and are not independent evidence.
+
+Handling losses for own, removal and replacement are 0.356771, 0.500833 and 0.375000 on artifact, and 0.465714, 0.698095 and 0.518095 on alternatives. Their accuracies are 0.625000, 0.500000, 0.625000 and 0.500000, 0.285714, 0.428571, respectively. At half operation coverage, writer-mean errors are 0.180952, 0.298639 and 0.238435 for artifact, and 0.584354, 0.303333 and 0.303333 for alternatives. Selection at that coverage represents eight/seven/seven writers on artifact and seven/five/five on alternatives, so these conditional risks are not a fixed-writer accuracy contrast. Full curves, coverage, unresolved fractions, unsupported claims, raw risks and anonymous group distributions remain in the aggregate receipt. All model production and handling logarithmic losses remain infinite. Fewer unsupported claims under an invalid output are not a benefit.
+
+**Control and scope.** Both own repeats differ from the much earlier original forecast in one artifact and one alternatives unit, despite exact complete request identity; their mutual contemporaneous agreement does not erase the original variation (L398). All original accounts and replacement donors here are mechanically valid and nonempty, and replacement payloads differ from the recipient account after remapping. That validates the supplied graph format, not its truth. Replacing a whole graph changes several fields and length, while removing it also changes content quantity. This is sensitivity to the declared request intervention, not an isolation of event semantics, structural computation or internal model mechanism. There are only two contemporary repetitions per unit, fixed bookend positions and a small validity-selected, dependent sample. No population interval, significance test, noise threshold, fresh holdout or human-mechanism claim is introduced. The original uncontrolled diagnostic's attribution remains void; this separate controlled result does not retrospectively repair it.
+
+**Cost and integrity.** The exact plan and source pins reproduce, and all 72 requests/responses replay with all cost blocks closed without uncertainty. Five final responses duplicate or omit slots: artifact removal one, alternatives removal three and alternatives replacement one. Both own-repeat arms are fully valid. Total charged service is 1,228.227957 seconds, request time 1,226.637509 seconds, server duration 1,225.264310 seconds, input tokens 143,310 and output tokens 56,376. The independent arithmetic checks cover 288 score fields and 60 transition fields, all matching. Construction charges remain in the original account job; replay adds no model calls or charges. No source, method, budget or clock changes.
+
+**Means and disposition.** Close this bounded account-use repair with input sensitivity supported and general useful-recovery benefit unestablished. Retain the narrower own-versus-removal probability advantage together with donor susceptibility and the cheap-control advantage. Advance the already frozen evidence and breadth comparisons; the same Gear 2 coordinator has started the selected S2 human-evidence block. No further diagnostic variant is commissioned by this result. No tests harvested from the operational wake. Carry the distinctions into the final illustrative cases and the single Sunday packet, without ranking unfinished evidence arms.
+
+**Curator roll-up:** theory group: historical production recovery | question: do valid-account interventions change useful recovery beyond identical-input repeats? | **Narrows** | result: account interventions change forecasts while contemporaneous repeats agree, without a general useful-recovery advantage | project meaning: this reader is sensitive to supplied accounts, but sensitivity is not historical fidelity or benefit | next engineering obligation: complete selected evidence/breadth contrasts and preserve separate support and susceptibility displays | public claim: bounded input sensitivity supported; general reconstruction and human mechanism unchanged | curator decision required: No | detail: L399 and `results/phase_2_4_stage_11_1/S1_ACCOUNT_USE_REPAIR.json`.
+
 ### L398 - account intervention movement lacks an unchanged-input control
 
 **Hypothesis.** A retained, mechanically valid production account changes the downstream reader's useful historical recovery when public evidence is held fixed.
@@ -42,7 +84,7 @@ The alternatives donor replacement improves all three probability losses but los
 Validity strata below are selected by mechanical realization, not representative samples. Each row retains its own equal-writer weighting; their means must not be added to reconstruct the whole-cell mean.
 
 | Intervention | Recipient / donor validity | Episodes | Writers | Changed forecasts / episode |
-|---|---|---:|---:|
+|---|---|---:|---:|---:|
 | remove-artifact | own-invalid | 12 | 12 | 1.750000 |
 | replace-artifact | own-invalid/donor-invalid | 12 | 12 | 1.000000 |
 | remove-alternatives | own-valid | 5 | 5 | 5.400000 |
