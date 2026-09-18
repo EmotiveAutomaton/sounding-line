@@ -9,6 +9,35 @@ ran it.
 
 ---
 
+### OPS-S11.1-I9 - repeated transport timeout holds dispatch for resource reassessment
+
+**Hypothesis.** Repeating an independent admitted task after an isolated timeout can restore useful execution; if it fails again before producing a response, dispatch should wait for a concrete resource change without losing evidence or changing the selected gear.
+
+**METHOD.** Inspect the recovery-v2 coordinator's failed terminal, exact native exit, first constructed-context request, retained response inventory, block reservation and server state. Compare its request with the unchanged frozen plan and verify absence of a completion or analysis. Retain the prior launch receipt, which explicitly claimed dispatch and monitoring only. Register the already active resource blocker's exact native identity with the existing transition-only watcher; exercise its live, exited, reused-PID and inaccessible-identity paths without inference or changes to watcher source.
+
+**Found.** The successor also exceeded the five-minute request bound, at September 18 23:22:01 UTC, before retaining any response. Its native owner exited, the GPU lock was released and the service reports no resident model after unload. Other GPU activity remains present. The original isolated-failure continuation did not establish healthy production; continuing to submit more cells under this condition would risk further incomplete comparisons. Contention remains a plausible explanation, not an isolated causal result. This failure has no scientific score.
+
+The table accounts only for this constructed-context attempt; the earlier account-breadth failure remains separately recorded in OPS-S11.1-I8. A missing response is not a scored invalid forecast.
+
+| Execution measure | Retained outcome |
+|---|---:|
+| Frozen calls | 768 |
+| Attempted calls / retained responses | 1 / 0 |
+| Unattempted calls | 767 |
+| Full uncertain block charge, seconds | 630.000000 |
+| Campaign attempts after this failure | 1204 |
+| Campaign charged seconds after this failure | 21835.133912 |
+
+**Validity and disposition.** Both interrupted cells remain incomplete and unranked; all previous completed findings remain intact. Exact request, plan/source pins, missing response/completion and the full charge verify. There are no complete successor dispositions to land. Install the existing between-block PAUSE control with a bound private resource-hold record; this prevents accidental dispatch while preserving Gear 2, the original clock, budget and frozen tail. No uncertain request is retried, no application is stopped and no scientific source or timeout changes.
+
+The existing non-model watcher now observes the exact external resource-blocker identity. Continued liveness emits nothing. Exit or PID replacement emits one reinspection event; inaccessible native identity emits an inspection fault. All four paths pass the bounded check. This uses the watcher's existing `MONITOR_FAILED` event schema: here that label requests inspection of the configured identity transition and does not mean the external application failed or that the GPU is ready. No automatic launch or retry follows it. The predefined twelve-hour coverage checkpoint remains an independent earlier reason to inspect if it arrives first. A routine ETA wake is not installed.
+
+**Means and next action.** Keep dispatch on resource hold with Gear 2 selected. At the resource transition or existing checkpoint, inspect actual GPU/service availability, preserve both incomplete namespaces and charges, and reconcile any versioned, fully charged recovery before launch. Remove only the bound resource PAUSE when the blocker and owner controls allow it. The independent frozen tail remains prepared; the weekend is not closed, the final packet remains due Sunday, and no partial results or additional scientific tests are harvested from these operational events.
+
+**Curator roll-up.** Theory group: instrument integrity. Question: can the current resource state sustain admitted production? Outcome: **Infrastructure**. Result: the independent successor also times out before returning a response. Project meaning: runtime availability is unresolved and scientific dispatch is held. Next engineering obligation: inspect resources at the registered identity transition and reconcile both interrupted cells before resuming. Public claim: unchanged; no scientific null or method ranking. Curator decision required: No. Detail: [failure and resource hold](results/phase_2_4_stage_11_1/RESOURCE_HOLD.json); the exact blocker identity, PAUSE binding and transition registration remain private.
+
+---
+
 ### OPS-S11.1-I8 - account breadth stops on transport uncertainty; independent tail is preserved
 
 **Hypothesis.** A failed local request can be reconciled without losing retained evidence, resetting charges, or treating an incomplete comparison as a scientific result, while independent already admitted work continues.

@@ -13,8 +13,8 @@ continuation; one combined scientific packet is due Sunday.
 | S0 diagnosis | Separate interface, decision, support and control failures | Offline 204-response replay and separate training-cap sensitivity internally landed, L391 | Carry the prior and low-dimensional alignment rival into the common comparison |
 | S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Review/account selected for downstream contrasts; optional extensions preserve 40,000 seconds for later branches |
 | S1 account use | Determine whether retaining an account changes useful supported inference | Original diagnostic complete and internally landed as L398; repeat variability voids account-specific attribution | Controlled valid-account repair complete (L399), all calls and 348 independent fields replay; retain input sensitivity versus useful-recovery distinction |
-| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Human-evidence block complete and internally landed as L400; provisional before-text reveal selected, with frozen constructed context stress next |
-| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); initial Qwen review breadth complete and internally landed as L401; initial account breadth transport-incomplete (OPS-S11.1-I8); remaining frozen contrasts retained in recovery-v2 |
+| S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Human-evidence block complete and internally landed as L400; provisional before-text reveal selected, with constructed context transport-incomplete and held for resource reassessment (OPS-S11.1-I9) |
+| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); initial Qwen review breadth complete and internally landed as L401; initial account breadth transport-incomplete (OPS-S11.1-I8); remaining frozen contrasts retained on resource hold (OPS-S11.1-I9) |
 | S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Complete four-condition comparison on eight writers and sixteen targets internally landed as L395; exact source/temporal replay and construction/reuse accounting pass | Retain the bounded result and limitations; advance commissioned evidence/breadth work and final illustrations |
 | S5 viewer | Make hypotheses, evidence and corrections inspectable | Twelve constructed setup cases pass 84 DOM assertions; no enabled browser surface for visual QA | Populate final human illustrations after complete outcomes; retain prior forecasts and unlocated claims |
 
@@ -48,7 +48,12 @@ shared ceilings and Sunday clocks remain. The literal scratch CLI completes six
 items, blocks two absent gates and reenters without adding to its 58 fake calls.
 Original plans, failed owners and launch receipts remain intact.
 [Recovery-v2 launch](RECOVERY2_LAUNCH.json) verifies native ownership, dispatch
-and monitoring; the first task remains pending at that inspection.
+and monitoring; the first task remains pending at that inspection. It subsequently
+timed out before retaining a response. The [resource hold](RESOURCE_HOLD.json)
+fully reconciles that failure (OPS-S11.1-I9). Both interrupted cells remain
+incomplete, PAUSE blocks further dispatch, and Gear 2 remains selected. The
+existing watcher requests reinspection at the resource-blocker identity transition
+or the existing coverage checkpoint; no automatic retry or new launch is running.
 
 The [four-hour coverage checkpoint](COVERAGE_4H.json) remains inspected.
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the

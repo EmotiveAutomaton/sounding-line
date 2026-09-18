@@ -1,30 +1,25 @@
 # Current status
 
-## Stage 11.1 running in Gear 2 - 2026-09-18
+## Stage 11.1 resource hold; Gear 2 retained - 2026-09-18
 
-Stage 11.1 remains allocated to Gear 2. All completed initial comparisons,
-history, released revision, direct/reviewed breadth, evidence retrieval and
-account-use diagnostics are internally landed (L392-L401). Original uncontrolled
-account-use attribution remains void; its bounded controlled repair is retained.
+Gear 2 remains selected, but scientific dispatch is held for resource
+reassessment after successive transport timeouts. The account-breadth producer
+retained earlier responses; the independent constructed-context successor
+timed out before its first response. Both native owners have exited, all failed
+attempts and uncertainty charges remain, and both comparisons are incomplete
+and unranked (OPS-S11.1-I8/I9).
 
-The account-breadth producer stopped on a five-minute transport timeout.
-All 54 retained responses replay and the full uncertainty charge remains;
-the comparison is incomplete and unranked (OPS-S11.1-I8). The exact native
-owner has exited. No response is retried or synthesized.
+All earlier complete findings remain internally landed through L401. The
+unchanged independent tail and its tested restart path remain prepared; no
+additional scientific launch or automatic retry is running. The existing PAUSE
+control prevents dispatch while preserving the original gear, budgets and clock.
 
-Recovery-v2 carries the eight unchanged independent downstream items, starting
-with constructed context and then remaining breadth. Its literal rehearsal
-passes with 58 fake attempts and exact no-call reentry; absent second-reader
-gates still block. The new native coordinator has dispatched the constructed-context
-first request; ownership, pins and monitoring verify. First-task completion is
-still pending at launch inspection, so no successful production is claimed yet.
-The tail allows at most 1,678 calls, including 64 blocked reader calls and 536
-conditional S1 extension calls. Original 6,400-call / 24-GPU-hour ceilings,
-cooling limits, extension reserves and reporting clocks remain unchanged.
-
-The next completion is the constructed context block or an actual failure;
-the next predefined coverage checkpoint is September 19 04:18 UTC. The
-transition-only watcher remains active; no routine ETA wake is scheduled.
+The transition-only watcher observes the exact resource-blocker identity.
+Its exit or identity change requests actual GPU/service reinspection; the
+legacy MONITOR_FAILED event label is not proof of GPU readiness. The next
+predefined coverage checkpoint is September 19 04:18 UTC. No routine ETA wake
+is scheduled. Reconcile both interrupted cells and the bound PAUSE before
+any versioned, fully charged continuation. The single Sunday packet is pending.
 
 The twelve-case viewer remains a constructed setup preview; human illustrations
 and the final scientific packet await complete comparisons. Browser visual QA

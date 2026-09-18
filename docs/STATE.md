@@ -44,16 +44,28 @@ It permits at most 1,678 calls, including 64 blocked reader and 536 conditional
 extension calls. Original 40,000-second reserves and all shared ceilings remain.
 The literal scratch CLI completes six items, blocks two absent gates and adds
 no calls on reentry; all 58 fake attempts remain. No scientific source changed.
-The recovery-v2 coordinator is native PID 91848, creation ticks
-134342470200074889, executable C:/Python313/python.exe. It dispatched the
-constructed-context first request at September 18 23:17 UTC. Exact native
-ownership, pins and monitoring verify; first-task completion remains pending
-at launch inspection. `.agent-state/stage11-1-recovery2-live.json` records this
-limit and the expected terminal paths. Do not launch another coordinator.
-The next expected produce is `S2-twins-review-account-v1/COMPLETE.json` under
-`raw/branch_jobs/`. Completion, failure, disappearance or the predefined
-twelve-hour checkpoint, September 19 04:18:24 UTC, notify the owner.
-There is no routine ETA wake. The Sunday scientific packet remains open.
+Recovery-v2 coordinator 91848, creation ticks 134342470200074889, also exited:
+September 18 23:22:01 UTC, first constructed-context request timed out before
+any response. OPS-S11.1-I9 preserves its 630-second uncertainty charge. No
+successor item completed. Both partial scientific cells remain unranked.
+
+Gear 2 is still selected, but scientific dispatch is on a resource hold.
+`raw/PAUSE` is bound to `raw/continuation/RESOURCE_HOLD-v1.json`; no automatic
+retry or further coordinator launch. `.agent-state/stage11-1-resource-hold-live.json`
+records the external blocker's exact native identity and PAUSE digest. The
+unchanged watcher observes its disappearance or identity change and requests
+resource reinspection at `.agent-state/process-transitions/stage11-1-resource-blocker/RECHECK.json`.
+That event's legacy MONITOR_FAILED schema is a recheck signal here, not proof
+of application failure or GPU availability. Inaccessible identity is a monitor
+fault, never an exit. Continued liveness emits no wake.
+
+Next action: inspect actual GPU/service availability at that transition or the
+predefined twelve-hour checkpoint, September 19 04:18:24 UTC; reconcile both
+interrupted plans before any versioned charged recovery. Clear only the bound
+resource PAUSE once resources and owner controls allow. All existing budgets,
+model gates, source pins and Sunday clocks remain. There is no routine ETA wake.
+Both original launch receipts remain historical; no live scientific coordinator
+or successful recovery-v2 production is claimed. The Sunday packet remains open.
 
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
 human illustrations await complete outputs. Original targeted tests, checkpoint

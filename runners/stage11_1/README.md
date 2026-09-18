@@ -30,7 +30,13 @@ Earlier files retain failed interfaces and preflight versions. METHOD-v3.md
 specifies the compact confidence readout; its direct pilot passed. Account and
 review have separate literal gates and cannot inherit direct admission.
 
-The active native command is:
+The recovery-v2 command is historical and currently blocked by the resource PAUSE.
+Its first request also timed out; no live scientific coordinator remains. Reconcile
+OPS-S11.1-I8/I9 and both partial cells before any versioned charged continuation.
+The existing watcher requests resource reinspection when the recorded blocker
+identity changes; it does not launch or retry science. Gear 2 remains selected.
+
+Do not rerun this interrupted command blindly:
 
 ```powershell
 ./.venv/Scripts/python.exe -B -m runners.stage11_1.continuation results/phase_2_4_stage_11_1/raw/continuation/QUEUE-recovery-v2.json
