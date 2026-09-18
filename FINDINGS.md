@@ -9,6 +9,49 @@ ran it.
 
 ---
 
+### L393 - initial direct review recovers invalid outputs without revising valid forecasts
+
+**Hypothesis.** A second direct-reading pass on the same evidence improves recovery of witnessed production relations beyond one-pass direct reading and the frozen inexpensive rivals.
+
+**METHOD.** Complete both blind tiers of the frozen initial 32 episodes, from fourteen writers and twenty sessions, with a newly charged direct forecast followed by review of its retained output. Both calls use the unchanged compact interface, pinned Qwen 3.5 9B identity, seed 1101, temperature zero, 16,384 context, 2,048-token generation ceiling, four threads and disabled thinking. Review receives identical public evidence, no new trace, and at most 3,072 bytes of intermediate content. An invalid first output supplies the fixed invalid-intermediate marker; its already allocated second call is retained and charged, not an outcome-selected retry. Review and account share the two-call ceiling; the one-pass reference has half as many calls. Compare only complete review, direct and cheap-control cells on identical episode keys and targets. Reparse all requests/responses and independently calculate finite losses, accuracies and logarithmic losses; inspect the within-pipeline transitions separately from the aggregate comparison.
+
+**Found.** Review does not revise any valid first forecast. All 57 valid first-pass forecasts are exactly preserved; three of seven invalid first outputs yield a valid final forecast, and four remain invalid. Every first-pass forecast and error also matches its independently charged one-pass reference. The small aggregate probability-loss improvements therefore arise entirely from originally invalid outputs, not correction of accepted historical claims. Both cheap rivals still beat review on actor, operation and relation probability error in both evidence tiers. Correctly located positive-event yield does not improve over direct reading in either tier.
+
+Each row is a complete evidence tier and method on the same initial tranche. Artifact provides the endpoint and common menu-availability fact; alternatives additionally supplies before text, all offers and mechanical differences. Direct is one pass; review is two; marginal is the smoothed training-only prior; alignment adds the fixed public-text mixture and equals marginal at artifact-only evidence. Actor, operation and relation losses are half multiclass Brier losses, lower being better. Accuracy is the operation's highest-probability choice, including absent operations. Scores average six questions within episode, episodes within writer, then writers equally. Span-correct useful yield counts present events with correct actor, operation, relation, anchor set and span state. Final invalids are raw counts among 32 final forecasts per model/tier, not all attempted calls.
+
+| Evidence | Method | Actor loss | Operation loss | Relation loss | Operation accuracy | Span-correct useful / episode | Final invalid |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Artifact | Direct | 0.487540 | 0.531528 | 0.409286 | 0.430556 | 0.035714 | 1 |
+| Artifact | Review | 0.463730 | 0.507059 | 0.378878 | 0.454365 | 0.035714 | 0 |
+| Artifact | Marginal | 0.145252 | 0.146453 | 0.157897 | 0.827381 | 0.000000 | 0 |
+| Alternatives | Direct | 0.554312 | 0.542730 | 0.478829 | 0.426587 | 0.023810 | 6 |
+| Alternatives | Review | 0.523386 | 0.528841 | 0.466925 | 0.440476 | 0.023810 | 4 |
+| Alternatives | Alignment | 0.111933 | 0.115864 | 0.140109 | 0.849206 | 1.654762 | 0 |
+| Alternatives | Marginal | 0.145252 | 0.146453 | 0.157897 | 0.827381 | 0.000000 | 0 |
+
+**Changes and failure accounting.** Review-minus-direct actor/operation/relation loss differences are -0.023810/-0.024469/-0.030408 for artifact and -0.030926/-0.013889/-0.011905 for alternatives. The artifact operation change occurs in one writer; the alternatives change occurs in two. Other writer differences are zero. Writer ranges are -0.342569 to zero and -0.111111 to zero respectively; sorted writer/session/prompt/domain distributions are retained. This is one connected dependency component with 22 creative and ten argumentative episodes, all historically exposed. There is no population interval, significance test or fresh confirmation.
+
+The following raw counts distinguish attempted-call validity from final forecasting validity. Every originally invalid first pass supplies the same explicit unavailable-intermediate marker. The parser already accepts unique reordered slots; the final slot failures actually duplicate or omit semantic slots.
+
+| Evidence | Valid first forecasts, all unchanged | Invalid first forecasts | Invalid first made valid | Final invalid forecasts | Invalid attempts across both passes |
+|---|---:|---:|---:|---:|---:|
+| Artifact | 31 | 1 | 1 | 0 | 1 |
+| Alternatives | 26 | 6 | 2 | 4 | 10 |
+
+There are eleven invalid attempts: seven first-pass failures (five duplicated/missing-slot outputs and two span-state/reference mismatches), plus four final duplicated/missing-slot failures. Invalids keep loss one, accuracy zero and all charges. Every review actor/operation/relation and handling cell retains infinite logarithmic loss; the artifact cell has no final invalids, so its infinity directly demonstrates genuine zero probability on observed outcomes. No post-outcome smoothing, parser change or extra dispatch is used.
+
+The writer-balanced count of newly correct actor/operation/relation triples is 0.142857 per artifact episode and 0.035714 per alternatives episode; these include absent events recovered from originally invalid output. No previously correct triple becomes wrong, but this is not a human correction mechanism. Positive useful-event yield stays 0.369048 for artifact and rises from 0.261905 to 0.297619 for alternatives; exact span-correct yield stays unchanged. Unsupported review/endorsement/understanding claims stay 0.202381 per artifact episode and rise from 0.892857 to 1.011905 for alternatives. Previously invalid forecasts emitted no counted claims, so their new valid outputs can improve finite scores and add unsupported claims simultaneously.
+
+At fixed confidence 0.75, non-unknown operation coverage rises from 0.833333 to 0.869048 for artifact and from 0.674603 to 0.694444 for alternatives. At matched half coverage, writer-mean operation error is unchanged at 0.543365 for artifact and worsens from 0.454726 to 0.510034 for alternatives; all fourteen writers remain represented. Confidence is elicited and uncalibrated. Handling loss improves from 0.507381 to 0.502857 and from 0.506111 to 0.477937, with accuracy 0.488095 and 0.500000 after review; the cheap rivals still lead. Full accuracy, span-state/exactness/overlap, contradictions, unresolved fractions and five-level coverage curves remain in the aggregate receipt rather than being collapsed into an overall score.
+
+**Cost and integrity.** The complete tranche uses 128 attempts in 64 closed blocks, with no transport uncertainty or retries. Input/output tokens total 228,503/100,344; request wall time is 2,611.556898 seconds, server duration 2,610.084732 seconds and charged GPU service 2,612.828799 seconds. Review/direct wall-time ratios are 1.968155 for artifact and 1.947010 for alternatives. At this plan's completion, cumulative new-stage accounting is 386 attempts and 8,067.813043 charged seconds; active account work subsequently adds charges. All 128 new attempts and 64 reference calls reparse without inference, all 96 independently checked aggregate score fields match, and source/analysis/cohort bindings remain exact. The actual completion wake reached this operating conversation. The same native coordinator has already advanced to the account initial tranche without restart or overlap.
+
+**Means and disposition.** Retain the limited invalid-output recovery without calling it semantic self-correction or evidence for a useful contribution account. Higher nominal coverage and lower average loss do not establish better selective reliability; the span and unsupported-attribute results constrain that claim. Pursuit: advance to the already running matched account initial, then choose the prepared evidence and breadth contrasts from the complete initial comparison, retaining both cheap controls and the later-branch reserve. Warrant: this exposed local-reader package's complete initial review comparison only. The account initial and review/account extensions remain unranked. No tests harvested from this operational wake, no loaded source changed, and no first-screen campaign closure follows.
+
+**Detail:** `results/phase_2_4_stage_11_1/S1_REVIEW_INITIAL.json` and the bound `S1_REVIEW_CHANGES.json`; raw requests, intermediates and identities remain private. Scientific synthesis remains for the single final stage packet.
+
+**Curator roll-up:** theory group: historical production recovery | question: does reviewing the same evidence correct the direct reader's account of production? | **Narrows** | result: valid forecasts are unchanged and gains come only from recovering invalid outputs | project meaning: syntax recovery must remain distinct from better historical inference and selective reliability | next engineering obligation: finish the matched account initial and activate the prepared downstream contrasts from complete comparisons | public claim: limited output recovery supported, historical self-correction unestablished | curator decision required: No | detail: L393 and `results/phase_2_4_stage_11_1/S1_REVIEW_INITIAL.json`.
+
 ### OPS-S11.1-I4 - both sequential interfaces independently admitted
 
 **Hypothesis.** Matched direct review and account-first prediction can each realize the frozen common target form before their human-record comparisons begin.

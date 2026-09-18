@@ -4,9 +4,9 @@
 
 The commissioned continuation is active. Both direct-reference tranches are complete,
 replayed and internally landed (L392). Review and account each passed their separate
-literal pilot (OPS-S11.1-I4). The finite coordinator took over normally and is running
-the matched review initial block, followed by account initial, history, revision and
-breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
+literal pilot (OPS-S11.1-I4). Matched review initial is complete and internally landed
+(L393); the finite coordinator is running account initial, followed by independent
+history, revision and breadth work. Its original allowance is up to 1,058 further attempts, with reserves and
 the unchanged 24-hour GPU / 6,400-attempt ceilings. Failed methods remain isolated;
 uncertain attempts stop for explicit reconciliation. Completed comparisons determine
 which already prepared evidence and transfer candidates run next.

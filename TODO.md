@@ -16,6 +16,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S11.1-I3 / OPS-S11.1-I4: complete and independently replay both reviewed-direct and account literal gates; preserve discarded charges and advance to matched initial comparisons.
 - [x] L392 / S1: complete both frozen direct-reference tranches and cheap controls; replay 198 calls, independently verify 144 score fields, and fully land the reference comparison without ranking unfinished methods.
 - [ ] L392 / S1: finish the matched review/account initial blocks, retain all invalids, and select prepared S2/S3 contrasts from complete comparisons while carrying both cheap controls and the later-branch reserve.
+- [x] L393 / S1: complete and replay both initial reviewed-direct cells; verify all first/second-pass transitions, costs and 96 aggregate score fields; fully land the comparison without ranking the active account arm.
+- [ ] L393 / S1: finish account initial, then select the prepared evidence/breadth contrasts on complete initial methods; retain the distinction between invalid-output recovery, historical correction and selective reliability.
 - [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
 - [ ] S1: separate account-removal/replacement diagnostic; at most one additional scientific account variant if justified.
 - [ ] S2: evidence-dose/query comparisons and at least 24 pairs with identical visible endpoints and different executed histories.

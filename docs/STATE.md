@@ -5,12 +5,15 @@
 The direct reference bank is complete and internally landed as L392: both frozen
 tranches and cheap controls replay, with 144 independently checked score fields.
 The whole-bank event reached this owner conversation. Both sequential pilots also
-pass independently and are internally landed as OPS-S11.1-I4. No unfinished
+pass independently and are internally landed as OPS-S11.1-I4. The complete initial
+review comparison is now internally landed as L393, with all sequential intermediates
+replayed and 96 aggregate score fields independently verified. No unfinished
 scientific comparator has been ranked; the Sunday packet remains pending.
 The finite 17-item coordinator is live as native PID 60004, creation ticks
 134342285739723118. It took the shared producer lock after native direct worker
-51860 exited normally. It is running the matched review initial block, with the
-admitted account initial next. It never edits, interrupts or duplicates that worker.
+51860 exited normally. It completed matched review initial and is running account
+initial, with independent query/history admission next. It never edits, interrupts
+or duplicates the original worker.
 Its frozen manifest is `raw/continuation/QUEUE-v1.json`, with up to 1,058 further
 attempts, including 536 conditional extension attempts. Shared ceilings remain.
 Completion, failure, disappearance and the brief's scientific checkpoints notify
@@ -49,8 +52,9 @@ Whole-bank completion, failure and native disappearance were registered with the
 actual completion delivery is observed in this conversation.
 Private identity/terminal/continuation receipt: `.agent-state/stage11-1-direct-live.json`.
 Do not modify the sources still pinned by the live coordinator or restart valid work.
-No routine ETA wake is scheduled; next is the complete matched initial comparison,
-then explicit leading-method selection for prepared S2/S3 candidates.
+No routine ETA wake is scheduled; next is the complete matched account initial,
+then explicit leading-method selection for prepared S2/S3 candidates. This event's
+delivery and native inspection are in `.agent-state/stage11-1-review-landing.json`.
 The available
 native evaluation pool contains 222 opportunities from fourteen writers and 23
 sessions, all marked historically exposed. Discovery and breadth remain descriptive;

@@ -19,8 +19,9 @@ The Gear 2 direct reference producer completed 99 episodes in two frozen tranche
 replayed without new calls and internally landed as L392. The [aggregate reference
 receipt](S1_REFERENCE.json) preserves invalids, coverage and separate target scores.
 Both sequential interfaces independently pass their [discarded pilots](SEQUENTIAL_INTERFACE.json)
-and are internally landed as OPS-S11.1-I4. The coordinator now runs the matched
-review initial, with account initial next. Both failed vector pilots remain charged.
+and are internally landed as OPS-S11.1-I4. The complete [review initial comparison](S1_REVIEW_INITIAL.json)
+and [retained-output diagnostic](S1_REVIEW_CHANGES.json) are internally landed as L393.
+The coordinator now runs account initial. Both failed vector pilots remain charged.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
 Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I4.
 This is an active study, not its final scientific packet.
