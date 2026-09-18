@@ -14,7 +14,7 @@ continuation; one combined scientific packet is due Sunday.
 | S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Review/account selected for downstream contrasts; optional extensions preserve 40,000 seconds for later branches |
 | S1 account use | Determine whether retaining an account changes useful supported inference | Original diagnostic complete and internally landed as L398; repeat variability voids account-specific attribution | Controlled valid-account repair complete (L399), all calls and 348 independent fields replay; retain input sensitivity versus useful-recovery distinction |
 | S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 executed twin pairs; review/account pair selected; query pilot independently admitted | Human-evidence block complete and internally landed as L400; provisional before-text reveal selected, with frozen constructed context stress next |
-| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); initial Qwen review breadth complete and internally landed as L401; account breadth running, then remaining frozen contrasts |
+| S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); initial Qwen review breadth complete and internally landed as L401; initial account breadth transport-incomplete (OPS-S11.1-I8); remaining frozen contrasts retained in recovery-v2 |
 | S4 reusable history | Test earlier own-history hypotheses against the same raw history and donor/none controls | Complete four-condition comparison on eight writers and sixteen targets internally landed as L395; exact source/temporal replay and construction/reuse accounting pass | Retain the bounded result and limitations; advance commissioned evidence/breadth work and final illustrations |
 | S5 viewer | Make hypotheses, evidence and corrections inspectable | Twelve constructed setup cases pass 84 DOM assertions; no enabled browser surface for visual QA | Populate final human illustrations after complete outcomes; retain prior forecasts and unlocated claims |
 
@@ -34,18 +34,21 @@ there is no retry or manufactured admission. All original plans remain intact.
 [Failure reconciliation](SECOND_READER_TRANSPORT.json),
 [original setup](CONTINUATION_SETUP.json).
 
-The active recovery queue completed the 72-call [valid-account repair](S1_ACCOUNT_USE_REPAIR.json)
-and [human-evidence comparison](S2_EVIDENCE.json), followed by the fully landed
-[initial breadth review](S3_INITIAL_REVIEW.json). It now runs initial account
-breadth. It carries all nine
-unchanged [selected successor](SELECTED_CONTINUATION.json) plans, and the two
-original conditional S1 extensions after later branches. Twelve items permit
-at most 2,150 calls, including 536 conditional extensions and 64 second-reader
-calls blocked by absent admission. Original resource gates and extension reserves
-remain binding; this allowance does not promise every optional completion.
-Real repair requests, recipient/donor validation and the 24-fake-call CLI/reentry
-pass. [Repair preparation](ACCOUNT_USE_REPAIR_SETUP.json),
-[verified native launch](RECOVERY_LAUNCH.json).
+The first recovery queue completed the [valid-account repair](S1_ACCOUNT_USE_REPAIR.json),
+[human-evidence comparison](S2_EVIDENCE.json) and [initial breadth review](S3_INITIAL_REVIEW.json)
+before account breadth stopped on transport uncertainty. Its partial cell stays
+incomplete; all retained responses replay and all costs remain charged.
+[Failure reconciliation and independent-tail rehearsal](ACCOUNT_BREADTH_TRANSPORT.json).
+
+Recovery-v2 carries only the eight unchanged downstream items, beginning with
+constructed context, then the remaining breadth and conditional S1 extensions.
+It permits at most 1,678 calls, including 64 blocked second-reader calls and
+536 conditional extensions. Original gates, 40,000-second extension reserves,
+shared ceilings and Sunday clocks remain. The literal scratch CLI completes six
+items, blocks two absent gates and reenters without adding to its 58 fake calls.
+Original plans, failed owners and launch receipts remain intact.
+[Recovery-v2 launch](RECOVERY2_LAUNCH.json) verifies native ownership, dispatch
+and monitoring; the first task remains pending at that inspection.
 
 The [four-hour coverage checkpoint](COVERAGE_4H.json) remains inspected.
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the

@@ -29,25 +29,31 @@ pilot requests and the full uncertain charge. No missing response is retried.
 This installed-reader continuation is retired for this commission; unattempted
 reader pilots and dependent contrasts are unavailable, not scientific nulls.
 
-The recovery coordinator is running in Gear 2 as native PID 74148, creation
-ticks 134342398262659714, executable C:/Python313/python.exe. Its frozen manifest
-is `raw/continuation/QUEUE-recovery-v1.json`. It completed the 72-call valid-account
-diagnostic, selected human-evidence comparison and initial breadth review.
-It advanced to `S3-initial-account-v1` at September 18 22:52:34 UTC, with
-constructed context stress next. The frozen producer remains unchanged.
-The real setup and 24-call fake CLI/reentry remain OPS-S11.1-Q3; the complete
-scientific repair is L399. No valid work was restarted.
+Recovery coordinator 74148 (creation ticks 134342398262659714) exited at
+September 18 23:08:23 UTC on the initial account-breadth request timeout.
+OPS-S11.1-I8 reconciles all 54 retained responses and the full 630-second
+uncertain block charge. Its three earlier items are complete and landed.
+Initial account breadth is incomplete: 27 full tasks, one partial, four
+unstarted. No partial scores, invented invalid forecast or retry is permitted.
+The separate reconciliation retains the original stale STATUS and absent produce.
 
-It now executes the nine unchanged selected S2/S3 plans, then the original two conditional
-S1 extensions. The old selected-v1 manifest remains intact, superseded before
-launch. Recovery has 12 items and a maximum 2,150 calls, including 536 conditional
-extension calls and 64 second-reader calls blocked by absent method gates. Shared
-ceilings and original 40,000-second extension reserves can defer optional work.
-Do not start another coordinator or edit any loaded scientific source. Native
-identity, source binding and registered completion/failure/disappearance paths
-are in `.agent-state/stage11-1-recovery-live.json`. Completion transitions or the
-predefined twelve-hour checkpoint, September 19 04:18:24 UTC, notify the owner;
-there is no routine ETA wake. The commissioned Sunday packet remains open.
+The explicitly reviewed `raw/continuation/QUEUE-recovery-v2.json` contains only
+the original eight unchanged downstream items: constructed context, gated
+second-reader plans, remaining breadth, then conditional S1 extensions.
+It permits at most 1,678 calls, including 64 blocked reader and 536 conditional
+extension calls. Original 40,000-second reserves and all shared ceilings remain.
+The literal scratch CLI completes six items, blocks two absent gates and adds
+no calls on reentry; all 58 fake attempts remain. No scientific source changed.
+The recovery-v2 coordinator is native PID 91848, creation ticks
+134342470200074889, executable C:/Python313/python.exe. It dispatched the
+constructed-context first request at September 18 23:17 UTC. Exact native
+ownership, pins and monitoring verify; first-task completion remains pending
+at launch inspection. `.agent-state/stage11-1-recovery2-live.json` records this
+limit and the expected terminal paths. Do not launch another coordinator.
+The next expected produce is `S2-twins-review-account-v1/COMPLETE.json` under
+`raw/branch_jobs/`. Completion, failure, disappearance or the predefined
+twelve-hour checkpoint, September 19 04:18:24 UTC, notify the owner.
+There is no routine ETA wake. The Sunday scientific packet remains open.
 
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
 human illustrations await complete outputs. Original targeted tests, checkpoint

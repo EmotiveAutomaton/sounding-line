@@ -33,14 +33,16 @@ review have separate literal gates and cannot inherit direct admission.
 The active native command is:
 
 ```powershell
-./.venv/Scripts/python.exe -B -m runners.stage11_1.continuation results/phase_2_4_stage_11_1/raw/continuation/QUEUE-recovery-v1.json
+./.venv/Scripts/python.exe -B -m runners.stage11_1.continuation results/phase_2_4_stage_11_1/raw/continuation/QUEUE-recovery-v2.json
 ```
 
 The original direct worker completed. The original 17-item coordinator later
 stopped on an installed-reader pilot timeout; its uncertain attempt stays charged
-and is not retried (OPS-S11.1-I7). After full reconciliation, the recovery coordinator
-took the same locks. Native identity and expected terminals are in
-`.agent-state/stage11-1-recovery-live.json`. Do not launch a duplicate or edit loaded
+and is not retried (OPS-S11.1-I7). The first recovery coordinator completed three
+items, then exited on an account-breadth timeout (OPS-S11.1-I8). All saved calls
+and charges remain, with that cell incomplete and no retry. Recovery-v2 carries
+only the eight unchanged independent downstream items. Native identity and expected
+terminals are recorded in `.agent-state/stage11-1-recovery2-live.json`. Do not launch a duplicate or edit loaded
 sources. `raw/PAUSE` and `raw/STOP` remain between-block owner controls.
 
 The separate `account_use_repair.py` preparation module reuses valid nonempty
@@ -52,8 +54,8 @@ and the original complete intervention matrix are retained (L398). Score the rep
 only when complete, including its two keep controls; the generic original-own
 contrasts are secondary to the frozen contemporaneous-control comparison.
 
-Recovery starts with this bounded diagnostic, then executes the nine unchanged
-selected S2/S3 plans and original two conditional extensions. Unavailable reader
+The bounded diagnostic is complete. Recovery-v2 begins with the frozen constructed
+context comparison, then remaining breadth and original conditional extensions. Unavailable reader
 methods stay gated, all original budgets and clocks apply, and no routine liveness
 wake is scheduled. See [branch status](../../results/phase_2_4_stage_11_1/BRANCHES.md).
 

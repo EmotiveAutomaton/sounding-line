@@ -9,6 +9,40 @@ ran it.
 
 ---
 
+### OPS-S11.1-I8 - account breadth stops on transport uncertainty; independent tail is preserved
+
+**Hypothesis.** A failed local request can be reconciled without losing retained evidence, resetting charges, or treating an incomplete comparison as a scientific result, while independent already admitted work continues.
+
+**METHOD.** Inspect the failed native coordinator, its frozen queue and source bindings, all retained account-breadth requests/responses and block charges, the three prior complete dispositions, server availability and GPU ownership. Replay every complete retained task without inference; reconstruct the failed request and verify that missing-response replay refuses. Carry only the original eight downstream item objects into a new finite manifest, preserving every plan digest, gate, reserve and call allowance. Rehearse that exact queue structure through the unchanged CLI on an isolated scratch root, with reduced case counts, fake responses and absent second-reader gates; repeat it to verify no new calls on reentry.
+
+**Found.** The coordinator exited at September 18 23:08:23 UTC after a five-minute timeout on the first call of the twenty-eighth account-breadth task. Its earlier complete blocks remain intact; the account breadth comparison never completed. The missing response is not replaced by an invented invalid forecast, and the unfinished cell is not scored or ranked. The service responds and reports no resident model after unload; the GPU lock is released and exact native process exit is verified. The service log shows generation slowing before timeout, with other GPU activity observed after unload. Contention is plausible but not isolated; this is not a causal diagnosis or a scientific null.
+
+The table accounts for the frozen account-breadth block. A task is a two-call account/prediction chain; a retained response may still be scientifically invalid. Counts below describe execution, not accuracy.
+
+| Execution measure | Retained outcome |
+|---|---:|
+| Planned tasks / calls | 32 / 64 |
+| Complete tasks | 27 |
+| Partial tasks / entirely unstarted tasks | 1 / 4 |
+| Attempted calls / retained responses | 55 / 54 |
+| Missing responses / unattempted calls | 1 / 9 |
+| Charged block time, seconds | 1261.218244 |
+| Included uncertain two-call reservation, seconds | 630.000000 |
+| Retained request-wall time, seconds | 630.548051 |
+| Retained input / output tokens | 94664 / 33136 |
+
+**Validity and disposition.** All fifty-four saved responses semantically replay; retained response and cost bytes are unchanged. Missing-response replay refuses before dispatch. All original pins and three complete recovery dispositions verify against their retained producer digests; L399-L401 remain landed. Whole-account-breadth comparison is **unavailable due to incomplete transport**, not a negative scientific result. Preserve its original binding, absent completion, stale last-running status and failed coordinator record, with a separate explicit reconciliation. Do not silently continue that partial directory, retry the missing call, or manufacture a complete reduced sample.
+
+The unchanged eight-item independent tail allows at most 1,678 further calls, including sixty-four blocked second-reader calls and 536 conditional S1 extension calls. It begins with the frozen constructed-context comparison and retains the already selected remaining breadth. No tail item depends on the interrupted account-breadth outcome. The literal rehearsal completes six admitted items, blocks both absent-gate reader items, retains all fifty-eight fake attempts, and reenters without new calls. Fake route checks validate scheduling and accounting, not model efficacy. Existing known-answer/source/target checks and method admission are retained unchanged. At reconciliation the full campaign ledger holds 1,203 attempts and 21,205.133912 charged seconds; those include this failure and every earlier pilot, invalid and uncertain attempt. All original branch, call, GPU and Sunday limits still bind.
+
+**Launch verification.** The new native coordinator dispatched the constructed-context first request, with its exact creation-time identity, source pins and completion/failure/disappearance paths verified. First-task completion remains pending at the launch inspection; this establishes dispatch and monitoring, not successful model production. [Launch receipt](results/phase_2_4_stage_11_1/RECOVERY2_LAUNCH.json).
+
+**Means and next action.** Continue only this explicitly reconciled independent tail in Gear 2, with completion/failure/disappearance monitoring and the existing predefined checkpoint. An isolated timeout does not invalidate prior Qwen admission or authorize a new account variant, relaxed timeout or repeat campaign. Keep account breadth incomplete in the final branch matrix and preserve its failed effort in the time account. No new tests harvested from this operational wake; scientific reporting remains reserved for the Sunday packet.
+
+**Curator roll-up.** Theory group: instrument integrity. Question: can independent work continue after an uncertain request without misreporting the interrupted comparison? Outcome: **Infrastructure**. Result: retained responses replay and the unchanged independent tail passes its restart rehearsal. Project meaning: unfinished account breadth remains unavailable while completed evidence stays intact. Next engineering obligation: verify the new native owner and continue the frozen context and remaining breadth plans. Public claim: unchanged; no partial scientific verdict. Curator decision required: No. Detail: [failure and recovery validation](results/phase_2_4_stage_11_1/ACCOUNT_BREADTH_TRANSPORT.json); raw requests, process identity and exact reconciliation remain private.
+
+---
+
 ### L401 - breadth review repairs invalid outputs without adding useful production events
 
 **Hypothesis.** A second direct pass on the same evidence improves witnessed production recovery on the separate breadth episodes, beyond one-pass reading and inexpensive controls.

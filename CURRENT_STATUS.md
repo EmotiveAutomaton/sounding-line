@@ -2,33 +2,29 @@
 
 ## Stage 11.1 running in Gear 2 - 2026-09-18
 
-Gear 2 continues on the reconciled recovery queue. All initial methods, history,
-revision, direct breadth and the original account intervention are fully recorded
-internally (L392-L398). The intervention audit found variation between identical
-requests; its account-specific attribution is void, while its complete outputs
-and charges remain intact. The bounded valid-account repair is complete and
-internally landed as L399. The human-evidence study is also complete and internally
-landed as L400. Initial breadth review is complete and internally landed as L401.
-The same coordinator now runs account breadth, followed by the constructed
-context comparison.
+Stage 11.1 remains allocated to Gear 2. All completed initial comparisons,
+history, released revision, direct/reviewed breadth, evidence retrieval and
+account-use diagnostics are internally landed (L392-L401). Original uncontrolled
+account-use attribution remains void; its bounded controlled repair is retained.
 
-The original coordinator exited during the installed-reader pilot's transport
-timeout. Both attempts and the full uncertain charge are preserved; that reader
-continuation is unavailable for this commission. The new twelve-item manifest
-retains all selected plan bindings and original conditional extensions. It allows
-at most 2,150 calls, including 536 conditional extension calls and 64 reader calls
-blocked by absent admission. All original 6,400-call / 24-GPU-hour ceilings,
-cooling limits and reporting clocks remain binding. No new account variant,
-cloud work or delegation is introduced.
+The account-breadth producer stopped on a five-minute transport timeout.
+All 54 retained responses replay and the full uncertainty charge remains;
+the comparison is incomplete and unranked (OPS-S11.1-I8). The exact native
+owner has exited. No response is retried or synthesized.
 
-Real repair requests and remapped graphs validate. A separate literal scratch run
-completes 24 fake calls and immutable reentry adds none. The recovery coordinator's
-native identity, loaded source pins and completion/failure monitoring verify.
-The complete repair replays with 348 independent score/transition checks; the
-evidence comparison adds 264 matching checks and exact source-observation replay.
-Initial breadth review adds 91 independent checks and exact first-request replay.
-Next is the complete account breadth block or an actual failure; the next predefined
-coverage checkpoint is September 19 04:18 UTC. No routine ETA wake is scheduled.
+Recovery-v2 carries the eight unchanged independent downstream items, starting
+with constructed context and then remaining breadth. Its literal rehearsal
+passes with 58 fake attempts and exact no-call reentry; absent second-reader
+gates still block. The new native coordinator has dispatched the constructed-context
+first request; ownership, pins and monitoring verify. First-task completion is
+still pending at launch inspection, so no successful production is claimed yet.
+The tail allows at most 1,678 calls, including 64 blocked reader calls and 536
+conditional S1 extension calls. Original 6,400-call / 24-GPU-hour ceilings,
+cooling limits, extension reserves and reporting clocks remain unchanged.
+
+The next completion is the constructed context block or an actual failure;
+the next predefined coverage checkpoint is September 19 04:18 UTC. The
+transition-only watcher remains active; no routine ETA wake is scheduled.
 
 The twelve-case viewer remains a constructed setup preview; human illustrations
 and the final scientific packet await complete comparisons. Browser visual QA

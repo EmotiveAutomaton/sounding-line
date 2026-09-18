@@ -34,16 +34,21 @@ The [human-evidence comparison](S2_EVIDENCE.json) is complete and internally lan
 as L400, with exact observation reconstruction and 264 independent checks.
 The [initial breadth review](S3_INITIAL_REVIEW.json) is complete and internally
 landed as L401, with all 96 retained calls replayed and 91 independent checks.
-The same Gear 2 coordinator now runs account breadth, then the constructed
-context comparison.
+The [account-breadth transport stop](ACCOUNT_BREADTH_TRANSPORT.json) is fully
+reconciled as OPS-S11.1-I8. Its partial cell remains incomplete and unranked.
+The reviewed Gear 2 recovery-v2 tail carries only the eight unchanged independent
+items, starting with constructed context and then remaining breadth; its 58-call
+fake rehearsal and exact no-call reentry pass. [Native launch](RECOVERY2_LAUNCH.json)
+verifies ownership, dispatch and monitoring; the first task is still pending
+at that inspection, and successful production is not yet established.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
-reconciled; [recovery launch](RECOVERY_LAUNCH.json) verifies the new native owner.
+reconciled; the [first recovery launch](RECOVERY_LAUNCH.json) remains historical.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.
 Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
-and exact reentry; its unchanged plans are now carried in the recovery queue
-after exact original-owner exit and failure reconciliation. Conditional extensions
+and exact reentry; its remaining independent plan bindings carry into recovery-v2
+after exact owner exit and failure reconciliation. Conditional extensions
 follow later branches; unavailable second-reader methods remain gated.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface receipts are OPS-S11.1-I1 through I7.
+Completed internal diagnosis is L391; interface/transport receipts are OPS-S11.1-I1 through I8.
 This is an active study, not its final scientific packet.
