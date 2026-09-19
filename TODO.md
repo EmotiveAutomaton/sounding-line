@@ -8,7 +8,8 @@ archive, kept whole, mined but never deleted.
 ## Stage 11.1 commissioned - 2026-09-18
 
 - [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.
-- [ ] OPS-S11.1-Q1: land each complete queued block; select prepared S2/S3 leading-method plans from complete S1 comparisons, then populate final human illustrations and the single Sunday packet.
+- [x] OPS-S11.1-Q1: select prepared S2/S3 plans from complete initial methods and land all admitted core branch comparisons (L394-L406).
+- [ ] OPS-S11.1-Q1: land the admitted discovery tail, populate final human illustrations and assemble the single Sunday packet.
 - [x] L391 / S0: reparse 204 retained responses; report the training-cap deviation and separate sensitivity; preserve the published table.
 - [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
 - [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.
@@ -42,13 +43,15 @@ archive, kept whole, mined but never deleted.
 - [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; the original transport-incomplete account namespace remains preserved, with the full recovered comparison landed as L403.
 - [x] L404 / S3: replay all 62 direct-extension calls, exact remaining selection and 45 independent score fields; fully land the complete direct breadth reference with dependency and calibration limits.
 - [x] L405 / S3: replay all 124 review-extension and 62 direct-reference calls, exact first-request matches and 91 independent fields; land invalid-output recovery, useful yield and selective-risk limits.
-- [ ] L405 / S3-S5: finish the frozen account breadth extension; carry the complete breadth matrix, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
+- [x] L406 / S3: replay all 124 account-extension and 186 reference calls, exact selection and 91 independent fields; fully land the complete breadth matrix with graph validity, useful recovery and selective-risk limits.
+- [ ] L406 / S3-S5: carry complete breadth, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
 - [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
-- [ ] S1: retain conditional extension gates and 40,000-second reserve checks; do not promise admission before the checks run.
+- [x] OPS-S11.1-I11: reconcile normal exit and both reserve deferrals; retain old records, release only the completed later-branch reserve in a versioned two-item manifest, rehearse exact reentry and verify first real task plus monitoring.
+- [ ] S1 / OPS-S11.1-I11: complete and fully land original review/account discovery extensions under unchanged hard limits; compare against the retained direct bank without additional calls to it.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
 - [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
-- [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
+- [x] S3: complete admitted breadth and existing-adapter revision check; installed-reader replication is unavailable after retained transport failure, not a scientific null.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
 - [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.
 

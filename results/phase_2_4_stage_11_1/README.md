@@ -41,8 +41,9 @@ and internally landed as L403, with all original tasks and 91 independent checks
 The [complete direct breadth extension](S3_EXTENSION_DIRECT.json) is internally
 landed as L404: all 62 calls and 45 independent fields verify. The [complete review
 extension](S3_EXTENSION_REVIEW.json) is internally landed as L405, with 186 retained
-calls replayed and 91 independent fields verified. The account extension remains
-unfinished and unranked.
+calls replayed and 91 independent fields verified. The [complete account extension](S3_EXTENSION_ACCOUNT.json)
+is internally landed as L406: 310 retained calls replay and 91 independent fields
+verify. All admitted breadth episodes now have complete matched methods.
 The [account-breadth transport stop](ACCOUNT_BREADTH_TRANSPORT.json) is fully
 reconciled as OPS-S11.1-I8. Its partial cell remains incomplete and unranked.
 The reviewed Gear 2 recovery-v2 tail carries only the eight unchanged independent
@@ -58,7 +59,13 @@ verifies the first complete real task and monitoring. Context retains its full
 roster in a new identity; account breadth retains complete chains and queues only
 five unfinished chains. The supplement and full-roster replay have now completed
 (L403); its five-task summary is never interpreted as the original comparison.
-Failed evidence and charges remain; the unchanged tail follows in Gear 2.
+Failed evidence and charges remain. Recovery-v3 has now exited normally after all
+admitted core work completed and both optional S1 extensions deferred.
+[Explicit reserve reallocation](DISCOVERY_REALLOCATION.json) retains those old
+deferrals and admits only the two original discovery plans in a new manifest
+(OPS-S11.1-I11). The [current launch](DISCOVERY_TAIL_LAUNCH.json) verifies a complete
+real task and native supervision in Gear 2. Hard caps, methods and clocks remain;
+completion of both cells is conditional on those limits.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
 reconciled; the [first recovery launch](RECOVERY_LAUNCH.json) remains historical.
 The [four-hour coverage inspection](COVERAGE_4H.json) remains historical.
@@ -68,8 +75,9 @@ No unfinished comparison is scored; all original ceilings and clocks remain.
 Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
 and exact reentry; its remaining independent plan bindings carry unchanged into
-recovery-v3 after explicit failure and resource reconciliation. Conditional extensions
-follow later branches; unavailable second-reader methods remain gated.
+recovery-v3 after explicit failure and resource reconciliation. Its core work is now
+complete; the discovery tail follows through explicit reserve reallocation.
+Unavailable second-reader methods remain gated.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface/transport receipts are OPS-S11.1-I1 through I10.
+Completed internal diagnosis is L391; interface/transport receipts are OPS-S11.1-I1 through I11.
 This is an active study, not its final scientific packet.

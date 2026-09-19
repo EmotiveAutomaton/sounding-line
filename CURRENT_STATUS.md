@@ -7,10 +7,13 @@ complete, independently replayed and internally landed (L402-L403). Whole-roster
 recovery combines retained complete chains with the five-task supplement; original
 failed namespaces, responses and charges remain intact.
 
-The direct and review breadth extensions are replayed and internally landed
-(L404-L405). The same Gear 2 coordinator is running the matched account extension.
-Optional S1 extensions retain their
-reserve checks; the unavailable second reader remains blocked. Methods, caps and
+All three breadth extensions are replayed and internally landed (L404-L406).
+The prior coordinator exited normally after deferring both optional discovery
+extensions for its later-branch reserve. Those later branches are complete. A new
+reviewed queue releases that temporary reserve and runs the two original discovery
+extensions in Gear 2, review then account. Its first real task completed without
+uncertainty; 23 targeted checks and the sixteen-call fake CLI/reentry pass.
+The unavailable second reader remains blocked. Methods, caps and
 the commissioning clock are unchanged. Completion/failure/disappearance monitoring
 remains active, with the next predefined checkpoint September 19 16:18 UTC.
 The single final packet remains due September 20 at 15:00 UTC.
@@ -24,7 +27,9 @@ remains unavailable. The original brief is filed unchanged in the
 [recovered account breadth](results/phase_2_4_stage_11_1/S3_INITIAL_ACCOUNT.json),
 [completed direct extension](results/phase_2_4_stage_11_1/S3_EXTENSION_DIRECT.json),
 [completed review extension](results/phase_2_4_stage_11_1/S3_EXTENSION_REVIEW.json),
-[verified recovery launch](results/phase_2_4_stage_11_1/RECOVERY3_LAUNCH.json).
+[completed account extension](results/phase_2_4_stage_11_1/S3_EXTENSION_ACCOUNT.json),
+[reserve reallocation](results/phase_2_4_stage_11_1/DISCOVERY_REALLOCATION.json),
+[verified current launch](results/phase_2_4_stage_11_1/DISCOVERY_TAIL_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18
 

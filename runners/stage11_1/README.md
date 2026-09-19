@@ -30,11 +30,14 @@ Earlier files retain failed interfaces and preflight versions. METHOD-v3.md
 specifies the compact confidence readout; its direct pilot passed. Account and
 review have separate literal gates and cannot inherit direct admission.
 
-Recovery-v3 is running after explicit resource reassessment (OPS-S11.1-I10).
-Do not launch a duplicate or rerun old interrupted commands. Active manifest:
-raw/continuation/QUEUE-recovery-v3.json. First full context task completed without
-transport uncertainty. Native identity and registered terminals:
-.agent-state/stage11-1-recovery3-live.json.
+Recovery-v3 completed its admitted core work and exited normally. Its two S1
+extensions were deferred for the later-branch reserve; original records remain.
+OPS-S11.1-I11 releases that temporary reserve after all protected comparisons
+landed. Current manifest: raw/continuation/QUEUE-discovery-tail-v1.json. Only the
+two original scientific extension plans run, with unchanged hard caps and clocks.
+The first real task completed without uncertainty; native identity and registered
+terminals: .agent-state/stage11-1-discovery-tail-live.json.
+Do not launch a duplicate or rerun old interrupted commands.
 
 Context changes only the execution identity of its original 384-task plan, which
 retained no response. Account breadth retains 27 complete chains and schedules
@@ -65,10 +68,10 @@ and the original complete intervention matrix are retained (L398). Score the rep
 only when complete, including its two keep controls; the generic original-own
 contrasts are secondary to the frozen contemporaneous-control comparison.
 
-The bounded diagnostic is complete. Recovery-v3 begins with constructed context,
-then account supplementation, remaining breadth and conditional extensions. Unavailable reader
-methods stay gated, all original budgets and clocks apply, and no routine liveness
-wake is scheduled. See [branch status](../../results/phase_2_4_stage_11_1/BRANCHES.md).
+The bounded diagnostic, constructed context and all admitted breadth are complete.
+The original review/account discovery extensions run in sequence after explicit
+reserve reallocation. Unavailable reader methods stay gated, all original budgets
+and clocks apply, and no routine liveness wake is scheduled. See [branch status](../../results/phase_2_4_stage_11_1/BRANCHES.md).
 
 `preflight --candidates` preserves all prepared S2 method pairs without activating
 them. After complete S1 write-through, select one pair and construct the next

@@ -31,7 +31,9 @@ calls, exact remaining roster and 45 independent fields verify. Together with
 initial breadth it covers all 94 admitted episode keys; shared writers/sessions
 remain explicit. Review extension is complete and internally landed as L405:
 124 review and 62 reference calls replay, with 91 independent fields verified.
-The account extension remains unranked; earlier failures and final-packet duties remain.
+Account extension is complete and internally landed as L406: 124 account and
+186 reference calls replay, with 91 independent fields verified. Complete breadth
+now covers all three methods; earlier failures and final-packet duties remain.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
 installed Llama direct pilot's transport timeout, September 18 21:05:17 UTC.
@@ -67,7 +69,7 @@ reconciles both cells and releases only the bound resource PAUSE at September 19
 01:39:22 UTC. RESOURCE_HOLD-v1 and RESOURCE_RELEASE-v1 remain immutable records.
 Both original failed namespaces remain incomplete.
 
-Recovery-v3 runs in Gear 2: native PID 111296, creation ticks 134342555730422342,
+Recovery-v3 has exited normally: native PID 111296, creation ticks 134342555730422342,
 executable C:\Python313\python.exe. Manifest: raw/continuation/QUEUE-recovery-v3.json;
 digest e85dbf56948d6449b5ef4dbe30162385a4435904c4a0d7763e30ada1170041c8.
 Context retains its full original roster under a new identity; the account supplement
@@ -75,8 +77,28 @@ contains only five unfinished chains. Seven tail item objects are unchanged.
 Maximum new calls: 1,688, including 64 blocked reader and 536 conditional calls.
 Original caps, extension reserves, methods and clocks bind. Full context and the
 account supplement completed without new transport uncertainty. The same coordinator
-is running S3-extension-account-v1, followed by reserve-gated S1 extensions;
-unavailable second-reader contrasts stay blocked.
+completed S3-extension-account-v1 and deferred both S1 extensions for the
+40,000-second later-branch reserve. All five runnable core items are complete;
+two unavailable reader contrasts remain blocked. Native exit and released GPU
+ownership are verified. Explicit reserve reallocation is recorded below; the
+old terminal and stale STATUS records remain intact.
+
+OPS-S11.1-I11 completes that review and releases only the temporary later-branch
+reserve. The two original scientific plans now run through
+raw/continuation/QUEUE-discovery-tail-v1.json, digest
+5c7c685819c9d83a9c053b259ffdb7c0bd2ad6e670836d87576aeeb78a37ffd2.
+Native owner: PID 137392, creation ticks 134342716462403995, C:\Python313\python.exe.
+Review extension runs first, account extension follows; at most 536 new calls.
+No method, source, cap, clock or old charge changes. Twenty-three targeted checks
+and the sixteen-call fake queue/reentry pass. The first real task completed without
+uncertainty; transition-only completion/failure/disappearance monitoring and the
+checkpoint helper verify. Current native record:
+.agent-state/stage11-1-discovery-tail-live.json. Public records:
+DISCOVERY_REALLOCATION.json and DISCOVERY_TAIL_LAUNCH.json.
+Observed mean throughput suggests roughly three hours for both items, but upper
+runtime forecasts exceed remaining GPU allowance; hard block gates determine
+actual admission. Do not promise full completion or reset a stopped cell. If the
+runnable frontier exhausts early, issue the specified frontier report.
 
 The offline transport_recovery command with
 raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json has replayed all
