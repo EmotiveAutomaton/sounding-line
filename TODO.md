@@ -2,6 +2,8 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+- [x] OPS-S11.2-G1-AUDIT: reconstruct all retained calls offline, verify original roster order, saved parse/cost fields and unchanged files, and exercise the interrupted-call refusal without inference. Visual browser QA remains unavailable.
+
 **Gear 1 resumed after restart:** original checkpoint helper and watcher are
 active under new bound native identities. Saved evidence, charges and clocks are
 unchanged. Sustained GPU jobs remain parked; no automatic uncertain-call retry.

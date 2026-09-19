@@ -2,6 +2,12 @@
 
 ## Gear 1 resumed after restart - 2026-09-19
 
+The latest light-work pass (OPS-S11.2-G1-AUDIT) reconstructs and reparses all
+464 retained calls, verifies their original order and 2,253 unchanged files,
+and exercises the interrupted-request guard with inference disabled. The
+unfinished response and full reservation remain; no partial scores are computed.
+The post-restart browser inventory is still empty, so visual QA remains open.
+
 The owner explicitly resumed Gear 1. The original checkpoint helper and same-owner
 watcher are alive under newly verified native identities; their terminal paths are
 registered. The original schedule and scientific source pins match. Saved calls,

@@ -228,6 +228,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Paused-call preservation audit (OPS-S11.2-G1-AUDIT): all 464 retained requests,
+raw responses, bindings, parse/error states and saved cost fields replay under
+blocked model/service access. The next interrupted request refuses actual reentry;
+its full reservation remains. All 2,253 inspected files and thirty source pins
+are unchanged. No evaluator score or completion is synthesized. Browser surfaces
+remain unavailable for the pending visual QA.
+
 Gear 1 resumption (OPS-RESUME-20260919): post-restart inventory and released
 kernel locks verify. The original checkpoint helper and same-owner watcher are
 restored under new native identities and registered terminal paths. Schedule,

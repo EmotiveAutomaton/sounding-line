@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S11.2-G1-AUDIT - retained-call replay and interrupted-request boundary
+
+**Operational question.** Is the paused run's saved progress internally consistent, and does its unfinished request remain protected from an automatic retry?
+
+**METHOD.** Under two-thread CPU limits, reconstruct the original ordered public-case roster and exact repaired requests. Replay each retained completion through the production binding and response parser; compare probability representation, validity/error state and raw cost fields without evaluator truth or aggregate scoring. Replace model transport and service entry points with refusing functions. Exercise the actual unfinished-request reentry and compare every retained producer/charge file before and after the audit.
+
+The table reports preservation checks, not partial scientific performance.
+
+| Check | Outcome |
+|---|---|
+| Completed calls | All 464 reconstruct and reparse consistently in their original contiguous order |
+| Interrupted request | Exact next roster position; no saved response, fabricated completion or automatic retry |
+| Accounting | Its full 330-second reservation remains; total charged service is unchanged |
+| Retained files | All 2,253 inspected producer and charge files unchanged |
+| Scientific source pins | All thirty match |
+| New inference | None; model transport and service entry points disabled during replay |
+| Pending visual QA | Post-restart browser inventory is empty; visual inspection remains unperformed |
+
+**Found and means.** The completed prefix is preserved and the actual retry guard refuses the uncertain request. This is an integrity check of an incomplete cell, not a scientific comparison or permission to continue it. Keep the missing response and reservation explicit in final coverage or reconcile them before a later authorized resume; never create a completion to make the roster look finished. Gear 1 and the parked GPU queue remain. No new research test was harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can saved partial work be retained without converting uncertainty into a completed result? Outcome: **Infrastructure**. Result: all 464 retained calls replay while the interrupted request still refuses automatic retry. Project meaning: preserved progress has a verified continuation boundary, with no partial method ranking. Next engineering obligation: carry the incomplete cell into coverage and preserve the unknown request before any authorized continuation. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/PAUSED_CALL_AUDIT.json.
+
+---
+
 ### OPS-RESUME-20260919 - Gear 1 restored after restart
 
 **Operational question.** Can the owner-requested light allocation resume its monitoring and original reporting schedule without restoring sustained GPU load?
