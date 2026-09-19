@@ -2,6 +2,12 @@
 
 ## Stage 11.1 inference queue complete; reporting remains open - 2026-09-19
 
+Current validity pass: all 56 Stage 11.1 Python tests, 392 retained viewer calls,
+6,901 UI checks, 32 report inputs and 21 locks pass. Watcher and checkpoint helper
+are healthy; no pending event, unlanded produce or runnable inference remains.
+No scientific repair or new inference was required.
+[Validity receipt](results/phase_2_4_stage_11_1/VALIDITY_PASS.json).
+
 The full constructed-context comparison and recovered initial account breadth are
 complete, independently replayed and internally landed (L402-L403). Whole-roster
 recovery combines retained complete chains with the five-task supplement; original

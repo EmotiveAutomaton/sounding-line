@@ -9,6 +9,32 @@ ran it.
 
 ---
 
+### OPS-S11.1-V1 - current queue and active-stage validity pass
+
+**Operational question.** Are the completed inference queue, retained evidence and current Stage 11.1 tests still in good shape?
+
+**METHOD.** Inspect native coordinator, watcher and checkpoint identities against creation times; reconcile both final queue dispositions and check for newer unlanded produces or pending events. Run every Stage 11.1 Python test in fresh private scratch storage. Rebuild the human viewer without inference, reparse its retained calls and source projections, execute its shipped UI tests, verify all bound report inputs and scientific source pins, and check locks and theory format.
+
+The table reports implementation and evidence checks, not scientific scores. The Python suite includes constructed known answers, privacy/tampering refusals, scorer direction, invalid handling, literal queue/reentry, method admission, uncertain transport charges, recovery and checkpoint timing.
+
+| Check | Current result | Limit |
+|---|---|---|
+| Inference queue | No active producer or runnable item; both final plans complete | Historical RUNNING snapshot is stale and preserved; terminals and native identity govern |
+| Supervision | Watcher and checkpoint helper native identities verify; no pending events or new unlanded produce | Fixed checkpoints remain; no routine liveness wake added |
+| Stage 11.1 Python tests | All 56 pass; no failures, errors or skips | Nonfatal pytest cache-write permission warning; fixtures executed in fresh repository scratch storage |
+| Retained-data viewer | Twelve source projections and 392 saved calls replay; exact immutable reentry | No new inference or changed scientific output |
+| UI behavior | All 6,901 interaction checks pass | DOM behavior is not visual layout QA |
+| Report and source integrity | All 32 bound report inputs and scientific pins match | Original failures and source exclusions remain intact |
+| Repository invariants | All 21 locks, theory lint and diff whitespace checks pass | No scientific parser, scorer, source or gate changed |
+
+**Found.** No scientific execution or validity repair is required by this pass. The final coordinator is absent and GPU ownership released; the current watcher reports no error. The unchanged cumulative ledger retains 2,828 attempts and 43,607.550371 charged seconds. The fresh browser inventory is again empty, so visual QA remains unperformed. A first private audit lookup used the landing summary rather than the original native-identity record; the corrected lookup verifies that original record without changing either evidence or process ownership.
+
+**Pursuit, warrant and next action.** Pursuit: establish present queue and test health rather than assume the prior pass remains valid. Warrant: current native inspection, executed focused tests, semantic/source replay and exact integrity checks support these operational claims. Existing exposed-source dependence, frozen context exclusions and unavailable reader transfer remain scientific limitations. The prepared inference set is exhausted under the recorded Stage 11.1 frontier rule; the final packet remains due Sunday. Continue the predefined September 19 16:18:24 UTC checkpoint and Sunday final integrity/delivery, retaining Gear 2 authorization. No new scientific tests harvested from this request; existing validity checks were rerun. No new model call, cloud spend or delegation.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the completed queue and its test coverage still sound? Outcome: **Infrastructure**. Result: the focused suite and retained evidence checks pass without a scientific repair. Project meaning: execution integrity is current while scientific and visual-QA limits remain explicit. Next engineering obligation: retain fixed coverage monitoring and finish Sunday integrity and packet delivery. Public claim: unchanged. Curator decision required: No. Detail: [current validity pass](results/phase_2_4_stage_11_1/VALIDITY_PASS.json).
+
+---
+
 ### OPS-S11.1-I12 - prepared inference exhausted; normal exit and the actual frontier recorded
 
 **Operational question.** Has the last admitted inference queue finished, and what remains possible within the existing commission before Sunday?

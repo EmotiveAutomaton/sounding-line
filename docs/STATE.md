@@ -2,6 +2,15 @@
 
 ## Stage 11.1 reporting open; inference queue exhausted - 2026-09-19
 
+Current owner-requested validity pass (OPS-S11.1-V1, September 19) verifies
+no running inference or runnable item, no pending event and no unlanded produce.
+All 56 Stage 11.1 Python tests pass. Twelve viewer source projections and 392
+retained calls replay; all 6,901 UI checks, 32 report input hashes and 21 locks
+pass. Native watcher/checkpoint identities and source pins verify; the model
+ledger is unchanged. Browser inventory remains empty, so visual QA is unperformed.
+The next fixed checkpoint and Sunday delivery are unchanged. Detail:
+results/phase_2_4_stage_11_1/VALIDITY_PASS.json.
+
 The direct reference and all initial methods are internally landed (L392-L394),
 as are history, released revision and initial direct breadth (L395-L397).
 Their source, semantic replay and independent score checks remain intact.

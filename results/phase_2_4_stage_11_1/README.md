@@ -14,6 +14,11 @@ attempts and model accounts stay in ignored `raw/`.
 
 ## Local human viewer and reporting
 
+[Current validity pass](VALIDITY_PASS.json), September 19: all 56 active-stage
+Python tests, retained viewer replay, 6,901 UI checks, 32 report inputs and 21
+locks pass. Native supervision is healthy; inference remains normally exhausted.
+No scientific repair or new inference was required.
+
 The source-replayed human viewer is
 `results/phase_2_4_stage_11_1/raw/S5/contribution-map-human-v1.html`.
 Open that local file in a browser. It contains private source text and stays ignored.
