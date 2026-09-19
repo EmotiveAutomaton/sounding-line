@@ -21,6 +21,9 @@ receipt](S1_REFERENCE.json) preserves invalids, coverage and separate target sco
 Both sequential interfaces independently pass their [discarded pilots](SEQUENTIAL_INTERFACE.json)
 and are internally landed as OPS-S11.1-I4. The complete [review initial comparison](S1_REVIEW_INITIAL.json)
 and [retained-output diagnostic](S1_REVIEW_CHANGES.json) are internally landed as L393.
+The complete [discovery review extension](S1_REVIEW_EXTENSION.json) is internally
+landed as L407: 268 review and 134 reference calls replay and 182 independent
+fields verify. Its matched account extension continues in Gear 2.
 The complete [account initial comparison](S1_ACCOUNT_INITIAL.json) is internally
 landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-S11.1-I5.
 The [complete history comparison](S4_HISTORY.json) and [released-revision comparison](S3_REVISION.json)

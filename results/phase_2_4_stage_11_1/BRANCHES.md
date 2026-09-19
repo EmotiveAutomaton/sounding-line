@@ -11,7 +11,7 @@ continuation; one combined scientific packet is due Sunday.
 | Branch | Pursuit | Current evidence/readiness | Next action |
 |---|---|---|---|
 | S0 diagnosis | Separate interface, decision, support and control failures | Offline 204-response replay and separate training-cap sensitivity internally landed, L391 | Carry the prior and low-dimensional alignment rival into the common comparison |
-| S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Downstream contrasts complete; original review/account discovery extensions admitted after explicit release of the completed later-branch reserve (OPS-S11.1-I11), with hard caps unchanged |
+| S1 common form | Account-first inference versus direct reading and matched review | Direct-reference bank and all initial methods internally landed (L392-L394); interfaces independently admitted | Downstream contrasts complete; discovery review extension fully landed (L407), with all 402 retained calls replayed and 182 independent fields checked. The account extension runs in the same Gear 2 queue; hard caps unchanged |
 | S1 account use | Determine whether retaining an account changes useful supported inference | Original diagnostic complete and internally landed as L398; repeat variability voids account-specific attribution | Controlled valid-account repair complete (L399), all calls and 348 independent fields replay; retain input sensitivity versus useful-recovery distinction |
 | S2 evidence | Correct specific relations with a small new observation | Sixteen human cases and 24 constructed twin pairs; review/account pair selected; query pilot independently admitted | Human-evidence block complete and internally landed as L400; provisional before-text reveal selected, with the complete context replacement replayed and landed as L402; retain constructed ambiguity and misleading-cue failure in the final viewer |
 | S3 breadth | Expand source and representation support | Initial direct breadth complete and landed as L397; separate episode keys share discovery writers/sessions. Complete revision comparison landed as L396 | Installed-reader continuation retired after transport timeout (OPS-S11.1-I7); initial Qwen review breadth complete and internally landed as L401; full recovered initial account breadth is landed as L403 and all three extensions as L404-L406; carry complete breadth into the viewer and final packet |
@@ -63,8 +63,9 @@ queue exited normally with two reserve deferrals and two unavailable reader item
 [Reserve reallocation](DISCOVERY_REALLOCATION.json) retains both deferrals and
 releases their temporary later-branch reserve now that those comparisons are complete.
 The two original discovery plans run through a new Gear 2 manifest; the [launch](DISCOVERY_TAIL_LAUNCH.json)
-verifies a complete real task and native monitoring. Review runs before account;
-no other scientific item is added. Charges, gates, ceilings and clocks remain.
+verifies a complete real task and native monitoring. Review has now completed
+and is internally landed (L407); the same coordinator runs account. No other
+scientific item is added. Charges, gates, ceilings and clocks remain.
 Future transport uncertainty stops for reconciliation; no automatic retry.
 
 The [four-hour coverage checkpoint](COVERAGE_4H.json) remains inspected.

@@ -11,8 +11,10 @@ All three breadth extensions are replayed and internally landed (L404-L406).
 The prior coordinator exited normally after deferring both optional discovery
 extensions for its later-branch reserve. Those later branches are complete. A new
 reviewed queue releases that temporary reserve and runs the two original discovery
-extensions in Gear 2, review then account. Its first real task completed without
-uncertainty; 23 targeted checks and the sixteen-call fake CLI/reentry pass.
+extensions in Gear 2. Review is now complete and internally landed as L407:
+268 review and 134 reference calls replay, with 182 independent fields verified.
+The same coordinator is running account. Original 23 targeted checks and the
+sixteen-call fake CLI/reentry remain valid; scientific sources are unchanged.
 The unavailable second reader remains blocked. Methods, caps and
 the commissioning clock are unchanged. Completion/failure/disappearance monitoring
 remains active, with the next predefined checkpoint September 19 16:18 UTC.
@@ -27,7 +29,8 @@ remains unavailable. The original brief is filed unchanged in the
 [recovered account breadth](results/phase_2_4_stage_11_1/S3_INITIAL_ACCOUNT.json),
 [completed direct extension](results/phase_2_4_stage_11_1/S3_EXTENSION_DIRECT.json),
 [completed review extension](results/phase_2_4_stage_11_1/S3_EXTENSION_REVIEW.json),
-[completed account extension](results/phase_2_4_stage_11_1/S3_EXTENSION_ACCOUNT.json),
+[completed account breadth extension](results/phase_2_4_stage_11_1/S3_EXTENSION_ACCOUNT.json),
+[completed discovery review extension](results/phase_2_4_stage_11_1/S1_REVIEW_EXTENSION.json),
 [reserve reallocation](results/phase_2_4_stage_11_1/DISCOVERY_REALLOCATION.json),
 [verified current launch](results/phase_2_4_stage_11_1/DISCOVERY_TAIL_LAUNCH.json).
 

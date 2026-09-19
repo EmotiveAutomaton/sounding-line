@@ -88,7 +88,10 @@ reserve. The two original scientific plans now run through
 raw/continuation/QUEUE-discovery-tail-v1.json, digest
 5c7c685819c9d83a9c053b259ffdb7c0bd2ad6e670836d87576aeeb78a37ffd2.
 Native owner: PID 137392, creation ticks 134342716462403995, C:\Python313\python.exe.
-Review extension runs first, account extension follows; at most 536 new calls.
+Discovery review extension is complete and internally landed as L407: all 268
+review and 134 reference calls replay, with 182 independent fields verified. Both
+job and plan terminals reconcile. The same owner runs the account extension,
+the remaining 268-call item; it remains unranked.
 No method, source, cap, clock or old charge changes. Twenty-three targeted checks
 and the sixteen-call fake queue/reentry pass. The first real task completed without
 uncertainty; transition-only completion/failure/disappearance monitoring and the

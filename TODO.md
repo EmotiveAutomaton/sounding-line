@@ -47,7 +47,8 @@ archive, kept whole, mined but never deleted.
 - [ ] L406 / S3-S5: carry complete breadth, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
 - [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
 - [x] OPS-S11.1-I11: reconcile normal exit and both reserve deferrals; retain old records, release only the completed later-branch reserve in a versioned two-item manifest, rehearse exact reentry and verify first real task plus monitoring.
-- [ ] S1 / OPS-S11.1-I11: complete and fully land original review/account discovery extensions under unchanged hard limits; compare against the retained direct bank without additional calls to it.
+- [x] L407 / S1: fully land the discovery review extension, all 268 review and 134 reference replays, 182 independent fields, exact request matches and retained invalids; both job and plan completions reconcile.
+- [ ] L407 / S1-S5: finish and land the running matched account discovery extension; carry complete comparisons, prior forecasts and cheap-control limits into final human illustrations and the Sunday packet.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
 - [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
