@@ -42,17 +42,21 @@ fake rehearsal and exact no-call reentry pass. [Native launch](RECOVERY2_LAUNCH.
 verifies ownership, dispatch and monitoring; the first task is still pending
 at that inspection, and successful production is not yet established.
 The successor then also timed out before its first response. The [resource hold](RESOURCE_HOLD.json)
-preserves that failure (OPS-S11.1-I9): Gear 2 stays selected, PAUSE blocks new
-dispatch, and a registered native resource-blocker transition requests reinspection.
-The incomplete context cell remains unranked; no automatic retry is running.
+preserves that failure (OPS-S11.1-I9). After resource-blocker exit,
+[explicit charged recovery](RESOURCE_RECOVERY.json) passed validation and released
+only the bound PAUSE (OPS-S11.1-I10). [Recovery-v3 launch](RECOVERY3_LAUNCH.json)
+verifies the first complete real task and monitoring. Context retains its full
+roster in a new identity; account breadth retains complete chains and queues only
+five unfinished chains. Its full original roster must replay before interpretation.
+Failed evidence and charges remain; the unchanged tail follows in Gear 2.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
 reconciled; the [first recovery launch](RECOVERY_LAUNCH.json) remains historical.
 The [four-hour coverage inspection](COVERAGE_4H.json) confirms continued admitted work.
 Both failed vector pilots remain charged.
 The [selected nine-item successor](SELECTED_CONTINUATION.json) passes literal rehearsal
-and exact reentry; its remaining independent plan bindings carry into recovery-v2
-after exact owner exit and failure reconciliation. Conditional extensions
+and exact reentry; its remaining independent plan bindings carry unchanged into
+recovery-v3 after explicit failure and resource reconciliation. Conditional extensions
 follow later branches; unavailable second-reader methods remain gated.
 See [branch readiness](BRANCHES.md) and the [current method](../../runners/stage11_1/METHOD-v3.md).
-Completed internal diagnosis is L391; interface/transport receipts are OPS-S11.1-I1 through I9.
+Completed internal diagnosis is L391; interface/transport receipts are OPS-S11.1-I1 through I10.
 This is an active study, not its final scientific packet.

@@ -5,7 +5,41 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-18.**
+**Last updated: 2026-09-19.**
+
+---
+
+### OPS-S11.1-I10 - resource transition permits explicit charged recovery
+
+**Hypothesis.** After the recorded resource blocker exits, the interrupted comparisons can resume while preserving completed responses, failed attempts and the original evaluation rosters.
+
+**METHOD.** Inspect the actual native transition, prior coordinator exits, model service, GPU memory and producer locks. Reconcile both incomplete Qwen cells against exact plans and source bindings. Replay retained account chains without inference; freeze a five-task supplement and a full-roster offline assembly recipe. Because constructed context retained no responses, copy its whole original plan to a separate execution identity, changing only that identity. Carry the seven downstream item objects unchanged. Exercise the literal nine-item queue and reentry on a fake root, plus full-roster assembly, known-answer scoring, privacy and altered/missing-evidence refusals.
+
+**Found.** The watched application is absent; this recheck is a liveness transition, not a scientific verdict or proof of application failure. Before release the model service is unloaded; GPU memory use is 2,070 of 12,282 MiB, utilization 35 percent and temperature 42 degrees Celsius. Other GPU activity remains, but observed memory pressure is lower. Both failed scientific owners are absent and producer locks are available. This supports bounded resumption without isolating the earlier failure's cause.
+
+The table describes execution coverage and accounting, not accuracy. A task is one original two-call chain; old failures remain charged in their original namespaces.
+
+| Recovery measure | Frozen disposition |
+|---|---:|
+| Original account-breadth tasks | 32 |
+| Retained complete account tasks / supplement tasks | 27 / 5 |
+| Original context tasks, all retained in the replacement | 384 |
+| Missing first calls scheduled for charged retry in new namespaces | 2 |
+| Preserved uncertain charge, seconds | 1260 |
+| Maximum new queue calls / unchanged tail items | 1688 / 7 |
+| Included blocked-reader calls / conditional extension calls | 64 / 536 |
+| Targeted passing checks | 23 |
+| Fake queue attempts / complete items / blocked items | 62 / 7 / 2 |
+
+**Validity and disposition.** Original task objects, requests, sources, gates, model options, timeout, gear, caps and Sunday clock remain unchanged. The account supplement contains the failed chain plus four unstarted chains; it never reruns the twenty-seven complete chains or copies their requests into the cost ledger. Its private five-task summary is not the whole-cell comparison. The offline assembler must replay all thirty-two original tasks from bound namespaces before scoring the original roster. Changed sources, plans, evidence, roster mismatch or missing replacement responses refuse. Failed original cells retain absent completion records, and failed effort remains in recovered-cell and campaign costs. New calls are charged normally. This is infrastructure recovery, not an additional account method or fresh confirmation.
+
+All checks pass, including immutable reentry, aggregate agreement with an independently complete fake fixture, known-answer/null scoring and evaluator exclusion. Initial validation found a sandbox temporary-directory restriction, a fixture's wrong compact-payload assumption and a preparation helper's wrong budget-field name; those were corrected before dispatch. No scientific parser, scorer or loaded producer changed. Fake execution validates bookkeeping, not model efficacy. At release the campaign retains 1,204 attempts and 21,835.133912 charged seconds.
+
+The bound operator-installed PAUSE was released September 19 01:39:22 UTC. The reviewed Gear 2 coordinator launched at 01:39:33 UTC. Its first complete task returned two retained responses without transport uncertainty. This establishes initial production, not whole-comparison completion or future availability. Exact native identity, original source pins and completion/failure/disappearance monitoring verify. The twelve-hour checkpoint remains September 19 04:18:24 UTC; no routine ETA wake is scheduled.
+
+**Means and next action.** Continue the context replacement, account-breadth supplement and unchanged remaining tail. When the supplement completes, replay and independently audit the entire original breadth roster before interpretation. Preserve unavailable reader gates and conditional extension reserves. Future uncertainty stops for reconciliation rather than automatic retry. No scientific tests harvested from this operational wake; one Sunday packet remains pending.
+
+**Curator roll-up.** Theory group: instrument integrity. Question: can execution recover after resource pressure without changing the comparison or losing evidence? Outcome: **Infrastructure**. Result: explicit charged recovery passes validation and returns a complete task after resource reassessment. Project meaning: the existing Gear 2 commission is running with original evidence and limits intact. Next engineering obligation: land complete cells, assemble the recovered breadth roster and finish the Sunday packet. Public claim: unchanged; no unfinished comparison ranked. Curator decision required: No. Detail: [recovery validation](results/phase_2_4_stage_11_1/RESOURCE_RECOVERY.json), [verified launch](results/phase_2_4_stage_11_1/RECOVERY3_LAUNCH.json); exact native identities and evidence bindings remain private.
 
 ---
 

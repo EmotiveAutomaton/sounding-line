@@ -30,26 +30,31 @@ Earlier files retain failed interfaces and preflight versions. METHOD-v3.md
 specifies the compact confidence readout; its direct pilot passed. Account and
 review have separate literal gates and cannot inherit direct admission.
 
-The recovery-v2 command is historical and currently blocked by the resource PAUSE.
-Its first request also timed out; no live scientific coordinator remains. Reconcile
-OPS-S11.1-I8/I9 and both partial cells before any versioned charged continuation.
-The existing watcher requests resource reinspection when the recorded blocker
-identity changes; it does not launch or retry science. Gear 2 remains selected.
+Recovery-v3 is running after explicit resource reassessment (OPS-S11.1-I10).
+Do not launch a duplicate or rerun old interrupted commands. Active manifest:
+raw/continuation/QUEUE-recovery-v3.json. First full context task completed without
+transport uncertainty. Native identity and registered terminals:
+.agent-state/stage11-1-recovery3-live.json.
 
-Do not rerun this interrupted command blindly:
+Context changes only the execution identity of its original 384-task plan, which
+retained no response. Account breadth retains 27 complete chains and schedules
+five unfinished chains. The offline assembler replays the whole original roster
+through existing parsing and scoring. After supplement completion:
 
 ```powershell
-./.venv/Scripts/python.exe -B -m runners.stage11_1.continuation results/phase_2_4_stage_11_1/raw/continuation/QUEUE-recovery-v2.json
+./.venv/Scripts/python.exe -B -m runners.stage11_1.transport_recovery results/phase_2_4_stage_11_1/raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json
 ```
 
-The original direct worker completed. The original 17-item coordinator later
-stopped on an installed-reader pilot timeout; its uncertain attempt stays charged
-and is not retried (OPS-S11.1-I7). The first recovery coordinator completed three
-items, then exited on an account-breadth timeout (OPS-S11.1-I8). All saved calls
-and charges remain, with that cell incomplete and no retry. Recovery-v2 carries
-only the eight unchanged independent downstream items. Native identity and expected
-terminals are recorded in `.agent-state/stage11-1-recovery2-live.json`. Do not launch a duplicate or edit loaded
-sources. `raw/PAUSE` and `raw/STOP` remain between-block owner controls.
+This command never dispatches inference. Changed source/evidence, changed rosters
+and missing responses refuse. New completion lives beside the recipe; original
+failed completions remain absent. Never interpret the five-task supplement alone.
+Failed costs remain alongside new calls; old requests are never copied into the
+cost tree. Targeted checks and literal fake CLI/reentry pass.
+
+The installed-reader pilot stays retired (OPS-S11.1-I7). Both interrupted Qwen
+namespaces and charges remain immutable (OPS-S11.1-I8/I9). The bound resource PAUSE
+has a release receipt; raw/PAUSE and raw/STOP remain between-block owner controls.
+Future uncertainty stops for reconciliation, without automatic retry.
 
 The separate `account_use_repair.py` preparation module reuses valid nonempty
 original accounts with contemporaneous unchanged repeats. Its plan carries its
@@ -60,8 +65,8 @@ and the original complete intervention matrix are retained (L398). Score the rep
 only when complete, including its two keep controls; the generic original-own
 contrasts are secondary to the frozen contemporaneous-control comparison.
 
-The bounded diagnostic is complete. Recovery-v2 begins with the frozen constructed
-context comparison, then remaining breadth and original conditional extensions. Unavailable reader
+The bounded diagnostic is complete. Recovery-v3 begins with constructed context,
+then account supplementation, remaining breadth and conditional extensions. Unavailable reader
 methods stay gated, all original budgets and clocks apply, and no routine liveness
 wake is scheduled. See [branch status](../../results/phase_2_4_stage_11_1/BRANCHES.md).
 

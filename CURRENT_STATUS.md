@@ -1,25 +1,19 @@
 # Current status
 
-## Stage 11.1 resource hold; Gear 2 retained - 2026-09-18
+## Stage 11.1 running in Gear 2 - 2026-09-19
 
-Gear 2 remains selected, but scientific dispatch is held for resource
-reassessment after successive transport timeouts. The account-breadth producer
-retained earlier responses; the independent constructed-context successor
-timed out before its first response. Both native owners have exited, all failed
-attempts and uncertainty charges remain, and both comparisons are incomplete
-and unranked (OPS-S11.1-I8/I9).
+The resource blocker exited, and GPU/service inspection permitted explicit charged
+recovery (OPS-S11.1-I10). The coordinator is running the full context replacement;
+its first complete task returned without transport uncertainty. Account breadth's
+supplement follows, then the unchanged remaining tail. Earlier findings remain landed.
 
-All earlier complete findings remain internally landed through L401. The
-unchanged independent tail and its tested restart path remain prepared; no
-additional scientific launch or automatic retry is running. The existing PAUSE
-control prevents dispatch while preserving the original gear, budgets and clock.
+Original failed attempts, retained responses and charges remain intact. Interpret
+account breadth only after replay combines its retained chains and supplement into
+the original roster. No unfinished cell is ranked. Methods, caps and clock remain.
 
-The transition-only watcher observes the exact resource-blocker identity.
-Its exit or identity change requests actual GPU/service reinspection; the
-legacy MONITOR_FAILED event label is not proof of GPU readiness. The next
-predefined coverage checkpoint is September 19 04:18 UTC. No routine ETA wake
-is scheduled. Reconcile both interrupted cells and the bound PAUSE before
-any versioned, fully charged continuation. The single Sunday packet is pending.
+Completion, failure and disappearance monitoring are registered. Next predefined
+checkpoint: September 19 04:18 UTC. No routine ETA wake. The final scientific packet
+remains due Sunday September 20 at 15:00 UTC.
 
 The twelve-case viewer remains a constructed setup preview; human illustrations
 and the final scientific packet await complete comparisons. Browser visual QA
@@ -27,7 +21,7 @@ remains unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Branch status](results/phase_2_4_stage_11_1/BRANCHES.md),
 [completed evidence comparison](results/phase_2_4_stage_11_1/S2_EVIDENCE.json),
-[verified launch](results/phase_2_4_stage_11_1/RECOVERY_LAUNCH.json).
+[verified recovery launch](results/phase_2_4_stage_11_1/RECOVERY3_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18
 

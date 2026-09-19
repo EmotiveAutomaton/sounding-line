@@ -34,7 +34,8 @@ September 18 23:08:23 UTC on the initial account-breadth request timeout.
 OPS-S11.1-I8 reconciles all 54 retained responses and the full 630-second
 uncertain block charge. Its three earlier items are complete and landed.
 Initial account breadth is incomplete: 27 full tasks, one partial, four
-unstarted. No partial scores, invented invalid forecast or retry is permitted.
+unstarted. No partial scientific scores, invented invalid forecast or blind retry is permitted.
+The later explicit versioned recovery is recorded in OPS-S11.1-I10 below.
 The separate reconciliation retains the original stale STATUS and absent produce.
 
 The explicitly reviewed `raw/continuation/QUEUE-recovery-v2.json` contains only
@@ -49,23 +50,36 @@ September 18 23:22:01 UTC, first constructed-context request timed out before
 any response. OPS-S11.1-I9 preserves its 630-second uncertainty charge. No
 successor item completed. Both partial scientific cells remain unranked.
 
-Gear 2 is still selected, but scientific dispatch is on a resource hold.
-`raw/PAUSE` is bound to `raw/continuation/RESOURCE_HOLD-v1.json`; no automatic
-retry or further coordinator launch. `.agent-state/stage11-1-resource-hold-live.json`
-records the external blocker's exact native identity and PAUSE digest. The
-unchanged watcher observes its disappearance or identity change and requests
-resource reinspection at `.agent-state/process-transitions/stage11-1-resource-blocker/RECHECK.json`.
-That event's legacy MONITOR_FAILED schema is a recheck signal here, not proof
-of application failure or GPU availability. Inaccessible identity is a monitor
-fault, never an exit. Continued liveness emits no wake.
+The watched resource blocker exited. OPS-S11.1-I10 inspects GPU/service availability,
+reconciles both cells and releases only the bound resource PAUSE at September 19
+01:39:22 UTC. RESOURCE_HOLD-v1 and RESOURCE_RELEASE-v1 remain immutable records.
+Both original failed namespaces remain incomplete.
 
-Next action: inspect actual GPU/service availability at that transition or the
-predefined twelve-hour checkpoint, September 19 04:18:24 UTC; reconcile both
-interrupted plans before any versioned charged recovery. Clear only the bound
-resource PAUSE once resources and owner controls allow. All existing budgets,
-model gates, source pins and Sunday clocks remain. There is no routine ETA wake.
-Both original launch receipts remain historical; no live scientific coordinator
-or successful recovery-v2 production is claimed. The Sunday packet remains open.
+Recovery-v3 runs in Gear 2: native PID 111296, creation ticks 134342555730422342,
+executable C:\Python313\python.exe. Manifest: raw/continuation/QUEUE-recovery-v3.json;
+digest e85dbf56948d6449b5ef4dbe30162385a4435904c4a0d7763e30ada1170041c8.
+Context retains its full original roster under a new identity; the account supplement
+contains only five unfinished chains. Seven tail item objects are unchanged.
+Maximum new calls: 1,688, including 64 blocked reader and 536 conditional calls.
+Original caps, extension reserves, methods and clocks bind. The first real context
+task completed without transport uncertainty; whole-cell completion remains pending.
+
+After supplement completion, run the offline transport_recovery command with
+raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json. It must replay all
+32 original account tasks using 27 retained chains and five new chains before
+interpretation. Never interpret its generic five-task analysis alone. Original
+failed completion records remain absent; recovered comparison has its own completion.
+All failed effort remains included; no copied or repeated retained calls.
+
+The 23 targeted checks and literal nine-item, 62-fake-call queue/reentry pass.
+Seven fake items complete, two absent reader gates block. No loaded scientific
+source changed. Public launch: RECOVERY3_LAUNCH.json. Native monitoring record:
+.agent-state/stage11-1-recovery3-live.json. Completion/failure/disappearance paths
+are registered, including context and supplement COMPLETE, recovery-v3
+STOPPED/AWAITING_SELECTION and native FAILED/EXIT. No routine ETA wake.
+Next predefined checkpoint: September 19 04:18:24 UTC. Future uncertain transport
+stops for reconciliation, without automatic retry. Sunday packet stays open.
+No scientific tests harvested from this operational wake.
 
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
 human illustrations await complete outputs. Original targeted tests, checkpoint
