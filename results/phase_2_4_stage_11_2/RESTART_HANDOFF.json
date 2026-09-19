@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-19T18:16:30.520256+00:00",
+  "entry": "OPS-RESTART-20260919",
+  "status": "HALTED_FOR_RESTART",
+  "authority": "Owner requested all Sounding Line work halt at its next natural stopping point for computer restart",
+  "gear_retained": 1,
+  "scientific_workers_exited": true,
+  "checkpoint_helper_graceful_exit": {
+    "disposition": "cancelled",
+    "scientific_verdict": false,
+    "status": "COMPLETE"
+  },
+  "checkpoint_exit_sha256": "4f552cb5c53a75974c19fdd5fe95150ee8a0ae694e1aeaab7c3b6346aa3c725f",
+  "watcher_cancelled_and_exited": true,
+  "watcher_kernel_lock_released": true,
+  "model_unloaded": true,
+  "gpu_lock_absent": true,
+  "scientific_source_pins_verified": 30,
+  "charged_gpu_seconds_unchanged": 4167.417318199819,
+  "pending_events_at_halt": 0,
+  "original_deadline": "2026-09-20T15:00:00+00:00",
+  "restart_rules": [
+    "Remain halted until the owner resumes work; retain Gear 1 unless explicitly changed.",
+    "After reboot inspect native ownership, saved evidence, accumulated charges and the original deadline before removing cancellation markers.",
+    "Restore monitoring/checkpoint helpers only for the authorized resumed task, with new native identities and original checkpoint times.",
+    "Keep sustained GPU queue parked; reconcile the saved interrupted request before any later authorized GPU continuation.",
+    "No automatic model retry, generic queue startup, clock reset or extra compute authority."
+  ],
+  "scientific_verdict": false,
+  "no_new_tests_harvested": true
+}

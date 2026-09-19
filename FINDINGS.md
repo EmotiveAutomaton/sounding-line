@@ -9,6 +9,28 @@ ran it.
 
 ---
 
+### OPS-RESTART-20260919 - natural-boundary halt for owner restart
+
+**Operational question.** Has every Sounding Line background writer stopped cleanly enough for the owner's computer restart?
+
+**METHOD.** Enumerate project-bound native processes and inspect their identities. The scientific queue was already parked under Gear 1. Set the checkpoint helper's cancellation marker and use the watcher's supported cancel/wait-stopped commands. Verify the helper's cancelled exit, both wrappers and all scientific native exits, unloaded local model, released kernel/GPU locks, saved charges and frozen sources.
+
+The table records shutdown readiness, without a scientific verdict.
+
+| Component | Verified state |
+|---|---|
+| Scientific queue | Already stopped; retained partial work and uncertainty accounting unchanged |
+| Checkpoint helper | Cancelled normally at its loop boundary; exit receipt retained |
+| Completion watcher | Cancelled normally; process exited and kernel lock released |
+| Local model and GPU lock | Model unloaded; owned GPU lock absent |
+| Evidence and accounting | Thirty source pins and original charged-service total unchanged |
+
+**Found and means.** Sounding Line is halted for restart. Cancellation markers persist, so the watcher logon helper will not silently resume it. Gear 1 remains the latest allocation, and no work is restarted by this handoff. On a later owner-authorized resumption, inspect new process identities, retained evidence, the interrupted request and the original deadline before restoring only eligible monitoring or work. The original Sunday reporting obligation remains; the computer restart grants no clock extension. No new tests were harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is Sounding Line ready for the owner's restart? Outcome: **Infrastructure**. Result: every identified project background helper has exited cleanly. Project meaning: existing evidence is preserved and automatic continuation is held. Next engineering obligation: verify the saved handoff on an authorized resumption. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/RESTART_HANDOFF.json.
+
+---
+
 ### OPS-S11.2-G1 - owner-requested Gear 1 shift; sustained GPU queue parked
 
 **Operational question.** Can the requested lighter allocation release the machine while retaining scientific progress and honest interruption accounting?

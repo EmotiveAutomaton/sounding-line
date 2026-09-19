@@ -228,6 +228,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Restart halt (OPS-RESTART-20260919): the checkpoint helper's cancellation flag
+and watcher's cancel/wait-stopped path both exited cleanly at loop boundaries.
+Native absence, released kernel/GPU locks, unloaded model, saved charges and
+thirty scientific source pins verify. Cancellation persists across restart;
+no scientific producer was relaunched or changed.
+
 Stage 11.2 allocation handoff (OPS-S11.2-G1): the latest owner request selects
 Gear 1. The frozen producer has no pause hook, so its exact native coordinator
 and worker were stopped, the local model unloaded, and the owned GPU lock released.

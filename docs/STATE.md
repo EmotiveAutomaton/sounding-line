@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Halted for owner computer restart - 2026-09-19
+
+All identified Sounding Line background processes are stopped. The checkpoint
+helper and watcher exited normally at their cancellation boundaries. The local
+model remains unloaded, scientific queue parked, and saved work/costs unchanged.
+Persistent cancellation markers prevent silent watcher restart at logon.
+Gear 1 remains the current allocation. Wait for owner resumption; verify the
+saved handoff before restoring helpers or work. Original deadlines remain.
+
+[Restart handoff](../results/phase_2_4_stage_11_2/RESTART_HANDOFF.json).
+
 ## Stage 11.2 in Gear 1; sustained GPU queue paused - 2026-09-19
 
 The latest user request lowers the allocation to Gear 1. The original scientific
@@ -17,8 +28,8 @@ The fourteen-job plan is parked. A future sustained-GPU resume requires suitable
 allocation authority and reconciliation of the unfinished request without blind
 retry, preserving all completed calls, costs and the original clock.
 
-The transition-only watcher remains active. Its two expected stop alerts are
-reconciled; watches for the exited scientific identities are retired. The Sunday
+The two expected stop alerts are reconciled and their exited scientific watches
+retired. The subsequent restart halt above also stops the remaining watcher. The Sunday
 packet is still due September 20 at 15:00 UTC, with synthesis from 13:00 UTC.
 The earlier launch forecasts assumed continuous Gear 2 and no longer give a
 wall-clock completion estimate under this pause.

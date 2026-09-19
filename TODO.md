@@ -2,6 +2,13 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+**Restart halt:** scientific work, checkpoint helper and watcher are stopped by
+owner request. Cancellation persists across reboot. Resume only on owner
+instruction after inspecting RESTART_HANDOFF.json; retain Gear 1 and original
+clocks. No automatic scientific restart or uncertain-call retry.
+
+- [x] OPS-RESTART-20260919: stop remaining helpers at natural boundaries and verify restart handoff, native exits, source/cost preservation and cancellation persistence.
+
 **Current allocation: Gear 1, explicitly requested September 19.** Sustained GPU
 jobs are parked; light CPU work is limited to two threads. Original cooling,
 service ceiling and Sunday deadline remain. No new scientific light job is
