@@ -12,6 +12,26 @@ Every block retains pursuit, warrant and a named next action. Early completion
 or a null does not close the campaign. Exact text, source identities, targets,
 attempts and model accounts stay in ignored `raw/`.
 
+## Local human viewer and reporting
+
+The source-replayed human viewer is
+`results/phase_2_4_stage_11_1/raw/S5/contribution-map-human-v1.html`.
+Open that local file in a browser. It contains private source text and stays ignored.
+Twelve outcome-selected cases cover all six required categories; four readers,
+before-text and alternative reveals, separate witnessed facts and retained priors
+are inspectable. Start with the first before-text reveal; model outputs are shown
+only for cases/readers present in the completed evidence study. No unavailable
+forecast is invented. Two actual-case questions precede the answer bank.
+
+[Viewer validation](HUMAN_VIEWER.json): twelve exact source replays, 392 retained
+call replays, 6,901 DOM checks and immutable reentry pass. Browser inventory was
+empty, so visual layout QA is unperformed. Rebuild with the repository interpreter:
+`./.venv/Scripts/python.exe -B -m runners.stage11_1.human_viewer`.
+[Queue frontier](QUEUE_FRONTIER.json) records normal exit and actual limits;
+[report inputs](REPORT_INPUTS.json) bind the completed matrix for Sunday.
+The internal draft is prepared; the final packet remains due September 20 at
+15:00 UTC. This is not early campaign closure.
+
 The training-cap sensitivity is separate from the published Stage 11 comparison.
 Production target rules and new scientific blocks are frozen before their outcomes.
 
@@ -23,7 +43,10 @@ and are internally landed as OPS-S11.1-I4. The complete [review initial comparis
 and [retained-output diagnostic](S1_REVIEW_CHANGES.json) are internally landed as L393.
 The complete [discovery review extension](S1_REVIEW_EXTENSION.json) is internally
 landed as L407: 268 review and 134 reference calls replay and 182 independent
-fields verify. Its matched account extension continues in Gear 2.
+fields verify. The matched [account extension](S1_ACCOUNT_EXTENSION.json) is
+complete and internally landed as L408: all 670 retained calls replay and 182
+independent fields verify. Both discovery-tail items completed; their coordinator
+exited normally. Final illustrations and the Sunday packet remain open.
 The complete [account initial comparison](S1_ACCOUNT_INITIAL.json) is internally
 landed as L394, and the [query/history pilots](AUXILIARY_INTERFACE.json) as OPS-S11.1-I5.
 The [complete history comparison](S4_HISTORY.json) and [released-revision comparison](S3_REVISION.json)
@@ -68,7 +91,7 @@ admitted core work completed and both optional S1 extensions deferred.
 deferrals and admits only the two original discovery plans in a new manifest
 (OPS-S11.1-I11). The [current launch](DISCOVERY_TAIL_LAUNCH.json) verifies a complete
 real task and native supervision in Gear 2. Hard caps, methods and clocks remain;
-completion of both cells is conditional on those limits.
+both cells have since completed and are fully landed as L407-L408.
 The [installed-reader timeout](SECOND_READER_TRANSPORT.json) is preserved and fully
 reconciled; the [first recovery launch](RECOVERY_LAUNCH.json) remains historical.
 The [four-hour coverage inspection](COVERAGE_4H.json) remains historical.

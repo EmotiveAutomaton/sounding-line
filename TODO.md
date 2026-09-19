@@ -9,7 +9,7 @@ archive, kept whole, mined but never deleted.
 
 - [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.
 - [x] OPS-S11.1-Q1: select prepared S2/S3 plans from complete initial methods and land all admitted core branch comparisons (L394-L406).
-- [ ] OPS-S11.1-Q1: land the admitted discovery tail, populate final human illustrations and assemble the single Sunday packet.
+- [ ] OPS-S11.1-Q1: deliver the single Sunday packet; human illustrations and the internal report draft are prepared.
 - [x] L391 / S0: reparse 204 retained responses; report the training-cap deviation and separate sensitivity; preserve the published table.
 - [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
 - [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.
@@ -48,13 +48,16 @@ archive, kept whole, mined but never deleted.
 - [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
 - [x] OPS-S11.1-I11: reconcile normal exit and both reserve deferrals; retain old records, release only the completed later-branch reserve in a versioned two-item manifest, rehearse exact reentry and verify first real task plus monitoring.
 - [x] L407 / S1: fully land the discovery review extension, all 268 review and 134 reference replays, 182 independent fields, exact request matches and retained invalids; both job and plan completions reconcile.
-- [ ] L407 / S1-S5: finish and land the running matched account discovery extension; carry complete comparisons, prior forecasts and cheap-control limits into final human illustrations and the Sunday packet.
+- [x] L408 / S1: complete and fully land the discovery account extension, all 670 account/reference replays, 182 independent fields and both reconciled terminals.
+- [ ] L408 / S1-S5: carry complete discovery comparisons, prior forecasts, invalid graphs and cheap-control limits into final human illustrations and the Sunday packet.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
 - [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
 - [x] S3: complete admitted breadth and existing-adapter revision check; installed-reader replication is unavailable after retained transport failure, not a scientific null.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
-- [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.
+- [x] OPS-S11.1-I12: reconcile normal discovery-tail exit, cumulative ledger and all native evaluation exclusions; record and report the early-exhaustion frontier.
+- [x] OPS-S11.1-S5: build twelve source-replayed human illustrations with retained priors; exact reentry and 6,901 DOM checks pass. Browser inventory is empty; visual QA remains explicitly unperformed.
+- [ ] S5: perform visual QA if a browser surface becomes available; finish final integrity and deliver the single Sunday packet from the prepared internal draft and branch inputs.
 
 Gear 2 is explicitly retained. New clock: September 18 16:18:24 UTC; checkpoint
 September 20 15:00 UTC; reporting begins two hours earlier. Shared ceilings:

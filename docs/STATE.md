@@ -1,6 +1,6 @@
 # STATE: the agent's operational file
 
-## Stage 11.1 active - 2026-09-18
+## Stage 11.1 reporting open; inference queue exhausted - 2026-09-19
 
 The direct reference and all initial methods are internally landed (L392-L394),
 as are history, released revision and initial direct breadth (L395-L397).
@@ -84,24 +84,26 @@ ownership are verified. Explicit reserve reallocation is recorded below; the
 old terminal and stale STATUS records remain intact.
 
 OPS-S11.1-I11 completes that review and releases only the temporary later-branch
-reserve. The two original scientific plans now run through
+reserve. The two original scientific plans completed through
 raw/continuation/QUEUE-discovery-tail-v1.json, digest
 5c7c685819c9d83a9c053b259ffdb7c0bd2ad6e670836d87576aeeb78a37ffd2.
-Native owner: PID 137392, creation ticks 134342716462403995, C:\Python313\python.exe.
+Exited native owner: PID 137392, creation ticks 134342716462403995, C:\Python313\python.exe.
 Discovery review extension is complete and internally landed as L407: all 268
 review and 134 reference calls replay, with 182 independent fields verified. Both
-job and plan terminals reconcile. The same owner runs the account extension,
-the remaining 268-call item; it remains unranked.
+job and plan terminals reconcile. Account extension is now complete and internally
+landed as L408: all 268 account and 402 reference calls replay, with 182 independent
+fields verified. Both original discovery-tail items completed; the coordinator
+exited normally and released GPU ownership. Scientific work is no longer running.
 No method, source, cap, clock or old charge changes. Twenty-three targeted checks
 and the sixteen-call fake queue/reentry pass. The first real task completed without
 uncertainty; transition-only completion/failure/disappearance monitoring and the
 checkpoint helper verify. Current native record:
 .agent-state/stage11-1-discovery-tail-live.json. Public records:
 DISCOVERY_REALLOCATION.json and DISCOVERY_TAIL_LAUNCH.json.
-Observed mean throughput suggests roughly three hours for both items, but upper
-runtime forecasts exceed remaining GPU allowance; hard block gates determine
-actual admission. Do not promise full completion or reset a stopped cell. If the
-runnable frontier exhausts early, issue the specified frontier report.
+The launch forecast was roughly three hours at observed mean throughput, with
+upper forecasts exceeding the remaining allowance. Both items subsequently
+completed within the unchanged hard gates. OPS-S11.1-I12 records the actual
+early-exhaustion frontier rather than treating the old forecast as live state.
 
 The offline transport_recovery command with
 raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json has replayed all
@@ -124,10 +126,23 @@ September 19 16:18:24 UTC. Earlier completion/failure/disappearance events still
 notify. Future uncertainty stops for reconciliation; Sunday packet stays open.
 No scientific tests harvested from this operational wake.
 
-The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;
-human illustrations await complete outputs. Original targeted tests, checkpoint
-check, whole queue rehearsal and 84 viewer DOM assertions pass. Browser visual
-QA remains unavailable. The brief is filed unchanged in
+OPS-S11.1-I12 reconciles the normal discovery-tail exit and all 29 context
+exclusions from the native evaluation pool. All 193 admitted discovery/breadth
+episodes have complete matched methods; no fresh human holdout exists. Cumulative
+cost is 2,828 attempts and 43,607.550371 charged seconds, including failures.
+Prepared admitted inference is exhausted, with the specific frontier recorded;
+remaining ceilings do not select a new experiment. The watcher and fixed checkpoint
+helper remain healthy. The Sunday packet is still due, not campaign closure.
+
+OPS-S11.1-S5 prepares twelve human illustrations from twelve writers at
+raw/S5/contribution-map-human-v1.html. Twelve source replays, 392 retained calls,
+6,901 DOM checks and exact immutable reentry pass without new inference. Priors,
+evidence-conditioned forecasts, unlocated claims and witnessed facts remain
+separate and inspectable. Available cua browser/app inventory is empty; visual
+layout QA is explicitly unperformed. The old constructed preview stays immutable.
+The internal Sunday draft is .agent-state/stage11-1-sunday-packet-draft.md;
+REPORT_INPUTS.json binds the completed public receipts and remaining duties.
+The brief is filed unchanged in
 `docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`.
 
 The curator commissioned the root Stage 11.1 branching brief and explicitly

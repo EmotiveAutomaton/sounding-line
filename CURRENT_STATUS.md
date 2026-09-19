@@ -1,6 +1,6 @@
 # Current status
 
-## Stage 11.1 running in Gear 2 - 2026-09-19
+## Stage 11.1 inference queue complete; reporting remains open - 2026-09-19
 
 The full constructed-context comparison and recovered initial account breadth are
 complete, independently replayed and internally landed (L402-L403). Whole-roster
@@ -9,20 +9,31 @@ failed namespaces, responses and charges remain intact.
 
 All three breadth extensions are replayed and internally landed (L404-L406).
 The prior coordinator exited normally after deferring both optional discovery
-extensions for its later-branch reserve. Those later branches are complete. A new
-reviewed queue releases that temporary reserve and runs the two original discovery
-extensions in Gear 2. Review is now complete and internally landed as L407:
+extensions for its later-branch reserve. Those later branches are complete. The
+reviewed successor released that temporary reserve and completed both original
+discovery extensions in Gear 2. Review is internally landed as L407:
 268 review and 134 reference calls replay, with 182 independent fields verified.
-The same coordinator is running account. Original 23 targeted checks and the
-sixteen-call fake CLI/reentry remain valid; scientific sources are unchanged.
+Account is complete and internally landed as L408: 670 account/reference calls
+replay and 182 independent fields verify. Both queue items completed, the owner
+exited normally and GPU ownership is released. Gear 2 authorization is unchanged.
+Original 23 targeted checks and the sixteen-call fake CLI/reentry remain valid;
+scientific sources are unchanged.
 The unavailable second reader remains blocked. Methods, caps and
 the commissioning clock are unchanged. Completion/failure/disappearance monitoring
 remains active, with the next predefined checkpoint September 19 16:18 UTC.
 The single final packet remains due September 20 at 15:00 UTC.
 
-The twelve-case viewer remains a constructed setup preview; human illustrations
-and the final scientific packet await complete comparisons. Browser visual QA
-remains unavailable. The original brief is filed unchanged in the
+The twelve-case human viewer is built and source-replayed; 6,901 interaction checks
+pass. No browser surface is connected, so visual layout QA remains unperformed.
+The complete branch inputs and internal Sunday draft are prepared. Inference is
+idle because its prepared admitted frontier is exhausted: all 193 admitted human
+episodes are covered, 29 native opportunities fail frozen context ceilings, and
+the installed second-reader continuation was retired after timeout. There is no
+fresh human holdout. This is the required early-exhaustion report, not campaign
+closure; unused ceilings alone do not select another experiment. See the
+[frontier receipt](results/phase_2_4_stage_11_1/QUEUE_FRONTIER.json) and
+[viewer launch instructions](results/phase_2_4_stage_11_1/README.md).
+The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Branch status](results/phase_2_4_stage_11_1/BRANCHES.md),
 [completed context comparison](results/phase_2_4_stage_11_1/S2_CONTEXT.json),
@@ -31,6 +42,7 @@ remains unavailable. The original brief is filed unchanged in the
 [completed review extension](results/phase_2_4_stage_11_1/S3_EXTENSION_REVIEW.json),
 [completed account breadth extension](results/phase_2_4_stage_11_1/S3_EXTENSION_ACCOUNT.json),
 [completed discovery review extension](results/phase_2_4_stage_11_1/S1_REVIEW_EXTENSION.json),
+[completed discovery account extension](results/phase_2_4_stage_11_1/S1_ACCOUNT_EXTENSION.json),
 [reserve reallocation](results/phase_2_4_stage_11_1/DISCOVERY_REALLOCATION.json),
 [verified current launch](results/phase_2_4_stage_11_1/DISCOVERY_TAIL_LAUNCH.json).
 

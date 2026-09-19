@@ -33,8 +33,8 @@ review have separate literal gates and cannot inherit direct admission.
 Recovery-v3 completed its admitted core work and exited normally. Its two S1
 extensions were deferred for the later-branch reserve; original records remain.
 OPS-S11.1-I11 releases that temporary reserve after all protected comparisons
-landed. Current manifest: raw/continuation/QUEUE-discovery-tail-v1.json. Only the
-two original scientific extension plans run, with unchanged hard caps and clocks.
+landed. Completed manifest: raw/continuation/QUEUE-discovery-tail-v1.json. Only the
+two original scientific extension plans ran, with unchanged hard caps and clocks.
 The first real task completed without uncertainty; native identity and registered
 terminals: .agent-state/stage11-1-discovery-tail-live.json.
 Do not launch a duplicate or rerun old interrupted commands.
@@ -69,8 +69,8 @@ only when complete, including its two keep controls; the generic original-own
 contrasts are secondary to the frozen contemporaneous-control comparison.
 
 The bounded diagnostic, constructed context and all admitted breadth are complete.
-The original review/account discovery extensions run in sequence after explicit
-reserve reallocation. Unavailable reader methods stay gated, all original budgets
+Both original review/account discovery extensions have completed after explicit
+reserve reallocation; normal queue exit is reconciled as OPS-S11.1-I12. Unavailable reader methods stay gated, all original budgets
 and clocks apply, and no routine liveness wake is scheduled. See [branch status](../../results/phase_2_4_stage_11_1/BRANCHES.md).
 
 `preflight --candidates` preserves all prepared S2 method pairs without activating
@@ -85,3 +85,12 @@ checkpoints, reporting start and final appointment; it does not request routine
 liveness checks. The existing watcher owns actual notification delivery. Raw
 `S5/contribution-map-preview.html` is a twelve-case constructed preview, with prior
 forecasts retained after reveal. Its DOM checks pass; no browser surface is enabled.
+
+The separate `human_viewer` offline builder creates the twelve-case human viewer
+without inference. It requires completed discovery and human-evidence cells,
+replays selected model chains and original source projections, and refuses changed
+immutable outputs. HTML and selection records remain under ignored raw/S5.
+`human_viewer.html` is only a template and contains no human source text. The
+actual page passes 6,901 DOM checks including Unicode anchors and absent-forecast
+behavior; available browser inventory is empty, so visual QA is unperformed.
+Run `node tests/stage11_1_human_viewer_dom.cjs` with the generated HTML path.
