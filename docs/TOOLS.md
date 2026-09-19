@@ -228,6 +228,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Stage 11.2 allocation handoff (OPS-S11.2-G1): the latest owner request selects
+Gear 1. The frozen producer has no pause hook, so its exact native coordinator
+and worker were stopped, the local model unloaded, and the owned GPU lock released.
+Completed calls and one full uncertain reservation remain; no automatic retry.
+Both wrappers exited; thirty source pins match. The two expected monitor alerts
+are retained and reconciled. Reporting continues without a new GPU owner.
+
 Stage 11.2 terminal supervision (OPS-S11.2-I5): lowercase completion caused a
 false process-disappearance alert. The monitor now normalizes recognized status
 case and safely refuses malformed values. All 109 watcher checks pass; live

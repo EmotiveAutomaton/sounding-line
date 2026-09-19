@@ -1,7 +1,10 @@
 # Stage 11.2 results
 
 Operative study: docs/design/PHASE_2_4_STAGE_11_2_CONTEXT.md, filed unchanged.
-Gear 2, one GPU owner, 18 cumulative service hours, Sunday 15:00 UTC deadline.
+Current Gear 1: sustained GPU queue paused by the owner; local model unloaded.
+Light CPU work is limited to two threads. Original 18-hour service ceiling and
+Sunday 15:00 UTC deadline remain. See GEAR1_HANDOFF.json for retained progress
+and the interrupted-call reconciliation required before a future authorized resume.
 Raw inputs, activations, outputs and calls remain in ignored raw/.
 Only complete comparisons are interpreted; all failures and costs are retained.
 L409-L410 are the exact development/test and candidate-revision comparisons.

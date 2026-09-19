@@ -1,36 +1,29 @@
 # Current status
 
-## Stage 11.2 running Gear 2 - 2026-09-19
+## Stage 11.2 in Gear 1; sustained GPU queue paused - 2026-09-19
 
-OPS-S11.2-I5 reconciles the delayed Stage 11.1 checkpoint and a false admission
-process-disappearance alert: the completed producer used lowercase status.
-Terminal recognition is repaired; 109 watcher checks and all 21 locks pass.
-The replacement watcher loaded the repaired source under the same owner;
-scientific coordinator/worker identities and all thirty source pins are unchanged.
-The original alert is retained. No new research or gear change follows.
+The latest user request lowers the allocation to Gear 1. The original scientific
+coordinator, M0 worker and wrappers have exited; the local 9B model is unloaded
+and its GPU lock released. Light CPU work is limited to two threads; existing
+boost-off / 90-percent maximum cooling remains. No light scientific job is
+currently eligible, and the historical general queue is not restarted.
 
-The repaired Qwen 9B prediction interface passed its fixed development gate;
-all original checkpoint refusals remain. The finite fourteen-job coordinator
-is running the neural M0 development comparison, followed by M3/M4 and test
-comparisons, then distinct history, generated-summary, state-query and repeat
-extensions. Forecast: 10.405 hours at the admission median, 24.883 at p90,
-5.202 in the twice-as-fast median scenario. Actual longer prompts may differ;
-whole-block admission and per-call reservations enforce the unchanged ceiling.
+M0 development remains incomplete. All 464 completed calls are retained; one
+interrupted request keeps its full 330-second reservation. Total charged service
+at the stop is 4167.417318 seconds, within the original 64800-second ceiling.
+All thirty frozen scientific sources match. Existing exact comparisons and
+completed admission/monitor landings remain intact; no partial scores are issued.
+The fourteen-job plan is parked. A future sustained-GPU resume requires suitable
+allocation authority and reconciliation of the unfinished request without blind
+retry, preserving all completed calls, costs and the original clock.
 
-20 focused checks pass, including the complete native fake queue, raw semantic
-consumers and no-call reentry. All 21 locks pass. Source pins and native worker/
-coordinator identities verify; transition-only completion/failure/disappearance
-monitoring is registered. No periodic model wake or new paid work is scheduled.
-The independent executable test/revision comparison is internally landed (L410).
-The original XOR-invariant context control remains; the prospective neural
-one-tool control is validated before execution.
+The transition-only watcher remains active. Its two expected stop alerts are
+reconciled; watches for the exited scientific identities are retired. The Sunday
+packet is still due September 20 at 15:00 UTC, with synthesis from 13:00 UTC.
+The earlier launch forecasts assumed continuous Gear 2 and no longer give a
+wall-clock completion estimate under this pause.
 
-The 18-hour service ceiling includes all failed pilots and fits; the final
-packet remains due September 20 at 15:00 UTC, with synthesis from 13:00 UTC.
-Conditional activation/recurrence work remains instrument-limited. A source-bound
-16-target exposed human bridge is prepared for offline replay after M4 test.
-[Branch ledger](results/phase_2_4_stage_11_2/BRANCHES.md),
-[live launch receipt](results/phase_2_4_stage_11_2/LIVE_QUEUE_VALIDITY.json).
+[Allocation handoff](results/phase_2_4_stage_11_2/GEAR1_HANDOFF.json).
 
 ## Stage 11.1 inference queue complete; reporting remains open - 2026-09-19
 

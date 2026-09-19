@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-19T18:02:38.085576+00:00",
+  "entry": "OPS-S11.2-G1",
+  "authority": "Latest explicit user request to shift to Gear 1 because load is too much",
+  "gear": 1,
+  "cpu_threads_max_for_light_work": 2,
+  "cooling": "Original boost-off and 90-percent maximum retained",
+  "sustained_gpu_queue": "paused by owner",
+  "model_unloaded": true,
+  "coordinator_worker_and_wrappers_exited": true,
+  "gpu_lock_released": true,
+  "completed_calls_preserved": 464,
+  "unfinished_calls": [
+    "019-1-persistent-action"
+  ],
+  "interrupted_reservation_seconds": 330,
+  "charged_gpu_seconds": 4167.417318199819,
+  "maximum_gpu_seconds": 64800,
+  "deadline": "2026-09-20T15:00:00+00:00",
+  "source_pins_verified": 30,
+  "science": "M0 development remains incomplete; no comparator score or scientific verdict",
+  "monitoring": {
+    "watcher_continues": true,
+    "retired_exited_process_watches": 2,
+    "expected_stop_alerts_reconciled": 2,
+    "original_alerts_retained": true,
+    "transition_only": true
+  },
+  "resume_rule": "Keep sustained GPU work parked under Gear 1. Any later authorized resume must reconcile the interrupted call without blind retry and preserve original calls, charges, deadline and source pins.",
+  "no_new_tests_harvested": true
+}

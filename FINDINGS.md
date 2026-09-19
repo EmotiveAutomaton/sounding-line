@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S11.2-G1 - owner-requested Gear 1 shift; sustained GPU queue parked
+
+**Operational question.** Can the requested lighter allocation release the machine while retaining scientific progress and honest interruption accounting?
+
+**METHOD.** Inspect the native coordinator, worker and wrapper command lines, executable paths and creation times. Stop only the bound coordinator and worker because the frozen runner has no pause hook. Verify all four identities have exited, unload the named local model, inspect its empty loaded-model inventory and release only its owned GPU lock. Retain the original calls, sources, uncertainty reservation and monitoring alerts.
+
+The table records operational state after the user-requested stop, without unfinished scientific scores.
+
+| Check | Outcome |
+|---|---|
+| Current allocation | Gear 1; light CPU work only, at most two threads; existing cooling policy retained |
+| GPU queue and model | Coordinator/worker/wrappers exited; model unloaded and owned GPU lock released |
+| Saved progress | 464 completed calls retained; M0 development remains incomplete |
+| Interrupted call | One request lacks a completion; its full 330-second reservation stays charged |
+| Source integrity | All thirty frozen scientific source pins match |
+| Monitoring | Watcher remains active; two expected disappearance alerts reconciled and preserved |
+
+**Found and means.** The sustained GPU workload is parked under the latest allocation. No light scientific producer is currently eligible; the commissioned CPU comparisons are already complete and reporting remains open. No generic historical queue or CPU model substitution is started. A future sustained-GPU resume requires suitable allocation authority and explicit reconciliation of the interrupted request, preserving completed calls, invalids, cumulative charges and the original Sunday deadline. The earlier Gear 2 launch records remain historical. No new tests were harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the lighter allocation preserve completed work and accounting? Outcome: **Infrastructure**. Result: the owner-requested downshift releases the model and parks the sustained queue. Project meaning: scientific cells remain incomplete until eligible continuation; no partial ranking. Next engineering obligation: maintain light operation and include the interruption in final coverage, or reconcile it before an authorized resume. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/GEAR1_HANDOFF.json.
+
+---
+
 ### OPS-S11.2-I5 - completed admission reconciled and terminal monitor repaired
 
 **Operational question.** Did the admission process disappear without a result, or did the monitor reject its actual completion record?
