@@ -228,6 +228,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Gear 1 resumption (OPS-RESUME-20260919): post-restart inventory and released
+kernel locks verify. The original checkpoint helper and same-owner watcher are
+restored under new native identities and registered terminal paths. Schedule,
+source pins, saved calls and charges are unchanged; local model remains unloaded.
+Loaded watcher source and health pass; later idle delivery remains unobserved.
+
 Restart halt (OPS-RESTART-20260919): the checkpoint helper's cancellation flag
 and watcher's cancel/wait-stopped path both exited cleanly at loop boundaries.
 Native absence, released kernel/GPU locks, unloaded model, saved charges and

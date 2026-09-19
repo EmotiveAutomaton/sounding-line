@@ -1,7 +1,7 @@
 # Stage 11.2 results
 
-Halted for owner computer restart; checkpoint and watcher helpers have exited.
-See RESTART_HANDOFF.json before any later owner-authorized resumption.
+Gear 1 resumed after restart: original checkpoint and watcher helpers are active.
+See GEAR1_RESUME.json; RESTART_HANDOFF.json preserves the completed halt.
 
 Operative study: docs/design/PHASE_2_4_STAGE_11_2_CONTEXT.md, filed unchanged.
 Current Gear 1: sustained GPU queue paused by the owner; local model unloaded.

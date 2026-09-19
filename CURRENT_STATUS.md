@@ -1,15 +1,20 @@
 # Current status
 
-## Halted for owner computer restart - 2026-09-19
+## Gear 1 resumed after restart - 2026-09-19
 
-All identified Sounding Line background processes are stopped. The checkpoint
-helper and watcher exited normally at their cancellation boundaries. The local
-model remains unloaded, scientific queue parked, and saved work/costs unchanged.
-Persistent cancellation markers prevent silent watcher restart at logon.
-Gear 1 remains the current allocation. Wait for owner resumption; verify the
-saved handoff before restoring helpers or work. Original deadlines remain.
+The owner explicitly resumed Gear 1. The original checkpoint helper and same-owner
+watcher are alive under newly verified native identities; their terminal paths are
+registered. The original schedule and scientific source pins match. Saved calls,
+the interrupted request and charged service are unchanged. The local model stays
+unloaded and sustained GPU work remains parked. Light CPU work is limited to two
+threads; AC boost remains off and maximum processor state remains 90 percent.
 
-[Restart handoff](results/phase_2_4_stage_11_2/RESTART_HANDOFF.json).
+No light scientific producer is eligible now. Monitoring and reporting are active.
+Next fixed checkpoint: September 20 at 04:18:24 UTC; reporting at 13:00 UTC and final
+packet at 15:00 UTC. No periodic model wakes or new scientific work are scheduled.
+Future idle delivery after this resume is not yet observed.
+
+[Gear 1 resume receipt](results/phase_2_4_stage_11_2/GEAR1_RESUME.json).
 
 ## Stage 11.2 in Gear 1; sustained GPU queue paused - 2026-09-19
 
@@ -29,7 +34,7 @@ allocation authority and reconciliation of the unfinished request without blind
 retry, preserving all completed calls, costs and the original clock.
 
 The two expected stop alerts are reconciled and their exited scientific watches
-retired. The subsequent restart halt above also stops the remaining watcher. The Sunday
+retired. Monitoring has been restored after the restart as recorded above. The Sunday
 packet is still due September 20 at 15:00 UTC, with synthesis from 13:00 UTC.
 The earlier launch forecasts assumed continuous Gear 2 and no longer give a
 wall-clock completion estimate under this pause.

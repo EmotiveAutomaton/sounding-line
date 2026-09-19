@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-RESUME-20260919 - Gear 1 restored after restart
+
+**Operational question.** Can the owner-requested light allocation resume its monitoring and original reporting schedule without restoring sustained GPU load?
+
+**METHOD.** Inspect the post-restart native process inventory, old kernel locks, saved handoff, scientific source pins and unchanged call/cost records. Archive the cancellation markers, restore only the original checkpoint helper and same-owner watcher, and bind their new native identities and terminal paths. Compare the checkpoint schedule byte for byte, inspect loaded watcher source/health and verify the local model remains unloaded.
+
+The table records operational resumption, without a scientific verdict.
+
+| Check | Verified outcome |
+|---|---|
+| Current allocation | Gear 1; at most two threads for light CPU work |
+| Cooling | AC maximum processor state remains 90 percent; boost disabled |
+| Monitoring | Checkpoint helper and watcher alive under new bound identities; no pending events or watch error |
+| Schedule | Original fixed checkpoint, reporting and final times unchanged |
+| Sustained GPU work | Parked; local model unloaded and GPU lock absent |
+| Saved evidence | Completed calls, interrupted request, charges and thirty source pins unchanged |
+
+**Found and means.** Light monitoring and the existing reporting schedule are restored. No light scientific producer is currently eligible; no generic historical queue or CPU model substitution is launched. The scientific comparison remains incomplete, with its interrupted request and full reservation retained. Any later sustained-GPU continuation still needs a suitable allocation and explicit interrupted-call reconciliation. Live source adoption and liveness are verified; future idle message delivery is a separate observation. No new tests were harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: has the requested light allocation resumed safely? Outcome: **Infrastructure**. Result: Gear 1 monitoring is restored with original timing and preserved work. Project meaning: reporting checkpoints remain supervised while GPU load stays parked. Next engineering obligation: attend the existing checkpoint and final packet under the retained allocation. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/GEAR1_RESUME.json.
+
+---
+
 ### OPS-RESTART-20260919 - natural-boundary halt for owner restart
 
 **Operational question.** Has every Sounding Line background writer stopped cleanly enough for the owner's computer restart?

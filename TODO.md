@@ -2,10 +2,12 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
-**Restart halt:** scientific work, checkpoint helper and watcher are stopped by
-owner request. Cancellation persists across reboot. Resume only on owner
-instruction after inspecting RESTART_HANDOFF.json; retain Gear 1 and original
-clocks. No automatic scientific restart or uncertain-call retry.
+**Gear 1 resumed after restart:** original checkpoint helper and watcher are
+active under new bound native identities. Saved evidence, charges and clocks are
+unchanged. Sustained GPU jobs remain parked; no automatic uncertain-call retry.
+See GEAR1_RESUME.json. No light scientific producer is currently eligible.
+
+- [x] OPS-RESUME-20260919: restore and verify light monitoring, original checkpoint times, source/cost preservation and cooling limits after the explicit owner resumption.
 
 - [x] OPS-RESTART-20260919: stop remaining helpers at natural boundaries and verify restart handoff, native exits, source/cost preservation and cancellation persistence.
 
