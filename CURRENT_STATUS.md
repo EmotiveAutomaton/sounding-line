@@ -2,27 +2,25 @@
 
 ## Stage 11.1 running in Gear 2 - 2026-09-19
 
-The resource blocker exited, and GPU/service inspection permitted explicit charged
-recovery (OPS-S11.1-I10). The coordinator is running the full context replacement;
-its first complete task returned without transport uncertainty. Account breadth's
-supplement follows, then the unchanged remaining tail. Earlier findings remain landed.
+The full constructed-context comparison and recovered initial account breadth are
+complete, independently replayed and internally landed (L402-L403). Whole-roster
+recovery combines retained complete chains with the five-task supplement; original
+failed namespaces, responses and charges remain intact.
 
-Original failed attempts, retained responses and charges remain intact. Interpret
-account breadth only after replay combines its retained chains and supplement into
-the original roster. No unfinished cell is ranked. Methods, caps and clock remain.
-
-The twelve-hour review confirms continued Gear 2 production, no new transport
-failures, admitted successors and remaining capacity (OPS-S11.1-C12). Optional
-extensions retain their reserve checks. Completion/failure/disappearance monitoring
-is healthy. Next predefined checkpoint: September 19 16:18 UTC; earlier terminal
-events still notify. The final packet remains due September 20 at 15:00 UTC.
+The same Gear 2 coordinator is running the frozen breadth extension, beginning
+with direct reading, then review/account. Optional S1 extensions retain their
+reserve checks; the unavailable second reader remains blocked. Methods, caps and
+the commissioning clock are unchanged. Completion/failure/disappearance monitoring
+remains active, with the next predefined checkpoint September 19 16:18 UTC.
+The single final packet remains due September 20 at 15:00 UTC.
 
 The twelve-case viewer remains a constructed setup preview; human illustrations
 and the final scientific packet await complete comparisons. Browser visual QA
 remains unavailable. The original brief is filed unchanged in the
 [active design folder](docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 [Branch status](results/phase_2_4_stage_11_1/BRANCHES.md),
-[completed evidence comparison](results/phase_2_4_stage_11_1/S2_EVIDENCE.json),
+[completed context comparison](results/phase_2_4_stage_11_1/S2_CONTEXT.json),
+[recovered account breadth](results/phase_2_4_stage_11_1/S3_INITIAL_ACCOUNT.json),
 [verified recovery launch](results/phase_2_4_stage_11_1/RECOVERY3_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18

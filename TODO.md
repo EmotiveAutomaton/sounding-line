@@ -25,7 +25,8 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S11.1-I8: reconcile the account-breadth transport stop, replay all retained responses, retain the full uncertain charge and mark the whole comparison incomplete; validate unchanged independent tail with 58 fake calls and exact reentry.
 - [x] OPS-S11.1-I9: reconcile successor timeout, retain its missing response and full charge, install bound PAUSE and verify resource-blocker transition monitoring.
 - [x] OPS-S11.1-I10: inspect resource exit, reconcile both cells, validate charged replacements and whole-roster assembly, release the bound PAUSE, launch Gear 2 and verify the first complete task plus monitoring.
-- [ ] OPS-S11.1-I10 / S2-S3: land complete context; on supplement completion run transport_recovery with its frozen recipe, independently check all 32 original account tasks and include failed charges. Never interpret the five-task summary alone. Continue the unchanged tail and final packet.
+- [x] OPS-S11.1-I10 / L402-L403: land complete context and recover the full original account-breadth roster; replay all calls, independently check 312 context and 91 breadth fields, preserve both failed charges and original incomplete namespaces.
+- [ ] L402-L403 / S5: carry constructed ambiguity, misleading-cue susceptibility, account realization and complete breadth comparison into final illustrations and the Sunday packet; no retuning on scored cases.
 - [x] L398 / account use: fully land all 64 interventions, source validity strata, repeated-request failure and 168 independent score checks; retain the complete descriptive matrix and void account-specific attribution.
 - [x] OPS-S11.1-Q3: freeze valid-account control repair, real graph/request checks, scratch CLI/reentry and reconciled recovery manifest.
 - [x] L398 / L399: complete and fully replay all 72 valid-account repair calls, both keep controls, costs and 348 independent score/transition fields; preserve bounded sensitivity versus benefit and the original void.
@@ -38,12 +39,13 @@ archive, kept whole, mined but never deleted.
 - [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.
 - [x] L397 / S3: replay and fully land initial direct breadth, its cheap controls, exact selection/partition audit and 36 independent score fields; retain episode-versus-writer replication limits.
 - [x] L401 / S3: complete and replay initial breadth review and direct reference; reproduce selection, requests and 91 independent fields; retain invalid recovery versus useful historical correction.
-- [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; initial account breadth is transport-incomplete (OPS-S11.1-I8), with versioned recovery running after reassessment (OPS-S11.1-I10).
-- [ ] L397 / S3: finish remaining frozen breadth under shared limits; initial review is landed (L401), initial account awaits its supplement and full-roster replay (OPS-S11.1-I10), and second-reader contrasts remain unavailable.
-- [ ] S0/S1: validate new production targets and alignment rival; freeze expanded discovery/breadth rosters; run direct, matched review and account-first contrasts on both blind tiers.
+- [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; the original transport-incomplete account namespace remains preserved, with the full recovered comparison landed as L403.
+- [ ] L397 / S3: finish remaining frozen breadth under shared limits; initial review is landed (L401), initial account is fully recovered and landed (L403), and second-reader contrasts remain unavailable.
+- [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
+- [ ] S1: retain conditional extension gates and 40,000-second reserve checks; do not promise admission before the checks run.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
-- [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; complete the frozen 24-pair contextual stress set before final synthesis.
+- [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
 - [ ] S3: breadth, installed second-reader replication and bounded existing-adapter revision check.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
 - [ ] S5: inspectable illustrative viewer, retained prior forecasts, final branch matrix and Sunday packet.

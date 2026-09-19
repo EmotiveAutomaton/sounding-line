@@ -20,7 +20,12 @@ observation-insensitive cheap rival remain explicit limits.
 Initial breadth review is complete and internally landed as L401: all 64 review
 and 32 reference calls replay, with 91 independent checks. Request-repeat
 stability, invalid recovery and useful historical correction remain separated.
-No unfinished comparator is ranked; the single Sunday packet remains pending.
+The full constructed-context comparison is complete and internally landed as L402:
+768 calls, exact twin construction and 312 independent fields verify. The full original
+account-breadth roster is recovered and internally landed as L403: 27 retained plus
+five new chains, 160 account/reference calls and 91 independent fields verify. Both
+original failed namespaces and their 630-second charges remain intact. No unfinished
+comparator is ranked; the single Sunday packet remains pending.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
 installed Llama direct pilot's transport timeout, September 18 21:05:17 UTC.
@@ -33,8 +38,9 @@ Recovery coordinator 74148 (creation ticks 134342398262659714) exited at
 September 18 23:08:23 UTC on the initial account-breadth request timeout.
 OPS-S11.1-I8 reconciles all 54 retained responses and the full 630-second
 uncertain block charge. Its three earlier items are complete and landed.
-Initial account breadth is incomplete: 27 full tasks, one partial, four
-unstarted. No partial scientific scores, invented invalid forecast or blind retry is permitted.
+At that stop, initial account breadth had 27 full tasks, one partial and four
+unstarted. No partial scores or invented invalid forecast were accepted. The separate
+full-roster recovery is now complete (L403); the old namespace remains incomplete.
 The later explicit versioned recovery is recorded in OPS-S11.1-I10 below.
 The separate reconciliation retains the original stale STATUS and absent produce.
 
@@ -61,15 +67,17 @@ digest e85dbf56948d6449b5ef4dbe30162385a4435904c4a0d7763e30ada1170041c8.
 Context retains its full original roster under a new identity; the account supplement
 contains only five unfinished chains. Seven tail item objects are unchanged.
 Maximum new calls: 1,688, including 64 blocked reader and 536 conditional calls.
-Original caps, extension reserves, methods and clocks bind. The first real context
-task completed without transport uncertainty; whole-cell completion remains pending.
+Original caps, extension reserves, methods and clocks bind. Full context and the
+account supplement completed without new transport uncertainty. The same coordinator
+is running S3-extension-direct-v1, followed by review/account breadth extensions
+and reserve-gated S1 extensions; unavailable second-reader contrasts stay blocked.
 
-After supplement completion, run the offline transport_recovery command with
-raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json. It must replay all
-32 original account tasks using 27 retained chains and five new chains before
-interpretation. Never interpret its generic five-task analysis alone. Original
-failed completion records remain absent; recovered comparison has its own completion.
-All failed effort remains included; no copied or repeated retained calls.
+The offline transport_recovery command with
+raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json has replayed all
+32 original account tasks using 27 retained chains and five new chains. L403 uses
+that full roster, never the generic five-task summary. Original failed completion
+records remain absent; the recovered comparison has its own completion. All failed
+effort remains included; no copied or repeated retained calls.
 
 The 23 targeted checks and literal nine-item, 62-fake-call queue/reentry pass.
 Seven fake items complete, two absent reader gates block. No loaded scientific
@@ -78,10 +86,9 @@ source changed. Public launch: RECOVERY3_LAUNCH.json. Native monitoring record:
 are registered, including context and supplement COMPLETE, recovery-v3
 STOPPED/AWAITING_SELECTION and native FAILED/EXIT. No routine ETA wake.
 The twelve-hour checkpoint is inspected (OPS-S11.1-C12; COVERAGE_12H.json).
-The same native producer continues without new transport failures; four core
-successors are ready, two extensions remain conditional and two reader items
-remain unavailable. All caps, source pins and monitoring identities verify.
-No new complete scientific cell existed at inspection. Next predefined checkpoint:
+That inspection found four ready core successors, two conditional extensions and
+two unavailable reader items, with intact caps, pins and supervision. Context and
+whole account breadth have since completed and landed as L402-L403. Next checkpoint:
 September 19 16:18:24 UTC. Earlier completion/failure/disappearance events still
 notify. Future uncertainty stops for reconciliation; Sunday packet stays open.
 No scientific tests harvested from this operational wake.

@@ -9,6 +9,95 @@ ran it.
 
 ---
 
+### L403 - the recovered full account-breadth comparison does not sustain an account advantage
+
+**Hypothesis.** Constructing a typed contribution account before prediction improves witnessed production recovery over direct reading, equal-call review and cheap matching on the separate breadth episodes.
+
+**METHOD.** Assemble the entire original thirty-two-task account roster from twenty-seven retained complete chains and five replacement chains under the frozen recovery recipe. Replay all sixty-four account calls, thirty-two direct reference calls and sixty-four review calls; reproduce the exact frozen selection, source targets and training-only cheap fit. Independently check ninety-one score and transition fields using unchanged parsing and scoring. Compare the complete original roster, never the five-task supplement alone; preserve and charge the missing original attempt.
+
+**Found.** The account pipeline is worse than direct reading and matched review on every production and handling half Brier loss in this initial breadth block. Useful and correctly located useful yield also fall, while unsupported mental claims increase. Both cheap rivals retain lower probability losses. This does not sustain the initial account operation advantage on the broader episodes.
+
+All losses are half Brier probability error (lower is better), averaged within writer and then across writers; handling accuracy is higher-is-better. Useful counts require a correct actor, operation and relation for a non-absent event. Located useful also requires exact span references and span state. Unsupported counts are asserted review, endorsement or understanding, which these logs do not establish. Invalid is the raw count of final forecasts, retained in scoring. Direct is one call; review and account each use two calls. Alignment and marginal are frozen CPU rivals.
+
+| Method / evidence | Invalid | Actor loss | Operation loss | Relation loss | Handling loss | Handling accuracy | Useful | Located useful | Unsupported |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| account | 7 | 0.579278 | 0.556132 | 0.559996 | 0.531556 | 0.427778 | 0.166667 | 0.055556 | 0.877778 |
+| direct | 6 | 0.571031 | 0.528673 | 0.494299 | 0.472926 | 0.511111 | 0.216667 | 0.083333 | 0.738889 |
+| review | 3 | 0.523364 | 0.485509 | 0.447632 | 0.419741 | 0.561111 | 0.216667 | 0.083333 | 0.794444 |
+| alignment | 0 | 0.100134 | 0.105595 | 0.116756 | 0.154120 | 0.805556 | 1.877778 | 1.877778 | 0.000000 |
+| marginal | 0 | 0.142813 | 0.144180 | 0.150060 | 0.278027 | 0.616667 | 2.294444 | 0.000000 | 0.000000 |
+
+The support is thirty-two exposed human CoAuthor episodes from nine writers and seventeen sessions: twenty-six creative and six argumentative episodes. Episode keys are separate from discovery, but all nine writers and seventeen sessions overlap discovery, with one connected dependency component. Training/development writer, session, prompt and episode overlap is zero. Writer balancing limits domination by prolific writers; it does not make this an independent replication. All model production and handling logarithmic losses are infinite because some wrong outcomes receive zero probability. Alignment also has infinite handling logarithmic loss despite its leading half Brier score; its production losses and all marginal logarithmic losses remain finite. Full span, coverage, selective risk and anonymous group distributions remain in the aggregate receipt.
+
+This table compares whole-method forecasts on the same episodes. Each entry is the writer-balanced number of six fixed production triples per episode, except the last two columns, which are changes in useful events and unsupported mental assertions. Forecast movement includes probability or span movement; neither movement column is benefit.
+
+| Comparison | Corrected | New errors | Preserved correct | Category moves | Forecast moves | Useful change | Unsupported change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Direct to account | 0.694444 | 0.816667 | 0.966667 | 3.533333 | 4.222222 | -0.050000 | 0.138889 |
+| Review to account | 0.611111 | 0.883333 | 1.050000 | 3.350000 | 4.122222 | -0.050000 | 0.083333 |
+
+**Realization and validity.** Only eight accounts are mechanically valid, all nonempty; twenty-five final forecasts are valid. Seventeen invalid-account markers lead to valid final forecasts, so valid downstream syntax does not imply a usable graph. Twenty-four first outputs fail admission: fourteen duplicate event/slot failures, nine span-state/reference failures and one impossible event order. Seven final forecasts omit or reorder target slots. No admitted account leads to an invalid final forecast. Graph legality, forecast validity and historical correspondence remain separate. The observed failure is the complete pipeline's failure; it does not isolate a well-realized graph method.
+
+All thirty-two completed task blocks close without uncertainty. The sixty-four retained account calls consume 112,045 input and 39,829 output tokens, 759.109983 request-wall seconds and 758.211937 server seconds. Closed-chain charge is 759.911524 seconds. The original missing response remains one additional attempt charged 630 seconds, for sixty-five attempts and **1,389.911524 charged seconds** in the recovered account unit. Historical direct/review responses are only replayed here, not called or charged again. Original failed completion remains absent; separate recovered completion records all original tasks. Source bindings, evidence inventories and immutable recipe verify; no scorer or loaded producer changed.
+
+**Means, pursuit and next action.** Pursuit: determine whether the account operation benefit travels beyond its initial episodes. Warrant: the complete frozen breadth roster gives a matched descriptive comparison, with graph failures and shared-writer dependence retained. That benefit does not carry here; preserve the account only as an unproven bounded method, and carry cheap alignment and matched review into final illustrations. Continue the already frozen breadth extension and conditional S1 extensions under their existing gates and reserves. No additional account variant or confirmation claim is selected. No tests harvested from the operational wake; the single Sunday packet remains pending.
+
+**Curator roll-up.** Theory group: historical process inference. Question: does constructing an account help on the separate breadth episodes? Outcome: **Narrows**. Result: the complete account pipeline loses to matched review on every production half Brier loss. Project meaning: no portable account advantage is established. Next engineering obligation: finish frozen breadth and show useful recovery, interface failures and cheap alternatives in the final viewer. Public claim: weakened for this implementation; general reconstruction remains open. Curator decision required: No. Detail: [complete recovered account breadth](results/phase_2_4_stage_11_1/S3_INITIAL_ACCOUNT.json); original responses, recovery recipe and failed charge remain private and replayable.
+
+---
+
+### L402 - identical endpoints establish constructed ambiguity, but context does not reliably correct the reader
+
+**Hypothesis.** When different valid production histories leave identical visible artifacts, readers preserve uncertainty until a discriminating observation arrives and then correct the affected relations without following irrelevant or misleading cues.
+
+**METHOD.** Reproduce twenty-four constructed twin pairs from four templates and six transformations, with one selected-model history and one human-entry history per identical endpoint. Verify all forty-eight source records, targets and both visible tiers exactly. Compare the selected local Qwen review/account pipelines and frozen cheap rivals under blind, true, irrelevant and misleading context, using a fresh two-call chain per model condition. True context exposes neutral recorded insertion source and edit operations; misleading context swaps the paired source cue; irrelevant context adds a gray-border observation. Replay all 768 calls, 384 complete task blocks and 192 equal-evidence method pairs, then independently check 312 score/transition fields.
+
+**Found.** The constructed histories are observationally ambiguous at the matched visible tiers. The model pipelines do not reliably preserve uncertainty or selectively correct that ambiguity. True context produces some correctly located useful events, but review production losses all worsen relative to blind; account operation gains are nearly matched under irrelevant and misleading context. Story movement alone does not establish historical correction. Static cheap references retain lower probability losses throughout, although they supply no correctly located useful event here.
+
+All losses are half Brier probability error (lower is better), averaged across four construction families; these are not human writers. Handling accuracy is higher-is-better. Useful counts require a correct non-absent actor/operation/relation triple; located useful also requires exact spans and state. Unsupported counts are review, endorsement or understanding assertions without evidence. Invalid is the raw count of final forecasts. Each model row has forty-eight episodes. Blind cheap rows apply identically in all four conditions because both frozen rivals ignore the added context field; they are static references, not telemetry-aware competitors.
+
+| Method / evidence | Invalid | Actor loss | Operation loss | Relation loss | Handling loss | Handling accuracy | Useful | Located useful | Unsupported |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| review / blind | 0 | 0.474861 | 0.493889 | 0.396806 | 0.791667 | 0.208333 | 0.000000 | 0.000000 | 0.000000 |
+| account / blind | 2 | 0.524907 | 0.461146 | 0.372163 | 0.791667 | 0.208333 | 0.000000 | 0.000000 | 0.416667 |
+| review / true | 0 | 0.493681 | 0.507373 | 0.510913 | 0.730799 | 0.250000 | 0.208333 | 0.166667 | 0.083333 |
+| account / true | 0 | 0.513241 | 0.362423 | 0.352545 | 0.744722 | 0.250000 | 0.041667 | 0.041667 | 1.375000 |
+| review / irrelevant | 0 | 0.461389 | 0.496817 | 0.487202 | 0.755278 | 0.208333 | 0.041667 | 0.041667 | 0.000000 |
+| account / irrelevant | 2 | 0.526019 | 0.381308 | 0.317540 | 0.739722 | 0.250000 | 0.020833 | 0.000000 | 1.291667 |
+| review / misleading | 0 | 0.489745 | 0.518252 | 0.467857 | 0.723854 | 0.250000 | 0.041667 | 0.000000 | 0.083333 |
+| account / misleading | 0 | 0.513704 | 0.363030 | 0.348676 | 0.705833 | 0.291667 | 0.062500 | 0.000000 | 1.375000 |
+| alignment / blind | 0 | 0.237142 | 0.239087 | 0.239990 | 0.431152 | 0.250000 | 1.083333 | 0.000000 | 0.000000 |
+| marginal / blind | 0 | 0.237142 | 0.239087 | 0.239990 | 0.431152 | 0.250000 | 1.083333 | 0.000000 | 0.000000 |
+
+The four templates each contribute six valid transformation variants and two histories: insertion, content revision, continuation, surrounding revision, deletion and formatting. Thus the forty-eight episodes are twenty-four dependent pairs from four families, with zero human writers; generic scorer fields called writers and sessions denote construction families and pairs. This establishes ambiguity inside the construction, not its prevalence in real writing. All model production and handling logarithmic losses are infinite; the smoothed cheap references remain finite. The full aggregate retains separate span, coverage, selective risk and family distributions.
+
+This table compares each context condition with its method's blind forecast. Values are family-balanced counts per episode of corrected, newly wrong or preserved actor/operation/relation triples, and movement among six slots. The last two columns are changes in useful events and unsupported mental assertions. Category movement and full forecast movement do not imply improvement.
+
+| Comparison | Corrected | New errors | Preserved correct | Category moves | Forecast moves | Useful change | Unsupported change |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| review / true | 0.604167 | 0.937500 | 0.104167 | 4.291667 | 4.854167 | 0.208333 | 0.083333 |
+| account / true | 0.916667 | 0.250000 | 1.729167 | 2.979167 | 4.666667 | 0.041667 | 0.958333 |
+| review / irrelevant | 0.604167 | 0.645833 | 0.395833 | 2.791667 | 3.291667 | 0.041667 | 0.000000 |
+| account / irrelevant | 0.854167 | 0.208333 | 1.770833 | 2.541667 | 4.458333 | 0.020833 | 0.875000 |
+| review / misleading | 0.458333 | 0.937500 | 0.104167 | 4.291667 | 4.854167 | 0.041667 | 0.083333 |
+| account / misleading | 0.958333 | 0.250000 | 1.729167 | 2.979167 | 4.666667 | 0.062500 | 0.958333 |
+
+The blind review starts with 1.041667 correct triples per episode; the blind account starts with 1.979167. True context destroys more previously correct review triples than it corrects. Account true, irrelevant and misleading conditions have similar movement, and the misleading condition has better handling probability loss than true context. The patterns do not establish reliable cue discrimination. The cheap rows have no changes because they do not consume the cue.
+
+**Ambiguity and realization.** Blind and irrelevant forecasts agree within every twin pair for each method. True and misleading forecasts distinguish all twenty-four review pairs and twenty account pairs, but distinction is not truth. Across 504 paired atomic fields whose target differs between histories, blind review has 256 predictions at confidence at least 0.9, of which 178 are wrong; account has 398, of which 250 are wrong, plus sixteen invalid fields. These are dependent descriptive counts, not independent trials. No certainty is licensed by the common endpoint.
+
+Account validity changes with context: blind has twenty-two valid accounts, twenty nonempty, and forty-six valid final forecasts; true and misleading each have forty-seven valid nonempty accounts and forty-eight valid final forecasts; irrelevant has forty-eight valid accounts, forty-six nonempty, and forty-six valid final forecasts. Review final forecasts are all valid; its true and misleading first passes each have two invalids, which recover. Across all calls, thirty-six invalid outputs are retained. Improvements cannot all be attributed to faithful use of valid graphs when realization itself changes.
+
+**Validity and cost.** Exact repeated-request grouping finds 384 pairs covering all 768 calls; all paired raw contents and forecasts agree in this block. This is a descriptive stability check, not a separately assigned repeat-control arm or a reversal of the earlier observed variability. Conditions use fresh chains and do not feed the blind forecast back after reveal, so this tests evidence-conditioned recovery rather than persistent belief revision. The exact constructor, original task roster, neutral/swapped cues, source pins and training fit verify. The original failed namespace is byte-preserved; no source, scorer, target or method was retuned.
+
+New completed calls consume 869,960 input and 551,832 output tokens, 10,245.317778 request-wall seconds and 10,231.773960 server seconds. All new blocks close without uncertainty at 10,256.359106 charged seconds. The earlier context timeout retains one missing response and its 630-second charge, for **769 attempts and 10,886.359106 charged seconds** in this recovered comparison. Invalids remain scored and charged. No significance claim is made.
+
+**Means, pursuit and next action.** Pursuit: identify what a small contextual observation can and cannot disambiguate. Warrant: the exact paired construction separates identical visible evidence from different witnessed processes and includes irrelevant and misleading cues. Preserve historical alternatives, prior forecasts, abstention and the misleading-context failure in the viewer. The provisional human before-text reveal from L400 remains bounded; this construction does not establish general context reliability or a human mechanism. Advance to the already prepared breadth continuation; do not tune on these scored counterexamples or add a new campaign. No tests harvested from the operational wake; one Sunday packet remains pending.
+
+**Curator roll-up.** Theory group: historical process and evidence correction. Question: does discriminating context reliably resolve an ambiguous production history? Outcome: **Narrows**. Result: constructed ambiguity is verified, but selective historical correction is not established. Project meaning: context-conditioned story changes need explicit alternatives and reliability checks. Next engineering obligation: preserve misleading-cue failures and prior forecasts in the final illustrations while finishing frozen breadth. Public claim: unchanged for the general theory; reliable correction by this implementation remains unlicensed. Curator decision required: No. Detail: [complete context comparison](results/phase_2_4_stage_11_1/S2_CONTEXT.json); construction, requests, targets and failed evidence remain privately replayable.
+
+---
+
 ### OPS-S11.1-C12 - twelve-hour coverage checkpoint inspected
 
 **Hypothesis.** The existing bounded commission can continue through its next admitted comparisons after the twelve-hour checkpoint, without exhausting resources or losing supervision.
@@ -1716,7 +1805,7 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
 
-**Stage 11.1 scope (L391-L397).** Human records are historically exposed; the initial production matrix and initial breadth each have one dependency component and the history comparison has three. Initial breadth has separate episode keys but shares all its writers and sessions with discovery. Pilot syntax admission does not establish reliable scientific realization. Invalid accounts can pass only a marker downstream, and invalid forecasts remain scored and charged. A history hypothesis can contain unsupported motive prose despite its instruction; its syntactic validity is not historical or mental-state validation. Matched coverage can select different writers, character-matched history is not token-matched, and released revision categories are not the author's purpose. Current cheap controls do not consume newly revealed history. No fresh confirmation or general maker-model recovery is established; unfinished branches and the final packet remain pending. Viewer visual QA is still unperformed because no native browser surface is enabled.
+**Stage 11.1 scope (L391-L403).** Human records are historically exposed; the initial production matrix and initial breadth each have one dependency component and the history comparison has three. Initial breadth has separate episode keys but shares all its writers and sessions with discovery. Pilot syntax admission does not establish reliable scientific realization. Invalid accounts can pass only a marker downstream, and invalid forecasts remain scored and charged. Account realization changes across context conditions; pipeline movement does not establish faithful graph use. Original uncontrolled attribution remains void after request-repeat variability; the bounded repair supports input sensitivity, not a general benefit. Constructed twins establish ambiguity within four templates, not its prevalence in human writing; fresh condition-specific forecasts are not persistent belief revision. Current cheap controls ignore newly revealed history and context. A history hypothesis can contain unsupported motive prose despite its instruction; syntactic validity is not historical or mental-state validation. Matched coverage can select different writers, character-matched history is not token-matched, and released revision categories are not the author's purpose. Whole-roster account recovery preserves failed cost and original incomplete namespaces. No fresh confirmation or general maker-model recovery is established; remaining breadth and the final packet are pending. Viewer visual QA remains unperformed.
 
 **Local Stage 10 scope (L386-L388).** All five ScholaWrite projects have complete comparisons over 87 evaluation boundaries; repeated views and overlapping training roles are not independent replications. CoAuthor views share one prompt component, and the opportunity reserve has only two source cases. The earlier-draft cheap-prior omission was completed separately in L389; original model scores are unchanged. The small ArgRewrite current-draft forecasts have invalid probability sums, retained in the system score. The original reserved reconstruction pilot failed; its separate scoped interface repair and complete comparison are now retained in L388. The original pilot truncated a direct forecast; both finite queues are now closed. These are explicit limits, not permission to erase outcomes or claim untested generalization.
 
