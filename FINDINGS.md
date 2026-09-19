@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S11.1-C12 - twelve-hour coverage checkpoint inspected
+
+**Hypothesis.** The existing bounded commission can continue through its next admitted comparisons after the twelve-hour checkpoint, without exhausting resources or losing supervision.
+
+**METHOD.** Inspect the active coordinator's exact native identity, frozen manifest and source pins, completed block receipts and current reservation, local model identity and GPU-lock ownership. Recompute campaign attempts and charges, inspect every prepared item and its actual method gates, and verify the durable watcher, registered terminal paths and checkpoint helper against the unchanged commissioning schedule. Check for new whole-cell completions requiring scientific landing; do not parse or score unfinished forecasts.
+
+**Found.** The same Gear 2 coordinator remains active on the full constructed-context replacement. Recent blocks continue completing without transport uncertainty; no new complete scientific cell is available to land at this inspection. S0, initial S1, account-use repair, human S2 evidence, S3 revision/direct/review and S4 have already landed internally. The account-breadth supplement and remaining breadth are ready; the installed second reader remains unavailable. The illustrative viewer still needs final human examples and the Sunday packet.
+
+The table records execution and capacity during the live inspection interval, not scientific scores. Charged time includes the full reservation of the open block, so it is conservative until that block closes.
+
+| Operational measure | Observed state |
+|---|---:|
+| Complete context task blocks / planned blocks | 356 / 384 |
+| New transport failures in this recovery | 0 |
+| Campaign attempts / ceiling | 1918 / 6400 |
+| Campaign charged seconds / ceiling | 31953.676750 / 86400 |
+| Remaining charged GPU allowance, seconds | 54446.323250 |
+| Ready core successors / conditional extensions / unavailable reader items | 4 / 2 / 2 |
+
+**Validity and disposition.** Native process creation time, source and plan digests, model identity, owned lock, all actual gates and both monitoring processes verify. All branch ceilings retain room; the finite core tail is ready. Optional S1 extensions still require their unchanged 40,000-second reserve checks and are not promised admission. No owner stop or pause is present. The legacy general queue log is a September 6 completed queue, not the active Stage 11.1 scheduler. No new method, retry, gear, budget, source or scientific interpretation is introduced. This checkpoint confirms continued operation, not efficacy or future availability.
+
+**Means and next action.** Continue the current context replacement, then the account supplement and unchanged tail. Interpret recovered account breadth only after the entire original thirty-two-task roster replays and receives independent checks. Preserve prior failed evidence, all charges and unavailable-reader dispositions. Complete-cell/failure/disappearance events remain registered; the next predefined coverage checkpoint is September 19 16:18:24 UTC. No routine liveness wake is scheduled. No tests harvested from this operational wake; the single Sunday packet remains pending.
+
+**Curator roll-up.** Theory group: research operations. Question: can the commissioned queue continue at the twelve-hour review? Outcome: **Infrastructure**. Result: admitted work, resource capacity and supervision remain available. Project meaning: continue the finite Gear 2 commission. Next engineering obligation: land complete context, reconstruct whole account breadth and finish the final illustrations and packet. Public claim: unchanged; operational inspection only. Curator decision required: No. Detail: [twelve-hour coverage receipt](results/phase_2_4_stage_11_1/COVERAGE_12H.json); exact process identities and expected paths remain private.
+
+---
+
 ### OPS-S11.1-I10 - resource transition permits explicit charged recovery
 
 **Hypothesis.** After the recorded resource blocker exits, the interrupted comparisons can resume while preserving completed responses, failed attempts and the original evaluation rosters.

@@ -77,8 +77,13 @@ source changed. Public launch: RECOVERY3_LAUNCH.json. Native monitoring record:
 .agent-state/stage11-1-recovery3-live.json. Completion/failure/disappearance paths
 are registered, including context and supplement COMPLETE, recovery-v3
 STOPPED/AWAITING_SELECTION and native FAILED/EXIT. No routine ETA wake.
-Next predefined checkpoint: September 19 04:18:24 UTC. Future uncertain transport
-stops for reconciliation, without automatic retry. Sunday packet stays open.
+The twelve-hour checkpoint is inspected (OPS-S11.1-C12; COVERAGE_12H.json).
+The same native producer continues without new transport failures; four core
+successors are ready, two extensions remain conditional and two reader items
+remain unavailable. All caps, source pins and monitoring identities verify.
+No new complete scientific cell existed at inspection. Next predefined checkpoint:
+September 19 16:18:24 UTC. Earlier completion/failure/disappearance events still
+notify. Future uncertainty stops for reconciliation; Sunday packet stays open.
 No scientific tests harvested from this operational wake.
 
 The twelve-case constructed preview is `raw/S5/contribution-map-preview.html`;

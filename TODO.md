@@ -31,6 +31,8 @@ archive, kept whole, mined but never deleted.
 - [x] L398 / L399: complete and fully replay all 72 valid-account repair calls, both keep controls, costs and 348 independent score/transition fields; preserve bounded sensitivity versus benefit and the original void.
 - [ ] L399: carry repeat controls, donor susceptibility and useful-versus-probability tradeoffs into final illustrations and the Sunday packet; continue selected S2/S3 without another diagnostic variant.
 - [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
+- [x] OPS-S11.1-C12: inspect twelve-hour coverage, active production, actual gates, cumulative caps and native supervision; continue the unchanged Gear 2 queue without unfinished scores.
+- [ ] OPS-S11.1-C24: inspect coverage at September 19 16:18:24 UTC, or land earlier completion/failure events when delivered; preserve whole-roster recovery and final-packet obligations.
 - [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
 - [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.

@@ -61,6 +61,11 @@ Seven unchanged tail items follow. Charges, gates, reserves and ceilings remain.
 Future transport uncertainty stops for reconciliation; no automatic retry.
 
 The [four-hour coverage checkpoint](COVERAGE_4H.json) remains inspected.
+The [twelve-hour checkpoint](COVERAGE_12H.json) verifies the same live Gear 2
+coordinator and current progress, with no new transport failures. Four core
+successors are ready; two extensions require reserves and two reader items remain
+unavailable. No new whole scientific cell existed at inspection. Next predefined
+coverage review: September 19 16:18:24 UTC; earlier terminal events remain active.
 Coverage checkpoints are four, twelve, twenty-four and thirty-six hours after the
 new clock: September 18 20:18 UTC; September 19 04:18, 16:18 UTC; September 20 04:18
 UTC. These are internal scientific reviews, not routine liveness messages. The
