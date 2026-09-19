@@ -1,0 +1,22 @@
+{
+  "entry": "OPS-HEALTH-4H",
+  "verified_at": "2026-09-19T20:11:11.084501+00:00",
+  "interval_seconds": 14400,
+  "first_due_utc": "2026-09-20T00:10:47.787436+00:00",
+  "tests_passed": 122,
+  "locks_passed": 21,
+  "loaded_watcher_source_sha256": "1145ba8133be498e0ace4a9b83c49370eb333eb18903bf76d8dd7f2b1bec02d9",
+  "live_reload_verified": true,
+  "pending_events": 0,
+  "watch_error": null,
+  "recurrence": "Four hours after documented health-event acknowledgement; ordinary activity and unrelated acknowledgements do not reset the clock.",
+  "failure_alerts": "Immediate, retained",
+  "delivery_limits": "Due on the next 60-second scan; active owner defers routine delivery until idle. One outstanding batch remains enforced; sleeping/offline workstation and uncertain transport can delay delivery.",
+  "new_health_idle_delivery_observed": false,
+  "scientific_source_snapshot_unchanged": 33,
+  "checkpoint_identity_and_schedule_unchanged": true,
+  "charged_seconds_unchanged": 4167.417318199819,
+  "gear": 1,
+  "sustained_gpu_queue": "parked",
+  "rollback": "Cancel and wait for watcher exit; restore retained pre-change watcher/configuration, then resume under the same owner without changing the event database or scientific processes."
+}

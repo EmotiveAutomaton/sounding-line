@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-HEALTH-4H - recurring queue-health inspection
+
+**Operational question.** Can the queue receive a health inspection every four hours even when it produces no new result, without changing its authorized allocation?
+
+**METHOD.** Add an opt-in persisted health schedule to the existing watcher, exercise fake-clock and fake-transport cases, and reload only the owned watcher. Verify its loaded source, recurring schedule, native identity, unchanged checkpoint helper/schedule, scientific source snapshot and charges. No scientific model call is made.
+
+The table records monitoring validation, not scientific results.
+
+| Check | Outcome |
+|---|---|
+| Timing | Four-hour first deadline; subsequent deadline rearms after documented health-event ACK |
+| Clock integrity | Ordinary activity, unrelated ACKs and duplicate ACKs cannot postpone the inspection |
+| Delivery | One outstanding health event; active-owner deferral, uncertain-send protection and cancellation retained |
+| Failure alerts | Immediate terminal/failure delivery remains active |
+| Validation | 122 watcher/runtime checks and all 21 locks pass |
+| Live adoption | New watcher source and health schedule verified; checkpoint helper, schedule, scientific sources and charges unchanged |
+| First scheduled inspection | September 19 at 5:10 p.m. PDT; future idle delivery of this new event is not yet observed |
+
+**Found and means.** Four-hour health inspections are configured and live. Each inspection checks native identities, progress/output freshness, failures, locks, resources, eligible authorized work and delivery health before documented ACK. The current Gear 1 pause remains intentional; no new inference or research test is commissioned. Sleeping/offline operation or an unresolved delivery can delay a wake; these remain visible rather than creating duplicate messages. The September 12 prohibition on routine wakes is superseded only for this owner-requested cadence.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can silent queue drift prompt inspection without waiting for a result? Outcome: **Infrastructure**. Result: recurring four-hour health inspection is enabled with retained immediate failure alerts. Project meaning: missing progress is inspected independently of result production. Next engineering obligation: inspect and document the next health event before ACK and confirm actual idle delivery. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/HEALTH_CADENCE.json.
+
+---
+
 ### OPS-S11.2-G1-AUDIT - retained-call replay and interrupted-request boundary
 
 **Operational question.** Is the paused run's saved progress internally consistent, and does its unfinished request remain protected from an automatic retry?

@@ -36,6 +36,18 @@ and spending limits override older general defaults. Stage 8 landings write thro
 one final curator packet is reported. A wake never authorizes a new gear, cloud spending,
 research design, or interpreting per-artifact output from an unfinished cell.
 
+## Four-hour health cadence (curator instruction, 2026-09-19)
+
+The watcher now carries an explicitly authorized recurring four-hour queue-health
+inspection alongside immediate transition alerts. This supersedes the prior
+transition-only prohibition at that cadence and the older ETA scheduling defaults
+below. Do not add separate ETA wakes. On a health event inspect native identities,
+progress and output freshness, failures, locks, resource limits, eligible authorized
+work and watcher delivery health. Document findings and perform authorized recovery
+before ACK; its ACK automatically rearms four hours later. Ordinary activity and
+unrelated ACKs do not postpone it. Preserve gear and study scope; intentional GPU
+parking is healthy under the present Gear 1 allocation. No new research is granted.
+
 ## 2. Queue state
 
 - Read the active stage scheduler status and `results/queue_main.log`; confirm the loop

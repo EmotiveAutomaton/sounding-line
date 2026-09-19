@@ -26,6 +26,7 @@ from runners.stage9.process_identity import native_identity
 
 
 DEADLINE_PATH = "[watch deadline: inspect queue liveness]"
+HEALTH_PATH = "[queue health: inspect progress, failures, locks and authorized next work]"
 DEFAULT_ROUTINE_SECONDS = 1800
 
 
@@ -37,7 +38,7 @@ def owner_active(db, now):
 
 def urgent(event, config):
     name = Path(event["path"]).name.upper()
-    return ((config.get("transition_only") and event["path"] != DEADLINE_PATH)
+    return ((config.get("transition_only") and event["path"] not in {DEADLINE_PATH, HEALTH_PATH})
             or name in {"FAILED.JSON", "PAUSED.JSON", "INTERRUPT.JSON", "INTERRUPTS.JSON"}
             or name.endswith("_FAILED.JSON")
             or event["path"] in config.get("urgent_paths", []))
@@ -70,6 +71,31 @@ def schedule(after_seconds, reason, *, expected_seconds=None, state=STATE, now=N
         put(db, "wake_plan", plan)
         audit(db, "wake_schedule", {"previous": previous, "plan": plan})
     return plan
+
+
+def health_check(config, db, now):
+    """Opt-in recurring inspection; activity and unrelated ACKs cannot defer it."""
+    interval = config.get("health_interval_seconds")
+    if interval is None:
+        return []
+    if (isinstance(interval, bool) or not isinstance(interval, (int, float))
+            or not math.isfinite(interval) or not 60 <= interval <= 28800):
+        raise ValueError("Health interval must be between 60 seconds and eight hours")
+    owner = get(db, "owner")
+    if not owner:
+        return []
+    plan = get(db, "health_schedule")
+    if not plan or plan["owner"] != owner:
+        plan = {"id": uuid.uuid4().hex, "owner": owner, "interval_seconds": interval,
+                "enabled_at": now, "last_inspected": None, "due": now + interval}
+        put(db, "health_schedule", plan)
+    if plan["interval_seconds"] != interval:
+        raise ValueError("Reconcile existing health schedule before changing its interval")
+    if now < plan["due"] or plan.get("event_id"):
+        return []
+    event = add_event(db, HEALTH_PATH, "health:" + plan["id"], now)
+    put(db, "health_schedule", plan | {"event_id": event})
+    return [event]
 
 
 def candidates(config, repo=REPO):
@@ -196,6 +222,7 @@ def scan(config, *, repo=REPO, state=STATE, baseline=False, now=None, baseline_s
                     put(db, "last_fallback", now)
         if not baseline:
             changes.extend(process_transitions(config, db, repo, now))
+            changes.extend(health_check(config, db, now))
         put(db, "last_scan", now)
     return changes
 
@@ -208,7 +235,11 @@ def prompt(events):
         "spend, or delegation authority. Follow the active stage's internal write-through "
         "and final-packet policy. Do not report unfinished per-artifact scores.\n" + rows +
         "\nAfter each full write-through (or documented liveness inspection), acknowledge "
-        "with python tools/codex_watch.py ack EVENT_ID. Do not acknowledge merely receiving this message.")
+        "with python tools/codex_watch.py ack EVENT_ID. Do not acknowledge merely receiving this message. "
+        "For a queue-health event, inspect actual native identities, progress and output freshness, "
+        "failures, locks, resource limits, runnable authorized work and watcher delivery health. "
+        "Document the inspection and perform authorized recovery before ACK; an intentional "
+        "gear pause is not a failed queue and grants no permission to restart parked GPU work.")
 
 
 def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, native_sender=None):
@@ -234,7 +265,9 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
             if owner_active(db, now):
                 return "owner-active"
             plan = get(db, "wake_plan")
-            if plan and plan["owner"] == owner:
+            if any(e["path"] == HEALTH_PATH for e in events):
+                pass  # A due health inspection cannot wait for unrelated coalescing or an ETA.
+            elif plan and plan["owner"] == owner:
                 if now < plan["due"]:
                     return "scheduled"
             else:
@@ -297,12 +330,19 @@ def deliver_cli(cmd, runner, repo, owner):
 def acknowledge(event_id, *, state=STATE, now=None):
     now = time.time() if now is None else now
     with database(state) as db:
-        row = db.execute("SELECT state FROM events WHERE id=?", (event_id,)).fetchone()
+        row = db.execute("SELECT state,acknowledged FROM events WHERE id=?", (event_id,)).fetchone()
         if row is None:
             raise ValueError("Unknown event ID")
+        if row["acknowledged"] is not None:
+            return  # Repeated ACKs cannot move the recurring inspection clock.
         db.execute("UPDATE events SET state='acknowledged',acknowledged=? WHERE id=?",
                    (now, event_id))
         put(db, "last_acknowledged", now)
+        health = get(db, "health_schedule")
+        if health and health["owner"] == get(db, "owner") and health.get("event_id") == event_id:
+            put(db, "health_schedule", {"id": uuid.uuid4().hex, "owner": health["owner"],
+                "interval_seconds": health["interval_seconds"], "last_inspected": now,
+                "due": now + health["interval_seconds"]})
         plan = get(db, "wake_plan")
         if plan and plan.get("event_id") == event_id:
             put(db, "wake_plan", None)
@@ -337,6 +377,7 @@ def status(state=STATE):
         return {"owner": get(db, "owner"), "owner_phase": get(db, "owner_phase"),
             "owner_seen": get(db, "owner_seen"), "wake_plan": get(db, "wake_plan"),
             "last_dispatch": get(db, "last_dispatch"), "last_acknowledged": get(db, "last_acknowledged"),
+            "health_schedule": get(db, "health_schedule"),
             "delivery_decision": get(db, "watch_delivery_decision"),
             "watcher": get(db, "watcher"), "last_scan": get(db, "last_scan"),
             "watch_error": get(db, "watch_error"),

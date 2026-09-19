@@ -1,6 +1,31 @@
 # Codex operations
 
-## Current waiting policy, 2026-09-12
+## Current waiting policy, 2026-09-19
+
+The owner now requests a queue-health inspection every four hours. Private
+`health_interval_seconds: 14400` enables an independent persistent `health_schedule`
+in watcher status, alongside `transition_only: true` for immediate transitions.
+This explicitly supersedes the prior prohibition on periodic health wakes; older
+ETA scheduling instructions remain historical. Do not add extra ETA wakes.
+
+The next health event is due on the first service scan at or after its deadline
+(60-second scan cadence). Ordinary hooks and unrelated ACKs do not defer it.
+Its own documented ACK rearms four hours later; duplicate ACKs do not reset it.
+One pending event, active-owner deferral, cancellation and uncertain-send refusal
+remain. A sleeping/offline host or unresolved delivery can delay inspection.
+The event instructs the operator to inspect identities, progress/output freshness,
+failures, locks, resources, eligible authorized work and watcher delivery. Document
+and recover within existing authority before ACK. A Gear 1 pause never authorizes
+restarting parked GPU inference. No scientific deadline or budget resets.
+
+All 122 watcher/runtime checks and 21 locks pass. Live watcher source adoption and
+its first deadline verify; future idle delivery of the new event is unobserved.
+Receipt: ../results/phase_2_4_stage_11_2/HEALTH_CADENCE.json. For rollback, cancel and
+wait for watcher exit, restore the previous watcher source/configuration retained
+in .agent-state/health-watch-20260919/, then resume under the same owner. Preserve
+the outbox, scientific processes and original checkpoint schedule.
+
+## Prior transition-only policy, 2026-09-12
 
 September 19 terminal-schema repair (OPS-S11.2-I5): process supervision now
 recognizes existing terminal statuses in uppercase or lowercase, while refusing
