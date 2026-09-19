@@ -38,6 +38,9 @@ The [constructed-context comparison](S2_CONTEXT.json) is complete and internally
 landed as L402, with exact construction replay and 312 independent checks.
 The [full recovered initial account breadth](S3_INITIAL_ACCOUNT.json) is complete
 and internally landed as L403, with all original tasks and 91 independent checks.
+The [complete direct breadth extension](S3_EXTENSION_DIRECT.json) is internally
+landed as L404: all 62 calls and 45 independent fields verify. Matched review and
+account extensions remain unfinished and unranked.
 The [account-breadth transport stop](ACCOUNT_BREADTH_TRANSPORT.json) is fully
 reconciled as OPS-S11.1-I8. Its partial cell remains incomplete and unranked.
 The reviewed Gear 2 recovery-v2 tail carries only the eight unchanged independent

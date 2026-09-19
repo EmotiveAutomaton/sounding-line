@@ -26,6 +26,10 @@ account-breadth roster is recovered and internally landed as L403: 27 retained p
 five new chains, 160 account/reference calls and 91 independent fields verify. Both
 original failed namespaces and their 630-second charges remain intact. No unfinished
 comparator is ranked; the single Sunday packet remains pending.
+The direct breadth extension is complete and internally landed as L404: all 62
+calls, exact remaining roster and 45 independent fields verify. Together with
+initial breadth it covers all 94 admitted episode keys; shared writers/sessions
+remain explicit. Matched review/account extensions remain unranked.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
 installed Llama direct pilot's transport timeout, September 18 21:05:17 UTC.
@@ -69,7 +73,7 @@ contains only five unfinished chains. Seven tail item objects are unchanged.
 Maximum new calls: 1,688, including 64 blocked reader and 536 conditional calls.
 Original caps, extension reserves, methods and clocks bind. Full context and the
 account supplement completed without new transport uncertainty. The same coordinator
-is running S3-extension-direct-v1, followed by review/account breadth extensions
+is running S3-extension-review-v1, followed by the account breadth extension
 and reserve-gated S1 extensions; unavailable second-reader contrasts stay blocked.
 
 The offline transport_recovery command with
