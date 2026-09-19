@@ -1,0 +1,54 @@
+{
+  "at": "2026-09-19T17:53:04.739160+00:00",
+  "entry": "OPS-S11.2-I5",
+  "scope": "operational monitoring repair; no scientific interpretation",
+  "delayed_checkpoint": {
+    "sha256": "2f175f3a0644e4123723dc4d7a09c52337562c694095f30b8b468460510a32e0",
+    "prior_landing": "OPS-S11.2-I1",
+    "exact_prior_receipt_match": true,
+    "prior_ack_verified": true,
+    "actual_delayed_owner_message_observed": true
+  },
+  "false_alert": {
+    "sha256": "84f5b0d0a19574bcbee37e8f659c9962c47108a451e359e4e3188139fb210ea1",
+    "reason": "completed producer used lowercase status; monitor accepted uppercase only",
+    "retained_unchanged": true,
+    "completion_sha256": "a0cc233050c061a522ce88d4b0084d1426faa05b7004c37e45b90c0f07bec626",
+    "prior_landing": "OPS-S11.2-I4",
+    "exact_prior_receipt_match": true,
+    "alert_created_after_completion_seconds": 19.952481031417847,
+    "admission_native_exit_verified": true
+  },
+  "repair": {
+    "source_sha256": "0b9f54e7f685a76f822a26a292d7a8c7960a05018ffb2985a9baa78e694a3a7e",
+    "terminal_status_case_normalized": true,
+    "status_type_checked": true,
+    "test_sha256": "35e279f11a50d62357cbcbd5aebc2874dcee46c21f50979f3732328d792d66ba",
+    "regression_before": {
+      "failed": 6,
+      "passed": 14
+    },
+    "focused_runtime_tests_passed": 109,
+    "locks_passed": 21
+  },
+  "live_acceptance": {
+    "previous_watcher_exited": true,
+    "replacement_native_identity_verified": true,
+    "loaded_source_sha256_matches": true,
+    "same_owner": true,
+    "transition_only": true,
+    "watch_error": null,
+    "scientific_coordinator_and_worker_unchanged_alive": true,
+    "scientific_source_pins_verified": 30,
+    "registered_job_terminals": 14,
+    "new_complete_job_produces": []
+  },
+  "authority": {
+    "gear": 2,
+    "maximum_gpu_seconds": 64800,
+    "deadline": "2026-09-20T15:00:00+00:00",
+    "new_tests_harvested": false,
+    "research_restarted": false
+  },
+  "limit": "Live watcher restart and source adoption verified; future idle delivery is not established by this repair."
+}

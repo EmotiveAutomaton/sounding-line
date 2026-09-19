@@ -2,6 +2,7 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+- [x] OPS-S11.2-I5: reconcile delayed C24 and false admission-disappearance alert; repair terminal-status recognition, pass 109 watcher checks and verify isolated live watcher reload.
 - [x] S11.2-I1: theory/method orientation, finite fixture, known-answer/privacy/accounting tests, first literal activation timing pilot; original source filed unchanged.
 - [x] L409 / M0: complete and semantically replay exact development comparison, preserving full-history equality and programmed-context limits.
 - [x] S11.2-I2: fully land three cached-reader refusals, original/single repair, 1,152 raw replays and the sixteen-prompt Jacobian fit; nine numerical/fixture checks pass.
@@ -17,7 +18,7 @@
 - [x] S11.2-Q: full fourteen-job repaired dispatcher/consumer/reentry rehearsal, actual Gear 2 launch, bound native identities and transition monitoring verified.
 - [ ] S11.2-Q: land each completed neural cell; no automatic method or sample expansion beyond the frozen fourteen jobs.
 - [x] OPS-S11.2-Q1: validate complete reporting/standby rehearsal, twenty focused checks, twenty-one locks and live source/native supervision.
-- [ ] S11.2-F: land complete cells, collect actual final integrity/cases and write single Sunday packet. Implementation is ready for commit/push; final results remain ongoing.
+- [ ] S11.2-F: land complete cells, collect actual final integrity/cases and write single Sunday packet. Implementation is committed and pushed to EmotiveAutomaton; final results remain ongoing.
 
 
 

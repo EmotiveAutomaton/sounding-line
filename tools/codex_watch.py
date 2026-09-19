@@ -136,8 +136,13 @@ def process_transitions(config, db, repo, now):
 def valid_json(path):
     try:
         record = json.loads(path.read_text(encoding="utf-8"))
-        return isinstance(record, dict) and (record.get("status") in {"COMPLETE", "PASS", "FITTED", "FAILED"}
-                                              or (path.name == "FAILED.json" and "error" in record))
+        if not isinstance(record, dict):
+            return False
+        # Producers use both uppercase and lowercase terminal states. This is
+        # notification ownership only, never scientific admission or acceptance.
+        status = record.get("status")
+        return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
+                or (path.name == "FAILED.json" and "error" in record))
     except (ValueError, OSError):
         return False
 

@@ -642,6 +642,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Terminal supervision must accept the actual producer schema.** A Stage 11.2
+  producer wrote lowercase `complete`, while its process monitor accepted only
+  uppercase states and reported disappearance after a valid result. Normalize
+  only the recognized status vocabulary; type-check malformed values. Exercise
+  the actual completion representation alongside running, incomplete and invalid
+  records, and verify the reloaded watcher without restarting science.
+  (2026-09-19, OPS-S11.2-I5, tests/test_codex_transition_watch.py)
+
 - **Partial completion receipts must reproduce their saved result before new calls.**
   A valid nested file inventory did not prevent a modified unit result/profile
   from being reused. Reconstruct request bindings, raw parsing and native

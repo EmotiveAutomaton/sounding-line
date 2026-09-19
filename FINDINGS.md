@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S11.2-I5 - completed admission reconciled and terminal monitor repaired
+
+**Operational question.** Did the admission process disappear without a result, or did the monitor reject its actual completion record?
+
+**METHOD.** Compare the alert, completion and delayed Stage 11.1 checkpoint with their original event digests and full landing receipts. Reproduce terminal recognition against lowercase, uppercase and malformed status records; validate the repair with the watcher suites. Reload only the watcher after its kernel lock releases, then verify native identities, loaded source, registered outputs and scientific source pins.
+
+The table reports operational checks; it contains no unfinished scientific scores.
+
+| Check | Outcome |
+|---|---|
+| Delayed 24-hour checkpoint | Exact match to OPS-S11.2-I1 and its earlier acknowledgment |
+| Admission alert | False disappearance: completion already existed; lowercase status was rejected |
+| Regression before repair | Six failures, including a malformed-status exception |
+| Repaired watcher suites | 109 checks pass; unfinished/malformed records still cannot suppress disappearance |
+| Live reload | Original watcher exited; replacement loaded the repaired source under the same owner |
+| Scientific queue | Original coordinator and worker remain alive; all thirty pinned sources match |
+| Scientific locks | All twenty-one pass |
+
+**Found and means.** Terminal recognition now accepts the existing status vocabulary regardless of letter case and refuses non-string status values safely. The original alert and admission evidence remain unchanged. The Stage 11.1 marker remains an already-landed operational checkpoint, with actual delayed receipt recorded separately. Gear 2 continues on the original fourteen-job plan, ceiling and deadline; no research was restarted and no tests were harvested. Future idle delivery remains to be observed after this reload.
+
+**Curator roll-up.** Theory group: infrastructure. Question: does terminal supervision recognize the active producers' actual output? Outcome: **Infrastructure**. Result: the repaired monitor passes 109 checks. Project meaning: normal completion no longer creates this false disappearance alert. Next engineering obligation: land completed cells and retain transition-only supervision through the Sunday packet. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/MONITOR_REPAIR.json.
+
+---
+
 ### OPS-S11.2-Q1 - complete reporting rehearsal and supervised Gear 2 launch
 
 **Operational question.** Is the stage implemented far enough to run its admitted comparisons, preserve refusals, and finish a source-inspectable report without restarting valid work?

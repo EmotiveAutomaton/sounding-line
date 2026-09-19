@@ -228,6 +228,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Stage 11.2 terminal supervision (OPS-S11.2-I5): lowercase completion caused a
+false process-disappearance alert. The monitor now normalizes recognized status
+case and safely refuses malformed values. All 109 watcher checks pass; live
+reload verifies the repaired source and same owner while both scientific native
+identities and all thirty source pins remain unchanged. The original alert is
+retained; no scientific rerun or future-delivery guarantee follows.
+
 Stage 11.2 cached-reader and lens validation (OPS-S11.2-I2): all 1,152 calls
 reparse; all three completed checkpoints fail both original and repaired admission.
 The sixteen-prompt Jacobian mean replays; exact linear-estimator and nonorthogonal

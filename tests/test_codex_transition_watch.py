@@ -51,7 +51,10 @@ def test_unknown_identity_is_monitor_failure_not_claim_of_death(context, monkeyp
     assert 'unavailable' in record['reason'] and not record['scientific_verdict']
 
 
-@pytest.mark.parametrize('name,record', [('COMPLETE.json', {'status': 'COMPLETE'}), ('FAILED.json', {'error': 'failure'})])
+@pytest.mark.parametrize('name,record', [
+    ('COMPLETE.json', {'status': status})
+    for status in ('COMPLETE', 'complete', 'Complete', 'PASS', 'pass', 'FITTED', 'fitted')
+] + [('FAILED.json', {'status': 'failed'}), ('FAILED.json', {'error': 'failure'})])
 def test_terminal_output_owns_notification(context, monkeypatch, name, record):
     repo, state, cfg, native = context
     (repo/'job').mkdir(); (repo/'job'/name).write_text(json.dumps(record))
@@ -61,9 +64,11 @@ def test_terminal_output_owns_notification(context, monkeypatch, name, record):
     assert watch.urgent({'path': 'job/'+name}, cfg)
 
 
-def test_empty_terminal_does_not_hide_disappearance(context, monkeypatch):
+@pytest.mark.parametrize('record', [{}, {'status': 'running'}, {'status': 'incomplete'},
+                                  {'status': None}, {'status': []}, [], True])
+def test_invalid_terminal_does_not_hide_disappearance(context, monkeypatch, record):
     repo, state, cfg, native = context
-    (repo/'job').mkdir(); (repo/'job/COMPLETE.json').write_text('{}')
+    (repo/'job').mkdir(); (repo/'job/COMPLETE.json').write_text(json.dumps(record))
     monkeypatch.setattr(watch, 'native_identity', lambda pid: None)
     watch.scan(cfg, repo=repo, state=state, now=10)
     assert (repo/cfg['process_watches'][0]['failure_output']).exists()

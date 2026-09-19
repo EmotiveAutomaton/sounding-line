@@ -2,6 +2,14 @@
 
 ## Current waiting policy, 2026-09-12
 
+September 19 terminal-schema repair (OPS-S11.2-I5): process supervision now
+recognizes existing terminal statuses in uppercase or lowercase, while refusing
+malformed or unfinished states. The prior admission disappearance alert was false
+and remains retained beside its actual completion. All 109 watcher checks pass;
+only the watcher was reloaded, with the same owner, outbox and scientific native
+identities preserved. Loaded source and fresh scanning verify; later idle delivery
+is a separate observation. [Receipt](../results/phase_2_4_stage_11_2/MONITOR_REPAIR.json).
+
 The curator replaced routine ETA/liveness wakes with transition-only operation.
 Private watcher configuration sets `transition_only: true`; explicit deadline
 plans and elapsed-time fallback cannot create events in that mode. Successful

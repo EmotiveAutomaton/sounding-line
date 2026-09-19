@@ -2,6 +2,13 @@
 
 ## Stage 11.2 running Gear 2 - 2026-09-19
 
+OPS-S11.2-I5 reconciles the delayed Stage 11.1 checkpoint and a false admission
+process-disappearance alert: the completed producer used lowercase status.
+Terminal recognition is repaired; 109 watcher checks and all 21 locks pass.
+The replacement watcher loaded the repaired source under the same owner;
+scientific coordinator/worker identities and all thirty source pins are unchanged.
+The original alert is retained. No new research or gear change follows.
+
 The repaired Qwen 9B prediction interface passed its fixed development gate;
 all original checkpoint refusals remain. The finite fourteen-job coordinator
 is running the neural M0 development comparison, followed by M3/M4 and test
