@@ -41,7 +41,8 @@ archive, kept whole, mined but never deleted.
 - [x] L401 / S3: complete and replay initial breadth review and direct reference; reproduce selection, requests and 91 independent fields; retain invalid recovery versus useful historical correction.
 - [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; the original transport-incomplete account namespace remains preserved, with the full recovered comparison landed as L403.
 - [x] L404 / S3: replay all 62 direct-extension calls, exact remaining selection and 45 independent score fields; fully land the complete direct breadth reference with dependency and calibration limits.
-- [ ] L404 / S3-S5: finish the frozen matched review/account breadth extensions, then carry complete breadth, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
+- [x] L405 / S3: replay all 124 review-extension and 62 direct-reference calls, exact first-request matches and 91 independent fields; land invalid-output recovery, useful yield and selective-risk limits.
+- [ ] L405 / S3-S5: finish the frozen account breadth extension; carry the complete breadth matrix, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
 - [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
 - [ ] S1: retain conditional extension gates and 40,000-second reserve checks; do not promise admission before the checks run.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.

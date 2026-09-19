@@ -29,7 +29,9 @@ comparator is ranked; the single Sunday packet remains pending.
 The direct breadth extension is complete and internally landed as L404: all 62
 calls, exact remaining roster and 45 independent fields verify. Together with
 initial breadth it covers all 94 admitted episode keys; shared writers/sessions
-remain explicit. Matched review/account extensions remain unranked.
+remain explicit. Review extension is complete and internally landed as L405:
+124 review and 62 reference calls replay, with 91 independent fields verified.
+The account extension remains unranked; earlier failures and final-packet duties remain.
 
 Original coordinator 60004 (creation ticks 134342285739723118) exited on the
 installed Llama direct pilot's transport timeout, September 18 21:05:17 UTC.
@@ -73,8 +75,8 @@ contains only five unfinished chains. Seven tail item objects are unchanged.
 Maximum new calls: 1,688, including 64 blocked reader and 536 conditional calls.
 Original caps, extension reserves, methods and clocks bind. Full context and the
 account supplement completed without new transport uncertainty. The same coordinator
-is running S3-extension-review-v1, followed by the account breadth extension
-and reserve-gated S1 extensions; unavailable second-reader contrasts stay blocked.
+is running S3-extension-account-v1, followed by reserve-gated S1 extensions;
+unavailable second-reader contrasts stay blocked.
 
 The offline transport_recovery command with
 raw/branch_recovery/S3-initial-account-v1-recovered/RECIPE.json has replayed all

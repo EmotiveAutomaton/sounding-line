@@ -7,9 +7,9 @@ complete, independently replayed and internally landed (L402-L403). Whole-roster
 recovery combines retained complete chains with the five-task supplement; original
 failed namespaces, responses and charges remain intact.
 
-The direct breadth extension is also replayed and internally landed (L404).
-The same Gear 2 coordinator is running its matched review extension, with account
-breadth next. Optional S1 extensions retain their
+The direct and review breadth extensions are replayed and internally landed
+(L404-L405). The same Gear 2 coordinator is running the matched account extension.
+Optional S1 extensions retain their
 reserve checks; the unavailable second reader remains blocked. Methods, caps and
 the commissioning clock are unchanged. Completion/failure/disappearance monitoring
 remains active, with the next predefined checkpoint September 19 16:18 UTC.
@@ -23,6 +23,7 @@ remains unavailable. The original brief is filed unchanged in the
 [completed context comparison](results/phase_2_4_stage_11_1/S2_CONTEXT.json),
 [recovered account breadth](results/phase_2_4_stage_11_1/S3_INITIAL_ACCOUNT.json),
 [completed direct extension](results/phase_2_4_stage_11_1/S3_EXTENSION_DIRECT.json),
+[completed review extension](results/phase_2_4_stage_11_1/S3_EXTENSION_REVIEW.json),
 [verified recovery launch](results/phase_2_4_stage_11_1/RECOVERY3_LAUNCH.json).
 
 ## Stage 11 complete - 2026-09-18
