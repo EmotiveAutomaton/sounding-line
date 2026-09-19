@@ -9,6 +9,155 @@ ran it.
 
 ---
 
+### OPS-S11.2-Q1 - complete reporting rehearsal and supervised Gear 2 launch
+
+**Operational question.** Is the stage implemented far enough to run its admitted comparisons, preserve refusals, and finish a source-inspectable report without restarting valid work?
+
+**METHOD.** Rehearse the full native dispatcher, producers, semantic consumers, six-case selector and offline packet, then exercise a guarded fresh-seed continuation and exact reentry on isolated fake roots. Validate source pins, reconstruct the first live request and its saved parse result, confirm native coordinator/worker identities, verify transition monitoring, scientific locks, LF and whitespace. Preserve original instrument errors rather than retrying a malformed forecast.
+
+**Found.** All twenty focused checks pass. The reporting rehearsal reconstructs eighteen comparison objects and six distinct cases containing the exact requests and saved model outputs. The final standby makes 896 fake calls charged to the original scratch ledger, then reenters without new calls or another budget. The scientific coordinator and its first M0 worker are alive; fourteen finite jobs have registered terminal produces. All twenty-one scientific locks and theory lint pass. The queue's science is ongoing: truncated or invalid outputs remain end-to-end failures, and no partial method ranking is made.
+
+**Prepared final work.** The supplied brief is filed in the design shelf. The branch ledger distinguishes implemented mechanisms, gated interpretation and unperformed controls. Six illustration-role rules are frozen before complete neural cells; missing effects produce explicitly labeled reference cases, never invented selective interventions. Sixteen previously exposed chronological human targets are prepared for offline source-bound replay after controlled context completes. One independent-history seed candidate is prepared but cannot run until every main job completes, all internal landings are done, a complete comparison is explicitly selected and the original capacity check passes. It shares the original clock and charges.
+
+**Limits.** Registration and native liveness are not proof of future event delivery. The fixed Sunday final packet and separate Stage 11.1 reporting remain owed. Successful fake transport and numerical algebra do not validate unavailable neural mechanisms; the full scientific result packet cannot be accepted before actual complete-cell replay. No new test was harvested beyond the commissioned branches.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the active commission ready for sustained bounded execution and review? Outcome: **Infrastructure**. Result: the admitted queue is running with twenty focused checks passing. Project meaning: remaining work is complete-cell landing, conditional continuation and final synthesis. Next engineering obligation: preserve invalids, gates, source/control limitations and the Sunday packet. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/SETUP_VALIDITY.json.
+
+---
+
+### OPS-S11.2-I4 - one repaired 9B interface admitted; complete continuation queue validated
+
+**Operational question.** Can the single corrected output interface execute the explicit-state task and safely support the prepared comparison queue?
+
+**METHOD.** Remove conflicting global/action versus state labels and letter-only output requests, supply four fixed training examples, and allow a bounded analysis field before the probability vector. Keep the checkpoint, development roster and 0.70/0.80 floors fixed. Reconstruct and reparse all 192 requests/responses, recompute the gate, verify source pins and native exit. Run the complete fourteen-job successor through a fake transport, semantic consumers and no-call reentry.
+
+**Found.** Action accuracy is 0.812500 and factual-state accuracy 0.843750; this interface is admitted for the separate 9B prediction condition. The original refusal remains. The bundled repair does not identify which individual change helped. Nineteen focused tests pass; the full successor rehearses 270 fake calls and exact reentry. The prospective wrong-context control flips one tool and changes the held-out mechanism; the retained initial double flip remains explicitly invariant. Both strict zero-support logarithmic loss and capped secondary loss are recorded; invalids retain failure penalties and full denominators. Maker-observation counterfactual truth is recalculated, not copied from the unmodified target.
+
+**Plan.** Fourteen finite jobs cover core development/test comparisons, distinct delayed-combination and 36-event history tests, free-form versus source-linked summaries, latent queries and unchanged-request controls. The plan contains 12672 forecast/summary calls before capacity deferrals. Measured repaired median/p90 request wall times are 2.955854/7.069146 seconds; aggregate p50/p90 are 10.405/24.883 hours, with a 5.202-hour twice-as-fast scenario. Future prompt/output lengths may differ. Before each whole block the dispatcher compares the current p90 estimate to remaining service and deadline capacity; actual per-call reservations retain the original ceiling. No filler seeds, clock reset or additional paid authority.
+
+**Meaning.** Task competence now permits this bounded prediction comparison. It does not admit HF activations, causal alignment, calibrated confidence, or human transfer. Exact programs remain the strong comparator. Conditional latent recurrence stays blocked by its own missing validated read/write prerequisite.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the corrected interface support the commissioned comparisons? Outcome: **Infrastructure**. Result: the repaired prediction interface passes both frozen capability floors. Project meaning: the finite neural comparison queue can run without reinterpreting prior failures. Next engineering obligation: land complete cells and retain all capability, context and cost limitations. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/REPAIRED_ADMISSION_AND_LAUNCH.json.
+
+---
+
+### L410 - withheld mechanics preserve exact state reuse; candidate addition partly repairs a missing policy
+
+**Hypothesis.** A persistent executable account saves reconstruction under new tool mechanics, while an explicit mismatch route can recover from an initially absent maker policy.
+
+**METHOD.** Freeze all thirteen exact-reader forecasts on the 128-maker withheld XOR-tool/card-rendering test before evaluator access. Separately compare four-policy Bayes, a restricted untrained-only library, and one frozen revision rule on development and test: after a public event receives probability below 0.04, allocate 0.20 mass to previously absent candidates and update on that event. Retain every before/after weight vector and pre-observation forecast. Recompute all saved predictions and scores; bootstrap maker/world clusters with encounters nested.
+
+The first table reports expected logarithmic loss on the withheld test; lower is better. Gains are full-history loss minus arm loss, with clustered 95% intervals.
+
+| Exact reader | Expected log loss | Gain over full history | Interval |
+|---|---:|---:|---|
+| Full history | 0.349927 | 0 | reference |
+| Persistent weights | 0.349927 | 0 | [0, 0] |
+| Two observations | 0.618582 | -0.268655 | [-0.338673, -0.199424] |
+| Other maker | 1.960449 | -1.610522 | [-1.750154, -1.474315] |
+
+The second table reports expected Brier loss of the action distribution, lower is better. Revision-versus-full intervals are paired by maker/world.
+
+| Library | Development loss | Withheld test loss | Test gain over full library |
+|---|---:|---:|---|
+| Full four-policy | 0.147299 | 0.143304 | reference |
+| Restricted untrained-only | 0.357285 | 0.506161 | -0.362857 |
+| Add candidates after mismatch | 0.179427 | 0.168174 | -0.024870, interval [-0.047308, -0.007175] |
+
+**Found.** State reuse again ties exact recomputation; restricted history loses information. Candidate addition repairs much of the deliberately incomplete library's error but remains worse than starting with the full library. Addition occurs only after the corresponding observation; it is a fixed library-expansion rule, not open-ended discovery. The finite world and shared policy primitives bound both results.
+
+**Validity limitation.** The original wrong-context control flips both tools. That changes the development interlock but preserves test XOR enablement, so the test's quiet control is construction-invariant and cannot license context insensitivity or selective correction. Its original matrix remains intact. The prospective neural context control instead flips only the first tool, checked across both families before those predictions. No reader prompt or threshold was tuned to test scores. Programmed perspective, duplicate-source and correction policies are still construction checks, not learned trust. All 8,960 new prediction rows replay.
+
+**Meaning and next action.** Persisted state can reuse computation without adding information; recovering from an incomplete library does not outperform the strongest complete rival. Continue the separately admitted neural comparisons and genuine history/context extensions. No human motivational or neural causal claim follows.
+
+**Curator roll-up.** Theory group: maker reconstruction. Question: what does carrying and revising a maker account add over direct exact reconstruction? Outcome: **Narrows**. Result: state reuse ties full inference and fixed candidate expansion remains inferior to the complete library. Project meaning: preserve the equally informed rival and separate reuse from new information. Next engineering obligation: validate prospective context manipulation and compare competent neural readers. Public claim: unchanged for human and neural mechanisms. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/EXECUTABLE_TEST_AND_REVISION.json.
+
+---
+
+### OPS-S11.2-I3 - independent checkpoint gates and literal queue completion
+
+**Operational question.** Can the remaining cached 3B or separate 9B reader execute the frozen task, and does the queue respect an actual refusal?
+
+**METHOD.** Reparse all 384 cached-3B and 192 Ollama responses, reconstruct every Ollama request from its public development case and explicitly supplied capability state, recompute both gate rates, and inspect native identities. Rehearse the complete native seven-job queue with a fake reader, including blocked dependencies and no-call reentry.
+
+The table gives complete admission accuracy, not mechanism scores. Required action / factual-state floors remain 0.70 / 0.80.
+
+| Condition | Action accuracy | Factual-state accuracy | Disposition |
+|---|---:|---:|---|
+| Cached Qwen 3B original | 0.218750 | 0.6328125 | refused |
+| Cached Qwen 3B single repair | 0.500000 | 0.5312500 | refused |
+| Separate Ollama Qwen 9B original | 0.515625 | 0.4843750 | refused; one interface repair remains |
+
+**Found.** All 576 saved calls replay and all producers and the initial dispatcher have exited. The dispatcher completed its admission job and blocked all six dependent jobs from the gate verdict. Thirteen focused tests pass, including the complete fake queue and immutable reentry. No test outcome was used to revise a gate. The broad cached-3B source inventory contains two changed Ollama-only modules; those modules are not imported by the HF admission path, whose executed dependency hashes match. This is a disclosed provenance limitation, not a claim that every historical inventory hash matches. Complete audit-time charged GPU service is 779.047924 seconds, including prior failed gates and the neutral fit.
+
+**Meaning and next action.** Gate failure blocks neural mechanism interpretation. The 9B interface conflates global action letters with question-specific letters and requests both a letter and JSON; whether either caused failure is unestablished. Use its one bounded development-only interface repair, retaining original requests and failures. Continue independent exact comparisons and distinct executable extensions. No new test was harvested beyond the commissioned branches.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the available instruments answer this task? Outcome: **Infrastructure**. Result: all completed checkpoint conditions refuse scientific admission. Project meaning: no neural mechanism verdict is licensed. Next engineering obligation: execute the separate backend's single repair and complete independent branches. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/ADMISSION_AND_QUEUE_AUDIT.json.
+
+---
+
+### OPS-S11.2-I2 - cached-reader refusals and successful neutral Jacobian transport
+
+**Operational question.** Do larger cached readers meet the frozen task gate, and does the pinned Jacobian estimator execute correctly independently of that gate?
+
+**METHOD.** Run complete original and single train-example-repaired interfaces on three cached checkpoints, with 64 crossed development action queries and 128 factual queries per interface. Reparse every saved vector from raw letter log probabilities and verify native exits. Separately fit two intermediate-layer Jacobians from sixteen cached neutral passages at 128 tokens using the pinned upstream estimator, and reconstruct the mean from every retained per-prompt matrix. Test the estimator against an exact linear network and the overlapping-coordinate patch against a pseudoinverse known answer.
+
+The table gives complete instrument admission rates, not scientific mechanism scores. Each cell is action accuracy / factual-state accuracy; required floors remain 0.70 / 0.80.
+
+| Checkpoint | Original interface | Single interface repair | Admission |
+|---|---|---|---|
+| Qwen 0.5B | 0.203125 / 0.539062 | 0.218750 / 0.539062 | refused |
+| Qwen 1.5B | 0.218750 / 0.539062 | 0.375000 / 0.539062 | refused |
+| SmolLM 1.7B | 0.234375 / 0.531250 | 0.375000 / 0.468750 | refused |
+
+**Found.** All 1,152 admission calls replay, along with the original 192-call timing pilot. Zero-dose logits agree and hooks clean up for every completed interface. A separate six-request literal-generation diagnosis emits the same Qwen letters as the likelihood readout; it does not identify why the reader fails. A private diagnostic launch initially lacked the repository import path and made no model call; that launch failure remains separate from the charged successful diagnosis. No test outcomes were opened and no threshold was relaxed.
+
+The small neutral fit completes in 173.021162 per-prompt computation seconds. Its median/p90 prompt costs are 10.682263/11.161955 seconds; matrix means reproduce exactly. Neutral-half cosines are 0.943459 and 0.982997 at the two layers, with relative matrix differences 0.342407 and 0.184812. Nine focused tests pass. This is reduced-scout transport, not mechanistic admission; the earlier capability pilot also used a different precision. Actual fit averaging excludes the first sixteen and final token positions; the inherited Reader metadata's final-token mask describes later patching, not this estimator. All 86 available neutral passages are distinct; none is duplicated to claim a 100-prompt fit.
+
+**Next action and limits.** The failed interfaces are retired for this fixture. A separately screened cached 3B condition uses bounded GPU placement with CPU offload; a separate Ollama 9B prediction condition cannot inherit HF activation admission. M0 and executable M3/M4 remain independent. No neural causal null, human mechanism, or calibration claim follows. Preserve the absolute deadline, all failed costs and the single final packet.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the obstruction transport or task competence? Outcome: **Infrastructure**. Result: Jacobian transport works while the completed reader gates fail. Project meaning: mechanistic interpretation remains blocked for those checkpoints. Next engineering obligation: finish the independent capability conditions and finite branch dispatch. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/CACHED_READER_ADMISSION.json and LENS_TIMING.json.
+
+---
+
+### L409 - persistent executable hypotheses tie equally informed raw-history inference
+
+**Hypothesis.** Carrying a maker hypothesis across encounters improves prediction or saves repeated reconstruction beyond using the same earlier behavior directly.
+
+**METHOD.** Execute four-action constructed makers with separately controlled persistent preference, learned routing skill, current goal and witnessed location notice. Freeze disjoint maker, world-mechanic and rendering splits. On the complete development block compare exact persistent weights, full raw-history recomputation, two-observation history, no history, another maker's history and declared state/context corruption. Freeze forecasts before opening the evaluator; semantically replay every posterior and score. Uncertainty resamples maker/world clusters with four probes nested inside each.
+
+The table reports mean negative logarithmic probability of the sampled action (lower is better) and expected-log-loss improvement over the full-history exact reader (positive is better). Intervals resample 64 independent constructed histories, not 256 independent probes. These are exact programs, not language-model readers.
+
+| Reader | Action log loss | Expected gain over full history | Clustered 95% interval |
+|---|---:|---:|---|
+| Full raw history | 0.352316 | 0 | reference |
+| Persistent weights | 0.352316 | 0 | [0, 0] |
+| Last two observations | 0.522768 | -0.168625 | [-0.264790, -0.096227] |
+| No history | 0.882461 | -0.536176 | [-0.542509, -0.527751] |
+| Other maker | 1.895811 | -1.577037 | [-1.781324, -1.366373] |
+
+**Found.** Persistent and full-history predictions agree exactly. Reusing the fitted weights requires four policy evaluations per query, versus fifty-two for full reconstruction; initial fitting remains charged separately. This establishes computation reuse in this fixture, not a prediction gain over an equally informed solver. The complete thirteen-arm matrix also contains stale-goal, reader-belief and wrong-tool controls. Its perspective, corrected-context, source-linked and duplicate-source arms explicitly implement the desired discipline, so their equality is construction validation, not learned selective trust. Reversed history is an order-invariant negative control.
+
+**Limits and next action.** All 3,328 forecasts replay; seven known-answer, leakage, ambiguity, scoring, tampering and accounting tests pass. Four policy primitives are shared across splits; unique histories do not become unique policy laws. This is one development family, with stochastic action lapses and truth-known expected scoring. Test outcomes remain unopened during instrument design. Continue the competent neural comparison, history bottleneck, held-out mechanics and independent mechanism branches. No p-value, human value claim or neural mechanism follows. Internal landing is retained for the single Sunday packet.
+
+**Curator roll-up.** Theory group: maker reconstruction. Question: does carrying an executable maker hypothesis improve inference beyond the same history? Outcome: **Narrows**. Result: persistent and equally informed exact predictions tie. Project meaning: state reuse can save reconstruction without adding information. Next engineering obligation: preserve the strong exact rival in neural and withheld-mechanics comparisons. Public claim: unchanged for human and neural inference. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/raw/M0-executable/dev/.
+
+---
+
+### OPS-S11.2-I1 - first activation instrument and retained Stage 11.1 checkpoint
+
+**Operational question.** Can the new commission start without changing historical evidence or mistaking functioning hooks for competent readers?
+
+**METHOD.** Read the supplied brief, relevant theory corrections, method lessons and existing transfer/intervention interfaces. Build an independent executed fixture and validate its ruler. Run 192 literal explicit-state requests on the cached 360M reader, retaining the first 32 activation timings; compare repeated/zero-dose logits and force hook cleanup through an exception. Inspect the old stage's predefined 24-hour checkpoint and completed frontier.
+
+**Found.** The 360M interface fails capability: action accuracy 0.25, factual-state accuracy 0.554688. Repeated and zero-dose logits agree exactly and cleanup passes. First-32 median/p90 service is 0.048805/0.054104 seconds. These are instrument facts, not mechanistic nulls. The original slice leaves tools disabled; the stricter successor gate crosses encounters before any admission. Thresholds remain 0.70 action and 0.80 factual state. Every call, source version and cost remains retained. Further cached readers receive the original screen and at most one frozen training-example interface repair. The independent exact development comparison is L409.
+
+The Stage 11.1 checkpoint is a predefined operational marker, not new research authority; its completed inference frontier is unchanged and Sunday reporting remains open. Stage 11.2 is separately commissioned by the latest user instruction. Its brief is filed unchanged in docs/design/PHASE_2_4_STAGE_11_2_CONTEXT.md. Existing cooling, four threads and one GPU owner remain; no paid inference, model-weight download or delegation. The required small Jacobian-lens reference subset is revision-pinned with its Apache license.
+
+**Curator roll-up.** Theory group: infrastructure. Question: are transport and scientific admission distinguished? Outcome: **Infrastructure**. Result: hooks pass while the smallest reader fails capability. Project meaning: inability cannot become a mechanistic null. Next engineering obligation: complete cached-reader admission and validated finite dispatch. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/raw/pilot-0-v1/.
+
+---
+
 ### OPS-S11.1-V1 - current queue and active-stage validity pass
 
 **Operational question.** Are the completed inference queue, retained evidence and current Stage 11.1 tests still in good shape?

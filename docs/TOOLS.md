@@ -228,6 +228,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Stage 11.2 cached-reader and lens validation (OPS-S11.2-I2): all 1,152 calls
+reparse; all three completed checkpoints fail both original and repaired admission.
+The sixteen-prompt Jacobian mean replays; exact linear-estimator and nonorthogonal
+patch fixtures pass within the nine-check suite. No causal admission.
+
+Stage 11.2 initial fixture and transport (OPS-S11.2-I1, L409): seven known-answer,
+ambiguity, privacy, replay, scoring and accounting tests pass. Exact development
+posterior/scoring replay passes. The 360M hooks preserve repeated and zero-dose logits
+and clean up on exceptions, but task competence fails; this is not causal admission.
+Source bytes and pilot calls are retained separately.
+
+
 *(Consolidated from `docs/method/INSTRUMENTS.md` 2026-08-10 at the curator's instruction; parallel documents are a fail state. Results that adjudicate claims go to `docs/theory/`; results that validate or break instruments land here, full records in `FINDINGS.md`.)*
 
 | instrument | what it is | state |
@@ -1809,3 +1821,7 @@ Full instrument write-through: OPS-S10-READING-REPAIR and its
 **Stage 10 earlier-draft control supplement (L389).** `runners/stage10/earlier_baselines.py` reuses the fixed training-only cheap controls through the existing current-state projection. Four checks in `earlier_baseline_checks.py` cover planted/null cases, evidence/option invariance, private-field and overlap refusal, evaluation-label isolation, mutation refusal and complete immutable comparison. The real producer and analysis reproduce; independent prior/Brier arithmetic agrees and original model cells/contrasts stay unchanged. Initial temporary-directory and fixture failures are retained in the receipt. [Control completion](../results/phase_2_4_stage_10/CONTROL_COMPLETION.json).
 
 **Stage 10 final finite-queue reconciliation (L388).** Both completed controllers replay all 59 saved dispositions and 96,338 inventoried files without dispatch. Twenty newly completed jobs, three complete comparison consumers, two private byte-identical development fits and both final-review ledgers verify with model calls and original writes forbidden. The first private inspector encountered Windows default text decoding; its explicit UTF-8 continuation preserves that refusal and checked progress. The scoped empty-explanation pilot admits and all eight repair jobs complete, while scientific invalids remain scored. Public prototype examples retain actual forecasts/programs and omit human source text/identity. [Final integrity and costs](../results/phase_2_4_stage_10/CLOSEOUT.json).
+
+Stage 11.2 OPS-S11.2-I3: full 3B/9B admission replay and thirteen checks pass; both gates refuse. The seven-job initial queue correctly blocks six dependents. Two unused Ollama source inventory mismatches in the 3B receipt remain disclosed. No activation or task competence inferred from transport.
+
+Stage 11.2 OPS-S11.2-I4: the single repaired Ollama interface passes the fixed task gate; all 192 requests semantically replay, native exit/source pins verify, and nineteen focused checks pass. Fourteen successor jobs rehearse with 270 fake calls and no-call reentry. This admits predictions only; smaller HF activation conditions remain refused.

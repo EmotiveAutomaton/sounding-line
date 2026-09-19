@@ -1,0 +1,41 @@
+{
+  "actual_fit_mask": "positions 16 through token-count minus 2; model.token_mask describes the separate downstream Reader default, not fit averaging",
+  "at": "2026-09-19T16:48:31.531273+00:00",
+  "mean_replay": true,
+  "nonorthogonal_patch_test": true,
+  "numerical_oracle_test": true,
+  "receipt": {
+    "admitted_for_science": false,
+    "fit_seconds": 173.02116230000684,
+    "fitted": 16,
+    "half_stability": {
+      "10": {
+        "cosine": 0.9434589147567749,
+        "relative_difference": 0.3424070477485657
+      },
+      "21": {
+        "cosine": 0.9829971194267273,
+        "relative_difference": 0.18481212854385376
+      }
+    },
+    "lens_sha256": "0a24e7cb37f0b2f00e967723b5ba39721f9fd7fcb59aa9f905b94f291e1fbf1a",
+    "model": {
+      "checkpoint": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "dtype": "bfloat16",
+      "layers": [
+        10,
+        21
+      ],
+      "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+      "token_mask": "final prompt token only",
+      "torch": "2.13.0+cu126",
+      "transformers": "5.14.1"
+    },
+    "p50_prompt_seconds": 10.68226329999743,
+    "p90_prompt_seconds": 11.161955449999368,
+    "requested": 16,
+    "scope": "reduced neutral-text fit; transport only unless separate capability admission passes",
+    "source_limit": "86 cached independent passages available; no duplication to claim 100",
+    "status": "complete"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "at": "2026-09-19T17:05:04.755524+00:00",
+  "charged_seconds_snapshot": 779.0479238999687,
+  "hf": {
+    "admitted": false,
+    "finished": "2026-09-19T16:48:54.219003+00:00",
+    "interface_version": 1,
+    "model": {
+      "checkpoint": "Qwen/Qwen2.5-3B-Instruct",
+      "device_map": {
+        "lm_head": "0",
+        "model.embed_tokens": "0",
+        "model.layers.0": "0",
+        "model.layers.1": "0",
+        "model.layers.10": "0",
+        "model.layers.11": "0",
+        "model.layers.12": "0",
+        "model.layers.13": "0",
+        "model.layers.14": "0",
+        "model.layers.15": "0",
+        "model.layers.16": "0",
+        "model.layers.17": "0",
+        "model.layers.18": "0",
+        "model.layers.19": "0",
+        "model.layers.2": "0",
+        "model.layers.20": "0",
+        "model.layers.21": "0",
+        "model.layers.22": "0",
+        "model.layers.23": "0",
+        "model.layers.24": "0",
+        "model.layers.25": "cpu",
+        "model.layers.26": "cpu",
+        "model.layers.27": "cpu",
+        "model.layers.28": "cpu",
+        "model.layers.29": "cpu",
+        "model.layers.3": "0",
+        "model.layers.30": "cpu",
+        "model.layers.31": "cpu",
+        "model.layers.32": "cpu",
+        "model.layers.33": "cpu",
+        "model.layers.34": "cpu",
+        "model.layers.35": "cpu",
+        "model.layers.4": "0",
+        "model.layers.5": "0",
+        "model.layers.6": "0",
+        "model.layers.7": "0",
+        "model.layers.8": "0",
+        "model.layers.9": "0",
+        "model.norm": "cpu",
+        "model.rotary_emb": "cpu"
+      },
+      "dtype": "bfloat16",
+      "layers": [
+        12,
+        24
+      ],
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "token_mask": "final prompt token only",
+      "torch": "2.13.0+cu126",
+      "transformers": "5.14.1"
+    },
+    "repair": "four training examples and answer cue; thresholds and test population unchanged",
+    "status": "complete",
+    "versions": [
+      {
+        "action_accuracy": 0.21875,
+        "admitted": false,
+        "cleanup": [
+          true,
+          true
+        ],
+        "p50_seconds": 0.26924069999950007,
+        "p90_seconds": 0.3270233699979144,
+        "rows_sha256": "2277e3a22e048ae1f75cb62448e77ab244dfb2653b1e6c720efacbd6dd29650d",
+        "state_accuracy": 0.6328125,
+        "tolerance": 1e-06,
+        "version": 0,
+        "zero_errors": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "action_accuracy": 0.5,
+        "admitted": false,
+        "cleanup": [
+          true,
+          true
+        ],
+        "p50_seconds": 0.4623775000072783,
+        "p90_seconds": 0.4969163200032199,
+        "rows_sha256": "98b441a3f39a1407e629de26547d73d635fcb0c629747cfb4d7a189b1e92f0c3",
+        "state_accuracy": 0.53125,
+        "tolerance": 1e-06,
+        "version": 1,
+        "zero_errors": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "native_exits": {
+    "M1-fit-0-16": {
+      "actual": null,
+      "record": {
+        "created_ticks": 134343094087064148,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 175992
+      }
+    },
+    "admission-4": {
+      "actual": null,
+      "record": {
+        "created_ticks": 134343098007794055,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 188192
+      }
+    },
+    "ollama-admission": {
+      "actual": null,
+      "record": {
+        "created_ticks": 134343106613057879,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 190856
+      }
+    },
+    "queue": {
+      "actual": null,
+      "record": {
+        "created_ticks": 134343106611222802,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 175260
+      }
+    }
+  },
+  "ollama": {
+    "action_accuracy": 0.515625,
+    "admitted": false,
+    "model": {
+      "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+      "model": "qwen3.5:9b",
+      "server": {
+        "version": "0.34.2"
+      }
+    },
+    "rows_sha256": "6e8200a82ed6eb4b5102bbc3a513479d295729818e1cd8164840524a39bef817",
+    "scope": "separate Ollama prediction condition; never activation admission",
+    "state_accuracy": 0.484375,
+    "status": "complete"
+  },
+  "queue": {
+    "dispositions": [
+      {
+        "id": "ollama-admission",
+        "produce_sha256": "1237f83c354afd568c74e84f59c1772950e5e4b3c98f52ac70b937b4ec8bbb73",
+        "status": "complete"
+      },
+      {
+        "id": "M0-dev",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      },
+      {
+        "id": "M3-dev",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      },
+      {
+        "id": "M4-dev",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      },
+      {
+        "id": "M0-test",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      },
+      {
+        "id": "M3-test",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      },
+      {
+        "id": "M4-test",
+        "reason": "failed gate ollama-admission/COMPLETE.json",
+        "status": "blocked"
+      }
+    ],
+    "fake": false,
+    "manifest_sha256": "6bb318ea801eb667ce5940d21564659d28bde75b87ced4e79ab8dd91b0e376f3",
+    "scope": "dispatch completion, not final scientific packet",
+    "status": "complete"
+  },
+  "replayed_calls": 576,
+  "scope": "instrument admission and dispatch; not mechanism verdict",
+  "source_inventory_mismatch": [
+    "runners/stage11_2/local_reader.py",
+    "runners/stage11_2/model_study.py"
+  ],
+  "source_scope": "Two Ollama-only modules changed while unrelated HF admission ran; all executed HF dependency hashes match. Broad original pin inventory does not fully match."
+}

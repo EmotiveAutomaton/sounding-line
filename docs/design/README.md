@@ -7,7 +7,9 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-18)
+## Current orientation (2026-09-19)
+
+- **Stage 11.2 is active:** [persistent maker mechanisms](PHASE_2_4_STAGE_11_2_CONTEXT.md), filed byte-for-byte from the supplied top-level September 19 brief. Explicit Gear 2; Sunday deadline and 18-hour local GPU ceiling retained. [Runner contract](../../runners/stage11_2/README.md).
 
 - **Stage 11.1 is active:** [branching continuation](PHASE_2_4_STAGE_11_1_CONTEXT.md), filed byte-for-byte from `SOUNDING_LINE_STAGE_11_1_BRANCHING_STUDY_2026-09-18.md` at the curator's request. Gear 2 is explicitly retained. Historical immutable authority records preserve the original supplied filename; this is its operative location. [Branch readiness](../../results/phase_2_4_stage_11_1/BRANCHES.md).
 

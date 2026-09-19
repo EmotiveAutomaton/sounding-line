@@ -1,5 +1,25 @@
 # TODO: the study queue
 
+## Stage 11.2 commissioned - 2026-09-19
+
+- [x] S11.2-I1: theory/method orientation, finite fixture, known-answer/privacy/accounting tests, first literal activation timing pilot; original source filed unchanged.
+- [x] L409 / M0: complete and semantically replay exact development comparison, preserving full-history equality and programmed-context limits.
+- [x] S11.2-I2: fully land three cached-reader refusals, original/single repair, 1,152 raw replays and the sixteen-prompt Jacobian fit; nine numerical/fixture checks pass.
+- [x] S11.2-I3: replay and land cached 3B and original separate 9B refusals; thirteen tests and the initial finite dispatcher pass.
+- [x] S11.2-I4: replay and fully land the single repaired 9B admission, 192 calls, native/source checks and fourteen-job fake queue; nineteen tests pass.
+- [x] L410 / M0: complete and replay withheld exact test and predeclared candidate-addition comparison; preserve the XOR-invariant original context control.
+- [ ] M0: complete neural direct/raw-history/persistent comparison; keep the strong exact rival and amortized costs separate.
+- [x] M1/M2 disposition: numerical instruments checked; scientific activation/alignment comparisons remain blocked by completed HF task refusals. No additional interface tuning is authorized.
+- [ ] M3/M4: target-versus-reader crossed state and controlled source-context updating; exposed human bridge at most 24 targets.
+- [x] M5 disposition: read/write prerequisite unavailable; source review recorded, no recurrence experiment or reproduction claimed.
+- [ ] M6: run prepared distinct continuations; after all fourteen jobs are fully landed, select at most one prepared fresh-seed comparison if informative and within remaining original capacity.
+- [x] S11.2-F setup: offline semantic packet collector, frozen six-role case selection and 16-target exposed human replay prepared.
+- [x] S11.2-Q: full fourteen-job repaired dispatcher/consumer/reentry rehearsal, actual Gear 2 launch, bound native identities and transition monitoring verified.
+- [ ] S11.2-Q: land each completed neural cell; no automatic method or sample expansion beyond the frozen fourteen jobs.
+- [x] OPS-S11.2-Q1: validate complete reporting/standby rehearsal, twenty focused checks, twenty-one locks and live source/native supervision.
+- [ ] S11.2-F: land complete cells, collect actual final integrity/cases and write single Sunday packet. Implementation is ready for commit/push; final results remain ongoing.
+
+
 
 **Reordered 2026-08-09 (evening) around the program and the frontier-first principle.** Results go
 in [`FINDINGS.md`](FINDINGS.md). Everything below the phase sections is the pre-program backlog
@@ -34,7 +54,7 @@ archive, kept whole, mined but never deleted.
 - [ ] L399: carry repeat controls, donor susceptibility and useful-versus-probability tradeoffs into final illustrations and the Sunday packet; continue selected S2/S3 without another diagnostic variant.
 - [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
 - [x] OPS-S11.1-C12: inspect twelve-hour coverage, active production, actual gates, cumulative caps and native supervision; continue the unchanged Gear 2 queue without unfinished scores.
-- [ ] OPS-S11.1-C24: inspect coverage at September 19 16:18:24 UTC, or land earlier completion/failure events when delivered; preserve whole-roster recovery and final-packet obligations.
+- [x] OPS-S11.1-C24: predefined marker inspected in OPS-S11.2-I1; unchanged completed inference frontier and Sunday reporting preserved.
 - [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
 - [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.

@@ -1,5 +1,30 @@
 # STATE: the agent's operational file
 
+## Stage 11.2 running Gear 2 - 2026-09-19
+
+The repaired Qwen 9B prediction interface passed its fixed development gate;
+all original checkpoint refusals remain. The finite fourteen-job coordinator
+is running the neural M0 development comparison, followed by M3/M4 and test
+comparisons, then distinct history, generated-summary, state-query and repeat
+extensions. Forecast: 10.405 hours at the admission median, 24.883 at p90,
+5.202 in the twice-as-fast median scenario. Actual longer prompts may differ;
+whole-block admission and per-call reservations enforce the unchanged ceiling.
+
+20 focused checks pass, including the complete native fake queue, raw semantic
+consumers and no-call reentry. All 21 locks pass. Source pins and native worker/
+coordinator identities verify; transition-only completion/failure/disappearance
+monitoring is registered. No periodic model wake or new paid work is scheduled.
+The independent executable test/revision comparison is internally landed (L410).
+The original XOR-invariant context control remains; the prospective neural
+one-tool control is validated before execution.
+
+The 18-hour service ceiling includes all failed pilots and fits; the final
+packet remains due September 20 at 15:00 UTC, with synthesis from 13:00 UTC.
+Conditional activation/recurrence work remains instrument-limited. A source-bound
+16-target exposed human bridge is prepared for offline replay after M4 test.
+[Branch ledger](../results/phase_2_4_stage_11_2/BRANCHES.md),
+[live launch receipt](../results/phase_2_4_stage_11_2/LIVE_QUEUE_VALIDITY.json).
+
 ## Stage 11.1 reporting open; inference queue exhausted - 2026-09-19
 
 Current owner-requested validity pass (OPS-S11.1-V1, September 19) verifies
