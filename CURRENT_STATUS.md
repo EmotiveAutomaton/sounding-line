@@ -33,8 +33,9 @@ unloaded and sustained GPU work remains parked. Light CPU work is limited to two
 threads; AC boost remains off and maximum processor state remains 90 percent.
 
 No light scientific producer is eligible now. Monitoring and reporting are active.
-Next fixed checkpoint: September 20 at 04:18:24 UTC; reporting at 13:00 UTC and final
-packet at 15:00 UTC. Only the owner-requested four-hour health cadence is added; no new scientific work is scheduled.
+The 36-hour checkpoint is inspected (OPS-S11.1-C36): all 32 report inputs
+verify, admitted inference remains exhausted, and final reporting/visual QA remain open.
+Next fixed appointment: September 20 reporting at 13:00 UTC and final packet at 15:00 UTC. Only the owner-requested four-hour health cadence is added; no new scientific work is scheduled.
 Actual idle delivery after this resume is verified in OPS-HEALTH-4H-FIRST.
 
 [Gear 1 resume receipt](results/phase_2_4_stage_11_2/GEAR1_RESUME.json).

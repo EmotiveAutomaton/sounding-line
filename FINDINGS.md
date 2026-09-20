@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S11.1-C36 - thirty-six-hour coverage checkpoint inspected
+
+**Operational question.** At the scheduled coverage checkpoint, is completed evidence preserved and are the remaining reporting obligations explicit?
+
+**METHOD.** Match the checkpoint to the original schedule and delivered event digest. Verify every bound report-input hash, the prepared internal draft, native watcher/checkpoint identities and fresh monitoring state. Review the completed frontier and current Gear 1 handoff without rescoring or interpreting unfinished cells.
+
+The table records operational coverage and remaining obligations.
+
+| Check | Outcome |
+|---|---|
+| Checkpoint | Original September 20 04:18:24 UTC marker and delivered digest match |
+| Completed coverage | All admitted S0-S4 work remains internally landed; source-replayed S5 viewer and internal draft prepared |
+| Report integrity | All 32 bound report inputs unchanged |
+| Monitoring and allocation | Native helpers healthy; Gear 1 retained; Stage 11.2 sustained inference intentionally parked |
+| Remaining work | Visual QA still unperformed; final input/source/cost/privacy checks and single curator packet remain owed |
+| Fixed reporting clock | Reporting begins September 20 at 13:00 UTC; final packet due at 15:00 UTC |
+
+**Found and means.** The coverage checkpoint introduces no new scientific result, runnable light producer or repair. Retain the completed comparisons and explicit visual-QA limit; neither unused capacity nor the elapsed checkpoint selects another experiment. The campaign is not declared closed. Keep the four-hour health cadence and original reporting appointment; no new tests harvested.
+
+**Curator roll-up.** Theory group: research operations. Question: is the completed evidence ready for the remaining reporting work? Outcome: **Infrastructure**. Result: all 32 report inputs verify at the scheduled coverage checkpoint. Project meaning: preserved completed coverage remains separate from final delivery and unfinished later-stage work. Next engineering obligation: complete final integrity and the single Sunday packet with explicit limits. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_1/COVERAGE_36H.json.
+
+---
+
 ### OPS-HEALTH-4H-FIRST - first recurring health wake delivered and inspected
 
 **Operational question.** Does the recurring health check actually reach the idle owner, and is the queue still in its authorized state?

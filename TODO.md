@@ -51,6 +51,8 @@ archive, kept whole, mined but never deleted.
 
 ## Stage 11.1 commissioned - 2026-09-18
 
+- [x] OPS-S11.1-C36: inspect original coverage marker, all report-input hashes and monitoring; retain final reporting and visual-QA obligations without new inference.
+
 - [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.
 - [x] OPS-S11.1-Q1: select prepared S2/S3 plans from complete initial methods and land all admitted core branch comparisons (L394-L406).
 - [ ] OPS-S11.1-Q1: deliver the single Sunday packet; human illustrations and the internal report draft are prepared.

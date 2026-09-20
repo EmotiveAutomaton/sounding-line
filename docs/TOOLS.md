@@ -228,6 +228,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+The thirty-six-hour checkpoint inspection (OPS-S11.1-C36) verifies the original
+schedule/event binding, all report-input hashes and both native helpers. It adds
+no scientific verdict or inference; final reporting and visual QA remain open.
+
 Recurring health inspection (OPS-HEALTH-4H): opt-in four-hour persisted clock
 runs alongside transition alerts. Only its own documented ACK rearms it; unrelated
 activity cannot defer it. Fake-clock/transport and existing runtime suites pass
