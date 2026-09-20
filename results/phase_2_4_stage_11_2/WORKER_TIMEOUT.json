@@ -1,0 +1,166 @@
+{
+  "M0_remaining_seconds_p90": 76544.13816300672,
+  "all_charge_records_retained": true,
+  "at": "2026-09-20T14:28:50.149132+00:00",
+  "charged_seconds": 26669.13231529991,
+  "completed_calls": 943,
+  "deadline": "2026-09-20T15:00:00+00:00",
+  "entry": "OPS-S11.2-WORKER-TIMEOUT",
+  "failed_interval_seconds": 300.01670359999116,
+  "failure_sha256": "6aa7c9a008d878410f59eeef38726016e5998b68306c16e5e2f93026a12c984a",
+  "final_packet_pending": true,
+  "forecast_limit": "Frozen dispatcher uses admission and complete prediction files, missing slowdown in incomplete cells. Do not restart against stale forecast. Recent call timings are operational only, not scientific scores.",
+  "gear": 2,
+  "gpu_lock_absent": true,
+  "gpu_snapshot": {
+    "temperature_C": 43,
+    "total_MiB": 12282,
+    "used_MiB": 5922,
+    "utilization_percent": 36
+  },
+  "jobs": [
+    {
+      "id": "M0-dev",
+      "original_calls": 1536,
+      "reason": "Transport timeout; unknown request retained; insufficient remaining whole-block capacity",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "failed incomplete"
+    },
+    {
+      "id": "M3-dev",
+      "original_calls": 768,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 99133.0490880087,
+      "status": "not run"
+    },
+    {
+      "id": "M4-dev",
+      "original_calls": 448,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 57827.611968005076,
+      "status": "not run"
+    },
+    {
+      "id": "M0-test",
+      "original_calls": 3072,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 396532.1963520348,
+      "status": "not run"
+    },
+    {
+      "id": "M3-test",
+      "original_calls": 1536,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "not run"
+    },
+    {
+      "id": "M4-test",
+      "original_calls": 896,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 115655.22393601015,
+      "status": "not run"
+    },
+    {
+      "id": "history-dev",
+      "original_calls": 320,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 41305.437120003626,
+      "status": "not run"
+    },
+    {
+      "id": "history-test",
+      "original_calls": 640,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 82610.87424000725,
+      "status": "not run"
+    },
+    {
+      "id": "summary-dev",
+      "original_calls": 256,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 33044.3496960029,
+      "status": "not run"
+    },
+    {
+      "id": "summary-test",
+      "original_calls": 512,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 66088.6993920058,
+      "status": "not run"
+    },
+    {
+      "id": "states-dev",
+      "original_calls": 768,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 99133.0490880087,
+      "status": "not run"
+    },
+    {
+      "id": "states-test",
+      "original_calls": 1536,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "not run"
+    },
+    {
+      "id": "repeat-dev",
+      "original_calls": 128,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 16522.17484800145,
+      "status": "not run"
+    },
+    {
+      "id": "repeat-test",
+      "original_calls": 256,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 33044.3496960029,
+      "status": "not run"
+    }
+  ],
+  "last30_p50": 77.65985370000271,
+  "last30_p90": 129.07949100001133,
+  "maximum_gpu_seconds": 64800,
+  "monitoring": {
+    "checkpoint": {
+      "created_ticks": 134343184080260842,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 20012
+    },
+    "duplicate_missing_terminal_alert": false,
+    "event_delivered_first_attempt": true,
+    "four_hour_health_due_epoch": 1789921215.5530472,
+    "last_scan": 1789914670.6922624,
+    "retired_only_exited_worker_watch": true,
+    "source_sha256": "e7905fec8320fdeaa41fcc33a821d4df2f5145de668da1bbb1d48e927cadfdd8",
+    "watch_error": null,
+    "watcher": {
+      "created_ticks": 134343872989336367,
+      "executable": "C:\\Python313\\pythonw.exe",
+      "pid": 142664
+    }
+  },
+  "native_command_line_inspection": "CIM access denied; native executable/PID/creation-time identities independently checked",
+  "next_action": "Original final checkpoint at 15:00 UTC: deliver both stage packets with complete evidence, incomplete/refused/not-run conditions and final costs. No new inference or synthetic queue COMPLETE.",
+  "no_new_tests_harvested": true,
+  "offline_replay": true,
+  "ollama_inspection": "CLI inventory empty after worker exit; no model stop or other application closure performed",
+  "ollama_resident_models": [],
+  "original_total_calls": 1536,
+  "raw_files_unchanged": 2832,
+  "reason": "Socket response timed out after 300 seconds; worker and wrapper exited.",
+  "remaining_seconds": 1869.855538,
+  "scientific_verdict": false,
+  "smallest_job_calls": 128,
+  "smallest_job_seconds_p90": 16522.17484800145,
+  "smallest_job_seconds_twice_fast_p50": 4970.230636800174,
+  "source_pins": 30,
+  "status": "FAILED_RESOURCE_STOP",
+  "transport_forbidden": true,
+  "uncertain_calls": [
+    "039-1-raw_history-action"
+  ],
+  "uncertain_reservation_seconds": 330,
+  "worker_and_coordinator_exited": true,
+  "worker_failure_at": "2026-09-20T14:20:32.832099+00:00"
+}

@@ -1,5 +1,17 @@
 # Codex operations
 
+## Worker failure delivery verified, 2026-09-20
+
+The surviving Stage 11.2 worker subsequently timed out and exited. Its real
+failure reached the idle owner on the first attempt without a duplicate
+missing-terminal alert. Native identity checks and offline evidence replay pass.
+Only its exited process watch was retired, retaining terminal paths, outbox,
+original checkpoint helper and independent four-hour health clock. Scientific
+inference is stopped by failure and remaining whole-block capacity; Gear 2 is
+unchanged. No watcher reload or source change was needed. Private reconciliation
+is in `.agent-state/stage11-2-worker-timeout-20260920/`; public evidence is
+../results/phase_2_4_stage_11_2/WORKER_TIMEOUT.json.
+
 ## PID-suffixed failure receipt repair, 2026-09-20
 
 The Stage 11.2 coordinator wrote `FAILED-<PID>.json` with time, error and traceback

@@ -1,5 +1,20 @@
 # Stage 11.2 results
 
+Latest inspection: worker failure and resource stop, September 20, 14:20 UTC
+
+The original worker timed out and exited after the coordinator failure. Saved
+calls replay offline, the GPU lock is released, and Ollama subsequently reports
+no loaded model. The neural comparison is incomplete; all later jobs are unstarted.
+Gear 2 remains authorized, but no whole block fits the original deadline at current
+measured rates, including the faster scenario. All failures and uncertainty charges
+remain. No restart uses the frozen dispatcher's stale admission-only forecast.
+Watcher delivery and final-checkpoint helper verify; only the exited worker watch
+is retired. Final reporting remains due at 15:00 UTC / 08:00 PDT, with missing
+coverage and unavailable case roles explicit. See WORKER_TIMEOUT.json in Stage 11.2.
+Earlier dated snapshots below describe the state at their own inspection times.
+
+Historical coordinator inspection follows.
+
 Latest allocation: Gear 2, explicitly resumed September 20. The coordinator's
 six-hour wait has now failed; its original M0 worker survives and advances under
 the unchanged deadline and budget guards. The secondary monitoring error is

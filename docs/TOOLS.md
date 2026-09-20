@@ -228,6 +228,19 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Worker timeout reconciliation (OPS-S11.2-WORKER-TIMEOUT): socket response timeout
+ended the surviving worker; native identities, released lock and subsequent empty
+model inventory verify. All 943 retained calls reconstruct and reparse offline,
+with original roster/cost fields and 2,832 files unchanged. The next unknown
+request refuses retry; both failed service and full uncertainty charge remain.
+Recent timings exclude even the smallest whole successor before the original
+deadline, including the twice-as-fast median scenario. The frozen dispatcher
+omits incomplete-cell timings from its forecast; no stale-forecast restart.
+Original sources remain pinned. First-attempt idle delivery and no duplicate
+missing-terminal alarm verify the repaired watcher on this real worker failure.
+Only the exited worker watch is retired; final checkpoint and health clock remain.
+See WORKER_TIMEOUT.json; the incomplete cell is not scientific evidence.
+
 Coordinator timeout reconciliation (OPS-S11.2-QUEUE-TIMEOUT): the six-hour wait
 expired but its original worker survived and continued writing. Notification
 recognition now accepts the exact statusless positive-PID failure filename with

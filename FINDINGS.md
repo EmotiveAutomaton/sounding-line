@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S11.2-WORKER-TIMEOUT - failed worker and original capacity stop
+
+**Operational question.** Can the surviving comparison finish safely after its coordinator failure, or can another whole authorized block still fit before the fixed deadline?
+
+**METHOD.** Inspect the retained worker and call exceptions, native identities, lock, model inventory and charges. Reconstruct each saved request in the original public roster, reparse every retained response with transport disabled, check cost fields and untouched bytes, and exercise the uncertain-request refusal. Compare recent call timings with the smallest original block and remaining wall time; verify watcher delivery and retire only the exited worker watch.
+
+The table reports execution and evidence integrity, never a score from the unfinished comparison.
+
+| Check | Outcome |
+|---|---|
+| Worker terminal | Socket response timeout at 14:20:32 UTC; worker, coordinator and both wrappers have exited |
+| Retained evidence | All 943 complete calls replay in original roster order; all 2,832 call files unchanged; next request has FAILED and REQUEST only |
+| Unknown attempt | No saved response; automatic retry correctly refuses; failed interval and separate full uncertainty reservation both retained |
+| Resource state | GPU lock absent; subsequent Ollama inventory empty without operator intervention; other GPU use remains |
+| Original limits | Total charged service 26,669.132315 seconds of 64,800; original 15:00 UTC deadline unchanged |
+| Remaining capacity | At 14:28 UTC about 31 minutes remain; smallest whole job projects 83 minutes even at twice recent median speed, or 275 minutes at recent upper timing |
+| Sources and monitoring | Thirty original source pins match; watcher/checkpoint native identities and first-attempt idle delivery verify; no duplicate missing-terminal alert |
+| Queue | Current neural development comparison failed incomplete; thirteen successors unstarted; no synthetic queue completion |
+
+**Found and means.** Scientific inference has stopped after the worker timeout. Saved responses remain valid records, but the comparison is incomplete and supplies no scientific verdict. No remaining whole block fits the original deadline at measured current rates, including the faster scenario. The frozen dispatcher's forecast omits the incomplete cell's slowdown, so restarting it would use stale capacity evidence. Preserve all failures and costs, the original roster and Gear 2 allocation; proceed to the fixed final packet with explicit missing coverage. The watcher and original final-checkpoint helper remain active. No new tests harvested this pass.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can complete authorized work still fit after the worker failure? Outcome: **Infrastructure**. Result: the worker failed and current measured capacity excludes another whole block before the original deadline. Project meaning: incomplete execution is separate from a scientific failure. Next engineering obligation: deliver the final packet with verified complete evidence, missing comparison and case roles, and retained costs. Public claim: unchanged. Curator decision required: No. Detail: [worker failure and capacity receipt](results/phase_2_4_stage_11_2/WORKER_TIMEOUT.json).
+
+---
+
 ### OPS-S11.2-QUEUE-TIMEOUT - coordinator timeout with surviving worker
 
 **Operational question.** Did the queue failure terminate scientific work, and can supervision preserve the surviving authorized work without duplicate dispatch or lost evidence?
