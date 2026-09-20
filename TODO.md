@@ -7,6 +7,8 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+- [x] OPS-S11.2-G2-HEALTH: verify live but slowed worker, resources, source pins and budget; update forecast and retain incomplete-cell/final-deadline obligations. No other application was closed.
+
 **Latest allocation: Gear 2, explicitly resumed September 20.** The unchanged
 finite dispatcher is advancing retained M0 development; prior Gear 1 snapshots
 below are historical. Recovery preserves original request/metadata and charges.

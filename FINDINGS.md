@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S11.2-G2-HEALTH - live but slowed queue near reporting
+
+**Operational question.** Is the resumed queue still making progress, and can its current block fit the remaining appointment window?
+
+**METHOD.** Verify coordinator/worker identity, fresh output timestamps, owned GPU lock, original source pins, cumulative charges, loaded checkpoint and current GPU/cooling state. Estimate remaining time from recent call durations only; inspect no unfinished scientific scores.
+
+The table reports execution health and timing, not method performance.
+
+| Check | Outcome |
+|---|---|
+| Liveness | Original resumed coordinator and worker alive; new outputs continue; watcher has no error |
+| Integrity and budget | Original thirty source pins match; charges remain within the original ceiling |
+| Resources | Model resident on GPU; GPU memory nearly full and utilization high; cooling settings retained |
+| Recent timing | Median call duration about 54 seconds; current remainder projects beyond the original final appointment |
+| Scientific state | Current development cell still incomplete; no new comparison has landed |
+| Response | Preserve work and current guards; no request/scoring change, deadline extension or unauthorized application closure |
+
+**Found and means.** This is a material throughput slowdown, not a dead queue. At current rates the active block will not finish before the Sunday appointment. Retain incomplete coverage and all charges in final reporting; unused service capacity cannot extend the deadline or reduce the roster. Potential resource release outside this project's processes requires separate permission if it could discard user application state. Gear 2 and the original reporting clock remain. No new research tests harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the resumed queue on course for a complete block? Outcome: **Infrastructure**. Result: the worker advances but recent throughput projects beyond the fixed appointment. Project meaning: final coverage may remain incomplete despite live computation. Next engineering obligation: preserve uncertainty and costs, attend reporting and any actual failure, recover only within existing authority. Public claim: unchanged. Curator decision required: No scientific decision; possible user-application closure is a separate operational permission. Detail: results/phase_2_4_stage_11_2/GEAR2_HEALTH.json.
+
+---
+
 ### OPS-S11.2-G2-RESUME - owner-requested Gear 2 continuation
 
 **Operational question.** Can the paused original queue resume with preserved evidence and honest interruption accounting inside its original deadline and ceiling?

@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Gear 2 health update - September 20, 12:18 UTC
+
+The coordinator and M0-development worker remain alive with fresh outputs, but
+recent call durations have risen substantially. The current block now projects
+beyond the original 15:00 UTC appointment; it is still incomplete. Model residency,
+source pins, owned lock, accounting and cooling verify. GPU memory is nearly full.
+No protocol, roster, deadline or allocation changes are made. Reporting begins
+at 13:00 UTC; retain incomplete coverage if it cannot finish. See GEAR2_HEALTH.json
+(OPS-S11.2-G2-HEALTH). Earlier 2-4 hour estimates below are superseded.
+
 ## Gear 2 resumed by owner - 2026-09-20
 
 The explicit Gear 2 request supersedes the Gear 1 handoffs below. The original

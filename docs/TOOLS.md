@@ -228,6 +228,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Gear 2 health inspection (OPS-S11.2-G2-HEALTH): actual native identities and fresh
+outputs verify, with unchanged scientific sources and bounded charges. Recent
+throughput is materially slower and projects beyond the final appointment; high
+GPU utilization and nearly full memory are observed, not proof of a single cause.
+No live scientific code or user application was changed.
+
 Gear 2 resumption (OPS-S11.2-G2-RESUME): saved calls replay and the interrupted
 request's refusal verifies before explicit reconciliation. Original request and
 native/source metadata are archived with path/hash lineage, retaining the full
