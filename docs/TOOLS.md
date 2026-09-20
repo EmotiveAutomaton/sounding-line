@@ -228,6 +228,15 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Coordinator timeout reconciliation (OPS-S11.2-QUEUE-TIMEOUT): the six-hour wait
+expired but its original worker survived and continued writing. Notification
+recognition now accepts the exact statusless positive-PID failure filename with
+nonempty string time/error/traceback fields. The reproduced duplicate alert
+fails before repair; all 132 monitoring tests pass afterward. Live isolated
+watcher reload verifies current source, preserved events and health schedule,
+with worker/checkpoint identities and scientific sources unchanged. Original
+failure records remain; no scientific completion or successor dispatch is implied.
+
 Reporting-start inspection (OPS-S11.1-REPORTING): original schedule and delivered
 marker match; all 32 report inputs, scientific sources and Stage 11.1 charges
 verify. Existing viewer reentry replays twelve source projections and 392 calls;

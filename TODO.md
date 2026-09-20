@@ -7,11 +7,15 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+- [x] OPS-S11.2-QUEUE-TIMEOUT: reconcile the actual coordinator timeout and surviving worker, reproduce/repair PID-suffixed failure recognition, verify 132 monitoring checks and isolated watcher reload with events and schedules preserved.
+- [ ] OPS-S11.2-QUEUE-TIMEOUT: land the surviving worker's actual terminal outcome and final charges; keep missing cells explicit in the original Sunday packet. No replacement coordinator while this worker survives.
+
 - [x] OPS-S11.2-G2-HEALTH: verify live but slowed worker, resources, source pins and budget; update forecast and retain incomplete-cell/final-deadline obligations. No other application was closed.
 
 **Latest allocation: Gear 2, explicitly resumed September 20.** The unchanged
-finite dispatcher is advancing retained M0 development; prior Gear 1 snapshots
-below are historical. Recovery preserves original request/metadata and charges.
+finite dispatcher's six-hour wait has failed; its original M0 worker survives
+and advances under the original guards. Prior Gear 1 snapshots below are
+historical. Recovery preserves original request/metadata and charges.
 Original deadline and whole-block capacity guard remain; see GEAR2_RESUME.json.
 
 - [x] OPS-S11.2-G2-RESUME: replay preserved calls, reconcile unknown request with retained charge and exact archive, launch original queue and verify real progress plus native supervision.

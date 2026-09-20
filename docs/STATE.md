@@ -1,5 +1,19 @@
 # STATE: the agent's operational file
 
+## Coordinator timeout - September 20, 14:09 UTC
+
+The original coordinator and wrapper exited after the six-hour child wait.
+The original M0 development worker survives with fresh output and its GPU lock.
+Gear 2, scientific sources, per-call ceiling and 15:00 UTC deadline are unchanged.
+No duplicate coordinator is started. The secondary missing-terminal alert was
+false because the PID-suffixed failure schema was unrecognized; its narrow
+monitoring repair passes 132 tests and is loaded in the new sole watcher.
+Only the exited coordinator watch was retired; worker and checkpoint supervision,
+both original events and the four-hour health deadline remain. Final packet
+drafts must retain the actual coordinator failure, incomplete neural cell and
+unstarted successors. Inspect the worker's own terminal and final charges next.
+See COORDINATOR_TIMEOUT.json (OPS-S11.2-QUEUE-TIMEOUT).
+
 ## Reporting started - September 20, 13:00 UTC
 
 The original reporting checkpoint is inspected (OPS-S11.1-REPORTING). All bound

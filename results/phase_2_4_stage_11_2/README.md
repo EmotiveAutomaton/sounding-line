@@ -1,7 +1,10 @@
 # Stage 11.2 results
 
-Latest allocation: Gear 2, explicitly resumed September 20. The original finite
-queue is advancing after exact interrupted-request reconciliation. See
+Latest allocation: Gear 2, explicitly resumed September 20. The coordinator's
+six-hour wait has now failed; its original M0 worker survives and advances under
+the unchanged deadline and budget guards. The secondary monitoring error is
+repaired; see [timeout reconciliation](COORDINATOR_TIMEOUT.json). No replacement
+dispatcher is launched while this worker survives. Earlier recovery is in
 GEAR2_RESUME.json; recovery lineage stays in ignored raw/recovery/. Completed
 calls, original uncertain charge, scientific code and original deadline remain.
 Earlier Gear 1 statements below describe the retained historical handoff.

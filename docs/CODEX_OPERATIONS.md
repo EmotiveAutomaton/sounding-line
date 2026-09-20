@@ -1,5 +1,26 @@
 # Codex operations
 
+## PID-suffixed failure receipt repair, 2026-09-20
+
+The Stage 11.2 coordinator wrote `FAILED-<PID>.json` with time, error and traceback
+but no status field. The watcher detected its exit yet incorrectly reported no
+terminal output. The original exception and secondary alert are retained.
+Notification recognition now accepts that exact positive-PID filename and
+statusless nonempty string field shape; explicitly running or incomplete records
+and malformed shapes still fail. This does not admit a scientific result.
+
+All 132 affected monitoring checks pass. Only the owned watcher was reloaded;
+current source, native identity and fresh scanning verify, with both queued
+events, four-hour health deadline and scientific worker/checkpoint identities
+preserved. Only the exited coordinator watch was retired. Earlier loaded watcher
+hashes below are historical. The actual worker remains bounded by its original
+deadline and budget; the failed coordinator is not restarted alongside it.
+Receipt: ../results/phase_2_4_stage_11_2/COORDINATOR_TIMEOUT.json.
+Private source/test/config backups and reload evidence are under
+`.agent-state/stage11-2-coordinator-timeout-20260920/`. Rollback restores only
+those reviewed monitoring files after watcher exit, preserving evidence,
+outbox, current worker ownership and later configuration changes.
+
 ## Current waiting policy, 2026-09-19
 
 The owner now requests a queue-health inspection every four hours. Private

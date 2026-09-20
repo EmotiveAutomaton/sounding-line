@@ -72,3 +72,36 @@ def test_invalid_terminal_does_not_hide_disappearance(context, monkeypatch, reco
     monkeypatch.setattr(watch, 'native_identity', lambda pid: None)
     watch.scan(cfg, repo=repo, state=state, now=10)
     assert (repo/cfg['process_watches'][0]['failure_output']).exists()
+
+
+@pytest.mark.parametrize('name,changes,expected', [
+    ('FAILED-123.json', {}, True),
+    ('FAILED-worker.json', {}, False),
+    ('FAILED-0.json', {}, False),
+    ('FAILED-123.json.tmp', {}, False),
+    ('FAILED-123.json', {'error': None}, False),
+    ('FAILED-123.json', {'error': ''}, False),
+    ('FAILED-123.json', {'traceback': []}, False),
+    ('FAILED-123.json', {'at': None}, False),
+    ('FAILED-123.json', {'status': 'running'}, False),
+    ('FAILED-123.json', {'status': 'incomplete'}, False),
+])
+def test_pid_failure_receipt_owns_only_its_terminal_notification(context, monkeypatch, name, changes, expected):
+    """The coordinator's real statusless failure shape must not become a missing-output alarm."""
+    repo, state, cfg, native = context
+    record = {'at': '2026-09-20T14:09:46.291625+00:00',
+              'error': 'TimeoutExpired(worker, 21600)',
+              'traceback': 'Traceback: child.wait(timeout=21600) raised TimeoutExpired',
+              'dispositions': []}
+    record.update(changes)
+    (repo/'job').mkdir()
+    terminal = 'job/'+name
+    (repo/terminal).write_text(json.dumps(record))
+    cfg['paths'] = [terminal]
+    cfg['process_watches'][0]['terminal_paths'] = [terminal]
+    monkeypatch.setattr(watch, 'native_identity', lambda pid: None)
+    events = watch.scan(cfg, repo=repo, state=state, now=10)
+    fault = repo/cfg['process_watches'][0]['failure_output']
+    assert fault.exists() is not expected
+    assert len(events) == (1 if expected else 2)
+    assert watch.urgent({'path': terminal}, cfg)

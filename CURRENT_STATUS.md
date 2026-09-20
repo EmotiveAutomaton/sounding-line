@@ -1,5 +1,14 @@
 # Current status
 
+## Coordinator timeout - September 20, 14:09 UTC
+
+The coordinator timed out; its original scientific worker remains alive and
+advancing in Gear 2 under the original deadline and budget guards. No duplicate
+dispatcher was launched. The secondary missing-terminal monitoring error is
+repaired and live-verified, with all 132 affected checks passing. The active
+comparison remains incomplete. Final reporting is still due at 08:00 PDT.
+See [timeout reconciliation](results/phase_2_4_stage_11_2/COORDINATOR_TIMEOUT.json).
+
 ## Reporting started - September 20, 13:00 UTC
 
 The reporting checkpoint is inspected and both stage drafts are prepared.

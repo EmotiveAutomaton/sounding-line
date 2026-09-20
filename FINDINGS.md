@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S11.2-QUEUE-TIMEOUT - coordinator timeout with surviving worker
+
+**Operational question.** Did the queue failure terminate scientific work, and can supervision preserve the surviving authorized work without duplicate dispatch or lost evidence?
+
+**METHOD.** Match both delivered event hashes to the retained coordinator exception and native-monitor records. Verify coordinator/wrapper absence, surviving worker/wrapper identities, later fresh output, owned GPU lock, original sources and cumulative charges. Inspect the exact wait and terminal-recognition paths. Reproduce the PID-suffixed receipt defect in an isolated transition fixture, repair notification recognition, run the affected monitoring suites, and reload only the owned watcher with its outbox and schedule preserved.
+
+The table separates actual execution failure from the secondary monitoring error; it reports no unfinished scientific score.
+
+| Check | Outcome |
+|---|---|
+| Coordinator | Original six-hour child wait timed out at 14:09:46 UTC; coordinator and its wrapper exited |
+| Scientific worker | Original worker and wrapper survive; outputs advance after the coordinator exit; GPU lock remains correctly owned |
+| Secondary alert | The exit is real, but its missing-terminal claim is false: a retained statusless PID-suffixed failure receipt was not recognized |
+| Monitoring repair | Reproduction fails before the patch; all 132 affected checks pass afterward, including malformed and unfinished-record refusals |
+| Live reload | New watcher source and native identity verify; both queued events, worker/checkpoint identities and four-hour health deadline preserved |
+| Scientific integrity | Original thirty source pins match; charges remain within the original ceiling; no neural cell is complete |
+| Recovery | Retire only the exited coordinator watch; retain the surviving worker under original per-call deadline and budget guards |
+
+**Found and means.** The coordinator failed while its worker continued. The monitor's secondary missing-output diagnosis was incorrect and is repaired without changing scientific sources. Both original failure records and all charges remain. No replacement dispatcher is launched while the original worker owns the GPU; no roster, timeout, scoring rule, deadline or gear is changed. The active comparison remains incomplete and later jobs have not started. Land its actual terminal outcome and final costs before the fixed Sunday packet; do not synthesize COMPLETE or interpret partial cells. No new scientific tests harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can a coordinator failure be reconciled without losing or duplicating its worker? Outcome: **Infrastructure**. Result: the worker survives under verified supervision and the secondary terminal-recognition defect is repaired. Project meaning: execution failure, missing coverage and monitoring error remain separate. Next engineering obligation: inspect the worker's actual terminal outcome and report final coverage and charges at the original appointment. Public claim: unchanged. Curator decision required: No. Detail: [timeout and supervision receipt](results/phase_2_4_stage_11_2/COORDINATOR_TIMEOUT.json).
+
+---
+
 ### OPS-S11.1-REPORTING - scheduled final-packet preparation
 
 **Operational question.** Are the completed evidence and reporting instruments ready for the original final appointment while the later-stage queue continues within its bounds?

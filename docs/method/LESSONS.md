@@ -649,6 +649,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
   the actual completion representation alongside running, incomplete and invalid
   records, and verify the reloaded watcher without restarting science.
   (2026-09-19, OPS-S11.2-I5, tests/test_codex_transition_watch.py)
+  The coordinator's statusless `FAILED-<PID>.json` later exposed the filename
+  half of the same contract. Exercise exact emitted failure names and fields,
+  retaining malformed and explicitly unfinished refusals. A wait timeout can
+  exit the parent while leaving its child alive; verify both native identities
+  before retrying or releasing a GPU lock. (2026-09-20, OPS-S11.2-QUEUE-TIMEOUT)
 
 - **Partial completion receipts must reproduce their saved result before new calls.**
   A valid nested file inventory did not prevent a modified unit result/profile

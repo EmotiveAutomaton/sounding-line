@@ -3,6 +3,9 @@
 This is execution readiness, not a ranking of unfinished scientific cells.
 Current Gear 2 by explicit owner resumption on September 20. The original M0
 development worker is advancing but remains incomplete at reporting start.
+Its coordinator subsequently timed out at 14:09 UTC; the original worker
+survives under the original deadline and budget guards. Later jobs have not
+started, and no replacement dispatcher is launched while it survives.
 The prior Gear 1 pause, saved calls and interrupted reservation are retained;
 exact charged reconciliation is recorded in GEAR2_RESUME.json. All service and
 failures still share the original 18 cumulative GPU hours. The fixed deadline is September 20, 2026, 15:00 UTC;

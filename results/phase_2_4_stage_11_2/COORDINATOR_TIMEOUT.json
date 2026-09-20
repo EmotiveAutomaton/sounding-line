@@ -1,0 +1,66 @@
+{
+  "entry": "OPS-S11.2-QUEUE-TIMEOUT",
+  "at": "2026-09-20T14:15:58.480086+00:00",
+  "status": "RECONCILED_WORKER_CONTINUES",
+  "scientific_verdict": false,
+  "gear": 2,
+  "primary_failure": {
+    "path": "results/phase_2_4_stage_11_2/raw/queue/QUEUE-repair-v1/FAILED-104536.json",
+    "sha256": "864d7ed8caba4db98e179e70cf2074b35d4438a38ba3a584ef7038ba45ee8f85",
+    "at": "2026-09-20T14:09:46.291625+00:00",
+    "reason": "Original coordinator child.wait exceeded 21600 seconds; coordinator and wrapper exited."
+  },
+  "secondary_monitor": {
+    "path": ".agent-state/process-transitions/stage11-2-gear2-resume-queue/FAILED.json",
+    "sha256": "27c7cb19be3d6820b26d68395c620f10f0317a6a3e5660f8671cd9464da06fb9",
+    "disposition": "Exit is real, but missing-terminal claim is false: existing PID-suffixed failure schema was not recognized. Original alert retained."
+  },
+  "worker": {
+    "pid": 106092,
+    "created_ticks": 134343653852714164,
+    "executable": "C:\\Python313\\python.exe"
+  },
+  "worker_status": {
+    "at": "2026-09-20T14:15:32.680523+00:00",
+    "completed": 943,
+    "encounter": 1,
+    "unit": "dev-0039"
+  },
+  "worker_survived_coordinator": true,
+  "gpu_lock_owned": true,
+  "scientific_source_pins_verified": 30,
+  "completed_neural_cells": [],
+  "charged_seconds_snapshot": 26369.11561169992,
+  "maximum_gpu_seconds": 64800,
+  "deadline": "2026-09-20T15:00:00+00:00",
+  "recovery": "Retired only exited coordinator watch. Existing worker and per-call deadline/service guards continue; no new dispatcher or model calls launched. Keep original job order and incomplete coverage.",
+  "monitoring": {
+    "tests_before": {
+      "failed": 1,
+      "passed": 29
+    },
+    "tests_after": {
+      "passed": 132,
+      "failed": 0
+    },
+    "repair": "Recognize positive-PID FAILED filename with statusless nonempty string time/error/traceback fields; malformed and explicitly unfinished records remain rejected.",
+    "original_watcher_exited": true,
+    "watcher": {
+      "pid": 142664,
+      "created_ticks": 134343872989336367,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "source_sha256": "e7905fec8320fdeaa41fcc33a821d4df2f5145de668da1bbb1d48e927cadfdd8",
+    "live_scan_verified": true,
+    "native_checkpoint_unchanged": true,
+    "events_preserved": true,
+    "events_delivered_first_attempt": true,
+    "watch_error": null,
+    "four_hour_health_due_epoch": 1789921215.5530472,
+    "retired_watch": "stage11-2-gear2-resume-queue"
+  },
+  "final_packet_pending": true,
+  "no_new_scientific_tests_harvested": true,
+  "no_scientific_source_changes": true,
+  "next_action": "Inspect existing worker terminal and final charges; no duplicate dispatch. At final appointment report actual incomplete/not-run roster without synthetic COMPLETE or partial-cell scores."
+}

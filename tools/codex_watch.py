@@ -167,8 +167,15 @@ def valid_json(path):
         # Producers use both uppercase and lowercase terminal states. This is
         # notification ownership only, never scientific admission or acceptance.
         status = record.get("status")
+        # Finite coordinators retain PID-suffixed, statusless exception receipts.
+        # Recognize that exact filename/field shape without accepting a running
+        # record, arbitrary error log or malformed exception as a terminal.
+        pid_failure = (re.fullmatch(r"FAILED-[1-9][0-9]*\.json", path.name) is not None
+                       and "status" not in record
+                       and all(isinstance(record.get(key), str) and bool(record[key])
+                               for key in ("at", "error", "traceback")))
         return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
-                or (path.name == "FAILED.json" and "error" in record))
+                or (path.name == "FAILED.json" and "error" in record) or pid_failure)
     except (ValueError, OSError):
         return False
 
