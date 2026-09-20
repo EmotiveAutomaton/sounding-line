@@ -1,0 +1,45 @@
+{
+  "entry": "OPS-S11.2-G2-RESUME",
+  "at": "2026-09-20T08:11:37.010358+00:00",
+  "gear": 2,
+  "authority": "Explicit user request September 20 to resume Gear 2 and finish ahead of schedule",
+  "original_completed_calls_replayed": 464,
+  "interrupted_call": "019-1-persistent-action",
+  "replacement_completed": true,
+  "original_request_native_source_archived_unchanged": true,
+  "completed_calls_preserved": true,
+  "original_uncertain_reservation_retained_seconds": 330,
+  "before_charged_seconds": 4167.417318199819,
+  "current_charged_seconds": 4601.4495974998135,
+  "maximum_gpu_seconds": 64800,
+  "deadline": "2026-09-20T15:00:00+00:00",
+  "reporting_starts": "2026-09-20T13:00:00+00:00",
+  "model_fully_in_vram_observed": true,
+  "worker_progress": {
+    "at": "2026-09-20T08:11:31.564587+00:00",
+    "completed": 474,
+    "encounter": 2,
+    "unit": "dev-0019"
+  },
+  "native_coordinator_and_worker_verified": true,
+  "science_sources_unchanged": true,
+  "workflow": "Original fourteen-job order, literal request/parser/scorer and conservative whole-block capacity guard; no sample expansion",
+  "full_queue_estimate": "About ten hours at earlier admission median; under seven hours remained at resume, so all blocks are unlikely to fit. Estimates are conditional, not completion guarantees.",
+  "health_cadence_seconds": 14400,
+  "cooling": "AC boost disabled and processor maximum 90 percent retained",
+  "no_new_research_tests_harvested": true,
+  "scientific_verdict": false,
+  "earlier_block_estimate_seconds": {
+    "median": 4617.484024008503,
+    "p90_rate_scenario": 8090.732914557192
+  },
+  "first_resumed_rate_sample": {
+    "calls": 24,
+    "first_reload_call_excluded": true,
+    "median_seconds": 7.825251949998346,
+    "p90_seconds": 13.021128110001154
+  },
+  "current_block_estimate": "Roughly 2-4 hours at first resumed rates; small timing sample, conditional on resources and prompt mix.",
+  "offline_stage_tests_passed": 20,
+  "locks_passed": 21
+}

@@ -1,10 +1,16 @@
 # Stage 11.2 results
 
+Latest allocation: Gear 2, explicitly resumed September 20. The original finite
+queue is advancing after exact interrupted-request reconciliation. See
+GEAR2_RESUME.json; recovery lineage stays in ignored raw/recovery/. Completed
+calls, original uncertain charge, scientific code and original deadline remain.
+Earlier Gear 1 statements below describe the retained historical handoff.
+
 Gear 1 resumed after restart: original checkpoint and watcher helpers are active.
 See GEAR1_RESUME.json; RESTART_HANDOFF.json preserves the completed halt.
 
 Operative study: docs/design/PHASE_2_4_STAGE_11_2_CONTEXT.md, filed unchanged.
-Current Gear 1: sustained GPU queue paused by the owner; local model unloaded.
+Historical Gear 1: sustained GPU queue paused by the owner; local model unloaded.
 Light CPU work is limited to two threads. Original 18-hour service ceiling and
 Sunday 15:00 UTC deadline remain. See GEAR1_HANDOFF.json for retained progress
 and the interrupted-call reconciliation required before a future authorized resume.

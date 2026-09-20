@@ -228,6 +228,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Gear 2 resumption (OPS-S11.2-G2-RESUME): saved calls replay and the interrupted
+request's refusal verifies before explicit reconciliation. Original request and
+native/source metadata are archived with path/hash lineage, retaining the full
+uncertain charge. New native coordinator/worker and real advancing calls verify;
+scientific code and original finite queue remain unchanged. Terminal supervision
+and recurring health checks remain active; original deadline still governs.
+
 The thirty-six-hour checkpoint inspection (OPS-S11.1-C36) verifies the original
 schedule/event binding, all report-input hashes and both native helpers. It adds
 no scientific verdict or inference; final reporting and visual QA remain open.

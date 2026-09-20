@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## Gear 2 resumed by owner - 2026-09-20
+
+The explicit Gear 2 request supersedes the Gear 1 handoffs below. The original
+fourteen-job Stage 11.2 dispatcher is running again, beginning with the retained
+M0 development block. Completed calls replay; the unknown request and old
+native/source metadata are archived with exact hashes, its full reservation
+retained, and one replacement attempt has completed. Later calls are advancing.
+Original scientific code, job order, ceiling and Sunday deadline remain unchanged.
+Native coordinator/worker and terminal outputs are supervised; four-hour health
+checks continue. AC boost remains disabled and processor maximum 90 percent.
+
+The remaining development block is roughly two to four hours at the first
+resumed-call rates, slower than before the pause. The whole queue is unlikely to fit before 15:00 UTC; the original
+whole-block guard governs which jobs run, without reduced rosters or extra time.
+Stage 11.1's admitted inference is complete. Reporting begins at 13:00 UTC and
+the single final appointment remains 15:00 UTC. See GEAR2_RESUME.json
+(OPS-S11.2-G2-RESUME). Earlier Gear 1 snapshots below are historical.
+
 ## Four-hour queue-health inspections - 2026-09-19
 
 First inspection completed September 20 at 00:12 UTC: actual idle delivery is

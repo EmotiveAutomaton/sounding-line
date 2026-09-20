@@ -7,6 +7,14 @@
 
 ## Stage 11.2 commissioned - 2026-09-19
 
+**Latest allocation: Gear 2, explicitly resumed September 20.** The unchanged
+finite dispatcher is advancing retained M0 development; prior Gear 1 snapshots
+below are historical. Recovery preserves original request/metadata and charges.
+Original deadline and whole-block capacity guard remain; see GEAR2_RESUME.json.
+
+- [x] OPS-S11.2-G2-RESUME: replay preserved calls, reconcile unknown request with retained charge and exact archive, launch original queue and verify real progress plus native supervision.
+
+
 - [x] OPS-S11.2-G1-AUDIT: reconstruct all retained calls offline, verify original roster order, saved parse/cost fields and unchanged files, and exercise the interrupted-call refusal without inference. Visual browser QA remains unavailable.
 
 **Gear 1 resumed after restart:** original checkpoint helper and watcher are
@@ -24,7 +32,7 @@ service ceiling and Sunday deadline remain. No new scientific light job is
 eligible now; reporting stays open. This supersedes earlier Gear 2 availability.
 
 - [x] OPS-S11.2-G1: verify exact owned exits, unload local model and release its lock; preserve completed calls, interrupted reservation and expected monitoring alerts.
-- [ ] OPS-S11.2-G1: keep sustained GPU jobs parked; reconcile the retained unfinished request before any later authorized resume, with no blind retry or budget/deadline reset.
+- [x] OPS-S11.2-G1: parked until explicit Gear 2 resumption; interrupted request reconciled in OPS-S11.2-G2-RESUME with original evidence/charge retained and no budget/deadline reset.
 - [x] OPS-S11.2-I5: reconcile delayed C24 and false admission-disappearance alert; repair terminal-status recognition, pass 109 watcher checks and verify isolated live watcher reload.
 - [x] S11.2-I1: theory/method orientation, finite fixture, known-answer/privacy/accounting tests, first literal activation timing pilot; original source filed unchanged.
 - [x] L409 / M0: complete and semantically replay exact development comparison, preserving full-history equality and programmed-context limits.

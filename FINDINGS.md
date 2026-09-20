@@ -5,7 +5,32 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-19.**
+**Last updated: 2026-09-20.**
+
+---
+
+### OPS-S11.2-G2-RESUME - owner-requested Gear 2 continuation
+
+**Operational question.** Can the paused original queue resume with preserved evidence and honest interruption accounting inside its original deadline and ceiling?
+
+**METHOD.** Replay the saved requests and responses offline and exercise the uncertain-call refusal. Verify native exit, original source pins and local model identity. Archive the exact interrupted request and old native/source metadata with an explicit path/hash manifest, retain its full reservation, and permit one fresh attempt in the same logical roster position. Launch the unchanged finite dispatcher, bind new coordinator/worker identities and terminal outputs, then verify actual replacement completion and later progress.
+
+The table reports resumption validity and conditional timing, without partial scientific scores.
+
+| Check | Outcome |
+|---|---|
+| Saved progress | All 464 completed calls replay; completed call records retained |
+| Validation | All 20 Stage 11.2 checks, including complete fake queue/packet/reentry, and 21 locks pass |
+| Interrupted attempt | Original request and metadata archived byte for byte; full 330-second charge retained; replacement completed with the exact same request |
+| Scientific protocol | Original request, model, parser, scorer, job order and whole-block admission guard unchanged |
+| Execution | New coordinator and worker verified alive; real calls advancing; model fully resident on GPU |
+| Allocation | Gear 2 explicitly authorized; AC boost-off/90-percent maximum and original service ceiling/deadline retained |
+| Timing | Current development remainder roughly two to four hours at first resumed-call rates; full queue exceeds remaining time at the earlier median |
+| Monitoring | Native coordinator/worker and all fourteen final produces registered; four-hour health cadence retained |
+
+**Found and means.** Gear 2 continuation is running. Stage 11.1 finished its admitted inference early, but Stage 11.2 is not ahead of schedule: the pause left more prepared work than is likely to fit before the original Sunday appointment. The unchanged dispatcher records blocks that cannot fit as not run; it does not shorten rosters or extend the clock. Future uncertainty still refuses automatic retry. Recovery lineage is retained under raw/recovery/gear2-resume-20260920; final reporting must include original and replacement costs. No new research tests were harvested.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can paused work resume without erasing uncertainty? Outcome: **Infrastructure**. Result: the original queue resumes in Gear 2 with preserved evidence and charged recovery. Project meaning: new complete cells can land inside the original bounds; no claim of early full completion. Next engineering obligation: land each completed comparison and report incomplete/not-run work at the final appointment. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/GEAR2_RESUME.json.
 
 ---
 
