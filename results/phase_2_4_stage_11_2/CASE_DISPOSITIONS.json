@@ -1,0 +1,66 @@
+{
+  "available": 0,
+  "collector_refusal": "PASS: absent actual terminal queue refuses collection before inference/scoring",
+  "required_minimum": 6,
+  "roles": [
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "useful reconstruction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "wrong plausible reconstruction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "selective prompt intervention",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "nonselective prompt intervention",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "context correction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "unresolved case",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "rules": {
+    "correction": "corrected-context expected Brier lower than wrong-context on same unit/encounter",
+    "nonselective": "reader-only belief changes despite unchanged target",
+    "roles": [
+      "useful reconstruction",
+      "wrong plausible reconstruction",
+      "selective prompt intervention",
+      "nonselective prompt intervention",
+      "context correction",
+      "unresolved case"
+    ],
+    "scope": "prompt interventions are distinct from unperformed activation interventions; fallback never asserts the missing effect",
+    "selection": "First distinct unit by stable identifier satisfying each predicate; fallback first unused reference case with absent role explicitly labeled",
+    "selective": "maker-observation belief argmax changes correctly while reader-only belief matches correct raw belief",
+    "timing": "frozen before complete neural scientific cells; development used only if corresponding test cell unavailable",
+    "unresolved": "largest Shannon entropy among remaining valid forecasts; uncertainty is not calibration",
+    "useful": "persistent expected Brier lower than raw history on same unit/encounter",
+    "version": 1,
+    "wrong": "modal action wrong with maximum elicited probability at least .5"
+  },
+  "rules_sha256": "090340ea6a9077941adbc4079ffa2e3b02b0badd68460b3419f5c04cf93f0d68",
+  "status": "REQUIRED_CASE_QUOTA_UNMET",
+  "synthetic_complete": false
+}

@@ -1,5 +1,8 @@
 # Stage 11.2 branch ledger
 
+Final dispositions are in [FINAL_BRANCHES.md](FINAL_BRANCHES.md); the original
+window has ended. The following readiness ledger is historical.
+
 This is execution readiness, not a ranking of unfinished scientific cells.
 Latest: the worker timed out at 14:20 UTC and exited; its incomplete development
 cell and all unstarted successors are retained in WORKER_TIMEOUT.json. Recent

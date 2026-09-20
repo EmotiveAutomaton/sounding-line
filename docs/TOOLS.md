@@ -228,6 +228,17 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Final packet integrity (OPS-S11-FINAL): all bound Stage 11.1 inputs/sources/costs
+verify; twelve source projections and retained viewer calls replay, and 6,901
+interaction checks pass. Chrome is now available but URL policy blocks the local
+file; visual QA remains explicitly unperformed. All four complete Stage 11.2
+program blocks replay unchanged. Its incomplete neural evidence and charges remain
+intact, and the unchanged collector refuses the missing actual queue terminal.
+Complete-only matrices and all unavailable case roles are published separately;
+no full scientific acceptance or synthetic COMPLETE is claimed. Both fixed terminal
+events and normal helper/wrapper exit verify; only the exited checkpoint watch was
+retired. All 21 locks hold; no scientific sources or monitoring code changed.
+
 Worker timeout reconciliation (OPS-S11.2-WORKER-TIMEOUT): socket response timeout
 ended the surviving worker; native identities, released lock and subsequent empty
 model inventory verify. All 943 retained calls reconstruct and reparse offline,

@@ -1,0 +1,213 @@
+{
+  "all_commission_requirements_met": false,
+  "artifacts": {
+    "results\\phase_2_4_stage_11_2\\CASE_DISPOSITIONS.json": "d8599a299128bca706c41a0e0472c207cd064d840545026c302657edd69be840",
+    "results\\phase_2_4_stage_11_2\\COMPARISONS.json": "79aeb782333da01205b23f7a07e18d71626c3c7d42dfa1dbe76b28263d07416c",
+    "results\\phase_2_4_stage_11_2\\FINAL_BRANCHES.md": "c5d2010feebf3503f0ba629adf1ea4a02b4c42f0dd1f62a36e648134ee9e5c15",
+    "results\\phase_2_4_stage_11_2\\REPORT.md": "90278761ba3ae9f8d16ec1679c91589492c38129ae621ba79d5f80c3432b8c01"
+  },
+  "at": "2026-09-20T15:12:43.035284+00:00",
+  "available_neural_cases": 0,
+  "charged_seconds": 26669.13231529991,
+  "checkpoint_events": [
+    {
+      "attempts": 1,
+      "delivered_at": 1789916433.426016,
+      "digest": "498592a77535732159a1fa8b9e0d92551cd08318895c36f953f1c90a422d60d3",
+      "id": "529e0533e1df002426ea15ee",
+      "path": "results/phase_2_4_stage_11_1/raw/continuation/checkpoints/EXIT-20012.json"
+    },
+    {
+      "attempts": 1,
+      "delivered_at": 1789916433.4260786,
+      "digest": "35d8d5df9a76b9c020bc195c579c01bbc52a17f4613a43a4d2bd557c9b784fd6",
+      "id": "34cee787e1c72dcee43c7b60",
+      "path": "results/phase_2_4_stage_11_1/raw/continuation/checkpoints/final-checkpoint.json"
+    }
+  ],
+  "checkpoint_helper_exited_normally": true,
+  "collector_refusal": "PASS: absent actual terminal queue refuses collection before inference/scoring",
+  "complete_block_files_unchanged": 16,
+  "completed_exact_blocks": [
+    {
+      "kind": "exact",
+      "rows": 3328,
+      "split": "dev"
+    },
+    {
+      "kind": "revision",
+      "rows": 768,
+      "split": "dev"
+    },
+    {
+      "kind": "exact",
+      "rows": 6656,
+      "split": "test"
+    },
+    {
+      "kind": "revision",
+      "rows": 1536,
+      "split": "test"
+    }
+  ],
+  "curator_acceptance": "not inferred",
+  "due": "2026-09-20T15:00:00+00:00",
+  "entry": "OPS-S11-FINAL",
+  "execution_window_closed": true,
+  "health_due_epoch": 1789921215.5530472,
+  "historical_source_limit": "Two unused Ollama source inventory mismatches in cached 3B admission retained; executed HF dependency hashes verified in prior landing.",
+  "incomplete_calls_scored": false,
+  "incomplete_neural_call_files_unchanged": 2832,
+  "locks_verified": 21,
+  "maximum_gpu_seconds": 64800,
+  "missing_roles": [
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "useful reconstruction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "wrong plausible reconstruction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "selective prompt intervention",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "nonselective prompt intervention",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "context correction",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "reason": "No complete neural comparison satisfies the frozen collector prerequisites; no partial or exact-program substitute.",
+      "role": "unresolved case",
+      "selected_case": null,
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "model_gate_limits": "Cached HF task gates refused; separate repaired Ollama admission does not admit activations.",
+  "neural_comparisons_complete": 0,
+  "no_inference": true,
+  "no_new_tests_harvested": true,
+  "only_exited_checkpoint_watch_retired": true,
+  "original_job_dispositions": [
+    {
+      "id": "M0-dev",
+      "original_calls": 1536,
+      "reason": "Transport timeout; unknown request retained; insufficient remaining whole-block capacity",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "failed incomplete"
+    },
+    {
+      "id": "M3-dev",
+      "original_calls": 768,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 99133.0490880087,
+      "status": "not run"
+    },
+    {
+      "id": "M4-dev",
+      "original_calls": 448,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 57827.611968005076,
+      "status": "not run"
+    },
+    {
+      "id": "M0-test",
+      "original_calls": 3072,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 396532.1963520348,
+      "status": "not run"
+    },
+    {
+      "id": "M3-test",
+      "original_calls": 1536,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "not run"
+    },
+    {
+      "id": "M4-test",
+      "original_calls": 896,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 115655.22393601015,
+      "status": "not run"
+    },
+    {
+      "id": "history-dev",
+      "original_calls": 320,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 41305.437120003626,
+      "status": "not run"
+    },
+    {
+      "id": "history-test",
+      "original_calls": 640,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 82610.87424000725,
+      "status": "not run"
+    },
+    {
+      "id": "summary-dev",
+      "original_calls": 256,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 33044.3496960029,
+      "status": "not run"
+    },
+    {
+      "id": "summary-test",
+      "original_calls": 512,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 66088.6993920058,
+      "status": "not run"
+    },
+    {
+      "id": "states-dev",
+      "original_calls": 768,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 99133.0490880087,
+      "status": "not run"
+    },
+    {
+      "id": "states-test",
+      "original_calls": 1536,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 198266.0981760174,
+      "status": "not run"
+    },
+    {
+      "id": "repeat-dev",
+      "original_calls": 128,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 16522.17484800145,
+      "status": "not run"
+    },
+    {
+      "id": "repeat-test",
+      "original_calls": 256,
+      "reason": "Coordinator failed before dispatch; current measured whole-block capacity exceeds original deadline",
+      "required_seconds_p90": 33044.3496960029,
+      "status": "not run"
+    }
+  ],
+  "original_pins": 30,
+  "required_neural_cases": 6,
+  "scientific_sources_verified": true,
+  "status": "AVAILABLE_EVIDENCE_VERIFIED_COMMISSION_INCOMPLETE",
+  "synthetic_queue_completion": false,
+  "watcher_live": true,
+  "wrapper_exited": true
+}

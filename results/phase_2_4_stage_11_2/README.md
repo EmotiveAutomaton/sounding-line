@@ -1,5 +1,17 @@
 # Stage 11.2 results
 
+## Stage 11.2 final account - September 20 checkpoint
+
+[Final report](REPORT.md) | [Final branches](FINAL_BRANCHES.md) | [Integrity](INTEGRITY.json).
+Four exact blocks are complete; neural development failed incomplete, thirteen jobs did not run, and the required six neural cases are unavailable. Full commission requirements were not met.
+Original evidence and charges remain; the original execution window is closed.
+The helper exited normally. No inference is running and no automatic refill is
+permitted by these expired study windows. Existing four-hour health monitoring
+continues with unchanged Gear 2 allocation. Earlier readiness and pending-report
+statements below are retained historical snapshots.
+
+## Historical preparation and execution records
+
 Latest inspection: worker failure and resource stop, September 20, 14:20 UTC
 
 The original worker timed out and exited after the coordinator failure. Saved

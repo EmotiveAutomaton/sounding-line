@@ -5,10 +5,15 @@
 - [x] OPS-HEALTH-4H: implement, test and live-verify recurring four-hour health inspections with unchanged Gear 1 and immediate failure alerts.
 - [ ] OPS-HEALTH-4H: on each health wake inspect native identities, progress, failures, locks, resources, runnable authorized work and delivery health; document and recover within existing authority before ACK. ACK rearms automatically. First health inspection and actual idle delivery verified in OPS-HEALTH-4H-FIRST; continue subsequent checks.
 
+## Final appointment disposition - 2026-09-20
+
+- [x] OPS-S11-FINAL: reconcile both checkpoint events, final evidence/charges and helper exit; publish both reports, final branch ledgers, complete-only machine records and explicit case/visual-QA limits.
+- [ ] OPS-S11-FINAL follow-up, not an active queue item: curator discussion and any separately commissioned continuation. Stage 11.2 neural comparison and six-case requirement remain unmet; the original deadline has expired. No automatic refill or retry.
+
 ## Stage 11.2 commissioned - 2026-09-19
 
 - [x] OPS-S11.2-WORKER-TIMEOUT: reconcile worker failure, replay all retained calls offline, retain unknown request and charges, verify original sources and resource stop, retire exited watch with delivery/checkpoints preserved.
-- [ ] OPS-S11.2-WORKER-TIMEOUT: deliver original Sunday packet with incomplete neural development, all unstarted successors, unavailable case roles and final costs. No new inference fits current capacity.
+- [x] OPS-S11.2-WORKER-TIMEOUT: deliver original Sunday packet with incomplete neural development, all unstarted successors, unavailable case roles and final costs. No new inference fits current capacity.
 
 - [x] OPS-S11.2-QUEUE-TIMEOUT: reconcile the actual coordinator timeout and surviving worker, reproduce/repair PID-suffixed failure recognition, verify 132 monitoring checks and isolated watcher reload with events and schedules preserved.
 - [x] OPS-S11.2-QUEUE-TIMEOUT: actual worker timeout and final charges landed in OPS-S11.2-WORKER-TIMEOUT; missing coverage remains a final-packet obligation.
@@ -49,16 +54,16 @@ eligible now; reporting stays open. This supersedes earlier Gear 2 availability.
 - [x] S11.2-I3: replay and land cached 3B and original separate 9B refusals; thirteen tests and the initial finite dispatcher pass.
 - [x] S11.2-I4: replay and fully land the single repaired 9B admission, 192 calls, native/source checks and fourteen-job fake queue; nineteen tests pass.
 - [x] L410 / M0: complete and replay withheld exact test and predeclared candidate-addition comparison; preserve the XOR-invariant original context control.
-- [ ] M0: complete neural direct/raw-history/persistent comparison; keep the strong exact rival and amortized costs separate.
+- [ ] M0 deferred after deadline: neural development failed incomplete and test did not run; no scientific verdict. Any continuation needs a new scope.
 - [x] M1/M2 disposition: numerical instruments checked; scientific activation/alignment comparisons remain blocked by completed HF task refusals. No additional interface tuning is authorized.
-- [ ] M3/M4: target-versus-reader crossed state and controlled source-context updating; exposed human bridge at most 24 targets.
+- [ ] M3/M4 deferred after deadline: prepared crossed-state/context comparisons and exposed human bridge did not run. No automatic dispatch.
 - [x] M5 disposition: read/write prerequisite unavailable; source review recorded, no recurrence experiment or reproduction claimed.
-- [ ] M6: run prepared distinct continuations; after all fourteen jobs are fully landed, select at most one prepared fresh-seed comparison if informative and within remaining original capacity.
+- [ ] M6 deferred after deadline: all eight prepared extensions unstarted; seed continuation unselected and prerequisites unmet.
 - [x] S11.2-F setup: offline semantic packet collector, frozen six-role case selection and 16-target exposed human replay prepared.
 - [x] S11.2-Q: full fourteen-job repaired dispatcher/consumer/reentry rehearsal, actual Gear 2 launch, bound native identities and transition monitoring verified.
-- [ ] S11.2-Q: land each completed neural cell; no automatic method or sample expansion beyond the frozen fourteen jobs.
+- [x] S11.2-Q terminal accounting: no neural cell completed; failed current cell and all thirteen unstarted successors recorded in the final packet.
 - [x] OPS-S11.2-Q1: validate complete reporting/standby rehearsal, twenty focused checks, twenty-one locks and live source/native supervision.
-- [ ] S11.2-F: land complete cells, collect actual final integrity/cases and write single Sunday packet. Implementation is committed and pushed to EmotiveAutomaton; final results remain ongoing.
+- [x] S11.2-F reporting: final report and complete exact matrices published with available-evidence integrity and all six neural case roles unavailable. This records unmet scientific/case requirements, not full commission success.
 
 
 
@@ -69,13 +74,13 @@ archive, kept whole, mined but never deleted.
 ## Stage 11.1 commissioned - 2026-09-18
 
 - [x] OPS-S11.1-REPORTING: inspect original reporting checkpoint, all bound inputs, viewer replay/interaction checks and native queue health; prepare both stage drafts with explicit missing coverage and visual-QA limits.
-- [ ] OPS-S11.1-REPORTING: reconcile actual Stage 11.2 coordinator/worker exits and final charges, refresh final integrity, and deliver the single September 20 15:00 UTC appointment packet. Six-hour coordinator timeout near 14:09 UTC may precede worker exit; inspect both identities rather than assuming the child stopped.
+- [x] OPS-S11.1-REPORTING: reconcile actual Stage 11.2 coordinator/worker exits and final charges, refresh final integrity, and deliver the single September 20 15:00 UTC appointment packet. Six-hour coordinator timeout near 14:09 UTC may precede worker exit; inspect both identities rather than assuming the child stopped.
 
 - [x] OPS-S11.1-C36: inspect original coverage marker, all report-input hashes and monitoring; retain final reporting and visual-QA obligations without new inference.
 
 - [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.
 - [x] OPS-S11.1-Q1: select prepared S2/S3 plans from complete initial methods and land all admitted core branch comparisons (L394-L406).
-- [ ] OPS-S11.1-Q1: deliver the single Sunday packet; human illustrations and the internal report draft are prepared.
+- [x] OPS-S11.1-Q1: deliver the single Sunday packet; human illustrations and the internal report draft are prepared.
 - [x] L391 / S0: reparse 204 retained responses; report the training-cap deviation and separate sensitivity; preserve the published table.
 - [x] OPS-S11.1-I1: validate target/source/accounting/scoring instruments and fully land the failed first literal pilot; preserve all costs and failure evidence.
 - [x] OPS-S11.1-I2: fully land the failed visible-schema pilot; preserve all forty attempts and charges, with no human-record inference.
@@ -93,38 +98,38 @@ archive, kept whole, mined but never deleted.
 - [x] OPS-S11.1-I9: reconcile successor timeout, retain its missing response and full charge, install bound PAUSE and verify resource-blocker transition monitoring.
 - [x] OPS-S11.1-I10: inspect resource exit, reconcile both cells, validate charged replacements and whole-roster assembly, release the bound PAUSE, launch Gear 2 and verify the first complete task plus monitoring.
 - [x] OPS-S11.1-I10 / L402-L403: land complete context and recover the full original account-breadth roster; replay all calls, independently check 312 context and 91 breadth fields, preserve both failed charges and original incomplete namespaces.
-- [ ] L402-L403 / S5: carry constructed ambiguity, misleading-cue susceptibility, account realization and complete breadth comparison into final illustrations and the Sunday packet; no retuning on scored cases.
+- [x] L402-L403 / S5: carry constructed ambiguity, misleading-cue susceptibility, account realization and complete breadth comparison into final illustrations and the Sunday packet; no retuning on scored cases.
 - [x] L398 / account use: fully land all 64 interventions, source validity strata, repeated-request failure and 168 independent score checks; retain the complete descriptive matrix and void account-specific attribution.
 - [x] OPS-S11.1-Q3: freeze valid-account control repair, real graph/request checks, scratch CLI/reentry and reconciled recovery manifest.
 - [x] L398 / L399: complete and fully replay all 72 valid-account repair calls, both keep controls, costs and 348 independent score/transition fields; preserve bounded sensitivity versus benefit and the original void.
-- [ ] L399: carry repeat controls, donor susceptibility and useful-versus-probability tradeoffs into final illustrations and the Sunday packet; continue selected S2/S3 without another diagnostic variant.
+- [x] L399: carry repeat controls, donor susceptibility and useful-versus-probability tradeoffs into final illustrations and the Sunday packet; continue selected S2/S3 without another diagnostic variant.
 - [x] OPS-S11.1-C4: inspect four-hour coverage, native ownership, dispositions, admission and resource capacity; continue the current finite queue with selected successor prepared.
 - [x] OPS-S11.1-C12: inspect twelve-hour coverage, active production, actual gates, cumulative caps and native supervision; continue the unchanged Gear 2 queue without unfinished scores.
 - [x] OPS-S11.1-C24: predefined marker inspected in OPS-S11.2-I1; unchanged completed inference frontier and Sunday reporting preserved.
 - [x] L395 / S4: fully replay the four-condition history comparison, reproduce source/temporal admission and 144 independent fields; close this bounded implementation with construction/reuse costs and invalids retained.
 - [x] OPS-S11.1-I6 / L396: admit revision interface and fully land the complete five-project annotation comparison; all fifty calls and six independent score fields replay.
-- [ ] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.
+- [x] L395-L396: carry history limitations and annotation-versus-purpose boundaries into final illustrations and the Sunday packet; continue admitted evidence and breadth work.
 - [x] L397 / S3: replay and fully land initial direct breadth, its cheap controls, exact selection/partition audit and 36 independent score fields; retain episode-versus-writer replication limits.
 - [x] L401 / S3: complete and replay initial breadth review and direct reference; reproduce selection, requests and 91 independent fields; retain invalid recovery versus useful historical correction.
-- [ ] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; the original transport-incomplete account namespace remains preserved, with the full recovered comparison landed as L403.
+- [x] L401 / S3-S5: carry review limits, cheap controls and writer/session dependence into final illustrations and the Sunday packet; the original transport-incomplete account namespace remains preserved, with the full recovered comparison landed as L403.
 - [x] L404 / S3: replay all 62 direct-extension calls, exact remaining selection and 45 independent score fields; fully land the complete direct breadth reference with dependency and calibration limits.
 - [x] L405 / S3: replay all 124 review-extension and 62 direct-reference calls, exact first-request matches and 91 independent fields; land invalid-output recovery, useful yield and selective-risk limits.
 - [x] L406 / S3: replay all 124 account-extension and 186 reference calls, exact selection and 91 independent fields; fully land the complete breadth matrix with graph validity, useful recovery and selective-risk limits.
-- [ ] L406 / S3-S5: carry complete breadth, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
+- [x] L406 / S3-S5: carry complete breadth, prior forecasts, invalids and cheap-control limits into the viewer and Sunday packet. Second-reader contrasts remain unavailable.
 - [x] S0/S1: validate production targets and alignment rival, freeze discovery/breadth rosters and complete initial matched methods on both blind tiers (L392-L394).
 - [x] OPS-S11.1-I11: reconcile normal exit and both reserve deferrals; retain old records, release only the completed later-branch reserve in a versioned two-item manifest, rehearse exact reentry and verify first real task plus monitoring.
 - [x] L407 / S1: fully land the discovery review extension, all 268 review and 134 reference replays, 182 independent fields, exact request matches and retained invalids; both job and plan completions reconcile.
 - [x] L408 / S1: complete and fully land the discovery account extension, all 670 account/reference replays, 182 independent fields and both reconciled terminals.
-- [ ] L408 / S1-S5: carry complete discovery comparisons, prior forecasts, invalid graphs and cheap-control limits into final human illustrations and the Sunday packet.
+- [x] L408 / S1-S5: carry complete discovery comparisons, prior forecasts, invalid graphs and cheap-control limits into final human illustrations and the Sunday packet.
 - [x] S1: original account-removal/replacement diagnostic and bounded controlled repair complete (L398-L399); no additional account variant selected.
 - [x] L400 / S2: fully replay human evidence/query comparison, exact source observations, 272 calls and 264 independent fields; retain static-cheap and fresh-chain limits.
-- [ ] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
+- [x] L400 / S2-S5: use before text as the provisional prototype first reveal; preserve prior forecasts, selector failure and observation-insensitive cheap controls; the complete frozen 24-pair contextual stress set is landed as L402 and must remain distinct from human evidence in final synthesis.
 - [x] S3: complete admitted breadth and existing-adapter revision check; installed-reader replication is unavailable after retained transport failure, not a scientific null.
 - [x] S4: reusable earlier-history hypothesis versus exactly matched raw history, donor history and no history (L395).
 - [x] OPS-S11.1-I12: reconcile normal discovery-tail exit, cumulative ledger and all native evaluation exclusions; record and report the early-exhaustion frontier.
 - [x] OPS-S11.1-S5: build twelve source-replayed human illustrations with retained priors; exact reentry and 6,901 DOM checks pass. Browser inventory is empty; visual QA remains explicitly unperformed.
 - [x] OPS-S11.1-V1: inspect current queue and native supervision; all 56 Stage 11.1 Python tests, 392 retained viewer calls, 6,901 DOM checks, 32 report inputs and 21 locks pass. No new inference or scientific repair.
-- [ ] S5: perform visual QA if a browser surface becomes available; finish final integrity and deliver the single Sunday packet from the prepared internal draft and branch inputs.
+- [x] S5 final delivery: source replay, interaction checks, final report and case discussion prepared. Chrome local-file navigation is blocked by Browser Use policy; visual QA remains unperformed as explicitly permitted by the brief.
 
 Gear 2 is explicitly retained. New clock: September 18 16:18:24 UTC; checkpoint
 September 20 15:00 UTC; reporting begins two hours earlier. Shared ceilings:

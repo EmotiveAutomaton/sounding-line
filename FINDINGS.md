@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S11-FINAL - final checkpoint, verified evidence and disclosed deficits
+
+**Operational question.** Can the commissioned reports be delivered from complete, replayable evidence while preserving failed, unperformed and unidentified parts?
+
+**METHOD.** Match both delivered checkpoint events to their saved bytes and original schedule; verify normal helper/wrapper exit and the surviving watcher. Recheck all bound Stage 11.1 inputs, source pins and costs; rebuild the unchanged viewer through retained-response replay and run its interaction assertions. Recompute all four complete Stage 11.2 exact comparisons, verify unchanged incomplete-call evidence and original sources/charges, and confirm that its unchanged collector refuses an absent terminal queue. Assemble separate final reports, branch dispositions and machine records, then check privacy and locks. No inference or unfinished-cell scoring is performed.
+
+The table describes final deliverables and their limits, not new scientific comparisons.
+
+| Deliverable or check | Final disposition |
+|---|---|
+| Fixed checkpoint and helper exit | Both real terminal events verify; all predefined checkpoints emitted, helper and wrapper exited normally |
+| Stage 11.1 evidence | All 32 original report inputs, source bindings and final charges unchanged; admitted inference complete |
+| Stage 11.1 viewer | Twelve source projections and retained calls replay; 6,901 interaction checks pass; all required illustration categories present |
+| Visual QA | Chrome now available, but its Browser Use URL policy rejects the local file; visual inspection remains unperformed, with no workaround |
+| Stage 11.2 complete evidence | Four exact-program blocks replay with sixteen saved files unchanged; available matrices published separately |
+| Stage 11.2 deficits | Neural development failed incomplete; thirteen jobs unstarted; none of six required neural case roles available; full commission requirements not met |
+| Costs | Stage 11.1: 43,607.550371 charged seconds; Stage 11.2: 26,669.132315 charged seconds, including uncertainty and failures |
+| Guard and monitor state | All 21 locks and original scientific pins hold; packet collector refuses incomplete queue; only exited checkpoint watch retired; health clock preserved |
+
+**Found and means.** The final reports preserve the completed descriptive human evidence and constructed-program evidence without treating either as a general maker-reading result. Existing scientific findings L391-L410 and their theory rows remain unchanged. The Stage 11.1 draft's broad claim about absent located useful yield was corrected before publication: it applies to fixed before-text retrieval; hash-selected review supplies the evidence block's only positive located useful yield. The primary L400 result never changed. Stage 11.1's commissioned execution window is closed with unavailable reader conditions and visual QA disclosed. Stage 11.2's window is closed with incomplete scientific and case requirements, not a successful whole-campaign verdict. No synthetic queue COMPLETE, new tests, spending, delegation, gear change or deadline extension. The current final records supersede earlier pending-report snapshots; all original receipts remain immutable.
+
+**Curator roll-up.** Theory group: infrastructure and evidence reporting. Question: what can the final packet actually support? Outcome: **Infrastructure**. Result: both final reports bind available complete evidence and explicitly preserve unmet requirements. Project meaning: implementation, execution, scientific warrant and curator acceptance remain separate. Next engineering obligation: curator inspection and discussion; further inference requires a new authorized scope, while existing four-hour health monitoring continues. Public claim: unchanged from L391-L410. Curator decision required: No for this landing. Detail: [Stage 11.1 final report](results/phase_2_4_stage_11_1/FINAL_REPORT.md), [Stage 11.2 final report](results/phase_2_4_stage_11_2/REPORT.md).
+
+---
+
 ### OPS-S11.2-WORKER-TIMEOUT - failed worker and original capacity stop
 
 **Operational question.** Can the surviving comparison finish safely after its coordinator failure, or can another whole authorized block still fit before the fixed deadline?

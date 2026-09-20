@@ -1,5 +1,16 @@
 # Codex operations
 
+## Final checkpoint delivery and helper exit, 2026-09-20
+
+Both the original final checkpoint and the helper's normal-exit receipt reached
+the owner. Native helper and wrapper absence verifies after all scheduled markers
+were emitted. Retire only that exact exited process watch; its terminal paths,
+outbox, sole watcher and four-hour health deadline remain. No polling helper is
+restarted and no fresh inference follows the expired study windows. Final packets
+preserve the Stage 11.2 incomplete-cell/case deficit and the local-file browser
+policy block on visual QA. Private inspection and configuration backup are in
+`.agent-state/final-packets-20260920/`; see both stage final integrity records.
+
 ## Worker failure delivery verified, 2026-09-20
 
 The surviving Stage 11.2 worker subsequently timed out and exited. Its real

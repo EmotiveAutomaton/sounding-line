@@ -1,5 +1,8 @@
 # Active finite continuation
 
+Final dispositions are in [FINAL_BRANCHES.md](FINAL_BRANCHES.md); the original
+window has ended. The following readiness ledger is historical.
+
 Gear 2 is explicitly retained. Commissioning clock: September 18, 16:18:24 UTC.
 Sunday checkpoint: September 20, 15:00 UTC; reporting begins at 13:00 UTC. All
 attempts share the original new-stage ledger, including failures and discarded pilots.

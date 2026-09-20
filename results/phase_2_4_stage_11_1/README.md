@@ -1,5 +1,17 @@
 # Stage 11.1: reconstruct, challenge, correct
 
+## Stage 11.1 final packet - September 20 checkpoint
+
+[Final report](FINAL_REPORT.md) | [Final branches](FINAL_BRANCHES.md) | [Integrity](FINAL_INTEGRITY.json).
+Admitted comparisons are complete; second-reader conditions remain unavailable and local-file browser policy prevents visual QA.
+Original evidence and charges remain; the original execution window is closed.
+The helper exited normally. No inference is running and no automatic refill is
+permitted by these expired study windows. Existing four-hour health monitoring
+continues with unchanged Gear 2 allocation. Earlier readiness and pending-report
+statements below are retained historical snapshots.
+
+## Historical preparation and execution records
+
 Commissioned September 18, 2026, after completed Stage 11. The curator explicitly
 retained Gear 2. The new clock and ceilings are separate: 6,400 model attempts,
 24 charged GPU hours, Sunday September 20 at 15:00 UTC checkpoint. Reporting starts

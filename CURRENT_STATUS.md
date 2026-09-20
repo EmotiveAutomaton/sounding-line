@@ -1,5 +1,24 @@
 # Current status
 
+## Final appointment - September 20, 15:00 UTC
+
+Both final reports are assembled from the verified completed evidence. Stage 11.1
+admitted comparisons and the local contribution-map viewer are delivered, with
+second-reader refusal and visual-QA limits retained. Stage 11.2 has four complete
+exact-program blocks, a failed incomplete neural comparison and thirteen unstarted
+jobs; all six required neural case roles are unavailable. Its full scientific and
+case requirements were not met. The original execution windows have ended.
+
+All original report inputs, scientific sources and charges verify. Viewer source
+replay and 6,901 interaction checks pass; all 21 locks hold. Chrome became available
+but its URL policy blocked opening the local file, so no visual inspection is claimed.
+The checkpoint helper and wrapper exited normally; only that exited watch was
+retired. No scientific worker or GPU lock remains. Gear 2 is unchanged, but expired
+stage scope does not authorize more inference. Four-hour health monitoring remains,
+next due September 20 at 16:20 UTC / 09:20 PDT; result ACKs do not reset it.
+See [Stage 11.1 report](results/phase_2_4_stage_11_1/FINAL_REPORT.md) and
+[Stage 11.2 report](results/phase_2_4_stage_11_2/REPORT.md) (OPS-S11-FINAL). Earlier dated snapshots below are historical.
+
 ## Worker failure and resource stop - September 20, 14:20 UTC
 
 The original worker timed out and exited after the coordinator failure. Saved
