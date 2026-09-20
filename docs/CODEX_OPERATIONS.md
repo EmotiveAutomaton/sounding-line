@@ -19,7 +19,10 @@ and recover within existing authority before ACK. A Gear 1 pause never authorize
 restarting parked GPU inference. No scientific deadline or budget resets.
 
 All 122 watcher/runtime checks and 21 locks pass. Live watcher source adoption and
-its first deadline verify; future idle delivery of the new event is unobserved.
+its first deadline verify. The first recurring event actually reached the idle
+owner on its first attempt about 25 seconds after the deadline; its documented
+health inspection found no repair need. See HEALTH_FIRST_INSPECTION.json in the
+receipt folder below (OPS-HEALTH-4H-FIRST).
 Receipt: ../results/phase_2_4_stage_11_2/HEALTH_CADENCE.json. For rollback, cancel and
 wait for watcher exit, restore the previous watcher source/configuration retained
 in .agent-state/health-watch-20260919/, then resume under the same owner. Preserve

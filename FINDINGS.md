@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-HEALTH-4H-FIRST - first recurring health wake delivered and inspected
+
+**Operational question.** Does the recurring health check actually reach the idle owner, and is the queue still in its authorized state?
+
+**METHOD.** Match the received event to its persisted delivery, deadline and attempt count. Inspect native helper identities and project process commands, fresh watcher scan/source, current registered produces, retained file hashes, source snapshot, charges, local model inventory, GPU lock and AC cooling settings. Compare runnable work against the active Gear 1 handoff.
+
+The table reports operational health; no unfinished scientific scores are read or reported.
+
+| Check | Outcome |
+|---|---|
+| Actual idle delivery | Received on the first attempt, about 25 seconds after its four-hour deadline |
+| Helpers and monitoring | Bound watcher and checkpoint identities alive; current source loaded, fresh scan, no watch error or new produce |
+| Saved work | All 2,253 retained file hashes and scientific source snapshot unchanged; charges unchanged |
+| Resources | Local model unloaded; GPU lock absent; AC maximum processor state 90 percent, boost disabled |
+| Queue disposition | Sustained inference intentionally parked in Gear 1; no light scientific producer eligible |
+| Next scientific checkpoint | Original September 20 04:18:24 UTC coverage checkpoint remains unchanged |
+
+**Found and means.** Actual idle delivery of the recurring health event is now verified. No stalled authorized worker, lost progress or repair need was found. The old notification timeout remains retained and is unrelated to this successful delivery. Document this inspection before ACK, which rearms the next four-hour health check. No new tests were harvested; no inference, allocation or reporting deadline changed.
+
+**Curator roll-up.** Theory group: infrastructure. Question: does the new cadence produce a real queue inspection? Outcome: **Infrastructure**. Result: the first recurring health wake reached the idle owner and the inspected allocation remains healthy. Project meaning: scheduled inspection is verified beyond configuration and transport acceptance. Next engineering obligation: continue recurring inspection and the original coverage/reporting checkpoints. Public claim: unchanged. Curator decision required: No. Detail: results/phase_2_4_stage_11_2/HEALTH_FIRST_INSPECTION.json.
+
+---
+
 ### OPS-HEALTH-4H - recurring queue-health inspection
 
 **Operational question.** Can the queue receive a health inspection every four hours even when it produces no new result, without changing its authorized allocation?

@@ -2,12 +2,18 @@
 
 ## Four-hour queue-health inspections - 2026-09-19
 
+First inspection completed September 20 at 00:12 UTC: actual idle delivery is
+verified on the first attempt. Native helpers, fresh watcher scan, preserved
+files/sources/charges, unloaded local model and cooling settings verify. No new
+produce or eligible light scientific worker; Gear 1 parking remains intentional.
+No repair required. See HEALTH_FIRST_INSPECTION.json (OPS-HEALTH-4H-FIRST).
+
 The owner requested a recurring four-hour operational inspection. The watcher
 is reloaded and its independent persisted health schedule is verified; immediate
 failure alerts remain. First due: September 20 at 00:10:47 UTC (September 19 at
 5:10 p.m. PDT), then four hours after each documented health-event ACK. Ordinary
 activity and unrelated ACKs do not reset it. Active-owner delivery deferral,
-cancellation and one outstanding batch remain; future idle delivery is unobserved.
+cancellation and one outstanding batch remain; first idle delivery is now verified.
 Gear 1, the parked GPU queue and original study/reporting clocks are unchanged.
 See results/phase_2_4_stage_11_2/HEALTH_CADENCE.json (OPS-HEALTH-4H).
 
@@ -29,7 +35,7 @@ threads; AC boost remains off and maximum processor state remains 90 percent.
 No light scientific producer is eligible now. Monitoring and reporting are active.
 Next fixed checkpoint: September 20 at 04:18:24 UTC; reporting at 13:00 UTC and final
 packet at 15:00 UTC. Only the owner-requested four-hour health cadence is added; no new scientific work is scheduled.
-Future idle delivery after this resume is not yet observed.
+Actual idle delivery after this resume is verified in OPS-HEALTH-4H-FIRST.
 
 [Gear 1 resume receipt](results/phase_2_4_stage_11_2/GEAR1_RESUME.json).
 

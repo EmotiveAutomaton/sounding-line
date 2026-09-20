@@ -3,7 +3,7 @@
 ## Recurring queue health - 2026-09-19
 
 - [x] OPS-HEALTH-4H: implement, test and live-verify recurring four-hour health inspections with unchanged Gear 1 and immediate failure alerts.
-- [ ] OPS-HEALTH-4H: on each health wake inspect native identities, progress, failures, locks, resources, runnable authorized work and delivery health; document and recover within existing authority before ACK. First due September 19 at 5:10 p.m. PDT. ACK rearms automatically. Confirm actual idle delivery separately.
+- [ ] OPS-HEALTH-4H: on each health wake inspect native identities, progress, failures, locks, resources, runnable authorized work and delivery health; document and recover within existing authority before ACK. ACK rearms automatically. First health inspection and actual idle delivery verified in OPS-HEALTH-4H-FIRST; continue subsequent checks.
 
 ## Stage 11.2 commissioned - 2026-09-19
 

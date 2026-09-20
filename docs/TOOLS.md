@@ -233,7 +233,8 @@ runs alongside transition alerts. Only its own documented ACK rearms it; unrelat
 activity cannot defer it. Fake-clock/transport and existing runtime suites pass
 122 checks; the new watcher source and actual next deadline are loaded. Native
 checkpoint identity, scientific source snapshot and charges remain unchanged.
-Actual future idle delivery of the new health event is not yet observed.
+Actual idle delivery is now verified on its first attempt, followed by a completed
+queue-health inspection (OPS-HEALTH-4H-FIRST).
 
 Paused-call preservation audit (OPS-S11.2-G1-AUDIT): all 464 retained requests,
 raw responses, bindings, parse/error states and saved cost fields replay under
