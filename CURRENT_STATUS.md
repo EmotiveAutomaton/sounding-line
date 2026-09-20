@@ -1,5 +1,15 @@
 # Current status
 
+## Reporting started - September 20, 13:00 UTC
+
+The reporting checkpoint is inspected and both stage drafts are prepared.
+Stage 11.1's bound evidence and viewer replay/interaction checks pass; visual
+layout QA remains unavailable. Stage 11.2 is advancing in Gear 2, with its current
+comparison still incomplete and unlikely to fit before the fixed appointment.
+Final delivery remains 15:00 UTC / 08:00 PDT, with incomplete coverage explicit.
+Native transition monitoring and four-hour health checks remain active.
+See [reporting-start inspection](results/phase_2_4_stage_11_1/REPORTING_START.json).
+
 ## Gear 2 health update - September 20, 12:18 UTC
 
 The coordinator and M0-development worker remain alive with fresh outputs, but

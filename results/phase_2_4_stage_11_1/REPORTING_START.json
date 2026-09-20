@@ -1,0 +1,127 @@
+{
+  "entry": "OPS-S11.1-REPORTING",
+  "at": "2026-09-20T13:12:19.598377+00:00",
+  "status": "INSPECTED_REPORT_PREPARATION",
+  "scientific_verdict": false,
+  "checkpoint": {
+    "action": "Assemble the single final curator packet; finish only useful admitted small units",
+    "commissioned_due": "2026-09-20T13:00:00+00:00",
+    "kind": "predefined operational checkpoint",
+    "scientific_verdict": false,
+    "status": "COMPLETE"
+  },
+  "checkpoint_sha256": "504b5acca341ecbdb18cb01a1a83bf7c9a5b79d3bae32de64da07ba67ebd8131",
+  "report_input_hashes_verified": 32,
+  "stage11_1_source_pins_verified": true,
+  "stage11_1_budget": {
+    "attempts": 2828,
+    "branches": {
+      "S4": 72,
+      "S3": 521,
+      "S2": 1041,
+      "S1": 1126,
+      "integration": 68
+    },
+    "charged_seconds": 43607.55037069991
+  },
+  "viewer": {
+    "source_replays": 12,
+    "retained_calls_replayed": 392,
+    "dom_checks": 6901,
+    "immutable_reentry": true,
+    "html_sha256": "f2553573dc4e55a1d3f62204074f3fb001f9659f5bd9830c8cc4ee7c117c0d3c",
+    "visual_qa": "UNPERFORMED: fresh native inventory returned apps=[] and browsers=[]"
+  },
+  "stage11_2": {
+    "gear": 2,
+    "active_job": "M0-dev",
+    "completed_calls": 896,
+    "total_calls": 1536,
+    "output_at": "2026-09-20T13:12:11.703144+00:00",
+    "original_source_pins_verified": 30,
+    "completed_neural_cells": [],
+    "charged_seconds_snapshot": 22575.70381049988,
+    "maximum_gpu_seconds": 64800,
+    "disposition": "Live and advancing; incomplete, no partial scientific scores. Recent throughput exceeds the remaining appointment window.",
+    "coordinator_timeout_at": "2026-09-20T14:09:45.244076+00:00",
+    "timeout_obligation": "Inspect actual coordinator exit and surviving worker before any recovery; retain original timeout and native supervision.",
+    "final_packet_collector": "Requires actual terminal queue and complete cell receipts; never synthesize COMPLETE to admit unfinished cells."
+  },
+  "native_identities_verified": {
+    "104536": {
+      "pid": 104536,
+      "created_ticks": 134343653820234971,
+      "executable": "C:\\Python313\\python.exe"
+    },
+    "106092": {
+      "pid": 106092,
+      "created_ticks": 134343653852714164,
+      "executable": "C:\\Python313\\python.exe"
+    },
+    "16408": {
+      "pid": 16408,
+      "created_ticks": 134343222476305620,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "20012": {
+      "pid": 20012,
+      "created_ticks": 134343184080260842,
+      "executable": "C:\\Python313\\python.exe"
+    }
+  },
+  "gpu_lock_owned": true,
+  "watch_error": null,
+  "event_delivery": {
+    "id": "c551a90b59e2e10413ec8eb2",
+    "attempts": 1,
+    "delivered_at": 1789909272.3221376,
+    "full_write_through_before_ack": true
+  },
+  "four_hour_health_due_epoch": 1789921215.5530472,
+  "final_due": "2026-09-20T15:00:00+00:00",
+  "final_packet_pending": true,
+  "campaign_closed": false,
+  "report_preparation": "Stage 11.1 bound draft and actual-case questions refreshed; Stage 11.2 draft separates complete exact evidence, refused instruments and unfinished neural comparisons.",
+  "remaining": [
+    "Reconcile actual final worker/queue dispositions and charges",
+    "Refresh final source/input/privacy checks and deliver the single final appointment packet",
+    "Retain absent neural case categories and unavailable visual QA explicitly"
+  ],
+  "no_new_inference_launched": true,
+  "no_scientific_source_changes": true,
+  "no_tests_harvested": true,
+  "complete_exact_replay": {
+    "status": "PASS",
+    "at": "2026-09-20T13:14:20.272851+00:00",
+    "complete_only": true,
+    "blocks": [
+      {
+        "branch": "exact",
+        "split": "dev",
+        "rows": 3328
+      },
+      {
+        "branch": "revision",
+        "split": "dev",
+        "rows": 768
+      },
+      {
+        "branch": "exact",
+        "split": "test",
+        "rows": 6656
+      },
+      {
+        "branch": "revision",
+        "split": "test",
+        "rows": 1536
+      }
+    ],
+    "files_unchanged": 16,
+    "no_model_calls": true
+  },
+  "hash_locks_verified": 21,
+  "report_drafts_sha256": {
+    ".agent-state/stage11-1-sunday-packet-draft.md": "6345e16f340d233b972b6ba4f5b33362ddd9dfd78c6302159158efff8467219f",
+    ".agent-state/stage11-2-sunday-packet-draft.md": "1509d0c2d3f977ee9830d5772351489865a81caf4e1b12c82e283d0d68b02a43"
+  }
+}

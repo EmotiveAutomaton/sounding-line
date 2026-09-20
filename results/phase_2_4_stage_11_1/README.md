@@ -14,6 +14,12 @@ attempts and model accounts stay in ignored `raw/`.
 
 ## Local human viewer and reporting
 
+[Reporting has begun](REPORTING_START.json) at the original September 20 13:00 UTC
+checkpoint. All bound report inputs remain intact; retained viewer replay and
+interaction checks pass again. Private drafts are prepared for the 15:00 UTC
+appointment. Stage 11.2 remains independently active and incomplete in Gear 2;
+neither its missing cells nor the unperformed browser QA are treated as complete.
+
 [Current validity pass](VALIDITY_PASS.json), September 19: all 56 active-stage
 Python tests, retained viewer replay, 6,901 UI checks, 32 report inputs and 21
 locks pass. Native supervision is healthy; inference remains normally exhausted.

@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## Reporting started - September 20, 13:00 UTC
+
+The original reporting checkpoint is inspected (OPS-S11.1-REPORTING). All bound
+Stage 11.1 report inputs, sources and charges verify; the existing human viewer
+passes exact replay and interaction checks again. Visual QA remains unavailable.
+Private drafts for both stages are prepared; final delivery remains 15:00 UTC.
+Stage 11.2 continues in Gear 2 with fresh output and no complete neural cell.
+Retain incomplete coverage and actual costs if it cannot finish. Its unchanged
+six-hour coordinator timeout falls near 14:09 UTC; inspect the surviving worker
+separately if the coordinator exits. Native transition monitoring remains bound.
+Do not fabricate COMPLETE or weaken packet/case requirements. Four-hour health
+cadence and the original deadline remain. See REPORTING_START.json in Stage 11.1.
+
 ## Gear 2 health update - September 20, 12:18 UTC
 
 The coordinator and M0-development worker remain alive with fresh outputs, but

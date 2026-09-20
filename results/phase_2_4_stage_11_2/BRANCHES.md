@@ -1,9 +1,10 @@
 # Stage 11.2 branch ledger
 
 This is execution readiness, not a ranking of unfinished scientific cells.
-Current Gear 1 by explicit owner downshift; at most two threads for light CPU
-work. Sustained GPU jobs are parked and the local model unloaded. Saved calls and
-one interrupted reservation are retained (GEAR1_HANDOFF.json). All service and
+Current Gear 2 by explicit owner resumption on September 20. The original M0
+development worker is advancing but remains incomplete at reporting start.
+The prior Gear 1 pause, saved calls and interrupted reservation are retained;
+exact charged reconciliation is recorded in GEAR2_RESUME.json. All service and
 failures still share the original 18 cumulative GPU hours. The fixed deadline is September 20, 2026, 15:00 UTC;
 synthesis begins at 13:00 UTC. The supplied specification is filed in docs/design/.
 
@@ -11,7 +12,7 @@ The table separates actual mechanisms from conditional or unperformed work.
 
 | Branch | Implemented mechanism and strongest rival | Current disposition | Remaining obligation |
 |---|---|---|---|
-| M0 persistence | Exact four-policy posterior carried across encounters versus the same full history, no history, donor and bottleneck; separate neural comparison | Exact development and withheld mechanics fully landed, L409-L410; admitted 9B comparison incomplete and parked under Gear 1 | Whole neural development/test cells, latent queries, token/compute and amortization comparison |
+| M0 persistence | Exact four-policy posterior carried across encounters versus the same full history, no history, donor and bottleneck; separate neural comparison | Exact development and withheld mechanics fully landed, L409-L410; admitted 9B development comparison incomplete and running in Gear 2 | Whole neural development/test cells, latent queries, token/compute and amortization comparison |
 | M0 revision | Add absent fixed-library candidates after observed low likelihood; retain before/after predictions | Development/test complete, L410; complete-library Bayes remains stronger | Carry additions versus reweighting and false-trigger risk into cases; no open-ended discovery claim |
 | M1 Jacobian lens | Pinned upstream average Jacobian; 16 neutral passages, two layers; actual overlapping-coordinate pseudoinverse update | Transport and numerical known answers pass; all cached HF task gates refuse | Scientific readout/logit-lens/probe/patch comparison is unavailable without a competent checkpoint; no causal null. Larger fit and echo/implicit-belief battery not run |
 | M2 alignment | Frozen-backbone low-rank interchange implementation, ranks 8/32; random, mean, shuffled and wrong-variable comparators | Numerical rotation/inverse and subspace checks pass; actual model training blocked by the same task gates | Actual model rotation identity, neutral capability, selective task effect and goal continuation unperformed; do not call numerical checks scientific validation |

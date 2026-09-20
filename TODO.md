@@ -61,6 +61,9 @@ archive, kept whole, mined but never deleted.
 
 ## Stage 11.1 commissioned - 2026-09-18
 
+- [x] OPS-S11.1-REPORTING: inspect original reporting checkpoint, all bound inputs, viewer replay/interaction checks and native queue health; prepare both stage drafts with explicit missing coverage and visual-QA limits.
+- [ ] OPS-S11.1-REPORTING: reconcile actual Stage 11.2 coordinator/worker exits and final charges, refresh final integrity, and deliver the single September 20 15:00 UTC appointment packet. Six-hour coordinator timeout near 14:09 UTC may precede worker exit; inspect both identities rather than assuming the child stopped.
+
 - [x] OPS-S11.1-C36: inspect original coverage marker, all report-input hashes and monitoring; retain final reporting and visual-QA obligations without new inference.
 
 - [x] OPS-S11.1-Q1: prepare remaining branch producers and finite queue; rehearse the whole CLI and immutable reentry; check ownership, costs, private boundaries and source pins; file the branching brief unchanged.

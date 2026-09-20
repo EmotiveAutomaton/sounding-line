@@ -228,6 +228,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+Reporting-start inspection (OPS-S11.1-REPORTING): original schedule and delivered
+marker match; all 32 report inputs, scientific sources and Stage 11.1 charges
+verify. Existing viewer reentry replays twelve source projections and 392 calls;
+6,901 interaction checks pass again. Fresh browser inventory is empty, so visual
+QA stays unperformed. Native queue/worker/helper identities, fresh output, owned
+GPU lock and watcher delivery verify. Private final-packet drafts preserve absent
+neural comparisons and case roles; no successful partial collector is claimed.
+The four completed exact-program blocks also replay predictions and scores with
+all sixteen saved files unchanged. All 21 research locks hold.
+
 Gear 2 health inspection (OPS-S11.2-G2-HEALTH): actual native identities and fresh
 outputs verify, with unchanged scientific sources and bounded charges. Recent
 throughput is materially slower and projects beyond the final appointment; high

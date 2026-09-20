@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S11.1-REPORTING - scheduled final-packet preparation
+
+**Operational question.** Are the completed evidence and reporting instruments ready for the original final appointment while the later-stage queue continues within its bounds?
+
+**METHOD.** Match the reporting-start marker and delivered digest to the original schedule. Verify all bound report inputs, frozen sources and Stage 11.1 charges. Rebuild the existing human viewer with inference disabled, replay its retained calls and source projections, execute the shipped page's interaction checks, and inspect native browser availability. Verify current coordinator, worker and helper identities, fresh output, GPU lock, budget and watcher delivery. Refresh private report drafts without interpreting unfinished cells.
+
+The table records report readiness and live execution, not new scientific scores.
+
+| Check | Outcome |
+|---|---|
+| Reporting appointment | Original September 20 13:00 UTC marker matches; final delivery remains 15:00 UTC |
+| Completed Stage 11.1 evidence | All 32 bound report inputs, scientific sources and cumulative charges unchanged |
+| Viewer verification | Twelve source projections and 392 retained calls replay; immutable reentry and 6,901 interaction checks pass |
+| Visual inspection | Fresh native inventory has no browser; visual layout QA remains unperformed |
+| Complete exact evidence | All four previously landed development/test program blocks replay semantically; all sixteen saved files unchanged |
+| Stage 11.2 execution | Gear 2 worker alive and advancing; current development comparison incomplete, with no completed neural cell |
+| Monitoring and resources | Native identities, owned GPU lock, source pins, bounded charges and fresh watcher scan verify |
+| Report preparation | Stage 11.1 draft names the actual discussion cases; Stage 11.2 draft separates exact results, instrument refusals and incomplete comparisons |
+
+**Found and means.** Reporting has begun on schedule. Completed evidence remains intact, and the viewer's offline replay passes. Stage 11.2 continues in Gear 2, but its active comparison remains incomplete and recent throughput projects beyond the fixed appointment. Preserve missing coverage, all charges and the visual-QA limit in the final packet. The unchanged coordinator has a six-hour child timeout near 14:09 UTC; inspect any actual exit and surviving worker before recovery. Never synthesize queue completion or score partial cells to satisfy the packet collector. No new tests harvested, scientific source edits, inference launch, application closure or deadline extension.
+
+**Curator roll-up.** Theory group: research operations. Question: is the final appointment supported by intact evidence and an honest execution handoff? Outcome: **Infrastructure**. Result: reporting preparation passes its retained-evidence checks while the later-stage comparison remains incomplete. Project meaning: readiness is separate from scientific completion and final delivery. Next engineering obligation: reconcile actual terminal dispositions and charges, refresh final integrity and deliver the single appointment packet. Public claim: unchanged. Curator decision required: No. Detail: [reporting-start receipt](results/phase_2_4_stage_11_1/REPORTING_START.json).
+
+---
+
 ### OPS-S11.2-G2-HEALTH - live but slowed queue near reporting
 
 **Operational question.** Is the resumed queue still making progress, and can its current block fit the remaining appointment window?
