@@ -83,6 +83,7 @@ Translated into objects, before any claims about their shape:
 | object | canonical meaning | timescale |
 |---|---|---|
 | **proximal goal** `G` | the governing purpose of the artifact or declared episode; distinct from the subordinate target currently in attention | artifact or episode scale; often maintained during production |
+| **local subordinate goal** `g_t` | the purpose of a particular choice or region, potentially serving one or several governing goals; not identical to the fact of attending to it | step or region scale |
 | **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
 | **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences; the shared language of a domain; the largest part, never the whole, of the ability to recreate | cross-episode, domain-relative |
 | **drives** `D` | currently active motivational pressures or primitive constraints | state-dependent |
@@ -97,6 +98,20 @@ Translated into objects, before any claims about their shape:
 > the maker's beliefs and expertise.
 
 *2026-09-01 walkthrough; spoken wording lightly reconstructed.*
+
+> For the broad scope, we're going to need a weighted list of proximal goals with respect to each
+> local sentence, at least, of an output.
+
+*Curator's local-goal, evidence-reorganization and expertise walkthrough, supplied in the
+analysis thread; recording date not separately supplied; filed 2026-09-21. Wording preserved,
+with line wrapping and punctuation normalized.*
+
+The curator's latest product language uses proximal goals at the passage level. The object table
+retains governing purpose `G` and names its local subordinate targets `g_t`, so scope is explicit
+rather than silently changing the earlier definition. A sentence is an address for inspection,
+not proof of one psychological decision or one active goal. A reviewer request or commission is
+external context; the maker may adopt it, reinterpret it, oppose it or satisfy only part of it.
+Recovering that request does not by itself recover the maker's governing purpose or attended goal.
 
 Three conflations this table dissolves. **Expertise is not process.** Expertise is the maker's
 learned transition model, the map of which actions are reachable and what they are expected to
@@ -137,8 +152,10 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 
 **State of the section's claim.** The object table fixes the working distinctions among
 expertise and process, external and interpreted context, drives and values, and governing
-purpose and focal subgoals. These definitions do not establish recoverability. Repeated,
-diverse episodes are a proposed source of leverage on persistent motivational organization;
+purpose and focal subgoals. Local estimates carry their region and parent-goal scope;
+recovering an external request does not establish that the maker adopted it. These definitions
+do not establish recoverability. Repeated, diverse episodes are a proposed source of leverage
+on persistent motivational organization;
 no clean comparison here shows that human values require a particular number of artifacts
 or that goals require only one (L-tier2, G65). The measured real-text curve is a small
 identity-channel improvement followed by an early plateau (G60, L34). Constructed profile
@@ -233,6 +250,21 @@ clues. Explanatory reach is not specificity: a broad aim may fit many makers, an
 manifestations may share one cause. Expertise can constrain purposeful behavior while also
 expanding the repertoire; it does not make experts universally more predictable than novices.
 
+> You're often waiting for the final line of the play or riddle to understand the point the
+> author was trying to make.
+
+*Curator's local-goal, evidence-reorganization and expertise walkthrough, supplied in the
+analysis thread; recording date not separately supplied; filed 2026-09-21. Wording preserved,
+with line wrapping and punctuation normalized.*
+
+Later parts of a work can change the interpretation of earlier choices. That is a legitimate
+revision using a later evidence snapshot, not evidence that the earlier meaning was already
+recoverable. Uncertainty between complete maker accounts differs from one maker pursuing
+several aims, switching aims, or collaborating with another maker. Marginal local-goal weights
+can conceal these differences. Preserve compatible goal and process combinations; nonexclusive
+goals need not form a distribution summing to one. These are distinctions within joint
+reconstruction, not new inference families. Confidence: untested, logic only.
+
 Historical correction also changes the evidence for a proposed technique. If its only
 warrant was that it supposedly produced this artifact, discovering a different actual route
 removes that warrant. A reconstruction independently made to work retains its demonstrated
@@ -265,11 +297,12 @@ itself appear more accurate.
 
 *2026-09-04 walkthrough; lightly cleaned transcript.*
 
-The current terminology reserves proximal goal for the artifact's governing purpose,
-the reason resources are spent on the work. The quotation uses goal at both governing
-and attended levels; the prose distinguishes them. Purpose can persist while attention
-moves among subordinate goals, and a genuine change of purpose remains possible. Its
-stability is a working expectation, not a universal fact about artifacts.
+The earlier terminology reserved proximal goal for the artifact's governing purpose,
+the reason resources are spent on the work. Both this quotation and the later local-output
+request in §1 use the phrase at more than one level. Keep governing purpose `G` and local
+subordinate goal `g_t` explicit whenever scope matters; neither is identical to attention.
+Purpose can persist while attention moves among subordinate goals, and a genuine change of
+purpose remains possible. Its stability is a working expectation, not a universal fact.
 
 The K-family pull ordering supplied and scored in Stage 7 is a preference over move types
 derived jointly from purpose and law. Stage 8 scores an artifact purpose beside that pull
@@ -326,7 +359,7 @@ working account. The artifact can help its maker work backward from choices to t
 and expertise that shaped them. Maker and outside reader estimate the same targets from
 different observations.
 
-**A label is a lossy pointer; understanding is realized prediction** *(the 2026-08-30/31
+**A label is a lossy pointer; prospective constraint tests its realization** *(the 2026-08-30/31
 passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
 
 > If you had all three pieces, you should be able to recreate the activity quite precisely. If the
@@ -342,25 +375,20 @@ passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*
 
 *2026-08-30 assessment; spoken wording lightly reconstructed.*
 
-A mental-state label is a lossy pointer into `q_R`, not a recovered state. A short hypothesis
-about the maker underdetermines the state it names; to carry evidential weight it must be
-realized against the artifact and declared context into a state that changes the reader's
-predictive distribution, and the test of that realization is prospective: the hidden
-continuation, the next edit, stopping, a declared recipient response, or the changed-context
-choice. A label whose realization
-moves none of these has not been cashed, however insightful it sounds.
+A mental-state label is a lossy pointer into `q_R`, not a recovered state. Its meaning must be
+realized against the artifact, context and possibility space. Different descriptions can realize
+the same predictive state, and the same words can realize different states for different makers;
+a longer rationale does not resolve this. Language, structured slots, programs and latent vectors
+remain possible representations.
 
-**A short mental-state label is a pointer, not the reconstructed maker state.** Its operative
-meaning must be re-centered in the whole artifact, context, and possibility space until it
-entails a distribution over the maker's remaining decisions. Different descriptions may realize
-the same predictive state, and the same words may realize different states for different
-makers; a longer rationale does not solve this by itself. The representation may be language,
-structured slots, a program, or a latent vector; what earns credit is prospective constraint
-on a hidden continuation, next edit, stopping decision, declared recipient response, or
-changed-context choice. Stage 6
-attempted to instrument this rule, but its hidden dependencies voided the interpretation
-(M-S6). The rule remains a prospective criterion, not a claim that language is the required
-representation of the maker state.
+The earlier quotations state a demanding prospective criterion: a maker account should constrain
+hidden continuations, edits, stopping, recipient responses or changed-context choices. The later
+walkthrough above also makes understanding the work an intended benefit in its own right.
+Independently corroborated process relations, correctly located decisions and a useful route the
+reader can enact are separately assessable contributions. A persuasive description alone earns
+none of them, and a predictive gain alone does not establish historical correspondence. Stage 6's
+attempt to instrument the prospective criterion was voided by hidden dependencies (M-S6).
+The criterion survives without becoming the sole definition of useful understanding.
 
 A recipient-effect prediction is credited against a declared, independently checked
 response. It does not establish the exact edit or historical route that produced it.
@@ -668,17 +696,20 @@ working values construction.
 | **G56** | Supplying mechanics-level information unlocks goal recovery | **OPEN, the missing arm.** Every edge tested supplies a goal or a process, never a mechanic |
 | **G57** | Prior information at any target improves the others | **OPEN.** One of six edges ever tested |
 | **G58** | Entry is possible at any sub-level, with expertise setting which | **OPEN** |
+| **S12-EXPERTISE** | Frozen knowledge that improves native production also constrains the artifact's current objective, with practice compared against identical replay | **SUPPORTED within the descriptive construction (test, L411; Ghost native worlds, exact-program readers).** All learned arms improve both production objectives over the untrained policy and reduce inverse probability error under intact and degraded evidence. Practice equals matched replay exactly; practice versus demonstration reverses with acquisition coverage. Declarative operation knowledge is near the true-law oracle. The known optimal-maker assumption, previously inspected development support and unequal prior information limit this to the declared diagnostic, not human expertise or neural reconstruction. |
 | **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The first edge that would begin to discriminate among the candidate shapes the prose declines to name |
 
-**State of the section's claim.** Coupling is real and directional in the one pair ever tested,
-and everything past that pair is shape territory the file explicitly declines to write down.
-The tested edge behaves like a genuine joint inference with an important asterisk, since goal sat
-at ceiling and a ceiling can manufacture both "goal easiest" and "goal is a sink". Five of six
-edges have never been supplied, the mechanics arm has never existed, and the substitute
-construction's values vertex was void, so no shape statement has evidential standing yet. The
-single edge that would begin to discriminate candidate shapes is finally runnable where a working
-values construction exists. Confidence: the goal-process findings are one bad test away and
-sim-only; the upstream conjecture is untested, logic only.
+**State of the section's claim.** Goal and process constrain each other in bounded
+constructions; their full topology remains open. The earlier coupling result puts goal
+at ceiling, which can manufacture an apparent direction of influence. In a separate
+native production world, acquired mechanics knowledge improves objective inference
+over an untrained model, while identical practice and replay remain the same instrument
+and acquisition coverage changes their comparison with demonstrations (L411). That
+diagnostic assumes a known optimal maker and does not measure the full set of directed
+edges or establish human expertise. The earlier substitute construction's values vertex
+was void, so it cannot support a topology involving values. Confidence: one bad test
+away for the scoped constructed findings; untested, logic only for the upstream
+conjecture and general topology.
 
 # Part II: The difficult third inference
 

@@ -642,6 +642,23 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Rehearse every actual handler's second entry, including generated-state records.**
+  Stage 12's full fake-transport rehearsal completed retention, then refused its
+  own saved answer bank because integer keys returned from JSON as strings. Use
+  JSON-native string keys without changing rendered requests, and require equal
+  handler results with no additional calls on reentry. The unstarted scientific
+  queue was replaced at its resource-wait boundary; all attempts and cancellation
+  receipts remain. All fifteen handlers now replay and the 38-test suite passes.
+  (OPS-S12-LOCAL-RESUME, 2026-09-21)
+
+- **A returned response is preserved before follow-up telemetry.** Stage 12's
+  model warm-up returned raw data, then the GPU snapshot timed out before exact
+  client elapsed time was saved. A prospective response receipt now binds raw
+  bytes and timing first; required missing telemetry still fails and retains its
+  charge. Replay invalid responses as invalid, rather than assuming completion
+  implies a valid parse or reader admission. The full repaired canary completed
+  and failed capability; 24 checks pass. (OPS-S12-G2-REPAIR, 2026-09-21)
+
 - **Terminal supervision must accept the actual producer schema.** A Stage 11.2
   producer wrote lowercase `complete`, while its process monitor accepted only
   uppercase states and reported disappearance after a valid result. Normalize

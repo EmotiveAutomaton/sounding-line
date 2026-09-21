@@ -1,0 +1,115 @@
+{
+  "at": "2026-09-21T14:36:49.375958+00:00",
+  "charges": {
+    "cpu_seconds": 7572.143001999706,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "events": [
+    {
+      "digest": "d98a35ac25b8f933110ddb0311c2e9c0684fe78cfc8a4d6c3dcc99885fa6310c",
+      "id": "34b6dedd5fd6f3eeaf812d59",
+      "path": "results/phase_2_4_stage_12/raw/queue/ghost-local-v1/EXIT-92355b5bf43943f1bb04c9d869262af0.json"
+    },
+    {
+      "digest": "9d14606314cd9df630bf85e19f979261343859becaeefd57ebba52f7cc83b255",
+      "id": "7c748665d2d379fded57073e",
+      "path": "results/phase_2_4_stage_12/raw/queue/ghost-local-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "884e967f6b65830822af47d1a6876883ca43a3f19620bdcd5b4dae1369d099cd",
+      "id": "9d412a04f15d5ec77fa89943",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-Ghost-local-v1/COMPLETE.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "interpretation": "finite ambiguity apparatus only; five distinct public projections; no trained reader or human-goal claim",
+  "outputs_verified": true,
+  "summary": {
+    "cases": 40,
+    "controls": {
+      "all_historical_processes_covered": true,
+      "exact_template_support_equal": true,
+      "live_dependency_repair": true,
+      "normalized_choice": true,
+      "outside_family_unknown": true,
+      "placebo_same_operation_different_goals": true,
+      "positive_undo": true,
+      "skill_changes_reachability": true,
+      "source_replay": true
+    },
+    "distinct_public_inputs": 5,
+    "files": {
+      "EVALUATOR_ONLY.json": "0ce531d44147c3a20c0bef8aa7df7a90200f9bad1a6f70aa693ac68b383ee794",
+      "PACKETS.json": "aedff17da017530994998799e89cdf025422ece230da4feca96b753889ba8b34",
+      "REQUESTS.json": "d0dac91ede7a8070b011a89ce70503d153e2fb1276fd0dbcdf1ee3aa6e3c8fd2",
+      "ROWS.json": "61c311674ceb291b3c5d09063caedf77fa8237bea5c4d3258f63fceb9bcc7e46"
+    },
+    "kind": "infrastructure",
+    "learned_calls": 0,
+    "lineages": 8,
+    "packets": 80,
+    "reader_requests": 80,
+    "scope": "all-inspect ambiguity fixtures; not varied training population or learned local-goal evidence",
+    "status": "complete"
+  },
+  "tiers": {
+    "E0": {
+      "all_actual_processes_covered": true,
+      "candidates": [
+        2104
+      ],
+      "cases": 8,
+      "joint_hypotheses": [
+        208
+      ]
+    },
+    "E1": {
+      "all_actual_processes_covered": true,
+      "candidates": [
+        992
+      ],
+      "cases": 8,
+      "joint_hypotheses": [
+        190
+      ]
+    },
+    "E1-corrected": {
+      "all_actual_processes_covered": true,
+      "candidates": [
+        992
+      ],
+      "cases": 8,
+      "joint_hypotheses": [
+        190
+      ]
+    },
+    "E2-full": {
+      "all_actual_processes_covered": true,
+      "candidates": [
+        288
+      ],
+      "cases": 8,
+      "joint_hypotheses": [
+        36
+      ]
+    },
+    "E2-sparse": {
+      "all_actual_processes_covered": true,
+      "candidates": [
+        744
+      ],
+      "cases": 8,
+      "joint_hypotheses": [
+        126
+      ]
+    }
+  }
+}

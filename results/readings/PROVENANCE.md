@@ -18,6 +18,25 @@ with the reason.
 
 ---
 
+## Stage 12 commission and theory application - 2026-09-21
+
+The latest supplied errata identifies a long walkthrough beginning “Alright, the
+update makes sense”; its speech date is unspecified. September 21 is the filing
+and application date. Eight excerpts are attributed in the archived handoff;
+older quotations are unchanged. The single lexical repair restores “I” after
+“The ones,” preserving the original wording in that source.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S12.RUN | Assemble the supplied week's tests, begin execution, then apply errata and file specs; maintain four-hour queue health (current audio instruction). | CPU preparation, finite guarded queue and original week checkpoints; inference remains explicitly pending admission. | FINDINGS OPS-S12-HANDOFF; docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md | built and tested within stated limits |
+| S12.E1 | Weighted local goals at least at sentence addresses (Q1). | Governing purpose and local subordinate goals separated from attention and external requests. | docs/theory/THE_TRIPLE_INFERENCE.md sections 1 and 2 | written |
+| S12.E2 | The final line can reveal the point of a work (Q2). | Later evidence snapshot distinguished from earlier recoverability; compatible joint accounts retained. | docs/theory/THE_TRIPLE_INFERENCE.md section 2 | written |
+| S12.E3 | Understanding the work is an intended benefit (earlier walkthrough, reconciled by supplied E3). | Corroborated process, reader-enactable usefulness and prospective constraint remain distinct standards; earlier predictive quotations preserved. | docs/theory/THE_TRIPLE_INFERENCE.md section 2 | written |
+| S12.E4 | Acquired jiu-jitsu knowledge changes judgments of apparent skill and invites closer attention (Q3/Q4). | Production skill, presentation and observational familiarity separated; sole lexical repair marked. | docs/theory/READER_HEURISTICS.md section 2 | written |
+| S12.E5 | Organization explains previously unremarked choices; the preferred explanation may overbias the reader (Q5/Q6). | New facts, relations and candidate families distinguished; literary reinterpretation does not prove biography. | docs/theory/READER_HEURISTICS.md section 4 | written |
+| S12.E6 | Flow “would” resemble prior decisions and “perhaps” carry context-based errors (Q7). | Historical-trace conjecture preserved without equating automaticity, outcome-insensitive habit or current endorsement. | docs/theory/DECISION_TRACES.md sections 1 and 3 | written |
+| S12.E7 | Expectation of some simulation-based advantage (Q8). | Pursuit hypothesis retained; decodable state, causal use, reconstruction and human correspondence separate. | docs/theory/THREE_COGNITIVE_LAYERS.md section 2 | written |
+
 ## Contribution study and theory application - 2026-09-18
 
 The supplied errata quotes two prior walkthroughs whose recording dates are unspecified.

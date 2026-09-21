@@ -1,0 +1,120 @@
+{
+  "at": "2026-09-21T21:00:48.470680+00:00",
+  "canary_complete": false,
+  "charges": {
+    "cpu_seconds": 10120.447755402187,
+    "diagnostic_gpu_seconds": 228.84195430000545,
+    "gpu_seconds": 228.84195430000545,
+    "host_cpu_seconds": 457.6839086000109
+  },
+  "checkpoint_helper_identity_and_fresh_output_verified": true,
+  "dispatch_gpu": {
+    "additional_required_MiB": 7768,
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": true,
+    "reason": "ready",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-21T20:52:42.371640+00:00",
+      "free_MiB": 8316.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 23.37,
+      "temperature_C": 45.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 3966.0,
+      "utilization_percent": 33.0
+    }
+  },
+  "events": [
+    {
+      "digest": "health:2b28b5e757674a6994ce84361d3aa383",
+      "id": "6ae348a0c42763b34b3eeccb",
+      "path": "[queue health: inspect progress, failures, locks and authorized next work]"
+    },
+    {
+      "digest": "1079dbef17c6a51340fa74d7df518a3a902d819ea9ed85e093cb3704d836a28c",
+      "id": "a0187324e6273e38a1999c15",
+      "path": "results/phase_2_4_stage_12/raw/queue/health-canary-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "ce77dd034386783ca96e932c0f12f8c481e38cefcbc35c6158488f714ee4fccd",
+      "id": "eff90d7b6aea8692a442d3e1",
+      "path": "results/phase_2_4_stage_12/raw/queue/health-canary-v1/EXIT-64cebc3dbbb44977b7781c3d2c3f0253.json"
+    },
+    {
+      "digest": "0c1d528762408613e6f43bcf6bea25d32a1a9c834c3de2dc51a878bfb95b0821",
+      "id": "35db908f45fc0891a43f0afd",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-canary-v3-r4/FAILED.json"
+    }
+  ],
+  "gpu_and_native_queue_locks_absent": true,
+  "hash_locks": 21,
+  "initial_gpu": {
+    "additional_required_MiB": 7768,
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": true,
+    "reason": "ready",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-21T20:50:35.132660+00:00",
+      "free_MiB": 7967.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 24.08,
+      "temperature_C": 46.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 4315.0,
+      "utilization_percent": 23.0
+    }
+  },
+  "kind": "Infrastructure; health recovery and failed canary reconciliation",
+  "missing": "exact client elapsed and post-response GPU snapshot; current device and server availability remain unestablished",
+  "original_card_unchanged": true,
+  "paid_dispatch": 0,
+  "publication": "pending",
+  "queue_exit_sha256": "ce77dd034386783ca96e932c0f12f8c481e38cefcbc35c6158488f714ee4fccd",
+  "repair_policy": "No blind retry; one cause-specific recovery remains conditional on functional telemetry and remaining diagnostic budget",
+  "retained_failure": "nvidia-smi after-response snapshot exceeded twenty seconds; original raw reply retained",
+  "scientific_claim": "unchanged; no capability admission",
+  "scored_canary_calls": 0,
+  "shared_admission": "export schema, tokens and forecast targets differ from provisional local byte-GRU contract; source adapter/replay still required",
+  "source_ownership": "Ghost reports both settings consumed; actual exports now exist; no further fit available",
+  "subset_dispatch": "existing canary only; downstream held for complete admission review",
+  "warmup_completion_known": true,
+  "warmup_raw_and_request_bindings_verified": true,
+  "watcher_identity_sources_and_fresh_scan_verified": true,
+  "worker_and_queue_exited": true,
+  "inspected_through": "2026-09-21T21:11:22.632838+00:00",
+  "resource_ready_marker_archived": true,
+  "resource_ready_archive_sha256": "4d99eade3db548de937d843223c5a709adacbd97034c411985fee8c9f323abe2",
+  "diagnostic_seconds_remaining": 3371.1580456999945,
+  "unchanged_retry_reservation_seconds": 3570,
+  "system_inspection": {
+    "private_evidence_retained": true,
+    "node_origins": "observed Codex runtimes and tool integration processes",
+    "sampled_node_cpu": "negligible in bounded accessible-process sample; not proof about earlier peak",
+    "sampled_host_cpu_percent": [
+      9.950653585721225,
+      10.996741967724134
+    ],
+    "physical_ram_free_MiB": 63945.0,
+    "physical_ram_total_MiB": 97383.0,
+    "application_hangs_recorded": true,
+    "unrelated_peripheral_helper_handle_anomaly": true,
+    "cause": "unresolved",
+    "unrelated_applications_stopped": false
+  },
+  "helper_output_age_seconds": 28.522108,
+  "prospective_logging_repair": "Persist response receipt and exact client elapsed before after-response GPU telemetry; preserve failure if required telemetry is missing.",
+  "probe_cleanup": {
+    "owned_probe_python_and_gpu_query_exited": true,
+    "other_probe_former_pid_reused": true,
+    "other_probe_not_stopped_by_this_operator": true,
+    "current_reused_pid_identity_is_not_old_gpu_query": true
+  }
+}

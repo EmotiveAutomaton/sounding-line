@@ -7,11 +7,16 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-19)
+## Current orientation (2026-09-21)
 
-- **Stage 11.2 is active:** [persistent maker mechanisms](PHASE_2_4_STAGE_11_2_CONTEXT.md), filed byte-for-byte from the supplied top-level September 19 brief. Explicit Gear 2; Sunday deadline and 18-hour local GPU ceiling retained. [Runner contract](../../runners/stage11_2/README.md).
+- **Local execution resumed:** [bounded output-interface diagnosis](STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md) separates the prior telemetry repair from the new full canary. The live local sequence waits for measured capacity, then runs complete comparisons only after admission; no cloud prerequisite.
+- **Next local queue prepared:** [already-compiled breadth](STAGE12_LOCAL_BREADTH.md) carries five complete context/Git cards, with dispatch conditional on initial landings, queue exit and actual remaining capacity.
+- **Stage 12 is active:** [week commission](PHASE_2_4_STAGE_12_CONTEXT.md), filed unchanged including its later Ghost-owned shared-fit designation. [Implementation and continuation](STAGE12_IMPLEMENTATION_HANDOFF.md) records the finite queue, conditional admissions, original limits and prepared funding option. The [initial source](archive/SOUNDING_LINE_STAGE12_WEEK_HANDOFF_2026-09-21.initial.md) exactly matches the original T0 hash; no clock or allocation is reset.
+- **APPLIED September 21:** [local goals, reorganization, expertise and simulation errata](archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-21.md). Seven clarifications and eight excerpts preserve all older quotations and evidence rows; no scientific status is upgraded. [Reconciliation receipt](../../results/phase_2_4_stage_12/THEORY_ERRATA_INSPECTION.json).
 
-- **Stage 11.1 is active:** [branching continuation](PHASE_2_4_STAGE_11_1_CONTEXT.md), filed byte-for-byte from `SOUNDING_LINE_STAGE_11_1_BRANCHING_STUDY_2026-09-18.md` at the curator's request. Gear 2 is explicitly retained. Historical immutable authority records preserve the original supplied filename; this is its operative location. [Branch readiness](../../results/phase_2_4_stage_11_1/BRANCHES.md).
+- **Stage 11.2 execution is closed:** [persistent maker mechanisms](PHASE_2_4_STAGE_11_2_CONTEXT.md) remains the unchanged historical brief. Its [final report](../../results/phase_2_4_stage_11_2/REPORT.md) records an incomplete neural comparison; the expired window grants no continuation.
+
+- **Stage 11.1 is closed:** [branching continuation](PHASE_2_4_STAGE_11_1_CONTEXT.md) remains filed unchanged for historical source bindings. [Final report](../../results/phase_2_4_stage_11_1/FINAL_REPORT.md) contains the admitted comparisons and limits.
 
 - **Stage 11 is complete (L390):** [retrospective contribution commission](PHASE_2_4_STAGE_11_CONTEXT.md), filed unchanged from the supplied September 18 specification. Explicit Gear 2 instruction supersedes its default gear only; finite sample, call, GPU and deadline limits remain. [Runner contract](../../runners/stage11/README.md).
 - **APPLIED September 18:** [contribution, context and selective-attention errata](archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-18.md). All ten exact operations across six amendments passed isolated-copy checks and theory lint. Prior quotations and empirical rows are unchanged. The loose parent copy was deleted after byte-identical archival, as requested.
@@ -83,7 +88,11 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
-| [PHASE_2_4_STAGE_10_CONTEXT.md](PHASE_2_4_STAGE_10_CONTEXT.md) | **OPERATIVE; IMPLEMENTATION STARTED** | adopted prototype study, six strategies, small cohorts, independent branches and final report |
+| [PHASE_2_4_STAGE_12_CONTEXT.md](PHASE_2_4_STAGE_12_CONTEXT.md) | **OPERATIVE; WEEK OPEN** | current commission, conditional primary, complete controls, original resource ceilings and reporting |
+| [STAGE12_IMPLEMENTATION_HANDOFF.md](STAGE12_IMPLEMENTATION_HANDOFF.md) | **OPERATIVE implementation handoff** | current queues, missing admissions, recovery, shared fit owner and approved capped cloud route awaiting billing verification |
+| [STAGE12_NATIVE_SHARED_CONSUMER.md](STAGE12_NATIVE_SHARED_CONSUMER.md) | **FROZEN completed consumer** | actual model/source replay protocol; funding statements preserve its pre-approval snapshot |
+| [STAGE12_EXPERTISE_CONSUMER.md](STAGE12_EXPERTISE_CONSUMER.md) | **FROZEN completed consumer** | narrow native production/inversion cross, complete controls and descriptive scope |
+| [PHASE_2_4_STAGE_10_CONTEXT.md](PHASE_2_4_STAGE_10_CONTEXT.md) | **HISTORICAL; LOCAL CLOSEOUT COMPLETE** | adopted prototype study, six strategies, small cohorts, independent branches and final report |
 | [PHASE_2_4_STAGE_9_CONTEXT.md](PHASE_2_4_STAGE_9_CONTEXT.md) | **REUSABLE SUBSTRATE; SELECTED CLOSEOUT COMPLETE, WIDER AGENDA DEFERRED** | historical Stage 9 questions, gates, resource ceiling and final packet contract; retained without rewriting frozen evidence |
 | [STAGE9_FORECAST_REVIEW.md](STAGE9_FORECAST_REVIEW.md) | **OPERATIVE scheduling record** | existing runtime measurements, assumptions and unresolved resource constraints; no new scientific authority |
 | [archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md](archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md) | **HISTORICAL PRECURSOR; APPLIED 2026-09-09** | the exact theory and quotation maintenance package; implementation recorded in FINDINGS under theory/documentation maintenance |

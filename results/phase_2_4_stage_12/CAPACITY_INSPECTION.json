@@ -1,0 +1,95 @@
+{
+  "at": "2026-09-21T14:33:12.731675+00:00",
+  "canary_started": false,
+  "capacity": {
+    "additional_required_MiB": 7768,
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "headroom, temperature or incompatible resident model; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-21T14:31:24.485911+00:00",
+      "free_MiB": 6053.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 47.78,
+      "temperature_C": 55.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 6229.0,
+      "utilization_percent": 39.0
+    }
+  },
+  "charges": {
+    "cpu_seconds": 7569.033626999706,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "events": [
+    {
+      "digest": "2dd236b8ee3699e8587041c945c6fd032c73e185dd8d2ce4253942a182255ae8",
+      "id": "6ed831d915edde22c343275f",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-capacity-v1/COMPLETE.json"
+    },
+    {
+      "digest": "daaf02a79d46a4c3f4888b5c6814c587974a82fd65c15c19cf13bd24eebbb535",
+      "id": "6f34bc2779ebd5602d5b27dd",
+      "path": "results/phase_2_4_stage_12/raw/queue/canary-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "76e5ecb6ca8dfa3d452a6ba17549a510fb9dfc1fd52ee48f883dfb52af425b6e",
+      "id": "1da36188911e35be32c70b53",
+      "path": "results/phase_2_4_stage_12/raw/queue/canary-v1/EXIT-53ee6db85f7241379cb09b7d095c484e.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "next": "independent CPU consumer setup; capacity reinspection during four-hour health or resource-release transition",
+  "queue": {
+    "failed": [],
+    "finished": "2026-09-21 07:31",
+    "shard": "0/1",
+    "stages": [
+      {
+        "est_minutes": 5,
+        "log": "results\\S12-S12-capacity-v1.log",
+        "minutes": 0.0,
+        "name": "S12-S12-capacity-v1",
+        "status": "DONE",
+        "why": "Does current native GPU headroom permit the already authorized local canary?"
+      },
+      {
+        "est_minutes": 10.0,
+        "missing": [
+          "results\\phase_2_4_stage_12\\raw\\jobs\\S12-capacity-v1\\RESOURCE_READY.json"
+        ],
+        "name": "S12-S12-canary-v1",
+        "status": "DEFERRED",
+        "why": "Can the current reader complete balanced known-answer timing classes under its own profile?"
+      }
+    ],
+    "started": "2026-09-21 07:31"
+  },
+  "summary": {
+    "controls": {
+      "actual_residency_checked": true,
+      "model_identity_verified": true,
+      "no_inference": true
+    },
+    "files": {
+      "CAPACITY.json": "0dcf4435db7b1bd3bd21489adc335260bf0363de474fe3bec97c5e167cc7d830"
+    },
+    "kind": "infrastructure",
+    "ready": false,
+    "reason": "headroom, temperature or incompatible resident model; do not close other applications",
+    "status": "complete"
+  },
+  "tests": "12 meaningful controls pass, including native CLI, unknown-request refusal/reservation, owned GPU lock and canary class balance"
+}

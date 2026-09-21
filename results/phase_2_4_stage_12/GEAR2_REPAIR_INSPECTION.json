@@ -1,0 +1,89 @@
+{
+  "at": "2026-09-21T21:23:13.520875+00:00",
+  "calls": 11,
+  "canary": "S12-canary-repair-v1",
+  "classes": 2,
+  "cloud_allocation": 0,
+  "complete_sha256": "1f1a8a0d45d5799374fcfbeeb43b6591247e5fae1453f3041cc293fad7bb705a",
+  "cumulative_charges": {
+    "cpu_seconds": 10202.076309001073,
+    "diagnostic_gpu_seconds": 320.76540780000505,
+    "gpu_seconds": 320.76540780000505,
+    "host_cpu_seconds": 641.5308156000101
+  },
+  "full_raw_semantic_replay": true,
+  "gpu_lock_absent": true,
+  "groups": {
+    "account": {
+      "correct": 1.0,
+      "input_tokens": [
+        740,
+        740,
+        739,
+        739,
+        740
+      ],
+      "n": 5,
+      "output_tokens": [
+        512,
+        452,
+        512,
+        265,
+        512
+      ],
+      "repeat_output_equal": true,
+      "repeated_request_identical": true,
+      "valid": 1,
+      "wall": {
+        "maximum": 7.387123099993914,
+        "median": 7.17090980001376,
+        "minimum": 3.927537299983669,
+        "n": 5,
+        "p90": 7.371477339998819
+      }
+    },
+    "forecast": {
+      "correct": 3.0,
+      "input_tokens": [
+        724,
+        724,
+        723,
+        723,
+        724
+      ],
+      "n": 5,
+      "output_tokens": [
+        290,
+        231,
+        512,
+        145,
+        290
+      ],
+      "repeat_output_equal": true,
+      "repeated_request_identical": true,
+      "valid": 4,
+      "wall": {
+        "maximum": 7.403474299993832,
+        "median": 4.113564799976302,
+        "minimum": 2.248278199986089,
+        "n": 5,
+        "p90": 6.863254899997264
+      }
+    }
+  },
+  "inspection_correction": "Initial inspection expected every raw parse to be valid and stopped on a truncated response; corrected inspection reproduces invalid markers and the failed admission, without changing scientific artifacts.",
+  "kind": "Infrastructure",
+  "local_cards_disposition": "not admitted; no automatic extra repair",
+  "local_comparison_cards_prepared": 15,
+  "local_plan_sha256": "3353609670e238ff8ae7028ad167a4c8155d18e69ab3c45b84e3f59d33747e6c",
+  "native_queue_and_worker_exited": true,
+  "original_failed_canary_retained": true,
+  "original_requests_and_gates_unchanged": true,
+  "reader_admitted": false,
+  "repaired_response_timing_verified": true,
+  "scope": "explicit-state constructed task only; no human or hidden-state/HF capability admitted",
+  "scored_roster": 10,
+  "shared_integration": "in progress, no additional fit",
+  "tests_passed": 24,
+  "tests_seconds": 17.404
+}

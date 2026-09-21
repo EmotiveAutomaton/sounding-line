@@ -1,5 +1,91 @@
 # STATE: the agent's operational file
 
+## Stage 12 week commissioned - September 21
+
+Current execution: `raw/PLAN-local-output-v2.json` is live under the existing
+native queue. Its resource-wait worker checks capacity every five minutes,
+without inference; current headroom is insufficient. Two actual ready samples
+release one bounded output-interface canary, then fifteen original complete
+local comparison blocks (258 requests) only after its unchanged gate passes.
+The curator's September 21 correction renews independent local continuation.
+The prior repair changed telemetry/timeouts only; closing all local recovery
+on that basis was too broad. Preserve both old attempts and the new frozen
+diagnosis; no automatic further interface revision or extra tiny fit.
+All 38 tests and 21 locks pass. Native shared-source consumers and the narrow
+expertise comparison are already internally landed (L411). Joint neural
+composition remains unadmitted. Checkpoint helper and four-hour watcher remain.
+
+The approved cloud pilot has not allocated compute. Fresh Modal API inspection
+verifies the expected workspace, no active apps and cycle usage. Environment
+budgets are unavailable for this workspace; payment readiness and the workspace
+usage/net-spend limits remain unverified. The owner is signed into Firefox,
+which is not exposed to the browser tool. The three exact billing facts have
+been requested; do not repeat a sign-in instruction or spending approval.
+The local queue has no cloud prerequisite. Next health inspection remains
+September 21 at 18:12:14 PDT; ordinary completion ACKs do not change it.
+The following setup snapshots preserve their chronology; this paragraph is current.
+
+Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:
+$3 twelve-request pilot, $16 for the remaining 159 requests only after pilot
+admission, and $1 protected. Fresh account/spend-backstop checks precede dispatch.
+This supersedes earlier unallocated snapshots below; local Gear 2 is unchanged.
+
+Shared-source replay is complete after one parent-fixture path repair. All native
+model, reference, causal and production records verify; the original failed
+consumer and charges remain. Both queues and all workers exited. Twenty-nine
+validation checks are covered by the full suite plus its regression. The real
+adapter supersedes the provisional byte-GRU contract. Forecast capability is
+admitted; joint causal composition and the full expertise/inversion cross are
+not. See OPS-S12-NATIVE-SOURCE and NATIVE_CAUSAL_REPAIR_INSPECTION.json.
+
+Latest: Gear 2 explicitly reaffirmed September 21. GPU/server telemetry recovered
+and the one versioned canary repair completed its entire fixed roster. Raw replay
+retains truncation and invalid probabilities; reader admission failed. The worker
+and queue exited and no GPU lock remains (OPS-S12-G2-REPAIR). Fifteen prepared
+local comparison cards remain unstarted behind that failed gate; independent
+shared-source adaptation is in progress. All 24 validation tests pass. No further
+local canary repair is automatic; preserve both attempts and all charges.
+Do not launch week-v1/v2/v3/v4 or local-repair-v1 as if a reader were admitted.
+
+The amended supplied handoff designates Ghost as sole tiny fit/accounting owner.
+Actual exports now exist and Ghost reports both shared settings consumed. Roster,
+model, capability and source-reference review remain required; the provisional
+byte-GRU consumer differs from the actual exported architecture and targets.
+Full composition rehearsal is a source-dependent admission obligation. Local fitting
+is disabled. The initial all-negative ARIES draft is preserved as scientifically
+unusable; the separately frozen replacement is annotation-balanced and descriptive.
+The human primary is frozen with two combined dependency components; no population
+interval is licensed. The capable cloud route is concrete but unallocated, with
+fresh current-account evidence absent. Source compilation and helper liveness
+are not neural capability or completed scientific comparisons.
+
+Original T0 is September 21 at 13:17:27 UTC /06:17 PDT, including setup. Interim
+is September 25 at 13:17 UTC. Reporting reserve begins September 28 at 01:17 UTC,
+and final delivery is September 28 at 13:17 UTC. The ceilings remain 36 CPU
+process-hours and 36 GPU service-hours, at most one diagnostic GPU hour, with
+four CPU/four GPU hours protected. CPU lanes are serial, one numerical thread
+and below normal priority. Existing explicit Gear 2 allocation remains for
+admitted GPU work; wakes grant no new gear or spending authority.
+
+The watcher and original checkpoint helper remain active with fresh output.
+The September 21 13:49 PDT inspection is historical; GEAR2_REPAIR_INSPECTION.json
+records the subsequent restored telemetry, complete canary and failed capability.
+Cumulative diagnostic charge is 320.765 seconds. The logging repair preserves
+known responses before follow-up telemetry; unknown request refusals remain.
+The unrelated host handle anomaly remains observed without causal attribution.
+Shared-source integration is the next independent authorized work; no new fit.
+The next health check is four hours after this inspection's documented ACK;
+its exact deadline is recorded in HEALTH_20260921_1349_ACK.json. Inspect ownership,
+progress/output age, failures, locks, resource limits, eligible work and delivery,
+then document/recover before ACK. Ordinary result ACKs never reset this clock.
+Use docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md for the current exact plan,
+source admissions and recovery. The theory errata is now applied; current and
+initial commission sources and errata are filed with exact source hashes. All
+older evidence and quotations survive. Publication validity passes, but commit
+and push remain pending. The private publication handoff records the remaining
+action; scientific admissions remain separate from repository publication.
+Earlier snapshots below concern closed Stage 11 windows and remain historical.
+
 ## Final appointment - September 20, 15:00 UTC
 
 Both final reports are assembled from the verified completed evidence. Stage 11.1
@@ -990,7 +1076,7 @@ All twelve named corpora now have evidence-linked readiness dispositions. Eight 
 
 Pinned arXivEdits files and a complete bounded CommitBench slice are acquired and byte-verified. The arXivEdits canonical loader and grouped development baseline complete on its three-paper explicit-license selection, with both fitted views below the prior on their mean. CommitBench preparation and its repository-held-out surface baseline also complete with explicit source-diff exclusions. Both scoped scientific comparisons and cross-source closure remain owed (OPS-S9-DATA-8/9).
 
-The latest full Stage 9 targeted suite passes 137 tests together after the revision-loader additions; log scoring uses the actual forecast; nonfinite handling is validated in the evaluator and repair gate, with scientific handler adoption owed (OPS-S9-SCORE-1).
+The latest full Stage 9 targeted suite passes 138 tests together after the revision-loader additions; log scoring uses the actual forecast; nonfinite handling is validated in the evaluator and repair gate, with scientific handler adoption owed (OPS-S9-SCORE-1).
 
 ArgRewrite corrected preparation exactly reproduces historical revision units and source counts, retaining both failed versions and excluding unverified draft correspondences from future prediction. Grouped development baselines complete, preserving the future arm's failure against the class prior. Cross-source closure and H01 capsule execution remain owed (OPS-S9-DATA-6).
 

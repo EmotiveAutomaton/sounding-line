@@ -1,0 +1,74 @@
+{
+  "active_scientific_workers": 0,
+  "at": "2026-09-21T16:48:34.856779+00:00",
+  "backlog_notices_retired": 6,
+  "charges": {
+    "cpu_seconds": 8229.89238960226,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "claim": "Infrastructure; scientific claims unchanged",
+  "cloud": "no allocation or current account evidence",
+  "current_cards": 21,
+  "current_contract_sources_and_cards_verified": true,
+  "delayed_notices": [
+    {
+      "id": "6ed831d915edde22c343275f",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-capacity-v1/COMPLETE.json",
+      "prior_ack": 1790001205.767106,
+      "sha256": "2dd236b8ee3699e8587041c945c6fd032c73e185dd8d2ce4253942a182255ae8"
+    },
+    {
+      "id": "6f34bc2779ebd5602d5b27dd",
+      "path": "results/phase_2_4_stage_12/raw/queue/canary-v1/AWAITING_SELECTION.json",
+      "prior_ack": 1790001205.9022107,
+      "sha256": "daaf02a79d46a4c3f4888b5c6814c587974a82fd65c15c19cf13bd24eebbb535"
+    },
+    {
+      "id": "1da36188911e35be32c70b53",
+      "path": "results/phase_2_4_stage_12/raw/queue/canary-v1/EXIT-53ee6db85f7241379cb09b7d095c484e.json",
+      "prior_ack": 1790001206.0385268,
+      "sha256": "76e5ecb6ca8dfa3d452a6ba17549a510fb9dfc1fd52ee48f883dfb52af425b6e"
+    }
+  ],
+  "eligible_cards": 0,
+  "event": "5469813925e81f83cf1dbd9b",
+  "gpu": {
+    "additional_required_MiB": 7768,
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "headroom, temperature or incompatible resident model; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-21T16:45:09.497839+00:00",
+      "free_MiB": 6417.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 45.02,
+      "temperature_C": 54.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 5865.0,
+      "utilization_percent": 36.0
+    }
+  },
+  "gpu_lock_absent": true,
+  "hash_locks": 21,
+  "health_ack": "After full internal write-through; follow-up receipt records next deadline",
+  "helper_actual_identity_verified": true,
+  "helper_output_age_seconds": 15.916543960571289,
+  "kind": "operational health inspection",
+  "native_queue_lock_absent": true,
+  "native_queue_owners_exited": 14,
+  "native_queue_remaining": 0,
+  "new_tests_harvested": 0,
+  "new_worker_failures": 0,
+  "previously_landed_events_in_retired_notices": 21,
+  "recovery": "Removed only exact verified already-landed owner notices; no scientific restart or altered gate",
+  "retained_failure": "original census KeyError; separately repaired and already fully landed",
+  "scan_age_seconds_at_inspection": 19.584509134292603,
+  "shared_tiny_source": "Ghost remains sole owner; current status reports no admitted model and two settings remaining",
+  "watcher_actual_identity_and_sources_verified": true
+}

@@ -40,8 +40,10 @@ and the forced-constraint nulls.
 or their comprehension. *Depth*: recoverable decisions directed toward the problem, subject, or
 artifact itself. Attraction and translation are subtypes of polish.
 
-**2. Degree of control.** *Deliberate*: consciously placed. *Automatic*: habituated, not actively
-held. `emblematic` and `leaked` are the **affect-specific** versions of this distinction, not
+**2. Degree of control.** *Deliberate*: consciously placed. *Automatic*: executed without the
+individual choice being actively held; practiced routines are one source. This does not by
+definition mean habitual control that is insensitive to the current outcome's value.
+`emblematic` and `leaked` are the **affect-specific** versions of this distinction, not
 synonyms for all deliberate and automatic behaviour.
 
 **3. Terminal-value topology**, a property of the artifact as a whole: *layered* (decisions serve
@@ -401,6 +403,26 @@ maker's present state.
 > maker chose to attend to when the artifact was created.
 
 *2026-09-01/02 walkthroughs; spoken wording lightly reconstructed.*
+
+> Things that come out in a flow state would be more like the kinds of decisions one has made
+> in the past and would be more likely to have things like, not Freudian slips, but context-based
+> errors perhaps.
+
+*Curator's flow-state conjecture in the local-goal, evidence-reorganization and expertise
+walkthrough, supplied in the analysis thread; recording date not separately supplied;
+filed 2026-09-21. Contiguous excerpt after a spoken restart; initial capitalization and
+punctuation normalized. The words "would" and "perhaps" retain its conjectural status.*
+
+The proposal gives fluent production a possible historical signal: a practiced policy may
+remain visible after its original context or aim has changed. It does not make flow, automatic
+skill, habitual control and present endorsement the same thing. Human flow studies measure a
+specific experience and task condition; fluent model output does not measure it. Evidence of
+outcome-insensitive habit is also distinct from repetition, whose induction effect is not
+uniform across human studies. A repeated choice can reflect old practice, a current purpose,
+a role, a tool default or an unnoticed constraint. These alternatives qualify how a trace is
+read without denying that expertise carries a transformed history. Confidence: untested,
+logic only for the proposed flow-to-trace relation. Literature context: [Ulrich et al.](https://academic.oup.com/scan/article/11/3/496/2375154),
+[Pool et al.](https://doi.org/10.1101/lm.053413.121).
 
 The original split came from the curator's ten-artifact think-aloud. It concerns the
 control and history of expression. Mapping automatic and deliberate expression onto

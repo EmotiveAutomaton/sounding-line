@@ -1,0 +1,95 @@
+{
+  "at": "2026-09-21T15:02:42.011358+00:00",
+  "charges": {
+    "cpu_seconds": 7572.596126999706,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "context_v1_calls_dispatched": 0,
+  "context_v2_prepared": 6,
+  "events": [
+    {
+      "digest": "064bb2147cae1689fcbeefe3983ee2f64f0ef441a4d7cd4082e72033afa17f85",
+      "id": "fd61f364827dc5e1cabc76f1",
+      "path": "results/phase_2_4_stage_12/raw/queue/analysis-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "e154b111b64a1b823adc7ed720b3ac1008206e0ae119f858478b7672d477a4c6",
+      "id": "83ce3ab2ef5d7aec49dcb069",
+      "path": "results/phase_2_4_stage_12/raw/queue/analysis-v1/EXIT-c16cb3512e8b48fd9af59e43b5cf8585.json"
+    },
+    {
+      "digest": "8fdba8ae39bbf1e4f9600d17e20ffea506115c618df7df414ff1a534aa51c4fe",
+      "id": "714ef15d6809cf007f527add",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-analysis-plan-v1/COMPLETE.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "plan": {
+    "aggregation": "average events within session, sessions within writer component, then equal writer components",
+    "calibration": "five fixed confidence bins on valid forecasts; invalid fraction reported separately; event and writer summaries distinct",
+    "conditions": [
+      "own_history",
+      "no_history",
+      "matched_training_donor",
+      "training_prior",
+      "persistence",
+      "full_training_prior"
+    ],
+    "dependency_components": 2,
+    "full_training_prior": [
+      0.44301208835927675,
+      0.13425001512676338,
+      0.31389630396843043,
+      0.10884159254552943
+    ],
+    "full_training_prior_scope": "additional stronger cheap control from every eligible training event, component balanced, one pseudocount per class; original frozen prior retained as separate arm",
+    "inference": "descriptive writer sensitivity only; no population interval from sparse connected components",
+    "labels": [
+      "accept",
+      "edit",
+      "dismiss",
+      "ignore"
+    ],
+    "meaningful_margin": 0.05,
+    "multiplicity": "one primary contrast; secondary comparisons descriptive, no p-values or selected-winner confirmation",
+    "new_model_results_inspected": false,
+    "original_requests_unchanged": true,
+    "primary": "writer-balanced paired half-Brier: no history minus own history",
+    "prompt_components": 9,
+    "reader_inputs_sha256": "23127beb6a9c38d9067f60c4cc526c42a939119f9b4dc33f5ca89607c2fa7713",
+    "rows": 57,
+    "schema": "s12.primary-analysis.1",
+    "sensitivity_name_correction": "2.8*SD/sqrt(n) is approximate detectable difference, not confidence-interval half-width",
+    "source_evaluator_sha256": "c7333ea9c2e98e2dd140b3a55741e1b0ab1ff32d1afbfdde370f6ae8f2d8c7c7",
+    "source_protocol_sha256": "4e3b50d79635cae36deda93da4ad45303b06927b31fcc22a4cda49c26faeda80",
+    "writer_components": 15
+  },
+  "source_request_population_unchanged": true,
+  "summary": {
+    "controls": {
+      "dependencies_explicit": true,
+      "original_requests_preserved": true,
+      "training_only_extra_prior": true
+    },
+    "dependency_components": 2,
+    "files": {
+      "ANALYSIS_PLAN.json": "e2195f8310f84d28cff9883b532cdd56064fd0fa084ab49f6dbbd6262eaa4c9a"
+    },
+    "kind": "infrastructure",
+    "prompt_components": 9,
+    "rows": 57,
+    "scope": "descriptive writer sensitivity only; no population interval from sparse connected components",
+    "status": "complete",
+    "writer_components": 15
+  },
+  "tests": "16 current tests pass; actual tiny training settings consumed zero",
+  "tiny_implementation": "training and causal handlers written, interface tested without a fit; shared roster/owner receipts and complete causal rehearsal still required"
+}

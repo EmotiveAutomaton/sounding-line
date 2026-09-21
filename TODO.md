@@ -1,5 +1,35 @@
 # TODO: the study queue
 
+## Stage 12 week - commissioned September 21
+
+- [x] OPS-S12-LOCAL-RESUME: separate the telemetry repair from one bounded output-interface diagnosis; freeze the same balanced canary and fifteen local comparison blocks in new namespaces. All 38 checks and 21 locks pass; native resource wait and queue are live without a cloud prerequisite.
+- [ ] OPS-S12-LOCAL-RESUME: current `PLAN-local-output-v2.json` waits for two actual GPU-capacity samples, then runs the full canary and conditionally the fifteen original complete blocks. Land each full produce; no automatic further interface revision. A failed controlled gate does not close independent task-specific/CPU work or the week.
+- [x] S12 next local breadth build: freeze five next cards and 108 requests from the already compiled second C1/C2 blocks and ten remaining Git operations, with complete rivals. The duplicate-heavy second C3 block is not added. `PLAN-local-breadth-v2.json` remains unstarted while the current queue owns execution.
+- [ ] S12 next local breadth dispatch: after the current queue exits and initial cells fully land, verify matching reader admission, measured timing and whole-tail remaining capacity, then launch the frozen five-card queue. Preparation is not budget admission. Continue to the stage's new-operator/provenance alternatives only on a named unresolved distinction.
+- [x] OPS-S12-NATIVE-SOURCE: actual frozen models, full native references and production/update support replay through the compatible adapter; 28 validation tests pass. No duplicate fit. The causal consumer's parent-fixture packaging failure is retained.
+- [x] S12 native causal recovery: parent-fixture binding repair passes its regression and complete two-site replay; original failure retained. All 24 probes and 86,016 score rows verify. Joint composition remains unadmitted; the narrow native expertise/inversion consumer remains to be built.
+- [x] S12-E1 native expertise: complete and replay the frozen all-rival production/inversion cross, with matched/restricted acquisition and intact/degraded evidence; full internal landing L411. No new fit or automatic extension.
+- [ ] S-P1 approved September 21: exact $20 tree approval recorded. API verifies expected workspace, no active apps and current usage. The owner is signed in through Firefox, which is unavailable to the browser tool; monthly usage limit, net spending limit and valid payment status are requested as actual billing facts. Execute the capped twelve-request pilot only after those checks; remaining 159 requests depend on pilot admission and $1 stays protected. No repeated spending approval needed. Local Gear 2 unchanged.
+- [x] OPS-S12-HEALTH-1349: inspect fresh readiness, submit the unchanged canary alone, reconcile telemetry failure/raw reply/charges/exits, investigate reported host load and archive stale readiness. Preserve private system evidence; no unrelated application stopped.
+- [x] OPS-S12-G2-REPAIR: functional telemetry restored; response/client timing repair and 24 checks pass. One complete repaired canary replays with failed reader admission. Original failure/costs remain; no automatic further repair.
+- [x] OPS-S12-HEALTH-0940: inspect native processes, freshness, failures, locks, resources, eligible work and delivery; reconcile delayed notices and retire only verified acknowledged duplicates. No scientific admission changed; recurring inspection continues after documented ACK.
+- [x] OPS-S12-OPENING: freeze the original seven-day clock, opening cards and successors; execute and internally land CPU preparation, preserving the source-census failure and versioned repair.
+- [x] S-P1: census the full source, freeze own/no/donor requests and original/full-training prior/persistence controls; complete all-arm analysis with dependency and infinite-loss accounting. Descriptive source support remains explicit.
+- [x] S12-01 build: current local transport, warm-up and balanced known-answer canary with repeated requests, GPU/native ownership, raw telemetry and no-retry guards.
+- [x] S12-B/C setup: source-bound local interpretation, actual Git operations/merge/missing history, ARIES request/edit correspondence, continuing-account matrices and retention acquisition/query comparisons are assembled and landed. Original ARIES all-negative selection is preserved; balanced diagnostic replacement is frozen.
+- [x] S12-D/E setup: conditional shared model, causal, composition and practice/replay consumers are assembled; untrained fixtures do not consume or admit a trained setting. Ghost is designated sole fit/accounting owner and local fitting refuses.
+- [x] S12-A cloud preparation: exact capped pilot/main transport, complete raw retrieval and changed-pilot/approval/account/duplicate refusal controls implemented; review packet prepared with no allocation.
+- [x] OPS-S12-HANDOFF: run the 22-test validity suite, source-freeze and submit finite week-v4; inspect and land every deferred/exit event, original helper and source/output checks. Week-v1/v2/v3 remain unstarted predecessors.
+- [x] S12-OPS checkpoints: original interim/reporting/final helper running, unchanged four-hour health clock and immediate failure alerts verified.
+- [x] S12-DOCS: apply seven supplied theory clarifications after queue assembly; preserve old quotations/evidence and file both supplied documents plus original commission prefix.
+- [x] S12 publication preparation: lock/privacy/deletion audit and versioned handoff complete.
+- [ ] S12 publication: commit and push this setup only to EmotiveAutomaton when permitted; follow the private publication handoff, include the latest status edits, and verify exact remote equality. No commit or push is yet claimed.
+- [x] S12-01 admission assessment: the full repaired canary failed its unchanged capability gate after transport recovery; no local reader admission. Fifteen comparison cards are frozen in local-repair-v1 but remain unstarted. Do not present the failed gate as scientific evidence or consume another repair automatically.
+- [ ] S12 local execution: the separately justified output diagnosis and live local queue above supersede the prior closed recovery assessment. Retain all old failures; actual reader admission is still required for dependent comparisons.
+- [x] S12 shared-source integration: actual models, capability, sources, causal controls and production records replay; original adapter failure and its bounded repair retained. Both shared settings remain Ghost-owned; no additional fit. Joint composition fails scientific admission and stays unstarted.
+- [ ] S-P1 execution: complete the already-approved bounded tree once fresh billing gates pass; keep the population descriptive, complete all source blocks and retain all failures/costs. Original Round 1 authority is not reused.
+- [ ] S12 packets: assemble outcome-independent case roles and whole comparisons for interim September 25 at 13:17 UTC and final September 28 at 13:17 UTC. Preserve last twelve hours for reporting and explicitly list any unavailable branch.
+
 ## Recurring queue health - 2026-09-19
 
 - [x] OPS-HEALTH-4H: implement, test and live-verify recurring four-hour health inspections with unchanged Gear 1 and immediate failure alerts.
@@ -922,7 +952,7 @@ All twelve named corpora now have evidence-linked readiness dispositions. Eight 
 
 Pinned arXivEdits files and a complete bounded CommitBench slice are acquired and byte-verified. The arXivEdits canonical loader and grouped development baseline complete on its three-paper explicit-license selection, with both fitted views below the prior on their mean. CommitBench preparation and its repository-held-out surface baseline also complete with explicit source-diff exclusions. Both scoped scientific comparisons and cross-source closure remain owed (OPS-S9-DATA-8/9).
 
-The latest full Stage 9 targeted suite passes 137 tests together after the revision-loader additions; log scoring uses the actual forecast; nonfinite handling is validated in the evaluator and repair gate, with scientific handler adoption owed (OPS-S9-SCORE-1).
+The latest full Stage 9 targeted suite passes 138 tests together after the revision-loader additions; log scoring uses the actual forecast; nonfinite handling is validated in the evaluator and repair gate, with scientific handler adoption owed (OPS-S9-SCORE-1).
 
 ArgRewrite corrected preparation exactly reproduces historical revision units and source counts, retaining both failed versions and excluding unverified draft correspondences from future prediction. Grouped development baselines complete, preserving the future arm's failure against the class prior. Cross-source closure and H01 capsule execution remain owed (OPS-S9-DATA-6).
 

@@ -10,6 +10,158 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ---
 
+## Stage 12 bounded consumers
+
+OPS-S12-LOCAL-RESUME: the versioned output interface preserves input evidence,
+strict probability validity and original canary criteria while providing bounded
+explanation/output room. Existing comparisons bind their effective requests and
+require matching interface admission. A cheap native queue worker waits for two
+actual capacity samples without inference, honors cancellation and never steals
+a GPU lock. All 38 Stage 12 tests and 21 locks pass; live resource waiting is
+verified. Reader admission for the new interface remains pending.
+Full fake-transport handler reentry then found and repaired retention JSON key
+identity; all fifteen handlers replay 258 fixture calls without additional
+calls. The stage-wide cancellation used for queue replacement also stopped the
+checkpoint helper; its exit remains and the original source/clock is recovered
+under a verified new owner. Future local-only replacement must not assume a
+stage-wide cancellation affects just its selected queue.
+
+L411: the native expertise consumer evaluates frozen transition knowledge on
+production and inverse-objective tasks, preserving exact practice/replay identity,
+observation channels, unsupported mass and infinite losses. Known-law recursive
+replay and alternative score calculation validate every completed output; all
+32 Stage 12 checks pass. No new training setting or human/neural claim. See
+EXPERTISE_INSPECTION.json and the frozen expertise consumer protocol.
+
+OPS-S12-NATIVE-SOURCE: actual native-token transformer/GRU model, causal and full
+production/update consumers pass source replay; 29 Stage 12 checks pass across
+the suite and added regression. Eight frozen fits, all 320 challenge forecast
+arrays and all 576 production checkpoints verify. No sequence fit occurs here.
+One repaired parent-fixture path resolves the retained causal adapter failure;
+all 24 probes and 86,016 score rows replay across both original sites. Forecast,
+production and selective-access admissions remain separate. Provisional byte-GRU
+consumers do not describe the actual export. See the native consumer contract and
+NATIVE_SHARED_INSPECTION.json in the Stage 12 result folder.
+
+OPS-S12-G2-REPAIR: a prospective response receipt now preserves the raw binding
+and exact client elapsed before post-response telemetry; missing telemetry still
+fails with full reservation and no blind retry. The versioned canary retains its
+entire roster and criteria under a smaller per-call timeout. All 24 validation
+tests pass. Actual complete replay establishes recovered transport and failed
+reader admission, with truncated/invalid outputs retained. Fifteen local cards
+remain unadmitted; no capability marker is fabricated. Independent shared-reader
+integration proceeds under the original week and no-new-fit bounds.
+
+OPS-S12-HEALTH-1349: fresh headroom admitted the unchanged canary's warm-up,
+but its after-response GPU telemetry query timed out. The retained raw reply and
+request binding verify; missing client elapsed time and after-snapshot remain
+unknown. No scored canary call or capability admission completed. Native queue
+and worker exited, ownership locks are absent, conservative charges are retained,
+and the stale resource-ready marker is archived. A separate GPU probe stalled;
+current server/device availability is unestablished. Persist response receipt and
+elapsed time before optional follow-up diagnostics in a prospective, separately
+validated repair; do not weaken required telemetry or admission. An unchanged
+retry exceeds the remaining diagnostic allowance. Original monitor/helper stay
+live; 21 locks pass. Host process evidence is private and establishes no cause.
+
+OPS-S12-HEALTH-0940: actual native monitoring, fresh helper output, current
+contract/source/card bindings and all 21 locks verify. The owner queue's six
+obsolete notices were matched to complete landings and acknowledgments before
+exact retirement; its remaining inventory is empty. No watcher code, scientific
+source or admission gate changed. Current hardware and shared-source blockers
+remain, with no new inference or paid dispatch.
+
+OPS-S12-HANDOFF: week-v4 binds the original contract hash and adds remaining
+matched-class timing/raw replay checks. Main cloud admission reopens the entire
+pilot archive and reconstructs its raw records against the canonical reservation
+and requests. Changed-pilot and changed-contract refusals pass with the full
+22-test suite. All final cards are deferred; original helper/watcher remain live.
+Source-dependent composition validation and live cloud allocation remain untested.
+Publication checks also verify all 21 locks, design/theory lint, current capsule
+bindings, native watcher/helper identities and private raw-data exclusions;
+see the Stage 12 FINAL_VALIDITY receipt. No scientific admission changed.
+
+OPS-S12-WEEK-SETUP: the finite week-v3 queue and Git/retention compilers are
+assembled. The ARIES all-negative draft is unusable for its contrast and remains
+retained; a separately frozen annotation-balanced diagnostic supplies both
+classes. Twenty-two tests and 2,445 source/output checks pass. The dispatcher
+starts the actual native interpreter, GPU service ownership overhead is charged,
+and typed provider packets retain claim provenance and unknown locations.
+Conditional GRU transfer interfaces have fixture evidence, not actual Ghost
+integration; the composition handler still requires source-dependent end-to-end
+validation. Cloud transport/retrieval is tested offline only. All scientific
+cards are deferred; helper liveness and request compilation are not capability.
+
+OPS-S12-ADAPTERS: Ghost local and ARIES source compilers now produce finite
+public-only request matrices with evaluator targets separate. Twenty tests pass,
+including actual merge/shallow-history reconstruction, complete capable-response
+retrieval and typed-claim failures. The changed supplied handoff assigns Ghost
+the shared fit; local fit dispatch now refuses. The ARIES adapter reproduces
+source paragraph/annotation semantics, not the paper's trained aligner scores.
+Its directional views both classify supplied request/edit pairs. Learned runs
+and model transfer remain conditional; no varied tiny training data is invented.
+
+OPS-S12-ANALYSIS-SETUP: the complete primary analysis now retains paired
+denominators, infinite log loss, fixed calibration bins and the connected
+writer/prompt graph. Original and full-training priors are separate controls.
+Context execution groups actual public query content, with six unstarted cards
+versioned before inference. Sixteen current tests pass. Tiny fit/interchange
+handlers are written and their public interface is checked without fitting;
+shared source/owner receipts and complete causal rehearsal remain required.
+
+OPS-S12-CONTEXT-SETUP: three actual request compilers and one bounded execution
+handler preserve complete source blocks, false assertions, unchanged repeats and
+joint dependencies. Fourteen tests pass. The independent-reference import was
+repaired before dispatch. Joint-bank public-input duplicates are explicit and
+require content-based final grouping. The week checkpoint helper passes actual
+exit/reentry and runs from its pinned source; original clocks and four-hour
+monitoring remain. Canary version two strengthens whole-request deadline fit
+before any inference; its request population and profile are unchanged.
+
+OPS-S12-GHOST-LOCAL: the new Ghost export passes source-archive verification,
+native regeneration, public projection replay and exact/template support
+agreement. Passage-linked packets preserve joint alternatives, unknown human
+values and unknown adoption. The five distinct public alias fixtures cannot be
+reported as forty independent sources. Neural requests and varied tiny training
+remain separate; the shared owner proposal is in the simulation exchange shelf.
+
+OPS-S12-CAPACITY: a new Stage 12 local transport records actual request start/end,
+raw nanosecond components, tokens, profile, before/after GPU snapshots and native
+ownership. Unknown requests retain their full reservation and GPU lock; no blind
+retry or age-based lock stealing. Twelve controls pass. A missing known-answer
+class was caught and repaired before the canary freeze. Actual headroom defers
+the canary without sending any request. This is not a reader capability result.
+
+OPS-S12-PRIMARY-SETUP: full-corpus source allocation and canonical replay produce
+a frozen descriptive primary roster with chronologically prior own history and
+count-matched training-only donors. Nine validity tests pass. The preparation's
+original sensitivity field was misnamed as interval half-width; the documented
+formula is approximate detectable difference. Original outputs remain immutable;
+the corrected statistical consumer is required before inference. No sample-size
+or outcome threshold was relaxed and no paid request was sent.
+
+OPS-S12-OPENING: the existing native queue runs a source-frozen, serial Stage 12
+manifest with kernel ownership, explicit per-card accounting and independent
+failure continuation. Known-answer checks exercise actual CLI failure/reentry,
+missing inputs, finite distributions, preserved infinite log loss, unknown and
+mislocated claims, Git byte replay and the existing interchange operator.
+The timing auditor initially used the wrong historical JSON serializer; its
+test failed and the corrected native serializer passes. Source-summary handling
+failed on explicitly excluded rows without writer metadata. Its versioned repair
+now reconciles the complete source ledger and retains the original failure
+(OPS-S12-CENSUS-REPAIR). The queue now supplies a unique operational exit receipt
+separately from scientific waiting; actual native exit and watcher recognition
+verify. No scientific threshold was relaxed.
+
+The first complete consumers replay retained calls, build source-bound provider
+packets, check both Ghost finite references, verify file-operation records and
+replay a fixed human comparison subset. These validate instruments and preserve
+historical outcomes; they do not add an independent replication. Tiny learning,
+new local-goal inference, current healthy GPU timing and paid-reader access are
+separate prerequisites. Human text and evaluator records remain private.
+See the Stage 12 opening inspection and OPS-S12-OPENING in FINDINGS.
+
+
 ## Stage 11 retrospective contribution instrument
 
 OPS-S11-I1: a separate terminal projection preserves the reviewed CoAuthor handling
@@ -1060,11 +1212,11 @@ Both real source-preparation jobs and all twelve broad-generation package/popula
 
 | Shared versus independent maker entry reader | Joint relationship/maker posterior and prospective observation selection through actual restricted calls | Thirty-two affected checks pass. Independent joint enumeration, unrelated-maker zero future gain, identical-maker noise, duplicate evidence and selected-only revelation verify. Complete entry handlers and scientific launch remain owed (OPS-S9-FAMILIARITY-1). |
 
-| Familiarity entry full-regression liveness | Verified native wrapper/child identities and hidden watcher heartbeat | Full current suite is running after the targeted pass, with source unchanged and final produce registered. Subsequently completed: all 437 tests and 21 locks pass. Gear 1, GPU paused (OPS-S9-FAMILIARITY-1). |
+| Familiarity entry full-regression liveness | Verified native wrapper/child identities and hidden watcher heartbeat | Full current suite is running after the targeted pass, with source unchanged and final produce registered. Subsequently completed: all 438 tests and 21 locks pass. Gear 1, GPU paused (OPS-S9-FAMILIARITY-1). |
 
 | Original cross-source audit delayed delivery | Exact completion, all input/output hashes, saved group/overlap summary and separate successor identity | Original audit reconciles with its existing write-through; scientific split acceptance remains withheld pending final consumer closure. No new scientific result (OPS-S9-DATA-11). |
 
-| Full Stage 9 regression after familiarity entry core | Combined source, reader, capsule, prior handler and original lock checks | All 437 tests across 117 files and all 21 locks pass. Complete entry consumers and scientific launch remain owed (OPS-S9-FAMILIARITY-1). |
+| Full Stage 9 regression after familiarity entry core | Combined source, reader, capsule, prior handler and original lock checks | All 438 tests across 117 files and all 21 locks pass. Complete entry consumers and scientific launch remain owed (OPS-S9-FAMILIARITY-1). |
 
 | Familiarity entry preparation and actual acquisition | Fixed source assignment, all four conditions, selected-only purchases and matched current-only rival | Twenty-eight affected checks pass, including two new actual-handler fixtures. Complete paired analysis and full rehearsal remain owed (OPS-S9-FAMILIARITY-1). |
 
@@ -1246,7 +1398,7 @@ Both real source-preparation jobs and all twelve broad-generation package/popula
 
 | Final packet actual queue and immutable reentry | Separate archived CPU lineage, original audit/evidence, manual pause/resume and complete handler/queue reentry | Twelve jobs reach expected fixture states; original failed draft preserved. Independent context and packet reconstruction agree. Scientific closure remains separate (OPS-S9-PACKET-1). |
 
-| Full packet regression liveness | Original source/test archive, native processes and hidden watcher | The complete CPU suite is running, with 715 tests expected across 137 files; last full result remains 680 tests and 21 locks. Both native owners are live. All 353 source files and 137 tests remain frozen until final inspection. Scientific closure remains owed (OPS-S9-PACKET-1). |
+| Full packet regression liveness | Original source/test archive, native processes and hidden watcher | The complete CPU suite is running, with 715 tests expected across 137 files; last full result remains 680 tests and 21 locks. Both native owners are live. All 353 source files and 138 tests remain frozen until final inspection. Scientific closure remains owed (OPS-S9-PACKET-1). |
 
 | Full packet regression completed | Original source/test archive, native processes and hidden watcher, XML/locks | All 715 tests across 137 files and all 21 original locks pass in 207.225861 test-process wall seconds. Native owners exited; source freeze ends. Scientific closure remains owed (OPS-S9-PACKET-1).  Delayed owner delivery independently verifies original XML/test/source/log/output bindings and native exits; newer validation remains separate ([inspection](../.agent-state/wake-inspections/e1d8b7ee9b406d48b50a6fa0.json)). |
 
@@ -1659,7 +1811,7 @@ Both real source-preparation jobs and all twelve broad-generation package/popula
 | Queue preparation costs through delta six | Full original baseline/delta ancestry, original attempt identities and compiled output receipts | 98 queues/754 unique attempts reconcile after adding the latest CPU export and GPU timing jobs. Other preparation scopes and forecast remain separate (OPS-S9-CLOSURE-1). |
 | Queue preparation costs through delta seven | Exact baseline/six-delta ancestry and all prior queue states; one new original CPU attempt independently reconstructed |99 queues/755 unique attempts reconcile; new CPU occupation counted once, raw GPU counter unchanged. Enclosing wrappers and other preparation costs remain separate (OPS-S9-CLOSURE-1). |
 
-| Historical familiarity-entry regression wake inspection | Original completion copies, all-pass progress logs, lock logs and native creation records | First receipt: 437 checks/117 files; second: 442/119. Both original 21-lock logs agree and original owners are absent. Per-file executed manifests absent; no historical-stack reproduction claimed or tests rerun. Current 1,313-check acceptance remains separate (OPS-S9-FAMILIARITY-1). |
+| Historical familiarity-entry regression wake inspection | Original completion copies, all-pass progress logs, lock logs and native creation records | First receipt: 438 checks/117 files; second: 442/119. Both original 21-lock logs agree and original owners are absent. Per-file executed manifests absent; no historical-stack reproduction claimed or tests rerun. Current 1,313-check acceptance remains separate (OPS-S9-FAMILIARITY-1). |
 
 | Complete declared neural-operation call forecast component | Actual producer cohorts, latest original timings, retained slow alternative and independent arithmetic | All 156 jobs reconcile. Call-only scenarios exclude preparation/overhead and preserve the prior rollout component without adding it twice. No complete forecast or scientific admission; current allowance question remains open (OPS-S9-LAUNCH-1). |
 

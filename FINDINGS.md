@@ -5,7 +5,445 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-20.**
+**Last updated: 2026-09-21.**
+
+---
+
+### OPS-S12-LOCAL-RESUME - local queue independent of cloud access
+
+**Operational question.** Can the commissioned local comparisons proceed independently of the capable-reader cloud side path?
+
+**METHOD.** Reconcile the full prior canary and its exact repair against the stage specification, inspect raw truncation and normalization failures, and preserve every old request and score. Freeze one output-interface diagnosis with the same model, evidence, balanced ten-request canary, repeat controls and unchanged validity/correctness gate. Raise the completion allowance and bound explanation length, then preflight all existing local request families and freeze the original fifteen comparison blocks in new namespaces. Verify native ownership, headroom, cumulative reservations, source locks and monitoring before launch.
+
+The table distinguishes implemented work, live waiting and scientific admission.
+
+| Check | Disposition |
+|---|---|
+| Recovery scope | The earlier repair concerned telemetry and timeouts only. Treating it as exhausting every local interface diagnosis was too broad; one bounded output diagnosis is now frozen |
+| Local sequence | Resource wait, full canary and fifteen complete comparison blocks; 258 comparison requests, with no Modal prerequisite |
+| Next queue | Five already-compiled context/Git breadth cards and 108 requests frozen before new outcomes; launch still requires initial landings, current queue exit and whole-tail capacity |
+| Instrument controls | Original model/evidence/labels and acceptance gate retained; no parser normalization, answer filtering, extra fit or automatic second interface revision |
+| Hardware at launch | Insufficient current GPU headroom; no resident Ollama model and no project GPU lock. Other applications remain untouched |
+| Queue behavior | Native queue and worker verified alive. Capacity is inspected without inference every five minutes; two ready samples precede canary dispatch, which rechecks capacity itself |
+| Validation | All 37 Stage 12 tests and 21 locks pass. Effective compiled requests fit the conservative context allowance; dynamic retention queries use the same frozen interface |
+| Full-handler repair | Fake-transport reentry found a retention bank key-type mismatch. String-key serialization preserves rendered requests; all fifteen handlers now complete and replay 258 fixture requests without new calls, and the full 38-test suite passes |
+| Live replacement | The first capacity waiter stopped at its cancellation boundary before any scientific call. Its failure/exit/cancellation receipts remain; local-output-v2 is the live replacement and local-breadth-v2 is the unstarted next queue |
+| Checkpoint recovery | The operator used the stage-wide cancellation signal for that local replacement, which also stopped the date-checkpoint helper. Its exit was detected and retained; the original source and unchanged contract resumed under a verified new native identity, with no deadline or health-clock reset |
+| Cloud | Exact $20 plan remains approved. Owner reports a signed-in Firefox session, which this tool cannot access; monthly usage limit, net spending limit and payment readiness were requested as billing facts |
+
+**Found and means.** Local execution is queued independently of cloud access and currently waits for GPU headroom. No new scientific prediction or reader admission is claimed. The prior failures remain valid records of their original interfaces; the new canary must finish and satisfy the unchanged gate before dependent work runs. Its failure must prompt review of independent task-specific and CPU branches, not another blanket closure of the week. The user's instruction supplied a recovery obligation, not a new scientific hypothesis. Original week deadlines, ceilings and four-hour health cadence are unchanged.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can local work continue while cloud account checks wait? Outcome: **Infrastructure**. Result: the local comparison queue is live behind measured resource readiness. Project meaning: cloud access is not a global success gate. Next engineering obligation: inspect the complete canary, land full cells and continue eligible source/operator work under the original limits. Public claim: unchanged. Curator decision required: No for local execution; the remaining cloud step supplies account facts, not another spending decision. Detail: [local continuation receipt](results/phase_2_4_stage_12/LOCAL_OUTPUT_RESUME.json), [frozen interface diagnosis](docs/design/STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md).
+
+---
+
+### OPS-S12-APPROVED-CONTINUATION - bounded cloud approval and current readiness
+
+**Operational question.** Can the newly approved capable-reader tree start while the existing Gear 2 allocation and failed scientific gates remain intact?
+
+**METHOD.** Bind the curator's exact approval to the unchanged machine plan, verify all cloud source pins, query the authenticated provider for workspace identity, running applications and current usage, and inspect the billing page. Freeze the existing complete-only primary analysis as its own next queue. Recheck original native monitor identities, output freshness, terminal acknowledgments, source locks and current card eligibility without inference or allocation.
+
+The table records operational admission, not scientific scores or a settled provider bill.
+
+| Check | Disposition |
+|---|---|
+| Authority | Exact $20 tree approved: $3 pilot, $16 conditional main, $1 protected; local Gear 2 unchanged |
+| Provider evidence | Expected authenticated workspace, no active apps and current cycle usage verify; API environment budgets are unavailable on this workspace |
+| Remaining prerequisite | Billing page is at sign-in. Payment readiness and workspace usage/net-spend backstop remain unverified; sign-in requested, no additional spending approval requested |
+| Scientific readiness | Native source consumers and narrow expertise comparison fully landed; fifteen local-reader cards and joint neural composition remain unadmitted |
+| Follow-on analysis | Original complete-only primary analysis frozen alone, waiting for complete validated cloud retrieval; old week plans are not restarted |
+| Verification | Full 32-test suite and 21 locks pass; no new private raw files are staged; original watcher/checkpoint identities and fresh outputs verify; completion notices acknowledged after full write-through |
+
+**Found and means.** The paid plan is authorized and prepared, but fresh billing evidence still blocks allocation. No cloud request was sent. The original four-hour clock, week deadlines, reservations and final-packet policy remain; tests cannot be described as all running while their admissions are unmet. Git publication remains pending under the private handoff. No tests were harvested from the operational instruction or approval.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can authorized work continue under verified limits? Outcome: **Infrastructure**. Result: the bounded cloud plan is approved and awaits account verification. Project meaning: the next instrument is prepared without weakening previous gates. Next engineering obligation: finish the signed-in billing checks, launch the capped pilot, then admit main only after complete pilot replay and measured capacity. Public claim: unchanged. Curator decision required: No; account sign-in is an access step, not another spending decision. Detail: [readiness and coverage receipt](results/phase_2_4_stage_12/APPROVED_CONTINUATION.json), [current handoff](docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md).
+
+---
+
+### L411 - native production knowledge and objective inversion
+
+**Hypothesis.** Knowledge that supports making an artifact may help infer its maker's current objective; actual practice need not outperform an observer receiving exactly the same observations and updates.
+
+**METHOD.** Freeze a new inverse consumer before inspecting its outcomes, using all eight existing Ghost development lineages, two acquisition draws, two policy seeds and matched versus restricted starting-context acquisition. Use the last declared checkpoint, 512 episodes, without another fit. Compare untrained transition counts, declarative operation knowledge at the family midpoint, active practice, identical ordered replay, demonstration and the privileged true law. Evaluate each model's policy on both native production objectives, then infer an optimal maker's functional versus presentation objective from its endpoint under a balanced prior. Cross intact endpoints with an observation channel hiding the evidence bit. Enumerate the true joint distribution and preserve conditional ambiguity, unsupported mass and infinite log losses. These are exact-program readers on constructed worlds, not human or neural readings. Original production results were already inspected; this is a descriptive development diagnostic, not fresh confirmation.
+
+The table reports expected half-Brier probability error, lower being better. Each column averages the same eight source lineages and their four conditional draw/seed repeats. Matched acquisition visits both starting contexts; restricted acquisition visits one. Degraded evidence hides one endpoint bit. Practice and replay remain distinct measured arms even where their numbers are equal.
+
+| Frozen knowledge | Matched, intact | Matched, degraded | Restricted, intact | Restricted, degraded |
+|---|---:|---:|---:|---:|
+| Untrained | 0.250000 | 0.250000 | 0.250000 | 0.250000 |
+| Declarative operations | 0.097963 | 0.098209 | 0.097963 | 0.098209 |
+| Active practice | 0.156855 | 0.160035 | 0.162712 | 0.164397 |
+| Exact replay | 0.156855 | 0.160035 | 0.162712 | 0.164397 |
+| Demonstration | 0.128546 | 0.134004 | 0.170975 | 0.173461 |
+| True-law oracle | 0.097752 | 0.097964 | 0.097752 | 0.097964 |
+
+The next table reports expected production success on true-law evaluation, with no new feedback. The functional objective requires both claim and evidence success; the presentation objective requires its surface bit. This surface objective does not measure convincing a human audience. The same fixed native actor, beliefs, routine, horizon and undo rule apply throughout.
+
+| Frozen knowledge | Matched functional | Matched presentation | Restricted functional | Restricted presentation |
+|---|---:|---:|---:|---:|
+| Untrained | 0.491855 | 0.500000 | 0.491855 | 0.500000 |
+| Declarative operations | 0.983710 | 0.991855 | 0.983710 | 0.991855 |
+| Active practice | 0.861454 | 0.932982 | 0.672539 | 0.956851 |
+| Exact replay | 0.861454 | 0.932982 | 0.672539 | 0.956851 |
+| Demonstration | 0.872023 | 0.958378 | 0.681779 | 0.969129 |
+| True-law oracle | 0.983710 | 0.991855 | 0.983710 | 0.991855 |
+
+**Found.** All learned arms clear the prespecified numerical production-improvement condition for both objectives in every lineage/acquisition condition. Every inverse arm uses the same full target distribution; all 768 rows are present. There are no unsupported or infinite-loss rows in this complete comparison, and the retained log-loss ordering agrees with the probability-error comparison. Practice and exact replay agree identically. Demonstration has lower inverse error than practice under matched acquisition and higher error under restricted acquisition. The declarative operation model, which receives different prior information, is near the true-law oracle and better than either acquired model. Removing the evidence bit slightly worsens every informative arm; the oracle check confirms that the channel cannot create information. The loss remains nonzero even for the oracle because some endpoints leave the objective ambiguous.
+
+**Means and limits.** Production knowledge supports this narrow objective inference, but there is no advantage attributable to the label or experience of practice once observations and persistent updates are identical. The acquisition-distribution reversal prevents a universal ranking of practice and demonstration; production competence alone does not determine inverse accuracy. The result licenses a constructed example of mechanics knowledge constraining goal inference under the declared optimal-maker model. It does not establish human expertise, audience persuasion, automaticity, neural selective use, unique process recovery or a general simulation advantage. Development worlds and known source outcomes preclude confirmatory interpretation; seeds are not new world samples. Declarative knowledge and acquisition are not information-matched. No new p-value, population interval, fit, cloud allocation or automatic extension follows.
+
+**Integrity and accounting.** Full source/input/terminal bindings pass. An independently arranged recursive forward replay agrees with every saved predicted and evaluated endpoint law within 0.000001; an alternate proper-score expression agrees with every row. All null, ceiling, deliberate wrong-law, unsupported-support, channel and replay checks pass. The full 32-test Stage 12 suite passes, including complete handler reentry and changed-replay refusal. The first ad hoc inspection stopped on a missing NumPy import before changing any output; the corrected complete inspection is retained. Production acquisition costs remain charged to Ghost; each acquired arm used 1,536 transitions per unit and replay processed those same records without acquiring new ones. The CPU-only consumer and offline inspection are separately charged locally. Worker and queue have completed; the week and original reporting clock remain open. No new tests were harvested from the operational request or spending approval.
+
+**Curator roll-up.** Theory group: constrained goal/process inference. Question: does knowledge learned by making help read the objective behind an artifact? Outcome: **Narrows**. Result: production knowledge helps this constructed inverse task, while exactly matched practice and replay are identical. Project meaning: knowledge and acquisition coverage matter here; an additional effect of practice is not established. Next engineering obligation: carry the complete narrow comparison and its limits into the final packet, with human and neural claims separate. Public claim: newly licensed only for the declared constructed diagnostic. Curator decision required: No. Detail: [frozen consumer](docs/design/STAGE12_EXPERTISE_CONSUMER.md), [complete inspection](results/phase_2_4_stage_12/EXPERTISE_INSPECTION.json).
+
+---
+
+### OPS-S12-NATIVE-SOURCE - actual shared-model and production replay
+
+**Operational question.** Can the shared consumer reproduce the actual trained models and production records without fitting another setting or assuming the provisional interface exists?
+
+**METHOD.** Freeze all source, input, native-accounting and deterministic-output bindings from the five complete Ghost packets. Port the inspected numeric interface, compare both architectures against native Torch equations on untrained known-answer fixtures, then use serial bounded workers to replay every original development/model challenge and production checkpoint. Keep public observations separate from evaluator labels. Evaluate saved production policies unchanged and verify exact ordered update replay.
+
+The table describes complete source-consumption units and the retained failed unit. These are adapter validation counts, not new independent scientific replications.
+
+| Unit | Complete disposition |
+|---|---|
+| Snapshot | 3,959 bound files preserved; both sequence-model settings remain Ghost-owned, with none trained here |
+| Model import | Eight frozen fits and 320 challenge forecast arrays replay; original and challenge capability gates pass separately per fit. Maximum probability discrepancy is below 0.000001 |
+| Exact reference | Every native fixture law and history-conditional reference replays; this uses shared world source and is not an independent world implementation |
+| Practice support | All 576 saved tables/policies and 294,912 logged transitions replay; identical practice/replay logs and updates verify, with score discrepancies below 0.000001 |
+| Causal consumer failure | The original alignment export omits reader arrays that remain in its bound parent fixture. The consumer wrongly assumed a local copy and stopped before causal scores; original attempt and charge retained |
+| Verification | Twenty-eight Stage 12 tests pass. Queue continues after the causal failure, completes independent practice replay and exits. Original monitoring and health deadline remain |
+
+**Found and means.** The actual shared model and production support are consumable; the provisional byte-GRU target contract was incompatible and is superseded for these imports. Ordinary forecast capability does not establish selective maker-state access. Production by a fixed known actor does not supply the requested expertise-by-inversion/observation-quality cross. The source's original and alternate-site causal reports do not admit joint purpose/belief composition; source replay cannot override that gate. Repair the causal consumer once by resolving observations through the already bound parent fixture. No new scientific result is adopted into theory from this infrastructure landing, no additional fit is authorized, and no tests were harvested from the operational request.
+
+**Cause-specific repair.** The separately frozen consumer resolves observations through the original fixture only after checking its complete-record hash. Its missing-copy/changed-parent regression test passes. The complete repaired replay reconstructs all 24 probe fits and 86,016 score rows across the two original sites, with maximum discrepancy below 0.000001. All rivals and both static/ordered composition rulers verify. Worker and queue exited normally; all original failure evidence and charges remain. Twenty-nine validation tests are covered by the full suite plus the added regression. This completes source replay, not selective composition or the full expertise/inversion cross. [Repair inspection](results/phase_2_4_stage_12/NATIVE_CAUSAL_REPAIR_INSPECTION.json).
+
+**Curator roll-up.** Theory group: infrastructure. Question: does the consumer match the actual shared instrument and preserve its claim boundaries? Outcome: **Infrastructure**. Result: model, causal and production source replay pass after a retained adapter failure and its bounded repair. Project meaning: real source compatibility replaces a provisional interface without completing missing scientific contrasts. Next engineering obligation: preserve blocked composition coverage and build the narrow native expertise/inversion consumer. Public claim: unchanged. Curator decision required: No. Detail: [consumer contract](docs/design/STAGE12_NATIVE_SHARED_CONSUMER.md), [inspection](results/phase_2_4_stage_12/NATIVE_SHARED_INSPECTION.json).
+
+---
+
+### OPS-S12-G2-REPAIR - transport recovered, reader admission failed
+
+**Operational question.** Does the repaired local interface complete its full known-answer unit and admit the prepared comparisons?
+
+**METHOD.** After a bounded fresh GPU/server check passed, persist the raw response and exact client elapsed time before after-response telemetry. Freeze one repair with the original ten scored requests, warm-up, context, output allowance and acceptance criteria; shorten only the per-call reservation to fit the retained diagnostic cap. Exercise response-preservation and under-reservation refusals, then run the full canary. Independently reconstruct every raw parse, including invalid markers, request binding, score and class aggregate before admission.
+
+The table describes each complete canary class. Valid means a finished response with a finite normalized probability vector; correct means its largest probability identifies the known answer. Both classes require every response valid and at least four correct.
+
+| Class | Requests | Valid | Correct | Median client seconds | Admission |
+|---|---:|---:|---:|---:|---|
+| Direct forecast | 5 | 4 | 3 | 4.114 | Failed |
+| Account then forecast | 5 | 1 | 1 | 7.171 | Failed |
+
+**Found and means.** Transport and telemetry recovered, but the completed reader gate failed. Several responses exhausted the unchanged output allowance and another returned invalid probabilities. The two repeated requests reproduced their outputs, including repeated invalidity; repetition is not capability. All raw responses, failures and conservative charges are retained. The first inspection stopped because it wrongly assumed every parse would be valid; corrected replay reproduces invalid markers and the failed gate without changing artifacts. Twenty-four validation tests pass. The repaired worker and queue exited and released ownership; fifteen prepared local comparison cards remain unstarted and unadmitted. Cumulative diagnostic charge is 320.765 seconds, below the original cap; remaining budget does not itself authorize another repair. Gear 2 remains explicit, shared-source integration proceeds independently, and no new tests were harvested from the operational instruction.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the current local interface support the prepared comparisons? Outcome: **Infrastructure**. Result: the complete known-answer gate does not admit this reader interface. Project meaning: this is a scoped instrument failure, not evidence against human recovery or shared tiny readers. Next engineering obligation: retain unadmitted local cards and finish the independent shared-source consumer without another model fit. Public claim: unchanged. Curator decision required: No for the commissioned independent continuation. Detail: [repair and replay receipt](results/phase_2_4_stage_12/GEAR2_REPAIR_INSPECTION.json).
+
+---
+
+### OPS-S12-HEALTH-1349 - failed telemetry admission and host inspection
+
+**Operational question.** Can the prepared queue safely resume, and is it responsible for the reported unusual processes and system load?
+
+**METHOD.** Recheck actual GPU headroom, native ownership, original limits and source bindings before submitting only the unchanged canary. Inspect its entire terminal record, retained request/reply binding, charges, queue exit and locks. After the telemetry failure and curator's system-load report, inspect native process paths and parent identities, take a bounded CPU/memory sample, compare process-handle counts through two Windows interfaces and inspect recent application/system errors. Keep workstation process details private.
+
+The table records infrastructure observations and admission consequences, not scientific scores.
+
+| Check | Disposition |
+|---|---|
+| Resource admission | Fresh headroom passed before dispatch; only the existing canary ran, with downstream work held for full admission review |
+| Canary failure | Warm-up response is retained and bound to its request; the subsequent GPU telemetry query timed out. No scored canary call or reader admission completed |
+| Recovery | Worker and queue exited; GPU and native queue locks are absent. Original failure, raw reply and conservative charges remain. Stale resource-ready marker archived to prevent reuse |
+| Host inspection | Separate GPU probe stalled and model-residency request timed out; Windows recorded concurrent application hangs. Later CPU/RAM sample was not saturated. Node runtimes showed negligible sampled CPU; an unrelated peripheral helper had an extreme handle count. Cause is unresolved |
+| Remaining allowance | Cumulative diagnostic reservation is 228.842 seconds; 3,371.158 seconds remain. The unchanged 3,570-second canary cannot simply be rerun |
+| Other authorized work | Actual Ghost exports now exist and both shared fit settings are consumed; local import still needs architecture/target adaptation and source/reference replay. No additional fit or cloud dispatch |
+| Monitoring and validity | Original watcher and checkpoint helper remain active with fresh output; 21 hash locks pass. Failed-card and queue terminal records are retained for acknowledgment after this complete write-through |
+
+**Found and means.** The scientific queue is stopped after a GPU telemetry failure; monitoring remains active. This is infrastructure failure, not a scientific null or evidence that Node runtimes caused the host hangs. The current device/server state is unestablished. Do not relaunch from the stale readiness receipt, close unrelated applications or reset global driver policy. A cause-specific repair must preserve the original failure, retain missing client timing as unknown and fit the remaining diagnostic allowance. Exact elapsed-time persistence before post-response telemetry is a separate logging repair obligation. No new tests were harvested from the operational request.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the bounded week executing safely on the current host? Outcome: **Infrastructure**. Result: the canary stopped on missing GPU telemetry while monitoring survived. Project meaning: the week remains open without reader admission or a new scientific claim. Next engineering obligation: resolve host availability, repair response-timing persistence and admit only a fully bounded recovery; independently adapt the now-available shared source after host inspection. Public claim: unchanged. Curator decision required: No for project-local recovery; unrelated application changes remain outside this inspection. Detail: [health receipt](results/phase_2_4_stage_12/HEALTH_20260921_1349.json); private native and host diagnostics retained.
+
+---
+
+### OPS-S12-HEALTH-0940 - prerequisite parking and delivered-notice reconciliation
+
+**Operational question.** Is the week healthy, and does any authorized scientific work now meet its admission conditions?
+
+**METHOD.** Inspect actual native process identities and command lines, helper output age, every current card's prerequisites, original contract and source bindings, retained failures, cumulative charges and all hash locks. Recheck GPU memory, temperature and model residency without inference. Inspect Ghost's current source-availability statement and the owner's native message queue. Match delayed notices and queued duplicates to original terminal hashes, complete output bindings, prior acknowledgments and full internal landings before retiring duplicates.
+
+The table reports operational observations, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Native execution | Fourteen recorded queue owners have exited; original helper and watcher identities and fresh output verify; no scientific worker or GPU lock |
+| Admission | All twenty-one current cards remain unstarted with missing prerequisites; GPU free memory is 6,417 MiB against 7,768 MiB required |
+| Source and limits | All twenty-one locks and current source/contract/card bindings hold; shared tiny model remains unavailable; no cloud allocation; original ceilings and deadlines unchanged |
+| Failures | Original census failure and old missing-terminal monitor alert remain preserved beside their completed repair; no new worker failure |
+| Delivery recovery | Three delayed capacity/queue notices match previous full landings; six exact queued duplicates covering twenty-one already acknowledged events retired, leaving an empty native queue |
+
+**Found and means.** Monitoring is healthy, but no scientific card has become eligible. Helper liveness is not experimental progress. No application was closed, gate relaxed, shared fit duplicated or paid request dispatched. Ordinary notifications do not reset the independent health clock. The completed inspection is acknowledged only after this write-through, with the next four-hour deadline in its follow-up receipt. No tests were harvested from these operational notices.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the bounded week continue without missed work or repeated old notices? Outcome: **Infrastructure**. Result: monitoring and prerequisites verify, with the obsolete notification backlog retired. Project meaning: the week remains open and science remains admission-blocked. Next engineering obligation: recheck actual resources and reviewed source availability at the next health inspection, preserving the original reporting window. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260921_0940.json); private native inventory and retirement receipts retained.
+
+---
+
+### OPS-S12-HANDOFF - original limits, final queue and source filing
+
+**Operational question.** Does the final assembled queue preserve its week contract, replay prerequisites and report its actual readiness?
+
+**METHOD.** Bind queue and newly frozen worker cards to the original contract hash, extend matched-class throughput checks and local raw replay, and replay the full archived cloud pilot before main admission. Exercise changed-contract and modified-pilot refusals alongside the complete validity suite. Submit week-v4 in a fresh namespace, inspect actual native exit and original checkpoint identity, and verify frozen sources and outputs before acknowledging its events.
+
+The table records completed operational checks, not scientific predictions.
+
+| Check | Complete disposition |
+|---|---|
+| Validity suite | Twenty-two tests pass, including actual queue continuation/reentry and changed-pilot/contract refusals |
+| Final queue | All twenty-one week-v4 cards deferred; no scientific START or inference; its native owner exited normally |
+| Evidence | All 2,445 checked source/output bindings verify; original helper remains alive |
+| Resources | GPU headroom remains insufficient at the final inspection; zero GPU and cloud execution charged; CPU accounting retains the conservative setup reserve |
+| Continuation | Four-hour health clock unchanged; original interim/reporting/final markers supervised; no new gear, fit or paid authority |
+| Filing | Initial commission matches T0 hash; amended commission and errata filed byte-for-byte; loose sources removed only after equality verification |
+| Publication checks | All 21 locks and design/theory lint pass; current sources and filed copies verify, private raw data remains ignored, and native watcher/helper checks pass with no pending unacknowledged events. Staged whitespace checks pass except 22 intentional blank-context markers in the byte-preserved supplied errata patch. [Validity receipt](results/phase_2_4_stage_12/FINAL_VALIDITY.json), [staged audit](results/phase_2_4_stage_12/PUBLICATION_CHECK.json) |
+
+Repository publication remains pending. The validation receipts establish no completed commit or push; the private publication handoff retains that next action.
+
+**Found and means.** The locally implementable setup is complete, with conditional admissions visible rather than replaced by invented inputs. Shared model/source compatibility and full composition rehearsal still await Ghost's actual export. The cloud route remains prepared and unallocated, with current account evidence absent. The operator handoff identifies actual missing inputs, complete comparison boundaries and authorized recovery. No new hypotheses were harvested from terminal notifications.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the assembled week ready to continue when its stated prerequisites become available? Outcome: **Infrastructure**. Result: the final queue and monitoring preserve their original limits and explicit admission blockers. Project meaning: the week remains open, with no new learned or human claim. Next engineering obligation: inspect resources at the next health event and admit only supported work. Public claim: unchanged. Curator decision required: No for local continuation; any paid route needs its specific allocation. Detail: [final inspection](results/phase_2_4_stage_12/FINAL_SETUP_INSPECTION.json), [operator handoff](docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md).
+
+**Theory/documentation maintenance, September 21.** After test assembly, the supplied errata's seven edits and eight curator excerpts were applied to four existing theory files. Governing and local goals, reinterpretation, expertise, automaticity and the simulation pursuit retain their distinct scopes. The earlier demanding predictive quotations remain beside the later intended use. All 664 previous quotation lines and 426 table lines survive in order; ALIGNMENT is unchanged and all five files pass theory lint. Supplied snapshot fingerprints differ from actual committed HEAD; all exact patch anchors apply, no current content is reset, and the receipt records both sets of hashes. The one lexical repair restores the omitted “I” and is individually marked; recording dates remain unspecified. Limited literature context was checked against Ulrich's fetched abstract/methods and Pool's fetched author-repository abstract, without treating snippets as full-paper review. This is maintenance, not an experiment, new empirical row or upgraded status. [Errata inspection](results/phase_2_4_stage_12/THEORY_ERRATA_INSPECTION.json), [filed source](docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-21.md), [provenance](results/readings/PROVENANCE.md).
+
+---
+
+### OPS-S12-WEEK-SETUP - finite execution queue and repaired comparison support
+
+**Operational question.** Are the commissioned comparisons assembled as complete units with honest admission, accounting and failure boundaries?
+
+**METHOD.** Verify all frozen compiler outputs and queue sources, inspect native process identities and actual terminal records, and exercise known-answer controls through the real local dispatcher and an offline cloud transport. Compile Git evidence views and retention/acquisition controls. Inspect the ARIES label support before any inference; preserve the unusable original selection and freeze a replacement diagnostic. Submit the finite week queue and verify every prerequisite deferral.
+
+The table describes complete setup and inspected liveness, not model outcomes.
+
+| Item | Complete disposition |
+|---|---|
+| Git reader preparation | 96 requests across sixteen controlled operations, three evidence views and two readers; real merge and shallow-history controls pass |
+| Retention preparation | Four development units, 44 total acquisition and evaluation calls; query access and acquisition costs explicit |
+| ARIES defect and repair | Original 112-request draft has only negative labels and cannot answer the comparison; preserved unrun. Replacement has nineteen pairs across four papers, seven positive and twelve negative, with 76 requests and two input-length exclusions |
+| Scientific scope of repair | Annotation-balanced correspondence diagnostic, not natural prevalence, novel edit generation or adopted-goal ground truth |
+| Current queue | Twenty-one cards submitted in week-v3, all deferred without a scientific START; older unstarted plans retained as superseded preparation |
+| Accounting | Maximum planned local GPU reservation 25.142 hours, including ownership overhead; diagnostic reserve 3,570 seconds; closure reserves and original deadlines retained |
+| Verification | 2,445 source/output checks pass; all inspected queue owners exited normally; original checkpoint helper remains alive; twenty-two tests pass with the final typed-provider repair separately rechecked |
+| Admission | Actual GPU headroom insufficient; shared model/source review and current cloud account/allocation absent; no inference or paid dispatch |
+
+**Found and means.** The finite local comparisons and conditional transfer interfaces are assembled. The first ARIES selector failed to supply positive examples; its extraction success is not scientific validity, and the unrun replacement repairs dynamic range without claiming natural sampling. The Windows dispatcher now starts the actual interpreter so timeout control does not merely stop a launcher. GPU ownership overhead is charged, uncertain requests retain their reservation and lock, and source-dependent causal transfers still require actual Ghost compatibility and reference review. Ghost is the designated shared fit owner; no duplicate fit is authorized here. The prepared cloud route has offline retrieval/refusal evidence only and requires new approval plus fresh account evidence. The four-hour health clock and original reporting helper are unchanged. No additional hypotheses were harvested from these operational events.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the week proceed within its declared limits without disguising missing prerequisites as results? Outcome: **Infrastructure**. Result: the finite queue is assembled and explicitly parked at its admission gates. Project meaning: setup and helper liveness do not imply scientific execution or a learned claim. Next engineering obligation: apply the commissioned theory errata, complete filing and resume admitted work on actual resource/source availability. Public claim: unchanged. Curator decision required: No for local work; the prepared paid route requires its own specific allocation. Detail: [week setup inspection](results/phase_2_4_stage_12/WEEK_SETUP_INSPECTION.json).
+
+---
+
+### OPS-S12-ADAPTERS - bounded local interpretation and reviewer-request matrices
+
+**Operational question.** Can the next source consumers preserve ambiguity, passage locations and the distinction between an external request and an adopted goal?
+
+**METHOD.** Compile the five distinct Ghost public alias fixtures into direct/account reverse-goal, reverse-process and supplied-goal forward requests. Separately retrieve the official ARIES release, reconcile its annotation totals, merge body/back matter in the canonical order and retain all many-to-many paragraph indices. Select four papers by frozen identity order and at most two comments and four eligible labelled edits per comment. Preserve explicit negatives and unknown links separately. Rehearse actual Git merges and shallow missing history, full primary retrieval and malformed provider claims.
+
+The table records completed preparation. No new model prediction is scored in this entry.
+
+| Consumer | Complete disposition |
+|---|---|
+| Ghost local interpretation | Thirty requests across five distinct public alias fixtures; forward supplied-goal and reverse recovery targets separate |
+| ARIES inventory | Forty-two papers, 196 comments and 131 distinct positive edits reconcile with the released test annotations |
+| Bounded ARIES preparation | Twenty-eight eligible pairs from four papers, 112 prepared requests, with four input-length exclusions retained |
+| Interpretation limits | ARIES directions are paired request/edit correspondence views, not novel edit generation; author components remain unavailable |
+| Validity | Twenty tests pass, including a real two-parent merge, actual shallow missing history, complete raw retrieval and false location/mental-assertion controls |
+| Shared tiny ownership | The changed supplied handoff designates Ghost as fit/accounting owner; local fitting is disabled pending matching source/model receipts |
+
+**Found and means.** The adapters preserve the recorded target roles and emit complete request matrices. Ghost's all-inspect fixtures remain ambiguity diagnostics, not varied training support. An inspected operation has no known attended passage merely because it left the artifact unchanged. The ARIES reader never treats an unlabelled link as a negative or correspondence as author adoption. Its lexical retrieval baseline and learned execution still require the next complete comparison. No new scientific hypotheses were harvested from operational notifications.
+
+**Curator roll-up.** Theory group: infrastructure and local interpretation. Question: can the source adapters avoid upgrading evidence into private intention? Outcome: **Infrastructure**. Result: both request matrices retain their source and inference boundaries. Project meaning: preparation supplies no learned recovery claim. Next engineering obligation: bind balanced execution blocks and the shared model receipt. Public claim: unchanged. Curator decision required: No. Detail: [adapter inspection](results/phase_2_4_stage_12/ADAPTER_SETUP_INSPECTION.json).
+
+---
+
+### OPS-S12-ANALYSIS-SETUP - complete primary analysis specified before inference
+
+**Operational question.** Can the frozen human comparison retain its source dependencies, full controls and probability failures in the final analysis?
+
+**METHOD.** Bind the original request/evaluator roster to a pre-inference analysis companion. Group events within sessions and sessions within connected writer components. Compute the combined writer/prompt dependency graph; retain the original frozen prior and add a component-balanced prior using every eligible training event. Implement all-arm raw-response parsing, fixed calibration bins, complete-only paired contrasts, invalid denominators and infinite log losses. Correct joint-bank aggregation using the actual public query content before any neural run.
+
+The table describes the completed analysis preparation. No capable-reader outcomes have been observed.
+
+| Check | Complete disposition |
+|---|---|
+| Primary analysis | Own-history versus no-history, with donor, original prior, persistence and an additional full-training prior |
+| Dependencies | Fifteen writer components and nine prompt components form two connected dependency components |
+| Uncertainty | Descriptive writer-level spread retained; no unsupported population interval |
+| Sensitivity annotation | Original formula explicitly relabelled as approximate detectable difference, with original bytes preserved |
+| Invalid predictions | Retained in denominators; zero-support log losses remain infinite; valid-only calibration identified separately |
+| Context correction | Six unstarted execution cards replaced by version two; compiled requests and targets unchanged |
+| Validity | Sixteen current tests pass; no tiny training setting consumed by interface checks |
+
+**Found and means.** The analysis can report the complete descriptive comparison without treating repeated passages or shared prompts as independent people. A full-training cheap control prevents the small original training subset from becoming the only prior comparator; both remain visible. The first publication draft mistakenly said one connected component; it is corrected against the saved graph to two, with no change to the source, analysis or refusal to claim a population interval. The tiny training and causal handlers are written, but shared ownership, a varied source roster and complete causal rehearsal still gate their execution. No new tests were harvested from operational notifications.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the final comparison preserve its limitations and strong controls? Outcome: **Infrastructure**. Result: the pre-inference analysis preserves the dependency graph and all comparison failures. Project meaning: implementation readiness does not supply missing reader outcomes or independent evidence. Next engineering obligation: finish shared tiny/source and capable-reader admission setup. Public claim: unchanged. Curator decision required: No. Detail: [analysis setup inspection](results/phase_2_4_stage_12/ANALYSIS_SETUP_INSPECTION.json).
+
+---
+
+### OPS-S12-CONTEXT-SETUP - executable comparison matrices and original week checkpoints
+
+**Operational question.** Can the continuing-account comparisons be assembled with real controls and bounded execution before a local reader is available?
+
+**METHOD.** Compile the original constructed public histories into full same-evidence, false-frame/correction and equal-marginal joint-bank matrices. Check the native generator against a separate likelihood-product implementation using its independent action executor. Freeze complete four-source blocks, raw request schemas and separate evaluator targets. Test exact reorder invariance, an unchanged-request repeat, the dependency-sensitive query and matched-length timing pauses. Exercise the checkpoint helper through actual terminal/reentry paths and launch it against the original week clock.
+
+The table describes complete preparation, not neural outcomes. All eight source histories are reused across conditions; repeated public query constructions are not independent samples.
+
+| Matrix or control | Complete disposition |
+|---|---|
+| Same evidence and framing | 64 requests, eight conditions per source including reorder, true/false/irrelevant frames, unstructured evidence, reread and unchanged repeat |
+| False-frame correction | 32 requests, true/false assertions crossed with two evidence prefixes; independent calls, not a persistent KV-state intervention |
+| Joint versus independent marginals | 48 requests, three public banks across two queries; 24 distinct request contents, with equal factor marginals and a verified sensitive joint query |
+| Runnable scientific blocks | Six balanced blocks prepared; all deferred on actual reader admission |
+| Validity | Fourteen controls pass; an initial nonexistent reference import was caught and corrected before matrix dispatch |
+| Fixed checkpoints | Native helper running against original interim, reporting-start and final times; actual helper exit/reentry tested on a scratch root |
+| Current canary | Original canary unstarted; version two retains identical requests and profile with a stronger projected-end guard before first inference |
+
+**Found and means.** The matrices and execution handler now exist with source separation, complete-only scoring, explicit invalids and timing accounting. The initial screens cannot select a mechanistic winner. Joint-bank aggregation must use actual public-input constructions rather than unused history identities; that correction is a pre-inference analysis obligation, with original compilation bytes retained. The checkpoint helper does not dispatch science or change authority, and unrelated result acknowledgements preserve the four-hour health deadline. No new tests were harvested from operational notifications.
+
+**Curator roll-up.** Theory group: infrastructure and contextual updating. Question: can the commissioned comparison controls run as complete units? Outcome: **Infrastructure**. Result: the matrices, bounded execution and original reporting checkpoints are assembled. Project meaning: learned behavior and causal-state access still require their own admitted comparisons. Next engineering obligation: finish analysis validation and the remaining local-goal/tiny/source adapters. Public claim: unchanged. Curator decision required: No. Detail: [context setup inspection](results/phase_2_4_stage_12/CONTEXT_SETUP_INSPECTION.json).
+
+---
+
+### OPS-S12-GHOST-LOCAL - passage-linked finite alternatives consumed
+
+**Operational question.** Can Sounding Line consume the new local-goal world while retaining compatible explanations and separating public evidence from evaluator knowledge?
+
+**METHOD.** Verify Ghost's immutable export and source archive, regenerate its declared finite worlds from the extracted original source, and replay every public fixture. Compare supplied-law likelihood with uniform compatible complete templates; convert both into passage-linked provider packets. Keep source parameters, actual synthetic goals and oracle outputs in a separate evaluator record. Test dependency repair, undo, skill-dependent tool access, ambiguous inspection and outside-family absence.
+
+The table describes the complete alias fixtures. Each row has eight coefficient lineages but only one distinct public projection; these are not forty independent observations. Candidate counts are compatible complete trajectories; joint hypotheses combine governing purpose, the selected local goals and the operation sequence.
+
+| Evidence | Compatible trajectories | Joint hypotheses | Actual process covered |
+|---|---:|---:|---|
+| Endpoint only | 2,104 | 208 | Yes |
+| Initial artifact and external request | 992 | 190 | Yes |
+| Same context with a retracted report and correction | 992 | 190 | Yes |
+| Context and first witnessed operation | 744 | 126 | Yes |
+| Context and full witnessed operation sequence | 288 | 36 | Yes |
+
+**Found and means.** The source consumer preserves passage linkage and complete alternatives across the finite evidence conditions. Even the full witnessed inspection sequence leaves multiple compatible local-goal accounts. This is the intended ambiguity fixture, not a trained reader, a diverse training population or human mental ground truth. Eighty reference provider packets and eighty public-only reader task records are saved; executable neural requests and the varied shared training roster remain separate setup obligations. Every completed output hash and source control verifies. No new tests were harvested from an operational notification.
+
+**Curator roll-up.** Theory group: infrastructure and local reconstruction. Question: can local process ambiguity survive the cross-project interface? Outcome: **Infrastructure**. Result: the consumer preserves the finite alternative sets without turning observations into private goals. Project meaning: exact reference access and learned interpretation remain distinct. Next engineering obligation: finish the neural consumer and shared varied training export under one fit owner. Public claim: unchanged. Curator decision required: No. Detail: [local-world inspection](results/phase_2_4_stage_12/GHOST_LOCAL_INSPECTION.json).
+
+---
+
+### OPS-S12-CAPACITY - current reader prepared, hardware admission deferred
+
+**Operational question.** Can the authorized local reader run its representative canary under current resource use?
+
+**METHOD.** Check actual GPU memory, temperature, model residency, installed digest and server version. Compile a warm-up and two distinct five-call classes with full response/timing capture, one unchanged-input repeat per class, complete known-answer action coverage and native GPU ownership. Exercise timeout reservation, no-retry and lock-retention controls before dispatch. Run the capacity inspection as a separate CPU card; an absent readiness marker defers inference.
+
+The table records the completed resource inspection and instrumentation, not a model result.
+
+| Check | Disposition |
+|---|---|
+| Capacity | Required free headroom exceeds the measured amount; exact memory and residency are retained in the inspection |
+| Reader calls | None started; canary is explicitly deferred, with no synthetic admission or scientific score |
+| Bounded canary | One warm-up and five calls in each of two classes, full uncertainty reservation within the diagnostic ceiling |
+| Known-answer control | Initial draft lacked one action class; repaired before freeze or inference, now all four classes represented |
+| Validity | Twelve tests pass, including actual native CLI continuation, exact chronology, finite probabilities, unknown-request refusal and owned-lock retention |
+| Next work | Continue independent CPU setup; recheck capacity at the existing four-hour health cadence or a resource-release transition |
+
+**Found and means.** Hardware headroom presently blocks inference, while the capacity inspection and canary implementation are complete. No process attribution follows from the memory reading and no other application is closed. The source-bound canary will test only its explicit-state constructed task; it cannot admit human competence or hidden-state access by proxy. No new tests were harvested from an operational event.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the current reader ready to measure? Outcome: **Infrastructure**. Result: the bounded canary is prepared and deferred by actual headroom. Project meaning: hardware availability, reader capability and scientific evidence stay distinct. Next engineering obligation: finish independent consumers and resume this exact canary only after fresh admission. Public claim: unchanged. Curator decision required: No. Detail: [capacity inspection](results/phase_2_4_stage_12/CAPACITY_INSPECTION.json).
+
+---
+
+### OPS-S12-PRIMARY-SETUP - broader source split and frozen history comparison
+
+**Operational question.** How much separated source support can the full retained corpus supply for the capable reader's history comparison?
+
+**METHOD.** Allocate connected writer/text and prompt components by a fixed identity hash, replay canonical usable sessions, then select at most four evaluation opportunities per writer component before reader outcomes. Require completed earlier same-session history; match donor history count exactly using training components only, preferring domain and text length without outcome matching. Freeze the prior, persistence control, evaluator roster and all three capable-reader requests per source. Verify complete outputs and retained request identities without dispatch.
+
+The table describes the complete preparation outputs. People inside one source component, repeated events and shared prompts are not independent replications.
+
+| Output | Complete disposition |
+|---|---|
+| Training population | 3,204 events, 32 writers in six connected writer/text components, four prompt components |
+| Development population | 203 events, five writer components and four prompt components |
+| Evaluation population | 564 events, fifteen writer components and ten prompt components |
+| Frozen primary roster | 57 history-eligible events, fifteen writer components and nine prompt components; 0.05 half-Brier planning margin |
+| Matched controls | Exact history-count match, training-only donor components, frozen training prior and persistence; all five comparison arms required |
+| Capable-reader requests | 171 requests in fifteen balanced source blocks; final block contains one complete source with all three reader conditions |
+| Sensitivity | At assumed paired SD 0.2301 and fifteen independent units, approximate detectable difference 0.1664; this is not a confidence interval or known history-contrast variance |
+| Execution and access | All three preparation cards complete and output hashes verify; paid dispatch remains zero; exact launcher, quote and new allocation are still prerequisites |
+
+**Found and means.** A wider source census still yields limited independent support after connected-source and prompt separation. The primary is a complete descriptive replication target; it is not promised to detect the planning margin, and historical exposure does not become fresh confirmation. The original preparation's `half_width_approx` field was misnamed: its formula estimates a detectable difference, not interval width. Original bytes remain, with the correction in the inspection and the analysis companion required before inference. All current nine validity tests pass, including chronological donor matching and actual CLI failure continuation. No additional tests were harvested from operational notifications.
+
+**Curator roll-up.** Theory group: infrastructure and reader familiarity. Question: can the commissioned history comparison be frozen on defensible source support? Outcome: **Infrastructure**. Result: the descriptive roster and complete control requests are frozen with limited independent support. Project meaning: capability, population precision and local interpretation remain separate obligations. Next engineering obligation: finish the raw-result/statistical consumer and exact capable-reader admission packet, while local controlled work proceeds. Public claim: unchanged. Curator decision required: No for preparation; paid dispatch requires a concrete new allocation. Detail: [primary preparation inspection](results/phase_2_4_stage_12/PRIMARY_SETUP_INSPECTION.json).
+
+---
+
+### OPS-S12-CENSUS-REPAIR - full source accounting and genuine queue exit
+
+**Operational question.** Can the source inventory account for excluded records without inventing writers or fresh independent evidence, and can the watcher recognize a normal queue exit?
+
+**METHOD.** Preserve the failed census and rerun its repaired summary in a new source-frozen namespace. Reconcile every retained ledger entry, verify all completed output hashes and exclusion controls, and inspect the actual native queue and watcher identities. Bind the repaired queue's unique operational exit receipt separately from its scientific waiting status.
+
+The table describes complete source accounting and operational controls. Historical parsing or absence from a later roster does not establish untouched confirmatory support.
+
+| Check | Complete outcome |
+|---|---|
+| Retained source ledger | 1,447 entries: 1,445 metadata-linked sessions and two explicitly excluded metadata-less local logs |
+| Metadata-linked population | 61 writers, 20 prompts, 1,444 usable sessions and 16,959 source-defined opportunities |
+| Existing separated candidate population | 457 training, nine development and 222 evaluation events; allocation still needs full-population adequacy review before the primary freeze |
+| Confirmatory freshness | No untouched component established by this inventory; prior outcome-selection exposure remains explicitly uncertain |
+| Repaired execution | Completed in a separate namespace; every output hash and declared control verifies; original failure retained |
+| Queue supervision | Actual queue exited normally; unique operational terminal retained alongside scientific waiting; original false missing-terminal alert retained |
+| Monitoring | Sole watcher native identity and fresh scanning verify; four-hour health deadline unchanged |
+
+**Found and means.** The complete inventory separates source metadata, usable opportunities and defensible independent support. It repairs an excluded-record summary error without changing historical outcomes or turning uncertain exposure into freshness. The monitor repair records an operational exit without declaring the research complete. Further primary-roster and learned-consumer setup remains authorized. No additional tests were harvested from an operational event.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can source and process accounting be trusted? Outcome: **Infrastructure**. Result: the repaired census and operational exit verify with exclusions and uncertainty retained. Project meaning: source availability does not equal independent scientific support. Next engineering obligation: finish the frozen primary population and executable successors. Public claim: unchanged. Curator decision required: No. Detail: [repair inspection](results/phase_2_4_stage_12/CENSUS_REPAIR_INSPECTION.json).
+
+---
+
+### OPS-S12-OPENING - bounded week setup and complete opening consumers
+
+**Operational question.** Can the new week start with replayable, independently runnable source and interpretation consumers while keeping reader capability, source support and throughput distinct?
+
+**METHOD.** Freeze the commissioning clock, eleven opening/successor cards and 441 source files before dispatch. Reuse the native serial queue with an immutable Stage 12 source capsule, explicit worker costs, bounded workers and kernel ownership. Exercise real CLI failure continuation, unavailable dependencies and reentry, finite-distribution/unknown/location controls, exact Git replay and the existing interchange operator. Run source-bound offline consumers and inspect their complete outputs. No new model inference or cloud dispatch occurs in this opening pass.
+
+The table reports complete instrument outputs and retained execution failures, not a scientific verdict on the week.
+
+| Card | Complete output or actual disposition |
+|---|---|
+| Source census | Failed after writing its candidate census: two source logs explicitly excluded from released metadata have no writer field. Original failure and partial files retained; summary handling requires a versioned repair |
+| Retained timing audit | All 943 completed calls reparse; 101 comparable timing groups; one unknown request remains. No per-call native GPU snapshots exist; historical rates do not establish current healthy throughput or cause |
+| Provider packet zero | Eight source-selected human cases, four explicitly labelled evidence/control conditions each; exact source projection and unknown/mislocation controls pass. Goals, adoption and stable values remain unknown |
+| Retained Ghost consumer | Sixteen source cases across reading and opportunity; all four/six finite rivals retained. Complete direct-table and coherent-reference equality verifies under supplied laws; local goals are unavailable in this old export |
+| Git consumer | Twenty-four owned-history file-operation opportunities; independent fixture has sixteen operations and twenty-five byte/object replays. Commit messages remain reported context |
+| Tiny causal consumer | No-op, full-state copy, independent static commutation and distinct dependent-update ordering pass. No tiny model is trained; shared owner and source roster remain prerequisites |
+| Continuing-state consumer | Sixteen retained constructed units, sixty-four queries; independent executor and same-fact reorder invariants pass. Learned reorganization requests are still being assembled |
+| Human process replay | Complete retained subset: sixteen episodes, fourteen writers, fifteen sessions and two prompt-connected components; five methods in each of two evidence views, with invalid routes retained |
+| Queue and monitoring | Native opening pass drains after seven complete cards, one failed census and three deferred cards. Failure does not prevent independent successors. Existing four-hour clock is unchanged |
+
+**Complete human replay detail.** These are source-selected examples from previously landed Stage 11.1 comparisons, not an independent replication or a new sample of people. The table gives writer-balanced mean operation half-Brier loss (lower is better), correctly attributed useful events with exact source span agreement per episode (higher is better), and unsupported review/endorsement/understanding assertions per episode. Missing and invalid predictions remain in the original denominators. The full original metric panels, including infinite log losses, remain in the aggregate companion record.
+
+| Evidence and method | Operation probability loss | Useful events with source span agreement | Unsupported mental assertions |
+|---|---:|---:|---:|
+| Artifact / training prior | 0.162946 | 0.000000 | 0.000000 |
+| Artifact / alignment | 0.162946 | 0.000000 | 0.000000 |
+| Artifact / direct reader | 0.595238 | 0.000000 | 0.285714 |
+| Artifact / review reader | 0.523810 | 0.000000 | 0.535714 |
+| Artifact / account reader | 0.477440 | 0.000000 | 1.178571 |
+| Before/alternatives / training prior | 0.162946 | 0.000000 | 0.000000 |
+| Before/alternatives / alignment | 0.147051 | 1.500000 | 0.000000 |
+| Before/alternatives / direct reader | 0.582232 | 0.071429 | 0.857143 |
+| Before/alternatives / review reader | 0.582232 | 0.071429 | 0.857143 |
+| Before/alternatives / account reader | 0.549329 | 0.000000 | 1.142857 |
+
+**Found and means.** Complete source replay and known-answer controls establish the opening consumers' limited operation. The human subset preserves a useful alignment baseline without adding independent support to historical findings or licensing a general reader ranking. The source census failure is a summary bug on excluded records, not evidence that the valid corpus vanished. Repair it in a new namespace, retain the original failure, and finish the primary population freeze and later learned/source consumers. Earlier Stage 11 windows and deficits are unchanged. The current commission, rather than a wake, authorizes this new bounded work. Internal landing detail is retained for the week packets; no unfinished scores are reported to the curator.
+
+**Curator roll-up.** Theory group: infrastructure and interpretation measurement. Question: can independently runnable source consumers support the commissioned week? Outcome: **Infrastructure**. Result: the opening consumers run with an explicit source-summary repair and remaining learned-reader prerequisites. Project meaning: operational readiness, independent evidence and scientific success remain separate. Next engineering obligation: repair the census, finish source/reader manifests, validate complete small blocks and maintain the four-hour health cadence. Public claim: unchanged. Curator decision required: No for local setup; paid work remains unapproved. Detail: [opening inspection](results/phase_2_4_stage_12/OPENING_INSPECTION.json), [complete retained human replay](results/phase_2_4_stage_12/RETAINED_PROCESS_COMPARISONS.json).
 
 ---
 

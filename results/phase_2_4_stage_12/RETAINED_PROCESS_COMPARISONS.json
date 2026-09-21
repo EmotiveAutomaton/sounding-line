@@ -1,0 +1,3192 @@
+{
+  "alternatives:account": {
+    "by_slot": {
+      "change": {
+        "actor": 0.48595238095238097,
+        "operation": 0.5543973214285715,
+        "relation": 0.48331632653061224
+      },
+      "continuation": {
+        "actor": 0.6802380952380952,
+        "operation": 0.7333035714285714,
+        "relation": 0.6636734693877552
+      },
+      "entry": {
+        "actor": 0.5369047619047619,
+        "operation": 0.35714285714285715,
+        "relation": 0.6428571428571429
+      },
+      "removal": {
+        "actor": 0.36,
+        "operation": 0.3463988095238095,
+        "relation": 0.3473469387755102
+      },
+      "selection": {
+        "actor": 0.7238095238095238,
+        "operation": 0.75,
+        "relation": 0.35714285714285715
+      },
+      "surrounding": {
+        "actor": 0.46714285714285714,
+        "operation": 0.5547321428571429,
+        "relation": 0.5259183673469388
+      }
+    },
+    "contradicted_per_episode": 4.035714285714286,
+    "covered": 0.6488095238095238,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.44642857142857145,
+        "brier": 0.5423412698412698,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.4107142857142857,
+        "brier": 0.5493291170634921,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.4642857142857143,
+        "brier": 0.503375850340136,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 11,
+        "operation_brier": 0.4957544191919192,
+        "useful_positive_per_episode": 0.18181818181818182
+      },
+      {
+        "episodes": 5,
+        "operation_brier": 0.7,
+        "useful_positive_per_episode": 0.2
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.5357142857142857,
+      "brier": 0.43029761904761904,
+      "log_loss": "infinite"
+    },
+    "invalid": 3,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.6,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.5,
+        "writers": 8
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.42000000000000004,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.4583333333333333,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.4156565656565656,
+        "writers": 11
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.4722222222222222,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.4444444444444444,
+        "writers": 11
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.6041666666666666,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.5892857142857143,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.8571428571428572,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 11,
+        "operation_brier": 0.4957544191919192,
+        "useful_positive_per_episode": 0.18181818181818182
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.75,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.37847222222222227,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.38277777777777783,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6920486111111112,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.10119047619047618,
+    "span_iou": 0.12159863945578231,
+    "span_state_accuracy": 0.29166666666666663,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.3154761904761905,
+    "unsupported_attributes_per_episode": 1.1428571428571428,
+    "useful_positive_per_episode": 0.21428571428571427,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.37847222222222227,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.38277777777777783,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.7626909722222223,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "alternatives:alignment": {
+    "by_slot": {
+      "change": {
+        "actor": 0.08605266521286367,
+        "operation": 0.0922624184755818,
+        "relation": 0.08606243083786366
+      },
+      "continuation": {
+        "actor": 0.11681965742607804,
+        "operation": 0.11682802796179234,
+        "relation": 0.2197609857112488
+      },
+      "entry": {
+        "actor": 0.1863914493497068,
+        "operation": 0.18639981988542106,
+        "relation": 0.1864012149747068
+      },
+      "removal": {
+        "actor": 0.08605266521286367,
+        "operation": 0.08606103574857794,
+        "relation": 0.08606243083786366
+      },
+      "selection": {
+        "actor": 0.1863914493497068,
+        "operation": 0.18639981988542106,
+        "relation": 0.1864012149747068
+      },
+      "surrounding": {
+        "actor": 0.2143443080357143,
+        "operation": 0.21435267857142856,
+        "relation": 0.25968218600205917
+      }
+    },
+    "contradicted_per_episode": 2.6785714285714284,
+    "covered": 0.8214285714285714,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.7976190476190476,
+        "brier": 0.14600869909782221,
+        "log_loss": 0.5547188458836622
+      },
+      "operation": {
+        "accuracy": 0.7976190476190476,
+        "brier": 0.14705063342137045,
+        "log_loss": 0.6045737758803494
+      },
+      "relation": {
+        "accuracy": 0.7678571428571429,
+        "brier": 0.17072841055640817,
+        "log_loss": 0.6506500279276547
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.08949649964921906,
+        "useful_positive_per_episode": 1.6
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.16873717587510456,
+        "useful_positive_per_episode": 1.4545454545454546
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.6785714285714286,
+      "brier": 0.2627246033889296,
+      "log_loss": "infinite"
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.3,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.3,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.125,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.23076923076923078,
+        "writers": 13
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.10416666666666667,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.2261904761904762,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.1111111111111111,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.15873015873015875,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.19791666666666666,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.20238095238095238,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.8214285714285714,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.10827564156832654,
+        "useful_positive_per_episode": 1.25
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.16873717587510456,
+        "useful_positive_per_episode": 1.4545454545454546
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.014300566893424032,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.02909417989417989,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.050427806283193814,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.050427806283193814,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.05305934377531732,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.21247869584506768,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.28865244396435324,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3392006481231434,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3392006481231434,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6423709379782158,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.7619047619047619,
+    "span_iou": 0.7837301587301587,
+    "span_state_accuracy": 0.7976190476190476,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.0,
+    "unsupported_attributes_per_episode": 0.0,
+    "useful_positive_per_episode": 1.5,
+    "useful_positive_with_span_per_episode": 1.5,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.014300566893424032,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.014379931972789112,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.02909417989417989,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.032403869127991466,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.050427806283193814,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.05305934377531732,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.21247869584506768,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.28865244396435324,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3392006481231434,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3392006481231434,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6423709379782158,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "alternatives:direct": {
+    "by_slot": {
+      "change": {
+        "actor": 0.3814285714285714,
+        "operation": 0.5335119047619047,
+        "relation": 0.5342857142857144
+      },
+      "continuation": {
+        "actor": 0.8078571428571429,
+        "operation": 0.5357142857142857,
+        "relation": 0.4642857142857143
+      },
+      "entry": {
+        "actor": 0.6130952380952381,
+        "operation": 0.42857142857142855,
+        "relation": 0.5357142857142857
+      },
+      "removal": {
+        "actor": 0.3814285714285714,
+        "operation": 0.4263690476190476,
+        "relation": 0.35571428571428576
+      },
+      "selection": {
+        "actor": 0.9416666666666667,
+        "operation": 0.9642857142857143,
+        "relation": 0.5714285714285714
+      },
+      "surrounding": {
+        "actor": 0.4552380952380952,
+        "operation": 0.6049404761904762,
+        "relation": 0.5279081632653061
+      }
+    },
+    "contradicted_per_episode": 3.0357142857142856,
+    "covered": 0.5833333333333333,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.41666666666666663,
+        "brier": 0.5967857142857144,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.3988095238095238,
+        "brier": 0.5822321428571428,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.48214285714285715,
+        "brier": 0.49822278911564627,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 11,
+        "operation_brier": 0.5606060606060607,
+        "useful_positive_per_episode": 0.2727272727272727
+      },
+      {
+        "episodes": 5,
+        "operation_brier": 0.58025,
+        "useful_positive_per_episode": 0.4
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.5714285714285714,
+      "brier": 0.41666666666666663,
+      "log_loss": "infinite"
+    },
+    "invalid": 4,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.6,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.5625,
+        "writers": 8
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.43333333333333335,
+        "writers": 8
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.4791666666666667,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.41396825396825393,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.4444444444444444,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.4416666666666666,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.5833333333333334,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.6011904761904762,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.5,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.5606060606060607,
+        "useful_positive_per_episode": 0.2727272727272727
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.625,
+        "useful_positive_per_episode": 0.25
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.6666666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.041666666666666664,
+    "span_iou": 0.06930272108843537,
+    "span_state_accuracy": 0.2261904761904762,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.41666666666666663,
+    "unsupported_attributes_per_episode": 0.8571428571428571,
+    "useful_positive_per_episode": 0.32142857142857145,
+    "useful_positive_with_span_per_episode": 0.07142857142857142,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.25,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.6666666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "alternatives:marginal_prior": {
+    "by_slot": {
+      "change": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09877232142857142,
+        "relation": 0.09657505580357142
+      },
+      "continuation": {
+        "actor": 0.19677734375,
+        "operation": 0.19698660714285715,
+        "relation": 0.21934291294642858
+      },
+      "entry": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "removal": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09654017857142858,
+        "relation": 0.09657505580357142
+      },
+      "selection": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "surrounding": {
+        "actor": 0.26932198660714285,
+        "operation": 0.26953125,
+        "relation": 0.26956612723214285
+      }
+    },
+    "contradicted_per_episode": 2.892857142857143,
+    "covered": 0.6666666666666666,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16236514136904762,
+        "log_loss": 0.6099427360635808
+      },
+      "operation": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16294642857142858,
+        "log_loss": 0.6624425739694916
+      },
+      "relation": {
+        "accuracy": 0.8035714285714286,
+        "brier": 0.16632952008928573,
+        "log_loss": 0.6625803801515964
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.14047619047619048,
+        "useful_positive_per_episode": 2.2
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.7142857142857143,
+      "brier": 0.23025948660714285,
+      "log_loss": 0.8279608765143313
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.3,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.3,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.25,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.16666666666666666,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.18055555555555555,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.17103174603174603,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.1875,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.1845238095238095,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 3.0,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.16703869047619047,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.0,
+    "span_iou": 0.0,
+    "span_state_accuracy": 0.0,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.0,
+    "unsupported_attributes_per_episode": 0.0,
+    "useful_positive_per_episode": 2.3214285714285716,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.1644345238095238,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "writers": 14
+  },
+  "alternatives:review": {
+    "by_slot": {
+      "change": {
+        "actor": 0.3814285714285714,
+        "operation": 0.5335119047619047,
+        "relation": 0.5342857142857144
+      },
+      "continuation": {
+        "actor": 0.8078571428571429,
+        "operation": 0.5357142857142857,
+        "relation": 0.4642857142857143
+      },
+      "entry": {
+        "actor": 0.6130952380952381,
+        "operation": 0.42857142857142855,
+        "relation": 0.5357142857142857
+      },
+      "removal": {
+        "actor": 0.3814285714285714,
+        "operation": 0.4263690476190476,
+        "relation": 0.35571428571428576
+      },
+      "selection": {
+        "actor": 0.9416666666666667,
+        "operation": 0.9642857142857143,
+        "relation": 0.5714285714285714
+      },
+      "surrounding": {
+        "actor": 0.4552380952380952,
+        "operation": 0.6049404761904762,
+        "relation": 0.5279081632653061
+      }
+    },
+    "contradicted_per_episode": 3.0357142857142856,
+    "covered": 0.5833333333333333,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.41666666666666663,
+        "brier": 0.5967857142857144,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.3988095238095238,
+        "brier": 0.5822321428571428,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.48214285714285715,
+        "brier": 0.49822278911564627,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 11,
+        "operation_brier": 0.5606060606060607,
+        "useful_positive_per_episode": 0.2727272727272727
+      },
+      {
+        "episodes": 5,
+        "operation_brier": 0.58025,
+        "useful_positive_per_episode": 0.4
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.5714285714285714,
+      "brier": 0.41666666666666663,
+      "log_loss": "infinite"
+    },
+    "invalid": 4,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.6,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.5625,
+        "writers": 8
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.43333333333333335,
+        "writers": 8
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.4791666666666667,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.41396825396825393,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.4444444444444444,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.4416666666666666,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.5833333333333334,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.6011904761904762,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.5,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.5606060606060607,
+        "useful_positive_per_episode": 0.2727272727272727
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.625,
+        "useful_positive_per_episode": 0.25
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.6666666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.041666666666666664,
+    "span_iou": 0.06930272108843537,
+    "span_state_accuracy": 0.2261904761904762,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.41666666666666663,
+    "unsupported_attributes_per_episode": 0.8571428571428571,
+    "useful_positive_per_episode": 0.32142857142857145,
+    "useful_positive_with_span_per_episode": 0.07142857142857142,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.25,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.40125000000000005,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.6666666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "artifact:account": {
+    "by_slot": {
+      "change": {
+        "actor": 0.21428571428571427,
+        "operation": 0.39107142857142857,
+        "relation": 0.39183673469387753
+      },
+      "continuation": {
+        "actor": 0.7095238095238096,
+        "operation": 0.668452380952381,
+        "relation": 0.6693877551020408
+      },
+      "entry": {
+        "actor": 0.7602380952380952,
+        "operation": 0.4620833333333333,
+        "relation": 0.6771428571428572
+      },
+      "removal": {
+        "actor": 0.1661904761904762,
+        "operation": 0.3196428571428571,
+        "relation": 0.32040816326530613
+      },
+      "selection": {
+        "actor": 0.8178571428571428,
+        "operation": 0.6049404761904762,
+        "relation": 0.5700000000000001
+      },
+      "surrounding": {
+        "actor": 0.3833333333333333,
+        "operation": 0.41845238095238096,
+        "relation": 0.41938775510204085
+      }
+    },
+    "contradicted_per_episode": 4.821428571428571,
+    "covered": 0.7619047619047619,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.5059523809523809,
+        "brier": 0.5085714285714286,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.48214285714285715,
+        "brier": 0.4774404761904762,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.4523809523809524,
+        "brier": 0.5080272108843538,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.36666666666666664,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.539469696969697,
+        "useful_positive_per_episode": 0.09090909090909091
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.5,
+      "brier": 0.49166666666666664,
+      "log_loss": "infinite"
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.5,
+        "writers": 9
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.5833333333333334,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.44666666666666666,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.4075091575091575,
+        "writers": 13
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.5277777777777778,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.47350427350427354,
+        "writers": 13
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.5208333333333334,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.5178571428571429,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.6071428571428572,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.375,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.539469696969697,
+        "useful_positive_per_episode": 0.09090909090909091
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.2983333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.4691666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.05357142857142857,
+    "span_iou": 0.09015349729635444,
+    "span_state_accuracy": 0.2619047619047619,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.2380952380952381,
+    "unsupported_attributes_per_episode": 1.1785714285714286,
+    "useful_positive_per_episode": 0.07142857142857142,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.2983333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.4691666666666667,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "artifact:alignment": {
+    "by_slot": {
+      "change": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09877232142857142,
+        "relation": 0.09657505580357142
+      },
+      "continuation": {
+        "actor": 0.19677734375,
+        "operation": 0.19698660714285715,
+        "relation": 0.21934291294642858
+      },
+      "entry": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "removal": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09654017857142858,
+        "relation": 0.09657505580357142
+      },
+      "selection": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "surrounding": {
+        "actor": 0.26932198660714285,
+        "operation": 0.26953125,
+        "relation": 0.26956612723214285
+      }
+    },
+    "contradicted_per_episode": 2.892857142857143,
+    "covered": 0.6666666666666666,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16236514136904762,
+        "log_loss": 0.6099427360635808
+      },
+      "operation": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16294642857142858,
+        "log_loss": 0.6624425739694916
+      },
+      "relation": {
+        "accuracy": 0.8035714285714286,
+        "brier": 0.16632952008928573,
+        "log_loss": 0.6625803801515964
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.14047619047619048,
+        "useful_positive_per_episode": 2.2
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.7142857142857143,
+      "brier": 0.23025948660714285,
+      "log_loss": 0.8279608765143313
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.3,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.3,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.25,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.16666666666666666,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.18055555555555555,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.17103174603174603,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.1875,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.1845238095238095,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 3.0,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.16703869047619047,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.0,
+    "span_iou": 0.0,
+    "span_state_accuracy": 0.0,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.0,
+    "unsupported_attributes_per_episode": 0.0,
+    "useful_positive_per_episode": 2.3214285714285716,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.1644345238095238,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "writers": 14
+  },
+  "artifact:direct": {
+    "by_slot": {
+      "change": {
+        "actor": 0.2857142857142857,
+        "operation": 0.35714285714285715,
+        "relation": 0.35714285714285715
+      },
+      "continuation": {
+        "actor": 0.7857142857142857,
+        "operation": 0.7142857142857143,
+        "relation": 0.7142857142857143
+      },
+      "entry": {
+        "actor": 0.8169047619047619,
+        "operation": 0.7857142857142857,
+        "relation": 0.8214285714285714
+      },
+      "removal": {
+        "actor": 0.2857142857142857,
+        "operation": 0.35714285714285715,
+        "relation": 0.35714285714285715
+      },
+      "selection": {
+        "actor": 0.8930952380952382,
+        "operation": 0.8928571428571429,
+        "relation": 0.42857142857142855
+      },
+      "surrounding": {
+        "actor": 0.4642857142857143,
+        "operation": 0.4642857142857143,
+        "relation": 0.4642857142857143
+      }
+    },
+    "contradicted_per_episode": 4.321428571428571,
+    "covered": 0.75,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.4107142857142857,
+        "brier": 0.5885714285714286,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.40476190476190477,
+        "brier": 0.5952380952380952,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.47619047619047616,
+        "brier": 0.5238095238095238,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.36666666666666664,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.696969696969697,
+        "useful_positive_per_episode": 0.18181818181818182
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.35714285714285715,
+      "brier": 0.6430952380952382,
+      "log_loss": "infinite"
+    },
+    "invalid": 3,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.4,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.4444444444444444,
+        "writers": 9
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.5833333333333334,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.4696969696969697,
+        "writers": 11
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.5416666666666666,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.5,
+        "writers": 12
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.5277777777777778,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.5166666666666667,
+        "writers": 12
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.59375,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.5952380952380952,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 0.75,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.375,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.696969696969697,
+        "useful_positive_per_episode": 0.18181818181818182
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333333,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.02976190476190476,
+    "span_iou": 0.03933150183150184,
+    "span_state_accuracy": 0.15476190476190474,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.25,
+    "unsupported_attributes_per_episode": 0.2857142857142857,
+    "useful_positive_per_episode": 0.10714285714285714,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333333,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  },
+  "artifact:marginal_prior": {
+    "by_slot": {
+      "change": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09877232142857142,
+        "relation": 0.09657505580357142
+      },
+      "continuation": {
+        "actor": 0.19677734375,
+        "operation": 0.19698660714285715,
+        "relation": 0.21934291294642858
+      },
+      "entry": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "removal": {
+        "actor": 0.09633091517857142,
+        "operation": 0.09654017857142858,
+        "relation": 0.09657505580357142
+      },
+      "selection": {
+        "actor": 0.15771484375,
+        "operation": 0.15792410714285715,
+        "relation": 0.157958984375
+      },
+      "surrounding": {
+        "actor": 0.26932198660714285,
+        "operation": 0.26953125,
+        "relation": 0.26956612723214285
+      }
+    },
+    "contradicted_per_episode": 2.892857142857143,
+    "covered": 0.6666666666666666,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16236514136904762,
+        "log_loss": 0.6099427360635808
+      },
+      "operation": {
+        "accuracy": 0.8154761904761905,
+        "brier": 0.16294642857142858,
+        "log_loss": 0.6624425739694916
+      },
+      "relation": {
+        "accuracy": 0.8035714285714286,
+        "brier": 0.16632952008928573,
+        "log_loss": 0.6625803801515964
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.14047619047619048,
+        "useful_positive_per_episode": 2.2
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.7142857142857143,
+      "brier": 0.23025948660714285,
+      "log_loss": 0.8279608765143313
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.3,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.3,
+        "writers": 10
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.25,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.16666666666666666,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.16666666666666666,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.18055555555555555,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.17103174603174603,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.1875,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.1845238095238095,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 3.0,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.16703869047619047,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.17437770562770563,
+        "useful_positive_per_episode": 2.3636363636363638
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.0,
+    "span_iou": 0.0,
+    "span_state_accuracy": 0.0,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.0,
+    "unsupported_attributes_per_episode": 0.0,
+    "useful_positive_per_episode": 2.3214285714285716,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.03422619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.1488095238095238,
+        "useful_positive_per_episode": 2.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.1644345238095238,
+        "useful_positive_per_episode": 1.5
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.17485119047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.18005952380952384,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.19047619047619047,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.29464285714285715,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5758928571428571,
+        "useful_positive_per_episode": 2.0
+      }
+    ],
+    "writers": 14
+  },
+  "artifact:review": {
+    "by_slot": {
+      "change": {
+        "actor": 0.17857142857142858,
+        "operation": 0.35714285714285715,
+        "relation": 0.25
+      },
+      "continuation": {
+        "actor": 0.6785714285714286,
+        "operation": 0.5714285714285714,
+        "relation": 0.5714285714285714
+      },
+      "entry": {
+        "actor": 0.7454761904761905,
+        "operation": 0.7142857142857143,
+        "relation": 0.75
+      },
+      "removal": {
+        "actor": 0.17857142857142858,
+        "operation": 0.2857142857142857,
+        "relation": 0.17857142857142858
+      },
+      "selection": {
+        "actor": 0.7145238095238096,
+        "operation": 0.8214285714285714,
+        "relation": 0.25
+      },
+      "surrounding": {
+        "actor": 0.35714285714285715,
+        "operation": 0.39285714285714285,
+        "relation": 0.32142857142857145
+      }
+    },
+    "contradicted_per_episode": 5.535714285714286,
+    "covered": 0.9285714285714286,
+    "dimensions": {
+      "actor": {
+        "accuracy": 0.5238095238095238,
+        "brier": 0.47547619047619044,
+        "log_loss": "infinite"
+      },
+      "operation": {
+        "accuracy": 0.4761904761904762,
+        "brier": 0.5238095238095238,
+        "log_loss": "infinite"
+      },
+      "relation": {
+        "accuracy": 0.6130952380952381,
+        "brier": 0.38690476190476186,
+        "log_loss": "infinite"
+      }
+    },
+    "domain_distribution": [
+      {
+        "episodes": 5,
+        "operation_brier": 0.36666666666666664,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.6060606060606061,
+        "useful_positive_per_episode": 0.45454545454545453
+      }
+    ],
+    "episodes": 16,
+    "handling": {
+      "accuracy": 0.42857142857142855,
+      "brier": 0.5716666666666667,
+      "log_loss": "infinite"
+    },
+    "invalid": 0,
+    "operation_risk_at_fixed_coverage": [
+      {
+        "actual_coverage": 0.10416666666666667,
+        "claims": 10,
+        "raw_risk": 0.5,
+        "requested_coverage": 0.1,
+        "writer_mean_risk": 0.5,
+        "writers": 9
+      },
+      {
+        "actual_coverage": 0.25,
+        "claims": 24,
+        "raw_risk": 0.6666666666666666,
+        "requested_coverage": 0.25,
+        "writer_mean_risk": 0.5878787878787879,
+        "writers": 11
+      },
+      {
+        "actual_coverage": 0.5,
+        "claims": 48,
+        "raw_risk": 0.5208333333333334,
+        "requested_coverage": 0.5,
+        "writer_mean_risk": 0.5045918367346939,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 0.75,
+        "claims": 72,
+        "raw_risk": 0.5277777777777778,
+        "requested_coverage": 0.75,
+        "writer_mean_risk": 0.525,
+        "writers": 14
+      },
+      {
+        "actual_coverage": 1.0,
+        "claims": 96,
+        "raw_risk": 0.53125,
+        "requested_coverage": 1.0,
+        "writer_mean_risk": 0.5238095238095238,
+        "writers": 14
+      }
+    ],
+    "positive_per_episode": 1.6785714285714286,
+    "prompt_components": 2,
+    "prompt_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 4,
+        "operation_brier": 0.375,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 11,
+        "operation_brier": 0.6060606060606061,
+        "useful_positive_per_episode": 0.45454545454545453
+      }
+    ],
+    "session_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333333,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "sessions": 15,
+    "span_exact": 0.10714285714285714,
+    "span_iou": 0.11869658119658119,
+    "span_state_accuracy": 0.26785714285714285,
+    "target_counts": {
+      "change": {
+        "absent": 14,
+        "content_edit": 1,
+        "format_edit": 1
+      },
+      "continuation": {
+        "absent": 4,
+        "insert": 12
+      },
+      "entry": {
+        "absent": 3,
+        "insert": 13
+      },
+      "removal": {
+        "absent": 14,
+        "delete": 2
+      },
+      "selection": {
+        "absent": 3,
+        "select": 13
+      },
+      "surrounding": {
+        "absent": 12,
+        "content_edit": 3,
+        "format_edit": 1
+      }
+    },
+    "unresolved": 0.07142857142857142,
+    "unsupported_attributes_per_episode": 0.5357142857142857,
+    "useful_positive_per_episode": 0.32142857142857145,
+    "useful_positive_with_span_per_episode": 0.0,
+    "writer_distribution": [
+      {
+        "episodes": 1,
+        "operation_brier": 0.0,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.16666666666666666,
+        "useful_positive_per_episode": 3.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.3333333333333333,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 1.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.5,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333333,
+        "useful_positive_per_episode": 0.5
+      },
+      {
+        "episodes": 2,
+        "operation_brier": 0.5833333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.6666666666666666,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 0.8333333333333334,
+        "useful_positive_per_episode": 0.0
+      },
+      {
+        "episodes": 1,
+        "operation_brier": 1.0,
+        "useful_positive_per_episode": 0.0
+      }
+    ],
+    "writers": 14
+  }
+}

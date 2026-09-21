@@ -1,0 +1,75 @@
+{
+  "at": "2026-09-21T21:47:25.286608+00:00",
+  "charges": {
+    "cpu_seconds": 10217.732559001073,
+    "diagnostic_gpu_seconds": 320.76540780000505,
+    "gpu_seconds": 320.76540780000505,
+    "host_cpu_seconds": 641.5308156000101
+  },
+  "gear": 2,
+  "health_due": 1790039534.1723974,
+  "jobs": {
+    "causal": {
+      "cause": "observations belong to the original bound fixture, not a local copy",
+      "failure_sha256": "8019e4dca1a76c0a1b9ef68344539acba923e5092bce58e6faf6a764bdb53368",
+      "status": "failed"
+    },
+    "model": {
+      "complete_sha256": "a1325dfd96b85dbbd4cd7590f575d8d32735667acdb6e6f683b0ae49f2e8067f",
+      "status": "complete",
+      "summary": {
+        "admitted": true,
+        "controls": {
+          "ordinary_replay": true,
+          "reader_boundary": true,
+          "reference_replay": true,
+          "sole_fit_owner": true,
+          "source_bound": true
+        },
+        "files": {
+          "CAPABILITY.json": "91fb43b7482e36a239cb873aa5914a17b45a5e5375a1d891f76cc00ff57a5f9e",
+          "MODEL.json": "8c283c8f1f8d7227a7fbfc5be101d5a09f6a3a65da55100519754e55f2e7bcb6",
+          "MODEL_READY.json": "54b99a0ad5193b8250c471e11e60ae234f8cd4d6a348df3c55b807625bbfac7b"
+        },
+        "forecast_arrays": 320,
+        "kind": "infrastructure",
+        "max_hidden_error": 9.231794628750123e-07,
+        "max_probability_error": 1.7474632557634706e-07,
+        "max_reference_error": 0.0,
+        "models": 8,
+        "scope": "native model and challenge replay; no new fit, selective access or human claim",
+        "status": "complete"
+      }
+    },
+    "practice": {
+      "complete_sha256": "f7980cae4f757ce43d70ee2342eed1b309d7ad531281c22725f9ea7ef4367359",
+      "status": "complete",
+      "summary": {
+        "controls": {
+          "exact_ordered_replay": true,
+          "full_score_replay": true,
+          "full_update_reconstruction": true,
+          "native_kernel": true,
+          "saved_policy_valid": true,
+          "source_bound": true
+        },
+        "files": {
+          "SOURCE_SCOPE.json": "5d692e6f2338f3e149b4024de860173d33abc9b9177571d72cf2cdc1a2b61f42"
+        },
+        "kind": "infrastructure",
+        "max_error": 1.1102230246251565e-16,
+        "scope": "actual shared practice/replay support audited; no new learning or full inversion claim",
+        "status": "complete",
+        "tables_replayed": 576,
+        "transitions": 294912
+      }
+    }
+  },
+  "new_settings": 0,
+  "plan_sha256": "50269321b1719e6cfefd38b6fd2fcdfe327543bed9384f561446bb736fe76e55",
+  "queue_exited": true,
+  "repair": "one cause-specific causal parent-fixture resolution pending",
+  "snapshot_sha256": "8fa0ae5b122a66e8106e06bdd6fd969c1f63a81c97c7bfec418d04a9bb772273",
+  "status": "complete_inspection",
+  "tests": 28
+}

@@ -1,0 +1,178 @@
+{
+  "at": "2026-09-21T14:25:19.526543+00:00",
+  "charges": {
+    "cpu_seconds": 7566.281333999941,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "events": [
+    {
+      "digest": "8330f06eedd1e6608f279f85e813ef78b2eab0940a0323ec85dd78c31c5200e0",
+      "id": "0b88d290230175ebb9321a45",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-population-v1/COMPLETE.json"
+    },
+    {
+      "digest": "ea5bf8e49c6a6d0e2839e341b4363594132301b2f291a1f0580f3e7d4f7d3813",
+      "id": "39b69039f5900f6a040b6669",
+      "path": "results/phase_2_4_stage_12/raw/queue/primary-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "2f039ec4cb2431874f709add929cc941e0b181529bb3f3b80a568b793368c8d8",
+      "id": "48b0fc7211ae5991a76c3258",
+      "path": "results/phase_2_4_stage_12/raw/queue/primary-v1/EXIT-18e4cae4f00e47c3a0008a5091f06673.json"
+    },
+    {
+      "digest": "3280929f4d9ad173cea40318e17f63772b1c05e2f90e286e25e09dff33631eb8",
+      "id": "dda61211017ce8667d4d1191",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-primary-v1/COMPLETE.json"
+    },
+    {
+      "digest": "6570c36e1a64ac6586aa628c9b32f701540e24c5cafd376dd1d4faff90212236",
+      "id": "eb96ef258ca4f83de0073d2e",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-cloud-packet-v1/COMPLETE.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "matched_history_count_verified": true,
+  "output_hashes_verified": true,
+  "scope": "frozen descriptive replication only; no reader results or scientific verdict; exact launcher/quote still pending",
+  "source_evaluator_roster_verified": true,
+  "statistics_correction": "The original half_width_approx label is incorrect: 2.8*SD/sqrt(n) is an approximate detectable paired difference, not a confidence interval. Retain bytes; use this correction and prespecified analysis companion before inference.",
+  "summaries": {
+    "S12-cloud-packet-v1": {
+      "blocks": 15,
+      "controls": {
+        "all_reader_conditions": true,
+        "no_dispatch": true,
+        "prior_approval_not_reused": true,
+        "private_evaluators_excluded": true
+      },
+      "dispatch_dollars": 0,
+      "exact_model_digest": "7653528ba5cba4dd8e19da24aaddc7f4d0b5ecd93571c0825dfd4137958ec06e",
+      "files": {
+        "MICROBLOCKS.json": "d144dd0c6be66b19e0625f1bab8a6f7ec8905bf4dfdd8a0bf5a720f2e216a4a2",
+        "REQUESTS.json": "a6d6fee67eb6011c453ca881fd26a8bfe81b79ab9c915fe1c9888834ad243a21",
+        "REVIEW_PACKET.json": "a60ce058b2b3ef62f26aeb63382805a80b9133ecf4ab58d3f371f7b9ae030126"
+      },
+      "kind": "infrastructure",
+      "preparation_status": "bounded request and comparison packet; funding and exact launcher verification remain admission prerequisites",
+      "prepared_calls": 171,
+      "source_support": "descriptive; no untouched component established",
+      "status": "complete"
+    },
+    "S12-population-v1": {
+      "controls": {
+        "canonical_source_replayed": true,
+        "crossed_components_disjoint": true,
+        "identity_only_allocation": true
+      },
+      "counts": {
+        "development": {
+          "classes": {
+            "accept": 104,
+            "dismiss": 77,
+            "edit": 18,
+            "ignore": 4
+          },
+          "prompt_components": 4,
+          "records": 203,
+          "sessions": 16,
+          "writer_components": 5,
+          "writers": 5
+        },
+        "evaluation": {
+          "classes": {
+            "accept": 365,
+            "dismiss": 125,
+            "edit": 63,
+            "ignore": 11
+          },
+          "prompt_components": 10,
+          "records": 564,
+          "sessions": 53,
+          "writer_components": 15,
+          "writers": 15
+        },
+        "train": {
+          "classes": {
+            "accept": 1832,
+            "dismiss": 762,
+            "edit": 593,
+            "ignore": 17
+          },
+          "prompt_components": 4,
+          "records": 3204,
+          "sessions": 255,
+          "writer_components": 6,
+          "writers": 32
+        }
+      },
+      "exclusions": {
+        "crossed writer/prompt allocation mismatch": 1112,
+        "local log absent from released task metadata": 2,
+        "strict reconstruction or published per-session counts fail": 1,
+        "unsupported replay or handling semantics": 11
+      },
+      "files": {
+        "ALLOCATION.json": "f7ca096b2af2884c3ac1379a75930cf0106e96a16646a799bce81bc155aceb2d",
+        "CENSUS.json": "62c5d698e09eb2ee68537c6e59f5b2dd00d3805e5a673ce52156e56a8e7f242e",
+        "POPULATION.json": "4e42e58cf3e82e4834755bbc32ec0245bdffba13d7e4c945aff40959cf8267d5",
+        "SOURCE_METADATA.json": "11a368ed80725787eaa1beb28c7466ba4b178fbfe8d3f1f22760a34df4625e2c"
+      },
+      "fresh_confirmatory_components": 0,
+      "kind": "infrastructure",
+      "status": "complete"
+    },
+    "S12-primary-v1": {
+      "capable_reader_status": "waiting for admitted package and specific permitted allocation",
+      "controls": {
+        "donors_training_only": true,
+        "selection_outcome_blind": true,
+        "writer_prompt_disjoint": true,
+        "zero_support_preserved": true
+      },
+      "eligible_opportunities": 57,
+      "files": {
+        "DEVELOPMENT.json": "abae21d84db863e1ca05efcc91c4fce4af1c377c9c5fed44039b8a3dae1af50d",
+        "EVALUATOR_ONLY.json": "c7333ea9c2e98e2dd140b3a55741e1b0ab1ff32d1afbfdde370f6ae8f2d8c7c7",
+        "READER_INPUTS.json": "23127beb6a9c38d9067f60c4cc526c42a939119f9b4dc33f5ca89607c2fa7713",
+        "S-P1.json": "4e3b50d79635cae36deda93da4ad45303b06927b31fcc22a4cda49c26faeda80",
+        "TRAINING.json": "d20d2a18cd08e59cc1d6ae0569078f795ef63fa357e66e90e29d94e33d374eb0"
+      },
+      "kind": "infrastructure",
+      "paired_precision_sensitivity": [
+        {
+          "assumed_sd": 0.15,
+          "half_width_approx": 0.10844353369380766,
+          "n": 15
+        },
+        {
+          "assumed_sd": 0.2301,
+          "half_width_approx": 0.16635238068630095,
+          "n": 15
+        },
+        {
+          "assumed_sd": 0.35,
+          "half_width_approx": 0.25303491195221783,
+          "n": 15
+        },
+        {
+          "assumed_sd": 0.5,
+          "half_width_approx": 0.36147844564602555,
+          "n": 15
+        }
+      ],
+      "prompt_components": 9,
+      "status": "complete",
+      "unexposed_components": 0,
+      "writer_components": 15
+    }
+  }
+}

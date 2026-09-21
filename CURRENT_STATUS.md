@@ -1,5 +1,34 @@
 # Current status
 
+## Stage 12 local queue resumed; resource readiness pending - September 21
+
+The local native queue is running: a resource wait, one bounded output-interface
+canary and fifteen complete comparison blocks totaling 258 requests. Current GPU
+headroom is insufficient. The wait checks every five minutes without inference;
+two ready samples release the canary, whose unchanged gate controls dependent
+work. This local sequence has no cloud prerequisite. The earlier telemetry-only
+repair and its failed canary remain intact. All 38 validation tests and 21 locks
+pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-source
+replay and expertise are already internally landed; joint neural composition
+remains unadmitted.
+
+The curator approved the concrete $20 Modal tree: $3 pilot, $16 conditional main
+and $1 protected. Fresh API checks verify workspace identity, no active apps and
+usage; payment readiness and workspace spending backstop require the signed-in
+billing page. The owner is signed into Firefox, which the available browser tool
+cannot access. The three billing facts have been requested; no cloud allocation
+has been made and no further spending approval is requested.
+
+The original checkpoint helper and four-hour watcher are active. Next health
+inspection is four hours after the current inspection ACK; the exact deadline
+is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_1349_ACK.json).
+Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
+with the last twelve hours protected. Gear 2 authorization and all stage ceilings
+remain. The theory errata is applied and both
+spec sources are filed. See the [implementation handoff](docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md)
+and [final setup inspection](results/phase_2_4_stage_12/FINAL_SETUP_INSPECTION.json).
+Earlier dated entries below describe closed execution windows.
+
 ## Final appointment - September 20, 15:00 UTC
 
 Both final reports are assembled from the verified completed evidence. Stage 11.1

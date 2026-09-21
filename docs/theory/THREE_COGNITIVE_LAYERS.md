@@ -300,6 +300,24 @@ that produced its training data strongly enough to support some human-shaped inf
 current evidence establishes decodable geometry and tracking behavior, not that the model
 reproduces the human generative mechanism. "Ghosts of a human brain" remains the curator's
 organizing hypothesis, not an architectural finding. The errors are the interesting part.
+
+> There will be some kind of simulation-based advantage.
+
+*Curator's local-goal, evidence-reorganization and expertise walkthrough, supplied in the
+analysis thread; recording date not separately supplied; filed 2026-09-21. Contiguous excerpt,
+wording preserved. The surrounding speech describes an implicit assumption guiding the search.*
+
+The expected advantage is a pursuit hypothesis with several possible realizations: a runnable
+process account, reusable predictive state, a learned transition model or a target-conditioned
+change in the reader. These are not equivalent to a full brain simulation. A coordinate change
+alone adds no information, though it can change what a bounded decoder can access or what an
+intervention can selectively control. Decodable state, usable state, accurate process inference
+and human correspondence are separate claims. A supplied world law or a failed reader cannot
+settle whether a learned simulation mechanism adds value. The corrected model-family evidence
+is owned by `READER_HEURISTICS.md` §1; the earlier surface-sensitive advantage is not a standing
+confirmation of shared simulation. Confidence: untested, logic only for a general simulation
+advantage and human correspondence.
+
 For Phase 2.3, "human generative prior" has only a functional meaning (2026-08-21): a model
 supplies candidate human-coherent processes that improve recovery of facts withheld from the
 candidate-generation step. Fluent mental-state labels and a plausible rationale do not count;

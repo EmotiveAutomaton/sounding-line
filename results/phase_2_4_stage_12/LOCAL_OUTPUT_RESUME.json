@@ -1,0 +1,105 @@
+{
+  "active_plan": "PLAN-local-output-v2.json",
+  "at": "2026-09-21T23:01:24.717445+00:00",
+  "billing_remaining": [
+    "monthly usage limit",
+    "net spending limit",
+    "valid payment method"
+  ],
+  "canary_admitted": false,
+  "capacity_at_start": {
+    "additional_required_MiB": 7768,
+    "checks": 1,
+    "consecutive_ready": 0,
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "headroom, temperature or incompatible resident model; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-21T23:00:01.463585+00:00",
+      "free_MiB": 5014.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 108.72,
+      "temperature_C": 55.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 7268.0,
+      "utilization_percent": 44.0
+    }
+  },
+  "cards": 17,
+  "checkpoint_recovery": {
+    "at": "2026-09-21T23:03:16.687735+00:00",
+    "cause": "Operator global cancellation used for a local queue replacement also stopped the checkpoint helper; original clock and source resumed.",
+    "exit_path": "results\\phase_2_4_stage_12\\raw\\checkpoints\\EXIT-f3a500dbf08d4a82bca4d55500ff89c1.json",
+    "health_schedule": {
+      "due": 1790039534.1723974,
+      "id": "a73c05e08e894edd90c487a5c1c1ced8",
+      "interval_seconds": 14400,
+      "last_inspected": 1790025134.1723974,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "native": {
+      "created_ticks": 134345053962987332,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 58464
+    },
+    "original_contract_sha256": "320d710fdaaa32eb013c38354a5b74afc921742578e2f5e1fdec941d9ab70cee",
+    "original_dates_unchanged": true,
+    "original_markers_preserved": true
+  },
+  "cloud_approval_retained": true,
+  "cloud_dispatched": false,
+  "comparison_requests": 258,
+  "gear": 2,
+  "health_schedule": {
+    "due": 1790039534.1723974,
+    "id": "a73c05e08e894edd90c487a5c1c1ced8",
+    "interval_seconds": 14400,
+    "last_inspected": 1790025134.1723974,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "kind": "operational",
+  "locks": 21,
+  "next_plan": "PLAN-local-breadth-v2.json",
+  "next_plan_sha256": "175c3504d7e8ccf6be67616d95da88a48cbdfd3e5a92d4d138871542ff4a8748",
+  "next_queue": {
+    "at": "2026-09-21T22:53:23.250860+00:00",
+    "cards": 5,
+    "cpu_seconds": 3000,
+    "launch_admission": "pending original local queue exit, full internal landings and complete remaining-budget check",
+    "maximum_gpu_seconds": 36240,
+    "no_C3_duplicate_expansion": true,
+    "no_cloud_dependency": true,
+    "plan_sha256": "175c3504d7e8ccf6be67616d95da88a48cbdfd3e5a92d4d138871542ff4a8748",
+    "requests": 108
+  },
+  "no_cloud_dependency": true,
+  "original_failures_retained": true,
+  "output_interface": "bounded-output-v1",
+  "plan_sha256": "d17c4b2da19256aecaa690fe04ca889859034554a1d18f8a1cf0a1dbed9614ec",
+  "preexecution_repair": "retention JSON string-key identity; predecessor resource wait cancelled before scientific calls",
+  "queue_native": {
+    "created_ticks": 134345052005691798,
+    "executable": "C:\\Python313\\python.exe",
+    "pid": 282860
+  },
+  "rehearsal": {
+    "all_reentries_equal": true,
+    "fake_transport_requests": 258,
+    "handlers": 15,
+    "new_calls_on_reentry": 0
+  },
+  "scientific_calls_started": false,
+  "source_readiness": "owner Firefox sign-in reported; Firefox unavailable to browser tool",
+  "status": "live-resource-wait",
+  "strict_gate_unchanged": true,
+  "validation_tests": 38,
+  "worker_native": {
+    "created_ticks": 134345052010719906,
+    "executable": "C:\\Python313\\python.exe",
+    "pid": 272820
+  }
+}

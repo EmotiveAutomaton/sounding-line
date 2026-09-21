@@ -1,0 +1,87 @@
+{
+  "all_verified": true,
+  "at": "2026-09-21T15:24:35.964528+00:00",
+  "charges": {
+    "cpu_seconds": 7575.330501999706,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "events": [
+    {
+      "digest": "e8d20480923e73af8f2f17af130ce8499b1294cee45c44b0bc19a953364675fc",
+      "id": "1b3fcac2e0378a94cd940aa1",
+      "path": "results/phase_2_4_stage_12/raw/queue/adapters-v1/EXIT-ad28d1d86b804fc88fc1acd093ffbcff.json"
+    },
+    {
+      "digest": "97da1be7ec13d0ebe92d4955d19f2121d7ad59c5e4869478d8b84ec6b6efc9ec",
+      "id": "d5bc667162d4558ef29c3408",
+      "path": "results/phase_2_4_stage_12/raw/queue/adapters-v1/AWAITING_SELECTION.json"
+    },
+    {
+      "digest": "3e6b55e4d4d48b382980a2b8cbdd474d6c100e68b96a21a05f79eaf8831f9cbb",
+      "id": "a2d396a9a894c5edf7ee38cc",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-local-interpretation-compile-v1/COMPLETE.json"
+    },
+    {
+      "digest": "f64da7e05ce7fa97ead478643c7ed94fa214f4fec6854d6731f90785baa219d6",
+      "id": "d1f6edd288c741bbd475949a",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-ARIES-compile-v1/COMPLETE.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "scientific_claim": "unchanged; preparation only",
+  "source_output_checks": 464,
+  "summaries": {
+    "S12-ARIES-compile-v1": {
+      "controls": {
+        "back_matter_fused": true,
+        "many_to_many_indices_preserved": true,
+        "no_private_goal_label": true,
+        "released_totals_reconciled": true,
+        "unlinked_not_negative": true
+      },
+      "eligible_pairs": 28,
+      "excluded_input_pairs": 4,
+      "files": {
+        "EVALUATOR_ONLY.json": "4a4b7bdd6587de5d210b53082ac6b8fb16a57f50aa00ebb256797b338a844089",
+        "EXCLUSIONS.json": "68d2f70f7c0290975b511c094e22438355a3a53166f2f7cd97a4d6ca4b6acfda",
+        "REQUESTS.json": "a11e06bc50d2198d722eeb8112ea7692be1907bd83fc379f5cb4d304690670ca",
+        "SOURCE_ROWS.json": "68e9693a6b53ee921122b5c1d386eaa0eb2603ce7f15b32edcd839e12ed77bbd"
+      },
+      "independence": "paper descriptive groups; author components unavailable; comments and edits are not independent people",
+      "kind": "infrastructure",
+      "released_comments": 196,
+      "released_papers": 42,
+      "released_positive_edits": 131,
+      "requests": 112,
+      "scope": "bounded annotated request/edit correspondence; both directional views use the same supplied pair, no novel-edit generation claim",
+      "selected_papers": 4,
+      "status": "complete"
+    },
+    "S12-local-interpretation-compile-v1": {
+      "controls": {
+        "all_rivals": true,
+        "duplicate_public_inputs_collapsed": true,
+        "forward_reverse_separate": true,
+        "public_only": true
+      },
+      "distinct_sources": 5,
+      "files": {
+        "EVALUATOR_ONLY.json": "5b85f8c8c4d06462cdfa3031ff698016c882cde7b8c48e4bbb4879f216623a32",
+        "REQUESTS.json": "08eb289c5a1f1b35e9aba4d3b0ec8b6f4aa513e53a488af4ddf2aa618b5b7e57"
+      },
+      "kind": "infrastructure",
+      "requests": 30,
+      "scope": "all-inspect ambiguity diagnostic, no varied-world capability or human transfer claim",
+      "status": "complete"
+    }
+  },
+  "tests": 20
+}

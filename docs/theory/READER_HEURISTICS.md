@@ -280,6 +280,24 @@ association remain alternatives to correct identification. Identifying a maker, 
 that maker under a new constraint, and reconstructing a historical process are different
 achievements. An anomaly is therefore one entry route; familiarity is another candidate.
 
+> The ones I previously thought were good were the ones that were best at appearing good rather
+> than actually being so, which doesn't look as flashy.
+
+> Knowing that there's true knowledge there makes staring at it more interesting.
+
+*Curator's jiu-jitsu example in the local-goal, evidence-reorganization and expertise walkthrough,
+supplied in the analysis thread; recording date not separately supplied; filed 2026-09-21.
+Separate excerpts. The first restores the omitted subject I after "The ones"; all other wording
+is preserved, with line wrapping and punctuation normalized.*
+
+Added expertise can change which alternatives, constraints and consequences a reader sees,
+turning an apparent error into a purposeful choice or apparent skill into presentation skill.
+The operative goal still matters: convincing choreography and effective fighting can reward
+different moves. Recognition of genuine competence may invite closer attention without
+establishing the maker's history or values. Production competence, observational familiarity,
+shared tools and prior knowledge are live explanations for the reader's advantage, not synonyms.
+Confidence: untested, logic only for this proposed reader mechanism.
+
 A mistake is a sharpened anomaly for which evidence supports a mismatch between a choice and the
 maker's operative trajectory. The strongest evidence often comes from handling: repair exposes a
 preferred counterfactual, concealment exposes recognition and a protected goal, repetition
@@ -469,17 +487,31 @@ hypothesis fails, per §3.
 *Curator's six-question maker-model and context walkthrough, supplied in the analysis thread; recording date not separately supplied;
 filed 2026-09-18. Contiguous excerpt, wording preserved.*
 
-Context does not license a story in one step. It can reweight considered maker/process
-hypotheses, or cause a bounded reader to represent a possibility it had omitted. These are
-different computational events even if a more comprehensive model describes both as updating.
-No particular activation function or neural threshold is established by the introspection.
+> It was this data organization that explained many of the choices that I had not even remarked
+> upon as unusual.
 
-A useful cue should change independently assessable expectations about other evidence; a
-false cue should not acquire authority merely because it organizes many details. One constraint
-can explain several choices, but those choices are then partly dependent observations rather
-than separate confirmations of the same story. A changed felt experience can be worth
-understanding without proving the inferred biography or private intention. The tool-conditioned
-form of the rule lives in §6, and target-specific correction remains open in HH-23 and HH-25.
+> I actually worry that my specific explanation is overbiasing me and isn't being treated as one
+> of many possible solutions.
+
+*Curator's Worth the Candle example and its immediate qualification in the local-goal,
+evidence-reorganization and expertise walkthrough, supplied in the analysis thread; recording
+date not separately supplied; filed 2026-09-21. Separate contiguous excerpts, wording preserved,
+with line wrapping and punctuation normalized.*
+
+The new account can change which familiar details count as diagnostic choices, not only their
+weights after retrieval. Distinguish additional observations, improved access or organization of
+existing evidence, and expansion of the candidate family. A supplied explanation can do more
+than one of these; even a cue about already visible facts can introduce a new relation or
+privileged answer. No particular activation function, rotation or neural threshold follows from
+the introspection. The literary example records a changed reading, not independently verified
+knowledge of the author's motives or values.
+
+Context does not license a story in one step. A coherent false frame may reorganize many
+details, and details explained by one common cause are not independent confirmations.
+Historical interpretation gains warrant from independently assessed correspondence or
+discriminating consequences, not from explanatory reach or felt change alone. The curator's
+favored explanation remains one candidate. The tool-conditioned rule lives in §6, and
+target-specific correction remains open in HH-23 and HH-25.
 
 The flower example adds a candidate reason some context cues reorganize many details:
 a condition believed to persist through much of production may affect several choices
@@ -487,8 +519,9 @@ together. Claimed loneliness could therefore change the reader's interpretation 
 bright flower without establishing either the artist's actual state or the flower's
 intended meaning. Duration, explanatory reach, and source reliability are different
 properties. A broadly applicable cue can be reliable, misleading, or too flexible to
-constrain anything. The account earns support only if it improves predictions beyond
-the story it prompted; it does not inherit support from the reader's felt change alone.
+constrain anything. The historical account earns support through independently assessed correspondence or
+discriminating consequences beyond the story it prompted; it does not inherit support from
+the reader's felt change alone.
 
 **The current ordering conjecture places context especially at maker differentiation.** The
 artifact first supports a self-based candidate distribution; biography, prior work, tools,

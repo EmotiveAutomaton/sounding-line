@@ -1,0 +1,138 @@
+{
+  "at": "2026-09-21T14:48:54.038467+00:00",
+  "charges": {
+    "cpu_seconds": 7572.408626999706,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 0.0,
+    "host_cpu_seconds": 0.0
+  },
+  "checkpoint_status": {
+    "at": "2026-09-21T14:48:53.070499+00:00",
+    "contract_sha256": "320d710fdaaa32eb013c38354a5b74afc921742578e2f5e1fdec941d9ab70cee",
+    "native": {
+      "created_ticks": 134344756129023747,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 248932
+    },
+    "status": "running"
+  },
+  "events": [
+    {
+      "digest": "c5b43479c35924054a32add702810d643de171275c49037b36c6f0224c6f5dc6",
+      "id": "1b7aca1b2e6aa3436fb4a00c",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-C2-compile-v1/COMPLETE.json"
+    },
+    {
+      "digest": "479f880f5954d9dd981106e8025ec2e60e4d069e1f0bbe1d893a7b3456ff7a91",
+      "id": "514f58e23f76031319aa81df",
+      "path": "results/phase_2_4_stage_12/raw/queue/context-v1/EXIT-d0d3483b86cf476ebccac86ee69af5e2.json"
+    },
+    {
+      "digest": "d22a69beb59c925143a6556ff9d3a8fd9efd450b141d58c9a4b407465f6adc45",
+      "id": "ce4e9a1194306e5bfd7d4bbc",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-C3-compile-v1/COMPLETE.json"
+    },
+    {
+      "digest": "c7d2254733e89d3eea35c29d8982f40a9e5c202641f8ca2b3a3ee193773e2ae0",
+      "id": "f6955e8dba040913022d9d51",
+      "path": "results/phase_2_4_stage_12/raw/jobs/S12-C1-compile-v1/COMPLETE.json"
+    },
+    {
+      "digest": "bb85086360d7e6f626ffa7d8725d39b7e8ba1f330627465f91385a018199ea80",
+      "id": "d34c058119e7d1237d4ea3bb",
+      "path": "results/phase_2_4_stage_12/raw/queue/context-v1/AWAITING_SELECTION.json"
+    }
+  ],
+  "health_schedule": {
+    "due": 1790008848.7902782,
+    "id": "9020f58b0ce44131ad7ac2684a9bc379",
+    "interval_seconds": 14400,
+    "last_inspected": 1789994448.7902782,
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+  },
+  "limits": [
+    "C2 uses evidence-prefix calls, not persistent KV-state intervention",
+    "C3 repeats public query constructions; final aggregation must group actual input content, not unused history identity",
+    "No neural calls; canary-v1 unstarted, v2 preserves whole-request end-time guard before first inference"
+  ],
+  "native_checkpoint_owner": {
+    "at": "2026-09-21T14:46:53.063926+00:00",
+    "contract_sha256": "320d710fdaaa32eb013c38354a5b74afc921742578e2f5e1fdec941d9ab70cee",
+    "exit_path": "results\\phase_2_4_stage_12\\raw\\checkpoints\\EXIT-649e9f1ea2a040f6a1812fd66ecedfcd.json",
+    "native": {
+      "created_ticks": 134344756129023747,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 248932
+    }
+  },
+  "outputs_verified": true,
+  "summaries": {
+    "C1": {
+      "access": "constructed exact law supplied to all arms; C3 also supplies its complete hypothesis bank",
+      "blocks": 2,
+      "controls": {
+        "complete_condition_matrix": true,
+        "independent_reference_agreement": true,
+        "null_and_sensitive_query_verified": true,
+        "public_evaluator_separated": true
+      },
+      "distinct_request_contents": 56,
+      "family": "C1",
+      "files": {
+        "BLOCKS.json": "259243a41a905c5543284aa1847ebd2783a80439f83811162defc63a32a43826",
+        "EVALUATOR_ONLY.json": "3989a17598248d44c8bb40eb700196b505d327c6fbe9406c2935880ed041bf4d",
+        "REQUESTS.json": "6df5eed159a2ed63a821713c03e87680d6f2ba82134da8f4cb3ef33b66a4fb8b"
+      },
+      "kind": "infrastructure",
+      "requests": 64,
+      "scope": "first structural screen; no small-sample method ranking or human mental claim",
+      "source_units": 8,
+      "status": "complete"
+    },
+    "C2": {
+      "access": "constructed exact law supplied to all arms; C3 also supplies its complete hypothesis bank",
+      "blocks": 2,
+      "controls": {
+        "complete_condition_matrix": true,
+        "independent_reference_agreement": true,
+        "null_and_sensitive_query_verified": true,
+        "public_evaluator_separated": true
+      },
+      "distinct_request_contents": 32,
+      "family": "C2",
+      "files": {
+        "BLOCKS.json": "217569a47f9d22c6411bd759c33d132b6ec1388e6c310de5d6b76e0fdbfcebe4",
+        "EVALUATOR_ONLY.json": "00525bb8d5c0fbdb135b1de83fd78bd6e237ef5dcb3eb1340bc0eb2629b28ad7",
+        "REQUESTS.json": "55242285b50d2a562631d43d7387333c311f1814aa257b3188f7c36dd0e0b3f9"
+      },
+      "kind": "infrastructure",
+      "requests": 32,
+      "scope": "first structural screen; no small-sample method ranking or human mental claim",
+      "source_units": 8,
+      "status": "complete"
+    },
+    "C3": {
+      "access": "constructed exact law supplied to all arms; C3 also supplies its complete hypothesis bank",
+      "blocks": 2,
+      "controls": {
+        "complete_condition_matrix": true,
+        "independent_reference_agreement": true,
+        "null_and_sensitive_query_verified": true,
+        "public_evaluator_separated": true
+      },
+      "distinct_request_contents": 24,
+      "family": "C3",
+      "files": {
+        "BLOCKS.json": "deb89511d9993ac0e0b5bc2d46f68eaf247cd0048100cc97a79b4bbff6b10f49",
+        "EVALUATOR_ONLY.json": "9fb37eece4c5ff14b48f33f740f174aa06a39c5e28f4601785b6d9e0a6e00332",
+        "REQUESTS.json": "27114c1945789b0f19afa9f0c5be24fda6f6b2b3fbb773f29201550c73119a8b"
+      },
+      "kind": "infrastructure",
+      "requests": 48,
+      "scope": "first structural screen; no small-sample method ranking or human mental claim",
+      "source_units": 8,
+      "status": "complete"
+    }
+  },
+  "tests": "14 controls pass; full actual checkpoint exit/reentry also exercised; no generated checkpoint in live week yet"
+}

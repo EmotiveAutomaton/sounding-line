@@ -118,6 +118,13 @@ def refuse_over_cap(led: dict, est: float, args) -> None:
 
 
 def main() -> None:
+    if len(sys.argv)>1 and sys.argv[1]=='stage12':
+        # New scope needs its own immutable approval and actual billing evidence.
+        # Prior Round 1 approvals never enter this route.
+        sys.path.insert(0,str(REPO))
+        from runners.stage12.cloud import cli
+        cli(sys.argv[2:])
+        return
     ap = argparse.ArgumentParser()
     ap.add_argument("mode", choices=["estimate", "run", "ledger"])
     ap.add_argument("--cmd", help="repo-relative runner command line")
