@@ -12,12 +12,12 @@ pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-sourc
 replay and expertise are already internally landed; joint neural composition
 remains unadmitted.
 
-The curator approved the concrete $20 Modal tree: $3 pilot, $16 conditional main
-and $1 protected. Fresh API checks verify workspace identity, no active apps and
-usage; payment readiness and workspace spending backstop require the signed-in
-billing page. The owner is signed into Firefox, which the available browser tool
-cannot access. The three billing facts have been requested; no cloud allocation
-has been made and no further spending approval is requested.
+Modal account admission passed and the approved pilot completed. Its complete
+archive replays, but the unchanged validity gate fails on an output truncated
+before its probability answer. The main run remains unstarted; no automatic
+paid retry. Provider task and native controller have stopped, and the full pilot
+reservation is retained. Local work remains independent of this instrument
+failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.json).
 
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline

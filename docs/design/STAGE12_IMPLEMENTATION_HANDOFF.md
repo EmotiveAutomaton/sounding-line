@@ -46,7 +46,7 @@ planned requests, not independent participants or completed predictions.
 | Comparison | Assembled first sequence | Remaining admission |
 |---|---|---|
 | Local reader | Original telemetry repair retained; one bounded output-interface diagnosis frozen after curator correction | Live resource wait; full unchanged canary gate still required |
-| Human history primary | 171 frozen own/no/donor calls on 57 events; original and full-training priors plus persistence; full raw-response analysis | $20 tree approved; fresh billing-page evidence still required. Support remains descriptive with two connected dependency components |
+| Human history primary | 171 frozen own/no/donor calls on 57 events; original and full-training priors plus persistence; full raw-response analysis | $20 tree approved; account passed and pilot returned fully, but output truncation fails literal validity. Main unstarted. Support remains descriptive with two connected dependency components |
 | Git interpretation | 96 compiled requests; first six controlled operations selected in two complete 18-call blocks | Actual local reader; real owned history, merge and missing-history fixtures are separate reference evidence |
 | Local goal/process | Five distinct ambiguity fixtures, six direct/account requests each | Actual local reader; all-inspect export does not supply varied training support |
 | ARIES | Four paper blocks, 76 requests over nineteen labelled pairs | Actual local reader; annotation-balanced correspondence only; original all-negative draft retained unrun |
@@ -138,16 +138,15 @@ without a model download. No $50 extension is assembled or implied.
 The reviewable machine plan is `raw/cloud-prepared/PLAN-v2.json`. Entry is only
 through `runners/gear3.py stage12`, with plan, fresh account receipt, exact new
 approval and `--phase pilot` or `--phase main`. The exact approval is recorded;
-no allocation has been made. Fresh API evidence verifies the expected authenticated
-workspace, no active apps and current cycle usage. Environment budgets are not
-enabled on this workspace. The owner is signed into Firefox, which is unavailable
-to the browser tool. The actual monthly usage limit, net spending limit and valid
-payment status have been requested as billing facts; another login or spending
-approval is not required. Do not
-invent a verified account receipt or weaken the gate to dispatch. The
+the pilot completed under its original reservation. Account admission passes
+using fresh API evidence and the owner's current billing facts; no repeat login
+or billing-fact request is needed. The full archive replays but the all-valid
+gate fails on a truncated response, so main is unstarted. Original output and
+the entire pilot reservation remain; a revised paid plan needs separate per-use
+approval. Private receipts retain the evidence. No gate was weakened. The
 offline test exercises full archive retrieval, changed raw/receipt refusal,
-duplicate START refusal and pilot replay before continuation. The live SDK image
-allocation is still untested. A failed bounded invocation retains complete source
+duplicate START refusal and pilot replay before continuation. Live SDK image
+allocation, dispatch and complete raw retrieval verify. A failed bounded invocation retains complete source
 blocks but does not automatically resume; missing blocks remain visible. Returned
 prefill counts near the context boundary are invalid, and independent exact
 tokenization of every input is not claimed.
@@ -155,7 +154,7 @@ tokenization of every input is not claimed.
 The explicit per-use and over-$10 approval requirement is in [AGENTS.md](../../AGENTS.md).
 The approval now covers this whole tree and data boundary; do not request it again
 while those conditions remain satisfied. Original Round 1 authority is not reused.
-Independent authorized local work and reporting continue while billing checks wait.
+Independent authorized local work and reporting continue despite the failed cloud interface.
 
 ## Filing and theory maintenance
 

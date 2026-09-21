@@ -18,9 +18,10 @@ failure and repaired parent-fixture binding. The narrow expertise comparison is
 complete and internally landed in L411; no new fit. Joint neural composition
 remains unadmitted.
 The original checkpoint helper and four-hour watcher remain live. The $20 Modal
-pilot/main tree is approved but awaits exact billing facts from the owner's
-signed-in Firefox session, which the browser tool cannot access; no paid
-allocation has started. The retained census failure and all-negative ARIES draft have separately versioned
+tree completed its capped pilot after fresh account admission. Full archive
+replay passes, but truncation fails literal validity, so main remains unstarted.
+Provider and native controller have stopped; the full reservation and failed
+output remain. [Pilot inspection](CLOUD_PILOT_INSPECTION.json). The retained census failure and all-negative ARIES draft have separately versioned
 repairs; original evidence remains intact. The week remains open and its final
 packet is not yet delivered.
 

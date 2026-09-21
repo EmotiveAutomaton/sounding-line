@@ -9,6 +9,54 @@ ran it.
 
 ---
 
+### OPS-S12-CLOUD-PILOT - complete transport, failed literal validity
+
+**Operational question.** Does the approved capable-reader pilot return a complete, literally valid prediction roster before the human-history main comparison is allowed to spend?
+
+**METHOD.** Retrieve the entire remote archive and replay its member inventory, hashes, raw requests, responses, exact runtime identity and all frozen input bindings. Apply the unchanged completion, context and probability-validity checks to the whole twelve-request pilot. Separately verify the native controller exit, stopped provider application, retained reservation and original local monitoring.
+
+The table describes the complete pilot's instrument admission. It contains no comparison of scientific effects.
+
+| Check | Complete-unit finding |
+|---|---|
+| Archive and roster | All twelve requests returned; full archive, semantic replay and six source pins verify |
+| Literal gate | Eleven valid responses; one exhausted its frozen 512-token output allowance before producing the probability distribution. The all-valid gate fails |
+| Controls | Original response, truncation, fixed request and denominator retained; no normalization, filtering, rescoring change or repeated call |
+| Accounting | Full $3 reservation retained, not presented as a settled invoice; transport ledger COMPLETE does not imply scientific admission |
+| Main comparison | All 159 remaining requests unstarted. Literal validity blocks dispatch even though the conditional timing estimate fits the monetary ceiling |
+| Exit and monitoring | Controller exited normally and provider reports the app stopped with no running task. Only that exact exited process watch is retired; terminal paths and outbox remain |
+| Independent local work | Gear 2 queue still waits for measured local GPU capacity; original checkpoint and four-hour health deadlines unchanged |
+
+**Found and means.** The cloud interface failed its literal-validity admission. This is an instrument outcome, not a negative human-history result. The approved main condition was not met, so no main run or automatic paid retry follows. The original evidence and reservation remain; any revised paid recovery must be concretely bounded and separately authorized under the per-use rule. Independent local work continues. No tests or scientific claims were harvested from the billing facts.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the cloud interface ready for the commissioned human-history comparison? Outcome: **Infrastructure**. Result: the complete pilot fails literal-validity admission. Project meaning: account access works, but the main scientific comparison remains unstarted. Next engineering obligation: preserve this failure, review a bounded output-interface recovery before any new paid invocation, and continue eligible local work. Public claim: unchanged. Curator decision required: No to preserve the failed gate and continue local work; a future revised paid plan requires its own explicit approval. Detail: [complete pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.json).
+
+---
+
+### OPS-S12-CLOUD-LAUNCH - approved pilot admitted to compute
+
+**Operational question.** Can the already approved capable-reader pilot start under verified account and campaign limits while local work continues independently?
+
+**METHOD.** Combine the owner's current billing-page facts with a fresh authenticated workspace, current-cycle usage, application and volume inventory. Reserve conservative existing-storage headroom, verify the unchanged plan, approval, complete input roster and all six source pins, then enter only through the mandatory Gear 3 controller. Bind native supervision and terminal alerts before dispatch; inspect the actual provider application and local queue without reading partial scientific scores.
+
+The table describes launch and monitoring evidence, not scientific outcomes or settled charges.
+
+| Check | Disposition |
+|---|---|
+| Account admission | Owner-reported usage/net-spend limits and payment readiness now verified with fresh provider usage; private financial details remain excluded |
+| Campaign bounds | Existing $20 approval retained: $3 pilot, $16 conditional main, $1 protected; no new approval or allocation scope |
+| Actual dispatch | Twelve-request pilot submitted through gear3.py; provider reports one running task and the exact native controller remains live |
+| Deadline | Original 65-minute reservation expires September 21 at 17:30:51 PDT; independent stop/cancel monitor and remote timeout remain |
+| Pre-allocation repair | Local supervision initially failed on an optional monitor-record name before any reservation or cloud entry. Verified exited identities and absence of allocation before repairing that lookup; original logs retained |
+| Local execution | Existing Gear 2 queue remains live in its capacity wait, with no cloud prerequisite; dependent scientific work still requires its full canary |
+| Monitoring | Pilot completion, failure and native exit watched; original checkpoint helper and four-hour health deadline unchanged |
+
+**Found and means.** The approved cloud pilot is running. Its main continuation requires complete raw retrieval, literal validation of the entire pilot and enough measured capacity for all remaining requests under the original cap and deadline. A failed or uncertain invocation retains its reservation and is not resubmitted automatically. No new tests were harvested from the billing facts; no scientific claim or admission changes.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the approved capable reader now be tested under its funding bounds? Outcome: **Infrastructure**. Result: the capped pilot is running with verified ownership and monitoring. Project meaning: the remaining account blocker is resolved. Next engineering obligation: fully replay and land the completed pilot before any main dispatch. Public claim: unchanged. Curator decision required: No. Detail: [pilot launch receipt](results/phase_2_4_stage_12/CLOUD_PILOT_LAUNCH.json).
+
+---
+
 ### OPS-S12-LOCAL-RESUME - local queue independent of cloud access
 
 **Operational question.** Can the commissioned local comparisons proceed independently of the capable-reader cloud side path?

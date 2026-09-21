@@ -15,12 +15,15 @@ All 38 tests and 21 locks pass. Native shared-source consumers and the narrow
 expertise comparison are already internally landed (L411). Joint neural
 composition remains unadmitted. Checkpoint helper and four-hour watcher remain.
 
-The approved cloud pilot has not allocated compute. Fresh Modal API inspection
-verifies the expected workspace, no active apps and cycle usage. Environment
-budgets are unavailable for this workspace; payment readiness and the workspace
-usage/net-spend limits remain unverified. The owner is signed into Firefox,
-which is not exposed to the browser tool. The three exact billing facts have
-been requested; do not repeat a sign-in instruction or spending approval.
+The approved cloud pilot completed and its entire archive replays, but the
+unchanged all-valid gate fails: a response exhausted its output allowance before
+returning probabilities. Main is unstarted; no automatic paid retry. Account
+admission is resolved using fresh provider evidence and the owner's billing
+facts; do not ask for those facts or a login again. Native controller and provider
+task have stopped. Retain the full $3 reservation, original failed output and
+all 159 unstarted main requests. A revised paid recovery needs a concrete new
+plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
+failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. Next health inspection remains
 September 21 at 18:12:14 PDT; ordinary completion ACKs do not change it.
 The following setup snapshots preserve their chronology; this paragraph is current.

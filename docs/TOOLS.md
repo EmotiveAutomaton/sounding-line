@@ -12,6 +12,20 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-CLOUD-PILOT: the entire cloud pilot archive and semantic roster replay
+verify. The unchanged all-valid gate fails because one response reaches its
+frozen output cap before returning probabilities. Transport completion is not
+reader admission. The native owner and provider task have stopped; the full
+reservation remains. No main dispatch, normalization or automatic paid retry.
+
+OPS-S12-CLOUD-LAUNCH: live account admission, approved-plan/source binding,
+reservation and authenticated Modal dispatch are verified. The native controller,
+provider task and terminal monitoring are live under the original pilot deadline.
+A private supervisor's optional monitor-name lookup failed before allocation;
+its failure was preserved and exact exited ownership checked before repair.
+No scientific transport source or acceptance gate changed. Full archive retrieval
+and literal pilot validity remain pending; offline guards are not a live result.
+
 OPS-S12-LOCAL-RESUME: the versioned output interface preserves input evidence,
 strict probability validity and original canary criteria while providing bounded
 explanation/output room. Existing comparisons bind their effective requests and
