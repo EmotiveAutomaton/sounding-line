@@ -81,9 +81,9 @@ then document/recover before ACK. Ordinary result ACKs never reset this clock.
 Use docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md for the current exact plan,
 source admissions and recovery. The theory errata is now applied; current and
 initial commission sources and errata are filed with exact source hashes. All
-older evidence and quotations survive. Publication validity passes, but commit
-and push remain pending. The private publication handoff records the remaining
-action; scientific admissions remain separate from repository publication.
+older evidence and quotations survive. Setup and local continuation are committed
+and pushed to EmotiveAutomaton/main, with exact remote equality verified.
+Scientific admissions remain separate from repository publication.
 Earlier snapshots below concern closed Stage 11 windows and remain historical.
 
 ## Final appointment - September 20, 15:00 UTC
