@@ -12,6 +12,15 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-2222: the four-hour wake reached the owner once; exact native
+checkpoint/watcher identities, fresh output and loaded monitoring sources verify.
+No new terminal or scientific owner appeared. All frozen continuation sources,
+manifests, inputs and 21 locks verify; the unchanged six-card reservation still
+fits the original limits. Fresh cold capacity passes, but intermittent telemetry
+repair is not established. The host helper anomaly persists and the previously
+requested application intervention remains unapproved. No tool or scientific
+source changed; the prior 42-test pass is retained. See HEALTH_20260921_2222.json.
+
 OPS-S12-TRANSITION: cold loading and exact resident-context reuse are now verified
 in actual inference. Four incomplete local blocks retain eleven known responses
 and their reservations after post-response NVIDIA telemetry timeouts. Two complete

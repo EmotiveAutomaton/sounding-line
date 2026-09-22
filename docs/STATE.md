@@ -35,8 +35,12 @@ all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. Next health inspection remains
-four hours after the documented inspection ACK; HEALTH_20260921_1812_ACK.json
+four hours after the documented inspection ACK; HEALTH_20260921_2222_ACK.json
 records its exact deadline. Ordinary completion ACKs do not change it.
+The September 21 late-evening inspection verifies native monitors, fresh output,
+unchanged failures, source/input bindings, locks and whole-continuation capacity.
+No new terminal appeared; the existing host-intervention approval remains pending.
+See HEALTH_20260921_2222.json. Fresh capacity alone does not resolve intermittence.
 The following setup snapshots preserve their chronology; this paragraph is current.
 
 Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:

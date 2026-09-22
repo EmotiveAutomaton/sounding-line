@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-2222 - monitoring healthy; local recovery remains paused
+
+**Operational question.** Has the stopped queue lost evidence, exceeded resources or missed eligible continuation while awaiting the requested host intervention?
+
+**METHOD.** Inspect native identities and fresh checkpoint output, loaded watcher sources and actual event delivery; verify original terminal digests, frozen sources and manifests, locks, live capacity and the whole untouched continuation against the original week contract. Check the previously identified helper without stopping another application.
+
+The table separates live monitoring, preserved execution and conditions for resumption. Times are September 21 Pacific daylight time; the receipt uses UTC.
+
+| Check | Finding |
+|---|---|
+| Monitoring and delivery | Checkpoint and sole watcher identities match, output and scans are fresh, and the health wake arrived once about 25 seconds after its deadline without a delivery error |
+| Scientific execution | Every prior scientific owner has exited; no new terminal appeared. Original failures and completed outputs are unchanged. GPU lock is absent; the stopped dispatcher's native lock is retained for verified-exit cleanup |
+| Resource readiness | Cold admission passes with 7,837 MiB free against 7,768 MiB required. GPU temperature is 42 C. CPU maximum remains 90 percent with boost disabled |
+| Prepared continuation | All 463 source pins, six manifests and their inputs verify. The 138 untouched requests still fit original whole-plan capacity and protected reserves; none has started |
+| Recovery boundary | The peripheral helper's extreme handle count persists. Causation remains unproven and permission to stop it has not arrived. A successful current query does not establish repair of intermittent telemetry failures |
+| Validity | All 21 research hash locks pass. No code, model, scorer or input changed; the prior 42-test pass remains applicable without another identical suite run |
+
+**Found and means.** Monitoring is healthy and the queue remains at its documented operational recovery boundary. No evidence was lost, no known response was repeated and no other application was stopped. Gear 2, original deadlines, charges and scientific admissions remain unchanged. No tests harvested this pass. The documented health ACK rearms the next four-hour inspection.
+
+**Curator roll-up.** Theory group: infrastructure. Question: is the paused local queue preserved and ready for bounded recovery? Outcome: **Infrastructure**. Result: monitoring and preserved work verify while host recovery remains pending. Project meaning: available memory is sufficient, but telemetry stability remains unresolved. Next engineering obligation: resolve the already requested intervention, verify stability and fresh capacity, then dispatch untouched work. Public claim: unchanged. Curator decision required: Yes, the existing request to stop the verified peripheral helper for a bounded before/after check remains pending. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260921_2222.json).
+
+---
+
 ### OPS-S12-TRANSITION - local inference works; intermittent telemetry interrupts it
 
 **Operational question.** Is lack of GPU memory still preventing local tests after the resident-memory accounting repair?

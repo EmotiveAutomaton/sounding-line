@@ -26,7 +26,11 @@ failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.js
 
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline
-is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_1812_ACK.json).
+is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_2222_ACK.json).
+The [late-evening health inspection](results/phase_2_4_stage_12/HEALTH_20260921_2222.json)
+verifies fresh monitoring, unchanged evidence, sufficient current GPU memory and
+whole-continuation capacity. No new scientific output appeared; the existing
+host-intervention request remains pending and telemetry stability is unresolved.
 Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
 with the last twelve hours protected. Gear 2 authorization and all stage ceilings
 remain. The theory errata is applied and both

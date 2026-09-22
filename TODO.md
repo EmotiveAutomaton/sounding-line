@@ -2,6 +2,7 @@
 
 ## Stage 12 week - commissioned September 21
 
+- [x] OPS-S12-HEALTH-2222: verify native identities, fresh monitoring and actual delivery, unchanged terminals, source/input bindings, locks, resource limits and whole-plan capacity. No new output or scientific dispatch; pending host-intervention approval unchanged. Document before ACK and retain four-hour cadence.
 - [x] OPS-S12-TRANSITION: verify actual cold-to-resident inference, preserve four post-response telemetry failures and operator stop, replay both complete cells, and freeze only six untouched successor cards (138 requests).
 - [x] L414/L415: full internal landing of the complete local fixture and first controlled Git block, with all rivals, cheap controls, role/location limits and incomplete-population caveats.
 - [x] OPS-S12-HEALTH-1812: inspect actual native identities, source/output freshness, all failures, locks, resource limits, runnable untouched work and watcher delivery; document the operator stop and pending application approval before health ACK.
