@@ -4,13 +4,17 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-The local-output-v2 queue is running GPU comparisons after recovered capacity
-and full bounded-output canary admission. Fifteen complete blocks follow the
-unchanged gate. See [GPU/canary inspection](GPU_CAPACITY_INSPECTION.json).
-It carries 258 comparison requests independently of cloud access. The new
-diagnosis preserves the earlier telemetry repair and its failed gate; no old
-attempt is rewritten. All 38 validation tests and 21 locks pass. See the
-[local continuation receipt](LOCAL_OUTPUT_RESUME.json).
+The local-residency-v1 queue is live in its bounded capacity wait. The earlier
+queue completed its full canary and C1/C2/C3 blocks, then falsely refused twelve
+jobs before any request. The resource-only repair distinguishes cold loading
+from an exact fully resident context and uses actual free/reserved memory.
+All 42 tests and twelve-handler fixture replay pass. A newly active unrelated
+graphics application currently prevents cold loading; the safety buffer remains.
+All 186 untouched requests remain queued independently of cloud access, behind
+two ready samples. No completed cell is repeated and no original attempt is
+rewritten. See [repair](GPU_RESIDENCY_REPAIR.json), [launch](GPU_RESIDENCY_LAUNCH.json),
+[first context blocks](CONTEXT_INITIAL_INSPECTION.json) and
+[supplied joint-bank block](JOINT_BANK_INSPECTION.json). All 21 locks pass.
 
 CPU preparation consumers have run and are internally landed. The original
 week-v4 and local-repair-v1 queues remain historical. Actual shared-model,

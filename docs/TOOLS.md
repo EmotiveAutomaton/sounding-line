@@ -12,6 +12,15 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-RESIDENCY: resource-only repair uses actual NVIDIA free/reserved memory
+and distinguishes cold loading from a verified fully GPU-resident exact context.
+It preserves the free buffer and rejects partial, unknown, expiring or incompatible
+residency. The recorded double-reservation refusal reproduces; all 42 Stage 12
+tests and twelve-handler fixture replay pass. Twelve pre-request failures and all
+completed cells remain immutable. Fresh source and job namespaces resume only the
+untouched 186 requests. See GPU_RESIDENCY_REPAIR.json; live transition verification
+is recorded separately from unit and fixture checks.
+
 OPS-S12-GPU-CAPACITY: actual NVIDIA free memory and adapter-wide Windows counters
 confirm sufficient capacity after an unattributed release. A per-process desktop
 counter exceeds physical capacity and is not used for admission. The resource

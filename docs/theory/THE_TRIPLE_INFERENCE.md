@@ -696,6 +696,7 @@ working values construction.
 | **G56** | Supplying mechanics-level information unlocks goal recovery | **OPEN, the missing arm.** Every edge tested supplies a goal or a process, never a mechanic |
 | **G57** | Prior information at any target improves the others | **OPEN.** One of six edges ever tested |
 | **G58** | Entry is possible at any sub-level, with expertise setting which | **OPEN** |
+| **S12-JOINT-BANK** | A bounded reader preserves the consequential dependencies in whole maker hypotheses whose factor marginals match | **OPEN beyond a descriptive supplied-bank screen (test, constructed worlds, Qwen model reader and exact-program reference, L413).** The exact construction has different consequences at equal marginals, while the complete model block retains errors and invalid outputs over three content components. Privileged banks and laws test conditional calculation, not artifact inference, a reconstruction-method ranking or human coupling |
 | **S12-EXPERTISE** | Frozen knowledge that improves native production also constrains the artifact's current objective, with practice compared against identical replay | **SUPPORTED within the descriptive construction (test, L411; Ghost native worlds, exact-program readers).** All learned arms improve both production objectives over the untrained policy and reduce inverse probability error under intact and degraded evidence. Practice equals matched replay exactly; practice versus demonstration reverses with acquisition coverage. Declarative operation knowledge is near the true-law oracle. The known optimal-maker assumption, previously inspected development support and unequal prior information limit this to the declared diagnostic, not human expertise or neural reconstruction. |
 | **G47** | Drives are upstream of process | **OPEN, now testable.** The values construction exists in the simulation; the coupling run is queued there. The first edge that would begin to discriminate among the candidate shapes the prose declines to name |
 
@@ -706,7 +707,10 @@ native production world, acquired mechanics knowledge improves objective inferen
 over an untrained model, while identical practice and replay remain the same instrument
 and acquisition coverage changes their comparison with demonstrations (L411). That
 diagnostic assumes a known optimal maker and does not measure the full set of directed
-edges or establish human expertise. The earlier substitute construction's values vertex
+edges or establish human expertise. Explicit joint banks can also preserve consequential
+information absent from their factor marginals, but the bounded model calculation
+does not establish reliable use of that information or reconstruction from an artifact
+(S12-JOINT-BANK, L413). The earlier substitute construction's values vertex
 was void, so it cannot support a topology involving values. Confidence: one bad test
 away for the scoped constructed findings; untested, logic only for the upstream
 conjecture and general topology.

@@ -18,20 +18,26 @@ protected. CPU lanes are serial, one numerical thread and below normal priority.
 The previously explicit Gear 2 allocation remains; resource availability and
 scientific scope still gate actual GPU work.
 
-The active `raw/PLAN-local-output-v2.json` contains a resource wait, one output
-interface canary and fifteen complete local comparison blocks. The original
+The active `raw/PLAN-local-residency-v1.json` contains a fresh resource wait and
+twelve untouched comparison blocks (186 requests). Original local-output-v2
+completed its full canary and three context blocks, then falsely refused the
+remaining jobs before any request. The resource-only repair uses actual free
+memory and credits only an exact fully GPU-resident context; the full cold-load
+reservation and safety buffer remain. All original sources, failures, charges,
+completed cells and admitted canary are retained. The original
 week-v4 and local-repair-v1 plans remain historical and must not be relaunched.
 The earlier repair changed telemetry/timeouts only. The curator's September 21
 correction renews independent local execution; the [bounded interface diagnosis](STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md)
-preserves the full canary and unchanged gate. Current headroom is insufficient;
+preserves the full canary and unchanged gate. Its complete canary is admitted.
+Current headroom is insufficient after new unrelated graphics activity;
 the live worker checks every five minutes without inference and requires two
 ready samples. No Modal prerequisite enters this local queue. Shared-source
 replay and native expertise are complete in separate frozen queues. Sources run
 from immutable capsules; never edit one. The checkpoint helper and four-hour
-watcher remain live. All 38 validation tests pass.
+watcher remain live. All 42 validation tests and twelve-handler fixture replay pass.
 
 The [next local breadth queue](STAGE12_LOCAL_BREADTH.md),
-`raw/PLAN-local-breadth-v2.json`, is also frozen: five complete cards and 108
+`raw/PLAN-local-breadth-residency-v1.json`, is also frozen: five complete cards and 108
 requests from the already compiled second C1/C2 blocks and remaining Git
 operations. It is not running concurrently. After the present queue exits and
 its complete cells land, check measured timing and the whole next reservation
@@ -45,7 +51,7 @@ planned requests, not independent participants or completed predictions.
 
 | Comparison | Assembled first sequence | Remaining admission |
 |---|---|---|
-| Local reader | Original telemetry repair retained; one bounded output-interface diagnosis frozen after curator correction | Live resource wait; full unchanged canary gate still required |
+| Local reader | Full bounded-output canary admitted; resource-only resident-memory repair frozen | Live fresh resource wait; original canary/profile retained; cold-to-resident transition verification pending headroom |
 | Human history primary | 171 frozen own/no/donor calls on 57 events; original and full-training priors plus persistence; full raw-response analysis | $20 tree approved; account passed and pilot returned fully, but output truncation fails literal validity. Main unstarted. Support remains descriptive with two connected dependency components |
 | Git interpretation | 96 compiled requests; first six controlled operations selected in two complete 18-call blocks | Actual local reader; real owned history, merge and missing-history fixtures are separate reference evidence |
 | Local goal/process | Five distinct ambiguity fixtures, six direct/account requests each | Actual local reader; all-inspect export does not supply varied training support |
@@ -55,11 +61,11 @@ planned requests, not independent participants or completed predictions.
 | Shared causal reader | Actual native architectures, both sites and seven arms fully replayed; static/ordered composition rulers verify | Ordinary capability passes; joint selective access fails, so learned composition remains unstarted |
 | Expertise | Actual practice/replay/demonstration counts crossed with objective, acquisition coverage and observation quality | Narrow native consumer complete and internally landed; no broad human or neural admission |
 
-The local sequence has 258 comparison requests plus eleven canary requests. Its
-worst-case reservation is 25.142 GPU hours, including ownership overhead; this is
-an upper bound, not an ETA. The new output profile retains the same per-call time
-ceiling and original overall limits. Available GPU memory alone cannot make the
-comparison cards eligible: the complete new canary must pass. Do not close
+The original sequence had 258 comparison requests plus eleven canary requests.
+The remaining 186 requests reserve 17.45 GPU hours including ownership overhead;
+this is an upper bound, not an ETA. The original output profile, per-call time
+ceiling and overall limits remain. Original full canary admission is retained;
+resource readiness is a separate requirement. Do not close
 another application or lower the threshold to make the queue appear active.
 Actual timing may admit more independent support;
 completed structural screens cannot select a noisy method ranking as confirmation.

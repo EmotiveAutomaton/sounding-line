@@ -9,13 +9,58 @@ ran it.
 
 ---
 
+### OPS-S12-RESIDENCY - repair false GPU capacity refusals
+
+**Operational question.** Why did the local queue reject its remaining work while the matching model already occupied the GPU?
+
+**METHOD.** Verify every original worker and queue exit, source and manifest binding, all twelve failure receipts and the absence of any dispatched request in those jobs. Reconstruct admission from saved GPU and Ollama residency records. Test a prospective resource-only repair on the recorded false refusal, cold/loaded safety boundaries, wrong/partial/expired residency and invalid telemetry; rehearse every replacement handler and its replay with fake transport in an isolated root.
+
+The table separates the resource defect from completed science and prospective execution.
+
+| Check | Finding |
+|---|---|
+| Defect | The check subtracted reported resident bytes from a conservative cold-load estimate, then requested another 2,304 MiB after the exact model/context was fully resident. That exceeded its recorded 2,238 MiB derived free reading, although the unchanged 768 MiB safety buffer remained available |
+| Blast radius | Twelve jobs failed before any request; all original failures and overhead charges remain. Three complete context blocks remain valid under their original interface and are not repeated |
+| Repair | Query actual NVIDIA free and reserved memory. A single verified exact model, context and fully GPU-resident allocation requires only the buffer. Cold loading retains the original full reservation; partial, incompatible, unknown or expiring residency refuses |
+| Validation | All 42 Stage 12 tests pass, including sixteen adverse-residency cases. All twelve replacement handlers complete and replay 186 fixture requests without additional calls or real inference |
+| Source boundary | Separate new capsule and job namespaces; original requests, targets, profiles, canary verdict, scorers, deadlines and limits remain unchanged |
+| Capacity | Whole replacement reservation fits the original remaining allowance. A fresh two-sample wait precedes dispatch; every service entry rechecks capacity |
+
+**Found and means.** This is a definite queue-accounting defect, separate from the earlier unattributed release of GPU memory. The repair removes double reservation without lowering the required free buffer or changing scientific admission. The [Ollama residency API](https://docs.ollama.com/api/ps) exposes model, context and memory fields; unknown or partial residency is not credited as a fully loaded model. The queue and all original workers exited, with no GPU lock left behind. No other application was terminated or driver policy changed. The old queue exit and awaiting-selection markers are operational receipts, not whole-stage completion. No new scientific test was harvested from the operational request.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can already resident model memory stop falsely blocking eligible local work? Outcome: **Infrastructure**. Result: the repaired check passes the recorded false-refusal regression while retaining capacity refusals. Project meaning: the twelve untouched jobs can resume within their original scientific scope. Next engineering obligation: verify the new queue's real cold-to-resident transition, then land complete cells and admit the frozen breadth queue only after its prerequisites. Public claim: unchanged. Curator decision required: No. Detail: [residency repair inspection](results/phase_2_4_stage_12/GPU_RESIDENCY_REPAIR.json).
+
+---
+
+### L413 - supplied joint-bank calculation, first complete block
+
+**Hypothesis.** Whole maker hypotheses with identical factor marginals can imply different consequences; a bounded reader must preserve the supplied dependencies to calculate those consequences correctly.
+
+**METHOD.** Run the frozen first complete C3 block: four constructed source IDs, two queries and three explicitly supplied banks, with the exact law visible to the Qwen reader. The banks pair preferred column and skill in the same direction, the opposite direction, or independently. Their factor marginals match; the exact reference verifies a dependency-sensitive query. Duplicate-content grouping leaves three components. Replay all twenty-four raw requests and responses, invalidity, scores and aggregation through the completed handler entirely offline. No new inference or outcome-selected extension.
+
+Rows describe each supplied bank, not competing methods evaluated against one common target. Probability loss is expected half-Brier loss against that bank's exact distribution, averaged equally over content components; lower is better, but differing reference distributions prevent a simple method ranking. Modal agreement uses the exact most likely action, with its original tie rule. Invalid responses retain their penalty and denominator. Infinite logarithmic losses preserve missing probability support.
+
+| Supplied bank | Valid / attempted | Mean probability loss | Modal agreement | Infinite log losses |
+|---|---:|---:|---:|---:|
+| Independent factors | 7 / 8 | 0.445833 | 0.500000 | 4 |
+| Opposite pairing | 8 / 8 | 0.291667 | 0.333333 | 5 |
+| Same-direction pairing | 7 / 8 | 0.460417 | 0.500000 | 8 |
+
+**Found.** Every bank condition retains disagreement with the exact calculation, and two conditions include invalid output. Complete raw replay passes. The exact construction demonstrates that equal marginals can conceal different consequences; this small model block does not establish reliable integration of the supplied banks or an advantage for a reconstruction architecture.
+
+**Means.** The reader receives privileged complete banks and laws rather than inferring them from a maker's artifact. Three content components, repeated queries and changing reference distributions do not supply independent confirmation or a general method ranking. The result concerns bounded model calculation in a constructed world, not human coupling, persistent internal maker state or inferred private goals. No p-value or population interval is reported; no duplicate-heavy expansion follows.
+
+**Curator roll-up.** Theory group: coupled maker hypotheses. Question: does preserving a joint maker account suffice for accurate consequence calculation by this reader? Outcome: **Narrows**. Result: the complete supplied-bank block does not establish reliable exact integration. Project meaning: an exact information distinction and a model's ability to use it remain separate. Next engineering obligation: retain the full block and its dependency structure in the final comparison; continue the other commissioned local cells. Public claim: unchanged. Curator decision required: No. Detail: [joint-bank inspection](results/phase_2_4_stage_12/JOINT_BANK_INSPECTION.json).
+
+---
+
 ### L412 - first complete local context blocks, descriptive only
 
 **Hypothesis.** Organizing the same decision evidence with a correct relation should help a bounded reader more than a false or irrelevant explanation, and additional records should support correction under a misleading frame.
 
 **METHOD.** Run the frozen first complete blocks on four constructed sources with the same current Qwen reader and admitted bounded-output interface. The same-record block includes original/reversed records, correct/false/irrelevant explanations, unstructured correct text, rereading and an unchanged repeat. The additional-record block crosses correct/false frames with six/twelve records. Exact program references and the entire condition roster were frozen before inference. Re-run each completed handler entirely offline using saved calls only; raw parse, request bindings, scores, group aggregation, timing guards and produced artifacts reproduce. No new inference or selected winner.
 
-Each row below is a condition averaged equally over the four source components. Probability error is half the sum of squared differences from the exact distribution (half-Brier; lower is better); invalid output retains its prespecified penalty and denominator. Modal agreement is the fraction matching the exact reference's most likely action. Infinite log losses count literal zero probability assigned where the reference requires support. These are complete first blocks, not independent replications or a whole-stage result.
+Each row below is a condition averaged equally over the four source components. Probability error is expected half-Brier loss under the exact distribution (lower is better); invalid output retains its prespecified penalty and denominator. This description corrects the original wording as squared distance between distributions; recorded scores are unchanged. Modal agreement is the fraction matching the exact reference's most likely action. Infinite log losses count literal zero probability assigned where the reference requires support. These are complete first blocks, not independent replications or a whole-stage result.
 
 Same-record comparison (C1).
 

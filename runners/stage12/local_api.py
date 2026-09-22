@@ -6,9 +6,15 @@ owned request records full raw timing and a replayable parse. Timeout retains
 the lock and full reservation because server completion is unknown. No stale
 lock reclamation, hidden retry, endpoint migration or global driver change.
 API fields: https://docs.ollama.com/api/chat (read September 21, 2026).
+Residency: https://docs.ollama.com/api/ps. A matching fully GPU-resident
+context needs the free buffer, not a second reservation for loaded weights.
+Cold/unknown/partial residency cannot inherit that credit. Actual free memory
+excludes driver reserve; neither branch changes the scientific reader gate.
 """
 from contextlib import contextmanager
+from datetime import datetime, timezone
 import json
+import math
 import os
 from pathlib import Path
 import time
@@ -32,26 +38,48 @@ def api(path,payload=None,timeout=300):
 
 
 def snapshot():
-    fields='name,memory.total,memory.used,utilization.gpu,temperature.gpu,power.draw'
+    fields='name,memory.total,memory.used,memory.free,memory.reserved,utilization.gpu,temperature.gpu,power.draw'
     line=native_command(['nvidia-smi','--query-gpu='+fields,'--format=csv,noheader,nounits'],timeout=20).decode().strip()
     rows=line.splitlines()
     if len(rows)!=1:raise ValueError('single-card allocation cannot identify GPU')
-    name,total,used,util,temp,power=[x.strip() for x in rows[0].split(',')]
-    return dict(at=now(),name=name,total_MiB=float(total),used_MiB=float(used),free_MiB=float(total)-float(used),
-                utilization_percent=float(util),temperature_C=float(temp),power_W=float(power))
+    name,*values=[x.strip() for x in rows[0].split(',')]
+    total,used,free,reserved,util,temp,power=map(float,values)
+    if not all(math.isfinite(x) and x>=0 for x in (total,used,free,reserved,util,temp,power)) or total<=0 or max(used,free,reserved)>total:
+        raise ValueError('invalid GPU telemetry')
+    return dict(at=now(),name=name,total_MiB=total,used_MiB=used,free_MiB=free,reserved_MiB=reserved,
+                utilization_percent=util,temperature_C=temp,power_W=power)
+
+
+def fully_resident(model,profile):
+    """Only a matching, fully GPU-loaded context receives resident credit."""
+    size=model.get('size');vram=model.get('size_vram')
+    try:
+        expiry=datetime.fromisoformat(model['expires_at'].replace('Z','+00:00'))
+        # Do not credit a model that may unload between inspection and dispatch.
+        fresh=(expiry-datetime.now(timezone.utc)).total_seconds()>30
+    except (KeyError,TypeError,ValueError,AttributeError):fresh=False
+    return (model.get('name')==MODEL and model.get('digest')==MODEL_DIGEST
+        and type(model.get('context_length')) is int and model['context_length']==profile['context']
+        and type(size) is int and type(vram) is int and size>0 and size==vram and fresh)
 
 
 def readiness(profile):
-    snap=snapshot();models=api('/api/ps',timeout=20).get('models',[])
+    snap=snapshot();models=api('/api/ps',timeout=20)['models']
+    if not isinstance(models,list) or any(not isinstance(r,dict) for r in models):raise ValueError('invalid resident model inventory')
     installed=[r for r in api('/api/tags',timeout=20)['models'] if r['name']==MODEL]
     if len(installed)!=1 or installed[0]['digest']!=MODEL_DIGEST:raise ValueError('local model identity changed')
-    others=[r for r in models if r.get('digest')!=MODEL_DIGEST]
-    resident=sum(r.get('size_vram',0)/2**20 for r in models if r.get('digest')==MODEL_DIGEST)
-    required=max(0,profile['model_memory_MiB']-resident)+profile['free_buffer_MiB']
-    ready=not others and snap['free_MiB']>=required and snap['temperature_C']<=78
+    loaded=len(models)==1 and fully_resident(models[0],profile)
+    compatible=not models or loaded
+    required=(0 if loaded else profile['model_memory_MiB'])+profile['free_buffer_MiB']
+    reasons=[]
+    if not compatible:reasons.append('resident model/context is incompatible, partial, unknown or expiring')
+    if snap['free_MiB']<required:reasons.append('insufficient actual free GPU memory')
+    if snap['temperature_C']>78:reasons.append('GPU temperature exceeds 78 C')
+    ready=not reasons
     return dict(ready=ready,snapshot=snap,resident= models,additional_required_MiB=required,
+        capacity_mode='fully-resident' if loaded else 'cold-reservation',
         server=api('/api/version',timeout=20),model_digest=MODEL_DIGEST,
-        reason='ready' if ready else 'headroom, temperature or incompatible resident model; do not close other applications')
+        reason='ready' if ready else '; '.join(reasons)+'; do not close other applications')
 
 
 def request(text,n,call_class='forecast'):

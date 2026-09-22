@@ -1,0 +1,55 @@
+{
+  "at": "2026-09-22T00:28:41.978946+00:00",
+  "completed_cell": {
+    "complete_sha256": "10b1b2cb8a55cd730ea29e50c60c0310aa7ed31120865af905abb9494500c5c5",
+    "id": "S12-C3-block-0-v3-r5-out1-replay2",
+    "summary": {
+      "comparisons": {
+        "independent_marginals": {
+          "content_components": 3,
+          "infinite_log_losses": 4,
+          "mean_half_brier": 0.4458333333333333,
+          "modal_agreement": 0.5,
+          "n": 8,
+          "valid": 7
+        },
+        "joint_opposite": {
+          "content_components": 3,
+          "infinite_log_losses": 5,
+          "mean_half_brier": 0.2916666666666667,
+          "modal_agreement": 0.3333333333333333,
+          "n": 8,
+          "valid": 8
+        },
+        "joint_same": {
+          "content_components": 3,
+          "infinite_log_losses": 8,
+          "mean_half_brier": 0.46041666666666664,
+          "modal_agreement": 0.5,
+          "n": 8,
+          "valid": 7
+        }
+      },
+      "controls": {
+        "all_frozen_conditions": true,
+        "correct_canary_interface": true,
+        "invalids_retained": true,
+        "raw_semantic_replay": true
+      },
+      "family": "C3",
+      "files": {
+        "COMPARISONS.json": "cf4ec556f8f86bf919e293fdaf16b646fe6c4f5338a32695033e2fe0de7c3da0",
+        "ROWS.json": "444b0c9c6ea438de93b7dd09ce84b37c64787adf1b11759b2c5ce054894d656b"
+      },
+      "kind": "scientific",
+      "rows": 24,
+      "scope": "complete structural development block, no winner selection or human evidence",
+      "status": "complete",
+      "unique_source_clusters": 3
+    }
+  },
+  "finding": "L413",
+  "full_handler_raw_replay": true,
+  "no_inference": true,
+  "scope": "Complete first C3 block only; supplied-law/bank computation, three content components, no architecture ranking or human claim."
+}

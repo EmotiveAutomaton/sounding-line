@@ -2,20 +2,27 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution: `raw/PLAN-local-output-v2.json` is running GPU comparisons.
-Capacity recovered before operator intervention; the original waiter completed
-two ready samples and the full bounded-output canary passed its unchanged gate.
-Raw replay verifies. Fifteen original complete comparison blocks (258 requests)
-now run under the existing queue. Earlier memory pressure remains unattributed;
-an invalid Windows per-process counter is not the source of queue admission.
-See GPU_CAPACITY_INSPECTION.json; no application was stopped or driver changed.
-First complete C1/C2 blocks are replayed and internally landed in L412; their
-small descriptive contrasts do not establish general contextual correction.
+Current execution: `raw/PLAN-local-residency-v1.json` is live in its bounded
+capacity wait. The original queue completed C1/C2/C3, then falsely refused
+twelve jobs before any request by reserving already resident model memory again.
+The separately frozen repair uses actual NVIDIA free/reserved memory and credits
+only a verified exact fully GPU-resident context. The safety buffer and cold-load
+reservation are unchanged. All 42 tests and twelve-handler fixture replay pass.
+All original failures, charges and completed science remain; the new queue has
+186 untouched requests. A newly active unrelated graphics application then
+reduced actual free memory below cold admission. The queue waits without
+inference or closing other applications and resumes after two ready samples.
+Live cold-to-resident transition verification remains pending current headroom.
+The earlier unattributed memory release remains separate from the proven queue
+defect. See GPU_RESIDENCY_REPAIR.json and GPU_RESIDENCY_LAUNCH.json.
+First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
+their small descriptive contrasts establish neither general correction nor
+reliable supplied-bank integration. Original canary admission remains valid.
 The curator's September 21 correction renews independent local continuation.
 The prior repair changed telemetry/timeouts only; closing all local recovery
 on that basis was too broad. Preserve both old attempts and the new frozen
 diagnosis; no automatic further interface revision or extra tiny fit.
-All 38 tests and 21 locks pass. Native shared-source consumers and the narrow
+All 42 tests and 21 locks pass. Native shared-source consumers and the narrow
 expertise comparison are already internally landed (L411). Joint neural
 composition remains unadmitted. Checkpoint helper and four-hour watcher remain.
 

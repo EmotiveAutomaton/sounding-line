@@ -642,6 +642,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Cold-load estimates and resident allocation are different admission states.**
+  Stage 12 subtracted reported resident bytes from a conservative cold estimate
+  and demanded extra model memory after the exact context was fully on the GPU.
+  Twelve jobs failed before any request. Credit only a verified exact, fully
+  resident context; retain the free buffer and refuse partial/unknown residency.
+  Query actual free memory instead of total minus used, which includes driver
+  reserve on this host. The captured false refusal and cold/loaded boundary
+  controls now pass; original attempts remain. (OPS-S12-RESIDENCY, 2026-09-21)
+
 - **Rehearse every actual handler's second entry, including generated-state records.**
   Stage 12's full fake-transport rehearsal completed retention, then refused its
   own saved answer bank because integer keys returned from JSON as strings. Use

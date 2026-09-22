@@ -1,13 +1,19 @@
 # Current status
 
-## Stage 12 local GPU comparisons running - September 21
+## Stage 12 GPU admission repaired; queue waiting for capacity - September 21
 
-The local native queue is running GPU comparisons. Actual memory capacity
-recovered before operator intervention, the resource wait completed, and the
-full bounded-output canary passed its unchanged gate with complete raw replay.
-Fifteen complete comparison blocks totaling 258 requests now proceed. This local sequence has no cloud prerequisite. The earlier telemetry-only
-repair and its failed canary remain intact. All 38 validation tests and 21 locks
-pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-source
+The new local native queue is alive and waiting for actual GPU headroom.
+The original full canary and three complete context blocks remain; a resource
+check then falsely refused twelve untouched jobs by reserving loaded model
+memory twice. The separately frozen repair distinguishes cold and fully resident
+contexts and uses actual free memory. All 42 tests and full twelve-handler
+fixture replay pass. The 186 remaining requests keep their original inputs,
+reader admission and scoring. A newly active unrelated graphics application
+currently prevents cold loading; no application was closed or safety buffer
+lowered. The queue checks cheaply and resumes automatically after two ready
+samples. [Repair](results/phase_2_4_stage_12/GPU_RESIDENCY_REPAIR.json) and
+[launch](results/phase_2_4_stage_12/GPU_RESIDENCY_LAUNCH.json).
+All 21 locks pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-source
 replay and expertise are already internally landed; joint neural composition
 remains unadmitted.
 
