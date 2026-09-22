@@ -2,8 +2,12 @@
 
 ## Stage 12 week - commissioned September 21
 
+- [x] L412: fully replay and internally land the first complete C1/C2 context blocks; all conditions, invalids and infinite losses retained. No general ranking or human claim. Remaining commissioned cells continue.
+
 - [x] OPS-S12-LOCAL-RESUME: separate the telemetry repair from one bounded output-interface diagnosis; freeze the same balanced canary and fifteen local comparison blocks in new namespaces. All 38 checks and 21 locks pass; native resource wait and queue are live without a cloud prerequisite.
-- [ ] OPS-S12-LOCAL-RESUME: current `PLAN-local-output-v2.json` waits for two actual GPU-capacity samples, then runs the full canary and conditionally the fifteen original complete blocks. Land each full produce; no automatic further interface revision. A failed controlled gate does not close independent task-specific/CPU work or the week.
+- [x] OPS-S12-GPU-CAPACITY: inspect actual adapter/process readings, preserve the anomalous counter and unattributed release, land the resource waiter and fully replay the admitted canary. Original local queue now runs comparisons.
+- [ ] OPS-S12-LOCAL-RESUME: land each complete comparison from PLAN-local-output-v2; keep current source/owners and original limits. Capture actual adapter/process evidence if resource pressure returns.
+- [ ] OPS-S12-GPU-CAPACITY telemetry follow-up: next separately frozen revision should use actual NVIDIA free/reserved memory, preserving original snapshots. The current derived free field includes driver reserve; independent actual-free admission verified this launch.
 - [x] S12 next local breadth build: freeze five next cards and 108 requests from the already compiled second C1/C2 blocks and ten remaining Git operations, with complete rivals. The duplicate-heavy second C3 block is not added. `PLAN-local-breadth-v2.json` remains unstarted while the current queue owns execution.
 - [ ] S12 next local breadth dispatch: after the current queue exits and initial cells fully land, verify matching reader admission, measured timing and whole-tail remaining capacity, then launch the frozen five-card queue. Preparation is not budget admission. Continue to the stage's new-operator/provenance alternatives only on a named unresolved distinction.
 - [x] OPS-S12-NATIVE-SOURCE: actual frozen models, full native references and production/update support replay through the compatible adapter; 28 validation tests pass. No duplicate fit. The causal consumer's parent-fixture packaging failure is retained.

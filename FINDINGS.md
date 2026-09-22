@@ -9,6 +9,69 @@ ran it.
 
 ---
 
+### L412 - first complete local context blocks, descriptive only
+
+**Hypothesis.** Organizing the same decision evidence with a correct relation should help a bounded reader more than a false or irrelevant explanation, and additional records should support correction under a misleading frame.
+
+**METHOD.** Run the frozen first complete blocks on four constructed sources with the same current Qwen reader and admitted bounded-output interface. The same-record block includes original/reversed records, correct/false/irrelevant explanations, unstructured correct text, rereading and an unchanged repeat. The additional-record block crosses correct/false frames with six/twelve records. Exact program references and the entire condition roster were frozen before inference. Re-run each completed handler entirely offline using saved calls only; raw parse, request bindings, scores, group aggregation, timing guards and produced artifacts reproduce. No new inference or selected winner.
+
+Each row below is a condition averaged equally over the four source components. Probability error is half the sum of squared differences from the exact distribution (half-Brier; lower is better); invalid output retains its prespecified penalty and denominator. Modal agreement is the fraction matching the exact reference's most likely action. Infinite log losses count literal zero probability assigned where the reference requires support. These are complete first blocks, not independent replications or a whole-stage result.
+
+Same-record comparison (C1).
+
+| Condition | Valid / attempted | Mean probability error | Modal agreement | Infinite log losses |
+|---|---:|---:|---:|---:|
+| Irrelevant explanation | 4 / 4 | 0.217217 | 0.50 | 2 |
+| Matched rereading | 4 / 4 | 0.502500 | 0.50 | 4 |
+| Plausible false explanation | 4 / 4 | 0.275000 | 0.50 | 1 |
+| Original record | 4 / 4 | 0.380000 | 0.50 | 1 |
+| Reversed record order | 4 / 4 | 0.460000 | 0.50 | 4 |
+| Correct relational explanation | 4 / 4 | 0.294375 | 0.75 | 3 |
+| Unchanged repeat | 3 / 4 | 0.424375 | 0.50 | 3 |
+| Unstructured correct explanation | 2 / 4 | 0.687500 | 0.00 | 2 |
+
+Additional-record comparison (C2).
+
+| Condition | Valid / attempted | Mean probability error | Modal agreement | Infinite log losses |
+|---|---:|---:|---:|---:|
+| False frame, twelve records | 4 / 4 | 0.275000 | 0.50 | 1 |
+| False frame, six records | 4 / 4 | 0.302500 | 0.50 | 1 |
+| Correct frame, twelve records | 4 / 4 | 0.294375 | 0.75 | 3 |
+| Correct frame, six records | 4 / 4 | 0.275000 | 0.75 | 2 |
+
+**Found.** The correct relation lowers probability error relative to the original record, but false and irrelevant explanations also lower it; the unchanged repeat and unstructured condition retain invalid responses. Thus this block does not isolate a truth-sensitive explanatory advantage. Under the false frame the additional-record error falls slightly, while under the correct frame it rises; these four sources do not establish general corrective updating. All invalid and infinite-loss cases remain explicit.
+
+**Means.** The local transport and complete comparison pipeline now execute, but the broad reader hypotheses remain open. This is constructed-world model behavior with an exact-program reference, not human reading, internal belief change or a general method ranking. The canary's explicit-state admission does not guarantee validity or competence on every later task. The remaining frozen comparisons and independent breadth conditions retain their own admissions; no inference expansion follows these descriptive scores. No p-value or population interval is reported.
+
+**Curator roll-up.** Theory group: reader heuristics and contextual updating. Question: does a useful explanation help because it is true, and do records correct a false frame? Outcome: **Narrows**. Result: the first complete constructed blocks do not isolate truth-sensitive explanation or reliable correction. Project meaning: initial local evidence is descriptive and preserves instrument failures. Next engineering obligation: finish and replay the commissioned complete cells under the original budget; do not select a winning prompt. Public claim: unchanged. Curator decision required: No. Detail: [first context inspection](results/phase_2_4_stage_12/CONTEXT_INITIAL_INSPECTION.json).
+
+---
+
+### OPS-S12-GPU-CAPACITY - capacity recovered and local reader admitted
+
+**Operational question.** Is the local queue blocked by actual GPU memory pressure, a stale research process or misleading telemetry?
+
+**METHOD.** Compare NVIDIA actual free/used/reserved memory with Windows adapter-wide and per-process counters, inspect native owners and Ollama residency, and take a bounded stability trace. Verify the unchanged source capsule, the completed two-sample resource waiter, then replay all warm-up and scored canary raw requests, responses, probability validity, known targets, timing and repeat controls. No diagnostic inference or process termination was added.
+
+The table separates hardware observations from complete instrument admission.
+
+| Check | Finding |
+|---|---|
+| Before investigation | Waiter recorded 7,123 MiB used at 16:55 PDT; no resident model |
+| Recovery | Before operator intervention, NVIDIA reported 3,220 MiB used and 8,778 MiB actually free, exceeding the unchanged 7,768 MiB admission requirement |
+| Counter anomaly | Windows attributed about 32 GiB to one desktop-compositor process on a 12 GiB adapter; adapter-wide Windows and NVIDIA readings instead agreed near 3.2 GiB. This process counter is not evidence of physical consumption |
+| Attribution | Earlier released allocation remains unattributed. No orphaned research model was found; current graphics/background consumers are retained privately, without assigning them the earlier pressure |
+| Queue transition | Original waiter completed after fourteen checks and two consecutive ready samples; the original queue automatically started the full canary, then its first comparison block |
+| Full canary | All five requests in each class were valid. Forecast correctness was four of five; account correctness five of five. Repeat input/output checks and raw replay pass; unchanged admission gate passes |
+| Scope | Admission covers the frozen explicit-state constructed canary only, not human reading, hidden-state competence or completed scientific comparisons |
+| Monitoring | Source and manifest pins verify; Gear 2, checkpoint helper, terminal monitoring and original four-hour deadline remain |
+
+**Found and means.** The memory blockage cleared and local GPU comparisons are running. The release happened before any operator change, so no causal repair is claimed. The anomalous per-process counter is separate from the earlier NVIDIA-reported pressure. Microsoft documents [incorrect process-memory counters](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/gpu-process-memory-counters-report-wrong-value); this corroborates caution, not a diagnosis of the exact host defect. The frozen queue also overstates free memory by including about 285 MiB of driver reserve; directly queried actual free memory independently passed, and no live scientific source was changed. A future telemetry revision must use reported free/reserved fields. No new research hypothesis was harvested from the operational request.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the local commissioned tests use the available GPU? Outcome: **Infrastructure**. Result: resource and full reader admission passed, and local comparisons are running. Project meaning: the week is no longer stopped by GPU capacity. Next engineering obligation: land full cells, preserve current ownership, and capture adapter/process evidence promptly if pressure returns. Public claim: unchanged. Curator decision required: No. Detail: [GPU and canary inspection](results/phase_2_4_stage_12/GPU_CAPACITY_INSPECTION.json).
+
+---
+
 ### OPS-S12-CLOUD-PILOT - complete transport, failed literal validity
 
 **Operational question.** Does the approved capable-reader pilot return a complete, literally valid prediction roster before the human-history main comparison is allowed to spend?

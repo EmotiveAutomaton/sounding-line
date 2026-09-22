@@ -4,8 +4,9 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-The live local-output-v2 queue waits for resource capacity, then runs a full
-output-interface canary and fifteen complete comparison blocks only if admitted.
+The local-output-v2 queue is running GPU comparisons after recovered capacity
+and full bounded-output canary admission. Fifteen complete blocks follow the
+unchanged gate. See [GPU/canary inspection](GPU_CAPACITY_INSPECTION.json).
 It carries 258 comparison requests independently of cloud access. The new
 diagnosis preserves the earlier telemetry repair and its failed gate; no old
 attempt is rewritten. All 38 validation tests and 21 locks pass. See the

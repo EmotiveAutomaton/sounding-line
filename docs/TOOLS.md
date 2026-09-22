@@ -12,6 +12,14 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-GPU-CAPACITY: actual NVIDIA free memory and adapter-wide Windows counters
+confirm sufficient capacity after an unattributed release. A per-process desktop
+counter exceeds physical capacity and is not used for admission. The resource
+waiter completed; the full bounded-output canary passes unchanged validity,
+known-answer and replay checks. Local comparisons now run. Original failed
+interfaces remain. Use actual free/reserved memory in the next telemetry revision;
+the current frozen total-minus-used field includes the driver reservation.
+
 OPS-S12-CLOUD-PILOT: the entire cloud pilot archive and semantic roster replay
 verify. The unchanged all-valid gate fails because one response reaches its
 frozen output cap before returning probabilities. Transport completion is not

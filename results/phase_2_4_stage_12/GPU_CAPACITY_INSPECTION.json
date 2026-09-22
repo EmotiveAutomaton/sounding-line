@@ -1,0 +1,101 @@
+{
+  "actual_free_before_model_MiB": 8778,
+  "adapter_counter_MiB": 3222.4,
+  "at": "2026-09-22T00:10:06.799728+00:00",
+  "canary": {
+    "controls": {
+      "all_declared_requests_replayed": true,
+      "classes_separate": true,
+      "known_answer_coverage": true,
+      "repeat_request_identity": true
+    },
+    "diagnostic_limit_seconds": 3600,
+    "files": {
+      "ADMISSION.json": "5290937c2d2640ead2fff3edfb6f19f6db11ef2caf0bb8efdb1d29d329613497",
+      "ROWS.json": "d7fc4ae1fce0ebaa84201df5740dad2cfa29df11d55cc7dabc7a16e7a2c900a6"
+    },
+    "future_pause": "p90 over twice this matched class after context/output and actual token-length matching; inspect rather than retry",
+    "groups": {
+      "account": {
+        "correct": 5.0,
+        "input_tokens": [
+          875,
+          875,
+          874,
+          874,
+          875
+        ],
+        "n": 5,
+        "output_tokens": [
+          316,
+          277,
+          161,
+          198,
+          316
+        ],
+        "repeat_output_equal": true,
+        "repeated_request_identical": true,
+        "valid": 5,
+        "wall": {
+          "maximum": 4.919343499990646,
+          "median": 4.270001500000944,
+          "minimum": 2.551397300005192,
+          "n": 5,
+          "p90": 4.876139099989087
+        }
+      },
+      "forecast": {
+        "correct": 4.0,
+        "input_tokens": [
+          859,
+          859,
+          858,
+          858,
+          859
+        ],
+        "n": 5,
+        "output_tokens": [
+          151,
+          160,
+          164,
+          285,
+          151
+        ],
+        "repeat_output_equal": true,
+        "repeated_request_identical": true,
+        "valid": 5,
+        "wall": {
+          "maximum": 4.241600400011521,
+          "median": 2.5657079000084195,
+          "minimum": 2.228502300014952,
+          "n": 5,
+          "p90": 3.7033062400063503
+        }
+      }
+    },
+    "kind": "infrastructure",
+    "reader_admitted": true,
+    "reference_status": "current measured matched reference with recorded hardware, not causal attribution",
+    "status": "complete",
+    "target": "explicit-state constructed task only; no human or hidden-state/HF capability admitted"
+  },
+  "canary_full_raw_replay": true,
+  "cause_of_released_allocation": "unattributed; occurred before operator intervention",
+  "counter_not_physical_usage": true,
+  "dwm_process_counter_MiB": 32981.7,
+  "gear": 2,
+  "health_due_epoch": 1790039534.1723974,
+  "intervention": "read-only diagnosis; no application termination, GPU reset, model change or weakened gate",
+  "kind": "Infrastructure",
+  "local_queue_continues": true,
+  "manifest_pins_verified": 17,
+  "old_used_MiB": 7123,
+  "recovered_used_MiB": 3220,
+  "required_MiB": 7768,
+  "scientific_effect_claim": false,
+  "source_files_verified": 463,
+  "status": "capacity-restored-and-local-reader-admitted",
+  "telemetry_limit": "Frozen free-memory field includes about 285 MiB driver reserve; independently queried actual free memory also passes. Correct in next separately frozen telemetry revision.",
+  "two_ready_samples_verified": true,
+  "waiter_checks": 14
+}

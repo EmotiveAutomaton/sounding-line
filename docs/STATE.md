@@ -2,11 +2,15 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution: `raw/PLAN-local-output-v2.json` is live under the existing
-native queue. Its resource-wait worker checks capacity every five minutes,
-without inference; current headroom is insufficient. Two actual ready samples
-release one bounded output-interface canary, then fifteen original complete
-local comparison blocks (258 requests) only after its unchanged gate passes.
+Current execution: `raw/PLAN-local-output-v2.json` is running GPU comparisons.
+Capacity recovered before operator intervention; the original waiter completed
+two ready samples and the full bounded-output canary passed its unchanged gate.
+Raw replay verifies. Fifteen original complete comparison blocks (258 requests)
+now run under the existing queue. Earlier memory pressure remains unattributed;
+an invalid Windows per-process counter is not the source of queue admission.
+See GPU_CAPACITY_INSPECTION.json; no application was stopped or driver changed.
+First complete C1/C2 blocks are replayed and internally landed in L412; their
+small descriptive contrasts do not establish general contextual correction.
 The curator's September 21 correction renews independent local continuation.
 The prior repair changed telemetry/timeouts only; closing all local recovery
 on that basis was too broad. Preserve both old attempts and the new frozen

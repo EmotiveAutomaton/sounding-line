@@ -608,6 +608,7 @@ the reason to expect modest effects.
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
 | **HH-SELECTIVE-ATTENTION** | Directed attention, potentially including precision control, supports useful process learning while limiting unwanted uptake from the same source | **OPEN.** Curator conjecture; the human test requires joint measures of attended content, process learning, belief uptake and value change that the current program does not provide. Constructed procedural interference is an analogue, not those missing measurements |
+| **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the first descriptive blocks (test, constructed world, model reader and exact-program reference, L412).** Correct, false and irrelevant explanations all improve the first same-record block relative to its raw condition; invalid repeats/unstructured replies remain. Additional-record changes differ across frames on four sources. No truth-sensitive advantage, general correction or human mechanism is established |
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
@@ -624,7 +625,11 @@ under a parser-free readout, so the answer shift is real, while belief adoption 
 compliance remain unseparated (G167, HH-25). On the tested context constructions, coherent
 bundles do not establish an advantage over listed facts, added records fail to correct
 misleading priors, and evidence selection does not generally follow available information
-(C01 to C03). These are scoped behavior results, not a demonstrated human updating mechanism.
+(C01 to C03). The first current-reader structural blocks likewise do not isolate a
+truth-sensitive benefit: false and irrelevant framing can improve the same-record
+score, and later-record changes are not consistent across frames. Invalid outputs
+and repeat instability limit this small descriptive screen (S12-CONTEXT-1, L412).
+These are scoped behavior results, not a demonstrated human updating mechanism.
 
 The selection and reliance controls narrow earlier explanations. Route preferences do
 not follow ease as first proposed; the archaic rendering separates difficulty attraction

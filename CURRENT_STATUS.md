@@ -1,12 +1,11 @@
 # Current status
 
-## Stage 12 local queue resumed; resource readiness pending - September 21
+## Stage 12 local GPU comparisons running - September 21
 
-The local native queue is running: a resource wait, one bounded output-interface
-canary and fifteen complete comparison blocks totaling 258 requests. Current GPU
-headroom is insufficient. The wait checks every five minutes without inference;
-two ready samples release the canary, whose unchanged gate controls dependent
-work. This local sequence has no cloud prerequisite. The earlier telemetry-only
+The local native queue is running GPU comparisons. Actual memory capacity
+recovered before operator intervention, the resource wait completed, and the
+full bounded-output canary passed its unchanged gate with complete raw replay.
+Fifteen complete comparison blocks totaling 258 requests now proceed. This local sequence has no cloud prerequisite. The earlier telemetry-only
 repair and its failed canary remain intact. All 38 validation tests and 21 locks
 pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-source
 replay and expertise are already internally landed; joint neural composition

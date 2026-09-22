@@ -28,6 +28,7 @@ older quotations are unchanged. The single lexical repair restores “I” after
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
+| S12.GPU | Investigate and solve the unexpected lack of local GPU memory (September 21 owner instruction). | NVIDIA/Windows reconciliation identifies an unreliable per-process counter; capacity independently recovers, full canary admits and local comparisons start. The released allocation remains unattributed. | FINDINGS OPS-S12-GPU-CAPACITY | built |
 | S12.ACCOUNT | Supply current Modal billing limits, credit usage and payment readiness (September 21 owner message; financial details retained privately). | Fresh provider reconciliation passes account admission; the already-approved capped pilot starts without another funding request. | FINDINGS OPS-S12-CLOUD-LAUNCH; Stage 12 CLOUD_PILOT_LAUNCH.json | built |
 | S12.RUN | Assemble the supplied week's tests, begin execution, then apply errata and file specs; maintain four-hour queue health (current audio instruction). | CPU preparation, finite guarded queue and original week checkpoints; inference remains explicitly pending admission. | FINDINGS OPS-S12-HANDOFF; docs/design/STAGE12_IMPLEMENTATION_HANDOFF.md | built and tested within stated limits |
 | S12.E1 | Weighted local goals at least at sentence addresses (Q1). | Governing purpose and local subordinate goals separated from attention and external requests. | docs/theory/THE_TRIPLE_INFERENCE.md sections 1 and 2 | written |
