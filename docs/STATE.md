@@ -2,19 +2,18 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution: `raw/PLAN-local-residency-v1.json` is live in its bounded
-capacity wait. The original queue completed C1/C2/C3, then falsely refused
-twelve jobs before any request by reserving already resident model memory again.
-The separately frozen repair uses actual NVIDIA free/reserved memory and credits
-only a verified exact fully GPU-resident context. The safety buffer and cold-load
-reservation are unchanged. All 42 tests and twelve-handler fixture replay pass.
-All original failures, charges and completed science remain; the new queue has
-186 untouched requests. A newly active unrelated graphics application then
-reduced actual free memory below cold admission. The queue waits without
-inference or closing other applications and resumes after two ready samples.
-Live cold-to-resident transition verification remains pending current headroom.
-The earlier unattributed memory release remains separate from the proven queue
-defect. See GPU_RESIDENCY_REPAIR.json and GPU_RESIDENCY_LAUNCH.json.
+Current execution: local cold loading and exact resident-context reuse both
+worked, with about 1.9 GiB remaining after model loading. Two complete comparison
+blocks passed offline replay and are internally landed in L414/L415. Four other
+local blocks stopped after model responses because GPU telemetry timed out;
+eleven returned responses and all charges remain. The dispatcher was stopped,
+its last Git worker finished naturally, and every scientific owner has exited.
+An unrelated peripheral helper has an extreme native handle count; its causal
+role is unproven. Owner approval is pending before stopping that application.
+Six untouched blocks / 138 requests are frozen in PLAN-local-system-recovery-v1,
+pending stable telemetry and fresh resource checks. Gear 2 remains authorized.
+This supersedes the old headroom-wait snapshot. No driver setting, model, request,
+scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json.
 First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
 their small descriptive contrasts establish neither general correction nor
 reliable supplied-bank integration. Original canary admission remains valid.
@@ -36,7 +35,8 @@ all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. Next health inspection remains
-September 21 at 18:12:14 PDT; ordinary completion ACKs do not change it.
+four hours after the documented inspection ACK; HEALTH_20260921_1812_ACK.json
+records its exact deadline. Ordinary completion ACKs do not change it.
 The following setup snapshots preserve their chronology; this paragraph is current.
 
 Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:

@@ -2,9 +2,14 @@
 
 ## Stage 12 week - commissioned September 21
 
+- [x] OPS-S12-TRANSITION: verify actual cold-to-resident inference, preserve four post-response telemetry failures and operator stop, replay both complete cells, and freeze only six untouched successor cards (138 requests).
+- [x] L414/L415: full internal landing of the complete local fixture and first controlled Git block, with all rivals, cheap controls, role/location limits and incomplete-population caveats.
+- [x] OPS-S12-HEALTH-1812: inspect actual native identities, source/output freshness, all failures, locks, resource limits, runnable untouched work and watcher delivery; document the operator stop and pending application approval before health ACK.
+- [ ] OPS-S12-TRANSITION recovery: owner approval pending to stop the identified peripheral helper; causal link unproven. Recheck telemetry and dispatch PLAN-local-system-recovery-v1 after stability, native exits and whole-block capacity verify. Do not repeat the eleven already returned responses or fabricate their missing snapshots. Incomplete local fixtures need separately reviewed recovery.
+
 - [x] L413: replay and internally land the complete supplied joint-bank block; retain invalid outputs, exact-bank privilege and three-component support. No architecture or human inference claim; no duplicate-heavy expansion.
 - [x] OPS-S12-RESIDENCY: preserve twelve zero-request failures and the drained queue, repair resident-model double reservation and actual free/reserved telemetry; all 42 tests and twelve-handler replay pass.
-- [ ] OPS-S12-RESIDENCY: verify the fresh local-residency-v1 queue through cold loading and reuse of its matching fully resident model. Land complete cells, then consider the separately frozen local-breadth-residency-v1 queue under original bounds.
+- [x] OPS-S12-RESIDENCY: real cold loading and matching resident reuse verified; complete cells land in L414/L415. Intermittent monitoring failure is a separate recovery item, OPS-S12-TRANSITION. Breadth remains conditional under original bounds.
 
 - [x] L412: fully replay and internally land the first complete C1/C2 context blocks; all conditions, invalids and infinite losses retained. No general ranking or human claim. Remaining commissioned cells continue.
 
@@ -35,7 +40,7 @@
 - [x] S12 publication preparation: lock/privacy/deletion audit and versioned handoff complete.
 - [x] S12 publication: setup, theory filing, native consumers and local continuation committed and pushed to EmotiveAutomaton/main; exact remote equality verified. Private raw records remain excluded. Repository publication does not imply reader admission or completed science.
 - [x] S12-01 admission assessment: the full repaired canary failed its unchanged capability gate after transport recovery; no local reader admission. Fifteen comparison cards are frozen in local-repair-v1 but remain unstarted. Do not present the failed gate as scientific evidence or consume another repair automatically.
-- [ ] S12 local execution: the separately justified output diagnosis and admitted canary supersede the prior closed recovery assessment. Retain all old failures; the current resource-repair queue waits for genuine headroom before continuing the untouched comparisons.
+- [ ] S12 local execution: the separately justified output diagnosis and admitted canary supersede the prior closed recovery assessment. Retain all old failures; actual inference verifies the resource repair; dispatcher is now stopped for intermittent telemetry diagnosis, with untouched continuation prepared.
 - [x] S12 shared-source integration: actual models, capability, sources, causal controls and production records replay; original adapter failure and its bounded repair retained. Both shared settings remain Ghost-owned; no additional fit. Joint composition fails scientific admission and stays unstarted.
 - [ ] S-P1 execution: original pilot transport completed but literal validity failed; all 159 main requests remain unstarted. Keep the population descriptive and retain all failures/costs. No effect comparison, main admission or new paid authority is implied.
 - [ ] S12 packets: assemble outcome-independent case roles and whole comparisons for interim September 25 at 13:17 UTC and final September 28 at 13:17 UTC. Preserve last twelve hours for reporting and explicitly list any unavailable branch.

@@ -9,6 +9,85 @@ ran it.
 
 ---
 
+### OPS-S12-TRANSITION - local inference works; intermittent telemetry interrupts it
+
+**Operational question.** Is lack of GPU memory still preventing local tests after the resident-memory accounting repair?
+
+**METHOD.** Inspect actual free and reserved memory, the two-sample readiness receipt, cold and fully resident admissions, exact native process identities, source bindings, every dispatched request and returned-response receipt, and queue termination. Replay complete cells offline; preserve all incomplete cells and their original reservations. Inspect system resource anomalies without closing another application or changing the driver.
+
+The table separates proven execution from unresolved operational causes.
+
+| Check | Finding |
+|---|---|
+| Memory transition | Cold admission passed with 8,138 MiB free. The exact loaded context subsequently passed with 1,968 MiB free against the unchanged 768 MiB buffer |
+| Actual execution | One complete local interpretation block and one complete Git block returned and passed full offline semantic replay; their internal landings are L414/L415 |
+| Failures | Four other local blocks failed after known model responses because their required after-response NVIDIA query timed out. Eleven responses are retained across those blocks; no dispatched response is unknown |
+| Recovery boundary | Dispatcher alone was stopped after exact identity verification. The final Git worker completed naturally; all started workers exited and the GPU lock is absent. Six untouched blocks remain prepared, with 138 requests |
+| Telemetry diagnosis | Subsequent memory-only and full-field queries each completed in roughly a tenth of a second. This establishes intermittence, not repair or a causal diagnosis |
+| Host anomaly | Independent native interfaces confirm an extreme handle count in an unrelated peripheral helper. Its causal relationship to the telemetry timeouts is unproven. Approval is pending before stopping that application |
+| Preservation | Frozen sources, requests, model, canary, scorers, charges and original week remain unchanged; no missing historical telemetry was fabricated and no inference was retried |
+
+**Found and means.** Available GPU memory is sufficient and the resource repair works in real execution. Monitoring reliability is now the blocker. The operator-stop disappearance notice is expected and retained beside the inspection; it is not an unexplained worker crash or whole-stage completion. Gear 2 remains authorized. No new scientific test was harvested from this operational request.
+
+**Four-hour health inspection.** Exact scientific owners have exited; checkpoint and watcher identities, fresh output, loaded watcher sources and sole ownership verify. Current cold capacity passes with 8,771 MiB free. The GPU lock is absent; the stopped dispatcher's native lock record remains for the existing engine's verified-exit cleanup. Original ceilings admit the whole six-card untouched continuation. All 42 tests, 21 hash locks and theory lint pass. AC CPU maximum remains 90 percent with boost disabled. The stopped dispatcher's process watch alone is retired, preserving terminal evidence, actual queued delivery, the historical uncertain notification and the independent health clock. Recovery is paused at the specific requested application intervention, not for lack of GPU memory. [Inspection](results/phase_2_4_stage_12/HEALTH_20260921_1812.json).
+
+**Curator roll-up.** Theory group: infrastructure. Question: can local inference resume with actual available memory? Outcome: **Infrastructure**. Result: cold loading and resident reuse both executed, with intermittent telemetry failures preserved. Project meaning: the local model can run; the host-monitoring fault needs resolution before dependable continuation. Next engineering obligation: inspect the approved host intervention, recheck telemetry and dispatch only untouched work; separately reconcile incomplete units without blind repeat. Public claim: unchanged. Curator decision required: Yes, stop the verified peripheral helper for a bounded before/after check. Detail: [transition inspection](results/phase_2_4_stage_12/GPU_TRANSITION_INSPECTION.json).
+
+---
+
+### L414 - complete local goal and process fixture
+
+**Hypothesis.** A coherent maker account improves recovery of local goals and operations while keeping latent goals separate from witnessed events.
+
+**METHOD.** Score the complete six-request block for one distinct all-inspect constructed fixture: direct and coherent-account readers, each asked separately for a local goal, an operation, and an operation with a goal explicitly supplied. Preserve the original oracle-family and uniform-compatible-template target distributions. Rebuild request bindings, raw parsing, claim correspondence and provider packets offline through the actual handler. Four other fixture blocks remain incomplete after telemetry failures and receive no scientific verdict.
+
+Each row is one condition in this complete diagnostic, not an independent replication. The two loss columns are expected half-Brier losses against different declared target distributions; lower is better within a target. Witnessed support is out of three event opportunities per request. Located support is a stricter subset; inspection-only events do not witness an attended passage. Unsupported mental assertions count goals or mental roles asserted as observed without their own record. The final column retains infinite logarithmic loss rather than clipping missing support. All six outputs parse.
+
+| Question | Reader | Oracle-family loss | Template loss | Witnessed support | Located support | Unsupported mental assertions | Infinite log loss |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Infer local goal | Direct | 0.394581 | 0.414167 | 0 | 0 | 0 | 0 |
+| Infer local goal | Coherent account | 0.333313 | 0.333334 | 0 | 0 | 0 | 0 |
+| Infer operation | Direct | 1.000000 | 1.000000 | 1 | 0 | 0 | 1 |
+| Infer operation | Coherent account | 1.000000 | 1.000000 | 0 | 0 | 4 | 1 |
+| Predict operation with goal supplied | Direct | 0.951800 | 0.951800 | 3 | 0 | 0 | 1 |
+| Predict operation with goal supplied | Coherent account | 0.946575 | 0.946575 | 0 | 0 | 2 | 0 |
+
+**Found.** The account improves probability loss for the local-goal question and slightly for the supplied-goal question, but does not improve operation recovery or correctly located useful yield. Its operation and forward accounts assert unsupported mental roles. Both readers mark uncertainty; a proposed next observation is retained as an unverified proposal, not credited as a correct discriminator.
+
+**Means.** This one all-inspect fixture provides no method ranking, broader capability or human evidence. The nominal passage-location denominator is retained, but these inspection records do not independently identify an attended passage, so zero located yield cannot diagnose inability to localize a genuinely witnessed edit. The exact family is evaluator privilege. Forward supplied-goal prediction is distinct from recovering a goal. Complete-only selection after operational failures also prevents treating this surviving fixture as representative of the full five-fixture battery.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: does a coherent account improve local recovery while respecting evidence roles? Outcome: **Narrows**. Result: the completed fixture shows question-specific loss changes without improved located recovery. Project meaning: richer description is not reliable interpretation by itself. Next engineering obligation: reconcile incomplete fixtures and retain the evidence-location limitation in the complete packet. Public claim: unchanged. Curator decision required: No. Detail: [complete fixture inspection](results/phase_2_4_stage_12/LOCAL_INITIAL_INSPECTION.json).
+
+---
+
+### L415 - complete controlled Git operation block
+
+**Hypothesis.** Supplying actual recorded changes improves file-operation recovery beyond endpoint-only reading, and a coherent account adds value beyond direct reading and a cheap exact control.
+
+**METHOD.** Compare both readers on the same three controlled file operations under endpoint-only, endpoint-plus-recorded-change and added-commit-message views. Score all eighteen raw responses against recorded file-operation labels and join the frozen cheap control: exact recorded-change alignment when history is supplied, explicit unknown without history. Replay the full handler offline. Merge and missing-history fixtures remain separate infrastructure evidence, not additional model observations.
+
+Each row averages the same three operations. Half-Brier loss is probability error, lower is better; accuracy is the correct modal-operation fraction, higher is better. Infinite log losses retain zero probability on truth. All model responses are valid. The endpoint control's unknown answer is scored under the original operation labels and is not an informed predictive baseline.
+
+| Evidence | Reader/control | Mean half-Brier loss | Accuracy | Infinite log losses |
+|---|---|---:|---:|---:|
+| Current file | Direct | 0.377989 | 0.666667 | 0 |
+| Current file | Coherent account | 0.136367 | 0.666667 | 0 |
+| File and recorded change | Direct | 0.000600 | 1.000000 | 0 |
+| File and recorded change | Coherent account | 0.067257 | 1.000000 | 0 |
+| File, change and commit message | Direct | 0.109033 | 0.666667 | 0 |
+| File, change and commit message | Coherent account | 0.000000 | 1.000000 | 0 |
+| Current file | Recorded-change / unknown control | 1.000000 | 0.000000 | 3 |
+| File and recorded change | Recorded-change / unknown control | 0.000000 | 1.000000 | 0 |
+| File, change and commit message | Recorded-change / unknown control | 0.000000 | 1.000000 | 0 |
+
+**Found.** Actual change records improve operation recovery in this small block. The account's advantage depends on the evidence view; the exact recorded-change control equals or beats every model where changes are supplied. Adding the commit message worsens the direct reader on one operation while the account reaches the cheap control.
+
+**Means.** This is a controlled source-reading screen, not evidence about human intentions, cognitive authorship or a general account advantage. The recorded change field explicitly carries the target convention, so success primarily shows extraction of supplied process information. Three operations from one constructed repository do not support population inference. Preserve the simple extraction route for fields it can determine, and keep the remaining declared operations separate until complete.
+
+**Curator roll-up.** Theory group: historical process recovery. Question: does contextual reconstruction add to direct reading of recorded file changes? Outcome: **Narrows**. Result: the exact recorded-change control equals or exceeds the model routes when history is supplied. Project meaning: simple process extraction remains the proper engineering reference. Next engineering obligation: finish the remaining frozen operations and preserve missing-history uncertainty. Public claim: unchanged. Curator decision required: No. Detail: [complete Git inspection](results/phase_2_4_stage_12/GIT_INITIAL_INSPECTION.json).
+
+---
+
 ### OPS-S12-RESIDENCY - repair false GPU capacity refusals
 
 **Operational question.** Why did the local queue reject its remaining work while the matching model already occupied the GPU?

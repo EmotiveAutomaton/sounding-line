@@ -1,21 +1,21 @@
 # Current status
 
-## Stage 12 GPU admission repaired; queue waiting for capacity - September 21
+## Stage 12 local inference verified; monitoring diagnosis - September 21
 
-The new local native queue is alive and waiting for actual GPU headroom.
-The original full canary and three complete context blocks remain; a resource
-check then falsely refused twelve untouched jobs by reserving loaded model
-memory twice. The separately frozen repair distinguishes cold and fully resident
-contexts and uses actual free memory. All 42 tests and full twelve-handler
-fixture replay pass. The 186 remaining requests keep their original inputs,
-reader admission and scoring. A newly active unrelated graphics application
-currently prevents cold loading; no application was closed or safety buffer
-lowered. The queue checks cheaply and resumes automatically after two ready
-samples. [Repair](results/phase_2_4_stage_12/GPU_RESIDENCY_REPAIR.json) and
-[launch](results/phase_2_4_stage_12/GPU_RESIDENCY_LAUNCH.json).
-All 21 locks pass. Gear 2 remains explicitly authorized. CPU preparation, native shared-source
-replay and expertise are already internally landed; joint neural composition
-remains unadmitted.
+Current execution: local cold loading and exact resident-context reuse both
+worked, with about 1.9 GiB remaining after model loading. Two complete comparison
+blocks passed offline replay and are internally landed in L414/L415. Four other
+local blocks stopped after model responses because GPU telemetry timed out;
+eleven returned responses and all charges remain. The dispatcher was stopped,
+its last Git worker finished naturally, and every scientific owner has exited.
+An unrelated peripheral helper has an extreme native handle count; its causal
+role is unproven. Owner approval is pending before stopping that application.
+Six untouched blocks / 138 requests are frozen in PLAN-local-system-recovery-v1,
+pending stable telemetry and fresh resource checks. Gear 2 remains authorized.
+This supersedes the old headroom-wait snapshot. No driver setting, model, request,
+scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json.
+
+[Inspection](results/phase_2_4_stage_12/GPU_TRANSITION_INSPECTION.json).
 
 Modal account admission passed and the approved pilot completed. Its complete
 archive replays, but the unchanged validity gate fails on an output truncated
@@ -26,7 +26,7 @@ failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.js
 
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline
-is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_1349_ACK.json).
+is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_1812_ACK.json).
 Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
 with the last twelve hours protected. Gear 2 authorization and all stage ceilings
 remain. The theory errata is applied and both

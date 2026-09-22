@@ -12,6 +12,18 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-TRANSITION: cold loading and exact resident-context reuse are now verified
+in actual inference. Four incomplete local blocks retain eleven known responses
+and their reservations after post-response NVIDIA telemetry timeouts. Two complete
+cells replay offline. The dispatcher stopped independently of its final worker,
+which completed naturally; no GPU lock remains. Intermittent telemetry and an
+unrelated host handle anomaly remain under diagnosis, with no established causal
+attribution or automatic permission to stop another application. The six-card
+untouched continuation is frozen separately. See GPU_TRANSITION_INSPECTION.json.
+The due four-hour inspection verifies fresh native helpers and loaded watcher
+sources, all 42 tests and 21 locks. Only the intentionally stopped queue watch is
+retired; its disappearance receipt, queued delivery and health schedule remain.
+
 OPS-S12-RESIDENCY: resource-only repair uses actual NVIDIA free/reserved memory
 and distinguishes cold loading from a verified fully GPU-resident exact context.
 It preserves the free buffer and rejects partial, unknown, expiring or incompatible

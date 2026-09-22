@@ -1,0 +1,151 @@
+{
+  "all_workers_exited": true,
+  "at": "2026-09-22T01:15:21.227936+00:00",
+  "charges": {
+    "cpu_seconds": 18880.588372204453,
+    "diagnostic_gpu_seconds": 375.18008869999903,
+    "gpu_seconds": 2602.821946799959,
+    "host_cpu_seconds": 5205.643893599918
+  },
+  "cold_admission": {
+    "additional_required_MiB": 7768,
+    "capacity_mode": "cold-reservation",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": true,
+    "reason": "ready",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-22T00:58:55.106562+00:00",
+      "free_MiB": 8138.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 23.03,
+      "reserved_MiB": 285.0,
+      "temperature_C": 43.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 3860.0,
+      "utilization_percent": 29.0
+    }
+  },
+  "completed_scientific_cells": 2,
+  "dispatcher_stopped": true,
+  "failures": [
+    {
+      "cause": "after-response nvidia-smi timeout",
+      "complete_calls": 2,
+      "failed_sha256": "089464aec93ad69e6efb7fe78e1b6ad427606371502c8cea706b47a0f672e65d",
+      "full_failed_reservation_retained": true,
+      "id": "S12-local-block-0-v1-r5-out1-replay2-mem1",
+      "known_responses": 3,
+      "requests": 3,
+      "unknown_dispatched_calls": 0
+    },
+    {
+      "cause": "after-response nvidia-smi timeout",
+      "complete_calls": 3,
+      "failed_sha256": "02d9af77e170b8667e667c8849eca47be6c8c03422c3ea628db636c11039a19f",
+      "full_failed_reservation_retained": true,
+      "id": "S12-local-block-1-v1-r5-out1-replay2-mem1",
+      "known_responses": 4,
+      "requests": 4,
+      "unknown_dispatched_calls": 0
+    },
+    {
+      "cause": "after-response nvidia-smi timeout",
+      "complete_calls": 1,
+      "failed_sha256": "c3763ce2cb41e363dae031418300d928594287b367342b14df72c1df478df383",
+      "full_failed_reservation_retained": true,
+      "id": "S12-local-block-2-v1-r5-out1-replay2-mem1",
+      "known_responses": 2,
+      "requests": 2,
+      "unknown_dispatched_calls": 0
+    },
+    {
+      "cause": "after-response nvidia-smi timeout",
+      "complete_calls": 1,
+      "failed_sha256": "4dff66193a3e3dcddad00e93b37974aba2ea102947e670843125a45cf719fba8",
+      "full_failed_reservation_retained": true,
+      "id": "S12-local-block-4-v1-r5-out1-replay2-mem1",
+      "known_responses": 2,
+      "requests": 2,
+      "unknown_dispatched_calls": 0
+    }
+  ],
+  "full_complete_cell_replay": true,
+  "gpu_lock_absent": true,
+  "live_cold_to_resident_transition_verified": true,
+  "next_plan_cards": 6,
+  "next_plan_requests": 138,
+  "next_plan_reservation": {
+    "cpu_seconds": 3600,
+    "gpu_seconds": 46260,
+    "wall_seconds": 57420
+  },
+  "next_plan_sha256": "eee2877644cc0ec223e4ac502dac17db8bfcf92d0a6a5d7552aee7a271c8073a",
+  "no_driver_setting_changed": true,
+  "no_new_scientific_design": true,
+  "no_unrelated_application_stopped": true,
+  "original_contract_sha256": "320d710fdaaa32eb013c38354a5b74afc921742578e2f5e1fdec941d9ab70cee",
+  "query_probe": [
+    {
+      "fields": "memory.total,memory.used,memory.free,memory.reserved",
+      "output": "12282, 10060, 1938, 285",
+      "started": "2026-09-22T01:09:40.503195+00:00",
+      "status": "complete",
+      "wall_seconds": 0.10403059999225661
+    },
+    {
+      "fields": "name,memory.total,memory.used,memory.free,memory.reserved,utilization.gpu,temperature.gpu,power.draw",
+      "output": "NVIDIA GeForce RTX 4070 SUPER, 12282, 10060, 1938, 285, 0, 43, 12.02",
+      "started": "2026-09-22T01:09:40.607695+00:00",
+      "status": "complete",
+      "wall_seconds": 0.10645550000481308
+    }
+  ],
+  "resident_admission": {
+    "additional_required_MiB": 768,
+    "capacity_mode": "fully-resident",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": true,
+    "reason": "ready",
+    "resident": [
+      {
+        "context_length": 8192,
+        "details": {
+          "families": [
+            "qwen35"
+          ],
+          "family": "qwen35",
+          "format": "gguf",
+          "parameter_size": "9.7B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+        "expires_at": "2026-09-21T18:02:00.0244217-07:00",
+        "model": "qwen3.5:9b",
+        "name": "qwen3.5:9b",
+        "size": 5729167604,
+        "size_vram": 5729167604
+      }
+    ],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-22T01:01:01.750583+00:00",
+      "free_MiB": 1968.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 10.93,
+      "reserved_MiB": 285.0,
+      "temperature_C": 41.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 10030.0,
+      "utilization_percent": 2.0
+    }
+  },
+  "source_pins_verified": 463,
+  "system_anomaly": "Unrelated peripheral helper has an independently confirmed extreme native handle count; causal relation to telemetry timeouts is not established. Owner approval requested before stopping it."
+}
