@@ -1,0 +1,106 @@
+{
+  "at": "2026-09-22T12:33:52.743173+00:00",
+  "calls": 60,
+  "cheap": [
+    {
+      "accuracy": 0.0,
+      "direction": "endpoint",
+      "half_brier": 1.0,
+      "infinite_log_losses": 10,
+      "method": "recorded-change / unknown",
+      "n": 10,
+      "valid": 10
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff",
+      "half_brier": 0.0,
+      "infinite_log_losses": 0,
+      "method": "recorded-change / unknown",
+      "n": 10,
+      "valid": 10
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.0,
+      "infinite_log_losses": 0,
+      "method": "recorded-change / unknown",
+      "n": 10,
+      "valid": 10
+    }
+  ],
+  "full_offline_replay": true,
+  "jobs": [
+    {
+      "id": "S12-Git-breadth-0-out1-replay2-mem1-deps1",
+      "terminal_sha256": "9f5f3953cdbc2dc37e45eb23a0f4f676c08a2e8e7b8541426ee06d49424776c5"
+    },
+    {
+      "id": "S12-Git-breadth-1-out1-replay2-mem1-deps1",
+      "terminal_sha256": "209a70e592f3803fe4df1c0e45688fb3e47add96d69895b69f1ea065eda4dd86"
+    },
+    {
+      "id": "S12-Git-breadth-2-out1-replay2-mem1-deps1",
+      "terminal_sha256": "f6940cf278768f90175f7677827ebcd7976c116e4956df2218dbdd28f0ee48a0"
+    }
+  ],
+  "rows": [
+    {
+      "accuracy": 0.4,
+      "direction": "endpoint",
+      "half_brier": 0.4740275,
+      "infinite_log_losses": 3,
+      "method": "coherent-account",
+      "n": 10,
+      "valid": 7
+    },
+    {
+      "accuracy": 0.1,
+      "direction": "endpoint",
+      "half_brier": 0.8414567,
+      "infinite_log_losses": 6,
+      "method": "direct",
+      "n": 10,
+      "valid": 6
+    },
+    {
+      "accuracy": 0.8,
+      "direction": "endpoint-diff",
+      "half_brier": 0.1426571,
+      "infinite_log_losses": 0,
+      "method": "coherent-account",
+      "n": 10,
+      "valid": 10
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff",
+      "half_brier": 0.002610000000000001,
+      "infinite_log_losses": 0,
+      "method": "direct",
+      "n": 10,
+      "valid": 10
+    },
+    {
+      "accuracy": 0.9,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.10068000000000002,
+      "infinite_log_losses": 1,
+      "method": "coherent-account",
+      "n": 10,
+      "valid": 10
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.0051400000000000005,
+      "infinite_log_losses": 0,
+      "method": "direct",
+      "n": 10,
+      "valid": 10
+    }
+  ],
+  "scope": "Ten additional controlled file operations in three complete blocks from the same constructed repository; supplied changes encode labels, no independent human or mental-history inference.",
+  "sources": 10
+}

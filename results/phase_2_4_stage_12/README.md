@@ -4,27 +4,22 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current execution: local cold loading and exact resident-context reuse both
-worked, with about 1.9 GiB remaining after model loading. Two complete comparison
-blocks passed offline replay and are internally landed in L414/L415. Four other
-local blocks stopped after model responses because GPU telemetry timed out;
-eleven returned responses and all charges remain. The dispatcher was stopped,
-its last Git worker finished naturally, and every scientific owner has exited.
-An unrelated peripheral helper has an extreme native handle count; its causal
-role is unproven. Owner approval is pending before stopping that application.
-Six untouched blocks / 138 requests are frozen in PLAN-local-system-recovery-v1,
-pending stable telemetry and fresh resource checks. Gear 2 remains authorized.
-This supersedes the old headroom-wait snapshot. No driver setting, model, request,
-scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json.
+Current execution: both explicitly approved applications have exited; host RAM
+and GPU readiness recovered. All three submitted local queues completed normally:
+15 blocks and 270 new requests, including the four bounded recovery attempts.
+Every handler replays offline and all complete results are internally landed in
+L416–L421. There is no scientific GPU worker or unresolved GPU lock. Gear 2
+allocation remains unchanged; a completed finite queue is not a resource failure.
+All 42 validation tests, 21 original locks and theory lint pass. Earlier eleven
+responses, telemetry failures and charges remain. No historical timeout cause
+is inferred from this successful intervention. The original week remains open:
+provider/case packet assembly and a named new operation/provenance or compression-
+access distinction are next; none licenses an automatic cloud retry or extra fit.
+See LOCAL_RECOVERY_CLOSURE.json and the complete scientific receipts.
 
-[Transition inspection](GPU_TRANSITION_INSPECTION.json), [complete local fixture](LOCAL_INITIAL_INSPECTION.json), [complete Git block](GIT_INITIAL_INSPECTION.json).
-
-The [September 22 health inspection](HEALTH_20260922_0230.json) finds fresh
-monitoring and preserved work, with a new [system-memory blocker](HEALTH_20260922_0230_HOST_MEMORY.json).
-A different project's development server holds about 49 GiB resident while less
-than 1 GiB remains available. Approval for a bounded server stop is pending
-separately from the prior helper request. GPU-only admission passes; no scientific
-queue or other application was restarted or stopped during this inspection.
+[Host recovery](HOST_RECOVERY_INSPECTION.json), [second Git block](GIT_SECOND_INSPECTION.json),
+[complete ARIES screen](ARIES_COMPLETE_INSPECTION.json), [retention](RETENTION_COMPLETE_INSPECTION.json)
+and [prepared local recovery](LOCAL_RECOVERY_PLAN.json) retain complete receipts.
 
 CPU preparation consumers have run and are internally landed. The original
 week-v4 and local-repair-v1 queues remain historical. Actual shared-model,

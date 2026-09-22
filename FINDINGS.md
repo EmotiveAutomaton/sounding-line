@@ -9,6 +9,202 @@ ran it.
 
 ---
 
+### L421 - complete local ambiguity evidence-view battery after recovery
+
+**Hypothesis.** A coherent account improves local goal and process interpretation while keeping inferred mental roles separate from witnessed operations.
+
+**METHOD.** Complete the four interrupted six-condition blocks after the approved host intervention, under the prospectively frozen whole-attempt selection rule. Combine their twenty-four new calls with the unchanged six-call complete block in L414. Replay every repaired handler and provider packet offline and verify the original complete block's full output binding. These are five evidence views of the same fixed endpoint: artifact only, stated context, corrected context, full inspection history and sparse inspection history. They are not five independent worlds. All eleven earlier responses, four telemetry failures and charges remain; thirteen original request slots were never attempted.
+
+Each row averages the same five complete evidence views. Oracle-family and compatible-template losses are expected half-Brier errors against distinct declared target distributions, lower is better within a target. Invalid forecasts retain their penalty. Witnessed support is out of four recorded event opportunities across the two history views, not fifteen: the other views supply no witnessed operations. Located support requires a separately witnessed passage location. Mental assertions count latent goals or roles reported as observed without their own record. Infinite losses retain zero target support.
+
+| Question | Reader | Valid / attempted | Oracle-family loss | Template loss | Witnessed / eligible | Located | Unsupported mental assertions | Infinite log losses |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Infer local goal | Direct | 5 / 5 | 0.507720 | 0.533942 | 0 / 4 | 0 | 1 | 1 |
+| Infer local goal | Coherent account | 5 / 5 | 0.406012 | 0.402980 | 0 / 4 | 0 | 3 | 0 |
+| Infer operation | Direct | 4 / 5 | 0.852652 | 0.883844 | 1 / 4 | 0 | 2 | 3 |
+| Infer operation | Coherent account | 5 / 5 | 0.869970 | 0.923230 | 0 / 4 | 0 | 8 | 4 |
+| Predict operation with goal supplied | Direct | 5 / 5 | 0.758068 | 0.762335 | 4 / 4 | 0 | 4 | 4 |
+| Predict operation with goal supplied | Coherent account | 5 / 5 | 0.693534 | 0.729363 | 0 / 4 | 0 | 8 | 1 |
+
+The uniform oracle-target reference is 0.333333 for local goals and 0.416667 for operations. Exact-reference expected losses are respectively 0.324916 for goals, 0.216161 for inverse operations and 0.160320 for supplied-goal operations; their known-law privilege is explicit. Both model methods remain worse than uniform in every pooled question. Direct/account inverse-process outputs contain respectively two/three unsupported observed operations and two/three contradictions. Both supplied-goal methods have one contradiction. All thirty outputs propose further evidence, but those proposals are unverified; none earns discriminator credit merely for being present. Complete view-specific rows and original arm-specific failure counts are retained in the receipt.
+
+**Found.** The account lowers local-goal and supplied-goal probability error but worsens inverse-operation error, adds unsupported mental assertions and does not improve located useful recovery. Direct supplied-goal reading identifies all witnessed inspection operations; the account identifies none. The account's loss improvements do not exceed the uniform reference.
+
+**Means.** This closes the selected ambiguity battery, not general local-goal capability or human interpretation. Inspection-only records do not witness attended passage locations, so zero located yield cannot diagnose localization of a witnessed edit. Recovery avoids selecting favorable individual responses, but the original arm-ordered failure pattern and changed host conditions remain part of the record. An unpublished aggregation draft's assumed event denominator was corrected against source observations before this landing; raw scores and gates were unchanged. The next useful structural distinction needs a genuinely informative operation or evidence condition, not more repetitions of this endpoint.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: does coherent interpretation improve useful recovery while respecting what is actually witnessed? Outcome: **Narrows**. Result: the complete evidence-view battery retains question-specific loss changes without improved located recovery. Project meaning: richer accounts need independently supported relations, not just plausible goal labels. Next engineering obligation: retain all evidence roles in provider packets and isolate a new operation or provenance distinction before further local inference. Public claim: unchanged. Curator decision required: No. Detail: [complete local inspection](results/phase_2_4_stage_12/LOCAL_COMPLETE_INSPECTION.json).
+
+---
+
+### L420 - remaining controlled Git operation breadth
+
+**Hypothesis.** Actual change history improves file-operation recovery, and a coherent account adds information beyond direct reading and exact extraction.
+
+**METHOD.** Complete the three already frozen remaining blocks, covering ten operations with six model conditions each. Replay all sixty calls and actual handlers offline; join the unchanged recorded-change/unknown baseline. Together with L415/L416 this completes the sixteen selected operations from one constructed repository. No source or outcome-based selection changed after the earlier blocks.
+
+Each row covers the same ten additional operations. Half-Brier loss is probability error, lower is better; accuracy is the correct modal label fraction. Invalids retain their original penalties and denominators. Infinite logarithmic losses count missing support. The endpoint control explicitly answers unknown; it is not an informed operation predictor.
+
+| Evidence | Reader/control | Valid / attempted | Half-Brier loss | Accuracy | Infinite log losses |
+|---|---|---:|---:|---:|---:|
+| Current file | Direct | 6 / 10 | 0.841457 | 0.10 | 6 |
+| Current file | Coherent account | 7 / 10 | 0.474028 | 0.40 | 3 |
+| File and change | Direct | 10 / 10 | 0.002610 | 1.00 | 0 |
+| File and change | Coherent account | 10 / 10 | 0.142657 | 0.80 | 0 |
+| File, change and message | Direct | 10 / 10 | 0.005140 | 1.00 | 0 |
+| File, change and message | Coherent account | 10 / 10 | 0.100680 | 0.90 | 1 |
+| Current file | Recorded-change / unknown | 10 / 10 | 1.000000 | 0.00 | 10 |
+| File and change | Recorded-change / unknown | 10 / 10 | 0.000000 | 1.00 | 0 |
+| File, change and message | Recorded-change / unknown | 10 / 10 | 0.000000 | 1.00 | 0 |
+
+**Found.** Supplied change history improves both model readers, and exact change extraction leads every supplied-history model condition. The account improves endpoint-only performance but worsens recovery relative to direct reading when changes are visible. Commit-message effects differ between readers and do not overcome the extraction control.
+
+**Means.** This completes the selected operation coverage, not independent repositories or human replication. Recorded changes explicitly encode the scored operation convention; success supports source extraction. Endpoint validity failures remain consequential, and unsupported mental history is not supplied by a better operation guess. Merge and missing-history fixtures remain separate infrastructure checks. The engineering reference for determinable fields remains exact extraction, with uncertainty for unavailable history.
+
+**Curator roll-up.** Theory group: historical process recovery. Question: does a coherent account add to extracting a recorded operation? Outcome: **Narrows**. Result: exact extraction leads throughout the completed supplied-history breadth. Project meaning: source-bound operation fields can use the simpler engine without claiming cognitive authorship. Next engineering obligation: preserve the full selected coverage and unknown-history cases in provider packets; further tests must address relations extraction cannot recover. Public claim: unchanged. Curator decision required: No. Detail: [Git breadth inspection](results/phase_2_4_stage_12/GIT_BREADTH_INSPECTION.json).
+
+---
+
+### L419 - complete second context and correction blocks
+
+**Hypothesis.** Correctly relating the same observations improves prediction beyond false framing or matched repetition, and further records support correction of a misleading frame.
+
+**METHOD.** Execute the already frozen second C1/C2 blocks, retaining every condition on four constructed development sources per family and all forty-eight requests. Rebuild the actual handlers offline from bound requests and raw replies. The same-record conditions share an exact invariant reference; the six/twelve-record conditions use separately computed prefix targets. These are independent model requests, not updates to a persistent internal belief.
+
+Each row averages its four source components equally. Probability error is expected half-Brier loss, lower is better; modal agreement matches the exact reference's most likely action. Invalid forecasts keep their original penalty and denominator. Infinite logarithmic losses retain unsupported target mass. The exact expected-loss floor is 0.071250 for the full record and 0.071258 for the shorter prefix; the uniform reference is 0.375000 throughout.
+
+| Same-record condition | Valid / attempted | Probability error | Modal agreement | Infinite log losses |
+|---|---:|---:|---:|---:|
+| Original record | 3 / 4 | 0.383125 | 0.50 | 2 |
+| Reversed record order | 4 / 4 | 0.074375 | 1.00 | 4 |
+| Correct relation | 4 / 4 | 0.125000 | 0.75 | 4 |
+| Plausible false relation | 4 / 4 | 0.185400 | 0.75 | 2 |
+| Irrelevant explanation | 4 / 4 | 0.149375 | 0.75 | 2 |
+| Unstructured correct explanation | 3 / 4 | 0.572225 | 0.00 | 1 |
+| Matched rereading | 4 / 4 | 0.076875 | 1.00 | 4 |
+| Unchanged repeat | 4 / 4 | 0.158125 | 0.75 | 2 |
+
+The next table compares added records under a fixed assertion; its rows retain their own exact prefix targets rather than treating all target uncertainty as identical.
+
+| Frame and evidence | Valid / attempted | Probability error | Modal agreement | Infinite log losses |
+|---|---:|---:|---:|---:|
+| False frame, six records | 4 / 4 | 0.612339 | 0.25 | 2 |
+| False frame, twelve records | 4 / 4 | 0.185400 | 0.75 | 2 |
+| Correct frame, six records | 4 / 4 | 0.128130 | 1.00 | 2 |
+| Correct frame, twelve records | 4 / 4 | 0.125000 | 0.75 | 4 |
+
+**Found.** The correct explanation has lower finite probability error than false or irrelevant framing in this block, but reordering and rereading improve more, and an unchanged repeat also improves. Added records substantially reduce false-frame error; under the correct frame error changes little while modal agreement worsens. These contrasts differ from the first blocks (L412), and low finite error coexists with infinite logarithmic loss.
+
+**Means.** The completed extension supports a scoped evidence-access and correction effect, without isolating a general truth-sensitive explanatory mechanism. Repeat variation and invalid outputs remain relevant alternatives. This is outcome-independent development breadth, not independent human confirmation, internal belief change or a stable prompt ranking. Neither a false assertion nor additional records become evidence of actual maker purpose.
+
+**Curator roll-up.** Theory group: contextual updating. Question: can useful organization and additional observations help without merely following a frame? Outcome: **Narrows**. Result: additional records improve the misleading-frame comparison, while repetition and order remain strong alternative explanations of same-record gains. Project meaning: evidence access is useful but does not isolate reliable reconstruction. Next engineering obligation: retain both complete blocks, reference uncertainty and all controls in the packet; any further contrast must name the unresolved mechanism. Public claim: unchanged. Curator decision required: No. Detail: [context breadth inspection](results/phase_2_4_stage_12/CONTEXT_BREADTH_INSPECTION.json).
+
+---
+
+### OPS-S12-HOST-RECOVERY - approved application stops restore local execution
+
+**Operational question.** Can the commissioned local tests continue after the two explicitly approved applications are stopped and host capacity is rechecked?
+
+**METHOD.** Recheck native executable, creation time and ownership before stopping only the approved development server and peripheral helper. Verify their exits, actual system/GPU memory, repeated telemetry, all frozen inputs and whole-plan capacity. Run the full validation suite, resume the six untouched blocks and replay every completed handler offline. Preserve the earlier partial calls and failed monitors.
+
+Rows distinguish the intervention, verified execution and remaining obligations.
+
+| Check | Finding |
+|---|---|
+| Approved stops | Both exact applications exited. The helper's first wait expired after termination was requested; a later native check confirmed exit without another termination. No other application, driver or system setting was changed |
+| Host recovery | Available system RAM rose from about 1.6 GiB before the intervention to about 63 GiB; fresh successor admission still has about 60 GiB. Three initial GPU readiness samples pass, followed by functional telemetry across the continuation |
+| Real execution | All six untouched blocks and 138 calls complete; all handlers replay offline. The coordinator exited normally, all six stages report DONE and the GPU lock is absent. Scientific write-through is L416–L418 |
+| Validation and successor | All 42 validation tests pass. All 463 source pins and successor inputs verify. Five follow-up cards and 108 calls fit the original limits after actual charges; their whole maximum reservation is checked before launch |
+| Successor closure | All five follow-up cards and 108 calls subsequently complete and replay; the coordinator and every worker exit normally. L419/L420 complete their scientific write-through. Fresh checks admit the separately frozen four-fixture recovery within unchanged reserves |
+| Dependency repair | Three unstarted Git breadth cards pointed to an obsolete failed producer. Versioned replacements point to its completed residency-repair successor, retaining all original requests, models, scoring and budgets; originals remain |
+| Preserved limitations | Eleven responses in four older incomplete local fixtures remain retained with all charges and no invented telemetry. This pass does not repeat them or change cloud admission |
+| Bounded recovery closure | The separately frozen whole-block recovery then completes all 24 new calls, explicitly including eleven known repeats. Full handler/provider replay and L421 close the selected local battery. Across the three submitted queues, all 15 blocks and 270 new calls complete; every scientific owner exits and no GPU lock remains |
+
+**Found.** Local inference is functional again and the untouched continuation completes without another telemetry failure. Host memory pressure is resolved, but this sequence does not isolate which application caused the earlier intermittent monitoring timeout.
+
+**Means.** The two pending intervention requests are resolved by the curator's explicit approval and verified exits. Gear 2, the original reporting reserve and four-hour health deadline remain unchanged. The selected local queues are now complete, with 42 validation tests, all 21 locks and theory lint passing. This is not completion of the entire commissioned week; unavailable cloud and joint-composition branches remain explicit. No new research hypothesis was harvested from the operational request.
+
+**Curator roll-up.** Theory group: execution integrity. Question: can the authorized local queue resume safely after host recovery? Outcome: **Infrastructure**. Result: every submitted continuation and recovery block completes with full replay. Project meaning: local execution is functional and the finite queue has finished normally. Next engineering obligation: assemble provider/case packets and freeze the next named distinction within original limits. Public claim: unchanged. Curator decision required: No. Detail: [host recovery inspection](results/phase_2_4_stage_12/HOST_RECOVERY_INSPECTION.json), [breadth closure](results/phase_2_4_stage_12/BREADTH_CLOSURE_INSPECTION.json) and [final recovery validity](results/phase_2_4_stage_12/LOCAL_RECOVERY_CLOSURE.json).
+
+---
+
+### L418 - complete retained-record comparison
+
+**Hypothesis.** Retaining a compressed maker account or an answer bank preserves useful prediction beyond rereading the same history or retrieving its latest records.
+
+**METHOD.** Compare full history, its last four observations, a frozen model-generated account and a frozen prediction bank on both declared queries for each of four constructed development units. Charge twelve acquisition requests and thirty-two evaluation requests; replay all forty-four raw calls through the actual handler offline. The account was acquired using a separate question; the bank saw both eventual evaluation questions but never their true answers. No weights or persistent neural state were updated.
+
+Each model row covers the same eight queries from four dependent units. Expected half-Brier loss measures probability error against the independently checked finite-reference distributions, lower is better. Modal accuracy compares the most likely label, not realized action frequency. All thirty-two evaluation forecasts are valid. Infinite logarithmic losses retain missing support, even beside low finite probability error. The exact distribution has nonzero expected loss because the target can remain uncertain.
+
+| Retained information | Expected half-Brier loss | Modal accuracy | Infinite log losses |
+|---|---:|---:|---:|
+| Full raw history | 0.236876 | 0.625000 | 6 |
+| Latest four observations | 0.379453 | 0.250000 | 1 |
+| Frozen account | 0.415862 | 0.125000 | 0 |
+| Query-specific prediction bank | 0.458437 | 0.250000 | 3 |
+| Exact full-history reference | 0.096565 | Not a model comparison | 0 |
+| Uniform prediction | 0.375000 | Tie-dependent, not compared | 0 |
+
+**Found.** Full raw history has the lowest model probability error and highest modal agreement; both learned records worsen these measures. The frozen account avoids zero-support logarithmic failures while the other model routes retain them, so the losses do not give one universal ordering. Query-specific acquisition does not rescue the prediction bank.
+
+**Means.** This complete development diagnostic does not show a predictive benefit from account compression. It tests explicit supplied records, not a learned persistent state, a general memory architecture or human expertise. Acquisition access differs, query outputs share units, and model-generated hypotheses add no independent evidence. The exact-reference comparison retains its known-law privilege. There is no general cost-efficiency or calibrated-uncertainty claim from avoiding infinite loss alone.
+
+**Curator roll-up.** Theory group: reusable maker reconstruction. Question: does retaining a compressed account preserve prediction better than rereading history? Outcome: **Narrows**. Result: raw history leads the model routes on finite probability error while the frozen account avoids zero-support failures. Project meaning: explicit reuse is not by itself useful reconstruction. Next engineering obligation: preserve acquisition costs, query access and all loss dimensions in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [complete retention inspection](results/phase_2_4_stage_12/RETENTION_COMPLETE_INSPECTION.json).
+
+---
+
+### L416 - second complete controlled Git operation block
+
+**Hypothesis.** Recorded change evidence improves operation recovery, while a coherent maker account adds value beyond direct reading and exact change extraction.
+
+**METHOD.** Complete the next frozen three-operation block with both model readers under current-file, added-change and added-message views. Replay all eighteen raw calls and the actual handler offline, then join the unchanged recorded-change/unknown control. Invalid forecasts remain in every denominator. This is the untouched block resumed after host recovery, not a retry of earlier partial inference.
+
+Rows compare the same three operations. Half-Brier loss is probability error, lower is better; accuracy is the fraction of correct modal labels. Valid forecasts and infinite logarithmic losses are counts. The endpoint control explicitly answers unknown and is not an informed operation forecast.
+
+| Evidence | Reader/control | Valid | Half-Brier loss | Accuracy | Infinite log losses |
+|---|---|---:|---:|---:|---:|
+| Current file | Direct | 2 | 0.339525 | 0.666667 | 1 |
+| Current file | Coherent account | 2 | 0.405833 | 0.666667 | 1 |
+| File and change | Direct | 3 | 0.000000 | 1.000000 | 0 |
+| File and change | Coherent account | 3 | 0.000600 | 1.000000 | 0 |
+| File, change and message | Direct | 3 | 0.000533 | 1.000000 | 0 |
+| File, change and message | Coherent account | 3 | 0.000500 | 1.000000 | 0 |
+| Current file | Recorded-change / unknown | 3 | 1.000000 | 0.000000 | 3 |
+| File and change | Recorded-change / unknown | 3 | 0.000000 | 1.000000 | 0 |
+| File, change and message | Recorded-change / unknown | 3 | 0.000000 | 1.000000 | 0 |
+
+**Found.** Supplied changes support accurate operation extraction. Exact extraction equals or exceeds both model methods when the changes are visible; the richer account adds no consistent advantage and retains an invalid endpoint forecast, as does direct reading.
+
+**Means.** Together with L415 this covers six controlled operations from the same constructed repository, not independent human replication. The supplied change convention carries the target label. This validates bounded source extraction, not hidden decision history or author intention; the remaining frozen breadth stays separate until complete.
+
+**Curator roll-up.** Theory group: historical process recovery. Question: does account construction improve on reading the actual recorded operation? Outcome: **Narrows**. Result: exact recorded-change extraction remains at least as strong as the model routes. Project meaning: retain the cheap source extractor and explicit unknown for unsupported history. Next engineering obligation: complete the already frozen operation breadth with all rivals. Public claim: unchanged. Curator decision required: No. Detail: [second Git inspection](results/phase_2_4_stage_12/GIT_SECOND_INSPECTION.json).
+
+---
+
+### L417 - complete ARIES request-to-edit correspondence screen
+
+**Hypothesis.** Building a coherent account improves correspondence between an external review request and the recorded edit, beyond direct reading of the same supplied evidence.
+
+**METHOD.** Run every frozen rival and both question formulations on nineteen annotated request/edit pairs across four released papers, retaining seven linked and twelve explicitly unlinked pairs. The two question formulations see the same before/after/request evidence; neither generates a new edit. Replay all seventy-six raw calls and complete handlers offline. Join the fixed lexical retrieval score as a separate ranking reference; annotation links do not label private author goals or request adoption.
+
+Each model row covers all nineteen pairs. Half-Brier loss is probability error, lower is better; accuracy is modal annotation agreement. Pair-weighted averages give each pair equal weight; paper-macro averages give each of the four papers equal weight. All forecasts are valid; infinite logarithmic losses retain zero probability on an observed annotation.
+
+| Question formulation | Reader | Pair loss | Pair accuracy | Paper-macro loss | Paper-macro accuracy | Infinite log losses |
+|---|---|---:|---:|---:|---:|---:|
+| Does the edit correspond to this request? | Direct | 0.199308 | 0.789474 | 0.188614 | 0.803571 | 0 |
+| Does the edit correspond to this request? | Coherent account | 0.244962 | 0.736842 | 0.225944 | 0.761905 | 0 |
+| Is this revised passage a corresponding edit? | Direct | 0.205838 | 0.789474 | 0.189828 | 0.803571 | 1 |
+| Is this revised passage a corresponding edit? | Coherent account | 0.218985 | 0.789474 | 0.172913 | 0.845238 | 1 |
+
+The lexical reference ranks linked edits above explicitly unlinked edits on 0.607143 of fourteen within-request comparisons, with ties worth one half, across six request groups. This is ranking concordance, not calibrated probability loss; it cannot establish model-versus-lexical loss superiority or reproduction of the published trained aligner.
+
+**Found.** The coherent account worsens pair-weighted probability loss under both formulations. It also worsens both paper-macro measures for the first formulation, while improving them for the second. Method ranking therefore depends on the question and weighting; there is no consistent account advantage.
+
+**Means.** These are annotation-balanced development comparisons with length exclusions, shared edits/comments and unavailable independent-author components. They establish neither natural-prevalence accuracy nor human intention recovery. A review request is external context; even a correct link does not show the author adopted its purpose. Binary correspondence does not demonstrate detailed passage-localized process claims, and the apparent forward view is conditional classification, not prospective generation.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: does a coherent account improve externally witnessed request/edit correspondence? Outcome: **Narrows**. Result: direct reading has lower pair-weighted loss while paper weighting exposes a formulation-dependent reversal. Project meaning: richer interpretation is not a reliable substitute for explicit correspondence evidence. Next engineering obligation: preserve all paper groups, exclusions, lexical-ranking limits and external-context semantics in the packet. Public claim: unchanged. Curator decision required: No. Detail: [complete ARIES inspection](results/phase_2_4_stage_12/ARIES_COMPLETE_INSPECTION.json).
+
+---
+
 ### OPS-S12-HEALTH-0230 - system memory pressure adds a recovery blocker
 
 **Operational question.** Is the paused local queue still preserved, and have host conditions changed enough to permit continuation?

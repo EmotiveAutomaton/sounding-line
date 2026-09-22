@@ -488,8 +488,10 @@ method. Each informs a part of this file; none is the claim.
 | # | hypothesis | status |
 |---|---|---|
 | **G52** | An artifact exposes values already distorted by expertise and attention under context | **OPEN.** Predicts supplying process changes what is recovered, the direction the goal-process run already found |
-| **S12-LOCAL-1** | Does a coherent account improve local goal/process interpretation while respecting witnessed evidence? | **OPEN generally; no consistent advantage in the complete fixture (test, L414; one all-inspect constructed world, Qwen model reader and exact scorer).** Loss changes depend on the question, located yield does not improve, and account outputs include unsupported mental assertions. Inspection-only records do not witness attended passage location. Four other blocks are operationally incomplete; no representative five-fixture or human claim. |
-| **S12-GIT-1** | Do recorded changes and coherent accounts improve operation recovery beyond endpoint reading? | **SUPPORTED descriptively for supplied change-record usefulness; no general account advantage (test, L415; three controlled Git operations, Qwen reader versus exact extraction).** The exact change control equals or beats the model where history is supplied; account benefit depends on evidence view. The target convention is explicit in the change record. No mental-authorship, independent-population or human-goal claim. |
+| **S12-LOCAL-1** | Does a coherent account improve local goal/process interpretation while respecting witnessed evidence? | **OPEN generally; no consistent advantage in the complete evidence-view battery (test, L414/L421; five views of one fixed all-inspect endpoint, Qwen model reader and exact scorer).** Account loss improves for local goals and supplied-goal operations but worsens inverse operations; both methods remain below the uniform probability reference. Located yield does not improve and unsupported mental assertions rise. Inspection records do not witness attended passage location. Original failures and whole-block recovery remain; no independent-world or human claim. |
+| **S12-GIT-1** | Do recorded changes and coherent accounts improve operation recovery beyond endpoint reading? | **SUPPORTED descriptively for supplied change-record usefulness; no general account advantage (test, L415/L416/L420; all sixteen selected operations in one controlled repository, Qwen reader versus exact extraction).** Exact change extraction equals or beats the models where history is supplied. In the remaining breadth, the account improves endpoints but loses to direct reading with changes visible; invalid endpoint forecasts remain. The target convention is explicit in the change record. No mental-authorship, independent-population or human-goal claim. |
+| **S12-ARIES-1** | Does a coherent account improve correspondence between a review request and a recorded edit? | **OPEN generally; no consistent advantage in the complete diagnostic (test, L417; human ARIES review/edit records, Qwen reader and annotation scorer).** Direct reading has lower pair-weighted loss under both formulations; paper weighting reverses one formulation's comparison. Both formulations see the same supplied pair. The lexical reference remains a separate ranking control. Annotation-balanced development support does not establish natural prevalence, private author purpose, adoption or novel-edit generation. |
+| **S12-RETENTION-1** | Does a retained account or prediction bank preserve useful prediction beyond rereading history? | **OPEN generally; no predictive compression advantage in the complete diagnostic (test, L418; four constructed development units, Qwen readers and independent finite-reference scorer).** Raw history leads model routes on finite probability error and modal agreement; the frozen account alone avoids infinite logarithmic loss. Acquisition is charged, and the bank sees evaluation questions during acquisition. Explicit supplied records do not establish persistent neural state, cost efficiency or a human mechanism. |
 | **G53** | Attention does real work rather than papering a gap | **OPEN, flagged suspect by its own author** |
 | **S-4/S-5** | Reordering the reader's stages changes the answer | **REJECTED (sim)** by exactly zero; a cost saving only |
 | **A01-S4** | A reader keeps the maker's appraisal and its intended audience response apart from the observed action and the factual state | **SUPPORTED WEAKLY AND CONFIRMED ON THE FRESH RESERVE (test, L242).** +0.14 over the 0.25 floor on the crossed pair at 128 worlds, +0.11 at 256, and +0.12 [+0.07, +0.17] by the card's runner (+0.09 [+0.06, +0.13] by the closure block's own recomputation of the frozen contrast) on 256 untouched confirmation worlds; valuation 0.32 to 0.37 and intended audience action 0.40 to 0.42 balanced, the same on enacted notices; action and fact read at 0.65 to 0.70; the propagandist stratum reads at 0.31 to 0.33 and a withheld fact never draws the uncertain answer |
@@ -536,13 +538,23 @@ feasible choices, governing purpose, expertise formed through prior attention, a
 realized process. Its distinctive wager is that a reader can use shared generative
 structure to reconstruct and correct a maker model. Reader-enactable routes, historical
 correspondence, and persistent motivational inference remain distinct products.
-The complete local all-inspect fixture has question-dependent loss changes without
-improved located recovery; its evidence cannot itself identify attended passage
-location, and incomplete neighboring fixtures prevent a representative battery
-claim (L414). In controlled file histories, extracting supplied change records
+The complete local all-inspect evidence-view battery has question-dependent loss
+changes without improved located recovery; its evidence cannot itself identify
+attended passage location. Both model methods remain worse than the uniform
+probability reference, and the shared endpoint supplies no independent-world
+replication (L414, L421). In controlled file histories, extracting supplied change records
 equals or exceeds model interpretation, while account benefit depends on the
 evidence view. Supplied process labels are useful evidence, not a recovered mental
-history (L415).
+history, and invalid endpoint forecasts remain part of the complete selected
+operation comparison (L415, L416, L420).
+On released review/edit records, a coherent account likewise has no consistent
+correspondence advantage over direct reading: weighting by pairs or papers can
+reverse a formulation's comparison. An externally annotated request/edit link
+is not evidence of private author purpose or request adoption (L417). In the
+constructed retention comparison, frozen accounts and query-specific prediction
+banks lose to full raw history on finite probability error. The account avoids
+zero-support logarithmic failures, so retaining the full loss tuple matters;
+compression and reuse alone do not establish better understanding (L418).
 
 For the proposed human route, shared embodied and affective constraints are a load-bearing
 source of that structure. Expertise and attention distort which possibilities are available
@@ -634,7 +646,7 @@ recipient effects, and historical recovery are separate achievements. These comp
 results keep the question open without establishing the full reconstruction or identifying
 a surface-only explanation of its failures.
 Confidence: one bad test away for the scoped Stage 5 and Stage 8 observations and the
-completed Stage 9, Gear 3 and scoped local Stage 10, Stage 11, exact Stage 11.2 development construction and Stage 11.1 reference, complete direct/review/account discovery and breadth, controlled account sensitivity, human evidence, constructed context, history and revision comparisons and the complete Stage 12 local/Git screens; untested,
+completed Stage 9, Gear 3 and scoped local Stage 10, Stage 11, exact Stage 11.2 development construction and Stage 11.1 reference, complete direct/review/account discovery and breadth, controlled account sensitivity, human evidence, constructed context, history and revision comparisons and the complete Stage 12 local/Git, ARIES and retention screens; untested,
 logic only for the proposed expertise and accumulation mechanisms; instrument-dead for
 the clean Stage 7 state-use isolation, the Stage 6 architecture interpretation, and
 the Stage 8 semantic-intervention interpretation and the original Stage 11.1

@@ -29,24 +29,20 @@ week-v4 and local-repair-v1 plans remain historical and must not be relaunched.
 The earlier repair changed telemetry/timeouts only. The curator's September 21
 correction renews independent local execution; the [bounded interface diagnosis](STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md)
 preserves the full canary and unchanged gate. Its complete canary is admitted.
-Actual cold loading and fully resident reuse now verify. Two completed blocks
-are internally landed in L414/L415. Four local blocks retain known responses
-after post-response telemetry timeouts. The dispatcher is stopped and its final
-worker completed naturally. PLAN-local-system-recovery-v1 preserves six untouched
-blocks (138 requests) under the original source capsule and budget. Dispatch awaits
-stable telemetry and fresh resource checks; a peripheral-helper intervention
-requires the owner approval already requested. The causal link remains unproven. No Modal prerequisite enters this local queue. Shared-source
-replay and native expertise are complete in separate frozen queues. Sources run
-from immutable capsules; never edit one. The checkpoint helper and four-hour
-watcher remain live. All 42 validation tests and twelve-handler fixture replay pass.
+Current execution: both explicitly approved applications have exited; host RAM
+and GPU readiness recovered. All three submitted local queues completed normally:
+15 blocks and 270 new requests, including the four bounded recovery attempts.
+Every handler replays offline and all complete results are internally landed in
+L416–L421. There is no scientific GPU worker or unresolved GPU lock. Gear 2
+allocation remains unchanged; a completed finite queue is not a resource failure.
+All 42 validation tests, 21 original locks and theory lint pass. Earlier eleven
+responses, telemetry failures and charges remain. No historical timeout cause
+is inferred from this successful intervention. The original week remains open:
+provider/case packet assembly and a named new operation/provenance or compression-
+access distinction are next; none licenses an automatic cloud retry or extra fit.
+See LOCAL_RECOVERY_CLOSURE.json and the complete scientific receipts.
 
-The [next local breadth queue](STAGE12_LOCAL_BREADTH.md),
-`raw/PLAN-local-breadth-residency-v1.json`, is also frozen: five complete cards and 108
-requests from the already compiled second C1/C2 blocks and remaining Git
-operations. It is not running concurrently. After the present queue exits and
-its complete cells land, check measured timing and the whole next reservation
-against remaining original capacity before launch. No duplicated examples are
-added merely to keep the machine occupied, and no cloud input is required.
+The [local breadth](STAGE12_LOCAL_BREADTH.md) and [fixture recovery](STAGE12_LOCAL_TELEMETRY_RECOVERY.md) both completed. Preserve their frozen sources and all unstarted predecessors; do not relaunch them to fill time.
 
 ## Prepared comparisons and remaining prerequisites
 
@@ -55,22 +51,22 @@ planned requests, not independent participants or completed predictions.
 
 | Comparison | Assembled first sequence | Remaining admission |
 |---|---|---|
-| Local reader | Full bounded-output canary admitted; resource-only resident-memory repair frozen | Cold and resident transitions verified; original canary/profile retained. Intermittent monitoring failure now requires operational recovery |
+| Local reader | Full bounded-output canary admitted; resource-only resident-memory repair frozen | Cold and resident transitions verified; original canary/profile retained. Host intervention complete; actual six-block continuation verifies telemetry |
 | Human history primary | 171 frozen own/no/donor calls on 57 events; original and full-training priors plus persistence; full raw-response analysis | $20 tree approved; account passed and pilot returned fully, but output truncation fails literal validity. Main unstarted. Support remains descriptive with two connected dependency components |
-| Git interpretation | 96 compiled requests; first six controlled operations selected in two complete 18-call blocks | Actual local reader; real owned history, merge and missing-history fixtures are separate reference evidence |
-| Local goal/process | Five distinct ambiguity fixtures, six direct/account requests each | Actual local reader; all-inspect export does not supply varied training support |
-| ARIES | Four paper blocks, 76 requests over nineteen labelled pairs | Actual local reader; annotation-balanced correspondence only; original all-negative draft retained unrun |
-| Context and correction | 32 same-evidence, sixteen correction and 24 jointness calls in the first blocks | Actual local reader; independent requests do not intervene on persistent neural state |
-| Retention | Four separate development units, 44 acquisition and evaluation calls | Actual local reader; predictive bank sees query identities during acquisition, never true answers |
+| Git interpretation | All 96 requests on sixteen selected operations complete; L415/L416/L420 | Actual local reader; real owned history, merge and missing-history fixtures are separate reference evidence |
+| Local goal/process | Five evidence views of one endpoint, all thirty selected requests complete; L421 | Actual local reader; all-inspect export does not supply varied training support |
+| ARIES | Four paper blocks, all 76 requests complete and replayed; L417 | Actual local reader; annotation-balanced correspondence only; original all-negative draft retained unrun |
+| Context and correction | Both C1/C2 blocks and first C3 block complete; L412/L413/L419 | Actual local reader; independent requests do not intervene on persistent neural state |
+| Retention | All 44 acquisition and evaluation calls complete; L418 | Actual local reader; predictive bank sees query identities during acquisition, never true answers |
 | Shared causal reader | Actual native architectures, both sites and seven arms fully replayed; static/ordered composition rulers verify | Ordinary capability passes; joint selective access fails, so learned composition remains unstarted |
 | Expertise | Actual practice/replay/demonstration counts crossed with objective, acquisition coverage and observation quality | Narrow native consumer complete and internally landed; no broad human or neural admission |
 
 The original sequence had 258 comparison requests plus eleven canary requests.
-The remaining 186 requests reserve 17.45 GPU hours including ownership overhead;
+The original resource-repair plan reserved 17.45 GPU hours for 186 requests including ownership overhead;
 this is an upper bound, not an ETA. The original output profile, per-call time
 ceiling and overall limits remain. Original full canary admission is retained;
-resource readiness is a separate requirement. Do not close
-another application or lower the threshold to make the queue appear active.
+resource readiness is a separate requirement. The two expressly approved application stops are complete; they do not authorize
+closing further applications or lowering resource thresholds.
 Actual timing may admit more independent support;
 completed structural screens cannot select a noisy method ranking as confirmation.
 
@@ -95,8 +91,8 @@ current progress and output age, failures, all locks, actual GPU use, cumulative
 charges, original deadlines, eligible cards and watcher delivery. Preserve a
 documented inspection and perform authorized recovery before its ACK. Unrelated
 result ACKs never reset the health clock. Immediate failure/exit events remain.
-The next scheduled check is September 22 at 01:12:14 UTC /September 21 at 18:12:14 PDT;
-the watcher schedules subsequent checks four hours after documented health ACKs.
+The next scheduled check is September 22 at 13:37:40 UTC /06:37:40 PDT;
+subsequent checks remain four hours after documented health ACKs.
 Sleeping/offline hardware or unresolved transport can delay delivery.
 
 The current resource wait reads the profile frozen in its card, performs no

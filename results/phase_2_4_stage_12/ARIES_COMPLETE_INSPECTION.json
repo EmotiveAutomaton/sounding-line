@@ -1,0 +1,82 @@
+{
+  "at": "2026-09-22T12:15:12.067588+00:00",
+  "calls": 76,
+  "cheap_lexical_ranking": {
+    "concordance": 0.6071428571428571,
+    "interpretation": "Fraction of annotated linked/unlinked pairs where lexical retrieval ranks the linked edit higher; ties count one half. This is not calibrated probability loss or a reproduced published aligner.",
+    "request_groups": 6,
+    "within_request_positive_negative_pairs": 14
+  },
+  "full_offline_replay": true,
+  "jobs": [
+    {
+      "id": "S12-ARIES-paper-0-v2-r5-out1-replay2-mem1",
+      "terminal_sha256": "17b32c474cbb8fa13a03ba46754688597b076adfbc253eb5bb80a81f2c32220b"
+    },
+    {
+      "id": "S12-ARIES-paper-1-v2-r5-out1-replay2-mem1",
+      "terminal_sha256": "9b8111b4ca9237d90ce2518c687885fc4ae262f2af1a01e6f12a5a12cebc418a"
+    },
+    {
+      "id": "S12-ARIES-paper-2-v2-r5-out1-replay2-mem1",
+      "terminal_sha256": "e108643492022f888ee725669cf3a76e469fb91f333230653eb52d2bf66379c0"
+    },
+    {
+      "id": "S12-ARIES-paper-3-v2-r5-out1-replay2-mem1",
+      "terminal_sha256": "d094d3b9697408dd447cc08f43e07b468ba77a5d385fa4a9a7871f70576143c8"
+    }
+  ],
+  "label_counts": {
+    "0": 12,
+    "1": 7
+  },
+  "papers": 4,
+  "rows": [
+    {
+      "accuracy": 0.7894736842105263,
+      "direction": "forward-edit-correspondence",
+      "half_brier": 0.21898515789473683,
+      "infinite_log_losses": 1,
+      "method": "coherent-account",
+      "n": 19,
+      "paper_macro_accuracy": 0.8452380952380952,
+      "paper_macro_half_brier": 0.17291329166666666,
+      "valid": 19
+    },
+    {
+      "accuracy": 0.7894736842105263,
+      "direction": "forward-edit-correspondence",
+      "half_brier": 0.20583763157894736,
+      "infinite_log_losses": 1,
+      "method": "direct",
+      "n": 19,
+      "paper_macro_accuracy": 0.8035714285714286,
+      "paper_macro_half_brier": 0.18982793452380953,
+      "valid": 19
+    },
+    {
+      "accuracy": 0.7368421052631579,
+      "direction": "reverse-request-correspondence",
+      "half_brier": 0.2449617894736842,
+      "infinite_log_losses": 0,
+      "method": "coherent-account",
+      "n": 19,
+      "paper_macro_accuracy": 0.7619047619047619,
+      "paper_macro_half_brier": 0.22594371428571428,
+      "valid": 19
+    },
+    {
+      "accuracy": 0.7894736842105263,
+      "direction": "reverse-request-correspondence",
+      "half_brier": 0.19930752631578946,
+      "infinite_log_losses": 0,
+      "method": "direct",
+      "n": 19,
+      "paper_macro_accuracy": 0.8035714285714286,
+      "paper_macro_half_brier": 0.1886142202380952,
+      "valid": 19
+    }
+  ],
+  "scope": "Annotation-balanced descriptive correspondence screen. The two directions see the same supplied pair. No novel-edit generation, author adoption, private goal or independent-author inference.",
+  "source_pairs": 19
+}

@@ -2,18 +2,18 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution: local cold loading and exact resident-context reuse both
-worked, with about 1.9 GiB remaining after model loading. Two complete comparison
-blocks passed offline replay and are internally landed in L414/L415. Four other
-local blocks stopped after model responses because GPU telemetry timed out;
-eleven returned responses and all charges remain. The dispatcher was stopped,
-its last Git worker finished naturally, and every scientific owner has exited.
-An unrelated peripheral helper has an extreme native handle count; its causal
-role is unproven. Owner approval is pending before stopping that application.
-Six untouched blocks / 138 requests are frozen in PLAN-local-system-recovery-v1,
-pending stable telemetry and fresh resource checks. Gear 2 remains authorized.
-This supersedes the old headroom-wait snapshot. No driver setting, model, request,
-scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json.
+Current execution: both explicitly approved applications have exited; host RAM
+and GPU readiness recovered. All three submitted local queues completed normally:
+15 blocks and 270 new requests, including the four bounded recovery attempts.
+Every handler replays offline and all complete results are internally landed in
+L416–L421. There is no scientific GPU worker or unresolved GPU lock. Gear 2
+allocation remains unchanged; a completed finite queue is not a resource failure.
+All 42 validation tests, 21 original locks and theory lint pass. Earlier eleven
+responses, telemetry failures and charges remain. No historical timeout cause
+is inferred from this successful intervention. The original week remains open:
+provider/case packet assembly and a named new operation/provenance or compression-
+access distinction are next; none licenses an automatic cloud retry or extra fit.
+See LOCAL_RECOVERY_CLOSURE.json and the complete scientific receipts.
 First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
 their small descriptive contrasts establish neither general correction nor
 reliable supplied-bank integration. Original canary admission remains valid.
@@ -37,14 +37,9 @@ failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. Next health inspection remains
 four hours after the documented inspection ACK; HEALTH_20260922_0230_ACK.json
 records its exact deadline. Ordinary completion ACKs do not change it.
-The September 22 early-morning inspection verifies monitors, fresh output,
-unchanged failures, source/input bindings, locks and whole-continuation budget.
-GPU-only readiness passes, but less than 1 GiB of system RAM is available. A
-verified development server from another project holds about 49 GiB resident;
-specific permission to stop it is pending separately from the helper request.
-No new terminal appeared and no application was stopped. See
-HEALTH_20260922_0230.json and its HOST_MEMORY supplement. Restore host capacity
-and verify telemetry before inference; earlier-timeout causation is unproven.
+The September 22 host intervention resolves the earlier RAM and application-approval
+blockers. Checkpoint and watcher ownership remain; the next four-hour health check
+is September 22 at 13:37:40 UTC /06:37:40 PDT. Ordinary result ACKs do not defer it.
 The following setup snapshots preserve their chronology; this paragraph is current.
 
 Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:

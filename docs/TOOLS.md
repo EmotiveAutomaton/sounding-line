@@ -12,6 +12,25 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HOST-RECOVERY: both explicitly approved application identities exited;
+host RAM recovered and repeated readiness passed. All six untouched blocks and
+138 calls complete with required telemetry, and every handler replays offline.
+All 42 tests pass. The next five-card breadth passes full original-budget and
+463-source admission after versioning three stale prerequisite paths; no reader,
+scorer or resource threshold changed. The earlier eleven partial responses and
+their charges remain. Historical timeout causation is unproven. See
+HOST_RECOVERY_INSPECTION.json and L416–L418; four-hour health remains independent.
+The five-card breadth subsequently completed all 108 calls and full replay
+(L419/L420); native coordinator/worker exits and lock release verify. Fresh
+capacity admits the separately frozen four-fixture recovery without changing
+the old responses, costs or original ceilings. See BREADTH_CLOSURE_INSPECTION.json.
+The four frozen recovery attempts also complete and replay (L421). All three
+submitted queues have exited normally, with 15 complete blocks and 270 new calls.
+Every old partial response remains unchanged. Final native/source/resource checks,
+all 21 locks and theory lint pass; the 42-test pass remains applicable because no
+runner changed. The next health deadline remains unchanged. See
+LOCAL_RECOVERY_CLOSURE.json; completion of these queues does not close the week.
+
 OPS-S12-HEALTH-0230: native monitoring, fresh checkpoint output and actual wake
 delivery verify. Evidence, frozen sources, manifests, locks and whole-plan budget
 remain intact. GPU-only admission passes, but host RAM has less than 1 GiB free:

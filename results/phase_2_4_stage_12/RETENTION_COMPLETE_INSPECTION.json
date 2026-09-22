@@ -1,0 +1,50 @@
+{
+  "at": "2026-09-22T12:22:08.207195+00:00",
+  "calls": 44,
+  "evaluation_rows": 32,
+  "exact_reference_half_brier": 0.09656460686383514,
+  "full_offline_replay": true,
+  "jobs": [
+    {
+      "id": "S12-retention-v1-r5-out1-replay2-mem1",
+      "terminal_sha256": "04dd53415e092232ee035f163b489c27ef52dbb0b02ca9418c2ce589e563db87"
+    }
+  ],
+  "rows": [
+    {
+      "accuracy": 0.125,
+      "condition": "frozen_account",
+      "half_brier": 0.4158624639839032,
+      "infinite_log_losses": 0,
+      "n": 8,
+      "valid": 8
+    },
+    {
+      "accuracy": 0.25,
+      "condition": "predictive_bank",
+      "half_brier": 0.458437460982557,
+      "infinite_log_losses": 3,
+      "n": 8,
+      "valid": 8
+    },
+    {
+      "accuracy": 0.625,
+      "condition": "raw_history",
+      "half_brier": 0.2368761314844314,
+      "infinite_log_losses": 6,
+      "n": 8,
+      "valid": 8
+    },
+    {
+      "accuracy": 0.25,
+      "condition": "retrieval_last_four",
+      "half_brier": 0.37945312500004325,
+      "infinite_log_losses": 1,
+      "n": 8,
+      "valid": 8
+    }
+  ],
+  "scope": "Four constructed development units. The answer bank sees evaluation questions during acquisition; its hypotheses are not new evidence or weight/KV updates. All acquisition costs retained.",
+  "sources": 4,
+  "uniform_half_brier": 0.375
+}

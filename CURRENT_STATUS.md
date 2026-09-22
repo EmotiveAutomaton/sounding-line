@@ -1,21 +1,21 @@
 # Current status
 
-## Stage 12 local inference verified; monitoring diagnosis - September 21
+## Stage 12 host recovery and Gear 2 continuation - September 22
 
-Current execution: local cold loading and exact resident-context reuse both
-worked, with about 1.9 GiB remaining after model loading. Two complete comparison
-blocks passed offline replay and are internally landed in L414/L415. Four other
-local blocks stopped after model responses because GPU telemetry timed out;
-eleven returned responses and all charges remain. The dispatcher was stopped,
-its last Git worker finished naturally, and every scientific owner has exited.
-An unrelated peripheral helper has an extreme native handle count; its causal
-role is unproven. Owner approval is pending before stopping that application.
-Six untouched blocks / 138 requests are frozen in PLAN-local-system-recovery-v1,
-pending stable telemetry and fresh resource checks. Gear 2 remains authorized.
-This supersedes the old headroom-wait snapshot. No driver setting, model, request,
-scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json.
+Current execution: both explicitly approved applications have exited; host RAM
+and GPU readiness recovered. All three submitted local queues completed normally:
+15 blocks and 270 new requests, including the four bounded recovery attempts.
+Every handler replays offline and all complete results are internally landed in
+L416–L421. There is no scientific GPU worker or unresolved GPU lock. Gear 2
+allocation remains unchanged; a completed finite queue is not a resource failure.
+All 42 validation tests, 21 original locks and theory lint pass. Earlier eleven
+responses, telemetry failures and charges remain. No historical timeout cause
+is inferred from this successful intervention. The original week remains open:
+provider/case packet assembly and a named new operation/provenance or compression-
+access distinction are next; none licenses an automatic cloud retry or extra fit.
+See LOCAL_RECOVERY_CLOSURE.json and the complete scientific receipts.
 
-[Inspection](results/phase_2_4_stage_12/GPU_TRANSITION_INSPECTION.json).
+[Inspection](results/phase_2_4_stage_12/HOST_RECOVERY_INSPECTION.json).
 
 Modal account admission passed and the approved pilot completed. Its complete
 archive replays, but the unchanged validity gate fails on an output truncated
@@ -27,13 +27,8 @@ failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.js
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline
 is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260922_0230_ACK.json).
-The [September 22 health inspection](results/phase_2_4_stage_12/HEALTH_20260922_0230.json)
-verifies fresh monitoring, unchanged evidence, GPU capacity and continuation budget.
-It also finds [severe system-memory pressure](results/phase_2_4_stage_12/HEALTH_20260922_0230_HOST_MEMORY.json):
-less than 1 GiB available, with another project's development server holding about
-49 GiB resident. Specific permission to stop that server is pending separately
-from the peripheral-helper request. Neither application was stopped. No new
-scientific output appeared; host capacity and telemetry stability need resolution.
+The prior system-memory blocker is resolved by the explicitly approved application
+stops. The next health inspection remains September 22 at 13:37:40 UTC /06:37:40 PDT.
 Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
 with the last twelve hours protected. Gear 2 authorization and all stage ceilings
 remain. The theory errata is applied and both

@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-22T12:15:12.065145+00:00",
+  "calls": 18,
+  "cheap": [
+    {
+      "accuracy": 0.0,
+      "direction": "endpoint",
+      "half_brier": 1.0,
+      "infinite_log_losses": 3,
+      "method": "recorded-change / unknown",
+      "n": 3,
+      "valid": 3
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff",
+      "half_brier": 0.0,
+      "infinite_log_losses": 0,
+      "method": "recorded-change / unknown",
+      "n": 3,
+      "valid": 3
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.0,
+      "infinite_log_losses": 0,
+      "method": "recorded-change / unknown",
+      "n": 3,
+      "valid": 3
+    }
+  ],
+  "full_offline_replay": true,
+  "jobs": [
+    {
+      "id": "S12-Git-block-1-v1-r5-out1-replay2-mem1",
+      "terminal_sha256": "6767351bbaf4c4b2b8b62f013c6dd52f716fa6f9c2dd3667311597caff066675"
+    }
+  ],
+  "rows": [
+    {
+      "accuracy": 0.6666666666666666,
+      "direction": "endpoint",
+      "half_brier": 0.4058333333333333,
+      "infinite_log_losses": 1,
+      "method": "coherent-account",
+      "n": 3,
+      "valid": 2
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "direction": "endpoint",
+      "half_brier": 0.339525,
+      "infinite_log_losses": 1,
+      "method": "direct",
+      "n": 3,
+      "valid": 2
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff",
+      "half_brier": 0.000600000000000008,
+      "infinite_log_losses": 0,
+      "method": "coherent-account",
+      "n": 3,
+      "valid": 3
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff",
+      "half_brier": 0.0,
+      "infinite_log_losses": 0,
+      "method": "direct",
+      "n": 3,
+      "valid": 3
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.000500000000000019,
+      "infinite_log_losses": 0,
+      "method": "coherent-account",
+      "n": 3,
+      "valid": 3
+    },
+    {
+      "accuracy": 1.0,
+      "direction": "endpoint-diff-message",
+      "half_brier": 0.0005333333333333486,
+      "infinite_log_losses": 0,
+      "method": "direct",
+      "n": 3,
+      "valid": 3
+    }
+  ],
+  "scope": "Second complete controlled Git block; supplied changes explicitly encode target conventions. No independent human support or mental-process claim.",
+  "sources": 3
+}
