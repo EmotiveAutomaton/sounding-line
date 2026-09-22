@@ -35,12 +35,16 @@ all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. Next health inspection remains
-four hours after the documented inspection ACK; HEALTH_20260921_2222_ACK.json
+four hours after the documented inspection ACK; HEALTH_20260922_0230_ACK.json
 records its exact deadline. Ordinary completion ACKs do not change it.
-The September 21 late-evening inspection verifies native monitors, fresh output,
-unchanged failures, source/input bindings, locks and whole-continuation capacity.
-No new terminal appeared; the existing host-intervention approval remains pending.
-See HEALTH_20260921_2222.json. Fresh capacity alone does not resolve intermittence.
+The September 22 early-morning inspection verifies monitors, fresh output,
+unchanged failures, source/input bindings, locks and whole-continuation budget.
+GPU-only readiness passes, but less than 1 GiB of system RAM is available. A
+verified development server from another project holds about 49 GiB resident;
+specific permission to stop it is pending separately from the helper request.
+No new terminal appeared and no application was stopped. See
+HEALTH_20260922_0230.json and its HOST_MEMORY supplement. Restore host capacity
+and verify telemetry before inference; earlier-timeout causation is unproven.
 The following setup snapshots preserve their chronology; this paragraph is current.
 
 Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:

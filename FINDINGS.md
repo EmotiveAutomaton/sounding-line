@@ -5,7 +5,30 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-21.**
+**Last updated: 2026-09-22.**
+
+---
+
+### OPS-S12-HEALTH-0230 - system memory pressure adds a recovery blocker
+
+**Operational question.** Is the paused local queue still preserved, and have host conditions changed enough to permit continuation?
+
+**METHOD.** Verify native checkpoint/watcher identities, fresh output, delivered health event, original failure digests, frozen continuation inputs, locks and whole-plan capacity. Inspect actual GPU and system memory separately; cross-check the largest working sets and identify the responsible development server by native creation time, executable, command and parent chain. No application was stopped.
+
+Each row is an operational check at the September 22 early-morning inspection. Working set is resident physical memory; private commitment is a separate allocation and is not additional resident RAM.
+
+| Check | Finding |
+|---|---|
+| Monitoring | Exact checkpoint and watcher remain live with fresh output and loaded sources. The health event reached the owner once about 52 seconds after its deadline |
+| Evidence and work | No new scientific terminal; all prior scientific owners exited. Original failures, 463 source pins, six manifests and their inputs verify. All 21 locks pass; no model, scorer or input changed |
+| GPU and accounting | GPU-only cold admission passes with 9,246 MiB free, 3 percent utilization and 33 C. The six untouched cards and 138 requests still fit original limits; GPU charges are unchanged |
+| System memory | Repeated observations show less than 1 GiB available out of 95.1 GiB. A different project's Node/Vite server holds about 49.2 GiB resident and 194.5 GiB privately committed. This is an additional host-resource blocker |
+| Process ownership | The additional project-Python identities resolve to the existing checkpoint wrapper and this inspection's launcher. No second scientific worker is present. The peripheral helper's extreme handle count persists |
+| Recovery authority | A specific request to stop the other project's development server is pending under the stage's prohibition on automatically closing other applications. The earlier peripheral-helper request is separate; neither intervention has occurred |
+
+**Found and means.** The watcher is healthy, but the workstation is under severe system-memory pressure. GPU-only readiness does not make the host ready for inference. The development server is a large current memory consumer; its relationship to earlier telemetry failures remains unproven. Keep the scientific dispatcher stopped, preserve Gear 2 and all original evidence and ceilings, and recheck memory and telemetry after an authorized intervention. No tests harvested this pass; the unchanged prior 42-test pass remains applicable.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can the preserved local queue resume safely on the current host? Outcome: **Infrastructure**. Result: system-memory pressure blocks continuation despite available GPU memory. Project meaning: the operational bottleneck now includes host RAM. Next engineering obligation: stop the verified development server if approved, recheck host capacity and telemetry, and resume only untouched work when ready. Public claim: unchanged. Curator decision required: Yes, approve the bounded development-server stop already requested. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260922_0230.json) and [host-memory supplement](results/phase_2_4_stage_12/HEALTH_20260922_0230_HOST_MEMORY.json).
 
 ---
 

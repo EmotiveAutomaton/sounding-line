@@ -19,6 +19,13 @@ scientific gate or original deadline changed. See GPU_TRANSITION_INSPECTION.json
 
 [Transition inspection](GPU_TRANSITION_INSPECTION.json), [complete local fixture](LOCAL_INITIAL_INSPECTION.json), [complete Git block](GIT_INITIAL_INSPECTION.json).
 
+The [September 22 health inspection](HEALTH_20260922_0230.json) finds fresh
+monitoring and preserved work, with a new [system-memory blocker](HEALTH_20260922_0230_HOST_MEMORY.json).
+A different project's development server holds about 49 GiB resident while less
+than 1 GiB remains available. Approval for a bounded server stop is pending
+separately from the prior helper request. GPU-only admission passes; no scientific
+queue or other application was restarted or stopped during this inspection.
+
 CPU preparation consumers have run and are internally landed. The original
 week-v4 and local-repair-v1 queues remain historical. Actual shared-model,
 causal and production source replay is complete, including its retained adapter

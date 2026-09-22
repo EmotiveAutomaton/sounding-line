@@ -26,11 +26,14 @@ failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.js
 
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline
-is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260921_2222_ACK.json).
-The [late-evening health inspection](results/phase_2_4_stage_12/HEALTH_20260921_2222.json)
-verifies fresh monitoring, unchanged evidence, sufficient current GPU memory and
-whole-continuation capacity. No new scientific output appeared; the existing
-host-intervention request remains pending and telemetry stability is unresolved.
+is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260922_0230_ACK.json).
+The [September 22 health inspection](results/phase_2_4_stage_12/HEALTH_20260922_0230.json)
+verifies fresh monitoring, unchanged evidence, GPU capacity and continuation budget.
+It also finds [severe system-memory pressure](results/phase_2_4_stage_12/HEALTH_20260922_0230_HOST_MEMORY.json):
+less than 1 GiB available, with another project's development server holding about
+49 GiB resident. Specific permission to stop that server is pending separately
+from the peripheral-helper request. Neither application was stopped. No new
+scientific output appeared; host capacity and telemetry stability need resolution.
 Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
 with the last twelve hours protected. Gear 2 authorization and all stage ceilings
 remain. The theory errata is applied and both

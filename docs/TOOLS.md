@@ -12,6 +12,15 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-0230: native monitoring, fresh checkpoint output and actual wake
+delivery verify. Evidence, frozen sources, manifests, locks and whole-plan budget
+remain intact. GPU-only admission passes, but host RAM has less than 1 GiB free:
+a verified Node/Vite server from another project holds about 49 GiB resident.
+Its larger private commitment is not resident RAM. Approval to stop that server
+is pending separately from the prior peripheral-helper request. No application
+was stopped and no scientific request dispatched. See HEALTH_20260922_0230.json
+and its HOST_MEMORY supplement; no instrument or acceptance criterion changed.
+
 OPS-S12-HEALTH-2222: the four-hour wake reached the owner once; exact native
 checkpoint/watcher identities, fresh output and loaded monitoring sources verify.
 No new terminal or scientific owner appeared. All frozen continuation sources,
