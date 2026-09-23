@@ -17,6 +17,12 @@ from runners.stage9.process_identity import native_identity
 from tools.codex_common import singleton
 
 def handler(name):
+    if name=='law-sensitivity':
+        from .law_sensitivity import run
+        return run
+    if name in ('execution-access-compile','execution-access-run'):
+        from . import execution_access
+        return execution_access.compile if name.endswith('compile') else execution_access.run
     if name=='casebook':
         from .casebook import run
         return run

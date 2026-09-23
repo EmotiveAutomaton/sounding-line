@@ -2,27 +2,27 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution, September 23: all twelve frozen Gear 2 blocks complete,
-and all 212 calls reproduce through raw-response and actual-handler replay.
-The witnessed-operation and compression/access comparisons are internally landed
-in L422-L427, including every rival, invalid output and charge. The native queue
-and workers exited normally; locks released and fresh resource admission passes.
-Gear 2 authorization remains, with no scientific worker in this completed roster.
-The provider bundle now has 254 source-bound cases, preserving all 110 earlier
-cases unchanged. Four access histories remain forecast-only companions.
-CASEBOOK_COMPLETE_INSPECTION.json and SCOPED_COMPLETE_STATUS.json retain
-operational evidence; OPERATOR_COMPLETE_INSPECTION.json and
-ACCESS_COMPLETE_INSPECTION.json retain the complete comparisons.
-The fifty prior completions and all 388 earlier local calls retain their earlier
-verified records. All 45 validation tests, 21 locks and theory lint pass; no
-runner, scorer or admission gate changed. The prospective design remains
-docs/design/STAGE12_SCOPED_SUCCESSORS.md. A separately frozen local successor
-requires scientific review; no automatic cloud retry or additional tiny fit.
-The original week remains open for scoped review and its interim/final packet.
-Watcher and checkpoint identities verify, and the next four-hour health check
-is September 23 at 16:53:40 UTC /09:53:40 PDT after the documented health ACK.
-The current health receipt verifies all 66 complete job records and no new
-failures: HEALTH_20260923_0550.json. Result ACKs do not defer the health clock.
+Current execution, September 23: the new Gear 2 continuation and its single
+warm recovery have completed. All twenty supplied-answer histories (280 selected
+calls) and the full CPU law-sensitivity analysis replay exactly and are internally
+landed in L429/L430. The first incomplete cold-load attempt, returned response,
+failed timing gate and all costs remain; no reply was spliced into its recovery.
+Both native coordinators and all workers exited, with locks released.
+All 88 completed Stage 12 records verify: 468 source pins, 2,288 input checks
+and 984 output checks. Earlier failures are unchanged. All 48 Stage 12 tests
+and 21 locks pass. Current GPU admission is available and Gear 2 remains
+authorized, but no submitted scientific card remains runnable.
+The prior twelve-block comparison and 254-case provider bundle remain intact;
+the new supplied-answer forecasts are separate constructed diagnostic evidence.
+There is no automatic further generation, paid retry or additional shared fit.
+Next work is original packet preparation and scoped successor review. Generation
+finished around 16:03 PDT, ahead of its provisional 16:10-16:45 estimate; this
+does not close all week objectives or establish a stage-wide schedule advantage.
+Interim review remains September 25 at 06:17 PDT; protected reporting begins
+September 27 at 18:17 PDT; final review is September 28 at 06:17 PDT.
+The independent health check remains September 23 at 18:05:24 PDT.
+Current evidence: EXECUTION_COMPLETE_INSPECTION.json, LAW_SENSITIVITY_INSPECTION.json
+and EXECUTION_COMPLETE_STATUS.json. Native watcher/checkpoint freshness verifies.
 First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
 their small descriptive contrasts establish neither general correction nor
 reliable supplied-bank integration. Original canary admission remains valid.
@@ -44,7 +44,7 @@ all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. The next four-hour health inspection
-is September 23 at 16:53:40 UTC /09:53:40 PDT, as retained in HEALTH_20260923_0550_ACK.json.
+is September 24 at 01:05:24 UTC / September 23 at 18:05:24 PDT, as retained in HEALTH_20260923_1400_ACK.json.
 Result ACKs and delayed-notice reconciliation do not reset it.
 The September 22 host intervention resolved the earlier RAM and application
 blockers. Checkpoint and watcher ownership remain. Following setup snapshots

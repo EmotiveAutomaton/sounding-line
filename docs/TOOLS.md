@@ -12,6 +12,41 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L430 / OPS-S12-EXECUTION-CLOSE: all twenty selected execution handlers and 280
+raw replies reproduce, including the single whole-block warm recovery. Prior
+cold-load failure and cost remain. All 88 complete-job records, 468 source pins,
+2,288 inputs and 984 outputs verify. Both queues exited with locks released;
+native monitors and original budget/calendar remain. No timing or scoring
+threshold changed; all 48 Stage 12 tests and 21 locks pass.
+
+L428/L429 and OPS-S12-EXECUTION-COLD: seven complete execution handlers and
+the full reference-law consumer replay exactly; invalid probabilities and
+original correspondence persist. The unchanged throughput guard fires on the
+first cold call, with reported loading accounting for most of its elapsed time.
+Its returned call replays and the worker exited; one new whole attempt requires
+verified warm residency after the current queue. No gate or scorer repair.
+
+OPS-S12-EXECUTION-SETUP: supplied-answer execution diagnostics preserve the
+original probability losses and separately measure fidelity to deterministic
+three-decimal answers. Wrong entries, invalid vectors and changed requests fail;
+all twenty actual cards replay through 280 fake calls without redispatch.
+The offline source-law consumer reproduces original raw scores and checks
+unchanged public support under changed coefficients. All 48 Stage 12 tests,
+actual preparation replay and 21 locks pass; no new model capability is claimed.
+
+OPS-S12-HEALTH-1400: all completed-job, source/input/output and historical-failure
+checks pass; native monitors, fresh output, loaded watcher source, first-attempt
+delivery and released locks verify. GPU memory availability improved but remains
+below the unchanged cold-start requirement. No runner, scorer, gate or dispatch
+changed; the prior validation pass remains applicable.
+
+OPS-S12-HEALTH-0955: completed-source/input/output and historical-failure checks
+remain intact; native monitor identity, heartbeat and first-attempt health delivery
+verify. Cold GPU admission correctly refuses current free memory below the
+existing reservation. Per-process graphics counters are not safely additive;
+whole-card free/reserved telemetry remains authoritative. No application stop,
+threshold change, scientific retry or new runner; the prior test pass remains.
+
 OPS-S12-HEALTH-0550: all 66 complete-job manifest/output bindings and public
 receipt references verify, with 466 source pins and all historical failures
 unchanged. Native normal exit, available locks, fresh resource admission and

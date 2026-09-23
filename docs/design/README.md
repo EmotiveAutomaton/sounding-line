@@ -9,6 +9,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-21)
 
+- **September 23 execution continuation:** [supplied-answer execution and source-law sensitivity](STAGE12_EXECUTION_SUCCESSORS.md) freezes twenty balanced GPU blocks and an offline CPU consumer within the original week. All twenty histories and the CPU consumer complete with full replay (L429/L430), including one bounded warm recovery. All 48 tests and 88 complete records verify; earlier results and the failed cloud pilot remain unchanged. Original packets and scoped successor review remain.
+
 - **September 23 scoped continuation:** [witnessed operations and compression/access](STAGE12_SCOPED_SUCCESSORS.md) completes all twelve frozen blocks and all 212-call replays (L422-L427). The refreshed source-bound bundle retains 254 cases; prior records remain unchanged. Gear 2 stays authorized, the frozen queue has exited normally, and scoped successor review and the original week packets remain. All 45 validation tests pass.
 
 - **Local continuation complete:** the [implementation handoff](STAGE12_IMPLEMENTATION_HANDOFF.md) records both approved application exits and all fifteen subsequent blocks completed with full replay. The [compiled breadth](STAGE12_LOCAL_BREADTH.md) and [bounded fixture recovery](STAGE12_LOCAL_TELEMETRY_RECOVERY.md) are completed historical plans; the original week and Gear 2 allocation remain open.

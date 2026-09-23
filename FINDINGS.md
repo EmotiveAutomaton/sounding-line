@@ -9,6 +9,216 @@ ran it.
 
 ---
 
+### L430 - complete supplied-answer execution comparison
+
+**Hypothesis.** Literal use of a supplied answer is separable from prediction using the same answer, and selecting the relevant entry may remove an additional execution failure.
+
+**METHOD.** Finish all twenty prospectively selected exposed constructed histories, with two queries and seven paired conditions per history. Reparse all 280 selected raw replies and replay every actual handler offline, reproducing its original summary and outputs. The first history uses the single prospectively frozen whole-block warm recovery; its original incomplete cold-load attempt and response remain separate and charged. Compare fidelity to the supplied three-decimal vector and probability loss against the unrounded finite reference, with exact-state and uniform references and equal history weight. The coefficient-sensitivity consumer is separate (L429); this is not independent-world or human replication.
+
+Each row covers forty queries from twenty histories. Probability error is expected half-Brier loss, lower is better. Exact copies match the supplied rounded vector. Infinite logarithmic losses retain missing reference support; invalid probabilities receive the original maximum error penalty.
+
+| Condition | Valid / attempted | Probability error | Modal agreement | Exact copies | Infinite logarithmic losses |
+|---|---:|---:|---:|---:|---:|
+| Raw history | 40 / 40 | 0.310242 | 0.550000 | 0 | 21 |
+| Identical repeat | 40 / 40 | 0.310242 | 0.550000 | 0 | 21 |
+| Exact sufficient state | 33 / 40 | 0.791485 | 0.200000 | 0 | 37 |
+| Full bank, predict | 40 / 40 | 0.139642 | 0.900000 | 35 | 0 |
+| Full bank, copy | 40 / 40 | 0.093637 | 0.975000 | 39 | 0 |
+| Selected entry, predict | 39 / 40 | 0.137105 | 0.925000 | 37 | 1 |
+| Selected entry, copy | 40 / 40 | 0.073387 | 1.000000 | 40 | 0 |
+
+The unrounded reference floor is 0.073387418; the rounded-answer floor is 0.073387440. Uniform error is 0.375000. All raw/repeat probability vectors match. Seven exact-state forecasts and one selected-entry prediction are invalid. Every history, rival, reference, original attempt and recovery remains individually recorded in the receipt; no p-values or effect-selected winner are introduced.
+
+**Found.** Explicit copying of the selected entry preserves every supplied answer in the complete roster. Copying from the full bank fails once, and prediction instructions can change even a selected answer. Exact state does not ensure valid or accurate inference. The earlier seven-history snapshot remains valid for its cells; its perfect full-bank copying does not generalize across the completed roster.
+
+**Means.** Answer availability, entry selection, literal execution and probabilistic inference remain distinct. The successful selected-entry copy is privileged answer execution, not a learned maker model, information acquisition, persistent state or evidence of a human mechanism. The frozen comparison is complete; further generation needs a distinct source/factor design and admission within the original week, not repetition to occupy the GPU. Carry the complete loss tuple and the original failure into the scheduled packet.
+
+**Curator roll-up.** Theory group: reconstruction and access. Question: does explicit execution change how a reader uses a supplied answer? Outcome: **Narrows**. Result: explicit selected-entry copying preserves all supplied answers in the complete twenty-history roster. Project meaning: literal execution and inference are separate achievements. Next engineering obligation: include whole comparisons and all assistance limits in the original interim/final packet; separately review any substantive successor. Public claim: unchanged. Curator decision required: No for this landing. Detail: [complete execution inspection](results/phase_2_4_stage_12/EXECUTION_COMPLETE_INSPECTION.json).
+
+---
+
+### OPS-S12-EXECUTION-CLOSE - successful bounded recovery and complete record reconciliation
+
+**Hypothesis.** The continuation can finish without weakening its timing guard, losing historical evidence or changing the original review calendar.
+
+**METHOD.** After the original coordinator exits, verify released locks and exact warm model/context residency, then execute the separately frozen fourteen-call recovery once. Replay all selected complete handlers, check every completed-job manifest/input/output binding and source capsule, reconcile all failure hashes, and inspect native exits, monitors, resources, locks, charges and the independent health deadline. No new test was harvested from this operational request.
+
+The table records operational completeness and validation, not a new scientific verdict.
+
+| Check | Verified state |
+|---|---|
+| Selected continuation | All twenty supplied-answer histories and the full CPU law consumer complete; all 280 selected replies replay |
+| Recovery | One warm whole-block attempt complete; original failed attempt, response and cost retained |
+| All completed Stage 12 records | 88 records, 2,288 input checks and 984 output checks pass; public receipt references present |
+| Source and failures | 468 source pins verify; all 24 earlier failures and the new cold-load failure preserved |
+| Execution | Both coordinators and their workers exited; kernel locks available and GPU/native locks released |
+| Validation and monitoring | All 48 Stage 12 tests and 21 locks pass; native watcher/checkpoint and fresh output verify |
+| Limits and calendar | Original reporting reserves intact; interim September 25 and final September 28 unchanged |
+
+**Found.** The continuation and its single permitted recovery have finished. No scientific worker is stalled and no submitted card remains runnable. GPU admission is currently available. Healthy monitoring and the original four-hour health deadline persist; an empty completed roster does not mean the commissioned week or its remaining report is finished.
+
+**Means.** Gear 2 remains authorized. Next work is original packet preparation and scoped review of any further substantive local distinction, with no automatic duplicate generation, new tiny fit or paid retry. The human-history main remains unstarted after its failed literal-validity pilot; that unavailable branch must remain explicit. Local completion is ahead of the provisional generation estimate, not proof that every week objective is complete or ahead of schedule.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: did the new local continuation finish with complete records and healthy monitoring? Outcome: **Infrastructure**. Result: all 88 completed Stage 12 job records verify. Project meaning: local completion, scientific admission and unfinished week deliverables remain separate. Next engineering obligation: maintain four-hour inspections and produce the original interim/final packets. Public claim: unchanged. Curator decision required: No for local record closure. Detail: [complete status](results/phase_2_4_stage_12/EXECUTION_COMPLETE_STATUS.json).
+
+---
+
+### L429 - frozen-reading sensitivity to source-law coefficients
+
+**Hypothesis.** The completed witnessed-operation comparison may depend on the particular finite-law coefficients used to define its reference probabilities.
+
+**METHOD.** Reparse all 144 saved forecasts and reproduce their original losses. Recompute references under the original law and sixteen prospectively named coefficient draws while holding the public evidence, forecast, supplied forward goal and compatible record support fixed. Replay the entire CPU handler. The same forecasts appear under every law; this is an assumption-sensitivity analysis, not independent model or artifact replication. No new model call or fit is made.
+
+Each row covers the same twenty-four path/view forecasts. The range is the minimum and maximum expected half-Brier loss across the seventeen coefficient assumptions; lower is better. These are sensitivity ranges, not confidence intervals. Uniform losses are 0.333333 for goals and 0.416667 for operations.
+
+| Question | Reader | Minimum loss | Maximum loss | Worse than uniform throughout |
+|---|---|---:|---:|---|
+| Infer local goal | Direct | 0.385501 | 0.387694 | Yes |
+| Infer local goal | Coherent account | 0.475789 | 0.480301 | Yes |
+| Infer operation | Direct | 0.733349 | 0.756579 | Yes |
+| Infer operation | Coherent account | 0.673089 | 0.699325 | Yes |
+| Predict operation with supplied goal | Direct | 0.698781 | 0.724552 | Yes |
+| Predict operation with supplied goal | Coherent account | 0.648424 | 0.661454 | Yes |
+
+**Found.** The original probability-loss ordering survives these coefficient changes: accounts lose on goals and improve operation losses, while every reader/question aggregate remains worse than uniform. Original-law identity, normalized laws and identical public support pass. The original invalid forecast and infinite losses remain; the original correspondence records are copied unchanged, not revalidated as fresh observations.
+
+**Means.** The comparison is not explained by just the original coefficient draw within this declared family. This does not expand the visible artifact alphabet, test another model, establish a human mechanism or turn reused forecasts into independent replication. Exact and compatible-template references and every law-specific result remain in the receipt.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: does changing the assumed finite law overturn the completed reading comparison? Outcome: **Narrows**. Result: the original ordering survives all seventeen declared coefficient assumptions. Project meaning: source-assumption sensitivity is distinguished from new empirical support. Next engineering obligation: carry the full sensitivity and unchanged correspondence into the original packet. Public claim: unchanged. Curator decision required: No. Detail: [sensitivity inspection](results/phase_2_4_stage_12/LAW_SENSITIVITY_INSPECTION.json).
+
+---
+
+### L428 - first complete supplied-answer execution cells
+
+**Hypothesis.** Explicitly executing a supplied answer is separable from inferring a prediction from the same answer or a sufficient state.
+
+**METHOD.** Fully replay seven complete fourteen-call blocks from the prospectively frozen twenty-history roster. Each retains both queries and all seven conditions; reparse all 98 raw replies and rerun the actual handler offline. Score fidelity to the deterministic three-decimal answer separately from probability loss against the unrounded finite reference. All assistance is labelled; both queries and conditions are paired within each exposed constructed history. The first history's cold-load failure is incomplete and excluded with its cost and prospective recovery retained. The wider roster remains unfinished.
+
+Each row covers fourteen queries from seven complete histories, with equal history weight. Probability error is expected half-Brier loss, lower is better. Exact copies match the supplied rounded vector; infinite logarithmic losses retain missing target support. Invalid probabilities receive maximum error penalties.
+
+| Condition | Valid / attempted | Probability error | Modal agreement | Exact copies | Infinite logarithmic losses |
+|---|---:|---:|---:|---:|---:|
+| Raw history | 14 / 14 | 0.261257 | 0.642857 | 0 | 7 |
+| Identical repeat | 14 / 14 | 0.261257 | 0.642857 | 0 | 7 |
+| Exact sufficient state | 11 / 14 | 0.841302 | 0.142857 | 0 | 14 |
+| Full bank, predict | 14 / 14 | 0.074303 | 1.000000 | 13 | 0 |
+| Full bank, copy | 14 / 14 | 0.074303 | 1.000000 | 14 | 0 |
+| Selected entry, predict | 14 / 14 | 0.190015 | 0.857143 | 12 | 0 |
+| Selected entry, copy | 14 / 14 | 0.074303 | 1.000000 | 14 | 0 |
+
+The unrounded exact floor is 0.074302837; the rounded-answer reference is 0.074302868. Three sufficient-state forecasts are invalid. All raw/repeat probability vectors match. Every history, reference and completed attempt is retained separately in the receipt.
+
+**Found.** Explicit copying executes every supplied answer in these complete cells, whereas prediction instructions can alter even a preselected answer. Supplying exact state still fails to ensure valid or accurate inference. Removing the other bank entry does not uniformly improve prediction.
+
+**Means.** Successful literal use of a privileged answer is a different achievement from recovering a maker or computing from sufficient state. These complete cells establish a bounded execution distinction; they do not close the wider roster, justify a general representation ranking or supply a human mechanism. No inference is drawn from the incomplete first block.
+
+**Curator roll-up.** Theory group: reconstruction and access. Question: can execution instructions separate use of supplied answers from prediction? Outcome: **Narrows**. Result: explicit copying preserves the supplied answers in the seven complete histories. Project meaning: answer access, literal execution and inference quality remain distinct. Next engineering obligation: finish and replay the frozen roster, retain the failed attempt and its bounded recovery, then report complete contrasts. Public claim: unchanged. Curator decision required: No. Detail: [first execution inspection](results/phase_2_4_stage_12/EXECUTION_FIRST_INSPECTION.json).
+
+---
+
+### OPS-S12-EXECUTION-COLD - first-block throughput stop and bounded recovery
+
+**Hypothesis.** The first block's throughput stop may reflect cold model loading rather than degraded generation alone.
+
+**METHOD.** Inspect the failed worker's native exit, raw response, complete timing record and unchanged matched-throughput decision. Replay the retained response offline and freeze one new whole-block attempt, requiring current-queue exit and exact model/context residency before dispatch. No old gate, score, attempt or cost changes.
+
+The table separates measured timing components and operational disposition.
+
+| Check | Observation |
+|---|---|
+| Client wall time | 11.712 seconds |
+| Recorded model load | 8.873 seconds |
+| Client time excluding reported load | 2.839 seconds |
+| Matched reference | 2.896 seconds; original guard fires |
+| First attempt | One response retained; whole history incomplete, native worker exited |
+| Recovery | One fourteen-call attempt frozen after the current queue, requiring verified warm residency |
+
+**Found.** Reported loading accounts for most of the observed delay. The non-load remainder is near the matched reference, and independent later blocks complete. This supports the specific warm-start recovery; it does not erase the original failed timing gate or diagnose all historical slowness.
+
+**Means.** Keep the current independent queue running. The new complete attempt is selected only if it completes under the same controls; another failure closes this unit as incomplete. No automatic second recovery, application stop, paid use or new fit is authorized.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: did cold loading explain the first throughput stop? Outcome: **Infrastructure**. Result: retained telemetry supports one warm-start recovery. Project meaning: launch capacity and warm throughput are separate checks. Next engineering obligation: verify current-queue exit and exact residency, run the frozen whole-unit recovery, then land both attempts. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_12/EXECUTION_COLD_START_INSPECTION.json), [recovery design](docs/design/STAGE12_EXECUTION_RECOVERY.md).
+
+---
+
+### OPS-S12-EXECUTION-SETUP - validated local successors and complete record audit
+
+**Hypothesis.** The next local comparisons can separate supplied-answer execution from inference and test source-law sensitivity without treating duplicate visible requests as independent support.
+
+**METHOD.** Verify all prior completed-job, source/input/output and failure bindings, native monitors, released locks and remaining original capacity. Review L426/L427's named successors and the native generator. Freeze twenty complete paired history blocks and a CPU reference-law consumer before new generation. Run known-answer fidelity failures, original-law/raw-response identity checks, all Stage 12 tests, actual preparation replay and all prospective GPU handlers twice through an explicitly fake offline transport. No new hypothesis was harvested from the operational request; these implement existing scoped successor obligations.
+
+The table describes preparation and validation; no unfinished scientific score is reported.
+
+| Item | Verified state |
+|---|---|
+| Prior records | All 66 completed jobs, 466 frozen source pins, 1,888 input checks and 594 output checks verify; 24 old failures unchanged |
+| Current capacity | Cold launch admission passes again; native watcher/checkpoint and original reporting reserves remain intact |
+| Preparation | Twenty source histories, seven conditions and two queries each; 280 requests frozen and the actual compiler replayed exactly |
+| Known-answer controls | Independent and sufficient-state references agree; nonconstant bank entries, wrong-entry refusal, invalid-vector refusal and rounded-answer fidelity pass |
+| CPU successor | All 144 old raw forecasts reproduce; original-law identity and changed-law support checks pass without model generation |
+| Tests and rehearsal | All 48 Stage 12 tests pass; all twenty actual GPU cards complete fake-transport reentry with no additional dispatch; 21 locks pass |
+| Queue | Twenty GPU cards plus one CPU card, frozen with 468 source pins and whole-plan budget admission |
+
+**Found.** The prior empty queue was normal completion, while successor review remained undone. Current GPU capacity permits the separately frozen continuation. The native generator keeps the same visible endpoint alphabet across coefficient draws; its appropriate next check is reference-assumption sensitivity of saved readings, not a claim of fresh artifact replication. The supplied-answer diagnostic preserves raw/repeat/state baselines and crosses full versus selected bank with copy versus prediction instructions.
+
+**Means.** Local continuation remains within the original commissioned week and Gear 2. No cloud retry, extra fit, altered admission threshold or old-result replacement is made. Every complete new cell still owes raw and full-handler replay plus internal scientific write-through. Interim and final reporting retain their original dates; the four-hour health deadline is unchanged by this user-requested inspection.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: can the remaining local distinctions run under the original bounds with trustworthy records? Outcome: **Infrastructure**. Result: a validated successor queue is frozen with all 48 Stage 12 tests passing. Project meaning: the completed roster is preserved while local work resumes on explicit distinctions. Next engineering obligation: land each complete cell and assemble the original review packets. Public claim: unchanged. Curator decision required: No for local work. Detail: [prospective design](docs/design/STAGE12_EXECUTION_SUCCESSORS.md), [preparation receipt](results/phase_2_4_stage_12/EXECUTION_PREPARATION_20260923.json), [record inspection](results/phase_2_4_stage_12/CONTINUATION_PRECHECK_20260923.json).
+
+---
+
+### OPS-S12-HEALTH-1400 - completed queue intact; GPU capacity below admission
+
+**Hypothesis.** Completed work remains intact, with no stalled owner or new failure; current GPU availability is a separate launch condition.
+
+**METHOD.** Check native process identities and monitor freshness, every completed-job manifest/input/output binding, frozen source pins, retained failures, kernel and GPU locks, original charges and reporting reserves. Inspect the submitted roster and current TODO admissions, and verify actual health-event delivery. No tests were harvested from this operational wake; unchanged scientific tests were not rerun.
+
+This table records operational checks, not scientific scores.
+
+| Check | Verified outcome |
+|---|---|
+| Completed records | All 66 complete-job records retain their bindings and public receipt references |
+| Frozen material | 466 source pins, 1,888 input checks and 594 output checks pass |
+| Failures and output freshness | No new terminal; all 24 historical failure records unchanged |
+| Execution and locks | Completed workers and coordinator exited; kernel locks available; GPU/native queue locks absent |
+| Resource admission | 7,141 MiB GPU memory free, below the 7,768 MiB cold-start requirement; approximately 53 GiB host RAM available |
+| Monitoring | Native watcher/helper identities, loaded watcher source and fresh checkpoint output verify; first-attempt health delivery |
+| Original limits | Scientific charges unchanged and reporting reserves intact; checkpoint CPU accrual and inspection allowance retained |
+
+**Found.** The submitted queue is complete, with no stalled worker or runnable submitted card. Available GPU memory increased since the preceding inspection but remains below cold-start admission. No recovery, application stop or scientific dispatch was needed; the earlier unresolved notification failure remains visible.
+
+**Means.** Gear 2 remains authorized. Scoped successor review and original interim/final reporting remain operator work, independent of current GPU capacity; a future admitted GPU card requires a fresh resource check. No paid-main retry, additional shared fit or new scientific admission follows from this health wake.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: are the completed queue, records and monitors intact? Outcome: **Infrastructure**. Result: all 66 completed records verify, with no new failure. Project meaning: normal completion remains distinct from available launch capacity and scientific admission. Next engineering obligation: scoped successor review and original reporting, retaining four-hour inspection. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260923_1400.json).
+
+---
+
+### OPS-S12-HEALTH-0955 - completed records intact; cold GPU admission unavailable
+
+**Hypothesis.** The empty submitted queue remains a normal completion, while current resource availability and monitoring can change independently.
+
+**METHOD.** Recheck native owners and fresh monitor/checkpoint output, all completed-job manifest/input/output bindings, historical failure hashes, kernel/GPU locks, original resource charges and remaining capacity. Inspect actual GPU free/reserved readings and current process evidence without stopping applications. Review the existing plan and TODO for submitted runnable work. No tests were harvested and no scientific request was dispatched.
+
+This table reports operational conditions, not scientific scores.
+
+| Check | Verified outcome |
+|---|---|
+| Complete records | All 66 completed jobs retain their bindings and receipt references |
+| Source/input/output checks | 466 source pins, 1,888 input checks and 594 output checks pass |
+| Failure and freshness inventory | No new terminal; all 24 historical failure records unchanged |
+| Native execution and locks | Submitted queue complete, workers absent, kernel locks available and GPU/native queue locks absent |
+| Current GPU admission | 2,676 MiB free against a 7,768 MiB cold-start requirement; no matching resident model |
+| Host and budget | Approximately 60 GiB host RAM available; original reporting reserves intact |
+| Monitoring and delivery | Native watcher/helper identities and fresh output verify; health notice delivered on its first attempt |
+
+**Found.** No scientific worker is stalled and no submitted card is runnable. Current cold-start GPU admission fails. Other active graphics use is visible, but Windows per-process counters are not safely additive and some process identities are inaccessible; the actual whole-card reading remains the admission criterion. No application was stopped and no threshold changed. Scientific charges remain unchanged; checkpoint CPU accrual and the conservative inspection allowance are retained.
+
+**Means.** Normal queue completion does not imply present launch capacity. The next admitted GPU card needs a fresh readiness check; this wake supplies no reason to restart completed work or interfere with current applications. Scoped successor review and existing-evidence reporting remain available independently. Paid-main and shared-fit constraints, Gear 2 authorization and the original interim/final schedule remain unchanged.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: are completed records and monitoring intact, and could a new local worker start now? Outcome: **Infrastructure**. Result: completed records verify while cold GPU admission is unavailable. Project meaning: separate completed work from current capacity. Next engineering obligation: scoped successor review, original reporting and fresh admission before any future GPU dispatch. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260923_0955.json).
+
+---
+
 ### OPS-S12-HEALTH-0550 - completed queue and monitoring remain intact
 
 **Hypothesis.** The empty submitted queue reflects completed work, with intact records and functioning monitoring, rather than a stalled worker or resource failure.
