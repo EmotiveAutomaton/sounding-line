@@ -17,6 +17,15 @@ from runners.stage9.process_identity import native_identity
 from tools.codex_common import singleton
 
 def handler(name):
+    if name=='casebook':
+        from .casebook import run
+        return run
+    if name=='local-operator-compile':
+        from .local_operator import compile
+        return compile
+    if name in ('retention-access-compile','retention-access-run'):
+        from . import retention_access
+        return retention_access.compile if name.endswith('compile') else retention_access.run
     if name=='local-capacity-wait':
         from .capacity_wait import run
         return run

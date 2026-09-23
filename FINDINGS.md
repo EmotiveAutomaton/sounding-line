@@ -5,7 +5,34 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-22.**
+**Last updated: 2026-09-23.**
+
+---
+
+### OPS-S12-SCOPED-SETUP - complete records and informative local successors
+
+**Hypothesis.** The existing results can be reconciled into source-bound cases, and the next local comparisons can test witnessed edits and compression versus access without changing old outcomes or exceeding the commissioned week.
+
+**METHOD.** Inspect native monitors, output freshness, failures, locks, actual RAM/GPU headroom, budgets and watcher delivery. Verify every existing Stage 12 job completion against its manifest and outputs; reparse all completed local calls from raw replies with network dispatch forbidden. Execute three prospectively frozen CPU cards through the native queue, then reproduce each actual handler offline. Rehearse every new model-request slot with a deterministic test double, including handler reentry and complete rival coverage. This is infrastructure validation, not model-performance evidence.
+
+Each row identifies a distinct validation obligation. Counts refer to retained records or checks, not independent scientific observations.
+
+| Obligation | Complete check and scope |
+|---|---|
+| Existing results | Fifty completion records and 451 bound output checks pass; 388 completed local calls reparse identically. Existing failed gates and incomplete attempts retain their original status and costs |
+| Record reconciliation | Forty-eight jobs already match named public receipts. Two completed resource waiters were covered by earlier operational landings but lacked direct job-level receipt links; the new completion registry closes that indexing gap |
+| Provider cases | All 110 deterministically included cases package their original source, anchors, claim classes, bound metrics, unknown targets and next discriminators; all six required evidence roles are represented |
+| Cheap control | The entire controlled Git extraction/unknown roster is included, with whole-file location scope and no invented location for a deleted endpoint. Human packet-zero controls and all complete local provider packets remain separate |
+| Informative operations | Unchanged frozen Ghost source yields eight distinct endpoint paths, balanced across four witnessed first-operation types, with three evidence views and every direct/account forward/reverse rival. Exact reference normalization and known located edits pass |
+| Compression and access | Four separate exposed development histories retain exact sufficient-posterior equivalence and an independently computed reference at both queries; acquisition, repeated request and all seven evaluation conditions are accounted for |
+| Validation and execution | All 45 tests pass; all 212 prospective request slots execute and reenter in the offline rehearsal without extra calls. The three real CPU preparation cards complete, replay and exit normally |
+| Health | Hardware was available and no scientific worker remained. The health inspection was delivered but handled late; no claim of uninterrupted four-hour attention. Its documented ACK rearms September 23 at 12:48:33 UTC /05:48:33 PDT |
+
+**Found.** Existing records verify, the case bundle is assembled, and both prospective comparisons pass their preparation and replay controls. The prior idle queue reflected unfinished setup, not insufficient GPU capacity. No new scientific result or capability admission follows from this validation.
+
+**Means.** Twelve balanced local GPU cards can now be frozen and admitted within the original allowance, with reporting reserves intact. The new operation sample is descriptive within one constructed source law; retention histories are exposed development data. The failed cloud pilot does not admit its main run, and no additional tiny fit is authorized. Earlier raw failures remain. No tests were harvested from a new scientific suggestion this pass; these implement the existing brief and previously recorded successors.
+
+**Curator roll-up.** Theory group: source-bound interpretation instruments. Question: are the results preserved and useful next tests executable? Outcome: **Infrastructure**. Result: complete preparation and replay support the next bounded local comparisons. Project meaning: execution can resume with explicit evidence roles and access controls. Next engineering obligation: run the frozen complete cells, replay and write each through before ACK, then include them in the original final packet. Public claim: unchanged. Curator decision required: No. Detail: [preparation inspection](results/phase_2_4_stage_12/SCOPED_PREPARATION_INSPECTION.json), [complete-record registry](results/phase_2_4_stage_12/COMPLETION_REGISTRY_20260923.json), [prospective design](docs/design/STAGE12_SCOPED_SUCCESSORS.md).
 
 ---
 

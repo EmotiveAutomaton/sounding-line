@@ -12,6 +12,18 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-SCOPED-SETUP: all fifty existing completions pass manifest/output binding
+and all 388 completed local calls reparse from raw replies. Two previously landed
+resource waiters now have direct registry entries. The casebook packages 110
+source-bound cases and all six required evidence roles, retaining invalid metrics
+as unavailable and whole-file scope for Git extraction. Three CPU preparation
+handlers execute and replay identically. All 45 validation tests pass, including
+the full 212-slot offline rehearsal, repeat-request identity, exact sufficient
+posterior equivalence, known located edits and source-change refusal. New
+operator/access modules use the existing admitted reader and frozen Ghost law;
+they confer no scientific admission. See SCOPED_PREPARATION_INSPECTION.json and
+the prospectively filed STAGE12_SCOPED_SUCCESSORS.md. Earlier scores remain intact.
+
 OPS-S12-HOST-RECOVERY: both explicitly approved application identities exited;
 host RAM recovered and repeated readiness passed. All six untouched blocks and
 138 calls complete with required telemetry, and every handler replays offline.

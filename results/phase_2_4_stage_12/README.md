@@ -4,18 +4,20 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current execution: both explicitly approved applications have exited; host RAM
-and GPU readiness recovered. All three submitted local queues completed normally:
-15 blocks and 270 new requests, including the four bounded recovery attempts.
-Every handler replays offline and all complete results are internally landed in
-L416–L421. There is no scientific GPU worker or unresolved GPU lock. Gear 2
-allocation remains unchanged; a completed finite queue is not a resource failure.
-All 42 validation tests, 21 original locks and theory lint pass. Earlier eleven
-responses, telemetry failures and charges remain. No historical timeout cause
-is inferred from this successful intervention. The original week remains open:
-provider/case packet assembly and a named new operation/provenance or compression-
-access distinction are next; none licenses an automatic cloud retry or extra fit.
-See LOCAL_RECOVERY_CLOSURE.json and the complete scientific receipts.
+Current execution, September 23: Gear 2 is running the first of twelve newly
+frozen balanced blocks, up to 212 requests. The two questions concern witnessed
+operations with checkable locations, and compression loss versus access to exact
+or learned representations. The native queue/worker and fresh resource admission
+verify. Three CPU preparation cards complete and replay, including the 110-case
+source-bound provider bundle. All fifty prior completion records verify against
+their manifests and outputs, and all 388 completed local calls reparse from raw
+responses. All 45 tests, 21 locks and theory lint pass. Earlier incomplete
+attempts, failed gates and charges remain unchanged. New cells require full
+internal landing before ACK; no interim scientific scores are reported.
+SCOPED_PREPARATION_INSPECTION.json, COMPLETION_REGISTRY_20260923.json and
+SCOPED_QUEUE_INSPECTION.json retain evidence. The prospective design is
+docs/design/STAGE12_SCOPED_SUCCESSORS.md. No cloud retry or additional tiny fit
+follows. Original limits, four-hour health and the final packet remain binding.
 
 [Host recovery](HOST_RECOVERY_INSPECTION.json), [second Git block](GIT_SECOND_INSPECTION.json),
 [complete ARIES screen](ARIES_COMPLETE_INSPECTION.json), [retention](RETENTION_COMPLETE_INSPECTION.json)
