@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-0550 - completed queue and monitoring remain intact
+
+**Hypothesis.** The empty submitted queue reflects completed work, with intact records and functioning monitoring, rather than a stalled worker or resource failure.
+
+**METHOD.** Inspect native coordinator, worker, watcher and checkpoint identities; compare terminal, source, input and output bindings; inventory failures and pending deliveries; test kernel/GPU lock availability; measure current resource admission and remaining original capacity. Review current TODO admissions and the frozen plan. No tests were harvested from this operational wake, and unchanged runner tests were not repeated.
+
+The table reports operational verification, not scientific outcomes.
+
+| Check | Verified outcome |
+|---|---|
+| Completed records | All 66 complete jobs retain manifest/output bindings and public receipt references |
+| Frozen material | 466 source pins, 1,888 input checks and 594 output checks pass |
+| Failures and freshness | No new terminals; all 24 historical failure records unchanged |
+| Native execution and locks | Completed queue and workers exited; kernel locks available, GPU/native queue locks absent |
+| Resources | Admission ready; approximately 65 GiB host RAM available; original reporting reserves preserved |
+| Delivery and monitoring | Watcher source and native identity match; checkpoint heartbeat fresh; health event delivered on its first attempt |
+
+**Found.** No queue recovery is needed. Only the persistent watcher and original checkpoint helper remain, alongside their launcher; the inspection's temporary process is separately identified. Scientific GPU and supporting CPU charges have not changed since completion. The checkpoint's small CPU accrual and a conservative inspection allowance are retained. The old unresolved delivery failure remains visible and is not retried.
+
+**Means.** Gear 2 remains authorized, but no submitted scientific card is runnable. Scoped successor review and interim/final packet preparation remain authorized work; completed cards must not be rerun to occupy the machine. The failed paid-main condition and unadmitted joint composition remain separate constraints. Acknowledging this documented health inspection rearms the independent four-hour check.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: is the completed queue intact and ready for its next authorized step? Outcome: **Infrastructure**. Result: all 66 completed job records retain their bindings. Project meaning: normal completion, monitoring and resource capacity are verified separately from scientific admission. Next engineering obligation: scoped successor review and original week reporting, with recurring health inspection. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260923_0550.json).
+
+---
+
 ### OPS-S12-SCOPED-CLOSE - complete frozen queue and provider refresh
 
 **Hypothesis.** All complete successor outputs can be preserved in a source-bound reporting bundle without changing earlier cases or claiming that the week is finished.

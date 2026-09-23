@@ -22,7 +22,9 @@ docs/design/STAGE12_SCOPED_SUCCESSORS.md. A separately frozen local successor
 requires scientific review; no automatic cloud retry or additional tiny fit.
 The original week remains open for scoped review and its interim/final packet.
 Watcher and checkpoint identities verify, and the next four-hour health check
-remains September 23 at 12:48:33 UTC /05:48:33 PDT. Result ACKs do not defer it.
+is September 23 at 16:53:40 UTC /09:53:40 PDT after the documented health ACK.
+The current health receipt verifies all 66 complete job records and no new
+failures: HEALTH_20260923_0550.json. Result ACKs do not defer the health clock.
 
 [Host recovery](HOST_RECOVERY_INSPECTION.json), [second Git block](GIT_SECOND_INSPECTION.json),
 [complete ARIES screen](ARIES_COMPLETE_INSPECTION.json), [retention](RETENTION_COMPLETE_INSPECTION.json)

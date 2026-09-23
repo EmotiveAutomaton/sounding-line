@@ -20,7 +20,9 @@ docs/design/STAGE12_SCOPED_SUCCESSORS.md. A separately frozen local successor
 requires scientific review; no automatic cloud retry or additional tiny fit.
 The original week remains open for scoped review and its interim/final packet.
 Watcher and checkpoint identities verify, and the next four-hour health check
-remains September 23 at 12:48:33 UTC /05:48:33 PDT. Result ACKs do not defer it.
+is September 23 at 16:53:40 UTC /09:53:40 PDT after the documented health ACK.
+The current health receipt verifies all 66 complete job records and no new
+failures: HEALTH_20260923_0550.json. Result ACKs do not defer the health clock.
 
 [Inspection](results/phase_2_4_stage_12/HOST_RECOVERY_INSPECTION.json).
 
@@ -33,9 +35,9 @@ failure. [Pilot inspection](results/phase_2_4_stage_12/CLOUD_PILOT_INSPECTION.js
 
 The original checkpoint helper and four-hour watcher are active. Next health
 inspection is four hours after the current inspection ACK; the exact deadline
-is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260922_0230_ACK.json).
+is in its [follow-up receipt](results/phase_2_4_stage_12/HEALTH_20260923_0550_ACK.json).
 The prior system-memory blocker is resolved by the explicitly approved application
-stops. The next health inspection is September 23 at 12:48:33 UTC /05:48:33 PDT.
+stops. The next health inspection is September 23 at 16:53:40 UTC /09:53:40 PDT.
 Result ACKs do not reset it. Interim is September 25 at 13:17 UTC and final September 28 at 13:17 UTC,
 with the last twelve hours protected. Gear 2 authorization and all stage ceilings
 remain. The theory errata is applied and both

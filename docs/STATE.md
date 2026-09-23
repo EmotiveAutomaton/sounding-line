@@ -20,7 +20,9 @@ docs/design/STAGE12_SCOPED_SUCCESSORS.md. A separately frozen local successor
 requires scientific review; no automatic cloud retry or additional tiny fit.
 The original week remains open for scoped review and its interim/final packet.
 Watcher and checkpoint identities verify, and the next four-hour health check
-remains September 23 at 12:48:33 UTC /05:48:33 PDT. Result ACKs do not defer it.
+is September 23 at 16:53:40 UTC /09:53:40 PDT after the documented health ACK.
+The current health receipt verifies all 66 complete job records and no new
+failures: HEALTH_20260923_0550.json. Result ACKs do not defer the health clock.
 First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
 their small descriptive contrasts establish neither general correction nor
 reliable supplied-bank integration. Original canary admission remains valid.
@@ -42,8 +44,8 @@ all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
 The local queue has no cloud prerequisite. The next four-hour health inspection
-is September 23 at 12:48:33 UTC /05:48:33 PDT, as retained in the scoped queue
-inspection. Result ACKs and delayed-notice reconciliation do not reset it.
+is September 23 at 16:53:40 UTC /09:53:40 PDT, as retained in HEALTH_20260923_0550_ACK.json.
+Result ACKs and delayed-notice reconciliation do not reset it.
 The September 22 host intervention resolved the earlier RAM and application
 blockers. Checkpoint and watcher ownership remain. Following setup snapshots
 preserve their chronology; the current successor status is above.

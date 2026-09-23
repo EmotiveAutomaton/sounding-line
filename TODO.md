@@ -2,6 +2,7 @@
 
 ## Stage 12 week - commissioned September 21
 
+- [x] OPS-S12-HEALTH-0550: inspect all complete records, actual native identities, output freshness, preserved failures, locks, original resource limits, authorized next work and watcher delivery. No recovery or scientific dispatch; scoped review and reporting remain open. ACK rearms four-hour health.
 - [x] OPS-S12-SCOPED-SETUP: reconcile fifty complete records, replay all 388 completed local calls, assemble and replay the 110-case provider bundle, and execute/replay both source matrices. All 45 tests and the full 212-slot offline rehearsal pass; original records and claim limits remain.
 - [x] L422/L423: fully replay and internally land the first two complete witnessed-edit blocks and first complete compression/access history, retaining all rivals, known-answer controls, assistance scope and costs. Delayed preparation notices reconcile with their earlier full landing and ACKs; no rerun.
 - [x] L424/L425: replay and internally land four further complete operation paths and the second access history, all 89 calls and rivals intact. Preserve the invalid probability response and loss penalty; no interface repair or retry. The final two operation paths and final two access histories retain their separate landing obligation.

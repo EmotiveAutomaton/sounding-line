@@ -12,6 +12,13 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-0550: all 66 complete-job manifest/output bindings and public
+receipt references verify, with 466 source pins and all historical failures
+unchanged. Native normal exit, available locks, fresh resource admission and
+original reporting reserves pass. Watcher loaded source, checkpoint identity,
+fresh heartbeat and first-attempt health delivery verify. No runner/scorer
+change or repeated scientific dispatch; the prior 45-test pass remains applicable.
+
 OPS-S12-SCOPED-CLOSE: the separately frozen casebook refresh runs and reproduces
 exactly through the unchanged handler. All 254 cases have unique source-bound
 identities; the earlier 110 records are unchanged and all 144 complete operation
