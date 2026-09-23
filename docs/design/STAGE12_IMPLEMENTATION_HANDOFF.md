@@ -29,7 +29,7 @@ week-v4 and local-repair-v1 plans remain historical and must not be relaunched.
 The earlier repair changed telemetry/timeouts only. The curator's September 21
 correction renews independent local execution; the [bounded interface diagnosis](STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md)
 preserves the full canary and unchanged gate. Its complete canary is admitted.
-Current execution, September 23: Gear 2 is running the first of twelve newly
+Current execution, September 23: Gear 2 is progressing through the twelve
 frozen balanced blocks, up to 212 requests. The two questions concern witnessed
 operations with checkable locations, and compression loss versus access to exact
 or learned representations. The native queue/worker and fresh resource admission
@@ -43,6 +43,11 @@ SCOPED_PREPARATION_INSPECTION.json, COMPLETION_REGISTRY_20260923.json and
 SCOPED_QUEUE_INSPECTION.json retain evidence. The prospective design is
 docs/design/STAGE12_SCOPED_SUCCESSORS.md. No cloud retry or additional tiny fit
 follows. Original limits, four-hour health and the final packet remain binding.
+The first two complete operation blocks and first complete access history have
+been fully replayed and internally landed in L422/L423, with all 53 calls and
+all rivals retained. Their receipts are OPERATOR_FIRST_INSPECTION.json and
+ACCESS_FIRST_INSPECTION.json. The wider frozen families remain open; later
+terminal events require their own write-through before ACK.
 
 The [local breadth](STAGE12_LOCAL_BREADTH.md) and [fixture recovery](STAGE12_LOCAL_TELEMETRY_RECOVERY.md) both completed. Preserve their frozen sources and all unstarted predecessors; do not relaunch them to fill time.
 

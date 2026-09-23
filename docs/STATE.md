@@ -2,7 +2,7 @@
 
 ## Stage 12 week commissioned - September 21
 
-Current execution, September 23: Gear 2 is running the first of twelve newly
+Current execution, September 23: Gear 2 is progressing through the twelve
 frozen balanced blocks, up to 212 requests. The two questions concern witnessed
 operations with checkable locations, and compression loss versus access to exact
 or learned representations. The native queue/worker and fresh resource admission
@@ -16,6 +16,11 @@ SCOPED_PREPARATION_INSPECTION.json, COMPLETION_REGISTRY_20260923.json and
 SCOPED_QUEUE_INSPECTION.json retain evidence. The prospective design is
 docs/design/STAGE12_SCOPED_SUCCESSORS.md. No cloud retry or additional tiny fit
 follows. Original limits, four-hour health and the final packet remain binding.
+The first two complete operation blocks and first complete access history have
+been fully replayed and internally landed in L422/L423, with all 53 calls and
+all rivals retained. Their receipts are OPERATOR_FIRST_INSPECTION.json and
+ACCESS_FIRST_INSPECTION.json. The wider frozen families remain open; later
+terminal events require their own write-through before ACK.
 First complete C1/C2 and C3 blocks are replayed and internally landed in L412/L413;
 their small descriptive contrasts establish neither general correction nor
 reliable supplied-bank integration. Original canary admission remains valid.
@@ -36,13 +41,12 @@ task have stopped. Retain the full $3 reservation, original failed output and
 all 159 unstarted main requests. A revised paid recovery needs a concrete new
 plan and per-use approval. See CLOUD_PILOT_INSPECTION.json; this is instrument
 failure, not evidence about the scientific human-history hypothesis.
-The local queue has no cloud prerequisite. Next health inspection remains
-four hours after the documented inspection ACK; HEALTH_20260922_0230_ACK.json
-records its exact deadline. Ordinary completion ACKs do not change it.
-The September 22 host intervention resolves the earlier RAM and application-approval
-blockers. Checkpoint and watcher ownership remain; the next four-hour health check
-is September 22 at 13:37:40 UTC /06:37:40 PDT. Ordinary result ACKs do not defer it.
-The following setup snapshots preserve their chronology; this paragraph is current.
+The local queue has no cloud prerequisite. The next four-hour health inspection
+is September 23 at 12:48:33 UTC /05:48:33 PDT, as retained in the scoped queue
+inspection. Result ACKs and delayed-notice reconciliation do not reset it.
+The September 22 host intervention resolved the earlier RAM and application
+blockers. Checkpoint and watcher ownership remain. Following setup snapshots
+preserve their chronology; the current successor status is above.
 
 Latest: curator approved the concrete $20 Modal/Qwen 27B tree on September 21:
 $3 twelve-request pilot, $16 for the remaining 159 requests only after pilot

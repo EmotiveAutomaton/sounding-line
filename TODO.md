@@ -3,6 +3,7 @@
 ## Stage 12 week - commissioned September 21
 
 - [x] OPS-S12-SCOPED-SETUP: reconcile fifty complete records, replay all 388 completed local calls, assemble and replay the 110-case provider bundle, and execute/replay both source matrices. All 45 tests and the full 212-slot offline rehearsal pass; original records and claim limits remain.
+- [x] L422/L423: fully replay and internally land the first two complete witnessed-edit blocks and first complete compression/access history, retaining all rivals, known-answer controls, assistance scope and costs. Delayed preparation notices reconcile with their earlier full landing and ACKs; no rerun.
 - [ ] S12 witnessed-operation successor: execute eight complete three-view direct/account blocks, preserving source-law/template/recorded-edit references and all failures. Within-one-law descriptive comparison; full internal write-through before ACK.
 - [ ] S12 compression/access successor: execute four complete histories with all seven conditions and charged acquisition. Exact assistance and exposed development scope explicit; full internal write-through before ACK.
 - [ ] S12 final case refresh: after complete successor landings, append all their complete source-bound packets under a separately frozen roster; retain current cases and incomplete-attempt visibility. Original interim/final packet and ceilings remain.

@@ -12,6 +12,14 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L422/L423: the first three complete successor blocks and all 53 calls reparse
+and reproduce through their actual handlers with network dispatch forbidden.
+Every source, manifest, output, response receipt and provider packet binds.
+The witnessed-edit controls have real checkable locations; exact state and
+full-history references agree in the access diagnostic. All rivals, acquisition
+costs and invalid-output rules remain. No runner, reader gate or scorer changed.
+Delayed preparation notices match their earlier complete landing and ACKs.
+
 OPS-S12-SCOPED-SETUP: all fifty existing completions pass manifest/output binding
 and all 388 completed local calls reparse from raw replies. Two previously landed
 resource waiters now have direct registry entries. The casebook packages 110

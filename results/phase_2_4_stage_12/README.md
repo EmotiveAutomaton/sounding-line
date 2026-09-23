@@ -4,7 +4,7 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current execution, September 23: Gear 2 is running the first of twelve newly
+Current execution, September 23: Gear 2 is progressing through the twelve
 frozen balanced blocks, up to 212 requests. The two questions concern witnessed
 operations with checkable locations, and compression loss versus access to exact
 or learned representations. The native queue/worker and fresh resource admission
@@ -18,6 +18,11 @@ SCOPED_PREPARATION_INSPECTION.json, COMPLETION_REGISTRY_20260923.json and
 SCOPED_QUEUE_INSPECTION.json retain evidence. The prospective design is
 docs/design/STAGE12_SCOPED_SUCCESSORS.md. No cloud retry or additional tiny fit
 follows. Original limits, four-hour health and the final packet remain binding.
+The first two complete operation blocks and first complete access history have
+been fully replayed and internally landed in L422/L423, with all 53 calls and
+all rivals retained. Their receipts are OPERATOR_FIRST_INSPECTION.json and
+ACCESS_FIRST_INSPECTION.json. The wider frozen families remain open; later
+terminal events require their own write-through before ACK.
 
 [Host recovery](HOST_RECOVERY_INSPECTION.json), [second Git block](GIT_SECOND_INSPECTION.json),
 [complete ARIES screen](ARIES_COMPLETE_INSPECTION.json), [retention](RETENTION_COMPLETE_INSPECTION.json)
