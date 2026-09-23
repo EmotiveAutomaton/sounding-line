@@ -9,6 +9,141 @@ ran it.
 
 ---
 
+### OPS-S12-SCOPED-CLOSE - complete frozen queue and provider refresh
+
+**Hypothesis.** All complete successor outputs can be preserved in a source-bound reporting bundle without changing earlier cases or claiming that the week is finished.
+
+**METHOD.** Verify the native coordinator and every worker have exited, inspect all twelve terminal records and the normal queue exit, and replay the separately frozen CPU casebook handler. Compare the original cases byte-semantically, validate every source/output/anchor binding and retain access forecasts as separate companions. Inspect the GPU and kernel locks, resource admission, loaded watcher sources, checkpoint identity and unchanged health deadline. No tests were harvested from this operational wake.
+
+The table reports operational completion and preservation checks, not scientific scores.
+
+| Check | Verified outcome |
+|---|---|
+| Frozen generation roster | Twelve complete blocks; all 212 calls and handlers replayed, L422-L427 |
+| Casebook | 254 unique cases, including all 110 earlier cases unchanged and every 144 new operation reading |
+| Access companions | Four complete forecast histories; no passage claims invented |
+| Controls and failures | All required case roles and known-answer controls pass; invalid readings and earlier failed attempts retained |
+| Queue and resources | Native normal exit, no new failed job, released kernel/GPU locks, fresh resource admission |
+| Monitoring | Same live watcher and original checkpoint helper; four-hour deadline unchanged |
+
+**Found.** The frozen roster is complete and the casebook replays exactly. The queue stopped because its cards completed. Only its verified exited process watch was retired; terminal paths, delivery evidence, other watches and the original reporting schedule remain. The old unresolved delivery failure is retained, not retried or presented as new. No reader interface, scorer, gate, paid allocation or fit changed.
+
+**Means.** Gear 2 remains authorized but no scientific worker remains in this completed roster. Further local generation needs the scoped successor review and a new frozen manifest, not a blind rerun. The capable-reader main condition remains unmet and joint neural composition remains unadmitted. The week stays open for its original interim/final packets and review obligations; completion of this roster does not close the commission.
+
+**Curator roll-up.** Theory group: evidence infrastructure. Question: are complete results preserved and ready for the next reporting step? Outcome: **Infrastructure**. Result: the source-bound bundle contains 254 retained cases. Project meaning: usable records and queue completion are verified separately from scientific admission. Next engineering obligation: scoped successor review and original interim/final reporting. Public claim: unchanged. Curator decision required: No. Detail: [queue inspection](results/phase_2_4_stage_12/SCOPED_COMPLETE_STATUS.json), [casebook inspection](results/phase_2_4_stage_12/CASEBOOK_COMPLETE_INSPECTION.json).
+
+---
+
+### L427 - complete compression and access comparison
+
+**Hypothesis.** Learned representations preserve useful prediction; exact state and exact answers distinguish missing information from failure to use supplied information.
+
+**METHOD.** Complete and replay the last two 17-call blocks, then combine all four prospectively frozen exposed development histories. Every history retains account acquisition, two bank acquisitions and both queries under all seven conditions. Reparse all raw responses and reproduce the actual handlers offline; exact sufficiency and independent enumeration remain checked. The two queries and conditions are paired within each history. This closes the declared diagnostic, not a fresh population confirmation or an internal-state experiment. Earlier partial-family landings L423/L425 remain intact.
+
+Each row covers eight queries on four histories with equal history weights. Expected half-Brier loss measures probability error, lower is better. Modal agreement compares the most probable action with the exact reference. Invalid probabilities receive the maximum error penalty; infinite logarithmic losses retain missing target support. The twelve acquisition calls are additional to the fifty-six evaluations and all are charged.
+
+| Representation | Valid / attempted | Probability error | Modal agreement | Infinite logarithmic losses |
+|---|---:|---:|---:|---:|
+| Raw history | 8 / 8 | 0.227814 | 0.750 | 4 |
+| Identical repeat | 8 / 8 | 0.227814 | 0.750 | 4 |
+| Last four observations | 8 / 8 | 0.269687 | 0.625 | 4 |
+| Exact sufficient posterior | 5 / 8 | 0.859776 | 0.125 | 8 |
+| Exact query-answer bank | 8 / 8 | 0.175098 | 0.875 | 0 |
+| Learned account | 8 / 8 | 0.496232 | 0.250 | 4 |
+| Learned query-answer bank | 8 / 8 | 0.227814 | 0.750 | 4 |
+
+The exact-program floor is 0.073848 and uniform loss is 0.375000. Three late exact-state forecasts contain invalid finite probabilities; their raw bytes, penalties, denominators and costs remain. Acquisition succeeds in every block. Both banks see query identities; only the exact bank receives computed answers. Identical-repeat requests and probability vectors match exactly. Per-history contrasts and separate learned-bank acquisition scores are retained in the receipt.
+
+**Found.** Exact answers improve the aggregate comparison but do not guarantee correct use: the final history's exact-bank loss is 0.476250 against a 0.071250 reference floor and 0.243750 raw-history loss. Thus the early near-floor result does not hold across the frozen roster. Sufficient state is used poorly, including invalid forecasts. The learned account loses to raw history on every history; the learned bank matches raw-history evaluation loss. Truncation gains on some histories and loses on others.
+
+**Means.** Information sufficiency, access to answers and successful use are separate. Privileged assistance can help without proving reconstruction; even supplied answers can be misused. The complete exposed diagnostic licenses no general representation ranking, persistent neural state, cost-efficiency result or human mechanism. The next distinction is explicit query-entry execution versus inference from supplied state, with all assistance labelled; no new generation branch or retry follows automatically.
+
+**Curator roll-up.** Theory group: reconstruction and access. Question: does a retained representation preserve useful prediction when information and access are separated? Outcome: **Narrows**. Result: complete support retains a learned-account loss and shows that even exact answers can be misused. Project meaning: supplied information is not successful reconstruction. Next engineering obligation: preserve each history and loss tuple in the reporting bundle; any execution diagnostic requires a separately frozen review. Public claim: unchanged. Curator decision required: No. Detail: [complete access inspection](results/phase_2_4_stage_12/ACCESS_COMPLETE_INSPECTION.json).
+
+---
+
+### L426 - complete witnessed-operation comparison
+
+**Hypothesis.** Coherent accounts improve goal/process inference and correctly located recovery without substituting unsupported mental observations for witnessed evidence.
+
+**METHOD.** Complete and replay the last two 18-call blocks, then close the eight prospectively selected paths from one unchanged Ghost finite law. All three evidence views and six question/method conditions remain paired. Reparse all 144 calls and reproduce every actual handler, provider packet and reference binding offline. Retain exact source-law, compatible-template, uniform and recorded-change controls. Eight content paths are not independent source laws or human observations. Earlier landings L422/L424 remain separately preserved.
+
+Each row covers twenty-four paired path/view observations. Oracle-family and compatible-template expected half-Brier losses are probability errors against different references, lower within each target. Twenty-four witnessed events include sixteen checkable locations. Counts concern actual event/location correspondence, not hidden attention. Invalid forecasts retain the maximum error penalty; infinite logarithmic losses retain missing support.
+
+| Question | Reader | Valid / attempted | Oracle-family loss | Template loss | Witnessed / eligible | Located | Unsupported mental assertions | Infinite logarithmic losses |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Infer local goal | Direct | 24 / 24 | 0.386273 | 0.393723 | 0 / 24 | 0 | 10 | 0 |
+| Infer local goal | Coherent account | 24 / 24 | 0.477862 | 0.487445 | 0 / 24 | 0 | 13 | 1 |
+| Infer operation | Direct | 23 / 24 | 0.744063 | 0.772912 | 13 / 24 | 7 | 12 | 14 |
+| Infer operation | Coherent account | 24 / 24 | 0.685071 | 0.715843 | 8 / 24 | 4 | 21 | 10 |
+| Predict operation with goal supplied | Direct | 24 / 24 | 0.710196 | 0.741446 | 9 / 24 | 6 | 29 | 10 |
+| Predict operation with goal supplied | Coherent account | 24 / 24 | 0.654510 | 0.663769 | 6 / 24 | 3 | 43 | 9 |
+
+Uniform losses are 0.333333 for goals and 0.416667 for operations. Exact source-law floors are 0.208287, 0.250866 and 0.159862 for goal, reverse operation and supplied-goal operation. Recorded-change extraction recovers all twenty-four witnessed events and sixteen locations without mental assertions. Direct/account reverse-operation readings contain nine/five unsupported observed operations and eleven/six contradictions. Goal readings contain one of each for either method; supplied-goal readings contain zero/four of each. The previously recorded invalid direct forecast remains the only invalid in this family. Goal-supplied assistance does not independently witness mental history. Per-path and per-view contrasts remain in the receipt; no population p-value is computed.
+
+**Found.** Across the complete roster, accounts lower operation probability losses but worsen goal loss, recover fewer witnessed and located events, and add mental assertions. Every model/question aggregate is worse than uniform probability. Exact extraction leads witnessed recovery. The final two paths retain operation-loss gains without a located-recovery advantage.
+
+**Means.** Better operation probabilities do not establish better passage-linked historical correspondence. This complete construction supports the separation of useful probability, witnessed recovery and unsupported interpretation. It does not establish a general reader ranking or human process mechanism. Preserve the simpler extraction output in the provider set; a new source-law or ambiguity comparison would require its own frozen roster.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: do coherent accounts recover witnessed edits more usefully than direct reading and exact extraction? Outcome: **Narrows**. Result: complete support retains operation-loss gains alongside worse located recovery and more mental assertions. Project meaning: probability quality and historical correspondence remain distinct acceptance measures. Next engineering obligation: package every complete case and preserve exact extraction; review new support separately. Public claim: unchanged. Curator decision required: No. Detail: [complete operation inspection](results/phase_2_4_stage_12/OPERATOR_COMPLETE_INSPECTION.json).
+
+---
+
+### L425 - second complete compression versus access history
+
+**Hypothesis.** A retained learned representation preserves prediction, and exact assistance separates missing information from failure to use information already supplied.
+
+**METHOD.** Execute the second frozen 17-call history block and reproduce every raw response and actual handler offline. Retain one account acquisition, two bank acquisitions and both queries under all seven conditions. This is another exposed constructed development history; queries remain paired, not independent cases. Exact sufficiency and the separate reference implementation remain unchanged. The first history stays separately recorded in L423; this is not a selected rerun.
+
+Each row covers the same two evaluation queries. Expected half-Brier loss is probability error, lower is better. Modal agreement compares the most probable action with the exact reference. Infinite logarithmic losses retain missing target mass; acquisition costs are additional and charged.
+
+| Representation | Valid / attempted | Probability error | Modal agreement | Infinite logarithmic losses |
+|---|---:|---:|---:|---:|
+| Raw history | 2 / 2 | 0.335000 | 0.50 | 0 |
+| Identical repeat | 2 / 2 | 0.335000 | 0.50 | 0 |
+| Last four observations | 2 / 2 | 0.225000 | 0.50 | 1 |
+| Exact sufficient posterior | 2 / 2 | 0.926750 | 0.00 | 2 |
+| Exact query-answer bank | 2 / 2 | 0.081627 | 1.00 | 0 |
+| Learned account | 2 / 2 | 0.469621 | 0.50 | 1 |
+| Learned query-answer bank | 2 / 2 | 0.335000 | 0.50 | 0 |
+
+The exact-reference floor is 0.081627 at displayed precision; uniform loss is 0.375000. All seventeen acquisition/evaluation calls are valid. Both banks know the queried questions; only the exact bank receives computed answers. Learned-bank acquisition scores remain separate in the receipt. Identical raw-history requests retain identical probability vectors.
+
+**Found.** Exact answers are used near the reference floor, while the mathematically sufficient posterior again yields poor forecasts. The learned account loses to raw history; the learned bank matches its evaluation loss. Truncation improves finite probability loss on this history but introduces an infinite logarithmic loss.
+
+**Means.** Representation effects depend on both content and the chosen loss. The exact bank's assistance does not establish successful learned reconstruction, and truncation's finite-loss gain does not establish information preservation. Keep the remaining frozen histories and the full loss tuple; no general representation ranking or human mechanism follows.
+
+**Curator roll-up.** Theory group: reconstruction and access. Question: does a supplied or learned representation preserve useful prediction? Outcome: **Narrows**. Result: access to exact answers and use of sufficient state remain distinct on another complete history. Project meaning: favorable finite loss alone cannot validate a retained representation. Next engineering obligation: finish the original paired roster and retain acquisition and support failures. Public claim: unchanged. Curator decision required: No. Detail: [second access inspection](results/phase_2_4_stage_12/ACCESS_SECOND_INSPECTION.json).
+
+---
+
+### L424 - four further complete witnessed-edit blocks
+
+**Hypothesis.** Coherent accounts improve goal/process inference and correctly located witnessed recovery without adding unsupported mental observations.
+
+**METHOD.** Execute the next four frozen 18-call blocks, covering four distinct paths from the same unchanged finite Ghost law. Reparse all seventy-two replies, reconstruct every actual handler and validate the provider packets offline. Each path has three evidence views and every direct/account reverse-goal, reverse-operation and supplied-goal condition. These are four paired constructed paths, not twelve independent worlds. Earlier blocks stay unchanged in L422; the final two paths are outside this landing.
+
+Each row averages twelve paired content/view observations. Oracle-family and compatible-template losses are distinct expected half-Brier errors, lower within each target. There are twelve witnessed event opportunities and ten checkable locations. Located counts below concern those locations, not hidden attention. Invalid probabilities retain the maximum error penalty; infinite losses retain missing support. Supplied forward goals remain distinct from independently witnessed mental history.
+
+| Question | Reader | Valid / attempted | Oracle-family loss | Template loss | Witnessed / eligible | Located | Unsupported mental assertions | Infinite logarithmic losses |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Infer local goal | Direct | 12 / 12 | 0.385005 | 0.397710 | 0 / 12 | 0 | 5 | 0 |
+| Infer local goal | Coherent account | 12 / 12 | 0.461681 | 0.476551 | 0 / 12 | 0 | 6 | 0 |
+| Infer operation | Direct | 11 / 12 | 0.778074 | 0.810236 | 5 / 12 | 5 | 6 | 8 |
+| Infer operation | Coherent account | 12 / 12 | 0.704263 | 0.737243 | 4 / 12 | 3 | 11 | 6 |
+| Predict operation with goal supplied | Direct | 12 / 12 | 0.698678 | 0.763974 | 5 / 12 | 4 | 13 | 5 |
+| Predict operation with goal supplied | Coherent account | 12 / 12 | 0.672369 | 0.681142 | 3 / 12 | 1 | 23 | 4 |
+
+Uniform losses are 0.333333 for goal and 0.416667 for operation. Exact source-law floors are respectively 0.214525, 0.250969 and 0.160737 for goal, reverse operation and supplied-goal operation; their privileged law remains evaluator-only. Recorded-change extraction recovers all twelve witnessed events and ten checkable locations with no mental assertions. Direct/account reverse-operation outputs have two/two unsupported observed operations and five/two contradictions. The account's goal answers add one unsupported operation and one contradiction; its supplied-goal answers add two contradictions. Other directions have none. The invalid direct reverse-operation answer is an artifact-only view with invalid finite probabilities; raw bytes, penalty, denominator and charge remain. No interface repair or retry was performed.
+
+**Found.** The account again lowers operation probability losses but worsens local-goal loss. It recovers fewer witnessed and located events on both operation questions and adds mental assertions. Every model/question average here is worse than uniform; the initial direct-goal advantage does not repeat on this tranche. Exact recorded-change extraction remains stronger on witnessed recovery.
+
+**Means.** Probability improvements and passage-linked recovery do not move together on this additional support. These paths broaden the construction's operator coverage without adding independent source laws or human observations. Preserve the unchanged final two blocks; neither the early direct-goal advantage nor the later loss pattern selects a general winner.
+
+**Curator roll-up.** Theory group: goal and process reconstruction. Question: do coherent accounts improve useful historical recovery from witnessed edits? Outcome: **Narrows**. Result: operation loss gains again coexist with worse located recovery and more mental assertions. Project meaning: calibrated probability and source-supported correspondence require separate controls. Next engineering obligation: complete the frozen roster and retain the exact extraction baseline. Public claim: unchanged. Curator decision required: No. Detail: [operation breadth inspection](results/phase_2_4_stage_12/OPERATOR_BREADTH_INSPECTION.json).
+
+---
+
 ### L423 - first complete compression versus access block
 
 **Hypothesis.** A learned retained representation preserves useful prediction, while exact sufficient state and exact answers distinguish representation loss from failure to use supplied information.

@@ -1,0 +1,290 @@
+{
+  "acquisition_calls": 3,
+  "at": "2026-09-23T09:34:26.743917+00:00",
+  "comparison_table": [
+    {
+      "agreement": 0.5,
+      "condition": "raw_history",
+      "infinite": 0,
+      "loss": 0.33500000000000063,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 0.5,
+      "condition": "unchanged_repeat",
+      "infinite": 0,
+      "loss": 0.33500000000000063,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 0.5,
+      "condition": "last_four",
+      "infinite": 1,
+      "loss": 0.22500000000000334,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 0.0,
+      "condition": "exact_state",
+      "infinite": 2,
+      "loss": 0.9267496842105263,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 1.0,
+      "condition": "exact_bank",
+      "infinite": 0,
+      "loss": 0.08162747368421341,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 0.5,
+      "condition": "learned_account",
+      "infinite": 1,
+      "loss": 0.46962105263157894,
+      "n": 2,
+      "valid": 2
+    },
+    {
+      "agreement": 0.5,
+      "condition": "learned_bank",
+      "infinite": 0,
+      "loss": 0.33500000000000063,
+      "n": 2,
+      "valid": 2
+    }
+  ],
+  "evaluation_calls": 14,
+  "exact_loss": 0.0816274238227177,
+  "invalids_and_costs_retained": true,
+  "kind": "complete balanced cells; wider frozen family still pending",
+  "landing": "L425",
+  "learned_bank_acquisition_scores": {
+    "1": {
+      "accuracy": 1.0,
+      "half_brier": 0.2950000000000013,
+      "invalid": false,
+      "log_loss": 1.0878281828394247,
+      "log_loss_infinite": false,
+      "valid": true
+    },
+    "3": {
+      "accuracy": 0.0,
+      "half_brier": 0.37499999999999994,
+      "invalid": false,
+      "log_loss": 1.3862943611198908,
+      "log_loss_infinite": false,
+      "valid": true
+    }
+  },
+  "matched_repeat_probabilities_identical": true,
+  "plan_sha256": "062ce86c9a74d2bd98ffd0b9b22fa574ef6cad38392de5593899d74502b0094c",
+  "public_claim": "unchanged",
+  "raw_and_handler_replay": true,
+  "records": [
+    {
+      "call_seconds": 83.91307660000166,
+      "calls": 17,
+      "family": "access",
+      "full_handler_replay": true,
+      "job": "S12-access-1-20260923-v1",
+      "manifest_sha256": "30aa946a1cf31259f071ac5959e8215b922b0bba5420a92b4f65d345516c6689",
+      "raw_semantic_replay": true,
+      "rows": [
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "raw_history",
+          "half_brier": 0.2950000000000013,
+          "invalid": false,
+          "log_loss": 1.0878281828394247,
+          "log_loss_infinite": false,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "unchanged_repeat",
+          "half_brier": 0.2950000000000013,
+          "invalid": false,
+          "log_loss": 1.0878281828394247,
+          "log_loss_infinite": false,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "last_four",
+          "half_brier": 0.07500000000000673,
+          "invalid": false,
+          "log_loss": null,
+          "log_loss_infinite": true,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "exact_state",
+          "half_brier": 0.949676,
+          "invalid": false,
+          "log_loss": null,
+          "log_loss_infinite": true,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "exact_bank",
+          "half_brier": 0.07125000000000592,
+          "invalid": false,
+          "log_loss": 0.3487803849180537,
+          "log_loss_infinite": false,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "learned_account",
+          "half_brier": 0.8149000000000001,
+          "invalid": false,
+          "log_loss": 3.402994230718986,
+          "log_loss_infinite": false,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "learned_bank",
+          "half_brier": 0.2950000000000013,
+          "invalid": false,
+          "log_loss": 1.0878281828394247,
+          "log_loss_infinite": false,
+          "query": 1,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "raw_history",
+          "half_brier": 0.37499999999999994,
+          "invalid": false,
+          "log_loss": 1.3862943611198908,
+          "log_loss_infinite": false,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "unchanged_repeat",
+          "half_brier": 0.37499999999999994,
+          "invalid": false,
+          "log_loss": 1.3862943611198908,
+          "log_loss_infinite": false,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "last_four",
+          "half_brier": 0.37499999999999994,
+          "invalid": false,
+          "log_loss": 1.3862943611198908,
+          "log_loss_infinite": false,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "exact_state",
+          "half_brier": 0.9038233684210526,
+          "invalid": false,
+          "log_loss": null,
+          "log_loss_infinite": true,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "exact_bank",
+          "half_brier": 0.09200494736842091,
+          "invalid": false,
+          "log_loss": 0.42523457656529984,
+          "log_loss_infinite": false,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 1.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "learned_account",
+          "half_brier": 0.12434210526315781,
+          "invalid": false,
+          "log_loss": null,
+          "log_loss_infinite": true,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        },
+        {
+          "accuracy": 0.0,
+          "cluster": "a6d91130e39ef8add33983ac3626902a345d0f1574c5889889959b4152ab6171",
+          "condition": "learned_bank",
+          "half_brier": 0.37499999999999994,
+          "invalid": false,
+          "log_loss": 1.3862943611198908,
+          "log_loss_infinite": false,
+          "query": 3,
+          "unit": "dev-0013",
+          "valid": true
+        }
+      ],
+      "summary": {
+        "calls": 17,
+        "controls": {
+          "all_acquisition_charged": true,
+          "all_rivals": true,
+          "raw_semantic_replay": true,
+          "unchanged_repeat": true
+        },
+        "files": {
+          "ROWS.json": "31ae7536c24a82ac8f829aa38c2241f83ef450f95bbbb879e2cb1e1f71b2654c"
+        },
+        "kind": "scientific",
+        "rows": 14,
+        "scope": "Declared finite-reference access/compression diagnostic; oracle assistance and query-aware acquisition explicit; no persistent-state or human claim",
+        "sources": 1,
+        "status": "complete"
+      },
+      "terminal_sha256": "85b8ddc5fcc1c0d552d8b0aff9d856dcf761f084ddd6009ce96da008a20ae0d9"
+    }
+  ],
+  "scope": "Second exposed development history; two paired queries, no population confirmation",
+  "uniform_loss": 0.375
+}

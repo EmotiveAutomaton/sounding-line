@@ -12,6 +12,27 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-SCOPED-CLOSE: the separately frozen casebook refresh runs and reproduces
+exactly through the unchanged handler. All 254 cases have unique source-bound
+identities; the earlier 110 records are unchanged and all 144 complete operation
+readings are appended. Four access histories remain forecast-only companions.
+Anchors, source/output hashes and known-answer controls pass; invalid readings
+retain unavailable correspondence metrics. No frontend or scientific admission.
+
+L426/L427: the final four cells reproduce offline, closing all twelve blocks
+and all 212 raw-call/actual-handler replays. Three additional invalid forecasts
+are preserved under the unchanged penalty, with every acquisition and charge.
+Exact-state sufficiency and independent enumeration still pass; model use of
+supplied state or answers is a separate measured outcome. No scorer, interface,
+gate or retry changed. Per-content and full-roster receipts retain all rivals.
+
+L424/L425: five further complete blocks and all 89 calls reproduce offline
+through their actual handlers. Source/manifest/output/response bindings pass.
+An invalid finite-probability answer retains its penalty and charge; no runner,
+scorer, model gate or retry changed. Exact witnessed-location and sufficient-state
+references remain valid. This is complete-cell replay, not a general capability
+admission or closure of the remaining frozen roster.
+
 L422/L423: the first three complete successor blocks and all 53 calls reparse
 and reproduce through their actual handlers with network dispatch forbidden.
 Every source, manifest, output, response receipt and provider packet binds.

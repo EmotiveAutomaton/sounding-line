@@ -2,25 +2,25 @@
 
 ## Stage 12 validated local continuation - September 23
 
-Current execution, September 23: Gear 2 is progressing through the twelve
-frozen balanced blocks, up to 212 requests. The two questions concern witnessed
-operations with checkable locations, and compression loss versus access to exact
-or learned representations. The native queue/worker and fresh resource admission
-verify. Three CPU preparation cards complete and replay, including the 110-case
-source-bound provider bundle. All fifty prior completion records verify against
-their manifests and outputs, and all 388 completed local calls reparse from raw
-responses. All 45 tests, 21 locks and theory lint pass. Earlier incomplete
-attempts, failed gates and charges remain unchanged. New cells require full
-internal landing before ACK; no interim scientific scores are reported.
-SCOPED_PREPARATION_INSPECTION.json, COMPLETION_REGISTRY_20260923.json and
-SCOPED_QUEUE_INSPECTION.json retain evidence. The prospective design is
-docs/design/STAGE12_SCOPED_SUCCESSORS.md. No cloud retry or additional tiny fit
-follows. Original limits, four-hour health and the final packet remain binding.
-The first two complete operation blocks and first complete access history have
-been fully replayed and internally landed in L422/L423, with all 53 calls and
-all rivals retained. Their receipts are OPERATOR_FIRST_INSPECTION.json and
-ACCESS_FIRST_INSPECTION.json. The wider frozen families remain open; later
-terminal events require their own write-through before ACK.
+Current execution, September 23: all twelve frozen Gear 2 blocks complete,
+and all 212 calls reproduce through raw-response and actual-handler replay.
+The witnessed-operation and compression/access comparisons are internally landed
+in L422-L427, including every rival, invalid output and charge. The native queue
+and workers exited normally; locks released and fresh resource admission passes.
+Gear 2 authorization remains, with no scientific worker in this completed roster.
+The provider bundle now has 254 source-bound cases, preserving all 110 earlier
+cases unchanged. Four access histories remain forecast-only companions.
+CASEBOOK_COMPLETE_INSPECTION.json and SCOPED_COMPLETE_STATUS.json retain
+operational evidence; OPERATOR_COMPLETE_INSPECTION.json and
+ACCESS_COMPLETE_INSPECTION.json retain the complete comparisons.
+The fifty prior completions and all 388 earlier local calls retain their earlier
+verified records. All 45 validation tests, 21 locks and theory lint pass; no
+runner, scorer or admission gate changed. The prospective design remains
+docs/design/STAGE12_SCOPED_SUCCESSORS.md. A separately frozen local successor
+requires scientific review; no automatic cloud retry or additional tiny fit.
+The original week remains open for scoped review and its interim/final packet.
+Watcher and checkpoint identities verify, and the next four-hour health check
+remains September 23 at 12:48:33 UTC /05:48:33 PDT. Result ACKs do not defer it.
 
 [Inspection](results/phase_2_4_stage_12/HOST_RECOVERY_INSPECTION.json).
 

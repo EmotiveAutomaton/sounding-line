@@ -9,7 +9,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-21)
 
-- **September 23 scoped continuation:** [witnessed operations and compression/access](STAGE12_SCOPED_SUCCESSORS.md) prospectively defines the next twelve balanced GPU blocks. CPU matrices and the 110-case source-bound bundle execute and replay; all 45 validation tests pass. Prior completions and failed attempts remain unchanged.
+- **September 23 scoped continuation:** [witnessed operations and compression/access](STAGE12_SCOPED_SUCCESSORS.md) completes all twelve frozen blocks and all 212-call replays (L422-L427). The refreshed source-bound bundle retains 254 cases; prior records remain unchanged. Gear 2 stays authorized, the frozen queue has exited normally, and scoped successor review and the original week packets remain. All 45 validation tests pass.
 
 - **Local continuation complete:** the [implementation handoff](STAGE12_IMPLEMENTATION_HANDOFF.md) records both approved application exits and all fifteen subsequent blocks completed with full replay. The [compiled breadth](STAGE12_LOCAL_BREADTH.md) and [bounded fixture recovery](STAGE12_LOCAL_TELEMETRY_RECOVERY.md) are completed historical plans; the original week and Gear 2 allocation remain open.
 - **Stage 12 is active:** [week commission](PHASE_2_4_STAGE_12_CONTEXT.md), filed unchanged including its later Ghost-owned shared-fit designation. [Implementation and continuation](STAGE12_IMPLEMENTATION_HANDOFF.md) records the finite queue, conditional admissions, original limits and prepared funding option. The [initial source](archive/SOUNDING_LINE_STAGE12_WEEK_HANDOFF_2026-09-21.initial.md) exactly matches the original T0 hash; no clock or allocation is reset.
