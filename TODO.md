@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LOCAL-HEALTH-0213: native progress, failures, locks, source/input/manifest bindings, resources, next-card admission and watcher delivery inspected and recorded. No recovery needed; preserve Gear 2, scope, cutoff and complete-family reporting.
+
 - [x] OPS-S12-LP04-THIRTEENTH-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
 
 - [x] OPS-S12-LP04-TWELFTH-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.

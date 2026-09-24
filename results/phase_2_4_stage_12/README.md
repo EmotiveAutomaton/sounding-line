@@ -12,8 +12,11 @@ preserves all primary comparisons. The old active worker completed normally;
 325 untouched successors now run from queue-admission-fix-v2 in the same raw
 namespace and ledger. See [repair inspection](LOCAL_PROGRAM_ADMISSION_REPAIR.json)
 and [calibration correction](LOCAL_PROGRAM_PRESENTATION_CALIBRATION_REPAIR.json).
-The cutoff remains September 25 at 20:50 PDT and next health September 24 at
-02:13:07 PDT. No new research scope or inference retry follows.
+The cutoff remains September 25 at 20:50 PDT. The September 24 four-hour
+[health inspection](LOCAL_PROGRAM_HEALTH_0213.json) verifies live continuation,
+resource headroom, source/input bindings, locks and watcher delivery without
+recovery. Its ACK rearms the next check for September 24 at 06:18:46 PDT.
+No new research scope or inference retry follows.
 
 Historical local-program setup: the September 23 commission began in Gear 2 with
 331 source-bound jobs and 22,832 study slots, plus eleven completed and replayed

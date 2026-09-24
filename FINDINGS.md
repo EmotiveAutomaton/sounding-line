@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-HEALTH-0213 - live continuation within the approved limits
+
+**Hypothesis.** The approved local queue can remain productive while preserving its source bindings, exclusive ownership, resource ceiling and reliable wake delivery.
+
+**METHOD.** Inspect native coordinator, worker, model-service, watcher and checkpoint identities; compare completed-request progress with the earlier observation and inspect heartbeat/raw-response age. Verify all queue manifests, bound inputs, source pins, the original week contract and both active lock owners. Check GPU residency and temperature, host memory, disk space, CPU power limits, charged reservations and the next card's dependency and budget admission. Check the watcher source, sole live helper, kernel lock, scan freshness and actual delivery receipt. No model request or scientific analysis is added.
+
+The table records operational readiness at September 24, 02:16 PDT. Remaining cards include later conditional work and do not imply that every branch is already admitted.
+
+| Check | Result |
+|---|---|
+| Live execution | LP04-013-a2 advances with verified native identity and fresh heartbeat/raw output |
+| Authorized continuation | LP04-014-a2 dependencies and full-unit budget admission pass; 306 cards remain after the active card |
+| Frozen bindings | All 326 manifests, 957 bound inputs and 476 source pins verify |
+| Ownership and locks | GPU token matches the live worker; coordinator identity matches its native lock; coordinator and watcher kernel locks refuse duplicate acquisition; all 21 content locks pass |
+| GPU resources | Fully resident declared model/context; 1,462 MiB free against the 768 MiB buffer; 65 C |
+| Host resources | About 49 GiB RAM and 861 GiB disk free; AC CPU maximum remains 90 percent and boost is disabled |
+| Accounting | Charged reservations and next-card costs fit the unchanged limits and protected reserves; original week contract remains bound |
+| Failures and delivery | No new job/request failures; one fresh watcher and live checkpoint helper; this health event has a successful delivery receipt |
+
+**Found.** The queue is healthy and has authorized continuation. No recovery is needed. The retained historical notification timeout is unchanged; current scans, source identity and event delivery verify.
+
+**Means.** Continue Gear 2 under the same cutoff and admission rules. Human-reader and second-model branches retain their gates; the source-blocked extension remains blocked. The ACK followed the documented inspection and rearms the next health check for September 24 at 06:18:46 PDT. Whole-family scientific landing and Friday/Monday packets remain owed. No tests harvested this pass; no new research, gear, spending, fit or delegation.
+
+**Curator roll-up.** Theory group: operational validity. Question: is the authorized local queue progressing safely with reliable monitoring? Outcome: **Infrastructure**. Result: the live queue, source bindings and next authorized unit verify. Project meaning: continued execution needs no repair or scope change. Next engineering obligation: land completed whole families and inspect the next four-hour health event. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_0213.json).
+
+---
+
 ### OPS-S12-LP04-THIRTEENTH-PRODUCER - preserved revision requests and live continuation
 
 **Hypothesis.** A completed revision-study producer can retain its exact earlier-reply dependencies and replay without dispatch while the complete crossed comparison remains unfinished.

@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## Four-hour queue health - September 24, 02:16 PDT
+
+OPS-S12-LOCAL-HEALTH-0213 verifies LP04-013-a2 progressing with live native
+ownership, fresh responses and matching GPU lock. LP04-014-a2 passes its
+dependency and complete-unit budget checks. All 326 manifests, 957 input
+bindings, 476 source pins and 21 locks verify. GPU capacity and temperature,
+host memory/disk and existing CPU limits pass. The sole watcher and original
+checkpoint helper are live; current health delivery is receipted. No new
+failure or recovery need. Gear 2, the September 25 20:50 PDT local cutoff,
+conditional branches and Friday/Monday packets remain unchanged.
+The health event is acknowledged after write-through; the next verified check
+is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
+
 ## Local continuation after mechanical repair - September 24, 02:07 PDT
 
 The complete LP02 comparison is internally landed in L438: all 768 calls,
@@ -34,7 +47,8 @@ all original outputs are retained. No broader program verdict is available.
 
 The same ledger includes a conservative 1,800 CPU-second maintenance charge.
 The original September 25, 20:50 PDT cutoff and Friday/Monday packets remain.
-Four-hour inspection is still due September 24 at 02:13:07 PDT. No new paid
+Following the latest health ACK, the next inspection is September 24 at
+06:18:46 PDT. No new paid
 calls, fits, delegation or research scope. The delayed admission notice was
 reconciled with its existing full landing; duplicate ACK does not move health.
 This handoff and full internal landings accompany the repair commit; exact
