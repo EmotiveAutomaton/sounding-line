@@ -5,7 +5,34 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-23.**
+**Last updated: 2026-09-24.**
+
+---
+
+### OPS-S12-LP04-THIRD-PRODUCER - preserved revision requests and live continuation
+
+**Hypothesis.** A completed revision-study producer can retain its exact earlier-reply dependencies and replay without dispatch while the complete crossed comparison remains unfinished.
+
+**METHOD.** Verify the LP04-002-a2 manifest, every bound input, all 476 source pins and terminal output hashes. Confirm all frozen calls are complete before reentering the actual handler from its immutable source capsule. Replay saved-reply materialization, actual requests, parsers and the full producer result; compare every JSON hash before and after. Inspect native coordinator and successor identity, heartbeat/raw-output freshness, failures and watcher delivery. No unfinished scientific contrast is interpreted.
+
+The table records execution integrity and liveness. Producer counts describe queue coverage, not independent scientific replication.
+
+| Check | Result |
+|---|---|
+| Completed producer | All 168 frozen calls and the complete handler replay correctly |
+| Saved replies | Actual earlier response bytes and dependent request bindings replay |
+| Preservation | All 1,184 JSON files unchanged; no new model call |
+| Source identity | Manifest, bound inputs, terminal outputs and all 476 source pins verify |
+| Family coverage | Three of sixteen producers complete; whole-family analysis remains pending |
+| Continuation | LP04-003-a2 has verified native identity and fresh heartbeat/raw responses |
+| Monitoring | Watcher fresh; no new job failures; independent health deadline unchanged |
+
+**Found.** The completed producer and its dependent requests are intact, and the next authorized producer is progressing. No recovery is needed. Invalid-output accounting and every frozen comparison remain obligations of the complete-family consumer.
+
+**Means.** Continue the existing Gear 2 queue within the unchanged ledger and cutoff. The next four-hour health inspection remains September 24 at 02:13:07 PDT. No tests were harvested and no new research, fit, delegation, gear or paid work was added.
+
+**Curator roll-up.** Theory group: operational validity. Question: are the completed revision requests preserved and their successor running? Outcome: **Infrastructure**. Result: the producer and saved-reply dependencies replay while the successor advances. Project meaning: execution is verified without promoting an unfinished comparison. Next engineering obligation: inspect subsequent complete producers and land the full-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_LP04_THIRD_PRODUCER.json).
+
 
 ---
 
