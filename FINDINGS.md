@@ -9,6 +9,20 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-PROGRAM-HEALTH-2208 - scheduled queue health verified
+
+**Hypothesis.** The newly commissioned local queue can keep advancing within its resource limits and correctly supervised ownership.
+
+**METHOD.** On the due four-hour inspection, verify the actual native queue, worker, Ollama, watcher and original checkpoint identities; compare live progress/output freshness, failed terminals, the exclusive GPU lock, frozen source pins, current resident-model admission, host/disk headroom, cumulative reservations and the next runnable card. Inspect watcher delivery state without resetting its clock through ordinary activity.
+
+**Found.** The second presentation producer is progressing, its successor is ready, all 476 frozen source pins verify, and there is no new queue failure. The GPU lock belongs to the actual worker. Resident GPU headroom is 1,688 MiB at 66 C; available host memory is 49.49 GiB and disk headroom is 880.34 GiB. Current limits admit the next card. Watcher and original checkpoint identity/freshness checks pass; historical delivery errors remain retained. No recovery is needed. Whole-family science remains pending; no partial scientific contrast is reported.
+
+**Means.** Continue the already approved Gear 2 queue. Acknowledge this documented inspection to rearm the four-hour interval; preserve the two-day cutoff, all conditional admissions and original Friday/Monday packets.
+
+**Curator roll-up.** Theory group: operational validity. Question: is the local queue progressing under verified ownership and available resources? Outcome: **Infrastructure**. Result: the queue remains healthy with no new failure. Project meaning: continued execution is operationally supported, not a scientific verdict. Next engineering obligation: land whole-family outputs and inspect the next scheduled health event or earlier failure. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_2208.json).
+
+---
+
 ### OPS-S12-LOCAL-PROGRAM-SETUP - approved extensive local queue running
 
 **Hypothesis.** The approved local research program can test explanation, correction, inquiry, memory and witnessed process while preserving source validity, complete controls and the original week's record.
@@ -32,6 +46,8 @@ The table reports complete setup/admission checks, not unfinished scientific per
 | Monitoring | Existing watcher and original checkpoint helper fresh; exact queue exit/disappearance and final produces registered; four-hour clock unchanged |
 
 **Found.** The complete supported program is built and running in Gear 2. Source inspection caught future-operation leakage in an unexecuted native compiler draft; the accepted v2 uses only the pre-operation snapshot for that question. Both drafts remain. The existing native source cannot supply changed-tool episodes or an adapted-plan checker, so that conditional branch remains blocked. Human and secondary-family main runs require their separate frozen admissions; the current constructed gate licenses neither broad human-history capability nor a scientific method advantage.
+
+**Producer inspection, September 23 at 22:07 PDT.** The first 180-request presentation producer completes and its actual handler, all wire requests, retained responses and scores replay exactly without dispatch. The next frozen producer is running with fresh outputs and verified native identity. This is an operational landing; the complete presentation-family comparison remains pending and receives no scientific verdict. The private final handoff retains the event and exact identities.
 
 **Means.** The separately commissioned local window includes setup from September 23, 20:50 PDT through September 25, 20:50 PDT. Its accounting leaves the original week ledger, failed cloud main, shared-fit limit and Friday/Monday reviews intact. No paid work, fit or delegation was added. Complete scientific cells require their own raw replay and full internal write-through; unfinished comparisons receive no scientific verdict. The independent next health check remains September 23, 22:08:43 PDT, with earlier failure/drained-queue alerts.
 

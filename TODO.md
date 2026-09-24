@@ -9,6 +9,8 @@
 - [x] S12-LOCAL-PROGRAM dispatch: 331 immutable native jobs, terminal/disappearance watches and actual Gear 2 progress verified. Complete eleven-call admission passes and replays; setup/admission fully landed in OPS-S12-LOCAL-PROGRAM-SETUP. All source, manifest and input bindings verify.
 - [x] S12-LOCAL-PROGRAM publication: privacy/deletion/lock checks pass; implementation/setup commit 2245ee641 pushed to EmotiveAutomaton/main and exact remote equality verified. Private raw records and session identities stay excluded.
 - [ ] S12-LOCAL-PROGRAM landings: replay whole completed cells and perform full internal write-through; retain failed admissions, unknown reservations and missing comparisons. Continue four-hour health and original Friday/Monday packets independently.
+- [x] S12-LOCAL-PROGRAM first producer inspection: all 180 actual calls and the completed presentation producer replay; successor native progress verifies. Operational landing in OPS-S12-LOCAL-PROGRAM-SETUP; whole-family scientific consumer remains pending.
+- [x] OPS-S12-LOCAL-PROGRAM-HEALTH-2208: scheduled native identity/progress/failure/lock/resource/next-work/delivery inspection passes; no recovery needed. Documented before health ACK; continue existing Gear 2 scope and four-hour monitoring.
 
 ## Stage 12 week - commissioned September 21
 

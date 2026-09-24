@@ -14,8 +14,8 @@ v1 is a retained unexecuted compiler draft. LP19 remains source-blocked because
 the native export lacks changed-tool episodes and an adapted-plan checker.
 Human and secondary-family main runs remain conditional on their narrow gates.
 All 331 native jobs are frozen. The complete eleven-call constructed admission
-passes and replays, and the first presentation-control block is producing fresh
-responses. Queue and worker native identities, 476 source pins, 971 input checks,
+passes and replays. The first 180-request presentation producer also completes
+and replays exactly; its successor is producing fresh responses. Queue and worker native identities, 476 source pins, 971 input checks,
 all manifests and original checkpoint/watcher freshness verify. No new queue
 failure is present at setup inspection. Full internal setup/admission landing is
 OPS-S12-LOCAL-PROGRAM-SETUP. Implementation/setup commit 2245ee641 is pushed to
@@ -25,8 +25,10 @@ that completed publication; scientific execution and later landings remain open.
 The separately commissioned local window includes setup from September 23,
 20:50 PDT through September 25, 20:50 PDT. Its separate ledger does not reset the
 original week, Friday/Monday reviews or the original failures. No cloud, new
-fits or delegation are authorized here. Four-hour health remains due September
-23 at 22:08:43 PDT until its documented inspection and ACK.
+fits or delegation are authorized here. The due four-hour health inspection
+passes and is documented/acknowledged in OPS-S12-LOCAL-PROGRAM-HEALTH-2208.
+No recovery is needed. The next health check is September 24 at 02:13:07 PDT;
+earlier failures or a drained queue still wake the owner.
 
 ## Extensive local program - original planning snapshot
 

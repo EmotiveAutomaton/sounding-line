@@ -12,7 +12,11 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LOCAL-PROGRAM-HEALTH-2208: scheduled native identity, progress, failure, lock, remaining-limit, successor eligibility and delivery checks pass. Resident GPU and host/disk headroom are available; the second presentation producer and next card are healthy. No recovery or new research scope follows; whole-family results remain pending.
+
 OPS-S12-LOCAL-PROGRAM-SETUP: the separately approved local program has 331 frozen native jobs and 22,832 study slots, with source-specific admissions and full-family consumers. All 62 tests, exhaustive synthetic request/analysis rehearsal, both actual cached-tokenizer context checks and 21 locks pass. The eleven-call constructed admission completes and replays; native queue/worker progress and watcher bindings verify. The retained v1 draft's future-operation leak is corrected before dispatch in v2. Changed-tool native support remains absent; no replacement mechanism, extra fit or cloud call. Raw generation, source-cluster analysis and literal HF replay remain separate from scientific admission.
+
+The first presentation producer's 180 actual calls and complete handler subsequently replay exactly. Its successor is live; whole-family analysis remains pending. This validates retained execution, not a partial scientific contrast.
 
 L434-L436 / OPS-S12-ADDENDUM-LOCAL-CLOSE: all 288 local calls, 28 handlers and three whole-family consumers replay exactly; invalid probabilities and all control outcomes remain. Native workers/coordinator have exited and GPU lock is released.
 
