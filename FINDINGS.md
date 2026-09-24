@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S12-LP06-SECOND-PRODUCER - repeated-evidence requests preserved and continuation live
+
+**Hypothesis.** A completed producer comparing repeated reports with additional evidence can be verified without interpreting an unfinished family.
+
+**METHOD.** Verify the LP06-001-a2 manifest, every bound input, all 476 source pins, prerequisite bindings and terminal output hashes. Confirm all 180 frozen calls are complete before reentering the actual request/parser and producer handler from its immutable source capsule. Compare the complete returned result and every JSON hash before and after replay. Inspect native coordinator and successor identity, heartbeat/raw-response freshness, failures and watcher delivery. No incomplete-family contrast is interpreted.
+
+The table records preserved execution and live continuation. Producer coverage is a queue count, not independent scientific replication.
+
+| Check | Result |
+|---|---|
+| Completed producer | All 180 frozen calls and the full actual handler replay correctly |
+| Preservation | All 1,268 JSON files unchanged; no new inference |
+| Source identity | Manifest, bound inputs, prerequisites, terminal outputs and all 476 source pins verify |
+| Family coverage | Two of four producers complete; whole-family comparison pending |
+| Continuation | LP06-002-a2 has verified native identity and fresh heartbeat/raw output |
+| Monitoring | Watcher fresh; no LP06 job failure; health deadline unchanged |
+
+**Found.** The complete producer is preserved and its authorized successor is progressing. No queue recovery is needed. Invalid accounting and every frozen comparison remain obligations of the complete-family consumer. CPU replay verification is charged within the existing ledger.
+
+**Means.** Continue the existing Gear 2 queue within the unchanged limits and September 25, 20:50 PDT cutoff. The independent four-hour health check remains September 24 at 06:18:46 PDT; Friday/Monday packets remain owed. No tests harvested, new research, fits, delegation, paid work or gear change.
+
+**Curator roll-up.** Theory group: operational validity. Question: is the completed repeated-evidence producer intact and its successor progressing? Outcome: **Infrastructure**. Result: the complete producer replays while its successor advances. Project meaning: execution is verified without a partial scientific verdict. Next engineering obligation: inspect complete producers and land the full-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_LP06_SECOND_PRODUCER.json).
+
+---
+
 ### OPS-S12-LP06-FIRST-PRODUCER - repeated-evidence requests preserved and continuation live
 
 **Hypothesis.** A completed producer comparing repeated reports with additional evidence can be verified without interpreting an unfinished family.

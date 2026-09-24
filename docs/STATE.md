@@ -13,7 +13,7 @@ conditional branches and Friday/Monday packets remain unchanged.
 The health event is acknowledged after write-through; the next verified check
 is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
 
-## Local continuation after first repeated-evidence producer - September 24, 04:32 PDT
+## Local continuation after second repeated-evidence producer - September 24, 04:46 PDT
 
 LP01, LP02, LP04 and LP05 are internally landed in L437-L440. LP04 has all 2,688
 calls and sixteen producers complete; source histories, exact targets and
@@ -29,10 +29,10 @@ LP05 is complete: all 1,152 calls and seven producers, source histories, frozen
 requests and the full consumer replay with 8,126 JSON files unchanged. L440
 records every frozen comparison, invalid and calibration/coverage readout.
 The pooled contrasts do not identify selective diagnostic correction or actual
-prior authorship. The first LP06 producer replays all 180 calls with 1,268
-original JSON files unchanged; one of four producers is complete and the family
-comparison is pending. OPS-S12-LP06-FIRST-PRODUCER records the inspection.
-Native LP06-001-a2 and coordinator identities, fresh output and watcher verify;
+prior authorship. The second LP06 producer replays all 180 calls with 1,268
+original JSON files unchanged; two of four producers are complete and the family
+comparison is pending. OPS-S12-LP06-SECOND-PRODUCER records the inspection.
+Native LP06-002-a2 and coordinator identities, fresh output and watcher verify;
 no LP06 job failure or queue recovery. Gear 2 and all original gates/cutoffs
 remain. The broader program remains unfinished. The next health
 inspection remains September 24 at 06:18:46 PDT, independent of result ACKs.
