@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP05-FOURTH-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule. All 1,268 JSON files remain unchanged; 476 source pins and input/output bindings verify. The next producer has verified native identity and fresh output, with no new failure. Whole-family inference remains pending; no model call or repair was added.
+
 OPS-S12-LP05-THIRD-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule. All 1,268 JSON files remain unchanged; 476 source pins and input/output bindings verify. The next producer has verified native identity and fresh output, with no new failure. Whole-family inference remains pending; no model call or repair was added.
 
 OPS-S12-LP05-SECOND-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule. All 1,268 JSON files remain unchanged; 476 source pins and input/output bindings verify. The next producer has verified native identity and fresh output, with no new failure. Whole-family inference remains pending; no model call or repair was added.
