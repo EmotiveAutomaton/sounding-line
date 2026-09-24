@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP05-SECOND-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule. All 1,268 JSON files remain unchanged; 476 source pins and input/output bindings verify. The next producer has verified native identity and fresh output, with no new failure. Whole-family inference remains pending; no model call or repair was added.
+
 OPS-S12-LP05-FIRST-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule. All 1,268 JSON files remain unchanged; 476 source pins and input/output bindings verify. The next producer has verified native identity and fresh output, with no new failure. Whole-family inference remains pending; no model call or repair was added.
 
 L439 / LP04: all 2,688 saved calls, sixteen actual producers and source reconstruction verify with 18,950 original JSON files unchanged. Consumer replay exposed process-dependent bootstrap order in the primary interaction; its original interval is VOID for exact replay. The separate revision_replay helper canonically orders the same paired estimand; six targeted tests and actual-data cross-process replay pass. All other consumer fields remain exact. Keep original capsules and apply this CPU correction to LP21-revision on completion; no regeneration or new fit.
