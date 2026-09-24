@@ -9,7 +9,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-21)
 
-- **September 23 addendum proposal, planning only:** [validity, evidence revision and human-record breadth](STAGE12_ADDENDUM_PROPOSAL.md) prioritizes a zero-call audit, broader ARIES paper support and saved-answer versus fresh-evidence revision, with conditional binding controls and a separately scoped cloud repair. No new test or paid retry is launched; original limits and calendar remain.
+- **September 23 addendum approved and implemented:** [implementation freeze](STAGE12_ADDENDUM_IMPLEMENTATION.md) builds all A-E work from the retained [proposal](STAGE12_ADDENDUM_PROPOSAL.md). The local 288-request Gear 2 roster is behind actual resource admission; the revised cloud pilot passes and main is active. The complete record/case audit is internally landed in L431. Original limits, failures, four-hour monitoring and review dates remain.
 
 - **September 23 execution continuation:** [supplied-answer execution and source-law sensitivity](STAGE12_EXECUTION_SUCCESSORS.md) freezes twenty balanced GPU blocks and an offline CPU consumer within the original week. All twenty histories and the CPU consumer complete with full replay (L429/L430), including one bounded warm recovery. All 48 tests and 88 complete records verify; earlier results and the failed cloud pilot remain unchanged. Original packets and scoped successor review remain.
 

@@ -1,2085 +1,2111 @@
 {
-  "runs": [
+ "runs": [
+  {
+   "ts": 1786905632.888119,
+   "cmd": "runners/run_pan_winner.py --encoder roberta --warmup 0.06 --dropout-scope head --out-tag _gear3check",
+   "gpu": "A100",
+   "est_dollars": 0.88,
+   "duration_s": 1006.2,
+   "est_actual_dollars": 0.73,
+   "approval": "curator 2026-08-16: 'We can try running one of our simple tests that we don't expect to cost more than a few pennies and make sure we get the same results back to validate the wiring itself' - the gear-3 wiring validation, rerunning the head-scope roberta member (local answer 0.8633)",
+   "returncode": 0
+  },
+  {
+   "ts": 1786907572.3954263,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 41.7,
+   "est_actual_dollars": 0.03,
+   "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2",
+   "returncode": 1,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786907577.6916716,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 37.1,
+   "est_actual_dollars": 0.03,
+   "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2",
+   "returncode": 1,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786907649.2038898,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 1918.3,
+   "est_actual_dollars": 1.4,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786907743.570074,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 1815.9,
+   "est_actual_dollars": 1.32,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786909559.646726,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --out-tag _g3sA_s44",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 2024.4,
+   "est_actual_dollars": 1.48,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786909567.6780078,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --channels results/pan25_channels/hard --out-tag _g3sB_s42",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 1796.6,
+   "est_actual_dollars": 1.31,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786911364.4470105,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --out-tag _g3sA_s43",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 1774.4,
+   "est_actual_dollars": 1.29,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "ts": 1786911584.174724,
+   "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --channels results/pan25_channels/hard --out-tag _g3sB_s44",
+   "gpu": "A100",
+   "est_dollars": 1.46,
+   "duration_s": 1816.5,
+   "est_actual_dollars": 1.32,
+   "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
+   "returncode": 0,
+   "status": "DONE"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "p-cache-v1",
+   "node": "P",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "dda9c5760d5e096aa335feaa0130a391a5b4a2c04dd82c043fe8b9b95638015c"
+   ],
+   "profile": {
+    "job_sha256": "576ee32f6b9fff8df7866bf7b9848d712bfc02a886cc810a2546768960ade3b8",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "c35e6f74adb1577e1070017377f3523c1c3bd0f3617ec797b7771c1dad60ce80",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": null,
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 4096,
+    "memory_limit_mib": 4096,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 600,
+   "expires_at": 1789324410.2929268,
+   "ts": 1789323810.2929268,
+   "reserved_cents": 28,
+   "booked_cents": 28,
+   "overhead_cents": 25,
+   "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "CANCELLED",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 0.28,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
     {
-      "ts": 1786905632.888119,
-      "cmd": "runners/run_pan_winner.py --encoder roberta --warmup 0.06 --dropout-scope head --out-tag _gear3check",
-      "gpu": "A100",
-      "est_dollars": 0.88,
-      "duration_s": 1006.2,
-      "est_actual_dollars": 0.73,
-      "approval": "curator 2026-08-16: 'We can try running one of our simple tests that we don't expect to cost more than a few pennies and make sure we get the same results back to validate the wiring itself' - the gear-3 wiring validation, rerunning the head-scope roberta member (local answer 0.8633)",
-      "returncode": 0
+     "at": 1789323870.6310377,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
     },
     {
-      "ts": 1786907572.3954263,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 41.7,
-      "est_actual_dollars": 0.03,
-      "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2",
-      "returncode": 1,
-      "status": "DONE"
+     "at": 1789324407.0517938,
+     "from": "SUBMITTED",
+     "to": "UNKNOWN",
+     "evidence": {
+      "error": "RemoteError('')",
+      "cancellation": {
+       "call_cancel_requested": true,
+       "app_stop": {
+        "app_id": "ap-WUjKm5DZCMRhr3IVxXlJEf",
+        "status": "stop requested; final ownership still requires verification"
+       }
+      }
+     }
     },
     {
-      "ts": 1786907577.6916716,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 37.1,
-      "est_actual_dollars": 0.03,
-      "approval": "curator 2026-08-16: 'I think that initial package is quite reasonable... fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2",
-      "returncode": 1,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786907649.2038898,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --out-tag _g3sA_s42",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 1918.3,
-      "est_actual_dollars": 1.4,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786907743.570074,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --channels results/pan25_channels/hard --out-tag _g3sB_s43",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 1815.9,
-      "est_actual_dollars": 1.32,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786909559.646726,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --out-tag _g3sA_s44",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 2024.4,
-      "est_actual_dollars": 1.48,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786909567.6780078,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 42 --channels results/pan25_channels/hard --out-tag _g3sB_s42",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 1796.6,
-      "est_actual_dollars": 1.31,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786911364.4470105,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 43 --out-tag _g3sA_s43",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 1774.4,
-      "est_actual_dollars": 1.29,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 1 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "ts": 1786911584.174724,
-      "cmd": "runners/run_pan25_winner.py --difficulty hard --seed 44 --channels results/pan25_channels/hard --out-tag _g3sB_s44",
-      "gpu": "A100",
-      "est_dollars": 1.46,
-      "duration_s": 1816.5,
-      "est_actual_dollars": 1.32,
-      "approval": "curator 2026-08-16: 'fire off this Phase 2 cloud package and kick off Gear 3' - the G150 A/B package, chain 2 of 2 (refire after the nltk image fix)",
-      "returncode": 0,
-      "status": "DONE"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "p-cache-v1",
-      "node": "P",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "dda9c5760d5e096aa335feaa0130a391a5b4a2c04dd82c043fe8b9b95638015c"
-      ],
-      "profile": {
-        "job_sha256": "576ee32f6b9fff8df7866bf7b9848d712bfc02a886cc810a2546768960ade3b8",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "c35e6f74adb1577e1070017377f3523c1c3bd0f3617ec797b7771c1dad60ce80",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": null,
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 4096,
-        "memory_limit_mib": 4096,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 600,
-      "expires_at": 1789324410.2929268,
-      "ts": 1789323810.2929268,
-      "reserved_cents": 28,
-      "booked_cents": 28,
-      "overhead_cents": 25,
-      "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "CANCELLED",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 0.28,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789323870.6310377,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789324407.0517938,
-          "from": "SUBMITTED",
-          "to": "UNKNOWN",
-          "evidence": {
-            "error": "RemoteError('')",
-            "cancellation": {
-              "call_cancel_requested": true,
-              "app_stop": {
-                "app_id": "ap-WUjKm5DZCMRhr3IVxXlJEf",
-                "status": "stop requested; final ownership still requires verification"
-              }
-            }
-          }
-        },
-        {
-          "at": 1789324929.444803,
-          "from": "UNKNOWN",
-          "to": "CANCELLED",
-          "evidence": {
-            "reason": "explicit owner Gear 3 hold",
-            "termination_receipt_sha256": "784cb5eaa61ed08fd1fd3616fb362f5a686b2573d015d6e17736314bcd4ed3ca",
-            "provider_state": "STOPPED",
-            "running_tasks": 0
-          }
-        }
-      ],
-      "call_id": "fc-01M2E06XH70DYKCJZV7C73EHW0"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "p-cache-panel-v1",
-      "node": "P",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "66771871a1b81162d9e9918bf0812d168427d80cda5e8d471d51d3d0739bfae7"
-      ],
-      "profile": {
-        "job_sha256": "b39eb71b7ad7196d9256f004f382596999a725dff1775cd4f1cd95a0381b3c50",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": null,
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 4096,
-        "memory_limit_mib": 4096,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3600,
-      "expires_at": 1789340254.7594106,
-      "ts": 1789336654.7594106,
-      "reserved_cents": 38,
-      "booked_cents": 38,
-      "overhead_cents": 25,
-      "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "FAILED",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 0.38,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789336662.0196214,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789336797.1202245,
-          "from": "SUBMITTED",
-          "to": "FAILED",
-          "evidence": {
-            "app_id": "ap-ptnySkScLhutOLov3u6T3j",
-            "call_id": "fc-01M2ECF4MW78W0F8JHPZ5SH2RR",
-            "full_archive_sha256": "39991a4dc6357f3a7ddf198ef8b790e10dc33bbc6111b27048e13c603556e2a2"
-          }
-        }
-      ],
-      "call_id": "fc-01M2ECF4MW78W0F8JHPZ5SH2RR"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "r-cache-panel-v1",
-      "node": "Reserve",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "66771871a1b81162d9e9918bf0812d168427d80cda5e8d471d51d3d0739bfae7"
-      ],
-      "profile": {
-        "job_sha256": "b39eb71b7ad7196d9256f004f382596999a725dff1775cd4f1cd95a0381b3c50",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": null,
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 4096,
-        "memory_limit_mib": 4096,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3600,
-      "expires_at": 1789340254.7594106,
-      "ts": 1789337664.098967,
-      "reserved_cents": 38,
-      "booked_cents": 38,
-      "overhead_cents": 25,
-      "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": "p-cache-panel-v1",
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 0.38,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789337666.7230587,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789338296.7311506,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-970DXENnqnOtdf4JtQZnbS",
-            "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV",
-            "full_archive_sha256": "a2b5c15f6d795d730e429b90382a2f2663263166f1d311acc2329d272a335528"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "p-gpu-panel-v1",
-      "node": "P",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3"
-      ],
-      "profile": {
-        "job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3000,
-      "expires_at": 1789341300.406803,
-      "ts": 1789338300.406803,
-      "reserved_cents": 217,
-      "booked_cents": 217,
-      "overhead_cents": 25,
-      "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "FAILED",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 2.17,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789338303.8301654,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789338991.2104268,
-          "from": "SUBMITTED",
-          "to": "FAILED",
-          "evidence": {
-            "app_id": "ap-YJ9tOGkw1yt3BAmTQzkRYO",
-            "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F",
-            "full_archive_sha256": "19ff8079890e235a879ce4c12e72606ee47a34589e13912a8271aa7e9dc69c18"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "p-context-supplement-v1",
-      "node": "Reserve",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502"
-      ],
-      "profile": {
-        "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 600,
-      "expires_at": 1789348852.8938107,
-      "ts": 1789348252.8938107,
-      "reserved_cents": 64,
-      "booked_cents": 64,
-      "overhead_cents": 25,
-      "approval": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 0.64,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789348256.232515,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789348404.6041505,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-tC8GdzEAobLHBMuPEhsVSZ",
-            "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR",
-            "full_archive_sha256": "a1293bdeefac296aee249c2147e8d5486c7b8396bd419ccf333868dcdab41b8d"
-          }
-        }
-      ],
-      "supplement_authorization": {
-        "schema": "gear3.scoped-supplement-authorization.1",
-        "authorization_id": "G3R1.7-context-supplement",
-        "owner_instruction": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
-        "approved_date": "2026-09-13",
-        "campaign": "G3-S10-READER-1",
-        "campaign_cap_cents": 5000,
-        "invocation": "p-context-supplement-v1",
-        "node": "Reserve",
-        "seconds": 600,
-        "startup_seconds": 300,
-        "overhead_cents": 25,
-        "reservation_cap_cents": 64,
-        "bundle_sha256": "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502",
-        "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
-        "original_invocation": "p-gpu-panel-v1",
-        "original_bundle_sha256": "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3",
-        "original_job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "block": "P-context-boundary-004",
-        "block_sha256": "95310a90ef044fbafa443508d05ec8aab3f2fde1512fc934db1e99c531f7a61c",
-        "units": 2,
-        "models": [
-          "9b",
-          "27b"
-        ],
-        "automatic_retry": false,
-        "original_failed_pilot_and_costs": "retained unchanged",
-        "scope": "Only the two original input-size checks; Ghost reading deferred. Fresh ten-minute supplement clock explicitly approved. No scientific admission until actual returned evidence is verified. Local Stage 10 remains in first gear."
-      },
-      "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-001",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "500cc767e32c1f38b6be2849ce1f83f84cfd4abae9e7ca95c61121186db5ccc0"
-      ],
-      "profile": {
-        "job_sha256": "2b5e501982af5b68b601065b2350500f796bbe93fe5759d35ab6bca1ca09278a",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789352120.3377807,
-      "ts": 1789349996.3377807,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789349999.860474,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789351642.3283458,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-BJLEGR9wu9XziwfHXEaVaN",
-            "call_id": "fc-01M2ES65VMP0X1R8T8TXYS6N4P",
-            "full_archive_sha256": "07dbc2012ce2599e532569d9fcebc1e806e7a85926203a113bf1c60185576f1d"
-          }
-        }
-      ],
-      "call_id": "fc-01M2ES65VMP0X1R8T8TXYS6N4P"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-002",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "826b6000ddaf37c0fac9f4e8b211eacaa79abe092200a411e5286c8e70e1fbd2"
-      ],
-      "profile": {
-        "job_sha256": "0a795e4ce04b22db2e8bc648d4146563ab76b3efa1307879e382fbc176ed9b40",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789353776.2241068,
-      "ts": 1789351652.2241068,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789351655.4031315,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789352451.9865885,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-vJgrGfydKqniOxznciGfip",
-            "call_id": "fc-01M2ETRPJS2WYV2YEW79N0D6GA",
-            "full_archive_sha256": "7a56c84e67ce2f89bb224456e9f05bdc339ce98b12e30a5c72e16456edbe646e"
-          }
-        }
-      ],
-      "call_id": "fc-01M2ETRPJS2WYV2YEW79N0D6GA"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-003",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "f7ccf85b4e185bb6fb4156944c995e600cba971c24126bf9eff8361fbe76dc7c"
-      ],
-      "profile": {
-        "job_sha256": "43a2bffd4f30574d5f7a71cfef0cd2486716c876a86e520715df428f0c96535d",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789354588.5744631,
-      "ts": 1789352464.5744631,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789352467.4705362,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789353292.0796573,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-bNuwONo9Q8XgsO1hXjpWSz",
-            "call_id": "fc-01M2EVHFM3J1K1A77PWVFQ1HWE",
-            "full_archive_sha256": "536bf6355bd09b3d931b863abdb3d96eb6442371fe38e93363def58b515eb4de"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EVHFM3J1K1A77PWVFQ1HWE"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-004",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "96e7b23e8701fb72da610123e4844dfee3ff12b51d4e1f30ff1d2330de0a171a"
-      ],
-      "profile": {
-        "job_sha256": "991f59e80bfd144a9e86a7a02b4173fb95d50606649a216ebe0637b305948c87",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789355425.8835824,
-      "ts": 1789353301.8835824,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789353304.725064,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789354441.3259692,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-pZjK8WmTTITVn7dTrkb44k",
-            "call_id": "fc-01M2EWB18EJWBVJ3BMAZ314JJ6",
-            "full_archive_sha256": "7ad752705338400f2c79cb3989fda9637346f0650e49bdfcc84834b6183fb154"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EWB18EJWBVJ3BMAZ314JJ6"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-005",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "6a83442ea32a7fcdf1e26697753f5323152cea455854aed2ea8afdd2f32edfff"
-      ],
-      "profile": {
-        "job_sha256": "0d62c333f265367df80c53918c169dca42ecef4921c938417038c930c3b3840e",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789356573.5254166,
-      "ts": 1789354449.5254166,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789354453.0050514,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789355263.2771914,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-COpbDZmZI0xaXU7qKDw0TO",
-            "call_id": "fc-01M2EXE2KECHCCN20VWMVCMK7J",
-            "full_archive_sha256": "9d330cc8e054fa4034a622ec34c3e1a4700b7c62b147963fb7fe33679b0ad6d5"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EXE2KECHCCN20VWMVCMK7J"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-006",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "f00395cbf07414d0c8c4cc8a10b19f241705f54855dd83673d49084454289078"
-      ],
-      "profile": {
-        "job_sha256": "f381075697ef99fa25b26e04685160a85531db11f79a1bc33182be322d825588",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789357396.0866194,
-      "ts": 1789355272.0866194,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789355274.8274558,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789356075.337573,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-vVFb9t1lprRKpcW40V4ZMt",
-            "call_id": "fc-01M2EY755MY9P1V57RSTP8B916",
-            "full_archive_sha256": "8b118a78cbadbd1be3f2559d7f055dee635f92ed14c21c1a627804f8dcec7215"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EY755MY9P1V57RSTP8B916"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-007",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "00226be6ed602425372c64f093337abde9143f0e792fd385cdbdced0945e0409"
-      ],
-      "profile": {
-        "job_sha256": "dba40d6e71f88b5aa51e2328a47bf08ec7f913ad41d59a3bcd29b22382be6e26",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789358207.7889647,
-      "ts": 1789356083.7889647,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789356086.544938,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789356899.734654,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-mjTCMJo1WGdbYQDuMlkMw1",
-            "call_id": "fc-01M2EYZXVYC8M95WQPYSYGD0M9",
-            "full_archive_sha256": "7e4d3e0f3d6dfaa3ac3c2fac253b7fc25dda06a349b42042b5497688fe9c7b76"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EYZXVYC8M95WQPYSYGD0M9"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-008",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "8c0bbe8d46f92a409d0643cdaa422688b01991b5697ff58344d5e3e75c9fd171"
-      ],
-      "profile": {
-        "job_sha256": "faa28af16766eab4c1f3247a9089a8b4e263289a62574bbfcf26cc87cdc05db8",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789359032.4923372,
-      "ts": 1789356908.4923372,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789356911.6368237,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789357671.5315378,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-rZUbmjCRq7eaBtO4S2YGzJ",
-            "call_id": "fc-01M2EZS3KPT7FWTGNWC598QR97",
-            "full_archive_sha256": "842736f252667733f3c58e2567940af218f502b73026b7013004af893e98557b"
-          }
-        }
-      ],
-      "call_id": "fc-01M2EZS3KPT7FWTGNWC598QR97"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-009",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "7c972f4c38d64171fcd060341e8fd735e9f2365d01f441e39832657cd25ef9c1"
-      ],
-      "profile": {
-        "job_sha256": "cc734cb1669156ca20e9b03e7446fa5255fdaf14a6c8e8d6fab3317a5d8e8131",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 1251,
-      "expires_at": 1789358931.2042496,
-      "ts": 1789357680.2042496,
-      "reserved_cents": 105,
-      "booked_cents": 105,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.05,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789357683.071937,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789358161.1265965,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-veq12TMpvDYxIKDZQSIlg8",
-            "call_id": "fc-01M2F0GMZ998A42YTHE4YZW9DW",
-            "full_archive_sha256": "c1cd68db09194c084fbbadd7e0ad854e7bba497affed641126b5263465c6a602"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F0GMZ998A42YTHE4YZW9DW"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-a-010",
-      "node": "A",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "2e5f99a700be5492d75233e2f52bfcb58a5e9e8a8e61b410b018a9e7d2eb83a5"
-      ],
-      "profile": {
-        "job_sha256": "8ab8f177c3609c7b79c7f4ff274c59f52305a5f0a3157bbb9e5e02fd1f619d80",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 1157,
-      "expires_at": 1789359326.6452422,
-      "ts": 1789358169.6452422,
-      "reserved_cents": 99,
-      "booked_cents": 99,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 0.99,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789358172.3377588,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789358537.4600723,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-cUPYv8xYbgpBHEQ4uNcKOe",
-            "call_id": "fc-01M2F0ZJRZHA0H7GVJ7KY2KEKR",
-            "full_archive_sha256": "6eaa43df9f9e1a03ff7ab4198d775a6030ed05f85a504f5245d8935726579722"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F0ZJRZHA0H7GVJ7KY2KEKR"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-b-011",
-      "node": "B",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "f046914c6b4b8d62750df4a53c1f29fa3b368993f2a0c96877f8858421f47085"
-      ],
-      "profile": {
-        "job_sha256": "239242ac7846bd73587526e711b0cb4cad1b75aa8d6a8d0e12b1834c921c7cbf",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3247,
-      "expires_at": 1789361793.0140426,
-      "ts": 1789358546.0140426,
-      "reserved_cents": 233,
-      "booked_cents": 233,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 2.33,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789358548.8365753,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789359587.301482,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-HpXVfVfCnW8NLQIQ7cM26g",
-            "call_id": "fc-01M2F1B2E64HAFWPWTD01VF216",
-            "full_archive_sha256": "30dc120208ad6e7e0058bbb5b9f963a460be520d2b10b9f8404ea3b0262e19ea"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F1B2E64HAFWPWTD01VF216"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-b-012",
-      "node": "B",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "d741e6a72d0330953c0559bd901c4d4b3059c568dbe4a938c2df0ce2e7ec48be"
-      ],
-      "profile": {
-        "job_sha256": "50e7509fcd6eb6bd627bb3a55c907a22231d810712b70827607381d66220c79f",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3247,
-      "expires_at": 1789362842.5875711,
-      "ts": 1789359595.5875711,
-      "reserved_cents": 233,
-      "booked_cents": 233,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 2.33,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789359598.4521475,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789361904.9842896,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-cNg0jtlZOhUOUNyT4XxllO",
-            "call_id": "fc-01M2F2B3EN50GQ5WVSTW3EMGEX",
-            "full_archive_sha256": "701ba82eee0f13ddf518004fb3745f80126a6d887e3ab2e6f718723fcb94babd"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F2B3EN50GQ5WVSTW3EMGEX"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-b-013",
-      "node": "B",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "fa9bb9eecdb04089e7dc5a8638edab4c7758ab9ea89477623694ef977bfeaf36"
-      ],
-      "profile": {
-        "job_sha256": "42f03898ba44b4e0504b8cf25fbaa8725546efd441980e49e7c26cb0a16e117a",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 3247,
-      "expires_at": 1789365161.3682086,
-      "ts": 1789361914.3682086,
-      "reserved_cents": 233,
-      "booked_cents": 233,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 2.33,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789361917.0979586,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789363009.607941,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-r7htCMMiZlXNyxSB1VTkvr",
-            "call_id": "fc-01M2F4HVQX0APRC4QT059Z7FSN",
-            "full_archive_sha256": "d7fdaafc6a4b7dd76d33a823a58552e9c78f502d5ce29da7f3fcef326a0e6a59"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F4HVQX0APRC4QT059Z7FSN"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-c-014",
-      "node": "C",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "fb8b1370ed971ec0d601008a087d852edf6830f300cffa06f16bb92eee99776e"
-      ],
-      "profile": {
-        "job_sha256": "09eeab2b5f5f36dfcb36b1389b9983fa774bf4a9c427032850c082a93ce926c3",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 1891,
-      "expires_at": 1789364910.0970976,
-      "ts": 1789363019.0970976,
-      "reserved_cents": 146,
-      "booked_cents": 146,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.46,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789363022.2025592,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789363986.9017217,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-QEVxtpxmwyUuGcOfoGjRSk",
-            "call_id": "fc-01M2F5KJYST6A13GC2VQFSZEG8",
-            "full_archive_sha256": "7a01a2ea94afd40260f667fa7311432070564683d8ecfb0d566b73cf6e65a2c2"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F5KJYST6A13GC2VQFSZEG8"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-c-015",
-      "node": "C",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "4d40ecb912e02371492e415f4edd450a849b8e92e47c1d95804d4b3f8b636e7a"
-      ],
-      "profile": {
-        "job_sha256": "85e6478239bf0e4ec510f84ea639e75cb7dbc419147c1a343155ea093a0b1318",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 1891,
-      "expires_at": 1789365886.9585195,
-      "ts": 1789363995.9585195,
-      "reserved_cents": 146,
-      "booked_cents": 146,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.46,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789363998.8594947,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789364897.1669157,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-uBabvPrDB3r8l0xPONEhLZ",
-            "call_id": "fc-01M2F6HCQ5YBYRCG0SDQZVFTAE",
-            "full_archive_sha256": "ae70d9188910e2ec9b53a7d9ba68db73186c901a19034be61d39d4339a85c0e3"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F6HCQ5YBYRCG0SDQZVFTAE"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-c-016",
-      "node": "C",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "b0d4f5b2dd9e6594645f674d3b5085a12164c25fc1b5435868a5e761bc90564e"
-      ],
-      "profile": {
-        "job_sha256": "7b790ee1b86f841c4e3c705c62fa1d6341207023f39467efc0660e3a2447127d",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 1891,
-      "expires_at": 1789366796.833668,
-      "ts": 1789364905.833668,
-      "reserved_cents": 146,
-      "booked_cents": 146,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.46,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789364908.8441706,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789366346.7571273,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-pb428OIWYUtqaMocnMK6a9",
-            "call_id": "fc-01M2F7D5C68N4MERMYXMBQAVWR",
-            "full_archive_sha256": "0a05dd72419865062de8a6716314817859d5d899bfe61b0dadc77d279d57e280"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F7D5C68N4MERMYXMBQAVWR"
-    },
-    {
-      "campaign_id": "G3-S10-READER-1",
-      "invocation_id": "science-d-017",
-      "node": "D",
-      "command": [
-        "runners/gear3.py",
-        "round1",
-        "49e2b40a9542db3b5f8771986061a13c16befc79cc1c6b7cd7b70f9bf6b260cd"
-      ],
-      "profile": {
-        "job_sha256": "11963f212f500d78bb784d071abae1884349a82660cbe183ef3a11560b3a5a84",
-        "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
-        "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
-        "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
-        "startup_seconds": 300
-      },
-      "resources": {
-        "gpu": "L40S",
-        "cpu_request": 2,
-        "cpu_limit": 2,
-        "memory_request_mib": 32768,
-        "memory_limit_mib": 32768,
-        "max_containers": 1,
-        "concurrency": 1,
-        "retries": 0
-      },
-      "duration_cap_seconds": 2124,
-      "expires_at": 1789368479.8186147,
-      "ts": 1789366355.8186147,
-      "reserved_cents": 161,
-      "booked_cents": 161,
-      "overhead_cents": 25,
-      "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
-      "campaign_authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "recovery_of": null,
-      "status": "COMPLETE",
-      "owner_ended": true,
-      "provider_charge_cents": null,
-      "service_estimate_cents": null,
-      "est_actual_dollars": 1.61,
-      "cost_basis": "entire capped reservation; not an invoice",
-      "events": [
-        {
-          "at": 1789366358.6847036,
-          "from": "RESERVED",
-          "to": "SUBMITTED",
-          "evidence": null
-        },
-        {
-          "at": 1789367982.4677892,
-          "from": "SUBMITTED",
-          "to": "COMPLETE",
-          "evidence": {
-            "app_id": "ap-KxOMkJwD80DvZzKFT835sn",
-            "call_id": "fc-01M2F8SD75A2S3YZZ395J6XEHP",
-            "full_archive_sha256": "d3bda5b7bafb1b31cc02ac5216c196fafb4dfc3a97573367354d1b918839ecc3"
-          }
-        }
-      ],
-      "call_id": "fc-01M2F8SD75A2S3YZZ395J6XEHP"
-    },
-    {
-      "campaign_id": "SL-STAGE12-20260921",
-      "invocation": "pilot",
-      "ts": 1790033151.196606,
-      "expires": 1790037051.1966062,
-      "reserved_cents": 300,
-      "est_actual_dollars": 3.0,
-      "status": "COMPLETE",
-      "approval_sha256": "8ddd5b12bcf71828d58770e0d894bfacae9ef6a985fc626fae94a9cfc10c7c66",
-      "plan_sha256": "f364667821abcf9652b01b51b70492f7eccb7f4d92c3888a1351ff638fdee0e2",
-      "account_sha256": "65c0f8b79f7661380976ecad1ecda20a7947b4d54da1ea80ae127b3206254c42",
-      "payload_sha256": "61deb95bcc1675dada6f1df31d09cc53b7f90bc8966ed2d505d5ba72f49d49ca"
+     "at": 1789324929.444803,
+     "from": "UNKNOWN",
+     "to": "CANCELLED",
+     "evidence": {
+      "reason": "explicit owner Gear 3 hold",
+      "termination_receipt_sha256": "784cb5eaa61ed08fd1fd3616fb362f5a686b2573d015d6e17736314bcd4ed3ca",
+      "provider_state": "STOPPED",
+      "running_tasks": 0
+     }
     }
-  ],
-  "cap_approvals": [],
-  "campaigns": {
-    "G3-S10-READER-1": {
-      "authorization": {
-        "campaign": "G3-S10-READER-1",
-        "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
-        "total_cents": 5000,
-        "ordinary_cents": 4000,
-        "initial_cents": 2000,
-        "node_cents": {
-          "P": 300,
-          "A": 1700,
-          "B": 700,
-          "C": 900,
-          "D": 400,
-          "Reserve": 1000
-        },
-        "resources": {
-          "gpu": "L40S",
-          "cpu_request": 2,
-          "cpu_limit": 2,
-          "memory_request_mib": 32768,
-          "memory_limit_mib": 32768,
-          "max_containers": 1,
-          "concurrency": 1,
-          "retries": 0
-        },
-        "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
-      },
-      "at": 1789323810.2903554
+   ],
+   "call_id": "fc-01M2E06XH70DYKCJZV7C73EHW0"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "p-cache-panel-v1",
+   "node": "P",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "66771871a1b81162d9e9918bf0812d168427d80cda5e8d471d51d3d0739bfae7"
+   ],
+   "profile": {
+    "job_sha256": "b39eb71b7ad7196d9256f004f382596999a725dff1775cd4f1cd95a0381b3c50",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": null,
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 4096,
+    "memory_limit_mib": 4096,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3600,
+   "expires_at": 1789340254.7594106,
+   "ts": 1789336654.7594106,
+   "reserved_cents": 38,
+   "booked_cents": 38,
+   "overhead_cents": 25,
+   "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "FAILED",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 0.38,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789336662.0196214,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789336797.1202245,
+     "from": "SUBMITTED",
+     "to": "FAILED",
+     "evidence": {
+      "app_id": "ap-ptnySkScLhutOLov3u6T3j",
+      "call_id": "fc-01M2ECF4MW78W0F8JHPZ5SH2RR",
+      "full_archive_sha256": "39991a4dc6357f3a7ddf198ef8b790e10dc33bbc6111b27048e13c603556e2a2"
+     }
     }
+   ],
+   "call_id": "fc-01M2ECF4MW78W0F8JHPZ5SH2RR"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "r-cache-panel-v1",
+   "node": "Reserve",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "66771871a1b81162d9e9918bf0812d168427d80cda5e8d471d51d3d0739bfae7"
+   ],
+   "profile": {
+    "job_sha256": "b39eb71b7ad7196d9256f004f382596999a725dff1775cd4f1cd95a0381b3c50",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": null,
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 4096,
+    "memory_limit_mib": 4096,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3600,
+   "expires_at": 1789340254.7594106,
+   "ts": 1789337664.098967,
+   "reserved_cents": 38,
+   "booked_cents": 38,
+   "overhead_cents": 25,
+   "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": "p-cache-panel-v1",
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 0.38,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789337666.7230587,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789338296.7311506,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-970DXENnqnOtdf4JtQZnbS",
+      "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV",
+      "full_archive_sha256": "a2b5c15f6d795d730e429b90382a2f2663263166f1d311acc2329d272a335528"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EDDSSXFP2D2ZP2C8GSPJSV"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "p-gpu-panel-v1",
+   "node": "P",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3"
+   ],
+   "profile": {
+    "job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3000,
+   "expires_at": 1789341300.406803,
+   "ts": 1789338300.406803,
+   "reserved_cents": 217,
+   "booked_cents": 217,
+   "overhead_cents": 25,
+   "approval": "Owner 2026-09-13 G3R1.6: implement panel repairs, pass final validation and start Round 1. Explicit post-hold fresh pilot launch; prior timed-out cache, expired identity and 28-cent booking remain immutable. New bounded cache completion and first GPU pilot total at most 255 additional cents.",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "FAILED",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 2.17,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789338303.8301654,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789338991.2104268,
+     "from": "SUBMITTED",
+     "to": "FAILED",
+     "evidence": {
+      "app_id": "ap-YJ9tOGkw1yt3BAmTQzkRYO",
+      "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F",
+      "full_archive_sha256": "19ff8079890e235a879ce4c12e72606ee47a34589e13912a8271aa7e9dc69c18"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EE17Z26EW5AVNV5ZF2725F"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "p-context-supplement-v1",
+   "node": "Reserve",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502"
+   ],
+   "profile": {
+    "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 600,
+   "expires_at": 1789348852.8938107,
+   "ts": 1789348252.8938107,
+   "reserved_cents": 64,
+   "booked_cents": 64,
+   "overhead_cents": 25,
+   "approval": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 0.64,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789348256.232515,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789348404.6041505,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-tC8GdzEAobLHBMuPEhsVSZ",
+      "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR",
+      "full_archive_sha256": "a1293bdeefac296aee249c2147e8d5486c7b8396bd419ccf333868dcdab41b8d"
+     }
+    }
+   ],
+   "supplement_authorization": {
+    "schema": "gear3.scoped-supplement-authorization.1",
+    "authorization_id": "G3R1.7-context-supplement",
+    "owner_instruction": "I approve the supplement, keeping the existing cap unchanged. Continue with gear three.",
+    "approved_date": "2026-09-13",
+    "campaign": "G3-S10-READER-1",
+    "campaign_cap_cents": 5000,
+    "invocation": "p-context-supplement-v1",
+    "node": "Reserve",
+    "seconds": 600,
+    "startup_seconds": 300,
+    "overhead_cents": 25,
+    "reservation_cap_cents": 64,
+    "bundle_sha256": "a99915e5cfd60d5a9e03a6f04e0e1e877841f357f9a43b84a3083cfe200b8502",
+    "job_sha256": "90bd153ee6a9c7ec95550d98c290f20f5ea0a95189fb202a45778f14b82a1faa",
+    "original_invocation": "p-gpu-panel-v1",
+    "original_bundle_sha256": "277309a5beeaa1da553bb2ce06e431ce41b96da462542833b70d052fd6fbf5e3",
+    "original_job_sha256": "e62f391b6aebc65a326d344e6ae35b7aa75f26a3baa887e6fe241e5f3919cb64",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "block": "P-context-boundary-004",
+    "block_sha256": "95310a90ef044fbafa443508d05ec8aab3f2fde1512fc934db1e99c531f7a61c",
+    "units": 2,
+    "models": [
+     "9b",
+     "27b"
+    ],
+    "automatic_retry": false,
+    "original_failed_pilot_and_costs": "retained unchanged",
+    "scope": "Only the two original input-size checks; Ghost reading deferred. Fresh ten-minute supplement clock explicitly approved. No scientific admission until actual returned evidence is verified. Local Stage 10 remains in first gear."
+   },
+   "call_id": "fc-01M2EQGZ3PK3MJRRYQF6NMRMHR"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-001",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "500cc767e32c1f38b6be2849ce1f83f84cfd4abae9e7ca95c61121186db5ccc0"
+   ],
+   "profile": {
+    "job_sha256": "2b5e501982af5b68b601065b2350500f796bbe93fe5759d35ab6bca1ca09278a",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789352120.3377807,
+   "ts": 1789349996.3377807,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789349999.860474,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789351642.3283458,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-BJLEGR9wu9XziwfHXEaVaN",
+      "call_id": "fc-01M2ES65VMP0X1R8T8TXYS6N4P",
+      "full_archive_sha256": "07dbc2012ce2599e532569d9fcebc1e806e7a85926203a113bf1c60185576f1d"
+     }
+    }
+   ],
+   "call_id": "fc-01M2ES65VMP0X1R8T8TXYS6N4P"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-002",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "826b6000ddaf37c0fac9f4e8b211eacaa79abe092200a411e5286c8e70e1fbd2"
+   ],
+   "profile": {
+    "job_sha256": "0a795e4ce04b22db2e8bc648d4146563ab76b3efa1307879e382fbc176ed9b40",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789353776.2241068,
+   "ts": 1789351652.2241068,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789351655.4031315,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789352451.9865885,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-vJgrGfydKqniOxznciGfip",
+      "call_id": "fc-01M2ETRPJS2WYV2YEW79N0D6GA",
+      "full_archive_sha256": "7a56c84e67ce2f89bb224456e9f05bdc339ce98b12e30a5c72e16456edbe646e"
+     }
+    }
+   ],
+   "call_id": "fc-01M2ETRPJS2WYV2YEW79N0D6GA"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-003",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "f7ccf85b4e185bb6fb4156944c995e600cba971c24126bf9eff8361fbe76dc7c"
+   ],
+   "profile": {
+    "job_sha256": "43a2bffd4f30574d5f7a71cfef0cd2486716c876a86e520715df428f0c96535d",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789354588.5744631,
+   "ts": 1789352464.5744631,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789352467.4705362,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789353292.0796573,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-bNuwONo9Q8XgsO1hXjpWSz",
+      "call_id": "fc-01M2EVHFM3J1K1A77PWVFQ1HWE",
+      "full_archive_sha256": "536bf6355bd09b3d931b863abdb3d96eb6442371fe38e93363def58b515eb4de"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EVHFM3J1K1A77PWVFQ1HWE"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-004",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "96e7b23e8701fb72da610123e4844dfee3ff12b51d4e1f30ff1d2330de0a171a"
+   ],
+   "profile": {
+    "job_sha256": "991f59e80bfd144a9e86a7a02b4173fb95d50606649a216ebe0637b305948c87",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789355425.8835824,
+   "ts": 1789353301.8835824,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789353304.725064,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789354441.3259692,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-pZjK8WmTTITVn7dTrkb44k",
+      "call_id": "fc-01M2EWB18EJWBVJ3BMAZ314JJ6",
+      "full_archive_sha256": "7ad752705338400f2c79cb3989fda9637346f0650e49bdfcc84834b6183fb154"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EWB18EJWBVJ3BMAZ314JJ6"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-005",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "6a83442ea32a7fcdf1e26697753f5323152cea455854aed2ea8afdd2f32edfff"
+   ],
+   "profile": {
+    "job_sha256": "0d62c333f265367df80c53918c169dca42ecef4921c938417038c930c3b3840e",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789356573.5254166,
+   "ts": 1789354449.5254166,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789354453.0050514,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789355263.2771914,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-COpbDZmZI0xaXU7qKDw0TO",
+      "call_id": "fc-01M2EXE2KECHCCN20VWMVCMK7J",
+      "full_archive_sha256": "9d330cc8e054fa4034a622ec34c3e1a4700b7c62b147963fb7fe33679b0ad6d5"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EXE2KECHCCN20VWMVCMK7J"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-006",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "f00395cbf07414d0c8c4cc8a10b19f241705f54855dd83673d49084454289078"
+   ],
+   "profile": {
+    "job_sha256": "f381075697ef99fa25b26e04685160a85531db11f79a1bc33182be322d825588",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789357396.0866194,
+   "ts": 1789355272.0866194,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789355274.8274558,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789356075.337573,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-vVFb9t1lprRKpcW40V4ZMt",
+      "call_id": "fc-01M2EY755MY9P1V57RSTP8B916",
+      "full_archive_sha256": "8b118a78cbadbd1be3f2559d7f055dee635f92ed14c21c1a627804f8dcec7215"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EY755MY9P1V57RSTP8B916"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-007",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "00226be6ed602425372c64f093337abde9143f0e792fd385cdbdced0945e0409"
+   ],
+   "profile": {
+    "job_sha256": "dba40d6e71f88b5aa51e2328a47bf08ec7f913ad41d59a3bcd29b22382be6e26",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789358207.7889647,
+   "ts": 1789356083.7889647,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789356086.544938,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789356899.734654,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-mjTCMJo1WGdbYQDuMlkMw1",
+      "call_id": "fc-01M2EYZXVYC8M95WQPYSYGD0M9",
+      "full_archive_sha256": "7e4d3e0f3d6dfaa3ac3c2fac253b7fc25dda06a349b42042b5497688fe9c7b76"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EYZXVYC8M95WQPYSYGD0M9"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-008",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "8c0bbe8d46f92a409d0643cdaa422688b01991b5697ff58344d5e3e75c9fd171"
+   ],
+   "profile": {
+    "job_sha256": "faa28af16766eab4c1f3247a9089a8b4e263289a62574bbfcf26cc87cdc05db8",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789359032.4923372,
+   "ts": 1789356908.4923372,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789356911.6368237,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789357671.5315378,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-rZUbmjCRq7eaBtO4S2YGzJ",
+      "call_id": "fc-01M2EZS3KPT7FWTGNWC598QR97",
+      "full_archive_sha256": "842736f252667733f3c58e2567940af218f502b73026b7013004af893e98557b"
+     }
+    }
+   ],
+   "call_id": "fc-01M2EZS3KPT7FWTGNWC598QR97"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-009",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "7c972f4c38d64171fcd060341e8fd735e9f2365d01f441e39832657cd25ef9c1"
+   ],
+   "profile": {
+    "job_sha256": "cc734cb1669156ca20e9b03e7446fa5255fdaf14a6c8e8d6fab3317a5d8e8131",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 1251,
+   "expires_at": 1789358931.2042496,
+   "ts": 1789357680.2042496,
+   "reserved_cents": 105,
+   "booked_cents": 105,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.05,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789357683.071937,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789358161.1265965,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-veq12TMpvDYxIKDZQSIlg8",
+      "call_id": "fc-01M2F0GMZ998A42YTHE4YZW9DW",
+      "full_archive_sha256": "c1cd68db09194c084fbbadd7e0ad854e7bba497affed641126b5263465c6a602"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F0GMZ998A42YTHE4YZW9DW"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-a-010",
+   "node": "A",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "2e5f99a700be5492d75233e2f52bfcb58a5e9e8a8e61b410b018a9e7d2eb83a5"
+   ],
+   "profile": {
+    "job_sha256": "8ab8f177c3609c7b79c7f4ff274c59f52305a5f0a3157bbb9e5e02fd1f619d80",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 1157,
+   "expires_at": 1789359326.6452422,
+   "ts": 1789358169.6452422,
+   "reserved_cents": 99,
+   "booked_cents": 99,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 0.99,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789358172.3377588,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789358537.4600723,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-cUPYv8xYbgpBHEQ4uNcKOe",
+      "call_id": "fc-01M2F0ZJRZHA0H7GVJ7KY2KEKR",
+      "full_archive_sha256": "6eaa43df9f9e1a03ff7ab4198d775a6030ed05f85a504f5245d8935726579722"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F0ZJRZHA0H7GVJ7KY2KEKR"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-b-011",
+   "node": "B",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "f046914c6b4b8d62750df4a53c1f29fa3b368993f2a0c96877f8858421f47085"
+   ],
+   "profile": {
+    "job_sha256": "239242ac7846bd73587526e711b0cb4cad1b75aa8d6a8d0e12b1834c921c7cbf",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3247,
+   "expires_at": 1789361793.0140426,
+   "ts": 1789358546.0140426,
+   "reserved_cents": 233,
+   "booked_cents": 233,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 2.33,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789358548.8365753,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789359587.301482,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-HpXVfVfCnW8NLQIQ7cM26g",
+      "call_id": "fc-01M2F1B2E64HAFWPWTD01VF216",
+      "full_archive_sha256": "30dc120208ad6e7e0058bbb5b9f963a460be520d2b10b9f8404ea3b0262e19ea"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F1B2E64HAFWPWTD01VF216"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-b-012",
+   "node": "B",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "d741e6a72d0330953c0559bd901c4d4b3059c568dbe4a938c2df0ce2e7ec48be"
+   ],
+   "profile": {
+    "job_sha256": "50e7509fcd6eb6bd627bb3a55c907a22231d810712b70827607381d66220c79f",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3247,
+   "expires_at": 1789362842.5875711,
+   "ts": 1789359595.5875711,
+   "reserved_cents": 233,
+   "booked_cents": 233,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 2.33,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789359598.4521475,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789361904.9842896,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-cNg0jtlZOhUOUNyT4XxllO",
+      "call_id": "fc-01M2F2B3EN50GQ5WVSTW3EMGEX",
+      "full_archive_sha256": "701ba82eee0f13ddf518004fb3745f80126a6d887e3ab2e6f718723fcb94babd"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F2B3EN50GQ5WVSTW3EMGEX"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-b-013",
+   "node": "B",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "fa9bb9eecdb04089e7dc5a8638edab4c7758ab9ea89477623694ef977bfeaf36"
+   ],
+   "profile": {
+    "job_sha256": "42f03898ba44b4e0504b8cf25fbaa8725546efd441980e49e7c26cb0a16e117a",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 3247,
+   "expires_at": 1789365161.3682086,
+   "ts": 1789361914.3682086,
+   "reserved_cents": 233,
+   "booked_cents": 233,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 2.33,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789361917.0979586,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789363009.607941,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-r7htCMMiZlXNyxSB1VTkvr",
+      "call_id": "fc-01M2F4HVQX0APRC4QT059Z7FSN",
+      "full_archive_sha256": "d7fdaafc6a4b7dd76d33a823a58552e9c78f502d5ce29da7f3fcef326a0e6a59"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F4HVQX0APRC4QT059Z7FSN"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-c-014",
+   "node": "C",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "fb8b1370ed971ec0d601008a087d852edf6830f300cffa06f16bb92eee99776e"
+   ],
+   "profile": {
+    "job_sha256": "09eeab2b5f5f36dfcb36b1389b9983fa774bf4a9c427032850c082a93ce926c3",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 1891,
+   "expires_at": 1789364910.0970976,
+   "ts": 1789363019.0970976,
+   "reserved_cents": 146,
+   "booked_cents": 146,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.46,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789363022.2025592,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789363986.9017217,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-QEVxtpxmwyUuGcOfoGjRSk",
+      "call_id": "fc-01M2F5KJYST6A13GC2VQFSZEG8",
+      "full_archive_sha256": "7a01a2ea94afd40260f667fa7311432070564683d8ecfb0d566b73cf6e65a2c2"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F5KJYST6A13GC2VQFSZEG8"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-c-015",
+   "node": "C",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "4d40ecb912e02371492e415f4edd450a849b8e92e47c1d95804d4b3f8b636e7a"
+   ],
+   "profile": {
+    "job_sha256": "85e6478239bf0e4ec510f84ea639e75cb7dbc419147c1a343155ea093a0b1318",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 1891,
+   "expires_at": 1789365886.9585195,
+   "ts": 1789363995.9585195,
+   "reserved_cents": 146,
+   "booked_cents": 146,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.46,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789363998.8594947,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789364897.1669157,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-uBabvPrDB3r8l0xPONEhLZ",
+      "call_id": "fc-01M2F6HCQ5YBYRCG0SDQZVFTAE",
+      "full_archive_sha256": "ae70d9188910e2ec9b53a7d9ba68db73186c901a19034be61d39d4339a85c0e3"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F6HCQ5YBYRCG0SDQZVFTAE"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-c-016",
+   "node": "C",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "b0d4f5b2dd9e6594645f674d3b5085a12164c25fc1b5435868a5e761bc90564e"
+   ],
+   "profile": {
+    "job_sha256": "7b790ee1b86f841c4e3c705c62fa1d6341207023f39467efc0660e3a2447127d",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 1891,
+   "expires_at": 1789366796.833668,
+   "ts": 1789364905.833668,
+   "reserved_cents": 146,
+   "booked_cents": 146,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.46,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789364908.8441706,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789366346.7571273,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-pb428OIWYUtqaMocnMK6a9",
+      "call_id": "fc-01M2F7D5C68N4MERMYXMBQAVWR",
+      "full_archive_sha256": "0a05dd72419865062de8a6716314817859d5d899bfe61b0dadc77d279d57e280"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F7D5C68N4MERMYXMBQAVWR"
+  },
+  {
+   "campaign_id": "G3-S10-READER-1",
+   "invocation_id": "science-d-017",
+   "node": "D",
+   "command": [
+    "runners/gear3.py",
+    "round1",
+    "49e2b40a9542db3b5f8771986061a13c16befc79cc1c6b7cd7b70f9bf6b260cd"
+   ],
+   "profile": {
+    "job_sha256": "11963f212f500d78bb784d071abae1884349a82660cbe183ef3a11560b3a5a84",
+    "image": "ollama/ollama@sha256:9d30908e41144b1f1da89b9d8e33c07e4aeb43ff41a8660241b1686e2cc330ad",
+    "account_evidence_sha256": "529e8e47a9b7e41c7a22a0925c267729f0d43a4baf705c7cf621c0c861cde71c",
+    "authenticated_workspace_sha256": "c4acb3bba080c045f00e722b05bb3d5ea7097a5b3227c8b38f4e47eac49e61ae",
+    "startup_seconds": 300
+   },
+   "resources": {
+    "gpu": "L40S",
+    "cpu_request": 2,
+    "cpu_limit": 2,
+    "memory_request_mib": 32768,
+    "memory_limit_mib": 32768,
+    "max_containers": 1,
+    "concurrency": 1,
+    "retries": 0
+   },
+   "duration_cap_seconds": 2124,
+   "expires_at": 1789368479.8186147,
+   "ts": 1789366355.8186147,
+   "reserved_cents": 161,
+   "booked_cents": 161,
+   "overhead_cents": 25,
+   "approval": "Owner September 13 conditional rollout after panel repairs and final validation; $50 ceiling and lower account limits retained",
+   "campaign_authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "recovery_of": null,
+   "status": "COMPLETE",
+   "owner_ended": true,
+   "provider_charge_cents": null,
+   "service_estimate_cents": null,
+   "est_actual_dollars": 1.61,
+   "cost_basis": "entire capped reservation; not an invoice",
+   "events": [
+    {
+     "at": 1789366358.6847036,
+     "from": "RESERVED",
+     "to": "SUBMITTED",
+     "evidence": null
+    },
+    {
+     "at": 1789367982.4677892,
+     "from": "SUBMITTED",
+     "to": "COMPLETE",
+     "evidence": {
+      "app_id": "ap-KxOMkJwD80DvZzKFT835sn",
+      "call_id": "fc-01M2F8SD75A2S3YZZ395J6XEHP",
+      "full_archive_sha256": "d3bda5b7bafb1b31cc02ac5216c196fafb4dfc3a97573367354d1b918839ecc3"
+     }
+    }
+   ],
+   "call_id": "fc-01M2F8SD75A2S3YZZ395J6XEHP"
+  },
+  {
+   "campaign_id": "SL-STAGE12-20260921",
+   "invocation": "pilot",
+   "ts": 1790033151.196606,
+   "expires": 1790037051.1966062,
+   "reserved_cents": 300,
+   "est_actual_dollars": 3.0,
+   "status": "COMPLETE",
+   "approval_sha256": "8ddd5b12bcf71828d58770e0d894bfacae9ef6a985fc626fae94a9cfc10c7c66",
+   "plan_sha256": "f364667821abcf9652b01b51b70492f7eccb7f4d92c3888a1351ff638fdee0e2",
+   "account_sha256": "65c0f8b79f7661380976ecad1ecda20a7947b4d54da1ea80ae127b3206254c42",
+   "payload_sha256": "61deb95bcc1675dada6f1df31d09cc53b7f90bc8966ed2d505d5ba72f49d49ca"
+  },
+  {
+   "campaign_id": "SL-STAGE12-20260921",
+   "invocation": "output-cap-v2-pilot",
+   "ts": 1790214236.6165643,
+   "expires": 1790218136.6165643,
+   "reserved_cents": 300,
+   "est_actual_dollars": 3.0,
+   "status": "COMPLETE",
+   "approval_sha256": "876cbc2060a742c8259ef27f7c7b6bade702c52da6a8a6d801465997127c12f2",
+   "plan_sha256": "8894e2e8e8098c60ef5b71b1e50dd896bdb79f1bc487fa3034bcc5c1989682a3",
+   "account_sha256": "d6734265c0525b3f2212dd31cb5e3e6d021ba57c0198996b22752742fab1f925",
+   "payload_sha256": "6513d856823cf0d2dab90aaa665a4a4fc00c107d49ed445779de727892a76d3f"
+  },
+  {
+   "campaign_id": "SL-STAGE12-20260921",
+   "invocation": "output-cap-v2-main",
+   "ts": 1790214604.0723317,
+   "expires": 1790224238.0723324,
+   "reserved_cents": 666,
+   "est_actual_dollars": 6.66,
+   "status": "RESERVED",
+   "approval_sha256": "876cbc2060a742c8259ef27f7c7b6bade702c52da6a8a6d801465997127c12f2",
+   "plan_sha256": "8894e2e8e8098c60ef5b71b1e50dd896bdb79f1bc487fa3034bcc5c1989682a3",
+   "account_sha256": "d6734265c0525b3f2212dd31cb5e3e6d021ba57c0198996b22752742fab1f925",
+   "payload_sha256": "2f4ff93ac57dabebc07fa7a2de713453b4def25349af1eedb1a404edd42d7616"
   }
+ ],
+ "cap_approvals": [],
+ "campaigns": {
+  "G3-S10-READER-1": {
+   "authorization": {
+    "campaign": "G3-S10-READER-1",
+    "spec_sha256": "6fbd1e32b63db00d8350812ab7d627e06d4ab6ef87a3d8fc3c1b199fda4596f9",
+    "total_cents": 5000,
+    "ordinary_cents": 4000,
+    "initial_cents": 2000,
+    "node_cents": {
+     "P": 300,
+     "A": 1700,
+     "B": 700,
+     "C": 900,
+     "D": 400,
+     "Reserve": 1000
+    },
+    "resources": {
+     "gpu": "L40S",
+     "cpu_request": 2,
+     "cpu_limit": 2,
+     "memory_request_mib": 32768,
+     "memory_limit_mib": 32768,
+     "max_containers": 1,
+     "concurrency": 1,
+     "retries": 0
+    },
+    "approval": "2026-09-13 curator commission: set up and run prescribed Gear 3 Round 1 carefully under its supplied $50 specification; provenance G3R1.5"
+   },
+   "at": 1789323810.2903554
+  }
+ }
 }

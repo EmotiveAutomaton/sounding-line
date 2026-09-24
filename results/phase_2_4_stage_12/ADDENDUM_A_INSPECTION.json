@@ -1,0 +1,757 @@
+{
+  "all_attempt_reproduces_original": true,
+  "at": "2026-09-24T01:46:04.634937+00:00",
+  "audit_outputs": {
+    "CASES.json": "bc030ef9fce35927039591f51f0994217d46279ac4866e9fda7a23e17b1b5f67",
+    "CHARGE_SNAPSHOT.json": "062db3bdd2d235f445298ee87e184d056dab0f61602ca9bdacd5d3ca69e7662b",
+    "FAILURES.json": "d9d341a41d808ac3c2019974f7c57e6ba321f2f8ae53e79f4f9655c3f5a65df4",
+    "HUMAN_COMPLETE_PAIRS.json": "2991a05b45adaca2effadb99e893cfb6fad7085e44c558b590586bfb32383798",
+    "INVENTORY.json": "0a252214d5e3aa0f16181e6a0e66eb75987de06f8139dff7ec0224a567cd440c",
+    "SUPPORT_MAP.json": "eb4b32cde7e23ce956b43d81cf4319f7cdb3f686a8d1655560eeed3b33491978"
+  },
+  "case_roles": [
+    "artifact-only",
+    "correct-context",
+    "misleading-context",
+    "witnessed-process",
+    "ambiguous-process",
+    "cheap-rival",
+    "supplied-answer-execution",
+    "failed-or-invalid-reading"
+  ],
+  "case_selection": "source order and declared evidence condition; invalid role uses prior invalid response; no new addendum outcomes",
+  "complete_pair_views": [
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 4.035714285714286,
+        "covered": 0.6488095238095238,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.44642857142857145,
+            "brier": 0.5423412698412698,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.4107142857142857,
+            "brier": 0.5493291170634921,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.4642857142857143,
+            "brier": 0.503375850340136,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.5357142857142857,
+          "brier": 0.43029761904761904,
+          "log_loss": "infinite"
+        },
+        "invalid": 3,
+        "positive_per_episode": 1.8571428571428572,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 12,
+      "method": "account",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 5.05,
+        "covered": 0.8583333333333334,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5916666666666666,
+            "brier": 0.4073888888888889,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.525,
+            "brier": 0.4312135416666667,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.5666666666666667,
+            "brier": 0.39044047619047617,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 12,
+        "handling": {
+          "accuracy": 0.75,
+          "brier": 0.21508333333333335,
+          "log_loss": 0.8835051955652009
+        },
+        "invalid": 0,
+        "positive_per_episode": 2.0,
+        "prompt_components": 2,
+        "sessions": 11,
+        "writers": 10
+      },
+      "view": "alternatives"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 2.6785714285714284,
+        "covered": 0.8214285714285714,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.7976190476190476,
+            "brier": 0.14600869909782221,
+            "log_loss": 0.5547188458836622
+          },
+          "operation": {
+            "accuracy": 0.7976190476190476,
+            "brier": 0.14705063342137045,
+            "log_loss": 0.6045737758803494
+          },
+          "relation": {
+            "accuracy": 0.7678571428571429,
+            "brier": 0.17072841055640817,
+            "log_loss": 0.6506500279276547
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.6785714285714286,
+          "brier": 0.2627246033889296,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 1.8214285714285714,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 12,
+      "method": "alignment",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 1.85,
+        "covered": 0.85,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8666666666666666,
+            "brier": 0.09974136263144462,
+            "log_loss": 0.37974650427033946
+          },
+          "operation": {
+            "accuracy": 0.8666666666666666,
+            "brier": 0.10123295435418442,
+            "log_loss": 0.42985344455422725
+          },
+          "relation": {
+            "accuracy": 0.825,
+            "brier": 0.13198560422830785,
+            "log_loss": 0.48081663587484413
+          }
+        },
+        "episodes": 12,
+        "handling": {
+          "accuracy": 0.75,
+          "brier": 0.22031948355901906,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 2.05,
+        "prompt_components": 2,
+        "sessions": 11,
+        "writers": 10
+      },
+      "view": "alternatives"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 3.0357142857142856,
+        "covered": 0.5833333333333333,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.41666666666666663,
+            "brier": 0.5967857142857144,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.3988095238095238,
+            "brier": 0.5822321428571428,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.48214285714285715,
+            "brier": 0.49822278911564627,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.5714285714285714,
+          "brier": 0.41666666666666663,
+          "log_loss": "infinite"
+        },
+        "invalid": 4,
+        "positive_per_episode": 1.5,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 12,
+      "method": "direct",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 4.25,
+        "covered": 0.8166666666666667,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5833333333333333,
+            "brier": 0.43549999999999994,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.5583333333333333,
+            "brier": 0.415125,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.675,
+            "brier": 0.29751190476190476,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 12,
+        "handling": {
+          "accuracy": 0.8,
+          "brier": 0.18333333333333332,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 2.1,
+        "prompt_components": 2,
+        "sessions": 11,
+        "writers": 10
+      },
+      "view": "alternatives"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 2.892857142857143,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16236514136904762,
+            "log_loss": 0.6099427360635808
+          },
+          "operation": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16294642857142858,
+            "log_loss": 0.6624425739694916
+          },
+          "relation": {
+            "accuracy": 0.8035714285714286,
+            "brier": 0.16632952008928573,
+            "log_loss": 0.6625803801515964
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.7142857142857143,
+          "brier": 0.23025948660714285,
+          "log_loss": 0.8279608765143313
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 12,
+      "method": "marginal_prior",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 2.05,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.875,
+            "brier": 0.11787109375,
+            "log_loss": 0.4660393599573637
+          },
+          "operation": {
+            "accuracy": 0.875,
+            "brier": 0.11860119047619047,
+            "log_loss": 0.5132034308526562
+          },
+          "relation": {
+            "accuracy": 0.8583333333333334,
+            "brier": 0.12957356770833334,
+            "log_loss": 0.5283209756813755
+          }
+        },
+        "episodes": 12,
+        "handling": {
+          "accuracy": 0.8,
+          "brier": 0.18740234375,
+          "log_loss": 0.6825715327660882
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 2,
+        "sessions": 11,
+        "writers": 10
+      },
+      "view": "alternatives"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 3.0357142857142856,
+        "covered": 0.5833333333333333,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.41666666666666663,
+            "brier": 0.5967857142857144,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.3988095238095238,
+            "brier": 0.5822321428571428,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.48214285714285715,
+            "brier": 0.49822278911564627,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.5714285714285714,
+          "brier": 0.41666666666666663,
+          "log_loss": "infinite"
+        },
+        "invalid": 4,
+        "positive_per_episode": 1.5,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 12,
+      "method": "review",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 4.25,
+        "covered": 0.8166666666666667,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5833333333333333,
+            "brier": 0.43549999999999994,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.5583333333333333,
+            "brier": 0.415125,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.675,
+            "brier": 0.29751190476190476,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 12,
+        "handling": {
+          "accuracy": 0.8,
+          "brier": 0.18333333333333332,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 2.1,
+        "prompt_components": 2,
+        "sessions": 11,
+        "writers": 10
+      },
+      "view": "alternatives"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 4.821428571428571,
+        "covered": 0.7619047619047619,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5059523809523809,
+            "brier": 0.5085714285714286,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.48214285714285715,
+            "brier": 0.4774404761904762,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.4523809523809524,
+            "brier": 0.5080272108843538,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.5,
+          "brier": 0.49166666666666664,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 1.6071428571428572,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 13,
+      "method": "account",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 4.75,
+        "covered": 0.8333333333333334,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.4930555555555555,
+            "brier": 0.5042592592592593,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.5416666666666666,
+            "brier": 0.45541666666666664,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.5208333333333334,
+            "brier": 0.4763095238095238,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 13,
+        "handling": {
+          "accuracy": 0.5416666666666666,
+          "brier": 0.4488888888888889,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 1.4583333333333333,
+        "prompt_components": 3,
+        "sessions": 12,
+        "writers": 12
+      },
+      "view": "artifact"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 2.892857142857143,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16236514136904762,
+            "log_loss": 0.6099427360635808
+          },
+          "operation": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16294642857142858,
+            "log_loss": 0.6624425739694916
+          },
+          "relation": {
+            "accuracy": 0.8035714285714286,
+            "brier": 0.16632952008928573,
+            "log_loss": 0.6625803801515964
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.7142857142857143,
+          "brier": 0.23025948660714285,
+          "log_loss": 0.8279608765143313
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 13,
+      "method": "alignment",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 2.4166666666666665,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16075303819444445,
+            "log_loss": 0.6261513654117334
+          },
+          "operation": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16139632936507936,
+            "log_loss": 0.6850812726310046
+          },
+          "relation": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16099717881944445,
+            "log_loss": 0.6761008731009137
+          }
+        },
+        "episodes": 13,
+        "handling": {
+          "accuracy": 0.7916666666666666,
+          "brier": 0.20458984375,
+          "log_loss": 0.781691012826481
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 3,
+        "sessions": 12,
+        "writers": 12
+      },
+      "view": "artifact"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 4.321428571428571,
+        "covered": 0.75,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.4107142857142857,
+            "brier": 0.5885714285714286,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.40476190476190477,
+            "brier": 0.5952380952380952,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.47619047619047616,
+            "brier": 0.5238095238095238,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.35714285714285715,
+          "brier": 0.6430952380952382,
+          "log_loss": "infinite"
+        },
+        "invalid": 3,
+        "positive_per_episode": 0.75,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 13,
+      "method": "direct",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 5.25,
+        "covered": 0.9166666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5069444444444444,
+            "brier": 0.4913888888888889,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.5069444444444444,
+            "brier": 0.4930555555555556,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.5763888888888888,
+            "brier": 0.4236111111111111,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 13,
+        "handling": {
+          "accuracy": 0.4583333333333333,
+          "brier": 0.5422222222222223,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 0.9583333333333334,
+        "prompt_components": 3,
+        "sessions": 12,
+        "writers": 12
+      },
+      "view": "artifact"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 2.892857142857143,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16236514136904762,
+            "log_loss": 0.6099427360635808
+          },
+          "operation": {
+            "accuracy": 0.8154761904761905,
+            "brier": 0.16294642857142858,
+            "log_loss": 0.6624425739694916
+          },
+          "relation": {
+            "accuracy": 0.8035714285714286,
+            "brier": 0.16632952008928573,
+            "log_loss": 0.6625803801515964
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.7142857142857143,
+          "brier": 0.23025948660714285,
+          "log_loss": 0.8279608765143313
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 13,
+      "method": "marginal_prior",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 2.4166666666666665,
+        "covered": 0.6666666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16075303819444445,
+            "log_loss": 0.6261513654117334
+          },
+          "operation": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16139632936507936,
+            "log_loss": 0.6850812726310046
+          },
+          "relation": {
+            "accuracy": 0.8333333333333334,
+            "brier": 0.16099717881944445,
+            "log_loss": 0.6761008731009137
+          }
+        },
+        "episodes": 13,
+        "handling": {
+          "accuracy": 0.7916666666666666,
+          "brier": 0.20458984375,
+          "log_loss": 0.781691012826481
+        },
+        "invalid": 0,
+        "positive_per_episode": 3.0,
+        "prompt_components": 3,
+        "sessions": 12,
+        "writers": 12
+      },
+      "view": "artifact"
+    },
+    {
+      "all_attempt": {
+        "contradicted_per_episode": 5.535714285714286,
+        "covered": 0.9285714285714286,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5238095238095238,
+            "brier": 0.47547619047619044,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.4761904761904762,
+            "brier": 0.5238095238095238,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.6130952380952381,
+            "brier": 0.38690476190476186,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 16,
+        "handling": {
+          "accuracy": 0.42857142857142855,
+          "brier": 0.5716666666666667,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 1.6785714285714286,
+        "prompt_components": 2,
+        "sessions": 15,
+        "writers": 14
+      },
+      "attempted": 16,
+      "complete_pairs": 13,
+      "method": "review",
+      "secondary_complete_pair": {
+        "contradicted_per_episode": 5.25,
+        "covered": 0.9166666666666666,
+        "dimensions": {
+          "actor": {
+            "accuracy": 0.5069444444444444,
+            "brier": 0.4913888888888889,
+            "log_loss": "infinite"
+          },
+          "operation": {
+            "accuracy": 0.5069444444444444,
+            "brier": 0.4930555555555556,
+            "log_loss": "infinite"
+          },
+          "relation": {
+            "accuracy": 0.5763888888888888,
+            "brier": 0.4236111111111111,
+            "log_loss": "infinite"
+          }
+        },
+        "episodes": 13,
+        "handling": {
+          "accuracy": 0.4583333333333333,
+          "brier": 0.5422222222222223,
+          "log_loss": "infinite"
+        },
+        "invalid": 0,
+        "positive_per_episode": 0.9583333333333334,
+        "prompt_components": 3,
+        "sessions": 12,
+        "writers": 12
+      },
+      "view": "artifact"
+    }
+  ],
+  "controls": {
+    "case_roles": true,
+    "no_model_calls": true,
+    "prior_failures_retained": true,
+    "raw_hashes": true,
+    "source_bindings": true
+  },
+  "correction": "First audit omitted one source-consumer failure because a private path filter matched its name. Separate second audit includes all 25; original audit, charges and identical scientific summaries remain.",
+  "earlier_audit_retained": true,
+  "finding": "Cheap production rivals remain better after invalid-output conditioning; one account/direct ordering reverses. This is sensitivity of exposed records, not new observations or independent replication.",
+  "landing": "L431",
+  "original_charge_snapshot": {
+    "cpu_seconds": 28616.94187223469,
+    "diagnostic_gpu_seconds": 375.18008869999903,
+    "gpu_seconds": 6265.903123000084,
+    "host_cpu_seconds": 12531.806246000167
+  },
+  "prior_failed_attempts": 25,
+  "selected_audit": "S12-addendum-A-audit-20260923-v2",
+  "source_manifest_input_output_verification": true,
+  "source_records": 88,
+  "source_scores_unchanged": true,
+  "support_map": {
+    "ARIES": "four earlier paper groups, explicit test labels, author components unavailable; B adds sixteen groups separately",
+    "cloud": "old output512 pilot failed literal validity; cap2048 new pilot/main must remain a separate complete comparison",
+    "coefficient_sensitivity": "same saved forecasts reweighted under alternate assumptions; no new observations",
+    "constructed": "all context, access, execution and binding histories share the existing finite law; templates/queries are not independent worlds",
+    "human_replay": "16 previously exposed decisions; writer/prompt/source dependencies retained; complete-pair subset secondary",
+    "privileged_answers": "supplied state and distributions are assistance, not learned state",
+    "recovery": "warm execution00 and four host-recovery local blocks selected; original incomplete attempts remain non-independent and charged",
+    "witnessed": "recorded constructed edit paths; compatible goals are not observed private human goals"
+  }
+}

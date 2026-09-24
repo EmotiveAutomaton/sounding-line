@@ -17,6 +17,12 @@ from runners.stage9.process_identity import native_identity
 from tools.codex_common import singleton
 
 def handler(name):
+    if name in ('addendum-compile','addendum-run','addendum-audit','addendum-summary','addendum-warm'):
+        from . import addendum
+        return getattr(addendum,name.removeprefix('addendum-'))
+    if name=='cloud-cap-prepare':
+        from .cloud import prepare_repair
+        return prepare_repair
     if name=='law-sensitivity':
         from .law_sensitivity import run
         return run
@@ -138,6 +144,9 @@ def run(card_path,raw=RAW):
         if (out/'START.json').exists():
             raise RuntimeError('previous attempt not reconciled; reserve retained; no automatic retry')
         contract=read(raw/'CONTRACT.json');admit(card,contract,raw)
+        if card.get('execution_deadline'):
+            if time.time()+card['wall_seconds']>datetime.fromisoformat(card['execution_deadline']).timestamp():
+                raise TimeoutError('whole addendum card cannot fit authorized execution window')
         t0=time.monotonic();cpu0=own_cpu();charge=raw/'charges'/(card['id']+'.json')
         reserve=dict(cpu_seconds=card.get('cpu_seconds',0.),gpu_seconds=0.,diagnostic_gpu_seconds=0.,
                      host_cpu_seconds=0.,state='reserved',at=now(),job=card['id'])
@@ -151,6 +160,8 @@ def run(card_path,raw=RAW):
                 raise TimeoutError('card resource ceiling')
             if datetime.now(timezone.utc)>=datetime.fromisoformat(contract['reporting']):
                 raise TimeoutError('reporting reserve reached')
+            if card.get('execution_deadline') and datetime.now(timezone.utc)>=datetime.fromisoformat(card['execution_deadline']):
+                raise TimeoutError('authorized addendum execution window reached')
             atomic(out/'STATUS.json',dict(status='running',at=now(),native=native_identity(),cpu_seconds=used,
                                          wall_seconds=time.monotonic()-t0,**details))
         try:

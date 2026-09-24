@@ -47,7 +47,9 @@ def compile(out,card,pulse,raw):
     # Select documents before looking at prediction results; no request text is
     # sent to a provider during preparation. Full annotation counts stay visible.
     eligible_docs={r['doc_id'] for r in labels if r['positive_edits']}
-    chosen=sorted(eligible_docs,key=lambda x:digest(['S12-ARIES',120921,x]))[:4]
+    chosen=card.get('paper_ids',sorted(eligible_docs,key=lambda x:digest(['S12-ARIES',120921,x]))[:4])
+    if len(set(chosen))!=len(chosen) or not set(chosen)<=eligible_docs:
+        raise ValueError('invalid frozen paper roster')
     edits={r['doc_id']:r for r in jsonl(root/'paper_edits.jsonl') if r['doc_id'] in chosen}
     comments={(r['doc_id'],r['comment_id']):r for r in jsonl(root/'review_comments.jsonl') if r['doc_id'] in chosen}
     needed={r[k] for r in edits.values() for k in ('source_pdf_id','target_pdf_id')};documents={}
@@ -64,6 +66,9 @@ def compile(out,card,pulse,raw):
         by={r['edit_id']:r for r in record['edits']}
         if len(by)!=len(record['edits']):raise ValueError('duplicate edit ids')
         own=sorted([r for r in labels if r['doc_id']==doc and r['positive_edits']],key=lambda r:digest([r['comment_id'],120921]))[:2]
+        if 'selected_comments' in card:
+            own=[r for r in labels if r['doc_id']==doc and r['comment_id']==card['selected_comments'][doc]]
+            if len(own)!=1:raise ValueError('frozen comment missing or duplicated')
         for label in own:
             comment=comments[(doc,label['comment_id'])]
             # Explicit positives and explicit negatives only. Other edit links
@@ -76,8 +81,8 @@ def compile(out,card,pulse,raw):
                 if len(json.dumps(context,ensure_ascii=True).encode())>4200:
                     exclusions.append(dict(doc=doc,comment=label['comment_id'],edit=eid,reason='frozen input-length eligibility'));continue
                 eligible.append((eid,context))
-            positive=[r for r in eligible if relation(label,r[0])=='linked'][:2]
-            negative=[r for r in eligible if relation(label,r[0])=='not-linked'][:2]
+            positive=[r for r in eligible if relation(label,r[0])=='linked'][:card.get('pairs_per_class',2)]
+            negative=[r for r in eligible if relation(label,r[0])=='not-linked'][:card.get('pairs_per_class',2)]
             if not positive or not negative:
                 exclusions.append(dict(doc=doc,comment=label['comment_id'],reason='both annotated classes required for diagnostic selection'));continue
             for eid,context in positive+negative:

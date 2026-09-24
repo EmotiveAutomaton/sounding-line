@@ -9,6 +9,99 @@ ran it.
 
 ---
 
+### OPS-S12-ADDENDUM-CLOUD-PILOT - revised literal interface admitted
+
+**Hypothesis.** A uniformly larger output allowance can complete the original capable-reader pilot without changing its evidence, model, scoring or aggregate spending limit.
+
+**METHOD.** Through gear3.py, run the separately approved twelve-request pilot with only the output cap changed from 512 to 2,048. Retrieve and verify every archive member, actual wire request, model/runtime identity and raw response; reparse literal probabilities and apply the frozen timing, account, whole-main cost and deadline gates. Preserve the original pilot and reservation without splicing any earlier replies into this interface.
+
+The table records complete instrument admission and reservations, not human-task accuracy or settled spending.
+
+| Check | Outcome |
+|---|---|
+| Pilot return and literal validation | All twelve requests complete, valid and exactly replayed |
+| Interface/source identity | Cap-only change and full actual wire/archive bindings pass |
+| Main admission | Frozen timing and computed allocation gates pass; 159 requests submitted |
+| Aggregate reservations | $3 original pilot, $3 revised pilot and $6.66 main; $1 remains protected within the $20 authorization |
+| Continuation | No second repair or automatic retry; whole main bounded by its reservation and original execution cutoff |
+
+**Found.** The revised pilot passes literal admission, and the authorized main run is active. This repairs the pilot's output-completion obstruction under a new uniform interface; it establishes no human-task effect or method advantage.
+
+**Means.** Retain all main replies, invalids and charges, then consume only the complete new-cap paired population with the original cheap controls and dependency limits. The original failed pilot remains part of the record. Local GPU waiting is independent.
+
+**Curator roll-up.** Theory group: reader instrumentation. Question: can the bounded capable-reader interface finish its literal pilot? Outcome: **Infrastructure**. Result: all twelve revised pilot replies pass literal replay. Project meaning: the main human-history comparison is now executable, with its scientific outcome pending. Next engineering obligation: inspect complete retrieval and internally land the frozen primary consumer. Public claim: unchanged. Curator decision required: No. Detail: [pilot inspection](results/phase_2_4_stage_12/ADDENDUM_CLOUD_PILOT_INSPECTION.json).
+
+---
+
+### L431 - failure-conditioned interpretation of the retained human replay
+
+**Hypothesis.** Apparent method advantages may depend on which invalid readings enter the comparison; cheap controls and the original attempted population must remain visible.
+
+**METHOD.** Verify the 88 earlier completed manifests, inputs and outputs and all 25 earlier failed attempts. Reproduce the five-arm human process comparison's original summaries exactly, then compute a secondary subset requiring all five methods to be valid on the same decision and evidence view. Select eight linked interpretation cases by evidence role and source order, with a separately labelled prior-invalid case. No model call, new participant, new world or p-value is added. A private path filter omitted one failed source consumer in the first audit; a separate second audit corrects that inventory, preserving the first attempt, charges and identical scientific summaries.
+
+Each row is a method and evidence view on previously exposed human CoAuthor records. Operation error is writer-balanced half-Brier loss, lower is better. Original scores retain every attempted decision and invalid penalty. The last column conditions on all methods being valid, retaining 13 of 16 artifact decisions and 12 of 16 alternatives decisions. Full actor, relation, handling, coverage, unsupported-claim and infinite-loss records remain in the receipt and private source archive.
+
+| Evidence view | Method | Original operation error | Complete-pair operation error |
+|---|---|---:|---:|
+| Artifact | Direct | 0.595238 | 0.493056 |
+| Artifact | Review | 0.523810 | 0.493056 |
+| Artifact | Account | 0.477440 | 0.455417 |
+| Artifact | Marginal prior | 0.162946 | 0.161396 |
+| Artifact | Text alignment | 0.162946 | 0.161396 |
+| Alternatives | Direct | 0.582232 | 0.415125 |
+| Alternatives | Review | 0.582232 | 0.415125 |
+| Alternatives | Account | 0.549329 | 0.431214 |
+| Alternatives | Marginal prior | 0.162946 | 0.118601 |
+| Alternatives | Text alignment | 0.147051 | 0.101233 |
+
+**Found.** Both cheap rivals retain lower operation error than the model methods in each view after conditioning. The account/direct ordering reverses in the alternatives view. Original all-attempt scores reproduce exactly; failure conditioning changes both selected decisions and writer weights. All source records, failed attempts and eight case roles are retained.
+
+**Means.** Invalid-output recovery and semantic improvement remain different explanations. The secondary subset cannot replace the original population, and the cases supply interpretation support rather than independent evidence. Keep paper, writer/prompt, shared-law, repeated-request and privileged-answer support distinct in the scheduled packet.
+
+**Curator roll-up.** Theory group: historical reconstruction and calibration. Question: does the human comparison depend on invalid-output inclusion? Outcome: **Narrows**. Result: conditioning reverses one account/direct ordering while cheap operation controls remain ahead. Project meaning: failure handling matters to attribution without adding independent evidence. Next engineering obligation: carry both populations, all failures and eight source-bound cases into the scheduled packet. Public claim: unchanged. Curator decision required: No. Detail: [complete audit](results/phase_2_4_stage_12/ADDENDUM_A_INSPECTION.json).
+
+---
+
+### OPS-S12-ADDENDUM-SETUP - approved finite continuation assembled
+
+**Hypothesis.** All approved addendum comparisons can be built and queued without changing earlier evidence, exceeding the original allocation or bypassing capability and spending gates.
+
+**METHOD.** Freeze and replay four source compilers, exercise every local request and whole-family consumer through labelled fake transport, verify reentry without redispatch, and test the actual cloud remote/archive protocol without allocation. Reconcile original charges and whole-card deadlines, then bind native Gear 2 and cloud controllers to terminal delivery. No new test is harvested from the billing confirmation; it supplies the missing fact for the approved cloud plan.
+
+The table describes assembled work and instrument checks, not scientific outcomes from unfinished comparisons.
+
+| Scope | Frozen and verified state |
+|---|---|
+| Additional human papers | Sixteen additional paper groups, 128 requests, explicit positive/negative labels and matched lexical ranking |
+| Response revision | Eight new histories in the existing law, 112 requests, exact saved replies and matched later targets |
+| Answer binding | Four exposed histories, 48 requests, six conditions and separate fidelity/task loss |
+| Human-history cloud | Same 171-request roster; output-cap change only; twelve-request pilot gates the remaining 159 |
+| Validation | All 54 Stage 12 tests pass; all 288 fake calls and 31 handler/consumer replays pass with no extra dispatches |
+| Accounting | Full local allowance and one bounded warm-up fit original ceilings with reporting reserves retained |
+| Execution | Thirty-five-card local plan submitted and actual resource waiter running; revised cloud pilot submitted through gear3.py |
+
+**Found.** Complete source matrices, consumers, deadlines and transition monitoring are in place. Local GPU dispatch waits for actual cold-start headroom; other graphics work remains active. The cloud branch proceeds independently. Waiting is not local inference, and neither compilation nor pilot submission is scientific completion.
+
+**Means.** Continue the finite approved roster in Gear 2. A single retained warm-up precedes local calls; failed prerequisites, unknown outcomes, limits and the two-day cutoff stop dependent work. Cloud reservations retain the original failed pilot and protect the aggregate $20 bound. Original interim/final dates and four-hour health clock remain. Full internal write-through precedes ACK; unfinished per-artifact scores remain unreported.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: is the approved continuation concrete and admitted? Outcome: **Infrastructure**. Result: the complete 288-call local roster passes offline rehearsal. Project meaning: implementation is distinct from reader performance. Next engineering obligation: inspect actual terminals and resources, land complete cells and prepare the scheduled packet. Public claim: unchanged. Curator decision required: No. Detail: [implementation freeze](docs/design/STAGE12_ADDENDUM_IMPLEMENTATION.md).
+
+---
+
+### OPS-S12-HEALTH-1805 - record integrity before the approved addendum
+
+**Hypothesis.** The completed queue remains intact and new work can be prepared without inheriting a stale worker or lock.
+
+**METHOD.** Inspect exact native monitor and prior worker identities, output freshness, every completed manifest/input/output, retained failure hashes, kernel and GPU locks, power limits, current resource admission and watcher delivery. Inspect the due health event during the active owner turn rather than claiming an idle delivery.
+
+**Found.** All 88 completed records, 2,288 input checks and 984 output checks verify; all 25 prior failures remain. No scientific worker or stale GPU/queue lock remains. Monitors are fresh. Current cold GPU admission is below its required headroom; there is no running failed queue to restart. The curator has approved all five addendum proposals, including the bounded revised cloud tree, for implementation and Gear 2 execution over the next two days.
+
+**Means.** Proceed with approved preparation and tests; repeat actual GPU admission before dispatch and preserve resource waiting if needed. Original reporting reserves, prior attempts and the exhausted shared-fit allowance remain. No new scientific result is reported by this inspection.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: are earlier records and ownership sound before the approved continuation? Outcome: **Infrastructure**. Result: all 88 completed records verify. Project meaning: new admission is distinct from prior completion. Next engineering obligation: implement, validate and queue the approved finite addendum under original limits. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/HEALTH_20260923_1805.json).
+
+---
+
 ### L430 - complete supplied-answer execution comparison
 
 **Hypothesis.** Literal use of a supplied answer is separable from prediction using the same answer, and selecting the relevant entry may remove an additional execution failure.

@@ -1,5 +1,40 @@
 # Current status
 
+## Stage 12 approved addendum - September 23
+
+Current execution, September 23 evening: all approved A-E addendum work is built
+and frozen. The 35-card local Gear 2 plan is live, with 288 scientific requests
+across sixteen additional human papers, eight saved-answer revision histories
+and four answer-binding histories. Its actual resource waiter is active; local
+inference has not started because available GPU memory is below the unchanged
+cold-start requirement. Two ready samples permit one retained warm-up, then the
+interleaved complete blocks and whole-family consumers. Other applications are
+not automatically terminated.
+
+The revised Modal pilot passes complete literal and archive replay. Its authorized
+159-request main is now running, independently of local GPU readiness. Aggregate
+reservations are $12.66 including both pilots; the $20 cap and $1 protected reserve
+remain. This is reserved cost, not a settled invoice. The main reservation expires
+around September 23 at 21:30 PDT; an earlier completion/failure wakes the owner.
+No unfinished scientific score is reported.
+
+All 54 Stage 12 tests, 288-slot actual-handler fake replay and 21 locks pass.
+Four source compilers replay. The zero-call audit is internally landed in L431:
+all 88 preceding completed records, all 25 preceding failed attempts, unchanged
+original scores, a labelled complete-pair sensitivity and eight interpretation
+roles. Both audit attempts and the corrected inventory omission remain.
+Original failed attempts, shared-fit limits and reporting reserves are unchanged.
+
+The next independent health check is September 23 at 22:08:43 PDT. Completion
+and failure signals are registered separately. New execution stops at September
+25 at 18:03:54 PDT; the Thursday 22:00 generation target is conditional on resources.
+Interim review remains Friday September 25 at 06:17 PDT, with any unfinished work
+explicit. Original final review remains Monday September 28 at 06:17 PDT.
+See docs/design/STAGE12_ADDENDUM_IMPLEMENTATION.md and the Stage 12 addendum
+setup, audit and cloud-pilot receipts. A healthy resource wait is not GPU inference.
+
+## Historical execution snapshots
+
 ## Stage 12 validated local continuation - September 23
 
 Current execution, September 23: the new Gear 2 continuation and its single
