@@ -1,0 +1,47 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-057-058",
+  "status": "inspection-complete",
+  "at": "2026-09-24T14:11:23.332392+00:00",
+  "completed_producers": {
+    "LP07-057-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "009f4e7aea79b5727037a763ade9243c03c9574f30c4a8cb646be57a79ddcae6",
+      "source_pins_verified": 476,
+      "terminal_sha256": "868e3cc3120d89ec04f1da765d80b694a2f2935a1a58a9169b74f349f99dcb1b"
+    },
+    "LP07-058-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "9a15e6425825f160ce94ee8f0aedb6fa00422eeee25040ba88a1f48b48f75ad4",
+      "source_pins_verified": 476,
+      "terminal_sha256": "f32f43aee04ebc3a61e9c304b09396be79d9755199629fd706fd5800b5212654"
+    }
+  },
+  "all_plan_start_terminal_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-060-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 0.815042,
+  "raw_output_age_seconds": null,
+  "worker_start_age_seconds": 0.82176,
+  "freshness_basis": "Verified native new-worker start before first raw reply",
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T14:11:23.331529+00:00",
+    "cpu_seconds": 0.375,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 057 and 058 request and full handler replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation only; whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only consumer."
+}

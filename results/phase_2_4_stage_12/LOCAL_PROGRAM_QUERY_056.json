@@ -1,0 +1,39 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCER-056",
+  "status": "inspection-complete",
+  "at": "2026-09-24T14:08:02.798553+00:00",
+  "completed_producers": {
+    "LP07-056-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "39f49e01a0f4eee15f9627baa12bfcfffa15de56292c5aa3052a1e801c36abfd",
+      "source_pins_verified": 476,
+      "terminal_sha256": "0ade69cc179e4de7d259cf5add0e69aaf12579f0a6c2906c2a3c1b0c5df1907e"
+    }
+  },
+  "all_plan_start_terminal_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-058-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 1.897168,
+  "raw_output_age_seconds": 1.9942896366119385,
+  "worker_start_age_seconds": 52.841575,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T14:08:02.797412+00:00",
+    "cpu_seconds": 2.203125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producer 056 request and full handler replay; includes conservative two CPU seconds for interrupted inspection",
+    "status": "complete"
+  },
+  "inspection_correction": "First inspection encountered a newly started worker with no first raw reply and stopped in its output-age selector. Bounded follow-up verifies native ownership and start/output freshness; no runtime or scientific source change.",
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation only; whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only consumer."
+}

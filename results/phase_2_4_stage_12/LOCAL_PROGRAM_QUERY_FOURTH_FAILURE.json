@@ -1,0 +1,80 @@
+{
+  "landing": "OPS-S12-LP07-FOURTH-SELECTION-FAILURE",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:38:17.458785+00:00",
+  "completed_producers": {
+    "LP07-040-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "479a61cd697e5073ba1be7553dc31d8121a4b2b2ee0ffef8422dddccaf70edcf",
+      "source_pins_verified": 476,
+      "terminal_sha256": "c2ff1653f9413151ec4028f68bdf2fab12460beb855d48659852fc97ff7994ad"
+    },
+    "LP07-042-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "d1b9a7faf1e28802186bd48c4a007e4442712a2a8945ef23fbfac57c3f3ae604",
+      "source_pins_verified": 476,
+      "terminal_sha256": "f8a668ccf34b9a633be2305a55bd0e5e564a137e920d0828c275c9df76cf1daa"
+    }
+  },
+  "failed_job": "LP07-041-a2",
+  "failed_producer": {
+    "actual_prefix_request_parser_score_replay": true,
+    "all_json_files_unchanged": 48,
+    "calls_returned": 6,
+    "costs": {
+      "complete_call_charges": 6,
+      "gpu_seconds": 33.49914089997765,
+      "host_cpu_seconds": 66.9982817999553,
+      "unknown_calls": 0,
+      "worker_cpu_seconds": 31.344919600058347
+    },
+    "failed_native_exited": true,
+    "failure_sha256": "2e55227f2f730d48e754dd02c92bf74d12a2bcc9c2819c7da1e477dbe4b41d5f",
+    "guard_reproduced": true,
+    "manifest_sha256": "a21620ac267ed53591e09c83df6f41482fba1bee805546d9a99f0553be9700c5",
+    "parse_errors": [
+      {
+        "error": "invalid finite probabilities",
+        "output_tokens": 329,
+        "role": "selection",
+        "step": 3
+      }
+    ],
+    "planned_calls": 22,
+    "source_pins_verified": 476,
+    "undispatched_calls": 16
+  },
+  "delayed_notices_reconciled": [
+    "LP07-038-a2",
+    "LP07-039-a2"
+  ],
+  "delayed_landing": "OPS-S12-LP07-PRODUCERS-038-039",
+  "all_source_input_contract_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-044-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 2.052263,
+  "raw_output_age_seconds": 2.1668083667755127,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T13:38:17.457956+00:00",
+    "cpu_seconds": 0.53125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Fourth query-selection failure and complete producer replay",
+    "status": "complete"
+  },
+  "existing_guard_regression": "Previously passed; exact unchanged guard replays on the retained failure at the third selection.",
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "disposition": "Fourth inspected invalid-selection history retained as incomplete; complete-only LP07 consumer remains unavailable. Independent frozen histories continue without fallback or retry.",
+  "scope": "Operational execution and guard verification only; no unfinished-family scientific scores."
+}

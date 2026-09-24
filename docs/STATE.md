@@ -1,5 +1,880 @@
 # STATE: the agent's operational file
 
+## Complete omitted-candidate inspection - September 24, 16:25 PDT
+
+L445 lands the complete omitted-candidate family: all 768 calls and the five
+producer handlers plus consumer replay, preserving all 5,422 original JSON files.
+Independent reference, score, interval and known-answer checks pass. Candidate
+construction and probability-format limitations remain explicit in the internal
+scientific record. LP13-000-a2 is active in Gear 2 with verified native/GPU
+ownership and fresh output; watcher source/scanning and original checkpoint
+helper verify. Earlier incomplete families, costs, corrections, cutoff and
+Friday/Monday packets remain. No recovery, retry or new tests.
+Health remains due September 24 at 18:37:48 PDT.
+
+## Omitted-candidate producer inspection - September 24, 16:15 PDT
+
+OPS-S12-LP12-FOURTH-PRODUCER lands actual replay of the fourth omitted-candidate
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP12-004-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP12 analysis remains pending; complete LP11 is landed in L444.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Omitted-candidate producer inspection - September 24, 15:55 PDT
+
+OPS-S12-LP12-THIRD-PRODUCER lands actual replay of the third omitted-candidate
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP12-003-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP12 analysis remains pending; complete LP11 is landed in L444.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Omitted-candidate producer inspection - September 24, 15:35 PDT
+
+OPS-S12-LP12-SECOND-PRODUCER lands actual replay of the second omitted-candidate
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP12-002-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP12 analysis remains pending; complete LP11 is landed in L444.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Omitted-candidate producer inspection - September 24, 15:20 PDT
+
+OPS-S12-LP12-FIRST-PRODUCER lands actual replay of the first omitted-candidate
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP12-001-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP12 analysis remains pending; complete LP11 is landed in L444.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Complete familiarity family - September 24, 15:01 PDT
+
+L444 internally lands all ten LP11 producers and the complete consumer, with
+1,536 calls across 64 target histories and all 10,838 original JSON files preserved.
+Independent reference/score/interval and known-answer checks pass. Same-policy
+donors, skill-insensitive query, missing dose interaction, unresolved practical
+contrasts and invalid forecasts remain explicit. The broad familiarity claim stays open.
+LP12-000-a2 continues in Gear 2 with verified native ownership, fresh output,
+watcher sources/scanning and checkpoint helper. No recovery, retry or new tests.
+Retain earlier deficits, costs, corrections, cutoff and Friday/Monday packets.
+The independent health deadline remains September 24 at 18:37:48 PDT.
+
+## Familiarity producer inspection - September 24, 14:54 PDT
+
+OPS-S12-LP11-NINTH-PRODUCER lands actual replay of the ninth familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-009-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Familiarity producer inspection - September 24, 14:43 PDT
+
+OPS-S12-LP11-EIGHTH-PRODUCER lands actual replay of the eighth familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-008-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
+## Four-hour health inspection - September 24, 14:34 PDT
+
+OPS-S12-LOCAL-HEALTH-1434 verifies Gear 2 progress in LP11-007-a2 and
+next-job admission for LP11-008-a2. Active/next bindings, original contract,
+source pins, native identities, GPU ownership and resource headroom pass.
+All five previously recorded failed histories are unchanged. The frozen roster
+has 142 unstarted cards, including conditional branches; no new research is needed.
+Watcher source/scanning, terminal registration, first-attempt health delivery and
+original checkpoint freshness verify. No recovery, retry or allocation change.
+Retain incomplete families, corrections, costs, cutoff and Friday/Monday packets.
+This health event ACK rearms four hours later; watcher status carries the exact
+next deadline. Ordinary result ACKs do not reset it. No new tests harvested.
+
+## Familiarity producer inspection - September 24, 14:19 PDT
+
+OPS-S12-LP11-SEVENTH-PRODUCER lands actual replay of the seventh familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-007-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 14:03 PDT
+
+OPS-S12-LP11-SIXTH-PRODUCER lands actual replay of the sixth familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-006-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 13:45 PDT
+
+OPS-S12-LP11-FIFTH-PRODUCER lands actual replay of the fifth familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-005-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 13:28 PDT
+
+OPS-S12-LP11-FOURTH-PRODUCER lands actual replay of the fourth familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-004-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 13:12 PDT
+
+OPS-S12-LP11-THIRD-PRODUCER lands actual replay of the third familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-003-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 12:55 PDT
+
+OPS-S12-LP11-SECOND-PRODUCER lands actual replay of the second familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-002-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Familiarity producer inspection - September 24, 12:41 PDT
+
+OPS-S12-LP11-FIRST-PRODUCER lands actual replay of the first familiarity block:
+all 168 saved calls and the full handler reproduce, preserving all 1,184 JSON files.
+LP11-001-a2 is active in Gear 2 with verified native/GPU ownership and fresh output;
+coordinator, watcher source/scanning and the original checkpoint helper verify.
+Whole-family familiarity analysis remains pending. Retain earlier incomplete
+families and corrections, costs, cutoff and Friday/Monday packets. No recovery,
+retry or new tests. Health remains due September 24 at 14:33:02 PDT.
+
+## Memory roster inspection - September 24, 12:24 PDT
+
+OPS-S12-LP10-ROSTER-END lands the final memory producer and frozen-roster reconciliation.
+All 64 histories are terminal: 63 complete and one retained acquisition failure.
+There are 1,642 returned requests and 22 unstarted dependents. Prior replay receipts,
+terminal/input/output bindings and source pins verify. The complete-only consumer
+is correctly deferred and unstarted; the memory comparison remains incomplete.
+LP11-000-a2 is active in Gear 2 with native/GPU ownership, fresh output,
+coordinator, watcher source/scanning and original checkpoint helper verified.
+Retain all costs, failures, cutoff and Friday/Monday packets. No recovery or retry.
+Health remains due September 24 at 14:33:02 PDT. No new tests harvested.
+
+## Memory producer inspection - September 24, 12:19 PDT
+
+OPS-S12-LP10-PRODUCER-062 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-063-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 12:16 PDT
+
+OPS-S12-LP10-PRODUCER-061 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-062-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 12:13 PDT
+
+OPS-S12-LP10-PRODUCER-060 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-061-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 12:10 PDT
+
+OPS-S12-LP10-PRODUCER-059 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-060-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 12:07 PDT
+
+OPS-S12-LP10-PRODUCERS-056-058 lands actual replay of all three completed memory
+histories, preserving all 570 original JSON files. LP10-059-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 12:03 PDT
+
+OPS-S12-LP10-PRODUCERS-054-055 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-057-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:56 PDT
+
+OPS-S12-LP10-PRODUCER-053 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-054-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:53 PDT
+
+OPS-S12-LP10-PRODUCERS-051-052 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-053-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:49 PDT
+
+OPS-S12-LP10-PRODUCER-050 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-051-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:45 PDT
+
+OPS-S12-LP10-PRODUCER-049 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-050-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:43 PDT
+
+OPS-S12-LP10-PRODUCERS-047-048 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-049-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:39 PDT
+
+OPS-S12-LP10-PRODUCER-046 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-047-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:36 PDT
+
+OPS-S12-LP10-PRODUCERS-043-045 lands actual replay of all three completed memory
+histories, preserving all 570 original JSON files. LP10-046-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:29 PDT
+
+OPS-S12-LP10-PRODUCERS-041-042 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-043-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:26 PDT
+
+OPS-S12-LP10-PRODUCER-040 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-042-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:23 PDT
+
+OPS-S12-LP10-PRODUCER-039 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-040-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:20 PDT
+
+OPS-S12-LP10-PRODUCERS-037-038 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-039-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:16 PDT
+
+OPS-S12-LP10-PRODUCER-036 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-038-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:13 PDT
+
+OPS-S12-LP10-PRODUCER-035 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-037-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:10 PDT
+
+OPS-S12-LP10-PRODUCERS-032-034 lands actual replay of all three completed memory
+histories, preserving all 570 original JSON files. LP10-035-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:03 PDT
+
+OPS-S12-LP10-PRODUCER-031 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-032-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 11:00 PDT
+
+OPS-S12-LP10-PRODUCERS-029-030 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-031-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:56 PDT
+
+OPS-S12-LP10-PRODUCER-028 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-029-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:53 PDT
+
+OPS-S12-LP10-PRODUCER-027 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-028-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:50 PDT
+
+OPS-S12-LP10-PRODUCERS-025-026 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-027-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:47 PDT
+
+OPS-S12-LP10-PRODUCER-024 lands actual replay of the completed memory
+history, preserving all 190 original JSON files. LP10-026-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:45 PDT
+
+OPS-S12-LP10-PRODUCERS-022-023 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-025-a2 is active with
+verified native/GPU ownership and fresh output after a natural handoff. The
+initial read-only inspection reached it before its first status file; the
+subsequent check passes and the inspection allowance is charged. Coordinator,
+watcher source/scanning and the original checkpoint helper verify. Whole LP10
+remains incomplete after the retained acquisition failure; the complete-only
+consumer cannot use survivors. Continue the frozen independent Gear 2 roster
+with original costs, cutoff, Friday/Monday packets and all earlier deficits.
+No production recovery, retry or new tests. Health remains due September 24
+at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:41 PDT
+
+OPS-S12-LP10-PRODUCERS-020-021 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-023-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Memory producer inspection - September 24, 10:34 PDT
+
+OPS-S12-LP10-PRODUCERS-017-019 lands actual replay of three completed memory
+histories, preserving all 570 original JSON files. LP10-020-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 14:33:02 PDT.
+
+## Four-hour health and memory inspection - September 24, 10:30 PDT
+
+OPS-S12-LOCAL-HEALTH-1030 records both completed memory producers unchanged,
+with all 380 JSON files preserved. LP10-018-a2 is active and LP10-019-a2
+passes next-job admission. Exact native ownership, fresh output, resource headroom,
+power limits and watcher/checkpoint health verify; no recovery or retry is needed.
+The frozen roster still has 195 unstarted cards, including blocked/conditional
+work. The four LP07 failures and one LP10 failure remain; complete-only consumers
+cannot use survivors. Original cutoff and Friday/Monday packets remain.
+The due health event is inspected directly during this result wake; its ACK rearms
+four hours later, with the exact next deadline retained in the inspection receipt.
+No new research, tests, fits, paid calls, delegation or gear change.
+
+## Memory producer inspection - September 24, 10:24 PDT
+
+OPS-S12-LP10-PRODUCERS-013-014 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-015-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains incomplete after
+the retained acquisition failure; the complete-only consumer cannot use survivors.
+Continue the frozen independent Gear 2 roster with original costs, cutoff,
+Friday/Monday packets and all earlier deficits. No recovery, retry or new tests.
+Health remains due September 24 at 10:26:38 PDT.
+
+## Memory acquisition failure inspection - September 24, 10:19 PDT
+
+OPS-S12-LP10-FIRST-FAILURE records the reproducible invalid-acquisition guard in
+LP10-012-a2: four returned calls remain, with 22 unstarted calls and all costs
+preserved. The failed native process exited; no substitution or retry follows.
+Three completed producers replay unchanged. Whole LP10 is incomplete and its
+complete-only primary consumer cannot use survivors. LP10-014-a2 continues
+under Gear 2 with verified native/GPU ownership, fresh output and monitoring.
+Original cutoff, earlier deficits and Friday/Monday packets remain. Health remains
+due September 24 at 10:26:38 PDT. No new tests, research or scope.
+
+## Memory producer inspection - September 24, 10:14 PDT
+
+OPS-S12-LP10-PRODUCERS-007-008 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-011-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains pending; LP09 is
+internally landed in L443. Continue the frozen Gear 2 roster with original costs,
+cutoff, Friday/Monday packets and all earlier deficits. No recovery, retry, new
+tests or scope. Health remains due September 24 at 10:26:38 PDT.
+
+## Memory producer inspection - September 24, 10:07 PDT
+
+OPS-S12-LP10-PRODUCER-006 lands actual replay of the completed memory history,
+preserving all 190 original JSON files. LP10-007-a2 is active with verified
+native/GPU ownership and fresh output; coordinator, watcher source/scanning and
+the original checkpoint helper verify. Whole LP10 remains pending; LP09 is
+internally landed in L443. Continue the frozen Gear 2 roster with original costs,
+cutoff, Friday/Monday packets and all earlier deficits. No recovery, retry, new
+tests or scope. Health remains due September 24 at 10:26:38 PDT.
+
+## Memory producer inspection - September 24, 10:04 PDT
+
+OPS-S12-LP10-PRODUCERS-004-005 lands actual replay of both completed memory
+histories, preserving all 380 original JSON files. LP10-006-a2 is active with
+verified native/GPU ownership and fresh output; coordinator, watcher source/scanning
+and the original checkpoint helper verify. Whole LP10 remains pending; LP09 is
+internally landed in L443. Continue the frozen Gear 2 roster with original costs,
+cutoff, Friday/Monday packets and all earlier deficits. No recovery, retry, new
+tests or scope. Health remains due September 24 at 10:26:38 PDT.
+
+## Memory producer inspection - September 24, 10:00 PDT
+
+OPS-S12-LP10-FOURTH-PRODUCER lands actual replay of LP10-003-a2, preserving
+all 190 original JSON files. Three delayed notices match their existing evidence
+and acknowledgements. LP10-005-a2 is active with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP10 remains pending; LP09 is internally landed in L443.
+Continue the frozen Gear 2 roster with original costs, cutoff, Friday/Monday
+packets and all earlier deficits. No recovery, retry, new tests or scope.
+Health remains due September 24 at 10:26:38 PDT.
+
+## Memory producer inspection - September 24, 09:58 PDT
+
+OPS-S12-LP10-FIRST-PRODUCERS lands actual replay of the first three completed
+memory histories, preserving all 570 original JSON files. LP10-004-a2 is active
+with verified native/GPU ownership and fresh output; coordinator, watcher source
+and scanning, and the original checkpoint helper verify. The full LP10 family
+remains pending; complete LP09 is internally landed in L443 below. Continue the
+frozen Gear 2 roster with original costs, cutoff, Friday/Monday packets and all
+earlier deficits. No recovery, retry, new tests or scope. Health remains due
+September 24 at 10:26:38 PDT.
+
+## Source-reliability family complete - September 24, 09:53 PDT
+
+L443 internally lands the complete LP09 family: all five producers, 864 calls
+and the whole consumer replay, with all 6,094 original JSON files unchanged.
+Independent channel, score, interval and known-answer checks pass. The record
+retains changing information floors, all invalids and the absent graded-reliability
+interaction; no general trust or human mechanism claim. At inspection LP10-001-a2
+and its coordinator have verified native/GPU ownership and fresh output. Watcher
+loaded source/scanning and the original checkpoint helper verify. Continue the
+frozen Gear 2 roster; no repair, retry, new tests, fits, cloud calls or delegation.
+Original costs, cutoff, Friday/Monday packets, LP07's deficit and LP08's unavailable
+primary interval remain. Health remains due September 24 at 10:26:38 PDT.
+
+## Source-reliability producer inspection - September 24, 09:38 PDT
+
+OPS-S12-LP09-FOURTH-PRODUCER lands all 180 calls and the full producer
+handler replay with all 1,268 original JSON files unchanged. All bindings verify.
+The whole LP09 scientific analysis remains pending. LP09-004-a2, coordinator,
+matching GPU ownership, fresh output, watcher loaded source and checkpoint helper
+verify. No queue repair, inference retry, source change or restart. Continue the
+frozen Gear 2 roster; all costs, original cutoff and Friday/Monday packets remain,
+including LP07's missing-history deficit and LP08's unavailable primary uncertainty.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Source-reliability producer inspection - September 24, 09:22 PDT
+
+OPS-S12-LP09-THIRD-PRODUCER lands all 180 calls and the full producer
+handler replay with all 1,268 original JSON files unchanged. All bindings verify.
+The whole LP09 scientific analysis remains pending. LP09-003-a2, coordinator,
+matching GPU ownership, fresh output, watcher loaded source and checkpoint helper
+verify. No queue repair, inference retry, source change or restart. Continue the
+frozen Gear 2 roster; all costs, original cutoff and Friday/Monday packets remain,
+including LP07's missing-history deficit and LP08's unavailable primary uncertainty.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+
+## Source-reliability producer inspection - September 24, 09:07 PDT
+
+OPS-S12-LP09-SECOND-PRODUCER lands all 180 calls and the full producer
+handler replay with all 1,268 original JSON files unchanged. All bindings verify.
+The whole LP09 scientific analysis remains pending. LP09-002-a2, coordinator,
+matching GPU ownership, fresh output, watcher loaded source and checkpoint helper
+verify. No queue repair, inference retry, source change or restart. Continue the
+frozen Gear 2 roster; all costs, original cutoff and Friday/Monday packets remain,
+including LP07's missing-history deficit and LP08's unavailable primary uncertainty.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Source-reliability producer inspection - September 24, 08:54 PDT
+
+OPS-S12-LP09-FIRST-PRODUCER lands all 180 calls and the full producer
+handler replay with all 1,268 original JSON files unchanged. All bindings verify.
+The whole LP09 scientific analysis remains pending. LP09-001-a2, coordinator,
+matching GPU ownership, fresh output, watcher loaded source and checkpoint helper
+verify. Inspection-only import/lock-format corrections are recorded and charged;
+no queue repair, inference retry, source change or restart. Continue the frozen
+Gear 2 roster; all costs, original cutoff and Friday/Monday packets remain,
+including LP07's missing-history deficit and LP08's unavailable primary uncertainty.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Complete stopping-family landing - September 24, 08:38 PDT
+
+L442 lands all five LP08 producers and the complete descriptive consumer. All
+requests, handlers and original records replay unchanged; independent utility
+references and known-answer rulers pass. The frozen consumer lacks primary paired
+regret uncertainty, so execution completion is not a formal primary scientific
+disposition. This limitation and all invalids are retained in FINDINGS, the
+reader theory row, instrument ledger, TODO and aggregate receipt.
+
+Native LP09-000-a2 continuation, coordinator/GPU ownership, fresh output,
+watcher loaded source and original checkpoint helper verify. Continue Gear 2
+within the unchanged scope, costs and cutoff. The LP07 missing-history deficit
+remains. Health remains due September 24 at 10:26:38 PDT; Friday/Monday packets
+remain scheduled. No repair, retry, new tests, paid calls or delegation.
+
+## Stopping-utility producer inspection - September 24, 08:29 PDT
+
+OPS-S12-LP08-FOURTH-PRODUCER lands all 180 calls and the full producer handler
+replay with all 1,268 original JSON files unchanged. All bindings verify. Four of
+five LP08 producers are complete; the whole-family scientific analysis remains
+pending. LP08-004-a2, coordinator, matching GPU ownership, fresh output, watcher
+loaded source and checkpoint helper verify. No repair, retry, source change or
+restart. Continue the frozen Gear 2 roster; all costs, original cutoff and
+Friday/Monday packets remain, including the prior LP07 missing-history deficit.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Stopping-utility producer inspection - September 24, 08:12 PDT
+
+OPS-S12-LP08-THIRD-PRODUCER lands all 180 calls and the full producer handler
+replay with all 1,268 original JSON files unchanged. All bindings verify. Three of
+five LP08 producers are complete; the whole-family scientific analysis remains
+pending. LP08-003-a2, coordinator, matching GPU ownership, fresh output, watcher
+loaded source and checkpoint helper verify. No repair, retry, source change or
+restart. Continue the frozen Gear 2 roster; all costs, original cutoff and
+Friday/Monday packets remain, including the prior LP07 missing-history deficit.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Stopping-utility producer inspection - September 24, 07:54 PDT
+
+OPS-S12-LP08-SECOND-PRODUCER lands all 180 calls and the full producer handler
+replay with all 1,268 original JSON files unchanged. All bindings verify. Two of
+five LP08 producers are complete; the whole-family scientific analysis remains
+pending. LP08-002-a2, coordinator, matching GPU ownership, fresh output, watcher
+loaded source and checkpoint helper verify. No repair, retry, source change or
+restart. Continue the frozen Gear 2 roster; all costs, original cutoff and
+Friday/Monday packets remain, including the prior LP07 missing-history deficit.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Stopping-utility producer inspection - September 24, 07:38 PDT
+
+OPS-S12-LP08-FIRST-PRODUCER lands all 180 calls and the full producer handler
+replay with all 1,268 original JSON files unchanged. All bindings verify. One of
+five LP08 producers is complete; the whole-family scientific analysis remains
+pending. LP08-001-a2, coordinator, matching GPU ownership, fresh output, watcher
+loaded source and checkpoint helper verify. No repair, retry, source change or
+restart. Continue the frozen Gear 2 roster; all costs, original cutoff and
+Friday/Monday packets remain, including the prior LP07 missing-history deficit.
+Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning roster handoff - September 24, 07:23 PDT
+
+OPS-S12-LP07-PRODUCERS-060-063 lands the final four complete questioning
+producers; each replays all 22 calls and the full handler with all 162 original
+JSON files unchanged. All bindings verify. The complete roster has 60 complete
+histories and four retained failures, with 76 dependent slots unstarted. Its
+complete-only primary consumer is deferred for the exact missing prerequisites;
+LP07 remains incomplete and cannot be analyzed on successful survivors.
+
+LP08-000-a2, coordinator, matching GPU ownership, fresh output, watcher loaded
+source and checkpoint helper verify. No repair, retry, source change or restart.
+Continue frozen independent work in Gear 2; all costs, original cutoff and
+Friday/Monday packets remain. Health remains due September 24 at 10:26:38 PDT.
+No new tests or scope.
+
+## Questioning producer inspection - September 24, 07:14 PDT
+
+OPS-S12-LP07-PRODUCER-059 lands all 22 calls and the full handler replay with
+all 162 original JSON files unchanged. All bindings verify. LP07-061-a2,
+coordinator, matching GPU ownership, fresh output, watcher loaded source and
+checkpoint helper verify. No repair, retry, source change or restart. Whole
+LP07 remains incomplete with four inspected failed histories and an unavailable
+complete-only consumer. Continue frozen independent work in Gear 2; costs,
+original cutoff and Friday/Monday packets remain. Health remains due
+September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 07:11 PDT
+
+OPS-S12-LP07-PRODUCERS-057-058 lands both complete producers, each with all
+22 calls and the full handler replayed and all 162 original JSON files unchanged.
+All bindings verify. LP07-060-a2 is less than a second old at inspection,
+before its first raw reply; its exact native identity, start, heartbeat and
+matching GPU ownership verify with the coordinator. Watcher loaded source,
+fresh scanning and checkpoint helper verify. No repair, retry or restart.
+Whole LP07 remains incomplete with four inspected failed histories and an
+unavailable complete-only consumer. Continue frozen independent work in Gear 2;
+costs, original cutoff and Friday/Monday packets remain. Health remains due
+September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 07:08 PDT
+
+OPS-S12-LP07-PRODUCER-056 lands all 22 calls and the full handler replay with
+all 162 original JSON files unchanged. All bindings verify. LP07-058-a2,
+coordinator, matching GPU ownership, fresh output, watcher loaded source and
+checkpoint helper verify. The initial inspection encountered a new worker before
+its first raw reply; bounded follow-up confirms start time and fresh output.
+Its interrupted-pass allowance is retained. No queue repair, inference retry,
+source change or restart. Whole LP07 remains incomplete with four inspected
+failed histories and an unavailable complete-only consumer. Continue frozen
+independent work in Gear 2; costs, original cutoff and Friday/Monday packets
+remain. Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 07:04 PDT
+
+OPS-S12-LP07-PRODUCERS-054-055 lands both complete producers, each with all
+22 calls and the full handler replayed and all 162 original JSON files unchanged.
+All bindings verify. LP07-056-a2, coordinator, matching GPU ownership,
+fresh output, watcher loaded source and checkpoint helper verify. No repair,
+retry, source change or restart. Whole LP07 remains incomplete with four inspected
+failed histories and an unavailable complete-only consumer. Continue frozen
+independent work in Gear 2; costs, original cutoff and Friday/Monday packets
+remain. Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 07:00 PDT
+
+OPS-S12-LP07-PRODUCER-053 lands all 22 calls and the full handler replay with
+all 162 original JSON files unchanged. All bindings verify. LP07-055-a2,
+coordinator, matching GPU ownership, fresh output, watcher loaded source and
+checkpoint helper verify. No repair, retry, source change or restart. Whole
+LP07 remains incomplete with four inspected failed histories and an unavailable
+complete-only consumer. Continue frozen independent work in Gear 2; costs,
+original cutoff and Friday/Monday packets remain. Health remains due
+September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 06:57 PDT
+
+OPS-S12-LP07-PRODUCERS-050-052 lands three complete producers, each with all
+22 calls and the full handler replayed and all 162 original JSON files unchanged.
+All bindings verify. LP07-053-a2, coordinator, matching GPU ownership,
+fresh output, watcher loaded source and checkpoint helper verify. No repair,
+retry, source change or restart. Whole LP07 remains incomplete with four inspected
+failed histories and an unavailable complete-only consumer. Continue frozen
+independent work in Gear 2; costs, original cutoff and Friday/Monday packets
+remain. Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 06:54 PDT
+
+OPS-S12-LP07-PRODUCERS-047-049 lands three complete producers, each with all
+22 calls and the full handler replayed and all 162 original JSON files unchanged.
+All bindings verify. LP07-052-a2, coordinator, matching GPU ownership,
+fresh output, watcher loaded source and checkpoint helper verify. The first
+inspection expected the wrong hidden watcher executable; launch-script and exact
+native checks resolve that assertion without changing or restarting a service.
+Inspection accounting retains its conservative interrupted-pass allowance.
+
+Whole LP07 remains incomplete with four inspected failed histories and an
+unavailable complete-only consumer. Continue frozen independent work in Gear 2;
+costs, original cutoff and Friday/Monday packets remain. Health remains due
+September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 06:45 PDT
+
+OPS-S12-LP07-PRODUCER-046 lands all 22 calls and full handler replay with
+all 162 original JSON files unchanged. All source, input, prerequisite and
+plan/start/terminal/output bindings verify. LP07-047-a2, coordinator, matching
+GPU ownership, fresh output, watcher loaded source and checkpoint helper verify.
+No repair, retry or restart. Whole LP07 remains incomplete with four inspected
+failed histories and an unavailable complete-only consumer. Continue frozen
+independent work in Gear 2 under the original cutoff and Friday/Monday packet
+policy. Health remains due September 24 at 10:26:38 PDT. No new tests or scope.
+
+## Questioning producer inspection - September 24, 06:42 PDT
+
+OPS-S12-LP07-PRODUCERS-043-045 lands all three complete producers, each with
+22 calls and all 162 original JSON files unchanged under full handler replay.
+Plan/start/terminal manifest binding, all source/input/prerequisite/output hashes,
+LP07-046-a2 and coordinator native identities, matching GPU ownership and fresh
+output verify. Watcher loaded source/freshness and checkpoint helper verify.
+No repair, retry, source change or restart. Whole LP07 remains incomplete with
+four inspected failed histories and its unavailable complete-only consumer.
+Continue frozen independent work in Gear 2; original cutoff, costs and
+Friday/Monday packets remain. Health remains due September 24 at 10:26:38 PDT.
+No tests harvested or new research scope.
+
+## Fourth questioning failure inspected - September 24, 06:38 PDT
+
+OPS-S12-LP07-FOURTH-SELECTION-FAILURE lands complete producers 040/042, each
+with 22 calls and all 162 JSON files unchanged under full handler replay.
+Failed 041 retains six returned calls; its third selection fails finite-probability
+parsing and the original dependency guard stops 16 remaining slots before dispatch.
+All 48 JSON files, original costs, bindings and exact failed native exit verify.
+No new harness defect, retry, source repair or process restart is required.
+
+Whole LP07 remains incomplete with four inspected failed histories; its
+complete-only primary consumer remains unavailable. Preserve this deficit and
+all costs in Friday/Monday packets. LP07-044-a2, coordinator, matching GPU lock,
+fresh output, watcher loaded source and checkpoint helper verify. Delayed 038/039
+notices match their prior write-through. Continue frozen independent work in
+Gear 2 under the original cutoff. Health remains due September 24 at 10:26:38 PDT.
+No tests harvested or new research scope.
+
+## Questioning producer inspection - September 24, 06:33 PDT
+
+OPS-S12-LP07-PRODUCERS-038-039 lands both complete producers, each with all
+22 calls replayed and all 162 original JSON files unchanged. All bindings
+verify; delayed 035/036/037 notices match their previous full write-through.
+LP07-042-a2, coordinator, GPU lock, fresh output, watcher loaded source and
+checkpoint helper verify. No recovery, retry, source change or restart.
+Whole LP07 remains incomplete with three inspected failed histories and its
+unavailable complete-only consumer. Independent work continues in Gear 2;
+original cutoff, costs and Friday/Monday packets remain. Next health check
+remains September 24 at 10:26:38 PDT. No tests harvested or new scope.
+
+## Questioning producer inspection - September 24, half past six in the morning PDT
+
+OPS-S12-LP07-PRODUCERS-035-037 lands all three complete producers, each with
+22 calls replayed and all 162 original JSON files unchanged. All bindings
+verify; delayed 031/032 notices match the published health landing.
+LP07-040-a2, coordinator, GPU lock and fresh output verify. Select live work
+from the coordinator's active stage and exact native identity: the three failed
+jobs retain their historical running heartbeats but their native workers exited.
+The first inspection selector assertion is retained; no queue source change or
+restart. Watcher loaded source/freshness and checkpoint helper verify.
+
+Whole LP07 remains incomplete with the same three inspected failed histories;
+its complete-only consumer remains unavailable. Gear 2 independent continuation,
+original cutoff and Friday/Monday packets remain. Next health check remains
+September 24 at 10:26:38 PDT. No new tests or research scope.
+
 ## Four-hour local queue inspection - September 24, 06:20 PDT
 
 OPS-S12-LOCAL-HEALTH-0620 verifies native identities, fresh output, GPU lock,

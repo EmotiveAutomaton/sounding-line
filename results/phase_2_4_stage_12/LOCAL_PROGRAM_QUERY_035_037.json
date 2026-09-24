@@ -1,0 +1,59 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-035-037",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:30:44.746589+00:00",
+  "completed_producers": {
+    "LP07-035-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "57896f29503b80dacff631699816ac4b61545e900c8b4d08d794e7ebfe3e3057",
+      "source_pins_verified": 476,
+      "terminal_sha256": "7c9a8395ef06c2d6bb723fbe5efb9f9c3ef71ec0e1c19ee503fdb87077a8db30"
+    },
+    "LP07-036-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "cbedc2b547fd2fc54401faaadc4fa5949f498f025004cde99f8279b60b81a14c",
+      "source_pins_verified": 476,
+      "terminal_sha256": "3c6780ae018257e1475f78dba63917a3449f97c4e9f595ed2101514a8c7bfa2d"
+    },
+    "LP07-037-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "3d5688827d282592f8bc79a5da7684c80ba99e829454a0b5e2606c8504fa7ffa",
+      "source_pins_verified": 476,
+      "terminal_sha256": "25fea7c5889b9997e3168b8cc6c041b981cead6fda88b5027b6ce567ecc35c4a"
+    }
+  },
+  "delayed_notices_reconciled": [
+    "LP07-031-a2",
+    "LP07-032-a2"
+  ],
+  "delayed_landing": "OPS-S12-LOCAL-HEALTH-0620",
+  "all_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-040-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 1.508269,
+  "raw_output_age_seconds": 1.6122021675109863,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "inspection_correction": "Initial selector counted historical running STATUS from three failed jobs. Coordinator active-stage selection and exact native absence exclude them; no queue source change or restart.",
+  "verification_charge": {
+    "at": "2026-09-24T13:30:44.745768+00:00",
+    "cpu_seconds": 2.53125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 035/036/037 replay and delayed notices; includes conservative two-second allowance for interrupted first inspection",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation and delayed delivery reconciliation only; whole LP07 remains incomplete with the three previously inspected failed histories and unavailable complete-only consumer."
+}

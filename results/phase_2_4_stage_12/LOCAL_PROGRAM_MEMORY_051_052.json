@@ -1,0 +1,47 @@
+{
+  "active_job": "LP10-053-a2",
+  "all_bindings_verified": true,
+  "all_json_files_unchanged": 380,
+  "at": "2026-09-24T18:53:08.803168+00:00",
+  "calls": 52,
+  "family": "LP10",
+  "gear": 2,
+  "health_due_utc": "2026-09-24T21:33:02.780402+00:00",
+  "heartbeat_age_seconds": 4.199667,
+  "inspection_retry_note": "Initial read-only replay of producer 051 passed; queue handed off before first raw output, so its freshness check stopped on an empty list. Subsequent native worker and raw output verified. One conservative CPU second includes that inspection attempt and follow-up; no experiment restart or inference retry.",
+  "kind": "operational",
+  "landing": "OPS-S12-LP10-PRODUCERS-051-052",
+  "native_continuation_and_monitoring_verified": true,
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "prior_failure_retained": "LP10-012-a2",
+  "raw_output_age_seconds": 4.3080666065216064,
+  "receipts": {
+    "LP10-051-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "4a911666cf6d5c9396ad13327b27ce5bd3eaab04a7e487b2ccc746f84e093a04",
+      "terminal_sha256": "a754270fa12aedbbd789e73a8e08616cd72364175c24835d514eea2a9e834f41"
+    },
+    "LP10-052-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "c769f78583a87d470eddeb7ba575813b6fd71ab1185f708181a144ed14e9b56d",
+      "terminal_sha256": "f44d303e2d066405bd8eae1a2d41f56bf82bbb2d3e919e4f352054e4489d95ef"
+    }
+  },
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-24T18:53:08.802077+00:00",
+    "cpu_seconds": 1.359375,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "inspection_retry_allowance_cpu_seconds": 1.0,
+    "kind": "LP10 producers 051-052 actual request and handler replay",
+    "status": "complete"
+  },
+  "whole_family_analysis": "incomplete"
+}

@@ -1,0 +1,78 @@
+{
+  "at": "2026-09-24T17:19:47.467759+00:00",
+  "family": "LP10",
+  "receipts": {
+    "LP10-009-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "c4e0793f1b6b58d3154292101912ee5fb3de085481abc2b3f95fb385c64f1620",
+      "terminal_sha256": "8b3c4bde38692baa91fa556353c9c54345c6c115b145176e90073571b18a2004"
+    },
+    "LP10-010-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "51c36caf1d1993c3aeb9b71d715077d4ab19edea5776cf934ed0d256c331156c",
+      "terminal_sha256": "cd4a692b6aedf9f73d103a5ccbe61bcb026660ee5d3d31f3129aa3fe8b3297f4"
+    },
+    "LP10-011-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "2695dccd1af817d41588c56c4c3be73d5257a992fca228541a347a6964b9739d",
+      "terminal_sha256": "7f0083fc2e3c976a6df6874f96025f35b23eaf5491f02664731bf61086ab4442"
+    }
+  },
+  "all_json_files_unchanged": 570,
+  "calls": 78,
+  "source_pins_verified": 476,
+  "active_job": "LP10-014-a2",
+  "heartbeat_age_seconds": 5.778802,
+  "raw_output_age_seconds": 5.880611419677734,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "verification_charge": {
+    "at": "2026-09-24T17:19:47.466617+00:00",
+    "cpu_seconds": 30.375,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "inspection_setup_cpu_allowance_seconds": 30,
+    "kind": "LP10 first failure and three complete producers actual replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "gear": 2,
+  "landing": "OPS-S12-LP10-FIRST-FAILURE",
+  "kind": "operational",
+  "whole_family_analysis": "incomplete",
+  "all_bindings_verified": true,
+  "native_continuation_and_monitoring_verified": true,
+  "new_tests_harvested": 0,
+  "completed_producer_calls": 78,
+  "total_inspected_returned_calls": 82,
+  "total_preserved_json_files": 604,
+  "failure": {
+    "actual_prefix_and_guard_replay": true,
+    "all_bindings_verified": true,
+    "all_json_files_unchanged": 34,
+    "complete_only_consumer_blocked": true,
+    "expected_calls": 26,
+    "failed_native_exited": true,
+    "job": "LP10-012-a2",
+    "manifest_sha256": "0a0b0efba6c081c8dda08cd4d55ea3e0a4f6502a04a472d25112c3a42577b114",
+    "reason": "failed memory acquisition, no substitute",
+    "returned_calls": 4,
+    "terminal_sha256": "eb14e7a85c04b9ac7e85ecedf45104fe250562a245d15c5bc720267d399c5baa",
+    "unstarted_calls": 22,
+    "whole_family_incomplete": true,
+    "invalid_acquisition_count": 1,
+    "parse_error": "invalid finite probabilities",
+    "retained_costs": {
+      "cpu_seconds": 21.6782808015123,
+      "gpu_seconds": 23.053528300020844,
+      "host_cpu_seconds": 46.10705660004169
+    },
+    "charge_receipts_verified": 6
+  }
+}

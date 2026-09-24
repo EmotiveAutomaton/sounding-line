@@ -1,0 +1,416 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-060-063",
+  "status": "inspection-complete",
+  "at": "2026-09-24T14:23:11.956231+00:00",
+  "producer_inspection_times": [
+    "2026-09-24T14:17:36.474225+00:00",
+    "2026-09-24T14:23:11.956231+00:00"
+  ],
+  "completed_producers": {
+    "LP07-060-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "8c20ce6328b018ef98644dadb659081f823c54bc889a497dfd44ee510ad2cb47",
+      "source_pins_verified": 476,
+      "terminal_sha256": "78144edb182e02ca7e09c57bc57a3c547c9999b16ba5961929724030aab6f147"
+    },
+    "LP07-061-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "b8563d415002813edb63b0c25bda1c86428fd57e81e7dd08e28ee0ba0fde9a73",
+      "source_pins_verified": 476,
+      "terminal_sha256": "aa70a4162d5c10bd23b7d4c97b0de1bb26b883ea51d6360f8a6c844c8ffda330"
+    },
+    "LP07-062-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "c1a7c948176a14aff2909c7b4b99a18faa969141f97c19800ea8ff43fac2a28a",
+      "source_pins_verified": 476,
+      "terminal_sha256": "467e3c27ea300741586e882a0dad23933803fa8bc968970727e5821553cf5424"
+    },
+    "LP07-063-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "d73d82d36f7aed3b912785a231d9feb8c5116fe2805558ce5651155a29f62fe4",
+      "source_pins_verified": 476,
+      "terminal_sha256": "2553a193b850d285914170777d6a14ed9a160b06578bdc81b3004c0f121853b9"
+    }
+  },
+  "all_plan_start_terminal_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP08-000-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 3.873205,
+  "raw_output_age_seconds": 3.975611686706543,
+  "worker_start_age_seconds": 209.543698,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charges": [
+    {
+      "at": "2026-09-24T14:17:36.473330+00:00",
+      "cpu_seconds": 0.375,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Query producers 060 and 061 request and full handler replay",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-24T14:23:11.955339+00:00",
+      "cpu_seconds": 0.3125,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Query producers 062 and 063 request and full handler replay",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-24T14:24:55.181041+00:00",
+      "cpu_seconds": 1,
+      "gpu_seconds": 0,
+      "diagnostic_gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "status": "complete",
+      "kind": "Conservative one CPU-second allowance for LP07 terminal census"
+    }
+  ],
+  "family_terminal_census": {
+    "roster_size": 64,
+    "complete": 60,
+    "failed": 4,
+    "returned_calls": 1332,
+    "planned_calls": 1408,
+    "census": {
+      "LP07-000-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "9d8eb0867fc92266ef04cd3b1e7e6ba3ff5e251f5c5e597a21cfd9b6b8857230",
+        "returned_calls": 22
+      },
+      "LP07-001-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "2c23326342383b45d82774bbf7d84657d3fed1d19a1d3297e53968554d9fdad8",
+        "returned_calls": 22
+      },
+      "LP07-002-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "50623e0590ce97eb7c589c826ca25d78ebd496b9ce7178a50306ad29d67af301",
+        "returned_calls": 22
+      },
+      "LP07-003-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "b801a2fa58889936a90afb90562b2688809a41352f79bb7a0d71d6152de0cd88",
+        "returned_calls": 22
+      },
+      "LP07-004-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "0feebba9a64c15d50fd2dc626ba1487716cfa7974b4d48e74353317276630ae2",
+        "returned_calls": 22
+      },
+      "LP07-005-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "8ae707b7867833be78269cbc2afe4a97bca2041cc7aed1fa4cc5fb99539b336d",
+        "returned_calls": 22
+      },
+      "LP07-006-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "203966dd2829e2aa4c8d5e982fd5e404681367520c74c6eb90070c241b7729ff",
+        "returned_calls": 22
+      },
+      "LP07-007-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "7652070e1ab6e344db7f45acb087582f4d6bab07282856b25e0aa7fd6a6c4b0d",
+        "returned_calls": 22
+      },
+      "LP07-008-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "47f6a5131861e63f43da01bfdfe126249eb10e1c1a8ce534a7a3fc80bb4767ff",
+        "returned_calls": 22
+      },
+      "LP07-009-a2": {
+        "terminal": "FAILED.json",
+        "terminal_sha256": "6087b312c57259e48346fc605cc41cc808776c250e926bfaf388cfe4759403b2",
+        "returned_calls": 2
+      },
+      "LP07-010-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "38753cd4bc093b18d0f65bd7a714b13c7e7defa9117faf085db0601a6010b47d",
+        "returned_calls": 22
+      },
+      "LP07-011-a2": {
+        "terminal": "FAILED.json",
+        "terminal_sha256": "71304feadf4c95a91be7e4f1349eefa830f6fa567daa1c0ae52a939c278df7f1",
+        "returned_calls": 2
+      },
+      "LP07-012-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "ea2bad7c28429b63525caacf0ee762b43f34b291aaafd7a6c24a71678b52f3ae",
+        "returned_calls": 22
+      },
+      "LP07-013-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "408eb2cb8d0a2a5af5f0a77d7c6f7e1b99fcfffe23b8eeb2c1cafe68ac827c41",
+        "returned_calls": 22
+      },
+      "LP07-014-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f594b6f97d5926706db43d8ea670ee51badab8819eb266558e452c64eefe1787",
+        "returned_calls": 22
+      },
+      "LP07-015-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "2af941dac4cfce51964c969211f9943e78045db2bac38e698eb889ed97710076",
+        "returned_calls": 22
+      },
+      "LP07-016-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "355cd53134f6ce02b2d8b9d3a74349977507055c72f0e626577c63a2688d59f4",
+        "returned_calls": 22
+      },
+      "LP07-017-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "be2e46e57c87dee3b8145fe7c06bb229a7f85b6b510be2b2afd0dc143fd63cb0",
+        "returned_calls": 22
+      },
+      "LP07-018-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "11114ff4d80f4d184fdb71b2a746219937ff627a61659706d03f625d580ad29a",
+        "returned_calls": 22
+      },
+      "LP07-019-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "ee047e1d5c641834f50d55d4e2fbd64c8cd2b73341a4a66953ebd543093c420c",
+        "returned_calls": 22
+      },
+      "LP07-020-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "055855cb9b8fb159f25041f5d2324e65217977bc7b18340602c91cc301b8c83e",
+        "returned_calls": 22
+      },
+      "LP07-021-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f1cca3ce1ec10655c998d2db84e78ae7ed484ded36440ed8cfcee0a6770ebaf5",
+        "returned_calls": 22
+      },
+      "LP07-022-a2": {
+        "terminal": "FAILED.json",
+        "terminal_sha256": "311a1db726c223e05036b30bad71793bdb209470d95edb982dffa0224a97a73e",
+        "returned_calls": 2
+      },
+      "LP07-023-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "5ac2fbee5e2ef94476526658ea62c68a35fec39f3b29af87123600563296ed95",
+        "returned_calls": 22
+      },
+      "LP07-024-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "653ed7f097150147c8972b453255134897bc29ad290d7d3011f4e6895d1dcfaa",
+        "returned_calls": 22
+      },
+      "LP07-025-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f139a013cd940e607b1a447121c6391bb9fb5b715e93fffd29b33fcb7bf9b422",
+        "returned_calls": 22
+      },
+      "LP07-026-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "adb5af3ddc9b10d32f2bfdfa0d12a806a388e7ef8be679b3c19ea99250c4a2da",
+        "returned_calls": 22
+      },
+      "LP07-027-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "993f756e64799ff5fc00c7a68542e5c2eb5a954062c1a0b8a098f226a3d31385",
+        "returned_calls": 22
+      },
+      "LP07-028-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "c353bdf2d5dea06e76b45766c3f23da1461a3bca4704ef45279bef5ac02ce7f3",
+        "returned_calls": 22
+      },
+      "LP07-029-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f64030da4467bf99259801017b54fc2b32a91b160efb31bfcc479389df819a83",
+        "returned_calls": 22
+      },
+      "LP07-030-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "a4d4fde493017bbd9b2317de41effb529447c25de1ff33e208f2fc6d2be71099",
+        "returned_calls": 22
+      },
+      "LP07-031-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "fa5dd6d2fa5228fbd15d6e253742602d797aaad4a43edca3d5a4ade25f76abf4",
+        "returned_calls": 22
+      },
+      "LP07-032-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "ea7c53825a41cf7ebae058203e98c557ac200f38df1e8ffc0969e880ce04046c",
+        "returned_calls": 22
+      },
+      "LP07-033-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "ad8b011f3fec4c5a0c3843fa4eb8226438d09eb391930fe4a7b8c4fb3008211b",
+        "returned_calls": 22
+      },
+      "LP07-034-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f673dbe4ad51417ff78189801db187d81862d97c238087963986bfc29c9f7579",
+        "returned_calls": 22
+      },
+      "LP07-035-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "7c9a8395ef06c2d6bb723fbe5efb9f9c3ef71ec0e1c19ee503fdb87077a8db30",
+        "returned_calls": 22
+      },
+      "LP07-036-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "3c6780ae018257e1475f78dba63917a3449f97c4e9f595ed2101514a8c7bfa2d",
+        "returned_calls": 22
+      },
+      "LP07-037-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "25fea7c5889b9997e3168b8cc6c041b981cead6fda88b5027b6ce567ecc35c4a",
+        "returned_calls": 22
+      },
+      "LP07-038-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "9fe9593455a1bbc159358f896d921204d61059bad312017359b31170373aa1be",
+        "returned_calls": 22
+      },
+      "LP07-039-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "b141ad7f86799d41b9910264e323c8ae7e42e6a62f8567782febf10c9b9db064",
+        "returned_calls": 22
+      },
+      "LP07-040-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "c2ff1653f9413151ec4028f68bdf2fab12460beb855d48659852fc97ff7994ad",
+        "returned_calls": 22
+      },
+      "LP07-041-a2": {
+        "terminal": "FAILED.json",
+        "terminal_sha256": "2e55227f2f730d48e754dd02c92bf74d12a2bcc9c2819c7da1e477dbe4b41d5f",
+        "returned_calls": 6
+      },
+      "LP07-042-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f8a668ccf34b9a633be2305a55bd0e5e564a137e920d0828c275c9df76cf1daa",
+        "returned_calls": 22
+      },
+      "LP07-043-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f93db64ba3af3a833cc3a7a48d3a85da1c1b87b05a034bec22cd19414337f4cc",
+        "returned_calls": 22
+      },
+      "LP07-044-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "6011801c07a272e2bec7c7379bc312718d9dd05e4d65a1f45ff7f3e753acfdca",
+        "returned_calls": 22
+      },
+      "LP07-045-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "3b2bd0c18f3b5e59a1d72e1615bac36a2a916432240bcd50a794e6d3c466f56a",
+        "returned_calls": 22
+      },
+      "LP07-046-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "bc834500bd3e3f9e18240a2db0ac51f252920de62b4e47513264a067aa390ada",
+        "returned_calls": 22
+      },
+      "LP07-047-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "e12196838cee3a28525f2fb59f1f72cbf5714803b2f715f7b12583a6ec1d21a1",
+        "returned_calls": 22
+      },
+      "LP07-048-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "81e28c3c9ef66a26ec99399261daa7b100292a63ca62e9a879b009c7b1a8fe43",
+        "returned_calls": 22
+      },
+      "LP07-049-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "1d0f64e6ec6d78a9eaf681e6dce43515b313da792a36e5de09d0f05e54b23ff3",
+        "returned_calls": 22
+      },
+      "LP07-050-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "0220fc7076dac216774d2c2b549cd7b366fb41ceee4ae8839d0fb159c2ba9b3b",
+        "returned_calls": 22
+      },
+      "LP07-051-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "068433131e8418d5e8603b4e13594131042009c9c3e6738747a2b57b3adb4935",
+        "returned_calls": 22
+      },
+      "LP07-052-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "5dd25e4d07f80bcc703402ddfd031735ab939fa5f986bd4344c9d119a5c3efc3",
+        "returned_calls": 22
+      },
+      "LP07-053-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "51af492502c630de5ce9cabf07281de0e5cdf34dacef76ebb7d54ba1130bd0f7",
+        "returned_calls": 22
+      },
+      "LP07-054-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "9a2b399d7ce74c36a9590d782dfcaab81f42e6a453301ae87d41ab9457f05e14",
+        "returned_calls": 22
+      },
+      "LP07-055-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "cfc68b00cf490fd7a1ed09bc41a311a8874fff0983c9792ddf96fe25995f0be0",
+        "returned_calls": 22
+      },
+      "LP07-056-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "0ade69cc179e4de7d259cf5add0e69aaf12579f0a6c2906c2a3c1b0c5df1907e",
+        "returned_calls": 22
+      },
+      "LP07-057-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "868e3cc3120d89ec04f1da765d80b694a2f2935a1a58a9169b74f349f99dcb1b",
+        "returned_calls": 22
+      },
+      "LP07-058-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "f32f43aee04ebc3a61e9c304b09396be79d9755199629fd706fd5800b5212654",
+        "returned_calls": 22
+      },
+      "LP07-059-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "d0111bae38a15ef8f16fc70141bec3b9757f6f385aeb65e17f421d58e7eff6fd",
+        "returned_calls": 22
+      },
+      "LP07-060-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "78144edb182e02ca7e09c57bc57a3c547c9999b16ba5961929724030aab6f147",
+        "returned_calls": 22
+      },
+      "LP07-061-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "aa70a4162d5c10bd23b7d4c97b0de1bb26b883ea51d6360f8a6c844c8ffda330",
+        "returned_calls": 22
+      },
+      "LP07-062-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "467e3c27ea300741586e882a0dad23933803fa8bc968970727e5821553cf5424",
+        "returned_calls": 22
+      },
+      "LP07-063-a2": {
+        "terminal": "COMPLETE.json",
+        "terminal_sha256": "2553a193b850d285914170777d6a14ed9a160b06578bdc81b3004c0f121853b9",
+        "returned_calls": 22
+      }
+    },
+    "primary_consumer": "DEFERRED: four required complete histories missing; no survivor replacement"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation and incomplete-family handoff only. LP07 complete-only primary consumer is deferred with four failed histories; no survivor replacement, scientific comparison or new claim."
+}

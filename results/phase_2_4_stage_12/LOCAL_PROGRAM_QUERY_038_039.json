@@ -1,0 +1,51 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-038-039",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:33:55.042484+00:00",
+  "completed_producers": {
+    "LP07-038-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "16cbdbb14c42d31f03c0e6397293ad2fc49b25318ec2421446b29969bda28e68",
+      "source_pins_verified": 476,
+      "terminal_sha256": "9fe9593455a1bbc159358f896d921204d61059bad312017359b31170373aa1be"
+    },
+    "LP07-039-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "28749cae7325c7273aad3f1f4ebd753b4fc540d6cbbfba19eaa30f6536b5e96d",
+      "source_pins_verified": 476,
+      "terminal_sha256": "b141ad7f86799d41b9910264e323c8ae7e42e6a62f8567782febf10c9b9db064"
+    }
+  },
+  "delayed_notices_reconciled": [
+    "LP07-035-a2",
+    "LP07-036-a2",
+    "LP07-037-a2"
+  ],
+  "delayed_landing": "OPS-S12-LP07-PRODUCERS-035-037",
+  "all_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-042-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 3.930582,
+  "raw_output_age_seconds": 4.032862901687622,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T13:33:55.041559+00:00",
+    "cpu_seconds": 0.453125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 038/039 replay and delayed notices",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation and delayed delivery reconciliation only; whole LP07 remains incomplete with the three previously inspected failed histories and unavailable complete-only consumer."
+}

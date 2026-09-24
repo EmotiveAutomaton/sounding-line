@@ -2,6 +2,148 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] L445 / LP12: all five producers and complete consumer replay unchanged; independent reference, score, interval and omitted-mass controls pass; full internal scientific write-through complete.
+- [ ] L445 packet scope: retain extra-candidate dimensionality/wording and arithmetic-validity limits, truth-dependent omission selection, history-only posterior benchmark, descriptive outside means and missing interaction; no open-world or human-mechanism claim.
+
+- [x] OPS-S12-LP12-FOURTH-PRODUCER: fourth omitted-candidate block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP12-THIRD-PRODUCER: third omitted-candidate block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP12-SECOND-PRODUCER: second omitted-candidate block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP12-FIRST-PRODUCER: first omitted-candidate block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] L444 / LP11: all ten producers and complete consumer replay unchanged; independent reference, score, interval and known-answer checks pass; full scientific write-through complete.
+- [ ] L444 packet scope: retain same-policy donors, skill-insensitive query, absence of a frozen dose interaction, pointwise unresolved intervals, all invalids and reused histories; no equivalence or general familiarity mechanism claim.
+
+- [x] OPS-S12-LP11-NINTH-PRODUCER: ninth familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-EIGHTH-PRODUCER: eighth familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LOCAL-HEALTH-1434: four-hour health inspection and operational write-through complete; Gear 2 progress, resources, next-job admission, retained failures and monitoring verify. No recovery or new tests. Its ACK rearms the next four-hour health check.
+
+- [x] OPS-S12-LP11-SEVENTH-PRODUCER: seventh familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-SIXTH-PRODUCER: sixth familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-FIFTH-PRODUCER: fifth familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-FOURTH-PRODUCER: fourth familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-THIRD-PRODUCER: third familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-SECOND-PRODUCER: second familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP11-FIRST-PRODUCER: first familiarity block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
+- [x] OPS-S12-LP10-ROSTER-END: final memory producer replay and complete frozen-roster reconciliation; operational write-through complete. All histories are terminal, the failed acquisition and dependent deficit remain, and the complete-only comparison stays deferred. Gear 2 continues to LP11.
+
+- [x] OPS-S12-LP10-PRODUCER-062: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-061: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-060: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-059: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-056-058: all three completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-054-055: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-053: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-051-052: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-050: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-049: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-047-048: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-046: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-043-045: all three completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-041-042: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-040: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-039: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-037-038: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-036: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-035: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-032-034: all three completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-031: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-029-030: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-028: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-027: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-025-026: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCER-024: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-022-023: both completed memory producers replay unchanged with full bindings, natural native handoff and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-020-021: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-PRODUCERS-017-019: all three completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LOCAL-HEALTH-1030: both memory producers replay unchanged; four-hour inspection verifies native progress, limits, locks, eligible work and monitoring. No recovery needed. LP07/LP10 deficits remain; continue the frozen roster and the independent four-hour health cadence.
+
+- [x] OPS-S12-LP10-PRODUCERS-013-014: both completed memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains incomplete; the failed acquisition history is retained.
+
+- [x] OPS-S12-LP10-FIRST-FAILURE: failed memory prefix and no-substitute guard reproduce; three completed producers replay unchanged. Retained costs, native exit and independent Gear 2 continuation verify; operational write-through complete.
+- [ ] LP10 incomplete-family reporting: include the reconciled terminal roster and retained invalid-acquisition history in the Friday/Monday packets: 63 complete histories, one failed, 1,642 returned calls and 22 unstarted dependents. The complete-only primary consumer is deferred and unstarted; no survivor-based comparison, fallback, retry or replacement (OPS-S12-LP10-ROSTER-END).
+
+- [x] OPS-S12-LP10-PRODUCERS-007-008: both memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains pending.
+
+- [x] OPS-S12-LP10-PRODUCER-006: completed memory producer replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains pending.
+
+- [x] OPS-S12-LP10-PRODUCERS-004-005: both memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains pending.
+
+- [x] OPS-S12-LP10-FOURTH-PRODUCER: fourth memory producer replays unchanged with full bindings, native continuation and monitoring verified; three delayed notices reconciled and operational write-through complete. Whole LP10 remains pending.
+
+- [x] OPS-S12-LP10-FIRST-PRODUCERS: first three memory producers replay unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole LP10 remains pending.
+
+- [x] L443 / LP09: all five producers and complete consumer replay unchanged; independent channel, score, interval and known-answer checks pass; full scientific write-through complete.
+- [ ] L443 packet scope: retain changing information floors, pointwise exploratory intervals, all invalids, conditional-channel construction and absence of a frozen graded-reliability interaction; no broad trust-mechanism claim.
+
+- [x] OPS-S12-LP09-FOURTH-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP09 analysis remains pending.
+
+- [x] OPS-S12-LP09-THIRD-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP09 analysis remains pending.
+
+- [x] OPS-S12-LP09-SECOND-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP09 analysis remains pending.
+
+- [x] OPS-S12-LP09-FIRST-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; inspection corrections accounted for and full operational write-through complete. Whole LP09 analysis remains pending.
+
+- [x] L442 / LP08: all five producers and complete consumer replay; independent utility and known-answer rulers pass; full descriptive scientific write-through complete. Primary paired regret uncertainty is unavailable in the frozen consumer, not a passed inferential gate.
+- [ ] L442 packet limitation: carry the missing primary regret interval, answer-order sensitivity, all invalids and separation from incomplete LP07 post-purchase use into the Friday/Monday packets; no primary benefit/harm/equivalence claim.
+
+- [x] OPS-S12-LP08-FOURTH-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP08 analysis remains pending.
+- [x] OPS-S12-LP08-THIRD-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP08 analysis remains pending.
+- [x] OPS-S12-LP08-SECOND-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP08 analysis remains pending.
+- [x] OPS-S12-LP08-FIRST-PRODUCER: all 180 calls and full handler replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete. Whole LP08 analysis remains pending.
+- [x] OPS-S12-LP07-PRODUCERS-060-063: all four complete producers replay unchanged; full bindings, terminal census, dependency deferral, native LP08 continuation and monitoring verified; full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCER-059: complete producer replay, all bindings/native continuation/monitoring and full operational write-through verified; original evidence unchanged.
+- [x] OPS-S12-LP07-PRODUCERS-057-058: both complete producers replay unchanged; all bindings, native new-worker start/ownership and monitoring verified; full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCER-056: complete producer replay, all bindings, natural native handoff/monitoring and full operational write-through verified; interrupted inspection accounted for, original evidence unchanged.
+- [x] OPS-S12-LP07-PRODUCERS-054-055: both complete producers replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCER-053: complete producer replay, all bindings/native continuation/monitoring and full operational write-through verified; original evidence unchanged.
+- [x] OPS-S12-LP07-PRODUCERS-050-052: all three complete producers replay unchanged; all bindings, native continuation and monitoring verified; full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCERS-047-049: all three complete producers replay unchanged; all bindings, native continuation and monitoring verified; initial inspection assertion accounted for and full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCER-046: complete producer replay, all bindings/native continuation/monitoring and full operational write-through verified; original evidence unchanged.
+- [x] OPS-S12-LP07-PRODUCERS-043-045: all three complete producers replay unchanged; full bindings, native continuation and monitoring verified; full operational write-through complete.
+- [x] OPS-S12-LP07-FOURTH-SELECTION-FAILURE: complete 040/042 producers and failed 041 prefix/guard replay; all bindings, costs, native exit/continuation, delayed 038/039 reconciliation and full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCERS-038-039: both producers replay unchanged; all bindings/native continuation/monitoring and delayed 035/036/037 reconciliation verified; full operational write-through complete.
+- [x] OPS-S12-LP07-PRODUCERS-035-037: all three producers replay unchanged; full bindings/native continuation, historical heartbeat exclusion and delayed 031/032 reconciliation verified; complete operational write-through.
 - [x] OPS-S12-LOCAL-HEALTH-0620: full four-hour health inspection passes without recovery; producers 031-034 replay unchanged, delayed 026/027/028 reconcile, and operational write-through is complete. Continue the existing independent cards and preserve incomplete-family accounting.
 - [x] OPS-S12-LP07-PRODUCERS-028-030: all three complete producers replay with original records unchanged; bindings, native continuation/monitoring and delayed complete 021/023 plus failed 022 reconciliation verified; full operational write-through complete.
 - [x] OPS-S12-LP07-PRODUCERS-026-027: both complete producers replay with all bindings and files unchanged; live continuation/monitoring and delayed 014/015 reconciliation verified; full operational write-through complete.
@@ -9,7 +151,7 @@
 - [x] OPS-S12-DEPARTURE-WATCH: producers 014-020 replay and full operational write-through complete; live monitoring, all current-plan terminal watches and unchanged four-hour deadline verify. Continue scheduled inspections and complete internal landings.
 - [x] OPS-S12-LP07-SECOND-SELECTION-FAILURE: complete producers 010/012/013 and failed 011 prefix/guard replay, all bindings/costs/native continuation and full operational write-through complete; delayed 004-007 notices reconciled.
 - [x] OPS-S12-LP07-SELECTION-FAILURE: complete producers 004-008 and failed 009 prefix/guard replay; costs, native continuation, full operational write-through and delayed LP06 reconciliation complete.
-- [ ] LP07 incomplete-family reporting: retain all three inspected invalid-selection histories and all unstarted dependent calls; complete-only primary consumer cannot run on survivors. Independent frozen histories continue without fallback, blind retry or replacement.
+- [ ] LP07 incomplete-family reporting: retain all four inspected invalid-selection histories and all unstarted dependent calls; complete-only primary consumer cannot run on survivors. Independent frozen histories continue without fallback, blind retry or replacement.
 
 - [x] OPS-S12-LOCAL-VALIDITY-0514: full Stage 12 tests, current-plan/input/source/terminal/output audit and explicit completed-job report index; LP07 first four producer actual replays and operational write-through complete. Existing work remains; conditional new research is not activated.
 

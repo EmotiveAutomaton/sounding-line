@@ -1,0 +1,45 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-054-055",
+  "status": "inspection-complete",
+  "at": "2026-09-24T14:04:01.437081+00:00",
+  "completed_producers": {
+    "LP07-054-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "3c07c9bd09293ec28b2412026a546aa364f05f74ff4de5e14a7fc03e176c716c",
+      "source_pins_verified": 476,
+      "terminal_sha256": "9a2b399d7ce74c36a9590d782dfcaab81f42e6a453301ae87d41ab9457f05e14"
+    },
+    "LP07-055-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "fc6effc15d1d121d7897a7bb46ef12ced1e4acc13128ce5e5e1638ac44f0f457",
+      "source_pins_verified": 476,
+      "terminal_sha256": "cfc68b00cf490fd7a1ed09bc41a311a8874fff0983c9792ddf96fe25995f0be0"
+    }
+  },
+  "all_plan_start_terminal_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-056-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 5.823489,
+  "raw_output_age_seconds": 5.908265829086304,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T14:04:01.436257+00:00",
+    "cpu_seconds": 0.375,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 054 and 055 request and full handler replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation only; whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only consumer."
+}

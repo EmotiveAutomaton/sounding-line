@@ -1,0 +1,97 @@
+{
+  "landing": "OPS-S12-LOCAL-HEALTH-1030",
+  "status": "inspection-complete",
+  "at": "2026-09-24T17:30:01.931623+00:00",
+  "gear": 2,
+  "completed_producers": {
+    "LP10-015-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "6c4a05197f04b0fd1b2f6ae3ec79b822ded09fffc50538736f67262327baef19",
+      "terminal_sha256": "598f197da43ead03b00ce61f50a9738b9650df1281407d23058141f9846ccb99"
+    },
+    "LP10-016-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 190,
+      "calls": 26,
+      "manifest_sha256": "40673bf7f3600ad6c991629e50695dd4d9467e313e35e1c6308f88cbbdd05e71",
+      "terminal_sha256": "adf7e7e5e2301f2ab95c117f00914c626661cabc691df0f882a1fd38d7350654"
+    }
+  },
+  "all_json_files_unchanged": 380,
+  "completed_calls": 52,
+  "producer_bindings_verified": true,
+  "current_and_next_job_bindings_verified": true,
+  "source_pins": 476,
+  "active_job": "LP10-018-a2",
+  "next_runnable": "LP10-019-a2",
+  "next_admission_passed": true,
+  "native_worker_coordinator_gpu_owner_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 6.246516,
+  "raw_output_age_seconds": 0.036194801330566406,
+  "gpu_capacity_ready": true,
+  "gpu_free_MiB": 1634.0,
+  "gpu_temperature_C": 56.0,
+  "free_host_GiB": 46.424015045166016,
+  "free_disk_GiB": 835.6458282470703,
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "charges": {
+    "cpu_seconds": 43184.35931669222,
+    "diagnostic_gpu_seconds": 45.88449860003311,
+    "gpu_seconds": 45290.77572319977,
+    "host_cpu_seconds": 90581.55144639954
+  },
+  "unstarted_frozen_cards": 195,
+  "unstarted_count_includes_conditional_and_blocked": true,
+  "current_failed_histories": [
+    "LP07-009-a2",
+    "LP07-011-a2",
+    "LP07-022-a2",
+    "LP07-041-a2",
+    "LP10-012-a2"
+  ],
+  "new_failure": false,
+  "watcher_native_loaded_source_and_fresh_scan_verified": true,
+  "watcher_scan_error": null,
+  "historical_uncertain_notification_retained": true,
+  "actual_result_wake_observed": true,
+  "health_inspected_directly_before_separate_delivery": true,
+  "checkpoint_native_freshness_verified": true,
+  "registered_terminal_paths": 652,
+  "health_interval_seconds": 14400,
+  "health_ack_pending": false,
+  "recovery": "none required",
+  "verification_charges": [
+    {
+      "at": "2026-09-24T17:27:31.874782+00:00",
+      "cpu_seconds": 0.359375,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "LP10 producers 015 and 016 actual request and handler replay",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-24T17:30:01.930647+00:00",
+      "cpu_seconds": 5.861785399727523,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "inspection_retry_allowance_seconds": 1,
+      "kind": "Four-hour operational health inspection September 24 10:26",
+      "status": "complete"
+    }
+  ],
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "whole_LP07_and_LP10_primary_comparisons": "incomplete; no survivor-based consumer",
+  "original_allocation_cutoff_and_packets_preserved": true,
+  "all_inspected_events_acknowledged_after_write_through": true,
+  "next_health_utc": "2026-09-24T21:33:02.780402+00:00",
+  "next_health_local": "2026-09-24T14:33:02.780402-07:00"
+}

@@ -613,6 +613,7 @@ the reason to expect modest effects.
 |   | | *(L433/L435: eight-history conditional effects confounded frame with history; L439: complete three-frame crossing within each history removes that confound, while the contrasts remain unresolved after deterministic interval correction.)* |
 | **S12-ATTRIBUTED-ANSWER-1** | Does the correctness, stated confidence or claimed ownership of an earlier answer change later reading? | **OPEN; the frozen pooled contrasts remain unresolved (test, L440; 32 constructed histories in one law, Qwen direct/account readers and independent exact references).** All supplied factors are crossed at matched input byte length. The incorrect-minus-correct interval is above zero but does not wholly exceed the harm margin; confidence, ownership and method contrasts establish neither benefit, harm nor equivalence. These pool diagnostic and irrelevant updates, so no selective-correction interaction, actual prior authorship, hidden memory or human mechanism is identified. Invalids and infinite losses remain. |
 | **S12-COMMON-CAUSE-1** | Does the reader distinguish repeated reports of one event from an independent observation? | **OPEN for the evidence-dependence mechanism (test, L441; 64 constructed histories in one law, Qwen direct/account readers and exact-program references).** All four evidence-view contrasts remain unresolved at the frozen margin; pooled account reading improves excess loss over direct reading. The independent view has a lower exact-information floor, so its excess-loss difference is not raw predictive harm. Explicit same-event labels and unequal lengths outside the independent/irrelevant pair limit interpretation. Invalids remain; no dedicated confidence-inflation contrast or human mechanism is established. |
+| **S12-SOURCE-RELIABILITY-1** | Does declared source accuracy constrain contextual updating, including ignoring uninformative reports? | **OPEN for graded reliability use; scoped trust failure observed (test, L443; 48 constructed histories in one law, Qwen direct/account readers and independent exact references).** An opposing report with declared chance accuracy harms the pooled forecast at the frozen margin. Several reliable-report excess-loss contrasts also show harm, but changing exact-information floors prevent equating them with raw predictive harm. Method difference is unresolved; the consumer supplies no reliability-by-cue interaction. Conditional vignettes, invalids and reused discovery histories remain explicit; no human trust or internal belief mechanism is identified. |
 | **C01** | A coherent context model improves held-out prediction beyond the same facts listed, and a wrong context costs | **INCONCLUSIVE on the first half, REFUTED on the second (test, L239), full size and expanded.** Bundle minus facts +0.10 nats over 128 worlds and +0.09 over 256, the interval crossing zero both times; an incorrect bundle helps as much as the correct facts (+0.59 to +0.72 over no context) and irrelevant background helps by a third to a half of a nat, so the readers take the frame and not the content |
 | **C02** | A reader uses a contextual prior without staying trapped by it: individuating records correct a misleading context | **REFUTED as a flat curve (test, L241): COUNTEREVIDENCE at 128 worlds, INCONCLUSIVE at 256.** Six records after a misleading prior move the direct log score -0.20 nats at 128 worlds and -0.08 with the interval crossing zero at 256, while the exact ruler climbs 0.13 to 0.16; the valid prior's curve is flat (0.00); a misleading prior helps at zero records as much as a valid one (+0.38 against +0.32); neither two-pass route helps; 0.44 of the mass stays on an option stated unavailable |
 | **C03** | The readers choose evidence by its expected information about the maker (active reading) | **COUNTEREVIDENCE (test, L246), 204 usable worlds of 256.** The redundant probe is chosen 0.78 of the time and the informative one 0.08, half of every pick going to the first listed; 8 percent of the exact selector's expected gain is captured, a quarter below a random pick; the realized gains are flat at this size |
@@ -652,8 +653,13 @@ loss contrasts also remain unresolved at their frozen margin, while account-base
 reading improves the pooled comparison. Independent evidence lowers the exact
 information floor, so increased excess loss cannot be read as raw predictive harm.
 These comparisons do not identify confidence inflation from counting a common cause
-more than once (S12-COMMON-CAUSE-1, L441). These are scoped behavior results, not a
-demonstrated human updating mechanism.
+more than once (S12-COMMON-CAUSE-1, L441). Declaring a source uninformative does
+not protect the tested reader from a harmful opposing report. Reliable reports
+also leave a larger gap from some better-informed references, but that gap is
+not itself raw predictive harm. Without a reliability interaction, these
+conditional-channel comparisons do not establish how faithfully graded source
+accuracy governs updating (S12-SOURCE-RELIABILITY-1, L443). These are scoped
+behavior results, not a demonstrated human updating mechanism.
 
 The selection and reliance controls narrow earlier explanations. Route preferences do
 not follow ease as first proposed; the archaic rendering separates difficulty attraction
@@ -728,6 +734,7 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 |---|---|---|
 | **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him.** Interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data. Informs this file only, never ground truth |
 | **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN.** A real, formalisable target, and deprioritized as a global text summary by the program |
+| **S12-STOPPING-1** | Does a reader stop or buy evidence according to its declared purpose and cost? | **OPEN; primary uncertainty analysis unavailable (test, L442; 64 constructed discovery histories in one law, Qwen model reader and independent exact references).** All requested calls and descriptive replay are complete. Reader regret exceeds at least one constant policy in each purpose/cost stratum, with strong descriptive answer-order differences and retained invalids. The frozen consumer has no paired regret interval, so no formal benefit, harm or equivalence is established. Current forecasts do not test use after purchase; human interest is untested. |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ).** The arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
 
 **What the table says.** The interest account survived losing its supposed backing. The abandoned
@@ -737,8 +744,13 @@ interest and recoverability, which is exactly what the blocked ratings test woul
 The proposed relation between interest and unrecovered decisions also depends on the
 reader's purpose: material informative about a maker may add little to a reader's present
 learning task. Interest and stopping are consequently evidence about the reader as well
-as the artifact. Confidence: untested, logic only; the human rating comparison remains
-blocked on curator ratings.
+as the artifact. In a constructed task with explicit costs, this model reader's
+choices do not yet establish useful stopping beyond constant policies and answer
+position: the complete descriptive comparison retains invalids and lacks its primary
+uncertainty interval. That result concerns an investigation decision, not human interest
+or successful use of purchased evidence (S12-STOPPING-1, L442). Confidence: one bad test
+away for the scoped model description; untested, logic only for the human interest
+account, whose rating comparison remains blocked on curator ratings.
 
 # Part II: Cue families
 

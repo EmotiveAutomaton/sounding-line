@@ -9,6 +9,2040 @@ ran it.
 
 ---
 
+### L445 - omitted-candidate recognition remains unestablished; the extra-candidate comparison worsens
+
+**Hypothesis.** A bounded reader can notice that its candidate list is missing a plausible maker and retain probability outside that list, rather than becoming confidently wrong as more evidence arrives.
+
+**METHOD.** Run the frozen complete omitted-candidate family on 64 constructed discovery histories with Qwen3.5:9B: direct forecasts and structured maker accounts, after either one or eight observed actions, under the full native list, a list omitting the generating candidate, and a list adding an irrelevant candidate. All 768 planned calls returned across five producers. The target is the declared posterior over four persistent preferred-column/training-bit policies under a uniform prior and the unchanged interlock law, not the next action or the realized latent policy treated as certain truth. Exact program enumeration supplies the benchmark. The omitted candidate's full-posterior mass moves into the outside-list category without renormalizing the remaining candidates. Every attempt, invalid penalty and zero-support logarithmic loss is retained. Paired history-cluster means and fixed-seed 4,000-draw bootstrap intervals implement the frozen practical margin of 0.02. These are pointwise exploratory intervals, not multiplicity-controlled confirmation.
+
+**Validity.** Actual request/parser replay and all five producer handlers plus the complete consumer reproduce exactly with dispatch disabled; all 5,422 original JSON files remain byte-identical. All 476 source pins, source-only roster construction, prompts, manifests, contract, inputs, dependencies and output bindings verify. Independent likelihood multiplication reconstructs the four-policy posterior; separate expected-loss and bootstrap calculations reproduce all twelve condition means/intervals and five paired contrasts. Exact answers have zero excess loss, deliberately wrong answers lose, and invalid answers retain loss one. In 120 rows with omitted mass above 0.9, deliberately removing that mass worsens loss by more than 0.4. Calibration bins cover each valid response exactly once, grouped by method and label count, and their finite-bin remainder identity holds. These controls validate the declared ruler; they do not validate a human missing-explanation mechanism.
+
+The table reports expected half-Brier loss, a squared probability error where lower is better, for 64 attempts per method in every row. Direct asks for a short evidence-based forecast; account asks for coherent possible maker states and remaining alternatives before forecasting. The uniform rival distributes probability equally across the displayed labels. The exact floor is residual uncertainty under the declared full-family posterior. Invalid forecasts score one; infinite counts include invalid forecasts and valid forecasts that assign zero probability to supported possibilities.
+
+| Candidate list / observed actions | Direct loss | Account loss | Uniform loss | Exact floor | Invalid direct / account | Infinite direct / account |
+|---|---:|---:|---:|---:|---:|---:|
+| All native candidates / 1 | 0.537700 | 0.424441 | 0.400000 | 0.290859 | 9 / 1 | 11 / 1 |
+| All native candidates / 8 | 0.475764 | 0.480225 | 0.400000 | 0.016901 | 0 / 0 | 10 / 16 |
+| One extra candidate / 1 | 0.731681 | 0.763939 | 0.416667 | 0.290859 | 27 / 30 | 39 / 46 |
+| One extra candidate / 8 | 0.612293 | 0.679992 | 0.416667 | 0.016901 | 17 / 20 | 26 / 32 |
+| Generating candidate omitted / 1 | 0.421516 | 0.462648 | 0.375000 | 0.290859 | 1 / 1 | 9 / 14 |
+| Generating candidate omitted / 8 | 0.501499 | 0.519175 | 0.375000 | 0.016901 | 0 / 0 | 10 / 12 |
+
+The next table reports all frozen paired comparisons over the same 64 histories. Differences are left minus right, so negative favors the left. Benefit or harm requires the whole interval beyond minus or plus 0.02; equivalence requires the whole interval inside that band. Otherwise the comparison is unresolved.
+
+| Paired comparison | Mean loss difference | 95% cluster interval | Frozen disposition |
+|---|---:|---:|---|
+| Account minus direct, across all lists and snapshots | +0.008328 | [-0.020474, +0.036559] | UNRESOLVED |
+| Extra minus complete, one action | +0.266739 | [+0.202353, +0.330746] | HARM |
+| Extra minus complete, eight actions | +0.168148 | [+0.102828, +0.232152] | HARM |
+| Omit minus complete, one action | -0.038989 | [-0.076445, -0.001928] | UNRESOLVED |
+| Omit minus complete, eight actions | +0.032342 | [-0.029626, +0.093848] | UNRESOLVED |
+
+**Found.** Adding the extra candidate worsens the attempted-population comparison at both evidence snapshots under the frozen rule. Neither omission comparison nor the account-versus-direct comparison resolves under that rule. The one-action omission interval lies below zero but crosses the practical-benefit boundary; it is not a resolved benefit. Unresolved does not mean equivalence. All twelve method-by-condition loss means are descriptively worse than their corresponding uniform rival.
+
+**Construction and interface limits.** The complete, omitted and extra lists contain five, four and six labels respectively, including outside. The extra label describes an always-still maker in prose whereas the native labels are bit pairs; wording, prompt length and output dimension are not matched. All 106 invalid replies have the expected array length and finite entries between zero and one, but fail the unchanged sum-to-one requirement. Of these, 94 occur in the extra-candidate condition, ten in complete, and two in omitted. Within extra, 44 arrays sum to 1.002; the remaining failures and their sums are retained in the receipt. The harm therefore measures the complete reader-and-interface procedure, including probability formatting, and cannot be attributed specifically to distraction by an irrelevant explanation. No renormalization, exclusion, parser change or generation retry follows from this post-run diagnosis. All 226 infinite logarithmic losses remain visible.
+
+Omission is selected using the generating policy, while the reference is explicitly the posterior from history before mapping into the displayed list. It does not additionally condition on the truth-dependent list-selection procedure. This is a declared benchmark diagnostic, not a claim that the list itself contains no information under every possible observer model. Outside has zero reference mass in the complete/extra lists because the source law is restricted to four policies. All native likelihoods remain positive. Neither this construction nor its outside label tests unrestricted discovery of an unknown mechanism.
+
+The table below is a post-run descriptive check, pooling the two methods. It distinguishes all-attempt reference mass from valid-only response means so invalid replies cannot silently disappear. No outside-specific inferential contrast or interaction between evidence snapshot and candidate condition is implemented in the frozen consumer.
+
+| Candidate list / observed actions | Valid / attempted | Reference outside probability, all attempts | Reference outside probability, valid subset | Reader outside probability, valid subset |
+|---|---:|---:|---:|---:|
+| All native candidates / 1 | 118 / 128 | 0.000000 | 0.000000 | 0.016102 |
+| All native candidates / 8 | 128 / 128 | 0.000000 | 0.000000 | 0.037109 |
+| One extra candidate / 1 | 71 / 128 | 0.000000 | 0.000000 | 0.000704 |
+| One extra candidate / 8 | 91 / 128 | 0.000000 | 0.000000 | 0.008462 |
+| Generating candidate omitted / 1 | 126 / 128 | 0.390625 | 0.392857 | 0.185734 |
+| Generating candidate omitted / 8 | 128 / 128 | 0.956448 | 0.956448 | 0.179430 |
+
+The descriptive omission means do not show the reader's outside probability following the rising benchmark mass. That is a useful diagnostic, not a separately confirmed interaction. Reference floors are identical across lists at a fixed snapshot because omission transfers a single policy's mass into outside, rather than erasing it; comparisons are not caused by different reference floors. Across snapshots the floor changes substantially as evidence accumulates. Candidate count also changes the uniform baseline. These distinctions remain essential when interpreting raw loss or excess error.
+
+The fixed confidence grid below retains the full attempted denominator, with 106 invalid replies at every threshold. Confidence is the largest reported label probability; retained loss is valid-only expected half-Brier loss. No threshold or calibrator was fitted. The full fixed-bin calibration and score components are in the linked receipt.
+
+| Minimum reported confidence | Retained / attempted | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 662 / 768 | 0.861979 | 0.478997 |
+| 0.25 | 650 / 768 | 0.846354 | 0.480492 |
+| 0.50 | 264 / 768 | 0.343750 | 0.598104 |
+| 0.60 | 249 / 768 | 0.324219 | 0.604267 |
+| 0.70 | 214 / 768 | 0.278646 | 0.610610 |
+| 0.80 | 163 / 768 | 0.212240 | 0.620600 |
+| 0.90 | 50 / 768 | 0.065104 | 0.661444 |
+| 1.00 | 8 / 768 | 0.010417 | 0.996708 |
+
+**Means.** The model's missing-candidate recognition remains open. The complete procedure is sensitive to adding a candidate, but unmatched list dimensions, wording and arithmetic validity prevent a clean mechanism attribution. Declared posterior support is preserved by the exact benchmark; it is not evidence that the model discovered a missing explanation. These are model responses to constructed histories, with the same discovery histories reused across local families, not independent human or cross-world replication. The curator's useful-narrowing claim remains open beyond this scoped diagnostic.
+
+**Operational continuation.** At September 24, 16:25 PDT, LP13-000-a2 is active in Gear 2 with verified native coordinator/worker identity, matching GPU ownership and fresh outputs. Loaded watcher sources, scanning and original checkpoint helper verify. Whole-family verification costs 3.890625 CPU seconds; the saved-output parser diagnosis, including a conservative allowance for its earlier read, costs 0.296875 CPU seconds. No new model calls, tests harvested, research, fit, cloud spend or delegation. Earlier incomplete questioning and memory families, all original failures/corrections/costs, the local cutoff and Friday/Monday packets remain. Both completion events receive ACK only after this full write-through. The independent health deadline remains September 24 at 18:37:48 PDT.
+
+**Curator roll-up.** Theory group: identifiability and bounded candidate families. Question: does a reader preserve a missing explanation rather than forcing evidence into its list? Outcome: **Narrows**. Result: the extra-candidate comparison worsens while omission recognition remains unestablished. Project meaning: finite-list performance must retain probability-format and candidate-construction limits. Next engineering obligation: carry these limits and all invalids into the final packet while continuing the frozen roster. Public claim: unchanged for general missing-explanation discovery or human narrowing. Curator decision required: No. Detail: [complete omitted-candidate inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_COMPLETE.json).
+
+---
+
+### OPS-S12-LP12-FOURTH-PRODUCER - fourth omitted-candidate producer preserved
+
+**Hypothesis.** The fourth completed omitted-candidate block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished omitted-candidate family.
+
+| Check | Result |
+|---|---|
+| LP12-003-a2 | All 180 saved calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP12-004-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete omitted-candidate comparison. This is a finite candidate-list diagnostic, not open-world discovery. Earlier questioning and memory comparisons remain incomplete; the complete familiarity family is internally landed in L444. Original costs, invalids, corrections, cutoff and Friday/Monday packets remain. This verification costs 0.953125 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [fourth producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_FOURTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP12-THIRD-PRODUCER - third omitted-candidate producer preserved
+
+**Hypothesis.** The third completed omitted-candidate block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished omitted-candidate family.
+
+| Check | Result |
+|---|---|
+| LP12-002-a2 | All 180 saved calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP12-003-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete omitted-candidate comparison. This is a finite candidate-list diagnostic, not open-world discovery. Earlier questioning and memory comparisons remain incomplete; the complete familiarity family is internally landed in L444. Original costs, invalids, corrections, cutoff and Friday/Monday packets remain. This verification costs 1.0 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [third producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_THIRD_PRODUCER.json).
+
+---
+
+### OPS-S12-LP12-SECOND-PRODUCER - second omitted-candidate producer preserved
+
+**Hypothesis.** The second completed omitted-candidate block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished omitted-candidate family.
+
+| Check | Result |
+|---|---|
+| LP12-001-a2 | All 180 saved calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP12-002-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete omitted-candidate comparison. This is a finite candidate-list diagnostic, not open-world discovery. Earlier questioning and memory comparisons remain incomplete; the complete familiarity family is internally landed in L444. Original costs, invalids, corrections, cutoff and Friday/Monday packets remain. This verification costs 0.8125 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [second producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_SECOND_PRODUCER.json).
+
+---
+
+### OPS-S12-LP12-FIRST-PRODUCER - first omitted-candidate producer preserved
+
+**Hypothesis.** The first completed omitted-candidate block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished omitted-candidate family.
+
+| Check | Result |
+|---|---|
+| LP12-000-a2 | All 180 saved calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP12-001-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete omitted-candidate comparison. This is a finite candidate-list diagnostic, not open-world discovery. Earlier questioning and memory comparisons remain incomplete; the complete familiarity family is internally landed in L444. Original costs, invalids, corrections, cutoff and Friday/Monday packets remain. This verification costs 0.921875 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [first producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_FIRST_PRODUCER.json).
+
+---
+
+### L444 - no resolved own-maker advantage in the complete familiarity comparison
+
+**Hypothesis.** Earlier observations of the same maker should improve a reader's next-choice prediction beyond equally long observations of other makers or irrelevant records, with useful additional experience producing an interpretable dose pattern.
+
+**METHOD.** Run all ten frozen LP11 producers and their whole-family consumer: 64 constructed discovery histories from the unchanged Stage 11.2 interlock law, two Qwen 3.5 9B methods (direct forecast and explicit account), four prior sources and three doses, totaling 1,536 calls. Prior sources are the same maker, one matched other maker, different makers with one event each, and irrelevant text. Doses are one, two and four earlier action records. Every condition receives the same final two current observations and the same later four-action forecast query. Earlier same-maker events do not overlap those current observations. Source selection uses exact diagnostic properties without model outcomes. Input bytes are matched within each history/method/dose block by whitespace, not necessarily tokenizer length. No weights are fitted.
+
+**Construction and reference boundary.** The 64 donor histories are distinct from all targets, but their balanced index matching gives every paired donor the same persistent preference and skill as its target. They are different realized histories, not different underlying policies. At dose one, donor and domain conditions show the same record with different source descriptions; larger domain doses pool different donors. The common query has the first tool absent, so skill does not affect its next-action distribution. The outcome therefore probes preference-conditioned prediction, not independent recovery of expertise. Scoring uses the generating maker's actual stochastic policy, with its fixed lapse rate, rather than a sampled next action. The stored available-evidence posterior is separately checked and is not the oracle policy floor. Prior-source labels, supplied rules and changed records remain explicit assistance; this is not human closeness, latent-state learning or independent domain training.
+
+**Validity.** All producers and the complete consumer reenter actual requests/parsers and full handlers with network dispatch disabled; all 10,838 original JSON files remain unchanged. All 476 source pins and every plan/start/terminal, contract/input/prerequisite/output binding verify. Discovery and donor rosters and full prompts reconstruct. A separate binary-law implementation verifies actual-policy targets, available-evidence posteriors, expected half-Brier losses, uniform/oracle references and zero-support failures. Independent paired source-cluster recomputation verifies all frozen contrasts and aggregate intervals. Exact-answer, wrong-answer and invalid-output controls behave as specified; coverage and nonoverlapping calibration-bin membership reconcile. This is internal verification of one constructed law and reader, not an independent scientific replication.
+
+The table reports expected half-Brier probability error, where lower is better, separately for direct reading and an explicit account. Each method has 64 forecasts per row; invalid and infinite counts pool both methods. The available-evidence reference uses the same current observations and adds earlier observations only when they belong to the target. Every row's uniform reference loss is 0.375000 and its privileged actual-policy floor is 0.071250. Infinite logarithmic losses include invalid probabilities and forecasts assigning zero probability to possible outcomes.
+
+| Earlier-record source | Dose | Direct loss | Account loss | Available-evidence reference loss | Invalid / attempts | Infinite log losses |
+|---|---:|---:|---:|---:|---:|---:|
+| Different makers | 1 | 0.456554 | 0.429814 | 0.096808 | 4 / 128 | 41 |
+| Different makers | 2 | 0.477327 | 0.412284 | 0.096808 | 7 / 128 | 40 |
+| Different makers | 4 | 0.387382 | 0.428396 | 0.096808 | 3 / 128 | 33 |
+| One matched other maker | 1 | 0.493332 | 0.425727 | 0.096808 | 10 / 128 | 59 |
+| One matched other maker | 2 | 0.436055 | 0.427751 | 0.096808 | 6 / 128 | 41 |
+| One matched other maker | 4 | 0.457473 | 0.442997 | 0.096808 | 3 / 128 | 43 |
+| Irrelevant records | 1 | 0.530740 | 0.398001 | 0.096808 | 16 / 128 | 56 |
+| Irrelevant records | 2 | 0.476128 | 0.435366 | 0.096808 | 10 / 128 | 55 |
+| Irrelevant records | 4 | 0.452833 | 0.496329 | 0.096808 | 11 / 128 | 60 |
+| Same maker | 1 | 0.407796 | 0.452908 | 0.099981 | 9 / 128 | 51 |
+| Same maker | 2 | 0.528162 | 0.505611 | 0.077736 | 10 / 128 | 49 |
+| Same maker | 4 | 0.399382 | 0.440483 | 0.074449 | 5 / 128 | 36 |
+
+The comparisons below average paired differences within each target history before resampling those 64 clusters. Negative differences favor the left condition. Intervals use 4,000 fixed-seed bootstrap draws and are pointwise exploratory intervals. The frozen practical margin is 0.02: an interval must lie wholly beyond that margin to establish benefit or harm, or wholly inside it for equivalence.
+
+| Comparison | Mean loss difference | 95% interval | Frozen disposition |
+|---|---:|---|---|
+| Account minus direct, all conditions | -0.017291 | [-0.043545, +0.008442] | UNRESOLVED |
+| Same maker minus different makers, dose 1 | -0.012832 | [-0.071386, +0.051534] | UNRESOLVED |
+| Same maker minus one matched other maker, dose 1 | -0.029178 | [-0.092732, +0.035472] | UNRESOLVED |
+| Same maker minus irrelevant records, dose 1 | -0.034019 | [-0.089677, +0.025514] | UNRESOLVED |
+| Same maker minus different makers, dose 2 | +0.072082 | [+0.011410, +0.136667] | UNRESOLVED |
+| Same maker minus one matched other maker, dose 2 | +0.084984 | [+0.016233, +0.160354] | UNRESOLVED |
+| Same maker minus irrelevant records, dose 2 | +0.061140 | [-0.001535, +0.124263] | UNRESOLVED |
+| Same maker minus different makers, dose 4 | +0.012043 | [-0.033306, +0.058064] | UNRESOLVED |
+| Same maker minus one matched other maker, dose 4 | -0.030302 | [-0.089592, +0.026311] | UNRESOLVED |
+| Same maker minus irrelevant records, dose 4 | -0.054648 | [-0.118578, +0.007598] | UNRESOLVED |
+
+**Found.** No own-maker contrast or overall account/direct contrast resolves as benefit, harm or equivalence under the frozen margins. At dose two, the own-minus-domain and own-minus-donor intervals are entirely positive but do not clear the harm margin; they remain unresolved, not equivalent. Every method/source/dose mean loss is descriptively worse than uniform. The own-maker mean does not improve monotonically across the displayed doses. The frozen consumer has no dose-by-source interaction or trend contrast, so that proposed graded mechanism has no formal test here. All 94 invalid forecasts remain in the attempted population, including 62 direct and 32 account outputs; valid-only analysis does not replace it.
+
+The coverage table pools both methods and all conditions. Coverage is the retained fraction of all 1,536 attempts, and retained mean loss describes valid forecasts meeting the threshold. All rows preserve the same invalid denominator of 94. The complete calibration bins, component remainder and method-specific aggregates are retained in the receipt.
+
+| Confidence threshold | Retained | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 1442 | 0.938802 | 0.414095 |
+| 0.25 | 1442 | 0.938802 | 0.414095 |
+| 0.50 | 735 | 0.478516 | 0.449585 |
+| 0.60 | 665 | 0.432943 | 0.461777 |
+| 0.70 | 618 | 0.402344 | 0.465906 |
+| 0.80 | 403 | 0.262370 | 0.497071 |
+| 0.90 | 275 | 0.179036 | 0.511035 |
+| 1.00 | 13 | 0.008464 | 0.421154 |
+
+**Means.** The completed test provides no resolved same-maker advantage in this finite prediction task. It does not reject the possibility of useful familiarity or establish that own and other experience are equivalent. The donor policy match, skill-insensitive question, stipulated source labels, varying information, missing dose interaction and invalid forecasts limit the inference. More informative target history can improve the exact available-evidence forecast without improving this reader's forecast; access and use remain distinct. Shared discovery histories across local packages and repeated conditions within them do not create additional independent subjects. Preserve the full attempted population and all comparisons for the Friday/Monday packets; no new test or favorable stratum is selected from this result.
+
+**Operational validity.** At 15:01 PDT, native coordinator and LP12-000-a2 ownership, matching GPU lock, fresh output, watcher loaded sources/scanning and the original checkpoint helper verify. Whole-family verification is charged once at 7.5625 CPU seconds and no new model calls. Gear 2, original limits/cutoff, Friday/Monday packets and the September 24 18:37:48 PDT health deadline remain. Earlier questioning, memory and cloud deficits and the stopping-analysis limitation remain. No recovery, retry, source repair, new tests, fit, cloud call or delegation.
+
+**Curator roll-up.** Theory group: maker familiarity and reusable understanding. Question: does observing the same maker improve prediction beyond other experience? Outcome: **Narrows**. Result: the complete comparison resolves no own-maker advantage under its declared margin. Project meaning: these supplied histories do not establish the proposed familiarity mechanism, while the broader human hypothesis remains open. Next engineering obligation: carry matching, query, dose-analysis and invalid-output limits into the final packet while continuing the frozen roster. Public claim: unchanged for general familiarity or human mechanisms. Curator decision required: No. Detail: [complete familiarity inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_COMPLETE.json).
+
+---
+
+### OPS-S12-LP11-NINTH-PRODUCER - ninth familiarity producer preserved
+
+**Hypothesis.** The ninth completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-008-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP11-009-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete familiarity comparison. Earlier questioning and memory comparisons remain incomplete; original costs, invalids, other corrections, cutoff and Friday/Monday packets remain. This verification costs 0.890625 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [ninth producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_NINTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-EIGHTH-PRODUCER - eighth familiarity producer preserved
+
+**Hypothesis.** The eighth completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-007-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP11-008-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete familiarity comparison. Earlier questioning and memory comparisons remain incomplete; original costs, invalids, other corrections, cutoff and Friday/Monday packets remain. This verification costs 0.828125 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [eighth producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_EIGHTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LOCAL-HEALTH-1434 - four-hour queue inspection passes
+
+**Hypothesis.** The frozen local program continues making progress within its resource and reporting limits, while failures remain recorded and monitoring can reach its owner.
+
+**METHOD.** Verify native coordinator, worker, GPU-lock, Ollama, watcher and original checkpoint identities; compare current worker progress with the earlier same-process record and inspect fresh output. Check all 476 source pins, active and next manifest/input/prerequisite bindings, the unchanged original week contract, next-job budget/reserve/deadline admission, GPU/host/disk capacity and CPU power limits. Reconcile all existing failed-history hashes and 652 registered terminal paths, and inspect the current health delivery and historical transport failure.
+
+The table describes execution, resources and monitoring. It contains no scientific scores from the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| Current progress | LP11-007-a2 advances from 14 to 153 completed calls in the same native process; heartbeat and latest raw output are under five seconds old |
+| Authorized next work | LP11-008-a2 passes input, prerequisite, capacity, budget/reserve and deadline admission; 142 cards remain unstarted, including conditional branches |
+| Resource headroom | GPU reports 1,610 MiB free at 54 degrees C; host memory has 48.02 GiB available and disk has 835.56 GiB free |
+| CPU limits | AC maximum remains 90 percent and boost remains off |
+| Retained failures | The four questioning failures and one memory acquisition failure are unchanged; no new failure |
+| Monitoring | Native identities, loaded watcher sources, fresh scan and checkpoint verify; all frozen terminal paths are registered |
+| Actual health delivery | This event reaches the owner on its first attempt; the separate historical timeout remains recorded without blind retry |
+
+**Found.** Gear 2 is progressing with adequate headroom and authorized next work. No recovery, retry, source repair, restart or allocation change is required. Incomplete questioning and memory comparisons remain incomplete, and the familiarity comparison remains pending.
+
+**Means.** Continue the frozen roster with original costs, invalids, corrections, cutoff and Friday/Monday packets. The conditional request for more research is not activated because work remains. This health inspection costs 4.951248999219388 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. ACK follows this documented inspection and rearms the independent four-hour clock; ordinary completion ACKs cannot defer it.
+
+**Curator roll-up.** Theory group: operational validity. Question: is the authorized queue progressing with its failures, resource limits and monitoring intact? Outcome: **Infrastructure**. Result: progress and next-job admission pass without recovery. Project meaning: independent local work remains runnable under the existing bounds. Next engineering obligation: inspect subsequent terminal events and the next four-hour health wake while preparing the scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [four-hour inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_1434.json).
+
+---
+
+### OPS-S12-LP11-SEVENTH-PRODUCER - seventh familiarity producer preserved
+
+**Hypothesis.** The seventh completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-006-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-007-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The seventh familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.984375 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the seventh familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [seventh familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_SEVENTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-SIXTH-PRODUCER - sixth familiarity producer preserved
+
+**Hypothesis.** The sixth completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-005-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-006-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The sixth familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.921875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the sixth familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [sixth familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_SIXTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-FIFTH-PRODUCER - fifth familiarity producer preserved
+
+**Hypothesis.** The fifth completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-004-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-005-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The fifth familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.828125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the fifth familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [fifth familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_FIFTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-FOURTH-PRODUCER - fourth familiarity producer preserved
+
+**Hypothesis.** The fourth completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-003-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-004-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The fourth familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.671875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the fourth familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [fourth familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_FOURTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-THIRD-PRODUCER - third familiarity producer preserved
+
+**Hypothesis.** The third completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-002-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-003-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The third familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.734375 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the third familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [third familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_THIRD_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-SECOND-PRODUCER - second familiarity producer preserved
+
+**Hypothesis.** The second completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-001-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-002-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The second familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.921875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the second familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [second familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_SECOND_PRODUCER.json).
+
+---
+
+### OPS-S12-LP11-FIRST-PRODUCER - first familiarity producer preserved
+
+**Hypothesis.** The first completed familiarity block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished familiarity family.
+
+| Check | Result |
+|---|---|
+| LP11-000-a2 | All 168 saved calls and the full handler replay; all 1,184 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family familiarity analysis remains pending; no interim comparison |
+| Native continuation | LP11-001-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The first familiarity producer replays unchanged and the next block is running in Gear 2. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent roster and wait for the entire familiarity family before scientific interpretation. Retain the earlier incomplete questioning and memory histories, all costs and invalids, other family limitations, original cutoff and Friday/Monday packets. Verification costs 0.890625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the first familiarity block replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the evidence remains recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain whole-family reporting. Public claim: unchanged. Curator decision required: No. Detail: [first familiarity producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_FAMILIARITY_FIRST_PRODUCER.json).
+
+---
+
+### OPS-S12-LP10-ROSTER-END - memory roster finished with its missing history retained
+
+**Hypothesis.** The fixed memory roster can finish its independent histories without treating a failed acquisition as a complete scientific comparison.
+
+**METHOD.** Replay every saved request/parser and the full final producer handler with network dispatch disabled, preserving original JSON bytes. Reconcile the consumer's frozen 64-history roster against all terminal, manifest, input, prerequisite and output bindings and the prior actual-replay receipts; verify all 476 source pins. Count returned and unstarted request slots, check that the complete-only consumer remains unstarted and deferred for the exact missing history, and verify native continuation, GPU ownership, fresh output and monitoring.
+
+The table records execution coverage and preservation. It contains no scientific scores or comparison of surviving histories.
+
+| Check | Result |
+|---|---|
+| Final producer LP10-063-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Frozen history roster | 63 complete histories and one retained failed history; all 64 terminal records and prior replay receipts reconcile |
+| Request coverage | 1,642 returned of 1,664 frozen slots; 22 dependent calls remain unstarted after the invalid acquisition |
+| Whole-family consumer | Deferred and unstarted because LP10-012-a2 has no completion; no survivor-based primary comparison |
+| Native continuation | LP11-000-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The last memory producer replays unchanged, all scheduled histories have terminal records, and the complete-only analysis is correctly deferred. Gear 2 has advanced to the independent familiarity study. The whole memory comparison remains **INCOMPLETE**, retaining the original acquisition failure, returned prefix, costs and unstarted dependents. No repair, inference retry, substitution or source change is required.
+
+**Means.** Continue the frozen independent roster. Preserve the memory deficit in the Friday/Monday packets alongside all earlier limitations and the original cutoff; completion of its runnable histories is not scientific completion. Verification costs 1.625 CPU seconds, including a conservative one-second allowance for preliminary roster inspection, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the memory roster retain its missing acquisition when independent histories finish? Outcome: **Infrastructure**. Result: the fixed roster reconciles and its incomplete comparison remains deferred. Project meaning: execution completion cannot erase missing evidence. Next engineering obligation: retain the deficit in the interim and final packets while inspecting independent authorized work. Public claim: unchanged. Curator decision required: No. Detail: [memory roster inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_ROSTER_END.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-062 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-062-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-063-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_062.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-061 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-061-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-062-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.21875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_061.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-060 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-060-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-061-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.21875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_060.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-059 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-059-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-060-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.203125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_059.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-056-058 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and all three full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-056-a2, LP10-057-a2 and LP10-058-a2 | All 78 saved calls and all three full handlers replay; all 570 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-059-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** All three completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.40625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_056_058.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-054-055 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-054-a2 and LP10-055-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-057-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.421875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_054_055.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-053 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-053-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-054-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.203125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_053.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-051-052 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-051-a2 and LP10-052-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-053-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The first read-only inspection reached a new worker before its first raw response and stopped at the freshness check; the subsequent native and output checks pass. Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 1.359375 CPU seconds, including a conservative one-second allowance for the initial inspection handoff timing error and follow-up, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_051_052.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-050 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-050-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-051-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_050.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-049 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-049-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-050-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_049.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-047-048 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-047-a2 and LP10-048-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-049-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.359375 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_047_048.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-046 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-046-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-047-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.171875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_046.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-043-045 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and all three full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-043-a2, LP10-044-a2 and LP10-045-a2 | All 78 saved calls and all three full handlers replay; all 570 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-046-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** All three completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.40625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_043_045.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-041-042 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-041-a2 and LP10-042-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-043-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.28125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_041_042.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-040 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-040-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-042-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_040.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-039 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-039-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-040-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.21875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_039.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-037-038 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-037-a2 and LP10-038-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-039-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.328125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_037_038.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-036 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-036-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-038-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.21875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_036.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-035 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-035-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-037-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.203125 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_035.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-032-034 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and all three full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-032-a2, LP10-033-a2 and LP10-034-a2 | All 78 saved calls and all three full handlers replay; all 570 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-035-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** All three completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.421875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_032_034.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-031 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-031-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-032-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_031.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-029-030 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-029-a2 and LP10-030-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-031-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.296875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_029_030.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-028 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-028-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-029-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.25 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_028.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-027 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-027-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-028-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.1875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_027.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-025-026 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-025-a2 and LP10-026-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-027-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.265625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_025_026.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-024 - completed memory producer preserved
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-024-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-026-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.15625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a completed memory history replay while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and retain the complete-family consumer's dependency deficit. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_024.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-022-023 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-022-a2 and LP10-023-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-025-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 1.265625 CPU seconds, including a conservative one-second allowance for the initial read-only inspection catching a natural handoff before the next worker wrote its first status file. The subsequent native identity, GPU ownership and output checks pass; no production failure or new model call follows. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_022_023.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-020-021 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-020-a2 and LP10-021-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-023-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.34375 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_020_021.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-017-019 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and all three full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-017-a2, LP10-018-a2 and LP10-019-a2 | All 78 saved calls and all three full handlers replay; all 570 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-020-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 14:33:02 PDT |
+
+**Found.** All three completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.359375 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_017_019.json).
+
+---
+
+### OPS-S12-LOCAL-HEALTH-1030 - memory producer preservation and four-hour queue health
+
+**Hypothesis.** Completed memory histories remain replayable, and independent frozen work can continue within resource and ownership limits despite the already retained failed histories.
+
+**METHOD.** Reenter all saved requests/parsers and both complete memory handlers with dispatch disabled, checking all source/manifest/contract/input/prerequisite/output bindings. Inspect actual coordinator, worker, GPU owner, local service, watcher and checkpoint identities; check raw-output freshness, the failure inventory, current/next manifests and inputs, next-job admission, remaining allocation, original contract binding, GPU/host/disk headroom and retained CPU power limits. Verify watcher-loaded sources, fresh scanning, all registered terminal paths and the due four-hour event. No scientific comparison is computed on an unfinished family.
+
+The table records execution and operational health. Resource totals are charged seconds at inspection, including live reservations; unstarted cards include dependency-blocked and conditional work and are not a count of immediately runnable jobs.
+
+| Check | Result |
+|---|---|
+| LP10-015-a2 and LP10-016-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Frozen source | All 476 source pins verify; producer, current and next-job bindings hold |
+| Native continuation | LP10-018-a2 active; LP10-019-a2 is the next eligible card and passes resource/deadline admission |
+| Observed freshness | Worker heartbeat 6.25 seconds old; latest raw output 0.04 seconds old |
+| Remaining frozen work | 195 unstarted cards, including conditional and blocked branches |
+| Retained failures | Four previously inspected LP07 histories and LP10-012-a2; no newly discovered failure or retry |
+| Resource headroom | 1634 MiB actual free GPU memory at 56 C; 46.42 GiB host memory and 835.65 GiB disk free |
+| Charged allocation | CPU 43184.36; GPU service 45290.78; diagnostic GPU 45.88; conservative host CPU 90581.55 seconds |
+| Power limits | AC processor maximum remains 90 percent; boost remains disabled |
+| Monitoring | Exact watcher identity and loaded sources, fresh scan, original checkpoint helper and all 652 registered final paths verify |
+| Health delivery | Due recurring event inspected directly while this result wake is active; it is not claimed as a separately delivered wake |
+
+**Found.** Both completed producers replay unchanged. Independent Gear 2 work is advancing under its original bounds, and no recovery is required. The previously recorded invalid-selection and invalid-acquisition histories remain incomplete. The historical uncertain notification is retained without blind retry; current result delivery is observed in this conversation.
+
+**Means.** Continue the existing roster; the conditional request for another research round is not activated because authorized work remains. LP07 and LP10 cannot receive complete-family primary comparisons from survivors. Preserve all failed evidence, charges, original cutoff and Friday/Monday packets. Producer replay costs 0.359375 CPU seconds and health inspection costs 5.861785 CPU seconds, including a conservative allowance for an inspection helper's optional-deadline lookup correction. No production source, inference, service or gear change occurred. No tests harvested, new research, fits, cloud calls or delegation. ACK this health event only after write-through and checks, then retain its next four-hour deadline; ordinary result ACKs do not move that clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the frozen local program continue safely while completed memory evidence remains replayable? Outcome: **Infrastructure**. Result: producer replay, resource admission and live monitoring verify. Project meaning: independent work can continue while incomplete-family limits remain explicit. Next engineering obligation: inspect subsequent terminal events and the next four-hour health event, retaining the original reporting schedule. Public claim: unchanged. Curator decision required: No. Detail: [queue health and memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_1030.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-013-014 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-013-a2 and LP10-014-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory comparison remains incomplete after the previously inspected invalid-acquisition failure; no survivor-based primary comparison |
+| Native continuation | LP10-015-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen independent Gear 2 roster. Retain the incomplete acquisition history and its unstarted dependent calls; the complete-only family consumer cannot use survivors. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.265625 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_013_014.json).
+
+---
+
+### OPS-S12-LP10-FIRST-FAILURE - invalid memory acquisition stops its dependent history
+
+**Hypothesis.** An invalid memory acquisition must stop dependent predictions without losing returned evidence or preventing independent frozen histories from continuing.
+
+**METHOD.** Verify the failed manifest/start/contract/input/prerequisite bindings, all 476 source pins, retained charges and native exit. Replay every saved request/parser and scored prefix, then replay the full handler with service acquisition and dispatch disabled to reproduce the exact no-substitute guard. Verify all three completed producers through their actual full handlers, unchanged bytes, bound outputs, and the complete-only family consumer's missing prerequisite. Check native coordinator/worker/GPU ownership, fresh output, watcher source/scanning and the original checkpoint helper.
+
+The table describes preserved execution evidence and missing coverage, not unfinished scientific scores. Retained CPU and GPU seconds describe accounting for the failed job and its service, not model performance.
+
+| Check | Result |
+|---|---|
+| LP10-012-a2 failure | First memory acquisition has invalid finite probabilities; the declared guard reproduces before its first dependent prediction |
+| Returned and unstarted work | Four of 26 planned calls returned; 22 remain unstarted; all 34 original JSON files replay unchanged |
+| LP10-009-a2, LP10-010-a2 and LP10-011-a2 | All 78 saved calls and three complete handlers replay; all 570 original JSON files remain unchanged |
+| Preserved failed-job cost | 21.678281 CPU seconds, 23.053528 GPU service seconds and 46.107057 conservative host CPU seconds remain charged |
+| Family coverage | Complete-only consumer requires the failed history's absent completion; whole LP10 is incomplete, with no survivor-based primary comparison |
+| Independent continuation | LP10-014-a2 is active with verified native/GPU ownership and fresh output; coordinator, watcher and checkpoint helper verify |
+| Monitoring | Four-hour health deadline remains September 24 at 10:26:38 PDT |
+
+**Found.** The failure is the unchanged invalid-acquisition guard, and its retained prefix reproduces exactly. The failed native process has exited and released ownership; independent memory histories continue. Three completed producers also replay unchanged. No repair, substitute, blind retry, source change or restart is indicated.
+
+**Means.** Preserve this incomplete history, all replies and costs, and the missing dependent slots in the final packet. Continue only the frozen independent Gear 2 roster. Do not infer the missing history from surviving histories or describe this missing comparison as a null finding. Original cutoff, earlier deficits and Friday/Monday packets remain. Verification is charged 30.375 CPU seconds, including a conservative setup-inspection allowance, with no new model calls. No tests harvested, new research, fits, cloud calls or delegation; ordinary ACKs do not defer the health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does an invalid memory acquisition stop its dependent history while independent work continues? Outcome: **Infrastructure**. Result: the no-substitute guard reproduces and independent continuation verifies. Project meaning: the full memory comparison remains incomplete and cannot be reconstructed from survivors. Next engineering obligation: retain the missing-history deficit through remaining execution and the complete-only family consumer. Public claim: unchanged. Curator decision required: No. Detail: [memory failure and completed producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_FIRST_FAILURE.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-007-008 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-007-a2 and LP10-008-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory analysis remains pending |
+| Native continuation | LP10-011-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen Gear 2 roster and wait for the complete memory family before comparison. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.25 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_007_008.json).
+
+---
+
+### OPS-S12-LP10-PRODUCER-006 - completed memory producer preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-006-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory analysis remains pending |
+| Native continuation | LP10-007-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen Gear 2 roster and wait for the complete memory family before comparison. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.25 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_006.json).
+
+---
+
+### OPS-S12-LP10-PRODUCERS-004-005 - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and both full producer handlers with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-004-a2 and LP10-005-a2 | All 52 saved calls and both full handlers replay; all 380 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory analysis remains pending |
+| Native continuation | LP10-006-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen Gear 2 roster and wait for the complete memory family before comparison. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.25 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do completed memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_004_005.json).
+
+---
+
+### OPS-S12-LP10-FOURTH-PRODUCER - completed memory producer and delayed notices reconciled
+
+**Hypothesis.** A completed query-blind memory history remains exactly replayable, and delayed notices still identify the previously preserved evidence while the frozen family continues.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving acquired-memory replies and original JSON bytes. Compare the three earlier notices with their terminal hashes, bound outputs and original database acknowledgements. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-003-a2 | All 26 saved calls and the full handler replay; all 190 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Delayed notices for LP10-000-a2 through LP10-002-a2 | Original terminal hashes, output bindings, full prior landing and acknowledgement times verify unchanged |
+| Frozen family | Whole-family memory analysis remains pending |
+| Native continuation | LP10-005-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, delayed notices match their existing landings, and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen Gear 2 roster and wait for the complete memory family before comparison. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.171875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Reconciliation does not duplicate scientific results or defer the health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: does completed memory evidence remain recoverable through delayed delivery? Outcome: **Infrastructure**. Result: saved-producer replay, prior acknowledgement reconciliation and native continuation verify. Project meaning: delivery timing does not change the research record. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producer](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_FOURTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP10-FIRST-PRODUCERS - completed memory producers preserved
+
+**Hypothesis.** Completed query-blind memory histories remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Inspect the three terminal producers discovered during LP09 closure. Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter actual requests/parsers and full handlers with network dispatch disabled, preserving the actual acquired-memory replies and all original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished memory family.
+
+| Check | Result |
+|---|---|
+| LP10-000-a2, LP10-001-a2, LP10-002-a2 | All 78 saved calls and all three full handlers replay; all 570 original JSON files remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family memory analysis remains pending |
+| Native continuation | LP10-004-a2 and coordinator verify with matching GPU ownership and fresh raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The inspected completed producers replay unchanged and independent memory histories continue. No repair, inference retry, source change or restart is required.
+
+**Means.** Continue the frozen Gear 2 roster and wait for the complete memory family before comparison. Preserve all costs and invalids, earlier family limitations, original cutoff and Friday/Monday packets. Verification costs 0.421875 CPU seconds, with no new model call. No new tests harvested, research, fits, cloud calls or delegation. Ordinary ACKs do not defer the independent health clock.
+
+**Curator roll-up.** Theory group: operational validity. Question: do saved memory histories replay while their family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: acquired replies and dependent predictions remain recoverable without premature scientific interpretation. Next engineering obligation: inspect subsequent terminal records and the complete-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [completed memory producers](results/phase_2_4_stage_12/LOCAL_PROGRAM_MEMORY_FIRST_PRODUCERS.json).
+
+---
+
+### L443 - declared source reliability does not establish calibrated contextual updating
+
+**Hypothesis.** A reader should treat an uninformative source as uninformative and use a more reliable source in proportion to the evidence it supplies, rather than letting an attractive or conflicting assertion dictate its forecast.
+
+**METHOD.** Run the complete frozen LP09 roster: 48 constructed discovery histories from the unchanged Stage 11.2 law, two Qwen 3.5 9B methods (direct forecast and explicit account), three declared symmetric binary-channel reliabilities (0.50, 0.75, 0.90), and supporting, opposing or absent reports, for 864 calls across five producers. Each request contains one observed maker action and a new four-action prediction question. Support means agreement with the prior preferred-column marginal, not known truth about the generating maker. Both report directions are supplied at every reliability, rather than sampled at that accuracy. Across selected makers the supporting claim is true in 21 histories and false in 27; opposition reverses these counts. The calibration illustration is a stated count out of twenty, not an empirical calibration sample. Whitespace matches input bytes within each history/method block, not necessarily tokenizer lengths. The exact reference conditions the finite policy mixture on the declared channel without altering the maker law.
+
+**Validity.** All five producers and the complete consumer reenter actual requests/parsers and full handlers with network dispatch disabled. All 6,094 original JSON files remain unchanged. All 476 source pins, plan/start/terminal records, contract, inputs, prerequisites and output hashes verify. Rebuilding the original roster reproduces every frozen prompt. Separate likelihood accumulation through the independent maker reference reproduces all conditional targets; an independently expressed expected squared-error score and seeded cluster resampling reproduce every reported contrast. Exact, wrong-answer and invalid rulers pass; all 0.50-channel targets equal their no-report targets. No source, reply, parser or score is repaired.
+
+The first table reports paired differences in **excess expected half-Brier loss**, meaning squared probability error above the exact available-information floor; lower is better. Each comparison averages within the same source history before resampling 48 histories with 4,000 fixed-seed draws. Intervals are pointwise 95% bootstrap intervals. BENEFIT/HARM requires the entire interval below/above minus/plus 0.02; EQUIVALENT requires it wholly inside that margin. These are exploratory development comparisons, without simultaneous family coverage or p-values.
+
+| Comparison | Mean excess-loss difference | Interval | Frozen disposition |
+|---|---:|---|---|
+| 0.50 oppose minus absent, both methods | +0.100386 | [+0.033113, +0.166847] | HARM |
+| 0.50 support minus absent, both methods | +0.017597 | [-0.037072, +0.070240] | UNRESOLVED |
+| 0.75 oppose minus absent, both methods | +0.063636 | [-0.007713, +0.139412] | UNRESOLVED |
+| 0.75 support minus absent, both methods | +0.112898 | [+0.055502, +0.171799] | HARM |
+| 0.90 oppose minus absent, both methods | +0.160076 | [+0.069541, +0.250506] | HARM |
+| 0.90 support minus absent, both methods | +0.112963 | [+0.046091, +0.182597] | HARM |
+| Account minus direct, all channel/cue conditions | +0.000341 | [-0.038013, +0.038577] | UNRESOLVED |
+
+The next table retains every attempt, pooled across the two methods. Each row has 96 forecasts on the same 48 histories. Loss is expected half-Brier error; exact floor is the conditional reference loss; excess is their difference. Invalid replies retain loss one. Infinite includes invalid replies and valid distributions that assign zero probability to supported outcomes. Uniform four-action loss is 0.375 in every row.
+
+| Declared reliability and cue | Loss | Exact floor | Excess | Invalid | Infinite logarithmic loss |
+|---|---:|---:|---:|---:|---:|
+| 0.5-absent | 0.443581 | 0.262391 | 0.181190 | 6 | 16 |
+| 0.5-oppose | 0.543967 | 0.262391 | 0.281576 | 20 | 38 |
+| 0.5-support | 0.461178 | 0.262391 | 0.198787 | 5 | 38 |
+| 0.75-absent | 0.465336 | 0.262391 | 0.202945 | 8 | 18 |
+| 0.75-oppose | 0.483726 | 0.217145 | 0.266581 | 17 | 33 |
+| 0.75-support | 0.529924 | 0.214081 | 0.315844 | 27 | 39 |
+| 0.9-absent | 0.434763 | 0.262391 | 0.172372 | 5 | 8 |
+| 0.9-oppose | 0.480009 | 0.147561 | 0.332448 | 20 | 34 |
+| 0.9-support | 0.425080 | 0.139745 | 0.285335 | 15 | 51 |
+
+**Found.** An explicitly uninformative opposing report worsens the pooled forecast at the frozen margin, while the supporting-report comparison is unresolved. Reliable reports also produce several harmful excess-loss contrasts, and account versus direct reading is unresolved. This does not establish a reliability-sensitive update rule or prove that reliability is ignored: the frozen consumer has no reliability-by-cue interaction or monotonic update-fidelity comparison. Information floors differ once reliability exceeds chance. In particular, the 0.90 supporting report lowers raw mean loss descriptively even while its excess-loss comparison is harmful; a better-informed exact reference becomes harder to match. Uniform forecasts have lower descriptive raw loss than each pooled condition. All 123 invalid replies and 275 infinite logarithmic losses remain.
+
+**Calibration and coverage.** Account has 364 valid replies of 432 and direct has 377 of 432. Their valid-only mean losses are 0.376145 and 0.397266. In their highest occupied fixed-confidence bin, mean confidence is 0.898361 versus exact expected support 0.562458 for account (148 replies), and 0.895108 versus 0.520792 for direct (120 replies). This is calibration against the constructed conditional target, not human correctness. The public receipt preserves all bins and the separately reported finite-bin remainder; valid-only components do not replace all-attempt scoring. No threshold or calibrator is fitted.
+
+The coverage table applies the preregistered confidence grid to all 864 attempts. Retained counts include only literal-valid replies meeting that threshold; coverage divides by all attempts, and loss is valid-retained expected half-Brier error. All thresholds retain the same invalid denominator of 123.
+
+| Confidence threshold | Retained | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 741 | 0.857639 | 0.386891 |
+| 0.25 | 741 | 0.857639 | 0.386891 |
+| 0.50 | 379 | 0.438657 | 0.393550 |
+| 0.60 | 348 | 0.402778 | 0.396528 |
+| 0.70 | 315 | 0.364583 | 0.407705 |
+| 0.80 | 268 | 0.310185 | 0.398880 |
+| 0.90 | 172 | 0.199074 | 0.410960 |
+| 1.00 | 13 | 0.015046 | 0.435207 |
+
+**Means.** This reader construction can be harmed by a report whose declared channel carries no information. That is a bounded contextual-trust failure, not a human trust mechanism, belief-adoption diagnosis or evidence against the possibility of calibrated reading. The stronger claim about graded reliability use remains open, with floor changes, prompt variation, invalids and the missing interaction explicit. These histories reuse the discovery pool and one maker law; repeated calls are not independent subjects or mechanism replications. Preserve both methods, every reliability/cue condition and the full calibration/coverage record for the Friday/Monday packets, without choosing a favorable stratum.
+
+**Operational validity.** At 09:53 PDT, the exact native coordinator and LP10-001-a2 worker, matching GPU ownership, fresh raw output, watcher loaded source/scanning and the original checkpoint helper verify. Inspection is charged once at 4.09375 CPU seconds, with no new model calls. Gear 2, original limits/cutoff and the September 24 10:26:38 PDT health deadline remain unchanged. LP07's missing-history deficit, LP08's unavailable primary interval and earlier cloud deficit remain. No repair, retry, new tests, fits, cloud calls or delegation.
+
+**Curator roll-up.** Theory group: reader updating and contextual warrant. Question: does declared source reliability constrain how context changes a forecast? Outcome: **Narrows**. Result: a declared uninformative opposing report harms the bounded reader while graded reliability use remains unresolved. Project meaning: contextual trust needs an operational check beyond supplying an accuracy claim. Next engineering obligation: retain floor changes, invalids and the absent reliability interaction in the final packet while continuing the approved roster. Public claim: unchanged for human mechanisms; newly licensed only for the scoped model behavior. Curator decision required: No. Detail: [complete reliability inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RELIABILITY_COMPLETE.json).
+
+---
+
+### OPS-S12-LP09-FOURTH-PRODUCER - completed source-reliability producer preserved
+
+**Hypothesis.** Completed source-reliability requests remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler with network dispatch disabled, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP09-003-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family scientific analysis remains pending |
+| Native continuation | LP09-004-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No queue repair, inference retry, source change or process restart is required.
+
+**Means.** Continue the frozen source-reliability family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, LP07's missing-history deficit, LP08's primary-analysis limitation, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does completed source-reliability evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RELIABILITY_FOURTH_PRODUCER.json).
+
+
+---
+
+### OPS-S12-LP09-THIRD-PRODUCER - completed source-reliability producer preserved
+
+**Hypothesis.** Completed source-reliability requests remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler with network dispatch disabled, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP09-002-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family scientific analysis remains pending |
+| Native continuation | LP09-003-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No queue repair, inference retry, source change or process restart is required.
+
+**Means.** Continue the frozen source-reliability family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, LP07's missing-history deficit, LP08's primary-analysis limitation, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does completed source-reliability evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RELIABILITY_THIRD_PRODUCER.json).
+
+---
+
+### OPS-S12-LP09-SECOND-PRODUCER - completed source-reliability producer preserved
+
+**Hypothesis.** Completed source-reliability requests remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler with network dispatch disabled, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP09-001-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family scientific analysis remains pending |
+| Native continuation | LP09-002-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No queue repair, inference retry, source change or process restart is required.
+
+**Means.** Continue the frozen source-reliability family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, LP07's missing-history deficit, LP08's primary-analysis limitation, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does completed source-reliability evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RELIABILITY_SECOND_PRODUCER.json).
+
+---
+
+### OPS-S12-LP09-FIRST-PRODUCER - completed source-reliability producer preserved
+
+**Hypothesis.** Completed source-reliability requests remain exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler with network dispatch disabled, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP09-000-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family | Whole-family scientific analysis remains pending |
+| Native continuation | LP09-001-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No queue repair, inference retry, source change or process restart is required. Two initial inspection checks needed correction: historical imports require the repository namespace fallback, and the GPU lock uses whitespace-separated identity fields. Both were fixed only in the inspection process; a conservative allowance preserves their cost.
+
+**Means.** Continue the frozen source-reliability family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, LP07's missing-history deficit, LP08's primary-analysis limitation, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does completed source-reliability evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RELIABILITY_FIRST_PRODUCER.json).
+
+---
+
+### L442 - buying another observation versus stopping at a declared cost
+
+**Hypothesis.** A bounded reader should buy another observation when its expected improvement for the stated task exceeds its public cost, and stop otherwise. Constant buying, constant stopping and answer position are the competing explanations.
+
+**METHOD.** Cross all 64 constructed discovery histories with two reader purposes, three observation costs and two orders of the eight answer labels, producing 768 Qwen direct-reader calls in five producers. Each response jointly specifies stop/buy and the current four-action forecast. Enumerate the value of each available observation under the unchanged maker law, independently verify it using the separate exact reference, and replay every saved request/parser, full producer and complete-family consumer. All 476 source pins and plan/start/terminal/contract/input/prerequisite/output bindings verify; all 5,422 original JSON files remain unchanged. Exact, opposite-decision and invalid-output ruler cases pass. No new model calls or p-values.
+
+Selection regret is lost expected utility relative to the optimal buy/stop decision; lower is better. Forecast utility uses half the Brier error, the expected squared probability error; classification utility uses the probability of choosing the wrong action. Costs are in those separate units. An invalid reply receives regret one, not deletion. Each row below includes 128 attempts over 64 histories and both answer orders. Optimal buy/stop counts are histories, not calls. Constant-policy rivals are computed from the same histories and costs; a displayed zero includes a negligible floating-point residual in the classification free-observation buy rival.
+
+| Reader purpose | Observation cost | Optimal buy / stop histories | Reader regret | Always-stop regret | Always-buy regret | Invalid replies |
+|---|---:|---:|---:|---:|---:|---:|
+| Classification | 0.00 | 61 / 3 | 0.297930 | 0.386016 | 0.000000 | 11 |
+| Classification | 0.20 | 61 / 3 | 0.232227 | 0.195391 | 0.009375 | 16 |
+| Classification | 0.50 | 0 / 64 | 0.234492 | 0.000000 | 0.113984 | 26 |
+| Forecast | 0.00 | 64 / 0 | 0.177527 | 0.165002 | 0.000000 | 12 |
+| Forecast | 0.20 | 0 / 64 | 0.220111 | 0.000000 | 0.034998 | 27 |
+| Forecast | 0.50 | 0 / 64 | 0.345893 | 0.000000 | 0.334998 | 32 |
+
+**Primary-analysis limit.** The frozen consumer supplies these regret means and the declared 0.01 utility margin, but no paired regret interval or offer-order contrast. Its empty contrast record cannot license BENEFIT, HARM or EQUIVALENCE. Execution and descriptive analysis are complete; the promised primary inferential comparison is unavailable. Preserve the original consumer rather than treating a printed margin as a passed statistical gate.
+
+The following descriptive inspection separates decisions from forecast quality. Buy counts use only valid replies, with their actual denominator shown; every order has 64 attempts and omitted invalids remain in the primary regret above. The last column is current four-action forecast loss over all 128 attempts, retaining invalid penalty one. Its exact-information floor is 0.265231 and its uniform four-action reference is 0.375000. These are current forecasts before a purchase, not measured use of purchased information. No order-effect interval or task-by-cost interaction is claimed.
+
+| Reader purpose | Cost | Buys / valid, stop labels first | Buys / valid, buy labels first | Current forecast loss |
+|---|---:|---:|---:|---:|
+| Classification | 0.00 | 0 / 57 | 48 / 60 | 0.488363 |
+| Classification | 0.20 | 2 / 56 | 42 / 56 | 0.512462 |
+| Classification | 0.50 | 0 / 51 | 38 / 51 | 0.550168 |
+| Forecast | 0.00 | 3 / 54 | 49 / 62 | 0.500686 |
+| Forecast | 0.20 | 1 / 48 | 30 / 53 | 0.515063 |
+| Forecast | 0.50 | 1 / 48 | 35 / 48 | 0.570366 |
+
+The frozen consumer also scores the joint eight-label distribution against the optimal decision paired with the current action distribution. Joint raw loss and excess above its exact-information floor of 0.265231 are distinct from pure forecast loss and from selection regret. A uniform joint forecast has loss 0.437500. Every row has 64 attempts. Intervals are the frozen descriptive 95% history-bootstrap intervals for joint excess loss, not paired primary-regret intervals. Infinite logarithmic loss means the reply gives zero probability to a positive-support target, or is invalid; all such replies remain recorded.
+
+| Purpose | Cost | Answer order | Joint raw loss | Joint excess loss | Descriptive 95% interval | Invalid | Infinite log loss |
+|---|---:|---|---:|---:|---|---:|---:|
+| Classification | 0.00 | Stop first | 0.760614 | 0.495383 | [0.450312, 0.540496] | 7 | 53 |
+| Classification | 0.00 | Buy first | 0.489528 | 0.224297 | [0.172758, 0.280793] | 4 | 24 |
+| Classification | 0.20 | Stop first | 0.728488 | 0.463257 | [0.414607, 0.515442] | 8 | 48 |
+| Classification | 0.20 | Buy first | 0.504405 | 0.239174 | [0.185526, 0.295975] | 8 | 20 |
+| Classification | 0.50 | Stop first | 0.563014 | 0.297784 | [0.233763, 0.362447] | 13 | 23 |
+| Classification | 0.50 | Buy first | 0.755837 | 0.490607 | [0.441698, 0.539698] | 13 | 50 |
+| Forecast | 0.00 | Stop first | 0.773495 | 0.508264 | [0.458594, 0.555903] | 10 | 54 |
+| Forecast | 0.00 | Buy first | 0.467191 | 0.201961 | [0.162069, 0.245815] | 2 | 24 |
+| Forecast | 0.20 | Stop first | 0.545499 | 0.280268 | [0.213725, 0.348315] | 16 | 30 |
+| Forecast | 0.20 | Buy first | 0.704771 | 0.439541 | [0.383990, 0.495801] | 11 | 41 |
+| Forecast | 0.50 | Stop first | 0.603621 | 0.338390 | [0.273918, 0.403939] | 16 | 31 |
+| Forecast | 0.50 | Buy first | 0.732567 | 0.467336 | [0.418486, 0.515986] | 16 | 51 |
+
+**Found.** Reader mean regret is descriptively higher than at least one constant policy in every purpose/cost stratum, and observed buying differs greatly with answer order. The available consumer does not establish a calibrated task-and-cost-sensitive stopping policy or supply its primary uncertainty comparison. All 124 invalid replies and 449 infinite joint logarithmic losses remain. This is neither a formal equivalence result nor a general null about the theory.
+
+The fixed calibration bins below partition all 644 valid joint replies. Confidence is the largest joint probability; expected correctness is exact support for its selected decision/action label; the gap is confidence minus that support. This concerns the combined normative decision and current forecast, not confidence about the maker alone. Invalid replies remain in all primary comparisons.
+
+| Joint confidence bin | Valid count | Mean confidence | Expected correctness | Confidence gap |
+|---|---:|---:|---:|---:|
+| [0.0, 0.2) | 161 | 0.125000 | 0.113330 | +0.011670 |
+| [0.2, 0.4) | 91 | 0.370604 | 0.242033 | +0.128571 |
+| [0.4, 0.6) | 93 | 0.463683 | 0.193846 | +0.269837 |
+| [0.6, 0.8) | 84 | 0.682143 | 0.184524 | +0.497619 |
+| [0.8, 1.0] | 215 | 0.895765 | 0.209670 | +0.686096 |
+
+Valid-only joint loss is 0.565618. Its finite-bin decomposition retains uncertainty 0.435900, reliability 0.049018, resolution 0.002664 and within-bin remainder 0.083364; omitting the remainder would falsely imply an exact binned identity. These are descriptive score components, not a calibration fit.
+
+Each fixed threshold below retains the complete 768-attempt denominator and excludes invalids only from the retained subset. Retained loss is valid-only joint loss. Higher confidence does not yield a monotonic reduction in error; no threshold is selected or licensed as an abstention policy.
+
+| Joint confidence threshold | Retained / attempted | Retained joint loss |
+|---|---:|---:|
+| 0.00 | 644 / 768 | 0.565618 |
+| 0.25 | 483 / 768 | 0.608324 |
+| 0.50 | 307 / 768 | 0.670748 |
+| 0.60 | 299 / 768 | 0.670091 |
+| 0.70 | 253 / 768 | 0.682091 |
+| 0.80 | 215 / 768 | 0.702128 |
+| 0.90 | 84 / 768 | 0.701858 |
+| 1.00 | 30 / 768 | 0.653289 |
+
+**Means.** Stated purpose and cost define which investigation is worthwhile in this constructed world, but this reader's aggregate choices do not establish the proposed useful stopping behavior. Several task/cost strata already have a constant policy at the exact optimum, so they test choosing or matching the appropriate policy rather than improving upon it. This construction limits evidence about adaptation between individual histories; option position and invalid realization remain material limits. The 64 histories share one maker law and discovery roster, not independent human mechanisms or fresh confirmation. Actual post-purchase uptake belongs to LP07, whose missing-history deficit remains, and was not tested by these current forecasts. Human interest, aesthetics and the relation between unexplained decisions and curiosity remain untested. Carry the unavailable primary interval alongside the complete descriptive evidence in the Friday/Monday packets.
+
+**Operational validity.** Source reconstruction must rebuild the original roster before serializing prompt dictionaries; using sorted persisted dictionary order caused the first inspection assertion. Native reconstruction then matched every frozen request exactly without changing source or evidence. Verification is charged once at 6.15625 CPU seconds, including its conservative initial-inspection allowance. At 08:38 PDT the exact native coordinator, LP09-000-a2 worker and matching GPU ownership verify with fresh output, as do watcher loaded source/scanning and the original checkpoint helper. Gear 2, existing caps/cutoff and the September 24 10:26:38 PDT health deadline remain unchanged. No repair, retry, new tests, fits, cloud calls or delegation.
+
+**Curator roll-up.** Theory group: reader continuation and stopping. Question: does a reader choose worthwhile investigation according to its task and cost? Outcome: **Narrows**. Result: complete descriptive choices do not establish useful stopping beyond constant-policy and answer-order explanations. Project meaning: the normative stopping reference is validated while the reader claim remains open with unavailable primary uncertainty analysis. Next engineering obligation: preserve that limitation and the incomplete post-purchase family in the scheduled packets while frozen independent work continues. Public claim: unchanged. Curator decision required: No. Detail: [complete stopping comparison](results/phase_2_4_stage_12/LOCAL_PROGRAM_STOPPING_COMPLETE.json).
+
+---
+
+### OPS-S12-LP08-FOURTH-PRODUCER - completed stopping-utility producer preserved
+
+**Hypothesis.** Completed stopping-utility requests remain exactly replayable while the rest of the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP08-003-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family coverage | Four of five producers complete; the whole-family analysis remains pending |
+| Native continuation | LP08-004-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No repair, retry, source change or process restart is required.
+
+**Means.** Continue the frozen stopping-utility family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, the earlier LP07 missing-history deficit, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the completed stopping-utility evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_STOPPING_FOURTH_PRODUCER.json).
+
+---
+
+### OPS-S12-LP08-THIRD-PRODUCER - completed stopping-utility producer preserved
+
+**Hypothesis.** Completed stopping-utility requests remain exactly replayable while the rest of the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP08-002-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family coverage | Three of five producers complete; the whole-family analysis remains pending |
+| Native continuation | LP08-003-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No repair, retry, source change or process restart is required.
+
+**Means.** Continue the frozen stopping-utility family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, the earlier LP07 missing-history deficit, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the completed stopping-utility evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_STOPPING_THIRD_PRODUCER.json).
+
+---
+
+### OPS-S12-LP08-SECOND-PRODUCER - completed stopping-utility producer preserved
+
+**Hypothesis.** Completed stopping-utility requests remain exactly replayable while the rest of the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP08-001-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family coverage | Two of five producers complete; the whole-family analysis remains pending |
+| Native continuation | LP08-002-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No repair, retry, source change or process restart is required.
+
+**Means.** Continue the frozen stopping-utility family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, the earlier LP07 missing-history deficit, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the completed stopping-utility evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_STOPPING_SECOND_PRODUCER.json).
+
+---
+
+### OPS-S12-LP08-FIRST-PRODUCER - completed stopping-utility producer preserved
+
+**Hypothesis.** Completed stopping-utility requests remain exactly replayable while the rest of the frozen family continues under its original limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished family.
+
+| Check | Result |
+|---|---|
+| Complete producer LP08-000-a2 | All 180 calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen family coverage | One of five producers complete; the whole-family analysis remains pending |
+| Native continuation | LP08-001-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The completed producer replays unchanged, and the next producer is running with fresh output. No repair, retry, source change or process restart is required.
+
+**Means.** Continue the frozen stopping-utility family in Gear 2 and wait for its complete roster before scientific comparison. Preserve invalids, all costs, the earlier LP07 missing-history deficit, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the completed stopping-utility evidence remain recoverable while its family continues? Outcome: **Infrastructure**. Result: completed-producer replay and native continuation verify. Project meaning: the original roster continues without premature scientific comparison. Next engineering obligation: land subsequent producers and the complete-family consumer, retaining failures and all costs. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_STOPPING_FIRST_PRODUCER.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-060-063 - questioning roster retained and independent continuation verified
+
+**Hypothesis.** Completed questioning histories remain replayable, and the queue preserves missing histories when advancing to independent authorized work.
+
+**METHOD.** Verify each manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and full producer handler, comparing all original JSON hashes. Check the terminal census for the entire questioning roster and the complete-only consumer's actual dependency refusal. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation, family coverage and continuation; it contains no scientific scores for the incomplete family.
+
+| Check | Result |
+|---|---|
+| Complete producers 060 through 063 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Frozen questioning roster | All 64 histories have terminal records: 60 complete and four failed; 1,332 returned calls and 76 unstarted dependent slots remain explicit |
+| Complete-only family consumer | Deferred for the exact four missing complete histories; no replacement by successful survivors |
+| Native continuation | LP08-000-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** All inspected complete producers replay unchanged. The questioning roster retains its failed histories, its primary analysis remains unavailable, and independent execution has advanced to the stopping-utility family. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. LP07 remains scientifically incomplete; missing-history outcomes cannot be inferred from survivors or described as a null. Preserve all returned prefixes, unstarted slots, charges, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while missing histories constrain analysis and independent work continues? Outcome: **Infrastructure**. Result: completed-producer replay and the incomplete-family handoff verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent whole cells and retain the incomplete questioning family in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer and roster inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_060_063.json).
+
+---
+
+### OPS-S12-LP07-PRODUCER-059 - completed history preserved
+
+**Hypothesis.** The completed questioning history remains replayable while authorized independent execution continues with its missing-history limits intact.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, start time, heartbeat and raw-output freshness, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producer 059 | All 22 calls and the full handler replay; all 162 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-061-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The complete producer replays unchanged and independent execution continues. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_059.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-057-058 - completed independent histories and new worker start preserved
+
+**Hypothesis.** Completed questioning histories remain replayable while the next authorized worker starts under the original ownership and missing-history limits.
+
+**METHOD.** Verify both manifests against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, current start and heartbeat, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 057 and 058 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-060-a2 and coordinator verify with matching GPU ownership; the new worker is less than a second old, before its first raw reply |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both complete producers replay unchanged and the queue has started its next authorized worker. The startup snapshot has no first reply yet; its start, heartbeat and exact ownership verify. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while the next authorized worker starts? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_057_058.json).
+
+---
+
+### OPS-S12-LP07-PRODUCER-056 - completed history and natural handoff verified
+
+**Hypothesis.** The completed questioning history remains replayable while a natural worker handoff preserves authorized independent execution and missing-history limits.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, start time, heartbeat and raw-output freshness, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producer 056 | All 22 calls and the full handler replay; all 162 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-058-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The complete producer replays unchanged and independent execution continues. The initial output-age selector encountered a newly started worker before its first raw reply and stopped; a bounded follow-up verifies native ownership, start time and fresh output. Inspection accounting includes a conservative allowance for the interrupted pass. No queue repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable through a natural worker handoff? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_056.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-054-055 - completed independent histories preserved
+
+**Hypothesis.** Completed questioning histories remain replayable while authorized independent execution continues with its missing-history limits intact.
+
+**METHOD.** Verify both manifests against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 054 and 055 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-056-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both complete producers replay unchanged and independent execution continues. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_054_055.json).
+
+---
+
+### OPS-S12-LP07-PRODUCER-053 - completed history preserved
+
+**Hypothesis.** The completed questioning history remains replayable while authorized independent execution continues with its missing-history limits intact.
+
+**METHOD.** Verify the manifest against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and the full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producer 053 | All 22 calls and the full handler replay; all 162 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-055-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The complete producer replays unchanged and independent execution continues. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_053.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-050-052 - completed independent histories preserved
+
+**Hypothesis.** Completed questioning histories remain replayable while authorized independent execution continues with its missing-history limits intact.
+
+**METHOD.** Verify all three manifests against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 050, 051 and 052 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-053-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** All three complete producers replay unchanged and independent execution continues. No repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_050_052.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-047-049 - completed independent histories preserved
+
+**Hypothesis.** Completed questioning histories remain replayable while independent authorized work continues with missing-history limits preserved.
+
+**METHOD.** Verify all three manifests against plan, start and terminal records, all 476 source pins, contract/input/prerequisite bindings and output hashes. Reenter every saved request/parser and full producer handler, comparing all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, watcher loaded source and scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 047, 048 and 049 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-052-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** All three complete producers replay unchanged and independent execution continues. The first inspection used the wrong expected executable name for the hidden watcher and stopped after successful replay. Its launch script specifies pythonw.exe; exact native identity and loaded source verify. Inspection accounting includes a conservative allowance for that interrupted pass. No queue repair, retry, source change or process restart is required.
+
+**Means.** Continue frozen independent work in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer; successful survivors cannot replace them. Preserve costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the missing-history deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_047_049.json).
+
+---
+
+### OPS-S12-LP07-PRODUCER-046 - completed history preserved
+
+**Hypothesis.** The completed questioning history remains replayable while authorized independent work continues with its missing-history limits intact.
+
+**METHOD.** Verify the producer's manifest against plan, start and terminal records; check all 476 source pins, contract/input/prerequisite and output hashes. Reenter every saved request/parser and the full producer handler and compare all original JSON hashes. Verify exact native coordinator/worker/GPU ownership, fresh heartbeat and raw output, loaded watcher source and fresh scanning, the original checkpoint helper and unchanged health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producer 046 | All 22 calls and the full handler replay; all 162 original JSON files remain unchanged |
+| Bound evidence | All plan/start/terminal, source, contract, input, prerequisite and output bindings verify |
+| Native continuation | LP07-047-a2 and coordinator verify with matching GPU ownership and fresh output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** The complete producer replays unchanged and independent execution continues. No recovery, retry, source change or process restart is needed.
+
+**Means.** Continue the frozen independent cards in Gear 2. Whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only primary consumer. Preserve those missing histories, costs, original cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. The result ACK does not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the completed history remain recoverable while independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with its evidence deficit preserved. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_046.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-043-045 - complete independent histories preserved
+
+**Hypothesis.** Completed questioning histories retain replayable evidence while the already authorized independent queue continues under its original boundaries.
+
+**METHOD.** Verify all three manifests against the plan, start and terminal records; check all 476 source pins, contract/input/prerequisite and terminal/output hashes. Reenter every saved request/parser and full producer handler and compare all original JSON hashes. Select the live worker from the coordinator's active stage and verify exact native coordinator/worker/GPU ownership, heartbeat and raw-output freshness. Verify watcher identity, loaded source and fresh scanning, the original checkpoint helper and unchanged four-hour deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 043, 044 and 045 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | Plan/start/terminal manifest binding and every source, contract, input, prerequisite and output hash verify |
+| Native continuation | LP07-046-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** All complete producers replay unchanged and native execution continues. No recovery, retry, source change or process restart is required.
+
+**Means.** Continue the frozen independent histories in Gear 2. Whole LP07 remains incomplete with four previously inspected failed histories and an unavailable complete-only primary consumer; survivors cannot replace missing histories. Preserve original costs, cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. These result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence remain preserved while authorized independent work continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: existing execution continues with the original evidence deficit explicit. Next engineering obligation: keep landing completed records and carry missing-history accounting into scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_043_045.json).
+
+---
+
+### OPS-S12-LP07-FOURTH-SELECTION-FAILURE - guarded incomplete history and continuing independent work
+
+**Hypothesis.** An unusable later question selection must stop its dependent history, preserving returned evidence, missing work and costs while independent authorized histories remain replayable.
+
+**METHOD.** Verify manifests, all 476 source pins, contract/input/prerequisite and completed output bindings for LP07-040-a2, LP07-041-a2 and LP07-042-a2. Reenter all actual saved requests/parsers and full handlers for both complete producers. Reconstruct the failed producer's retained prefix in order, verify every materialized request and scored record, reproduce the exact unavailable-selection exception before dispatch, and compare all original JSON hashes. Verify failed native exit and complete call/owner plus failed-worker charges. Reconcile delayed 038/039 notices with their previous full write-through; check current native worker/coordinator/GPU ownership, output freshness, watcher loaded source and checkpoint helper.
+
+The table records execution coverage, retained failure and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 040 and 042 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Failed producer 041 | All six returned calls, materialized requests and scored records replay; all 48 original JSON files remain unchanged |
+| Dependency guard | The third question selection fails finite-probability parsing; the exact unavailable-selection exception prevents the remaining 16 planned calls from dispatching |
+| Accounting and exit | All six call charges and GPU-owner overhead are complete, worker charge retains failed status, and exact native worker exit verifies |
+| Bound records and delayed notices | All bindings verify; complete 038/039 match their prior full write-through |
+| Continuation and monitoring | LP07-044-a2 progresses with matching GPU ownership; coordinator, fresh output, watcher loaded source and checkpoint helper verify |
+
+**Found.** The fourth inspected failed history follows the unchanged dependency guard at a later selection step. Original returned replies, missing dependent slots and costs remain preserved. This is not a lost response or a new harness defect, and the earlier guard regression remains applicable without code changes. Both complete independent producers replay unchanged; delayed notices reconcile. No fallback, retry, source repair or process restart is required.
+
+**Means.** Continue the frozen independent histories in Gear 2. Whole LP07 remains incomplete with four inspected failed histories, and its complete-only primary consumer is unavailable; successful survivors cannot replace missing histories. Preserve original costs, cutoff and Friday/Monday packet accounting. No tests harvested, new research, fits, cloud calls or delegation. The next four-hour health check remains September 24 at 10:26:38 PDT; these result ACKs do not defer it.
+
+**Curator roll-up.** Theory group: operational validity. Question: does an unusable later selection preserve an honest missing-history record while independent work continues? Outcome: **Infrastructure**. Result: the original dependency guard and retained prefix replay. Project meaning: independent execution continues with the incomplete-family deficit explicit. Next engineering obligation: land subsequent records and retain all missing histories and costs in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [failure and completed-producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_FOURTH_FAILURE.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-038-039 - complete evidence and delayed delivery reconciled
+
+**Hypothesis.** Completed independent questioning histories remain replayable while delayed notices resolve to existing records without duplicate generation.
+
+**METHOD.** Verify both manifests, all 476 source pins, contract/input/prerequisite and terminal/output bindings. Reenter every saved request/parser and full producer handler and compare all original JSON hashes. Match delayed 035/036/037 notices to their previous full write-through. Select the live worker from the coordinator's active stage and verify exact native worker/coordinator/GPU ownership and fresh output; verify watcher identity, loaded source, fresh scanning, checkpoint helper and unchanged four-hour health deadline.
+
+The table records execution preservation and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 038 and 039 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output hashes verify |
+| Delayed notices 035, 036 and 037 | Exact manifest and terminal hashes match their prior full write-through |
+| Live continuation | LP07-042-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source, fresh scan and original checkpoint helper verify; health remains due September 24 at 10:26:38 PDT |
+
+**Found.** Both complete producers replay unchanged and all delayed notices match their previous records. No recovery, code change, retry or process restart is required.
+
+**Means.** Continue the frozen independent histories in Gear 2. Whole LP07 remains incomplete with three previously inspected failed histories and an unavailable complete-only consumer; successful survivors cannot replace the missing population. Preserve original costs, cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. Ordinary ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed records and delayed delivery remain reconciled without duplicate science? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: authorized independent work continues with the original evidence deficit explicit. Next engineering obligation: keep landing completed records and preserve incomplete-family accounting in scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [producer and delivery inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_038_039.json).
+
+---
+
+### OPS-S12-LP07-PRODUCERS-035-037 - completed histories and delayed notices reconciled
+
+**Hypothesis.** Complete independent histories retain replayable evidence, while delayed notices and historical heartbeats can be reconciled without repeating science or interrupting the active worker.
+
+**METHOD.** Verify each completed producer's manifest, all 476 source pins, contract, inputs, prerequisites and output hashes. Reenter every saved request/parser and full producer handler, then compare all original JSON hashes. Match delayed 031/032 notices to the published health landing. Select the current worker from the coordinator's active stage and verify its exact native identity, matching GPU lock and fresh output; verify native exit of the three already failed histories despite their retained last heartbeats. Check watcher identity, loaded source, fresh scanning, checkpoint identity and the unchanged four-hour deadline.
+
+The table records execution preservation and monitoring, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 035, 036 and 037 | Each replays all 22 calls and its full handler; all 162 original JSON files per producer remain unchanged |
+| Bound evidence | Source, manifest, contract, input, prerequisite and terminal/output hashes verify |
+| Delayed completion notices 031 and 032 | Exact manifest and terminal hashes match the published health landing |
+| Live continuation | LP07-040-a2 and coordinator verify; matching GPU ownership and heartbeat/raw output younger than two seconds |
+| Historical heartbeats | All three known failed workers have exited; their retained last heartbeat is not current liveness |
+| Monitoring | Native watcher, loaded source, fresh scanning and checkpoint helper verify; next health check remains September 24 at 10:26:38 PDT |
+
+**Found.** Completed producers replay unchanged and delayed notices match their existing records. The initial inspection selector counted historical running heartbeats and stopped; coordinator-based selection plus native exit checks resolves that inspection error. No queue source change, recovery, inference retry or process restart is needed. Inspection accounting retains a conservative allowance for the interrupted first pass.
+
+**Means.** Continue the frozen independent histories in Gear 2. Whole LP07 remains incomplete with three previously inspected failed histories; its complete-only consumer stays unavailable and survivors cannot replace them. Preserve original costs, cutoff and Friday/Monday packets. No tests harvested, new research, fits, cloud calls or delegation. These result ACKs do not defer the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence and delayed delivery remain reconciled while genuine native progress continues? Outcome: **Infrastructure**. Result: complete producer replay and native continuation verify. Project meaning: authorized work continues with the original evidence deficit explicit. Next engineering obligation: keep landing completed records and inspect the queue at its scheduled health deadline. Public claim: unchanged. Curator decision required: No. Detail: [producer and delivery inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_035_037.json).
+
+---
+
 ### OPS-S12-LOCAL-HEALTH-0620 - four-hour queue inspection and completed evidence preservation
 
 **Hypothesis.** The authorized local queue can continue within its resource and evidence bounds, while completed records and delayed delivery remain recoverable without duplicate generation.
@@ -5598,7 +7632,17 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 ## ⚠ Known weaknesses — open ones only
 
+**Stage 12 omitted-candidate scope (L445).** Extra-candidate harm belongs to the full reader/interface procedure: candidate count, wording and probability normalization differ, with most invalid outputs in that condition. Omission uses the generating policy, while the declared reference conditions on history before list mapping. Missing-explanation recognition remains open; outside means are descriptive and no outside-specific or evidence-snapshot interaction was frozen. This is not open-world discovery or human evidence.
+
 Resolved weaknesses have been folded into the entries they affected and are no longer listed here.
+
+**Stage 12 familiarity scope (L444).** Complete attempted-population contrasts remain unresolved under the practical margin. Paired donor histories share the target policy class, the common query is insensitive to skill, and the frozen consumer omits a dose interaction. Source framing and byte rather than token matching remain; all invalids and zero-support losses are retained. This does not establish equivalence, a domain-expertise separation or a human familiarity mechanism.
+
+**Stage 12 memory coverage (OPS-S12-LP10-FIRST-FAILURE).** An invalid query-blind acquisition leaves its history incomplete. Returned evidence and costs remain; the complete-only family comparison cannot be computed from surviving histories. Independent frozen histories continue without replacement or retry.
+
+**Stage 12 reliability scope (L443).** The complete frozen cue contrasts replay, but no reliability-by-cue interaction or monotonic update-fidelity comparison was specified in the consumer. Cue direction is relative to the prior, conditional targets change with channel accuracy, and channel examples are stipulated. Harmful excess loss is not automatically harmful raw prediction. Pointwise exploratory intervals and reused discovery histories do not license a general graded-trust mechanism.
+
+**Stage 12 stopping analysis (L442).** All requested calls and descriptive replay are complete, but the frozen consumer omits paired uncertainty for primary decision regret and its constant-policy/order contrasts. No formal primary benefit, harm or equivalence disposition is available; joint-loss intervals cannot substitute. Invalids and reused constructed discovery histories remain explicit.
 
 **Stage 11.1 scope (L391-L408).** Human records are historically exposed; the initial production matrix and initial breadth each have one dependency component and the history comparison has three. Initial breadth has separate episode keys but shares all its writers and sessions with discovery; its completed direct extension adds episodes from those same writers/sessions, not independent support. Pilot syntax admission does not establish reliable scientific realization. Account loses every production and handling half Brier comparison to matched review in both completed breadth tranches; shared writers/sessions and frequent invalid graphs limit replication and mechanism claims. Review gains across complete discovery and breadth arise from invalid-output recovery, with no revision of valid forecasts. Discovery review adds no correctly located useful event; useful recovery does not establish selective reliability. Invalid accounts can pass only a marker downstream, and invalid forecasts remain scored and charged. Account realization changes across context conditions; pipeline movement does not establish faithful graph use. Original uncontrolled attribution remains void after request-repeat variability; the bounded repair supports input sensitivity, not a general benefit. Constructed twins establish ambiguity within four templates, not its prevalence in human writing; fresh condition-specific forecasts are not persistent belief revision. Current cheap controls ignore newly revealed history and context. A history hypothesis can contain unsupported motive prose despite its instruction; syntactic validity is not historical or mental-state validation. Matched coverage can select different writers, character-matched history is not token-matched, and released revision categories are not the author's purpose. Whole-roster account recovery preserves failed cost and original incomplete namespaces. No fresh confirmation or general maker-model recovery is established; the complete discovery account comparison retains operation/handling gains but inconsistent useful recovery and increased unsupported claims; the twelve-case human viewer is source-replayed and interaction-checked, with visual QA unperformed; the Sunday packet remains pending.
 

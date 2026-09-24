@@ -1,0 +1,54 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-047-049",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:54:34.003570+00:00",
+  "completed_producers": {
+    "LP07-047-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "71109890c4ce8b24c0992d088a0187325bc1be8303f77f4d6740b304c7e6d4c3",
+      "source_pins_verified": 476,
+      "terminal_sha256": "e12196838cee3a28525f2fb59f1f72cbf5714803b2f715f7b12583a6ec1d21a1"
+    },
+    "LP07-048-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "57607b39d0d1725aed537544ca1342325dc0e2106ba32cbcbc08860413c9ed8e",
+      "source_pins_verified": 476,
+      "terminal_sha256": "81e28c3c9ef66a26ec99399261daa7b100292a63ca62e9a879b009c7b1a8fe43"
+    },
+    "LP07-049-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "202333b382c7efc815cbc5828109d69e3897f910875c5aa1e673ee4d28fabcec",
+      "source_pins_verified": 476,
+      "terminal_sha256": "1d0f64e6ec6d78a9eaf681e6dce43515b313da792a36e5de09d0f05e54b23ff3"
+    }
+  },
+  "all_plan_start_terminal_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-052-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 0.455604,
+  "raw_output_age_seconds": 0.5426609516143799,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T13:54:34.002583+00:00",
+    "cpu_seconds": 2.53125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 047 through 049 request and full handler replay; includes conservative two CPU seconds for interrupted inspection",
+    "status": "complete"
+  },
+  "inspection_correction": "First inspection expected python.exe for the hidden watcher and stopped after successful replay. Launch script specifies pythonw.exe; exact native identity and loaded source verify. No service or scientific code changed.",
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T17:26:38.513094+00:00",
+  "scope": "Completed producer preservation only; whole LP07 remains incomplete with four inspected failed histories and an unavailable complete-only consumer."
+}

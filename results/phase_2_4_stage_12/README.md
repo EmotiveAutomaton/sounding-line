@@ -4,7 +4,85 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current health inspection, September 24 at 06:20 PDT: Gear 2 is progressing,
+Current continuation, September 24 at 16:25 PDT: Gear 2 has advanced to LP13.
+The complete omitted-candidate family replays unchanged and is internally landed
+in L445. Independent posterior/reference/score/interval checks pass; candidate
+construction, probability-format failures and the finite-list boundary remain
+explicit. Native continuation and monitoring verify. [Complete omitted-candidate
+inspection](LOCAL_PROGRAM_OMISSION_COMPLETE.json). Health remains due September 24
+at 18:37:48 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 15:01 PDT: Gear 2 has advanced to LP12.
+The complete familiarity family replays unchanged and is internally landed in L444.
+Independent source/reference/score/interval checks pass; donor matching, query scope,
+missing dose analysis and invalid forecasts remain explicit. Native continuation and
+monitoring verify. [Complete familiarity inspection](LOCAL_PROGRAM_FAMILIARITY_COMPLETE.json).
+Health remains due September 24 at 18:37:48 PDT; original cutoff and packets remain.
+
+Earlier health inspection, September 24 at 14:34 PDT: Gear 2 is progressing,
+next-job admission and resource headroom pass, and all previously recorded failures
+remain unchanged. Native ownership, source/input bindings, watcher delivery and
+original checkpoint freshness verify. No recovery or new research is needed.
+[Health inspection](LOCAL_PROGRAM_HEALTH_1434.json) records the checks. Its ACK
+rearms four hours later; original cutoff and Friday/Monday packets remain.
+
+Earlier continuation, September 24 at 12:24 PDT: Gear 2 has advanced to LP11.
+The final memory producer replays unchanged and all frozen memory histories have
+terminal records. Their prior replay receipts and bindings reconcile, with the
+failed acquisition and its unstarted dependents retained. The whole memory
+comparison remains incomplete; its complete-only consumer is correctly deferred
+and unstarted. Native continuation and monitoring verify. [Roster inspection](LOCAL_PROGRAM_MEMORY_ROSTER_END.json).
+Health remains due at 14:33:02 PDT; original cutoff and packet dates remain.
+
+Earlier health inspection, September 24 at 10:30 PDT: Gear 2 is advancing and
+next-job admission, resource headroom, native ownership and monitoring pass.
+Both inspected memory producers replay unchanged. Existing failed histories and
+incomplete-family limits remain; no recovery or retry is needed. The frozen
+roster still contains authorized work. [Health inspection](LOCAL_PROGRAM_HEALTH_1030.json)
+records the full checks and next health deadline after ACK. Original cutoff and
+Friday/Monday packets remain unchanged.
+
+Earlier continuation, September 24 at 10:19 PDT: independent memory histories
+continue in Gear 2, but an invalid acquisition has stopped one dependent history.
+Its prefix, guard and costs replay, and three completed producers also verify.
+Whole LP10 is incomplete; the complete-only comparison cannot use survivors.
+No substitution, retry or source repair follows. Native continuation and
+monitoring verify. [Failure inspection](LOCAL_PROGRAM_MEMORY_FIRST_FAILURE.json).
+Health remains due at 10:26:38 PDT; original cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 09:53 PDT: Gear 2 has advanced to LP10.
+The complete LP09 source-reliability family replays unchanged and is internally
+landed in L443. Independent reference/score/interval checks pass; changing
+information floors and absence of a graded-reliability interaction remain explicit.
+Native ownership, fresh output and monitoring verify. [Complete reliability
+inspection](LOCAL_PROGRAM_RELIABILITY_COMPLETE.json). Health remains due at
+10:26:38 PDT; original packet dates, cutoff and earlier deficits remain.
+
+Earlier continuation, September 24 at 08:38 PDT: Gear 2 has advanced to LP09.
+The complete LP08 stopping family replays unchanged and is internally landed in
+L442, with the missing primary regret uncertainty analysis explicitly retained.
+Execution and descriptive analysis are complete; no formal primary disposition
+is claimed. Native ownership, fresh progress and monitoring verify.
+[Complete stopping inspection](LOCAL_PROGRAM_STOPPING_COMPLETE.json).
+Health remains due at 10:26:38 PDT; original packet dates and cutoff remain.
+
+Earlier continuation, September 24 at 07:23 PDT: Gear 2 has advanced to LP08.
+The final questioning producers replay unchanged; all LP07 histories now have
+terminal records, with four failures retained and the complete-only primary
+consumer correctly deferred. LP07 remains incomplete, with no survivor-based
+scientific comparison. Native ownership, fresh progress and monitoring verify.
+[Completed-producer and roster inspection](LOCAL_PROGRAM_QUERY_060_063.json).
+Health remains due at 10:26:38 PDT; original packet dates and cutoff remain.
+
+Earlier continuation, September 24 at 06:38 PDT: the fourth inspected questioning
+failure retains its returned prefix and costs; an invalid third selection stops
+dependent work under the unchanged guard. Complete producers 040/042 replay,
+and independent Gear 2 work continues with native ownership and monitoring
+verified. Whole LP07 remains incomplete; no retry or source repair. The
+[inspection](LOCAL_PROGRAM_QUERY_FOURTH_FAILURE.json) preserves the missing-history
+deficit. Health remains due at 10:26:38 PDT; original packet dates remain.
+
+Earlier health inspection, September 24 at 06:20 PDT: Gear 2 is progressing,
 resource limits and next-job admission pass, and no new failure or recovery is
 needed. Producers 031-034 replay unchanged; delayed notices match published
 records. Whole LP07 remains incomplete with its three retained failed histories.
