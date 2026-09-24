@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP06-THIRD-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/prerequisite/input/output/native continuation checks and operational write-through complete; whole LP06 family pending.
+
 - [x] OPS-S12-LP06-SECOND-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/prerequisite/input/output/native continuation checks and operational write-through complete; whole LP06 family pending.
 
 - [x] OPS-S12-LP06-FIRST-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/prerequisite/input/output/native continuation checks and operational write-through complete; whole LP06 family pending.
