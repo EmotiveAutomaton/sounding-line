@@ -2,6 +2,12 @@
 
 ## Local continuation after mechanical repair - September 23, 22:36 PDT
 
+Latest producer inspection: LP02-001-a2 completes and all 180 calls replay with
+every saved JSON unchanged. Two of five LP02 producers are complete; LP02-002-a2
+is advancing with fresh outputs and verified native identity. No new failure or
+recovery need. OPS-S12-LP02-SECOND-PRODUCER records the operational landing;
+the whole-family scientific consumer remains pending. Four-hour timing is unchanged.
+
 Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`
 and `queue-admission-fix-v2/`. The old coordinator was deliberately retired;
 its current LP02-000 worker completed normally and all 180 calls replay.

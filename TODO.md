@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP02-SECOND-PRODUCER: verify all 180 calls and actual handler replay without dispatch or file changes, source/input/terminal bindings and native continuation; operational write-through complete. Whole LP02 family remains pending.
+
 - [x] OPS-S12-LOCAL-PROGRAM-REPAIR: reconcile delayed admission, correct prospective admission dispatch and overlapping calibration bins; both original faults reproduced, 64 tests and all 22,832 synthetic slots pass. Preserve originals and the intentionally cancelled first handoff; correct only separately frozen successors under the same ledger/cutoff.
 - [x] L437 / LP01: all 384 actual calls, three producers and whole-family analyses replay and land internally; original calibration is VOID only in its overlapping bins, corrected CPU consumer and unchanged primary contrasts retained.
 - [x] S12 continuation handoff: preserved LP02-000 finishes naturally and its 180 calls replay; retire only the verified coordinator and run the corrected 325 untouched successors plus one CPU calibration repair. Active plan is local-program-admission-fix-v2, queue-admission-fix-v2; original unstarted manifests are historical, not another queue.
