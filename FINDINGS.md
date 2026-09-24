@@ -9,6 +9,89 @@ ran it.
 
 ---
 
+### OPS-S12-ADDENDUM-LOCAL-START - local admission and retained warm-up complete
+
+**Hypothesis.** The approved local roster can proceed once actual GPU headroom and a single retained warm-up satisfy the unchanged admission rules.
+
+**METHOD.** Verify the capacity and warm-up manifests, source pins, input/output hashes and recorded resource controls. Replay the real warm-up handler offline with network dispatch and telemetry disabled, and verify every original file remains byte-identical. Inspect exact queue/cloud native identities and watcher freshness. No tests are harvested from this operational notice.
+
+The table records operational admission, not renewed scientific capability.
+
+| Check | Completed evidence |
+|---|---|
+| Resource wait | Four checks; two ready samples; final cold-admission snapshot has 8,678 MiB free against 7,768 MiB required |
+| Warm-up | One literal-valid reply, raw request/response and actual-handler replay intact |
+| Local execution | Frozen Gear 2 comparison blocks have started; original canary remains the capability authority |
+| Monitoring | Exact local/cloud coordinators alive; watcher fresh with unchanged four-hour health deadline |
+
+**Found.** The local resource prerequisite and bounded warm-up completed. Local comparisons are executing alongside the independent cloud main; no application stop, new interface or retry was needed.
+
+**Means.** Continue the finite approved roster under original charges, whole-card guards and execution cutoff. Delayed audit notice matches the already landed L431 record; its reconciliation adds no scientific observation. Completed comparison cells below receive internal write-through while their larger families remain unfinished.
+
+**Curator roll-up.** Theory group: reader instrumentation. Question: can the authorized local queue start under its existing resource rules? Outcome: **Infrastructure**. Result: the retained warm-up passes literal replay. Project meaning: local waiting has ended without changing scientific admission. Next engineering obligation: land complete cells and inspect registered terminals. Public claim: unchanged. Curator decision required: No. Detail: [local admission and replay receipt](results/phase_2_4_stage_12/ADDENDUM_LOCAL_BATCH1_INSPECTION.json).
+
+---
+
+### L432 - first complete additional paper cells
+
+**Hypothesis.** A coherent account may improve correspondence between a review request and a recorded edit beyond direct reading and a matched lexical ranking control.
+
+**METHOD.** On the first five completed, prospectively selected additional ARIES papers, retain one comment and one explicitly annotated positive/negative pair per paper. Cross both supplied-pair question formulations with direct reading and a coherent account. Verify source/manifests/outputs and replay all forty raw calls and their actual scoring handlers without inference. Compare each complete paper cell; do not pool it into a verdict on the unfinished sixteen-paper family. Earlier exposed papers remain separate.
+
+Each row is one paper ordinal and question formulation: Edit asks forward edit correspondence; Request asks reverse request correspondence on the same supplied pair. Error is mean half-Brier probability loss over the positive and negative examples, lower is better; uniform error is 0.25. Ranking is whether the positive receives a larger link score than the negative: one is correct, one half a tie, zero reversed. The lexical column uses overlap on these exact pairs and supplies no probability calibration.
+
+| Paper | Formulation | Direct error | Account error | Direct ranking | Account ranking | Lexical ranking |
+|---|---|---:|---:|---:|---:|---:|
+| 00 | Edit | 0.002500 | 0.500000 | 1.0 | 0.5 | 1.0 |
+| 00 | Request | 0.000113 | 0.000084 | 1.0 | 1.0 | 1.0 |
+| 01 | Edit | 0.500000 | 0.382812 | 0.5 | 1.0 | 0.0 |
+| 01 | Request | 0.002500 | 0.451334 | 1.0 | 1.0 | 0.0 |
+| 02 | Edit | 0.001362 | 0.012500 | 1.0 | 1.0 | 1.0 |
+| 02 | Request | 0.001334 | 0.011334 | 1.0 | 1.0 | 1.0 |
+| 03 | Edit | 0.005084 | 0.000084 | 1.0 | 1.0 | 1.0 |
+| 03 | Request | 0.011263 | 0.009062 | 1.0 | 1.0 | 1.0 |
+| 04 | Edit | 0.485225 | 0.451250 | 0.5 | 1.0 | 1.0 |
+| 04 | Request | 0.456250 | 0.387813 | 0.0 | 1.0 | 1.0 |
+
+**Found.** Within these complete cells, account/direct loss ordering depends on the paper and formulation. All forty outputs are literal-valid, but two retain infinite logarithmic loss from zero support: account/Edit on paper 00 and direct/Edit on paper 01. Better pair ranking can coexist with worse probability loss or chance-level hard accuracy. The lexical control ranks correctly on four papers and reverses on paper 01. Full hard-accuracy, probability-loss and ranking records remain in the receipt.
+
+**Means.** Retain probability quality, hard classification and ranking as distinct observations. This is new paper coverage under a balanced annotation diagnostic, with unknown author and pretraining dependence; it does not estimate natural prevalence, private purpose, adoption or novel-edit generation. The remaining frozen papers and separate whole-family weighting consumer are still owed. No general account advantage follows from this completed subset.
+
+**Curator roll-up.** Theory group: historical correspondence. Question: does an account help match requests to recorded edits? Outcome: **Narrows**. Result: complete paper cells separate ranking from probability quality without a stable account advantage. Project meaning: the useful comparison requires both calibration and matched cheap controls. Next engineering obligation: finish the frozen paper roster and retain new, earlier-exposed and combined descriptive populations separately. Public claim: unchanged. Curator decision required: No. Detail: [complete-cell replay and scores](results/phase_2_4_stage_12/ADDENDUM_LOCAL_BATCH1_INSPECTION.json).
+
+---
+
+### L433 - first complete saved-reply revision histories
+
+**Hypothesis.** Providing a reader its exact earlier answer may change how it uses new diagnostic evidence, with effects distinguishable from rereading unchanged evidence or adding equally long irrelevant text.
+
+**METHOD.** Replay both complete fourteen-call histories from the frozen eight-history construction, using direct and account readers. History 00 has the truthful public frame and history 01 the contradicted frame. Preserve each initial raw reply verbatim in the saved condition; compare it with a fresh read at each identical later snapshot. Later snapshots contain unchanged evidence, seven added diagnostic records, or byte-length-matched irrelevant text. Independent finite programs supply the unchanged and later target distributions. Verify all 28 raw replies, saved-request bindings, timing controls and actual handlers without inference; no original bytes change.
+
+Each row is one history, method and later evidence condition. Excess error is half-Brier loss minus the exact reference at that same snapshot, lower is better. Positive fresh-minus-saved error favors the saved reply; negative favors a fresh read. The unchanged/irrelevant exact floor is 0.273750, and the diagnostic floor is approximately 0.071250; the uniform reference is 0.375 throughout. Initial direct/account losses are 0.310000/0.415000 on history 00 and 0.435000/0.375000 on history 01. These paired contrasts do not compare losses at different target floors.
+
+| History/frame | Method | Later evidence | Fresh excess error | Saved-reply excess error | Fresh minus saved error |
+|---|---|---|---:|---:|---:|
+| 00/true | Account | Unchanged | 0.141250 | 0.186250 | -0.045000 |
+| 00/true | Account | Diagnostic | 0.003750 | 0.000650 | 0.003100 |
+| 00/true | Account | Irrelevant | 0.301250 | 0.180625 | 0.120625 |
+| 00/true | Direct | Unchanged | 0.036250 | 0.036250 | 0.000000 |
+| 00/true | Direct | Diagnostic | 0.490950 | 0.103750 | 0.387200 |
+| 00/true | Direct | Irrelevant | 0.141250 | 0.036250 | 0.105000 |
+| 01/false | Account | Unchanged | 0.101250 | 0.202500 | -0.101250 |
+| 01/false | Account | Diagnostic | 0.033750 | 0.903750 | -0.870000 |
+| 01/false | Account | Irrelevant | 0.001250 | 0.101250 | -0.100000 |
+| 01/false | Direct | Unchanged | 0.161250 | 0.161250 | 0.000000 |
+| 01/false | Direct | Diagnostic | 0.303750 | 0.011250 | 0.292500 |
+| 01/false | Direct | Irrelevant | 0.001250 | 0.161250 | -0.160000 |
+
+**Found.** Saved replies help direct reading on both diagnostic snapshots but do not consistently help the account. On the false-frame history, diagnostic evidence improves the fresh account while its saved counterpart becomes confidently wrong. Unchanged and irrelevant controls also move forecasts. All 28 replies are literal-valid; five have infinite logarithmic loss, including initial/repeated account replies and one diagnostic saved account. Under the frozen first-maximum modal rule, diagnostic direct/saved corrects history 01 and account/fresh also corrects it, while direct/fresh damages history 00. Fresh irrelevant text damages both methods' modal answer on history 00. The receipt retains every movement, non-correction, damage and initial loss evaluated at the later target.
+
+**Means.** Explicit previous-answer access can preserve a useful answer or perpetuate a wrong one. Evidence addition, saved-answer exposure, irrelevant text and repeat variation remain separate explanations. These two completed histories share one constructed law and do not close the eight-history roster, isolate psychological anchoring, identify hidden persistent state or establish human updating. No whole-family ranking is inferred.
+
+**Curator roll-up.** Theory group: updating and correction. Question: does access to the earlier answer help revision at the same later evidence? Outcome: **Narrows**. Result: saved-answer benefit depends on method and history, with a confident diagnostic failure retained. Project meaning: changed forecasts and coherent accounts do not by themselves establish useful correction. Next engineering obligation: finish the frozen histories and preserve all paired controls, support failures and later-target movement in the complete consumer. Public claim: unchanged. Curator decision required: No. Detail: [complete paired replay and scores](results/phase_2_4_stage_12/ADDENDUM_LOCAL_BATCH1_INSPECTION.json).
+
+---
+
 ### OPS-S12-ADDENDUM-CLOUD-PILOT - revised literal interface admitted
 
 **Hypothesis.** A uniformly larger output allowance can complete the original capable-reader pilot without changing its evidence, model, scoring or aggregate spending limit.

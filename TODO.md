@@ -7,7 +7,9 @@
 - [x] S12 addendum implementation: build and validate A-E, freeze complete finite jobs and original-budget admission, register terminal delivery and launch healthy eligible work. No third shared fit or blind retry.
 - [x] L431 / addendum A: both audit attempts retained, all 88 prior completed records and 25 failed attempts verified, original all-attempt summaries reproduced, secondary complete-pair sensitivity and eight source-bound cases internally landed.
 - [x] OPS-S12-ADDENDUM-CLOUD-PILOT: fully replay and land revised literal pilot admission; approved bounded main now active, original failed pilot retained.
-- [ ] S12 addendum B-E: execute the frozen 288-call local roster and separately gated revised cloud tree; preserve invalids, original failed pilot, whole-family consumers, two-day cutoff and original packets. Local resource waiting is not inference.
+- [x] OPS-S12-ADDENDUM-LOCAL-START: capacity admission and one retained warm-up complete; actual raw/handler replay and native continuation verify. Original canary unchanged.
+- [x] L432/L433: first five additional paper cells and first two saved-reply histories fully replayed and internally landed; 68 scientific calls plus warm-up verify without redispatch or file changes. All rivals, support failures and paired later-target controls retained.
+- [ ] S12 addendum B-E: local Gear 2 comparisons and the separately gated cloud main are active. Finish the frozen roster and whole-family consumers; preserve invalids, original failed pilot, two-day cutoff and original packets. No unfinished family verdict.
 - [x] OPS-S12-HEALTH-1805: verify 88 completed records, native monitor freshness, prior failures, released locks and resources. Cold GPU admission currently refuses; prepare approved successors and repeat readiness before dispatch.
 
 - [x] OPS-S12-EXECUTION-SETUP: complete the scoped successor review, preserve all prior records, freeze the supplied-answer and offline law-sensitivity comparisons; all 48 Stage 12 tests and all 280-slot handler replays pass. Native Gear 2 continuation submitted under the original limits.

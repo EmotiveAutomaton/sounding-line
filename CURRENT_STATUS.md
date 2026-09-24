@@ -5,11 +5,11 @@
 Current execution, September 23 evening: all approved A-E addendum work is built
 and frozen. The 35-card local Gear 2 plan is live, with 288 scientific requests
 across sixteen additional human papers, eight saved-answer revision histories
-and four answer-binding histories. Its actual resource waiter is active; local
-inference has not started because available GPU memory is below the unchanged
-cold-start requirement. Two ready samples permit one retained warm-up, then the
-interleaved complete blocks and whole-family consumers. Other applications are
-not automatically terminated.
+and four answer-binding histories. Capacity admission and the single retained
+warm-up have completed; local comparison blocks are running. The first five
+additional paper cells and first two saved-reply histories replay exactly and
+are internally landed in L432/L433, with all controls and support failures.
+Their larger families remain unfinished. No application stop was needed.
 
 The revised Modal pilot passes complete literal and archive replay. Its authorized
 159-request main is now running, independently of local GPU readiness. Aggregate
@@ -31,7 +31,8 @@ and failure signals are registered separately. New execution stops at September
 Interim review remains Friday September 25 at 06:17 PDT, with any unfinished work
 explicit. Original final review remains Monday September 28 at 06:17 PDT.
 See docs/design/STAGE12_ADDENDUM_IMPLEMENTATION.md and the Stage 12 addendum
-setup, audit and cloud-pilot receipts. A healthy resource wait is not GPU inference.
+setup, audit, cloud-pilot and ADDENDUM_LOCAL_BATCH1_INSPECTION.json receipts.
+The finite local roster continues; no extra generation follows early completion.
 
 ## Historical execution snapshots
 
