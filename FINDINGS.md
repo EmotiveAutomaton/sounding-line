@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S12-LP05-FIRST-PRODUCER - attributed-answer requests preserved and continuation live
+
+**Hypothesis.** A completed attributed-answer producer can be verified without treating an unfinished family as a scientific result.
+
+**METHOD.** Verify the LP05-000-a2 manifest, every bound input, all 476 source pins and terminal output hashes. Confirm all 180 frozen calls are complete before reentering the actual request/parser and producer handler from its immutable source capsule. Compare the complete returned result and every JSON hash before and after replay. Inspect native coordinator and successor identity, heartbeat/raw-response freshness, failures and watcher delivery. No incomplete-family contrast is interpreted.
+
+The table records preserved execution and live continuation. Producer coverage is a queue count, not independent scientific replication.
+
+| Check | Result |
+|---|---|
+| Completed producer | All 180 frozen calls and the full actual handler replay correctly |
+| Preservation | All 1,268 JSON files unchanged; no new inference |
+| Source identity | Manifest, bound inputs, terminal outputs and all 476 source pins verify |
+| Family coverage | One of seven producers complete; whole-family comparison pending |
+| Continuation | LP05-001-a2 has verified native identity and fresh heartbeat/raw output |
+| Monitoring | Watcher fresh; no new job failure; health deadline unchanged |
+
+**Found.** The complete producer is preserved and its authorized successor is progressing. No recovery is needed. Invalid accounting and every frozen comparison remain obligations of the complete-family consumer.
+
+**Means.** Continue the existing Gear 2 queue within the unchanged ledger and cutoff. The independent four-hour health check remains September 24 at 06:18:46 PDT. No tests harvested, new research, fits, delegation, paid work or gear change.
+
+**Curator roll-up.** Theory group: operational validity. Question: is the completed attributed-answer producer intact and its successor progressing? Outcome: **Infrastructure**. Result: the complete producer replays while its successor advances. Project meaning: execution is verified without a partial scientific verdict. Next engineering obligation: inspect complete producers and land the full-family consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_LP05_FIRST_PRODUCER.json).
+
+---
+
 ### L439 - complete crossed-frame revision comparison and deterministic interval repair
 
 **Hypothesis.** Keeping an earlier reply changes the benefit of diagnostic evidence differently under true and false starting frames, beyond unchanged rereading and equally long irrelevant material.

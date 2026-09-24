@@ -13,7 +13,7 @@ conditional branches and Friday/Monday packets remain unchanged.
 The health event is acknowledged after write-through; the next verified check
 is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
 
-## Local continuation after completed crossed revision - September 24, 02:55 PDT
+## Local continuation after first attributed-answer producer - September 24, 03:04 PDT
 
 LP01, LP02 and LP04 are internally landed in L437-L439. LP04 has all 2,688
 calls and sixteen producers complete; source histories, exact targets and
@@ -25,9 +25,12 @@ replay; all other consumer fields remain exact. Original capsule/output are
 preserved. On LP21-revision completion, apply the same helper at alpha 0.025
 before accepting its primary interval; do not patch the live source capsule.
 A conservative 900 CPU-second maintenance allowance remains charged locally.
-Native LP05-000-a2 and coordinator identities, fresh outputs and watcher verify;
-no new job failure. Gear 2 and all original gates/cutoffs remain. The complete
-family is recorded internally; the broader program is unfinished. Next health
+The first LP05 producer completes: all 180 actual calls and the full handler
+replay with 1,268 JSON files unchanged. OPS-S12-LP05-FIRST-PRODUCER records the
+inspection; one of seven producers is complete. Native LP05-001-a2 and
+coordinator identities, fresh outputs and watcher verify; no new job failure.
+Gear 2 and all original gates/cutoffs remain. LP04 is recorded internally;
+LP05 and the broader program remain unfinished. Next health
 inspection remains September 24 at 06:18:46 PDT, independent of result ACKs.
 
 Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`

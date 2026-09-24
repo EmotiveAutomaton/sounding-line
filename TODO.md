@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP05-FIRST-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/input/output/native continuation checks and operational write-through complete; whole LP05 family pending.
+
 - [x] L439 / LP04: complete crossed-frame family, all source/request/response replay, full internal write-through and separate canonical bootstrap correction. Preserve original interval failure and all invalids.
 - [ ] LP21-revision canonical interaction: retain the frozen consumer and original output, verify all other fields, then use runners/stage12/revision_replay.py on its complete saved roster at alpha 0.025 before accepting the primary interval. No new calls, changed estimand or threshold.
 
