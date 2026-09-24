@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## Questioning producer inspection - September 24, 06:09 PDT
+
+OPS-S12-LP07-PRODUCERS-026-027 lands both complete producers, each with all
+22 calls replayed and 162 original JSON files unchanged. All source/input/
+prerequisite/output bindings verify; delayed 014/015 notices match their
+published departure landing. LP07-029-a2, native coordinator, GPU lock,
+fresh output, watcher loaded source and checkpoint helper verify. No repair,
+retry or restart. Whole LP07 remains incomplete with the three previously
+inspected invalid-selection histories and unavailable complete-only consumer.
+Gear 2, original scope/cutoff, Friday/Monday packets and the September 24
+06:18:46 PDT health deadline remain. No tests harvested or new scope.
+
 ## Third sequential-questioning failure inspected - September 24, 06:05 PDT
 
 OPS-S12-LP07-THIRD-SELECTION-FAILURE lands complete producers 021/023/024/025,

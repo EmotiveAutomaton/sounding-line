@@ -2,6 +2,7 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP07-PRODUCERS-026-027: both complete producers replay with all bindings and files unchanged; live continuation/monitoring and delayed 014/015 reconciliation verified; full operational write-through complete.
 - [x] OPS-S12-LP07-THIRD-SELECTION-FAILURE: complete producers 021/023/024/025 and failed 022 prefix/guard replay; all bindings, charges, native continuation and full operational write-through complete. Delayed 010/011/012/013 notices reconciled.
 - [x] OPS-S12-DEPARTURE-WATCH: producers 014-020 replay and full operational write-through complete; live monitoring, all current-plan terminal watches and unchanged four-hour deadline verify. Continue scheduled inspections and complete internal landings.
 - [x] OPS-S12-LP07-SECOND-SELECTION-FAILURE: complete producers 010/012/013 and failed 011 prefix/guard replay, all bindings/costs/native continuation and full operational write-through complete; delayed 004-007 notices reconciled.

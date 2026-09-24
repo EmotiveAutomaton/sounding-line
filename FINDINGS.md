@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S12-LP07-PRODUCERS-026-027 - complete records preserved and delayed notices reconciled
+
+**Hypothesis.** Newly completed independent questioning histories remain fully replayable while delayed notices resolve to existing landings without duplicate generation.
+
+**METHOD.** Verify manifests, all 476 source pins, contract/input/prerequisite and terminal/output bindings for LP07-026-a2 and LP07-027-a2; reenter every saved request/parser and full producer handler and compare all original JSON hashes. Reconcile LP07-014-a2 and LP07-015-a2 against the published departure receipt by manifest/terminal hashes. Verify exact live worker/coordinator/GPU ownership, output freshness, watcher loaded source and checkpoint helper; preserve the existing four-hour health deadline.
+
+The table records execution coverage and monitoring, not unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 026 and 027 | Each replays all 22 calls and its full handler; all 162 JSON files per producer remain unchanged |
+| Bound evidence | All source, manifest, contract, input, prerequisite and output bindings verify |
+| Delayed notices 014 and 015 | Exact manifest and terminal hashes match the already published departure landing |
+| Live continuation | LP07-029-a2, coordinator and GPU ownership verify with fresh heartbeat/raw output |
+| Monitoring | Native watcher, loaded source and checkpoint helper verify; health remains due September 24 at 06:18:46 PDT |
+
+**Found.** Both producers are internally preserved and both delayed notices match their prior complete write-through. No repair, retry, duplicate generation or monitoring restart is needed.
+
+**Means.** Continue the commissioned independent histories in Gear 2. Whole LP07 remains incomplete because its three previously inspected failed histories cannot be replaced by survivors; its complete-only consumer remains unavailable. Original cutoff, costs, Friday/Monday packets and health cadence remain. No tests harvested or new research, fits, cloud calls or delegation. Ordinary ACKs do not postpone the health inspection.
+
+**Curator roll-up.** Theory group: operational validity. Question: are completed records preserved without duplicate work when older notices arrive? Outcome: **Infrastructure**. Result: producer replay and delayed-notice reconciliation verify. Project meaning: independent execution continues with the original evidence deficit explicit. Next engineering obligation: land subsequent records and preserve incomplete-family accounting in the scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [producer and delivery inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_026_027.json).
+
+---
+
 ### OPS-S12-LP07-THIRD-SELECTION-FAILURE - preserved invalid selection and continuing independent histories
 
 **Hypothesis.** A failed question selection must preserve the missing dependent history and its costs while independent authorized histories continue with replayable evidence.
