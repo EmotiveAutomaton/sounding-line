@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP04-SECOND-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
+
 - [x] OPS-S12-LP04-FIRST-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
 
 - [x] L438 / LP02: all 768 calls, five producers and complete-family analysis replay; source reconstruction, independent copying checks, invalid accounting and full internal write-through complete. Preserve all contrasts and scope in Friday/Monday packets.

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP04-SECOND-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
+
 OPS-S12-LP04-FIRST-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
 
 L438 / LP02: the complete 768-call comparison, all five producer handlers and the whole-family consumer replay from their respective source capsules without dispatch or changes to 5,422 JSON files. Reconstructing the source roster reproduces every frozen request and independent exact target; copying error independently agrees in displayed coordinates. All 476 source pins per card, input bindings, output hashes, label inverses and the 761-reply calibration partition verify. Wrong assistance preserves fidelity while worsening task loss; invalids and all frozen contrasts remain. Native continuation and watcher freshness pass; no recovery needed.
