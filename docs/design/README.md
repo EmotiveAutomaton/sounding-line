@@ -7,9 +7,11 @@ for one thing we intend to build, dormant until that build is scheduled, and the
 brief. Merging them would put binding procedure and dormant blueprints in one index and dilute
 the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
-## Current orientation (2026-09-21)
+## Current orientation (2026-09-23)
 
-- **September 23 addendum approved and implemented:** [implementation freeze](STAGE12_ADDENDUM_IMPLEMENTATION.md) builds all A-E work from the retained [proposal](STAGE12_ADDENDUM_PROPOSAL.md). The local 288-request Gear 2 roster is behind actual resource admission; the revised cloud pilot passes and main is active. The complete record/case audit is internally landed in L431. Original limits, failures, four-hour monitoring and review dates remain.
+- **September 23 extensive local program proposed:** [22-package research plan](STAGE12_LOCAL_RESEARCH_PROGRAM.md), [primary-source review](STAGE12_LOCAL_RESEARCH_SOURCES.md) and [non-executable planning roster](STAGE12_LOCAL_RESEARCH_ROSTER.json). Up to 23,600 calls, with a 4,864-call first tranche, source-specific validity controls and reserved replication. Research/planning only; implementation and dispatch unstarted. Original limits are not enlarged.
+
+- **September 23 addendum locally complete:** [implementation freeze](STAGE12_ADDENDUM_IMPLEMENTATION.md) builds all A-E work from the retained [proposal](STAGE12_ADDENDUM_PROPOSAL.md). All 288 local calls and three whole-family consumers complete and replay (L434-L436). The revised cloud main stopped on a per-request timeout; retained evidence verifies but the primary human comparison remains incomplete. Local workers and provider app stopped. Original limits, failures, four-hour monitoring and review dates remain.
 
 - **September 23 execution continuation:** [supplied-answer execution and source-law sensitivity](STAGE12_EXECUTION_SUCCESSORS.md) freezes twenty balanced GPU blocks and an offline CPU consumer within the original week. All twenty histories and the CPU consumer complete with full replay (L429/L430), including one bounded warm recovery. All 48 tests and 88 complete records verify; earlier results and the failed cloud pilot remain unchanged. Original packets and scoped successor review remain.
 
@@ -93,9 +95,12 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
-| [STAGE12_ADDENDUM_PROPOSAL.md](STAGE12_ADDENDUM_PROPOSAL.md) | **PROPOSED; NOT DISPATCHED** | finite local priorities, controls, capacity and Friday review target; optional revised cloud allocation requires separate approval |
+| [STAGE12_LOCAL_RESEARCH_PROGRAM.md](STAGE12_LOCAL_RESEARCH_PROGRAM.md) | **PROPOSED; NOT IMPLEMENTED OR DISPATCHED** | extensive local program, concrete controls, conditional sources, first tranche, remaining-week limits and longer execution scenarios |
+| [STAGE12_LOCAL_RESEARCH_SOURCES.md](STAGE12_LOCAL_RESEARCH_SOURCES.md) | **RESEARCH SUPPORT FOR PROPOSAL** | scoped primary-source reads, counterarguments, prior art and resulting tests |
+| [STAGE12_LOCAL_RESEARCH_ROSTER.json](STAGE12_LOCAL_RESEARCH_ROSTER.json) | **PLANNING ONLY; NON-EXECUTABLE** | checked request caps, phases, dependencies and source/admission blockers |
+| [STAGE12_ADDENDUM_PROPOSAL.md](STAGE12_ADDENDUM_PROPOSAL.md) | **HISTORICAL PROPOSAL; SUBSEQUENTLY APPROVED AND IMPLEMENTED** | original A-E rationale; implementation freeze and current STATE carry completed local and incomplete cloud dispositions |
 | [PHASE_2_4_STAGE_12_CONTEXT.md](PHASE_2_4_STAGE_12_CONTEXT.md) | **OPERATIVE; WEEK OPEN** | current commission, conditional primary, complete controls, original resource ceilings and reporting |
-| [STAGE12_IMPLEMENTATION_HANDOFF.md](STAGE12_IMPLEMENTATION_HANDOFF.md) | **OPERATIVE implementation handoff** | current queues, missing admissions, recovery, shared fit owner and approved capped cloud route awaiting billing verification |
+| [STAGE12_IMPLEMENTATION_HANDOFF.md](STAGE12_IMPLEMENTATION_HANDOFF.md) | **OPERATIVE implementation handoff** | original implementation, admissions, recovery and shared fit ownership; dated launch snapshots are superseded operationally by current STATE |
 | [STAGE12_NATIVE_SHARED_CONSUMER.md](STAGE12_NATIVE_SHARED_CONSUMER.md) | **FROZEN completed consumer** | actual model/source replay protocol; funding statements preserve its pre-approval snapshot |
 | [STAGE12_EXPERTISE_CONSUMER.md](STAGE12_EXPERTISE_CONSUMER.md) | **FROZEN completed consumer** | narrow native production/inversion cross, complete controls and descriptive scope |
 | [PHASE_2_4_STAGE_10_CONTEXT.md](PHASE_2_4_STAGE_10_CONTEXT.md) | **HISTORICAL; LOCAL CLOSEOUT COMPLETE** | adopted prototype study, six strategies, small cohorts, independent branches and final report |

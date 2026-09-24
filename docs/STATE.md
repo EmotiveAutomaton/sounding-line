@@ -1,5 +1,20 @@
 # STATE: the agent's operational file
 
+## Extensive local program - planning completed September 23
+
+The curator commissioned fresh theory/literature review and a much larger local
+research plan. The proposal in docs/design/STAGE12_LOCAL_RESEARCH_PROGRAM.md
+contains 22 packages and a checked 23,600-call ceiling, including a 4,864-call
+first tranche, two zero-call analyses and reserved within-law replication.
+Its source review records precise READ scopes and its planning JSON is explicitly
+non-executable. No new inference, fits, cloud use or delegation occurred.
+
+Implementation and dispatch remain unstarted. Eligibility and task admission are
+conditional where named; exposed human sources do not become fresh confirmation.
+The full program requires later local capacity beyond the original week's
+remaining allowance. This proposal changes neither the completed execution below
+nor Gear 2, the four-hour health cadence or the original reporting dates.
+
 ## Stage 12 approved addendum - September 23
 
 Current execution, September 23 at 19:23 PDT: the finite local Gear 2 addendum

@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+## Extensive local research program - proposed September 23
+
+- [x] S12-LOCAL-PROGRAM planning: reread relevant theory and corrections, research primary literature and alternatives, inspect source exposure and actual local timing, and file the 22-package plan, source review and checked non-executable roster in docs/design/. Up to 23,600 calls, first tranche 4,864; no new inference or fits.
+- [ ] S12-LOCAL-PROGRAM implementation, pending execution commission: translate selected cards manually into a separate source-bound freeze; implement exact rulers, whole-roster replay, failure/accounting guards and task-specific admissions. Keep original week ceilings and reporting reserves; full-program capacity is not granted by the proposal.
+- [ ] S12-LOCAL-PROGRAM reserved work: freeze disjoint LP21 histories before exploration; preserve conditional human-source and native-mechanism blockers. Existing packets and four-hour health remain owed independently of this proposal.
+
 ## Stage 12 week - commissioned September 21
 
 - [x] S12 addendum planning: review existing evidence, labels, source support, literature and remaining capacity; file STAGE12_ADDENDUM_PROPOSAL.md with prioritized controls and a bounded optional cloud repair. Planning only: no new model calls, fits or paid use.

@@ -1,0 +1,308 @@
+{
+  "schema": "sounding-line.local-research-planning.v1",
+  "date": "2026-09-23",
+  "status": "proposal_only_not_executable",
+  "scientific_dispatch_authorized_by_this_file": false,
+  "training_fits": 0,
+  "paid_calls": 0,
+  "total_call_cap": 23600,
+  "core_call_cap_excluding_conditional_mechanism": 22832,
+  "phase_call_caps": {
+    "first": 4864,
+    "explanation": 4192,
+    "accounts": 3968,
+    "history": 4848,
+    "conditional": 768,
+    "families": 864,
+    "replication": 4096
+  },
+  "call_accounting": "Includes acquisition and 96 other-family admission requests; no retry allowance. Actual eligible sample sizes and every runtime limit must be frozen before dispatch.",
+  "timing_scenarios": {
+    "overhead_multiplier": 1.25,
+    "seconds_per_request": [
+      6,
+      12,
+      30
+    ],
+    "not_measured_future_throughput": true
+  },
+  "cards": [
+    {
+      "id": "LP00",
+      "title": "Source and ruler census",
+      "call_cap": 0,
+      "formula": "0",
+      "phase": "first",
+      "depends_on": [],
+      "readiness": "existing-source preparation",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP01",
+      "title": "Presentation invariance",
+      "call_cap": 384,
+      "formula": "64 * 6",
+      "phase": "first",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "new roster under existing law",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP02",
+      "title": "Selection, copying and inference",
+      "call_cap": 768,
+      "formula": "64 * 2 * 6",
+      "phase": "first",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "new roster under existing law",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP03",
+      "title": "Calibration, ranking and abstention",
+      "call_cap": 0,
+      "formula": "0",
+      "phase": "first",
+      "depends_on": [
+        "LP01",
+        "LP02"
+      ],
+      "readiness": "complete-output analysis; refresh after later families",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP04",
+      "title": "Fully crossed frame and saved-answer revision",
+      "call_cap": 2688,
+      "formula": "64 * 2 * 3 * (1 + 3 * 2)",
+      "phase": "first",
+      "depends_on": [
+        "LP00",
+        "LP01",
+        "LP02"
+      ],
+      "readiness": "new roster under existing law",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP05",
+      "title": "Answer correctness, confidence and provenance",
+      "call_cap": 1152,
+      "formula": "32 * 2 * 2 * (1 + 2 * 2 * 2)",
+      "phase": "explanation",
+      "depends_on": [
+        "LP01",
+        "LP02"
+      ],
+      "readiness": "controlled source-bound prior-answer construction",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP06",
+      "title": "Duplicate versus independent evidence",
+      "call_cap": 640,
+      "formula": "64 * 2 * 5",
+      "phase": "first",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "known-law observation independence",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP07",
+      "title": "Active information selection",
+      "call_cap": 1408,
+      "formula": "64 * (2 * (1 + 3 * 2) + 2 * (1 + 3))",
+      "phase": "explanation",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "finite candidate queries require exact-value admission",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP08",
+      "title": "Purpose and cost-sensitive stopping",
+      "call_cap": 768,
+      "formula": "64 * 2 * 3 * 2",
+      "phase": "explanation",
+      "depends_on": [
+        "LP07"
+      ],
+      "readiness": "decision-value ruler; both stop and buy cases",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP09",
+      "title": "Declared source reliability",
+      "call_cap": 864,
+      "formula": "48 * 2 * 3 * 3",
+      "phase": "explanation",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "finite observation-channel compiler required",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP10",
+      "title": "Compression and unseen-query transfer",
+      "call_cap": 1664,
+      "formula": "64 * (2 + 6 * 4)",
+      "phase": "accounts",
+      "depends_on": [
+        "LP01",
+        "LP02"
+      ],
+      "readiness": "query-blind acquisition and source-query census",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP11",
+      "title": "Individual and domain familiarity",
+      "call_cap": 1536,
+      "formula": "64 * 2 * 4 * 3",
+      "phase": "accounts",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "maker-disjoint donors; prefix-only history",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP12",
+      "title": "Missing candidate family",
+      "call_cap": 768,
+      "formula": "64 * 2 * 3 * 2",
+      "phase": "accounts",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "full-law support and outside-family reference",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP13",
+      "title": "Observationally identical artifacts",
+      "call_cap": 768,
+      "formula": "64 * 2 * 2 * 3",
+      "phase": "history",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "conditional on census of eligible nonduplicate pairs",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP14",
+      "title": "Witnessed local goals and dependencies",
+      "call_cap": 256,
+      "formula": "8 * 2 * 4 * 4",
+      "phase": "history",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "eight existing paths; question-specific target admission",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP15",
+      "title": "Remaining ARIES correspondence",
+      "call_cap": 384,
+      "formula": "16 * 2 * 2 * 2 * 3",
+      "phase": "first",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "16 locally uncompiled eligible papers; eight reserved",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP16",
+      "title": "CoAuthor handling and history",
+      "call_cap": 1440,
+      "formula": "120 * 2 * 6",
+      "phase": "history",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "conditional on narrow admission and eligible event census",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP17",
+      "title": "ScholaWrite temporal process",
+      "call_cap": 2000,
+      "formula": "250 * 2 * 4",
+      "phase": "history",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "conditional on narrow admission and continuity census",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP18",
+      "title": "Instruction versus realized action",
+      "call_cap": 384,
+      "formula": "64 * 2 * 3",
+      "phase": "history",
+      "depends_on": [
+        "LP00",
+        "LP01"
+      ],
+      "readiness": "exact realization audit required",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP19",
+      "title": "Adaptation to changed tools and purpose",
+      "call_cap": 768,
+      "formula": "32 * 2 * 2 * 2 * 3",
+      "phase": "conditional",
+      "depends_on": [
+        "LP00",
+        "LP14"
+      ],
+      "readiness": "BLOCKED: native mechanism export and admission",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP20",
+      "title": "Other local reader families",
+      "call_cap": 864,
+      "formula": "2 * (48 + 64 * 6)",
+      "phase": "families",
+      "depends_on": [
+        "LP00"
+      ],
+      "readiness": "complete cached weights and separate local admission",
+      "status": "proposed_not_implemented"
+    },
+    {
+      "id": "LP21",
+      "title": "Reserved within-law replication",
+      "call_cap": 4096,
+      "formula": "2688 + 1408",
+      "phase": "replication",
+      "depends_on": [
+        "LP04",
+        "LP07"
+      ],
+      "readiness": "reserve before exploration; not contingent on favorable results",
+      "status": "proposed_not_implemented"
+    }
+  ]
+}
