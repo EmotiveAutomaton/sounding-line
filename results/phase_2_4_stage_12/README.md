@@ -4,6 +4,18 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+Current audit, September 24 at 05:14 PDT: Gear 2 remains healthy with about
+17,000 requests left in the frozen roster, including conditional branches. All
+70 Stage 12 tests and 41 subtests pass; manifests, source/input/output bindings
+and the complete-job report index verify. The first five complete families are
+internally landed; LP07 remains underway. Original failures and corrections
+are retained. [Validity audit](LOCAL_PROGRAM_VALIDITY_20260924.json) and
+[complete repeated-evidence receipt](LOCAL_PROGRAM_REPEATED_EVIDENCE.json).
+Next health check is September 24 at 06:18:46 PDT; reporting dates and cutoff
+remain unchanged.
+
+Historical repair snapshot:
+
 Current local continuation: prospective admission dispatch and calibration-bin
 boundaries are repaired, with all 64 tests and the 22,832-slot synthetic rehearsal
 passing. The completed presentation family is internally landed in L437; its

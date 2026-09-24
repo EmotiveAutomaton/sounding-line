@@ -1,5 +1,22 @@
 # Current status
 
+## Queue and reporting audit - September 24, 05:14 PDT
+
+The local program is healthy in Gear 2 and still has about 17,000 queued model
+requests, including conditional branches. Recent rates imply about nineteen
+hours of inference before queue overhead. The first five complete families
+are internally landed; the next family is running. All 70 Stage 12 tests and
+41 subtests pass. Source/input/manifest/output bindings and the complete-job
+report index verify, with original failures and corrections retained.
+No additional research campaign is needed while the existing roster runs.
+
+The four-hour health check remains due September 24 at 06:18 PDT. Interim
+review is Friday September 25 at 06:17 PDT, final review Monday September 28
+at 06:17 PDT; the separate local cutoff is Friday at 20:50 PDT.
+[Validity audit and completed-record index](results/phase_2_4_stage_12/LOCAL_PROGRAM_VALIDITY_20260924.json).
+
+## Historical repair snapshot
+
 ## Local continuation repaired and running - September 23, 22:36 PDT
 
 Gear 2 continues the same 22,832-request program. Two mechanical defects were

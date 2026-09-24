@@ -12,6 +12,10 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LOCAL-VALIDITY-0514: all 70 Stage 12 tests and 41 subtests pass. All 326 current manifests, 957 input bindings, 476 pins and 44 completed-job terminal/output records verify; public mapping covers every completed job, plus two later delivered LP07 producers. Each of LP07-000-a2 through LP07-003-a2 replays all 22 calls with 162 JSON files unchanged. Native ownership, GPU lock, resources, next-card admission and monitoring pass. No unfinished-family scientific interpretation or recovery.
+
+L441 / LP06: all 640 calls, four producers and the complete consumer replay with 4,518 original JSON files unchanged. Source histories, frozen requests, exact condition-specific targets and all 476 pins verify. Duplicate/restated targets are unchanged; independent/irrelevant request bytes match. Preserve all invalids, infinite losses and all frozen comparisons; excess loss uses each view's own information floor. No new inference or repair.
+
 OPS-S12-LP06-THIRD-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule with its verified historical imports. All 1,268 JSON files remain unchanged; 476 source pins, prerequisite and input/output bindings verify. The final producer has verified native identity and fresh output, with no LP06 failure. Whole-family inference remains pending; no model call or queue repair was added.
 
 OPS-S12-LP06-SECOND-PRODUCER: all 180 actual requests/responses and the full producer handler replay from the immutable capsule with its verified historical imports. All 1,268 JSON files remain unchanged; 476 source pins, prerequisite and input/output bindings verify. The successor has verified native identity and fresh output, with no LP06 failure. Whole-family inference remains pending; no model call or queue repair was added.

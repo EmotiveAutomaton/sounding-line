@@ -13,29 +13,48 @@ conditional branches and Friday/Monday packets remain unchanged.
 The health event is acknowledged after write-through; the next verified check
 is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
 
-## Local continuation after third repeated-evidence producer - September 24, 05:00 PDT
+## Local queue and recording audit - September 24, 05:14 PDT
 
-LP01, LP02, LP04 and LP05 are internally landed in L437-L440. LP04 has all 2,688
-calls and sixteen producers complete; source histories, exact targets and
-actual saved-reply requests replay with 18,950 original JSON files unchanged.
-Its original primary bootstrap interval is VOID for exact replay because an
-unordered set changed cluster order between processes. A separate CPU-only
-canonical correction passes six targeted tests and actual-data cross-process
-replay; all other consumer fields remain exact. Original capsule/output are
-preserved. On LP21-revision completion, apply the same helper at alpha 0.025
-before accepting its primary interval; do not patch the live source capsule.
-A conservative 900 CPU-second maintenance allowance remains charged locally.
-LP05 is complete: all 1,152 calls and seven producers, source histories, frozen
-requests and the full consumer replay with 8,126 JSON files unchanged. L440
-records every frozen comparison, invalid and calibration/coverage readout.
-The pooled contrasts do not identify selective diagnostic correction or actual
-prior authorship. The third LP06 producer replays all 180 calls with 1,268
-original JSON files unchanged; three of four producers are complete and the family
-comparison is pending. OPS-S12-LP06-THIRD-PRODUCER records the inspection.
-Native LP06-003-a2 and coordinator identities, fresh output and watcher verify;
-no LP06 job failure or queue recovery. Gear 2 and all original gates/cutoffs
-remain. The broader program remains unfinished. The next health
-inspection remains September 24 at 06:18:46 PDT, independent of result ACKs.
+LP01, LP02, LP04, LP05 and LP06 are internally landed in L437-L441. All 640
+LP06 calls, four producers and the full consumer replay with 4,518 original
+JSON files unchanged. Condition-specific exact targets and reference floors,
+all invalids and every frozen comparison remain in the complete receipt.
+
+OPS-S12-LOCAL-VALIDITY-0514 records all 70 Stage 12 tests and 41 subtests passing,
+all 326 manifests, 957 input bindings and 476 pins, and 44 complete terminal
+records with 211 output hashes. The explicit report index also includes two
+subsequently delivered producers. LP07-000-a2 through LP07-003-a2 each replay
+all 22 calls with 162 original JSON files unchanged. Whole LP07 remains pending.
+The snapshot has 38 complete, one running and 287 unstarted successor jobs,
+plus six preserved original complete jobs. About 17,000 requests remain across
+the built roster, including conditional admissions; recent timings imply about
+nineteen inference hours before native overhead and differing task speeds.
+No new research or agents are needed under the user's conditional instruction.
+
+Native worker/coordinator, GPU ownership, next-card admission, CPU limits,
+memory/disk headroom and watcher/checkpoint health verify. No recovery needed.
+Gear 2 and the September 25 20:50 PDT cutoff remain. The next health inspection
+is September 24 at 06:18:46 PDT; the interim review is September 25 at 06:17 PDT.
+All CPU verification, including test/setup allowance, is charged locally.
+
+Preserve LP01's original overlapping-bin calibration VOID and separate corrected
+consumer. LP04's original primary bootstrap interval is VOID for exact replay
+because unordered cluster iteration changed resampling order. Its separate
+canonical correction passes six tests and cross-process actual-data replay;
+all other consumer fields remain exact. On LP21-revision completion, apply
+runners/stage12/revision_replay.py at alpha 0.025 before accepting its primary
+interval, preserving original output and the live immutable source capsule.
+The conservative 900 CPU-second repair allowance remains charged.
+
+## Standing publication permission - September 24
+
+The curator explicitly granted permanent permission to push this repository.
+Continue normal reviewed commits and pushes to EmotiveAutomaton/sounding-line
+without asking again. Preserve the existing private-data exclusions, lock and
+deletion checks, and verify the remote commit before claiming publication.
+This permission does not expand research, gear, spending or delegation scope.
+The earlier backlog through 0fa78a53ff1f85b0866324f20e4c98c7cf892164 is pushed;
+publication of this audit and landing is verified separately after commit.
 
 Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`
 and `queue-admission-fix-v2/`. The old coordinator was deliberately retired;

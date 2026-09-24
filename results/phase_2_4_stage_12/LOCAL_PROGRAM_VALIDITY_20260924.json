@@ -1,0 +1,448 @@
+{
+  "at": "2026-09-24T12:14:04.455379+00:00",
+  "counts": {
+    "complete": 38,
+    "running": 1,
+    "unstarted": 287
+  },
+  "model_slots": {
+    "complete": 5112,
+    "running": 22,
+    "unstarted": 17134
+  },
+  "plan_manifests_verified": 326,
+  "input_bindings_verified": 957,
+  "source_pins_verified": 476,
+  "completed_jobs_verified": 44,
+  "output_hashes_verified": 211,
+  "active_job": "LP07-002-a2",
+  "heartbeat_age": 2.572105,
+  "output_age": 2.6564199924468994,
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER, 12282 MiB, 10501 MiB, 1497 MiB, 91 %, 65",
+  "host_memory_available_GiB": 48.79376220703125,
+  "disk_free_GiB": 849.5548095703125,
+  "charges": {
+    "cpu_seconds": 26837.71394455107,
+    "gpu_seconds": 26549.23523620004,
+    "diagnostic_gpu_seconds": 45.88449860003311,
+    "host_cpu_seconds": 53098.47047240008
+  },
+  "next_job": "LP07-003-a2",
+  "next_job_resource_admission": true,
+  "watcher_fresh": true,
+  "checkpoint_native_verified": true,
+  "recent_mean_seconds_per_call": 3.948889457310185,
+  "remaining_call_time_estimate_hours": 18.818652091559315,
+  "no_new_research_reason": "Substantial already built authorized tests remain. Conditional user research/delegation request not activated.",
+  "new_tests_harvested": 0,
+  "verification_charge": {
+    "at": "2026-09-24T12:14:04.454496+00:00",
+    "status": "complete",
+    "kind": "User queue validity and new-producer replay; 300 CPU-second allowance for full tests and failed inspection setup",
+    "cpu_seconds": 301.375,
+    "gpu_seconds": 0,
+    "diagnostic_gpu_seconds": 0,
+    "host_cpu_seconds": 0
+  },
+  "landing": "OPS-S12-LOCAL-VALIDITY-0514",
+  "status": "complete",
+  "scope": "44 completed jobs at fixed 05:14 PDT audit snapshot, plus two subsequently delivered LP07 producers; later outputs retain their own pending landings.",
+  "completed_record_index": [
+    {
+      "job": "LP-reader-admission",
+      "terminal_sha256": "10be6d27f20467dd12240a9c47ece9baed3f817930d50b002f1a4b7b170733e4",
+      "public_records": [
+        "LOCAL_PROGRAM_SETUP_INSPECTION.json"
+      ]
+    },
+    {
+      "job": "LP01-000",
+      "terminal_sha256": "c127f9d55a21024b0c64222757026ab83d718933468ce011569fd5b684580174",
+      "public_records": [
+        "LOCAL_PROGRAM_PRESENTATION.json",
+        "LOCAL_PROGRAM_SETUP_INSPECTION.json"
+      ]
+    },
+    {
+      "job": "LP01-001",
+      "terminal_sha256": "3969c5df97b92cffacf1d0d76a74f64ef2712f6fdfb996826b11690a59f1dcb3",
+      "public_records": [
+        "LOCAL_PROGRAM_HEALTH_2208.json",
+        "LOCAL_PROGRAM_PRESENTATION.json"
+      ]
+    },
+    {
+      "job": "LP01-002",
+      "terminal_sha256": "601c582f2120e32fa665e0fefae7eca29222a52b723ef68e020b6f5a8a396323",
+      "public_records": [
+        "LOCAL_PROGRAM_HEALTH_2208.json",
+        "LOCAL_PROGRAM_PRESENTATION.json"
+      ]
+    },
+    {
+      "job": "LP01-summary",
+      "terminal_sha256": "487608daf58f92e217b8367add4e69c5f7027d211590d89bb99b8bc4bde5b113",
+      "public_records": [
+        "LOCAL_PROGRAM_PRESENTATION.json"
+      ]
+    },
+    {
+      "job": "LP01-summary-calibration-a2",
+      "terminal_sha256": "5ec2468eb72ad91b2a0630882ade18799332a2abf48adad15fff3cd9b4cdaaff",
+      "public_records": [
+        "LOCAL_PROGRAM_PRESENTATION_CALIBRATION_REPAIR.json"
+      ]
+    },
+    {
+      "job": "LP02-000",
+      "terminal_sha256": "e310001aa2dde4be9dfe989a5103ecf14b6c86e8143977442d22541da7aec976",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json"
+      ]
+    },
+    {
+      "job": "LP02-001-a2",
+      "terminal_sha256": "b226eda0b323e10578f85991c94e8007667a3ff40401c8c5baf54d326ebc4247",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json",
+        "LOCAL_PROGRAM_LP02_SECOND_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP02-002-a2",
+      "terminal_sha256": "09519bd71515eeddb0c9be7a92f4b946ba6b42758ea557e7b54d644c48c9fd0d",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json",
+        "LOCAL_PROGRAM_LP02_THIRD_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP02-003-a2",
+      "terminal_sha256": "3c9ec7151f1c887b9e388520b43b131609916288ff69d19226997179619ac8b7",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json",
+        "LOCAL_PROGRAM_LP02_FOURTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP02-004-a2",
+      "terminal_sha256": "e3201627c97c9cfe48304d69780ad3c4047ad82f5a43c6863af8641e7783e520",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json"
+      ]
+    },
+    {
+      "job": "LP02-summary-a2",
+      "terminal_sha256": "947971fa277caeac7cf18ebf3b058bca9af7eb1c2e0470e9632c4823f6ee6158",
+      "public_records": [
+        "LOCAL_PROGRAM_BINDING.json"
+      ]
+    },
+    {
+      "job": "LP04-000-a2",
+      "terminal_sha256": "bb0d45c6d9026f698fe5a4b67d8fd919d4dd72937ed0ef6e20d6fef5bde948f9",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_FIRST_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-001-a2",
+      "terminal_sha256": "eaf1aae3d8788da32a7b5a66432bed7532f7743a041111a03f8468f7f5f10490",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_SECOND_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-002-a2",
+      "terminal_sha256": "e38f01a1609bf9c6b4587e143142dea8b4bcdb1a7598f85e5cef491ea78cb93b",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_THIRD_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-003-a2",
+      "terminal_sha256": "4a4658ca4c2d580e5fc696db2645846f5c175d98f527e2c14e43ad903b3af0bc",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_FOURTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-004-a2",
+      "terminal_sha256": "3867c7cfe279c4326be42049217e07728e587023d3d01d4a6c6ec1228c584899",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_FIFTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-005-a2",
+      "terminal_sha256": "42083cc63c2c21fd19e4c785bb5787a48172391627f497c5bed2baaba9fa2fb2",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_SIXTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-006-a2",
+      "terminal_sha256": "d70c2f8d0c75fec3728357ceeef3fadbefe7ea94193732018140248571191ad7",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_SEVENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-007-a2",
+      "terminal_sha256": "9dadc53f87db1266dbb73752eaacbc3dec8a2dd707540ad58f68b2a4c3f022c5",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_EIGHTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-008-a2",
+      "terminal_sha256": "bb0d3c9d40c0d8f27352e233f9b9572169b64c157011ec62535c348424abc9b4",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_NINTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-009-a2",
+      "terminal_sha256": "82a594bfcfc7b50978db7dcea66c4a44c574d6115fc9dae4f4757ce0811cbe1f",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_TENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-010-a2",
+      "terminal_sha256": "e70cc98eab4883e7d4c35bcb4c0d8120e70e869163db26cddc56437d132167ac",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_ELEVENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-011-a2",
+      "terminal_sha256": "40007a3185686a16a8a7a02c73daa10c6c1e3a154861d2fd9eace48e478471cb",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_TWELFTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-012-a2",
+      "terminal_sha256": "a8f66ac504bb4e1165b9d5bedad07d7d20caff9eefe204af634c86771346d828",
+      "public_records": [
+        "LOCAL_PROGRAM_LP04_THIRTEENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-013-a2",
+      "terminal_sha256": "b504389206453d1d4efb617d7b271e4d1fe20e3156420185a64375bf30c1db7c",
+      "public_records": [
+        "LOCAL_PROGRAM_HEALTH_0213.json",
+        "LOCAL_PROGRAM_LP04_FOURTEENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-014-a2",
+      "terminal_sha256": "0ca340b62242659796d8c7265737277d00a7c3a1ed0c8a6e351f045683029eed",
+      "public_records": [
+        "LOCAL_PROGRAM_HEALTH_0213.json",
+        "LOCAL_PROGRAM_LP04_FIFTEENTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP04-015-a2",
+      "terminal_sha256": "d81ed3dea098556e59fd99fb8cf186a70609dce60bfdc4af95c970bcb8e0cf22",
+      "public_records": [
+        "LOCAL_PROGRAM_CROSSED_REVISION.json"
+      ]
+    },
+    {
+      "job": "LP04-summary-a2",
+      "terminal_sha256": "a125957ca7788603abed9abf0ca0774fe729c5919ade2bfeaee63acf0be31c34",
+      "public_records": [
+        "LOCAL_PROGRAM_CROSSED_REVISION.json"
+      ]
+    },
+    {
+      "job": "LP05-000-a2",
+      "terminal_sha256": "a252aa3090442c144aca80abecab587bae54c6f55c864437a9b79fb4c09ee353",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_FIRST_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-001-a2",
+      "terminal_sha256": "c8e9a5bd5993d9c74a60a9d52a025a1c276883018973f2e87b9982b36bed56e1",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_SECOND_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-002-a2",
+      "terminal_sha256": "aaa4dbc3c2d439ed03038541a194149036b40cf8648459eead91d0128275bd92",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_THIRD_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-003-a2",
+      "terminal_sha256": "cc9c5f39565ff7c26b9639a254dabf49aba4c7d2debeb789f6018f306b1565a8",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_FOURTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-004-a2",
+      "terminal_sha256": "da0cb6e5deb561c113c50cb1ba8ebdfea1033ed59b132ef67dfed5415e043df4",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_FIFTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-005-a2",
+      "terminal_sha256": "e9b204bc3e9265b199a2227025611084a48c68858fd6aaeb80b60f24bf25984d",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json",
+        "LOCAL_PROGRAM_LP05_SIXTH_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP05-006-a2",
+      "terminal_sha256": "002f692d6edf4df5fbc8317a88175faabf2fac6f8cbf1da47930e3776e56b312",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json"
+      ]
+    },
+    {
+      "job": "LP05-summary-a2",
+      "terminal_sha256": "8d27ca3e19e3e2185c1d93296fa7adb7298645d88c6d5f42214e8b2070d86f07",
+      "public_records": [
+        "LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json"
+      ]
+    },
+    {
+      "job": "LP06-000-a2",
+      "terminal_sha256": "f27043275bbdf5615299614cc5de3cb64ca41cf501d3911e88d76e5492d04964",
+      "public_records": [
+        "LOCAL_PROGRAM_LP06_FIRST_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP06-001-a2",
+      "terminal_sha256": "6ffa4006dbaa89b2ad9ede5013307e04dc0f47db27579f9dbb20ef068ca68e51",
+      "public_records": [
+        "LOCAL_PROGRAM_LP06_SECOND_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP06-002-a2",
+      "terminal_sha256": "a60eeb5e18829be2e1e710cd8e11020e21ba4cc3e2549217125eee406c07ef3e",
+      "public_records": [
+        "LOCAL_PROGRAM_LP06_THIRD_PRODUCER.json"
+      ]
+    },
+    {
+      "job": "LP06-003-a2",
+      "terminal_sha256": "095c6417c3c538cddc1f0629e4c51f6463fb1462948db43eb4f6b8aa30fa41fa",
+      "public_records": [
+        "LOCAL_PROGRAM_REPEATED_EVIDENCE.json"
+      ]
+    },
+    {
+      "job": "LP06-summary-a2",
+      "terminal_sha256": "724d845d5eb1fbf618e3b41b9cc2fbcf8066944a4e88a3910150b11def7cea8d",
+      "public_records": [
+        "LOCAL_PROGRAM_REPEATED_EVIDENCE.json"
+      ]
+    },
+    {
+      "job": "LP07-000-a2",
+      "terminal_sha256": "9d8eb0867fc92266ef04cd3b1e7e6ba3ff5e251f5c5e597a21cfd9b6b8857230",
+      "public_records": [
+        "LOCAL_PROGRAM_VALIDITY_20260924.json"
+      ]
+    },
+    {
+      "job": "LP07-001-a2",
+      "terminal_sha256": "2c23326342383b45d82774bbf7d84657d3fed1d19a1d3297e53968554d9fdad8",
+      "public_records": [
+        "LOCAL_PROGRAM_VALIDITY_20260924.json"
+      ]
+    },
+    {
+      "job": "LP07-002-a2",
+      "terminal_sha256": "50623e0590ce97eb7c589c826ca25d78ebd496b9ce7178a50306ad29d67af301",
+      "public_records": [
+        "LOCAL_PROGRAM_VALIDITY_20260924.json"
+      ]
+    },
+    {
+      "job": "LP07-003-a2",
+      "terminal_sha256": "b801a2fa58889936a90afb90562b2688809a41352f79bb7a0d71d6152de0cd88",
+      "public_records": [
+        "LOCAL_PROGRAM_VALIDITY_20260924.json"
+      ]
+    }
+  ],
+  "additional_replays": {
+    "LP07-000-a2": {
+      "calls": 22,
+      "all_json_files_unchanged": 162,
+      "actual_handler_replay": true,
+      "terminal_sha256": "9d8eb0867fc92266ef04cd3b1e7e6ba3ff5e251f5c5e597a21cfd9b6b8857230",
+      "manifest_sha256": "5c0fe3e089b9e51f4147c6b2376a10eb94cb7d74f6143e6ef6b4520a5eed09c6"
+    },
+    "LP07-001-a2": {
+      "calls": 22,
+      "all_json_files_unchanged": 162,
+      "actual_handler_replay": true,
+      "terminal_sha256": "2c23326342383b45d82774bbf7d84657d3fed1d19a1d3297e53968554d9fdad8",
+      "manifest_sha256": "dd546f6d60104cd97853b7faf3ab690139af1dd5d6f853db5b6e36620611f820"
+    },
+    "LP07-002-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "a186c0ff6c69623351508585ca672d3a98356d99a4842e3d5f10bf3163fb736f",
+      "source_pins_verified": 476,
+      "terminal_sha256": "50623e0590ce97eb7c589c826ca25d78ebd496b9ce7178a50306ad29d67af301"
+    },
+    "LP07-003-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "bbb3e37dc346f44bf44a781d5eab93cb20a2ee7121369dac7bb4d1ac8b6572a5",
+      "source_pins_verified": 476,
+      "terminal_sha256": "b801a2fa58889936a90afb90562b2688809a41352f79bb7a0d71d6152de0cd88"
+    }
+  },
+  "supplement_at": "2026-09-24T12:20:50.125200+00:00",
+  "supplement_charge": {
+    "at": "2026-09-24T12:20:50.125200+00:00",
+    "cpu_seconds": 0.453125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP07 third and fourth producer actual saved-response replay",
+    "status": "complete"
+  },
+  "all_native_identities_verified": true,
+  "gpu_lock_matches_worker": true,
+  "cpu_maximum_percent": 90,
+  "cpu_boost_disabled": true,
+  "health_due_utc": "2026-09-24T13:18:46.104688+00:00",
+  "tests": {
+    "passed": 70,
+    "subtests_passed": 41,
+    "files": 10,
+    "receipt_sha256": "4c8fe76d3051c5d35e8bd250a5ff03876160021af9b1b3d6d8f0750ef3119642"
+  },
+  "new_model_calls": 0,
+  "reporting": "Full completed-family science remains internal until the Friday/Monday packets; no LP07 partial scores.",
+  "historical_voids_retained": [
+    "LP01 original overlapping-bin calibration",
+    "LP04 original process-dependent primary bootstrap interval"
+  ],
+  "conditional_branches_retained": true
+}

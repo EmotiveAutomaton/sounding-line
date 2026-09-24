@@ -1,0 +1,484 @@
+{
+  "at": "2026-09-24T12:11:10.836286+00:00",
+  "family": "LP06",
+  "calls": 640,
+  "clusters": 64,
+  "producers": 4,
+  "all_json_files_unchanged": 4518,
+  "source_pins_verified": 476,
+  "source_reconstruction": true,
+  "frozen_requests_rebuilt": true,
+  "independent_targets_verified": true,
+  "duplicate_targets_unchanged": true,
+  "independent_irrelevant_bytes_matched": true,
+  "actual_handler_replay": true,
+  "receipts": {
+    "LP06-000-a2": {
+      "manifest_sha256": "6ab18be8932c4f57616b7cd6bf1aac03ae776ff57cfd31897f0885db520f9012",
+      "terminal_sha256": "f27043275bbdf5615299614cc5de3cb64ca41cf501d3911e88d76e5492d04964",
+      "calls": 180,
+      "actual_handler_replay": true
+    },
+    "LP06-001-a2": {
+      "manifest_sha256": "142ae6ceab79450e2ad8012791e4da1e2fc0b8ac0b893259ea0c1ea671bc5c26",
+      "terminal_sha256": "6ffa4006dbaa89b2ad9ede5013307e04dc0f47db27579f9dbb20ef068ca68e51",
+      "calls": 180,
+      "actual_handler_replay": true
+    },
+    "LP06-002-a2": {
+      "manifest_sha256": "49536e319acfb1fee5b2e7c0944fa0bff793ed72cb81dffa76afc88183485430",
+      "terminal_sha256": "a60eeb5e18829be2e1e710cd8e11020e21ba4cc3e2549217125eee406c07ef3e",
+      "calls": 180,
+      "actual_handler_replay": true
+    },
+    "LP06-003-a2": {
+      "manifest_sha256": "6533cca9b163ecef99b44b6d8e3a7f46e32cdc332039bcde1fce844fc02cd2a4",
+      "terminal_sha256": "095c6417c3c538cddc1f0629e4c51f6463fb1462948db43eb4f6b8aa30fa41fa",
+      "calls": 100,
+      "actual_handler_replay": true
+    },
+    "LP06-summary-a2": {
+      "manifest_sha256": "b854e471385c9dbd2d8c1beb7903a134903ebd898bbfdf0176400fed4fed9d9a",
+      "terminal_sha256": "724d845d5eb1fbf618e3b41b9cc2fbcf8066944a4e88a3910150b11def7cea8d",
+      "calls": 640,
+      "actual_handler_replay": true
+    }
+  },
+  "exact_reference_by_condition": {
+    "single": 0.26523069598337956,
+    "duplicate": 0.26523069598337956,
+    "restatement": 0.26523069598337956,
+    "independent": 0.1516399757617728,
+    "irrelevant": 0.26523069598337956
+  },
+  "uniform_reference": 0.375,
+  "invalid": 72,
+  "infinite": 242,
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "verification_charge": {
+    "at": "2026-09-24T12:11:10.835362+00:00",
+    "status": "complete",
+    "kind": "LP06 full landing replay and source/target verification",
+    "cpu_seconds": 2.984375,
+    "gpu_seconds": 0,
+    "diagnostic_gpu_seconds": 0,
+    "host_cpu_seconds": 0
+  },
+  "landing": "L441",
+  "status": "complete",
+  "substrate": "64 constructed discovery histories, one unchanged maker law; Qwen model reader and exact-program reference",
+  "analysis": {
+    "aggregates": [
+      {
+        "attempt_weighted_loss": 0.4213929481907895,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.19574281726108028,
+          "level": 0.95,
+          "low": 0.12234811396295009,
+          "mean": 0.15616225220740992,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.15616225220740992,
+        "clusters": 64,
+        "condition": "duplicate",
+        "infinite": 21,
+        "invalid": 2,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.48343583984375,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.4000780100307307,
+          "level": 0.95,
+          "low": 0.26641975063841766,
+          "mean": 0.3317958640819772,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3317958640819772,
+        "clusters": 64,
+        "condition": "independent",
+        "infinite": 20,
+        "invalid": 5,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.4880578638980263,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.27937115948537045,
+          "level": 0.95,
+          "low": 0.17247325409020078,
+          "mean": 0.22282716791464677,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.22282716791464677,
+        "clusters": 64,
+        "condition": "irrelevant",
+        "infinite": 28,
+        "invalid": 6,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.46559552837171053,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.2535393646662915,
+          "level": 0.95,
+          "low": 0.1532754550077908,
+          "mean": 0.20036483238833097,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.20036483238833097,
+        "clusters": 64,
+        "condition": "restatement",
+        "infinite": 22,
+        "invalid": 3,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.5198530016447368,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.31908000238054013,
+          "level": 0.95,
+          "low": 0.19515635820637114,
+          "mean": 0.2546223056613573,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.2546223056613573,
+        "clusters": 64,
+        "condition": "single",
+        "infinite": 24,
+        "invalid": 9,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.5487243215460527,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.3471100653566482,
+          "level": 0.95,
+          "low": 0.22190694143871187,
+          "mean": 0.2834936255626731,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.2834936255626731,
+        "clusters": 64,
+        "condition": "duplicate",
+        "infinite": 25,
+        "invalid": 12,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.5031028371710526,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.4259179460266621,
+          "level": 0.95,
+          "low": 0.2817646836045707,
+          "mean": 0.3514628614092798,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3514628614092798,
+        "clusters": 64,
+        "condition": "independent",
+        "infinite": 30,
+        "invalid": 9,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.574365234375,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.37209352276662044,
+          "level": 0.95,
+          "low": 0.2490096141360803,
+          "mean": 0.3091345383916205,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3091345383916205,
+        "clusters": 64,
+        "condition": "irrelevant",
+        "infinite": 22,
+        "invalid": 11,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.529550822368421,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.32363082474896115,
+          "level": 0.95,
+          "low": 0.21151223814058168,
+          "mean": 0.2643201263850415,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.2643201263850415,
+        "clusters": 64,
+        "condition": "restatement",
+        "infinite": 24,
+        "invalid": 5,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.533154296875,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.32940350561591064,
+          "level": 0.95,
+          "low": 0.21470338604787045,
+          "mean": 0.26792360089162043,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.26792360089162043,
+        "clusters": 64,
+        "condition": "single",
+        "infinite": 26,
+        "invalid": 10,
+        "method": "direct"
+      }
+    ],
+    "calibration": {
+      "groups": [
+        {
+          "attempts": 320,
+          "bins": [
+            {
+              "confidence": 0.25447154471544714,
+              "count": 123,
+              "expected_correct_support": 0.19483311938382544,
+              "gap": 0.0596384253316217,
+              "lower": 0.2,
+              "upper": 0.4
+            },
+            {
+              "confidence": 0.46794871794871795,
+              "count": 78,
+              "expected_correct_support": 0.4449392712550608,
+              "gap": 0.023009446693657176,
+              "lower": 0.4,
+              "upper": 0.6
+            },
+            {
+              "confidence": 0.725,
+              "count": 32,
+              "expected_correct_support": 0.3884046052631579,
+              "gap": 0.3365953947368421,
+              "lower": 0.6,
+              "upper": 0.8
+            },
+            {
+              "confidence": 0.8979838709677419,
+              "count": 62,
+              "expected_correct_support": 0.32181663837011887,
+              "gap": 0.576167232597623,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 25,
+          "label_count": 4,
+          "method": "account",
+          "score_components": {
+            "binned_reliability": 0.0380986120507307,
+            "binned_resolution": 0.005310710467080377,
+            "uncertainty": 0.3709588693588702,
+            "valid_only_loss": 0.4312320394736842,
+            "within_bin_remainder": 0.02748526853116373
+          }
+        },
+        {
+          "attempts": 320,
+          "bins": [
+            {
+              "confidence": 0.25282608695652176,
+              "count": 115,
+              "expected_correct_support": 0.19902745995423343,
+              "gap": 0.053798627002288324,
+              "lower": 0.2,
+              "upper": 0.4
+            },
+            {
+              "confidence": 0.45049180327868854,
+              "count": 61,
+              "expected_correct_support": 0.3915228645383952,
+              "gap": 0.05896893874029335,
+              "lower": 0.4,
+              "upper": 0.6
+            },
+            {
+              "confidence": 0.7378048780487805,
+              "count": 41,
+              "expected_correct_support": 0.24393453145057767,
+              "gap": 0.49387034659820284,
+              "lower": 0.6,
+              "upper": 0.8
+            },
+            {
+              "confidence": 0.9026785714285714,
+              "count": 56,
+              "expected_correct_support": 0.31259398496240604,
+              "gap": 0.5900845864661655,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 47,
+          "label_count": 4,
+          "method": "direct",
+          "score_components": {
+            "binned_reliability": 0.048027230504036414,
+            "binned_resolution": 0.003237479378252701,
+            "uncertainty": 0.37207595458482035,
+            "valid_only_loss": 0.4582030798149219,
+            "within_bin_remainder": 0.04133737410431787
+          }
+        }
+      ],
+      "paired_ranking": [],
+      "scope": "LP03 zero-call analysis; invalid denominator retained, valid-only decomposition explicitly marked; no calibration fit"
+    },
+    "calls": 640,
+    "contrasts": {
+      "account_minus_direct": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "BENEFIT",
+        "high": -0.026608785978618422,
+        "level": 0.95,
+        "low": -0.09903014699835527,
+        "margin": 0.02,
+        "mean": -0.062112466077302635,
+        "n_clusters": 64
+      },
+      "duplicate_minus_single": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.015299583675986845,
+        "level": 0.95,
+        "low": -0.09711276212993421,
+        "margin": 0.02,
+        "mean": -0.04144501439144737,
+        "n_clusters": 64
+      },
+      "independent_minus_single": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.15104962263028057,
+        "level": 0.95,
+        "low": 0.010652227969182904,
+        "margin": 0.02,
+        "mean": 0.08035640946913963,
+        "n_clusters": 64
+      },
+      "irrelevant_minus_single": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.059609192537006576,
+        "level": 0.95,
+        "low": -0.04753126798930921,
+        "margin": 0.02,
+        "mean": 0.004707899876644734,
+        "n_clusters": 64
+      },
+      "restatement_minus_single": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.034141575863486845,
+        "level": 0.95,
+        "low": -0.08884106188322369,
+        "margin": 0.02,
+        "mean": -0.028930473889802633,
+        "n_clusters": 64
+      }
+    },
+    "controls": {
+      "all_attempts": true,
+      "cluster_weighting": true,
+      "fixed_coverage_grid": true,
+      "whole_family": true
+    },
+    "coverage": [
+      {
+        "attempts": 640,
+        "coverage": 0.8875,
+        "invalid": 72,
+        "mean_loss": 0.44419523315882137,
+        "retained": 568,
+        "threshold": 0.0
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.8875,
+        "invalid": 72,
+        "mean_loss": 0.44419523315882137,
+        "retained": 568,
+        "threshold": 0.25
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.3453125,
+        "invalid": 72,
+        "mean_loss": 0.5454191846272922,
+        "retained": 221,
+        "threshold": 0.5
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.2984375,
+        "invalid": 72,
+        "mean_loss": 0.5710552579911822,
+        "retained": 191,
+        "threshold": 0.6
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.2828125,
+        "invalid": 72,
+        "mean_loss": 0.5781766592759523,
+        "retained": 181,
+        "threshold": 0.7
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.184375,
+        "invalid": 72,
+        "mean_loss": 0.6023453529214986,
+        "retained": 118,
+        "threshold": 0.8
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.1453125,
+        "invalid": 72,
+        "mean_loss": 0.6325241263440861,
+        "retained": 93,
+        "threshold": 0.9
+      },
+      {
+        "attempts": 640,
+        "coverage": 0.0125,
+        "invalid": 72,
+        "mean_loss": 0.6375,
+        "retained": 8,
+        "threshold": 1.0
+      }
+    ],
+    "decision_regret": [],
+    "family": "LP06",
+    "kind": "scientific",
+    "main_calls": 640,
+    "multiplicity": "LP21 uses 97.5% intervals for its two primary contrasts; no p-values",
+    "scope": "Frozen source-cluster descriptive comparisons; supplied targets, restricted human exposure and native mechanism limits retained",
+    "status": "complete"
+  },
+  "analysis_sha256": "5afae801cdebda1ff31c63a0c32be426d1d33f268a57bb994335ea84b58d6122",
+  "interpretation_limits": [
+    "Frozen contrasts compare excess half-Brier loss relative to each condition-specific exact-information floor, not raw loss or a dedicated confidence-inflation interaction.",
+    "Independent evidence lowers the exact floor; increased excess loss is not evidence that new observations inherently harm raw forecasts.",
+    "Explicit same-event labels, unequal lengths outside the independent/irrelevant pair, and reused discovery histories limit common-cause and psychological interpretation.",
+    "Pooled account/direct benefit retains differing invalid rates and establishes no general method rank or human mechanism."
+  ]
+}

@@ -9,6 +9,105 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-VALIDITY-0514 - current roster, recording coverage and continuation verified
+
+**Hypothesis.** The authorized local program remains executable, its completed results remain bound to the correct inputs and reports, and the machine still has useful queued work.
+
+**METHOD.** Run all ten Stage 12 test modules; verify every current-plan manifest, input binding and source pin, and every terminal/output binding for completed local-program jobs at the fixed September 24 05:14 PDT snapshot. Reconcile each complete job with its public receipt and existing FINDINGS landing, including family-level receipts whose text does not contain individual job names. Reenter the actual saved-request/parser and producer handlers for four newly completed LP07 producers. Inspect exact native worker/coordinator/checkpoint/watcher identities, current heartbeat and raw-output ages, GPU ownership, resource limits and the next card's admission. No unfinished-family score is interpreted.
+
+This table describes operational coverage at the fixed audit snapshot; the two later delivered producers are a separate replay supplement. The six preserved original jobs lie outside the current successor-plan count and are not extra generation.
+
+| Check | Result |
+|---|---|
+| Stage 12 tests | 70 tests and 41 subtests pass across all ten modules |
+| Frozen executable plan | 326 manifests, 957 input bindings and 476 source pins verify |
+| Complete records at snapshot | 44 terminal records and 211 output hashes verify; every job maps to a public landing |
+| Successor plan at snapshot | 38 complete, one running, 287 unstarted; six additional original jobs preserved |
+| Newly completed whole family | LP06 final producer and consumer fully landed in L441 |
+| Four LP07 producers | LP07-000-a2 through LP07-003-a2 each replay all 22 calls and leave all 162 JSON files unchanged |
+| Native continuation | LP07-002-a2 active at snapshot, heartbeat and raw output under three seconds old; GPU lock matches |
+| Next authorized card | LP07-003-a2 passes resource admission and subsequently completes and replays |
+| GPU and host headroom | GPU 65 C with 1,497 MiB free; 48.79 GiB available RAM and 849.55 GiB free disk |
+| CPU constraints | Maximum 90 percent; boost disabled |
+| Monitoring | Sole watcher and original checkpoint helper verify; no recovery needed |
+
+**Found.** The queue is not exhausted. About 17,000 model requests remain across the already built roster, including branches that must still pass their own admissions. Recent LP05/LP06 timings imply roughly nineteen hours of inference, before native queue overhead and task-dependent timing; this is an estimate, not a promised completion time. The fixed snapshot plus the delivered replay supplement covers 46 completed jobs in the explicit report index. The previously apparent gaps were family-level receipt mappings, not missing scientific write-through. Original invalids, failed attempts, the overlapping-calibration VOID and the canonical-bootstrap correction remain retained. All new complete-family results have their full internal write-through; the whole LP07 comparison remains pending.
+
+**Means.** Continue the existing Gear 2 queue within its September 25 20:50 PDT cutoff. The user's conditional request for another research campaign does not activate while substantial existing tests remain. No tests harvested, agents spawned, new model calls, fits or cloud use. The September 24 06:18:46 PDT health check is independent of this user-requested audit and ordinary result ACKs; Friday September 25 and Monday September 28 reviews remain at 06:17 PDT. The exact native and watcher evidence stays private. All verification costs, including a conservative test/setup allowance, remain in the existing local ledger.
+
+**Curator roll-up.** Theory group: operational validity. Question: are completed results recorded and is useful authorized work still running? Outcome: **Infrastructure**. Result: completed records reconcile and the existing queue remains healthy. Project meaning: another research campaign is unnecessary at this checkpoint. Next engineering obligation: continue existing complete-cell landings and scheduled health/reporting, preserving all unresolved and unavailable comparisons. Public claim: unchanged. Curator decision required: No. Detail: [validity and report index](results/phase_2_4_stage_12/LOCAL_PROGRAM_VALIDITY_20260924.json).
+
+---
+
+### L441 - repeated reports versus an additional independent observation
+
+**Hypothesis.** Can a reader distinguish repeated descriptions of one event from a genuinely additional observation when predicting a maker's next choice?
+
+**METHOD.** Cross 64 constructed discovery histories with direct and account-based Qwen reading and five views: one event, a verbatim duplicate explicitly labelled as the same event, a deterministic restatement explicitly labelled as the same event, a second independently observed event under the same maker law, and irrelevant padding matched in request bytes to the independent view. Forecast the same later choice. Rebuild the source histories, all frozen requests and exact targets, verify all 476 source pins and manifest/input/prerequisite/output bindings, and reenter every saved request/parser plus all four actual producer handlers and the complete consumer. All 640 calls replay without inference; all 4,518 original JSON files remain unchanged.
+
+The primary quantity is expected half-Brier loss, half the sum of squared forecast errors, minus the exact-information floor available in that view. Lower is better. Invalid replies retain maximum loss rather than disappearing. Duplicate, restated and irrelevant views have exactly the single-event target; the independent view uses both observations. The mean exact floor is 0.265231 for the single-information views and 0.151640 for independent evidence; a uniform four-option forecast has loss 0.375. The table gives each method/view's all-attempt excess and raw loss, invalid replies and infinite logarithmic losses from missing probability support. Each row contains 64 attempts.
+
+| Reading method | Evidence view | Excess loss | Raw loss | Invalid | Infinite log loss |
+|---|---|---:|---:|---:|---:|
+| Account | Verbatim duplicate | 0.156162 | 0.421393 | 2 | 21 |
+| Account | Independent second event | 0.331796 | 0.483436 | 5 | 20 |
+| Account | Irrelevant padding | 0.222827 | 0.488058 | 6 | 28 |
+| Account | Same-event restatement | 0.200365 | 0.465596 | 3 | 22 |
+| Account | Single event | 0.254622 | 0.519853 | 9 | 24 |
+| Direct | Verbatim duplicate | 0.283494 | 0.548724 | 12 | 25 |
+| Direct | Independent second event | 0.351463 | 0.503103 | 9 | 30 |
+| Direct | Irrelevant padding | 0.309135 | 0.574365 | 11 | 22 |
+| Direct | Same-event restatement | 0.264320 | 0.529551 | 5 | 24 |
+| Direct | Single event | 0.267924 | 0.533154 | 10 | 26 |
+
+The frozen contrasts below are paired within history, then averaged within each of 64 history clusters. Intervals use the declared 4,000 bootstrap draws, fixed seed and 95% coverage; the practical margin is 0.02 excess loss. Negative differences favor the first named view or method. The method comparison pools all five evidence views. No p-values are introduced.
+
+| Contrast, first minus second | Mean excess-loss difference | 95% interval | Frozen disposition |
+|---|---:|---|---|
+| Account minus direct | -0.062112 | [-0.099030, -0.026609] | BENEFIT |
+| Duplicate minus single | -0.041445 | [-0.097113, +0.015300] | UNRESOLVED |
+| Independent minus single | +0.080356 | [+0.010652, +0.151050] | UNRESOLVED |
+| Irrelevant minus single | +0.004708 | [-0.047531, +0.059609] | UNRESOLVED |
+| Restatement minus single | -0.028930 | [-0.088841, +0.034142] | UNRESOLVED |
+
+**Found.** None of the four evidence-view contrasts establishes benefit, harm or equivalence at the frozen margin. The pooled account comparison does establish lower excess loss than direct reading on this constructed roster. The independent-minus-single interval is above zero but not wholly beyond the harm margin; its positive excess-loss difference compares different information floors. Raw loss falls descriptively while the exact floor falls farther, so this does not establish that an additional observation inherently damages prediction. All 72 invalid replies and 242 infinite logarithmic losses remain.
+
+The zero-call calibration pools the different evidence conditions. Bins partition valid replies, left-closed/right-open except the final bin; the gap is mean maximum forecast probability minus exact expected correctness of the selected option. Account has 295 valid and 25 invalid replies; direct has 273 valid and 47 invalid replies. These invalids remain in the primary comparisons.
+
+| Method | Confidence bin | Valid count | Confidence minus expected correctness |
+|---|---|---:|---:|
+| Account | [0.2, 0.4) | 123 | +0.059638 |
+| Account | [0.4, 0.6) | 78 | +0.023009 |
+| Account | [0.6, 0.8) | 32 | +0.336595 |
+| Account | [0.8, 1.0] | 62 | +0.576167 |
+| Direct | [0.2, 0.4) | 115 | +0.053799 |
+| Direct | [0.4, 0.6) | 61 | +0.058969 |
+| Direct | [0.6, 0.8) | 41 | +0.493870 |
+| Direct | [0.8, 1.0] | 56 | +0.590085 |
+
+Each threshold below retains the full 640-attempt denominator, with all 72 invalid replies excluded from retained forecasts. Loss is valid-only within the retained subset. This fixed grid describes coverage and error; it fits no threshold and licenses no abstention policy.
+
+| Confidence threshold | Retained / attempted | Retained loss |
+|---|---:|---:|
+| 0.00 | 568 / 640 | 0.444195 |
+| 0.25 | 568 / 640 | 0.444195 |
+| 0.50 | 221 / 640 | 0.545419 |
+| 0.60 | 191 / 640 | 0.571055 |
+| 0.70 | 181 / 640 | 0.578177 |
+| 0.80 | 118 / 640 | 0.602345 |
+| 0.90 | 93 / 640 | 0.632524 |
+| 1.00 | 8 / 640 | 0.637500 |
+
+The aggregate receipt retains every descriptive interval, both complete score decompositions including within-bin remainders, and the full calibration/coverage grids. No dedicated pooled-confidence inflation contrast was frozen, so the loss contrasts and descriptive calibration do not establish psychological double counting.
+
+**Means.** This is a controlled repeated-report distinction in one constructed law, with explicit same-event labels. Only the independent and irrelevant views are matched in request bytes; other view differences also change presentation length. The discovery histories overlap earlier local comparisons and provide no new independent mechanism replication. The account advantage pools views and includes differing invalid rates. It does not establish a general method ranking, internal causal reasoning, human evidence integration or a confidence-inflation mechanism. Retain all comparisons and these limits in the scheduled packets.
+
+**Operational disposition.** The final producer and whole-family consumer receive this complete internal landing. LP07 continues in Gear 2; the accompanying validity inspection records actual native progress, resources and watcher health. Verification is charged within the existing local ledger. The September 25 20:50 PDT cutoff, original Friday/Monday reviews and September 24 06:18:46 PDT health deadline remain. No new tests harvested, model calls, fits, cloud use or delegation.
+
+**Curator roll-up.** Theory group: updating and evidence dependence. Question: does a reader distinguish repeated reports from an independent observation? Outcome: **Narrows**. Result: evidence-view contrasts remain unresolved while account-based reading improves the pooled comparison. Project meaning: these loss contrasts do not establish a common-cause or confidence-inflation mechanism. Next engineering obligation: preserve the condition-specific reference floors, invalids and complete comparisons in the scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [complete repeated-evidence comparison](results/phase_2_4_stage_12/LOCAL_PROGRAM_REPEATED_EVIDENCE.json).
+
+---
+
 ### OPS-S12-LP06-THIRD-PRODUCER - repeated-evidence requests preserved and continuation live
 
 **Hypothesis.** A completed producer comparing repeated reports with additional evidence can be verified without interpreting an unfinished family.
