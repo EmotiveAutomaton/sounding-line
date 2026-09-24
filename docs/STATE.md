@@ -1,5 +1,21 @@
 # STATE: the agent's operational file
 
+## Four-hour local queue inspection - September 24, 06:20 PDT
+
+OPS-S12-LOCAL-HEALTH-0620 verifies native identities, fresh output, GPU lock,
+resource/cooling limits, ledger admission, sources, manifests, inputs and watcher
+health. LP07-035-a2 is active at inspection; LP07-036-a2 is eligible next.
+No new failure or recovery need. Completed producers 031-034 each replay all
+22 calls and their full handler with all 162 original JSON files unchanged.
+Delayed 026/027/028 notices match their published landings.
+
+Whole LP07 remains incomplete with three previously inspected invalid-selection
+histories; its complete-only primary consumer remains unavailable. Independent
+frozen work continues in Gear 2 with original costs, cutoff and Friday/Monday
+packets preserved. No tests harvested or new scope. All inspected events are
+acknowledged after full write-through. The next health check is September 24
+at 10:26:38 PDT; ordinary result ACKs do not defer it.
+
 ## Questioning producer inspection - September 24, 06:13 PDT
 
 OPS-S12-LP07-PRODUCERS-028-030 lands all three complete producers, each with

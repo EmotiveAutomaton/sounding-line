@@ -2,6 +2,7 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LOCAL-HEALTH-0620: full four-hour health inspection passes without recovery; producers 031-034 replay unchanged, delayed 026/027/028 reconcile, and operational write-through is complete. Continue the existing independent cards and preserve incomplete-family accounting.
 - [x] OPS-S12-LP07-PRODUCERS-028-030: all three complete producers replay with original records unchanged; bindings, native continuation/monitoring and delayed complete 021/023 plus failed 022 reconciliation verified; full operational write-through complete.
 - [x] OPS-S12-LP07-PRODUCERS-026-027: both complete producers replay with all bindings and files unchanged; live continuation/monitoring and delayed 014/015 reconciliation verified; full operational write-through complete.
 - [x] OPS-S12-LP07-THIRD-SELECTION-FAILURE: complete producers 021/023/024/025 and failed 022 prefix/guard replay; all bindings, charges, native continuation and full operational write-through complete. Delayed 010/011/012/013 notices reconciled.

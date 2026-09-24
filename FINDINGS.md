@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-HEALTH-0620 - four-hour queue inspection and completed evidence preservation
+
+**Hypothesis.** The authorized local queue can continue within its resource and evidence bounds, while completed records and delayed delivery remain recoverable without duplicate generation.
+
+**METHOD.** Inspect exact native coordinator, worker, model-service, watcher and checkpoint identities; heartbeat and raw-output freshness; GPU ownership/lock, memory, temperature, CPU power limits and all failure receipts. Verify all 476 source pins, 326 manifests and 957 input bindings, then check the next card's prerequisites and resource admission against the actual ledger. Reenter every saved request/parser and full handler for completed producers LP07-031-a2 through LP07-034-a2, comparing original JSON hashes. Reconcile delayed 026/027/028 notices against their published manifest/terminal hashes. Verify loaded watcher source, fresh scans, transition registration and the due four-hour event before ACK.
+
+The table records operational validity and available capacity at the inspection, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 031 through 034 | All 22 calls and the full handler replay for each; all 162 JSON files per producer remain unchanged |
+| Delayed notices 026, 027 and 028 | Exact hashes match their already published landings; no repeated generation |
+| Native execution and next work | LP07-035-a2 progresses with matching GPU ownership and output younger than four seconds; LP07-036-a2 passes prerequisites and admission |
+| Source and input closure | All frozen sources, manifests and input references verify |
+| Failures | The same three previously inspected invalid-selection histories; no new failure or harness defect |
+| Device and host capacity | GPU has 1,490 MiB free at 64 degrees C; the resident profile passes admission; host memory and disk have ample headroom |
+| Cooling and budget | CPU maximum remains 90 percent with boost disabled; actual charges fit the original local envelope and protected reserve |
+| Monitoring | Watcher identity, loaded source and fresh scan verify; checkpoint helper is fresh; historical uncertain delivery remains preserved beside observed owner wakes |
+
+**Found.** Gear 2 is healthy and authorized work remains runnable. Completed producers replay unchanged and delayed notices match their records. No recovery, retry, process restart or source change is required.
+
+**Means.** Continue the frozen independent cards. Whole LP07 remains incomplete and its complete-only consumer unavailable; successful survivors cannot replace the three failed histories. Preserve all costs, original cutoff and Friday/Monday packets. Acknowledge this health event only after this write-through, then record its newly armed four-hour deadline. No tests harvested, new research, fits, cloud calls or delegation.
+
+**Curator roll-up.** Theory group: operational validity. Question: can authorized local work continue with its evidence and resource bounds intact? Outcome: **Infrastructure**. Result: native execution, capacity, evidence replay and monitoring verify. Project meaning: the existing queue continues while its incomplete-family deficit stays explicit. Next engineering obligation: keep landing completed records and perform the next scheduled health inspection. Public claim: unchanged. Curator decision required: No. Detail: [health and producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_0620.json).
+
+---
+
 ### OPS-S12-LP07-PRODUCERS-028-030 - completed evidence and delayed failure notice reconciled
 
 **Hypothesis.** Complete independent histories remain replayable, and delayed delivery of an already inspected failure does not trigger a duplicate attempt or lose its evidence deficit.

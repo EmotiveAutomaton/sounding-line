@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 06:05 PDT: three inspected questioning
+Current health inspection, September 24 at 06:20 PDT: Gear 2 is progressing,
+resource limits and next-job admission pass, and no new failure or recovery is
+needed. Producers 031-034 replay unchanged; delayed notices match published
+records. Whole LP07 remains incomplete with its three retained failed histories.
+[Health inspection](LOCAL_PROGRAM_HEALTH_0620.json) records the full operational
+checks. All inspected events are acknowledged after write-through; next health
+check is September 24 at 10:26:38 PDT. Original packet dates remain.
+
+Earlier continuation, September 24 at 06:05 PDT: three inspected questioning
 histories retain invalid selections and missing dependent slots. Four more
 complete producers replay unchanged, and Gear 2 independent continuation and
 monitoring verify. Whole LP07 remains incomplete; no retry or source repair.

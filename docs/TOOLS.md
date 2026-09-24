@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LOCAL-HEALTH-0620: four-hour native/progress/failure/lock/resource/admission/delivery inspection passes without recovery. All 476 source pins, 326 manifests and 957 input bindings verify. Complete producers 031-034 each replay all 22 calls and their full handler with all 162 original JSON files unchanged; delayed 026/027/028 notices match published records. The same three invalid-selection histories remain; the complete-only LP07 consumer is unavailable. Gear 2 and original study limits remain. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_0620.json).
+
 OPS-S12-LP07-PRODUCERS-028-030: all three complete producers replay every actual saved request/parser and full handler, each with 22 calls and all 162 JSON files unchanged. Bindings, native continuation and monitoring verify. Delayed complete 021/023 and failed 022 notices match the published third-failure receipt. No repair, retry or restart; whole LP07 remains incomplete.
 
 OPS-S12-LP07-PRODUCERS-026-027: both complete producers replay every saved request/parser and full handler, each with 22 calls and 162 JSON files unchanged. Source/input/prerequisite/output bindings, live continuation and monitoring verify. Delayed 014/015 notices match the published departure receipt. No code change, retry or duplicate generation; whole LP07 remains incomplete.

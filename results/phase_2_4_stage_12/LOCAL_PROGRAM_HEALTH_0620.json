@@ -1,0 +1,120 @@
+{
+  "landing": "OPS-S12-LOCAL-HEALTH-0620",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:20:04.154911+00:00",
+  "gear": 2,
+  "completed_producers": {
+    "LP07-031-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "1a83ab3829361dd5862275af6d99e9810ebb9fba26467aef95a770871d0d4231",
+      "source_pins_verified": 476,
+      "terminal_sha256": "fa5dd6d2fa5228fbd15d6e253742602d797aaad4a43edca3d5a4ade25f76abf4"
+    },
+    "LP07-032-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "2ca9690dda76341fc797adecc67f1535cb3baecb664afeb4dbd3da64bb32f611",
+      "source_pins_verified": 476,
+      "terminal_sha256": "ea7c53825a41cf7ebae058203e98c557ac200f38df1e8ffc0969e880ce04046c"
+    },
+    "LP07-033-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "f5d66f8e236b81ea9f95ead4b488cd738eaca95b766a7c1f86430f2666198bac",
+      "source_pins_verified": 476,
+      "terminal_sha256": "ad8b011f3fec4c5a0c3843fa4eb8226438d09eb391930fe4a7b8c4fb3008211b"
+    },
+    "LP07-034-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "7a8f5159de7ce4638e31a586af7f907255674fa13606c50bf6867900fabdad36",
+      "source_pins_verified": 476,
+      "terminal_sha256": "f673dbe4ad51417ff78189801db187d81862d97c238087963986bfc29c9f7579"
+    }
+  },
+  "delayed_notices_reconciled": [
+    "LP07-026-a2",
+    "LP07-027-a2",
+    "LP07-028-a2"
+  ],
+  "all_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "source_pins": 476,
+  "manifests": 326,
+  "input_checks": 957,
+  "active_job": "LP07-035-a2",
+  "next_runnable": "LP07-036-a2",
+  "next_admission_passed": true,
+  "native_worker_coordinator_gpu_owner_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 3.374868,
+  "raw_output_age_seconds": 3.4666433334350586,
+  "gpu_capacity_ready": true,
+  "gpu_free_MiB": 1490.0,
+  "gpu_temperature_C": 64.0,
+  "free_host_GiB": 46.48325729370117,
+  "free_disk_GiB": 846.2414093017578,
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "charges": {
+    "cpu_seconds": 30190.479410550557,
+    "diagnostic_gpu_seconds": 45.88449860003311,
+    "gpu_seconds": 30773.049913999974,
+    "host_cpu_seconds": 61546.09982799995
+  },
+  "current_failed_histories": [
+    "LP07-009-a2",
+    "LP07-011-a2",
+    "LP07-022-a2"
+  ],
+  "new_failure": false,
+  "watcher_native_loaded_source_and_fresh_scan_verified": true,
+  "watcher_scan_error": null,
+  "historical_uncertain_notification_retained": true,
+  "actual_owner_wake_observed": true,
+  "checkpoint_native_freshness_verified": true,
+  "health_interval_seconds": 14400,
+  "health_ack_pending": false,
+  "recovery": "none required",
+  "verification_charges": [
+    {
+      "at": "2026-09-24T13:18:01.799684+00:00",
+      "cpu_seconds": 0.515625,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Query producers 031/032 replay and delayed notice reconciliation",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-24T13:24:34.480577+00:00",
+      "cpu_seconds": 0.34375,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Query producers 033/034 completed request and handler replay",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-24T13:20:04.153753+00:00",
+      "cpu_seconds": 6.46875,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Four-hour operational health inspection",
+      "status": "complete"
+    }
+  ],
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "scope": "Operational health and completed-producer preservation only. Whole LP07 remains incomplete; no survivor-subset primary consumer, retry or source change. Original allocation, cutoff and Friday/Monday packets remain.",
+  "all_inspected_events_acknowledged_after_write_through": true,
+  "next_health_utc": "2026-09-24T17:26:38.513094+00:00",
+  "next_health_local": "2026-09-24T10:26:38.513094-07:00"
+}
