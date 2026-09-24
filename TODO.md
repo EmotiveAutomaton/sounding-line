@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP02-THIRD-PRODUCER: verify all 180 calls and actual handler replay without dispatch or file changes, source/input/terminal bindings and native continuation; operational write-through complete. Three of five producers complete; whole LP02 family remains pending.
+
 - [x] OPS-S12-LP02-SECOND-PRODUCER: verify all 180 calls and actual handler replay without dispatch or file changes, source/input/terminal bindings and native continuation; operational write-through complete. Whole LP02 family remains pending.
 
 - [x] OPS-S12-LOCAL-PROGRAM-REPAIR: reconcile delayed admission, correct prospective admission dispatch and overlapping calibration bins; both original faults reproduced, 64 tests and all 22,832 synthetic slots pass. Preserve originals and the intentionally cancelled first handoff; correct only separately frozen successors under the same ledger/cutoff.
