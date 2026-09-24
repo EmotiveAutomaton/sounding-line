@@ -1,13 +1,16 @@
 # STATE: the agent's operational file
 
-## Local continuation after mechanical repair - September 23, 23:21 PDT
+## Local continuation after mechanical repair - September 23, 23:32 PDT
 
 The complete LP02 comparison is internally landed in L438: all 768 calls,
 five producers and the whole-family consumer replay with all 5,422 JSON files
 unchanged. Frozen source reconstruction, independent copying checks and
 calibration partition verify; every invalid and frozen contrast is retained.
-LP04-000-a2 is advancing with fresh outputs and verified native identity.
-No new failure or recovery need. The broader local program remains unfinished;
+The first LP04 producer completes: all 168 calls and saved-reply dependencies
+replay with every JSON unchanged. OPS-S12-LP04-FIRST-PRODUCER records this
+operational inspection; one of sixteen producers is complete. LP04-001-a2 is
+advancing with fresh outputs and verified native identity. No new failure or
+recovery need. The broader local program remains unfinished;
 four-hour timing and final-packet reporting are unchanged.
 
 Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`
