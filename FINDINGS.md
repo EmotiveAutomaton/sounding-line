@@ -9,6 +9,147 @@ ran it.
 
 ---
 
+### OPS-S12-ADDENDUM-CLOUD-TIMEOUT - incomplete main retained without retry
+
+**Hypothesis.** The admitted capable-reader pilot's bounded timing allowance may fail to cover a longer main response even while whole-job budget remains.
+
+**METHOD.** Reconstruct the exact main payload, verify its reservation and archive inventory, and replay the retained prefix's actual wire requests, runtime identities and raw records. The existing strict row verifier receives an in-memory prefix envelope only after checking the original full-payload binding; the original FAILED terminal remains unchanged. Inspect the unreturned request, remote error/server log, cancellation, exact native exit and fresh provider app state. Do not score or promote an incomplete main.
+
+The table reports execution disposition, not scientific performance or invoiced spend.
+
+| Check | Evidence |
+|---|---|
+| Main request disposition | 87 returned, one request without a returned response, 71 unstarted, of 159 |
+| Actual failure | Remote per-request timeout; local terminal validator correctly refuses the FAILED archive |
+| Timing | Pilot maximum 37.630 seconds; main allowance 56.445 seconds per call, with 41.445 seconds effective HTTP timeout after the fixed margin |
+| Shutdown | Remote owner ended; native controller exited; Modal reports the exact app stopped |
+| Accounting | Full $6.66 main reservation retained; aggregate reservations $12.66, not a settled invoice |
+| Downstream | No complete main or combined payload; the frozen primary consumer remains unstarted |
+
+**Found.** The main timed out during a longer response despite unused whole-job capacity. The archive and all returned raw records verify; no response exists for the interrupted request. Pilot literal admission did not establish sufficient latency coverage for the main. The archive validator's generic local error does not change the underlying remote timeout.
+
+**Means.** Preserve the partial evidence, unknown response, original failed pilot and every reservation. The authorized revision permits no automatic second repair or paid retry. The main human-history comparison remains unavailable for the scheduled packet; missing coverage is not a scientific null. No billing/login reconfirmation or new dispatch follows this wake.
+
+**Curator roll-up.** Theory group: reader instrumentation. Question: can the admitted pilot's timing support the whole human-history comparison? Outcome: **Infrastructure**. Result: the main remains incomplete after a per-request timeout. Project meaning: literal pilot success does not establish complete main coverage. Next engineering obligation: retain all evidence and charges and make the unavailable comparison explicit in the packet; no automatic repair. Public claim: unchanged. Curator decision required: No for current preservation and reporting; any further paid attempt would need a separately reviewed authorization. Detail: [timeout reconciliation](results/phase_2_4_stage_12/ADDENDUM_CLOUD_TIMEOUT_INSPECTION.json).
+
+---
+
+### L434 - complete additional-paper correspondence comparison
+
+**Hypothesis.** A coherent account improves correspondence between a review request and a recorded edit beyond direct reading and a matched lexical ranking control.
+
+**METHOD.** Complete the frozen sixteen additional ARIES papers, one comment and one explicit positive/negative pair per paper, crossed with direct/account reading and both supplied-pair question formulations. Replay all 128 calls and all sixteen scoring handlers, then the unchanged whole-family ranking and weighting consumer. Retain the four previously exposed papers separately and compute the declared descriptive combination. All source, request, output and earlier-result bindings verify; no inference is repeated.
+
+Each row contains 32 balanced examples from sixteen papers. Probability error is mean half-Brier loss, lower is better; uniform error is 0.25. Hard accuracy is the fraction with the correct highest-probability label. Model and lexical ranking are mean positive-over-negative concordance on exactly the same sixteen pairs: one is correct, one half a tie, zero reversed. Edit and Request are question formulations over the same evidence. Infinite losses count zero support on a required label, retained separately from finite error.
+
+| Method | Formulation | Probability error | Hard accuracy | Model ranking | Lexical ranking | Infinite losses |
+|---|---|---:|---:|---:|---:|---:|
+| Account | Edit | 0.244149 | 0.6875 | 0.78125 | 0.6875 | 1 |
+| Account | Request | 0.193330 | 0.7812 | 0.93750 | 0.6875 | 0 |
+| Direct | Edit | 0.139961 | 0.8438 | 0.84375 | 0.6875 | 2 |
+| Direct | Request | 0.143529 | 0.8438 | 0.84375 | 0.6875 | 1 |
+
+This table retains both predeclared weightings. Every value is half-Brier error. Paper weighting averages each paper first; pair weighting averages examples. The populations contain 32, 19 and 51 examples per method/formulation respectively. Earlier exposed records remain development evidence; their combination is descriptive, not a new confirmation population.
+
+| Population | Formulation | Papers | Direct, paper weight | Account, paper weight | Direct, pair weight | Account, pair weight |
+|---|---|---:|---:|---:|---:|---:|
+| Additional | Edit | 16 | 0.139961 | 0.244149 | 0.139961 | 0.244149 |
+| Additional | Request | 16 | 0.143529 | 0.193330 | 0.143529 | 0.193330 |
+| Earlier exposed | Edit | 4 | 0.189828 | 0.172913 | 0.205838 | 0.218985 |
+| Earlier exposed | Request | 4 | 0.188614 | 0.225944 | 0.199308 | 0.244962 |
+| Combined descriptive | Edit | 20 | 0.149934 | 0.229902 | 0.164503 | 0.234774 |
+| Combined descriptive | Request | 20 | 0.152546 | 0.199853 | 0.164309 | 0.212566 |
+
+**Found.** Direct reading has lower probability error and higher hard accuracy under both formulations on the complete additional-paper roster. The account ranks pairs better under the Request formulation despite worse probability error. All 128 outputs are literal-valid; four logarithmic losses remain infinite. Each model/formulation aggregate ranks above the matched lexical control descriptively. The combined paper and pair weightings retain lower direct loss in both formulations; the earlier exposed paper-weighted Edit comparison still favors the account.
+
+**Means.** Probability quality, classification and pair ranking answer different questions. The complete roster does not support an account probability-loss advantage on this interface, and it preserves the earlier weighting sensitivity rather than replacing it. Annotation balancing does not estimate natural prevalence; author/pretraining dependence remains unknown, and a supplied request/edit link does not establish private purpose, adoption or edit generation. L432 remains the original partial-roster landing, superseded for roster-wide interpretation by this complete consumer.
+
+**Curator roll-up.** Theory group: historical correspondence. Question: does a coherent account improve request/edit correspondence? Outcome: **Narrows**. Result: direct reading has lower probability error under both formulations on the complete additional-paper roster. Project meaning: account ranking gains need not be probability-quality gains. Next engineering obligation: retain the separate populations, all losses and cheap controls in the scheduled packet. Public claim: unchanged. Curator decision required: No. Detail: [complete local replay](results/phase_2_4_stage_12/ADDENDUM_LOCAL_COMPLETE_INSPECTION.json).
+
+---
+
+### L435 - complete saved-answer revision comparison
+
+**Hypothesis.** Access to the exact earlier reply helps a reader revise usefully when diagnostic evidence arrives, beyond unchanged rereading and equally long irrelevant material.
+
+**METHOD.** Complete all eight frozen histories in the existing constructed law, with alternating truthful/contradicted public frames. For direct and account methods, preserve the initial raw reply and compare saved-reply versus fresh reads at unchanged, diagnostic and length-matched irrelevant snapshots. Replay every actual request, all 112 raw responses, eight handlers and the 48-pair consumer against independently checked later targets. Initial replies, invalid penalties and all timing/cost records remain. Frame strata contain different histories and are not an isolated within-history truth manipulation.
+
+Each row averages eight paired histories, keeping all attempts. Excess error is half-Brier loss minus the exact reference at the identical later snapshot. Positive fresh-minus-saved error favors the saved reply. Both-valid counts are descriptive; invalid pairs remain in every primary error denominator. The unchanged/irrelevant floor is 0.273750; the mean diagnostic floor is approximately 0.071250. Uniform error is 0.375 throughout.
+
+| Method | Later evidence | Fresh excess error | Saved excess error | Fresh minus saved error | Both valid / paired histories |
+|---|---|---:|---:|---:|---:|
+| Direct | Unchanged | 0.100405 | 0.115405 | -0.015000 | 8/8 |
+| Direct | Diagnostic | 0.480275 | 0.297257 | 0.183018 | 8/8 |
+| Direct | Irrelevant | 0.104609 | 0.187969 | -0.083359 | 7/8 |
+| Account | Unchanged | 0.177500 | 0.111797 | 0.065703 | 8/8 |
+| Account | Diagnostic | 0.287500 | 0.364925 | -0.077425 | 8/8 |
+| Account | Irrelevant | 0.273125 | 0.260547 | 0.012578 | 5/8 |
+
+These diagnostic strata each contain four histories. Errors are unadjusted half-Brier loss; the contrast remains within identical evidence for each history, while differences between frame strata also include history content.
+
+| Frame stratum | Method | Fresh diagnostic error | Saved diagnostic error | Fresh minus saved error |
+|---|---|---:|---:|---:|
+| True | Direct | 0.728050 | 0.179375 | 0.548675 |
+| True | Account | 0.421875 | 0.326725 | 0.095150 |
+| False | Direct | 0.375000 | 0.557640 | -0.182640 |
+| False | Account | 0.295625 | 0.545625 | -0.250000 |
+
+Each row below contains eight diagnostic updates. Corrections/damage count a change from wrong to right/right to wrong relative to the later target using the frozen first-maximum modal rule. Movement is the mean reduction in total-variation distance from that target relative to the original reply, positive is improvement. These are different from the same-snapshot saved/fresh comparison above.
+
+| Method | Mode | Diagnostic corrections | Diagnostic damage | Mean movement toward later target | Infinite diagnostic losses |
+|---|---|---:|---:|---:|---:|
+| Direct | Fresh | 2 | 4 | -0.055625 | 6 |
+| Direct | Saved | 2 | 1 | 0.103125 | 3 |
+| Account | Fresh | 4 | 2 | 0.165625 | 3 |
+| Account | Saved | 1 | 0 | 0.052500 | 3 |
+
+**Found.** Saved replies lower pooled direct diagnostic error but raise account diagnostic error. In the truthful-frame stratum they help both methods; in the false-frame stratum they hurt both. This is a content-dependent contrast, not an identified effect of frame truth. Unchanged and irrelevant controls also change answers. Four irrelevant-condition outputs are invalid and retain their penalty. There are 36 infinite-loss flags across the 112 calls, including those four invalid penalties; valid forecasts can also omit required support. All sixteen initial replies are valid. The full receipt retains every initial/later score, movement, correction and damage.
+
+**Means.** Supplying an earlier answer can help preserve useful information or impede correction. Neither answer movement nor a coherent account establishes a reliable updating mechanism. The complete result narrows the first two-history observation in L433: direct benefit is not universal across the larger roster or frame strata. Same-law histories, explicit quoted replies and fixed interfaces do not identify psychological anchoring, hidden persistent state or human revision.
+
+**Curator roll-up.** Theory group: updating and correction. Question: does an earlier reply improve later evidence use? Outcome: **Narrows**. Result: saved-answer benefit changes with method and history stratum. Project meaning: useful correction must be distinguished from answer preservation and irrelevant-text sensitivity. Next engineering obligation: retain all paired conditions, support failures and content-dependence in the scheduled packet. Public claim: unchanged. Curator decision required: No. Detail: [complete local replay](results/phase_2_4_stage_12/ADDENDUM_LOCAL_COMPLETE_INSPECTION.json).
+
+---
+
+### L436 - complete supplied-answer binding controls
+
+**Hypothesis.** A reader that copies a supplied answer should preserve it under irrelevant or invertible presentation changes, while copying a deliberately wrong answer should preserve fidelity and worsen task prediction.
+
+**METHOD.** Complete four exposed constructed histories, two queries each, with canonical copying, identical repeat, reversed bank order, permuted labels with exact inverse, an irrelevant bank entry and a wrong supplied answer. Replay all 48 raw calls, four handlers and the frozen consumer; measure literal fidelity separately from probability loss against the actual task. Independent references and known wrong-answer separation remain intact. No new model inference is made during inspection.
+
+Every row contains eight history/query pairs. Valid means literal probability validity; copied means exact supplied-vector fidelity within the fixed tolerance. Task error is half-Brier loss against the actual target, lower is better; excess subtracts the exact-reference mean 0.076517. Uniform error is 0.375. The wrong-vector condition is intentionally supplied incorrect assistance.
+
+| Condition | Valid / attempted | Copied supplied answer / attempted | Task probability error | Excess exact-reference error |
+|---|---:|---:|---:|---:|
+| Canonical | 7/8 | 7/8 | 0.190016 | 0.113499 |
+| Identical repeat | 7/8 | 7/8 | 0.190016 | 0.113499 |
+| Reversed bank order | 8/8 | 8/8 | 0.076517 | 0.000000 |
+| Permuted labels | 7/8 | 6/8 | 0.293858 | 0.217342 |
+| Irrelevant bank entry | 8/8 | 7/8 | 0.177767 | 0.101250 |
+| Wrong supplied answer | 8/8 | 8/8 | 0.875882 | 0.799365 |
+
+**Found.** Reversed bank order and wrong supplied answers are copied throughout. The deliberately wrong answers produce high task error despite perfect fidelity, so that null fires in the expected direction. Canonical copying and its repeat each retain an invalid output; label permutation includes an invalid and a valid copying error, and the irrelevant entry also induces a valid copying error. Forty-five of 48 responses are literal-valid and 43 preserve their supplied vector. The three invalids carry infinite-loss flags and maximum finite penalties. Correct-bank performance can reach the displayed reference floor but is not invariant across conditions.
+
+**Means.** Faithful execution and task correctness are separate properties, and even literal lookup is content/presentation dependent. The complete binding controls extend L430's execution diagnosis without promoting supplied answers into learned maker reconstruction. Repeated requests and exposed histories are not independent population evidence or human mechanisms.
+
+**Curator roll-up.** Theory group: execution and assistance. Question: does supplied-answer fidelity survive presentation changes and remain distinct from task accuracy? Outcome: **Narrows**. Result: wrong supplied answers are copied faithfully while task prediction worsens. Project meaning: execution fidelity cannot substitute for inference quality, and lookup itself can fail. Next engineering obligation: retain null, presentation errors and assistance scope in the scheduled packet. Public claim: unchanged. Curator decision required: No. Detail: [complete local replay](results/phase_2_4_stage_12/ADDENDUM_LOCAL_COMPLETE_INSPECTION.json).
+
+---
+
+### OPS-S12-ADDENDUM-LOCAL-CLOSE - finite local roster complete
+
+**Hypothesis.** The approved finite local roster can finish with complete records, released ownership and monitoring retained for the original reporting dates.
+
+**METHOD.** Verify all 28 local generation cards and three family consumers by actual-handler/raw replay with dispatch disabled. Reconcile the coordinator's normal exit and deferred cloud consumer, exact native worker absence, released GPU lock, original charges, prior failed attempts, watcher/checkpoint identities and delivery state. Reconcile the delayed capacity/warm-up notices against their already landed hashes. No new test is harvested from this wake.
+
+**Found.** All 288 local scientific calls and three consumers complete and replay without changing original files. The local queue exits normally at September 23 19:18 PDT; its only deferred card requires the incomplete cloud retrieval. Local workers and both local/cloud coordinators have exited. GPU ownership is released; current GPU temperature is 45 C. Cumulative local accounting is about 37,103 CPU-process seconds, 7,345 GPU-service seconds and 382 diagnostic-GPU seconds, below original ceilings with reporting reserves intact. All 25 earlier failed attempts remain verified. Watcher and original checkpoint helper remain healthy; only the two verified exited process watches were retired, retaining terminal paths, events and the independent health deadline.
+
+**Means.** Gear 2 remains the authorized allocation, but this finite local roster is complete. No additional generation follows merely because it finished early. Preserve the cloud timeout and unavailable main comparison alongside complete local evidence. Interim review remains Friday September 25 at 06:17 PDT and final review Monday September 28 at 06:17 PDT; the next four-hour health inspection remains September 23 at 22:08:43 PDT.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: are completed records and native ownership reconciled? Outcome: **Infrastructure**. Result: all 288 local scientific calls replay exactly. Project meaning: finite local completion is distinct from the unavailable cloud comparison and the remaining packet obligations. Next engineering obligation: retain four-hour monitoring and prepare original review packets without new generation. Public claim: unchanged. Curator decision required: No. Detail: [local closure inspection](results/phase_2_4_stage_12/ADDENDUM_LOCAL_CLOSE_INSPECTION.json).
+
+---
+
 ### OPS-S12-ADDENDUM-LOCAL-START - local admission and retained warm-up complete
 
 **Hypothesis.** The approved local roster can proceed once actual GPU headroom and a single retained warm-up satisfy the unchanged admission rules.

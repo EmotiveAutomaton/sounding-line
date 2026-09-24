@@ -642,6 +642,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Budget a whole invocation and validate its effective request deadline separately.**
+  The Stage 12 revised pilot admitted a larger output cap, but the main used
+  1.5 times the observed pilot maximum minus a fixed transport margin. A longer
+  response exceeded that effective deadline while whole-job capacity remained.
+  Pilot literal validity is not tail-latency coverage; inspect the complete
+  output-cap/throughput/deadline relationship before freezing a future interface.
+  Preserve the failed request, partial archive and full reservation; unused budget
+  does not authorize a retry or a changed gate. (OPS-S12-ADDENDUM-CLOUD-TIMEOUT)
+
 - **Cold-load estimates and resident allocation are different admission states.**
   Stage 12 subtracted reported resident bytes from a conservative cold estimate
   and demanded extra model memory after the exact context was fully on the GPU.

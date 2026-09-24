@@ -4,37 +4,33 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current execution, September 23 evening: all approved A-E addendum work is built
-and frozen. The 35-card local Gear 2 plan is live, with 288 scientific requests
-across sixteen additional human papers, eight saved-answer revision histories
-and four answer-binding histories. Capacity admission and the single retained
-warm-up have completed; local comparison blocks are running. The first five
-additional paper cells and first two saved-reply histories replay exactly and
-are internally landed in L432/L433, with all controls and support failures.
-Their larger families remain unfinished. No application stop was needed.
+Current execution, September 23 at 19:23 PDT: the finite local Gear 2 addendum
+has completed all 288 scientific calls and all three whole-family consumers.
+Every generation and consumer handler replays exactly; L434-L436 internally land
+the complete additional-paper, saved-reply revision and answer-binding comparisons.
+All original records, controls, invalids and failed attempts remain. Local workers
+and coordinator exited normally, with the GPU lock released.
 
-The revised Modal pilot passes complete literal and archive replay. Its authorized
-159-request main is now running, independently of local GPU readiness. Aggregate
-reservations are $12.66 including both pilots; the $20 cap and $1 protected reserve
-remain. This is reserved cost, not a settled invoice. The main reservation expires
-around September 23 at 21:30 PDT; an earlier completion/failure wakes the owner.
-No unfinished scientific score is reported.
+The revised cloud pilot passed, but the main stopped on a per-request timeout:
+87 returned replies, one request without a response, and 71 unstarted requests.
+The complete archive and retained prefix verify; the provider app and native
+controller are stopped. The full $6.66 main reservation remains, with $12.66
+aggregate reservations within the approved $20 cap. These are reservations, not
+a settled invoice. The main human-history comparison is incomplete and its
+complete-only CPU consumer remains unstarted. No automatic second repair or paid
+retry is authorized; early local completion creates no extra generation scope.
 
-All 54 Stage 12 tests, 288-slot actual-handler fake replay and 21 locks pass.
-Four source compilers replay. The zero-call audit is internally landed in L431:
-all 88 preceding completed records, all 25 preceding failed attempts, unchanged
-original scores, a labelled complete-pair sensitivity and eight interpretation
-roles. Both audit attempts and the corrected inventory omission remain.
-Original failed attempts, shared-fit limits and reporting reserves are unchanged.
+All 54 Stage 12 tests and the original 288-slot fake rehearsal passed at setup;
+the final actual local replay also passes, as do all 21 locks and theory lint.
+Original CPU/GPU ceilings and reporting reserves remain intact. The zero-call
+audit is landed in L431, and the initial complete local cells remain in L432/L433.
+Gear 2 remains the authorized allocation, with the finite local roster complete.
 
-The next independent health check is September 23 at 22:08:43 PDT. Completion
-and failure signals are registered separately. New execution stops at September
-25 at 18:03:54 PDT; the Thursday 22:00 generation target is conditional on resources.
-Interim review remains Friday September 25 at 06:17 PDT, with any unfinished work
-explicit. Original final review remains Monday September 28 at 06:17 PDT.
-See docs/design/STAGE12_ADDENDUM_IMPLEMENTATION.md and the Stage 12 addendum
-setup, audit, cloud-pilot and ADDENDUM_LOCAL_BATCH1_INSPECTION.json receipts.
-The finite local roster continues; no extra generation follows early completion.
+The independent health check remains September 23 at 22:08:43 PDT. Original
+checkpoint monitoring remains active. Interim review is Friday September 25 at
+06:17 PDT and final review Monday September 28 at 06:17 PDT, with the cloud deficit
+explicit. See ADDENDUM_LOCAL_COMPLETE_INSPECTION.json, ADDENDUM_LOCAL_CLOSE_INSPECTION.json
+and ADDENDUM_CLOUD_TIMEOUT_INSPECTION.json in the Stage 12 results folder.
 
 Historical completed-continuation snapshot:
 

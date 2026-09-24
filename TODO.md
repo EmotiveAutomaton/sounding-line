@@ -9,7 +9,10 @@
 - [x] OPS-S12-ADDENDUM-CLOUD-PILOT: fully replay and land revised literal pilot admission; approved bounded main now active, original failed pilot retained.
 - [x] OPS-S12-ADDENDUM-LOCAL-START: capacity admission and one retained warm-up complete; actual raw/handler replay and native continuation verify. Original canary unchanged.
 - [x] L432/L433: first five additional paper cells and first two saved-reply histories fully replayed and internally landed; 68 scientific calls plus warm-up verify without redispatch or file changes. All rivals, support failures and paired later-target controls retained.
-- [ ] S12 addendum B-E: local Gear 2 comparisons and the separately gated cloud main are active. Finish the frozen roster and whole-family consumers; preserve invalids, original failed pilot, two-day cutoff and original packets. No unfinished family verdict.
+- [x] L434/L435/L436 / addendum B-D: all 288 calls, 28 local cards and three complete-family consumers replay and land internally; original files, invalids, controls and all costs retained.
+- [x] OPS-S12-ADDENDUM-CLOUD-TIMEOUT: archive/prefix replay and provider/native shutdown verify; 87 replies retained, one unknown response and 71 unstarted requests. Full reservation preserved; no scientific promotion or paid retry.
+- [x] OPS-S12-ADDENDUM-LOCAL-CLOSE: normal finite queue exit, native exits, released GPU lock, original limits, prior failures and monitoring verify; delayed admission notices reconciled.
+- [ ] S12 addendum E/reporting: the complete main prerequisite is unavailable, so its frozen primary consumer remains unstarted. Include this deficit and all local whole-family results in the original Friday/Monday packets. No automatic second repair, paid retry or extra local generation follows early completion.
 - [x] OPS-S12-HEALTH-1805: verify 88 completed records, native monitor freshness, prior failures, released locks and resources. Cold GPU admission currently refuses; prepare approved successors and repeat readiness before dispatch.
 
 - [x] OPS-S12-EXECUTION-SETUP: complete the scoped successor review, preserve all prior records, freeze the supplied-answer and offline law-sensitivity comparisons; all 48 Stage 12 tests and all 280-slot handler replays pass. Native Gear 2 continuation submitted under the original limits.

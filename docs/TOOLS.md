@@ -12,6 +12,10 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L434-L436 / OPS-S12-ADDENDUM-LOCAL-CLOSE: all 288 local calls, 28 handlers and three whole-family consumers replay exactly; invalid probabilities and all control outcomes remain. Native workers/coordinator have exited and GPU lock is released.
+
+OPS-S12-ADDENDUM-CLOUD-TIMEOUT: remote per-call timeout leaves the main incomplete. Archive/full-payload identity and all 87 retained raw replies verify without scoring; exact provider app/controller stopped. Full reservation retained. The effective HTTP allowance was 41.445 seconds despite a larger whole-job reserve; no automatic second repair or retry.
+
 OPS-S12-ADDENDUM-LOCAL-START / L432 / L433: capacity and one bounded warm-up pass; nine completed jobs verify, and 69 retained calls plus actual handlers replay without inference or file changes. Exact previous-reply/request bindings and all complete rivals survive. Five paper cells and two constructed histories are internally landed; their whole-family consumers remain pending. Original canary and four-hour monitoring are unchanged.
 
 OPS-S12-ADDENDUM-CLOUD-PILOT: the uniform 2,048-token pilot completes, all twelve literal replies and the full actual wire/archive replay pass, and frozen timing/cost gates admit the 159-request main. The original failed pilot and full reservation remain; no scientific accuracy claim.
@@ -666,7 +670,7 @@ Source bytes and pilot calls are retained separately.
 
 | instrument | what it is | state |
 |---|---|---|
-| Stage 12 addendum A-E | Immutable source/support audit, actual saved-reply revision, answer-binding inverses, paper ranking/weighting and cap-only cloud guard | OPS-S12-ADDENDUM-SETUP / L431: 54 tests, 288-slot actual-handler fake replay, four source compilers and all family consumers verify; original all-attempt human summaries reproduce. Inventory omission corrected in a retained second audit. The first complete local cells now replay and land in L432/L433; capacity, warm-up and cloud pilot gates pass. Whole-family outcomes remain pending; gates are unchanged. |
+| Stage 12 addendum A-E | Immutable source/support audit, actual saved-reply revision, answer-binding inverses, paper ranking/weighting and cap-only cloud guard | OPS-S12-ADDENDUM-SETUP / L431: 54 tests, 288-slot actual-handler fake replay, four source compilers and all family consumers verify; original all-attempt human summaries reproduce. Inventory omission corrected in a retained second audit. Complete local families replay and land in L434-L436 after L432/L433. Capacity, warm-up and cloud pilot gates pass, but the main cloud request timeout leaves its comparison unavailable. Gates, partial archive and charges are unchanged. |
 | Stage 11.1 current validity pass | Recheck active-stage guards, actual retained evidence and native supervision | OPS-S11.1-V1: all 56 Python tests, 392 retained viewer calls, 6,901 DOM checks, 32 report inputs and 21 locks pass; no new inference or scientific repair. Visual QA remains unavailable. results/phase_2_4_stage_11_1/VALIDITY_PASS.json. |
 | Stage 11.1 human viewer and queue-frontier inspection | Preserve prior forecasts, observed facts, unlocated claims and actual source/execution limits | OPS-S11.1-S5/I12: twelve source-replayed human cases, 392 retained calls and 6,901 DOM checks pass; no browser surface, visual QA unperformed. Native normal exit, cumulative costs and all 29 context exclusions reconcile. HUMAN_VIEWER.json and QUEUE_FRONTIER.json in results/phase_2_4_stage_11_1. |
 | Stage 11.1 discovery account extension audit | Separate valid graph use, useful recovery and selective error from pipeline score changes | L408: all 268 account and 402 reference calls replay; 182 independent fields and 134 closed blocks verify. Graph failures and all prior costs retained. results/phase_2_4_stage_11_1/S1_ACCOUNT_EXTENSION.json. |
