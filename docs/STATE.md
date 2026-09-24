@@ -13,9 +13,9 @@ conditional branches and Friday/Monday packets remain unchanged.
 The health event is acknowledged after write-through; the next verified check
 is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
 
-## Local continuation after sixth attributed-answer producer - September 24, 04:09 PDT
+## Local continuation after complete attributed-answer comparison - September 24, 04:17 PDT
 
-LP01, LP02 and LP04 are internally landed in L437-L439. LP04 has all 2,688
+LP01, LP02, LP04 and LP05 are internally landed in L437-L440. LP04 has all 2,688
 calls and sixteen producers complete; source histories, exact targets and
 actual saved-reply requests replay with 18,950 original JSON files unchanged.
 Its original primary bootstrap interval is VOID for exact replay because an
@@ -25,12 +25,13 @@ replay; all other consumer fields remain exact. Original capsule/output are
 preserved. On LP21-revision completion, apply the same helper at alpha 0.025
 before accepting its primary interval; do not patch the live source capsule.
 A conservative 900 CPU-second maintenance allowance remains charged locally.
-The sixth LP05 producer completes: all 180 actual calls and the full handler
-replay with 1,268 JSON files unchanged. OPS-S12-LP05-SIXTH-PRODUCER records the
-inspection; six of seven producers are complete. Native LP05-006-a2 and
-coordinator identities, fresh outputs and watcher verify; no new job failure.
-Gear 2 and all original gates/cutoffs remain. LP04 is recorded internally;
-LP05 and the broader program remain unfinished. Next health
+LP05 is complete: all 1,152 calls and seven producers, source histories, frozen
+requests and the full consumer replay with 8,126 JSON files unchanged. L440
+records every frozen comparison, invalid and calibration/coverage readout.
+The pooled contrasts do not identify selective diagnostic correction or actual
+prior authorship. Native LP06-000-a2 and coordinator identities, fresh output
+and watcher verify; no new job failure or recovery. Gear 2 and all original
+gates/cutoffs remain. The broader program remains unfinished. The next health
 inspection remains September 24 at 06:18:46 PDT, independent of result ACKs.
 
 Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`

@@ -9,6 +9,82 @@ ran it.
 
 ---
 
+### L440 - complete attributed-answer correctness, confidence and ownership comparison
+
+**Hypothesis.** The correctness, stated confidence or claimed ownership of a supplied earlier answer changes how a reader responds to later evidence.
+
+**METHOD.** Cross 32 constructed histories with direct/account methods, diagnostic/length-matched irrelevant updates, and nine earlier-answer states: fresh, or a standardized vector crossing correct/incorrect initial modal prediction, low/high stated confidence and claimed self/other ownership. All 1,152 calls, seven producers and the whole-family consumer are complete. The supplied vector assigns 0.7 to its selected option and 0.1 to each other option; correctness means matching the initial exact modal option, not supplying the complete exact distribution or necessarily the later modal option. The attribution explicitly disclaims an actual prior conversation. Rebuild every history and frozen request from the unchanged maker law, check targets against the independent exact reference, and reenter actual request/parser, producer and consumer handlers. All 8,126 original JSON files remain unchanged; all 476 source pins and input/output bindings verify. No new inference, fitted threshold or p-value.
+
+Each row below contains 32 histories per method. Excess is expected half-Brier loss, lower better, minus the identical-evidence exact mean floor: 0.071308 for diagnostic and 0.262391 for irrelevant updates; uniform loss is 0.375000. Correct/incorrect describes the supplied vector's initial modal prediction. Self/other and high/low are attributed text, not measured authorship or internal confidence. Invalid and infinite counts are direct/account out of 32 attempts each; invalids retain loss one and infinite losses include zero support on possible outcomes. These are descriptive cells, not additional independent tests.
+
+| Later evidence | Earlier vector | Stated confidence | Claimed owner | Direct excess | Account excess | Invalid direct / account | Infinite direct / account |
+|---|---|---|---|---:|---:|---:|---:|
+| Diagnostic | Incorrect | High | Other | 0.299684 | 0.301977 | 1 / 2 | 15 / 20 |
+| Diagnostic | Incorrect | High | Self | 0.273761 | 0.250523 | 0 / 0 | 15 / 16 |
+| Diagnostic | Incorrect | Low | Other | 0.274756 | 0.308016 | 0 / 1 | 15 / 14 |
+| Diagnostic | Incorrect | Low | Self | 0.269302 | 0.293593 | 0 / 0 | 13 / 17 |
+| Diagnostic | Correct | High | Other | 0.285548 | 0.261482 | 0 / 1 | 15 / 15 |
+| Diagnostic | Correct | High | Self | 0.255396 | 0.249475 | 1 / 0 | 15 / 12 |
+| Diagnostic | Correct | Low | Other | 0.259402 | 0.307627 | 0 / 1 | 14 / 16 |
+| Diagnostic | Correct | Low | Self | 0.258271 | 0.260480 | 0 / 1 | 17 / 15 |
+| Diagnostic | No prior | None | None | 0.208120 | 0.305746 | 1 / 1 | 17 / 17 |
+| Irrelevant | Incorrect | High | Other | 0.199300 | 0.209997 | 1 / 3 | 9 / 7 |
+| Irrelevant | Incorrect | High | Self | 0.214697 | 0.166168 | 1 / 0 | 5 / 5 |
+| Irrelevant | Incorrect | Low | Other | 0.204353 | 0.172943 | 0 / 3 | 6 / 8 |
+| Irrelevant | Incorrect | Low | Self | 0.213418 | 0.294035 | 1 / 8 | 7 / 14 |
+| Irrelevant | Correct | High | Other | 0.160042 | 0.154432 | 0 / 1 | 11 / 12 |
+| Irrelevant | Correct | High | Self | 0.181531 | 0.172930 | 0 / 1 | 7 / 10 |
+| Irrelevant | Correct | Low | Other | 0.174307 | 0.119785 | 1 / 0 | 10 / 5 |
+| Irrelevant | Correct | Low | Self | 0.232285 | 0.132756 | 4 / 0 | 14 / 3 |
+| Irrelevant | No prior | None | None | 0.315633 | 0.206085 | 9 / 2 | 14 / 11 |
+
+All four frozen contrasts pair matching conditions within history and average them within each of 32 source clusters. Confidence, ownership and vector-correctness contrasts exclude fresh rows and pool both later evidence types and methods; the method contrast also includes fresh rows. The interval is the fixed-seed 4,000-draw 95% bootstrap. Benefit/harm requires the full interval below/above minus/plus 0.02; equivalence requires the interval wholly inside that margin. Negative favors the first named condition. The three factor contrasts are pooled differences, not diagnostic-minus-irrelevant interactions or contrasts against fresh reading.
+
+| Paired contrast | Mean difference | 95% interval | Frozen disposition |
+|---|---:|---|---|
+| Account minus direct | -0.006209 | [-0.034263, 0.021477] | UNRESOLVED |
+| High minus low stated confidence | -0.008649 | [-0.025990, 0.007833] | UNRESOLVED |
+| Incorrect minus correct earlier vector | 0.030048 | [0.008082, 0.052159] | UNRESOLVED |
+| Claimed self minus other ownership | 0.001561 | [-0.020751, 0.022884] | UNRESOLVED |
+
+**Found.** None of the four frozen comparisons establishes benefit, harm or equivalence at the 0.02 margin. The incorrect-minus-correct prior difference is positive with its interval above zero, but the lower bound does not clear the harm margin. The ownership, stated-confidence and method contrasts remain unresolved. This is not a null result or evidence of equivalence. All 45 invalid replies and 436 infinite losses remain in the attempted population.
+
+The attached zero-call calibration pools deliberately different evidence and attribution conditions. Bins partition all valid replies, are left-closed/right-open except the final bin, and report mean maximum forecast probability minus exact expected correctness of the selected option. No threshold is fitted. Direct/account valid totals are 556/551; their invalid totals are 20/25 and remain in primary comparisons.
+
+| Method | Confidence bin | Valid count | Confidence minus expected correctness |
+|---|---|---:|---:|
+| Account | [0.2, 0.4) | 103 | -0.062077 |
+| Account | [0.4, 0.6) | 120 | 0.086848 |
+| Account | [0.6, 0.8) | 94 | 0.160279 |
+| Account | [0.8, 1.0] | 234 | 0.334384 |
+| Direct | [0.2, 0.4) | 105 | 0.081538 |
+| Direct | [0.4, 0.6) | 94 | 0.122912 |
+| Direct | [0.6, 0.8) | 157 | 0.232870 |
+| Direct | [0.8, 1.0] | 200 | 0.327146 |
+
+Each threshold below uses all 1,152 attempts as denominator; all 45 invalid replies remain excluded from retained forecasts. Loss is valid-only among the retained replies. This frozen grid describes coverage and error, not an adopted abstention policy.
+
+| Confidence threshold | Retained / attempted | Retained loss |
+|---|---:|---:|
+| 0.00 | 1107 / 1152 | 0.377183 |
+| 0.25 | 1107 / 1152 | 0.377183 |
+| 0.50 | 731 / 1152 | 0.373378 |
+| 0.60 | 685 / 1152 | 0.372095 |
+| 0.70 | 623 / 1152 | 0.375476 |
+| 0.80 | 434 / 1152 | 0.375958 |
+| 0.90 | 252 / 1152 | 0.367477 |
+| 1.00 | 129 / 1152 | 0.329703 |
+
+The full receipt preserves all 36 descriptive aggregates, their intervals, both valid-only score decompositions including within-bin remainders, and the complete fixed coverage grid. No new ranking measure is claimed.
+
+**Means.** This crossing separates the three supplied properties in the requests, but its pooled comparisons do not identify selective correction from diagnostic evidence or an ownership-by-correctness mechanism. The confidence wording does not change vector sharpness, and the supplied owner is a label rather than actual earlier authorship. No claim about hidden persistence, psychological anchoring, belief adoption or human correction follows. The discovery histories overlap other local-program comparisons and share one maker law; they are not new independent mechanisms. Preserve the full contrasts and uncertainty in the scheduled packets without promoting a favorable subgroup or changing the frozen gates.
+
+**Operational disposition.** Both delivered completion events receive this full internal landing. The native coordinator and LP06-000-a2 successor, fresh responses and watcher verify; no new job failure or recovery. CPU verification is charged within the existing local ledger. Gear 2, the September 25 20:50 PDT cutoff and Friday/Monday packets remain unchanged. The next independent health check remains September 24 at 06:18:46 PDT. No tests harvested, new scope, fits, paid calls or delegation.
+
+**Curator roll-up.** Theory group: updating and correction. Question: does an earlier answer's content, certainty or claimed owner change later reading? Outcome: **Narrows**. Result: the frozen attributed-answer comparisons remain unresolved. Project meaning: supplied attribution has not established an ownership or certainty mechanism for correction. Next engineering obligation: retain the complete comparisons, invalids and pooled-estimand limits in the scheduled packets while the existing queue continues. Public claim: unchanged. Curator decision required: No. Detail: [complete attributed-answer comparison](results/phase_2_4_stage_12/LOCAL_PROGRAM_ATTRIBUTED_ANSWERS.json).
+
+---
+
 ### OPS-S12-LP05-SIXTH-PRODUCER - attributed-answer requests preserved and continuation live
 
 **Hypothesis.** A completed attributed-answer producer can be verified without treating an unfinished family as a scientific result.

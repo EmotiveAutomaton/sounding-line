@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] L440 / LP05: all seven producers and the complete consumer, source/request/score replay, theory row and full internal write-through. Retain all frozen pooled contrasts, invalids and interpretation limits in the Friday/Monday packets; no new tests opened by this wake.
+
 - [x] OPS-S12-LP05-SIXTH-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/input/output/native continuation checks and operational write-through complete; whole LP05 family pending.
 
 - [x] OPS-S12-LP05-FIFTH-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/input/output/native continuation checks and operational write-through complete; whole LP05 family pending.
@@ -60,7 +62,7 @@
 - [x] OPS-S12-LOCAL-PROGRAM-REPAIR: reconcile delayed admission, correct prospective admission dispatch and overlapping calibration bins; both original faults reproduced, 64 tests and all 22,832 synthetic slots pass. Preserve originals and the intentionally cancelled first handoff; correct only separately frozen successors under the same ledger/cutoff.
 - [x] L437 / LP01: all 384 actual calls, three producers and whole-family analyses replay and land internally; original calibration is VOID only in its overlapping bins, corrected CPU consumer and unchanged primary contrasts retained.
 - [x] S12 continuation handoff: preserved LP02-000 finishes naturally and its 180 calls replay; retire only the verified coordinator and run the corrected 325 untouched successors plus one CPU calibration repair. Active plan is local-program-admission-fix-v2, queue-admission-fix-v2; original unstarted manifests are historical, not another queue.
-- [ ] LP05 and later complete families: continue original frozen gates and contrasts; use FAMILY_JOBS-admission-fix-v2.json for the actual mixed original/successor producer mapping. No duplicate generation or deadline reset.
+- [ ] LP06 and later complete families: continue original frozen gates and contrasts; use FAMILY_JOBS-admission-fix-v2.json for the actual mixed original/successor producer mapping. No duplicate generation or deadline reset.
 
 - [x] S12-LOCAL-PROGRAM planning: reread relevant theory and corrections, research primary literature and alternatives, inspect source exposure and actual local timing, and file the 22-package plan, source review and checked non-executable roster in docs/design/. Up to 23,600 calls, first tranche 4,864; no new inference or fits.
 - [x] S12-LOCAL-PROGRAM execution commission: curator approved all proposals in Gear 2 for two days. Separate local allocation preserves old week accounting, original reviews, no-fit/no-cloud rules and conditional source/admission gates.
