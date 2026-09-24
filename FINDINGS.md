@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-LP07-SECOND-SELECTION-FAILURE - another retained invalid choice and verified independent continuation
+
+**Hypothesis.** An invalid selection must remain a missing dependent history, while successful independent histories preserve their original records and the queue continues.
+
+**METHOD.** Verify manifests, all 476 source pins, input/prerequisite/contract bindings and terminal outputs for LP07-010-a2, LP07-012-a2 and LP07-013-a2. Reenter each complete actual request/parser and producer handler. For LP07-011-a2, replay only existing calls and scored records, reconstruct the next dependency, and reproduce the unavailable-selection exception without dispatch. Compare all original JSON hashes; verify failed native exit, retained call/overhead/worker charges, live coordinator/successor/GPU ownership and watcher/checkpoint freshness. Match the four delayed LP07-004-a2 through LP07-007-a2 notices to their published terminal and manifest hashes.
+
+The table gives preserved execution and guard checks, not unfinished-family scores.
+
+| Check | Result |
+|---|---|
+| Completed producers 010, 012 and 013 | Each replays all 22 calls and its complete handler; all 162 JSON files remain unchanged |
+| Failed producer 011 | Both returned calls and scored records replay; all 20 JSON files unchanged |
+| Failure and guard | First selection fails finite-probability parsing; the exact unavailable-selection exception blocks 20 dependent slots before dispatch |
+| Charges and ownership | Both call charges and GPU overhead complete; failed worker charge retained; native process exited |
+| Source identity | Source, input, prerequisite, contract and completed-output bindings all verify |
+| Continuation | LP07-015-a2 has verified native identity, matching GPU lock and fresh heartbeat/raw output |
+| Monitoring | Coordinator, sole watcher and original checkpoint helper verify; health deadline unchanged |
+| Delayed notices | Four earlier producers match their already published operational landing |
+
+**Found.** The second inspected failed history follows the same specified invalid-selection rule as LP07-009-a2. Its response is retained and no substitute selection is supplied. No code change or retry is warranted; the unchanged guard's existing regression already passed in the preceding inspection. The complete-only LP07 primary consumer remains unavailable, and independent cards continue. The initial liveness snapshot coincided with a newly started worker before its first raw response; a bounded follow-up verified fresh output. This did not alter or restart the scientific job, and both inspection attempts are charged.
+
+**Means.** Preserve both inspected failed histories and every returned/unstarted slot in the scheduled packets. Completed survivors cannot substitute for the frozen whole-family population. Continue the existing Gear 2 queue, original cutoff and Friday/Monday reporting; the independent health check remains September 24 at 06:18:46 PDT. No new tests harvested, research, fits, paid calls, delegation or inference retries.
+
+**Curator roll-up.** Theory group: operational validity. Question: are another failed selection and its independent successors preserved without inventing missing observations? Outcome: **Infrastructure**. Result: the specified guard reproduces while complete producers and live continuation verify. Project meaning: the whole sequential-questioning comparison remains incomplete. Next engineering obligation: preserve the missing-history deficit and continue existing independent cards and scheduled reporting. Public claim: unchanged. Curator decision required: No. Detail: [second selection-failure inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_SECOND_FAILURE.json).
+
+---
+
 ### OPS-S12-LP07-SELECTION-FAILURE - invalid question choice blocks one history while independent work continues
 
 **Hypothesis.** A failed question-selection reply must block the dependent history without inventing a choice, losing its returned records or stopping independent authorized histories.

@@ -1,5 +1,19 @@
 # STATE: the agent's operational file
 
+## Second sequential-questioning failure inspected - September 24, 05:40 PDT
+
+OPS-S12-LP07-SECOND-SELECTION-FAILURE records complete producers 010/012/013,
+each with 22 saved calls and all 162 JSON files unchanged under actual handler
+replay. Failed 011 retains two returned calls and the same invalid-selection
+guard as 009; 20 dependent slots are unstarted and all 20 JSON files unchanged.
+All source/input/prerequisite/contract/output bindings and costs verify. No
+source defect or retry; preserve both histories and the unavailable whole-family
+primary consumer. Prior guard regression remains applicable without code changes.
+LP07-015-a2, native coordinator, GPU lock, fresh outputs and monitoring verify.
+The delayed 004-007 notices match their published landing and are re-acknowledged
+after this documented inspection. Gear 2, scope, cutoff and the September 24
+06:18:46 PDT health deadline remain unchanged. No tests harvested or new scope.
+
 ## Sequential-questioning failure inspected - September 24, 05:32 PDT
 
 OPS-S12-LP07-SELECTION-FAILURE lands complete producers LP07-004-a2 through

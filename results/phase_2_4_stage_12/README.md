@@ -4,12 +4,13 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 05:32 PDT: one sequential-questioning
-history stops at its specified invalid-selection guard. Both replies and all
-costs remain; its complete-only family comparison is incomplete. Independent
-histories continue in Gear 2. Five new complete producers and the failed prefix
-replay unchanged; the existing guard test passes. [Inspection](LOCAL_PROGRAM_QUERY_SELECTION_FAILURE.json).
-No retry or source repair; health remains due at 06:18:46 PDT.
+Current continuation, September 24 at 05:40 PDT: two inspected sequential-questioning
+histories stop at the specified invalid-selection guard. All replies and costs
+remain; the complete-only family comparison is incomplete. Independent histories
+continue in Gear 2. Three more complete producers and the second failed prefix
+replay unchanged. [Latest inspection](LOCAL_PROGRAM_QUERY_SECOND_FAILURE.json)
+retains the earlier failure and delayed-notice reconciliation. No retry or source
+repair; health remains due at 06:18:46 PDT.
 
 Earlier audit snapshot:
 

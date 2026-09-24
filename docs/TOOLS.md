@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP07-SECOND-SELECTION-FAILURE: complete producers 010, 012 and 013 each replay all 22 calls with 162 JSON files unchanged. Failed 011 replays both returned calls and the unavailable-selection guard with 20 JSON files unchanged; all charges and native exit verify. Source/input/prerequisite/output bindings and live successor/GPU ownership/monitoring pass. Same frozen guard, no code change or retry. Whole LP07 remains incomplete; delayed 004-007 notices match the prior published landing.
+
 OPS-S12-LP07-SELECTION-FAILURE: five complete producers each replay 22 calls and retain all 162 JSON files. The failed history's two returned calls, exact request/parser/scoring and unavailable-selection exception replay with all 20 JSON files unchanged; 20 dependent slots remain unstarted. Existing selection regression passes. No code or scoring repair: this is the frozen guard. Native exit, retained costs, live successor/lock and monitoring verify. LP07 complete-only primary analysis remains unavailable. Delayed LP06 notices reconcile with published L441.
 
 OPS-S12-LOCAL-VALIDITY-0514: all 70 Stage 12 tests and 41 subtests pass. All 326 current manifests, 957 input bindings, 476 pins and 44 completed-job terminal/output records verify; public mapping covers every completed job, plus two later delivered LP07 producers. Each of LP07-000-a2 through LP07-003-a2 replays all 22 calls with 162 JSON files unchanged. Native ownership, GPU lock, resources, next-card admission and monitoring pass. No unfinished-family scientific interpretation or recovery.

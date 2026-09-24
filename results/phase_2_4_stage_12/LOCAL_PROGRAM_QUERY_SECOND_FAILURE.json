@@ -1,0 +1,91 @@
+{
+  "landing": "OPS-S12-LP07-SECOND-SELECTION-FAILURE",
+  "status": "inspection-complete",
+  "at": "2026-09-24T12:40:29.684433+00:00",
+  "completed_producers": {
+    "LP07-010-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "745caf9311ef74920bd6022b84a5169ef4d346489a9008348b2b36a2f9fd5a77",
+      "source_pins_verified": 476,
+      "terminal_sha256": "38753cd4bc093b18d0f65bd7a714b13c7e7defa9117faf085db0601a6010b47d"
+    },
+    "LP07-012-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "b968fa03ab9d571c227c53717e89866a64d33a5d6652bb50545202ba44e09bd2",
+      "source_pins_verified": 476,
+      "terminal_sha256": "ea2bad7c28429b63525caacf0ee762b43f34b291aaafd7a6c24a71678b52f3ae"
+    },
+    "LP07-013-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "3a1534af023352a6a94b8919072279996230c881e0294444dd90c2de3ebe98cd",
+      "source_pins_verified": 476,
+      "terminal_sha256": "408eb2cb8d0a2a5af5f0a77d7c6f7e1b99fcfffe23b8eeb2c1cafe68ac827c41"
+    }
+  },
+  "failed_producer": {
+    "actual_prefix_request_parser_score_replay": true,
+    "all_json_files_unchanged": 20,
+    "calls_returned": 2,
+    "costs": {
+      "complete_call_charges": 2,
+      "cpu_seconds": 12.399529199581593,
+      "gpu_seconds": 11.77002789999824,
+      "unknown_calls": 0
+    },
+    "failed_native_exited": true,
+    "failure_sha256": "71304feadf4c95a91be7e4f1349eefa830f6fa567daa1c0ae52a939c278df7f1",
+    "guard_reproduced": true,
+    "manifest_sha256": "badb1d1cb5dcd1edd65ce5d85f240d19aa73689aa1609e1e8e1a9fe848742b08",
+    "parse_errors": [
+      {
+        "error": "invalid finite probabilities",
+        "output_tokens": 194,
+        "role": "selection",
+        "step": 1
+      }
+    ],
+    "planned_calls": 22,
+    "source_pins_verified": 476,
+    "status": "incomplete",
+    "undispatched_calls": 20
+  },
+  "delayed_notices_reconciled": [
+    "LP07-004-a2",
+    "LP07-005-a2",
+    "LP07-006-a2",
+    "LP07-007-a2"
+  ],
+  "delayed_landing": "OPS-S12-LP07-SELECTION-FAILURE",
+  "prior_published_commit": "4cc0fb06c667294111ae16bf9b0e8836a0ed3a23",
+  "all_source_input_contract_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-015-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 5.178336,
+  "raw_output_age_seconds": 5.254069805145264,
+  "watcher_fresh": true,
+  "checkpoint_native_verified": true,
+  "queue_failures": [],
+  "verification_charge": {
+    "at": "2026-09-24T12:40:29.684433+00:00",
+    "cpu_seconds": 10.703125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP07 second selection failure replay, including 10 CPU-second allowance for initial inspection at a fresh worker boundary",
+    "status": "complete"
+  },
+  "existing_guard_regression": "Passed during preceding failure inspection; no source change or redundant test rerun.",
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T13:18:46.104688+00:00",
+  "disposition": "Second inspected invalid-selection history remains incomplete; complete-only LP07 primary consumer unavailable; independent frozen histories continue without fallback or retry.",
+  "scope": "Operational execution and guard verification only; no unfinished-family scientific scores."
+}
