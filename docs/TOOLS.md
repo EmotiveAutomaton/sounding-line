@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L439 / LP04: all 2,688 saved calls, sixteen actual producers and source reconstruction verify with 18,950 original JSON files unchanged. Consumer replay exposed process-dependent bootstrap order in the primary interaction; its original interval is VOID for exact replay. The separate revision_replay helper canonically orders the same paired estimand; six targeted tests and actual-data cross-process replay pass. All other consumer fields remain exact. Keep original capsules and apply this CPU correction to LP21-revision on completion; no regeneration or new fit.
+
 OPS-S12-LP04-FIFTEENTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
 
 OPS-S12-LP04-FOURTEENTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.

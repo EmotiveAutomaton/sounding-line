@@ -9,6 +9,95 @@ ran it.
 
 ---
 
+### L439 - complete crossed-frame revision comparison and deterministic interval repair
+
+**Hypothesis.** Keeping an earlier reply changes the benefit of diagnostic evidence differently under true and false starting frames, beyond unchanged rereading and equally long irrelevant material.
+
+**METHOD.** Fully cross the same 64 constructed histories with true, false and neutral frames, direct and account methods, and seven calls per combination: initial reading plus fresh/saved-reply readings at unchanged, diagnostic and length-matched irrelevant snapshots. All 2,688 calls, sixteen producers and the whole-family consumer are complete. Rebuild source histories and every frozen request from the unchanged Stage 11.2 law, checking exact targets against the independent reference. Replay actual requests, parsers and saved earlier bytes including invalid replies; all 18,950 original JSON files remain unchanged. The statistic is expected half-Brier loss, lower better; excess subtracts the exact reference for the identical evidence. Pair within history and method, average the two methods within history, and use the frozen 4,000-draw 95% bootstrap intervals with a 0.02 margin. No new inference, fitted threshold or p-value.
+
+**Replay defect and correction.** The original primary interaction iterated an unordered Python set before resampling, so its fixed seed did not fix its interval across processes. Only that interval fails exact replay and is **VOID in its original form**, with the original preserved. The primary mean, all three frame-specific contrasts, all aggregates, calibration and coverage replay exactly. A separate CPU-only correction orders histories/methods and clusters canonically before the same bootstrap. It leaves the estimand, seed, draw count, margin, observations and other analysis fields unchanged. Six targeted tests cover known zero/positive/negative effects, missing/duplicate pairs, inconsistent cluster identities and cross-process determinism; actual-data recomputation under two hash seeds is byte-identical. The original interval was [-0.003917, 0.152891]; the corrected interval is below. Both retain the same unresolved disposition. A conservative 900 CPU-second maintenance allowance is charged within the unchanged local ledger. Live source capsules are preserved; the reserved revision consumer requires the same correction on completion.
+
+Every row below contains 64 histories per mode. Excess is expected half-Brier loss minus the exact mean floor: 0.071299 for diagnostic updates and 0.265231 for unchanged/irrelevant snapshots; uniform loss is 0.375000. Invalid counts are out of all 64 attempts and retain loss one. Infinite counts include invalid replies and forecasts assigning zero probability to possible outcomes. Fresh/saved counts and errors are shown separately; these descriptive cells are not additional tests.
+
+| Method | Frame | Update | Fresh excess | Saved excess | Invalid fresh / saved | Infinite fresh / saved |
+|---|---|---|---:|---:|---:|---:|
+| Direct | True | Unchanged | 0.152006 | 0.213011 | 2 / 8 | 10 / 17 |
+| Direct | True | Diagnostic | 0.321587 | 0.320466 | 0 / 3 | 29 / 15 |
+| Direct | True | Irrelevant | 0.194334 | 0.162582 | 3 / 3 | 8 / 12 |
+| Direct | False | Unchanged | 0.226175 | 0.242527 | 6 / 7 | 21 / 22 |
+| Direct | False | Diagnostic | 0.341727 | 0.387566 | 1 / 7 | 28 / 22 |
+| Direct | False | Irrelevant | 0.224006 | 0.235023 | 4 / 8 | 24 / 19 |
+| Direct | Neutral | Unchanged | 0.251951 | 0.198941 | 7 / 6 | 18 / 13 |
+| Direct | Neutral | Diagnostic | 0.320103 | 0.430748 | 1 / 7 | 33 / 21 |
+| Direct | Neutral | Irrelevant | 0.227394 | 0.218659 | 8 / 8 | 21 / 16 |
+| Account | True | Unchanged | 0.168251 | 0.173039 | 6 / 6 | 12 / 16 |
+| Account | True | Diagnostic | 0.335028 | 0.317910 | 2 / 4 | 24 / 20 |
+| Account | True | Irrelevant | 0.219812 | 0.173077 | 9 / 7 | 18 / 20 |
+| Account | False | Unchanged | 0.199573 | 0.188969 | 4 / 3 | 15 / 21 |
+| Account | False | Diagnostic | 0.314827 | 0.400862 | 2 / 5 | 35 / 22 |
+| Account | False | Irrelevant | 0.276690 | 0.223907 | 9 / 5 | 32 / 24 |
+| Account | Neutral | Unchanged | 0.161783 | 0.165101 | 1 / 3 | 15 / 19 |
+| Account | Neutral | Diagnostic | 0.350247 | 0.369018 | 1 / 6 | 30 / 26 |
+| Account | Neutral | Irrelevant | 0.178320 | 0.166060 | 3 / 3 | 13 / 18 |
+
+Initial replies are retained as the actual saved inputs, even when invalid. Each row has 64 attempts; the initial exact-reference floor is 0.265231 and uniform loss is 0.375000.
+
+| Method | Frame | Initial loss | Invalid / attempted | Infinite |
+|---|---|---:|---:|---:|
+| Direct | True | 0.417236 | 2 / 64 | 10 |
+| Direct | False | 0.491406 | 6 / 64 | 21 |
+| Direct | Neutral | 0.517182 | 7 / 64 | 18 |
+| Account | True | 0.433481 | 6 / 64 | 12 |
+| Account | False | 0.464804 | 4 / 64 | 15 |
+| Account | Neutral | 0.427014 | 1 / 64 | 15 |
+
+The frame-specific contrast is saved minus fresh diagnostic excess loss, pooling the two methods within each of 64 histories; negative favors saving. The primary is that saved-reply penalty under the false frame minus the same penalty under the true frame. The corrected primary uses canonical cluster order. Unresolved means the interval establishes neither benefit, harm nor equivalence under the frozen margin.
+
+| Paired contrast | Mean difference | 95% interval | Frozen disposition |
+|---|---:|---|---|
+| True frame: saved minus fresh | -0.009119 | [-0.075889, 0.061634] | UNRESOLVED |
+| False frame: saved minus fresh | 0.065937 | [-0.008515, 0.144387] | UNRESOLVED |
+| Neutral frame: saved minus fresh | 0.064708 | [-0.018777, 0.148547] | UNRESOLVED |
+| Primary: false minus true saved penalty | 0.075057 | [-0.002327, 0.151640] | UNRESOLVED |
+
+**Found.** Neither the primary frame interaction nor any of the three frame-specific saved-versus-fresh diagnostic comparisons establishes benefit, harm or equivalence. The false-frame saved penalty is descriptively larger than the true-frame penalty, but its uncertainty includes no interaction. Unchanged and irrelevant controls also move answers. All 194 invalid replies and 820 infinite losses remain in the attempted population. The complete crossing removes the earlier between-history frame confound; it does not confirm that frame truth controls the value of an earlier reply.
+
+The attached zero-call calibration pools initial and later readings across deliberately different frames and evidence conditions. Its bins partition all valid replies; no threshold is fitted or selected as a policy. Each row gives the valid count in a confidence interval and mean stated confidence minus exact expected correctness; bins are left-closed/right-open except the last includes one.
+
+| Method | Confidence bin | Valid count | Confidence minus expected correctness |
+|---|---|---:|---:|
+| Account | [0.2, 0.4) | 410 | 0.017239 |
+| Account | [0.4, 0.6) | 431 | 0.107122 |
+| Account | [0.6, 0.8) | 117 | 0.290554 |
+| Account | [0.8, 1.0] | 296 | 0.445638 |
+| Direct | [0.2, 0.4) | 507 | 0.061034 |
+| Direct | [0.4, 0.6) | 308 | 0.101807 |
+| Direct | [0.6, 0.8) | 119 | 0.405421 |
+| Direct | [0.8, 1.0] | 306 | 0.427815 |
+
+Every threshold uses all 2,688 attempts as its coverage denominator and retains the same 194 invalid exclusions. Loss is averaged only over retained valid replies; this is descriptive sensitivity across the frozen grid, not a new admission or abstention rule.
+
+| Confidence threshold | Retained / attempted | Retained loss |
+|---|---:|---:|
+| 0.00 | 2494 / 2688 | 0.410387 |
+| 0.25 | 2494 / 2688 | 0.410387 |
+| 0.50 | 1011 / 2688 | 0.458297 |
+| 0.60 | 838 / 2688 | 0.469332 |
+| 0.70 | 785 / 2688 | 0.475644 |
+| 0.80 | 602 / 2688 | 0.471395 |
+| 0.90 | 373 / 2688 | 0.467466 |
+| 1.00 | 84 / 2688 | 0.434267 |
+
+The full receipt preserves both valid-only score decompositions, including within-bin remainders, and every original aggregate. Direct/account calibration uses 1,240/1,254 valid replies respectively; invalid replies remain in the primary comparisons.
+
+**Means.** The larger within-history crossing supplies a less confounded but still unresolved revision test. It does not establish a null or equivalence, and the earlier method-specific benefit is not promoted to a general correction rule. Explicit quoted model replies are supplied information, not identified hidden memory, psychological anchoring or human revision. This discovery roster shares the local program's constructed histories and one maker law; it is not independent human evidence or a new mechanism. The already frozen reserved comparison remains eligible under its original gates irrespective of this sign, with deterministic interaction replay required.
+
+**Operational disposition.** Both delivered completion events receive this full landing. Native coordinator and LP05-000-a2 successor identity, fresh outputs and watcher delivery verify; no new job failure. Gear 2, the September 25 20:50 PDT cutoff and Friday/Monday packets remain unchanged. The independent health check remains September 24 at 06:18:46 PDT. No tests harvested, new study scope, fits, paid calls or delegation.
+
+**Curator roll-up.** Theory group: updating and correction. Question: does frame truth change whether an earlier reply helps after new evidence? Outcome: **Narrows**. Result: the complete within-history interaction remains unresolved. Project meaning: earlier conditional observations do not yet establish selective correction. Next engineering obligation: preserve every contrast and invalid, use canonical interaction replay on the reserved revision consumer, and retain these limits in the scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [complete comparison and correction](results/phase_2_4_stage_12/LOCAL_PROGRAM_CROSSED_REVISION.json).
+
+---
+
 ### OPS-S12-LP04-FIFTEENTH-PRODUCER - preserved revision requests and live continuation
 
 **Hypothesis.** A completed revision-study producer can retain its exact earlier-reply dependencies and replay without dispatch while the complete crossed comparison remains unfinished.

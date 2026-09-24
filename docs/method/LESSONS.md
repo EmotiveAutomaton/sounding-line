@@ -194,6 +194,14 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **A fixed random seed does not fix a bootstrap fed by unordered collections.**
+  The complete crossed revision consumer iterated a Python set before assembling
+  cluster means; separate processes changed its primary interval with all replies
+  and the point estimate unchanged. Canonicalize unit, method and cluster order,
+  and test actual data in separate hash-seeded processes. Preserve the original
+  defective interval; repair only the CPU analysis under unchanged estimand,
+  seed, draw count and margin, with no regenerated observations. (L439)
+
 - **Fixed bins must form an actual partition at exact floating-point boundaries.**
   The local-program calibration used lower plus width for each upper edge;
   0.4 plus 0.2 exceeded the separately stored 0.6, counting three responses twice.
