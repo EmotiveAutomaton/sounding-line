@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S12-LP13-SECOND-PRODUCER - second same-artifact/different-history producer preserved
+
+**Hypothesis.** The second completed same-artifact/different-history block remains exactly replayable while the frozen family continues under its original limits.
+
+**METHOD.** Verify all plan/start/terminal, contract/input/prerequisite and output bindings, with all 476 source pins unchanged. Reenter every saved request/parser and the full producer handler with network dispatch disabled, preserving original JSON bytes. Verify native coordinator/worker/GPU ownership, fresh output, watcher source/scanning, checkpoint helper and the unchanged health deadline.
+
+The table records execution preservation and continuation, without scientific scores for the unfinished same-artifact/different-history family.
+
+| Check | Result |
+|---|---|
+| LP13-001-a2 | All 180 saved calls and the full handler replay; all 1,268 original JSON files remain unchanged |
+| Frozen bindings | Source, manifest, contract, input, prerequisite and output checks pass |
+| Whole-family analysis | Pending the complete frozen roster |
+| Native continuation | LP13-002-a2 is running in Gear 2 with matching GPU ownership and fresh output |
+| Monitoring | Coordinator, loaded watcher sources, scanning and original checkpoint helper verify; health remains due September 24 at 18:37:48 PDT |
+
+**Found.** The completed block reproduces exactly and the next block is progressing under the same Gear 2 allocation. No repair, retry, source change or restart is required.
+
+**Means.** Continue the frozen roster and wait for the complete same-artifact/different-history comparison. This is a constructed-history comparison; historical recovery and general human mechanisms remain separate questions. Earlier questioning and memory comparisons remain incomplete; the complete omitted-candidate family is internally landed in L445. Original costs, invalids, corrections, cutoff and Friday/Monday packets remain. This verification costs 0.734375 CPU seconds and no new model calls. No new tests harvested, research, fits, cloud calls or delegation. This ordinary completion ACK preserves the independent four-hour health clock. Theory remains unchanged until a whole-family scientific landing.
+
+**Curator roll-up.** Theory group: operational validity. Question: can the completed block be reproduced while authorized work continues? Outcome: **Infrastructure**. Result: the producer replays unchanged with verified continuation. Project meaning: the partial family remains auditable without a premature comparison. Next engineering obligation: inspect subsequent terminal events and the scheduled health check, then land the whole family when its roster is complete. Public claim: unchanged. Curator decision required: No. Detail: [second producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_SECOND_PRODUCER.json).
+
+---
+
 ### OPS-S12-LP13-FIRST-PRODUCER - first same-artifact/different-history producer preserved
 
 **Hypothesis.** The first completed same-artifact/different-history block remains exactly replayable while the frozen family continues under its original limits.
