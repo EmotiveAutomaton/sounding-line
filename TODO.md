@@ -1,10 +1,14 @@
 # TODO: the study queue
 
-## Extensive local research program - proposed September 23
+## Extensive local research program - approved September 23
 
 - [x] S12-LOCAL-PROGRAM planning: reread relevant theory and corrections, research primary literature and alternatives, inspect source exposure and actual local timing, and file the 22-package plan, source review and checked non-executable roster in docs/design/. Up to 23,600 calls, first tranche 4,864; no new inference or fits.
-- [ ] S12-LOCAL-PROGRAM implementation, pending execution commission: translate selected cards manually into a separate source-bound freeze; implement exact rulers, whole-roster replay, failure/accounting guards and task-specific admissions. Keep original week ceilings and reporting reserves; full-program capacity is not granted by the proposal.
-- [ ] S12-LOCAL-PROGRAM reserved work: freeze disjoint LP21 histories before exploration; preserve conditional human-source and native-mechanism blockers. Existing packets and four-hour health remain owed independently of this proposal.
+- [x] S12-LOCAL-PROGRAM execution commission: curator approved all proposals in Gear 2 for two days. Separate local allocation preserves old week accounting, original reviews, no-fit/no-cloud rules and conditional source/admission gates.
+- [x] S12-LOCAL-PROGRAM build: source-bound adapters, exact rulers, actual-handler replay and whole-family analyses; 62 tests and all 22,832 synthetic request/analysis slots pass. Retain the unexecuted v1 draft; v2 masks future operations in the native prediction task. Both cached tokenizers fit the declared actual context budget.
+- [x] S12-LOCAL-PROGRAM reserved work: freeze disjoint LP21 histories before exploration; LP19 stays explicitly blocked on native changed-tool episode/checker support, without a replacement simulator or new fit.
+- [x] S12-LOCAL-PROGRAM dispatch: 331 immutable native jobs, terminal/disappearance watches and actual Gear 2 progress verified. Complete eleven-call admission passes and replays; setup/admission fully landed in OPS-S12-LOCAL-PROGRAM-SETUP. All source, manifest and input bindings verify.
+- [ ] S12-LOCAL-PROGRAM publication: final privacy/deletion/lock checks, commit and push the implementation and setup records to EmotiveAutomaton; verify exact remote equality.
+- [ ] S12-LOCAL-PROGRAM landings: replay whole completed cells and perform full internal write-through; retain failed admissions, unknown reservations and missing comparisons. Continue four-hour health and original Friday/Monday packets independently.
 
 ## Stage 12 week - commissioned September 21
 

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LOCAL-PROGRAM-SETUP: the separately approved local program has 331 frozen native jobs and 22,832 study slots, with source-specific admissions and full-family consumers. All 62 tests, exhaustive synthetic request/analysis rehearsal, both actual cached-tokenizer context checks and 21 locks pass. The eleven-call constructed admission completes and replays; native queue/worker progress and watcher bindings verify. The retained v1 draft's future-operation leak is corrected before dispatch in v2. Changed-tool native support remains absent; no replacement mechanism, extra fit or cloud call. Raw generation, source-cluster analysis and literal HF replay remain separate from scientific admission.
+
 L434-L436 / OPS-S12-ADDENDUM-LOCAL-CLOSE: all 288 local calls, 28 handlers and three whole-family consumers replay exactly; invalid probabilities and all control outcomes remain. Native workers/coordinator have exited and GPU lock is released.
 
 OPS-S12-ADDENDUM-CLOUD-TIMEOUT: remote per-call timeout leaves the main incomplete. Archive/full-payload identity and all 87 retained raw replies verify without scoring; exact provider app/controller stopped. Full reservation retained. The effective HTTP allowance was 41.445 seconds despite a larger whole-job reserve; no automatic second repair or retry.

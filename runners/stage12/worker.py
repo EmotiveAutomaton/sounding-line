@@ -17,6 +17,9 @@ from runners.stage9.process_identity import native_identity
 from tools.codex_common import singleton
 
 def handler(name):
+    if name in ('program-run','program-consume'):
+        from . import program
+        return getattr(program,name.removeprefix('program-'))
     if name in ('addendum-compile','addendum-run','addendum-audit','addendum-summary','addendum-warm'):
         from . import addendum
         return getattr(addendum,name.removeprefix('addendum-'))

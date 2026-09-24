@@ -1,5 +1,26 @@
 # Current status
 
+## Extensive local program running - September 23
+
+The approved Gear 2 program is built and running: 331 source-bound jobs covering
+22,832 study requests, plus eleven constructed-reader admission calls. Admission
+passes and all eleven actual calls replay; the first presentation-control block
+has fresh responses. All 62 tests, exhaustive synthetic request/analysis rehearsal,
+cached-tokenizer checks and 21 locks pass. Source, manifest and input bindings,
+native ownership and watcher/checkpoint freshness verify.
+
+Human and secondary-model main runs retain their narrow gates. The changed-tool
+extension remains blocked on native episode/checker support. New local accounting
+runs through Friday September 25 at 20:50 PDT, including setup; original week
+records and Friday 06:17/Monday 06:17 PDT reviews remain intact. Four-hour health
+is next due September 23 at 22:08:43 PDT, with earlier failure/drained-queue alerts.
+Full internal setup/admission landing: OPS-S12-LOCAL-PROGRAM-SETUP.
+
+[Implementation](docs/design/STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md) and
+[verified setup](results/phase_2_4_stage_12/LOCAL_PROGRAM_SETUP_INSPECTION.json).
+
+## Previous completed addendum snapshot
+
 ## Stage 12 approved addendum - September 23
 
 Current execution, September 23 at 19:23 PDT: the finite local Gear 2 addendum

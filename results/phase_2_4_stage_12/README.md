@@ -4,6 +4,18 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+The later September 23 local-program commission is now running in Gear 2 with
+331 source-bound jobs and 22,832 study slots, plus eleven completed and replayed
+constructed-reader admission calls. All 62 tests, full synthetic rehearsal,
+cached-tokenizer checks and 21 locks pass. Exact source/input/native ownership
+and monitoring checks are in [the setup inspection](LOCAL_PROGRAM_SETUP_INSPECTION.json).
+Its separate two-day local allocation ends September 25 at 20:50 PDT without
+resetting the original week. Narrow human/model admissions and the source-blocked
+native changed-tool extension remain explicit. See the
+[implementation freeze](../../docs/design/STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md).
+
+Historical completed-addendum snapshot:
+
 Current execution, September 23 at 19:23 PDT: the finite local Gear 2 addendum
 has completed all 288 scientific calls and all three whole-family consumers.
 Every generation and consumer handler replays exactly; L434-L436 internally land

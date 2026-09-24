@@ -9,6 +9,36 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-PROGRAM-SETUP - approved extensive local queue running
+
+**Hypothesis.** The approved local research program can test explanation, correction, inquiry, memory and witnessed process while preserving source validity, complete controls and the original week's record.
+
+**METHOD.** Compile the complete approved source roster and disjoint replication reserves before outcomes; independently check exact constructed references and strict human/native source boundaries. Rehearse all 22,832 study slots and every whole-family consumer with synthetic replies, run the Stage 12 validation suite and actual cached-tokenizer checks, then freeze 331 native queue jobs. Execute one complete unchanged constructed-reader admission with warm-up, replay every actual raw response, and inspect native ownership, manifests, inputs, resource headroom and watcher/checkpoint freshness before continuing scientific work.
+
+The table reports complete setup/admission checks, not unfinished scientific performance. The direct and account rows each contain four distinct balanced known-answer probes plus one repeat. Correct means the required action has the highest reported probability; latency is median client wall time per request. The warm-up is an additional diagnostic request.
+
+| Check | Result |
+|---|---|
+| Approved study roster | 22,832 requests compiled; 128 distinct replication histories reserved before exploration |
+| Conditional native extension | 768 proposed requests remain source-blocked; no replacement mechanism or fit |
+| Executable queue | 331 source-bound jobs; eleven additional constructed-reader diagnostic calls |
+| Source and input verification | 476 source pins and archives, all manifests and 971 input bindings verified |
+| Validation | 62 Stage 12 tests; exhaustive 22,832-slot synthetic request/analysis rehearsal; all 21 locks |
+| Secondary reader context | Maximum actual prompt tokens 960 for Qwen and 1,146 for Smol, including a 1,200-character retained analysis; each fits 4,096 with 1,024 output tokens |
+| Direct admission | Five literal-valid responses, four correct, identical repeated output; median 2.808 seconds |
+| Account admission | Five literal-valid responses, five correct, identical repeated output; median 4.736 seconds |
+| Actual admission replay | All eleven retained calls verify without dispatch; unchanged gate passes |
+| Live continuation | Queue and first presentation-control worker verified alive; returned outputs fresh; no new queue failure |
+| Monitoring | Existing watcher and original checkpoint helper fresh; exact queue exit/disappearance and final produces registered; four-hour clock unchanged |
+
+**Found.** The complete supported program is built and running in Gear 2. Source inspection caught future-operation leakage in an unexecuted native compiler draft; the accepted v2 uses only the pre-operation snapshot for that question. Both drafts remain. The existing native source cannot supply changed-tool episodes or an adapted-plan checker, so that conditional branch remains blocked. Human and secondary-family main runs require their separate frozen admissions; the current constructed gate licenses neither broad human-history capability nor a scientific method advantage.
+
+**Means.** The separately commissioned local window includes setup from September 23, 20:50 PDT through September 25, 20:50 PDT. Its accounting leaves the original week ledger, failed cloud main, shared-fit limit and Friday/Monday reviews intact. No paid work, fit or delegation was added. Complete scientific cells require their own raw replay and full internal write-through; unfinished comparisons receive no scientific verdict. The independent next health check remains September 23, 22:08:43 PDT, with earlier failure/drained-queue alerts.
+
+**Curator roll-up.** Theory group: reader instrumentation. Question: can the approved extensive local program run with valid sources and complete controls? Outcome: **Infrastructure**. Result: the 331-job local queue is running with source-bound controls and gated dependencies. Project meaning: implementation and execution are established, while scientific comparisons remain open. Next engineering obligation: land complete cells, inspect failures and perform four-hour health checks within the new local window while preserving the original packets. Public claim: unchanged. Curator decision required: No for queued work; the native extension needs a valid native source before it can become runnable. Detail: [implementation](docs/design/STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md) and [setup inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_SETUP_INSPECTION.json).
+
+---
+
 ### OPS-S12-ADDENDUM-CLOUD-TIMEOUT - incomplete main retained without retry
 
 **Hypothesis.** The admitted capable-reader pilot's bounded timing allowance may fail to cover a longer main response even while whole-job budget remains.

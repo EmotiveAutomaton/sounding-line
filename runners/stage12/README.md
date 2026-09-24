@@ -1,5 +1,14 @@
 # Stage 12 week
 
+The September 23 extensive local program is separately approved for a two-day
+Gear 2 continuation. `program_prepare` translates its fixed 22-card design into
+source-bound inputs and the existing native queue; `program` executes and
+replays whole units and consumes whole families. `program_rehearsal` is strictly
+synthetic and cannot admit a reader. The binding implementation and separate
+accounting are in `docs/design/STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md`.
+Original week records and reporting dates below remain in force; conditional
+native-source or task-admission failures do not authorize replacement studies.
+
 The September 21 commission includes preparation in its seven-day clock. The
 unchanged supplied brief is the authority. CPU work is serial, one numerical
 thread and below-normal priority; local GPU work additionally requires the

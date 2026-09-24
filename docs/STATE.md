@@ -1,6 +1,32 @@
 # STATE: the agent's operational file
 
-## Extensive local program - planning completed September 23
+## Extensive local program - running September 23
+
+The curator approved all 22 proposals and Gear 2 execution for the next two days.
+The implementation in docs/design/STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md has
+compiled 22,832 study requests, including development admissions, plus eleven
+fresh constructed-reader diagnostic calls. All 62 Stage 12 tests pass, and the
+exhaustive zero-inference rehearsal verifies every slot and whole-family consumer.
+Actual cached-tokenizer context checks pass for both secondary instruction models.
+
+The accepted source namespace is raw/local-program-20260923-v2 under Stage 12;
+v1 is a retained unexecuted compiler draft. LP19 remains source-blocked because
+the native export lacks changed-tool episodes and an adapted-plan checker.
+Human and secondary-family main runs remain conditional on their narrow gates.
+All 331 native jobs are frozen. The complete eleven-call constructed admission
+passes and replays, and the first presentation-control block is producing fresh
+responses. Queue and worker native identities, 476 source pins, 971 input checks,
+all manifests and original checkpoint/watcher freshness verify. No new queue
+failure is present at setup inspection. Full internal setup/admission landing is
+OPS-S12-LOCAL-PROGRAM-SETUP; publication is the immediate remaining setup step.
+
+The separately commissioned local window includes setup from September 23,
+20:50 PDT through September 25, 20:50 PDT. Its separate ledger does not reset the
+original week, Friday/Monday reviews or the original failures. No cloud, new
+fits or delegation are authorized here. Four-hour health remains due September
+23 at 22:08:43 PDT until its documented inspection and ACK.
+
+## Extensive local program - original planning snapshot
 
 The curator commissioned fresh theory/literature review and a much larger local
 research plan. The proposal in docs/design/STAGE12_LOCAL_RESEARCH_PROGRAM.md
@@ -9,10 +35,10 @@ first tranche, two zero-call analyses and reserved within-law replication.
 Its source review records precise READ scopes and its planning JSON is explicitly
 non-executable. No new inference, fits, cloud use or delegation occurred.
 
-Implementation and dispatch remain unstarted. Eligibility and task admission are
+At that planning checkpoint implementation and dispatch remained unstarted. Eligibility and task admission are
 conditional where named; exposed human sources do not become fresh confirmation.
-The full program requires later local capacity beyond the original week's
-remaining allowance. This proposal changes neither the completed execution below
+The full program required later local capacity beyond the original week's
+remaining allowance, subsequently commissioned above. The proposal changed neither the completed execution below
 nor Gear 2, the four-hour health cadence or the original reporting dates.
 
 ## Stage 12 approved addendum - September 23
