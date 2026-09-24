@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L438 / LP02: the complete 768-call comparison, all five producer handlers and the whole-family consumer replay from their respective source capsules without dispatch or changes to 5,422 JSON files. Reconstructing the source roster reproduces every frozen request and independent exact target; copying error independently agrees in displayed coordinates. All 476 source pins per card, input bindings, output hashes, label inverses and the 761-reply calibration partition verify. Wrong assistance preserves fidelity while worsening task loss; invalids and all frozen contrasts remain. Native continuation and watcher freshness pass; no recovery needed.
+
 OPS-S12-LP02-FOURTH-PRODUCER: all 180 LP02-003-a2 requests/responses and the actual producer handler replay, with 1,268 JSON files unchanged and 476 source pins verified. LP02-004-a2 has live native ownership and fresh outputs; no new queue failure. Four of five producers are complete. This is operational validation; the complete-family scientific consumer remains pending. Inspection is recorded before event ACK, with the four-hour deadline unchanged.
 
 OPS-S12-LP02-THIRD-PRODUCER: all 180 LP02-002-a2 requests/responses and the actual producer handler replay, with 1,268 JSON files unchanged and 476 source pins verified. LP02-003-a2 has live native ownership and fresh outputs; no new queue failure. Three of five producers are complete. This is operational validation; the complete-family scientific consumer remains pending. Inspection is recorded before event ACK, with the four-hour deadline unchanged.

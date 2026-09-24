@@ -9,6 +9,45 @@ ran it.
 
 ---
 
+### L438 - complete selection, copying and inference comparison
+
+**Hypothesis.** Correct supplied answers can improve a model reader's task prediction without establishing reliable lookup or inference; deliberately wrong assistance should separate faithful copying from correctness.
+
+**METHOD.** Complete 64 constructed histories from the unchanged Stage 11.2 law, with two queries and six conditions per history: unaided inference, a single correct supplied vector, a two-query answer bank, the same bank under an invertible label permutation, an irrelevant extra bank entry, and the other query's wrong vector. Reconstruct all 768 frozen rows from the retained source roster, checking each exact target against the independent reference and each label inverse. Replay every raw request/parser, five producers and the whole-family consumer from their respective immutable source capsules; all 5,422 JSON files remain unchanged. Compare paired history-level expected half-Brier losses with the frozen 4,000-draw 95% intervals and 0.02 margin. Report copying error separately; no new model inference, fitted threshold or p-value.
+
+Each condition contains 128 attempts across 64 histories. Loss is expected half-Brier loss, lower better; excess subtracts the exact-reference mean 0.072133, and uniform loss is 0.375000. Copied counts literal numeric equality to the supplied vector in displayed coordinates, divided by all attempts; unaided inference has no supplied vector. Mean copying error is the largest coordinate error averaged over valid replies only, whose denominator is shown. Invalid outputs retain loss one and infinite logarithmic loss. Infinite includes every zero-support or invalid reply.
+
+| Condition | Valid / attempted | Copied / attempted | Mean copying error, valid only | Task loss | Excess | Infinite |
+|---|---:|---:|---:|---:|---:|---:|
+| Unaided inference | 126/128 | not applicable | not applicable | 0.380286 | 0.308154 | 66 |
+| Single correct vector | 128/128 | 120/128 | 0.056234 | 0.122720 | 0.050588 | 0 |
+| Correct answer bank | 127/128 | 119/128 | 0.049614 | 0.123685 | 0.051552 | 1 |
+| Permuted bank labels | 124/128 | 87/128 | 0.268516 | 0.335231 | 0.263098 | 4 |
+| Irrelevant bank entry | 128/128 | 118/128 | 0.056266 | 0.122758 | 0.050625 | 0 |
+| Wrong supplied vector | 128/128 | 128/128 | 0.000000 | 0.880323 | 0.808191 | 0 |
+
+The difference is the first condition's loss minus the second's; negative favors the first. Intervals resample 64 histories, retaining the two queries together. The frozen dispositions refer to the 0.02 loss margin; an unresolved comparison does not establish equivalence.
+
+| Paired contrast | Loss difference | 95% interval | Frozen disposition |
+|---|---:|---|---|
+| Bank minus single vector | 0.000965 | [-0.044260, 0.050643] | UNRESOLVED |
+| Permuted labels minus bank | 0.211546 | [0.122966, 0.299235] | HARM |
+| Irrelevant entry minus bank | -0.000927 | [-0.052480, 0.050625] | UNRESOLVED |
+| Wrong minus correct single vector | 0.757603 | [0.719970, 0.789552] | HARM |
+| Correct single vector minus unaided | -0.257566 | [-0.326075, -0.190967] | BENEFIT |
+
+**Found.** Correct single-vector assistance improves task prediction, while the label permutation worsens bank performance after probabilities are returned to canonical coordinates. The bank-selection and irrelevant-entry contrasts remain unresolved. Even single-vector copying makes errors, so assistance does not ensure floor-level performance. Every wrong vector is copied faithfully while task loss worsens; its independently recomputed excess over the exact floor ranges from 0.788976 to 0.810000. This control separates fidelity from correctness in the expected direction. Seven invalid replies and all 71 infinite losses remain in the attempted population.
+
+The attached zero-call calibration analysis pools the six deliberately different assistance conditions; it is descriptive of this mixture, not a deployed uncertainty policy. Its fixed confidence bins partition all 761 valid replies with counts 23, 18, 15 and 705 for [0.2,0.4), [0.4,0.6), [0.6,0.8) and [0.8,1]. Mean confidence minus exact expected correctness is respectively -0.034261, 0.039443, -0.047198 and 0.275035. At threshold zero, retained loss is 0.321315 on 761/768 attempts; at 0.8 it is 0.319639 on 705/768, and at 1.0 it is 0.447002 on 34/768. The valid-only score decomposition retains uncertainty 0.374616, binned reliability 0.002072, binned resolution 0.001144 and within-bin remainder -0.054229. All eight frozen coverage thresholds and the complete consumer are retained in the receipt; none is selected as a new gate.
+
+**Means.** Keep assistance, lookup execution and unassisted inference separate. The new histories extend the earlier exposed binding diagnostic within the same law and reader, but share the local program's discovery pool with the presentation study; conditions and queries are not independent replications. The correct-versus-unaided contrast changes available information as intended and cannot isolate internal computation. Wrong-answer obedience under an explicit copying instruction is not belief adoption. No learned maker reconstruction, human mechanism, general selection cost or broader program verdict follows.
+
+**Operational disposition.** Both completion events receive this full landing. The final 48-call producer and whole-family consumer are verified; native coordinator and LP04-000-a2 successor identities and fresh outputs verify with no new job failures. Continue the same Gear 2 ledger and cutoff; four-hour health remains September 24 at 02:13:07 PDT. No tests harvested or new research, fit, delegation or paid work.
+
+**Curator roll-up.** Theory group: execution and assistance. Question: can faithful copying and task correctness come apart, and does equivalent presentation preserve assistance use? Outcome: **Narrows**. Result: wrong answers are copied faithfully while equivalent label changes impair correct-bank use. Project meaning: neither copying success nor privileged-answer benefit establishes reconstruction. Next engineering obligation: preserve these controls and uncertainty limits in the scheduled packet while the authorized crossed revision comparison runs. Public claim: unchanged. Curator decision required: No. Detail: [complete comparison and replay](results/phase_2_4_stage_12/LOCAL_PROGRAM_BINDING.json).
+
+---
+
 ### OPS-S12-LP02-FOURTH-PRODUCER - complete producer replay and continued execution
 
 **Hypothesis.** A complete answer-binding producer can be accepted as preserved execution evidence while its full comparison remains unfinished.
