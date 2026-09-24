@@ -9,6 +9,32 @@ ran it.
 
 ---
 
+### OPS-S12-DEPARTURE-WATCH - four-hour monitoring armed and seven producers preserved
+
+**Hypothesis.** The authorized local queue can continue with durable four-hour inspection and immediate failure/exit delivery.
+
+**METHOD.** Reenter the actual saved-request/parser and full producer handlers for LP07-014-a2 through LP07-020-a2 after verifying every manifest, contract, source, input, prerequisite and output binding. Compare all original JSON hashes. Verify the exact live worker/coordinator/watcher identities, GPU owner, heartbeat and raw-output freshness, loaded watcher source, all current-plan terminal registrations, coordinator disappearance/urgent-exit watches and the unchanged health deadline. No live experiment or monitoring code is modified.
+
+This table describes operational checks and complete producer coverage; it contains no unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Seven completed producers | Each replays all 22 calls and the complete handler; all 162 JSON files remain unchanged |
+| Bound sources and records | All 476 source pins and manifest/contract/input/prerequisite/terminal bindings verify |
+| Native continuation | LP07-019-a2 and coordinator verify with matching GPU ownership and fresh heartbeat/raw output |
+| Terminal registration | All 652 success/failure paths for the current 326-card plan are registered |
+| Queue exit/disappearance | Exact coordinator identity is watched and its final exit is urgent |
+| Durable watcher | Native identity and loaded source verify; fresh scan, not cancelled, no current scan error |
+| Health cadence | Four-hour interval, next due September 24 at 06:18:46 PDT; ordinary result ACKs do not reset it |
+
+**Found.** The initial three producers replayed at 05:48 PDT; four additional delivered producers replayed at 05:55 PDT with the same unchanged-file checks. Existing monitoring is armed; no duplicate watcher, new wake, process restart or queue recovery is needed. The complete producers are preserved and internally landed. Historical notification failures remain in the private record alongside subsequent actual owner deliveries, without being relabelled as a current scan failure. A historical process-watch entry lacked the optional name field; correcting the inspection lookup completed verification without changing the watcher or repeating inference. Verification costs include that inspection attempt.
+
+**Means.** Keep Gear 2 and the existing scientific gates, cutoff and Friday/Monday packets. LP07's two inspected invalid-selection histories remain incomplete, and complete producers cannot replace the missing frozen population. No tests harvested, new research, model calls, fits, paid compute or delegation. A health event is acknowledged only after its actual inspection, and then rearms four hours later; this departure check does not postpone the existing deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: will completed evidence and authorized queue monitoring persist without duplicate processes or altered science? Outcome: **Infrastructure**. Result: producer replay and the existing durable monitoring schedule verify. Project meaning: independent work can continue within the standing study limits. Next engineering obligation: perform scheduled health and terminal landings, retain incomplete branches. Public claim: unchanged. Curator decision required: No. Detail: [departure monitoring inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_DEPARTURE_WATCH.json).
+
+---
+
 ### OPS-S12-LP07-SECOND-SELECTION-FAILURE - another retained invalid choice and verified independent continuation
 
 **Hypothesis.** An invalid selection must remain a missing dependent history, while successful independent histories preserve their original records and the queue continues.

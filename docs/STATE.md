@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## Departure monitoring verified - September 24, 05:48 PDT
+
+OPS-S12-DEPARTURE-WATCH records complete producer replay for LP07-014-a2
+through LP07-020-a2, each with 22 calls and 162 JSON files unchanged. The four
+additional delivered producers were replayed at 05:55 PDT.
+All source/input/prerequisite/contract/output bindings verify. LP07-019-a2,
+coordinator, matching GPU lock, fresh output and checkpoint helper verify.
+The sole watcher has matching loaded source and fresh scans; all 652 current
+success/failure paths and the coordinator's urgent exit/disappearance watch
+are registered. No new watcher, wake or restart is needed. Historical delivery
+errors remain preserved alongside subsequent actual owner wakes.
+
+The health schedule remains due September 24 at 06:18:46 PDT and rearms four
+hours after each documented health inspection ACK. Ordinary producer ACKs and
+this departure check do not reset it. Gear 2, original cutoff and review times
+remain. Both inspected failed-selection histories and the unavailable complete-only
+LP07 consumer remain explicit. No tests harvested or new scope.
+
 ## Second sequential-questioning failure inspected - September 24, 05:40 PDT
 
 OPS-S12-LP07-SECOND-SELECTION-FAILURE records complete producers 010/012/013,
