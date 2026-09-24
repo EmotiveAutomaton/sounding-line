@@ -1,14 +1,14 @@
 # STATE: the agent's operational file
 
-## Local continuation after mechanical repair - September 24, 00:48 PDT
+## Local continuation after mechanical repair - September 24, 01:01 PDT
 
 The complete LP02 comparison is internally landed in L438: all 768 calls,
 five producers and the whole-family consumer replay with all 5,422 JSON files
 unchanged. Frozen source reconstruction, independent copying checks and
 calibration partition verify; every invalid and frozen contrast is retained.
-The seventh LP04 producer completes: all 168 calls and saved-reply dependencies
-replay with every JSON unchanged. OPS-S12-LP04-SEVENTH-PRODUCER records this
-operational inspection; seven of sixteen producers are complete. LP04-007-a2 is
+The eighth LP04 producer completes: all 168 calls and saved-reply dependencies
+replay with every JSON unchanged. OPS-S12-LP04-EIGHTH-PRODUCER records this
+operational inspection; eight of sixteen producers are complete. LP04-008-a2 is
 advancing with fresh outputs and verified native identity. No new failure or
 recovery need. The broader local program remains unfinished;
 four-hour timing and final-packet reporting are unchanged.
