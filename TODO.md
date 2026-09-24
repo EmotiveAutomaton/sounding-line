@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP04-ELEVENTH-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
+
 - [x] OPS-S12-LP04-TENTH-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
 
 - [x] OPS-S12-LP04-NINTH-PRODUCER: all 168 calls, saved-reply dependencies and full handler replay without new inference or file changes. Source/input/terminal/native continuation checks and operational write-through complete; the whole LP04 comparison remains pending.
