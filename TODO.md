@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP06-FIRST-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/prerequisite/input/output/native continuation checks and operational write-through complete; whole LP06 family pending.
+
 - [x] L440 / LP05: all seven producers and the complete consumer, source/request/score replay, theory row and full internal write-through. Retain all frozen pooled contrasts, invalids and interpretation limits in the Friday/Monday packets; no new tests opened by this wake.
 
 - [x] OPS-S12-LP05-SIXTH-PRODUCER: all 180 calls and full handler replay without new inference or file changes. Source/input/output/native continuation checks and operational write-through complete; whole LP05 family pending.
