@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP07-PRODUCERS-028-030: all three complete producers replay every actual saved request/parser and full handler, each with 22 calls and all 162 JSON files unchanged. Bindings, native continuation and monitoring verify. Delayed complete 021/023 and failed 022 notices match the published third-failure receipt. No repair, retry or restart; whole LP07 remains incomplete.
+
 OPS-S12-LP07-PRODUCERS-026-027: both complete producers replay every saved request/parser and full handler, each with 22 calls and 162 JSON files unchanged. Source/input/prerequisite/output bindings, live continuation and monitoring verify. Delayed 014/015 notices match the published departure receipt. No code change, retry or duplicate generation; whole LP07 remains incomplete.
 
 OPS-S12-LP07-THIRD-SELECTION-FAILURE: complete producers 021/023/024/025 replay all 22 calls each with 162 JSON files per producer unchanged. Failed 022 preserves two returned calls, reproduces the unavailable-selection guard and retains 20 unstarted slots with all 20 JSON files unchanged. Bindings, charges, failed native exit and fresh independent continuation/monitoring verify. Prior regression applies unchanged; no repair or retry. Delayed 010/011/012/013 notices match their published landing; complete-only LP07 remains unavailable.

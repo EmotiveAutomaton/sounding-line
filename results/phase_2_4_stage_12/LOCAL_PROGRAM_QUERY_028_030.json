@@ -1,0 +1,59 @@
+{
+  "landing": "OPS-S12-LP07-PRODUCERS-028-030",
+  "status": "inspection-complete",
+  "at": "2026-09-24T13:13:53.117741+00:00",
+  "completed_producers": {
+    "LP07-028-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "db0fa2904c275c7979bca4abca01185129c2a1774636d96b71c0d4b7fb3ccad6",
+      "source_pins_verified": 476,
+      "terminal_sha256": "c353bdf2d5dea06e76b45766c3f23da1461a3bca4704ef45279bef5ac02ce7f3"
+    },
+    "LP07-029-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "334626cd2927afaf6a2a5121bbb7ec6e9dcacc3f56fa64be06367709e58803a6",
+      "source_pins_verified": 476,
+      "terminal_sha256": "f64030da4467bf99259801017b54fc2b32a91b160efb31bfcc479389df819a83"
+    },
+    "LP07-030-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "873b62fafa302f587291738b951b20230276c8275aa25c12b70b0c00a1f67b6b",
+      "source_pins_verified": 476,
+      "terminal_sha256": "a4d4fde493017bbd9b2317de41effb529447c25de1ff33e208f2fc6d2be71099"
+    }
+  },
+  "delayed_notices_reconciled": [
+    "LP07-021-a2",
+    "LP07-023-a2",
+    "LP07-022-a2"
+  ],
+  "delayed_landing": "OPS-S12-LP07-THIRD-SELECTION-FAILURE",
+  "all_source_manifest_contract_input_prerequisite_output_bindings_verified": true,
+  "active_job": "LP07-032-a2",
+  "native_worker_coordinator_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 2.356467,
+  "raw_output_age_seconds": 2.4585988521575928,
+  "watcher_native_loaded_source_and_freshness_verified": true,
+  "checkpoint_native_verified": true,
+  "verification_charge": {
+    "at": "2026-09-24T13:13:53.116599+00:00",
+    "cpu_seconds": 0.75,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Query producers 028/029/030 replay and delayed notice reconciliation",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "gear": 2,
+  "health_due_utc": "2026-09-24T13:18:46.104688+00:00",
+  "scope": "Completed producer preservation and delayed delivery reconciliation only; whole LP07 remains incomplete with the three previously inspected failed histories and unavailable complete-only consumer."
+}

@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S12-LP07-PRODUCERS-028-030 - completed evidence and delayed failure notice reconciled
+
+**Hypothesis.** Complete independent histories remain replayable, and delayed delivery of an already inspected failure does not trigger a duplicate attempt or lose its evidence deficit.
+
+**METHOD.** Verify manifests, all 476 source pins, contract/input/prerequisite and terminal/output bindings for LP07-028-a2 through LP07-030-a2. Reenter every saved request/parser and full producer handler and compare all original JSON hashes. Match complete 021/023 and failed 022 notices to their published third-failure receipt by manifest/terminal hashes. Verify exact live worker/coordinator/GPU identities, heartbeat/raw-output freshness, watcher loaded source, checkpoint helper and unchanged health deadline.
+
+The table records operational coverage and continuation, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Complete producers 028, 029 and 030 | Each replays all 22 calls and its full handler; all 162 JSON files per producer remain unchanged |
+| Bound evidence | Source, manifest, contract, input, prerequisite and output hashes verify |
+| Delayed completion and failure notices | All three match the already published third-failure landing; no duplicate execution |
+| Native continuation | LP07-032-a2 and coordinator verify with matching GPU ownership and fresh output |
+| Monitoring | Native watcher, loaded source and original checkpoint helper verify; health remains due September 24 at 06:18:46 PDT |
+
+**Found.** All complete producers are internally preserved. The delayed failure is the already inspected invalid-selection stop, with its retained replies and missing dependent slots unchanged. No code change, retry, process restart or monitoring recovery is needed.
+
+**Means.** Continue existing independent cards in Gear 2. Whole LP07 remains incomplete and its complete-only consumer unavailable; completed survivors do not replace the three previously inspected failed histories. Keep original costs, cutoff, Friday/Monday packets and four-hour monitoring. No tests harvested, new research, fits, cloud calls or delegation. These ACKs do not postpone the health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: can completed evidence and delayed failure delivery be reconciled without repeating science? Outcome: **Infrastructure**. Result: complete replay and published-record reconciliation verify. Project meaning: independent work continues with the original missing-history deficit preserved. Next engineering obligation: keep landing completed records and carry incomplete-family accounting into scheduled packets. Public claim: unchanged. Curator decision required: No. Detail: [producer and delayed-failure inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_028_030.json).
+
+---
+
 ### OPS-S12-LP07-PRODUCERS-026-027 - complete records preserved and delayed notices reconciled
 
 **Hypothesis.** Newly completed independent questioning histories remain fully replayable while delayed notices resolve to existing landings without duplicate generation.
