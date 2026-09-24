@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP07-THIRD-SELECTION-FAILURE: complete producers 021/023/024/025 replay all 22 calls each with 162 JSON files per producer unchanged. Failed 022 preserves two returned calls, reproduces the unavailable-selection guard and retains 20 unstarted slots with all 20 JSON files unchanged. Bindings, charges, failed native exit and fresh independent continuation/monitoring verify. Prior regression applies unchanged; no repair or retry. Delayed 010/011/012/013 notices match their published landing; complete-only LP07 remains unavailable.
+
 OPS-S12-DEPARTURE-WATCH: seven completed producers 014-020 each replay all 22 calls with 162 original JSON files unchanged and all bindings verified. Native worker/coordinator, GPU lock, loaded watcher source and checkpoint helper verify. All 652 current-plan terminal paths and the exact coordinator disappearance/urgent-exit watch are registered. Four-hour health remains armed for September 24 at 06:18:46 PDT. No watcher or scientific code change.
 
 OPS-S12-LP07-SECOND-SELECTION-FAILURE: complete producers 010, 012 and 013 each replay all 22 calls with 162 JSON files unchanged. Failed 011 replays both returned calls and the unavailable-selection guard with 20 JSON files unchanged; all charges and native exit verify. Source/input/prerequisite/output bindings and live successor/GPU ownership/monitoring pass. Same frozen guard, no code change or retry. Whole LP07 remains incomplete; delayed 004-007 notices match the prior published landing.

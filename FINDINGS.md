@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-LP07-THIRD-SELECTION-FAILURE - preserved invalid selection and continuing independent histories
+
+**Hypothesis.** A failed question selection must preserve the missing dependent history and its costs while independent authorized histories continue with replayable evidence.
+
+**METHOD.** Verify manifests, all 476 source pins, contract/input/prerequisite bindings and terminal outputs for complete producers LP07-021-a2, LP07-023-a2, LP07-024-a2 and LP07-025-a2. Reenter every actual saved request/parser and full producer handler. Replay the saved LP07-022-a2 prefix and exact dependency exception before dispatch; compare all original JSON hashes and verify failed native exit and retained charges. Verify live successor/coordinator/GPU ownership, output freshness, loaded watcher source, checkpoint helper and unchanged health deadline. Reconcile the delayed 010/011/012/013 notices with their already published second-failure receipt by manifest and terminal hashes.
+
+This table describes operational coverage and retained failures, without unfinished-family scientific scores.
+
+| Check | Result |
+|---|---|
+| Completed producers 021, 023, 024 and 025 | Each replays all 22 calls and its full handler; all 162 JSON files per producer remain unchanged |
+| Failed producer 022 | Both returned calls and their scored records replay; all 20 JSON files unchanged |
+| Failure guard | First selection fails finite-probability parsing; the exact unavailable-selection exception blocks the remaining 20 dependent slots before dispatch |
+| Accounting and exit | Both call charges and GPU-owner overhead complete; worker charge retains failed status; exact native worker exited |
+| Bound records | Source, manifest, contract, input, prerequisite and complete output bindings verify |
+| Continuation | LP07-027-a2, coordinator and GPU ownership verify; heartbeat and raw output fresh |
+| Monitoring | Native watcher, loaded source and original checkpoint helper verify; four-hour health deadline unchanged |
+| Delayed notices | All four older terminal records match the published second-failure landing |
+
+**Found.** The third inspected selection failure follows the frozen guard; it is not a lost response or a new harness defect. Original replies, missing dependent slots and costs remain. The previous guard regression still applies without any code change. No fallback, retry, source repair or process restart is required. Four complete independent producers are internally preserved and the older notices reconcile without duplicate execution.
+
+**Means.** Whole LP07 remains incomplete: completed survivors cannot substitute for the frozen population, and its complete-only primary consumer remains unavailable. Retain all three inspected failed histories in the Friday/Monday packets while independent commissioned work continues in Gear 2. Original cutoff and resource ceilings remain. No tests harvested, new research, inference retries, fits, cloud calls or delegation. Ordinary ACKs do not postpone the September 24 06:18:46 PDT health check.
+
+**Curator roll-up.** Theory group: operational validity. Question: does a further invalid selection preserve the evidence deficit while independent work continues? Outcome: **Infrastructure**. Result: the specified guard reproduces and independent execution remains healthy. Project meaning: the complete questioning comparison remains unavailable. Next engineering obligation: preserve failed histories and all completed records in the scheduled packets, continuing only existing independent work. Public claim: unchanged. Curator decision required: No. Detail: [third selection-failure inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_THIRD_FAILURE.json).
+
+---
+
 ### OPS-S12-DEPARTURE-WATCH - four-hour monitoring armed and seven producers preserved
 
 **Hypothesis.** The authorized local queue can continue with durable four-hour inspection and immediate failure/exit delivery.

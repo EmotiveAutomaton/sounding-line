@@ -2,10 +2,11 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP07-THIRD-SELECTION-FAILURE: complete producers 021/023/024/025 and failed 022 prefix/guard replay; all bindings, charges, native continuation and full operational write-through complete. Delayed 010/011/012/013 notices reconciled.
 - [x] OPS-S12-DEPARTURE-WATCH: producers 014-020 replay and full operational write-through complete; live monitoring, all current-plan terminal watches and unchanged four-hour deadline verify. Continue scheduled inspections and complete internal landings.
 - [x] OPS-S12-LP07-SECOND-SELECTION-FAILURE: complete producers 010/012/013 and failed 011 prefix/guard replay, all bindings/costs/native continuation and full operational write-through complete; delayed 004-007 notices reconciled.
 - [x] OPS-S12-LP07-SELECTION-FAILURE: complete producers 004-008 and failed 009 prefix/guard replay; costs, native continuation, full operational write-through and delayed LP06 reconciliation complete.
-- [ ] LP07 incomplete-family reporting: retain both inspected invalid-selection histories and all unstarted dependent calls; complete-only primary consumer cannot run on survivors. Independent frozen histories continue without fallback, blind retry or replacement.
+- [ ] LP07 incomplete-family reporting: retain all three inspected invalid-selection histories and all unstarted dependent calls; complete-only primary consumer cannot run on survivors. Independent frozen histories continue without fallback, blind retry or replacement.
 
 - [x] OPS-S12-LOCAL-VALIDITY-0514: full Stage 12 tests, current-plan/input/source/terminal/output audit and explicit completed-job report index; LP07 first four producer actual replays and operational write-through complete. Existing work remains; conditional new research is not activated.
 

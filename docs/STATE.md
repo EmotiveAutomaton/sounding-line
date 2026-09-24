@@ -1,5 +1,21 @@
 # STATE: the agent's operational file
 
+## Third sequential-questioning failure inspected - September 24, 06:05 PDT
+
+OPS-S12-LP07-THIRD-SELECTION-FAILURE lands complete producers 021/023/024/025,
+each replaying 22 calls with all 162 JSON files unchanged. Failed 022 retains
+two returned calls and reproduces the specified unavailable-selection guard;
+20 dependent slots remain unstarted and all 20 JSON files unchanged. All
+bindings, charges and failed native exit verify. No source defect or retry.
+LP07 now has three inspected invalid-selection histories; its complete-only
+primary consumer remains unavailable. Preserve this deficit in Friday/Monday
+packets and continue the frozen independent histories.
+
+LP07-027-a2, native coordinator, GPU lock, fresh output, watcher loaded source
+and checkpoint helper verify. Delayed 010/011/012/013 notices match their
+published landing. Gear 2, original scope/cutoff and September 24 06:18:46 PDT
+health deadline remain unchanged. No new tests harvested or new scope.
+
 ## Departure monitoring verified - September 24, 05:48 PDT
 
 OPS-S12-DEPARTURE-WATCH records complete producer replay for LP07-014-a2

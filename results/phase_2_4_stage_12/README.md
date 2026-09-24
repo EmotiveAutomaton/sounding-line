@@ -4,7 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 05:40 PDT: two inspected sequential-questioning
+Current continuation, September 24 at 06:05 PDT: three inspected questioning
+histories retain invalid selections and missing dependent slots. Four more
+complete producers replay unchanged, and Gear 2 independent continuation and
+monitoring verify. Whole LP07 remains incomplete; no retry or source repair.
+[Latest inspection](LOCAL_PROGRAM_QUERY_THIRD_FAILURE.json) also reconciles
+four delayed notices. Health remains due at 06:18:46 PDT.
+
+Earlier continuation, September 24 at 05:40 PDT: two inspected sequential-questioning
 histories stop at the specified invalid-selection guard. All replies and costs
 remain; the complete-only family comparison is incomplete. Independent histories
 continue in Gear 2. Three more complete producers and the second failed prefix
