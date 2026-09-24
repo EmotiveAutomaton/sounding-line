@@ -9,6 +9,70 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-PROGRAM-REPAIR - prospective admission and calibration repair
+
+**Hypothesis.** The approved continuation can preserve its scientific questions and existing responses while correcting two implementation faults before the affected admission jobs run.
+
+**METHOD.** Reconcile the delayed constructed-admission notice against its already completed FINDINGS/TOOLS/TODO landing, output hashes and eleven actual raw/parser replays. Exercise the later task-admission handler end to end for both transports, with successful, incorrect and invalid fake replies. Check calibration membership at every exact fixed-bin boundary. Preserve the original capsule, manifests, summaries and costs; freeze corrected code only into unstarted successor units. Verify actual native ownership before retiring the coordinator, let its current worker finish naturally, and launch the separately frozen continuation after regression and exhaustive synthetic checks.
+
+The table describes implementation checks and execution disposition, not reader performance. A synthetic case is never scientific evidence.
+
+| Check | Result |
+|---|---|
+| Delayed admission event | Already fully landed and acknowledged; eleven retained calls replay; duplicate ACK leaves health time unchanged |
+| Prospective admission defect | The local `admission` variable hid the function: local transport raised TypeError and HF raised UnboundLocalError; twelve integration cases reproduce the fault before repair |
+| Calibration defect | Arithmetic construction of the 0.6 boundary counted three responses twice: 382 bin memberships for 379 valid responses; original calibration is VOID and retained |
+| Corrected validation | 64 Stage 12 tests and all 22,832 synthetic request/analysis slots pass; all twelve gate cases pass; literal shared edges and a partition assertion prevent overlap |
+| Existing observations | Three complete presentation producers and their whole-family consumer replay; the preserved 180-call first answer-binding producer also replays, with its whole family still pending |
+| Native handoff | Only the identified coordinator was retired; its active GPU worker completed normally; no inference was interrupted or repeated |
+| Successor freeze | 325 unstarted units retain exact requests, targets, gates, limits and input bytes; one additional CPU-only calibration recomputation; only program.py differs among 476 source pins; 957 input bindings verify |
+| Live continuation | Corrected calibration consumer completes and replays; successor answer-binding worker has verified native identity and fresh responses |
+| Accounting and monitoring | Same ledger/cutoff and four-hour deadline; conservative 1,800 CPU-second maintenance charge, no additional inference for repair; original Friday/Monday packets unchanged |
+
+**Found.** Both faults were real and were missed by the earlier validation: testing the admission function alone did not exercise its handler dispatch, and synthetic score identities did not assert disjoint bin membership. The repaired presentation analysis preserves every primary aggregate, contrast, interval and coverage row exactly. Only its invalid original calibration is superseded. The first prepared handoff was deliberately cancelled before launching a queue so the second fault could join the same prospective repair; its cancellation receipt and unexecuted plan remain. The active plan is `PLAN-local-program-admission-fix-v2.json` in the original local-program raw namespace, using `queue-admission-fix-v2/` and the separately recorded family-job mapping. Original pending manifests remain historical, not additional runnable work.
+
+**Means.** Continue Gear 2 within the same two-day authority, with narrow human and secondary-reader gates unchanged. No scientific verdict follows from a repaired admission implementation, and no new research, paid work, fit or delegation was added. The next health inspection remains September 24 at 02:13:07 PDT. Completed presentation science is L437; the preserved answer-binding producer is only an operational landing until its complete-family consumer arrives.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can the approved queue proceed without wasting admission calls or double-counting calibration observations? Outcome: **Infrastructure**. Result: both mechanical defects are corrected and the continuation is running. Project meaning: original observations remain usable within their stated scope; the old calibration does not. Next engineering obligation: land complete families and retain both repair histories. Public claim: unchanged. Curator decision required: No. Detail: [repair inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_ADMISSION_REPAIR.json), [corrected calibration](results/phase_2_4_stage_12/LOCAL_PROGRAM_PRESENTATION_CALIBRATION_REPAIR.json).
+
+---
+
+### L437 - complete presentation and repeat controls
+
+**Hypothesis.** A local model reader may change its inferred next-action distribution when equivalent evidence or candidate labels are presented differently, even if identical requests repeat exactly.
+
+**METHOD.** Evaluate all six frozen presentations on each of 64 new constructed histories from the unchanged Stage 11.2 law: canonical, identical repeat, reversed options, invertibly permuted labels, evidence first and evidence last. Canonicalize probabilities before scoring against the identical exact reference. Replay all 384 actual requests/responses, all three producer handlers and both original and corrected whole-family consumers. Retain invalid outputs with maximum loss and infinite logarithmic loss. Compare paired history-level losses using the fixed 4,000-draw 95% intervals and 0.02 equivalence margin; calculate probability movement only on explicitly counted valid pairs. No human evidence or additional model family is involved.
+
+Every condition has 64 attempts. Loss is expected half-Brier loss, lower better; excess subtracts the exact-reference mean 0.07130. Uniform forecasting has loss 0.37500. Infinite means infinite logarithmic loss, including invalid responses; these counts are not filtered away.
+
+| Presentation | Loss | Excess | Invalid | Infinite |
+|---|---:|---:|---:|---:|
+| Canonical | 0.42534 | 0.35404 | 1 | 19 |
+| Identical repeat | 0.42534 | 0.35404 | 1 | 19 |
+| Reversed options | 0.41742 | 0.34612 | 0 | 17 |
+| Permuted labels | 0.44451 | 0.37321 | 1 | 21 |
+| Evidence first | 0.40120 | 0.32990 | 1 | 19 |
+| Evidence last | 0.38568 | 0.31439 | 1 | 17 |
+
+The paired difference is the first presentation's loss minus the second's; negative favors the first. The interval resamples 64 source histories. Probability movement is mean total variation, from zero for identical distributions to one for disjoint distributions, over the valid pairs shown; it is a separate descriptive readout.
+
+| Paired contrast | Loss difference | 95% interval | Frozen disposition | Probability movement | Valid pairs |
+|---|---:|---|---|---:|---:|
+| Repeat minus canonical | 0.00000 | [0.00000, 0.00000] | EQUIVALENT | 0.00000 | 63/64 |
+| Reversed options minus canonical | -0.00792 | [-0.10995, 0.08874] | UNRESOLVED | 0.45841 | 63/64 |
+| Permuted labels minus canonical | 0.01917 | [-0.06329, 0.09814] | UNRESOLVED | 0.43255 | 62/64 |
+| Evidence last minus first | -0.01552 | [-0.08938, 0.06014] | UNRESOLVED | 0.34766 | 62/64 |
+
+**Found.** Identical requests reproduce the same canonicalized probabilities on every valid pair and the same invalid status on the remaining pair. Changed presentation moves distributions while the exact targets stay identical, but none of the three changed-presentation mean-loss contrasts establishes benefit, harm or equivalence under its frozen margin. Every condition's descriptive mean loss exceeds the uniform reference; stable repeats therefore do not demonstrate correct inference.
+
+The fixed coverage analysis retains 379/384 replies at threshold zero with valid-only mean loss 0.40889; at 0.8 it retains 116/384 with loss 0.45142, and at 1.0 only 4/384 with loss 0.07516. These are declared descriptive thresholds, not a selected abstention policy. Corrected calibration has disjoint bin counts 117, 80, 66 and 116 for confidence ranges [0.2,0.4), [0.4,0.6), [0.6,0.8) and [0.8,1]. Mean confidence minus exact expected correctness is respectively 0.07400, 0.06318, 0.30856 and 0.40233. The valid-only score decomposition is uncertainty 0.371519, binned reliability 0.017302, binned resolution 0.009579 and retained within-bin remainder 0.029643. The original overlapping-bin analysis is VOID for calibration only; all original files and every unchanged primary comparison remain.
+
+**Means.** Treat repeatability and presentation robustness as distinct properties of this reader. Pair nuisance order in later comparisons and retain output invalidity; do not adopt a preferred presentation from these unresolved mean-loss contrasts. This is one model reading one constructed law, with dependent presentations within each history. It neither measures a human heuristic nor diagnoses an internal mechanism. The broader local program remains unfinished and receives no combined verdict.
+
+**Curator roll-up.** Theory group: reader heuristics and calibration. Question: does unchanged meaning ensure stable readings? Outcome: **Narrows**. Result: repeat stability coexists with presentation-dependent output in this constructed comparison. Project meaning: the local instrument requires presentation controls even when its repeated requests agree. Next engineering obligation: retain the frozen paired controls and process the remaining complete families. Public claim: newly licensed only for this model-reader construction; human and internal-mechanism claims unchanged. Curator decision required: No. Detail: [original complete replay](results/phase_2_4_stage_12/LOCAL_PROGRAM_PRESENTATION.json), [calibration repair and unchanged primaries](results/phase_2_4_stage_12/LOCAL_PROGRAM_PRESENTATION_CALIBRATION_REPAIR.json).
+
+---
+
 ### OPS-S12-LOCAL-PROGRAM-HEALTH-2208 - scheduled queue health verified
 
 **Hypothesis.** The newly commissioned local queue can keep advancing within its resource limits and correctly supervised ownership.

@@ -1083,6 +1083,7 @@ rate and next to a field bar.
 | **revision homogeneity** (§7) | real 0.45 vs spliced 1.94, AUC 1.0 | synthetic cross-author splice | **SUPPORTED (test), first pass, weakest adversary.** The realistic imposition case is untested |
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
 | **maker-reader family similarity** (§1, model analogue) | historical exact-vs-cross +0.035, sibling-vs-cross +0.025; accepted Qwen paraphrase +0.016/+0.021; capacity rank 0.43; crossed +0.020/+0.014 original and +0.012/+0.011 weak rewrite; geometry ranks 0.50/0.77. Corrected full matrix: qwen +0.0137, smollm +0.0096, olmo +0.0365. Strong independent erasure: +0.001 in each powered family | identical candidates, within-reader contrasts, weaker rewrites, then stronger independent erasure with both families above floor | **SUPPORTED for original-artifact relatedness; mechanism OPEN (test, L163-L168, L177-L182, L217-L219, L225, L236, L251).** Stronger erasure removes the advantage; weak-rewrite survival does not exclude shared convention. Later hash splits are retrospective robustness, not untouched confirmation; see §1 for retained history |
+| **repeatability versus presentation robustness**, local model reader on constructed histories | identical repeats match; equivalent option/label/evidence presentations move canonicalized probabilities, with changed-presentation mean-loss contrasts unresolved | 64 histories, six paired views, unchanged exact targets; uniform loss remains below each view's descriptive mean | **SUPPORTED for output sensitivity in this reader construction; directional accuracy effect OPEN (test, L437).** Complete actual replay, invalids retained; original calibration voided and corrected without changing primary contrasts. No human or internal-mechanism claim |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
 **What the dashboard says.** Original-artifact relatedness survives within-reader and weaker
@@ -1091,8 +1092,10 @@ above their floors (L251). Corrected full-matrix aggregation preserves the origi
 (L236); retrospective splits do not provide untouched confirmation. Shared organization and
 shared convention remain rivals, and representational correlation does not settle causation.
 The probe trajectory's initial human-machine contrast is superseded by model/register sensitivity
-(L101, L105). These measurements do not establish a general provenance mechanism, and stacking
-still requires construct validation. Confidence: replicated and controlled for the surface
+(L101, L105). A local model can repeat an identical request yet change its inferred distribution
+when equivalent evidence is presented differently; repeatability alone therefore does not establish
+presentation robustness or correct inference (L437). These measurements do not establish a general
+provenance mechanism, and stacking still requires construct validation. Confidence: replicated and controlled for the surface
 variation number; instrument-dead for the probe's provenance reading; one bad test away for the
-relatedness mechanism and other measured heuristics; untested, logic only for everything
+relatedness mechanism, constructed presentation sensitivity and other measured heuristics; untested, logic only for everything
 unmeasured is untested.

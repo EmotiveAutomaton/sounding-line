@@ -132,5 +132,45 @@ class ProgramTests(unittest.TestCase):
             with self.assertRaises(ValueError):H.call(req,3,root,{},root,card)
             with self.assertRaises(ValueError):H.call(req,2,root,{},root,dict(card,model_files={'frozen':'b'*64}))
 
+    def test_admission_handler_writes_verdict_and_replays_for_both_backends(self):
+        from runners.stage12 import program_hf as H
+        for family in ('LP16','LP17','LP20-Qwen','LP20-Smol'):
+            for probabilities,expected in (([1.,0.],True),([0.,1.],False),(None,False)):
+                with self.subTest(family=family,probabilities=probabilities),tempfile.TemporaryDirectory(dir=REPO/'results') as tmp:
+                    root=Path(tmp)
+                    rows=[dict(id='fixture',family=family,text='FAKE admission fixture only',n=2,
+                        call_class='direct',label_order=[0,1],target=[1.,0.],view='witness')]
+                    freeze(root/'input.json',rows);freeze(root/'gate.json',dict(reader_admitted=True))
+                    card=dict(family=family,calls=1,rows_path=str(root/'input.json'),rows_digest=digest(rows),
+                        admission_path=str(root/'gate.json'),profile={},admission=True)
+                    if family.startswith('LP20'):card['hf_model']='fixture-only'
+                    calls=[]
+                    def fake_call(req,n,path,*args,**kwargs):
+                        path=Path(path)
+                        if (path/'COMPLETE.json').exists():return read(path/'COMPLETE.json')
+                        calls.append(req)
+                        freeze(path/'RAW.json',dict(message=dict(content='FAKE transport fixture')))
+                        return freeze(path/'COMPLETE.json',dict(probabilities=probabilities,wall_seconds=0.))
+                    with patch.object(API,'service',service),patch.object(API,'call',fake_call),patch.object(H,'service',service),patch.object(H,'call',fake_call):
+                        first=P.run(root/'out',card,lambda **kw:None,root)
+                        self.assertEqual(first['reader_admitted'],expected)
+                        self.assertEqual(read(root/'out/ADMISSION.json')['reader_admitted'],expected)
+                        self.assertEqual((root/'out/READY.json').exists(),expected)
+                        self.assertEqual(first,P.run(root/'out',card,lambda **kw:None,root))
+                    self.assertEqual(len(calls),1)
+
+    def test_calibration_bins_partition_exact_boundary_confidences(self):
+        rows=[]
+        for confidence in (.2,.4,.6,.8,1.):
+            probabilities=[confidence]+[(1-confidence)/4]*4
+            target=[.2]*5
+            rows.append(dict(method='direct',n=5,probabilities=probabilities,target=target,
+                score=distribution(probabilities,target)))
+        group=P.calibration(rows)['groups'][0]
+        self.assertEqual(sum(b['count'] for b in group['bins']),len(rows))
+        self.assertEqual([(b['lower'],b['count']) for b in group['bins']],[(.2,1),(.4,1),(.6,1),(.8,2)])
+        components=group['score_components']
+        self.assertAlmostEqual(components['valid_only_loss'],components['uncertainty']+components['binned_reliability']-components['binned_resolution']+components['within_bin_remainder'])
+
 
 if __name__=='__main__':unittest.main()

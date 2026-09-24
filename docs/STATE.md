@@ -1,5 +1,34 @@
 # STATE: the agent's operational file
 
+## Local continuation after mechanical repair - September 23, 22:36 PDT
+
+Gear 2 is running from `raw/local-program-20260923-v2/PLAN-local-program-admission-fix-v2.json`
+and `queue-admission-fix-v2/`. The old coordinator was deliberately retired;
+its current LP02-000 worker completed normally and all 180 calls replay.
+The original six started jobs remain. The 325 untouched successor units now
+have `-a2` IDs, with identical requests, targets, gates and cost ceilings.
+Use `FAMILY_JOBS-admission-fix-v2.json` for actual producer dependencies.
+One additional CPU-only calibration repair has completed. Original unstarted
+manifests and the cancelled first repair plan are historical, not extra work.
+
+The repair removes a local variable that hid the admission function and makes
+calibration bins disjoint at literal boundaries. All 64 tests and the complete
+22,832-slot synthetic rehearsal pass. All 476 source pins and 957 successor
+input bindings verify; only program.py changed among pinned sources. New queue
+and worker identities and fresh responses verify in the private REPAIR-LIVE.json.
+Full repair/operational write-through is OPS-S12-LOCAL-PROGRAM-REPAIR; all 384
+presentation calls and unchanged primary comparisons are internally landed in
+L437. Original overlapping-bin calibration is VOID; corrected calibration and
+all original outputs are retained. No broader program verdict is available.
+
+The same ledger includes a conservative 1,800 CPU-second maintenance charge.
+The original September 25, 20:50 PDT cutoff and Friday/Monday packets remain.
+Four-hour inspection is still due September 24 at 02:13:07 PDT. No new paid
+calls, fits, delegation or research scope. The delayed admission notice was
+reconciled with its existing full landing; duplicate ACK does not move health.
+This handoff and full internal landings accompany the repair commit; exact
+remote verification is recorded privately after publication.
+
 ## Extensive local program - running September 23
 
 The curator approved all 22 proposals and Gear 2 execution for the next two days.

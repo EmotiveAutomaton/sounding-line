@@ -1,5 +1,25 @@
 # Current status
 
+## Local continuation repaired and running - September 23, 22:36 PDT
+
+Gear 2 continues the same 22,832-request program. Two mechanical defects were
+reproduced and repaired before the later task admissions: admission dispatch
+and overlapping calibration bins. All 64 tests and the exhaustive synthetic
+rehearsal pass. The current GPU job finished normally; a separately frozen
+continuation now runs the 325 untouched successor units plus one completed
+CPU calibration recomputation. Original observations and primary comparisons
+are preserved; no inference was interrupted or repeated.
+
+The complete presentation family is internally landed in L437, with the old
+calibration marked VOID and its corrected version retained. Other families
+remain unfinished. Active plan/queue are local-program-admission-fix-v2 and
+queue-admission-fix-v2 in the original local-program raw namespace.
+The cutoff remains September 25 at 20:50 PDT and the next health inspection
+September 24 at 02:13:07 PDT. Original Friday/Monday reviews remain scheduled.
+[Repair inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_ADMISSION_REPAIR.json).
+
+## Historical setup snapshot
+
 ## Extensive local program running - September 23
 
 The approved Gear 2 program is built and running: 331 source-bound jobs covering

@@ -4,7 +4,18 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-The later September 23 local-program commission is now running in Gear 2 with
+Current local continuation: prospective admission dispatch and calibration-bin
+boundaries are repaired, with all 64 tests and the 22,832-slot synthetic rehearsal
+passing. The completed presentation family is internally landed in L437; its
+original overlapping-bin calibration is VOID and the corrected CPU recomputation
+preserves all primary comparisons. The old active worker completed normally;
+325 untouched successors now run from queue-admission-fix-v2 in the same raw
+namespace and ledger. See [repair inspection](LOCAL_PROGRAM_ADMISSION_REPAIR.json)
+and [calibration correction](LOCAL_PROGRAM_PRESENTATION_CALIBRATION_REPAIR.json).
+The cutoff remains September 25 at 20:50 PDT and next health September 24 at
+02:13:07 PDT. No new research scope or inference retry follows.
+
+Historical local-program setup: the September 23 commission began in Gear 2 with
 331 source-bound jobs and 22,832 study slots, plus eleven completed and replayed
 constructed-reader admission calls. All 62 tests, full synthetic rehearsal,
 cached-tokenizer checks and 21 locks pass. Exact source/input/native ownership

@@ -74,8 +74,8 @@ def run(out,card,pulse,raw):
         from .program_hf import service,call
         manager=nullcontext({}) if replay else service(out,card,raw)
     else:
-        admission=read(card['admission_path'])
-        if admission.get('reader_admitted') is not True:raise ValueError('constructed reader admission unavailable')
+        reader_gate=read(card['admission_path'])
+        if reader_gate.get('reader_admitted') is not True:raise ValueError('constructed reader admission unavailable')
         call=local_api.call;manager=nullcontext({'uncertain':False}) if replay else local_api.service(out,card['profile'],raw)
     rows=[];bodies={};receipts=[]
     with manager as state:
@@ -218,24 +218,29 @@ def consume(out,card,pulse,raw):
 
 def calibration(rows):
     """Fixed bins and paired ranks, no fitted calibrator or chosen threshold."""
+    edges=(0.,.2,.4,.6,.8,1.)
+    def members(values,lower,upper):
+        return [r for r in values if lower<=max(r['probabilities']) and
+                (max(r['probabilities'])<upper or upper==1.)]
     groups=defaultdict(list)
     for r in rows:groups[(r['method'],r['n'])].append(r)
     result=[]
     for (method,n),attempts in sorted(groups.items()):
         valid=[r for r in attempts if r['probabilities'] is not None];bins=[]
-        for lower in (0.,.2,.4,.6,.8):
-            chosen=[r for r in valid if lower<=max(r['probabilities']) and (max(r['probabilities'])<lower+.2 or lower==.8)]
+        for lower,upper in zip(edges,edges[1:]):
+            chosen=members(valid,lower,upper)
             if not chosen:continue
             confidence=statistics.mean(max(r['probabilities']) for r in chosen)
             support=statistics.mean(r['target'][max(range(n),key=r['probabilities'].__getitem__)] for r in chosen)
-            bins.append(dict(lower=lower,upper=lower+.2,count=len(chosen),confidence=confidence,expected_correct_support=support,gap=confidence-support))
+            bins.append(dict(lower=lower,upper=upper,count=len(chosen),confidence=confidence,expected_correct_support=support,gap=confidence-support))
+        if sum(b['count'] for b in bins)!=len(valid):raise ValueError('calibration bins do not partition valid attempts')
         if valid:
             # Exact vector-score decomposition; the remainder is retained because
             # finite bins do not make all forecasts within a bin identical.
             qbar=[statistics.mean(r['target'][i] for r in valid) for i in range(n)]
             uncertainty=(1-sum(x*x for x in qbar))/2;reliability=resolution=0.
-            for lower in (0.,.2,.4,.6,.8):
-                chosen=[r for r in valid if lower<=max(r['probabilities']) and (max(r['probabilities'])<lower+.2 or lower==.8)]
+            for lower,upper in zip(edges,edges[1:]):
+                chosen=members(valid,lower,upper)
                 if not chosen:continue
                 pmean=[statistics.mean(r['probabilities'][i] for r in chosen) for i in range(n)];qmean=[statistics.mean(r['target'][i] for r in chosen) for i in range(n)]
                 weight=len(chosen)/len(valid);reliability+=weight*sum((p-q)**2 for p,q in zip(pmean,qmean))/2;resolution+=weight*sum((q-q0)**2 for q,q0 in zip(qmean,qbar))/2

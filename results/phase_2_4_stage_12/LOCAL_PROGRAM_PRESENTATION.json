@@ -1,0 +1,336 @@
+{
+  "aggregate": {
+    "aggregates": [
+      {
+        "attempt_weighted_loss": 0.42534057222189575,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.42147426774638047,
+          "level": 0.95,
+          "low": 0.29098564924690007,
+          "mean": 0.3540413059929739,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3540413059929739,
+        "clusters": 64,
+        "condition": "canonical",
+        "infinite": 19,
+        "invalid": 1,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.4012006035754196,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.39072849619420774,
+          "level": 0.95,
+          "low": 0.2683151629883982,
+          "mean": 0.32990133734649774,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.32990133734649774,
+        "clusters": 64,
+        "condition": "evidence_first",
+        "infinite": 19,
+        "invalid": 1,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.38568481298693774,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.3798445365497909,
+          "level": 0.95,
+          "low": 0.24909870035233786,
+          "mean": 0.3143855467580159,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3143855467580159,
+        "clusters": 64,
+        "condition": "evidence_last",
+        "infinite": 17,
+        "invalid": 1,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.44451154251511554,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.43196380034441,
+          "level": 0.95,
+          "low": 0.3160102638673624,
+          "mean": 0.3732122762861937,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3732122762861937,
+        "clusters": 64,
+        "condition": "permuted_labels",
+        "infinite": 21,
+        "invalid": 1,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.42534057222189575,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.42147426774638047,
+          "level": 0.95,
+          "low": 0.29098564924690007,
+          "mean": 0.3540413059929739,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3540413059929739,
+        "clusters": 64,
+        "condition": "repeat",
+        "infinite": 19,
+        "invalid": 1,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.4174199054752294,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.41251228867482237,
+          "level": 0.95,
+          "low": 0.28457801367011276,
+          "mean": 0.3461206392463075,
+          "n_clusters": 64
+        },
+        "cluster_weighted_excess": 0.3461206392463075,
+        "clusters": 64,
+        "condition": "reversed_options",
+        "infinite": 17,
+        "invalid": 0,
+        "method": "direct"
+      }
+    ],
+    "calibration": {
+      "groups": [
+        {
+          "attempts": 384,
+          "bins": [
+            {
+              "confidence": 0.26053846153846155,
+              "count": 117,
+              "expected_correct_support": 0.1865427465898803,
+              "gap": 0.07399571494858126,
+              "lower": 0.2,
+              "upper": 0.4
+            },
+            {
+              "confidence": 0.46451807228915665,
+              "count": 83,
+              "expected_correct_support": 0.4045240317637591,
+              "gap": 0.05999404052539753,
+              "lower": 0.4,
+              "upper": 0.6000000000000001
+            },
+            {
+              "confidence": 0.7017424242424243,
+              "count": 66,
+              "expected_correct_support": 0.3931815194404822,
+              "gap": 0.3085609048019421,
+              "lower": 0.6,
+              "upper": 0.8
+            },
+            {
+              "confidence": 0.8773275862068965,
+              "count": 116,
+              "expected_correct_support": 0.4749985820650575,
+              "gap": 0.40232900414183903,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 5,
+          "label_count": 4,
+          "method": "direct",
+          "score_components": {
+            "binned_reliability": 0.017287628957307705,
+            "binned_resolution": 0.009221587318903199,
+            "uncertainty": 0.3715193950662214,
+            "valid_only_loss": 0.40888620732394615,
+            "within_bin_remainder": 0.029300770619320293
+          }
+        }
+      ],
+      "paired_ranking": [],
+      "scope": "LP03 zero-call analysis; invalid denominator retained, valid-only decomposition explicitly marked; no calibration fit"
+    },
+    "calls": 384,
+    "contrasts": {
+      "evidence_last_minus_evidence_first": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.06013700662488645,
+        "level": 0.95,
+        "low": -0.08937591857525432,
+        "margin": 0.02,
+        "mean": -0.015515790588481846,
+        "n_clusters": 64
+      },
+      "permuted_labels_minus_canonical": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.0981449809512649,
+        "level": 0.95,
+        "low": -0.0632940164049811,
+        "margin": 0.02,
+        "mean": 0.019170970293219788,
+        "n_clusters": 64
+      },
+      "repeat_minus_canonical": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "EQUIVALENT",
+        "high": 0.0,
+        "level": 0.95,
+        "low": 0.0,
+        "margin": 0.02,
+        "mean": 0.0,
+        "n_clusters": 64
+      },
+      "reversed_options_minus_canonical": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.08873790366982989,
+        "level": 0.95,
+        "low": -0.10994540060082231,
+        "margin": 0.02,
+        "mean": -0.007920666746666378,
+        "n_clusters": 64
+      }
+    },
+    "controls": {
+      "all_attempts": true,
+      "cluster_weighting": true,
+      "fixed_coverage_grid": true,
+      "whole_family": true
+    },
+    "coverage": [
+      {
+        "attempts": 384,
+        "coverage": 0.9869791666666666,
+        "invalid": 5,
+        "mean_loss": 0.40888620732394615,
+        "retained": 379,
+        "threshold": 0.0
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.9869791666666666,
+        "invalid": 5,
+        "mean_loss": 0.40888620732394615,
+        "retained": 379,
+        "threshold": 0.25
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.5260416666666666,
+        "invalid": 5,
+        "mean_loss": 0.44483002332336247,
+        "retained": 202,
+        "threshold": 0.5
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.4739583333333333,
+        "invalid": 5,
+        "mean_loss": 0.4507177634982884,
+        "retained": 182,
+        "threshold": 0.6
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.4166666666666667,
+        "invalid": 5,
+        "mean_loss": 0.45138920151119627,
+        "retained": 160,
+        "threshold": 0.7
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.3020833333333333,
+        "invalid": 5,
+        "mean_loss": 0.45141512365696074,
+        "retained": 116,
+        "threshold": 0.8
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.1484375,
+        "invalid": 5,
+        "mean_loss": 0.4412657254091283,
+        "retained": 57,
+        "threshold": 0.9
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.010416666666666666,
+        "invalid": 5,
+        "mean_loss": 0.07516447692864933,
+        "retained": 4,
+        "threshold": 1.0
+      }
+    ],
+    "decision_regret": [],
+    "family": "LP01",
+    "files": {},
+    "kind": "scientific",
+    "main_calls": 384,
+    "multiplicity": "LP21 uses 97.5% intervals for its two primary contrasts; no p-values",
+    "scope": "Frozen source-cluster descriptive comparisons; supplied targets, restricted human exposure and native mechanism limits retained",
+    "status": "complete"
+  },
+  "at": "2026-09-24T05:32:15.432133+00:00",
+  "calls": 384,
+  "family": "LP01",
+  "kind": "whole-family actual semantic replay",
+  "new_inference_calls": 0,
+  "probability_shifts": {
+    "evidence_last_minus_evidence_first": {
+      "identical_probabilities": 13,
+      "mean_total_variation": 0.34766129032258064,
+      "pairs": 64,
+      "valid_pairs": 62
+    },
+    "permuted_labels_minus_canonical": {
+      "identical_probabilities": 8,
+      "mean_total_variation": 0.4325483870967742,
+      "pairs": 64,
+      "valid_pairs": 62
+    },
+    "repeat_minus_canonical": {
+      "identical_probabilities": 63,
+      "mean_total_variation": 0.0,
+      "pairs": 64,
+      "valid_pairs": 63
+    },
+    "reversed_options_minus_canonical": {
+      "identical_probabilities": 8,
+      "mean_total_variation": 0.45841269841269844,
+      "pairs": 64,
+      "valid_pairs": 63
+    }
+  },
+  "producers": [
+    {
+      "calls": 180,
+      "job": "LP01-000",
+      "terminal_sha256": "c127f9d55a21024b0c64222757026ab83d718933468ce011569fd5b684580174"
+    },
+    {
+      "calls": 180,
+      "job": "LP01-001",
+      "terminal_sha256": "3969c5df97b92cffacf1d0d76a74f64ef2712f6fdfb996826b11690a59f1dcb3"
+    },
+    {
+      "calls": 24,
+      "job": "LP01-002",
+      "terminal_sha256": "601c582f2120e32fa665e0fefae7eca29222a52b723ef68e020b6f5a8a396323"
+    }
+  ],
+  "scope": "64 constructed histories, one reader and law; later families unfinished",
+  "source_pins_verified": 476,
+  "status": "complete",
+  "summary_sha256": "24a9f5eb8f51b9bb4e025ea9b6a1051e8a93ac0fe7dd509e8d7f0bb3615dfb60"
+}

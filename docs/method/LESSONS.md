@@ -194,6 +194,13 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Fixed bins must form an actual partition at exact floating-point boundaries.**
+  The local-program calibration used lower plus width for each upper edge;
+  0.4 plus 0.2 exceeded the separately stored 0.6, counting three responses twice.
+  Use one literal edge sequence, test every boundary, and assert membership equals
+  the valid denominator. Retain the invalid original calibration; recompute from
+  saved replies without changing primary contrasts. (L437, OPS-S12-LOCAL-PROGRAM-REPAIR)
+
 - **Match the readout class to the behavior the intervention moves.** M01's policy line
   visibly steers GENERATED choices (S02's makers) yet shifts the committed-answer
   likelihood mass by 0.03 — the whole localization program had no signal in its readout
@@ -641,6 +648,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
   verdicts). (L139)
 
 ## §5. Before queueing or touching the loop infrastructure
+
+- **Test a gate through its actual handler, not only its decision function.**
+  The local program's admission helper passed fixtures while a same-named local
+  variable made both actual transport paths crash before emitting the verdict.
+  Exercise successful, capability-failing and invalid responses end to end, with
+  readiness absent after failures and identical no-dispatch reentry. Whole-roster
+  score rehearsal does not cover omitted handler branches. Correct only separately
+  frozen successors; preserve current workers and original source capsules.
+  (OPS-S12-LOCAL-PROGRAM-REPAIR)
 
 - **Budget a whole invocation and validate its effective request deadline separately.**
   The Stage 12 revised pilot admitted a larger output cap, but the main used
