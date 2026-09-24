@@ -9,6 +9,8 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 ## Current orientation (2026-09-21)
 
+- **September 23 addendum proposal, planning only:** [validity, evidence revision and human-record breadth](STAGE12_ADDENDUM_PROPOSAL.md) prioritizes a zero-call audit, broader ARIES paper support and saved-answer versus fresh-evidence revision, with conditional binding controls and a separately scoped cloud repair. No new test or paid retry is launched; original limits and calendar remain.
+
 - **September 23 execution continuation:** [supplied-answer execution and source-law sensitivity](STAGE12_EXECUTION_SUCCESSORS.md) freezes twenty balanced GPU blocks and an offline CPU consumer within the original week. All twenty histories and the CPU consumer complete with full replay (L429/L430), including one bounded warm recovery. All 48 tests and 88 complete records verify; earlier results and the failed cloud pilot remain unchanged. Original packets and scoped successor review remain.
 
 - **September 23 scoped continuation:** [witnessed operations and compression/access](STAGE12_SCOPED_SUCCESSORS.md) completes all twelve frozen blocks and all 212-call replays (L422-L427). The refreshed source-bound bundle retains 254 cases; prior records remain unchanged. Gear 2 stays authorized, the frozen queue has exited normally, and scoped successor review and the original week packets remain. All 45 validation tests pass.
@@ -91,6 +93,7 @@ the trigger discipline (the call made 2026-08-14, at the curator's prompt).
 
 | file | status | read it for |
 |---|---|---|
+| [STAGE12_ADDENDUM_PROPOSAL.md](STAGE12_ADDENDUM_PROPOSAL.md) | **PROPOSED; NOT DISPATCHED** | finite local priorities, controls, capacity and Friday review target; optional revised cloud allocation requires separate approval |
 | [PHASE_2_4_STAGE_12_CONTEXT.md](PHASE_2_4_STAGE_12_CONTEXT.md) | **OPERATIVE; WEEK OPEN** | current commission, conditional primary, complete controls, original resource ceilings and reporting |
 | [STAGE12_IMPLEMENTATION_HANDOFF.md](STAGE12_IMPLEMENTATION_HANDOFF.md) | **OPERATIVE implementation handoff** | current queues, missing admissions, recovery, shared fit owner and approved capped cloud route awaiting billing verification |
 | [STAGE12_NATIVE_SHARED_CONSUMER.md](STAGE12_NATIVE_SHARED_CONSUMER.md) | **FROZEN completed consumer** | actual model/source replay protocol; funding statements preserve its pre-approval snapshot |

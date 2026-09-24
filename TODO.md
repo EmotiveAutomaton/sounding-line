@@ -2,6 +2,9 @@
 
 ## Stage 12 week - commissioned September 21
 
+- [x] S12 addendum planning: review existing evidence, labels, source support, literature and remaining capacity; file STAGE12_ADDENDUM_PROPOSAL.md with prioritized controls and a bounded optional cloud repair. Planning only: no new model calls, fits or paid use.
+- [ ] S12 addendum decision: local audit, human-paper breadth and saved-answer revision proposed; optional binding diagnostic and separately approved cloud repair remain unlaunched. Do not treat this row as an admitted execution manifest. Friday readiness target retains the original Monday final packet pending calendar clarification.
+
 - [x] OPS-S12-EXECUTION-SETUP: complete the scoped successor review, preserve all prior records, freeze the supplied-answer and offline law-sensitivity comparisons; all 48 Stage 12 tests and all 280-slot handler replays pass. Native Gear 2 continuation submitted under the original limits.
 - [x] L428: seven complete execution blocks replay and land internally, with all conditions, invalids and exact/rounded/uniform references. Wider roster remains unfinished; no partial-family curator verdict.
 - [x] L429 / S12 law sensitivity: all frozen readings replay under the original and sixteen alternative coefficient assumptions, preserving original-law identity, public support, failures and unchanged correspondence. No new model observations or independence claim.

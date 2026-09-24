@@ -22,6 +22,7 @@ with the reason.
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
+| S12.ADDENDUM-0923 | Ask whether the failed human-history pilot was local; commission a planning-only addendum for validity and interpretive texture before Friday, allowing bounded research delegation at most GPT-5.6 Terra (September 23 audio). | Cloud/local distinction verified; two bounded Terra engineering reviews checked against primary records; prioritized local audit, broader human papers and explicit response revision, with optional binding controls and separately scoped paid repair. No new execution or spending; original final calendar retained pending clarification. | docs/design/STAGE12_ADDENDUM_PROPOSAL.md | written |
 | S12.QUEUE-0923 | Check current queue health, build authorized work as far as possible, verify records and report review ETAs (September 23 audio instruction). | Prior-record audit, separately frozen execution and source-law successors, full local execution/replay and one bounded warm recovery. No new scientific hypothesis harvested; original review calendar and limits retained. | FINDINGS L428-L430 and OPS-S12-EXECUTION-SETUP/COLD/CLOSE; docs/design/STAGE12_EXECUTION_SUCCESSORS.md | built |
 
 ## Stage 12 commission and theory application - 2026-09-21
