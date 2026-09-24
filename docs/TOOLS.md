@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP04-NINTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
+
 OPS-S12-LP04-EIGHTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
 
 OPS-S12-LP04-SEVENTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
