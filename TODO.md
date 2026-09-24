@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP13-FIRST-PRODUCER: first same-artifact/different-history block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
 - [x] L445 / LP12: all five producers and complete consumer replay unchanged; independent reference, score, interval and omitted-mass controls pass; full internal scientific write-through complete.
 - [ ] L445 packet scope: retain extra-candidate dimensionality/wording and arithmetic-validity limits, truth-dependent omission selection, history-only posterior benchmark, descriptive outside means and missing interaction; no open-world or human-mechanism claim.
 

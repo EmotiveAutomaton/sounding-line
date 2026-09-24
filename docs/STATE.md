@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Same-artifact/different-history producer inspection - September 24, 16:44 PDT
+
+OPS-S12-LP13-FIRST-PRODUCER lands actual replay of the first same-artifact/different-history
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP13-001-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP13 analysis remains pending; complete LP12 is landed in L445.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
 ## Complete omitted-candidate inspection - September 24, 16:25 PDT
 
 L445 lands the complete omitted-candidate family: all 768 calls and the five

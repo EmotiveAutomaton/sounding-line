@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP13-FIRST-PRODUCER: the complete same-artifact/different-history handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_FIRST_PRODUCER.json).
+
 L445 / LP12: all five producers and complete consumer replay unchanged; independent posterior, loss, paired intervals and omitted-mass stress controls pass. Calibration bins and attempted coverage verify. Candidate dimension/surface and sum-to-one failures remain explicit; the strict original parser and all attempted outcomes are retained. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_COMPLETE.json).
 
 OPS-S12-LP12-FOURTH-PRODUCER: the complete omitted-candidate handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_OMISSION_FOURTH_PRODUCER.json).
