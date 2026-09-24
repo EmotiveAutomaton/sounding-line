@@ -1,5 +1,19 @@
 # Current status
 
+## Sequential-questioning history stopped safely - September 24, 05:32 PDT
+
+Gear 2 continues independent histories. One history's invalid question-selection
+reply correctly blocked its dependent calls; both returned replies and all costs
+are retained. The full sequential-questioning comparison is consequently
+incomplete, and its complete-only primary analysis remains unavailable.
+Five newly completed producers replay unchanged. The specified guard and its
+regression test pass; no fallback, retry or source repair was introduced.
+Delayed repeated-evidence notices reconcile with their already published landing.
+[Inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_SELECTION_FAILURE.json).
+The next health check remains September 24 at 06:18 PDT.
+
+## Earlier audit snapshot
+
 ## Queue and reporting audit - September 24, 05:14 PDT
 
 The local program is healthy in Gear 2 and still has about 17,000 queued model

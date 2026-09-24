@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP07-SELECTION-FAILURE: complete producers 004-008 and failed 009 prefix/guard replay; costs, native continuation, full operational write-through and delayed LP06 reconciliation complete.
+- [ ] LP07 incomplete-family reporting: retain the invalid-selection history and all unstarted dependent calls; complete-only primary consumer cannot run on survivors. Independent frozen histories continue without fallback, blind retry or replacement.
+
 - [x] OPS-S12-LOCAL-VALIDITY-0514: full Stage 12 tests, current-plan/input/source/terminal/output audit and explicit completed-job report index; LP07 first four producer actual replays and operational write-through complete. Existing work remains; conditional new research is not activated.
 
 - [x] L441 / LP06: complete repeated-evidence family, exact source/request/target/handler replay, all frozen comparisons and full internal write-through. Preserve condition-specific reference floors, invalids and confidence-mechanism limits in the Friday/Monday packets.

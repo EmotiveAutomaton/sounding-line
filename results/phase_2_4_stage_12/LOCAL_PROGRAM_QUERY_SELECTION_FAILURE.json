@@ -1,0 +1,107 @@
+{
+  "landing": "OPS-S12-LP07-SELECTION-FAILURE",
+  "status": "inspection-complete",
+  "at": "2026-09-24T12:32:14.213541+00:00",
+  "completed_producers": {
+    "LP07-004-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "d68f209b9461a3330dd35898c97015e57df7409ba8ab3ca6d990d53b6ed2c488",
+      "source_pins_verified": 476,
+      "terminal_sha256": "0feebba9a64c15d50fd2dc626ba1487716cfa7974b4d48e74353317276630ae2"
+    },
+    "LP07-005-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "bdfd74f1b67f0cbe0e469dcd1e7eb7bf8bb7f1074f3a436c665a49e12d7fc340",
+      "source_pins_verified": 476,
+      "terminal_sha256": "8ae707b7867833be78269cbc2afe4a97bca2041cc7aed1fa4cc5fb99539b336d"
+    },
+    "LP07-006-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "7a2d34b717be723cf93e9f1f4e3616bfa35ebfe89492a2a6807c05f97ad7fe67",
+      "source_pins_verified": 476,
+      "terminal_sha256": "203966dd2829e2aa4c8d5e982fd5e404681367520c74c6eb90070c241b7729ff"
+    },
+    "LP07-007-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "c042cfb0f229eccbc65442d497f41d405fbbf6804d0f13fee8d009c7f228db4c",
+      "source_pins_verified": 476,
+      "terminal_sha256": "7652070e1ab6e344db7f45acb087582f4d6bab07282856b25e0aa7fd6a6c4b0d"
+    },
+    "LP07-008-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "0d6fdb9f83524e3100e5b51c11ac20419f677e17e3bd4f9061fdb8c7570bba3c",
+      "source_pins_verified": 476,
+      "terminal_sha256": "47f6a5131861e63f43da01bfdfe126249eb10e1c1a8ce534a7a3fc80bb4767ff"
+    }
+  },
+  "failed_producer": {
+    "actual_prefix_request_parser_score_replay": true,
+    "all_json_files_unchanged": 20,
+    "calls_returned": 2,
+    "failed_native_exited": true,
+    "failure_sha256": "6087b312c57259e48346fc605cc41cc808776c250e926bfaf388cfe4759403b2",
+    "guard_reproduced": true,
+    "manifest_sha256": "82e1e0ab4479f38f3a7c0c3ee52929450abdca3a866b4d50b04908a59425f58c",
+    "parse_errors": [
+      {
+        "error": "invalid finite probabilities",
+        "output_tokens": 315,
+        "role": "selection",
+        "step": 1
+      }
+    ],
+    "planned_calls": 22,
+    "source_pins_verified": 476,
+    "status": "incomplete",
+    "undispatched_calls": 20
+  },
+  "failure_costs": {
+    "cpu_seconds": 15.003015401773155,
+    "gpu_seconds": 14.863020699995104,
+    "gpu_owner_state": "complete",
+    "worker_state": "failed",
+    "complete_call_charges": 2,
+    "unknown_calls": 0
+  },
+  "delayed_lp06_notices": {
+    "landing": "L441",
+    "published_commit": "9bac0174b6ef7ca334d039de0d4aa1d659f8fd41",
+    "manifest_and_terminal_hashes_reverified": true
+  },
+  "source_prerequisite_input_contract_bindings_verified": true,
+  "active_job": "LP07-012-a2",
+  "active_worker_native_verified": true,
+  "coordinator_native_verified": true,
+  "gpu_lock_matches_active_worker": true,
+  "heartbeat_age_seconds": 0.689968,
+  "raw_output_age_seconds": 0.8314163684844971,
+  "watcher_fresh": true,
+  "checkpoint_native_verified": true,
+  "queue_failures": [],
+  "targeted_regression_test_passed": true,
+  "gear": 2,
+  "new_model_calls": 0,
+  "new_tests_harvested": 0,
+  "verification_charge": {
+    "at": "2026-09-24T12:32:14.213541+00:00",
+    "cpu_seconds": 31.46875,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP07 completed producer and failed selection prefix replay; conservative 30 CPU-second targeted-test allowance",
+    "status": "complete"
+  },
+  "health_due_utc": "2026-09-24T13:18:46.104688+00:00",
+  "disposition": "LP07 remains incomplete: a frozen history cannot continue after invalid selection; its complete-only primary consumer is unavailable. Independent cards continue without fallback or retry.",
+  "scope": "Operational execution and failure handling only; no unfinished-family scientific scores."
+}

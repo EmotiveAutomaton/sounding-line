@@ -4,6 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+Current continuation, September 24 at 05:32 PDT: one sequential-questioning
+history stops at its specified invalid-selection guard. Both replies and all
+costs remain; its complete-only family comparison is incomplete. Independent
+histories continue in Gear 2. Five new complete producers and the failed prefix
+replay unchanged; the existing guard test passes. [Inspection](LOCAL_PROGRAM_QUERY_SELECTION_FAILURE.json).
+No retry or source repair; health remains due at 06:18:46 PDT.
+
+Earlier audit snapshot:
+
 Current audit, September 24 at 05:14 PDT: Gear 2 remains healthy with about
 17,000 requests left in the frozen roster, including conditional branches. All
 70 Stage 12 tests and 41 subtests pass; manifests, source/input/output bindings

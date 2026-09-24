@@ -9,6 +9,34 @@ ran it.
 
 ---
 
+### OPS-S12-LP07-SELECTION-FAILURE - invalid question choice blocks one history while independent work continues
+
+**Hypothesis.** A failed question-selection reply must block the dependent history without inventing a choice, losing its returned records or stopping independent authorized histories.
+
+**METHOD.** Verify the five newly complete LP07 producers' manifests, every input/prerequisite binding, the unchanged contract and all 476 source pins, then reenter every actual saved request/parser and full producer handler. For LP07-009-a2, replay only the two existing calls and scored records, regenerate the next request dependency, and reproduce the exact unavailable-selection guard before any possible dispatch. Compare every JSON hash before/after, verify the failed worker's native exit, retained cost records and fresh successor/GPU ownership, and rerun the existing unrevealed-outcome/repeated-identity regression test. Reconcile both delayed LP06 notices against L441's already published manifest and terminal hashes.
+
+The table records execution coverage and failure handling. These are operational counts, not partial scientific scores.
+
+| Check | Result |
+|---|---|
+| LP07-004-a2 through LP07-008-a2 | Each producer replays all 22 calls and its full handler; all 162 JSON files per producer remain unchanged |
+| LP07-009-a2 retained prefix | Both returned calls and their request/parser/score records replay; all 20 JSON files unchanged |
+| Failure cause | First question-selection reply fails finite-probability validation; the next dependent forecast cannot be constructed |
+| Guard behavior | Exact unavailable-selection exception reproduced before dispatch; 20 planned calls remain unstarted |
+| Frozen-source validity | All source, contract, input, prerequisite and complete-terminal output bindings verify |
+| Accounting and ownership | Both call charges and GPU overhead complete; failed worker cost retained; native worker exited and lock belongs to successor |
+| Continuation at inspection | LP07-012-a2 native identity and fresh raw output verify; coordinator and watcher healthy |
+| Targeted regression | Existing question-selection test passes |
+| Delayed LP06 notices | Already fully landed and published in L441; hashes reverified, no duplicate generation or interpretation |
+
+**Found.** This is the prespecified invalid-selection stop, not a lost response or a harness failure. No fallback, repaired response or blind retry is introduced. The complete-only LP07 primary consumer is unavailable because its frozen roster contains an incomplete history; that deficit stays explicit even while independent histories finish. The new complete producers are preserved and operationally landed without interpreting their unfinished family. The failure's two returned replies, every unstarted slot and all costs remain recorded.
+
+**Means.** Continue independent frozen cards in Gear 2. The implementation contract explicitly blocks a dependent history after invalid selection and allows unrelated histories to proceed. No source or scoring repair is justified by this event. Preserve the incomplete-family disposition in the Friday/Monday packets; a later successful history cannot replace the failed one. No tests harvested, new research, inference retries, fits, cloud calls or delegation. The four-hour health deadline remains September 24 at 06:18:46 PDT, with the original local cutoff and review times unchanged.
+
+**Curator roll-up.** Theory group: operational validity. Question: does an invalid question choice stop only its dependent history while preserving evidence and continuation? Outcome: **Infrastructure**. Result: the frozen invalid-selection guard fires and independent work continues. Project meaning: the sequential-questioning comparison remains incomplete, not scientifically negative. Next engineering obligation: retain the complete-only consumer deficit and every failed/complete record in the scheduled packets while the existing queue continues. Public claim: unchanged. Curator decision required: No. Detail: [selection-failure and producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QUERY_SELECTION_FAILURE.json).
+
+---
+
 ### OPS-S12-LOCAL-VALIDITY-0514 - current roster, recording coverage and continuation verified
 
 **Hypothesis.** The authorized local program remains executable, its completed results remain bound to the correct inputs and reports, and the machine still has useful queued work.

@@ -1,5 +1,25 @@
 # STATE: the agent's operational file
 
+## Sequential-questioning failure inspected - September 24, 05:32 PDT
+
+OPS-S12-LP07-SELECTION-FAILURE lands complete producers LP07-004-a2 through
+LP07-008-a2 and the failed LP07-009-a2 prefix. Each complete producer replays
+all 22 calls with 162 original JSON files unchanged. The failed history has
+two returned calls; its first selection fails finite-probability parsing, so
+the next dependent forecast is unavailable and 20 slots remain unstarted.
+Both saved calls and the exact guard replay with all 20 JSON files unchanged.
+The existing regression passes; this is the specified gate, not a source defect.
+Retain every reply, cost and missing slot. No fallback or blind retry.
+
+The whole LP07 comparison is now incomplete and its complete-only primary
+consumer remains unavailable even if all other histories finish. Independent
+cards continue as commissioned. LP07-012-a2, coordinator, GPU lock, fresh output,
+watcher and original checkpoint helper verify. The failed worker's native exit
+verifies; no process recovery or source edit is required.
+Both delayed LP06 events reconcile with published L441 and are re-acknowledged
+after this inspection. Gear 2, original limits/reviews and the September 24
+06:18:46 PDT health deadline remain. No new tests harvested or new scope.
+
 ## Four-hour queue health - September 24, 02:16 PDT
 
 OPS-S12-LOCAL-HEALTH-0213 verifies LP04-013-a2 progressing with live native
