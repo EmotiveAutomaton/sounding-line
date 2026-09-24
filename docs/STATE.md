@@ -13,15 +13,15 @@ conditional branches and Friday/Monday packets remain unchanged.
 The health event is acknowledged after write-through; the next verified check
 is September 24 at 06:18:46 PDT. No tests harvested and no new scope.
 
-## Local continuation after mechanical repair - September 24, 02:22 PDT
+## Local continuation after mechanical repair - September 24, 02:38 PDT
 
 The complete LP02 comparison is internally landed in L438: all 768 calls,
 five producers and the whole-family consumer replay with all 5,422 JSON files
 unchanged. Frozen source reconstruction, independent copying checks and
 calibration partition verify; every invalid and frozen contrast is retained.
-The fourteenth LP04 producer completes: all 168 calls and saved-reply dependencies
-replay with every JSON unchanged. OPS-S12-LP04-FOURTEENTH-PRODUCER records this
-operational inspection; fourteen of sixteen producers are complete. LP04-014-a2 is
+The fifteenth LP04 producer completes: all 168 calls and saved-reply dependencies
+replay with every JSON unchanged. OPS-S12-LP04-FIFTEENTH-PRODUCER records this
+operational inspection; fifteen of sixteen producers are complete. LP04-015-a2 is
 advancing with fresh outputs and verified native identity. No new failure or
 recovery need. The broader local program remains unfinished;
 four-hour timing and final-packet reporting are unchanged.

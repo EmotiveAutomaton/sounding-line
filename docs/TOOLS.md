@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP04-FIFTEENTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
+
 OPS-S12-LP04-FOURTEENTH-PRODUCER: all 168 actual requests/responses, saved-reply dependencies and the full handler replay from the immutable capsule. All 1,184 JSON files are unchanged; all 476 source pins and source/input/output bindings verify. The next producer has verified native ownership and fresh responses, with no new job failures. This is operational validation only; the sixteen-producer crossed comparison remains pending and the four-hour deadline is unchanged.
 
 OPS-S12-LOCAL-HEALTH-0213: actual process identities, progressing responses, matching GPU/native lock owners, held kernel locks, resident-model headroom, CPU limits and full-unit admission verify. All 326 manifests, 957 inputs, 476 source pins and 21 locks pass; one fresh watcher and live checkpoint helper retain delivery. No recovery, inference or scientific interpretation; four-hour cadence continues.
