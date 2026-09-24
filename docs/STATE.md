@@ -18,7 +18,9 @@ passes and replays, and the first presentation-control block is producing fresh
 responses. Queue and worker native identities, 476 source pins, 971 input checks,
 all manifests and original checkpoint/watcher freshness verify. No new queue
 failure is present at setup inspection. Full internal setup/admission landing is
-OPS-S12-LOCAL-PROGRAM-SETUP; publication is the immediate remaining setup step.
+OPS-S12-LOCAL-PROGRAM-SETUP. Implementation/setup commit 2245ee641 is pushed to
+EmotiveAutomaton/main, with exact remote equality verified. This handoff records
+that completed publication; scientific execution and later landings remain open.
 
 The separately commissioned local window includes setup from September 23,
 20:50 PDT through September 25, 20:50 PDT. Its separate ledger does not reset the
