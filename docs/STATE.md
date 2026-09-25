@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Native witnessed-operation producer inspection - September 24, 17:32 PDT
+
+OPS-S12-LP14-FIRST-PRODUCER lands actual replay of the first native witnessed-operation
+block: all 160 saved calls and the full handler reproduce, preserving all 1,128
+JSON files. LP14-001-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP14 analysis remains pending; complete LP13 and its frame-independence failure are landed in L446.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
 ## Complete paired-history inspection - September 24, 17:22 PDT
 
 L446 lands the complete LP13 family: all 768 saved calls, five producers and
