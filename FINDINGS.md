@@ -9,6 +9,52 @@ ran it.
 
 ---
 
+### L449 - checking realized surface features with instruction provenance and explicit checker assistance (S12-REALIZATION-1 / LP18)
+
+**Hypothesis.** A reader distinguishes what a maker actually did from what was requested, including requests that were not fulfilled and features that occurred without being requested. The null is instruction echo without verification of the finished artifact.
+
+**METHOD.** Recompute the frozen G159 exact-feature census, then evaluate all 64 feature items from 20 source lineages with the local Qwen3.5 9B reader, direct probabilities or an account followed by probabilities, and three views. Every view supplies the full artifact and the feature description. The provenance view additionally identifies whether that feature was requested or was a counterfactual never shown to the maker. The trace view also explicitly supplies the exact checker's present/absent answer as privileged assistance. All 384 calls and the complete consumer replay from saved responses with network dispatch disabled. Independently verify source checks, targets, losses, source-cluster intervals and confidence accounting. No new inference or fit.
+
+The source table counts distinct artifact-feature items, not independent makers. Features can share a source lineage. Each maker family contributes 32 items; the reader is from the Qwen family, so this is not family-independent replication.
+
+| Source instruction role | Feature present under the exact rule | Feature absent under the exact rule | Total items |
+|---|---:|---:|---:|
+| Requested from the maker | 20 | 12 | 32 |
+| Counterfactual, never requested | 9 | 23 | 32 |
+
+The exact subset contains 28 punctuation-style checks, 16 sentence-length checks, 12 opening-paragraph checks and eight direct-address checks. All 64 independently recomputed results agree with the frozen audit, and ten known-answer and boundary controls pass. These are the declared string, sentence-splitting and whitespace-word rules; they are not universal linguistic judgments. Approximate annotations are excluded. The source census and all 163 source JSON files remain unchanged.
+
+The result table reports expected half-Brier loss, the squared probability error divided by two; lower is better. For these binary deterministic targets the exact checker has loss zero and uniform probabilities have loss 0.25. The attempt mean weights each item equally; the cluster mean weights each source lineage equally. Brackets are the frozen 95% source-cluster bootstrap interval from 4,000 draws. Each row includes all 64 attempts from 20 lineages. Every response is literal-valid. The final column counts forecasts assigning zero probability to the true answer, whose logarithmic loss remains infinite.
+
+| Reading method | Evidence supplied in addition to artifact and feature description | Attempt mean loss | Cluster mean loss [95% interval] | Infinite logarithmic losses |
+|---|---|---:|---:|---:|
+| Account first | None | 0.365908 | 0.339443 [0.250140, 0.424074] | 20 |
+| Account first | Instruction provenance | 0.423115 | 0.399788 [0.277018, 0.522940] | 21 |
+| Account first | Provenance and exact checker answer | 0.101888 | 0.116258 [0.027794, 0.239988] | 2 |
+| Direct probabilities | None | 0.419823 | 0.415480 [0.278931, 0.553087] | 23 |
+| Direct probabilities | Instruction provenance | 0.263283 | 0.234281 [0.120349, 0.362928] | 11 |
+| Direct probabilities | Provenance and exact checker answer | 0.078217 | 0.108398 [0.008469, 0.233343] | 5 |
+
+The contrast table uses paired source-cluster mean loss differences. Negative favors the first named method or view. Method pools the three views; view contrasts pool the two methods. Benefit or harm requires the entire interval below minus or above plus 0.02; equivalence requires the entire interval inside that margin. Otherwise the comparison is unresolved.
+
+| Frozen comparison | Mean difference [95% interval] | Disposition |
+|---|---:|---|
+| Account first minus direct probabilities | +0.032443 [-0.053870, +0.130222] | UNRESOLVED |
+| Instruction provenance minus no provenance | -0.060426 [-0.159744, +0.060743] | UNRESOLVED |
+| Provenance and checker answer minus no provenance | -0.265133 [-0.388586, -0.134209] | BENEFIT |
+
+**Found.** Explicit checker assistance improves this declared feature-verification task; neither the pooled method comparison nor the pooled provenance comparison resolves under the frozen margin. This is an assisted-answer result. It does not show that an unassisted reader reconstructed the maker's request or process. The nominal artifact-only view already names the feature, and the trace view supplies the scored answer. The absence of a resolved contrast is not equivalence or a demonstrated absence of effect.
+
+All 384 valid forecasts fall in the highest fixed confidence bin. Pooled over views, account-first mean confidence is 0.987422 against expected correctness 0.692708; direct mean confidence is 0.995510 against 0.744792. These include assisted views and are not standalone calibration estimates for unaided reading. There are 82 infinite logarithmic losses. The fixed confidence threshold 0.9 retains 376 attempts with mean loss 0.271444; threshold 1 retains 277 with loss 0.296029, compared with all-attempt loss 0.275372. No threshold or calibrator was fitted. Complete fixed-bin components and all coverage denominators are retained in the aggregate receipt.
+
+**Validity and limits.** The producer and consumer handlers reproduce exactly, with all 2,718 original job JSON files unchanged, all 476 source pins and input/output/dependency bindings verified. Perfect-reference, wrong-answer and invalid-response score controls pass. The defining checker is an exact reference, not an independently learned rival. The proposed separate cheap text/diff comparison is absent. The frozen consumer supplies no requested-versus-counterfactual by present-versus-absent interaction, so the central instruction-echo alternative remains open; the pooled contrast cannot settle it. The source-role groups also differ in feature prevalence. No subgroup was selected or new test fitted after seeing these outcomes. This surface-verification task does not overturn the earlier semantic-choice recovery and echo decomposition in G159, which measured a different target. Neither task licenses human intention, unobserved purpose, or general reader-capacity claims.
+
+**Means.** Internally land the complete execution and its bounded scientific interpretation, retaining the missing analyses for the final packet rather than calling the full hypothesis answered. Recorded scientific execution costs are 1,828.873 CPU process seconds and 1,465.624 GPU service seconds; the 2,931.248 host CPU seconds are a conservative service upper bound, not measured CPU. This complete-family verification costs 1.453125 CPU seconds, with a separate conservative four-second allowance for a stopped inspection that compared an in-memory tuple to its saved JSON list. Earlier producer inspections retain their 1.546875 CPU seconds. No model call, source, score script, failed attempt or original cost changed. At September 24, 19:17 PDT, Gear 2 is running LP20 Qwen admission with verified native/GPU ownership, fresh output and loaded watcher/checkpoint identities. LP16's prepared pass still waits for current queue exit and fresh checks; LP17 main remains blocked. No tests harvested, research, paid compute, delegation or gear change. Independent health remains September 24, 22:52:17 PDT; the local cutoff and Friday/Monday packets are unchanged.
+
+**Curator roll-up.** Theory group: decision traces and bounded reading. Question: can the reader distinguish realized features from requested ones? Outcome: **Narrows**. Result: supplying the exact checker answer improves the declared verification task, while the requested-versus-realized distinction remains unresolved. Project meaning: explicit assistance is useful evidence about this interface, not unassisted reconstruction. Next engineering obligation: retain the missing conditional analysis and cheap rival in the final packet and complete the authorized remaining roster. Public claim: newly licensed only for the scoped assisted comparison; broader realization claim unchanged. Curator decision required: No. Detail: [complete instruction-realization inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_INSTRUCTION_COMPLETE.json).
+
+---
+
 ### OPS-S12-LP18-SECOND-PRODUCER - next instruction block replays unchanged
 
 **Hypothesis.** The second frozen instruction-realization block has durable, source-bound responses that reproduce through the actual parser and handler, with authorized continuation intact.
@@ -8053,6 +8099,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 12 instruction-realization scope (L449).** All views name the tested feature, and the trace view explicitly supplies the exact checker answer. The frozen consumer omits the requested/counterfactual by present/absent interaction and a separate cheap text/diff rival. The assisted benefit cannot answer the instruction-echo question or establish unassisted intention recovery; the string-rule reference and model-generated substrate remain explicit.
 
 **Stage 12 broader ARIES analysis gaps (L448).** The complete frozen consumer pools the locally reserved papers and implements no reserved-only comparison, view contrast or wording interaction. The proposed separate diff-rank rival is absent. All views retain the full supplied pair; balanced external annotations do not establish prevalence, adoption or private purpose. Preserve unresolved method inference and zero-support losses; descriptive subgroups are not substitute primary tests.
 

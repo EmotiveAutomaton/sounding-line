@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] L449 / LP18: all three producers and complete consumer replay unchanged; exact-feature/source/score/interval checks pass. Full internal scientific write-through lands the scoped assisted-answer benefit, with method/provenance contrasts unresolved.
+- [ ] L449 / LP18 final packet: retain missing requested/counterfactual by feature-presence analysis and separate cheap text/diff rival. Explicitly distinguish feature-specified reading and supplied checker answers from unassisted reconstruction; do not present the main realization hypothesis as settled or silently extend the frozen study.
+
 - [x] OPS-S12-LP18-SECOND-PRODUCER: second completed producer replays unchanged with bindings, native continuation and monitoring verified; internal operational write-through complete. Final producer and complete-family scientific review remain owed.
 
 - [x] OPS-S12-LP18-FIRST-PRODUCER: first completed block replays unchanged with full bindings and native continuation verified; internal operational write-through complete. Continue remaining frozen producers and complete-only consumer; scientific interpretation remains pending.

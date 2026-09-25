@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Complete instruction-realization family - September 24, 19:17 PDT
+
+L449 internally lands all LP18 producers and its complete consumer, with saved-call,
+source-feature, scoring and interval replay verified and original files unchanged.
+Explicit checker assistance is scoped as supplied-answer performance; missing
+conditional request/realization analysis and cheap rival remain final-packet gaps.
+Gear 2 is running LP20 Qwen admission with native ownership and fresh output verified.
+LP16 remains prepared for after current queue exit and fresh checks; LP17 remains
+blocked. No new calls or repairs. Independent health stays September 24, 22:52:17 PDT;
+the local cutoff, earlier deficits and Friday/Monday packets remain unchanged.
+
 ## Second instruction block - September 24, 19:02 PDT
 
 OPS-S12-LP18-SECOND-PRODUCER lands the second completed block's saved-call and

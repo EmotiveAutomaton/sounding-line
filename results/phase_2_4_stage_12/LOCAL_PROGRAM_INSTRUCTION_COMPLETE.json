@@ -1,0 +1,379 @@
+{
+  "active_job": "LP20-Qwen-admission-a2",
+  "all_json_files_unchanged": 2718,
+  "at": "2026-09-25T02:17:35.495004+00:00",
+  "calls": 384,
+  "clusters": 20,
+  "construction_checks": {
+    "all_views_include_full_artifact_and_feature_description": true,
+    "conditional_sign_by_presence_analysis_missing": true,
+    "counterfactual_never_requested_explicit": true,
+    "exact_items": 64,
+    "exact_reference_is_defining_checker": true,
+    "feature_counts": {
+      "address the reader directly as 'you' at least twice": 8,
+      "open with a one-sentence paragraph": 12,
+      "use an em-dash-free, semicolon-free punctuation style": 28,
+      "use no sentence longer than twenty words": 16
+    },
+    "independent_exact_checks": 64,
+    "known_answer_controls": 10,
+    "lineages": 20,
+    "maker_counts": {
+      "llama": 32,
+      "qwen": 32
+    },
+    "realization_counts": {
+      "('minus', False)": 23,
+      "('minus', True)": 9,
+      "('plus', False)": 12,
+      "('plus', True)": 20
+    },
+    "regex_sentence_word_and_punctuation_semantics_not_universal_language_gold": true,
+    "separate_cheap_text_or_diff_rival_missing": true,
+    "source_json_files_unchanged": 163,
+    "source_recompilation_unchanged": true,
+    "trace_discloses_exact_target_as_privileged_assistance": true
+  },
+  "family": "LP18",
+  "gear": 2,
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "independent_policy_scores_intervals_and_rulers_verified": true,
+  "inspection_retry_allowance": {
+    "at": "2026-09-25T02:20:25.773696+00:00",
+    "cpu_seconds": 4.0,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP18 inspection first attempt stopped at Python tuple versus saved JSON list equality; no scientific outputs changed; conservative allowance",
+    "status": "complete"
+  },
+  "interpretation": "Specified exact-feature verification; trace explicitly supplies the checker answer. Pooled method and provenance contrasts unresolved. Missing sign-by-presence analysis and separate cheap text/diff rival remain open. No human or general latent-intention claim.",
+  "landing": "L449",
+  "loaded_watcher_and_checkpoint_verified": true,
+  "native_continuation_verified": true,
+  "new_model_calls": 0,
+  "original_roster_and_prompts_verified": true,
+  "prior_producer_verification_cpu_seconds": 1.546875,
+  "receipts": {
+    "LP18-000-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 1268,
+      "calls": 180,
+      "manifest_sha256": "c5ea66d2657f95557c25e3cc2fdd12e30c8d76a71cdf9a5043829369b15fe21a",
+      "terminal_sha256": "6f9edd0a2edb722fc4f782fa539b6a506d70ad8d807d822468729b2b0043a1c7"
+    },
+    "LP18-001-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 1268,
+      "calls": 180,
+      "manifest_sha256": "887ee68a832de525aa8ce1f6d2cb1785b3bdee2646dd58d4b57a73ec0e32d0f5",
+      "terminal_sha256": "3093e230904b6233ceffb53b37f58808e764a09528f71ab8af2ab309e7573e0d"
+    },
+    "LP18-002-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 176,
+      "calls": 24,
+      "manifest_sha256": "0e4bceeacedf85316009ebc25be1c4c942ffe75ca9f2eba199bfcdb9ed706ae9",
+      "terminal_sha256": "5a56b0e6136811e687085aafb0262ab89531cb844b3ad31848b3c1a1c370a422"
+    },
+    "LP18-summary-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 6,
+      "calls": 384,
+      "manifest_sha256": "86bd9a68b6849ffdf19647b73c417196130f2cb25eecca6dd08f4a19c8dc9893",
+      "terminal_sha256": "c6c163f23d5ce5a0b8e9fe93c116f9b114ef0f0599d3970bfbadf5386b4960cd"
+    }
+  },
+  "scientific_charge_files": 391,
+  "scientific_execution_charges": {
+    "cpu_seconds": 1828.8727278308943,
+    "diagnostic_gpu_seconds": 0.0,
+    "gpu_seconds": 1465.624007800012,
+    "host_cpu_seconds": 2931.248015600024
+  },
+  "source_pins_verified": 476,
+  "summary": {
+    "aggregates": [
+      {
+        "attempt_weighted_loss": 0.365907859375,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.424073775,
+          "level": 0.95,
+          "low": 0.25014045,
+          "mean": 0.3394425583333333,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.3394425583333333,
+        "clusters": 20,
+        "condition": "artifact",
+        "infinite": 20,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.4231151875,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.5229404666666666,
+          "level": 0.95,
+          "low": 0.2770180291666667,
+          "mean": 0.3997884208333333,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.3997884208333333,
+        "clusters": 20,
+        "condition": "instruction",
+        "infinite": 21,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.10188759374999999,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.2399875833333333,
+          "level": 0.95,
+          "low": 0.027794254166666664,
+          "mean": 0.1162575875,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.1162575875,
+        "clusters": 20,
+        "condition": "trace",
+        "infinite": 2,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.419822984375,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.5530866999999999,
+          "level": 0.95,
+          "low": 0.278931125,
+          "mean": 0.41548009166666666,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.41548009166666666,
+        "clusters": 20,
+        "condition": "artifact",
+        "infinite": 23,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.263282921875,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.36292849166666663,
+          "level": 0.95,
+          "low": 0.12034888749999999,
+          "mean": 0.23428134583333332,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.23428134583333332,
+        "clusters": 20,
+        "condition": "instruction",
+        "infinite": 11,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.07821734375,
+        "attempts": 64,
+        "cluster_interval": {
+          "high": 0.233343025,
+          "level": 0.95,
+          "low": 0.008468616666666672,
+          "mean": 0.108398075,
+          "n_clusters": 20
+        },
+        "cluster_weighted_excess": 0.108398075,
+        "clusters": 20,
+        "condition": "trace",
+        "infinite": 5,
+        "invalid": 0,
+        "method": "direct"
+      }
+    ],
+    "calibration": {
+      "groups": [
+        {
+          "attempts": 192,
+          "bins": [
+            {
+              "confidence": 0.987421875,
+              "count": 192,
+              "expected_correct_support": 0.6927083333333334,
+              "gap": 0.29471354166666663,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 0,
+          "label_count": 2,
+          "method": "account",
+          "score_components": {
+            "binned_reliability": 0.019013824462890627,
+            "binned_resolution": 0.0,
+            "uncertainty": 0.247802734375,
+            "valid_only_loss": 0.29697021354166664,
+            "within_bin_remainder": 0.03015365470377601
+          }
+        },
+        {
+          "attempts": 192,
+          "bins": [
+            {
+              "confidence": 0.9955104166666666,
+              "count": 192,
+              "expected_correct_support": 0.7447916666666666,
+              "gap": 0.25071875,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 0,
+          "label_count": 2,
+          "method": "direct",
+          "score_components": {
+            "binned_reliability": 0.015445829101562503,
+            "binned_resolution": 0.0,
+            "uncertainty": 0.247802734375,
+            "valid_only_loss": 0.25377441666666667,
+            "within_bin_remainder": -0.009474146809895834
+          }
+        }
+      ],
+      "paired_ranking": [],
+      "scope": "LP03 zero-call analysis; invalid denominator retained, valid-only decomposition explicitly marked; no calibration fit"
+    },
+    "calls": 384,
+    "contrasts": {
+      "account_minus_direct": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.13022240833333334,
+        "level": 0.95,
+        "low": -0.053870150000000006,
+        "margin": 0.02,
+        "mean": 0.03244301805555555,
+        "n_clusters": 20
+      },
+      "instruction_minus_artifact": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.06074280625,
+        "level": 0.95,
+        "low": -0.1597443875,
+        "margin": 0.02,
+        "mean": -0.06042644166666667,
+        "n_clusters": 20
+      },
+      "trace_minus_artifact": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "BENEFIT",
+        "high": -0.13420912916666666,
+        "level": 0.95,
+        "low": -0.38858596875,
+        "margin": 0.02,
+        "mean": -0.26513349375,
+        "n_clusters": 20
+      }
+    },
+    "controls": {
+      "all_attempts": true,
+      "cluster_weighting": true,
+      "fixed_coverage_grid": true,
+      "whole_family": true
+    },
+    "coverage": [
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.0
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.25
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.5
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.6
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.7
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.27537231510416665,
+        "retained": 384,
+        "threshold": 0.8
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.9791666666666666,
+        "invalid": 0,
+        "mean_loss": 0.2714440664893617,
+        "retained": 376,
+        "threshold": 0.9
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.7213541666666666,
+        "invalid": 0,
+        "mean_loss": 0.296028880866426,
+        "retained": 277,
+        "threshold": 1.0
+      }
+    ],
+    "decision_regret": [],
+    "family": "LP18",
+    "files": {
+      "ANALYSIS.json": "99a3a69e2b042b1f0d13363f7004a972ada9ac48c0d5ccc02e06fa6aa51b893e"
+    },
+    "kind": "scientific",
+    "main_calls": 384,
+    "multiplicity": "LP21 uses 97.5% intervals for its two primary contrasts; no p-values",
+    "scope": "Frozen source-cluster descriptive comparisons; supplied targets, restricted human exposure and native mechanism limits retained",
+    "status": "complete"
+  },
+  "theory_identifier": "S12-REALIZATION-1",
+  "verification_charge": {
+    "at": "2026-09-25T02:17:35.494088+00:00",
+    "cpu_seconds": 1.453125,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP18 complete family replay and independent exact-feature, scoring and aggregate verification",
+    "status": "complete"
+  }
+}

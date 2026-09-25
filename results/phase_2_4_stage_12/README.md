@@ -4,7 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 19:02 PDT: Gear 2 is running the final LP18
+Current continuation, September 24 at 19:17 PDT: Gear 2 is running LP20 Qwen admission.
+The complete LP18 instruction-realization family replays unchanged and is internally
+landed in L449. Exact-feature, source, score and interval checks pass. Explicit
+checker assistance and missing conditional analysis/cheap rival remain clear in the
+scientific record. [Complete inspection](LOCAL_PROGRAM_INSTRUCTION_COMPLETE.json).
+Health stays September 24 at 22:52:17 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 19:02 PDT: Gear 2 is running the final LP18
 producer. The second completed instruction block and every saved request/parser
 replay unchanged; frozen bindings, native continuation and monitoring verify.
 Complete-family science remains owed. [Second producer inspection](LOCAL_PROGRAM_INSTRUCTION_SECOND_PRODUCER.json).
