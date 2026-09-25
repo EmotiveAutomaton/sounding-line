@@ -9,6 +9,57 @@ ran it.
 
 ---
 
+### L446 - witnessed-route matching improves; frame independence fails construction
+
+**Hypothesis.** A bounded reader should preserve uncertainty between different histories that leave exactly the same artifact, narrow that uncertainty when a genuine distinguishing record is supplied, and avoid treating an independently assigned frame as historical evidence.
+
+**METHOD.** Run the frozen complete paired-history family with Qwen3.5:9B on 64 distinct four-action artifacts, each paired with two different recorded histories from the unchanged maker law. Both candidate routes are displayed with an explicitly equal prior. Two members, direct versus structured-account instructions, and three views produce all 768 planned calls across five producers. Artifact-only views are identical within each pair; witnessed views append the exact candidate record; misleading views append a claim about the other route. The declared benchmark is one-half per route for artifact and frame views, and certainty for the matching witnessed route. Preserve every attempted forecast and the original complete-only consumer. Paired artifact-cluster means and fixed-seed 4,000-draw bootstrap intervals implement the frozen practical margin of 0.02. These are exploratory pointwise comparisons, not multiplicity-controlled confirmation.
+
+**Validity and construction.** All saved requests/parsers, five producer handlers and the whole-family consumer replay unchanged with dispatch disabled; all 5,422 original JSON files remain byte-identical. All 476 source pins and source/input/manifest/contract/dependency/output bindings verify. Source-only regeneration reproduces every prompt and the 64 distinct artifact clusters with 128 distinct source histories. Independent expected-loss calculations reproduce all six condition means, their cluster intervals and the three frozen contrasts. Exact benchmark answers have zero excess loss, deliberately wrong answers lose, and invalid answers retain loss one. Fixed calibration bins partition valid replies once and their score decomposition retains the finite-bin remainder. Actual frame allocation, however, fails its asserted independence; this prevents accepting that arm's intended historical interpretation.
+
+The table reports expected half-Brier loss, a squared probability error where lower is better. Each view has 128 attempts per method: two members in each of 64 artifact clusters. Direct asks for a short evidence-based explanation; account asks for coherent possible maker states, evidence relations, alternatives and contradictions. The uniform rival assigns one-half to each route. The declared reference floor is residual uncertainty under the prompt's stated information, not an empirical proof about unrestricted histories. Infinite counts are valid forecasts assigning zero probability to supported possibilities; there are no invalid replies.
+
+| View | Direct loss | Account loss | Uniform loss | Declared reference floor | Invalid direct / account | Infinite direct / account |
+|---|---:|---:|---:|---:|---:|---:|
+| Artifact only | 0.375000 | 0.401295 | 0.250000 | 0.250000 | 0 / 0 | 64 / 74 |
+| Opposite-route frame (independence invalid) | 0.341426 | 0.423940 | 0.250000 | 0.250000 | 0 / 0 | 46 / 85 |
+| Exact witnessed route | 0.080078 | 0.027344 | 0.250000 | 0.000000 | 0 / 0 | 10 / 2 |
+
+The next table preserves every original frozen comparison and explicitly separates its numerical disposition from its accepted scope. Differences are left minus right in excess loss above each view's own reference floor, so negative favors the left. Benefit or harm requires the whole interval beyond minus or plus 0.02; equivalence requires the whole interval inside that band. Otherwise the comparison is unresolved. The witness floor is zero and artifact floor is 0.25, so this is not the raw-loss difference.
+
+| Paired comparison | Mean excess-loss difference | 95% cluster interval | Original frozen disposition | Accepted scope |
+|---|---:|---:|---|---|
+| Account minus direct, all views | +0.018692 | [-0.004601, +0.040439] | UNRESOLVED | Declared-benchmark comparison; includes defective frame arm |
+| Opposite-route frame minus artifact | -0.005465 | [-0.027443, +0.016755] | UNRESOLVED | VOID as an independent-frame test |
+| Witness minus artifact | -0.084437 | [-0.118770, -0.048086] | BENEFIT | Valid scoped comparison; exact-match witness |
+
+**Found.** The witnessed-record comparison improves under the frozen excess-loss rule. Artifact-only predictions do not preserve the stated ambiguity: direct makes 64 of 128 predictions fully certain and account makes 74 of 128 fully certain. All 128 matched artifact request pairs are byte-equivalent at the effective request level and return identical probability vectors across their two members. Mean probability assigned to the actual member is therefore exactly one-half for both methods; repeated certainty cannot uniquely recover both histories. This is a constructed collision and a calibration diagnostic, not a new proof of non-identifiability. The overall method comparison is unresolved under the declared benchmark, and no method-by-view interaction was frozen.
+
+**Failed frame-independence instrument.** Every one of the 256 frame requests claims the opposite of its actual member: 128 claims of route one for member zero and 128 claims of route zero for member one. The prompt says assignment is independent of the actual route, and the implementation freeze makes that same claim; the constructor actually uses the member's complement. Balanced frame labels are not independent assignment. A reader informed of the actual allocation rule could infer the member by inversion. The one-half target remains the original declared-prompt benchmark, but is not the posterior under the actual assignment rule. The independent-frame historical interpretation is **VOID**, not a negative finding about contextual influence. Its original unresolved numerical result remains as a description of the frozen procedure. The pooled method comparison and pooled calibration likewise include this arm and cannot validate the intended mechanism. No target replacement, retrospective rescoring, reply exclusion or generation retry follows.
+
+**Witness and information limits.** The genuine record is a verbatim copy of one displayed candidate route. An exact string matcher identifies every witnessed member without reconstructing a latent process; the audit verifies this cheap zero-loss rival. The model does not beat that rival. The narrower observation is that an explicit matching record improves the reader's output beyond its remaining benchmark uncertainty. This does not establish recovery of unrecorded processes, inverse planning, human reading or human historical attribution. The artifact is a constructed four-action tape and the two alternatives are declared, rather than discovered from an open set. Raw loss, excess loss, confidence, and probability of the actual member remain distinct quantities.
+
+The fixed confidence grid below pools the frozen declared benchmark across all views, including the defective frame arm; it is descriptive only. There are zero invalid replies and 281 infinite logarithmic losses across the full attempted population. Confidence is the largest reported label probability. The full fixed-bin calibration and score components are in the linked receipt; no threshold or calibrator was fitted.
+
+| Minimum reported confidence | Retained / attempted | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 768 / 768 | 1.000000 | 0.274847 |
+| 0.25 | 768 / 768 | 1.000000 | 0.274847 |
+| 0.50 | 768 / 768 | 1.000000 | 0.274847 |
+| 0.60 | 530 / 768 | 0.690104 | 0.286005 |
+| 0.70 | 528 / 768 | 0.687500 | 0.286036 |
+| 0.80 | 528 / 768 | 0.687500 | 0.286036 |
+| 0.90 | 528 / 768 | 0.687500 | 0.286036 |
+| 1.00 | 518 / 768 | 0.674479 | 0.282819 |
+
+**Means.** Explicit witnessed-route matching works better than leaving these selected histories indistinguishable, but the reader often asserts certainty without distinguishing evidence. The frame arm cannot answer its intended independence question. This constrains the interpretation of this constructed diagnostic without changing the curator's general useful-narrowing claim. The original scores and failed construction stay beside the scoped surviving comparison. Any future independent-frame use needs a truth-by-assignment audit before execution; this landing does not commission a rerun.
+
+**Operational continuation.** At September 24, 17:22 PDT, LP14-000-a2 is running in Gear 2 with verified native coordinator/worker identity, matching GPU ownership and fresh output. Loaded watcher sources, scanning and the original checkpoint helper verify. Whole-family verification costs 2.90625 CPU seconds, in addition to 0.671875 CPU seconds for this wake's first producer inspection. No new model calls, tests harvested, research, fit, cloud spend or delegation. The fourth producer wake, fifth producer and complete consumer are covered by this full internal write-through before ACK. Earlier incomplete questioning and memory families, costs, corrections, cutoff and Friday/Monday packets remain. The independent health deadline remains September 24 at 18:37:48 PDT.
+
+**Curator roll-up.** Theory group: historical identifiability and trace support. Question: can a reader distinguish genuine historical evidence from certainty imposed on indistinguishable alternatives? Outcome: **Narrows**. Result: witnessed matching improves while the independent-frame interpretation is void. Project meaning: useful trace narrowing and unsupported certainty must be evaluated separately, with actual assignment verified. Next engineering obligation: retain the construction failure and exact-match rival in the packet while continuing the unaffected frozen roster. Public claim: unchanged for general human historical recovery. Curator decision required: No. Detail: [complete paired-history inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_COMPLETE.json).
+
+---
+
 ### OPS-S12-LP13-THIRD-PRODUCER - third same-artifact/different-history producer preserved
 
 **Hypothesis.** The third completed same-artifact/different-history block remains exactly replayable while the frozen family continues under its original limits.
@@ -7703,6 +7754,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 12 paired-history scope (L446).** Misleading frames are assigned opposite the actual route, contradicting claimed independence; that interpretation is VOID. Original benchmark scores remain, and pooled method/calibration summaries inherit the defect. Witnesses are exact candidate copies solved by string matching; their surviving comparison does not demonstrate latent historical reconstruction. Artifact-only certainty is not recovery. No new generation or post-hoc target substitution.
 
 **Stage 12 omitted-candidate scope (L445).** Extra-candidate harm belongs to the full reader/interface procedure: candidate count, wording and probability normalization differ, with most invalid outputs in that condition. Omission uses the generating policy, while the declared reference conditions on history before list mapping. Missing-explanation recognition remains open; outside means are descriptive and no outside-specific or evidence-snapshot interaction was frozen. This is not open-world discovery or human evidence.
 

@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 16:25 PDT: Gear 2 has advanced to LP13.
+Current continuation, September 24 at 17:22 PDT: Gear 2 has advanced to LP14.
+The complete paired-history family replays unchanged and is internally landed
+in L446. Independent score/interval checks pass; the actual frame assignment
+fails its claimed independence, and the original outputs retain that VOID
+interpretation. Witness exact-match scope remains explicit. Native continuation
+and monitoring verify. [Complete paired-history inspection](LOCAL_PROGRAM_SAME_ARTIFACT_COMPLETE.json).
+Health remains due September 24 at 18:37:48 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 16:25 PDT: Gear 2 has advanced to LP13.
 The complete omitted-candidate family replays unchanged and is internally landed
 in L445. Independent posterior/reference/score/interval checks pass; candidate
 construction, probability-format failures and the finite-list boundary remain

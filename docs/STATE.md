@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## Complete paired-history inspection - September 24, 17:22 PDT
+
+L446 lands the complete LP13 family: all 768 saved calls, five producers and
+the consumer replay, preserving all 5,422 original JSON files. Independent
+score and interval checks pass. The frame allocation contradicts asserted
+independence; its intended interpretation is VOID, with original outputs
+retained. Witness exact-match and other scientific limits are recorded internally.
+LP14-000-a2 is running in Gear 2 with verified native/GPU ownership and fresh
+output; watcher source/scanning and original checkpoint helper verify.
+Earlier incomplete families, costs, corrections, cutoff and Friday/Monday
+packets remain. No recovery, retry or new tests. Health remains due September 24
+at 18:37:48 PDT.
+
 ## Same-artifact/different-history producer inspection - September 24, 17:01 PDT
 
 OPS-S12-LP13-THIRD-PRODUCER lands actual replay of the third same-artifact/different-history

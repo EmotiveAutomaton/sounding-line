@@ -1149,6 +1149,8 @@ concealment caveat carried there; here it is one identifiability assumption amon
 | **G61** | An explicit competence estimate improves goal recovery | **OPEN.** If yes, the "fatal unknown" is an input |
 | **G138** | The impossibility construction, reproduced exactly, then relaxed with the three human priors one at a time | **RECREATED+NARROWS (test-side toy, L60).** The degeneracy reproduced at exactly 0.5/0.5; the bounded human-shaped family alone narrows the posterior twentyfold, known near-optimality alone barely doubles it, both together fortyfold, holding under noise. Finite-data posterior narrowing in this seven-state toy family, not asymptotic convergence, unique identification, or historical recovery from artifacts |
 | **S12-OMISSION-1** | A bounded reader preserves probability for plausible makers omitted from its candidate list | **OPEN (test, L445).** Constructed interlock histories, Qwen model readout and exact program reference: adding a candidate harms the complete attempted-population comparison; omission recognition remains unestablished. Candidate number, wording and arithmetic validity vary, and outside-mass inspection is descriptive. The history-posterior benchmark retains omitted support but does not model the truth-dependent list-selection process. Finite-list diagnosis, not open-world or human mechanism evidence |
+| **S12-TWINS-1** | A bounded reader narrows compatible histories with discriminating records while preserving ambiguity without them | **OPEN (test, L446).** Constructed action-tape pairs, Qwen model readout and exact program reference: witnessed records improve the scoped comparison, but artifact-only forecasts often assert certainty between indistinguishable routes. The witness is a literal candidate copy solved by exact matching; this is not latent human-process reconstruction |
+| **S12-TWINS-2** | An independently assigned misleading frame changes belief without supplying historical evidence | **VOID (test, L446).** The constructed frame is always assigned opposite the actual route, contradicting independence; original declared-benchmark scores are retained, without an independent-frame interpretation |
 
 **State of the section's claim.** Observational non-identifiability and useful narrowing under
 substantive priors are compatible. The bounded toy family raises posterior mass twentyfold;
@@ -1159,9 +1161,15 @@ processes still require an equivalence class or posterior. A model reader's comp
 worsens when an extra candidate is added, but changing list dimensions, wording and probability
 formatting prevent attributing that effect to a missing-explanation mechanism. Exact retention
 of omitted support validates the finite benchmark, not the reader's recognition of an incomplete
-family (S12-OMISSION-1, L445). Which human constraints improve prediction without introducing
-false certainty remains the empirical question. Confidence: one bad test away for the toy
-narrowing and scoped candidate-list comparison; untested, logic only for the human-artifact extension.
+family (S12-OMISSION-1, L445). Explicit matching records also improve a model reader's
+comparison on paired histories, while indistinguishable artifact views still elicit unsupported
+certainty. Because the witness is a verbatim candidate copy, this supports matching under
+declared alternatives rather than latent historical reconstruction. The misleading-frame
+interpretation is void because its assignment depends on the actual route (S12-TWINS-1/2,
+L446). Which human constraints improve prediction without introducing false certainty remains
+the empirical question. Confidence: one bad test away for the toy narrowing and scoped
+candidate-list and witnessed-match comparisons; instrument-dead for the independent-frame
+test; untested, logic only for the human-artifact extension.
 
 ## §8. Scope and boundaries
 

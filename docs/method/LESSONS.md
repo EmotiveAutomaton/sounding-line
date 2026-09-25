@@ -194,6 +194,14 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Balanced frame labels do not establish independence from the target.**
+  The paired-history diagnostic claimed independent frame assignment but always
+  named the opposite of the actual route. Its balanced marginal hid a perfectly
+  informative inverse relation. Audit the full truth-by-assignment table against
+  the declared allocation before running; check the wording and reference against
+  that actual mechanism. Preserve original outputs and void the affected
+  interpretation rather than silently changing post-run targets. (L446)
+
 - **A fixed random seed does not fix a bootstrap fed by unordered collections.**
   The complete crossed revision consumer iterated a Python set before assembling
   cluster means; separate processes changed its primary interval with all replies

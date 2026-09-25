@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] L446 / LP13: all five producers and whole consumer replay unchanged; full internal write-through includes the frame-independence failure and surviving witnessed comparison.
+- [ ] L446 packet scope: retain VOID independent-frame interpretation, original benchmark outputs, exact-string witness rival and artifact-only overconfidence. A future independently assigned frame instrument requires a truth-by-assignment audit; no rerun or new design is queued.
+
 - [x] OPS-S12-LP13-THIRD-PRODUCER: third same-artifact/different-history block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
 
 - [x] OPS-S12-LP13-SECOND-PRODUCER: second same-artifact/different-history block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
