@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 18:07 PDT: Gear 2 has advanced to LP16 admission.
+Current continuation, September 24 at 18:25 PDT: Gear 2 is running LP17 admission.
+LP16 narrow assisted admission passes and its complete development handler
+replays unchanged. Main work was deferred before admission in the one-pass order;
+the unchanged follow-on pass is prepared for submission after current queue exit.
+Main scientific interpretation remains pending. Native continuation and monitoring
+verify. [Handling admission inspection](LOCAL_PROGRAM_HANDLING_ADMISSION.json).
+Health remains due September 24 at 18:37:48 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 18:07 PDT: Gear 2 has advanced to LP16 admission.
 The complete ARIES breadth family replays unchanged and is internally landed
 in L448. Source/annotation/projection/score/interval/ranking checks pass; the method
 comparison remains unresolved. Missing view/wording, reserved-paper and diff-rival

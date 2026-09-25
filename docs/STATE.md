@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## Recorded-handling admission - September 24, 18:25 PDT
+
+OPS-S12-LP16-ADMISSION lands actual replay of all 192 development calls and the
+full handler, preserving 1,354 JSON files. Narrow assisted admission passes;
+gate boundary and development/main separation verify. LP17 admission continues
+in Gear 2 with native/GPU ownership and monitoring verified.
+
+The one-pass plan deferred numbered LP16 main jobs before its admission ran.
+An unchanged eight-job follow-on plan is prepared, not submitted:
+`raw/local-program-20260923-v2/PLAN-LP16-admitted-v1.json`.
+It selects seven unstarted producers and the original complete-only consumer.
+After current queue exit, verify ownership release, no intervening starts and
+original resource/deadline admission before launch. Inspect other admission
+families for the same ordering issue as their gates return. No healthy worker
+is interrupted and no failed attempt is retried. Main science remains pending;
+cloud deficits, prior limits, cutoff and Friday/Monday packets remain.
+Health remains due September 24 at 18:37:48 PDT.
+
 ## Complete ARIES breadth inspection - September 24, 18:07 PDT
 
 L448 lands all 384 calls, three producers and the complete consumer, preserving

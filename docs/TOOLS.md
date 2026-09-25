@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP16-ADMISSION: all 192 development calls and the handler replay unchanged; the narrow supplied-answer gate passes, its threshold/invalid/empty controls verify, and development remains excluded from main science. One-pass ordering deferred the unstarted main jobs before their gate completed; an unchanged eight-job follow-on plan is prepared for submission after current ownership clears. This does not admit the cloud human-history main. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HANDLING_ADMISSION.json).
+
 L448 / LP15: three complete ARIES producers and consumer replay unchanged; source census/annotation/projection, score, interval, coverage and ranking checks pass. The method comparison is unresolved. View/wording contrasts, reserved-only analysis and a separate diff-rank rival are absent; no held-out replication or private-purpose claim. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_COMPLETE.json).
 
 OPS-S12-LP15-FIRST-PRODUCER: the complete ARIES request/edit handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_FIRST_PRODUCER.json).

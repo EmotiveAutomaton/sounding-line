@@ -9,6 +9,35 @@ ran it.
 
 ---
 
+### OPS-S12-LP16-ADMISSION - narrow recorded-handling admission passes; deferred main pass prepared
+
+**Hypothesis.** The frozen local reader can return valid bounded forecasts and use an explicitly supplied handling answer well enough to admit the already planned recorded-handling comparison.
+
+**METHOD.** Inspect all 192 development calls from sixteen frozen CoAuthor events, two reading methods and six evidence views. Admission requires every reply to be literal-valid and at least seven eighths of the 32 witness-view replies to choose the supplied answer. Replay every saved request/parser and the full handler with network dispatch disabled, then independently recompute admission and test its boundary. Verify source/input/manifest/contract/prerequisite/output bindings, the ready marker, development/main separation, native continuation and monitoring. This is interface admission, not the main comparison of historical evidence.
+
+The table records the complete admission cell and execution checks. Witness replies explicitly receive the later recorded handling; correct counts are pooled over the two methods. Main calls are the already frozen, unstarted evaluation requests, not an additional allocation.
+
+| Check | Result |
+|---|---|
+| Development responses | All 192 are literal-valid |
+| Supplied-answer gate | 28 of 32 correct, exactly meeting the frozen threshold of 28 |
+| Gate falsification checks | 27 fails; 28 and 32 pass; any invalid development reply or an empty roster fails |
+| Actual replay | All calls and the full handler reproduce; all 1,354 original job JSON files remain unchanged |
+| Frozen bindings | All 476 source pins and manifest/input/prerequisite/output bindings pass |
+| Development exclusion | Sixteen development events are disjoint from the 104 main events; the whole-family consumer excludes development rows from its scientific comparisons |
+| Deferred main work | Seven existing producers contain 1,248 unstarted calls, followed by the original complete-only consumer |
+| Continuation | LP17 admission is running in Gear 2 with verified native/GPU ownership and fresh output |
+
+**Found.** The narrow admission passes and its ready marker reproduces. It establishes only the declared local assisted interface. The witness answer is intentionally disclosed; the generic producer control about hidden targets must not be read as saying that witness prompts conceal their answer. No claim about unassisted historical recovery, private intention, either method's general superiority, or the incomplete cloud human-history main follows.
+
+**Queue correction.** The existing one-pass plan lists numbered LP16 main jobs before its admission job. Those main jobs were therefore marked deferred while the ready marker was absent. The engine does not revisit them within that pass. None has started or dispatched a request. A separate eight-job follow-on plan now selects the same seven main manifests and original consumer in dependency order, preserving their identifiers, prompts, targets, source capsule, costs, output paths and complete-only rule. A dependency walk verifies the plan against the newly available ready marker and its planned producer outputs. This is preparation, not a second running coordinator. The healthy current worker and queue remain untouched. Submit the prepared pass after the current coordinator exits and ownership clears, subject to the unchanged resource and deadline checks; do not resubmit any job that has since started. The existing watcher covers queue exit/drain and the four-hour health deadline. Other admission-dependent families require the same ordering inspection when their own gates return; no failed gate or started scientific job is automatically retried.
+
+**Means.** Continue the frozen Gear 2 program and retain a concrete route to the now-admitted main work. Main scientific interpretation remains pending. At September 24, 18:25 PDT, coordinator, worker, matching GPU ownership, fresh output, loaded watcher sources/scanning and original checkpoint helper verify. Inspection and preparation cost 1.015625 CPU seconds and no new model calls. No tests harvested, research, fit, paid compute, delegation or changed gear. Earlier incomplete families, cloud deficit, validity failures, costs and corrections remain, as do the September 25 local cutoff and Friday/Monday packets. This completion ACK does not move the independent September 24, 18:37:48 PDT health deadline. Theory remains unchanged; the instrument and queue obligations are recorded here and in the tool ledger.
+
+**Curator roll-up.** Theory group: instrument admission and operational validity. Question: can the local handling interface open the already planned main comparison? Outcome: **Infrastructure**. Result: narrow admission passes and the deferred main pass is prepared. Project meaning: a supplied-answer gate licenses the bounded experiment, not a historical-recovery finding. Next engineering obligation: submit the unchanged main jobs after the current queue exits, with ownership, admission, budget and cutoff checks. Public claim: unchanged. Curator decision required: No. Detail: [admission inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HANDLING_ADMISSION.json).
+
+---
+
 ### L448 - broader human request/edit comparison completes without a resolved account advantage
 
 **Hypothesis.** A coherent account should improve correspondence between a human review request and its recorded edit beyond question wording and cheap textual overlap, without merely producing overconfident rankings.

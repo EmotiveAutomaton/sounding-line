@@ -1,0 +1,73 @@
+{
+  "active_job": "LP17-admission-a2",
+  "admission": {
+    "correct": 28.0,
+    "known_answer_rows": 32,
+    "literal_valid": true,
+    "reader_admitted": true,
+    "rows": 192,
+    "scope": "LP16 narrow assisted interface only; no broad human-history admission"
+  },
+  "all_json_files_unchanged": 1354,
+  "at": "2026-09-25T01:25:31.586247+00:00",
+  "calls": 192,
+  "cloud_comparison_unchanged": true,
+  "development_events": 16,
+  "development_excluded_from_main_science": true,
+  "family": "LP16",
+  "follow_on": {
+    "action": "Submit only after existing coordinator exits, native/kernel/GPU ownership clears and unchanged deadline/resource admission passes; never retry a started job",
+    "dependencies_topological": true,
+    "development_main_disjoint": true,
+    "jobs": [
+      "LP16-000-a2",
+      "LP16-001-a2",
+      "LP16-002-a2",
+      "LP16-003-a2",
+      "LP16-004-a2",
+      "LP16-005-a2",
+      "LP16-006-a2",
+      "LP16-summary-a2"
+    ],
+    "manifests_unchanged": true,
+    "model_calls": 1248,
+    "plan_sha256": "b356990e9a4951f607af344eacec5c05d9a2bae36bf7250f640d0c9284651660",
+    "source_capsule_unchanged": true,
+    "submitted": false
+  },
+  "gate_boundary_checks": true,
+  "gear": 2,
+  "health_due_utc": "2026-09-25T01:37:48.782822+00:00",
+  "heartbeat_age_seconds": 1.698431,
+  "kind": "complete narrow interface admission; main remains unstarted",
+  "landing": "OPS-S12-LP16-ADMISSION",
+  "main_events": 104,
+  "new_model_calls": 0,
+  "queue_exit_and_drain_watches_verified": true,
+  "queue_order_issue": "numbered main jobs considered before admission and not revisited in one pass",
+  "raw_output_age_seconds": 1.7889955043792725,
+  "receipts": {
+    "LP16-admission-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 1354,
+      "calls": 192,
+      "manifest_sha256": "8bebbdaecae1379120c411172c0797701ad19a86c83971eae71302a8d5e5d815",
+      "terminal_sha256": "8a62c4f874b45791bca6cb3c23cdfc7b74cbb4675449c457cfdd5bdd0157230e"
+    }
+  },
+  "retained_incomplete_families": [
+    "LP07",
+    "LP10"
+  ],
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-25T01:25:31.585123+00:00",
+    "cpu_seconds": 1.015625,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP16 narrow admission replay and successor preparation",
+    "status": "complete"
+  },
+  "witness_answer_explicitly_supplied": true
+}

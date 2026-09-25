@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP16-ADMISSION: full replay, independent admission, boundary controls and development/main separation pass; full internal instrument write-through complete.
+- [ ] OPS-S12-LP16-ADMISSION continuation: after the existing queue exits, recheck native/kernel/GPU ownership, unchanged deadline/cost admission and absence of started jobs, then submit the prepared eight-job LP16 main pass. Inspect other admitted families for the same one-pass ordering problem; preserve failed gates and all earlier failures. Main scientific comparison remains pending.
+
 - [x] L448 / LP15: all three producers and complete consumer replay unchanged; full internal write-through records annotation scope, unresolved method comparison and analysis gaps.
 - [ ] L448 packet scope: retain missing view/wording and reserved-paper analyses, absent diff-rank rival, full-pair visibility, probability/ranking separation and balanced-annotation limits. No new analysis, model call or source change is queued by this landing.
 
