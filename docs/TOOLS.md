@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP21-QUERY-026-028: all three completed handlers and saved requests/parsers replay unchanged, with original records and frozen bindings verified. Earlier failures and the unstarted complete-only consumer remain. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_026_028.json).
+
 OPS-S12-LP21-QUERY-024-025: both completed handlers and saved requests/parsers replay unchanged, with original records and frozen bindings verified. Earlier failures and the unstarted complete-only consumer remain. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_024_025.json).
 
 OPS-S12-LP21-QUERY-021-023: three complete reserved-questioning handlers and all saved requests/parsers replay unchanged. Original records and frozen bindings verify; all previously inspected failures and the unstarted complete-only consumer remain. Native Gear 2 continuation and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_021_023.json).

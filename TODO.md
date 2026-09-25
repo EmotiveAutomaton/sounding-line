@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP21-QUERY-026-028: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.
+
 - [x] OPS-S12-LP21-QUERY-024-025: both complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.
 
 - [x] OPS-S12-LP21-QUERY-021-023: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failure records remain intact; independent frozen work continues with whole-family comparison incomplete.
