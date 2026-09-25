@@ -1,0 +1,83 @@
+{
+  "active_job": "LP21-query-006-a2",
+  "all_inspected_original_json_files_unchanged": 682,
+  "all_json_files_unchanged": 648,
+  "at": "2026-09-25T02:58:06.340678+00:00",
+  "calls": 88,
+  "failure": {
+    "actual_prefix_and_guard_replay": true,
+    "all_bindings_verified": true,
+    "all_json_files_unchanged": 34,
+    "complete_only_consumer_blocked": true,
+    "expected_calls": 22,
+    "failed_native_exited": true,
+    "host_cpu_accounting": "Conservative two-thread service wall upper bound, not measured CPU.",
+    "invalid_selection": {
+      "parse_error": "invalid finite probabilities",
+      "policy": "neutral",
+      "step": 2
+    },
+    "job": "LP21-query-004-a2",
+    "manifest_sha256": "e4712d1a20d5fa595a7b708507ab8a992fc896bbdcf7e91f92434688b4d13b3f",
+    "reason": "unavailable earlier question selection; no hidden fallback",
+    "retained_charges": {
+      "cpu_seconds": 22.76518379850313,
+      "diagnostic_gpu_seconds": 0.0,
+      "gpu_seconds": 27.847636300022714,
+      "host_cpu_seconds": 55.69527260004543
+    },
+    "returned_calls": 4,
+    "terminal_sha256": "9c5f068a90ee7c18dc6db14bc54c33e212a177b8d20a11014d87031d174830bd",
+    "unstarted_calls": 18,
+    "whole_family_incomplete": true
+  },
+  "family": "LP21-query",
+  "gear": 2,
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "landing": "OPS-S12-LP21-QUERY-FIRST-FAILURE",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "new_model_calls": 0,
+  "receipts": {
+    "LP21-query-000-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "490b260a92c8f2694500dad6a02b992cabb9278d7e69d031ece39e20befe8a55",
+      "terminal_sha256": "a3390764ad5387d55f5a59d1b424aabffbeae6f56ac4a9f3844083611148e55b"
+    },
+    "LP21-query-001-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "a1e0e9bf709f4f2c2d642948ec2a17bbb4de39e61e62c86396abd4cbf0016a65",
+      "terminal_sha256": "beda564ccfe285133d0d4a2e2078e03035ffa930e24c77f94e8138f1e5a32163"
+    },
+    "LP21-query-002-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "a79fe111237c08aff8611393bcb4cdbb8338eb9db928fe184194eecdfa840079",
+      "terminal_sha256": "c8b46ed7adff3b14e4f89be781bb103c4fcd8fa6e8da8a4fb435f4119f3be6f1"
+    },
+    "LP21-query-003-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "6af1ac1bd537b88a61e65018aeb690487b48b29de8e10a59d194465ad3d6a81a",
+      "terminal_sha256": "519d88967a28d4d457bed6af61e34a6f745eb71921e70b92e2c733fe304da880"
+    }
+  },
+  "scope": "Operational saved-call replay and failure preservation; incomplete reserved questioning replication, no scientific comparison.",
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-25T02:58:06.339826+00:00",
+    "cpu_seconds": 5.46875,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "inspection_setup_cpu_allowance_seconds": 5,
+    "inspection_setup_reason": "conservative allowance for preceding metadata and manifest inspection",
+    "kind": "LP21 query first failure and four complete producers actual replay",
+    "status": "complete"
+  }
+}

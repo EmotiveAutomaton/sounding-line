@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S12-LP21-QUERY-FIRST-FAILURE - reserved questioning preserves its first incomplete history
+
+**Hypothesis.** The reserved sequential-questioning replication preserves actual choices and stops a dependent history when an earlier selection is invalid, while independent histories can continue.
+
+**METHOD.** Replay the first four complete producers from their saved requests and responses, then reconstruct every materialized request and score in the failed fifth producer's returned prefix. Replay its complete handler with service startup disabled and calls restricted to existing receipts, requiring the identical failure before any unstarted request. Verify source, input, contract, dependency, output and cost bindings, original worker exit, complete-only consumer prerequisites and native Gear 2 continuation. This is an operational validity inspection, not an analysis of the unfinished replication.
+
+The table counts requests and retained JSON records, not scientific performance or independent sample size. Each producer corresponds to one reserved history.
+
+| Inspected producer | Returned requests | Unstarted requests | Original JSON files unchanged |
+|---|---:|---:|---:|
+| LP21-query-000-a2, complete | 22 | 0 | 162 |
+| LP21-query-001-a2, complete | 22 | 0 | 162 |
+| LP21-query-002-a2, complete | 22 | 0 | 162 |
+| LP21-query-003-a2, complete | 22 | 0 | 162 |
+| LP21-query-004-a2, failed | 4 | 18 | 34 |
+
+**Found.** Every saved request, parser and complete producer handler reproduces. In the failed history, the second neutral-policy selection has invalid probabilities; reconstruction stops at its dependent forecast with the declared unavailable-selection error. The four returned calls and all failure costs remain, the remaining requests are unstarted, and the original failed worker has exited. All 476 source pins and frozen bindings verify. No response is substituted or normalized, and no hidden fallback, retry or source repair is made. The whole reserved questioning comparison is incomplete: its complete-only consumer cannot run on the surviving histories. This does not establish a null or a counterexample-seeking effect. Theory is unchanged; this inspection belongs in the instrument ledger.
+
+**Means.** Continue independent authorized histories while retaining the missing-history deficit for the final packet. The failed producer retains 22.765 CPU process seconds and 27.848 GPU service seconds; its 55.695 host CPU seconds are a conservative two-thread service upper bound, not measured CPU. Offline verification costs 5.46875 CPU seconds, including a conservative five-second setup-inspection allowance, and no model calls. At September 24, 19:58 PDT, Gear 2 is running LP21-query-006-a2, with actual coordinator/worker/GPU ownership, fresh output, loaded watcher sources and the original checkpoint verified. LP16 remains prepared for after the current queue exits and fresh checks; LP17 and both cached-reader main branches remain blocked. Preserve earlier failures, corrections, original cutoff and Friday/Monday packets. No tests harvested, new research, paid compute, delegation or gear change. These ordinary terminal ACKs leave the independent September 24, 22:52:17 PDT health check unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: does the reserved question-selection chain retain failures and stop unavailable dependencies? Outcome: **Infrastructure**. Result: saved execution and the failure guard reproduce, leaving the whole replication incomplete. Project meaning: continuation is operationally valid but a survivor-only scientific comparison is forbidden. Next engineering obligation: retain the deficit and inspect the remaining independent histories and complete-only consumer disposition. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning failure inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_FIRST_FAILURE.json).
+
+---
+
 ### OPS-S12-LP20-SMOL-ADMISSION - cached SmolLM output admission fails and main remains blocked
 
 **Hypothesis.** The cached SmolLM2 1.7B instruction model can return literal, bounded probability forecasts for explicitly supplied known answers before entering the six sentinel comparisons.

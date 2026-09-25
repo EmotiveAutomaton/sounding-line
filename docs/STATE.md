@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## Reserved questioning failure and continuation - September 24, 19:58 PDT
+
+OPS-S12-LP21-QUERY-FIRST-FAILURE lands exact replay of four complete producers
+and the failed fifth producer's returned prefix and dependency guard. An invalid
+selection leaves its dependent work unstarted; the whole reserved questioning
+comparison is incomplete and the complete-only consumer remains blocked.
+No retry, fallback or source repair. Gear 2 continues independent histories with
+native ownership, fresh output and monitoring verified. LP16 waits for current
+queue exit and fresh checks; LP17 and both cached-reader mains remain blocked.
+Preserve earlier deficits, cutoff and Friday/Monday packets. Independent health
+remains September 24 at 22:52:17 PDT.
+
 ## Cached SmolLM admission - September 24, 19:45 PDT
 
 OPS-S12-LP20-SMOL-ADMISSION lands complete token/parser/handler replay and failed

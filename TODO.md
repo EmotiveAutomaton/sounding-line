@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP21-QUERY-FIRST-FAILURE: first four complete producers and fifth producer's returned prefix/failure guard replay unchanged; full internal operational write-through complete.
+- [ ] OPS-S12-LP21-QUERY-FIRST-FAILURE continuation: reserved questioning is INCOMPLETE after an invalid selection leaves dependent requests unstarted. Preserve all records/costs and keep the complete-only consumer blocked; no survivor-only comparison or blind retry. Continue independent frozen histories and retain the deficit in the final packet.
+
 - [x] OPS-S12-LP20-SMOL-ADMISSION: complete cached-model admission, token/parser/handler replay and gate controls verified; full internal instrument write-through complete. Literal output admission fails.
 - [ ] OPS-S12-LP20-SMOL-ADMISSION main: BLOCKED; all three main producers and consumer remain unstarted without READY. Preserve invalid/capped replies and costs; no automatic extraction, repair or retry. Both cached-reader main comparisons remain unavailable for the final packet.
 

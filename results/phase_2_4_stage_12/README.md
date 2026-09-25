@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 19:45 PDT: Gear 2 is running the reserved
+Current continuation, September 24 at 19:58 PDT: independent reserved questioning
+histories continue in Gear 2. Four complete producers and the failed fifth
+producer's returned prefix and guard replay unchanged. Invalid selection leaves
+dependent requests unstarted; the complete-only replication comparison is
+incomplete. No retry, fallback or source repair. Native continuation and monitoring
+verify. [Failure inspection](LOCAL_PROGRAM_RESERVED_QUERY_FIRST_FAILURE.json).
+Health remains September 24 at 22:52:17 PDT; cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 19:45 PDT: Gear 2 is running the reserved
 sequential-questioning replication. Cached SmolLM admission fails literal output
 validity; all replies and costs remain. Full tokenizer/parser/handler replay and
 bindings verify. Its main jobs remain unstarted, as do Qwen's. No repair or retry.

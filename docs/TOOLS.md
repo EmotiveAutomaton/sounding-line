@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP21-QUERY-FIRST-FAILURE: four complete reserved-questioning producers and the failed fifth producer's returned prefix replay exactly; the original invalid-selection dependency guard reproduces without service startup or new calls. Bindings, costs and original records verify. Whole-family analysis remains blocked by the missing history; independent Gear 2 continuation is healthy. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_FIRST_FAILURE.json).
+
 OPS-S12-LP20-SMOL-ADMISSION: all saved requests/parsers, complete handler and tokenizer input/output replay reproduce. Literal output admission fails on invalid JSON, extra material and capped responses; normal stopping is not schema validity. Cached files and original bindings verify, gate boundary controls pass, and all main work remains unstarted. No general capability or main-task verdict. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_SMOL_SENTINEL_ADMISSION.json).
 
 OPS-S12-LP20-QWEN-ADMISSION: complete cached Qwen admission fails because every response reaches the frozen output cap. Actual tokenizer/rendered-prompt/input-token/output-token replay and the full handler reproduce, with original files and bindings intact. Boundary and invalid/empty gate controls pass; all main work remains unstarted. No general capability or main-task verdict. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_QWEN_SENTINEL_ADMISSION.json).
