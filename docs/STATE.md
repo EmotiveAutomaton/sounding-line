@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Reserved questioning continuation - September 24, 21:12 PDT
+
+OPS-S12-LP21-QUERY-036-038 lands exact replay of three completed histories.
+Original records, bindings and earlier failure terminals verify. Gear 2
+continues with matching native/GPU ownership, fresh output and verified
+monitoring. Whole-family comparison remains incomplete and its complete-only
+consumer is unstarted. No repair or retry. LP16 waits for current queue exit
+and fresh checks; failed admissions remain blocked. Preserve prior deficits,
+cutoff and Friday/Monday packets. Independent health stays September 24 at 22:52:17 PDT.
+
 ## Reserved questioning continuation - September 24, 21:06 PDT
 
 OPS-S12-LP21-QUERY-033-035 lands exact replay of two completed histories
