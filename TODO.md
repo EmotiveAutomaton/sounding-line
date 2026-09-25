@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP18-SECOND-PRODUCER: second completed producer replays unchanged with bindings, native continuation and monitoring verified; internal operational write-through complete. Final producer and complete-family scientific review remain owed.
+
 - [x] OPS-S12-LP18-FIRST-PRODUCER: first completed block replays unchanged with full bindings and native continuation verified; internal operational write-through complete. Continue remaining frozen producers and complete-only consumer; scientific interpretation remains pending.
 
 - [x] OPS-S12-LOCAL-HEALTH-1847: native identities, progress, locks, resource limits, next work and watcher delivery inspected and documented. Preserve Gear 2 and rearm the independent four-hour check on health ACK.

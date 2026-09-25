@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S12-LP18-SECOND-PRODUCER - next instruction block replays unchanged
+
+**Hypothesis.** The second frozen instruction-realization block has durable, source-bound responses that reproduce through the actual parser and handler, with authorized continuation intact.
+
+**METHOD.** Disable network dispatch and replay all 180 saved requests, response parsers and the complete producer handler. Verify source/input/manifest/contract/prerequisite/output bindings and unchanged original JSON files. Check actual coordinator/worker/GPU identities and ownership, output freshness, loaded watcher sources, scanning and the original checkpoint helper. This is operational verification; the complete-family scientific review remains pending.
+
+The table reports saved-request coverage and integrity, not independent sample size or scientific performance.
+
+| Check | Result |
+|---|---|
+| Producer | LP18-001-a2; all 180 saved calls and the complete handler reproduce |
+| Original files | All 1,268 job JSON files remain unchanged |
+| Frozen bindings | All 476 source pins and manifest/input/contract/prerequisite/output bindings pass |
+| Continuation | At September 24, 19:02 PDT, LP18-002-a2 runs in Gear 2 with matching native/GPU ownership and fresh output |
+| Monitoring | Actual watcher identity, loaded sources, scanning and original checkpoint identity/freshness verify |
+
+**Found.** The completed block is reproducible and independent queue continuation verifies. No repair or new inference is needed. This landing does not establish the whole-family instruction comparison; exact feature validation and scientific interpretation remain owed with the complete consumer. The declared counterfactual-instruction and privileged-checker-assistance limits remain.
+
+**Means.** Retain original outputs and costs and continue the frozen roster. Theory is unchanged; the inspection belongs in the instrument ledger. Verification costs 0.734375 CPU seconds and no model calls. No tests harvested, research, fit, paid compute, delegation or gear change. LP17 main remains blocked; the prepared LP16 pass waits for current queue exit and fresh ownership/resource/deadline checks. Earlier failures, cloud deficit, local cutoff and Friday/Monday packets remain. This completion ACK preserves the independent September 24, 22:52:17 PDT health deadline.
+
+**Curator roll-up.** Theory group: operational validity. Question: does the next completed instruction block reproduce with authorized continuation intact? Outcome: **Infrastructure**. Result: the completed producer replays unchanged. Project meaning: execution integrity is verified; complete-family science is still owed. Next engineering obligation: land the final producer and complete-only scientific consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_INSTRUCTION_SECOND_PRODUCER.json).
+
+---
+
 ### OPS-S12-LP18-FIRST-PRODUCER - instruction-realization block replays; whole comparison pending
 
 **Hypothesis.** The first frozen instruction-realization block has durable, source-bound responses that reproduce through the actual parser and handler, while its independent successors continue in the authorized queue.

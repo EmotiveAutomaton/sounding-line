@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Second instruction block - September 24, 19:02 PDT
+
+OPS-S12-LP18-SECOND-PRODUCER lands the second completed block's saved-call and
+handler replay with all original files unchanged. LP18-002-a2 is running in
+Gear 2 at inspection, with native/GPU ownership, fresh output and monitoring
+verified. Complete-family scientific review remains owed; no repair or new calls.
+LP17 remains blocked and the LP16 follow-on remains prepared for after current
+queue exit and fresh admission checks. Earlier deficits, cutoff and packet dates
+remain. Independent health is still due September 24 at 22:52:17 PDT.
+
 ## Instruction-realization continuation - September 24, 18:54 PDT
 
 OPS-S12-LP18-FIRST-PRODUCER lands replay of the complete first producer and all
