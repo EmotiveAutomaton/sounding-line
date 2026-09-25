@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S12-LP21-QUERY-029-032 - retained selection failure and exact completed-history replay
+
+**Hypothesis.** Invalid selections stop the affected history without inventing evidence, while completed independent histories remain reproducible.
+
+**METHOD.** Replay saved requests, literal parsers, dynamic branches and complete handlers for producers 029, 030 and 032 with network dispatch disabled. Reconstruct every returned request and scored record in failed producer 031, then replay its whole handler through the original dependency guard without starting a service or issuing a new call. Verify all original JSON bytes, source/input/contract/dependency/output bindings, retained charges and exited producer identities. Inspect actual coordinator, worker and GPU ownership, fresh output, loaded watcher sources and the original checkpoint. This is operational validity checking, not an unfinished-family scientific comparison.
+
+The table counts requests and unchanged original records. Each row is one reserved history; counts describe execution coverage and integrity, not scientific performance.
+
+| Producer | Returned requests replayed | Unstarted requests | Original JSON files unchanged |
+|---|---:|---:|---:|
+| LP21-query-029-a2, complete | 22 | 0 | 162 |
+| LP21-query-030-a2, complete | 22 | 0 | 162 |
+| LP21-query-031-a2, failed | 13 | 9 | 97 |
+| LP21-query-032-a2, complete | 22 | 0 | 162 |
+
+**Found.** The failed history's third counterexample-seeking selection returns invalid finite probabilities. The unchanged guard stops before using that unavailable selection; its returned prefix and failure replay exactly. Its single invalid return, remaining unstarted requests and original costs remain: 65.51612360030413 CPU seconds, 85.57981919997837 GPU service seconds and 171.15963839995675 host CPU seconds, with no diagnostic GPU charge. All three complete handlers also reproduce exactly. All 476 source pins and frozen bindings verify; the full inspection leaves 583 original JSON records unchanged. Earlier failures 004, 015, 017 and 020 remain intact. The whole questioning replication remains incomplete and its complete-only consumer is unstarted. No retry, replacement response or source repair follows. Theory and public scientific claims remain unchanged; this is an instrument-ledger landing.
+
+**Means.** At September 24, 20:59 PDT, LP21-query-033-a2 is running in Gear 2 with matching native/GPU ownership, fresh output and verified monitoring. Offline verification costs 0.59375 CPU seconds and no model calls. Continue independent frozen histories and retain all missingness. LP16 remains prepared for after current queue exit and fresh checks; failed admissions remain blocked. Preserve prior deficits, corrections, original cutoff and Friday/Monday packets. No tests harvested, new research, spending, delegation or gear change. Ordinary result ACKs leave the independent September 24, 22:52:17 PDT health deadline unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: does an invalid selection stop its history while independent work remains reproducible? Outcome: **Infrastructure**. Result: the failure guard and completed histories replay unchanged. Project meaning: continued execution preserves the incomplete comparison boundary. Next engineering obligation: inspect remaining frozen histories and retain missingness in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning continuation inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_029_032.json).
+
+---
+
 ### OPS-S12-LP21-QUERY-026-028 - three completed reserved histories preserve exact replay
 
 **Hypothesis.** Completed independent histories retain reproducible execution while the reserved questioning replication continues with failed histories explicitly preserved.
