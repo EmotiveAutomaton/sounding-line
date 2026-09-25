@@ -1,0 +1,150 @@
+{
+  "at": "2026-09-25T04:23:49.402510+00:00",
+  "family": "LP21-query",
+  "earlier_failure_terminal_unchanged": true,
+  "whole_family_incomplete": true,
+  "complete_only_consumer_unstarted": true,
+  "source_pins_verified": 476,
+  "active_job": "LP21-query-046-a2",
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "new_model_calls": 0,
+  "gear": 2,
+  "landing": "OPS-S12-LP21-QUERY-039-044",
+  "scope": "Operational replay only; incomplete whole replication, no scientific comparison.",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "earlier_failures_verified": {
+    "LP21-query-004-a2": "9c5f068a90ee7c18dc6db14bc54c33e212a177b8d20a11014d87031d174830bd",
+    "LP21-query-015-a2": "24aab3ae8c775f09839eeaa527faa0039bf71be9bb4817b7276ca7c35ef41873",
+    "LP21-query-017-a2": "4090d2e8bb40d32b26bbc5b58edea8deae4507a9bf1b949ca73072491ba3a2bf",
+    "LP21-query-020-a2": "437603763dc1e07cb5fc7e030a9e41afcc1dddb6373f17a02772f809822c5919",
+    "LP21-query-031-a2": "30391bfce1c3c4760059b28df7a774ea88f6e80a77303b93708d5e9e772c27a2",
+    "LP21-query-034-a2": "03505584a6f67687e9b720c86ebbfbe268dee19e94cf246b0d266d2e3fdd4b8a"
+  },
+  "receipts": {
+    "LP21-query-039-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "bc2ca0937aea7ebd1541a5aa8fb41433d786159308ad605fe1efc3f1f669745f",
+      "terminal_sha256": "a6d404177360a1d3f12a56867c457cb33a2e36e0155b7553b124c9f336892f73"
+    },
+    "LP21-query-041-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "7d29619ec7c29d4e31c812f91a99d63cb22678f9a4fe97c1b0a9e82ced8c9eac",
+      "terminal_sha256": "b22c1ce0d30793378cdac35da9f52c9f29f9b07e8bb60381751bf48ef0595028"
+    },
+    "LP21-query-042-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "8437ada30474f5cc7dea9842cff2634562da5a1db8554cb8cc3da129fbd6d5ae",
+      "terminal_sha256": "1078eb83b5790768224e56aa6e6ebc113890090ffc0f2866faba7ffc1db8af97"
+    },
+    "LP21-query-044-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "f257988ebe5557d9ea133f86f8b87a9e2d25aa88b8470086de8fefdf728df35b",
+      "terminal_sha256": "d8c0ceb4be21267bb61ab66fdf32f166606db799fa9a31608e97299e5cf66332"
+    }
+  },
+  "failures": {
+    "LP21-query-040-a2": {
+      "job": "LP21-query-040-a2",
+      "expected_calls": 22,
+      "returned_calls": 4,
+      "unstarted_calls": 18,
+      "all_json_files_unchanged": 34,
+      "all_bindings_verified": true,
+      "actual_prefix_and_guard_replay": true,
+      "reason": "unavailable earlier question selection; no hidden fallback",
+      "failed_native_exited": true,
+      "manifest_sha256": "d19f0e8dfb32a35c2113071d7b913da149279388db68261b745ca58945ba24af",
+      "terminal_sha256": "1b9a2ed818b7dec30e364aa38a41692ffda9843cc836fc81d2708669ed4008cb",
+      "whole_family_incomplete": true,
+      "complete_only_consumer_blocked": true,
+      "invalid_returns": 2,
+      "invalid_selection": {
+        "policy": "neutral",
+        "step": 2,
+        "parse_error": "invalid finite probabilities"
+      },
+      "retained_charges": {
+        "cpu_seconds": 21.679336397908628,
+        "gpu_seconds": 26.360814000014216,
+        "host_cpu_seconds": 52.72162800002843,
+        "diagnostic_gpu_seconds": 0.0
+      }
+    },
+    "LP21-query-043-a2": {
+      "job": "LP21-query-043-a2",
+      "expected_calls": 22,
+      "returned_calls": 4,
+      "unstarted_calls": 18,
+      "all_json_files_unchanged": 34,
+      "all_bindings_verified": true,
+      "actual_prefix_and_guard_replay": true,
+      "reason": "unavailable earlier question selection; no hidden fallback",
+      "failed_native_exited": true,
+      "manifest_sha256": "454949c0be1b5f358d1525710b542b7ba3a4e9d517f37063a9afe9f5b6de0cf6",
+      "terminal_sha256": "2d52c715d8ca548a44b36ec1503da14e2d69afccec3ce9e83854bc0f2c716f58",
+      "whole_family_incomplete": true,
+      "complete_only_consumer_blocked": true,
+      "invalid_returns": 1,
+      "invalid_selection": {
+        "policy": "neutral",
+        "step": 2,
+        "parse_error": "invalid finite probabilities"
+      },
+      "retained_charges": {
+        "cpu_seconds": 22.452741799410433,
+        "gpu_seconds": 28.323359000030905,
+        "host_cpu_seconds": 56.64671800006181,
+        "diagnostic_gpu_seconds": 0.0
+      }
+    }
+  },
+  "calls": 88,
+  "all_json_files_unchanged": 648,
+  "total_returned_calls_replayed": 96,
+  "total_original_json_files_unchanged": 716,
+  "verification_charge": {
+    "cpu_seconds": 3.75,
+    "gpu_seconds": 0,
+    "diagnostic_gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "combined offline inspections 039-041 and 042-044",
+    "status": "complete",
+    "prior_handoff_inspection_allowance_seconds": 3
+  },
+  "verification_charge_records": [
+    {
+      "path": "charges/LP21-query-039-041-inspection-v1.json",
+      "record": {
+        "at": "2026-09-25T04:18:17.642709+00:00",
+        "cpu_seconds": 3.3125,
+        "diagnostic_gpu_seconds": 0,
+        "gpu_seconds": 0,
+        "host_cpu_seconds": 0,
+        "kind": "LP21 query 039 through 041 complete and failed producer replay",
+        "prior_handoff_inspection_allowance_seconds": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "path": "charges/LP21-query-042-044-inspection-v1.json",
+      "record": {
+        "at": "2026-09-25T04:23:49.401431+00:00",
+        "cpu_seconds": 0.4375,
+        "diagnostic_gpu_seconds": 0,
+        "gpu_seconds": 0,
+        "host_cpu_seconds": 0,
+        "kind": "LP21 query 042 through 044 complete and failed producer replay",
+        "status": "complete"
+      }
+    }
+  ],
+  "handoff_inspection": "The first live snapshot caught an ordinary worker handoff before GPU ownership appeared; repeated offline inspection passed without scientific restart."
+}
