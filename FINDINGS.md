@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S12-LP21-QUERY-005-008 - four more reserved questioning histories replay unchanged
+
+**Hypothesis.** Completed independent histories remain reproducible after another history stops on an invalid question selection.
+
+**METHOD.** Replay all saved requests, literal parsing, dynamic branch materialization and complete handlers for reserved-questioning producers 005 through 008 with network dispatch disabled. Verify original JSON bytes, source/input/contract/dependency/output bindings and exited producer identities. Reconcile the earlier failure and unstarted complete-only consumer, then inspect actual queue/GPU ownership, output freshness, loaded watcher sources and the original checkpoint. This is operational validity checking; the unfinished replication receives no scientific score.
+
+The table reports completed request coverage and unchanged original records, not scientific performance or independent sample size. Each row is one reserved history.
+
+| Completed producer | Saved requests replayed | Original JSON files unchanged |
+|---|---:|---:|
+| LP21-query-005-a2 | 22 | 162 |
+| LP21-query-006-a2 | 22 | 162 |
+| LP21-query-007-a2 | 22 | 162 |
+| LP21-query-008-a2 | 22 | 162 |
+
+**Found.** All four producers and their saved calls reproduce exactly. All 476 source pins and frozen bindings verify. The earlier failed selection record remains unchanged and the complete-only consumer is unstarted; the whole reserved questioning comparison remains incomplete. No response is replaced, no failed history is retried, and these surviving histories do not establish a whole-family comparison. Theory is unchanged; this landing belongs in the instrument ledger.
+
+**Means.** Continue the independent frozen roster. At September 24, 20:06 PDT, LP21-query-010-a2 is running in Gear 2 with matching native/GPU ownership, fresh output and verified monitoring. The first inspection completed replay but caught the normal next-worker handoff before its GPU ownership record existed; a subsequent native check and replay verify progress without any scientific restart. Verification costs 3.5 CPU seconds, including a conservative three-second allowance for that stopped inspection, with no new model calls. LP16 remains prepared for after current queue exit and fresh checks; LP17 and both cached-reader main branches remain blocked. Earlier deficits, original cutoff and Friday/Monday packets remain. No tests harvested, research, paid compute, delegation or gear change. Ordinary result ACKs preserve the independent September 24, 22:52:17 PDT health deadline.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do completed independent histories reproduce after a separate selection failure? Outcome: **Infrastructure**. Result: the completed histories replay unchanged while the whole replication remains incomplete. Project meaning: continuation is operationally valid without licensing a survivor-only scientific comparison. Next engineering obligation: inspect remaining frozen histories and retain the missing-history deficit in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_005_008.json).
+
+---
+
 ### OPS-S12-LP21-QUERY-FIRST-FAILURE - reserved questioning preserves its first incomplete history
 
 **Hypothesis.** The reserved sequential-questioning replication preserves actual choices and stops a dependent history when an earlier selection is invalid, while independent histories can continue.

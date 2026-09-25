@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Reserved questioning continuation - September 24, 20:06 PDT
+
+OPS-S12-LP21-QUERY-005-008 lands exact replay of four further completed histories.
+Original records and bindings verify; the earlier failed selection and unstarted
+complete-only consumer remain. Whole-family comparison is still incomplete.
+Gear 2 independent work and native/GPU ownership, output freshness and monitoring
+verify. The first inspection caught an ordinary worker handoff; no scientific
+restart or retry. LP16 waits for current queue exit and fresh checks; failed
+admissions remain blocked. Earlier deficits, cutoff and Friday/Monday packets
+remain. Independent health is still September 24 at 22:52:17 PDT.
+
 ## Reserved questioning failure and continuation - September 24, 19:58 PDT
 
 OPS-S12-LP21-QUERY-FIRST-FAILURE lands exact replay of four complete producers

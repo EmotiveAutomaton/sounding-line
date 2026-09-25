@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP21-QUERY-005-008: four completed histories and all saved calls replay unchanged; full internal operational write-through complete. Continue independent frozen histories, preserving the earlier failed selection and blocked complete-only comparison.
+
 - [x] OPS-S12-LP21-QUERY-FIRST-FAILURE: first four complete producers and fifth producer's returned prefix/failure guard replay unchanged; full internal operational write-through complete.
 - [ ] OPS-S12-LP21-QUERY-FIRST-FAILURE continuation: reserved questioning is INCOMPLETE after an invalid selection leaves dependent requests unstarted. Preserve all records/costs and keep the complete-only consumer blocked; no survivor-only comparison or blind retry. Continue independent frozen histories and retain the deficit in the final packet.
 
