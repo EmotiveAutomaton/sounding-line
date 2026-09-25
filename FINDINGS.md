@@ -9,6 +9,34 @@ ran it.
 
 ---
 
+### OPS-S12-LP20-SMOL-ADMISSION - cached SmolLM output admission fails and main remains blocked
+
+**Hypothesis.** The cached SmolLM2 1.7B instruction model can return literal, bounded probability forecasts for explicitly supplied known answers before entering the six sentinel comparisons.
+
+**METHOD.** Evaluate the complete frozen 48-request development admission with canonical and inverted label orders and direct and account-first formats. Require every response literal-valid and at least seven-eighths correct. Replay the complete producer and parser without network dispatch, independently reconstruct the roster and gate boundaries, verify all pinned cached files, and reproduce the rendered prompts, input tokens and decoded output tokens using the cached tokenizer alone. Check that dependent main work remains unstarted and the authorized queue has continued.
+
+The table reports the complete development instrument check, not scientific main performance. The 48 development units are separate from the 64 main source episodes.
+
+| Check | Result |
+|---|---|
+| Development coverage | All 48 requests completed and retained |
+| Literal response validity | None valid: 30 do not start with a JSON value, 12 have extra material after the JSON value, and six reach the 1,024-token cap |
+| Native stopping | 42 stop normally and six reach the cap; normal stopping alone does not establish schema validity |
+| Admission | FAIL; requires all responses valid and at least 42 correct |
+| Gate controls | 41 correct fails; 42 and 48 pass with all outputs valid; an invalid response or empty population fails |
+| Token/source replay | All 12 pinned cache files verify; every rendered prompt, input-token sequence and decoded reply reproduces |
+| Token bounds | Inputs 320-335 tokens; outputs 130-1,024; actual context allowance holds |
+| Integrity | All 297 original job JSON files unchanged; all 476 source pins and manifest/input/dependency/output bindings verify |
+| Dependent main | No READY marker; three producers and the consumer remain deferred and unstarted; 384 main calls not run |
+
+**Found.** The frozen SmolLM interface fails literal output admission. The parser correctly distinguishes normal generation stopping from a valid JSON response. All saved probability forecasts are invalid under the declared contract, so the zero admitted-correct count is not a measured zero accuracy on a scientific task. No surrounding material is stripped, no response is repaired or substituted, and the failed gate does not admit main work. Qwen's separate admission failure is retained; neither reader has an executed main sentinel comparison. This is an instrument result, not evidence against the six scientific hypotheses or a general model-capability judgment. Theory is unchanged and the landing belongs in the tools ledger.
+
+**Means.** Preserve every reply, failure reason and charge. Recorded admission costs are 675.321 CPU process seconds and 534.445 GPU service seconds, with all GPU time also charged to the diagnostic allowance. Offline verification costs 11.171875 CPU seconds and no new model calls; verification loads only the tokenizer, not model weights. At September 24, 19:45 PDT, the original SmolLM worker has exited and Gear 2 is running the reserved sequential-questioning replication, with native/GPU ownership, fresh output, loaded watcher sources and the original checkpoint helper verified. LP16 remains prepared for after the current queue exits and fresh checks; LP17 and both cached-reader main branches remain blocked. No tests harvested, new research, paid compute, delegation, gear change or retry. Preserve earlier deficits, original cutoff and Friday/Monday packets. This ordinary completion ACK leaves the independent September 24, 22:52:17 PDT health deadline unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can this cached reader produce valid bounded forecasts before main comparison? Outcome: **Infrastructure**. Result: the frozen interface fails literal output admission and its main work remains unstarted. Project meaning: no main sentinel comparison is available for this reader under the current interface. Next engineering obligation: retain the failed admission in the final packet while the authorized reserved replication continues. Public claim: unchanged. Curator decision required: No. Detail: [cached SmolLM admission inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_SMOL_SENTINEL_ADMISSION.json).
+
+---
+
 ### OPS-S12-LP20-QWEN-ADMISSION - cached Qwen output admission fails and main remains blocked
 
 **Hypothesis.** The cached Qwen2.5 1.5B instruction model can return literal, bounded probability forecasts for explicitly supplied known answers before entering the six sentinel comparisons.

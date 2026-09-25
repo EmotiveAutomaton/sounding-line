@@ -4,7 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 19:38 PDT: Gear 2 is running SmolLM admission.
+Current continuation, September 24 at 19:45 PDT: Gear 2 is running the reserved
+sequential-questioning replication. Cached SmolLM admission fails literal output
+validity; all replies and costs remain. Full tokenizer/parser/handler replay and
+bindings verify. Its main jobs remain unstarted, as do Qwen's. No repair or retry.
+[Cached SmolLM admission inspection](LOCAL_PROGRAM_SMOL_SENTINEL_ADMISSION.json).
+Health stays September 24 at 22:52:17 PDT; cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 19:38 PDT: Gear 2 is running SmolLM admission.
 Cached Qwen admission fails literal output validity; all capped replies and costs
 remain. Tokenizer, actual request/parser/handler replay and frozen bindings verify.
 Its main jobs and consumer remain unstarted. No retry or token-limit change.

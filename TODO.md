@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP20-SMOL-ADMISSION: complete cached-model admission, token/parser/handler replay and gate controls verified; full internal instrument write-through complete. Literal output admission fails.
+- [ ] OPS-S12-LP20-SMOL-ADMISSION main: BLOCKED; all three main producers and consumer remain unstarted without READY. Preserve invalid/capped replies and costs; no automatic extraction, repair or retry. Both cached-reader main comparisons remain unavailable for the final packet.
+
 - [x] OPS-S12-LP20-QWEN-ADMISSION: complete cached-model admission and token/parser/handler replay verified; full internal instrument write-through complete. Literal output admission fails.
 - [ ] OPS-S12-LP20-QWEN-ADMISSION main: BLOCKED; all main producers and consumer remain unstarted without READY. Preserve capped responses and costs; no automatic retry, token-limit increase or scientific comparison. Carry the unavailable reader into the final packet.
 

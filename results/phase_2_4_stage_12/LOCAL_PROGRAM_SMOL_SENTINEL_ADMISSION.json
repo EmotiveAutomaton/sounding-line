@@ -1,0 +1,81 @@
+{
+  "active_job": "LP21-query-000-a2",
+  "admission": {
+    "correct": 0.0,
+    "known_answer_rows": 48,
+    "literal_valid": false,
+    "reader_admitted": false,
+    "rows": 48,
+    "scope": "LP20-Smol narrow assisted interface only; no broad human-history admission"
+  },
+  "all_json_files_unchanged": 297,
+  "all_responses_invalid_under_frozen_literal_parser": true,
+  "assisted_prompts_verified": true,
+  "at": "2026-09-25T02:45:29.809297+00:00",
+  "cached_model_files_verified": 12,
+  "calls": 48,
+  "development_events": 48,
+  "development_main_disjoint": true,
+  "family": "LP20-Smol",
+  "gate_boundary_checks": true,
+  "gear": 2,
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "input_token_range": [
+    320,
+    335
+  ],
+  "invalid_responses": 48,
+  "landing": "OPS-S12-LP20-SMOL-ADMISSION",
+  "main_calls": 384,
+  "main_events": 64,
+  "main_unstarted_and_deferred": true,
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "new_model_calls": 0,
+  "original_worker_exited": true,
+  "output_token_range": [
+    130,
+    1024
+  ],
+  "parse_error_counts": {
+    "Expecting value: line 1 column 1 (char 0)": 30,
+    "Extra data: line 3 column 1 (char 258)": 12,
+    "unfinished or truncated response": 6
+  },
+  "ready_absent": true,
+  "receipts": {
+    "LP20-Smol-admission-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 297,
+      "calls": 48,
+      "manifest_sha256": "28b7be5db1c707f8f0628dc1892e4a0ce877fbcbb9e7ba85a033d6534cf993ca",
+      "terminal_sha256": "762322272199b32fdccc97afa0bc27ec43bc4d0458b81e728548708cbeb2d4cd"
+    }
+  },
+  "scientific_execution_charges": {
+    "cpu_seconds": 675.3207960021682,
+    "diagnostic_gpu_seconds": 534.444521700032,
+    "gpu_seconds": 534.444521700032,
+    "host_cpu_seconds": 0.0
+  },
+  "scope": "Failed literal output admission for the frozen cached-model interface; no scientific main execution or general model-capability conclusion.",
+  "source_pins_verified": 476,
+  "stop_reasons": {
+    "length": 6,
+    "stop": 42
+  },
+  "token_decode_matches_saved_text": true,
+  "tokenizer_contexts_verified": 48,
+  "tokenizer_replay": true,
+  "valid_responses": 0,
+  "verification_charge": {
+    "at": "2026-09-25T02:45:29.808344+00:00",
+    "cpu_seconds": 11.171875,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP20-Smol narrow admission replay and gate inspection",
+    "status": "complete"
+  }
+}

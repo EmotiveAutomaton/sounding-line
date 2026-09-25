@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Cached SmolLM admission - September 24, 19:45 PDT
+
+OPS-S12-LP20-SMOL-ADMISSION lands complete token/parser/handler replay and failed
+literal output admission. Its main producers and consumer remain unstarted;
+no extraction, repair or retry. Both cached-reader main branches are blocked.
+Gear 2 is running the reserved sequential-questioning replication with actual
+native/GPU ownership, fresh output and monitoring verified. The SmolLM worker
+has exited. LP16 waits for current queue exit and fresh checks; LP17 remains
+blocked. Earlier deficits and all cutoff/packet dates remain. Independent
+health is still September 24 at 22:52:17 PDT.
+
 ## Cached Qwen admission - September 24, 19:38 PDT
 
 OPS-S12-LP20-QWEN-ADMISSION lands complete token/parser/handler replay and the
