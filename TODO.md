@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP21-QUERY-009-011: three completed histories and all saved calls replay unchanged; full internal operational write-through complete. Continue independent frozen work with the earlier failure and incomplete-family boundary preserved.
+
 - [x] OPS-S12-LP21-QUERY-005-008: four completed histories and all saved calls replay unchanged; full internal operational write-through complete. Continue independent frozen histories, preserving the earlier failed selection and blocked complete-only comparison.
 
 - [x] OPS-S12-LP21-QUERY-FIRST-FAILURE: first four complete producers and fifth producer's returned prefix/failure guard replay unchanged; full internal operational write-through complete.

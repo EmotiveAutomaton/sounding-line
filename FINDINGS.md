@@ -9,6 +9,28 @@ ran it.
 
 ---
 
+### OPS-S12-LP21-QUERY-009-011 - three reserved questioning producers replay unchanged
+
+**Hypothesis.** Independent completed histories remain reproducible while the reserved questioning replication continues with an earlier failed history retained.
+
+**METHOD.** Replay every saved request, parser, dynamic branch and complete handler for producers 009 through 011 with network dispatch disabled. Verify original JSON bytes, source/input/contract/dependency/output bindings and producer exits; reconcile the earlier failure and unstarted whole-family consumer. Inspect actual coordinator, worker and GPU ownership, fresh output, loaded watcher sources and the original checkpoint. This operational inspection does not score the unfinished replication.
+
+The table counts saved requests and unchanged original JSON records. Each producer is one reserved history; these are coverage and integrity counts, not scientific performance.
+
+| Completed producer | Saved requests replayed | Original JSON files unchanged |
+|---|---:|---:|
+| LP21-query-009-a2 | 22 | 162 |
+| LP21-query-010-a2 | 22 | 162 |
+| LP21-query-011-a2 | 22 | 162 |
+
+**Found.** All three complete handlers and saved calls reproduce exactly. All 476 source pins and frozen bindings verify, and no original job record changes. The earlier failed selection record remains intact and the complete-only consumer is unstarted. The whole questioning replication remains incomplete; surviving histories do not license a whole-family comparison. No repair, retry or substituted response is needed or made. Theory is unchanged; this landing belongs in the instrument ledger.
+
+**Means.** Continue the independent frozen roster. At September 24, 20:13 PDT, LP21-query-012-a2 is running in Gear 2 with matching native/GPU ownership, fresh output and verified watcher/checkpoint monitoring. Offline verification costs 0.4375 CPU seconds and no model calls. LP16 remains prepared for after current queue exit and fresh checks; LP17 and both cached-reader main branches remain blocked. Preserve earlier failures, corrections, original cutoff and Friday/Monday packets. No tests harvested, new research, paid compute, delegation or gear change. Ordinary result ACKs leave the independent September 24, 22:52:17 PDT health deadline unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do completed independent histories preserve reproducible execution? Outcome: **Infrastructure**. Result: the completed producers replay unchanged while the whole replication remains incomplete. Project meaning: valid operational continuation does not remove the missing-history deficit. Next engineering obligation: inspect remaining frozen histories and retain the complete-only comparison boundary in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_009_011.json).
+
+---
+
 ### OPS-S12-LP21-QUERY-005-008 - four more reserved questioning histories replay unchanged
 
 **Hypothesis.** Completed independent histories remain reproducible after another history stops on an invalid question selection.
