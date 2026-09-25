@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-1407: stopped queue and unchanged records inspected; actual idle delivery after the wake-path repair verified. No generation restart; health ACK rearms four hours later.
+
 - [x] OPS-S12-HEALTH-0204: native health, resource admission, completed-report coverage and the full Stage 12 validity suite pass. Documented the delayed health event; rearm only after full write-through and ACK.
 - [x] OPS-S12-LP21-ROSTER-0204: questioning roster reconciled, including its final failure; revision producers 000-013 replayed. Questioning comparison remains incomplete with nine failed histories retained.
 - [x] L450 / OPS-S12-DRAINED-0925: final reserved revision and complete queue exit landed; immutable result inventories verified; stale wake executable repaired; interim packet prepared.

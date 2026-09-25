@@ -4,6 +4,16 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Four-hour inspection - September 25, 14:07 PDT
+
+The queue remains stopped with zero scientific workers, unchanged completed and
+failed records, and released locks. The repaired watcher delivered the scheduled
+health event to the idle owner on its first attempt; no further repair or restart
+was needed. The admitted follow-on remains unsubmitted pending the existing
+curator choice, and the original allocation cutoff and final packet remain.
+[Health inspection](LOCAL_PROGRAM_HEALTH_20260925_1407.json).
+
+
 ## Current submitted queue drained - September 25, 09:56 PDT
 
 No test worker is running. The current 326-job queue exited at 02:45:13 PDT:

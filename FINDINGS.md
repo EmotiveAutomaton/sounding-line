@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-1407 - stopped queue preserved and repaired idle delivery verified
+
+**Hypothesis.** The drained queue remains intentionally stopped with intact evidence, and the repaired watcher can deliver the independent four-hour health notice to the idle owner.
+
+**METHOD.** Inspect native coordinator, final workers, watcher and checkpoint identities; released kernel/native/GPU locks; completed and failed terminal inventories and output hashes; frozen sources; remaining prerequisites, budget/time admission, live GPU/host capacity and power limits. Reconcile the health event's native queue receipt and actual owner-delivery record. This is operational inspection, not a new scientific comparison.
+
+The table counts retained jobs and integrity checks. Completed local jobs include six earlier completions outside the current 326-job plan; they are not new independent observations.
+
+| Inspected state | Count |
+|---|---:|
+| Current-plan completed / failed / deferred | 281 / 14 / 31 |
+| Active scientific workers | 0 |
+| Completed local terminal records unchanged | 287 |
+| Completed output bindings verified | 1414 |
+| Failed terminal records unchanged | 14 |
+| New completion or failure artifacts | 0 |
+
+**Found.** The queue remains drained, final worker identities remain exited and all three locks are released. No result is orphaned by a new terminal artifact. All 476 source pins verify. The unchanged admitted LP16 pass remains unsubmitted, with seven generation blocks and one summary unstarted; its budget/prerequisites remain available, while current GPU capacity admission does not pass. The other deferred work retains its failed-admission or incomplete-family blockers. Host memory, disk and the existing power limits were inspected; no application was closed or test restarted.
+
+The health notice reached the idle owner on its first attempt, 9.8 seconds after the independent deadline. This is actual delivery evidence following the earlier executable-path repair, beyond configuration or API acceptance alone. The sole watcher and original checkpoint are live, source-matched and fresh. No further monitoring repair is needed. Earlier uncertain delivery and delayed inspections remain historical evidence; this successful wake does not retroactively make them timely.
+
+**Means.** Keep generation stopped pending the already requested closeout-versus-follow-on choice. This wake grants no restart authority. The local allocation cutoff, original final packet, all scientific void/incomplete boundaries and existing Gear 2 authorization remain unchanged. No tests harvested, new research, delegation or paid use. This documented health inspection is acknowledged only after full write-through, rearming the next independent check four hours later.
+
+**Curator roll-up.** Theory group: instrument validity. Question: does the stopped queue preserve evidence and receive health supervision? Outcome: **Infrastructure**. Result: retained records and actual idle delivery verify without a restart. Project meaning: the monitoring repair works for this delivered event; incomplete research remains incomplete. Next engineering obligation: retain the stopped state and original final packet obligations, with the next four-hour health inspection. Public claim: unchanged. Curator decision required: No new decision; the earlier follow-on choice remains pending. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1407.json).
+
+---
+
 ### OPS-S12-DRAINED-0925 - submitted queue drained, records reconciled and wake path repaired
 
 **Hypothesis.** A drained executor can be distinguished from a fully completed research program, and every produced result remains bound to a report.

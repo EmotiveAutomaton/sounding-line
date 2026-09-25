@@ -1,0 +1,76 @@
+{
+  "actual_idle_delivery_verified": true,
+  "at": "2026-09-25T21:11:47.763750+00:00",
+  "capacity": {
+    "additional_required_MiB": 7768,
+    "capacity_mode": "cold-reservation",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "insufficient actual free GPU memory; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-25T21:11:47.403272+00:00",
+      "free_MiB": 7760.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 12.4,
+      "reserved_MiB": 285.0,
+      "temperature_C": 39.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 4238.0,
+      "utilization_percent": 10.0
+    }
+  },
+  "charges": {
+    "cpu_seconds": 94086.14085580502,
+    "diagnostic_gpu_seconds": 3752.675323300413,
+    "gpu_seconds": 103105.51722900057,
+    "host_cpu_seconds": 201361.9354600011
+  },
+  "checkpoint_native_and_freshness_verified": true,
+  "complete_terminals_verified": 287,
+  "counts": {
+    "DEFERRED": 31,
+    "DONE": 281,
+    "FAILED (exit 1)": 14
+  },
+  "delivery_after_due_seconds": 9.76271915435791,
+  "delivery_attempts": 1,
+  "failed_terminals_verified": 14,
+  "follow_on_prerequisites_and_budget_admitted": true,
+  "follow_on_unstarted": true,
+  "free_disk_GiB": 827.6787147521973,
+  "free_host_GiB": 54.770591735839844,
+  "generation_stopped": true,
+  "health_ack_rearms_four_hours": true,
+  "landing": "OPS-S12-HEALTH-1407",
+  "last_workers_exited": true,
+  "latest_completion": "results\\phase_2_4_stage_12\\raw\\local-program-20260923-v2\\jobs\\LP21-revision-summary-a2\\COMPLETE.json",
+  "latest_completion_mtime": 1790329513.4206302,
+  "locks_released": true,
+  "new_calls": 0,
+  "new_terminal_artifacts": 0,
+  "no_new_research_or_gear_or_spend": true,
+  "output_checks": 1414,
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "queue_exited": true,
+  "recovery": "No recovery needed; existing wake path repair now has actual idle delivery evidence. Preserve stopped generation pending owner direction.",
+  "scientific_verdict": false,
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-25T21:11:47.762675+00:00",
+    "cpu_seconds": 50.169833802618086,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Four-hour parked queue health and repaired idle-delivery verification",
+    "reporting_validation_allowance_seconds": 30,
+    "status": "complete"
+  },
+  "watcher_native_and_loaded_sources_verified": true
+}

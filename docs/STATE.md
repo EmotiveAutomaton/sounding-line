@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## Four-hour stopped-queue inspection - September 25, 14:07 PDT
+
+OPS-S12-HEALTH-1407 verifies zero scientific workers, released locks, unchanged
+completed/failed outputs and frozen sources. The LP16 follow-on remains
+unsubmitted pending the existing closeout-versus-follow-on choice; other failed
+admissions and incomplete-family consumers remain blocked. No restart or new scope.
+The repaired watcher delivered this health event to the idle owner on its first
+attempt. Loaded watcher and original checkpoint identities/freshness verify.
+The documented inspection's ACK rearms the next four-hour check. Original cutoff,
+interim evidence and Monday final packet remain unchanged.
+[Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1407.json).
+
+
 ## Submitted queue drained - September 25, 09:56 PDT
 
 No test worker is running. The current 326-job queue exited at 02:45:13 PDT:

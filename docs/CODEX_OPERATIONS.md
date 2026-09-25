@@ -1,5 +1,16 @@
 # Codex operations
 
+## Repaired path: actual idle delivery verified, 2026-09-25
+
+The first independent four-hour health event after the executable-path repair
+reached the idle owner on its first attempt. Native queue receipt and recorded
+owner delivery verify separately from the earlier read-only API inspection.
+The sole watcher retains its loaded source identity and the original checkpoint
+remains fresh. No further repair or scientific restart is needed. Preserve the
+old uncertain send and delayed inspections; this event does not rewrite them.
+[Health and delivery evidence](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1407.json).
+
+
 ## Executable-path repair after extension replacement, 2026-09-25
 
 The watcher retained a path into an extension version no longer installed.
