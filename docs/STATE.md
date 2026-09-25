@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Instruction-realization continuation - September 24, 18:54 PDT
+
+OPS-S12-LP18-FIRST-PRODUCER lands replay of the complete first producer and all
+saved requests/parsers; original files and bindings verify. LP18-001-a2 runs in
+Gear 2 with actual native/GPU ownership, fresh output and monitoring verified.
+Whole-family scientific interpretation remains pending. No repair or new calls.
+LP17 main remains blocked; the unchanged LP16 follow-on waits for current queue
+exit, released ownership and fresh resource/deadline admission. Earlier failures,
+cloud deficit, local cutoff and Friday/Monday packets remain.
+The independent health check remains September 24 at 22:52:17 PDT.
+
 ## Queue health and released-edit admission - September 24, 18:47 PDT
 
 OPS-S12-LOCAL-HEALTH-1847 verifies Gear 2 LP18 progress, actual native identities,

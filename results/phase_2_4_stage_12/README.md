@@ -4,7 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 18:47 PDT: Gear 2 LP18 is progressing.
+Current continuation, September 24 at 18:54 PDT: Gear 2 is running LP18's next block.
+The first completed instruction-realization producer and every saved request/parser
+replay unchanged, with source/input/output bindings and native monitoring verified.
+Whole-family science remains pending; no repair or additional inference.
+[First producer inspection](LOCAL_PROGRAM_INSTRUCTION_FIRST_PRODUCER.json).
+Health remains due September 24 at 22:52:17 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 18:47 PDT: Gear 2 LP18 is progressing.
 The complete narrow LP17 admission replays unchanged but fails its gate; its main
 jobs and consumer remain unstarted and blocked. No retry or bypass follows.
 Native ownership/locks, output freshness, resources, next-job admission and

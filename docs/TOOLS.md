@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP18-FIRST-PRODUCER: the first instruction-realization producer and all saved requests/parsers replay unchanged, with frozen bindings, native continuation and monitoring verified. Whole-family exact-feature and scientific interpretation remain pending; no new inference or theory claim. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_INSTRUCTION_FIRST_PRODUCER.json).
+
 OPS-S12-LOCAL-HEALTH-1847: live native ownership, kernel/GPU locks, output freshness, next-job resource/time admission, loaded watcher sources, registered terminal paths and current delivery verify. LP16 remains a prepared, unsubmitted follow-on; LP17 main remains gated. [Health inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_1847.json).
 
 OPS-S12-LP17-ADMISSION: all saved development calls and the complete handler replay unchanged. The known-answer interface fails literal validity and the frozen correctness threshold; boundary/invalid/empty gate controls verify. Main producers and their complete-only consumer remain unstarted and blocked; development stays excluded from science. No retry or theory finding. [Admission inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_REVISION_ADMISSION.json).
