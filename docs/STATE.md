@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## ARIES request/edit producer inspection - September 24, 17:54 PDT
+
+OPS-S12-LP15-FIRST-PRODUCER lands actual replay of the first ARIES request/edit
+block: all 180 saved calls and the full handler reproduce, preserving all 1,268
+JSON files. LP15-001-a2 is active in Gear 2 with verified native/GPU ownership
+and fresh output; coordinator, watcher source/scanning and the original checkpoint
+helper verify. Whole LP15 analysis remains pending; complete LP14 and its validity limits are landed in L447.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+No recovery, retry or new tests. Health remains due September 24 at 18:37:48 PDT.
+
 ## Complete native-operation inspection - September 24, 17:47 PDT
 
 L447 lands all 256 calls, both producers and the consumer, preserving 1,814

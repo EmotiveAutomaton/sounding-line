@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP15-FIRST-PRODUCER: first ARIES request/edit block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
+
 - [x] L447 / LP14: all producers and complete consumer replay unchanged; full internal write-through records construction, analysis gaps and valid prospective visibility.
 - [ ] L447 packet scope: retain VOID outcome-blind historical interpretation, missing view/mental-assertion analyses, unresolved method comparison, exact-extraction rivals, selected-path reuse and privileged references. No new analysis, rerun or source change is queued by this landing.
 

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP15-FIRST-PRODUCER: the complete ARIES request/edit handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_FIRST_PRODUCER.json).
+
 L447 / LP14: two complete producers and consumer replay unchanged; source projection, exact/template targets, scores, intervals and calibration verify. Prospective visibility is pre-step-one. Sparse historical views include the endpoint, so outcome-blind interpretation is VOID; evidence-view contrasts and mental-assertion measurement are absent. Exact extraction and supplied dependency controls limit inference claims. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_NATIVE_OPERATIONS_COMPLETE.json).
 
 OPS-S12-LP14-FIRST-PRODUCER: the complete native witnessed-operation handler and all 160 saved requests/parsers replay, preserving all 1,128 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_NATIVE_OPERATIONS_FIRST_PRODUCER.json).
