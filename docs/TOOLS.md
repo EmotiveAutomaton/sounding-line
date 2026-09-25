@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP13-THIRD-PRODUCER: the complete same-artifact/different-history handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_THIRD_PRODUCER.json).
+
 OPS-S12-LP13-SECOND-PRODUCER: the complete same-artifact/different-history handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_SECOND_PRODUCER.json).
 
 OPS-S12-LP13-FIRST-PRODUCER: the complete same-artifact/different-history handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_SAME_ARTIFACT_FIRST_PRODUCER.json).
