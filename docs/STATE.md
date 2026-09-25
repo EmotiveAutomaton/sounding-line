@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## Queue health and released-edit admission - September 24, 18:47 PDT
+
+OPS-S12-LOCAL-HEALTH-1847 verifies Gear 2 LP18 progress, actual native identities,
+queue/kernel/GPU ownership, fresh output, resources and next-job admission.
+Loaded watcher sources, all terminal registrations, original checkpoint and
+first-attempt delivery of both current events verify. No restart is needed.
+
+OPS-S12-LP17-ADMISSION lands replay of the complete assisted development probe.
+The gate fails; main producers and their complete-only consumer remain unstarted
+and blocked. This is a failed instrument, not a main human-history result.
+The prepared LP16 follow-on remains unchanged and unsubmitted. After the current
+queue exits, verify ownership release, no intervening starts and fresh resource/
+deadline admission before launch; inspect later admissions for the same ordering
+issue. Earlier failures, cloud deficit and original reporting/cutoff limits remain.
+
+Both events are acknowledged after full write-through. Next independent health
+check: September 24 at 22:52:17 PDT. Terminal/failure alerts remain active.
+
 ## Recorded-handling admission - September 24, 18:25 PDT
 
 OPS-S12-LP16-ADMISSION lands actual replay of all 192 development calls and the

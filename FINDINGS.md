@@ -9,6 +9,63 @@ ran it.
 
 ---
 
+### OPS-S12-LOCAL-HEALTH-1847 - Gear 2 progress, ownership and bounded continuation verify
+
+**Hypothesis.** The authorized local queue remains live within its frozen source, ownership, resource and reporting constraints, while failed gates block only their dependent work.
+
+**METHOD.** Inspect actual native identities for coordinator, worker, watcher, checkpoint helper and model service; verify queue/kernel/GPU locks, source/input/manifest/contract/dependency bindings, heartbeat and raw-response freshness, retained failures, next-job admission, host/GPU capacity, power limits, eligible deferred work and watcher delivery. Check the prepared LP16 plan without submitting a second coordinator. Read-only service inspection sends no model request.
+
+This table describes the September 24, 18:47 PDT operational snapshot. Resource charges include retained reservations and are not device-utilization measurements. Unstarted cards include blocked branches and consumers; they are not a promise that every card will fit the remaining allocation.
+
+| Check | Result |
+|---|---|
+| Running and next | LP18-000-a2 is producing; LP18-001-a2 passes prerequisite, source, time and resource admission |
+| Ownership and locks | Native identities, queue plan/native lock, held kernel lock and matching worker/GPU lock verify |
+| Progress freshness | Worker heartbeat about 2.7 seconds old and newest raw response about 2.8 seconds old |
+| Boundaries and capacity | 21.73 CPU hours, 20.73 GPU service-hours and 0.37 diagnostic GPU hours charged; protected reserves and next-job admission pass |
+| GPU and host | Correct model fully resident; 1,540 MiB free against 768 MiB required, 53 C; about 46.3 GiB host memory and 834.9 GiB disk free |
+| Power policy | CPU maximum 90 percent; boost disabled |
+| Retained failures | Four LP07 histories and one LP10 history remain unchanged; LP17 completed its probe with a failed gate and is separately blocked |
+| Authorized follow-on | LP16's unchanged eight-job plan remains prepared and unsubmitted; all seven main producers remain unstarted, prerequisites ready and individually admissible now |
+| Unstarted roster | 117 frozen cards, including blocked branches and consumers |
+| Monitoring | Loaded watcher sources, scan, native checkpoint and all 652 job terminal paths plus current queue exit/drain registrations verify |
+| Delivery | Both current events reached the operating session on their first attempts; one older failed-or-unknown notification is retained and does not describe this delivery |
+
+**Found.** The queue is healthy and has authorized work remaining. No restart or source change is required. The prepared LP16 pass must wait for current coordinator exit and verified ownership release, then repeat admission checks; its present eligibility is not a launch. LP17's failed gate is not repaired or bypassed. The five earlier failed histories and incomplete whole-family consumers remain unchanged.
+
+**Means.** Preserve Gear 2, the September 25, 20:50 PDT local cutoff, protected resource reserves and the Friday/Monday packets. The independent health event was due at 18:37:48 PDT and is inspected now; only its own ACK rearms four hours later. Terminal/failure/queue-exit monitoring remains immediate. No extra ETA wake, new test, research, fit, paid compute or delegation; no tests harvested. The recorded health inspection costs 16.296639 CPU seconds and no model calls. Resource totals are a snapshot and continue accruing. Theory is unchanged; operational evidence is retained in the instrument ledger and aggregate receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: is authorized local work progressing with valid ownership, capacity and delivery? Outcome: **Infrastructure**. Result: Gear 2 health and bounded next-work admission pass. Project meaning: the program continues without converting blocked branches into scientific results. Next engineering obligation: land completed cells and submit the prepared admitted pass only after ownership clears and fresh admission permits. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_1847.json).
+
+---
+
+### OPS-S12-LP17-ADMISSION - narrow released-edit interface fails admission
+
+**Hypothesis.** The frozen local reader can return valid bounded forecasts and recover an explicitly supplied successor label well enough to admit the planned comparison of released human edit histories.
+
+**METHOD.** Replay all 200 saved development requests, parsers and the complete handler with network dispatch disabled. The frozen probe contains 25 development boundaries across five ScholaWrite projects, two reading methods and four evidence views. Every prompt explicitly supplies the successor category/location among fifteen joint labels. Independently recompute the gate, test its boundary and invalid/empty failures, verify source/input/manifest/contract/prerequisite/output bindings, and inspect development exclusion and unstarted main work.
+
+The table records the complete admission cell, not a scientific comparison of the main historical-evidence conditions. Correct counts include both methods; an invalid response contributes zero correct.
+
+| Check | Result |
+|---|---|
+| Returned development responses | 200; 181 valid and 19 invalid finite-probability replies |
+| Supplied-answer gate | 54 correct against the required 175; all replies must also be valid |
+| Gate falsification checks | With all replies valid, 174 fails and 175 or 200 pass; one invalid reply or an empty roster fails |
+| Actual replay | All saved calls and the complete handler reproduce; all 1,409 original job JSON files remain unchanged |
+| Frozen bindings | All 476 source pins and manifest/input/prerequisite/output bindings pass |
+| Development exclusion | All 25 assisted development boundaries are disjoint from the 225 main boundaries; the complete-only consumer excludes development from science |
+| Blocked main | Eleven producers with 1,800 calls and their consumer are deferred, unstarted and lack the required admission-ready marker |
+| Continuation | LP18 is running independently in Gear 2 with fresh output and verified native/GPU ownership |
+
+**Found.** Narrow admission fails both required conditions: literal validity and supplied-answer recovery. The completion receipt means the bounded probe finished, not that its gate passed. All invalid outputs remain with their original penalties. The intentionally disclosed development answer also limits the generic producer claim about hidden targets: these prompts are assistance controls. The absent ready marker correctly keeps main execution closed. No human-history comparison, method ranking or result about private intention follows from this probe.
+
+**Means.** Preserve this failed instrument and its costs, keep its main and complete-only consumer blocked, and continue independent frozen work. No second probe, prompt repair, substituted response or main launch is commissioned. Theory is unchanged; this operational admission belongs in the instrument ledger. Inspection cost 1.28125 CPU seconds, with no new model calls, research, fit, paid compute, delegation or changed gear. No tests harvested. The LP16 prepared follow-on remains separate, conditional on current queue exit and fresh ownership/resource/deadline checks. Earlier failures, cloud deficit, local cutoff and Friday/Monday packets remain.
+
+**Curator roll-up.** Theory group: instrument admission and operational validity. Question: can a supplied-answer local edit-label interface open the planned main comparison? Outcome: **Infrastructure**. Result: the narrow assisted interface fails admission. Project meaning: a failed ruler cannot supply a human-history comparison. Next engineering obligation: preserve the closed main gate while independent authorized work continues. Public claim: unchanged. Curator decision required: No. Detail: [admission inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_REVISION_ADMISSION.json).
+
+---
+
 ### OPS-S12-LP16-ADMISSION - narrow recorded-handling admission passes; deferred main pass prepared
 
 **Hypothesis.** The frozen local reader can return valid bounded forecasts and use an explicitly supplied handling answer well enough to admit the already planned recorded-handling comparison.

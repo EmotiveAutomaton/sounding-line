@@ -4,7 +4,17 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 18:25 PDT: Gear 2 is running LP17 admission.
+Current continuation, September 24 at 18:47 PDT: Gear 2 LP18 is progressing.
+The complete narrow LP17 admission replays unchanged but fails its gate; its main
+jobs and consumer remain unstarted and blocked. No retry or bypass follows.
+Native ownership/locks, output freshness, resources, next-job admission and
+watcher delivery verify. LP16's admitted follow-on remains prepared for after
+current queue exit and fresh checks. Original cutoff and Friday/Monday packets
+remain. [Released-edit admission](LOCAL_PROGRAM_REVISION_ADMISSION.json) and
+[health inspection](LOCAL_PROGRAM_HEALTH_1847.json) record the full write-through;
+health ACK rearms its independent check four hours later.
+
+Earlier continuation, September 24 at 18:25 PDT: Gear 2 is running LP17 admission.
 LP16 narrow assisted admission passes and its complete development handler
 replays unchanged. Main work was deferred before admission in the one-pass order;
 the unchanged follow-on pass is prepared for submission after current queue exit.

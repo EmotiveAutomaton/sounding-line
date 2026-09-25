@@ -1,0 +1,112 @@
+{
+  "LP16_follow_on": {
+    "each_producer_admissible_now": true,
+    "jobs": [
+      "LP16-000-a2",
+      "LP16-001-a2",
+      "LP16-002-a2",
+      "LP16-003-a2",
+      "LP16-004-a2",
+      "LP16-005-a2",
+      "LP16-006-a2",
+      "LP16-summary-a2"
+    ],
+    "prerequisites_ready": true,
+    "sha256": "b356990e9a4951f607af344eacec5c05d9a2bae36bf7250f640d0c9284651660",
+    "submitted": false,
+    "unstarted": true
+  },
+  "LP17_main_blocked": true,
+  "active_job": "LP18-000-a2",
+  "additional_required_MiB": 768,
+  "at": "2026-09-25T01:47:26.510431+00:00",
+  "capacity_mode": "fully-resident",
+  "capacity_ready": true,
+  "charges": {
+    "cpu_seconds": 78232.71799724549,
+    "diagnostic_gpu_seconds": 1328.1258243003977,
+    "gpu_seconds": 74633.85228570033,
+    "host_cpu_seconds": 149267.70457140065
+  },
+  "checkpoint_fresh": true,
+  "current_events_delivered_first_attempt": true,
+  "cutoff": "2026-09-26T03:50:00+00:00",
+  "failures": {
+    "LP07-009-a2": {
+      "error": "ValueError('unavailable earlier question selection; no hidden fallback')",
+      "sha256": "6087b312c57259e48346fc605cc41cc808776c250e926bfaf388cfe4759403b2"
+    },
+    "LP07-011-a2": {
+      "error": "ValueError('unavailable earlier question selection; no hidden fallback')",
+      "sha256": "71304feadf4c95a91be7e4f1349eefa830f6fa567daa1c0ae52a939c278df7f1"
+    },
+    "LP07-022-a2": {
+      "error": "ValueError('unavailable earlier question selection; no hidden fallback')",
+      "sha256": "311a1db726c223e05036b30bad71793bdb209470d95edb982dffa0224a97a73e"
+    },
+    "LP07-041-a2": {
+      "error": "ValueError('unavailable earlier question selection; no hidden fallback')",
+      "sha256": "2e55227f2f730d48e754dd02c92bf74d12a2bcc9c2819c7da1e477dbe4b41d5f"
+    },
+    "LP10-012-a2": {
+      "error": "ValueError('failed memory acquisition, no substitute')",
+      "sha256": "eb14e7a85c04b9ac7e85ecedf45104fe250562a245d15c5bc720267d399c5baa"
+    }
+  },
+  "free_disk_GiB": 834.9225311279297,
+  "free_host_GiB": 46.332332611083984,
+  "full_write_through_before_ack": true,
+  "gear": 2,
+  "gpu": {
+    "at": "2026-09-25T01:47:15.106254+00:00",
+    "free_MiB": 1540.0,
+    "name": "NVIDIA GeForce RTX 4070 SUPER",
+    "power_W": 109.96,
+    "reserved_MiB": 285.0,
+    "temperature_C": 53.0,
+    "total_MiB": 12282.0,
+    "used_MiB": 10458.0,
+    "utilization_percent": 3.0
+  },
+  "gpu_lock_verified": true,
+  "health_ack_pending": false,
+  "health_interval_seconds": 14400,
+  "heartbeat_age_seconds": 2.706608,
+  "historical_notification_failure_retained": true,
+  "kernel_lock_held": true,
+  "landing": "OPS-S12-LOCAL-HEALTH-1847",
+  "limits": {
+    "cpu_process_seconds": 129600,
+    "diagnostic_gpu_seconds": 14400,
+    "gpu_service_seconds": 172800
+  },
+  "native_identities_verified": true,
+  "native_lock_verified": true,
+  "new_model_calls": 0,
+  "next_admission_passed": true,
+  "next_health_seattle": "2026-09-24T22:52:17.723475-07:00",
+  "next_health_utc": "2026-09-25T05:52:17.723475+00:00",
+  "next_runnable": "LP18-001-a2",
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "protected_cpu_and_gpu_seconds_each": 14400,
+  "queue_exit_and_drain_registered": true,
+  "raw_output_age_seconds": 2.773033380508423,
+  "recovery": "No restart required; preserve LP17 failed gate and submit prepared LP16 pass only after current coordinator releases ownership and fresh admission permits",
+  "registered_terminal_paths": 652,
+  "source_pins_verified": 476,
+  "unstarted_frozen_cards": 117,
+  "verification_charge": {
+    "at": "2026-09-25T01:47:26.509278+00:00",
+    "cpu_seconds": 16.2966386009939,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Four-hour operational health inspection September 24 18:47",
+    "status": "complete"
+  },
+  "watcher_loaded_sources_verified": true,
+  "watcher_scan_fresh": true
+}

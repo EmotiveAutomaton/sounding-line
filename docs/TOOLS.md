@@ -12,6 +12,10 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LOCAL-HEALTH-1847: live native ownership, kernel/GPU locks, output freshness, next-job resource/time admission, loaded watcher sources, registered terminal paths and current delivery verify. LP16 remains a prepared, unsubmitted follow-on; LP17 main remains gated. [Health inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_1847.json).
+
+OPS-S12-LP17-ADMISSION: all saved development calls and the complete handler replay unchanged. The known-answer interface fails literal validity and the frozen correctness threshold; boundary/invalid/empty gate controls verify. Main producers and their complete-only consumer remain unstarted and blocked; development stays excluded from science. No retry or theory finding. [Admission inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_REVISION_ADMISSION.json).
+
 OPS-S12-LP16-ADMISSION: all 192 development calls and the handler replay unchanged; the narrow supplied-answer gate passes, its threshold/invalid/empty controls verify, and development remains excluded from main science. One-pass ordering deferred the unstarted main jobs before their gate completed; an unchanged eight-job follow-on plan is prepared for submission after current ownership clears. This does not admit the cloud human-history main. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HANDLING_ADMISSION.json).
 
 L448 / LP15: three complete ARIES producers and consumer replay unchanged; source census/annotation/projection, score, interval, coverage and ranking checks pass. The method comparison is unresolved. View/wording contrasts, reserved-only analysis and a separate diff-rank rival are absent; no held-out replication or private-purpose claim. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_COMPLETE.json).

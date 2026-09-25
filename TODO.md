@@ -2,6 +2,10 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LOCAL-HEALTH-1847: native identities, progress, locks, resource limits, next work and watcher delivery inspected and documented. Preserve Gear 2 and rearm the independent four-hour check on health ACK.
+- [x] OPS-S12-LP17-ADMISSION: complete development replay and independent gate controls verify; full internal instrument write-through complete.
+- [ ] OPS-S12-LP17-ADMISSION main: BLOCKED by failed admission. Eleven main producers and the consumer are unstarted. Preserve failed outputs/costs; no automatic retry, new prompt or main execution.
+
 - [x] OPS-S12-LP16-ADMISSION: full replay, independent admission, boundary controls and development/main separation pass; full internal instrument write-through complete.
 - [ ] OPS-S12-LP16-ADMISSION continuation: after the existing queue exits, recheck native/kernel/GPU ownership, unchanged deadline/cost admission and absence of started jobs, then submit the prepared eight-job LP16 main pass. Inspect other admitted families for the same one-pass ordering problem; preserve failed gates and all earlier failures. Main scientific comparison remains pending.
 
