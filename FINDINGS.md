@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-LP20-QWEN-ADMISSION - cached Qwen output admission fails and main remains blocked
+
+**Hypothesis.** The cached Qwen2.5 1.5B instruction model can return literal, bounded probability forecasts for explicitly supplied known answers before entering the six sentinel comparisons.
+
+**METHOD.** Run the frozen 48-request development admission with canonical and inverted output orders and both direct and account-first formats. Require every response to satisfy the literal schema and at least seven-eighths to identify the supplied answer. Replay the complete producer with network dispatch disabled; independently reconstruct the roster and gate boundaries, verify every pinned model file, and reproduce the actual rendered prompts, input tokens and decoded output tokens with the cached tokenizer only. Confirm the dependent main jobs and consumer are unstarted and verify native queue continuation.
+
+The table reports complete admission coverage and instrument checks, not scientific main scores. Development is separate from the 64 main source episodes.
+
+| Check | Result |
+|---|---|
+| Completed development requests | 48, all retained and replayed |
+| Literal-valid responses | 0; every response reaches the frozen 1,024-token output cap and is rejected as truncated |
+| Admission gate | FAIL; all responses must be valid and at least 42 correct |
+| Boundary controls | 41 correct fails; 42 and 48 pass when all outputs are valid; one invalid or an empty population fails |
+| Tokenizer/source checks | All seven pinned cache files match; all rendered prompts, input-token sequences and decoded replies reproduce |
+| Context admission | Actual inputs span 299-315 tokens, within the frozen context allowance including the full output reserve |
+| Original job records | All 298 JSON files unchanged; all 476 source pins and manifest/input/dependency/output bindings verify |
+| Main continuation for this reader | No READY marker; three producers and the consumer remain deferred and unstarted; 384 main calls not run |
+
+**Found.** The frozen Qwen interface fails literal output admission. Its zero admitted-correct count consists entirely of invalid truncated responses and is not a measured zero accuracy on a scientific task. The known answers were explicitly supplied for this development check. Input context capacity, prompt tokenization and response retention verify, but none of that converts truncated output into a valid forecast. No response is extracted, repaired, retried or substituted, and no token limit is increased. Theory is unchanged; this is an instrument landing in the tools ledger, not a negative result about the six main hypotheses or general model capability.
+
+**Means.** Preserve all output and cost records and keep this reader's main comparison blocked. Recorded admission costs are 1,853.369 CPU process seconds and 1,890.105 GPU service seconds, all GPU time charged to the diagnostic allowance as well. Offline replay and verification costs 13.5625 CPU seconds, plus a conservative two-second allowance for an initial inspection that stopped on an optional development-field lookup. No model weights were loaded for verification and no new model calls were made. At September 24, 19:38 PDT, the original Qwen worker has exited and Gear 2 is running SmolLM admission with native/GPU ownership, fresh output, loaded watcher sources and the original checkpoint helper verified. LP16 remains prepared for after current queue exit and fresh admission checks; LP17 main stays blocked. No tests harvested, research, paid compute, delegation or gear change. Earlier deficits, the local cutoff and Friday/Monday packets remain. This ordinary completion ACK preserves the independent September 24, 22:52:17 PDT health deadline.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can this cached reader produce valid bounded forecasts before main comparison? Outcome: **Infrastructure**. Result: the frozen interface fails literal output admission and its main work remains unstarted. Project meaning: the sentinel comparison is unavailable for this reader under the current interface. Next engineering obligation: preserve the failed gate in the final packet and inspect the independently running next admission. Public claim: unchanged. Curator decision required: No. Detail: [cached Qwen admission inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_QWEN_SENTINEL_ADMISSION.json).
+
+---
+
 ### L449 - checking realized surface features with instruction provenance and explicit checker assistance (S12-REALIZATION-1 / LP18)
 
 **Hypothesis.** A reader distinguishes what a maker actually did from what was requested, including requests that were not fulfilled and features that occurred without being requested. The null is instruction echo without verification of the finished artifact.

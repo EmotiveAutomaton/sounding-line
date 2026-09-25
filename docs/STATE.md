@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Cached Qwen admission - September 24, 19:38 PDT
+
+OPS-S12-LP20-QWEN-ADMISSION lands complete token/parser/handler replay and the
+failed literal output gate. All main jobs for this reader remain unstarted;
+no retry or token-limit change. Gear 2 has advanced to SmolLM admission, with
+actual native/GPU ownership, fresh output and monitoring verified. Qwen's
+original worker has exited. LP16 waits for current queue exit and fresh checks;
+LP17 remains blocked. Earlier deficits and all cutoff/packet dates remain.
+Independent health is still September 24 at 22:52:17 PDT.
+
 ## Complete instruction-realization family - September 24, 19:17 PDT
 
 L449 internally lands all LP18 producers and its complete consumer, with saved-call,

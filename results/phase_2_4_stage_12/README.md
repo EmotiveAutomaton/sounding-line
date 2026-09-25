@@ -4,7 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 19:17 PDT: Gear 2 is running LP20 Qwen admission.
+Current continuation, September 24 at 19:38 PDT: Gear 2 is running SmolLM admission.
+Cached Qwen admission fails literal output validity; all capped replies and costs
+remain. Tokenizer, actual request/parser/handler replay and frozen bindings verify.
+Its main jobs and consumer remain unstarted. No retry or token-limit change.
+[Cached Qwen admission inspection](LOCAL_PROGRAM_QWEN_SENTINEL_ADMISSION.json).
+Health stays September 24 at 22:52:17 PDT; cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 19:17 PDT: Gear 2 is running LP20 Qwen admission.
 The complete LP18 instruction-realization family replays unchanged and is internally
 landed in L449. Exact-feature, source, score and interval checks pass. Explicit
 checker assistance and missing conditional analysis/cheap rival remain clear in the

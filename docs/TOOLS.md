@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP20-QWEN-ADMISSION: complete cached Qwen admission fails because every response reaches the frozen output cap. Actual tokenizer/rendered-prompt/input-token/output-token replay and the full handler reproduce, with original files and bindings intact. Boundary and invalid/empty gate controls pass; all main work remains unstarted. No general capability or main-task verdict. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_QWEN_SENTINEL_ADMISSION.json).
+
 L449 / LP18: all 384 calls and the whole-family consumer replay exactly; 64 independent feature checks and ten known-answer controls pass. Source, input, output, loss, cluster interval, calibration and coverage checks verify. Every view names the feature; trace supplies the checker answer. Missing conditional realization analysis and separate cheap text/diff rival remain explicit. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_INSTRUCTION_COMPLETE.json).
 
 OPS-S12-LP18-SECOND-PRODUCER: the second instruction-realization producer and all saved requests/parsers replay unchanged; frozen bindings, native continuation and monitoring verify. Whole-family exact-feature validation and scientific interpretation remain owed. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_INSTRUCTION_SECOND_PRODUCER.json).

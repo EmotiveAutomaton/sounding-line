@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-LP20-QWEN-ADMISSION: complete cached-model admission and token/parser/handler replay verified; full internal instrument write-through complete. Literal output admission fails.
+- [ ] OPS-S12-LP20-QWEN-ADMISSION main: BLOCKED; all main producers and consumer remain unstarted without READY. Preserve capped responses and costs; no automatic retry, token-limit increase or scientific comparison. Carry the unavailable reader into the final packet.
+
 - [x] L449 / LP18: all three producers and complete consumer replay unchanged; exact-feature/source/score/interval checks pass. Full internal scientific write-through lands the scoped assisted-answer benefit, with method/provenance contrasts unresolved.
 - [ ] L449 / LP18 final packet: retain missing requested/counterfactual by feature-presence analysis and separate cheap text/diff rival. Explicitly distinguish feature-specified reading and supplied checker answers from unassisted reconstruction; do not present the main realization hypothesis as settled or silently extend the frozen study.
 

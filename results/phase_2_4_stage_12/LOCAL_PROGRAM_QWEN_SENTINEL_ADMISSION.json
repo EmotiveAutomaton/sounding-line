@@ -1,0 +1,77 @@
+{
+  "active_job": "LP20-Smol-admission-a2",
+  "admission": {
+    "correct": 0.0,
+    "known_answer_rows": 48,
+    "literal_valid": false,
+    "reader_admitted": false,
+    "rows": 48,
+    "scope": "LP20-Qwen narrow assisted interface only; no broad human-history admission"
+  },
+  "all_json_files_unchanged": 298,
+  "all_responses_hit_1024_token_cap": true,
+  "assisted_prompts_verified": true,
+  "at": "2026-09-25T02:38:38.281438+00:00",
+  "cached_model_files_verified": 7,
+  "calls": 48,
+  "development_events": 48,
+  "development_main_disjoint": true,
+  "family": "LP20-Qwen",
+  "gate_boundary_checks": true,
+  "gear": 2,
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "input_token_range": [
+    299,
+    315
+  ],
+  "inspection_allowance": {
+    "at": "2026-09-25T02:40:46.302274+00:00",
+    "cpu_seconds": 2.0,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Stopped LP20 admission inspection expected an optional development field on main rows; conservative allowance; no source or scientific output changed",
+    "status": "complete"
+  },
+  "invalid_responses": 48,
+  "landing": "OPS-S12-LP20-QWEN-ADMISSION",
+  "main_calls": 384,
+  "main_events": 64,
+  "main_unstarted_and_deferred": true,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "new_model_calls": 0,
+  "original_worker_exited": true,
+  "ready_absent": true,
+  "receipts": {
+    "LP20-Qwen-admission-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 298,
+      "calls": 48,
+      "manifest_sha256": "70c0854327d1b6a53c7a9413437f8ff6494c2a93d0f0bf1d7fc57e41cea179e5",
+      "terminal_sha256": "e6e0716eca23d0dc91d5804dccec540be976f266bca92a21800214847f039e60"
+    }
+  },
+  "scientific_execution_charges": {
+    "cpu_seconds": 1853.3688487894833,
+    "diagnostic_gpu_seconds": 1890.1049772999831,
+    "gpu_seconds": 1890.1049772999831,
+    "host_cpu_seconds": 0.0
+  },
+  "scope": "Failed literal output admission for the frozen cached-model interface; no scientific main execution or general model-capability conclusion.",
+  "source_pins_verified": 476,
+  "token_decode_matches_saved_text": true,
+  "tokenizer_contexts_verified": 48,
+  "tokenizer_replay": true,
+  "valid_responses": 0,
+  "verification_charge": {
+    "at": "2026-09-25T02:38:38.280166+00:00",
+    "cpu_seconds": 13.5625,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP20-Qwen narrow admission replay and gate inspection",
+    "status": "complete"
+  }
+}
