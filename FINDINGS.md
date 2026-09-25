@@ -9,6 +9,68 @@ ran it.
 
 ---
 
+### L447 - native operation reading completes with an unresolved method comparison and bounded evidence views
+
+**Hypothesis.** Witnessed operations should help recover the corresponding local purpose and historical action, while dependency knowledge and prediction of a later operation remain separate targets. A plausible route a reader could enact is not evidence that the maker took that route.
+
+**METHOD.** Run the complete frozen Qwen3.5:9B family on the eight existing selected paths from the native three-step claim/evidence/presentation world. Four evidence views, four questions and direct versus coherent-account instructions yield all 256 planned calls across two producers. Goal questions concern the one selected step-zero goal; historical questions ask for the step-zero operation. The dependency question explicitly supplies the claim-to-evidence rule. The prospective question supplies the selected step-one goal and reveals only pre-step-one state. Exact targets integrate all compatible records from the 13,824-trajectory law; the compatible-template rival weights those records equally. Eight paths remain eight content clusters, with one fixed-seed 4,000-draw paired cluster bootstrap for the method contrast and a practical margin of 0.02. No p-values or confirmatory population claim are introduced.
+
+**Validity.** Every saved request/parser, both producers and the whole-family consumer replay with network dispatch disabled. All 1,814 original JSON files remain byte-identical. All 476 source pins and source/input/manifest/contract/dependency/output bindings verify. Source regeneration reproduces the full frozen prompt roster. Independent projection matching, probability weighting, uniform-template calculations, score calculations and cluster intervals reproduce the saved analyses. Exact-reference answers have zero excess error, deliberately wrong answers lose, and invalid answers keep loss one. Calibration bins partition valid responses and retain the finite-bin score remainder. This validates the executed benchmark; the intended outcome-blind historical contrast and some planned interpretations are not realized, as detailed below.
+
+The table gives expected half-Brier loss, a squared probability error where lower is better. Every row contains eight attempts per method. Direct requests an evidence-based reading; account requests a coherent account with alternatives. Uniform spreads probability across three goal/dependency labels or six operation labels. Template is uniform over compatible complete source trajectories, not over answer labels. The exact floor is uncertainty remaining under the supplied finite law. D and A denote direct and account. Infinite counts include invalid forecasts as well as valid forecasts assigning zero probability to supported possibilities. For historical questions, endpoint means the final artifact; for the prospective question it means the current artifact after step zero.
+
+| Target | View | Direct loss | Account loss | Uniform | Template | Exact floor | Invalid D / A | Infinite D / A |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Selected local goal | Endpoint / current state | 0.441718 | 0.434216 | 0.333333 | 0.328067 | 0.321766 | 0 / 0 | 4 / 3 |
+| Selected local goal | Sparse record | 0.086736 | 0.289449 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 0 / 0 |
+| Selected local goal | Witnessed record | 0.089375 | 0.351425 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 0 / 1 |
+| Selected local goal | Misleading frame | 0.448456 | 0.491804 | 0.333333 | 0.328067 | 0.321766 | 0 / 0 | 2 / 4 |
+| Preceding operation | Endpoint / current state | 0.840509 | 0.824907 | 0.416667 | 0.426662 | 0.382852 | 5 / 5 | 5 / 5 |
+| Preceding operation | Sparse record | 0.250000 | 0.588788 | 0.416667 | 0.000000 | 0.000000 | 2 / 4 | 2 / 4 |
+| Preceding operation | Witnessed record | 0.000000 | 0.137137 | 0.416667 | 0.000000 | 0.000000 | 0 / 0 | 0 / 0 |
+| Preceding operation | Misleading frame | 0.756112 | 0.864268 | 0.416667 | 0.426662 | 0.382852 | 3 / 6 | 4 / 6 |
+| Supplied dependency rule | Endpoint / current state | 0.000658 | 0.328751 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 0 / 1 |
+| Supplied dependency rule | Sparse record | 0.125972 | 0.191207 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 1 / 0 |
+| Supplied dependency rule | Witnessed record | 0.168233 | 0.137194 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 1 / 1 |
+| Supplied dependency rule | Misleading frame | 0.111722 | 0.104433 | 0.333333 | 0.000000 | 0.000000 | 0 / 0 | 0 / 0 |
+| Next operation, supplied goal | Endpoint / current state | 0.703385 | 0.745266 | 0.416667 | 0.312999 | 0.255028 | 2 / 4 | 3 / 4 |
+| Next operation, supplied goal | Sparse record | 0.652084 | 0.424023 | 0.416667 | 0.312999 | 0.255028 | 1 / 0 | 2 / 0 |
+| Next operation, supplied goal | Witnessed record | 0.776469 | 0.403905 | 0.416667 | 0.281295 | 0.219188 | 1 / 0 | 8 / 0 |
+| Next operation, supplied goal | Misleading frame | 0.532848 | 0.509536 | 0.416667 | 0.312999 | 0.255028 | 0 / 1 | 0 / 1 |
+
+**Frozen comparison.** Account minus direct excess loss is +0.052627, with a 95% eight-cluster interval [+0.019756, +0.086621]. The original disposition is **UNRESOLVED**: the lower endpoint does not exceed the positive 0.02 harm margin. A positive interval is not enough to satisfy that practical-effect rule. It is not equivalence or an account benefit. This pooled method comparison spans different targets and assistance levels; their distinct rows remain the interpretation unit. The frozen consumer implements no view-versus-endpoint contrast, target-specific method contrast or interaction, so none receives a formal disposition after the fact.
+
+**Found.** Reading the fully witnessed preceding operation is exact for direct reading on this selected roster; the account retains error. Both methods' goal losses are lower with a sparse or full witness than with endpoints alone, but the account's full-witness goal loss remains worse than uniform. The account has lower future-operation loss than direct reading in the sparse/full views; only its full-witness future-operation mean beats uniform, and both methods remain worse than the compatible-template rival there. The supplied dependency rule is not used perfectly. These are descriptive within-roster observations, not independently resolved evidence-view effects or a general method ranking.
+
+**Construction and claim limits.**
+
+- The source selection deliberately balances four changed first-operation types and covers eight distinct final bit patterns. These are the same existing native paths used by the earlier local-operator study, not new independent worlds or replication. The exact target conditions on the full source law and public evidence, not on the selected-roster mechanism. Generator coefficients are withheld from the model reader, so the exact-law floor is a privileged reference.
+- For historical questions, the sparse view contains the final artifact, initial state, requested purpose and the first witnessed operation. It therefore is **not the outcome-blind partial record promised in the proposal**. That specific interpretation is **VOID**. Full versus sparse records do not isolate outcome visibility. In contrast, every prospective projection verifies as pre-step-one only; its goal is explicitly supplied rather than inferred.
+- The first operation is literally observed in both sparse and full historical views. For these selected non-inspect operations, the native law also makes the selected first goal deterministic from the operation. Exact recorded-operation extraction and the compatible-template reference solve these witnessed targets without general reconstruction. Inspect can serve different goals elsewhere in the law, but selection excludes it at the first step. A single selected native goal does not force coexisting human purposes into exclusive categories.
+- The dependency answer is constant and explicitly provided in the question. This tests supplied-rule use, not recovery of an unseen dependency. The later-operation question tests prediction under a privileged supplied goal. No human mental state, governing-purpose adoption or persistent value is measured.
+- The consumer records probability forecasts but has no unsupported-mental-assertion measure for the accompanying prose. Thus it cannot establish the proposal's full alternative of improved history recovery without unsupported mental assertions. The missing evidence-view contrast remains an analysis gap; original output is preserved rather than silently promoting a new primary analysis.
+
+The fixed confidence grid below is descriptive across all four target types and views. Confidence is the largest reported label probability; coverage is the retained share of all attempts. All 34 invalid forecasts remain in attempted-population loss, and 62 forecasts have infinite logarithmic loss under the scorer, including those invalids. Three-label and six-label calibration groups remain separate in the complete linked receipt. Selection changes task composition, so lower retained loss is not a general abstention guarantee. No threshold or calibrator is fitted.
+
+| Minimum confidence | Retained / attempted | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 222 / 256 | 0.867188 | 0.308490 |
+| 0.25 | 221 / 256 | 0.863281 | 0.307878 |
+| 0.50 | 154 / 256 | 0.601562 | 0.275501 |
+| 0.60 | 149 / 256 | 0.582031 | 0.272860 |
+| 0.70 | 127 / 256 | 0.496094 | 0.265241 |
+| 0.80 | 119 / 256 | 0.464844 | 0.259065 |
+| 0.90 | 101 / 256 | 0.394531 | 0.197054 |
+| 1.00 | 68 / 256 | 0.265625 | 0.203117 |
+
+**Means.** Witnessed records can improve some model forecasts in this finite construction, but exact extraction remains a strong rival and no general account advantage is established. The outcome-blind historical interpretation is void; the broader evidence-improvement and mental-assertion claim remains open. Prospective visibility survives its audit. These limits concern this instrument and selected source law, not the curator's general distinction among local purpose, historical process and useful reenactment.
+
+**Operational continuation.** At September 24, 17:47 PDT, LP15-000-a2 is running in Gear 2 with verified native coordinator/worker identity, matching GPU ownership and fresh output. Loaded watcher sources/scanning and the original checkpoint helper verify. Successful full verification costs 6.34375 CPU seconds; an initial private inspection-helper import collision retains a conservative ten-second CPU reservation. Correcting invocation loaded the standard-library module without changing scientific code, environment or outputs. No model dispatch, generation retry, new tests harvested, research, fit, cloud spend or delegation. Both delivered LP14 terminal events receive this full write-through before ACK. Earlier incomplete questioning/memory comparisons, frame failure, costs, corrections, local cutoff and Friday/Monday packets remain. The independent health deadline remains September 24 at 18:37:48 PDT.
+
+**Curator roll-up.** Theory group: local purpose and historical process. Question: do witnessed operations improve corresponding recovery without confusing supplied answers with inferred history? Outcome: **Narrows**. Result: the method comparison is unresolved and the outcome-blind historical interpretation is void. Project meaning: literal record use, goal mapping and prospective prediction retain separate evidence claims. Next engineering obligation: preserve these scope limits and missing analyses in the packet while continuing the unaffected frozen roster. Public claim: unchanged for general human recovery. Curator decision required: No. Detail: [complete native-operation inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_NATIVE_OPERATIONS_COMPLETE.json).
+
+---
+
 ### OPS-S12-LP14-FIRST-PRODUCER - first native witnessed-operation producer preserved
 
 **Hypothesis.** The first completed native witnessed-operation block remains exactly replayable while the frozen family continues under its original limits.
@@ -7778,6 +7840,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 12 native-operation scope (L447).** The sparse historical record includes the endpoint, voiding the intended outcome-blind interpretation. Evidence-view contrasts and unsupported-mental-assertion scoring are absent; no formal evidence-improvement or full alternative claim. Selected witnessed first operations determine their local goals in this law, dependency is a supplied constant, and future goals are supplied. The earlier eight-path population is reused; the exact-law reference does not condition on that selection.
 
 **Stage 12 paired-history scope (L446).** Misleading frames are assigned opposite the actual route, contradicting claimed independence; that interpretation is VOID. Original benchmark scores remain, and pooled method/calibration summaries inherit the defect. Witnesses are exact candidate copies solved by string matching; their surviving comparison does not demonstrate latent historical reconstruction. Artifact-only certainty is not recovery. No new generation or post-hoc target substitution.
 

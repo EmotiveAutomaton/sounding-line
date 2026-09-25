@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## Complete native-operation inspection - September 24, 17:47 PDT
+
+L447 lands all 256 calls, both producers and the consumer, preserving 1,814
+original JSON files. Independent source/projection/score/interval checks pass.
+The intended outcome-blind historical view is not realized; its interpretation
+is VOID. Missing evidence-view and mental-assertion analyses are recorded.
+Prospective visibility remains valid. LP15-000-a2 continues in Gear 2 with
+verified native/GPU ownership and fresh output; watcher and original checkpoint
+helper verify. Earlier failures, incomplete families, costs, corrections, cutoff
+and Friday/Monday packets remain. No scientific repair or retry. Health remains
+due September 24 at 18:37:48 PDT.
+
 ## Native witnessed-operation producer inspection - September 24, 17:32 PDT
 
 OPS-S12-LP14-FIRST-PRODUCER lands actual replay of the first native witnessed-operation
