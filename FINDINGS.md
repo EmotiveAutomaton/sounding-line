@@ -9,6 +9,36 @@ ran it.
 
 ---
 
+### OPS-S12-LP21-QUERY-017-020 - two further selection failures retain their exact stopping boundary
+
+**Hypothesis.** Invalid selections stop only their dependent histories, while completed independent histories remain reproducible and all failed returns stay in the record.
+
+**METHOD.** Replay every saved request/parser and full handler for completed producers 018 and 019 with network dispatch disabled. Rebuild each failed producer's returned prefix from its actual earlier choices, replay the exact guard without starting a service, and verify that the remaining requests never started. Check original JSON bytes, source/input/contract/dependency/output bindings, retained costs, producer exits and the unstarted complete-only consumer. Verify actual coordinator/worker/GPU ownership, fresh output, loaded watcher sources and the original checkpoint. No unfinished-family scientific score is computed.
+
+The table counts planned requests, retained returns replayed and unchanged original JSON records. Each row is one reserved history; coverage does not imply a valid scientific comparison.
+
+| Producer | Planned requests | Returned requests replayed | Unstarted requests | Original JSON files unchanged |
+|---|---:|---:|---:|---:|
+| LP21-query-017-a2, failed selection | 22 | 6 | 16 | 48 |
+| LP21-query-018-a2, complete | 22 | 22 | 0 | 162 |
+| LP21-query-019-a2, complete | 22 | 22 | 0 | 162 |
+| LP21-query-020-a2, failed selection | 22 | 11 | 11 | 83 |
+
+**Found.** Both complete handlers and both failed prefixes/guards replay exactly. Producer 017 stops after its third neutral-policy selection; producer 020 stops after its second counterexample-policy selection. Both selections lack valid finite probabilities. Invalid forecasts earlier in producer 020 remain recorded and scored by the frozen rule; they are not silently discarded or replaced. All 476 source pins, frozen bindings and original records verify. Earlier failures 004 and 015 remain intact, and the complete-only consumer is unstarted. These additional missing histories preserve the whole-family INCOMPLETE status; no survivor-only comparison is licensed. Theory is unchanged; this is an instrument landing.
+
+The next table records retained resource charges for each failed history in seconds. Host CPU uses the existing conservative service-wall accounting; diagnostic GPU charge is zero for both. Exact precision and all charge hashes remain in the inspection record.
+
+| Failed producer | CPU seconds | GPU-service seconds | Host-CPU seconds |
+|---|---:|---:|---:|
+| LP21-query-017-a2 | 31.835894 | 41.831413 | 83.662827 |
+| LP21-query-020-a2 | 55.396264 | 73.333331 | 146.666662 |
+
+**Means.** At September 24, 20:31 PDT, LP21-query-022-a2 is running in Gear 2 with matching native/GPU ownership, fresh output and verified monitoring. Offline replay adds 0.40625 CPU seconds and no model calls. Continue the independent frozen roster; no source repair, substitute response or retry is made. LP16 remains prepared for after current queue exit and fresh checks; failed admissions stay blocked. Preserve previous deficits, corrections, original cutoff and Friday/Monday packets. No tests harvested, new research, spending, delegation or gear change. Ordinary result ACKs leave the independent September 24, 22:52:17 PDT health deadline unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do failed and completed independent histories retain reproducible execution boundaries? Outcome: **Infrastructure**. Result: both completed histories and additional selection-failure guards replay unchanged. Project meaning: independent continuation preserves every missing-history deficit. Next engineering obligation: inspect the remaining frozen roster and carry the incomplete comparison into the final packet. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning failure and continuation inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_017_020.json).
+
+---
+
 ### OPS-S12-LP21-QUERY-012-016 - continued independent execution with another retained selection failure
 
 **Hypothesis.** Completed independent histories remain reproducible, and an invalid question selection stops dependent requests without substituting an answer or starving other histories.

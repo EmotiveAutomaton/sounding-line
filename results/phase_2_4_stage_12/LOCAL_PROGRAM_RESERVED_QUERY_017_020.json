@@ -1,0 +1,100 @@
+{
+  "at": "2026-09-25T03:31:39.555248+00:00",
+  "family": "LP21-query",
+  "earlier_failure_terminal_unchanged": true,
+  "whole_family_incomplete": true,
+  "complete_only_consumer_unstarted": true,
+  "receipts": {
+    "LP21-query-018-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "671d051c3cca7d3917715f7d42c823ecc28294137e6a6c2934874224682dd4cb",
+      "terminal_sha256": "4bd6a01f11fbb443509cf22894a39c08e7bab222765e4f86ce17a74ba0e0b991"
+    },
+    "LP21-query-019-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "e005598fb2f4d4485db63e77a1205bf43fb0fb04323722f58aacced738612108",
+      "terminal_sha256": "5a9ee8c07fe9fa9834d5d41fed88ff432a843dd0acfe1021bcecde154f7d4b99"
+    }
+  },
+  "all_json_files_unchanged": 324,
+  "calls": 44,
+  "source_pins_verified": 476,
+  "active_job": "LP21-query-022-a2",
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "verification_charge": {
+    "at": "2026-09-25T03:31:39.554411+00:00",
+    "cpu_seconds": 0.40625,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP21 query 017 through 020 complete and failed producer replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "gear": 2,
+  "landing": "OPS-S12-LP21-QUERY-017-020",
+  "scope": "Operational replay only; incomplete whole replication, no scientific comparison.",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "failures": {
+    "LP21-query-017-a2": {
+      "job": "LP21-query-017-a2",
+      "expected_calls": 22,
+      "returned_calls": 6,
+      "unstarted_calls": 16,
+      "all_json_files_unchanged": 48,
+      "all_bindings_verified": true,
+      "actual_prefix_and_guard_replay": true,
+      "reason": "unavailable earlier question selection; no hidden fallback",
+      "failed_native_exited": true,
+      "manifest_sha256": "c84e997c0b1ab3db5e975ce859f88a4030a605b7512546b5f486d6f69393eeca",
+      "terminal_sha256": "4090d2e8bb40d32b26bbc5b58edea8deae4507a9bf1b949ca73072491ba3a2bf",
+      "whole_family_incomplete": true,
+      "complete_only_consumer_blocked": true,
+      "invalid_returns": 1,
+      "invalid_selection": {
+        "policy": "neutral",
+        "step": 3,
+        "parse_error": "invalid finite probabilities"
+      },
+      "retained_charges": {
+        "cpu_seconds": 31.835893800482154,
+        "gpu_seconds": 41.831413300009444,
+        "host_cpu_seconds": 83.66282660001889,
+        "diagnostic_gpu_seconds": 0.0
+      }
+    },
+    "LP21-query-020-a2": {
+      "job": "LP21-query-020-a2",
+      "expected_calls": 22,
+      "returned_calls": 11,
+      "unstarted_calls": 11,
+      "all_json_files_unchanged": 83,
+      "all_bindings_verified": true,
+      "actual_prefix_and_guard_replay": true,
+      "reason": "unavailable earlier question selection; no hidden fallback",
+      "failed_native_exited": true,
+      "manifest_sha256": "2d947399d0892e00a2835095bf283ab5d36363215bad78c3ba37d9d5ee76a54f",
+      "terminal_sha256": "437603763dc1e07cb5fc7e030a9e41afcc1dddb6373f17a02772f809822c5919",
+      "whole_family_incomplete": true,
+      "complete_only_consumer_blocked": true,
+      "invalid_returns": 7,
+      "invalid_selection": {
+        "policy": "counterexample",
+        "step": 2,
+        "parse_error": "invalid finite probabilities"
+      },
+      "retained_charges": {
+        "cpu_seconds": 55.39626419590786,
+        "gpu_seconds": 73.33333090000087,
+        "host_cpu_seconds": 146.66666180000175,
+        "diagnostic_gpu_seconds": 0.0
+      }
+    }
+  },
+  "total_returned_calls_replayed": 61,
+  "total_original_json_files_unchanged": 455
+}

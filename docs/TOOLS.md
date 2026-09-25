@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-LP21-QUERY-017-020: two complete handlers and two further invalid-selection prefixes/guards replay exactly. All original returns, bindings, costs and earlier failures remain. The complete-only consumer is unstarted; whole-family analysis remains incomplete. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_017_020.json).
+
 OPS-S12-LP21-QUERY-012-016: four complete reserved-questioning producers and the additional failed history's prefix/guard replay unchanged. Source, input, output and retained-cost bindings verify. Invalid third selection stops dependent requests without fallback; original failures and the unstarted complete-only consumer remain. Native Gear 2 continuation and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_012_016.json).
 
 OPS-S12-LP21-QUERY-009-011: three complete producers and all saved requests/parsers replay unchanged; source, input and output bindings verify. Earlier selection failure and the unstarted complete-only consumer remain. Native Gear 2 continuation and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_009_011.json).

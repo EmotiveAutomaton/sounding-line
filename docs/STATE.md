@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## Reserved questioning continuation - September 24, 20:31 PDT
+
+OPS-S12-LP21-QUERY-017-020 lands exact replay of two completed histories and
+two further invalid-selection prefixes/guards. Original returns, bindings and
+costs remain. Gear 2 independent execution, native/GPU ownership, output
+freshness and monitoring verify. The whole comparison remains incomplete;
+its complete-only consumer is unstarted. No retry or source repair. LP16 waits
+for current queue exit and fresh checks; failed admissions remain blocked.
+Preserve previous deficits, cutoff and Friday/Monday packets. Independent
+health remains September 24 at 22:52:17 PDT.
+
 ## Reserved questioning continuation - September 24, 20:24 PDT
 
 OPS-S12-LP21-QUERY-012-016 lands exact replay of four complete histories and
