@@ -12,6 +12,12 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-0204: native queue/resource/watcher checks pass; all 70 tests and 41 subtests pass. All 278 completed current-plan jobs have verified output bindings and landed/current replay receipts. The health event was overdue behind outstanding ACKs; clear them and rearm without claiming on-time delivery. [Health inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_0204.json).
+
+OPS-S12-LP21-ROSTER-0204: completed questioning and revision handlers and the final questioning failure prefix/guard replay unchanged. All questioning histories are terminal, with nine failures retained and the complete-only consumer deferred. Revision science remains pending. [Replay](../results/phase_2_4_stage_12/LOCAL_PROGRAM_OVERNIGHT_REPLAY_20260925.json).
+
+OPS-S12-LP21-QUERY-045-047: all three completed handlers and saved requests/parsers replay unchanged, with original records and frozen bindings verified. Earlier failures and the unstarted complete-only consumer remain. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_045_047.json).
+
 OPS-S12-LP21-QUERY-039-044: four completed handlers and two failed selection prefixes/guards replay unchanged. Original records, bindings and failed costs verify; earlier failures remain intact. The whole comparison is incomplete, with its complete-only consumer unstarted. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_039_044.json).
 
 OPS-S12-LP21-QUERY-036-038: all three completed handlers and saved requests/parsers replay unchanged, with original records and frozen bindings verified. Earlier failures and the unstarted complete-only consumer remain. Native Gear 2 continuation, fresh output and monitoring verify. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_036_038.json).

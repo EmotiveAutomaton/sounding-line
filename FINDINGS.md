@@ -5,7 +5,79 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-24.**
+**Last updated: 2026-09-25.**
+
+---
+
+### OPS-S12-HEALTH-0204 - overnight queue, validity and review-time audit
+
+**Hypothesis.** The authorized queue is progressing within its resource limits, its completed outputs have bound records, and measured rates permit an honest forecast for the requested morning review.
+
+**METHOD.** Verify native coordinator/worker identities, kernel and GPU locks, source/input/dependency bindings, fresh responses, loaded watcher hashes, registered terminal paths and the original checkpoint. Check GPU readiness, host memory, disk, power limits, charged budgets and next-job admission. Reconcile every completed current-plan job with its immutable outputs and an existing public or current replay receipt. Run the existing Stage 12 validity suite. Estimate remaining time from completed revision blocks and the earlier admitted human-history development block, retaining an explicit slowdown allowance.
+
+The table is a queue snapshot at September 25, 02:13 PDT. Jobs are execution blocks or summaries, not independent scientific hypotheses; prepared follow-on jobs are a subset of the deferred roster, not an additional scientific scope.
+
+| Current-plan state | Jobs |
+|---|---:|
+| Complete with bound output/report records | 278 |
+| Failed, original responses and costs retained | 14 |
+| Deferred, including prepared admitted follow-on | 31 |
+| Running revision generation | 1 |
+| Not yet visited: one revision block and its summary | 2 |
+
+**Found.** Native ownership, fresh output, locks, resources and next admission pass. All 70 tests and 41 subtests pass. The complete-record audit verifies 821 inputs, 1370 outputs and 336 dependency bindings across 278 completed jobs, with no missing report/replay receipt. At the resource snapshot, charged CPU process time is 27.48 hours and GPU service time 27.92 hours, within the 36/48-hour ceilings and their protected reserves; diagnostic GPU time is included, not extra. The narrow admitted human-history pass is prepared but unsubmitted: seven generation blocks, 1248 calls and one summary, eligible only after the current coordinator exits and fresh checks pass. Failed admissions and unavailable sources remain blocked.
+
+**Timing.** One revision block is running and one remains, followed by its summary. At 02:13, 292 revision requests remain. Measured rates put current-queue completion near 02:48, and all admitted follow-on work near 04:44 including handoff and analysis allowances. A 25 percent generation slowdown and larger overhead move the estimate to 05:28. The requested 05:00 target is plausible but not assured; this is a forecast, not a guaranteed finish or a change to the original stage cutoff. The human-history main may run differently from its development probe. Whole scientific write-through and packet review remain obligations after generation.
+
+**Monitoring.** The four-hour notice due September 24 at 22:52 remained pending with no delivery attempt while previously delivered landings awaited ACK. The dispatch guard prevents a second outstanding owner message; active-owner suppression also applies. This was an overdue inspection, not proof of an on-time four-hour check. The watcher and original checkpoint are live, all 652 terminal paths and queue exit are registered, and the old unrelated uncertain delivery is retained. Finish the pending write-through before ACK, then rearm the health interval four hours from that ACK. Completion/failure and original checkpoint notices remain independent. No scientific restart is needed.
+
+**Means.** Finish and inspect the original queue, then dispatch the unchanged admitted human-history pass only after ownership release and fresh admission. Preserve all failed comparisons, the original Friday/Monday packets and the local allocation cutoff. The owner's separate hard-stop-versus-review clarification is pending; no unilateral hard stop or new research follows. No tests harvested and no new spending or delegation. The exact evidence and inspection charges are in the health receipt.
+
+**Curator roll-up.** Theory group: instrument validity. Question: is the local queue healthy and its completion forecast supported? Outcome: **Infrastructure**. Result: the queue and completed-record audit pass, with the morning target still conditional. Project meaning: execution can continue while validity failures and delayed monitoring remain explicit. Next engineering obligation: finish the original queue, perform the admitted follow-on handoff and complete the packet. Public claim: unchanged. Curator decision required: No new research decision; the requested timing clarification is pending. Detail: [health and timing inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_0204.json).
+
+---
+
+### OPS-S12-LP21-ROSTER-0204 - terminal questioning roster and completed revision blocks verified
+
+**Hypothesis.** Every completed or failed history retains its actual responses and exact dependencies while independent work progresses.
+
+**METHOD.** Disable network dispatch and replay every saved request, literal parser, dynamic branch and complete handler for questioning producers 048-059 and 061-063 and revision producers 000-013. Reconstruct failed questioning producer 060 through its original invalid-selection guard. Verify frozen source/input/contract/dependency/output bindings, exited producer identities, original JSON bytes and retained charges. Reconcile all questioning terminal hashes against previous landed receipts or this replay, preserving the complete-only consumer requirement. This checks execution integrity, not unfinished-family performance.
+
+The table counts retained calls and unchanged original JSON files. Rows group complete producers from the same family; the failed row is one history, with its dependent calls explicitly unstarted.
+
+| Inspected producers | Returned calls replayed | Unstarted calls | Original JSON files unchanged |
+|---|---:|---:|---:|
+| Questioning 048-059 and 061-063, complete | 330 | 0 | 2430 |
+| Questioning 060, failed | 9 | 13 | 69 |
+| Revision 000-013, complete | 2352 | 0 | 16576 |
+
+**Found.** All complete handlers reproduce exactly, and the failed history reproduces its guard without a new call. Its first counterexample selection is not a valid finite probability response, so dependent work stops without a fallback. The single invalid return, nine returned calls and thirteen unstarted calls remain. Retained charges are 45.101244198624045 CPU seconds, 58.75222650001524 GPU service seconds and 117.50445300003048 host CPU seconds, with no diagnostic GPU charge. All 476 source pins verify; this replay preserves 19075 original JSON records. The entire questioning roster now has 55 complete and nine failed histories: 1271 returned and 137 unstarted of 1408 planned calls. Every terminal reconciles with a landed or current replay receipt. The complete-only questioning consumer is deferred and unstarted; the scientific comparison is incomplete. Revision remains underway, so no scientific comparison is reported for it.
+
+**Means.** Continue independent frozen revision work and preserve missingness. No repair, inference retry, criterion change or new scientific claim follows. This pass's producer replay costs 12.328125 CPU seconds and no model calls; the earlier 045-047 inspection is recorded separately. The complete revision consumer still owes its primary interval check and full scientific write-through. No tests harvested, new research, spending, delegation or gear change.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do completed and failed histories preserve reproducible execution? Outcome: **Infrastructure**. Result: all inspected records replay with the failed dependencies retained. Project meaning: questioning execution has ended with an incomplete comparison, while revision continues. Next engineering obligation: land the whole revision family when complete and keep questioning missingness in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [overnight replay](results/phase_2_4_stage_12/LOCAL_PROGRAM_OVERNIGHT_REPLAY_20260925.json).
+
+---
+
+### OPS-S12-LP21-QUERY-045-047 - three completed reserved histories preserve exact replay
+
+**Hypothesis.** Completed independent histories retain reproducible execution while the reserved questioning replication continues with failed histories explicitly preserved.
+
+**METHOD.** Replay all saved requests, literal parsers, dynamic branches and complete handlers for producers 045 through 047 with network dispatch disabled. Verify original JSON bytes, source/input/contract/dependency/output bindings and exited producer identities. Reconcile all previously inspected failure terminals and the unstarted complete-only consumer. Inspect actual coordinator, worker and GPU ownership, fresh output, loaded watcher sources and the original checkpoint. This is operational validity checking, with no unfinished-family scientific comparison.
+
+The table counts saved requests and unchanged original JSON records. Each producer is one reserved history; these are coverage and integrity counts, not scientific performance.
+
+| Completed producer | Saved requests replayed | Original JSON files unchanged |
+|---|---:|---:|
+| LP21-query-045-a2 | 22 | 162 |
+| LP21-query-046-a2 | 22 | 162 |
+| LP21-query-047-a2 | 22 | 162 |
+
+**Found.** All three complete handlers and saved calls reproduce exactly. All 476 source pins and frozen bindings verify; no original job record changes. Previously inspected failures 004, 015, 017, 020, 031, 034, 040 and 043 remain intact, and the complete-only consumer is unstarted. The whole questioning replication remains incomplete; successful histories cannot substitute for its missing histories. No repair, retry or replacement response is made. Theory and public scientific claims are unchanged; this belongs in the instrument ledger.
+
+**Means.** At September 24, 21:31 PDT, LP21-query-049-a2 is running in Gear 2 with matching native/GPU ownership, fresh output and verified monitoring. Offline verification costs 0.40625 CPU seconds and no model calls. Continue the independent frozen roster. LP16 remains prepared for after current queue exit and fresh checks; failed admissions remain blocked. Preserve earlier deficits, corrections, original cutoff and Friday/Monday packets. No tests harvested, new research, spending, delegation or gear change. Ordinary result ACKs leave the independent September 24, 22:52:17 PDT health deadline unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do completed histories retain exact reproducibility while independent work continues? Outcome: **Infrastructure**. Result: the completed histories replay unchanged with all earlier failures retained. Project meaning: continued execution does not remove the incomplete comparison boundary. Next engineering obligation: inspect remaining frozen histories and preserve missingness in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [reserved-questioning producer inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_QUERY_045_047.json).
 
 ---
 

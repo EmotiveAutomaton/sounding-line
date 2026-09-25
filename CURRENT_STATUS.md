@@ -1,5 +1,24 @@
 # Current status
 
+## Queue and review-time check - September 25, 02:13 PDT
+
+Gear 2 is progressing: revision block 014 is active, block 015 and the whole
+revision summary follow. Seven admitted LP16 generation blocks and one summary
+are prepared for after original queue exit and fresh admission; they are not
+submitted yet. At this snapshot, 292 current revision requests plus 1248 LP16
+requests remain. Central estimates are 02:48 for the original queue and 04:44
+including LP16; the conservative slowdown case is 05:28. The owner's 05:00
+review target is plausible, not assured; hard-stop clarification is pending.
+
+OPS-S12-LP21-ROSTER-0204 lands the questioning tail and revision producers
+000-013. Questioning is terminal with 55 complete and nine failed histories;
+its complete-only comparison is incomplete. All failures/costs remain.
+OPS-S12-HEALTH-0204 verifies native/resource/monitoring health, 278 completed
+job records, 70 tests and 41 subtests. The health notice was overdue behind
+outstanding ACKs; its completed-inspection ACK rearms four hours later.
+Original checkpoint and immediate queue-exit/failure notices remain registered.
+Original cutoff and Friday/Monday packets remain; no new research or paid work.
+
 ## Sequential-questioning stops inspected - September 24, 05:40 PDT
 
 Gear 2 continues independent histories. Two inspected histories' invalid

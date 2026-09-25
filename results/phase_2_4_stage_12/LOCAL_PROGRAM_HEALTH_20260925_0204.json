@@ -1,0 +1,133 @@
+{
+  "at": "2026-09-25T09:07:13.549781+00:00",
+  "landing": "OPS-S12-HEALTH-0204",
+  "gear": 2,
+  "active_job": "LP21-revision-013-a2",
+  "native_identity_and_ownership_verified": true,
+  "kernel_lock_held": true,
+  "native_lock_verified": true,
+  "heartbeat_age_seconds": 0.620035,
+  "raw_output_age_seconds": 0.6894831657409668,
+  "capacity_ready": true,
+  "gpu_snapshot": {
+    "at": "2026-09-25T09:06:59.184877+00:00",
+    "free_MiB": 1220.0,
+    "name": "NVIDIA GeForce RTX 4070 SUPER",
+    "power_W": 38.54,
+    "reserved_MiB": 285.0,
+    "temperature_C": 54.0,
+    "total_MiB": 12282.0,
+    "used_MiB": 10778.0,
+    "utilization_percent": 96.0
+  },
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "free_host_GiB": 44.25638198852539,
+  "free_disk_GiB": 834.751537322998,
+  "charges": {
+    "cpu_seconds": 98929.90367461648,
+    "diagnostic_gpu_seconds": 3752.675323300413,
+    "gpu_seconds": 100519.0144336003,
+    "host_cpu_seconds": 196188.92986920057
+  },
+  "resource_ceilings": {
+    "cpu_hours": 36,
+    "gpu_hours": 48,
+    "diagnostic_gpu_hours_included": 4,
+    "protected_cpu_hours": 4,
+    "protected_gpu_hours": 4
+  },
+  "next_admission_passed": true,
+  "source_pins_verified": 476,
+  "registered_terminal_paths": 652,
+  "all_original_failures_retained": 14,
+  "complete_record_audit": {
+    "jobs": 278,
+    "inputs": 821,
+    "outputs": 1370,
+    "dependencies": 336,
+    "missing_public_or_current_replay_receipts": []
+  },
+  "validity_tests": {
+    "passed": 70,
+    "subtests_passed": 41
+  },
+  "follow_on": {
+    "generation_jobs": 7,
+    "analysis_jobs": 1,
+    "calls": 1248,
+    "admitted": true,
+    "submitted": false,
+    "dispatch_rule": "After original coordinator exit and native/kernel GPU release, recheck resources and unchanged bindings before the prepared LP16 pass."
+  },
+  "eta": {
+    "active_completed": 44,
+    "active_job": "LP21-revision-014-a2",
+    "active_total": 168,
+    "all_admitted_work_central_eta": "2026-09-25T04:43:58.051301-07:00",
+    "all_admitted_work_conservative_eta": "2026-09-25T05:28:04.857522-07:00",
+    "at": "2026-09-25T09:13:17.025359+00:00",
+    "current_generation_jobs_including_active": 2,
+    "current_remaining_analysis_jobs": 1,
+    "eta_limits": "Conditional on current rates, prompt difficulty, resource admission, timely queue handoff and no new fault; development timing may not predict main exactly. Includes five minutes for current summary and ten minutes for follow-on handoff/summary; conservative adds 25 percent generation time and fifteen minutes follow-on overhead.",
+    "hard_stop_clarification_pending": true,
+    "lp16_development_seconds_per_call": 5.085571364583333,
+    "original_queue_central_eta": "2026-09-25T02:48:11.258238-07:00",
+    "prepared_follow_on_analysis_jobs": 1,
+    "prepared_follow_on_calls": 1248,
+    "prepared_follow_on_generation_jobs": 7,
+    "prepared_follow_on_submitted": false,
+    "remaining_current_generation_calls": 292,
+    "requested_review_target": "2026-09-25T05:00:00-07:00",
+    "revision_seconds_per_call_median": 6.144633175595238,
+    "revision_seconds_per_call_range": [
+      5.883320982142857,
+      6.998194089285715
+    ]
+  },
+  "monitoring": {
+    "loaded_sources_verified": true,
+    "original_checkpoint_live": true,
+    "health_notice_was_overdue": true,
+    "health_notice_delivery_attempts": 0,
+    "previous_notice_state": "pending",
+    "reason": "Outstanding delivered events awaited write-through and acknowledgement; dispatch refuses a second outstanding owner message. Active-owner suppression also applies. This does not demonstrate an on-time four-hour inspection.",
+    "resolution": "Complete this inspection and pending landings before ACK; health ACK rearms four hours later. Original queue exit and failure alerts stay registered.",
+    "old_unrelated_notification_failure_preserved": true
+  },
+  "recovery": "No scientific restart needed; retained invalid-selection histories are incomplete, not retry requests.",
+  "verification_charges": [
+    {
+      "at": "2026-09-25T09:07:13.548681+00:00",
+      "cpu_seconds": 19.50220079999417,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Four-hour operational health inspection September 25 02:04",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-25T09:11:20.231707+00:00",
+      "cpu_seconds": 1.265625,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Complete current-plan output and report audit September 25",
+      "status": "complete"
+    },
+    {
+      "at": "2026-09-25T09:09:01.425399+00:00",
+      "cpu_seconds": 161.86390660423785,
+      "diagnostic_gpu_seconds": 0,
+      "gpu_seconds": 0,
+      "host_cpu_seconds": 0,
+      "kind": "Stage12 validity checks September 25",
+      "pytest_exit": 0,
+      "status": "complete",
+      "subprocess_allowance_seconds": 10
+    }
+  ],
+  "new_model_calls": 0
+}

@@ -2,6 +2,12 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-0204: native health, resource admission, completed-report coverage and the full Stage 12 validity suite pass. Documented the delayed health event; rearm only after full write-through and ACK.
+- [x] OPS-S12-LP21-ROSTER-0204: questioning roster reconciled, including its final failure; revision producers 000-013 replayed. Questioning comparison remains incomplete with nine failed histories retained.
+- [ ] Finish revision producers 014-015, check the complete-family primary intervals and perform full scientific write-through. After original coordinator exit and ownership release, submit the unchanged admitted LP16 pass if fresh admission permits. Requested 05:00 review target is conditional on throughput; original stage cutoff remains.
+
+- [x] OPS-S12-LP21-QUERY-045-047: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.
+
 - [x] OPS-S12-LP21-QUERY-039-044: four completed histories and two failed selection prefixes/guards replay unchanged; full internal operational write-through complete. Original failures and costs remain; independent frozen work continues with the complete-only comparison blocked.
 
 - [x] OPS-S12-LP21-QUERY-036-038: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.

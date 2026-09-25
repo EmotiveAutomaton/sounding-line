@@ -1,5 +1,34 @@
 # STATE: the agent's operational file
 
+## Queue and review-time check - September 25, 02:13 PDT
+
+Gear 2 is progressing: revision block 014 is active, block 015 and the whole
+revision summary follow. Seven admitted LP16 generation blocks and one summary
+are prepared for after original queue exit and fresh admission; they are not
+submitted yet. At this snapshot, 292 current revision requests plus 1248 LP16
+requests remain. Central estimates are 02:48 for the original queue and 04:44
+including LP16; the conservative slowdown case is 05:28. The owner's 05:00
+review target is plausible, not assured; hard-stop clarification is pending.
+
+OPS-S12-LP21-ROSTER-0204 lands the questioning tail and revision producers
+000-013. Questioning is terminal with 55 complete and nine failed histories;
+its complete-only comparison is incomplete. All failures/costs remain.
+OPS-S12-HEALTH-0204 verifies native/resource/monitoring health, 278 completed
+job records, 70 tests and 41 subtests. The health notice was overdue behind
+outstanding ACKs; its completed-inspection ACK rearms four hours later.
+Original checkpoint and immediate queue-exit/failure notices remain registered.
+Original cutoff and Friday/Monday packets remain; no new research or paid work.
+
+## Reserved questioning continuation - September 24, 21:31 PDT
+
+OPS-S12-LP21-QUERY-045-047 lands exact replay of three completed histories.
+Original records, bindings and earlier failure terminals verify. Gear 2
+continues with matching native/GPU ownership, fresh output and verified
+monitoring. Whole-family comparison remains incomplete and its complete-only
+consumer is unstarted. No repair or retry. LP16 waits for current queue exit
+and fresh checks; failed admissions remain blocked. Preserve prior deficits,
+cutoff and Friday/Monday packets. Independent health stays September 24 at 22:52:17 PDT.
+
 ## Reserved questioning continuation - September 24, 21:23 PDT
 
 OPS-S12-LP21-QUERY-039-044 lands exact replay of four completed histories

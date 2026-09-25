@@ -4,7 +4,27 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 21:23 PDT: independent reserved questioning
+Current audit, September 25 at 02:13 PDT: Gear 2 is progressing through its
+last two revision blocks, including the active one. The admitted LP16 pass is
+prepared for after current queue exit and fresh checks. Combined central ETA
+is 04:44, with a conservative 05:28 case; the requested 05:00 target is not
+assured. Native health, 278 completed records and all 70 tests/41 subtests pass.
+[Health and timing](LOCAL_PROGRAM_HEALTH_20260925_0204.json) records
+OPS-S12-HEALTH-0204. [Overnight replay](LOCAL_PROGRAM_OVERNIGHT_REPLAY_20260925.json)
+records OPS-S12-LP21-ROSTER-0204: all questioning histories are terminal,
+but its complete-only comparison remains incomplete. Revision science remains
+pending. The overdue health event rearms after inspection ACK; original
+checkpoint, cutoff and packet dates remain unchanged.
+
+Earlier continuation, September 24 at 21:31 PDT: independent reserved questioning
+histories progress in Gear 2. All three completed producers replay unchanged, with
+original records, bindings and earlier failure terminals verified. The whole
+comparison remains incomplete and its complete-only consumer is unstarted.
+No repair or retry. Native ownership, fresh output and monitoring verify.
+[Producer inspection](LOCAL_PROGRAM_RESERVED_QUERY_045_047.json).
+Health remains September 24 at 22:52:17 PDT; cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 21:23 PDT: independent reserved questioning
 histories progress in Gear 2. Four complete histories and two failed selection
 prefixes/guards replay unchanged; original returns, bindings, costs and earlier
 failures remain. The whole comparison is incomplete and its complete-only consumer
