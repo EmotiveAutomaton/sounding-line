@@ -9,6 +9,81 @@ ran it.
 
 ---
 
+### OPS-S12-DRAINED-0925 - submitted queue drained, records reconciled and wake path repaired
+
+**Hypothesis.** A drained executor can be distinguished from a fully completed research program, and every produced result remains bound to a report.
+
+**METHOD.** Inspect native process identities, queue exit, released kernel/native/GPU locks, all current-plan terminal/input/dependency/output bindings, earlier week output inventories, retained failures, charged resources and the admitted follow-on. Verify watcher/checkpoint identities and sources, inspect the uncertain delivery, and test the existing owner's native queue without submitting a message or experiment.
+
+The table counts execution jobs, including consumers and preparation, not independent scientific hypotheses. Earlier completed records are separate namespaces and are not added to the current-plan denominator.
+
+| Current 326-job plan | Jobs |
+|---|---:|
+| Complete | 281 |
+| Failed with original evidence retained | 14 |
+| Deferred and unstarted | 31 |
+| Running | 0 |
+
+**Found.** The submitted queue exited normally September 25 at 02:45:13 PDT, before the requested 05:00 target. All native workers exited and its three locks released. The current-plan audit verifies 829 input, 1383 output and 354 dependency bindings; six earlier local completions also verify. All 127 original-week completions retain 1355 verified output bindings. Six addendum preparation/audit jobs had aggregate rather than direct terminal-hash public receipts; the new inventory supplies those terminal bindings while preserving the superseded first audit. The final revision family is fully landed in L450. The previous 70-test/41-subtest suite remains a dated passing result; six relevant deterministic-interval tests pass again here.
+
+The full approved program is not complete. Seven admitted human-history generation blocks and their summary were prepared but never launched: 1248 calls remain unrun. The other 23 deferred jobs are failed-admission dependents or incomplete-family consumers. Source-blocked work remains outside that executable roster. The overnight combined-finish estimate assumed a handoff that did not occur; it cannot be reported as meeting the full-program target. No missing or failed work is silently retried.
+
+An uncertain final-producer delivery blocked later notices, including the queue exit, interim checkpoint and four-hour health check due 06:19:31 PDT. Its configured Codex executable had disappeared after extension replacement. A sandboxed native API probe could not resolve the home directory; the bounded reviewed probe succeeded and found the existing owner queue empty. Only the private executable path changed, preserving the sole watcher, owner, outbox and scientific records. The watcher reads that configuration each scan. This verifies queue access and repair, not future idle delivery. ACK follows full write-through; the health ACK rearms four hours later. No blind resend or new thread.
+
+**Means.** Generation remains stopped while the curator resolves closeout versus the previously admitted follow-on. Budget admission remains available, but the cold-GPU snapshot has 7378 MiB free against a 7768 MiB requirement, so a future launch also needs fresh resource admission. No other application was closed. All original failure, void, exposure and missing-analysis boundaries remain. The original interim packet is delivered late in this pass; Monday's final packet and the local allocation cutoff remain unchanged. No tests harvested, new research, paid compute, delegation or gear change.
+
+**Curator roll-up.** Theory group: instrument validity. Question: is submitted work finished and its evidence recorded? Outcome: **Infrastructure**. Result: the submitted queue is drained and its records reconcile, while the admitted follow-on is unrun. Project meaning: executor completion is not scientific completion. Next engineering obligation: preserve explicit deficits, obtain the closeout-versus-follow-on instruction and deliver the original final packet. Public claim: unchanged. Curator decision required: Yes; leave generation stopped for the requested review unless the curator chooses the remaining admitted pass. Detail: [drained-queue integrity receipt](results/phase_2_4_stage_12/LOCAL_PROGRAM_DRAINED_20260925.json) and [interim packet](results/phase_2_4_stage_12/INTERIM_PACKET_20260925.md).
+
+---
+
+### L450 - reserved crossed-frame revision shows a false-frame saved-reply penalty
+
+**Hypothesis.** Keeping an earlier reply changes the benefit of diagnostic evidence differently under true and false starting frames, beyond unchanged rereading and equally long irrelevant material.
+
+**METHOD.** Fully cross 64 prospectively reserved constructed histories from the unchanged Stage 11.2 maker law with true, false and neutral frames, direct and account reading by Qwen3.5 9B, and seven calls per combination: initial reading plus fresh/saved readings at unchanged, diagnostic and length-matched irrelevant snapshots. All 2,688 calls, sixteen producers and the complete consumer finished. Rebuild every frozen request and exact target, verify disjoint discovery/replication clusters, and replay saved requests, literal parsers, earlier reply bytes and complete handlers without network dispatch. All 18,950 original JSON records remain unchanged. The score is expected half-Brier loss, a squared probability error divided by two, lower better; excess subtracts the exact reference at the identical evidence. Pair within history and method, average methods within history, and retain the frozen 4,000-draw 97.5% intervals and 0.02 practical margin. No new inference, fitted threshold or p-value.
+
+**Interval validity.** The frozen consumer retains the previously diagnosed unordered-set bootstrap defect. Its original primary interval [0.048628, 0.218276] is **VOID for exact replay**, with the original preserved. Apply the existing canonical-order CPU correction separately, keeping the observations, primary mean, seed, draw count, 97.5% coverage and margin unchanged. All other consumer fields reproduce exactly. Independent pairing/bootstrap agrees; reversed rows and two process hash seeds give identical corrected output. All six existing known-answer, malformed-pair and determinism tests pass. The correction preserves the original harm disposition; it does not select a favorable interval or repair model responses.
+
+Each descriptive row contains 64 histories in each mode. Fresh and saved columns report mean excess loss; invalid and infinite counts are fresh / saved. Invalid replies retain loss one and their original bytes; zero-support logarithmic losses remain infinite. Direct means probabilities directly; account means an explanation followed by probabilities. These cells are descriptive, not additional independently tested claims.
+
+| Method | Frame | Update | Fresh excess | Saved excess | Invalid | Infinite |
+|---|---|---|---:|---:|---:|---:|
+| Direct | True | Unchanged | 0.175744 | 0.151740 | 2 / 1 | 15 / 14 |
+| Direct | True | Diagnostic | 0.317211 | 0.344778 | 3 / 4 | 38 / 21 |
+| Direct | True | Irrelevant | 0.229254 | 0.216369 | 9 / 7 | 18 / 22 |
+| Direct | False | Unchanged | 0.263630 | 0.269915 | 9 / 9 | 27 / 27 |
+| Direct | False | Diagnostic | 0.289056 | 0.483457 | 1 / 12 | 32 / 33 |
+| Direct | False | Irrelevant | 0.221692 | 0.241015 | 4 / 6 | 18 / 28 |
+| Direct | Neutral | Unchanged | 0.183307 | 0.196785 | 6 / 7 | 13 / 14 |
+| Direct | Neutral | Diagnostic | 0.293649 | 0.381088 | 0 / 5 | 29 / 16 |
+| Direct | Neutral | Irrelevant | 0.180624 | 0.204226 | 4 / 8 | 14 / 17 |
+| Account | True | Unchanged | 0.159826 | 0.190645 | 4 / 7 | 14 / 21 |
+| Account | True | Diagnostic | 0.309780 | 0.297187 | 0 / 4 | 31 / 16 |
+| Account | True | Irrelevant | 0.198021 | 0.174053 | 7 / 6 | 13 / 13 |
+| Account | False | Unchanged | 0.151526 | 0.176722 | 1 / 6 | 11 / 27 |
+| Account | False | Diagnostic | 0.248662 | 0.336521 | 0 / 5 | 27 / 30 |
+| Account | False | Irrelevant | 0.254588 | 0.188280 | 9 / 6 | 28 / 21 |
+| Account | Neutral | Unchanged | 0.156496 | 0.143890 | 2 / 2 | 12 / 14 |
+| Account | Neutral | Diagnostic | 0.323766 | 0.306806 | 1 / 3 | 30 / 19 |
+| Account | Neutral | Irrelevant | 0.177738 | 0.205519 | 6 / 8 | 21 / 20 |
+
+The paired contrast table pools the two reading methods within each history. Negative favors saving the earlier reply. The primary subtracts the true-frame saved penalty from the false-frame saved penalty. Harm or benefit requires the entire interval beyond plus or minus 0.02; equivalence requires the whole interval inside that margin; otherwise it is unresolved. The questioning primary is incomplete and contributes no substitute contrast.
+
+| Frozen contrast | Mean difference [97.5% interval] | Disposition |
+|---|---:|---|
+| True frame: saved minus fresh | +0.007487 [-0.075819, +0.091054] | UNRESOLVED |
+| False frame: saved minus fresh | +0.141130 [+0.063942, +0.217521] | HARM |
+| Neutral frame: saved minus fresh | +0.035240 [-0.051236, +0.126145] | UNRESOLVED |
+| Primary: false minus true saved penalty | +0.133643 [+0.050943, +0.220056] | HARM |
+
+**Found.** The reserved primary establishes a larger saved-reply penalty under a false starting frame than under a true one. The false-frame saved-versus-fresh comparison also clears the harm margin; the true and neutral comparisons remain unresolved. The discovery crossing was unresolved, so this is a fresh-support result within the same law and reader, not independent mechanism or model-family replication. All 198 invalid replies and 856 infinite losses remain in the attempted population.
+
+**Means.** Explicitly reintroducing the actual earlier answer can carry a false-frame disadvantage into an identical later evidence snapshot. This is supplied-text behavior, not hidden state persistence or psychological anchoring. Invalid earlier replies are deliberately saved; their penalties remain part of the effect. Unchanged/irrelevant controls can also move answers, and the primary diagnostic interaction does not subtract those control movements, so selective use of diagnostic evidence is not established by this contrast alone. The three frame-specific contrasts are descriptive companions; no subgroup is promoted after inspection. Initial cells, every aggregate, fixed-grid coverage and calibration decomposition remain in the linked complete analysis; no abstention policy is fitted. The earlier discovery interval and its correction remain unchanged. This inspection costs 23.609375 CPU seconds including a conservative subprocess allowance, with no GPU calls. No new research, paid work or delegation. Whole-stage synthesis must retain incomplete questioning, memory and human branches.
+
+**Curator roll-up.** Theory group: contextual revision. Question: can a saved earlier answer preserve a false starting frame after more evidence arrives? Outcome: **Narrows**. Result: the reserved false-minus-true saved penalty clears the frozen harm margin. Project meaning: persistent visible answers can obstruct correction in this constructed reader interface; internal and human mechanisms remain open. Next engineering obligation: carry the scoped result and its retained invalid/control limitations into the interim and final packets. Public claim: newly licensed only for the declared constructed-world interaction. Curator decision required: No. Detail: [complete reserved revision analysis](results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_REVISION_COMPLETE.json).
+
+---
+
 ### OPS-S12-HEALTH-0204 - overnight queue, validity and review-time audit
 
 **Hypothesis.** The authorized queue is progressing within its resource limits, its completed outputs have bound records, and measured rates permit an honest forecast for the requested morning review.

@@ -1,5 +1,23 @@
 # Codex operations
 
+## Executable-path repair after extension replacement, 2026-09-25
+
+The watcher retained a path into an extension version no longer installed.
+One final-producer send became unknown with FileNotFoundError and blocked later
+terminal, interim and health notices under the duplicate-send guard. Only the
+private configured executable path was changed to the sole installed version.
+The existing owner's native queue lists successfully and is empty; no message,
+thread, model call or scientific restart was submitted. The watcher reloads its
+configuration each scan, so its native process and loaded source remain unchanged.
+A prior sandbox probe failed to resolve the home directory and remains recorded.
+Future idle delivery is a separate observation. Fully land the original results
+before ACK; ACK of the inspected health event rearms its own four-hour clock.
+Private old configuration and native inspection are retained under
+`.agent-state/stage12-local-program-20260923/`; rollback restores only the
+executable field after checking that no later configuration change supersedes it.
+[Operational evidence](../results/phase_2_4_stage_12/LOCAL_PROGRAM_DRAINED_20260925.json).
+
+
 ## Final checkpoint delivery and helper exit, 2026-09-20
 
 Both the original final checkpoint and the helper's normal-exit receipt reached

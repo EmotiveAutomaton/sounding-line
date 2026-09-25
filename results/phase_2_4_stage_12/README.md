@@ -4,6 +4,31 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Current submitted queue drained - September 25, 09:56 PDT
+
+No test worker is running. The current 326-job queue exited at 02:45:13 PDT:
+281 complete, 14 failed with original records retained, 31 deferred. All completed
+records reconcile; L450 fully lands the final reserved revision family, including
+the existing deterministic interval correction and its preserved original.
+
+Seven admitted LP16 generation blocks and their summary were never launched.
+Their 1248 calls remain unrun; the other 23 deferred jobs remain blocked by failed
+admissions or incomplete families. The original queue met 05:00, but the broader
+approved program did not complete. Generation stays stopped pending the curator's
+closeout-versus-follow-on choice. No new research, retry or paid work. Any resumed
+pass requires fresh capacity admission; the inspected cold-GPU snapshot is short.
+
+The wake executable path became stale after extension replacement. Native owner
+queue inspection succeeds with the installed executable; only the private path
+was repaired. Original unknown delivery and delayed health/interim notices remain
+recorded. Full write-through precedes ACK; health then rearms four hours later.
+Future idle delivery remains to be observed. Interim reporting is late; the
+original local cutoff and Monday final packet remain unchanged.
+
+[Drained-queue audit](./LOCAL_PROGRAM_DRAINED_20260925.json) and
+[interim packet](./INTERIM_PACKET_20260925.md).
+
+
 Current audit, September 25 at 02:13 PDT: Gear 2 is progressing through its
 last two revision blocks, including the active one. The admitted LP16 pass is
 prepared for after current queue exit and fresh checks. Combined central ETA

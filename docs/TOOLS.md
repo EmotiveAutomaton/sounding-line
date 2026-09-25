@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-DRAINED-0925 / L450: the submitted queue exited with locks released and no worker active. Current-plan and earlier-week output inventories reconcile. The existing canonical revision correction passes independent bootstrap, two-process and six regression checks; original interval retained as VOID for exact replay. Only the private stale Codex executable path was repaired; native owner queue access succeeds, with future idle delivery unproven. [Queue audit](../results/phase_2_4_stage_12/LOCAL_PROGRAM_DRAINED_20260925.json), [revision receipt](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_REVISION_COMPLETE.json).
+
 OPS-S12-HEALTH-0204: native queue/resource/watcher checks pass; all 70 tests and 41 subtests pass. All 278 completed current-plan jobs have verified output bindings and landed/current replay receipts. The health event was overdue behind outstanding ACKs; clear them and rearm without claiming on-time delivery. [Health inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_0204.json).
 
 OPS-S12-LP21-ROSTER-0204: completed questioning and revision handlers and the final questioning failure prefix/guard replay unchanged. All questioning histories are terminal, with nine failures retained and the complete-only consumer deferred. Revision science remains pending. [Replay](../results/phase_2_4_stage_12/LOCAL_PROGRAM_OVERNIGHT_REPLAY_20260925.json).

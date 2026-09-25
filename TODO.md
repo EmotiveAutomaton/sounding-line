@@ -4,7 +4,9 @@
 
 - [x] OPS-S12-HEALTH-0204: native health, resource admission, completed-report coverage and the full Stage 12 validity suite pass. Documented the delayed health event; rearm only after full write-through and ACK.
 - [x] OPS-S12-LP21-ROSTER-0204: questioning roster reconciled, including its final failure; revision producers 000-013 replayed. Questioning comparison remains incomplete with nine failed histories retained.
-- [ ] Finish revision producers 014-015, check the complete-family primary intervals and perform full scientific write-through. After original coordinator exit and ownership release, submit the unchanged admitted LP16 pass if fresh admission permits. Requested 05:00 review target is conditional on throughput; original stage cutoff remains.
+- [x] L450 / OPS-S12-DRAINED-0925: final reserved revision and complete queue exit landed; immutable result inventories verified; stale wake executable repaired; interim packet prepared.
+- [ ] LP16: seven admitted producers and one summary remain unrun. Keep generation stopped pending the curator's closeout-versus-follow-on choice; any launch needs fresh resource checks and the original cutoff.
+- [ ] Preserve 14 failed histories, 23 blocked deferred jobs, source-unavailable branches and missing analyses in the Monday final packet. No automatic retry or new research.
 
 - [x] OPS-S12-LP21-QUERY-045-047: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.
 
