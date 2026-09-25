@@ -2,6 +2,9 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] L448 / LP15: all three producers and complete consumer replay unchanged; full internal write-through records annotation scope, unresolved method comparison and analysis gaps.
+- [ ] L448 packet scope: retain missing view/wording and reserved-paper analyses, absent diff-rank rival, full-pair visibility, probability/ranking separation and balanced-annotation limits. No new analysis, model call or source change is queued by this landing.
+
 - [x] OPS-S12-LP15-FIRST-PRODUCER: first ARIES request/edit block replays unchanged with full bindings, native continuation and monitoring verified; operational write-through complete. Whole-family analysis remains pending while the frozen Gear 2 roster continues.
 
 - [x] L447 / LP14: all producers and complete consumer replay unchanged; full internal write-through records construction, analysis gaps and valid prospective visibility.

@@ -9,6 +9,60 @@ ran it.
 
 ---
 
+### L448 - broader human request/edit comparison completes without a resolved account advantage
+
+**Hypothesis.** A coherent account should improve correspondence between a human review request and its recorded edit beyond question wording and cheap textual overlap, without merely producing overconfident rankings.
+
+**METHOD.** Read all sixteen remaining locally uncompiled, size-eligible ARIES papers using the frozen Qwen3.5:9B reader. One explicit annotated positive and one explicit negative per paper, two question formulations, three evidence views and direct versus coherent-account instructions give all 384 planned calls across three producers. Request asks whether the supplied edit corresponds to the request; Edit asks whether the supplied after passage is a corresponding edit given the request and before passage. Both see the same pair; neither generates a new edit. Every view includes the request and full before/after pair. Context adds the released local request context; change adds a deterministic diff rendering. Targets are released external correspondence annotations. Each paper has equal weight. The frozen consumer uses sixteen paper clusters, a fixed-seed 4,000-draw paired bootstrap and a practical loss margin of 0.02. No p-values or new fitted calibration are introduced.
+
+**Validity.** All saved requests/parsers, three producer handlers and the whole-family consumer replay with network dispatch disabled. All 2,718 original job JSON files and four source-compile JSON files remain byte-identical. All 476 source pins and plan/start/terminal, manifest/contract/input/prerequisite/output bindings verify. Recompilation reproduces the frozen roster and source census. Independent checks recover each released annotation, one explicit example of each class per paper, the eight-paper reserve, every public projection and lexical score. Independent probability scores, paired paper intervals, coverage and rank calculations reproduce the saved results. Exact annotation vectors score zero, deliberately reversed labels score one, and invalid forecasts would retain loss one. Calibration bins partition valid replies and preserve the finite-bin score remainder. These checks validate the executed comparison, with planned analysis gaps retained below.
+
+The table reports mean half-Brier loss, squared probability error where lower is better, and hard-label accuracy, where higher is better. Each row contains 32 attempts per method, two on each of sixteen papers. Direct requests an evidence-based reading; account requests a coherent account with alternatives. Rank is the fraction of sixteen matched positive/negative pairs for which the positive receives a higher link probability, awarding half credit to a tie; higher is better. All rank pairs are valid. Lexical rank uses request/after word-set overlap and is a ranking rival, not a calibrated probability forecast. Uniform label probability has loss 0.25 throughout; the privileged annotation floor is zero. D/A identify direct/account infinite logarithmic-loss counts caused here by zero probability on an annotated answer. No invalid replies are omitted.
+
+| Formulation | Supplied view | Direct loss | Account loss | Direct accuracy | Account accuracy | Direct rank | Account rank | Lexical rank | Infinite D / A |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Request | Pair alone | 0.409149 | 0.403334 | 0.59375 | 0.59375 | 0.65625 | 0.68750 | 0.62500 | 0 / 0 |
+| Request | Pair + local context | 0.333089 | 0.396788 | 0.65625 | 0.59375 | 0.78125 | 0.81250 | 0.62500 | 0 / 1 |
+| Request | Pair + change rendering | 0.394590 | 0.464144 | 0.59375 | 0.50000 | 0.81250 | 0.62500 | 0.62500 | 0 / 4 |
+| Edit | Pair alone | 0.478106 | 0.402580 | 0.50000 | 0.59375 | 0.75000 | 0.75000 | 0.62500 | 0 / 0 |
+| Edit | Pair + local context | 0.425207 | 0.388080 | 0.56250 | 0.59375 | 0.81250 | 0.84375 | 0.62500 | 0 / 1 |
+| Edit | Pair + change rendering | 0.499684 | 0.442683 | 0.46875 | 0.53125 | 0.78125 | 0.62500 | 0.62500 | 1 / 1 |
+
+**Frozen comparison.** Account minus direct loss is -0.007036, with a 95% sixteen-paper interval [-0.068755, +0.052432]. The disposition is **UNRESOLVED** under the predeclared practical margin. This does not establish benefit, harm or equivalence. Pooled losses are 0.416268 for account and 0.423304 for direct. The interval spans both practical-effect boundaries, so its small negative point estimate is not an account gain established by the test.
+
+**Found.** Every method/formulation/view mean loss is worse than uniform on the balanced annotations. Account loss is lower under all three Edit views, but under Request it is lower only for the pair alone; direct has lower loss with local context and change rendering. Both methods' context rankings exceed their pair-only rankings, yet that ordering does not establish calibrated probability quality. Account ranking falls to the lexical rival under both change-rendering formulations. These are descriptive patterns on the complete roster, not separately resolved view or wording effects. Eight valid forecasts assign zero probability to the annotated answer, and their infinite logarithmic losses remain.
+
+**Construction and analysis limits.**
+
+- The source census contains 42 released test papers, of which 36 satisfy the explicit-label and size requirements. Twenty of the 21 previously compiled papers are in that eligible set, leaving these sixteen. Selection uses source fields and fixed hashes, not model outcomes. Locally uncompiled does not mean absent from pretraining or independent authors; paper clusters do not prove author independence.
+- Eight papers are marked reserved before prompt development, but the consumer pools all sixteen and supplies no separate reserved-paper comparison. This landing therefore makes no held-out replication claim. Repeating the same annotated examples across views, formulations and methods does not create additional independent papers.
+- Full before/after passages remain visible in every view. Long change renderings use the frozen outcome-blind prefix/suffix projection in twenty prompt rows; no evaluator label selects the retained text. The change view reformats existing evidence. It is not additional process history, and outcome-blind selection does not mean that the after passage is hidden.
+- The consumer has only the pooled method contrast. It omits view contrasts, formulation interactions and the reserved-paper analysis. A separate cheap diff-rank rival from the proposal is also absent; the implemented cheap rival is lexical overlap. These are explicit analysis gaps. No favorable subgroup or new post-hoc primary contrast is silently promoted.
+- The balanced positive/negative sample measures correspondence to external annotations. Its privileged zero-loss reference knows those annotations; it is not a measure of irreducible human uncertainty or private purpose. Unannotated silver edits are not negatives. Natural prevalence, request adoption, novel-edit generation, private author purpose and persistent values are not measured.
+
+The fixed confidence grid below is descriptive across both formulations and all views. Confidence is the largest reported label probability; coverage is the retained fraction of all 384 attempts. All replies are valid. Retaining different confidence levels changes the sample, so these are not fitted abstention guarantees. No threshold is selected from the outcomes.
+
+| Minimum confidence | Retained / attempted | Coverage | Retained mean loss |
+|---|---:|---:|---:|
+| 0.00 | 384 / 384 | 1.000000 | 0.419786 |
+| 0.25 | 384 / 384 | 1.000000 | 0.419786 |
+| 0.50 | 384 / 384 | 1.000000 | 0.419786 |
+| 0.60 | 374 / 384 | 0.973958 | 0.425088 |
+| 0.70 | 372 / 384 | 0.968750 | 0.425102 |
+| 0.80 | 372 / 384 | 0.968750 | 0.425102 |
+| 0.90 | 352 / 384 | 0.916667 | 0.444000 |
+| 1.00 | 33 / 384 | 0.085938 | 0.242424 |
+
+In the fixed 0.8-to-1 confidence bin, direct's mean confidence is 0.976920 and correctness is 0.550802 across 187 replies; account's are 0.973935 and 0.562162 across 185 replies. This descriptive overconfidence coexists with above-half pair rankings. The linked receipt preserves the complete fixed-bin score decomposition, including its within-bin remainder, and all denominator counts.
+
+**Means.** The broader locally uncompiled paper set does not resolve an account advantage. Ranking, probability quality and question wording remain distinct. The matched lexical rival is surpassed descriptively in several conditions, but missing view/wording contrasts and the missing diff rival leave the proposed stronger alternative unestablished. This is a bounded model reading of human review/edit records, not evidence against the curator's general reconstruction hypothesis or evidence of recovered private author purpose.
+
+**Operational continuation.** At September 24, 18:07 PDT, the LP16 admission branch is running in Gear 2 with verified native coordinator/worker identities, matching GPU ownership and fresh output. Loaded watcher sources/scanning and the original checkpoint helper verify. Successful full verification costs 5.65625 CPU seconds. The earlier producer-only inspection completed its replay but encountered a not-yet-written consumer status during ordinary handoff; it retains a conservative ten-second CPU reservation. The subsequent inspection verified normal progression without changing or restarting scientific work. No model dispatch, generation retry, new tests harvested, research, fit, cloud spend or delegation. All three newly inspected LP15 terminal events receive this write-through before ACK. Earlier incomplete questioning/memory comparisons, cloud deficit, validity failures, costs, corrections, local cutoff and Friday/Monday packets remain. The independent health deadline remains September 24 at 18:37:48 PDT.
+
+**Curator roll-up.** Theory group: historical correspondence and reader calibration. Question: does a coherent account improve review/edit correspondence beyond wording and cheap overlap? Outcome: **Narrows**. Result: the complete method comparison is unresolved, with poor probability quality despite useful pair ordering. Project meaning: annotation ranking does not establish calibrated recovery or private author purpose. Next engineering obligation: preserve the analysis gaps and balanced-annotation scope in the packet while continuing the frozen roster. Public claim: unchanged for general human recovery. Curator decision required: No. Detail: [complete ARIES breadth inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_COMPLETE.json).
+
+---
+
 ### OPS-S12-LP15-FIRST-PRODUCER - first ARIES request/edit producer preserved
 
 **Hypothesis.** The first completed ARIES request/edit block remains exactly replayable while the frozen family continues under its original limits.
@@ -7864,6 +7918,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 12 broader ARIES analysis gaps (L448).** The complete frozen consumer pools the locally reserved papers and implements no reserved-only comparison, view contrast or wording interaction. The proposed separate diff-rank rival is absent. All views retain the full supplied pair; balanced external annotations do not establish prevalence, adoption or private purpose. Preserve unresolved method inference and zero-support losses; descriptive subgroups are not substitute primary tests.
 
 **Stage 12 native-operation scope (L447).** The sparse historical record includes the endpoint, voiding the intended outcome-blind interpretation. Evidence-view contrasts and unsupported-mental-assertion scoring are absent; no formal evidence-improvement or full alternative claim. Selected witnessed first operations determine their local goals in this law, dependency is a supplied constant, and future goals are supplied. The earlier eight-path population is reused; the exact-law reference does not condition on that selection.
 

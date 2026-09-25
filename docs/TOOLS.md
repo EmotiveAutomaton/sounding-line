@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+L448 / LP15: three complete ARIES producers and consumer replay unchanged; source census/annotation/projection, score, interval, coverage and ranking checks pass. The method comparison is unresolved. View/wording contrasts, reserved-only analysis and a separate diff-rank rival are absent; no held-out replication or private-purpose claim. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_COMPLETE.json).
+
 OPS-S12-LP15-FIRST-PRODUCER: the complete ARIES request/edit handler and all 180 saved requests/parsers replay, preserving all 1,268 original JSON files. Source/input/output bindings, native continuation, fresh output and monitoring verify. No repair or new inference; whole-family analysis remains pending. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_ARIES_BREADTH_FIRST_PRODUCER.json).
 
 L447 / LP14: two complete producers and consumer replay unchanged; source projection, exact/template targets, scores, intervals and calibration verify. Prospective visibility is pre-step-one. Sparse historical views include the endpoint, so outcome-blind interpretation is VOID; evidence-view contrasts and mental-assertion measurement are absent. Exact extraction and supplied dependency controls limit inference claims. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_NATIVE_OPERATIONS_COMPLETE.json).

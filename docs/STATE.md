@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## Complete ARIES breadth inspection - September 24, 18:07 PDT
+
+L448 lands all 384 calls, three producers and the complete consumer, preserving
+2,718 original job JSON files and all source compilation files. Independent
+annotation/projection/score/interval/ranking checks pass. Method inference is
+unresolved; omitted view/wording, reserved-paper and diff-rival analyses remain
+explicit. LP16-admission-a2 continues in Gear 2 with verified native/GPU ownership
+and fresh output; watcher and original checkpoint helper verify. The brief
+consumer-status gap was an ordinary handoff, with no scientific restart.
+Earlier deficits, costs, corrections, cutoff and Friday/Monday packets remain.
+Health remains due September 24 at 18:37:48 PDT.
+
 ## ARIES request/edit producer inspection - September 24, 17:54 PDT
 
 OPS-S12-LP15-FIRST-PRODUCER lands actual replay of the first ARIES request/edit

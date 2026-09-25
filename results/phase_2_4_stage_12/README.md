@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 17:47 PDT: Gear 2 has advanced to LP15.
+Current continuation, September 24 at 18:07 PDT: Gear 2 has advanced to LP16 admission.
+The complete ARIES breadth family replays unchanged and is internally landed
+in L448. Source/annotation/projection/score/interval/ranking checks pass; the method
+comparison remains unresolved. Missing view/wording, reserved-paper and diff-rival
+analyses remain explicit. Native continuation and monitoring verify.
+[Complete ARIES breadth inspection](LOCAL_PROGRAM_ARIES_BREADTH_COMPLETE.json).
+Health remains due September 24 at 18:37:48 PDT; original cutoff and packets remain.
+
+Earlier continuation, September 24 at 17:47 PDT: Gear 2 has advanced to LP15.
 The complete native-operation family replays unchanged and is internally landed
 in L447. Source/projection/score/interval checks pass; the outcome-blind historical
 interpretation is VOID, with missing view and mental-assertion analyses retained.

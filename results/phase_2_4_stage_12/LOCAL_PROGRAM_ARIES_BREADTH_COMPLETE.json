@@ -1,0 +1,685 @@
+{
+  "active_job": "LP16-admission-a2",
+  "all_json_files_unchanged": 2718,
+  "at": "2026-09-25T01:07:54.972362+00:00",
+  "calls": 384,
+  "clusters": 16,
+  "construction_checks": {
+    "annotated_examples": 32,
+    "change_projection_rows": 20,
+    "evaluator_labels_absent_from_prompt": true,
+    "frozen_view_contrasts_missing": true,
+    "full_pair_in_every_view": true,
+    "full_roster_and_lexical_scores_verified": true,
+    "independent_diff_rank_missing": true,
+    "no_novel_edit_generation_or_private_purpose_target": true,
+    "one_explicit_positive_and_negative_per_paper": true,
+    "papers": 16,
+    "pretraining_and_author_dependence_unknown": true,
+    "reserve_not_separately_analyzed": true,
+    "selected_paper_reserve": 8,
+    "source_json_files_unchanged": 4,
+    "source_recompilation_unchanged": true
+  },
+  "descriptive": [
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.65625,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.40914940624999996,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "pair"
+    },
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.6875,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.40333396875,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "pair"
+    },
+    {
+      "accuracy": 0.65625,
+      "attempts": 32,
+      "concordance": 0.78125,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.33308946875,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "context"
+    },
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.8125,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 1,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.39678790625,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "context"
+    },
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.8125,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.39458974999999996,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "change"
+    },
+    {
+      "accuracy": 0.5,
+      "attempts": 32,
+      "concordance": 0.625,
+      "direction": "request",
+      "exact_annotation_floor": 0.0,
+      "infinite": 4,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.46414353124999996,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "change"
+    },
+    {
+      "accuracy": 0.5,
+      "attempts": 32,
+      "concordance": 0.75,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.47810640624999995,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "pair"
+    },
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.75,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.402579875,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "pair"
+    },
+    {
+      "accuracy": 0.5625,
+      "attempts": 32,
+      "concordance": 0.8125,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 0,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.4252065625,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "context"
+    },
+    {
+      "accuracy": 0.59375,
+      "attempts": 32,
+      "concordance": 0.84375,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 1,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.38808034375,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "context"
+    },
+    {
+      "accuracy": 0.46875,
+      "attempts": 32,
+      "concordance": 0.78125,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 1,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.49968409374999995,
+      "method": "direct",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "change"
+    },
+    {
+      "accuracy": 0.53125,
+      "attempts": 32,
+      "concordance": 0.625,
+      "direction": "edit",
+      "exact_annotation_floor": 0.0,
+      "infinite": 1,
+      "invalid": 0,
+      "lexical_concordance": 0.625,
+      "lexical_concordance_matched_valid_pairs": 0.625,
+      "loss": 0.442682625,
+      "method": "account",
+      "rank_pairs": 16,
+      "uniform_loss": 0.25,
+      "valid_rank_pairs": 16,
+      "view": "change"
+    }
+  ],
+  "family": "LP15",
+  "gear": 2,
+  "health_due_utc": "2026-09-25T01:37:48.782822+00:00",
+  "heartbeat_age_seconds": 4.884445,
+  "independent_policy_scores_intervals_and_rulers_verified": true,
+  "inspection_failure_charge": {
+    "at": "2026-09-25T01:16:18.008701+00:00",
+    "cpu_seconds": 10,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP15 producer inspection interrupted by ordinary queue handoff; conservative CPU reservation",
+    "scope": "Producer replay completed, then the next consumer status did not yet exist during handoff. Complete-family inspection subsequently verified progression; no scientific restart or model dispatch.",
+    "status": "retained inspection failure"
+  },
+  "kind": "complete-family scientific inspection with analysis gaps",
+  "landing": "L448",
+  "limits": [
+    "Balanced external correspondence annotations, not prevalence, adoption, private purpose or novel-edit generation",
+    "Full before/after pair in every view; deterministic change rendering is not extra history",
+    "No view or wording contrast, reserved-only analysis or separate diff-rank rival",
+    "Local paper reserve does not establish pretraining or author independence",
+    "Unresolved pooled method comparison; descriptive ranks do not establish probability calibration"
+  ],
+  "new_model_calls": 0,
+  "original_roster_and_prompts_verified": true,
+  "raw_output_age_seconds": 4.973572015762329,
+  "receipts": {
+    "LP15-000-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 1268,
+      "calls": 180,
+      "manifest_sha256": "f09e66f1efc004b2ad92763d9ef54219645a00bb3674e90383a79d2f60e0cd50",
+      "terminal_sha256": "98dc27cae5734a4691f3a114844603843324f44e829e03bc8d36eac40d646920"
+    },
+    "LP15-001-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 1268,
+      "calls": 180,
+      "manifest_sha256": "73cf5c981105118248c2545ea6d4f4929654ce2ac78a4cb8b07c0793907cf882",
+      "terminal_sha256": "af3cb03459d958f53d227d016381a140390552b3cb1691d8231f8e08ebc08fc0"
+    },
+    "LP15-002-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 176,
+      "calls": 24,
+      "manifest_sha256": "16a1dd0b2407d49605b901726e34f6b9d6266c0f165a7703e22032b3a0b51b71",
+      "terminal_sha256": "063bd3bf41e8962a26cdcf9ac665e8890ed6409fcbae6361b60915daa6f9061a"
+    },
+    "LP15-summary-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 6,
+      "calls": 384,
+      "manifest_sha256": "c262c8afd8f5f54bdd45c4a03da202c5db3f927d821f144dd59e98781b9cde38",
+      "terminal_sha256": "b3f1851135a5abcd9159a131c0b9305c55faa7c1b6d726a981963dba8700c896"
+    }
+  },
+  "retained_incomplete_families": [
+    "LP07",
+    "LP10"
+  ],
+  "source_pins_verified": 476,
+  "summary": {
+    "aggregates": [
+      {
+        "attempt_weighted_loss": 0.442682625,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.55411590625,
+          "level": 0.95,
+          "low": 0.3267270625,
+          "mean": 0.44268262499999994,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.44268262499999994,
+        "clusters": 16,
+        "condition": "edit-change",
+        "infinite": 1,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.38808034375,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.50729771875,
+          "level": 0.95,
+          "low": 0.27119934375,
+          "mean": 0.38808034375,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.38808034375,
+        "clusters": 16,
+        "condition": "edit-context",
+        "infinite": 1,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.402579875,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.527334125,
+          "level": 0.95,
+          "low": 0.27633715625,
+          "mean": 0.402579875,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.402579875,
+        "clusters": 16,
+        "condition": "edit-pair",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.46414353124999996,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.6322012187499999,
+          "level": 0.95,
+          "low": 0.30198665625,
+          "mean": 0.46414353124999996,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.46414353124999996,
+        "clusters": 16,
+        "condition": "request-change",
+        "infinite": 4,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.39678790625,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.47770803124999994,
+          "level": 0.95,
+          "low": 0.30358796875,
+          "mean": 0.39678790625,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.39678790625,
+        "clusters": 16,
+        "condition": "request-context",
+        "infinite": 1,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.40333396875,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.4854980625,
+          "level": 0.95,
+          "low": 0.31417490625,
+          "mean": 0.40333396875,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.40333396875,
+        "clusters": 16,
+        "condition": "request-pair",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "account"
+      },
+      {
+        "attempt_weighted_loss": 0.49968409374999995,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.57076653125,
+          "level": 0.95,
+          "low": 0.45472528124999995,
+          "mean": 0.49968409374999995,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.49968409374999995,
+        "clusters": 16,
+        "condition": "edit-change",
+        "infinite": 1,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.4252065625,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.4920281875,
+          "level": 0.95,
+          "low": 0.33867015624999997,
+          "mean": 0.4252065625,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.4252065625,
+        "clusters": 16,
+        "condition": "edit-context",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.47810640624999995,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.4840360625,
+          "level": 0.95,
+          "low": 0.47108134374999994,
+          "mean": 0.47810640624999995,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.47810640624999995,
+        "clusters": 16,
+        "condition": "edit-pair",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.39458974999999996,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.47617109374999994,
+          "level": 0.95,
+          "low": 0.30584946874999996,
+          "mean": 0.39458974999999996,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.39458974999999996,
+        "clusters": 16,
+        "condition": "request-change",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.33308946875,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.42642621875,
+          "level": 0.95,
+          "low": 0.21725209374999999,
+          "mean": 0.33308946875,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.33308946875,
+        "clusters": 16,
+        "condition": "request-context",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "direct"
+      },
+      {
+        "attempt_weighted_loss": 0.40914940624999996,
+        "attempts": 32,
+        "cluster_interval": {
+          "high": 0.48497615624999996,
+          "level": 0.95,
+          "low": 0.32440965624999996,
+          "mean": 0.40914940624999996,
+          "n_clusters": 16
+        },
+        "cluster_weighted_excess": 0.40914940624999996,
+        "clusters": 16,
+        "condition": "request-pair",
+        "infinite": 0,
+        "invalid": 0,
+        "method": "direct"
+      }
+    ],
+    "calibration": {
+      "groups": [
+        {
+          "attempts": 192,
+          "bins": [
+            {
+              "confidence": 0.53,
+              "count": 5,
+              "expected_correct_support": 1.0,
+              "gap": -0.47,
+              "lower": 0.4,
+              "upper": 0.6
+            },
+            {
+              "confidence": 0.65,
+              "count": 2,
+              "expected_correct_support": 0.0,
+              "gap": 0.65,
+              "lower": 0.6,
+              "upper": 0.8
+            },
+            {
+              "confidence": 0.9739351351351351,
+              "count": 185,
+              "expected_correct_support": 0.5621621621621622,
+              "gap": 0.4117729729729729,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 0,
+          "label_count": 2,
+          "method": "account",
+          "score_components": {
+            "binned_reliability": 0.11906735653153153,
+            "binned_resolution": 0.0002674549549549547,
+            "uncertainty": 0.25,
+            "valid_only_loss": 0.41626804166666664,
+            "within_bin_remainder": 0.04746814009009004
+          }
+        },
+        {
+          "attempts": 192,
+          "bins": [
+            {
+              "confidence": 0.53,
+              "count": 5,
+              "expected_correct_support": 1.0,
+              "gap": -0.47,
+              "lower": 0.4,
+              "upper": 0.6
+            },
+            {
+              "confidence": 0.9769197860962566,
+              "count": 187,
+              "expected_correct_support": 0.5508021390374331,
+              "gap": 0.4261176470588235,
+              "lower": 0.8,
+              "upper": 1.0
+            }
+          ],
+          "invalid": 0,
+          "label_count": 2,
+          "method": "direct",
+          "score_components": {
+            "binned_reliability": 0.17920163090463456,
+            "binned_resolution": 0.000267379679144385,
+            "uncertainty": 0.25,
+            "valid_only_loss": 0.42330428124999997,
+            "within_bin_remainder": -0.005629969975490257
+          }
+        }
+      ],
+      "paired_ranking_coverage": {
+        "aggregate_ranks": "descriptive table; individual paper records remain local",
+        "attempted_pairs": 192,
+        "source_paper_clusters": 16,
+        "valid_pairs": 192
+      },
+      "scope": "LP03 zero-call analysis; invalid denominator retained, valid-only decomposition explicitly marked; no calibration fit"
+    },
+    "calls": 384,
+    "contrasts": {
+      "account_minus_direct": {
+        "direction": "left loss minus right loss; negative favors left",
+        "disposition": "UNRESOLVED",
+        "high": 0.052432468749999996,
+        "level": 0.95,
+        "low": -0.06875547916666666,
+        "margin": 0.02,
+        "mean": -0.007036239583333332,
+        "n_clusters": 16
+      }
+    },
+    "controls": {
+      "all_attempts": true,
+      "cluster_weighting": true,
+      "fixed_coverage_grid": true,
+      "whole_family": true
+    },
+    "coverage": [
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.4197861614583333,
+        "retained": 384,
+        "threshold": 0.0
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.4197861614583333,
+        "retained": 384,
+        "threshold": 0.25
+      },
+      {
+        "attempts": 384,
+        "coverage": 1.0,
+        "invalid": 0,
+        "mean_loss": 0.4197861614583333,
+        "retained": 384,
+        "threshold": 0.5
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.9739583333333334,
+        "invalid": 0,
+        "mean_loss": 0.4250879304812834,
+        "retained": 374,
+        "threshold": 0.6
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.96875,
+        "invalid": 0,
+        "mean_loss": 0.4251018440860215,
+        "retained": 372,
+        "threshold": 0.7
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.96875,
+        "invalid": 0,
+        "mean_loss": 0.4251018440860215,
+        "retained": 372,
+        "threshold": 0.8
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.9166666666666666,
+        "invalid": 0,
+        "mean_loss": 0.4439996761363636,
+        "retained": 352,
+        "threshold": 0.9
+      },
+      {
+        "attempts": 384,
+        "coverage": 0.0859375,
+        "invalid": 0,
+        "mean_loss": 0.24242424242424243,
+        "retained": 33,
+        "threshold": 1.0
+      }
+    ],
+    "decision_regret": [],
+    "family": "LP15",
+    "files": {
+      "ANALYSIS.json": "72f33c4067bcf6511f1270b1549566b55cff97ad36d9b1875e94c1a553af0678"
+    },
+    "kind": "scientific",
+    "main_calls": 384,
+    "multiplicity": "LP21 uses 97.5% intervals for its two primary contrasts; no p-values",
+    "scope": "Frozen source-cluster descriptive comparisons; supplied targets, restricted human exposure and native mechanism limits retained",
+    "status": "complete"
+  },
+  "verification_charge": {
+    "at": "2026-09-25T01:07:54.971338+00:00",
+    "cpu_seconds": 5.65625,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP15 complete family actual replay and independent scientific verification and ARIES annotation and presentation audit",
+    "status": "complete"
+  }
+}
