@@ -4,7 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
-Current continuation, September 24 at 20:59 PDT: independent reserved questioning
+Current continuation, September 24 at 21:06 PDT: independent reserved questioning
+histories progress in Gear 2. Two complete histories and another failed
+selection prefix/guard replay unchanged; original returns, bindings, costs and
+earlier failures remain. The whole comparison is incomplete and its complete-only
+consumer is unstarted. No repair or retry. Native ownership, output freshness
+and monitoring verify. [Continuation inspection](LOCAL_PROGRAM_RESERVED_QUERY_033_035.json).
+Health remains September 24 at 22:52:17 PDT; cutoff and packet dates remain.
+
+Earlier continuation, September 24 at 20:59 PDT: independent reserved questioning
 histories progress in Gear 2. Three complete histories and another failed
 selection prefix/guard replay unchanged; original returns, bindings, costs and
 earlier failures remain. The whole comparison is incomplete and its complete-only

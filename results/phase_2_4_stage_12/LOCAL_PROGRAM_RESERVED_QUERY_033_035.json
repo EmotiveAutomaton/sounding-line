@@ -1,0 +1,80 @@
+{
+  "at": "2026-09-25T04:06:44.301591+00:00",
+  "family": "LP21-query",
+  "earlier_failure_terminal_unchanged": true,
+  "earlier_failures_verified": {
+    "LP21-query-004-a2": "9c5f068a90ee7c18dc6db14bc54c33e212a177b8d20a11014d87031d174830bd",
+    "LP21-query-015-a2": "24aab3ae8c775f09839eeaa527faa0039bf71be9bb4817b7276ca7c35ef41873",
+    "LP21-query-017-a2": "4090d2e8bb40d32b26bbc5b58edea8deae4507a9bf1b949ca73072491ba3a2bf",
+    "LP21-query-020-a2": "437603763dc1e07cb5fc7e030a9e41afcc1dddb6373f17a02772f809822c5919",
+    "LP21-query-031-a2": "30391bfce1c3c4760059b28df7a774ea88f6e80a77303b93708d5e9e772c27a2"
+  },
+  "whole_family_incomplete": true,
+  "complete_only_consumer_unstarted": true,
+  "receipts": {
+    "LP21-query-033-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "e6252d80e7a5cdbb0b785b9d59804433d8030592c9d531b01d3fd6c9f2e60a75",
+      "terminal_sha256": "91129be11afd168fb199126ea2d128427abbf8552a37951aadc36aa5d0d487b5"
+    },
+    "LP21-query-035-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "cbebc9fdddc12b4a951d5246c7ce7ca77b9066571c4978ce0e01a6d8db1688e6",
+      "terminal_sha256": "ba2e3b8a4fc94aa830166a38f988b6c497756b4d9d6feb2c8e001f3291cad868"
+    }
+  },
+  "all_json_files_unchanged": 324,
+  "calls": 44,
+  "source_pins_verified": 476,
+  "active_job": "LP21-query-037-a2",
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "verification_charge": {
+    "at": "2026-09-25T04:06:44.300797+00:00",
+    "cpu_seconds": 0.359375,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP21 query 033 through 035 complete and failed producer replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "gear": 2,
+  "landing": "OPS-S12-LP21-QUERY-033-035",
+  "scope": "Operational replay only; incomplete whole replication, no scientific comparison.",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "failures": {
+    "LP21-query-034-a2": {
+      "job": "LP21-query-034-a2",
+      "expected_calls": 22,
+      "returned_calls": 4,
+      "unstarted_calls": 18,
+      "all_json_files_unchanged": 34,
+      "all_bindings_verified": true,
+      "actual_prefix_and_guard_replay": true,
+      "reason": "unavailable earlier question selection; no hidden fallback",
+      "failed_native_exited": true,
+      "manifest_sha256": "a4441bf00266ab00132954a14f7c49b81daa62bea531f1813675625cb847be58",
+      "terminal_sha256": "03505584a6f67687e9b720c86ebbfbe268dee19e94cf246b0d266d2e3fdd4b8a",
+      "whole_family_incomplete": true,
+      "complete_only_consumer_blocked": true,
+      "invalid_returns": 1,
+      "invalid_selection": {
+        "policy": "neutral",
+        "step": 2,
+        "parse_error": "invalid finite probabilities"
+      },
+      "retained_charges": {
+        "cpu_seconds": 22.607985999900848,
+        "gpu_seconds": 26.439408399979584,
+        "host_cpu_seconds": 52.87881679995917,
+        "diagnostic_gpu_seconds": 0.0
+      }
+    }
+  },
+  "total_returned_calls_replayed": 48,
+  "total_original_json_files_unchanged": 358
+}
