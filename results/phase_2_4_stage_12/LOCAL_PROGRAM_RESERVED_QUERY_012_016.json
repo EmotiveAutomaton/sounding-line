@@ -1,0 +1,84 @@
+{
+  "at": "2026-09-25T03:24:18.341760+00:00",
+  "family": "LP21-query",
+  "earlier_failure_terminal_unchanged": true,
+  "whole_family_incomplete": true,
+  "complete_only_consumer_unstarted": true,
+  "receipts": {
+    "LP21-query-012-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "eff234fb26eee22068ecb0f1f445b6d7291403252fdba867af535a22cb7327c3",
+      "terminal_sha256": "5c08eb4d9a31c81f10d4dd1ed128e9ca14f218c80c369c1b043caf8edd395ed0"
+    },
+    "LP21-query-013-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "b65594b414ddac553815d51253a45cd86b68f8a18def8513cb774c4d37ee0b5a",
+      "terminal_sha256": "0cf535926d57850e123b02f5f1a61854aead2c1d7d850bcf1dc90adc6d12130b"
+    },
+    "LP21-query-014-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "10cb403523468e50446ebc8ed355557d62226b34c7e965c30b61a8118715b306",
+      "terminal_sha256": "af9ff4cc67a2c716053f4c5e223ad7f502fbff4696d5c25a4689b8eb3c30eaef"
+    },
+    "LP21-query-016-a2": {
+      "actual_handler_replay": true,
+      "all_json_files_unchanged": 162,
+      "calls": 22,
+      "manifest_sha256": "9a778a7bb880f9736bb4e3f72e7c703e12628b240ee74772dfdf5076affe4f79",
+      "terminal_sha256": "aa909765e180e5c036864bdc6eed19bcd63b82d93577ee51cc5ae97043327b1f"
+    }
+  },
+  "all_json_files_unchanged": 648,
+  "calls": 88,
+  "source_pins_verified": 476,
+  "active_job": "LP21-query-018-a2",
+  "health_due_utc": "2026-09-25T05:52:17.723475+00:00",
+  "verification_charge": {
+    "at": "2026-09-25T03:24:18.340629+00:00",
+    "cpu_seconds": 0.65625,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "LP21 query 012 through 016 complete and failed producer replay",
+    "status": "complete"
+  },
+  "new_model_calls": 0,
+  "gear": 2,
+  "landing": "OPS-S12-LP21-QUERY-012-016",
+  "scope": "Operational replay only; incomplete whole replication, no scientific comparison.",
+  "native_continuation_and_loaded_monitoring_verified": true,
+  "failure": {
+    "job": "LP21-query-015-a2",
+    "expected_calls": 22,
+    "returned_calls": 6,
+    "unstarted_calls": 16,
+    "all_json_files_unchanged": 48,
+    "all_bindings_verified": true,
+    "actual_prefix_and_guard_replay": true,
+    "reason": "unavailable earlier question selection; no hidden fallback",
+    "failed_native_exited": true,
+    "manifest_sha256": "0106c109613b1c8e78f79665295a0aa2889a1c805dc15badc3fc1ff1dcfe1b23",
+    "terminal_sha256": "24aab3ae8c775f09839eeaa527faa0039bf71be9bb4817b7276ca7c35ef41873",
+    "whole_family_incomplete": true,
+    "complete_only_consumer_blocked": true,
+    "invalid_selection": {
+      "policy": "neutral",
+      "step": 3,
+      "parse_error": "invalid finite probabilities"
+    },
+    "retained_charges": {
+      "cpu_seconds": 32.44972939835861,
+      "gpu_seconds": 41.55714290001197,
+      "host_cpu_seconds": 83.11428580002394,
+      "diagnostic_gpu_seconds": 0.0
+    }
+  },
+  "total_returned_calls_replayed": 94,
+  "total_original_json_files_unchanged": 696
+}
