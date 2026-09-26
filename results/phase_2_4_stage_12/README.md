@@ -4,6 +4,14 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Four-hour inspection - September 26, 10:39 PDT
+
+The submitted queue remains drained with unchanged evidence and no test worker.
+Native identities, released locks, frozen sources, resource limits and actual
+independent health delivery verify. No recovery or restart; the expired allocation
+and all existing deficits remain for the original final packet.
+[Health inspection](LOCAL_PROGRAM_HEALTH_20260926_1039.json).
+
 ## Four-hour inspection - September 26, 06:34 PDT
 
 The submitted queue remains drained with unchanged records and no test worker.
