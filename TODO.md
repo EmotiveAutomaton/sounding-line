@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-2223: submitted queue remains drained; local allocation expired at 20:50 PDT. Time-admission guard, retained records and actual health delivery verified; no restart.
+
 - [x] OPS-S12-HEALTH-1817: stopped queue, retained records and actual independent wake inspected; no recovery or restart. Preserve the original cutoff and pending follow-on choice; the full declared pass exceeds remaining wall time.
 
 - [x] OPS-S12-HEALTH-1407: stopped queue and unchanged records inspected; actual idle delivery after the wake-path repair verified. No generation restart; health ACK rearms four hours later.
@@ -9,7 +11,7 @@
 - [x] OPS-S12-HEALTH-0204: native health, resource admission, completed-report coverage and the full Stage 12 validity suite pass. Documented the delayed health event; rearm only after full write-through and ACK.
 - [x] OPS-S12-LP21-ROSTER-0204: questioning roster reconciled, including its final failure; revision producers 000-013 replayed. Questioning comparison remains incomplete with nine failed histories retained.
 - [x] L450 / OPS-S12-DRAINED-0925: final reserved revision and complete queue exit landed; immutable result inventories verified; stale wake executable repaired; interim packet prepared.
-- [ ] LP16: seven admitted producers and one summary remain unrun. Keep generation stopped pending the curator's closeout-versus-follow-on choice; any launch needs fresh resource checks and the original cutoff.
+- [ ] LP16 final-packet deficit: seven producers and one summary remain unrun. The local allocation expired September 25 at 20:50 PDT; all generation cards now fail time admission. Preserve the 1248 unrun calls; any future extension requires separate curator authorization.
 - [ ] Preserve 14 failed histories, 23 blocked deferred jobs, source-unavailable branches and missing analyses in the Monday final packet. No automatic retry or new research.
 
 - [x] OPS-S12-LP21-QUERY-045-047: three complete histories and all saved calls replay unchanged; full internal operational write-through complete. Earlier failures remain intact; continue independent frozen work with the whole-family comparison incomplete.

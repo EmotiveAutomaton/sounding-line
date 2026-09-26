@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-2223: expired-allocation guard rejects all unsubmitted follow-on generation cards. Retained records, released locks, native monitoring and actual health delivery verify; GPU availability does not authorize an extension. No restart or repair. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_2223.json).
+
 OPS-S12-HEALTH-1817: retained records, released locks, native identities, resources and actual health delivery verify. Cold-GPU admission fails; the declared full follow-on duration exceeds the remaining window. No restart or repair. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1817.json).
 
 OPS-S12-HEALTH-1407: stopped queue, retained terminal/output bindings, source pins, resources and monitoring identities verify. The repaired watcher now has actual first-attempt idle delivery evidence; no restart or further repair. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1407.json).

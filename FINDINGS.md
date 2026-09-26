@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-2223 - local allocation expired with submitted queue drained
+
+**Hypothesis.** The stopped queue preserves its evidence and respects the expired local allocation while independent health supervision continues.
+
+**METHOD.** Inspect native coordinator/final-worker exits and watcher/checkpoint identities, released locks, completed/failed terminals and output hashes, frozen sources, unsubmitted follow-on cards, current admission, GPU/host resources and power limits, and the health event's actual delivery. Compare current time with the unchanged local cutoff. This is operational inspection, not a scientific comparison.
+
+The table counts retained jobs and checks. Six earlier local completions are outside the current plan; they do not increase independent scientific sample size.
+
+| Inspected state | Count |
+|---|---:|
+| Current-plan completed / failed / deferred | 281 / 14 / 31 |
+| Active scientific workers | 0 |
+| Completed local terminal records unchanged | 287 |
+| Output bindings verified | 1414 |
+| Failed terminal records unchanged | 14 |
+| New completion or failure artifacts | 0 |
+
+**Found.** The submitted queue remains drained with all inspected worker identities exited and locks released. All 476 source pins, completed output bindings and retained failed terminals verify unchanged. The health event reached the idle owner on its first attempt, 50.0 seconds after its deadline. Watcher loaded sources and native identity, fresh scanning, and the original checkpoint helper verify. No recovery is needed.
+
+The separate local allocation ended September 25 at 20:50 PDT. Every unsubmitted LP16 generation card now fails time admission with the protected-reporting-window guard. Seven generation blocks and one summary remain unrun, preserving the 1248-call deficit. The cold-GPU snapshot now passes capacity (7779 MiB free against 7768 MiB required); resource availability does not extend the expired allocation. Host memory, disk and CPU power limits were inspected. No inference, retry, application termination or limit change occurred.
+
+**Means.** Keep generation stopped. The former closeout-versus-follow-on choice can no longer launch work within the expired allocation; any extension requires a separate curator instruction. Preserve all failed, deferred, void and unavailable branches in the original final packet due September 28 at 06:17 PDT. Earlier completion and the cutoff do not make the approved program scientifically complete. No tests harvested, new research, delegation, paid use or gear change. This full write-through precedes ACK and the next independent four-hour check.
+
+**Curator roll-up.** Theory group: instrument validity. Question: does closure preserve evidence and enforce the allocated boundary? Outcome: **Infrastructure**. Result: the local allocation expired with submitted work drained and unrun work retained as a deficit. Project meaning: time closure and scientific completion remain distinct. Next engineering obligation: preserve evidence and deliver the original final packet. Public claim: unchanged. Curator decision required: No for current closure; a future extension would require separate authorization. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_2223.json).
+
+---
+
 ### OPS-S12-HEALTH-1817 - stopped queue and independent supervision remain intact
 
 **Hypothesis.** The drained queue preserves all recorded results while independent health supervision remains operational.

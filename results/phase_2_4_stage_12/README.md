@@ -4,6 +4,16 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Local allocation expired - September 25, 22:23 PDT
+
+The submitted queue remains drained with unchanged records and no scientific
+worker. The separate local allocation ended at 20:50 PDT; time admission now
+rejects all seven unrun LP16 producers. Their summary and the 1248-call deficit
+remain. Current GPU availability does not extend the allocation. No restart or
+repair. Actual health delivery and monitoring freshness verify; original final
+reporting remains due September 28 at 06:17 PDT.
+[Health inspection](LOCAL_PROGRAM_HEALTH_20260925_2223.json).
+
 ## Four-hour inspection - September 25, 18:17 PDT
 
 The submitted queue remains drained with unchanged evidence and no scientific

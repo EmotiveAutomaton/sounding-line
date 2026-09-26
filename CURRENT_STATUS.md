@@ -1,5 +1,19 @@
 # Current status
 
+## Local allocation expired - September 25, 22:23 PDT
+
+OPS-S12-HEALTH-2223 verifies the submitted queue remains drained: zero scientific
+workers, released locks and unchanged completed/failed records and source pins.
+The local allocation ended at 20:50 PDT. All seven unsubmitted LP16 generation
+cards now fail the time-admission guard; their summary remains unrun. The
+1248-call deficit and other blocked branches remain explicit. GPU capacity
+currently passes, but does not extend the allocation. Generation stays stopped;
+the earlier follow-on choice now requires a separately authorized extension.
+Watcher/checkpoint identities, freshness and actual idle health delivery verify.
+No recovery or restart. ACK follows full write-through and rearms four hours
+later. The original final packet remains due September 28 at 06:17 PDT.
+[Inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_2223.json).
+
 ## Submitted queue drained - September 25, 09:56 PDT
 
 No test worker is running. The current 326-job queue exited at 02:45:13 PDT:
