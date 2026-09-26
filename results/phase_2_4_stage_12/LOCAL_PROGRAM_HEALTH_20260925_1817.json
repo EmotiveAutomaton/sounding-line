@@ -1,0 +1,83 @@
+{
+  "actual_idle_delivery_verified": true,
+  "at": "2026-09-26T01:21:00.499039+00:00",
+  "capacity": {
+    "additional_required_MiB": 7768,
+    "capacity_mode": "cold-reservation",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "insufficient actual free GPU memory; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-26T01:21:00.107397+00:00",
+      "free_MiB": 7701.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 12.29,
+      "reserved_MiB": 285.0,
+      "temperature_C": 39.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 4297.0,
+      "utilization_percent": 13.0
+    }
+  },
+  "charges": {
+    "cpu_seconds": 94137.17000180669,
+    "diagnostic_gpu_seconds": 3752.675323300413,
+    "gpu_seconds": 103105.51722900057,
+    "host_cpu_seconds": 201361.9354600011
+  },
+  "checkpoint_native_and_freshness_verified": true,
+  "complete_terminals_verified": 287,
+  "counts": {
+    "DEFERRED": 31,
+    "DONE": 281,
+    "FAILED (exit 1)": 14
+  },
+  "delivery_after_due_seconds": 20.728219747543335,
+  "delivery_attempts": 1,
+  "failed_terminals_verified": 14,
+  "follow_on_prerequisites_and_budget_admitted": true,
+  "follow_on_timing": {
+    "at": "2026-09-26T01:22:20.844116+00:00",
+    "cutoff": "2026-09-26T03:50:00+00:00",
+    "declared_sequential_wall_seconds": 60420,
+    "launch_authorized_by_this_wake": false,
+    "remaining_seconds": 8859.155856
+  },
+  "follow_on_unstarted": true,
+  "free_disk_GiB": 826.1782493591309,
+  "free_host_GiB": 55.146488189697266,
+  "generation_stopped": true,
+  "health_ack_rearms_four_hours": true,
+  "landing": "OPS-S12-HEALTH-1817",
+  "last_workers_exited": true,
+  "latest_completion": "results\\phase_2_4_stage_12\\raw\\local-program-20260923-v2\\jobs\\LP21-revision-summary-a2\\COMPLETE.json",
+  "latest_completion_mtime": 1790329513.4206302,
+  "locks_released": true,
+  "new_calls": 0,
+  "new_terminal_artifacts": 0,
+  "no_new_research_or_gear_or_spend": true,
+  "output_checks": 1414,
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "queue_exited": true,
+  "recovery": "No recovery needed; idle delivery remains verified. Preserve stopped generation and the original allocation cutoff pending owner direction.",
+  "scientific_verdict": false,
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-26T01:21:00.498020+00:00",
+    "cpu_seconds": 51.029146001674235,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Four-hour stopped queue health and continuing idle-delivery verification",
+    "reporting_validation_allowance_seconds": 30,
+    "status": "complete"
+  },
+  "watcher_native_and_loaded_sources_verified": true
+}

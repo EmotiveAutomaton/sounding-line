@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-1817 - stopped queue and independent supervision remain intact
+
+**Hypothesis.** The drained queue preserves all recorded results while independent health supervision remains operational.
+
+**METHOD.** Recheck native coordinator/final-worker exits, released kernel/native/GPU locks, frozen sources, completion/failure inventories and output hashes, unsubmitted follow-on prerequisites and admission, actual GPU/host resources, power limits, watcher/checkpoint identities and freshness, and actual delivery of this health event. Inspect remaining declared follow-on duration against the unchanged cutoff. This is an operational inspection with no scientific comparison.
+
+The table counts jobs and integrity checks; the six earlier local completions lie outside the current plan and are not additional independent observations.
+
+| Inspected state | Count |
+|---|---:|
+| Current-plan completed / failed / deferred | 281 / 14 / 31 |
+| Active scientific workers | 0 |
+| Completed local terminal records unchanged | 287 |
+| Output bindings verified | 1414 |
+| Failed terminal records unchanged | 14 |
+| New completion or failure artifacts | 0 |
+
+**Found.** The submitted queue remains drained, all inspected worker identities remain exited, locks are released and all 476 source pins verify. Completed and failed records remain unchanged. The watcher delivered this health notice on its first attempt, 20.7 seconds after its independent deadline; its native identity, loaded sources and fresh scanning verify, as does the original checkpoint helper. No monitoring recovery is required.
+
+Seven LP16 generation blocks and their summary remain unsubmitted. Per-card prerequisites and time/budget admission pass at inspection, but this does not establish that the entire pass can finish: its declared sequential wall ceiling is 60,420 seconds, exceeding the time left before September 25 at 20:50 PDT. Current cold-GPU admission also fails (7701 MiB free against 7768 MiB required). Host memory, disk and existing CPU power limits were checked. No application was closed, threshold relaxed, failed job retried or generation started.
+
+**Means.** Preserve the stopped state pending the earlier closeout-versus-follow-on choice, with fresh whole-unit admission required for any future authorized launch. No automatic extension follows the cutoff. Other deferred work keeps its failed-admission and incomplete-family blockers. Original reporting obligations and scientific boundaries remain unchanged. No tests harvested, new research, delegation, paid use or gear change. ACK follows this full operational write-through and rearms the independent health check four hours later.
+
+**Curator roll-up.** Theory group: instrument validity. Question: does the stopped queue retain evidence and receive supervision? Outcome: **Infrastructure**. Result: records and actual health delivery remain intact without a restart. Project meaning: the submitted queue is drained while the broader program retains its documented deficits. Next engineering obligation: preserve the cutoff, blocked-work record and original final packet. Public claim: unchanged. Curator decision required: No new decision; the earlier follow-on choice remains pending. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1817.json).
+
+---
+
 ### OPS-S12-HEALTH-1407 - stopped queue preserved and repaired idle delivery verified
 
 **Hypothesis.** The drained queue remains intentionally stopped with intact evidence, and the repaired watcher can deliver the independent four-hour health notice to the idle owner.

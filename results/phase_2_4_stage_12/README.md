@@ -4,6 +4,15 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Four-hour inspection - September 25, 18:17 PDT
+
+The submitted queue remains drained with unchanged evidence and no scientific
+worker. Actual health delivery and native monitoring freshness verify. No restart
+or repair was needed. The follow-on remains unsubmitted, its declared full-pass
+duration exceeds the remaining window, and cold-GPU admission currently fails.
+The original cutoff, pending curator choice and final packet obligations remain.
+[Health inspection](LOCAL_PROGRAM_HEALTH_20260925_1817.json).
+
 ## Four-hour inspection - September 25, 14:07 PDT
 
 The queue remains stopped with zero scientific workers, unchanged completed and

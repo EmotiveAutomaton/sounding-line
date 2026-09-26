@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-1817: retained records, released locks, native identities, resources and actual health delivery verify. Cold-GPU admission fails; the declared full follow-on duration exceeds the remaining window. No restart or repair. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1817.json).
+
 OPS-S12-HEALTH-1407: stopped queue, retained terminal/output bindings, source pins, resources and monitoring identities verify. The repaired watcher now has actual first-attempt idle delivery evidence; no restart or further repair. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1407.json).
 
 OPS-S12-DRAINED-0925 / L450: the submitted queue exited with locks released and no worker active. Current-plan and earlier-week output inventories reconcile. The existing canonical revision correction passes independent bootstrap, two-process and six regression checks; original interval retained as VOID for exact replay. Only the private stale Codex executable path was repaired; native owner queue access succeeds, with future idle delivery unproven. [Queue audit](../results/phase_2_4_stage_12/LOCAL_PROGRAM_DRAINED_20260925.json), [revision receipt](../results/phase_2_4_stage_12/LOCAL_PROGRAM_RESERVED_REVISION_COMPLETE.json).

@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-1817: stopped queue, retained records and actual independent wake inspected; no recovery or restart. Preserve the original cutoff and pending follow-on choice; the full declared pass exceeds remaining wall time.
+
 - [x] OPS-S12-HEALTH-1407: stopped queue and unchanged records inspected; actual idle delivery after the wake-path repair verified. No generation restart; health ACK rearms four hours later.
 
 - [x] OPS-S12-HEALTH-0204: native health, resource admission, completed-report coverage and the full Stage 12 validity suite pass. Documented the delayed health event; rearm only after full write-through and ACK.

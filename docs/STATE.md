@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## Four-hour stopped-queue inspection - September 25, 18:17 PDT
+
+OPS-S12-HEALTH-1817 verifies zero scientific workers, released locks and unchanged
+terminal/output bindings and frozen sources. Watcher and original checkpoint
+identities/freshness verify; the scheduled health notice was actually delivered.
+No repair or restart. LP16 remains unsubmitted pending the earlier choice;
+individual admission does not guarantee the full pass fits the remaining window.
+Its declared sequential ceiling exceeds the time before the unchanged 20:50 PDT
+cutoff, and the inspected cold-GPU admission fails. Other blockers remain.
+ACK follows full write-through and rearms four hours later; the original final
+packet obligation remains unchanged.
+[Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260925_1817.json).
+
 ## Four-hour stopped-queue inspection - September 25, 14:07 PDT
 
 OPS-S12-HEALTH-1407 verifies zero scientific workers, released locks, unchanged
