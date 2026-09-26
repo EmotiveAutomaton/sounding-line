@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-0926-1446: unchanged stopped queue, retained records, resource limits and actual independent health delivery inspected. No recovery or new work; expired allocation and original final-packet deficits retained.
+
 - [x] OPS-S12-HEALTH-0926-1039: stopped queue, unchanged evidence, resource limits and actual independent health delivery verified. No recovery or new work; expired allocation and original final-packet deficits retained.
 
 - [x] OPS-S12-HEALTH-0926-0634: unchanged stopped queue, retained evidence, resource limits and actual independent health delivery inspected. No recovery or new work; expired allocation and final-packet deficits retained.

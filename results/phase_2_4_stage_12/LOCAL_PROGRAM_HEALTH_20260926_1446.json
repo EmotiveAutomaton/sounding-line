@@ -1,0 +1,108 @@
+{
+  "actual_idle_delivery_verified": true,
+  "at": "2026-09-26T21:49:01.667744+00:00",
+  "capacity": {
+    "additional_required_MiB": 7768,
+    "capacity_mode": "cold-reservation",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": false,
+    "reason": "insufficient actual free GPU memory; do not close other applications",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-26T21:49:01.236904+00:00",
+      "free_MiB": 7724.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 22.9,
+      "reserved_MiB": 285.0,
+      "temperature_C": 43.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 4274.0,
+      "utilization_percent": 34.0
+    }
+  },
+  "charges": {
+    "cpu_seconds": 94306.72424480412,
+    "diagnostic_gpu_seconds": 3752.675323300413,
+    "gpu_seconds": 103105.51722900057,
+    "host_cpu_seconds": 201361.9354600011
+  },
+  "checkpoint_native_and_freshness_verified": true,
+  "complete_terminals_verified": 287,
+  "counts": {
+    "DEFERRED": 31,
+    "DONE": 281,
+    "FAILED (exit 1)": 14
+  },
+  "delivery_after_due_seconds": 60.08768582344055,
+  "delivery_attempts": 1,
+  "failed_terminals_verified": 14,
+  "follow_on_card_admission": {
+    "LP16-000-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-001-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-002-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-003-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-004-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-005-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    },
+    "LP16-006-a2": {
+      "admitted": false,
+      "reason": "protected reporting window reached"
+    }
+  },
+  "follow_on_unstarted": true,
+  "free_disk_GiB": 826.1708717346191,
+  "free_host_GiB": 54.513458251953125,
+  "generation_stopped": true,
+  "health_ack_rearms_four_hours": true,
+  "landing": "OPS-S12-HEALTH-0926-1446",
+  "last_workers_exited": true,
+  "latest_completion": "results\\phase_2_4_stage_12\\raw\\local-program-20260923-v2\\jobs\\LP21-revision-summary-a2\\COMPLETE.json",
+  "latest_completion_mtime": 1790329513.4206302,
+  "local_allocation_expired": true,
+  "local_cutoff": "2026-09-26T03:50:00+00:00",
+  "locks_released": true,
+  "new_calls": 0,
+  "new_terminal_artifacts": 0,
+  "no_new_research_or_gear_or_spend": true,
+  "original_final_review": "2026-09-28T13:17:27+00:00",
+  "output_checks": 1414,
+  "power_limits": {
+    "PERFBOOSTMODE": 0,
+    "PROCTHROTTLEMAX": 90
+  },
+  "queue_exited": true,
+  "recovery": "No recovery needed; idle delivery remains verified. Local allocation cutoff has passed; preserve unrun work as a deficit. No automatic restart or extension.",
+  "scientific_verdict": false,
+  "source_pins_verified": 476,
+  "verification_charge": {
+    "at": "2026-09-26T21:49:01.666644+00:00",
+    "cpu_seconds": 34.27965740021318,
+    "diagnostic_gpu_seconds": 0,
+    "gpu_seconds": 0,
+    "host_cpu_seconds": 0,
+    "kind": "Four-hour stopped queue health and continuing idle-delivery verification",
+    "reporting_validation_allowance_seconds": 30,
+    "status": "complete"
+  },
+  "watcher_native_and_loaded_sources_verified": true
+}
