@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Four-hour inspection - September 26, 06:34 PDT
+
+OPS-S12-HEALTH-0926-0634 verifies the unchanged drained queue, released locks,
+retained output/failure bindings, frozen sources and actual health delivery.
+Native watcher/checkpoint identities and freshness pass; no recovery or restart.
+The expired local window still blocks LP16 generation. All existing scientific
+deficits and the original September 28 at 06:17 PDT final packet remain.
+Full write-through precedes ACK and the next independent four-hour check.
+[Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_0634.json).
+
 ## Four-hour inspection - September 26, 02:28 PDT
 
 OPS-S12-HEALTH-0926-0228 verifies the unchanged drained queue, released locks,

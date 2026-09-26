@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S12-HEALTH-0926-0634 - retained queue evidence and monitoring verify
+
+**Hypothesis.** The submitted queue remains drained with intact evidence and working supervision after the local allocation expires.
+
+**METHOD.** Inspect native coordinator/final-worker exits and current process inventory; released kernel/native/GPU locks; completed/failed terminal and output hashes; frozen sources; remaining card admission; GPU, host memory, disk and CPU limits; watcher/checkpoint native identities, loaded sources, freshness and actual health-event delivery. No scientific comparison or inference was run.
+
+The table counts jobs and integrity bindings. Six earlier completed local jobs are outside the current plan and add no independent scientific observations.
+
+| Inspection | Result |
+|---|---:|
+| Current-plan completed / failed / deferred | 281 / 14 / 31 |
+| Active scientific workers / new terminal artifacts | 0 / 0 |
+| Unchanged completed / failed local records | 287 / 14 |
+| Verified output bindings / source pins | 1414 / 476 |
+
+**Found.** The queue and retained records remain unchanged, final worker identities remain exited and locks are released. The watcher delivered this notice on its first attempt, 30.7 seconds after its independent deadline. Loaded source identities, fresh scans and the original checkpoint helper verify. No recovery is needed. All seven unrun LP16 generation cards remain blocked by the expired-window guard; their summary remains unrun. Current GPU capacity is below cold admission (7650 MiB free against 7768 MiB required); host memory, disk and existing power limits were also inspected. No application, resource limit or scientific record changed.
+
+**Means.** Preserve stopped generation, the expired allocation and all recorded failed, deferred, void and unavailable branches. The 1248-call LP16 deficit remains for the original final packet due September 28 at 06:17 PDT. No tests harvested, new research, paid use, delegation or gear change. Full write-through precedes ACK, which rearms the next independent check four hours later.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do retained records and independent supervision remain intact? Outcome: **Infrastructure**. Result: the stopped queue and its evidence verify without recovery. Project meaning: operational closure preserves the scientific deficits. Next engineering obligation: maintain supervision and deliver the original final packet. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_0634.json).
+
+---
+
 ### OPS-S12-HEALTH-0926-0228 - stopped queue retains evidence and supervision
 
 **Hypothesis.** Recorded results remain intact and the stopped queue receives independent supervision after its local allocation expires.
