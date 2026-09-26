@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Four-hour inspection - September 26, 02:28 PDT
+
+OPS-S12-HEALTH-0926-0228 verifies the unchanged drained queue, released locks,
+retained completed/failed evidence, frozen sources and actual health delivery.
+Native watcher/checkpoint identities and freshness pass. No recovery or restart.
+The expired local window still rejects LP16 generation; all existing deficits
+remain. The original final packet is due September 28 at 06:17 PDT. ACK follows
+full write-through and rearms the independent check four hours later.
+[Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_0228.json).
+
 ## Local allocation expired - September 25, 22:23 PDT
 
 OPS-S12-HEALTH-2223 verifies the submitted queue remains drained: zero scientific

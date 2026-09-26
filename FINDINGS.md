@@ -5,7 +5,30 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-25.**
+**Last updated: 2026-09-26.**
+
+---
+
+### OPS-S12-HEALTH-0926-0228 - stopped queue retains evidence and supervision
+
+**Hypothesis.** Recorded results remain intact and the stopped queue receives independent supervision after its local allocation expires.
+
+**METHOD.** Recheck native worker/coordinator exits, released locks, completed and failed terminal/output hashes, frozen sources, remaining card admission, GPU/host resources and power limits, watcher/checkpoint identities and freshness, and actual health-event delivery. No scientific comparison or inference was run.
+
+The table counts retained jobs and verified bindings, not independent observations. Completed local records include six earlier jobs outside the current plan.
+
+| Inspection | Result |
+|---|---:|
+| Current-plan completed / failed / deferred | 281 / 14 / 31 |
+| Active scientific workers / new terminal artifacts | 0 / 0 |
+| Unchanged completed / failed local records | 287 / 14 |
+| Verified output bindings / source pins | 1414 / 476 |
+
+**Found.** Records remain unchanged, worker identities remain exited and locks remain released. The watcher delivered this event on its first attempt, 40.7 seconds after the independent deadline. Loaded sources, fresh scanning and the original checkpoint helper verify. The private native inventory confirms only the owned monitoring helpers and model server remain. No recovery is needed. All seven unrun LP16 generation cards remain rejected by the expired-window guard; their summary remains unrun. Current GPU capacity also fails (7170 MiB free against 7768 MiB required). Host memory, disk and power limits were checked; no application or limit was changed.
+
+**Means.** Preserve stopped generation, the expired allocation, all failed/deferred/void boundaries and the original final packet due September 28 at 06:17 PDT. The unrun 1248-call LP16 deficit remains. No tests harvested, new research, paid use, delegation or gear change. Full write-through precedes ACK, which rearms the independent check four hours later.
+
+**Curator roll-up.** Theory group: instrument validity. Question: are retained results and supervision intact after the allocation ends? Outcome: **Infrastructure**. Result: evidence and health delivery remain intact without a restart. Project meaning: closure remains operational, with scientific deficits preserved. Next engineering obligation: maintain supervision and deliver the original final packet. Public claim: unchanged. Curator decision required: No. Detail: [health inspection](results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_0228.json).
 
 ---
 

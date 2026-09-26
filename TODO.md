@@ -2,6 +2,8 @@
 
 ## Extensive local research program - approved September 23
 
+- [x] OPS-S12-HEALTH-0926-0228: stopped queue, retained records, expired-window guard and actual health delivery verified. No new work or recovery; final-packet deficits retained.
+
 - [x] OPS-S12-HEALTH-2223: submitted queue remains drained; local allocation expired at 20:50 PDT. Time-admission guard, retained records and actual health delivery verified; no restart.
 
 - [x] OPS-S12-HEALTH-1817: stopped queue, retained records and actual independent wake inspected; no recovery or restart. Preserve the original cutoff and pending follow-on choice; the full declared pass exceeds remaining wall time.
