@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-1644 - calibration and development producer integrity
+
+**Hypothesis.** Completed context calibration and contribution development blocks retain every declared input and treatment, including unavailable memory, while the frozen queue continues in Gear 1.
+
+**METHOD.** Verify source, input, manifest and output hashes and admitted prerequisites. Replay all saved scores, the full contribution producer, the complete treatment census, memory source selection, omitted-candidate truth and likelihood normalization from saved traces. Check the actual native coordinator and successor identity, below-normal priority, output freshness and watcher delivery. This pass makes no new neural calls.
+
+The table records original execution coverage and cost. Prediction records repeat input episodes across declared views and treatments; they are not independent observations or scientific performance estimates.
+
+| Completed block | Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|---|
+| Context calibration 001 | 4 | 80 | 72 / 8 | 74 | 1173.752 | 1095.234 |
+| Contribution development 000 | 9 | 261 | 261 / 0 | 2 | 92.098 | 84.406 |
+
+**Found.** All 353 distinct frozen source bindings and all input/output, census and replay checks pass. Context probabilities reproduce from the saved candidate likelihoods and match the admitted CPU model identity. The independent-memory treatment retains its unavailable records because the training set has one independent component. Contribution predictions reproduce byte for byte. These are calibration/development producers, not a reserved comparison or evidence for goal coupling; historically exposed sources and missing independent goal truth remain explicit. The successful inspection used 93.656 CPU seconds. An earlier inspection reached a newly dispatched successor before its first progress file existed; that inspection error is retained privately and its separate CPU cost was unmetered. The worker was not restarted, and fresh progress now verifies.
+
+At 16:48 PDT the same native coordinator and context development worker are alive under Gear 1. The watcher has no current error and the requested completion has an actual delivery receipt. The contribution development block completed during inspection and receives this same full landing. Prior failed readout admission and its bounded prospective correction remain recorded; no live source capsule or scoring rule changed. Four-hour health remains 19:30 PDT; the separate Stage 12 milestones and Friday 05:00 final packet are unchanged.
+
+**Means.** Continue the frozen eligible queue and preserve these producers for their complete consumers. No tests harvested this pass. No new research, cloud spending, delegation, gear change, reserved performance claim or multiplicity entry. This execution-only landing belongs in the instrument ledger; theory remains unchanged and unfinished per-artifact scores stay out of chat.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are complete calibration and development predictions intact while the next worker starts? Outcome: **Infrastructure**. Result: Producer coverage and replay pass with unavailable memory preserved. Project meaning: Completed inputs to the later comparisons are recorded without a premature verdict. Next engineering obligation: Land complete consumers and retain the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1644.json).
+
+---
+
 ### OPS-S13-CALIBRATION-0927-1632 - complete calibration producers preserved
 
 **Hypothesis.** The contribution and context calibration producers retain every declared input and treatment, including unavailable independent-memory cases, without admitting an unfinished scientific comparison.

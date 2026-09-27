@@ -1,5 +1,14 @@
 # STATE: the agent's operational file
 
+## September 27, 16:48 PDT: next calibration and development producers landed
+
+Context calibration 001 and contribution development 000 pass complete integrity
+and replay. The next context development worker has verified native ownership,
+below-normal priority and fresh progress; its initial startup lacked a first
+progress file and required no restart. Gear 1 and the existing readout-repair
+obligation remain unchanged. Health is due 19:30 PDT; both stage reporting
+deadlines are unchanged. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1644.json).
+
 ## September 27, 16:32 PDT: calibration producers landed; Gear 1 continues
 
 Context calibration 000 and contribution calibration 001 pass complete bindings,
