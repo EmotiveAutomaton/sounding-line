@@ -24,3 +24,5 @@ remain useful. Current obligations live in TODO/STATE, not the archived handoff.
 The curator-requested [Gear 3 Round 1 source archive](study-specs/README.md) retires
 the loose proposal file, not its proposed work. Its assessment and execution status
 are explicit in the design index; archiving is not launch or completion.
+
+The September 27 cleanup retires duplicate live summaries to the [operating archive](operations/README.md) and files closed study designs in the [stage archive](../design/archive/README.md). The loose Stage 10 specification is now in the source archive, with its bytes and hash preserved.

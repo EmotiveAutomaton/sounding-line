@@ -2,7 +2,7 @@
 
 **Commissioned September 12, 2026.** The curator requested viability assessment
 and immediate implementation if viable, with Gear 2 retained. The supplied
-[study specification](../SOUNDING_LINE_STAGE10_STUDY_SPEC_2026-09-12.md) is adopted
+[study specification](../../../archive/study-specs/SOUNDING_LINE_STAGE10_STUDY_SPEC_2026-09-12.md) is adopted
 in full; this context records implementation choices and does not replace it.
 Source SHA-256: `0263ba9a5d92242948b4e2a56357475f241a5764daf3036c9d039cb19f5117f5`.
 
@@ -76,7 +76,7 @@ and unavailable-source outcomes remain legitimate dispositions.
 
 ## Central evaluation comparisons frozen, September 12
 
-The [comparison freeze](STAGE10_COMPARISON_FREEZE.md) fixes three strategy pairs
+The [comparison freeze](../../STAGE10_COMPARISON_FREEZE.md) fixes three strategy pairs
 before target evaluation access. Required plain, procedure-only, naming and
 confidence-only comparisons remain alongside them. Existing exposed cohorts
 stay descriptive; this declaration neither closes a scientific cell nor drops

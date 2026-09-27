@@ -2,7 +2,7 @@
 
 **Current status:** the finite local study is complete. [Final packet](../../results/phase_2_4_stage_10/README.md) is authoritative; dated/pending validation notes below describe implementation history. Original modules and source-bound results remain unchanged.
 
-The [current context](../../docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) adopts the
+The [current context](../../docs/design/archive/stage-10/PHASE_2_4_STAGE_10_CONTEXT.md) adopts the
 curator's Stage 10 specification. Stage 9 modules and frozen results remain intact.
 
 `contracts.py` is the public task and forecast boundary. Only declared evidence,

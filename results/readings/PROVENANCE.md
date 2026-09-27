@@ -18,6 +18,12 @@ with the reason.
 
 ---
 
+## Stage 13 preparation and workspace organization - 2026-09-27
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S13.PREP-0927 | Request Stage 13 preparation in Gear 1, then explicitly withhold implementation/rollout pending a plan; organize scattered documentation and file the week brief (September 27 audio). | Filed unchanged source, concrete implementation plan, historical stage folders, short status, relocation ledger and preserved inactive worktree. No scientific implementation or launch. Current Gear 1 direction overrides the source's Gear 2 statement. | docs/design/stage-13/; docs/WORKSPACE_LAYOUT.md; CURRENT_STATUS.md | written |
+
 ## Stage 12 queue and record check - 2026-09-23
 
 | # | Contribution and source | What it produced | Where | Status |

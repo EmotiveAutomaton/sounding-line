@@ -1,6 +1,6 @@
 # Gear 3 Round 1: viability and filing review
 
-**Current panel repair and rollout, September 13:** the latest owner instruction authorizes launch after the supplied fixes and final validation. All 62 final checks pass. [Repair receipt](../../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json). The revision-2 source is [archived unchanged](../archive/study-specs/GEAR_3_ROUND_1_VALIDATION_2026-09-13.md). Literal P and measured affordable science remain separate checkpoints; original costs and expired invocation identities remain retained.
+**Current panel repair and rollout, September 13:** the latest owner instruction authorizes launch after the supplied fixes and final validation. All 62 final checks pass. [Repair receipt](../../../../results/gear3/G3-S10-READER-1/PANEL_REPAIRS.json). The revision-2 source is [archived unchanged](../../../archive/study-specs/GEAR_3_ROUND_1_VALIDATION_2026-09-13.md). Literal P and measured affordable science remain separate checkpoints; original costs and expired invocation identities remain retained.
 
 **Historical owner hold, September 13:** Gear 3 release is withheld while Stage 10 is built locally. The submitted CPU cache app is verified stopped; no cloud GPU invocation occurred. New dispatch refuses before reservation. The original attempt and its 28-cent reservation remain retained for billing reconciliation. Explicit resumption is required.
 
@@ -11,7 +11,7 @@ basis; actual launch requires the finite pilot and enforced campaign ceilings.
 
 **Reviewed September 13, 2026 against `2c9546c79772a0419ee7f3b779c5a9bb3c89f85f`.**
 **Assessment: viable alongside Gear 2; cloud launch is not ready yet.**
-The [supplied specification](../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
+The [supplied specification](../../../archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md)
 is archived under the curator's requested name with unchanged bytes. This review
 is an engineering assessment, not a scientific finding or a launch receipt.
 
@@ -20,7 +20,7 @@ is an engineering assessment, not a scientific finding or a launch receipt.
 All 42 focused checks now pass; the full 44-route pilot and its 72 model calls were
 rehearsed with constructed transport and actual task execution. Defects in partial
 cache reuse, source-group isolation, cancellation and workspace binding were
-repaired and retested. The [revalidation receipt](../../results/gear3/G3-S10-READER-1/REVALIDATION.json)
+repaired and retested. The [revalidation receipt](../../../../results/gear3/G3-S10-READER-1/REVALIDATION.json)
 binds reviewed sources and regenerated private preparation-v4. Older packages are
 historical and must not be dispatched against the new sources.
 
@@ -30,7 +30,7 @@ its single environment, absence of apps and a retained volume. No resource was
 created, changed or deleted. Exact account identity and records remain private in
 `.agent-state/gear3-account.json` on the isolated checkout. They expire after one day;
 refresh before dispatch. A listed card is recorded as present, not a guarantee of a
-future charge. The [workspace guide](../GEAR3_MODAL_WORKSPACE_GUIDE.md) provides the
+future charge. The [workspace guide](../../../GEAR3_MODAL_WORKSPACE_GUIDE.md) provides the
 navigation steps and explains gross usage versus net spend.
 
 The real workspace cap is lower than the commissioned maximum. Preserve a
@@ -40,7 +40,7 @@ Allocation is checked inside the shared reservation lock. Any additional compute
 or unknown workspace sharing requires a new inventory/allocation, not a fictitious
 empty-account record. No limit increase or account upgrade is needed.
 
-The discarded P chain is now launched through the guarded entry point: CPU cache, then the L40S literal pilot only after verified cache completion. Combined reservations are capped at $2.45. Exact sources and native/provider identities are retained; the watcher resumes the operator only on a terminal transition. [Launch receipt](../../results/gear3/G3-S10-READER-1/PILOT_LAUNCH.json). Complete returned evidence, model/device identity, GPU memory and measured cost still need inspection before freezing affordable science. The final evaluator join/packet remains an implementation obligation.
+The discarded P chain is now launched through the guarded entry point: CPU cache, then the L40S literal pilot only after verified cache completion. Combined reservations are capped at $2.45. Exact sources and native/provider identities are retained; the watcher resumes the operator only on a terminal transition. [Launch receipt](../../../../results/gear3/G3-S10-READER-1/PILOT_LAUNCH.json). Complete returned evidence, model/device identity, GPU memory and measured cost still need inspection before freezing affordable science. The final evaluator join/packet remains an implementation obligation.
 
 ## Commissioned implementation and pilot handoff
 
@@ -173,7 +173,7 @@ five stale repository files from the work.
 **No evidence was found of a large restored batch being adopted into current
 tracked work.** This is bounded evidence, not proof that no restore happened:
 its actor/time, edited historical copies, ignored raw-data/cache history and the
-rest of the workstation are not established. [Audit and hash inventory](../../results/maintenance_20260913/RESTORE_AUDIT.json).
+rest of the workstation are not established. [Audit and hash inventory](../../../../results/maintenance_20260913/RESTORE_AUDIT.json).
 The tracked canonical specification, current theory and running source are preserved.
 
 ## What the burst would test
@@ -269,7 +269,7 @@ to replace the ongoing local study with cloud execution.
 The repository root retains its six operational Markdown entry points: README,
 AGENTS, CLAUDE compatibility pointer, FINDINGS, TODO and CURRENT_STATUS. The parent
 workspace retains AGENTS. Suspicious old copies are in private quarantine, not the
-active source hierarchy. The new [Stage 10 theory errata](archive/STAGE10_THEORY_ERRATA_2026-09-12.md)
+active source hierarchy. The new [Stage 10 theory errata](../STAGE10_THEORY_ERRATA_2026-09-12.md)
 was filed as application pending at review time. The subsequent September 13
 apply-now instruction is now implemented: all six edits pass the existing linter,
 and this source is archived with unchanged bytes. The active

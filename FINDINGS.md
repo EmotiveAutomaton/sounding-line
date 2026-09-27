@@ -9,6 +9,20 @@ ran it.
 
 ---
 
+### OPS-S13-PREP-0927 - documentation filed and implementation plan prepared
+
+**Hypothesis.** Separating current authority from historical study and operating documents can make the next implementation unambiguous without changing scientific evidence.
+
+**METHOD.** Inspect the supplied five-day brief and reusable local interfaces; audit documentation references and frozen-path consumers; file historical documents with a hash/path map, preserve original live-page snapshots, and relocate the inactive auxiliary checkout through Git. Verify exact source preservation, mechanical-only link edits, original locks and continuing watcher status.
+
+**Found.** Seventeen documents are filed by stage or source provenance; fourteen retain identical bytes and three operator handoffs change only relative links. The supplied Stage 13 source retains its exact bytes. Current status and the design index now distinguish preparation, expired execution and pending reporting; old snapshots remain archived. Two historical result READMEs receive navigation-only link repairs with original hashes retained. All 21 locks pass. The clean inactive Gear 3 worktree retains its unique branch/head and local evidence at its new workspace location. The four-hour watcher is fresh, has no error or pending event, and its deadline is unchanged.
+
+**Means.** Stage 13 is planned for Gear 1 and awaits implementation approval. The source's Gear 2 statement is superseded by the current instruction. The plan specifies source/lineage admission, consumers before dispatch, complete-block scheduling, resource holds, bounded repairs, semantic replay and final reporting. No scientific code, model, research queue or clock was started; no new scientific test was harvested beyond translating the supplied brief. Stage 12 remains stopped with its original September 28 at 06:17 PDT final packet owed. No theory amendment or scientific verdict changed.
+
+**Curator roll-up.** Theory group: instrument validity. Question: is the workspace and next-stage authority clear before implementation? Outcome: **Infrastructure**. Result: documentation and a bounded implementation plan are prepared. Project meaning: future execution has an explicit approval and resource boundary. Next engineering obligation: obtain the requested go-ahead, then implement source and consumer admission. Public claim: unchanged. Curator decision required: Yes; approve the prepared Gear 1 implementation plan when ready. Detail: [plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md), [workspace map](docs/WORKSPACE_LAYOUT.md), [relocation ledger](docs/archive/operations/DOCUMENT_RELOCATIONS_20260927.json).
+
+---
+
 ### OPS-S12-HEALTH-0927-1112 - drained queue and retained evidence verify
 
 **Hypothesis.** The stopped queue preserves its recorded evidence and receives working supervision after the local allocation expires.
@@ -8212,7 +8226,7 @@ All 76 bound launch files verify. The 8,452 returned scientific evidence files r
 
 **METHOD.** Implemented isolated model profiles, allowlisted source export, durable nested attempts, complete archive replay, source-balanced comparison guards, one authoritative campaign ledger and a finite native sequence driver. Exercised known-answer human fixtures, actual public Ghost executors and simulated provider/model transport, including interruption, corruption, uncertain ownership and local receipt failure. Reproduced the original cheap-control fit from its permitted training allocation.
 
-**Found.** All 27 focused checks pass. The entire 44-route discarded pilot reproduces through real task executors and checked archive extraction without further inference. No paid compute or model-weight download occurred. Both complete model digests and the server/container pins are resolved; a source-bound pilot package and a $2.45 proposed reservation are prepared. Earlier setup, fixture and import failures remain recorded. [Apparatus](results/gear3/G3-S10-READER-1/APPARATUS.json), [operating handoff](docs/design/GEAR_3_ROUND_1_REVIEW.md).
+**Found.** All 27 focused checks pass. The entire 44-route discarded pilot reproduces through real task executors and checked archive extraction without further inference. No paid compute or model-weight download occurred. Both complete model digests and the server/container pins are resolved; a source-bound pilot package and a $2.45 proposed reservation are prepared. Earlier setup, fixture and import failures remain recorded. [Apparatus](results/gear3/G3-S10-READER-1/APPARATUS.json), [operating handoff](docs/design/archive/gear3-round1/GEAR_3_ROUND_1_REVIEW.md).
 
 **Extended validation, September 13.** METHOD: injected partial-cache tampering, training/target overlap, swapped result archives, cancellation failures, billing-boundary crossings and a lower workspace allowance; exercised complete native pilot replay and checked the installed provider RPC contract. All 42 focused checks pass, including the 44-route pilot rehearsal with 72 simulated calls. The first fault runs exposed defects that were repaired; their failures remain retained. Read-only provider inspection verifies the authenticated workspace, no apps and one retained volume. The owner confirms a payment method; account identifiers and billing evidence remain private. No paid job, model download or evaluation-outcome access occurred. [Revalidation](results/gear3/G3-S10-READER-1/REVALIDATION.json).
 
@@ -8234,7 +8248,7 @@ The active billing guard uses the lower actual account headroom, a separate allo
 
 **METHOD.** Read the complete supplied plan, relevant current theory/method boundaries, existing cloud wrapper and model client, frozen source-support receipts and current official model/provider documentation. No model or scientific scorer was run for the assessment.
 
-**Found.** The bounded design is viable, with useful existing human support and smaller descriptive Ghost support. Launch still needs explicit model profiles, campaign-wide reservation/deadline enforcement, complete artifact transport and a narrow history comparator. The provider's reference pricing agrees with the plan; real throughput, full 27B identity, peak memory and account backstop remain pilot/prelaunch checks. [Review](docs/design/GEAR_3_ROUND_1_REVIEW.md), [unchanged source](docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md).
+**Found.** The bounded design is viable, with useful existing human support and smaller descriptive Ghost support. Launch still needs explicit model profiles, campaign-wide reservation/deadline enforcement, complete artifact transport and a narrow history comparator. The provider's reference pricing agrees with the plan; real throughput, full 27B identity, peak memory and account backstop remain pilot/prelaunch checks. [Review](docs/design/archive/gear3-round1/GEAR_3_ROUND_1_REVIEW.md), [unchanged source](docs/archive/study-specs/GEAR_3_ROUND_1_2026-09-13.md).
 
 **Means.** Prepare in an isolated checkout at a stable local execution point; keep the finite pilot/main comparison first and defer only unusable branches. No new campaign, model download, cloud invocation or spend was launched in this assessment. The source's prior acceptance record is retained without turning filing into execution.
 
@@ -9047,7 +9061,7 @@ does anything on human artifacts is weakness 1.
 the goal is governs how readable everything else is** — a threefold to tenfold difference — so a
 process-side reading quoted without a legibility figure beside it is not interpretable. **The curator
 disputes that it is the only governor**, and the argument, his counter-mechanism and the missing test
-now live in [`docs/theory/THE_TRIANGLE.md`](docs/theory/THE_TRIANGLE.md) §8c rather than here.
+now live in [`docs/theory/THE_TRIANGLE.md`](https://github.com/EmotiveAutomaton/sounding-line/blob/f9df8a22b5336f9965c554676af348fbce88f640/docs/theory/THE_TRIANGLE.md) §8c rather than here.
 
 ## L2 · Three candidate measures from the feature sweep
 
@@ -30378,7 +30392,7 @@ The package's formal-source READ labels retain the supplying analyst's provenanc
 this operator did not conduct another literature review.
 
 The [Stage 9 brief](docs/design/PHASE_2_4_STAGE_9_CONTEXT.md) and
-[scheduling review](docs/design/STAGE9_FORECAST_REVIEW.md) are filed as active documents.
+[scheduling review](docs/design/archive/stage-09/STAGE9_FORECAST_REVIEW.md) are filed as active documents.
 The [applied errata](docs/design/archive/PHASE_2_4_STAGE_9_THEORY_ERRATA.md) is archived
 as provenance. The brief and errata moved byte-for-byte; the scheduling review retains
 its component evidence with relocated links and explicit historical-count context.

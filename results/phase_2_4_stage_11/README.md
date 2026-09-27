@@ -27,7 +27,7 @@ Replay without model calls:
 ./.venv/Scripts/python.exe -B -m runners.stage11_viewer_repair
 ```
 
-The [commission](../../docs/design/PHASE_2_4_STAGE_11_CONTEXT.md) and
+The [commission](../../docs/design/archive/stage-11/PHASE_2_4_STAGE_11_CONTEXT.md) and
 [runner contract](../../runners/stage11/README.md) preserve the frozen evidence
 boundary, original clock and finite limits. Stage 9/10 sources and scores are unchanged.
 

@@ -32,12 +32,32 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current work, September 27:** Stage 13 is prepared for review; implementation and
-launch await go-ahead, with Gear 1 requested. Stage 12 generation is stopped and its
-original final packet remains due September 28 at 06:17 PDT. See
-[the current status](CURRENT_STATUS.md), [Stage 13 plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md)
-and [documentation map](docs/README.md). Dated execution history is retained in
-[the operating archive](docs/archive/operations/README.md).
+**Current execution, September 25:** the submitted queue drained at 02:45 PDT, with no active test worker: 281 completed jobs, 14 retained failures and 31 deferred jobs. Seven admitted human-history blocks and their summary were never launched; the approved program is therefore not fully complete. Final revision records and earlier outputs verify, and the stale wake executable path is repaired. The local allocation expired at 20:50 PDT with those blocks still unrun; generation remains stopped and any extension needs separate authorization. The original final packet remains due September 28 at 06:17 PDT. [Current status](CURRENT_STATUS.md), [interim packet](results/phase_2_4_stage_12/INTERIM_PACKET_20260925.md).
+
+**Historical setup snapshot, September 12–13, 2026; completed status is above.** The [new study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) compares direct reading, retrieved examples and structured maker models on executable tasks and human revision records. The supplied plan is viable with existing local model and prepared sources. Gear 2 and CPU cooling limits remain. The initial literal reader, Ghost transport and CoAuthor resume checks pass; the first CoAuthor and Ghost development producers are complete, and the direct/example and matched-deliberation CoAuthor evaluations are complete; the fitted effort policy has completed its reserved prediction producer. The native-procedure reading prediction producers are complete and verified; the human executable-rule predictions are complete and verified, and the complete procedure-memory producer and literal human effort pilot are verified and internally landed, with reserved-budget development and its policy fit complete, human policy evaluation complete and internally landed, and three central evaluation comparisons frozen before answer access, while broader human strategies and final scientific analysis remain in progress. Stage 9's [selected final packet](results/phase_2_4_stage_9/SCOPED_CURATOR_PACKET.md) remains closed, with its wider agenda deferred.
+
+**Dated history below; current status is above.**
+
+**Independent audit reproduction verified, September 11 at 7:50 p.m. Pacific.** The original ledger, all fourteen component files and retained attempt ledger reproduce byte for byte. Both audit processes have exited; all 120 compiled sources, 382 frozen source files and thirteen pinned inputs verify. Both scientific queues are finished and internally landed, with no GPU experiment active. Gear 2 authorization and CPU boost-off/90% maximum remain. The obsolete reproduction check-in is being retired. Combined integrity, complete case populations and final packet validation are the remaining work. Original audit failures, the unrun original packet and 632 deferred catalog jobs remain explicit; scientific acceptance is still pending.
+
+**Overnight execution inspected 2026-09-11T17:33:39.301790+00:00.** All 26 jobs are COMPLETE; no scientific job is running or pending, and all original owner/wrapper/worker identities have exited. Both complete diagnostic branches, including all producers, calibration consumers and grouped profiles, are internally landed (L378-L383). Recorded GPU reservation was 12.973 hours. CPU 63.9 °C / GPU 48.0 °C; boost-off/90% maximum retained. Watcher and all 380 frozen sources verify. Gear 2 authorization continues, with final-integrity repair and the scoped packet next; scientific acceptance remains pending.
+
+**Overnight launch record, 2026-09-11 (queue now complete).** The curator explicitly authorized additional audit repair and existing Stage 9 experiments through the night, with at least ten hours of estimated GPU work and continued operation until they return. A separate 26-job queue is launch-accepted and observed running: fourteen archived-Qwen/SmolLM diagnostic executions, six calibration checks and six complete grouped analyses. Existing pilot rates give 12.61 GPU hours under the observed call-mixture scenario, 23.32 under the full-declared-call scenario, plus 1.12 CPU hours. These are conditional estimates, not guaranteed duration or measured device utilization. Prior preparation and scientific work remain charged within the unchanged 92 GPU-hour cap; the conservative combined plan is 67.53 hours. CPU boost-off/90% AC maximum remains active. The original 26-complete/one-failed/one-not-run queue and both audit failures remain unchanged; final scientific acceptance is still owed.
+
+**Prior closure, before the new overnight authorization.** **Selected execution closed with failed final integrity, 2026-09-11.** All selected experiments finished and are internally documented, but the final audit failed twice. Its first failure came from thermal-response metadata changing a pinned allocation record; exact launch allocation bytes were restored without changing Gear 2, GPU availability or CPU limits. The one retry then failed while inspecting a historical native process identity. Under the stage repair rule, the audit consumer branch is closed and the packet is explicitly NOT RUN WITH REASON. The queue is terminal: 26 complete, one failed and one not run. Both failed attempts remain retained and charged. No successful final integrity, accepted scientific packet or full-stage completion is claimed. Further closure repair needs a separately authorized scope.
+
+**2026-09-10 current state.** The [execution recovery addendum](docs/design/STAGE9_EXECUTION_ADDENDUM.md) is adopted and implemented. A finite 28-job scientific selection is running in **Gear 2**: complete supplied-information comparisons for both existing families/base and archive packages, the original ArgRewrite baseline, and their controls and final audit. All other declarations remain explicitly deferred; the original sample sizes, evidence standards, deadline and compute ceiling are unchanged. Isolation and discovery construction have passed; all four package calibrations are complete and checked. All four supplied-information comparisons and their checks are internally landed. The complete ArgRewrite comparison is internally landed in L377. All selected experiments are finished; the final selected integrity audit is running. The wider Stage 9 matrix and scientific results are not declared complete. [Current status](CURRENT_STATUS.md) and [launch receipt](results/phase_2_4_stage_9/EXECUTION_RECOVERY_LAUNCH.json).
+
+Stage 8 is closed and its final scientific write-through is
+complete in L371/L372 and the [corrected final packet](results/maintenance_20260906/STAGE8_CURATOR_PACKET_CORRECTED.md).
+Both trained readers passed prediction and failed generation, so composite admission and
+confirmation counts are zero. Difference, purpose and accumulation findings remain diagnosis.
+Affected inherited direct-reader and supplied-state interpretations are limited by the
+maintenance audit; unaffected FM-versus-domain and learned-law evidence remain.
+The earlier gear-two repair workload completed and drained at
+08:17:15 PDT. S1-S5/D1-D5 and workflow corrections are recorded in OPS-ERRATA-1/2 and
+OPS-READOUT-1/2/3; the future matched-information scientific comparison remains separate.
+
 
 Three things this does not establish: it is not a general intent detector, it is not a reader of
 anyone's values, and it is not a tool for judging a person or their work. Nothing in this
@@ -217,8 +237,8 @@ a population human-reader validation. The project keeps those evidence levels di
 
 The full running record lives in [`docs/STATE.md`](docs/STATE.md) (operational state, standing
 rulings, phase end states) and [`FINDINGS.md`](FINDINGS.md) (every study, how it was run, what
-came back). The governing brief and its approval status are indexed in
-[`docs/design/`](docs/design/), with closed stages preserved in its archive; Phase 2.0's brief
+came back). The governing brief for the current phase sits at the top level of
+[`docs/design/`](docs/design/), with closed phases preserved in its archive; Phase 2.0's brief
 remains the historical vertical-slice record, and the design index
 ([`docs/design/README.md`](docs/design/README.md)) maps every phase document with its
 authority status.

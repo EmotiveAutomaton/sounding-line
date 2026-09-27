@@ -20,7 +20,7 @@ attempt charges govern restart; a missing response never grants an uncharged ret
 
 Read the supplied Stage 11.1 brief and method lessons before extending producers.
 The supplied brief is filed unchanged at
-[`docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`](../../docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md).
+[`docs/design/PHASE_2_4_STAGE_11_1_CONTEXT.md`](../../docs/design/archive/stage-11/PHASE_2_4_STAGE_11_1_CONTEXT.md).
 Validate known answers, ambiguity, evaluator exclusion and restart/cost accounting
 before new dispatch. Never edit loaded scientific sources. Use versioned producers
 for subsequent changes. Publish no human source text or private identity.

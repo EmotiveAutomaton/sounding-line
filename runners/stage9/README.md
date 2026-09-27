@@ -18,7 +18,7 @@ refuse. A denied process still present in that list remains unknown and fails cl
 This avoids querying an executable image after termination while preserving PID
 reuse checks and both original failed final-audit attempts.
 
-The [execution recovery addendum](../../docs/design/STAGE9_EXECUTION_ADDENDUM.md)
+The [execution recovery addendum](../../docs/design/archive/stage-09/STAGE9_EXECUTION_ADDENDUM.md)
 was adopted on 2026-09-10. `tranche.py` adds an explicit opt-in scope to the existing
 launch, coverage and packet paths. It preserves original selected job settings and
 dependencies, keeps all deferred jobs/cards visible, and forbids claims about the

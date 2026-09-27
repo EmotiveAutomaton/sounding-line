@@ -1,5 +1,13 @@
 # TODO: the study queue
 
+## Stage 13 ? pending implementation approval, September 27
+
+- [x] File the supplied brief, organize historical documentation/worktrees, refresh current authority and prepare the [implementation plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md).
+- [ ] After owner go-ahead: implement the plan's source, consumer and admission sequence under Gear 1; keep heavy GPU branches held.
+- [ ] Preserve the separate Stage 12 final packet due September 28 at 06:17 PDT and independent four-hour supervision. No restart of its expired allocation.
+
+This section supersedes older running labels as current authority. Prior records follow.
+
 ## Extensive local research program - approved September 23
 
 - [x] OPS-S12-HEALTH-0927-1112: unchanged stopped queue, retained evidence, resource limits and actual health delivery verified. No recovery or new work; expired allocation and original final-packet deficits retained.
@@ -570,7 +578,7 @@ Science and internal write-through are complete; no automatic refill. L390 visua
 ## Repository integrity and Gear 3 Round 1 review - 2026-09-13
 
 - [x] Inspect suspected restored files before using the new proposal; preserve stale/duplicate files privately with hashes and original paths (OPS-RESTORE-20260913).
-- [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/GEAR_3_ROUND_1_REVIEW.md)).
+- [x] Rename/archive the supplied Gear 3 Round 1 spec and assess coexistence with Gear 2 (OPS-G3-R1-REVIEW; [review](docs/design/archive/gear3-round1/GEAR_3_ROUND_1_REVIEW.md)).
 - [x] Sort loose Markdown documents and explicitly file the new theory errata as application pending. Canonical operational root files remain in place.
 - [x] Gear 3 Round 1: complete the admitted 17-job package and final write-through (L385). Admission used verified whole pilot blocks plus the approved context supplement; the original full pilot remains failed and Ghost reading deferred. Campaign and lower workspace limits remain unchanged. Local Stage 10 resumed second gear September 14.
 
@@ -610,7 +618,7 @@ Science and internal write-through are complete; no automatic refill. L390 visua
 - [x] S10-I11: fully build, validate and launch the finite local runway behind the existing science bank: 51 reviewed jobs, including 23 GPU jobs; full source pins and native transition-only monitoring.
 - [x] S10-I11: inspect completed project rotations, local-model comparison, continuity anchor, synthetic effort and all common analysis cells; resolve explicit failures/source limits and deliver the single final scientific packet. Gear 3 proceeds separately under the later conditional rollout authorization. Closed in L388 with explicit scope/dispositions.
 
-The curator commissioned the [Stage 10 prototype study](docs/design/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
+The curator commissioned the [Stage 10 prototype study](docs/design/archive/stage-10/PHASE_2_4_STAGE_10_CONTEXT.md) and retained Gear 2. Its small cohorts, independent branches and approximately five-day soft target replace the old broad setup priority for this new scope. CPU cooling limits remain. The separate September 13 Gear 3 Round 1 commission authorizes only its prescribed bounded cloud package.
 
 - [x] OPS-WAKE-TRANSITIONS: use transition-only watchdogs; record process identities/outputs and end healthy-running turns. No routine liveness timer or mandatory refill before replying.
 - [x] OPS-WAKE-TRANSITIONS: inspect and retire the exact already-landed native notification through the native API; empty queue verified, original proxy failure retained. The native API replacement now passes acceptance/deduplication checks; actual post-final delivery is now observed and its complete producer is internally landed.
