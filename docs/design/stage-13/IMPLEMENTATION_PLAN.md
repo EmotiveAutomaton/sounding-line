@@ -1,10 +1,17 @@
 # Stage 13 implementation plan
 
-Prepared September 27, 2026. **Reviewable plan; implementation and launch pending.**
+Prepared September 27, 2026. **Implementation approved by the subsequent September 27 instruction.**
 The [supplied brief](WEEK_RESEARCH_SOUNDING_LINE_2026-09-27.md) defines the experiments.
 This plan translates it into repository work; it adds no scientific verdict or new
-research proposal. The current owner instruction controls: Gear 1, no rollout until
-go-ahead. No paid compute, recruitment, author contact, delegation or product release.
+research proposal. The current owner instruction controls: Gear 1, rollout after source and consumer admission. No paid compute, recruitment, author contact, delegation or product release.
+
+## Implementation status - September 27
+
+The complete core is frozen and running in Gear 1. Source, consumer, real CPU reader,
+capacity and native queue admission checks are complete. See [execution handoff](EXECUTION.md)
+for the implemented modules, roster, measured timing, held capabilities and exact
+checkpoint obligations. The design below records the approved build contract;
+prospective wording does not supersede actual admission or terminal receipts.
 
 ## Intended result
 
@@ -45,8 +52,9 @@ GPU runway is a Gear 2 assumption, not a reason to consume the owner's card.
 
 After approval, record setup start; aim for readiness within 24 hours. Readiness
 requires an admitted complete A or B block, tested consumers and working ownership,
-resource and wake controls. Agree one shared readiness timestamp and fixed 120-hour
-research endpoint with the Ghost owner; no writes to that repository in this task.
+resource and wake controls. Record readiness separately from the fixed endpoint: October 2 at 05:00 PDT.
+The latest instruction overrides the rolling 120-hour duration. New science stops
+before October 1 at 21:00 PDT. No writes to the Ghost repository in this task.
 A blocked Ghost branch must not hold an otherwise viable Sounding core. If Gear 1
 cannot admit a valid core, report the blocked capability and continue useful eligible
 preparation; do not claim that the research window has begun or silently upgrade gear.
@@ -123,7 +131,7 @@ program execution. Human-text consequence scoring remains a learned model, not e
 ## Scientific blocks retained from the brief
 
 The rows are complete comparisons to construct, with controls and stop dispositions.
-All are pending implementation; a held resource or missing source stays visible.
+Implementation is authorized; a held resource or missing source stays visible.
 
 | Branch | Complete comparison and consumer | Continuation / failure disposition |
 |---|---|---|
@@ -177,8 +185,8 @@ No frontend or service rebuild and no claim of arbitrary-page live inference.
 
 ## Approval boundary
 
-Approval of this plan would authorize implementing the scoped local Stage 13 components,
+The September 27 approval authorizes implementing the scoped local Stage 13 components,
 their admission tests and eligible Gear 1 execution within the new five-day contract.
 It would not activate held heavy GPU work, paid compute or another repository's queue.
-At present, only documentation organization and this plan are complete. The next action
-is the owner's go-ahead, followed by source/consumer setup; no research has launched.
+Public intake is verified; source/consumer setup and validated local dispatch are
+now authorized. Original source bytes remain unchanged.

@@ -1,11 +1,11 @@
 # STATE: the agent's operational file
 
-## September 27: Stage 13 preparation only
+## September 27: Stage 13 running in Gear 1
 
-The current instruction requests clean documentation and an implementation plan
-before go-ahead. Future allocation is Gear 1. [Stage 13 plan](design/stage-13/IMPLEMENTATION_PLAN.md)
-and original source are filed; no research implementation, launch or campaign clock
-has started. [Workspace layout](WORKSPACE_LAYOUT.md) and the design index replace
+The owner now approves all planned studies under Gear 1. Fixed finish: October 2
+at 05:00 PDT; new science stops before October 1 at 21:00 PDT for reporting.
+Frozen core: 514 cards, including 11 held GPU cards. One admitted CPU worker is running; both capacity blocks, final reader admissions and first production block replay. A further 181-card source-fixed extension is conditional on whole-family time admission. Fixed checkpoint helper and four-hour monitoring verify. [Execution handoff](design/stage-13/EXECUTION.md), [rollout](../results/phase_2_4_stage_13/ROLLOUT.json), [health](../results/phase_2_4_stage_13/HEALTH_20260927_1519.json). [Stage 13 plan](design/stage-13/IMPLEMENTATION_PLAN.md)
+and original source are filed. Heavy GPU work remains held; no cloud use. [Workspace layout](WORKSPACE_LAYOUT.md) and the design index replace
 stale navigation. Stage 12 remains stopped; its September 28 at 06:17 PDT final
 packet and four-hour supervision remain. Historical entries below are retained.
 

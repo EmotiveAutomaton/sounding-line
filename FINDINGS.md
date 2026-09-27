@@ -9,6 +9,92 @@ ran it.
 
 ---
 
+### OPS-S13-ROLLOUT-0927 - Gear 1 campaign running with fixed reporting reserve
+
+**Hypothesis.** A source-bound serial CPU roster can sustain the approved week while keeping held capabilities and the final deadline explicit.
+
+**METHOD.** Complete both original-training capacity blocks; rehash their outputs and replay the native probability/feature consumers. Re-run actual reader admissions from the final capsule and replay the first completed production block. Check every prepared manifest and frozen source/input binding. Inspect native queue/worker/checkpoint identities, priority, fresh output, locks, host/GPU resources, power limits, prior-stage evidence and watcher delivery. Preserve the fixed whole-block cutoff and register every completion, failure and checkpoint before dispatch.
+
+The table counts execution cards, not independent observations. Timing uses complete CPU blocks including loading and writes; it is a forecast, not a completion claim.
+
+| Operational item | Verified state |
+|---|---|
+| Frozen core roster | 514 cards: 503 CPU and 11 GPU held; the CPU Qwen summary also awaits held prerequisites |
+| Conditional source-fixed extension | 181 CPU cards; admitted only after core completion and a fresh whole-family time check |
+| Complete capacity blocks | 256 rows each; e5 112.39 seconds wall / 98.14 CPU; causal scorer 1377.11 seconds wall / 1239.08 CPU |
+| Core production at inspection | Both reader admissions and first e5 block complete; one causal-scoring worker running below-normal, one numerical thread |
+| Measured detector workload | About 92.7 core hours plus 37.1 conditional hours; other consumers and runtime variation are additional |
+| Integrity | 565 frozen source bindings and 369 input bindings verified; completed outputs replay |
+| Fixed boundaries | New science before October 1 at 21:00 PDT; early final review October 2 at 03:00; final packet at 05:00 |
+
+**Found.** The capacity queue exited normally with both blocks complete. Fresh final-capsule admissions pass; the first production e5 block's saved logits and probabilities replay. No per-artifact scientific result is interpreted. The dependency-aware Gear 1 queue is alive and advancing. The conditional detector backlog alone exceeds the remaining eligible time by a factor of 1.27, but its extension must fit as a whole and is not yet dispatched. Heavy training and Qwen remain held. Single-owner kernel/native locks and the separate fixed-checkpoint helper verify. No resource limit or other application was changed.
+
+The independent four-hour inspection also verifies unchanged Stage 12 records, its expired allocation and original checkpoint helper. The watcher is fresh with its expected loaded sources; the health event is queued to this active owner, which does not prove idle delivery for this event. Historical verified idle delivery and the older uncertain notification remain separate. No repair or old-stage restart is needed. Full landing precedes ACK and its four-hour rearm.
+
+**Means.** Eligible studies are built and running under the requested gear, with prepared conditional continuation and a protected reporting reserve. Completion of every comparison is not guaranteed: primary GPU comparisons need an explicit gear change; DAMASHA's exact forward remains unavailable after dependency admission failure; human-source independence and missing context remain disclosed. A native Ghost export was found read-only, but is not yet admitted for this stage. No new research was harvested beyond the approved brief, no spending or delegation occurred, and scientific synthesis waits for complete cells and the final packet.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can the approved campaign run with measured capacity and a fixed end? Outcome: **Infrastructure**. Result: the source-bound campaign is running in Gear 1 with deadline and validity gates. Project meaning: the eligible week is operational without converting missing capabilities into positive results. Next engineering obligation: land complete cells, inspect conditional time admission at health checkpoints, preserve Stage 12 reporting and assemble the Friday packet. Public claim: unchanged. Curator decision required: No for current CPU work; the later gear change remains owner-controlled. Detail: [rollout](results/phase_2_4_stage_13/ROLLOUT.json), [health](results/phase_2_4_stage_13/HEALTH_20260927_1519.json), [execution handoff](docs/design/stage-13/EXECUTION.md).
+
+---
+
+### OPS-S13-SETUP-VALIDATION-0927 - consumers and offline bridge admitted
+
+**Hypothesis.** Complete CPU consumers, explicit source limits and an exact offline export can make the approved week runnable without changing the meaning of unavailable comparisons.
+
+**METHOD.** Rehearse whole detector fit/calibration/reserve consumers on known answers; test source folds, malformed distributions, wrong locations, severed coupling, missing independent memory, immutable reentry and actual native queue failure continuation. Replay the completed e5 capacity block. Project current ScholaWrite edits retrospectively with original source hashes and annotation labels. Exercise the existing ToMpathy extension capture and actual parser/matcher in an isolated browser profile. Attempt the exact released DAMASHA architecture import without installing into the live environment.
+
+**Found.** All 23 focused checks pass after a pre-dispatch surface-column naming collision was caught and repaired; the earlier failing rehearsal and frozen capacity code remain. The complete e5 block's saved logits, probabilities and output bindings replay. Its companion causal scorer is still running, so whole-capacity timing remains pending. ScholaWrite contributes a fixed descriptive sample of 500 current edits across five previously exposed projects; annotator purpose remains distinct from mental-goal truth, and cross-project identity/near-copy limits remain. The additional detector reserve fixes unused connected components before method outcomes. CoAuthor's prospective V3 allocation retains the largest training component for fit and another for calibration, with all prior allocations preserved. Neither source has gained a new independence claim.
+
+The real offline capture includes Unicode and repeated passages. Import matching succeeds; wrong UTF-16 anchors, ambiguous reassignment and wrong context scope are rejected. The screenshot was inspected. This verifies the offline bridge and exact matching, not a native side panel or live arbitrary-page inference. DAMASHA's exact architecture admission stops at a missing `torchcrf` dependency; no checkpoint forward ran and no reproduction claim is made. Its unavailable comparator remains explicit. The first browser harness invocation failed on Windows module URL syntax before browser execution; its original source is retained, and the corrected isolated check passed.
+
+**Means.** The CPU roster can be frozen with meaningful consumer gates. Full tuning and primary Qwen inference remain prepared but held in Gear 1. Independent-memory comparisons cannot run where the training source has only one connected component; invalid attempts still incur worst proper loss and receive no empty-location credit. Absolute reporting checkpoints are implemented for Thursday evening, Friday's early review and 05:00 deadline. No unfinished per-artifact scientific scores or new theory claims are reported, and no additional tests were harvested beyond the approved specification.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can the approved studies run with tested consumers and truthful evidence boundaries? Outcome: **Infrastructure**. Result: consumers and the offline bridge pass their scoped checks, with missing capabilities retained. Project meaning: bounded Gear 1 dispatch can proceed. Next engineering obligation: freeze and dispatch the roster, verify actual capacity and retain final-packet deficits. Public claim: unchanged. Curator decision required: No. Detail: [setup validation](results/phase_2_4_stage_13/SETUP_VALIDATION.json).
+
+---
+
+### OPS-S13-CORE-ADMISSION-0927 - CPU readers run and human scope is bounded
+
+**Hypothesis.** A real CPU detector interface and audited human episode sources can support eligible Gear 1 comparisons while retaining their distinct limitations.
+
+**METHOD.** Run the released e5 classifier and cached GPT-2 medium through actual one-thread CPU model loading, tokenizer/forward calls, repeated-input equality and finite-output checks. The causal scorer also checks the expected natural-text versus corrupted-text likelihood direction. Verify complete outputs and queue exit. Reconstruct CoAuthor episodes to the next menu/session boundary, check native handling and exact spans, and join writer/prompt identities before partitioning.
+
+**Found.** Both actual CPU reader admissions pass; their source-bound complete outputs and the two-job native queue exit verify. These are interface/control admissions, not demonstrated AI-detection accuracy. CoAuthor's inherited evaluation records form one connected component. The initial allocation therefore had no independent reserved group; its original receipt remains. A distinct outcome-independent allocation places one original training component into calibration and the original evaluation component into reserve. Each partition contains only one connected component, so uncertainty intervals and confirmatory generalization remain unavailable. All human sources remain previously exposed.
+
+**Means.** Eligible CPU scoring can proceed. Human-process comparisons remain descriptive and cannot provide independent mental-goal truth. The known-source extraction upper bound stays separate from inference. Heavy GPU arms remain held. No scientific scores or theory conclusions are advanced by these infrastructure admissions; original source limitations remain in the final-packet obligations.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can the CPU methods execute with explicit source boundaries? Outcome: **Infrastructure**. Result: both CPU reader interfaces pass their known-input controls. Project meaning: complete bounded scoring blocks can be dispatched in Gear 1. Next engineering obligation: validate complete consumers, dispatch the source-bound roster and preserve unavailable comparisons. Public claim: unchanged. Curator decision required: No. Detail: [admission receipt](results/phase_2_4_stage_13/CORE_ADMISSION.json).
+
+---
+
+### OPS-S13-SOURCE-0927 - source groups admitted after located-truth failure
+
+**Hypothesis.** Retaining connected source families and explicit annotation defects can make the detector benchmark usable without presenting defective location labels as truth.
+
+**METHOD.** Verify the pinned release, join exact-normalized and candidate near-duplicate human seeds, quarantine components crossing original splits, choose source groups by fixed hash, and separate development from calibration by source component. Recompute all output hashes and independently verify disjoint units and unique record IDs. The first admission failed before inference; retain its original code and failure, audit the entire release, then make one source-interface correction that retains invalid locations with an explicit ineligibility field.
+
+**Found.** The selected partitions contain 800 training, 816 development, 784 calibration and 1000 reserved source components. Twelve cross-split components are quarantined. The release has 23 malformed located annotations, including empty and out-of-range spans; 2 occur in the selected rows. Their original spans remain intact and cannot enter a location-truth comparison. Version-level provenance labels remain separately usable. All output hashes, unique IDs and partition separation pass. No model outcome was used for allocation.
+
+**Means.** Source admission passes with disclosed location deficits. Minhash candidate search is approximate, human writer identity is absent, and upstream training exposure is not fully auditable. These limits prevent a stronger independence claim. This is infrastructure, with no scientific comparison or theory change. Continue model/consumer admission; preserve the original failed source attempt.
+
+**Curator roll-up.** Theory group: instrument validity. Question: can the new source retain its lineage and annotation limits? Outcome: **Infrastructure**. Result: source partitions pass integrity checks with explicit location deficits. Project meaning: detector work may proceed while invalid located truth remains unavailable. Next engineering obligation: admit readers and complete consumers. Public claim: unchanged. Curator decision required: No. Detail: [source receipt](results/phase_2_4_stage_13/SOURCE_ADMISSION.json).
+
+---
+
+### OPS-S13-INTAKE-0927 - approved setup and pinned public intake
+
+**Hypothesis.** A separately bounded, reproducible public intake can support the new detector comparison without altering earlier studies.
+
+**METHOD.** Fetch exact upstream dataset and detector revisions, retain their cards and per-file download receipts privately, then independently recompute every file hash and size. Inspect the actual Parquet schema and source counts without opening scientific outcomes.
+
+**Found.** All 48 downloaded files verify, totaling 597,810,520 bytes. The data expose source IDs, split/domain/generator/version fields, text and located AI spans. The released detector has a complete local checkpoint. These observations establish intake integrity, not model compatibility, independence or detector validity; those admissions remain pending. No per-artifact scientific score was interpreted.
+
+**Means.** The owner approved implementation under Gear 1 with a fixed October 2 at 05:00 PDT finish. New science must fit before October 1 at 21:00 PDT, retaining eight hours for replay and reporting. This supersedes the source's rolling clock and Gear 2. CPU setup proceeds; heavy GPU studies stay held. No new tests were harvested beyond implementing the approved brief. Stage 12 clocks and deficits remain separate.
+
+**Curator roll-up.** Theory group: instrument validity. Question: are the new public inputs reproducibly available? Outcome: **Infrastructure**. Result: all public intake files verify. Project meaning: source and consumer admission can proceed. Next engineering obligation: validate lineages, readers and complete consumers before dispatch. Public claim: unchanged. Curator decision required: No. Detail: [intake receipt](results/phase_2_4_stage_13/INTAKE_VERIFIED.json), [approved plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md).
+
+---
+
 ### OPS-S13-PREP-0927 - documentation filed and implementation plan prepared
 
 **Hypothesis.** Separating current authority from historical study and operating documents can make the next implementation unambiguous without changing scientific evidence.

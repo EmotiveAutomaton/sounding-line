@@ -18,6 +18,12 @@ with the reason.
 
 ---
 
+## Stage 13 implementation approval - 2026-09-27
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S13-APPROVAL | Approve all studies; run Gear 1; finish Friday at 05:00 Seattle time | Fixed October 2 deadline and eight-hour reporting reserve; admitted CPU campaign running, GPU studies prepared and held | Stage 13 execution handoff; OPS-S13-ROLLOUT-0927 | built |
+
 ## Stage 13 preparation and workspace organization - 2026-09-27
 
 | # | Contribution and source | What it produced | Where | Status |

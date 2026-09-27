@@ -1,9 +1,18 @@
 # TODO: the study queue
 
-## Stage 13 ? pending implementation approval, September 27
+## Stage 13 - implementation approved, September 27
 
 - [x] File the supplied brief, organize historical documentation/worktrees, refresh current authority and prepare the [implementation plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md).
-- [ ] After owner go-ahead: implement the plan's source, consumer and admission sequence under Gear 1; keep heavy GPU branches held.
+- [x] OPS-S13-SETUP-VALIDATION-0927: complete consumers, scoped source admissions and offline bridge verified; missing comparators retained. Freeze and dispatch the whole roster.
+- [x] OPS-S13-CORE-ADMISSION-0927: CPU reader admission and descriptive human-source boundary recorded; main consumers and dispatch remain.
+- [x] OPS-S13-SOURCE-0927: source admission landed; original failure and invalid location truth retained.
+- [x] OPS-S13-INTAKE-0927: pinned public intake verified and fully recorded.
+- [x] OPS-S13-ROLLOUT-0927: frozen complete-block roster, CPU capacity, actual Gear 1 launch, source/output replay and native monitoring verified. Full infrastructure write-through complete.
+- [ ] Land complete Stage 13 cells internally; keep unfinished per-artifact scores out of chat. See [execution handoff](docs/design/stage-13/EXECUTION.md).
+- [ ] At the core exit or four-hour health check, re-estimate whether the entire prepared conditional reserve extension fits before Thursday at 21:00 PDT; retain its 45-hour minimum guard. Do not submit it before the complete core reserve consumer.
+- [ ] Keep full tuning and Qwen cards held until the owner changes gear; then inspect native ownership, resources, complete-block time and admission before scoped submission.
+- [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
+- [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
 - [ ] Preserve the separate Stage 12 final packet due September 28 at 06:17 PDT and independent four-hour supervision. No restart of its expired allocation.
 
 This section supersedes older running labels as current authority. Prior records follow.

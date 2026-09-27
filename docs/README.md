@@ -1,6 +1,6 @@
 # Documentation - current authority, methods and history
 
-**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** Stage 13 is planning only, awaiting go-ahead; Stage 12 remains stopped with its original final report due.
+**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** Stage 13 is running under Gear 1; Stage 12 remains stopped with its original final report due.
 
 **The claims live in [`theory/`](theory/), organised by what we believe; the methods live in
 [`../FINDINGS.md`](../FINDINGS.md), organised by when we ran them.** A result exists in both or

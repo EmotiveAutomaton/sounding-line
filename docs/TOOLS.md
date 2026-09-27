@@ -10,6 +10,18 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ---
 
+## Stage 13 instruments
+
+OPS-S13-ROLLOUT-0927: complete CPU capacity, fresh final-capsule reader admissions and the first production block replay; native serial Gear 1 dispatch, fixed checkpoints, immutable bindings and four-hour monitoring verify. Source/consumer and native-queue fixtures pass. Missing GPU and exact DAMASHA comparisons remain explicit. [Rollout](../results/phase_2_4_stage_13/ROLLOUT.json), [health](../results/phase_2_4_stage_13/HEALTH_20260927_1519.json).
+
+OPS-S13-SETUP-VALIDATION-0927: 23 known-answer, malformed-input, source-fold, complete-consumer and native-queue checks pass. Completed e5 block replays. Actual ToMpathy capture/parser/matcher verifies exact Unicode anchors and rejects ambiguity/scope mismatches. DAMASHA architecture import is unavailable because `torchcrf` is absent; no checkpoint forward or reproduction claim. [Receipt](../results/phase_2_4_stage_13/SETUP_VALIDATION.json).
+
+OPS-S13-CORE-ADMISSION-0927: actual e5 and GPT-2 medium CPU forwards, tokenizer readouts, finite/deterministic controls and native queue exit verify. Human episode sources reconstruct, but each writer/prompt partition has one component; no population interval or unexposed-human claim. [Receipt](../results/phase_2_4_stage_13/CORE_ADMISSION.json).
+
+OPS-S13-SOURCE-0927: source/output hashes, unique records and disconnected partitions verify after retaining the original failed location admission. Invalid span truth remains marked unavailable; exact and candidate near-duplicate links precede outcomes. [Receipt](../results/phase_2_4_stage_13/SOURCE_ADMISSION.json).
+
+OPS-S13-INTAKE-0927: 48 public source/model files independently rehashed and size-checked. Intake only; source independence, readers and consumers await admission. [Receipt](../results/phase_2_4_stage_13/INTAKE_VERIFIED.json).
+
 ## Stage 12 bounded consumers
 
 OPS-S12-HEALTH-0927-1112: unchanged records, released locks, frozen sources, expired-window rejection and actual native monitoring/delivery verify. No recovery or restart. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260927_1112.json).
