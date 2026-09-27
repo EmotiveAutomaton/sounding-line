@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## Four-hour inspection - September 26, 18:53 PDT
+
+OPS-S12-HEALTH-0926-1853 verifies the unchanged drained queue, released locks,
+retained records, frozen sources and actual health delivery. Native monitoring
+identities and freshness pass. Current GPU capacity passes, but the expired
+allocation still blocks LP16 generation. No recovery or restart. Preserve all
+existing deficits for the original September 28 at 06:17 PDT final packet.
+Full write-through precedes ACK and the next independent four-hour check.
+[Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_1853.json).
+
 ## Four-hour inspection - September 26, 14:46 PDT
 
 OPS-S12-HEALTH-0926-1446 verifies the unchanged drained queue, released locks,
