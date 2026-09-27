@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 12 bounded consumers
 
+OPS-S12-HEALTH-0927-0303: unchanged records, released locks, frozen sources, expired-window rejection and actual native monitoring/delivery verify. No recovery or restart. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260927_0303.json).
+
 OPS-S12-HEALTH-0926-2259: unchanged records, released locks, frozen sources, expired-window rejection and actual native monitoring/delivery verify. No recovery or restart. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_2259.json).
 
 OPS-S12-HEALTH-0926-1853: unchanged records, released locks, frozen sources and actual native monitoring/delivery verify. GPU capacity passes; the expired-window guard still blocks generation. No recovery or restart. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260926_1853.json).
