@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [CALIBRATION_20260927_1632.json](CALIBRATION_20260927_1632.json) | Complete calibration producer coverage, replay, preserved unavailable memory and native Gear 1 continuation |
 | [READOUT_PREFLIGHT_20260927.json](READOUT_PREFLIGHT_20260927.json) | Failed admission blocks both paired-readout successors before model dispatch; preflight timing remains unmetered |
 | [EARLY_CELLS_20260927.json](EARLY_CELLS_20260927.json) | Full scoped analyses, replay, evidence limits and failed paired-readout admission (L451-L454) |
 | [PRODUCERS_20260927_1542.json](PRODUCERS_20260927_1542.json) | Completed production bindings, replay and native continuation |

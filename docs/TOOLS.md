@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-CALIBRATION-0927-1632: context calibration 000 and contribution calibration 001 pass source/input/output bindings, complete treatment census and semantic replay. The contribution producer replays byte for byte; context likelihood normalization and memory selection replay. Unavailable independent memory stays explicit. No reserved comparison yet. [Receipt](../results/phase_2_4_stage_13/CALIBRATION_20260927_1632.json).
+
 OPS-S13-EARLY-CELLS-0927: four full CPU analysis consumers, detector production, training-only fit and calibration replay. SmolLM paired elicitation admission fails on capped literal outputs; both dependent jobs retain preflight-failure terminals without model dispatch. ScholaWrite full-operation assistance is not matched to the direct reader crop; ARIES restricted-view rivals also differ in evidence. See L451-L454 and [receipt](../results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
 
 OPS-S13-A-PRODUCERS-0927-1542: complete first causal and second e5 production blocks pass source/input/output hashes, row census, admitted-reader identity and semantic replay; native Gear 1 continuation verifies. No scientific comparison yet. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1542.json).

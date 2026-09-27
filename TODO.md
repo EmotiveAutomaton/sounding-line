@@ -2,6 +2,7 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-CALIBRATION-0927-1632: complete context and contribution calibration producers fully recorded with immutable bindings, replay and unavailable-memory accounting. Continue the frozen consumers; no new scientific claim.
 - [x] L451-L454 / OPS-S13-EARLY-CELLS-0927: full ScholaWrite and retained-record consumers landed with replay and evidence limits; completed producers recorded.
 - [ ] OPS-S13-READOUT-REPAIR: at a serial boundary, assess the one permitted development interface correction for capped SmolLM probability elicitation. Preserve failed v1 and its costs; no reserved data or widening admission. Independent context likelihood work continues.
 - [ ] L451/L452/L454: final packet must retain the unmatched full-operation/diff evidence, missing strong ScholaWrite rivals, and absent realization interaction; no matched reconstruction claim from these diagnostic cells.

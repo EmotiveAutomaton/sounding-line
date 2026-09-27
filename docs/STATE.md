@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## September 27, 16:32 PDT: calibration producers landed; Gear 1 continues
+
+Context calibration 000 and contribution calibration 001 pass complete bindings,
+coverage and replay. Unavailable independent-memory treatments remain recorded.
+The next context calibration block is running with verified native ownership,
+below-normal priority and fresh progress. No reserved scientific verdict; the
+failed paired-readout interface and its existing bounded repair obligation remain.
+Four-hour health is still 19:30 PDT. Fixed Stage 12 and Stage 13 reporting deadlines
+are unchanged. [Receipt](../results/phase_2_4_stage_13/CALIBRATION_20260927_1632.json).
+
 ## September 27, 16:10 PDT: early cells landed; independent Gear 1 work continues
 
 The four completed CPU analysis cells have full internal landings (L451-L454),

@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S13-CALIBRATION-0927-1632 - complete calibration producers preserved
+
+**Hypothesis.** The contribution and context calibration producers retain every declared input and treatment, including unavailable independent-memory cases, without admitting an unfinished scientific comparison.
+
+**METHOD.** Verify immutable manifest, input, source and output hashes and prerequisite admissions; replay every saved score and the complete contribution producer; check the full episode-by-view-by-treatment census. Independently reconstruct context probabilities from saved candidate log likelihoods, verify omitted-candidate truth, source-disjoint memory selection and individual-row receipts. Inspect actual native queue/worker identities, priority, progress and watcher delivery. No new neural calls are made.
+
+The table records execution coverage and original costs, not scientific performance. Rows are calibration blocks; prediction records repeat the same input episodes across declared views and treatments and are not independent observations.
+
+| Calibration block | Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|---|
+| Context 000 | 4 | 80 | 72 / 8 | 74 | 1134.269 | 1058.609 |
+| Contribution 001 | 4 | 116 | 116 / 0 | 2 | 15.667 | 14.609 |
+
+**Found.** All 353 distinct frozen source bindings and all output, input, census and replay checks pass. The context reader matches its admitted CPU identity. The independent-memory treatment retains eight unavailable records because the frozen training set has only one independent component; those are explicit missing capability, not a null effect or successful independent-memory test. The contribution producer replays byte for byte. Calibration-only coverage does not establish reserved performance or make these historically exposed human records independent source replications. The known missing goal truth and held primary reader remain unchanged. Inspection itself used 16.719 CPU seconds.
+
+At 16:32 PDT the same native coordinator and its next context calibration worker are alive, with fresh output and below-normal priority. The watcher has no current error; both events have actual delivery receipts. The prior failed paired-readout admission and gated successors remain preserved, with the bounded interface-correction obligation still open at a serial boundary. The frozen source capsule is unchanged. Independent four-hour health remains 19:30 PDT; separate Stage 12 milestones and the Friday 05:00 final packet remain unchanged.
+
+**Means.** Continue the authorized frozen Gear 1 queue and retain these blocks for their complete consumers. No tests harvested this pass; no new research, cloud use, delegation or gear change. Scientific comparisons remain pending and no per-artifact scores are reported. This is an instrument landing in TOOLS, not a theory amendment; no p-value or multiplicity entry is introduced.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are completed calibration predictions fully preserved without dropping unavailable treatments? Outcome: **Infrastructure**. Result: Both calibration producers pass their execution and replay checks with unavailable memory retained. Project meaning: Calibration evidence is intact but does not establish the reserved comparisons. Next engineering obligation: Land complete consumers and assess the existing bounded readout correction at a serial boundary. Public claim: unchanged. Curator decision required: No. Detail: [calibration receipt](results/phase_2_4_stage_13/CALIBRATION_20260927_1632.json).
+
+---
+
 ### OPS-S13-EARLY-CELLS-0927 - full early landings and failed readout admission
 
 **Hypothesis.** Complete source-bound producers and consumers can be recorded without passing a failed interface or interrupting independent Gear 1 work.
