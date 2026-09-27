@@ -9,6 +9,156 @@ ran it.
 
 ---
 
+### OPS-S13-EARLY-CELLS-0927 - full early landings and failed readout admission
+
+**Hypothesis.** Complete source-bound producers and consumers can be recorded without passing a failed interface or interrupting independent Gear 1 work.
+
+**METHOD.** Verify immutable manifests, terminal/output/input/source hashes; replay all four early analysis consumers, the training-only contribution fit and calibration scoring; check detector row census and admitted-reader identity. Independently recompute retained expected losses and adjusted revision signs. Inspect actual queue/worker native identity, below-normal priority, output freshness and watcher state. These inspections use no new neural calls.
+
+The table reports original execution costs and verified output counts. It does not pool scientific targets or count repeated predictions as independent observations.
+
+| Completed job | Output files | Wall seconds | CPU seconds |
+|---|---|---|---|
+| A-train-001-gpt2-medium-logrank | 258 | 1205.680 | 1111.891 |
+| B-fit | 2 | 2.323 | 1.797 |
+| B-schola-coupling | 3 | 4.660 | 4.031 |
+| D-aries | 2 | 2.136 | 1.781 |
+| D-realization | 2 | 1.803 | 1.406 |
+| D-revision | 2 | 1.898 | 1.516 |
+| readout-admission | 2 | 54.462 | 38.891 |
+| B-calibration-000 | 2 | 56.865 | 51.125 |
+
+**Found.** All bindings and replay checks pass, covering 530 distinct frozen source bindings. The second causal-scoring block contains 256 complete rows. The contribution fit uses 437 training episodes; the first calibration producer contains 16 input episodes and 464 prediction records. Both are infrastructure, with no reserved comparison implied. The small SmolLM2-360M-Instruct CPU admission **fails**: both literal outputs are capped and invalid, although both conditional-likelihood known-answer controls pass. A COMPLETE marker records finished execution, not admission. Its paired readout successors remain gated; the independent conditional-scoring context branch is a separate interface. Original failed responses remain intact. The calibration and reserve successors each have an explicit failed-reader-gate terminal at preflight, with no DISPATCH or predictions and no model calls. Their preflight CPU/elapsed cost was not metered and is unavailable, not zero. [Failure companion](results/phase_2_4_stage_13/READOUT_PREFLIGHT_20260927.json) retains both exact terminals and manifest bindings.
+
+The four completed scientific cells are fully landed in L451-L454. ScholaWrite's full-pair operation extraction versus a cropped direct reader fails the matched-evidence interpretation; ARIES restricted-view comparisons also retain a wider-evidence rival. No scoring script or frozen source capsule is changed. At 16:10 PDT the native queue and context calibration worker are alive with fresh progress under Gear 1; the watcher has no current error. The separate 19:30 PDT health deadline, Stage 12 report milestones and Friday 05:00 packet remain unchanged. The full inspection used 97.828 CPU seconds, apart from the small additional calibration replay; no cloud or GPU service was launched.
+
+**Means.** Continue the frozen eligible branches and record the failed readout's bounded prospective repair obligation separately. No tests harvested this pass; no research campaign, spending, delegation, gear change or restart. Scientific scores stay internal until the final curator packet. Original attempts and costs remain; the current complete scientific comparisons do not establish the campaign's detector or neural reconstruction result.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Can finished work be preserved while failed admission remains gated? Outcome: **Infrastructure**. Result: Complete cells replay while the failed probability interface remains unadmitted. Project meaning: Queue execution and scientific admission remain separate. Next engineering obligation: Maintain eligible Gear 1 work; assess the permitted readout-interface correction at a serial boundary without mutating the running capsule. Public claim: unchanged. Curator decision required: No. Detail: [complete-cell receipt](results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
+---
+
+### L454 - requested versus realized feature cells preserve the assistance boundary
+
+**Hypothesis.** A reader distinguishes actually present surface features from requested ones, including unfulfilled requests and features that were never requested.
+
+**METHOD.** Reuse the complete 384 Qwen direct/account forecasts over 64 exact-feature items from 20 model-generated artifact lineages (L449). Partition by requested versus counterfactual feature and exact presence versus absence. Verify each saved target against its exact-check record, rederive literal probability losses, and replay every conditional aggregate. Use equal lineage weights within each cell and retain canonical 1,000-draw 95% bootstrap intervals in the receipt. There are no new model requests, fitted thresholds or selected subgroups.
+
+The table reports full Brier loss (lower better; uniform is 0.5 and the defining exact checker is zero). Every view names the feature. The provenance view adds whether it was requested; the checker view additionally supplies the correct answer. Attempts are per method; lineage counts are overlapping across cells, not additional independent artifacts. All attempts are literal-valid. Full cell intervals are in the linked receipt; these point estimates are not a formal interaction test.
+
+| Feature origin | Exact state | Visible evidence | Attempts | Lineages | Direct Brier | Account Brier |
+|---|---|---|---|---|---|---|
+| Requested | Absent | Feature + artifact | 12 | 10 | 1.300770 | 0.647250 |
+| Requested | Absent | Plus instruction provenance | 12 | 10 | 0.702040 | 1.300770 |
+| Requested | Absent | Plus exact checker answer | 12 | 10 | 0.200331 | 0.000520 |
+| Requested | Present | Feature + artifact | 20 | 16 | 0.181156 | 0.006881 |
+| Requested | Present | Plus instruction provenance | 20 | 16 | 0.174069 | 0.556737 |
+| Requested | Present | Plus exact checker answer | 20 | 16 | 0.250000 | 0.350625 |
+| Never requested | Absent | Feature + artifact | 23 | 15 | 1.311314 | 1.527945 |
+| Never requested | Absent | Plus instruction provenance | 23 | 15 | 0.488994 | 0.952307 |
+| Never requested | Absent | Plus exact checker answer | 23 | 15 | 0.200158 | 0.108171 |
+| Never requested | Present | Feature + artifact | 9 | 9 | 0.657822 | 0.444000 |
+| Never requested | Present | Plus instruction provenance | 9 | 9 | 0.879156 | 0.443556 |
+| Never requested | Present | Plus exact checker answer | 9 | 9 | 0.000000 | 0.444000 |
+
+**Found.** Performance depends on requested status, actual presence and evidence view. Naming the feature does not make the unaided reader an exact checker; unrequested absent features are especially error-prone, while supplied checker answers can still be misused. There is no stable account/direct ordering across these cells. The complete existing family retains 82 infinite logarithmic losses, with none normalized or repaired here.
+
+**Validity and limits.** Requested and counterfactual groups differ in presence rates and feature composition; conditioning does not randomize them. These exact punctuation, sentence, opening and address rules are narrower than semantic purpose or general linguistic truth. The unchanged defining checker is a privileged reference, not a separately learned diff rival. Cell intervals and main effects cannot substitute for an uncomputed paired interaction; no broad instruction-echo or intention-recovery verdict follows.
+
+**Means.** The owed conditional census and all cell scores are recorded. Preserve the earlier pooled assistance finding and disclose the remaining interaction/rival limits rather than claiming that the requested-versus-realized distinction is solved. No new p-value or inference was introduced.
+
+**Curator roll-up.** Theory group: decision traces. Question: Can the reader separate requested surface features from actual realization? Outcome: **Narrows**. Result: Conditional cells retain strong dependence on realization and explicit assistance. Project meaning: Feature verification and historical goal recovery remain different tasks. Next engineering obligation: Carry the conditional cells, unmatched feature composition and missing interaction into the final packet. Public claim: unchanged beyond the scoped conditional diagnostic. Curator decision required: No. Detail: [complete-cell receipt](results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
+---
+
+### L453 - saved-reply diagnostic survives unchanged and irrelevant-update subtraction
+
+**Hypothesis.** Diagnostic evidence changes the false-versus-true saved-reply penalty beyond the change produced by unchanged rereading or equally long irrelevant input.
+
+**METHOD.** Reuse all 2,688 forecasts from the original 64-history LP21 discovery roster (L439), preserving the separate prospectively reserved L450 roster. Recompute expected half-Brier loss from literal probabilities and exact target distributions, counting invalids at one. Within each history and method, compute saved minus fresh loss, subtract the corresponding unchanged or irrelevant-update penalty, then take false frame minus true frame. Average the two methods inside each history. Independently reconstruct the signed contrast and replay the full consumer with canonical cluster order. The new diagnostic uses 1,000 bootstrap draws and 95% intervals; it does not replace the old primary's seed, draw count, interval or practical margin.
+
+The table reports corrected false-minus-true saved penalties in expected half-Brier loss, where positive means relatively greater false-frame harm after the named control is subtracted. Brackets are descriptive 95% history-cluster intervals. The two rows use the same 64 histories and are not independent replications.
+
+| Subtracted update control | Mean interaction | 95% interval | Histories |
+|---|---|---|---|
+| Irrelevant | +0.138709 | [+0.037580, +0.239933] | 64 |
+| Unchanged | +0.121311 | [+0.042851, +0.210083] | 64 |
+
+**Found.** Both adjusted interactions are positive and their descriptive intervals exclude zero. The conditional false-frame saved-text disadvantage is therefore not removed by either control subtraction in this discovery roster. All initial replies, malformed forecasts and source-dependent exact-information floors are retained; within each matched saved/fresh pair the same reference floor cancels algebraically. Original infinite logarithmic losses remain unchanged.
+
+**Means.** This supplies the missing update-control-adjusted diagnostic; it is evidence about explicitly supplied earlier text in one constructed law and Qwen reader. It does not identify hidden persistence, belief uptake, a human correction mechanism, general selective learning or a new confirmed harm threshold. The reserved roster's older unadjusted result remains separate. No new generation, p-value or retrospective promotion of the original unresolved primary occurs.
+
+**Curator roll-up.** Theory group: contextual updating. Question: Does the false-frame saved-reply penalty remain after generic update movement is subtracted? Outcome: **Narrows**. Result: Both control-adjusted discovery contrasts retain positive descriptive penalties. Project meaning: Explicit saved-text harm has a more specific within-law diagnostic, without identifying human updating. Next engineering obligation: Retain discovery exposure, the separate reserved result and the new estimand in final synthesis. Public claim: newly licensed only for the descriptive adjusted contrast. Curator decision required: No. Detail: [complete-cell receipt](results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
+---
+
+### L452 - full-evidence diff rival leads the exposed ARIES reserve stratum
+
+**Hypothesis.** A coherent account improves request/edit correspondence beyond direct reading and a cheap model of the actual textual changes, including the previously reserved-paper stratum.
+
+**METHOD.** Reuse all 384 literal Stage 12 ARIES forecasts without new model requests. Fit a fixed logistic diff rival on the eight training-tagged papers: request overlap with added, removed, before and after text, plus added/removed character fractions. Evaluate the sixteen pairs from eight reserve-tagged papers, retaining direction, evidence view and direct/account reading. Rehash retained outputs; reproduce the consumer and raw probability losses exactly. Average within paper, then across papers; compute deterministic ordered 1,000-draw 95% paper bootstrap intervals. This is a newly commissioned descriptive reanalysis of exposed records, not a fresh reserve.
+
+The table reports full Brier loss (lower better; binary uniform is 0.5), not the half-Brier scale of the original landing. Request and edit are the two wording directions; pair supplies the full pair, context the earlier context, and change the changed text under the old interface. Each cell has sixteen attempts and eight paper clusters. The last column subtracts the diff rival's loss; positive favors that rival. Brackets are descriptive 95% intervals, without family-wide significance claims.
+
+| Direction | View | Reader | Mean Brier | Reader minus diff [95% interval] |
+|---|---|---|---|---|
+| request | pair | direct | 0.746147 | +0.321492 [+0.007047, +0.539621] |
+| request | pair | account | 0.738823 | +0.314168 [-0.021843, +0.560940] |
+| request | context | direct | 0.840872 | +0.416217 [+0.181202, +0.553279] |
+| request | context | account | 0.843305 | +0.418649 [+0.192588, +0.548149] |
+| request | change | direct | 0.834627 | +0.409972 [+0.171545, +0.548746] |
+| request | change | account | 0.993142 | +0.568486 [-0.011858, +1.058077] |
+| edit | pair | direct | 0.948946 | +0.524291 [+0.493156, +0.557331] |
+| edit | pair | account | 0.852664 | +0.428008 [+0.045013, +0.828300] |
+| edit | context | direct | 0.856088 | +0.431432 [+0.183237, +0.610430] |
+| edit | context | account | 1.064442 | +0.639787 [+0.487868, +0.893345] |
+| edit | change | direct | 1.052704 | +0.628049 [+0.445641, +0.902761] |
+| edit | change | account | 0.755734 | +0.331079 [+0.058413, +0.541534] |
+
+**Found.** The diff rival has lower point loss in every cell; all reader means remain worse than uniform. Its common paper-weighted loss is 0.424656, and pair-ranking area under the receiver-operating curve is 0.921875. The latter is an ordering statistic, where 0.5 is random ordering and 1 is perfect, not calibrated confidence. Account versus direct order still varies by direction/view. Every retained forecast is literal-valid; previous zero-support logarithmic failures remain in the original results.
+
+**Validity and limits.** The cheap rival reads the full supplied before/after/request object. Its comparisons to restricted context/change views are therefore **not matched-evidence method tests**. Even the full-pair comparison is not a matched-compute comparison. The old reserve tag partitions already exposed papers; source authors and pretraining remain unresolved. Logistic fitting on these few training papers and descriptive resampling do not establish transfer or a fresh confirmatory result. Labels measure annotated correspondence, not whether the writer adopted the request or held a private goal.
+
+**Means.** The owed diff-rival and reserve-stratum analyses are now recorded, with the evidence advantage explicit. They strengthen the engineering obligation to beat a real inexpensive rival while leaving the general account and historical-goal hypotheses open. No original score, interval or p-value is replaced.
+
+**Curator roll-up.** Theory group: historical correspondence. Question: Does an account outperform cheap textual-change correspondence? Outcome: **Narrows**. Result: The full-evidence diff rival has lower point loss throughout the exposed reserve-tagged cells. Project meaning: Pair ranking and probability quality remain distinct; cheap full-evidence reading is a demanding reference. Next engineering obligation: Carry all directions, views, costs and evidence mismatches into the final packet. Public claim: newly licensed only as the stated descriptive rival comparison. Curator decision required: No. Detail: [complete-cell receipt](results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
+---
+
+### L451 - purpose and operation coupling has no established reciprocal advantage
+
+**Hypothesis.** Learning which revision purposes accompany which edit operations improves recovery of both targets beyond separate predictions on the same text evidence.
+
+**METHOD.** Fit word unigram/bigram logistic readers and a purpose/operation compatibility table on 200 retained edits from two ScholaWrite projects. Allocate separate 100-edit development, calibration and reserve projects before outcomes. Fit each method/target temperature on the calibration project; score all 100 reserve edits. Compare endpoint text (A) and before/after text (C), direct marginals, joint compatibility, severed/shifted links, removed exact-operation assistance and uniform purpose input. Re-run the complete deterministic consumer byte-for-byte and independently replay every saved proper loss and calibrated aggregate. These are annotator purpose labels and exact text-edit classes, not maker-stated intentions or a complete process history.
+
+The table reports reserve-project mean Brier loss (sum of squared class-probability errors, lower better) and logarithmic loss (negative log probability of the correct label, lower better). Each target/method row has 100 valid attempts from one project, so no population interval is available. A uses the endpoint's first and last 2,000 characters; C adds the same crop of the earlier text. Exact-operation-assisted C methods additionally use the operation computed from the full pair.
+
+| View | Method | Purpose Brier | Purpose log loss | Operation Brier | Operation log loss |
+|---|---|---|---|---|---|
+| A | Direct feature reader | 0.576146 | 1.650592 | 0.517747 | 1.062568 |
+| A | Joint compatibility | 0.575483 | 1.686717 | 0.530576 | 1.128082 |
+| A | Severed link | 0.576146 | 1.650592 | 0.517747 | 1.062568 |
+| A | Shifted training association | 0.577447 | 1.688500 | 0.523518 | 1.110504 |
+| A | No exact-operation assistance | 0.575483 | 1.686717 | 0.530576 | 1.128082 |
+| A | Uniform purpose input (link retained) | 0.879540 | 2.362401 | 0.513255 | 0.960762 |
+| C | Direct feature reader | 0.578798 | 1.657606 | 0.517082 | 1.059561 |
+| C | Joint compatibility | 0.569920 | 1.678769 | 0.000000 | 0.000011 |
+| C | Severed link | 0.578798 | 1.657606 | 0.000000 | 0.000016 |
+| C | Shifted training association | 0.573919 | 1.664807 | 0.000000 | 0.000011 |
+| C | No exact-operation assistance | 0.577732 | 1.693032 | 0.529557 | 1.123247 |
+| C | Uniform purpose input (link retained) | 0.844364 | 2.429589 | 0.000000 | 0.000068 |
+
+**Found.** Reciprocal improvement is not established. On endpoint evidence, joint compatibility slightly lowers purpose Brier loss but raises purpose logarithmic loss and both operation losses. Severing the link reproduces the direct reader. With exact-operation assistance, operation error approaches zero even when the link is severed; that is extraction assistance, not evidence that purpose coupling recovered the process. Joint purpose Brier improves slightly relative to severed but its logarithmic loss worsens. The uniform-purpose arm still uses the learned link, so its name cannot stand for complete removal of coupling. The endpoint no-execution arm is identical to joint by construction.
+
+**Validity and limits.** The complete 7,200 prediction records cover three nontraining projects, two views, six methods and two targets; only the reserve project supplies the table. Full input-derived operations replay exactly. However, 35 reserve before-texts and 36 endpoints exceed the learned reader crop: the full-pair operation arm is not evidence-budget matched to that reader. Its C comparison is **VOID as a matched-budget reconstruction claim**, retained as descriptive privileged-operation assistance. Project-level calibration and evaluation each have one unit; cross-project writer identity and near copies remain unresolved. A standalone source prior, matched retrieval and strong Qwen counterpart are absent here. These deficits and the heuristic cyclic association control prevent a general joint-mechanism or human-goal claim; they do not refute the general coupling hypothesis.
+
+**Means.** Preserve the complete scoped result and its failed matched-evidence criterion. Keep the full-evidence operation reference visibly assisted and carry the missing matched comparison into final synthesis. No new p-value, research proposal, model request or source correction is introduced by this landing.
+
+**Curator roll-up.** Theory group: goal/process coupling. Question: Does coupling recover both annotated targets beyond separate reading? Outcome: **Narrows**. Result: Reciprocal benefit is not established in the exposed project screen. Project meaning: A successful exact operation reference is distinct from a learned historical account. Next engineering obligation: Retain evidence-budget and missing-rival limits in the final packet; any later correction needs a distinct prospective version. Public claim: unchanged for general coupling; forbidden for matched-budget superiority from the assisted arm. Curator decision required: No. Detail: [complete-cell receipt](results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
+---
+
+
 ### OPS-S13-A-PRODUCERS-0927-1542 - completed training blocks preserved
 
 **Hypothesis.** Successive admitted CPU producers can preserve complete source-bound outputs while the serial queue advances under the fixed Gear 1 contract.

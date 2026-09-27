@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## September 27, 16:10 PDT: early cells landed; independent Gear 1 work continues
+
+The four completed CPU analysis cells have full internal landings (L451-L454),
+with source/consumer replay and evidence-budget limits. The paired SmolLM literal
+readout admission failed; its successors remain gated and its bounded prospective
+repair is owed at a serial boundary. The separate context calibration worker is
+running under verified native ownership and Gear 1 priority. Detector training,
+contribution fit and first calibration production are preserved without a reserved
+verdict. No live source, gear or deadline changed. Four-hour health remains 19:30
+PDT; final curator synthesis remains deferred to the fixed packet.
+[Receipt](../results/phase_2_4_stage_13/EARLY_CELLS_20260927.json).
+
 ## September 27, 15:42 PDT: production continues
 
 The first causal-scoring training block and second e5 block are complete and replayed; the second causal block is running under verified native ownership and Gear 1 priority. Full operational write-through is recorded as OPS-S13-A-PRODUCERS-0927-1542. The 19:30 PDT health deadline and fixed reporting boundary remain unchanged. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1542.json).

@@ -2,6 +2,10 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] L451-L454 / OPS-S13-EARLY-CELLS-0927: full ScholaWrite and retained-record consumers landed with replay and evidence limits; completed producers recorded.
+- [ ] OPS-S13-READOUT-REPAIR: at a serial boundary, assess the one permitted development interface correction for capped SmolLM probability elicitation. Preserve failed v1 and its costs; no reserved data or widening admission. Independent context likelihood work continues.
+- [ ] L451/L452/L454: final packet must retain the unmatched full-operation/diff evidence, missing strong ScholaWrite rivals, and absent realization interaction; no matched reconstruction claim from these diagnostic cells.
+
 - [x] File the supplied brief, organize historical documentation/worktrees, refresh current authority and prepare the [implementation plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md).
 - [x] OPS-S13-SETUP-VALIDATION-0927: complete consumers, scoped source admissions and offline bridge verified; missing comparators retained. Freeze and dispatch the whole roster.
 - [x] OPS-S13-CORE-ADMISSION-0927: CPU reader admission and descriptive human-source boundary recorded; main consumers and dispatch remain.
