@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+## September 27, 15:42 PDT: production continues
+
+The first causal-scoring training block and second e5 block are complete and replayed; the second causal block is running under verified native ownership and Gear 1 priority. Full operational write-through is recorded as OPS-S13-A-PRODUCERS-0927-1542. The 19:30 PDT health deadline and fixed reporting boundary remain unchanged. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1542.json).
+
 ## September 27: Stage 13 running in Gear 1
 
 The owner now approves all planned studies under Gear 1. Fixed finish: October 2

@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_1542.json](PRODUCERS_20260927_1542.json) | Completed production bindings, replay and native continuation |
 | [INTAKE_VERIFIED.json](INTAKE_VERIFIED.json) | Pinned public download hashes and sizes |
 | [SOURCE_ADMISSION.json](SOURCE_ADMISSION.json) | Source partitions and retained location-truth deficits |
 | [CORE_ADMISSION.json](CORE_ADMISSION.json) | Actual CPU reader interfaces and scoped human allocation |

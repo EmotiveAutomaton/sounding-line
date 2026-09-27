@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-A-PRODUCERS-0927-1542: complete first causal and second e5 production blocks pass source/input/output hashes, row census, admitted-reader identity and semantic replay; native Gear 1 continuation verifies. No scientific comparison yet. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1542.json).
+
 OPS-S13-ROLLOUT-0927: complete CPU capacity, fresh final-capsule reader admissions and the first production block replay; native serial Gear 1 dispatch, fixed checkpoints, immutable bindings and four-hour monitoring verify. Source/consumer and native-queue fixtures pass. Missing GPU and exact DAMASHA comparisons remain explicit. [Rollout](../results/phase_2_4_stage_13/ROLLOUT.json), [health](../results/phase_2_4_stage_13/HEALTH_20260927_1519.json).
 
 OPS-S13-SETUP-VALIDATION-0927: 23 known-answer, malformed-input, source-fold, complete-consumer and native-queue checks pass. Completed e5 block replays. Actual ToMpathy capture/parser/matcher verifies exact Unicode anchors and rejects ambiguity/scope mismatches. DAMASHA architecture import is unavailable because `torchcrf` is absent; no checkpoint forward or reproduction claim. [Receipt](../results/phase_2_4_stage_13/SETUP_VALIDATION.json).

@@ -7,6 +7,7 @@
 - [x] OPS-S13-CORE-ADMISSION-0927: CPU reader admission and descriptive human-source boundary recorded; main consumers and dispatch remain.
 - [x] OPS-S13-SOURCE-0927: source admission landed; original failure and invalid location truth retained.
 - [x] OPS-S13-INTAKE-0927: pinned public intake verified and fully recorded.
+- [x] OPS-S13-A-PRODUCERS-0927-1542: first production causal block and second e5 block fully landed; immutable bindings and replay pass. Continue the frozen producers; scientific comparison remains pending.
 - [x] OPS-S13-ROLLOUT-0927: frozen complete-block roster, CPU capacity, actual Gear 1 launch, source/output replay and native monitoring verified. Full infrastructure write-through complete.
 - [ ] Land complete Stage 13 cells internally; keep unfinished per-artifact scores out of chat. See [execution handoff](docs/design/stage-13/EXECUTION.md).
 - [ ] At the core exit or four-hour health check, re-estimate whether the entire prepared conditional reserve extension fits before Thursday at 21:00 PDT; retain its 45-hour minimum guard. Do not submit it before the complete core reserve consumer.

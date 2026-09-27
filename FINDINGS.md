@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### OPS-S13-A-PRODUCERS-0927-1542 - completed training blocks preserved
+
+**Hypothesis.** Successive admitted CPU producers can preserve complete source-bound outputs while the serial queue advances under the fixed Gear 1 contract.
+
+**METHOD.** Rehash every output, manifest, source and input binding for the first production causal-scoring block and second e5 block. Match all returned row keys to the frozen input, match reader identities to their admission records, and replay finite-feature/native-probability checks. Confirm the next worker's native identity, below-normal priority and fresh progress. Reverify the earlier capacity e5 marker against its already published setup landing; no new inference or rerun was requested.
+
+The table records completed production work and costs, not scientific accuracy or independent source counts.
+
+| Completed producer | Input rows | Verified output files | Wall seconds | CPU seconds |
+|---|---:|---:|---:|---:|
+| First causal-scoring training block | 256 | 258 | 1287.87 | 1163.86 |
+| Second e5 training block | 256 | 258 | 97.72 | 85.83 |
+
+**Found.** Both complete producers pass immutable-binding, exact row-census, admitted-reader identity and semantic replay checks. The second causal-scoring training block is running with verified native identity and fresh output under Gear 1. The prior capacity result remains unchanged and was already fully landed. The watcher reports no current error; the independent health deadline is unchanged. No repair was needed.
+
+**Means.** Continue the frozen roster; complete selection, calibration and reserved consumers remain owed. These outputs do not establish a detector comparison, a reconstruction benefit or a theory result. Heavy GPU work stays held and all source/capability limits remain. No tests harvested this pass; no new research, spend or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do successive admitted producers preserve complete evidence as the queue advances? Outcome: **Infrastructure**. Result: the completed training blocks replay unchanged while the next worker progresses. Project meaning: the fixed campaign can continue without rerunning valid work. Next engineering obligation: land complete consumers and preserve missing comparisons in the final packet. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1542.json).
+
+---
+
 ### OPS-S13-ROLLOUT-0927 - Gear 1 campaign running with fixed reporting reserve
 
 **Hypothesis.** A source-bound serial CPU roster can sustain the approved week while keeping held capabilities and the final deadline explicit.
