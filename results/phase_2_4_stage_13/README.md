@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_2220.json](PRODUCERS_20260927_2220.json) | Complete detector producer bindings, coverage and replay; delayed delivery reconciled and Gear 2 continuation |
 | [GPU_COMPLETION_20260927.json](GPU_COMPLETION_20260927.json) | Complete supervised comparator replay and retained primary-reader admission/fixture failure; dependent calls blocked |
 | [CONTEXT_COMPLETE_20260927.json](CONTEXT_COMPLETE_20260927.json) | Complete context/calibration replay, void rendered-memory manipulation and further producer/training integrity (L455) |
 | [GEAR2_READINESS_20260927.json](GEAR2_READINESS_20260927.json) | Concurrent native execution, complete binding audit, retained launcher/interface repairs and component replay |

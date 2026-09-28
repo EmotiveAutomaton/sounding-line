@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-2220: nine detector producers fully recorded; delayed five-event delivery reconciled to unchanged evidence and prior ACKs. Independent CPU core continues; existing repair obligations remain pending.
+
 - [x] OPS-S13-GPU-COMPLETION-0927: full supervised comparator and three further detector producers replayed; failed Qwen call/parser and fixture-scoring defect recorded. Nine dependent cards remain undispatched.
 - [ ] OPS-S13-QWEN-DEVELOPMENT-REPAIR: reconcile the already permitted Qwen family implementation/interface allowances, provide the missing endpoint metadata in a new fixture version, and validate an explicitly specified literal-probability interface on development. Preserve the returned invalid reply and costs; no normalization, current-version repeat, reserve opening or claim of a completed primary comparison.
 

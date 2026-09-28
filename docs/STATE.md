@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## September 27, 22:20 PDT: detector producers recorded; six CPU workers advance
+
+Nine complete detector batches pass immutable binding, complete coverage and saved-feature
+checks. The five-event delayed delivery matches its already pushed landing and original
+ACKs. Gear 2 continues with six verified CPU workers and fresh output: 80 completed,
+three retained failures, ten blocked and 416 pending cards. Qwen admission and the
+void memory contrast remain separate pending development repairs; the GPU lock is absent.
+The sole watcher is healthy and four-hour inspection remains 23:42 PDT. Fixed Friday
+finish and Stage 12 shutdown remain unchanged.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2220.json).
+
 ## September 27, 22:06 PDT: GPU comparator recorded; Qwen admission failed
 
 The complete supervised comparator reproduces exactly from 44,288 saved predictions

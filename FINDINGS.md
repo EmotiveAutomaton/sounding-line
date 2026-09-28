@@ -9,6 +9,36 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-2220 - completed detector batches and delayed delivery reconciled
+
+**Hypothesis.** Approved detector producers can preserve their complete declared input populations and immutable evidence while independent queued work advances.
+
+**METHOD.** Verify each completed manifest, admitted prerequisite and every source/input/output binding. Check exact source and saved-row censuses, admitted model identity, surface-feature replay, finite causal features, token visibility and e5 logit-to-probability replay. Verify actual native queue/worker identities, below-normal priority, CPU advance and output freshness. Reconcile the delayed five-event delivery against its existing pushed landing and unchanged ACK timestamps. No new model calls or altered scientific outputs.
+
+The table identifies the nine newly inspected complete training batches. Rows count recorded examples; outputs count hash-verified files; wall and CPU seconds retain separate incurred worker costs. These are coverage and resource counts, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-009-gpt2-medium-logrank-g2r1 | 256 | 258 | 1534.428 | 1520.625 |
+| core-v1-A-train-010-gpt2-medium-logrank-g2r1 | 256 | 258 | 1491.044 | 1452.172 |
+| core-v1-A-train-011-gpt2-medium-logrank-g2r1 | 256 | 258 | 1475.895 | 1440.766 |
+| core-v1-A-train-012-gpt2-medium-logrank-g2r1 | 256 | 258 | 1605.177 | 1593.766 |
+| core-v1-A-train-014-e5 | 256 | 258 | 118.652 | 115.578 |
+| core-v1-A-train-015-e5 | 256 | 258 | 116.160 | 113.234 |
+| core-v1-A-train-016-e5 | 256 | 258 | 117.376 | 114.578 |
+| core-v1-A-train-017-e5 | 256 | 258 | 121.454 | 118.375 |
+| core-v1-A-train-018-e5 | 256 | 258 | 120.227 | 117.016 |
+
+**Found.** All nine completed producers pass full coverage and saved-feature checks against 353 frozen source and nine input bindings. Each contains 256 rows and 258 verified outputs. No model forward was repeated, and these checks do not establish the unfinished cross-method comparison. The five delivered events were already fully written through and pushed in `8e6531785`; all terminal hashes and original ACK timestamps match. They were not rerun or counted as new completions.
+
+At 22:20 PDT the authoritative queue contains 80 completed, three retained failures, ten blocked, 416 pending and six running cards. All six actual CPU workers have fresh output and verified below-normal native identities. Existing workers sampled previously show CPU advance. The GPU lock is absent; primary Qwen remains blocked after its recorded admission failure. The sole watcher is fresh with the expected loaded source and native identity, and the four-hour deadline remains 23:42 PDT. The context-memory manipulation remains VOID and both bounded development repairs remain pending. Stage 12 stays stopped.
+
+**Means.** Continue the frozen independent CPU work. Preserve failed admissions, the invalid memory contrast, missing comparisons and all original costs; producer integrity does not erase those deficits. Complete consumers receive their own internal landing and the Friday final packet. No deadline, gear, paid use or delegation changes. No tests harvested this pass.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are completed detector producers preserved while approved work continues? Outcome: **Infrastructure**. Result: Complete producer coverage and evidence bindings verify, and the delayed delivery matches its existing landing. Project meaning: Intact producers support later analysis without licensing an unfinished method comparison. Next engineering obligation: Land complete consumers and separately admit any permitted development repair. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_2220.json).
+
+---
+
 ### OPS-S13-GPU-COMPLETION-0927 - full-tuned comparator replayed; primary-reader admission blocked
 
 **Hypothesis.** A completed supervised comparator can be preserved independently of a failed primary-reader admission, without promoting an unfinished cross-method comparison or silently repairing an invalid model response.
