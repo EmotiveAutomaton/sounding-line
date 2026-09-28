@@ -608,7 +608,8 @@ the reason to expect modest effects.
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
 | **HH-SELECTIVE-ATTENTION** | Directed attention, potentially including precision control, supports useful process learning while limiting unwanted uptake from the same source | **OPEN.** Curator conjecture; the human test requires joint measures of attended content, process learning, belief uptake and value change that the current program does not provide. Constructed procedural interference is an analogue, not those missing measurements |
-| **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **VOID for the memory-type contrast; broader context benefit OPEN (test, L455; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The declared memory variants render identically after token projection. The complete descriptive context/calibration consumer replays, but each partition has one source component; independent memory is unavailable and the literal-confidence comparison failed admission. |
+| **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **Original memory-type contrast VOID; corrected benefit OPEN (test, L455/L456; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The original token projection collapsed the treatments. Separately corrected prompts remain distinct and the complete four-episode development consumer replays; linked memory has higher descriptive log loss than raw retrieval or repetition in both views. Unequal lengths and one source component prevent general inference; independent memory and the paired literal-confidence comparison remain unavailable. |
+|   | | *(L455: original memory manipulation erased by token projection; L456: separately frozen development correction realizes distinct treatments, retaining the original void and reserve exposure.)* |
 | **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the complete descriptive blocks (test, constructed worlds, Qwen model reader and exact-program reference, L412/L419).** Correct, false and irrelevant explanations improve against raw input; the second block favors the correct frame, but order, rereading and unchanged repetition also help. Further records substantially improve the second false-frame comparison, without consistent modal improvement under the correct frame. Invalids and infinite losses remain. No general truth-sensitive mechanism, stable method rank or human correction claim is established |
 | **S12-REVISION-1** | Does supplying the exact earlier reply help useful revision at identical later evidence? | **NARROWED by the reserved false-frame interaction (test, L439/L450; separate 64-history constructed rosters in one law, Qwen direct/account readers and independent exact references).** Discovery remains unresolved. The reserved false-minus-true saved penalty clears the frozen harm margin; true and neutral saved-versus-fresh companions remain unresolved. All invalid and zero-support penalties remain. Original process-dependent primary intervals are void for exact replay, with separately preserved canonical CPU corrections. This identifies an explicit saved-text disadvantage, not hidden persistence, selective correction beyond unchanged/irrelevant movement, or a human mechanism. |
 |   | | *(L433/L435: eight-history conditional effects confounded frame with history; L439: complete three-frame crossing removes that confound but remains unresolved; L450: a prospectively reserved roster in the same law resolves the false-minus-true saved penalty after the same deterministic interval correction.)* |
@@ -638,11 +639,13 @@ score, and order, rereading and unchanged repetition offer strong alternative ro
 Added records improve the second false-frame comparison, while correct-frame modal
 agreement worsens there. Invalid outputs, repeat variation and zero-support losses
 limit this descriptive evidence of access and correction (S12-CONTEXT-1, L412/L419).
-The exposed human-record likelihood comparison also cannot establish a benefit of
-structured memory over retrieval or repetition: its token projection makes those
-conditions identical. Remaining context and calibration means are descriptive, with
-one source component per partition and no valid paired elicitation comparison
-(S13-CONTEXT-MEMORY, L455).
+The original exposed human-record likelihood comparison cannot establish a benefit
+of structured memory over retrieval or repetition because token projection makes
+those conditions identical. Separately corrected prompts realize distinct memory
+treatments on development, where retrieval and repetition have lower descriptive
+log loss than linked memory. Unequal lengths and one source component still prevent
+a general memory ranking. The original void, source exposure and missing paired
+elicitation comparison remain (S13-CONTEXT-MEMORY, L455/L456).
 Explicit access to an earlier answer can preserve a useful forecast or carry a wrong
 one forward. The complete saved-reply cells compare identical later snapshots and
 retain unchanged and length-matched irrelevant controls. The within-history crossing

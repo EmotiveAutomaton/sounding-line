@@ -59,7 +59,7 @@ the old coordinator was retired; original worker capsules remain in use.
 Qwen consumes its one interface and one fixture implementation correction;
 memory consumes its implementation correction. Literal confidence remains
 exhausted. Qwen is resource-held under the original floor; memory realization
-passes on all development cases and its consumer runs. Preserve unequal token
+passes on all development cases and its complete consumer replays (L456). Preserve unequal token
 lengths, unavailable independent memory and original reserve exposure. No
 automatic reserve rerun. Current manual report replay handles the new actions;
 old checkpoint inventories alone do not establish that semantic replay.

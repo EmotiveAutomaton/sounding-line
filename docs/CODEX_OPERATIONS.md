@@ -1,5 +1,23 @@
 # Codex operations
 
+## Controlled coordinator handoff alert, 2026-09-28
+
+A deliberate coordinator-only migration left an 11.282-second gap between the
+watcher's disappearance alert and the written retirement receipt. Expensive
+verification ran after termination. The later `cancelled` receipt is also outside
+the watcher's accepted terminal statuses; it alone cannot suppress the alert.
+The old exact process watch is already retired and the registered successor has
+verified native progress. All adopted workers kept their dispatch identities and
+completed. Preserve the original alert; no scientific restart or watcher reload
+is needed. Current delivery and the independent health clock verify separately.
+
+For future controlled migrations, finish expensive prevalidation before retirement,
+preserve an explicit transition receipt and retire only the exact old native watch
+at the controlled boundary. Do not leave that watch expecting a terminal status it
+does not recognize. Verify successor registration and adopted-worker ownership.
+Private identity/timing evidence is in `.agent-state/stage13-setup/`;
+[aggregate reconciliation](../results/phase_2_4_stage_13/MONITOR_AND_DEVELOPMENT_20260928.json).
+
 ## Repaired path: actual idle delivery verified, 2026-09-25
 
 The first independent four-hour health event after the executable-path repair

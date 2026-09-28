@@ -9,6 +9,81 @@ ran it.
 
 ---
 
+### OPS-S13-MONITOR-0928-0031 - retired monitor reconciled; completed producers preserved
+
+**Hypothesis.** A monitor alert during a deliberate coordinator handoff can be distinguished from failed scientific execution using native identities, immutable receipts and actual progress.
+
+**METHOD.** Compare the alert's expected process with the stop instruction, old retirement receipt, successor plan and native owner. Verify every adopted worker's dispatch identity and terminal or continuation. Inspect active workers, CPU/output advance, locks, failure inventory, resource limits, checkpoints and watcher delivery. For complete detector batches, verify all source/input/output bindings, admitted identities, full row censuses, surface/token features and saved probability replay. No repeated inference.
+
+The table records complete detector batches. Rows count source examples; outputs count hash-verified files. Wall and CPU seconds retain separate incurred costs and are not performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-041-gpt2-medium-logrank | 256 | 258 | 1278.867 | 1257.344 |
+| core-v1-A-train-042-gpt2-medium-logrank | 256 | 258 | 1308.103 | 1286.328 |
+| core-v1-A-train-043-gpt2-medium-logrank | 256 | 258 | 1306.730 | 1293.250 |
+| core-v1-A-train-044-gpt2-medium-logrank | 256 | 258 | 1247.561 | 1234.094 |
+| core-v1-A-train-045-gpt2-medium-logrank | 256 | 258 | 1280.728 | 1266.953 |
+| core-v1-A-train-046-e5 | 256 | 258 | 91.764 | 88.938 |
+| core-v1-A-train-047-e5 | 256 | 258 | 90.250 | 87.734 |
+| core-v1-A-train-048-e5 | 256 | 258 | 88.641 | 85.688 |
+| core-v1-A-train-049-e5 | 256 | 258 | 89.639 | 86.547 |
+| core-v1-A-train-050-e5 | 256 | 258 | 92.393 | 88.766 |
+| core-v1-A-train-051-e5 | 24 | 26 | 16.897 | 16.000 |
+
+**Found.** The old coordinator disappeared intentionally after its stop instruction. The watcher recorded that disappearance 11.282 seconds before the retirement receipt was written. The migration script verified older completed outputs in that gap. Its later `cancelled` status is also outside the watcher's recognized terminal statuses, so that file alone would not silence supervision. The old process watch has already been removed and the successor registered. The alert and original receipts remain unchanged. All five adopted scientific workers retain their original dispatch identities and have completed; the successor is live and six current CPU workers show fresh output and CPU advance at below-normal priority. No scientific worker was stopped and no additional restart or watcher reload is needed.
+
+All eleven completed detector producers pass their complete evidence checks. The separate completed memory-development consumer also replays (L456). Together these landings verify 379 frozen source bindings and 13 input bindings. The 00:31 PDT snapshot has 148 completed, three retained failures, ten blocked, 351 pending and six running cards. No unknown attempt or new scientific failure was found. The queue/checkpoint kernel locks remain owned, while the scientific GPU lock is absent. Available host memory is 45.4 GiB and disk 802.6 GiB. CPU maximum remains 90% with boost disabled. Qwen remains held at 7,468 MiB free against its unchanged 8,024 MiB requirement; the GPU is 37 C. No application was closed or gate lowered.
+
+The sole watcher has its verified native and loaded-source identities, a fresh scan and actual delivery of this alert and the four notified producers. Both checkpoint helpers are fresh. The independent health inspection stays due at September 28 04:21:04 PDT; these result ACKs do not move it. The historical unknown send is retained. Stage 12 stays stopped with endpoint reconciliation due at 06:17 PDT. No new tests, research, delegation or paid compute were harvested from this wake.
+
+**Means.** Continue the frozen CPU core and retain resource-held Qwen. For a future controlled handoff, complete expensive prevalidation before retiring the coordinator, preserve a transition receipt, and retire only its exact native process watch at the controlled boundary. Do not depend on an unrecognized cancellation status to suppress a monitor. Current recovery is already verified; preserve the alert as a supervision-ordering issue, not a scientific failure. The complete core consumer and fresh whole-family capacity check still gate the prepared extension. Final packet remains October 2 at 05:00 PDT.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Did the monitor alert mean scientific execution stopped? Outcome: **Infrastructure**. Result: Native handoff and continuing evidence production verify. Project meaning: The successor remains healthy and the retained alert has an identified operational cause. Next engineering obligation: Land complete consumers and preserve supervision across any future controlled handoff. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/MONITOR_AND_DEVELOPMENT_20260928.json).
+
+---
+
+### L456 - corrected memory rendering survives complete development replay
+
+**Hypothesis.** Evidence-linked memory can improve recorded-action support beyond raw retrieved handling or repeated evidence, once those treatments remain distinct in the reader's actual prompt.
+
+**METHOD.** Run the separately frozen implementation correction on all four development episodes from the exposed CoAuthor source, with the original GPT-2-medium conditional-likelihood reader. Cross the same two bounded evidence views with all ten memory/context conditions. Reconstruct every actual tokenizer-limited prompt, candidate token sequence, source selection, normalized likelihood, proper loss and complete summary from retained outputs. Keep the original failed manipulation and reserve exposure unchanged; no new forward passes, calibration fit or reserve evaluation were performed for this audit.
+
+**Found.** The corrected raw, linked and repeated records remain distinct in all eight episode/view pairs, with literal repetition checked. Raw memory uses 25 tokens, linked memory 59-69, and repeated memory 51; all complete prompts use 258-361 tokens within the original 512-token ceiling. The complete roster has 80 treatment records: 72 scored records and eight unavailable independent-memory records. Saved prompts, model identity, output hashes and the complete summary reproduce. All four episodes belong to one connected component, so no population interval is estimable. The implementation correction is realized, but unequal contents and lengths still prevent a pure structure or repetition mechanism claim.
+
+The table contains the entire available development comparison, four episodes per row in one component. A is bounded endpoint evidence; C also provides bounded prior text and offered alternatives. Log loss is the negative logarithm of assigned truth probability; Brier loss is summed squared probability error; lower is better for both. Accuracy is the fraction whose largest probability matches the recorded action. Omitted-truth counts retain cases where the control removed the correct candidate. These are uncalibrated descriptive means, not held-out evidence or a selected method ranking.
+
+| View | Condition | Log loss | Brier loss | Accuracy | Omitted truth |
+|---|---|---|---|---|---|
+| A | Repeated raw record | 1.8656 | 0.8681 | 0.5000 | 0 |
+| A | Irrelevant context | 2.6441 | 1.2590 | 0.0000 | 0 |
+| A | Linked recorded operations | 2.4501 | 0.9035 | 0.5000 | 0 |
+| A | Misleading context | 2.1755 | 1.0534 | 0.0000 | 0 |
+| A | One candidate omitted | 9.0122 | 1.2919 | 0.0000 | 1 |
+| A | No memory | 2.2266 | 0.9290 | 0.2500 | 0 |
+| A | Prior answer text | 2.0158 | 0.9806 | 0.0000 | 0 |
+| A | Raw recorded handling | 1.8674 | 0.8733 | 0.5000 | 0 |
+| A | Wrong-location context | 1.8886 | 0.8837 | 0.2500 | 0 |
+| C | Repeated raw record | 1.7702 | 0.8566 | 0.5000 | 0 |
+| C | Irrelevant context | 2.5860 | 1.3021 | 0.0000 | 0 |
+| C | Linked recorded operations | 2.2861 | 0.9015 | 0.5000 | 0 |
+| C | Misleading context | 2.2385 | 1.1098 | 0.0000 | 0 |
+| C | One candidate omitted | 9.3094 | 1.5357 | 0.0000 | 1 |
+| C | No memory | 2.5537 | 1.2108 | 0.0000 | 0 |
+| C | Prior answer text | 2.1214 | 1.1691 | 0.0000 | 0 |
+| C | Raw recorded handling | 1.7623 | 0.8637 | 0.5000 | 0 |
+| C | Wrong-location context | 1.9984 | 0.9676 | 0.0000 | 0 |
+
+Independent memory is unavailable because the training pool contains only one connected component; its eight roster entries remain explicit. The missing-candidate control omits the true action in one development episode per view, retaining the original scoring floor and all incurred costs. There is no valid paired elicited-confidence comparison. Roster coverage is 72 scored of 80 planned records; no new pooled operational utility is invented for unavailable responses.
+
+Raw retrieval and repetition have lower descriptive log loss than linked memory in both views. Linked memory improves against no memory on one view and worsens on the other. This is a complete small development comparison, not evidence of general benefit, equivalence or harm. Source exposure, one component and unequal token lengths preclude stronger inference. The consumer incurred 1210.683 wall seconds and 1198.969 CPU seconds; its separate rendering admission cost remains in OPS-S13-HEALTH-0928-0008. No p-value was introduced.
+
+**Means.** The bounded implementation repair fixes the erased-treatment defect prospectively on development. L455's original memory-type result stays void; the corrected consumer does not restore untouched status or license a reserve rerun. Retain both records and the complete development table in the final packet. No method is promoted on this comparison. Continue independent approved studies while Qwen's separate admission remains resource-held. No tests harvested from this operational wake.
+
+**Curator roll-up.** Theory group: bounded reading and calibration. Question: Does structured memory improve support once the reader actually receives a distinct treatment? Outcome: **Infrastructure**. Result: Corrected treatments and complete development scoring reproduce without establishing a general memory advantage. Project meaning: The instrument defect is fixed prospectively while the original void and source limitations remain. Next engineering obligation: Preserve the development comparison and its limits in the final packet without automatic reserve replay. Public claim: unchanged. Curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_13/MONITOR_AND_DEVELOPMENT_20260928.json).
+
+---
+
 ### OPS-S13-HEALTH-0928-0008 - bounded repairs queued; original execution preserved
 
 **Hypothesis.** Authorized Gear 2 work remains correctly owned and replayable while the already permitted development repairs address known interface defects.

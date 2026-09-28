@@ -16,7 +16,7 @@ native launcher uses new attempt identities and retains every preflight failure.
 The small literal-confidence interface failed its permitted correction, so those
 reserved tests remain blocked. The complete likelihood context consumer replays,
 but token projection erased the raw/linked/duplicate memory distinction; that
-contrast remains void (L455). Corrected memory inputs pass development admission and a separate development-only consumer is running; no reserve rerun is opened.
+contrast remains void (L455). Corrected memory inputs and the complete development-only consumer replay (L456); unequal lengths and one source component remain, and no reserve rerun is opened.
 Independent detector studies continue.
 
 Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.

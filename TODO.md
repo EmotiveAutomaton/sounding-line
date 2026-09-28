@@ -3,7 +3,9 @@
 ## Stage 13 - implementation approved, September 27
 
 - [x] OPS-S13-HEALTH-0928-0008: health inspection, sixteen detector producers and corrected memory admission fully recorded. Original cards and scientific workers preserved in the three-card development successor.
-- [ ] OPS-S13-DEVELOPMENT-REPAIR: land complete development-only memory consumer; inspect queued Qwen admission after unchanged GPU resource admission. No automatic reserve replay. Literal-confidence correction stays exhausted.
+- [x] OPS-S13-MONITOR-0928-0031: retired monitor reconciled, eleven detector producers fully recorded, native successor progression and watcher delivery verified.
+- [x] L456: corrected memory development consumer fully replayed and recorded; original void, one-component source and unequal token lengths retained. No reserve replay.
+- [ ] OPS-S13-DEVELOPMENT-REPAIR: inspect queued Qwen admission after unchanged GPU resource admission. Memory development landing is complete (L456); no automatic reserve replay. Literal-confidence correction stays exhausted.
 
 - [x] OPS-S13-PRODUCERS-0927-2339: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
 
