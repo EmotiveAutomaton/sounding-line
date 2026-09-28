@@ -13,6 +13,8 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_1753.json](PRODUCERS_20260927_1753.json) | Third contribution reserve producer integrity and exact replay; context continuation |
+| [PRODUCERS_20260927_1750.json](PRODUCERS_20260927_1750.json) | Second context reserve producer integrity, census and replay; contribution successor CPU advance |
 | [PRODUCERS_20260927_1732.json](PRODUCERS_20260927_1732.json) | Next contribution reserve producer integrity and exact replay; context reserve continuation |
 | [PRODUCERS_20260927_1726.json](PRODUCERS_20260927_1726.json) | First context reserve producer integrity, coverage and replay; contribution successor CPU advance |
 | [PRODUCERS_20260927_1706.json](PRODUCERS_20260927_1706.json) | Complete development/reserve producer bindings, coverage and replay with context reserve work continuing |

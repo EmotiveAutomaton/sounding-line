@@ -9,6 +9,50 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-1753 - third contribution reserve producer preserved
+
+**Hypothesis.** The next completed contribution reserve producer preserves every declared source episode and treatment while the eligible queue continues unchanged.
+
+**METHOD.** Verify immutable manifest, source/input/output bindings and prerequisites. Replay every saved score, check the full episode-by-view-by-treatment census and reproduce the complete deterministic producer byte for byte. Verify native queue and successor identity, below-normal priority, fresh output and watcher state. No new neural calls.
+
+The table records original execution coverage and cost for contribution reserve block 002. Prediction records repeat source episodes across treatments and are not independent observations or performance estimates.
+
+| Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 16 | 464 | 464 / 0 | 2 | 86.992 | 86.609 |
+
+**Found.** All 353 distinct frozen source bindings, input/output bindings and census checks pass. Every saved score replays and the complete producer reproduces byte for byte. Verification used 111.875 CPU seconds. This block completed during the preceding context landing and receives its full write-through here. Its notification is still pending under active-owner deferral; no delivery is claimed for it. Historical human-source exposure, unavailable independent goal truth and held primary-reader comparison retain their limits. No method or parameter was changed after reserve inspection; the complete scientific consumer remains pending.
+
+At 17:54 PDT context reserve block 002 has verified native ownership, below-normal priority and fresh progress in Gear 1. The watcher has no current error. No recovery is needed. The prior failed paired-readout admission and bounded correction, independent 19:30 PDT health inspection and both stages' fixed reporting deadlines are unchanged.
+
+**Means.** Preserve complete evidence and continue the frozen eligible queue. No tests harvested this pass, new research, spending, delegation, gear change or multiplicity entry. This execution-only landing belongs in TOOLS; scientific claims and theory remain unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the next complete contribution reserve block retain all declared predictions? Outcome: **Infrastructure**. Result: Complete coverage and byte-identical producer replay pass. Project meaning: Reserve evidence is preserved without a premature comparison. Next engineering obligation: Land complete consumers and retain the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1753.json).
+
+---
+
+### OPS-S13-PRODUCERS-0927-1750 - second context reserve producer preserved
+
+**Hypothesis.** The completed context reserve block preserves all declared episodes and treatments, including unavailable memory cases, while the frozen queue continues in Gear 1.
+
+**METHOD.** Verify immutable manifest, source/input/output bindings and admitted prerequisites. Replay every saved score, reconstruct probabilities from saved candidate likelihoods, and check the complete treatment census, omitted-candidate truth, training-only memory selection, reader identity and individual row receipts. Inspect native coordinator and successor identity, below-normal priority, CPU advance and watcher delivery. No new neural calls.
+
+The table records original execution coverage and cost for context reserve block 001. Prediction records repeat source episodes across treatments; they are not independent observations or performance estimates.
+
+| Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 4 | 80 | 72 / 8 | 74 | 1220.066 | 1112.688 |
+
+**Found.** All 353 distinct frozen source bindings and all input/output, census and replay checks pass. The admitted CPU reader identity matches. Independent memory remains explicitly unavailable because the frozen training set contains one independent component; these cases are retained, not dropped or scored as null effects. The inspection used 1.188 CPU seconds. No setting or method was changed after inspecting reserve output. Historical source exposure and missing independent goal truth remain explicit; the full scientific comparison is pending.
+
+At 17:50 PDT the native coordinator and contribution reserve block 002 are alive with below-normal priority and measured CPU advance within the unchanged time bound. This deterministic successor writes predictions at completion rather than per-row progress. The watcher has no current error and this completion has an actual delivery receipt. No recovery is needed. The existing bounded readout correction, independent 19:30 PDT health inspection and both stages' fixed reporting deadlines remain unchanged.
+
+**Means.** Preserve the completed producer and continue frozen eligible work. No tests harvested this pass, new research, spending, delegation, gear change or multiplicity entry. Instrument write-through belongs in TOOLS; scientific claims and theory remain unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the completed context reserve block intact while eligible work continues? Outcome: **Infrastructure**. Result: Complete coverage and replay pass with unavailable memory retained. Project meaning: Reserve evidence is preserved without a premature comparison. Next engineering obligation: Land complete consumers and retain the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1750.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1732 - next contribution reserve producer preserved
 
 **Hypothesis.** The next completed contribution reserve block retains every declared source episode and treatment without changing the frozen method or admitting an unfinished comparison.

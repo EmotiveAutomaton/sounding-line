@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-1753: contribution reserve 002 fully recorded with complete census and deterministic replay. Frozen context continuation verifies; no new scientific claim or tuning.
+- [x] OPS-S13-PRODUCERS-0927-1750: context reserve 001 fully landed with immutable bindings, complete census, replay and retained unavailable memory. Continue frozen consumers; no new claim or method change.
 - [x] OPS-S13-PRODUCERS-0927-1732: next contribution reserve producer fully recorded with complete census and deterministic replay. No new scientific claim or method change.
 - [x] OPS-S13-PRODUCERS-0927-1726: first context reserve producer fully landed with source/output bindings, census and replay. Continue the frozen consumers; no new claim or tuning.
 - [x] OPS-S13-PRODUCERS-0927-1706: complete context development and contribution reserve producers landed with replay and unavailable-memory accounting. Preserve the frozen plan; scientific consumers remain pending.
