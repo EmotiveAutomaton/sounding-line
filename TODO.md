@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0928-0041: six completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
 - [x] OPS-S13-HEALTH-0928-0008: health inspection, sixteen detector producers and corrected memory admission fully recorded. Original cards and scientific workers preserved in the three-card development successor.
 - [x] OPS-S13-MONITOR-0928-0031: retired monitor reconciled, eleven detector producers fully recorded, native successor progression and watcher delivery verified.
 - [x] L456: corrected memory development consumer fully replayed and recorded; original void, one-component source and unequal token lengths retained. No reserve replay.

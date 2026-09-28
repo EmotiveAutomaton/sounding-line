@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0928-0041: six complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0041.json).
+
 OPS-S13-MONITOR-0928-0031: retired-coordinator monitor reconciled to controlled migration; successor native progress, watcher delivery and completed detector bindings verify. L456: separately corrected memory prompts, likelihoods, scores and full development consumer replay exactly; unequal lengths, one source component, unavailable independent memory and original void retained. [Receipt](../results/phase_2_4_stage_13/MONITOR_AND_DEVELOPMENT_20260928.json).
 
 OPS-S13-HEALTH-0928-0008: full active bindings, native continuation and completed producer evidence verify. Separate memory correction passes actual-tokenizer development admission; its consumer runs. Qwen literal-interface/scorer correction is queued behind the unchanged GPU floor. Original failures and L455 void remain. Nineteen focused checks pass. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_0008.json).
