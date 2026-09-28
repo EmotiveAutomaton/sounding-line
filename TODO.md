@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-1648: Five more extension producers fully recorded; completion transition reconciled without restart. Continue the frozen whole extension and its complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1637: Six more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
