@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_1921.json](PRODUCERS_20260927_1921.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_1903.json](PRODUCERS_20260927_1903.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_1844.json](PRODUCERS_20260927_1844.json) | Complete context/contribution reserve bindings, coverage and replay; native Gear 1 continuation |
 | [PRODUCERS_20260927_1829.json](PRODUCERS_20260927_1829.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
