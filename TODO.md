@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0928-0438: completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
 - [x] OPS-S13-HEALTH-0928-0429: five completed producers fully recorded and four-hour health inspection completed; independent CPU work remains healthy, Qwen resource-held, conditional extension awaits its complete core consumer. ACK rearms the four-hour clock; final endpoint obligations remain.
 
 - [x] OPS-S13-PRODUCERS-0928-0419: completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
