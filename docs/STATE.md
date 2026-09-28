@@ -1,5 +1,15 @@
 # STATE: the agent's operational file
 
+## September 27, 23:22 PDT: complete detector evidence recorded
+
+Five completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 113 completed,
+three retained failures, ten blocked and 383 pending cards. Existing bounded
+Qwen and context-memory development repairs remain pending. Watcher native
+identity, loaded source and fresh scan verify; health stays due at 23:42 PDT.
+Fixed Friday finish and Stage 12 shutdown remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2322.json).
+
 ## September 27, 23:17 PDT: complete detector batches recorded
 
 Four completed batches pass full bindings, coverage and saved-feature replay.
