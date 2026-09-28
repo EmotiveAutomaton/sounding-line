@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-2339: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
+
 - [x] OPS-S13-PRODUCERS-0927-2328: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
 
 - [x] OPS-S13-PRODUCERS-0927-2322: five completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
