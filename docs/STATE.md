@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## September 28, 16:54 PDT: extension producer evidence verified
+
+The complete e5 batch passes full bindings, coverage and saved-probability replay;
+eighteen extension producers are now recorded. The queue has 523 complete, six running,
+157 pending, three retained failures and ten blocked cards. Six exact native CPU workers
+advance with fresh output under the Gear 2 limits. No new failure or recovery need.
+Watcher loaded sources and scanning verify; health remains due at 16:55 PDT.
+The complete extension consumer remains pending; source/model/calibration, reporting
+deadline, original deficits and Stage 12 closure stay fixed. Publication remains blocked
+by the earlier automatic-review rejection. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json).
+
 ## September 28, 16:48 PDT: extension evidence and completion transition verified
 
 Two causal-detector and three e5 batches pass full bindings, coverage and saved-feature checks;

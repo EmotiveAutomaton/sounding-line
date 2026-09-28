@@ -13,6 +13,8 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json](EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json) | Corrected e5-only validation scope; original snapshot and evidence unchanged |
+| [EXTENSION_PRODUCERS_20260928_1654.json](EXTENSION_PRODUCERS_20260928_1654.json) | Original producer receipt; causal-bounds applicability corrected in the linked correction above |
 | [EXTENSION_PRODUCERS_20260928_1648.json](EXTENSION_PRODUCERS_20260928_1648.json) | Five additional-source producers fully verified; normal completion transition reconciled and six native workers verified |
 | [EXTENSION_PRODUCERS_20260928_1637.json](EXTENSION_PRODUCERS_20260928_1637.json) | Six additional-source producers fully verified; six native workers and unchanged watcher clock verified |
 | [EXTENSION_PRODUCERS_20260928_1620.json](EXTENSION_PRODUCERS_20260928_1620.json) | Three additional-source producers fully verified; six native workers and unchanged watcher clock verified |

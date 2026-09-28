@@ -5,16 +5,16 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
 
-September 28, 16:48 PDT (queue sampled at 16:47): the core queue drained normally and its complete
+September 28, 16:54 PDT: the core queue drained normally and its complete
 reserve comparison passed semantic replay (L457). The prepared 181-card extension
 passed whole-family source, dependency and capacity admission and now runs with
 six verified CPU workers. Across the successor: 523 complete, 157 pending, three
-retained failures and ten blocked. Seventeen complete extension batches are recorded; scheduler completions and full landings are distinct.
+retained failures and ten blocked. Eighteen complete extension batches are recorded; scheduler completions and full landings are distinct.
 The conservative extension estimate is 14.55 elapsed hours against 77.10 hours
 before reporting, and the fixed 45-hour admission guard passes.
 [Core result](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json) and
 [extension admission and launch](results/phase_2_4_stage_13/EXTENSION_20260928.json);
-[latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1648.json).
+[latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json).
 
 The owner explicitly selected **Gear 2** on September 27. The CPU queue continues
 under a source-bound successor with a six-worker limit. Full GPU training and its
