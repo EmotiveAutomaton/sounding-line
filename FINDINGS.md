@@ -9,6 +9,50 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-1732 - next contribution reserve producer preserved
+
+**Hypothesis.** The next completed contribution reserve block retains every declared source episode and treatment without changing the frozen method or admitting an unfinished comparison.
+
+**METHOD.** Verify immutable manifest, source/input/output hashes and prerequisites. Recompute every saved score, check the full episode-by-view-by-treatment census and reproduce the entire deterministic producer byte for byte. Inspect actual native queue and successor identity, below-normal priority, fresh progress and watcher delivery. No new neural calls.
+
+The table records original execution coverage and cost for contribution reserve block 001. Prediction records repeat source episodes across treatments and are not independent observations or performance estimates.
+
+| Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 16 | 464 | 464 / 0 | 2 | 188.761 | 168.391 |
+
+**Found.** All 353 distinct frozen source bindings, input/output bindings and census checks pass. Scores replay and the full producer reproduces exactly. The final cheap inspection used 0.328 CPU seconds. The prior full-replay inspector had used at least 185.922 CPU seconds at its last native sample; final cost was not metered. All scientific verification, including byte-identical producer replay, passed before that inspector stopped on an unrelated assertion requiring wake delivery for a still-pending orphan event. The active-owner deferral is expected. The retained failure record and unchanged terminal bind that successful replay; only cheap checks were repeated. This block completed while the preceding context reserve landing was being written through and receives a complete landing here. Historically exposed human sources, unavailable independent goal truth and held primary-reader comparison retain their limits. No parameters or scientific choices were changed after reserve inspection; the complete comparison remains pending.
+
+At 17:37 PDT context reserve block 001 has verified native ownership, below-normal priority and fresh output in Gear 1. The watcher has no current error and this completion remains a pending orphan notification discovered directly during the active turn. No recovery or new dispatch is needed. Prior failed paired-readout admission and bounded correction remain recorded. The independent 19:30 PDT health deadline and both stages' fixed reporting milestones are unchanged.
+
+**Means.** Continue frozen eligible work and land complete consumers before scientific interpretation. No tests harvested this pass, new research, spending, delegation, gear change or multiplicity entry. This execution-only result is recorded in TOOLS; theory and scientific claims remain unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the next complete contribution reserve block retain all declared predictions? Outcome: **Infrastructure**. Result: Complete coverage and full producer replay pass. Project meaning: Reserve evidence is preserved without a premature comparison. Next engineering obligation: Land complete consumers and preserve the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1732.json).
+
+---
+
+### OPS-S13-PRODUCERS-0927-1726 - first context reserve producer preserved
+
+**Hypothesis.** A completed context reserve producer preserves its entire declared treatment census and unavailable cases while the eligible queue continues in Gear 1.
+
+**METHOD.** Verify immutable source/input/manifest/output bindings and admitted prerequisites. Replay every saved score, reconstruct probabilities from retained candidate log likelihoods, and verify omitted-candidate truth, training-only memory selection, individual row receipts and full episode-by-view-by-treatment coverage. Check native coordinator and successor identity, below-normal priority, measured CPU advance and watcher delivery. No new neural calls.
+
+The table records execution coverage and original cost for context reserve block 000. Prediction records repeat source episodes across treatments and are not independent observations or performance estimates.
+
+| Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 4 | 80 | 72 / 8 | 74 | 1166.807 | 1098.109 |
+
+**Found.** All 353 distinct frozen source bindings and all input/output, census and replay checks pass. The CPU model identity matches its admission. Independent-memory cases remain explicitly unavailable because the frozen training set has one independent component; they are not dropped or treated as null effects. This reserve producer does not complete the full scientific consumer. No setting or method choice was changed after inspecting it, and prior human-source exposure and missing goal truth remain explicit. The inspection used 1.531 CPU seconds.
+
+At 17:28 PDT the native coordinator and contribution reserve block 001 are alive with below-normal priority. That deterministic producer emits its prediction file at completion rather than per-row progress; native CPU time advanced during this inspection and elapsed time remains inside its unchanged bound. No restart or recovery is needed. The watcher has no current error and the requested event has an actual delivery receipt. Prior failed readout admission and its existing bounded correction remain recorded. Health remains due 19:30 PDT; both stages' reporting deadlines are unchanged.
+
+**Means.** Preserve the completed producer and continue the frozen eligible queue. No tests harvested this pass, new research, cloud spending, delegation, gear change or multiplicity entry. Instrument write-through goes to TOOLS; no theory amendment or unfinished scientific scores are reported.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the finished context reserve block intact while the next producer runs? Outcome: **Infrastructure**. Result: Complete coverage and replay pass with unavailable memory retained. Project meaning: The reserve evidence is preserved without a premature comparison. Next engineering obligation: Land complete consumers and retain the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1726.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1706 - development and reserve producer integrity
 
 **Hypothesis.** Completed context development and contribution reserve producers preserve all declared inputs and treatments while the unchanged Gear 1 queue advances to context reserve work.

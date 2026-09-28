@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-1732: next contribution reserve producer fully recorded with complete census and deterministic replay. No new scientific claim or method change.
+- [x] OPS-S13-PRODUCERS-0927-1726: first context reserve producer fully landed with source/output bindings, census and replay. Continue the frozen consumers; no new claim or tuning.
 - [x] OPS-S13-PRODUCERS-0927-1706: complete context development and contribution reserve producers landed with replay and unavailable-memory accounting. Preserve the frozen plan; scientific consumers remain pending.
 - [x] OPS-S13-PRODUCERS-0927-1644: completed context calibration and contribution development producers fully landed with replay and unavailable-memory accounting. Frozen eligible work continues; scientific comparisons remain pending.
 - [x] OPS-S13-CALIBRATION-0927-1632: complete context and contribution calibration producers fully recorded with immutable bindings, replay and unavailable-memory accounting. Continue the frozen consumers; no new scientific claim.

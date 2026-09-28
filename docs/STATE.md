@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## September 27, 17:37 PDT: next contribution reserve producer landed
+
+Contribution reserve 001 passes full integrity, census and producer replay.
+Context reserve 001 is running in Gear 1 with verified native identity,
+below-normal priority and fresh progress. Complete scientific consumers and the
+existing readout correction remain pending. Health remains 19:30 PDT and all
+reporting deadlines are unchanged. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1732.json).
+
+## September 27, 17:28 PDT: context reserve producer landed
+
+Context reserve 000 passes complete bindings, coverage and replay, retaining
+unavailable independent-memory cases. Contribution reserve 001 is running in
+Gear 1 with verified native identity, below-normal priority and CPU advance;
+that producer writes predictions at completion rather than per-row progress.
+Scientific consumers remain pending. Existing readout repair and reporting
+obligations are unchanged; health is due 19:30 PDT.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1726.json).
+
 ## September 27, 17:08 PDT: development and reserve producers landed
 
 Context development 000 and contribution reserve 000 pass full bindings, coverage
