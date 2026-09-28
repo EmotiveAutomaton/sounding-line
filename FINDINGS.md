@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-1903 - further complete reserve producers preserved
+
+**Hypothesis.** Completed reserve producers preserve the full declared population and treatment census while eligible work advances in Gear 1.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding; replay saved scores, context candidate-likelihood normalization and memory selection; reproduce the contribution producer byte for byte. Verify the native coordinator and successor identity, priority, fresh progress and loaded watcher. No new model calls.
+
+The table records complete producer coverage and execution cost. Repeated treatment records are not independent observations; scored / unavailable is coverage, not a scientific success rate.
+
+| Producer | Episodes | Prediction records | Scored / unavailable | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|---|
+| Context reserve 005 | 4 | 80 | 72 / 8 | 74 | 1028.164 | 1022.625 |
+| Contribution reserve 006 | 16 | 464 | 464 / 0 | 2 | 62.077 | 61.719 |
+
+**Found.** All 353 frozen source bindings, full censuses and replay checks pass. Independent context memory remains unavailable because training contains one independent component; those records remain in the population. Contribution output reproduces byte for byte. Inspection used 84.453 CPU seconds. At 19:05 PDT context reserve 006 has verified native identity, below-normal priority and fresh progress. The context completion has actual delivery. The contribution completion was discovered during this active turn and remains pending delivery; both event hashes match the inspected terminals. The watcher is healthy, and the independent 19:30 PDT health deadline remains unchanged.
+
+**Means.** Preserve these producers for their complete scientific consumers. Human-source exposure, missing independent goal truth and held primary-reader comparison remain. No tuning, new scientific claim, theory edit or multiplicity entry. No tests harvested this pass. The prior bounded paired-readout correction remains pending at a serial boundary.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are the complete reserve producers intact while the queue advances? Outcome: **Infrastructure**. Result: Full coverage and replay pass with unavailable memory retained. Project meaning: Evidence is preserved for complete consumers. Next engineering obligation: Land complete consumers and preserve the bounded readout correction. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1903.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1844 - further reserve producers preserved
 
 **Hypothesis.** The completed context and contribution reserve producers preserve every declared episode and treatment, including unavailable cases, while the frozen Gear 1 queue advances.

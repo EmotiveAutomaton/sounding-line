@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-1903: complete context reserve 005 and contribution reserve 006 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1903.json).
+
 OPS-S13-PRODUCERS-0927-1844: context reserve 004 and contribution reserve 005 pass immutable bindings, complete censuses and replay. Contribution output reproduces byte for byte; context likelihood and memory selection replay with unavailable independent memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1844.json).
 
 OPS-S13-PRODUCERS-0927-1829: complete context reserve 003 and contribution reserve 004 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1829.json).
