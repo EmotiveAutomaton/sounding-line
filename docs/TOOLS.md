@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-EXTENSION-PRODUCERS-0928-1637: Six complete extension producers pass immutable source/input bindings, full coverage, causal-feature validity and saved-probability replay after core completion. Six native CPU workers advance under unchanged limits; watcher health verifies. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1637.json).
+
 OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three complete extension producers pass immutable bindings, full coverage and saved-evidence replay after core completion. Six native CPU workers advance under unchanged limits; watcher health verifies. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1620.json).
 
 OPS-S13-EXTENSION-0928: Prepared whole extension validated against every original/remapped card, paired source coverage, source separation and observed full-family capacity; six actual native CPU workers advance within existing limits. First three complete producers pass saved-evidence replay. [Receipt](../results/phase_2_4_stage_13/EXTENSION_20260928.json).

@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-1637: Six more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
 
 - [x] OPS-S13-EXTENSION-0928: Complete core landed as L457; prepared 181-card additional-source comparison admitted and launched in Gear 2. First three completed extension producers fully recorded.

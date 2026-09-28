@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_PRODUCERS_20260928_1637.json](EXTENSION_PRODUCERS_20260928_1637.json) | Six additional-source producers fully verified; six native workers and unchanged watcher clock verified |
 | [EXTENSION_PRODUCERS_20260928_1620.json](EXTENSION_PRODUCERS_20260928_1620.json) | Three additional-source producers fully verified; six native workers and unchanged watcher clock verified |
 | [EXTENSION_20260928.json](EXTENSION_20260928.json) | Whole prepared replication admitted under unchanged selection, native Gear 2 launch verified, first completed producers recorded |
 | [CORE_RESERVE_20260928.json](CORE_RESERVE_20260928.json) | Complete core detector/location result and every slice replayed, full-tuned comparator retained, distinct estimands and promotion deficits recorded (L457) |
