@@ -9,6 +9,52 @@ ran it.
 
 ---
 
+### OPS-S12-REPORTING-START-0927 - final evidence packet assembled, incomplete comparisons retained
+
+**Hypothesis.** The protected reporting checkpoint can produce a complete and traceable evidence packet without mistaking a drained executor for a completed research program.
+
+**METHOD.** Inspect the checkpoint against the original week contract and actual delivery; verify native queue exit, released locks, last-worker identities, output freshness, frozen local sources, resource limits and loaded watcher/checkpoint identities. Reconcile every retained local terminal and output, all original-week completion/output records and historical source versions, plus the provider bundle's source terminals. Consolidate the existing scientific write-throughs and correction histories without new model calls, fits or analysis. Preserve the interim packet and keep Stage 13 evidence separate.
+
+The table counts retained executor records and file bindings. These counts measure preservation, not independent hypotheses, participants or scientific success.
+
+| Record set | Complete terminals | Output bindings verified | Meaning |
+|---|---|---|---|
+| Current local plan | 281 | 1383 | Fourteen failures and thirty-one deferred jobs remain separate |
+| Earlier local units | 6 | 31 | Preserved outside the replacement plan |
+| Original week | 127 | 1355 | Distinct from the separately commissioned local envelope |
+| Provider casebook | One completed bundle | All bundle outputs and fifteen source terminals | 254 cases across six required evidence roles; four access-history companions |
+
+**Found.** Retained terminals and output bindings are unchanged. All 476 frozen local source bindings verify; all 519 distinct original-week source versions resolve to exact retained bytes. The initial combined historical-source check against current working files refused because versions differ; the corrected inspection checks each declared historical version, without changing any scientific record or gate. The checkpoint was delivered on its first attempt about 28 seconds after its due time. The native checkpoint helper, loaded watcher, power limits and released locks verify. No new Stage 12 terminal or scientific worker exists. Every unsubmitted narrow-history generation card is refused by the expired allocation's protected-window guard. No recovery is needed; GPU capacity cannot renew authority.
+
+The [final evidence packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) contains the complete supported-claim and missing-work ledgers, provider cases, costs, correction history and answers to all six commissioned questions. Its scientific comparison section is unchanged from the original interim packet. The broad capable-reader human-history main remains incomplete, the narrow admitted handling pass never launched, and failed admissions, incomplete questioning/memory families and missing analyses remain explicit. The packet is assembled ahead of the original September 28 at 06:17 PDT deadline; endpoint reconciliation remains owed. Stage 13's later results do not retroactively complete Stage 12.
+
+**Means.** Reporting is ready without expanding the scientific claim. No tests harvested this pass, no new research, delegation, spending, gear change or multiplicity entry. Existing theory rows and afterwords were revisited; no new result requires a theory edit. The final endpoint checks unchanged evidence and reporting costs. Stage 13 continues independently in Gear 1; the four-hour health clock remains due at 19:30 PDT.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Can the retained evidence and missing work support an honest final packet? Outcome: **Infrastructure**. Result: The final evidence packet is assembled with incomplete comparisons preserved. Project meaning: Queue drainage and scientific completion remain distinct. Next engineering obligation: Reconcile the final checkpoint while continuing separately authorized Stage 13 work. Public claim: unchanged. Curator decision required: No. Detail: [reporting receipt](results/phase_2_4_stage_12/REPORTING_START_20260927.json) and [packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md).
+
+---
+
+### OPS-S13-PRODUCERS-0927-1829 - further complete reserve producers preserved
+
+**Hypothesis.** Completed reserve producers preserve the full declared population and treatment census while eligible work advances in Gear 1.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding; replay saved scores, context candidate-likelihood normalization and memory selection; reproduce the contribution producer byte for byte. Verify the native coordinator and successor identity, priority, fresh progress and loaded watcher. No new model calls.
+
+The table records complete producer coverage and execution cost. Repeated treatment records are not independent observations; scored / unavailable is coverage, not a scientific success rate.
+
+| Producer | Episodes | Prediction records | Scored / unavailable | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|---|
+| Context reserve 003 | 4 | 80 | 72 / 8 | 74 | 979.596 | 972.984 |
+| Contribution reserve 004 | 16 | 464 | 464 / 0 | 2 | 49.662 | 49.266 |
+
+**Found.** All 353 frozen source bindings, full censuses and replay checks pass. Independent context memory remains unavailable because training contains one independent component; those records remain in the population. Contribution output reproduces byte for byte. Inspection used 63.391 CPU seconds. At 18:29 PDT context reserve 004 has verified native identity, below-normal priority and fresh progress. Both completion events were discovered while the operator was active and are pending delivery; their hashes match the inspected terminals. The watcher is healthy, and the independent 19:30 PDT health deadline remains unchanged.
+
+**Means.** Preserve these producers for their complete scientific consumers. Human-source exposure, missing independent goal truth and held primary-reader comparison remain. No tuning, new scientific claim, theory edit or multiplicity entry. No tests harvested this pass. The prior bounded paired-readout correction remains pending at a serial boundary.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are the complete reserve producers intact while the queue advances? Outcome: **Infrastructure**. Result: Full coverage and replay pass with unavailable memory retained. Project meaning: Evidence is preserved for complete consumers. Next engineering obligation: Land complete consumers and preserve the bounded readout correction. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1829.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1807 - further reserve producers preserved
 
 **Hypothesis.** The completed context and contribution reserve producers preserve every declared episode and treatment, including unavailable cases, while the frozen Gear 1 queue advances.

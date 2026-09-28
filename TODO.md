@@ -2,6 +2,7 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-1829: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
 - [x] OPS-S13-PRODUCERS-0927-1807: complete context/contribution reserve producers fully recorded with bindings, census and replay. Preserve unavailable memory and frozen consumers; no new scientific claim or tuning.
 - [x] OPS-S13-PRODUCERS-0927-1753: contribution reserve 002 fully recorded with complete census and deterministic replay. Frozen context continuation verifies; no new scientific claim or tuning.
 - [x] OPS-S13-PRODUCERS-0927-1750: context reserve 001 fully landed with immutable bindings, complete census, replay and retained unavailable memory. Continue frozen consumers; no new claim or method change.
@@ -26,11 +27,14 @@
 - [ ] Keep full tuning and Qwen cards held until the owner changes gear; then inspect native ownership, resources, complete-block time and admission before scoped submission.
 - [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
 - [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
-- [ ] Preserve the separate Stage 12 final packet due September 28 at 06:17 PDT and independent four-hour supervision. No restart of its expired allocation.
+- [ ] Preserve the assembled Stage 12 final packet and its endpoint reconciliation due September 28 at 06:17 PDT, with independent four-hour supervision. No restart of its expired allocation.
 
 This section supersedes older running labels as current authority. Prior records follow.
 
 ## Extensive local research program - approved September 23
+
+- [x] OPS-S12-REPORTING-START-0927: reporting checkpoint inspected; final evidence packet assembled with complete warrant/pursuit ledgers and immutable provenance. No generation restart.
+- [ ] OPS-S12-FINAL-ENDPOINT: September 28 at 06:17 PDT, reconcile unchanged Stage 12 evidence, reporting-only costs and final checkpoint delivery. Do not count Stage 13 results as completion of missing Stage 12 work.
 
 - [x] OPS-S12-HEALTH-0927-1112: unchanged stopped queue, retained evidence, resource limits and actual health delivery verified. No recovery or new work; expired allocation and original final-packet deficits retained.
 

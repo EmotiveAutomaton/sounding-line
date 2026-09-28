@@ -1,5 +1,25 @@
 # STATE: the agent's operational file
 
+## September 27: Stage 12 final evidence packet assembled
+
+The reporting-start checkpoint has actual delivery and full integrity write-through.
+Stage 12 remains stopped: 281 current-plan completions, fourteen failures and
+thirty-one deferred jobs. Earlier local and original-week records also verify.
+The expired narrow-history follow-on stays unstarted. The final packet preserves
+all missing comparisons and the separate cloud reservation uncertainty.
+[Packet](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md),
+[inspection](../results/phase_2_4_stage_12/REPORTING_START_20260927.json).
+Final endpoint reconciliation remains September 28 at 06:17 PDT. Stage 13 continues
+in Gear 1; the independent next health inspection remains 19:30 PDT today.
+
+## September 27, 18:29 PDT: reserve producers landed
+
+Context reserve 003 and contribution reserve 004 pass complete bindings, coverage
+and replay. Context reserve 004 is running in Gear 1 with verified native identity,
+below-normal priority and fresh progress. Unavailable memory and existing failed
+admission remain explicit. No scientific consumer verdict.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1829.json).
+
 ## September 27, 18:11 PDT: further reserve producers landed
 
 Context reserve 002 and contribution reserve 003 pass complete bindings, census

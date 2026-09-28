@@ -10,20 +10,20 @@ October 2 at **05:00 PDT**. New science stops before Thursday at 21:00 PDT,
 reserving eight hours for replay/reporting. The frozen core has 514 cards: 503 CPU and 11 held GPU cards. One CPU worker runs at a time. Actual reader admissions, full capacity blocks and first production output replay. The 181-card extension is conditional on complete core results and whole-family time admission. Heavy GPU work is held. [Execution handoff](docs/design/stage-13/EXECUTION.md). [Review the plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md) and the
 [unchanged source](docs/design/stage-13/README.md).
 
-## Stage 12: generation stopped; final report still owed
+## Stage 12: generation stopped; final packet assembled
 
-The submitted local queue drained September 25 at 02:45:13 PDT: 281 completed jobs,
-14 retained failures and 31 deferred jobs, with zero scientific workers in the
-September 27 at 15:19 PDT health inspection of Stage 12; Stage 13 now has its separate CPU worker. The local allocation expired
-September 25 at 20:50 PDT. Seven admitted LP16 producer blocks and their summary
-never launched: 1,248 calls remain unrun. Other failed admissions and incomplete
-comparisons remain explicit. A drained queue is not a fully completed program.
+The submitted local queue drained September 25 at 02:45:13 PDT: 281 completed
+jobs, 14 retained failures and 31 deferred jobs. The local allocation expired
+September 25 at 20:50 PDT. Seven admitted narrow-history producer blocks and
+their summary never launched; 1,248 calls remain unrun. The broad human-history
+main, failed admissions and incomplete comparisons remain explicit.
 
-The [interim packet](results/phase_2_4_stage_12/INTERIM_PACKET_20260925.md) and
-[latest inspected health](results/phase_2_4_stage_13/HEALTH_20260927_1519.json)
-preserve those dispositions. No Stage 12 restart or extension follows from Stage 13
-planning. The original reporting checkpoint is September 27 at 18:17 PDT; the
-**final packet is due September 28 at 06:17 PDT**.
+The [final evidence packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md)
+is assembled following the September 27 reporting-start checkpoint.
+[Retained-record verification](results/phase_2_4_stage_12/REPORTING_START_20260927.json)
+passes. The original interim is preserved; Stage 13 results are kept separate.
+The final endpoint reconciliation remains **September 28 at 06:17 PDT**.
+A drained queue is not a fully completed program, and no expired allocation restarts.
 
 ## Supervision and next action
 

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-1829: complete context reserve 003 and contribution reserve 004 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1829.json).
+
 OPS-S13-PRODUCERS-0927-1807: context reserve 002 and contribution reserve 003 pass immutable bindings, complete censuses and replay. Contribution output reproduces byte for byte; context likelihood and memory selection replay with unavailable independent memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1807.json).
 
 OPS-S13-PRODUCERS-0927-1753: contribution reserve 002 passes immutable bindings, full treatment census, score replay and byte-identical full producer replay. Native Gear 1 context continuation verifies with fresh output; scientific consumers remain pending. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1753.json).
@@ -43,6 +45,8 @@ OPS-S13-SOURCE-0927: source/output hashes, unique records and disconnected parti
 OPS-S13-INTAKE-0927: 48 public source/model files independently rehashed and size-checked. Intake only; source independence, readers and consumers await admission. [Receipt](../results/phase_2_4_stage_13/INTAKE_VERIFIED.json).
 
 ## Stage 12 bounded consumers
+
+OPS-S12-REPORTING-START-0927: final evidence assembly verifies all retained local/original-week terminals and outputs, historical source versions, provider source bindings, native exits and actual checkpoint delivery. The historical-source probe was corrected to use the declared archived versions; original records and scientific gates are unchanged. Expired generation remains refused. [Inspection](../results/phase_2_4_stage_12/REPORTING_START_20260927.json), [packet](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md).
 
 OPS-S12-HEALTH-0927-1112: unchanged records, released locks, frozen sources, expired-window rejection and actual native monitoring/delivery verify. No recovery or restart. [Inspection](../results/phase_2_4_stage_12/LOCAL_PROGRAM_HEALTH_20260927_1112.json).
 

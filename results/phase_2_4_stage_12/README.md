@@ -4,6 +4,16 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Final evidence packet assembled - September 27
+
+[The final packet](FINAL_PACKET_20260927.md) consolidates the completed evidence,
+provider cases, costs and missing comparisons. The submitted queue is drained;
+the broader program remains incomplete. Original interim and raw evidence are
+unchanged. Historical source versions and all retained output bindings verify.
+[Reporting-start receipt](REPORTING_START_20260927.json).
+The original September 28 at 06:17 PDT endpoint will reconcile unchanged records
+and reporting cost. No Stage 12 generation restarts; Stage 13 is separate.
+
 ## Four-hour inspection - September 27, 11:12 PDT
 
 The submitted queue remains drained with unchanged records and no test worker.
