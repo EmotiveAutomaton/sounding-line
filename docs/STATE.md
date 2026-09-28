@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## September 27, 19:35 PDT: queue healthy; extension time-deferred
+
+Gear 1 has one active worker, 465 pending CPU cards, 33 complete, twelve held,
+two existing failed preflights and one dependent deferred consumer. Native
+identities, CPU/output progress, locks, immutable records, resources and watcher
+delivery verify. Remaining core estimate: 91.1-94.2 hours against 97.4 hours to
+the fixed science cutoff; provisional Thursday-afternoon completion, not a guarantee.
+The conditional extension cannot fit after the core under its 45-hour minimum;
+leave it unsubmitted. Existing bounded readout correction remains pending at a
+serial boundary. Stage 12 stays stopped. Health ACK rearms four hours later.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260927_1930.json).
+
 ## September 27, 19:25 PDT: reserve producers landed
 
 Context reserve 006 and contribution reserve 007 pass complete bindings, coverage

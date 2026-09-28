@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0927-1930 - healthy native queue; extension does not fit current capacity
+
+**Hypothesis.** Authorized Gear 1 work remains live, correctly owned and recorded, and additional work is admitted only if it fits the fixed reporting boundary.
+
+**METHOD.** Inspect actual process identities and creation times, native locks, CPU advance and output freshness, all immutable core cards and completed output bindings, failures and unresolved attempts, host/GPU resources and power limits. Verify both checkpoint helpers, loaded watcher source, actual health delivery and every core terminal registration. Re-estimate remaining work from completed rows and elapsed times, using declared ceilings for actions without a measured run; no new scientific calls.
+
+The table partitions the frozen core roster into execution states at 19:35 PDT. Jobs are queue cards, not independent scientific tests; pending CPU jobs may still await dependencies.
+
+| Execution state | Jobs | Meaning |
+|---|---|---|
+| Complete | 33 | Original outputs retained and reverified |
+| Running | 1 | One below-normal CPU worker with advancing CPU and fresh output |
+| Pending CPU | 465 | Eligible family work, subject to dependencies and the fixed time gate |
+| Held for Gear 1 | 12 | Eleven GPU jobs and their CPU consumer |
+| Failed preflight | 2 | Existing failed reader admission prevented model dispatch |
+| Dependent deferred | 1 | Consumer awaits the failed readout producers |
+
+**Found.** All 353 source pins, 514 immutable core cards, 1,811 completed output bindings, 21 original locks and 1,031 registered terminal paths verify. No unknown attempt or new failure was found. Native ownership, actual progress, loaded watcher, health delivery and both checkpoint helpers pass. Available host memory is 48.9 GiB and disk space 821.0 GiB; processor maximum remains 90% with boost disabled. No Stage 13 GPU dispatch or Stage 12 scientific worker is present. The apparent pair of Stage 12 Python processes is the existing virtual-environment launcher and its owned checkpoint interpreter, not duplicate studies.
+
+The remaining eligible core projects 91.1 hours using pooled observed rates and 94.2 hours using the slowest observed rate within each measured action, with declared ceilings for unmeasured actions in both estimates. There are 97.4 hours until the reporting reserve. This suggests Thursday afternoon completion but is not a deadline guarantee: detector estimates currently rest on two production blocks per arm, populations may differ, and contention or the pending readout repair can consume the remaining margin. The current active block is conservatively included in full. The prepared extension projects 34.4 hours but has a binding 45-hour minimum guard; it cannot fit after this core estimate and remains unsubmitted. Its required complete core consumer is also absent.
+
+**Means.** Continue the healthy frozen CPU queue without restart or resource change. Record the conditional extension as time-deferred at current rates; reassess only on the existing health/core boundary and admit the whole family only if it fits. Preserve the bounded development readout correction for a serial boundary, original failures, held primary readers and all final-packet limits. No new hypothesis, theory edit, multiplicity entry or tests harvested. Stage 12 remains stopped with its assembled packet and September 28 at 06:17 PDT endpoint reconciliation. The health ACK rearms four hours later; no extra ETA wake is created.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is authorized work healthy and does further work fit? Outcome: **Infrastructure**. Result: The core is progressing while the conditional extension does not fit. Project meaning: Preserve evidence and the fixed reporting reserve. Next engineering obligation: Land complete consumers, assess the bounded readout correction at a serial boundary, and maintain four-hour supervision. Public claim: unchanged. Curator decision required: No. Detail: [health receipt](results/phase_2_4_stage_13/HEALTH_20260927_1930.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1921 - further complete reserve producers preserved
 
 **Hypothesis.** Completed reserve producers preserve the full declared population and treatment census while eligible work advances in Gear 1.
