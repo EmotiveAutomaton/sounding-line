@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## September 28, 03:11 PDT: complete detector producers recorded
+
+Two completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 221 completed,
+three retained failures, ten blocked and 278 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher identity and loaded sources verify; the two events were inspected while queued, before transport delivery. Health
+stays due at 04:21 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and Stage 12 shutdown remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0311.json).
+
 ## September 28, 03:09 PDT: complete detector producers recorded
 
 The completed batch passes full bindings, coverage and saved-feature replay.
