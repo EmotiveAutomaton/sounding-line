@@ -2,6 +2,9 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-GPU-COMPLETION-0927: full supervised comparator and three further detector producers replayed; failed Qwen call/parser and fixture-scoring defect recorded. Nine dependent cards remain undispatched.
+- [ ] OPS-S13-QWEN-DEVELOPMENT-REPAIR: reconcile the already permitted Qwen family implementation/interface allowances, provide the missing endpoint metadata in a new fixture version, and validate an explicitly specified literal-probability interface on development. Preserve the returned invalid reply and costs; no normalization, current-version repeat, reserve opening or claim of a completed primary comparison.
+
 - [x] L455 / OPS-S13-COMPLETIONS-0927-2146: complete context consumer, final context producer, new detector producers and full training recorded; actual rendering audit voids raw/linked/duplicate memory distinction.
 - [ ] L455: use the already approved bounded development implementation-correction allowance to preserve and verify condition-specific memory content after all serialization/tokenization. Keep original v1 and reserve exposure; do not rerun reserved rows automatically or claim independent-memory/readout success. Admit any complete successor only after development realization checks, source/time/resource gates and reconciliation of the per-family repair allowance.
 
@@ -36,7 +39,7 @@
 - [x] OPS-S13-ROLLOUT-0927: frozen complete-block roster, CPU capacity, actual Gear 1 launch, source/output replay and native monitoring verified. Full infrastructure write-through complete.
 - [ ] Land complete Stage 13 cells internally; keep unfinished per-artifact scores out of chat. See [execution handoff](docs/design/stage-13/EXECUTION.md).
 - [ ] At the core exit or four-hour health check, re-estimate whether the entire prepared conditional reserve extension fits before Thursday at 21:00 PDT; retain its 45-hour minimum guard. Do not submit it before the complete core reserve consumer.
-- [x] Owner changed to Gear 2; full tuning completed and its fixed downstream evaluation is finalizing. Qwen remains queued behind the sole GPU lane, with fresh memory and scientific admission gates.
+- [x] Owner changed to Gear 2; full tuning and its fixed downstream evaluation completed and replayed. Qwen failed admission; its dependent cards stay blocked pending bounded development recovery. Independent CPU work continues.
 - [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
 - [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
 - [ ] Preserve the assembled Stage 12 final packet and its endpoint reconciliation due September 28 at 06:17 PDT, with independent four-hour supervision. No restart of its expired allocation.

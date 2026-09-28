@@ -5,9 +5,11 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
 
-The owner explicitly selected **Gear 2** on September 27. Six CPU workers and one
-GPU comparison worker run under a source-bound successor; full training is complete.
-All core studies and their
+The owner explicitly selected **Gear 2** on September 27. The CPU queue continues
+under a source-bound successor with a six-worker limit. Full GPU training and its
+fixed comparator evaluation are complete and replayed. Qwen admission failed on
+an invalid literal reply and a fixture/scorer metadata defect; its nine dependent
+jobs stay undispatched pending bounded development recovery. All core studies and their
 consumers are built; each retains its scientific and resource gates. The original
 514-card core is preserved alongside one infrastructure capacity card. A repaired
 native launcher uses new attempt identities and retains every preflight failure.
@@ -45,7 +47,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: land complete Stage 13 cells and inspect conditional continuation at the independent health checkpoints. Qwen starts only after its fresh resource/admission checks and the current GPU owner exits.
+Next action: land complete Stage 13 cells and inspect conditional continuation at the independent health checkpoints. Qwen requires a separately admitted bounded development recovery; the failed version cannot dispatch its dependents.
 
 ## Navigation
 

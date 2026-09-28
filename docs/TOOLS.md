@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-GPU-COMPLETION-0927: completed supervised comparator and every saved aggregate replay; cross-method study remains pending. Primary Qwen returns invalid literal probabilities, then the admission fixture lacks the endpoint view needed for invalid-response scoring. Original failure, call cost and nine blocked dependents remain; no model retry. [Receipt](../results/phase_2_4_stage_13/GPU_COMPLETION_20260927.json).
+
 L455 / OPS-S13-COMPLETIONS-0927-2146: full context consumer and calibration replay pass, but actual tokenizer reconstruction proves raw/linked/duplicate memory prompts identical throughout the roster; that manipulation is VOID. All snapshotted producers and full training verify; reserved evaluation remains separate. Prior integrity checks did not validate rendered treatment distinction. [Receipt](../results/phase_2_4_stage_13/CONTEXT_COMPLETE_20260927.json).
 
 OPS-S13-GEAR2-0927: source-bound concurrent dispatcher, native environment probe, preserved-worker handoff and preflight-stop guard validated; 28 checks and 21 locks pass. The original and sole repaired literal-confidence interfaces fail admission; dependent reserved work stays blocked. Training capacity and completed-component replay verify. [Receipt](../results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json).

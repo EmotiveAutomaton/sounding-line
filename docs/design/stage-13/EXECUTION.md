@@ -33,8 +33,8 @@ Source bundles are immutable. Root code edits after launch do not repair a froze
 
 | Study family | Implemented scope | Execution disposition |
 |---|---|---|
-| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning complete, fixed evaluation finalizing |
-| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen queued under resource/admission gates |
+| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning and fixed evaluation complete, consumer replayed |
+| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen admission failed, dependent calls blocked pending bounded development recovery |
 | C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Complete likelihood consumer replayed; raw/linked/duplicate memory contrast VOID after token projection (L455); independent memory unavailable and literal readout failed |
 | D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs, descriptive CPU consumers queued early |
 | ToMpathy bridge | Source-bound UTF-16 locations, independent goal support, exclusive processes, unknown values and lossless sidecar | Actual isolated capture/parser/matcher checked; no service rebuild or native side-panel claim |
@@ -75,8 +75,12 @@ source allocation, outcome rules or absolute end.
    its original known-answer admission. Its dependent work remains blocked and no
    further interface retry is authorized. The main queue continues independent
    likelihood work. Training capacity implies 2.21 hours, or 3.31 with a 50% margin,
-   within its original four-hour guard. Qwen must recheck actual free memory after
-   the current GPU owner exits; do not lower its frozen floor or evict other apps.
+   within its original four-hour guard. Full training and evaluation subsequently
+   completed and replayed. Qwen passed service readiness but returned an invalid
+   literal reply; missing fixture endpoint metadata then broke invalid-response
+   scoring. Its nine dependent jobs remain undispatched. Preserve the failed
+   response and original fixture; reconcile the bounded development correction
+   allowances before any separately identified recovery. No current-version retry.
 7. At reporting-start, assemble complete comparisons and explicit deficits, costs,
    source units/calibration, examples, pursuit/warrant ledgers and at most three
    consequential questions. Deliver one final curator packet by Friday 05:00 PDT.
@@ -92,7 +96,9 @@ The exact released DAMASHA architecture import failed because `torchcrf` is abse
 no checkpoint forward/reproduction is claimed. Do not install into the live environment
 or replace it silently. Independent-memory requirements can be unavailable rather
 than repaired with a same-source duplicate. Primary Qwen remains missing until actually admitted and completed; full tuning
-is complete but its downstream evaluation is not yet a landed comparator.
+and its downstream evaluation are complete and replayed. The Qwen known-answer
+reply is invalid, and the fixture/scorer metadata defect also remains retained;
+a primary-reader comparison is still missing.
 The original context memory-type contrast is void because its rendered prompts
 are identical. Preserve the frozen records and reserve exposure; a bounded
 development correction must verify the actual tokenized treatment before any new

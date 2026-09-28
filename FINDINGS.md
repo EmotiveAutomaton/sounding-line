@@ -9,6 +9,42 @@ ran it.
 
 ---
 
+### OPS-S13-GPU-COMPLETION-0927 - full-tuned comparator replayed; primary-reader admission blocked
+
+**Hypothesis.** A completed supervised comparator can be preserved independently of a failed primary-reader admission, without promoting an unfinished cross-method comparison or silently repairing an invalid model response.
+
+**METHOD.** Verify every completed output, source/input pin and checkpoint prerequisite. Reconstruct the full supervised comparator from saved per-row probabilities, exact source labels/units and independently calibrated thresholds; replay every reported aggregate and interval. Inspect the primary-reader traceback and retained request/response binding, replay its literal parser, and evaluate the invalid-response penalty offline using only the missing endpoint-length metadata. Inspect native exit, GPU-lock release and undispatched blocked dependents. No new inference or altered scientific output.
+
+**Found.** The RoBERTa comparator completed and all frozen aggregates reproduce exactly. Training, calibration, development and reserve remain separately identified; no baseline superiority or reconstruction lift is inferred while the full Study A roster is unfinished. Full comparator aggregates are retained in the linked receipt for the final packet.
+
+The table gives the complete comparator's data coverage. Rows are source partitions; examples count recorded inputs, source components are the grouping units, and human/machine columns count the provenance labels. These are coverage counts, not performance scores.
+
+| Partition | Examples | Source components | Human | Machine |
+|---|---|---|---|---|
+| calibration | 13136 | 784 | 784 | 12352 |
+| development | 13808 | 816 | 816 | 12992 |
+| reserve | 17344 | 1000 | 1000 | 16344 |
+
+The primary-reader worker reached its admitted GPU service and received one complete reply. The reply failed the original literal-probability parser: its handling array contained category indices rather than probabilities. No renormalization or extraction is allowed. The subsequent invalid-response scoring path hit a second defect: the constructed admission fixture supplied only the record-visible view, while the scorer needed the artifact endpoint length. That missing metadata caused `KeyError: 'A'` and prevented the worker from emitting its admission summary. A separate offline diagnostic supplies the identical endpoint length to the unchanged scorer and reproduces the invalid-response penalty. It changes neither the original request nor reply; the original gate still cannot pass. The other three admission cases were never called, and all nine dependent primary-reader jobs remain undispatched. This is a failed interface/admission, not evidence against human process recoverability.
+
+The table identifies this inspection's completed and failed jobs, verified output count where complete, and incurred worker wall/CPU seconds. The failed worker's retained individual call and telemetry remain separate; it is not reported as zero cost.
+
+| Job | State | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-007-gpt2-medium-logrank-g2r1 | complete | 258 | 1448.608 | 1434.953 |
+| core-v1-A-train-008-gpt2-medium-logrank-g2r1 | complete | 258 | 1495.620 | 1482.016 |
+| core-v1-A-train-013-e5 | complete | 258 | 117.505 | 114.094 |
+| core-v1-qwen-admission | failed | retained failed attempt | 37.611 | 1.938 |
+| core-v1-roberta-evaluate-g2r1 | complete | 44292 | 839.466 | 494.625 |
+
+The actual returned call cost 35.155 wall seconds with 536 prompt and 1285 output tokens. All three additional detector producers pass full source census, admitted identity, surface/saved-row replay and finite-feature checks; the e5 probability also reproduces from its saved logit. All 353 source and 7 input bindings verify. The primary-reader native process exited, the GPU lock is absent, and CPU work continues at the Gear 2 limit. At 22:06 PDT the queue snapshot has 75 completed, three retained failures, ten blocked, 421 pending and six running cards; one completion transition leaves five actual workers in that particular native sample.
+
+**Means.** Preserve the complete supervised comparator for the still-unfinished method comparison. Keep the current primary-reader version blocked; replaying its failed reply does not admit it. The already approved bounded development repair remains pending and must handle both the actual fixture/scorer path and the literal interface, with original gates, costs, source exposure and per-family limits intact. Do not blindly rerun or mutate the loaded capsule. Independent CPU studies continue. The separate memory-rendering defect remains VOID (L455). Four-hour health remains 23:42 PDT; no deadline, gear, cloud use or delegation changes. No tests harvested this pass.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Can complete comparator evidence survive an independent admission failure without hiding missing work? Outcome: **Infrastructure**. Result: The supervised comparator replays while the primary-reader reply fails its literal gate and its fixture exposes a scoring-path defect. Project meaning: A complete baseline does not fill the missing primary human-history comparison. Next engineering obligation: Preserve both deficits and prospectively admit any bounded recovery before new dependent calls. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/GPU_COMPLETION_20260927.json).
+
+---
+
 ### L455 - context consumer replayed; memory-type contrast void after token projection
 
 **Hypothesis.** Useful context and evidence-linked memory improve a bounded reader's recorded-action forecasts without mistaking repetition or misleading assertions for reliable support.
@@ -9663,6 +9699,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 13 primary-reader admission (OPS-S13-GPU-COMPLETION-0927).** One returned known-answer reply fails literal probabilities; a missing endpoint view in the fixture then prevents the invalid-response scorer from finishing. All original request/response/error evidence and costs remain; the other admission cases and nine dependents are uncalled. No primary-reader comparison is licensed, and bounded development recovery remains pending.
 
 **Stage 13 context-memory realization (L455).** Actual tokenizer reconstruction shows raw retrieval, linked memory and duplicate memory are identical in every case/view; that contrast is void. Source/census/score integrity did not establish realized treatment distinction. Other context means are descriptive with one component per partition, independent memory unavailable, no all-method utility over unavailable responses, and the paired literal-confidence comparison blocked by failed admission. Preserve original outputs and exposed reserve; any bounded correction needs a new development admission.
 

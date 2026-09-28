@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## September 27, 22:06 PDT: GPU comparator recorded; Qwen admission failed
+
+The complete supervised comparator reproduces exactly from 44,288 saved predictions
+and fixed calibration thresholds. Its full cross-method study remains unfinished.
+Qwen received one invalid literal-probability reply; missing endpoint metadata in
+the admission fixture then caused the invalid-response scorer to fail. Original
+error, reply and cost are preserved; three admission cases and nine dependent
+jobs remain uncalled. The GPU owner exited and released its lock. The queue
+continues independent CPU work in Gear 2; bounded development recovery for Qwen
+and the separate void memory contrast remains pending. Health stays 23:42 PDT;
+no deadline, paid use or stage allocation changed.
+[Receipt](../results/phase_2_4_stage_13/GPU_COMPLETION_20260927.json).
+
 ## September 27, 21:52 PDT: context validity defect recorded; Gear 2 advances
 
 Fourteen snapshotted completions are fully recorded. The complete context consumer
