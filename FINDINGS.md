@@ -5,7 +5,53 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-27.**
+**Last updated: 2026-09-28.**
+
+---
+
+### OPS-S13-HEALTH-0928-0008 - bounded repairs queued; original execution preserved
+
+**Hypothesis.** Authorized Gear 2 work remains correctly owned and replayable while the already permitted development repairs address known interface defects.
+
+**METHOD.** Inspect native identities, creation times, output freshness, CPU advance, locks, failures, resources and watcher delivery. Verify the entire active manifest/source/input inventory. For completed detector producers, verify every output, full source and saved-row censuses, admitted identity, surface and token visibility, finite features and saved e5 probability replay. Exercise valid and invalid Qwen replies through the actual handler and replay corrected memory contents after actual tokenization on every development case. Freeze separate source and attempt versions; retire only the coordinator and adopt unchanged scientific workers.
+
+The table records complete producer and admission jobs in the inspection snapshot. Rows count source examples (development cases for admission); outputs count hash-verified files. Wall and CPU seconds are incurred costs, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-033-gpt2-medium-logrank | 256 | 258 | 1309.512 | 1295.172 |
+| core-v1-A-train-034-gpt2-medium-logrank | 256 | 258 | 1278.130 | 1263.719 |
+| core-v1-A-train-035-gpt2-medium-logrank | 256 | 258 | 1323.858 | 1308.984 |
+| core-v1-A-train-036-gpt2-medium-logrank | 256 | 258 | 1302.131 | 1287.469 |
+| core-v1-A-train-037-gpt2-medium-logrank | 256 | 258 | 1298.426 | 1276.219 |
+| core-v1-A-train-038-e5 | 256 | 258 | 91.415 | 88.328 |
+| core-v1-A-train-038-gpt2-medium-logrank | 256 | 258 | 1319.533 | 1296.469 |
+| core-v1-A-train-039-e5 | 256 | 258 | 94.017 | 90.641 |
+| core-v1-A-train-039-gpt2-medium-logrank | 256 | 258 | 1316.722 | 1292.797 |
+| core-v1-A-train-040-e5 | 256 | 258 | 92.185 | 88.469 |
+| core-v1-A-train-040-gpt2-medium-logrank | 256 | 258 | 1336.121 | 1312.812 |
+| core-v1-A-train-041-e5 | 256 | 258 | 89.021 | 86.328 |
+| core-v1-A-train-042-e5 | 256 | 258 | 93.309 | 90.406 |
+| core-v1-A-train-043-e5 | 256 | 258 | 92.785 | 90.328 |
+| core-v1-A-train-044-e5 | 256 | 258 | 88.342 | 85.734 |
+| core-v1-A-train-045-e5 | 256 | 258 | 88.865 | 85.969 |
+| repair-v1-memory-admission | 4 | 2 | 11.430 | 10.922 |
+
+**Found.** Six CPU workers are active at below-normal priority. The snapshot has 137 completed, three retained failures, ten blocked and 362 pending cards. All 518 manifests, 556 source bindings and 281 input bindings verify; the original 515-card roster is unchanged. No unknown attempt or new scientific failure was found. Five active scientific workers survived coordinator-only migration unchanged. Kernel queue and checkpoint locks remain actively owned; the actual scientific GPU lock is absent. Host memory is 48.5 GiB free, disk 802.8 GiB free, processor maximum 90% and boost disabled.
+
+Corrected memory admission passes all four development cases, checking complete prompts, actual memory tokens, source payload survival and literal repetition. Raw records now place recorded handling before a shared short endpoint excerpt; linked records retain all non-absent recorded operations; duplicate records contain the same record twice. Complete payloads must fit the original 100-token memory cap and the full prompt still fits 512 tokens. The separately frozen development consumer is running. This is input-realization admission, not evidence of a memory benefit: lengths remain unequal, one source component remains, independent memory remains unavailable, and exposed reserve cases remain exposed. L455's original void is unchanged; there is no automatic reserve replay.
+
+The Qwen correction adds endpoint metadata solely for the scorer and explicitly describes categorical probabilities in the reader-visible instructions. Original reader-visible fixture evidence, strict literal parser, known-answer thresholds, four admission cases, byte/token budgets and failure costs remain. The new admission is queued but has not dispatched: 7,479 MiB is free against the unchanged 8,024 MiB cold requirement. Desktop graphics processes are present; no scientific GPU process or resident model was found. No application was closed and no resource gate was lowered. Nine original Qwen dependents remain undispatched. The small literal-confidence interface allowance remains exhausted.
+
+Nineteen focused checks pass, including actual native child imports, ownership adoption, valid/invalid handler paths, collapsed-memory refusal and corrected-action semantic replay. Initial test-fixture omissions (writer metadata and escaped command-path comparison) were corrected before freezing. Native original/successor import probes and actual memory admission also pass. The initial lock-file JSON read was denied because these are held kernel locks, not stale JSON ownership files; owner identity and guarded startup establish ownership without altering them. Current manual report replay recognizes repaired actions; immutable older checkpoint capsules do not establish that later semantic replay by themselves.
+
+The conservative remaining CPU-core estimate is 26.0 elapsed hours against 92.9 hours until the science cutoff. It uses the slowest observed detector rate with a 50% margin, six-worker sharing, declared ceilings for unmeasured CPU actions and dependency depth. GPU recovery is separately resource-held; this is not an all-studies finish guarantee. The conditional extension appears to fit after the CPU estimate with its unchanged 45-hour minimum. Its complete core reserve consumer is still absent; keep all 181 prepared extension cards unsubmitted and reassess at that boundary. Remap successor selection dependencies before eventual dispatch; do not use old failed dependency paths.
+
+The sole watcher's native identity, loaded sources, registered new terminals and fresh scan verify. This health event reached the owner about 45 seconds after its deadline. One historical unknown send remains retained; subsequent delivery establishes the present path without rewriting that history. Both original checkpoint helpers remain live and fresh. Stage 12 stays stopped, with its assembled packet and September 28 06:17 PDT endpoint reconciliation.
+
+**Means.** Continue the frozen CPU core and bounded development consumer. Admit corrected Qwen only when its resource and scientific gates pass; a second method failure retires that correction. Preserve original failures, exposed-source labels and the exhausted literal-confidence allowance. Completed producer/admission records are infrastructure evidence and change no scientific hypothesis row or multiplicity entry. No tests harvested, external research, delegation or paid compute this pass. The health ACK rearms the independent four-hour inspection; final packet remains Friday October 2 at 05:00 PDT. Rollback preserves all attempts and capsules, stops only new successor launches at a safe boundary and explicitly adopts surviving native workers; never replay an uncertain request.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are existing results intact and can permitted repairs proceed safely? Outcome: **Infrastructure**. Result: Verified original execution continues alongside bounded development recovery. Project meaning: Known defects are acted on while original evidence and deficits remain visible. Next engineering obligation: Land the complete development consumer, inspect Qwen admission when resources permit, and admit the conditional extension only after the core consumer and fresh whole-family capacity check. Public claim: unchanged. Curator decision required: No. Detail: [health and repair receipt](results/phase_2_4_stage_13/HEALTH_20260928_0008.json).
 
 ---
 

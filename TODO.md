@@ -2,6 +2,9 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-HEALTH-0928-0008: health inspection, sixteen detector producers and corrected memory admission fully recorded. Original cards and scientific workers preserved in the three-card development successor.
+- [ ] OPS-S13-DEVELOPMENT-REPAIR: land complete development-only memory consumer; inspect queued Qwen admission after unchanged GPU resource admission. No automatic reserve replay. Literal-confidence correction stays exhausted.
+
 - [x] OPS-S13-PRODUCERS-0927-2339: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
 
 - [x] OPS-S13-PRODUCERS-0927-2328: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; existing bounded development repairs remain pending.
@@ -27,10 +30,10 @@
 - [x] OPS-S13-PRODUCERS-0927-2220: nine detector producers fully recorded; delayed five-event delivery reconciled to unchanged evidence and prior ACKs. Independent CPU core continues; existing repair obligations remain pending.
 
 - [x] OPS-S13-GPU-COMPLETION-0927: full supervised comparator and three further detector producers replayed; failed Qwen call/parser and fixture-scoring defect recorded. Nine dependent cards remain undispatched.
-- [ ] OPS-S13-QWEN-DEVELOPMENT-REPAIR: reconcile the already permitted Qwen family implementation/interface allowances, provide the missing endpoint metadata in a new fixture version, and validate an explicitly specified literal-probability interface on development. Preserve the returned invalid reply and costs; no normalization, current-version repeat, reserve opening or claim of a completed primary comparison.
+- [x] OPS-S13-QWEN-DEVELOPMENT-REPAIR: allowance reconciled and separate correction built, tested and queued; actual admission remains pending behind the original memory floor. Preserve invalid reply/costs, strict gates and four original cases. No normalization, current-version repeat or reserve opening (OPS-S13-HEALTH-0928-0008).
 
 - [x] L455 / OPS-S13-COMPLETIONS-0927-2146: complete context consumer, final context producer, new detector producers and full training recorded; actual rendering audit voids raw/linked/duplicate memory distinction.
-- [ ] L455: use the already approved bounded development implementation-correction allowance to preserve and verify condition-specific memory content after all serialization/tokenization. Keep original v1 and reserve exposure; do not rerun reserved rows automatically or claim independent-memory/readout success. Admit any complete successor only after development realization checks, source/time/resource gates and reconciliation of the per-family repair allowance.
+- [x] L455: bounded implementation correction passes actual-tokenizer admission on all development cases; separately frozen development consumer is running. Original void, unequal prompt lengths, source limits and reserve exposure remain. No automatic reserve replay (OPS-S13-HEALTH-0928-0008).
 
 - [x] OPS-S13-GEAR2-0927: requested Gear 2 running with six CPU workers and one GPU worker; native launcher repair, all-source audit, capacity and new completed-component write-through recorded. Original failures preserved.
 - [x] OPS-S13-PRODUCERS-0927-2034: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.

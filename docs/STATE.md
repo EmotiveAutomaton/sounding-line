@@ -1,5 +1,21 @@
 # STATE: the agent's operational file
 
+## September 28, 00:08 PDT: bounded repairs running or resource-held
+
+Gear 2 continues under `gear2-v3`: six CPU workers, 137 completed,
+three retained failures, ten blocked and 362 pending cards at inspection.
+All 518 manifests and source/input bindings verify; original cards and five
+active scientific workers survived coordinator-only migration unchanged.
+Corrected memory inputs pass all four development cases; its consumer runs.
+Qwen's corrected four-case admission is queued, held by 7,479 MiB free versus
+its unchanged 8,024 MiB requirement. No reserve replay. CPU core projects about
+26 hours conservatively. The extension appears to fit afterward but requires the
+complete core evaluation, remapped dependencies and a fresh whole-family time check.
+Watcher delivery, checkpoints, native progress and power limits verify. Health
+ACK rearms four hours later. Stage 12 stays stopped; its endpoint is 06:17 PDT
+today. Final Stage 13 packet remains Friday 05:00 PDT.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_0008.json).
+
 ## September 27, 23:39 PDT: completed detector evidence recorded
 
 Three completed batches pass full bindings, coverage and saved-feature replay.

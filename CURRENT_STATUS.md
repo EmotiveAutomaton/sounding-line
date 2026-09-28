@@ -1,6 +1,6 @@
 # Current status
 
-Updated September 27, 2026. Start here for current authority; historical execution
+Updated September 28, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
@@ -9,14 +9,14 @@ The owner explicitly selected **Gear 2** on September 27. The CPU queue continue
 under a source-bound successor with a six-worker limit. Full GPU training and its
 fixed comparator evaluation are complete and replayed. Qwen admission failed on
 an invalid literal reply and a fixture/scorer metadata defect; its nine dependent
-jobs stay undispatched pending bounded development recovery. All core studies and their
+jobs stay undispatched. Its separate four-case development correction is queued, held by the unchanged GPU memory floor. All core studies and their
 consumers are built; each retains its scientific and resource gates. The original
-514-card core is preserved alongside one infrastructure capacity card. A repaired
+514-card core is preserved alongside one infrastructure capacity card and three separately frozen development-repair cards. A repaired
 native launcher uses new attempt identities and retains every preflight failure.
 The small literal-confidence interface failed its permitted correction, so those
 reserved tests remain blocked. The complete likelihood context consumer replays,
 but token projection erased the raw/linked/duplicate memory distinction; that
-contrast is void and its bounded development correction remains pending (L455).
+contrast remains void (L455). Corrected memory inputs pass development admission and a separate development-only consumer is running; no reserve rerun is opened.
 Independent detector studies continue.
 
 Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.

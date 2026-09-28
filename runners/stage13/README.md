@@ -3,7 +3,7 @@
 Approved September 27, 2026. The owner subsequently selected **Gear 2**: six
 CPU workers with one numerical thread each, below-normal priority, and one GPU
 worker. `dispatch.py` runs the frozen worker cards after a native environment
-probe; the active immutable plan is `raw/plans/gear2-v2.json`. Full tuning runs
+probe; the active immutable plan is `raw/plans/gear2-v3.json`. Full tuning runs
 after measured capacity admission; Qwen retains its memory and scientific gates.
 No cloud use is authorized. Preserve all Stage 11/12 source capsules and clocks.
 
@@ -27,3 +27,10 @@ Read the ratified design, method lessons and this README before edits. Do not
 change loaded sources. Initial setup may evolve before the source capsule is
 frozen; launched versions require separately frozen successors. The existing
 durable watcher owns terminal delivery and independent four-hour supervision.
+
+The development successor maps only its three new cards to a separate capsule.
+Original cards keep their worker source. Corrected memory contents pass actual
+tokenizer admission before a development-only consumer; Qwen has a separate
+four-case admission. Neither opens reserve automatically. Current manual report
+replay recognizes repaired actions; original checkpoint capsules remain immutable
+and do not establish semantic replay of those later action names.

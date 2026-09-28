@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20260928_0008.json](HEALTH_20260928_0008.json) | Full queue inspection and producer integrity; separate bounded development repairs, preserved workers and unchanged resource gates |
 | [PRODUCERS_20260927_2339.json](PRODUCERS_20260927_2339.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260927_2328.json](PRODUCERS_20260927_2328.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260927_2322.json](PRODUCERS_20260927_2322.json) | Five complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |

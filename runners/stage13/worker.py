@@ -29,6 +29,9 @@ def outputs(raw,ids,name='PREDICTIONS.json'):
 
 def handle(card,out,raw,tick):
     action=card['action'];args=card.get('args',{})
+    if action in ('qwen-development-repair','memory-development-admission','memory-development-batch'):
+        from .development_repair import handle as repaired_handle
+        return repaired_handle(card,out,raw,tick)
     if action=='schola-coupling':
         from .schola import run as schola_run
         return schola_run(read(raw/args['rows']),out,tick)

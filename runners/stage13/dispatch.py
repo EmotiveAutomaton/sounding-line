@@ -62,9 +62,10 @@ def eligible(card, states, raw):
 
 
 def worker_command(card, plan, raw):
+    source_capsule = plan.get('source_capsules', {}).get(card['id'], plan['source_capsule'])
     entry = ("import os,sys,runpy;os.environ['SL_STAGE13_REPO']="+repr(str(REPO))+
              ";sys.path.insert(0,"+repr(plan['python_site_packages'])+
-             ");sys.path.insert(0,"+repr(str(raw/plan['source_capsule']))+
+             ");sys.path.insert(0,"+repr(str(raw/source_capsule))+
              ");import runners;runners.__path__.append("+repr(str(REPO/'runners'))+
              ");runpy.run_module('runners.stage13.worker',run_name='__main__')")
     return [native_identity()['executable'], '-B', '-c', entry,

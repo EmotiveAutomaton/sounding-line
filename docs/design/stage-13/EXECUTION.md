@@ -1,6 +1,6 @@
 # Stage 13 execution handoff
 
-Operational snapshot: September 27, 2026. Scientific conclusions are pending.
+Operational snapshot: September 28, 2026. Scientific conclusions are pending.
 The original brief and approved plan remain in this folder. The implementation lives
 in `runners/stage13/`; private inputs, immutable cards, source capsules, outputs and
 native ownership live in `results/phase_2_4_stage_13/raw/`.
@@ -23,8 +23,8 @@ native ownership live in `results/phase_2_4_stage_13/raw/`.
 ## Frozen roster and implemented consumers
 
 The core plan is `raw/plans/core-v1.json`, with 514 cards: 503 CPU and 11 GPU.
-The CPU Qwen consumer waits for admitted GPU prerequisites. The current successor
-uses dependency-aware concurrent dispatch with unchanged worker gate checks.
+The CPU Qwen consumer waits for admitted GPU prerequisites. The concurrent dispatcher
+preserves worker gate checks; the current plan is `raw/plans/gear2-v3.json`.
 `raw/plans/gear2-v2.json` preserves all original study cards, replacing only
 preflight-failed identities and their dependent paths. Its capacity card is
 infrastructure. All terminal paths and actual coordinator identity are registered. The original core plan hash is
@@ -51,7 +51,25 @@ source allocation, outcome rules or absolute end.
 
 ## Next operational actions
 
-1. Inspect `raw/queue/gear2-v2/OWNER.json`, actual native PID plus creation time,
+**Current successor:** `raw/plans/gear2-v3.json` preserves all 515 earlier cards and
+adds Qwen development admission, memory rendering admission, and one complete
+memory development consumer. Five native workers were adopted unchanged. Only
+the old coordinator was retired; original worker capsules remain in use.
+
+Qwen consumes its one interface and one fixture implementation correction;
+memory consumes its implementation correction. Literal confidence remains
+exhausted. Qwen is resource-held under the original floor; memory realization
+passes on all development cases and its consumer runs. Preserve unequal token
+lengths, unavailable independent memory and original reserve exposure. No
+automatic reserve rerun. Current manual report replay handles the new actions;
+old checkpoint inventories alone do not establish that semantic replay.
+
+Current conservative CPU core estimate is about 26 hours. The conditional extension
+appears to fit afterward under its 45-hour minimum, but requires the complete
+core consumer, remapped successor dependencies and fresh whole-family admission.
+[Recovery receipt](../../../results/phase_2_4_stage_13/HEALTH_20260928_0008.json).
+
+1. Inspect `raw/queue/gear2-v3/OWNER.json`, actual native PID plus creation time,
    `STATUS.json`, current job `DISPATCH.json` and fresh progress. Preserve unknown
    attempts until reconciled. Never kill by stale PID or restart beside a live owner.
 2. Completed cells: verify immutable outputs and cards; replay the applicable consumer;
@@ -79,8 +97,8 @@ source allocation, outcome rules or absolute end.
    completed and replayed. Qwen passed service readiness but returned an invalid
    literal reply; missing fixture endpoint metadata then broke invalid-response
    scoring. Its nine dependent jobs remain undispatched. Preserve the failed
-   response and original fixture; reconcile the bounded development correction
-   allowances before any separately identified recovery. No current-version retry.
+   response and original fixture. The bounded correction is now separately frozen
+   and queued in gear2-v3, behind unchanged resource admission. No current-version retry.
 7. At reporting-start, assemble complete comparisons and explicit deficits, costs,
    source units/calibration, examples, pursuit/warrant ledgers and at most three
    consequential questions. Deliver one final curator packet by Friday 05:00 PDT.
@@ -101,9 +119,9 @@ reply is invalid, and the fixture/scorer metadata defect also remains retained;
 a primary-reader comparison is still missing.
 The original context memory-type contrast is void because its rendered prompts
 are identical. Preserve the frozen records and reserve exposure; a bounded
-development correction must verify the actual tokenized treatment before any new
-complete block is admitted. Existing record census and score replay did not check
-this manipulation (L455).
+development correction passes actual-tokenizer realization admission and its
+development-only consumer runs. Existing original record census and score replay
+did not check this manipulation (L455); the original contrast remains void.
 
 The native queue and immutable-output regressions, known-answer scoring and location
 controls, complete detector fit/calibration/reserve rehearsal, and exporter checks
