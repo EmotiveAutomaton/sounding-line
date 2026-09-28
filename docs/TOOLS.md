@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-1943: complete context reserve 007 and contribution reserve 008 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1943.json).
+
 OPS-S13-HEALTH-0927-1930: native ownership, progress, immutable records, locks, resources, registered terminals and actual watcher delivery verify. Whole-core timing leaves no room for the conditional extension under its minimum guard. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260927_1930.json).
 
 OPS-S13-PRODUCERS-0927-1921: complete context reserve 006 and contribution reserve 007 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1921.json).
