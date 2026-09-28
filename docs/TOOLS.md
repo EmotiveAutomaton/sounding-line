@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-1807: context reserve 002 and contribution reserve 003 pass immutable bindings, complete censuses and replay. Contribution output reproduces byte for byte; context likelihood and memory selection replay with unavailable independent memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1807.json).
+
 OPS-S13-PRODUCERS-0927-1753: contribution reserve 002 passes immutable bindings, full treatment census, score replay and byte-identical full producer replay. Native Gear 1 context continuation verifies with fresh output; scientific consumers remain pending. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1753.json).
 
 OPS-S13-PRODUCERS-0927-1750: context reserve 001 passes immutable bindings, full treatment census, score/likelihood replay and admitted-reader identity. Unavailable independent memory is retained. Native Gear 1 contribution continuation verifies with CPU advance. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1750.json).
