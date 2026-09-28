@@ -1,5 +1,13 @@
 # STATE: the agent's operational file
 
+## September 27, 19:59 PDT: reserve producers landed
+
+Context reserve 008 and contribution reserve 009 pass complete bindings, coverage
+and replay. Context reserve 009 is running in Gear 1 with verified native identity,
+below-normal priority and fresh progress. Unavailable memory and existing failed
+admission remain explicit. No scientific consumer verdict.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1958.json).
+
 ## September 27, 19:45 PDT: reserve producers landed
 
 Context reserve 007 and contribution reserve 008 pass complete bindings, coverage

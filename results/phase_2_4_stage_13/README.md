@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_1958.json](PRODUCERS_20260927_1958.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_1943.json](PRODUCERS_20260927_1943.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [HEALTH_20260927_1930.json](HEALTH_20260927_1930.json) | Native queue, records, resources and watcher verify; conditional extension time-deferred at current rates |
 | [PRODUCERS_20260927_1921.json](PRODUCERS_20260927_1921.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
