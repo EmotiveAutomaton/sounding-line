@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-2229: three further complete detector producers pass immutable bindings, full census, admitted identity, token/feature checks and saved e5 probability replay. Whole-study comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2229.json).
+
 OPS-S13-PRODUCERS-0927-2220: nine complete detector producers pass full bindings, row census, admitted identity, surface/token checks and saved e5 probability replay. This is producer integrity, not the unfinished scientific comparison; no repeated model forward. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2220.json).
 
 OPS-S13-GPU-COMPLETION-0927: completed supervised comparator and every saved aggregate replay; cross-method study remains pending. Primary Qwen returns invalid literal probabilities, then the admission fixture lacks the endpoint view needed for invalid-response scoring. Original failure, call cost and nine blocked dependents remain; no model retry. [Receipt](../results/phase_2_4_stage_13/GPU_COMPLETION_20260927.json).
