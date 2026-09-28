@@ -5,11 +5,22 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
 
+September 28, 16:20 PDT: the core queue drained normally and its complete
+reserve comparison passed semantic replay (L457). The prepared 181-card extension
+passed whole-family source, dependency and capacity admission and now runs with
+six verified CPU workers. Across the successor: 511 complete, 169 pending, three
+retained failures and ten blocked. Six complete extension batches are recorded.
+The conservative extension estimate is 14.55 elapsed hours against 77.10 hours
+before reporting, and the fixed 45-hour admission guard passes.
+[Core result](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json) and
+[extension admission and launch](results/phase_2_4_stage_13/EXTENSION_20260928.json);
+[latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1620.json).
+
 The owner explicitly selected **Gear 2** on September 27. The CPU queue continues
 under a source-bound successor with a six-worker limit. Full GPU training and its
 fixed comparator evaluation are complete and replayed. Qwen admission failed on
 an invalid literal reply and a fixture/scorer metadata defect; its nine dependent
-jobs stay undispatched. Its separate four-case development correction is queued, held by the unchanged GPU memory floor. All core studies and their
+jobs stay undispatched. Its separate four-case development correction completed after passing the unchanged GPU memory floor, but failed literal validity and known-answer admission. Its correction allowances are exhausted; no further retry is admitted. All core studies and their
 consumers are built; each retains its scientific and resource gates. The original
 514-card core is preserved alongside one infrastructure capacity card and three separately frozen development-repair cards. A repaired
 native launcher uses new attempt identities and retains every preflight failure.
@@ -17,15 +28,15 @@ The small literal-confidence interface failed its permitted correction, so those
 reserved tests remain blocked. The complete likelihood context consumer replays,
 but token projection erased the raw/linked/duplicate memory distinction; that
 contrast remains void (L455). Corrected memory inputs and the complete development-only consumer replay (L456); unequal lengths and one source component remain, and no reserve rerun is opened.
-Independent detector studies continue.
+The whole predeclared additional-source CPU detector comparison continues.
 
 Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.
-The 181-card reserve extension is fully prepared but conditional on complete core
-evaluation and the whole-family 45-hour time guard. No cloud use or new research.
+The 181-card reserve extension is admitted after complete core evaluation and the
+whole-family 45-hour time guard. It preserves source selection, models and calibration. No cloud use or new research.
 [Readiness evidence](results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json) and
 [execution handoff](docs/design/stage-13/EXECUTION.md).
 
-## Stage 12: generation stopped; final packet assembled
+## Stage 12: final endpoint closed; scientific deficits retained
 
 The submitted local queue drained September 25 at 02:45:13 PDT: 281 completed
 jobs, 14 retained failures and 31 deferred jobs. The local allocation expired
@@ -37,7 +48,7 @@ The [final evidence packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md)
 is assembled following the September 27 reporting-start checkpoint.
 [Retained-record verification](results/phase_2_4_stage_12/REPORTING_START_20260927.json)
 passes. The original interim is preserved; Stage 13 results are kept separate.
-The final endpoint reconciliation remains **September 28 at 06:17 PDT**.
+The September 28 at 06:17 PDT final endpoint is now [reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json): retained records are unchanged, the helper exited normally and its exact watch is retired. Original-week reporting costs are reconciled; separate local costs are unchanged.
 A drained queue is not a fully completed program, and no expired allocation restarts.
 
 ## Supervision and next action
@@ -47,7 +58,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: land complete Stage 13 cells and inspect conditional continuation at the independent health checkpoints. Qwen requires a separately admitted bounded development recovery; the failed version cannot dispatch its dependents.
+Next action: land complete extension producers and its full consumer; preserve the independent health inspection due at 16:55 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
 
 ## Navigation
 

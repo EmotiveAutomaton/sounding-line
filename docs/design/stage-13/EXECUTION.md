@@ -15,8 +15,10 @@ native ownership live in `results/phase_2_4_stage_13/raw/`.
 - The fixed checkpoint helper records reporting-start, early-final-review at
   **Friday 03:00 PDT**, and deadline. Markers request an operator landing/report;
   they are not themselves a completed scientific packet.
-- Keep Stage 12 stopped. Its original reporting checkpoint is September 27 at
-  18:17 PDT and final packet September 28 at 06:17 PDT. Stage 13 resets neither.
+- Keep Stage 12 stopped. Its original September 28 at 06:17 PDT final endpoint
+  is reconciled with the frozen final packet and scientific deficits retained.
+  The checkpoint helper exited normally; only its exact watch was retired.
+  [Endpoint](../../../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json).
 - Four-hour health inspections and terminal/failure events use the existing sole
   watcher. Do not add periodic model polling or another queue owner.
 
@@ -24,7 +26,7 @@ native ownership live in `results/phase_2_4_stage_13/raw/`.
 
 The core plan is `raw/plans/core-v1.json`, with 514 cards: 503 CPU and 11 GPU.
 The CPU Qwen consumer waits for admitted GPU prerequisites. The concurrent dispatcher
-preserves worker gate checks; the current plan is `raw/plans/gear2-v3.json`.
+preserves worker gate checks; the current plan is `raw/plans/gear2-extension-v1.json`. The core `gear2-v3` drained normally; all 518 of its cards are retained unchanged alongside the 181 prepared extension cards.
 `raw/plans/gear2-v2.json` preserves all original study cards, replacing only
 preflight-failed identities and their dependent paths. Its capacity card is
 infrastructure. All terminal paths and actual coordinator identity are registered. The original core plan hash is
@@ -33,8 +35,8 @@ Source bundles are immutable. Root code edits after launch do not repair a froze
 
 | Study family | Implemented scope | Execution disposition |
 |---|---|---|
-| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning and fixed evaluation complete, consumer replayed |
-| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen admission failed, dependent calls blocked pending bounded development recovery |
+| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core complete and fully replayed (L457); conditional CPU replication now running; full RoBERTa-base tuning and fixed core evaluation remain complete |
+| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen admission and its bounded correction failed; correction allowances exhausted and dependent calls remain blocked |
 | C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Complete likelihood consumer replayed; raw/linked/duplicate memory contrast VOID after token projection (L455); independent memory unavailable and literal readout failed |
 | D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs, descriptive CPU consumers queued early |
 | ToMpathy bridge | Source-bound UTF-16 locations, independent goal support, exclusive processes, unknown values and lossless sidecar | Actual isolated capture/parser/matcher checked; no service rebuild or native side-panel claim |
@@ -51,25 +53,35 @@ source allocation, outcome rules or absolute end.
 
 ## Next operational actions
 
-**Current successor:** `raw/plans/gear2-v3.json` preserves all 515 earlier cards and
+**Prior core successor:** `raw/plans/gear2-v3.json` preserves all 515 earlier cards and
 adds Qwen development admission, memory rendering admission, and one complete
 memory development consumer. Five native workers were adopted unchanged. Only
 the old coordinator was retired; original worker capsules remain in use.
 
 Qwen consumes its one interface and one fixture implementation correction;
 memory consumes its implementation correction. Literal confidence remains
-exhausted. Qwen is resource-held under the original floor; memory realization
+exhausted. Qwen passed the unchanged resource floor but its complete correction failed literal validity and known-answer admission; no further retry is admitted. The worker exited and released its GPU lock. Memory realization
 passes on all development cases and its complete consumer replays (L456). Preserve unequal token
 lengths, unavailable independent memory and original reserve exposure. No
 automatic reserve rerun. Current manual report replay handles the new actions;
 old checkpoint inventories alone do not establish that semantic replay.
 
-Current conservative CPU core estimate is about 26 hours. The conditional extension
-appears to fit afterward under its 45-hour minimum, but requires the complete
-core consumer, remapped successor dependencies and fresh whole-family admission.
-[Recovery receipt](../../../results/phase_2_4_stage_13/HEALTH_20260928_0008.json).
+At September 28, 16:10 PDT, the complete core consumer and normal queue exit
+are recorded (L457). The current `gear2-extension-v1` preserves all 518 earlier
+cards and adds the 181 already prepared replication cards with successor dependency
+identities. Its 22,940 examples from 1,356 unused local source components have full
+paired coverage and disjoint keys/components from all core partitions. The actual
+six CPU workers advance under the unchanged limits. The first three extension
+producers are recorded; 172 cards remain pending in the 699-card successor.
+Conservative whole-extension time is 14.55 hours against 77.10 hours before the
+reporting boundary, and the fixed 45-hour minimum guard passes. Methods, source
+roster, calibration, finalists and margins are unchanged; no sign-based continuation.
+The extension repeats the prepared CPU comparison, without an additional full-tuned
+baseline run. All original deficits remain. The earlier 35 targeted checks and frozen
+consumer rehearsal remain applicable; complete real consumer replay now passes too.
+[Launch evidence](../../../results/phase_2_4_stage_13/EXTENSION_20260928.json).
 
-1. Inspect `raw/queue/gear2-v3/OWNER.json`, actual native PID plus creation time,
+1. Inspect `raw/queue/gear2-extension-v1/OWNER.json`, actual native PID plus creation time,
    `STATUS.json`, current job `DISPATCH.json` and fresh progress. Preserve unknown
    attempts until reconciled. Never kill by stale PID or restart beside a live owner.
 2. Completed cells: verify immutable outputs and cards; replay the applicable consumer;
@@ -78,11 +90,12 @@ core consumer, remapped successor dependencies and fresh whole-family admission.
 3. Health event: inspect native identities, progress, failures, locks, resources,
    eligible work and watcher delivery. Document and recover within authority before
    ACK. The health ACK rearms four hours later; unrelated ACKs do not defer it.
-4. At core completion or the independent health inspection, reconsider
-   `raw/plans/reserve-extension-v1.json`. It needs the complete core reserve consumer,
-   identical selection/calibration, source pins and enough measured time for the
-   **whole** extension. Its minimum guard is 45 hours before the reporting boundary.
-   If it cannot fit, record time-deferred; do not cherry-pick favorable subblocks.
+4. Continue the admitted whole extension under its unchanged models and calibration.
+   Each producer depends on the completed core consumer; the extension summary waits
+   for both arms on every fixed additional example. Do not subset by favorable results.
+   Land and replay the complete consumer, then prepare the final packet with the
+   core and extension reported separately and the full-tuned extension deficit explicit.
+
 5. The owner has changed to Gear 2. The serial coordinator was retired without
    stopping its active worker, which completed. The first concurrent launcher had
    26 missing-package preflights and no scientific dispatch. Original records remain;
@@ -97,8 +110,7 @@ core consumer, remapped successor dependencies and fresh whole-family admission.
    completed and replayed. Qwen passed service readiness but returned an invalid
    literal reply; missing fixture endpoint metadata then broke invalid-response
    scoring. Its nine dependent jobs remain undispatched. Preserve the failed
-   response and original fixture. The bounded correction is now separately frozen
-   and queued in gear2-v3, behind unchanged resource admission. No current-version retry.
+   response and original fixture. The separately frozen correction subsequently completed after unchanged resource admission, but one invalid reply and failed known-answer fields rejected admission. Both correction allowances are exhausted. No further retry or reserved replay.
 7. At reporting-start, assemble complete comparisons and explicit deficits, costs,
    source units/calibration, examples, pursuit/warrant ledgers and at most three
    consequential questions. Deliver one final curator packet by Friday 05:00 PDT.
@@ -113,10 +125,7 @@ location truth. Coarse window contribution masks are not full histories or menta
 The exact released DAMASHA architecture import failed because `torchcrf` is absent;
 no checkpoint forward/reproduction is claimed. Do not install into the live environment
 or replace it silently. Independent-memory requirements can be unavailable rather
-than repaired with a same-source duplicate. Primary Qwen remains missing until actually admitted and completed; full tuning
-and its downstream evaluation are complete and replayed. The Qwen known-answer
-reply is invalid, and the fixture/scorer metadata defect also remains retained;
-a primary-reader comparison is still missing.
+than repaired with a same-source duplicate. The primary Qwen comparison remains missing after its original admission and bounded correction failed; full tuning and its downstream evaluation are complete and replayed. The original invalid reply and fixture/scorer metadata defect remain retained. Corrected requests still fail literal validity and known-answer fields. Both correction allowances are exhausted.
 The original context memory-type contrast is void because its rendered prompts
 are identical. Preserve the frozen records and reserve exposure; a bounded
 development correction passes actual-tokenizer realization admission and its

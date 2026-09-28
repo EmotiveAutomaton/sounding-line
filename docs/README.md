@@ -1,6 +1,6 @@
 # Documentation - current authority, methods and history
 
-**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** Stage 13 is running under Gear 2; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and final endpoint reconciliation due.
+**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** Stage 13 is running under Gear 2; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
 
 **The claims live in [`theory/`](theory/), organised by what we believe; the methods live in
 [`../FINDINGS.md`](../FINDINGS.md), organised by when we ran them.** A result exists in both or

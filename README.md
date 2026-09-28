@@ -33,9 +33,9 @@ and the raised matched floor was later shown to be label composition, not hidden
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
 **Current work, September 28:** Stage 13 implementation is approved under Gear 2, with a fixed
-October 2 at 05:00 PDT finish. The six-worker CPU queue continues; full GPU training and evaluation are complete. Qwen admission failed; its separate bounded correction is queued behind the unchanged GPU memory gate and the original dependent work remains blocked. The completed context analysis exposes an invalid memory-type contrast, recorded in FINDINGS L455; separately corrected development memory inputs and their complete consumer replay (L456), without a general memory-benefit claim or reserve rerun. Independent studies continue. Stage 12 generation is stopped and its
+October 2 at 05:00 PDT finish. The six-worker CPU queue continues; full GPU training and evaluation are complete. Qwen admission and its separate bounded development correction failed; correction allowances are exhausted and the original dependent work remains blocked. The completed context analysis exposes an invalid memory-type contrast, recorded in FINDINGS L455; separately corrected development memory inputs and their complete consumer replay (L456), without a general memory-benefit claim or reserve rerun. Independent studies continue. Stage 12 generation is stopped and its
 [final evidence packet is assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md);
-its endpoint reconciliation remains due September 28 at 06:17 PDT. See
+its [September 28 endpoint is reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json), with scientific deficits retained. See
 [the current status](CURRENT_STATUS.md), [Stage 13 plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md)
 and [documentation map](docs/README.md). Dated execution history is retained in
 [the operating archive](docs/archive/operations/README.md).

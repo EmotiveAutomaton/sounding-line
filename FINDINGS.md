@@ -9,6 +9,2257 @@ ran it.
 
 ---
 
+### OPS-S13-EXTENSION-PRODUCERS-0928-1620 - additional-source producer evidence recorded
+
+**Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
+
+**METHOD.** Verify each immutable manifest, source/input/output binding, admitted detector identity, complete source and saved-row census, surface features and token visibility. Replay saved e5 probabilities without repeating model forwards. Check that dispatch follows the completed core consumer. Verify the actual coordinator and six native workers, numerical thread limits, below-normal priority, fresh output and sampled CPU advance; reconcile watcher sources, paths, delivery and the independent health clock.
+
+The table records complete producers, not performance scores. Rows count examples, outputs count hash-verified files, and wall/CPU seconds are separate incurred costs.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-003-e5-g2r1 | 256 | 258 | 127.857 | 121.688 |
+| reserve-extension-v1-004-e5-g2r1 | 256 | 258 | 127.539 | 121.391 |
+| reserve-extension-v1-005-e5-g2r1 | 256 | 258 | 127.265 | 122.141 |
+
+**Found.** All three producers pass complete coverage and saved-evidence checks. Combined with the launch receipt, six extension producers are fully recorded. At 16:20 PDT the successor has 511 complete, 6 running and 169 pending cards, with the same three retained failures and ten blocked. All six CPU workers have verified native ownership, fresh progress and sampled CPU advance within the existing limits. No new scientific or monitor failure appears. The sole watcher retains verified loaded sources and a fresh scan; the independent four-hour inspection remains due at 16:55 PDT. These three produces were inspected directly; actual owner delivery is a separate recorded fact.
+
+**Means.** Continue the full prepared extension with fixed source roster, models, calibration and selection. The whole comparison remains unfinished. No new full-tuned comparator is part of this extension, and the original source, location and missing-arm limitations remain. Friday's final packet, Thursday's science cutoff and Stage 12 closure are unchanged. No tests harvested, new research, cloud use or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the admitted replication retain complete and replayable evidence? Outcome: **Infrastructure**. Result: Complete producer evidence verifies while the authorized queue advances. Project meaning: The whole comparison can continue without altering its frozen method. Next engineering obligation: Land subsequent complete producers and replay the complete consumer. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1620.json).
+
+---
+
+### OPS-S13-EXTENSION-0928 - prepared whole replication admitted and running
+
+**Hypothesis.** The previously prepared additional-source comparison can run as a complete block under the unchanged selection and fixed campaign deadline.
+
+**METHOD.** Verify every old and remapped manifest, the full dependency graph, immutable source/input bindings and complete paired-detector coverage. Check that all additional source components and example keys are disjoint from training, development, calibration and core reserve, with quarantined components absent. Require the fully replayed core consumer. Estimate the whole extension from the slowest observed per-row rates with a 50% margin, parallel worker load and dependency depth; retain the stricter predeclared 45-hour guard. Check native ownership, locks, memory/disk, power limits, actual worker thread environments, output freshness, CPU advance and loaded watcher sources. Validate and write through the first completed batches without computing an unfinished performance verdict.
+
+**Found.** The prepared 181-card extension covers 22,940 examples from 1,356 unused local source components, once per detector arm, plus its full consumer. The successor changes only job/dependency identities and provenance metadata; its source data, models, calibration, finalists, margins and block roster stay fixed. All 518 original manifest hashes are preserved in the 699-card successor. The actual scheduler has 180 initially eligible producers and one dependent consumer, with original failed and blocked cards retained. No failed admission is retried.
+
+The conservative forecast is 76.69 CPU-worker hours and 14.55 elapsed hours against 77.10 hours before Thursday's reporting boundary. The unchanged 45-hour minimum guard also passes. This forecast does not spend the eight-hour reporting reserve or guarantee runtime. Memory, disk, queue-lock availability and the live checkpoint holder verify; boost remains disabled and AC maximum processor state remains 90%.
+
+At 16:10 PDT, the actual successor has 508 completed, 6 running and 172 pending cards, with three retained failures and ten blocked. All six native CPU workers have fresh output, positive sampled CPU advance and verified single-thread numerical environments at below-normal priority. No GPU job was newly admitted. The sole watcher has the new terminal paths and exact coordinator identity, a fresh scan and verified loaded sources; its previous notification-failure history is retained. Core exit and consumer events are already ACKed after full landing. The independent health clock is unchanged and remains due at 16:55 PDT.
+
+The table records complete extension producers, not scientific performance. Rows count source examples, verified outputs count bound files, and wall/CPU seconds are their separate incurred worker costs. Full source census, saved-row equality, admitted identity, surface/token bounds and e5 probability replay pass; every dispatch follows the completed core consumer. These produces were inspected directly and their actual delivery timestamps remain separate.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-000-e5-g2r1 | 256 | 258 | 122.860 | 115.812 |
+| reserve-extension-v1-001-e5-g2r1 | 256 | 258 | 123.602 | 116.609 |
+| reserve-extension-v1-002-e5-g2r1 | 256 | 258 | 123.436 | 116.875 |
+
+**Means.** Continue this whole predeclared replication in Gear 2. It repeats the frozen CPU detector/location comparison; the separately completed full-tuned comparator is not rerun on this extension. Keep upstream exposure, unknown writer identities, approximate grouping, weak location recovery and missing comparisons explicit. No method is promoted from these partial producers, and no new study, repair allowance, cloud spend or delegation is authorized. Friday's final packet and Stage 12 closure remain fixed. No tests harvested this pass.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Can the declared additional-source comparison run completely within the remaining authorized window? Outcome: **Infrastructure**. Result: The full prepared extension passes source, dependency and capacity admission and starts with verified native progress. Project meaning: Additional evidence can accrue under unchanged selection without sign-based stopping. Next engineering obligation: Land each complete producer, then replay and record the complete extension consumer. Public claim: unchanged. Curator decision required: No scientific decision; separate publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/EXTENSION_20260928.json).
+
+---
+
+### L457 - located features help the matched detector comparison without establishing process recovery
+
+**Hypothesis.** Source-trained contribution-location features improve detection of AI participation beyond equally costly features trained only on document labels, while independently recovering where AI contributed.
+
+**METHOD.** Evaluate frozen development-selected methods on all 17,344 reserved OpAI examples from 1,000 recorded source components: 1,000 human originals and 16,344 machine-revised versions. Keep separate human calibration thresholds and saved coefficients unchanged. Compare surface features, a GPT-2-medium likelihood/log-rank variant, released e5, direct feature combination, matched document-label windows and located-label windows. Include the separately completed fully tuned RoBERTa baseline on the identical reserve. Replay every saved consumer calculation and all 26 domain, generator, operation, version and short-text slices from complete paired predictions; no neural inference or fitting is repeated. Score strict and relaxed location matching separately using fixed 160-character windows.
+
+The table reports complete methods at their separately frozen thresholds targeting 1% false positives on calibration humans. Pooled recall weights machine-revised examples equally. Source-average recall first averages within each source and has its own 95% source-bootstrap interval; this is not an interval around pooled recall. Human false-positive rate is the proportion of the 1,000 human originals flagged, with its 95% source-bootstrap interval. Logarithmic probability loss averages sources equally; smaller is better. RoBERTa is the separately replayed supervised comparator, not a newly selected finalist.
+
+| Complete method | Pooled recall | Source-average recall [95% interval] | Human false-positive rate [95% interval] | Source-average logarithmic loss |
+|---|---|---|---|---|
+| Surface and length reference | 18.51% | 22.46% [20.90, 24.09] | 0.70% [0.30, 1.20] | 0.595 |
+| GPT-2-medium likelihood and log rank | 1.35% | 1.84% [1.24, 2.49] | 1.20% [0.60, 1.90] | 0.688 |
+| Released e5 detector | 4.30% | 4.42% [3.53, 5.40] | 2.30% [1.40, 3.30] | 0.450 |
+| Direct score and surface combination | 22.63% | 27.02% [25.51, 28.65] | 0.70% [0.20, 1.20] | 0.570 |
+| Matched document-label window features | 33.82% | 40.87% [39.42, 42.28] | 0.40% [0.10, 0.80] | 0.495 |
+| Located-label window features | 39.98% | 47.73% [46.24, 49.07] | 0.60% [0.20, 1.10] | 0.479 |
+| Fully tuned RoBERTa comparator | 47.14% | 53.28% [51.84, 54.70] | 1.40% [0.70, 2.20] | 0.184 |
+
+**Found.** Located-label features have 6.17 percentage points more pooled recall than the matched document-label window rival, while human false positives rise from four to six. This point difference exceeds the declared three-point engineering margin, but the consumer supplies no paired gain interval or fully operational definition of material false-positive deterioration; it does not establish a passed promotion rule. The fully tuned comparator detects more positives with more human false positives. A gain over that stronger baseline is not established by comparing these different achieved operating points. Both frozen finalists and every rival remain in the record.
+
+Independent location recovery remains weak: source-average strict boundary F1 is 0.00754 [0.00618, 0.00927] and relaxed-overlap F1 is 0.13147 [0.12687, 0.13589]. F1 combines precision and recall for predicted spans; these are separate matching rules, not token-overlap accuracy or a recovered historical process. No invalid location annotation is excluded in this reserve subset; invalid annotations elsewhere remain in their original ledger. The source contains machine revisions of human originals, not human revisions of AI output. Operation and coverage vary together, writer identity is unavailable, upstream training exposure is unresolved and approximate near-duplicate grouping does not prove full independence.
+
+All six CPU reports retain both calibration operating points, precision and F1, receiver-operating and precision-recall areas, probability losses, selective coverage/risk and every slice in the aggregate receipt. Test-curve recall at a requested false-positive rate remains separate from the frozen calibration threshold. Precision at hypothetical 1%, 10% and 50% AI prevalence is explicitly hypothetical; the observed 94.23% positive prevalence is not deployment prevalence. Human false-positive resolution here is one in 1,000 sources. Missing paired gain uncertainty, operation-class/dependency recovery, stronger span comparison and exhaustive overlap knowledge remain deficits. The original missing-RoBERTa note is stale; its separate completed comparator is included without rewriting that frozen receipt.
+
+**Means.** The completed cell supports a bounded detector-feature contribution over its matched window rival, with poor absolute location recovery. It does not establish historically grounded contribution reconstruction, competitive improvement over the strongest completed baseline, human goals or values. The predeclared additional-source replication requires whole-family time and source admission, retaining these models, calibration, finalists and margins regardless of this result's sign. The core queue drained normally at 15:40 PDT: 505 complete, three retained failures and ten blocked, with no remaining worker. Final scientific synthesis remains reserved for Friday's packet. No tests harvested, new research, paid compute or delegation.
+
+**Curator roll-up.** Theory group: artifact traces and instrument validity. Question: Do located contribution features help detection and recover the contribution itself? Outcome: **Narrows**. Result: Located features improve matched-detector recall by 6.17 percentage points while location recovery stays weak and stronger-baseline superiority remains unestablished. Project meaning: Useful classification features do not by themselves validate a reconstructed process. Next engineering obligation: Preserve complete slice and deficit reporting and admit only the prepared full replication under unchanged selection. Public claim: unchanged; general detector superiority and historical-process recovery remain unlicensed. Curator decision required: No. Detail: [complete core receipt](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1542 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Verify the final consumer terminal, normal coordinator exit and absence of active workers, plus loaded watcher sources and delivery status. Retain the earlier live sample and the inspection interrupted by normal completion. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-066-gpt2-medium-logrank-g2r1 | 256 | 258 | 1425.801 | 1412.500 |
+| core-v1-A-reserve-067-gpt2-medium-logrank-g2r1 | 192 | 194 | 1095.889 | 1086.219 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 15:42 PDT the queue has 505 completed, no running or pending cards, with three retained failures and ten blocked cards. The final consumer completed at 15:40 PDT and the coordinator exited normally; both native identities are absent. Its terminal outputs verify, but its scientific replay and landing are still required. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for one produce; the other pending produce was inspected directly without claiming delivery. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Replay and land the completed frozen reserve consumer, then assess the already prepared conditional extension against its whole-family admission rules. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1542.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1526 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-065-gpt2-medium-logrank-g2r1 | 256 | 258 | 1652.467 | 1638.297 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 15:26 PDT the queue has 502 completed, two running and 1 pending card, with three retained failures and ten blocked cards. Both native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1526.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1523 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-064-gpt2-medium-logrank-g2r1 | 256 | 258 | 1633.205 | 1619.906 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 15:23 PDT the queue has 501 completed, three running and 1 pending card, with three retained failures and ten blocked cards. All three native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1523.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1520 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-063-gpt2-medium-logrank-g2r1 | 256 | 258 | 1660.409 | 1647.359 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 15:20 PDT the queue has 501 completed, three running and 1 pending cards, with three retained failures and ten blocked cards. All three native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1520.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1517 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-062-gpt2-medium-logrank-g2r1 | 256 | 258 | 1688.581 | 1675.391 |
+| core-v1-A-reserve-067-e5-g2r1 | 192 | 194 | 95.354 | 92.797 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 15:17 PDT the queue has 500 completed, four running and 1 pending cards, with three retained failures and ten blocked cards. All four native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1517.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1514 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-061-gpt2-medium-logrank-g2r1 | 256 | 258 | 1650.871 | 1639.016 |
+| core-v1-A-reserve-066-e5-g2r1 | 256 | 258 | 120.599 | 117.812 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 15:14 PDT the queue has 498 completed, six running and 1 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1514.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1511 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-060-gpt2-medium-logrank-g2r1 | 256 | 258 | 1621.112 | 1610.172 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 15:11 PDT the queue has 495 completed, six running and 4 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1511.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1459 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-065-e5-g2r1 | 256 | 258 | 124.237 | 121.219 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:59 PDT the queue has 494 completed, six running and 5 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1459.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1456 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-059-gpt2-medium-logrank-g2r1 | 256 | 258 | 1679.295 | 1668.375 |
+| core-v1-A-reserve-064-e5-g2r1 | 256 | 258 | 119.657 | 116.359 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 14:56 PDT the queue has 493 completed, six running and 6 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1456.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1453 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-058-gpt2-medium-logrank-g2r1 | 256 | 258 | 1688.087 | 1672.141 |
+| core-v1-A-reserve-063-e5-g2r1 | 256 | 258 | 120.020 | 116.781 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 14:53 PDT the queue has 492 completed, six running and 7 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for one produce; the other was inspected directly before delivery. Six delayed notices for the earlier 14:49 landing were reconciled against unchanged outputs and their full write-through; original ACK times and the health schedule are preserved. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1453.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1449 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-055-gpt2-medium-logrank-g2r1 | 256 | 258 | 1689.254 | 1670.688 |
+| core-v1-A-reserve-056-gpt2-medium-logrank-g2r1 | 256 | 258 | 1637.373 | 1620.031 |
+| core-v1-A-reserve-057-gpt2-medium-logrank-g2r1 | 256 | 258 | 1646.665 | 1630.062 |
+| core-v1-A-reserve-060-e5-g2r1 | 256 | 258 | 117.005 | 114.250 |
+| core-v1-A-reserve-061-e5-g2r1 | 256 | 258 | 119.236 | 116.594 |
+| core-v1-A-reserve-062-e5-g2r1 | 256 | 258 | 120.744 | 118.125 |
+
+**Found.** All six completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 6 input bindings. Each dispatch follows the completed selection. At 14:49 PDT the queue has 490 completed, six running and 9 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. All six produces were inspected directly while their notifications remained pending, with no send attempts and no actual delivery timestamps at the inspection snapshot. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1449.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1441 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-054-gpt2-medium-logrank-g2r1 | 256 | 258 | 1736.284 | 1715.422 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:41 PDT the queue has 483 completed, six running and 16 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1441.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1430 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-059-e5-g2r1 | 256 | 258 | 123.120 | 119.766 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:30 PDT the queue has 482 completed, six running and 17 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1430.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1427 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-053-gpt2-medium-logrank-g2r1 | 256 | 258 | 1669.494 | 1646.047 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:27 PDT the queue has 482 completed, six running and 17 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1427.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1424 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-058-e5-g2r1 | 256 | 258 | 126.910 | 123.359 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:24 PDT the queue has 480 completed, six running and 19 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1424.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1421 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-051-gpt2-medium-logrank-g2r1 | 256 | 258 | 1668.561 | 1645.016 |
+| core-v1-A-reserve-052-gpt2-medium-logrank-g2r1 | 256 | 258 | 1640.598 | 1617.531 |
+| core-v1-A-reserve-056-e5-g2r1 | 256 | 258 | 122.714 | 119.078 |
+| core-v1-A-reserve-057-e5-g2r1 | 256 | 258 | 123.883 | 119.844 |
+
+**Found.** All four completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 4 input bindings. Each dispatch follows the completed selection. At 14:21 PDT the queue has 479 completed, six running and 20 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all four produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1421.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1417 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-049-gpt2-medium-logrank-g2r1 | 256 | 258 | 1723.750 | 1699.984 |
+| core-v1-A-reserve-050-gpt2-medium-logrank-g2r1 | 256 | 258 | 1697.870 | 1674.406 |
+| core-v1-A-reserve-055-e5-g2r1 | 256 | 258 | 126.127 | 121.766 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. A worker completed during the first native sample; one bounded follow-up verified normal replacement without restart. At 14:17 PDT the queue has 477 completed, six running and 22 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1417.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1413 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-054-e5-g2r1 | 256 | 258 | 127.544 | 123.312 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:13 PDT the queue has 473 completed, six running and 26 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1413.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1410 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-048-gpt2-medium-logrank-g2r1 | 256 | 258 | 1684.568 | 1663.469 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:10 PDT the queue has 471 completed, six running and 28 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1410.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1404 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-053-e5-g2r1 | 256 | 258 | 122.921 | 119.453 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 14:04 PDT the queue has 470 completed, six running and 29 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. Two delayed notices for the earlier 14:00 landing were reconciled against unchanged outputs and their full write-through; original ACK times and the health schedule are preserved. The previously documented late transport-state race remains an operational limitation. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1404.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1400 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-047-gpt2-medium-logrank-g2r1 | 256 | 258 | 1741.855 | 1720.297 |
+| core-v1-A-reserve-052-e5-g2r1 | 256 | 258 | 120.364 | 116.266 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 14:00 PDT the queue has 470 completed, six running and 29 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Both produces were inspected directly; each has one accepted queue send but no recorded actual-delivery timestamp at inspection. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1400.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1352 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-046-gpt2-medium-logrank-g2r1 | 256 | 258 | 1715.046 | 1693.641 |
+| core-v1-A-reserve-051-e5-g2r1 | 256 | 258 | 125.409 | 121.656 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. A worker completed during the first native sample; one bounded follow-up verified normal replacement without restart. At 13:52 PDT the queue has 468 completed, six running and 31 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1352.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1348 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-045-gpt2-medium-logrank-g2r1 | 256 | 258 | 1670.632 | 1648.219 |
+| core-v1-A-reserve-050-e5-g2r1 | 256 | 258 | 124.546 | 120.812 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 13:48 PDT the queue has 465 completed, six running and 34 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1348.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1345 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-043-gpt2-medium-logrank-g2r1 | 256 | 258 | 1718.694 | 1694.094 |
+| core-v1-A-reserve-044-gpt2-medium-logrank-g2r1 | 256 | 258 | 1700.774 | 1677.766 |
+| core-v1-A-reserve-049-e5-g2r1 | 256 | 258 | 127.696 | 124.094 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 13:45 PDT the queue has 463 completed, six running and 36 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1345.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1342 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-048-e5-g2r1 | 256 | 258 | 123.802 | 119.578 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 13:42 PDT the queue has 461 completed, six running and 38 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1342.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1338 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-042-gpt2-medium-logrank-g2r1 | 256 | 258 | 1701.542 | 1684.594 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 13:38 PDT the queue has 459 completed, six running and 40 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1338.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1328 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-047-e5-g2r1 | 256 | 258 | 126.783 | 122.688 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 13:28 PDT the queue has 458 completed, six running and 41 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1328.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1325 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-041-gpt2-medium-logrank-g2r1 | 256 | 258 | 1667.758 | 1646.188 |
+| core-v1-A-reserve-046-e5-g2r1 | 256 | 258 | 121.425 | 117.562 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 13:25 PDT the queue has 458 completed, six running and 41 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1325.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1322 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-040-gpt2-medium-logrank-g2r1 | 256 | 258 | 1665.938 | 1644.219 |
+| core-v1-A-reserve-045-e5-g2r1 | 256 | 258 | 118.897 | 114.922 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 13:22 PDT the queue has 456 completed, six running and 43 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for 1 of these produces; 1 were inspected directly before their recorded delivery. Delayed notices for two previously landed producers were reconciled against their preserved original ACKs; the health clock was unchanged. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1322.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1318 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-039-gpt2-medium-logrank-g2r1 | 256 | 258 | 1685.119 | 1662.922 |
+| core-v1-A-reserve-044-e5-g2r1 | 256 | 258 | 123.385 | 118.297 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 13:18 PDT the queue has 455 completed, six running and 44 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for 0 of these produces; 2 were inspected directly before their recorded delivery. Delayed notices for four previously landed producers were reconciled against their preserved original ACKs; the health clock was unchanged. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1318.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1315 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-037-gpt2-medium-logrank-g2r1 | 256 | 258 | 1674.477 | 1653.422 |
+| core-v1-A-reserve-038-gpt2-medium-logrank-g2r1 | 256 | 258 | 1672.549 | 1651.875 |
+| core-v1-A-reserve-042-e5-g2r1 | 256 | 258 | 125.284 | 121.406 |
+| core-v1-A-reserve-043-e5-g2r1 | 256 | 258 | 124.224 | 120.656 |
+
+**Found.** All four completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 4 input bindings. Each dispatch follows the completed selection. At 13:15 PDT the queue has 453 completed, six running and 46 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for 0 of these produces; 4 were inspected directly before their recorded delivery. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1315.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1308 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-036-gpt2-medium-logrank-g2r1 | 256 | 258 | 1674.033 | 1654.234 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 13:08 PDT the queue has 447 completed, six running and 52 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1308.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1257 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-035-gpt2-medium-logrank-g2r1 | 256 | 258 | 1730.510 | 1707.375 |
+| core-v1-A-reserve-040-e5-g2r1 | 256 | 258 | 123.167 | 119.156 |
+| core-v1-A-reserve-041-e5-g2r1 | 256 | 258 | 122.561 | 119.031 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 12:57 PDT the queue has 446 completed, six running and 53 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for 1 of these produces; 2 were inspected directly before their recorded delivery. Delayed notices for two previously landed producers and the completed four-hour inspection were reconciled against their preserved original ACKs; the health clock was not rearmed again. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 16:55 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1257.json).
+
+---
+
+### OPS-S13-HEALTH-0928-1250 - four-hour health and completed detector evidence
+
+**Hypothesis.** Completed detector evidence remains intact and the authorized queue continues within its resource, ownership and fixed-finish constraints.
+
+**METHOD.** Verify every frozen card and source/input binding, original-card preservation, and every output from the two completed batches. Compare full source and saved-row censuses, admitted identities, surface features and token visibility; replay saved features and e5 probabilities without repeating model forwards. Inspect native coordinator, worker and checkpoint identities, CPU advance, output freshness, numerical-thread environments, actual held kernel locks, resource limits, power settings, failures and eligible work. Verify the watcher's native identity, loaded sources, registrations and recorded delivery state. Estimate remaining CPU time from the slowest observed per-row rates with a 50% margin, six-worker allocation and dependency depth, retaining existing extension admission gates.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-034-gpt2-medium-logrank-g2r1 | 256 | 258 | 1640.340 | 1618.594 |
+| core-v1-A-reserve-039-e5-g2r1 | 256 | 258 | 126.952 | 123.391 |
+
+**Found.** Both producers pass full coverage and saved-feature checks. All 518 manifests, 556 source bindings and 281 input bindings verify; the 515 earlier cards remain unchanged. At 12:50 PDT the queue has 444 completed, six running, 55 pending, three retained failures and ten blocked cards. All six CPU workers advance with fresh output, below-normal priority and single-thread numerical environments. Both kernel locks are held, the Stage 13 checkpoint is live and fresh, and Stage 12's normal endpoint exit and retired watch remain reconciled. There is no GPU lock, orphaned attempt, stop/pause marker or new monitor failure. There are 54 dependency-ready CPU cards and no runnable GPU card. Host memory has 47.4 GiB free and disk 794.5 GiB. AC maximum remains 90% with boost disabled. No recovery is required.
+
+The conservative CPU core estimate is 6.5 elapsed hours against 80.2 hours before Thursday's reporting reserve. This is an operational estimate, not a guarantee of complete scientific comparisons. The prepared extension's 45-hour minimum appears to fit afterward, but its complete core reserve consumer is absent. It remains unsubmitted pending that consumer, remapped successor dependencies and fresh whole-family admission. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; current free GPU memory does not authorize another attempt.
+
+The sole watcher has a fresh scan, unchanged native identity and verified loaded sources. The health event and both producer events have recorded native queue acceptance; actual idle-owner delivery is not yet recorded, so they were inspected directly while this session was active. The earlier separate read-only native inventory probe could not initialize in the sandbox because its home directory was unavailable; it was not repeated and remains a historical inspection limitation. Current native process identity, source adoption, registration and recorded queue acceptance were checked directly. The historical uncertain notification remains retained and no new delivery error is recorded. The earlier producer ACK precheck caught the legitimate attachment of this due health event; its deadline and last-inspection time were preserved. Health ACK after this write-through rearms the independent four-hour clock. The legacy September queue log remains historical.
+
+**Delivery-counter correction.** The original health receipt used the inspection-start counter of zero alongside later native queue acceptance. The later snapshot records one submission and no actual owner-delivery timestamp. The [correction receipt](results/phase_2_4_stage_13/HEALTH_20260928_1250_DELIVERY_CORRECTION.json) preserves the original and resolves that timing mismatch; no duplicate send or scientific change occurred.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Preserve failed admissions, the void memory-type contrast, exhausted literal-confidence correction and missing comparisons. Corrected memory development is recorded as L456 and opens no reserve replay. Stage 12 remains closed. Stage 13 retains Thursday 21:00 as the reporting boundary and Friday 05:00 as the final-packet deadline. No tests harvested, cloud use, new research or delegation this pass. Whole-method comparisons remain unfinished; their per-artifact scores are not reported. The previous external-push rejection remains unresolved; records stay local and no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the frozen queue preserve evidence and remain healthy within its authorized bounds? Outcome: **Infrastructure**. Result: Complete producer evidence and the operational health inspection verify, with delivery-probe limits retained. Project meaning: Independent work continues while failed and missing comparisons remain explicit. Next engineering obligation: Land complete consumers and reconsider conditional whole-family admission at its existing gate. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/HEALTH_20260928_1250.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1247 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-033-gpt2-medium-logrank-g2r1 | 256 | 258 | 1704.902 | 1681.797 |
+| core-v1-A-reserve-038-e5-g2r1 | 256 | 258 | 122.052 | 117.938 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 12:47 PDT the queue has 442 completed, six running and 57 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1247.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1244 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-031-gpt2-medium-logrank-g2r1 | 256 | 258 | 1710.208 | 1662.953 |
+| core-v1-A-reserve-032-gpt2-medium-logrank-g2r1 | 256 | 258 | 1685.577 | 1663.859 |
+| core-v1-A-reserve-037-e5-g2r1 | 256 | 258 | 122.783 | 118.875 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 12:44 PDT the queue has 439 completed, six running and 60 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1244.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1241 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-036-e5-g2r1 | 256 | 258 | 121.007 | 117.312 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 12:41 PDT the queue has 437 completed, six running and 62 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1241.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1237 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-030-gpt2-medium-logrank-g2r1 | 256 | 258 | 1705.050 | 1681.516 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 12:37 PDT the queue has 435 completed, six running and 64 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1237.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1228 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-029-gpt2-medium-logrank-g2r1 | 256 | 258 | 1771.692 | 1745.734 |
+| core-v1-A-reserve-035-e5-g2r1 | 256 | 258 | 124.782 | 120.688 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 12:28 PDT the queue has 434 completed, six running and 65 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1228.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1221 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-028-gpt2-medium-logrank-g2r1 | 256 | 258 | 1760.996 | 1735.000 |
+| core-v1-A-reserve-033-e5-g2r1 | 256 | 258 | 122.329 | 118.797 |
+| core-v1-A-reserve-034-e5-g2r1 | 256 | 258 | 118.794 | 115.188 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 12:21 PDT the queue has 433 completed, six running and 66 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1221.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1217 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-027-gpt2-medium-logrank-g2r1 | 256 | 258 | 1732.149 | 1707.375 |
+| core-v1-A-reserve-032-e5-g2r1 | 256 | 258 | 121.843 | 118.203 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 12:17 PDT the queue has 431 completed, six running and 68 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. The initial audit sampled five still-active workers during a natural completion; a fresh native snapshot confirms six active workers without intervention. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1217.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1213 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-025-gpt2-medium-logrank-g2r1 | 256 | 258 | 1713.523 | 1687.406 |
+| core-v1-A-reserve-026-gpt2-medium-logrank-g2r1 | 256 | 258 | 1683.737 | 1657.844 |
+| core-v1-A-reserve-031-e5-g2r1 | 256 | 258 | 124.733 | 120.312 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 12:13 PDT the queue has 427 completed, six running and 72 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1213.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1211 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-024-gpt2-medium-logrank-g2r1 | 256 | 258 | 1632.116 | 1608.203 |
+| core-v1-A-reserve-030-e5-g2r1 | 256 | 258 | 128.691 | 124.328 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 12:11 PDT the queue has 425 completed, six running and 74 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual owner-delivery timestamps are recorded for 1 of these two produces; both were inspected directly. The repeated notice for the preceding e5 batch was reconciled against its full prior landing and unchanged output bindings, preserving its original ACK. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1211.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1207 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-029-e5-g2r1 | 256 | 258 | 127.291 | 123.734 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 12:07 PDT the queue has 423 completed, six running and 76 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. This new produce was inspected directly before native delivery. Six delayed notices from the completed assessment were reconciled against full output bindings and the retained landing; their original ACKs are unchanged and no duplicate scientific landing was made. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1207.json).
+
+---
+
+### OPS-S13-ASSESSMENT-0928 - queue assessment and early consumer validity
+
+**Hypothesis.** The current queue is operating within its authorized limits, and the remaining consumer has complete planned evidence and valid known-answer behavior before the scientific comparison finishes.
+
+**METHOD.** Inspect actual native coordinator, worker and checkpoint identities, CPU advance, output freshness, thread environments, held locks, resource limits, failures and runnable work. Verify every frozen manifest and source/input binding, retained earlier cards, watcher identity/loaded sources and terminal registrations. Fully inspect eight completed producers, including prerequisite outputs, admitted identities, complete source/saved-row coverage, feature and probability replay, and dispatch after selection. Rehearse existing controls against the frozen core package and current operational package in isolated temporary roots. Exercise the actual frozen selection/evaluation handlers on constructed evidence, including JSON reentry and missing/duplicate-arm refusals. Audit the real pending consumer's dependency closure and complete source allocation without calculating reserved scientific performance. Estimate remaining elapsed time from observed slow per-row rates with a 50% margin, six workers and dependency depth.
+
+The table records complete producers: rows count source examples, outputs count verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-020-gpt2-medium-logrank-g2r1 | 256 | 258 | 1684.629 | 1670.203 |
+| core-v1-A-reserve-021-gpt2-medium-logrank-g2r1 | 256 | 258 | 1658.294 | 1642.375 |
+| core-v1-A-reserve-022-gpt2-medium-logrank-g2r1 | 256 | 258 | 1658.245 | 1641.453 |
+| core-v1-A-reserve-023-gpt2-medium-logrank-g2r1 | 256 | 258 | 1661.869 | 1644.188 |
+| core-v1-A-reserve-025-e5-g2r1 | 256 | 258 | 107.842 | 103.859 |
+| core-v1-A-reserve-026-e5-g2r1 | 256 | 258 | 108.320 | 103.766 |
+| core-v1-A-reserve-027-e5-g2r1 | 256 | 258 | 124.405 | 119.625 |
+| core-v1-A-reserve-028-e5-g2r1 | 256 | 258 | 124.776 | 120.672 |
+
+**Found.** At 11:52 PDT the queue has 422 completed cards, six running and 77 pending, with three retained failures and ten blocked cards. All six CPU workers advance with fresh output, below-normal priority and one numerical thread. All 518 manifests, 556 source bindings and 281 input bindings verify; all 515 earlier cards remain unchanged. Both kernel locks are held, the checkpoint is fresh, Stage 12 remains closed and no orphaned attempt or new monitor failure is present. Host memory has 41.8 GiB free and disk 795.9 GiB. AC maximum remains 90% with boost disabled. No live recovery is required.
+
+All 35 targeted regressions pass: 23 against the frozen core source and 12 against the current operational source. The actual frozen pending consumer passes known-answer, JSON roundtrip and reentry checks, and rejects missing and duplicate detector evidence. Its 136 detector blocks cover all 17,344 reserved source rows exactly once for each arm; source keys and connected components remain disjoint across partitions. Its 137 direct prerequisites plus their transitive closure include the completed selection and located model. Private fixture-bootstrap errors and an initially overstrict direct-dependency assertion are retained as inspection-harness history; neither changed scientific code or the native queue.
+
+The remaining eligible core consists of detector batches and their combined consumer. The conservative estimate is 8.0 elapsed hours against 81.1 hours before Thursday 21:00 PDT. This supports an on-track operational forecast for Friday October 2 at 05:00 PDT, not a guarantee of complete scientific comparisons. The prepared 181-card extension appears to fit its 45-hour minimum afterward, but remains unsubmitted until the complete core consumer, remapped successor dependencies and a fresh whole-family time admission. There is no runnable GPU card. Current GPU free memory is below the unchanged cold-admission floor; no application is closed or failed study retried to alter that state.
+
+Qwen's correction remains admission-failed with both allowances exhausted; the literal-confidence comparison remains unavailable. The original memory contrast is void and its corrected consumer is development-only. These deficits are retained alongside the source-truth and historical-exposure limits. The present controls validate infrastructure and planned coverage, not a scientific win on real reserved data.
+
+The sole watcher has verified loaded sources and a fresh scan without a current error. Six of the eight inspected producer events have recorded native queue acceptance; actual owner-delivery timestamps remain absent, so this active-session inspection does not claim an idle wake. The previously inaccessible native inventory probe and late transport-label race remain documented. The independent health inspection stays due at 12:47 PDT; this user-requested assessment and ordinary producer ACKs do not reset it.
+
+**Means.** Continue the current Gear 2 workers through the complete core consumer, then apply the existing conditional-extension gate. No restart, gear change, new research, cloud use or delegation is needed. No new hypotheses harvested; this pass executes the requested readiness assessment using existing known-answer controls. The final packet retains all failed and missing comparisons. Record these completed producers internally before ACK; the separate publication approval remains unresolved and no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the remaining queue healthy and ready to produce a complete interpretable comparison? Outcome: **Infrastructure**. Result: Native operation, planned evidence coverage and known-answer consumer checks pass. Project meaning: Continue authorized work while retaining failed admissions and unavailable comparisons. Next engineering obligation: Land the complete core consumer and reassess whole-family extension admission. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/ASSESSMENT_20260928.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1141 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-019-gpt2-medium-logrank-g2r1 | 256 | 258 | 1680.241 | 1666.516 |
+| core-v1-A-reserve-024-e5-g2r1 | 256 | 258 | 120.778 | 117.406 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 11:41 PDT the queue has 415 completed, six running and 84 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1141.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1138 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-018-gpt2-medium-logrank-g2r1 | 256 | 258 | 1666.202 | 1654.219 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 11:38 PDT the queue has 411 completed, six running and 88 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1138.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1123 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-017-gpt2-medium-logrank-g2r1 | 256 | 258 | 1709.074 | 1694.391 |
+| core-v1-A-reserve-023-e5-g2r1 | 256 | 258 | 123.128 | 120.109 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 11:23 PDT the queue has 410 completed, six running and 89 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1123.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1119 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-016-gpt2-medium-logrank-g2r1 | 256 | 258 | 1666.733 | 1651.797 |
+| core-v1-A-reserve-021-e5-g2r1 | 256 | 258 | 123.285 | 120.172 |
+| core-v1-A-reserve-022-e5-g2r1 | 256 | 258 | 129.155 | 124.969 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 11:19 PDT the queue has 409 completed, six running and 90 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1119.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1115 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-014-gpt2-medium-logrank-g2r1 | 256 | 258 | 1718.997 | 1702.141 |
+| core-v1-A-reserve-015-gpt2-medium-logrank-g2r1 | 256 | 258 | 1709.934 | 1693.484 |
+| core-v1-A-reserve-019-e5-g2r1 | 256 | 258 | 123.208 | 120.422 |
+| core-v1-A-reserve-020-e5-g2r1 | 256 | 258 | 126.283 | 122.578 |
+
+**Found.** All four completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 4 input bindings. Each dispatch follows the completed selection. At 11:15 PDT the queue has 405 completed, six running and 94 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all four produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1115.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1111 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-013-gpt2-medium-logrank-g2r1 | 256 | 258 | 1716.289 | 1697.594 |
+| core-v1-A-reserve-018-e5-g2r1 | 256 | 258 | 121.230 | 118.188 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 2 input bindings. Each dispatch follows the completed selection. At 11:11 PDT the queue has 403 completed, six running and 96 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1111.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1107 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-012-gpt2-medium-logrank-g2r1 | 256 | 258 | 1672.892 | 1655.875 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 11:07 PDT the queue has 399 completed, six running and 100 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1107.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1056 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite features and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-017-e5-g2r1 | 256 | 258 | 121.667 | 118.609 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 10:56 PDT the queue has 398 completed, six running and 101 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1056.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1052 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-009-gpt2-medium-logrank-g2r1 | 256 | 258 | 1750.093 | 1729.875 |
+| core-v1-A-reserve-010-gpt2-medium-logrank-g2r1 | 256 | 258 | 1696.271 | 1677.188 |
+| core-v1-A-reserve-011-gpt2-medium-logrank-g2r1 | 256 | 258 | 1708.301 | 1687.781 |
+| core-v1-A-reserve-014-e5-g2r1 | 256 | 258 | 126.327 | 123.234 |
+| core-v1-A-reserve-015-e5-g2r1 | 256 | 258 | 126.501 | 122.484 |
+| core-v1-A-reserve-016-e5-g2r1 | 256 | 258 | 124.066 | 120.250 |
+
+**Found.** All six completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 6 input bindings. Each dispatch follows the completed selection. At 10:52 PDT the queue has 398 completed, six running and 101 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for four produces; two pending produces were inspected directly before native delivery. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1052.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1043 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-007-gpt2-medium-logrank-g2r1 | 256 | 258 | 1693.365 | 1675.812 |
+| core-v1-A-reserve-008-gpt2-medium-logrank-g2r1 | 256 | 258 | 1690.284 | 1672.203 |
+| core-v1-A-reserve-012-e5-g2r1 | 256 | 258 | 120.640 | 116.984 |
+| core-v1-A-reserve-013-e5-g2r1 | 256 | 258 | 127.810 | 123.766 |
+
+**Found.** All four completed producers pass full coverage and saved-feature checks against 353 frozen source bindings and 4 input bindings. Each dispatch follows the completed selection. At 10:43 PDT the queue has 393 completed, six running and 106 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all four produces. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1043.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1039 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-006-gpt2-medium-logrank-g2r1 | 256 | 258 | 1730.127 | 1712.562 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. Each dispatch follows the completed selection. At 10:39 PDT the queue has 388 completed, six running and 111 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for this produce. The previously documented late transport-state race remains an operational limitation with original ACKs preserved. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1039.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1025 - completed reserve evidence and delayed notices reconciled
+
+**Hypothesis.** Completed reserve evidence remains intact after frozen selection, and delayed notices do not invalidate an already completed landing.
+
+**METHOD.** Verify the immutable producer manifest, every source/input/output binding, prerequisite outputs, admitted identity, full source/row census, surface/token features and saved-logit probability replay. Check dispatch after selection. Reverify all outputs for the five repeated notices against their prior landing and original ACK times; inspect watcher transport settlement, delivery-hook eligibility and the acknowledged-event dispatch guard. Inspect native worker identities, below-normal priority, fresh output and CPU advance. No model forward or reserved performance verdict is repeated.
+
+The table reports complete producer coverage and incurred cost: rows are source examples, outputs are hash-verified files, and wall/CPU seconds are distinct elapsed and processor costs. It contains no scientific performance score.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-011-e5-g2r1 | 256 | 258 | 124.186 | 121.047 |
+
+**Found.** The completed e5 producer passes full coverage and saved-probability replay against 353 frozen source bindings and one input binding; dispatch follows selection completion. Its actual native owner delivery is recorded. Five repeated notices match the original completed landings and ACK times. Two have native delivery recorded after their ACK and a late queued transport label; three have no separate delivery timestamp under the queued-only hook. The acknowledgement field remains intact, excludes these events from the awaiting-ACK guard and is unchanged by duplicate ACK. This metadata race has not blocked the current queue. At 10:25 PDT there are 386 completed, six running and 113 pending cards, with three retained failures and ten blocked. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The sole watcher retains verified native identity, loaded sources and fresh scanning. No new scientific or successor-monitor failure appears. Health remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method result remains unfinished. Preserve the transport race as an operational limitation without restarting science or changing original ACK times. Historically exposed sources, Qwen's failed admission and exhausted corrections, the void original memory contrast and its development-only correction remain. The prepared extension needs the complete core consumer and fresh whole-family time admission. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request is unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are the new evidence and repeated notices consistent with complete, source-bound landings? Outcome: **Infrastructure**. Result: The complete producer and prior landings verify with original acknowledgements preserved. Project meaning: The frozen comparison can continue while its scientific result remains unfinished. Next engineering obligation: Land complete consumers, preserve the transport limitation and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1025.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1019 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds, and reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-003-gpt2-medium-logrank-g2r1 | 256 | 258 | 1752.295 | 1733.906 |
+| core-v1-A-reserve-004-gpt2-medium-logrank-g2r1 | 256 | 258 | 1722.041 | 1703.750 |
+| core-v1-A-reserve-005-gpt2-medium-logrank-g2r1 | 256 | 258 | 1698.142 | 1681.188 |
+| core-v1-A-reserve-006-e5-g2r1 | 256 | 258 | 122.532 | 118.984 |
+| core-v1-A-reserve-007-e5-g2r1 | 256 | 258 | 124.159 | 120.688 |
+| core-v1-A-reserve-008-e5-g2r1 | 256 | 258 | 121.761 | 118.797 |
+| core-v1-A-reserve-009-e5-g2r1 | 256 | 258 | 122.715 | 120.109 |
+| core-v1-A-reserve-010-e5-g2r1 | 256 | 258 | 124.495 | 121.750 |
+
+**Found.** All eight completed detector producers pass full coverage and saved-feature checks against 353 frozen source bindings and 8 input bindings. Each dispatch follows the completed selection. At 10:19 PDT the queue has 386 completed, six running and 113 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; all five workers present in the prior sample also show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for one produce; seven additional pending produces were inspected directly before delivery. The earlier three causal notices match their completed landings and original ACK times; their delayed notice is present in this turn, while the queued-only delivery hook retains no separate database delivery timestamps. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1019.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1014 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; check finite causal features and their declared bounds. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-000-gpt2-medium-logrank-g2r1 | 256 | 258 | 1704.900 | 1685.906 |
+| core-v1-A-reserve-001-gpt2-medium-logrank-g2r1 | 256 | 258 | 1758.252 | 1738.859 |
+| core-v1-A-reserve-002-gpt2-medium-logrank-g2r1 | 256 | 258 | 1738.901 | 1719.250 |
+
+**Found.** All three completed causal producers pass full coverage and saved-feature checks against 353 frozen source bindings and 3 input bindings. Each dispatch follows the completed selection. At 10:14 PDT the queue has 382 completed, six running and 117 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output at below-normal priority; both workers present in the prior sample also show measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. These three queued produces were inspected directly; actual owner delivery is not yet recorded. The earlier six e5 notices match their completed landings and original ACK times; their delayed notice is present in this turn, while the queued-only delivery hook retains no separate database delivery timestamps. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1014.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-1005 - completed reserve detector evidence recorded
+
+**Hypothesis.** Completed reserve detector batches retain full source coverage and replayable evidence after the permitted selection prerequisite.
+
+**METHOD.** Verify immutable manifests, all prerequisite outputs, admitted identities and every source/input/output binding. Compare complete source and saved-row censuses, surface features and token visibility; reproduce e5 probabilities from saved logits. Check that each native dispatch follows selection completion. Inspect actual worker identities, below-normal priority, fresh output and CPU advance, plus loaded watcher sources and delivery status. No model forwards are repeated and no reserved performance verdict is computed.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-reserve-000-e5-g2r1 | 256 | 258 | 117.932 | 112.969 |
+| core-v1-A-reserve-001-e5-g2r1 | 256 | 258 | 121.492 | 116.734 |
+| core-v1-A-reserve-002-e5-g2r1 | 256 | 258 | 119.913 | 114.828 |
+| core-v1-A-reserve-003-e5-g2r1 | 256 | 258 | 124.773 | 120.406 |
+| core-v1-A-reserve-004-e5-g2r1 | 256 | 258 | 122.198 | 117.359 |
+| core-v1-A-reserve-005-e5-g2r1 | 256 | 258 | 117.102 | 114.500 |
+
+**Found.** All six completed e5 producers pass full coverage and saved-feature checks against 353 frozen source bindings and 6 input bindings. Each dispatch follows the completed selection. At 10:05 PDT the queue has 374 completed, six running and 125 pending cards, with three retained failures and ten blocked cards. All six native CPU workers have fresh output, below-normal priority and measured CPU advance. No new scientific or successor-monitor failure appears. The sole watcher retains its verified native identity, loaded sources and fresh scan. These six queued produces were inspected directly; actual owner delivery is not yet recorded. The independent four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the frozen reserve comparison in Gear 2; its whole-method scientific result remains unfinished. Preserve historically exposed sources and existing source/measurement limits, Qwen's failed admission and exhausted corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension still requires the complete core consumer and a fresh whole-family time check. Friday's final packet and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed reserve evidence intact and downstream of the frozen selection? Outcome: **Infrastructure**. Result: Complete producer coverage, saved evidence and dispatch order verify. Project meaning: These producers can support the whole-method comparison with existing deficits retained. Next engineering obligation: Land the complete reserve consumer and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_1005.json).
+
+---
+
+### OPS-S13-SELECTION-0928 - frozen selection and downstream admission verified
+
+**Hypothesis.** The detector comparison can fix its configuration using training, development and independent calibration evidence before reserved evaluation.
+
+**METHOD.** Verify the immutable selection manifest, all source/input/output hashes and every prerequisite output. Reconstruct complete two-detector coverage and source-disjoint partitions. Replay training normalizations, saved linear and located coefficients, calibration temperature grids, human-only false-positive cuts, every saved development report and the deterministic finalist rule. No neural model forward or linear-model refit is repeated. Check native downstream dispatch after selection completion, worker progress and watcher delivery.
+
+The table describes input coverage only: rows are source examples and units are distinct recorded source units within each partition. These counts do not erase upstream exposure or establish independent human mental-goal truth.
+
+| Selection input partition | Source rows | Recorded source units |
+|---|---|---|
+| calibration | 13136 | 784 |
+| development | 13808 | 816 |
+| train | 13080 | 800 |
+
+The cost table reports this completed selection job's output count and separately recorded wall and CPU seconds; it excludes prerequisite work and this audit.
+
+| Completed consumer | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|
+| core-v1-A-selection-g2r1 | 2 | 227.232 | 225.938 |
+
+**Found.** The saved selection passes replay against 317 complete prerequisites, 80682 verified prerequisite outputs, 353 source bindings and 3 input bindings. All six comparators remain represented. Its two operational finalists are reconstruction-feature-fusion, matched-window-direct, selected by the frozen development rule with name tie-break. The recorded promotion margin is a declared requirement, not a passed scientific promotion. Reserved labels were not selection inputs; downstream reserve dispatch follows the completed selection. The frozen missing-RoBERTa note is stale: its separate full-tuned evaluation already completed and was landed; preserve that receipt alongside the unchanged selection. At 09:57 PDT, 374 jobs are complete, 6 run, 125 are pending, three original failures remain and ten jobs are blocked. Native ownership, below-normal priority, progress and the sole loaded watcher verify; native delivery is recorded. The four-hour inspection remains due at 12:47 PDT.
+
+**Means.** Continue the already frozen reserved comparison in Gear 2. Selection does not establish provenance performance or a reconstruction advantage. Retain historically exposed sources, token truncation, the original failed admissions, exhausted Qwen corrections, the void original memory contrast and the development-only scope of its correction. The prepared extension remains gated by the complete core consumer and a fresh whole-family time check. Friday's final-packet deadline and Stage 12 closure remain. No tests harvested, new research, cloud use or delegation. The separate publication approval request remains unresolved; no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Was detector selection fixed using the permitted evidence before reserved evaluation? Outcome: **Infrastructure**. Result: Frozen selection and downstream admission replay with all comparators retained. Project meaning: The reserved comparison has a verified configuration; its scientific result remains unfinished. Next engineering obligation: Land the complete reserved consumer with its existing deficits and inspect conditional continuation at its frozen gates. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/SELECTION_20260928.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0936 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, CPU and file-read advance, recorded dispatch and the frozen worker source, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-049-gpt2-medium-logrank | 256 | 258 | 1630.872 | 1618.562 |
+| core-v1-A-calibration-050-gpt2-medium-logrank | 256 | 258 | 1633.932 | 1622.500 |
+
+**Found.** Both completed causal producers pass full coverage and saved-feature checks against 353 frozen source bindings and two input bindings. The whole-method comparison remains unfinished. At 09:36 PDT the queue has 367 completed, three retained failures, ten blocked, 137 pending and one running card. The scheduled selection worker has completed prerequisite verification and written its native dispatch. CPU and file-read advance verify continuing work at below-normal priority under its original bound. Every pending card awaits frozen prerequisites; no additional card is runnable and no restart is needed. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both completed produces. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0936.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0928 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-047-gpt2-medium-logrank | 256 | 258 | 1682.663 | 1668.453 |
+| core-v1-A-calibration-048-gpt2-medium-logrank | 256 | 258 | 1670.697 | 1656.500 |
+| core-v1-A-calibration-051-gpt2-medium-logrank | 80 | 82 | 517.009 | 512.938 |
+
+**Found.** All three completed causal producers pass full coverage and saved-feature checks against 353 frozen source bindings and three input bindings. The whole-method comparison remains unfinished. At 09:28 PDT the queue has 366 completed, three retained failures, ten blocked, 138 pending and one running card. The remaining native CPU worker has fresh output at below-normal priority and shows CPU advance. Every pending card awaits frozen prerequisites; no additional card is runnable and no restart is needed. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three completed produces. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0928.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0924 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-046-gpt2-medium-logrank | 256 | 258 | 1673.359 | 1659.719 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 09:24 PDT the queue has 364 completed, three retained failures, ten blocked, 138 pending and three running cards. All three remaining native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. Two workers finished between the initial audit and continuation. Every pending card awaits frozen prerequisites, so no additional card is runnable; no restart is needed. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0924.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0918 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-045-gpt2-medium-logrank | 256 | 258 | 1636.836 | 1623.844 |
+| core-v1-A-calibration-051-e5 | 80 | 82 | 44.600 | 43.500 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 09:18 PDT the queue has 361 completed, three retained failures, ten blocked, 138 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both completed produces. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0918.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0907 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-050-e5 | 256 | 258 | 120.322 | 117.375 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 09:07 PDT the queue has 359 completed, three retained failures, ten blocked, 140 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0907.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0903 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-043-gpt2-medium-logrank | 256 | 258 | 1649.279 | 1636.797 |
+| core-v1-A-calibration-044-gpt2-medium-logrank | 256 | 258 | 1599.125 | 1586.859 |
+| core-v1-A-calibration-049-e5 | 256 | 258 | 123.191 | 120.516 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 09:04 PDT the queue has 359 completed, three retained failures, ten blocked, 140 pending and six running cards. The first sample verified five active workers while excluding a just-completed status entry. The continuation sample confirms six native CPU workers with fresh output at below-normal priority and CPU advance in previously sampled workers; no worker restart was needed. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for one produce; the other two were inspected directly before delivery. The delayed e5 notice matches its prior complete write-through and original ACK; the health clock is unchanged. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0903.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0900 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-048-e5 | 256 | 258 | 120.732 | 118.125 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 09:00 PDT the queue has 356 completed, three retained failures, ten blocked, 143 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. The completed produce was inspected directly before native owner delivery was recorded. The delayed notices for two earlier producers match their completed write-through; original ACK times and the health clock remain unchanged. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0900.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0857 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-042-gpt2-medium-logrank | 256 | 258 | 1625.613 | 1612.266 |
+| core-v1-A-calibration-047-e5 | 256 | 258 | 119.689 | 116.922 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:57 PDT the queue has 354 completed, three retained failures, ten blocked, 145 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed notices for two earlier completed producers match their existing full write-through; their original acknowledgements and the rearmed health clock remain unchanged. The earlier sandbox delivery-inventory limitation remains explicit. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0857.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0855 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-041-gpt2-medium-logrank | 256 | 258 | 1676.394 | 1662.984 |
+| core-v1-A-calibration-046-e5 | 256 | 258 | 119.288 | 116.766 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:55 PDT the queue has 353 completed, three retained failures, ten blocked, 146 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed notice for the earlier completed causal producer matches its existing full write-through; its original acknowledgement and the rearmed health clock remain unchanged. The earlier sandbox delivery-inventory limitation remains explicit. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0855.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0852 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-040-gpt2-medium-logrank | 256 | 258 | 1669.439 | 1656.391 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 08:52 PDT the queue has 351 completed, three retained failures, ten blocked, 148 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. The completed produce was inspected directly before native owner delivery was recorded. The delayed notices for two earlier producers match their completed write-through; original ACK times and the health clock remain unchanged. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0852.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0849 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-039-gpt2-medium-logrank | 256 | 258 | 1665.480 | 1653.141 |
+| core-v1-A-calibration-045-e5 | 256 | 258 | 117.729 | 115.281 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:49 PDT the queue has 349 completed, three retained failures, ten blocked, 150 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed message for three earlier producers and their completed health inspection matches the existing full landing; their original acknowledgements and the rearmed health clock remain unchanged. The delivery ledger still has no native timestamp for that delayed message; the earlier sandbox inventory limitation remains explicit. Four-hour inspection stays due at 12:47 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0849.json).
+
+---
+
+### OPS-S13-HEALTH-0928-0841 - four-hour health and completed detector evidence
+
+**Hypothesis.** Completed detector evidence remains intact and the authorized queue continues within its resource, ownership and fixed-finish constraints.
+
+**METHOD.** Verify every frozen card and source/input binding, original-card preservation, and every output from the three completed batches. Compare full source and saved-row censuses, admitted identities, surface features and token visibility; replay saved features and e5 probabilities without repeating model forwards. Inspect native coordinator, worker and checkpoint identities, CPU advance, output freshness, numerical-thread environments, actual held kernel locks, resource limits, power settings, failures and eligible work. Verify the watcher's native identity, loaded sources, registrations and recorded delivery state. Estimate remaining CPU time from the slowest observed per-row rates with a 50% margin, six-worker allocation and dependency depth, retaining existing extension admission gates.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-038-gpt2-medium-logrank | 256 | 258 | 1607.997 | 1594.766 |
+| core-v1-A-calibration-043-e5 | 256 | 258 | 123.039 | 120.469 |
+| core-v1-A-calibration-044-e5 | 256 | 258 | 119.833 | 116.859 |
+
+**Found.** All three producers pass full coverage and saved-feature checks. All 518 manifests, 556 source bindings and 281 input bindings verify; the 515 earlier cards remain unchanged. At 08:41 PDT the queue has 347 completed, six running, 152 pending, three retained failures and ten blocked cards. All six CPU workers advance with fresh output, below-normal priority and single-thread numerical environments. Both kernel locks are held, the Stage 13 checkpoint is live and fresh, and Stage 12's normal endpoint exit and retired watch remain reconciled. There is no GPU lock, orphaned attempt, stop/pause marker or new monitor failure. There are 14 dependency-ready CPU cards and no runnable GPU card. Host memory has 48.4 GiB free and disk 797.1 GiB. AC maximum remains 90% with boost disabled. No recovery is required.
+
+The conservative CPU core estimate is 15.1 elapsed hours against 84.3 hours before Thursday's reporting reserve. This is an operational estimate, not a guarantee of complete scientific comparisons. The prepared extension's 45-hour minimum appears to fit afterward, but its complete core reserve consumer is absent. It remains unsubmitted pending that consumer, remapped successor dependencies and fresh whole-family admission. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; current free GPU memory does not authorize another attempt.
+
+The sole watcher has a fresh scan, unchanged native identity and verified loaded sources. The health event and all three producer events have recorded native queue acceptance; actual idle-owner delivery is not yet recorded, so they were inspected directly while this session was active. The separate read-only native inventory probe could not initialize in the sandbox because its home directory was unavailable; this is retained as an inspection limitation, not a watcher failure. The historical uncertain notification remains retained and no new delivery error is recorded. The earlier producer ACK precheck caught the legitimate attachment of this due health event; its deadline and last-inspection time were preserved. Health ACK after this write-through rearms the independent four-hour clock. The legacy September queue log remains historical.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Preserve failed admissions, the void memory-type contrast, exhausted literal-confidence correction and missing comparisons. Corrected memory development is recorded as L456 and opens no reserve replay. Stage 12 remains closed. Stage 13 retains Thursday 21:00 as the reporting boundary and Friday 05:00 as the final-packet deadline. No tests harvested, cloud use, new research or delegation this pass. Whole-method comparisons remain unfinished; their per-artifact scores are not reported. The previous external-push rejection remains unresolved; records stay local and no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the frozen queue preserve evidence and remain healthy within its authorized bounds? Outcome: **Infrastructure**. Result: Complete producer evidence and the operational health inspection verify, with delivery-probe limits retained. Project meaning: Independent work continues while failed and missing comparisons remain explicit. Next engineering obligation: Land complete consumers and reconsider conditional whole-family admission at its existing gate. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/HEALTH_20260928_0841.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0831 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-037-gpt2-medium-logrank | 256 | 258 | 1646.554 | 1632.625 |
+| core-v1-A-calibration-042-e5 | 256 | 258 | 119.285 | 116.500 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:31 PDT the queue has 344 completed, three retained failures, ten blocked, 155 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both completed produces. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0831.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0828 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-036-gpt2-medium-logrank | 256 | 258 | 1655.417 | 1641.594 |
+| core-v1-A-calibration-041-e5 | 256 | 258 | 124.358 | 121.484 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:28 PDT the queue has 342 completed, three retained failures, ten blocked, 157 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both completed produces. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0828.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0824 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-035-gpt2-medium-logrank | 256 | 258 | 1591.842 | 1579.594 |
+| core-v1-A-calibration-040-e5 | 256 | 258 | 120.995 | 118.047 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 08:24 PDT the queue has 341 completed, three retained failures, ten blocked, 158 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for both completed produces. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0824.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0821 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-034-gpt2-medium-logrank | 256 | 258 | 1620.136 | 1606.719 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 08:21 PDT the queue has 339 completed, three retained failures, ten blocked, 160 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0821.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0818 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-039-e5 | 256 | 258 | 119.801 | 116.922 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 08:18 PDT the queue has 337 completed, three retained failures, ten blocked, 162 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0818.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0815 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-033-gpt2-medium-logrank | 256 | 258 | 1637.516 | 1624.156 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 08:15 PDT the queue has 336 completed, three retained failures, ten blocked, 163 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0815.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0808 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-038-e5 | 256 | 258 | 118.258 | 115.547 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 08:08 PDT the queue has 335 completed, three retained failures, ten blocked, 164 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0808.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0805 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-031-gpt2-medium-logrank | 256 | 258 | 1663.516 | 1650.688 |
+| core-v1-A-calibration-032-gpt2-medium-logrank | 256 | 258 | 1652.532 | 1638.641 |
+| core-v1-A-calibration-037-e5 | 256 | 258 | 122.601 | 119.391 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 08:05 PDT the queue has 335 completed, three retained failures, ten blocked, 164 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for all three completed produces. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0805.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0801 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-029-gpt2-medium-logrank | 256 | 258 | 1677.464 | 1665.016 |
+| core-v1-A-calibration-030-gpt2-medium-logrank | 256 | 258 | 1647.314 | 1635.109 |
+| core-v1-A-calibration-034-e5 | 256 | 258 | 117.944 | 115.031 |
+| core-v1-A-calibration-035-e5 | 256 | 258 | 117.241 | 114.766 |
+| core-v1-A-calibration-036-e5 | 256 | 258 | 121.290 | 118.828 |
+
+**Found.** All five completed producers pass full coverage and saved-feature checks against 353 frozen source and 5 input bindings. The whole-method comparison remains unfinished. At 08:01 PDT the queue has 332 completed, three retained failures, ten blocked, 167 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery is recorded for three produces; two further pending produces were inspected directly before delivery. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0801.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0752 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-028-gpt2-medium-logrank | 256 | 258 | 1713.480 | 1699.047 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 07:52 PDT the queue has 328 completed, three retained failures, ten blocked, 171 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0752.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0749 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-033-e5 | 256 | 258 | 117.528 | 114.547 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 07:49 PDT the queue has 325 completed, three retained failures, ten blocked, 174 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0749.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0746 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility, finite causal features and their declared bounds. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-027-gpt2-medium-logrank | 256 | 258 | 1661.326 | 1647.938 |
+
+**Found.** The completed causal producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 07:46 PDT the queue has 324 completed, three retained failures, ten blocked, 175 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Actual native owner delivery of the completed produce is recorded. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0746.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0737 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-032-e5 | 256 | 258 | 124.000 | 121.016 |
+
+**Found.** The completed e5 producer passes full coverage and saved-feature checks against 353 frozen source and 1 input bindings. The whole-method comparison remains unfinished. At 07:37 PDT the queue has 323 completed, three retained failures, ten blocked, 176 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. This pending final produce was inspected directly before its message reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Two delayed notices match unchanged terminal hashes and complete prior local write-through. All twenty-six prior write-through files and the original receipt verify unchanged before this append, as do the prior acknowledgments. Conversation delivery is now observed; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0737.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0735 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-026-gpt2-medium-logrank | 256 | 258 | 1637.909 | 1621.547 |
+| core-v1-A-calibration-031-e5 | 256 | 258 | 125.456 | 122.422 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 07:35 PDT the queue has 323 completed, three retained failures, ten blocked, 176 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Two delayed notices match unchanged terminal hashes and complete prior local write-through. All twenty-five prior write-through files and the original receipt verify unchanged before this append, as do the prior acknowledgments. Conversation delivery is now observed; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0735.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0732 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-025-gpt2-medium-logrank | 256 | 258 | 1684.435 | 1666.719 |
+| core-v1-A-calibration-030-e5 | 256 | 258 | 123.277 | 120.266 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 07:32 PDT the queue has 321 completed, three retained failures, ten blocked, 178 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Three delayed notices match unchanged terminal hashes and complete prior local write-through. All twenty-four prior write-through files and the original receipt verify unchanged before this append, as do the prior acknowledgments. Conversation delivery is now observed; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0732.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0729 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-023-gpt2-medium-logrank | 256 | 258 | 1703.856 | 1679.828 |
+| core-v1-A-calibration-024-gpt2-medium-logrank | 256 | 258 | 1682.854 | 1662.500 |
+| core-v1-A-calibration-029-e5 | 256 | 258 | 122.903 | 119.312 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 07:29 PDT the queue has 319 completed, three retained failures, ten blocked, 180 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** The delayed e5 notice matches its unchanged terminal hash and complete prior local write-through. All twenty-three prior write-through files and the original receipt verify unchanged before this append, as does the prior acknowledgment. Conversation delivery is now observed; no native delivery row exists because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0729.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0726 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-022-gpt2-medium-logrank | 256 | 258 | 1700.912 | 1673.875 |
+| core-v1-A-calibration-027-e5 | 256 | 258 | 121.512 | 118.203 |
+| core-v1-A-calibration-028-e5 | 256 | 258 | 121.801 | 119.172 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 07:26 PDT the queue has 317 completed, three retained failures, ten blocked, 182 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0726.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0717 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-020-gpt2-medium-logrank | 256 | 258 | 1773.660 | 1720.828 |
+| core-v1-A-calibration-021-gpt2-medium-logrank | 256 | 258 | 1720.151 | 1685.438 |
+| core-v1-A-calibration-026-e5 | 256 | 258 | 123.108 | 118.688 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 07:17 PDT the queue has 313 completed, three retained failures, ten blocked, 186 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. Native delivery is recorded for 1 of these final produces; the others were inspected while pending and delivery is not claimed for them. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Two delayed notices match unchanged terminal hashes and complete prior local write-through. All twenty-one prior write-through files and the original receipt verify unchanged before this append, as do the prior acknowledgments. Conversation delivery is now observed; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Qwen's completed correction failed its original admission gate and exhausted both correction allowances; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0717.json).
+
+---
+
+### OPS-S13-QWEN-ADMISSION-0928-0711 - corrected Qwen reader remains unadmitted
+
+**Hypothesis.** The separately frozen development correction can satisfy the original literal-output and known-answer admission gate without changing the gate or replaying reserved data.
+
+**METHOD.** After its unchanged GPU memory gate allowed dispatch, verify all source, input, output, request, model and response bindings for the complete four-case run. Reconstruct corrected requests, parse every saved response and replay every saved score without model calls. Independently recompute the original admission conjunction; verify the native worker exited, its GPU lock was released and the six independent CPU workers remain within their allocation.
+
+The table reports complete instrument gates and incurred costs. It is not a scientific comparison or a population estimate.
+
+| Check | Complete-run observation | Consequence |
+|---|---|---|
+| Resource admission | 8,155 MiB free against the unchanged 8,024 MiB cold-reservation floor | Authorized GPU dispatch; no resource relaxation |
+| Evidence coverage | Four cases and four returned calls; 356 source bindings, one input binding and 21 output files verified | No missing or unknown request |
+| Literal output | Three valid responses; one invalid fact-probability array | Original all-valid gate fails |
+| Known-answer fixture | Handling and exact location pass; actor, operation and relation fail | Original all-fields-correct gate also fails |
+| Worker cost | 89.592 wall seconds and 2.344 CPU seconds | Both retained separately from server cost |
+| Local model service | 86.109 request wall seconds; 85.962 server seconds including load and evaluation | Incurred attempt retained; no paid use |
+
+**Found.** The completed correction remains unadmitted. Corrected requests and saved scores replay exactly; neither literal validity nor the known-answer gate passes. The original failed attempt and fixture defect remain preserved. The nine original Qwen dependents stay blocked. The correction has consumed its one interface and one fixture implementation allowance; no further retry or reserved replay is admitted.
+
+**Operational reconciliation.** At 07:11 PDT the queue has 311 completed execution cards, three retained execution failures, ten blocked, 188 pending and six running CPU workers. Execution completion of this admission card is not admission success. A private post-ACK guard assumed six total processes and tripped while the authorized GPU job ran beside six CPU jobs; all seven previously requested ACKs had already succeeded. Resource-specific native inspection confirms the permitted allocation, subsequent GPU worker exit and released lock. No scientific source, queue plan or output was changed. The new terminal was inspected before message delivery; delivery is not claimed. Health stays due at 08:32 PDT.
+
+**Means.** Continue already prepared independent CPU branches and carry the missing primary-reader comparison into the final packet. Preserve the exhausted corrections, original memory contrast failure, corrected development-only memory result and literal-confidence deficit. Fixed Thursday reporting reserve, Friday final deadline and Stage 12 closure remain. No tests harvested, cloud work or delegation this pass. The separate external-push approval remains unresolved; records remain local.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the bounded correction make the primary reader admissible? Outcome: **Infrastructure**. Result: The completed correction fails its unchanged admission gate. Project meaning: The primary-reader comparison remains unavailable while independent evidence continues. Next engineering obligation: Retain complete invalids and costs, keep dependent calls blocked, and finish admitted independent branches. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [receipt](results/phase_2_4_stage_13/QWEN_DEVELOPMENT_ADMISSION_20260928.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0704 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-019-gpt2-medium-logrank | 256 | 258 | 1763.037 | 1702.359 |
+| core-v1-A-calibration-025-e5 | 256 | 258 | 124.190 | 120.047 |
+
+**Found.** Both completed producers pass full coverage and saved-feature checks against 353 frozen source and 2 input bindings. The whole-method comparison remains unfinished. At 07:04 PDT the queue has 309 completed, three retained failures, ten blocked, 190 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Five delayed notices match unchanged terminal hashes and complete prior local write-through. All nineteen prior write-through files and both original receipts verify unchanged before this append, as do the prior acknowledgments. Conversation delivery is now observed; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0704.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0701 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-018-gpt2-medium-logrank | 256 | 258 | 1818.562 | 1754.547 |
+| core-v1-A-calibration-023-e5 | 256 | 258 | 127.467 | 123.125 |
+| core-v1-A-calibration-024-e5 | 256 | 258 | 125.009 | 120.000 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 07:01 PDT the queue has 308 completed, three retained failures, ten blocked, 191 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** The delayed e5 notice matches its unchanged terminal hash and complete prior local write-through. All eighteen prior write-through files and the original receipt verify unchanged before this append, as does the prior acknowledgment. Conversation delivery is now observed; no native delivery row exists because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0701.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0656 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-016-gpt2-medium-logrank | 256 | 258 | 1809.152 | 1739.938 |
+| core-v1-A-calibration-017-gpt2-medium-logrank | 256 | 258 | 1735.437 | 1668.250 |
+| core-v1-A-calibration-022-e5 | 256 | 258 | 125.439 | 120.000 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and 3 input bindings. The whole-method comparison remains unfinished. At 06:56 PDT the queue has 305 completed, three retained failures, ten blocked, 194 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0656.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0649 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite e5 features and reproduce probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-021-e5 | 256 | 258 | 129.225 | 121.734 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. A completion crossed the initial status sample; a bounded continuation confirms normal refill. At 06:49 PDT the queue has 301 completed, three retained failures, ten blocked, 198 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. This pending final produce was inspected before message delivery; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** The delayed notice matches the unchanged terminal hash and prior complete local producer write-through. All sixteen prior write-through files and the original receipt verify unchanged before this append, as does the earlier acknowledgment. That landing remains local and uncommitted. The present message proves conversation delivery; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0649.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0646 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal likelihood/log-rank features. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-015-gpt2-medium-logrank | 256 | 258 | 1763.667 | 1691.812 |
+
+**Found.** The completed producer passes full coverage and saved-feature checks against 353 frozen source bindings and one input binding. The whole-method comparison remains unfinished. At 06:46 PDT the queue has 300 completed, three retained failures, ten blocked, 199 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. This queued final produce was inspected before its message reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Six notices match unchanged terminal hashes and the prior complete local producer write-through. All fifteen prior write-through files and the original receipt verify unchanged before this append, as do the earlier acknowledgments. These landings remain local and uncommitted. The present message proves conversation delivery; no native delivery rows exist because the hook records only queued events. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0646.json).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0641 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-012-gpt2-medium-logrank | 256 | 258 | 1747.442 | 1688.562 |
+| core-v1-A-calibration-013-gpt2-medium-logrank | 256 | 258 | 1794.877 | 1732.672 |
+| core-v1-A-calibration-014-gpt2-medium-logrank | 256 | 258 | 1793.781 | 1727.828 |
+| core-v1-A-calibration-018-e5 | 256 | 258 | 133.103 | 125.703 |
+| core-v1-A-calibration-019-e5 | 256 | 258 | 129.909 | 121.797 |
+| core-v1-A-calibration-020-e5 | 256 | 258 | 132.050 | 124.453 |
+
+**Found.** All six completed producers pass full coverage and saved-feature checks against 353 frozen source and 6 input bindings. The whole-method comparison remains unfinished. At 06:41 PDT the queue has 298 completed, three retained failures, ten blocked, 201 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Delayed notification reconciliation.** Five notices match unchanged terminal hashes and the prior complete local write-through: three Stage 13 producers and the Stage 12 final marker and helper exit. All fourteen prior write-through files and both receipts verify unchanged before this append, as do the earlier acknowledgments. These landings remain local and uncommitted. The present message proves conversation delivery; no native delivery rows exist because the hook records only queued events. Stage 12 remains closed for reporting and its exact helper watch stays retired. No original receipt is overwritten and no scientific output is counted twice.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and reconciled Stage 12 closure remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0641.json).
+
+---
+
+### OPS-S12-FINAL-ENDPOINT - original week closed with evidence and missing work retained
+
+**Hypothesis.** The original week can close with its final packet intact, its costs reconciled and its incomplete research clearly identified.
+
+**METHOD.** Recheck retained local and original-week terminal/output bindings, source versions and prior public receipts against reporting-start evidence. Verify all scheduled markers against the unchanged clock, normal helper exit, actual helper/launcher absence, released locks, expired follow-on admission and loaded watcher identity. Retire only the exact exited helper watch, preserving other watches, terminal paths and the health clock. No new model calls, fits or scientific interpretation.
+
+The table counts retained completion records and hash-verified outputs. The allocations are separate; these are preservation counts, not independent scientific tests or successful hypotheses.
+
+| Allocation | Complete terminals retained | Output bindings verified | Final disposition |
+|---|---|---|---|
+| Local program | 287, including six earlier units | 1414 | Current plan: 281 completed, 14 failed, 31 deferred; no running jobs |
+| Original week | 127 | 1355 | Existing comparisons and explicit missing work retained |
+
+**Found.** All retained bindings pass, including 476 local source bindings, 519 original-week source versions, 257 prior public receipts and fifteen provider-case source terminals. Final and interim packet bytes are unchanged. All scheduled markers exist. The final marker was emitted at 06:17:40 PDT, about thirteen seconds after its fixed due time, followed by normal helper exit. Helper and launcher are absent; local-queue and checkpoint kernel locks are released. Endpoint notices were inspected while queued; native owner delivery is not claimed. Only the exited helper watch was removed; remaining configuration and the 08:32 PDT health deadline are unchanged. The initial process inventory included its own launcher; the corrected inventory excludes only that verified inspection wrapper. Both attempts and a conservative cost allowance are retained.
+
+The original-week ledger now records 37332.986 CPU-only seconds and 7344.639 GPU-service seconds; GPU-support host CPU remains 14689.277 seconds. The separate local ledger stays at 94508.995 CPU-only seconds and 103105.517 GPU-service seconds, with 201361.935 host CPU seconds. Diagnostic GPU time is included, not added twice. Endpoint inspection includes a 180-second upper allowance for the failed inspection and thirty seconds for reporting validation. Cloud reservations remain 1266 cents of the approved 2000 cents; this is not a settled invoice.
+
+**Means.** The [final packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) closes the original reporting obligation with its warrant, pursuit, cases and missing-work ledgers intact. The broader research program remains incomplete: the capable-reader human-history primary is unfinished, seven admitted narrow-history blocks and their summary never launched, and failed admissions and incomplete families remain. A drained executor does not erase those deficits. Stage 13 now continues separately in Gear 2; the packet's earlier Gear 1 statement is a dated operational snapshot. No Stage 12 restart, new research, delegation, spend or theory/multiplicity change. No tests harvested. Existing claims and corrections stand; this endpoint appends operational reconciliation without rewriting the frozen packet.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the closed week retain an honest, traceable final account? Outcome: **Infrastructure**. Result: The final endpoint verifies retained evidence while preserving incomplete comparisons. Project meaning: Reporting closure is distinct from completing the research program. Next engineering obligation: Continue separately authorized Stage 13 work and preserve the final Stage 12 packet. Public claim: unchanged. Curator decision required: No scientific decision; separate publication approval remains pending. Detail: [endpoint receipt](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json), [final packet](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md).
+
+---
+
+### OPS-S13-PRODUCERS-0928-0628 - completed detector evidence recorded
+
+**Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted prerequisites and every source/input/output binding. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, fresh output and CPU advance, plus the loaded watcher and delivery. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-calibration-010-gpt2-medium-logrank | 256 | 258 | 1793.977 | 1733.031 |
+| core-v1-A-calibration-011-gpt2-medium-logrank | 256 | 258 | 1745.353 | 1685.469 |
+| core-v1-A-calibration-016-e5 | 256 | 258 | 127.538 | 123.516 |
+| core-v1-A-calibration-017-e5 | 256 | 258 | 126.956 | 120.141 |
+
+**Found.** All four completed producers pass full coverage and saved-feature checks against 353 frozen source and 4 input bindings. The whole-method comparison remains unfinished. At 06:28 PDT the queue has 295 completed, three retained failures, ten blocked, 204 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The successor has no new monitor failure. The sole watcher retains its verified native identity, loaded sources and fresh scan. These queued or pending final produces were inspected directly before their messages reached the owner; actual delivery is not claimed. Four-hour inspection stays due at 08:32 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen's correction resource-held under its original floor; preserve the original failed admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons. Corrected memory development has already landed as L456 and opens no reserve replay. The complete core consumer and fresh whole-family time check still gate the prepared extension. Fixed Friday finish and Stage 12 shutdown remain. No tests harvested, cloud use, new research or delegation this pass. The previous external-push rejection remains unresolved; these records are kept locally and no push is retried from this wake.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Complete producer coverage, evidence bindings and native continuation verify. Project meaning: Preserved producers remain available to the whole-method comparison with existing deficits retained. Next engineering obligation: Land complete consumers and inspect permitted conditional continuation at its existing gates. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260928_0628.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0928-0617 - completed detector evidence recorded
 
 **Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.

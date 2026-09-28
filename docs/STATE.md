@@ -1,5 +1,1401 @@
 # STATE: the agent's operational file
 
+## September 28, 16:20 PDT: extension producer evidence verified
+
+Three more complete e5 batches pass full bindings, coverage and saved-probability replay;
+six extension producers are now recorded. The queue has 511 complete, six running,
+169 pending, three retained failures and ten blocked cards. Six exact native CPU workers
+advance with fresh output under the Gear 2 limits. No new failure or recovery need.
+Watcher loaded sources and scanning verify; health remains due at 16:55 PDT.
+The complete extension consumer remains pending; source/model/calibration, reporting
+deadline, original deficits and Stage 12 closure stay fixed. Publication remains blocked
+by the earlier automatic-review rejection. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1620.json).
+
+## September 28, 16:10 PDT: full conditional extension running in Gear 2
+
+The core drained normally and its complete comparison is replayed and landed as L457.
+The prepared 181-card replication is now admitted and running under `gear2-extension-v1`:
+508 complete, six running, 172 pending, three retained failures and ten blocked overall.
+The first three extension producers pass full evidence checks and are recorded.
+All six native workers advance with fresh output, one numerical thread and below-normal
+priority; no newly eligible GPU work. Every original card, source and model remains intact.
+The whole extension estimates 14.55 elapsed hours against 77.10 hours before reporting;
+the unchanged 45-hour admission guard also passes. It repeats the six CPU comparators,
+not a new full-tuned comparator run. No outcome-driven method or source changes.
+Watcher paths, native owner and loaded sources verify; health remains due at 16:55 PDT.
+Friday 05:00 PDT final packet, Thursday 21:00 science cutoff and Stage 12 closure remain.
+Publication authorization is still unresolved after the prior automatic-review rejection.
+[Receipt](../results/phase_2_4_stage_13/EXTENSION_20260928.json).
+
+## September 28: core comparison landed; extension admission in progress
+
+The core queue drained normally at 15:40 PDT: 505 completed, three retained failures,
+ten blocked and no workers. L457 records the complete reserve consumer and full replay,
+with its matched-feature advantage, weak location recovery and unestablished competitive
+promotion kept distinct. Existing Qwen/readout failures and memory limits remain.
+The prepared whole extension is being checked against unchanged source, model, calibration
+and time gates. No extension has launched at this entry. The next independent health check
+remains 16:55 PDT. Friday's final packet and Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/CORE_RESERVE_20260928.json).
+
+## September 28, 15:42 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. The core queue drained normally:
+505 completed, 0 pending, three retained failures and ten blocked.
+Final consumer and coordinator exits verify; no workers remain. Loaded watcher sources
+and one actual owner delivery verify; the other produce was directly inspected. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The completed whole-method consumer still requires replay and landing, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1542.json).
+
+## September 28, 15:26 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Two verified CPU workers advance in Gear 2:
+502 completed, 1 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1526.json).
+
+## September 28, 15:23 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Three verified CPU workers advance in Gear 2:
+501 completed, 1 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1523.json).
+
+## September 28, 15:20 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Three verified CPU workers advance in Gear 2:
+501 completed, 1 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1520.json).
+
+## September 28, 15:17 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Four verified CPU workers advance in Gear 2:
+500 completed, 1 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1517.json).
+
+## September 28, 15:14 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+498 completed, 1 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1514.json).
+
+## September 28, 15:11 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+495 completed, 4 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1511.json).
+
+## September 28, 14:59 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+494 completed, 5 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1459.json).
+
+## September 28, 14:56 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+493 completed, 6 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1456.json).
+
+## September 28, 14:53 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+492 completed, 7 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. One produce has actual delivery;
+the other was inspected directly. Six delayed notices were reconciled against their
+prior full landing, preserving original ACK times. The earlier late transport-state
+race remains documented. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1453.json).
+
+## September 28, 14:49 PDT: reserve producers recorded
+
+All six completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+490 completed, 9 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify; these produces were inspected directly
+before notification delivery. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1449.json).
+
+## September 28, 14:41 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+483 completed, 16 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1441.json).
+
+## September 28, 14:30 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+482 completed, 17 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1430.json).
+
+## September 28, 14:27 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+482 completed, 17 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1427.json).
+
+## September 28, 14:24 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+480 completed, 19 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1424.json).
+
+## September 28, 14:21 PDT: reserve producers recorded
+
+All four completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+479 completed, 20 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1421.json).
+
+## September 28, 14:17 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+477 completed, 22 pending, three retained failures and ten blocked.
+Normal worker replacement was verified in one bounded follow-up without restart.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1417.json).
+
+## September 28, 14:13 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+473 completed, 26 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1413.json).
+
+## September 28, 14:10 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+471 completed, 28 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1410.json).
+
+## September 28, 14:04 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+470 completed, 29 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented. Two delayed notices were reconciled against
+their prior full landing, preserving original ACK times. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1404.json).
+
+## September 28, 14:00 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+470 completed, 29 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. Both produces were inspected directly;
+accepted sends have no recorded actual-delivery timestamp at inspection. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1400.json).
+
+## September 28, 13:52 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+468 completed, 31 pending, three retained failures and ten blocked.
+Normal worker replacement was verified in one bounded follow-up without restart.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1352.json).
+
+## September 28, 13:48 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+465 completed, 34 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1348.json).
+
+## September 28, 13:45 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+463 completed, 36 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1345.json).
+
+## September 28, 13:42 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+461 completed, 38 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1342.json).
+
+## September 28, 13:38 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+459 completed, 40 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1338.json).
+
+## September 28, 13:28 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+458 completed, 41 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1328.json).
+
+## September 28, 13:25 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+458 completed, 41 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1325.json).
+
+## September 28, 13:22 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+456 completed, 43 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. Delivery timestamps remain distinct
+from direct inspection. Two delayed notices were reconciled with original ACKs and
+health clock preserved. The earlier transport-state race remains documented. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1322.json).
+
+## September 28, 13:18 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+455 completed, 44 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. Delivery timestamps remain distinct
+from direct inspection. Four delayed notices were reconciled with original ACKs and
+health clock preserved. The earlier transport-state race remains documented. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1318.json).
+
+## September 28, 13:15 PDT: reserve producers recorded
+
+All four completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+453 completed, 46 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. Delivery timestamps remain distinct
+from direct inspection. The earlier transport-state race remains documented with
+original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1315.json).
+
+## September 28, 13:08 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+447 completed, 52 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1308.json).
+
+## September 28, 12:57 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+446 completed, 53 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. Delivery timestamps remain distinct
+from direct inspection. Three delayed notices were reconciled with original ACKs and
+health clock preserved. The earlier transport-state race remains documented. Health stays due at 16:55 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1257.json).
+
+## September 28, 12:50 PDT: four-hour health inspection complete
+
+Two additional completed producers pass full bindings, coverage and saved-feature replay.
+Queue: 444 completed, six running, 55 pending, three retained failures and ten blocked.
+Native ownership, fresh output and CPU advance, single-thread limits, held locks,
+Stage 13 checkpoint, resource/power settings and watcher identity verify. No recovery needed.
+Qwen correction remains failed with allowances exhausted; Stage 12 remains closed.
+CPU core estimate: 6.5 elapsed hours against 80.2 hours before reporting reserve.
+Conditional extension remains unsubmitted until the complete core consumer and fresh
+whole-family admission. Native queue acceptance is recorded; actual idle-owner delivery
+is pending. The earlier sandbox inventory limitation is retained; that probe was not repeated.
+The [delivery counter correction](../results/phase_2_4_stage_13/HEALTH_20260928_1250_DELIVERY_CORRECTION.json) preserves the earlier snapshot and records one later queue submission.
+Health ACK rearms four hours later. Thursday reporting and Friday 05:00 finish remain fixed.
+Automatic approval review's previous push rejection remains unresolved; records stay local.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_1250.json).
+
+## September 28, 12:47 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+442 completed, 57 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1247.json).
+
+## September 28, 12:44 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+439 completed, 60 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1244.json).
+
+## September 28, 12:41 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+437 completed, 62 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1241.json).
+
+## September 28, 12:37 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+435 completed, 64 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1237.json).
+
+## September 28, 12:28 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+434 completed, 65 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1228.json).
+
+## September 28, 12:21 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+433 completed, 66 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1221.json).
+
+## September 28, 12:17 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+431 completed, 68 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1217.json).
+
+## September 28, 12:13 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+427 completed, 72 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1213.json).
+
+## September 28, 12:11 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+425 completed, 74 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify; owner-delivery timestamps are recorded for 1 of these two produces. The preceding repeated notice is reconciled with its original landing and unchanged ACK. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1211.json).
+
+## September 28, 12:07 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+423 completed, 76 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify; this produce was inspected before delivery. Six delayed notices were reconciled with their original complete landing and unchanged ACKs. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1207.json).
+
+## September 28, 11:52 PDT: requested queue assessment
+
+Full native, resource, lock and frozen-input inspection passes: 422 completed,
+six running, 77 pending, three retained failures and ten blocked cards.
+All 35 targeted regressions pass, plus actual frozen-consumer known-answer/reentry
+and missing/duplicate evidence refusals. Complete planned paired detector coverage
+and source-component separation verify. Eight completed producers are fully recorded.
+Remaining core estimate: 8.0 elapsed hours against 81.1 hours before reporting reserve.
+The 181-card extension remains conditional on complete core and fresh whole-family admission.
+Qwen/literal-confidence failures and the void original memory contrast remain explicit.
+No live recovery required. Watcher scanning verifies; actual batch delivery remains
+unconfirmed. Health remains due 12:47 PDT. Thursday reporting/Friday final deadline
+and Stage 12 closure remain. Separate publication approval remains unresolved.
+[Receipt](../results/phase_2_4_stage_13/ASSESSMENT_20260928.json).
+
+## September 28, 11:41 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+415 completed, 84 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1141.json).
+
+## September 28, 11:38 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+411 completed, 88 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1138.json).
+
+## September 28, 11:23 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+410 completed, 89 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1123.json).
+
+## September 28, 11:19 PDT: reserve producers recorded
+
+All three completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+409 completed, 90 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1119.json).
+
+## September 28, 11:15 PDT: reserve producers recorded
+
+All four completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+405 completed, 94 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1115.json).
+
+## September 28, 11:11 PDT: reserve producers recorded
+
+Both completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+403 completed, 96 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1111.json).
+
+## September 28, 11:07 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+399 completed, 100 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1107.json).
+
+## September 28, 10:56 PDT: reserve producers recorded
+
+The completed reserve batch passes full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+398 completed, 101 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1056.json).
+
+## September 28, 10:52 PDT: reserve producers recorded
+
+All six completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+398 completed, 101 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify; four actual owner deliveries are recorded,
+while two pending produces were inspected directly before native delivery. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1052.json).
+
+## September 28, 10:43 PDT: reserve producers recorded
+
+All four completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+393 completed, 106 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1043.json).
+
+## September 28, 10:39 PDT: reserve producers recorded
+
+The completed causal batch passes full bindings, coverage and causal feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+388 completed, 111 pending, three retained failures and ten blocked.
+Native progress, loaded watcher sources and actual owner delivery verify. The earlier
+late transport-state race remains documented with original ACKs preserved. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1039.json).
+
+## September 28, 10:25 PDT: reserve producer and delayed notices recorded
+
+The completed e5 producer passes frozen bindings, coverage and saved-probability replay.
+Gear 2 continues with 386 completed, six running and 113 pending cards;
+three original failures and ten blocked cards remain. Native progress and loaded
+watcher sources verify. Five delayed notices match their prior landings and original
+ACKs. Late transport settlement left two queued labels beside retained ACKs; the
+awaiting-ACK guard excludes them, so no queue blockage or restart follows.
+The new produce has recorded native delivery. Health remains due at 12:47 PDT.
+The whole-method comparison is unfinished; Qwen corrections are exhausted and the
+original memory contrast remains void. Conditional extension still needs complete
+core evidence and fresh whole-family time admission. Friday's final packet and
+Stage 12 closure remain. Publication approval is pending; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1025.json).
+
+## September 28, 10:19 PDT: reserve producers recorded
+
+Eight completed reserve batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+386 completed, 113 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. These completed produces were
+inspected with one native delivery recorded and seven additional produces handled before delivery. The earlier three delayed causal notices match their original landings and ACK times; their delivery timestamps remain absent under the queued-only hook. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1019.json).
+
+## September 28, 10:14 PDT: reserve producers recorded
+
+Three completed causal batches pass full bindings, coverage and saved-feature validity;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+382 completed, 117 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. These queued produces were
+inspected directly; actual owner delivery is not yet recorded. The earlier six delayed e5 notices match their original landings and ACK times; their delivery timestamps remain absent under the queued-only hook. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1014.json).
+
+## September 28, 10:05 PDT: reserve producers recorded
+
+Six completed e5 batches pass full bindings, coverage and saved-probability replay;
+each dispatch follows frozen selection. Six verified CPU workers advance in Gear 2:
+374 completed, 125 pending, three retained failures and ten blocked.
+Native progress and loaded watcher sources verify. These queued produces were
+inspected directly; actual owner delivery is not yet recorded. Health stays due at 12:47 PDT.
+The whole-method comparison remains unfinished, Qwen corrections remain exhausted,
+and the original memory contrast remains void. Conditional extension still requires
+the complete core consumer and fresh whole-family time admission. Friday's final
+packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1005.json).
+
+## September 28, 09:57 PDT: frozen selection verified
+
+Completed detector selection passes full prerequisite, coverage and saved-calculation replay.
+Gear 2 advances the frozen reserved comparison: 374 completed, 6 running,
+125 pending, three retained failures and ten blocked. All comparators remain represented;
+operational selection is not a scientific promotion. The immutable missing-RoBERTa note is
+stale; retain its separately completed and already landed evaluation. Qwen correction
+allowances remain exhausted, and the original memory contrast remains void.
+Native downstream dispatch, progress and watcher delivery verify; health stays due at 12:47 PDT.
+The conditional extension still needs the complete core consumer and fresh whole-family time admission.
+Friday's final packet and Stage 12 closure remain. Publication approval remains pending after
+automatic review rejected the prior push; records stay local.
+[Receipt](../results/phase_2_4_stage_13/SELECTION_20260928.json).
+
+## September 28, 09:36 PDT: complete detector producers recorded
+
+Both completed causal batches pass full bindings, coverage and saved-feature replay.
+One verified selection worker advances in Gear 2 after prerequisite verification: 367 completed,
+three retained failures, ten blocked and 137 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Every pending card awaits frozen prerequisites; no additional card is runnable. Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for both completed produces. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0936.json).
+
+## September 28, 09:28 PDT: complete detector producers recorded
+
+All three completed causal batches pass full bindings, coverage and saved-feature replay.
+One verified CPU worker advances in Gear 2 with fresh output: 366 completed,
+three retained failures, ten blocked and 138 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Every pending card awaits frozen prerequisites; no additional card is runnable. Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for all three completed produces. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0928.json).
+
+## September 28, 09:24 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Three verified CPU workers advance in Gear 2 with fresh output: 364 completed,
+three retained failures, ten blocked and 138 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Every pending card awaits frozen prerequisites; no additional card is runnable. Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0924.json).
+
+## September 28, 09:18 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 361 completed,
+three retained failures, ten blocked and 138 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for both completed produces. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0918.json).
+
+## September 28, 09:07 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 359 completed,
+three retained failures, ten blocked and 140 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0907.json).
+
+## September 28, 09:04 PDT: complete detector producers recorded
+
+All three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 359 completed,
+three retained failures, ten blocked and 140 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for one produce; the other two were inspected directly before delivery. The delayed e5 notice matches its prior complete write-through and original ACK; the health clock is unchanged. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0903.json).
+
+## September 28, 09:00 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 356 completed,
+three retained failures, ten blocked and 143 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The completed produce was inspected directly before native owner delivery was recorded. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0900.json).
+
+## September 28, 08:57 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 354 completed,
+three retained failures, ten blocked and 145 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed notices for two earlier completed producers match their existing full write-through; their original acknowledgements and the rearmed health clock remain unchanged. The earlier sandbox delivery-inventory limitation remains explicit. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0857.json).
+
+## September 28, 08:55 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 353 completed,
+three retained failures, ten blocked and 146 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed notice for the earlier completed causal producer matches its existing full write-through; its original acknowledgement and the rearmed health clock remain unchanged. The earlier sandbox delivery-inventory limitation remains explicit. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0855.json).
+
+## September 28, 08:52 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 351 completed,
+three retained failures, ten blocked and 148 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The completed produce was inspected directly before native owner delivery was recorded. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0852.json).
+
+## September 28, 08:49 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 349 completed,
+three retained failures, ten blocked and 150 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Both completed produces were inspected directly before a native owner delivery timestamp was recorded. The delayed message for three earlier producers and their completed health inspection matches the existing full landing; their original acknowledgements and the rearmed health clock remain unchanged. The delivery ledger still has no native timestamp for that delayed message; the earlier sandbox inventory limitation remains explicit. Health
+stays due at 12:47 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0849.json).
+
+## September 28, 08:41 PDT: four-hour health inspection complete
+
+Three additional completed producers pass full bindings, coverage and saved-feature replay.
+Queue: 347 completed, six running, 152 pending, three retained failures and ten blocked.
+Native ownership, fresh output and CPU advance, single-thread limits, held locks,
+Stage 13 checkpoint, resource/power settings and watcher identity verify. No recovery needed.
+Qwen correction remains failed with allowances exhausted; Stage 12 remains closed.
+CPU core estimate: 15.1 elapsed hours against 84.3 hours before reporting reserve.
+Conditional extension remains unsubmitted until the complete core consumer and fresh
+whole-family admission. Native queue acceptance is recorded; actual idle-owner delivery
+is pending and the separate sandbox inventory probe could not resolve its home directory.
+Health ACK rearms four hours later. Thursday reporting and Friday 05:00 finish remain fixed.
+Automatic approval review's previous push rejection remains unresolved; records stay local.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_0841.json).
+
+## September 28, 08:31 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 344 completed,
+three retained failures, ten blocked and 155 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for both completed produces. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0831.json).
+
+## September 28, 08:28 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 342 completed,
+three retained failures, ten blocked and 157 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for both completed produces. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0828.json).
+
+## September 28, 08:24 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 341 completed,
+three retained failures, ten blocked and 158 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for both completed produces. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0824.json).
+
+## September 28, 08:21 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 339 completed,
+three retained failures, ten blocked and 160 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0821.json).
+
+## September 28, 08:18 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 337 completed,
+three retained failures, ten blocked and 162 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0818.json).
+
+## September 28, 08:15 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 336 completed,
+three retained failures, ten blocked and 163 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0815.json).
+
+## September 28, 08:08 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 335 completed,
+three retained failures, ten blocked and 164 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0808.json).
+
+## September 28, 08:05 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 335 completed,
+three retained failures, ten blocked and 164 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery is recorded for all three completed produces. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0805.json).
+
+## September 28, 08:01 PDT: complete detector producers recorded
+
+Five completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 332 completed,
+three retained failures, ten blocked and 167 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Three produce deliveries verify; two further pending produces were inspected directly before delivery. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0801.json).
+
+## September 28, 07:52 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 328 completed,
+three retained failures, ten blocked and 171 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0752.json).
+
+## September 28, 07:49 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 325 completed,
+three retained failures, ten blocked and 174 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0749.json).
+
+## September 28, 07:46 PDT: complete detector producers recorded
+
+The completed causal batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 324 completed,
+three retained failures, ten blocked and 175 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Actual native owner delivery of the completed produce is recorded. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0746.json).
+
+## September 28, 07:37 PDT: complete detector producers recorded
+
+The completed e5 batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 323 completed,
+three retained failures, ten blocked and 176 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The pending final produce was inspected directly; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Two delayed notices reconcile to unchanged prior evidence and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0737.json).
+
+## September 28, 07:35 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 323 completed,
+three retained failures, ten blocked and 176 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued or pending final produces were inspected directly; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Two delayed notices reconcile to unchanged prior evidence and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0735.json).
+
+## September 28, 07:32 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 321 completed,
+three retained failures, ten blocked and 178 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued or pending final produces were inspected directly; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Three delayed notices reconcile to unchanged prior evidence and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0732.json).
+
+## September 28, 07:29 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 319 completed,
+three retained failures, ten blocked and 180 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued or pending final produces were inspected directly; actual delivery is not claimed. Health
+stays due at 08:32 PDT. The delayed e5 notice reconciles to unchanged prior evidence and ACK. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0729.json).
+
+## September 28, 07:26 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 317 completed,
+three retained failures, ten blocked and 182 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued or pending final produces were inspected directly; actual delivery is not claimed. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0726.json).
+
+## September 28, 07:17 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 313 completed,
+three retained failures, ten blocked and 186 pending cards. Qwen admission remains
+failed with correction allowances exhausted; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. Native delivery is recorded for
+one final produce; remaining delivery is not claimed. Health
+stays due at 08:32 PDT. Two delayed notices reconcile to unchanged prior evidence and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0717.json).
+
+## September 28, 07:11 PDT: Qwen correction completed, admission rejected
+
+The unchanged GPU floor admitted the frozen correction. Its complete four-case
+run fails literal validity and known-answer field accuracy after full saved-evidence
+replay. The worker exited and released its GPU lock. Both correction allowances
+are consumed; nine Qwen dependents remain blocked, with no further retry.
+Six verified CPU workers continue in Gear 2: 311 execution cards completed,
+three execution failures, ten blocked and 188 pending. A completed admission card
+does not mean admission passed. Earlier producer ACKs verify; the private
+post-ACK total-worker assertion was reconciled against the permitted six CPU
+plus one GPU allocation. No scientific restart or output mutation occurred.
+Health stays due at 08:32 PDT. Fixed Friday finish and Stage 12 closure remain.
+Records are local; prior automatic-review push rejection remains unresolved.
+[Receipt](../results/phase_2_4_stage_13/QWEN_DEVELOPMENT_ADMISSION_20260928.json).
+
+## September 28, 07:04 PDT: complete detector producers recorded
+
+Both completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 309 completed,
+three retained failures, ten blocked and 190 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Five delayed notices reconcile to unchanged prior evidence and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0704.json).
+
+## September 28, 07:01 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 308 completed,
+three retained failures, ten blocked and 191 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. The delayed e5 notice reconciles to unchanged prior evidence and ACK. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0701.json).
+
+## September 28, 06:56 PDT: complete detector producers recorded
+
+Three completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 305 completed,
+three retained failures, ten blocked and 194 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0656.json).
+
+## September 28, 06:49 PDT: complete detector producers recorded
+
+The completed batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 301 completed,
+three retained failures, ten blocked and 198 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Prior delayed notices reconcile to unchanged local records
+and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0649.json).
+
+## September 28, 06:46 PDT: complete detector producers recorded
+
+The completed batch passes full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 300 completed,
+three retained failures, ten blocked and 199 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Prior delayed notices reconcile to unchanged local records
+and ACKs. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0646.json).
+
+## September 28, 06:41 PDT: complete detector producers recorded
+
+Six completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 298 completed,
+three retained failures, ten blocked and 201 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. Prior delayed notices reconcile to unchanged local records
+and ACKs; Stage 12 helper retirement remains verified. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and reconciled Stage 12 closure remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0641.json).
+
+## September 28: Stage 12 final endpoint reconciled
+
+Final and interim packets are unchanged; retained terminals, outputs, source
+versions and prior public receipts verify. All scheduled markers exist. The final
+helper and launcher exited normally and their lock is released; only that exact
+process watch was retired. Native delivery of queued endpoint notices is not
+claimed. The watcher and 08:32 PDT health deadline remain unchanged.
+Current local plan: 281 completed, fourteen failed, thirty-one deferred, no workers.
+The expired narrow-history follow-on remains unstarted. Scientific deficits stand;
+Stage 13 continues independently in Gear 2. Original-week costs include final
+inspection and conservative allowances; separate local costs are unchanged.
+[Endpoint receipt](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json),
+[frozen final packet](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md).
+
+## September 28, 06:28 PDT: complete detector producers recorded
+
+Four completed batches pass full bindings, coverage and saved-feature replay.
+Six verified CPU workers advance in Gear 2 with fresh output: 295 completed,
+three retained failures, ten blocked and 204 pending cards. Qwen remains
+resource-held; the corrected memory development consumer is recorded (L456).
+Watcher native identity and loaded sources verify. The queued produces were
+inspected before message delivery; actual delivery is not claimed. Health
+stays due at 08:32 PDT. The exact-payload publication request remains pending
+after automatic approval review rejected the prior push; records remain local.
+Fixed Friday finish and Stage 12 shutdown remain.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0628.json).
+
 ## September 28, 06:17 PDT: complete detector producers recorded
 
 The completed batch passes full bindings, coverage and saved-feature replay.

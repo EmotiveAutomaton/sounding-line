@@ -2,6 +2,211 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
+
+- [x] OPS-S13-EXTENSION-0928: Complete core landed as L457; prepared 181-card additional-source comparison admitted and launched in Gear 2. First three completed extension producers fully recorded.
+- [ ] S13-A-EXTENSION: Land remaining frozen extension producers and full consumer; preserve selection/calibration, all failed admissions, extension comparator limits and Friday final packet. No favorable-sign stopping or new source selection.
+
+- [x] L457: Complete core reserve detector/location consumer replayed and written through. Preserve every slice, unmatched achieved false-positive rates, missing paired gain uncertainty and weak location recovery; assess only the predeclared whole extension.
+
+- [x] OPS-S13-PRODUCERS-0928-1542: Both completed reserve producers are fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Replay and land the completed frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1526: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1523: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1520: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1517: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1514: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1511: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1459: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1456: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1453: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1449: Six completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1441: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1430: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1427: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1424: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1421: Four completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1417: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1413: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1410: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1404: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1400: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1352: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1348: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1345: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1342: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1338: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1328: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1325: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1322: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1318: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1315: Four completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1308: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1257: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-HEALTH-0928-1250: two completed producers fully recorded and full four-hour health inspection completed. Independent CPU work is healthy; Qwen remains failed, conditional extension awaits its complete core consumer. Delivery-probe limitation retained; health ACK rearms four hours later. Delivery counter reconciled in the [correction](results/phase_2_4_stage_13/HEALTH_20260928_1250_DELIVERY_CORRECTION.json); original retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1247: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1244: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1241: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1237: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1228: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1221: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1217: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1213: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1211: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1207: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-ASSESSMENT-0928: Requested full queue assessment, early validity checks and eight completed producer landings recorded. Continue six healthy CPU workers to the complete core consumer; conditional extension still requires its original whole-family gate. No new study or retry opened.
+
+- [x] OPS-S13-PRODUCERS-0928-1141: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1138: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1123: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1119: Three completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1115: Four completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1111: Two completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1107: The completed reserve producer is fully recorded with bindings, coverage, causal-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1056: The completed reserve producer is fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1052: Six completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1043: Four completed reserve producers are fully recorded with bindings, coverage, saved-feature checks and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1039: The completed causal reserve producer is fully recorded with bindings, coverage, causal feature validity and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1025: Complete e5 reserve producer fully recorded; five delayed notices reconciled. Preserve the late transport-label limitation and original ACKs; continue the frozen reserve consumer.
+
+- [x] OPS-S13-PRODUCERS-0928-1019: Eight completed reserve producers fully recorded with bindings, coverage, saved-feature validity and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1014: Three completed causal reserve producers fully recorded with bindings, coverage, saved-feature validity and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-PRODUCERS-0928-1005: Six completed e5 reserve producers fully recorded with bindings, coverage, saved-probability replay and selection prerequisite verified. Continue the frozen reserve consumer with existing deficits retained.
+
+- [x] OPS-S13-SELECTION-0928: Complete detector selection replayed and recorded, with all rivals retained and reserved dispatch verified. Continue the frozen reserved consumer; conditional extension still awaits complete core evidence and fresh time admission.
+
+- [x] OPS-S13-PRODUCERS-0928-0936: Two completed causal detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0928: Three completed causal detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0924: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0918: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0907: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0903: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0900: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0857: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0855: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0852: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0849: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-HEALTH-0928-0841: three completed producers fully recorded and full four-hour health inspection completed. Independent CPU work is healthy; Qwen remains failed, conditional extension awaits its complete core consumer. Delivery-probe limitation retained; health ACK rearms four hours later.
+
+- [x] OPS-S13-PRODUCERS-0928-0831: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0828: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0824: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0821: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0818: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0815: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0808: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0805: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0801: five completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0752: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0749: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0746: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0737: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0735: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0732: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0729: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0726: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-PRODUCERS-0928-0717: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen admission remains failed with correction allowances exhausted.
+
+- [x] OPS-S13-QWEN-ADMISSION-0928-0711: Completed Qwen development admission fully replayed and recorded; admission rejected, correction allowance exhausted, dependent calls remain blocked. Continue admitted independent CPU branches.
+
+- [x] OPS-S13-PRODUCERS-0928-0704: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0701: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0656: three completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0649: The completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0646: The completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0641: six completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
+- [x] OPS-S13-PRODUCERS-0928-0628: four completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
 - [x] OPS-S13-PRODUCERS-0928-0617: completed e5 detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
 
 - [x] OPS-S13-PRODUCERS-0928-0613: completed causal detector producer fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
@@ -184,7 +389,7 @@
 - [x] OPS-S13-PRODUCERS-0927-2220: nine detector producers fully recorded; delayed five-event delivery reconciled to unchanged evidence and prior ACKs. Independent CPU core continues; existing repair obligations remain pending.
 
 - [x] OPS-S13-GPU-COMPLETION-0927: full supervised comparator and three further detector producers replayed; failed Qwen call/parser and fixture-scoring defect recorded. Nine dependent cards remain undispatched.
-- [x] OPS-S13-QWEN-DEVELOPMENT-REPAIR: allowance reconciled and separate correction built, tested and queued; actual admission remains pending behind the original memory floor. Preserve invalid reply/costs, strict gates and four original cases. No normalization, current-version repeat or reserve opening (OPS-S13-HEALTH-0928-0008).
+- [x] OPS-S13-QWEN-DEVELOPMENT-REPAIR: separate correction built, tested and executed after its original memory floor cleared. Complete admission rejected; both correction allowances exhausted, all original cases and invalid reply/costs retained. No further retry or reserve opening (OPS-S13-QWEN-ADMISSION-0928-0711; original setup OPS-S13-HEALTH-0928-0008).
 
 - [x] L455 / OPS-S13-COMPLETIONS-0927-2146: complete context consumer, final context producer, new detector producers and full training recorded; actual rendering audit voids raw/linked/duplicate memory distinction.
 - [x] L455: bounded implementation correction passes actual-tokenizer admission on all development cases; separately frozen development consumer is running. Original void, unequal prompt lengths, source limits and reserve exposure remain. No automatic reserve replay (OPS-S13-HEALTH-0928-0008).
@@ -223,14 +428,14 @@
 - [x] Owner changed to Gear 2; full tuning and its fixed downstream evaluation completed and replayed. Qwen failed admission; its dependent cards stay blocked pending bounded development recovery. Independent CPU work continues.
 - [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
 - [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
-- [ ] Preserve the assembled Stage 12 final packet and its endpoint reconciliation due September 28 at 06:17 PDT, with independent four-hour supervision. No restart of its expired allocation.
+- [ ] Preserve the assembled Stage 12 final packet and completed September 28 endpoint reconciliation, with independent four-hour supervision. No restart of its expired allocation.
 
 This section supersedes older running labels as current authority. Prior records follow.
 
 ## Extensive local research program - approved September 23
 
 - [x] OPS-S12-REPORTING-START-0927: reporting checkpoint inspected; final evidence packet assembled with complete warrant/pursuit ledgers and immutable provenance. No generation restart.
-- [ ] OPS-S12-FINAL-ENDPOINT: September 28 at 06:17 PDT, reconcile unchanged Stage 12 evidence, reporting-only costs and final checkpoint delivery. Do not count Stage 13 results as completion of missing Stage 12 work.
+- [x] OPS-S12-FINAL-ENDPOINT: unchanged final packet, evidence and reporting costs reconciled; normal helper exit verified and its exact watch retired. Endpoint files inspected while queued; native delivery not claimed. Stage 13 stays separate. [Receipt](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json).
 
 - [x] OPS-S12-HEALTH-0927-1112: unchanged stopped queue, retained evidence, resource limits and actual health delivery verified. No recovery or new work; expired allocation and original final-packet deficits retained.
 

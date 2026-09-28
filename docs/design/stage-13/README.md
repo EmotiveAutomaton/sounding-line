@@ -18,7 +18,7 @@ handoff statements; they do not override the current instruction or prove this
 operator's source reading, installed capabilities or execution.
 
 The earlier documentation-only pass started no research. Implementation is now
-authorized and the frozen CPU queue is running after source, reader and consumer admission. [Execution handoff](EXECUTION.md) records the roster, held capabilities, capacity and exact checkpoints. Stage 12 retains its stopped allocation and September 28
-at 06:17 PDT final-report obligation. Four-hour operational supervision remains active.
+authorized and the frozen CPU queue is running after source, reader and consumer admission. [Execution handoff](EXECUTION.md) records the roster, held capabilities, capacity and exact checkpoints. Stage 12 retains its stopped allocation; its September 28
+at 06:17 PDT final endpoint is reconciled with scientific deficits retained. Four-hour operational supervision remains active.
 This folder is the sole home for new Stage 13 plans. Preserve the supplied source;
 record ratification and implementation changes in the plan and future receipts.

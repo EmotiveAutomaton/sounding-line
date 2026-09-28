@@ -12,6 +12,210 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three complete extension producers pass immutable bindings, full coverage and saved-evidence replay after core completion. Six native CPU workers advance under unchanged limits; watcher health verifies. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1620.json).
+
+OPS-S13-EXTENSION-0928: Prepared whole extension validated against every original/remapped card, paired source coverage, source separation and observed full-family capacity; six actual native CPU workers advance within existing limits. First three complete producers pass saved-evidence replay. [Receipt](../results/phase_2_4_stage_13/EXTENSION_20260928.json).
+
+L457: Complete core detector/location consumer replayed across every slice; pooled and source-average recall explicitly separated. Matched-feature advantage does not validate process recovery or pass a formal promotion rule. Full-tuned comparator included; original missing-arm note retained as stale. [Receipt](../results/phase_2_4_stage_13/CORE_RESERVE_20260928.json).
+
+OPS-S13-PRODUCERS-0928-1542: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; completed whole-method consumer still requires replay and landing. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1542.json).
+
+OPS-S13-PRODUCERS-0928-1526: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1526.json).
+
+OPS-S13-PRODUCERS-0928-1523: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1523.json).
+
+OPS-S13-PRODUCERS-0928-1520: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1520.json).
+
+OPS-S13-PRODUCERS-0928-1517: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1517.json).
+
+OPS-S13-PRODUCERS-0928-1514: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1514.json).
+
+OPS-S13-PRODUCERS-0928-1511: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1511.json).
+
+OPS-S13-PRODUCERS-0928-1459: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1459.json).
+
+OPS-S13-PRODUCERS-0928-1456: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1456.json).
+
+OPS-S13-PRODUCERS-0928-1453: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1453.json).
+
+OPS-S13-PRODUCERS-0928-1449: All six complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1449.json).
+
+OPS-S13-PRODUCERS-0928-1441: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1441.json).
+
+OPS-S13-PRODUCERS-0928-1430: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1430.json).
+
+OPS-S13-PRODUCERS-0928-1427: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1427.json).
+
+OPS-S13-PRODUCERS-0928-1424: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1424.json).
+
+OPS-S13-PRODUCERS-0928-1421: All four complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1421.json).
+
+OPS-S13-PRODUCERS-0928-1417: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1417.json).
+
+OPS-S13-PRODUCERS-0928-1413: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1413.json).
+
+OPS-S13-PRODUCERS-0928-1410: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1410.json).
+
+OPS-S13-PRODUCERS-0928-1404: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1404.json).
+
+OPS-S13-PRODUCERS-0928-1400: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1400.json).
+
+OPS-S13-PRODUCERS-0928-1352: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1352.json).
+
+OPS-S13-PRODUCERS-0928-1348: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1348.json).
+
+OPS-S13-PRODUCERS-0928-1345: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1345.json).
+
+OPS-S13-PRODUCERS-0928-1342: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1342.json).
+
+OPS-S13-PRODUCERS-0928-1338: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1338.json).
+
+OPS-S13-PRODUCERS-0928-1328: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1328.json).
+
+OPS-S13-PRODUCERS-0928-1325: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1325.json).
+
+OPS-S13-PRODUCERS-0928-1322: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1322.json).
+
+OPS-S13-PRODUCERS-0928-1318: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1318.json).
+
+OPS-S13-PRODUCERS-0928-1315: All four complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1315.json).
+
+OPS-S13-PRODUCERS-0928-1308: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1308.json).
+
+OPS-S13-PRODUCERS-0928-1257: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1257.json).
+
+OPS-S13-HEALTH-0928-1250: Two complete detector producers pass full evidence checks. All frozen manifests and inputs, native ownership, CPU progress, single-thread limits, held locks, resources, eligible work and watcher source identity verify. Native queue acceptance is recorded; actual idle-owner delivery is pending. The earlier sandbox inventory limitation is retained without repeating the probe. No recovery needed; Qwen correction failed and its allowances are exhausted. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_1250.json). The [delivery-counter correction](../results/phase_2_4_stage_13/HEALTH_20260928_1250_DELIVERY_CORRECTION.json) records one queue submission from the later snapshot; actual owner delivery remains unverified.
+
+OPS-S13-PRODUCERS-0928-1247: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1247.json).
+
+OPS-S13-PRODUCERS-0928-1244: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1244.json).
+
+OPS-S13-PRODUCERS-0928-1241: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1241.json).
+
+OPS-S13-PRODUCERS-0928-1237: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1237.json).
+
+OPS-S13-PRODUCERS-0928-1228: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1228.json).
+
+OPS-S13-PRODUCERS-0928-1221: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1221.json).
+
+OPS-S13-PRODUCERS-0928-1217: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1217.json).
+
+OPS-S13-PRODUCERS-0928-1213: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1213.json).
+
+OPS-S13-PRODUCERS-0928-1211: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1211.json).
+
+OPS-S13-PRODUCERS-0928-1207: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1207.json).
+
+OPS-S13-ASSESSMENT-0928: Full native/resource/lock/manifest inspection passes. All 35 targeted regressions pass, including 23 against frozen core source. The actual pending consumer passes constructed known-answer/reentry and missing/duplicate evidence refusals; all planned reserve rows have exact paired coverage with disjoint source components. Eight completed producers are fully recorded. Private test-bootstrap failures are retained; no scientific code changed. Watcher scanning verifies, actual owner delivery remains unconfirmed for this batch. [Receipt](../results/phase_2_4_stage_13/ASSESSMENT_20260928.json).
+
+OPS-S13-PRODUCERS-0928-1141: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1141.json).
+
+OPS-S13-PRODUCERS-0928-1138: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1138.json).
+
+OPS-S13-PRODUCERS-0928-1123: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1123.json).
+
+OPS-S13-PRODUCERS-0928-1119: All three complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1119.json).
+
+OPS-S13-PRODUCERS-0928-1115: All four complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1115.json).
+
+OPS-S13-PRODUCERS-0928-1111: Both complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1111.json).
+
+OPS-S13-PRODUCERS-0928-1107: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1107.json).
+
+OPS-S13-PRODUCERS-0928-1056: The complete reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1056.json).
+
+OPS-S13-PRODUCERS-0928-1052: All six complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1052.json).
+
+OPS-S13-PRODUCERS-0928-1043: All four complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1043.json).
+
+OPS-S13-PRODUCERS-0928-1039: The complete causal reserve producer passes immutable bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1039.json).
+
+OPS-S13-PRODUCERS-0928-1025: The complete e5 reserve producer passes frozen bindings, coverage, admitted identity, surface/token checks and saved-probability replay. Five delayed notices match prior outputs and original ACKs. Late transport settlement can leave queued labels beside retained ACKs; the awaiting-ACK guard excludes them. No current queue blockage or runtime change. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1025.json).
+
+OPS-S13-PRODUCERS-0928-1019: Eight complete reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1019.json).
+
+OPS-S13-PRODUCERS-0928-1014: Three complete causal reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved-feature validity. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1014.json).
+
+OPS-S13-PRODUCERS-0928-1005: Six complete e5 reserve producers pass immutable bindings, full source/row censuses, admitted identities, surface/token checks and saved-probability replay. Each dispatch follows frozen selection completion; whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_1005.json).
+
+OPS-S13-SELECTION-0928: Frozen detector selection verifies complete prerequisite coverage, source separation, saved-coefficient predictions, normalizations, temperature grids, human-only cuts, full development reports and deterministic finalists. Reserved dispatch follows completion. Preserve stale missing-RoBERTa text alongside its separately completed evaluation. Whole-method result remains unfinished. [Receipt](../results/phase_2_4_stage_13/SELECTION_20260928.json).
+
+OPS-S13-PRODUCERS-0928-0936: Both complete causal producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0936.json).
+
+OPS-S13-PRODUCERS-0928-0928: All three complete causal producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0928.json).
+
+OPS-S13-PRODUCERS-0928-0924: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0924.json).
+
+OPS-S13-PRODUCERS-0928-0918: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0918.json).
+
+OPS-S13-PRODUCERS-0928-0907: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0907.json).
+
+OPS-S13-PRODUCERS-0928-0903: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0903.json).
+
+OPS-S13-PRODUCERS-0928-0900: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0900.json).
+
+OPS-S13-PRODUCERS-0928-0857: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0857.json).
+
+OPS-S13-PRODUCERS-0928-0855: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0855.json).
+
+OPS-S13-PRODUCERS-0928-0852: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0852.json).
+
+OPS-S13-PRODUCERS-0928-0849: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0849.json).
+
+OPS-S13-HEALTH-0928-0841: Three complete detector producers pass full evidence checks. All frozen manifests and inputs, native ownership, CPU progress, single-thread limits, held locks, resources, eligible work and watcher source identity verify. Native queue acceptance is recorded; actual idle-owner delivery is pending and the separate sandbox inventory probe is unavailable. No recovery needed; Qwen correction failed and its allowances are exhausted. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_0841.json).
+
+OPS-S13-PRODUCERS-0928-0831: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0831.json).
+
+OPS-S13-PRODUCERS-0928-0828: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0828.json).
+
+OPS-S13-PRODUCERS-0928-0824: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0824.json).
+
+OPS-S13-PRODUCERS-0928-0821: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0821.json).
+
+OPS-S13-PRODUCERS-0928-0818: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0818.json).
+
+OPS-S13-PRODUCERS-0928-0815: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0815.json).
+
+OPS-S13-PRODUCERS-0928-0808: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0808.json).
+
+OPS-S13-PRODUCERS-0928-0805: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0805.json).
+
+OPS-S13-PRODUCERS-0928-0801: five complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0801.json).
+
+OPS-S13-PRODUCERS-0928-0752: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0752.json).
+
+OPS-S13-PRODUCERS-0928-0749: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0749.json).
+
+OPS-S13-PRODUCERS-0928-0746: The complete causal producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0746.json).
+
+OPS-S13-PRODUCERS-0928-0737: The complete e5 producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0737.json).
+
+OPS-S13-PRODUCERS-0928-0735: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0735.json).
+
+OPS-S13-PRODUCERS-0928-0732: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0732.json).
+
+OPS-S13-PRODUCERS-0928-0729: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0729.json).
+
+OPS-S13-PRODUCERS-0928-0726: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0726.json).
+
+OPS-S13-PRODUCERS-0928-0717: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0717.json).
+
+OPS-S13-QWEN-ADMISSION-0928-0711: The complete four-case Qwen development correction remains unadmitted after source/request/output, literal-parse and score replay. One invalid response and failed known-answer fields independently reject admission. Correction allowances are exhausted; nine Qwen dependents remain blocked. Original failures and costs are retained. [Receipt](../results/phase_2_4_stage_13/QWEN_DEVELOPMENT_ADMISSION_20260928.json).
+
+OPS-S13-PRODUCERS-0928-0704: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0704.json).
+
+OPS-S13-PRODUCERS-0928-0701: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0701.json).
+
+OPS-S13-PRODUCERS-0928-0656: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0656.json).
+
+OPS-S13-PRODUCERS-0928-0649: The complete e5 detector producer passes bindings, full source/row censuses, admitted identities, surface/token checks, saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0649.json).
+
+OPS-S13-PRODUCERS-0928-0646: The complete causal detector producer passes bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0646.json).
+
+OPS-S13-PRODUCERS-0928-0641: six complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0641.json).
+
+OPS-S13-PRODUCERS-0928-0628: four complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks, causal feature validity and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0628.json).
+
 OPS-S13-PRODUCERS-0928-0617: The completed e5 detector producer passes bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0617.json).
 
 OPS-S13-PRODUCERS-0928-0613: The completed causal detector producer passes bindings, full source/row censuses, admitted identities, surface/token checks and causal feature validity. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0613.json).
@@ -247,6 +451,8 @@ OPS-S13-SOURCE-0927: source/output hashes, unique records and disconnected parti
 OPS-S13-INTAKE-0927: 48 public source/model files independently rehashed and size-checked. Intake only; source independence, readers and consumers await admission. [Receipt](../results/phase_2_4_stage_13/INTAKE_VERIFIED.json).
 
 ## Stage 12 bounded consumers
+
+OPS-S12-FINAL-ENDPOINT: final/interim packets, retained terminals/outputs, historical sources and prior receipts verify unchanged. Helper/launcher absence, released locks, expired admission and exact exited-watch retirement verify. The inventory correction preserves its own failed attempt and conservative cost allowance. Scientific deficits and claims unchanged. [Receipt](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json).
 
 OPS-S12-REPORTING-START-0927: final evidence assembly verifies all retained local/original-week terminals and outputs, historical source versions, provider source bindings, native exits and actual checkpoint delivery. The historical-source probe was corrected to use the declared archived versions; original records and scientific gates are unchanged. Expired generation remains refused. [Inspection](../results/phase_2_4_stage_12/REPORTING_START_20260927.json), [packet](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md).
 

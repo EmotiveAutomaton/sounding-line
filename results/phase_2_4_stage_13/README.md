@@ -13,6 +13,109 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_PRODUCERS_20260928_1620.json](EXTENSION_PRODUCERS_20260928_1620.json) | Three additional-source producers fully verified; six native workers and unchanged watcher clock verified |
+| [EXTENSION_20260928.json](EXTENSION_20260928.json) | Whole prepared replication admitted under unchanged selection, native Gear 2 launch verified, first completed producers recorded |
+| [CORE_RESERVE_20260928.json](CORE_RESERVE_20260928.json) | Complete core detector/location result and every slice replayed, full-tuned comparator retained, distinct estimands and promotion deficits recorded (L457) |
+| [PRODUCERS_20260928_1542.json](PRODUCERS_20260928_1542.json) | Final reserve producer bindings, coverage and causal-feature checks; selection prerequisite and normal core queue drain verified |
+| [PRODUCERS_20260928_1526.json](PRODUCERS_20260928_1526.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1523.json](PRODUCERS_20260928_1523.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1520.json](PRODUCERS_20260928_1520.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1517.json](PRODUCERS_20260928_1517.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1514.json](PRODUCERS_20260928_1514.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1511.json](PRODUCERS_20260928_1511.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1459.json](PRODUCERS_20260928_1459.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1456.json](PRODUCERS_20260928_1456.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1453.json](PRODUCERS_20260928_1453.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1449.json](PRODUCERS_20260928_1449.json) | Six complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1441.json](PRODUCERS_20260928_1441.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1430.json](PRODUCERS_20260928_1430.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1427.json](PRODUCERS_20260928_1427.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1424.json](PRODUCERS_20260928_1424.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1421.json](PRODUCERS_20260928_1421.json) | Four complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1417.json](PRODUCERS_20260928_1417.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1413.json](PRODUCERS_20260928_1413.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1410.json](PRODUCERS_20260928_1410.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1404.json](PRODUCERS_20260928_1404.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1400.json](PRODUCERS_20260928_1400.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1352.json](PRODUCERS_20260928_1352.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1348.json](PRODUCERS_20260928_1348.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1345.json](PRODUCERS_20260928_1345.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1342.json](PRODUCERS_20260928_1342.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1338.json](PRODUCERS_20260928_1338.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1328.json](PRODUCERS_20260928_1328.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1325.json](PRODUCERS_20260928_1325.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1322.json](PRODUCERS_20260928_1322.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1318.json](PRODUCERS_20260928_1318.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1315.json](PRODUCERS_20260928_1315.json) | Four complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1308.json](PRODUCERS_20260928_1308.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1257.json](PRODUCERS_20260928_1257.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [HEALTH_20260928_1250_DELIVERY_CORRECTION.json](HEALTH_20260928_1250_DELIVERY_CORRECTION.json) | Health delivery counter reconciled between inspection-start and later queue-acceptance snapshots; original retained |
+| [HEALTH_20260928_1250.json](HEALTH_20260928_1250.json) | Two complete detector producers; full native/resource/lock health inspection, capacity review and explicit delivery-probe limits |
+| [PRODUCERS_20260928_1247.json](PRODUCERS_20260928_1247.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1244.json](PRODUCERS_20260928_1244.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1241.json](PRODUCERS_20260928_1241.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1237.json](PRODUCERS_20260928_1237.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1228.json](PRODUCERS_20260928_1228.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1221.json](PRODUCERS_20260928_1221.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1217.json](PRODUCERS_20260928_1217.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1213.json](PRODUCERS_20260928_1213.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1211.json](PRODUCERS_20260928_1211.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1207.json](PRODUCERS_20260928_1207.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [ASSESSMENT_20260928.json](ASSESSMENT_20260928.json) | Requested full queue assessment, eight complete producer landings, frozen-consumer early validity and remaining capacity |
+| [PRODUCERS_20260928_1141.json](PRODUCERS_20260928_1141.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1138.json](PRODUCERS_20260928_1138.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1123.json](PRODUCERS_20260928_1123.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1119.json](PRODUCERS_20260928_1119.json) | Three complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1115.json](PRODUCERS_20260928_1115.json) | Four complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1111.json](PRODUCERS_20260928_1111.json) | Two complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1107.json](PRODUCERS_20260928_1107.json) | Complete reserve producer bindings, coverage and causal-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1056.json](PRODUCERS_20260928_1056.json) | Complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1052.json](PRODUCERS_20260928_1052.json) | Six complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1043.json](PRODUCERS_20260928_1043.json) | Four complete reserve producer bindings, coverage and saved-feature checks; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1039.json](PRODUCERS_20260928_1039.json) | Complete causal reserve producer bindings, coverage and causal feature validity; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1025.json](PRODUCERS_20260928_1025.json) | Complete e5 reserve evidence, native continuation and delayed-notice reconciliation; original ACKs preserved |
+| [PRODUCERS_20260928_1019.json](PRODUCERS_20260928_1019.json) | Eight complete reserve producer bindings, coverage and saved-feature validity; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1014.json](PRODUCERS_20260928_1014.json) | Three complete reserve producer bindings, coverage and saved-feature validity; selection prerequisite and native continuation verified |
+| [PRODUCERS_20260928_1005.json](PRODUCERS_20260928_1005.json) | Six complete reserve producer bindings, coverage and saved-probability replay; selection prerequisite and native continuation verified |
+| [SELECTION_20260928.json](SELECTION_20260928.json) | Complete detector-selection replay, retained comparators and verified downstream reserve admission; scientific comparison unfinished |
+| [PRODUCERS_20260928_0936.json](PRODUCERS_20260928_0936.json) | Two complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0928.json](PRODUCERS_20260928_0928.json) | Three complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0924.json](PRODUCERS_20260928_0924.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0918.json](PRODUCERS_20260928_0918.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0907.json](PRODUCERS_20260928_0907.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0903.json](PRODUCERS_20260928_0903.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0900.json](PRODUCERS_20260928_0900.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0857.json](PRODUCERS_20260928_0857.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0855.json](PRODUCERS_20260928_0855.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0852.json](PRODUCERS_20260928_0852.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0849.json](PRODUCERS_20260928_0849.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [HEALTH_20260928_0841.json](HEALTH_20260928_0841.json) | Three complete detector producers; full native/resource/lock health inspection, capacity review and explicit delivery-probe limits |
+| [PRODUCERS_20260928_0831.json](PRODUCERS_20260928_0831.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0828.json](PRODUCERS_20260928_0828.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0824.json](PRODUCERS_20260928_0824.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0821.json](PRODUCERS_20260928_0821.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0818.json](PRODUCERS_20260928_0818.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0815.json](PRODUCERS_20260928_0815.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0808.json](PRODUCERS_20260928_0808.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0805.json](PRODUCERS_20260928_0805.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0801.json](PRODUCERS_20260928_0801.json) | Five complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0752.json](PRODUCERS_20260928_0752.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0749.json](PRODUCERS_20260928_0749.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0746.json](PRODUCERS_20260928_0746.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0737.json](PRODUCERS_20260928_0737.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0735.json](PRODUCERS_20260928_0735.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0732.json](PRODUCERS_20260928_0732.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0729.json](PRODUCERS_20260928_0729.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0726.json](PRODUCERS_20260928_0726.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0717.json](PRODUCERS_20260928_0717.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [QWEN_DEVELOPMENT_ADMISSION_20260928.json](QWEN_DEVELOPMENT_ADMISSION_20260928.json) | Complete corrected Qwen admission fails original gates; evidence replay, costs and GPU release verified; independent CPU work continues |
+| [PRODUCERS_20260928_0704.json](PRODUCERS_20260928_0704.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0701.json](PRODUCERS_20260928_0701.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0656.json](PRODUCERS_20260928_0656.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0649.json](PRODUCERS_20260928_0649.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0646.json](PRODUCERS_20260928_0646.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0641.json](PRODUCERS_20260928_0641.json) | Six complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
+| [PRODUCERS_20260928_0628.json](PRODUCERS_20260928_0628.json) | Four complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0617.json](PRODUCERS_20260928_0617.json) | Complete e5 detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0613.json](PRODUCERS_20260928_0613.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0602.json](PRODUCERS_20260928_0602.json) | Two complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |

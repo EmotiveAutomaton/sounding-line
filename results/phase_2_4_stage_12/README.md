@@ -4,6 +4,16 @@ The separately commissioned week runs from September 21 at 13:17:27 UTC to
 September 28 at 13:17:27 UTC. Setup is included. The interim packet is due at
 96 elapsed hours; the final twelve hours are protected for reporting.
 
+## Final endpoint reconciled - September 28
+
+[Endpoint receipt](FINAL_ENDPOINT_20260928.json): final and interim packets remain unchanged;
+retained sources, terminals, outputs and prior receipts verify. All scheduled
+markers were emitted and the checkpoint helper exited normally. Only its exact
+process watch was retired; the health clock remains. The original week is closed
+for reporting with the broader scientific program incomplete. Records below
+describe their original times. Stage 13 now runs separately in Gear 2; its
+evidence does not fill Stage 12's missing comparisons.
+
 ## Final evidence packet assembled - September 27
 
 [The final packet](FINAL_PACKET_20260927.md) consolidates the completed evidence,
