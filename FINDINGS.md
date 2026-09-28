@@ -9,6 +9,28 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-2301 - complete detector outputs recorded
+
+**Hypothesis.** Completed detector producers retain their full declared inputs and replayable evidence while authorized independent work advances.
+
+**METHOD.** Verify immutable manifests, admitted dependencies and all source/input/output bindings. Compare complete source and saved-row censuses, admitted identities and surface features; check token visibility and finite causal features, and reproduce e5 probabilities from saved logits. Inspect native identities, below-normal worker priority, CPU/output advance and the loaded watcher. No repeated model forwards or changed scientific outputs.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds preserve separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-024-gpt2-medium-logrank | 256 | 258 | 1263.730 | 1249.859 |
+| core-v1-A-train-028-e5 | 256 | 258 | 93.116 | 89.766 |
+| core-v1-A-train-029-e5 | 256 | 258 | 91.796 | 88.953 |
+
+**Found.** All three completed producers pass full coverage and saved-feature checks against 353 frozen source and three input bindings. The whole-method comparison remains unfinished. At 23:01 PDT the queue has 103 completed, three retained failures, ten blocked, 393 pending and six running cards. All six native CPU workers have fresh output at below-normal priority; previously sampled workers show CPU advance. The sole watcher retains its verified native identity, loaded source and fresh scan. Four-hour inspection stays due at 23:42 PDT.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep the failed Qwen admission, void memory-type manipulation, exhausted literal-confidence correction and missing comparisons explicit. The separately bounded Qwen and memory development repairs remain pending; producer integrity does not repair them or license a method ranking. Fixed Friday finish and Stage 12 shutdown remain. No tests harvested, cloud use, new research or delegation this pass.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is completed detector evidence intact as authorized work advances? Outcome: **Infrastructure**. Result: Full producer coverage, evidence bindings and native continuation verify. Project meaning: Completed producers remain available to the whole-method comparison with existing deficits preserved. Next engineering obligation: Land complete consumers and separately admit permitted development repairs. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_2301.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-2257 - complete detector batches preserved
 
 **Hypothesis.** Completed detector batches retain complete source coverage and replayable evidence while authorized independent work continues.
