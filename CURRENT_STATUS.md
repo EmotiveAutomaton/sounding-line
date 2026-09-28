@@ -3,12 +3,21 @@
 Updated September 27, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
-## Stage 13: running in Gear 1
+## Stage 13: running in Gear 2
 
-The latest instruction approves all studies in **Gear 1**, finishing Friday
-October 2 at **05:00 PDT**. New science stops before Thursday at 21:00 PDT,
-reserving eight hours for replay/reporting. The frozen core has 514 cards: 503 CPU and 11 held GPU cards. One CPU worker runs at a time. Actual reader admissions, full capacity blocks and first production output replay. The 181-card extension is conditional on complete core results and whole-family time admission. Heavy GPU work is held. [Execution handoff](docs/design/stage-13/EXECUTION.md). [Review the plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md) and the
-[unchanged source](docs/design/stage-13/README.md).
+The owner explicitly selected **Gear 2** on September 27. Six CPU workers and one
+GPU training worker run under a source-bound successor. All core studies and their
+consumers are built; each retains its scientific and resource gates. The original
+514-card core is preserved alongside one infrastructure capacity card. A repaired
+native launcher uses new attempt identities and retains every preflight failure.
+The small literal-confidence interface failed its permitted correction, so those
+reserved tests remain blocked. Independent likelihood studies continue.
+
+Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.
+The 181-card reserve extension is fully prepared but conditional on complete core
+evaluation and the whole-family 45-hour time guard. No cloud use or new research.
+[Readiness evidence](results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json) and
+[execution handoff](docs/design/stage-13/EXECUTION.md).
 
 ## Stage 12: generation stopped; final packet assembled
 
@@ -32,8 +41,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: land complete Stage 13 cells and inspect conditional continuation at the independent health checkpoints. Heavy training and sustained GPU inference stay
-held under Gear 1; available capacity is not permission to change gears.
+Next action: land complete Stage 13 cells and inspect conditional continuation at the independent health checkpoints. Qwen starts only after its fresh resource/admission checks and the current GPU owner exits.
 
 ## Navigation
 

@@ -32,8 +32,8 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current work, September 27:** Stage 13 implementation is approved under Gear 1, with a fixed
-October 2 at 05:00 PDT finish. The source-bound CPU queue is running; GPU studies are prepared and held. Complete-block admissions and measured capacity verify. Stage 12 generation is stopped and its
+**Current work, September 27:** Stage 13 implementation is approved under Gear 2, with a fixed
+October 2 at 05:00 PDT finish. Six CPU workers and one GPU training worker are running; remaining reader studies retain their own admission gates. Complete-block admissions and measured capacity verify. Stage 12 generation is stopped and its
 [final evidence packet is assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md);
 its endpoint reconciliation remains due September 28 at 06:17 PDT. See
 [the current status](CURRENT_STATUS.md), [Stage 13 plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md)

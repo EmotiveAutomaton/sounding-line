@@ -9,6 +9,42 @@ ran it.
 
 ---
 
+### OPS-S13-GEAR2-0927 - explicit Gear 2 transition, validity audit and retained repairs
+
+**Hypothesis.** The already approved Stage 13 roster can run concurrently without losing current work, changing scientific rules, bypassing failed admissions or moving Friday's finish.
+
+**METHOD.** Verify frozen cards, source/input/output hashes, dependency and admission order, exact recovery mappings, native ownership and advancing work. Exercise the native child environment, ownership transfer and failure paths. Run a training-only GPU capacity block using the longest original training/development texts under the complete recipe. Replay completed context and contribution records, the complete CPU contribution consumer, and saved detector probabilities. Test the one allowed prospective literal-confidence interface correction on explicit known facts; retain the original parser, budget and gate. No new research or paid calls.
+
+**Found.** At 21:21 PDT six CPU workers and one GPU worker run under the corrected successor. The original CPU worker completed without restart. The native launcher initially selected system package paths, causing 26 preflight failures with no scientific dispatch. Every failure is retained; corrected cards have new identities, and 167 dependent paths are verified exact remaps with unchanged scientific contents. A native environment probe now runs before dispatch, and unexpected preflight failures stop further launches. All 28 focused checks and 21 original locks pass.
+
+The table lists fully completed components inspected in this pass. Names are immutable job identities; kind distinguishes producers, fitted instruments, capacity and consumers. Outputs are verified files; wall and CPU seconds are separate costs. These rows are execution coverage, not whole-study method rankings.
+
+| Completed component | Kind | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-train-002-e5-g2r1 | producer | 258 | 91.528 | 85.453 |
+| core-v1-A-train-003-e5-g2r1 | producer | 258 | 90.888 | 85.219 |
+| core-v1-A-train-004-e5-g2r1 | producer | 258 | 92.136 | 86.953 |
+| core-v1-A-train-005-e5-g2r1 | producer | 258 | 95.771 | 90.547 |
+| core-v1-A-train-006-e5-g2r1 | producer | 258 | 97.707 | 91.656 |
+| core-v1-B-reserve-012 | producer | 2 | 73.809 | 70.109 |
+| core-v1-B-reserve-013-g2r1 | producer | 2 | 129.054 | 125.344 |
+| core-v1-B-summary-g2r1 | consumer | 2 | 2.868 | 2.422 |
+| core-v1-C-reserve-011 | producer | 74 | 978.076 | 967.938 |
+| core-v1-C-reserve-012 | producer | 74 | 1019.039 | 1009.594 |
+| core-v1-located-fit-g2r1 | fit | 2 | 452.362 | 435.922 |
+| core-v1-readout-admission-interface-v2 | infrastructure | 2 | 26.730 | 24.969 |
+| gear2-roberta-capacity-v1 | capacity | 7 | 18.414 | 15.594 |
+
+The four context/contribution producers pass full treatment census and saved-score replay; both contribution outputs reproduce byte for byte. Unavailable independent context memory remains explicit. The complete CPU contribution consumer reproduces exactly from its frozen producer population; the primary Qwen comparison remains unfinished. Detector logits reproduce their stored probabilities. The fitted location instrument is source/output-bound and retains its independent downstream evaluation. The GPU capacity block used 32 longest training and 32 longest development examples, all three epochs and trainable parameters, without opening reserve. Its 18.414 seconds imply a conservative 2.21-hour training estimate, or 3.31 hours with a 50% margin, inside the original four-hour bound; this is a forecast, not completion.
+
+The prospective literal-confidence correction adds a JSON-only system instruction and changes no scoring/parser/token bound. Both known-answer outputs are still invalid. Its calibration, reserve and comparison cards remain undispatched; this exhausts that interface correction, and independent likelihood work continues. Original failed v1 remains. Preflight-launch overhead is not metered as scientific model cost. All 871 prepared manifests, 915 source bindings and 371 input bindings verify, including conditional cards; 46.55 GiB host memory and 805.14 GiB disk remain. GPU temperature is 67 C under the current training load. Boost remains disabled and AC processor maximum remains 90%.
+
+**Means.** The core is built and running at the requested allocation. The separately prepared reserve extension remains conditional on complete core evaluation and its whole-family 45-hour guard; improved capacity does not open it early. Qwen retains actual-memory, native-identity and scientific admission checks after the current GPU job. Failed literal confidence, historically exposed human sources, component-limited uncertainty, unavailable independent memory, exact DAMASHA import and conditional Ghost transfer remain explicit limits. No new theory claim, p-value, deadline, cloud use or delegation. No tests harvested this pass. Four-hour supervision remains due at 23:42 PDT; Stage 12 remains stopped with its original Monday endpoint reconciliation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Can the approved studies run in Gear 2 with their evidence and admission boundaries intact? Outcome: **Infrastructure**. Result: Native concurrent execution and immutable evidence checks pass after a retained launcher repair. Project meaning: The week is prepared; incomplete comparisons remain visible. Next engineering obligation: Land complete scientific comparisons, reassess the conditional extension, and deliver the fixed Friday packet. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-2034 - further complete reserve producers preserved
 
 **Hypothesis.** Completed reserve producers preserve the full declared population and treatment census while eligible work advances in Gear 1.

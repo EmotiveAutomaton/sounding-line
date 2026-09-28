@@ -1,6 +1,6 @@
 # Stage 13 results
 
-The campaign is running in Gear 1. No final scientific verdict is available yet.
+The campaign is running in Gear 2. No final scientific verdict is available yet.
 Final packet: **October 2, 2026 at 05:00 PDT**. New science must fit before
 October 1 at 21:00 PDT. See the [execution handoff](../../docs/design/stage-13/EXECUTION.md)
 and [approved study source](../../docs/design/stage-13/README.md).
@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [GEAR2_READINESS_20260927.json](GEAR2_READINESS_20260927.json) | Concurrent native execution, complete binding audit, retained launcher/interface repairs and component replay |
 | [PRODUCERS_20260927_2034.json](PRODUCERS_20260927_2034.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_2015.json](PRODUCERS_20260927_2015.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_1958.json](PRODUCERS_20260927_1958.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |

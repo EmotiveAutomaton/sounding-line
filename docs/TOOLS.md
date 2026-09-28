@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-GEAR2-0927: source-bound concurrent dispatcher, native environment probe, preserved-worker handoff and preflight-stop guard validated; 28 checks and 21 locks pass. The original and sole repaired literal-confidence interfaces fail admission; dependent reserved work stays blocked. Training capacity and completed-component replay verify. [Receipt](../results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json).
+
 OPS-S13-PRODUCERS-0927-2034: complete context reserve 010 and contribution reserve 011 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2034.json).
 
 OPS-S13-PRODUCERS-0927-2015: complete context reserve 009 and contribution reserve 010 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2015.json).

@@ -3,11 +3,11 @@
 Prepared September 27, 2026. **Implementation approved by the subsequent September 27 instruction.**
 The [supplied brief](WEEK_RESEARCH_SOUNDING_LINE_2026-09-27.md) defines the experiments.
 This plan translates it into repository work; it adds no scientific verdict or new
-research proposal. The current owner instruction controls: Gear 1, rollout after source and consumer admission. No paid compute, recruitment, author contact, delegation or product release.
+research proposal. The current owner instruction controls: Gear 2, following source, consumer and resource admission. No paid compute, recruitment, author contact, delegation or product release.
 
 ## Implementation status - September 27
 
-The complete core is frozen and running in Gear 1. Source, consumer, real CPU reader,
+The complete core is frozen and running in Gear 2 after the explicit owner change. Source, consumer, real CPU reader,
 capacity and native queue admission checks are complete. See [execution handoff](EXECUTION.md)
 for the implemented modules, roster, measured timing, held capabilities and exact
 checkpoint obligations. The design below records the approved build contract;

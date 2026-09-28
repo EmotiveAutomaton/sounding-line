@@ -1114,3 +1114,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
   Retain this integration failure, restore the exact original shared bytes, and
   isolate scheduler behavior in a separate wrapper. Never relax the historical
   source guard to make an operational repair pass. (2026-09-08, OPS-S9-CLOSURE-1)
+
+- **Probe the child environment from the actual native coordinator.** A successor
+  launched through native Python inherited project packages through `sys.path`,
+  but its `sysconfig` still described the system installation. Recomputing child
+  paths from it caused missing-package preflights. Pin the project package path,
+  test imports from the exact native child before dispatch, and stop new launches
+  on unexpected preflight failures. Preserve failures and recover with explicit
+  new attempt/dependency identities; a parent-process unit test alone is inadequate.
+  (2026-09-27, OPS-S13-GEAR2-0927)

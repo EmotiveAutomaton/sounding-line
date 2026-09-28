@@ -7,8 +7,9 @@ native ownership live in `results/phase_2_4_stage_13/raw/`.
 
 ## Authority and fixed finish
 
-- Gear 1: one CPU worker, one numerical thread, below-normal priority. Preserve
-  boost disabled and maximum processor state 90%. No GPU dispatch or cloud use.
+- Gear 2 explicitly selected September 27: six CPU workers, one numerical thread
+  each, below-normal priority, and one GPU worker. Preserve boost disabled and
+  AC processor maximum 90%. No cloud use.
 - Friday **October 2 at 05:00 PDT** is the final deadline. No new science may run
   into the reporting reserve beginning **Thursday October 1 at 21:00 PDT**.
 - The fixed checkpoint helper records reporting-start, early-final-review at
@@ -22,16 +23,18 @@ native ownership live in `results/phase_2_4_stage_13/raw/`.
 ## Frozen roster and implemented consumers
 
 The core plan is `raw/plans/core-v1.json`, with 514 cards: 503 CPU and 11 GPU.
-The CPU Qwen consumer also waits for held GPU prerequisites. The native queue uses
-one-pass topological order and worker gate checks; all paths are registered before
-launch. The plan hash is
+The CPU Qwen consumer waits for admitted GPU prerequisites. The current successor
+uses dependency-aware concurrent dispatch with unchanged worker gate checks.
+`raw/plans/gear2-v2.json` preserves all original study cards, replacing only
+preflight-failed identities and their dependent paths. Its capacity card is
+infrastructure. All terminal paths and actual coordinator identity are registered. The original core plan hash is
 `dadc4e159d69f657e7b3c3a62862bacb57e6c0e1a14e6440f17d28d888168f78`.
 Source bundles are immutable. Root code edits after launch do not repair a frozen run.
 
 | Study family | Implemented scope | Execution disposition |
 |---|---|---|
-| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning/evaluation prepared and held |
-| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparisons queued; primary Qwen interface and main comparison held |
+| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning running after capacity admission |
+| B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen queued under resource/admission gates |
 | C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Own admission gates; unavailable independent memory stays explicit |
 | D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs, descriptive CPU consumers queued early |
 | ToMpathy bridge | Source-bound UTF-16 locations, independent goal support, exclusive processes, unknown values and lossless sidecar | Actual isolated capture/parser/matcher checked; no service rebuild or native side-panel claim |
@@ -48,7 +51,7 @@ source allocation, outcome rules or absolute end.
 
 ## Next operational actions
 
-1. Inspect `raw/queue/core-v1/OWNER.json`, actual native PID plus creation time,
+1. Inspect `raw/queue/gear2-v2/OWNER.json`, actual native PID plus creation time,
    `STATUS.json`, current job `DISPATCH.json` and fresh progress. Preserve unknown
    attempts until reconciled. Never kill by stale PID or restart beside a live owner.
 2. Completed cells: verify immutable outputs and cards; replay the applicable consumer;
@@ -62,17 +65,18 @@ source allocation, outcome rules or absolute end.
    identical selection/calibration, source pins and enough measured time for the
    **whole** extension. Its minimum guard is 45 hours before the reporting boundary.
    If it cannot fit, record time-deferred; do not cherry-pick favorable subblocks.
-5. A future explicit gear change can admit the prepared GPU jobs only after ownership,
-   headroom, deadline and native model admission are checked. The current coordinator
-   captured `--no-gpu` at startup, so changing an allocation file alone does not queue
-   those cards. Arrange a nonoverlapping scoped pass at a natural boundary; never use
-   the unrestricted historical gear launcher. Completed produces reenter without calls.
-6. Use the same frozen source capsule for a subsequent queue process. The entry sets
-   `SL_STAGE13_REPO` to the repository, adds the project venv packages and the capsule
-   to Python's path, appends the repository's runners path for existing read-only
-   dependencies, and calls `runners.stage13.queue --plan <exact plan>` with the native
-   interpreter. Validate every plan/card/source pin before launch and register its
-   actual OWNER/EXIT/FAILED with the existing watcher. Root code alone is not the capsule.
+5. The owner has changed to Gear 2. The serial coordinator was retired without
+   stopping its active worker, which completed. The first concurrent launcher had
+   26 missing-package preflights and no scientific dispatch. Original records remain;
+   its successor verifies exact environment imports before dispatch and stops new
+   launches on unexpected preflight failures. Reconciled cards/dependencies use
+   new identities; original source, inputs, scores and gates remain unchanged.
+6. The sole literal-confidence interface correction is frozen separately and fails
+   its original known-answer admission. Its dependent work remains blocked and no
+   further interface retry is authorized. The main queue continues independent
+   likelihood work. Training capacity implies 2.21 hours, or 3.31 with a 50% margin,
+   within its original four-hour guard. Qwen must recheck actual free memory after
+   the current GPU owner exits; do not lower its frozen floor or evict other apps.
 7. At reporting-start, assemble complete comparisons and explicit deficits, costs,
    source units/calibration, examples, pursuit/warrant ledgers and at most three
    consequential questions. Deliver one final curator packet by Friday 05:00 PDT.
@@ -87,12 +91,12 @@ location truth. Coarse window contribution masks are not full histories or menta
 The exact released DAMASHA architecture import failed because `torchcrf` is absent;
 no checkpoint forward/reproduction is claimed. Do not install into the live environment
 or replace it silently. Independent-memory requirements can be unavailable rather
-than repaired with a same-source duplicate. Primary Qwen and the full trained rival
-remain missing until actually admitted and completed under authorized resources.
+than repaired with a same-source duplicate. Primary Qwen remains missing until actually admitted and completed; full tuning
+is running and is not yet a completed comparator.
 
 The native queue and immutable-output regressions, known-answer scoring and location
 controls, complete detector fit/calibration/reserve rehearsal, and exporter checks
-pass: 23 focused tests. All 21 original locks pass. Preserve the earlier failed source,
+pass: 28 focused tests, including actual native child imports and adoption. All 21 original locks pass. Preserve the earlier failed source,
 consumer and browser harness attempts as implementation history.
 
 [Rollout receipt](../../../results/phase_2_4_stage_13/ROLLOUT.json) and

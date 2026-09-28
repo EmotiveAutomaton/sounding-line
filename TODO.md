@@ -2,6 +2,7 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-GEAR2-0927: requested Gear 2 running with six CPU workers and one GPU worker; native launcher repair, all-source audit, capacity and new completed-component write-through recorded. Original failures preserved.
 - [x] OPS-S13-PRODUCERS-0927-2034: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
 - [x] OPS-S13-PRODUCERS-0927-2015: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
 - [x] OPS-S13-PRODUCERS-0927-1958: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
@@ -20,7 +21,7 @@
 - [x] OPS-S13-PRODUCERS-0927-1644: completed context calibration and contribution development producers fully landed with replay and unavailable-memory accounting. Frozen eligible work continues; scientific comparisons remain pending.
 - [x] OPS-S13-CALIBRATION-0927-1632: complete context and contribution calibration producers fully recorded with immutable bindings, replay and unavailable-memory accounting. Continue the frozen consumers; no new scientific claim.
 - [x] L451-L454 / OPS-S13-EARLY-CELLS-0927: full ScholaWrite and retained-record consumers landed with replay and evidence limits; completed producers recorded.
-- [ ] OPS-S13-READOUT-REPAIR: at a serial boundary, assess the one permitted development interface correction for capped SmolLM probability elicitation. Preserve failed v1 and its costs; no reserved data or widening admission. Independent context likelihood work continues.
+- [x] OPS-S13-READOUT-REPAIR: the sole prospective system-instruction correction also fails the original known-answer gate. Retain both invalid interfaces and all costs; calibration/reserve/comparison remain blocked. Correction exhausted; independent context likelihood work continues.
 - [ ] L451/L452/L454: final packet must retain the unmatched full-operation/diff evidence, missing strong ScholaWrite rivals, and absent realization interaction; no matched reconstruction claim from these diagnostic cells.
 
 - [x] File the supplied brief, organize historical documentation/worktrees, refresh current authority and prepare the [implementation plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md).
@@ -32,7 +33,7 @@
 - [x] OPS-S13-ROLLOUT-0927: frozen complete-block roster, CPU capacity, actual Gear 1 launch, source/output replay and native monitoring verified. Full infrastructure write-through complete.
 - [ ] Land complete Stage 13 cells internally; keep unfinished per-artifact scores out of chat. See [execution handoff](docs/design/stage-13/EXECUTION.md).
 - [ ] At the core exit or four-hour health check, re-estimate whether the entire prepared conditional reserve extension fits before Thursday at 21:00 PDT; retain its 45-hour minimum guard. Do not submit it before the complete core reserve consumer.
-- [ ] Keep full tuning and Qwen cards held until the owner changes gear; then inspect native ownership, resources, complete-block time and admission before scoped submission.
+- [x] Owner changed to Gear 2; full tuning is running after native ownership, complete-recipe capacity and time admission. Qwen remains queued behind the sole GPU lane, with fresh memory and scientific admission gates.
 - [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
 - [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
 - [ ] Preserve the assembled Stage 12 final packet and its endpoint reconciliation due September 28 at 06:17 PDT, with independent four-hour supervision. No restart of its expired allocation.

@@ -1,8 +1,10 @@
 # Stage 13: detection and located contribution
 
-Approved September 27, 2026. The current allocation is **Gear 1**: serial,
-one numerical CPU thread, below-normal priority, no GPU dispatch. Full tuning
-and sustained Qwen inference are prepared but held until explicit reallocation.
+Approved September 27, 2026. The owner subsequently selected **Gear 2**: six
+CPU workers with one numerical thread each, below-normal priority, and one GPU
+worker. `dispatch.py` runs the frozen worker cards after a native environment
+probe; the active immutable plan is `raw/plans/gear2-v2.json`. Full tuning runs
+after measured capacity admission; Qwen retains its memory and scientific gates.
 No cloud use is authorized. Preserve all Stage 11/12 source capsules and clocks.
 
 The absolute final deadline is **October 2, 2026, 05:00 America/Los_Angeles**

@@ -1,9 +1,9 @@
-# Stage 13 - approved implementation, Gear 1
+# Stage 13 - approved implementation, Gear 2
 
 The latest September 27 instruction approves the entire implementation plan.
-Gear 1 applies now. Finish October 2 at 05:00 PDT; stop new science before
+The subsequent explicit gear instruction selects Gear 2 now. Finish October 2 at 05:00 PDT; stop new science before
 October 1 at 21:00 PDT for the eight-hour reporting reserve. These absolute
-bounds supersede the source rolling clock and Gear 2. No paid compute.
+bounds supersede the source rolling clock. Resource changes do not move them. No paid compute.
 
 - [Implementation plan](IMPLEMENTATION_PLAN.md): approved modules, dependencies,
   acceptance checks, resource limits and rollout sequence.

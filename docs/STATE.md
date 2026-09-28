@@ -1,5 +1,20 @@
 # STATE: the agent's operational file
 
+## September 27, 21:21 PDT: Gear 2 running; week readiness verified
+
+The authoritative coordinator is `raw/queue/gear2-v2/`, using the immutable
+`raw/plans/gear2-v2.json`: six CPU workers and one GPU worker. The original
+serial worker completed naturally. Twenty-six launch preflights failed before
+scientific dispatch; exact corrected successors and all original failures remain.
+The sole literal-confidence interface correction also fails; its dependent
+calibration/reserve work remains blocked. Independent likelihood work continues.
+Completed producers and CPU contribution-consumer integrity are fully recorded;
+the whole scientific comparisons remain unfinished. All prepared bindings verify.
+The 181-card extension remains conditional on the core and whole-family time guard.
+Health remains due at 23:42 PDT. Science cutoff Thursday 21:00, early review Friday
+03:00 and final Friday 05:00 PDT are unchanged. Stage 12 stays stopped.
+[Readiness receipt](../results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json).
+
 ## September 27, 20:36 PDT: reserve producers landed
 
 Context reserve 010 and contribution reserve 011 pass complete bindings, coverage
