@@ -6,12 +6,16 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 ## Stage 13: running in Gear 2
 
 The owner explicitly selected **Gear 2** on September 27. Six CPU workers and one
-GPU training worker run under a source-bound successor. All core studies and their
+GPU comparison worker run under a source-bound successor; full training is complete.
+All core studies and their
 consumers are built; each retains its scientific and resource gates. The original
 514-card core is preserved alongside one infrastructure capacity card. A repaired
 native launcher uses new attempt identities and retains every preflight failure.
 The small literal-confidence interface failed its permitted correction, so those
-reserved tests remain blocked. Independent likelihood studies continue.
+reserved tests remain blocked. The complete likelihood context consumer replays,
+but token projection erased the raw/linked/duplicate memory distinction; that
+contrast is void and its bounded development correction remains pending (L455).
+Independent detector studies continue.
 
 Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.
 The 181-card reserve extension is fully prepared but conditional on complete core

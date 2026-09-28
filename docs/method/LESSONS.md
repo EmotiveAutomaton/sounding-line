@@ -597,6 +597,16 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **Validate interventions after the actual serialization and tokenizer projection.**
+  Different records and mode names do not prove different model inputs. Stage 13
+  raw retrieval, linked operations and duplicated memory all retained the same long
+  endpoint prefix; the final memory token cap erased every distinguishing field.
+  Every case/view prompt collided although source bindings, complete treatment
+  census and score replay passed. Check both distinct realized treatments and the
+  survival of their intended evidence before admission. Preserve original outputs
+  and mark the unrealized contrast void; a correction needs a separate development
+  version and cannot restore untouched status to exposed reserve cases. (L455)
+
 - **A fixed seed and zero temperature do not prove request-repeat stability.** In
   the Stage 11.1 account diagnostic, twelve complete requests were identical to
   their originals but two outputs changed, including one becoming invalid. The

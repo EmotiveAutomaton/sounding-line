@@ -2,6 +2,9 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] L455 / OPS-S13-COMPLETIONS-0927-2146: complete context consumer, final context producer, new detector producers and full training recorded; actual rendering audit voids raw/linked/duplicate memory distinction.
+- [ ] L455: use the already approved bounded development implementation-correction allowance to preserve and verify condition-specific memory content after all serialization/tokenization. Keep original v1 and reserve exposure; do not rerun reserved rows automatically or claim independent-memory/readout success. Admit any complete successor only after development realization checks, source/time/resource gates and reconciliation of the per-family repair allowance.
+
 - [x] OPS-S13-GEAR2-0927: requested Gear 2 running with six CPU workers and one GPU worker; native launcher repair, all-source audit, capacity and new completed-component write-through recorded. Original failures preserved.
 - [x] OPS-S13-PRODUCERS-0927-2034: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
 - [x] OPS-S13-PRODUCERS-0927-2015: context/contribution reserve producers fully recorded with bindings, census and replay. Complete scientific consumers remain pending; no tuning or new claim.
@@ -33,7 +36,7 @@
 - [x] OPS-S13-ROLLOUT-0927: frozen complete-block roster, CPU capacity, actual Gear 1 launch, source/output replay and native monitoring verified. Full infrastructure write-through complete.
 - [ ] Land complete Stage 13 cells internally; keep unfinished per-artifact scores out of chat. See [execution handoff](docs/design/stage-13/EXECUTION.md).
 - [ ] At the core exit or four-hour health check, re-estimate whether the entire prepared conditional reserve extension fits before Thursday at 21:00 PDT; retain its 45-hour minimum guard. Do not submit it before the complete core reserve consumer.
-- [x] Owner changed to Gear 2; full tuning is running after native ownership, complete-recipe capacity and time admission. Qwen remains queued behind the sole GPU lane, with fresh memory and scientific admission gates.
+- [x] Owner changed to Gear 2; full tuning completed and its fixed downstream evaluation is finalizing. Qwen remains queued behind the sole GPU lane, with fresh memory and scientific admission gates.
 - [ ] Preserve explicit unavailable DAMASHA, human source/context limits and conditional Ghost admission. No substitute claim or sibling-repository work.
 - [ ] October 1 at 21:00 PDT: stop new science and assemble the final packet; early review October 2 at 03:00, deliver by 05:00 PDT.
 - [ ] Preserve the assembled Stage 12 final packet and its endpoint reconciliation due September 28 at 06:17 PDT, with independent four-hour supervision. No restart of its expired allocation.

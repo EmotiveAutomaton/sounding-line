@@ -33,9 +33,9 @@ Source bundles are immutable. Root code edits after launch do not repair a froze
 
 | Study family | Implemented scope | Execution disposition |
 |---|---|---|
-| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning running after capacity admission |
+| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core running; full RoBERTa-base tuning complete, fixed evaluation finalizing |
 | B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen queued under resource/admission gates |
-| C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Own admission gates; unavailable independent memory stays explicit |
+| C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Complete likelihood consumer replayed; raw/linked/duplicate memory contrast VOID after token projection (L455); independent memory unavailable and literal readout failed |
 | D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs, descriptive CPU consumers queued early |
 | ToMpathy bridge | Source-bound UTF-16 locations, independent goal support, exclusive processes, unknown values and lossless sidecar | Actual isolated capture/parser/matcher checked; no service rebuild or native side-panel claim |
 | Conditional transfer | Existing native Ghost export identified read-only | No Stage 13 target/evidence admission yet; no sibling edits, new world or queue |
@@ -92,7 +92,12 @@ The exact released DAMASHA architecture import failed because `torchcrf` is abse
 no checkpoint forward/reproduction is claimed. Do not install into the live environment
 or replace it silently. Independent-memory requirements can be unavailable rather
 than repaired with a same-source duplicate. Primary Qwen remains missing until actually admitted and completed; full tuning
-is running and is not yet a completed comparator.
+is complete but its downstream evaluation is not yet a landed comparator.
+The original context memory-type contrast is void because its rendered prompts
+are identical. Preserve the frozen records and reserve exposure; a bounded
+development correction must verify the actual tokenized treatment before any new
+complete block is admitted. Existing record census and score replay did not check
+this manipulation (L455).
 
 The native queue and immutable-output regressions, known-answer scoring and location
 controls, complete detector fit/calibration/reserve rehearsal, and exporter checks

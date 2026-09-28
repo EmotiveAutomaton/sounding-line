@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [CONTEXT_COMPLETE_20260927.json](CONTEXT_COMPLETE_20260927.json) | Complete context/calibration replay, void rendered-memory manipulation and further producer/training integrity (L455) |
 | [GEAR2_READINESS_20260927.json](GEAR2_READINESS_20260927.json) | Concurrent native execution, complete binding audit, retained launcher/interface repairs and component replay |
 | [PRODUCERS_20260927_2034.json](PRODUCERS_20260927_2034.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |
 | [PRODUCERS_20260927_2015.json](PRODUCERS_20260927_2015.json) | Complete reserve producer bindings, census and replay; Gear 1 continuation |

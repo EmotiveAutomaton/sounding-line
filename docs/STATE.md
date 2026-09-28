@@ -1,5 +1,19 @@
 # STATE: the agent's operational file
 
+## September 27, 21:52 PDT: context validity defect recorded; Gear 2 advances
+
+Fourteen snapshotted completions are fully recorded. The complete context consumer
+and calibration reproduce exactly, but raw, linked and duplicate memory become
+identical after token projection, so that contrast is VOID (L455). Preserve all
+outputs, costs and the exposed reserve; bounded development correction is pending.
+Other context results are descriptive, with one component per partition, unavailable
+independent memory and a failed literal-confidence comparison. Full RoBERTa training
+is complete; its GPU evaluation is finalizing output hashes. Six CPU producers and
+that worker have verified native identities and CPU advance. The current roster
+contains 67 completed, two retained failures, one blocked, 438 pending and seven
+running cards. Four-hour health remains 23:42 PDT; all fixed deadlines and Stage 12
+shutdown remain. [Receipt](../results/phase_2_4_stage_13/CONTEXT_COMPLETE_20260927.json).
+
 ## September 27, 21:21 PDT: Gear 2 running; week readiness verified
 
 The authoritative coordinator is `raw/queue/gear2-v2/`, using the immutable

@@ -9,6 +9,82 @@ ran it.
 
 ---
 
+### L455 - context consumer replayed; memory-type contrast void after token projection
+
+**Hypothesis.** Useful context and evidence-linked memory improve a bounded reader's recorded-action forecasts without mistaking repetition or misleading assertions for reliable support.
+
+**METHOD.** On historically exposed CoAuthor records, score four recorded handling actions plus unknown with the frozen GPT-2-medium conditional-likelihood reader. Cross two evidence views with ten declared context/memory conditions; fit each available condition's temperature on eight separate calibration episodes and evaluate fifty-six reserve episodes, retaining four development episodes separately. Verify all source/input/output bindings, full case/treatment censuses, source separation, memory selection, native candidate-likelihood normalization and proper losses; reconstruct the complete consumer exactly. Reconstruct the actual tokenizer-limited prompts to validate treatment realization. No new model calls or fitted scoring changes.
+
+**Found.** The memory-type contrast is **VOID**, not a null: raw retrieval, linked memory and duplicate memory become the same prompt in all 136 case/view pairs across calibration, development and reserve. Their serialized inputs differ, but a common long endpoint precedes the distinguishing fields; the first-100-token projection removes those differences. Every reconstructed prompt matches its saved hash. All outputs and costs remain. Earlier producer receipts correctly checked integrity, declared treatment census and numerical replay; those checks did not establish distinct rendered treatments. This landing corrects any broader readiness inference from them.
+
+The complete consumer reproduces exactly across fifteen development/reserve blocks and two calibration blocks. It contains 1,200 development/reserve treatment records, including 120 unavailable independent-memory records; calibration adds 160 records, including sixteen unavailable. Each partition has only one connected source component. All reserve means below therefore lack a defensible population interval. These are human process records read by one named model, not human-reader validation, independently known mental goals or naturally occurring public context.
+
+The table preserves the complete reserve comparison. Each row has 56 episodes in one component. A means the bounded endpoint alone; C adds bounded prior text and offered alternatives. Temperature is fitted only on calibration. Log loss is the negative logarithm of assigned truth probability; Brier loss is summed squared probability error; lower is better for both. Accuracy is the fraction whose highest-probability action matches the record. Raw and calibrated losses are separate. Collapsed rows are retained duplicates of one realized prompt, not independent memory interventions.
+
+| View | Declared condition | Temperature | Raw log loss | Calibrated log loss | Raw Brier loss | Calibrated Brier loss | Accuracy |
+|---|---|---|---|---|---|---|---|
+| A | Duplicated memory (collapsed) | 2 | 1.9751 | 1.6504 | 1.0215 | 0.8368 | 0.1071 |
+| A | Irrelevant context | 2 | 1.7374 | 1.5706 | 0.8779 | 0.7915 | 0.1429 |
+| A | Linked memory (collapsed) | 2 | 1.9751 | 1.6504 | 1.0215 | 0.8368 | 0.1071 |
+| A | Misleading context | 1 | 1.5356 | 1.5356 | 0.7837 | 0.7837 | 0.2500 |
+| A | One candidate omitted | 4 | 9.3977 | 3.2683 | 1.0148 | 0.8844 | 0.3571 |
+| A | No memory | 1.5 | 1.5007 | 1.4586 | 0.6895 | 0.7073 | 0.5714 |
+| A | Prior answer text | 2 | 1.3495 | 1.4181 | 0.7073 | 0.7257 | 0.3929 |
+| A | Raw retrieval (collapsed) | 2 | 1.9751 | 1.6504 | 1.0215 | 0.8368 | 0.1071 |
+| A | Wrong-location context | 1 | 1.3977 | 1.3977 | 0.6936 | 0.6936 | 0.4821 |
+| C | Duplicated memory (collapsed) | 2 | 2.1107 | 1.7023 | 1.0901 | 0.8623 | 0.1071 |
+| C | Irrelevant context | 2 | 1.8220 | 1.5956 | 0.9524 | 0.8105 | 0.1429 |
+| C | Linked memory (collapsed) | 2 | 2.1107 | 1.7023 | 1.0901 | 0.8623 | 0.1071 |
+| C | Misleading context | 1.5 | 1.6345 | 1.5516 | 0.8447 | 0.7916 | 0.1964 |
+| C | One candidate omitted | 4 | 9.5096 | 3.2866 | 1.0950 | 0.8985 | 0.2679 |
+| C | No memory | 1.5 | 1.7067 | 1.5846 | 0.8255 | 0.7848 | 0.3036 |
+| C | Prior answer text | 2 | 1.5091 | 1.4855 | 0.8100 | 0.7632 | 0.1786 |
+| C | Raw retrieval (collapsed) | 2 | 2.1107 | 1.7023 | 1.0901 | 0.8623 | 0.1071 |
+| C | Wrong-location context | 1 | 1.5137 | 1.5137 | 0.7804 | 0.7804 | 0.2500 |
+
+Independent memory is unavailable for every episode because the training pool contains one connected component. The omitted-candidate condition removes the true action in seventeen reserve episodes per view; those attempts remain scored. The frozen probability floor and temperature transformation give omitted slots small positive calibrated support, so the lower calibrated loss cannot mean recovery of omitted evidence. Confidence-based selection retains at most thirteen episodes at 0.5 confidence in any available condition and none at 0.7 or 0.9; full coverage/accuracy points remain in the receipt. Unavailable responses remain explicit in roster coverage; the consumer supplies no all-method operational utility combining them with valid scores.
+
+Calibration does not uniformly improve both losses, and wrong-location or misleading assertions can improve some descriptive losses. Those observations do not establish truth-sensitive context use or a general method ranking. The separate literal-confidence interface and its sole prospective correction fail admission, so the requested paired readout comparison remains missing. The complete context/calibration producers and consumer cost 18518.993 summed wall seconds and 17982.875 CPU seconds; summed worker wall time is not elapsed campaign time. Their likelihood-reader admission costs remain in its prior receipt. No p-value or new population inference is introduced.
+
+**Means.** Preserve the descriptive named-reader comparison and all failed/unavailable controls. The raw-versus-linked-versus-duplicate memory question remains unanswered because its manipulation vanished. Retain the original source and exposed reserve; apply any already authorized implementation correction prospectively on development with actual rendered-treatment checks before admitting a separately identified complete block. Do not mutate or repair the existing scientific outputs. Other frozen study families continue, and the final curator packet must carry this deficit. No tests harvested from this operational wake.
+
+**Curator roll-up.** Theory group: bounded reading and calibration. Question: Can reliable context or structured memory improve recorded-action support without treating repetition as fresh evidence? Outcome: **Infrastructure**. Result: The completed consumer replays, but token projection erased the memory-type manipulation. Project meaning: Descriptive context evidence survives while structured-memory and readout superiority remain unlicensed. Next engineering obligation: Preserve this deficit and admit any bounded prospective correction on development before further use. Public claim: unchanged. Curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_13/CONTEXT_COMPLETE_20260927.json).
+
+---
+
+### OPS-S13-COMPLETIONS-0927-2146 - completed detector producers and full-model training recorded
+
+**Hypothesis.** Gear 2 can advance independent approved studies while preserving every completed producer and fit, even when a different scientific contrast fails validity.
+
+**METHOD.** Inspect all unacknowledged completions at the 21:46 PDT cutoff. Verify immutable manifests, prerequisites and every output/source/input binding; check full source censuses, saved-row equality, surface features and admitted model identity. Replay e5 probabilities from saved logits, and check causal features and token visibility for finite, bounded values without claiming a repeated model forward. Verify the full training recipe, all epochs, development-only checkpoint selection and saved weights. Inspect actual native identities, priority, CPU/output advance and the loaded watcher.
+
+The table identifies the completed jobs and verified output counts. Wall and CPU seconds are separate costs, not scientific performance scores. Context details and its invalid manipulation are recorded in L455 above.
+
+| Completed job | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|
+| core-v1-A-train-002-gpt2-medium-logrank-g2r1 | 258 | 1396.004 | 1345.453 |
+| core-v1-A-train-003-gpt2-medium-logrank-g2r1 | 258 | 1395.186 | 1344.859 |
+| core-v1-A-train-004-gpt2-medium-logrank-g2r1 | 258 | 1399.039 | 1383.328 |
+| core-v1-A-train-005-gpt2-medium-logrank-g2r1 | 258 | 1427.942 | 1376.219 |
+| core-v1-A-train-006-gpt2-medium-logrank-g2r1 | 258 | 1398.379 | 1348.891 |
+| core-v1-A-train-007-e5-g2r1 | 258 | 94.986 | 89.891 |
+| core-v1-A-train-008-e5-g2r1 | 258 | 93.540 | 88.406 |
+| core-v1-A-train-009-e5-g2r1 | 258 | 96.022 | 91.125 |
+| core-v1-A-train-010-e5-g2r1 | 258 | 105.820 | 97.672 |
+| core-v1-A-train-011-e5-g2r1 | 258 | 98.178 | 93.000 |
+| core-v1-A-train-012-e5-g2r1 | 258 | 98.185 | 92.969 |
+| core-v1-C-reserve-013-g2r1 | 74 | 1429.902 | 1379.922 |
+| core-v1-C-summary-g2r1 | 2 | 2.161 | 1.766 |
+| core-v1-roberta-training-g2r1 | 7 | 1634.615 | 1581.766 |
+
+**Found.** All 14 snapshotted completions verify against 353 frozen source and 31 input bindings. Full RoBERTa training used 13,080 training and 13,808 development rows, all parameters trainable and three epochs; the checkpoint with minimum development loss is preserved, with reserve unopened by training. Its downstream GPU comparison is still finalizing integrity and is not landed as complete. At 21:52 PDT six CPU producers and that GPU-card worker have verified native identities and CPU advance; the GPU lock has been released after evaluation. Lack of a new prediction file during final output hashing is not a stalled model call. The current roster has 67 completed, two retained failed preflights, one blocked, 438 pending and seven running cards.
+
+**Means.** Independent work continues in Gear 2. Preserve the separate memory-contrast defect, failed readout, unavailable independent memory and incomplete primary comparisons. Remaining jobs and the conditional extension retain their original gates and fixed finish. The watcher is fresh with verified loaded source/native identity; the first three completion events have recorded delivery, and eleven additional events were inspected while pending. Full write-through precedes all ACKs. The independent health deadline remains 23:42 PDT, and Stage 12 stays stopped. No research, cloud calls, delegation or new tests were commissioned.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are completed producers and training intact while eligible work advances? Outcome: **Infrastructure**. Result: Completed outputs, source bindings and native continuation verify. Project meaning: Training completion does not substitute for the complete reserved comparison. Next engineering obligation: Land complete consumers, preserve invalid contrasts and inspect conditional continuation at existing boundaries. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_13/CONTEXT_COMPLETE_20260927.json).
+
+---
+
 ### OPS-S13-GEAR2-0927 - explicit Gear 2 transition, validity audit and retained repairs
 
 **Hypothesis.** The already approved Stage 13 roster can run concurrently without losing current work, changing scientific rules, bypassing failed admissions or moving Friday's finish.
@@ -9587,6 +9663,8 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Stage 13 context-memory realization (L455).** Actual tokenizer reconstruction shows raw retrieval, linked memory and duplicate memory are identical in every case/view; that contrast is void. Source/census/score integrity did not establish realized treatment distinction. Other context means are descriptive with one component per partition, independent memory unavailable, no all-method utility over unavailable responses, and the paired literal-confidence comparison blocked by failed admission. Preserve original outputs and exposed reserve; any bounded correction needs a new development admission.
 
 **Stage 12 instruction-realization scope (L449).** All views name the tested feature, and the trace view explicitly supplies the exact checker answer. The frozen consumer omits the requested/counterfactual by present/absent interaction and a separate cheap text/diff rival. The assisted benefit cannot answer the instruction-echo question or establish unassisted intention recovery; the string-rule reference and model-generated substrate remain explicit.
 

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+L455 / OPS-S13-COMPLETIONS-0927-2146: full context consumer and calibration replay pass, but actual tokenizer reconstruction proves raw/linked/duplicate memory prompts identical throughout the roster; that manipulation is VOID. All snapshotted producers and full training verify; reserved evaluation remains separate. Prior integrity checks did not validate rendered treatment distinction. [Receipt](../results/phase_2_4_stage_13/CONTEXT_COMPLETE_20260927.json).
+
 OPS-S13-GEAR2-0927: source-bound concurrent dispatcher, native environment probe, preserved-worker handoff and preflight-stop guard validated; 28 checks and 21 locks pass. The original and sole repaired literal-confidence interfaces fail admission; dependent reserved work stays blocked. Training capacity and completed-component replay verify. [Receipt](../results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json).
 
 OPS-S13-PRODUCERS-0927-2034: complete context reserve 010 and contribution reserve 011 pass bindings, census and replay; unavailable memory retained. Native Gear 1 continuation verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_2034.json).
