@@ -9,6 +9,32 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0928-0429 - four-hour health and completed detector evidence
+
+**Hypothesis.** Completed detector evidence remains intact and the authorized queue continues within its resource, ownership and fixed-finish constraints.
+
+**METHOD.** Verify all frozen cards, source/input bindings and original-card preservation; inspect every output, source/saved-row census, admitted identity, surface and token feature in the five completed batches. Replay saved features and e5 probabilities without repeating model forwards. Inspect actual native coordinator/worker/checkpoint identities, CPU advance, fresh outputs, worker thread environments, held kernel locks, GPU admission, host/disk capacity and power settings. Verify watcher identity, loaded sources, registrations and actual health delivery. Recalculate remaining CPU work from the slowest observed per-row times with a 50% margin, six-worker allocation and dependency depth; reconsider the prepared extension under its existing complete-consumer gate.
+
+The table records complete batches: rows count source examples, outputs count hash-verified files, and wall/CPU seconds retain separate incurred costs. These are coverage and cost records, not scientific performance scores.
+
+| Completed job | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| core-v1-A-development-043-gpt2-medium-logrank | 256 | 258 | 1811.724 | 1746.438 |
+| core-v1-A-development-044-gpt2-medium-logrank | 256 | 258 | 1744.094 | 1681.531 |
+| core-v1-A-development-048-e5 | 256 | 258 | 129.084 | 121.906 |
+| core-v1-A-development-049-e5 | 256 | 258 | 126.477 | 119.656 |
+| core-v1-A-development-050-e5 | 256 | 258 | 127.582 | 121.203 |
+
+**Found.** All five producers pass coverage and saved-feature replay. All 518 manifests, 556 source bindings and 281 input bindings verify; the 515 original cards remain unchanged. At 04:29 PDT the queue has 250 completed, six running, 249 pending, three retained failures and ten blocked cards. All six CPU workers advance with fresh output, below-normal priority and single-thread numerical environments. Both kernel locks are held, checkpoint helpers are live and fresh, no GPU lock is present, and no orphaned attempt or new monitor failure appears. There are 110 dependency-ready CPU cards; the Qwen correction is dependency-ready but resource-held. Host memory has 46.5 GiB free and disk 798.9 GiB. GPU memory has 6113 MiB free against the unchanged 8024 MiB floor. AC maximum remains 90% with boost disabled. No recovery is required.
+
+The CPU core estimate is 21.8 elapsed hours against 88.5 hours before Thursday's reporting reserve. This excludes resource-held GPU work and is an estimate, not a guarantee of every comparison. The prepared extension's 45-hour minimum appears to fit afterward, but its complete core consumer is absent; it remains unsubmitted pending that consumer and fresh whole-family admission. The sole watcher delivered this health event on its first attempt, 21.9 seconds after its due time. Three producer events were delivered and two were inspected before delivery. The old uncertain notification remains retained; no new delivery failure is present. ACK after this write-through rearms the independent four-hour clock. The legacy September queue log remains historical, not the current scheduler.
+
+**Means.** Continue frozen independent CPU work in Gear 2. Keep Qwen behind its original resource floor; preserve its failed admission, the void memory-type contrast, exhausted literal-confidence correction and missing comparisons. Corrected memory development remains L456 and opens no reserve replay. Stage 12 science stays stopped with endpoint reconciliation due at 06:17 PDT; Stage 13 retains the Thursday 21:00 reporting boundary and Friday 05:00 final packet. No tests harvested, cloud use, new research or delegation this pass. Scientific comparisons remain unfinished and their per-artifact scores are not reported. The prior external-push rejection remains unresolved; records are kept locally and this wake triggers no retry.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the frozen queue preserve evidence and remain healthy within its authorized bounds? Outcome: **Infrastructure**. Result: Complete producer evidence and the four-hour operational inspection verify. Project meaning: Independent work can continue while existing failed and missing comparisons stay explicit. Next engineering obligation: Land complete consumers, reconsider conditional whole-family admission at its existing gate and perform scheduled endpoint inspections. Public claim: unchanged. Curator decision required: No scientific decision; the separate publication approval request remains pending. Detail: [receipt](results/phase_2_4_stage_13/HEALTH_20260928_0429.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0928-0419 - completed detector evidence recorded
 
 **Hypothesis.** Completed detector batches retain full source coverage and replayable evidence while authorized independent work advances.

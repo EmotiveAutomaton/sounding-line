@@ -1,5 +1,19 @@
 # STATE: the agent's operational file
 
+## September 28, 04:29 PDT: four-hour health inspection complete
+
+Five complete detector producers pass bindings, coverage and saved-feature replay.
+Queue: 250 completed, six running, 249 pending, three retained failures and ten blocked.
+Native ownership, fresh progress, single-thread limits, held locks, checkpoint helpers,
+power settings and watcher delivery verify. No recovery required. Qwen remains
+resource-held at its unchanged GPU floor. The CPU core estimate is 21.8 hours against
+88.5 hours to the reporting reserve; this excludes held GPU work. The prepared
+extension remains unsubmitted until the complete core consumer and a fresh whole-family
+capacity check. Health ACK rearms four hours later. Stage 12 endpoint remains due at
+06:17 PDT; Stage 13's Thursday reporting cutoff and Friday 05:00 finish are unchanged.
+Automatic approval review's prior push rejection remains unresolved; records stay local.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_0429.json).
+
 ## September 28, 04:19 PDT: complete detector producers recorded
 
 The completed batch passes full bindings, coverage and saved-feature replay.
