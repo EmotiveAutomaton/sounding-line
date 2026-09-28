@@ -1,5 +1,14 @@
 # STATE: the agent's operational file
 
+## September 27, 18:46 PDT: further reserve producers landed
+
+Context reserve 004 and contribution reserve 005 pass complete bindings, census
+and replay. Unavailable independent memory is retained. Context reserve 005 is
+running in Gear 1 with verified native identity, below-normal priority and fresh
+progress. Complete scientific consumers and the existing readout correction remain
+pending. Health remains 19:30 PDT; fixed reporting deadlines are unchanged.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1844.json).
+
 ## September 27: Stage 12 final evidence packet assembled
 
 The reporting-start checkpoint has actual delivery and full integrity write-through.
