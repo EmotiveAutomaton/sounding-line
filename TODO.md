@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0928-0527: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
+
 - [x] OPS-S13-PRODUCERS-0928-0524: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
 
 - [x] OPS-S13-PRODUCERS-0928-0521: two completed detector producers fully recorded with bindings, coverage and saved-feature replay. Independent CPU work advances; Qwen remains resource-held.
