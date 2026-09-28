@@ -1,5 +1,14 @@
 # STATE: the agent's operational file
 
+## September 27, 17:08 PDT: development and reserve producers landed
+
+Context development 000 and contribution reserve 000 pass full bindings, coverage
+and replay. The context reserve worker is running with verified native identity,
+below-normal priority and fresh progress in Gear 1. Complete scientific consumers
+remain pending; the failed readout and existing repair obligation are unchanged.
+Health remains due at 19:30 PDT, and both stages' reporting deadlines remain fixed.
+[Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1706.json).
+
 ## September 27, 16:48 PDT: next calibration and development producers landed
 
 Context calibration 001 and contribution development 000 pass complete integrity

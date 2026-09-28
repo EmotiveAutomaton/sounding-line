@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260927_1706.json](PRODUCERS_20260927_1706.json) | Complete development/reserve producer bindings, coverage and replay with context reserve work continuing |
 | [PRODUCERS_20260927_1644.json](PRODUCERS_20260927_1644.json) | Further calibration/development producer coverage, replay and verified successor progress |
 | [CALIBRATION_20260927_1632.json](CALIBRATION_20260927_1632.json) | Complete calibration producer coverage, replay, preserved unavailable memory and native Gear 1 continuation |
 | [READOUT_PREFLIGHT_20260927.json](READOUT_PREFLIGHT_20260927.json) | Failed admission blocks both paired-readout successors before model dispatch; preflight timing remains unmetered |

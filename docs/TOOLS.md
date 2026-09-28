@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0927-1706: context development 000 and contribution reserve 000 pass immutable bindings, complete treatment census and semantic replay; contribution output reproduces byte for byte. Unavailable independent memory remains explicit. Native context reserve progress verifies in Gear 1; complete scientific consumers remain pending. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1706.json).
+
 OPS-S13-PRODUCERS-0927-1644: context calibration 001 and contribution development 000 pass immutable bindings, complete treatment census and semantic replay; the contribution producer reproduces exactly. Unavailable independent memory and initial successor-startup inspection timing remain explicit. Native Gear 1 progress verifies. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260927_1644.json).
 
 OPS-S13-CALIBRATION-0927-1632: context calibration 000 and contribution calibration 001 pass source/input/output bindings, complete treatment census and semantic replay. The contribution producer replays byte for byte; context likelihood normalization and memory selection replay. Unavailable independent memory stays explicit. No reserved comparison yet. [Receipt](../results/phase_2_4_stage_13/CALIBRATION_20260927_1632.json).

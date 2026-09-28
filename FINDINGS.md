@@ -9,6 +9,29 @@ ran it.
 
 ---
 
+### OPS-S13-PRODUCERS-0927-1706 - development and reserve producer integrity
+
+**Hypothesis.** Completed context development and contribution reserve producers preserve all declared inputs and treatments while the unchanged Gear 1 queue advances to context reserve work.
+
+**METHOD.** Verify immutable manifests, source/input/output hashes and prerequisite admissions. Replay all saved scores, the complete contribution producer, episode-by-view-by-treatment coverage, memory selection and omitted-candidate truth. Independently reconstruct normalized context probabilities from saved candidate log likelihoods and check individual row receipts. Inspect actual native coordinator/successor identities, below-normal priority, fresh output and watcher delivery; no new neural calls.
+
+The table reports original execution coverage and cost. Prediction records repeat source episodes across declared treatments; they are not additional independent observations or performance estimates.
+
+| Completed block | Input episodes | Prediction records | Scored / unavailable | Output files verified | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|---|
+| Context development 000 | 4 | 80 | 72 / 8 | 74 | 1201.423 | 1124.625 |
+| Contribution reserve 000 | 16 | 464 | 464 / 0 | 2 | 69.645 | 64.484 |
+
+**Found.** All 353 distinct frozen source bindings, all input/output bindings and all census and replay checks pass. Context probabilities reproduce from saved likelihoods under the admitted CPU reader identity. The independent-memory treatment remains explicitly unavailable because training contains only one independent component. The contribution producer reproduces byte for byte. Its completed reserve block does not complete the full reserve consumer or license a comparison; no settings or choices were changed after inspecting it. Historically exposed human records and missing independent goal truth retain their prior limits. Inspection used 72.938 CPU seconds.
+
+At 17:08 PDT the same native coordinator and its context reserve worker have verified ownership and fresh progress under Gear 1. The watcher has no current error and the requested event has an actual delivery receipt. The contribution block completed during inspection and receives the same full landing. No recovery, live-source edit, scoring change or new dispatch was needed. Failed paired-readout admission and the existing bounded prospective correction remain recorded. Independent health remains 19:30 PDT, with both stages' reporting milestones unchanged.
+
+**Means.** Continue the frozen eligible queue and await complete consumers before scientific interpretation. No tests harvested this pass; no new research, cloud spending, delegation, gear change or multiplicity entry. This is an instrument landing in TOOLS, with no theory amendment or unfinished per-artifact scores in chat.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are completed development and reserve producers intact as the queue advances? Outcome: **Infrastructure**. Result: Complete producer records pass coverage and replay with unavailable memory retained. Project meaning: Inputs to later comparisons are preserved without a premature scientific verdict. Next engineering obligation: Land complete consumers and preserve the existing serial-boundary readout correction. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/PRODUCERS_20260927_1706.json).
+
+---
+
 ### OPS-S13-PRODUCERS-0927-1644 - calibration and development producer integrity
 
 **Hypothesis.** Completed context calibration and contribution development blocks retain every declared input and treatment, including unavailable memory, while the frozen queue continues in Gear 1.

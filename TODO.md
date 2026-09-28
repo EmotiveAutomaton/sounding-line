@@ -2,6 +2,7 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-PRODUCERS-0927-1706: complete context development and contribution reserve producers landed with replay and unavailable-memory accounting. Preserve the frozen plan; scientific consumers remain pending.
 - [x] OPS-S13-PRODUCERS-0927-1644: completed context calibration and contribution development producers fully landed with replay and unavailable-memory accounting. Frozen eligible work continues; scientific comparisons remain pending.
 - [x] OPS-S13-CALIBRATION-0927-1632: complete context and contribution calibration producers fully recorded with immutable bindings, replay and unavailable-memory accounting. Continue the frozen consumers; no new scientific claim.
 - [x] L451-L454 / OPS-S13-EARLY-CELLS-0927: full ScholaWrite and retained-record consumers landed with replay and evidence limits; completed producers recorded.
