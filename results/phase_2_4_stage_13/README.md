@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [PRODUCERS_20260928_0141.json](PRODUCERS_20260928_0141.json) | Four complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0138.json](PRODUCERS_20260928_0138.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0125.json](PRODUCERS_20260928_0125.json) | Three complete detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
 | [PRODUCERS_20260928_0122.json](PRODUCERS_20260928_0122.json) | Complete causal detector producer bindings, coverage and saved-feature replay; native Gear 2 continuation |
