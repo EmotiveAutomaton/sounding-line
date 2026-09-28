@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-PRODUCERS-0928-0147: three complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0147.json).
+
 OPS-S13-PRODUCERS-0928-0144: two complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0144.json).
 
 OPS-S13-PRODUCERS-0928-0141: four complete detector producers pass bindings, full source/row censuses, admitted identities, surface/token checks and saved e5 probability replay. Whole-method comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/PRODUCERS_20260928_0141.json).
