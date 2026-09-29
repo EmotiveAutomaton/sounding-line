@@ -1,5 +1,16 @@
 # STATE: the agent's operational file
 
+## September 28, 18:35 PDT: extension producer evidence verified
+
+Two causal-detector and one e5 batch pass full bindings, coverage and saved-feature checks;
+sixty-one extension producers are now recorded. The scheduler has 566 complete, six running,
+114 pending, three retained failures and ten blocked. All six native CPU workers have fresh
+progress and positive sampled CPU advance within Gear 2 limits. No new failure or restart.
+Watcher loaded sources and scanning verify; health remains due at 21:11 PDT. The complete
+extension consumer remains pending; source/model/calibration, reporting deadline, original
+deficits and Stage 12 closure stay fixed. Publication remains blocked by the earlier
+automatic-review rejection. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1835.json).
+
 ## September 28, 18:30 PDT: extension producer evidence verified
 
 One causal-detector and two e5 batches pass full bindings, coverage and saved-feature checks;
