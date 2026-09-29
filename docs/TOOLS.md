@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-EXTENSION-PRODUCERS-0928-1734: Four extension producers pass immutable source/input/output bindings, full coverage, finite features, applicable causal bounds and saved e5 probability replay after core completion. Normal worker turnover is reconciled; six native CPU workers have fresh progress and four continuing workers show CPU advance. The inspection preserves actual worker counts instead of requiring six during turnover. Watcher sources and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1734.json).
+
 OPS-S13-EXTENSION-PRODUCERS-0928-1720: The complete extension producer passes immutable source/input bindings, full coverage, finite e5 features and saved-probability replay after core completion; causal-detector bounds are not applicable. Six native CPU workers advance under unchanged limits; watcher health verifies. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1720.json).
 
 OPS-S13-EXTENSION-PRODUCERS-0928-1716: Ten complete extension producers pass immutable bindings, full coverage, surface/token checks, causal-feature bounds and e5 saved-probability replay where applicable. Normal completion is reconciled without restart; six native CPU workers have fresh progress and five continuing workers show sampled CPU advance. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1716.json).

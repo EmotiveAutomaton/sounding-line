@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-1734: Four more extension producers fully recorded; normal worker turnover reconciled. Continue the frozen whole extension and complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1720: One more extension producer fully recorded; continue the frozen whole extension and its complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1716: Ten more extension producers fully recorded; normal completion transition reconciled. Continue the frozen whole extension and complete consumer.
