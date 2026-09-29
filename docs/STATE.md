@@ -1,5 +1,18 @@
 # STATE: the agent's operational file
 
+## September 28, 21:35 PDT: extension producer evidence and delivery reconciled
+
+One causal-detector and two e5 batches pass full bindings, coverage and saved-feature
+checks; 126 extension producers are fully recorded. The scheduler has 631 complete,
+six running, 49 pending, three retained failures and ten blocked. Six native CPU workers
+advance within Gear 2 limits. No new failure or restart. Watcher sources and scanning
+verify. The prior health event and two producer notices now arrived in the owner
+conversation after their committed landing and ACK; original ACKs and the September 29
+01:30 PDT health deadline remain unchanged. Current produces were inspected directly.
+The complete extension consumer remains pending. Original limits, Friday packet and
+Stage 12 closure remain fixed. Publication remains blocked by the earlier automatic-review
+rejection. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2135.json).
+
 ## September 28, 21:24 PDT: full queue health verified
 
 All 699 manifests, bindings and the complete dependency graph verify. Six native CPU

@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-EXTENSION-PRODUCERS-0928-2135: Three extension producers pass immutable bindings, full coverage and saved-feature checks, with e5 probability replay and causal-feature bounds applied to their respective arms. Six native CPU workers advance within existing limits. Delayed health/producer notices reconcile against committed evidence and original ACKs without resetting the health clock. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2135.json).
+
 OPS-S13-HEALTH-0928-2124: Full native health, resource, lock and immutable dependency audit passes without recovery. All prepared producers and the complete consumer retain their bindings and prerequisites. Eight complete producers pass coverage, saved-feature and probability checks. Actual owner delivery is not claimed for the directly inspected queued health event; prior native inventory limitation remains. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_2124.json).
 
 OPS-S13-EXTENSION-PRODUCERS-0928-2110: One extension producer passes immutable source/input/output bindings, full coverage, finite causal features and declared bounds after core completion; e5 probability replay is not applicable. Six active native CPU workers advance within existing limits. Watcher sources, actual deliveries and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2110.json).

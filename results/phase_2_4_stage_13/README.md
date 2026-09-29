@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_PRODUCERS_20260928_2135.json](EXTENSION_PRODUCERS_20260928_2135.json) | Three additional-source producers verified; delayed prior notices reconciled without duplicate ACK or health-clock reset |
 | [HEALTH_20260928_2124_ACK.json](HEALTH_20260928_2124_ACK.json) | Eight producers and documented health inspection acknowledged; next independent inspection September 29 at 01:30 PDT |
 | [HEALTH_20260928_2124.json](HEALTH_20260928_2124.json) | Full native, resource, lock and dependency inspection; eight complete producers recorded; no recovery required |
 | [EXTENSION_PRODUCERS_20260928_2110.json](EXTENSION_PRODUCERS_20260928_2110.json) | One additional-source producer fully verified; six advancing workers and unchanged watcher clock recorded |

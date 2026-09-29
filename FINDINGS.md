@@ -9,6 +9,30 @@ ran it.
 
 ---
 
+### OPS-S13-EXTENSION-PRODUCERS-0928-2135 - additional-source producers and delayed delivery reconciled
+
+**Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
+
+**METHOD.** Verify each immutable manifest, source/input/output binding, admitted detector identity, complete source and saved-row census, surface features and token visibility. Check finite features and causal-detector bounds where applicable; replay saved e5 probabilities without repeating model forwards. Check that dispatch follows the completed core consumer. Verify actual coordinator and worker identities, numerical-thread limits, below-normal priority, fresh output and CPU advance. Reconcile watcher sources, registrations, actual delivery and the independent health clock. For delayed notices, compare original ACK timestamps and complete evidence against the prior committed write-through.
+
+The table records complete producers, not performance scores. Rows count examples, outputs count hash-verified files, and wall/CPU seconds are separate incurred costs.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-059-gpt2-medium-logrank-g2r1 | 256 | 258 | 1806.185 | 1776.578 |
+| reserve-extension-v1-064-e5-g2r1 | 256 | 258 | 131.118 | 125.250 |
+| reserve-extension-v1-065-e5-g2r1 | 256 | 258 | 127.496 | 123.125 |
+
+**Found.** All three producers pass complete coverage and saved-evidence checks against 353 source bindings and three input bindings. A hundred and twenty-six extension producers are now fully recorded. At 21:35 PDT the scheduler has 631 complete, six running and 49 pending cards, with the same three retained failures and ten blocked. All six native CPU workers have fresh progress and positive sampled CPU advance. Actual ownership, single numerical threads and below-normal priority verify. No new scientific or monitor failure appears, and no restart is needed. The sole watcher retains verified loaded sources and fresh scanning. The three new produces have queued receipts and were inspected directly; actual owner-delivery timestamps are not claimed.
+
+The earlier health event and two producer notices have now arrived in the owner conversation after their full write-through and ACK in commit `95855790718ff35df1ca75d2cf24b0c85d1f69ee`. Their committed bytes, terminal hashes, complete output verification and original ACK timestamps remain valid. This later observed delivery is distinct from the watcher's still-absent delivery timestamps and from the earlier inspection. No duplicate ACK or health-clock reset is performed. The next independent health inspection remains September 29 at 01:30 PDT. The prior separate native queue inventory limitation remains recorded.
+
+**Means.** Continue the full prepared extension with fixed source roster, models, calibration and selection. The whole comparison remains unfinished. No new full-tuned comparator is part of this extension, and original source, location and missing-arm limitations remain. Friday's final packet, Thursday's science cutoff and Stage 12 closure are unchanged. No tests harvested, new research, cloud use or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the admitted replication retain complete and replayable evidence? Outcome: **Infrastructure**. Result: Complete producer evidence verifies while the authorized queue advances. Project meaning: The whole comparison can continue without altering its frozen method. Next engineering obligation: Land subsequent complete producers and replay the complete consumer. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2135.json).
+
+---
+
 ### OPS-S13-HEALTH-0928-2124 - full queue health and complete producer evidence
 
 **Hypothesis.** The admitted queue remains correctly owned, resource-bounded and executable, with complete evidence preserved as the prepared replication advances.

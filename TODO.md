@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-2135: Three more extension producers fully recorded; delayed notices reconcile against original ACKs. Continue the frozen whole extension and complete consumer.
+
 - [x] OPS-S13-HEALTH-0928-2124: Full four-hour health inspection and eight completed producers recorded; no recovery needed. ACK completed after write-through; next health inspection September 29 at 01:30 PDT. Continue only the frozen extension and complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2110: One more extension producer fully recorded. Continue the frozen whole extension and complete consumer.
