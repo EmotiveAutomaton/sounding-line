@@ -5,16 +5,15 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
 
-September 28, 18:01 PDT: the admitted full extension continues. Five native CPU workers
-advance; one scheduler-running worker completed and is included in the verified batch.
-The queue has 552 complete, 128 pending, three retained failures and ten blocked cards;
-forty-eight extension producers are fully recorded. The 17:05 four-hour inspection verifies all
+September 28, 18:06 PDT: six verified CPU workers advance through the admitted full extension.
+The queue has 556 complete, 124 pending, three retained failures and ten blocked cards;
+fifty-one extension producers are fully recorded. The 17:05 four-hour inspection verifies all
 699 manifests and their bindings, complete dependency coverage, native ownership, progress,
 locks, memory/disk and power limits. No recovery is required. Conservative remaining time
 is 13.50 hours against 75.91 hours before Thursday's reporting cutoff. The final deadline
 remains Friday October 2 at 05:00 PDT. The health wake reached the owner; a separate native
 queue inventory probe could not initialize in the sandbox. Next health inspection: 21:11 PDT. [ACK receipt](results/phase_2_4_stage_13/HEALTH_20260928_1705_ACK.json).
-[Latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1801.json).
+[Latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1806.json).
 [Health and producer evidence](results/phase_2_4_stage_13/HEALTH_20260928_1705.json),
 [core result](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json), and
 [extension admission](results/phase_2_4_stage_13/EXTENSION_20260928.json).
@@ -61,7 +60,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: land complete extension producers and its full consumer; preserve the independent health inspection due at 16:55 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
+Next action: land complete extension producers and its full consumer; preserve the independent health inspection due at 21:11 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
 
 ## Navigation
 
