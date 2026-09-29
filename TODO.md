@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-2232: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2227: Three more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2223: Four more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
