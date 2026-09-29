@@ -3,34 +3,13 @@
 Updated September 29, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
-## Stage 13: admitted queue complete; final packet pending
+## Stage 13: validity audit complete; healing running
 
-September 29, 01:33 PDT health inspection: the queue remains normally completed after its 00:04 PDT exit with **686 complete,
-three retained failures and ten blocked cards**. No running, pending or runnable card remains.
-All 180 extension producers and the full comparison are recorded. Complete consumer replay
-passes across all 26 reports, with frozen models, calibration and source separation verified.
-All 699 manifests and their source/input bindings pass; the 518 prior core cards are unchanged.
-[Comparison and exit verification](results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
+The latest user request authorizes a thorough audit and healing where needed. The full retained-file audit passes, including completed output bindings and applicable saved-score replay. The original active queue drained normally: 686 complete, three failed and ten blocked cards. Integrity does not cure the failed reader admission, original void memory contrast, or missing strong detector comparison on the extension.
 
-Actual coordinator/worker absence and released dispatch/GPU locks verify. The checkpoint
-helper retains a fresh heartbeat and its held lock. The sole watcher retains verified loaded
-sources, fresh scanning and actual delivery of the three final notices. Only the exact exited
-coordinator watch was retired; terminal paths remain. The 01:33 PDT health inspection
-passes; [its ACK receipt](results/phase_2_4_stage_13/HEALTH_20260929_0133_ACK.json) records the next four-hour deadline. Memory and disk headroom pass; AC processor maximum remains 90% with boost disabled.
-Earlier notification failure and the native queue-inventory sandbox limitation remain recorded.
+The frozen 33-card healing queue has passed its setup checks and is running. Its three corrective families are: a named-category reader interface, information-matched memory conditions, and the frozen strong detector plus paired uncertainty. Original data, outputs, thresholds and failures are retained. The conditional Terra research-planning branch is not active because healing is necessary. [Audit receipt](results/phase_2_4_stage_13/VALIDITY_20260929.json) and [healing design](docs/design/stage-13/HEALING_20260929.md).
 
-Gear 2 remains the authorized allocation; a drained queue grants no new work. The primary
-Qwen admission and its bounded correction failed; correction allowances are exhausted and
-nine dependent cards remain blocked. The literal-confidence failures leave one further
-consumer blocked. The original memory-type contrast remains void (L455); its separately
-corrected development consumer is recorded (L456), with unequal lengths, one component and
-no reserve rerun. Full GPU tuning and its fixed core comparison are complete; the extension
-contains no additional full-tuned comparison. Preserve those limits in the final packet.
-
-Next work is final packet assembly, reporting core and extension separately with complete
-comparisons, examples, costs and deficits. Finish **Friday October 2 at 05:00 PDT**;
-the science cutoff remains Thursday at 21:00 PDT. No new research, retry or cloud use.
-[Execution handoff](docs/design/stage-13/EXECUTION.md).
+Finish **Thursday October 1 at 06:00 PDT**, the operator's stated assumption pending optional time preference. Science cutoff is **Wednesday September 30 at 22:00 PDT**, preserving eight hours for reporting. Existing Gear 2 continues: six single-thread CPU workers and one GPU, below-normal priority, AC maximum 90%, boost disabled. No paid compute. The exact old checkpoint helper has been retired and its Thursday successor verified; old receipts retain the original Friday schedule. Native memory admission passed, the CPU memory pilot and complete detector comparison are advancing; the finished GPU strong producer passes full replay, and Qwen admission is held for headroom. No new failures. Larger families pass measured capacity gates before release. [Live rollout and health inspection](results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
 
 ## Stage 12: final endpoint closed; scientific deficits retained
 
@@ -54,7 +33,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: assemble the final packet from complete recorded comparisons; preserve the independent health schedule rearmed by the documented September 29 inspection. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
+Next action: land complete corrective families as the watcher delivers them, retaining the Thursday endpoint. Preserve the independent health schedule and all scientific deficits.
 
 ## Navigation
 

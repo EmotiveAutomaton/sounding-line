@@ -33,10 +33,10 @@ def schema():
         unknown_history=dict(type='number',minimum=0,maximum=1)),required=['handling','facts','goal_support','unknown_history'],additionalProperties=False)
 
 
-def parse(response,length):
+def parse(response,length,*,response_budget=2048,prompt_budget=6144):
     if response.get('done') is not True or response.get('done_reason')!='stop':raise ValueError('response incomplete/capped')
-    if type(response.get('prompt_eval_count'))!=int or response['prompt_eval_count']>6144:raise ValueError('native prompt token admission fails')
-    if type(response.get('eval_count'))!=int or response['eval_count']>2048:raise ValueError('native response token admission fails')
+    if type(response.get('prompt_eval_count'))!=int or not 0<=response['prompt_eval_count']<=prompt_budget:raise ValueError('native prompt token admission fails')
+    if type(response.get('eval_count'))!=int or not 0<=response['eval_count']<=response_budget:raise ValueError('native response token admission fails')
     body=json.loads(response['message']['content'])
     if set(body)!={'handling','facts','goal_support','unknown_history'}:raise ValueError('literal schema keys differ')
     if probabilities(body['handling'],4) is None:raise ValueError('invalid literal handling probabilities')

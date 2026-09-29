@@ -15,13 +15,13 @@ from .worker import verify
 def semantic_replay(card,out,raw):
     from .scoring import proper_loss
     action=card['action']
-    if action in ('reconstruction-batch','qwen-batch','qwen-admission','qwen-development-repair'):
+    if action in ('reconstruction-batch','qwen-batch','qwen-admission','qwen-development-repair','qwen-keyed-admission','qwen-keyed-batch'):
         from .reconstruction import score_prediction
         original={r['key']:r for r in read(raw/card['args']['rows'])}
         for r in read(out/'PREDICTIONS.json')['rows']:
             if r.get('scores') is None:continue
             if score_prediction(original[r['key']],r['prediction'],r['metadata'])!=r['scores']:raise ValueError('contribution semantic replay differs')
-    if action in ('context-batch','readout-batch','schola-coupling','memory-development-batch'):
+    if action in ('context-batch','readout-batch','schola-coupling','memory-development-batch','healing-memory-batch'):
         for r in read(out/'PREDICTIONS.json')['rows']:
             if r.get('scores') is None:continue
             n=r.get('n',len(r['probabilities']) if isinstance(r.get('probabilities'),list) else 4)

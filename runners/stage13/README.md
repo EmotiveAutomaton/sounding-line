@@ -3,14 +3,16 @@
 Approved September 27, 2026. The owner subsequently selected **Gear 2**: six
 CPU workers with one numerical thread each, below-normal priority, and one GPU
 worker. `dispatch.py` runs the frozen worker cards after a native environment
-probe; the active immutable plan is `raw/plans/gear2-v3.json`. Full tuning runs
+probe; the previous completed plan is `raw/plans/gear2-extension-v1.json`. Full tuning runs
 after measured capacity admission; Qwen retains its memory and scientific gates.
 No cloud use is authorized. Preserve all Stage 11/12 source capsules and clocks.
 
-The absolute final deadline is **October 2, 2026, 05:00 America/Los_Angeles**
-(12:00 UTC). New scientific blocks stop before the eight-hour reporting reserve,
-October 1 at 21:00 PDT. Setup and pauses do not move these dates. The latest
-instruction supersedes the supplied brief's rolling 120-hour window.
+The September 29 healing continuation uses a separate `raw/healing-v1/` contract,
+source capsule and manifests. Its final packet is assumed **October 1, 2026,
+06:00 America/Los_Angeles** (13:00 UTC), with science ending September 30 at
+22:00 PDT for an eight-hour reporting reserve. Original Friday contracts remain
+historical. The healing design governs one new interface attempt and complete
+matched-memory and frozen-detector comparisons; no original result is overwritten.
 
 Use the repository interpreter with `-B -m runners.stage13.<module>`. Preparation
 builds source-bound complete blocks; the queue uses the native queue engine with

@@ -1,0 +1,82 @@
+{
+  "at": "2026-09-29T12:43:54.288542+00:00",
+  "cards": 33,
+  "checkpoint": {
+    "deadline": "2026-10-01T13:00:00+00:00",
+    "final_review": "2026-10-01T11:00:00+00:00",
+    "old_exact_owner_retired": true,
+    "original_schedule_retained": true,
+    "reporting": "2026-10-01T05:00:00+00:00"
+  },
+  "counts": {
+    "DONE": 1,
+    "PENDING": 30,
+    "RUNNING": 2
+  },
+  "held": {
+    "reader-admission": "insufficient actual free GPU memory; do not close other applications"
+  },
+  "id": "OPS-S13-HEALING-0929",
+  "input_pins": 44652,
+  "locks_verified": 21,
+  "manifest_bindings": 33,
+  "memory_admission": {
+    "admitted": true,
+    "equal_information_raw_linked": true,
+    "equal_primary_lengths": true,
+    "identical_projected_view_pairs": 61,
+    "max_native_tokens": 548,
+    "no_context_effect_claim": true,
+    "rows": 68,
+    "view_cases": 136
+  },
+  "next": "Measured capacity releases remaining memory blocks; reader admission waits for safe GPU headroom; complete consumers then full write-through and Thursday final packet",
+  "original_active_failures_unchanged": true,
+  "original_consumer_bytes_unchanged": true,
+  "private_evidence": {
+    "CHECKPOINT-THURSDAY-RETIRED.json": "cda54c9ea52fa1e6bd82e577b3f28dbc1d7c9a90c125702eda6902f22e004853",
+    "HEALING-20260929-ADMISSION-AUDIT.json": "ed893c1db1efe644eb9e05cf90e6c7f64f6cf90a9506ebea41343d4dd23298a6",
+    "HEALING-20260929-DECLARATION.json": "0bf9f5d4b75c07b6d6c741e9b050d4c7f1808ad27a8d145049ad8aa87238a355",
+    "HEALING-20260929-LIVE-FOLLOWUP.json": "aebedd5b38f83244139913d72c28c317598a0c4b901f2b612d7f96439462ddef",
+    "HEALING-20260929-LIVE-INSPECTION.json": "6e448e01fc384d3894763e233ae6011e4882949214d516dd6a9ea3339be51c4b",
+    "HEALING-20260929-TESTS-FINAL-R2.txt": "08d42d338ce87a31c1da17aeff2c2f1e1d400d787c34bfb2346f7add3608a35c"
+  },
+  "resources": {
+    "free_disk_GiB": 781.698787689209,
+    "free_host_GiB": 48.77957534790039,
+    "gpu_free_MiB_at_first_inspection": 7476.0,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "scope": "Infrastructure and admission only; full scientific families unfinished; no performance verdict",
+  "source_pins": 361,
+  "stage12_closed": true,
+  "status": "running",
+  "tests_passed": 44,
+  "watcher": {
+    "admission_inspected_event": "fcccaa3a3aaa63ac1bea47a7",
+    "all_terminal_paths_registered": true,
+    "delivery": "queued once; not yet recorded as delivered to owner",
+    "earlier_delivery_failure_and_inventory_limitation_retained": true,
+    "health_inspected_event": "3fc2f961c33e893aca23950f",
+    "loaded_sources_verified": true,
+    "native_owners_registered": true,
+    "sole_original_watcher": true
+  },
+  "workers": [
+    {
+      "below_normal": true,
+      "job": "memory-000",
+      "positive_cpu_advance": true,
+      "single_thread": true
+    },
+    {
+      "below_normal": true,
+      "job": "strong-extension",
+      "positive_cpu_advance": true,
+      "single_thread": true
+    }
+  ]
+}

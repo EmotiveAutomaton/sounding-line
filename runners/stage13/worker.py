@@ -29,6 +29,24 @@ def outputs(raw,ids,name='PREDICTIONS.json'):
 
 def handle(card,out,raw,tick):
     action=card['action'];args=card.get('args',{})
+    if action=='healing-family-capacity':
+        from .healing_prepare import capacity
+        return capacity(card,out,raw,tick)
+    if action=='qwen-keyed-summary':
+        from .healing_reader import summarize
+        return summarize(card,out,raw,tick)
+    if action in ('qwen-keyed-admission','qwen-keyed-batch'):
+        from .healing_reader import handle as healing_handle
+        return healing_handle(card,out,raw,tick)
+    if action.startswith('healing-memory-'):
+        from .healing_memory import handle as healing_handle
+        return healing_handle(card,out,raw,tick)
+    if action=='healing-strong-extension':
+        from .healing_detector import strong_extension
+        return strong_extension(card,out,raw,tick)
+    if action=='healing-detector-comparison':
+        from .healing_detector import comparison
+        return comparison(card,out,raw,tick)
     if action in ('qwen-development-repair','memory-development-admission','memory-development-batch'):
         from .development_repair import handle as repaired_handle
         return repaired_handle(card,out,raw,tick)

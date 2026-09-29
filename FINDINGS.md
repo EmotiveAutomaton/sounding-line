@@ -9,6 +9,83 @@ ran it.
 
 ---
 
+### OPS-S13-HEAL-STRONG-0929 - frozen strong-detector producer verified
+
+**Hypothesis.** The missing strong detector comparison can retain complete predictions on the original extension under the already selected model and calibration cuts.
+
+**METHOD.** Verify every immutable output and input binding; compare the full prediction census and each saved row to the declared extension keys, components and labels; check finite probabilities, exact row-file agreement and unchanged calibration cuts. Replay the entire saved fixed-threshold summary without another neural call. The full paired comparison remains a separate running consumer.
+
+The table describes producer integrity and resource costs, not unfinished comparative performance. Wall and CPU seconds are native worker costs, not total program elapsed time.
+
+| Check | Observation | Disposition |
+|---|---|---|
+| Complete census | 22,940 examples from 1,356 source components; no duplicate or missing row | Every original extension example retained |
+| Frozen comparison inputs | Original selected checkpoint and calibration cuts verify | No new fit or threshold selection |
+| Stored outputs | All row files and full fixed-threshold summary replay agree | Producer valid for the complete consumer |
+| Cost | 353.23 wall seconds; 247.45 CPU seconds | GPU inference finished normally |
+
+**Found.** The frozen strong-detector producer passes complete integrity and summary replay. Its paired comparison is still running, so this landing reports no comparative performance verdict.
+
+**Means.** Continue the frozen consumer and memory pilot. Qwen admission remains resource-held. Preserve the original result, final-packet policy and Thursday endpoint; the documented health ACK schedules the next independent inspection for September 29 at 09:46 PDT. No additional tests or research are harvested here.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the added strong detector's evidence complete and replayable? Outcome: **Infrastructure**. Result: The entire frozen extension producer verifies. Project meaning: The missing comparator now has intact inputs for its complete paired analysis. Next engineering obligation: Replay and land the full comparative consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/HEALING_STRONG_PRODUCER_20260929.json).
+
+---
+
+### OPS-S13-HEALING-0929 - corrective queue and Thursday supervision verified
+
+**Hypothesis.** The separately named corrective families can preserve the original evidence, realize their memory intervention, and run within the existing allocation and earlier Thursday endpoint.
+
+**METHOD.** Run all Stage 13 tests and full original-roster native-token checks; freeze the separate source capsule, contract, complete-family cards and input/model bindings. Run native admission, verify its completed-file bindings and exact agreement with the independent preflight, then inspect actual workers, CPU advance, numerical threads, output freshness, held resources, failures, kernel locks, power limits and watcher state. Replace only the exact verified old checkpoint process after preserving its original schedule and retiring its watch. No original science is restarted or overwritten.
+
+The table reports implementation, admission and operational evidence, not performance from unfinished comparisons. Queue counts are from the final native snapshot; resource headroom is from the earlier full inspection.
+
+| Check | Evidence | Disposition |
+|---|---|---|
+| Corrective plan | 33 cards; all manifest, 361 source and 44,652 unique input bindings verify | Complete families and immutable evidence declared before inference |
+| Verification | All 44 Stage 13 tests and 21 locks pass | Full synthetic handler/consumer and null/refusal controls included |
+| Native memory realization | 68 cases, 136 case/views; all primary conditions equal native length, raw/linked information equal, maximum 548 tokens | Admission passes and agrees exactly with independent preflight |
+| Remaining view limitation | 61 of 68 pairs have identical projected evidence across the two nominal views | No evidence-view improvement or independent replication claim; memory comparisons remain within each view |
+| Live queue | One completed admission, two advancing workers, thirty pending, no new failure | CPU memory pilot and frozen GPU comparator active; larger memory family waits for its measured capacity gate |
+| GPU reader | Insufficient free memory for the frozen Qwen requirement | Admission held; no application eviction or weakened floor |
+| Resources and locks | 48.78 GiB host and 781.70 GiB disk headroom; six CPU slots, one GPU; single-thread, below-normal workers; AC maximum 90%, boost off | Current resource contract preserved; expected active locks and old released locks verify |
+| Calendar and delivery | Old exact checkpoint retired; new helper live; all final paths and new native owners registered; sole watcher sources and fresh scan verify | Thursday schedule active. Health and admission notices are queued once; actual owner delivery is not yet recorded |
+
+**Found.** The full memory realization and live corrective queue pass their checks. The memory pilot and frozen strong comparator advance under the preserved limits; the reader remains resource-held. The memory check caught extra source metadata in preflight; both renderings now use the same declared measured-fact projection, preserving original records. Two nominal evidence views frequently coincide after the fixed projection, so this repair licenses only within-view memory comparisons. An initial followup inspection used a nonexistent historical hash field; it was corrected to compare the original active failure records exactly. This was an inspection-code issue, not a worker failure.
+
+**Means.** Continue the three frozen corrective families, with native reader and whole-family runtime gates, complete consumers and full internal write-through. Keep all earlier deficits and the original VOID result. The final packet is due Thursday October 1 at the assumed 06:00 PDT; science stops Wednesday at 22:00 PDT. The independent health inspection is documented before ACK; its ACK receipt supplies the next four-hour deadline. This pass harvests no additional theory test and starts no Terra agents or cloud work.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the healing queue validly constructed and actually running? Outcome: **Infrastructure**. Result: The corrective queue and revised Thursday supervision verify, with the primary reader waiting for GPU headroom. Project meaning: Corrective execution has begun without rewriting original evidence. Next engineering obligation: Land each complete family and deliver the Thursday packet with remaining deficits. Public claim: unchanged. Curator decision required: No; optional morning time preference remains open. Detail: [rollout and admission receipt](results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
+
+---
+
+### OPS-S13-VALIDITY-0929 - retained evidence is intact; instrument healing is needed
+
+**Hypothesis.** The completed Stage 13 results remain replayable and their instruments support the comparisons claimed for them.
+
+**METHOD.** Recheck every retained manifest, source/input pin and completed-file binding, replay applicable saved row scores, inspect original and corrected admissions and treatment realization, and retain the earlier complete-consumer replays. Run the Stage 13 test suite and targeted healing known-answer checks using workspace temporary directories. Distinguish the active plan from superseded and development manifests. No original inference, model selection, source allocation or threshold is changed by this audit.
+
+The table distinguishes storage/replay health from the validity of a scientific comparison. Manifest counts include retained historical attempts; the active queue is a separate census.
+
+| Check | Evidence | Assessment |
+|---|---|---|
+| Retained manifest inventory | 691 complete, 29 failed, 335 unrun; 941 source and 373 input pins verified | All completed-file bindings and applicable row replays pass; historical attempts remain visible |
+| Current admitted plan | 686 complete, three failed, ten blocked; zero runnable | Normally drained, not every proposed study completed |
+| Complete consumers | Ten bound analysis records; previous full consumer replays retained | Evidence intact; the fresh inventory does not independently revalidate every construct |
+| Executable checks | Original suite: 35 passed; targeted healing suite: 18 passed | Initial default temporary-directory setup refused; workspace rerun passes. A healing-test assertion-message mismatch was corrected without changing its refusal criterion |
+| Contribution reader | Literal/known-answer admissions failed | Missing primary reader comparison; one newly authorized semantic-key interface admission planned |
+| Memory intervention | Original prompts collapsed; corrected development prompts differ in information and length | Original comparison stays VOID; matched-information repair required |
+| Detector comparison | Extension lacks the full-tuned rival; paired uncertainty absent | Complete the frozen comparator and descriptive paired contrasts |
+| Human scope | Exposed records, one component per partition and absent mental-goal truth | These limitations survive rerunning |
+
+**Found.** The retained results pass integrity and applicable score replay, but the program is not scientifically complete. Healing is needed for the failed reader, unrealized memory contrast and incomplete detector comparison. Healthy negative results and original failures remain evidence; they are not erased or rerun merely to obtain a favorable outcome.
+
+**Means.** The curator's September 29 request activates the healing branch inline. Three complete corrective families are specified in the [healing design](docs/design/stage-13/HEALING_20260929.md), with native admission and complete-family capacity required before dispatch. The conditional Terra planning branch is not activated. Thursday October 1 at 06:00 PDT is the stated operator assumption for the final packet; science ends September 30 at 22:00 PDT. Gear 2, no paid compute and Stage 12 closure persist. No new scientific verdict or per-artifact score is reported; these are operational audit findings. The harvested work is instrument repair and completion of existing comparisons, not a new theoretical hypothesis.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Are the completed results healthy enough to move on? Outcome: **Infrastructure**. Result: Retained evidence verifies while instrument and comparison deficits require healing. Project meaning: Storage integrity does not resolve construct validity. Next engineering obligation: Validate, freeze and run the bounded corrective families before the earlier Thursday packet. Public claim: unchanged. Curator decision required: No; optional morning-time preference remains open. Detail: [audit receipt](results/phase_2_4_stage_13/VALIDITY_20260929.json).
+
+---
+
 ### OPS-S13-HEALTH-0929-0133 - drained queue and continuing supervision verify
 
 **Hypothesis.** A normally completed queue can remain idle while its checkpoint and delivery supervision stay healthy, without reopening failed or expired work.

@@ -18,6 +18,12 @@ with the reason.
 
 ---
 
+## Stage 13 validity and Thursday continuation - 2026-09-29
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S13-HEALING | Audio request: verify thoroughly, heal unhealthy results; otherwise use Terra research planners, implement studies and continue until Thursday morning rather than Friday (analyst paraphrase) | Completed validity audit; needed healing branch inline; three bounded corrective families and earlier Thursday packet assumption | Stage 13 healing design; OPS-S13-VALIDITY-0929 and OPS-S13-HEALING-0929 | built |
+
 ## Stage 13 implementation approval - 2026-09-27
 
 | # | Contribution and source | What it produced | Where | Status |

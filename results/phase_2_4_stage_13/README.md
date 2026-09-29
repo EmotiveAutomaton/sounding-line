@@ -1,10 +1,11 @@
 # Stage 13 results
 
-The admitted Gear 2 queue has drained normally. Complete cells are internally recorded;
-the final scientific packet remains pending.
-Final packet: **October 2, 2026 at 05:00 PDT**. New science must fit before
-October 1 at 21:00 PDT. See the [execution handoff](../../docs/design/stage-13/EXECUTION.md)
-and [approved study source](../../docs/design/stage-13/README.md).
+The original Gear 2 queue drained normally. The September 29 validity audit
+confirms intact retained files and required instrument healing. New corrective
+families are running under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
+Final packet is assumed **October 1, 2026 at 06:00 PDT**; science ends September 30
+at 22:00 PDT. Existing Gear 2 and no paid compute persist. Original failed attempts
+and historical Friday receipts remain unchanged.
 
 Public records here are safe aggregate/instrument receipts. Human text, source
 identities, requests/responses, raw scores, evaluator data, downloaded models,
@@ -14,6 +15,9 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALING_STRONG_PRODUCER_20260929.json](HEALING_STRONG_PRODUCER_20260929.json) | Full frozen strong-detector extension producer verified; paired complete consumer remains running |
+| [HEALING_ROLLOUT_20260929.json](HEALING_ROLLOUT_20260929.json) and [ACK](HEALING_ROLLOUT_20260929_ACK.json) | Native memory admission, complete frozen corrective plan, advancing workers and Thursday supervision verify; Qwen resource-held |
+| [VALIDITY_20260929.json](VALIDITY_20260929.json) | Thorough retained-file/score audit passes; construct deficits justify separately authorized healing |
 | [HEALTH_20260929_0133.json](HEALTH_20260929_0133.json) and [ACK](HEALTH_20260929_0133_ACK.json) | Completed queue, live checkpoint/watcher, limits and actual health delivery verify; no recovery or new science; next four-hour deadline retained |
 | [EXTENSION_RESERVE_20260929.json](EXTENSION_RESERVE_20260929.json) | Complete additional-source comparison replayed and recorded (L458); normal exit, no runnable cards, checkpoint/watcher and unchanged limits verified |
 | [EXTENSION_PRODUCERS_20260929_0001.json](EXTENSION_PRODUCERS_20260929_0001.json) | One additional-source producer fully verified; the advancing comparison worker and unchanged watcher clock recorded |

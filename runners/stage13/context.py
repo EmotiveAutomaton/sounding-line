@@ -57,10 +57,10 @@ def intervention(row,training,mode):
     return serialized[:700] if data is not None else '',[x['key'] for x in chosen] if mode in ('raw-retrieval','linked-memory','old-answer','duplicated','independent') else []
 
 
-def conditional(model,prompt,labels):
+def conditional(model,prompt,labels,prefix_budget=512):
     torch=model.torch;tok=model.tokenizer
     prefix=tok.encode(prompt,add_special_tokens=False)
-    if len(prefix)>512:raise ValueError('native prefix token budget exceeded')
+    if len(prefix)>prefix_budget or len(prefix)>960:raise ValueError('native prefix token budget exceeded')
     scores=[];tokens=[]
     for label in labels:
         suffix=tok.encode(' '+label,add_special_tokens=False)

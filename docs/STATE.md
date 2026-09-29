@@ -1,5 +1,23 @@
 # STATE: the agent's operational file
 
+## September 29, 05:50 PDT: strong producer verified; complete comparison running
+
+The frozen strong-detector extension producer passes all row/input/output bindings and full saved-summary replay. Its complete paired consumer is running alongside the memory pilot; Qwen admission remains held for headroom. Queue snapshot: two complete, two running, twenty-nine pending; no new failure. Performance remains internal until complete-family write-through and the Thursday final packet. The documented health and memory-admission events were acknowledged; next independent health inspection is September 29 at 09:46 PDT. [Producer receipt](../results/phase_2_4_stage_13/HEALING_STRONG_PRODUCER_20260929.json), [health ACK](../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929_ACK.json).
+
+## September 29, 05:44 PDT: healing queue live; Thursday supervision active
+
+The separately frozen 33-card corrective queue has one completed native admission, two advancing workers and thirty pending cards, with no new failure. Memory realization on all 68 original cases matches independent preflight. The CPU memory pilot and frozen strong detector extension run; Qwen admission remains held for GPU headroom. Six single-thread below-normal CPU slots and one GPU are retained. Larger memory and reader families require deterministic measured whole-family capacity gates; no partial outcome-based extension.
+
+All source/input bindings, native identities, progress, locks, power limits and watcher-loaded sources verify. The exact old checkpoint child/wrapper are absent after controlled retirement; original schedule and receipts remain. New helper uses reporting September 30 at 22:00 PDT, final review October 1 at 04:00 PDT and final packet October 1 at 06:00 PDT. The four-hour health and completed admission inspections are documented before ACK. [Rollout](../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
+
+Most nominal memory evidence-view pairs coincide after the fixed projection; no context-view effect or independent replication is licensed. Preserve this and every original limitation in the complete consumer and final packet. No Terra delegation, cloud use, new spend or Stage 12 restart. Historical setup notes below are superseded by this live snapshot.
+
+## September 29: validity audit complete; bounded healing authorized
+
+The September 29 ordinary user request supersedes the old no-retry continuation and Friday deadline for newly named healing work. Retained output integrity and applicable score replay pass, but reader, memory and detector-comparison deficits require healing. Work proceeds inline; Terra planning was authorized only if no healing was needed. Preserve every old attempt and Stage 12 closure. [Audit](../results/phase_2_4_stage_13/VALIDITY_20260929.json).
+
+Three corrective families are implemented and in preflight; native inference has not started. Freeze separate source/input identities under `raw/healing-v1/`, admit full families by measured capacity, then run on existing Gear 2. Final packet assumed Thursday October 1 at 06:00 PDT; science cutoff Wednesday September 30 at 22:00 PDT. The old checkpoint helper still needs controlled replacement; the sole watcher and independent health clock remain. No cloud, new spend or publication authorization. [Design](design/stage-13/HEALING_20260929.md). Dated entries below retain the earlier authority and observations.
+
 ## September 29, 01:33 PDT: drained queue remains healthy
 
 Current native inspection confirms 686 complete, three retained failures, ten blocked

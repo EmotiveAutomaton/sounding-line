@@ -1,5 +1,11 @@
 # Stage 13 execution handoff
 
+## September 29 continuation
+
+**Live rollout, 05:44 PDT:** the separately frozen 33-card queue is active; native full-roster memory admission passed. CPU memory pilot and GPU frozen-comparator extension advance. Qwen is resource-held. The old exact helper was retired and the Thursday successor is live. [Receipt](../../../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json). The following paragraph preserves the earlier setup snapshot.
+
+The [validity and healing continuation](HEALING_20260929.md) supersedes the earlier no-retry restriction and Friday endpoint for newly named corrective families. Retained integrity passes; instrument deficits require healing inline. Native memory admission passed; the frozen queue is running, with whole-family runtime gates and complete consumers. Assume Thursday October 1 at 06:00 PDT final packet, Wednesday September 30 at 22:00 PDT science cutoff. Existing Gear 2 and no paid compute persist; original capsules/outputs and Stage 12 closure remain intact. Older execution records below are historical.
+
 Operational snapshot: September 29, 2026. Admitted execution is complete; the final scientific packet is pending.
 The original brief and approved plan remain in this folder. The implementation lives
 in `runners/stage13/`; private inputs, immutable cards, source capsules, outputs and

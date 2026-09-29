@@ -1,5 +1,7 @@
 # Stage 13 - approved implementation, Gear 2
 
+The September 29 request now authorizes a thorough validity pass and needed healing. [Healing continuation](HEALING_20260929.md) governs the new work: assumed final packet October 1 at 06:00 PDT and science cutoff September 30 at 22:00 PDT. Existing Gear 2 and no paid compute persist. The original September 27 dates below are historical and are superseded for this continuation.
+
 The latest September 27 instruction approves the entire implementation plan.
 The subsequent explicit gear instruction selects Gear 2 now. Finish October 2 at 05:00 PDT; stop new science before
 October 1 at 21:00 PDT for the eight-hour reporting reserve. These absolute

@@ -12,6 +12,12 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEAL-STRONG-0929: All frozen strong-detector extension rows, input/output bindings and fixed-threshold summary replay verify. Full paired consumer remains unfinished; no interim performance claim. [Receipt](../results/phase_2_4_stage_13/HEALING_STRONG_PRODUCER_20260929.json).
+
+OPS-S13-HEALING-0929: All 44 Stage 13 tests pass. Native full-roster memory realization matches independent preflight; raw/linked facts and primary token lengths match. Fixed evidence projection makes most nominal view pairs identical, so no context-view claim follows. Frozen memory pilot and strong comparator are live; primary reader is resource-held. Thursday helper and native watcher registration verify. [Receipt](../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
+
+OPS-S13-VALIDITY-0929: Retained file bindings and applicable semantic row replay pass. Original reader admission and memory-treatment failure remain; separate semantic-key, matched-information memory and paired-detector instruments have passing targeted known-answer checks and await full native admission. No scientific result is licensed by preflight. [Audit](../results/phase_2_4_stage_13/VALIDITY_20260929.json).
+
 OPS-S13-HEALTH-0929-0133: Drained-queue identities, immutable bindings, dependency eligibility, released dispatch/GPU locks, live checkpoint, resource limits and actual health delivery verify. Final bytes and failures unchanged; no recovery required. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260929_0133.json).
 
 L458: Entire additional-source detector/location consumer replayed, including all 26 reports and both operating points. All 699 current manifests and dependency bindings verify; normal queue exit, released dispatch lock, live checkpoint and watcher delivery reconciled. Exact exited coordinator watch retired without resetting health. [Receipt](../results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
