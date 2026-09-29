@@ -1,5 +1,19 @@
 # STATE: the agent's operational file
 
+## September 28, 21:24 PDT: full queue health verified
+
+All 699 manifests, bindings and the complete dependency graph verify. Six native CPU
+workers advance within Gear 2 limits; locks, checkpoint, watcher, memory/disk and power
+settings pass. No new failure or recovery need. Conservative remaining work is 6.26 hours
+against 71.60 hours before the reporting cutoff. Eight complete producers are fully
+recorded, bringing the extension total to 123. At 21:25 the scheduler has 630 complete,
+six running, 50 pending, three retained failures and ten blocked. No GPU work is eligible.
+The due health event is inspected directly; its queued receipt is not actual delivery.
+The earlier native inventory sandbox limitation remains. Full write-through preceded health
+ACK at 21:30 PDT; next inspection is September 29 at 01:30 PDT. [ACK receipt](../results/phase_2_4_stage_13/HEALTH_20260928_2124_ACK.json). Original scientific deficits, complete consumer, final-packet
+deadline and Stage 12 closure are unchanged. Publication remains blocked by the earlier
+automatic-review rejection. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_2124.json).
+
 ## September 28, 21:10 PDT: extension producer evidence verified
 
 One causal-detector batch passes full bindings, coverage and saved-feature checks;

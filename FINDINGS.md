@@ -9,6 +9,37 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0928-2124 - full queue health and complete producer evidence
+
+**Hypothesis.** The admitted queue remains correctly owned, resource-bounded and executable, with complete evidence preserved as the prepared replication advances.
+
+**METHOD.** Inspect actual native coordinator, worker, checkpoint and watcher identities; sample progress, output freshness and CPU advance; probe the kernel locks; inspect failure records, stop markers, numerical-thread environments, process priority, memory, disk and power limits. Verify every immutable manifest, source/input/plan binding and the complete dependency graph, including all prepared producers feeding the extension consumer. Bound remaining runtime from observed full-card rates with a safety factor, parallel work and dependency depth. Verify eight completed producers against full source and saved-row census, admitted detector identities, output hashes, surface/token features, causal-feature bounds and saved e5 probabilities without repeating model forwards. Check watcher registration, scanning, notification history and delivery evidence separately.
+
+The table records complete producers, not performance scores. Rows count examples, outputs count hash-verified files, and wall/CPU seconds are separate incurred costs.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-055-gpt2-medium-logrank-g2r1 | 256 | 258 | 1857.822 | 1828.734 |
+| reserve-extension-v1-056-gpt2-medium-logrank-g2r1 | 256 | 258 | 1827.215 | 1799.531 |
+| reserve-extension-v1-057-gpt2-medium-logrank-g2r1 | 256 | 258 | 1878.249 | 1848.391 |
+| reserve-extension-v1-058-gpt2-medium-logrank-g2r1 | 256 | 258 | 1800.357 | 1772.703 |
+| reserve-extension-v1-060-e5-g2r1 | 256 | 258 | 130.405 | 125.953 |
+| reserve-extension-v1-061-e5-g2r1 | 256 | 258 | 129.958 | 125.188 |
+| reserve-extension-v1-062-e5-g2r1 | 256 | 258 | 137.248 | 132.062 |
+| reserve-extension-v1-063-e5-g2r1 | 256 | 258 | 132.473 | 127.453 |
+
+**Found.** The 21:24 PDT health inspection verifies all 699 manifests, 556 source bindings, 372 input bindings and 379 plan/capsule bindings; all 518 prior core manifests remain unchanged. The dependency graph is acyclic, every prepared producer follows the completed core consumer, and the extension consumer requires all 180 prepared producers. Six native CPU workers show fresh progress and positive sampled CPU advance with one numerical thread each and below-normal priority. Both kernel locks are held, the original Stage 13 checkpoint helper is fresh, Stage 12 remains closed, and there are no unknown attempts, new failures or stop/pause markers. The same three failures and ten blocked cards remain; exhausted correction allowances are not reopened. No recovery or restart is required.
+
+Available host memory is 48.05 GiB and disk space is 786.69 GiB. AC processor maximum remains 90% with boost disabled. No GPU card is eligible; the current GPU readiness check fails its unchanged free-memory floor, which does not block the admitted CPU work. The conservative remaining estimate is 6.26 elapsed hours against 71.60 hours before Thursday's science cutoff. This estimate is not a completion guarantee.
+
+All eight producers pass complete coverage and saved-evidence checks against 353 source bindings and eight input bindings. A hundred and twenty-three extension producers are now fully recorded. At the 21:25 follow-up, the scheduler has 630 complete, six running and 50 pending cards. Scheduler completion counts and fully recorded producer counts remain distinct: the producer cohort is fixed at the health-inspection snapshot. The sole watcher's native identity, loaded sources, registrations and fresh scanning verify, with one retained historical notification failure and no new delivery failure. The due health event has a native queued receipt but no actual owner-delivery timestamp; it and the eight producers were inspected directly. The earlier sandbox failure of a separate native queue inventory probe remains a limitation and was not retried. Its historical successful delivery evidence is not evidence of delivery for this event. Full write-through preceded ACK at 21:30 PDT; the next four-hour inspection is September 29 at 01:30 PDT. [ACK receipt](results/phase_2_4_stage_13/HEALTH_20260928_2124_ACK.json).
+
+**Means.** Continue the entire already-admitted extension and complete consumer with frozen sources, models, calibration, selection and reporting deadlines. The full comparison remains unfinished; original source, location, missing-arm and comparator limits remain. No additional full-tuned comparator is part of this extension. Friday's single final packet and Stage 12 closure are unchanged. No tests harvested, new research, cloud use or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the authorized queue healthy and is completed evidence fully preserved? Outcome: **Infrastructure**. Result: The bounded queue and complete producer evidence verify without recovery. Project meaning: The prepared comparison can continue under its frozen method. Next engineering obligation: Land subsequent complete producers and replay the complete consumer. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/HEALTH_20260928_2124.json).
+
+---
+
 ### OPS-S13-EXTENSION-PRODUCERS-0928-2110 - additional-source producer evidence recorded
 
 **Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
