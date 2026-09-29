@@ -781,7 +781,7 @@ deaths turned out to belong to a broken control, not to the features.**
 | **G116** | Specified dose adds description length, the essays' Kolmogorov claim | **REJECTED (test, L29).** Incompressibility flat across all rungs; human long-form matches machine text at matched length |
 | **PD-23** | A larger feature bank beats a small curated set | **REJECTED (sim).** Sixty generic features gain little and lose more in the worst case |
 | **PD-24** | Weak effects can be stacked into a usable detector | **OPEN, first attempt NULL (test, L125), stacking RE-GATED (test, L137).** The first real stack, 158 surface-change channels concatenated into a style-change classifier's head, did not beat the substrate and doubled its seed variance, exactly the outcome the L4 conditions exist to catch (beat the best component on held-out data, with different errors). Choice recovery is now confirmed at confirmatory grade (L141 after the L137 demotion arc), but stacking still waits on the four Phase 2.1 gates in the evaluation contract, and the exploratory reads split them: family transfer and abstention behave (gates 2 and 4), the echo contest is open at eleven points over a 0.80 bar (gate 3), and artifact-only recovery of REALIZED problem-directed choices (gate 1) is unmeasurable until the rebuilt factorial supplies verified realization. The standing warning holds: stacking shared confounds produces a strong confound |
-| **S13-A-CORE** | Located contribution features improve AI-participation detection and independently recover the contribution | **SUPPORTED for a descriptive matched-feature advantage; process recovery OPEN (test, L457; human originals and machine revisions, learned classifiers and exact source-annotation scoring).** On 1,000 source components, located-label windows improve pooled recall over equally costly document-label windows at separately calibrated thresholds, with slightly more human false positives. Strict and relaxed location F1 remain weak; stronger-baseline superiority and formal promotion are unestablished. No human-goal or historical-process claim follows. |
+| **S13-A-CORE** | Located contribution features improve AI-participation detection and independently recover the contribution | **SUPPORTED for a descriptive matched-feature advantage; process recovery OPEN (test, L457-L458; human originals and machine revisions, learned classifiers and exact source-annotation scoring).** The stricter frozen operating point favors located-label windows on both source-disjoint corpus partitions, with more human false positives. The extension advantage shrinks at the other operating point and reverses on its small short-text slice. Location recovery stays weak; formal promotion and stronger-baseline superiority remain unestablished, with no full-tuned extension comparator. No human-goal or historical-process claim follows.<br>&emsp;L457: complete core comparison; L458: frozen additional-source replication within the same corpus, limits retained. |
 | **rung −1** | No measure reads noise as maximum intent | **SUPPORTED (test).** The only ceiling control in the project |
 | **P01** | A finished drawing's raster constrains its recorded first action beyond category and ink priors | **OPEN, first read INCONCLUSIVE (test, L237).** +0.04 balanced accuracy over the ink-placement prior with the interval crossing zero; raw accuracy favors the raster because it predicts the majority quadrant; a rotated raster falls to chance, so the pixels carry placement |
 
@@ -808,10 +808,11 @@ first stroke no better than the ink-placement prior on the balanced estimand (P0
 raw-accuracy edge is the majority quadrant, and a rotated raster loses everything, so what
 final pixels carry of an action is placement at a coarse grain, which the terminal
 organisation section's access ladder (P02) is what moves. Located-label features can
-improve a matched classifier on human originals and machine revisions while exact contribution
-locations remain poorly recovered; that advantage is evidence about the classifier, not a
-validated historical account, and it does not establish superiority over the stronger
-supervised baseline (S13-A-CORE, L457).
+improve a matched classifier across source-disjoint partitions of human originals and machine
+revisions while exact contribution locations remain poorly recovered. Operating point and text
+length change that advantage; it is evidence about a bounded classifier comparison, not a
+validated historical account. A same-corpus replication does not establish superiority over
+the stronger supervised baseline or resolve the missing promotion gates (S13-A-CORE, L457-L458).
 Confidence: the funnel and the deaths are replicated and controlled; the three revivals are one
 bad test away by age; the drawing read is one bad test away and cannot yet exclude its
 own null; the located-feature comparison is one bad test away.

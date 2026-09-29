@@ -121,7 +121,8 @@
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1620: Three more extension producers fully recorded; continue the frozen whole extension and its complete consumer.
 
 - [x] OPS-S13-EXTENSION-0928: Complete core landed as L457; prepared 181-card additional-source comparison admitted and launched in Gear 2. First three completed extension producers fully recorded.
-- [ ] S13-A-EXTENSION: Land remaining frozen extension producers and full consumer; preserve selection/calibration, all failed admissions, extension comparator limits and Friday final packet. No favorable-sign stopping or new source selection.
+- [x] S13-A-EXTENSION / L458: All 180 producers and the complete consumer verified, replayed and written through; normal queue exit reconciled. Frozen selection/calibration and original deficits retained.
+- [ ] L458 final packet: Report core and extension separately, both operating points, the small short-text reversal, weak location recovery, missing paired promotion gate and missing full-tuned extension comparator. No new model run or retry follows the drained queue.
 
 - [x] L457: Complete core reserve detector/location consumer replayed and written through. Preserve every slice, unmatched achieved false-positive rates, missing paired gain uncertainty and weak location recovery; assess only the predeclared whole extension.
 

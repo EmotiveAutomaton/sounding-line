@@ -1,5 +1,20 @@
 # STATE: the agent's operational file
 
+## September 29, 00:21 PDT: extension complete; queue drained normally
+
+L458 records the complete additional-source consumer and full saved-output replay.
+The 699-card queue has 686 complete, three retained failures, ten blocked and no running,
+pending or runnable card. Native absence, released dispatch/GPU locks and all manifest,
+source/input bindings verify. The checkpoint helper remains fresh; the sole watcher has
+verified loaded sources and actual delivery of all three final notices. Only the exact
+exited coordinator watch was retired; terminal paths and health due at 01:30 PDT remain.
+Host resources and the unchanged Gear 2 power limits pass. Earlier monitoring and native
+inventory limits remain recorded. No restart, gear change or new research is authorized.
+Next work is final packet assembly with distinct core/extension evidence and all deficits;
+Friday 05:00 PDT, Thursday 21:00 PDT cutoff and Stage 12 closure remain unchanged.
+Publication remains blocked by the earlier automatic-review rejection.
+[Complete comparison and exit receipt](../results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
+
 ## September 29, 00:01 PDT: extension producer evidence verified
 
 One causal-detector batch passes full bindings, coverage and saved-feature checks;

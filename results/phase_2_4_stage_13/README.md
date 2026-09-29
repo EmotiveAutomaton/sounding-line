@@ -1,6 +1,7 @@
 # Stage 13 results
 
-The campaign is running in Gear 2. No final scientific verdict is available yet.
+The admitted Gear 2 queue has drained normally. Complete cells are internally recorded;
+the final scientific packet remains pending.
 Final packet: **October 2, 2026 at 05:00 PDT**. New science must fit before
 October 1 at 21:00 PDT. See the [execution handoff](../../docs/design/stage-13/EXECUTION.md)
 and [approved study source](../../docs/design/stage-13/README.md).
@@ -13,6 +14,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_RESERVE_20260929.json](EXTENSION_RESERVE_20260929.json) | Complete additional-source comparison replayed and recorded (L458); normal exit, no runnable cards, checkpoint/watcher and unchanged limits verified |
 | [EXTENSION_PRODUCERS_20260929_0001.json](EXTENSION_PRODUCERS_20260929_0001.json) | One additional-source producer fully verified; the advancing comparison worker and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2357.json](EXTENSION_PRODUCERS_20260928_2357.json) | Two additional-source producers fully verified; one advancing worker and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2352.json](EXTENSION_PRODUCERS_20260928_2352.json) | Two additional-source producers fully verified; three advancing workers and unchanged watcher clock recorded |

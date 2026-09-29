@@ -9,6 +9,50 @@ ran it.
 
 ---
 
+### L458 - additional sources repeat the matched detector advantage with weak location recovery
+
+**Hypothesis.** The frozen contribution-location features retain their detector advantage over equally costly document-label windows on previously unused source components, while independently recovering the contribution locations.
+
+**METHOD.** Evaluate the entire predeclared extension: 22,940 OpAI examples from 1,356 recorded source components, comprising 1,356 human originals and 21,584 machine revisions. Verify disjoint keys and components from core training, development, calibration and reserve. Reuse every model, coefficient, calibration threshold and selected finalist; the source allocation preceded the core result and continuation was admitted by the unchanged whole-family time guard. Verify 182 prerequisites and 46,244 prerequisite output files, then replay the complete frozen consumer, all 26 aggregate/domain/generator/operation/version/short-text reports and both location-matching rules. No fitting or neural forward pass is repeated. This is a second partition of the same released corpus, not a second corpus or a new human process study.
+
+Both tables report complete methods. Pooled recall weights machine revisions equally; source-average recall first averages within each source and has a separate 95% source-bootstrap interval. That interval does not surround pooled recall. Human false-positive rate uses all 1,356 human originals, with a 95% source-bootstrap interval. Logarithmic probability loss averages sources equally and is independent of the decision threshold; smaller is better. The two frozen thresholds target 1% and 5% false positives on the earlier calibration humans, respectively. No full-tuned RoBERTa extension comparison was scheduled, so the core comparator is not substituted onto these different examples.
+
+Complete extension methods at the calibration threshold targeting 1% false positives:
+
+| Complete method | Pooled recall | Source-average recall [95% interval] | Human false-positive rate [95% interval] | Source-average logarithmic loss |
+|---|---|---|---|---|
+| Surface and length reference | 19.31% | 23.41% [22.21, 24.64] | 0.66% [0.22, 1.11] | 0.586 |
+| GPT-2-medium likelihood and log rank | 1.73% | 2.01% [1.55, 2.48] | 1.03% [0.52, 1.55] | 0.686 |
+| Released e5 detector | 4.53% | 4.45% [3.74, 5.17] | 1.40% [0.81, 2.06] | 0.441 |
+| Direct score and surface combination | 23.69% | 28.08% [26.75, 29.41] | 0.88% [0.37, 1.40] | 0.559 |
+| Matched document-label window features | 34.69% | 41.84% [40.66, 43.02] | 0.37% [0.07, 0.74] | 0.483 |
+| Located-label window features | 40.19% | 47.88% [46.76, 49.03] | 0.88% [0.44, 1.40] | 0.473 |
+
+Complete extension methods at the calibration threshold targeting 5% false positives, with identical column definitions:
+
+| Complete method | Pooled recall | Source-average recall [95% interval] | Human false-positive rate [95% interval] | Source-average logarithmic loss |
+|---|---|---|---|---|
+| Surface and length reference | 34.37% | 39.96% [38.40, 41.52] | 4.50% [3.46, 5.68] | 0.586 |
+| GPT-2-medium likelihood and log rank | 9.47% | 10.45% [9.33, 11.60] | 5.01% [3.91, 6.12] | 0.686 |
+| Released e5 detector | 13.01% | 12.78% [11.49, 14.16] | 7.23% [5.90, 8.78] | 0.441 |
+| Direct score and surface combination | 39.68% | 44.78% [43.30, 46.23] | 4.65% [3.47, 5.83] | 0.559 |
+| Matched document-label window features | 51.61% | 58.08% [56.79, 59.36] | 4.72% [3.61, 5.90] | 0.483 |
+| Located-label window features | 51.73% | 58.66% [57.48, 59.87] | 2.80% [1.99, 3.69] | 0.473 |
+
+**Found.** At the 1% calibration target, located-label features have 5.49 percentage points more pooled recall than the matched window rival, while human false positives rise from five to twelve. The descriptive direction repeats the core result and the point difference exceeds the declared three-point engineering margin. There is still no paired gain interval or operational gate for material false-positive deterioration, so formal promotion is not established. At the 5% calibration target the pooled recall difference is only 0.12 percentage points, with fewer false positives for located features. The lower-threshold comparison does not clear the three-point margin; the advantage is not invariant to operating point.
+
+Independent location recovery remains weak: source-average strict boundary F1 is 0.00889 [0.00749, 0.01034] and relaxed-overlap F1 is 0.13272 [0.12865, 0.13680]. F1 combines span precision and recall under two distinct matching rules; it is not token accuracy or historical-process recovery. One source-invalid location annotation is excluded from location scoring while the corresponding row remains in binary detection. Fixed 160-character windows, truncated native-token detector evidence and source grouping limits remain.
+
+The short-text slice reverses the overall detector ordering: located pooled recall is 27.94% versus 39.71% for matched windows, over only 70 examples from 28 components, including two humans. Zero observed human errors in that slice cannot establish a low population false-positive rate. Domain, generator, operation and version slices remain descriptive and dependent; overlapping human references must not be counted as independent replications. Operation and coverage vary together. The full aggregate receipt retains every rival, both thresholds, precision, F1, receiver-operating and precision-recall areas, probability losses, selective coverage/risk and all slices, including undefined rates with no positive support. Test-curve thresholds and precision at hypothetical prevalence remain separate from frozen-threshold deployment claims. The observed positive prevalence is 94.09%, not a deployment assumption.
+
+**Means.** The bounded matched-feature advantage survives an additional source-disjoint partition of the same corpus, but neither strong contribution reconstruction nor superiority over a full-tuned detector follows. Human writer identity, upstream exposure and exhaustive overlap knowledge remain unresolved; these are machine revisions of human originals, not human edits of AI output or mental-goal truth. All original failed admissions, the original void memory contrast, development-only correction and unavailable comparators remain in Friday's final packet. No new p-values, tests harvested, research, cloud use or delegation.
+
+**Operational reconciliation.** The complete consumer and coordinator exited normally at 00:04 PDT on September 29. All 699 immutable manifests, 556 source bindings, 372 input bindings and the dependency graph verify; all 518 prior core manifests remain unchanged. The queue has 686 complete, three retained failures, ten blocked, zero running and zero pending cards, with no runnable authorized card. Actual coordinator/worker absence and released dispatch/GPU locks verify. The checkpoint helper remains alive with fresh heartbeat and its own held lock. The sole watcher retains verified loaded sources and fresh scanning, and all three final notices have actual owner delivery. Only the exact exited coordinator watch was retired; terminal paths and the independent health inspection due 01:30 PDT remain. Host memory, disk and the unchanged power limits pass. Earlier notification failure and native queue-inventory sandbox limitation remain recorded; no retry or scientific recovery was needed. Extension worker costs total 165,325.393 wall seconds across cards and 162,537.906 CPU seconds; the wall sum is not parallel elapsed time. Consumer costs are 268.936 wall seconds and 266.250 CPU seconds, included in those totals; independent audit CPU is 330.953 seconds.
+
+**Curator roll-up.** Theory group: artifact traces and instrument validity. Question: Does the matched detector advantage survive unused sources and recover contribution locations? Outcome: **Narrows**. Result: The descriptive matched-feature advantage repeats on additional sources while location recovery remains weak and formal promotion is unestablished. Project meaning: A useful feature comparison still does not validate a historical account. Next engineering obligation: Assemble the complete final packet with separate core/extension evidence, operating-point dependence and missing comparators. Public claim: unchanged; general detector superiority and historical-process recovery remain unlicensed. Curator decision required: No scientific decision; separate publication authorization remains unresolved. Detail: [complete extension receipt](results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
+
+---
+
 ### OPS-S13-EXTENSION-PRODUCERS-0929-0001 - additional-source producer evidence recorded
 
 **Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
@@ -15230,9 +15274,11 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 
 ## ⚠ Known weaknesses — open ones only
 
-**Stage 13 primary-reader admission (OPS-S13-GPU-COMPLETION-0927).** One returned known-answer reply fails literal probabilities; a missing endpoint view in the fixture then prevents the invalid-response scorer from finishing. All original request/response/error evidence and costs remain; the other admission cases and nine dependents are uncalled. No primary-reader comparison is licensed, and bounded development recovery remains pending.
+**Stage 13 detector and location scope (L457-L458).** Core and additional-source partitions support a descriptive matched-feature advantage at the stricter operating point, not formal promotion: paired gain uncertainty and a material false-positive gate are absent, weaker-threshold gains shrink and the short extension slice reverses. Absolute location recovery is weak; no full-tuned extension comparator or historical-process/mental-goal truth is available. Source exposure, writer identity and overlap limits remain.
 
-**Stage 13 context-memory realization (L455).** Actual tokenizer reconstruction shows raw retrieval, linked memory and duplicate memory are identical in every case/view; that contrast is void. Source/census/score integrity did not establish realized treatment distinction. Other context means are descriptive with one component per partition, independent memory unavailable, no all-method utility over unavailable responses, and the paired literal-confidence comparison blocked by failed admission. Preserve original outputs and exposed reserve; any bounded correction needs a new development admission.
+**Stage 13 primary-reader admission (OPS-S13-GPU-COMPLETION-0927).** One returned known-answer reply fails literal probabilities; a missing endpoint view in the fixture then prevents the invalid-response scorer from finishing. All original request/response/error evidence and costs remain; the other admission cases and nine dependents are uncalled. No primary-reader comparison is licensed. Its separately frozen development correction also fails literal validity and known-answer admission; both correction allowances are exhausted (OPS-S13-QWEN-ADMISSION-0928-0711).
+
+**Stage 13 context-memory realization (L455).** Actual tokenizer reconstruction shows raw retrieval, linked memory and duplicate memory are identical in every case/view; that contrast is void. Source/census/score integrity did not establish realized treatment distinction. Other context means are descriptive with one component per partition, independent memory unavailable, no all-method utility over unavailable responses, and the paired literal-confidence comparison blocked by failed admission. Preserve original outputs and exposed reserve. The separately frozen development correction passes actual-tokenizer admission and complete replay (L456), with unequal lengths and one source component retained; no automatic reserve rerun is admitted.
 
 **Stage 12 instruction-realization scope (L449).** All views name the tested feature, and the trace view explicitly supplies the exact checker answer. The frozen consumer omits the requested/counterfactual by present/absent interaction and a separate cheap text/diff rival. The assisted benefit cannot answer the instruction-echo question or establish unassisted intention recovery; the string-rule reference and model-generated substrate remain explicit.
 

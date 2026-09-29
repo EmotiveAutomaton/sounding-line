@@ -3,43 +3,34 @@
 Updated September 29, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
-## Stage 13: running in Gear 2
+## Stage 13: admitted queue complete; final packet pending
 
-September 29, 00:01 PDT: the admitted full comparison advances on one verified CPU worker.
-The queue has 685 complete, 0 pending, three retained failures and ten blocked cards;
-All 180 extension producers are fully recorded. The 21:24 four-hour inspection verifies all
-699 manifests and their bindings, complete dependency coverage, native ownership, progress,
-locks, checkpoint, memory/disk and power limits. No recovery is required. At that inspection,
-conservative remaining time was 6.26 hours against 71.60 hours before Thursday's science cutoff.
-The final deadline remains Friday October 2 at 05:00 PDT. The health event and two prior
-producer notices reached the owner conversation after their committed write-through and
-ACK; original ACKs are preserved, with no duplicate ACK or clock reset. The separate native
-queue inventory sandbox limitation remains. Next health inspection: September 29 at 01:30 PDT.
-[ACK receipt](results/phase_2_4_stage_13/HEALTH_20260928_2124_ACK.json).
-[Latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260929_0001.json).
-[Health and producer evidence](results/phase_2_4_stage_13/HEALTH_20260928_2124.json),
-[core result](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json), and
-[extension admission](results/phase_2_4_stage_13/EXTENSION_20260928.json).
+September 29, 00:21 PDT: the queue exited normally at 00:04 PDT with **686 complete,
+three retained failures and ten blocked cards**. No running, pending or runnable card remains.
+All 180 extension producers and the full comparison are recorded. Complete consumer replay
+passes across all 26 reports, with frozen models, calibration and source separation verified.
+All 699 manifests and their source/input bindings pass; the 518 prior core cards are unchanged.
+[Comparison and exit verification](results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
 
-The owner explicitly selected **Gear 2** on September 27. The CPU queue continues
-under a source-bound successor with a six-worker limit. Full GPU training and its
-fixed comparator evaluation are complete and replayed. Qwen admission failed on
-an invalid literal reply and a fixture/scorer metadata defect; its nine dependent
-jobs stay undispatched. Its separate four-case development correction completed after passing the unchanged GPU memory floor, but failed literal validity and known-answer admission. Its correction allowances are exhausted; no further retry is admitted. All core studies and their
-consumers are built; each retains its scientific and resource gates. The original
-514-card core is preserved alongside one infrastructure capacity card and three separately frozen development-repair cards. A repaired
-native launcher uses new attempt identities and retains every preflight failure.
-The small literal-confidence interface failed its permitted correction, so those
-reserved tests remain blocked. The complete likelihood context consumer replays,
-but token projection erased the raw/linked/duplicate memory distinction; that
-contrast remains void (L455). Corrected memory inputs and the complete development-only consumer replay (L456); unequal lengths and one source component remain, and no reserve rerun is opened.
-The whole predeclared additional-source CPU detector comparison continues.
+Actual coordinator/worker absence and released dispatch/GPU locks verify. The checkpoint
+helper retains a fresh heartbeat and its held lock. The sole watcher retains verified loaded
+sources, fresh scanning and actual delivery of the three final notices. Only the exact exited
+coordinator watch was retired; terminal paths and health due **September 29 at 01:30 PDT**
+remain. Memory and disk headroom pass; AC processor maximum remains 90% with boost disabled.
+Earlier notification failure and the native queue-inventory sandbox limitation remain recorded.
 
-Finish Friday October 2 at **05:00 PDT**; new science stops Thursday at **21:00 PDT**.
-The 181-card reserve extension is admitted after complete core evaluation and the
-whole-family 45-hour time guard. It preserves source selection, models and calibration. No cloud use or new research.
-[Readiness evidence](results/phase_2_4_stage_13/GEAR2_READINESS_20260927.json) and
-[execution handoff](docs/design/stage-13/EXECUTION.md).
+Gear 2 remains the authorized allocation; a drained queue grants no new work. The primary
+Qwen admission and its bounded correction failed; correction allowances are exhausted and
+nine dependent cards remain blocked. The literal-confidence failures leave one further
+consumer blocked. The original memory-type contrast remains void (L455); its separately
+corrected development consumer is recorded (L456), with unequal lengths, one component and
+no reserve rerun. Full GPU tuning and its fixed core comparison are complete; the extension
+contains no additional full-tuned comparison. Preserve those limits in the final packet.
+
+Next work is final packet assembly, reporting core and extension separately with complete
+comparisons, examples, costs and deficits. Finish **Friday October 2 at 05:00 PDT**;
+the science cutoff remains Thursday at 21:00 PDT. No new research, retry or cloud use.
+[Execution handoff](docs/design/stage-13/EXECUTION.md).
 
 ## Stage 12: final endpoint closed; scientific deficits retained
 
@@ -63,7 +54,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: land complete extension producers and its full consumer; preserve the independent health inspection due September 29 at 01:30 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
+Next action: assemble the final packet from complete recorded comparisons; preserve the independent health inspection due September 29 at 01:30 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
 
 ## Navigation
 

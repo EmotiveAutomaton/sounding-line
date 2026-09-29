@@ -1,6 +1,6 @@
 # Stage 13 execution handoff
 
-Operational snapshot: September 28, 2026. Scientific conclusions are pending.
+Operational snapshot: September 29, 2026. Admitted execution is complete; the final scientific packet is pending.
 The original brief and approved plan remain in this folder. The implementation lives
 in `runners/stage13/`; private inputs, immutable cards, source capsules, outputs and
 native ownership live in `results/phase_2_4_stage_13/raw/`.
@@ -35,10 +35,10 @@ Source bundles are immutable. Root code edits after launch do not repair a froze
 
 | Study family | Implemented scope | Execution disposition |
 |---|---|---|
-| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core complete and fully replayed (L457); conditional CPU replication now running; full RoBERTa-base tuning and fixed core evaluation remain complete |
+| A: provenance and located contribution | Released e5, named causal likelihood/log-rank variant, surface rivals, cross-fitted located features, equally costly direct features, separate calibration, fixed development selection, reserved consumer | CPU core complete and fully replayed (L457); conditional CPU replication complete and fully replayed (L458); full RoBERTa-base tuning and fixed core evaluation remain complete |
 | B: human contribution | CoAuthor source prior, exact/retrieval and linked candidate alternatives with severed/shuffled coupling; ScholaWrite annotator-purpose and exact-edit-operation coupling | CPU comparison completed internally; primary Qwen admission and its bounded correction failed; correction allowances exhausted and dependent calls remain blocked |
 | C: confidence and context | Named small CPU reader's conditional scoring versus literal elicitation, calibrated likelihood, raw/linked/answer memory and misleading/duplicate/omitted-candidate controls | Complete likelihood consumer replayed; raw/linked/duplicate memory contrast VOID after token projection (L455); independent memory unavailable and literal readout failed |
-| D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs, descriptive CPU consumers queued early |
+| D: retained-record texture | Complete ARIES direction/view and reserved-paper analysis with cheap diff rival; revision interaction against unchanged/irrelevant movement; requested versus realized features | Read-only historical outputs; complete descriptive consumers recorded (L452-L454) |
 | ToMpathy bridge | Source-bound UTF-16 locations, independent goal support, exclusive processes, unknown values and lossless sidecar | Actual isolated capture/parser/matcher checked; no service rebuild or native side-panel claim |
 | Conditional transfer | Existing native Ghost export identified read-only | No Stage 13 target/evidence admission yet; no sibling edits, new world or queue |
 
@@ -52,6 +52,19 @@ promise to run every card. A later gear change changes resource admission, not t
 source allocation, outcome rules or absolute end.
 
 ## Next operational actions
+
+The extension coordinator exited normally September 29 at 00:04 PDT. All 180 producers
+and the complete consumer are internally recorded; full replay verifies (L458). The queue
+has 686 complete, three retained failures, ten blocked and no running, pending or runnable
+card. All current manifests and source/input bindings pass; prior core cards are unchanged.
+The dispatcher lock is released. Only its exact exited process watch was retired; the live
+checkpoint helper, terminal registrations and four-hour health schedule remain intact.
+No recovery or refilling is authorized by the exit. Prepare the final packet from complete
+cells, retaining all failed admissions and the extension's missing full-tuned comparator.
+[Completion evidence](../../../results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
+
+The launch and recovery account below is historical; its workload estimates are not a
+current ETA, and its running-worker descriptions do not override this terminal snapshot.
 
 **Prior core successor:** `raw/plans/gear2-v3.json` preserves all 515 earlier cards and
 adds Qwen development admission, memory rendering admission, and one complete
@@ -90,11 +103,10 @@ consumer rehearsal remain applicable; complete real consumer replay now passes t
 3. Health event: inspect native identities, progress, failures, locks, resources,
    eligible work and watcher delivery. Document and recover within authority before
    ACK. The health ACK rearms four hours later; unrelated ACKs do not defer it.
-4. Continue the admitted whole extension under its unchanged models and calibration.
-   Each producer depends on the completed core consumer; the extension summary waits
-   for both arms on every fixed additional example. Do not subset by favorable results.
-   Land and replay the complete consumer, then prepare the final packet with the
-   core and extension reported separately and the full-tuned extension deficit explicit.
+4. The admitted whole extension is complete and replayed under unchanged models and
+   calibration. Prepare the final packet with core and extension reported separately,
+   both operating points retained and the full-tuned extension deficit explicit.
+   Do not dispatch new work merely because the machine is idle.
 
 5. The owner has changed to Gear 2. The serial coordinator was retired without
    stopping its active worker, which completed. The first concurrent launcher had
@@ -129,7 +141,7 @@ than repaired with a same-source duplicate. The primary Qwen comparison remains 
 The original context memory-type contrast is void because its rendered prompts
 are identical. Preserve the frozen records and reserve exposure; a bounded
 development correction passes actual-tokenizer realization admission and its
-development-only consumer runs. Existing original record census and score replay
+development-only consumer is complete and replayed. Existing original record census and score replay
 did not check this manipulation (L455); the original contrast remains void.
 
 The native queue and immutable-output regressions, known-answer scoring and location
