@@ -1,5 +1,17 @@
 # STATE: the agent's operational file
 
+## September 29, 01:33 PDT: drained queue remains healthy
+
+Current native inspection confirms 686 complete, three retained failures, ten blocked
+and no running, pending or runnable science. All current bindings and the dependency
+graph verify; final extension bytes and failures are unchanged. Dispatch/GPU locks are
+released; the checkpoint helper and sole watcher are live and fresh. Host resources and
+unchanged power limits pass. The health event reached the owner on its first attempt.
+No recovery or restart is needed. Final packet assembly remains authorized, with all
+scientific deficits, fixed deadline and Stage 12 closure retained. Original monitoring
+and native-inventory limitations remain. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_0133.json)
+and [health ACK/deadline](../results/phase_2_4_stage_13/HEALTH_20260929_0133_ACK.json).
+
 ## September 29, 00:21 PDT: extension complete; queue drained normally
 
 L458 records the complete additional-source consumer and full saved-output replay.

@@ -14,6 +14,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20260929_0133.json](HEALTH_20260929_0133.json) and [ACK](HEALTH_20260929_0133_ACK.json) | Completed queue, live checkpoint/watcher, limits and actual health delivery verify; no recovery or new science; next four-hour deadline retained |
 | [EXTENSION_RESERVE_20260929.json](EXTENSION_RESERVE_20260929.json) | Complete additional-source comparison replayed and recorded (L458); normal exit, no runnable cards, checkpoint/watcher and unchanged limits verified |
 | [EXTENSION_PRODUCERS_20260929_0001.json](EXTENSION_PRODUCERS_20260929_0001.json) | One additional-source producer fully verified; the advancing comparison worker and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2357.json](EXTENSION_PRODUCERS_20260928_2357.json) | Two additional-source producers fully verified; one advancing worker and unchanged watcher clock recorded |

@@ -5,7 +5,7 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: admitted queue complete; final packet pending
 
-September 29, 00:21 PDT: the queue exited normally at 00:04 PDT with **686 complete,
+September 29, 01:33 PDT health inspection: the queue remains normally completed after its 00:04 PDT exit with **686 complete,
 three retained failures and ten blocked cards**. No running, pending or runnable card remains.
 All 180 extension producers and the full comparison are recorded. Complete consumer replay
 passes across all 26 reports, with frozen models, calibration and source separation verified.
@@ -15,8 +15,8 @@ All 699 manifests and their source/input bindings pass; the 518 prior core cards
 Actual coordinator/worker absence and released dispatch/GPU locks verify. The checkpoint
 helper retains a fresh heartbeat and its held lock. The sole watcher retains verified loaded
 sources, fresh scanning and actual delivery of the three final notices. Only the exact exited
-coordinator watch was retired; terminal paths and health due **September 29 at 01:30 PDT**
-remain. Memory and disk headroom pass; AC processor maximum remains 90% with boost disabled.
+coordinator watch was retired; terminal paths remain. The 01:33 PDT health inspection
+passes; [its ACK receipt](results/phase_2_4_stage_13/HEALTH_20260929_0133_ACK.json) records the next four-hour deadline. Memory and disk headroom pass; AC processor maximum remains 90% with boost disabled.
 Earlier notification failure and the native queue-inventory sandbox limitation remain recorded.
 
 Gear 2 remains the authorized allocation; a drained queue grants no new work. The primary
@@ -54,7 +54,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-Next action: assemble the final packet from complete recorded comparisons; preserve the independent health inspection due September 29 at 01:30 PDT. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
+Next action: assemble the final packet from complete recorded comparisons; preserve the independent health schedule rearmed by the documented September 29 inspection. Qwen correction allowances are exhausted; its failed admission and missing primary-reader comparison remain in the final deficit record.
 
 ## Navigation
 

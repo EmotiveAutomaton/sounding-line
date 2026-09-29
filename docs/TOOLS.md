@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-0929-0133: Drained-queue identities, immutable bindings, dependency eligibility, released dispatch/GPU locks, live checkpoint, resource limits and actual health delivery verify. Final bytes and failures unchanged; no recovery required. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260929_0133.json).
+
 L458: Entire additional-source detector/location consumer replayed, including all 26 reports and both operating points. All 699 current manifests and dependency bindings verify; normal queue exit, released dispatch lock, live checkpoint and watcher delivery reconciled. Exact exited coordinator watch retired without resetting health. [Receipt](../results/phase_2_4_stage_13/EXTENSION_RESERVE_20260929.json).
 
 OPS-S13-EXTENSION-PRODUCERS-0929-0001: One causal-detector producer passes immutable source/input/output bindings, full coverage, finite features, applicable causal bounds after core completion; saved e5 probability replay is not applicable to this batch. The admitted comparison worker advances within existing limits. Watcher sources, actual deliveries and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260929_0001.json).

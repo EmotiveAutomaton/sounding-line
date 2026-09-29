@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-HEALTH-0929-0133: Drained queue and continuing supervision fully inspected and documented; no recovery or new science. Final packet assembly remains the next authorized work; health ACK records the next four-hour deadline.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0929-0001: One more extension producer fully recorded. All 180 producers are recorded; finish and replay the frozen complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2357: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.

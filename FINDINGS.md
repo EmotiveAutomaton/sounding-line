@@ -9,6 +9,31 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0929-0133 - drained queue and continuing supervision verify
+
+**Hypothesis.** A normally completed queue can remain idle while its checkpoint and delivery supervision stay healthy, without reopening failed or expired work.
+
+**METHOD.** Inspect the native coordinator, worker, checkpoint and watcher identities; terminal bytes and complete-card census; all current manifests and source/input bindings; dependency eligibility; retained failures; actual kernel-lock ownership; memory, disk and power settings; terminal registrations, loaded watcher sources and owner delivery. Compare the final extension bytes, failure records and watcher configuration to the completed landing. Retain the previous native queue-inventory sandbox limitation without an unchanged retry. No scientific score or model call is recomputed.
+
+The table reports current operational observations, not scientific performance. Counts are scheduler cards; ages are seconds at the inspection snapshot, and available memory/disk use GiB.
+
+| Check | Observation | Disposition |
+|---|---|---|
+| Queue | 686 complete, three retained failures, ten blocked; zero running, pending or runnable | Normal completed state; no new complete output since the prior landing |
+| Bindings | 699 manifests, 556 source bindings, 372 input bindings; all 518 prior core manifests unchanged | Full current graph and immutable bindings verify |
+| Process and locks | Coordinator and science workers absent; dispatch/GPU locks released; checkpoint lock held by the live helper | No orphan or restart needed |
+| Freshness | Checkpoint heartbeat about 15 seconds old; watcher scan about 20 seconds old | Fresh supervision; terminal queue status is intentionally unchanged |
+| Resources | 53.72 GiB available host memory, 783.51 GiB free disk; AC maximum 90%, boost disabled | Existing limits retained; no eligible GPU work |
+| Delivery | Health event actually delivered on its first attempt; sole watcher loaded-source hashes verify | Independent health ACK remains separate from ordinary activity |
+
+**Found.** The drained queue and continuing supervision are healthy. Retained failures, final comparison bytes and watcher configuration are unchanged. All completed extension evidence was already fully written through as L458. The checkpoint helper and sole watcher remain active; the exact exited coordinator watch remains retired. The original notification failure and native queue-inventory limitation are preserved. No recovery is required.
+
+**Means.** Continue final packet assembly from completed cells, retaining separate core/extension evidence and all deficits. Keep Stage 12 stopped, Qwen/readout allowances exhausted, Gear 2 unchanged, and Friday October 2 at 05:00 PDT as the final deadline. A documented health ACK rearms the next inspection four hours later; its exact deadline is in the separate ACK receipt. No tests harvested, new research, gear change, cloud use, delegation or scientific restart this pass.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the completed queue still safely supervised? Outcome: **Infrastructure**. Result: The drained queue and continuing supervision pass the operational inspection. Project meaning: Reporting can proceed without reopening scientific execution. Next engineering obligation: Assemble the final packet and retain the independent health schedule. Public claim: unchanged. Curator decision required: No scientific decision; separate publication authorization remains unresolved. Detail: [health receipt](results/phase_2_4_stage_13/HEALTH_20260929_0133.json).
+
+---
+
 ### L458 - additional sources repeat the matched detector advantage with weak location recovery
 
 **Hypothesis.** The frozen contribution-location features retain their detector advantage over equally costly document-label windows on previously unused source components, while independently recovering the contribution locations.
