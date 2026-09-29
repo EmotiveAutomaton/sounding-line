@@ -13,6 +13,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [EXTENSION_PRODUCERS_20260928_2204.json](EXTENSION_PRODUCERS_20260928_2204.json) | Three additional-source producers fully verified; six advancing workers and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2153.json](EXTENSION_PRODUCERS_20260928_2153.json) | Five additional-source producers fully verified; six advancing workers and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2147.json](EXTENSION_PRODUCERS_20260928_2147.json) | Three additional-source producers fully verified; six advancing workers and unchanged watcher clock recorded |
 | [EXTENSION_PRODUCERS_20260928_2142.json](EXTENSION_PRODUCERS_20260928_2142.json) | One additional-source producer fully verified; six advancing workers and unchanged watcher clock recorded |
