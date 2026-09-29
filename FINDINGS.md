@@ -9,6 +9,32 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0928-1705 - four-hour queue health and completed producer evidence
+
+**Hypothesis.** The authorized whole replication preserves its frozen inputs and can continue within its ownership, resource and fixed-finish constraints.
+
+**METHOD.** Verify every job manifest and source/input binding, immutable source capsules, original-card preservation and the dependency graph. Inspect native coordinator, worker and checkpoint identities, CPU advance, output freshness, numerical-thread environments, held kernel locks, memory/disk, power settings, failures and eligible work. Verify watcher identity, loaded sources, registrations and actual delivery; attempt a bounded read-only native queue inventory. Estimate remaining time from the slowest observed per-row rates with a 50% margin, six-worker allocation and dependency depth. Fully verify the newly completed causal-detector producer's output hashes, admitted identity, source/saved-row census, surface/token visibility, finite features and causal bounds without repeating model forwards.
+
+The table records complete producer coverage and incurred cost. Rows count examples; outputs count bound files; wall and CPU seconds are separate costs, not scientific performance scores.
+
+| Completed producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-006-gpt2-medium-logrank-g2r1 | 256 | 258 | 1717.874 | 1686.625 |
+
+**Found.** All 699 manifests, 556 source bindings, 372 input bindings and 379 plan/source-capsule bindings verify; all 518 core cards are preserved. Every extension node depends on the completed core consumer, and its final consumer requires all 180 prepared producers. The completed producer passes full coverage and saved-feature checks; nineteen extension producers are now fully landed. E5 probability replay is not applicable to this causal-detector batch.
+
+At 17:05 PDT the health snapshot has 524 completed, six running, 156 pending, three retained failures and ten blocked. The producer follow-up at 17:06 PDT has 527 completed, six running and 153 pending with failures and blocks unchanged. Scheduler completion counts and full landing counts remain distinct. All six native CPU workers advance with fresh output, single numerical threads and below-normal priority. Both kernel locks are held; Stage 13's checkpoint is live and fresh; Stage 12's final endpoint and retired watch remain closed. No unknown attempt, new scientific/monitor failure or stop/pause marker appears. At the health sample, 155 CPU cards are dependency-ready and none require GPU dispatch.
+
+Free host memory is 45.2 GiB and disk 790.9 GiB; AC maximum remains 90% and boost is disabled. The GPU has less free memory than the unchanged cold-admission floor, but there is no eligible GPU work. This grants no retry of failed Qwen admission and requires no interference with other applications. Conservative remaining runtime is 13.50 elapsed hours against 75.91 hours before Thursday's reporting boundary. The already admitted full extension fits; the forecast is not a completion guarantee and changes no source, method, selection or stopping rule.
+
+The sole watcher has verified native identity, loaded sources and fresh scanning. This health event actually reached the owner on its first attempt. The separate read-only queue-inventory helper could not initialize because it could not resolve its home directory in the sandbox; no inventory or future-delivery guarantee is claimed. The original notification failure remains historical, with no new durable-watcher error. The newly completed producer was inspected directly, without claiming delivery. Inspection checks were corrected to recognize process-watch failure registrations, normal worker completion during sampling, and the consumer's transitive core prerequisite; no operational mutation was required. Health ACK after full write-through rearms the independent four-hour clock. The legacy September queue log remains historical.
+
+**Means.** Continue the frozen whole CPU extension in Gear 2. No recovery, new research, cloud use, delegation or tests harvested this pass. Preserve Qwen/readout failures, exhausted corrections, the original void memory contrast, corrected development-only limits, weak location recovery and the absent full-tuned extension comparison. Stage 12 remains closed. Thursday 21:00 science cutoff and Friday 05:00 final packet remain fixed; unfinished performance scores are not reported. The previous external-push rejection remains unresolved and no push is retried.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the frozen queue remain healthy within its authorized bounds? Outcome: **Infrastructure**. Result: The queue and completed producer verify with the native inventory limitation retained. Project meaning: The whole admitted replication can continue without changing its frozen method. Next engineering obligation: Land subsequent completed producers and replay the complete extension consumer before the final packet. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/HEALTH_20260928_1705.json).
+
+---
+
 ### OPS-S13-EXTENSION-PRODUCERS-0928-1654 - additional-source producer evidence recorded
 
 **Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.

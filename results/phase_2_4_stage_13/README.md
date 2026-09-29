@@ -13,6 +13,8 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20260928_1705_ACK.json](HEALTH_20260928_1705_ACK.json) | Full landing precedes both acknowledgments; next independent health inspection verified |
+| [HEALTH_20260928_1705.json](HEALTH_20260928_1705.json) | Full queue/resource/lock/dependency health, actual health delivery, bounded inventory limitation and complete causal-detector producer |
 | [EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json](EXTENSION_PRODUCERS_20260928_1654_CORRECTED.json) | Corrected e5-only validation scope; original snapshot and evidence unchanged |
 | [EXTENSION_PRODUCERS_20260928_1654.json](EXTENSION_PRODUCERS_20260928_1654.json) | Original producer receipt; causal-bounds applicability corrected in the linked correction above |
 | [EXTENSION_PRODUCERS_20260928_1648.json](EXTENSION_PRODUCERS_20260928_1648.json) | Five additional-source producers fully verified; normal completion transition reconciled and six native workers verified |

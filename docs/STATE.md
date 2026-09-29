@@ -1,5 +1,20 @@
 # STATE: the agent's operational file
 
+## September 28, 17:05 PDT: four-hour health inspection complete
+
+All 699 manifests, 556 source bindings, 372 input bindings and 379 plan/capsule bindings
+verify; all 518 original cards remain unchanged. All prepared extension producers are
+required by the final consumer. Six CPU workers advance within Gear 2 limits; actual
+locks, resources, power settings and the Stage 13 checkpoint verify. Stage 12 remains closed.
+The 17:06 follow-up has 527 complete, six running, 153 pending, three retained failures
+and ten blocked; nineteen extension producers are fully recorded. No recovery needed.
+Conservative remaining time is 13.50 hours against 75.91 hours before reporting cutoff.
+The health wake actually reached the owner; a separate read-only native inventory probe
+could not resolve its home directory in the sandbox. Watcher sources and scanning verify.
+Next independent health inspection: 21:11 PDT. [ACK receipt](../results/phase_2_4_stage_13/HEALTH_20260928_1705_ACK.json). Original deficits and
+Friday 05:00 final packet remain. Prior automatic-review push rejection is unresolved.
+[Receipt](../results/phase_2_4_stage_13/HEALTH_20260928_1705.json).
+
 ## September 28, 16:54 PDT: extension producer evidence verified
 
 The complete e5 batch passes full bindings, coverage and saved-probability replay;

@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-HEALTH-0928-1705: Full four-hour health inspection and one complete producer recorded. Frozen extension fits the remaining time estimate; native inventory limitation retained. ACK rearms four hours later.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1654: One more extension producer fully recorded; continue the frozen whole extension and its complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1648: Five more extension producers fully recorded; completion transition reconciled without restart. Continue the frozen whole extension and its complete consumer.
