@@ -5,15 +5,15 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: running in Gear 2
 
-September 28, 20:43 PDT: six verified CPU workers advance through the admitted full extension.
-The queue has 612 complete, 68 pending, three retained failures and ten blocked cards;
-one hundred and seven extension producers are fully recorded. The 17:05 four-hour inspection verifies all
+September 28, 20:48 PDT: five continuing CPU workers advance through the admitted full extension; one scheduler-running card completed during sampling.
+The queue has 615 complete, 65 pending, three retained failures and ten blocked cards;
+one hundred and ten extension producers are fully recorded. The 17:05 four-hour inspection verifies all
 699 manifests and their bindings, complete dependency coverage, native ownership, progress,
 locks, memory/disk and power limits. No recovery is required. Conservative remaining time
 is 13.50 hours against 75.91 hours before Thursday's reporting cutoff. The final deadline
 remains Friday October 2 at 05:00 PDT. The health wake reached the owner; a separate native
 queue inventory probe could not initialize in the sandbox. Next health inspection: 21:11 PDT. [ACK receipt](results/phase_2_4_stage_13/HEALTH_20260928_1705_ACK.json).
-[Latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2043.json).
+[Latest producer verification](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2048.json).
 [Health and producer evidence](results/phase_2_4_stage_13/HEALTH_20260928_1705.json),
 [core result](results/phase_2_4_stage_13/CORE_RESERVE_20260928.json), and
 [extension admission](results/phase_2_4_stage_13/EXTENSION_20260928.json).
