@@ -12,6 +12,10 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEAL-MEMORY-PILOT-0929: Entire native pilot census, model/prompt/truth bindings, saved probability and proper-score replay verify. Independent measured capacity arithmetic admits the complete original family; six successor workers verify. No partial memory-effect claim. [Receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_PILOT_20260929.json).
+
+L459: Full seven-method detector comparison replays on both complete partitions and both frozen thresholds. Independent paired point calculations agree; original checkpoint/cuts and all source/input/output bindings verify. Bootstrap estimands and human-error differences remain separate, descriptive and post-exposure. [Receipt](../results/phase_2_4_stage_13/HEALING_DETECTOR_COMPARISON_20260929.json).
+
 OPS-S13-HEAL-STRONG-0929: All frozen strong-detector extension rows, input/output bindings and fixed-threshold summary replay verify. Full paired consumer remains unfinished; no interim performance claim. [Receipt](../results/phase_2_4_stage_13/HEALING_STRONG_PRODUCER_20260929.json).
 
 OPS-S13-HEALING-0929: All 44 Stage 13 tests pass. Native full-roster memory realization matches independent preflight; raw/linked facts and primary token lengths match. Fixed evidence projection makes most nominal view pairs identical, so no context-view claim follows. Frozen memory pilot and strong comparator are live; primary reader is resource-held. Thursday helper and native watcher registration verify. [Receipt](../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).

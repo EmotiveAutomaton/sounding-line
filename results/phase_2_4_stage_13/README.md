@@ -15,6 +15,8 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALING_MEMORY_PILOT_20260929.json](HEALING_MEMORY_PILOT_20260929.json) | Complete native memory pilot and outcome-independent whole-family capacity verify; six successor workers active |
+| [HEALING_DETECTOR_COMPARISON_20260929.json](HEALING_DETECTOR_COMPARISON_20260929.json) | Complete seven-method, two-partition comparison and paired source uncertainty replay (L459); delayed prior notices reconciled without resetting health |
 | [HEALING_STRONG_PRODUCER_20260929.json](HEALING_STRONG_PRODUCER_20260929.json) | Full frozen strong-detector extension producer verified; paired complete consumer remains running |
 | [HEALING_ROLLOUT_20260929.json](HEALING_ROLLOUT_20260929.json) and [ACK](HEALING_ROLLOUT_20260929_ACK.json) | Native memory admission, complete frozen corrective plan, advancing workers and Thursday supervision verify; Qwen resource-held |
 | [VALIDITY_20260929.json](VALIDITY_20260929.json) | Thorough retained-file/score audit passes; construct deficits justify separately authorized healing |

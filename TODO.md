@@ -2,12 +2,13 @@
 
 ## September 29 healing continuation
 
+- [x] OPS-S13-HEAL-MEMORY-PILOT-0929: Complete native pilot and whole-family capacity verified and recorded; six successor workers active.
 - [x] OPS-S13-HEAL-STRONG-0929: Whole strong extension producer verified and internally recorded; finish the running complete paired consumer.
 - [x] OPS-S13-HEALING-0929: Native admission and full operational health inspection written through; ACK only after this landing. [Rollout](results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
 - [x] OPS-S13-VALIDITY-0929: Full retained-file audit and applicable score replay; instrument deficits confirmed. Original suite and targeted checks pass; see audit receipt.
 - [ ] S13-HEAL-READER: One separately frozen named-category Qwen admission; original complete roster only if admitted, with all original comparisons and full consumer.
-- [ ] S13-HEAL-MEMORY: Full-roster tokenizer admission passed; CPU pilot running; information-matched raw/linked facts, equal-length primary conditions, repetition/misassociation/no-memory/irrelevant and unpadded controls; complete consumer.
-- [ ] S13-HEAL-DETECTOR: Frozen strong detector on the entire extension, paired source-bootstrap gains and human error differences, all frozen rivals, core and extension separate.
+- [ ] S13-HEAL-MEMORY: Full-roster tokenizer admission passed; native pilot and whole-family capacity passed; six successor workers running; information-matched raw/linked facts, equal-length primary conditions, repetition/misassociation/no-memory/irrelevant and unpadded controls; complete consumer.
+- [x] S13-HEAL-DETECTOR (L459): Complete frozen strong comparator and paired uncertainty replayed and written through; both partitions, all rivals and operating-point limits retained for Thursday packet.
 - [x] S13-HEAL-OPS: Contracts/cards/capsule frozen; exact old checkpoint retired; Thursday helper and advancing native CPU/GPU workers verified. Frozen capacity gates govern larger families.
 - [ ] S13-FINAL-THURSDAY: Full corrective write-through and one final scientific packet by assumed October 1 06:00 PDT; science ends September 30 22:00 PDT. All original failures and irreparable limits retained.
 

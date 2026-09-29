@@ -1,5 +1,13 @@
 # STATE: the agent's operational file
 
+## September 29, 06:10 PDT: memory pilot and capacity verified
+
+The complete 56-row pilot and capacity card pass all source/input/output checks, prompt/identity/truth checks and saved probability/loss replay. Whole-family capacity passes at a conservative 5.80 hours against 39.90 hours then available before cutoff. Snapshot: five complete, six running, twenty-two pending, no new failure; all successor native identities and single-thread/below-normal limits verify. Qwen remains resource-held. The full memory consumer is unfinished; no partial score is reported. [Pilot receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_PILOT_20260929.json).
+
+## September 29: complete detector healing comparison landed
+
+L459 records the complete seven-method comparison on both original source partitions, including the previously missing strong extension comparator and all paired diagnostic intervals. Full frozen-consumer replay, independent paired point checks and all source/input/output bindings pass. Original results, calibration and limitations remain. The memory family continues under its measured capacity gate; Qwen remains resource-held. The delayed memory-admission and health messages match the earlier committed landing and original ACKs; actual owner receipt is now observed and the next independent health deadline remains September 29 at 09:46 PDT. [Complete comparison](../results/phase_2_4_stage_13/HEALING_DETECTOR_COMPARISON_20260929.json). Final scientific synthesis remains Thursday October 1 at 06:00 PDT, with September 30 at 22:00 PDT science cutoff.
+
 ## September 29, 05:50 PDT: strong producer verified; complete comparison running
 
 The frozen strong-detector extension producer passes all row/input/output bindings and full saved-summary replay. Its complete paired consumer is running alongside the memory pilot; Qwen admission remains held for headroom. Queue snapshot: two complete, two running, twenty-nine pending; no new failure. Performance remains internal until complete-family write-through and the Thursday final packet. The documented health and memory-admission events were acknowledged; next independent health inspection is September 29 at 09:46 PDT. [Producer receipt](../results/phase_2_4_stage_13/HEALING_STRONG_PRODUCER_20260929.json), [health ACK](../results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929_ACK.json).

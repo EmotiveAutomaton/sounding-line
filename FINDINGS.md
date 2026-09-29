@@ -9,6 +9,81 @@ ran it.
 
 ---
 
+### OPS-S13-HEAL-MEMORY-PILOT-0929 - complete pilot verifies and full-family capacity passes
+
+**Hypothesis.** The information-matched memory instrument preserves all declared conditions in native prediction, and the entire original family fits before the science cutoff at its measured cost.
+
+**METHOD.** Verify the completed pilot and capacity manifests and all frozen source/input/output bindings. Check every source identity, truth, condition, saved row and prompt fingerprint against full-roster admission; replay probabilities from saved candidate likelihoods and each proper score without another neural call. Independently reproduce the outcome-independent capacity arithmetic and available time. Verify all successor native identities, single-thread limits, below-normal priority, fresh output, absence of new failures and unchanged watcher health deadline.
+
+This table reports complete producer integrity and incurred costs, not an unfinished memory-effect comparison. Capacity hours are the frozen conservative estimate at admission, not a guarantee of finish time.
+
+| Check | Observation | Disposition |
+|---|---|---|
+| Pilot coverage | Four original cases, two views, seven conditions; all 56 rows | Complete declared block |
+| Evidence and scoring | Original model, truth, row files, native prompt metadata, candidate-likelihood probabilities and proper scores agree | All producer checks pass |
+| Bound outputs | 59 pilot files and two capacity files; all 361 source bindings and nine pilot input bindings verify | Immutable evidence retained |
+| Pilot cost | 1,610.947 wall seconds; 1,581.031 CPU seconds | Measured whole-family admission input |
+| Whole-family capacity | 5.80 hours including conservative multiplier, consumer and audit; 39.90 hours available before science cutoff | Gate admits all 17 original blocks |
+| Current execution | Five complete cards, six native CPU workers, twenty-two pending; no new failure | Memory family running; Qwen resource-held |
+
+**Found.** The entire pilot's saved predictions and scores replay, its prompt metadata matches the full native admission, and the whole-family capacity gate passes from measured cost alone. Six successor workers have verified native identities, fresh output and the declared thread/priority limits. The capacity card costs 3.003 wall seconds and 1.297 CPU seconds; independent inspection costs 1.688 CPU seconds. This is instrument and operational evidence, not a memory-benefit finding.
+
+**Means.** Continue the complete frozen memory family and its complete-only consumer. Preserve the original VOID comparison, artificial padding, exposed human records, one-component limitation and frequent equality of projected evidence views. Qwen admission remains held for GPU headroom without evicting applications or relaxing its floor. Thursday final packet and Wednesday science cutoff remain; the independent health inspection is still due September 29 at 09:46 PDT. No new tests harvested, scientific scope, delegation or paid compute.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Is the repaired memory pilot intact and can the whole family fit? Outcome: **Infrastructure**. Result: The complete pilot verifies and the measured whole-family gate admits continuation. Project meaning: Native execution realizes the declared comparison, whose effect remains for the complete consumer. Next engineering obligation: Verify the remaining producers and land the complete family. Public claim: unchanged. Curator decision required: No. Detail: [pilot and capacity receipt](results/phase_2_4_stage_13/HEALING_MEMORY_PILOT_20260929.json).
+
+---
+
+### L459 - paired uncertainty confirms a bounded matched-feature advantage, not strong-detector superiority
+
+**Hypothesis.** Located contribution features improve detection over matched document-label features and the already selected strong detector on both complete source partitions, without materially worsening human false positives.
+
+**METHOD.** Complete the missing full-tuned RoBERTa comparison on all 22,940 extension examples using its original selected checkpoint and calibration cuts. Compare all seven frozen methods on the identical 17,344 core examples from 1,000 source components and 22,940 extension examples from 1,356 separate components. Replay the entire frozen consumer and independently recompute paired point differences, verifying complete row/truth correspondence, all source/input/output bindings, and disjoint core/extension sources. Use 4,000 paired source-component bootstrap resamples with fixed seed 130929 for located minus matched windows and located minus RoBERTa at both original calibration thresholds. No refitting, threshold search, new neural call during audit, p-value or retrospective promotion gate.
+
+The table reports every complete method. Core and extension are source-disjoint partitions of the same OpAI corpus of human originals and machine revisions. Each threshold column gives pooled machine-revision recall / human false-positive rate, both in percent, at that method's frozen cut targeting the indicated calibration-human error rate. The achieved human error rates differ. The final column is logarithmic probability loss averaged equally over sources; smaller is better. Full individual-method intervals, curve metrics, probability losses, hypothetical-prevalence precision and selective-risk summaries remain in the aggregate receipt.
+
+| Partition | Complete method | 1% target: recall / human errors | 5% target: recall / human errors | Source-average logarithmic loss |
+|---|---|---|---|---|
+| Core | Surface and length reference | 18.51 / 0.70 | 33.46 / 3.70 | 0.595 |
+| Core | GPT-2-medium likelihood and log rank | 1.35 / 1.20 | 9.09 / 4.60 | 0.688 |
+| Core | Released e5 detector | 4.30 / 2.30 | 12.27 / 7.70 | 0.450 |
+| Core | Direct score and surface combination | 22.63 / 0.70 | 38.70 / 4.90 | 0.570 |
+| Core | Matched document-label windows | 33.82 / 0.40 | 50.98 / 5.00 | 0.495 |
+| Core | Located-label windows | 39.98 / 0.60 | 51.69 / 3.50 | 0.479 |
+| Core | Fully tuned RoBERTa | 47.14 / 1.40 | 62.49 / 6.10 | 0.184 |
+| Extension | Surface and length reference | 19.31 / 0.66 | 34.37 / 4.50 | 0.586 |
+| Extension | GPT-2-medium likelihood and log rank | 1.73 / 1.03 | 9.47 / 5.01 | 0.686 |
+| Extension | Released e5 detector | 4.53 / 1.40 | 13.01 / 7.23 | 0.441 |
+| Extension | Direct score and surface combination | 23.69 / 0.88 | 39.68 / 4.65 | 0.559 |
+| Extension | Matched document-label windows | 34.69 / 0.37 | 51.61 / 4.72 | 0.483 |
+| Extension | Located-label windows | 40.19 / 0.88 | 51.73 / 2.80 | 0.473 |
+| Extension | Fully tuned RoBERTa | 46.63 / 1.18 | 61.91 / 5.60 | 0.186 |
+
+The paired table reports **located minus the named rival**, in percentage points, with pointwise 95% source-bootstrap intervals in brackets. Pooled recall weights revisions equally; source-average recall first averages revisions within a source and then weights sources equally. They are different estimands. A positive human-error difference means more human originals wrongly flagged. Each partition has one human original per component; all 4,000 resamples define every reported contrast. These are post-exposure descriptive intervals, without a multiplicity-adjusted confirmatory decision.
+
+| Partition | Calibration target | Rival | Pooled recall difference [95% interval] | Source-average recall difference [95% interval] | Human-error difference [95% interval] |
+|---|---|---|---|---|---|
+| Core | 1% | Matched document-label windows | +6.17 [+5.47, +6.89] | +6.86 [+6.13, +7.61] | +0.20 [-0.20, +0.60] |
+| Core | 1% | Fully tuned RoBERTa | -7.16 [-8.68, -5.67] | -5.56 [-6.84, -4.28] | -0.80 [-1.60, +0.00] |
+| Core | 5% | Matched document-label windows | +0.71 [-0.01, +1.46] | +1.22 [+0.58, +1.87] | -1.50 [-2.70, -0.40] |
+| Core | 5% | Fully tuned RoBERTa | -10.81 [-12.56, -9.15] | -9.41 [-10.85, -8.12] | -2.60 [-4.20, -1.00] |
+| Extension | 1% | Matched document-label windows | +5.49 [+4.95, +6.07] | +6.04 [+5.48, +6.64] | +0.52 [+0.00, +1.11] |
+| Extension | 1% | Fully tuned RoBERTa | -6.44 [-7.60, -5.23] | -4.86 [-5.94, -3.75] | -0.29 [-1.11, +0.44] |
+| Extension | 5% | Matched document-label windows | +0.12 [-0.53, +0.78] | +0.58 [+0.05, +1.13] | -1.92 [-2.88, -0.96] |
+| Extension | 5% | Fully tuned RoBERTa | -10.18 [-11.54, -8.77] | -8.29 [-9.44, -7.12] | -2.80 [-4.28, -1.33] |
+
+**Found.** At the stricter calibration target, located features retain a positive matched-window pooled-recall advantage on both partitions, and both descriptive gain intervals lie above the earlier three-point engineering margin. At the other target, both pooled-recall gain intervals include zero, although the equal-source averages remain positive; those are distinct weighting questions. Human-error differences favor located features at the 5% target but rise at the 1% target. The core stricter-target error interval spans zero and the extension interval touches zero. Neither interval proves equivalent error rates or satisfies the missing prespecified tolerance for material deterioration.
+
+Located features have lower recall than full-tuned RoBERTa at both frozen operating points on both partitions, with every paired recall interval below zero. Located features also flag fewer human originals, clearly so at the 5% target. These different achieved operating points establish a recall/error tradeoff, not dominance or superiority at equal achieved human error. The stronger baseline also has substantially lower source-average probability loss. Completing this comparator therefore does not license general detector superiority.
+
+**Means.** The missing paired uncertainty and full extension comparator are now available. They reinforce a bounded matched-feature contribution while retaining operating-point and estimand dependence. The original location-recovery results and all 26 descriptive slices remain in L457 and L458; this aggregate healing comparison adds no new strong-detector slice analysis or contribution-location measurement. Poor absolute location recovery, the small short-text reversal, source-grouping limits, unresolved writer identity/upstream exposure and lack of human mental-goal truth remain. The post-exposure calculation cannot retroactively create the unimplemented promotion rule. Preserve original receipts and failures, continue the separate memory/reader healing gates, and include this complete family in Thursday's final packet. No tests harvested, new research, cloud use or delegation.
+
+**Verification and cost.** All 361 source and 44,611 input bindings and completed outputs verify. The complete frozen consumer replays, and independent point calculations agree for both recall weightings and human errors. Consumer cost: 341.001 wall seconds and 334.375 CPU seconds; independent audit cost: 396.531 CPU seconds. Strong-producer costs remain in its preceding receipt and are not added twice. Delayed memory-admission and health messages match their previously completed landing and original ACKs; the admission bytes are unchanged, actual owner receipt is now observed, and the independent health deadline remains September 29 at 09:46 PDT.
+
+**Curator roll-up.** Theory group: artifact traces and instrument validity. Question: Does the located-feature detector advantage survive paired uncertainty and the complete strong comparator? Outcome: **Narrows**. Result: The matched-feature advantage survives at the stricter operating point, while the strong detector trades higher recall for more human errors. Project meaning: A useful bounded feature contribution remains distinct from competitive dominance or process reconstruction. Next engineering obligation: Retain all contrasts and limits in the final packet while completing the independently gated healing families. Public claim: unchanged; general superiority, formal promotion and historical-process recovery remain unlicensed. Curator decision required: No. Detail: [complete paired-comparison receipt](results/phase_2_4_stage_13/HEALING_DETECTOR_COMPARISON_20260929.json).
+
+---
+
 ### OPS-S13-HEAL-STRONG-0929 - frozen strong-detector producer verified
 
 **Hypothesis.** The missing strong detector comparison can retain complete predictions on the original extension under the already selected model and calibration cuts.

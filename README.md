@@ -32,13 +32,17 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current work, September 28:** Stage 13 implementation is approved under Gear 2, with a fixed
-October 2 at 05:00 PDT finish. The six-worker CPU queue continues; full GPU training and evaluation are complete. Qwen admission and its separate bounded development correction failed; correction allowances are exhausted and the original dependent work remains blocked. The completed context analysis exposes an invalid memory-type contrast, recorded in FINDINGS L455; separately corrected development memory inputs and their complete consumer replay (L456), without a general memory-benefit claim or reserve rerun. Independent studies continue. Stage 12 generation is stopped and its
-[final evidence packet is assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md);
-its [September 28 endpoint is reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json), with scientific deficits retained. See
-[the current status](CURRENT_STATUS.md), [Stage 13 plan](docs/design/stage-13/IMPLEMENTATION_PLAN.md)
-and [documentation map](docs/README.md). Dated execution history is retained in
-[the operating archive](docs/archive/operations/README.md).
+**Current work, September 29:** The completed Stage 13 evidence passes retained-file
+validation, while instrument and comparison deficits require the authorized healing pass.
+The separately frozen corrective queue runs under existing Gear 2. Its complete detector
+comparison is internally recorded; memory and reader work remain gated by validity,
+resources and whole-family capacity. Original failed attempts and limitations remain.
+The current endpoint is **Thursday October 1 at 06:00 PDT**, with science ending
+Wednesday September 30 at 22:00 PDT. See [current status](CURRENT_STATUS.md) and
+[the healing design](docs/design/stage-13/HEALING_20260929.md).
+Stage 12 remains stopped with its [final evidence packet assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md)
+and [final endpoint reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json).
+Dated execution history remains in [the operating archive](docs/archive/operations/README.md).
 
 Three things this does not establish: it is not a general intent detector, it is not a reader of
 anyone's values, and it is not a tool for judging a person or their work. Nothing in this
