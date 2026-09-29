@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0929-0001: One more extension producer fully recorded. All 180 producers are recorded; finish and replay the frozen complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2357: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-2352: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
