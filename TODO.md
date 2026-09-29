@@ -2,6 +2,8 @@
 
 ## Stage 13 - implementation approved, September 27
 
+- [x] OPS-S13-EXTENSION-PRODUCERS-0928-1801: Four more extension producers fully recorded; preserve actual worker/completion distinctions. Continue the frozen whole extension and complete consumer.
+
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1755: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
 
 - [x] OPS-S13-EXTENSION-PRODUCERS-0928-1747: Two more extension producers fully recorded. Continue the frozen whole extension and complete consumer.
