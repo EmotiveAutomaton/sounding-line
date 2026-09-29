@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### OPS-S13-EXTENSION-PRODUCERS-0928-2357 - additional-source producer evidence recorded
+
+**Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
+
+**METHOD.** Verify each immutable manifest, source/input/output binding, admitted detector identity, complete source and saved-row census, surface features and token visibility. Check finite features and causal-detector bounds without repeating model forwards; e5 probability replay is not applicable to this batch. Check that dispatch follows the completed core consumer. Verify actual coordinator and worker identities, numerical-thread limits, below-normal priority, fresh output and CPU advance. Retain the distinction between scheduler-running cards and workers that complete during sampling. Reconcile watcher sources, registrations, actual delivery and the independent health clock.
+
+The table records complete producers, not performance scores. Rows count examples, outputs count hash-verified files, and wall/CPU seconds are separate incurred costs.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-086-gpt2-medium-logrank-g2r1 | 256 | 258 | 1713.201 | 1690.906 |
+| reserve-extension-v1-087-gpt2-medium-logrank-g2r1 | 256 | 258 | 1649.229 | 1628.469 |
+
+**Found.** Both completed causal-detector producers pass complete coverage and saved-evidence checks against 353 source bindings and two input bindings. One hundred and seventy-nine extension producers are now fully recorded. At 23:57 PDT the scheduler snapshot has 684 complete, 1 running and 1 pending card, with the same three retained failures and ten blocked. The remaining native CPU worker has fresh progress and positive sampled CPU advance. Actual ownership, single numerical threads and below-normal priority verify. No new scientific or monitor failure appears, and no restart is needed. The sole watcher retains verified loaded sources and fresh scanning; the independent four-hour inspection remains due September 29 at 01:30 PDT. One produce has actual owner delivery recorded; one additional completed produce was inspected directly without claiming delivery. Saved e5 probability replay is not applicable to this causal-detector batch. One producer job remains active; the single pending comparison waits for all fixed producers, so the lower worker count is expected. Scheduler completion counts and fully recorded producer counts remain distinct.
+
+**Means.** Continue the full prepared extension with fixed source roster, models, calibration and selection. The whole comparison remains unfinished. No new full-tuned comparator is part of this extension, and original source, location and missing-arm limitations remain. Friday's final packet, Thursday's science cutoff and Stage 12 closure are unchanged. No tests harvested, new research, cloud use or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the admitted replication retain complete and replayable evidence? Outcome: **Infrastructure**. Result: Complete producer evidence verifies while the authorized queue advances. Project meaning: The whole comparison can continue without altering its frozen method. Next engineering obligation: Land subsequent complete producers and replay the complete consumer. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2357.json).
+
+---
+
 ### OPS-S13-EXTENSION-PRODUCERS-0928-2352 - additional-source producer evidence recorded
 
 **Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
