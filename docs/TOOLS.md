@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-EXTENSION-PRODUCERS-0928-2213: One causal-detector producer passes immutable source/input/output bindings, full coverage, finite features, applicable causal bounds after core completion; saved e5 probability replay is not applicable to this batch. Six active native CPU workers advance within existing limits. Watcher sources, actual deliveries and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2213.json).
+
 OPS-S13-EXTENSION-PRODUCERS-0928-2204: Three extension producers pass immutable source/input/output bindings, full coverage, finite features, applicable causal bounds and saved e5 probability replay after core completion. Six active native CPU workers advance within existing limits. Watcher sources, actual deliveries and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2204.json).
 
 OPS-S13-EXTENSION-PRODUCERS-0928-2153: Five extension producers pass immutable source/input/output bindings, full coverage, finite features, applicable causal bounds and saved e5 probability replay after core completion. Six active native CPU workers advance within existing limits. Watcher sources, actual deliveries and independent health clock verify. [Receipt](../results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_2153.json).
