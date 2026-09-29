@@ -9,6 +9,35 @@ ran it.
 
 ---
 
+### OPS-S13-EXTENSION-PRODUCERS-0928-1716 - additional-source producer evidence recorded
+
+**Hypothesis.** The admitted additional-source replication retains complete, replayable detector evidence after the fully completed core comparison.
+
+**METHOD.** Verify each immutable manifest, source/input/output binding, admitted detector identity, complete source and saved-row census, surface features and token visibility. Check finite features and causal-detector bounds where applicable; replay saved e5 probabilities without repeating model forwards. Check that dispatch follows the completed core consumer. Verify actual coordinator and worker identities, numerical-thread limits, below-normal priority, fresh output and CPU advance. Preserve the first snapshot and inspect one normal completion transition separately. Reconcile watcher sources, registrations, delivery and the independent health clock.
+
+The table records complete producers, not performance scores. Rows count examples, outputs count hash-verified files, and wall/CPU seconds are separate incurred costs.
+
+| Complete extension producer | Rows | Verified outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|
+| reserve-extension-v1-007-gpt2-medium-logrank-g2r1 | 256 | 258 | 1750.601 | 1721.984 |
+| reserve-extension-v1-008-gpt2-medium-logrank-g2r1 | 256 | 258 | 1710.016 | 1681.000 |
+| reserve-extension-v1-009-gpt2-medium-logrank-g2r1 | 256 | 258 | 1719.824 | 1699.781 |
+| reserve-extension-v1-010-gpt2-medium-logrank-g2r1 | 256 | 258 | 1693.726 | 1673.656 |
+| reserve-extension-v1-011-gpt2-medium-logrank-g2r1 | 256 | 258 | 1667.130 | 1646.125 |
+| reserve-extension-v1-012-e5-g2r1 | 256 | 258 | 125.583 | 122.016 |
+| reserve-extension-v1-013-e5-g2r1 | 256 | 258 | 124.707 | 121.250 |
+| reserve-extension-v1-014-e5-g2r1 | 256 | 258 | 97.010 | 93.484 |
+| reserve-extension-v1-015-e5-g2r1 | 256 | 258 | 100.435 | 96.438 |
+| reserve-extension-v1-016-e5-g2r1 | 256 | 258 | 102.747 | 99.281 |
+
+**Found.** All ten producers pass complete coverage and saved-evidence checks against 353 source bindings and ten input bindings. Twenty-nine extension producers are now fully recorded. The initial snapshot had 533 complete and six scheduler-running cards, with five workers still active because one had just completed. At 17:16 PDT the follow-up verifies normal successor dispatch: 534 complete, 6 running and 146 pending cards, with the same three retained failures and ten blocked. All six native CPU workers have fresh progress within existing limits; the five workers retained from the earlier sample show positive CPU advance, and the new worker has fresh progress. No scientific restart or new failure occurred. The sole watcher retains verified loaded sources and fresh scanning; the independent four-hour inspection remains due at 21:11 PDT. Seven produces have actual owner delivery recorded; three further completed produces were inspected directly without claiming delivery.
+
+**Means.** Continue the full prepared extension with fixed source roster, models, calibration and selection. The whole comparison remains unfinished. No new full-tuned comparator is part of this extension, and original source, location and missing-arm limitations remain. Friday's final packet, Thursday's science cutoff and Stage 12 closure are unchanged. No tests harvested, new research, cloud use or delegation.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the admitted replication retain complete and replayable evidence? Outcome: **Infrastructure**. Result: Complete producer evidence verifies while the authorized queue advances. Project meaning: The whole comparison can continue without altering its frozen method. Next engineering obligation: Land subsequent complete producers and replay the complete consumer. Public claim: unchanged. Curator decision required: No scientific decision; publication authorization remains unresolved. Detail: [receipt](results/phase_2_4_stage_13/EXTENSION_PRODUCERS_20260928_1716.json).
+
+---
+
 ### OPS-S13-HEALTH-0928-1705 - four-hour queue health and completed producer evidence
 
 **Hypothesis.** The authorized whole replication preserves its frozen inputs and can continue within its ownership, resource and fixed-finish constraints.
