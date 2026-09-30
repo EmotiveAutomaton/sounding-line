@@ -9,6 +9,209 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0929-1800 - reader remains resource-held; supervision verifies
+
+**Hypothesis.** The completed corrective families remain preserved, while the unfinished reader family waits for its actual resource gate under functioning supervision.
+
+**METHOD.** Inspect native coordinator, wrapper, completed-worker, checkpoint and watcher identities; compare retained terminal hashes with previously acknowledged landing bindings and verify both complete consumers' output bindings. Recheck all frozen manifests, source pins and pending reader input pins, dependency eligibility, unknown attempts, failures, kernel locks, actual GPU readiness, host/disk headroom, power limits and terminal registration. Verify this health event's recorded owner delivery, loaded watcher sources and the independent health clock. This is an operational inspection; previous full scientific replay stands without another neural call or effect estimate.
+
+The table describes queue state and resource checks at 18:00 PDT. Counts refer to frozen healing cards; free memory is actual measured headroom, and the requirement is the unchanged cold-model admission floor.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 22 complete, 11 pending, no running worker or new failure |
+| Authorized next card | Reader admission eligible; ten descendants gated |
+| GPU free / required | 7,589 / 8,024 MiB; admission refused |
+| Host / disk free | 51.90 / 771.28 GiB |
+| Power and gear | Gear 2, six single-thread CPU slots, one GPU; AC maximum 90%, boost off |
+| Native owners | Coordinator, wrapper and all completed workers absent; Thursday helper and sole watcher verified |
+| Kernel locks | Queue released, checkpoint held, global GPU lock absent |
+| Freshness | Checkpoint heartbeat 5.87 seconds old; watcher scan 55.81 seconds old |
+| Immutable records | 33 cards, 361 source pins, 10 distinct pending input pins, 22 landed terminal hashes and both consumers' output bindings verify |
+| Delivery | Health event reached owner on its first attempt, 43.36 seconds after its due time; no new delivery error |
+
+**Found.** The normal resource-held exit remains valid. No new output is orphaned, no unknown attempt exists, and completed write-through files remain unchanged. The Qwen model identity verifies with no resident-model credit; insufficient actual GPU memory continues to block admission. The original queue's three failures and ten blocked cards, the old notification timeout and closed Stage 12 endpoint remain preserved. The inexpensive checkpoint and watcher are live and fresh; all final/failure paths and the exact checkpoint watch remain registered. The retired coordinator watch stays retired. Inspection cost 0.391 CPU seconds.
+
+**Means.** No recovery is required while the resource gate remains closed. Do not restart the drained queue, close other applications, relax the admission floor or rerun completed science. Reassess the same authorized reader family at the next independent health inspection; a later eligible continuation needs a fresh queue identity, literal admission and whole-family capacity before release. No tests harvested, delegation, new study, spend or extra polling wake. The science cutoff remains Wednesday September 30 22:00 PDT and the final scientific packet Thursday October 1 06:00 PDT. Full operational write-through precedes this health ACK, which alone rearms the next four-hour inspection. Exact next due time is retained in the ACK receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the completed queue correctly waiting under its unchanged resource gate? Outcome: **Infrastructure**. Result: The reader remains resource-held with healthy supervision and no new failure. Project meaning: The pause supplies no new scientific verdict. Next engineering obligation: Reassess admission headroom at the next independent health event and preserve the Thursday final packet. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260929_1800_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260929_1800_ACK_PUBLIC.json).
+
+---
+
+### OPS-S13-HEALTH-0929-1356 - reader remains resource-held; supervision verifies
+
+**Hypothesis.** The completed corrective families remain preserved, while the unfinished reader family waits for its actual resource gate under functioning supervision.
+
+**METHOD.** Inspect native coordinator, wrapper, completed-worker, checkpoint and watcher identities; compare retained terminal hashes with previously acknowledged landing bindings and verify both complete consumers' output bindings. Recheck all frozen manifests, source pins and pending reader input pins, dependency eligibility, unknown attempts, failures, kernel locks, actual GPU readiness, host/disk headroom, power limits and terminal registration. Verify this health event's recorded owner delivery, loaded watcher sources and the independent health clock. This is an operational inspection; previous full scientific replay stands without another neural call or effect estimate.
+
+The table describes queue state and resource checks at 13:56 PDT. Counts refer to frozen healing cards; free memory is actual measured headroom, and the requirement is the unchanged cold-model admission floor.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 22 complete, 11 pending, no running worker or new failure |
+| Authorized next card | Reader admission eligible; ten descendants gated |
+| GPU free / required | 7,995 / 8,024 MiB; admission refused |
+| Host / disk free | 52.76 / 773.19 GiB |
+| Power and gear | Gear 2, six single-thread CPU slots, one GPU; AC maximum 90%, boost off |
+| Native owners | Coordinator, wrapper and all completed workers absent; Thursday helper and sole watcher verified |
+| Kernel locks | Queue released, checkpoint held, global GPU lock absent |
+| Freshness | Checkpoint heartbeat 1.20 seconds old; watcher scan 6.62 seconds old |
+| Immutable records | 33 cards, 361 source pins, 10 distinct pending input pins, 22 landed terminal hashes and both consumers' output bindings verify |
+| Delivery | Health event reached owner on its first attempt, 46.03 seconds after its due time; no new delivery error |
+
+**Found.** The normal resource-held exit remains valid. No new output is orphaned, no unknown attempt exists, and completed write-through files remain unchanged. The Qwen model identity verifies with no resident-model credit; insufficient actual GPU memory continues to block admission. The original queue's three failures and ten blocked cards, the old notification timeout and closed Stage 12 endpoint remain preserved. The inexpensive checkpoint and watcher are live and fresh; all final/failure paths and the exact checkpoint watch remain registered. The retired coordinator watch stays retired. Inspection cost 0.688 CPU seconds.
+
+**Means.** No recovery is required while the resource gate remains closed. Do not restart the drained queue, close other applications, relax the admission floor or rerun completed science. Reassess the same authorized reader family at the next independent health inspection; a later eligible continuation needs a fresh queue identity, literal admission and whole-family capacity before release. No tests harvested, delegation, new study, spend or extra polling wake. The science cutoff remains Wednesday September 30 22:00 PDT and the final scientific packet Thursday October 1 06:00 PDT. Full operational write-through precedes this health ACK, which alone rearms the next four-hour inspection. Exact next due time is retained in the ACK receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the completed queue correctly waiting under its unchanged resource gate? Outcome: **Infrastructure**. Result: The reader remains resource-held with healthy supervision and no new failure. Project meaning: The pause supplies no new scientific verdict. Next engineering obligation: Reassess admission headroom at the next independent health event and preserve the Thursday final packet. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260929_1356_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260929_1356_ACK_PUBLIC.json).
+
+---
+
+### OPS-S13-HEALTH-0929-0951 - reader remains resource-held; supervision verifies
+
+**Hypothesis.** The completed corrective families remain preserved, while the unfinished reader family waits for its actual resource gate under functioning supervision.
+
+**METHOD.** Inspect native coordinator, wrapper, completed-worker, checkpoint and watcher identities; compare retained terminal hashes with previously acknowledged landing bindings and verify both complete consumers' output bindings. Recheck all frozen manifests, source pins and pending reader input pins, dependency eligibility, unknown attempts, failures, kernel locks, actual GPU readiness, host/disk headroom, power limits and terminal registration. Verify this health event's recorded owner delivery, loaded watcher sources and the independent health clock. This is an operational inspection; previous full scientific replay stands without another neural call or effect estimate.
+
+The table describes queue state and resource checks at 09:51 PDT. Counts refer to frozen healing cards; free memory is actual measured headroom, and the requirement is the unchanged cold-model admission floor.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 22 complete, 11 pending, no running worker or new failure |
+| Authorized next card | Reader admission eligible; ten descendants gated |
+| GPU free / required | 7,958 / 8,024 MiB; admission refused |
+| Host / disk free | 52.53 / 779.91 GiB |
+| Power and gear | Gear 2, six single-thread CPU slots, one GPU; AC maximum 90%, boost off |
+| Native owners | Coordinator, wrapper and all completed workers absent; Thursday helper and sole watcher verified |
+| Kernel locks | Queue released, checkpoint held, global GPU lock absent |
+| Freshness | Checkpoint heartbeat 5.24 seconds old; watcher scan 51.22 seconds old |
+| Immutable records | 33 cards, 361 source pins, 10 distinct pending input pins, 22 landed terminal hashes and both consumers' output bindings verify |
+| Delivery | Health event reached owner on its first attempt, 70.12 seconds after its due time; no new delivery error |
+
+**Found.** The normal resource-held exit remains valid. No new output is orphaned, no unknown attempt exists, and completed write-through files remain unchanged. The Qwen model identity verifies with no resident-model credit; insufficient actual GPU memory continues to block admission. The original queue's three failures and ten blocked cards, the old notification timeout and closed Stage 12 endpoint remain preserved. The inexpensive checkpoint and watcher are live and fresh; all final/failure paths and the exact checkpoint watch remain registered. The retired coordinator watch stays retired. Inspection cost 0.375 CPU seconds.
+
+**Means.** No recovery is required while the resource gate remains closed. Do not restart the drained queue, close other applications, relax the admission floor or rerun completed science. Reassess the same authorized reader family at the next independent health inspection; a later eligible continuation needs a fresh queue identity, literal admission and whole-family capacity before release. No tests harvested, delegation, new study, spend or extra polling wake. The science cutoff remains Wednesday September 30 22:00 PDT and the final scientific packet Thursday October 1 06:00 PDT. Full operational write-through precedes this health ACK, which alone rearms the next four-hour inspection. Exact next due time is retained in the ACK receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the completed queue correctly waiting under its unchanged resource gate? Outcome: **Infrastructure**. Result: The reader remains resource-held with healthy supervision and no new failure. Project meaning: The pause supplies no new scientific verdict. Next engineering obligation: Reassess admission headroom at the next independent health event and preserve the Thursday final packet. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260929_0951_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260929_0951_ACK_PUBLIC.json).
+
+---
+
+### L460 - matched memory changes the recorded-action forecast, without an overall memory benefit
+
+**Hypothesis.** Linking the same retrieved facts to their recorded roles improves a model reader's support for the actual handling of a writing suggestion beyond raw facts or repetition.
+
+**METHOD.** Run the separately frozen matched-memory repair on all 68 original exposed CoAuthor episodes: four development, eight calibration and fifty-six reserve records, each with two nominal evidence views and seven conditions. The original GPT-2-medium reader assigns conditional likelihoods to the same five ordered action labels. Both raw and linked memory contain the identical declared projection of one retrieved training episode from a separate connected source component: handling, endpoint excerpt, slot, actor, operation, relation and exact spans. Rendering round trips preserve these fields; supplemental span identifiers, span-state labels and related-slot metadata are absent from both. The main conditions have equal native-token length within each episode/view, with explicit padding; unpadded raw facts measure padding sensitivity. Repeat raw memory exactly, cyclically misassociate the same fact bundles, provide irrelevant context, or omit memory as controls. Evidence is the first 200 native tokens of the original bounded projection; every complete prompt stays within 960 native tokens. No new source selection, fitting, threshold selection or neural repeats occur during the audit.
+
+**Validity.** All seventeen producers pass their immutable bindings and full cases-by-views-by-conditions census. Saved native prompt fingerprints and token lengths match full-roster admission; truths, original model identity, individual row files and candidate likelihoods verify. The complete 952-row consumer reproduces exactly. Independent probability reconstruction, categorical loss arithmetic, means and paired differences agree for all 252 reported statistics. Every partition contains only one connected source component, so all population intervals remain unavailable. Sixty-one of sixty-eight nominal view pairs have identical native prompts and predictions across every condition; the two views are not independent replications.
+
+The table gives complete descriptive means for every partition and condition. A is the artifact projection; C nominally adds prior text and offered alternatives, subject to the declared evidence clipping. Log loss is negative natural log probability assigned to the true action (lower is better). Brier loss is summed squared probability error over the five labels (lower is better); accuracy is the fraction whose most probable label is correct (higher is better). One source component per partition means these are episode means within that component, not population estimates.
+
+| Partition | Memory condition | A log loss | A Brier loss | A accuracy | C log loss | C Brier loss | C accuracy |
+|---|---|---|---|---|---|---|---|
+| Development | No memory | 2.022961 | 0.936597 | 0.000000 | 2.022961 | 0.936597 | 0.000000 |
+| Development | Raw facts, padded | 2.485247 | 1.154731 | 0.000000 | 2.485247 | 1.154731 | 0.000000 |
+| Development | Linked facts, padded | 1.974561 | 1.043278 | 0.000000 | 1.974561 | 1.043278 | 0.000000 |
+| Development | Repeated raw facts | 2.522454 | 1.205587 | 0.000000 | 2.522454 | 1.205587 | 0.000000 |
+| Development | Misassociated facts | 2.113895 | 1.106566 | 0.000000 | 2.113895 | 1.106566 | 0.000000 |
+| Development | Irrelevant context | 2.255033 | 1.043985 | 0.000000 | 2.255033 | 1.043985 | 0.000000 |
+| Development | Raw facts, unpadded | 2.532599 | 1.188118 | 0.000000 | 2.532599 | 1.188118 | 0.000000 |
+| Calibration | No memory | 1.323947 | 0.675672 | 0.375000 | 1.340658 | 0.694495 | 0.375000 |
+| Calibration | Raw facts, padded | 1.788259 | 0.930968 | 0.250000 | 1.806278 | 0.945825 | 0.250000 |
+| Calibration | Linked facts, padded | 1.531801 | 0.822484 | 0.250000 | 1.543390 | 0.835134 | 0.250000 |
+| Calibration | Repeated raw facts | 1.733153 | 0.909092 | 0.250000 | 1.749433 | 0.924854 | 0.250000 |
+| Calibration | Misassociated facts | 1.586342 | 0.861224 | 0.250000 | 1.605281 | 0.877945 | 0.250000 |
+| Calibration | Irrelevant context | 1.385185 | 0.688813 | 0.375000 | 1.404675 | 0.707292 | 0.250000 |
+| Calibration | Raw facts, unpadded | 1.634553 | 0.833504 | 0.250000 | 1.654992 | 0.856059 | 0.250000 |
+| Reserve | No memory | 1.476157 | 0.704491 | 0.464286 | 1.474311 | 0.703742 | 0.446429 |
+| Reserve | Raw facts, padded | 1.810588 | 0.855993 | 0.285714 | 1.826837 | 0.865080 | 0.285714 |
+| Reserve | Linked facts, padded | 1.511606 | 0.737648 | 0.357143 | 1.520327 | 0.742578 | 0.357143 |
+| Reserve | Repeated raw facts | 1.756194 | 0.849532 | 0.267857 | 1.771414 | 0.860033 | 0.267857 |
+| Reserve | Misassociated facts | 1.567704 | 0.769781 | 0.357143 | 1.582114 | 0.777537 | 0.357143 |
+| Reserve | Irrelevant context | 1.592968 | 0.759521 | 0.285714 | 1.591876 | 0.758416 | 0.303571 |
+| Reserve | Raw facts, unpadded | 1.655610 | 0.784110 | 0.339286 | 1.679304 | 0.799850 | 0.339286 |
+
+The paired table subtracts padded raw-fact performance from linked-fact performance on exactly the same episodes. Negative loss differences favor linked memory; positive accuracy differences favor linked memory. The aggregate receipt retains every paired control comparison, including zero raw-minus-raw checks. No p-values are introduced.
+
+| Partition | View | Linked minus raw log loss | Linked minus raw Brier loss | Linked minus raw accuracy |
+|---|---|---|---|---|
+| Development | A | -0.510685 | -0.111453 | +0.000000 |
+| Development | C | -0.510685 | -0.111453 | +0.000000 |
+| Calibration | A | -0.256458 | -0.108484 | +0.000000 |
+| Calibration | C | -0.262888 | -0.110691 | +0.000000 |
+| Reserve | A | -0.298983 | -0.118345 | +0.071429 |
+| Reserve | C | -0.306510 | -0.122502 | +0.071429 |
+
+**Found.** Linked memory has lower descriptive log and Brier losses than raw facts and repetition in every partition/view. But omitting memory has lower log and Brier losses and greater accuracy on calibration and reserve; on development, linked memory improves log loss while no memory improves Brier loss, and neither gets a modal answer correct. Misassociated facts also improve losses over raw facts, although their losses exceed correctly linked facts. Linked and misassociated memory tie in modal accuracy throughout. Removing padding changes raw-fact performance substantially on calibration and reserve. Thus identical payload and equal primary token length do not isolate a truth-sensitive relational mechanism or establish a general benefit of adding memory.
+
+**Means.** **Narrows.** The matched rendering difference is measurable on these exposed records, and it is not explained by raw/linked payload quantity or primary prompt length. Formatting, association, padding distribution and candidate-likelihood sensitivity remain live explanations; the controls reject an overall memory-benefit reading on the larger partitions. The original collapsed comparison remains VOID (L455), and the earlier unequal-length development correction (L456) remains a different instrument with a different ordering. The new comparison repairs treatment realization without turning exposed reserve into untouched confirmation. Independent memory is still unavailable from the single training component; repeated text is not independent evidence. There is no human mental-goal truth, population uncertainty, general memory ranking, human updating mechanism, or completed paired literal-confidence comparison here. No tests harvested this pass and no new study is launched.
+
+The final four producer landings are included in this complete-family record. Each row below gives original episodes, prediction rows, completion-bound files and process-measured cost. Their saved likelihood and loss replays pass; wall seconds from concurrent workers must not be interpreted as total queue elapsed time.
+
+| Final block | Episodes | Predictions | Bound files | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 013 | 4 | 56 | 59 | 1415.867 | 1370.766 |
+| 014 | 4 | 56 | 59 | 1373.236 | 1359.438 |
+| 015 | 4 | 56 | 59 | 1406.531 | 1392.156 |
+| 016 | 4 | 56 | 59 | 1391.076 | 1377.094 |
+
+**Costs and audit trail.** All seventeen producers used 30,149.953 CPU seconds and 30,548.563 summed worker-wall seconds. The complete consumer used 1.594 CPU seconds and 2.200 wall seconds. Full post-pilot producer reinspection used 2.000 CPU seconds; complete consumer replay used 0.953 CPU seconds; the final full operational/binding inspection used 40.266 CPU seconds. Admission, capacity and earlier audit costs remain in their separate receipts. A private auditor first assumed a live coordinator after its normal exit, then incorrectly applied the post-capacity ordering assertion to the earlier pilot; neither assertion failure changed scientific output. The corrected final-exit check and separate pilot ordering both pass. Explicit UTF-8 reads resolve a documentation inspection encoding error; a Windows CIM inventory read was denied, and documented native identity plus psutil checks supply the process evidence. These inspection-tool events are not producer failures.
+
+**Operational closure.** The coordinator and its wrapper exited normally after the complete consumer: 22 complete cards, 11 pending, no running workers and no new failure. Queue kernel lock is released; the continuing Thursday checkpoint lock is held; the global GPU lock is absent. All 33 card hashes, 361 source bindings and 44,652 distinct input bindings verify, with the complete output inventory reconciled. Only reader admission is dependency-eligible; its ten descendants remain gated. At inspection the exact installed Qwen identity verifies, but actual GPU free memory is 7943 MiB against the unchanged 8024 MiB cold admission requirement. Host free memory is 49.44 GiB and disk free space 780.46 GiB. Gear 2, six single-thread CPU slots, one GPU, AC maximum 90% and boost disabled remain. This is a resource-held normal exit, not a failed queue; no application is closed and no gate is relaxed. Only the exact exited coordinator watch is retired, retaining all terminal paths, the verified Thursday helper and sole source-matching fresh watcher. The current memory completion has a recorded owner-delivery receipt; later terminals are pending this full landing, and the historical delivery timeout remains preserved. The independent health deadline remains September 29 09:46:45 PDT; inspect headroom and authorized continuation then, without an extra polling wake. Original failures and closed Stage 12 remain intact. Full write-through precedes ACK. The final scientific packet remains Thursday October 1 06:00 PDT after the Wednesday 22:00 science cutoff.
+
+**Curator roll-up.** Theory group: reader context and memory. Question: Does linking the same facts improve the forecast beyond retrieval or repetition? Outcome: **Narrows**. Result: Linked rendering improves the matched raw-fact comparison, but no memory performs better on the larger partitions. Project meaning: Evidence organization affects this bounded likelihood reader without establishing a general memory benefit. Next engineering obligation: Preserve all corrective and failed results, reassess the held reader admission at the independent health event, and assemble the Thursday packet. Public claim: newly licensed only for the scoped descriptive rendering contrast; general benefit unchanged and unestablished. Curator decision required: No. Detail: [complete memory receipt](results/phase_2_4_stage_13/HEALING_MEMORY_COMPLETE_20260929_PUBLIC.json).
+
+---
+
+### OPS-S13-HEAL-MEMORY-0929-0713 - six further memory blocks verify
+
+**Hypothesis.** The repaired memory instrument preserves its declared evidence, conditions and scoring throughout the original family.
+
+**METHOD.** Verify all six completed frozen manifests and every source/input/output binding. Check the complete cases-by-views-by-conditions census, original model identity, truth and saved rows; compare native prompt lengths and fingerprints with full-roster admission. Replay every probability from saved candidate likelihoods and every proper score without another neural call. Verify capacity admission preceded dispatch, completed workers exited, and remaining workers retain their native identities, advancing CPU time, fresh output and single-thread/below-normal limits. Verify continuing checkpoint and watcher identities, source adoption and the independent health clock.
+
+The table reports complete producer integrity and worker costs, not unfinished memory-effect scores. Each block has four original cases, two evidence views and seven memory conditions. Bound outputs include every file covered by its completion receipt. Concurrent wall seconds are not total queue elapsed time.
+
+| Complete block | Cases | Prediction rows | Bound outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 007 | 4 | 56 | 59 | 1,800.699 | 1,779.172 |
+| 008 | 4 | 56 | 59 | 1,802.525 | 1,780.828 |
+| 009 | 4 | 56 | 59 | 1,795.153 | 1,773.375 |
+| 010 | 4 | 56 | 59 | 1,805.832 | 1,784.484 |
+| 011 | 4 | 56 | 59 | 1,752.510 | 1,731.906 |
+| 012 | 4 | 56 | 59 | 1,761.258 | 1,739.875 |
+
+**Found.** All six blocks pass the complete integrity and saved-score replay checks: 336 predictions, 354 bound outputs, 361 source bindings and 14 distinct input bindings verify. Independent inspections cost 4.812 CPU seconds. Thirteen of seventeen memory producers are recorded. The inspected queue has seventeen complete cards, four advancing workers and twelve pending cards, with no new failure. The four workers are the remaining memory blocks; reduced occupancy does not indicate a failed queue. The full memory comparison remains unfinished.
+
+**Means.** Continue the last four frozen memory blocks and their complete-only consumer under the admitted capacity gate. Qwen admission remains held for actual GPU headroom without closing other applications. Preserve the original VOID memory result, artificial padding, exposed human records, one-component limitation and frequent equality of projected evidence views. No recovery was required and no tests were harvested. Study, gear, delegation and spending authority are unchanged; health remains due September 29 at 09:46 PDT, with Wednesday science cutoff and Thursday final packet. The full file write-through proceeds before ACK.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Do the continuing memory blocks preserve the intended comparison in native output? Outcome: **Infrastructure**. Result: All six newly completed memory blocks verify. Project meaning: The repaired instrument remains intact while its complete-family effect is unresolved. Next engineering obligation: Verify the remaining producers and land the complete consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/HEALING_MEMORY_PRODUCERS_20260929_0713.json).
+
+---
+
+### OPS-S13-HEAL-MEMORY-0929-0644 - six complete memory blocks verify
+
+**Hypothesis.** The repaired memory instrument continues to preserve its declared evidence, conditions and scoring after the admitted pilot.
+
+**METHOD.** Verify the six newly completed frozen manifests and every source, input and output binding. Check the full cases-by-views-by-conditions census, original model identity, truth, row files, native prompt lengths and fingerprints against full-roster admission. Independently replay probabilities from all saved candidate likelihoods and replay every proper score without another neural call. Verify dispatch followed capacity admission, completed worker exit, successor native identities, CPU progress, fresh outputs, single-thread/below-normal limits and continuing watcher supervision.
+
+The table reports complete producer integrity and incurred worker cost, not an unfinished memory-effect comparison. Each numbered block contains four original cases, two evidence views and seven declared memory conditions. Outputs count all files bound by its completion receipt; concurrent worker wall times must not be summed as elapsed queue time.
+
+| Complete block | Cases | Prediction rows | Bound outputs | Wall seconds | CPU seconds |
+|---|---|---|---|---|---|
+| 001 | 4 | 56 | 59 | 2,244.305 | 2,217.031 |
+| 002 | 4 | 56 | 59 | 2,087.352 | 2,061.297 |
+| 003 | 4 | 56 | 59 | 2,123.555 | 2,098.313 |
+| 004 | 4 | 56 | 59 | 2,055.956 | 2,031.359 |
+| 005 | 4 | 56 | 59 | 1,989.866 | 1,965.953 |
+| 006 | 4 | 56 | 59 | 2,131.896 | 2,105.875 |
+
+**Found.** All six complete blocks pass the declared integrity and saved-score replay checks. Their 336 predictions and 354 bound outputs are intact; all 361 source bindings verify. Independent inspections cost 3.281 CPU seconds. With the previously recorded pilot, seven of seventeen memory producers are now verified. The latest inspected queue has eleven complete cards, six advancing native workers and sixteen pending cards, with no new failure. This is instrument evidence; the whole memory comparison remains unfinished.
+
+**Means.** Continue the frozen remaining blocks and complete-only consumer under the admitted whole-family capacity gate. Preserve the original VOID memory result, artificial padding, exposed human records, one-component limitation and frequent equality of projected evidence views. Qwen admission remains held for actual GPU headroom; this is not a failed queue. The sole watcher and Thursday checkpoint identities verify, and the independent health deadline remains September 29 at 09:46 PDT. No recovery was required, no tests were harvested and no study, gear, delegation or spending authority changed. The Wednesday science cutoff and Thursday final packet remain.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Do the admitted memory blocks preserve the intended comparison in saved native output? Outcome: **Infrastructure**. Result: All six newly complete memory blocks verify. Project meaning: The repaired instrument remains intact while its complete-family effect is unresolved. Next engineering obligation: Verify remaining producers and land the complete consumer. Public claim: unchanged. Curator decision required: No. Detail: [producer receipt](results/phase_2_4_stage_13/HEALING_MEMORY_PRODUCERS_20260929_0644.json).
+
+---
+
 ### OPS-S13-HEAL-MEMORY-PILOT-0929 - complete pilot verifies and full-family capacity passes
 
 **Hypothesis.** The information-matched memory instrument preserves all declared conditions in native prediction, and the entire original family fits before the science cutoff at its measured cost.

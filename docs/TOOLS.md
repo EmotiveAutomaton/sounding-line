@@ -12,6 +12,18 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-0929-1800: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_1800_PUBLIC.json).
+
+OPS-S13-HEALTH-0929-1356: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_1356_PUBLIC.json).
+
+OPS-S13-HEALTH-0929-0951: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_0951_PUBLIC.json).
+
+L460: All seventeen matched-memory producers and complete 952-row consumer verify. Exact frozen replay and independent probability/loss/paired arithmetic agree; full native realization, payload matching and complete roster survive. One component per partition, identical views for most cases and artificial padding constrain scientific use. The queue exited normally with reader admission resource-held; all cards/bindings/outputs, released queue lock and continuing supervision verify. [Receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_COMPLETE_20260929_PUBLIC.json).
+
+OPS-S13-HEAL-MEMORY-0929-0713: Six further complete memory blocks pass full census, model/truth/prompt metadata, immutable bindings and saved probability/proper-score replay. Thirteen of seventeen producers are recorded; the final four advance with no new failure. The whole-family comparison remains unfinished. [Receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_PRODUCERS_20260929_0713.json).
+
+OPS-S13-HEAL-MEMORY-0929-0644: Six further complete memory blocks pass full census, model/truth/prompt metadata, immutable bindings and saved probability/proper-score replay. Seven of seventeen producers are recorded; the whole-family consumer remains unfinished. Successor native identities, CPU progress and declared process limits verify; no new failure. [Receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_PRODUCERS_20260929_0644.json).
+
 OPS-S13-HEAL-MEMORY-PILOT-0929: Entire native pilot census, model/prompt/truth bindings, saved probability and proper-score replay verify. Independent measured capacity arithmetic admits the complete original family; six successor workers verify. No partial memory-effect claim. [Receipt](../results/phase_2_4_stage_13/HEALING_MEMORY_PILOT_20260929.json).
 
 L459: Full seven-method detector comparison replays on both complete partitions and both frozen thresholds. Independent paired point calculations agree; original checkpoint/cuts and all source/input/output bindings verify. Bootstrap estimands and human-error differences remain separate, descriptive and post-exposure. [Receipt](../results/phase_2_4_stage_13/HEALING_DETECTOR_COMPARISON_20260929.json).

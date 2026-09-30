@@ -1,8 +1,8 @@
 # Stage 13 results
 
 The original Gear 2 queue drained normally. The September 29 validity audit
-confirms intact retained files and required instrument healing. New corrective
-families are running under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
+confirms intact retained files and required instrument healing. The detector and memory corrective
+families are complete; the reader remains resource-held under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
 Final packet is assumed **October 1, 2026 at 06:00 PDT**; science ends September 30
 at 22:00 PDT. Existing Gear 2 and no paid compute persist. Original failed attempts
 and historical Friday receipts remain unchanged.
@@ -15,6 +15,13 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [RECEIPT_PUBLICATION_20260929.json](RECEIPT_PUBLICATION_20260929.json) | Public copies omit workstation administration metadata; original receipt hashes preserved and every remaining field verifies unchanged |
+| [HEALTH_20260929_1800_PUBLIC.json](HEALTH_20260929_1800_PUBLIC.json) and [ACK](HEALTH_20260929_1800_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
+| [HEALTH_20260929_1356_PUBLIC.json](HEALTH_20260929_1356_PUBLIC.json) and [ACK](HEALTH_20260929_1356_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
+| [HEALTH_20260929_0951_PUBLIC.json](HEALTH_20260929_0951_PUBLIC.json) and [ACK](HEALTH_20260929_0951_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
+| [HEALING_MEMORY_COMPLETE_20260929_PUBLIC.json](HEALING_MEMORY_COMPLETE_20260929_PUBLIC.json) | Complete matched-memory family replay and controls (L460), final four producer landings, normal resource-held queue exit and verified supervision |
+| [HEALING_MEMORY_PRODUCERS_20260929_0713.json](HEALING_MEMORY_PRODUCERS_20260929_0713.json) | Six further complete memory producers verify; thirteen of seventeen recorded, final four advancing, no new failure |
+| [HEALING_MEMORY_PRODUCERS_20260929_0644.json](HEALING_MEMORY_PRODUCERS_20260929_0644.json) | Six further complete memory producers verify; seven of seventeen recorded, six successors advancing, no new failure |
 | [HEALING_MEMORY_PILOT_20260929.json](HEALING_MEMORY_PILOT_20260929.json) | Complete native memory pilot and outcome-independent whole-family capacity verify; six successor workers active |
 | [HEALING_DETECTOR_COMPARISON_20260929.json](HEALING_DETECTOR_COMPARISON_20260929.json) | Complete seven-method, two-partition comparison and paired source uncertainty replay (L459); delayed prior notices reconciled without resetting health |
 | [HEALING_STRONG_PRODUCER_20260929.json](HEALING_STRONG_PRODUCER_20260929.json) | Full frozen strong-detector extension producer verified; paired complete consumer remains running |
