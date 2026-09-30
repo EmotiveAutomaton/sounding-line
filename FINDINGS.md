@@ -5,7 +5,36 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-29.**
+**Last updated: 2026-09-30.**
+
+---
+
+### OPS-S13-HEALTH-0930-0212 - reader remains resource-held; supervision verifies
+
+**Hypothesis.** The completed corrective families remain preserved, while the unfinished reader family waits for its actual resource gate under functioning supervision.
+
+**METHOD.** Inspect native coordinator, wrapper, completed-worker, checkpoint and watcher identities; compare retained terminal hashes with previously acknowledged landing bindings and verify both complete consumers' output bindings. Recheck all frozen manifests, source pins and pending reader input pins, dependency eligibility, unknown attempts, failures, kernel locks, actual GPU readiness, host/disk headroom, power limits and terminal registration. Verify this health event's recorded owner delivery, loaded watcher sources and the independent health clock. This is an operational inspection; previous full scientific replay stands without another neural call or effect estimate.
+
+The table describes queue state and resource checks at 02:12 PDT. Counts refer to frozen healing cards; free memory is actual measured headroom, and the requirement is the unchanged cold-model admission floor.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 22 complete, 11 pending, no running worker or new failure |
+| Authorized next card | Reader admission eligible; ten descendants gated |
+| GPU free / required | 7,709 / 8,024 MiB; admission refused |
+| Host / disk free | 50.37 / 767.54 GiB |
+| Power and gear | Gear 2, six single-thread CPU slots, one GPU; AC maximum 90%, boost off |
+| Native owners | Coordinator, wrapper and all completed workers absent; Thursday helper and sole watcher verified |
+| Kernel locks | Queue released, checkpoint held, global GPU lock absent |
+| Freshness | Checkpoint heartbeat 19.52 seconds old; watcher scan 13.18 seconds old |
+| Immutable records | 33 cards, 361 source pins, 10 distinct pending input pins, 22 landed terminal hashes and both consumers' output bindings verify |
+| Delivery | Health event reached owner on its first attempt, 18.30 seconds after its due time; no new delivery error |
+
+**Found.** The normal resource-held exit remains valid. No new output is orphaned, no unknown attempt exists, and completed write-through files remain unchanged. The Qwen model identity verifies with no resident-model credit; insufficient actual GPU memory continues to block admission. The original queue's three failures and ten blocked cards, the old notification timeout and closed Stage 12 endpoint remain preserved. The inexpensive checkpoint and watcher are live and fresh; all final/failure paths and the exact checkpoint watch remain registered. The retired coordinator watch stays retired. Inspection cost 0.625 CPU seconds.
+
+**Means.** No recovery is required while the resource gate remains closed. Do not restart the drained queue, close other applications, relax the admission floor or rerun completed science. Reassess the same authorized reader family at the next independent health inspection; a later eligible continuation needs a fresh queue identity, literal admission and whole-family capacity before release. No tests harvested, delegation, new study, spend or extra polling wake. The science cutoff remains Wednesday September 30 22:00 PDT and the final scientific packet Thursday October 1 06:00 PDT. Full operational write-through precedes this health ACK, which alone rearms the next four-hour inspection. Exact next due time is retained in the ACK receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the completed queue correctly waiting under its unchanged resource gate? Outcome: **Infrastructure**. Result: The reader remains resource-held with healthy supervision and no new failure. Project meaning: The pause supplies no new scientific verdict. Next engineering obligation: Reassess admission headroom at the next independent health event and preserve the Thursday final packet. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260930_0212_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260930_0212_ACK_PUBLIC.json).
 
 ---
 

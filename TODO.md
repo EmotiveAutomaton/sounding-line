@@ -2,6 +2,8 @@
 
 ## September 29 healing continuation
 
+- [x] OPS-S13-HEALTH-0930-0212: Full native/resource/lock/delivery inspection recorded; reader remains resource-held, no new failure or recovery. Health ACK rearms four hours; exact deadline in its receipt.
+
 - [x] OPS-S13-HEALTH-0929-2208: Full native/resource/lock/delivery inspection recorded; reader remains resource-held, no new failure or recovery. Health ACK rearms four hours; exact deadline in its receipt.
 
 - [x] OPS-S13-HEALTH-0929-1800: Full native/resource/lock/delivery inspection recorded; reader remains resource-held, no new failure or recovery. Health ACK rearms four hours; exact deadline in its receipt.
@@ -16,7 +18,7 @@
 - [x] OPS-S13-HEAL-STRONG-0929: Whole strong extension producer verified and internally recorded; finish the running complete paired consumer.
 - [x] OPS-S13-HEALING-0929: Native admission and full operational health inspection written through; ACK only after this landing. [Rollout](results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
 - [x] OPS-S13-VALIDITY-0929: Full retained-file audit and applicable score replay; instrument deficits confirmed. Original suite and targeted checks pass; see audit receipt.
-- [ ] S13-HEAL-READER: Resource-held after normal queue exit; reassess actual GPU headroom at the next independent four-hour health event; September 29 22:08 inspection still refuses admission. One frozen named-category admission, then original complete roster only if admitted and whole-family capacity passes. Preserve old queue identity; any later authorized continuation needs a fresh successor queue identity.
+- [ ] S13-HEAL-READER: Resource-held after normal queue exit; reassess actual GPU headroom at the next independent four-hour health event; September 30 02:12 inspection still refuses admission. One frozen named-category admission, then original complete roster only if admitted and whole-family capacity passes. Preserve old queue identity; any later authorized continuation needs a fresh successor queue identity.
 - [x] S13-HEAL-MEMORY (L460): All seventeen producers and the complete 952-row matched-memory consumer verified and internally written through; all controls, one-component limits, view equality and original VOID retained.
 - [x] S13-HEAL-DETECTOR (L459): Complete frozen strong comparator and paired uncertainty replayed and written through; both partitions, all rivals and operating-point limits retained for Thursday packet.
 - [x] S13-HEAL-OPS: Contracts/cards/capsule frozen; exact old checkpoint retired; Thursday helper and advancing native CPU/GPU workers verified. Frozen capacity gates govern larger families.

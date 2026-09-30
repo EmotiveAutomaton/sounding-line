@@ -1,6 +1,6 @@
 # Current status
 
-Updated September 29, 2026. Start here for current authority; historical execution
+Updated September 30, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: detector and memory healing complete; reader resource-held
@@ -33,7 +33,7 @@ immediate failure/exit notices and original week checkpoints. Do not reset its c
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.
 
-The September 29 22:08 PDT health inspection verified the continued resource hold, intact records and healthy supervision, with no new failure or recovery. [Inspection](results/phase_2_4_stage_13/HEALTH_20260929_2208_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260929_2208_ACK_PUBLIC.json).
+The September 30 02:12 PDT health inspection verified the continued resource hold, intact records and healthy supervision, with no new failure or recovery. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_0212_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_0212_ACK_PUBLIC.json).
 
 Next action: reassess actual GPU headroom at the next independent four-hour health event; resume the frozen reader work under a fresh queue identity only if its resource, admission and capacity gates permit. Retain the Thursday endpoint and all scientific deficits. [Complete memory and queue closure receipt](results/phase_2_4_stage_13/HEALING_MEMORY_COMPLETE_20260929_PUBLIC.json).
 

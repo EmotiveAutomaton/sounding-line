@@ -15,6 +15,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20260930_0212_PUBLIC.json](HEALTH_20260930_0212_PUBLIC.json) and [ACK](HEALTH_20260930_0212_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
 | [HEALTH_20260929_2208_PUBLIC.json](HEALTH_20260929_2208_PUBLIC.json) and [ACK](HEALTH_20260929_2208_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
 | [RECEIPT_PUBLICATION_20260929.json](RECEIPT_PUBLICATION_20260929.json) | Public copies omit workstation administration metadata; original receipt hashes preserved and every remaining field verifies unchanged |
 | [HEALTH_20260929_1800_PUBLIC.json](HEALTH_20260929_1800_PUBLIC.json) and [ACK](HEALTH_20260929_1800_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
