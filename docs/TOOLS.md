@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-0929-2208: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_2208_PUBLIC.json).
+
 OPS-S13-HEALTH-0929-1800: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_1800_PUBLIC.json).
 
 OPS-S13-HEALTH-0929-1356: Native owners, fresh checkpoint/watcher, released queue lock, preserved complete terminals/consumers, all cards/source pins and pending input pins verify. Actual GPU headroom still refuses reader admission; no new failure or recovery. Health owner delivery verified before documented ACK rearms the independent four-hour clock. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260929_1356_PUBLIC.json).

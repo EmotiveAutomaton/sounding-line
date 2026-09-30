@@ -1,0 +1,57 @@
+{
+  "at": "2026-09-30T05:08:42.857639+00:00",
+  "checkpoint_age_seconds": 0.9840211868286133,
+  "checks": {
+    "all_source_and_pending_input_bindings": true,
+    "checkpoint_lock_held": true,
+    "complete_consumer_output_bindings": true,
+    "completed_workers_exited": true,
+    "gpu_lock_absent": true,
+    "health_owner_delivery": true,
+    "native_owners": true,
+    "no_new_delivery_error": true,
+    "queue_lock_released": true,
+    "records_preserved": true,
+    "sole_loaded_watcher_fresh": true,
+    "stage12_closed": true
+  },
+  "complete_consumer_count": 2,
+  "complete_terminal_count": 22,
+  "counts": {
+    "DONE": 22,
+    "PENDING": 11
+  },
+  "delivery_delay_after_due_seconds": 38.72593331336975,
+  "eligible": [
+    "reader-admission"
+  ],
+  "final_packet": "2026-10-01T06:00:00-07:00",
+  "finding": "OPS-S13-HEALTH-0929-2208",
+  "gated_pending": 10,
+  "health_rearm": "After full operational write-through, ACK rearms four hours; exact next deadline in companion ACK receipt",
+  "inspection_cpu_seconds": 0.671875,
+  "manifest_count": 33,
+  "new_failures": [],
+  "original_counts": {
+    "BLOCKED": 10,
+    "DONE": 686,
+    "FAILED": 3
+  },
+  "pending_input_pins": 10,
+  "recovery": "None required while actual GPU readiness remains false; preserve frozen reader gates and existing allocation",
+  "resources": {
+    "free_disk_GiB": 769.1503829956055,
+    "free_host_GiB": 50.890777587890625,
+    "gpu_free_MiB": 7631.0,
+    "gpu_ready": false,
+    "gpu_required_MiB": 8024,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "scope": "Operational inspection; previously landed full scientific replay retained, no neural calls or repeated effect estimation",
+  "source_pins": 361,
+  "status": "verified-resource-held",
+  "watcher_scan_age_seconds": 14.494938373565674
+}
