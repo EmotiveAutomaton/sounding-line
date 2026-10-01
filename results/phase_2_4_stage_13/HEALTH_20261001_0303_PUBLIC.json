@@ -1,0 +1,75 @@
+{
+  "all_terminal_hashes_match_final_audit_and_prior_inspection": true,
+  "at": "2026-10-01T10:03:28.236294+00:00",
+  "blocked_input_pins": 9,
+  "blocked_unrun": 10,
+  "checkpoint_age_seconds": 0.5533177852630615,
+  "complete_consumer_admission_count": 3,
+  "complete_terminal_count": 714,
+  "counts": {
+    "BLOCKED": 10,
+    "DONE": 23
+  },
+  "delivery_delay_after_due_seconds": 35.1016047000885,
+  "eligible": [],
+  "failed_terminal_count": 29,
+  "final_endpoint": "2026-10-01T06:00:00-07:00",
+  "final_packet_and_local_bundle_preserved": true,
+  "final_review": "2026-10-01T04:00:00-07:00",
+  "finding": "OPS-S13-HEALTH-1001-0303",
+  "first_attempt_owner_delivery": true,
+  "gpu_lock_absent": true,
+  "inspection_cpu_seconds": 1.640625,
+  "inventory_counts": {
+    "HEALING": {
+      "complete": 23,
+      "unrun": 10
+    },
+    "ORIGINAL": {
+      "complete": 691,
+      "failed": 29,
+      "unrun": 335
+    }
+  },
+  "legacy_queue_log": "Historical September 6 empty queue; current stage-native records govern",
+  "loaded_watcher_sources_verified": true,
+  "locks": {
+    "checkpoints.lock": true,
+    "queue-kernel.lock": false
+  },
+  "manifest_count": 33,
+  "new_failures": [],
+  "next_action": "Science cutoff passed. Preserve published final packet; fixed final review at 04:00 PDT and endpoint at 06:00 PDT; independent health rearms four hours after completed inspection ACK",
+  "original_queue_counts": {
+    "BLOCKED": 10,
+    "DONE": 686,
+    "FAILED": 3
+  },
+  "prior_write_through_unchanged": true,
+  "publication_head": "3d4165b0176b706229647ae5ad7ef937a1f353f3",
+  "reader_gate_refusal_preserved": true,
+  "recovery": "None required; frozen reader admission refused and no scientific card is runnable",
+  "research_locks_passed": 21,
+  "resources": {
+    "free_disk_GiB": 750.700798034668,
+    "free_host_GiB": 48.96498489379883,
+    "gpu_free_MiB": 7937.0,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "retained_manifest_count": 1088,
+  "retired_watches_stay_retired": true,
+  "science_cutoff": "2026-09-30T22:00:00-07:00",
+  "science_cutoff_passed": true,
+  "science_owners_absent": true,
+  "scientific_verdict": false,
+  "scope": "Operational inspection; completed scientific and admission replays retained without further model calls or effect estimation",
+  "source_pins": 361,
+  "stage12_closed": true,
+  "status": "closed-queues-healthy-after-science-cutoff",
+  "terminal_paths_and_checkpoint_watch_retained": true,
+  "unrun_count": 345,
+  "watcher_scan_age_seconds": 72.9261565208435
+}

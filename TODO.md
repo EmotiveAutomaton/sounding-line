@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+## October 1 endpoint supervision
+
+- [x] OPS-S13-HEALTH-1001-0303: Closed queues, retained evidence, exact native supervision, locks, limits and first-attempt delivery verified; no recovery. Full operational write-through precedes health ACK; existing final review and endpoint remain.
+
 ## September 30 final drain and publication
 
 - [x] OPS-S13-HEALTH-0930-2258: Post-cutoff drained queues, retained records and live endpoint supervision verified; no recovery. Full inspection/write-through precedes health ACK and four-hour rearm.

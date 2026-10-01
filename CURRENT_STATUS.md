@@ -1,6 +1,6 @@
 # Current status
 
-Updated September 30, 2026. Start here for current authority; historical execution
+Updated October 1, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: admitted queues drained and final packet assembled
@@ -45,7 +45,9 @@ The September 30 22:00 PDT science cutoff has passed. Its reporting marker and a
 
 The September 30 22:58 PDT health inspection verifies closed science, unchanged retained evidence and healthy native supervision. No recovery is required. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_2258_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_2258_ACK_PUBLIC.json).
 
-Next action: the independent health clock rearms four hours after this inspection is fully recorded and acknowledged; see its ACK receipt for the exact deadline. Existing final review October 1 04:00 and endpoint 06:00 PDT remain. Keep the same helper through normal exit; no scientific restart or Stage 12 reopening.
+The October 1 03:03 PDT health inspection verifies unchanged retained evidence, closed queues and healthy native supervision. No recovery is required. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_0303_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_0303_ACK_PUBLIC.json).
+
+Next action: existing final review October 1 04:00 PDT, then endpoint 06:00 PDT. Keep the same helper through normal exit. The independent health clock rearms four hours after this fully recorded inspection is acknowledged; see its ACK receipt for the exact deadline. No scientific restart or Stage 12 reopening.
 
 ## Navigation
 

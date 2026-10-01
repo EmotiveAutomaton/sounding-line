@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-1001-0303: Exact native supervision, closed queues, retained manifest/terminal hashes, unrun dispositions, current source/consumer bindings and published evidence verify. No recovery or eligible science. All 21 research locks and first-attempt delivery pass; preserve the existing final-review/endpoint helper. Full write-through precedes health ACK and independent rearm. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261001_0303_PUBLIC.json).
+
 OPS-S13-HEALTH-0930-2258: Closed queues, all retained manifest/terminal hashes and unrun dispositions, published packet/local bundle and source/consumer bindings verify after the science cutoff. Science owners are absent; exact helper and sole watcher remain live/fresh. Locks, limits, first-attempt delivery and all 21 research locks pass. No recovery; preserve fixed final review/endpoint. Full write-through precedes health ACK and independent four-hour rearm. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260930_2258_PUBLIC.json).
 
 OPS-S13-REPORTING-0930: Reporting marker matches the contract, delivered digest and exact live owner. All retained manifest/completed-terminal hashes, failed records and unrun dispositions reconcile to the final audit; published packet/local bundle and source/consumer bindings verify. Science remains closed, helper continues toward final review/endpoint, and checkpoint ACK preserves the independent health clock. [Receipt](../results/phase_2_4_stage_13/REPORTING_START_20260930.json).

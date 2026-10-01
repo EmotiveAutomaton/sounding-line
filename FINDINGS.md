@@ -5,7 +5,34 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-09-30.**
+**Last updated: 2026-10-01.**
+
+---
+
+### OPS-S13-HEALTH-1001-0303 - drained queues and retained evidence verify before final review
+
+**Hypothesis.** Closed scientific queues and the published evidence packet remain intact, with healthy supervision for the existing final review and endpoint.
+
+**METHOD.** Inspect exact native identities and creation times, current queue states, frozen manifests and source/input bindings, complete consumer outputs, all retained terminal hashes and unrun-card absence. Reconcile the published write-through, final packet, local evidence bundle and reporting marker. Check failures, kernel/GPU locks, resource and power limits, checkpoint/watcher freshness, loaded service sources, future registrations and actual owner delivery. No new inference calls, scientific scoring or study design.
+
+The table separates active queue counts from the larger retained history. Completed terminal records do not imply passed scientific gates; unrun cards include historical successors and gate-blocked attempts.
+
+| Check | Observed state |
+|---|---|
+| Active queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained history | 1,088 manifest hashes, 714 completed and 29 failed terminal hashes verify; 345 unrun cards still have no dispatch or terminal |
+| Frozen current bindings | 361 source pins, nine distinct blocked-input pins and three complete consumer/admission output bindings verify |
+| Published evidence | Scientific write-through, packet, local bundle and reporting marker unchanged |
+| Native owners / locks | Science owners absent; queue/GPU locks released; exact live helper holds its checkpoint lock |
+| Host / disk / GPU free | 48.96 GiB / 750.70 GiB / 7,937 MiB |
+| Freshness / limits | Checkpoint 0.55 seconds old, watcher scan 72.93 seconds old; existing Gear 2, AC maximum 90%, boost disabled |
+| Delivery / checks | First attempt, 35.10 seconds after health due; no new delivery failure; all 21 research locks pass |
+
+**Found.** The scientific queues remain drained, retained evidence is unchanged, and live supervision is healthy. No new failure, unknown attempt, missing result or recovery need is found. The refused reader admission and unrun descendants remain preserved; no historical failure is reclassified as success. The old general queue log ends empty and is historical, not current liveness evidence. Inspection used 1.641 CPU seconds; the prior exhaustive scientific replay and limitations remain in the final packet.
+
+**Means.** Keep science closed after the expired cutoff. Complete the operational write-through before health ACK; it rearms the independent four-hour clock without moving the earlier October 1 04:00 PDT final review or 06:00 PDT endpoint. Preserve the exact helper until its scheduled normal exit. No tests harvested this pass, new research, delegation, spend or changed gear; Stage 12 remains closed. No universal claim about possible future healing follows from this bounded closure.
+
+**Curator roll-up.** Theory group: operational validity. Question: Are closed science and retained evidence healthy before final review? Outcome: **Infrastructure**. Result: Closed queues and preserved evidence remain under healthy supervision. Project meaning: The remaining work is endpoint reconciliation. Next engineering obligation: Inspect the existing final-review and endpoint markers and retain the independent health cadence. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20261001_0303_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20261001_0303_ACK_PUBLIC.json).
 
 ---
 
