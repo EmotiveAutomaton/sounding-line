@@ -41,7 +41,9 @@ The September 30 14:41 PDT health inspection verifies the closed queue, unchange
 
 The September 30 18:49 PDT inspection verifies unchanged published evidence and local bundle, closed queues and healthy supervision. No recovery or runnable science. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_1849_ACK_PUBLIC.json).
 
-Next action: reconcile the existing Thursday endpoint helper and independent four-hour health events. No further scientific card is runnable under the frozen gates; preserve the one-attempt limit and Stage 12 closure.
+The September 30 22:00 PDT science cutoff has passed. Its reporting marker and all retained dispositions reconcile, and the published final packet remains unchanged. [Boundary inspection](results/phase_2_4_stage_13/REPORTING_START_20260930.json) and [ACK](results/phase_2_4_stage_13/REPORTING_START_20260930_ACK.json).
+
+Next action: independent health remains due September 30 22:51:25 PDT, then existing final review October 1 04:00 and endpoint 06:00 PDT. Keep the same helper through normal exit; no scientific restart or Stage 12 reopening.
 
 ## Navigation
 

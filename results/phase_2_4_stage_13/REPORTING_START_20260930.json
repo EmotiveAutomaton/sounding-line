@@ -1,0 +1,86 @@
+{
+  "at": "2026-10-01T05:03:59.465904+00:00",
+  "blocked_input_pins": 9,
+  "blocked_unrun": 10,
+  "both_coordinators_wrapper_and_completed_workers_absent": true,
+  "checkpoint_age_seconds": 11.194896221160889,
+  "complete_consumer_admission_count": 3,
+  "counts": {
+    "BLOCKED": 10,
+    "DONE": 23
+  },
+  "delivery_delay_after_marker_seconds": 27.938573598861694,
+  "eligible": [],
+  "event_id": "b0a2994a6646a737df4dad74",
+  "final_packet_and_local_bundle_preserved": true,
+  "final_packet_deadline": "2026-10-01T06:00:00-07:00",
+  "final_review": "2026-10-01T04:00:00-07:00",
+  "finding": "OPS-S13-REPORTING-0930",
+  "first_attempt_owner_delivery": true,
+  "future_checkpoints": {
+    "deadline": "2026-10-01T13:00:00+00:00",
+    "final_review": "2026-10-01T11:00:00+00:00"
+  },
+  "gpu_lock_absent": true,
+  "independent_health_due_epoch": 1790833885.8093698,
+  "independent_health_due_local": "2026-09-30T22:51:25.809370-07:00",
+  "inspection_cpu_seconds": 1.328125,
+  "inventory_counts": {
+    "HEALING": {
+      "complete": 23,
+      "unrun": 10
+    },
+    "ORIGINAL": {
+      "complete": 691,
+      "failed": 29,
+      "unrun": 335
+    }
+  },
+  "loaded_watcher_sources_verified": true,
+  "locks": {
+    "checkpoints.lock": true,
+    "queue-kernel.lock": false
+  },
+  "manifest_count": 33,
+  "manifest_hashes_verified": 1088,
+  "new_failures": [],
+  "next_action": "Science cutoff passed. Preserve published final packet; next independent health at unchanged due time, then fixed final review and endpoint only",
+  "original_queue_counts": {
+    "BLOCKED": 10,
+    "DONE": 686,
+    "FAILED": 3
+  },
+  "prior_write_through_unchanged": true,
+  "publication_head": "1a12df2c9d94f3ff0047f5bbb430d403d2099ea4",
+  "reader_gate_refusal_preserved": true,
+  "recovery": "None required; frozen reader admission refused and no scientific card is runnable",
+  "reporting_marker": {
+    "action": "Inspect complete cells, reconcile deficits and assemble final packet under Thursday deadline",
+    "at": "2026-10-01T05:00:16.657942+00:00",
+    "scheduled_at": "2026-10-01T05:00:00+00:00",
+    "scientific_verdict": false,
+    "status": "complete"
+  },
+  "reporting_marker_sha256": "bdc7dcd78bf2d0cd0a1e459104c2f0ab0880cba37fccd05dfb2c8028008e9bc4",
+  "resources": {
+    "free_disk_GiB": 751.8026885986328,
+    "free_host_GiB": 47.795074462890625,
+    "gpu_free_MiB": 2218.0,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "retained_completed_terminal_hashes_verified": 714,
+  "retained_failure_records_preserved": 29,
+  "retained_unrun_cards_still_unrun": 345,
+  "retired_watches_stay_retired": true,
+  "science_cutoff": "2026-09-30T22:00:00-07:00",
+  "scientific_verdict": false,
+  "scope": "Operational inspection; completed scientific and admission replays retained without further model calls or effect estimation",
+  "source_pins": 361,
+  "stage12_closed": true,
+  "status": "reporting-boundary-verified",
+  "terminal_paths_and_checkpoint_watch_retained": true,
+  "watcher_scan_age_seconds": 10.840833902359009
+}

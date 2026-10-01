@@ -9,6 +9,34 @@ ran it.
 
 ---
 
+### OPS-S13-REPORTING-0930 - science cutoff reconciled; published final packet preserved
+
+**Hypothesis.** The scheduled reporting boundary can close scientific execution while retaining all completed, failed and blocked evidence and the already published final packet under healthy endpoint supervision.
+
+**METHOD.** Verify the reporting marker against its delivered digest, fixed contract schedule and exact live checkpoint owner. Reconcile all retained manifest hashes, completed terminal hashes, failed error records and absence of dispatch/terminals for unrun cards against the exhaustive final audit. Recheck frozen healing sources and blocked inputs, complete consumer/admission bindings, the published write-through, packet and local bundle hashes. Inspect native science-owner absence, locks, resources, power limits, checkpoint/watcher freshness, loaded sources, future registration and first-attempt owner delivery. No fresh scientific inference, replayed model calls or new effect estimation.
+
+The table separates checkpoint timing from queue disposition. Historical counts span the original and healing inventories; live counts refer to the active queues. A completion marker is not a passed scientific admission.
+
+| Check | Observed state |
+|---|---|
+| Reporting boundary | Scheduled September 30 22:00 PDT; emitted 16.658 seconds later, explicitly without a scientific verdict |
+| Retained inventory | 1,088 manifest hashes and 714 completed terminal hashes verify; 29 failed records preserved; 345 unrun cards still lack dispatch and terminal records |
+| Active queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Current evidence | 361 healing source pins, nine distinct blocked-input pins, three complete consumer/admission bindings, published packet and private bundle verify |
+| Native ownership and locks | Retired science owners absent, queue/GPU locks released; checkpoint lock held by the exact live helper |
+| Host / disk / GPU free | 47.80 GiB / 751.80 GiB / 2,218 MiB |
+| Limits and freshness | Existing Gear 2 limits; AC maximum 90%, boost disabled; checkpoint 11.19 seconds old, watcher scan 10.84 seconds old |
+| Marker delivery | First attempt, 27.94 seconds after marker creation; no new delivery error |
+| Remaining schedule | Independent health September 30 22:51:25 PDT; final review October 1 04:00 PDT; final endpoint 06:00 PDT |
+
+**Found.** The scientific queues remain drained under unchanged failed gates. All retained terminal and unrun dispositions agree with the final audit, and the final packet, local casebook and scientific write-through are unchanged. No new failure, unknown attempt, missing result or recovery need is found. The marker is a reporting reminder, not an experiment result or proof of helper exit; the same helper remains live with final-review and endpoint markers pending. Inspection used 1.328 CPU seconds. Earlier exhaustive score replay, costs, deficits and the failed reader admission remain in the published packet.
+
+**Means.** The September 30 22:00 PDT science cutoff has passed. Preserve scientific closure and the assembled packet; continue only the existing health, final-review and endpoint reconciliation. Keep the exact helper and its watches until its scheduled normal exit. Full internal write-through precedes the checkpoint ACK, which must not move the independent health deadline. Stage 12 stays closed. No tests harvested, new science, delegation, spend or changed gear. This operational landing leaves scientific claims unchanged.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the reporting boundary preserve closed science and the completed evidence packet? Outcome: **Infrastructure**. Result: The cutoff and retained record reconcile under continuing supervision. Project meaning: Reporting closure is distinct from scientific success and later helper exit. Next engineering obligation: Inspect the unchanged health deadline and existing final-review/endpoint markers. Public claim: unchanged. Curator decision required: No. Detail: [reporting boundary](results/phase_2_4_stage_13/REPORTING_START_20260930.json) and [ACK](results/phase_2_4_stage_13/REPORTING_START_20260930_ACK.json).
+
+---
+
 ### OPS-S13-HEALTH-0930-1849 - published packet preserved; supervision healthy
 
 **Hypothesis.** The drained scientific queues and published final packet remain intact while the existing checkpoint helper and watcher continue to the scheduled endpoint.

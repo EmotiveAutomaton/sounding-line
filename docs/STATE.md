@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+## September 30, 22:04 PDT: reporting boundary reconciled; science closed
+
+The scheduled reporting marker matches its contract and delivered digest; exact live helper continues with October 1 04:00 final review and 06:00 PDT endpoint pending. All 1,088 retained manifests, 714 completed terminal hashes, 29 failed records and 345 unrun dispositions reconcile to the final audit. Active queues remain closed with no runnable science; reader refusal and all deficits persist. Published write-through, final packet/local bundle and current source/consumer bindings verify unchanged. Science owners are absent, queue/GPU locks released and checkpoint/watcher fresh. No recovery or scientific restart. Full write-through precedes marker ACK; independent health remains due September 30 22:51:25 PDT. [Inspection](../results/phase_2_4_stage_13/REPORTING_START_20260930.json), [ACK](../results/phase_2_4_stage_13/REPORTING_START_20260930_ACK.json).
+
 ## September 30, 18:49 PDT: published packet and drained queues preserved
 
 The active original and healing queues retain their closed counts and failed gates, with no running, pending or eligible scientific card. Frozen manifests/source pins, blocked inputs, landed terminals, complete consumers, the published final write-through and local casebook bundle verify unchanged. Exact science owners are absent; queue/GPU locks are released. The existing Thursday checkpoint and sole watcher are live/fresh, loaded sources match and first-attempt health delivery verifies. All 21 locks pass. No recovery or new science; preserve the final packet published at `1518cb9c0`, the Wednesday 22:00 cutoff and Thursday October 1 06:00 PDT endpoint. Full write-through precedes ACK and independent four-hour rearm. [Inspection](../results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json), [next-health ACK](../results/phase_2_4_stage_13/HEALTH_20260930_1849_ACK_PUBLIC.json).

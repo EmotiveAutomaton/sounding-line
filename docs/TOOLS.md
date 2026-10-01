@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-REPORTING-0930: Reporting marker matches the contract, delivered digest and exact live owner. All retained manifest/completed-terminal hashes, failed records and unrun dispositions reconcile to the final audit; published packet/local bundle and source/consumer bindings verify. Science remains closed, helper continues toward final review/endpoint, and checkpoint ACK preserves the independent health clock. [Receipt](../results/phase_2_4_stage_13/REPORTING_START_20260930.json).
+
 OPS-S13-HEALTH-0930-1849: Closed queues, preserved published final packet/local bundle, frozen evidence and gate refusal verify. Exact science owners are absent, queue/GPU locks released, checkpoint and sole watcher live/fresh; first-attempt delivery and all 21 locks pass. No recovery or runnable science. Full operational write-through precedes the independent four-hour ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json).
 
 OPS-S13-FINAL-0930: Exhaustive manifest, source/input/output and saved-score verification passes for all 714 retained completions; all unrun identities resolve to completed successors or explicit failed gates. Whole-family reader feasibility fails the remaining window independently of its refused admission. All 44 Stage 13 tests and 21 locks pass. The six-case private bundle and actual retained-source capture validate current offline import/matching with evaluator separation and anchor/revision/scope refusals; no native side-panel or live-inference claim. [Final integrity](../results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json).
