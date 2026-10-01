@@ -3,14 +3,14 @@
 The [final scientific packet](FINAL_PACKET_20260930.md) is assembled September 30,
 with [exhaustive integrity and drain verification](FINAL_INTEGRITY_20260930.json).
 All admitted original and healing work is exhausted; failed gates and unavailable
-comparisons remain explicit. The existing helper continues through the endpoint.
+comparisons remain explicit. The [October 1 endpoint](FINAL_ENDPOINT_20261001.json) is reconciled; the helper exited normally and only its exact process watch is retired.
 
 The original Gear 2 queue drained normally. The September 29 validity audit
 confirms intact retained files and required instrument healing. The detector and memory corrective
 families are complete; the corrected reader admission completed and refused downstream release under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
-Final packet is assumed **October 1, 2026 at 06:00 PDT**; science ends September 30
-at 22:00 PDT. Existing Gear 2 and no paid compute persist. Original failed attempts
-and historical Friday receipts remain unchanged.
+The endpoint closed **October 1, 2026 at 06:00 PDT** after the September 30
+22:00 PDT science cutoff. No scientific work remains admitted; the standing independent
+health cadence remains. Original failed attempts and historical Friday receipts are unchanged.
 
 Public records here are safe aggregate/instrument receipts. Human text, source
 identities, requests/responses, raw scores, evaluator data, downloaded models,
@@ -20,6 +20,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [FINAL_ENDPOINT_20261001.json](FINAL_ENDPOINT_20261001.json) and [ACKs](FINAL_ENDPOINT_20261001_ACK.json) | Normal endpoint/helper exit verified; exact exited watch retired, published evidence and deficits preserved; independent health unchanged |
 | [FINAL_REVIEW_20261001.json](FINAL_REVIEW_20261001.json) and [ACK](FINAL_REVIEW_20261001_ACK.json) | Fixed final-review checkpoint reconciled; published evidence and retained dispositions preserved; healthy helper continues to endpoint and independent health is unchanged |
 | [HEALTH_20261001_0303_PUBLIC.json](HEALTH_20261001_0303_PUBLIC.json) and [ACK](HEALTH_20261001_0303_ACK_PUBLIC.json) | Closed queues, retained evidence and native supervision verify before final review; no recovery; existing final review/endpoint and independent health cadence preserved |
 | [HEALTH_20260930_2258_PUBLIC.json](HEALTH_20260930_2258_PUBLIC.json) and [ACK](HEALTH_20260930_2258_ACK_PUBLIC.json) | Post-cutoff closed queues, all retained dispositions and published evidence verify; native supervision and delivery remain healthy, no recovery needed |

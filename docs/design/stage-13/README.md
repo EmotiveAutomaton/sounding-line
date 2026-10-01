@@ -1,8 +1,8 @@
 # Stage 13 - approved implementation, Gear 2
 
-**September 30 final state:** The admitted original and healing queues are drained. The [final packet](../../../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and [integrity audit](../../../results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json) preserve failed admission, blocked comparisons and all completed corrective evidence. No additional complete admitted healing family fits the fixed window. Only existing endpoint supervision remains through October 1 06:00 PDT; the original brief and frozen design below are preserved.
+**October 1 closed state:** The admitted original and healing queues are drained. The [final packet](../../../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and [integrity audit](../../../results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json) preserve failed admission, blocked comparisons and all completed corrective evidence. No scientific work remains admitted. The [October 1 endpoint](../../../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) is reconciled; the helper exited normally and its exact watch is retired. Only standing independent health supervision remains. The original brief and frozen design below are preserved.
 
-The September 29 request now authorizes a thorough validity pass and needed healing. [Healing continuation](HEALING_20260929.md) governs the new work: assumed final packet October 1 at 06:00 PDT and science cutoff September 30 at 22:00 PDT. Existing Gear 2 and no paid compute persist. The original September 27 dates below are historical and are superseded for this continuation.
+The September 29 request authorized a thorough validity pass and needed healing. [Healing continuation](HEALING_20260929.md) governed that work through the October 1 06:00 PDT endpoint and September 30 22:00 PDT science cutoff, with existing Gear 2 limits and no paid compute. The original September 27 dates below are historical and were superseded for this continuation.
 
 The latest September 27 instruction approves the entire implementation plan.
 The subsequent explicit gear instruction selects Gear 2 now. Finish October 2 at 05:00 PDT; stop new science before
@@ -21,7 +21,7 @@ Source statements about approval, Gear 2 and previous analyst reading are histor
 handoff statements; they do not override the current instruction or prove this
 operator's source reading, installed capabilities or execution.
 
-The earlier documentation-only pass started no research. Implementation is now
+The earlier documentation-only pass started no research. The subsequent implementation was
 authorized; the admitted frozen queue has drained normally and complete cells are recorded in the final packet above. [Execution handoff](EXECUTION.md) records the roster, held capabilities, capacity and exact checkpoints. Stage 12 retains its stopped allocation; its September 28
 at 06:17 PDT final endpoint is reconciled with scientific deficits retained. Four-hour operational supervision remains active.
 This folder is the sole home for new Stage 13 plans. Preserve the supplied source;

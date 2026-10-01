@@ -2,6 +2,7 @@
 
 ## October 1 endpoint supervision
 
+- [x] OPS-S13-ENDPOINT-1001: Deadline and normal helper exit reconciled; exact exited watch retired, all evidence preserved and no runnable science. Full write-through precedes both ACKs; standing independent health remains.
 - [x] OPS-S13-FINAL-REVIEW-1001: Fixed review marker, published packet, retained dispositions and exact live supervision reconciled; no recovery. Checkpoint ACK preserves health; endpoint at 06:00 PDT remains.
 - [x] OPS-S13-HEALTH-1001-0303: Closed queues, retained evidence, exact native supervision, locks, limits and first-attempt delivery verified; no recovery. Full operational write-through precedes health ACK; existing final review and endpoint remain.
 
@@ -11,7 +12,7 @@
 - [x] OPS-S13-REPORTING-0930: Scheduled reporting boundary reconciled after the science cutoff; retained records and published packet preserved; same live helper continues to final review/endpoint. Checkpoint ACK leaves independent health unchanged.
 - [x] OPS-S13-HEALTH-0930-1849: Drained queues, published evidence, unchanged refused gate, absent science workers, locks, limits and actual watcher delivery verify; no recovery. Full write-through precedes health ACK.
 - [x] OPS-S13-FINAL-0930: Exhaustive retained-attempt audit, unrun-identity reconciliation, full-family feasibility, local casebook/import validation and complete final packet assembled. All currently admitted scientific work is exhausted; remaining failures and blocked comparisons are retained.
-- [ ] S13-ENDPOINT-THURSDAY: Reconcile the existing helper's final review/endpoint receipts through October 1 06:00 PDT, preserve the packet and retire only its exact exited watch after verified completion. This is supervision, not a scientific launch.
+- [x] S13-ENDPOINT-THURSDAY: Final review and October 1 06:00 PDT endpoint reconciled; published packet preserved; helper/wrapper absence and normal exit verified; only its exact exited watch retired. Scientific deficits remain; no stage checkpoint or runnable card remains.
 
 ## September 29 healing continuation
 

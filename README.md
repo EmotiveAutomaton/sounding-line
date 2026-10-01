@@ -32,13 +32,13 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current work, September 30:** The admitted Stage 13 queues are drained and the
+**Current state, October 1:** The admitted Stage 13 queues are drained and the
 [final evidence packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) is assembled.
 All 714 retained completed jobs pass integrity checks. Detector and memory healing are
-complete; reader admission remains failed and no complete additional admitted healing
-family fits the remaining window. Original failures and comparison limits are retained.
-The existing supervisor remains through **Thursday October 1 at 06:00 PDT** endpoint
-reconciliation; science cutoff remains Wednesday September 30 at 22:00 PDT.
+complete; reader admission remains failed and no scientific work remains admitted.
+Original failures and comparison limits are retained. The [October 1 endpoint](results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json)
+is reconciled, the checkpoint helper exited normally and its exact watch is retired.
+The standing independent health cadence remains; science stays closed.
 See [current status](CURRENT_STATUS.md) and
 [final integrity](results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json).
 Stage 12 remains stopped with its [final evidence packet assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md)

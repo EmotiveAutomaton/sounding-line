@@ -9,6 +9,35 @@ ran it.
 
 ---
 
+### OPS-S13-ENDPOINT-1001 - final endpoint reconciled; helper exited normally
+
+**Hypothesis.** The scheduled endpoint can close stage supervision while preserving the published evidence, retained failures and blocked work, with no orphaned scientific or checkpoint process.
+
+**METHOD.** Bind both deadline and exit receipts to their delivered digests and the frozen checkpoint contract; reconcile all scheduled markers and the final empty heartbeat. Verify native helper/wrapper and scientific-owner absence, released kernel/GPU locks, current source/input/consumer bindings, retained manifest and terminal hashes, unrun dispositions, published write-through and local packet bundle. Inspect resource/power limits, the sole watcher's loaded sources, freshness and actual delivery. After verifying normal exit, back up the watch configuration and retire only the exact exited helper watch, preserving every other setting and all terminal paths. No inference or scientific effect estimation.
+
+The table separates normal operational closure from scientific success. Completed records, failed admissions and unrun descendants retain their existing meanings.
+
+| Check | Observed state |
+|---|---|
+| Endpoint / normal exit | Scheduled October 1 06:00 PDT; deadline emitted 18.663 seconds later, followed by empty heartbeat and complete exit; both delivered hashes verify |
+| Retained history | 1,088 manifest hashes, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Active queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Current evidence | 361 source pins, nine distinct blocked-input pins, three complete consumer/admission bindings, published packet and local bundle verify unchanged |
+| Native owners / locks | Checkpoint helper, wrapper and science owners absent; checkpoint/queue locks released and global GPU lock absent |
+| Watch retirement | Only the exact exited helper watch removed; terminal paths, other watches, owner and health schedule preserved |
+| Host / disk / GPU free | 48.56 GiB / 750.70 GiB / 6,557 MiB |
+| Watcher / limits | Sole watcher scan 42.66 seconds old, loaded sources unchanged; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | Both notices reached the owner on their first attempts, within 55.61 seconds of creation; no new delivery failure |
+| Remaining schedule | No stage checkpoint remains; independent health stays due October 1 07:05:36 PDT |
+
+**Found.** The final endpoint and normal helper exit reconcile; the queues are drained and the published evidence is unchanged. No new failure, unknown attempt, orphaned result or recovery need is found. The frozen final heartbeat is expected after exit and is not a liveness failure. Inspection used 1.344 CPU seconds. The original reader refusal, unavailable comparisons, failed attempts, costs and limitations remain in the final scientific packet.
+
+**Means.** Stage 13 endpoint supervision is closed. No helper, parked GPU job or scientific queue restarts. All currently admitted work is exhausted; this does not claim every possible future healing study is impossible. Full write-through precedes both event ACKs, which must preserve the independent health deadline. No tests harvested this pass, new research, delegation, spend or gear change. Stage 12 remains closed. Only the standing independent operational health cadence remains.
+
+**Curator roll-up.** Theory group: operational validity. Question: Has the final endpoint closed without losing evidence or leaving work orphaned? Outcome: **Infrastructure**. Result: Normal endpoint closure preserves the published evidence and scientific deficits. Project meaning: The admitted stage and its checkpoint supervision are closed. Next engineering obligation: Retain the evidence and reconcile standing independent health events. Public claim: unchanged. Curator decision required: No. Detail: [endpoint](results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) and [ACKs](results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001_ACK.json).
+
+---
+
 ### OPS-S13-FINAL-REVIEW-1001 - final-review checkpoint reconciled; published packet preserved
 
 **Hypothesis.** The fixed final-review checkpoint can confirm that the completed evidence packet and all retained dispositions remain intact before the endpoint, without reopening scientific execution.
