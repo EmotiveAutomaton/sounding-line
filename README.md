@@ -32,14 +32,15 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current work, September 29:** The completed Stage 13 evidence passes retained-file
-validation, while instrument and comparison deficits require the authorized healing pass.
-The separately frozen corrective queue runs under existing Gear 2. Its complete detector
-comparison is internally recorded; memory and reader work remain gated by validity,
-resources and whole-family capacity. Original failed attempts and limitations remain.
-The current endpoint is **Thursday October 1 at 06:00 PDT**, with science ending
-Wednesday September 30 at 22:00 PDT. See [current status](CURRENT_STATUS.md) and
-[the healing design](docs/design/stage-13/HEALING_20260929.md).
+**Current work, September 30:** The admitted Stage 13 queues are drained and the
+[final evidence packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) is assembled.
+All 714 retained completed jobs pass integrity checks. Detector and memory healing are
+complete; reader admission remains failed and no complete additional admitted healing
+family fits the remaining window. Original failures and comparison limits are retained.
+The existing supervisor remains through **Thursday October 1 at 06:00 PDT** endpoint
+reconciliation; science cutoff remains Wednesday September 30 at 22:00 PDT.
+See [current status](CURRENT_STATUS.md) and
+[final integrity](results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json).
 Stage 12 remains stopped with its [final evidence packet assembled](results/phase_2_4_stage_12/FINAL_PACKET_20260927.md)
 and [final endpoint reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json).
 Dated execution history remains in [the operating archive](docs/archive/operations/README.md).

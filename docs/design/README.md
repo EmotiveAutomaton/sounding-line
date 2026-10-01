@@ -8,7 +8,7 @@ statements inside preserved sources describe their original commission.
 
 | Study | Present status | Read first |
 |---|---|---|
-| Stage 13 | Validity audit complete; separate healing queue running; Gear 2; assumed October 1 at 06:00 PDT finish | [Plan and supplied source](stage-13/README.md) |
+| Stage 13 | Admitted original/healing queues drained; final packet assembled with deficits; existing supervision through October 1 06:00 PDT | [Final packet](../../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md), [plan and supplied source](stage-13/README.md) |
 | Stage 12 | Generation stopped; allocation expired; final packet and September 28 endpoint reconciled with deficits retained | [Current status](../../CURRENT_STATUS.md), [week commission](PHASE_2_4_STAGE_12_CONTEXT.md), [interim packet](../../results/phase_2_4_stage_12/INTERIM_PACKET_20260925.md) |
 
 Stage 12's extensive local program was **approved and implemented**. Its submitted

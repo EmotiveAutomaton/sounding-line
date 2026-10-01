@@ -1,8 +1,13 @@
 # Stage 13 results
 
+The [final scientific packet](FINAL_PACKET_20260930.md) is assembled September 30,
+with [exhaustive integrity and drain verification](FINAL_INTEGRITY_20260930.json).
+All admitted original and healing work is exhausted; failed gates and unavailable
+comparisons remain explicit. The existing helper continues through the endpoint.
+
 The original Gear 2 queue drained normally. The September 29 validity audit
 confirms intact retained files and required instrument healing. The detector and memory corrective
-families are complete; the reader remains resource-held under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
+families are complete; the corrected reader admission completed and refused downstream release under the [healing design](../../docs/design/stage-13/HEALING_20260929.md).
 Final packet is assumed **October 1, 2026 at 06:00 PDT**; science ends September 30
 at 22:00 PDT. Existing Gear 2 and no paid compute persist. Original failed attempts
 and historical Friday receipts remain unchanged.
@@ -15,6 +20,11 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [FINAL_PACKET_20260930.md](FINAL_PACKET_20260930.md) and [integrity](FINAL_INTEGRITY_20260930.json) | Complete scientific synthesis, retained failures, exhausted admitted queue, all-attempt audit/costs and local six-case import bundle |
+| [CONTRIBUTION_RIVALS_FINAL_20260930.json](CONTRIBUTION_RIVALS_FINAL_20260930.json) | Complete CPU rival compilation and replay; absent goal support and location-score limits retained (L461) |
+| [HEALTH_20260930_1441_PUBLIC.json](HEALTH_20260930_1441_PUBLIC.json) and [ACK](HEALTH_20260930_1441_ACK_PUBLIC.json) | Closed queue, preserved results and gate refusal, native absence, resource limits, locks and actual health delivery verify; no recovery needed |
+| [READER_ADMISSION_20260930_PUBLIC.json](READER_ADMISSION_20260930_PUBLIC.json) and [ACKs](READER_ADMISSION_20260930_ACK_PUBLIC.json) | Complete corrected admission replay and independent scoring; known-answer refusal, all descendants unrun, normal queue closure and verified monitoring |
+| [HEALTH_20260930_1019_PUBLIC.json](HEALTH_20260930_1019_PUBLIC.json) and [ACK](HEALTH_20260930_1019_ACK_PUBLIC.json) | Actual headroom cleared the frozen floor; fresh reader admission dispatch, unchanged completed outputs and native supervision verify; scientific gates retained |
 | [HEALTH_20260930_0616_PUBLIC.json](HEALTH_20260930_0616_PUBLIC.json) and [ACK](HEALTH_20260930_0616_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
 | [HEALTH_20260930_0212_PUBLIC.json](HEALTH_20260930_0212_PUBLIC.json) and [ACK](HEALTH_20260930_0212_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |
 | [HEALTH_20260929_2208_PUBLIC.json](HEALTH_20260929_2208_PUBLIC.json) and [ACK](HEALTH_20260929_2208_ACK_PUBLIC.json) | Native owners, preserved outputs, locks, resource hold and actual health delivery verify; no recovery or new science |

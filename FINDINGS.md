@@ -9,6 +9,163 @@ ran it.
 
 ---
 
+### OPS-S13-FINAL-0930 - admitted queues drained and final packet assembled
+
+**Hypothesis.** Every currently runnable Stage 13 job has finished, remaining unrun identities have an explicit disposition, and the retained evidence supports an honest final packet without silently discarding failures or launching an infeasible partial repair.
+
+**METHOD.** Audit every retained original and healing manifest, source/input pin, completion/output binding and applicable saved-score replay. Reconcile all unrun identities against completed successors or failed gates, inspect exact native ownership, locks, resources, checkpoint and watcher freshness, and calculate whole-reader-family feasibility from the completed admission calls. Replay the completed CPU rival consumer and independently check its group means (L461). Assemble a six-case local evidence book and exercise the current offline consumer on an actual retained-source capture. Run all Stage 13 tests and verify the research locks. No fresh scientific inference, fit, threshold change or subset selection is introduced by this audit.
+
+The table separates current queue disposition from historical attempts. Completed means a terminal job with verified retained outputs, not necessarily a passed scientific admission. Historical unrun identities include replaced cards; they are not additional runnable work.
+
+| Scope | Complete | Failed | Blocked or unrun | Running / eligible |
+|---|---|---|---|---|
+| Active original queue | 686 | 3 | 10 | 0 / 0 |
+| Active healing queue | 23 | 0 | 10 | 0 / 0 |
+| All retained original manifests | 691 | 29 | 335 | 0 / 0 |
+| All retained healing manifests | 23 | 0 | 10 | 0 / 0 |
+
+**Found.** All 714 retained completions verify, with no started attempt lacking a terminal record. The original unrun inventory resolves into 322 completed successor identities, ten active gate-blocked cards and three corrected small-reader cards blocked by their failed admission. All 941 original source pins and 373 input pins, plus 361 healing source pins and 44,652 input pins, verify. All 44 Stage 13 tests and 21 research locks pass. The corrected reader still fails its supplied negative-relation control; even a future successful admission would require about 14.73 hours for the whole family against 4.64 hours available at the feasibility inspection. That calculation does not execute or admit the blocked capacity card. Other missing comparisons require changed instruments, dependencies or independent data rather than blind retries. The complete detector and memory repairs retain their negative controls and limits. No new defect requiring an executable repair was found.
+
+The private casebook retains source-selected, success, improvement, misleading-context, constructed confident-error and annotation-defined mixed-contribution examples, with outcome selection labelled. Independently established historical ambiguity remains unavailable. The actual source capture is visually checked; the current offline parser/matcher accepts its saved result and refuses changed anchors, revision and scope. Evaluator truth remains in a separate local sidecar. This does not demonstrate a live model service or native side-panel flow. The bundle is hash-bound, with raw human data excluded from Git.
+
+Native science workers are absent, queue/GPU locks released, and the existing checkpoint helper and sole watcher are healthy. There are no pending landing events and no new delivery failures at inspection. The exhaustive file/score audit used 211.219 CPU seconds. Summed immutable costs, including failed and replaced attempts, are retained in the final packet; 28 preflight failures have unknown cost rather than zero cost. Initial test invocation collected no tests because a Windows wildcard was unexpanded; the explicit file-list rerun passed without changing tests. All original failures remain.
+
+**Means.** The admitted scientific queues are drained and the final scientific packet is assembled ahead of the October 1 06:00 PDT endpoint. This does not claim that every conceivable future healing study is impossible. No complete additional admitted healing family fits the remaining fixed window, and failed gates are not relaxed. The latest user request authorizes committing and pushing the completed record. Preserve the current checkpoint helper through endpoint reconciliation and the independent September 30 18:44:56 PDT health deadline; ordinary documentation work does not reset it. Stage 12 remains closed. No tests harvested this pass, new science, delegation, paid compute or gear change. Scientific comparisons and warranted limits are consolidated in the final packet, including L461's complete CPU references; operational verification belongs in the instrument ledger.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the admitted queue exhausted and its final evidence complete and accurately qualified? Outcome: **Infrastructure**. Result: All retained completed jobs verify and remaining cards have explicit blocked or superseded dispositions. Project meaning: The final packet preserves scientific deficits without treating queue completion as universal success. Next engineering obligation: Publish the authorized record and reconcile the scheduled endpoint. Public claim: unchanged beyond the separately recorded complete scientific landings. Curator decision required: No. Detail: [final packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and [integrity receipt](results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json).
+
+---
+
+### L461 - completed contribution rivals do not test learned goal coupling
+
+**Hypothesis.** Reconstructing candidate writing operations improves recorded handling and located facts beyond source priors, retrieval and direct text alignment, with a distinct benefit from goal coupling.
+
+**METHOD.** Compile the already completed CPU contribution family over 251 historically exposed CoAuthor episodes: nine development, twenty calibration and 222 reserve cases. Replay the entire original 7,279-record consumer exactly and independently verify every group mean. Compare four evidence views, seven CPU methods and the additional supplied-record extraction reference. No new model call, fit, selection, source allocation, threshold, interval or p-value is introduced. Original neural admission failures remain separate.
+
+The table reports all reserve methods on the same 222 cases in one connected component. A is the endpoint; B nominally adds public context, which is unavailable and therefore adds no evidence. C adds the before text and offered alternatives; D also supplies the observed process. Brier loss is summed squared handling-probability error (lower is better); accuracy is correct modal handling (higher is better). Strict slot F1 averages exact span matching across six slots, counting an empty prediction against empty truth as one; it is not positive-span recovery. Candidate coverage is the fraction with a declared candidate of the correct handling that exactly reconstructs the endpoint. No population interval is available. All partitions, fields and relaxed-location scores remain in the complete aggregate receipt.
+
+| Evidence | Method | Handling Brier loss | Handling accuracy | Mean strict slot F1 | Exact candidate coverage |
+|---|---|---|---|---|---|
+| A | Exact text alignment | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| A | Candidate execution | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| A | Training prior | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| A | Retrieved-record prior | 0.858671 | 0.328829 | 0.593844 | Unavailable |
+| A | Shuffled goal support | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| A | Without execution weighting | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| A | Without goal coupling | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| B | Exact text alignment | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| B | Candidate execution | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| B | Training prior | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| B | Retrieved-record prior | 0.858671 | 0.328829 | 0.593844 | Unavailable |
+| B | Shuffled goal support | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| B | Without execution weighting | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| B | Without goal coupling | 0.601166 | 0.540541 | 0.593844 | 0.000000 |
+| C | Exact text alignment | 0.378288 | 0.774775 | 0.785010 | Unavailable |
+| C | Candidate execution | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+| C | Training prior | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| C | Retrieved-record prior | 0.858671 | 0.328829 | 0.593844 | Unavailable |
+| C | Shuffled goal support | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+| C | Without execution weighting | 0.601166 | 0.540541 | 0.809034 | 0.130631 |
+| C | Without goal coupling | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+| D | Exact text alignment | 0.378288 | 0.774775 | 0.785010 | Unavailable |
+| D | Candidate execution | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+| D | Supplied-record extraction | 0.000000 | 1.000000 | 1.000000 | Unavailable |
+| D | Training prior | 0.601166 | 0.540541 | 0.593844 | Unavailable |
+| D | Retrieved-record prior | 0.858671 | 0.328829 | 0.593844 | Unavailable |
+| D | Shuffled goal support | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+| D | Without execution weighting | 0.601166 | 0.540541 | 0.809034 | 0.130631 |
+| D | Without goal coupling | 0.568617 | 0.554054 | 0.809034 | 0.130631 |
+
+**Found.** With before text and alternatives, direct alignment has lower handling loss and greater accuracy than candidate execution. Candidate execution modestly improves handling over the training prior, while retrieval performs worse. Endpoint-only candidate reading reduces to the prior. The joint, severed-goal and shuffled-goal variants are identical throughout because no learned goal support is supplied: this is **VOID as a goal-coupling comparison**. Only a small part of the reserve has an exactly reconstructing declared candidate. High slot-averaged location scores include credit for correctly empty slots; they cannot stand for successful reconstruction of positive contribution spans. Supplied-record extraction is perfect by reading its answer-bearing input, not by recovering an unseen process.
+
+**Means.** These complete CPU rivals establish engineering references, not a capable joint reader or a general reconstruction advantage. Human mental-goal truth, natural public context, independent source replication and an admitted neural counterpart remain missing. Probabilities retain the original source priors and fixed similarity heuristic without a separately calibrated contribution posterior. Preserve the complete negative/control results and all original attempts. This closes a final-packet compilation obligation; no new research test is harvested or launched.
+
+**Curator roll-up.** Theory group: goal/process coupling. Question: Does candidate execution improve contribution recovery and demonstrate learned goal coupling? Outcome: **Narrows**. Result: Direct alignment leads candidate execution on handling, while absent goal support makes the coupling contrast void. Project meaning: Candidate execution and supplied-record extraction are distinct from an admitted historical reader. Next engineering obligation: Retain these complete rivals and their measure limits in the final packet; any later instrument redesign needs its own prospective validation. Public claim: unchanged for general coupling and reconstruction. Curator decision required: No. Detail: [complete rival receipt](results/phase_2_4_stage_13/CONTRIBUTION_RIVALS_FINAL_20260930.json).
+
+---
+
+### OPS-S13-HEALTH-0930-1441 - closed queue and continuing supervision verify
+
+**Hypothesis.** The completed healing queue remains correctly closed under its recorded reader-admission refusal, with unchanged evidence and functioning final-packet supervision.
+
+**METHOD.** Inspect exact native identities, retained completion and queue-terminal hashes, complete consumers and admission output bindings, all frozen manifests/source pins and blocked-card input pins. Check dependency eligibility, unknown attempts, failures, locks, actual resources, power limits, checkpoint freshness, watcher loaded sources, terminal registration and recorded owner delivery. This is an operational inspection; the earlier full scientific and admission replays stand without further model calls or effect estimation.
+
+The table describes the 14:41 PDT inspection. Counts refer to the frozen healing queue; resource values are measured free headroom. Output age is judged against a closed queue, while active checkpoint and watcher freshness are measured in seconds.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 23 complete, ten blocked/unrun, no running, pending or eligible card |
+| Native owners | Both coordinators, successor wrapper and all completed workers absent; Thursday helper and sole watcher verified |
+| Retained evidence | 33 manifests, 361 source pins, nine distinct blocked-input pins, 23 landed terminal hashes and three complete consumer/admission output bindings verify |
+| Gate | Recorded reader admission refusal unchanged; all descendants lack dispatch receipts |
+| Kernel locks | Queue released, checkpoint held; global GPU lock absent |
+| Host / disk / GPU free | 53.59 GiB / 755.42 GiB / 8,582 MiB |
+| Limits | Gear 2, six single-thread CPU slots and one GPU; AC maximum 90%, boost off |
+| Freshness | Checkpoint heartbeat 17.98 seconds old; watcher scan 17.66 seconds old |
+| Delivery | Health event reached owner on its first attempt, 36.02 seconds after due; no new delivery error |
+
+**Found.** The normal closed state remains valid, without a new failure, unknown attempt, orphaned result or changed write-through. The prior full admission replay and its refusal remain preserved. Resource headroom does not reopen the failed instrument gate. The original queue's three retained failures and ten blocked cards and Stage 12 closure remain unchanged. Both retired coordinator watches remain retired, with terminal paths and the exact live checkpoint watch retained. Inspection cost 0.656 CPU seconds.
+
+**Means.** No recovery or scientific restart is required. There is no runnable authorized scientific card; assemble the Thursday final packet from completed detector/memory evidence, the refused reader admission and all original deficits. The fixed corrected-interface attempt is exhausted. No new tests harvested, new study, delegation, spend or extra polling wake. Preserve the Wednesday September 30 22:00 PDT science cutoff and Thursday October 1 06:00 PDT final packet. Full operational write-through precedes this health ACK; only that ACK rearms the independent four-hour clock, with the exact next due in its receipt.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the closed queue preserving its results and blocked work under healthy supervision? Outcome: **Infrastructure**. Result: The queue remains correctly closed with healthy monitoring. Project meaning: No new scientific verdict follows. Next engineering obligation: Assemble the fixed Thursday final packet and preserve all deficits. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260930_1441_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260930_1441_ACK_PUBLIC.json).
+
+---
+
+### OPS-S13-HEAL-READER-0930 - corrected reader completes but fails known-answer admission
+
+**Hypothesis.** A reader returning probabilities under named categories can preserve literal validity and exactly recover explicitly supplied handling, actors, operations, relations and locations before the original human-data comparisons are released.
+
+**METHOD.** Run the single frozen semantic-category-key interface attempt on the complete seven-row admission roster: three retained process-record examples and four constructed controls covering accept, edit, dismiss and ignore. Use the frozen local Qwen model, direct reading and full supplied evidence. Require literal schema validity on every reply and exact recovery of every known field and location on all four controls. Verify every output/input/source binding, request/model identity and native token count; replay the entire frozen handler offline from saved replies, then independently recompute named-probability validity, handling/field proper losses, category accuracy and exact-location matching. No new model call or repair is used in validation.
+
+The table describes the complete constructed-control census. Exact means that every supplied target in that column was recovered; relation loss is the mean multiclass Brier loss over six slots, with zero perfect and two the worst possible value. These controls validate the instrument and do not estimate performance on human writing.
+
+| Supplied handling | Handling, actors and operations | Exact locations | Relations | Relation Brier loss | Whole control |
+|---|---|---|---|---|---|
+| Accept | Exact | Exact | Exact | 0 | Pass |
+| Edit | Exact | Exact | Exact | 0 | Pass |
+| Dismiss | Exact | Exact | Wrong in all six slots | 2 | Fail |
+| Ignore | Exact | Exact | Exact | 0 | Pass |
+
+**Found.** All seven native replies are literal-valid and all saved requests, parses, scores and completion bindings verify. The complete frozen-handler replay is exact, and independent arithmetic agrees. The dismiss control returns the relation category `unrelated` in every slot where the explicitly supplied known target is `none`; all other required categories and exact locations pass. The frozen all-controls gate therefore refuses admission. The true literal-validity flag in the predictions file and false final admission flag describe separate checks and are consistent. **INSTRUMENT DEAD for this fixed corrected interface's admission**, with no claim that the research question or general reader capability is disproved.
+
+The completed attempt uses seven calls, 6,135 native prompt tokens, 10,662 output tokens, 169.722 seconds of call wall time and 172.662 seconds of whole-worker wall time; worker CPU time is 1.750 seconds. No observed request exceeded the declared native token budgets. The three process-record examples remain in the complete retained replay; their scores do not become a human-data comparison after the known-answer gate fails.
+
+**Means.** The queue stops normally with 23 complete cards and ten blocked descendants, including the unexecuted capacity gate, two calibration blocks, six reserve blocks and reader summary. There is no pending or runnable card and no downstream dispatch. A successful process exit is not admission. The one corrected-interface attempt is exhausted; preserve the failed control, literal replies, original positional-interface failure and all original data. No second interface attempt, category relabelling, clipping, gate relaxation, new study or delegation is authorized by this wake. The completed detector and memory families remain available for the final packet, with their recorded limitations. No p-value or new test is added.
+
+Native coordinator, wrapper and worker absence verifies; queue/GPU locks are released and the Thursday checkpoint lock is held by its live owner. The sole watcher has verified loaded sources and fresh scanning. All three terminal notices reached the owner on their first attempts. Only the exact exited successor process watch is retired; terminal paths, checkpoint watch, original delivery-failure history and the independent health deadline of September 30 at 14:38:38 PDT are preserved. All 21 locks pass. Full internal write-through precedes all three ACKs. Science cutoff remains Wednesday September 30 at 22:00 PDT and the single final scientific packet Thursday October 1 at 06:00 PDT; Stage 12 remains closed.
+
+**Curator roll-up.** Theory group: instrument validity. Question: Does the corrected named-category reader recover all explicitly supplied known facts before human comparisons? Outcome: **Infrastructure**. Result: The corrected reader fails its known-answer admission. Project meaning: The primary reader comparison remains unavailable; no broader theory verdict follows. Next engineering obligation: Carry the complete refused admission and blocked comparison into the Thursday final packet. Public claim: unchanged. Curator decision required: No. Detail: [full admission and closure receipt](results/phase_2_4_stage_13/READER_ADMISSION_20260930_PUBLIC.json) and [ACKs](results/phase_2_4_stage_13/READER_ADMISSION_20260930_ACK_PUBLIC.json).
+
+---
+
+### OPS-S13-HEALTH-0930-1019 - resource gate opens; authorized reader admission resumes
+
+**Hypothesis.** The resource-held reader can resume without repeating completed science when actual headroom satisfies the frozen admission floor and native supervision remains healthy.
+
+**METHOD.** Inspect actual native owners, output freshness, failures, unknown attempts, kernel locks, host/disk/GPU resources, power limits and watcher delivery. Verify frozen card/source/input bindings and retained completions. Prepare a successor differing only in queue identity and the exact absent prior owner, register terminal paths before launch, then verify the native coordinator, single reader worker, thread/priority limits and request production. No scientific interpretation of the unfinished admission is made.
+
+The table describes the initial health inspection and the verified recovery snapshot. Counts refer to frozen healing cards; memory values are measured free headroom and the unchanged cold-model requirement.
+
+| Check | Observed state |
+|---|---|
+| Before recovery | 22 complete, 11 pending, no running worker or new failure |
+| Initial GPU free / required | 8,785 / 8,024 MiB; resource admission passes |
+| After recovery | 22 complete, one reader admission running, ten descendants gated |
+| Preserved work | All 33 manifests, 361 source pins, all frozen card inputs and 22 completed jobs verify; original attempts retained |
+| Allocation | Gear 2, six single-thread CPU slots and one GPU, below-normal workers; AC maximum 90%, boost off |
+| Native ownership | Exact prior owner absent; fresh coordinator and reader worker verified; no worker adoption or completed-job redispatch |
+| Locks and freshness | Queue/checkpoint locks held by live owners; GPU lock matches the reader; fresh native request output and continuing helper/watcher |
+| Delivery | Health event reached owner on its first attempt, 18.33 seconds after due; no new delivery error |
+
+**Found.** The earlier resource hold cleared. The frozen preflight and complete-output verification passed, and the successor launched only the unused reader admission. Its native request output verifies actual execution. Both completed corrective families and the original queue's three failures and ten blocked cards are preserved. Stage 12 remains closed. The Thursday checkpoint helper and sole watcher are unchanged; the successor's exact native process and terminal paths are registered. Two local inspection-helper compatibility issues were corrected; neither changed a frozen runner or produced a scientific attempt.
+
+**Means.** Authorized recovery is complete, with the admission still unfinished. Its ten descendants require the original literal known-answer gate; the eight human-data blocks also require the measured whole-family capacity gate. Do not infer a reader verdict, relax gates, change gear or rerun completed work. No tests harvested, new study, delegation or spend. Science stops Wednesday September 30 at 22:00 PDT and the single final scientific packet remains Thursday October 1 at 06:00 PDT. Full operational write-through precedes the health ACK and its independent four-hour rearm. The generic no-recovery conditional in the initial private inspection does not describe this outcome; the appended recovery receipts establish the actual continuation.
+
+**Curator roll-up.** Theory group: operational validity. Question: Can the existing reader admission resume safely after resource headroom returns? Outcome: **Infrastructure**. Result: The authorized reader admission is running under its frozen gates. Project meaning: Execution has resumed without a new scientific verdict. Next engineering obligation: Land the complete admission and apply the whole-family capacity gate before further reader work. Public claim: unchanged. Curator decision required: No. Detail: [inspection and recovery](results/phase_2_4_stage_13/HEALTH_20260930_1019_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260930_1019_ACK_PUBLIC.json).
+
+---
+
 ### OPS-S13-HEALTH-0930-0616 - reader remains resource-held; supervision verifies
 
 **Hypothesis.** The completed corrective families remain preserved, while the unfinished reader family waits for its actual resource gate under functioning supervision.

@@ -1,6 +1,6 @@
 # Documentation - current authority, methods and history
 
-**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** The original Stage 13 Gear 2 queue has drained; the September 29 user request authorizes needed healing after the validity audit, with an earlier Thursday packet; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
+**Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** The admitted original and healing Stage 13 queues are drained, with the [final packet assembled](../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and all retained completions verified. Reader admission and unavailable comparisons remain explicit deficits; the existing helper continues through the Thursday endpoint; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
 
 **The claims live in [`theory/`](theory/), organised by what we believe; the methods live in
 [`../FINDINGS.md`](../FINDINGS.md), organised by when we ran them.** A result exists in both or

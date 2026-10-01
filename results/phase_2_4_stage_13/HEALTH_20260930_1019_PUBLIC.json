@@ -1,0 +1,88 @@
+{
+  "all_completed_jobs_verified": true,
+  "all_frozen_inputs_verified": true,
+  "at": "2026-09-30T17:37:12.116762+00:00",
+  "checkpoint_age_seconds": 28.486268997192383,
+  "complete_terminal_count": 22,
+  "counts": {
+    "DONE": 22,
+    "PENDING": 10,
+    "RUNNING": 1
+  },
+  "delivery_delay_after_due_seconds": 18.330538749694824,
+  "final_packet": "2026-10-01T06:00:00-07:00",
+  "finding": "OPS-S13-HEALTH-0930-1019",
+  "gated_pending": 10,
+  "gpu_owner_verified": true,
+  "health_delivered_first_attempt": true,
+  "initial_counts": {
+    "DONE": 22,
+    "PENDING": 11
+  },
+  "initial_inspection_at": "2026-09-30T17:19:51.540545+00:00",
+  "initial_resources": {
+    "free_disk_GiB": 759.7550468444824,
+    "free_host_GiB": 55.09127426147461,
+    "gpu_free_MiB": 8785,
+    "gpu_ready": true,
+    "gpu_required_MiB": 8024,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "locks": {
+    "checkpoints.lock": true,
+    "queue-kernel.lock": true
+  },
+  "manifest_count": 33,
+  "native_ownership_verified": true,
+  "new_failures": [],
+  "next_action": "Land complete admission; literal known-answer and measured whole-family capacity gates control descendants",
+  "old_queue_counts": {
+    "BLOCKED": 10,
+    "DONE": 686,
+    "FAILED": 3
+  },
+  "prelaunch_resources": {
+    "additional_required_MiB": 8024,
+    "capacity_mode": "cold-reservation",
+    "model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+    "ready": true,
+    "reason": "ready",
+    "resident": [],
+    "server": {
+      "version": "0.34.2"
+    },
+    "snapshot": {
+      "at": "2026-09-30T17:34:19.143545+00:00",
+      "free_MiB": 8857.0,
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "power_W": 21.93,
+      "reserved_MiB": 285.0,
+      "temperature_C": 44.0,
+      "total_MiB": 12282.0,
+      "used_MiB": 3141.0,
+      "utilization_percent": 25.0
+    }
+  },
+  "recovery": "Fresh successor resumes unused reader admission; all original cards, inputs, gates and completed outputs preserved",
+  "request_production_verified": true,
+  "running": [
+    "reader-admission"
+  ],
+  "science_cutoff": "2026-09-30T22:00:00-07:00",
+  "scientific_verdict": false,
+  "scope": "Operational health and authorized recovery; unfinished admission has no reported scores",
+  "source_pins": 361,
+  "stage12_closed": true,
+  "status": "authorized-reader-admission-running",
+  "successor_plan_changed_fields": [
+    "id",
+    "prior_owners"
+  ],
+  "successor_terminal_and_process_watch_registered": true,
+  "thread_and_priority_verified": true,
+  "watcher_loaded_source_verified": true,
+  "watcher_scan_age_seconds": 54.659770488739014
+}

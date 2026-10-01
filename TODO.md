@@ -1,6 +1,19 @@
 # TODO: the study queue
 
+## September 30 final drain and publication
+
+- [x] OPS-S13-FINAL-0930: Exhaustive retained-attempt audit, unrun-identity reconciliation, full-family feasibility, local casebook/import validation and complete final packet assembled. All currently admitted scientific work is exhausted; remaining failures and blocked comparisons are retained.
+- [ ] S13-ENDPOINT-THURSDAY: Reconcile the existing helper's final review/endpoint receipts through October 1 06:00 PDT, preserve the packet and retire only its exact exited watch after verified completion. This is supervision, not a scientific launch.
+
 ## September 29 healing continuation
+
+- [x] L461: Complete CPU contribution rival consumer replayed and compiled for the final packet; absent goal-support contrast remains VOID, slot-location and source limits explicit.
+
+- [x] OPS-S13-HEALTH-0930-1441: Closed queue, preserved completed records and admission refusal, absent science owners, locks, limits and actual watcher delivery verify; no recovery or runnable science. Full write-through precedes health ACK.
+
+- [x] OPS-S13-HEAL-READER-0930: Complete corrected admission fully replayed and internally recorded; known-answer gate refuses, ten descendants blocked/unrun, normal queue exit and exact watch retirement verified.
+
+- [x] OPS-S13-HEALTH-0930-1019: Full health inspection and authorized recovery recorded; fresh reader admission running, all downstream gates retained. ACK rearms the independent four-hour clock.
 
 - [x] OPS-S13-HEALTH-0930-0616: Full native/resource/lock/delivery inspection recorded; reader remains resource-held, no new failure or recovery. Health ACK rearms four hours; exact deadline in its receipt.
 
@@ -20,11 +33,11 @@
 - [x] OPS-S13-HEAL-STRONG-0929: Whole strong extension producer verified and internally recorded; finish the running complete paired consumer.
 - [x] OPS-S13-HEALING-0929: Native admission and full operational health inspection written through; ACK only after this landing. [Rollout](results/phase_2_4_stage_13/HEALING_ROLLOUT_20260929.json).
 - [x] OPS-S13-VALIDITY-0929: Full retained-file audit and applicable score replay; instrument deficits confirmed. Original suite and targeted checks pass; see audit receipt.
-- [ ] S13-HEAL-READER: Resource-held after normal queue exit; reassess actual GPU headroom at the next independent four-hour health event; September 30 06:16 inspection still refuses admission. One frozen named-category admission, then original complete roster only if admitted and whole-family capacity passes. Preserve old queue identity; any later authorized continuation needs a fresh successor queue identity.
+- [x] S13-HEAL-READER: The single corrected-interface attempt completed and failed its frozen known-answer gate (OPS-S13-HEAL-READER-0930). Full replay and independent scoring agree; all ten descendants remained blocked and unrun. Preserve original and corrected failures; no second attempt authorized.
 - [x] S13-HEAL-MEMORY (L460): All seventeen producers and the complete 952-row matched-memory consumer verified and internally written through; all controls, one-component limits, view equality and original VOID retained.
 - [x] S13-HEAL-DETECTOR (L459): Complete frozen strong comparator and paired uncertainty replayed and written through; both partitions, all rivals and operating-point limits retained for Thursday packet.
 - [x] S13-HEAL-OPS: Contracts/cards/capsule frozen; exact old checkpoint retired; Thursday helper and advancing native CPU/GPU workers verified. Frozen capacity gates govern larger families.
-- [ ] S13-FINAL-THURSDAY: Full corrective write-through and one final scientific packet by assumed October 1 06:00 PDT; science ends September 30 22:00 PDT. All original failures and irreparable limits retained.
+- [x] S13-FINAL-THURSDAY: Final scientific packet assembled September 30 with complete corrective write-through, refused reader admission, all CPU rivals, casebook and final integrity audit. October 1 06:00 PDT endpoint and September 30 22:00 PDT science cutoff remain; original failures and irreparable limits retained. See [packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md).
 
 The user authorized healing if needed and Terra research planners only otherwise. Healing is needed and proceeds inline. Prior closed-item next-step language below is historical.
 

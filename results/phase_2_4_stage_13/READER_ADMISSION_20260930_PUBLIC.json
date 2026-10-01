@@ -1,0 +1,100 @@
+{
+  "admitted": false,
+  "all_requests_parses_scores_bindings_verified": true,
+  "all_three_terminal_notices_delivered_first_attempt": true,
+  "at": "2026-09-30T17:43:30.890864+00:00",
+  "blocked_descendants": 10,
+  "capacity_not_reached": true,
+  "checkpoint_age_seconds": 17.200384855270386,
+  "cost": {
+    "call_wall_seconds": 169.72212539985776,
+    "calls": 7,
+    "output_tokens": 10662,
+    "prompt_tokens": 6135,
+    "worker_cpu_seconds": 1.75,
+    "worker_wall_seconds": 172.66159470006824
+  },
+  "counts": {
+    "BLOCKED": 10,
+    "DONE": 23
+  },
+  "downstream_dispatches": 0,
+  "failure": "Dismiss fixture returns unrelated for all six explicitly supplied none relations",
+  "final_packet": "2026-10-01T06:00:00-07:00",
+  "finding": "OPS-S13-HEAL-READER-0930",
+  "full_frozen_handler_replay_exact": true,
+  "gpu_lock_absent": true,
+  "health_due_unchanged": 1790804318.5507288,
+  "independent_named_probability_loss_and_location_replay": true,
+  "known_control_results": [
+    {
+      "checks": {
+        "actor": true,
+        "all_exact": true,
+        "handling": true,
+        "location": true,
+        "operation": true,
+        "relation": true
+      },
+      "handling": "accept",
+      "relation_brier": 0.0
+    },
+    {
+      "checks": {
+        "actor": true,
+        "all_exact": true,
+        "handling": true,
+        "location": true,
+        "operation": true,
+        "relation": true
+      },
+      "handling": "edit",
+      "relation_brier": 0.0
+    },
+    {
+      "checks": {
+        "actor": true,
+        "all_exact": false,
+        "handling": true,
+        "location": true,
+        "operation": true,
+        "relation": false
+      },
+      "handling": "dismiss",
+      "relation_brier": 2.0
+    },
+    {
+      "checks": {
+        "actor": true,
+        "all_exact": true,
+        "handling": true,
+        "location": true,
+        "operation": true,
+        "relation": true
+      },
+      "handling": "ignore",
+      "relation_brier": 0.0
+    }
+  ],
+  "literal_valid_rows": 7,
+  "locks": {
+    "checkpoints.lock": true,
+    "queue-kernel.lock": false
+  },
+  "locks_verified": 21,
+  "native_coordinator_worker_wrapper_absent": true,
+  "next_action": "Assemble final packet with complete corrective families and refused reader admission; no new scientific dispatch",
+  "next_health_local": "2026-09-30T14:38:38.550729-07:00",
+  "one_corrected_interface_attempt_exhausted": true,
+  "only_exact_exited_process_watch_retired": true,
+  "original_reader_failure_retained": true,
+  "prior_completed_outputs_unchanged": true,
+  "protocol": "semantic-category-keys-v1",
+  "science_cutoff": "2026-09-30T22:00:00-07:00",
+  "scope": "Known-answer instrument admission only; no human-data comparison or broader theory verdict",
+  "stage12_closed": true,
+  "status": "complete-instrument-admission-refused",
+  "terminal_paths_retained": true,
+  "watcher_loaded_sources_verified": true,
+  "watcher_scan_age_seconds": 58.600213050842285
+}
