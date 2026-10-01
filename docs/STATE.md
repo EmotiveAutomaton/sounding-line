@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+## October 1, 04:02 PDT: final review reconciled; endpoint pending
+
+The final-review marker matches its fixed 04:00 schedule, delivered digest and exact live helper. Published packet/local bundle, scientific write-through, retained manifest/terminal hashes, unrun dispositions and current source/consumer bindings verify unchanged. Science remains closed; failed gates and deficits persist. Native science owners are absent, queue/GPU locks released, helper and sole watcher fresh; all 21 research locks and first-attempt delivery pass. No recovery. Full write-through precedes checkpoint ACK, which preserves health due 07:05:36 PDT. The same helper continues to the sole pending 06:00 PDT endpoint; retire only its exact watch after verified normal exit. Stage 12 remains closed. [Review](../results/phase_2_4_stage_13/FINAL_REVIEW_20261001.json), [ACK](../results/phase_2_4_stage_13/FINAL_REVIEW_20261001_ACK.json).
+
 ## October 1, 03:03 PDT: closed science and supervision verify before final review
 
 Queues remain drained with no running, pending or eligible science. All retained manifest/terminal hashes and unrun dispositions, current frozen bindings, published packet/local bundle and reporting marker verify unchanged. Exact science owners are absent, queue/GPU locks released, checkpoint helper and sole watcher live/fresh; first-attempt health delivery and all 21 research locks pass. No recovery. Full write-through precedes health ACK and independent four-hour rearm; see ACK for actual next due. The earlier October 1 04:00 PDT final review and 06:00 endpoint remain; keep the same helper until normal exit. Science and Stage 12 stay closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261001_0303_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261001_0303_ACK_PUBLIC.json).

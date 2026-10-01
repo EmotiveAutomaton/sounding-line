@@ -47,7 +47,9 @@ The September 30 22:58 PDT health inspection verifies closed science, unchanged 
 
 The October 1 03:03 PDT health inspection verifies unchanged retained evidence, closed queues and healthy native supervision. No recovery is required. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_0303_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_0303_ACK_PUBLIC.json).
 
-Next action: existing final review October 1 04:00 PDT, then endpoint 06:00 PDT. Keep the same helper through normal exit. The independent health clock rearms four hours after this fully recorded inspection is acknowledged; see its ACK receipt for the exact deadline. No scientific restart or Stage 12 reopening.
+The October 1 04:00 PDT final-review checkpoint is reconciled. Its delivered digest and fixed schedule verify, the published evidence packet and retained dispositions are unchanged, and supervision is healthy. [Review](results/phase_2_4_stage_13/FINAL_REVIEW_20261001.json) and [ACK](results/phase_2_4_stage_13/FINAL_REVIEW_20261001_ACK.json).
+
+Next action: reconcile the existing October 1 06:00 PDT endpoint and normal helper exit, then retire only its exact exited process watch. Independent health remains due 07:05:36 PDT. No scientific restart or Stage 12 reopening.
 
 ## Navigation
 

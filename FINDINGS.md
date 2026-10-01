@@ -9,6 +9,34 @@ ran it.
 
 ---
 
+### OPS-S13-FINAL-REVIEW-1001 - final-review checkpoint reconciled; published packet preserved
+
+**Hypothesis.** The fixed final-review checkpoint can confirm that the completed evidence packet and all retained dispositions remain intact before the endpoint, without reopening scientific execution.
+
+**METHOD.** Bind the checkpoint to its delivered digest, fixed contract schedule and exact live helper. Reconcile all retained manifests, completed/failed terminal hashes and unrun-card absence with the final audit; verify frozen current sources/blocked inputs, complete consumer outputs, published write-through, final packet and local bundle. Inspect native ownership, failures, kernel/GPU locks, resource/power limits, heartbeat/scan freshness, watcher sources, endpoint registration and actual delivery. No new inference, study or scientific effect estimation.
+
+The table separates the reporting reminder from scientific queue disposition. Verified terminal records retain their original successful, failed or blocked scientific status.
+
+| Check | Observed state |
+|---|---|
+| Final-review marker | Scheduled October 1 04:00 PDT; emitted 18.168 seconds later; digest and no-scientific-verdict flag verify |
+| Retained history | 1,088 manifests, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Active queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Current evidence | 361 source pins, nine distinct blocked-input pins, three complete consumer/admission bindings and published packet/local bundle verify |
+| Native owners / locks | Science owners absent; queue/GPU locks released; exact live helper holds its checkpoint lock |
+| Host / disk / GPU free | 48.61 GiB / 750.70 GiB / 7,960 MiB |
+| Freshness / validation | Checkpoint 27.03 seconds old, watcher scan 46.78 seconds old; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | First attempt, 16.44 seconds after marker creation; no new delivery error |
+| Remaining schedule | Existing endpoint October 1 06:00 PDT; independent health remains 07:05:36 PDT |
+
+**Found.** Final review verifies the published packet, retained dispositions and healthy supervision. No new failure, unknown attempt, orphaned result or recovery need is found. All deficits and the refused reader gate remain recorded; the marker is a reporting checkpoint, not a new scientific result or helper exit. The helper remains live with only its fixed endpoint pending. Inspection used 1.266 CPU seconds. The prior exhaustive scientific replay, costs and limitations remain in the published packet.
+
+**Means.** Science stays closed. Complete the operational write-through before checkpoint ACK and verify that ACK preserves the independent health schedule. Keep the same helper and registered endpoint paths until normal exit, then reconcile and retire only its exact exited process watch. No tests harvested this pass; no new research, delegation, spend or changed gear. Stage 12 remains closed.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the final review preserve the complete packet and closed scientific record? Outcome: **Infrastructure**. Result: The final-review marker and retained evidence reconcile under healthy supervision. Project meaning: Only endpoint reconciliation remains in this stage schedule. Next engineering obligation: Reconcile normal endpoint completion and preserve the independent health clock. Public claim: unchanged. Curator decision required: No. Detail: [review](results/phase_2_4_stage_13/FINAL_REVIEW_20261001.json) and [ACK](results/phase_2_4_stage_13/FINAL_REVIEW_20261001_ACK.json).
+
+---
+
 ### OPS-S13-HEALTH-1001-0303 - drained queues and retained evidence verify before final review
 
 **Hypothesis.** Closed scientific queues and the published evidence packet remain intact, with healthy supervision for the existing final review and endpoint.

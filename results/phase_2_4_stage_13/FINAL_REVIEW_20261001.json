@@ -1,0 +1,84 @@
+{
+  "all_terminal_hashes_match_final_audit_and_prior_inspection": true,
+  "at": "2026-10-01T11:02:16.655296+00:00",
+  "blocked_input_pins": 9,
+  "blocked_unrun": 10,
+  "checkpoint_ack_must_preserve_health_schedule": true,
+  "checkpoint_age_seconds": 27.026884078979492,
+  "complete_consumer_admission_count": 3,
+  "complete_terminal_count": 714,
+  "counts": {
+    "BLOCKED": 10,
+    "DONE": 23
+  },
+  "delivery_delay_after_marker_seconds": 16.43796682357788,
+  "eligible": [],
+  "failed_terminal_count": 29,
+  "final_packet_and_local_bundle_preserved": true,
+  "final_review_delay_seconds": 18.168426,
+  "final_review_marker": {
+    "action": "Inspect complete cells, reconcile deficits and assemble final packet under Thursday deadline",
+    "at": "2026-10-01T11:00:18.168426+00:00",
+    "scheduled_at": "2026-10-01T11:00:00+00:00",
+    "scientific_verdict": false,
+    "status": "complete"
+  },
+  "final_review_marker_sha256": "655444791cacbe506e8dcd411bf91b606848889124fbb75e10ef14d56b52cd6b",
+  "finding": "OPS-S13-FINAL-REVIEW-1001",
+  "first_attempt_owner_delivery": true,
+  "gpu_lock_absent": true,
+  "independent_health_due_local": "2026-10-01T07:05:36.828031-07:00",
+  "inspection_cpu_seconds": 1.265625,
+  "inventory_counts": {
+    "HEALING": {
+      "complete": 23,
+      "unrun": 10
+    },
+    "ORIGINAL": {
+      "complete": 691,
+      "failed": 29,
+      "unrun": 335
+    }
+  },
+  "loaded_watcher_sources_verified": true,
+  "locks": {
+    "checkpoints.lock": true,
+    "queue-kernel.lock": false
+  },
+  "manifest_count": 33,
+  "new_failures": [],
+  "next_action": "Science cutoff passed. Preserve published final packet; final review reconciled; preserve existing endpoint at 06:00 PDT and unchanged independent health deadline",
+  "original_queue_counts": {
+    "BLOCKED": 10,
+    "DONE": 686,
+    "FAILED": 3
+  },
+  "prior_write_through_unchanged": true,
+  "publication_head": "bf3ce418070b1cda23cebb52aa59cf256e22816c",
+  "reader_gate_refusal_preserved": true,
+  "recovery": "None required; frozen reader admission refused and no scientific card is runnable",
+  "remaining_checkpoint": "2026-10-01T06:00:00-07:00",
+  "research_locks_passed": 21,
+  "resources": {
+    "free_disk_GiB": 750.6977310180664,
+    "free_host_GiB": 48.6108283996582,
+    "gpu_free_MiB": 7960.0,
+    "power": {
+      "PERFBOOSTMODE": 0,
+      "PROCTHROTTLEMAX": 90
+    }
+  },
+  "retained_manifest_count": 1088,
+  "retired_watches_stay_retired": true,
+  "science_cutoff": "2026-09-30T22:00:00-07:00",
+  "science_cutoff_passed": true,
+  "science_owners_absent": true,
+  "scientific_verdict": false,
+  "scope": "Operational inspection; completed scientific and admission replays retained without further model calls or effect estimation",
+  "source_pins": 361,
+  "stage12_closed": true,
+  "status": "final-review-checkpoint-verified",
+  "terminal_paths_and_checkpoint_watch_retained": true,
+  "unrun_count": 345,
+  "watcher_scan_age_seconds": 46.781604051589966
+}

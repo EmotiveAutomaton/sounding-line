@@ -20,6 +20,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [FINAL_REVIEW_20261001.json](FINAL_REVIEW_20261001.json) and [ACK](FINAL_REVIEW_20261001_ACK.json) | Fixed final-review checkpoint reconciled; published evidence and retained dispositions preserved; healthy helper continues to endpoint and independent health is unchanged |
 | [HEALTH_20261001_0303_PUBLIC.json](HEALTH_20261001_0303_PUBLIC.json) and [ACK](HEALTH_20261001_0303_ACK_PUBLIC.json) | Closed queues, retained evidence and native supervision verify before final review; no recovery; existing final review/endpoint and independent health cadence preserved |
 | [HEALTH_20260930_2258_PUBLIC.json](HEALTH_20260930_2258_PUBLIC.json) and [ACK](HEALTH_20260930_2258_ACK_PUBLIC.json) | Post-cutoff closed queues, all retained dispositions and published evidence verify; native supervision and delivery remain healthy, no recovery needed |
 | [REPORTING_START_20260930.json](REPORTING_START_20260930.json) and [ACK](REPORTING_START_20260930_ACK.json) | Science cutoff and marker reconciled; retained attempts and published packet preserved; helper remains live for final review/endpoint and independent health is unchanged |

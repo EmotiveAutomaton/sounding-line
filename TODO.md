@@ -2,6 +2,7 @@
 
 ## October 1 endpoint supervision
 
+- [x] OPS-S13-FINAL-REVIEW-1001: Fixed review marker, published packet, retained dispositions and exact live supervision reconciled; no recovery. Checkpoint ACK preserves health; endpoint at 06:00 PDT remains.
 - [x] OPS-S13-HEALTH-1001-0303: Closed queues, retained evidence, exact native supervision, locks, limits and first-attempt delivery verified; no recovery. Full operational write-through precedes health ACK; existing final review and endpoint remain.
 
 ## September 30 final drain and publication
