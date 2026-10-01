@@ -2,6 +2,7 @@
 
 ## September 30 final drain and publication
 
+- [x] OPS-S13-HEALTH-0930-1849: Drained queues, published evidence, unchanged refused gate, absent science workers, locks, limits and actual watcher delivery verify; no recovery. Full write-through precedes health ACK.
 - [x] OPS-S13-FINAL-0930: Exhaustive retained-attempt audit, unrun-identity reconciliation, full-family feasibility, local casebook/import validation and complete final packet assembled. All currently admitted scientific work is exhausted; remaining failures and blocked comparisons are retained.
 - [ ] S13-ENDPOINT-THURSDAY: Reconcile the existing helper's final review/endpoint receipts through October 1 06:00 PDT, preserve the packet and retire only its exact exited watch after verified completion. This is supervision, not a scientific launch.
 

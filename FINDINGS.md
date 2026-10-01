@@ -9,6 +9,34 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0930-1849 - published packet preserved; supervision healthy
+
+**Hypothesis.** The drained scientific queues and published final packet remain intact while the existing checkpoint helper and watcher continue to the scheduled endpoint.
+
+**METHOD.** Inspect exact native identities and absence of retired science owners, completion and queue-terminal hashes, complete consumer/admission bindings, frozen manifests/source pins and blocked inputs. Check eligibility, failures, unknown attempts, kernel locks, resources, power limits, checkpoint freshness, loaded watcher sources, registration and actual owner delivery. Compare the final write-through against the published commit and recheck the final packet and local bundle hashes. Preserve the earlier exhaustive scientific replay; make no new model call or effect estimate.
+
+The table describes the September 30 18:49 PDT health inspection. Completed and blocked counts refer to the active queues, not all historical identities. Freshness refers to live supervision; the scientific outputs are expected to remain unchanged after closure.
+
+| Check | Observed state |
+|---|---|
+| Healing queue | 23 complete, ten blocked/unrun, no running, pending or eligible card |
+| Original queue | 686 complete, three retained failures, ten blocked |
+| Native ownership and locks | Both coordinators, wrapper and completed workers absent; queue/GPU locks released, checkpoint held by its exact live owner |
+| Retained evidence | 33 manifests, 361 source pins, nine distinct blocked-input pins, 23 landed terminals and three complete consumer/admission output bindings verify |
+| Final packet | Published write-through and private six-case bundle hashes unchanged |
+| Host / disk / GPU free | 49.32 GiB / 751.87 GiB / 7,775 MiB |
+| Limits | Gear 2, six single-thread CPU slots and one GPU; AC maximum 90%, boost disabled |
+| Supervision freshness | Checkpoint 29.23 seconds old; watcher scan 15.71 seconds old |
+| Delivery | First attempt, 68.04 seconds after due; no new delivery error |
+
+**Found.** The recorded reader-admission refusal remains binding and every descendant remains unrun. There is no new scientific failure, unknown attempt, orphaned result or runnable card. The final packet and recorded costs/limitations are unchanged from published commit `1518cb9c0`; the existing watcher retains terminal paths and the checkpoint watch, while retired science watches stay retired. All 21 research locks pass. Two inspection-helper issues were corrected: an older comparison receipt carried the previous health deadline, and a copied script acquired an encoding prefix. Neither affected a frozen runner or scientific attempt. The completed inspection used 0.359 CPU seconds.
+
+**Means.** No recovery or scientific restart is required. Preserve the published packet and existing supervision through October 1 06:00 PDT endpoint reconciliation, with September 30 22:00 PDT science cutoff unchanged. Stage 12 remains closed. Full operational write-through precedes this health ACK; only that ACK rearms the independent four-hour clock, with the exact next due in its receipt. No tests harvested, new study, delegation, spend or gear change. This operational check belongs in the instrument ledger and leaves scientific claims unchanged.
+
+**Curator roll-up.** Theory group: operational validity. Question: Are drained queues and published evidence preserved under healthy endpoint supervision? Outcome: **Infrastructure**. Result: Closed queues, preserved evidence and continuing supervision verify. Project meaning: No new scientific verdict follows. Next engineering obligation: Reconcile the existing scheduled endpoint and independent health events. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260930_1849_ACK_PUBLIC.json).
+
+---
+
 ### OPS-S13-FINAL-0930 - admitted queues drained and final packet assembled
 
 **Hypothesis.** Every currently runnable Stage 13 job has finished, remaining unrun identities have an explicit disposition, and the retained evidence supports an honest final packet without silently discarding failures or launching an infeasible partial repair.

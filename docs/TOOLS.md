@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-0930-1849: Closed queues, preserved published final packet/local bundle, frozen evidence and gate refusal verify. Exact science owners are absent, queue/GPU locks released, checkpoint and sole watcher live/fresh; first-attempt delivery and all 21 locks pass. No recovery or runnable science. Full operational write-through precedes the independent four-hour ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json).
+
 OPS-S13-FINAL-0930: Exhaustive manifest, source/input/output and saved-score verification passes for all 714 retained completions; all unrun identities resolve to completed successors or explicit failed gates. Whole-family reader feasibility fails the remaining window independently of its refused admission. All 44 Stage 13 tests and 21 locks pass. The six-case private bundle and actual retained-source capture validate current offline import/matching with evaluator separation and anchor/revision/scope refusals; no native side-panel or live-inference claim. [Final integrity](../results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json).
 
 L461: Complete CPU contribution rival consumer replays exactly and independent means agree. Candidate execution is a fixed similarity instrument with no learned goal-support contrast; empty-slot F1 and supplied-record extraction are explicitly limited. [Complete aggregate](../results/phase_2_4_stage_13/CONTRIBUTION_RIVALS_FINAL_20260930.json).

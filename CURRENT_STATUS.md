@@ -5,7 +5,7 @@ notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## Stage 13: admitted queues drained and final packet assembled
 
-The September 30 request asks for complete drain, all feasible healing, recording and push. The [final packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) is assembled, with [exhaustive integrity verification](results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json) of all 714 retained completions and every unrun identity. No scientific worker or eligible card remains. Detector and memory healing are complete; reader admission is refused. Another full reader family requires about 14.73 hours against 4.64 hours available at the feasibility inspection, without reopening its failed gate. All 44 Stage 13 tests and 21 research locks pass. The complete CPU rival record (L461), six-case local evidence bundle, actual offline capture/import check, costs and retained deficits are included. No new science or delegated planning is launched. Publication is authorized; scheduled endpoint reconciliation remains.
+The September 30 request asks for complete drain, all feasible healing, recording and push. The [final packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) is assembled, with [exhaustive integrity verification](results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json) of all 714 retained completions and every unrun identity. No scientific worker or eligible card remains. Detector and memory healing are complete; reader admission is refused. Another full reader family requires about 14.73 hours against 4.64 hours available at the feasibility inspection, without reopening its failed gate. All 44 Stage 13 tests and 21 research locks pass. The complete CPU rival record (L461), six-case local evidence bundle, actual offline capture/import check, costs and retained deficits are included. No new science or delegated planning is launched. Publication is complete and remote-verified at `1518cb9c0`; scheduled endpoint reconciliation remains.
 
 The September 29 request authorizes a thorough audit and healing where needed. The full retained-file audit passes, including completed output bindings and applicable saved-score replay. The original active queue drained normally: 686 complete, three failed and ten blocked cards. That audit identified the failed reader admission, original void memory contrast and missing strong detector comparison on the extension as the reasons for the separate healing pass below.
 
@@ -39,7 +39,9 @@ The September 30 reader continuation completed at 10:39 PDT. The instrument gate
 
 The September 30 14:41 PDT health inspection verifies the closed queue, unchanged evidence and healthy supervision, with no recovery required. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_1441_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_1441_ACK_PUBLIC.json).
 
-Next action: publish the authorized completed record and reconcile the existing Thursday endpoint helper. Preserve the independent September 30 18:44:56 PDT health deadline. No further scientific card is runnable under the frozen gates; preserve the one-attempt limit and Stage 12 closure.
+The September 30 18:49 PDT inspection verifies unchanged published evidence and local bundle, closed queues and healthy supervision. No recovery or runnable science. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_1849_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_1849_ACK_PUBLIC.json).
+
+Next action: reconcile the existing Thursday endpoint helper and independent four-hour health events. No further scientific card is runnable under the frozen gates; preserve the one-attempt limit and Stage 12 closure.
 
 ## Navigation
 
