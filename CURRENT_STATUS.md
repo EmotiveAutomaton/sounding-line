@@ -43,7 +43,9 @@ The September 30 18:49 PDT inspection verifies unchanged published evidence and 
 
 The September 30 22:00 PDT science cutoff has passed. Its reporting marker and all retained dispositions reconcile, and the published final packet remains unchanged. [Boundary inspection](results/phase_2_4_stage_13/REPORTING_START_20260930.json) and [ACK](results/phase_2_4_stage_13/REPORTING_START_20260930_ACK.json).
 
-Next action: independent health remains due September 30 22:51:25 PDT, then existing final review October 1 04:00 and endpoint 06:00 PDT. Keep the same helper through normal exit; no scientific restart or Stage 12 reopening.
+The September 30 22:58 PDT health inspection verifies closed science, unchanged retained evidence and healthy native supervision. No recovery is required. [Inspection](results/phase_2_4_stage_13/HEALTH_20260930_2258_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20260930_2258_ACK_PUBLIC.json).
+
+Next action: the independent health clock rearms four hours after this inspection is fully recorded and acknowledged; see its ACK receipt for the exact deadline. Existing final review October 1 04:00 and endpoint 06:00 PDT remain. Keep the same helper through normal exit; no scientific restart or Stage 12 reopening.
 
 ## Navigation
 

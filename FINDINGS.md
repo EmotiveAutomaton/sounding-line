@@ -9,6 +9,33 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-0930-2258 - post-cutoff queues remain drained; endpoint supervision healthy
+
+**Hypothesis.** Closed scientific queues and their completed evidence can remain intact after the science cutoff while the existing endpoint helper and delivery service stay healthy.
+
+**METHOD.** Inspect native process identities and creation times, active queue states, frozen cards/source/blocked-input pins, complete consumer bindings, all retained manifest and terminal hashes, and absence of dispatch or terminals for unrun cards. Compare the published write-through, final packet, local evidence bundle and reporting marker with their landed receipts. Check kernel/GPU locks, resource headroom, power limits, heartbeat/scan freshness, loaded watcher sources, registered terminal paths and actual owner delivery. This is an operational inspection with no new model calls or scientific effect estimation.
+
+The table separates live queue state from the historical retained-attempt inventory. Complete means a terminal record is present and verified, not that its scientific admission passed.
+
+| Check | Observed state |
+|---|---|
+| Active queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained inventory | 1,088 manifest hashes, 714 completed terminal hashes and 29 failed terminal hashes verify; 345 unrun cards remain without dispatch or terminals |
+| Current bindings | 361 healing source pins, nine distinct blocked-input pins and three complete consumer/admission bindings verify |
+| Published evidence | Scientific write-through, final packet, local bundle and reporting marker unchanged |
+| Native ownership / locks | Science owners absent; queue/GPU locks released; exact live checkpoint helper holds its lock |
+| Host / disk / GPU free | 50.41 GiB / 751.80 GiB / 8,161 MiB |
+| Freshness and limits | Checkpoint 4.49 seconds old, watcher scan 68.74 seconds old; existing Gear 2, AC maximum 90%, boost disabled |
+| Delivery / validation | First attempt, 28.56 seconds after health due; no new delivery error; all 21 research locks pass |
+
+**Found.** The scientific queues remain drained, retained evidence is unchanged, and live supervision is healthy. No new failure, unknown attempt, orphaned result or recovery need is found. The failed reader admission and all blocked descendants remain preserved; the historical general queue log ends empty and is not used as current liveness evidence. Inspection used 1.891 CPU seconds. The prior exhaustive scientific replay and its limitations remain in the final packet.
+
+**Means.** Science is closed after the September 30 22:00 PDT cutoff. Complete this operational write-through before ACK; the ACK rearms only the independent four-hour health clock. Preserve the existing October 1 04:00 PDT final review and 06:00 PDT endpoint and the exact helper until normal exit. No tests harvested this pass; no new research, delegation, spend or gear change. Stage 12 remains closed. This is not a claim that every possible future healing study is impossible.
+
+**Curator roll-up.** Theory group: operational validity. Question: Do closed science and its retained record remain healthy under endpoint supervision? Outcome: **Infrastructure**. Result: Closed queues, retained evidence and continuing supervision verify. Project meaning: Scientific closure remains distinct from the remaining reporting checkpoints. Next engineering obligation: Reconcile the next independent health event and existing final-review/endpoint markers. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20260930_2258_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20260930_2258_ACK_PUBLIC.json).
+
+---
+
 ### OPS-S13-REPORTING-0930 - science cutoff reconciled; published final packet preserved
 
 **Hypothesis.** The scheduled reporting boundary can close scientific execution while retaining all completed, failed and blocked evidence and the already published final packet under healthy endpoint supervision.

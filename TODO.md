@@ -2,6 +2,7 @@
 
 ## September 30 final drain and publication
 
+- [x] OPS-S13-HEALTH-0930-2258: Post-cutoff drained queues, retained records and live endpoint supervision verified; no recovery. Full inspection/write-through precedes health ACK and four-hour rearm.
 - [x] OPS-S13-REPORTING-0930: Scheduled reporting boundary reconciled after the science cutoff; retained records and published packet preserved; same live helper continues to final review/endpoint. Checkpoint ACK leaves independent health unchanged.
 - [x] OPS-S13-HEALTH-0930-1849: Drained queues, published evidence, unchanged refused gate, absent science workers, locks, limits and actual watcher delivery verify; no recovery. Full write-through precedes health ACK.
 - [x] OPS-S13-FINAL-0930: Exhaustive retained-attempt audit, unrun-identity reconciliation, full-family feasibility, local casebook/import validation and complete final packet assembled. All currently admitted scientific work is exhausted; remaining failures and blocked comparisons are retained.

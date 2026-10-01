@@ -20,6 +20,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20260930_2258_PUBLIC.json](HEALTH_20260930_2258_PUBLIC.json) and [ACK](HEALTH_20260930_2258_ACK_PUBLIC.json) | Post-cutoff closed queues, all retained dispositions and published evidence verify; native supervision and delivery remain healthy, no recovery needed |
 | [REPORTING_START_20260930.json](REPORTING_START_20260930.json) and [ACK](REPORTING_START_20260930_ACK.json) | Science cutoff and marker reconciled; retained attempts and published packet preserved; helper remains live for final review/endpoint and independent health is unchanged |
 | [HEALTH_20260930_1849_PUBLIC.json](HEALTH_20260930_1849_PUBLIC.json) and [ACK](HEALTH_20260930_1849_ACK_PUBLIC.json) | Drained queues, published packet/local bundle and failed gate preserved; native supervision, limits, locks and actual delivery verify, with no recovery |
 | [FINAL_PACKET_20260930.md](FINAL_PACKET_20260930.md) and [integrity](FINAL_INTEGRITY_20260930.json) | Complete scientific synthesis, retained failures, exhausted admitted queue, all-attempt audit/costs and local six-case import bundle |
