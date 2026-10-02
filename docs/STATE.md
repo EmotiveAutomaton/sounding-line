@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+## October 2, 07:44 PDT: closed-stage health rechecked
+
+Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261002_0744_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261002_0744_ACK_PUBLIC.json).
+
 ## October 2, 03:40 PDT: closed-stage health rechecked
 
 Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261002_0340_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261002_0340_ACK_PUBLIC.json).
