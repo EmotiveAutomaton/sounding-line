@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+## October 2 closed-stage health
+
+- [x] OPS-S13-HEALTH-1002-0340: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
+
 ## October 1 endpoint supervision
 
 - [x] OPS-S13-HEALTH-1001-2333: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
