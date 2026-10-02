@@ -12,6 +12,8 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-1002-1154: Closed queues, endpoint, retained evidence and prior write-through verify. Native science/helper absence, released locks, unchanged watch retirement and fresh sole watcher are confirmed. All 21 research locks and actual first-attempt delivery pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261002_1154_PUBLIC.json).
+
 OPS-S13-HEALTH-1002-0744: Closed queues, endpoint, retained evidence and prior write-through verify. Native science/helper absence, released locks, unchanged watch retirement and fresh sole watcher are confirmed. All 21 research locks and actual first-attempt delivery pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261002_0744_PUBLIC.json).
 
 OPS-S13-HEALTH-1002-0340: Closed queues, endpoint, retained evidence and prior write-through verify. Native science/helper absence, released locks, unchanged watch retirement and fresh sole watcher are confirmed. All 21 research locks and actual first-attempt delivery pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261002_0340_PUBLIC.json).
