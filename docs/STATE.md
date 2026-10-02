@@ -1,5 +1,21 @@
 # STATE: the agent's operational file
 
+## October 1, 19:26 PDT: closed-stage health rechecked
+
+Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261001_1926_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261001_1926_ACK_PUBLIC.json).
+
+## October 1, 15:22 PDT: closed-stage health rechecked
+
+Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261001_1522_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261001_1522_ACK_PUBLIC.json).
+
+## October 1, 11:17 PDT: closed-stage health rechecked
+
+Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261001_1117_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261001_1117_ACK_PUBLIC.json).
+
+## October 1, 07:08 PDT: closed-stage health verified
+
+Scientific queues and all stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current source/input/consumer bindings, published records and local packet bundle verify unchanged. The final empty heartbeat and endpoint receipts remain preserved; exact helper/wrapper and science owners stay absent, queue/checkpoint/GPU locks released, and the exact helper watch remains retired with unchanged configuration. The sole watcher is fresh with first-attempt delivery; all 21 research locks pass. No recovery or restart. Full operational write-through precedes health ACK and four-hour rearm; see ACK for actual next due. Stage 12 stays closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261001_0708_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261001_0708_ACK_PUBLIC.json).
+
 ## October 1, 06:04 PDT: final endpoint closed; exact helper watch retired
 
 Deadline and normal-exit receipts match their delivered digests and frozen schedule; all checkpoint markers are reconciled, the final heartbeat has no pending work, and the exact helper/wrapper are absent. Scientific queues remain drained, with retained manifest/terminal hashes, unrun dispositions, current bindings, published packet and local bundle unchanged. Failed gates and deficits persist. Queue/checkpoint locks are released and global GPU lock absent; the sole watcher is live/fresh, first-attempt deliveries and all 21 research locks pass. Only the verified exited helper watch is retired; terminal paths and other configuration are preserved. Full write-through precedes both ACKs and preserves independent health due 07:05:36 PDT. No recovery, helper restart, scientific launch or Stage 12 reopening. [Endpoint](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json), [ACKs](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001_ACK.json).

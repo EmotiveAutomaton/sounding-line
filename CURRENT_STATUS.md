@@ -51,7 +51,15 @@ The October 1 04:00 PDT final-review checkpoint is reconciled. Its delivered dig
 
 The October 1 06:00 PDT endpoint is reconciled. Both deadline and normal-exit digests verify, helper/wrapper absence and released locks are confirmed, and only the exact exited helper watch is retired. Published evidence and all scientific deficits remain intact. [Endpoint](results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) and [ACKs](results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001_ACK.json).
 
-Next action: standing independent health inspection at 07:05:36 PDT. No stage checkpoint, runnable scientific card or helper remains; preserve the closed-stage record without restarting science or Stage 12.
+The October 1 07:08 PDT health inspection confirms preserved closed-stage records, native science/helper absence, released locks, unchanged watch retirement and healthy watcher delivery. No recovery is needed. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_0708_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_0708_ACK_PUBLIC.json).
+
+The October 1 11:17 PDT health inspection verifies unchanged closed-stage evidence, prior write-through, native absence, released locks and healthy watcher delivery. No recovery is needed. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_1117_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_1117_ACK_PUBLIC.json).
+
+The October 1 15:22 PDT health inspection confirms preserved closed-stage evidence, prior write-through, native absence, released locks and healthy watcher delivery. No recovery is needed. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_1522_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_1522_ACK_PUBLIC.json).
+
+The October 1 19:26 PDT health inspection confirms preserved closed-stage evidence, prior write-through, native absence, released locks and healthy watcher delivery. No recovery is needed. [Inspection](results/phase_2_4_stage_13/HEALTH_20261001_1926_PUBLIC.json) and [next-health ACK](results/phase_2_4_stage_13/HEALTH_20261001_1926_ACK_PUBLIC.json).
+
+Next action: the standing health clock rearms four hours after this inspection is fully recorded and acknowledged; see the ACK receipt for its exact due time. No stage checkpoint, runnable scientific card or helper remains; preserve the closed-stage record without restarting science or Stage 12.
 
 ## Navigation
 

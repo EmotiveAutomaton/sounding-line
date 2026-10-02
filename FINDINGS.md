@@ -9,6 +9,116 @@ ran it.
 
 ---
 
+### OPS-S13-HEALTH-1001-1926 - closed-stage evidence and watcher remain healthy
+
+**Hypothesis.** The closed scientific record remains intact, no scientific or checkpoint process returns, and the standing watcher continues delivering the independent health inspection.
+
+**METHOD.** Inspect exact native identities, queue dispositions, released kernel/GPU locks and eligible authorized work. Verify retained manifest/completed/failed terminal hashes, unrun-card absence, source/input/consumer bindings, endpoint markers, the frozen final heartbeat, published packet/local bundle and prior local write-through. Compare the watch configuration with its retirement receipt; check loaded watcher sources, scan freshness, actual delivery and resource/power limits. No model calls or scientific effect estimation.
+
+The table separates retained scientific dispositions from live operational supervision. Historical failures and blocked work remain explicit deficits.
+
+| Check | Observed state |
+|---|---|
+| Queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained history | 1,088 manifests, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Evidence | 361 source pins, nine blocked-input pins, three consumer/admission bindings, published packet/local bundle and prior local write-through unchanged |
+| Endpoint / native ownership | Final heartbeat and all endpoint markers preserved; helper, wrapper and science owners absent; no checkpoint remains |
+| Locks / watches | Queue/checkpoint locks released, global GPU lock absent; exact helper watch remains retired and configuration unchanged |
+| Host / disk / GPU free | 46.23 GiB / 750.69 GiB / 7,817 MiB |
+| Watcher / limits | Sole watcher scan 34.53 seconds old; loaded sources unchanged; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | First attempt, 71.06 seconds after health due; no new delivery error |
+
+**Found.** Closed queues and endpoint, retained evidence, native absence, released locks and standing watcher verify. No new failure, unknown attempt, orphaned result or recovery need is found. The final heartbeat remains a completed record. Inspection used 1.406 CPU seconds. Original failed gates, unavailable comparisons, costs and scientific limits are preserved.
+
+**Means.** Preserve closure and exact watch retirements. No scientific card or checkpoint helper restarts. Full operational write-through precedes health ACK, which rearms only the independent four-hour check. No tests harvested this pass; no new study, delegation, spend or gear change. Stage 12 remains closed. Existing scope is exhausted; this does not rule out every conceivable future healing study.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the closed-stage record remain intact under healthy standing supervision? Outcome: **Infrastructure**. Result: Closed queues, retained evidence and standing supervision verify. Project meaning: No recovery or scientific restart is warranted. Next engineering obligation: Preserve records and inspect the next independent health event. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20261001_1926_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20261001_1926_ACK_PUBLIC.json).
+
+---
+
+
+### OPS-S13-HEALTH-1001-1522 - closed-stage evidence and watcher remain healthy
+
+**Hypothesis.** The closed scientific record remains intact, no scientific or checkpoint process returns, and the standing watcher continues delivering the independent health inspection.
+
+**METHOD.** Inspect exact native identities, queue dispositions, released kernel/GPU locks and eligible authorized work. Verify retained manifest/completed/failed terminal hashes, unrun-card absence, source/input/consumer bindings, endpoint markers, the frozen final heartbeat, published packet/local bundle and prior local write-through. Compare the watch configuration with its retirement receipt; check loaded watcher sources, scan freshness, actual delivery and resource/power limits. No model calls or scientific effect estimation.
+
+The table separates retained scientific dispositions from live operational supervision. Historical failures and blocked work remain explicit deficits.
+
+| Check | Observed state |
+|---|---|
+| Queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained history | 1,088 manifests, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Evidence | 361 source pins, nine blocked-input pins, three consumer/admission bindings, published packet/local bundle and prior local write-through unchanged |
+| Endpoint / native ownership | Final heartbeat and all endpoint markers preserved; helper, wrapper and science owners absent; no checkpoint remains |
+| Locks / watches | Queue/checkpoint locks released, global GPU lock absent; exact helper watch remains retired and configuration unchanged |
+| Host / disk / GPU free | 45.23 GiB / 750.69 GiB / 2,374 MiB |
+| Watcher / limits | Sole watcher scan 33.38 seconds old; loaded sources unchanged; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | First attempt, 11.95 seconds after health due; no new delivery error |
+
+**Found.** Closed queues and endpoint, retained evidence, native absence, released locks and standing watcher verify. No new failure, unknown attempt, orphaned result or recovery need is found. The final heartbeat remains a completed record. Inspection used 1.531 CPU seconds. Original failed gates, unavailable comparisons, costs and scientific limits are preserved.
+
+**Means.** Preserve closure and exact watch retirements. No scientific card or checkpoint helper restarts. Full operational write-through precedes health ACK, which rearms only the independent four-hour check. No tests harvested this pass; no new study, delegation, spend or gear change. Stage 12 remains closed. Existing scope is exhausted; this does not rule out every conceivable future healing study.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the closed-stage record remain intact under healthy standing supervision? Outcome: **Infrastructure**. Result: Closed queues, retained evidence and standing supervision verify. Project meaning: No recovery or scientific restart is warranted. Next engineering obligation: Preserve records and inspect the next independent health event. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20261001_1522_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20261001_1522_ACK_PUBLIC.json).
+
+---
+
+
+### OPS-S13-HEALTH-1001-1117 - closed-stage evidence and watcher remain healthy
+
+**Hypothesis.** The closed scientific record remains intact, no scientific or checkpoint process returns, and the standing watcher continues delivering the independent health inspection.
+
+**METHOD.** Inspect exact native identities, queue dispositions, released kernel/GPU locks and eligible authorized work. Verify retained manifest/completed/failed terminal hashes, unrun-card absence, source/input/consumer bindings, endpoint markers, the frozen final heartbeat, published packet/local bundle and prior local write-through. Compare the watch configuration with its retirement receipt; check loaded watcher sources, scan freshness, actual delivery and resource/power limits. No model calls or scientific effect estimation.
+
+The table separates retained scientific dispositions from live operational supervision. Historical failures and blocked work remain explicit deficits.
+
+| Check | Observed state |
+|---|---|
+| Queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained history | 1,088 manifests, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Evidence | 361 source pins, nine blocked-input pins, three consumer/admission bindings, published packet/local bundle and prior local write-through unchanged |
+| Endpoint / native ownership | Final heartbeat and all endpoint markers preserved; helper, wrapper and science owners absent; no checkpoint remains |
+| Locks / watches | Queue/checkpoint locks released, global GPU lock absent; exact helper watch remains retired and configuration unchanged |
+| Host / disk / GPU free | 47.66 GiB / 750.69 GiB / 7,030 MiB |
+| Watcher / limits | Sole watcher scan 62.85 seconds old; loaded sources unchanged; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | First attempt, 58.90 seconds after health due; no new delivery error |
+
+**Found.** Closed queues and endpoint, retained evidence, native absence, released locks and standing watcher verify. No new failure, unknown attempt, orphaned result or recovery need is found. The final heartbeat remains a completed record. Inspection used 1.609 CPU seconds. Original failed gates, unavailable comparisons, costs and scientific limits are preserved.
+
+**Means.** Preserve closure and exact watch retirements. No scientific card or checkpoint helper restarts. Full operational write-through precedes health ACK, which rearms only the independent four-hour check. No tests harvested this pass; no new study, delegation, spend or gear change. Stage 12 remains closed. Existing scope is exhausted; this does not rule out every conceivable future healing study.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the closed-stage record remain intact under healthy standing supervision? Outcome: **Infrastructure**. Result: Closed queues, retained evidence and standing supervision verify. Project meaning: No recovery or scientific restart is warranted. Next engineering obligation: Preserve records and inspect the next independent health event. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20261001_1117_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20261001_1117_ACK_PUBLIC.json).
+
+---
+
+### OPS-S13-HEALTH-1001-0708 - closed-stage record and standing watcher remain healthy
+
+**Hypothesis.** After normal endpoint closure, retained evidence and terminal records remain intact, no scientific or checkpoint process returns, and the standing watcher continues delivering health events.
+
+**METHOD.** Inspect exact native identities, queue dispositions, released kernel/GPU locks and absence of runnable authorized work. Verify retained manifest/completed/failed terminal hashes, unrun-card absence, current source/input/consumer bindings, all endpoint markers, the frozen final heartbeat and published records/local bundle. Compare the watch configuration with the exact retirement receipt; verify loaded watcher sources, fresh scan, resource/power limits and actual owner delivery. No fresh model calls or scientific effect estimation.
+
+The table distinguishes the closed scientific record from the still-active operational watcher. Retained failures and blocked cards do not become scientific successes.
+
+| Check | Observed state |
+|---|---|
+| Queues | Original 686 complete, three failed, ten blocked; healing 23 complete, ten blocked; no running, pending or eligible science |
+| Retained history | 1,088 manifests, 714 completed and 29 failed terminal hashes verify; 345 unrun cards remain undispatched without terminals |
+| Current evidence | 361 source pins, nine distinct blocked-input pins, three complete consumer/admission bindings and published packet/local bundle unchanged |
+| Endpoint / native ownership | All checkpoint records and empty final heartbeat preserved; helper, wrapper and science owners absent; no checkpoint remains |
+| Locks / watches | Queue and checkpoint locks released, global GPU lock absent; exact helper watch remains retired and configuration unchanged |
+| Host / disk / GPU free | 48.53 GiB / 750.69 GiB / 7,412 MiB |
+| Watcher / limits | Sole watcher scan 8.28 seconds old, loaded sources unchanged; AC maximum 90%, boost disabled; all 21 research locks pass |
+| Delivery | First attempt, 67.71 seconds after health due; no new delivery error |
+
+**Found.** The queues and stage endpoint remain closed, retained evidence is unchanged, and the standing watcher is healthy. No new failure, unknown attempt, orphaned result or recovery need is found. The final heartbeat is a preserved completion record, not a stale running helper. Inspection used 1.500 CPU seconds. Original failed gates, unavailable comparisons, costs and scientific limits remain in the published packet.
+
+**Means.** Preserve closure and retirements. No helper, scientific queue or parked GPU job restarts. Complete the full operational write-through before health ACK; it rearms only the independent four-hour check. No tests harvested this pass; no new study, delegation, spend or gear change. Stage 12 remains closed. The existing scope is exhausted without claiming every possible future healing study is impossible.
+
+**Curator roll-up.** Theory group: operational validity. Question: Does the closed-stage record remain intact under healthy standing supervision? Outcome: **Infrastructure**. Result: Closed queues, preserved evidence and the standing watcher verify. Project meaning: No recovery or scientific restart is warranted. Next engineering obligation: Preserve records and inspect the next independent health event. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_13/HEALTH_20261001_0708_PUBLIC.json) and [ACK](results/phase_2_4_stage_13/HEALTH_20261001_0708_ACK_PUBLIC.json).
+
+---
+
 ### OPS-S13-ENDPOINT-1001 - final endpoint reconciled; helper exited normally
 
 **Hypothesis.** The scheduled endpoint can close stage supervision while preserving the published evidence, retained failures and blocked work, with no orphaned scientific or checkpoint process.

@@ -20,6 +20,10 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20261001_1926_PUBLIC.json](HEALTH_20261001_1926_PUBLIC.json) and [ACK](HEALTH_20261001_1926_ACK_PUBLIC.json) | Retained closed-stage evidence and prior records intact; native absence, released locks, retired watch and actual watcher delivery verify; no recovery |
+| [HEALTH_20261001_1522_PUBLIC.json](HEALTH_20261001_1522_PUBLIC.json) and [ACK](HEALTH_20261001_1522_ACK_PUBLIC.json) | Retained closed-stage evidence and prior records intact; native absence, released locks, retired watch and actual watcher delivery verify; no recovery |
+| [HEALTH_20261001_1117_PUBLIC.json](HEALTH_20261001_1117_PUBLIC.json) and [ACK](HEALTH_20261001_1117_ACK_PUBLIC.json) | Closed-stage evidence and prior records unchanged; native absence, released locks, retired watch and standing watcher delivery verify; no recovery |
+| [HEALTH_20261001_0708_PUBLIC.json](HEALTH_20261001_0708_PUBLIC.json) and [ACK](HEALTH_20261001_0708_ACK_PUBLIC.json) | Closed-stage evidence, native absence, released locks and retired helper watch preserved; standing watcher and actual delivery healthy; no recovery |
 | [FINAL_ENDPOINT_20261001.json](FINAL_ENDPOINT_20261001.json) and [ACKs](FINAL_ENDPOINT_20261001_ACK.json) | Normal endpoint/helper exit verified; exact exited watch retired, published evidence and deficits preserved; independent health unchanged |
 | [FINAL_REVIEW_20261001.json](FINAL_REVIEW_20261001.json) and [ACK](FINAL_REVIEW_20261001_ACK.json) | Fixed final-review checkpoint reconciled; published evidence and retained dispositions preserved; healthy helper continues to endpoint and independent health is unchanged |
 | [HEALTH_20261001_0303_PUBLIC.json](HEALTH_20261001_0303_PUBLIC.json) and [ACK](HEALTH_20261001_0303_ACK_PUBLIC.json) | Closed queues, retained evidence and native supervision verify before final review; no recovery; existing final review/endpoint and independent health cadence preserved |

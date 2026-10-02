@@ -2,6 +2,10 @@
 
 ## October 1 endpoint supervision
 
+- [x] OPS-S13-HEALTH-1001-1926: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
+- [x] OPS-S13-HEALTH-1001-1522: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
+- [x] OPS-S13-HEALTH-1001-1117: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
+- [x] OPS-S13-HEALTH-1001-0708: Closed stage, preserved evidence, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.
 - [x] OPS-S13-ENDPOINT-1001: Deadline and normal helper exit reconciled; exact exited watch retired, all evidence preserved and no runnable science. Full write-through precedes both ACKs; standing independent health remains.
 - [x] OPS-S13-FINAL-REVIEW-1001: Fixed review marker, published packet, retained dispositions and exact live supervision reconciled; no recovery. Checkpoint ACK preserves health; endpoint at 06:00 PDT remains.
 - [x] OPS-S13-HEALTH-1001-0303: Closed queues, retained evidence, exact native supervision, locks, limits and first-attempt delivery verified; no recovery. Full operational write-through precedes health ACK; existing final review and endpoint remain.

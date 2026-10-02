@@ -12,6 +12,14 @@ scaffolding for **searching a design space**. See `design/ENGINEERING_LOOP.md`.
 
 ## Stage 13 instruments
 
+OPS-S13-HEALTH-1001-1926: Closed queues, endpoint, retained evidence and prior write-through verify. Native science/helper absence, released locks, unchanged watch retirement and fresh sole watcher are confirmed. All 21 research locks and actual first-attempt delivery pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261001_1926_PUBLIC.json).
+
+OPS-S13-HEALTH-1001-1522: Closed queues, endpoint, retained evidence and prior write-through verify. Native science/helper absence, released locks, unchanged watch retirement and fresh sole watcher are confirmed. All 21 research locks and actual first-attempt delivery pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261001_1522_PUBLIC.json).
+
+OPS-S13-HEALTH-1001-1117: Closed queues and endpoint, retained evidence and prior write-through verify. Exact science/helper absence, released locks, retired helper watch, unchanged configuration and fresh sole watcher are confirmed. Actual first-attempt delivery and all 21 research locks pass; no recovery. Full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261001_1117_PUBLIC.json).
+
+OPS-S13-HEALTH-1001-0708: Closed queues and endpoint, retained manifest/terminal hashes, unrun dispositions, current bindings and published records verify. Native science/helper absence, released locks and unchanged exact watch retirement remain valid. The sole watcher is fresh, loaded sources and first-attempt delivery verify; all 21 research locks pass. No recovery; full write-through precedes health ACK. [Receipt](../results/phase_2_4_stage_13/HEALTH_20261001_0708_PUBLIC.json).
+
 OPS-S13-ENDPOINT-1001: Deadline and normal-exit digests, full checkpoint sequence, empty final heartbeat and native helper/wrapper absence verify. Both kernel locks are released; retained evidence and published packet/local bundle are unchanged. Only the exact exited helper watch is retired, with terminal paths and other configuration preserved. All 21 locks and first-attempt deliveries pass; endpoint ACKs preserve independent health. [Receipt](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json).
 
 OPS-S13-FINAL-REVIEW-1001: Final-review marker matches its contract, delivered digest and exact live helper. Retained manifest/terminal hashes, unrun dispositions, source/consumer bindings and published evidence verify. No recovery or runnable science; only the fixed endpoint remains pending. All 21 research locks and first-attempt delivery pass. Checkpoint ACK preserves independent health. [Receipt](../results/phase_2_4_stage_13/FINAL_REVIEW_20261001.json).
