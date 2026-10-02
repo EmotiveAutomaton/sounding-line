@@ -20,6 +20,7 @@ Do not edit a published or frozen receipt; append a correction with provenance.
 
 | Record | What it establishes |
 |---|---|
+| [HEALTH_20261001_2333_PUBLIC.json](HEALTH_20261001_2333_PUBLIC.json) and [ACK](HEALTH_20261001_2333_ACK_PUBLIC.json) | Retained closed-stage evidence and published records intact; native absence, released locks, retired watch and actual watcher delivery verify; no recovery |
 | [HEALTH_20261001_1926_PUBLIC.json](HEALTH_20261001_1926_PUBLIC.json) and [ACK](HEALTH_20261001_1926_ACK_PUBLIC.json) | Retained closed-stage evidence and prior records intact; native absence, released locks, retired watch and actual watcher delivery verify; no recovery |
 | [HEALTH_20261001_1522_PUBLIC.json](HEALTH_20261001_1522_PUBLIC.json) and [ACK](HEALTH_20261001_1522_ACK_PUBLIC.json) | Retained closed-stage evidence and prior records intact; native absence, released locks, retired watch and actual watcher delivery verify; no recovery |
 | [HEALTH_20261001_1117_PUBLIC.json](HEALTH_20261001_1117_PUBLIC.json) and [ACK](HEALTH_20261001_1117_ACK_PUBLIC.json) | Closed-stage evidence and prior records unchanged; native absence, released locks, retired watch and standing watcher delivery verify; no recovery |
