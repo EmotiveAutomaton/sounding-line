@@ -1,7 +1,227 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
-**2026-08-05.** Installed after the engineering-scaffolding search. Everything here is verified
-working in `.venv` on this machine, on real artifacts from `corpora/`, not just `pip install`-ed.
+**Current capability inventory: checked October 10, 2026.** Start with the inventory
+below. The dated instrument ledger and August installation notes remain as history;
+their statements about running jobs, pending work, installed packages and available
+browsers describe their own dates. They are not a current readiness report.
+
+This public catalog covers tools, models, testing environments and verified limits.
+The detailed workstation inventory and audit logs are retained locally.
+Installed software, locally present weights, a successful smoke check and scientific
+admission are separate states. In particular, Stage 13 reader admission remains
+refused; these checks do not change it or reopen the closed stages.
+
+## Current environments and execution surfaces
+
+The table distinguishes implemented capabilities from validated execution paths.
+Hardware capacity is approximate and is not a work allocation.
+
+| Surface | Available capability | Verified state and limit |
+|---|---|---|
+| Project Python | `./.venv/Scripts/python.exe`, Python 3.13, `sounding-line` 0.1.0 | Core and additional library imports pass. `pyproject.toml` declares Python >=3.11 and only the base/optional client dependencies, not the full research environment. |
+| Windows host | Multicore CPU execution and native filesystem/process tooling | Stage-specific thread, priority and gear limits still apply. |
+| Local GPU | CUDA-capable GPU with approximately 12 GB VRAM | A small CUDA tensor calculation passes. This does not establish that every model/context/batch fits. |
+| Ollama service | Local model serving; five installed model tags below | Read-only service and model-inventory checks pass; no generation request was sent. |
+| Shell and build tooling | PowerShell, Git, Git Bash, Node.js and npm | Commands found. Python tests use the project venv rather than a shell's default Python. |
+| Linux / containers | WSL and Docker tooling installed | Container and WSL workload execution were not validated; fresh runtime readiness checks are required before use. |
+| Ghost Scale Simulation | Separate sibling checkout and Python environment with `pymdp` | `pymdp` imports there; it is not installed in this project's venv. Shared-model/native-packet consumers exist here; separate-project execution requires its own scope. |
+| Browser / visual checks | Runtime browser automation tools and the browser-verification skill are exposed | Visual execution was not validated by this audit. Local Python Playwright is absent. Historical browser checks do not establish current readiness. |
+| Agent artifact workflows | Session skills for documents, PDF, spreadsheets, presentations, images and visualizations | Available through the agent runtime, separate from project Python dependencies. Their external runtimes and output pipelines were not exercised by this inventory. |
+| Monitoring | Native ownership, durable outbox, completion/failure delivery, cancellation and health scheduling | Implemented in `tools/codex_watch.py` and companions; monitoring regression tests pass. This describes available functionality, not live operational state. |
+
+## Models actually present
+
+### Ollama models
+
+These tags were returned by the live local service. Size is stored bytes in decimal
+GB, and digest is the identifying prefix; full digests are retained in the local audit.
+The two DeepSeek tags are different packages, not aliases for one model.
+
+| Installed tag | Reported parameters / quantization | Stored GB | Digest prefix |
+|---|---|---:|---|
+| `qwen3.5:9b` | 9.7B / Q4_K_M | 6.59 | `6488c96fa5fa` |
+| `llama3.1:8b` | 8.0B / Q4_K_M | 4.92 | `46e0c10c039e` |
+| `llama3.2:3b` | 3.2B / Q4_K_M | 2.02 | `a80c4f17acd5` |
+| `deepseek-r1:latest` | 8.2B, Qwen3 family / Q4_K_M | 5.23 | `6995872bfe4c` |
+| `deepseek-r1:7b` | 7.6B, Qwen2 family / Q4_K_M | 4.68 | `0a8c26691023` |
+
+The service advertises completion/tool capabilities for these packages and vision/
+thinking for Qwen 3.5. Those flags are not a validated multimodal research pipeline.
+The bounded project probe grants its reader no tools regardless of model support.
+
+### Hugging Face cache
+
+All 24 model repositories below have local runtime weight/configuration assets.
+Configuration and tokenizer loading passed offline for each, with the explicit-path
+exception described below. Weight files and shard indexes were checked for presence;
+safetensors headers were checked against file lengths. This is not a new full-weight
+hash audit or a forward pass through every model.
+
+| Family / purpose | Exact cached model IDs |
+|---|---|
+| Qwen base causal models | `Qwen/Qwen2.5-0.5B`, `Qwen/Qwen2.5-1.5B`, `Qwen/Qwen2.5-3B` |
+| Qwen instruction models | `Qwen/Qwen2.5-0.5B-Instruct`, `Qwen/Qwen2.5-1.5B-Instruct`, `Qwen/Qwen2.5-3B-Instruct` |
+| Pythia causal comparators | `EleutherAI/pythia-410m`, `EleutherAI/pythia-1.4b`, `EleutherAI/pythia-2.8b` |
+| GPT-2 causal scoring / hidden states | `openai-community/gpt2-medium`, `openai-community/gpt2-large`, `openai-community/gpt2-xl` |
+| SmolLM2 base models | `HuggingFaceTB/SmolLM2-360M`, `HuggingFaceTB/SmolLM2-1.7B` |
+| SmolLM2 instruction models | `HuggingFaceTB/SmolLM2-360M-Instruct`, `HuggingFaceTB/SmolLM2-1.7B-Instruct` |
+| Other instruction comparators | `allenai/OLMo-2-0425-1B-Instruct`, `TinyLlama/TinyLlama-1.1B-Chat-v1.0` |
+| Encoder / classifier backbones | `bert-base-uncased`, `roberta-base`, `microsoft/deberta-base`, `nghuyong/ernie-2.0-base-en` |
+| Embedding backbones | `sentence-transformers/all-MiniLM-L6-v2`, `sentence-transformers/all-mpnet-base-v2` |
+
+`Qwen/Qwen2.5-3B` has its tokenizer, configuration and both weight shards, and its
+configuration/tokenizer load by explicit snapshot path. However, the installed Hub
+client's `snapshot_download(..., local_files_only=True)` refuses that snapshot because
+`.gitattributes`, `LICENSE` and `README.md` are missing. Callers using that helper are
+not currently ready for this model. No cache files were downloaded or altered.
+DeBERTa and ERNIE also retain separate weight-only snapshots; those are not additional
+complete models. The `sentence-transformers` package itself is absent: cached embedding
+weights are usable through suitable Transformers code, not proof that that API exists.
+
+### Additional local weights and trained artifacts
+
+| Artifact | Local capability and verification boundary |
+|---|---|
+| `MayZhou/e5-small-lora-ai-generated-detector` | Pinned revision `483fc4969592dc20e00e5130e7187b5dd25dbcc7` under Stage 13 private assets; actual CPU classifier forward produces finite logits. Separate from the default Hub cache. |
+| Stage 13 trained RoBERTa | Main trained checkpoint and separate capacity-pilot checkpoint retained. The main checkpoint passes a fresh CPU forward. The capacity pilot is not interchangeable with the trained study checkpoint. |
+| LoRA archives | 105 structurally valid adapter snapshots across SmolLM2 1.7B/360M Instruct and Qwen2.5 1.5B/0.5B Instruct, including pilot/epoch/control copies. These are checkpoint files, not 105 distinct admitted models. Synthetic test placeholders were excluded. PEFT imports; archived adapters were not all loaded or scientifically readmitted. |
+| TensorFlow Hub sentence encoders | Universal Sentence Encoder `/4` and Universal Sentence Encoder Large `/5` SavedModel caches, variable indexes and data shards are present. TensorFlow/Hub import; no fresh SavedModel inference performed. The existing ArgRewrite replication runner uses Large `/5`. |
+| Ghost shared models / native packets | Stage 12 has source-bound import and numerical replay consumers (`shared_model.py`, `native_shared.py`, `native_math.py`). Capability and import gates remain attached to the original packets; copied records are not a newly trained model. |
+
+A fresh CPU forward also passes for `HuggingFaceTB/SmolLM2-360M-Instruct`. Finite
+logits establish execution only; the closed Stage 13 task-admission refusal remains.
+
+### Remote and paid model paths
+
+`soundingline/probe/client.py` configures local `qwen3.5:9b` and an Anthropic
+reference string `claude-opus-5`. Anthropic 0.120.2 imports, but current account access,
+provider model availability, billing and a live request were not checked. Treat that
+string as repository configuration, not an assertion of current service availability.
+
+Modal 1.5.4 and the `runners/gear3.py` guarded cloud path are installed; Stage 12
+also retains its scoped cloud adapter and old receipts. Cloud execution requires
+the applicable per-use authorization, budget and fresh readiness checks. Historical
+GPU rate constants and old approvals are not current pricing or an open allocation.
+This audit made no paid call, cloud dispatch or provider upload.
+
+## Libraries and built-in analysis capabilities
+
+Versions below are installed in the project venv. Imports pass; the final column
+states extra execution evidence or an integration boundary. These selected research
+dependencies describe the capability stack; the full installation snapshot stays local.
+
+| Capability | Installed libraries / versions | Execution or integration state |
+|---|---|---|
+| Numerical/statistical work | NumPy 2.4.6, pandas 3.0.5, SciPy 1.17.1, statsmodels 0.14.6 | Core analysis stack imports; used by existing scorers and consumers. |
+| Classical models | scikit-learn 1.9.0, XGBoost 3.4.0 | Linear/TF-IDF/retrieval and other existing baseline paths; installing a classifier does not reproduce a published baseline. |
+| Neural execution / tuning | torch 2.13.0+cu126, transformers 5.14.1, tokenizers 0.22.2, accelerate 1.14.0, peft 0.20.0 | Offline loaders, CPU forwards and small CUDA operation checked; local full tuning and LoRA runners are retained. |
+| Activation instrumentation | transformer-lens 3.6.0 | Imports; no current `runners/` or `soundingline/` import found. Existing activation/intervention code uses raw Transformers. |
+| Linguistic features | spaCy 3.8.14, `en_core_web_sm` 3.8.0, LFTK 1.0.9, BiberPlus 0.4.0, TextDescriptives 2.8.4 | Fresh synthetic-text extraction returns 220 + 96 + 26 = 342 features. Preserve both Biber workarounds documented below. |
+| Feature selection / search | tsfresh 0.21.2, ribs 0.12.0, Optuna 4.9.0 | All import. `measures/select.py` implements corrected selection; ribs and Optuna remain installed capabilities with no current package/runner integration found. |
+| Text resources | NLTK 3.10.3, wordfreq 3.1.1 | Import verified; resource-dependent methods still need their specific data. |
+| TensorFlow stack | tensorflow 2.21.0, tensorflow-hub 0.16.1, tf-keras 2.21.0 | Imports and two local sentence-encoder caches verified; no TensorFlow GPU claim. |
+| Data / typed records | datasets 5.0.1, huggingface-hub 1.26.0, PyYAML 6.0.3, pydantic 2.13.4 | Local/streaming dataset support, schemas and immutable manifest tooling; downloads remain subject to source/rights controls. |
+| Graphs / plots | networkx 3.6.1, matplotlib 3.11.1, seaborn 0.13.2 | Import verified; graph analyses and standalone plots available. |
+| Files and reports | Pillow 12.3.0, PyMuPDF 1.28.2, pypdf 6.15.0, openpyxl 3.1.5 | Image, PDF and spreadsheet libraries import; native HTML report/casebook/export code exists. |
+| Clients / testing | ollama 0.6.2, anthropic 0.120.2, modal 1.5.4, pytest 9.1.1 | Client imports, Ollama read-only service checks and the test checks below. |
+
+## Testing environments and research infrastructure
+
+Each row names the implemented entry points and what they establish. Historical
+scientific findings remain in their original receipts; this is a capability map.
+
+| Capability | Entry points | Boundaries / current check |
+|---|---|---|
+| Unit and regression tests | `tests/`, `pyproject.toml`, `Makefile` | 2,183 tests collect across 230 files. 202 Stage 13, monitoring, queue and lock tests execute successfully; the full suite was not executed. |
+| Research content locks | `tools/verify_locks.py`, `soundingline/hashlock.py` | All 21 locked artifacts pass. Locked preregistrations and scoring sources are preserved. |
+| Construction / policy checks | `tools/design_lint.py`, `theory_lint.py`, `lint_hook.py`, `codex_hooks.py`; `tools/test_s4.py` through `test_s7.py` | Existing design/format guards and stage construction checks. Legacy `tools/test_*.py` scripts are outside default pytest collection and were not all rerun. |
+| Bounded readings | `soundingline/probe/`, `family/`, `loop/`, `reading_profile.py`, `process_record.py` | Structured local/API clients, frozen families, validation, reading/process records and loop/report code. Client transport is separate from task validity. |
+| Activation and conditional readouts | `probe/activations.py`, `interventions.py`, `conditional_reader.py`; `runners/readout_repair.py` | Hidden-state access, conditional scoring, all-option readout and precision checks. Original affected direct-reader claims retain their quarantines. |
+| Restricted evaluation / services | `runners/stage9/capsule_host.py`, `model_service.py`, `service_owner.py`, `closure_capsules.py` | Interpreter-level access boundaries, local model services, frozen sources, fit/import and replay. Not an OS container or unrestricted reader. No service was launched. |
+| Constructed-world and context testbeds | Stage 9 finite-world/automata/choice modules; Stage 10 comparison/context banks; Stage 12 `program_*`, `controlled.py`, `discrete.py` | Exact-program controls, context ladders, allocation/admission and frozen consumer machinery. Constructed-world execution is not human validation. |
+| Recorded revisions and human-source comparisons | Stage 9 intake/loaders/baselines; Stage 11/11.1 source projections/casebooks; Stage 12 ARIES/revision consumers | Grouped allocation, task construction, held-out evaluation and source-bound report/replay. Some sources have only bounded subsets; rights and exclusions travel with each intake. |
+| Detection / located contribution | `runners/stage13/detectors.py`, `training.py`, `located.py`, `reconstruction.py`, `healing_*` | Surface/embedding/causal detectors, RoBERTa tuning, location and contribution baselines, memory comparisons and refusal-gated readers. Existing deficits remain explicit. |
+| Reports and interoperability | `soundingline/report/`, stage casebooks/reports, `runners/stage13/export_tompathy.py` | HTML reports and offline ToMpathy export with UTF-16 anchors, context/source identities and preserved sidecars. Local synthetic export tests pass; no live product integration asserted. |
+| Queues and resources | `runners/run_queue.py`, `run_first_gear.sh`, `run_second_gear.sh`; Stage 12/13 worker/queue/dispatch/checkpoint modules | Output guards, source-bound cards, native process ownership, resource admission, dependency gates, costs and honest failure/block states. Closed queues remain closed. |
+| Operations | `tools/codex_watch.py`, `codex_queue_api.py`, `codex_notify.py`, `codex_control.py`, `start_codex_watch.ps1`; GPU/orphan/drain helpers | Durable events, owner binding, supported cancellation/resume, hooks and diagnostics. Monitoring tests pass. See [operations](CODEX_OPERATIONS.md). |
+
+Default local test commands:
+
+```powershell
+./.venv/Scripts/python.exe -B tools/verify_locks.py
+./.venv/Scripts/python.exe -B -m pytest --collect-only -q
+./.venv/Scripts/python.exe -B -m pytest -q -m "not needs_local and not needs_api"
+```
+
+The last command is the CPU/default regression entry point, not a guarantee that
+every unmarked test is resource-free. Inspect selected tests before execution.
+The `needs_local` and `needs_api` markers are declared in `pyproject.toml`; `gate1`
+identifies the preregistered Gate 1 criteria. Live client checks and research jobs
+require their own scope and resources.
+
+## Data, references and adjacent workspaces
+
+Local stores include the existing ladder/no-maker/generated corpora, public
+ArgRewrite/CROSSNEWS/PAN/RAID directories, CoAuthor logs and Stage 9 intake/preparation
+records for ArgRewrite, ArXivEdits, IteraTeR, CoAuthor, ScholaWrite, CommitBench,
+genetic-edition and other bounded source tasks. Stage 13 additionally retains
+OpAI-Bench assets and its source-bound development/calibration/reserve records.
+This list records local assets and supported loaders, not complete access to every
+upstream release or permission to redistribute human text. Intake and split receipts
+remain authoritative; the older Stage 8 catalog below is a historical acquisition snapshot.
+
+All 17 sibling reference directories remain present: MMToM-QA, muma-tom,
+Hypothetical-Minds, InversePlanning.jl, LaBToM.jl, CLIPS.jl,
+acting-as-inverse-inverse-planning, gpudrive-CoDec, BPL, timecraft,
+inverse_painting, world-model-evaluation, verbalized-sampling, iterater, newsedits,
+thought-tracing and AutoToM. Checkout presence was inspected; this is not a full
+reproduction check. `gpudrive-CoDec` and `inverse_painting` still have no materialized root
+files; AutoToM's earlier checkout/index concern remains unvalidated. Julia, MATLAB,
+Octave and Rscript are not on this session's PATH. These are reference assets, not
+17 runnable or independently reproduced environments. See the detailed historical
+reference catalog below and [workspace layout](WORKSPACE_LAYOUT.md).
+
+## Gaps and reproducibility limits
+
+- `pip check` reports the known TextDescriptives requirement `numpy<2.0`, against
+  installed NumPy 2.4.6. The actual 342-feature smoke check passes. Preserve the
+  working environment; this audit did not install or upgrade packages.
+- `requirements-lock.txt` is a historical partial snapshot, not an exact
+  reconstruction recipe: extra dependencies and a version mismatch remain.
+  The full reconciliation is retained locally; this audit changed no dependency
+  or scientific lock.
+- Qwen2.5-3B's snapshot-helper refusal is a concrete readiness limit. Container,
+  WSL and browser execution require fresh checks before being treated as ready.
+- Project Python lacks `bitsandbytes`, `sentence-transformers`, `sae-lens`,
+  `nnsight`, `pysr`, `gplearn`, `mlflow`, `dvc`, `hydra-core`, `ax-platform`,
+  `botorch`, `hypothesis`, `pytest-cov`, `playwright`, `gymnasium`, JupyterLab and
+  ipykernel. `openai`, `python-docx`, `python-pptx` and `reportlab` are also absent
+  here; an agent skill or cached model namespace does not install their Python APIs.
+- No paid/provider access, full external checkout reproduction, full-suite test
+  pass, all-model forward pass or fresh visual QA is claimed. Model advertisements,
+  old receipts and available software never waive scientific admission gates.
+
+## How this inventory was triple-checked
+
+1. **Declarations:** compared the existing ledger with package/pytest configuration,
+   runner/client entry points, model definitions and adjacent-workspace records.
+2. **Local presence:** enumerated every installed distribution, Ollama tag, Hub
+   snapshot, retained adapter family, extra model cache and reference directory;
+   checked shard/configuration structure and available execution surfaces.
+3. **Execution and reconciliation:** offline loaders for all 24 Hub model IDs
+   (one explicit-path exception), three representative CPU model forwards, CUDA
+   arithmetic, feature extraction, imports, test collection, 202 targeted tests and
+   21 research locks; compared the result with the dependency lock and this catalog.
+
+The complete installation snapshot, model revisions and detailed audit logs are
+retained locally. This public catalog omits workstation build/driver fingerprints,
+installation timestamps, live monitoring state and private audit references.
+
+## Historical installation context
+
+**2026-08-05.** The original engineering-scaffolding installation notes follow,
+alongside later instrument receipts. Apply the current inventory above when a
+historical present-tense status conflicts with today's environment.
 
 **The framing that chose these.** Data-science scaffolding — preregistration templates, research
 compendia, multiverse analysis — went to the Ghost Scale Simulation, which is the repo doing
