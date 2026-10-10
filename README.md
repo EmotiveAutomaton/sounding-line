@@ -9,6 +9,9 @@
 
 # Sounding Line
 
+The [October local research week](docs/design/stage-14/README.md) is running in a
+new execution namespace, with the supplied program and validity errata filed together.
+
 **Working environment:** Codex/GPT. Start with [AGENTS.md](AGENTS.md) and
 [operations, tests, and rollback](docs/CODEX_OPERATIONS.md). The overview below describes
 the event-recovery program; current experimental status is in
@@ -32,7 +35,7 @@ and the raised matched floor was later shown to be label composition, not hidden
 ([`results/arg_recovery/floor_decomp.json`](results/arg_recovery/floor_decomp.json)). The correctly gated confirmatory battery subsequently replicated recovery at 0.4805,
 with the matched draw at pilot power (FINDINGS L141; `prereg/g129b.py`).
 
-**Current state, October 1:** The admitted Stage 13 queues are drained and the
+**Closed September campaign, recorded October 1:** The admitted Stage 13 queues are drained and the
 [final evidence packet](results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) is assembled.
 All 714 retained completed jobs pass integrity checks. Detector and memory healing are
 complete; reader admission remains failed and no scientific work remains admitted.

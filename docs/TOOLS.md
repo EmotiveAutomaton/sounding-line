@@ -21,7 +21,7 @@ Hardware capacity is approximate and is not a work allocation.
 | Project Python | `./.venv/Scripts/python.exe`, Python 3.13, `sounding-line` 0.1.0 | Core and additional library imports pass. `pyproject.toml` declares Python >=3.11 and only the base/optional client dependencies, not the full research environment. |
 | Windows host | Multicore CPU execution and native filesystem/process tooling | Stage-specific thread, priority and gear limits still apply. |
 | Local GPU | CUDA-capable GPU with approximately 12 GB VRAM | A small CUDA tensor calculation passes. This does not establish that every model/context/batch fits. |
-| Ollama service | Local model serving; five installed model tags below | Read-only service and model-inventory checks pass; no generation request was sent. |
+| Ollama service | Local model serving; five installed model tags below | Version 0.35.1 executed Stage 14 local Llama generation and raw option-ID logprob screens under full residency checks. Transport success is separate from task admission. |
 | Shell and build tooling | PowerShell, Git, Git Bash, Node.js and npm | Commands found. Python tests use the project venv rather than a shell's default Python. |
 | Linux / containers | WSL and Docker tooling installed | Container and WSL workload execution were not validated; fresh runtime readiness checks are required before use. |
 | Ghost Scale Simulation | Separate sibling checkout and Python environment with `pymdp` | `pymdp` imports there; it is not installed in this project's venv. Shared-model/native-packet consumers exist here; separate-project execution requires its own scope. |
@@ -90,6 +90,15 @@ weights are usable through suitable Transformers code, not proof that that API e
 
 A fresh CPU forward also passes for `HuggingFaceTB/SmolLM2-360M-Instruct`. Finite
 logits establish execution only; the closed Stage 13 task-admission refusal remains.
+
+The October campaign additionally executed true text-only LoRA pilots on cached
+SmolLM2-360M and Qwen2.5-0.5B base models, with separate own/donor/pooled/base
+comparisons and GPU placement/headroom checks. Full main comparisons are running.
+Frozen MiniLM encoding and lexical/semantic finite-mixture choice consumers also
+execute locally. Initial direct readout and natural-reader screens retain their
+failed gates; an installed package or completed transport is not an admitted reader.
+Raw model calls, adapters and per-writer records remain local. The live card and
+capability boundaries are in the [October handoff](design/stage-14/IMPLEMENTATION_HANDOFF.md).
 
 ### Remote and paid model paths
 
@@ -1732,6 +1741,65 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+OPS-S14-SETUP-HEALTH: source-bound fixed Friday marker helper passes actual due,
+cancel and idempotent reentry tests. Native queue/helper ownership, all terminal
+registrations, watcher loaded sources and independent six-hour schedule verify.
+First six-hour idle delivery is future; markers are operational, not a final packet.
+[Inspection](../results/phase_2_4_stage_14/SETUP_HEALTH_20261010.json).
+
+
+S14-H01-EXPOSURE: event-level audit preserves unknown exposure. Use known-writer future prediction descriptively. A missing archive match never licenses fresh confirmation. [Receipt](../results/phase_2_4_stage_14/EVENT_EXPOSURE_PUBLIC.json).
+
+S14-R01-DERIVED: deterministic full-field adapter passes exact controls. Use this separately bound adapter for future full typed records. No relation-learning adapter is needed for a deterministic lookup. [Receipt](../results/phase_2_4_stage_14/DERIVED_FIELDS_PUBLIC.json).
+
+S14-R04-LLAMA3: smaller natural handling screen also refuses. Keep natural-reader refusal separate from the independent fitted-choice and text-adaptation studies. [Receipt](../results/phase_2_4_stage_14/R04_LLAMA3_PUBLIC.json).
+
+S14-R02-SCREENS: native readouts execute but refuse coherence admission. Retain direct readout failures and keep independent learning work active. Any repaired prompt or readout needs a separate prospective identity and control battery. [Receipt](../results/phase_2_4_stage_14/R02_INITIAL_SCREENS_PUBLIC.json).
+
+S14-H05-CENSUS: gold exposure and paper-versus-release discrepancy stay explicit. Keep H05 descriptive and paper-clustered; separate silver training/evaluation and resolve denominator semantics before a new main. Do not invent a fresh gold pool. [Receipt](../results/phase_2_4_stage_14/ARIES_CENSUS_PUBLIC.json).
+
+S14-P04-EMBEDDINGS: frozen semantic features are available with their actual cap. Run the separately frozen candidate-choice consumer and preserve the bounded semantic view in interpretation. [Receipt](../results/phase_2_4_stage_14/P04_EMBEDDING_FEATURES_PUBLIC.json).
+
+OPS-S14-WEEK-SETUP: week plan and validity checks are installed. Continue the live main, inspect full costs at the next six-hour health event and close the measured capacity shortfall with useful admitted branches. No tests were harvested from the memory-setting reply; its operational substitute was implemented. [Receipt](../results/phase_2_4_stage_14/COORDINATOR_V5_PUBLIC.json).
+
+
+S14-H03-INTAKE: bounded public revision intake retains rights and parent records. Admit source inspection only. Reader-specific release cutoffs and source policy must be resolved before blind reconstruction. [Receipt](../results/phase_2_4_stage_14/H03_INTAKE_PUBLIC.json).
+
+S14-P03-PILOTS-V2: corrected four-arm adapter pilots and saved-score consumers complete. Proceed to all eligible writers under the frozen main cards and retain normalized readouts as primary; repeated writers across cards are not independent replications. [Receipt](../results/phase_2_4_stage_14/P03_REPAIRED_PILOTS_PUBLIC.json).
+
+S14-R04-LLAMA8: natural handling screen refuses its descendants. Keep constructed extraction admission separate from natural forecast and complete-graph admission. Independent personal and CPU families continue. [Receipt](../results/phase_2_4_stage_14/R04_LLAMA8_PUBLIC.json).
+
+OPS-S14-FOREST: conditional continuation forest installed without restarting workers. Use observed complete-block costs to publish a capacity estimate, and retain unadmitted branches as conditional. [Receipt](../results/phase_2_4_stage_14/COORDINATOR_V4_PUBLIC.json).
+
+
+S14-R01-FACTORIZED-LLAMA3: smaller local package refuses extraction admission. Retain the failure; the larger sibling extraction result cannot establish independent-family transfer. Natural handling is a separate diagnostic. [Receipt](../results/phase_2_4_stage_14/R01_FACTORIZED_LLAMA3_PUBLIC.json).
+
+S14-P01: chronological session preparation completes with explicit event-support limits. Consumers must exclude missing event support explicitly and freeze per-recipient donor cutoffs. Corpus characters are not native token counts; adapters retain their actual token accounting. [Receipt](../results/phase_2_4_stage_14/P01_PUBLIC.json).
+
+S14-D01: bounded source-stream detector completes with underpowered rare-error claims. Treat this as a source-stream diagnostic only; require separate provenance, family and domain transfer before a general detector claim. [Receipt](../results/phase_2_4_stage_14/D01_PUBLIC.json).
+
+S14-P03-INITIAL-PILOTS: two text-adapter execution pilots pass with population inference unavailable. Use the corrected multi-writer pilot and explicit event-support guards before main continuations. Preserve the original summaries and costs. [Receipt](../results/phase_2_4_stage_14/P03_INITIAL_PILOTS_PUBLIC.json).
+
+OPS-S14-CONSUMER-REPAIR: empty-choice preparation fault isolated and separately repaired. Run the separately bound successors, retain original failure costs, and validate main-block throughput before claiming week-long capacity. [Receipt](../results/phase_2_4_stage_14/CONSUMER_RECOVERY_1_PUBLIC.json).
+
+OPS-S14-TIMING: historical slowdown localizes to generation without a proven cause. Use actual current pilot occupancy, fixed context, dedicated service, strict residency/headroom and throughput floors. The owner approved these checks in place of the inaccessible NVIDIA fallback control. [Receipt](../results/phase_2_4_stage_14/SL11_TIMING_PUBLIC.json).
+
+OPS-S14-COORDINATOR: frozen coordinator successors preserve scientific attempts. Keep the sole native coordinator and watcher registered, audit actual progress and admit further runway only from measured complete comparisons. [Receipt](../results/phase_2_4_stage_14/COORDINATOR_HANDOFF_PUBLIC.json).
+
+
+S14-H01: Complete metadata-owned source census and exact Unicode replay controls pass; all human records remain historically exposed. Reader/evaluator separation and chronology support subsequent preparation, not independent truth. [Receipt](../results/phase_2_4_stage_14/H01_PUBLIC.json).
+
+S14-H04-RULER: Exact supplied-bank missingness controls pass. Natural thinning and unknown candidate mass remain separate obligations. [Receipt](../results/phase_2_4_stage_14/H04_PUBLIC.json).
+
+S14-R01-FACTORIZED-LLAMA8: The separate factorized successor passes all complete constructed extraction controls. Natural and independent-family admission remain pending; preserve the original failed interface. [Receipt](../results/phase_2_4_stage_14/R01_FACTORIZED_LLAMA8_PUBLIC.json).
+
+S14-R01-PILOT: The completed three-contract local-reader pilot fails extraction
+admission. Exact deterministic expansion passes its constructed controls; literal
+outputs and history selection remain insufficient. The dedicated single-request
+service verifies full GPU residency at the fixed context. Preserve failed replies
+and costs; a separately frozen factorized successor is running.
+[Aggregate receipt](../results/phase_2_4_stage_14/R01_PILOT_PUBLIC.json).
 
 Final packet integrity (OPS-S11-FINAL): all bound Stage 11.1 inputs/sources/costs
 verify; twelve source projections and retained viewer calls replay, and 6,901

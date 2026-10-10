@@ -1,7 +1,32 @@
 # Current status
 
-Updated October 1, 2026. Start here for current authority; historical execution
+Updated October 10, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
+
+## October local week: active in the Stage 14 execution namespace
+
+Local Gear 2 is running the first full text-adapter comparison after source replay,
+chronological preparation, execution pilots and independent cheap-model studies.
+The frozen plan has 266 retained and prospective identities, including failed and
+blocked predecessors and CPU consumers. All 26 Stage 14 checks pass. Completed
+results are internally recorded; no unfinished per-artifact scores are presented.
+
+The supplied program and errata are filed byte-identically under
+[the October design shelf](docs/design/stage-14/README.md). The
+[implementation handoff](docs/design/stage-14/IMPLEMENTATION_HANDOFF.md) distinguishes
+implemented, admitted and design-only work. Strict memory and full-residency checks
+implement the curator's approved substitute for the unavailable driver setting.
+Everything executes locally; no cloud or paid readers.
+
+The permanent health cadence is six hours, first due October 10 at 16:34:29 PDT.
+Immediate failures and drained-queue events remain. A separate fixed helper covers
+Friday October 16 at 10:00 reporting reserve, 16:00 review and 18:00 final packet.
+Measured pilots estimate 30.6 ready small-model GPU hours plus 64.5 conditional
+hours. CPU day-long occupancy and the required whole-week fast-depletion reservoir
+remain CAPACITY_SHORTFALL; the next full-family or health review must reassess them.
+Wikipedia/blog intake awaits the source-policy answer; existing-source work continues.
+
+The September closure records below retain their original scope and dates.
 
 ## Stage 13: queues drained, final packet published and endpoint closed
 
@@ -28,9 +53,9 @@ passes. The original interim is preserved; Stage 13 results are kept separate.
 The September 28 at 06:17 PDT final endpoint is now [reconciled](results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json): retained records are unchanged, the helper exited normally and its exact watch is retired. Original-week reporting costs are reconciled; separate local costs are unchanged.
 A drained queue is not a fully completed program, and no expired allocation restarts.
 
-## Supervision and next action
+## September supervision history
 
-The existing durable watcher retains independent four-hour queue-health checks,
+The September durable watcher used independent four-hour queue-health checks,
 immediate failure/exit notices and original week checkpoints. Do not reset its clock
 for documentation work. Pending operational events require actual inspection and
 write-through before ACK. Future Gear 1 authorization never restarts expired work.

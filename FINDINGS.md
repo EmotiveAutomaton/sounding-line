@@ -5,7 +5,430 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-10-02.**
+**Last updated: 2026-10-10.**
+
+---
+
+### OPS-S14-SETUP-HEALTH - live ownership and reporting supervision verified
+
+**Hypothesis.** Is the new local campaign actually running under its intended resource and delivery controls?
+
+**METHOD.** Reconcile native creation/executable identities for the sole coordinator, worker and reporting helper; inspect current progress, the GPU lock, physical resources, dependency states, terminal registrations, watcher source adoption and owner delivery. Verify every frozen plan/card binding, all distinct source/input pins and all completed output hashes. Rehearse the new fixed-marker helper's actual due, cancellation and reentry paths.
+
+**Found.** At 12:09 PDT, the plan has 30 completed jobs, five retained failures, 39 blocked predecessors/descendants, 191 pending jobs and one active main. The separate ARIES census successor is also complete and recorded. All 73 distinct source/input bindings and the 30 queued completions verify. Progress and helper heartbeats are fresh; the GPU lock names the exact live worker. The GPU has about 5.7 GiB free at 50 C; host RAM and disk exceed their reserves. All 26 focused checks and 21 research locks pass. The watcher has no current unacknowledged events, matches its loaded sources and retains its historical uncertain notification without treating it as a new fault. The independent six-hour deadline remains 16:34:29 PDT; its first idle delivery is still future.
+
+**Means.** No recovery or scientific restart is needed. Continue the current main and its finite successors. Dependency eligibility is not immediate resource admission: the sole GPU lane is occupied and CPU consumers await producers. Keep the capacity shortfall and pending source-policy decision visible. Fixed Friday markers cover reporting reserve, final review and final packet; they do not themselves deliver a scientific packet.
+
+**Curator roll-up.** Theory group: operational validity. Question: Is the commissioned local setup actually alive and supervised? Outcome: **Infrastructure**. Result: Exact native ownership, fresh outputs and source-bound completion checks pass. Project meaning: Local studies can continue under bounded supervision. Next engineering obligation: inspect the next complete family or six-hour event, reassess measured capacity and finish the Friday packet. Public claim: unchanged. Curator decision required: No new operational decision. Detail: [health inspection](results/phase_2_4_stage_14/SETUP_HEALTH_20261010.json).
+
+---
+
+
+### S14-P04-SEMANTIC - personal semantic choice advantage remains unresolved
+
+**Hypothesis.** Do fixed semantic features reveal a personal future-choice advantage beyond the population choice model?
+
+**METHOD.** Fit the separately frozen finite-mixture panel logit on past choices with the label-free MiniLM features. Choose complexity and penalty only on earlier calibration records. Evaluate the same complete 341 choices from 45 exposed writers; retain writer bootstrap and crossed writer/prompt sensitivity, fixed prompts and recipient-specific donor/global cutoffs. The three-writer pilot is an execution subset, not replication. The encoder's 128-native-token cap remains part of the tested representation.
+
+The table gives equal-writer half-Brier differences, personal minus rival, with writer-bootstrap intervals; negative favors personal. These are descriptive paired contrasts on the entire completed block.
+
+| Rival | Difference | Interval | Frozen-margin verdict |
+|---|---:|---|---|
+| Population mixture | 0.004570 | [-0.017249, 0.024182] | Unresolved |
+| Donor mixture | -0.038450 | [-0.074015, -0.005906] | Unresolved |
+| Pooled logit | -0.029265 | [-0.058785, -0.002511] | Unresolved |
+| Uniform | 0.004865 | [-0.034900, 0.041646] | Unresolved |
+| First option | -0.261727 | [-0.309567, -0.213830] | Promising descriptively |
+
+**Found.** The semantic representation does not resolve the personal advantage over the population rival at the 0.01 margin. Crossed sensitivity also remains unresolved: the population contrast spans -0.028411 to 0.034120. The full consumer takes 62.21 seconds, following an 8.93-second execution pilot. The weak first-option improvement does not establish a personal mechanism. No parity or fresh confirmation follows.
+
+**Means.** Retain lexical and semantic rivals beside the text-adapter study. Repeated historical writers and fixed representations leave the broader personal-learning question open; recorded selections do not reveal private motives.
+
+**Curator roll-up.** Theory group: recorded choices. Question: Do semantic features reveal a personal prediction advantage? Outcome: **Narrows**. Result: The semantic personal model has no resolved advantage over its population rival. Project meaning: A different representation does not yet identify a personal mechanism. Next engineering obligation: finish independent text-adapter comparisons and preserve the common roster dependence. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P04_EMBEDDING_CHOICE_PUBLIC.json).
+
+---
+
+
+### S14-H01-EXPOSURE - event-level audit preserves unknown exposure
+
+**Hypothesis.** Which historical source opportunities have positive witnesses of earlier model or scorer use?
+
+**METHOD.** Join archived source-session and ordinal aliases to the new census, scanning named retained model/scorer outputs without selecting on their outcomes. Preserve source hashes and audit exclusions.
+
+**Found.** The bounded audit inspects 48,184 output files and maps 688 source aliases. It witnesses 258 events among 16,959 opportunities; 16,701 remain unknown, not proven unexposed. All 61 writers retain their historical exposure label. No fresh events are certified.
+
+**Means.** Use known-writer future prediction descriptively. A missing archive match never licenses fresh confirmation.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Which historical source opportunities have positive witnesses of earlier model or scorer use? Outcome: **Infrastructure**. Result: event-level audit preserves unknown exposure. Project meaning: Use known-writer future prediction descriptively. A missing archive match never licenses fresh confirmation. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/EVENT_EXPOSURE_PUBLIC.json).
+
+---
+
+### S14-R01-DERIVED - deterministic full-field adapter passes exact controls
+
+**Hypothesis.** Can omitted related-slot and span-state fields be derived without asking a model?
+
+**METHOD.** Compare source-constructor related slots, anchor identifiers, span states and exact spans on all 64 factorized Unicode and edit controls. Require binary realized presence; ambiguous marginals refuse a coherent-graph label.
+
+**Found.** All 64 exact comparisons pass. Earlier compact and factorized scores omitted these fields and retain their narrower extraction scope; no historical result is relabelled as complete-graph admission.
+
+**Means.** Use this separately bound adapter for future full typed records. No relation-learning adapter is needed for a deterministic lookup.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can omitted related-slot and span-state fields be derived without asking a model? Outcome: **Infrastructure**. Result: deterministic full-field adapter passes exact controls. Project meaning: Use this separately bound adapter for future full typed records. No relation-learning adapter is needed for a deterministic lookup. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/DERIVED_FIELDS_PUBLIC.json).
+
+---
+
+### S14-R04-LLAMA3 - smaller natural handling screen also refuses
+
+**Hypothesis.** Does the smaller local package provide an independently usable natural handling forecast?
+
+**METHOD.** Run the complete 480-request five-view screen under the same validity and cheap-prior gate, retaining invalids at loss one and source-bound timing.
+
+**Found.** Every view falls below the 95-percent validity requirement, so the completed block refuses admission and its three descendants remain blocked. This is not evidence that earlier writer records contain no useful signal.
+
+**Means.** Keep natural-reader refusal separate from the independent fitted-choice and text-adaptation studies.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Does the smaller local package provide an independently usable natural handling forecast? Outcome: **Infrastructure**. Result: smaller natural handling screen also refuses. Project meaning: Keep natural-reader refusal separate from the independent fitted-choice and text-adaptation studies. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/R04_LLAMA3_PUBLIC.json).
+
+---
+
+### S14-R02-SCREENS - native readouts execute but refuse coherence admission
+
+**Hypothesis.** Do native sequence and generated-token option readouts form reliable coherent probabilities on explicit facts?
+
+**METHOD.** Four cached instruction models score all 512 native sequence/order/negation controls; three HF readout methods are retained alongside the separate Ollama legal-token analysis. Two local Ollama packages each execute 64 raw-mode numbered-option requests, conditioning only on complete legal support and preserving its original mass. Test negation complements and mutually exclusive action partitions before any ranking; HF unchanged-input repeats are retained.
+
+**Found.** All six completed package screens refuse admission. The table reports sequence readout for HF and option-ID readout for Ollama; valid counts are requests, not independent human units. Smaller error gaps are better, and zero is coherent.
+
+| Screen | Valid | Accuracy | Mean complement gap | Maximum partition gap | Admission |
+|---|---:|---:|---:|---:|---|
+| R02-native-readout-smol360-v1 | 512 | 0.548828 | 0.243699 | 1.320245 | Refused |
+| R02-native-readout-qwen500-v1 | 512 | 0.525391 | 0.281845 | 1.759356 | Refused |
+| R02-native-readout-smol1700-v1 | 512 | 0.523438 | 0.332465 | 0.736455 | Refused |
+| R02-native-readout-qwen1500-v1 | 512 | 0.597656 | 0.555873 | 0.609468 | Refused |
+| R02-option-id-llama3-v1 | 64 | 0.515625 | 0.642545 | 2.718897 | Refused |
+| R02-option-id-llama8-v1 | 64 | 0.562500 | 0.204245 | 1.741960 | Refused |
+
+HF first-token and length-normalized sensitivities remain in the receipt. The Qwen 9B Ollama screen remains resource-held and is not scored. Transport success is not scientific validity; no preferred reader is selected from these refused screens.
+
+**Means.** Retain direct readout failures and keep independent learning work active. Any repaired prompt or readout needs a separate prospective identity and control battery.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Do native sequence and generated-token option readouts form reliable coherent probabilities on explicit facts? Outcome: **Infrastructure**. Result: native readouts execute but refuse coherence admission. Project meaning: Retain direct readout failures and keep independent learning work active. Any repaired prompt or readout needs a separate prospective identity and control battery. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/R02_INITIAL_SCREENS_PUBLIC.json).
+
+---
+
+### S14-H05-CENSUS - gold exposure and paper-versus-release discrepancy stay explicit
+
+**Hypothesis.** How much gold ARIES evidence can be called untouched this week?
+
+**METHOD.** Verify all retained intake hashes, count paper/comment/edit support from released labels and join prior source preparation ledgers by paper. The first audit stopped at the linked-comment mismatch; a separate diagnostic successor preserves both denominators without admitting inference.
+
+**Found.** The pinned release contains 42 papers, 196 comments, 131 distinct positive edits and 87 positive-label comments. The paper and supplied errata report 85 text-linked comments; the distinction remains unresolved. Prior preparation is positively witnessed for 37 papers and the other five are unknown; zero papers are certified untouched. The first refusal and its cost remain preserved.
+
+**Means.** Keep H05 descriptive and paper-clustered; separate silver training/evaluation and resolve denominator semantics before a new main. Do not invent a fresh gold pool.
+
+**Curator roll-up.** Theory group: measurement validity. Question: How much gold ARIES evidence can be called untouched this week? Outcome: **Infrastructure**. Result: gold exposure and paper-versus-release discrepancy stay explicit. Project meaning: Keep H05 descriptive and paper-clustered; separate silver training/evaluation and resolve denominator semantics before a new main. Do not invent a fresh gold pool. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/ARIES_CENSUS_PUBLIC.json).
+
+---
+
+### S14-P04-EMBEDDINGS - frozen semantic features are available with their actual cap
+
+**Hypothesis.** Can a compact semantic rival be built without reading outcome labels?
+
+**METHOD.** Encode context and alternatives locally with pinned MiniLM weights, masked mean pooling and a fixed projection; retain native tokenizer truncation counts. This is CPU feature preparation, not predictive evaluation.
+
+**Found.** The producer covers 15,567 opportunities and 76,891 unique texts in 1,561.28 seconds, accessing no labels. It truncates 2,264 texts at the explicit 128-native-token encoder cap. The lexical rival still retains full candidate text.
+
+**Means.** Run the separately frozen candidate-choice consumer and preserve the bounded semantic view in interpretation.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can a compact semantic rival be built without reading outcome labels? Outcome: **Infrastructure**. Result: frozen semantic features are available with their actual cap. Project meaning: Run the separately frozen candidate-choice consumer and preserve the bounded semantic view in interpretation. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P04_EMBEDDING_FEATURES_PUBLIC.json).
+
+---
+
+### OPS-S14-WEEK-SETUP - week plan and validity checks are installed
+
+**Hypothesis.** Does the installed queue preserve finite work, validity boundaries and independent health supervision?
+
+**METHOD.** Verify every card and imported-source binding, run the actual dispatcher integration and targeted controls, and reconcile exact native coordinator/watch handoff. Size work from native token counts and complete pilot costs, separately from finite wall ceilings.
+
+**Found.** The sole successor owns 266 identities and preserves running scientific workers. All 24 targeted tests pass. The small-model main has 36 comparisons with an estimated 30.6 GPU hours; additional small-model work is conditional, not admitted runway. CPU day-long occupancy and two-to-three-times remaining-week coverage are not demonstrated. Health cadence is independently six hours.
+
+**Means.** Continue the live main, inspect full costs at the next six-hour health event and close the measured capacity shortfall with useful admitted branches. No tests were harvested from the memory-setting reply; its operational substitute was implemented.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Does the installed queue preserve finite work, validity boundaries and independent health supervision? Outcome: **Infrastructure**. Result: week plan and validity checks are installed. Project meaning: Continue the live main, inspect full costs at the next six-hour health event and close the measured capacity shortfall with useful admitted branches. No tests were harvested from the memory-setting reply; its operational substitute was implemented. Next engineering obligation: preserve the stated gates and evidence boundary. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/COORDINATOR_V5_PUBLIC.json).
+
+---
+
+
+### S14-P04 - personal choice advantage over population rivals remains unresolved
+
+**Hypothesis.** Do earlier choices from the same writer improve later choices beyond population and donor information?
+
+**METHOD.** Fit a past-only handling head and a separate candidate-level finite-mixture panel logit. The latter integrates two or four discrete random-coefficient classes, selects complexity and penalty on earlier calibration choices, and conditions on acceptance/edit with full alternative support. Use paired writer bootstrap and crossed writer/prompt sensitivity, fixed prompts and recipient-specific global/donor cutoffs. The three-writer pilot is a subset of the main, not a replication. A planted heterogeneous-choice ruler and finite-difference gradient check passed before the main.
+
+The table gives equal-writer half-Brier differences, personal minus rival, with writer-bootstrap intervals; negative favors personal. Handling has 46 writers and 505 opportunities; candidate choice has 45 writers and 341 choices.
+
+| Task / rival | Difference | Interval | Frozen-margin verdict |
+|---|---:|---|---|
+| Handling / pooled features | -0.008569 | [-0.023313, 0.007043] | Unresolved |
+| Handling / donor features | -0.032945 | [-0.056748, -0.009707] | Unresolved |
+| Candidate / population mixture | 0.003387 | [-0.022853, 0.024609] | Unresolved |
+| Candidate / donor mixture | -0.032786 | [-0.067158, -0.001613] | Unresolved |
+| Candidate / pooled logit | -0.028662 | [-0.057659, -0.002852] | Unresolved |
+| Candidate / uniform | 0.006483 | [-0.033048, 0.042816] | Unresolved |
+| Candidate / first option | -0.260109 | [-0.306943, -0.212806] | Promising descriptively |
+
+The observed improvements against some weak rivals do not clear the 0.01 margin against the population rival. Crossed prompt sensitivity also leaves that contrast unresolved. Own handling frequencies outperform donor frequencies on the writer interval, but their crossed interval reaches inside the practical margin. No parity or fresh confirmation follows. Runtime is 58.46 seconds for the head and 66.79 seconds for the complete candidate model.
+
+**Means.** Keep the broader personal-learning hypothesis open; test frozen semantic features and text adapters. Repeated historical writers, fitted discrete classes and recorded selections do not identify private goals or psychological types.
+
+**Curator roll-up.** Theory group: recorded choices. Question: Do earlier choices from the same writer improve later choices beyond population and donor information? Outcome: **Narrows**. Result: personal choice advantage over population rivals remains unresolved. Project meaning: Keep the broader personal-learning hypothesis open; test frozen semantic features and text adapters. Repeated historical writers, fitted discrete classes and recorded selections do not identify private goals or psychological types. Next engineering obligation: retain the stated scope and execute only admitted successors. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P04_INITIAL_PUBLIC.json).
+
+---
+
+### S14-H03-INTAKE - bounded public revision intake retains rights and parent records
+
+**Hypothesis.** Can a public Git intake preserve exact before/after evidence without treating it as private-intent truth?
+
+**METHOD.** Inspect eight preregistered public repositories under a license allowlist, bounded commit counts and a fixed date window; save every fetched parent and changed document locally, separating author and committer identities.
+
+**Found.** Six repositories contribute 42 document changes; two are excluded. Original request, license, commit and parent evidence is retained. This is source intake, not verified human authorship, personal-blog admission or post-pretraining confirmation. The blob_sha256 field hashes the hexadecimal byte representation; Git blob identities and request hashes retain the actual source binding, so that field must not be mistaken for a conventional content-byte SHA256.
+
+**Means.** Admit source inspection only. Reader-specific release cutoffs and source policy must be resolved before blind reconstruction.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can a public Git intake preserve exact before/after evidence without treating it as private-intent truth? Outcome: **Infrastructure**. Result: bounded public revision intake retains rights and parent records. Project meaning: Admit source inspection only. Reader-specific release cutoffs and source policy must be resolved before blind reconstruction. Next engineering obligation: retain the stated scope and execute only admitted successors. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/H03_INTAKE_PUBLIC.json).
+
+---
+
+### S14-P03-PILOTS-V2 - corrected four-arm adapter pilots and saved-score consumers complete
+
+**Hypothesis.** Can two cached backbones finish matched own, donor, pooled and base comparisons with valid event support and full device residency?
+
+**METHOD.** Use three eligible writers per package, 1,024 native tokens per trained arm and separate later calibration/evaluation choices. Verify output hashes and actual CUDA residency; consume saved raw likelihoods in a separately frozen CPU analysis for native length normalization and adapted-minus-base contrasts. Temperature is selected only on calibration.
+
+**Found.** Both packages complete all four arms, taking 177.36 and 138.88 wall seconds. Each trains 1,024 native tokens per arm in a sparse-data regime. Both CPU consumers complete on 41 choices each; no duplicate GPU inference is used. This admits execution, not a population effect. Saved pilot bootstrap labels are descriptive resampling of three writers; they cannot establish population parity or close the broader learning hypothesis.
+
+**Means.** Proceed to all eligible writers under the frozen main cards and retain normalized readouts as primary; repeated writers across cards are not independent replications.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can two cached backbones finish matched own, donor, pooled and base comparisons with valid event support and full device residency? Outcome: **Infrastructure**. Result: corrected four-arm adapter pilots and saved-score consumers complete. Project meaning: Proceed to all eligible writers under the frozen main cards and retain normalized readouts as primary; repeated writers across cards are not independent replications. Next engineering obligation: retain the stated scope and execute only admitted successors. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P03_REPAIRED_PILOTS_PUBLIC.json).
+
+---
+
+### S14-R04-LLAMA8 - natural handling screen refuses its descendants
+
+**Hypothesis.** Does the extraction-admitted local reader also give usable natural handling forecasts beyond a cheap prior?
+
+**METHOD.** Run all 480 requests over separate calibration and evaluation items with no history, own history, donor, pooled and repeated-history views; invalid requests receive loss one. Require at least 95 percent valid in every view and a direct forecast better than the cheap prior.
+
+**Found.** The complete screen takes 431.26 seconds. Own and donor views fall below validity admission, and the direct forecast is worse than the cheap prior. The admission receipt is false and all three natural descendants remain blocked. Better performance than an invalid or weaker reader variant cannot rescue a failed ruler.
+
+**Means.** Keep constructed extraction admission separate from natural forecast and complete-graph admission. Independent personal and CPU families continue.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Does the extraction-admitted local reader also give usable natural handling forecasts beyond a cheap prior? Outcome: **Infrastructure**. Result: natural handling screen refuses its descendants. Project meaning: Keep constructed extraction admission separate from natural forecast and complete-graph admission. Independent personal and CPU families continue. Next engineering obligation: retain the stated scope and execute only admitted successors. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/R04_LLAMA8_PUBLIC.json).
+
+---
+
+### OPS-S14-FOREST - conditional continuation forest installed without restarting workers
+
+**Hypothesis.** Can prospective follow-ups be made runnable while preserving live comparisons?
+
+**METHOD.** Verify every frozen card and source, retain the prior coordinator handoff and terminal receipt, retire only its exact watch, and adopt existing scientific workers into the sole successor.
+
+**Found.** The active plan contains 189 retained attempts, executable cards and conditional consumers. It includes calibration-selected token-dose continuations and separately gated larger cached-model pilots. Completed and failed predecessors remain; card count and wall ceilings are not measured coverage.
+
+**Means.** Use observed complete-block costs to publish a capacity estimate, and retain unadmitted branches as conditional.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can prospective follow-ups be made runnable while preserving live comparisons? Outcome: **Infrastructure**. Result: conditional continuation forest installed without restarting workers. Project meaning: Use observed complete-block costs to publish a capacity estimate, and retain unadmitted branches as conditional. Next engineering obligation: retain the stated scope and execute only admitted successors. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/COORDINATOR_V4_PUBLIC.json).
+
+---
+
+
+### S14-R01-FACTORIZED-LLAMA3 - smaller local package refuses extraction admission
+
+**Hypothesis.** Does the same factorized literal interface transfer to the smaller local package?
+
+**METHOD.** Run all 64 constructed replay controls and seven field requests per control under the same exact-span and literal-probability gate. Preserve invalids at loss one and all native call receipts.
+
+**Found.** All 448 calls finish, but none of the 64 complete records is valid or exact; mean half-Brier is 1. Span-validation errors occur in every record. Wall time is 269.58 seconds. This is an instrument refusal, not a human inference result.
+
+**Means.** Retain the failure; the larger sibling extraction result cannot establish independent-family transfer. Natural handling is a separate diagnostic.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Does the same factorized literal interface transfer to the smaller local package? Outcome: **Infrastructure**. Result: smaller local package refuses extraction admission. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Retain the failure; the larger sibling extraction result cannot establish independent-family transfer. Natural handling is a separate diagnostic. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/R01_FACTORIZED_LLAMA3_PUBLIC.json).
+
+---
+
+### S14-P01 - chronological session preparation completes with explicit event-support limits
+
+**Hypothesis.** Can earlier maker text and actions be separated from later choices on locally novel prompts?
+
+**METHOD.** Freeze strict-time within-writer train, calibration and evaluation sessions, with calibration and evaluation prompts absent from that writer's training. Replay three provenance corpora separately and retain source option identities. Audit usable opportunities in every partition before consumer repair.
+
+**Found.** 48 writers have eligible dated session splits and 13 do not. The splits contain 14,481 training, 573 calibration and 513 evaluation opportunities. Only 46 writers have usable opportunities in all three partitions: two lack calibration opportunities and one of those also lacks evaluation opportunities. Session chronology admission is therefore not consumer event-support admission. Existing exposure prevents fresh-writer confirmation; the frozen precision forecast does not support parity at the narrow margin.
+
+**Means.** Consumers must exclude missing event support explicitly and freeze per-recipient donor cutoffs. Corpus characters are not native token counts; adapters retain their actual token accounting.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Can earlier maker text and actions be separated from later choices on locally novel prompts? Outcome: **Infrastructure**. Result: chronological session preparation completes with explicit event-support limits. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Consumers must exclude missing event support explicitly and freeze per-recipient donor cutoffs. Corpus characters are not native token counts; adapters retain their actual token accounting. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P01_PUBLIC.json).
+
+---
+
+### S14-D01 - bounded source-stream detector completes with underpowered rare-error claims
+
+**Hypothesis.** Can lexical features distinguish human-typed fragments from accepted model offers on held writers beyond fixed length and shuffled labels?
+
+**METHOD.** Use fixed 256-character chunks, writer-disjoint training/calibration/evaluation, character features and a shuffled-label fit. Select the threshold above every calibration human score, retain exact denominators, and count independent calibration writers.
+
+**Found.** The source-labelled receiver-operating-characteristic area is 0.804504; shuffled-label area is 0.532525. At the frozen threshold, the empirical evaluation human error is 0.000660 and model recall is 0.033149. Ten independent human calibration writers are insufficient for either a one-percent or five-percent population false-positive claim. Accepted-offer selection and typed-fragment concatenation remain confounds.
+
+**Means.** Treat this as a source-stream diagnostic only; require separate provenance, family and domain transfer before a general detector claim.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Can lexical features distinguish human-typed fragments from accepted model offers on held writers beyond fixed length and shuffled labels? Outcome: **Infrastructure**. Result: bounded source-stream detector completes with underpowered rare-error claims. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Treat this as a source-stream diagnostic only; require separate provenance, family and domain transfer before a general detector claim. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/D01_PUBLIC.json).
+
+---
+
+### S14-P03-INITIAL-PILOTS - two text-adapter execution pilots pass with population inference unavailable
+
+**Hypothesis.** Can both cached small backbones complete the four matched text-only training and future-choice scoring arms locally?
+
+**METHOD.** For one writer per backbone, train own, matched donor and matched pooled LoRA adapters on 1,024 earlier native tokens; compare with the base model on complete later offers, calibrating temperature on separate earlier choices. Check full CUDA placement and retained VRAM measurements.
+
+**Found.** Both complete their four arms: SmolLM2 takes 62.64 seconds and Qwen takes 37.80 seconds. These are execution and memory pilots. Each has one writer, so its saved zero-width bootstrap and EXHAUSTED_AT_MARGIN text are invalid as population inference and explicitly superseded here. No scientific promotion follows.
+
+**Means.** Use the corrected multi-writer pilot and explicit event-support guards before main continuations. Preserve the original summaries and costs.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Can both cached small backbones complete the four matched text-only training and future-choice scoring arms locally? Outcome: **Infrastructure**. Result: two text-adapter execution pilots pass with population inference unavailable. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Use the corrected multi-writer pilot and explicit event-support guards before main continuations. Preserve the original summaries and costs. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/P03_INITIAL_PILOTS_PUBLIC.json).
+
+---
+
+### OPS-S14-CONSUMER-REPAIR - empty-choice preparation fault isolated and separately repaired
+
+**Hypothesis.** Can every consumer distinguish a dated session split from usable calibration choices?
+
+**METHOD.** Inspect the four original terminal traces and replay the whole prepared support census. Preserve the one completed writer shard from the incomplete adapter main without a main-cell score. Test corrected empty-support guards and single-writer inference refusal before separate successor cards.
+
+**Found.** The handling head, two natural-reader pilots and first full adapter comparison all fail at the same empty-calibration assumption. No reader call occurs in the two failed natural screens. The adapter comparison retains one completed writer shard and remains incomplete. The corrected versions explicitly exclude missing calibration/evaluation support; native sources and original cards are not rewritten.
+
+**Means.** Run the separately bound successors, retain original failure costs, and validate main-block throughput before claiming week-long capacity.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Can every consumer distinguish a dated session split from usable calibration choices? Outcome: **Infrastructure**. Result: empty-choice preparation fault isolated and separately repaired. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Run the separately bound successors, retain original failure costs, and validate main-block throughput before claiming week-long capacity. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/CONSUMER_RECOVERY_1_PUBLIC.json).
+
+---
+
+### OPS-S14-TIMING - historical slowdown localizes to generation without a proven cause
+
+**Hypothesis.** Was the earlier local-reader slowdown principally repeated loading or generation?
+
+**METHOD.** Verify the original canonical bindings and tabulate load, prefill and generation durations for all 943 retained Stage 11.2 calls offline. Compare first and last 30 calls without changing old outputs.
+
+**Found.** Context is 8,192 throughout. Median generation rises from 3.840 to 73.778 seconds, while median model loading stays near 0.002 seconds. Median generation throughput falls from 70.566 to 4.185 tokens per second. These timings localize the slowdown but cannot identify system-memory fallback causally. The audit was completed after initial reader pilots had started; it is not a retrospective claim of pre-dispatch validation.
+
+**Means.** Use actual current pilot occupancy, fixed context, dedicated service, strict residency/headroom and throughput floors. The owner approved these checks in place of the inaccessible NVIDIA fallback control.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Was the earlier local-reader slowdown principally repeated loading or generation? Outcome: **Infrastructure**. Result: historical slowdown localizes to generation without a proven cause. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Use actual current pilot occupancy, fixed context, dedicated service, strict residency/headroom and throughput floors. The owner approved these checks in place of the inaccessible NVIDIA fallback control. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/SL11_TIMING_PUBLIC.json).
+
+---
+
+### OPS-S14-COORDINATOR - frozen coordinator successors preserve scientific attempts
+
+**Hypothesis.** Can queue faults be recovered without duplicating or rewriting scientific attempts?
+
+**METHOD.** Inspect the Windows preflight failure, preserve original coordinator sources, verify every successor card and imported source, and terminate only each exact native coordinator after writing its handoff. Preserve completed and failed workers and explicitly supersede unrun defective cards.
+
+**Found.** The first coordinator held new work because Windows disk inspection required a string path; its separately named successor dispatched correctly. A second controlled coordinator migration installs consumer repairs and independent CPU/readout branches. Original sources, output hashes and attempts remain intact; the active finite plan contains 96 retained and new identities. Hard wall ceilings are not measured capacity.
+
+**Means.** Keep the sole native coordinator and watcher registered, audit actual progress and admit further runway only from measured complete comparisons.
+
+**Curator roll-up.** Theory group: measurement and operational validity. Question: Can queue faults be recovered without duplicating or rewriting scientific attempts? Outcome: **Infrastructure**. Result: frozen coordinator successors preserve scientific attempts. Project meaning: Preserve the stated admission boundary and retained evidence. Next engineering obligation: Keep the sole native coordinator and watcher registered, audit actual progress and admit further runway only from measured complete comparisons. Public claim: unchanged. Curator decision required: No. Detail: [receipt](results/phase_2_4_stage_14/COORDINATOR_HANDOFF_PUBLIC.json).
+
+---
+
+
+### S14-H01 - the exposed source census supports exact replay and chronological preparation
+
+**Hypothesis.** Existing CoAuthor sources can be replayed into complete choice opportunities with recorded chronology before any new fitting.
+
+**METHOD.** Bind and replay every metadata-owned local source session; validate Unicode ownership and event projection on exact constructed controls. Keep reader views and evaluator records in separate outputs; retain unusable opportunities and their reasons. Do not infer private motives from recorded handling.
+
+The table describes source coverage, not model performance. A source session is an upstream metadata entry; usable opportunities exclude documented replay or correspondence failures.
+
+| Quantity | Count |
+|---|---:|
+| Metadata-owned source sessions | 1,445 |
+| Writers / prompts | 61 / 20 |
+| Attempted / usable opportunities | 16,998 / 16,959 |
+| Excluded opportunities | 39 |
+| Missing session timestamps | 0 |
+| Exact constructed controls | 64 |
+
+**Found.** The source census and all exact controls complete. Chronology is present, but the human population is historically exposed. This reproduces source-consistent records rather than independent corroboration or fresh-writer confirmation. Wall time is 2,052.87 seconds; CPU time is 2,006.33 seconds.
+
+**Means.** Proceed to recipient-specific temporal partitions, training-only donors and the three provenance corpora. Every later study must retain its exclusions, fixed prompts and known-writer-future estimand. No new human confirmation population has been created.
+
+**Curator roll-up.** Theory group: measurement validity. Question: Can the available source support a correctly bounded future-choice study? Outcome: **Infrastructure**. Result: Exact replay and recorded chronology support the next preparation step. Project meaning: Past-only personal comparisons can be built without treating old writers as fresh. Next engineering obligation: Freeze per-recipient cutoffs and audit donor/fitting chronology. Public claim: unchanged. Curator decision required: No. Detail: [census receipt](results/phase_2_4_stage_14/H01_PUBLIC.json).
+
+---
+
+### S14-H04-RULER - withholding observations preserves supplied alternatives
+
+**Hypothesis.** A source-compatibility instrument must retain plausible histories when their distinguishing record is hidden.
+
+**METHOD.** On 64 mechanically replayed controls, compare full observations, hidden handling and wholly hidden observations against two supplied candidate histories. The bank is constructed and includes the source history by design; this is a ruler test, not candidate discovery or human reconstruction.
+
+The table records expected compatibility behavior. Each view is evaluated on the same complete constructed population.
+
+| View | Retained histories |
+|---|---|
+| Complete witnessed fields | The matching supplied history |
+| Handling hidden | Both histories when only handling differs |
+| All observations hidden | Both histories |
+
+**Found.** Every compatibility check passes, including preservation of the true history and the distinction between missing observations and observed absence. The finite block takes 1.51 wall seconds.
+
+**Means.** This exact instrument can support later controlled missingness comparisons. Natural record thinning, candidate completeness and an observation model remain separate unimplemented obligations; a supplied two-history bank does not meet them.
+
+**Curator roll-up.** Theory group: observation and uncertainty. Question: Does missing evidence incorrectly collapse the account? Outcome: **Infrastructure**. Result: The supplied-bank ruler preserves uncertainty when discriminating observations are hidden. Project meaning: A basic missingness control is available. Next engineering obligation: Apply complete-stream thinning and acquisition controls to real records. Public claim: unchanged. Curator decision required: No. Detail: [ruler receipt](results/phase_2_4_stage_14/H04_PUBLIC.json).
+
+---
+
+### S14-R01-FACTORIZED-LLAMA8 - factorized literal extraction passes its bounded ruler
+
+**Hypothesis.** Asking for one witnessed free quantity at a time can remove the failed pilot's simultaneous semantic burden.
+
+**METHOD.** Freeze a separate successor using 64 new replay variants spanning selection, absence, edits, deletion, continuation, unrelated surrounding changes and Unicode spans. Each of seven requests transcribes one explicit source field; deterministic code composes the result. Require exact mass and every span, literal probability validity, full GPU residency and retained per-call timing. No natural hidden target is supplied to this gate.
+
+The table reports the complete extraction block. Calls are component requests, not independent research units.
+
+| Measure | Result |
+|---|---:|
+| Constructed records / component calls | 64 / 448 |
+| Valid / entirely exact records | 64 / 64 |
+| Mean half-Brier | 0 |
+
+**Found.** The factorized successor earns explicit-source extraction admission. Its success is copying witnessed facts; natural competence and hidden historical inference remain unadmitted. The original failed contract and all costs remain intact.
+
+**Means.** Use deterministic role/relation lookup where the source defines it. A natural screen and an independent model family remain required before broader reader claims. This does not establish that decomposed inference is superior on uncertain human cases.
+
+**Curator roll-up.** Theory group: reader measurement. Question: Can a narrower request reliably express witnessed facts? Outcome: **Infrastructure**. Result: Factorized transcription passes the complete constructed extraction block. Project meaning: One bounded local extraction interface is available. Next engineering obligation: Complete natural and independent-family screening. Public claim: unchanged. Curator decision required: No. Detail: [complete successor receipt](results/phase_2_4_stage_14/R01_FACTORIZED_LLAMA8_PUBLIC.json).
+
+---
+
+### S14-R01-PILOT - local extraction contracts remain unadmitted
+
+**Hypothesis.** A compact free-quantity response or ranking complete histories may reduce the semantic burden of reporting witnessed production facts.
+
+**METHOD.** Run the same eight constructed Unicode replay controls through the original expanded response, a compact free-quantity response and four-history ranking with pinned Llama 3.1 8B. Preserve all 24 requests, replies, native token/timing receipts and parse failures. Validate the deterministic expansion against all 64 exact fixtures before dispatch. Invalid responses receive half-Brier loss one; all attempts remain in the denominator.
+
+The table reports complete pilot contracts. Exact requires correct handling, every actor/operation/relation and every span. Loss is mean half-Brier over handling and the categorical fact fields; this is an instrument pilot, not a human result.
+
+| Response contract | Attempts | Valid | Entire record exact | Mean half-Brier |
+|---|---:|---:|---:|---:|
+| Original expanded | 8 | 2 | 2 | 0.750132 |
+| Compact free quantities | 8 | 3 | 0 | 0.750000 |
+| Complete-history ranking | 8 | 8 | 2 | 0.055921 |
+
+**Found.** No pilot contract earns extraction admission. Literal probability errors and incorrect free quantities remain; ranking is syntactically valid but does not consistently select the witnessed history. The dedicated single-request service completes with the exact model and 8,192-token context fully in GPU memory. Total block wall time is 137.38 seconds, including cold initialization and all calls.
+
+**Means.** Preserve this failed instrument and its cost. A separately frozen factorized successor may test one free quantity per call, with full controls and natural screening still owed. Independent record, personal-learning and detector branches continue. The strict-memory exception is an owner-approved operating choice, not scientific admission. No hypothesis on human historical reconstruction is killed by this interface failure.
+
+**Curator roll-up.** Theory group: reader measurement. Question: Can the local reader express witnessed facts reliably under reduced output load? Outcome: **Infrastructure**. Result: None of the compared response contracts earns extraction admission. Project meaning: Historical inference remains gated while independent branches proceed. Next engineering obligation: One diagnosed factorized successor and complete natural screening. Public claim: unchanged. Curator decision required: No. Detail: [complete pilot receipt](results/phase_2_4_stage_14/R01_PILOT_PUBLIC.json).
 
 ---
 

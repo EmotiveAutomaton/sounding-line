@@ -1,5 +1,44 @@
 # TODO: the study queue
 
+## October 10 local campaign - Stage 14 execution namespace
+
+- [x] OPS-S14-SETUP-HEALTH: exact live ownership, current progress/resources, source/output bindings and six-hour/fixed-Friday supervision verified; no recovery required.
+
+- [x] S14-P04-SEMANTIC: complete semantic choice block and pilot internally written through; population contrast remains unresolved.
+
+- [x] S14-H01-EXPOSURE: event-level audit preserves unknown exposure; full internal write-through complete.
+- [x] S14-R01-DERIVED: deterministic full-field adapter passes exact controls; full internal write-through complete.
+- [x] S14-R04-LLAMA3: smaller natural handling screen also refuses; full internal write-through complete.
+- [x] S14-R02-SCREENS: native readouts execute but refuse coherence admission; full internal write-through complete.
+- [x] S14-H05-CENSUS: gold exposure and paper-versus-release discrepancy stay explicit; full internal write-through complete.
+- [x] S14-P04-EMBEDDINGS: frozen semantic features are available with their actual cap; full internal write-through complete.
+- [x] OPS-S14-WEEK-SETUP: week plan and validity checks are installed; full internal write-through complete.
+
+- [x] S14-P04: personal choice advantage over population rivals remains unresolved; full internal write-through complete.
+- [x] S14-H03-INTAKE: bounded public revision intake retains rights and parent records; full internal write-through complete.
+- [x] S14-P03-PILOTS-V2: corrected four-arm adapter pilots and saved-score consumers complete; full internal write-through complete.
+- [x] S14-R04-LLAMA8: natural handling screen refuses its descendants; full internal write-through complete.
+- [x] OPS-S14-FOREST: conditional continuation forest installed without restarting workers; full internal write-through complete.
+
+- [x] S14-R01-FACTORIZED-LLAMA3: smaller local package refuses extraction admission; complete internal write-through retained.
+- [x] S14-P01: chronological session preparation completes with explicit event-support limits; complete internal write-through retained.
+- [x] S14-D01: bounded source-stream detector completes with underpowered rare-error claims; complete internal write-through retained.
+- [x] S14-P03-INITIAL-PILOTS: two text-adapter execution pilots pass with population inference unavailable; complete internal write-through retained.
+- [x] OPS-S14-CONSUMER-REPAIR: empty-choice preparation fault isolated and separately repaired; complete internal write-through retained.
+- [x] OPS-S14-TIMING: historical slowdown localizes to generation without a proven cause; complete internal write-through retained.
+- [x] OPS-S14-COORDINATOR: frozen coordinator successors preserve scientific attempts; complete internal write-through retained.
+
+- [x] S14-R01-PILOT: Three-contract instrument pilot completed; no extraction admission. Full internal write-through retained.
+- [x] S14-R01-FACTORIZED-LLAMA8: Complete constructed extraction successor admitted and internally landed.
+- [ ] S14-R01-TRANSFER: Complete the separate natural and independent-family screens; no inferred human/graph admission.
+- [x] S14-H04-RULER: Supplied-bank missingness instrument landed; real-record thinning remains in H04.
+- [x] S14-H01: Source census, replay, chronological personal preparation and positive exposure audit fully written through.
+- [x] S14-SETUP: Initial executable plan, implemented validity safeguards, fixed Friday checkpoints and six-hour monitoring installed; handoff distinguishes outstanding scope and capacity.
+- [ ] S14-CAPACITY: At the next full-family or six-hour review, replace pilot estimates with whole-main costs and implement useful independent reserves; CPU day-long and whole-week fast-depletion targets remain short.
+- [ ] S14-SOURCE-POLICY: Await the pending Wikipedia/blog decision; existing-source work continues. Freeze reader release cutoffs and rights before any blind source reconstruction.
+- [ ] S14-ERRATA-RESERVES: Implement the separately filed Wikipedia, blog, reverse-edit and missing-middle designs only through their stated gates. None is counted as current runway.
+- [ ] S14-FINAL: Friday October 16, 10:00 PDT reporting reserve, 16:00 review and 18:00 packet; preserve unfinished cells, all failures, resource costs and remaining frontier.
+
 ## October 2 closed-stage health
 
 - [x] OPS-S13-HEALTH-1002-1154: Closed-stage evidence, prior write-through, native absence, released locks, retired watch and healthy delivery verified; no recovery. Full write-through precedes health ACK and independent rearm.

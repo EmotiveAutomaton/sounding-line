@@ -1,5 +1,38 @@
 # STATE: the agent's operational file
 
+## October 10: new local week in execution and setup
+
+The curator commissioned the October program and errata, immediate local Gear 2,
+expansive valid follow-ups and permanent six-hour operational inspections. Execution
+uses the new Stage 14 namespace. Closed September Stage 12/13 records remain intact.
+The source census, chronology, exposure audit, cheap choice models and initial
+reader screens are complete and internally landed. The first full text-adapter
+comparison is running. The active immutable plan is `local-week-v5`, with 266
+retained and prospective identities, plus a separately completed ARIES census
+diagnostic. Counts include failed/blocked predecessors and saved-score consumers,
+not independent studies. One native coordinator owns dispatch; migrations preserved
+scientific workers. Private identities and expected outputs are in the live receipts.
+
+Strict free-memory and full-residency checks replace the inaccessible NVIDIA
+per-program fallback setting at the curator's explicit choice. A dedicated
+single-request local service avoids the shared service's parallel allocation.
+No cloud, paid call, new agent or Ghost work is authorized. The fixed reporting
+checkpoint is Friday October 16 at 18:00 PDT, with new long blocks held from
+10:00 PDT for reporting. Measured runnable capacity is still being validated;
+wall ceilings and pending cards do not count as measured occupancy. Current pilots
+and native-token counts estimate 30.6 hours of small-model main work and 64.5
+conditional hours. `CAPACITY_SHORTFALL` remains for CPU day-long occupancy and
+two-to-three-times remaining-week coverage. Resolve this at full-family or six-hour
+reviews using useful admitted branches, not repeated unchanged experiments.
+
+The first independent health deadline is October 10 at 16:34:29 PDT. A separate
+fixed helper covers Friday 10:00 reporting reserve, 16:00 final review and 18:00
+packet deadline. Scientific completions and failures are registered with the sole
+watcher; actual idle delivery is distinct from queue acceptance. All 26 Stage 14
+checks pass. Wikipedia/blog policy is pending; no dependent intake is dispatched.
+Missing-middle and reverse-edit reserves are design cards, not credited capacity.
+[Authority, source program and errata](design/stage-14/README.md).
+
 ## October 2, 11:54 PDT: closed-stage health rechecked
 
 Scientific queues and stage checkpoints remain closed. Retained manifest/terminal hashes, unrun dispositions, current bindings, published packet/local bundle and prior local write-through are unchanged. Native science/helper/wrapper absence, released queue/checkpoint/GPU locks and exact helper watch retirement verify. Sole watcher sources, fresh scan, first-attempt delivery, resource limits and all 21 research locks pass. No recovery or restart; full write-through precedes health ACK and independent rearm. Stage 12 remains closed. [Inspection](../results/phase_2_4_stage_13/HEALTH_20261002_1154_PUBLIC.json), [ACK](../results/phase_2_4_stage_13/HEALTH_20261002_1154_ACK_PUBLIC.json).

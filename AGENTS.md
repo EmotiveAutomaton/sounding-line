@@ -13,14 +13,14 @@ models, interpreting unfinished cells, or changing the current gear. Never conta
 locked research files, adapters, and process ownership are separate from that choice.
 Read `docs/CODEX_OPERATIONS.md` for hooks, watcher health, session ownership, and rollback.
 
-**Four-hour queue health, curator instruction 2026-09-19:** the durable watcher
-must request an operational health inspection every four hours, including when
+**Six-hour queue health, curator instruction 2026-10-10:** the durable watcher
+must request an operational health inspection every six hours, including when
 there is no new result. This supersedes the September 12 ban on routine health
 wakes only at this cadence; immediate terminal/failure alerts remain. Inspect
 native identities, actual progress/output freshness, failures, locks, resource
 limits, runnable authorized work and watcher delivery. Document the inspection
 and perform authorized recovery before acknowledging its health event; ACK
-rearms the next four-hour check. Ordinary activity and unrelated result ACKs do
+rearms the next six-hour check. Ordinary activity and unrelated result ACKs do
 not reset this clock. Preserve the current gear, study bounds and final-packet
 policy. An intentional pause does not authorize restarting parked GPU work.
 Healthy background work still permits ending the turn; no agent polling loops.

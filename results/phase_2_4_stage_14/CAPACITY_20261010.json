@@ -1,0 +1,190 @@
+{
+  "at": "2026-10-10T18:47:33.467028+00:00",
+  "conditional_dose_24_gpu_hours": 18.3779718819198,
+  "cpu_lane": "finite source, head, embedding and saved-score work; no 24-hour CPU occupancy demonstrated",
+  "estimation": "native tokenizer actual corpus census, recipient cutoffs and whole eligible choice roster; cost regression from three-writer complete pilots; not a confidence bound",
+  "fast_2x_main_hours": 10.200573576714305,
+  "fast_3x_main_hours": 6.800382384476204,
+  "groups": {
+    "qwen500:accepted_model": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 1649.1650698415408,
+          "matched_tokens_total": 132096,
+          "training_steps": 3096
+        },
+        "32768": {
+          "estimated_seconds": 1663.3423363414415,
+          "matched_tokens_total": 134656,
+          "training_steps": 3156
+        },
+        "4096": {
+          "estimated_seconds": 1348.6070200436454,
+          "matched_tokens_total": 77824,
+          "training_steps": 1824
+        }
+      },
+      "native_tokens_quantiles": [
+        264,
+        1749.0,
+        25736
+      ],
+      "score_seconds_per_input_token": 0.00028190296564232635,
+      "sparse_writers": 34,
+      "step_seconds_median": 0.2362877749983454,
+      "writers": 38
+    },
+    "qwen500:human_typed": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 2860.6408280318474,
+          "matched_tokens_total": 338176,
+          "training_steps": 7926
+        },
+        "32768": {
+          "estimated_seconds": 3237.7561169292067,
+          "matched_tokens_total": 406272,
+          "training_steps": 9522
+        },
+        "4096": {
+          "estimated_seconds": 1750.5608610896206,
+          "matched_tokens_total": 137728,
+          "training_steps": 3228
+        }
+      },
+      "native_tokens_quantiles": [
+        392,
+        5443,
+        42710
+      ],
+      "score_seconds_per_input_token": 0.00028190296564232635,
+      "sparse_writers": 26,
+      "step_seconds_median": 0.2362877749983454,
+      "writers": 43
+    },
+    "qwen500:mixed_final": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 3057.8471034064764,
+          "matched_tokens_total": 366080,
+          "training_steps": 8580
+        },
+        "32768": {
+          "estimated_seconds": 3850.356300750927,
+          "matched_tokens_total": 509184,
+          "training_steps": 11934
+        },
+        "4096": {
+          "estimated_seconds": 1813.0831047151928,
+          "matched_tokens_total": 141312,
+          "training_steps": 3312
+        }
+      },
+      "native_tokens_quantiles": [
+        323,
+        6767,
+        54570
+      ],
+      "score_seconds_per_input_token": 0.00028190296564232635,
+      "sparse_writers": 27,
+      "step_seconds_median": 0.2362877749983454,
+      "writers": 45
+    },
+    "smol360:accepted_model": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 2387.0749317807317,
+          "matched_tokens_total": 147200,
+          "training_steps": 3450
+        },
+        "32768": {
+          "estimated_seconds": 2425.8999687811997,
+          "matched_tokens_total": 152064,
+          "training_steps": 3564
+        },
+        "4096": {
+          "estimated_seconds": 1868.0454897744753,
+          "matched_tokens_total": 82176,
+          "training_steps": 1926
+        }
+      },
+      "native_tokens_quantiles": [
+        286,
+        1929.5,
+        29734
+      ],
+      "score_seconds_per_input_token": 0.00038824835810787,
+      "sparse_writers": 33,
+      "step_seconds_median": 0.34057050000410527,
+      "writers": 38
+    },
+    "smol360:human_typed": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 4045.5913238617286,
+          "matched_tokens_total": 343808,
+          "training_steps": 8058
+        },
+        "32768": {
+          "estimated_seconds": 4644.314262868946,
+          "matched_tokens_total": 418816,
+          "training_steps": 9816
+        },
+        "4096": {
+          "estimated_seconds": 2414.9397698420726,
+          "matched_tokens_total": 139520,
+          "training_steps": 3270
+        }
+      },
+      "native_tokens_quantiles": [
+        387,
+        5702,
+        43918
+      ],
+      "score_seconds_per_input_token": 0.00038824835810787,
+      "sparse_writers": 26,
+      "step_seconds_median": 0.34057050000410527,
+      "writers": 43
+    },
+    "smol360:mixed_final": {
+      "forecasts": {
+        "16384": {
+          "estimated_seconds": 4360.713181163423,
+          "matched_tokens_total": 376320,
+          "training_steps": 8820
+        },
+        "32768": {
+          "estimated_seconds": 5566.332751177955,
+          "matched_tokens_total": 527360,
+          "training_steps": 12360
+        },
+        "4096": {
+          "estimated_seconds": 2497.111405140958,
+          "matched_tokens_total": 142848,
+          "training_steps": 3348
+        }
+      },
+      "native_tokens_quantiles": [
+        330,
+        6986,
+        56202
+      ],
+      "score_seconds_per_input_token": 0.00038824835810787,
+      "sparse_writers": 26,
+      "step_seconds_median": 0.34057050000410527,
+      "writers": 45
+    }
+  },
+  "larger_backbones": "not counted until their own measured pilot",
+  "main_24_gpu_hours": 20.40114715342861,
+  "risks": [
+    "pilot scoring cost extrapolated by input tokens; attention length and reload variance",
+    "rank16 overhead unmeasured, rank4 rate used",
+    "conditional forest unavailable if calibration selectors refuse",
+    "Actual text can fall below multiple token ceilings; repeated realized doses are not a new data-dose contrast. The current dispatcher does not automatically eliminate those per-writer duplicates."
+  ],
+  "metadata_correction": {
+    "previous_incorrect_statement": "duplicate doses when real text below cap are flagged before dispatch; equal actual training tokens are not a new dose",
+    "correction": "No automated duplicate-dose admission guard exists. Inspect realized doses when interpreting or extending the selected-token branches; no numeric forecast changed."
+  }
+}

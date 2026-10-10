@@ -18,6 +18,13 @@ with the reason.
 
 ---
 
+## October local research week - 2026-10-10
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S14-COMMISSION | Audio: implement supplied program and errata, start immediately in local Gear 2, prepare the week, prefer more valid tests, check every six hours (analyst paraphrase) | New execution namespace, byte-preserved filing, independent finite cards and six-hour monitoring | Stage 14 design shelf and runners | built |
+| S14-MEMORY | "Use strict memory and residency checks instead" | Explicit exception to the unavailable NVIDIA per-program fallback setting; dedicated single-request local service, memory/residency/throughput gates | Stage 14 local transport and tests | built |
+
 ## Stage 13 validity and Thursday continuation - 2026-09-29
 
 | # | Contribution and source | What it produced | Where | Status |

@@ -1,5 +1,9 @@
 # Documentation - current authority, methods and history
 
+**Current commission:** the [October local week](design/stage-14/README.md) is
+authorized and initial blocks are running in the new Stage 14 execution namespace.
+The September closure statements below remain historical.
+
 **Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** The admitted original and healing Stage 13 queues are drained, with the [final packet assembled](../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and all retained completions verified. Reader admission and unavailable comparisons remain explicit deficits; the [October 1 endpoint](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) is reconciled and the exited helper watch retired; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
 
 **The claims live in [`theory/`](theory/), organised by what we believe; the methods live in
@@ -14,7 +18,7 @@ context.
 | [`method/`](method/) | **LESSONS (read before designing or building anything)**, CONTROLS, LITERATURE, DEVIATIONS, NEURAL_ANALOGUES; its README maps each file to its reach-for moment | designing a test, building a runner, doubting a control, claiming novelty |
 | [`gates/`](gates/) | gate 0–3 material, curation batches, calibration | archaeology on an old gate |
 | [`sim/`](sim/) | traffic with the Ghost Scale Simulation, both directions, newest first | anything about mechanism |
-| [`design/`](design/) | current Stage 13 plan, retained Stage 12 contracts, reusable blueprints and indexed stage history | deciding what to build |
+| [`design/`](design/) | current October program and errata in Stage 14, closed September contracts, reusable blueprints and indexed history | deciding what to build |
 | [`archive/`](archive/) | superseded, nothing deleted | rarely |
 | [`GEAR3_MODAL_WORKSPACE_GUIDE.md`](GEAR3_MODAL_WORKSPACE_GUIDE.md) | Modal workspace selection, usage limits, payment readiness and existing resources | before the bounded cloud pilot |
 | `STATE.md` | agent orientation: hard constraints, the research program, the queue's state | first thing after a compaction, with FINDINGS and the theory folder |

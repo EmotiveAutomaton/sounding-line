@@ -1,5 +1,18 @@
 # Codex operations
 
+## Six-hour operational inspections, October 10 commission
+
+The owner resumed monitoring for the new local week and changed the permanent
+health interval from four to six hours (21,600 seconds). The persisted health
+schedule and private watcher configuration both carry that interval. Full health
+inspection and documented recovery precede its ACK; unrelated activity and result
+ACKs do not reset the clock. Immediate failure and terminal alerts remain.
+An intentional resource hold does not authorize a gear restart.
+
+The service uses the verified installed Codex executable. Queue acceptance and
+actual idle-owner delivery remain separate evidence. Earlier four-hour entries
+below are historical records, not the current cadence.
+
 ## Controlled coordinator handoff alert, 2026-09-28
 
 A deliberate coordinator-only migration left an 11.282-second gap between the

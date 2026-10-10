@@ -194,6 +194,18 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **A dated session split is not a nonempty choice partition.** Count actual usable
+  training, calibration and evaluation events for each recipient before any fit,
+  including donor/global support. Preserve exclusions in the consumer rather than
+  letting a mean or argmax discover an empty calibration list after expensive work.
+  (S14-P01, OPS-S14-CONSUMER-REPAIR)
+- **An execution pilot with one independent unit has no population interval.**
+  A bootstrap that repeatedly samples its sole writer can falsely emit a zero-width
+  interval and parity verdict. Refuse population inference structurally; retain
+  execution cost and memory observations separately. Three-writer pilot resampling
+  remains descriptive and cannot establish population parity. (S14-P03-INITIAL-PILOTS,
+  S14-P03-PILOTS-V2)
+
 - **Balanced frame labels do not establish independence from the target.**
   The paired-history diagnostic claimed independent frame assignment but always
   named the opposite of the actual route. Its balanced marginal hid a perfectly

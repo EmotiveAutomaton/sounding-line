@@ -1,0 +1,65 @@
+{
+  "active_jobs": [
+    "P03-smol360-human_typed-r4-s141010-v2"
+  ],
+  "active_output_fresh": true,
+  "all_terminals_registered": true,
+  "at": "2026-10-10T19:09:02.586893+00:00",
+  "available_RAM_GiB": 49.56,
+  "available_disk_GiB": 747.68,
+  "capacity": "CAPACITY_SHORTFALL: measured admitted work about 30.6 hours; full-week fast-depletion and CPU day coverage not demonstrated",
+  "checkpoint_pending": {
+    "deadline": "2026-10-17T01:00:00+00:00",
+    "final_review": "2026-10-16T23:00:00+00:00",
+    "reporting": "2026-10-16T17:00:00+00:00"
+  },
+  "completed_output_bindings_verified": 30,
+  "delivery": "Current owner terminal delivery and ACK verified; first six-hour idle health event is not yet due. Historical September uncertain send retained.",
+  "exact_coordinator_and_worker_and_checkpoint_alive": true,
+  "gpu": {
+    "at": "2026-10-10T19:09:02.415987+00:00",
+    "free_MiB": 5832.0,
+    "name": "NVIDIA GeForce RTX 4070 SUPER",
+    "power_W": 37.86,
+    "reserved_MiB": 285.0,
+    "temperature_C": 50.0,
+    "total_MiB": 12282.0,
+    "used_MiB": 6166.0,
+    "utilization_percent": 41.0
+  },
+  "gpu_lock_matches_live_worker": true,
+  "health_due_utc": "2026-10-10T23:34:29.090280+00:00",
+  "health_interval_seconds": 21600,
+  "new_failure_or_recovery_required": false,
+  "no_scientific_restart": true,
+  "plan": "local-week-v5",
+  "plan_sha256": "dbf68f4cdd7419c98985cc7ed801b466794ead8f197d66a8f727292e06c579b1",
+  "queue_identities": 266,
+  "research_locks": "ALL 21 LOCKS OK",
+  "retained_failure_jobs": [
+    "H05-gold-census-v1",
+    "P04-personal-head-v1",
+    "R04-natural-llama8-pilot-v1",
+    "R04-natural-llama3-pilot-v1",
+    "P03-smol360-human_typed-r4-s141010-v1"
+  ],
+  "sole_registered_coordinator": true,
+  "states": {
+    "blocked": 39,
+    "complete": 30,
+    "failed": 5,
+    "pending": 191,
+    "running": 1
+  },
+  "targeted_tests": 26,
+  "unacknowledged_events": 0,
+  "unique_source_input_bindings_verified": 73,
+  "watcher_loaded_sources_match": true,
+  "watcher_scan_fresh": true,
+  "dependency_eligible_pending_count": 38,
+  "dependency_eligible_pending_resources": {
+    "gpu": 38
+  },
+  "launchable_now_pending_count": 0,
+  "launch_reason": "GPU lane already occupied; Qwen 9B additionally requires cold memory admission. CPU consumers depend on unfinished producers."
+}
