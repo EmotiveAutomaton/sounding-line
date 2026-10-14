@@ -9,8 +9,8 @@ contract that can disagree.
 **Status: draft for the curator's sign-off. Nothing here binds until frozen; once frozen, no
 result may change the task definition, splits, or success metric after scores are visible, and
 the frozen version joins the hash-lock discipline.** Governing briefs:
-[`archive/PHASE_2_0_CONTEXT.md`](archive/PHASE_2_0_CONTEXT.md) §§7, 8, 13 for the product layer;
-[`archive/PHASE_2_2_CONTEXT.md`](archive/PHASE_2_2_CONTEXT.md) for the core representation. Theory groups
+[`archive/PHASE_2_0_CONTEXT.md`](../archive/PHASE_2_0_CONTEXT.md) §§7, 8, 13 for the product layer;
+[`archive/PHASE_2_2_CONTEXT.md`](../archive/PHASE_2_2_CONTEXT.md) for the core representation. Theory groups
 served: Decision Traces and Reader Heuristics (the instrument's task), Infrastructure (the
 gate machinery).
 

@@ -70,6 +70,120 @@ exclusivity, is the load-bearing claim.**
 > **The lack of Panksepp is where a lot of misalignment comes from, specifically. We have to give
 > emotions in order to converge upon a more appropriate goal extraction.**
 
+> Our heuristics are elevated heart rate, moving fast, and, like, fear as a concept. Our set point is a
+> want to be safe, or something. In fact, we may even have to [...] climb above each of the Panksepp
+> emotions and give them all a goal, sort of, and have to extract somehow from that. Honestly, that
+> may be the biggest problem, is that figuring out the goals of the various emotions is going to be
+> very, very difficult, because you're so, so, so far from it [...]. That's why we need to solve the
+> emotional layer specifically, because the set points will be just unreachable otherwise.
+
+*Curator's ToMpathy assessment walkthrough, 2026-10-13 (16:29 PDT), in the project's assessment thread; filed 2026-10-14. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+**The secondary goals are Panksepp's** *(2026-10-14)*:
+
+> So I think there's a problem here, and it kind of stretches through this whole thing, because top
+> goal is kind of meaningless, right? By which I mean top goal is just, like, survival and maybe
+> reproduction. Whereas your secondary goals are quite obviously Panksepp. Parenting is CARE, mate is
+> LUST. I think social dominance orientation comes through PLAY sometimes. Okay, that's a bit iffy.
+> I have heard that there's a social layer that people have suggested as an alternative Panksepp
+> channel. [...] But affiliation is GRIEF, PANIC, self-protection is FEAR and RAGE, and physiological
+> is SEEKING. Genuinely surprised that no one else has pointed that out. And that means that these
+> things aren't any kind of terminal values. They are the lenses and the second order goals through
+> which these things are accomplished.
+
+> Honestly, I do wonder if there are goals that, maybe if we do a weighted gradient of the possible
+> reasons that someone might do something, maybe other goals will fall out other than survival and
+> reproduction. That doesn't even make sense. Those would just be subgoals anyway. This interaction
+> that I'm poking at here doesn't have an easy solution. It's probably going to need a bout of
+> research to deal with it.
+
+> I think you really struggle to deal with these emotion concepts. Fear, anger and guilt. No, we'll
+> just be sticking with Panksepp, please.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Read with the 2026-08-21 construct boundary in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)
+§4, the drive constraints row now names the drives themselves, inherited heuristics such as fear
+that are also set points. The curator's mapping pairs the levels of the evolutionary rebuild of Maslow's
+pyramid ([Kenrick et al., 2010](https://doi.org/10.1177/1745691610369469), snippet) with Panksepp's
+systems. Physiological needs go with SEEKING, self-protection with FEAR and RAGE, affiliation with
+PANIC/GRIEF, status with PLAY, mate acquisition and retention with LUST, and parenting with CARE.
+On this reading the systems are lenses rather than terminal values. Evolutionary psychology
+describes each emotion as a program that redirects perception, attention, inference, learning, goal
+choice and motivational priorities toward one adaptive problem
+([Tooby & Cosmides, 2008](https://cep.ucsb.edu/wp-content/uploads/2023/05/emotionIRVLewisCh8.pdf),
+read at p. 117), and it treats survival and reproduction as the criteria that built such programs
+rather than as goals an organism pursues (Tooby & Cosmides, 1992, snippet). The represented
+hierarchy would then top out in several systems rather than in one fitness goal, and learned goals
+that become ends in themselves (G185 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4) can
+sit beside them, which is one way other goals could fall out.
+
+Three pairings are loose. SEEKING energizes the pursuit of every resource rather than physiological
+needs alone (Wright & Panksepp, 2012, snippet). Status through PLAY is the curator's own flag, and a
+separate DOMINANCE system has been proposed and examined against the standard affective personality
+scales (van der Westhuizen & Solms, 2015, title read). Disease avoidance, one of the measured
+fundamental motives ([Neel et al., 2016](https://doi.org/10.1037/pspp0000068), snippet), maps to
+disgust, which Panksepp classed among sensory affects rather than emotional systems
+([Panksepp, 2007](https://sanlab.psych.ucla.edu/wp-content/uploads/sites/31/2016/03/Panksepp_2007_Perspectives.pdf),
+read), a classification since contested (Toronchuk & Ellis, 2007, title read). No published
+level-by-level alignment of the two lists was found. Panksepp's vocabulary stays the working
+vocabulary for this layer, consistent with G35 in §4, and appraisal or language-level emotion lists
+serve only as comparators.
+
+**Drives as heuristic set points, and SEEKING** *(2026-10-14)*:
+
+> If survival and reproduction are what evolution actually selected for, not goals anyone actually
+> holds in mind, then the hypothetical top of the hierarchy would be those things, but right beneath
+> them would be Panksepp. Emotions are just pre-made solutions to common problems.
+
+> The Panksepp systems are heuristics, but those heuristics seem to be themselves set points. There
+> are needs. Clearly, you could have not enough. If you spend a long time not doing LUST things, the
+> LUST need grows until it eventually hits some threshold. Same with anger. Hunger, fear, whatever.
+> PANIC is a thing. I think that they are heuristic set points that you use as guidelines for,
+> again, survival and reproduction outcomes. So I wonder if there's a third goal there. I feel like I
+> might be unjustly focusing on survival and reproduction. It's not my field to talk that highly in
+> motivation, but are there other possibilities?
+
+> No, SEEKING can't break the model, unless it is somehow different, unless it is somehow a
+> different channel in some unique way than the others. Which, to be fair, it does always feel like
+> the odd man out, and [it and] PLAY are both a little bit weird in comparison. It implies that
+> there's a SEEKING need, like you can't have been seeking enough and need to seek more. Perhaps
+> that's what being bored feels like? Maybe being bored is your SEEKING channel needing to do some
+> seeking. In which case it's just another need, which is fine. And it has the same properties as
+> any other, and eventually it would interact with the explore/exploit loop, for sure, but it's
+> again a transition map. Unless there's some neurological reason that it's unique, it has to follow
+> the same rules. We're not dealing with abstracts here; we're doing one-to-one.
+
+> The lenses idea, I'm not surprised it shows up everywhere, but practically speaking, what I'm
+> talking about is the way your perception alters through the transition map. What they are is the
+> first layer of the transition map. [...] Notably, you'll see that disgust, because it is not one
+> of those solutions, is allowed to occupy a different space in this model. And of course, the
+> mapping runs many to many. We're goddamn humans. Anything that we want to associate, we can
+> associate.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The drives are therefore set points as well as heuristics, each with a need that grows with
+deprivation, and together they form the first layer of the transition map, the layer that changes
+what the maker perceives as possible. Solms, Panksepp's collaborator, describes the same structure,
+with affect registering deviation from homeostatic settling points, the type of feeling identifying
+the need at issue, and fear, rage, attachment and play among the emotional types
+([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
+read). By the curator's own rule SEEKING keeps the same rules unless the brain builds it
+differently, and in one respect it does. Panksepp's account makes it general-purpose, a system that
+unconditionally promotes exploration and foraging for resources and that other circuits inhibit
+([Alcaro & Panksepp, 2011](https://jimhopper.com/pdf/alcaropanksepp2011_seeking.pdf), read), so it
+is both a need and the pursuit phase the other drives share. The boredom reading has support, since
+boredom rises when an environment offers little useful information and higher boredom goes with
+more exploration ([Geana et al., 2016](https://escholarship.org/uc/item/4rg9267w), abstract read).
+PLAY is the other odd one, shut down by danger, as cat odor suppresses play in juvenile rats
+([Siviy, 2008](https://cupola.gettysburg.edu/psyfac/31), abstract read). Disgust stays outside the
+drives, a sensory affect they can recruit. On a third top goal, evolutionary theory offers
+inclusive fitness, which counts the reproduction of kin and folds into reproduction (Hamilton,
+1964, snippet), and cultural evolution offers a second replicator whose success can part ways with
+genetic fitness, as in the fertility decline of the demographic transition (Colleran, 2016,
+snippet).
+
 **Goal is not a fourth level.** He declined one. *"That's just not reasonable. It wouldn't be
 separable. Three, frankly, barely won't be."* And it is not an alias for attention either *(the
 2026-08-30 pass folded out the file's earlier identity prose, "goal = the attention-promoted
@@ -224,6 +338,8 @@ focal control, not a frozen mechanism.
 | **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing |
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
+| **G187** | The goals directly beneath survival and reproduction are the drives, Panksepp's systems with the bodily needs, which are heuristic set points whose needs grow with deprivation and which form the first layer of the transition map | **OPEN, logic only.** No published level-by-level pairing with the evolutionary motive pyramid was found; Solms's account treats emotional affects as felt needs (lit, READ); the SEEKING, status and disease-avoidance pairings fit loosely (lit, READ and SNIPPET) |
+| **G190** | SEEKING is a need like the other drives, felt as boredom when unmet | **OPEN.** Boredom tracks low information and goes with more exploration (lit, READ); SEEKING is also the general-purpose pursuit system the other drives share (lit, READ), a structural difference the model may have to carry |
 | **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event reader and the controller comparison inherit hidden future and generator-law dependencies; no architecture recovery, controller comparison, or switching conclusion is licensed; the reader-free construction fact stands: the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06, CLEAN) |
 |   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
 | **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
@@ -236,7 +352,10 @@ through which different functional levels constrain action. Its formation from p
 attention and choice, transformed by consolidation and interference, remains a hypothesis.
 The governing purpose, subordinate control targets, attention, and expertise are coupled
 but not identical. The late-weighting and positive-affect proposals remain untested in
-their stated forms; the two positive-affect candidates are not an exhaustive account.
+their stated forms; the two positive-affect candidates are not an exhaustive account. The proposal
+that the goals beneath survival and reproduction are the drives, Panksepp's systems working as
+heuristic set points and the first layer of the transition map, is a mapping without a measurement
+(G187), and SEEKING as a need felt as boredom is a prediction with partial support (G190).
 
 The Stage 6 control and history reader claims are void because their realizer used hidden
 world information. The independently reader-free construction comparisons remain scoped
@@ -251,7 +370,8 @@ expectations. Stage 8 passed prediction and failed generation, so the proposed c
 expertise prerequisite has not been installed and demonstrated by admission. Recognition
 without an anomaly is a candidate entry route, and the relation between domain expertise
 and knowledge of an individual remains open. Confidence: untested, logic only for the
-scaffold, formation account, and universal prerequisite; one bad test away for the scoped
+scaffold, formation account, universal prerequisite, drive mapping and SEEKING prediction; one bad
+test away for the scoped
 Stage 7 and Stage 8 measurements; instrument-dead for the Stage 6 reader interpretations.
 
 On mirror systems *(the 2026-08-22 pass)*:

@@ -687,6 +687,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A reboot recovery checks installed runtime identity as well as saved card hashes.** The completed evidence survived the outage, but the restarted model service reported a newer runtime. Preserving a model digest alone did not preserve the service version. Hold affected unstarted readers before dispatch, prove the refusal in the actual loop, and continue independent pinned training. Retain interrupted work as unknown unless a validated resume path exists; a readable partial adapter is not a completed comparison. (OPS-S14-POWER-RECOVERY-1012)
+
+- **An immutable operational terminal must survive the actual next scan.** A missing worker produced UNKNOWN once, then a new timestamp made the next freeze fail and killed supervision. Preserve the first receipt, bind it to the exact attempt and inspected exit, and rehearse repeated scans, dependent blocking and independent dispatch. Unknown is not completion, failure or retry authority. Available physical RAM is also not Windows commit headroom; allocation failures require checking both before further work. The scientific exit cause remains unknown without a terminal exception. (OPS-S14-UNKNOWN-RECOVERY)
+
+- **Retain identity-bound exit evidence for ended failed attempts.** A historical failed worker PID was reused by a protected browser process, so repeated native inspection correctly became unknown and stopped the coordinator. Bind independently inspected exit evidence to the original card, dispatch and failure hashes; preserve failed disposition and refuse altered or unproved identities. Rehearse actual dispatch and live adoption, not only the proof parser. The successor preserves scientific cards, active work and unknown-process refusal. (OPS-S14-QUEUE-NATIVE-RECOVERY)
+
 - **Test a gate through its actual handler, not only its decision function.**
   The local program's admission helper passed fixtures while a same-named local
   variable made both actual transport paths crash before emitting the verdict.
@@ -1145,3 +1151,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
   on unexpected preflight failures. Preserve failures and recover with explicit
   new attempt/dependency identities; a parent-process unit test alone is inadequate.
   (2026-09-27, OPS-S13-GEAR2-0927)
+
+- **Test immutable-record reentry across the JSON boundary, not only first writes.**
+  Numeric histogram keys become strings in JSON. The completed Modal consumer's
+  arithmetic passed, but its second entry correctly refused the in-memory versus
+  serialized summary mismatch. Preserve the first outputs and source, normalize
+  histogram keys in a versioned successor, and verify identical predictions and
+  statistics plus byte-stable reentry. Never loosen the shared immutable-record
+  guard to accommodate a representation defect. (2026-10-14, G3-S14-MAKER-MAIN)

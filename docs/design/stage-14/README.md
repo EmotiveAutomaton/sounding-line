@@ -1,4 +1,21 @@
-# October 10 local research campaign
+# Stage 14: October local and cloud research campaign
+
+**Navigation:** [current status](../../../CURRENT_STATUS.md) · [operating handoff](IMPLEMENTATION_HANDOFF.md) · [all stages](../README.md) · [cloud campaigns](../gear-3/README.md).
+
+**October 14 status:** admitted local adapter runs and the approved Modal main are complete. Remaining reader, profile and prototype comparisons are held at their admission gates. Repairs are authorized but have not launched; the curator requested publication first. The final scientific packet remains pending.
+
+**October 13 expansion:** the curator approved the corrected midweek errata and
+Gear 3 Round 2, pilot first under a $50 gross ceiling, while retaining local
+Gear 2. Read [the implementation and validity corrections](MIDWEEK_IMPLEMENTATION.md),
+the [supplied midweek errata](SOUNDING_LINE_STAGE14_MIDWEEK_ERRATA_2026-10-13.md),
+and the [supplied cloud brief](GEAR3_ROUND2_MAKER_HISTORY_SPEC_2026-10-13.md).
+The October 10 local-only statement below records the original commission.
+
+**October 14 SM4 admission:** the adapter lane freed and the separately frozen
+[synthetic handling-readout check](SM4_ADMISSION.md) completed but failed its
+capability floors. Human prototype training remains unadmitted; the result
+is an instrument limit, not a scientific prototype-learning null. Current
+operational holds are recorded in STATE.
 
 This is the new execution namespace for the supplied next-Stage-13 program.
 Closed September Stage 12/13 results retain their identities and dispositions.
@@ -19,6 +36,10 @@ NVIDIA per-program fallback setting on October 10. A dedicated single-request
 local service and one GPU lock enforce the allocation. Resource failures hold
 their descendants; independent CPU and personal-learning families continue.
 
+On October 10 the owner approved public Wikipedia revisions through the official
+API and licensed GitHub blog histories, with text and computation local. The
+[bounded source pilots](PUBLIC_SOURCE_PILOTS.md) retain scientific admission holds.
+
 Cards must distinguish design, executable, admitted and completed work. Every
 new comparison freezes reader/evaluator separation, source pins, full support,
 independent units, half-Brier normalization, controls, repair budget and a finite
@@ -28,5 +49,20 @@ text, unit identifiers, adapters and native process records stay local.
 Completed cells receive internal write-through in FINDINGS, the theory or
 instrument ledger, and TODO before event acknowledgement. The curator receives
 the requested setup report and one final scientific packet, without unfinished
-per-artifact scores. See the implementation handoff and card registry here for
+per-artifact scores. See the [implementation handoff](IMPLEMENTATION_HANDOFF.md) and [card registry](CARD_REGISTRY.md) for
 current readiness; the source program alone is not proof of runnable runway.
+
+
+## Files in this stage
+
+| Read for | Documents |
+|---|---|
+| Original authority | [October 10 program](SOUNDING_LINE_RESEARCH_PROGRAM_2026-10-10.md), [validity errata](SOUNDING_LINE_PROGRAM_ERRATA_2026-10-10.md), [source hashes](SOURCE_RELOCATIONS.json) |
+| Current implementation and gates | [Handoff](IMPLEMENTATION_HANDOFF.md), [validity matrix](ERRATA_IMPLEMENTATION.md), [midweek implementation](MIDWEEK_IMPLEMENTATION.md), [SM4 admission](SM4_ADMISSION.md) |
+| Cards and reserves | [Registry](CARD_REGISTRY.md), [execution-card export](EXECUTION_CARDS.json), [reserves](RESERVE_CARDS.md), [public-source pilots](PUBLIC_SOURCE_PILOTS.md) |
+| Midweek source texts | [Errata](SOUNDING_LINE_STAGE14_MIDWEEK_ERRATA_2026-10-13.md), [Gear 3 Round 2](GEAR3_ROUND2_MAKER_HISTORY_SPEC_2026-10-13.md), [source hashes](../../../results/gear3/G3-S14-MAKER-1/SOURCE_BRIEFS.json) |
+| Evidence | [Local result receipts](../../../results/phase_2_4_stage_14/), [cloud/API campaign](../../../results/gear3/G3-S14-MAKER-1/), [method archive](../../../FINDINGS.md) |
+
+The [October 14 theory errata](../archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md)
+is applied to the theory store, with its [application receipt](../archive/THEORY_ERRATA_20261014_APPLIED.json).
+It changes ratified framing, not the outcomes or admission status of this campaign.

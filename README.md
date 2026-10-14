@@ -9,8 +9,13 @@
 
 # Sounding Line
 
-The [October local research week](docs/design/stage-14/README.md) is running in a
-new execution namespace, with the supplied program and validity errata filed together.
+The [October research week](docs/design/stage-14/README.md) uses the Stage 14
+execution namespace. As of October 14, its admitted local adapter runs and Modal
+cloud main are complete; remaining lanes are held at admission gates. Monitoring
+continues. See [current status](CURRENT_STATUS.md) for both gears and the Friday
+final-packet checkpoint. The supplied program and validity errata are filed together.
+
+**Document map:** [all study stages](docs/design/README.md), [theory and applied errata](docs/theory/README.md), [cloud campaigns](docs/design/gear-3/README.md), and [workspace layout](docs/WORKSPACE_LAYOUT.md). Each stage has a visible folder and README; frozen source paths remain indexed exceptions.
 
 **Working environment:** Codex/GPT. Start with [AGENTS.md](AGENTS.md) and
 [operations, tests, and rollback](docs/CODEX_OPERATIONS.md). The overview below describes
@@ -239,7 +244,7 @@ carrying its status and what would test it. Each file owns one question:
 
 | | |
 |---|---|
-| [the triple inference](docs/theory/THE_TRIPLE_INFERENCE.md) | what is inferred: three target families at different timescales (proximal goal, process, persistent motivational organization) and what makes values identifiable at all |
+| [the triple inference](docs/theory/THE_TRIPLE_INFERENCE.md) | reconstructing process, interpreting departures and inferring preferences; the explaining goal constrains the artifact's decisions; the October 14 reading rules separate set points, drives, preferences and learned values |
 | [three cognitive layers](docs/theory/THREE_COGNITIVE_LAYERS.md) | what architecture might support the inference, and the evidence from eleven model families |
 | [decision traces](docs/theory/DECISION_TRACES.md) | what observable traces decisions leave: target, control, and terminal topology as independent axes |
 | [reader heuristics](docs/theory/READER_HEURISTICS.md) | how a bounded reader finds and combines traces: priors, entry cues, calibration, refusal |

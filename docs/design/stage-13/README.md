@@ -1,4 +1,4 @@
-# Stage 13 - approved implementation, Gear 2
+# Stage 13: closed September campaign
 
 **October 1 closed state:** The admitted original and healing queues are drained. The [final packet](../../../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and [integrity audit](../../../results/phase_2_4_stage_13/FINAL_INTEGRITY_20260930.json) preserve failed admission, blocked comparisons and all completed corrective evidence. No scientific work remains admitted. The [October 1 endpoint](../../../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) is reconciled; the helper exited normally and its exact watch is retired. Only standing independent health supervision remains. The original brief and frozen design below are preserved.
 
@@ -23,6 +23,6 @@ operator's source reading, installed capabilities or execution.
 
 The earlier documentation-only pass started no research. The subsequent implementation was
 authorized; the admitted frozen queue has drained normally and complete cells are recorded in the final packet above. [Execution handoff](EXECUTION.md) records the roster, held capabilities, capacity and exact checkpoints. Stage 12 retains its stopped allocation; its September 28
-at 06:17 PDT final endpoint is reconciled with scientific deficits retained. Four-hour operational supervision remains active.
+at 06:17 PDT final endpoint is reconciled with scientific deficits retained. Independent operational supervision now follows the six-hour cadence; see [current status](../../../CURRENT_STATUS.md).
 This folder is the sole home for new Stage 13 plans. Preserve the supplied source;
 record ratification and implementation changes in the plan and future receipts.

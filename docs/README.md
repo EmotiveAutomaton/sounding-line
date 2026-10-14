@@ -1,8 +1,12 @@
 # Documentation - current authority, methods and history
 
-**Current commission:** the [October local week](design/stage-14/README.md) is
-authorized and initial blocks are running in the new Stage 14 execution namespace.
-The September closure statements below remain historical.
+**Current commission:** the [October week](design/stage-14/README.md) uses Stage 14.
+The admitted local adapter ladder and approved Modal main are complete; remaining
+local and API lanes are held at admission gates. Supervision remains healthy.
+See [current status](../CURRENT_STATUS.md) for both gears, costs and Friday's final
+packet. The September closure statements below remain historical.
+
+**Navigation:** [all stages 2-14](design/README.md) · [program context](design/program/README.md) · [Gear 3 rounds](design/gear-3/README.md) · [applied October 14 theory errata](design/archive/THEORY_ERRATA_20261014_APPLIED.json).
 
 **Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** The admitted original and healing Stage 13 queues are drained, with the [final packet assembled](../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and all retained completions verified. Reader admission and unavailable comparisons remain explicit deficits; the [October 1 endpoint](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) is reconciled and the exited helper watch retired; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
 
@@ -21,6 +25,7 @@ context.
 | [`design/`](design/) | current October program and errata in Stage 14, closed September contracts, reusable blueprints and indexed history | deciding what to build |
 | [`archive/`](archive/) | superseded, nothing deleted | rarely |
 | [`GEAR3_MODAL_WORKSPACE_GUIDE.md`](GEAR3_MODAL_WORKSPACE_GUIDE.md) | Modal workspace selection, usage limits, payment readiness and existing resources | before the bounded cloud pilot |
+| [Midweek API implementation](design/stage-14/MIDWEEK_IMPLEMENTATION.md) | Paid-reader access, profile prerequisite, accounting and remaining admission holds | when checking the current API lane |
 | `STATE.md` | agent orientation: hard constraints, the research program, the queue's state | first thing after a compaction, with FINDINGS and the theory folder |
 
 **The working loop is a skill.** `.agents/skills/grind/SKILL.md` (`$grind`) holds the full

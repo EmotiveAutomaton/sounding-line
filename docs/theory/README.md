@@ -123,6 +123,16 @@ edits here.
 | **[ALIGNMENT.md](ALIGNMENT.md)** | **What objective should govern a system after it can read them?** The balanced sum of seeking and acting, the one claim that does not depend on the rest |
 | **[essays/](essays/)** | the two personal essays, kept as the rawest form of the intent |
 
+## Approved wording and source history
+
+The October 14 curator errata is applied across the five theory files. Its
+[original text and quotation-repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md)
+and [application receipt](../design/archive/THEORY_ERRATA_20261014_APPLIED.json)
+preserve the source, exact edits, fresh identifiers and before/after hashes.
+The supplied literature reading labels are retained as attributed handoff evidence;
+this filing pass did not conduct a new literature review. Ghost V22 results remain
+awaiting curator uptake. Earlier quotes remain in place under the new reading rules.
+
 ## Elsewhere
 
 | | |

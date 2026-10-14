@@ -2,6 +2,245 @@
 
 ## October 10 local campaign - Stage 14 execution namespace
 
+- [x] THEORY-ERRATA-1014 / DOCS-FILING-1014: applied the supplied October 14 ratified 39-edit theory handoff; preserved quotations and source repairs, reviewed afterwords and retained untested boundaries. Organized visible Stage 2-14 folders, program/cloud indexes and top-level handoffs; corrected stale summaries. Exact edit/source checks, navigation checks, theory lint and all 21 research locks pass. No new studies harvested or launched by this maintenance commission.
+- [x] OPS-S14-HEALTH-1014-1324: due inspection verifies native supervision, unchanged terminal evidence and output freshness, resources, locks, held work and actual owner delivery. No recovery or new inference; full write-through precedes health ACK.
+- [ ] S14-REPAIR-1014: curator authorizes running blocked comparisons, superseding immediate closure; subsequent instruction requires staging, committing and pushing first. Documentation filing/reconciliation is complete locally; publication remains before launching versioned repairs. Preserve original attempts, validate corrected prerequisites before main admission and retain existing spending and scientific bounds. No repaired comparison has launched.
+
+- [x] OPS-S14-STATUS-1014: requested Gear 2/3 status inspection verifies fresh native/provider state, unchanged completion manifests and output freshness, current resource/lock/watcher health and prior full write-through. Corrected stale overview and pilot-ledger execution wording. No scientific worker active, no recovery or new research; existing holds and six-hour clock preserved.
+
+- [x] OPS-S14-HEALTH-1014-0703: due six-hour inspection verifies native supervision, full retained local evidence, resources, locks, held work and delivery health. No recovery; no admitted local scientific work remains. Existing runtime/profile/prototype gates and final-packet policy retained.
+
+- [x] G3-S14-API-PROFILE-PILOT: complete first Sonnet profile batch reconstructed and internally written through. Two output-limit stops fail the matched-profile prerequisite; offline replay, source/wire/temporal bindings, ended ownership and token accounting verify. Dependent API batches remain unsubmitted; no retry or theory change.
+
+- [x] G3-S14-MAKER-PILOT: complete discarded cloud pilot independently replayed and internally written through. Native prompts and actual tokens, all requests/responses, source/archive bindings, residency, ended ownership and accounting verify. Scientific prediction claims remain unlicensed; no theory edit under SM7.
+
+- [x] OPS-S14-SM4-SEMANTIC: separate frozen synthetic handling readout checked after the GPU lane freed. Complete replay and internal write-through record failed semantic admission, normal native exit and lock release. No human training, paid call or scientific prototype verdict.
+
+- [x] S14-Q05-QWEN-ACCEPTED-E8-SECOND: second eight-epoch accepted-text Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay and matched two-/four-epoch construction and first eight-epoch seed pass; fitted-arm steps quadruple/double on identical text and pooled ordering differs across seeds. Shared support, sparse histories, selected model prose and sensitivity limits retained; theory unchanged and final-packet synthesis pending.
+
+- [x] S14-Q05-QWEN-ACCEPTED-E8-FIRST: first eight-epoch accepted-text Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay and matched two-/four-epoch construction pass; fitted-arm steps quadruple/double on identical text. Shared support, sparse histories, selected model prose and sensitivity limits retained; theory unchanged and final-packet synthesis pending.
+
+- [x] OPS-S14-HEALTH-1014-0054: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-QWEN-ACCEPTED-E4-SECOND: second four-epoch accepted-text Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay and matched two-epoch construction pass; all fitted-arm steps double on identical text. Shared support, sparse histories, selected model prose and sensitivity limits retained; theory unchanged and final-packet synthesis pending.
+
+- [x] S14-Q05-QWEN-ACCEPTED-E4-FIRST: first four-epoch accepted-text Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay and matched two-epoch construction pass; all fitted-arm steps double on identical text. Shared support, sparse histories, selected model prose and sensitivity limits retained; theory unchanged and final-packet synthesis pending.
+
+- [x] S14-P03-QWEN-ACCEPTED-R16-THIRD-MAIN: third accepted-text rank-sixteen Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay, both earlier rank-sixteen seed pairs and same-seed rank-four construction verify. Shared units, seed-dependent pooled ordering and sensitivity limits retained; theory unchanged and final-packet synthesis pending.
+
+- [x] S14-P03-QWEN-ACCEPTED-THIRD-MAIN: third accepted-text rank-four Qwen producer and consumer validated and internally written through under SM7. Numerical/training/roster replay and both earlier seed references pass; shared support, seed-dependent pooled ordering and sensitivity limits retained. Theory unchanged; final-packet synthesis remains pending.
+
+- [x] S14-Q05-QWEN-MIXED-E8-SECOND: complete eight-epoch mixed-text Qwen producer and consumer validated and internally written through under SM7. Full numerical/training/roster replay and matched two-/four-epoch construction pass; first eight-epoch failure stays unscored. Theory unchanged; scientific integration remains in the final packet. No new repair or evaluation-selected setting.
+
+- [x] S14-MIDWEEK-BASELINES / SM1-SM3: original and aligned rosters frozen with separate exposure evidence; seven local handling baselines and effort controls complete, saved-score replay and full internal write-through done. Retain the full source and temporal checks; joint reader campaign remains unfinished.
+- [x] G3-S14-MAKER-MAIN: complete Modal cell verified and fully written through, with full source/native/archive reconstruction, independent scoring/calibration, fixed sensitivities, eleven-slot multiplicity and unavailable API comparisons retained. Main books 476 cents; no retry or theory edit.
+- [ ] G3-S14-MAKER-1: carry the complete Modal cell and the failed paired-profile pilot into Friday's joint final packet. API reader pilot/main remain unsubmitted; the matched-profile admission gate admits no automatic retry. Combined campaign booking is 548 cents under the unchanged $50 ceiling, pending final invoices. Preserve unavailable API contrasts, historical exposure, shared-history dependence, actual history counts, donor-length sensitivities and invalid system penalties. Any API repair needs a separately reviewed plan.
+- [ ] S14-SM4-PROTO: the GPU lane is free, but the proposed SmolLM2 handling readout failed its frozen semantic admission (OPS-S14-SM4-SEMANTIC). Human prototype training remains unadmitted. Resolve a capable aligned readout before freezing recipient-past-only clusters, random-cluster control and equal total prototype-plus-refinement optimizer steps. Preserve the failed instrument, original token/corpus provenance and all exhausted attempts; no automatic prompt revision, model substitution or retry. The broader authorized prototype question remains open.
+- [ ] S15-SM5-SM6: carry natural/imposed-policy self-reading and steering inversion to Stage 15 under the accepted recommendation; not part of the current cloud allowance.
+
+- [x] OPS-S14-Q05-QWEN-MIXED-E8-FAILURE: first eight-epoch mixed-text Qwen attempt stopped at the frozen GPU-memory floor; original evidence, failed cost, native exit, lock release and blocked consumer verified and recorded. No partial scores interpreted. No retry is admitted under the exhausted repair allowance; existing independent work remains gated on memory or reader-runtime review.
+
+- [x] S14-Q05-QWEN-MIXED-E4-SECOND: complete second four-epoch mixed-text Qwen cell and consumer verified and fully written through; matched two-epoch construction, doubled training steps, cross-seed pooled-order variation, mixed provenance, transferred rank, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] OPS-S14-HEALTH-1013-1846: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-QWEN-MIXED-E4-FIRST: complete first four-epoch mixed-text Qwen cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, mixed provenance, transferred rank, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-P03-QWEN-MIXED-R16-THIRD-MAIN: complete third mixed-text rank-sixteen Qwen seed and consumer verified and fully written through; mixed provenance, shared units, sparse histories, pooled-order variation and seed/readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-P03-QWEN-MIXED-THIRD-MAIN: complete third mixed-text rank-four Qwen seed and consumer verified and fully written through; shared units, sparse histories, pooled-order variation and seed/readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-Q05-QWEN-HUMAN-E8-SECOND: complete second eight-epoch human-text Qwen cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, fourfold and doubled training steps, sparse histories and readout/dependence limits retained. Continue frozen comparisons.
+
+- [x] S14-Q05-QWEN-HUMAN-E8-FIRST: complete first eight-epoch human-text Qwen cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, fourfold and doubled training steps, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] OPS-S14-HEALTH-1013-1239: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-QWEN-HUMAN-E4-SECOND: complete second four-epoch human-text Qwen cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, cross-seed pooled-order changes, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-QWEN-HUMAN-E4-FIRST: complete first four-epoch human-text Qwen cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-P03-QWEN-R16-THIRD-MAIN: complete third human-text rank-sixteen Qwen seed and consumer verified and fully written through; shared units, sparse histories, pooled-order variation and seed/readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-P03-QWEN-THIRD-MAIN: complete third human-text rank-four Qwen seed and consumer verified and fully written through; shared units, sparse histories, pooled-order variation and seed/readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-E8-SECOND: complete second eight-epoch accepted-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, verified step multipliers, cross-seed comparison with changed pooled construction, selected model-prose provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-E8-FIRST: complete first eight-epoch accepted-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, verified step multipliers, selected model-prose provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] OPS-S14-HEALTH-1013-0627: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-SMOL-ACCEPTED-E4-SECOND: complete second four-epoch accepted-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, selected model-prose provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-E4-FIRST: complete first four-epoch accepted-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, selected model-prose provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-P03-SMOL-ACCEPTED-R16-THIRD-MAIN: complete third accepted-text rank-sixteen SmolLM2 seed and consumer verified and fully written through; selected model-prose provenance, sparse histories, shared or changed support, pooled-order variation and readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-P03-SMOL-ACCEPTED-THIRD-MAIN: complete third accepted-text rank-four SmolLM2 seed and consumer verified and fully written through; selected model-prose provenance, sparse histories, shared or changed support, pooled-order variation and readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-Q05-SMOL-MIXED-E8-SECOND: complete second eight-epoch mixed-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, verified step multipliers, mixed provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-SMOL-MIXED-E8-FIRST: complete first eight-epoch mixed-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against two- and four-epoch references, verified step multipliers, mixed provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] OPS-S14-HEALTH-1013-0018: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-SMOL-MIXED-E4-SECOND: complete second four-epoch mixed-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, mixed provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-SMOL-MIXED-E4-FIRST: complete first four-epoch mixed-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, mixed provenance, transferred rank and sparse-history/readout limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-P03-SMOL-MIXED-R16-THIRD-MAIN: complete third mixed-text rank-sixteen SmolLM2 seed and consumer verified and fully written through; mixed provenance, sparse histories, shared or expanded units, pooled-order variation and readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-P03-SMOL-MIXED-THIRD-MAIN: complete third mixed-text rank-four SmolLM2 seed and consumer verified and fully written through; mixed provenance, sparse histories, shared or expanded units, pooled-order variation and readout sensitivities retained. Continue frozen comparisons.
+
+- [x] OPS-S14-HEALTH-1012-1807: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q05-SMOL-HUMAN-E8-SECOND: complete second eight-epoch human-text SmolLM2 cell and consumer verified and fully written through; both same-seed epoch references, repeated text, sparse histories, shared units and readout/dependence limits retained. First eight-epoch seed remains unknown; continue existing frozen comparisons without another repair identity.
+
+- [x] OPS-S14-POWER-RECOVERY-1012: full recorded-result and saved-state audit passed; exact orphan lock archived, reporting helper and versioned supervision restored, next frozen eight-epoch seed verified in local Gear 2. First eight-epoch human-text SmolLM2 attempt remains unknown with 124 preserved files and its original consumer blocked; no further automatic repair identity.
+- [ ] OPS-S14-POWER-RECOVERY-1012: resolve the observed Ollama runtime change before releasing the three eligible, unstarted reader cards; current 0.40.3 is held against prior 0.35.1. Preserve existing card/model pins, failed/unknown evidence and the exhausted scientific repair allowance. Independent frozen training continues.
+
+- [x] S14-Q05-SMOL-HUMAN-E4-SECOND: complete second four-epoch human-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, cross-seed pooled ordering, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] S14-Q05-SMOL-HUMAN-E4-FIRST: complete first four-epoch human-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
+
+- [x] OPS-S14-HEALTH-1012-1200: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-P03-SMOL-R16-THIRD-MAIN: complete third human-text rank-sixteen SmolLM2 seed and consumer verified and fully written through; shared units, sparse histories, pooled-order variation and seed/rank/readout limits retained. Continue frozen comparisons.
+
+- [x] S14-P03-SMOL-THIRD-MAIN: complete third human-text rank-four SmolLM2 seed and consumer verified and fully written through; shared units, sparse histories, pooled-order variation and seed/readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-Q02-QWEN1500-ACCEPTED-MAIN: complete larger Qwen accepted-text cell and consumer verified and fully written through; selected model-prose provenance, transferred rank, sparse histories, shared or changed support and readout sensitivities retained. Continue frozen comparisons.
+
+- [x] S14-Q02-QWEN1500-MIXED-MAIN: complete larger Qwen mixed-text cell and consumer verified and fully written through; mixed provenance, transferred rank, sparse histories, shared or changed support and dependence/readout sensitivities retained. Continue frozen corpus comparisons.
+
+- [x] S14-Q02-QWEN1500-HUMAN-MAIN: complete larger Qwen human-text cell and saved-output consumer verified and fully written through; transferred rank, sparse histories, shared evidence, tokenizer-specific construction and dependence/readout sensitivities retained. Continue frozen larger-model corpus comparisons.
+
+- [x] OPS-S14-Q02-QWEN1500-MEMORY: bounded larger Qwen memory/execution pilot and saved-output consumer verified and fully written through. Continue frozen larger mains under existing guards; no scientific promotion or new retry allowance.
+
+- [x] S14-Q02-SMOL1700-ACCEPTED-MAIN: complete larger SmolLM2 accepted-text cell and consumer verified and fully written through; selected model-prose provenance, transferred rank, sparse histories, shared or changed support and readout sensitivities retained. Continue frozen comparisons under their memory gates.
+
+- [x] OPS-S14-HEALTH-1012-0546: native ownership, full evidence, retained failures/unknown files, resources, locks, eligible frozen work and watcher health inspected; no recovery needed. Capacity shortfall and exhausted repair allowance retained.
+
+- [x] S14-Q02-SMOL1700-MIXED-MAIN: complete larger SmolLM2 mixed-text cell and consumer verified and fully written through; mixed provenance, transferred rank, sparse histories, shared or changed support and readout sensitivities retained. Continue frozen corpus comparisons.
+
+- [x] S14-Q02-SMOL1700-HUMAN-MAIN: complete larger SmolLM2 human-text cell and saved-output consumer verified and fully written through; transferred rank, sparse histories, shared evidence, tokenizer-specific construction and readout sensitivities retained. Continue frozen larger-model corpus comparisons.
+
+- [x] OPS-S14-Q02-SMOL1700-MEMORY: bounded larger SmolLM2 memory/execution pilot and saved-output consumer verified and fully written through. Continue frozen larger mains under existing guards; no scientific promotion or new retry allowance.
+
+- [x] S14-Q05-QWEN-ACCEPTED-T32768-SECOND: complete second selected-rank higher-cap accepted-text Qwen cell and saved-output consumer verified and fully written through; selected model-prose provenance, sparse histories, limited actual dose increases, shared or changed support and seed/readout sensitivities retained. Continue the remaining frozen comparisons and memory admissions.
+
+- [x] S14-Q05-QWEN-ACCEPTED-T32768-FIRST: complete first selected-rank higher-cap accepted-text Qwen cell and saved-output consumer verified and fully written through; selected model-prose provenance, sparse histories, limited actual dose increases, shared or changed support and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-QWEN-ACCEPTED-T4096-SECOND: complete second selected-rank lower-cap accepted-text Qwen cell and saved-output consumer verified and fully written through; selected model-prose provenance, sparse histories, limited actual dose changes, shared or changed support and seed/readout sensitivities retained. Continue frozen higher-cap comparisons.
+
+- [x] S14-Q05-QWEN-ACCEPTED-T4096-FIRST: complete first selected-rank lower-cap accepted-text Qwen cell and saved-output consumer verified and fully written through; selected model-prose provenance, sparse histories, limited actual dose changes, shared or changed support and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-QWEN-MIXED-T32768-SECOND: complete second selected-rank higher-cap mixed-text Qwen cell and saved-output consumer verified and fully written through; limited actual dose increases, mixed provenance, sparse histories, shared units and seed/readout sensitivities retained. Continue frozen accepted-text comparisons.
+
+- [x] S14-Q05-QWEN-MIXED-T32768-FIRST: complete first selected-rank higher-cap mixed-text Qwen cell and saved-output consumer verified and fully written through; limited actual dose increases, mixed provenance, sparse histories, shared or changed support and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-QWEN-MIXED-T4096-SECOND: complete second selected-rank lower-cap mixed-text Qwen cell and saved-output consumer verified and fully written through; mixed provenance, actual dose decreases, shared units, seed and readout sensitivity retained. Continue frozen higher-cap comparisons.
+
+- [x] S14-Q05-QWEN-MIXED-T4096-FIRST: complete first selected-rank lower-cap mixed-text Qwen cell and saved-output consumer verified and fully written through; mixed human/model provenance, actual dose decreases, sparse histories, shared or changed units and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] OPS-S14-HEALTH-1011-2331: full integrity, native identity, failure/unknown preservation, resource and delivery inspection complete; exact host-memory pause archived and existing eligible work verified running. No retry or new scientific scope.
+
+- [x] OPS-S14-UNKNOWN-RECOVERY: interrupted-worker evidence, coordinator defect and exact dead-lock release recorded; separately versioned supervision passes tests; its initial memory pause was released by OPS-S14-HEALTH-1011-2331 after resource recovery.
+- [x] OPS-S14-COMMIT-HEADROOM: unrelated server observed absent without agent action; repeated commit-headroom and resource checks passed before the exact operator hold was released. Next frozen comparison runs under unchanged guards. The owner subsequently authorized stopping that exact server; a fresh identity check found it already absent, so no stop was performed. Unknown attempt remains excluded from retry; family repair allowance is exhausted.
+
+- [x] S14-Q05-QWEN-T32768-FIRST: complete first selected-rank higher-cap Qwen human-text cell and saved-output consumer verified and fully written through; limited actual dose increases, sparse histories, shared units, tokenizer-specific budgets and readout sensitivities retained. Serial validation recovered from host allocation failures; the unrelated host-process decision remains separate. The second seed is now unknown and must not be retried; remaining eligible comparisons resumed after host resource recovery (OPS-S14-HEALTH-1011-2331).
+
+- [x] S14-Q05-QWEN-T4096-SECOND: complete second selected-rank lower-cap Qwen human-text cell and saved-output consumer verified and fully written through; actual dose decreases, sparse histories, shared units, tokenizer-specific budgets and seed/readout sensitivities retained. Continue the frozen higher-cap and remaining comparisons.
+
+- [x] S14-Q05-QWEN-T4096-FIRST: complete first selected-rank lower-cap Qwen human-text cell and saved-output consumer verified and fully written through; actual dose decreases, sparse histories, shared units, tokenizer-specific budgets and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-T32768-SECOND: complete second selected-rank higher-cap accepted-text cell and saved-output consumer verified and fully written through; selected model-prose provenance, actual dose increase for only one writer, shared/changed support and seed/readout sensitivities retained. Continue the frozen Qwen and remaining comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-T32768-FIRST: complete first selected-rank higher-cap accepted-text cell and saved-output consumer verified and fully written through; selected model-prose provenance, actual dose increase for only one writer, shared/changed support and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-T4096-SECOND: complete second selected-rank lower-cap accepted-text cell and saved-output consumer verified and fully written through; selected model-prose provenance, actual dose decreases, shared/changed support and seed/readout sensitivities retained. Continue the frozen higher-cap and remaining comparisons.
+
+- [x] S14-Q05-SMOL-ACCEPTED-T4096-FIRST: complete first selected-rank lower-cap accepted-text cell and saved-output consumer verified and fully written through; selected model-prose provenance, actual dose decreases, shared/changed support and unresolved sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-SMOL-MIXED-T32768-SECOND: complete second selected-rank higher-cap mixed-text cell and saved-output consumer verified and fully written through; mixed provenance, actual dose increases, shared/changed support and the separate failed first seed retained. Continue the frozen accepted-model-text and remaining comparisons.
+
+- [x] OPS-S14-HEALTH-1011-1725: full six-hour inspection verifies resumed independent work, completed evidence, retained failures, native supervision, locks, resources and delivery; no runtime intervention needed. Repair allowance reviewed without admitting a retry; capacity shortfalls remain explicit.
+
+- [x] OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE: failed worker, retained files, source bindings, lock release, blocked consumer and live supervision verified; full failure write-through precedes ACK. Existing GPU work was resource-held at that inspection; resumed admission is recorded in the later health entry.
+
+- [ ] OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE-RECOVERY: headroom returned and the existing allowance was reviewed (OPS-S14-HEALTH-1011-1725); the handoff records repair identity two of two, so no further automatic retry is admitted. Any additional full attempt requires authority beyond that allowance and a separate identity. Preserve original failure/cost, partial files and blocked consumer; do not count recovery as runnable capacity.
+
+- [x] S14-Q05-SMOL-MIXED-T4096-SECOND: complete second selected-rank lower-cap mixed-text cell and saved-output consumer verified and fully written through; mixed provenance, actual dose changes, shared/changed support and seed/readout sensitivities retained. Continue the frozen higher-cap and remaining comparisons.
+
+- [x] S14-Q05-SMOL-MIXED-T4096-FIRST: complete first selected-rank lower-cap mixed-text cell and saved-output consumer verified and fully written through; mixed provenance, actual dose changes, shared/changed support and unresolved sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-SMOL-T32768-SECOND: complete second selected-rank higher-cap cell and saved-output consumer verified and fully written through; actual dose changes, shared units, seed/readout sensitivities and original failed costs retained. Continue the frozen mixed-text and remaining comparisons.
+
+- [x] OPS-S14-HEALTH-1011-1114: full native/progress/evidence/failure/lock/resource/delivery inspection complete; no runtime recovery needed. Capacity shortfall remains explicit; internal write-through precedes health ACK.
+
+- [x] S14-Q05-SMOL-T32768-FIRST: complete first selected-rank higher-cap cell and saved-output consumer verified and fully written through; actual dose increases, unchanged budgets, shared units and readout sensitivities retained. Continue the frozen second seed and remaining comparisons.
+
+- [x] S14-Q05-SMOL-T4096-SECOND: complete second selected-rank lower-cap cell and saved-output consumer verified and fully written through; matched dose changes, shared units and seed/readout uncertainty retained. Continue the frozen higher-cap comparisons without selecting from evaluation outcomes.
+
+- [x] S14-Q05-SMOL-T4096-FIRST: complete first selected-rank lower-cap cell and saved-output consumer verified and fully written through; realized dose changes, shared units, sparse histories and dependence sensitivities retained. Continue frozen cells without selecting from evaluation outcomes.
+
+- [x] OPS-S14-QUEUE-NATIVE-RECOVERY: failed historical native identities reconciled; successor coordinator tested and running with all scientific cards unchanged, no science restart and the six-hour clock preserved.
+
+- [x] S14-P03-QWEN-ACCEPTED-R16-SECOND-MAIN: complete second larger accepted-suggestion Qwen cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and seed/readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-ACCEPTED-R16-SECOND-MAIN: complete second larger accepted-suggestion SmolLM2 cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and seed/readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-ACCEPTED-R16-FIRST-MAIN: complete first larger accepted-suggestion Qwen cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-ACCEPTED-R16-FIRST-MAIN: complete first larger accepted-suggestion SmolLM2 cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-ACCEPTED-SECOND-MAIN: complete second accepted-suggestion Qwen cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and seed/readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-ACCEPTED-SECOND-MAIN: complete second accepted-suggestion SmolLM2 cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared units, changed support and seed/readout sensitivities retained. Continue the frozen matrix.
+
+- [x] OPS-S14-HEALTH-1011-0500: completed evidence, retained failures, native owners, fresh progress, locks/resources and actual watcher delivery verify; no runtime recovery needed. Full internal write-through precedes health ACK and independent six-hour rearm.
+
+- [x] S14-P03-QWEN-ACCEPTED-FIRST-MAIN: complete first accepted-suggestion Qwen cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, shared and changed support, and readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-ACCEPTED-FIRST-MAIN: complete first accepted-suggestion SmolLM2 cell and saved-score consumer verified, replayed and fully written through; selected model prose, sparse histories, changed support and readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-MIXED-R16-SECOND-MAIN: complete second larger mixed-text Qwen cell and saved-score consumer verified, replayed and fully written through; base/pooled uncertainty, seed and readout sensitivities, mixed provenance and shared units retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-MIXED-R16-SECOND-MAIN: complete second larger mixed-text SmolLM2 cell and saved-score consumer verified, replayed and fully written through; residual uncertainty, full-precision boundary, mixed provenance and shared units retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-MIXED-R16-FIRST-MAIN: complete larger mixed-text Qwen cell and saved-score consumer verified, replayed and fully written through; base and crossed-prompt rival uncertainty, mixed provenance and shared units retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-MIXED-R16-FIRST-MAIN: complete larger mixed-text SmolLM2 cell and saved-score consumer verified, replayed and fully written through; crossed-prompt donor uncertainty, mixed provenance and shared units retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-MIXED-SECOND-MAIN: second complete mixed-text Qwen seed and saved-score consumer verified, replayed and fully written through; shared units, mixed provenance and unresolved primary/residual comparisons retained. Continue the frozen matrix.
+
+- [x] S14-P03-SMOL-SECOND-MAIN: complete recovered human-typed second seed and saved-score consumer verified, replayed and fully written through; original failed evidence/costs, shared units and residual uncertainty retained.
+
+- [x] S14-P03-SMOL-MIXED-SECOND-MAIN: second complete mixed-text seed and saved-score consumer verified, replayed and fully written through; shared evaluation units, mixed provenance and unresolved residual comparisons retained. Continue the frozen matrix.
+
+- [x] OPS-S14-HEALTH-1010-2241: full integrity/native/resource/delivery inspection and coordinator-only recovery handoff complete; unchanged live worker preserved. Internal write-through precedes health ACK.
+
+- [x] S14-P03-QWEN-MIXED-FIRST-MAIN: complete mixed-final-text cell and saved-score consumer fully verified, replayed and internally landed; frozen matrix, mixed provenance, changed support and unresolved base/pooled advantage retained.
+
+- [x] S14-P03-SMOL-MIXED-FIRST-MAIN: complete mixed-final-text cell and saved-score consumer fully verified, replayed and internally landed; mixed provenance, changed support and unresolved readout sensitivities retained. Continue the frozen matrix.
+
+- [x] S14-P03-QWEN-R16-SECOND-MAIN: second rank-sixteen seed and saved-score consumer fully verified, replayed and internally landed; model-rival advantage remains unresolved and the frozen matrix continues.
+- [x] S14-P03-SMOL-R16-SECOND-MAIN: second rank-sixteen seed and saved-score consumer fully verified, replayed and internally landed; frozen matrix, shared-roster limits and unresolved sensitivities retained.
+- [x] S14-P03-QWEN-R16-FIRST-MAIN: complete rank-sixteen cell and saved-score consumer verified, replayed and fully written through; model-rival advantage remains unresolved and the frozen matrix continues.
+- [x] OPS-S14-Q02-QWEN-SELECTION: calibration-only rank selection, exact replay, evaluation-likelihood masking and child bindings verified and fully written through.
+- [ ] S14-Q02-QWEN-CONTINUATIONS: execute only the existing selected-rank children through their remaining dependency/memory gates; retain calibration optimism and actual costs in the final packet. Admission is not scientific success or measured capacity.
+- [x] S14-P03-SMOL-R16-FIRST-MAIN: complete rank-sixteen cell and saved-score consumer verified, replayed and fully written through; frozen matrix and descriptive limits retained.
+- [x] OPS-S14-Q02-SMOL-SELECTION: calibration-only rank selection, exact replay, evaluation-likelihood masking and child bindings verified and fully written through.
+- [ ] S14-Q02-SMOL-CONTINUATIONS: execute only the existing selected-rank children through their remaining dependency/memory gates; include selection optimism and actual measured costs in the final packet. Admission is not scientific success or full-week capacity.
+- [x] S14-P03-QWEN-SECOND-MAIN: second Qwen seed and saved-score consumer fully verified and internally landed; pooled/donor crossed-prompt sensitivity, sparse histories and shared evaluation roster remain explicit. Continue the unchanged frozen matrix.
+- [x] OPS-S14-HEALTH-1010-1634: exact native supervision, output integrity, unchanged failed evidence, resource admission, terminal coverage and actual six-hour owner delivery verified; no recovery presently justified. Full internal write-through precedes health ACK and independent rearm.
+- [x] OPS-S14-P03-VRAM-INTERRUPT: runtime memory refusal, worker cleanup, dependent blocking and live resource-held queue fully inspected and internally recorded; no partial-cell verdict.
+- [x] S14-P03-RESOURCE-RECOVERY: final allowed unchanged-recipe successor `P03-smol360-human_typed-r4-s141011-v3` and consumer completed and fully landed (S14-P03-SMOL-SECOND-MAIN). Original failure, cost, all 289 partial files and blocked consumer verify unchanged. No partial transplantation, relaxed resource floor or further automatic repair identity.
+
+- [x] S14-P03-QWEN-FIRST-MAIN: complete Qwen cell and saved-score consumer verified with full numerical replay and internal write-through; frozen matrix and sparse-history limits retained.
+
+- [x] S14-P03-FIRST-MAIN: first complete adapter cell and normalized consumer fully verified and internally landed; remaining matrix unchanged.
+
 - [x] OPS-S14-SETUP-HEALTH: exact live ownership, current progress/resources, source/output bindings and six-hour/fixed-Friday supervision verified; no recovery required.
 
 - [x] S14-P04-SEMANTIC: complete semantic choice block and pilot internally written through; population contrast remains unresolved.
@@ -34,8 +273,10 @@
 - [x] S14-H04-RULER: Supplied-bank missingness instrument landed; real-record thinning remains in H04.
 - [x] S14-H01: Source census, replay, chronological personal preparation and positive exposure audit fully written through.
 - [x] S14-SETUP: Initial executable plan, implemented validity safeguards, fixed Friday checkpoints and six-hour monitoring installed; handoff distinguishes outstanding scope and capacity.
-- [ ] S14-CAPACITY: At the next full-family or six-hour review, replace pilot estimates with whole-main costs and implement useful independent reserves; CPU day-long and whole-week fast-depletion targets remain short.
-- [ ] S14-SOURCE-POLICY: Await the pending Wikipedia/blog decision; existing-source work continues. Freeze reader release cutoffs and rights before any blind source reconstruction.
+- [ ] S14-CAPACITY: The October 14 early-morning health refresh uses 36 complete small-model main costs: 0.00 scenario hours in 0 remaining small-model mains and 1.75 hours in 2 dependency-eligible dose/epoch continuations. The 1.75-hour small-model total is extrapolated, with 0.80/0.53 hours under 2x/3x lower-duration depletion. About 57.0 hours remain to the reporting reserve. CPU-day and remaining-week coverage remain CAPACITY_SHORTFALL; failed, unknown, blocked and design-only work receive no credit. Three dependency-eligible Qwen 9B reader cards remain held before dispatch on runtime drift and receive no estimated capacity credit. No new card or repair identity is admitted by this inspection. The approved cloud pilot still awaits the previously requested account-readiness facts; the conditional prototype card remains unadmitted while the local GPU lane is occupied. Implement useful predeclared independent reserves through their existing rights/support/reader gates; never pad with unchanged repeats.
+- [x] S14-SOURCE-POLICY: Owner approved both public sources; policy, bounded intake designs, tests and dispatch recorded.
+- [x] S14-SOURCE-INTAKE: both complete pilots and preserved-worker coordinator handoff fully verified and internally landed.
+- [ ] S14-SOURCE-ADMISSION: review remaining prose rights, establish full source support and verified reader release cutoffs before scientific successors.
 - [ ] S14-ERRATA-RESERVES: Implement the separately filed Wikipedia, blog, reverse-edit and missing-middle designs only through their stated gates. None is counted as current runway.
 - [ ] S14-FINAL: Friday October 16, 10:00 PDT reporting reserve, 16:00 review and 18:00 packet; preserve unfinished cells, all failures, resource costs and remaining frontier.
 

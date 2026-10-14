@@ -105,6 +105,56 @@ On why the shortcut works *(the 2026-08-22 pass)*:
 > the easier it is to reverse-engineer and understand. Archaeology is hard; talking to your wife
 > is easy.
 
+**Invertibility belongs to the pair** *(2026-10-13)*:
+
+> Non-invertibility is a property of the pair. That's the trick. It's a question of model families.
+> If you have enough power, or you are a larger model, you can invert a smaller model. Or if you're
+> similar enough, you get a bootstrap. You can reverse engineer your own actions more easily, I'm
+> pretty sure, and there are biases in humans that I want to acknowledge complicate that, but it is
+> doable, and that is one of the things artists use to understand themselves. But inverting someone
+> who is too different from you gets difficult, and inverting something wholly alien, like AI to
+> human, crossing that gap is also a problem.
+
+> [...] If you're similar enough to be able to recreate, then you're more willing to uptake small
+> edits. Maybe that's why we get the model family effect with humans. Like, political alignment and
+> so on would be the equivalent of that, I guess.
+
+> The first one's easy. For whose residue, the Tolkien scholar and the reader both have their own
+> predictions, but the confidence is different. The Tolkien scholar is able to successfully make more
+> predictions correctly, and thus has confidence that they are speaking the same language of
+> expertise. [...] The same thing can be done by the casual reader, yet that doesn't actually allow
+> them access to as accurate a mental model. They still try to form one, obviously, but the key is
+> that their own evidence will illustrate the confidence they should have on the author's model,
+> because they're unable to predict the process, and therefore they just get a lot of noise on their
+> maker model.
+
+> You can never skip inference. Similarity makes the inference easier.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (10:17 and 14:01 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The self case is the sharpest test of the pair claim. The separate record task found no self
+advantage, while relatedness predicted reading of original model artifacts (HH-23 and G172 below);
+the reader's confidence, set by how much of the process it can predict, is the proposed bound on
+how much maker it may claim.
+
+> You know, self, I'm trying to recreate the act of an author making a painting, stepping back and
+> looking at it, and using that to learn about themselves. Or reading an email you wrote that's
+> several pages long and using that to learn about yourself. It can happen on a small scale. But
+> it's, yeah, you're getting access to your own automatic expertise through observing your
+> behavior. I'm not sure quite how to simulate that, but that's what we're trying to capture there,
+> I would hope.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+Self-reading in this sense is self-perception, a maker inferring their own dispositions from their
+own artifacts as an observer would (Bem, 1972, snippet). Models show a related ability, describing
+tendencies they were fine-tuned into, such as writing insecure code, without examples in context
+([Betley et al., 2025](https://arxiv.org/abs/2501.11120), abstract read). The self target in the
+record task ran the reader's own weights under an imposed policy, which tests neither form; the
+faithful test has a model read its own unprompted artifacts. A constructed test of the split
+between process and preference ran as card C2 of the Ghost V22 first pass (13 October); its result
+is not yet read into this file.
+
 **Proposed self-based initialization.** Shared organization may supply a cheap candidate
 generator that the reader can adjust toward the maker using artifact evidence and context.
 Relevant similarity is expected to make this shortcut more useful; the route is neither
@@ -447,14 +497,96 @@ hierarchy (means-ends diagnosis from any level, decades of use) is worth reading
 formal home, not adopting sight unseen. It has published methodological criticisms (Lind) aimed at
 exactly the ambiguities that matter here.
 
+**Walking the goal hierarchy** *(2026-10-13)*:
+
+> [...] What effectively you've got is that pyramid of hierarchical goals, and you start walking up
+> and just basically labeling as many of them as you can, one by one, with as much, like, weighted
+> confidence in all of them, and each one, as you point one, it makes the confidence in another
+> increase. It's like a constant inference puzzle where you're just jostling the numbers until you
+> arrive at something that makes all of them make complete total sense together. [...] You're always
+> kind of working out the top goal, because it speaks to all of the other nodes.
+
+> [...] Expertise lets you fill out 50 to 60% of the steps, and with that top goal in addition, now
+> you have a much easier inference. [...] I know the three paragraph format. This is paragraph one,
+> two, three. I don't even think about it. [...] The one at the very top does give a lot of
+> explanatory power to all of the subgoals, and so it's still the most valuable. But it's not always
+> the strongest piece that helps you with a given part of an inference. I think the strongest piece
+> might actually be what's closest, but again, top is most generally useful because of that property.
+
+*Curator's ToMpathy assessment walkthrough, 2026-10-13 (16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Reading the purpose level is joint settling over a hierarchy, not a walk in one direction. Every
+labeled node raises or lowers confidence in its neighbors, the top goal constrains all of them
+weakly, and the nearest levels constrain each other most. On a tree the second point is a property
+of the structure, since information from a distant node reaches a given node only through the nodes
+between them. Kintsch's construction-integration model of comprehension is the classic settling
+account ([Kintsch, 1988](https://doi.org/10.1037/0033-295X.95.2.163), snippet). Depth is not capped;
+error grows with distance from what the reader's expertise covers. The top goal in these quotations
+is the goal that explains the artifact, in the sense of
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §1, not survival or reproduction.
+
+**Ways into the hierarchy** *(2026-10-14)*:
+
+> Strictly speaking, if you are an expert, then that means you can fill out blocks of the pyramid,
+> the pyramid of inference. You can see, like, four of the blocks on the bottom and then the one
+> block above that binds them all together as the hierarchical structure, and you just instantly
+> fill that in. And that's the power of expertise, is filling in blocks to explain the other
+> decisions, because you've made similar decisions. That being said, the most generally useful goal
+> is the highest goal that explains all of the local decisions in this case. Once you do that, you
+> can take that highest goal and try to throw it up higher, like maybe it's part of a subordinate
+> goal of an attempt towards survival or whatever else, if you choose to do so. There's generally
+> not a reason to, because what you're actually trying to do is [read] the set of decisions so that
+> you could copy the ones that are particularly effective, that you judge to be particularly
+> effective. Experts will be particularly interested in things like whether they can capture
+> someone else's epistemic foraging and the outcomes of that foraging so that they don't have to do
+> it themselves.
+
+> [...] You could also do it top down and assume that whatever the outcome is, is what the
+> intended outcome was. Like, you could look at a tool, say this tool would be good for cutting
+> things, and assume that the creator wanted to make a cutting tool. You can also do that
+> internally. You can feel sadness at an author's words and assume that the author wanted you to
+> feel sadness, even if you don't know how to do that yourself, or the technique thereof. But then
+> you can try to find the techniques once you have that high level goal. It's one of the ways in,
+> bottom up or top down. And it's not really bottom up. It's more like filling out pieces of other
+> parts of the graph to help reduce the difficulty of the entire inference.
+
+> It would be the first goal where the artifact's decisions all meet. That's the one that would
+> allow you to kind of come in from the top, asking function questions. [...] It's also kind of
+> easy to get to, because you can come out from a functional perspective. That functional
+> perspective, to an extent, is derived from an understanding that, again, mid-brain-wise, we all
+> have the same, we're all trying to serve the same needs, to an extent, at least. I think the
+> trick is that you're using your midbrain again to work out possible functions. Like, you're
+> assuming they have a belonging need, for example, and then you're putting this into that same
+> structure.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Expertise fills blocks of the hierarchy from similar past decisions, and the reader's purpose sets
+how high to climb. The goal that explains every recorded decision is usually enough, because a
+reader often wants to copy the decisions that worked, including the results of someone else's
+foraging. Copying wins for that reason in tournaments of learning strategies, because
+demonstrators tend to show the best behavior they have and so filter information for the copier
+([Rendell et al., 2010](https://research-portal.st-andrews.ac.uk/en/publications/why-copy-others-insights-from-the-social-learning-strategies-tour/),
+abstract read). The explaining goal can also be entered from above, by asking what the artifact is
+for and drawing candidate purposes from the needs reader and maker share. Function-first reading is
+old and fallible. Children explain even pointed rocks by purpose
+([Kelemen, 1999](https://www.bu.edu/cdl/files/2013/08/1999_Kelemen_PointyRocks.pdf), read), and
+literary criticism named the move from a felt effect to an intended one the affective fallacy, "a
+confusion between the poem and its results" (Wimsatt & Beardsley, 1949, through a summary read).
+The top-down entry therefore needs the check the curator describes, finding the techniques once
+the goal is posited.
+
 | # | hypothesis | status |
 |---|---|---|
 | **lit** | Entry at any level, ratcheting to the others | **CONTESTED (READ).** Bullot & Reber make design-stance understanding a *necessary condition*; the disagreement is over necessity, not temporal order (their own response describes recursive processing) |
 | **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL).** 34 experiments across 23 publications: 26% support, 56% none |
+| **HH-GOAL-PYRAMID** | Readers infer a maker's goal hierarchy by jointly adjusting labeled nodes, climbing to the goal that explains every decision the artifact records, entering from below through expertise or from above through function; adjacent levels give the strongest evidence and the explaining goal the broadest | **OPEN.** A constructed test ran as card C1 of the Ghost V22 first pass (13 October); its result is not yet read into this file. Construction-integration is the nearest comprehension model and minimal-cover plan recognition the nearest formal account of the explaining goal (lit, SNIPPET); function-first explanation over-attributes purpose in children (lit, READ) |
 
 **What the table says.** The only occupying framework makes level-entry a necessity claim with a
 weak empirical record, which leaves enter-anywhere both undefended in the literature and untested
-here. The deciding experiment is the triple inference's missing mechanics arm. Confidence:
+here. The deciding experiment is the triple inference's missing mechanics arm. Joint settling over
+the goal hierarchy is the same claim inside the purpose level, entered from below or from above,
+with a constructed test run but not yet read and no measurement (HH-GOAL-PYRAMID). Confidence:
 untested, logic only, resting on a contested literature.
 
 ## §4. Updating and active search
@@ -553,8 +685,170 @@ argument or hidden dependencies; expertise might expose those dependencies witho
 immunity. A source's decision structure includes which evidence it sought, retained and
 presented. Truthful individual examples can therefore coexist with misleading selection.
 Measure continued engagement, process learning, belief uptake and value change separately;
-blanket refusal is not successful selective learning. Neither epistemic disgust nor
-consciousness has been identified with an attention mechanism by the present evidence.
+blanket refusal is not successful selective learning. Consciousness has not been identified with an
+attention mechanism by the present evidence; epistemic disgust is held below as a conjecture about
+how attention or elaboration is withheld.
+
+**Attention, uptake and disgust** *(2026-10-13)*:
+
+> One curve for both attention and uptake is actually kind of where I'm at. [...] It came from the
+> fact that if you're working with, like, I don't know, Mein Kampf, for Hitler, you can explicitly
+> focus on things like sentence structure while avoiding things like thinking about why he might have
+> thought that about the Jews. Like, if you think about the [...] reasoning, and did you pay attention
+> to that? Then it causes uptake in that region. Specifically, I think attention is kind of uptake.
+
+> You're not terrified of reading Mein Kampf, but you do acknowledge it as risky, because it would
+> probably influence you, because even as you are attending to things like sentence structure, you
+> might accidentally pay attention [...]. Literally, the aesthetics are a virus. Aesthetics can
+> direct your attention in addition to you. Things can grab it and move it around.
+
+> Wait, I've been saying, I'm contradicting myself. I've been saying that attention is [...] all
+> that's needed. And no, I'm not contradicting myself. Disgust is the mechanism through which that
+> occurs. Your disgust with Mein Kampf is how you keep your attention away from the bits that you
+> don't want to think too hard about. It is literally, the withdrawal is the protection. The lack of
+> attention is the protection, and the disgust is the vehicle through which it creates a solid line
+> around it. How neat!
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (14:01 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> The second idea was, we thought that epistemic disgust actually fires, it seems, on policy
+> divergence rather than on preference divergence. It's actually pretty clear when we work out
+> examples that that's the case, that epistemic disgust occurs when, like, racism is a good example.
+> With racism, it is literally me saying that [...] not only do I think the actions you're taking are
+> leading to outcomes that are useless, but in particular, I'm tiering them up to, like, survival and
+> reproduction. Everything's tying up to survival and reproduction at the end of the day, or something
+> like it. And so what I'm seeing are, what's pushing me away is your policy mapping. And not just
+> that, but your entire model family has pre-solved solutions. Your culture, for example, can be one
+> that I can find disgusting as a group, because the set of solutions is one that your policy mapping
+> diverges too much. You clearly are trying to optimize different ways [...]. It triggers that
+> response.
+
+> But my friend cleverly pointed out that epistemic disgust firing on policy divergence doesn't make
+> sense, because then we wouldn't be able to grow outside of racism, if that were the case. Great
+> argument, I said. But my counter was that epistemic foraging beats that, because openness to
+> experience is the primary indicator for someone who's prone to racism. That last statement I wasn't
+> quite sure on. [...] Maybe that openness to experience is the key. There's like a humility, and the
+> idea that other people might have a better policy mapping than you do. That they might have a
+> hierarchical channel that gets them where they're going more efficiently. Whether or not you know
+> that, a willingness to explore this is what creates this acceptance, and how it beats that effect.
+
+*Curator's evening walkthrough after an in-person discussion, 2026-10-13 (19:02 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The April essay's firewall fired on divergence between the reward inferred for the maker and the
+observer's own; these restatements move the trigger to policy, meaning methods, heuristics and the
+solutions a culture has already worked out, and move the protection from a closed gate to attention
+held away. Three parts separate. A trigger (policy divergence, possibly judged inferior), a
+protective act (attention or elaboration withheld from the source's aims), and a release (foraging
+licensed by the belief that the other's route may be better).
+
+The literature mostly supports a policy-level trigger and contests the emotion's name and the
+attentional form of the protection. Disgust is recruited when a preference is moralized into a
+value, while taste alone does not recruit it
+([Rozin, Markwith & Stoess, 1997](https://stafforini.com/works/rozin-1997-moralization-becoming-vegetarian/),
+abstract read). Moral disgust targets norm violators and motivates avoiding them as social partners
+([Tybur, Lieberman & Griskevicius, 2009](https://www.unm.edu/~tybur/docs/microbes.pdf), abstract
+read), and out-groups are avoided partly as violators of local practices
+([Navarrete & Fessler, 2006](https://inclusion.uoregon.edu/sites/default/files/2_disease_avoidance_and_ethnocentrism.pdf),
+read). Violations of community norms are assigned to contempt rather than disgust in the
+CAD mapping (Rozin, Lowery, Imada & Haidt, 1999, snippet), and contempt appraises the other as
+beneath a standard of competence or worth
+([Roseman, 2018](https://crab.rutgers.edu/users/roseman/Roseman.2018.RejectingTheUnworthy-TheCausesComponentsAndConsequencesOfContempt.pdf),
+read). Disgust-evoking images hold visual attention longer than fear-evoking ones
+([van Hooff et al., 2013](https://research.vu.nl/en/publications/disgust-and-not-fear-evoking-images-hold-our-attention/),
+abstract read), so if disgust protects, it more plausibly withholds elaboration than gaze. Contact
+between groups reduces prejudice mainly by lowering anxiety and raising empathy, less by adding
+knowledge ([Pettigrew & Tropp, 2008](https://courses.washington.edu/pbafhall/563/Readings/pettigrew.pdf),
+read), and its favoring conditions include common goals and cooperation
+([Pettigrew, 1998](https://ns1.serendipstudio.org/oneworld/system/files/annurev.psych_.49.1.65-2.pdf),
+read). Openness to experience predicts lower prejudice robustly but mostly through authoritarian
+attitudes, beside agreeableness acting through social dominance orientation
+([Sibley & Duckitt, 2008](https://journals.sagepub.com/doi/abs/10.1177/1088868308319226), abstract
+read), and intellectual humility raises openness to opposing views
+([Porter & Schumann, 2018](https://www.researchwithrowan.com/en/publications/intellectual-humility-and-openness-to-the-opposing-view/),
+abstract read). The "primary indicator" wording is stronger than this record.
+
+**What makes disgust fire** *(2026-10-14)*:
+
+> Disgust flares when you, in particular, when you identify evidence of a decision you wouldn't
+> make, and that you cannot even see how to slot into your hierarchy. I can't see how someone would
+> want to murder all the Jews in order to achieve their goals, because it's a silly thing to do.
+> It's also horrifying, but in the usefulness sense, it's silly. And I think maybe that's the
+> biggest problem? Is it useless? I'm not confident on this one.
+
+> Contempt might be something that fires when you identify someone else's structure, and you think
+> you have the entire thing figured out, and you have a higher structure or something. I don't
+> know. I'm not looking at it too directly. It's just a guess.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The trigger narrows from policy divergence to divergence the reader cannot fit into any goal it can
+model, judged useless as well as harmful. The curator's sense of talking past the analyst comes
+from framing disgust as protecting something, a set point or a reading rule; here the trigger is an
+inference failure and withdrawal is its effect. Social cognition research supports that shape.
+Groups perceived as neither warm nor competent draw contempt and disgust
+([Fiske, Cuddy, Glick & Xu, 2002](https://leeds-faculty.colorado.edu/dahe7472/Fiske-et-al-2002.pdf),
+read), and pictures of those groups fail to engage the medial prefrontal region that responds to
+every other social group, activating insula and amygdala instead
+([Harris & Fiske, 2006](https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01793.x/),
+abstract read). The reader stops modeling a mind, which is the withheld elaboration of
+HH-DISGUST-GATE. Competence is that literature's word for useful, and a target judged competent but
+cold draws envy instead of disgust, the split that lets a reader study a propagandist's technique
+while walling off the aims. The contempt guess, a complete model of the other's structure held from
+above, matches the appraisal of the other as beneath a standard
+([Roseman, 2018](https://crab.rutgers.edu/users/roseman/Roseman.2018.RejectingTheUnworthy-TheCausesComponentsAndConsequencesOfContempt.pdf),
+read).
+
+**Where attention goes** *(2026-10-14)*:
+
+> I would say that attention goes where prediction errors are falling fastest, but that you do have
+> some kind of global attentional [...]. I feel like there's a conscious element to attention. It's
+> not just reactive. [...] Things that are prediction errors that are falling fastest will attract
+> attention, and if they fall super fast, they attract attention very quickly, but that doesn't mean
+> that attention can't also voluntarily be directed elsewhere. It's just biased.
+
+> But the one thing I hope is that attention isn't just being drawn to, like, internal prediction
+> errors dropping or something. Finding places in the inference where, in your overall trajectory
+> mapping towards your goals, [...] the prediction errors are falling the most, and that's where your
+> attention focuses, or something stupid like that. God, I hope it's not that. I really hope that
+> attention is directed through this nebulous alternative force that can be somehow captured.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator accepts falling prediction error as a pull on attention and rejects it as the whole
+account. The stake is the attention policy's role as the preference stream, since a policy that only
+chased learning progress would carry no preferences. Each part has support. Infants' looking is
+explained partly by their progress in learning a sequence, beside surprise and the sequence's
+overall predictability ([Poli et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7531891),
+abstract read). Attention research has given up the two-source split between current goals and
+physical salience and added a third source, the history of earlier selections and rewards
+([Awh, Belopolsky & Theeuwes, 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3426354), snippet),
+which is close to the record of past attention that expertise keeps. Active inference models
+voluntary attention as a mental action, a choice of where to place precision made by a higher level
+of the same model ([Sandved-Smith et al., 2021](https://discovery-pp.ucl.ac.uk/10134499/1/Friston_niab018.pdf),
+snippet). That choice is scored by expected free energy, which adds expected preference satisfaction
+to expected information gain ([Friston et al., 2015](https://doi.org/10.1080/17588928.2015.1020053),
+abstract read), so in that formalism preferences enter attention through the first term and
+learning progress through the second. The voluntary part the curator hopes for is formally
+available, and it is where preference evidence in attention would have to live.
+
+> Oh, you're talking about the thing that moves attention. Whatever that is. It's expected
+> preference satisfaction, but it's complicated, because it's showing you part of how they're
+> trying to achieve that. Like, it's showing you their values, and their emotions, for that matter.
+> It shows you part of how they're working their way up the tree to accomplish their survival [and]
+> reproduction.
+
+> Honestly, I think this isn't quite a God of the Gaps thing anymore. I think we're explicitly
+> looking at the goal of, like, what is the goal of the epistemic foraging actions?
+
+> Well, extracting attention as mental action, with respect to that formal version, sure does look
+> like it just is a clean way of describing what I was saying anyway.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator names the force. It is expected preference satisfaction, read through the values and
+drives it passes on the way up the hierarchy, and he takes the mental-action formalism as a
+description of it. What remains open is the goal of the maker's epistemic foraging, which is an
+inference target rather than a gap.
 
 **And apparent errors should eventually revise the reader's model of the maker**:
 
@@ -600,6 +894,43 @@ representations found document-level mean pooling best, which is evidence agains
 claims at the representation level. Not decisive (it optimized for identity, not maker state), but
 the reason to expect modest effects.
 
+**What gates uptake, and how technique writes values in** *(2026-10-13)*:
+
+> There's something to do with uptake and the idea of shared goals too. If the higher order goals the
+> two of you share are there, then the lower order goals are useful. But if you don't share the
+> higher order goals, then the lower order goals will fuck up your process, often in a way that helps
+> your opponent. So if you don't understand the propagandist is trying to give propaganda, then you
+> can't fit that behavior into your model of propaganda. If instead you think they're trying to
+> inform, then you can fit it into your model of whatever the fuck else you think, and then you're
+> fucked. So it's not just probability of a common cause. It's probability that you have found their
+> highest cause, in this case, and then it aligns with yours.
+
+> [...] Dependencies is probably how those things, values, get written in through technique. It
+> changes how you see the world a little bit, and that changing in the way that you see the world is
+> what changes your behavior, because you see different possibilities. Like, yes, you read Mein Kampf
+> to learn how to be [...] a good speaker or whatever. And as you do the speaking, you start to see
+> more opportunities for speaking, which makes you more manipulative, which makes you a little bit
+> more Hitleresque, and it kind of snuck in there through just distortions of the possibility space.
+
+> Clearly there is a social component, and I think [...] it can't be separate. It has to be part of
+> the same unifying model, and I think to do that we're just going to have to treat sensory input from
+> the museum curator as equivalent to sensory input from the picture. Except that that's not enough.
+> Could you do, like, a quick and dirty inference of this person to assess that they definitely have
+> better expertise than you do? [...] I feel like there's an in-model way of solving this. It all has
+> to be connected. It has to all be one big thing. I don't just want to add a fucking social term.
+> It's just not acceptable.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (14:01 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Uptake is gated by a maker inference about the source itself. Has the reader found the source's
+highest goal, and does it match the reader's own? Credibility is the same inference aimed at the
+source's competence and intent to inform, which keeps trust inside the maker model rather than
+adding a social term. The technique route needs no gate failure at all. Practice changes which
+options a reader sees, and what people consider by default is already shaped by value
+([Phillips, Morris & Cushman, 2019](https://stafforini.com/works/phillips-2019-how-we-know/),
+abstract read). Persuasion knowledge, a person's model of how persuasion attempts work, is the
+closest named construct for the propagandist case (Friestad & Wright, 1994, snippet).
+
 | # | hypothesis | status |
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN for incremental value over the endpoint and for human readers.** A model-side series exists, but its tracking of exact information is a different comparison and is a valid null at the declared band (test, R05-S5, L329) |
@@ -608,6 +939,10 @@ the reason to expect modest effects.
 |   | | *(this row's history is the projection root and its evidence-conflict follow-up, both 08-21, the wing pausing per the brief's W3 routing)* |
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism |
 | **HH-SELECTIVE-ATTENTION** | Directed attention, potentially including precision control, supports useful process learning while limiting unwanted uptake from the same source | **OPEN.** Curator conjecture; the human test requires joint measures of attended content, process learning, belief uptake and value change that the current program does not provide. Constructed procedural interference is an analogue, not those missing measurements |
+| **HH-DISGUST-GATE** | Epistemic disgust protects by withholding attention or elaboration from a source's aims while its method can still be learned | **OPEN for withheld elaboration; CONTESTED (lit) for withheld gaze.** Disgust-evoking images hold visual attention longer than fear-evoking ones (lit, READ); a constructed reader can read accurately with its uptake gate closed (Ghost E42, sim), so attention and uptake can separate; a constructed test ran as card A3 of the Ghost V22 first pass (13 October), not yet read into this file. No human measurement of attended content, elaboration and uptake together |
+| **HH-DISGUST-POLICY** | Epistemic disgust fires on a decision the reader would not make and cannot fit into any goal it can model, policy divergence (methods, heuristics, a group's pre-solved solutions) judged useless as well as harmful, and growth past it runs through foraging licensed by humility and shared lower goals | **OPEN; the trigger's shape is supported and the label CONTESTED (lit).** Moralized preferences recruit disgust where taste does not; moral disgust targets norm violators; out-group aversion tracks violations of local practices; groups judged neither warm nor competent draw contempt and disgust and do not engage regions that support thinking about minds (lit, READ). Community-norm violations map to contempt in the CAD triad (lit, SNIPPET). Contact reduces prejudice mainly through anxiety and empathy, and humility and openness predict tolerance (lit, READ). No project measurement |
+| **HH-TOP-GOAL-UPTAKE** | Uptake depends on the reader having found the source's highest goal and on that goal matching the reader's; credibility is the same maker inference aimed at the source | **OPEN.** Constructed tests ran as cards A1 and A2 of the Ghost V22 first pass (13 October), not yet read into this file (endogenous trust, the misfiled propagandist); persuasion knowledge is the nearest literature (lit, SNIPPET) |
+| **HH-ATTENTION-SOURCES** | Attention is pulled toward falling prediction error and directed by expected preference satisfaction, which carries the maker's values and drives; preferences are read from the directed part, and the pull dominates when set points are met | **OPEN.** Learning progress, selection history and attention as a mental action each have literature (lit, READ and SNIPPET); no project measurement separates the directed part from the pull |
 | **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **Original contrast VOID; matched rendering advantage descriptive, general benefit OPEN (test, L455/L456/L460; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The complete information-matched, equal-length primary comparison favors linked over raw or repeated facts on both proper losses throughout. No memory performs better on calibration and reserve; misassociation also improves over raw, and padding changes performance. One component per partition and mostly identical projected views preclude population or replication claims; independent memory and paired literal-confidence comparison remain unavailable. |
 |   | | *(L455: original memory manipulation erased by token projection; L456: unequal-length development correction realizes distinct treatments but favors raw/repeated memory; L460: separately frozen full-roster matched projection reverses that ordering, while no-memory and misassociation controls limit the inference. Original void and exposure retained.)* |
 | **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the complete descriptive blocks (test, constructed worlds, Qwen model reader and exact-program reference, L412/L419).** Correct, false and irrelevant explanations improve against raw input; the second block favors the correct frame, but order, rereading and unchanged repetition also help. Further records substantially improve the second false-frame comparison, without consistent modal improvement under the correct frame. Invalids and infinite losses remain. No general truth-sensitive mechanism, stable method rank or human correction claim is established |
@@ -693,7 +1028,14 @@ not clear the declared band, and the larger reader is particularly overconfident
 construction (R05-S5, L329). The additional value of the whole trajectory over its endpoint
 remains untested (HH-9). Context persistence, differentiation order, process uptake
 before value appraisal, and selective uptake through attention remain human hypotheses
-(HH-SELECTIVE-ATTENTION). No model result licenses their internal psychological
+(HH-SELECTIVE-ATTENTION). The disgust account adds a trigger whose shape social cognition research
+supports, a decision the reader cannot fit into any goal it can model, a protective act that
+perception research contests in its attentional form, and a release through humility and shared
+goals that contact research favors; uptake gated by the source's highest goal remains a
+constructed-world proposal whose tests have run but are not yet read (HH-DISGUST-GATE,
+HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Attention itself is held to have two sources, a pull toward
+falling prediction error and a part directed by expected preference satisfaction, and nothing here
+yet separates them (HH-ATTENTION-SOURCES). No model result licenses their internal psychological
 interpretation. Confidence: one bad test away for these scoped model measurements;
 instrument-dead for the collapsed memory comparison; untested, logic only for the
 human mechanisms and the endpoint comparison.
@@ -717,6 +1059,24 @@ human mechanisms and the endpoint comparison.
 > interesting thing is the name for that order when you haven't yet decided, or when you've decided
 > it isn't a mistake, perhaps, even if you don't know what it is. Perhaps that's what all of
 > aesthetics is.
+
+> [...] Aesthetics, no, aesthetics does create interest, because it's a, it's a promise of order.
+
+*Curator's ToMpathy assessment walkthrough, 2026-10-13 (16:29 PDT), in the project's assessment thread; filed 2026-10-14. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+> You know, that prediction isn't that ridiculous. I'm not sure I would have made it myself, but
+> "aesthetics is what attention does when set points are met." I think I would treat that as saying
+> that the explore/exploit trade-off is more weighted towards explore, which encourages [...]
+> exploration.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+The quoted prediction was an analyst's, made in the assessment thread; the curator reads it as a
+claim about the balance between exploring and exploiting. Active inference supplies the mechanism.
+A policy's value adds expected preference satisfaction to expected information gain, so when no
+option differs in the first, choice follows the second
+([Friston et al., 2015](https://doi.org/10.1080/17588928.2015.1020053), abstract read). Art made
+under deprivation, in prisons and camps, is the standing counterexample the claim has to absorb.
 
 The first part sharpens "ordered but unexplained" as an abstention state between comprehension and
 error. The suggestion that this may define all aesthetics remains an open extension, since
@@ -747,6 +1107,43 @@ Stopping may reflect limited relevance or cost rather than a complete reconstruc
 Later endorsement of a better move does not by itself show whether the maker considered
 it earlier. The claim about earlier knowledge requires its own evidence.
 
+**When no goal explains the artifact** *(2026-10-14)*:
+
+> Can't find the top goal, what's the default? And I think you use context. At that point, you try
+> to search for other sources of information to kind of weigh judgment. It's a really cheating way
+> to answer, but, like, I'm imagining something like a person walking on their hands down the street
+> in ice skates, and I can't imagine why someone would do that. The questions are, is this person
+> just crazy? Are they kind of dumb? Are they doing something I don't understand? You can dismiss it
+> and say weird for the sake of weird, which is a way of saying that their goals aren't unknowable,
+> but they're so petty and unlikely to be well nested in higher hierarchical structures that it's
+> not worth examining.
+
+> Yeah, I think this is a weirdly phrased question. Everything's going to be gradients. I don't
+> understand why there has to be a pre-assumption. That being said, I do think that there is an
+> openness variable, like openness to experience. I think it would indicate the explore/exploit
+> trade-off. I do wonder if the Big Five are going to show up somewhere in this? We're pretty deep in
+> brain space, and [it] sure does feel like we'll find more of them showing up somewhere or another,
+> and openness would deal with a lot of this. If you can't find the maker's top goal, that's one
+> thing, but assuming you found the top goal already is certainly an option. You can just declare
+> where you're at to be the peak, which is the weird-for-the-sake-of-weird shrug that people will
+> make about the hand example I gave earlier. But someone with full openness to experience might sit
+> and wonder why they're doing this and spend a while trying to calculate it.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Two contiguous excerpts; transcription repairs listed in the handoff.*
+
+A reader with no goal that explains the decisions has two exits. It can forage for context, other
+sources that might make the decisions cohere, or it can shrug, declaring its current level the peak
+and filing what remains as weird for the sake of weird, goals that exist but sit too low and too
+isolated to be worth nesting. The three questions about the skater are the divergence classes of
+§6 asked of a whole maker, and the shrug is the decision to stop before the third is ruled out. How
+long a reader searches is a graded dial, not a default. Openness to experience is the curator's
+candidate, and dopamine-based personality theory ties openness to exploration
+([DeYoung, 2013](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00762/full),
+abstract read). The construct built for the stopping decision itself is need for cognitive closure,
+the urge to reach an answer and keep it, and it underlies prejudice in several forms
+([Roets & Van Hiel, 2011](https://www.psychologicalscience.org/journals/current-directions/0963721411424894/),
+abstract read), which ties the shrug to epistemic disgust in §4.
+
 Stopping is the calibration side. Graded attribution when evidence supports only that (§10), and a
 **hard falsifier ends the inference outright**, the two-channel rule of §9.
 
@@ -754,6 +1151,7 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 |---|---|---|
 | **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him.** Interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data. Informs this file only, never ground truth |
 | **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN.** A real, formalisable target, and deprioritized as a global text summary by the program |
+| **HH-NO-TOP-GOAL** | When no goal explains an artifact's decisions, a reader either forages for context or stops by declaring its current level the peak, and a graded trait such as openness or need for closure sets how long it searches | **OPEN.** Openness relates to exploration and need for closure to prejudice (lit, READ); no project measurement |
 | **S12-STOPPING-1** | Does a reader stop or buy evidence according to its declared purpose and cost? | **OPEN; primary uncertainty analysis unavailable (test, L442; 64 constructed discovery histories in one law, Qwen model reader and independent exact references).** All requested calls and descriptive replay are complete. Reader regret exceeds at least one constant policy in each purpose/cost stratum, with strong descriptive answer-order differences and retained invalids. The frozen consumer has no paired regret interval, so no formal benefit, harm or equivalence is established. Current forecasts do not test use after purchase; human interest is untested. |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ).** The arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
 
@@ -770,7 +1168,8 @@ position: the complete descriptive comparison retains invalids and lacks its pri
 uncertainty interval. That result concerns an investigation decision, not human interest
 or successful use of purchased evidence (S12-STOPPING-1, L442). Confidence: one bad test
 away for the scoped model description; untested, logic only for the human interest
-account, whose rating comparison remains blocked on curator ratings.
+account, whose rating comparison remains blocked on curator ratings, and for the proposal that a
+reader without an explaining goal forages or shrugs (HH-NO-TOP-GOAL).
 
 # Part II: Cue families
 
@@ -813,6 +1212,91 @@ The cue family, by function rather than by source:
   The same artifact trace can imply very different work under different available tools,
   which is the probabilistic-reweighting rule of §4 in its choice-versus-constraint form.
 
+**Divergence from the expert steps has few explanations** *(2026-10-13)*:
+
+> First, we figured out that it seems like all divergences from expertise [...]. So if you have the
+> steps that you're taking, you're following the policy, all divergences from that, not policy even,
+> just a set sequence of steps. [...] All mistakes, all divergences from the expertise steps, are
+> either a mistake in your policy mapping, or a context inaccuracy, or evidence of a decision made
+> under attention, creating a vector for identifying a core value point. And I think that eats
+> epistemic foraging, by which I mean you're taking a guess as to something that would give you a
+> better outcome. And the tests, the epistemic foraging tests, are themselves decisions made under
+> attention, creating new vectors.
+
+*Curator's evening walkthrough after an in-person discussion, 2026-10-13 (19:02 PDT), in the project's errata thread; filed 2026-10-14. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+> I also want to note that how deep a reader can recover a maker's goals is not capped. All of this
+> is probabilistic. What would end up happening is that you would try to infer larger goals, and then
+> sometimes you would find things that don't fit, and you would infer those to be individually either
+> mistakes, elements about the original creator, or, if there are enough of them, and more
+> importantly, if they are an organizational structure that implies larger goals, they might be
+> something that you are missing. Some larger picture that you have failed to put together.
+
+*Curator's ToMpathy assessment walkthrough, 2026-10-13 (16:29 PDT), in the project's assessment thread; filed 2026-10-14. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> Deviations also can indicate an unknown contextual limitation. I also am not convinced I've nailed
+> all the deviations specifically [...].
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+> The thing is, I don't think there is noise in this process. Like, if everything is purposeful and
+> there isn't noise to be had, all of the information is useful. If you think something is noise,
+> you just don't understand it. You're missing context. Or you just don't understand a decision of
+> some kind.
+
+> Habit is its own class. I think expertise is intended repetition. Habit is all repetition. An
+> example would be an artist with a tic in his elbow that later heals, but that irons in a set of
+> painting habits that that artist then has to spend time unlearning.
+
+> An exploratory probe is interesting because, as far as I can think about it, every example I can
+> come up with of epistemic foraging in this context is all, almost all, trying to improve the
+> product in some way. Like, you try something on the assumption and belief, given the inferences
+> that you do, that you can do better than your plan in some way. And so you attend to the part that
+> you think will make a difference. It's a very scientific-method style of epistemic foraging, and
+> it's consistently what people do. People don't make it worse unless they believe that the act of
+> making it worse will somehow make it better. [...] If you're actively making your painting worse,
+> you're only doing it because it will make it better, or to make some kind of a statement. You
+> know, Banksy shredding his picture is a humorous, not quite accurate, but humorous example.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The governing rule above subtracts what the medium forces; these restatements classify what
+remains. On the maker's side a divergence is a policy error, a belief about the context that was
+wrong, habit, or a deliberate choice, and deliberate choices are where preference vectors live.
+Habit is all repetition and expertise its intended part, so the class that matters for deviations
+is unintended repetition, such as a style an old injury forced. Epistemic foraging is a deliberate
+choice, and since nearly every probe aims at improving the work, a probe carries a preference
+direction as well as a question; deliberate worsening serves a higher goal, such as a statement.
+[`DECISION_TRACES.md`](DECISION_TRACES.md) §1 already files foraging as deliberate. The curator
+holds that nothing is noise and that apparent noise is missing context. The reader's side has its
+own explanations, a wrong goal, a missing larger structure, or a limitation on the maker that the
+reader does not know about, which the curator names directly. A cluster of divergences that the
+maker-side classes cannot absorb is evidence for them, and the curator holds the list open. His
+three questions about an unexplained maker in §5, crazy, dumb, or doing something the reader does
+not understand, ask the same classification of a whole maker.
+
+Each class has a long literature. Infants of fourteen months copied an unusual head action far more
+often when the actor's hands were free than when a blanket occupied them, 69 against 21 percent
+([Gergely, Bekkering & Király, 2002](https://doi.org/10.1038/415755a), read), which ties
+classification directly to uptake. Preference inference improves when false beliefs and
+inconsistency are modeled ([Evans, Stuhlmüller & Goodman, 2016](https://arxiv.org/abs/1512.05832),
+abstract read), but a policy cannot be uniquely split into planner and reward without normative
+assumptions ([Armstrong & Mindermann, 2018](https://arxiv.org/abs/1712.05812), abstract read), which
+is the split between policy error and preference. Human error research separates unintended errors
+from intended violations, and its situational violations are deliberate departures driven by context
+rather than preference (Reason, 1990, through a summary read). Epistemic actions look superfluous to
+a pragmatic model, and expert players make more of them
+([Kirsh & Maglio, 1994](https://adrenaline.ucsd.edu/kirsh/Articles/CogsciJournal/DistinguishingEpi_prag.pdf),
+read). The three explanations people give for anyone who disagrees with them, uninformed, irrational
+or biased, have the same shape, which is why the reference steps must be stated whenever a divergence
+is classified ([Ross & Ward, 1996](https://en.wikipedia.org/wiki/Na%C3%AFve_realism_(psychology)),
+through a summary read). Decision research contests the no-noise position. Much of the
+variability in human choices comes from imprecise inference (Drugowitsch et al., 2016, snippet),
+and people add decision noise on purpose, as random exploration, when more choices remain
+([Wilson et al., 2014](https://experts.arizona.edu/en/publications/humans-use-directed-and-random-exploration-to-solve-the-explore-e/),
+abstract read). A caused mark can still carry no preference information, so the classifier needs
+a place for it whatever it is called.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
@@ -823,6 +1307,7 @@ The cue family, by function rather than by source:
 | **G89** | Rigidity under perturbation as the novice signature | **OPEN.** Implies the active probe |
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory.** An aggregate concealed a worse-than-chance category |
+| **HH-DIVERGENCE-CLASSES** | Divergences from the expert steps sort into policy error, context inaccuracy, habit and deliberate choice on the maker's side, with epistemic foraging inside deliberate choice and aimed mostly at improvement, and into a wrong goal, missing structure or an unknown contextual limitation on the reader's side; only deliberate choices carry preference vectors, the list is held open, and the curator holds that nothing is noise | **OPEN.** Each class has literature (lit, READ and SNIPPET); the split between policy error and preference is not identifiable from behavior alone without normative assumptions (lit, READ); decision research reports variability from imprecise inference and deliberate random exploration (lit, READ and SNIPPET), against the no-noise position. No project measurement separates the classes |
 
 **What the table says.** The forty-year practice arrives as one measured win, one protocol we had
 already built, and a discipline. The visibility partition produced a clean double crossover on its
@@ -837,11 +1322,13 @@ handling import from the field's practice survives with a sharper shape than the
 states it: handling IS more informative than rate, its text carrier is density rather than
 locatable structure, and the reader's access to it is integrative rather than evidential.
 The distinction between an instrument that fails and a signal that is absent at a resolution
-is what the validation-first order bought, twice. Confidence: the partition is one bad test
+is what the validation-first order bought, twice. The divergence classes turn the subtraction rule
+into a classifier, useful only if the deliberate class can be recovered without absorbing habit,
+unexplained variation or the reader's own errors (HH-DIVERGENCE-CLASSES). Confidence: the partition is one bad test
 away; the ruler validation is one bad test away and constructed-world only; the text arc
 (null at short form, separation at long form) is one bad test away as a set, one corpus
 family deep with its fabrication warning attached; the ceiling import is replicated in its
-home field; the remaining rows are untested.
+home field; the remaining rows, the divergence classes included, are untested.
 
 ## §7. Habit, concealment, and revision
 

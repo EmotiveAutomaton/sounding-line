@@ -11,6 +11,10 @@ Installed software, locally present weights, a successful smoke check and scient
 admission are separate states. In particular, Stage 13 reader admission remains
 refused; these checks do not change it or reopen the closed stages.
 
+**October 12 runtime change:** the installed Ollama service now reports 0.40.3, replacing the previously observed 0.35.1 after the reboot. The dedicated local service is restored with the same limits, but reader use of the new runtime awaits admission; the existing PyTorch ladder continues. See OPS-S14-POWER-RECOVERY-1012 below.
+
+**October 14 paid-path verification:** the retained Modal apparatus passed its complete pilot and its approved main is complete and fully replayed; the original invalid replies remain in system loss. Credential and model-access checks pass for the three configured Claude models. The first Sonnet profile batch executed and was fully replayed, but failed the complete matched-profile gate because of output-limit stops. Dependent API forecasting remains unsubmitted. The October 10 inventory below is the base snapshot; the dated receipts and current adapter row record these later executions.
+
 ## Current environments and execution surfaces
 
 The table distinguishes implemented capabilities from validated execution paths.
@@ -152,7 +156,15 @@ scientific findings remain in their original receipts; this is a capability map.
 | Detection / located contribution | `runners/stage13/detectors.py`, `training.py`, `located.py`, `reconstruction.py`, `healing_*` | Surface/embedding/causal detectors, RoBERTa tuning, location and contribution baselines, memory comparisons and refusal-gated readers. Existing deficits remain explicit. |
 | Reports and interoperability | `soundingline/report/`, stage casebooks/reports, `runners/stage13/export_tompathy.py` | HTML reports and offline ToMpathy export with UTF-16 anchors, context/source identities and preserved sidecars. Local synthetic export tests pass; no live product integration asserted. |
 | Queues and resources | `runners/run_queue.py`, `run_first_gear.sh`, `run_second_gear.sh`; Stage 12/13 worker/queue/dispatch/checkpoint modules | Output guards, source-bound cards, native process ownership, resource admission, dependency gates, costs and honest failure/block states. Closed queues remain closed. |
+| Local adapter memory guard | `runners/stage14/adaptive_v2.py`, `worker.py`, `dispatcher_v3.py` | Runtime free-GPU-memory guard fired during the higher-cap mixed-text comparison. Native exit, GPU-lock release, immutable failure binding and dependent blocking verify; partial evidence has no scientific verdict. Existing jobs remain resource-gated and no new retry is admitted (OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE). [Inspection](../results/phase_2_4_stage_14/Q05_SMOL_MIXED_T32768_FIRST_FAILURE_PUBLIC.json). |
+| Larger local adapter execution | `runners/stage14/adaptive_v2.py`, `continuation.py`, `adapter_readouts.py` | SmolLM2 1.7B base completes the bounded three-writer, one-epoch, 1,024-token pilot and saved-score consumer at transferred rank four. Output/source/model hashes, complete numerical replay, training provenance and roster checks pass. CUDA residency and memory guards remain mandatory for every main; this is execution admission, not useful-prediction validation or a future memory guarantee (OPS-S14-Q02-SMOL1700-MEMORY). [Receipt](../results/phase_2_4_stage_14/Q02_SMOL1700_MEMORY_PUBLIC.json). |
+| Larger Qwen adapter execution | `runners/stage14/adaptive_v2.py`, `continuation.py`, `adapter_readouts.py` | Qwen2.5 1.5B base completes the bounded three-writer, one-epoch, 1,024-token pilot and saved-score consumer at transferred rank four. Output/source/model hashes, complete numerical replay, training provenance and roster checks pass. CUDA residency and memory guards remain mandatory for every main; this is execution admission, not useful-prediction validation or a future memory guarantee (OPS-S14-Q02-QWEN1500-MEMORY). [Receipt](../results/phase_2_4_stage_14/Q02_QWEN1500_MEMORY_PUBLIC.json). |
+| Local adapter memory guard | `runners/stage14/adaptive_v2.py`, `worker.py`, `dispatcher_v5.py` | Runtime free-GPU-memory guard fired during the first eight-epoch mixed-text Qwen comparison. Exact native exit, GPU-lock release, immutable failure binding and dependent blocking verify; partial evidence has no scientific verdict. Seven independent GPU jobs wait for memory and three reader cards remain held for runtime review. The repair allowance is exhausted; no retry is admitted (OPS-S14-Q05-QWEN-MIXED-E8-FAILURE). [Inspection](../results/phase_2_4_stage_14/Q05_QWEN_MIXED_E8_FIRST_FAILURE_PUBLIC.json). |
 | Operations | `tools/codex_watch.py`, `codex_queue_api.py`, `codex_notify.py`, `codex_control.py`, `start_codex_watch.ps1`; GPU/orphan/drain helpers | Durable events, owner binding, supported cancellation/resume, hooks and diagnostics. Monitoring tests pass. See [operations](CODEX_OPERATIONS.md). |
+| Midweek handling rulers | `runners/stage14_midweek/data.py`, `baselines.py`, `analyze_baselines.py` | Separate chronological handling roster, UTF-16 effort extraction, seven local baselines and writer/crossed uncertainty. Known-answer, null and leakage checks pass; completed producer and inference-free saved-score consumer verify full input/output bindings and temporal fit keys. Historical exposure, sparse support and dependence remain limits (S14-MIDWEEK-BASELINES). |
+| Eight-epoch mixed-text adapter validation | `runners/stage14/adaptive_v2.py`, `continuation.py`, `adapter_readouts.py` | Complete second-seed Qwen producer and saved-output consumer pass source/model/output hashes, exact numerical replay, full chronology/training/eligible-roster reconstruction and matched two-/four-epoch construction. This validates archived execution, not useful prediction or GPU admission for another job. The first eight-epoch attempt remains failed and unscored. Theory is unchanged under SM7; scientific outcome stays in FINDINGS (S14-Q05-QWEN-MIXED-E8-SECOND). [Receipt](../results/phase_2_4_stage_14/Q05_QWEN_MIXED_E8_SECOND_PUBLIC.json). |
+| Accepted-suggestion adapter archive validation | `runners/stage14/adaptive_v2.py`, `adapter_readouts.py` | Third-seed rank-four and rank-sixteen Qwen producer/consumer pairs pass source/model/output hashes, exact numerical replay and full chronology/training/eligibility checks. Earlier-seed construction and matching rank-four/rank-sixteen inputs are verified; pooled order differs across seeds. Original inserted model text stays distinct from human-authored prose. This validates archived execution, not another job's admission. Scientific results remain in FINDINGS (S14-P03-QWEN-ACCEPTED-THIRD-MAIN; S14-P03-QWEN-ACCEPTED-R16-THIRD-MAIN); theory unchanged under SM7. [Rank-four receipt](../results/phase_2_4_stage_14/P03_QWEN_ACCEPTED_THIRD_MAIN_PUBLIC.json), [rank-sixteen receipt](../results/phase_2_4_stage_14/P03_QWEN_ACCEPTED_R16_THIRD_MAIN_PUBLIC.json). First four-epoch Qwen pair also passes full replay, training and eligibility checks, with identical two-epoch reference inputs and doubled fitted-arm steps (S14-Q05-QWEN-ACCEPTED-E4-FIRST); this supplies no paired epoch effect. [Four-epoch receipt](../results/phase_2_4_stage_14/Q05_QWEN_ACCEPTED_E4_FIRST_PUBLIC.json). Second four-epoch Qwen pair also passes full replay, training and eligibility checks, with identical two-epoch reference inputs and doubled fitted-arm steps (S14-Q05-QWEN-ACCEPTED-E4-SECOND); this supplies no paired epoch effect. [Four-epoch receipt](../results/phase_2_4_stage_14/Q05_QWEN_ACCEPTED_E4_SECOND_PUBLIC.json). First eight-epoch Qwen pair also passes full replay, training and eligibility checks, with identical two-/four-epoch reference inputs and quadrupled/doubled fitted-arm steps (S14-Q05-QWEN-ACCEPTED-E8-FIRST); this supplies no paired epoch effect. [Eight-epoch receipt](../results/phase_2_4_stage_14/Q05_QWEN_ACCEPTED_E8_FIRST_PUBLIC.json). Second eight-epoch Qwen pair also passes full replay, training and eligibility checks, with identical two-/four-epoch reference inputs, quadrupled/doubled fitted-arm steps and first eight-epoch seed construction verified (S14-Q05-QWEN-ACCEPTED-E8-SECOND); this supplies no paired epoch effect. [Eight-epoch receipt](../results/phase_2_4_stage_14/Q05_QWEN_ACCEPTED_E8_SECOND_PUBLIC.json). |
+| Bounded maker-history cloud adapters | `runners/gear3.py stage14` and `stage14-api`; `runners/stage14_midweek/` | Modal serial/concurrent pilot passes full archive, prompt/token and residency replay; the unchanged main is admitted and running after account confirmation. API credential/model access works for all three configured models. The completed Sonnet profile pilot fails the matched-profile gate on two output-limit stops; saved-only replay and ended-batch token accounting pass, and dependent submissions refuse. No automatic retry or scientific prediction claim follows. |
 
 Default local test commands:
 
@@ -1742,10 +1754,117 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+OPS-S14-HEALTH-1014-1324: due targeted inspection verifies unchanged native supervision, source/card/terminal bindings, completed-output presence and freshness, retained failed/unknown attempts, resource floors, locks and actual watcher delivery. No new instrument or recovery; scientific launches retain the curator's publication-first order and existing admission gates. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_1324_PUBLIC.json).
+
+OPS-S14-STATUS-1014: fresh native/provider and recording inspection passes; no scientific worker is active. Completion manifests, current pins and full write-through records verify against the morning audit, with all recorded outputs still present and no later modifications. Stale overview and pilot-ledger execution wording corrected. No new instrument, inference or admission change; next six-hour health deadline preserved. [Inspection](../results/phase_2_4_stage_14/STATUS_20261014_PUBLIC.json).
+
+OPS-S14-HEALTH-1014-0703: exact native supervision, all current source/card/completion bindings, retained failures and unknowns, resource floors, locks and watcher health verify. No scientific worker is active; the three reader-runtime holds, failed profile prerequisite and failed prototype admission remain. No recovery or restart is required. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_0703_PUBLIC.json).
+
+G3-S14-MAKER-MAIN: the complete retained cloud main passes archive, native prompt/token, wire, source-history reconstruction, residency, native exit and provider-stop verification. Ten below-floor probability replies are retained at the frozen system penalties. The separate saved-output consumer passes known-answer checks, independent arithmetic/calibration and byte-stable replay, retains all eleven primary slots and unavailable API tests, and reports the complete fixed support and log-loss sensitivities. Apparatus validity does not imply a useful maker-history advantage; the completed method archive records the comparison and its dependence limits. No inference retry or theory edit. [Report](../results/gear3/G3-S14-MAKER-1/MODAL_MAIN_REPORT.md), [receipt](../results/gear3/G3-S14-MAKER-1/MODAL_MAIN_PUBLIC.json).
+
+G3-S14-API-PROFILE-PILOT: all six wire requests reconstruct from matched past-only histories, all twenty frozen bindings verify, and all six provider responses have complete usage and exact model identity. Two output-limit stops leave only four valid profiles, so the whole matched-profile prerequisite fails. One normally completed over-length response receives the predeclared sentence-boundary shortening; the invalid responses are not salvaged. Independent acceptance/accounting reconstruction and network-forbidden parser replay agree byte-for-byte. The reader-request builder refuses, the supervisor exits and the provider batch ends. Original evidence and four-cent booking remain; no retry, dependent inference or theory edit. [Receipt](../results/gear3/G3-S14-MAKER-1/API_PROFILE_PILOT_PUBLIC.json).
+
+G3-S14-MAKER-PILOT: the complete retained Qwen 27B Modal pilot passes native prompt/token, wire request, probability-contract, source/archive and GPU-residency replay at serial and two-at-once execution. All 269 archive members, 23 source bindings and 72 residency records verify. Native supervisor exit, provider app stop and conservative accounting are independently checked. This admits the cloud apparatus, not prediction ability or an automatic main. The unchanged measured main forecast fits its study budget but remains held by the account-headroom guard; no weaker forecast or repeat pilot is authorized. Scientific claims and theory remain unchanged under SM7. [Receipt](../results/gear3/G3-S14-MAKER-1/MODAL_PILOT_PUBLIC.json).
+
+The pilot's initial account hold was subsequently resolved by the curator's October 14 confirmation. The unchanged main subsequently completed and was fully landed as G3-S14-MAKER-MAIN above; its reservation is reconciled and its provider app is stopped.
+
+OPS-S14-SM4-SEMANTIC: the separately frozen local four-way handling readout is **not admitted**. Known-answer category and rotation floors fail, while score algebra, balanced no-evidence checks, complete native-view reconstruction and saved-logit replay pass. Nine output hashes, fifty source bindings and thirteen model files verify; six targeted tests and design lint pass. The worker exits normally with its GPU lock released. No human prototype training or human-learning inference follows. This is an instrument failure, not a prototype hypothesis result; SM7 leaves theory unchanged. [Receipt](../results/phase_2_4_stage_14/SM4_SEMANTIC_ADMISSION_PUBLIC.json).
+
+OPS-S14-HEALTH-1014-0054: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim; theory remains unchanged under SM7. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_0054_PUBLIC.json).
+
+OPS-S14-HEALTH-1013-1846: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_1846_PUBLIC.json).
+
+OPS-S14-HEALTH-1013-1239: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_1239_PUBLIC.json).
+
+OPS-S14-HEALTH-1013-0627: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_0627_PUBLIC.json).
+
+OPS-S14-HEALTH-1013-0018: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_0018_PUBLIC.json).
+
+OPS-S14-HEALTH-1012-1807: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The existing reader-runtime hold remains intact. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_1807_PUBLIC.json).
+
+OPS-S14-POWER-RECOVERY-1012: post-outage full recorded-output and saved-state integrity passes. A separately versioned coordinator preserves all frozen scientific cards and both unknown attempts, restores supervision and runs the next eight-epoch study. Reader-runtime drift from Ollama 0.35.1 to installed 0.40.3 is refused before unstarted reader dispatch; independent torch/CPU work continues. The 23 existing recovery/checkpoint checks and 11 added runtime checks pass, including actual-loop refusal/independent dispatch. No partial-score reuse or scientific retry. [Receipt](../results/phase_2_4_stage_14/POWER_RECOVERY_20261012_PUBLIC.json).
+
+OPS-S14-HEALTH-1012-1200: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. First-attempt transport acceptance and actual owner delivery are independently verified. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_1200_PUBLIC.json).
+
+OPS-S14-HEALTH-1012-0546: full frozen-card/output verification, native ownership, fresh progress/output, retained failure/unknown evidence, lock/resource limits and watcher/checkpoint supervision pass. No runtime repair or new instrument claim. The health event was inspected directly while pending during the active turn. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_0546_PUBLIC.json).
+
+OPS-S14-HEALTH-1011-2331: completed output and frozen binding hashes, retained failures/unknown files, native ownership, resource floors and actual watcher delivery pass. The exact operator memory hold was archived after repeated commit-headroom checks; the unchanged coordinator dispatches existing admitted work with fresh progress and full residency. No foreign process action or scientific retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261011_2331_PUBLIC.json).
+
+OPS-S14-UNKNOWN-RECOVERY: versioned coordinator preserves identity-bound UNKNOWN records without timestamp rewrites or retry. Repeated actual scans, dependent blocking, independent dispatch, live adoption and fail-closed mutation/identity controls pass in 38 checks. The native successor initially held dispatch for host commit pressure; the exact pause was later released after the documented resource checks in OPS-S14-HEALTH-1011-2331. Physical RAM availability alone did not protect allocation. [Receipt](../results/phase_2_4_stage_14/UNKNOWN_RECOVERY_20261011_PUBLIC.json).
+
+OPS-S14-HEALTH-1011-1725: full native, progress, completed-evidence, failure-preservation, lock/resource and actual-delivery inspection passes. Resource admission returned and the next frozen comparison runs; the interrupted attempt remains failed and no retry is admitted. Capacity shortfalls remain explicit. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261011_1725_PUBLIC.json).
+
+OPS-S14-HEALTH-1011-1114: full frozen-binding/output, retained-failure, native-owner, lock/resource and watcher-delivery inspection passes. The successor coordinator retains valid failed-attempt evidence; no recovery or restart is needed. Complete main costs refresh the capacity scenarios, with CPU and remaining-week shortfalls explicit. Full write-through precedes independent six-hour rearm. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261011_1114_PUBLIC.json).
+
+OPS-S14-QUEUE-NATIVE-RECOVERY: versioned coordinator binds inspected failed-attempt exit evidence to original card/dispatch/failure hashes. Actual dispatch, live adoption, unknown-identity refusals and mutation controls pass in the 59-check focused suite. The real successor resumes the unchanged plan; original science completed without restart. Native identity and watcher sources are unchanged. [Receipt](../results/phase_2_4_stage_14/QUEUE_NATIVE_RECOVERY_20261011_PUBLIC.json).
+
+OPS-S14-HEALTH-1011-0500: all completed output hashes, frozen bindings, retained
+failures, native supervision, queue/GPU locks, resource floors and actual health
+delivery verify. No runtime recovery or worker restart is needed. A private audit
+receipt variable collision was corrected and the full inspection rerun; the
+scientific evidence and runtime were unchanged. Eighteen complete main costs now
+anchor the capacity scenarios; CPU and full-week shortfalls remain explicit.
+Full internal write-through precedes health ACK and independent six-hour rearm.
+[Inspection](../results/phase_2_4_stage_14/HEALTH_20261011_0500_PUBLIC.json).
+
+OPS-S14-HEALTH-1010-2241: all current completed outputs, frozen bindings,
+retained failures, native supervision, queue/GPU locks and actual health delivery
+verify. A prevalidated coordinator-only handoff preserves the live scientific
+worker and queues the final allowed identical-recipe resource recovery with a new
+complete-output consumer. Original failed evidence and costs remain; no partial
+writer checkpoint is reused. Main-cost capacity scenarios now include the selected
+dose/epoch children, while CPU and full-week shortfalls remain explicit. The upper
+accepted-model-text dose changes actual exposure for only one writer per backbone;
+that is an intervention-support limit, not broad independent evidence.
+[Inspection](../results/phase_2_4_stage_14/HEALTH_20261010_2241_PUBLIC.json).
+
+OPS-S14-Q02-QWEN-SELECTION: the frozen Qwen selector reproduces calibration-only
+rank selection and admission exactly. Masking both parents' evaluation likelihoods
+in memory leaves its outputs unchanged. Parent/selector output hashes, source and
+input pins, and existing child-card bindings verify. Admission permits the frozen
+continuations with their remaining gates; it does not establish rank superiority,
+scientific benefit or measured capacity. Original records are preserved.
+[Receipt](../results/phase_2_4_stage_14/Q02_QWEN_SELECTION_PUBLIC.json).
+
+OPS-S14-Q02-SMOL-SELECTION: the frozen selector reproduces calibration-only rank
+selection and admission exactly. Masking both parents' evaluation likelihoods in
+memory leaves its outputs unchanged; original records remain intact. Parent and
+selector output hashes, dependency/source pins and predeclared child-card bindings
+verify. Admission permits existing continuations with their remaining gates; it
+does not establish rank superiority, scientific benefit or measured capacity.
+[Receipt](../results/phase_2_4_stage_14/Q02_SMOL_SELECTION_PUBLIC.json).
+
+OPS-S14-HEALTH-1010-1634: the first independent six-hour health event has both a
+first-attempt queue receipt and recorded owner delivery. Native queue/helper/watcher
+ownership, fresh outputs, loaded watcher hashes and complete terminal registration
+verify. Every current completed output hash and immutable card binding passes;
+failed partial evidence is unchanged. GPU admission correctly holds available
+work, with no eligible independent CPU job and no stale lock to recover. This
+validates the observed supervision and integrity path, not full-week capacity.
+Full write-through precedes ACK and independent six-hour rearm.
+[Inspection](../results/phase_2_4_stage_14/HEALTH_20261010_1634_PUBLIC.json).
+
+OPS-S14-P03-VRAM-INTERRUPT: the frozen runtime free-memory guard fired during an
+adapter block. Exact worker exit, GPU-lock release and dependent-consumer refusal
+verify; partial evidence and failed cost remain intact. Remaining GPU work is
+resource-held, with no eligible CPU job at inspection. This validates the observed
+stop/cleanup path, not a completed scientific comparison or a proof that fallback
+never occurred. A separately identified recovery awaits sufficient headroom and
+repair-allowance review; the guard and unrelated applications remain unchanged.
+[Inspection](../results/phase_2_4_stage_14/P03_SMOL_SEED2_RESOURCE_FAILURE_PUBLIC.json).
+
+OPS-S14-SOURCES: bounded Wikipedia API and rights-first GitHub blog intake retain
+exact UTF-8 parent/child bytes, attribution, request receipts and historical rights.
+Known-byte, corruption, hidden-content, prose-rights refusal and budget checks pass;
+both native pilots complete with scientific admission false. Source support, reader
+cutoffs and additional prose rights still gate studies.
+[Receipt](../results/phase_2_4_stage_14/PUBLIC_SOURCE_PILOTS_20261010.json).
+
 OPS-S14-SETUP-HEALTH: source-bound fixed Friday marker helper passes actual due,
 cancel and idempotent reentry tests. Native queue/helper ownership, all terminal
 registrations, watcher loaded sources and independent six-hour schedule verify.
-First six-hour idle delivery is future; markers are operational, not a final packet.
+At setup, first six-hour idle delivery was future; it is now verified in
+OPS-S14-HEALTH-1010-1634 above. Markers are operational, not a final packet.
 [Inspection](../results/phase_2_4_stage_14/SETUP_HEALTH_20261010.json).
 
 

@@ -1,49 +1,55 @@
 # Workspace and documentation map
 
-The September 27 organization separates working authority, preserved study history,
-private operations and auxiliary checkouts. No scientific record was retired or
-promoted by this filing pass.
+Start with [current status](../CURRENT_STATUS.md) for authority and the next action,
+then the [stage index](design/README.md) for the right design folder. **Stage 14 is
+current; Stage 13 is the closed September campaign.**
+
+## Repository map
+
+| Need | Read here |
+|---|---|
+| Startup and operating constraints | [AGENTS](../AGENTS.md), [STATE](STATE.md), [TODO](../TODO.md), [operations](CODEX_OPERATIONS.md) |
+| Any stage's plans, sources and evidence | [Design index](design/README.md): one visible folder per stage, 2 through 14 |
+| Current campaign | [Stage 14](design/stage-14/README.md) |
+| Closed September campaigns | [Stage 13](design/stage-13/README.md), [Stage 12](design/stage-12/README.md) |
+| Cloud rounds across stages | [Gear 3 campaign index](design/gear-3/README.md) |
+| Program-wide context | [Program shelf](design/program/README.md) |
+| Claims and curator framing | [Theory](theory/README.md); October 14 errata applied |
+| Methods and capabilities | [Method shelf](method/README.md), [TOOLS](TOOLS.md) |
+| Complete method/results record | [FINDINGS](../FINDINGS.md), `results/` and immutable receipts |
+| Original briefs and errata | [Design archive](design/archive/README.md), [supplied-source archive](archive/study-specs/README.md) |
+| Retired operational summaries | [Operating archive](archive/operations/README.md) |
+
+The top of each live entry point describes current authority; dated history below
+it remains history. Prefer links to CURRENT_STATUS over duplicating volatile queue
+counts and forecasts. Result closure, valid evidence and complete study scope are
+different facts.
+
+## Stable paths and filing
+
+New briefs belong once in their stage folder, with source hash and status in its
+README. Theory errata belong in the source archive with an application receipt;
+current claims belong in theory. Keep supplied sources byte-identical.
+Each stage folder stays visible after closure and links to its preserved archive.
+
+Stage 12's linked originals, three older frozen design paths and the engineering
+loop remain at established paths for bound consumers or preserved source links.
+They are indexed exceptions, not pending filing. Keep the locked specification,
+preregistrations, raw capsules, cards and result receipts in place. The
+[October 14 relocation ledger](archive/operations/DOCUMENT_RELOCATIONS_20261014.json)
+records document moves and mechanical link repairs; no scientific evidence was
+retired by organizing the shelves.
 
 ## Workspace outside Git
 
-| Location, relative to the workspace | Role |
+| Location | Role |
 |---|---|
-| `sounding-line/` | Main repository and sole active operating checkout |
-| `reference/` | Separate external research checkouts; do not edit during ordinary work |
-| `.worktrees/gear3-round1/` | Inactive historical Git worktree, branch and local evidence retained |
-| `.workspace/assessments/2026-09-16/` | Private cleanup assessment and inventory artifacts |
-| `.agents/`, `.codex/`, `.claude/` | Existing local instruction/runtime surfaces; preserved |
+| `sounding-line/` | Main repository and active operating checkout |
+| `reference/` | Separate research checkouts; do not edit during ordinary work |
+| `.worktrees/gear3-round1/` | Inactive historical worktree; branch and evidence retained |
+| `.workspace/assessments/` | Private workspace assessment and incoming-source preservation |
+| `.agents/`, `.codex/`, `.claude/` | Existing local instruction/runtime surfaces |
 
-The cloud worktree moved through Git's supported worktree move. Its head remains
-`f1083efdd3688c20854f8af941a7c80a3508705a`; its unique history was neither merged nor
-deleted. Historical absolute paths in old receipts still describe where a run
-occurred. Relocation is not authorization to execute that branch.
-
-## Repository navigation
-
-| Need | Authoritative home |
-|---|---|
-| Current authority and next action | [CURRENT_STATUS](../CURRENT_STATUS.md), kept short |
-| Operating constraints and retained handoffs | [STATE](STATE.md), [AGENTS](../AGENTS.md), [operations](CODEX_OPERATIONS.md) |
-| Study work and decisions | [TODO](../TODO.md), [design index](design/README.md) |
-| Questions and scientific interpretation | [Theory](theory/README.md), unchanged by this cleanup |
-| Complete method/result record | [FINDINGS](../FINDINGS.md), `results/` and its immutable receipts |
-| Methods and instruments | [Method shelf](method/README.md), [TOOLS](TOOLS.md) |
-| New Stage 13 brief and plan | [Stage 13](design/stage-13/README.md), pending implementation |
-| Historical stage designs | [Stage archive](design/archive/README.md) |
-| Supplied old study sources | [Source archive](archive/study-specs/README.md) |
-| Superseded operating snapshots | [Operating archive](archive/operations/README.md) |
-| Private evidence, models and monitoring | Existing ignored raw/corpus and `.agent-state/` paths |
-
-Keep the locked `docs/SOUNDING_LINE_SPEC.md`, preregistrations and lock definitions
-at their established paths. Stage 12 documents remain together at their established
-design paths until its final packet; three older frozen consumers' paths are listed
-in the design index. Do not reorganize raw source capsules or rewrite historical
-JSON receipts to make them appear current. The relocation ledger maps old document
-paths without changing scientific source hashes. Preserve FINDINGS/TODO history;
-processing or archiving scientific results requires its own evidence and authority.
-
-New incoming briefs are filed once under their stage, with source hash and status.
-Update the short status and indexes rather than appending a new live summary to every
-entry point. Superseded snapshots belong in the archive, with the original base path
-stated. Reuse existing four-hour supervision; cleanup does not reset its schedule.
+Raw text, local models and operational evidence remain in their existing ignored
+paths. The independent health cadence is six hours; a documentation pass does not
+reset it or authorize new work.

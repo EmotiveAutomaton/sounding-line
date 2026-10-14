@@ -1,5 +1,18 @@
 """Multiple-comparison audit — every p-value this project has ever quoted, corrected at last.
 
+DESIGN CHECK (2026-10-14)
+Lessons read: LESSONS sections 3-5; CONTROLS, for this completed-cell ledger addition.
+Gates, null/alternative/direction: Under the NULL, calibrated null p-values have
+no systematic small tail; BH/BY reduce false discoveries across the named family.
+Under the ALTERNATIVE, sufficiently small adjusted p-values may retain a signal.
+Correction cannot establish an effect's sign, independence or construct validity;
+it guards overclaiming from multiplicity, never rescues an invalid original test.
+Verdict bands per arm, exhaustive: adjusted BY p < .05 survives BY; otherwise
+adjusted BH p < .05 survives BH only; otherwise raw p < .05 loses to correction;
+otherwise it was never significant. Equality .05 belongs to the nonsignificant
+side. Diagnostic entries are recorded but excluded from decision families.
+The campaign-specific eleven-contrast Holm rule is separate and unchanged.
+
 ── WHY ───────────────────────────────────────────────────────────────────────────────────────
 
 `FINDINGS.md`, known weakness 1: **this project has never corrected for multiple comparisons.**
@@ -60,6 +73,27 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    # Completed Modal cell, frozen eleven-slot campaign family (five API slots unavailable).
+    # The campaign's Holm results remain primary; this project-wide audit is additional.
+    ("G3-S14-MAKER R27.H1-B-pop", 0.007399260073992601, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-B-pop", 0.00009999000099990002, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-R27.H3", 0.9435056494350565, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-R27.H0", 0.07929207079292071, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-B-writer", 0.00009999000099990002, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-B-mixlogit", 0.00009999000099990002, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H0-B-last", 0.0542945705429457, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H0-B-mixlogit", 0.00009999000099990002, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H0-B-pop", 0.00009999000099990002, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H0-B-writer", 0.00009999000099990002, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H1-B-last", 0.8651134886511349, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H1-B-mixlogit", 0.0010998900109989002, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H1-B-writer", 0.005099490050994901, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H1-R27.H2", 0.3397660233976602, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H2-B-last", 0.35376462353764626, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H3-B-last", 0.5295470452954705, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H3-B-mixlogit", 0.00009999000099990002, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H3-B-pop", 0.00019998000199980003, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
+    ("G3-S14-MAKER R27.H3-B-writer", 0.00039996000399960006, "diagnostic", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
     # ── PRIMARY: used to support or reject a claim ────────────────────────────────────────────
     ("G3.1 method unlock, A vs B",        0.68,      "primary", "results/gate3/VERDICT.md"),
     ("W-1 wall as displacement",          0.53,      "primary", "results/wall/VERDICT.md"),

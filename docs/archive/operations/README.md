@@ -16,3 +16,10 @@ rendered links use the corresponding file at repository commit
 navigation pages. [Document relocations](DOCUMENT_RELOCATIONS_20260927.json) records
 old/new paths and original/filed hashes. Differences in three operator-authored
 briefs are relative-link repairs only. Source handoffs retain original bytes.
+
+
+October 14 adds the [superseded Stage 14 handoff](STAGE14_IMPLEMENTATION_HANDOFF.2026-10-14.md)
+(original link base `docs/design/stage-14/`) and the
+[document relocation ledger](DOCUMENT_RELOCATIONS_20261014.json). The snapshot
+retains its original bytes and dated running statements. Use the current stage
+handoff for operating state.

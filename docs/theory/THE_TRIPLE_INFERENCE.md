@@ -12,15 +12,80 @@
 
 **The canonical claim, in the corrected vocabulary.** The triple inference names **three target
 families at different timescales**, not three equivalent nodes, and not necessarily three separate
-algorithms. A reader jointly estimates the maker's **proximal goal**, the **process** that produced
-the artifact, and the maker's **more persistent motivational organization**; evidence about one
-target constrains the posterior over the others. **Non-claim.** The targets need not occupy three
+algorithms. A reader estimates the **process** that produced the artifact, read through the
+**goal** that explains every decision the artifact records, the first goal up the maker's hierarchy
+at which those decisions converge; explains deviations from that process as the maker's
+**attention**, habit, history or a contextual limit the reader cannot see; and estimates the
+maker's **preferences** from present and recorded attention, which then gate uptake. Evidence
+about one target constrains the posterior over the others.
+**Non-claim.** The targets need not occupy three
 cognitive layers or form three symmetric edges. **Current verdict.** Goal and process interact
 measurably in simulation; value profiles become recoverable across artifacts in the constructed
 world; the full three-way coupling is untested. They are one idea seen from three sides. The
 inference names the targets, expertise moves decisions between them
 ([`DECISION_TRACES.md`](DECISION_TRACES.md)), and a reader instantiates them on whatever machinery
 it has ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md)).
+
+**The 2026-10-13 order.** The same three questions, re-sequenced.
+
+> I know that the triple inference has changed its shape now. Its shape is, you start with trying to
+> extract the process, and you extract the process by finding the highest order goal you're able to
+> work out, and trying to find higher order ones, or other ones that are in parallel that you aren't
+> aware of, or even perhaps nested subgoals [...]. And then after you have enough of that, or as
+> you're accomplishing that, you explain deviations. The second inference is explaining deviations as
+> either proximal attention, expertise, habit. Sorry, habits, not expertise. That's different. Habits
+> would be just things that are repeated, but almost accidentally, like having a left-handed slant
+> [...]. Or history, history. Whatever. And so you extract attention, what the maker was attending
+> to. And then, with both of those pieces of information, the maker's immediate attention and also a
+> record of their previous attention through the process, you extract, then, the maker's values
+> [...]. Do you use it to moderate uptake? I guess you would. You would use it to moderate uptake,
+> and like disgust, as a wall, you can, you can slam it shut, for sure.
+
+> So it's still three inferences, it's just a different three inferences and a different order.
+
+> In the past, when I've said goal, I've been thinking about proximal attention as goal, and that's
+> not actually what I think. [...] Maybe goal is the highest level of the process hierarchy, and that
+> was selected in part by attention, because attention uses that expertise lattice as a way of
+> finding better, more interesting goals, because you have more visibility onto the outcomes [...],
+> stronger predictive models in terms of chains of outcomes producing certain results.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (14:01 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+**Which goal** *(2026-10-14)*:
+
+> If goal depth isn't capped, then I guess there's actually an answer here. When I say highest level
+> goal, I am explicitly looking at what is the highest level goal that explains all of these
+> actions. Specifically, I think I see the answer here. If I'm looking at an artifact, I go to
+> highest level goal that explains all of these actions that I am observing. And of course that goal
+> is part of a higher hierarchy. Everything is hierarchical up to the highest level, which is
+> presumably survival and such.
+
+> Speaking to the new triple inference, first, process is not through the highest goal you can
+> reach, cuz the highest goal [...] [is] just survival or reproduction. [...] But I'm referring to that
+> as, like, whatever the terminal values of your utility function are. And oh God, again, I really
+> hope that they're not just those two things. But either way, you don't start by jumping through
+> the highest goal you can reach. You start by trying to reach the highest goal that explains all of
+> the decisions that have created stimuli for the artifact that you are looking at specifically. Why
+> would someone have spoken to me in this way? Why would someone have made this whole painting? Why
+> would someone have, whatever, you get it.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Process comes first. It is read through the goal that explains every decision the artifact records,
+not through the top of the maker's hierarchy, which explains everything and therefore distinguishes
+nothing. Every goal above the explaining goal covers the same decisions, so the operative goal is the
+first one up the hierarchy at which they all converge, or the smallest set of parallel goals that
+covers them. Plan recognition formalizes the same move as the minimal set of top-level plans that
+explains every observation (Kautz & Allen, 1986, snippet), and Bayesian generalization favors the
+smallest hypothesis consistent with the data, because a broader one spreads its probability over
+outcomes that were never observed (Tenenbaum & Griffiths, 2001, snippet). Goal here names a level
+of the process hierarchy rather than the momentary focus of attention, and older walkthroughs that
+call that focus a proximal goal use the earlier sense. Deviations from the reconstructed process
+are explained second, as attention, habit, history, or a contextual limit the reader cannot see.
+Preferences come third, estimated from the present focus of attention together with the record of
+past attention that expertise preserves, and they set how much the reader takes up. The deviation
+classes are held in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §6, and what a reader does when
+no goal explains the artifact in §5 of the same file.
 
 **Operational definition, ratified 2026-09-01.** Sounding Line is an artifact-grounded
 inverse-generative system that reconstructs a revisable model of how a maker transformed their
@@ -86,8 +151,12 @@ Translated into objects, before any claims about their shape:
 | **local subordinate goal** `g_t` | the purpose of a particular choice or region, potentially serving one or several governing goals; not identical to the fact of attending to it | step or region scale |
 | **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
 | **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences; the shared language of a domain; the largest part, never the whole, of the ability to recreate | cross-episode, domain-relative |
-| **drives** `D` | currently active motivational pressures or primitive constraints | state-dependent |
-| **values** `V` | persistent organization of tradeoffs among goals, drives, and trajectories | longitudinal |
+| **set points** `S` | states the maker works to keep or return to, bodily, social or epistemic; the persistent organization older text calls values | longitudinal |
+| **drives** `D` | the inherited emotional primitives, Panksepp's systems with the bodily needs beside them; pre-made solutions to common problems that are themselves set points, each with a need that grows with deprivation; the first layer of the transition map | species-typical; the need is state-dependent |
+| **preferences** `W` | direction and strength of observed actions relative to set points, strength read as the cost the maker paid; the quantity extracted | cross-episode |
+| **attention policy** `pi_A` | the rule that allocates processing, steered by expected preference satisfaction; the stream in which preferences show up, recorded lossily by expertise | context-conditioned, cross-episode |
+| **habit** `E` | all repetition, intended or not, and what it predicts the maker does when nothing pushes otherwise; expertise is its intended part | cross-episode |
+| **values** `V` | learned, higher-order solution sets, heuristics that solve broad classes of inference and planning problems in service of the drives; personal to each maker and in principle identifiable | longitudinal |
 | **external context** `C_ext` | commission, coercion, medium, audience, tools, and objective constraints | episode-local |
 | **maker beliefs** `B` | information the maker possessed and what they believed | episode-local, history-shaped |
 | **maker context** `C_m` | external context interpreted through the maker's beliefs and expertise | episode-local |
@@ -119,10 +188,63 @@ do; process is one realized path through it, and results about one do not automa
 to the other. **External context is not maker-interpreted context.** The commission, medium,
 audience, tools, and objective constraints are one thing; the situation as the maker perceived it
 through their beliefs and expertise is another, and an objectively available action was not
-necessarily available to the maker. **Drives are not values.** Drives may be inputs to action
-selection; values describe their persistent organization. Treating any of these pairs as synonyms
+necessarily available to the maker. **Drives are not values, and neither is a preference.** A drive
+is an inherited set point whose need grows with deprivation, a value is a learned and personal
+solution set for serving drives, and a preference is revealed by what the maker pays to close the
+distance to a set point. Treating any of these pairs as synonyms
 is why a vertex of this file has repeatedly appeared and disappeared.
 Where his quotes say "values/drives" as one item, the prose keeps them split.
+
+**Definitions fixed 2026-10-13.**
+
+> To be clear, I want to nail the definitions of these words down. Values are higher level heuristics
+> that are used for solving inference problems. I have maintained that attention is something of a
+> magical thing in cognitive science. In God of the gaps terms, it's where we've placed
+> consciousness. We know what it does, what effect it has, but we don't know what directs it. We
+> don't know what homeostasis it is trying to maintain. The attentional policy, I'm going to argue,
+> is the actual preference stream. It's where the information can be found. And because of that, we
+> have a record of it through expertise. It is, in a very real way, wanting to want. The policy itself
+> is about maintaining homeostasis around certain states. [...] I worry that I'm misstating things
+> here, and I need to be more precise with my language, but I think that's correct.
+
+> No, values are just another kind of technique. [...] I'd have to be precise with this, because
+> ToMpathy says core values. But what I really mean are latent preferences. Values are really just
+> expertises. Like, they're heuristics. They're quick high-level tricks for solving lots of the
+> complicated social and general problems that exist in the world. Of course you would learn those
+> too.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (10:17 and 14:01 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+**The four terms, settled** *(2026-10-14)*:
+
+> I actually think that we should just straight up try to avoid using the word values from now on.
+> Like, if emotions are lower order solution sets and values are higher order solution sets, that's
+> fine. But, like, just saying midbrain kind of feels like it captures both. Though values are going
+> to be individually personal. They should be identifiable, even. I think we need to include them as
+> their own separate word. [...] I do think that this is the accurate way of dealing with it.
+> Preference, set point, emotions, values.
+
+> [...] I think we need to separate drives. You know what? [...] We're going to say core values in
+> the label, but I think drives is an appropriate term for the low-level emotional primitives from
+> Panksepp. I've used that term before. I really want to cement it if it's correct [...]. It just
+> feels right.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+**Reading rule.** In text and quotations dated before 2026-10-13, "value" and "values" name the
+persistent motivational organization this table now splits into set points, drives and
+preferences. From 2026-10-13 a value is a learned, higher-order heuristic, and from 2026-10-14 a
+drive is one of the inherited emotional primitives; older text used drive for any active
+motivational pressure. Identifiers and section titles keep their original wording; new prose uses
+the split. The interface label "core values" stays, and whether its box shows latent preferences
+or the first layer of solutions, the drives, is open. A drive's momentary need is its distance from
+its set point, the quantity homeostatic reinforcement learning calls drive
+([Keramati & Gutkin, 2014](https://elifesciences.org/articles/04811), snippet); that formalization
+is the analyst's. Panksepp kept the emotional systems apart from homeostatic needs such as hunger
+([Panksepp, 2007](https://sanlab.psych.ucla.edu/wp-content/uploads/sites/31/2016/03/Panksepp_2007_Perspectives.pdf),
+read), while Solms treats both as needs whose deviations from settling points are felt
+([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
+read); the drive row follows Solms.
 
 **Current appraisal, intended audience response, and persistent value are different quantities.** A
 maker can try to induce fear without feeling it; a reader can identify that intention without
@@ -848,12 +970,83 @@ Panksepp label licenses a claim about both, and his phase ruling holds the leg c
 for now: *"The drives-expertise relationship is going to get ugly. Luckily, we do not
 need to figure out that leg of the inference yet."*
 
-**State of the section's claim.** No row sits here because the fourfold distinction has never been
-tested as a distinction; it is the file's working vocabulary, adopted for the reasons above. Its
+**Wanting to want, and expertise as a record of attention** *(2026-10-13)*:
+
+> Most notably, I can't shake the feeling that, for some reason, it sure does seem like most people
+> aren't treating expertise as a record of past attention, nor are they treating [...] the choice on
+> where to direct attention as the idea of wanting to want. You want to want something, and that's
+> how you direct attention towards it. But your habits, previous expertise, previous decisions you
+> made pull you away from it. Like, that's the whole code, and it's not even that complicated.
+
+> I want to note that wanting to want falls out of the model in a way I think that you missed. As you
+> pay attention now, what it does is it changes your transition mapping later, and your view of the
+> possibility space. And so as you take certain actions over time, it allows you to do two things.
+> One, it first allows you to want things by allowing you to predict the later outcomes, and thus
+> wanting the proximal things that come with that. Being more confident about that connection is one
+> of the ways you can create the wanting to want. The other way is by literally just brute force,
+> neurons that fire together wire together, meeting your needs as you do the thing that you want. So
+> if you paint while you lust frequently, then you start to do them together reflexively, and so you
+> can then start to treat painting as a way of dealing with your lust need. And given that lust is a
+> heuristic for some core inner drive, this allows you to serve that heuristic. This is how wanting to
+> want is derived.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (10:17 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+**No learned ends, and how wanting to want trains** *(2026-10-14)*:
+
+> Learned goals that become ends in themselves. They don't ever really become ends in themselves. If
+> anything, what happens is they distort the possibility space such that you see the value in
+> taking a particular action. They're kind of min-maxing in a particular way if they become an end
+> in themselves. You might min-max towards GRIEF/PANIC, and therefore that's kind of what [one
+> clinical pattern] perhaps looks like, where all of a sudden all of your utility math becomes
+> maximizing belongingness. And that would be part of because you spend a lot of time attending to
+> it, which distorts that possibility space anyway. It links it automatically with a ton of
+> different stimuli, and that becomes the main solution you look to. But I don't think that ever
+> becomes an end goal in and of itself. It's just a massively distorted transition map. So much so
+> that sometimes it leads you astray, but it's not like it becomes an end goal; that's just an
+> imprecise mapping.
+
+> For example, if you wrote something too casually and later went back to edit it to be more
+> professional, that would be an example of wanting to want to project more credibility. You
+> currently don't want to project more credibility, or you would do so; it would be baked into your
+> expertise. But wanting to want would be a want to repeat in order to train it. And it is that
+> wanting to want that slowly does create who you are. And it does bake into habit over time
+> through that act of repetition.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+Attention spent now is an investment in what the maker will later find reachable and wanted. The
+two routes are distinguishable in principle. A preference acquired by learning what leads to what
+should lapse when the need it served is met by other means; one acquired by association can
+persist. The phrase has an established philosophical sense, the second-order desire
+([Frankfurt, 1971](https://doi.org/10.2307/2024717), snippet), and the associative route resembles
+Allport's functional autonomy of motives
+([Allport, 1937](https://psychclassics.yorku.ca/Allport/autonomy.htm), snippet), with the
+difference the curator insists on. The means never becomes an end. It distorts the transition map
+until the means looks like the best route to a drive, so pursuit that survives the need being met
+is habit, not a new terminal goal. Learning research draws the same line, since outcome
+devaluation separates goal-directed control from habit (Dickinson, snippet) and extended training
+makes human responding insensitive to devaluing the outcome
+([Tricomi, Balleine & O'Doherty, 2009](https://sites.socsci.uci.edu/~lpearl/courses/readings/TricomiEtAl2009.pdf),
+abstract read). The editing example gives the mechanism of change. Wanting to want is a want to
+repeat in order to train, the deliberate practice that builds expertise (Ericsson, Krampe &
+Tesch-Römer, 1993, snippet), and a revision toward a register the maker does not yet produce
+automatically is its trace.
+
+| # | hypothesis | status |
+|---|---|---|
+| **G185** | Wanting to want arises by two acquisition routes, learned contingency and association, which outcome devaluation separates | **OPEN, logic only.** A constructed test ran as card B2 of the Ghost V22 first pass (13 October); its result is not yet read into this file; no project measurement |
+| **G188** | No learned goal becomes terminal; a means that looks like an end is a distorted transition map, and pursuit that survives the need being met is habit | **OPEN.** Extended training makes human responding insensitive to devaluation (lit, READ), the habit half; whether deliberate, costly pursuit of a means ever survives devaluation is untested here |
+
+**State of the section's claim.** The fourfold distinction has never been tested as a distinction;
+it is the file's working vocabulary, adopted for the reasons above. Its
 first empirical bite arrives sideways, through §5's commission result, where an imposed goal
 pursued without a drive reads differently from the same goal pursued with one, which is the
 distinction between goal and drive doing observable work in the constructed world. Until real
-artifacts show the same, this section rates as vocabulary with one simulated demonstration.
+artifacts show the same, this section rates as vocabulary with one simulated demonstration. The two
+routes to wanting to want are a prediction with a known separating manipulation, run in a
+constructed world but not yet read and unmeasured on makers (G185), and the claim that no learned
+goal becomes terminal turns persistence after devaluation into a habit signature (G188).
 Confidence: untested, logic only, with the sim demonstration held by §5.
 
 ## §5. Where value information could live: four competing accounts
@@ -925,6 +1118,12 @@ been recovered.**
 | **V-S6** | On constructed value worlds the reader preserves the policy-equivalent class until the diagnostic event, selects the separating probe, and its inferred trajectory predicts the changed-context choice beyond goal-utility baselines | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The value cards inherit the dependency-tainted predictor; several of the questions duplicate one planted mapping or one statistic (V02 with V03, V04 with V05); the changed-context target exposes hidden generator structure; no Stage 6 conclusion about breadth, search, value trajectory, preference, or changed-context choice is licensed |
 |   | | *(this row's history is SPLIT on the Stage-6 block, L316 to L322, then voided by the 2026-09-02 dependency audit, L330; the twins and the staircase geometry stand as construction facts, rebuilt behind the Stage 7 boundary as V01 to V06)* |
 
+| **G182** | A maker's choices grow more consistent the farther the maker is from a set point; near it they carry little set-point information | **OPEN, logic only.** Follows from reward as the reduction of a need (lit, SNIPPET) and from value-difference choice models (lit, READ); no project measurement. A constructed test ran as card B1 of the Ghost V22 first pass (13 October); its result is not yet read into this file |
+| **G183** | Effort a maker pays to depart from habit scales the strength of the revealed preference | **OPEN.** The costly-redirection quotes later in this section are its earlier form; the proposed CoAuthor effort arms (typing after a suggestion menu, and decision time) would be its first human-record test |
+| **G184** | Unpredictability on difficult choices reflects difficulty, not preference | **OPEN; consistent with value-based choice research (lit, READ).** Choice probability rises smoothly with value difference and difficult choices are slower; no artifact-level test |
+| **G186** | Set points drift; estimating a maker's current set points trades the amount of evidence against its recency, and behavior executed from expertise dates from when it was learned rather than when it is executed | **OPEN, logic only.** Volatility-adjusted learning rates and regulated set-point change supply the pieces (lit, SNIPPET); skill gives a single artifact weak dating evidence that talent confounds (lit, READ); no project measurement |
+| **G189** | An improvement attempt reveals a correction to the maker's previous trajectory, a constraint on the preference vector rather than a fresh estimate of it, and the estimate sharpens as corrections accumulate | **OPEN, logic only.** Coactive learning and preference learning from user edits formalize the feedback (lit, READ); no project measurement |
+
 **Value change against concealment: dated evidence and the trajectory** *(the 2026-08-30/31
 passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*:
 
@@ -950,6 +1149,105 @@ passes; provenance in `docs/design/archive/PHASE_2_4_STAGE_6_THEORY_ERRATA.md`)*
 > probabilistic mapping of where attention chooses to focus may itself be the latent preference.
 
 *2026-09-01/02 walkthroughs; spoken wording lightly reconstructed.*
+
+**Preference vectors and set points** *(2026-10-13)*:
+
+> I've told you where the preference signal lives. It's a set of vectors, each one derived from
+> actions you have observed trying to maintain homeostasis, these actions inferred from the lossy
+> record of the past and the current attentional focus at time of creation. And of course, costly
+> departures from habit are baked into this, because those would be absolutely vectors, and they'd be
+> strong vectors because they have a cost. [...] The strength of the vector is kind of the amount of
+> energy you're willing to spend in returning back to the state, sort of. Maybe not. It certainly
+> scales it, though.
+
+> [...] The idea that you get more predictable as you get further from the set point, I would
+> imagine. And I would imagine, yes, you spend more effort, but you also have stronger preferences in
+> general, and [...] the choice becomes less yours, in a very real way. In the most extreme case, you
+> don't get to choose not to eat food if you are truly starving. So I hear, at least, anyway.
+
+> Unpredictability on difficult choices is a preference signal? No, I don't think that it is. I think
+> that it's just difficult. I think that your predictions get weaker and weirder, and so the noise of
+> [...] focusing on different parts of your heuristics probably gives you vastly different outcomes,
+> especially if your heuristics are poor.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (14:01 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+These restatements make the costly-redirection rule above the main preference channel and add two
+predictions about where preference evidence is dense. Far from a set point, a maker's choices should
+be more consistent and more expensive, so they carry strong vectors; near it, choices look noisy and
+say little. Hard choices between near-equal options add noise without adding preference. Value-based
+choice research supports the second prediction in general form, since choice probability rises
+smoothly with the value difference between options and difficult choices are slower
+([Krajbich, Armel & Rangel, 2010](https://www.rnl.caltech.edu/publications/pdf/krajbich2010.pdf),
+abstract and results read). Homeostatic reinforcement learning supplies the first as a derivation,
+reward being the reduction of a need ([Keramati & Gutkin, 2014](https://elifesciences.org/articles/04811),
+snippet). Neither is a measurement of human makers.
+
+**Drifting set points** *(2026-10-14)*:
+
+> Set points would have to be able to drift, maybe. No, yes, I think that's a reasonable thing. I
+> think the set point at that point would be, you have to have a trade-off between how much accuracy
+> you want to have versus how [...]. Like, there's some kind of math here. Over time you would get
+> more data points, and ideally more recent data points, which would allow you to have a more
+> accurate understanding of their current state. Furthermore, there's an unusual interaction here
+> that I have to acknowledge, with the fact that expertise indicates previous decisions, and
+> therefore the math. I think it's a lot more complicated than just vectors on a single sinusoidal
+> [...]. I don't know. That's pretty messy, actually. There's still a trade-off.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+Set points move, so an estimate of a maker's current set points trades the amount of evidence
+against its age. Physiology names regulated change in a set point rheostasis (Mrosovsky, 1990,
+snippet), and people raise their learning rate when the world they track becomes more volatile
+([Behrens et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17676057/), snippet), which is the formal
+version of weighting recent data more heavily when set points move faster. The expertise
+interaction runs the other way. Behavior executed from expertise was decided when the expertise was
+learned, so it is old evidence appearing in a new artifact, and a recency weight has to date each
+preference by when it was formed rather than when it was executed.
+
+> As a note, I want to say that an artifact, one artifact, can't date actions, but you do get weak
+> evidence for the dating on those actions. Like, if you have the date the artifact was created, and
+> you know they have an extreme amount of skill, then it does suggest that you're looking at
+> something on the order of decades rather than the order of weeks. There's rather strong evidence
+> of that, I would suggest. It's weak evidence that it's on the order of decades rather than years.
+> Talent and so on become messy inclusions. But in general, you do have weak evidence of all of
+> this.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+A single artifact still dates its decisions weakly through skill, since expert performance
+generally reflects years of practice (Ericsson, Krampe & Tesch-Römer, 1993, snippet). Practice
+explains a minority of the variance in performance, from about a quarter in games to under one
+percent in professions ([Macnamara, Hambrick & Oswald, 2014](https://doi.org/10.1177/0956797614535810),
+abstract read), which is the talent problem the curator names.
+
+**Improvements as corrections** *(2026-10-14)*:
+
+> In part, process improvement sure does seem like most of the time you try to do both. If you're
+> going to aim to try to make things better, you do something that both satisfies your preferences
+> more and also has a chance to teach you more, if you're going to be doing epistemic foraging. If
+> you see the opportunity for an improvement of advancement towards your preferences, then the
+> expression of that opportunity is itself, by definition, an opportunity for teaching. But
+> notably, it is that seeking of something, building it towards your preferences more, that we can
+> use to track the vector. You tried to improve the process in a way, and that implies that you
+> wanted to move towards a certain state from the current state. The previous vector that you were
+> on was insufficient. That, if anything, makes this new vector the, [...] there's a piece of math
+> here I don't understand, where, like, the current interest is not just a vector, but it's a
+> modification to a previous vector, which means its estimate should be smaller, maybe, or at least
+> it has more constraints on it.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+An improvement attempt is a correction. The maker judged the current trajectory insufficient and
+moved from it toward a preferred state, so what it reveals is a comparison, the new version over
+the old. Under a linear model of preference a comparison is one constraint, a half-space the
+preference vector must lie in, rather than a fresh estimate of the vector, which is the curator's
+"more constraints". Coactive learning formalizes learning from exactly this feedback, a user's
+slightly improved version of the system's output
+([Shivaswamy & Joachims, 2015](https://jair.org/index.php/jair/article/view/10939), abstract read),
+and recent work infers latent user preferences from users' edits to model outputs
+([Gao et al., 2024](https://arxiv.org/abs/2404.15269), abstract read). Each correction says less
+than a full vector, and the estimate sharpens as corrections accumulate.
 
 **The two-timescale trace, and what it may and may not say about preference.** One artifact
 supplies one dated present allocation plus an anterior, context-filtered mixture carried by
@@ -1008,10 +1306,15 @@ surface-trivial, and never taken up by the student. Stage 6 contributes no reade
 evidence: its value quartet realized its states through the privileged call and is void
 (V-S6), and the constructed geometry of policy-equivalent twins separated only by the
 diagnostic event survives as a construction fact rebuilt behind the Stage 7 boundary. No real
-maker's values have been recovered by any account. Confidence: the sim discriminations are
+maker's values have been recovered by any account. Preference evidence is expected where makers pay
+to depart from habit, densest far from a set point and thinnest on hard choices between near-equal
+options (G182 to G184). Its weight should fall with the age of the decision that produced it, since
+set points drift (G186), and improvement attempts carry it as corrections, one constraint at a time
+(G189); these are predictions, not results. Confidence: the sim discriminations are
 sim-only, authoritative about method; all four accounts and the separator are untested on real
 text; the Stage-3 rows are one bad test away, the carrier's triviality measured on twelve
-decisions; the Stage-6 quartet is instrument-dead.
+decisions; the Stage-6 quartet is instrument-dead; the set-point, effort, difficulty, drift and
+correction predictions are untested, logic only.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from
 

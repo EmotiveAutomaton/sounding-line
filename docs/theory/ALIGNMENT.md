@@ -173,6 +173,85 @@ may narrow its reference class, manipulate people into predictability, adopt a c
 aggregation fiction, or set the epistemic/pragmatic balance to favor its captors. Population
 breadth is therefore a required property to derive, not a protection already obtained.
 
+**Two parts, a target, and a weighting** *(2026-10-13)*:
+
+> Anti-capture is actually two things. First, it's the knowledge that we have to have pretty
+> flawless value convergence to not be at risk when dealing with a superintelligence, and so you need
+> to have those estimates to be damn near 99.99 repeating. That being said, any individual person,
+> even someone with endless amounts of text and video they've generated [...]. The anti-capture comes
+> from the fact that the error bars are going to continue to be unacceptably large until we include a
+> mountain of data.
+
+> We are going to need to find ways to keep individual data low. It's just going to have to be
+> necessary, a system that shows 1% for a heavily documented person. It can't be lying [...].
+
+> Anti-capture is not one person, one weight, because actually we can use the very method we've got
+> to deal with the text generators and the bot farms and the platform owners. All we have to do is
+> reverse engineer their goals all the way up to their actual goals, and then simply weight them based
+> upon how much intention they placed in those artifacts. [...] The anti-capture, again, falls out of
+> the model, all of this. We are going to have to weight recent data, and flooding is going to have
+> to be something that we account for, because we'll have individual maker models per person. If you
+> have a group of people flood, all that does is flood their own part of, oh my God. Am I going to
+> have to have an aggregate with everyone having their own individual maker model? [...] The
+> aggregation rule. That is an interesting part of this.
+
+> The anti-capture target is humanity's set points. Our heuristics are useless to an AI. The
+> heuristics are what we need to cut through to get the truth, and what we really want.
+
+*Curator's ToMpathy assessment walkthroughs, 2026-10-13 (14:01 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The restatement names the target as set points rather than heuristics and proposes a weighting
+governor, contributions weighted by the intention a maker placed in them, with recent data weighted
+up and each maker's flood confined to that maker's own model. Two objections travel with it. The
+weight is computed by the same estimator a captor would attack, so a captor who can fake intention
+density or bias the estimator gains weight rather than losing it. And a ceiling on confidence for
+any one person is a display rule unless the estimator's uncertainty actually stays that wide, which
+the honesty requirement in the quotation forbids faking.
+
+**No concealed mechanism, and the present scope** *(2026-10-14)*:
+
+> Honestly, I agree that it's not correct to hide it in the math [...]. You're right, it's incorrect
+> to do this. Make it a theorem, seems fair.
+
+> None of this is really particularly useful to an AI yet. I'm just demonstrating that it can be
+> done, and extracting. It's not like we're wiring in the core values or the latent preferences to a
+> model, though. Sure would be nice to be able to throw it into an active inference agent directly.
+
+*Curator's walkthrough answering the assessment thread, 2026-10-14 (received 10:30 PDT in the project's errata thread); filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The anti-capture guarantee is to be a public theorem rather than a concealed mechanism. Open code
+ensures a concealed weighting is found, and a concealed weighting would also exempt its author from
+the per-person ceiling, giving one maker the private lever over the aggregate that the ceiling
+denies everyone else. Differential privacy is the model of a public guarantee, a provable bound on
+how much any one person's data can change an output that holds even when the attacker has read the
+code ([Dwork, McSherry, Nissim & Smith, 2006](https://doi.org/10.1007/11681878_14), snippet). The
+scope statement fixes what the program claims at present. It shows that set points and latent
+preferences can be extracted; it does not install them in a model.
+
+**The proxies are the target** *(2026-10-14)*:
+
+> To be clear, I actually disagree that survival [isn't] the top goal. I think it is. It's just that
+> it is impossible to work that math, because there's so many unknowns. And so instead, you
+> inherently optimize the local solutions. And maybe that's what we show at the bottom. Maybe when
+> we show core values, we're talking about the first layer of solutions, the things that you
+> optimize in order to optimize the survival and reproduction. It does make us feel good to do so,
+> and that's kind of what we want, isn't it? Like, if you just optimize survival and reproduction,
+> it's obviously a fail state of superintelligence.
+
+> I'm okay with that. We're mesa-optimizers chasing the proxies. It does make alignment weird to
+> optimize towards our proxies, but because we have built our own satisfaction so hard into those
+> proxies, I think that's what we have to optimize towards, unfortunately. How weird.
+
+*Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The alignment target is the proxies, the drives and the set points they serve, because human
+satisfaction is built into them; optimizing survival and reproduction directly is a failure mode,
+not the target. That keeps the 2026-10-13 statement that the anti-capture target is humanity's set
+points. The curator holds that survival is the true top, out of reach because the computation is
+intractable. Evolutionary psychology holds instead that it is the criterion that built the proxies
+and is not represented at all (Tooby & Cosmides, 1992, snippet). The two views agree on the target
+and differ on whether anything above the drives is there to be read.
+
 ## §4. The failure modes, named now rather than discovered later
 
 **This needs to survive attack to be worth anything, and stating them now is cheaper than finding
@@ -239,11 +318,15 @@ constitute a completed comparison with neighboring alignment proposals.
 | **F02-S5** | The reader's selection realizes more held-out gain per cost than raw-signal policies | **NO BETTER THAN RANDOM (test, L276), 96 sets.** 0.28 against 0.29 random, 0.04 novelty, 0.00 surprise, 0.97 for the exact learning-progress policy; on two readers 0.12 against 0.22 novelty and 0.26 learning progress (L306) |
 | **F03-S5** | The reader pursues a hoped-for explanation beyond its warrant, and a counter-bias prompt removes the excess | **NO EXCESS (test, L277), 96 worlds.** Pursuit minus warrant 0.00 on incongruent worlds; the counter-bias prompt lowers pursuit 0.11 to 0.14 below warrant in every cell; on two readers +0.01 and 0.06 to 0.07 (L307) |
 | **AL-7** | The reconstruction instrument can become both the seeking apparatus and a reciprocal human-invertibility interface | **OPEN.** Upstream choice/process recovery is still gated; artifact legibility must be separated from causal transparency, and no alignment work wakes until the existing conditions hold. It is why this file lives in this repository rather than in a notebook |
+| **AL-8** | Weighting each maker by the intention inferred in their artifacts, with recent data weighted up and floods confined to the flooder's own model, resists capture by volume and by any single heavily documented person | **OPEN; no derivation or test.** A candidate for the weighting governor AL-5 lacks. The weight is produced by the estimator a captor would target |
+| **AL-9** | The bound on any one maker's influence over the aggregate can be stated and proven publicly, in the manner of differential privacy, with no concealed mechanism | **OPEN; adopted by the curator as a design rule, no derivation.** Differential privacy gives such bounds for statistical releases (lit, SNIPPET); none is derived for this estimator |
 
 **What these add up to.** The alignment objective remains untested and dormant. Its
 intended balance between inquiry and action is a design proposal, and neither safety,
 resistance to capture, nor a correctly specified population follows from it (AL-1 to
-AL-7). The foraging rows measure specific small-reader choices: those readers do not
+AL-7). Intention weighting is a candidate weighting governor whose own estimator becomes the attack
+surface (AL-8), and the bound on any one maker's influence must be public and provable, which no
+derivation yet supplies (AL-9). The foraging rows measure specific small-reader choices: those readers do not
 reliably select the available learning opportunity or realize its available gain
 (F01-S5 to F03-S5). This does not show that every epistemic drive is absent, and their
 numbers do not validate the full alignment objective. The appendix supplies scoped

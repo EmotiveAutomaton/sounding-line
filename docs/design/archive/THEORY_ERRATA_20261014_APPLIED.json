@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-14",
+  "kind": "curator-ratified theory errata application",
+  "source": "docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md",
+  "source_sha256": "05077fff71a28c91c7b7e644335919a697b237e9d71a32e8cf06bf602aa29e27",
+  "edits_applied": 39,
+  "new_ids": [
+    "G182",
+    "G183",
+    "G184",
+    "G185",
+    "G186",
+    "G187",
+    "G188",
+    "G189",
+    "G190",
+    "HH-DISGUST-GATE",
+    "HH-DISGUST-POLICY",
+    "HH-TOP-GOAL-UPTAKE",
+    "HH-ATTENTION-SOURCES",
+    "HH-DIVERGENCE-CLASSES",
+    "HH-GOAL-PYRAMID",
+    "HH-NO-TOP-GOAL",
+    "AL-8",
+    "AL-9"
+  ],
+  "id_collisions": [],
+  "files": [
+    {
+      "path": "docs/theory/THE_TRIPLE_INFERENCE.md",
+      "before_sha256": "9bc57811b7c51e4284f91f6fe13979b61c72e3235c935cab8e9161b0d68cda8e",
+      "after_sha256": "6b7e21ca409639919a5a4696aeca0a9ad3e4629cdcfbbc2b9bfc9382244deb93",
+      "edits": [
+        "E1a",
+        "E1b",
+        "E2a",
+        "E2b",
+        "E2c",
+        "E3a",
+        "E3b",
+        "E3c",
+        "E3d",
+        "E4a",
+        "E4b",
+        "E4c"
+      ],
+      "existing_quotes_preserved": true
+    },
+    {
+      "path": "docs/theory/READER_HEURISTICS.md",
+      "before_sha256": "a746f84ce41c54c45d7391b410efe79cd9de20b54e89b67b6bed8f4a6f875e5f",
+      "after_sha256": "a7ae7f1a3256e9e9bdbfb99759d9ac4d042cf7986d20e92e4596ce2f23744ceb",
+      "edits": [
+        "E5a",
+        "E5b",
+        "E5c",
+        "E5d",
+        "E5e",
+        "E5f",
+        "E6a",
+        "E6b",
+        "E6c",
+        "E6d",
+        "E7a",
+        "E7b",
+        "E7c",
+        "E8a",
+        "E11",
+        "E12a",
+        "E12b",
+        "E12c"
+      ],
+      "existing_quotes_preserved": true
+    },
+    {
+      "path": "docs/theory/DECISION_TRACES.md",
+      "before_sha256": "2b96938affc50ca58d6ee1d6462e25bd5edaae4c2e73dd20edc27711fa92e3d6",
+      "after_sha256": "447847a698e1b77d9c49481564e0e02d5d43322ca253ee13e00288c93403f8e7",
+      "edits": [
+        "E8b",
+        "E13"
+      ],
+      "existing_quotes_preserved": true
+    },
+    {
+      "path": "docs/theory/ALIGNMENT.md",
+      "before_sha256": "7364c3be5d1fabde27003bc16d78d1cf8ad6b69a9421b90182697362c23dc408",
+      "after_sha256": "f5e03a06c9b236202fa603e2c4910885477698cba0f5e5fa902c7622349dde1c",
+      "edits": [
+        "E9a",
+        "E9b",
+        "E9c"
+      ],
+      "existing_quotes_preserved": true
+    },
+    {
+      "path": "docs/theory/THREE_COGNITIVE_LAYERS.md",
+      "before_sha256": "61480d1c7dd15e5e39382c00582b8b0605352e7e0195b2905081e308fd2c7ef6",
+      "after_sha256": "bba3babfe14d6925e69c4730348e816f1e6f3bb86820c07f52cb9b575a7c9825",
+      "edits": [
+        "E10a",
+        "E10b",
+        "E10c",
+        "E10d"
+      ],
+      "existing_quotes_preserved": true
+    }
+  ],
+  "interpretation_scope": "Supplied ratified theory edits only. Existing empirical results and quotes preserved. Ghost V22 outcomes not imported. Literature read-status labels retained from the supplied handoff; no new literature review claimed.",
+  "afterwords_reviewed": [
+    "Triple 1 (retained), 4, 5",
+    "Reader 3, 4, 5, 6",
+    "Layers 1",
+    "Alignment 6"
+  ],
+  "tests": [
+    {
+      "check": ".venv/Scripts/python.exe -B tools/theory_lint.py docs\\theory\\AGENTS.md docs\\theory\\ALIGNMENT.md docs\\theory\\DECISION_TRACES.md docs\\theory\\READER_HEURISTICS.md docs\\theory\\README.md docs\\theory\\THE_TRIPLE_INFERENCE.md docs\\theory\\THREE_COGNITIVE_LAYERS.md",
+      "exit_code": 0,
+      "output": "pass"
+    },
+    {
+      "check": ".venv/Scripts/python.exe -B tools/verify_locks.py",
+      "exit_code": 0,
+      "output": "ALL 21 LOCKS OK"
+    },
+    {
+      "check": "git diff --check",
+      "exit_code": 0,
+      "output": "pass"
+    },
+    {
+      "check": "All five theory files exactly match the 39 approved edits applied to their saved live predecessors.",
+      "status": "pass"
+    },
+    {
+      "check": "18 new hypothesis IDs occur exactly once as rows; no unresolved filing placeholders.",
+      "status": "pass"
+    }
+  ]
+}

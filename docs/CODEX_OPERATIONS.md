@@ -1,5 +1,103 @@
 # Codex operations
 
+## October 14 afternoon due inspection
+
+OPS-S14-HEALTH-1014-1324: exact native ownership, fresh supervisor/helper/watcher records, source/card/terminal bindings, output presence and freshness, retired failures, unknown attempts, locks and resource floors pass. No operational recovery or scientific restart is required. The first transport attempt has both queue acceptance and actual owner-delivery evidence. Write-through precedes ACK; ACK alone rearms six hours. Preserve the curator's publication-before-repair order and the distinction between a newly authorized repair pass and unchanged failed admission gates. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_1324_PUBLIC.json).
+
+## October 14 requested status reconciliation
+
+OPS-S14-STATUS-1014: exact coordinator/helper/watcher identities, fresh heartbeat and scan records, the held coordinator mutex, absent GPU work lock and resource floors verify. No local scientific worker is active. Completion manifests and current pins match the preceding full audit, all recorded outputs remain present with no later modifications, and prior full write-through records verify. Read-only provider requests confirm no active Modal app and an ended profile batch. No inference, restart or health ACK occurs; the existing 13:24:57 PDT health deadline remains. Stale overview text was corrected without changing a scientific gate or source. [Status receipt](../results/phase_2_4_stage_14/STATUS_20261014_PUBLIC.json).
+
+## October 14 due six-hour inspection
+
+OPS-S14-HEALTH-1014-0703: exact coordinator/helper/watcher ownership, fresh records, full retained local evidence, locks, resources and registered terminal paths pass. The active owner inspected the due event; actual delivery remains a separate recorded fact. Local reader-runtime, failed API-profile and prototype-readout admission holds remain. No recovery or restarted scientific worker is required. Documented health ACK alone rearms the six-hour deadline; the preceding Modal completion ACK did not move it. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_0703_PUBLIC.json).
+
+## October 14 Modal main completion
+
+The main archive, retained native wire journals, exact prompt tokens and every residency snapshot verify; complete source reconstruction and saved-output analysis pass independent replay. Native supervision exited and fresh read-only provider evidence confirms the app stopped. Conservative allocation accounting reconciles downward with complete evidence; final provider invoicing is distinct. The complete internal method/instrument/TODO write-through precedes terminal ACK. No new provider request, retry, resource restart or source-pin change occurs. The completion event has a recorded owner-delivery timestamp. The due six-hour health event is inspected separately, and only its own documented ACK rearms the health clock. [Receipt](../results/gear3/G3-S14-MAKER-1/MODAL_MAIN_PUBLIC.json).
+
+## October 14 paid-lane handoff and profile-pilot landing
+
+The owner-confirmed account change admits the unchanged Modal main. Its separately pinned hidden native supervisor registers completion, failure and disappearance watches before dispatch through the existing Gear 3 guard. Native ownership and actual provider startup verify; the retained runtime, model, context and full GPU residency match admission. Private app/call and account receipts remain under `.agent-state/stage14-midweek/`.
+
+The locally configured Anthropic credential passes access checks for all three configured model identities. The first profile pilot had one submission and a finite, read-only retrieval supervisor; there is no automatic retry or next batch. Provider completion and native exit are verified. Two output-limit stops fail the matched-profile gate, while full wire/source reconstruction, offline replay and ended-batch accounting pass. All raw outputs remain; the dependency gate refuses. Full internal write-through precedes ACK of its completion event. The queued notification was observed in startup context while this owner was active; that is not claimed as an idle-owner wake or a recorded delivery-hook receipt.
+
+Local supervision and the independent six-hour deadline are unchanged. Current campaign booking plus the active Modal reservation is 1,412 cents; final provider invoicing remains distinct from this conservative ledger. Neither account readiness nor a credential authorizes a retry, model substitution or relaxed validity gate. [Profile-pilot receipt](../results/gear3/G3-S14-MAKER-1/API_PROFILE_PILOT_PUBLIC.json).
+
+## October 14 Modal pilot completion
+
+The pilot's complete archive, native request reconstruction, actual token counts, probability contract, all residency snapshots, native supervisor exit and provider app stop verify. Its conservative allocation booking is reconciled, with final invoice status retained separately. The first wrapper's pre-provider failure remains preserved; there was one paid attempt. Note that the provider's app listing includes the stopped app: listing length alone is not the number of active apps.
+
+Internal write-through precedes terminal ACK. The account-headroom refusal for the unchanged main is recorded privately; it neither changes the campaign approval nor permits a weaker reservation. Existing local supervision and six-hour timing remain unchanged. Public aggregate evidence is in [the pilot receipt](../results/gear3/G3-S14-MAKER-1/MODAL_PILOT_PUBLIC.json); provider identities and account settings remain private.
+
+## October 14 Modal pilot supervision
+
+The first authorized midweek Modal pilot has an exact native supervisor and provider app/call receipts. Its final completion, failure and native disappearance paths were registered before provider dispatch. The private account proof combines current provider workload/usage observations with the curator's confirmed limits and payment readiness. The campaign guard reserves at most 241 cents for the finite pilot; its unchanged source pins and remote apparatus verify. No automatic main follows a completion marker.
+
+The first local wrapper failed while reading heterogeneous watcher records, before touching the provider or ledger. Preserve its ended native identity and failure. A separately pinned successor uses the optional name field safely; no scientific or provider attempt was repeated. Local coordinator, helper and watcher identities remain unchanged. This launch does not acknowledge a health event or move the six-hour deadline. Full internal pilot write-through must precede its terminal ACK. Private launch, account and startup evidence is under `.agent-state/stage14-midweek/`.
+
+## October 14 early-morning operational inspection
+
+OPS-S14-HEALTH-1014-0054: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261014_0054_PUBLIC.json).
+
+## October 13 midweek expansion
+
+The new local handling baseline worker exited successfully; its native identity, source/data bindings, full roster, temporal fitting inputs and saved proper scores were verified before landing. The completed cell and consumer are recorded as S14-MIDWEEK-BASELINES. Terminal ACK follows the entire internal write-through. Its notification was queued while this owner was active; queued delivery is not recorded as an idle-owner delivery. The independent six-hour clock remains unchanged.
+
+The v11 GPU coordinator and worker remain live, with fresh progress and unchanged immutable pins. Midweek code is a separate namespace. Paid Modal and API launches remain unattempted while the requested account facts/credential are absent. All paid dispatch uses `runners/gear3.py` with shared integer-cent reservations, finite deadlines and no automatic replay of an attempted request. Local replay has no inference calls. Incomplete accounting retains reservations; only ended provider ownership plus complete accounting can release them. Register native supervision and final produces before the first provider dispatch, then verify actual app/call or batch identity. Do not describe an offline fixture as a live cloud run.
+
+## October 13 evening GPU-memory interruption
+
+OPS-S14-Q05-QWEN-MIXED-E8-FAILURE: the frozen runtime floor stopped an incomplete eight-epoch mixed-text Qwen attempt. Exact worker exit, automatic GPU-lock release, failure/card/dispatch binding and consumer blocking verify. The coordinator, helper and watcher remain live. Original partial files and failed cost remain unscored; the exhausted repair allowance admits no retry. Existing independent torch work waits for memory; the separate reader-version hold remains. No process, source, threshold, gear or queue identity was changed. Later resource snapshots do not identify the exact triggering memory reading or its causal tenant. Full internal failure write-through precedes ACK, leaving the six-hour health clock unchanged. [Inspection](../results/phase_2_4_stage_14/Q05_QWEN_MIXED_E8_FIRST_FAILURE_PUBLIC.json).
+
+## October 13 evening operational inspection
+
+OPS-S14-HEALTH-1013-1846: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_1846_PUBLIC.json).
+
+## October 13 midday operational inspection
+
+OPS-S14-HEALTH-1013-1239: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_1239_PUBLIC.json).
+
+## October 13 morning operational inspection
+
+OPS-S14-HEALTH-1013-0627: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_0627_PUBLIC.json).
+
+## October 13 early-morning operational inspection
+
+OPS-S14-HEALTH-1013-0018: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261013_0018_PUBLIC.json).
+
+## October 12 evening operational inspection
+
+OPS-S14-HEALTH-1012-1807: unchanged v11 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_1807_PUBLIC.json).
+
+## October 12 power-outage recovery
+
+OPS-S14-POWER-RECOVERY-1012: full manifest and saved-state integrity passed after the owner-reported outage. Preserve both original monitor failures and the interrupted study's new UNKNOWN receipt. The exact exited worker/wrapper and supervision identities were checked before archiving the orphan GPU lock. All scientific cards, prior failures and interrupted files remain unchanged. No scientific resume or retry was attempted.
+
+The v11 coordinator uses separately pinned `dispatcher_v5`; the unlaunched v10 preflight plan remains as evidence. The only additional dispatch behavior refuses Ollama reader admission when its reported version differs from previously observed 0.35.1. Installed 0.40.3 remains available for residency inspection, but three eligible reader cards remain unstarted behind the active GPU worker and cannot pass the version guard; independent torch/CPU cards retain existing gates. Actual-loop tests prove both refusal and independent dispatch. Do not reinterpret these holds as failed scientific attempts or relax them without runtime review.
+
+The reporting helper reentered its original unchanged contract and calendar. Original owner/heartbeat bytes are preserved privately; its successor has a distinct monitor-failure path. Only the two ended native watches were retired, and successor native watches/terminal paths are registered. The watcher itself auto-recovered after logon; source hashes, actual delivery, resources, fresh worker progress and GPU ownership verify. Private V10/V11 receipts bind the inspection, archived lock, retained monitor files and service identity. Rollback requires another reviewed successor plan; never replay an ended immutable queue identity or alter live scientific sources. Ordinary ACKs leave the independent six-hour deadline unchanged. [Recovery receipt](../results/phase_2_4_stage_14/POWER_RECOVERY_20261012_PUBLIC.json).
+
+## October 12 midday operational inspection
+
+OPS-S14-HEALTH-1012-1200: unchanged v9 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. First-attempt transport acceptance and actual owner delivery are verified separately; the documented inspection precedes health ACK. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_1200_PUBLIC.json).
+
+## October 12 morning operational inspection
+
+OPS-S14-HEALTH-1012-0546: unchanged v9 supervision, active worker, exclusive locks, resource floors and full retained-evidence checks pass. No recovery was needed. Both delivered mixed-text completion events were fully landed before ACK; the due health event was inspected directly from its pending record while the owner was active. Preserve the difference between pending, queued, actual delivery and completed landing. The independent six-hour clock rearms only after the documented health ACK. Historical failure/unknown identities remain excluded from automatic retry. [Inspection](../results/phase_2_4_stage_14/HEALTH_20261012_0546_PUBLIC.json).
+
+## Interrupted-worker reconciliation, October 11 (OPS-S14-UNKNOWN-RECOVERY)
+
+The v8 coordinator failed on its second write of an UNKNOWN receipt because each scan supplied a different timestamp. The versioned v9 successor preserves the original timestamp and exact terminal/card/dispatch bindings, backed by an independently inspected native exit. Unknown remains unknown; dependencies remain blocked and no retry is authorized. Repeated actual-loop and adversarial checks pass. The exact dead GPU lock was archived after worker/wrapper absence and owned-process inspection. The ended coordinator watch alone was retired; its failure and terminal paths remain.
+
+V9 supervision is live. Its exact `raw/PAUSE.json` host-memory hold was archived byte-for-byte at the late October 11 health inspection after repeated commit-headroom/resource checks and observed absence of the unrelated server. No foreign process was stopped and its exit cause is unknown; the prior permission question became moot. The unchanged coordinator dispatched the next eligible frozen card, with fresh progress, full residency and exact ownership verified. Available physical RAM alone did not establish commit headroom, so retain both checks during resource diagnosis. Restored resources do not authorize repeating the interrupted study. No watcher source, scientific card, gear or health deadline changed. Preserve private evidence under `.agent-state/stage14-setup/V9_*`; rollback requires another reviewed coordinator identity, never replaying the ended queue.
+
+## Failed-attempt identity reconciliation, October 11 (OPS-S14-QUEUE-NATIVE-RECOVERY)
+
+A historical failed worker PID was reused by a protected browser process. The native inspector correctly returned unknown and the coordinator stopped. A separate versioned coordinator now accepts only plan-pinned exit observations bound to exact failed card, dispatch and failure hashes. Missing, altered, premature and same-native evidence refuses; unknown active identities still fail closed. New failed exits verified by the native inspector are bound and retained for the coordinator lifetime. A later handoff must explicitly reconcile those records again.
+
+Prevalidate cards, outputs and successor tests before changing supervision. Retire only the ended coordinator watch, retain its FAILED receipt and event, register the successor terminals, and preserve current scientific workers. Never delete original dispatch/failure records, reclaim locks by age or touch an unrelated reused PID. This recovery changed no scientific card, native inspector or watcher source. Rollback requires a reviewed successor plan after verifying coordinator ownership; do not restart the old immutable queue ID. [Receipt](../results/phase_2_4_stage_14/QUEUE_NATIVE_RECOVERY_20261011_PUBLIC.json).
+
 ## Six-hour operational inspections, October 10 commission
 
 The owner resumed monitoring for the new local week and changed the permanent

@@ -1,6 +1,6 @@
 # Campaign branch registry
 
-All 74 supplied scientific branches are indexed below. Their full questions, contrasts and outcome routing remain in the byte-preserved program. PILOT means a bounded implementation exists, not that the entire branch is admitted or complete. Other rows remain design obligations. EXECUTION_CARDS.json lists 266 queue identities plus a completed census successor. Counts include retained failed and blocked predecessors, pilots and CPU consumers; they are not 266 independent studies. The implementation handoff separates measured ready work from conditional and design-only branches.
+All 74 supplied scientific branches are indexed below. Their full questions, contrasts and outcome routing remain in the byte-preserved program. PILOT means a bounded implementation exists, not that the entire branch is admitted or complete. Other rows remain design obligations. EXECUTION_CARDS.json lists 270 queue identities plus a completed census successor. Counts include retained failed and blocked predecessors, pilots and CPU consumers; they are not 270 independent studies. The implementation handoff separates measured ready work from conditional and design-only branches.
 
 The shared contract requires separate extraction/inference gates, reader/evaluator separation, independent-unit uncertainty, strict recipient time cutoffs, half-Brier with invalids retained, explicit exposure/rights and at most two repair identities. Raw human text stays local.
 
@@ -16,12 +16,12 @@ The shared contract requires separate extraction/inference gates, reader/evaluat
 | R08 | Verify correction instead of merely requesting it | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
 | H01 | Reconstruct the choice opportunities | COMPLETE: replay, writer/time census and positive event-exposure ledger; unmatched events remain unknown |
 | H02 | Withhold parts of a real history | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
-| H03 | Extend Git beyond clean linear histories | INTAKE COMPLETE: licensed public README revisions and all parents; blog selection and post-cutoff reconstruction not admitted |
+| H03 | Extend Git beyond clean linear histories | INTAKE COMPLETE: licensed public README revisions and all parents; approved blog rights/history pilot complete; full blog support and post-cutoff reconstruction not admitted |
 | H04 | Simulate record incompleteness explicitly | PILOT: missingness ruler complete; natural thinning pending |
 | H05 | External request and distributed edits | CENSUS COMPLETE WITH DISCREPANCY: 37 gold papers previously prepared, five unknown; zero certified fresh; descriptive only |
 | H06 | Preserve annotation disagreement | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
 | H07 | Predict a genuinely later decision | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
-| H08 | Acquire independent confirmation sources | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
+| H08 | Acquire independent confirmation sources | SOURCE PILOTS: Wikipedia and licensed GitHub blog policy approved; bounded intakes complete; neither is certified fresh or scientifically admitted |
 | J01 | Compare hard cascade, independent estimates and joint accounts | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
 | J02 | Find what truly needs to be bespoke | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |
 | J03 | Forward likelihood or direct posterior? | READY_TO_IMPLEMENT: supplied design; no executable or runtime claim |

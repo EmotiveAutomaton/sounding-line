@@ -5,6 +5,12 @@ failed or incomplete branches and prior rulings remain in their documents.
 Filing does not grant execution or change scientific validity. Current authority
 is in [the live design index](../README.md).
 
+The [complete stage index](../README.md) now exposes every stage from 2 through 14
+at one level. This archive preserves historical source paths. The
+[October 14 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md) is **applied**,
+with [39-edit application evidence](THEORY_ERRATA_20261014_APPLIED.json). Its original
+"ready to apply" wording is preserved as provenance, not outstanding work.
+
 ## Stage folders
 
 | Folder | Scope |

@@ -18,10 +18,20 @@ with the reason.
 
 ---
 
+## October theory errata and filing - 2026-10-14
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| THEORY-ERRATA-1014 | Curator directs implementation of the supplied October 14 theory errata, recording the October 13/14 walkthroughs and the ratified 12:22 decisions | All 39 specified edits across five theory files; 18 fresh hypothesis identifiers; quotation repair ledger, existing quotes, source labels and untested boundaries preserved; Ghost V22 outcomes await curator uptake | [Original handoff](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md), [application receipt](../../docs/design/archive/THEORY_ERRATA_20261014_APPLIED.json), [theory index](../../docs/theory/README.md) | written |
+| DOCS-FILING-1014 | Audio request to file the markdowns, make the stage designs accessible and update READMEs for humans and future agents (analyst paraphrase) | Visible Stage 2-14 indexes, program/cloud shelves, filed incoming sources and reconciled current summaries; frozen run paths retained | [Stage index](../../docs/design/README.md), [filing ledger](../../docs/archive/operations/DOCUMENT_RELOCATIONS_20261014.json) | written |
+
 ## October local research week - 2026-10-10
 
 | # | Contribution and source | What it produced | Where | Status |
 |---|---|---|---|---|
+| S14-MIDWEEK-1013 | "proceed with the midweek errata implementation and the gear. 3. setup and run. keep us running in gear 2... and 3" | Approved corrected $50 pilot-first campaign; separate frozen handling roster, completed local baselines and effort controls, bounded cloud/API adapters; existing local queue retained. Paid dispatch awaits account facts, not new scientific approval. | Stage 14 midweek implementation; G3-S14-MAKER-1 approval and local receipt; FINDINGS S14-MIDWEEK-BASELINES | built |
+| S14-POWER-1012 | October 12 audio: report an unexpected power outage, inspect lost data and queue state, restore the higher ladder and continue in Gear 2 (analyst paraphrase) | Complete recorded-output and saved-state audit, retained unknown attempt, restored supervision, reader-runtime drift guard and next frozen eight-epoch seed running; no new scientific test harvested | FINDINGS OPS-S14-POWER-RECOVERY-1012; Stage 14 recovery receipt and operating handoff | built |
+| S14-SOURCES | "Allow both public sources" in response to the Wikipedia API and licensed GitHub blog policy question | Source policy resolved; two bounded rights/history pilots, exact-byte tests and preserved-worker dispatch; no new hypothesis harvested | Stage 14 public-source pilot design and runner | built |
 | S14-COMMISSION | Audio: implement supplied program and errata, start immediately in local Gear 2, prepare the week, prefer more valid tests, check every six hours (analyst paraphrase) | New execution namespace, byte-preserved filing, independent finite cards and six-hour monitoring | Stage 14 design shelf and runners | built |
 | S14-MEMORY | "Use strict memory and residency checks instead" | Explicit exception to the unavailable NVIDIA per-program fallback setting; dedicated single-request local service, memory/residency/throughput gates | Stage 14 local transport and tests | built |
 

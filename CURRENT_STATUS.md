@@ -1,30 +1,58 @@
 # Current status
 
-Updated October 10, 2026. Start here for current authority; historical execution
+Updated October 14, 2026. Start here for current authority; historical execution
 notes remain in the [operating archive](docs/archive/operations/README.md).
 
 ## October local week: active in the Stage 14 execution namespace
 
-Local Gear 2 is running the first full text-adapter comparison after source replay,
-chronological preparation, execution pilots and independent cheap-model studies.
-The frozen plan has 266 retained and prospective identities, including failed and
-blocked predecessors and CPU consumers. All 26 Stage 14 checks pass. Completed
-results are internally recorded; no unfinished per-artifact scores are presented.
+**Stage 14 is current; Stage 13 is closed. Neither gear currently has an active
+scientific worker.** The admitted local adapter ladder and the Modal cloud main
+are complete. Native queue supervision, reporting checkpoints and the watcher
+remain healthy. The October 14 status inspection found no operational recovery
+need or unacknowledged landing. See the [inspection receipt](results/phase_2_4_stage_14/STATUS_20261014_PUBLIC.json).
+
+**Gear 2:** the frozen 270-card plan has 210 completed jobs, eight retained failures,
+two unknown interrupted attempts, 44 blocked cards, three pending descendants and
+three readers held on runtime admission. Installed Ollama 0.40.3 differs from
+admitted 0.35.1. The separate prototype readout also failed capability admission;
+human prototype training remains unadmitted. Exhausted repairs are not silently
+restarted. The morning full integrity audit verified 51,885 completed-output
+hashes; the later status inspection confirms unchanged completion manifests,
+all recorded outputs present and none modified since that audit.
+
+**Gear 3:** the approved Modal pilot and main are complete, fully verified and
+internally recorded; fresh provider inspection finds no active app. The Sonnet
+profile pilot ended, but two output-limit stops fail the complete matched-profile
+prerequisite. API reader pilot/main remain unsubmitted. Campaign booking is
+**$5.48 against the $50 ceiling**, pending final invoices. Any repair requires its
+separately reviewed plan; unused budget is not automatic retry authority.
 
 The supplied program and errata are filed byte-identically under
 [the October design shelf](docs/design/stage-14/README.md). The
 [implementation handoff](docs/design/stage-14/IMPLEMENTATION_HANDOFF.md) distinguishes
 implemented, admitted and design-only work. Strict memory and full-residency checks
 implement the curator's approved substitute for the unavailable driver setting.
-Everything executes locally; no cloud or paid readers.
+The October 13 [midweek approval](docs/design/stage-14/MIDWEEK_IMPLEMENTATION.md)
+added the bounded paid campaign while retaining Gear 2. It supersedes the original
+local-only commission for those named lanes.
 
-The permanent health cadence is six hours, first due October 10 at 16:34:29 PDT.
+The permanent health cadence is six hours; the [latest health receipt](results/phase_2_4_stage_14/HEALTH_20261014_1324_ACK_PUBLIC.json) records its next deadline.
 Immediate failures and drained-queue events remain. A separate fixed helper covers
 Friday October 16 at 10:00 reporting reserve, 16:00 review and 18:00 final packet.
-Measured pilots estimate 30.6 ready small-model GPU hours plus 64.5 conditional
-hours. CPU day-long occupancy and the required whole-week fast-depletion reservoir
-remain CAPACITY_SHORTFALL; the next full-family or health review must reassess them.
-Wikipedia/blog intake awaits the source-policy answer; existing-source work continues.
+No admitted scientific runway remains under the current gates; remaining held or
+design-only work is not executable capacity. Both public source policies were
+approved; their bounded intake evidence and scientific admission limits remain
+recorded. Completed findings, failed attempts, instrument limits, costs and queue
+dispositions are written through in FINDINGS, TOOLS and TODO. Joint scientific
+synthesis remains in Friday's final packet; this is an operational status report.
+
+**October 14 work order:** the curator's request to run the blocked comparisons
+supersedes immediate closure. A new repair pass is authorized, preserving original
+evidence and validity gates, with publication requested first. No repaired
+comparison has launched. The October 14 theory errata and documentation filing are
+complete locally; publication remains outstanding. Use the [stage index](docs/design/README.md)
+for every stage and the [application receipt](docs/design/archive/THEORY_ERRATA_20261014_APPLIED.json)
+for the 39 ratified edits. This cleanup changes no experiment verdict or admission gate.
 
 The September closure records below retain their original scope and dates.
 

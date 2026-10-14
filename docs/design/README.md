@@ -1,68 +1,56 @@
-# Study designs and implementation briefs
+# Study designs: start with the stage
 
-**Method binds every study; design briefs one build.** Read the method shelf before
-designing or changing an instrument. This index states present authority; dated
-statements inside preserved sources describe their original commission.
+**Current work is Stage 14. Stage 13 is the closed September campaign.**
+The October source called itself the next Stage 13; execution uses Stage 14 to
+preserve the earlier records. See [current status](../../CURRENT_STATUS.md) for
+live authority, held comparisons and the next action.
 
-## Current and pending work
+Every stage has a visible folder here. Open its README for sources, implementation
+and results. Historical source files stay at stable paths when replay depends on
+them; the folders are navigation homes, not duplicate copies of the papers.
 
-| Study | Present status | Read first |
-|---|---|---|
-| October local week (Stage 14 execution namespace) | Local Gear 2 authorized; initial blocks running; weekly setup and measured capacity validation in progress | [Program, errata and branch registry](stage-14/README.md) |
-| Stage 13 | Admitted original/healing queues drained; final packet published with deficits; [October 1 endpoint](../../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) closed, helper exited and exact watch retired | [Final packet](../../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md), [plan and supplied source](stage-13/README.md) |
-| Stage 12 | Generation stopped; allocation expired; final packet and September 28 endpoint reconciled with deficits retained | [Current status](../../CURRENT_STATUS.md), [week commission](PHASE_2_4_STAGE_12_CONTEXT.md), [interim packet](../../results/phase_2_4_stage_12/INTERIM_PACKET_20260925.md) |
-
-Stage 12's extensive local program was **approved and implemented**. Its submitted
-queue drained, but the broader program remains incomplete. The research plan and
-roster below are historical design inputs, not a new launch authorization.
-
-## Stage 12 retained implementation material
-
-These files retain their established paths through the original week's final packet.
-The status page, terminal records and final packet override dated running snapshots.
-
-| Purpose | Documents |
+| Stage | Status and scope |
 |---|---|
-| Original commission and execution | [Commission](PHASE_2_4_STAGE_12_CONTEXT.md), [implementation handoff](STAGE12_IMPLEMENTATION_HANDOFF.md) |
-| Extensive local continuation | [Implementation freeze](STAGE12_LOCAL_PROGRAM_IMPLEMENTATION.md), [research proposal](STAGE12_LOCAL_RESEARCH_PROGRAM.md), [source review](STAGE12_LOCAL_RESEARCH_SOURCES.md), [planning roster](STAGE12_LOCAL_RESEARCH_ROSTER.json) |
-| Addendum | [Implementation](STAGE12_ADDENDUM_IMPLEMENTATION.md), [original approved proposal](STAGE12_ADDENDUM_PROPOSAL.md) |
-| Scoped and execution continuations | [Scoped successors](STAGE12_SCOPED_SUCCESSORS.md), [execution successors](STAGE12_EXECUTION_SUCCESSORS.md), [execution recovery](STAGE12_EXECUTION_RECOVERY.md) |
-| Local capacity/interface history | [Breadth](STAGE12_LOCAL_BREADTH.md), [telemetry recovery](STAGE12_LOCAL_TELEMETRY_RECOVERY.md), [interface diagnosis](STAGE12_LOCAL_INTERFACE_DIAGNOSIS.md) |
-| Completed specialist consumers | [Native shared consumer](STAGE12_NATIVE_SHARED_CONSUMER.md), [expertise consumer](STAGE12_EXPERTISE_CONSUMER.md) |
-| Supplied source and applied errata provenance | [Initial week source](archive/SOUNDING_LINE_STAGE12_WEEK_HANDOFF_2026-09-21.initial.md), [September 21 errata](archive/SOUNDING_LINE_THEORY_ERRATA_2026-09-21.md) |
+| [Stage 14](stage-14/README.md) | Current October campaign; admitted local ladder and Modal main complete, remaining comparisons held; repairs authorized but not launched |
+| [Stage 13](stage-13/README.md) | Closed September campaign; final packet and endpoint retain deficits |
+| [Stage 12](stage-12/README.md) | Closed allocation; final packet retains incomplete comparisons |
+| [Stage 11](stage-11/README.md) | Historical designs and retained evidence |
+| [Stage 10](stage-10/README.md) | Historical designs and retained evidence |
+| [Stage 9](stage-09/README.md) | Historical designs and retained evidence |
+| [Stage 8](stage-08/README.md) | Historical designs and retained evidence |
+| [Stage 7](stage-07/README.md) | Historical designs and retained evidence |
+| [Stage 6](stage-06/README.md) | Historical designs and retained evidence |
+| [Stage 5](stage-05/README.md) | Historical designs and retained evidence |
+| [Stage 4](stage-04/README.md) | Historical designs and retained evidence |
+| [Stage 3](stage-03/README.md) | Historical designs and retained evidence |
+| [Stage 2](stage-02/README.md) | Historical designs and retained evidence |
 
-## Historical stages
+## Cross-stage shelves
 
-Use the [archive index](archive/README.md) for stages 2-11 and Gear 3 Round 1.
-Closed execution, scientific validity and deferred work are different statuses;
-filing a document changes none of them. Original source wording and failures remain.
+- [Program context and reusable designs](program/README.md): phase framing,
+  benchmark, draft evaluation contract and historical planning maps.
+- [Gear 3 campaigns](gear-3/README.md): cloud rounds linked to their actual stages.
+- [Applied theory errata and original sources](archive/README.md): provenance,
+  including the [October 14 application](archive/THEORY_ERRATA_20261014_APPLIED.json).
+- [Method shelf](../method/README.md): read before designing or changing an instrument.
 
-Three historical files stay at established paths for execution/replay compatibility:
-[Stage 9 source](PHASE_2_4_STAGE_9_CONTEXT.md), consumed by the existing cards module;
-[Stage 10 comparison freeze](STAGE10_COMPARISON_FREEZE.md), bound by the comparison
-receipt; and [Stage 10 local runway](STAGE10_LOCAL_RUNWAY.md), a frozen execution plan.
-They are **historical**, not current runnable work. See the relevant archive indexes.
+## Filing rules and stable-path exceptions
 
-## Reusable program context
+New study material belongs in its stage folder with a README stating source,
+authority, readiness and evidence location. Keep one navigation entry per stage
+here even after closure. Do not scatter new stage documents at this root.
+Use the archive for preserved sources; the stage index links to them.
 
-| Material | Authority now |
-|---|---|
-| [Phase 2.4 context](PHASE_2_4_CONTEXT.md) and [exploration addendum](PHASE_2_4_EXPLORATION_ADDENDUM.md) | Program framing and non-conflicting method constraints; later finite stage limits control execution |
-| [Registry](PHASE_2_4_REGISTRY.md), [root map](PHASE_2_4_ROOT_MAP.md), [daily maps](PHASE_2_4_DAILY_MAPS.md) | Historical phase/stage evidence and decisions; old running labels do not authorize restart |
-| [Benchmark](BENCHMARK_2_0.md) | Reusable source, lineage and licensing guidance |
-| [Evaluation contract](EVAL_CONTRACT_2_0.md) | Draft; do not freeze as the current study contract |
-| [Engineering loop](ENGINEERING_LOOP.md) | Reusable construction principles |
-| [Phase 2.0](archive/PHASE_2_0_CONTEXT.md) | Historical brief; retained curator interface, escalation and claim-policy clauses where not superseded |
+Stage 12's originals remain at this root because immutable manifests or their
+source links depend on those paths; [its index](stage-12/README.md) groups them all.
+The [Stage 9 source](PHASE_2_4_STAGE_9_CONTEXT.md),
+[Stage 10 comparison freeze](STAGE10_COMPARISON_FREEZE.md),
+[Stage 10 local runway](STAGE10_LOCAL_RUNWAY.md) and
+[engineering loop](ENGINEERING_LOOP.md) also retain established consumer paths.
+These exceptions are deliberate, not unfiled incoming work.
 
-## Filing and authority rules
-
-New stages receive one named folder containing their source, plan and index. Completed
-stage briefs move together into the archive; frozen executable paths remain indexed
-exceptions until their consumers are deliberately migrated. Source handoffs stay
-byte-identical. Mechanical relative-link repairs in operator-authored documents are
-recorded in the [relocation ledger](../archive/operations/DOCUMENT_RELOCATIONS_20260927.json).
-
-Do not write experimental results here. They belong in FINDINGS, the relevant theory
-or instrument ledger and their result directory. No archive, proposed plan, cache,
-completed pilot or operational wake grants launch, gear, spending or delegation
-permission. The current instruction and ratified stage contract control.
+Source handoffs stay byte-identical. The [October 14 relocation ledger](../archive/operations/DOCUMENT_RELOCATIONS_20261014.json)
+records moves and mechanical link repairs. Never rewrite frozen cards, source
+capsules or result receipts to tidy navigation. Experimental outcomes belong in
+FINDINGS, theory or the instrument ledger, and their result directory.
+Filing changes neither validity nor launch, gear, spend or delegation authority.

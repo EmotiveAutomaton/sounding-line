@@ -3,15 +3,16 @@
 These are finite **design cards**, not dispatched jobs or credited capacity.
 Each requires an immutable executable card, actual handler rehearsal and measured
 pilot before admission. They supplement the supplied program without changing its
-claim ceiling. Source acquisition remains local and subject to the pending owner
-decision. No new paid service, participant contact or Ghost work is included.
+claim ceiling. Source acquisition remains local. The owner approved both public source families
+on October 10; the separate bounded intake pilots are executable, while these
+full scientific designs still require their admission gates. No new paid service, participant contact or Ghost work is included.
 
 ## H-WIKI: known-editor future edits
 
 Question: does strictly earlier editing history improve an editor's next edit-type
 and later-revert prediction beyond page/topic and population rivals?
 
-Status: OWNER DECISION on Wikipedia source policy, then READY TO IMPLEMENT.
+Status: SOURCE POLICY APPROVED; bounded intake pilot complete and internally landed. Full study remains gated. See PUBLIC_SOURCE_PILOTS.md.
 Use the official revision API or dumps, not scraping. Before outcomes are read,
 freeze namespaces, date window, editor eligibility, bot/anonymous exclusions,
 rights, request rate limits and a bounded acquisition ceiling of 20,000 revisions
@@ -42,7 +43,7 @@ are annotated interpretations, not mental-state ground truth.
 Question: does earlier personal prose predict later choices on the same author's
 blog, and which revisions can be recovered after withholding their parent?
 
-Status: OWNER DECISION on Git blog source policy, then READY TO IMPLEMENT.
+Status: SOURCE POLICY APPROVED; bounded rights/history pilot complete and internally landed. Full study remains gated. See PUBLIC_SOURCE_PILOTS.md.
 Before reading outcomes, select up to 12 independently maintained public blogs
 with explicit usable text rights, at least 20 dated posts and 30 document commits,
 including at least eight post-cutoff eligible changes. Keep rights for prose
@@ -126,5 +127,5 @@ section 3 and its afterword were reread before the missing-middle card. Every
 null has an explicit failure direction above. Full-support probabilities,
 source/evaluator separation, native residency, independently clustered uncertainty
 and two finite semantic repairs remain binding. A failed source decision or
-instrument keeps only its descendants held. None of these designs is included in
-the 266-card execution count or measured runway.
+instrument keeps only its descendants held. These full scientific designs are not credited as measured runway. The two
+separate intake pilots are included in the 268-card v6 execution count.
