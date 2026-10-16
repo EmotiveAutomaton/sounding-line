@@ -1,16 +1,17 @@
 # Workspace and documentation map
 
 Start with [current status](../CURRENT_STATUS.md) for authority and the next action,
-then the [stage index](design/README.md) for the right design folder. **Stage 14 is
-current; Stage 13 is the closed September campaign.**
+then the [stage index](design/README.md) for the right design folder. **Stage 15 is
+current; Stages 14 and 13 are closed with final packets.**
 
 ## Repository map
 
 | Need | Read here |
 |---|---|
 | Startup and operating constraints | [AGENTS](../AGENTS.md), [STATE](STATE.md), [TODO](../TODO.md), [operations](CODEX_OPERATIONS.md) |
-| Any stage's plans, sources and evidence | [Design index](design/README.md): one visible folder per stage, 2 through 14 |
-| Current campaign | [Stage 14](design/stage-14/README.md) |
+| Any stage's plans, sources and evidence | [Design index](design/README.md): one visible folder per stage, 2 through 15 |
+| Current campaign | [Stage 15](design/stage-15/README.md); finite queues drained, remaining validation and scientific admission gates explicit |
+| Closed October campaign | [Stage 14](design/stage-14/README.md) |
 | Closed September campaigns | [Stage 13](design/stage-13/README.md), [Stage 12](design/stage-12/README.md) |
 | Cloud rounds across stages | [Gear 3 campaign index](design/gear-3/README.md) |
 | Program-wide context | [Program shelf](design/program/README.md) |

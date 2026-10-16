@@ -18,6 +18,61 @@ with the reason.
 
 ---
 
+## Returned dependencies and continued queue — 2026-10-15
+
+Analyst paraphrase of the current instruction, not a quotation.
+
+| Contribution | What changed | Status |
+|---|---|---|
+| Check the other projects' received dependencies and build/queue work they unlock | Verified ToMpathy's returned evidence, identified Ghost's matching study in progress, prepared and tested isolated profile dispatch and a supervised return relay; existing Gear 2 continues | built; profile fit queued pending complete Ghost review ([handoff](../../docs/design/stage-15/DEPENDENCY_RETURN.md)) |
+
+## Continued bounded exploration and cross-project handoff — 2026-10-15
+
+Analyst paraphrase of the current instruction, not a quotation.
+
+| Curator contribution | What it changed | Status | Record |
+|---|---|---|---|
+| Continue useful Gear 2 work until the expected morning return; permit small useful healing, avoid giant new legs, and leave concrete companion requirements | Launched two fixed local reader batches and the native source audit; froze exposed-holdout policy and copied indexed dependency notes to both companion repositories | built | [Continuation](../../docs/design/stage-15/OVERNIGHT_CONTINUATION.md); [launch](../phase_2_4_stage_15/OVERNIGHT_SETUP_PUBLIC.json) |
+
+
+## Validity and inexpensive exploration - 2026-10-15
+
+| Curator contribution | What it changed | Status | Record |
+|---|---|---|---|
+| Asked whether all local/cloud work was complete, requested a validity pass and useful inexpensive follow-ups before closure | Distinguished finished batches from gated comparisons; completed a fresh integrity pass and matched-writer history analysis, and launched a separate target/context diagnostic without more paid calls | built | [Stage 15 addendum](../../docs/design/stage-15/VALIDITY_EXPLORATION_ADDENDUM.md); FINDINGS S15-VALIDITY-ADDENDUM / S15-HISTORY-TEXTURE-V1 / S15-SCOPE-DIAGNOSTIC-V1 |
+
+## Status clarification and ToMpathy availability - 2026-10-15
+
+Analyst paraphrase of the current contribution; not a quotation.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S15-STATUS-INTERFACE | Curator asks whether Gear 2 is busy, whether all Gear 3 outcomes are negative, and whether healing and the accessible ToMpathy interface can advance work | Corrected drained-queue and scientific-null distinction; completed reference-failure landing, versioned repair canary, and new canonical interface verification | [Current status](../../CURRENT_STATUS.md), [reference repair](../../docs/design/stage-15/R3_REFERENCE_REPAIR_V5.md), [engine receipt](../phase_2_4_stage_15/ENGINE_INTERFACE_V2_PUBLIC.json) | built |
+
+## Gear 3 healing - 2026-10-15
+
+The row records the current instruction as an analyst paraphrase, not a quotation.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S15-R3-HEALING | Curator requests any needed Gear 3 healing and otherwise maximum feasible preparation | Separate bounded-statement repair, unchanged evidence and acceptance bound, tested and launched pilot; main remains gated | [Protocol](../../docs/design/stage-15/R3_BOUNDED_REPAIR_V2.md), [launch](../phase_2_4_stage_15/R3_V2_LAUNCH_PUBLIC.json) | built |
+
+## Early closure and interface execution - 2026-10-15
+
+The row records the current instruction as an analyst paraphrase, not a quotation.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S14-CLOSE-S15-INTERFACES | Curator asks to finalize Stage 14 early, prepare interfaces while companion streams continue, and run Gear 3 when ready | Final Stage 14 packet and retired old helpers; pinned canonical-engine exchange checked; structured paid pilot completed but failed literal admission, main held | [Closure](../phase_2_4_stage_14/FINAL_PACKET_20261015.md), [interface](../../docs/design/stage-15/ENGINE_INTERFACE.md), [R3](../phase_2_4_stage_15/R3_PROFILE_PILOT_PUBLIC.json) | built |
+
+## Next-round execution confirmation - 2026-10-14
+
+The table records the operational confirmation, its implementation and remaining gates.
+
+| # | Contribution and source | What it produced | Where | Status |
+|---|---|---|---|---|
+| S15-CONTINUE-1014 | Curator confirms all feasible spec work and normal wake checks while other agents work in parallel | Four separate adapter repairs queued; ARIES source audit and PRISM/MultiPref intake completed; engine/twin waits tied to the existing six-hour schedule | [Continuation](../../docs/design/stage-15/CONTINUATION.md), FINDINGS OPS-S15-R6-LAUNCH / S15-R5 / S15-PUBLIC-JSONL | built |
+
 ## October theory errata and filing - 2026-10-14
 
 | # | Contribution and source | What it produced | Where | Status |

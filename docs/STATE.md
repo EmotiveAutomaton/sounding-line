@@ -1,5 +1,763 @@
 # STATE: the agent's operational file
 
+**Gear 2 finite queues drained:** the [complete Qwen candidate batteries](../results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json)
+are independently verified and fully recorded. Worker exited, model unloaded and
+lease released; no active scientific worker or paid batch. Constructed candidate
+eligibility does not enable the canonical engine or admit natural-data/scientific
+use. Original failures remain. Profile fitting is still blocked by the unchanged
+failed Ghost witness; no matching healing return was found. Native-data validation
+preparation remains open; the [readiness handoff](../docs/design/stage-15/F4_NATIVE_READINESS.md)
+separates existing choice labels from literal reference annotations. Stage 15 stays open.
+October 16 morning inspection acknowledged; next health check: **October 16 14:23:17 PDT**.
+Existing terminal/failure supervision remains enabled.
+
+## October 16 morning health inspection: finite queues drained
+
+Native identities, scoped process inventory, completed terminal/landing bindings,
+source/research locks and resource floors verify. No new terminal or operational
+failure; project model unloaded and leases released. Watcher delivery and the
+previous result ACK are verified. Stale registry worker-active flags are corrected.
+
+The failed Ghost witness and companion notes remain unchanged. Profile fitting
+is unrun; native literal annotation/input preparation remains independent work,
+with no launchable card. Stage 15 stays open; no restart or new study. Companion
+Git-head and separate Codex native-queue inventory limitations remain explicit.
+
+[Inspection receipt](../results/phase_2_4_stage_15/HEALTH_20261016_0813_PUBLIC.json). [Verified ACK and next check](../results/phase_2_4_stage_15/HEALTH_20261016_0813_ACK_PUBLIC.json).
+
+## October 16 early health inspection: Gear 2 progressing
+
+The exact native worker/service and project worker inventory verify, with fresh
+progress and retained responses, CPU-only residency, resource floors, leases and
+frozen/research locks intact. No new failures or recovery; completed predecessor
+landings reconcile. The full candidate batch continues without interim scoring.
+
+The unchanged failed Ghost witness still blocks profile fitting; no matching
+healing return or paid batch is present. Dependency notes are intact. Companion
+Git heads and a separate Codex native-queue CLI inventory were not refreshed;
+those limitations remain explicit. Actual health delivery, prior result ACK and
+watcher identity/source/scan/registration verify. No new tests harvested.
+
+[Inspection receipt](../results/phase_2_4_stage_15/HEALTH_20261016_0209_PUBLIC.json). [Verified ACK and next check](../results/phase_2_4_stage_15/HEALTH_20261016_0209_ACK_PUBLIC.json).
+
+## October 15 evening health inspection: Gear 2 progressing
+
+The scheduled inspection verifies the native worker and service, frozen source
+pins, exclusive CPU lease, fresh progress and response files, resource floors,
+finite limits and all research locks. Every completed reader cell has a full
+internal write-through. No new operational failure or recovery is required.
+The fixed queue runs Qwen topic continuity, then grammatical person and themes.
+
+Earlier queues stay drained and Stage 14 stays closed. The known relay alert is
+already reconciled. Companion heads and the failed Ghost witness are unchanged;
+mutable ToMpathy work is not imported. Profile fitting remains unrun under its
+negative admission review. Dependency notes remain intact; no agent uptake is
+claimed. No paid batch is active and no new tests are harvested.
+
+Watcher identity, loaded source hashes, fresh scans and the actual latest result
+delivery/ACK verify. The due health event was inspected directly from the outbox
+while owner-active suppression held its redundant delivery. A separate native
+queue inventory was not repeated; its earlier restricted-shell limitation remains
+explicit. Inspection ACK is verified; next health is **October 16 02:09:18 PDT**,
+with immediate failure/terminal alerts.
+
+[ACK and next check](../results/phase_2_4_stage_15/HEALTH_20261015_2001_ACK_PUBLIC.json) | [Full operational receipt](../results/phase_2_4_stage_15/HEALTH_20261015_2001_PUBLIC.json).
+
+## October 15 completed Ghost return: admission failed; Gear 2 continues
+
+The complete Ghost witness is independently verified and fully recorded. The
+profile comparison remains unrun because null bounds and option-order invariance
+fail. Its actual admission and prepared launcher both refuse before fitting.
+Planted-signal success does not override those controls. Canonical diagnosis
+and separately reviewed matching healing evidence are the remaining dependency.
+
+The return relay delivered all evidence. Its REVIEW_REQUIRED status was not
+recognized by the exit monitor; the secondary alert is preserved and reconciled,
+and only the exact ended relay watch is retired. The literal Qwen queue continues
+with verified native identities, source pins, lease, CPU residency and resources.
+No paid batch or new scientific fit was started. Next health remains
+**October 15 20:01:11 PDT**, with immediate terminal/failure alerts.
+
+[Full review](../results/phase_2_4_stage_15/GHOST_RETURN_REVIEW_PUBLIC.json) | [Remaining requirements](../docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+
+## October 15 afternoon: bounded continuation running in Gear 2
+
+The curator authorized useful bounded exploration through the expected return
+around 05:00 Pacific October 16 (not a deadline). The fixed local reader queue
+continues across Llama 3.2 3B and Qwen 3.5 9B. The native CoAuthor audit has
+completed and independently reconciles source identities, labels, all retained
+decisions and exclusions, and strict history cutoffs. Its worker exited normally.
+Native-adapter and exposed-holdout prerequisites are reviewed; profile fitting
+still awaits the exact Ghost witness and combined admission. Fixed plans,
+resource floors, CPU residency and native/terminal monitoring remain in force. All nine Llama 3.2 3B cells have full internal write-through and reconciled
+terminal/receipt identities. Contradiction, tone and dialogue pass constructed
+admission only; register, edit type, claim change, topic continuity, grammatical
+person and literal themes remain disabled. The same worker now runs the fixed
+Qwen 3.5 9B cells with verified CPU-only residency; no partial scores are reported. Original failures remain unchanged.
+
+Concrete dependency notes are copied and indexed in Ghost and ToMpathy; agent
+receipt is not claimed. Sounding Line owns native-data and exposed-holdout checks.
+The exact Ghost research witness remains external. No paid batch is active;
+campaign booking remains $6.65. Next health: **October 15 20:01:11 PDT**, with
+immediate terminal/failure/disappearance monitoring. At queue drain, review and
+build the next useful bounded commissioned successor under this authority;
+do not restart valid work or invent tests merely to occupy the machine.
+
+[Continuation](../docs/design/stage-15/OVERNIGHT_CONTINUATION.md) · [Verified launch](../results/phase_2_4_stage_15/OVERNIGHT_SETUP_PUBLIC.json). Earlier snapshots below retain their dated state.
+
+
+## October 15 six-hour inspection: finished queues drained; Stage 15 remains open
+
+**Inspection acknowledged; next health check: October 15 20:01:11 PDT.**
+[Verified rearm receipt](../results/phase_2_4_stage_15/HEALTH_20261015_1350_ACK_PUBLIC.json).
+
+[OPS-S15-HEALTH-1015-1350](../results/phase_2_4_stage_15/HEALTH_20261015_1350_PUBLIC.json) verifies exited worker identities,
+retained terminal evidence, released compute leases, unloaded model, research
+locks and resource floors. No new operational failure or recovery is needed.
+No scientific worker or paid batch is active. Companion commits are unchanged;
+the exact Ghost witness remains unavailable. Native-data adapter and exposed-
+holdout/error-control preparation remain authorized and unfinished.
+
+Watcher identity, scans and actual delivery pass. A separate native-queue query
+could not initialize in this restricted shell; its inventory is explicitly
+unverified. Historical notification errors remain retained. Six-hour rearm follows
+the inspection ACK; see CURRENT_STATUS and the separate ACK receipt for its due time.
+No new tests, paid calls, delegation, gate changes or finished-queue restarts.
+
+## October 15: complete scope diagnostic landed; no general prompt repair
+
+The whole diagnostic independently replays, including every request/response,
+class/context contrast and exact-repeat comparison. Explicit target scoping
+worsens grammatical-person correctness and introduces empty-theme failures;
+Q6/Q10 remain disabled. All sources and CPU residency verify. Full finding is
+S15-SCOPE-DIAGNOSTIC-ENDPOINT; aggregate receipt is indexed in Stage 15 results.
+
+The finite worker exited normally, unloaded its model and released its lease.
+No failed terminal or operational recovery is needed. Resource floors and current
+watcher delivery pass; the ordinary health deadline remains October 15 13:50:42 PDT.
+No new tests harvested, provider calls, spending, delegation or gate changes.
+Stage 15 remains open; native-data/backbone/Ghost/holdout/error-control witnesses
+still gate the prepared comparisons. Continue independent adapter/holdout work
+under existing authority and inspect companion readiness at the standing cadence.
+Do not restart this completed diagnostic or the earlier admission queue.
+
+
+## October 15: validity pass complete; bounded exploration running
+
+The fresh Stage 15 retained-evidence audit passes without a damaged-output rerun;
+the interface-manifest scope exception and limits of prior semantic verification
+are explicit. All locked files verify. The saved-output matched-writer history
+analysis is complete and independently replayed; gains are not monotone and
+globally novel-prompt support is too sparse for a general learning-curve claim.
+Full write-through: S15-VALIDITY-ADDENDUM and S15-HISTORY-TEXTURE-V1 in FINDINGS.
+
+The curator-authorized target/context diagnostic is running in a separate frozen
+namespace: 384 local calls, one CPU inference thread, zero GPU residency, three-hour
+ceiling, unchanged canonical engine and original failures. Exact native identity,
+lease, source pins, resources and terminal/disappearance monitoring verify.
+No partial scores; whole completion requires independent replay and full landing.
+No new provider calls, paid reservation, engine admission or delegation.
+
+Stage 15 is not closed. Profile fitting and broader comparisons still require
+native-data/backbone/Ghost/holdout/error-control admissions. Other owners' work is
+untouched. Health remains October 15 13:50:42 PDT; no separate ETA wake.
+Private launch: `.agent-state/next-round-20261014/scope-diagnostic-v1/`.
+Two tests harvested and built from this turn; the history analysis is already landed.
+
+
+## October 15: literal admission queue fully verified and closed
+
+All eight complete batteries and every retained response reconcile. Q10's
+empty-theme-set correctness gate fails; keep it disabled. Q7/Q3/Q4 retain
+constructed eligibility only. Full records: S15-F4-Q10-LOCAL-V1 and
+S15-F4-LITERAL-ENDPOINT in FINDINGS; aggregate receipts are indexed in Stage 15.
+
+The native worker exited normally, its model is unloaded and its exact lease
+released. Source pins, resource floors and current watcher delivery verify.
+Read-only companion inspection finds unchanged commits and no required Ghost
+twin output. Profile fitting remains unsubmitted; native-data adapter and
+exposed-holdout preparation are the remaining independent work. No immediate
+scientific job is admitted. Stage 15 remains active; no restart or paid calls.
+Next health remains October 15 13:50:42 PDT. No new tests harvested.
+
+## October 15: Q6 fully verified and disabled; final Q10 continuing
+
+The complete grammatical-person battery fails canonical cross-check and local
+correctness gates. All raw responses, realized constructions, independently
+recomputed pronoun rules, source pins and CPU residency verify. Full write-through
+is S15-F4-Q6-LOCAL-V1. Keep Q6 disabled with all classes retained. Earlier question
+dispositions and all natural-data/scientific gates remain unchanged.
+
+The exact native worker and owned lease are advancing the final frozen question,
+Q10. Resources and watcher scans verify; profile fitting still awaits research
+witnesses. No retry, source change or paid call. Next health remains October 15
+13:50:42 PDT. No new tests harvested.
+
+## October 15: Q4 constructed admission landed; Q6 continuing
+
+The complete tone-change battery passes canonical format and local correctness
+gates. All raw responses, realized constructions, source pins and CPU residency
+independently replay; full write-through is S15-F4-Q4-LOCAL-V1. Natural-data and
+scientific admission remain separate. Q7/Q3's passes and Q1/Q8/Q9's failures stand.
+
+The exact native worker and owned lease are advancing Q6; Q10 remains queued.
+Resource headroom and watcher scans verify. Profile fitting still awaits research
+witnesses; no retry, source change or paid call. Next health remains October 15
+13:50:42 PDT. No new tests harvested.
+
+## October 15: Q3 constructed admission landed; Q4 continuing
+
+The complete register battery passes canonical format and local correctness
+gates. All raw responses, realized constructions, source pins and CPU residency
+independently replay; full write-through is S15-F4-Q3-LOCAL-V1. Natural-data and
+scientific admission remain separate. Q7's pass and Q1/Q8/Q9's failures stand.
+
+The exact native worker and owned lease are advancing Q4; Q6 and Q10 remain
+queued. Resource headroom and watcher scans verify. Profile fitting still awaits
+research witnesses; no retry, source change or paid call. Next health remains
+October 15 13:50:42 PDT. No new tests harvested.
+
+## October 15: Q1 fully verified and disabled; Q3 continuing
+
+The complete topic-continuation battery fails canonical and local correctness
+gates. All raw responses, realized topic pairs, source pins and CPU residency
+independently replay; full write-through is S15-F4-Q1-LOCAL-V1. Keep Q1 disabled,
+with all families retained. Q7's constructed pass and Q8/Q9's failures stand.
+
+The exact native worker and owned lease are advancing Q3; three further frozen
+questions remain queued. Resource headroom and watcher scans verify. Natural-data
+and scientific gates remain; profile fitting awaits research witnesses. No retry,
+source change or paid call. Next health remains October 15 13:50:42 PDT.
+No new tests harvested.
+
+## October 15: Q7 constructed admission landed; Q1 continuing
+
+The complete contradiction battery passes canonical and local constructed gates.
+All retained raw responses, realized logical transformations, source pins and CPU
+residency independently replay; full write-through is S15-F4-Q7-LOCAL-V1.
+Natural-data and scientific admission remain separate. Q8 and Q9 stay disabled.
+
+The exact native worker and owned lease are advancing Q1; four further frozen
+questions remain queued. Resource headroom and watcher scans verify. Profile
+fitting still awaits research witnesses; no retry, source change or paid call.
+Next health remains October 15 13:50:42 PDT. No new tests harvested.
+
+## October 15: Q9 fully verified and disabled; Q7 continuing
+
+The complete claim-change battery fails canonical and local correctness gates.
+All retained raw responses, known-answer transformations, source pins and CPU
+residency independently replay; full write-through is S15-F4-Q9-LOCAL-V1.
+Keep Q8 and Q9 disabled, with every template family and failure retained.
+No automatic retry or change to the running worker.
+
+The exact native worker and owned lease are advancing Q7; five further frozen
+questions remain queued. Resource headroom and watcher scans verify. Profile
+fitting still awaits research witnesses; no spending or scientific-scope change.
+Next health remains October 15 13:50:42 PDT. No new tests harvested.
+
+## October 15: Q8 fully verified and disabled; Q9 continuing
+
+The complete edit-type battery fails the frozen correctness requirements despite
+valid formats. All raw responses, known-answer transformations, source pins and
+CPU residency independently replay; full internal write-through is S15-F4-Q8-LOCAL-V1.
+Keep the failed feature disabled and retain both canonical and local verdicts.
+No partial-class salvage, automatic retry or new scientific authorization.
+
+The native worker has moved to Q9 with fresh outputs and its exact owned lease;
+six further frozen questions follow. Resources and watcher scan are healthy.
+Profile fitting remains held for research witnesses; no provider call or spending
+change. The existing health check remains October 15 13:50:42 PDT. No new tests
+harvested; complete questions receive independent replay and full landing before ACK.
+
+## October 15: literal admission running; trained profile inputs verified
+
+Eight complete constructed literal-question batteries run serially on one CPU
+inference thread under a twelve-hour ceiling. Native identity, source/model pins,
+monitor binding, output freshness and resource headroom verify. Completion/failure
+paths are watched; no unfinished scores. The private launch identity is under
+`.agent-state/next-round-20261014/f4-literal-local-v1/`; public launch and preparation
+receipts are indexed in the Stage 15 evidence shelf.
+
+The canonical-engine baseline/own/donor profile comparison passes its software
+controls and independent real-input reconstruction. Human fitting has not run:
+the relevant Ghost twin and reviewed adapter/holdout witnesses remain required.
+Do not mistake the software controls for scientific admission. Q2 lacks its
+independent entity checker; the prior exact Q5 failure is preserved.
+The convergence repair is complete and recorded, without useful-gain rescue.
+No paid batch or new spend; shared booking $6.65, available $43.35 pending invoices.
+Next health October 15 13:50:42 PDT; no extra ETA wakes or other-owner cleanup.
+
+## October 15: convergence repair complete; feature preparation active
+
+The full CPU convergence repair and independent numerical/forecast/contrast
+replay pass. The saved-reader useful-gain screen remains unmet; original outputs
+and the first audit failure are retained. No provider spend or engine promotion.
+The authorized profile and literal-feature work continues under separate local,
+native-data and Ghost admission gates. Shared booking remains $6.65, available
+$43.35 pending invoices. Next health: October 15 13:50:42 PDT.
+
+## October 15: authorized convergence audit needs a selector repair
+
+The first CPU audit stopped at its numerical certificate before producing a
+scientific summary. The solver found a passing candidate, but selection retained
+an earlier uncertified candidate. Original source/failure/native exit verify.
+A separate successor preserves objective, threshold, folds and original results.
+Profile/literal-feature preparation continues under existing scientific gates;
+shared paid booking remains $6.65. No provider call or theory update.
+
+## October 15: whole R3 profile main complete and fully recorded
+
+The complete v7 main passes the original literal contract and independent
+source/history/wire/full-response replay. All 62 responses, 43 source bindings
+and 919 past-only history records verify; earlier failures remain preserved.
+Provider and exact native execution ended. The 87-cent reservation reconciles
+to 42 cents. Shared booking is $6.65, available $43.35, including thirteen
+retained unknown-usage cents, pending invoices. No paid batch remains active.
+
+Profile generation is complete. Semantic faithfulness and predictive usefulness
+remain unestablished; F4 feature evaluation retains local backbone, native-data,
+exact-hash engine/twin, holdout and error-control admission. Continue source and
+adapter preparation; no automatic retry or new generation. Stage 14 and all R6
+repairs remain closed. Next health inspection: October 15 13:50:42 PDT.
+No new scientific test, tranche or delegation.
+
+## October 15: array-only whole main running
+
+The complete v7 discarded pilot passes unchanged literal admission and full
+independent source/history/wire/response replay, and is fully recorded and ACKed.
+The commissioned 62-request main passed a fresh guarded forecast and is accepted
+and running. All 43 source bindings, exact native ownership and terminal watches
+verify. Eighty-seven cents reserved; shared booking $7.10, available $42.90,
+including thirteen retained unknown-usage cents, pending invoices.
+
+Wait for the whole result, then independently verify and fully land it. No interim
+scores, selective salvage, automatic retry or scientific feature admission.
+Stage 14 and R6 remain closed; native-data/Ghost and study gates remain.
+Health inspection completed and ACKed; next October 15 13:50:42 PDT.
+No new scientific test, tranche or delegation.
+
+## October 15: complete array-only pilot admitted and fully recorded
+
+The whole v7 discarded pilot passes the original literal contract and independent
+source/history/wire/full-response replay. All 43 source bindings and 78 past-only
+history records verify, with pilot/main writers disjoint and originals preserved.
+Provider and native execution ended; four cents reconcile complete usage. Shared
+booking $6.23, available $43.77, including thirteen retained unknown-usage cents,
+pending invoices. Whole main is eligible after full landing and guarded forecast.
+
+No semantic/predictive admission, selective salvage or automatic retry. Stage 14
+and R6 remain closed; scientific dependencies remain. The due health inspection
+is fully recorded and acknowledged; next health October 15 13:50:42 PDT. No new test.
+
+## October 15 07:42 due health inspection completed
+
+OPS-S15-HEALTH-1015-0742: live R3 pilot identity, advancing supervision and source pins
+verify. Stage 14 and all R6 pairs remain closed with unchanged terminal hashes,
+output presence and original failures. Resource floors and all research locks
+pass. One already-landed canary notice was retired after exact native-queue
+verification; queue empty. Current watcher healthy; historical failure retained.
+
+ToMpathy's committed engine remains `82789fdb50d9`; its owner has an uncommitted
+service edit. Use the verified isolated capsule, never that mutable source.
+Required Ghost next-round twins remain absent. No scientific admission/recovery,
+new paid call or test. The complete discarded pilot continues; main stays gated.
+Shared booking remains $6.29 with $43.71 available, pending invoices. Next health
+deadline follows the full-write-through ACK, recorded in CURRENT_STATUS.
+
+## October 15: complete array-only discarded pilot running
+
+The v7 synthetic check is fully verified, recorded and acknowledged. Its fresh
+six-request discarded-writer pilot passed the guarded forecast and is accepted
+and running. Exact native ownership, all 43 source bindings and terminal watches
+verify. Ten cents reserved; shared booking $6.29, available $43.71, including
+thirteen retained unknown-usage cents, pending invoices. Main is unsubmitted
+until full independent pilot admission and write-through. No interim scores,
+semantic/predictive admission, automatic retry or new scientific test.
+
+Stage 14 and all R6 repairs remain closed. Native-data, Ghost and study gates
+remain. The independent six-hour health deadline is October 15 07:42:06 PDT.
+
+## October 15: array-only synthetic compatibility passed and fully recorded
+
+V7's complete synthetic response passes the original literal contract and full
+independent verification. All 43 source bindings, exact wire, original attempts,
+replay and ended provider/native ownership verify. One cent reconciles usage;
+shared booking is $6.19, available $43.81, including thirteen retained unknown-
+usage cents, pending invoices. No batch remains active at this landing.
+
+The already commissioned six-request discarded pilot is eligible after full
+write-through and a fresh guarded forecast. Main remains conditional and
+unsubmitted. No semantic/predictive admission or causal explanation of v6.
+Stage 14 and R6 stay closed; native-data, Ghost and scientific gates remain.
+Health stays due October 15 07:42:06 PDT. No new scientific test or delegation.
+
+## October 15: bounded array-only compatibility check running
+
+The complete v6 synthetic failure is independently verified, fully recorded and
+acknowledged. V7 removes only the provider string pattern, retaining array
+minimums, the original full-response validator, evidence, prompt, model and output
+cap. All 55 targeted checks and 21 research locks pass. One synthetic canary is
+accepted and running under verified native ownership, 43 source bindings and
+terminal/failure supervision. Four cents reserved; shared booking $6.22 and
+available $43.78, including thirteen retained unknown-usage cents, pending invoices.
+
+No human pilot/main is submitted in this version. Full canary admission and
+independent write-through must precede the fresh complete pilot. No prefix salvage,
+automatic retry or causal inference about the failed schema. Stage 14/R6 remain
+closed; real-data, Ghost and scientific gates remain. Independent health stays due
+October 15 07:42:06 PDT. No new scientific test or delegation.
+
+## October 15: nonempty-schema canary failed complete output admission
+
+V6's complete synthetic response is independently verified and fully recorded.
+It continued after a JSON object with non-JSON text and reached the output limit.
+The original full-response gate fails; no prefix extraction or scientific null.
+All 39 source pins, exact request/wire/replay, prior attempts and ended native/
+provider ownership verify. Two cents reconcile complete usage. Shared booking
+is $6.18, available $43.82, including thirteen retained unknown-usage cents,
+pending invoices. No paid batch remains active; v6 pilot/main are unsubmitted.
+
+Review a bounded prospective compatibility repair under existing authority,
+without asserting a cause from this single observation. Stage 14 and R6 remain
+closed. Native dataset/Ghost and study admission gates remain. Independent health
+stays due October 15 07:42:06 PDT; no new scientific test or delegation.
+
+## October 15: nonempty-profile repair synthetic check running
+
+The complete v5 main is independently verified, fully recorded and acknowledged.
+An empty statement/reference list failed its literal gate; no scientific null or
+feature admission. V6 adds only nonempty schema constraints and retains the
+original validator, evidence, model and prompt. All 57 targeted checks and 21
+research locks pass. One synthetic canary is accepted and running with verified
+native ownership, source pins and terminal/failure watches; four cents reserved.
+Shared booking is $6.20, available $43.80, including thirteen retained unknown-
+usage cents, pending invoices. A fresh complete pilot and whole main remain gated.
+
+Stage 14 and all R6 repairs remain closed. Native dataset/Ghost and study admission
+gates remain. Independent health stays due October 15 07:42:06 PDT; no added ETA
+wake or new scientific test. Other owners' projects and processes are untouched.
+
+## October 15: reference-repair main completed; empty profile blocks admission
+
+The commissioned v5 main ran after full pilot admission and guarded preflight.
+Complete independent source/history/wire/response replay verifies; one empty
+statement with no references fails the unchanged literal gate. All originals
+remain; no selective salvage or predictive verdict. Provider and native process
+ended normally. The 87-cent reservation reconciles to 41 cents. Shared booking
+is $6.16, available $43.84, including thirteen retained unknown-usage cents,
+pending invoices. No paid batch or local scientific worker remains active.
+
+Review a prospective repair under the existing healing authority before any new
+submission. Feature use remains unadmitted. Stage 14 and all R6 repairs stay
+closed; native-data/Ghost and study gates remain. The six-hour inspection is still
+due October 15 07:42:06 PDT. No new scientific test or delegation.
+
+## October 15: full reference-repair pilot passed and recorded
+
+The complete v5 pilot passes the unchanged literal contract. Independent source,
+history chronology, wire, response replay and ended provider/native ownership
+verify; original failures remain intact. Four cents reconcile complete usage.
+Shared booking is $5.75, available $44.25, including thirteen retained unknown-
+usage cents, pending invoices. Main is eligible after this full write-through and
+a fresh forecast through the existing guard; no main is yet submitted.
+
+This is format admission only. Semantic faithfulness and predictive usefulness
+remain unestablished. Stage 14 and all R6 repairs stay closed; native data/Ghost
+and study admission gates remain. Health is still due October 15 07:42:06 PDT;
+terminal/failure supervision remains active. No new scientific test or delegation.
+
+## October 15: full reference-repair pilot running
+
+The v5 synthetic canary passes full independent verification, write-through and
+ACK. Its six-request discarded pilot passed preflight and is accepted and running;
+exact native identity, source pins and terminal watches verify. Main remains
+unsubmitted pending complete pilot validity and full write-through. Ten cents
+reserved; shared booking $5.81, available $44.19, pending invoices.
+
+Stage 14 and all four R6 repair pairs remain closed. The newer canonical ToMpathy
+interface is verified; real-data mappings, exact-hash Ghost witnesses and study
+controls remain prerequisites. The independent health check is still October 15
+07:42:06 PDT, with immediate terminal/failure monitoring. No new scientific test.
+
+## October 15: reference canary passed; newer ToMpathy interface verified
+
+V4's complete evidence-reference failure is fully landed and acknowledged. V5
+displays explicit history IDs and constrains references per request, retaining
+the original parser. Forty-eight targeted checks and the complete synthetic
+canary pass independent source/wire/response replay. Provider/native execution
+ended; one cent reconciled. Pilot is eligible after full write-through; main stays
+gated and unsubmitted. Shared booking $5.71, available $44.29,
+including thirteen retained unknown-usage cents, pending invoices.
+
+ToMpathy `82789fdb50d9` is pinned in a separate capsule; actual interface export
+and six native-adapter checks pass. Real-data chronology/identity checks, matching
+Ghost witnesses and study controls still gate scientific execution. Gear 2's four
+repair pairs are drained, Stage 14 is closed. Memory inspection finds about 50 GiB
+physical availability and 45 GiB commit headroom, with no Sounding Line GPU lock.
+The six-hour inspection remains due October 15 07:42:06 PDT; immediate terminal
+monitoring remains active. No new scientific test, delegation or companion edit.
+
+## October 15: discarded profile pilot ended; reference repair required
+
+V4's complete pilot is independently verified and fully recorded. One response
+cites a nonexistent history entry, so complete admission fails. It is an instrument
+reference failure, not a scientific null. Main is unsubmitted. Preserve every
+original and the unchanged parser; review explicit record IDs and request-specific
+reference constraints in a separate successor, with synthetic and full-pilot gates.
+
+Provider/native execution ended normally. Four cents reconcile complete usage;
+shared booking is $5.70 and available capacity $44.30, including thirteen retained
+unknown-usage cents, pending invoices. Stage 14 and all four R6 repairs stay closed;
+Gear 2 is not processing another scientific queue. Six-hour health stays due
+October 15 07:42:06 PDT. No new scientific test or delegation.
+
+## October 15: full discarded profile pilot running
+
+V4's complete synthetic generation is independently verified, fully landed and
+acknowledged. The six-request pilot on the same discarded writers and exact
+past-only histories passed preflight and is accepted and running. Exact native
+ownership, source pins and terminal/failure monitoring verify. The original schema
+and acceptance rule remain unchanged. Full pilot verification and write-through
+must pass before main preflight or submission; main is still unsubmitted.
+
+Shared booking is $5.76 including the ten-cent active pilot and thirteen cents
+retained for unknown-usage failures; $44.24 remains pending invoices. Stage 14 and
+R6 stay closed. Six-hour health remains due October 15 07:42:06 PDT; immediate
+completion/failure watches are active. No new scientific test or delegation.
+
+## October 15: simple-schema canary passed and fully recorded
+
+The v3 failure is fully landed and acknowledged. V4 restores the original schema
+and exact validator, with prospective concise guidance. All 43 local checks and
+the complete synthetic generation pass. Independent source/wire/response replay,
+ended provider/native state and full accounting verify; one cent reconciled.
+Full discarded pilot is eligible after this write-through. Main remains blocked
+on full pilot validity and write-through; neither is submitted at this snapshot.
+
+Shared booking is $5.66, leaving $44.34, including thirteen cents retained for
+unknown-usage failures, pending invoices. Stage 14 and R6 remain closed. Six-hour
+health stays due October 15 07:42:06 PDT. No new scientific test or delegation.
+
+## October 15: synthetic grammar check failed and fully recorded
+
+S15-R3-V3-CANARY failed before generation with "Schema is too complex." Full
+request/response/source replay and ended ownership verify; no human history was
+sent. Both earlier attempts remain intact. Pilot and main are unsubmitted in v3.
+Review a genuinely simpler separately versioned interface under existing healing
+authority; retain the original literal gate and canary/full-pilot sequence.
+
+Shared booking remains $5.65, including thirteen cents of retained unknown-usage
+reservations; $44.35 remains pending invoices. Stage 14 and R6 remain closed.
+Six-hour health stays due October 15 07:42:06 PDT. No new scientific test or agent.
+
+## October 15: synthetic grammar diagnostic running
+
+The complete v2 failure is internally landed and its event acknowledged. The
+reviewed v3 uses an equivalent nested word-bound encoding; 34 targeted checks
+pass. One synthetic actual-generation canary is accepted and watched, with a
+three-cent reservation. No human-history pilot or main is submitted in this
+version. Each transition requires complete validity, independent verification
+and full write-through. Original failures and the unknown-usage reservation stay.
+
+Shared booking is $5.65, leaving $44.35 under the existing ceiling, pending invoices.
+Stage 14 and R6 remain closed. Six-hour health stays due October 15 07:42:06 PDT;
+immediate terminal/failure monitoring is active. No new scientific test or agent.
+
+## October 15: completed Gear 3 repair failed grammar compilation
+
+S15-R3-V2-PILOT is fully verified and recorded. No profile was generated: the
+provider rejected the schema as too complex or timed out compiling it. Main is
+unsubmitted. All originals remain, and the ten-cent reservation is retained
+because no token accounting was returned. Shared booking remains $5.62.
+
+Continue the explicitly authorized healing with a separately reviewed simpler
+encoding and actual synthetic generation before a new full discarded pilot.
+Stage 14 and R6 remain closed; scientific admission gates and the independent
+October 15 07:42:06 PDT health deadline remain unchanged. No new scientific test.
+
+## October 15: Gear 3 healing pilot running
+
+The curator explicitly authorized healing. A separate bounded-statement schema
+passes 29 targeted checks and actual provider preflight. Its six-request pilot
+is accepted and supervised; original failures and identical histories are retained.
+Main remains unsubmitted and its payloads stay local until full pilot admission
+and write-through. Shared booking is $5.62 including the active ten-cent reservation;
+$44.38 remains under the same ceiling, pending invoices. This is operational
+progress, not a completed scientific result. No new study or delegation.
+
+Stage 14 and R6 remain closed. Native dataset adapters and engine/twin admission
+are still pending. Immediate terminal/failure supervision and the October 15
+07:42:06 PDT health deadline remain unchanged. [Repair protocol](design/stage-15/R3_BOUNDED_REPAIR_V2.md).
+
+## October 15: R6 repair queue fully landed and drained
+
+S15-R6-QWEN-MIXED-E8-FIRST completes the final producer/readout pair. All four
+pairs have full internal verification and write-through; original failures and
+unknown attempts remain. The coordinator and workers exited, the GPU lock is
+released, and only the exact exited coordinator watch is retired. No recovery
+or new launch is needed for this queue. Stage 14 remains closed.
+
+Stage 15 remains active with native adapter validation, canonical engine/Ghost
+admission and the reviewed R3 representation still pending. The R3 main remains
+unsubmitted; shared spending and the October 15 07:42:06 PDT health deadline are
+unchanged. No new tests, paid calls or changes to other owners' projects.
+
+## October 15: Stage 14 closed early; Stage 15 continues
+
+The curator advanced Stage 14 closure. Its final packet, full integrity and closed
+endpoint are filed under `results/phase_2_4_stage_14/`. The original evidence is
+preserved, all unrun cards have explicit dispositions, the idle dispatcher is
+ended and the checkpoint helper exited by cancellation. Their exact watches are
+retired. No Friday Stage 14 packet or scientific run remains due. Later paragraphs
+record history and do not reinstate the old calendar.
+
+Stage 15's final R6 producer/readout remains active independently. The exact-commit
+ToMpathy interface passed constructed ingestion/refusal checks; native dataset
+semantics, Ghost twins and scientific admission remain open. Gear 3 R3 was launched
+under current authority, completed and fully recorded: five of six profiles pass,
+one has overlength statements, so main is unsubmitted. Four cents reconciled;
+shared campaign booking is $5.52 and remainder $44.48, pending invoices.
+
+The six-hour health deadline remains October 15 07:42:06 PDT. Early closure removes
+the Friday calendar prerequisite, not the engine/twin/adapter/holdout/error-control
+gates. No other project's work or process was changed. No additional hypotheses
+were harvested beyond the commissioned work.
+
+## October 15 early morning: third R6 repair pair internally landed
+
+S15-R6-SMOL-HUMAN-E8-FIRST completed its producer and saved-output consumer.
+Output/source/model bindings, numerical/readout replay, training construction,
+chronology and three matched references verify. The original outage-era UNKNOWN
+remains unchanged. Sparse repeated text and distinct readout limits are recorded
+internally; no theory or family promotion. Terminal ACK follows full write-through.
+
+The final Qwen mixed-text eight-epoch repair has fresh progress, exact native
+ownership and passing resource/lock checks. Its paired readout follows. Three
+repair pairs are complete. The independent next health deadline remains October 15
+07:42:06 PDT; ordinary result ACKs do not move it. No new paid call, gear change,
+delegation or harvested test. The original Stage 14 dispatcher remains parked.
+
+## October 15 01:31 due inspection completed
+
+OPS-S15-HEALTH-1015-0131: active repair ownership, advancing output/progress, retained
+results/failures, source/card pins, resource floors, GPU lock, reporting helper and
+watcher delivery pass. Two repair pairs remain fully landed. SmolLM2 human-text
+eight epochs is running; Qwen mixed-text eight epochs follows. No recovery needed.
+The original Stage 14 dispatcher remains intentionally paused.
+
+ToMpathy now has committed engine source at `2a0c54233344ae3f64bed9806442289d7dab726a`
+with a clean engine working tree. Its software verification contracts/receipts
+were inspected; isolated integration, independent adapter checks and scientific
+admission remain. Ghost V21 is closed; its V23 spec is present, but required next-round
+twins are not yet available. Preserve Friday's packet and remaining gates.
+
+The inspection is ACKed; the verified next health deadline is October 15 07:42:06 PDT.
+No new paid call, gear change, delegation or harvested test.
+
+## October 14 late evening: second R6 repair pair internally landed
+
+S15-R6-SMOL-MIXED-T32768-FIRST completed its producer and saved-output consumer.
+Output/source/model bindings, numerical/readout replay, training construction,
+chronology and three matched references verify. Original VRAM-failure receipts
+remain unchanged. Mixed provenance, sparse histories and distinct readout limits
+are recorded internally; no theory or family promotion. Terminal ACK follows
+the complete write-through.
+
+The SmolLM2 human-text eight-epoch repair has fresh progress, exact native ownership
+and passing resource/lock checks. Qwen mixed-text eight epochs follows. The existing
+six-hour deadline remains October 15 01:31:26 PDT; completion ACKs do not move it.
+No new study, paid call, delegation or harvested test.
+
+## October 14 late evening: first R6 repair pair internally landed
+
+S15-R6-QWEN-HUMAN-T32768-SECOND completed its producer and saved-output consumer.
+All outputs, source/model bindings, numerical/readout replay, training construction,
+chronology and three matched references verify. Sparse histories, shared human
+units, limited actual dose changes and readout uncertainty remain in FINDINGS and
+the aggregate receipt. Original interrupted receipts remain unchanged; no theory
+or family promotion. Both terminal events are ACKed only after full write-through.
+
+The second repair, mixed-text SmolLM2 at the higher token cap, has fresh progress
+and exact native ownership. Resources and exclusive GPU lock pass. Two epoch
+repairs follow. The existing six-hour deadline remains October 15 01:31:26 PDT;
+completion ACKs do not move it. No new study, paid call, delegation or harvested test.
+
+## October 14 confirmed continuation: R6 running, source work landed
+
+Four separate R6 repair comparisons and their paired readouts are now running
+serially in `results/phase_2_4_stage_15/raw/r6-repairs-v1`. Exact native identity,
+fresh writer progress, source/dependency pins and resource floors verify. Five
+coordinator checks pass; original failed/unknown attempts and scientific code stay.
+No unfinished scores or new paid call. The existing dispatcher remains parked.
+
+R5's direct ARIES audit completed without explaining the paper/release discrepancy;
+both denominators and descriptive scope are retained. PRISM/MultiPref source intake
+completed and independently passed all manifest and schema checks. Its initial
+newline-reference failure is retained beside a verified source-byte successor.
+MultiPref's distinct label count differs from the README's participant count; do
+not admit its maker adapter until identities and inclusion are reconciled.
+
+The next normal health check remains October 15 at 01:31:26 PDT. Check the other
+agents' actual committed ToMpathy engine and completed Ghost twin receipts, then
+prepare only admitted successors. Never import their changing working trees or
+stop their processes. Broad families keep Friday 18:00 and all validation gates;
+cloud work keeps the shared remaining allowance. See
+[continuation instructions](design/stage-15/CONTINUATION.md). No new tests harvested
+from this operational confirmation; all work follows the filed commission.
+
+## October 14 late evening: admitted early tranche drained
+
+Phase 0 and the versioned public intake have completed and received internal
+write-through. Both native workers exited; no paid calls or extra tranche were
+used. New source/adapter gates remain, including absent Community timestamps.
+The thirteen broad families await Friday's packet and actual pinned engine/Ghost
+twins plus statistical admission. R5 and subsequent adapter/card preparation remain
+authorized next work; no new owner approval is required for existing scope.
+Do not run old judge cards or manufacture compute solely to keep a worker busy.
+The six-hour watcher remains active; terminal ACKs follow the documented landings.
+
+
+## October 14 late evening: Phase 0 completed and internally recorded
+
+S15-PHASE0 completed in the finite local CPU attempt. Source/output checks, all
+saved score means and chronology, three independent chronological refits and eight
+outer calibration refits pass. Full FINDINGS and instrument write-through records
+the useful-gain screens, prompt-novel uncertainty and 107 capped EM fits; these
+capped fits remain provisional, not an admitted null. No engine module or adaptive
+family is admitted. The worker exited; raw evidence is unchanged.
+
+The next admitted work is pinned public intake of DICES-350 and Community Alignment,
+with no modeling or paid calls. Future broad families still require Friday's packet,
+actual pinned ToMpathy engine and Ghost twins, adapters and statistical controls.
+Keep old-role Stage 14 dispatch parked. The six-hour health deadline is unchanged.
+Private verifier failures were ordering/singleton handling in the audit, corrected
+without changing producer outputs or thresholds. Pending terminal ACKs follow
+verification of this write-through.
+
+## October 14 evening: Stage 15 Phase 0 launched
+
+The new commission is reviewed and filed in [Stage 15](design/stage-15/README.md).
+Finite serial CPU execution is live on T0c, then T0b and T0a. Native owner, fresh
+progress, source pins and resource floors verify; nine known-answer/leakage tests
+pass. The replay census is 16,855 decisions, 61 writers, 1,399 sessions, with eight
+chronology exclusions preserved. No scientific result is yet reported.
+
+R6 triages all 44 blocked cards: 24 have completed successors, 16 retire the judge
+role, four remain separate repair candidates. Unstarted v11 dispatch is intentionally
+parked by its PAUSE record; original cards, failed attempts and reporting helper
+remain. Do not treat this as a failed queue or restart old roles on a health wake.
+
+Future actions, exact authority and engine/twin/statistical gates are in the work
+registry. No ToMpathy engine exists at the inspected commit; no copy is created here.
+No new paid request; $44.52 remains shared within the original $50 campaign.
+Friday reporting and the independent six-hour clock remain. On completion, replay
+all complete cells and perform full write-through before ACK. Private plan, native
+launch and continuation records: `.agent-state/next-round-20261014/`.
+
+## October 14 evening: publication complete; supervision healthy
+
+OPS-S14-HEALTH-1014-1930: native supervision, retained evidence, output freshness, resources, locks and actual watcher delivery pass. No operational recovery or scientific restart. Publication is complete at 0a956219c; separately versioned repair preparation and prerequisite validation are next under existing authority and gates.
+
 ## October 14: theory errata applied; document navigation reconciled
 
 THEORY-ERRATA-1014 / DOCS-FILING-1014: all 39 ratified edits are applied across five theory files, with 18 collision-free identifiers, existing quotations preserved and affected afterwords reviewed. The original supplied handoff, quotation repairs and exact application hashes are filed in the design archive. Literature reading labels remain those of the supplied handoff; Ghost V22 results are not imported. This is curator framing uptake, not a new experimental verdict.

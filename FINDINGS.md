@@ -5,9 +5,3830 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-10-14.**
+**Last updated: 2026-10-16.**
 
 ---
+
+### OPS-S15-HEALTH-1016-0813 - drained queues and supervision verified
+
+**Hypothesis.** Are the finished queues actually drained, with intact evidence and
+supervision, or has runnable authorized work been stranded? **METHOD.** Check
+recorded native identities against live processes, inspect project workers,
+terminal freshness and completed landings, failures, compute leases, resource
+floors, source/research locks, companion returns, scientific admission records
+and the watcher's actual current delivery and preceding result ACK.
+
+The table records operational observations only. Historical failed attempts are
+retained; a drained finite queue has no expectation of a fresh progress heartbeat.
+
+| Check | Inspection |
+|---|---|
+| Execution | Nine recorded worker identities are no longer active; no project research worker found |
+| Latest output | Complete candidate terminal and full landing reconcile; no new terminal among 83 inspected files |
+| Failures | Four historical failure receipts unchanged; no new failure |
+| Service and leases | Exact project service verified, model unloaded, CPU/GPU leases absent |
+| Resources | About 48 GiB RAM, 44 GiB commit headroom and 531 GiB disk available; all floors pass |
+| Locks | Frozen candidate source pins and all 21 research locks verify |
+| Scientific dispatch | Profile attempt absent; failed Ghost review remains enforced |
+| Independent preparation | Native literal reference/input preparation unfinished; no launchable native card |
+| Delivery | Native watcher, loaded source hashes, fresh scan, actual health delivery and prior result ACK verified |
+| Recovery | No compute or watcher recovery required |
+
+**Found.** Finite queues remain drained. The same failed Ghost witness is still
+the only matching return; dependency notes and the ToMpathy return are unchanged.
+No paid batch is active. The registry retained stale worker-active/drained flags;
+these administrative fields are corrected to the inspected endpoint. Completed
+work, original scientific failures and existing admission gates are unchanged.
+The legacy main-queue log records a September drain and is not treated as an
+active Stage 15 scheduler.
+
+Companion Git heads were not refreshed after the prior ownership refusal; no
+configuration override was introduced. A separate Codex native-queue CLI inventory
+was not refreshed. Actual delivery, watcher operation and the scoped native process
+inventory are verified; no process-inventory access denial was encountered.
+
+**Means.** Do not restart completed work or manufacture a scientific admission
+from idle capacity. Independent native annotation/input preparation remains
+authorized and unfinished. Profile fitting needs a separately reviewed matching
+Ghost healing witness; a new literal-feature screen retains its own native and
+scientific gates. No tests harvested, gear change, new spending or delegation.
+Stage 15 stays open. ACK follows this documented inspection and then rearms the
+independent six-hour clock; urgent terminal/failure monitoring remains enabled.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: is the
+drained queue healthy and its next work correctly gated? Outcome:
+**Infrastructure**. Result: completed queues and supervision reconcile without
+recovery. Project meaning: idle compute is an inspected endpoint, not evidence
+that all Stage 15 research is finished. Next engineering obligation: native
+validation preparation and review of matching companion healing evidence.
+Public claim: unchanged. Curator decision required: No.
+Detail: [inspection receipt](results/phase_2_4_stage_15/HEALTH_20261016_0813_PUBLIC.json).
+
+
+### OPS-S15-F4-NATIVE-READINESS - next validation requirements made explicit
+
+**Hypothesis.** Do the prepared native inputs already supply reference answers
+for validating literal text extraction? **METHOD.** Inspect the schemas of the
+retained native-source, profile-feature and target-label files; verify their
+hashes and the complete eligibility inventory against the work registry. Read
+the pinned transcriber's projection and admission code. No model call or fit.
+
+**Found.** Prepared target labels are recorded choice actions, not literal-feature
+reference annotations. The native mapping audit and exposed-holdout review remain
+valid for their existing profile plan; they do not admit a different feature
+cohort. The readiness handoff now separates exact reader/prompt eligibility,
+native input projection, independent reference answers, exposed-data restrictions
+and matching scientific witnesses. It preserves every failed reader/question.
+The first metadata read used Windows default decoding and failed before inspection;
+the explicit UTF-8 read succeeded without changing a source.
+
+**Means.** The readiness inventory is complete; native validation itself remains
+unrun. Sounding Line owns the source-bound annotation/input card and subsequent
+verification. Canonical implementation and matching Ghost healing remain companion
+dependencies already described in the delivered notes. No independent native
+literal annotation set or dispatch card is registered in the current preparation;
+this is not a claim that none exists elsewhere. No additional gate was relaxed,
+experiment commissioned, provider called or human recruited. No tests harvested.
+
+**Curator roll-up.** Theory group: instrument infrastructure. Question: are the
+native validation prerequisites explicit? Outcome: **Infrastructure**. Result:
+choice labels and literal-feature truth are now distinguished in the preparation
+handoff. Project meaning: preparation can continue without mistaking source
+mapping for extraction validity. Next engineering obligation: source-bound native
+annotation/input contract and separately reviewed admission. Public claim:
+unchanged. Curator decision required: No.
+Detail: [readiness handoff](docs/design/stage-15/F4_NATIVE_READINESS.md).
+
+
+### S15-LABEL-CANDIDATE-V1 - selected prompt passes both complete constructed batteries
+
+**Hypothesis.** Does the selected Qwen prompt correctly read grammatical-person
+groups and literal themes across the complete original batteries, including the
+sentence forms that failed before? **METHOD.** Run the fixed target-scope and
+label-definition prefix on all 200 canonical person items and all 200 canonical
+theme items. Independently reconstruct every sentence, label, context and source
+identity; parse every full retained response and recompute every frozen gate.
+Replay the entire request/response trail offline and verify source, output,
+residency and native dispatch bindings. This is a selected exploratory candidate
+on exposed constructed templates, not independent replication.
+
+The table covers every declared answer class. Valid means the complete response
+passes the unchanged JSON/label contract; correct means exact person-label or
+theme-set equality. Each row must reach 70% correctness, with invalid answers
+retained in the denominator. Empty set means no listed theme is present.
+
+| Question | Expected label | Valid / attempted | Exact correct / attempted | Per-label gate |
+|---|---|---:|---:|---|
+| Literal themes | care | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | conflict | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | danger | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | desire | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | discovery | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | food or body | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | loss or separation | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | play or humor | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | status | 20 / 20 | 20 / 20 | Pass |
+| Literal themes | empty set | 20 / 20 | 20 / 20 | Pass |
+| Pronoun-person groups | first | 50 / 50 | 50 / 50 | Pass |
+| Pronoun-person groups | mixed | 50 / 50 | 50 / 50 | Pass |
+| Pronoun-person groups | second | 50 / 50 | 50 / 50 | Pass |
+| Pronoun-person groups | third | 50 / 50 | 50 / 50 | Pass |
+
+The next table applies the unchanged whole-question gates. Overall correctness
+must reach 85%, validity 95%, and the person question must also reach 80%
+agreement with its lexical pronoun-group cross-check. No theme cross-check is
+specified. Passing here means eligibility for this exact constructed candidate.
+
+| Question | Valid | Exact correct | Lexical cross-check | Whole candidate |
+|---|---:|---:|---:|---|
+| Pronoun-person groups | 200 / 200 | 200 / 200 | 200 / 200 | Pass |
+| Literal themes | 200 / 200 | 200 / 200 | Not specified | Pass |
+
+**Found.** Both full candidate questions pass every required gate. Mixed-person
+sentences and empty-theme sentences are correct throughout, without losing the
+other declared classes. Each question's ten negative-context items is also
+correct; this does not test negated target labels. All responses ended normally,
+contained no unexpected thinking output and were valid under the full parser.
+All 2,402 manifest-bound files verify; offline replay and the independent recount
+agree. The worker finished in about 2.29 hours, exited, unloaded its model and
+released its lease. An independent exit code was not retained. No new operational
+failure or recovery is needed. Resource floors, all 21 research locks, watcher
+identity, loaded source hashes, fresh scans and actual delivery verify.
+
+**Means.** The explicit contract yields a usable constructed candidate for this
+reader and prompt identity. It does not retroactively admit the old failed Qwen
+questions or repair the other reader. There was no contemporaneous randomized
+old-prompt arm, so this is not an isolated causal estimate of the prefix effect.
+Repeated names and objects fill a small set of sentence forms; there are no
+independent human annotations or population confidence intervals. Grammatical
+person here means pronoun-group presence, not narrative viewpoint. Theme answers
+cover single tags and empty sets, not a natural multi-theme population. No new
+repeat-stability estimate was collected. Natural-data validation, canonical
+integration and predictive/scientific admission remain separate and unrun.
+
+The finite local queues are drained; the process inventory finds no active
+Sounding Line scientific worker, and no paid batch is active. The companion
+shelf still contains only the unchanged failed Ghost witness. Profile fitting
+has not started and its negative admission review remains enforced. Dependency
+notes retain their hashes; companion Git heads were not refreshed after the prior
+ownership refusal, and no configuration was changed. Separate Codex native-queue
+CLI inventory remains unverified; actual event delivery and watcher state are
+verified. Remaining independent work is native-data validation preparation for
+eligible exact readers, followed by the scientific admissions required for fits.
+Do not repeat finished batteries merely to keep a worker occupied. No tests were
+harvested from this wake, no paid work or delegation occurred, and Stage 15 stays
+open. Full detail stays in the internal/final-packet workflow. This result ACK
+does not move the independent October 16 08:13:44 PDT health inspection.
+
+**Curator roll-up.** Theory group: reader calibration. Question: does the selected
+label contract survive the original complete known-answer batteries? Outcome:
+**Infrastructure**. Result: the selected reader/prompt passes both constructed
+questions. Project meaning: an instrument candidate is available for separately
+frozen natural-data validation, with original failures preserved. Next engineering
+obligation: bind natural validation and subsequent scientific admission to the
+exact candidate identity; obtain the matching Ghost healing witness before profile
+fitting. Public claim: unchanged. Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json).
+
+
+### OPS-S15-HEALTH-1016-0209 - candidate queue healthy at scheduled inspection
+
+**Hypothesis.** Is the authorized local candidate run progressing within its
+ownership and resource contract, with reliable terminal delivery and no neglected
+eligible work? **METHOD.** Inspect exact native worker/service identity, the
+project-scoped OS process inventory, progress and response freshness, elapsed/call
+ceilings, CPU residency, leases, retained failures, source/research locks, completed
+predecessors, companion returns and the watcher's actual delivery records.
+Do not read or score the unfinished scientific outcomes.
+
+The table records operational observations, not scientific accuracy. Counts of
+calls describe progress only; historical failures remain preserved and reconciled.
+
+| Operational check | Inspection |
+|---|---|
+| Native worker and service | Exact identity and creation-time match; one project research worker |
+| Progress and output | 244 of 400 calls; progress and latest response fresh within three seconds |
+| Resource floors | About 39 GiB RAM, 34 GiB commit headroom and 531 GiB free disk; floors pass |
+| Residency and leases | CPU-only model, exclusive CPU lease verified, project GPU lease absent |
+| Bounds and source identity | Within six-hour ceiling; frozen sources and all 21 research locks verify |
+| Failures | Four unchanged historical receipts; no new operational failure |
+| Prior work | Completed predecessor landings verify; old worker identities are no longer active |
+| Runnable work | Continue the frozen full candidate batch; profile fitting remains gated |
+| Watcher | Exact native/source identity, fresh scan, terminal registration and actual health delivery verify |
+| Recovery | None required |
+
+**Found.** Gear 2 continues normally. No orphaned completion or new failure was
+found at the active or preceding queue endpoints. The unchanged failed Ghost
+witness is still the only matching return; the prepared profile comparison has
+not started. Dependency notes retain their hashes. Companion Git heads were not
+refreshed after the prior ownership refusal; no configuration or guard changed.
+No fresh separate Codex native-queue CLI inventory was obtained; the prior
+restricted-shell limitation remains explicit. Current delivery, previous result
+delivery/ACK, watcher state and the project-scoped OS worker inventory are verified.
+
+**Means.** Preserve the healthy run, original failures and admission gates. No
+restart, paid batch, additional agent or new study is warranted by this wake.
+No tests harvested this pass. Stage 15 stays open. The health ACK follows this
+documented inspection and rearms six hours later; completion/failure alerts remain
+immediate. The next scientific action is full independent landing at the whole
+candidate terminal, followed by review of genuinely runnable authorized work.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: is the
+authorized queue healthy and properly supervised? Outcome: **Infrastructure**.
+Result: the frozen candidate run is progressing within its contract. Project
+meaning: useful local work continues while scientific dependencies stay gated.
+Next engineering obligation: whole-batch landing and the next independent health
+inspection. Public claim: unchanged. Curator decision required: No.
+Detail: [inspection receipt](results/phase_2_4_stage_15/HEALTH_20261016_0209_PUBLIC.json).
+
+
+### OPS-S15-LABEL-CANDIDATE-SETUP - complete candidate batteries running locally
+
+**Hypothesis.** Does the selected Qwen prompt pass both complete original
+person/theme batteries, including the sentence forms that failed before?
+**METHOD.** Freeze the existing scoped-plus-definition prompt, full canonical
+item sets, schema, parser and unchanged correctness gates in a new attempt.
+Rehearse the whole loop with known answers, invalid controls and transport
+failure, then launch through the verified native child with an exclusive CPU
+lease and terminal monitoring. No intermediate scientific scores are reported.
+
+The table records setup checks and fixed execution bounds, not running results.
+
+| Check or bound | Verified disposition |
+|---|---|
+| Targeted validation | 9 checks pass, including complete fake loop and offline replay |
+| Full frozen workload | 200 grammatical-person and 200 literal-theme items |
+| Null/failure paths | Constants and failed classes remain ineligible; mutation, missing/duplicate and reentry refuse |
+| Unknown transport | Failure terminal and retained dispatch/lease verified in scratch rehearsal |
+| Native launch | Exact child environment, worker/service, source pins, lease and actual progress verify |
+| Resource contract | One CPU inference thread, zero GPU, fixed RAM/commit/disk floors |
+| Finite bounds | 400 calls and six hours; no automatic retry or paid call |
+| Monitoring | Whole terminal/disappearance watch; unchanged six-hour health schedule |
+
+**Found.** The candidate batch is running with retained responses and no startup
+failure. The previously completed diagnostic is fully written through and its
+actual watcher delivery and ACK are verified. Original failed admissions remain.
+
+**Means.** This is a selected exploratory candidate on exposed constructed
+templates, not an independent replication or a change to the canonical engine.
+Its own prompt identity prevents old transcriber admissions being reused.
+Complete candidate success would still leave natural-data, canonical integration
+and scientific admission separate. The failed Ghost witness still blocks profile
+fitting. No tests harvested from the wake; prior continuation authority supplies
+this bounded check. No delegation or paid work. Stage 15 remains open; next health
+is October 16 02:09:18 PDT, with immediate failure/terminal supervision.
+
+**Curator roll-up.** Theory group: reader calibration. Question: does the candidate
+survive the full original battery? Outcome: **Infrastructure**. Result: the complete
+candidate batteries are running under frozen controls. Project meaning: the small
+diagnostic is being tested against the original failure forms. Next engineering
+obligation: verify and land the whole completed batch. Public claim: unchanged.
+Curator decision required: No.
+Detail: [launch receipt](results/phase_2_4_stage_15/LABEL_CANDIDATE_LAUNCH_PUBLIC.json).
+
+
+### S15-LABEL-CONTRACT-V1 - explicit definitions help one reader and harm parts of the other
+
+**Hypothesis.** Do explicit label definitions improve mixed-person and absent-theme
+recognition beyond target-field scoping alone? **METHOD.** Complete the frozen
+paired diagnostic on 56 constructed targets, two contexts, two prompt arms,
+two exact repeats and two readers. Independently replay all retained wire responses,
+recompute labels and paired/context/repeat statistics, and verify every source,
+output and native dispatch binding. No p-values or admission threshold were planned.
+
+The table retains every declared label and context. Each row contains eight
+attempts in each prompt arm, all eight valid: four target sentences repeated twice.
+Correct means the exact person label or theme set. Improved, worsened and unchanged
+compare correctness within the eight matched scoped/defined pairs. Neutral and
+conflicting contexts use the same target; they test context interference.
+
+| Reader | Question | Expected label | Context | Scoped correct | Defined correct | Improved / worsened / unchanged |
+|---|---|---|---|---:|---:|---|
+| Llama 3.2 3B | Themes | care | conflicting | 7 | 6 | 0 / 1 / 7 |
+| Llama 3.2 3B | Themes | care | neutral | 8 | 6 | 0 / 2 / 6 |
+| Llama 3.2 3B | Themes | conflict | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Llama 3.2 3B | Themes | conflict | neutral | 8 | 6 | 0 / 2 / 6 |
+| Llama 3.2 3B | Themes | danger | conflicting | 3 | 6 | 3 / 0 / 5 |
+| Llama 3.2 3B | Themes | danger | neutral | 8 | 7 | 0 / 1 / 7 |
+| Llama 3.2 3B | Themes | desire | conflicting | 5 | 6 | 1 / 0 / 7 |
+| Llama 3.2 3B | Themes | desire | neutral | 6 | 5 | 0 / 1 / 7 |
+| Llama 3.2 3B | Themes | discovery | conflicting | 4 | 1 | 0 / 3 / 5 |
+| Llama 3.2 3B | Themes | discovery | neutral | 4 | 0 | 0 / 4 / 4 |
+| Llama 3.2 3B | Themes | food or body | conflicting | 6 | 4 | 0 / 2 / 6 |
+| Llama 3.2 3B | Themes | food or body | neutral | 8 | 0 | 0 / 8 / 0 |
+| Llama 3.2 3B | Themes | loss or separation | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Llama 3.2 3B | Themes | loss or separation | neutral | 8 | 8 | 0 / 0 / 8 |
+| Llama 3.2 3B | Themes | play or humor | conflicting | 8 | 6 | 0 / 2 / 6 |
+| Llama 3.2 3B | Themes | play or humor | neutral | 7 | 4 | 0 / 3 / 5 |
+| Llama 3.2 3B | Themes | status | conflicting | 8 | 0 | 0 / 8 / 0 |
+| Llama 3.2 3B | Themes | status | neutral | 8 | 0 | 0 / 8 / 0 |
+| Llama 3.2 3B | Themes | empty set | conflicting | 0 | 8 | 8 / 0 / 0 |
+| Llama 3.2 3B | Themes | empty set | neutral | 1 | 8 | 7 / 0 / 1 |
+| Llama 3.2 3B | Person | first | conflicting | 0 | 0 | 0 / 0 / 8 |
+| Llama 3.2 3B | Person | first | neutral | 0 | 0 | 0 / 0 / 8 |
+| Llama 3.2 3B | Person | mixed | conflicting | 0 | 8 | 8 / 0 / 0 |
+| Llama 3.2 3B | Person | mixed | neutral | 3 | 8 | 5 / 0 / 3 |
+| Llama 3.2 3B | Person | second | conflicting | 0 | 8 | 8 / 0 / 0 |
+| Llama 3.2 3B | Person | second | neutral | 0 | 8 | 8 / 0 / 0 |
+| Llama 3.2 3B | Person | third | conflicting | 0 | 8 | 8 / 0 / 0 |
+| Llama 3.2 3B | Person | third | neutral | 0 | 8 | 8 / 0 / 0 |
+| Qwen 3.5 9B | Themes | care | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | care | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | conflict | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | conflict | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | danger | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | danger | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | desire | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | desire | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | discovery | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | discovery | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | food or body | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | food or body | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | loss or separation | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | loss or separation | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | play or humor | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | play or humor | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | status | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | status | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Themes | empty set | conflicting | 0 | 8 | 8 / 0 / 0 |
+| Qwen 3.5 9B | Themes | empty set | neutral | 0 | 8 | 8 / 0 / 0 |
+| Qwen 3.5 9B | Person | first | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | first | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | mixed | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | mixed | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | second | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | second | neutral | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | third | conflicting | 8 | 8 | 0 / 0 / 8 |
+| Qwen 3.5 9B | Person | third | neutral | 8 | 8 | 0 / 0 / 8 |
+
+The next table counts answer changes, including validity, within matched context
+pairs and byte-identical request repeats. Pairs are target/context combinations,
+not independent human subjects; a stable wrong answer is still wrong.
+
+| Reader | Question | Prompt | Context answer flips / pairs | Repeat disagreements / pairs |
+|---|---|---|---|---|
+| Llama 3.2 3B | Themes | defined | 15 / 80 | 3 / 80 |
+| Llama 3.2 3B | Themes | scoped | 16 / 80 | 5 / 80 |
+| Llama 3.2 3B | Person | defined | 2 / 32 | 0 / 32 |
+| Llama 3.2 3B | Person | scoped | 6 / 32 | 2 / 32 |
+| Qwen 3.5 9B | Themes | defined | 0 / 80 | 0 / 80 |
+| Qwen 3.5 9B | Themes | scoped | 0 / 80 | 0 / 80 |
+| Qwen 3.5 9B | Person | defined | 0 / 32 | 0 / 32 |
+| Qwen 3.5 9B | Person | scoped | 0 / 32 | 0 / 32 |
+
+**Found.** All 896 returned answers are valid. Qwen's scoped person answers are
+already correct throughout this small construction; definitions add no gain there.
+For Qwen themes, definitions repair every empty-set error and preserve all positive
+categories. Llama gains on mixed, second and third person but still misses every
+first-person target. Its empty themes improve while several positive themes worsen,
+including all status and neutral food cases. It therefore has no general repair.
+Llama also changes some answers on byte-identical deterministic requests; those
+observations remain in the denominators and are not averaged away or retried.
+
+All 5,378 manifest-bound output files and source pins verify. Independent parsing
+uses the canonical sorted-set normalization; the first auditor draft omitted that
+normalization and was corrected before its receipt, without changing results or
+the frozen parser. The fresh whole-wire replay and independent statistics agree.
+The worker is absent, model unloaded and lease released; no new operational failure
+or recovery is needed. Independent exit code was not retained. Watcher identity,
+loaded sources, fresh scan and actual event delivery verify; six-hour health stays
+October 16 02:09:18 PDT. All 21 research locks verify.
+
+**Means.** This supports a bounded Qwen prompt candidate, not universal label
+repair, natural-text validity or a promoted feature. Targets are a small constructed
+set with chosen single-tag expectations, not independent annotations; person means
+pronoun-group presence, not narrative viewpoint. Qwen's earlier mixed-person
+failure used different sentence forms, so this new success cannot erase it.
+Select the unchanged scoped-plus-definition candidate for a separately frozen
+complete canonical Qwen person/theme battery, explicitly exploratory and using
+previously exposed templates. Preserve all original failures and later native-data
+and scientific gates. The companion shelf still contains only the unchanged failed
+Ghost witness; profile fitting stays unrun. No tests were harvested from this wake;
+the bounded successor uses existing continuation/healing authority. No paid work
+or delegation; Stage 15 remains open and detailed results stay in the final-packet
+workflow.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can explicit label
+definitions address the observed instrument failures? Outcome: **Infrastructure**.
+Result: a reader-specific prompt candidate survives this small diagnostic while
+the other reader retains failures. Project meaning: label representation is worth
+testing separately from model capability. Next engineering obligation: full fixed
+candidate battery, preserving every category and original failure. Public claim:
+unchanged. Curator decision required: No.
+Detail: [complete diagnostic receipt](results/phase_2_4_stage_15/LABEL_CONTRACT_PUBLIC.json).
+
+
+### OPS-S15-LABEL-CONTRACT-SETUP - bounded diagnostic running after queue drain
+
+**Hypothesis.** Do explicit definitions help readers distinguish mixed pronoun
+groups and absent themes beyond target-field scoping alone? **METHOD.** Freeze
+a small paired diagnostic across the same two installed readers, neutral and
+conflicting contexts, scoped versus scoped-plus-definition prompts, and exact
+request repeats. Keep all categories, whole-response parsing and original
+failed admissions. Rehearse the complete loop and offline replay with known
+answers before native launch; monitor only operational progress until completion.
+
+The table describes implementation checks and launch facts, not unfinished
+scientific results. The bounded call roster is fixed before dispatch.
+
+| Check or bound | Verified disposition |
+|---|---|
+| Fixed diagnostic | 56 targets, two contexts, two prompt arms, two repeats, two readers |
+| Execution ceiling | 896 local calls and 12 hours |
+| Targeted software checks | 9 passed, including full fake loop, replay, mutation and reentry refusal |
+| Native launch | Exact child preflight, worker, service and exclusive lease verified |
+| Resource use | One CPU inference thread, zero GPU residency, fixed resource floors |
+| Monitoring | Terminal/disappearance paths registered; watcher scanning; six-hour clock unchanged |
+| Paid work and feature promotion | None |
+
+**Found.** The diagnostic is running and actual retained responses establish
+progress. Source pins, CPU residency and resource floors verify. This is setup
+evidence only; no partial accuracy is scored or reported. Prior request timing
+suggests a few hours, with a longer hard ceiling; completion/failure events,
+not agent polling, govern the next intervention.
+
+**Means.** Continue the already authorized small F4 investigation without
+restarting completed work or weakening failed gates. The matched prompt change
+tests a label-contract explanation, not general model competence or natural
+theme validity. A useful outcome would still need separate complete readmission.
+The companion return shelf contains only the unchanged failed Ghost witness;
+the prepared human profile comparison stays unrun. Companion Git heads could
+not be refreshed because read-only Git refused repository ownership; no exception
+or configuration change was made. Existing uncommitted adapter work is not a
+new research pin. No tests were harvested from this wake; this follow-up uses
+the curator's prior bounded exploration authority. Stage 15 remains open.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can clearer
+label definitions address the observed instrument failures? Outcome:
+**Infrastructure**. Result: the bounded diagnostic is running under fixed controls.
+Project meaning: useful local investigation continues while scientific fitting
+remains gated. Next engineering obligation: independently replay the whole
+diagnostic and write through before ACK. Public claim: unchanged.
+Curator decision required: No.
+Detail: [launch receipt](results/phase_2_4_stage_15/LABEL_CONTRACT_LAUNCH_PUBLIC.json).
+
+
+### S15-F4-MODELS-ENDPOINT - fixed reader comparison complete and reconciled
+
+**Hypothesis.** Can the commissioned fixed reader comparison finish with every
+response and question disposition accounted for, without converting completion
+into scientific admission? **METHOD.** Rehash all child manifests and their
+retained outputs against the frozen plan, verify each complete wire-replay record
+and native dispatch identity, and independently inspect worker termination,
+model residency, lease release, resource floors and actual watcher delivery.
+The final question receives a fresh whole-wire replay and independent label audit
+below; all earlier question landings remain retained.
+
+This table lists the separate constructed admission decision for each question
+and reader. Pass means that exact reader/question meets its fixed constructed
+gates; it does not admit natural-data use. Fail preserves the disabled feature.
+
+| Complete question | Llama 3.2 3B | Qwen 3.5 9B |
+|---|---|---|
+| Contradiction | Pass | Pass |
+| Register | Fail | Pass |
+| Tone change | Pass | Pass |
+| Dialogue | Pass | Pass |
+| Edit type | Fail | Pass |
+| Claim change | Fail | Pass |
+| Topic continuity | Fail | Pass |
+| Grammatical person | Fail | Fail |
+| Literal themes | Fail | Fail |
+
+**Found.** All 18 planned cells and 3,600 local calls reconcile. All 18,036
+manifest-bound output files retain their hashes; source pins, replay records
+and native dispatch identities verify. No unaccounted call or new operational
+failure was found. The worker is absent, model unloaded and exclusive lease
+released. Its independent exit code was not retained; the successful terminal
+and native absence are verified. Resources exceed the fixed floors and watcher
+identity, loaded sources, scans and actual delivery verify. No recovery is needed.
+
+**Means.** The fixed queue is drained, while Stage 15 remains open. The results
+are reader/question-specific apparatus checks on repeated constructed templates,
+not independent natural annotation or a causal model-size comparison. Q2 remains
+unrun without its independent checker. Preserve every failure and the Qwen
+paraphrase weakness; do not promote a failed feature from its aggregate score.
+Profile fitting remains blocked by the failed Ghost witness. Review a useful
+bounded commissioned successor at this queue boundary; no new test is harvested
+from the wake, no paid call or delegation is made. Six-hour health remains
+October 16 02:09:18 PDT, with immediate terminal/failure supervision.
+
+**Curator roll-up.** Theory group: reader calibration. Question: did the fixed
+comparison finish with accountable evidence and intact gates? Outcome:
+**Infrastructure**. Result: all planned complete cells reconcile.
+Project meaning: a complete reader-specific instrument inventory is available.
+Next engineering obligation: prepare useful bounded continuation and retain
+natural-data and Ghost admissions. Public claim: unchanged.
+Curator decision required: No.
+Detail: [endpoint receipt](results/phase_2_4_stage_15/F4_MODELS_ENDPOINT_PUBLIC.json).
+
+### S15-F4-MODELS-QWEN9-Q10 - literal themes fail the empty-set control
+
+**Hypothesis.** Can the second installed reader identify themes literally present
+in text, including when none of the listed themes is present? **METHOD.** Run the
+whole canonical constructed theme battery with the frozen Qwen prompt, schema
+and non-thinking transport. Independently replay every retained request and full
+response, reconstruct every sentence and expected tag set, recount exact-set
+correctness and confusion, and retain all cases under the unchanged gates.
+
+The table gives attempted, valid-format and exactly correct tag sets for each
+declared theme family. Each row repeats one lexical sentence form across names
+and objects; the last family is a rectangular object with no listed theme.
+
+| Declared theme set | Attempted | Valid | Exact-set correct |
+|---|---:|---:|---:|
+| Danger | 20 | 20 | 20 |
+| Care | 20 | 20 | 20 |
+| Play or humor | 20 | 20 | 20 |
+| Conflict | 20 | 20 | 20 |
+| Loss or separation | 20 | 20 | 20 |
+| Desire | 20 | 20 | 20 |
+| Discovery | 20 | 20 | 20 |
+| Status | 20 | 20 | 20 |
+| Food or body | 20 | 20 | 20 |
+| Empty set | 20 | 20 | 0 |
+| Whole question | 200 | 200 | 180 |
+
+**Found.** Admission fails. Canonical valid-format admission and the extra 85%
+overall correctness gate pass, but empty-set correctness is zero against the
+fixed 70% per-label minimum. Nineteen rectangular-object cases are answered care
+and one unclear; every nonempty expected set is correct. All responses are
+valid complete JSON with normal stops and no unexpected thinking. The ten
+negative-weather-context cases include nine correct nonempty sets and one
+incorrect empty set. There is no independent cross-check requirement for Q10.
+All wire, construction and recount checks agree; no p-value is introduced.
+
+**Means.** Keep this exact reader/question disabled. Empty and unclear are
+different declared answers; neither substitution nor class removal is a repair.
+Lexically explicit positive sentences do not establish natural theme extraction,
+and theme tags are not a maker's motives. Preserve the strong positive-class
+performance alongside the failed absence control, without averaging the latter
+away. This completes the fixed reader queue; no prompt or gate was changed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can the reader
+detect both present and absent literal themes? Outcome: **Infrastructure**.
+Result: the complete question fails its empty-set control.
+Project meaning: this exact theme feature remains disabled.
+Next engineering obligation: distinguish label-contract diagnosis from genuine
+readmission, retaining natural-data and scientific gates. Public claim: unchanged.
+Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q10_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q6 - grammatical-person admission fails on mixed pronouns
+
+**Hypothesis.** Can the second installed reader distinguish first, second,
+third and mixed grammatical person under the fixed literal-question contract?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical constructed person battery
+with the frozen prompt, whole-response parser and declared non-thinking request.
+Replay every retained request and response without inference, verify source/output
+and native-dispatch bindings, independently reconstruct every sentence form and
+label, and recompute the required lexical pronoun cross-check from target text.
+Retain every family and response without repair, relabeling or retry.
+
+The table gives attempted, valid-format and correct answers for each constructed
+sentence family. Labels follow the battery's pronoun-presence rule: the mixed
+family contains both first- and second-person pronouns. The final row is the
+complete question, not independent human annotation or a narrative-viewpoint test.
+
+| Sentence form | Declared person | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| I carried my object | First | 50 | 50 | 50 |
+| You carried your object | Second | 50 | 50 | 50 |
+| She carried her object | Third | 50 | 50 | 50 |
+| I gave you my object | Mixed first and second | 50 | 50 | 0 |
+| Whole question | All four labels | 200 | 200 | 150 |
+
+**Found.** Admission fails. All responses have valid format, but cross-check
+agreement is 75%, below the canonical 80% minimum. Overall correctness is 75%,
+below the extra 85% minimum; mixed-person correctness is zero, below the 70%
+per-label minimum. First, second and third labels each pass that label threshold.
+All mixed sentences are answered first person; there are no other confusions,
+invalid or unclear answers. The independent lexical check matches all declared
+labels and agrees with the reader on 150 cases. Of the ten cases with negative
+weather context, eight are correct and the two mixed cases have the same error.
+All wire and reconstruction checks agree; outputs finish normally without
+unexpected thinking. No p-value is introduced.
+
+**Means.** Keep this exact Qwen reader/question disabled. The brief prompt says
+only grammatical person, while this battery operationalizes mixed as the presence
+of multiple pronoun-person groups. Its failure is against that frozen target;
+it does not separately test narrative viewpoint or establish broad grammatical
+incompetence. The lexical cross-check is an implementation-level control on
+constructed sentences, not independent human annotation. No successful-label
+salvage, relaxed gate or changed prompt is applied. Earlier reader failures and
+separate natural-data/scientific admissions remain unchanged.
+
+**Operational landing.** The same native worker has advanced to literal themes,
+the final cell in this fixed queue. Native worker/service identities, source pins,
+exclusive lease, CPU-only residency, resources, terminal supervision and actual
+watcher delivery verify; no recovery is required. The next independent health
+check remains October 16 02:09:18 PDT. Profile fitting remains blocked by the
+failed Ghost witness. No tests harvested from this wake, paid calls, delegation
+or new study launch.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+identify the declared grammatical-person categories? Outcome: **Infrastructure**.
+Result: the complete question fails its cross-check and correctness gates.
+Project meaning: this exact grammatical-person feature remains disabled.
+Next engineering obligation: finish the fixed theme cell, preserve the mixed-label
+definition and retain natural-data/scientific gates. Public claim: unchanged.
+Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q6_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q1 - constructed topic-continuity admission passes
+
+**Hypothesis.** Can the second installed reader distinguish a continuation about
+an object being carried from an unrelated sentence under the fixed topic question?
+**METHOD.** Run Qwen 3.5 9B on the full canonical topic-continuity battery with
+the frozen prompt, whole-response parser and declared non-thinking request.
+Replay every retained request and response without inference, verify source/output
+hashes and native dispatch, then independently reconstruct the sentence forms,
+labels and all answer confusion. No dropped cases, repair, prompt change or retry.
+
+The table gives attempted, valid-format and correct answers for each constructed
+continuation following a named person carrying an object. The declared answer
+identifies whether the topic continues. Each family retains all its context
+variations; the total is the complete battery, not independently annotated natural text.
+
+| Continuation form | Declared answer | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| The same object was heavy to carry | Continues | 50 | 50 | 50 |
+| The moon does not produce its own light | Does not continue | 50 | 50 | 50 |
+| It was a very light instance of the same object | Continues | 50 | 50 | 50 |
+| Volcanic rock forms from cooled magma | Does not continue | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 200 |
+
+**Found.** All responses are valid and correct. Both continuing and unrelated
+labels have 100 correct answers, with no invalid, unclear or off-diagonal answer.
+Canonical 95% format and 85% binary-correctness gates pass, as do the extra 85%
+overall and 70% per-label gates. The independent wire replay, sentence-form
+reconstruction and recount agree exactly. All outputs finish normally without
+unexpected thinking. No independent cross-check is required for this question.
+No p-value is introduced.
+
+**Means.** The exact Qwen reader/question passes constructed admission only.
+Positive forms repeat the carried object; negative forms are two fixed unrelated
+sentences. This simple contrast and repeated construction do not establish
+performance on subtle topic shifts, longer natural passages or independent human
+annotations. Natural-data, predictive and scientific admissions remain separate.
+Preserve the earlier reader failures and the unchanged remaining queue; no broad
+feature promotion or selective retry follows from this result.
+
+**Operational landing.** The same native worker has advanced to grammatical
+person. Native service/worker identity, source pins, exclusive lease, CPU-only
+residency, resources, terminal supervision and actual watcher delivery verify.
+No recovery is required. The independent next health check remains October 16
+02:09:18 PDT; this result ACK does not postpone it. Profile fitting remains
+blocked by the failed Ghost witness. No tests harvested from this wake, paid
+calls, delegation or new study launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader distinguish the declared topic continuations? Outcome:
+**Infrastructure**. Result: the complete topic-continuity battery passes its
+unchanged admission gates. Project meaning: bounded instrument eligibility with
+natural-data validity still open. Next engineering obligation: finish the fixed
+reader queue and retain separate scientific admissions. Public claim: unchanged.
+Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q1_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q9 — constructed claim-change gate passes with a paraphrase weakness
+
+**Hypothesis.** Can the second installed reader distinguish a changed assertion
+from unchanged wording or a declared paraphrase in complete sentence pairs?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical claim-change battery
+under the frozen prompt, whole-response parser and non-thinking request. Replay
+all retained requests and responses without inference, verify source/output and
+native-dispatch bindings, then independently reconstruct every before/after pair
+and recount its label, template family and confusion. No repair, dropped case,
+changed threshold, prompt tuning or retry.
+
+The table gives attempted, valid-format and correct answers for every constructed
+sentence-pair family. The declared answer says whether the assertion changed;
+the total covers the whole question, not independently annotated natural edits.
+
+| Constructed change | Declared answer | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Explicitly negate the assertion | Changed | 50 | 50 | 50 |
+| Replace carried with transported | Unchanged | 50 | 50 | 26 |
+| Replace carried with destroyed | Changed | 50 | 50 | 50 |
+| Repeat the identical assertion | Unchanged | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 176 |
+
+**Found.** All responses have valid format; overall correctness is 88%.
+Canonical format and binary gates pass, as do the extra 85% overall and 70%
+per-label gates. Changed assertions are correct in 100 of 100 cases; unchanged
+assertions in 76 of 100. All 24 errors call the carried-to-transported paraphrase
+a changed assertion. That family is correct in only 52% of cases. The frozen
+gate is per label, not per template family: its pass is retained alongside this
+weakness, without dropping the family or retroactively changing the criterion.
+There are no invalid or unclear answers, other confusions, truncated outputs or
+unexpected thinking. Wire replay and pair reconstruction agree exactly. This
+question requires no independent cross-check and introduces no p-value.
+
+**Means.** This exact reader/question passes constructed admission only.
+Carried and transported are treated as equivalent by this declared template
+contract; reconstructing that contract is not independent human annotation or
+proof of general semantic equivalence. Repeated sentence forms and the weak
+paraphrase family limit the instrument's scope. Natural-data, predictive and
+scientific admission remain separate; no maker-motive claim or broad feature
+promotion follows. Preserve all prior failures and the unchanged remaining queue.
+
+**Operational landing.** At the verified inspection, the same native worker had
+advanced to topic continuity. Source pins, exclusive lease, CPU-only residency,
+resources, terminal supervision and actual watcher delivery passed; no recovery
+was required. The independent six-hour health inspection is due October 15
+20:01:11 PDT and is handled separately. Profile fitting remains blocked by the
+failed Ghost witness. No tests harvested from this wake, paid calls, delegation
+or new study launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader distinguish the declared changes in assertions? Outcome:
+**Infrastructure**. Result: the complete claim-change gate passes while retaining
+a concentrated paraphrase weakness. Project meaning: bounded instrument
+eligibility with natural-data validity still open. Next engineering obligation:
+finish the frozen reader queue and preserve separate scientific admissions.
+Public claim: unchanged. Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q9_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q8 — constructed edit-type admission passes
+
+**Hypothesis.** Can the second installed reader distinguish the eight declared
+edit types from complete before-and-after sentence pairs?
+**METHOD.** Run Qwen 3.5 9B on the full canonical edit-type battery with the
+frozen prompt, whole-response parser and declared non-thinking request. Replay
+every retained request and response without inference and verify source/output
+hashes, dispatch identity and CPU residency. Separately reconstruct every pair
+from its context, check the realized edit against the declared label, and recount
+all predictions and label confusion. No repair, dropped case, prompt change or retry.
+
+The table reports attempted, valid-format and correct answers for each constructed
+edit type. Each row retains all variations of its declared before/after template;
+the final row covers the whole battery, not independently annotated natural edits.
+
+| Realized change in the pair | Declared edit type | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Correct a transposed spelling of the article | Typo | 25 | 25 | 25 |
+| Correct verb agreement/tense in the template | Grammar | 25 | 25 | 25 |
+| Replace carried with transported | Wording | 25 | 25 | 25 |
+| Append a weather sentence | Add content | 25 | 25 | 25 |
+| Delete the weather sentence | Remove content | 25 | 25 | 25 |
+| Swap the order of the two sentences | Reorder | 25 | 25 | 25 |
+| Replace an insulting imperative with a polite request | Tone | 25 | 25 | 25 |
+| Add Markdown bold markers | Format | 25 | 25 | 25 |
+| Whole question | All eight labels | 200 | 200 | 200 |
+
+**Found.** Canonical categorical-format admission passes, as do the additional
+overall 85% and per-label 70% correctness gates. Every category has 25 correct
+answers, with no invalid, unclear or off-diagonal answer. All ten cases with a
+negated weather sentence in the context are correct; that context addition is
+not a separate edit in the before/after pair. Outputs finish normally without
+unexpected thinking and all retained wire/residency bindings replay exactly.
+This question requires no independent cross-check. Pair reconstruction verifies
+the fixed construction, not independent human annotation. No p-value is introduced.
+
+**Means.** The exact reader/question passes constructed admission only.
+The battery uses simple isolated changes and repeated templates. It does not
+establish performance on mixed, ambiguous or naturally occurring edits, nor
+recover a maker's motives or predictive usefulness. Preserve separate natural-data
+and scientific gates, all original reader failures and the unchanged remaining
+queue. No selective rerun or broader feature promotion follows.
+
+**Operational landing.** The same native worker has advanced to claim change.
+Service identity, source pins, exclusive lease, CPU-only residency, resource
+floors, terminal supervision and actual watcher delivery verify. No recovery is
+needed. Next health remains October 15 20:01:11 PDT. The separate profile
+comparison remains blocked by failed Ghost admission. No tests harvested from
+this wake, paid calls, delegation or new study launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader identify the declared constructed edits? Outcome:
+**Infrastructure**. Result: the full edit-type battery passes unchanged admission
+gates. Project meaning: bounded instrument eligibility with natural-data validity
+still open. Next engineering obligation: finish the frozen reader queue and
+retain separate scientific admissions. Public claim: unchanged. Curator decision
+required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q8_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q5 — constructed dialogue admission passes
+
+**Hypothesis.** Can the second installed reader distinguish quoted exchanges
+from sentences that describe silent activity under the fixed dialogue question?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical dialogue battery with
+the frozen prompt, whole-response parser and declared non-thinking request.
+Replay every retained request and response without inference, verifying source/
+output hashes, dispatch identity and CPU residency. Independently reconstruct
+all four sentence forms, recount their known labels and returned predictions,
+and recompute the required quotation-presence cross-check directly from each
+target. No response repair, dropped case, prompt change or retry.
+
+The table gives attempted, valid-format and correct answers by constructed
+sentence form. The expected label says whether dialogue is present. The final
+row covers the complete question; names and objects vary within repeated forms.
+
+| Sentence form | Expected dialogue | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Quoted request and affirmative reply | Yes | 50 | 50 | 50 |
+| Carrying an object without speaking | No | 50 | 50 | 50 |
+| Quoted prohibition and reply | Yes | 50 | 50 | 50 |
+| Silent watching with explicit absence of conversation | No | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 200 |
+
+**Found.** Canonical format, binary-correctness and cross-check gates pass,
+as do the extra overall 85% and per-label 70% correctness gates. Each label has
+100 correct answers; there are no invalid, unclear or off-diagonal answers.
+All 200 predictions agree with the freshly computed quotation-presence check,
+above its fixed 80% threshold. All outputs end normally without unexpected
+thinking, and retained request, response and residency bindings replay exactly.
+No p-value is introduced.
+
+**Means.** This exact reader/question passes constructed admission only.
+In these templates quotation marks and dialogue coincide; the deterministic
+cross-check is not independent human annotation and does not distinguish
+non-dialogue quotations or unquoted dialogue in natural writing. Repeated forms
+do not establish human mechanisms or predictive usefulness. Preserve separate
+natural-data/scientific admissions and all original reader failures; continue
+the remaining frozen questions without selective retries.
+
+**Operational landing.** The same native worker has advanced to edit type.
+Service identity, source pins, exclusive lease, CPU-only residency, resource
+floors, terminal supervision and actual watcher delivery verify. No recovery
+is needed. The six-hour deadline remains October 15 20:01:11 PDT. The separate
+profile comparison remains blocked by failed Ghost admission. No tests harvested
+from this wake, paid calls, delegation or new study launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader recognize the declared constructed dialogue cases?
+Outcome: **Infrastructure**. Result: the complete dialogue battery passes its
+unchanged admission gates. Project meaning: bounded instrument eligibility,
+with natural-data validity still open. Next engineering obligation: finish the
+fixed queue and retain separate scientific admissions. Public claim: unchanged.
+Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q5_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q4 — constructed tone-change admission passes
+
+**Hypothesis.** Can the second installed reader distinguish a more positive,
+more negative or unchanged tone relative to a plain source sentence?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical tone battery using the
+frozen prompt, whole-response parser and declared non-thinking request. Replay
+all retained requests and responses without inference; verify source/output
+hashes, dispatch identity and CPU residency. Separately reconstruct the four
+sentence forms from their contexts and recount known labels, predictions and
+confusion. No response repair, dropped case, prompt change or retry.
+
+The table reports attempted, valid-format and correct answers for each
+constructed sentence form. Both unchanged-tone forms are retained separately;
+the total is the full question, not a sample of independently annotated texts.
+
+| Sentence form relative to the source | Expected tone change | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Explicit delight and favorable evaluation | More positive | 50 | 50 | 50 |
+| Identical plain assertion | Same | 50 | 50 | 50 |
+| Explicit misery and unfavorable evaluation | More negative | 50 | 50 | 50 |
+| Plain assertion with an article change | Same | 50 | 50 | 50 |
+| Whole question | All three labels | 200 | 200 | 200 |
+
+**Found.** Canonical categorical-format admission passes. The additional
+overall 85% and per-label 70% correctness gates also pass: positive and negative
+each have 50 correct answers, and unchanged tone has 100. No invalid, unclear
+or off-diagonal answer occurs. All ten cases with a negated weather sentence
+in the source context are correct; this is not a test of negating the target's
+sentiment. All outputs finish normally without unexpected thinking, and their
+retained wire and residency bindings replay exactly. This question requires no
+independent cross-check. Reconstructing its known templates does not supply
+independent human labels. No p-value is introduced.
+
+**Means.** The exact reader/question passes constructed admission only.
+Simple templates with varied names and objects do not establish natural-text
+validity, human affect, a maker's intentions or predictive usefulness. Preserve
+the separate natural-data and scientific gates, all original attempts and the
+fixed remaining queue. This result does not change another reader's disposition.
+
+**Operational landing.** The same native worker has advanced to dialogue.
+Service identity, source pins, exclusive lease, CPU-only residency, resource
+floors, terminal supervision and actual watcher delivery verify. No recovery is
+needed. Next health remains October 15 20:01:11 PDT; ordinary result ACK does
+not reset it. The separate profile comparison remains blocked by failed Ghost
+admission. No tests harvested from this wake, paid calls, delegation or new launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader identify literal tone changes on known-answer sentences?
+Outcome: **Infrastructure**. Result: the complete constructed tone battery
+passes its unchanged admission gates. Project meaning: bounded instrument
+eligibility with natural-data validity still open. Next engineering obligation:
+finish the frozen reader queue and retain separate scientific admissions. Public
+claim: unchanged. Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q4_PUBLIC.json).
+
+
+### S15-F4-MODELS-QWEN9-Q3 — constructed register admission passes
+
+**Hypothesis.** Can the second installed reader distinguish formal, neutral
+and casual language reliably enough for a later validation step?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical register battery with
+the frozen prompt, whole-response parser and declared non-thinking request.
+Independently replay every retained request and response, verify source/output
+hashes, dispatch identity and CPU residency, then reconstruct the four sentence
+forms from their contexts and recount all known labels and predictions. No
+response repair, dropped case, prompt change or retry.
+
+The table gives attempted, valid-format and correct answers for each constructed
+sentence form. The two neutral forms remain separate; the final row covers the
+whole register battery, not independent human examples.
+
+| Sentence form | Expected register | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Polite submission for consideration | Formal | 50 | 50 | 50 |
+| Plain statement about carrying an object | Neutral | 50 | 50 | 50 |
+| Informal greeting and enthusiastic slang | Casual | 50 | 50 | 50 |
+| Plain statement about placing an object | Neutral | 50 | 50 | 50 |
+| Whole question | All three labels | 200 | 200 | 200 |
+
+**Found.** The canonical categorical format gate passes, and the separately
+required overall 85% and per-label 70% correctness gates also pass. Formal and
+casual each have 50 correct answers; neutral has 100. There are no invalid,
+unclear or off-diagonal answers. All ten cases with a negated weather sentence
+in the context are correct; that construction does not negate the register of
+the target. All outputs finish normally without unexpected thinking. Retained
+wire, source and residency bindings replay exactly. No independent cross-check
+is required for this question; known template labels are not human annotation.
+No p-value is introduced.
+
+**Means.** This exact reader/question is eligible on the constructed battery
+only. Repeated forms with varied names and objects do not establish natural-text
+validity, predictive usefulness or access to a maker's intentions. Reader-specific
+gates remain necessary; this result does not rescue another reader's failure.
+Keep all original attempts and continue the remaining fixed questions without
+selective reruns or promotion into scientific use.
+
+**Operational landing.** The same native worker has advanced to tone, with
+verified service identity, unchanged pins, exclusive lease, CPU-only residency,
+resource floors and actual watcher delivery. No operational recovery is needed.
+The six-hour deadline remains October 15 20:01:11 PDT. The separate profile
+comparison remains blocked by its failed Ghost admission. No tests harvested
+from this wake, paid calls, delegation or new study launch.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this installed reader recognize register under the fixed known-answer contract?
+Outcome: **Infrastructure**. Result: the complete constructed register battery
+passes its unchanged admission gates. Project meaning: bounded instrument
+eligibility, with natural-data validity still open. Next engineering obligation:
+finish the fixed reader queue and retain separate scientific admissions. Public
+claim: unchanged. Curator decision required: No.
+Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q3_PUBLIC.json).
+
+
+### S15-PROFILE-GHOST-ADMISSION — known-world admission fails; human comparison unrun
+
+**Hypothesis.** Can the exact trained profile predictor use informative
+descriptions without producing an unacceptable advantage from uninformative
+descriptions or dependence on option order?
+**METHOD.** Inspect Ghost's complete twenty-world study of eight constructed
+writers with four decisions each. Verify the exact archived feature/fitting
+functions, canonical engine, source archive and dependency bindings, and all
+304 scientific files in original and fresh-process replay. Independently
+reconstruct all 1,920 targets and their three-arm forecasts, strict chronology,
+probability validity, 112 cold starts, world-level paired half-Brier gains and
+controls. Exercise the actual failed-witness admission refusal and negative
+operator-review launcher refusal without starting a human attempt.
+
+The table reports mean reduction in half-Brier loss (half the squared probability
+error) from the own-description predictor against the stated comparator.
+Positive values favor own descriptions. Descriptive two-sided Student t 95%
+intervals use twenty independent whole-world means, not individual choices.
+Planted lower bounds must exceed 0.005; null upper bounds must be at most 0.005.
+
+| Constructed condition and comparator | Mean improvement | 95% interval | Frozen criterion |
+|---|---:|---|---|
+| Planted description versus task baseline | 0.072071 | 0.042065 to 0.102077 | Pass |
+| Planted description versus donor description | 0.062265 | 0.036914 to 0.087616 | Pass |
+| Uninformative description versus task baseline | 0.004690 | -0.021710 to 0.031090 | Fail |
+| Uninformative description versus donor description | -0.005608 | -0.019236 to 0.008020 | Fail |
+| Constant description versus task baseline | 0.004472 | 0.003281 to 0.005663 | Fail |
+| Constant description versus donor description | 0.000000 | 0.000000 to 0.000000 | Pass |
+
+**Found.** The complete dependency witness is FAIL. The uninformative intervals
+are too wide to certify the frozen null bound; this does not establish a positive
+false advantage. The constant-feature baseline difference is consistent with a
+changed effective prior, but its mechanism is not identified here. Option-order
+invariance fails in four worlds (3, 7, 13 and 16); the maximum forecast difference
+is 6.83209028163e-6 against the fixed 1e-7 tolerance. Future-label prefix changes
+and constant own/donor forecasts differ by exactly zero. Strict training-ID,
+coverage and probability checks pass. Original and fresh-process replay agree;
+the scientific packet used 2,221.90625 CPU seconds across both passes, with
+companion review/helper accounting separate. No new p-value is introduced.
+
+**Means.** The prepared human comparison remains unrun: a completed failed
+witness cannot satisfy its gate. This is a constructed instrument limitation,
+not negative human predictive evidence or a general failure of profiles.
+Four decisions per writer do not exercise later personal-penalty calibration;
+supplied descriptions do not validate model-generated profile fidelity. Preserve
+the original attempt, criteria and canonical capsule. The bounded next obligation
+is canonical diagnosis of option-order sensitivity and constant-feature behavior,
+then a separately frozen matching witness with adequate null precision and
+calibration-branch coverage. Do not tune thresholds or keep rerunning this study
+until it passes. Independent local reader work continues.
+Concrete requirements are copied and hash-verified in both companion repositories;
+this establishes file delivery, not agent uptake or a new companion allocation.
+
+**Operational reconciliation.** The bound return was copied completely before
+the relay disappeared. Its REVIEW_REQUIRED status is not recognized as terminal
+by the current monitor. This explains the secondary MONITOR_FAILED alert;
+the alert is retained, and only the exact ended relay watch is retired. An
+operator receipt records native absence and the valid return; the process exit
+code was not retained and is not invented. Worker/service identities, source
+pins, lease, CPU residency, resource floors and current watcher delivery verify.
+The six-hour deadline remains unchanged. Future relays need an actual terminal-
+schema integration check; the current source stays frozen. No tests harvested
+from this wake, paid call, scientific restart or delegation.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: can
+this profile predictor pass its known-world controls? Outcome: **Infrastructure**.
+Result: the completed constructed witness fails admission. Project meaning:
+human predictive utility is still untested by this comparison. Next engineering
+obligation: diagnose the apparatus and return separately reviewed matching
+healing evidence. Public claim: unchanged. Curator decision required: No.
+Detail: [complete review](results/phase_2_4_stage_15/GHOST_RETURN_REVIEW_PUBLIC.json)
+and [dependency requirements](docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+
+
+### S15-F4-MODELS-QWEN9-Q7 — constructed contradiction admission passes
+
+**Hypothesis.** Can the second installed reader distinguish a literal
+contradiction from a compatible restatement reliably enough for the next
+validation step?
+**METHOD.** Run Qwen 3.5 9B on the complete canonical contradiction battery
+with its frozen prompt, whole-response parser and declared non-thinking request.
+Independently replay every request and returned response, verify source/output
+hashes, dispatch identity and CPU residency, then reconstruct all four known-
+answer sentence forms from their contexts and recount every outcome. No response
+repair, dropped case or retry.
+
+The table gives attempted, valid-format and correct answers for each declared sentence form.
+
+| Sentence form relative to the original assertion | Expected contradiction | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Explicitly negated action | Yes | 50 | 50 | 50 |
+| Identical assertion | No | 50 | 50 | 50 |
+| Assertion explicitly called false | Yes | 50 | 50 | 50 |
+| Assertion explicitly called true | No | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 200 |
+
+**Found.** Canonical format and binary-correctness gates pass, as do the fixed
+extra overall and classwise correctness gates. Each label has 100 valid and
+correct answers. Every retained response ends normally without unexpected
+thinking output; all request, raw-response and residency bindings replay.
+No independent cross-check is required for this question. Reconstructing the
+simple sentence forms checks their realization, not independent human annotation.
+
+**Means.** This exact Qwen reader/question is eligible on the constructed
+battery only. Template repetition limits generality; natural-data validity,
+predictive utility and scientific admission remain separate. Preserve all
+earlier reader results and failed features. No p-value or new test is introduced.
+The same finite worker has advanced to register. Native worker/service identities,
+lease, source pins, CPU residency, resources and current watcher delivery verify;
+the dependency-return relay remains supervised. No operational recovery or paid
+call is needed, and the six-hour health deadline is unchanged.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+identify a literal contradiction? Outcome: **Infrastructure**. Result: the
+complete constructed contradiction battery passes. Project meaning: the feature
+may proceed to separately admitted natural-data validation. Next engineering
+obligation: finish the frozen reader queue and retain downstream scientific gates.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_QWEN9_Q7_PUBLIC.json).
+
+
+### OPS-S15-COMPANION-RETURN — verified returns and queued profile dispatch
+
+**Hypothesis.** Have the companion projects supplied what the prepared writer-
+profile comparison needs to proceed without changing its scientific contract?
+**METHOD.** Inspect both returns, verify ToMpathy's retained artifact hashes and
+test receipts, compare its CoAuthor/replay source with the committed capsule,
+and check Ghost's published protocol against our frozen comparison. Exercise
+the actual isolated launch environment on constructed records and test a
+read-only completion relay without fitting human outcomes.
+
+The table distinguishes returned implementation evidence from scientific admission.
+
+| Component | Verified state | Remaining consequence |
+|---|---|---|
+| ToMpathy return | All seven artifact hashes match; retained XML tests have no errors/failures; CoAuthor/replay bytes unchanged | Preserve the current committed research capsule; other local changes are an uncommitted candidate |
+| Ghost profile witness | Matching bounded known-world study is running | Inspect whole outcome and replay; four-decision support does not test later personal-penalty calibration |
+| Profile dispatch | Actual native import/constructed-fit smoke passes; missing review refuses before an attempt | Queued behind the exact Ghost witness and combined operator review |
+| Completion relay | Targeted refusal, retention, reentry and cancellation checks pass; native supervision registered | Return event requests inspection; never automatically grants admission |
+
+**Found.** The dependencies have reached the companion owners, but the scientific
+prerequisite is not yet complete. ToMpathy's return does not require replacing
+our working CoAuthor implementation. The isolated launch initially lacked the
+process-monitoring dependency; an explicit existing-package search path repairs
+the launch environment without changing either installation. The prepared
+comparison now has a verified one-shot dispatch package and a monitored dependency
+transition. Its human attempt has not started. Literal-model work is progressing
+with verified native identity, source pins and resource headroom.
+
+**Means.** Review the complete Ghost return, including its calibration-scope
+limitation, then start the already authorized comparison if admitted. Do not
+convert a running simulation or passing software fixture into scientific approval.
+No new scientific test, paid call, engine migration or delegation was introduced.
+The six-hour health deadline remains unchanged. No partial scientific scores
+were used, no p-value added, and no theory claim changes.
+
+**Curator roll-up.** Theory group: validated reader interfaces. Question: do the
+returned dependencies unlock the prepared comparison? Outcome: **Infrastructure**.
+Result: dispatch is ready while the matching Ghost witness is still running.
+Project meaning: the dependency has a monitored continuation rather than an
+unowned wait. Next engineering obligation: review the complete witness and launch
+only within its admitted scope. Public claim: unchanged. Curator decision
+required: No. Detail: [handoff receipt](results/phase_2_4_stage_15/DEPENDENCY_RETURN_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q10 — literal-theme correctness fails
+
+**Hypothesis.** Can the smaller installed reader identify the themes literally
+present in a sentence, including the absence of any listed theme, reliably
+enough to supply a feature?
+**METHOD.** Run Llama 3.2 3B on all canonical constructed theme sentences
+under the frozen prompt and labels. Independently replay every retained request
+and whole response, verify source/output bindings and CPU residency, reconstruct
+the declared families and recount exact theme-set correctness. Retain extra tags
+as errors; do not repair responses, drop categories or retry.
+
+The table gives attempted, valid-format and exact-set correct answers for each known theme set.
+
+| Known theme set | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| Danger | 20 | 20 | 20 |
+| Care | 20 | 20 | 8 |
+| Play or humor | 20 | 20 | 20 |
+| Conflict | 20 | 20 | 20 |
+| Loss or separation | 20 | 20 | 20 |
+| Desire | 20 | 20 | 0 |
+| Discovery | 20 | 20 | 0 |
+| Status | 20 | 20 | 20 |
+| Food or body | 20 | 20 | 20 |
+| No listed theme | 20 | 20 | 0 |
+| Whole question | 200 | 200 | 128 |
+
+**Found.** Literal-theme admission fails. All responses have valid format,
+so the canonical format-only gate passes, but exact-set correctness is 0.64
+against the extra 0.85 minimum. Care, desire, discovery and the empty-theme set
+each fail the fixed 0.70 classwise minimum. All incorrect answers add tags
+beyond the declared known set, including every no-theme sentence. The full
+confusion table and all ten families remain; no partial credit replaces the
+frozen exact-set measure. This question has no required independent cross-check.
+
+**Means.** Keep literal themes disabled for this exact Llama 3.2 3B reader.
+Template answers are not independent human annotation, and themes in text are
+not a maker's motives. The original other-reader failure and all extra-tag
+responses remain. No p-value, selective category salvage or new test is introduced.
+All nine Llama cells now have full internal write-through; their terminal and
+receipt identities reconcile. The same finite worker has advanced to Qwen 3.5 9B.
+Its exact model digest, CPU-only residency, native worker/service identities,
+lease, source pins, resource floors and current watcher delivery verify.
+No operational recovery or additional paid call is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+identify only the literal themes present? Outcome: **Infrastructure**. Result:
+fixed exact-set correctness gates fail. Project meaning: this reader's literal-
+theme feature remains disabled. Next engineering obligation: finish the second
+reader's frozen cells and retain natural-data/scientific gates. Public claim:
+unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q10_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q6 — grammatical-person correctness fails
+
+**Hypothesis.** Can the smaller installed reader identify grammatical person
+well enough to supply a reliable literal feature?
+**METHOD.** Run Llama 3.2 3B on all canonical constructed person sentences
+under the frozen prompt and labels. Independently replay every retained request
+and whole response, verify source/output bindings and CPU residency, reconstruct
+the declared families and recount correctness. Recompute the required lexical
+pronoun cross-check from every target text, retaining all cases without repair
+or retry.
+
+The table gives attempted, valid-format and correct answers for each known grammatical person.
+
+| Known grammatical person | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| First person | 50 | 50 | 0 |
+| Second person | 50 | 50 | 50 |
+| Third person | 50 | 50 | 0 |
+| Mixed first and second person | 50 | 50 | 0 |
+| Whole question | 200 | 200 | 50 |
+
+**Found.** Grammatical-person admission fails. All returned answers have valid
+format, but the recomputed cross-check agreement is 0.25 against the fixed 0.80
+minimum. Overall correctness is 0.25 against the extra 0.85 minimum; first, third
+and mixed person each fail the 0.70 classwise minimum. Responses are second person
+on 191 items and valid-format "unclear" on the remaining mixed-person items.
+The lexical cross-check matches the constructed labels throughout. All four
+families and the full confusion table remain in the receipt.
+
+**Means.** Keep grammatical person disabled for this exact Llama 3.2 3B reader.
+The pronoun check independently recomputes an implementation-level control on
+simple constructed sentences; it is not independent human annotation or broad
+grammatical validity. This instrument failure does not decide a human-maker
+hypothesis. Preserve the original other-reader failure and all returned answers.
+No p-value, selective class salvage or new test is introduced. The unchanged
+queue advances to literal themes. Native worker/service identities, lease,
+source pins, CPU residency, resources and current watcher delivery verify;
+no operational recovery or additional paid call is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+identify grammatical person? Outcome: **Infrastructure**. Result: fixed
+cross-check and correctness gates fail. Project meaning: this reader's
+grammatical-person feature remains disabled. Next engineering obligation:
+finish the remaining frozen cells and retain natural-data/scientific gates.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q6_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q1 — topic-continuity correctness fails
+
+**Hypothesis.** Can the smaller installed reader distinguish a continuing topic
+from an unrelated sentence well enough to supply a reliable literal feature?
+**METHOD.** Run Llama 3.2 3B on every canonical constructed context/text pair
+under the frozen prompt and labels. Independently replay all retained requests
+and whole responses, verify source/output bindings and CPU residency, reconstruct
+the declared topic families and recount correctness by label and family. Retain
+every case without response repair, dropped families or retry.
+
+The table gives attempted, valid-format and correct answers for each known topic family.
+
+| Sentence following the carrying context | Topic continues | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| The carried object was heavy | Yes | 50 | 50 | 0 |
+| Unrelated statement about the moon | No | 50 | 50 | 50 |
+| The carried object was light | Yes | 50 | 50 | 0 |
+| Unrelated statement about volcanic rock | No | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 100 |
+
+**Found.** Topic-continuity admission fails. Every answer is valid-format
+"no", so correctness is 0.50 against the fixed 0.85 canonical binary and extra
+overall minimum. Continuing topics score 0/100, failing the fixed 0.70 classwise
+minimum; unrelated topics score 100/100. Both continuing-topic families fail.
+The fixed controls reject this constant answer despite perfect format validity.
+All four families and the full confusion table remain. No independent cross-check
+is required for this question; known answers come from construction.
+
+**Means.** Keep topic continuity disabled for this exact Llama 3.2 3B reader.
+This is an instrument failure under the declared constructed task, not a negative
+human-maker result. The original other-reader failure and every response remain;
+there is no selective label salvage, p-value, new test or general reader-boundary
+claim. The unchanged queue advances to grammatical person. Native worker/service
+identities, lease, source pins, CPU residency, resource floors and current watcher
+delivery verify. No operational recovery or additional paid call is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+distinguish continuing from unrelated topics? Outcome: **Infrastructure**.
+Result: fixed topic-continuity correctness gates fail. Project meaning: this
+reader's topic-continuity feature remains disabled. Next engineering obligation:
+finish the remaining frozen cells and retain natural-data/scientific gates.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q1_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q9 — claim-change correctness fails
+
+**Hypothesis.** Can the smaller installed reader distinguish changes to a
+sentence's claim from unchanged meaning well enough for a literal feature?
+**METHOD.** Run Llama 3.2 3B on every canonical constructed before/after pair
+under the frozen prompt and labels. Independently replay all retained requests
+and whole responses, verify source/output bindings and CPU residency, reconstruct
+the declared edit families and recount correctness by label and family. No
+response repair, dropped family or retry.
+
+The table gives attempted, valid-format and correct answers for each known edit family.
+
+| Known edit family | Expected claim change | Attempted | Valid | Correct |
+|---|---|---:|---:|---:|
+| Negated action | Yes | 50 | 50 | 50 |
+| Carried replaced by transported | No | 50 | 50 | 0 |
+| Carried replaced by destroyed | Yes | 50 | 50 | 50 |
+| Identical sentence | No | 50 | 50 | 50 |
+| Whole question | Both labels | 200 | 200 | 150 |
+
+**Found.** Claim-change admission fails. All responses have valid format,
+but correctness is 0.75 against the fixed 0.85 canonical binary and extra
+overall minimum. Changed claims score 100/100; unchanged claims score 50/100,
+below the fixed 0.70 classwise minimum. Every carried/transported substitution
+is labelled as a changed claim. All four families and the complete confusion
+table remain in the receipt. This question has no required independent
+cross-check; its known answers come from construction.
+
+**Means.** Keep claim change disabled for this exact Llama 3.2 3B reader.
+The failure concerns the declared constructed instrument, not a human maker
+hypothesis. Retain the original other-reader failure and every response; no
+post-hoc relabelling, selective family salvage or broader semantic conclusion.
+No p-value or new test is introduced. The unchanged queue advances to topic
+continuity. Native worker/service identities, lease, source pins, CPU residency,
+resource floors and current watcher delivery verify; no operational recovery
+or additional paid call is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+separate changed claims from unchanged meaning? Outcome: **Infrastructure**.
+Result: fixed claim-change correctness gates fail. Project meaning: this
+reader's claim-change feature remains disabled. Next engineering obligation:
+finish the remaining frozen cells and retain natural-data/scientific gates.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q9_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q8 — edit-type correctness fails
+
+**Hypothesis.** Can the smaller installed reader distinguish kinds of edits
+well enough to supply a reliable literal feature?
+**METHOD.** Run Llama 3.2 3B on every canonical constructed before/after edit
+pair under the frozen prompt and labels. Independently replay all saved requests
+and whole responses, verify source/output bindings and CPU residency, then
+recount correctness by edit category and template family. Retain every case;
+no response repair, dropped category or retry.
+
+The table gives attempted, valid-format and correct answers for each known edit category.
+
+| Known edit | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| Typographical correction | 25 | 25 | 10 |
+| Grammar correction | 25 | 25 | 24 |
+| Wording substitution | 25 | 25 | 0 |
+| Added content | 25 | 25 | 1 |
+| Removed content | 25 | 25 | 18 |
+| Reordered content | 25 | 25 | 0 |
+| Tone change | 25 | 25 | 0 |
+| Formatting change | 25 | 25 | 0 |
+| Whole question | 200 | 200 | 53 |
+
+**Found.** Edit-type admission fails. All returned answers have valid format,
+so the canonical categorical format gate passes, but overall correctness is
+0.265 against the fixed 0.85 minimum; six categories fail the 0.70 classwise
+minimum. Grammar correction and removed content alone clear that classwise
+minimum. The fixed correctness controls prevent format validity from admitting
+an unreliable feature. All eight template families and the full confusion
+table remain in the receipt.
+
+**Means.** Keep edit type disabled for this exact Llama 3.2 3B reader. This is
+an instrument failure on the declared constructed task, not a negative human
+maker result. The original other-reader result and every failed response remain.
+No p-value, adaptive category salvage or new test is introduced. The unchanged
+queue advances to claim change; native worker/service identities, the lease,
+CPU residency, resources and current watcher scans verify. No operational
+recovery, source change or additional paid call is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+classify literal edits? Outcome: **Infrastructure**. Result: the fixed correctness
+gates fail. Project meaning: edit-type extraction remains disabled for this
+reader. Next engineering obligation: finish the remaining frozen cells and
+retain separate natural-data/scientific gates. Public claim: unchanged. Curator
+decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q8_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q5 — complete dialogue-presence battery
+
+**Hypothesis.** Can the smaller installed reader recognize explicitly written
+dialogue reliably enough for a literal feature?
+**METHOD.** Run Llama 3.2 3B on all canonical constructed dialogue items with
+the fixed prompt and labels. Independently replay every retained request and
+whole response, verify frozen outputs and CPU residency, and recount correctness
+by label and template family. Recompute the deterministic quotation-mark
+cross-check directly from every text. No response repair, deletion or retry.
+
+The table counts attempted, valid-format and correct answers in each known class.
+
+| Known dialogue status | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| Dialogue present | 100 | 100 | 100 |
+| Dialogue absent | 100 | 100 | 100 |
+| Whole question | 200 | 200 | 200 |
+
+**Found.** Canonical format, binary correctness and deterministic cross-check
+gates pass, as do the fixed extra overall and per-label correctness gates. All
+four template families remain, each with complete correct responses. The
+quotation-mark check agrees on every case. This exact reader/question gains
+constructed eligibility only; the original other-reader failure remains intact.
+
+**Means.** This battery contrasts explicitly quoted exchanges with silence or
+absence of conversation. Its deterministic check shares those construction
+cues; it is not independent human annotation or evidence for indirect speech,
+unquoted dialogue, or non-dialogue quotation. Template success does not admit
+natural-data feature use, maker inference or engine promotion. No p-value or
+adaptive winner selection is introduced. The unchanged queue advances to edit
+type; exact worker/service identities, lease, CPU residency, resource floors
+and watcher scan health verify. No recovery or new test is needed on this wake.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+recognize explicit dialogue? Outcome: **Infrastructure**. Result: the whole
+constructed battery passes fixed admission. Project meaning: dialogue is
+constructed-eligible for this exact reader. Next engineering obligation:
+remaining frozen cells and separate natural-data/scientific admission. Public
+claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q5_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q4 — complete tone-change battery
+
+**Hypothesis.** Can the smaller installed reader distinguish positive, negative
+and unchanged tone reliably enough for a literal feature?
+**METHOD.** Run Llama 3.2 3B on the complete canonical constructed tone-change
+battery with fixed prompts and labels. Independently replay all retained whole
+responses and requests, verify source/output hashes and CPU residency, then
+recount correctness by label and template family. No answer repair or retry.
+
+The table gives attempted, valid-format and correct answers for each known tone change.
+
+| Known change | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| More positive | 50 | 50 | 50 |
+| More negative | 50 | 50 | 50 |
+| Same tone | 100 | 100 | 87 |
+| Whole question | 200 | 200 | 187 |
+
+**Found.** The canonical format gate and fixed overall/per-label correctness
+gates pass. All four template families remain. This reader/question is eligible
+on the constructed battery only; unchanged-tone errors remain in the record.
+This is another reader on the same templates, not a natural-data replication
+or a human maker result. No p-value or adaptive follow-up is introduced.
+
+**Means.** Preserve this exact constructed admission and the separate natural-data
+and downstream scientific requirements. The finite queue continues unchanged;
+native ownership, CPU residency, resources and current watcher scans verify.
+No recovery, source alteration, new paid call or test harvested on this wake.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+separate literal tone changes? Outcome: **Infrastructure**. Result: the complete
+constructed battery passes fixed admission. Project meaning: tone is constructed-
+eligible for this exact reader. Next engineering obligation: remaining frozen
+cells and natural-data/scientific admission. Public claim: unchanged. Curator
+decision required: No. Detail: [whole-question receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q4_PUBLIC.json).
+
+
+### S15-NATIVE-PROFILE-AUDIT — native source and history mappings verified
+
+**Hypothesis.** Do the prepared profile comparison's writer identities, recorded
+choices and past-history boundaries survive the canonical native source adapter?
+**METHOD.** Run the pinned ToMpathy CoAuthor compiler on all required sessions.
+Independently verify every completion/source binding; join writer, prompt and
+session identities to the original released metadata; check raw event counts
+and times; compare all retained native decision exports and exclusions with the
+source-bound Stage 9 replay. Separately reconcile every prepared target/label
+and own/donor history reference, including strict resolution-before-cutoff rules.
+This is retained-source verification, not a second independent human annotation.
+
+The table counts the complete audit's support and discrepancies; history references
+include repeated use of the same source record by different target forecasts.
+
+| Check | Complete support | Discrepancies |
+|---|---:|---:|
+| Original source sessions and metadata identities | 322 | 0 |
+| Distinct required target/history decisions | 929 | 0 |
+| All retained native decisions in those sessions | 4,121 | 0 |
+| Prepared targets and action labels | 234 | 0 |
+| Own/donor history references and cutoffs | 6,983 | 0 |
+| Completion-bound output files | 327 | 0 |
+
+**Found.** Native-adapter mapping and the frozen exposed-holdout policy pass
+review for this exact prepared comparison. All 31 target writers remain.
+Eighteen source exclusions remain explicit: eleven selections without an active
+undecided set, four invalid offered-suggestion supports, and three reopens without
+an unselected set. None removes a required target/history record. Stage 9 and
+Stage 14 session identifiers use different documented encodings; the original
+source join verifies both rather than assuming the hashes should be equal.
+
+**Means.** The independent preparation is complete, but the profile fit remains
+unsubmitted pending the exact Ghost research witness and reviewed combined
+admission. Both implementations share replay ancestry; agreement does not prove
+human mechanisms, profile semantic faithfulness or predictive gain. The records
+are historically exposed. Fixed complete arms, strict past-only chronology and
+conditional nonsimultaneous descriptive intervals permit no fresh-holdout or
+confirmatory claim. No p-value, new model call, paid spend or source repair occurs.
+The audit worker exited; the unchanged local reader queue continues under the
+existing terminal and six-hour supervision. No tests harvested from this wake.
+
+**Curator roll-up.** Theory group: research apparatus. Question: are native inputs
+and historical cutoffs faithful to the retained sources? Outcome: **Infrastructure**.
+Result: all required source mappings reconcile. Project meaning: the native-data
+and exposed-holdout prerequisites are reviewed. Next engineering obligation:
+obtain the exact Ghost witness and review combined admission before profile fit.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete audit receipt](results/phase_2_4_stage_15/NATIVE_PROFILE_AUDIT_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q3 — register fails its casual-label gate
+
+**Hypothesis.** Can the smaller installed reader distinguish formal, neutral and
+casual wording reliably enough for a literal feature?
+**METHOD.** Run Llama 3.2 3B on the complete canonical 200-item constructed
+register battery under the frozen prompt, CPU transport and label roster.
+Replay every retained request and whole response offline, verify source/output
+bindings and residency, and independently recount correctness by known-answer
+label and template family. All four families remain; no retry or edited response.
+
+The table gives attempted, valid-format and correct answers for each register label.
+
+| Known register | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| Formal | 50 | 50 | 47 |
+| Neutral | 100 | 100 | 98 |
+| Casual | 50 | 50 | 34 |
+| Whole question | 200 | 200 | 179 |
+
+**Found.** This reader/question fails constructed feature admission. The
+canonical categorical gate passes format, and overall correctness exceeds its
+additional local minimum, but casual correctness is 0.68 against the frozen
+per-label minimum of 0.70. The extra classwise control catches a weakness that
+the aggregate would conceal. Keep Q3 disabled for this exact Llama 3.2 3B pin.
+This does not change the earlier Llama 8B result, classify another model's Q3,
+or test a human maker hypothesis. No p-value or adaptive rerun is introduced.
+
+The unchanged finite queue proceeds to the independently frozen tone battery.
+Full source and native ownership, CPU residency, resource floors and current
+watcher scan health verify. No recovery, paid call or new test is needed.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+separate wording registers? Outcome: **Infrastructure**. Result: casual wording
+fails its fixed classwise admission. Project meaning: this reader/question stays
+disabled. Next engineering obligation: finish the remaining frozen cells and
+retain natural-data/scientific gates. Public claim: unchanged. Curator decision
+required: No. Detail: [complete receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q3_PUBLIC.json).
+
+
+### S15-F4-MODELS-LLAMA3-Q7 — complete contradiction battery
+
+**Hypothesis.** Can the smaller installed reader recognize an explicit
+contradiction without being told anything about the maker?
+**METHOD.** Run Llama 3.2 3B on every item in the pinned canonical 200-item
+constructed contradiction battery, under the fixed prompt and original labels.
+Independently replay every saved whole response, source binding and CPU residency
+record offline; retain canonical and extra per-label gates separately.
+
+The table counts attempted and correct cases for each known-answer label.
+
+| Known answer | Attempted | Valid | Correct |
+|---|---:|---:|---:|
+| Contradicts the context | 100 | 100 | 100 |
+| Does not contradict the context | 100 | 100 | 100 |
+| Whole question | 200 | 200 | 200 |
+
+**Found.** All complete outputs and both label groups pass the unchanged
+constructed admission. All four template families are retained. No answer was
+repaired or retried. This is another reader on the same constructed templates,
+not a natural-data replication or evidence of maker inference. Other model/question
+cells remain unfinished and unscored in this entry. No p-values are introduced.
+
+**Curator roll-up.** Theory group: reader calibration. Question: can this reader
+recognize explicit contradictions? Outcome: **Infrastructure**. Result: the whole
+constructed battery passes. Project meaning: one reader/question instrument is
+constructed-eligible. Next engineering obligation: natural-data and downstream
+scientific admission. Public claim: unchanged. Curator decision required: No.
+Detail: [complete replay receipt](results/phase_2_4_stage_15/F4_MODELS_LLAMA3_Q7_PUBLIC.json).
+
+### OPS-S15-OVERNIGHT-SETUP — bounded continuation running
+
+**Hypothesis.** Can useful commissioned work proceed while companion research
+witnesses are completed? **METHOD.** Freeze a two-reader, nine-question local
+instrument batch and a separate whole-source mapping audit; exercise known-answer,
+constant-answer, malformed-output, duplicate, residency and chronology failure
+controls; verify actual native ownership, saved progress and watcher registration.
+Copy and hash-check concrete dependency notes in both companion documentation trees.
+
+**Found.** Both finite workers are running. Seven targeted software tests and
+all research locks pass. The literal queue contains 3,600 calls, and the native
+audit covers 929 required source decisions across 322 sessions for 234 targets.
+The explicit exposed-holdout policy is frozen. CPU residency and resource floors
+verify. Notes are written and indexed in Ghost and ToMpathy; that is not proof
+their agents have read them. No paid call, new campaign or delegation occurred.
+Original attempts and failures remain unchanged. Six-hour health remains at
+20:01:11 Pacific, with immediate terminals and native disappearance registered.
+
+**Curator roll-up.** Theory group: research apparatus. Question: can the next
+bounded work run without a blanket cross-project wait? Outcome: **Infrastructure**.
+Result: both local workers are active. Project meaning: reader and native-data
+validation advance independently. Next engineering obligation: full terminal
+verification/write-through, then review eligible bounded successors or matching
+Ghost evidence. Public claim: unchanged. Curator decision required: No.
+Detail: [protocol](docs/design/stage-15/OVERNIGHT_CONTINUATION.md) and
+[launch verification](results/phase_2_4_stage_15/OVERNIGHT_SETUP_PUBLIC.json).
+
+
+### OPS-S15-HEALTH-1015-1350 - completed queues healthy; scientific admission remains open
+
+**Hypothesis.** Are completed local and paid queues safely drained, with their
+evidence retained and the next authorized work correctly identified?
+**METHOD.** Inspect exact native process identities and current worker commands,
+terminal hashes, retained-file presence and modification times against the earlier
+full audit, new terminal landings, failure records, compute leases, resource
+floors, research locks, companion commits and exact implementation witnesses,
+plus watcher identity, source hashes, scans and actual delivery.
+
+**Found.** All eight inspected worker/coordinator identities have exited; no
+scientific worker is running. The 43 completion and 13 exit records are readable
+and freshly hashed. Three original failures remain, with no new failure since
+the earlier validity pass. All 8,268 distinct files in its retained binding list
+remain present and unmodified, as do the diagnostic's 1,920 verified wire files.
+The two newer completions have full independent verification and landing receipts.
+This reuses prior full numerical/semantic verification rather than claiming a
+new complete replay. Both compute leases are released, the owned model is
+unloaded, all 21 research locks pass and resource floors pass.
+
+ToMpathy and Ghost commits are unchanged. No exact-implementation Ghost witness
+was found among 1,095 candidate JSON admission/witness receipts. The earlier
+unqualified assertion that a V23 spec is present is not supported by the inspected
+checkout; its location is now recorded as unconfirmed. No companion was changed.
+Profile fitting remains unsubmitted. Independent native-data adapter and exposed-
+holdout/error-control preparation remain authorized; those tasks are not complete.
+No paid batch is active; shared booking remains $6.65, including retained unknown-
+usage reservations and pending invoices.
+
+The durable watcher has its exact live identity, matching source hashes, fresh
+scans, no current scan error and actual delivery of this event. A separate direct
+native-queue query could not initialize because its restricted-shell child could
+not resolve its home directory. Native queue inventory is therefore unverified;
+delivery health is supported by the separate live watcher evidence. Historical
+notification errors remain visible. No scientific or watcher restart is needed.
+
+**Means.** The finite queues are drained, not stalled. Stage 14 remains closed;
+Stage 15 remains open. Preserve completed attempts and disabled questions.
+Continue existing adapter/holdout preparation, admit scientific dispatch only
+after its exact prerequisites, and rearm the standing six-hour health check
+after this write-through. No tests harvested, new provider calls, spending,
+delegation or gear change on this wake.
+
+**Curator roll-up:** theory group — operational integrity; question — are the
+queues healthy and their next steps accurately recorded?; **Infrastructure**;
+result — finished queues remain drained without a new operational failure;
+project meaning — completion of batches does not close the wider commission;
+next engineering obligation — native-data and holdout preparation plus exact
+scientific witnesses; public claim — unchanged; curator decision required — No;
+detail — [health receipt](results/phase_2_4_stage_15/HEALTH_20261015_1350_PUBLIC.json).
+
+### S15-SCOPE-DIAGNOSTIC-ENDPOINT - explicit target scoping is not a general repair
+
+**Hypothesis.** Can explicit target-sentence instructions prevent the local
+person and theme readers from using surrounding context incorrectly?
+**METHOD.** Cross 32 constructed target sentences with absent, matching and
+conflicting context, using either the canonical prompt or the same prompt with
+an explicit target-field instruction. Repeat all 192 conditions byte-identically
+in a second shuffled pass. Independently reconstruct every request, parse every
+whole response, recompute all correctness/context/repeat contrasts and verify
+frozen sources, raw evidence, CPU residency and native closure.
+
+**Found.** Explicit target scoping is not a general repair. Grammatical-person
+accuracy worsens; theme accuracy improves in some conditions while losing the
+ability to return the correct empty set. The table reports correct answers out
+of 32 calls per row/arm: 16 distinct targets, each repeated twice. Theme scoring
+requires the exact tag set. These are constructed conditions, not independent
+human observations or a new admission battery.
+
+| Question | Surrounding context | Original prompt, correct / attempted | Explicit target prompt, correct / attempted |
+|---|---|---:|---:|
+| Grammatical person | Absent | 30 / 32 | 9 / 32 |
+| Grammatical person | Matching target class | 22 / 32 | 16 / 32 |
+| Grammatical person | Conflicting target class | 32 / 32 | 16 / 32 |
+| Literal themes | Absent | 18 / 32 | 24 / 32 |
+| Literal themes | Matching target class | 24 / 32 | 18 / 32 |
+| Literal themes | Conflicting target class | 10 / 32 | 14 / 32 |
+
+The frozen prompt-by-context contrast subtracts the prompt gain under matching
+context from its gain under conflicting context. It is -31.25 percentage points
+for person and +31.25 points for themes. The positive theme contrast includes a
+loss under matching context; it is not a broad accuracy rescue. Empty-theme
+targets go from 24/24 correct with the original prompt to 0/24 with explicit
+scope. First-person and mixed-person targets each have 0/24 correct under the
+explicit prompt. All per-class cells remain in the aggregate receipt.
+
+Relative to absent context, the original person reader changes answers in 8/32
+matching-context calls and 2/32 conflicting-context calls; explicit scope changes
+13/32 and 9/32 respectively. For themes those counts are 12/32 and 12/32 with
+the original prompt, versus 10/32 and 16/32 with explicit scope. Context sensitivity
+does not by itself establish that the model copied the context's label.
+
+All 384 responses have valid formats. Identical request bodies nevertheless give
+different parsed answers in one of 96 person pairs and four of 96 theme pairs.
+Temperature zero and the fixed seed therefore did not make this runtime perfectly
+repeatable. All 1,920 wire/evidence files, 127 source pins and 384 model/runtime/
+CPU-residency records verify. The worker finished in 45 minutes 12.5 seconds,
+exited normally, unloaded the model and released its exact lease. Resource floors
+and current watcher delivery pass. No provider calls or new spending.
+
+**Means.** Keep Q6/Q10 disabled. This exact clarification introduces new errors
+and cannot be adopted as a general fix. The paired test reveals prompt/context
+sensitivity and repeat instability; it does not identify a unique mechanism or
+invalidate the whole reader program. The selected four theme classes, small
+template set and constructed labels limit transfer. Any future repair needs its
+own complete admission battery and natural-data/scientific prerequisites; no
+post-hoc class salvage, threshold change or automatic retry follows here.
+Stage 15 remains open for its previously gated comparisons. The other questions'
+constructed dispositions and all original failures remain unchanged. No new
+tests harvested on this operational wake; the finite addendum queue is drained.
+
+**Curator roll-up:** theory group — bounded literal readers; question — does
+explicit target scoping repair context interference?; **Infrastructure**;
+result — the clarification fails as a general repair; project meaning — preserve
+per-question admission and do not equate format with validity; next engineering
+obligation — complete the existing native-data and scientific prerequisites;
+public claim — unchanged; curator decision required — No; detail —
+[complete diagnostic and verification](results/phase_2_4_stage_15/SCOPE_DIAGNOSTIC_PUBLIC.json).
+
+### S15-VALIDITY-ADDENDUM - completed evidence is intact; the stage is not complete
+
+**Hypothesis.** Is the finished Stage 15 evidence intact enough to support its
+recorded conclusions, and does completion of its batches mean the commission is done?
+**METHOD.** Rehash every output binding in the existing terminal manifests, every
+frozen plan source binding, retained profile-verification file bindings and local
+raw-response receipt bindings. Review earlier independent semantic replays,
+inspect native closure, model residency, lease release, resources and watcher,
+and verify the project's locked files. This is not a new human-data reannotation.
+
+**Found.** The fresh integrity pass has no missing or changed binding: 8,912
+bindings checked across 8,271 distinct hashed files, including 3,747 plan source
+bindings. All 41 existing COMPLETE records were inspected. Forty have output or
+profile-result manifests; the remaining interface fixture receipt has no output
+manifest and retains its separate prior interface verification. All 21 locked
+files verify. Failed attempts remain preserved. The finished literal worker has
+exited, unloaded its model and released its lease; operational resource checks
+pass and the watcher has no current scan error or pending event at inspection.
+
+**Means.** No damaged retained output requires a rerun. This does not make failed
+reader questions valid or turn format-correct profiles into predictive evidence.
+Stage 15 remains open: profile fitting and broader families retain native-data,
+backbone, relevant Ghost, holdout and error-control gates. The authorized addendum
+below adds a saved-data composition check and a separate diagnostic, not a
+relabeling of any completed failure.
+
+**Curator roll-up:** theory group — measurement validity; question — is the
+completed evidence intact and is all commissioned science done?; **Infrastructure**;
+result — retained hash bindings pass the fresh integrity inspection; project meaning —
+preserve completed findings while keeping unrun comparisons explicit; next engineering
+obligation — finish scientific prerequisites and the bounded diagnostic; public claim —
+unchanged; curator decision required — No; detail —
+[integrity receipt](results/phase_2_4_stage_15/VALIDITY_REVIEW_PUBLIC.json).
+
+### S15-HISTORY-TEXTURE-V1 - matched writers do not show a monotone history curve
+
+**Hypothesis.** Does the history-length pattern survive comparing the same writers?
+**METHOD.** Re-score all retained chronological forecasts without fitting or
+model calls. Compare equal-writer mean gains in adjacent history bins, restricting
+each contrast to writers represented in both bins. Repeat for writer-novel and
+globally novel prompts, and both population and personal-frequency baselines.
+Independent scalar arithmetic verifies every support count, sign count and contrast.
+
+**Found.** The matched history curve is not monotone. Improvements over population
+frequencies coexist with a smaller, irregular advantage over personal-frequency
+predictions. The table reports complete all-decision contrasts. A gain is the
+comparator's half-Brier probability loss minus the backbone's loss; a positive
+late-minus-early difference means the backbone's relative advantage grows.
+Writer count is the common support of each adjacent pair, not a new sample.
+
+| Prior own decisions, early to late | Same writers | Change versus population frequencies | Change versus personal frequencies |
+|---|---:|---:|---:|
+| 0 to 1-9 | 31 | -0.00719 | -0.00424 |
+| 1-9 to 10-29 | 26 | +0.01181 | -0.01533 |
+| 10-29 to 30-99 | 40 | +0.00361 | -0.00186 |
+| 30-99 to 100-299 | 26 | +0.00724 | +0.00143 |
+| 100-299 to 300+ | 14 | +0.00032 | +0.00065 |
+
+All 16,855 decisions from 61 writers remain accounted for. Only six writers span
+all six bins; the writer-novel balanced curve has three. Globally novel prompts
+have no matched writers in the first three adjacent contrasts and only one in
+each of the last two, so they cannot support a general history-learning curve.
+All subsets, both baselines, zero-support cells, balanced curves and leave-one-writer-out
+ranges are retained in the receipt. There are no new significance tests or
+confirmatory decisions. The independent check verifies 202 scalar comparisons.
+
+**Means.** Writer composition alone does not explain every change, but more
+history does not guarantee a steadily growing advantage. Task mix, time, growth
+of the population training set and selective continuation remain confounded.
+This is an exploratory description of historically exposed forecasts, not a causal
+history-dose experiment or new human-mechanism evidence. The next useful scientific
+comparison keeps a strong personal-frequency baseline and tests incremental
+own-profile information against donor profiles under the existing gates.
+
+**Curator roll-up:** theory group — maker-specific predictive evidence; question —
+does the apparent history pattern survive holding writers fixed?; **Infrastructure**;
+result — matched history contrasts are not monotone; project meaning — a useful
+backbone does not license an unlimited-history claim; next engineering obligation —
+retain matched support and both baselines in future admitted comparisons; public claim —
+unchanged; curator decision required — No; detail —
+[all descriptive curves](results/phase_2_4_stage_15/HISTORY_TEXTURE_PUBLIC.json).
+
+### S15-SCOPE-DIAGNOSTIC-V1 - bounded local interface diagnostic launched
+
+**Hypothesis.** Do grammatical-person and theme readers confuse surrounding
+context with the target sentence, and can an explicit field boundary reduce that?
+**METHOD.** Freeze new constructed targets, cross absent/matching/conflicting
+context with original/explicit-scope prompts, and repeat every identical request
+in a second shuffled pass. Preserve the canonical engine, parser and original
+failed admission batteries. Run on the pinned CPU-only local model with complete
+raw retention, exact native/lease monitoring and a finite wall limit.
+
+**Found.** Seven targeted software checks pass, including false composition,
+planted change, invalid probabilities, roster/byte-identical repeats, context
+sensitivity, repeat instability, separate dispatch retention and prompt bounds.
+The prepared study has 384 calls under a three-hour ceiling; all 127 source pins,
+exact native identity, lease, monitor binding and CPU residency verify at launch.
+This is launch evidence only; no unfinished diagnostic score is reported.
+
+**Means.** The curator's requested exploration is running without additional
+provider spend. A positive result would identify a candidate interface repair;
+it would not admit Q6/Q10, prove profile usefulness or change the theory. A null
+would show that field clarification alone is insufficient on these constructions.
+Wait for the complete result, independently replay it, and fully write through
+before acknowledgment. The ordinary six-hour health deadline is unchanged.
+
+**Curator roll-up:** theory group — bounded literal readers; question — can an
+explicit target boundary reduce context interference?; **Infrastructure**; result —
+the separately frozen diagnostic is running with verified supervision; project
+meaning — a possible instrument repair is tested without erasing failures; next
+engineering obligation — inspect the complete diagnostic; public claim — unchanged;
+curator decision required — No; detail —
+[protocol](docs/design/stage-15/VALIDITY_EXPLORATION_ADDENDUM.md) and
+[launch receipt](results/phase_2_4_stage_15/SCOPE_DIAGNOSTIC_LAUNCH_PUBLIC.json).
+
+### S15-F4-LITERAL-ENDPOINT - complete local admission queue verified and closed
+
+**Hypothesis.** Can the finite local reader-admission queue finish within its
+bounds while retaining every response and enforcing each question's own gate?
+**METHOD.** Verify all eight terminal manifests, their unchanged source pins and
+independent response replays; recompute the final theme battery and rehash every
+previously replayed request, dispatch, response, receipt and residency record.
+Reconcile the call-directory census, inspect native process exit, model unloading,
+lease release, resources, watcher delivery and actual companion prerequisites.
+
+**Found.** All 1,600 calls are accounted for across eight complete batteries;
+8,000 retained wire/evidence files and all 133 source pins verify. The finite
+worker completed in 2 hours 48 minutes 20 seconds, within its twelve-hour limit.
+It exited normally, released its exact lease and unloaded its owned model.
+There are no failed terminal records or missing responses in this queue.
+The last progress counter is 1,599 because the unchanged worker writes it before
+each request; the final persisted response and receipt establish completion.
+
+The table gives final instrument dispositions, not a combined score. Each row
+is one complete 200-item constructed battery. A constructed pass licenses only
+entry to the remaining validation steps, not human inference or paid dispatch.
+
+| Question | Complete constructed-admission disposition |
+|---|---|
+| Edit type (Q8) | Disabled: local correctness gates fail |
+| Claim change (Q9) | Disabled: canonical and local correctness gates fail |
+| Contradiction (Q7) | Passes constructed admission |
+| Topic continuation (Q1) | Disabled: canonical and local correctness gates fail |
+| Register (Q3) | Passes constructed admission |
+| Tone change (Q4) | Passes constructed admission |
+| Grammatical person (Q6) | Disabled: cross-check and local correctness gates fail |
+| Literal themes (Q10) | Disabled: empty-set correctness gate fails |
+
+Entity extraction (Q2) remains unrun because its independent checker is absent;
+the prior dialogue (Q5) failure remains retained without retry. Resource floors
+pass, the watcher is live and fresh, and both endpoint events have actual delivery
+receipts. Its older notification errors remain visible; neither prevented these
+deliveries. The ordinary health deadline is unchanged.
+
+**Means.** This local queue is drained; Stage 15 is not closed. Contradiction,
+register and tone-change features retain constructed eligibility only. Prepared
+profile fitting remains unsubmitted. Read-only inspection finds unchanged
+ToMpathy and Ghost commits and no required next-round Ghost twin output.
+The isolated engine capsule stays pinned; the other owner's mutable service
+edit is not imported. Independent native-data adapter and exposed-holdout
+preparation remain authorized, but no next scientific worker is admitted yet.
+Do not restart the finished queue or weaken its gates to fill idle capacity.
+No provider calls, new tests, theory promotion or spending changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can the local admission queue produce complete, auditable feature dispositions?;
+**Infrastructure**; result — the finite local admission queue completes with all
+responses retained; project meaning — usable constructed features and disabled
+questions are now explicitly separated; next engineering obligation — complete
+native-data and holdout witnesses and inspect the required Ghost admission on
+the standing cadence; public claim — unchanged; curator decision required — No;
+detail — [verified endpoint](results/phase_2_4_stage_15/F4_LITERAL_ENDPOINT_PUBLIC.json).
+
+### S15-F4-Q10-LOCAL-V1 - literal-theme reader fails empty-set admission
+
+**Hypothesis.** Can the frozen local reader identify literal themes, including
+when none is present, before those tags become prediction features?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed sentences,
+with 20 examples in each of ten expected theme sets. Independently reconstruct
+the actual templates, replay every full response through the unchanged parser
+and admission function, and compute exact-set correctness from raw answers.
+Verify frozen sources, request identities, terminal hashes and CPU residency.
+
+**Found.** Q10 fails the prospectively frozen per-class correctness gate and
+remains disabled. All 200 outputs have valid formats; 184 have the exact correct
+set (92%), clearing the 85% overall requirement. However, the empty-theme set is
+correct in only eight of 20 cases (40%), below the 70% per-class minimum.
+Canonical categorical format admission passes; that does not overrule the local
+correctness failure. Independent replay exactly reproduces the recorded summary.
+
+The table reports the complete battery. Each row describes a repeated sentence
+family, its entire expected theme set, attempted items and exact-set correct
+answers. Names and ordinary objects vary. These templates are not independent
+natural-language samples and do not support a population confidence interval.
+
+| Target sentence family | Expected theme set | Attempted | Correct |
+|---|---|---:|---:|
+| Immediate danger from a collapsing roof | Danger | 20 | 20 |
+| Caring for and comforting a sick child | Care | 20 | 20 |
+| Silly game and laughter at a joke | Play or humor | 20 | 20 |
+| Arguing and fighting with a rival | Conflict | 20 | 20 |
+| Grieving a loved one's death | Loss or separation | 20 | 20 |
+| Romantic desire and sexual attraction | Desire | 20 | 20 |
+| Discovering an unknown island while exploring | Discovery | 20 | 20 |
+| Gaining prestige and high social rank | Status | 20 | 20 |
+| Eating to satisfy physical hunger | Food or body | 20 | 16 |
+| An object is rectangular | Empty set | 20 | 8 |
+
+Among empty-set errors, one answer adds food/body and eleven add both food/body
+and status. Among food/body errors, two add desire and two add both desire and
+loss/separation. Extra unsupported tags are errors; partial tag credit is not
+used. Ground truth contains only singleton or empty sets, with no multiple-theme
+or unclear cases. The first ten source contexts negate rain, not target themes.
+No output was discarded and no sentence family was selectively removed.
+
+**Means.** Keep Q10 disabled for this exact question, prompt, context projection
+and model/runtime. Overall accuracy alone would have concealed the failed
+no-theme class; retain its failure without label salvage or automatic retry. The finite
+queue has ended normally. This does not establish maker motives, natural-data
+accuracy or human predictive usefulness. Instrument ledger updated; theory
+unchanged. No new tests harvested and no paid calls.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably identify literal themes and their absence?;
+**Infrastructure**; result — the complete theme battery fails empty-set admission;
+project meaning — this feature remains unavailable in the current reader;
+next engineering obligation — preserve the failure and validate only eligible
+features through the remaining native-data and scientific gates;
+public claim — unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q10_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q6-LOCAL-V1 - grammatical-person reader fails constructed admission
+
+**Hypothesis.** Can the frozen local reader identify first, second, third and
+mixed grammatical-person forms before its labels are used as prediction features?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed sentences,
+with 50 examples in each of four classes. Independently verify the realized
+constructions and recompute the pronoun-based cross-check from target text.
+Replay every retained request and full response through the unchanged parser
+and admission gates. Recompute raw class/family counts and rule agreement;
+verify source pins, request identities, completion records and CPU residency.
+
+**Found.** Q6 fails canonical cross-check and local correctness admission and
+remains disabled. All 200 responses have valid formats, but 120 are correct
+(60%), below the frozen 85% overall requirement. Agreement with the independently
+recomputed lexical rule is also 60%, below its 80% minimum. Third-person and
+mixed-person classes fall below the 70% per-class requirement. Full replay
+exactly reproduces the recorded summary; no response was lost or excluded.
+
+The table reports the complete battery by template family, one family per class.
+Rows describe the actual target's pronoun forms, its fixed expected label, the
+number attempted and the number labeled correctly. Ordinary objects vary; these
+repeated templates are not independent natural-language samples and do not
+support a population confidence interval.
+
+| Target construction | Expected grammatical person | Attempted | Correct |
+|---|---|---:|---:|
+| "I carried my" object | First | 50 | 50 |
+| "You carried your" object | Second | 50 | 50 |
+| "She carried her" object | Third | 50 | 20 |
+| "I gave you my" object | Mixed | 50 | 0 |
+
+Thirty third-person targets are labeled second-person. Mixed targets receive
+16 first-person, 32 second-person and two unclear answers. The frozen lexical
+rule calls a target mixed when it contains more than one person-pronoun group;
+this is not a label for narrative viewpoint alone. Recomputing that rule verifies
+this declared operational target, not a universal definition of grammatical
+person. The first ten items have a negative source context about rain, not
+negated grammatical-person labels. Ambiguous/unclear ground truth is absent.
+
+**Means.** Keep Q6 disabled in this exact question, prompt, context projection
+and model/runtime configuration. Preserve every class and answer; do not salvage
+first/second-person cases, relabel mixed targets or retry automatically.
+Q7/Q3/Q4's constructed passes and Q1/Q8/Q9's failures stand. The unchanged worker
+is advancing the final frozen question, Q10, with verified native identity and
+owned lease, fresh outputs and adequate resources. Natural-data, backbone,
+Ghost and holdout gates remain. This establishes no human predictive result or
+general grammatical-inference boundary. No new tests were harvested; no paid
+calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably label the declared grammatical-person forms?;
+**Infrastructure**; result — the complete grammatical-person battery fails
+cross-check and correctness admission; project meaning — this feature remains
+unavailable in the current reader; next engineering obligation — complete and
+independently land the final frozen question and queue, preserving this failure;
+public claim — unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q6_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q4-LOCAL-V1 - tone-change reader passes constructed admission
+
+**Hypothesis.** Can the frozen local reader recognize more positive, unchanged
+or more negative wording relative to the preceding sentence before its answer
+becomes a prediction feature?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed context/text
+pairs: 50 more positive, 100 unchanged in tone and 50 more negative, spanning
+four template families. Independently verify each realized construction and
+replay every retained request and full response through the unchanged parser
+and admission gates. Recompute class and family counts directly from raw answers;
+verify source pins, request identities, completion records and CPU residency.
+
+**Found.** Q4 passes canonical format admission and the additional local
+correctness gates. All 200 responses are valid and correct, clearing the frozen
+95% valid-format, 85% overall-accuracy and 70% per-class requirements.
+Independent full replay exactly reproduces the recorded summary. No response
+was lost or selectively excluded.
+
+The table reports the complete constructed battery by template family. Each
+context describes a named person carrying an object. Rows describe the next
+sentence, its fixed tone-change label, the number attempted and the number
+labeled correctly. Names and ordinary objects vary; these repeated templates
+are not independent natural-language samples and do not support a population
+confidence interval.
+
+| Next sentence relative to a neutral carrying statement | Expected tone change | Attempted | Correct |
+|---|---|---:|---:|
+| The person was delighted and the object wonderful | More positive | 50 | 50 |
+| Repeat the statement unchanged | Same | 50 | 50 |
+| The person was miserable and the object awful | More negative | 50 | 50 |
+| Replace "the" object with "a" object | Same | 50 | 50 |
+
+The complete confusion matrix contains no off-diagonal answers. The first ten
+items contain a negative source context about rain, not a negated tone label.
+Ambiguous/unclear ground-truth cases are absent. The canonical categorical gate
+checks format without requiring label correctness; the prospectively frozen
+local overall and per-class requirements supply correctness admission here.
+
+**Means.** Retain Q4 as eligible at the constructed-admission layer for this exact
+question, prompt, context projection and model/runtime. Natural-data, backbone,
+Ghost and frozen holdout/error-control gates remain before human feature evaluation
+or a paid comparison. Q7/Q3's constructed passes and Q1/Q8/Q9's failures stand.
+The unchanged worker is advancing Q6, with Q10 queued, verified native identity
+and owned lease, fresh outputs and adequate resources. This establishes no human
+predictive result, maker's emotional state or general tone-recognition ability.
+No new tests were harvested; no paid calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably identify literal changes in tone?;
+**Infrastructure**; result — the complete tone-change battery passes constructed
+admission; project meaning — this exact feature can proceed to its remaining
+research gates; next engineering obligation — complete and independently land
+the remaining frozen questions, then validate eligible features on native data;
+public claim — unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q4_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q3-LOCAL-V1 - register reader passes constructed admission
+
+**Hypothesis.** Can the frozen local reader distinguish formal, neutral and
+casual wording before its labels are used as prediction features?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed sentences:
+50 formal, 100 neutral and 50 casual, spanning four template families.
+Independently verify each realized construction and replay every retained
+request and full response through the unchanged parser and admission gates.
+Recompute class and family counts directly from raw answers; verify source
+pins, request identities, completion records and CPU residency.
+
+**Found.** Q3 passes canonical format admission and the additional local
+correctness gates. All 200 responses have valid formats; 197 are correct
+(98.5%), above the frozen 85% requirement. Formal and casual labels are each
+correct in all 50 cases; neutral labels are correct in 97 of 100, so every
+class clears the frozen 70% minimum. Independent full replay exactly reproduces
+the recorded summary. No response was lost or selectively excluded.
+
+The table reports the complete constructed battery by template family. Each row
+describes the sentence construction, its fixed register label, the number
+attempted and the number labeled correctly. Names and ordinary objects vary;
+these repeated templates are not independent natural-language samples and do
+not support a population confidence interval.
+
+| Sentence construction | Expected register | Attempted | Correct |
+|---|---|---:|---:|
+| "Please be advised" submission "for your consideration" | Formal | 50 | 50 |
+| A named person carried an object | Neutral | 50 | 50 |
+| "Hey" followed by praise that the object is "super cool" | Casual | 50 | 50 |
+| A named person placed an object on a table | Neutral | 50 | 47 |
+
+All three errors label neutral placement sentences as formal. The first ten
+items contain a negative source context about rain, not a negated register
+label. Ambiguous/unclear ground-truth cases are absent. The canonical categorical
+gate checks format without requiring label correctness; the prospectively frozen
+local overall and per-class requirements supply correctness admission here.
+
+**Means.** Retain Q3 as eligible at the constructed-admission layer for this exact
+question, prompt, context projection and model/runtime. Natural-data, backbone,
+Ghost and frozen holdout/error-control gates remain before human feature evaluation
+or a paid comparison. Q7's constructed pass and Q1/Q8/Q9's failures stand. The
+unchanged worker is advancing Q4, with Q6 and Q10 queued, verified native identity
+and owned lease, fresh outputs and adequate resources. This is no human predictive,
+maker-inference or general register-recognition claim. No new tests were harvested;
+no paid calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably distinguish literal register categories?;
+**Infrastructure**; result — the complete register battery passes constructed
+admission; project meaning — this exact feature can proceed to its remaining
+research gates; next engineering obligation — complete and independently land
+the remaining frozen questions, then validate eligible features on native data;
+public claim — unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q3_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q1-LOCAL-V1 - topic-continuation reader fails constructed admission
+
+**Hypothesis.** Can the frozen local reader distinguish continuation of the
+previous sentence's topic from a change of topic before its answer becomes a feature?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed context/text
+pairs, balanced between continued and changed topics. Independently verify the
+realized topic pairs and replay every retained request and full response through
+the unchanged parser and admission gates. Recompute the class and template-family
+counts directly from raw answers; check source pins, request identities,
+completion records and CPU residency.
+
+**Found.** Q1 fails both canonical and local correctness admission and remains
+disabled. All responses have valid formats, but 166 of 200 are correct (83%),
+below the frozen 85% requirement. Continued topics are correctly identified in
+66 of 100 cases, below the 70% class minimum; changed topics are correct in all
+100 cases. Independent full replay exactly reproduces the recorded summary.
+No response was lost or selectively excluded.
+
+The table reports the complete constructed battery by template family. Every
+context says a named person carried an object. Each row describes the next
+sentence, its expected topic-continuation label, the number attempted and the
+number labeled correctly. These repeated constructions are not independent
+natural-language samples; no population confidence interval is claimed.
+
+| Next sentence after carrying an object | Expected continuation | Attempted | Correct |
+|---|---|---:|---:|
+| The same object was heavy to carry | Yes | 50 | 48 |
+| The moon does not produce its own light | No | 50 | 50 |
+| It was a very light instance of the same object | Yes | 50 | 18 |
+| Volcanic rock forms from cooled magma | No | 50 | 50 |
+
+The complete confusion matrix contains 34 false "no" answers and no false
+"yes" answers. Most errors occur in the light-object family. This localizes
+the observed failures without identifying their cause or establishing that a
+prompt change would repair them. Ambiguous/unclear ground-truth cases are absent.
+
+**Means.** Keep the topic-continuation feature disabled in this exact question,
+prompt, context projection and model/runtime configuration. Preserve all families;
+do not salvage the stronger family, relabel cases or retry automatically. Q7's
+constructed admission and Q8/Q9's failures remain unchanged. The serial worker is
+advancing Q3, with three further frozen questions queued, verified native identity
+and owned lease, fresh outputs and adequate resources. Natural-data, backbone,
+Ghost and holdout gates remain. This instrument result establishes no human
+predictive or general inference boundary. No new tests were harvested; no paid
+calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably identify continuation of a literal topic?;
+**Infrastructure**; result — the complete topic-continuation battery fails
+correctness admission; project meaning — this feature remains unavailable in
+the current reader; next engineering obligation — complete and independently
+land the remaining frozen questions while preserving this failure; public claim
+— unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q1_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q7-LOCAL-V1 - contradiction reader passes constructed admission
+
+**Hypothesis.** Can the frozen local reader recognize whether a sentence
+contradicts an earlier statement before its answer is used as a feature?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed context/text
+pairs, balanced between contradictions and noncontradictions. Independently
+verify the realized logical transformations and replay every retained request
+and complete response through the unchanged parser and admission gates.
+Recompute class and template-family counts directly from raw answers, and
+verify source pins, request identities, completion records and CPU residency.
+
+**Found.** Q7 passes both canonical and local constructed admission. All 200
+responses are valid and correct, including all 100 contradictions and all 100
+noncontradictions. Full raw replay exactly reproduces the recorded summary
+under the frozen 95% valid-format, 85% overall-accuracy and 70% per-class gates.
+No response was lost or selectively excluded.
+
+The table reports the entire constructed battery by template family. Each row
+describes how the new text relates to a positive earlier statement, its expected
+contradiction label, the number attempted and the number labeled correctly.
+These repeated constructions are not independent natural-language samples;
+no population confidence interval is claimed.
+
+| Constructed relation to earlier statement | Expected contradiction | Attempted | Correct |
+|---|---|---:|---:|
+| Replace carrying with not carrying | Yes | 50 | 50 |
+| Repeat the statement unchanged | No | 50 | 50 |
+| Prefix the statement with "It is false that" | Yes | 50 | 50 |
+| Prefix the statement with "It is true that" | No | 50 | 50 |
+
+The complete confusion matrix contains no false positives or false negatives.
+Ambiguous or unclear ground-truth cases are absent. This establishes admission
+only for this question, prompt, context projection and model/runtime on these
+four constructed families; natural text and other readers remain unvalidated.
+
+**Means.** Retain Q7 as eligible at the constructed-admission layer. It still
+requires natural-data, backbone, Ghost and frozen holdout/error-control gates
+before human feature evaluation or a paid comparison. Q8 and Q9 remain disabled;
+this pass does not repair their failures. The unchanged serial worker is advancing
+Q1, with four further questions queued, verified native identity and owned lease,
+fresh outputs and adequate resources. No human predictive or value-inference
+claim follows. No new tests were harvested; no paid calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably identify literal contradictions?;
+**Infrastructure**; result — the complete contradiction battery passes constructed
+admission; project meaning — this exact feature can proceed to its remaining
+research gates; next engineering obligation — complete and independently land
+the remaining frozen questions, then validate eligible features on native data;
+public claim — unchanged; curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q7_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q9-LOCAL-V1 - claim-change reader fails constructed admission
+
+**Hypothesis.** Can the frozen local reader distinguish an edit that changes a
+sentence's claim from one that preserves it, before the answer becomes a feature?
+**METHOD.** Run the pinned Llama 3.1 8B reader on 200 constructed before/after
+pairs, balanced between changed and unchanged claims. Independently verify all
+four realized transformations and replay every retained request and complete
+response through the unchanged parser and admission gates. Independently count
+raw answers, retain the class and template-family errors, and verify source pins,
+request identities, completion records and CPU residency.
+
+**Found.** Q9 fails both canonical and local correctness admission and remains
+disabled. All responses have valid formats, but 159 of 200 are correct (79.5%),
+below the frozen 85% requirement. Changed claims are correctly identified in
+61 of 100 cases, below the 70% class minimum; unchanged claims are correct in
+98 of 100. Full raw replay exactly reproduces the recorded outcomes and gates.
+No response was lost or selectively excluded.
+
+The table reports the complete constructed battery by template family. Each row
+describes the actual transformation, its fixed expected answer, the number
+attempted and the number labeled correctly. These repeated templates are not
+independent natural-language samples; no population confidence interval is claimed.
+
+| Constructed edit | Expected claim change | Attempted | Correct |
+|---|---|---:|---:|
+| Replace carrying with not carrying | Yes | 50 | 13 |
+| Replace carried with transported | No | 50 | 48 |
+| Replace carried with destroyed | Yes | 50 | 48 |
+| Leave the sentence unchanged | No | 50 | 50 |
+
+The errors concentrate in the explicit-negation family. The public receipt also
+retains the full confusion matrix: changed claims receive 39 false "no" answers,
+while unchanged claims receive two false "yes" answers. This is descriptive
+localization, not evidence that a particular prompt or model change would repair
+the failure. Ambiguous/unclear ground-truth cases are absent from this battery.
+
+**Means.** Keep the claim-change feature disabled in this exact reader/runtime
+configuration. Do not salvage template families, relabel negations or retry
+automatically. The unchanged queue is running Q7, with five further questions
+queued and its exact native identity, owned lease, output freshness and resource
+headroom verified. Natural-data, backbone, Ghost and holdout gates remain. This
+instrument failure establishes no human prediction result or general inference
+boundary. No new tests were harvested; no paid calls or theory changes.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader reliably recognize changes in literal claims?;
+**Infrastructure**; result — the complete claim-change battery fails correctness
+admission; project meaning — this feature remains unavailable in the current
+reader; next engineering obligation — complete and independently land the
+remaining frozen questions, preserving this failure; public claim — unchanged;
+curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q9_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-F4-Q8-LOCAL-V1 - edit-type reader fails constructed admission
+
+**Hypothesis.** Can the frozen local reader correctly distinguish eight literal
+edit types before its labels are used as prediction features?
+**METHOD.** Run the pinned Llama 3.1 8B reader on the canonical constructed
+battery, with 25 realized examples of each edit type. Independently verify the
+before/after transformations and replay all 200 retained request/response pairs
+through the unchanged parser and both frozen admission gates. Check source pins,
+request identities, completed responses and CPU residency; recompute the label
+census directly from raw JSON without using the recorded scorer's counts.
+
+**Found.** Q8 fails the frozen correctness gates and remains disabled. All 200
+responses have valid answer formats, but only 85 are correct (42.5%), below the
+85% requirement. Five of the eight classes also fall below the required 70%
+class accuracy. The canonical categorical gate reports a pass because it checks
+format without requiring categorical correctness; the prospectively added local
+gates correctly refuse admission. The independent full replay matches every
+recorded outcome. No missing response or transport failure explains the result.
+
+The table reports complete constructed-battery counts. Each row is the true
+edit type; "correct" is the number classified with that exact label, and accuracy
+is correct divided by attempted. These repeated templates do not support a
+population confidence interval or a natural-text accuracy claim.
+
+| True edit type | Attempted | Correct | Accuracy |
+|---|---:|---:|---:|
+| Typo correction | 25 | 25 | 100% |
+| Grammar correction | 25 | 0 | 0% |
+| Wording substitution | 25 | 24 | 96% |
+| Add content | 25 | 3 | 12% |
+| Remove content | 25 | 0 | 0% |
+| Reorder | 25 | 25 | 100% |
+| Tone change | 25 | 8 | 32% |
+| Formatting change | 25 | 0 | 0% |
+
+All grammar items were called typos; most additions were called reorderings.
+The public receipt retains the entire confusion matrix. The battery uses eight
+template families, does not include an ambiguous/unclear ground-truth class,
+and places its negation variants in source contexts. This is a failure of this
+reader, prompt, context projection and model/runtime configuration on that
+constructed battery, not a general boundary on edit recovery or human inference.
+
+**Means.** Keep Q8 disabled for downstream feature use; do not salvage successful
+classes or retry the failed question automatically. The unchanged serial queue
+has moved to Q9, with verified native identity, fresh outputs, its owned lease
+and adequate resources. Other questions require their own complete admission.
+Natural-data, backbone, Ghost and holdout gates remain; no cloud call or theory
+promotion follows from this result. No new tests were harvested from this wake.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can this reader supply reliable literal edit labels?;
+**Infrastructure**; result — the complete edit-type battery fails correctness
+admission; project meaning — this feature is unavailable in the current reader;
+next engineering obligation — finish and independently land the remaining frozen
+questions while preserving this failure; public claim — unchanged;
+curator decision required — No;
+detail — [complete aggregate receipt](results/phase_2_4_stage_15/F4_Q8_LOCAL_PUBLIC.json)
+and [frozen protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-FEATURE-BUILD - profile inputs verified; literal admission launched
+
+**Hypothesis.** Can the repaired profiles be supplied as real prediction features,
+and can the literal reader be tested against known answers before scientific use?
+**METHOD.** Build matched baseline, own-profile and donor-profile arms on the
+pinned canonical ToMpathy predictor. Run planted-relation, null, future-label and
+admission-refusal software controls. Independently reconstruct every prepared
+matrix from retained source targets, history, profile text and fixed hashing.
+Separately test and launch eight complete literal-question batteries on one CPU
+inference thread, retaining exact input, response, runtime and residency records.
+
+**Found.** The profile comparison is built and its inputs verify; scientific
+fitting remains held. All five profile software tests pass, and the independent
+reconstruction covers all 234 targets from 31 writers and all 160 source pins.
+The three matched feature matrices have four choices and 164 columns; own/donor
+matrices differ for every target, labels align and remain separate, and all
+profile history precedes its target. No human predictions have been computed.
+The required Ghost witness remains absent in the inspected companion checkout.
+
+Four literal-runner software tests pass, including known-answer and constant-null
+controls, the categorical correctness gate, actual raw-response capture and
+uncertain-transport refusal. The finite eight-question worker is running with
+verified native identity, monitor binding, advancing outputs and adequate resource
+headroom. Each question has 200 constructed items. No incomplete question score
+is reported. Entity extraction remains held for its missing independent checker;
+the prior exact dialogue-detector failure is retained without retry.
+
+**Means.** Software and input readiness are established, not profile faithfulness,
+predictive utility or natural-data transcriber admission. The trained comparison
+must still receive relevant Ghost, native-adapter and holdout witnesses. Complete
+literal-question results must be independently replayed and written through;
+eligible questions still face local human-data and scientific gates before a
+bounded paid comparison. No provider calls, new tranche or engine promotion.
+
+**Curator roll-up:** theory group — bounded readers as feature extractors;
+question — can the repaired instruments be prepared and tested without confusing
+software checks with human evidence?; **Infrastructure**; result — complete
+profile input reconstruction passes and literal admission is running;
+project meaning — the authorized next branch is executable in stages;
+next engineering obligation — land complete literal batteries and obtain exact
+research witnesses before human fitting; public claim — unchanged;
+curator decision required — No; detail — [profile preparation](results/phase_2_4_stage_15/PROFILE_FEATURE_PREPARATION_PUBLIC.json),
+[literal launch](results/phase_2_4_stage_15/F4_LITERAL_LAUNCH_PUBLIC.json),
+[profile protocol](docs/design/stage-15/PROFILE_FEATURE_COMPARISON.md) and
+[literal protocol](docs/design/stage-15/F4_LITERAL_ADMISSION.md).
+
+### S15-T0B-CONVERGENCE - certified optimization does not rescue the saved-reader screen
+
+**Hypothesis.** Did the old EM iteration cap conceal a useful calibrated-reader
+advantage over the statistical backbone?
+**METHOD.** Replay every retained inner and outer writer fold, independently
+optimize the same label-shift objective, certify its gradient gap and fixed-point
+residual, then recompute all frozen contrasts. Preserve the original capped
+branch, scalar calibration, invalid penalties, nested stacking and unchanged
+bias-corrected comparator. Independent reconstruction verifies all outputs.
+
+**Found.** No arm clears the unchanged useful-gain screen after certified
+optimization. All 3,844 fits pass the numerical certificate, including the 107
+that hit the original cap. Forecasts change, but no stack gains 0.01 half-Brier
+with both interval lower bounds above that margin.
+
+The table shows completed numerical and predictive comparisons on the same 234
+targets from 31 writers. Positive gain means lower half-Brier loss than partial
+pooling; intervals resample writers or writers crossed with fixed prompts.
+
+| Saved reader evidence | Capped fits in original | Largest corrected-probability change | Stack gain over partial pooling | Writer interval | Crossed-prompt interval |
+|---|---:|---:|---:|---|---|
+| No history | 28 | 0.006434 | 0.000083 | [-0.001581, 0.001606] | [-0.003289, 0.004556] |
+| Task history | 39 | 0.000598 | 0.001024 | [-0.001597, 0.003913] | [-0.004388, 0.006987] |
+| Own history | 11 | 0.000462 | -0.000316 | [-0.002775, 0.001928] | [-0.003761, 0.005100] |
+| Donor history | 29 | 0.001629 | -0.000822 | [-0.001540, -0.000220] | [-0.001864, 0.000097] |
+
+**Means.** The iteration cap was a numerical limitation worth repairing, but
+does not explain the failed useful-gain screen. This does not validate label
+shift, rule out other calibration methods, or test the repaired profile features.
+The intervals remain conditional, nonsimultaneous and retrospective; no fresh
+holdout or engine promotion is claimed. The first audit's selector failure and
+all original results remain. No new p-values or provider calls.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: did
+the iteration cap conceal useful forecast gain? Outcome: **Infrastructure**.
+Result: certified optimization leaves the useful-gain screen unmet. Project
+meaning: this numerical repair does not revive the old reader path. Next
+engineering obligation: build profile and literal features under their separate
+admission controls. Public claim: unchanged. Curator decision: No.
+Detail: [complete audit](results/phase_2_4_stage_15/T0B_CONVERGENCE_PUBLIC.json).
+
+### S15-T0B-CONVERGENCE-V1 - numerical selector refused before scoring
+
+**Hypothesis.** Did the old iteration cap materially affect calibrated forecasts?
+**METHOD.** Replay retained folds and independently solve the same simplex
+objective, requiring a numerical certificate before any full scientific summary.
+**Found.** The complete attempt stopped at its certificate guard. The selection
+code kept an earlier, slightly lower objective after a later candidate passed
+the certificate; the retained candidate failed. No scientific summary was emitted.
+**Means.** This is an implementation failure, not evidence against calibration.
+Original source, failure and earlier results are retained. A separate successor
+selects only certified candidates, with the same accuracy threshold and objective.
+No provider call or scientific claim changed.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: did
+the iteration cap change the comparison? Outcome: **Infrastructure**. Result:
+the audit refused before a scientific result. Project meaning: numerical repair
+remains open. Next engineering obligation: validate certified-candidate selection
+and rerun the full successor. Public claim: unchanged. Curator decision: No.
+Detail: [failure receipt](results/phase_2_4_stage_15/T0B_CONVERGENCE_V1_PUBLIC.json).
+
+### S15-R3-V7-MAIN - whole main passes unchanged literal admission
+
+**Hypothesis.** Can the repaired interface produce a complete valid own-history
+and donor-history profile set for every frozen main writer?
+
+**METHOD.** After the synthetic check and discarded pilot were independently
+landed, run the complete 62-request main for 31 writers. Reconstruct exact
+requests and wire, recover the original history by removing only display
+indices, check chronology and pilot/main separation, independently parse every
+full response and replay saved outputs. Verify source pins, preserved failed
+attempts, ended provider/native execution and complete usage reconciliation.
+
+**Found.** The whole main passes the unchanged literal contract. Independent
+source, history, wire and full-response replay agree. No clipping, reference
+repair, prefix extraction, version pooling or selective salvage was used.
+
+The table covers the entire completed batch and accounting. Passing format and
+reference-index checks does not measure semantic faithfulness or prediction.
+
+| Check | Completed observation |
+|---|---|
+| Whole main | All 62 complete responses for 31 writers pass the original literal gate |
+| Evidence and source | All 43 source bindings and 919 past-only history records verify; discarded pilot writers remain disjoint |
+| Independent verification | Exact request/wire reconstruction, full-response parsing and byte-stable replay agree; earlier failures remain preserved |
+| Execution | Provider ended and exact native supervisor exited normally; no further batch submitted |
+| Accounting | 292,588 input and 24,403 output tokens reconcile the 87-cent reservation to 42 cents; shared booking $6.65 and available $43.35, pending invoices |
+
+**Means.** The commissioned R3 profile-generation repair is complete. Its
+profiles are candidate features, not validated descriptions or judges. Semantic
+faithfulness and predictive usefulness remain unestablished; the commissioned
+F4 evaluation still requires local backbone, dataset, engine/twin, holdout and
+error-control admission. No additional generation or automatic retry is needed.
+The thirteen retained unknown-usage cents from earlier grammar failures remain
+booked. Stage 14 and R6 stay closed. SM7 records this instrument result in TOOLS;
+theory and public scientific claims are unchanged. No new tests harvested.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can
+the repaired interface return a complete valid profile set for the frozen main?
+Outcome: **Infrastructure**. Result: whole-main literal admission passes.
+Project meaning: profile generation is complete; feature utility remains open.
+Next engineering obligation: prepare source adapters and the commissioned F4
+admission controls before feature evaluation. Public claim: unchanged. Curator
+decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/R3_V7_MAIN_PUBLIC.json).
+
+### S15-R3-V7-PILOT - complete discarded pilot passes unchanged literal admission
+
+**Hypothesis.** Can the array-only interface produce a complete valid own-history
+and donor-history profile set for the frozen discarded pilot writers?
+
+**METHOD.** After independent canary landing, run the whole six-request pilot for
+three writers. Reconstruct exact requests and wire, recover the original history
+by stripping only display indices, check past-only chronology and pilot/main
+separation, independently parse every full response and replay saved outputs.
+Reconcile complete usage and verify ended provider/native execution and originals.
+
+**Found.** The whole discarded pilot passes the unchanged literal contract.
+Independent source, history, wire and full-response replay agree; no clipping,
+reference repair, prefix extraction or selective salvage was used.
+
+The table covers the complete pilot and accounting, not semantic faithfulness
+or predictive performance. The pilot writers remain excluded from main.
+
+| Check | Completed observation |
+|---|---|
+| Whole pilot | All six complete responses pass the original literal gate |
+| Evidence and source | All 43 source bindings and 78 past-only history records verify; exact request/wire and independent replay agree |
+| Execution | Provider ended and exact native process exited; main remains unsubmitted at this landing |
+| Accounting | Ten-cent reservation reconciles to four cents; $6.23 booked and $43.77 available, pending invoices |
+
+**Means.** The previously commissioned whole main becomes eligible after full
+independent write-through and its own guarded forecast. This does not establish
+semantic faithfulness or predictive utility, and prior pilot success did not
+guarantee main validity. All earlier failures remain preserved. No automatic
+retry, per-writer salvage, new test or delegation. Stage 14 and R6 stay closed;
+native-data, Ghost and scientific gates remain. SM7 records this in TOOLS,
+without changing theory or public scientific claims.
+
+**Authorized continuation.** After full pilot landing and ACK, the whole
+62-request main passed a fresh forecast and is accepted and running. Source pins,
+exact native ownership and terminal supervision verify. Eighty-seven cents are
+reserved under the unchanged guard; shared booking is $7.10 and $42.90 remains,
+including retained unknown-usage reservations, pending invoices. Full main
+completion and independent write-through are still required. No interim scores,
+selective salvage or scientific feature admission.
+[Main launch receipt](results/phase_2_4_stage_15/R3_V7_MAIN_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can
+the repaired interface return a complete valid discarded-writer profile set?
+Outcome: **Infrastructure**. Result: whole-pilot literal admission passes.
+Project meaning: the already commissioned main is eligible under existing
+authority. Next engineering obligation: guarded forecast, whole-main execution
+and independent full landing. Public claim: unchanged. Curator decision required:
+No. Detail: [complete receipt](results/phase_2_4_stage_15/R3_V7_PILOT_PUBLIC.json).
+
+### OPS-S15-HEALTH-1015-0742 - due health inspection confirms supervised pilot and closed local repairs
+
+**Hypothesis.** Is the authorized work healthy, with intact evidence and correctly
+tracked dependencies for the next studies?
+
+**METHOD.** Verify exact native identities, advancing supervisor timestamps,
+provider state, source/card and terminal hashes, completed-output presence and
+modification times against the full integrity audits. Check failures, released GPU
+ownership, resource floors, research locks, watcher source/scan and the actual
+owner queue. Inspect companion commit metadata without importing mutable work.
+
+The table describes operational state and retained evidence. Presence checks reuse
+the prior full verification; they are not new scientific replays or partial scores.
+
+| Area | Observation | Operational consequence |
+|---|---|---|
+| Stage 14 | Closed native owners remain exited; 264 terminal hashes and 51,885 completed outputs verify unchanged | Retain closure and original failures; no dispatcher restart |
+| Local repairs | Four complete pairs, 1,840 outputs and 33 original receipt bindings remain intact; GPU lock released | Repair queue stays drained |
+| Cloud pilot | Exact live supervisor, advancing heartbeat, provider acceptance and 43 source bindings verify | Complete discarded pilot continues; main remains gated |
+| Resources and monitoring | Memory, disk, temperature and all 21 locks pass; watcher is current; actual owner queue inspected | No scientific recovery required |
+| Companion dependencies | ToMpathy committed engine remains the verified capsule version; owner has an uncommitted service edit. No required Ghost next-round twins exist | Preserve isolated capsule; no mutable import or broader scientific admission |
+
+**Found.** Execution and retained evidence are healthy. One queued notice referred
+only to the already fully landed and acknowledged v7 canary. Its exact identity,
+prompt and terminal hash were verified before retirement; the native queue is now
+empty. The due health event was inspected while pending, with routine delivery
+suppressed because this owner is active. Historical notification failure evidence
+remains; no health-message delivery is inferred. The sandbox's native queue helper
+could not locate its profile; the same bounded inspection succeeded through native
+approval without changing the watcher or its configuration.
+
+**Means.** Continue the accepted pilot and land its complete result before any
+main submission. Local repairs and Stage 14 stay closed. Native dataset, exact-
+hash Ghost, holdout and sequential-control gates still apply. No new scientific
+test, paid call or delegation was harvested. Full recording precedes health ACK
+and the independent six-hour rearm. This is an infrastructure finding, with no
+new semantic or predictive claim.
+
+**Curator roll-up.** Theory group: execution infrastructure. Question: is current
+work progressing with preserved evidence and accurate dependency tracking?
+Outcome: **Infrastructure**. Result: supervised cloud execution is healthy and
+closed local evidence remains intact. Project meaning: continue within existing
+admissions. Next engineering obligation: verify and land the complete pilot while
+preparing admitted source adapters. Public claim: unchanged. Curator decision
+required: No. Detail: [inspection receipt](results/phase_2_4_stage_15/HEALTH_20261015_0742_PUBLIC.json).
+
+### S15-R3-V7-CANARY - array-only compatibility passes synthetic full-response admission
+
+**Hypothesis.** Can the simpler array-only schema return a complete synthetic
+profile that satisfies the original literal acceptance rule?
+
+**METHOD.** Run one separately frozen request on the same invented fox-choice
+history. Remove only the provider string pattern; retain array minimums, evidence,
+task prompt, model and output cap. Independently reconstruct request/wire, parse
+and replay the entire response, verify every source binding and original attempt,
+and reconcile complete usage against ended provider and native execution.
+
+**Found.** The complete response passes the unchanged literal contract. Exact
+request reconstruction, independent parsing and byte-stable replay agree. No
+prefix extraction, statement clipping or citation remapping was used.
+
+The table covers the whole completed synthetic check and its accounting, not
+human-profile faithfulness or predictive performance.
+
+| Check | Completed observation |
+|---|---|
+| Whole response | Normal end-of-turn; complete literal admission passes |
+| Evidence and source | All 43 source bindings and 32 invented records verify; exact wire and independent replay agree |
+| Execution | Provider ended and exact native process exited; no human pilot/main submitted at this landing |
+| Accounting | Four-cent reservation reconciles to one cent; $6.19 booked and $43.81 available, pending invoices |
+
+**Means.** This interface is feasible on the invented input. It does not identify
+the cause of v6's failure or establish semantic faithfulness or predictive utility.
+The already commissioned complete discarded-writer pilot becomes eligible after
+this independent full write-through and its own guarded forecast. Main remains
+conditional on that whole pilot. All prior failures remain; no selective salvage,
+automatic retry, new scientific test or delegation. Stage 14/R6 remain closed.
+SM7 records this in TOOLS; theory and scientific claims are unchanged.
+
+**Authorized continuation.** After full synthetic write-through and a fresh
+guarded forecast, the complete six-request discarded-writer pilot is accepted
+and running. Exact native ownership, all source pins and terminal supervision
+verify. Ten cents are reserved; shared booking is $6.29 and $43.71 remains,
+including retained unknown-usage reservations, pending invoices. Main stays
+unsubmitted pending complete independent pilot admission and write-through.
+No interim profile scores or scientific claim.
+[Pilot launch receipt](results/phase_2_4_stage_15/R3_V7_PILOT_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+simpler interface return a complete valid profile? Outcome: **Infrastructure**.
+Result: synthetic full-response admission passes. Project meaning: the complete
+discarded pilot becomes eligible under existing authority. Next engineering
+obligation: forecast and run that pilot, then independently verify and fully land
+it before main. Public claim: unchanged. Curator decision required: No. Detail:
+[complete receipt](results/phase_2_4_stage_15/R3_V7_CANARY_PUBLIC.json).
+
+### S15-R3-V6-CANARY - nonempty-schema synthetic check fails complete output admission
+
+**Hypothesis.** Can the nonempty profile schema produce a complete, literally
+valid synthetic response while retaining the original parser and output allowance?
+
+**METHOD.** Run the separately frozen single request on 32 invented fox-choice
+records. Independently reconstruct its exact request and wire, verify all source
+bindings and original attempts, parse and replay the entire response, and reconcile
+complete token usage against ended provider and native execution.
+
+**Found.** The synthetic response continues beyond a JSON object with non-JSON
+text and reaches the output limit. It fails the unchanged complete-response
+validator. Local schema tests and preflight did not establish runtime validity.
+
+The table describes the entire completed canary, not predictive performance.
+
+| Check | Completed observation |
+|---|---|
+| Complete response | Output-limit stop; trailing non-JSON text; literal admission fails |
+| Source and replay | All 39 source bindings, exact request/wire and independent replay verify |
+| Execution | Provider ended and exact native process exited; pilot/main unsubmitted |
+| Accounting | Four-cent reservation reconciles to two cents; $6.18 booked and $43.82 available, pending invoices |
+
+**Means.** Preserve the failed response in full; do not extract a valid-looking
+prefix or increase the allowance to relabel this attempt. This is an instrument
+failure, not a scientific null. This single observation does not identify which
+schema addition or provider behavior caused it. Review a bounded prospective
+compatibility repair before any further submission. All original attempts and
+literal gates remain; no feature admission, new scientific test or delegation.
+Stage 14 and R6 remain closed. SM7 records this in TOOLS; theory is unchanged.
+
+**Authorized continuation.** A separately frozen compatibility repair removes
+only the provider string pattern, retaining the array minimums and unchanged
+acceptance rule. All 55 targeted checks and 21 research locks pass, including
+rejection of valid-JSON prefixes followed by extra text. Its single synthetic
+canary passed a four-cent forecast and is accepted and running; exact native,
+source and terminal supervision verify. Shared booking is $6.22, with $43.78
+available pending invoices. Fresh human pilot/main remain gated and unsubmitted.
+This tests feasibility, not a causal explanation of v6. No automatic retry.
+[Protocol](docs/design/stage-15/R3_ARRAY_COMPATIBILITY_V7.md) and
+[launch receipt](results/phase_2_4_stage_15/R3_V7_CANARY_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+nonempty interface return a fully valid profile? Outcome: **Infrastructure**.
+Result: the synthetic response fails complete output admission. Project meaning:
+human pilot and main remain gated. Next engineering obligation: review a separate
+bounded repair, retaining full-response validation. Public claim: unchanged.
+Curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/R3_V6_CANARY_PUBLIC.json).
+
+### S15-R3-V5-MAIN - complete main fails literal admission on an empty profile
+
+**Hypothesis.** Can the repaired profile interface produce a complete, literally
+valid own-history and donor-history feature set for the frozen main writers?
+
+**METHOD.** After the full discarded pilot passed independent verification and
+write-through, submit the commissioned 62-request main for 31 disjoint writers.
+Retain the original model, parser, output allowance and past-only evidence. Verify
+every source binding, reconstruct requests and wire, strip only displayed record
+IDs to recover the original history, independently parse all responses, replay
+the saved outputs, and reconcile complete usage and ended provider/native state.
+
+**Found.** The complete main fails literal admission because one response contains
+an empty statement with no evidence references. The provider returned a normal
+end-of-turn marker. This is neither truncation nor a negative scientific result.
+
+The table covers the entire completed batch; rows distinguish format coverage,
+evidence integrity and accounting, not predictive scores.
+
+| Check | Completed observation |
+|---|---|
+| Response coverage | All 62 requests returned; 61 pass the unchanged literal parser |
+| Failed format | One empty statement and empty reference list |
+| Evidence and replay | 35 source bindings and 919 past-only history records verify; exact wire, independent parsing and replay agree |
+| Execution and costs | Provider ended and native process exited; 87-cent reservation reconciles to 41 cents |
+| Shared ceiling | $6.16 booked and $43.84 remains, including thirteen retained unknown-usage cents; pending invoices |
+
+**Means.** Pilot success did not guarantee complete main-format validity. Retain
+all original outputs and the failed complete-batch gate; do not select only the
+passing profiles, fill the empty statement or silently rerun its writer. Review
+whether a separately frozen repair is justified under the existing healing
+authority. Semantic faithfulness and predictive usefulness remain unestablished.
+Stage 14 and R6 stay closed. No new scientific test was harvested. SM7 records
+this instrument result in TOOLS; theory and scientific claims remain unchanged.
+
+**Authorized continuation.** The separately frozen v6 schema excludes empty
+statements and arrays while retaining the original validator, evidence and prompt.
+All 57 targeted checks and 21 research locks pass. Its one-request synthetic
+canary passed a four-cent preflight and is accepted and running, with exact native
+ownership, source bindings and terminal watches verified. No human pilot or main
+is submitted in v6. Shared booking is $6.20; $43.80 remains pending invoices.
+No automatic retries or cross-attempt pooling. The
+[protocol](docs/design/stage-15/R3_NONEMPTY_REPAIR_V6.md) records the official API
+constraint check and requires fresh full pilot admission before a whole main.
+[Launch receipt](results/phase_2_4_stage_15/R3_V6_CANARY_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: does
+the repaired interface produce a fully valid main feature set? Outcome:
+**Infrastructure**. Result: complete main admission fails on an empty profile.
+Project meaning: feature use remains blocked, without a predictive verdict.
+Next engineering obligation: diagnose and review a prospective repair without
+selective salvage or weakening the literal gate. Public claim: unchanged.
+Curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/R3_V5_MAIN_PUBLIC.json).
+
+### S15-R3-V5-PILOT - full discarded pilot passes literal format admission
+
+**Hypothesis.** Can explicit history references produce complete, literally valid
+profiles on the frozen discarded writers without changing their earlier evidence?
+
+**METHOD.** Run all six own/donor requests for the three discarded pilot writers,
+with explicit zero-based record IDs and request-specific reference enums. Reuse
+the original parser, model, output allowance and history selection. Independently
+reconstruct every request and wire, remove only added ID labels to reproduce
+original history content, verify chronology and source pins, parse every complete
+response, replay saved outputs, and reconcile ended provider/native execution.
+
+**Found.** The complete pilot passes literal format admission. Every response
+passes the unchanged contract without clipping, citation remapping or selective
+salvage. All 35 source bindings, 78 past-only records, distinct pilot/main writers,
+original attempts, exact replay and complete accounting verify. The ten-cent
+reservation reconciles to four cents. Shared booking is $5.75; $44.25 remains,
+including thirteen retained unknown-usage cents, pending invoices.
+
+**Means.** The original format failure is repaired on this complete discarded
+pilot. This establishes neither semantic faithfulness nor predictive usefulness.
+The already commissioned 31-writer main is now eligible after full write-through
+and a fresh guarded forecast. It produces candidate features, not judgments or
+new scientific claims. All earlier failures remain. Stage 14 and R6 stay closed.
+No new scientific tests harvested; SM7 records this in the instrument ledger and
+leaves theory unchanged. No new tranche or delegation is created.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+repaired profile interface pass its full literal contract? Outcome: **Infrastructure**.
+Result: the complete discarded pilot passes literal admission. Project meaning:
+main profile generation becomes eligible under the existing commission. Next
+engineering obligation: forecast and execute the bounded main, then verify and
+fully land it before feature use. Public claim: unchanged. Curator decision
+required: No. Detail: [complete pilot receipt](results/phase_2_4_stage_15/R3_V5_PILOT_PUBLIC.json).
+
+### S15-R3-V5-CANARY - explicit reference IDs pass synthetic generation
+
+**Hypothesis.** Can displayed record IDs and a request-specific reference enum
+prevent unsupported citations while retaining the original literal contract?
+
+**METHOD.** Run one prospective batch request on 32 invented records, covering
+more references than the largest frozen human history; retain the original parser,
+model and output cap. Independently reconstruct requests and wire, replay the
+whole response, verify all source pins and prior attempts, and reconcile ended
+provider/native execution against complete usage. Forty-eight local checks pass.
+
+**Found.** The complete synthetic response passes the unchanged literal parser;
+all source, wire, response, original-attempt and accounting checks verify.
+The four-cent reservation reconciles to one cent. Shared booking is $5.71,
+including thirteen retained unknown-usage cents; $44.29 remains pending invoices.
+
+**Means.** The explicit-reference interface works on invented records. This does
+not establish faithful human profiles or predictive utility. The complete discarded
+pilot is eligible only after this full landing; main remains conditional. Original
+failures are retained, with no clipping or citation remapping. No new scientific
+tests harvested; SM7 leaves theory unchanged and updates the instrument ledger.
+
+**Authorized continuation.** The complete six-request discarded pilot passed
+preflight after the synthetic canary's full landing and ACK, and is accepted and
+running under verified native and terminal supervision. Histories differ from
+the original authorized pilot only by displayed reference labels; original fields,
+order and chronology remain unchanged. Ten cents are reserved under the existing
+guard. Shared booking is $5.81, available $44.19, pending invoices. Main remains
+unsubmitted until full pilot validity and independent write-through.
+[Launch](results/phase_2_4_stage_15/R3_V5_PILOT_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+reference interface generate a literally valid profile? Outcome: **Infrastructure**.
+Result: the synthetic reference check passes. Project meaning: full discarded
+pilot can test the repaired interface. Next engineering obligation: run and fully
+land that complete pilot before main egress. Public claim: unchanged. Curator
+decision required: No. Detail: [receipt](results/phase_2_4_stage_15/R3_V5_CANARY_PUBLIC.json).
+
+### S15-ENGINE-INTERFACE-V2 - newer canonical interface executes locally
+
+**Hypothesis.** Can Sounding Line consume the newly available ToMpathy interface
+and native adapters without modifying the companion's working tree?
+
+**METHOD.** Archive exact committed engine `82789fdb50d9`, verify all 117 source
+files and the interpreter, assert imports resolve to that capsule, run its real
+interface-export CLI and all six constructed native-panel tests, then reverify
+the capsule. Tests cover annotation expansion/ties and absent timezone, missing
+PRISM chronology, DICES rating semantics, expected versus experienced ratings,
+source-byte/path refusal and stated-preference scale preservation.
+
+**Found.** The interface exports successfully and all six checks pass. Its
+implementation hash is independently pinned. The export's Git field is unavailable
+outside a checkout, so the archive pin supplies commit identity. One initial
+test invocation used the wrong relative path and exited before collection; the
+correct absolute path passes. No companion files, services or admissions changed.
+
+**Means.** Native adapter integration can proceed. This is software conformance,
+not evidence that real dataset chronology, identities or inferential gates pass.
+The shared dependency environment needs revalidation before scientific use.
+Ghost's inspected committed head remains `4be8d9d61557`; matching next-round
+admission records remain required. No new scientific tests harvested; SM7 records
+the instrument state without theory promotion.
+
+**Curator roll-up.** Theory group: evidence infrastructure. Question: is the new
+canonical engine interface usable locally? Outcome: **Infrastructure**. Result:
+the new interface and constructed native-adapter checks pass. Project meaning:
+integration preparation can advance. Next engineering obligation: validate native
+dataset semantics and exact-hash scientific witnesses before modeling. Public
+claim: unchanged. Curator decision required: No. Detail:
+[interface receipt](results/phase_2_4_stage_15/ENGINE_INTERFACE_V2_PUBLIC.json).
+
+### S15-R3-V4-PILOT - complete profile pilot fails evidence-reference admission
+
+**Hypothesis.** Can concise guidance with the original simple schema produce
+complete, literally valid profiles of the frozen earlier choices?
+
+**METHOD.** Run all six own/donor requests for the same three discarded writers,
+with unchanged histories and literal parser. Independently reconstruct requests
+and wire, replay all responses, verify source bindings and original attempts,
+and reconcile provider/native termination against complete token accounting.
+
+**Found.** One response cites a nonexistent history entry. It uses index 16 for
+a history whose valid indices are 0 through 15. All provider turns ended normally,
+but only five of six profiles pass the complete contract, so main is unsubmitted.
+The failing response's statements satisfy the original length bound; the failure
+is its evidence reference. All 33 source bindings, exact replay, past-only input
+construction and retained originals verify. Complete usage reconciles the
+ten-cent reservation to four cents. Shared booking is $5.70; $44.30 remains,
+including thirteen cents retained for unknown-usage failures, pending invoices.
+
+**Means.** This is a repairable instrument failure, not a scientific null about
+maker-specific information. Preserve the response without remapping or clipping
+its references. A separately versioned repair can display explicit record indices
+and constrain references to those IDs, then repeat synthetic generation and the
+complete discarded pilot before main. The original acceptance rule remains.
+Stage 14 and R6 stay closed. No new scientific tests harvested; SM7 leaves theory
+unchanged and records this result in the instrument ledger.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can
+profiles preserve valid references to earlier choices? Outcome: **Infrastructure**.
+Result: the complete pilot fails evidence-reference admission. Project meaning:
+scientific evaluation remains unavailable. Next engineering obligation: validate
+explicit reference IDs prospectively before the full discarded pilot and main.
+Public claim: unchanged. Curator decision required: No. Detail:
+[complete pilot receipt](results/phase_2_4_stage_15/R3_V4_PILOT_PUBLIC.json).
+
+### S15-R3-V4-CANARY - simple-schema synthetic generation passes literal admission
+
+**Hypothesis.** Can the previously working simple schema, paired with concise
+generation guidance, produce a complete profile under the original hard limit?
+
+**METHOD.** Reuse the original schema and unchanged literal parser, prospectively
+ask for concise statements without losing the observed condition, and submit the
+same invented fox-choice history through the guarded batch path. Independently
+reconstruct requests and wire, parse the full response, replay outputs, verify
+all source bindings and prior attempts, and reconcile ended provider/native state
+against complete token accounting. The 43 targeted local checks include refusal
+before either token-count or paid egress when prerequisite admission is absent.
+
+**Found.** The synthetic response passes the original complete literal contract.
+Its statement exceeds the soft 8-12-word generation target but remains below the
+unchanged 25-word failure threshold; the prompt target was never an acceptance
+rule. All 33 source bindings, exact replay, evidence-index check, distinct writer
+splits and retained previous attempts verify. The batch and native process ended
+normally. Complete usage reconciles the three-cent reservation to one cent.
+Shared booking is $5.66 and available capacity $44.34, including thirteen cents
+retained for earlier unknown-usage failures, pending invoices.
+
+**Means.** Actual generation works on this invented record; it does not prove
+length compliance on human histories, semantic faithfulness or predictive utility.
+The full six-request discarded pilot is now eligible after this write-through;
+main still requires that complete pilot to pass. There is no clipping, selective
+salvage, changed acceptance criterion or automatic chaining. Stage 14 and R6 remain
+closed. No new scientific tests harvested; SM7 leaves theory unchanged and records
+this in the instrument ledger. Existing healing and tranche authority cover the
+next pilot; no new spend tranche or delegation is created.
+
+**Authorized continuation.** After this full landing, the unchanged six-request
+three-writer pilot passed provider preflight and was submitted once through the
+canonical guard. Actual provider acceptance, exact live native ownership, 33
+source bindings and terminal/failure watches verify at the launch inspection.
+Ten cents are reserved; shared booking is $5.76 and available capacity $44.24,
+pending invoices. The pilot is running; no result or scientific admission is
+claimed. Main remains unsubmitted and gated on the complete pilot. [Launch](results/phase_2_4_stage_15/R3_V4_PILOT_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+simpler interface generate a literally valid profile? Outcome: **Infrastructure**.
+Result: the synthetic check passes the original literal contract. Project meaning:
+the full discarded pilot can now test format readiness on its frozen histories.
+Next engineering obligation: run, independently verify and fully land that pilot
+before main egress. Public claim: unchanged. Curator decision required: No.
+Detail: [complete canary receipt](results/phase_2_4_stage_15/R3_V4_CANARY_PUBLIC.json).
+
+### S15-R3-V3-CANARY - synthetic grammar check failed before generation
+
+**Hypothesis.** Can a nested version of the same word-bound grammar compile at
+the provider without weakening the existing profile contract?
+
+**METHOD.** Submit one invented fox-choice history through the exact prospective
+schema, system message, model, output cap and guarded batch path. Reconstruct the
+request and wire, replay the complete response, verify all source bindings and
+both earlier attempts, and confirm ended provider and native ownership.
+
+**Found.** No profile was generated. The sole request returned the provider's
+invalid-request error, "Schema is too complex." The transport ended normally,
+but actual-generation admission fails. The 34 passing local checks and accepted
+token count did not establish provider readiness. Human-history pilot and main
+remain unsubmitted in this version. All pinned inputs and prior attempts verify.
+
+**Accounting.** No token usage was returned, so the three-cent reservation stays
+booked alongside the previous ten-cent unknown-usage reservation. Shared booking
+is $5.65 and available capacity $44.35, pending invoices; measured zero is not a
+zero-charge claim.
+
+**Means.** This is an interface failure on invented text, not evidence about a
+person, preference, or predictive utility. Two regex encodings have now failed;
+another algebraic rewrite alone is insufficient recovery. Review a genuinely
+simpler interface under the existing healing authority, retaining the original
+literal acceptance rule and the synthetic-canary/full-discarded-pilot sequence.
+No scientific tests harvested; SM7 records this in the instrument ledger and
+leaves theory unchanged. No retry or dependent egress occurs in v3.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+revised grammar support actual generation? Outcome: **Infrastructure**. Result:
+the provider rejected the synthetic grammar before generation. Project meaning:
+grammar equivalence did not solve deployment complexity. Next engineering
+obligation: review a simpler interface, then verify actual generation and the
+full discarded pilot. Public claim: unchanged. Curator decision required: No.
+Detail: [complete canary failure receipt](results/phase_2_4_stage_15/R3_V3_CANARY_PUBLIC.json).
+
+### S15-R3-V2-PILOT - provider grammar failure before generation
+
+**Hypothesis.** Can explicit word-bound encoding produce complete, valid profiles
+without changing the underlying histories or relaxing the statement limit?
+
+**METHOD.** Run the separately frozen six-request Sonnet batch on the same three
+discarded pilot writers, with own and donor histories, 1,500 output tokens and
+the prospective 24-word grammar. Independently reconstruct requests and wire,
+verify every response identity and provider error, replay the consumer, check
+all source pins, retained original files and exact provider/native termination.
+
+**Found.** No profile was generated. Four requests returned "Schema is too complex."
+and two returned "Grammar compilation timed out". All six are provider invalid-request
+errors, despite successful token-count preflight. The transport completed normally;
+the full literal-admission gate fails and main remains unsubmitted. All 29 source
+bindings and 18 original-attempt files verify, as do request/wire reconstruction,
+complete result coverage, replay and ended ownership. No response or gate is edited.
+
+**Accounting.** The provider returned no token-usage records. The ten-cent
+reservation remains booked: zero measured tokens is not proof of zero charge.
+Shared campaign booking stays $5.62 and available capacity $44.38, pending invoices.
+No release, retry, main egress or new tranche is implied by the terminal marker.
+
+**Means.** This is a failed generation interface, not evidence about preferences
+or predictive usefulness. Local parser tests and unpaid token counting did not
+establish provider grammar compilability. A reviewed successor must demonstrate
+its actual grammar on synthetic data before another human-history pilot. Preserve
+both previous attempts. Existing curator healing authority covers that bounded
+repair; it does not waive the full pilot gate. No new scientific tests harvested.
+SM7 leaves theory unchanged; the instrument ledger records the failure.
+
+**Authorized recovery.** A separate v3 nests optional word suffixes to remove
+the prior grammar's multiple decompositions while preserving the same 1-24-word
+language. All 34 boundary, lifecycle, source-separation, native-supervision and
+transition-proof checks pass. One actual-generation diagnostic using only an
+invented fox choice is accepted and running under native/terminal watches, with
+a three-cent reservation. This is not a generated result yet. Shared booking is
+now $5.65 including both reservations, leaving $44.35. Human-history pilot egress
+waits for the canary's valid complete generation and full write-through; main
+still requires the full discarded pilot. No automated chaining or new tranche.
+[Recovery protocol](docs/design/stage-15/R3_BOUNDED_REPAIR_V3.md) and
+[launch receipt](results/phase_2_4_stage_15/R3_V3_CANARY_LAUNCH_PUBLIC.json).
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+explicit length grammar satisfy the full profile contract? Outcome:
+**Infrastructure**. Result: provider grammar compilation prevented generation.
+Project meaning: token-count acceptance is insufficient readiness evidence.
+Next engineering obligation: separately validate a simpler grammar on synthetic
+data before the complete discarded pilot. Public claim: unchanged. Curator
+decision required: No. Detail: [complete failure receipt](results/phase_2_4_stage_15/R3_V2_PILOT_PUBLIC.json).
+
+### S15-R3-HEALING-SETUP - bounded-statement repair launched
+
+**Hypothesis.** Can a constrained statement representation prevent the observed
+overlength-profile failure without changing the evidence or weakening admission?
+
+**METHOD.** Preserve the entire failed structured pilot and implement a separate
+version with at most 24 words encoded in the provider schema and independently
+checked after decoding. Exercise boundary, whitespace, evidence, duplicate,
+truncation, complete fake-provider lifecycle, uncertain-submit and main-gate
+refusal cases. Reconstruct all six unchanged own/donor histories, verify old pins,
+obtain fresh model access and token counts, reserve the full pilot cost through
+the canonical campaign guard, and register native/terminal supervision before POST.
+
+**Found.** All 29 targeted checks pass. An unpaid token-count preflight rejected
+the compact range quantifier; the equivalent expanded optional-group form was
+accepted. The refusal is retained. The actual provider accepted the complete
+six-request pilot, and exact native ownership and completion/failure watches
+verify. This is a launch, not a completed repair or scientific result. The pilot
+reserves ten cents: shared booking is $5.62 including that active reservation,
+leaving $44.38 under the existing $50 ceiling, pending invoices.
+
+**Means.** The newly authorized healing pass is running. Original failed responses
+and their costs remain intact. Main histories remain local until all six pilot
+profiles pass independent literal verification and full internal write-through.
+No clipping, selective salvage, automatic resubmission, new tranche, inference
+gate relaxation or changes to other owners' projects. Feature usefulness and
+semantic faithfulness remain unestablished. Stage 14 and the R6 queue stay closed;
+native adapter and engine/twin admission obligations remain. No additional
+scientific test was harvested beyond the commissioned repair. SM7 leaves theory
+unchanged; the instrument ledger records the build and launch.
+
+**Curator roll-up.** Theory group: evidence-reader instruments. Question: can the
+format defect be repaired without weakening the original acceptance rule?
+Outcome: **Infrastructure**. Result: the separately bounded pilot is running.
+Project meaning: the failure has a tested prospective repair with its original
+record preserved. Next engineering obligation: independently verify and fully land
+the complete pilot, then forecast and admit main if it passes. Public claim:
+unchanged. Curator decision required: No. Detail: [launch receipt](results/phase_2_4_stage_15/R3_V2_LAUNCH_PUBLIC.json)
+and [repair protocol](docs/design/stage-15/R3_BOUNDED_REPAIR_V2.md).
+
+### S15-R6-QWEN-MIXED-E8-FIRST - final mixed-text epoch repair and queue closure
+
+**Hypothesis.** Can repeated training on a writer's earlier mixed human/model
+documents improve later offered-choice prediction beyond base, pooled and donor
+models, or does repeating sparse text fail to supply useful personal evidence?
+
+**METHOD.** Complete the separately authorized Qwen 0.5B mixed-final-text repair,
+seed 141010, eight epochs and a 16,384-native-token cap, with rank four selected
+on earlier calibration. Reconstruct strictly earlier training text, matched donor
+and pooled budgets, training-token digests, optimizer steps and evaluation inputs.
+Replay all saved proper scores and contrasts and the complete normalized/residual
+consumer. Verify three matched completed comparisons and the retained VRAM failure.
+
+The table reports equal-writer half-Brier differences, personal adapter minus rival,
+for 341 offered-choice events from 45 exposed writers and 16 prompts.
+Negative favors personal adaptation; useful benefit requires the frozen 0.01 margin.
+Intervals use 4,000 bootstrap draws: writers are primary and crossed writer/prompt
+resampling is the fixed-stimulus dependence sensitivity. All rows share complete
+support. These are descriptive conditional intervals, not fresh confirmation.
+
+| Rival | Difference | Writer interval | Crossed writer/prompt interval |
+|---|---:|---|---|
+| Base model | 0.001812 | [-0.033267, 0.035313] | [-0.050339, 0.049354] |
+| Pooled adapter | 0.006163 | [-0.011974, 0.030118] | [-0.019277, 0.043978] |
+| Donor adapter | 0.006800 | [-0.014976, 0.030907] | [-0.026281, 0.044935] |
+| Uniform probabilities | 0.018776 | [-0.002205, 0.052304] | [-0.007485, 0.070908] |
+
+**Found.** No useful primary personal advantage is established. Useful benefit
+against base, pooled and donor models remains unresolved under both interval
+methods; all primary intervals include zero. Useful primary uniform benefit is
+excluded under both methods. Residual donor and pooled benefit remain unresolved;
+residual uniform is worse only under writer resampling. Raw sums are worse than
+base and uniform under both methods, while pooled and donor useful benefit remain
+unresolved. These are distinct readout results, not an aggregate verdict.
+
+All 470 producer/consumer output hashes, 45 source/input bindings and
+7 model files verify. Full score/contrast/consumer replay, 180 training-token
+digests and 34,320 optimizer steps pass. Three matched complete comparators supply
+1,409 additional output hashes and the same choices, writers, prompts and selections.
+Same-seed two- and four-epoch references retain every cutoff, native evaluation
+input, donor, budget and arm token digest; fitted-arm steps quadruple and double.
+Across eight-epoch seeds, own/base/donor construction matches, while pooled token
+digests differ for 45 writers. No paired epoch effect is estimated.
+
+Producer and consumer exited normally after 9668.25 and
+38.62 seconds. The 8 original failed-attempt receipt files remain
+unchanged; the free-VRAM failure, partial outputs and its costs are preserved.
+No partial adapter was reused. All four R6 producer/readout pairs are now complete;
+the finite coordinator exited normally and released its GPU lock.
+
+**Limits.** Training remains sparse for 27 writers: median 6,656 tokens,
+range 256 to 16,384. Exclusions retain two writers without usable
+calibration, one without sufficient past text/donor or later choices, and 32
+unsupported candidate records; these are different units. Final text mixes human
+writing and accepted model insertions. Its coverage differs from human-only text.
+Repeated text adds optimizer steps, not independent evidence. Shared exposed
+writers/prompts, calibration selection and seed-dependent pooled text ordering
+preclude a seed, epoch, corpus or backbone ranking, parity or independent human
+replication. The target is an offered selection conditional on uptake, not private
+goals, values or four-way suggestion handling.
+
+**Means.** The last missing comparison is restored with its original controls;
+the repair queue is fully landed and drained. This establishes neither a useful
+personal-prediction result nor a broader family conclusion. Stage 14 stays closed;
+Stage 15 owns this evidence and its later portfolio synthesis. SM7 leaves theory
+unchanged; the instrument ledger records the complete cell. Source-adapter and
+engine/twin admission work remains; R3 main is held on its failed literal pilot.
+No new test was harvested, no new paid call made and no other owner was disturbed.
+
+**Curator roll-up.** Theory group: execution and recorded-choice instruments.
+Question: can the final failed mixed-text epoch comparison be restored with all
+controls intact? Outcome: **Infrastructure**. Result: the complete replacement
+leaves useful personal advantage unresolved against its model rivals. Project
+meaning: all commissioned R6 repairs are available without erasing their failures.
+Next engineering obligation: validate native adapters and engine/twin admissions,
+and review the separately versioned R3 representation. Public claim: unchanged.
+Curator decision required: No. Detail: [aggregate receipt](results/phase_2_4_stage_15/R6_QWEN_MIXED_E8_FIRST_PUBLIC.json) and
+[repair endpoint](results/phase_2_4_stage_15/R6_ENDPOINT_20261015_PUBLIC.json).
+
+### S14-FINAL-1015 - early final packet and operational closure
+
+**Hypothesis.** Does earlier maker-specific evidence improve later recorded-choice
+prediction beyond strong population, donor and no-history controls?
+
+**METHOD.** Assemble the complete Stage 14 record without rescoring unfinished
+work. Rehash every recorded output in the original plan, verify all source/card
+bindings and research locks, preserve failed/unknown attempts, and enumerate each
+unrun card's retirement or Stage 15 successor. Collate completed adapter, feature,
+handling-baseline and cloud comparisons with their original uncertainty and limits.
+
+**Found.** Stage 14 does not establish a useful maker-specific advantage against
+its strong controls. This is a limit of these tested constructions, not a finding
+that personal information is absent. The useful result is a verified process
+ledger, bounded extraction and missingness instruments, matched baseline controls,
+and a much clearer separation between observed choices and inferred preferences.
+
+The original plan retains 210 completions, eight failures, two unknown attempts,
+44 blocked cards and six unstarted/held cards. All 51,885 completed output hashes,
+270 card pins, 77 source bindings and 21 research locks pass the final check;
+the separate gold census also verifies. The completed adapter table contains
+86 multi-writer cells, none satisfying useful benefit against all three model
+rivals under both interval methods together. This is a complete-cell census,
+not a new joint family test or independent replication. Individual sensitivities
+and unresolved contrasts remain. The cloud main, failed profile prerequisite,
+missing Opus comparisons, failed prototype admission and capacity deficit are
+explicit in the packet. Stage 14 books $5.48, pending invoices; its campaign
+ceiling is shared with the separately recorded Stage 15 work.
+
+**Means.** The curator's October 15 instruction supersedes the Friday wait.
+Stage 14 is closed with deficits, not all-cards-successful. Its idle dispatcher
+was stopped after exact native ownership and no-child checks; the checkpoint
+helper exited through its explicit cancellation path. Only their two exact
+native watches were retired. Stage 15's active repair and independent six-hour
+health cadence are untouched. All surviving obligations now have Stage 15 homes;
+no Stage 14 scientific run or calendar packet remains due. SM7 leaves theory
+unchanged; the instrument ledger records this closure.
+
+**Curator roll-up.** Theory group: maker evidence and reader instruments. Question:
+Does the completed allocation support useful maker-specific prediction? Outcome:
+**Narrows**. Result: These tested constructions establish no useful advantage
+against their strong controls. Project meaning: Preserve the personal-information
+question while closing the old allocation. Next engineering obligation: finish
+the separately commissioned Stage 15 repairs and admission work. Public claim:
+unchanged; broad human-value claims remain forbidden. Curator decision required:
+No. Detail: [final packet](results/phase_2_4_stage_14/FINAL_PACKET_20261015.md),
+[integrity](results/phase_2_4_stage_14/FINAL_INTEGRITY_20261015.json),
+[closed endpoint](results/phase_2_4_stage_14/FINAL_ENDPOINT_20261015.json).
+
+### S15-R3-PROFILE-PILOT - structured profiles still fail complete admission
+
+**Hypothesis.** Can the commissioned structured-profile repair produce a complete
+matched set of bounded, evidence-linked summaries for use as candidate features?
+
+**METHOD.** Submit six Sonnet 5.5 batch requests for three discarded pilot writers,
+using the unchanged own/donor histories, a visible fixed JSON schema and a
+1,500-token output allowance. Validate every whole response, reconstruct every
+request from the frozen earlier histories, replay the saved parser independently
+and verify source pins, ended provider ownership, native exit and token accounting.
+
+**Found.** The pilot fails complete admission: five of six profiles pass. All six
+provider turns end normally; one own-history profile contains statements of 25
+and 30 words, exceeding the specified fewer-than-25-word limit. No clipping,
+salvage or retry occurs. All original responses remain. Exact request reconstruction,
+the source bindings and offline replay pass. The ten-cent reservation reconciles
+to four cents with complete usage and ended ownership. The main batch is unsubmitted.
+
+**Means.** The output-token stop observed in the original pilot is absent here,
+but literal profile compliance remains inadequate. This does not establish
+semantic faithfulness, predictive benefit or a failure of personal information.
+Profiles remain candidate features, never judges. Any later correction needs its
+own reviewed version; this attempt is retained and the existing admission gate
+stays closed. No new hypothesis was harvested beyond the commissioned repair.
+
+**Curator roll-up.** Theory group: reader instruments. Question: Can bounded
+structured profiles form a complete matched feature set? Outcome: **Infrastructure**.
+Result: The repaired pilot still fails complete literal admission. Project meaning:
+Do not submit its main or promote its profiles. Next engineering obligation:
+review the word-bound representation before any separately versioned attempt.
+Public claim: unchanged. Curator decision required: No for this disposition.
+Detail: [pilot receipt](results/phase_2_4_stage_15/R3_PROFILE_PILOT_PUBLIC.json).
+
+### S15-ENGINE-INTERFACE - canonical pinned engine exchange verified
+
+**Hypothesis.** Can Sounding Line exercise the companion's canonical engine
+without importing its changing working tree or treating software checks as admission?
+
+**METHOD.** Extract the committed engine into an immutable local capsule, verify
+its complete file inventory and hashes before calls, then use the companion
+interpreter without modifying its environment. Exercise the actual normalized
+panel ingestion route on constructed valid, missing-time and tied records;
+repeat the import, check the ledger census, and reject malformed exchanges.
+
+**Found.** The pinned 88-file engine imports and executes. One constructed decision
+is retained; missing chronology and a tie remain exclusions. Reentry does not
+duplicate the decision. Three malformed exchange mutations refuse, and the
+canonical admission interface enables no module without witnesses. This verifies
+the exchange interface only. Native dataset mappings and independent scientific
+admission remain open; no real participant data was imported by this check.
+
+**Means.** Other streams can continue independently while Sounding Line uses an
+exact committed engine interface. It does not create a second engine or authorize
+an adaptive family without Ghost twins and the remaining validation gates.
+
+**Curator roll-up.** Theory group: measurement infrastructure. Question: Can the
+shared engine be consumed reproducibly? Outcome: **Infrastructure**. Result:
+The exact-commit interface passes constructed ingestion and refusal checks.
+Project meaning: Canonical integration is available without scientific promotion.
+Next engineering obligation: validate native source mappings and admission witnesses.
+Public claim: unchanged. Curator decision required: No.
+Detail: [interface receipt](results/phase_2_4_stage_15/ENGINE_INTERFACE_PUBLIC.json).
+
+---
+
+### S15-R6-SMOL-HUMAN-E8-FIRST - outage-interrupted human-text comparison restored
+
+**Hypothesis.** Can additional passes over a writer's earlier human-typed text
+support useful prediction of later offered choices beyond base, pooled and donor
+models, or does repeated sparse text fail to help?
+
+**METHOD.** Complete the separately authorized replacement for the first
+SmolLM2 360M human-text eight-epoch cell: seed 141010, a 16,384-native-token cap
+and rank four selected using earlier calibration. Use strictly earlier text,
+deduplicated before tokenization, with matched own, pooled and donor budgets.
+Native length-normalized likelihood is primary; raw sums and adapted-minus-base
+likelihood remain fixed sensitivities. Replay every saved proper score, contrast
+and complete saved-likelihood consumer. Independently reconstruct cutoffs, training
+tokens, donors, steps and evaluation inputs; verify three complete comparators
+and the unchanged interrupted predecessor.
+
+The table reports equal-writer half-Brier differences, personal adapter minus rival,
+on 324 offered-choice events from 43 exposed writers and 16 prompts. Negative
+favors personal adaptation; useful benefit requires the frozen 0.01 margin.
+Intervals use 4,000 bootstrap draws: writers are primary, crossed writer/prompt
+resampling is the fixed-stimulus dependence sensitivity. Every row uses the same
+complete support. These are descriptive conditional intervals, not fresh confirmation.
+
+| Rival | Difference | Writer interval | Crossed writer/prompt interval |
+|---|---:|---|---|
+| Base model | 0.016458 | [-0.001473, 0.040358] | [-0.005263, 0.051755] |
+| Pooled adapter | 0.004811 | [-0.005317, 0.016729] | [-0.008987, 0.023249] |
+| Donor adapter | 0.018093 | [-0.003576, 0.052025] | [-0.009179, 0.069120] |
+| Uniform probabilities | 0.025199 | [-0.002621, 0.062035] | [-0.010168, 0.079471] |
+
+**Found.** Useful primary personal benefit is excluded against base, pooled and
+donor models under both interval methods. Uniform remains unresolved only under
+crossed resampling, whose lower bound narrowly crosses the useful margin. All
+primary intervals include zero; this establishes neither worse primary performance
+nor parity. Residual donor useful benefit is excluded under both methods, with
+worse performance resolved only under writer resampling. Residual pooled benefit
+remains unresolved under both, and residual uniform performance is worse under
+both. Raw model-rival useful benefit remains unresolved under both methods with
+all intervals including zero; raw sums are worse than uniform under both. Full
+sensitivity tables remain in the aggregate receipt.
+
+All 450 producer/consumer output hashes, 45 source/input bindings and seven model
+files verify. Full numerical and consumer replay, 172 training-token digests and
+32,232 training steps pass. Three matched complete comparator cells and consumers
+supply 1,349 additional verified output hashes and identical evaluation keys,
+writers, prompts and recorded selections. Same-seed two- and four-epoch references
+share every native input, cutoff, donor, budget and training-arm token digest;
+fitted-arm steps quadruple and double respectively, without adding text. Across
+eight-epoch seeds, own/base/donor construction and budgets match, while pooled
+token digests change for 43 writers.
+
+The producer and consumer exited normally after 11319.73 and
+38.62 seconds. All 7 retained predecessor receipt files are unchanged;
+its outage-era missing-native UNKNOWN remains separate, with its partial outputs
+preserved and no partial adapter reused.
+
+**Limits.** Training is sparse for 26 writers, with median 5,632 and range
+256 to 16,384 tokens. Exclusions retain two writers without usable calibration,
+three without sufficient past-only text/donor or later choices, and 32 unsupported
+candidate records; these are different units. Repeating the same text adds
+optimizer steps, not independent evidence. Calibration-selected rank and temperature,
+shared exposed writers/prompts and seed-dependent pooled ordering limit inference.
+The target is selected offered continuation conditional on uptake, not four-way
+handling or private values. Separate cell summaries estimate no paired epoch effect,
+seed ranking, isolated optimization effect or independent human replication.
+The Qwen mixed-text epoch repair remains unfinished.
+
+**Means.** The missing comparison is now available with all controls and readout
+sensitivities preserved. It licenses no useful personal-prediction claim or broader
+family verdict. Scientific synthesis remains in the final packet under the active
+reporting policy; the instrument ledger records this landing and theory is unchanged.
+The final Qwen mixed-text eight-epoch repair has fresh native progress and passing
+resource/lock checks. No tests harvested from this operational wake.
+
+**Curator roll-up.** Theory group: execution and recorded-choice instruments.
+Question: can the outage-interrupted human-text epoch comparison be restored with
+its controls intact? Outcome: **Infrastructure**. Result: the complete replacement
+establishes no useful primary personal benefit. Project meaning: the final packet
+can include the replacement while retaining its interrupted predecessor. Next
+engineering obligation: finish and fully validate the remaining frozen repair,
+retaining sparse histories, shared units and readout sensitivity. Public claim:
+unchanged. Curator decision required: No. Detail:
+[aggregate receipt](results/phase_2_4_stage_15/R6_SMOL_HUMAN_E8_FIRST_PUBLIC.json).
+
+### OPS-S15-HEALTH-1015-0131 - scheduled execution and dependency inspection
+
+**Hypothesis.** Is the admitted queue healthy, and have the prerequisites for
+later commissioned work become available?
+
+**METHOD.** Verify native process creation identities and commands, advancing
+progress, coordinator/reporting heartbeats, exclusive ownership and resource
+floors. Compare terminal and source/card hashes with the retained full audits;
+check all completed outputs remain present and rehash any newer outputs. Inspect
+failures, original attempts, registered terminals and actual watcher delivery.
+Read the companion repositories' committed source, contracts and readiness records
+without changing their working trees or importing their scientific conclusions.
+
+The table separates runnable repair work, intentionally parked work and future
+dependencies. Presence checks reuse prior full numerical verification; they are
+not a new replay or a scientific verdict.
+
+| Area | Observed state | Consequence |
+|---|---|---|
+| Active repairs | Two complete pairs remain internally landed; 920 outputs present and unchanged; eight card pins and 33 original receipt bindings verify | Human-text SmolLM2 eight epochs continues; Qwen mixed-text eight epochs follows |
+| Original Stage 14 | 210 complete manifests and 51,885 output-presence checks pass; eight failures and two unknown attempts retained; three readers deliberately paused | Preserve old attempts and the explicit pause; no old-role restart |
+| Services and resources | Exact coordinator, child, reporting-helper and watcher identities pass; fresh progress, held ownership, memory/disk/temperature floors and actual delivery pass | No recovery needed |
+| ToMpathy engine | Committed implementation now exists at `2a0c54233344`; engine working source is clean | Candidate integration pin is available; isolated adapter/integration validation remains |
+| Ghost prerequisite | V21 administrative closure is recorded; V23 spec exists, with no completed next-round twin namespace or admission receipts | Required twin gate remains closed |
+
+**Found.** The queue is healthy and its original evidence is preserved. ToMpathy
+now provides a committed engine instead of the previously uncommitted directory.
+Its implementation/verification contracts and companion receipts distinguish
+software checks from scientific admission. Python, ledger and packet contracts
+are explicit; native panel field conversion and the full NumPyro posterior remain
+implementation limits. No required Ghost next-round twins are yet available.
+
+**Limits.** The engine's reported verification was inspected, not independently
+rerun or promoted here. A commit and constructed conformance checks do not satisfy
+the real-data, external twin, chronology, holdout or stopping-policy gates. Ghost's
+closed allocation is not reopened. Historical watcher failure evidence remains;
+current scan and actual delivery are healthy. The delayed consumer notice was
+already recorded and acknowledged; it does not require a scientific rerun.
+
+**Means.** Continue the two admitted epoch repairs and prepare isolated engine
+integration and dataset adapters under the existing commission. Broad families
+still wait for Friday's packet and their full validation gates. No new paid call,
+gear change, delegation, restart or test was harvested from this health wake.
+Full recording precedes health ACK, which alone rearms the six-hour schedule.
+
+**Curator roll-up.** Theory group: execution infrastructure. Question: is admitted
+work progressing with its prerequisites and evidence correctly tracked? Outcome:
+**Infrastructure**. Result: healthy execution and a newly committed engine are
+recorded while twin admission remains pending. Project meaning: operational
+continuity without premature scientific promotion. Next engineering obligation:
+land complete repairs and validate the pinned engine and source adapters. Public
+claim: unchanged. Curator decision required: No. Detail:
+[inspection receipt](results/phase_2_4_stage_15/HEALTH_20261015_0131_PUBLIC.json).
+
+### S15-R6-SMOL-MIXED-T32768-FIRST - failed mixed-text comparison restored
+
+**Hypothesis.** Does a larger amount of a writer's earlier mixed human/model final
+prose support useful prediction of later offered choices beyond base, pooled and
+donor models?
+
+**METHOD.** Complete the separately authorized replacement for the first
+SmolLM2 360M mixed-text higher-cap cell: seed 141010, two epochs, a 32,768-native-token
+cap and rank four selected using earlier human-text calibration. Use strictly
+earlier mixed final prose, deduplicated before tokenization, with matched own,
+pooled and donor budgets. Native length-normalized likelihood is primary; raw sums
+and adapted-minus-base likelihood remain fixed sensitivities. Replay every saved
+proper score, contrast and complete saved-likelihood consumer. Independently
+reconstruct cutoffs, training tokens, donors, steps and evaluation input digests;
+verify three matched complete comparators and the retained failed predecessor.
+
+The table reports equal-writer half-Brier differences, personal adapter minus rival,
+on 341 offered-choice events from 45 exposed writers and 16 prompts. Negative
+favors personal adaptation; useful benefit requires the frozen 0.01 margin.
+Intervals use 4,000 bootstrap draws: writers are primary, crossed writer/prompt
+resampling is the fixed-stimulus dependence sensitivity. Every row uses the same
+complete support. These are descriptive conditional intervals, not fresh confirmation.
+
+| Rival | Difference | Writer interval | Crossed writer/prompt interval |
+|---|---:|---|---|
+| Base model | 0.011375 | [-0.000938, 0.031712] | [-0.002190, 0.045225] |
+| Pooled adapter | 0.005052 | [-0.000047, 0.013337] | [-0.001009, 0.018223] |
+| Donor adapter | 0.004152 | [-0.000043, 0.011626] | [-0.000488, 0.016553] |
+| Uniform probabilities | 0.019731 | [-0.003449, 0.052575] | [-0.008587, 0.073131] |
+
+**Found.** Useful primary personal benefit is excluded against every rival under
+both interval methods; all primary intervals include zero, so this establishes
+neither worse primary performance nor parity. Residual donor and pooled useful
+benefit remains unresolved under both methods; residual uniform uncertainty
+remains only under crossed resampling. Raw useful base benefit is excluded under
+both methods; pooled uncertainty remains only under crossed resampling and donor
+uncertainty under both. All residual and raw model-rival intervals include zero;
+raw sums are worse than uniform under both methods. Full sensitivity tables remain
+in the aggregate receipt.
+
+All 470 producer/consumer output hashes, 45 source/input bindings and seven model
+files verify. Full numerical and consumer replay, 180 training-token digests and
+12,360 training steps pass. Three matched comparator cells and their consumers
+supply 1,409 additional verified output hashes; all share evaluation keys,
+writers, prompts and recorded selections. The native producer and consumer ended
+normally after 5073.28 and 13.92 seconds. All 8 retained predecessor receipt files
+are unchanged; its free-VRAM-floor failure remains a failure, separate from this
+complete replacement. No partial predecessor adapter was reused.
+
+**Limits.** Training is sparse for 27 writers, with median 6,912 and range 256 to
+32,768 tokens. Relative to the same-seed main's lower cap, actual dose increases
+for 14 writers and remains unchanged for 31; matched donors remain identical.
+Exclusions retain two writers without usable calibration, one without sufficient
+past-only text/donor or later choices, and 32 unsupported candidate records; these
+are different units. Mixed human/model provenance, transferred rank, calibration
+temperature selection, sparse histories, exposed prompts and shared units limit
+interpretation. The target is selected offered continuation conditional on uptake,
+not four-way handling or private values. Separate cell summaries establish no dose,
+seed, corpus or backbone effect and no independent human replication. Epoch repairs
+are unfinished.
+
+**Means.** The missing comparison is now available with all controls and readout
+sensitivities preserved. It licenses no useful personal-prediction claim or broader
+family verdict. Scientific synthesis remains in the final packet under the active
+reporting policy; the instrument ledger records this landing and theory is unchanged.
+The SmolLM2 human-text eight-epoch repair is progressing, with the Qwen mixed-text
+eight-epoch repair next. No tests harvested from this operational wake.
+
+**Curator roll-up.** Theory group: execution and recorded-choice instruments.
+Question: can the missing mixed-text higher-cap comparison be restored with its
+controls intact? Outcome: **Infrastructure**. Result: the failed comparison is
+restored without useful primary personal benefit. Project meaning: the final
+packet can include the complete replacement while retaining its failed predecessor.
+Next engineering obligation: finish and fully validate the remaining frozen epoch
+repairs, retaining sparse histories, shared units and readout sensitivity. Public
+claim: unchanged. Curator decision required: No. Detail:
+[aggregate receipt](results/phase_2_4_stage_15/R6_SMOL_MIXED_T32768_FIRST_PUBLIC.json).
+
+### S15-R6-QWEN-HUMAN-T32768-SECOND - interrupted comparison restored
+
+**Hypothesis.** Does more of a writer's earlier human-typed text support useful
+prediction of their later offered choices beyond base, pooled and donor models?
+
+**METHOD.** Complete the separately authorized replacement for the interrupted
+second Qwen2.5 0.5B higher-cap cell: seed 141011, two epochs, a 32,768-native-token
+cap and rank four selected using earlier calibration only. Use strictly earlier
+replay-defined human insertions, deduplicated before tokenization, with matched
+own, pooled and donor budgets. Native length-normalized likelihood is primary;
+raw sums and adapted-minus-base likelihood remain fixed sensitivities. Replay
+every saved proper score, contrast and the complete saved-likelihood consumer.
+Independently reconstruct cutoffs, training tokens, donors, steps and evaluation
+input digests. Verify three completed comparators and the retained predecessor.
+
+The table reports equal-writer half-Brier differences, personal adapter minus rival,
+on 324 offered-choice events from 43 exposed writers and 16 prompts. Negative
+favors personal adaptation; useful benefit requires the frozen 0.01 margin.
+Intervals use 4,000 bootstrap draws: writers are primary, crossed writer/prompt
+resampling is the fixed-stimulus dependence sensitivity. Every row uses the same
+complete support. These are descriptive conditional intervals, not fresh confirmation.
+
+| Rival | Difference | Writer interval | Crossed writer/prompt interval |
+|---|---:|---|---|
+| Base model | 0.001126 | [-0.011697, 0.014030] | [-0.017598, 0.021225] |
+| Pooled adapter | -0.006901 | [-0.017259, 0.000078] | [-0.021072, 0.001245] |
+| Donor adapter | -0.005750 | [-0.016034, 0.000668] | [-0.021472, 0.002423] |
+| Uniform probabilities | 0.020393 | [-0.001398, 0.048242] | [-0.007041, 0.062348] |
+
+**Found.** Useful primary personal benefit over base, pooled and donor remains
+unresolved under both interval methods; every primary interval includes zero.
+Useful primary benefit over uniform is excluded under both methods, without
+establishing worse primary performance or parity. Residual donor and pooled
+uncertainty remains under both methods; residual uniform useful benefit is
+excluded, and all residual intervals include zero. Raw base and donor uncertainty
+remains under both methods; useful raw pooled benefit is excluded. All raw
+model-rival intervals include zero; raw sums are worse than uniform under both.
+Full sensitivity tables remain in the aggregate receipt.
+
+All 450 producer/consumer output hashes, 45 source/input bindings and seven model
+files verify. Full numerical and consumer replay, 172 training-token digests and
+9,522 training steps pass. Three matched comparator cells and their consumers
+supply 1,349 additional verified output hashes; all share the same evaluation
+keys, writers, prompts and recorded selections. The native producer and consumer
+ended normally after 3,277.77 and 13.86 seconds. All seven retained predecessor
+receipt files are unchanged; its interruption is not reclassified as a result.
+
+**Limits.** Training is sparse for 26 writers, with median 5,376 and range 256 to
+32,768 tokens. Relative to the same-seed main's lower cap, actual dose increases
+for nine writers and remains unchanged for 34; matched donors remain identical.
+Exclusions retain two writers without usable calibration, three without sufficient
+past-only text/donor or later choices, and 32 unsupported candidate records; these
+are different units. Rank and temperature selection, exposed prompts, fixed
+training/donor rosters and shared human units limit interpretation. The target is
+selected offered continuation conditional on uptake, not four-way handling or
+private values. Separate cell summaries establish no dose, seed, corpus or
+backbone effect and no independent human replication. Other repairs are unfinished.
+
+**Means.** The missing comparison is now available with all controls and readout
+sensitivities preserved. It licenses no useful personal-prediction claim or broader
+family verdict. Scientific synthesis remains in the final packet under the active
+reporting policy; the instrument ledger records this landing and theory is unchanged.
+The next mixed-text SmolLM2 higher-cap repair is progressing. No tests harvested
+from this operational wake.
+
+**Curator roll-up.** Theory group: execution and recorded-choice instruments.
+Question: can the missing higher-cap personal-choice comparison be restored with
+its controls intact? Outcome: **Infrastructure**. Result: the interrupted comparison
+is restored with unresolved personal benefit. Project meaning: the final packet
+can include the complete replacement without rewriting its failed predecessor.
+Next engineering obligation: finish and fully validate the remaining frozen repairs,
+retaining sparse histories, shared units and readout sensitivity. Public claim:
+unchanged. Curator decision required: No. Detail:
+[aggregate receipt](results/phase_2_4_stage_15/R6_QWEN_HUMAN_T32768_SECOND_PUBLIC.json).
+
+### S15-PUBLIC-JSONL - PRISM and MultiPref intake verified
+
+**Hypothesis.** Can the next public testbeds be retained with reproducible source
+bytes and usable identifiers without prematurely admitting their scientific adapters?
+
+**METHOD.** Fetch the exact official revisions, retaining notices and all original
+JSONL locally. Independently rehash the complete manifest, parse every row, check
+within-source primary keys and user references, and count released annotation labels.
+No outcomes are compared, no model runs and no maker identity crosses datasets.
+
+The table distinguishes raw release units; none is assumed to be an independent person.
+
+| Released component | Verified count | Qualification |
+|---|---:|---|
+| PRISM surveys | 1,500 | Includes survey-only participants |
+| PRISM conversations | 8,011 | 1,396 distinct converser labels |
+| PRISM rated utterances | 68,371 | Long-form prompt repetition preserved |
+| PRISM metadata rows | 106,554 | Field-level metadata, not choices |
+| MultiPref comparisons | 10,461 | Original human annotations, no random tie breaking |
+| MultiPref annotations | 41,844 | 227 distinct released evaluator labels |
+
+**Found.** All ten manifest output hashes and full schema censuses pass; the
+native worker exited normally. MultiPref has 89 normal-worker and 138 expert
+labels, while its [official README](https://huggingface.co/datasets/allenai/multipref)
+lists 90 and 199 participants. This release/recruitment discrepancy remains
+unresolved; label counts are not silently called people. All released annotation
+timestamps parse, but their ordering semantics remain to be validated.
+
+The first attempt failed safely on an exact notice hash: the private reference
+had translated LF to CRLF. Independent source-byte refetch established that sole
+difference. A separately watched successor retained the failed attempt, original
+transport and exact matching. Five transport/schema tests pass. PRISM human and
+model licenses remain separate, as specified in its
+[official notice](https://huggingface.co/datasets/HannahRoseKirk/prism-alignment).
+
+**Means.** Public source preparation is complete for these releases; scientific
+adapter admission is not. Preserve provenance, privacy metadata, role distinctions,
+identities, chronology and exposure. No raw records or identifiers are exported.
+The newline lesson is recorded in the method shelf. No p-values or theory changes.
+
+**Curator roll-up.** Theory group: data infrastructure. Question: can the next
+public testbeds support reproducible adapter preparation? Outcome: **Infrastructure**.
+Result: two more pinned releases pass byte and schema verification. Project meaning:
+local preparation can continue with explicit source discrepancies. Next engineering
+obligation: reconcile identity and temporal semantics before modeling. Public claim:
+unchanged. Curator decision required: No. Detail:
+[verification](results/phase_2_4_stage_15/PUBLIC_JSONL_VALIDATION.json).
+
+### S15-R5 - direct ARIES count audit retains the discrepancy
+
+**Hypothesis.** Do the paper's appendix and canonical edit filters explain the
+difference between its textual-link count and the released positive labels?
+
+**METHOD.** Read the [paper](https://arxiv.org/html/2306.12587v2), including section
+4.3 and Appendix E, and retained canonical source; verify every original fetch
+hash. Reconstruct each positive edit from merged body/back-matter paragraph indices
+and count linked comments under explicitly named filters. Independently map the
+complete comment ledger back to the released labels. Two known-answer index/filter
+boundary checks pass. No model, fresh-data admission or outcome selection occurs.
+
+The table counts comments with at least one eligible positive edit under each rule.
+
+| Count definition | Comments |
+|---|---:|
+| Paper section 4.3 textual links | 85 |
+| Released positive labels | 87 |
+| Nonidentical before/after text | 87 |
+| Canonical nonidentical edit with combined length at least 100 characters | 87 |
+| Nonidentical edit with a source paragraph | 54 |
+| Edit with no source paragraph | 46 |
+
+**Found.** No inspected canonical filter explains the discrepancy. The release
+still contains 42 papers, 196 comments and 131 distinct positive edits. Source
+edits and full additions can overlap within one comment; their counts are not
+disjoint. Minimum length uses the canonical combined source/target characters.
+
+**Means.** The audit is complete, but reconciliation is unresolved. Retain both
+paper and release denominators and paper-clustered descriptive scope; do not remove
+arbitrary records, imply published-score reproduction or certify untouched papers.
+Previously documented exposure and the lack of fresh H05 support remain unchanged.
+
+**Curator roll-up.** Theory group: instrument validity. Question: do the canonical
+rules reconcile the released annotation census? Outcome: **Infrastructure**. Result:
+the direct audit leaves the source discrepancy unresolved. Project meaning: the
+released descriptive denominator is explicit without rewriting the paper. Next
+engineering obligation: retain both counts and require fresh evidence for any
+confirmatory admission. Public claim: unchanged. Curator decision required: No.
+Detail: [audit](results/phase_2_4_stage_15/R5_DENOMINATOR_AUDIT.json).
+
+### OPS-S15-R6-LAUNCH - uncovered adapter comparisons running
+
+**Hypothesis.** Can the four still-unanswered Stage 14 comparisons run as separate
+attempts without disturbing original evidence or changing their scientific recipes?
+
+**METHOD.** Reconcile all blocked-card dispositions and ended predecessor identities;
+validate exact completed prerequisites and frozen scientific source/input/model pins.
+Rehearse the finite serial coordinator through five actual queue-control tests,
+probe imports through its exact native environment, then launch eight producer/readout
+cards with separate outputs, native ownership and terminal monitoring.
+
+**Found.** The first GPU producer has fresh writer progress; the remaining cards
+are queued serially. Duplicate dispatch, changed cards, failed dependencies and pause
+checks pass. Host and GPU floors, exclusive ownership, full parameter residency and
+the Friday reporting reserve remain. No partial result has been interpreted.
+
+**Means.** The current confirmation is being executed within the existing limits.
+About seven hours is an estimate from complete matched seeds, not a promised finish.
+Old-role dispatch stays parked; no scientific gate or future confirmation support
+has been relaxed. Companion engine/twin work remains with its respective owners;
+the normal six-hour inspection checks readiness. No new paid call or delegation.
+
+**Curator roll-up.** Theory group: execution infrastructure. Question: can the
+remaining adapter comparisons run without corrupting the evidence lineage?
+Outcome: **Infrastructure**. Result: a separately pinned serial repair queue is live.
+Project meaning: unanswered comparisons can finish under the ratified controls.
+Next engineering obligation: verify and fully land each complete producer/consumer
+pair before ACK. Public claim: unchanged. Curator decision required: No. Detail:
+[launch receipt](results/phase_2_4_stage_15/R6_LAUNCH_PUBLIC.json).
+
+### S15-DATA-INTAKE - pinned public testbeds acquired and checked
+
+**Hypothesis.** Can the next families obtain reproducible public testbeds without
+exposing raw records or confusing release structure with scientific admission?
+
+**METHOD.** Download pinned official CC-BY-4.0 DICES-350 and Community Alignment
+releases through the repaired bounded serial intake, retaining notices and source
+bytes locally. Independently rehash every manifest output, parse both complete
+CSVs and count within-dataset makers/items without fitting or comparing outcomes.
+
+**Found.** The source and schema checks pass; the worker exited normally. DICES
+contains 43,050 rows, while Community Alignment has 90,256 conversation rows.
+The release/paper rater-quality distinction and conversation/turn distinction are
+retained. Community supplies a collection wave but no timestamp column, so a
+genuine time holdout still needs a supported design; row order is not time.
+The original compressed-transfer failure remains, and its v2 repair changed no
+scientific rule. No model call, outcome analysis or provider spend occurred.
+
+**Means.** Source bytes are ready for versioned adapters; neither dataset is yet
+scientifically admitted. Public exports contain aggregates and hashes only.
+Maker identities are never joined across datasets. Freeze exposure, targets,
+quality sensitivity and holdouts before modeling.
+
+**Curator roll-up.** Theory group: data infrastructure. Question: are the next
+public testbeds reproducibly available? Outcome: **Infrastructure**. Result: two
+pinned releases pass source and schema checks. Project meaning: adapter preparation
+can proceed while engine/twin and Friday gates remain. Next engineering obligation:
+validate field semantics and temporal/quality splits. Public claim: unchanged.
+Curator decision required: No. Detail:
+[validation and metadata](results/phase_2_4_stage_15/DATA_INTAKE_VALIDATION.json).
+
+### OPS-S15-INTAKE-TRANSPORT - public download integrity repair
+
+**Hypothesis.** Can the bounded source intake distinguish compressed transfer size
+from saved source bytes without admitting an incomplete download?
+
+**METHOD.** Preserve the initial failed attempt, inspect the ended native owner,
+repeat a read-only fetch of its public license notice to inspect encoding/length,
+and test a separate versioned transport with complete, truncated, oversized and
+unexpected-compression fixtures before adopting it. No scientific analysis.
+
+**Found.** The initial job safely refused a complete README: gzip wire length was
+1,720 bytes and the decoded source was 3,951 bytes. Version 2 explicitly requests
+and verifies identity encoding, preserving byte ceilings and truncation refusal.
+Five targeted checks pass, and the separately watched successor launched. The
+original failure and source bytes remain; no dataset model or paid call ran.
+
+**Means.** This is a transport failure and versioned engineering repair, not a
+scientific null or automatic experimental retry. Intake completion still requires
+source/hash/schema verification and its own landing before ACK.
+
+**Curator roll-up.** Theory group: infrastructure. Question: can public source
+downloads be verified correctly? Outcome: **Infrastructure**. Result: versioned
+identity-encoding repair passes its tests. Project meaning: source preparation can
+continue without relaxing integrity checks. Next engineering obligation: validate
+and land the intake manifest. Public claim: unchanged. Curator decision required:
+No. Detail: [repair receipt](results/phase_2_4_stage_15/INTAKE_TRANSPORT_REPAIR.json).
+
+### S15-PHASE0 - descriptive backbone and reader calibration completed
+
+**Hypothesis.** Existing records can distinguish decision noise from writer spread,
+show whether calibrated readers improve the local backbone, and describe the
+backbone's behavior as prior sessions accumulate.
+
+**METHOD.** Unequal-size writer variance decomposition on 234 paired targets;
+nested writer-held-out EM/temperature and class-bias calibration with stacking;
+session-chronological partial-pooling replay on 16,855 decisions. All four reader
+arms, seven baselines, invalid penalties, prompt-novel subsets and fixed history
+bins are retained. All source/output hashes, chronology and saved scoring checks
+pass, with independent representative refits. No new model or provider call.
+
+**Found.** Within-writer variance is 0.013022 versus estimated between-writer
+variance 0.000336; the latter's bootstrap interval includes zero. No calibrated
+reader stack clears the .01 useful-gain screen. The EM branch has 107 capped fits
+and remains provisional; bias-corrected stacking also yields no useful observed
+gain. The prequential backbone improves equal-writer half-Brier by 0.02108 over
+population frequencies (crossed interval [0.01239, 0.03221]) and 0.00726 over
+personal frequencies ([0.00003, 0.01495]). Own-prompt-novel results retain the
+direction; globally unseen prompts remain unresolved. Eight chronology exclusions
+are preserved. Full arm tables, log-loss results, curves, methods and qualification
+counts are in the linked report and aggregate JSON.
+
+**Means.** Statistical forecasting remains a live direction. This exposed-data
+instrument comparison licenses neither a causal account of values nor engine
+admission. Conditional intervals do not control adaptive selection or account for
+all fit uncertainty; task features and personalization are bundled. Capped EM
+results are not a null about label shift. No p-values, e-values, promotions or
+family kills were produced; theory is unchanged pending final/family synthesis.
+
+**Curator roll-up.** Theory group: reader calibration and statistical instruments.
+Question: does existing evidence support the next backbone and reader roles?
+Outcome: **Infrastructure**. Result: the local backbone remains promising while
+reader stacking clears no useful-gain screen. Project meaning: proceed through
+fresh family gates, with no engine admission. Next engineering obligation: source
+intake, pinned engine/twin coordination, versioned repairs and valid sequential
+inference; retain the EM numerical qualification. Public claim: descriptive
+forecast evidence only; human-mechanism and value-recovery claims unchanged.
+Curator decision required: No. Detail: [full method/report](results/phase_2_4_stage_15/PHASE0_REPORT.md),
+[aggregates](results/phase_2_4_stage_15/PHASE0_SUMMARY.json),
+[validation](results/phase_2_4_stage_15/PHASE0_VALIDATION.json).
+
+### S15-SETUP-1014 - next-round review, controls and local launch
+
+**Hypothesis.** Can the next research wave begin with valid saved-data analyses while
+preserving the earlier evidence, spending limits and future admission requirements?
+
+**METHOD.** Read the complete commission, current theory corrections and method
+lessons; inspect existing baseline/data implementations and relevant primary
+calibration, stacking and e-value methods. Implement separate source-pinned CPU
+analyses with nested writer exclusion, past-only training, invalid-output penalties,
+finite resource/deadline guards and native supervision. Validate known nulls, planted
+alternatives, target-label mutation and chronological overlap boundaries before launch.
+
+**Found.** Nine targeted checks pass. The local worker has verified native identity
+and fresh progress; its admitted source census and exclusions are retained in the
+launch receipt. All blocked Stage 14 cards have individual dispositions. The older
+dispatcher is intentionally parked because remaining roles require new identities.
+The supplied spec is byte-preserved and indexed under Stage 15. No new inference,
+paid request, extra tranche or product-engine admission occurred.
+
+**Means.** Phase 0 is executable and running. The broader portfolio remains gated
+on actual pinned engine/twin implementations, dataset admission and validated
+sequential inference. Posterior probabilities are not e-values; requested EM
+correction remains an assumption-dependent arm, and exposed data is not fresh
+confirmation. No unfinished scientific score or theory verdict is issued.
+
+**Curator roll-up.** Theory group: research instruments. Question: can the next wave
+start with valid execution? Outcome: **Infrastructure**. Result: the first local
+tranche is running under verified controls. Project meaning: the approved program
+has an executable first step and explicit remaining dependencies. Next engineering
+obligation: replay and land completed cells, then advance the registered repairs
+and families through their gates. Public claim: scientific claims unchanged.
+Curator decision required: No for this tranche. Detail:
+[review](docs/design/stage-15/IMPLEMENTATION_REVIEW.md),
+[protocol](docs/design/stage-15/PHASE0_PROTOCOL.md),
+[launch](results/phase_2_4_stage_15/PHASE0_LAUNCH_PUBLIC.json).
+
+### OPS-S14-HEALTH-1014-1930 - healthy supervision after publication
+
+**Hypothesis.** Is an operational fault preventing the authorized comparisons from proceeding safely after publication?
+
+**METHOD.** Verify exact native supervisor, helper and watcher identities; inspect fresh status, mutex and GPU-lock state, memory, disk, GPU limits, reader runtime/residency and actual event delivery. Compare all frozen cards, source bindings, terminal manifests and completed-output presence/freshness against the morning full audit; retain failed and unknown evidence. Check local Git publication state and campaign accounting without new provider calls.
+
+**Found.** Supervision is healthy. All 210 completed manifests and 51,885 recorded outputs remain present and unchanged since the full audit. The frozen queue retains eight failures, two unknown attempts, 44 blocked cards, three pending descendants and three runtime-held readers, with no scientific worker active. Resource floors pass; the GPU is busy but its consuming tenant is not attributed and no unrelated process is touched. Runtime admission still refuses the three eligible readers; profile and prototype prerequisites remain failed. Watcher scan and actual delivery verify. No operational recovery is required.
+
+**Means.** Publication completed at commit 0a956219c; it no longer blocks the already authorized repair pass. Versioned repair preparation and prerequisite validation are next, not reuse of failed identities or relaxation of gates. No repair launched, no tests harvested and no new scientific verdict or provider request occurred. Friday's final-packet policy remains.
+
+**Curator roll-up.** Theory group: operations. Question: Is supervision healthy after publication? Outcome: **Infrastructure**. Result: Retained evidence and supervision pass. Project meaning: Remaining barriers are admission prerequisites, not a broken queue. Next engineering obligation: prepare bounded versioned repairs and validate prerequisites. Public claim: unchanged. Curator decision required: No. Detail: [inspection](results/phase_2_4_stage_14/HEALTH_20261014_1930_PUBLIC.json).
 
 ### THEORY-ERRATA-1014 / DOCS-FILING-1014 - ratified framing and navigable document shelves
 

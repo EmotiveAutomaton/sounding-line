@@ -9,11 +9,25 @@
 
 # Sounding Line
 
-The [October research week](docs/design/stage-14/README.md) uses the Stage 14
-execution namespace. As of October 14, its admitted local adapter runs and Modal
-cloud main are complete; remaining lanes are held at admission gates. Monitoring
-continues. See [current status](CURRENT_STATUS.md) for both gears and the Friday
-final-packet checkpoint. The supplied program and validity errata are filed together.
+**Current endpoint:** the [complete Qwen candidate batteries](results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json) are independently verified and fully recorded. Finite Gear 2 queues are drained; native-data validation preparation remains open. Original failed admissions and scientific gates remain. Stage 15 stays open, profile fitting is blocked by its Ghost witness, and no paid batch is active. See [current status](CURRENT_STATUS.md).
+
+[Stage 14 is closed](results/phase_2_4_stage_14/FINAL_PACKET_20261015.md), with
+verified evidence and explicit unrun dispositions. [Stage 15](docs/design/stage-15/README.md)
+is active: the local repairs and profile generation are complete. The numerical
+convergence repair is recorded and does not rescue the saved-reader useful-gain
+screen. The original local 8B literal-feature admission queue is complete and fully verified;
+three questions pass constructed admission and five remain disabled. The trained
+profile comparison is built with verified inputs but remains unrun after its
+[Ghost admission witness failed](docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+Profile format admission passes; semantic faithfulness and predictive usefulness
+remain unestablished. See [current status](CURRENT_STATUS.md) for execution,
+shared costs, remaining prerequisites and the next six-hour inspection.
+
+The curator-authorized [validity and exploration addendum](docs/design/stage-15/VALIDITY_EXPLORATION_ADDENDUM.md)
+has a passing retained-evidence audit and a completed matched-writer history
+analysis. The [complete target/context diagnostic](results/phase_2_4_stage_15/SCOPE_DIAGNOSTIC_PUBLIC.json)
+does not establish a general prompt repair; original failed questions stay disabled.
+Its worker exited normally; scientific comparisons retain their admission gates.
 
 **Document map:** [all study stages](docs/design/README.md), [theory and applied errata](docs/theory/README.md), [cloud campaigns](docs/design/gear-3/README.md), and [workspace layout](docs/WORKSPACE_LAYOUT.md). Each stage has a visible folder and README; frozen source paths remain indexed exceptions.
 

@@ -1,6 +1,6 @@
 # Study designs: start with the stage
 
-**Current work is Stage 14. Stage 13 is the closed September campaign.**
+**Stage 15 is active; Stage 14 and Stage 13 are closed with final packets.**
 The October source called itself the next Stage 13; execution uses Stage 14 to
 preserve the earlier records. See [current status](../../CURRENT_STATUS.md) for
 live authority, held comparisons and the next action.
@@ -11,7 +11,8 @@ them; the folders are navigation homes, not duplicate copies of the papers.
 
 | Stage | Status and scope |
 |---|---|
-| [Stage 14](stage-14/README.md) | Current October campaign; admitted local ladder and Modal main complete, remaining comparisons held; repairs authorized but not launched |
+| [Stage 15](stage-15/README.md) | Finite local and paid queues drained; completed evidence recorded, native validation preparation open and profile comparison gated |
+| [Stage 14](stage-14/README.md) | Closed October allocation; final packet and integrity filed, deficits retained and successor repairs owned by Stage 15 |
 | [Stage 13](stage-13/README.md) | Closed September campaign; final packet and endpoint retain deficits |
 | [Stage 12](stage-12/README.md) | Closed allocation; final packet retains incomplete comparisons |
 | [Stage 11](stage-11/README.md) | Historical designs and retained evidence |

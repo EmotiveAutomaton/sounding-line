@@ -13,8 +13,10 @@ explicitly records the remaining capacity shortfall. Hard wall ceilings and
 blocked cards are not measured runway.
 
 Complete blocks are written through in FINDINGS, the theory or instrument ledger,
-and TODO before their watcher events are acknowledged. The final scientific packet
-is due Friday October 16 at 18:00 PDT. No incomplete per-artifact scores belong in
+and TODO before their watcher events are acknowledged. The curator advanced closure
+to October 15: [final packet](FINAL_PACKET_20261015.md),
+[integrity/dispositions](FINAL_INTEGRITY_20261015.json), and
+[closed endpoint](FINAL_ENDPOINT_20261015.json). No Friday packet remains due. No incomplete per-artifact scores belong in
 the setup report or a final comparison. A failed admission does not admit its
 descendants, and a completed source replay is not independent corroboration.
 

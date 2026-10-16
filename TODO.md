@@ -1,10 +1,366 @@
 # TODO: the study queue
 
+- [x] OPS-S15-HEALTH-1016-0813: native closure, terminal/landing freshness,
+  failures, resources, locks and watcher delivery verified. Queues drained;
+  stale registry flags corrected. No recovery; scientific gates remain.
+
+- [x] S15-F4-NATIVE-READINESS: exact eligible-reader inventory, native input
+  projection, label provenance and scientific dependencies documented in the
+  [readiness handoff](docs/design/stage-15/F4_NATIVE_READINESS.md).
+  No native literal annotation set or dispatch card registered; validation unrun.
+
+- [x] OPS-S15-HEALTH-1016-0209: exact native/progress/resource/lock and watcher
+  delivery inspection recorded; healthy candidate batch continues unchanged.
+  Failed Ghost admission still blocks profile fitting; no recovery or new study.
+
+- [x] OPS-S15-LABEL-CONTRACT-SETUP: fixed diagnostic built, tested, source-frozen
+  and launched with verified native progress, CPU residency and supervision.
+- [x] S15-LABEL-CONTRACT-V1: whole diagnostic replayed and independently
+  recounted; every class, signed contrast and repeat discrepancy recorded.
+- [x] OPS-S15-LABEL-CANDIDATE-SETUP: full canonical candidate batteries frozen,
+  tested and launched with native progress and supervision.
+- [x] S15-LABEL-CANDIDATE-V1: whole candidate independently replayed and
+  recounted; both constructed questions pass every frozen gate. Full internal
+  write-through and native closure recorded. Original failures, exposed-template
+  limits and separate natural-data/engine/scientific admissions remain.
+
+- [x] S15-F4-MODELS-QWEN9-Q10: complete wire replay, sentence reconstruction
+  and exact-set audit recorded. Empty-set gate fails; keep exact feature disabled.
+- [x] S15-F4-MODELS-ENDPOINT: all fixed cells, evidence and native closure
+  reconciled; full internal write-through complete. Stage 15 remains open.
+
+- [x] S15-F4-MODELS-QWEN9-Q6: complete grammatical-person battery independently
+  replayed; all sentence forms, labels and pronoun cross-checks reconstructed.
+  Full write-through recorded. Cross-check, overall and mixed-label gates fail;
+  keep the exact reader/question disabled, preserve its pronoun-mixture target
+  and every original response. Continue the final frozen literal-theme cell.
+
+- [x] S15-F4-MODELS-QWEN9-Q1: complete topic-continuity battery independently
+  replayed, sentence forms and labels reconstructed, full write-through recorded.
+  Constructed admission only; retain template limits and separate natural-data/
+  scientific gates. Continue grammatical person and themes in the frozen queue.
+
+- [x] S15-F4-MODELS-QWEN9-Q9: full claim-change battery independently replayed,
+  all pair families reconstructed and full write-through recorded. Constructed
+  gate passes with concentrated paraphrase errors retained. Keep natural-data
+  and scientific gates; continue topic continuity and the remaining fixed queue.
+
+- [x] S15-F4-MODELS-QWEN9-Q8: whole edit-type battery independently replayed,
+  every before/after pair and category reconstructed; full write-through recorded.
+  Constructed admission only. Keep natural-data/scientific gates and continue
+  claim change and the remaining fixed Qwen questions without selective retries.
+
+- [x] S15-F4-MODELS-QWEN9-Q5: complete dialogue battery independently replayed,
+  all known forms/labels reconstructed and quotation cross-check recomputed;
+  full write-through recorded. Constructed admission only. Preserve natural-data
+  and scientific gates; continue edit type and remaining fixed questions.
+
+- [x] S15-F4-MODELS-QWEN9-Q4: complete tone battery independently replayed,
+  sentence forms and all label predictions reconstructed; full write-through
+  recorded. Constructed admission only; keep natural-data/scientific gates and
+  continue dialogue and the remaining fixed Qwen questions without retries.
+
+- [x] S15-F4-MODELS-QWEN9-Q3: full register battery independently replayed,
+  sentence forms and label confusion reconstructed, full write-through recorded.
+  Constructed admission only; natural-data and scientific gates remain. Continue
+  the frozen tone and remaining Qwen cells without selective retries.
+
+- [x] S15-PROFILE-GHOST-ADMISSION: full completed witness independently checked
+  and internally landed; null bounds and option-order controls fail. Actual
+  admission/dispatch refuse before fitting; human comparison remains unrun.
+  [Exact remaining dependency](docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+- [x] OPS-S15-RETURN-MONITOR: complete copied return and native absence verified;
+  unrecognized terminal status explains the alert. Preserve evidence and retire
+  only the ended relay watch. Current literal queue and health cadence unchanged.
+- [ ] S15-PROFILE-HEALING-DEPENDENCY: canonical diagnosis of option-order
+  sensitivity and constant-feature behavior; separately reviewed matching
+  witness needs null precision and later personal-calibration coverage. Preserve
+  failed original and frozen engine; no threshold relaxation or repeated-seed rescue.
+
+- [x] S15-F4-MODELS-QWEN9-Q7: complete contradiction battery independently
+  replayed, all sentence forms reconstructed and full internal write-through
+  recorded. Constructed admission only; keep natural-data/scientific gates.
+  Continue the remaining fixed Qwen questions without retries or prompt changes.
+
+- [x] OPS-S15-COMPANION-RETURN: verified companion artifacts, preserved the
+  committed engine, repaired the isolated launch environment and built/tested
+  the one-shot dispatch plus read-only return relay. No human fit yet.
+- [ ] S15-PROFILE-DISPATCH: blocked by the reviewed failed Ghost witness.
+  Explicit negative operator review refuses dispatch; preserve prepared inputs
+  and require separately reviewed matching healing evidence before any attempt.
+  [Operational handoff](docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+
+- [x] S15-F4-MODELS-LLAMA3-Q10: complete literal-theme battery independently
+  replayed and fully recorded. Exact-set overall and four classwise gates fail;
+  this exact reader/question stays disabled. All nine Llama cells are landed;
+  continue the unchanged Qwen half of the frozen queue.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q6: complete grammatical-person battery independently
+  replayed, pronoun cross-check recomputed and full write-through complete.
+  Canonical cross-check, extra overall and three classwise gates fail. Keep this
+  exact reader/question disabled; preserve all families and original attempts.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q1: complete topic-continuity battery independently
+  replayed and fully recorded. Constant negative answers fail canonical binary,
+  extra overall and continuing-topic classwise correctness gates. This exact
+  reader/question stays disabled; all families and original attempts remain.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q9: complete claim-change battery independently
+  replayed and fully recorded. Canonical binary, extra overall and unchanged-claim
+  classwise gates fail; this exact reader/question stays disabled. All families
+  and original attempts remain.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q8: whole edit-type battery independently replayed
+  and fully recorded. Fixed overall and classwise correctness gates fail; keep
+  this exact reader/question disabled. Preserve all categories and original attempts.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q5: whole dialogue battery independently replayed,
+  quotation cross-check recomputed and full write-through complete. Constructed
+  admission only; natural-data/scientific gates and original failures remain.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q4: whole tone-change battery independently replayed
+  and fully recorded; constructed admission only. Keep all natural-data and
+  scientific gates before downstream feature use.
+
+
+- [x] S15-F4-MODELS-LLAMA3-Q3: complete register battery independently replayed
+  and fully recorded; casual-label correctness fails the fixed gate. This exact
+  reader/question remains disabled; preserve the frozen remaining cells.
+
+
+- [x] S15-OVERNIGHT-CONTINUATION: all two-reader, nine-question cells fully
+  landed; finite worker drained. Subsequent diagnostic and full candidate are
+  separately recorded; six-hour supervision continues.
+  [Frozen continuation](docs/design/stage-15/OVERNIGHT_CONTINUATION.md).
+- [x] S15-F4-MODELS-LLAMA3-Q7: whole contradiction battery independently
+  replayed and internally landed; constructed admission only.
+- [x] S15-NATIVE-PROFILE-AUDIT: whole native source audit independently verified
+  and fully recorded, including metadata identities, labels, exclusions and strict
+  history chronology. Exposed-holdout policy reviewed for descriptive use only.
+  [Complete receipt](results/phase_2_4_stage_15/NATIVE_PROFILE_AUDIT_PUBLIC.json).
+- [x] S15-COMPANION-DEPENDENCIES: concrete Ghost/ToMpathy notes copied and indexed;
+  ToMpathy's return and Ghost's running matching study now acknowledge receipt.
+  No companion engine or worker changed by Sounding Line.
+- [x] S15-NEXT-BOUNDED-BATCH: fixed queue endpoint and returned witnesses reviewed.
+  Bounded label-contract diagnostic separately frozen and launched. Failed Ghost
+  witness still blocks fitting; no giant new leg, paid batch or repeated valid work.
+
+
+- [x] OPS-S15-HEALTH-1015-1350: terminal/native/resource/lock/dependency and watcher
+  inspection complete; no new operational failure, finite queues drained.
+  Independent adapter/holdout preparation remains open below. Direct native queue
+  inventory limitation retained. [Receipt](results/phase_2_4_stage_15/HEALTH_20261015_1350_PUBLIC.json).
+
+- [x] S15-VALIDITY-ADDENDUM: fresh completed-output/source audit passes; scope
+  exception and prior semantic-audit limits recorded. All locked files verify.
+- [x] S15-HISTORY-TEXTURE-V1: all matched-writer curves independently verified
+  and fully recorded; no monotone or causal history claim.
+- [x] S15-SCOPE-DIAGNOSTIC-V1 / ENDPOINT: whole diagnostic independently
+  replayed and fully landed. Explicit scoping is not a general repair; Q6/Q10
+  remain disabled. All raw evidence and native closure verify; finite queue drained.
+  No automatic retry or post-hoc salvage. [Complete receipt](results/phase_2_4_stage_15/SCOPE_DIAGNOSTIC_PUBLIC.json).
+
+- [x] S15-F4-Q10-LOCAL-V1: complete theme battery independently replayed and
+  fully recorded. Empty-theme-set correctness fails; keep Q10 disabled, no retry.
+- [x] S15-F4-LITERAL-ENDPOINT: all responses and terminal/source hashes verified;
+  native worker exited, model unloaded and lease released. Complete queue landed.
+
+- [x] S15-F4-Q6-LOCAL-V1: complete grammatical-person battery independently
+  replayed, lexical cross-check recomputed and full result recorded. Canonical
+  cross-check and local correctness admission fail; keep Q6 disabled without retry.
+- [x] S15-F4-Q4-LOCAL-V1: complete tone-change battery independently replayed
+  and fully recorded; constructed admission passes, including local correctness
+  gates. Natural-data and scientific admission remain required before feature use.
+- [x] S15-F4-Q3-LOCAL-V1: complete register battery independently replayed
+  and fully recorded; constructed admission passes, including local correctness
+  gates. Natural-data and scientific admission remain required before feature use.
+- [x] S15-F4-Q1-LOCAL-V1: complete topic-continuation battery independently
+  replayed and fully recorded; canonical and local correctness admission fail.
+  Keep Q1 disabled, retain every family and response; no automatic retry.
+- [x] S15-F4-Q7-LOCAL-V1: complete contradiction battery independently replayed
+  and fully recorded; canonical and local constructed admission pass. Natural-data,
+  backbone, Ghost and holdout/error-control gates remain before scientific use.
+- [x] S15-F4-Q9-LOCAL-V1: complete claim-change battery independently replayed
+  and fully recorded; canonical and local correctness admission fail. Keep Q9
+  disabled, retain all template families and responses; no automatic retry.
+- [x] S15-F4-Q8-LOCAL-V1: complete edit-type battery independently replayed and
+  fully recorded; correctness admission fails. Keep Q8 disabled, retain all
+  classes/responses and canonical/local gate outcomes; no automatic retry.
+- [x] S15-FEATURE-BUILD: profile comparison and literal admission runner built;
+  nine targeted software checks pass. All profile inputs independently reconstructed;
+  source pins, chronology, label alignment and exact native launch verified and recorded.
+- [x] S15-F4-LITERAL: all eight frozen questions fully landed. Q7/Q3/Q4 pass
+  constructed admission only; Q8/Q9/Q1/Q6/Q10 stay disabled. Q2 remains unrun
+  without its independent checker; prior Q5 failure retained. No automatic retry.
+- [ ] S15-F4-NATIVE: prepare separately frozen native-data and holdout validation
+  for constructed-eligible questions only; backbone/Ghost/error-control gates
+  remain before the local feature screen or any paid comparison.
+- [ ] S15-PROFILE-FEATURE-V1: prepared but not fitted. Native adapter and
+  exposed-holdout review are complete; the returned Ghost witness failed.
+  Relay has ended. Require separately reviewed matching healing and combined
+  admission before dispatch; inspect returns at the six-hour cadence.
+- [ ] S15-F4-CLOUD: after literal, backbone, native-data, Ghost and frozen
+  holdout/error-control admission, forecast and guard the bounded comparison
+  within the existing shared campaign. No automatic provider retry or extra tranche.
+
+- [x] S15-T0B-CONVERGENCE-V1: selector failure verified and fully recorded;
+  no scientific summary. Original pins and native closure verified.
+- [x] S15-T0B-CONVERGENCE-V2: implement certified-only selection, test the
+  failure path; all folds independently verified and fully recorded under unchanged gates.
+
+- [x] OPS-S15-HEALTH-1015-0742: full scheduled health inspection recorded;
+  pilot healthy, local repairs closed, exact stale notice retired. Real-data/Ghost
+  gates remain; no scientific restart or newly commissioned test.
+
+- [x] S15-R6-QWEN-MIXED-E8-FIRST: final producer/readout fully verified and recorded;
+  original failure retained. All four R6 repair pairs landed, queue drained and
+  native closure verified. No new theory, family or personal-prediction claim.
+
+- [x] S15-ENGINE-INTERFACE: canonical commit capsule, actual normalized exchange,
+  idempotence and malformed-input refusals verified. Native source adapters and
+  scientific admissions remain under S15-ADAPTERS/S15-F1-F13.
+- [x] S15-R3-PROFILE-PILOT: authorized pilot executed and fully recorded; complete
+  admission fails on overlength statements. Main unsubmitted; retain originals.
+- [x] S15-R3-REPRESENTATION: separately reviewed bounded encoding passes 29
+  checks; pilot launched under explicit October 15 healing authority. Original
+  failure preserved; no clipped outputs or relaxed gate.
+- [x] S15-R3-V2-LANDING: complete provider grammar failure verified and fully
+  recorded; no profiles, reservation retained, main held.
+- [x] S15-R3-V3-BUILD: simpler equivalent encoding reviewed; 34 targeted checks
+  pass and watched synthetic canary launched with three-cent reservation.
+- [x] S15-R3-V3-LANDING: complete synthetic grammar failure independently
+  verified and fully recorded; reservation retained, pilot/main unsubmitted.
+- [x] S15-R3-V4-BUILD: simple original schema/parser and concise guidance pass
+  43 checks, including pre-egress admission refusal; prior attempts unchanged.
+- [x] S15-R3-V4-CANARY: actual synthetic generation fully verified and recorded;
+  original literal bound passes, one cent reconciled, full pilot eligible.
+- [x] S15-R3-V4-PILOT: complete pilot independently verified and fully recorded;
+  unsupported evidence index fails admission. Four cents reconciled; main held.
+- [x] S15-R3-V5-BUILD: explicit history IDs and reference enums pass 48 targeted
+  checks; watched synthetic canary launched, with original parser unchanged.
+- [x] S15-R3-V5-CANARY: complete synthetic generation independently replayed
+  and fully recorded; one cent reconciled, complete pilot eligible.
+- [x] S15-R3-V5-PILOT: complete discarded pilot passes unchanged literal
+  admission, independent replay and full write-through; four cents reconciled.
+- [x] S15-R3-V5-MAIN: complete main independently verified and fully recorded;
+  empty statement/reference list fails literal admission; 41 cents reconciled.
+- [x] S15-R3-EMPTY-PROFILE: prospective v6 nonempty constraints reviewed; 57
+  targeted checks pass and synthetic canary is running. Original parser retained.
+- [x] S15-R3-V6-CANARY: full response independently verified and recorded;
+  trailing non-JSON text/output-limit stop fails admission; two cents reconciled.
+- [x] S15-R3-COMPATIBILITY: v7 array-only compatibility repair reviewed; 55
+  targeted checks pass and single synthetic canary running; original gate retained.
+- [x] S15-R3-V7-CANARY: complete synthetic response passes independent replay
+  and full write-through; one cent reconciled, full discarded pilot eligible.
+- [x] S15-R3-V7-PILOT: complete discarded pilot independently verified and
+  fully recorded; original literal gate passes and four cents reconciled.
+- [x] S15-R3-V7-MAIN: complete main independently verified and fully recorded;
+  unchanged literal gate passes, execution ended and 42 cents reconciled.
+  Profile generation is complete; scientific feature use remains under S15-R3/F4.
+- [x] S15-ENGINE-INTERFACE-V2: newer committed capsule, actual interface export
+  and six native-adapter checks verified; real-data/scientific gates remain.
+
+- [x] S15-R6-SMOL-HUMAN-E8-FIRST: third R6 producer/readout pair fully replayed;
+  training/chronology and matched references verified, original outage-era UNKNOWN
+  preserved and internal write-through complete. No theory or family promotion.
+  Continue the final Qwen mixed-text eight-epoch repair and its readout.
+
+- [x] OPS-S15-HEALTH-1015-0131: scheduled native/progress/evidence/resource/watcher
+  inspection passed; intentional Stage 14 pause retained. ToMpathy engine commit
+  `2a0c54233344` available; Ghost next-round twins still pending.
+- [x] S15-ENGINE-INTEGRATION: exact-commit capsule and exchange verified.
+  Independent native adapter and scientific admission checks remain in S15-ADAPTERS.
+
+- [x] S15-R6-SMOL-MIXED-T32768-FIRST: second R6 producer/readout pair fully replayed;
+  training/chronology and matched references verified, original VRAM failure
+  preserved and internal write-through complete. No theory or family promotion.
+  Continue the SmolLM2 human-text and Qwen mixed-text eight-epoch repairs.
+
+- [x] S15-R6-QWEN-HUMAN-T32768-SECOND: first R6 producer/readout pair fully replayed,
+  training/chronology and matched references verified, original interruption
+  preserved and internal write-through complete. No family or theory promotion.
+  Continue the mixed-text SmolLM2 higher-cap repair and remaining epoch repairs.
+
+- [x] OPS-S15-R6-LAUNCH: four uncovered producers and paired readouts launched
+  serially with separate identities and unchanged scientific controls; native
+  progress and five queue tests verify. About seven hours by matched earlier seeds.
+- [x] S15-R6-LANDING: all four complete pairs verified and fully written through;
+  original failures/unknown attempts retained, coordinator drained normally.
+- [x] S15-R5: direct source/appendix/canonical-filter audit complete; paper/release
+  count discrepancy remains unresolved. Keep both and descriptive paper clusters.
+- [x] S15-PUBLIC-JSONL: PRISM/MultiPref fully downloaded and independently verified;
+  newline-reference failure preserved and exact-byte successor complete.
+- [ ] S15-ADAPTERS: validate MultiPref evaluator identities (release/README counts
+  differ), temporal semantics and all public testbed codebooks before model admission.
+- [ ] S15-DEPENDENCIES: at normal six-hour health checks inspect the other agents'
+  committed ToMpathy engine and admitted Ghost twins. Continue preparatory work;
+  Stage 14 is closed; broad families still require their full validation gates.
+
+- [x] OPS-S15-INTAKE-TRANSPORT: original failed attempt preserved and internally
+  recorded; separately tested v2 identity-encoding repair launched. Verify and land
+  its complete pinned datasets before scientific adapter work.
+
+
+## Stage 15 next-round commission, October 14
+
+- [x] S15-T0B-CONVERGENCE: harvested from the October 15 Gear 3 review.
+  Question: did the recorded EM iteration cap materially change the saved-output
+  calibration/stacking comparison? Prepare a separately versioned CPU-only audit
+  of fixed-point residuals and the unchanged objective on the retained folds;
+  check the solution with an independent constrained optimizer before any full
+  rescore. Preserve the original capped branch, bias-corrected comparator, invalid
+  policy, folds and useful margin. A converged numerical result can still show no
+  gain; it cannot validate label-shift assumptions or restore an untouched holdout.
+  No new provider calls, selective folds or tuning to evaluation gains. This item
+  was authorized and completed in a versioned successor; see the full audit receipt.
+  DESIGN CHECK: LESSONS §3 (support/dependence, matched readouts, gate verdicts),
+  §4 (whole-output and realization checks), and CONTROLS §§1-3 reread. Under no
+  material numerical effect, preserve the old conclusion with a bounded numerical
+  qualification; if forecasts change materially, report all frozen contrasts in
+  the successor; if numerical checks fail, keep the branch provisional.
+  Prior work: [Guo et al., §4 read](https://proceedings.mlr.press/v70/guo17a/guo17a.pdf)
+  separates calibration fitting from test evaluation;
+  [Yao et al., §1.3 read](https://arxiv.org/html/1704.02030v3) uses out-of-sample
+  predictions for stacking. This is a numerical audit of the existing method,
+  not a novel calibration proposal. Source: [complete Phase 0 record](results/phase_2_4_stage_15/PHASE0_REPORT.md).
+
+- [x] S15-SETUP-1014: source filed byte-identically, implementation issues documented,
+  known-answer/leakage tests pass, finite CPU queue launched and watched.
+- [x] S15-PHASE0: all three cells complete and independently verified; full internal
+  method/instrument write-through complete. EM iteration-cap qualification retained;
+  no family kill or engine admission. Terminal ACK follows documentation verification.
+- [x] S15-INTAKE: pinned DICES-350 and Community Alignment downloaded locally;
+  source hashes and independent schema/identifier census pass. No scientific adapter
+  admission; codebook, quality-subset and genuine temporal-split validation remain.
+- [x] S15-R6-TRIAGE: all 44 old blocked cards individually classified; original
+  records retained. Old-role dispatch intentionally parked under the new commission.
+- [ ] S15-REPAIRS: R6 repairs are complete and closed; versioned R1 evidence
+  admission and R2 statistical prototypes retain
+  their declared dependencies. R4/R7 judge roles retire; transcriber alternatives
+  require fresh admission. See [work registry](docs/design/stage-15/WORK_REGISTRY.json).
+- [ ] S15-F1-F13: implement in the commissioned week order after
+  pinned engine, Ghost twins, adapter and stopping-policy validation; Stage 14 is closed. No missing
+  dependency is treated as a scientific null or permission to lower a gate.
+- [ ] S15-R3/F4: earlier attempts failed; the simpler v4 synthetic canary passes.
+  The v4 reference failure is landed; v5 synthetic canary passes.
+  Full pilot passed; complete main failed on an empty profile and is fully recorded.
+  V7 complete main passes independent literal admission and is fully landed. Profile generation is complete; semantic faithfulness and predictive usefulness remain open. Shared capacity is $43.35 including retained reservations; later admitted F4 still requires forecasts
+  and guard reservations. No extra tranche authorized.
+
+
 ## October 10 local campaign - Stage 14 execution namespace
+
+- [x] OPS-S14-HEALTH-1014-1930: native supervision, retained evidence, output freshness, resources, locks and actual watcher delivery pass. No operational recovery or scientific restart. Publication is complete at 0a956219c; separately versioned repair preparation and prerequisite validation are next under existing authority and gates.
 
 - [x] THEORY-ERRATA-1014 / DOCS-FILING-1014: applied the supplied October 14 ratified 39-edit theory handoff; preserved quotations and source repairs, reviewed afterwords and retained untested boundaries. Organized visible Stage 2-14 folders, program/cloud indexes and top-level handoffs; corrected stale summaries. Exact edit/source checks, navigation checks, theory lint and all 21 research locks pass. No new studies harvested or launched by this maintenance commission.
 - [x] OPS-S14-HEALTH-1014-1324: due inspection verifies native supervision, unchanged terminal evidence and output freshness, resources, locks, held work and actual owner delivery. No recovery or new inference; full write-through precedes health ACK.
-- [ ] S14-REPAIR-1014: curator authorizes running blocked comparisons, superseding immediate closure; subsequent instruction requires staging, committing and pushing first. Documentation filing/reconciliation is complete locally; publication remains before launching versioned repairs. Preserve original attempts, validate corrected prerequisites before main admission and retain existing spending and scientific bounds. No repaired comparison has launched.
+- [x] S14-REPAIR-1014: Transferred to Stage 15 R6; three complete pairs landed and final pair active. Original attempts retained. No residual Stage 14 execution.
 
 - [x] OPS-S14-STATUS-1014: requested Gear 2/3 status inspection verifies fresh native/provider state, unchanged completion manifests and output freshness, current resource/lock/watcher health and prior full write-through. Corrected stale overview and pilot-ledger execution wording. No scientific worker active, no recovery or new research; existing holds and six-hour clock preserved.
 
@@ -34,8 +390,8 @@
 
 - [x] S14-MIDWEEK-BASELINES / SM1-SM3: original and aligned rosters frozen with separate exposure evidence; seven local handling baselines and effort controls complete, saved-score replay and full internal write-through done. Retain the full source and temporal checks; joint reader campaign remains unfinished.
 - [x] G3-S14-MAKER-MAIN: complete Modal cell verified and fully written through, with full source/native/archive reconstruction, independent scoring/calibration, fixed sensitivities, eleven-slot multiplicity and unavailable API comparisons retained. Main books 476 cents; no retry or theory edit.
-- [ ] G3-S14-MAKER-1: carry the complete Modal cell and the failed paired-profile pilot into Friday's joint final packet. API reader pilot/main remain unsubmitted; the matched-profile admission gate admits no automatic retry. Combined campaign booking is 548 cents under the unchanged $50 ceiling, pending final invoices. Preserve unavailable API contrasts, historical exposure, shared-history dependence, actual history counts, donor-length sensitivities and invalid system penalties. Any API repair needs a separately reviewed plan.
-- [ ] S14-SM4-PROTO: the GPU lane is free, but the proposed SmolLM2 handling readout failed its frozen semantic admission (OPS-S14-SM4-SEMANTIC). Human prototype training remains unadmitted. Resolve a capable aligned readout before freezing recipient-past-only clusters, random-cluster control and equal total prototype-plus-refinement optimizer steps. Preserve the failed instrument, original token/corpus provenance and all exhausted attempts; no automatic prompt revision, model substitution or retry. The broader authorized prototype question remains open.
+- [x] G3-S14-MAKER-1: Closed in the October 15 final packet: $5.48 Stage 14 booking and unavailable comparisons retained. R3 repair is separately owned by Stage 15 under the shared campaign ceiling.
+- [x] S14-SM4-PROTO: Closed unrun after failed handling-readout admission; statistical prototype successor is Stage 15 R2 with its Ghost dependency. No gate relaxation.
 - [ ] S15-SM5-SM6: carry natural/imposed-policy self-reading and steering inversion to Stage 15 under the accepted recommendation; not part of the current cloud allowance.
 
 - [x] OPS-S14-Q05-QWEN-MIXED-E8-FAILURE: first eight-epoch mixed-text Qwen attempt stopped at the frozen GPU-memory floor; original evidence, failed cost, native exit, lock release and blocked consumer verified and recorded. No partial scores interpreted. No retry is admitted under the exhausted repair allowance; existing independent work remains gated on memory or reader-runtime review.
@@ -97,7 +453,7 @@
 - [x] S14-Q05-SMOL-HUMAN-E8-SECOND: complete second eight-epoch human-text SmolLM2 cell and consumer verified and fully written through; both same-seed epoch references, repeated text, sparse histories, shared units and readout/dependence limits retained. First eight-epoch seed remains unknown; continue existing frozen comparisons without another repair identity.
 
 - [x] OPS-S14-POWER-RECOVERY-1012: full recorded-result and saved-state audit passed; exact orphan lock archived, reporting helper and versioned supervision restored, next frozen eight-epoch seed verified in local Gear 2. First eight-epoch human-text SmolLM2 attempt remains unknown with 124 preserved files and its original consumer blocked; no further automatic repair identity.
-- [ ] OPS-S14-POWER-RECOVERY-1012: resolve the observed Ollama runtime change before releasing the three eligible, unstarted reader cards; current 0.40.3 is held against prior 0.35.1. Preserve existing card/model pins, failed/unknown evidence and the exhausted scientific repair allowance. Independent frozen training continues.
+- [x] OPS-S14-POWER-RECOVERY-1012: Closed with the runtime-held readers unrun. Versioned evidence-runtime admission belongs to Stage 15 R1/F4; original records unchanged.
 
 - [x] S14-Q05-SMOL-HUMAN-E4-SECOND: complete second four-epoch human-text SmolLM2 cell and consumer verified and fully written through; identical text/input construction against the two-epoch reference, doubled training steps, cross-seed pooled ordering, sparse histories and readout/dependence limits retained. Continue frozen epoch comparisons.
 
@@ -168,7 +524,7 @@
 
 - [x] OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE: failed worker, retained files, source bindings, lock release, blocked consumer and live supervision verified; full failure write-through precedes ACK. Existing GPU work was resource-held at that inspection; resumed admission is recorded in the later health entry.
 
-- [ ] OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE-RECOVERY: headroom returned and the existing allowance was reviewed (OPS-S14-HEALTH-1011-1725); the handoff records repair identity two of two, so no further automatic retry is admitted. Any additional full attempt requires authority beyond that allowance and a separate identity. Preserve original failure/cost, partial files and blocked consumer; do not count recovery as runnable capacity.
+- [x] OPS-S14-Q05-SMOL-MIXED-T32768-FAILURE-RECOVERY: Original failure retained; separately authorized Stage 15 R6 replacement and consumer fully landed. No original attempt rewritten.
 
 - [x] S14-Q05-SMOL-MIXED-T4096-SECOND: complete second selected-rank lower-cap mixed-text cell and saved-output consumer verified and fully written through; mixed provenance, actual dose changes, shared/changed support and seed/readout sensitivities retained. Continue the frozen higher-cap and remaining comparisons.
 
@@ -228,10 +584,10 @@
 - [x] S14-P03-SMOL-R16-SECOND-MAIN: second rank-sixteen seed and saved-score consumer fully verified, replayed and internally landed; frozen matrix, shared-roster limits and unresolved sensitivities retained.
 - [x] S14-P03-QWEN-R16-FIRST-MAIN: complete rank-sixteen cell and saved-score consumer verified, replayed and fully written through; model-rival advantage remains unresolved and the frozen matrix continues.
 - [x] OPS-S14-Q02-QWEN-SELECTION: calibration-only rank selection, exact replay, evaluation-likelihood masking and child bindings verified and fully written through.
-- [ ] S14-Q02-QWEN-CONTINUATIONS: execute only the existing selected-rank children through their remaining dependency/memory gates; retain calibration optimism and actual costs in the final packet. Admission is not scientific success or measured capacity.
+- [x] S14-Q02-QWEN-CONTINUATIONS: Selected larger-model continuations completed and included in the final packet with selection optimism and measured-cost limits.
 - [x] S14-P03-SMOL-R16-FIRST-MAIN: complete rank-sixteen cell and saved-score consumer verified, replayed and fully written through; frozen matrix and descriptive limits retained.
 - [x] OPS-S14-Q02-SMOL-SELECTION: calibration-only rank selection, exact replay, evaluation-likelihood masking and child bindings verified and fully written through.
-- [ ] S14-Q02-SMOL-CONTINUATIONS: execute only the existing selected-rank children through their remaining dependency/memory gates; include selection optimism and actual measured costs in the final packet. Admission is not scientific success or full-week capacity.
+- [x] S14-Q02-SMOL-CONTINUATIONS: Selected larger-model continuations completed and included in the final packet with selection optimism and measured-cost limits.
 - [x] S14-P03-QWEN-SECOND-MAIN: second Qwen seed and saved-score consumer fully verified and internally landed; pooled/donor crossed-prompt sensitivity, sparse histories and shared evaluation roster remain explicit. Continue the unchanged frozen matrix.
 - [x] OPS-S14-HEALTH-1010-1634: exact native supervision, output integrity, unchanged failed evidence, resource admission, terminal coverage and actual six-hour owner delivery verified; no recovery presently justified. Full internal write-through precedes health ACK and independent rearm.
 - [x] OPS-S14-P03-VRAM-INTERRUPT: runtime memory refusal, worker cleanup, dependent blocking and live resource-held queue fully inspected and internally recorded; no partial-cell verdict.
@@ -269,16 +625,16 @@
 
 - [x] S14-R01-PILOT: Three-contract instrument pilot completed; no extraction admission. Full internal write-through retained.
 - [x] S14-R01-FACTORIZED-LLAMA8: Complete constructed extraction successor admitted and internally landed.
-- [ ] S14-R01-TRANSFER: Complete the separate natural and independent-family screens; no inferred human/graph admission.
+- [x] S14-R01-TRANSFER: Closed with failed natural/joint admissions and unrun held readers explicit. Evidence transcriber successors require Stage 15 R1/F4 admission.
 - [x] S14-H04-RULER: Supplied-bank missingness instrument landed; real-record thinning remains in H04.
 - [x] S14-H01: Source census, replay, chronological personal preparation and positive exposure audit fully written through.
 - [x] S14-SETUP: Initial executable plan, implemented validity safeguards, fixed Friday checkpoints and six-hour monitoring installed; handoff distinguishes outstanding scope and capacity.
-- [ ] S14-CAPACITY: The October 14 early-morning health refresh uses 36 complete small-model main costs: 0.00 scenario hours in 0 remaining small-model mains and 1.75 hours in 2 dependency-eligible dose/epoch continuations. The 1.75-hour small-model total is extrapolated, with 0.80/0.53 hours under 2x/3x lower-duration depletion. About 57.0 hours remain to the reporting reserve. CPU-day and remaining-week coverage remain CAPACITY_SHORTFALL; failed, unknown, blocked and design-only work receive no credit. Three dependency-eligible Qwen 9B reader cards remain held before dispatch on runtime drift and receive no estimated capacity credit. No new card or repair identity is admitted by this inspection. The approved cloud pilot still awaits the previously requested account-readiness facts; the conditional prototype card remains unadmitted while the local GPU lane is occupied. Implement useful predeclared independent reserves through their existing rights/support/reader gates; never pad with unchanged repeats.
+- [x] S14-CAPACITY: Closed with the documented capacity shortfall retained; no expired allocation is padded or refilled. New work is Stage 15 only.
 - [x] S14-SOURCE-POLICY: Owner approved both public sources; policy, bounded intake designs, tests and dispatch recorded.
 - [x] S14-SOURCE-INTAKE: both complete pilots and preserved-worker coordinator handoff fully verified and internally landed.
-- [ ] S14-SOURCE-ADMISSION: review remaining prose rights, establish full source support and verified reader release cutoffs before scientific successors.
-- [ ] S14-ERRATA-RESERVES: Implement the separately filed Wikipedia, blog, reverse-edit and missing-middle designs only through their stated gates. None is counted as current runway.
-- [ ] S14-FINAL: Friday October 16, 10:00 PDT reporting reserve, 16:00 review and 18:00 packet; preserve unfinished cells, all failures, resource costs and remaining frontier.
+- [x] S14-SOURCE-ADMISSION: Closed old allocation; surviving rights/support/chronology admission obligations belong to Stage 15 native adapters.
+- [x] S14-ERRATA-RESERVES: Unexecuted forest branches closed unrun; surviving questions are gated in the Stage 15 registry. No automatic launch authority from this disposition.
+- [x] S14-FINAL: October 15 early final packet, complete integrity/disposition and closed endpoint filed. Idle dispatcher and checkpoint helper ended; Friday schedule retired.
 
 ## October 2 closed-stage health
 

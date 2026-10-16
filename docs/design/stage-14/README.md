@@ -2,7 +2,14 @@
 
 **Navigation:** [current status](../../../CURRENT_STATUS.md) · [operating handoff](IMPLEMENTATION_HANDOFF.md) · [all stages](../README.md) · [cloud campaigns](../gear-3/README.md).
 
-**October 14 status:** admitted local adapter runs and the approved Modal main are complete. Remaining reader, profile and prototype comparisons are held at their admission gates. Repairs are authorized but have not launched; the curator requested publication first. The final scientific packet remains pending.
+**Closed October 15:** the curator advanced the final packet. Read the
+[final report](../../../results/phase_2_4_stage_14/FINAL_PACKET_20261015.md),
+[integrity and all card dispositions](../../../results/phase_2_4_stage_14/FINAL_INTEGRITY_20261015.json),
+and [closed endpoint](../../../results/phase_2_4_stage_14/FINAL_ENDPOINT_20261015.json).
+The idle dispatcher and checkpoint helper are retired. No Friday packet remains
+due. [Stage 15](../stage-15/README.md) owns surviving repairs and future questions;
+[task history](CLOSEOUT_TASK_HISTORY.md) preserves the superseded queue wording.
+The source briefs and implementation documents below retain their historical terms.
 
 **October 13 expansion:** the curator approved the corrected midweek errata and
 Gear 3 Round 2, pilot first under a $50 gross ceiling, while retaining local
@@ -28,8 +35,8 @@ records their move from the workspace top level.
 The October 10 instruction authorizes immediate local Gear 2 and preparation
 for the week, with six-hour health inspections. It does not commission cloud
 use, paid readers, participant contact or work in the separate Ghost project.
-The Friday October 16, 18:00 PDT reporting checkpoint is preserved, with new
-long comparisons held from 10:00 PDT for reporting. No silent deadline reset.
+The original Friday October 16, 18:00 PDT checkpoint and 10:00 reporting reserve
+are historical; the explicit October 15 early-close instruction supersedes them.
 
 The owner approved strict memory and full GPU-residency checks in place of the
 NVIDIA per-program fallback setting on October 10. A dedicated single-request

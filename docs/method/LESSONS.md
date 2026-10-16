@@ -194,6 +194,13 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Choose among certified solutions, not just the smallest objective.** Two
+  solutions can have nearly identical objectives and different gradient gaps.
+  The first convergence audit stopped after a later candidate passed because
+  its return value still held an earlier uncertified candidate. Filter on the
+  complete numerical certificate before selection; test this exact path and
+  retain the failed attempt without loosening accuracy. (S15-T0B-CONVERGENCE-V1)
+
 - **A dated session split is not a nonempty choice partition.** Count actual usable
   training, calibration and evaluation events for each recipient before any fit,
   including donor/global support. Preserve exclusions in the consumer rather than
@@ -609,6 +616,51 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **A categorical format pass does not validate the labels.** The complete Q8
+  battery returned valid JSON for every item while correctly labeling fewer than
+  half; the canonical gate still passed because its accuracy rule covered only
+  binary questions. The separately frozen all-question and per-label correctness
+  gates refused it as intended. Retain both verdicts, disable the failed feature,
+  and do not rescue selected classes after scoring. (S15-F4-Q8-LOCAL-V1)
+
+- **Validate the whole returned message, even when its prefix is valid JSON.**
+  The v6 synthetic structured-output response continued with extra text and
+  reached the token limit. Retain the full response and reject it under the
+  unchanged completion gate; extracting its prefix would silently salvage a
+  failed attempt. A local schema check cannot establish actual provider behavior,
+  and one failed request cannot identify the causal schema feature. (S15-R3-V6-CANARY)
+
+- **A successful discarded pilot does not guarantee nonempty main profiles.**
+  The complete v5 main returned an empty statement and no citations with a normal
+  end-of-turn marker. Its simple schema allowed those shapes even though the
+  original literal validator rejected them. Preserve the whole failed batch;
+  add only documented nonempty constraints in a separately tested successor.
+  Do not salvage passing writers, invent a missing statement or equate an empty
+  feature with a negative scientific result. Fresh synthetic/pilot admission and
+  later semantic validation remain necessary. (S15-R3-V5-MAIN)
+
+- **Show the reference IDs that the reader must return.** Implicit array positions
+  invited an out-of-range citation even after every generation ended normally.
+  A successor should display explicit zero-based record IDs and constrain allowed
+  references per request; it must still pass the unchanged independent parser.
+  Never repair a returned citation by subtracting one or clipping it. (S15-R3-V4-PILOT)
+
+- **Token-count acceptance does not establish that a constrained grammar can compile.**
+  The bounded-profile repair passed actual count preflight and local validators,
+  but every batch request failed provider grammar compilation before generation.
+  Require an actual synthetic generation canary for a newly complex grammar;
+  preserve the rejected attempt and retain its reservation when usage is absent.
+  Local language equivalence is not provider readiness. The subsequent nested
+  equivalent also failed the actual synthetic generation check; another regex
+  rewrite alone is not a demonstrated remedy. (S15-R3-V2-PILOT, S15-R3-V3-CANARY)
+
+- **A structured-output schema does not enforce a prose word bound.** The Stage 15
+  profile repair ended every provider turn normally and returned the required JSON,
+  but one complete profile still exceeded its statement-length rule. Validate the
+  whole semantic contract after decoding. Preserve the failed attempt, keep main
+  admission closed and review a separate representation before any retry; do not
+  silently clip or relax a gate. (S15-R3-PROFILE-PILOT)
+
 - **Validate interventions after the actual serialization and tokenizer projection.**
   Different records and mode names do not prove different model inputs. Stage 13
   raw retrieval, linked operations and duplicated memory all retained the same long
@@ -749,6 +801,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
   retaining malformed and explicitly unfinished refusals. A wait timeout can
   exit the parent while leaving its child alive; verify both native identities
   before retrying or releasing a GPU lock. (2026-09-20, OPS-S11.2-QUEUE-TIMEOUT)
+  A later read-only dependency relay emitted REVIEW_REQUIRED, which the same
+  terminal validator did not recognize. Copy/retention unit tests did not test
+  integration with native exit supervision. The complete return was retained;
+  only the ended watch was retired. Before a new relay version, test the actual
+  success, failed-return and cancellation schemas through that validator and
+  disappearance handling. Keep process completion distinct from scientific
+  acceptance; do not infer an exit code from an absent process. (2026-10-15,
+  S15-PROFILE-GHOST-ADMISSION)
 
 - **Partial completion receipts must reproduce their saved result before new calls.**
   A valid nested file inventory did not prevent a modified unit result/profile
@@ -1159,3 +1219,11 @@ L132 (a shuffle gate that voided the alternative's own signature).
   histogram keys in a versioned successor, and verify identical predictions and
   statistics plus byte-stable reentry. Never loosen the shared immutable-record
   guard to accommodate a representation defect. (2026-10-14, G3-S14-MAKER-MAIN)
+
+- **Pin downloaded source bytes, not a decoded text copy rewritten on Windows.**
+  The PRISM intake correctly rejected its reference hash because a preparatory
+  text write had translated LF to CRLF. Independent refetch verified exact text
+  equivalence and original source bytes; a separate successor retained strict
+  hash matching and the failed attempt. Use binary retention for source receipts;
+  never normalize an unknown download merely to make a hash pass.
+  (2026-10-14, S15-PUBLIC-JSONL)

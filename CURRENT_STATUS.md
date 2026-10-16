@@ -1,12 +1,224 @@
 # Current status
 
-Updated October 14, 2026. Start here for current authority; historical execution
-notes remain in the [operating archive](docs/archive/operations/README.md).
+**Gear 2 finite queues drained:** the [complete Qwen candidate batteries](results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json)
+are independently verified and fully recorded. Worker exited, model unloaded and
+lease released; no active scientific worker or paid batch. Constructed candidate
+eligibility does not enable the canonical engine or admit natural-data/scientific
+use. Original failures remain. Profile fitting is still blocked by the unchanged
+failed Ghost witness; no matching healing return was found. Native-data validation
+preparation remains open; the [readiness handoff](docs/design/stage-15/F4_NATIVE_READINESS.md)
+separates existing choice labels from literal reference annotations. Stage 15 stays open.
+October 16 morning inspection acknowledged; next health check: **October 16 14:23:17 PDT**.
+Existing terminal/failure supervision remains enabled.
 
-## October local week: active in the Stage 14 execution namespace
+## October 16 morning health inspection: finite queues drained
 
-**Stage 14 is current; Stage 13 is closed. Neither gear currently has an active
-scientific worker.** The admitted local adapter ladder and the Modal cloud main
+Native identities, scoped process inventory, completed terminal/landing bindings,
+source/research locks and resource floors verify. No new terminal or operational
+failure; project model unloaded and leases released. Watcher delivery and the
+previous result ACK are verified. Stale registry worker-active flags are corrected.
+
+The failed Ghost witness and companion notes remain unchanged. Profile fitting
+is unrun; native literal annotation/input preparation remains independent work,
+with no launchable card. Stage 15 stays open; no restart or new study. Companion
+Git-head and separate Codex native-queue inventory limitations remain explicit.
+
+[Inspection receipt](results/phase_2_4_stage_15/HEALTH_20261016_0813_PUBLIC.json). [Verified ACK and next check](results/phase_2_4_stage_15/HEALTH_20261016_0813_ACK_PUBLIC.json).
+
+## October 16 early health inspection: Gear 2 progressing
+
+The exact native worker/service and project worker inventory verify, with fresh
+progress and retained responses, CPU-only residency, resource floors, leases and
+frozen/research locks intact. No new failures or recovery; completed predecessor
+landings reconcile. The full candidate batch continues without interim scoring.
+
+The unchanged failed Ghost witness still blocks profile fitting; no matching
+healing return or paid batch is present. Dependency notes are intact. Companion
+Git heads and a separate Codex native-queue CLI inventory were not refreshed;
+those limitations remain explicit. Actual health delivery, prior result ACK and
+watcher identity/source/scan/registration verify. No new tests harvested.
+
+[Inspection receipt](results/phase_2_4_stage_15/HEALTH_20261016_0209_PUBLIC.json). [Verified ACK and next check](results/phase_2_4_stage_15/HEALTH_20261016_0209_ACK_PUBLIC.json).
+
+## October 15 evening health inspection: Gear 2 progressing
+
+The scheduled inspection verifies the native worker and service, frozen source
+pins, exclusive CPU lease, fresh progress and response files, resource floors,
+finite limits and all research locks. Every completed reader cell has a full
+internal write-through. No new operational failure or recovery is required.
+The fixed queue runs Qwen topic continuity, then grammatical person and themes.
+
+Earlier queues stay drained and Stage 14 stays closed. The known relay alert is
+already reconciled. Companion heads and the failed Ghost witness are unchanged;
+mutable ToMpathy work is not imported. Profile fitting remains unrun under its
+negative admission review. Dependency notes remain intact; no agent uptake is
+claimed. No paid batch is active and no new tests are harvested.
+
+Watcher identity, loaded source hashes, fresh scans and the actual latest result
+delivery/ACK verify. The due health event was inspected directly from the outbox
+while owner-active suppression held its redundant delivery. A separate native
+queue inventory was not repeated; its earlier restricted-shell limitation remains
+explicit. Inspection ACK is verified; next health is **October 16 02:09:18 PDT**,
+with immediate failure/terminal alerts.
+
+[ACK and next check](results/phase_2_4_stage_15/HEALTH_20261015_2001_ACK_PUBLIC.json) | [Full operational receipt](results/phase_2_4_stage_15/HEALTH_20261015_2001_PUBLIC.json).
+
+## October 15 completed Ghost return: admission failed; Gear 2 continues
+
+The complete Ghost witness is independently verified and fully recorded. The
+profile comparison remains unrun because null bounds and option-order invariance
+fail. Its actual admission and prepared launcher both refuse before fitting.
+Planted-signal success does not override those controls. Canonical diagnosis
+and separately reviewed matching healing evidence are the remaining dependency.
+
+The return relay delivered all evidence. Its REVIEW_REQUIRED status was not
+recognized by the exit monitor; the secondary alert is preserved and reconciled,
+and only the exact ended relay watch is retired. The literal Qwen queue continues
+with verified native identities, source pins, lease, CPU residency and resources.
+No paid batch or new scientific fit was started. Next health remains
+**October 15 20:01:11 PDT**, with immediate terminal/failure alerts.
+
+[Full review](results/phase_2_4_stage_15/GHOST_RETURN_REVIEW_PUBLIC.json) | [Remaining requirements](docs/design/stage-15/GHOST_RETURN_REVIEW.md).
+
+## October 15 afternoon: bounded continuation running in Gear 2
+
+The curator authorized useful bounded exploration through the expected return
+around 05:00 Pacific October 16 (not a deadline). The fixed local reader queue
+continues across Llama 3.2 3B and Qwen 3.5 9B. The native CoAuthor audit has
+completed and independently reconciles source identities, labels, all retained
+decisions and exclusions, and strict history cutoffs. Its worker exited normally.
+Native-adapter and exposed-holdout prerequisites are reviewed; profile fitting
+still awaits the exact Ghost witness and combined admission. Fixed plans,
+resource floors, CPU residency and native/terminal monitoring remain in force. All nine Llama 3.2 3B cells have full internal write-through and reconciled
+terminal/receipt identities. Contradiction, tone and dialogue pass constructed
+admission only; register, edit type, claim change, topic continuity, grammatical
+person and literal themes remain disabled. The same worker now runs the fixed
+Qwen 3.5 9B cells with verified CPU-only residency; no partial scores are reported. Original failures remain unchanged.
+
+Concrete dependency notes are copied and indexed in Ghost and ToMpathy; agent
+receipt is not claimed. Sounding Line owns native-data and exposed-holdout checks.
+The exact Ghost research witness remains external. No paid batch is active;
+campaign booking remains $6.65. Next health: **October 15 20:01:11 PDT**, with
+immediate terminal/failure/disappearance monitoring. At queue drain, review and
+build the next useful bounded commissioned successor under this authority;
+do not restart valid work or invent tests merely to occupy the machine.
+
+[Continuation](docs/design/stage-15/OVERNIGHT_CONTINUATION.md) · [Verified launch](results/phase_2_4_stage_15/OVERNIGHT_SETUP_PUBLIC.json). Earlier snapshots below retain their dated state.
+
+
+## October 15 six-hour inspection: finished queues drained; Stage 15 remains open
+
+**Inspection acknowledged; next health check: October 15 20:01:11 PDT.**
+[Verified rearm receipt](results/phase_2_4_stage_15/HEALTH_20261015_1350_ACK_PUBLIC.json).
+
+[OPS-S15-HEALTH-1015-1350](results/phase_2_4_stage_15/HEALTH_20261015_1350_PUBLIC.json) verifies exited worker identities,
+retained terminal evidence, released compute leases, unloaded model, research
+locks and resource floors. No new operational failure or recovery is needed.
+No scientific worker or paid batch is active. Companion commits are unchanged;
+the exact Ghost witness remains unavailable. Native-data adapter and exposed-
+holdout/error-control preparation remain authorized and unfinished.
+
+Watcher identity, scans and actual delivery pass. A separate native-queue query
+could not initialize in this restricted shell; its inventory is explicitly
+unverified. Historical notification errors remain retained. Six-hour rearm follows
+the inspection ACK; see the separate ACK receipt for its due time.
+No new tests, paid calls, delegation, gate changes or finished-queue restarts.
+
+## October 15: validity and exploratory diagnostic complete; science still gated
+
+The [fresh validity pass](results/phase_2_4_stage_15/VALIDITY_REVIEW_PUBLIC.json)
+finds no damaged retained output requiring rerun. The [matched-writer history
+analysis](results/phase_2_4_stage_15/HISTORY_TEXTURE_PUBLIC.json) is complete and
+independently verified; relative gains are not monotone, and globally novel
+prompts have insufficient matched support for a general learning curve.
+
+The [complete target/context diagnostic](results/phase_2_4_stage_15/SCOPE_DIAGNOSTIC_PUBLIC.json)
+is independently verified. Explicit target scoping is not a general repair:
+person accuracy worsens and empty-theme correctness fails under the new prompt.
+Q6/Q10 remain disabled. The worker exited, model unloaded and lease released;
+the finite addendum queue is drained. No provider calls or automatic retry.
+
+**Stage 15 remains open.** Completed batches do not cover every commissioned
+comparison: trained-profile and broader scientific runs still await native-data,
+backbone, relevant Ghost and holdout/error-control evidence. Gear 3 has no active
+paid batch; shared booking remains $6.65, pending invoices. Next six-hour health
+inspection remains **October 15 13:50:42 PDT**; this result ACK does not reset it.
+The earlier queue-closure observations below refer to the finished original queue.
+
+## October 15: local literal admission complete; scientific comparisons gated
+
+The [whole local admission queue](results/phase_2_4_stage_15/F4_LITERAL_ENDPOINT_PUBLIC.json)
+is verified and drained. All retained responses and frozen sources reconcile;
+the native worker exited, its model unloaded and its lease released. Contradiction,
+register and tone change pass constructed admission. Edit type, claim change,
+topic continuation, grammatical person and [literal themes](results/phase_2_4_stage_15/F4_Q10_LOCAL_PUBLIC.json)
+remain disabled. Entity extraction was not run without its independent checker;
+the prior dialogue failure stays preserved. These are constructed instrument
+checks, not human prediction results or a general reader boundary.
+
+The [trained profile comparison](docs/design/stage-15/PROFILE_FEATURE_COMPARISON.md)
+is built with independently reconstructed inputs but remains unsubmitted.
+Read-only companion inspection at the endpoint finds unchanged ToMpathy and Ghost
+commits and no required next-round Ghost twin output. Independent native-data
+adapter and exposed-holdout preparation remain authorized; real-data, backbone,
+Ghost and frozen error-control admissions still gate scientific dispatch.
+No local scientific worker or paid batch is active for this continuation.
+
+The [numerical repair](results/phase_2_4_stage_15/T0B_CONVERGENCE_PUBLIC.json)
+is complete and does not rescue the saved-reader useful-gain screen. Original
+forecasts and the first audit failure remain retained. Profile generation is
+complete; its semantic faithfulness and predictive usefulness remain unestablished.
+
+Shared booking remains **$6.65**, with **$43.35** available pending invoices.
+This continuation made no provider calls. Next health inspection remains
+**October 15 13:50:42 PDT**, including actual companion readiness and watcher
+delivery. Stage 15 remains open; the finished literal queue is not restarted.
+
+## Stage 14 is closed; Stage 15 is active
+
+The curator advanced Stage 14 closure to October 15. Its [final packet](results/phase_2_4_stage_14/FINAL_PACKET_20261015.md),
+[full integrity audit](results/phase_2_4_stage_14/FINAL_INTEGRITY_20261015.json) and
+[closed endpoint](results/phase_2_4_stage_14/FINAL_ENDPOINT_20261015.json) are filed.
+All recorded completed outputs verify. Failed, unknown and unrun work has explicit
+dispositions. The idle old dispatcher and checkpoint helper are ended and their
+exact watches retired. No Stage 14 run or Friday packet remains due.
+
+**Gear 2:** the literal admission queue above is complete; scientific follow-ons await their witnesses. Stage 15's earlier [four-comparison repair queue](docs/design/stage-15/R6_SUCCESSORS.md)
+is now fully drained. All four producer/readout pairs are verified and internally
+landed. Native closure and released GPU ownership verify; no scientific worker
+remains in this queue. [Repair endpoint](results/phase_2_4_stage_15/R6_ENDPOINT_20261015_PUBLIC.json).
+Do not restart the closed Stage 14 dispatcher.
+
+The [newer canonical engine interface](results/phase_2_4_stage_15/ENGINE_INTERFACE_V2_PUBLIC.json)
+is pinned to ToMpathy `82789fdb50d9`; actual interface export and six constructed
+native-adapter checks pass. This enables integration work, while native dataset
+chronology/identity checks, matching Ghost witnesses, holdouts and valid sequential
+error controls still gate larger scientific runs. Other owners' projects are untouched.
+
+**Gear 3:** the [complete v7 main](results/phase_2_4_stage_15/R3_V7_MAIN_PUBLIC.json)
+passes the original literal contract and independent source/history/wire/full-
+response replay. Profile generation is complete and fully recorded; provider
+and native execution have ended. No paid batch remains active. Semantic
+faithfulness and predictive usefulness remain unestablished; the commissioned
+F4 feature evaluation retains its local and scientific admission requirements.
+The main cost reconciles to **$0.42**. Shared booking is **$6.65**, including
+thirteen retained unknown-usage cents; **$43.35** remains, pending invoices.
+
+Phase 0's [complete report](results/phase_2_4_stage_15/PHASE0_REPORT.md) retains
+its original capped branch; the separate convergence successor above resolves
+the numerical qualification without removing historical exposure. DICES, Community Alignment,
+PRISM and MultiPref intake passed source checks; scientific adapters remain
+unadmitted. MultiPref's participant/label discrepancy and ARIES's paper/release
+denominator discrepancy remain explicit. See the [work registry](docs/design/stage-15/WORK_REGISTRY.json)
+and [continuation handoff](docs/design/stage-15/CONTINUATION.md).
+
+The [07:42 due health inspection](results/phase_2_4_stage_15/HEALTH_20261015_0742_PUBLIC.json) passed and was acknowledged. Next health inspection: **October 15 13:50:42 PDT**. Immediate failures and completion remain watched.
+Ordinary result ACKs do not move the independent clock. Updated October 15, 2026; older sections below
+are historical snapshots, not current launch instructions.
+
+## Stage 14 retained state before the next-round launch
+
+**Pre-launch Stage 14 snapshot; superseded for live execution by Stage 15 above.** The admitted local adapter ladder and the Modal cloud main
 are complete. Native queue supervision, reporting checkpoints and the watcher
 remain healthy. The October 14 status inspection found no operational recovery
 need or unacknowledged landing. See the [inspection receipt](results/phase_2_4_stage_14/STATUS_20261014_PUBLIC.json).
@@ -36,7 +248,7 @@ The October 13 [midweek approval](docs/design/stage-14/MIDWEEK_IMPLEMENTATION.md
 added the bounded paid campaign while retaining Gear 2. It supersedes the original
 local-only commission for those named lanes.
 
-The permanent health cadence is six hours; the [latest health receipt](results/phase_2_4_stage_14/HEALTH_20261014_1324_ACK_PUBLIC.json) records its next deadline.
+The permanent health cadence is six hours; the [latest health receipt](results/phase_2_4_stage_14/HEALTH_20261014_1930_ACK_PUBLIC.json) records its next deadline.
 Immediate failures and drained-queue events remain. A separate fixed helper covers
 Friday October 16 at 10:00 reporting reserve, 16:00 review and 18:00 final packet.
 No admitted scientific runway remains under the current gates; remaining held or
@@ -50,7 +262,7 @@ synthesis remains in Friday's final packet; this is an operational status report
 supersedes immediate closure. A new repair pass is authorized, preserving original
 evidence and validity gates, with publication requested first. No repaired
 comparison has launched. The October 14 theory errata and documentation filing are
-complete locally; publication remains outstanding. Use the [stage index](docs/design/README.md)
+complete and published at `0a956219c`. Versioned repair preparation and prerequisite validation are next. Use the [stage index](docs/design/README.md)
 for every stage and the [application receipt](docs/design/archive/THEORY_ERRATA_20261014_APPLIED.json)
 for the 39 ratified edits. This cleanup changes no experiment verdict or admission gate.
 
