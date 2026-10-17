@@ -1,12 +1,21 @@
 # STATE: the agent's operational file
 
+**October 17 suggestion pass is being sized.** A source-frozen local worker
+is censusing the complete input roster before its finite five-reader timing
+pilot. The checkpointed suggestion runner and its refusal controls pass thirteen
+targeted checks. Native identity, fresh progress, source pins and terminal/
+disappearance monitoring verify. Main dispatch requires the complete pilot's
+independent landing and measured runtime/byte admission. Typed sentences and
+writer-history contexts remain unbuilt; this does not complete P1 or Stage 15.
+No paid batch is active. [Launch receipt](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_LAUNCH.json).
+
 **October 17 reader memory recovery is verified complete.** The full fixed
 pilot passes unchanged numerical gates with float32 Pythias and bounded output
 projection. The largest reader leaves at least 1.29 GiB of sampled free GPU
 memory within the 5.75 GiB allocator cap. Exact native exit, released GPU lease,
-all outputs and source pins verify. No reader worker or paid batch is running.
-Full-corpus contexts/history, representative sizing and a checkpointed execution
-plan remain unbuilt; pilot completion does not close the commission.
+all outputs and source pins verify. That worker has exited.
+The separate suggestion sizing worker above is active; typed/history preparation
+remains unbuilt and the commission stays open.
 [Complete recovery report](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 
 **October 17 final review:** completed evidence and documentation are verified

@@ -5,10 +5,15 @@
 - [x] OPS-S15-DRIVE-READER-MEMORY: complete v6 pilot independently verified;
   full fixed ladder, numerical controls, bounded memory, source/output hashes,
   native exit and released lease recorded. Original v4/v5 failures preserved.
-- [ ] S15-DRIVE-P1-FULL: implement history context and typed-sentence roster,
-  validate visibility/packing, measure representative throughput and retained
-  bytes, then freeze a bounded checkpointed full-corpus execution plan using the
-  admitted memory implementation. No full-corpus worker is queued yet.
+- [x] OPS-S15-DRIVE-SUGGESTION-SETUP: checkpointed suggestion component and
+  input-only sizing pilot built; thirteen targeted checks and native/source/
+  monitoring launch verification pass.
+- [ ] S15-DRIVE-P1-SUGGESTIONS: whole-roster input census and finite timing pilot
+  running. Fully land the pilot, admit measured bounds, then dispatch the full
+  suggestion component; main remains unrun.
+- [ ] S15-DRIVE-P1-FULL: implement and validate the separate writer-typed sentence
+  roster and strictly earlier history context/packing. Suggestion scoring alone
+  does not complete P1.
 
 - [x] OPS-S15-WALKTHROUGH-1017: final retained-evidence, documentation, accounting
   and publication review complete; stage closure is not implied.

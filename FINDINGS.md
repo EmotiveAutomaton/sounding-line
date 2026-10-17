@@ -9,6 +9,37 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-SUGGESTION-SETUP - bounded corpus component running
+
+**Hypothesis.** Can the validated readers process all exposed suggestion menus
+with recoverable outputs and measured resource limits?
+**METHOD.** Build a source-frozen input census and support-selected timing pilot,
+with the unchanged five readers and four contexts, followed by separately
+admitted per-session lossless checkpoints. Exercise known-answer packing,
+numerical, corruption, coverage and forecast refusal controls before launch.
+
+The table describes implementation validation, not corpus scores.
+
+| Check | Result |
+|---|---|
+| Targeted controls | Thirteen pass; inherited scorer and new checkpoint/census gates |
+| Integrity | All research locks and frozen source pins pass |
+| Execution | Exact native worker, fresh input-census progress and monitor handshake verify |
+| Boundary | Main awaits whole-pilot validation; typed/history component remains unbuilt |
+
+**Found.** The finite suggestion timing pilot is running under native supervision.
+**Means.** The corpus component has executable infrastructure; neither full-corpus
+completion nor a new scientific result is claimed. Full pilot write-through and
+measured admission precede main dispatch. No new test was harvested; this implements
+the existing commission and curator's completion request.
+
+Curator roll-up: operations; Can validated readers scale with recoverable evidence?;
+**Infrastructure**; The finite sizing pilot is running with checked refusal controls;
+project meaning: corpus execution has a concrete measured-admission path;
+next engineering obligation: independently land the timing pilot and admit the main;
+public scientific claims unchanged; curator decision required: No; detail:
+[launch receipt](results/phase_2_4_stage_15/DRIVE/SUGGESTION_LAUNCH.json).
+
 ### OPS-S15-DRIVE-READER-MEMORY-V6 - complete lower-memory reader pilot
 
 **Hypothesis.** Can the same reader pilot fit alongside other applications

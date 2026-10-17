@@ -2,8 +2,9 @@
 
 **Reader memory recovery:** [complete v6 report](READER_PILOT_V6.md) and
 [verification](READER_PILOT_V6.json) establish fixed-pilot numerical and memory
-validity. Native worker exited and lease released. The full-corpus runner remains
-unbuilt. [Launch history](READER_MEMORY_LAUNCH.json),
+validity. Native worker exited and lease released. The [suggestion sizing worker](SUGGESTION_LAUNCH.json) is running;
+its checkpointed main runner awaits measured admission. Typed/history preparation
+remains unbuilt. [Launch history](READER_MEMORY_LAUNCH.json),
 [original cleanup failure](READER_PILOT_V5.json), and the
 [fixed contract](../../../docs/design/stage-15/drive/READER_PILOT_V6.md) remain.
 

@@ -19,7 +19,12 @@ README for authority and the current operational handoff for launch identities.
 `reader_pilot_v6` completed the finite memory-recovery validation; all fixed
 outputs, numerical gates, source hashes, native exit and released lease verify.
 Its no-cache float32 scorer clears only its own BLAS workspace between models.
-Do not rerun this completed pilot. The full-corpus runner remains unbuilt.
+Do not rerun this completed pilot. `suggestion_pilot` now runs a finite
+whole-input census and five-reader timing pilot. `suggestion_main` is built
+but refuses preparation until that pilot is independently landed and its
+measured bounds pass. Both use `suggestion_corpus`, thirteen passing targeted
+checks, hashed per-session gzip checkpoints and native monitoring. This is
+only the suggestion component; typed sentences/history remain unbuilt.
 The original v5 cleanup failure remains preserved.
 `v1_phase0_v3` completed the full 150-world calibration;
 its evidence, native exit and released CPU lease are verified.

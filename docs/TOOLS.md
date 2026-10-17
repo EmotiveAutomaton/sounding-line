@@ -1,13 +1,21 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Checkpointed suggestion component built; timing pilot running.** Thirteen
+targeted checks cover complete context coverage, finite token reductions, average
+ties, whole-context exclusions, checkpoint corruption/provenance, measured cost
+ceilings and the inherited scorer controls. Native source-bound launch and
+terminal monitoring verify. Real long-context feasibility and main-run admission
+remain pending. [Contract](design/stage-15/drive/SUGGESTION_CORPUS_V1.md) and
+[launch receipt](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_LAUNCH.json).
+
 **Reader memory implementation is validated on the complete fixed pilot.**
 All three float32 Pythias finish with unchanged numerical tolerance and contexts;
 Smol/Qwen outputs remain byte-identical. The largest reader reserves 5842 MiB
 under the 5888 MiB cap and retains 1327 MiB sampled free memory. Nine software
 checks and the actual CUDA cleanup test pass; native exit, released lease and
 all evidence bindings verify. Process-local BLAS workspace release preserves the
-exact-zero unload guard. Full-corpus history/roster construction, representative
-throughput sizing and checkpointed execution remain unbuilt.
+exact-zero unload guard. Typed/history construction remains unbuilt. The separate suggestion
+component and active sizing pilot are described above.
 [Complete report](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 
 **October 17 reader memory recovery:** blocked vocabulary projection passes nine
