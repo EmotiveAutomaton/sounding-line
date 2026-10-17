@@ -1,20 +1,18 @@
 # Current status
 
-**October 17 suggestion pass is being sized.** A source-frozen local worker
-is censusing the complete input roster before its finite five-reader timing
-pilot. The checkpointed suggestion runner and its refusal controls pass thirteen
-targeted checks. Native identity, fresh progress, source pins and terminal/
-disappearance monitoring verify. Main dispatch requires the complete pilot's
-independent landing and measured runtime/byte admission. Typed sentences and
-writer-history contexts remain unbuilt; this does not complete P1 or Stage 15.
-No paid batch is active. [Launch receipt](results/phase_2_4_stage_15/DRIVE/SUGGESTION_LAUNCH.json).
+**October 17 suggestion pilot stopped at numerical admission.** The smallest
+reader's cached/direct comparison exceeds its unchanged tolerance. Input census
+and original control arrays remain intact; no session score checkpoint completed.
+Exact native exit, released GPU lease and source bindings verify. A separately
+frozen precision diagnostic is the next repair; full main remains unadmitted.
+No paid batch is active. [Failure report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V1_FAILED.md).
 
 **October 17 reader memory recovery is verified complete.** The full fixed
 pilot passes unchanged numerical gates with float32 Pythias and bounded output
 projection. The largest reader leaves at least 1.29 GiB of sampled free GPU
 memory within the 5.75 GiB allocator cap. Exact native exit, released GPU lease,
 all outputs and source pins verify. That worker has exited.
-The separate suggestion sizing worker above is active; typed/history preparation
+The separate suggestion pilot above has failed; typed/history preparation
 remains unbuilt and the commission stays open.
 [Complete recovery report](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 

@@ -1,5 +1,12 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Broader-support suggestion pilot fails numerical admission.** The smallest
+reader's float16 cached/direct control exceeds its unchanged tolerance before any
+session checkpoint completes. Retained arrays and input census, source bindings,
+native exit and GPU lease verify. Paired precision recovery requires a separate
+diagnostic; earlier fixed-pilot success is not corpus accuracy admission.
+[Complete failure report](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V1_FAILED.md).
+
 **Checkpointed suggestion component built; timing pilot running.** Thirteen
 targeted checks cover complete context coverage, finite token reductions, average
 ties, whole-context exclusions, checkpoint corruption/provenance, measured cost

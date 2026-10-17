@@ -4,7 +4,8 @@
 [verified complete](../../../../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 The fixed pilot preserves precision, inputs and acceptance while replacing cache
 reuse with bounded direct scoring. The [suggestion corpus component](SUGGESTION_CORPUS_V1.md) is built,
-with its input census and timing pilot running. Main dispatch awaits measured
+with its input census retained and timing pilot stopped at a numerical
+comparison failure. Main dispatch awaits a separately tested repair and measured
 admission; typed sentences/history remain unbuilt.
 [v5](READER_PILOT_V5.md) and its cleanup-guard failure remain intact.
 

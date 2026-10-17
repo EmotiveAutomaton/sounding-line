@@ -9,6 +9,36 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-SUGGESTION-V1 - broader-support accuracy refusal
+
+**Hypothesis.** Can the validated readers process all exposed suggestion menus
+with accurate, recoverable outputs and measured limits?
+**METHOD.** Census the full input roster, select complete menus by input length,
+and compare cached scoring to ordinary direct teacher forcing. Independently
+replay the failed control and verify retained evidence, source pins and native closure.
+
+The table reports apparatus status, not scientific comparisons.
+
+| Check | Verified result |
+|---|---|
+| Accuracy gate | Smol360 float16 cached/direct check fails unchanged tolerance |
+| Corpus outputs | No complete session score checkpoint; input census retained |
+| Integrity and closure | Sixty pins pass; exact worker exited and GPU lease released |
+
+**Found.** The sizing pilot stopped at its numerical agreement guard before any
+session score checkpoint completed. **Means.** A separately tested precision
+repair is required; this is an apparatus failure, not a negative scientific result.
+The original failure remains and the full main is unadmitted. No new test was
+harvested from the wake. The full input census was structurally reconciled, not
+independently retokenized in this inspection.
+
+Curator roll-up: operations; Can the reader scale with accurate retained scores?;
+**Infrastructure**; The broader-support pilot fails its unchanged numerical guard;
+project meaning: corpus execution remains unadmitted; next engineering obligation:
+test paired precision on identical inputs before a separate recovery;
+public scientific claims unchanged; curator decision required: No; detail:
+[complete failure report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V1_FAILED.md).
+
 ### OPS-S15-DRIVE-SUGGESTION-SETUP - bounded corpus component running
 
 **Hypothesis.** Can the validated readers process all exposed suggestion menus

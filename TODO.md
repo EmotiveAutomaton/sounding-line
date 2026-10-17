@@ -8,9 +8,11 @@
 - [x] OPS-S15-DRIVE-SUGGESTION-SETUP: checkpointed suggestion component and
   input-only sizing pilot built; thirteen targeted checks and native/source/
   monitoring launch verification pass.
-- [ ] S15-DRIVE-P1-SUGGESTIONS: whole-roster input census and finite timing pilot
-  running. Fully land the pilot, admit measured bounds, then dispatch the full
-  suggestion component; main remains unrun.
+- [x] OPS-S15-DRIVE-SUGGESTION-V1: numerical failure independently replayed;
+  retained input census, source pins, native exit and GPU lease verified/recorded.
+- [ ] S15-DRIVE-P1-SUGGESTIONS: test paired Smol precision on identical selected
+  inputs, then separately recover timing only if its unchanged checks pass.
+  Main remains unadmitted; preserve original pilot failure and input census.
 - [ ] S15-DRIVE-P1-FULL: implement and validate the separate writer-typed sentence
   roster and strictly earlier history context/packing. Suggestion scoring alone
   does not complete P1.

@@ -19,8 +19,10 @@ README for authority and the current operational handoff for launch identities.
 `reader_pilot_v6` completed the finite memory-recovery validation; all fixed
 outputs, numerical gates, source hashes, native exit and released lease verify.
 Its no-cache float32 scorer clears only its own BLAS workspace between models.
-Do not rerun this completed pilot. `suggestion_pilot` now runs a finite
-whole-input census and five-reader timing pilot. `suggestion_main` is built
+Do not rerun this completed pilot. `suggestion_pilot` completed its input census then failed the
+Smol360 cached/direct numerical check before a session score checkpoint.
+Its exact native exit, released lease and retained evidence are recorded.
+A separately frozen precision diagnostic is required before recovery. `suggestion_main` is built
 but refuses preparation until that pilot is independently landed and its
 measured bounds pass. Both use `suggestion_corpus`, thirteen passing targeted
 checks, hashed per-session gzip checkpoints and native monitoring. This is

@@ -2,8 +2,8 @@
 
 **October 17 memory recovery:** v6 is [verified complete](READER_PILOT_V6.md).
 Precision, fixed-pilot contexts and loss tolerance are preserved; native worker
-exited and lease released. The [suggestion sizing pilot](SUGGESTION_LAUNCH.json) is running,
-with a tested checkpointed runner. Main dispatch awaits measured admission;
+exited and lease released. The [suggestion sizing pilot](SUGGESTION_PILOT_V1_FAILED.md) failed
+numerical admission. Original inputs and evidence remain; main is unadmitted;
 typed/history construction remains unbuilt. The older health snapshot
 below predates this explicitly authorized recovery.
 
@@ -42,7 +42,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | S0-T4 | delivered aggregate |
 | S0-T4-104 | held released exclusion roster |
 | V2 | verified complete |
-| P1 | v6 memory pilot verified; suggestion timing pilot running, main awaiting admission; typed/history unbuilt |
+| P1 | v6 memory pilot verified; suggestion timing pilot failed numerical admission, precision diagnostic next; typed/history unbuilt |
 | P3 | blind reference and classifier not built |
 | P4 | content features verified; fit not built |
 | S0-T2 | download verified parsing not built |
