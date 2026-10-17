@@ -3,8 +3,9 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-The GPU suggestion main continues alongside full V4 calibration, D39, D32 and D34.v1.
-P5 is verified complete. P6 needs its separately validated arithmetic recovery.
+The GPU checkpoint recovery and full V4 calibration are advancing. D32 saved
+its work and yielded at the forecast boundary. P5, P6's exact-score recovery,
+D39 including its secondary, and the supported D34.v1 are verified complete.
 The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
 
@@ -14,31 +15,32 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 pending |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
-| P6 | verification failed; retained scores intact | [Arithmetic diagnosis](P6-failed.md); one recovery being validated |
+| P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
 | V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
-| D30/D35/D33/D17 | tested code delivered for owner review; some await P5/P6 | Dispatch by packet rank as inputs and controls finish |
-| D39 | running after nine targeted owner checks | Complete destructive-revision contrast pending |
-| D32 | reviewed and running after verified P5 | Fourteen owner tests pass, including whole-writer bootstrap donor exclusion |
-| D34.v1 | supported subset running after verified P5 | Directly linked model-suggestion corrections only; broader question OPEN |
+| D30/D35/D33/D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
+| D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; family-prefix count waits for D35/D33 |
+| D32 | saved forecast yield; not a scientific result | [Pause receipt](D32-paused.md); two ranked intervening dispatches and measured resume admission required |
+| D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family ladder null counts: K 0, B 0, A 0, G 1, E 0, R 0, S 0, P 0.
-D34 is the first resolved Tier 1 parent; shared/instrument passes do not count.
+Family resolved-prefix null counts: K 0, B 0, A 0, G 2, E 0, R 0, S 0, P 0.
+D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
 pins stay frozen and later labels receive the same audit before routing.
 [Pending 20:00 integration](DIGEST_PENDING_20261017.json) tracks theory/TODO work.
 [Operations](OPS_LOG.md) records failures, recoveries and dispatch.
-One planned check remains at most one hour ahead; independent health is 14:58:11 PDT.
+One planned check remains at most one hour ahead; the [six-hour inspection](HEALTH_20261017_1501.json)
+records actual identities, progress, resources, delivery and performed recovery.
 The dated October 16/earlier October 17 records below retain their original scope.
 
-**Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
-after [complete v4 admission](SUGGESTION_PILOT_V4.md). All compared token losses
-match the prior valid pilot, with unchanged safety checks and a 43.27-hour
-allowance including threefold safety. Whole-corpus completion remains pending;
+**Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
+after its recorded safety stop. All retained checkpoint bytes validate; numerical
+and safety limits stay fixed, with prior wall time charged against the original
+allowance. Whole-corpus completion remains pending;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

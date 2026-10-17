@@ -24,7 +24,9 @@ primary, its fixed planted controls and held-session transfer checks. The separa
 verified extension retains exact content-reader designs. `menus_d34_v1` restricts
 correction cohesion to directly linked model corrections under curator approval.
 `events_d32` excludes every sampled copy of the recipient from bootstrap donors;
-`events_d39` verifies destructive revision against authenticated original codepoints.
+`events_d39` verifies destructive revision against authenticated original codepoints;
+`events_d39_latency` completes the retained secondary without changing its primary route.
+`timing_p6_recovery` verifies the original producer-order arithmetic exactly, with no refit.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 
@@ -34,8 +36,10 @@ intact; the owner audits their completed classifications before routing.
 
 `suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
 and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
-runner and is now active under verified native monitoring. Complete-output
-validation remains required; do not start a duplicate.
+runner. Its safety stop retained 2,608 intact checkpoints. The separately validated
+`suggestion_resume_v1` is active, reusing exact bytes and charging prior elapsed
+time against the original allowance. All numerical and resource limits remain.
+Complete-output validation remains required; do not start a duplicate.
 
 `suggestion_pilot_v3` completed the lossless-checkpoint recovery and all validity
 checks. Its measured forecast exceeded 72 hours, so its own main stayed unadmitted. V2 failed

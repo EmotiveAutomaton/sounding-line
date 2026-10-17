@@ -167,6 +167,14 @@ def valid_json(path):
         # Producers use both uppercase and lowercase terminal states. This is
         # notification ownership only, never scientific admission or acceptance.
         status = record.get("status")
+        # A saved cooperative pause ends this worker without completing science.
+        # Accept only the runtime's explicit pause receipt, not a progress label.
+        saved_pause = (path.name == "PAUSED.json" and status == "PAUSED"
+                       and record.get("scientific_admission") is False
+                       and isinstance(record.get("resume"), str) and bool(record["resume"])
+                       and isinstance(record.get("card"), str) and bool(record["card"])
+                       and isinstance(record.get("saved_result_sha256"), str)
+                       and re.fullmatch(r"[0-9a-f]{64}", record["saved_result_sha256"]) is not None)
         # Finite coordinators retain PID-suffixed, statusless exception receipts.
         # Recognize that exact filename/field shape without accepting a running
         # record, arbitrary error log or malformed exception as a terminal.
@@ -175,7 +183,7 @@ def valid_json(path):
                        and all(isinstance(record.get(key), str) and bool(record[key])
                                for key in ("at", "error", "traceback")))
         return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
-                or (path.name == "FAILED.json" and "error" in record) or pid_failure)
+                or (path.name == "FAILED.json" and "error" in record) or pid_failure or saved_pause)
     except (ValueError, OSError):
         return False
 

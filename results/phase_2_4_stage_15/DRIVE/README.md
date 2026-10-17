@@ -2,13 +2,13 @@
 
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,
 verified and recorded. The [live index](INDEX.md) separates actual CPU dispatches
-from building cards while the GPU main continues. [Operations](OPS_LOG.md) and
+from building cards while the GPU checkpoint recovery advances. [Operations](OPS_LOG.md) and
 the [20:00 integration receipt](DIGEST_PENDING_20261017.json) implement batch reporting.
 
-**Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
-after [complete v4 admission](SUGGESTION_PILOT_V4.md). All compared token losses
-match the prior valid pilot, with unchanged safety checks and a 43.27-hour
-allowance including threefold safety. Whole-corpus completion remains pending;
+**Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
+after the [recorded safety stop](SUGGESTION_MAIN_V4_FAILED.md). Completed checkpoints
+are reused exactly, safety limits are unchanged and prior elapsed time is charged
+against the original allowance. Whole-corpus completion remains pending;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

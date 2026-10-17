@@ -80,6 +80,56 @@ Curator roll-up, P5: decision traces; Can all logged sentences and edits support
 
 Curator roll-up, P6: timing apparatus; Do saved word scores reproduce exactly?; **Infrastructure**; Arithmetic order caused verification refusal with retained scores intact; project meaning: no scientific result yet; next engineering obligation: validate one exact-arithmetic recovery; public claim unchanged; curator decision required: No; detail: P6 failure report above.
 
+**Later in the same landing batch: D39 and P6 recovery.**
+
+**Hypothesis.** Writers may examine the next suggestion menu more after discarding model text than after discarding their own text.
+**METHOD.** Match destructive revisions within writers on deleted length, request timing and session position, then compare the next menu's hover count with writer-cluster uncertainty and source/writer shuffles.
+**Found.** No increase was established: the difference is -0.081 hovers, with a 95% interval of [-1.222, 1.238], over 297 matched pairs from 29 writers. Both shuffled controls are null. **Means.** The primary is null and does not open the decay extension. These logged examination events do not establish the proposed trust relation; they also do not directly measure attention or experienced trust.
+
+**Hypothesis.** The word baseline can be retained if exact verification reproduces the original accumulation without changing its scores.
+**METHOD.** Copy the authenticated saved scores into a separate recovery, replay every token and session total in the original arithmetic order, and verify the complete primary in a fresh process with changed-value refusals tested.
+**Found.** All 460,507 scored tokens across 1,399 sessions reproduce exactly. **Means.** The word-baseline input is now verified for dependent timing studies. The failed original remains recorded; no model was refitted and no tolerance changed.
+
+[Complete D39 primary and controls](results/phase_2_4_stage_15/DRIVE/D39.md) retain the pending secondary latency aggregate. [P6 recovery](results/phase_2_4_stage_15/DRIVE/P6.md) preserves the original failure and every reused score. D34.v1's initial slot refusal occurred before scientific computation; its earlier running description is corrected in the [operational receipt](results/phase_2_4_stage_15/DRIVE/D34.v1-start-refusal.md). The separate ToMpathy lease stays intact.
+
+Curator roll-up, D39: attention and trust; Does checking increase after discarding model text?; **Narrows**; The next-menu examination contrast is null; project meaning: this proxy does not establish the proposed trust relation; next engineering obligation: preserve the null and finish the secondary descriptive aggregate; public claim unchanged; curator decision required: No; detail: D39 report above.
+
+Curator roll-up, P6 recovery: timing apparatus; Can the original word scores be verified exactly?; **Infrastructure**; Every original score and aggregate reproduces; project meaning: timing consumers can use the baseline; next engineering obligation: complete consumer review before dispatch; public claim unchanged; curator decision required: No; detail: P6 report above.
+
+Curator roll-up, D34.v1 start: operations; Did the supported correction study begin?; **Infrastructure**; Shared CPU capacity refused admission before computation; project meaning: no scientific result exists; next engineering obligation: one unchanged retry after capacity verification; public claim unchanged; curator decision required: No; detail: start-refusal report above.
+
+**Later in the same landing batch: supported D34.v1 and GPU interruption.**
+
+**Hypothesis.** Corrections that surprise the handling reader may point in a more consistent direction than matched corrections it expects.
+**METHOD.** Restrict the test to directly linked model-suggestion corrections, simulate the reader's fixed surprise threshold, match correction counts within sessions, and compare cross-session vector cohesion with writer-level uncertainty and an other-writer control.
+**Found.** The cohesion difference is 0.0170, with a 95% interval of [-0.0099, 0.0488], across 20 eligible writers. The other-writer comparison also includes zero. **Means.** The supported subset is marginal and establishes no persistent omitted direction. This variant has no extension; it counts as a second family-G null for routing. The broader own-text correction question remains OPEN, as authorized.
+
+**Hypothesis.** Completed GPU checkpoints should remain reusable after the safety guard stops execution.
+**METHOD.** Verify native exit, released GPU ownership, all frozen source hashes and every retained checkpoint hash after the guard failure.
+**Found.** All 2,608 complete checkpoints remain intact. The guard's exact failing memory/temperature sample was not retained, so its cause cannot be narrowed further. **Means.** The full GPU pass remains unfinished. A separate checkpoint recovery must preserve every score, resource threshold and remaining aggregate budget; the incomplete session alone needs recomputation.
+
+[Complete supported-subset report](results/phase_2_4_stage_15/DRIVE/D34.v1.md) retains the original capacity refusal and full exclusion census. [GPU interruption](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V4_FAILED.md) records the intact partial evidence and unresolved trigger.
+
+Curator roll-up, D34.v1: reader inference and goals; Are surprising corrections more directionally coherent?; **Narrows**; The supported subset is marginal; project meaning: no omitted-direction claim, broader own-text question open; next engineering obligation: proceed in the frozen ladder without another extension; public claim unchanged; curator decision required: No; detail: supported-subset report above.
+
+Curator roll-up, GPU interruption: operations; Can completed work survive the safety stop?; **Infrastructure**; Retained complete checkpoints verify; project meaning: whole-corpus execution is unfinished; next engineering obligation: validate a bounded checkpoint recovery under unchanged limits; public claim unchanged; curator decision required: No; detail: GPU failure report above.
+
+**Later in the same landing batch: final D39 secondary and GPU recovery.**
+
+**Hypothesis.** After deleting model text, writers may take longer to decide on the next menu than after deleting their own text.
+**METHOD.** Reduce the original frozen D39 matches using observed menu-open to selection/close times, equal-writer averages and the same writer-bootstrap settings; missing endpoints are excluded explicitly. Verify the complete secondary again in a fresh process.
+**Found.** No latency increase was established: the difference is -1.190 seconds, with a 95% interval of [-3.766, 1.020], across 295 pairs from 29 writers. Two model-side endpoints are missing. **Means.** This completes the commissioned secondary without changing the null hover primary or opening its decay extension. Neither latency nor hovers alone establishes attention or experienced trust.
+
+**Hypothesis.** The full suggestion pass can resume from authenticated completed checkpoints without changing its input, score or safety protocol.
+**METHOD.** Validate every retained checkpoint payload and reduction, reuse the exact compressed bytes, charge original elapsed wall time against the original computation allowance, and test missing, reordered and corrupted evidence refusals before monitored launch.
+**Found.** All 2,608 retained checkpoints validate; the new worker has loaded the second reader and produced new checkpoints under the unchanged limits. **Means.** Full suggestion execution is running again. This is a recovery of unfinished work, not a completed scientific result; no partial reader scores are released.
+
+Full records: [D39](results/phase_2_4_stage_15/DRIVE/D39.md), [GPU recovery](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_LAUNCH.md). D32's separately documented forecast yield is operational and contributes no family null. No tests were harvested from the curator's subset approval; its scope is implemented and the broader question remains open. Theory/TODO integration follows the packet's 20:00 digest.
+
+Curator roll-up, D39 secondary: attention and trust; Does the next decision take longer after deleting model text?; **Narrows**; The secondary latency increase is not established; project meaning: the frozen null route remains unchanged; next engineering obligation: proceed along the declared ladder; public claim unchanged; curator decision required: No; detail: D39 report above.
+
+Curator roll-up, GPU recovery: operations; Can intact work resume under the original constraints?; **Infrastructure**; Authenticated checkpoints are reused and new work is advancing; project meaning: whole-corpus execution remains unfinished; next engineering obligation: monitor and verify the full result; public claim unchanged; curator decision required: No; detail: recovery report above.
+
 ### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
 
 **Hypothesis.** Is the authorized full suggestion run progressing with intact

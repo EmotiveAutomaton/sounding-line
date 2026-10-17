@@ -2406,12 +2406,19 @@ pin refusal, checkpoint yields and fresh-process primary replay have targeted
 controls and a complete serialized smoke check. [TC](../results/phase_2_4_stage_15/DRIVE/TC.md)
 admits logged timing; [V5](../results/phase_2_4_stage_15/DRIVE/V5.md) is a qualified
 matched-repeatability proxy; [P8](../results/phase_2_4_stage_15/DRIVE/P8.md) recovers
-raw producer scores with unresolved probability semantics. P5 and D34 are
-verified complete; P6 retains an arithmetic-verification failure awaiting its one
-validated recovery. D32, D39 and the supported D34.v1 are running; [V4's verified timing pilot](../results/phase_2_4_stage_15/DRIVE/V4-pilot.md)
+raw producer scores with unresolved probability semantics. P5, D34 and its supported
+variant, D39 including its secondary, and P6's exact-score arithmetic recovery
+are verified complete. D32 saved and yielded at its forecast boundary;
+[V4's verified timing pilot](../results/phase_2_4_stage_15/DRIVE/V4-pilot.md)
 admits full calibration, now running. [P4 primary](../results/phase_2_4_stage_15/DRIVE/P4.md)
 and [single extension](../results/phase_2_4_stage_15/DRIVE/P4-extension.md) are verified complete.
 The extension's shuffled control also improves; no engine admission follows.
+The [GPU checkpoint recovery](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_LAUNCH.md)
+passes ten targeted checks and advances under unchanged numerical/resource limits.
+Every retained chunk was authenticated; prior wall time is charged against the
+original allowance. Original failures remain. No incomplete-cell scores are released.
+
+**Saved-pause supervision:** the watcher now recognizes only the runtime's explicit saved-pause receipt, avoiding a false disappearance alarm without treating a pause as scientific completion. Thirty-six transition checks and live source/scan adoption pass; original alerts and delivery state remain intact.
 
 **Interval validation repair:** a known-answer fixture exposed a false rejection
 when a valid percentile interval excludes its observed point. Separate `states_v2`

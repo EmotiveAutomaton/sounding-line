@@ -22,8 +22,9 @@ PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
-P5 and D34 are recorded; V4 and D39 are running, while P6 needs its one
-validated arithmetic recovery. A finite,
+P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
+its secondary are recorded. V4 and the GPU checkpoint recovery are running;
+D32 saved and yielded at its forecast boundary. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.
@@ -31,7 +32,9 @@ The October 16 description below is retained as the earlier commission.
 
 [Throughput recovery v4](SUGGESTION_CORPUS_V4.md) is verified complete, preserving
 every compared score and all safety checks. Measured bounds admit the suggestion
-main, which is now running under native monitoring. Typed/history and downstream
+main. Its later safety stop preserves every completed checkpoint; the
+[validated recovery](../../../../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_LAUNCH.md)
+now advances under native monitoring and unchanged limits. Typed/history and downstream
 work remain separate.
 
 [Storage recovery v3](SUGGESTION_CORPUS_V3.md) is complete and valid, but its

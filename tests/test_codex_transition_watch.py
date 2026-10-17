@@ -74,6 +74,23 @@ def test_invalid_terminal_does_not_hide_disappearance(context, monkeypatch, reco
     assert (repo/cfg['process_watches'][0]['failure_output']).exists()
 
 
+@pytest.mark.parametrize('changes,expected', [({}, True), ({'saved_result_sha256':'bad'},False),
+    ({'resume':''},False), ({'card':None},False), ({'scientific_admission':True},False),
+    ({'status':'running'},False)])
+def test_saved_pause_owns_notification_without_claiming_completion(context,monkeypatch,changes,expected):
+    repo,state,cfg,native=context
+    record=dict(status='PAUSED',card='D32',saved_result_sha256='a'*64,
+                resume='Owner must dispatch intervening work before resume',scientific_admission=False)
+    record.update(changes)
+    (repo/'job').mkdir();(repo/'job/PAUSED.json').write_text(json.dumps(record))
+    cfg['paths']=['job/PAUSED.json'];cfg['process_watches'][0]['terminal_paths']=['job/PAUSED.json']
+    monkeypatch.setattr(watch,'native_identity',lambda pid:None)
+    events=watch.scan(cfg,repo=repo,state=state,now=10)
+    assert (repo/cfg['process_watches'][0]['failure_output']).exists() is not expected
+    assert len(events)==(1 if expected else 2)
+    assert watch.urgent({'path':'job/PAUSED.json'},cfg)
+
+
 @pytest.mark.parametrize('name,changes,expected', [
     ('FAILED-123.json', {}, True),
     ('FAILED-worker.json', {}, False),
