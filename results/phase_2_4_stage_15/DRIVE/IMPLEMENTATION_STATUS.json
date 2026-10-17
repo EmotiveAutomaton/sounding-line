@@ -1,6 +1,7 @@
 {
   "all_21_research_locks_pass": true,
-  "at": "2026-10-17T09:51:07.993444+00:00",
+  "at": "2026-10-17T15:55:48.807829+00:00",
+  "calibration_receipt": "V1_PHASE0.json",
   "cancelled_before_compute": [
     "V1 Phase 0 v1"
   ],
@@ -13,34 +14,45 @@
     "content features v2",
     "V2 decomposition",
     "paired reader precision diagnostic v2",
-    "V1 Phase 0 full 150-world outcome calibration"
+    "V1 Phase 0 full 150-world outcome calibration",
+    "reader memory pilot v6",
+    "Smol paired precision v1",
+    "suggestion timing pilot v3",
+    "direct safety telemetry",
+    "suggestion throughput pilot v4"
   ],
   "failed_retained": [
     "reader pilot v1/v2/v3",
     "content v1",
     "reader diagnostic v1",
     "V1 Phase 0 v2 output-byte ceiling",
-    "reader pilot v4 bounded resource-wait deadline"
+    "reader pilot v4 bounded resource-wait deadline",
+    "reader pilot v5 cleanup guard",
+    "suggestion pilot v1 numerical gate",
+    "suggestion pilot v2 checkpoint representation"
   ],
-  "health_due_epoch": 1792252378.6673925,
+  "health_due_epoch": 1792274291.446065,
+  "health_inspection": "HEALTH_20261017_0853_PUBLIC.json; ACK verified",
+  "operational_state": "GEAR2_SUGGESTION_MAIN_HEALTHY_IMPLEMENTATION_REMAINS",
   "paid_batch_active": false,
   "paid_spent_cents": 4,
+  "prepared_successor_jobs": 0,
   "queued": [],
+  "reader_allocator_cap_MiB": 5888,
+  "reader_cold_floor_MiB": 7424,
+  "reader_failure_receipt": "READER_PILOT_V4.json",
+  "reader_recovery": "VERIFIED: complete memory/precision/storage/throughput recoveries; full suggestion main running; typed/history unbuilt",
+  "reader_sampled_working_free_MiB": 5003,
+  "reader_working_floor_MiB": 1024,
   "resource_wait": [],
-  "running": [],
+  "running": [
+    "drive-suggestion-main-v4"
+  ],
   "scientific_admission": false,
   "source_download_receipt": "LICHESS_INTAKE.json",
   "source_download_state": "Lichess independently verified complete; bounded parsing unbuilt",
-  "watcher_scan": 1792230789.0706472,
-  "watcher_source_identity_verified": true,
-  "whole_packet_implemented": false,
   "storage_recovery": "v3 complete; all compressed/raw hashes and full-grid statistics independently verified; native exited",
-  "health_inspection": "HEALTH_20261017_0245_PUBLIC.json; ACK verified",
-  "reader_recovery": "HELD: unchanged cold headroom unavailable; separate reviewed finite recovery required",
-  "reader_failure_receipt": "READER_PILOT_V4.json",
-  "calibration_receipt": "V1_PHASE0.json",
-  "reader_free_MiB": 6401.0,
-  "reader_cold_floor_MiB": 8500,
-  "prepared_successor_jobs": 0,
-  "operational_state": "IDLE_READER_RESOURCE_HELD_IMPLEMENTATION_REMAINS"
+  "watcher_scan": 1792252520.7664616,
+  "watcher_source_identity_verified": true,
+  "whole_packet_implemented": false
 }

@@ -22,8 +22,9 @@ calibration are verified complete. Earlier reader resource failures remain in
 above provide the currently admitted path. Chess download is verified; bounded
 parsing remains unbuilt. Immediate terminal/failure supervision is active.
 The [02:45 health inspection](../HEALTH_20261017_0245_PUBLIC.json) is historical;
-current main-worker state is in the launch receipt above. Next fixed health
-inspection remains October 17 08:52:58 PDT.
+the [08:53 inspection](../HEALTH_20261017_0853_PUBLIC.json) verifies advancing
+checkpoints, native/GPU ownership, evidence and delivery. No recovery required.
+[ACK is verified](../HEALTH_20261017_0853_ACK_PUBLIC.json); next health is October 17 14:58:11 PDT.
 
 The original [capacity failure](V1_CAPACITY_V2.json) is fully recorded. The
 [lossless recovery completed](V1_PHASE0.json), preserving all 120 complete
@@ -91,7 +92,8 @@ runner exists. Dependencies are necessary inputs, not evidence of admission.
 | 30 | D19: Factorized process/content recipes | registered not built | P1, P2 |
 | 31 | D10: Embedding panels | registered not built | S0-T4 |
 
-Next engineering work: full reader-pass context/history packing and throughput-sized execution;
+Next engineering work: complete/verify the active suggestion pass; implement separate
+reader-pass typed/context/history packing;
 P4/D1 fitting under [recipient-specific chronology](../../../docs/design/stage-15/drive/P4_CHRONOLOGY.md);
 blind native edit references; bounded chess parsing and Wikipedia text pairs;
 then concrete gated paid routes. The earlier failed Ghost profile witness still

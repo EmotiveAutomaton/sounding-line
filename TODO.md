@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-HEALTH-1017-0853: native execution, advancing checkpoints,
+  evidence/locks/resources and actual watcher delivery verified; stale status
+  records reconciled. No worker recovery or new study required.
+
 - [x] OPS-S15-DRIVE-TELEMETRY: complete direct/command parity and refusal
   checks verified; source/library pinned; unchanged safety cadence and floors.
 - [x] S15-DRIVE-P1-THROUGHPUT: complete v4 timing and every native-token loss

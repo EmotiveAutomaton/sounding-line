@@ -10,6 +10,12 @@ remain open; suggestion execution alone does not complete P1 or the commission.
 [Complete admission](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V4.md) ·
 [Launch verification](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V4_LAUNCH.json).
 
+**October 17 08:53 health:** exact native/GPU ownership, advancing checkpoint
+hashes, source/research locks, resource floors and actual watcher delivery pass.
+No new failure or unlanded result; no worker recovery required. Earlier idle
+status metadata is reconciled. No prepared successor or active paid batch; the
+separate implementation backlog remains. [Inspection](results/phase_2_4_stage_15/HEALTH_20261017_0853_PUBLIC.json).
+
 **Earlier attempt history:** v1 failed numerical agreement; the complete paired
 precision diagnostic supplied the remedy. V2 exposed a lossless JSON comparison
 defect; separately validated v3 fixed storage but exceeded its runtime forecast.
@@ -49,8 +55,8 @@ Content representations and the complete saved-forecast decomposition are
 verified and recorded. The complete 150-world Phase 0 planted-signal calibration
 is independently verified and recorded with effect-specific sensitivity limits. The completed paired diagnostic supports a float32 remedy
 for Pythia numerical agreement. The separate five-reader pilot stopped at its
-resource deadline before the largest model loaded. Full-corpus scoring remains
-unadmitted; strict model-specific memory limits remain. The complete chess download is verified;
+resource deadline before the largest model loaded. That earlier attempt did not admit full-corpus scoring; the later v4 suggestion
+main above is running under its unchanged memory limits. The complete chess download is verified;
 bounded parsing remains unbuilt. Other projects retain their workers. Original
 apparatus failures remain preserved and landed.
 
@@ -78,7 +84,7 @@ floor. No eligible prepared successor exists; P4/D1 fitting, blind references
 and bounded parsing remain implementation work. The commission is not complete.
 [Inspection receipt](results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json).
 
-Next fixed health inspection: **October 17 08:52:58 PDT**. Current inspection ACK is verified. Immediate
+Next fixed health inspection: **October 17 14:58:11 PDT**. Current inspection ACK is verified. Immediate
 completion/failure supervision continues. No extra ETA wakes are scheduled.
 The dated inspections below describe the earlier, completed continuation.
 

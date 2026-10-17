@@ -1,5 +1,11 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 17 08:53 health inspection:** the admitted full suggestion run is
+progressing with intact checkpoints, source/research locks, owned GPU lease and
+verified terminal/disappearance monitoring and actual health delivery. No new
+instrument or admission.
+[Inspection](../results/phase_2_4_stage_15/HEALTH_20261017_0853_PUBLIC.json).
+
 **Suggestion main is admitted by a complete unchanged-score timing pilot.**
 All 6176 native-token losses exactly match v3, with identical safety-check counts.
 All output/source bindings and loaded telemetry comparisons verify. The threefold

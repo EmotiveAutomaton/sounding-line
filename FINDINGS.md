@@ -9,6 +9,50 @@ ran it.
 
 ---
 
+### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
+
+**Hypothesis.** Is the authorized full suggestion run progressing with intact
+evidence and monitoring, or does an operational failure require recovery?
+**METHOD.** Match the worker and launcher to their native creation identities,
+GPU inventory and exclusive lease. Check checkpoint freshness and hashes, frozen
+source/research locks, resource and output limits, all Stage 15 terminal markers,
+published receipt bindings, executable successors and actual health delivery.
+No model call or scientific statistic is added by this inspection.
+
+The table reports operational checks, not unfinished scientific results.
+
+| Check | Complete inspection result |
+|---|---|
+| Execution | One active compute worker with its launcher; native GPU ownership and advancing checkpoints verified |
+| Integrity | 231 completed checkpoint hashes, 96 source pins and all 21 research locks pass |
+| Terminals | 109 terminal markers and 24 published receipt bindings checked; no new failure or unlanded terminal |
+| Resources | About 54 GiB RAM, 47 GiB commit headroom and 412 GiB disk available; 5,003 MiB GPU free at 43 C |
+| Bounds | Existing runtime/output limits retained; exclusive GPU lease matches the worker; CPU leases absent |
+| Delivery | Watcher native identity, loaded sources, fresh scan, urgent terminals, disappearance monitoring and actual owner delivery verify |
+| Next work | No prepared executable successor; typed/history, fitting, references, parsing and downstream cards remain unbuilt |
+
+**Found.** Gear 2 is progressing without a detected worker, evidence, lease,
+resource or delivery failure. The status JSON and stage evidence navigation
+still described the earlier idle/resource-held state. **Means.** Continue the
+unchanged admitted run and reconcile those stale descriptions. No restart,
+gate change, new paid request or scientific admission is needed.
+
+The completed pilot remains the admission evidence; this health check verifies
+retained hashes and progress, not full-corpus statistics. Companion witness and
+return-note bytes are unchanged; companion Git heads were not refreshed. Local
+campaign accounting is reconciled with no active paid worker; no provider query
+was made. Historical notification failures remain visible, while this health
+delivery succeeded. The September shell queue log is historical. No tests
+harvested this pass. The full commission remains open.
+
+Curator roll-up: operations; Is authorized execution healthy and recorded?;
+**Infrastructure**; The full suggestion run progresses within its unchanged controls;
+project meaning: keep the admitted work running while preserving unfinished scope;
+next engineering obligation: independently verify its complete outputs and retain
+the separate implementation backlog; public scientific claims unchanged; curator
+decision required: No; detail:
+[inspection receipt](results/phase_2_4_stage_15/HEALTH_20261017_0853_PUBLIC.json).
+
 ### OPS-S15-DRIVE-SUGGESTION-V4 - same scores, admitted runtime
 
 **Hypothesis.** Can lower-overhead safety telemetry make the unchanged

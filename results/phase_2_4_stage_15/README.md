@@ -1,15 +1,22 @@
 # Stage 15 evidence
 
-**October 17 reader recovery:** [bounded float32 memory validation is complete](DRIVE/READER_PILOT_V6.md).
+**Current execution:** [full suggestion main](DRIVE/SUGGESTION_MAIN_V4_LAUNCH.json)
+is running after [complete timing admission](DRIVE/SUGGESTION_PILOT_V4.md).
+The [08:53 health inspection](HEALTH_20261017_0853_PUBLIC.json) verifies native
+ownership, fresh intact checkpoints, resource floors and actual watcher delivery.
+No restart is needed. Typed/history and other unbuilt cards remain separate.
+[Verified ACK and next check](HEALTH_20261017_0853_ACK_PUBLIC.json).
+
+**Earlier October 17 reader recovery:** [bounded float32 memory validation is complete](DRIVE/READER_PILOT_V6.md).
 All fixed-pilot numerical and memory checks pass; native worker exited and lease
-released. Earlier failures remain recorded. Full-corpus execution remains unbuilt;
-pilot apparatus validity does not establish a scientific result.
+released. Earlier failures remain recorded. The later suggestion main above is
+now running; typed/history remains unbuilt. Pilot validity is not a scientific result.
 
 [October 17 walkthrough handoff](WALKTHROUGH_HANDOFF_20261017.md) and
 [final record check](WALKTHROUGH_CHECK_20261017.json) distinguish verified
 completed evidence from unfinished studies. Stage 15 remains open.
 
-[October 17 health](HEALTH_20261017_0245_PUBLIC.json) verifies intact evidence,
+[Earlier October 17 02:45 health](HEALTH_20261017_0245_PUBLIC.json) verifies intact evidence,
 native closure, locks, released leases and actual delivery. No new failure or
 eligible prepared successor. The reader is resource-held and independent cards
 still need implementation; the drive commission remains open.
@@ -25,8 +32,8 @@ its native exit and retained evidence are verified. Reader restart is held.
 **October 16 drive:** [current execution index](DRIVE/INDEX.md), completed
 [source replay](DRIVE/P2.md), [paid admission](DRIVE/G3-A0.md),
 [source references](DRIVE/S0.md) and preserved apparatus failures. New local
-work is partly implemented; calibration is complete and reader recovery remains
-held. This does not close the whole drive commission.
+work is partly implemented; calibration and reader recovery are complete, and
+the suggestion main above is running. This does not close the whole commission.
 
 [October 16 afternoon health](HEALTH_20261016_1423_PUBLIC.json) verifies
 continued native closure, evidence, resources, locks and actual delivery.
