@@ -44,6 +44,42 @@ Curator roll-up, P4: reader inference; Does content improve the chronological ha
 
 Curator roll-up, P4 extension: reader inference; Do writer offsets improve the content forecast?; **Narrows**; Positive offset gain also survives the shuffled control; project meaning: useful content-specific personal prediction is not established; next engineering obligation: complete calibration and keep offsets separate from taste claims; public claim unchanged; curator decision required: No; detail: extension report above.
 
+**Later in the same landing batch: D34.**
+
+**Hypothesis.** A writer's unexplained choices may point in a persistent content direction across sessions, as a probe for an omitted goal.
+**METHOD.** Compare session-centered handling residuals across 53 writers against 1,000 within-session probability-decile permutations. Test content directions against session-state and reader-feature rivals, held-last-session sign prediction and five fixed planted-taste controls.
+**Found.** The content-alignment excess is 0.00775, with a 95% interval of [-0.01446, 0.03284]. Only the reader-feature rival is positive; held-session prediction does not clear chance, and none of the five planted controls is detected. **Means.** No hidden-goal result is established. The declared verdict is STATE OR MISFIT, with inadequate demonstrated sensitivity to call the unexplained part noise. The marginal primary opens its one frozen extension using the completed content reader.
+
+[Complete residual-direction report](results/phase_2_4_stage_15/DRIVE/D34.md) retains every rival, control, exclusion and verification binding. The one conditional extension is running; no extension score is reported. Theory/TODO integration remains due at the packet digest.
+
+Curator roll-up, D34: reader inference and goal structure; Do unexplained choices retain a content direction across sessions?; **Narrows**; Content alignment is unresolved and the reader-feature rival remains; project meaning: neither hidden goal nor demonstrated noise is licensed; next engineering obligation: finish the frozen better-reader extension and calibration; public claim unchanged; curator decision required: No; detail: D34 report above.
+
+**Later in the same landing batch: D34 extension.**
+
+**Hypothesis.** A persistent unexplained content direction should survive replacing the original reader with the completed content reader.
+**METHOD.** Replay that reader's exact saved forecasts and repeat the frozen residual-direction test on its held-out records from 38 eligible writers, with actual reader-input and session-state rivals, permutations and held-last-session prediction.
+**Found.** The content-alignment excess is 0.00729, with a 95% interval of [-0.02981, 0.04590]. Neither the rival comparisons nor held-session prediction clears its declared criterion. **Means.** The extension remains marginal and the mechanism verdict is UNDETERMINED. Under the packet's ladder rule this closes the parent as one null for routing, without establishing that the residuals are noise. The supported correction-cohesion variant is next when its extraction input is ready.
+
+[Complete stricter-reader report](results/phase_2_4_stage_15/DRIVE/D34-extension.md) preserves its changed support, all controls and the absent matched-power calibration.
+
+Curator roll-up, D34 extension: reader inference and goal structure; Does unexplained direction survive the content reader?; **Narrows**; The stricter-reader contrast remains unresolved; project meaning: hidden-goal and noise claims both remain unlicensed; next engineering obligation: run the supported correction-cohesion variant when P5 completes; public claim unchanged; curator decision required: No; detail: extension report above.
+
+**Later in the same landing batch: P5 and P6 apparatus.**
+
+**Hypothesis.** The writing logs may support a complete sentence and correction ledger for the commissioned tests.
+**METHOD.** Replay every frozen session, construct sentence representations and classify each edit under the fixed housekeeping/content rules. Verify all retained output hashes and the aggregate census in a fresh process.
+**Found.** All 1,399 sessions and 203,462 edits are accounted for, with no truncated vectors. The ledger contains 22,494 writer-typed sentences. **Means.** This extraction input is ready for the dependent correction studies; it is not a result of the separate predictive or correction-cohesion tests.
+
+**Hypothesis.** The word-baseline scores should reproduce exactly from the retained token probabilities.
+**METHOD.** Inspect the verification failure and recompute every saved token surprisal and session reduction under both arithmetic orders.
+**Found.** All token values and left-to-right reductions match exactly. Verification instead used Python's compensated sum, differing by at most 1.46e-11 in a session total. **Means.** This is an arithmetic-replay failure, not a negative research result. Preserve the failed attempt and use the one permitted engineering recovery to reproduce the original accumulation exactly, without changing any score or tolerance.
+
+Complete receipts: [P5](results/phase_2_4_stage_15/DRIVE/P5.md), [P6 failure](results/phase_2_4_stage_15/DRIVE/P6-failed.md). No scientific p-value or family count is added.
+
+Curator roll-up, P5: decision traces; Can all logged sentences and edits support the downstream tests?; **Infrastructure**; The full frozen extraction is verified; project meaning: dependent correction tests can proceed; next engineering obligation: dispatch reviewed consumers; public claim unchanged; curator decision required: No; detail: P5 report above.
+
+Curator roll-up, P6: timing apparatus; Do saved word scores reproduce exactly?; **Infrastructure**; Arithmetic order caused verification refusal with retained scores intact; project meaning: no scientific result yet; next engineering obligation: validate one exact-arithmetic recovery; public claim unchanged; curator decision required: No; detail: P6 failure report above.
+
 ### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
 
 **Hypothesis.** Is the authorized full suggestion run progressing with intact

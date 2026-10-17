@@ -22,7 +22,8 @@ PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
-P5/P6, full V4 calibration and D34 residual directions are running. A finite,
+P5 and D34 are recorded; V4 and D39 are running, while P6 needs its one
+validated arithmetic recovery. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

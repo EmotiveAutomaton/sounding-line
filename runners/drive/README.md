@@ -20,7 +20,11 @@ Raw text, per-writer models and private intermediates remain excluded from Git.
 `menus_p4_extension`; both preserve the original pilot sources. `menus_v4` runs
 the fixed three-world timing pilot; `menus_v4_full` is admitted and running with
 verified pilot reuse. `menus_d34` implements the reviewed residual-direction
-primary, its fixed planted controls and held-session transfer checks.
+primary, its fixed planted controls and held-session transfer checks. The separately
+verified extension retains exact content-reader designs. `menus_d34_v1` restricts
+correction cohesion to directly linked model corrections under curator approval.
+`events_d32` excludes every sampled copy of the recipient from bootstrap donors;
+`events_d39` verifies destructive revision against authenticated original codepoints.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 

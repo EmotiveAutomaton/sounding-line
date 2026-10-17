@@ -3,8 +3,8 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-The GPU suggestion main continues; P5 sentence/edit extraction, P6 word baseline,
-full V4 calibration and D34 residual directions hold counted CPU leases.
+The GPU suggestion main continues alongside full V4 calibration, D39, D32 and D34.v1.
+P5 is verified complete. P6 needs its separately validated arithmetic recovery.
 The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
 
@@ -13,17 +13,19 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
 | V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 pending |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
-| P5 | dispatched, checkpointed CPU extraction | Supplies edit/sentence features; no result yet |
-| P6 | dispatched, checkpointed CPU baseline | Supplies D30/D33; no result yet |
+| P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
+| P6 | verification failed; retained scores intact | [Arithmetic diagnosis](P6-failed.md); one recovery being validated |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
 | V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
-| D34 | reviewed and dispatched; Phase 0 primary | Four owner-run known-answer tests pass; complete outputs pending |
-| D30/D32/D35/D33/D39/D17 | tested code delivered for owner review; some await P5/P6 | Dispatch by packet rank as inputs and controls finish |
-| D34.v1 | tested supported-subset implementation; awaits P5 and owner review | Directly linked model-suggestion corrections only; broader question OPEN |
+| D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
+| D30/D35/D33/D17 | tested code delivered for owner review; some await P5/P6 | Dispatch by packet rank as inputs and controls finish |
+| D39 | running after nine targeted owner checks | Complete destructive-revision contrast pending |
+| D32 | reviewed and running after verified P5 | Fourteen owner tests pass, including whole-writer bootstrap donor exclusion |
+| D34.v1 | supported subset running after verified P5 | Directly linked model-suggestion corrections only; broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family ladder null counts: K 0, B 0, A 0, G 0, E 0, R 0, S 0, P 0.
-No Tier 1 primary has landed in this wave; shared/instrument passes do not count.
+Family ladder null counts: K 0, B 0, A 0, G 1, E 0, R 0, S 0, P 0.
+D34 is the first resolved Tier 1 parent; shared/instrument passes do not count.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
