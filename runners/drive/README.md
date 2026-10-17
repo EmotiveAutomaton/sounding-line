@@ -16,12 +16,17 @@ The card registry is a dependency map, not a claim that all runners exist.
 Only tested executable plans may enter the native queue. See the drive design
 README for authority and the current operational handoff for launch identities.
 
-No drive worker is active. `v1_phase0_v3` completed the full 150-world calibration;
+`reader_pilot_v6` completed the finite memory-recovery validation; all fixed
+outputs, numerical gates, source hashes, native exit and released lease verify.
+Its no-cache float32 scorer clears only its own BLAS workspace between models.
+Do not rerun this completed pilot. The full-corpus runner remains unbuilt.
+The original v5 cleanup failure remains preserved.
+`v1_phase0_v3` completed the full 150-world calibration;
 its evidence, native exit and released CPU lease are verified.
 `reader_pilot_v4` ended at its finite resource-wait deadline before the largest
 model loaded. Its native worker and launcher exited, GPU lease is released and
-completed outputs are retained. No implicit retry: a separate reviewed finite
-recovery requires adequate fixed headroom. Full reader scoring remains held.
+completed outputs are retained. The separate v6 recovery has an explicitly
+reduced memory footprint and tested cleanup. Full reader scoring remains held.
 The completed calibration retains its frozen plan and terminal evidence. No runner executes
 all 31 cards.
 

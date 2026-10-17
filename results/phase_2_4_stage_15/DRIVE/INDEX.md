@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**October 17 memory recovery:** v6 is [verified complete](READER_PILOT_V6.md).
+Precision, fixed-pilot contexts and loss tolerance are preserved; native worker
+exited and lease released. Full-corpus history/roster preparation, representative
+sizing and checkpointed execution remain unbuilt. The older health snapshot
+below predates this explicitly authorized recovery.
+
 The packet is partly implemented. Completed work below has a full internal
 write-through; registered studies still need executable plans. No unfinished
 scientific scores are reported. Earlier Stage 15 queues remain closed.
@@ -19,7 +25,7 @@ is verified; the next fixed inspection is October 17 08:52:58 PDT.
 The original [capacity failure](V1_CAPACITY_V2.json) is fully recorded. The
 [lossless recovery completed](V1_PHASE0.json), preserving all 120 complete
 checkpoints and fitting the remaining 30 worlds. Native exit and released lease
-verify. No drive worker is active; remaining cards still need executable plans.
+verify. The reader recovery above is complete; remaining cards still need executable plans.
 
 Paid admission is complete: four cents spent, no active batch. Six constructed
 features pass; tone, contradiction and themes remain disabled. G3-A/B/D/F are
@@ -35,7 +41,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | S0-T4 | delivered aggregate |
 | S0-T4-104 | held released exclusion roster |
 | V2 | verified complete |
-| P1 | v4 resource deadline exhausted; recovery and full pass held |
+| P1 | v6 memory pilot verified complete; full-corpus runner not built |
 | P3 | blind reference and classifier not built |
 | P4 | content features verified; fit not built |
 | S0-T2 | download verified parsing not built |
@@ -82,7 +88,7 @@ runner exists. Dependencies are necessary inputs, not evidence of admission.
 | 30 | D19: Factorized process/content recipes | registered not built | P1, P2 |
 | 31 | D10: Embedding panels | registered not built | S0-T4 |
 
-Next engineering work: full reader-pass admission and context/history packing;
+Next engineering work: full reader-pass context/history packing and throughput-sized execution;
 P4/D1 fitting under [recipient-specific chronology](../../../docs/design/stage-15/drive/P4_CHRONOLOGY.md);
 blind native edit references; bounded chess parsing and Wikipedia text pairs;
 then concrete gated paid routes. The earlier failed Ghost profile witness still

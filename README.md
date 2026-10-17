@@ -14,8 +14,7 @@
 **Current commission:** the [October 16 drive packet](docs/design/stage-15/drive/README.md)
 is partly implemented and active in Gear 2. Full source replay and first paid
 instrument admission and the complete outcome calibration are recorded. The
-reader is resource-held; remaining cards need executable plans. No scientific
-worker or paid batch is active at the latest [health inspection](results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json). See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the full-corpus execution plan remains unbuilt. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 for completed, waiting and unbuilt work, and [current status](CURRENT_STATUS.md)
 for monitoring, spending and scientific gates. Earlier continuation queues stay closed.
 

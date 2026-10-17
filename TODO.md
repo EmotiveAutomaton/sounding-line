@@ -1,5 +1,15 @@
 # TODO: the study queue
 
+- [x] OPS-S15-DRIVE-READER-MEMORY-V5: cleanup-guard failure, native exit,
+  lease release and source bindings recorded. Original arrays remain intact.
+- [x] OPS-S15-DRIVE-READER-MEMORY: complete v6 pilot independently verified;
+  full fixed ladder, numerical controls, bounded memory, source/output hashes,
+  native exit and released lease recorded. Original v4/v5 failures preserved.
+- [ ] S15-DRIVE-P1-FULL: implement history context and typed-sentence roster,
+  validate visibility/packing, measure representative throughput and retained
+  bytes, then freeze a bounded checkpointed full-corpus execution plan using the
+  admitted memory implementation. No full-corpus worker is queued yet.
+
 - [x] OPS-S15-WALKTHROUGH-1017: final retained-evidence, documentation, accounting
   and publication review complete; stage closure is not implied.
 
@@ -7,7 +17,7 @@
   locks, resources, dependencies and actual delivery verified. No new failure
   or eligible prepared successor; reader remains below its fixed memory floor.
 - [ ] S15-DRIVE-P4-D1: build and validate the shared predictive fit under
-  recipient-specific chronology, independently of the resource-held reader.
+  recipient-specific chronology, independently of the unfinished full-corpus reader runner.
   Content representations are ready; no executable fit is queued yet.
 
 - [x] S15-DRIVE-V1-PHASE0-LANDING: all 150 worlds, compressed/raw bindings,
@@ -39,10 +49,9 @@
 
 - [x] OPS-S15-DRIVE-PRECISION: complete paired diagnostic independently
   verified and recorded. Float32 remedy supports a separate full pilot.
-- [ ] S15-DRIVE-P1-PILOT: v4 stopped at its resource deadline before the
-  largest model. Hold until the fixed headroom is available and a separate
-  finite checkpoint-reuse recovery is reviewed. Check eligibility at the existing
-  six-hour health inspection; no waiting-clock reset or partial-ladder admission.
+- [x] S15-DRIVE-P1-PILOT: complete v6 fixed pilot passes unchanged accuracy
+  gates inside its lower memory budget; full write-through and native closure
+  verified. Full-corpus scoring remains unrun under S15-DRIVE-P1-FULL.
 
 - [x] OPS-S15-DRIVE-V1-ORDER: original waiting attempt cancelled before any world;
   overlap-order correction verified on all source features and separately queued.

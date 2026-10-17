@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-17T13:58:23.217117+00:00",
+  "status": "VERIFIED_COMPLETE_PILOT",
+  "terminal_sha256": "71d66daf173494b3b6ab05423642c4c043b64339bac63c3b52fb34e5d247811e",
+  "plan_sha256": "efad9c410614b53c371e11db3645a81612dca592ef20ef6595c23e90a8bfd5de",
+  "outputs_verified": 22,
+  "source_pins_verified": 52,
+  "native_exit_verified": true,
+  "gpu_lease_released": true,
+  "monitor_handshake_verified": true,
+  "models": {
+    "pythia1000": {
+      "menu_contexts": 44,
+      "items": 184,
+      "eligible": 184,
+      "excluded": 0,
+      "target_tokens": 2808,
+      "comparisons": 184,
+      "maximum_absolute_token_loss_difference": 2.956390380859375e-05,
+      "peak_allocated_MiB": 3919.3447265625,
+      "peak_reserved_MiB": 3970.0,
+      "minimum_sampled_free_MiB": 3218.0,
+      "seconds": 51.55909559997963,
+      "target_tokens_per_second": 54.46177764221895
+    },
+    "pythia1400": {
+      "menu_contexts": 44,
+      "items": 184,
+      "eligible": 184,
+      "excluded": 0,
+      "target_tokens": 2808,
+      "comparisons": 4,
+      "maximum_absolute_token_loss_difference": 2.5272369384765625e-05,
+      "peak_allocated_MiB": 5599.1025390625,
+      "peak_reserved_MiB": 5842.0,
+      "minimum_sampled_free_MiB": 1327.0,
+      "seconds": 54.12903719994938,
+      "target_tokens_per_second": 51.87603817203359
+    },
+    "pythia410": {
+      "menu_contexts": 44,
+      "items": 184,
+      "eligible": 184,
+      "excluded": 0,
+      "target_tokens": 2808,
+      "comparisons": 184,
+      "maximum_absolute_token_loss_difference": 0.0013246536254882812,
+      "peak_allocated_MiB": 1579.08203125,
+      "peak_reserved_MiB": 1598.0,
+      "minimum_sampled_free_MiB": 5624.0,
+      "seconds": 51.63378770003328,
+      "target_tokens_per_second": 54.382994645155385
+    },
+    "qwen500": {
+      "menu_contexts": 44,
+      "items": 184,
+      "eligible": 184,
+      "excluded": 0,
+      "target_tokens": 2712,
+      "byte_identical_reuse": true
+    },
+    "smol360": {
+      "menu_contexts": 44,
+      "items": 184,
+      "eligible": 184,
+      "excluded": 0,
+      "target_tokens": 2816,
+      "byte_identical_reuse": true
+    }
+  },
+  "probe": {
+    "at": "2026-10-17T13:51:59.003237+00:00",
+    "finite": true,
+    "gpu": {
+      "free_MiB": 1522.0,
+      "temperature_C": 55.0,
+      "used_MiB": 10476.0
+    },
+    "max_allocated_bytes": 5871084544,
+    "max_reserved_bytes": 6039797760,
+    "scientific": false,
+    "target_tokens": 32,
+    "window_tokens": 2048
+  },
+  "versions": {
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.13.0+cu126",
+    "transformers": "5.14.1"
+  },
+  "scientific_admission": false,
+  "full_corpus_dispatch": false,
+  "reused_runtime_version_provenance_limitation": true,
+  "inspection_sha256": "7029608ed6b82468e03d363102a8d2bc902ed1fc107d494f97d6bca5942097f2",
+  "instrument_admission": "COMPLETE_FIXED_PILOT_ONLY",
+  "software_tests_passed": 9,
+  "cuda_cleanup_tests_passed": 1,
+  "original_failures_preserved": true,
+  "raw_root": "results/phase_2_4_stage_15/raw/drive-reader-pilot-v6",
+  "allocator_cap_MiB": 5888,
+  "working_free_floor_MiB": 1024,
+  "numerical_tolerance": 0.02,
+  "next": "Implement full-corpus contexts/history, representative throughput sizing, checkpoints and a separately frozen execution plan",
+  "limits": [
+    "Three Pythias recomputed; Smol/Qwen retained byte-identically with original missing contemporaneous runtime-version provenance",
+    "Sampled free-memory minima are not a continuous trace or a guarantee under larger competing workloads",
+    "Throughput measures the fixed short-menu pilot, not a full-corpus forecast",
+    "Pilot covers four contexts; writer-history context and typed-sentence roster remain full-pass implementation work",
+    "No human scientific comparison or full-corpus dispatch"
+  ],
+  "validation_log_sha256": {
+    "READER_MEMORY_TESTS.log": "01b3214f874afd6f5c6f3ff4aa8b617b4fcab42d143cb2969dae8ed2fca7826d",
+    "READER_CLEANUP_TEST.log": "76fbf476fdff1c908c15d3a05e4df024a8773dd0c90a732823976895b1361462"
+  }
+}

@@ -9,6 +9,70 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-READER-MEMORY-V6 - complete lower-memory reader pilot
+
+**Hypothesis.** Can the same reader pilot fit alongside other applications
+without reducing precision, context or numerical accuracy?
+**METHOD.** Recompute all three fixed Pythias with float32, no attention cache
+and bounded vocabulary projection, against retained smaller-reader and ordinary
+direct controls; reuse completed Smol/Qwen bytes. Independently verify complete
+input/token alignment, finite loss reductions, numerical checks, source/output
+bindings, native closure and watcher supervision.
+
+The table reports complete instrument checks, not scientific comparisons.
+
+| Check | Complete result |
+|---|---|
+| Coverage | Five readers, 11 menus and four contexts; 184 eligible targets per reader |
+| Memory | Largest reader reserves at most 5842 MiB under a 5888 MiB cap; minimum sampled free 1327 MiB exceeds the 1024 MiB buffer |
+| Accuracy | Every frozen comparison passes unchanged 0.02 tolerance; maximum new-reader difference 0.001325 nats per token |
+| Controls and integrity | Nine software checks, one actual CUDA cleanup check, all 22 output bindings and 52 source/input pins pass |
+| Endpoint | Exact native worker exited and GPU lease released; original failures preserved |
+
+**Found.** The complete fixed pilot passes its memory and numerical checks.
+The largest reader retained at least 1.29 GiB of sampled free GPU memory.
+**Means.** The smaller-memory implementation works on this pilot while other
+applications remain open; the full-corpus run still needs its own execution plan.
+
+This is apparatus validation on a fixed exposed menu pilot, not a scientific
+comparison. All three Pythias were recomputed; two earlier readers were reused
+byte-identically and retain their missing contemporaneous runtime-version
+provenance. The largest reader's direct-equivalence controls cover its first
+menu in every context, plus a separate full-window memory probe. Sampled free
+memory and short-menu throughput do not guarantee whole-corpus fit or runtime.
+History/typed-sentence packing and checkpointed execution remain unbuilt.
+No scientific test was harvested from this operational wake.
+
+Curator roll-up: operations; Can the same reader fit beside other work?;
+**Infrastructure**; The complete fixed pilot passes with a smaller memory footprint;
+project meaning: the resource obstacle has a validated implementation remedy;
+next engineering obligation: build and size the full-corpus execution plan;
+public scientific claims unchanged; curator decision required: No; detail:
+[complete report](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
+
+### OPS-S15-DRIVE-READER-MEMORY-V5 - unload guard stopped the recovery
+
+**Hypothesis.** Can a bounded no-cache float32 implementation finish the same
+reader pilot while other applications remain active?
+**METHOD.** Preserve v4, freeze the same inputs and models, validate blocked
+vocabulary projection on known-answer and ordinary-direct controls, and start
+a monitored finite equivalence pilot under a smaller allocator budget.
+
+**Found.** All nine targeted software checks pass. The real worker stops at
+its between-model allocator-empty guard, before the larger readers. The exact
+native worker exited, its lease is released and all 49 source/input pins verify.
+The failed attempt and retained arrays remain intact. **Means.** This is an
+implementation cleanup failure, not a scientific null or a completed feasibility
+pass. The separate v6 successor subsequently validates explicit native BLAS
+workspace release and completes the fixed pilot; the original failure remains.
+No scientific score or full-corpus admission is reported.
+
+Curator roll-up: operations; Can the same reader work within a smaller memory
+footprint?; **Infrastructure**; The recovery stopped at its cleanup guard;
+project meaning: full-reader admission remains open; next engineering obligation:
+apply the separately validated v6 remedy to a sized full-pass plan; public claims unchanged;
+curator decision required: No; detail: [failure receipt](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V5.json).
+
 ### OPS-S15-WALKTHROUGH-1017 - recorded evidence ready, commission still open
 
 **Hypothesis.** Is the retained work complete enough as a record for the curator's

@@ -1,5 +1,21 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Reader memory implementation is validated on the complete fixed pilot.**
+All three float32 Pythias finish with unchanged numerical tolerance and contexts;
+Smol/Qwen outputs remain byte-identical. The largest reader reserves 5842 MiB
+under the 5888 MiB cap and retains 1327 MiB sampled free memory. Nine software
+checks and the actual CUDA cleanup test pass; native exit, released lease and
+all evidence bindings verify. Process-local BLAS workspace release preserves the
+exact-zero unload guard. Full-corpus history/roster construction, representative
+throughput sizing and checkpointed execution remain unbuilt.
+[Complete report](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
+
+**October 17 reader memory recovery:** blocked vocabulary projection passes nine
+targeted software checks. The first real recovery stopped at its allocator-unload
+guard; its native exit, released lease and source pins verify. The separate v6
+successor above completes the fixed pilot after validated workspace cleanup.
+[Preserved failure](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V5.json).
+
 **October 17 review validation:** all 47 targeted drive tests, research locks and
 existing theory/design linters pass. Completed output bindings and source pins
 verify; this does not admit the unfinished reader or other unbuilt cards.

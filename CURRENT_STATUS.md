@@ -1,5 +1,14 @@
 # Current status
 
+**October 17 reader memory recovery is verified complete.** The full fixed
+pilot passes unchanged numerical gates with float32 Pythias and bounded output
+projection. The largest reader leaves at least 1.29 GiB of sampled free GPU
+memory within the 5.75 GiB allocator cap. Exact native exit, released GPU lease,
+all outputs and source pins verify. No reader worker or paid batch is running.
+Full-corpus contexts/history, representative sizing and a checkpointed execution
+plan remain unbuilt; pilot completion does not close the commission.
+[Complete recovery report](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
+
 **October 17 final review:** completed evidence and documentation are verified
 for the requested publication and theory walkthrough. The commission remains
 open with resource-held and unbuilt work. [Review handoff](results/phase_2_4_stage_15/WALKTHROUGH_HANDOFF_20261017.md).
@@ -23,11 +32,11 @@ The [complete calibration report](results/phase_2_4_stage_15/DRIVE/V1_PHASE0.md)
 records the unchanged full grid and all controls. Storage recovery preserved
 the 120 completed checkpoints and computed the remaining 30 worlds within the
 original byte and aggregate time caps. Original evidence stays intact. The
-worker exited and released its lease. No drive worker or paid batch is running;
+worker exited and released its lease. The reader recovery above has completed; no paid batch is running;
 remaining cards need their own implemented, validated executable plans.
-The reader is held after its [resource failure](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V4.json); native exit,
-released GPU lease and retained outputs verify. Current headroom remains below
-the fixed floor. Revisit at the existing health inspection; no implicit retry. See the [recovery launch](results/phase_2_4_stage_15/DRIVE/V1_STORAGE_LAUNCH.json).
+The original reader attempt remains closed after its [resource failure](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V4.json); native exit,
+released GPU lease and retained outputs verify. Its original gate remains unchanged.
+The separately authorized v6 memory recovery has completed. See the historical [calibration recovery launch](results/phase_2_4_stage_15/DRIVE/V1_STORAGE_LAUNCH.json).
 
 Gear 3 has spent **$0.04** in the new campaign, with no active batch. Six
 constructed features pass; tone, contradiction and themes remain disabled.
@@ -36,7 +45,7 @@ still need implementation. The first-$10 guard remains; the packet requires
 a concrete final approval before more. The earlier failed Ghost witness still
 blocks the separate profile-engine comparison. Stage 15 remains open.
 
-The October 17 health inspection verifies no active scientific worker or paid
+The earlier October 17 02:45 health inspection verified no active scientific worker or paid
 batch, no new terminal/failure, intact evidence and locks, released leases and
 actual watcher delivery. Reader headroom is 6,401 MiB against its fixed 8,500 MiB
 floor. No eligible prepared successor exists; P4/D1 fitting, blind references

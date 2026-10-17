@@ -739,6 +739,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A deleted model can leave native framework workspaces outside Python's tensor inventory.**
+  A reader stopped at its exact-zero unload guard after model deletion and
+  `empty_cache()`. A bounded tiny-model probe verified that the model had been
+  collected while a cuBLAS workspace remained; synchronized process-local
+  workspace release returned allocated and reserved bytes to zero. Pin and
+  validate the installed private cleanup API, then exercise actual multi-model
+  transitions in a separate frozen attempt. Do not weaken the guard, reset the
+  device, infer a global driver leak, or stop unrelated applications from this
+  evidence. The complete successor passed numerical and memory validation.
+  (OPS-S15-DRIVE-READER-MEMORY-V6, October 17)
+
 - **Project retained bytes from a full unit, not just runtime from its fit.**
   A finite calibration's session-level fit receipts projected beyond its frozen
   output cap halfway through the grid. Preserve the active attempt and its guard;

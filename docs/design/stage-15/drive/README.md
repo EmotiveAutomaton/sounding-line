@@ -1,5 +1,11 @@
 # October 16 drive commission
 
+**October 17:** [memory recovery v6](READER_PILOT_V6.md) is
+[verified complete](../../../../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
+The fixed pilot preserves precision, inputs and acceptance while replacing cache
+reuse with bounded direct scoring. The full-corpus execution plan remains unbuilt.
+[v5](READER_PILOT_V5.md) and its cleanup-guard failure remain intact.
+
 The curator authorized implementation with the [review amendments](../DRIVE_PACKET_REVIEW_20261016.md)
 on October 16. The [original packet](PACKET.md) is preserved byte for byte.
 This commission extends Stage 15; it does not reopen earlier stages or change

@@ -1,5 +1,12 @@
 # October 16 drive evidence
 
+**Reader memory recovery:** [complete v6 report](READER_PILOT_V6.md) and
+[verification](READER_PILOT_V6.json) establish fixed-pilot numerical and memory
+validity. Native worker exited and lease released. The full-corpus runner remains
+unbuilt. [Launch history](READER_MEMORY_LAUNCH.json),
+[original cleanup failure](READER_PILOT_V5.json), and the
+[fixed contract](../../../docs/design/stage-15/drive/READER_PILOT_V6.md) remain.
+
 [Commission and amendments](../../../docs/design/stage-15/drive/README.md).
 [Current card index](INDEX.md) distinguishes completed, running, queued and
 unbuilt work. This packet is only partly implemented; the index is not a claim

@@ -1,5 +1,10 @@
 # Stage 15 evidence
 
+**October 17 reader recovery:** [bounded float32 memory validation is complete](DRIVE/READER_PILOT_V6.md).
+All fixed-pilot numerical and memory checks pass; native worker exited and lease
+released. Earlier failures remain recorded. Full-corpus execution remains unbuilt;
+pilot apparatus validity does not establish a scientific result.
+
 [October 17 walkthrough handoff](WALKTHROUGH_HANDOFF_20261017.md) and
 [final record check](WALKTHROUGH_CHECK_20261017.json) distinguish verified
 completed evidence from unfinished studies. Stage 15 remains open.
