@@ -23,3 +23,7 @@ October 14 adds the [superseded Stage 14 handoff](STAGE14_IMPLEMENTATION_HANDOFF
 [document relocation ledger](DOCUMENT_RELOCATIONS_20261014.json). The snapshot
 retains its original bytes and dated running statements. Use the current stage
 handoff for operating state.
+
+The [October 16 filing ledger](DOCUMENT_RELOCATIONS_20261016.json) records the
+applied theory errata and byte-verified duplicate incoming Stage 15 briefs.
+Current plans and evidence keep their existing paths.

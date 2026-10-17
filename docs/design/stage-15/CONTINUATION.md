@@ -1,14 +1,23 @@
 # Continuation under the October 14 confirmation and October 15 advance
 
-**Latest authority:** the curator's October 15 afternoon request commissions
-continued useful Gear 2 exploration through the expected next-morning return,
-without making it a deadline or opening a giant new research family. The
-[fixed continuation](OVERNIGHT_CONTINUATION.md) is running. The [native audit](../../../results/phase_2_4_stage_15/NATIVE_PROFILE_AUDIT_PUBLIC.json)
-is complete and independently verified, with exposed-holdout review complete.
-The exact Ghost witness and combined admission still gate fitting. Continue
-at actual terminals and the six-hour health cadence.
-The earlier drained statements below describe predecessor queues only.
+**New October 16 drive:** [separate commission](drive/README.md), execution
+amendments and [current card index](../../../results/phase_2_4_stage_15/DRIVE/INDEX.md)
+supersede this handoff for new work. The historical continuation and its failures
+remain preserved; this file does not describe the new workers as drained.
 
+**Prior continuation endpoint, October 16:** finite Gear 2 queues and profile generation
+are complete, independently verified and fully recorded. No scientific worker
+or paid batch is active. The completed Ghost witness failed admission; profile
+fitting remains unrun pending separately reviewed matching healing evidence.
+Native literal annotation/input preparation remains independent unfinished work;
+[readiness](F4_NATIVE_READINESS.md) distinguishes it from completed profile-source
+validation. Original reader failures and all scientific gates remain.
+
+The October 15 authority covered useful bounded exploration without a giant new
+research family; the expected next-morning return was not a deadline. This
+handoff grants no new scope. Use [current status](../../../CURRENT_STATUS.md) for
+the six-hour inspection deadline and immediate terminal/failure supervision.
+Dated descriptions below retain their original attempt-specific scope.
 
 **October 15 exploration continuation:** the curator authorized a validity pass
 and cheap follow-up tests. The [addendum](VALIDITY_EXPLORATION_ADDENDUM.md) has
@@ -56,13 +65,12 @@ the former Friday wait. No new delegation is needed.
 
 ## Next six-hour inspection
 
-The October 15 13:50 due inspection is recorded in OPS-S15-HEALTH-1015-1350;
-use CURRENT_STATUS for the rearmed deadline. ToMpathy engine commit `82789fdb50d9366ab9352129b01ee37622554dfa` remains
-the verified isolated capsule. Its owner has an uncommitted service edit; do not
-import that mutable working source. Scientific admission remains open. Ghost V21
-is closed; a V23 spec location is unconfirmed in the inspected checkout, and
-no exact-implementation next-round admission witness was found. This corrects
-the earlier unqualified presence assertion without changing companion scope.
+The October 16 afternoon inspection verifies drained execution and unchanged
+companion returns. ToMpathy's isolated engine capsule remains `82789fdb50d9`.
+The received Ghost witness fails the reviewed scientific admission; the earlier
+absence is historical. No matching healing witness has been received. Companion
+Git heads were not refreshed after the prior ownership refusal; no override was
+introduced. Inspect exact identity and evidence when an updated return arrives.
 Keep the independent
 21,600-second cadence; ordinary completions do not move it. Immediate failures,
 native disappearance and queue drain remain registered. Inspect and record:

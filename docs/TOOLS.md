@@ -1,5 +1,115 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 17 review validation:** all 47 targeted drive tests, research locks and
+existing theory/design linters pass. Completed output bindings and source pins
+verify; this does not admit the unfinished reader or other unbuilt cards.
+[Review receipt](../results/phase_2_4_stage_15/WALKTHROUGH_CHECK_20261017.json).
+
+**October 17 queue inspection:** completed-worker identities, retained bindings,
+source/research locks, released leases and actual watcher delivery verify. No
+scientific worker or paid batch is active. GPU headroom remains below the fixed
+reader floor, so its finite failed attempt stays closed. Remaining cards need
+executable plans; no new instrument or scientific admission is inferred.
+[Health receipt](../results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json).
+
+**Phase 0 outcome calibration complete:** the full constructed grid is verified
+and recorded (FINDINGS S15-DRIVE-V1-PHASE0). The largest constant accept offset
+is recovered in 10/10 worlds; other planted cells meet the criterion in 0/10.
+Zero-injection cells have no observed recovery. Ten-world uncertainty is broad;
+this establishes limited instrument sensitivity, not a general detection guarantee
+or human claim. [Full report](../results/phase_2_4_stage_15/DRIVE/V1_PHASE0.md).
+
+**Drive reader resource deadline:** v4 stopped before its largest model loaded.
+The exact native worker and launcher ended, the GPU lease was released, all
+source pins match, and retained outputs have complete fixed-menu support and
+finite arrays. Current free GPU memory remains below the fixed cold-load floor.
+The pilot and full scoring stay unadmitted; no scientific null is inferred.
+CPU calibration recovery is complete, verified and recorded. [Failure receipt](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V4.json).
+
+**Drive original storage cap fired:** exact native exit, released CPU lease,
+original source bindings and the full consecutive checkpoint inventory verify.
+Completed evidence remains unchanged. The lossless recovery subsequently completed;
+all retained constructions and statistics independently reconcile. The original
+interruption itself establishes no scientific result.
+[Failure receipt](../results/phase_2_4_stage_15/DRIVE/V1_CAPACITY_V2.json).
+
+**Drive storage recovery complete:** a separate runner preserves the
+complete frozen grid and original fitting functions, compresses all retained world
+records losslessly, verifies the complete reusable checkpoint prefix and refuses
+a live or unexpectedly failed predecessor. Eleven targeted checks pass, including
+whole scratch-output equality; the complete real grid now independently replays. The
+hard byte cap and aggregate computation allowance remain enforced. This is an
+operational repair, not scientific admission. [Contract](design/stage-15/drive/V1_PHASE0_V3.md).
+
+**Theory maintenance verified:** the [October 16 application receipt](design/archive/THEORY_ERRATA_20261016_APPLIED.json)
+records exact-anchor, identifier, quotation and newer-result preservation checks
+for the supplied errata. The existing theory-format linter validates the edited
+files. This adds no research instrument or scientific admission.
+
+**Drive precision diagnostic:** identical fixed Pythia inputs fail cached/direct
+agreement in float16 and pass in float32 under the unchanged tolerance. Whole
+retained arrays, runtime identity and native exit verify. The separate five-reader
+pilot tested the remaining Pythia ladder at higher precision with model-specific
+memory admission, then exhausted its bounded wait before the largest model.
+It does not admit full-corpus scoring. Reused earlier
+pilot outputs retain their missing contemporaneous package-version limitation.
+[Diagnostic](../results/phase_2_4_stage_15/DRIVE/READER_DIAGNOSTIC_V2.json) |
+[Full pilot contract](design/stage-15/drive/READER_PILOT_V4.md).
+
+**Drive completed features and forecast decomposition:** the full CPU content
+representation passes retained-vector, visibility and cohort checks; its package
+versions were not frozen, and predictive validity remains untested. All saved
+forecast scores and decomposition identities independently reconcile. The
+whole empirical decomposition is in FINDINGS S15-DRIVE-V2 and the theory dashboard;
+iid corrections are not cluster-valid. The first paired numerical diagnostic
+stopped between precisions; its successor completed as recorded above.
+[Features](../results/phase_2_4_stage_15/DRIVE/CONTENT_V2.json) |
+[Decomposition](../results/phase_2_4_stage_15/DRIVE/V2.md).
+
+**Drive chronology and numerical admission:** the first V1 setup was cancelled
+before any world ran; its corrected successor exactly reproduces original
+features across the complete source roster and passes five tests. Reader pilot
+v3 failed the unchanged numerical tolerance at Pythia 410M; full scoring remains
+held. Exact native exits and retained arrays verify. A fixed paired precision
+diagnostic is separately frozen; it grants no automatic reader admission.
+[Chronology receipt](../results/phase_2_4_stage_15/DRIVE/V1_SETUP_V1.json) |
+[Numerical receipt](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V3.json).
+
+**S15-DRIVE-LICHESS:** the July 2026 standard-game archive is complete and
+independently full-file hashed against the publisher's checksum. Declared
+length, end of file, source pins, terminal records and native exit verify.
+Bounded parsing, the player/position cohort, clock reference and inference
+remain unrun. [Source receipt](../results/phase_2_4_stage_15/DRIVE/LICHESS_INTAKE.json).
+
+**Drive local apparatus and Wikipedia intake:** the first content encoder stopped
+before cohort processing on an installed-tokenizer API mismatch. Its separate
+repair passed actual-tokenizer tests and completed as recorded above. Reader pilot v1 stopped on
+cold-load headroom; v2 waits on the same floor but failed cached/direct agreement.
+The separately frozen v3 tested float32 Qwen with the same tolerance, preserved
+each comparison, and then failed Pythia numerical admission as recorded above. Completed Smol pilot output is reused by exact binding.
+No full reader pass or scientific admission is implied. Wikipedia metadata for
+105 articles is complete and verified; its aggregate reference explicitly uses
+a Wikipedia content SHA-1, requiring companion source-identity review. Full text
+and native intent labels remain unprepared. [Apparatus](../results/phase_2_4_stage_15/DRIVE/P1.md) ·
+[Source reference](../results/phase_2_4_stage_15/DRIVE/S0.md).
+
+**S15-DRIVE-A0-V2 and FOUNDATION:** complete paid known-answer admission has
+six eligible constructed questions; tone, contradiction and themes fail and
+remain disabled. Whole wire replay, class recount, usage and native exit verify.
+The complete human session replay preserves canonical documents/decisions and
+contiguous Unicode origin spans; source references distinguish censored timing
+from observed endpoints. Natural-data and scientific admission remain separate.
+[Admission](../results/phase_2_4_stage_15/DRIVE/A0_V2.json) ·
+[Source integrity](../results/phase_2_4_stage_15/DRIVE/FOUNDATION.json).
+
+**October 16 drive instruments:** exact-score/decomposition, Unicode-origin,
+source-drift, reentry, cap and fake-provider whole-battery controls pass. All five
+requested base model/tokenizer sources are pinned, including Pythia 1B. The first
+Haiku admission setup failed on unsupported array `maxItems` during token counting;
+no inference or spending occurred. Preserve that attempt and validate a separate
+transport repair with the canonical answer parser unchanged. No scientific or
+native-data admission. [Evidence](../results/phase_2_4_stage_15/DRIVE/README.md).
+
 **F4 native readiness:** the [scoped preparation handoff](design/stage-15/F4_NATIVE_READINESS.md)
 separates constructed reader eligibility from source mapping and independent
 literal reference labels. Recorded choice actions do not validate literal
@@ -2223,6 +2333,18 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-DRIVE-V1-CAPACITY:** original byte guard fired with 120 complete
+worlds retained and one construction-only partial. Native exit, lease release,
+checkpoint hashes and source locks verify. Recovery remains storage-only and
+requires all original worlds; this interruption licenses no scientific claim.
+[Receipt](../results/phase_2_4_stage_15/DRIVE/V1_CAPACITY_V2.json).
+
+**OPS-S15-HEALTH-1016-2026:** exact worker identities, advancing calibration,
+GPU resource wait, leases, source/research locks and actual watcher delivery
+verify. Output growth projects beyond the calibration cap; lossless checkpoint
+recovery is built and tested, awaiting the predecessor's terminal review before
+freeze or launch. [Receipt](../results/phase_2_4_stage_15/HEALTH_20261016_2026_PUBLIC.json).
 
 **S15-R6-SMOL-HUMAN-E8-FIRST:** complete replacement producer and readout pass
 all 450 output hashes, source/model bindings, score/contrast/consumer replay and

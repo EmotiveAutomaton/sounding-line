@@ -11,7 +11,7 @@ them; the folders are navigation homes, not duplicate copies of the papers.
 
 | Stage | Status and scope |
 |---|---|
-| [Stage 15](stage-15/README.md) | Finite local and paid queues drained; completed evidence recorded, native validation preparation open and profile comparison gated |
+| [Stage 15](stage-15/README.md) | October 16 drive partly implemented and active in Gear 2; earlier finite queues drained, native validation and profile comparison gates remain |
 | [Stage 14](stage-14/README.md) | Closed October allocation; final packet and integrity filed, deficits retained and successor repairs owned by Stage 15 |
 | [Stage 13](stage-13/README.md) | Closed September campaign; final packet and endpoint retain deficits |
 | [Stage 12](stage-12/README.md) | Closed allocation; final packet retains incomplete comparisons |
@@ -32,7 +32,8 @@ them; the folders are navigation homes, not duplicate copies of the papers.
   benchmark, draft evaluation contract and historical planning maps.
 - [Gear 3 campaigns](gear-3/README.md): cloud rounds linked to their actual stages.
 - [Applied theory errata and original sources](archive/README.md): provenance,
-  including the [October 14 application](archive/THEORY_ERRATA_20261014_APPLIED.json).
+  including the [October 16 application](archive/THEORY_ERRATA_20261016_APPLIED.json)
+  and the earlier [October 14 application](archive/THEORY_ERRATA_20261014_APPLIED.json).
 - [Method shelf](../method/README.md): read before designing or changing an instrument.
 
 ## Filing rules and stable-path exceptions
@@ -51,7 +52,8 @@ The [Stage 9 source](PHASE_2_4_STAGE_9_CONTEXT.md),
 These exceptions are deliberate, not unfiled incoming work.
 
 Source handoffs stay byte-identical. The [October 14 relocation ledger](../archive/operations/DOCUMENT_RELOCATIONS_20261014.json)
-records moves and mechanical link repairs. Never rewrite frozen cards, source
+records moves and mechanical link repairs; the [October 16 filing ledger](../archive/operations/DOCUMENT_RELOCATIONS_20261016.json)
+records the new errata and verified duplicate incoming briefs. Never rewrite frozen cards, source
 capsules or result receipts to tidy navigation. Experimental outcomes belong in
 FINDINGS, theory or the instrument ledger, and their result directory.
 Filing changes neither validity nor launch, gear, spend or delegation authority.

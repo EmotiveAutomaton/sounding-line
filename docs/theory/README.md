@@ -125,6 +125,19 @@ edits here.
 
 ## Approved wording and source history
 
+The October 16 curator errata is applied across the five theory files. Its
+[original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-16.md)
+and [46-edit application receipt](../design/archive/THEORY_ERRATA_20261016_APPLIED.json)
+preserve the exact source, anchor checks, stable identifiers and before/after
+hashes. The vocabulary now separates needs (set points), deviations, inherited
+drives and learned values. Learned ends, reader convergence, attention sources,
+decision-level authorship and the aesthetic distinctions retain their stated
+curator/analyst attribution and open empirical status. The newer saved-forecast
+result in the reader dashboard is retained. Supplied literature reading labels
+remain attributed handoff evidence, not a new review by the filing operator.
+Ghost V22 and N4b outcomes are not imported by this errata. The source preserves
+the superseded quote and its reading rule; G188 is withdrawn in favor of G191.
+
 The October 14 curator errata is applied across the five theory files. Its
 [original text and quotation-repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-14.md)
 and [application receipt](../design/archive/THEORY_ERRATA_20261014_APPLIED.json)

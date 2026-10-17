@@ -87,6 +87,29 @@ past attention that expertise preserves, and they set how much the reader takes 
 classes are held in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §6, and what a reader does when
 no goal explains the artifact in §5 of the same file.
 
+**Bounded, not irrational** *(2026-10-16)*:
+
+> I immediately want to push back on assuming people are more rational than they are. That just
+> means you don't fully understand the reasoning and what we're trying to balance. We have bounded
+> rationality, and that bounded rationality incorporates context.
+
+*Curator's walkthrough of the analyst's 16 October theory pass, 2026-10-16 (11:56 PDT), in the project's theory and analyst thread; filed 2026-10-16. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+The line the curator answered summarized a finding that language models asked, with chain-of-thought
+prompting, to simulate or predict people's choices between gambles predicted choices closer to
+expected-value maximization than the choices people made
+([Liu et al., 2025](https://arxiv.org/abs/2406.17055), read). On his reading people are boundedly
+rational, with context inside the bound, and the analyst's gloss is that the models left out the
+bound rather than overrating people. Departures from expected value can be the rational use of
+limited time and computation once the cost of thinking counts, the program of resource-rational
+analysis ([Lieder & Griffiths, 2020](https://doi.org/10.1017/S0140525X1900061X), abstract read), and
+in the triple inference the bound enters at the second step, where departures from the reconstructed
+process are explained by attention, habit, history and context. The reading stays testable only
+while the bounds are measured independently of the choices they explain. Optimality accounts whose
+assumptions go untested have produced "just-so stories"
+([Rahnev & Denison, 2018](https://doi.org/10.1017/S0140525X18000936), read); timing, effort and
+recorded context are the independent measures available here.
+
 **Operational definition, ratified 2026-09-01.** Sounding Line is an artifact-grounded
 inverse-generative system that reconstructs a revisable model of how a maker transformed their
 perceived possibilities into an artifact, then tests that reconstruction through hidden future
@@ -151,12 +174,13 @@ Translated into objects, before any claims about their shape:
 | **local subordinate goal** `g_t` | the purpose of a particular choice or region, potentially serving one or several governing goals; not identical to the fact of attending to it | step or region scale |
 | **process** `P`, realized as `tau` | the particular decisions and actions that produced the artifact | artifact-local |
 | **expertise** `K` | the maker's learned transition model, shaping reachable actions and expected consequences; the shared language of a domain; the largest part, never the whole, of the ability to recreate | cross-episode, domain-relative |
-| **set points** `S` | states the maker works to keep or return to, bodily, social or epistemic; the persistent organization older text calls values | longitudinal |
-| **drives** `D` | the inherited emotional primitives, Panksepp's systems with the bodily needs beside them; pre-made solutions to common problems that are themselves set points, each with a need that grows with deprivation; the first layer of the transition map | species-typical; the need is state-dependent |
+| **set points** `S` | the needs themselves, states the maker works to keep or return to, bodily, social or epistemic, inherited or learned; the persistent organization older text calls values | longitudinal |
+| **deviations** `Delta` | the current distance of a state from its set point, growing with deprivation; what homeostatic models call drive; distinct from the process deviations of the second inference, which are departures of recorded decisions from the reconstructed process | state-dependent |
+| **drives** `D` | Panksepp's lower-level emotional systems, inherited pre-made solutions that run from set points; each serves particular set points by default, and people repurpose them for others; the first layer of the transition map | species-typical |
 | **preferences** `W` | direction and strength of observed actions relative to set points, strength read as the cost the maker paid; the quantity extracted | cross-episode |
 | **attention policy** `pi_A` | the rule that allocates processing, steered by expected preference satisfaction; the stream in which preferences show up, recorded lossily by expertise | context-conditioned, cross-episode |
 | **habit** `E` | all repetition, intended or not, and what it predicts the maker does when nothing pushes otherwise; expertise is its intended part | cross-episode |
-| **values** `V` | learned, higher-order solution sets, heuristics that solve broad classes of inference and planning problems in service of the drives; personal to each maker and in principle identifiable | longitudinal |
+| **values** `V` | learned, higher-order solution sets, heuristics that solve broad classes of inference and planning problems in service of set points and built partly from drives; personal to each maker and in principle identifiable | longitudinal |
 | **external context** `C_ext` | commission, coercion, medium, audience, tools, and objective constraints | episode-local |
 | **maker beliefs** `B` | information the maker possessed and what they believed | episode-local, history-shaped |
 | **maker context** `C_m` | external context interpreted through the maker's beliefs and expertise | episode-local |
@@ -188,10 +212,12 @@ do; process is one realized path through it, and results about one do not automa
 to the other. **External context is not maker-interpreted context.** The commission, medium,
 audience, tools, and objective constraints are one thing; the situation as the maker perceived it
 through their beliefs and expertise is another, and an objectively available action was not
-necessarily available to the maker. **Drives are not values, and neither is a preference.** A drive
-is an inherited set point whose need grows with deprivation, a value is a learned and personal
-solution set for serving drives, and a preference is revealed by what the maker pays to close the
-distance to a set point. Treating any of these pairs as synonyms
+necessarily available to the maker.
+**Drives are not set points, and neither is a value or a preference.** A set point is a need and a
+deviation its current distance, a drive is an inherited solution that runs from set points, a value
+is a learned and personal solution set for serving them, though a learned solution can itself become
+a set point by the test in §4 (G191), and a preference is revealed by what the maker pays to close a
+deviation. Treating any of these pairs as synonyms
 is why a vertex of this file has repeatedly appeared and disappeared.
 Where his quotes say "values/drives" as one item, the prose keeps them split.
 
@@ -237,14 +263,56 @@ preferences. From 2026-10-13 a value is a learned, higher-order heuristic, and f
 drive is one of the inherited emotional primitives; older text used drive for any active
 motivational pressure. Identifiers and section titles keep their original wording; new prose uses
 the split. The interface label "core values" stays, and whether its box shows latent preferences
-or the first layer of solutions, the drives, is open. A drive's momentary need is its distance from
-its set point, the quantity homeostatic reinforcement learning calls drive
-([Keramati & Gutkin, 2014](https://elifesciences.org/articles/04811), snippet); that formalization
-is the analyst's. Panksepp kept the emotional systems apart from homeostatic needs such as hunger
+or the first layer of solutions, the drives, is open. From 2026-10-16 the vocabulary is the
+curator's, quoted below. A set point is the need itself, a deviation is the current distance from
+it, and a drive is one of Panksepp's lower-level emotional systems, a pre-made solution that runs
+from set points. Deviation keeps its older sense in the second inference as well, a departure of a
+recorded decision from the reconstructed process, and the context says which is meant. Text and
+quotations dated 2026-10-14 call each drive a set point and count the bodily needs among the drives;
+read their drive as the system together with the set point it serves by default, and their bodily
+needs as set points whose deviations are felt as homeostatic affects such as hunger. Hull's
+tradition and homeostatic reinforcement learning use drive for the deviation, "the distance of the
+internal state from the setpoint"
+([Keramati & Gutkin, 2014](https://elifesciences.org/articles/04811), read), so prose written for
+outside readers says once which sense it means. Panksepp's own taxonomy draws the curator's line. He
+kept the emotional systems apart from homeostatic needs such as hunger
 ([Panksepp, 2007](https://sanlab.psych.ucla.edu/wp-content/uploads/sites/31/2016/03/Panksepp_2007_Perspectives.pdf),
-read), while Solms treats both as needs whose deviations from settling points are felt
+read) and separated homeostatic, sensory and emotional affects, the third being the seven systems
+([Panksepp, 2011](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0021236), read),
+and only the third are drives here. Solms treats homeostatic and emotional affects alike as felt
+needs
 ([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
-read); the drive row follows Solms.
+read), which matches the set point and deviation half of the vocabulary. The curator kept deviations
+over his alternative, wants, and the choice also avoids a collision, since wanting already names
+incentive salience, a cue's learned value scaled by the current need
+([Robinson & Berridge, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3580026/), read).
+
+**Drives, set points and deviations, separated** *(2026-10-16)*:
+
+> A drive isn't quite like a column. A drive is just, again, a pre-made solution. It runs from a set
+> point. The set point is what the drive is in service to. That implies that each one of the drives
+> is used to deal with particular set points. [...] So it's not that the drive has a set [point].
+> Drives are associated with set points. The set points are totally separate.
+
+> Drive's the name for Panksepp's term, Panksepp's lower level emotions. Deviations from the set
+> point are the name for deviations from the set point, and the set point is the name for the need
+> itself. We could really just call it needs and wants or something. The deviations. But we'll stay
+> precise with deviations.
+
+*Curator's walkthroughs of the analyst's 16 October record and handoff questions, 2026-10-16 (12:57 and 14:17 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The column was the analyst's picture of a drive as one piece spanning the levels from its set point
+down to the body's response, and the curator splits the piece. The need is the set point, its
+distance is the deviation, and the drive is the inherited means of closing it, so a drive serves a
+set point without being one. Solms and Friston describe the same arrangement, in which crossing a
+threshold on a vital need arouses affect that triggers "instinctual predictions as to which
+stereotyped behaviour is adequate"
+([Solms & Friston, 2018](https://discovery.ucl.ac.uk/10057681/1/Friston_Paper.pdf), read), and
+perceptual control theory made the cut in 1960, with loops that control toward references set from
+above and a separate system that holds intrinsic references for critical organismic variables
+([Powers, Clark & McFarland, 1960](https://www.iapct.org/wp-content/uploads/2023/08/Powers-et-al-1960-part2.pdf),
+read). How drives come bundled with their set points in animals, and how people repurpose them, is
+in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1.
 
 **Current appraisal, intended audience response, and persistent value are different quantities.** A
 maker can try to induce fear without feeling it; a reader can identify that intention without
@@ -273,7 +341,8 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 | **L-tier2** | Diverse episodes can narrow persistent motivational organization; the relative evidence needs of goal and value recovery remain to be measured | **OPEN for human value recovery and the relative-timescale comparison.** The author-identification curve measures identity, not values (test, L34; G60). Bounded constructed profiles can be recoverable from one artifact or from repeated artifacts (§5 G54; §6 S-15); these are construction-specific results, not human value ground truth. G65 remains the open comparison |
 
 **State of the section's claim.** The object table fixes the working distinctions among
-expertise and process, external and interpreted context, drives and values, and governing
+expertise and process, external and interpreted context, set points and their deviations, the drives
+that serve them and values, and governing
 purpose and focal subgoals. Local estimates carry their region and parent-goal scope;
 recovering an external request does not establish that the maker adopted it. These definitions
 do not establish recoverability. Repeated, diverse episodes are a proposed source of leverage
@@ -970,6 +1039,14 @@ Panksepp label licenses a claim about both, and his phase ruling holds the leg c
 for now: *"The drives-expertise relationship is going to get ugly. Luckily, we do not
 need to figure out that leg of the inference yet."*
 
+**The boundary in the 2026-10-16 vocabulary.** The two things this paragraph separates now have
+names. The inherited channel is the drive, a pre-made solution, and the state-dependent need that
+recruits it is the deviation from a set point (§1, the lexicon and its reading rule). The curator's
+walkthroughs of that day also bear on the drives-expertise leg, with drives as pre-made pieces that
+values and expertise are built from ([`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1),
+without lifting the phase ruling above. Naming the two objects does not test the distinction, so no
+result on a broad Panksepp label yet licenses a claim about both.
+
 **Wanting to want, and expertise as a record of attention** *(2026-10-13)*:
 
 > Most notably, I can't shake the feeling that, for some reason, it sure does seem like most people
@@ -991,6 +1068,10 @@ need to figure out that leg of the inference yet."*
 > want is derived.
 
 *Curator's ToMpathy assessment walkthroughs, 2026-10-13 (10:17 and 16:29 PDT), in the project's assessment thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+**Superseded:** the first quotation below, that learned goals never become ends in themselves and
+are only a massively distorted transition map, is withdrawn by the curator's 2026-10-16 ruling later
+in this section. The second quotation, on how wanting to want trains through repetition, stands.
 
 **No learned ends, and how wanting to want trains** *(2026-10-14)*:
 
@@ -1021,11 +1102,9 @@ should lapse when the need it served is met by other means; one acquired by asso
 persist. The phrase has an established philosophical sense, the second-order desire
 ([Frankfurt, 1971](https://doi.org/10.2307/2024717), snippet), and the associative route resembles
 Allport's functional autonomy of motives
-([Allport, 1937](https://psychclassics.yorku.ca/Allport/autonomy.htm), snippet), with the
-difference the curator insists on. The means never becomes an end. It distorts the transition map
-until the means looks like the best route to a drive, so pursuit that survives the need being met
-is habit, not a new terminal goal. Learning research draws the same line, since outcome
-devaluation separates goal-directed control from habit (Dickinson, snippet) and extended training
+([Allport, 1937](https://psychclassics.yorku.ca/Allport/autonomy.htm), read). Whether pursuit that
+survives the need being met is a habit or a learned end is what the probes below decide. Outcome
+devaluation separates goal-directed control from habit (Dickinson, snippet), and extended training
 makes human responding insensitive to devaluing the outcome
 ([Tricomi, Balleine & O'Doherty, 2009](https://sites.socsci.uci.edu/~lpearl/courses/readings/TricomiEtAl2009.pdf),
 abstract read). The editing example gives the mechanism of change. Wanting to want is a want to
@@ -1033,10 +1112,100 @@ repeat in order to train, the deliberate practice that builds expertise (Ericsso
 Tesch-Römer, 1993, snippet), and a revision toward a register the maker does not yet produce
 automatically is its trace.
 
+**Anything can be a set point, and the test that admits one** *(2026-10-16)*:
+
+> I'll note that this is actually a pretty big hole in my theory, because it does allow us to find
+> how someone weights their terminal values at the very top. If we assume [...] that the commonly
+> appearing solutions at the top end of the scale of the things one is trying to maximize are
+> drives, it's not clear that other things wouldn't also be there as well.
+
+> The set points are basically the terminal values at the very top of your pyramid, the things that
+> you're trying to actually optimize for. And so attention is showing the attempts to align lower
+> order goals with the much, much higher order goals that are themselves to be optimized for
+> specifically.
+
+> And you can make, I think, anything a set point. Because it's just a solution. And all we're
+> talking about is how well realized a given solution is. In terms of how bad of a solution it is
+> for the stimuli. Like the end goal of applying fear everywhere is to be in a situation where you
+> no longer need to apply fear. And arguably the end goal of anything, like the end goal of honor is
+> to be in a situation where you no longer need to apply honor or whatever else.
+
+> Wait, if that's the case. Some needs that will fit that way, but set points don't quite. I guess
+> you kind of want a moderate number of situations in which you can apply care, or you need to be
+> caring more, or. No, you don't even have to treat care as a need, but you can treat it as a need
+> in terms of how often you want to fail to apply it in the final at the highest level. God, this is
+> messy, this is very, very messy, and I'm having trouble with this, but it sure does feel like
+> that's the answer, or we're getting closer maybe.
+
+*Curator's walkthrough of the analyst's 16 October theory record, 2026-10-16 (12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> No, the set point is not the act. The act is the most common accepted solution for a particular
+> set point. It grew out of the set point. The set point was, well, it is the need. We're calling it
+> set points, but it's just the need. The need is associated with the solution.
+
+> Animal learning is a great solution. Look at that. Number two. You already solved it.
+
+*Curator's answers to the analyst's 16 October handoff questions, 2026-10-16 (14:17 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts; transcription repairs listed in the handoff.*
+
+Learned ends are admitted. A set point is a need, inherited or learned, and the act that serves it
+is its most common accepted solution, grown out of it rather than identical to it. Learned set
+points have independent support. Humans form new set points for cognitive goals and choose so as to
+minimize the largest distance to any of them
+([Juechems & Summerfield, 2019](https://ora.ox.ac.uk/objects/uuid:02f3af5e-bc2d-49f5-bf1d-f2e3d7e2f545/files/m912294907691555c3e38afc843306587),
+read). Allport described adult motives as "self-sustaining, contemporary systems, growing out of
+antecedent systems, but functionally independent of them" (Allport, 1937, read). Perceptual control
+theory lets any perception acquire a learned reference, built by reorganization that is driven by
+error in the intrinsic, need-linked variables (Powers, Clark & McFarland, 1960, read). On that
+account a learned end is terminal in operation and instrumental in origin, which is the analyst's
+reading, and it keeps the shared needs beneath every learned top. Juechems and Summerfield concede
+that "we do not know how goals are computed", so the reading is a candidate, not a finding.
+
+Unchecked, the claim that anything can be a set point and any drive can serve it would fit any data,
+and the curator adopted animal learning's test, which the analyst's question had proposed. A
+solution has become an end when it survives the need it served being met another way. Two probes
+separate three cases. Meeting the need another way, by delivering the outcome whether or not the
+action occurs, stops a solution, because goal-directed action is sensitive to this contingency
+degradation as well as to devaluation
+([Balleine & Dickinson, 1998](https://doi.org/10.1016/S0028-3908(98)00033-1), snippet) and rests on
+both a belief that the action produces the outcome and a desire for it
+([de Wit & Dickinson, 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2694930/), read). A habit and a
+learned end both persist under that probe. Disturbing or satisfying the candidate end then splits
+them. A learned end is defended by varied means and satiates, which is control theory's test for the
+controlled variable (Powers, 1973, snippet;
+[Marken, 2014](https://livingcontrolsystems.com/download/DoingResearchOnPurposeMarken2014.pdf),
+read), and a habit does neither. Habitual goal selection is a third case, a goal chosen by habit and
+pursued by planning, so devaluing its outcome stops the means while the goal is still chosen when
+offered ([Cushman & Morris, 2015](https://doi.org/10.1073/pnas.1506367112), abstract read). The
+human evidence on habits is mixed. Extended training made responding insensitive to devaluation in
+one study (Tricomi, Balleine & O'Doherty, 2009, abstract read), but overtraining failed to produce
+habits in five later experiments, measured by devaluation tests that may themselves be insensitive
+([de Wit et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6033090/), read), so a devaluation
+null in human data is weak evidence. A constructed version of the separating test ran as conditional
+study N4b of Ghost V23; its result is not yet read into this file.
+
+Care is the hard case the curator names, a need that seems to want occasions rather than their end.
+With the set point on the need rather than on the act, care resolves as a bond that decays. Reward
+in homeostatic reinforcement learning is the reduction of a deviation, so with no deviation there is
+no reward (Keramati & Gutkin, 2014, read); internal states decay without input (Juechems &
+Summerfield, 2019, read); and the allostatic design of physiology "constrains anxieties to be
+non-adapting and pleasures to be brief"
+([Sterling, 2012](https://europepmc.org/article/MED/21684297), read). A bond that decays yields a
+steady rate of caring without making caring an end, and separation raises the deviation, which
+PANIC/GRIEF answers with separation distress; the decaying-bond account is the analyst's. A person
+who recreates the occasions for care while the bond is secure would be defending the act itself, the
+signature of caregiving that has become an end. Some top commitments are not set points at all.
+Protected values are "absolute rules concerning actions, rather than the consequences", insensitive
+to quantity
+([Baron & Spranca, 1997](https://www.rand.org/pubs/external_publications/EP19970407.html), read),
+and honor may be partly such a rule.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G185** | Wanting to want arises by two acquisition routes, learned contingency and association, which outcome devaluation separates | **OPEN, logic only.** A constructed test ran as card B2 of the Ghost V22 first pass (13 October); its result is not yet read into this file; no project measurement |
-| **G188** | No learned goal becomes terminal; a means that looks like an end is a distorted transition map, and pursuit that survives the need being met is habit | **OPEN.** Extended training makes human responding insensitive to devaluation (lit, READ), the habit half; whether deliberate, costly pursuit of a means ever survives devaluation is untested here |
+| **G188** | No learned goal becomes terminal; a means that looks like an end is a distorted transition map, and pursuit that survives the need being met is habit | **WITHDRAWN (curator, 2026-10-16).** Replaced by G191, which admits learned ends and names the probes that separate them from habit; habit remains one of G191's cases, and the human evidence that extended training produces it is mixed (lit, READ) |
+|   | | *(this row's history is the curator's 2026-10-14 position, withdrawn by his 2026-10-16 ruling that anything can be a set point, with animal learning's test for an end adopted the same day)* |
+| **G191** | Learned ends exist; anything can become a set point, and a solution has become an end when it survives the need it served being met another way; disturbing or satisfying the candidate end then separates a learned end, defended by varied means and satiating, from a habit, which does neither | **OPEN.** Learned set points for cognitive goals, functional autonomy and learned references in control theory (lit, READ); the probes are contingency degradation, outcome devaluation and the test for the controlled variable (lit, READ and SNIPPET), with habitual goal selection as a third case (lit, READ); the human evidence on training-induced habits is mixed, and devaluation tests may be insensitive (lit, READ). A constructed test ran as conditional study N4b of Ghost V23; its result is not yet read into this file. No human measurement |
+| **G192** | Set points sit on needs, not acts; an act is the most common accepted solution for a set point, grown out of it, and a recurring act such as caregiving recurs because the state it serves decays, unless the act has itself become an end by G191's test | **OPEN, logic only.** The curator's ruling, with the decaying-state account of care the analyst's; consistent with reward as the reduction of a deviation and with allostatic regulation (lit, READ); a person who recreates occasions for care while the bond is secure would show caregiving become an end; no project measurement |
 
 **State of the section's claim.** The fourfold distinction has never been tested as a distinction;
 it is the file's working vocabulary, adopted for the reasons above. Its
@@ -1045,8 +1214,12 @@ pursued without a drive reads differently from the same goal pursued with one, w
 distinction between goal and drive doing observable work in the constructed world. Until real
 artifacts show the same, this section rates as vocabulary with one simulated demonstration. The two
 routes to wanting to want are a prediction with a known separating manipulation, run in a
-constructed world but not yet read and unmeasured on makers (G185), and the claim that no learned
-goal becomes terminal turns persistence after devaluation into a habit signature (G188).
+constructed world but not yet read and unmeasured on makers (G185). Learned ends are admitted, and a
+solution counts as one only when it survives the need it served being met another way, with
+disturbing or satisfying the candidate end telling a learned end from a habit (G191, replacing
+G188). Set points sit on needs rather than acts, so a recurring act points first to a decaying
+state, and to an end only when it passes that test (G192). The probes come from animal learning, and
+the human evidence on habits is mixed.
 Confidence: untested, logic only, with the sim demonstration held by §5.
 
 ## §5. Where value information could live: four competing accounts
@@ -1117,7 +1290,6 @@ been recovered.**
 | **L01-L05-S3** | Maker traits cross to a same-base student through semantically empty artifacts (the subliminal channel) | **REJECTED at the tested scale for transmission; informative carrier unresolved (test, L183-L185; twelve seeds L222; adversary L226; XV4 audit).** The uptake null stands: owl gap exactly 0.000 across LoRA ranks and templates, +0.009 pooled over twelve seeds (p=1.0), −0.075 full-finetune, policy channel −0.003. The original 4/4 representation separation does not establish a nontrivial carrier: a cheap scalar adversary (count, mean, spread) scores 3/4 on the same held-out cells, and the length-matched representation scores 2/4, on a tiny held-out set. On twelve leave-one-seed-out decisions with an exact swap null, the three scalars and the length-matched representation separate alike, 11 of 12 each (L254): the carrier is present and surface-trivial, so the failure is at uptake |
 | **V-S6** | On constructed value worlds the reader preserves the policy-equivalent class until the diagnostic event, selects the separating probe, and its inferred trajectory predicts the changed-context choice beyond goal-utility baselines | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The value cards inherit the dependency-tainted predictor; several of the questions duplicate one planted mapping or one statistic (V02 with V03, V04 with V05); the changed-context target exposes hidden generator structure; no Stage 6 conclusion about breadth, search, value trajectory, preference, or changed-context choice is licensed |
 |   | | *(this row's history is SPLIT on the Stage-6 block, L316 to L322, then voided by the 2026-09-02 dependency audit, L330; the twins and the staircase geometry stand as construction facts, rebuilt behind the Stage 7 boundary as V01 to V06)* |
-
 | **G182** | A maker's choices grow more consistent the farther the maker is from a set point; near it they carry little set-point information | **OPEN, logic only.** Follows from reward as the reduction of a need (lit, SNIPPET) and from value-difference choice models (lit, READ); no project measurement. A constructed test ran as card B1 of the Ghost V22 first pass (13 October); its result is not yet read into this file |
 | **G183** | Effort a maker pays to depart from habit scales the strength of the revealed preference | **OPEN.** The costly-redirection quotes later in this section are its earlier form; the proposed CoAuthor effort arms (typing after a suggestion menu, and decision time) would be its first human-record test |
 | **G184** | Unpredictability on difficult choices reflects difficulty, not preference | **OPEN; consistent with value-based choice research (lit, READ).** Choice probability rises smoothly with value difference and difficult choices are slower; no artifact-level test |
@@ -1375,6 +1547,46 @@ values are not held values, which is tolerable because the label needed is what 
 made *under*, not what the maker truly valued. Sourcing detail and procedure live in `TODO.md`;
 the blocking rows stay below.
 
+**Where the person is** *(2026-10-16)*:
+
+> I guess I shouldn't be surprised. There's so, so, so much expertise in writing and reading. The
+> rules are so careful. The human is so weakly identified. But that's kind of the point.
+
+> For the personal signal, can we somehow hold the human common pieces constant? Like, can we
+> extract the emotion piece and look for everything else? No, that's not even an answer. Goddamn,
+> where's the difference?
+
+*Curator's walkthroughs of the analyst's 16 October theory pass and record, 2026-10-16 (11:56 and 12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts; transcription repairs listed in the handoff.*
+
+Expertise carries most of what a page shows, so the person is weakly identified, and the open
+question is where the remainder lives. The analyst's answer is that it probably lies more in how a
+maker works than in what the maker chooses. Low reliability for individual differences can sit
+beside robust group effects, because robust group effects arise "when between-subject variability is
+low", the reliability paradox
+([Hedge, Powell & Sumner, 2018](https://orca.cardiff.ac.uk/id/eprint/102138/1/Hedge.%20The%20reliability%20paradox.pub.pdf),
+read). Where people are well identified, it is often through process. Per-player models add about
+four percentage points of chess move accuracy, yet a hundred games identify a player among four
+hundred with 98 percent accuracy ([McIlroy-Young et al., 2022](https://arxiv.org/abs/2008.10086),
+read), and timing and process features separated same from different essay writers at a 4.7 percent
+equal error rate among 3,110 repeat test takers (Choi, Hao, Deane & Zhang, 2021, through
+[Hao & Fauss, 2024](https://arxiv.org/abs/2411.13699), read). Holding the shared part constant is
+what hyperalignment does for brains, and after brains were mapped into a shared space the
+reliability of fine-grained individual differences rose from 0.78 to 0.87
+([Feilong et al., 2018](https://www.biorxiv.org/content/10.1101/296012), read).
+
+The weight a reader can put on one person's own records follows the arithmetic of speaker
+verification, which adapts a population model toward each speaker with weight n/(n + r)
+([Reynolds, Quatieri & Dunn, 2000](https://www.ll.mit.edu/r-d/publications/speaker-verification-using-adapted-gaussian-mixture-models),
+read). With r the ratio of within-person to between-person variance, that weight equals the
+reliability of the person's average, so r is the number of records at which a person's own data and
+the population count equally. The project's outcome measurements do not yet locate the person.
+Personal handling features and candidate-level coefficients resolve no advantage over population
+rivals (test, S14-P04), and the Phase 0 decomposition found between-writer variance small against
+within-writer variance, an intraclass share of 0.025 with an interval reaching zero, on 234
+decisions from 31 writers (test, S15-PHASE0). That share is the spread of the backbone's paired gain
+over the population, not a measure of how much writers differ, and the report says it does not
+establish that personal signal is intrinsically weak.
+
 | # | hypothesis | status |
 |---|---|---|
 | **S-15** | Value-profile recovery converges with artifacts, residual priced | **SUPPORTED (sim), within the tested construction.** 0.53 → 0.98 over 1 to 50 artifacts, residual 0.009; bounded-family assumption worth 0.24. Approximately 20 works per maker is this construction's corpus price, not a human sampling requirement; conjunctive versus amplification accounts discriminate these constructions |
@@ -1382,6 +1594,7 @@ the blocking rows stay below.
 | **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
 | **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
 | **G66** | Adherence to a declared value tradition is recoverable as a graded quantity | **OPEN.** A ladder made of humans; the honest output is predicted patterns of uptake or adherence from behavior; blocked on sourcing |
+| **G197** | A person shows up more in how they work than in what they choose; process and timing records carry more personal signal than accept-or-dismiss outcomes, and the weight one person's own records deserve is the reliability of their average | **OPEN; the analyst's proposal.** Chess and essay-process identification succeed where per-decision gains are small, hyperalignment raises individual reliability, and the reliability paradox explains robust group effects with weak individual ones (lit, READ); the project's outcome channels resolve no personal advantage (test, S14-P04); no project measurement compares process and outcome channels on the same writers |
 
 **State of the section's claim.** Longitudinal evidence is a motivated route to separating
 persistent tradeoffs from local purpose, habit, and constraint. The bounded simulation
@@ -1392,9 +1605,13 @@ provenance and reliability. None automatically certifies the target values. No c
 currently validated by this project supplies the complete value-recovery comparison
 specified by the open rows. Public process and choice corpora can supply partial tests;
 their suitability remains an intake and construct-validation question. A commissioned
-pilot is one possible source, not evidence that no useful public corpus exists.
+pilot is one possible source, not evidence that no useful public corpus exists. Where the person
+shows up is itself open. Process records may carry more of a person than outcome records, and the
+weight one person's records deserve depends on the reliability of their average, not on its size
+alone (G197).
 Confidence: one bad test away for the scoped identity curve and bounded simulation;
-untested, logic only for human value recovery and the open corpus comparisons.
+untested, logic only for human value recovery, the open corpus comparisons and the process
+account of personal signal.
 
 # Part III: Epistemic limits and evidence
 

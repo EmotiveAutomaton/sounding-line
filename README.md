@@ -9,7 +9,15 @@
 
 # Sounding Line
 
-**Current endpoint:** the [complete Qwen candidate batteries](results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json) are independently verified and fully recorded. Finite Gear 2 queues are drained; native-data validation preparation remains open. Original failed admissions and scientific gates remain. Stage 15 stays open, profile fitting is blocked by its Ghost witness, and no paid batch is active. See [current status](CURRENT_STATUS.md).
+**Theory walkthrough:** [October 17 handoff](results/phase_2_4_stage_15/WALKTHROUGH_HANDOFF_20261017.md) links the recorded evidence, applied errata and explicit unfinished work.
+
+**Current commission:** the [October 16 drive packet](docs/design/stage-15/drive/README.md)
+is partly implemented and active in Gear 2. Full source replay and first paid
+instrument admission and the complete outcome calibration are recorded. The
+reader is resource-held; remaining cards need executable plans. No scientific
+worker or paid batch is active at the latest [health inspection](results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json). See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+for completed, waiting and unbuilt work, and [current status](CURRENT_STATUS.md)
+for monitoring, spending and scientific gates. Earlier continuation queues stay closed.
 
 [Stage 14 is closed](results/phase_2_4_stage_14/FINAL_PACKET_20261015.md), with
 verified evidence and explicit unrun dispositions. [Stage 15](docs/design/stage-15/README.md)
@@ -30,6 +38,11 @@ does not establish a general prompt repair; original failed questions stay disab
 Its worker exited normally; scientific comparisons retain their admission gates.
 
 **Document map:** [all study stages](docs/design/README.md), [theory and applied errata](docs/theory/README.md), [cloud campaigns](docs/design/gear-3/README.md), and [workspace layout](docs/WORKSPACE_LAYOUT.md). Each stage has a visible folder and README; frozen source paths remain indexed exceptions.
+
+The [October 16 theory errata](docs/design/archive/THEORY_ERRATA_20261016_APPLIED.json)
+is applied across all five theory files. Incoming briefs are filed in their stage
+or source shelf; the [filing ledger](docs/archive/operations/DOCUMENT_RELOCATIONS_20261016.json)
+preserves their locations, hashes and status.
 
 **Working environment:** Codex/GPT. Start with [AGENTS.md](AGENTS.md) and
 [operations, tests, and rollback](docs/CODEX_OPERATIONS.md). The overview below describes

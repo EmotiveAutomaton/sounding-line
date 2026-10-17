@@ -1,5 +1,91 @@
 # TODO: the study queue
 
+- [x] OPS-S15-WALKTHROUGH-1017: final retained-evidence, documentation, accounting
+  and publication review complete; stage closure is not implied.
+
+- [x] OPS-S15-HEALTH-1017-0245: native closure, retained evidence, source/research
+  locks, resources, dependencies and actual delivery verified. No new failure
+  or eligible prepared successor; reader remains below its fixed memory floor.
+- [ ] S15-DRIVE-P4-D1: build and validate the shared predictive fit under
+  recipient-specific chronology, independently of the resource-held reader.
+  Content representations are ready; no executable fit is queued yet.
+
+- [x] S15-DRIVE-V1-PHASE0-LANDING: all 150 worlds, compressed/raw bindings,
+  construction, fit chronology and saved statistics verified; full instrument
+  report recorded. Native exit and released leases verified.
+- [ ] S15-DRIVE-V1-OTHER-ARMS: separate process-identity and text/adaptation
+  constructions remain unbuilt; outcome calibration does not admit them.
+
+- [x] OPS-S15-DRIVE-READER-RESOURCE: finite v4 resource wait exhausted;
+  native exit, GPU lease release, intact retained outputs and watcher delivery
+  verified. Full write-through recorded; no automatic restart.
+
+- [x] OPS-S15-DRIVE-V1-CAPACITY: expected output-cap terminal fully recorded;
+  exact native exit, released CPU lease and 120 complete checkpoint hashes verify.
+  Original evidence preserved; storage-only recovery subsequently completed.
+
+- [x] OPS-S15-HEALTH-1016-2026: native identities, progress, capacity, failures,
+  locks and actual delivery inspected. Output-cap risk found; separate lossless
+  recovery built and validated with eleven targeted tests. Original work continues.
+- [x] S15-DRIVE-V1-STORAGE: original capacity terminal and native exit fully
+  recorded; separate recovery completed under its unchanged
+  [contract](docs/design/stage-15/drive/V1_PHASE0_V3.md), without increasing caps.
+- [x] S15-DRIVE-V1-RECOVERY-COMPLETE: all 150 worlds and the complete terminal
+  independently verified; original and recovered evidence retained.
+
+- [x] OPS-THEORY-20261016: all 46 supplied edits applied across five theory
+  files; source, quotation history, fresh identifiers and newer empirical entries
+  preserved. Incoming briefs filed and Stage 15 navigation reconciled.
+
+- [x] OPS-S15-DRIVE-PRECISION: complete paired diagnostic independently
+  verified and recorded. Float32 remedy supports a separate full pilot.
+- [ ] S15-DRIVE-P1-PILOT: v4 stopped at its resource deadline before the
+  largest model. Hold until the fixed headroom is available and a separate
+  finite checkpoint-reuse recovery is reviewed. Check eligibility at the existing
+  six-hour health inspection; no waiting-clock reset or partial-ladder admission.
+
+- [x] OPS-S15-DRIVE-V1-ORDER: original waiting attempt cancelled before any world;
+  overlap-order correction verified on all source features and separately queued.
+- [x] OPS-S15-DRIVE-READER-V3: failed numerical admission fully recorded; native
+  exit and arrays verified. Full pass held.
+- [x] S15-DRIVE-CONTENT: complete input representations independently verified.
+- [x] OPS-S15-DRIVE-DIAGNOSTIC-RESOURCE: failed paired attempt retained; successor
+  waits for the same cold-load floor before completing both precision conditions.
+
+- [x] S15-DRIVE-LICHESS: complete archive independently hashed against official
+  checksum, retained length and source records; native exit and full landing verified.
+- [ ] S15-DRIVE-S0-T2: build bounded streaming parser, freeze the 100-player
+  pilot and position/inference caps, then deliver the clock/reference aggregates.
+
+- [x] OPS-S15-DRIVE-REPAIRS: complete content v1 and reader v1/v2 failures
+  preserved and landed; exact exited identities verified. Separate monitored
+  repairs retain resource and numerical gates. Full reader scoring remains held.
+- [x] S15-DRIVE-WIKIPEDIA: complete official metadata intake and aggregate
+  reference verified and recorded; source identity is API-native, not Git.
+- [x] S15-DRIVE-S0-T3: exact aggregate/reference bytes delivered to Ghost with
+  the explicit content-SHA source-identity review requirement; no agent uptake claimed.
+- [x] S15-DRIVE-V1-PHASE0: complete outcome calibration recorded with its
+  effect-specific sensitivity limits. Other V1 arms remain unbuilt and require
+  target-specific constructions; no automatic extension or scientific admission.
+- [x] S15-DRIVE-V2: all 26 saved-forecast arms independently checked and fully
+  recorded; no useful-gain rescue, refitting or new paid extension.
+
+- [x] OPS-S15-DRIVE-SETUP-1: five reader sources pinned; local controls validated;
+  failed paid setup inspected and fully recorded before any generation/spend.
+- [ ] S15-DRIVE: implement the [31-card commission](docs/design/stage-15/drive/README.md)
+  with its review corrections and early-negative stops; distinguish registered
+  work from executable queues. Foundation replay is complete and verified.
+- [x] S15-DRIVE-A0-V2: complete schema-transport repair independently replayed;
+  six constructed questions pass, three remain disabled; four cents reconciled.
+- [x] S15-DRIVE-FOUNDATION: full replay, provenance spans and aggregate source
+  references verified and recorded; companion export and dependent analysis next.
+- [ ] S15-DRIVE-NATIVE: freeze blind native references before eligible paid
+  feature annotation; preserve tone, contradiction and theme admission failures.
+
+- [x] OPS-S15-HEALTH-1016-1423: native closure, evidence freshness, failures, resources,
+  locks, dependencies and actual watcher delivery verified. Queues drained;
+  no recovery. Stale continuation wording corrected; scientific gates remain.
+
 - [x] OPS-S15-HEALTH-1016-0813: native closure, terminal/landing freshness,
   failures, resources, locks and watcher delivery verified. Queues drained;
   stale registry flags corrected. No recovery; scientific gates remain.

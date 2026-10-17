@@ -739,6 +739,15 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Project retained bytes from a full unit, not just runtime from its fit.**
+  A finite calibration's session-level fit receipts projected beyond its frozen
+  output cap halfway through the grid. Preserve the active attempt and its guard;
+  validate a separately versioned lossless recovery before transition. Reuse only
+  the complete consecutive checkpoint prefix, binding original bytes and replaying
+  construction/statistics, and require the entire original grid. Scratch byte
+  equivalence and actual compression measurements establish storage readiness,
+  not scientific success. (OPS-S15-HEALTH-1016-2026)
+
 - **A reboot recovery checks installed runtime identity as well as saved card hashes.** The completed evidence survived the outage, but the restarted model service reported a newer runtime. Preserving a model digest alone did not preserve the service version. Hold affected unstarted readers before dispatch, prove the refusal in the actual loop, and continue independent pinned training. Retain interrupted work as unknown unless a validated resume path exists; a readable partial adapter is not a completed comparison. (OPS-S14-POWER-RECOVERY-1012)
 
 - **An immutable operational terminal must survive the actual next scan.** A missing worker produced UNKNOWN once, then a new timestamp made the next freeze fail and killed supervision. Preserve the first receipt, bind it to the exact attempt and inspected exit, and rehearse repeated scans, dependent blocking and independent dispatch. Unknown is not completion, failure or retry authority. Available physical RAM is also not Windows commit headroom; allocation failures require checking both before further work. The scientific exit cause remains unknown without a terminal exception. (OPS-S14-UNKNOWN-RECOVERY)

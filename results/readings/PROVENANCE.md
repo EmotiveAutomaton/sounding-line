@@ -18,6 +18,16 @@ with the reason.
 
 ---
 
+## Theory errata, filing and partial GPU capacity - 2026-10-16
+
+Analyst paraphrase of the current instruction, not a quotation. The archived
+handoff separately identifies the curator's quoted walkthroughs and repairs.
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| Apply the new theory errata and keep documentation organized and accessible | All 46 anchored edits applied to five theory files, existing quotations and newer empirical history retained, incoming sources preserved and navigation reconciled to Stage 15 | written | [Applied source and validation](../../docs/design/archive/THEORY_ERRATA_20261016_APPLIED.json), [filing ledger](../../docs/archive/operations/DOCUMENT_RELOCATIONS_20261016.json) |
+| Keep authorized work moving and use partial GPU capacity where possible | CPU calibration continues; smaller reader models have already used bounded GPU capacity. The largest reader waits for its fixed cold-load headroom; no weakening of residency, memory or scientific gates | written; existing runs continue | [Current status](../../CURRENT_STATUS.md), [reader resource contract](../../docs/design/stage-15/drive/READER_PILOT_V4.md) |
+
 ## Returned dependencies and continued queue — 2026-10-15
 
 Analyst paraphrase of the current instruction, not a quotation.
@@ -266,6 +276,12 @@ It is not a verbatim transcript and its prose is not entered as curator quotatio
 | C.8 | *"It needs to be in a field in which I have expertise"* | Corpus moved to games/technical writing. **Now in tension with S1.1** — fit needs expertise, unlock needs *partial* expertise. | findings §1 | **open** — no single corpus serves both |
 
 ---
+
+## October 16 drive implementation approval
+
+| # | Curator direction (analyst paraphrase) | Implementation | Status |
+|---|---|---|---|
+| DRIVE-20261016 | Implement the new packet with the reviewed corrections; stop branches with initial negative evidence; a slight budget overrun is acceptable only after consistently positive results use the budget | Separate drive namespace, finite admission/source workers, immutable attempts, early-negative rules and integer-cent caps; no automatic budget increase inferred | Active; exact approval retained privately, [execution contract](../../docs/design/stage-15/drive/EXECUTION.md) |
 
 ## Contributions that changed nothing yet
 

@@ -52,8 +52,9 @@ supports the artifact criterion rather than becoming the criterion.
 The middle row is a provisional functional aggregate (2026-08-21). A conserved affective
 channel may combine an inherited action-selection prior with a state-dependent
 motivational signal; that possible split is owned by
-[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 and remains unresolved, and it
-must not be turned into a clean anatomical or transformer address.
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4, where the 2026-10-16 vocabulary names its
+halves, the drive and the deviation from a set point. The split remains untested, and it must not be
+turned into a clean anatomical or transformer address.
 
 **The proposal isolates the conserved, pre-solved contribution to a larger distributed system.
 It does not claim that an emotional episode lives only in the subcortex. Cortical construction,
@@ -104,7 +105,8 @@ exclusivity, is the load-bearing claim.**
 
 Read with the 2026-08-21 construct boundary in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)
 §4, the drive constraints row now names the drives themselves, inherited heuristics such as fear
-that are also set points. The curator's mapping pairs the levels of the evolutionary rebuild of Maslow's
+that run from set points, in the 2026-10-16 vocabulary. The curator's mapping pairs the levels of
+the evolutionary rebuild of Maslow's
 pyramid ([Kenrick et al., 2010](https://doi.org/10.1177/1745691610369469), snippet) with Panksepp's
 systems. Physiological needs go with SEEKING, self-protection with FEAR and RAGE, affiliation with
 PANIC/GRIEF, status with PLAY, mate acquisition and retention with LUST, and parenting with CARE.
@@ -114,9 +116,10 @@ choice and motivational priorities toward one adaptive problem
 ([Tooby & Cosmides, 2008](https://cep.ucsb.edu/wp-content/uploads/2023/05/emotionIRVLewisCh8.pdf),
 read at p. 117), and it treats survival and reproduction as the criteria that built such programs
 rather than as goals an organism pursues (Tooby & Cosmides, 1992, snippet). The represented
-hierarchy would then top out in several systems rather than in one fitness goal, and learned goals
-that become ends in themselves (G185 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4) can
-sit beside them, which is one way other goals could fall out.
+hierarchy would then top out in several set points, the needs these systems serve, rather than in
+one fitness goal, and learned set points (G191 in
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4) can sit beside them, which is one way other
+goals could fall out.
 
 Three pairings are loose. SEEKING energizes the pursuit of every resource rather than physiological
 needs alone (Wright & Panksepp, 2012, snippet). Status through PLAY is the curator's own flag, and a
@@ -163,9 +166,12 @@ serve only as comparators.
 
 *Curator's walkthrough of this handoff's decisions and questions, 2026-10-14 (12:22 PDT), in the project's errata thread; filed 2026-10-14. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
 
-The drives are therefore set points as well as heuristics, each with a need that grows with
-deprivation, and together they form the first layer of the transition map, the layer that changes
-what the maker perceives as possible. Solms, Panksepp's collaborator, describes the same structure,
+The drives therefore run from set points whose deviations grow with deprivation, and together they
+form the first layer of the transition map, the layer that changes what the maker perceives as
+possible. The quotation's heuristics that are themselves set points read, in the 2026-10-16
+vocabulary, as drives that run from set points (the reading rule in
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §1). Solms, Panksepp's collaborator, describes
+the same structure,
 with affect registering deviation from homeostatic settling points, the type of feeling identifying
 the need at issue, and fear, rage, attachment and play among the emotional types
 ([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
@@ -173,7 +179,8 @@ read). By the curator's own rule SEEKING keeps the same rules unless the brain b
 differently, and in one respect it does. Panksepp's account makes it general-purpose, a system that
 unconditionally promotes exploration and foraging for resources and that other circuits inhibit
 ([Alcaro & Panksepp, 2011](https://jimhopper.com/pdf/alcaropanksepp2011_seeking.pdf), read), so it
-is both a need and the pursuit phase the other drives share. The boredom reading has support, since
+runs from a need of its own and is also the pursuit phase the other drives share. The boredom
+reading has support, since
 boredom rises when an environment offers little useful information and higher boredom goes with
 more exploration ([Geana et al., 2016](https://escholarship.org/uc/item/4rg9267w), abstract read).
 PLAY is the other odd one, shut down by danger, as cat odor suppresses play in juvenile rats
@@ -183,6 +190,98 @@ inclusive fitness, which counts the reproduction of kin and folds into reproduct
 1964, snippet), and cultural evolution offers a second replicator whose success can part ways with
 genetic fitness, as in the fertility decline of the demographic transition (Colleran, 2016,
 snippet).
+
+**Drives run from set points, and people repurpose them** *(2026-10-16)*:
+
+> I think drives are the puzzle pieces that make up the solution sets. Like expertise is values, and
+> values is made up of drives. And also concepts. And other concepts, obviously. It's all
+> hierarchically nested. But like, just one pre-made concept is the drive. That's it. It fits like
+> anything else, is my current guess.
+
+> Like they're both. They are an assessment and a problem space and a common way of dealing with
+> that assessment, sort of. Like there's an assessment of safety, and that assessment matters a lot,
+> and the common way of dealing with that safety is the fear button. Though as humans you can also
+> adjust other pieces in there too and associatively use complex mixes of them instead. That's
+> probably the mechanism. A need has a button and we repurposed that button.
+
+*Curator's walkthroughs of the analyst's 16 October theory pass and record, 2026-10-16 (11:56 and 12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts; transcription repairs listed in the handoff.*
+
+Drives compose like any other piece, so values and expertise can be built partly from them, and
+reuse of the same circuits across many functions is the brain's general pattern
+([Anderson, 2010](https://doi.org/10.1017/S0140525X10000853), read). What sets a drive apart is its
+default pairing with set points, and in animals the pair comes bundled. Panksepp held that "raw
+emotional behaviors and their affects arise from the same subcortical neural dynamics"
+([Panksepp, 2011](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0021236), read),
+so FEAR's activity is both the assessment and the response, the curator's "they're both". People
+unbundle the pair. They learn what to fear, since fear behaviors "are innate predictions; but each
+individual has to learn what to fear"
+([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
+read), and they press one button for another need. Ethology records the animal precursor in
+displacement activities, such as grooming in the middle of a fight, which appear in "motivational
+conflict, frustration of consummatory acts and physical thwarting"
+([Delius, 1967](https://kops.uni-konstanz.de/server/api/core/bitstreams/20de85bc-ba44-4693-bf33-6473d615f634/content),
+read). A need can also revalue a learned piece on the spot. Rats that had learned that a cue
+predicted disgustingly salty water treated it as "an attractive and powerful motivational magnet" at
+their first ever sodium depletion
+([Robinson & Berridge, 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3580026/), read), value
+computed as the learned cue times the current need.
+
+Control theory and physiology add two refinements. A button is itself a controller with its own
+reference rather than a canned movement, so the goose's egg-rolling, the textbook fixed action
+pattern, reads as "an attempt to restore pressure against the bill"
+([Marken, 2014](https://livingcontrolsystems.com/download/DoingResearchOnPurposeMarken2014.pdf),
+read), and a pre-made solution is a pre-made controller. And some apparent set points may be
+emergent balances among several buttons. Body temperature is held by "independent thermoeffector
+loops, each having its own afferent and efferent branches", and "no computation of an integrated
+T(b) or its comparison with an obvious or hidden set point of a unified system is necessary"
+([Romanovsky, 2007](https://doi.org/10.1152/ajpregu.00668.2006), abstract read). The split between
+set point and drive can therefore hold in function while failing in anatomy, which is the pre-mortem
+for this account.
+
+**What PLAY is for** *(2026-10-16)*:
+
+> Play solves the solution, or solves the problem, of having error bars that are too wide over
+> unfamiliar situations. And so you use play in order to decrease the error bars around those
+> solutions. Easy peasy. That reduction in error bars brings people closer, and that explains why
+> BDSM works. Isn't that neat?
+
+*Curator's answers to the analyst's 16 October handoff questions, 2026-10-16 (14:17 PDT), in the project's theory and analyst thread; filed 2026-10-16. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+PLAY runs from an epistemic set point, error bars narrow enough over one's own solutions in
+unfamiliar situations. Its deviation is error bars that are too wide, and play narrows them. Three
+literatures say the same in other words. Play develops flexible responses to unexpected events in
+which the animal suddenly loses control, and animals create such events by handicapping themselves
+([Špinka, Newberry & Bekoff, 2001](https://doi.org/10.1086/393866), abstract read). Play "is
+initiated when an animal is adequately fed, healthy, and free from acute or chronic stress", and
+mild stress such as boredom can facilitate it
+([Burghardt, 2010](https://www.museumofplay.org/app/uploads/2022/01/2-3-article-comparative-reach-play-and-brain.pdf),
+read), so PLAY's deviation drives behavior mainly when the others are small. Active inference gives
+the balance a formal shape. Its novelty term, the expected information gain about the model's own
+parameters, weighs more when preferences are imprecise or options are equal in extrinsic value, and
+it fades as that uncertainty is resolved
+([Schwartenbeck et al., 2019](https://doi.org/10.7554/eLife.41703), read), which matches the
+prediction below that play declines with competence. A predictive-processing theory holds that play
+"deliberately seeks out or creates surprising situations that gravitate toward sweet-spots of
+relative complexity with the goal of resolving surprise"
+([Andersen, Kiverstein, Miller & Roepstorff, 2023](https://doi.org/10.1037/rev0000369), abstract
+read). On the analyst's reading, social play also narrows error bars about other people, since
+"reduced play experience over the juvenile period leads to adults with impoverished social skills"
+in rats ([Ham et al., 2024](https://opus.uleth.ca/items/9ee9a037-9ad9-43b8-91ab-da64d394edad),
+abstract read), which makes play a training ground for reading minds. The curator's closeness claim
+has human support. Couples who did novel and arousing activities together reported higher
+relationship quality ([Aron et al., 2000](https://doi.org/10.1037/0022-3514.78.2.273), abstract
+read), and couples whose consensual sadomasochistic activity went well showed lower cortisol and
+greater closeness, with mixed results when it went poorly, among 58 participants
+([Sagarin et al., 2009](https://pubmed.ncbi.nlm.nih.gov/18563549/), abstract read). The analyst's
+candidate mechanism is that under bounded risk each partner's error bars about the other narrow.
+
+The analyst proposes a further step, that PLAY's reward is compression progress. Interest, progress
+in learning, is what play is for; pleasure at better-than-expected ease is what it feels like when
+it works; and art is a made playground, an artifact that creates bounded uncertainty and resolves
+it. The aesthetic terms are in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §5. The account
+predicts that play declines with competence and stays at its edge, so people playing as much in
+fully familiar situations would refute it. Decades of chess are the obvious challenge, and the
+account's answer is that each new position is unfamiliar at the level where play happens.
 
 **Goal is not a fourth level.** He declined one. *"That's just not reasonable. It wouldn't be
 separable. Three, frankly, barely won't be."* And it is not an alias for attention either *(the
@@ -338,8 +437,12 @@ focal control, not a frozen mechanism.
 | **G27** | Level boundaries in a model are soft rather than sharp | **assumed, not tested.** Any test requiring a clean boundary is testing the wrong thing |
 | **G73** | Positive affect is a readout over the seven channels | **OPEN.** Suppressing one channel should move it proportionally |
 | **G74** | Positive affect is a conjoined gate requiring all seven un-inhibited | **OPEN.** Suppressing any one should collapse it; a single suppression experiment separates the two |
-| **G187** | The goals directly beneath survival and reproduction are the drives, Panksepp's systems with the bodily needs, which are heuristic set points whose needs grow with deprivation and which form the first layer of the transition map | **OPEN, logic only.** No published level-by-level pairing with the evolutionary motive pyramid was found; Solms's account treats emotional affects as felt needs (lit, READ); the SEEKING, status and disease-avoidance pairings fit loosely (lit, READ and SNIPPET) |
-| **G190** | SEEKING is a need like the other drives, felt as boredom when unmet | **OPEN.** Boredom tracks low information and goes with more exploration (lit, READ); SEEKING is also the general-purpose pursuit system the other drives share (lit, READ), a structural difference the model may have to carry |
+| **G187** | The goals directly beneath survival and reproduction are the set points the drives serve, with Panksepp's systems as the inherited solutions that run from them and form the first layer of the transition map, and the bodily needs as set points of their own | **OPEN, logic only.** No published level-by-level pairing with the evolutionary motive pyramid was found; Solms's account treats emotional affects as felt needs, and Panksepp separates homeostatic, sensory and emotional affects (lit, READ); the SEEKING, status and disease-avoidance pairings fit loosely (lit, READ and SNIPPET) |
+|   | | *(this row's history is its 2026-10-14 wording, drives as heuristic set points with the bodily needs among them, restated in the curator's 2026-10-16 vocabulary)* |
+| **G190** | SEEKING runs from a set point like the other drives, and its deviation is felt as boredom | **OPEN.** Boredom tracks low information and goes with more exploration (lit, READ); SEEKING is also the general-purpose pursuit system the other drives share (lit, READ), a structural difference the model may have to carry; mild boredom also facilitates play (lit, READ), so boredom may belong to PLAY as well (G194) |
+| **G193** | Drives are inherited pre-made controllers that run from set points; each serves particular set points by default, bundled with them in animals, and people unbundle them, learning what to fear and repurposing a drive to serve another need | **OPEN.** The split between needs and solutions is in Solms and Friston and in perceptual control theory; animals bundle assessment with response; displacement activities are the animal precursor of repurposing; need states revalue learned cues on the spot (lit, READ). Some set points may be emergent balances among controllers (lit, READ). No project measurement |
+| **G194** | PLAY runs from an epistemic set point, narrow error bars over one's own solutions in unfamiliar situations; play narrows them, and shared play brings people closer | **OPEN.** Play as training for unexpected loss of control, play under met needs, play as seeking resolvable surprise, juvenile play and adult social skill, and closeness after shared novelty or consensual risk (lit, READ); closeness is the curator's claim, and its working through each partner's narrower error bars about the other is the analyst's candidate mechanism; untested here |
+| **G195** | PLAY's reward is compression progress, and art is a made playground that creates bounded uncertainty and resolves it | **OPEN, logic only; the analyst's proposal.** Joins the three-term aesthetic account (HH-AESTHETIC-TERMS in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §5) to the drives; predicts that play falls with competence and stays at its edge |
 | **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event reader and the controller comparison inherit hidden future and generator-law dependencies; no architecture recovery, controller comparison, or switching conclusion is licensed; the reader-free construction fact stands: the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06, CLEAN) |
 |   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
 | **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
@@ -353,9 +456,15 @@ attention and choice, transformed by consolidation and interference, remains a h
 The governing purpose, subordinate control targets, attention, and expertise are coupled
 but not identical. The late-weighting and positive-affect proposals remain untested in
 their stated forms; the two positive-affect candidates are not an exhaustive account. The proposal
-that the goals beneath survival and reproduction are the drives, Panksepp's systems working as
-heuristic set points and the first layer of the transition map, is a mapping without a measurement
-(G187), and SEEKING as a need felt as boredom is a prediction with partial support (G190).
+that the goals beneath survival and reproduction are the set points the drives serve, with
+Panksepp's systems as the inherited solutions that form the first layer of the transition map, is a
+mapping without a measurement (G187), and SEEKING's deviation felt as boredom is a prediction with
+partial support that boredom's link to play complicates (G190). Drives as pre-made controllers that
+people unbundle and repurpose have support in parts from several literatures and no project
+measurement (G193). PLAY as the drive that narrows error bars over unfamiliar situations, and brings
+partners closer when shared, agrees with animal play research, a predictive theory of play and
+studies of shared novelty (G194); that its reward is compression progress is the analyst's untested
+proposal (G195).
 
 The Stage 6 control and history reader claims are void because their realizer used hidden
 world information. The independently reader-free construction comparisons remain scoped
@@ -370,8 +479,8 @@ expectations. Stage 8 passed prediction and failed generation, so the proposed c
 expertise prerequisite has not been installed and demonstrated by admission. Recognition
 without an anomaly is a candidate entry route, and the relation between domain expertise
 and knowledge of an individual remains open. Confidence: untested, logic only for the
-scaffold, formation account, universal prerequisite, drive mapping and SEEKING prediction; one bad
-test away for the scoped
+scaffold, formation account, universal prerequisite, drive mapping, SEEKING prediction, drive
+repurposing and both PLAY proposals; one bad test away for the scoped
 Stage 7 and Stage 8 measurements; instrument-dead for the Stage 6 reader interpretations.
 
 On mirror systems *(the 2026-08-22 pass)*:
@@ -569,6 +678,47 @@ count relation here is rejected, withdrawn, untested, or instrument-dead.
 
 ## §5. Does a corresponding model structure exist?
 
+**Duplicated structures** *(2026-10-16)*:
+
+> This stapling of solution channels in between everything in the middle of other problems is
+> something that I do wonder whether it has relevance to, like, mechanistic interpretability. Do we
+> have the same structures that show up multiple times, and you have these ghosts of multiple
+> structures, and these transformations people are doing are simply various ways of getting at these
+> multiplying duplicated structures? What if they're multiplied because they're used in multiple
+> locations, not because it's the same concept informing everything?
+
+*Curator's walkthrough of the analyst's 16 October theory record, 2026-10-16 (12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+Across positions the question has a settled answer. A transformer runs the same weights at every
+position, so a feature seen at many positions is one copy applied many times. Across depth the
+conjecture has support. Networks learn transformed copies of a feature along any axis where weights
+are not shared, and vision models learn rotated copies of curve detectors while convolution removes
+the need for translated ones ([Olah et al., 2020](https://distill.pub/2020/circuits/equivariance/),
+read). In a two-hop composition task a transformer stores a second copy of facts for use as the
+second hop, because its untied layers cannot share memory, and sharing parameters across layers
+unlocks generalization the standard model does not reach
+([Wang et al., 2024](https://arxiv.org/abs/2405.15071), read). In real models the second hop
+sometimes resolves too late, in layers that lack the needed knowledge, and patching a later state
+back into an earlier layer fixes up to 66 percent of those failures
+([Biran et al., 2024](https://aclanthology.org/2024.emnlp-main.781), abstract read). The rivals have
+direct evidence too. Features persist through the residual stream, and crosscoders exist to merge
+duplicate features across layers
+([Anthropic, 2024](https://transformer-circuits.pub/2024/crosscoders/index.html), read); backup
+heads take over when the main ones are ablated
+([Wang et al., 2022](https://arxiv.org/abs/2211.00593), read); similar layers ensemble
+([Liu et al., 2026](https://arxiv.org/abs/2602.05970), read); and dictionary methods can fake copies
+or absences ([Chanin et al., 2024](https://arxiv.org/abs/2409.14507), read).
+
+The choice the conjecture poses is partly false, since a copy at another depth is both the same
+concept and used in another place. The live contrast is one copy read many times, as a recurrent
+brain can manage with single regions active across most task domains in a meta-analysis
+([Anderson, 2010](https://doi.org/10.1017/S0140525X10000853), read), against one recomputed at each
+depth, which a single forward pass forces. Stapled solutions are functions, so single-pass models
+should duplicate them wherever depth demands, and looped models or models that reason in tokens
+should need fewer copies; that prediction is the analyst's. The affect subspace below rotates
+continuously through depth (G40), which a recomputed copy and a persisting feature would both
+produce; telling them apart needs evidence on which later components read each copy.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G40** | A coherent affect subspace exists, consistent across families | **SUPPORTED (test).** Four to six times its matched null even between the most distant blocks, in **all eleven families**, 0.35B to 3B, four architectures. The rotation *rate* is consistent where the magnitude profile never was |
@@ -577,6 +727,7 @@ count relation here is rejected, withdrawn, untested, or instrument-dead.
 | **G44** | The depth transform of the subspace is recoverable | **OPEN (L31), first bite landed.** Alignment *composes* lawfully in pythia (R² 0.88 to 0.92) and gpt2 (0.78 to 0.84), weakly in SmolLM2, **not in Qwen (0.20 to 0.30)**. Fit the transform where it is lawful, and note the home family is the outlier again |
 | **G46** | Weaker models place the structure more poorly | **NO DETECTED RELATIONSHIP (test, L30), n = 11.** Placement quality against parameter count sits at rho +0.05 across eleven families in the 0.35B to 3B range. Eleven points cannot prove scale irrelevant, so "architectural, not learned" was the stronger unlicensed form; what stands is that placement gave no sign of tracking capability where measured |
 | **G39** | The three levels are subspaces rather than depths | **REJECTED (test).** The subspace rotates with depth |
+| **G196** | Structures that recur through a model's depth are copies of one function recomputed where depth demands it, not one concept read from many places; positions share weights and so share one copy | **OPEN, logic only.** The curator's conjecture as narrowed by the analyst. Untied layers store separate copies of a function needed at several depths in a toy two-hop task, and real models fail when the copy is missing at the needed depth (lit, READ); persistence through the residual stream, backup heads, ensembling of similar layers and dictionary artifacts are rival explanations with evidence of their own (lit, READ); no project measurement |
 
 The rank-dilution caveat that rode all these numbers is retired (L50). Rank-truncated bases against a
 distant-matched null reproduce the rotation in all eleven families (adjacent blocks share
@@ -589,10 +740,12 @@ though, has lost its meaning. Every content type measured (topic, syntax, freque
 same front block, so the break is the input adapter's seam and says nothing about affect. **What
 remains is a consistent shape that is not yet the shape this file claims**, because nothing ties
 the structure to drives, to the middle, or to any causal role, and its one candidate landmark just
-proved generic. Confidence: existence, rotation, the adapter-edge rejection, and the
+proved generic. Whether structures that recur through depth are recomputed copies of one function,
+which a single forward pass would need wherever depth demands it, is a conjecture with toy-scale
+support and live rivals (G196). Confidence: existence, rotation, the adapter-edge rejection, and the
 repaired-basis confirmation are replicated and controlled at eleven families each; the scale
-non-relationship is one bad test away at eleven points; what the structure *means* remains gated
-on causality.
+non-relationship is one bad test away at eleven points; what the structure *means* remains gated on
+causality; the depth-copy conjecture is untested, logic only (G196).
 
 ## §6. Address versus tracking: the two umbrellas the predictions became
 

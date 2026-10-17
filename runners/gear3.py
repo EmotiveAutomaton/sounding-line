@@ -118,6 +118,16 @@ def refuse_over_cap(led: dict, est: float, args) -> None:
 
 
 def main() -> None:
+    if len(sys.argv)>1 and sys.argv[1]=='drive-v2':
+        sys.path.insert(0,str(REPO))
+        from runners.drive.cloud_v2 import cli
+        cli(sys.argv[2:])
+        return
+    if len(sys.argv)>1 and sys.argv[1]=='drive':
+        sys.path.insert(0,str(REPO))
+        from runners.drive.cloud import cli
+        cli(sys.argv[2:])
+        return
     if len(sys.argv)>1 and sys.argv[1]=='stage14-api':
         sys.path.insert(0,str(REPO))
         from runners.stage14_midweek.api import cli

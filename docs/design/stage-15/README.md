@@ -1,5 +1,14 @@
 # Stage 15: next-round research division
 
+**October 16 drive commission authorized:** implementation with the review
+fixes is underway. The [drive shelf](drive/README.md) holds the preserved packet,
+execution amendments and explicit readiness registry. Earlier completed queues
+remain preserved; new jobs use a separate namespace.
+
+The [October 16 theory corrections](../../theory/README.md#approved-wording-and-source-history)
+are applied. Supplied study sources retain their original wording and hashes;
+the theory index records the current vocabulary and its reading rules.
+
 [Native literal-validation readiness](F4_NATIVE_READINESS.md) distinguishes the
 completed source audit from independent feature truth and lists exact eligible
 readers. Annotation/input and scientific admission remain separate prerequisites.
@@ -18,7 +27,8 @@ is complete and fully recorded. The [full Qwen candidate batteries](LABEL_CANDID
 are [complete and independently verified](../../../results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json),
 with both constructed candidate gates passing. Their own prompt identity and all
 original failures are retained; natural-data and scientific admission remain open.
-Finite queues are drained and no paid batch is active.
+Those earlier finite queues are drained. The October 16 drive has separate
+active workers; see its [execution index](../../../results/phase_2_4_stage_15/DRIVE/INDEX.md).
 The [exact healing dependency](PROFILE_HEALING_DEPENDENCY.md) remains filed with
 both companion projects; profile fitting requires a separately reviewed witness.
 

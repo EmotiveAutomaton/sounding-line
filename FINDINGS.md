@@ -5,9 +5,820 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-10-16.**
+**Last updated: 2026-10-17.**
 
 ---
+
+### OPS-S15-WALKTHROUGH-1017 - recorded evidence ready, commission still open
+
+**Hypothesis.** Is the retained work complete enough as a record for the curator's
+theory walkthrough, without representing unfinished studies as completed?
+**METHOD.** Reconcile all current Stage 15 terminal hashes, calibration output
+bindings, retained reader files, source/research locks, native exits and watcher
+state. Verify filed sources and the exact theory-errata application, compare
+the spending ledger structurally, inspect publication candidates for private
+data, and run the targeted drive tests plus theory/design linters.
+
+**Found.** The completed evidence is recorded: all 102 terminal records reconcile,
+605 calibration output files and 16 retained reader files match, 526 plan pins
+and 21 locks pass, and all 47 targeted tests pass. The source filing and applied
+errata hashes match. Earlier accounting entries are unchanged; the new drive
+run is reconciled at four cents. No new terminal, pending landing or active
+scientific worker is present. **Means.** The record is ready for review and the
+requested publication. Stage 15 remains open: reader recovery is resource-held,
+and independent fits, references, bounded parsing and other cards remain unbuilt.
+No new scientific interpretation, score, model call or research test is added.
+The test cache warning did not prevent test completion; its report is retained.
+
+Curator roll-up: operations; Is the evidence ready for the walkthrough?;
+**Infrastructure**; Completed evidence and explicit unfinished dispositions
+are ready for review; project meaning: review readiness does not close the
+commission; next engineering obligation: retain the open implementation queue
+and its existing gates; public scientific claims unchanged; curator decision
+required: No; detail: [walkthrough handoff](results/phase_2_4_stage_15/WALKTHROUGH_HANDOFF_20261017.md)
+and [verification receipt](results/phase_2_4_stage_15/WALKTHROUGH_CHECK_20261017.json).
+
+### OPS-S15-HEALTH-1017-0245 - idle queue, reader held, implementation remains
+
+**Hypothesis.** Is the authorized drive queue making progress, or does a failed
+worker, lost result or delivery fault require recovery?
+**METHOD.** Inspect exact native identities and the scoped process inventory;
+reconcile terminal and landing hashes, retained reader files, frozen source pins,
+research locks, leases, resource headroom, actual owner delivery and registered
+terminal monitoring. Check executable plans and companion dependency evidence.
+No model is loaded and no scientific statistic is recomputed.
+
+The table reports operational checks, not scientific outcomes.
+
+| Check | October 17 inspection |
+|---|---|
+| Execution | No active scientific worker or paid batch; twelve recorded native identities ended |
+| Retained evidence | No new terminal or unacknowledged result; calibration receipt bindings and sixteen retained reader files match |
+| Integrity | All 526 pins in the two recent plans and all 21 research locks pass; CPU, GPU and literal CPU leases absent |
+| Resources | 49.43 GiB available RAM, 43.95 GiB commit headroom, 442.65 GiB free disk; GPU 6,401 MiB free at 38 C |
+| Reader admission | Below the unchanged 8,500 MiB cold-load floor; finite failed attempt remains closed |
+| Remaining work | No prepared successor job; independent fitting, reference preparation, bounded parsing and other registered cards remain unbuilt |
+| Dependencies and delivery | Companion witness/notes unchanged; watcher native identity, loaded sources, fresh scan, terminal registrations and actual health delivery verify |
+
+**Found.** The queue is idle, with the reader resource-held and implementation
+work remaining. No new lost output, stalled worker, lease conflict or watcher
+fault requires recovery. **Means.** Earlier finite queues and calibration are
+complete, but the drive commission is not. Preserve the completed evidence and
+original failures; do not reset the reader's wait, lower its floor or reclaim
+another project's resources. The next independent engineering priority remains
+P4/D1 fitting and blind native reference preparation under their existing
+contracts. No new research, provider call, spending or scientific admission.
+
+The prior full calibration audit remains authoritative; this health check
+reconciles its receipt bindings and frozen inputs rather than repeating its
+statistics. Companion Git heads and a separate native queue CLI inventory were
+not refreshed; scoped OS inventory and actual event delivery were verified.
+The legacy September queue log is historical. No tests harvested this pass.
+
+Curator roll-up: operations; Is the queue healthy and able to continue?;
+**Infrastructure**; The queue is idle with a resource hold and unbuilt work;
+project meaning: the commission remains open without an eligible prepared
+successor; next engineering obligation: implement the independent fitting and
+reference plans and revisit reader headroom at the fixed inspection;
+public scientific claims unchanged; curator decision required: No; detail:
+[inspection receipt](results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json).
+
+### S15-DRIVE-V1-PHASE0 - complete outcome calibration and storage recovery
+
+**Hypothesis.** Can the unchanged Phase 0 prediction pipeline detect known
+personal effects, while refusing a personal-effect claim when no effect is planted?
+**METHOD.** Run the complete fixed grid of 150 conditional outcome constructions
+on the geometry of 1,399 exposed CoAuthor sessions, 16,855 decisions and 61 writers.
+For a random half of writers, shift accept log odds by a constant offset, a
+writer-specific content-taste interaction, or recent-choice habit. Use five
+fixed magnitudes and ten independent seeds per cell. Redraw all choices, rebuild
+resolved-choice lags and refit the original past-only session-start pipeline.
+Score four-class half-Brier improvement over its refitted population forecast,
+with the frozen 2,000-draw writer-cluster interval. These are synthetic outcomes
+on fixed human-record covariates, read by fitted programs; no new human evidence.
+
+Each row is one injection type and accept-log-odds magnitude, with ten fixed
+worlds. Recovery means the writer-cluster 95% interval for backbone improvement
+over the refitted population forecast is wholly above zero. The fourth column
+is the 95% Wilson interval for that ten-world recovery rate. The final column
+counts intervals containing the conditional expected gain of the fitted forecasts.
+
+| Injection | Log-odds magnitude | Recovered worlds | Recovery-rate uncertainty | Conditional-target coverage |
+|---|---:|---:|---|---:|
+| Content-dependent taste | 0 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Content-dependent taste | 0.1 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Content-dependent taste | 0.2 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Content-dependent taste | 0.4 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Content-dependent taste | 0.8 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Recent-choice habit | 0 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Recent-choice habit | 0.1 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Recent-choice habit | 0.2 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Recent-choice habit | 0.4 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Recent-choice habit | 0.8 | 0/10 | 0.0% to 27.8% | 9/10 |
+| Constant accept offset | 0 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Constant accept offset | 0.1 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Constant accept offset | 0.2 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Constant accept offset | 0.4 | 0/10 | 0.0% to 27.8% | 10/10 |
+| Constant accept offset | 0.8 | 10/10 | 72.2% to 100.0% | 10/10 |
+
+**Found.** The unchanged Phase 0 pipeline recovers the largest constant accept
+offset in all ten worlds; no other planted cell meets its recovery criterion.
+None of the thirty zero-injection worlds is recovered. **Means.** This instrument
+can detect the largest tested stable offset, but sensitivity is not established
+for smaller offsets, content-dependent tastes or recent-choice habits on this
+fixed grid. The first observed 80% grid crossing is 0.8 for the constant offset;
+none is reached for the other constructions. Ten successes have a Wilson lower
+bound of 72.2%, so they do not establish an underlying recovery rate of at least
+80%. No smooth detection boundary or untested crossing is inferred.
+
+Known injected gain differs from the fitted pipeline's expected gain. At the
+largest constant offset, oracle gain spans 0.006984 to 0.013707 half-Brier, while
+the fitted conditional gain spans 0.002192 to 0.004294. For the largest content
+injection those ranges are 0.005423 to 0.011184 and -0.001308 to 0.000407; for the
+largest habit injection they are 0.000786 to 0.001820 and -0.000929 to -0.000200.
+The full ranges and observed-minus-expected quantiles for every cell are retained
+in the aggregate receipt. Conditional-target coverage is 149/150, a coarse
+diagnostic rather than a guarantee about fresh fitted-data intervals. Zero
+recoveries in a ten-world null cell still has a 27.8% Wilson upper bound.
+
+The conditional construction fixes text, timing and cohort geometry. The reader
+and fitting specification, chosen injection forms and exposed data limit transfer.
+This does not identify why a past human contrast was weak, license a human-value
+claim, validate the separate text/adaptation or process-identity arms, or justify
+retrofitting earlier intervals. Those arms remain unbuilt. No extension, new seed,
+new model/provider call or downstream scientific admission follows from this landing.
+
+**Verification and recovery.** All 605 completion-bound files and 600 compressed
+world files verify. Decompression matches every raw hash; all 120 reused worlds
+match their original files. Construction, full prediction support, fit chronology,
+population/personal baseline predictions and all saved statistics independently
+reconcile. Bootstrap replay uses cluster sums and counts, independently of the
+runner's concatenation implementation; maximum statistic difference is
+3.83e-18. The optimizer was not refitted during validation.
+All 503 source/input pins and 21 research locks pass. The attempt retains
+6,080,100,043 bytes below its 10,737,418,240-byte cap. The
+predecessor's lifetime plus successor elapsed time remains below the original
+computation allowance. Original failed evidence is preserved. Native exit, released
+leases and actual watcher delivery verify. No drive worker remains; reader recovery
+is still held below its fixed GPU-memory floor. No new tests harvested this pass.
+
+Curator roll-up: instrument validity; Which planted personal effects can the
+Phase 0 pipeline recover?; **Infrastructure**; The largest constant offset is
+recovered while the other tested injection cells do not meet the recovery criterion;
+project meaning: sensitivity is specific to effect form and scale, with no human
+claim; next engineering obligation: retain these limits in downstream interpretation
+and implement separate target-matched constructions before other V1 arms;
+public scientific claims unchanged; curator decision required: No; detail:
+[complete calibration report](results/phase_2_4_stage_15/DRIVE/V1_PHASE0.md) and
+[aggregate and verification receipt](results/phase_2_4_stage_15/DRIVE/V1_PHASE0.json).
+
+### OPS-S15-DRIVE-READER-RESOURCE - bounded reader wait exhausted
+
+**Hypothesis.** Did the reader pilot stop at its resource deadline while
+preserving its completed work and leaving the independent calibration healthy?
+**METHOD.** Inspect the complete exception, frozen plan/source hashes, exact
+native worker and launcher exit, retained output support and finite arrays,
+GPU lease cleanup, current memory headroom and actual watcher delivery. Check
+the independent calibration's native identity, source pins, fresh progress,
+CPU lease and monitoring without interpreting unfinished scientific scores.
+
+The table reports execution, retained evidence and resource limits only.
+
+| Check | Outcome |
+|---|---|
+| Failure | Between-model resource-wait deadline fired at October 16, 23:22 PDT |
+| Deadline | Six-hour elapsed deadline reached before the largest model loaded; no implicit retry |
+| GPU admission | Last wait had 6,564 MiB free against the unchanged 8,500 MiB cold floor; inspection still below the floor |
+| Retained evidence | Four reader output sets retain complete fixed-menu/context support and finite arrays; reused files match their original hashes |
+| Incomplete scope | Largest reader unrun; no whole-pilot summary or completion receipt; full scoring remains held |
+| Integrity and cleanup | All 23 plan pins match; worker and launcher exited; GPU lease released; original failure retained |
+| Independent work | Calibration recovery is live with fresh remaining-world progress, all 503 pins verified and CPU lease intact |
+| Supervision | Actual owner delivery, watcher native/source identity, fresh scan and calibration terminal monitor verified; health deadline unchanged |
+
+**Found.** The reader stopped at its fixed resource deadline with completed
+outputs intact. **Means.** This is an apparatus interruption, not a negative
+scientific finding. Hold the reader while the fixed GPU admission floor is
+unavailable. A later separate recovery requires a reviewed finite plan and exact
+checkpoint reuse; this wake does not reset the waiting clock, loosen memory or
+residency limits, or admit a partial reader ladder. Earlier reused outputs retain
+their missing contemporaneous package-version limitation. The CPU calibration
+continues. No new tests harvested, provider calls made or unfinished scores reported.
+
+Curator roll-up: operational validity; Did the finite wait preserve evidence and
+safe resource ownership?; **Infrastructure**; The reader ended at its resource
+deadline with retained evidence intact; project meaning: no scientific verdict
+or full reader admission; next engineering obligation: revisit actual headroom
+at the existing health inspection and review a separate bounded recovery only
+when eligible; public scientific claims unchanged; curator decision required:
+No; detail: [failure receipt](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V4.json)
+and [original contract](docs/design/stage-15/drive/READER_PILOT_V4.md).
+
+### OPS-S15-DRIVE-V1-CAPACITY - original cap enforced, evidence retained
+
+**Hypothesis.** Did the calibration stop because its original storage guard
+fired, with completed work recoverable under the prebuilt storage-only successor?
+**METHOD.** Inspect the complete exception, exact native worker and parent exit,
+plan/source bindings, all consecutive checkpoint hashes, missing final summary,
+released CPU lease, resource floors and actual watcher delivery. Match the
+failure to the separately tested recovery's unchanged admission conditions.
+
+The table reports execution and retention, not calibration scores.
+
+| Check | Outcome |
+|---|---|
+| Failure | Original output-byte guard fired at October 16, 22:38:49 PDT |
+| Capacity | 10,754,261,263 retained bytes against the 10,737,418,240-byte cap; the periodic guard detects the overshoot |
+| Checkpoints | 120 complete consecutive worlds with all four files hash-bound; the next world retains construction only; no complete-grid summary |
+| Ownership | Original native worker and launcher ended; CPU lease released; no duplicate calibration worker |
+| Integrity | Original plan/source pins and prebuilt recovery source hashes match; checkpoint cell identities match the fixed grid |
+| Other work | Reader pilot remains in a valid resource wait; its source bindings and GPU lease verify; no paid dispatch |
+
+**Found.** The original calibration stopped at its storage cap with completed
+checkpoints retained. **Means.** This is an apparatus interruption, not a
+negative scientific finding. The eligible recovery can preserve the full grid
+by verifying and compressing every completed checkpoint, then computing the
+remaining worlds unchanged. Full checkpoint construction/score replay happens
+before reuse in that worker; an invalid checkpoint refuses the recovery. Original
+files and failure stay intact. The predecessor's full lifetime is charged against
+the original computation allowance; the output cap and resource floors remain.
+No new tests harvested and no unfinished scientific scores reported.
+
+**Recovery dispatch.** The separate plan binds 503 files and all completed
+checkpoint hashes. The worker is now verifying and compressing the complete
+prefix before fitting the remainder. Its exact native identity, advancing
+progress, CPU lease, monitor handshake and watcher scan after registration verify.
+Decompressing the first retained world reproduces every original file hash.
+The six-hour health deadline is unchanged. [Launch receipt](results/phase_2_4_stage_15/DRIVE/V1_STORAGE_LAUNCH.json).
+
+Curator roll-up: operational validity; Did the capacity guard preserve recoverable
+evidence?; **Infrastructure**; The original storage guard stopped the attempt
+with completed evidence intact; project meaning: recover computation without
+changing the experiment; next engineering obligation: verify the complete recovery
+before interpreting the calibration; public scientific claims
+unchanged; curator decision required: No; detail:
+[failure receipt](results/phase_2_4_stage_15/DRIVE/V1_CAPACITY_V2.json),
+[recovery contract](docs/design/stage-15/drive/V1_PHASE0_V3.md).
+
+### OPS-S15-HEALTH-1016-2026 - capacity recovery prepared
+
+**Hypothesis.** Can the authorized local calibration and reader pilot continue
+within their frozen resource limits, with intact evidence and reliable delivery?
+**METHOD.** Inspect exact Windows process identities and parent wrappers, progress
+and output timestamps, source pins, leases, retained terminals, RAM/commit/disk/GPU
+capacity and the watcher's actual owner delivery. Project storage from complete
+worlds; test a separate lossless recovery against the original scratch pipeline.
+
+The table describes operational checks and storage projections, not scientific scores.
+
+| Check | Observation and disposition |
+|---|---|
+| CPU calibration | Native worker advancing; 74 worlds complete at inspection, 77 at the recovery preflight. Fixed full grid remains unfinished |
+| Storage capacity | About 6.2 GiB retained halfway through; two complete-world samples project about 12.5 GiB uncompressed, above the 10 GiB attempt cap |
+| Recovery | Separate v3 runner built and tested; whole-grid compressed projection about 5.6 GiB. Original bytes retained. Original cap still enforced; v3 not launched |
+| Verification | Eleven targeted tests pass, including complete resumed/original byte equality, deterministic compression, corrupt/gapped checkpoint refusals, handler success/failure and no live-predecessor launch. One actual checkpoint's construction, support and score replay verify |
+| GPU reader | Exact worker waiting for Pythia 1.4B cold headroom; about 6.3 GiB free against the fixed 8,500 MiB admission floor. Full residency and allocator limits unchanged |
+| Evidence and resources | Both active source plans and all 21 research locks verify; no new terminal/failure. RAM, commit, disk and temperature within limits; leases belong to the exact workers |
+| Delivery and scope | Watcher identity, loaded sources, fresh scan, urgent terminal registration and this event's actual owner delivery verify. No active paid batch or new provider request |
+
+**Found.** The calibration is advancing but its current storage format is
+projected to exceed its cap; a tested lossless recovery is ready for the required
+terminal review. The reader remains in a valid resource wait. **Means.** Preserve
+useful ongoing computation and its original limits. On the immediate terminal
+wake, inspect and land the original capacity failure and native exit, then freeze
+and launch the recovery if all prerequisites pass. Reuse every verified complete
+world, rerun only the incomplete world and remainder, and charge the predecessor
+lifetime against the original computation allowance. No automatic launcher,
+extra ETA wake, scientific threshold change or new study is introduced.
+No tests harvested this pass. Companion Git heads and separate native Codex queue
+inventory were not refreshed; historical paid accounting holds remain conservative.
+
+Curator roll-up: operational validity; Can authorized work continue within its
+limits with intact evidence?; **Infrastructure**; A tested storage recovery is
+prepared; project meaning: preserves completed computation without changing the
+calibration; next engineering obligation: inspect the original terminal before
+freezing and dispatching the successor; public scientific claims unchanged;
+curator decision required: No; detail:
+[health receipt](results/phase_2_4_stage_15/HEALTH_20261016_2026_PUBLIC.json),
+[recovery contract](docs/design/stage-15/drive/V1_PHASE0_V3.md).
+
+### OPS-THEORY-20261016 - approved errata and source filing
+
+**Hypothesis.** Can the curator's latest theory corrections be applied without
+losing existing quotations, newer empirical entries or the live study contracts?
+**METHOD.** Read the supplied handoff and affected theory sections, match each
+anchor once in order, check new identifiers, preserve before/after hashes and
+verify the complete rendered edits against the source. File the original bytes,
+compare loose briefs with their canonical copies and repair the navigation.
+
+The table describes documentation checks, not experimental findings.
+
+| Check | Outcome |
+|---|---|
+| Anchored edits | All 46 applied across the five theory files; 15 fresh identifiers, no collisions |
+| Attribution and history | Existing quote lines retained; the superseded G188 quote remains, with its row withdrawn in favor of G191; supplied quotation repairs and analyst reading labels retained |
+| Newer evidence | Reader dashboard's saved-forecast result and afterword preserved exactly; no Ghost V22 or N4b outcome imported |
+| Filing | Errata archived with application receipt; two exact duplicate incoming briefs resolved to their Stage 15 homes; all incoming originals preserved |
+| Execution boundary | Active plans do not pin the edited theory files; source contracts and experimental gates unchanged |
+
+**Found.** The approved wording and navigation are reconciled with retained
+sources and empirical history. **Means.** The current store distinguishes needs,
+deviations, drives and values, and records the other supplied theoretical
+clarifications with their curator/analyst attribution. This maintenance pass
+does not conduct a new literature review or establish new empirical support.
+Stage 15 remains active, with Stages 14 and 13 closed. The CPU calibration
+continues; the reader pilot has used partial GPU capacity and waits for its
+largest model's required headroom. No new test or paid extension is launched
+by this filing pass; the supplied follow-ups remain tied to existing commissions.
+
+Curator roll-up: all five theory stores and navigation; Can approved corrections
+be filed without losing evidence or changing live studies?; **Infrastructure**;
+All 46 source edits are applied; project meaning: consistent definitions and
+findable source history; next engineering obligation: continue the authorized
+drive under its unchanged admission and resource gates; public empirical claims
+unchanged, approved theoretical corrections filed; curator decision required: No;
+detail: [application and validation](docs/design/archive/THEORY_ERRATA_20261016_APPLIED.json),
+[filing ledger](docs/archive/operations/DOCUMENT_RELOCATIONS_20261016.json).
+
+### OPS-S15-DRIVE-PRECISION - complete paired numerical diagnostic
+
+**Hypothesis.** Does higher arithmetic precision resolve the retained cached
+versus direct scoring disagreement on identical fixed inputs? **METHOD.** Score
+the first frozen Pythia 410M menu under all four contexts in float16 and float32,
+keeping the same weights, tokenizer, SDPA attention and 0.02 tolerance. Retain
+all comparison arrays, freeze runtime versions and independently recompute every
+discrepancy after verifying the complete terminal, source pins and native exit.
+
+The table reports numerical consistency on one menu, not predictive quality.
+There are four comparisons per precision and no overflow exclusions.
+
+| Runtime | Maximum absolute token-loss discrepancy | Original 0.02 gate |
+|---|---:|---|
+| Float16 | 0.129802 | Fail |
+| Float32 | 0.000350 | Pass |
+
+**Found.** The paired diagnostic fails in float16 and passes in float32 on the
+same fixed inputs. **Means.** Higher precision is a supported apparatus remedy
+on this menu, not proof that all readers or inputs are reliable. A separate
+full five-reader pilot now tests the Pythia ladder in float32, retaining completed
+Smol/Qwen outputs by exact binding. Larger weight memory requires a stricter
+cold-headroom requirement and an explicitly bounded allocator reservation;
+full residency and the operating floor remain enforced. Full-corpus scoring
+remains unadmitted. Original failures and the interrupted first diagnostic stay
+intact; no paid request or scientific threshold changed.
+
+Curator roll-up: instrument validity; Can a fixed precision change restore
+numerical agreement?; **Infrastructure**; The paired precision diagnostic
+supports the higher-precision runtime; project meaning: full-pilot remedy
+available, no scientific admission; next engineering obligation: finish the
+whole pilot and inspect throughput, exclusions and memory; public claim
+unchanged; curator decision required: No; detail:
+[complete diagnostic](results/phase_2_4_stage_15/DRIVE/READER_DIAGNOSTIC_V2.json).
+
+### S15-DRIVE-V2 - complete decomposition of saved forecasts
+
+**Hypothesis.** Does saved forecast error reflect calibration mismatch or weak
+discrimination beyond the fitted behavioral baseline? **METHOD.** Decompose the
+exact half-Brier loss (half the summed squared probability error, lower is better)
+for every frozen forecast, with merged decile and exact-vector bins. Keep the
+whole Phase 0 cohort separate from the smaller Stage 14 reader cohort. Invalid
+reader answers retain system loss one; probability decompositions use valid rows
+only. Recompute all source scores independently, check each bin denominator and
+reconstruction, and retain writer-bootstrap intervals conditional on saved fits.
+
+The table reports all 26 arms. Phase 0 uses 16,855 decisions from 61 writers;
+reader arms use 234 decisions from 31 writers. Population means the pooled prior,
+personal means the writer-frequency prior, and backbone means the frozen fitted
+behavioral model. H0 is no history, H1 earlier same-session choices, H2 earlier
+own-session histories, and H3 matched other-writer histories. BCTS is class-bias
+and temperature calibration; EM+T is the requested expectation-maximization
+prior correction then temperature scaling, whose label-shift assumptions remain
+unverified. Corrected uses the calibrated reader; stacked combines it with the
+backbone and its frozen invalid-answer fallback. Loss is system half-Brier;
+Rel and Res are empirical calibration error and resolution on valid rows;
+Residual includes within-bin forecast/outcome covariance. Gain is reference loss
+minus system loss; positive favors the row. Brackets are 95% writer-resampled
+intervals, 2,000 draws, not selection-adjusted. The reference is population in
+Phase 0 and backbone in the reader cohort. No cohorts are pooled.
+
+| Cohort / arm | Invalid | Loss | Rel | Res | Residual | Gain [95% interval] |
+|---|---:|---:|---:|---:|---:|---|
+| Phase 0 / backbone | 0 | 0.270043 | 0.000686 | 0.023024 | -0.001052 | +0.023962 [+0.017497, +0.030691] |
+| Phase 0 / population | 0 | 0.294005 | 0.000592 | 0.000257 | +0.000238 | +0.000000 [+0.000000, +0.000000] |
+| Phase 0 / personal | 0 | 0.277057 | 0.001508 | 0.017141 | -0.000741 | +0.016948 [+0.008204, +0.025631] |
+| Reader / backbone | 0 | 0.302052 | 0.010040 | 0.021114 | +0.000375 | +0.000000 [+0.000000, +0.000000] |
+| Reader / population | 0 | 0.316591 | 0.005210 | 0.000099 | -0.001271 | -0.014539 [-0.031371, +0.000807] |
+| Reader / personal | 0 | 0.315071 | 0.012468 | 0.008335 | -0.001813 | -0.013019 [-0.028375, +0.000786] |
+| Reader / H0 | 3 | 0.436916 | 0.122530 | 0.007146 | +0.000826 | -0.134863 [-0.174220, -0.091714] |
+| Reader / H0 BCTS corrected | 3 | 0.326718 | 0.004586 | 0.003589 | +0.003583 | -0.024666 [-0.044742, -0.005774] |
+| Reader / H0 BCTS stacked | 0 | 0.302910 | 0.008766 | 0.017259 | -0.001348 | -0.000857 [-0.002548, +0.000675] |
+| Reader / H0 EM+T corrected | 3 | 0.517850 | 0.203764 | 0.007597 | +0.002028 | -0.215798 [-0.278399, -0.159327] |
+| Reader / H0 EM+T stacked | 0 | 0.301463 | 0.007702 | 0.018598 | -0.000393 | +0.000589 [-0.000747, +0.001912] |
+| Reader / H1 | 4 | 0.374244 | 0.068484 | 0.017807 | +0.001248 | -0.072192 [-0.107401, -0.036598] |
+| Reader / H1 BCTS corrected | 4 | 0.320604 | 0.008196 | 0.010562 | -0.000283 | -0.018551 [-0.038134, +0.001908] |
+| Reader / H1 BCTS stacked | 0 | 0.302145 | 0.010473 | 0.020136 | -0.000942 | -0.000093 [-0.004880, +0.004709] |
+| Reader / H1 EM+T corrected | 4 | 0.490829 | 0.189294 | 0.018002 | -0.000755 | -0.188777 [-0.261820, -0.120892] |
+| Reader / H1 EM+T stacked | 0 | 0.301229 | 0.010260 | 0.023285 | +0.001503 | +0.000823 [-0.002057, +0.003927] |
+| Reader / H2 | 2 | 0.393029 | 0.085837 | 0.011442 | -0.000566 | -0.090977 [-0.139139, -0.049046] |
+| Reader / H2 BCTS corrected | 2 | 0.324432 | 0.004856 | 0.002949 | +0.002734 | -0.022380 [-0.046643, -0.002369] |
+| Reader / H2 BCTS stacked | 0 | 0.302985 | 0.007437 | 0.016605 | -0.000598 | -0.000933 [-0.002781, +0.000598] |
+| Reader / H2 EM+T corrected | 2 | 0.587060 | 0.278054 | 0.007875 | -0.000646 | -0.285008 [-0.372601, -0.205205] |
+| Reader / H2 EM+T stacked | 0 | 0.302085 | 0.010439 | 0.021242 | +0.000137 | -0.000033 [-0.002383, +0.002146] |
+| Reader / H3 | 1 | 0.390387 | 0.086312 | 0.011060 | +0.000356 | -0.088334 [-0.126564, -0.054322] |
+| Reader / H3 BCTS corrected | 1 | 0.319145 | 0.005895 | 0.004357 | +0.002522 | -0.017093 [-0.035780, -0.000254] |
+| Reader / H3 BCTS stacked | 0 | 0.302724 | 0.008466 | 0.017438 | -0.001054 | -0.000672 [-0.002466, +0.000958] |
+| Reader / H3 EM+T corrected | 1 | 0.628359 | 0.321200 | 0.007163 | +0.000564 | -0.326307 [-0.411779, -0.240805] |
+| Reader / H3 EM+T stacked | 0 | 0.302672 | 0.009623 | 0.020189 | +0.000487 | -0.000619 [-0.001161, -0.000143] |
+
+**Found.** The complete decomposition preserves the earlier outcome: none of the
+eight calibrated combinations reaches the declared useful gain of 0.01 over
+the backbone; every interval's upper bound is below that margin. Raw reader
+forecasts have substantial calibration error. The Phase 0 backbone gains 0.023962
+[0.017497, 0.030691] over the population forecast. **Means.** Recalibrating or
+combining these saved reader outputs has not recovered useful additional
+prediction on this exposed cohort. This is a diagnostic of retained fits, not
+an independent replication or a general limit on reading makers. Empirical
+resolution depends on binning; singleton exact-vector bins can appear maximally
+resolved and have no finite-sample correction. The covariance residual changes
+sign, so it cannot be reported as forecast variance alone. Corrected terms use
+iid assumptions and are not cluster-valid unbiased estimates. The complete
+aggregate curve, including exact-vector diagnostics, is retained; individual
+forecasts and bin contents remain private. No new admission or paid extension.
+
+Curator roll-up: reader calibration · Can the saved reader forecasts add useful
+prediction beyond the backbone? · **Narrows** · No calibrated combination clears
+the declared useful-gain margin · project meaning: the saved-reader deficit
+remains after this diagnostic · next engineering obligation: use the new
+commission's independently validated features rather than repeat these fits ?
+public claim unchanged · curator decision required: No · detail:
+[complete decomposition](results/phase_2_4_stage_15/DRIVE/V2.json).
+
+### S15-DRIVE-CONTENT - complete CPU representations
+
+**Hypothesis.** Can the fixed content representation cover every recorded menu
+without using the writer's handling label? **METHOD.** Encode the complete input
+roster with the pinned MiniLM weights and explicit native-token views on CPU.
+Independently verify terminal hashes, row order, candidate counts, every vector's
+finite unit norm, every saved cosine and all visibility bounds after native exit.
+
+The table reports representation coverage, not predictive usefulness.
+
+| Check | Observation |
+|---|---|
+| Complete roster | 16,855 decisions; 69,109 offered candidates |
+| Representation | 82,941 unique 384-dimensional vectors, CPU float32 |
+| Limited views | 8,489 vectors truncated with exact visibility records; context last 254 tokens, suggestion first 254 |
+| Integrity | All retained hashes, source pins, candidate order, finite norms and cosines verify |
+| Limits | No label use, fitting or scientific admission; runtime package versions were not frozen by this attempt |
+
+**Found.** Content representations cover the full roster with explicit visibility
+limits and verified retained vectors. **Means.** The chronology-safe free-feature
+fit can be built from these inputs. This does not establish that the embedding
+measures intent or predicts handling. The earlier failed tokenizer attempt remains.
+
+Curator roll-up: instrument validity · Can content features preserve the complete
+menu roster? · **Infrastructure** · The complete representation is verified ?
+project meaning: input prerequisite ready · next engineering obligation: build
+and validate the chronology-safe fit with source coverage retained · public claim
+unchanged · curator decision required: No · detail:
+[content receipt](results/phase_2_4_stage_15/DRIVE/CONTENT_V2.json).
+
+### OPS-S15-DRIVE-DIAGNOSTIC-RESOURCE - precision comparison interrupted
+
+**Hypothesis.** Can both precision conditions run under the unchanged GPU
+headroom checks? **METHOD.** Inspect the terminal, native identity and retained
+arrays after the first diagnostic stopped between unloaded models. Freeze a
+separate successor that waits for the same cold-load floor between conditions.
+
+The table describes execution only; the incomplete comparison has no verdict.
+
+| Check | Observation |
+|---|---|
+| Stop | Cold-load headroom below the unchanged 6,500 MiB floor between precisions |
+| Retention | Incomplete arrays and source pins preserved; exact native worker ended |
+| Recovery | New attempt waits for the same floor, with bounded waiting and computation |
+
+**Found.** The first precision diagnostic ended before both conditions completed.
+**Means.** It cannot establish a precision remedy. The separate successor preserves
+the floor, fixed inputs and numerical tolerance; no scientific gate is relaxed.
+
+Curator roll-up: instrument validity · Can the paired diagnostic finish within
+its resource contract? · **Infrastructure** · Resource admission stopped the
+incomplete comparison · project meaning: no numerical or scientific verdict ?
+next engineering obligation: complete the monitored successor · public claim
+unchanged · curator decision required: No · detail:
+[resource failure](results/phase_2_4_stage_15/DRIVE/READER_DIAGNOSTIC_V1.json).
+
+### OPS-S15-DRIVE-V1-ORDER - pre-dispatch chronology correction
+
+**Hypothesis.** Does the synthetic calibration preserve the original pipeline's
+history ordering when decisions overlap? **METHOD.** Compare the unchanged
+feature builder with the proposed synthetic-history construction over the whole
+source roster. Stop the exact waiting worker before any world is generated;
+freeze a corrected successor and test both overlap fixtures and every source row.
+
+The table describes construction validity, not a planted-signal result.
+
+| Check | Observation |
+|---|---|
+| Ordering discrepancy | 111 eligible prefixes distinguish most recently opened from most recently resolved decisions |
+| Original attempt | Cancelled while waiting; no world generated or fitted; native exit verified |
+| Corrected construction | Exact original-feature equality on all 16,855 rows |
+| Verification and dispatch | Five targeted tests pass; separately frozen successor queued after V2 |
+
+**Found.** The first calibration setup was cancelled before computation because
+its lag order differed from the original pipeline. The corrected setup preserves
+the original features over the complete input set. **Means.** The calibration
+can proceed without changing the original fitting method. No scientific outcome
+was discarded or selected; the original attempt and cancellation remain intact.
+
+Curator roll-up: instrument validity · Does injected history preserve the fitted
+instrument? · **Infrastructure** · The corrected constructor exactly reproduces
+original features · project meaning: pre-dispatch defect repaired · next
+engineering obligation: finish the complete grid before interpretation · public
+claim unchanged · curator decision required: No · detail:
+[V1 setup receipt](results/phase_2_4_stage_15/DRIVE/V1_SETUP_V1.json).
+
+### OPS-S15-DRIVE-READER-V3 - numerical admission stops at Pythia
+
+**Hypothesis.** Do cached and direct teacher-forced scores agree under the
+pilot's fixed numerical contract? **METHOD.** Inspect the failed terminal and
+retained comparison arrays, independently recompute their maximum absolute
+error, verify source pins, exact native exit and released lease, and freeze a
+paired precision diagnostic on the original first menu and all its contexts.
+
+The table reports the complete failed admission event, not reader performance
+or a scientific effect.
+
+| Check | Observation |
+|---|---|
+| Failing runtime | Pythia 410M, float16, first unconditional comparison |
+| Comparison | 21 aligned finite token losses; maximum absolute discrepancy 0.0617642 |
+| Frozen limit | 0.02; admission fails unchanged |
+| Disposition | Full pass held; original arrays retained; no paid call |
+| Recovery | Separate fixed-input float16/float32 diagnostic, no automatic admission |
+
+**Found.** The reader pilot failed the original numerical tolerance at Pythia.
+**Means.** The failure identifies disagreement, not its cause or a negative
+research result. The diagnostic may establish a precision-specific remedy on
+its fixed inputs; it cannot admit the full corpus or larger readers. Completed
+work remains retained and no threshold is relaxed.
+
+Curator roll-up: instrument validity · Are the scoring paths numerically
+consistent? · **Infrastructure** · The numerical check refuses the pilot ?
+project meaning: dependent scoring remains held · next engineering obligation:
+diagnose the retained mismatch before a separate full pilot · public claim
+unchanged · curator decision required: No · detail:
+[reader receipt](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V3.json).
+
+### S15-DRIVE-LICHESS - complete source archive verified
+
+**Hypothesis.** Can the requested chess month be acquired completely within its
+download bounds and tied to the publisher's exact bytes? **METHOD.** Stream the
+official July standard-game archive under byte, wall-time and resource ceilings,
+check declared length and end of file, then independently hash the retained file
+against both the streaming receipt and official checksum listing. Verify all
+terminal-bound records, source pins and the ended native worker.
+
+The table reports source acquisition only; no games or model scores were analyzed.
+
+| Check | Observation |
+|---|---|
+| Source | Lichess standard rated games, July 2026; published as CC0 |
+| Archive length | 29,051,046,504 bytes; complete end of file |
+| Integrity | Independent full-file SHA-256 equals streaming and published digests |
+| Execution | Native worker ended; all four terminal-bound records and source pins verify |
+| Downstream state | Parsing, frozen player cohort, clock reference and inference are unrun |
+
+**Found.** The complete chess archive is retained and independently verified.
+**Means.** Bounded parsing can now be built. A whole-month download does not
+authorize whole-month inference or establish a chess behavioral finding.
+
+Curator roll-up: decision traces · Can the chess source be acquired faithfully?
+· **Infrastructure** · The complete archive matches the published digest ·
+project meaning: source download dependency removed · next engineering
+obligation: freeze parsing and player/position bounds before T2 and chess studies
+· public claim unchanged · curator decision required: No · detail:
+[source receipt](results/phase_2_4_stage_15/DRIVE/LICHESS_INTAKE.json).
+
+### OPS-S15-DRIVE-REPAIRS - three apparatus stops retained
+
+**Hypothesis.** Can the local scoring and content apparatus run with intact
+tokenization, memory and numerical checks? **METHOD.** Inspect each complete
+failure receipt, verify its exact native process has ended, preserve its pinned
+inputs and completed outputs, and test separately identified repairs without
+changing scientific gates or the cached/direct scoring tolerance.
+
+The table describes apparatus failures, not negative research results.
+
+| Attempt | Observed stop | Disposition |
+|---|---|---|
+| Content features v1 | Installed BERT tokenizer lacks the called special-token method; stopped before cohort processing | v2 uses exact native special tokens; four tests include the installed tokenizer, empty input and Unicode |
+| Reader pilot v1 | Cold-load VRAM floor lost between readers | v2 waits for unchanged headroom; completed Smol pilot retained by exact binding |
+| Reader pilot v2 | Qwen cached/direct teacher forcing disagrees beyond the fixed tolerance | Original error size was not saved; v3 tests float32 Qwen and saves complete comparison arrays before applying the same gate |
+
+**Found.** Three apparatus attempts stopped before dependent research was
+admitted. **Means.** Their failures and completed work remain intact. Separate
+content and numerical repairs are monitored; passing a repaired runtime would
+not retrospectively establish the cause of the original numerical mismatch.
+No threshold is relaxed, no scientific negative is relabelled, and no paid
+request is repeated by these recoveries.
+
+Curator roll-up: instrument validity · Can local measurements retain their
+contracts? · **Infrastructure** · Apparatus failures stop dependent work and
+remain preserved · project meaning: no scientific verdict · next engineering
+obligation: complete repaired apparatus admission before full scoring · public
+claim unchanged · curator decision required: No · detail:
+[reader attempts](results/phase_2_4_stage_15/DRIVE/P1.md) and
+[content attempt](results/phase_2_4_stage_15/DRIVE/CONTENT.md).
+
+### S15-DRIVE-WIKIPEDIA - complete metadata intake and aggregate reference
+
+**Hypothesis.** Can the specified public revision sample supply an auditable
+source-shape reference without inventing editing intentions? **METHOD.** Fetch
+official chronological revision metadata for five named and one hundred frozen
+random articles, verify every page and continuation endpoint, then count unique
+editor identities, returns to older content hashes and a fixed nonautomatic
+summary heuristic. Check all terminal-bound hashes and the finished native worker.
+
+The table reports metadata coverage and operational definitions. A content-hash
+return is a revert proxy; the summary heuristic is not a human intention label.
+
+| Complete source check | Observation |
+|---|---|
+| Sample and revisions | 105 articles; 22,217 revisions |
+| Intake | 133 requests; 6,017,393 response bytes; all 375 output hashes verify |
+| Editors | 8,408 observed identities; no hidden-editor records in this snapshot |
+| Revert indicators | 1,940 older-hash returns; 71 immediate repeats; 563 revisions tagged as reverted |
+| Edit summaries | 18,588 nonempty comments; 10,546 meet the fixed nonautomatic heuristic |
+| Hidden fields | 7 comments and 8 content hashes hidden; retained in denominators |
+
+**Found.** The complete metadata sample and aggregate reference are verified.
+**Means.** Source-shape work can proceed, but full revision text, native edit
+intent and promotion dates remain separate inputs. The reference names a real
+Wikipedia content SHA-1 and snapshot hash, not an invented Git commit; Ghost
+must review that API-native identity before admission. No predictive, causal
+or human-mechanism claim is licensed.
+
+Curator roll-up: decision traces · Can revision histories supply a faithful
+source reference? · **Infrastructure** · The complete metadata sample is
+reconciled · project meaning: aggregate reference ready with explicit source
+identity review · next engineering obligation: deliver exact aggregate bytes
+and build bounded text-pair intake · public claim unchanged · curator decision
+required: No · detail: [S0 report](results/phase_2_4_stage_15/DRIVE/S0.md).
+
+### S15-DRIVE-A0-V2 - complete paid literal admission
+
+**Hypothesis.** Can the paid reader reliably extract the specified literal
+features before those features enter a human-data comparison? **METHOD.** Run
+all nine canonical constructed batteries, 200 known-answer items each, through
+the exact Haiku model and frozen transport repair. Replay every retained wire
+response through the canonical parser and independently recount every label;
+apply the additional overall and minimum-class correctness gates unchanged.
+
+The table reports whole-question accuracy and final constructed eligibility.
+Every question returned 200 valid answers. Eligibility also requires every
+class to pass, and the dialogue/person cross-check where applicable.
+
+| Feature | Correct / 200 | Constructed eligibility |
+|---|---:|---|
+| Topic continuity | 200 | Pass |
+| Register | 200 | Pass |
+| Tone change | 13 | Fail: overall and all classes |
+| Dialogue | 200 | Pass, cross-check 1.000 |
+| Grammatical person | 199 | Pass, cross-check 0.995 |
+| Contradiction | 102 | Fail: affirmative class 2/100 |
+| Edit type | 200 | Pass |
+| Claim change | 200 | Pass |
+| Themes | 180 | Fail: empty-set class 0/20 |
+
+**Found.** The paid reader passed six constructed feature checks and failed
+three: tone, contradiction, and themes. Keep those three disabled; the complete
+admission batch cost four cents. **Means.** No failed question enters annotation
+or a downstream scientific comparison. These are exposed synthetic templates,
+so passing does not establish natural-data validity, a useful predictive gain,
+or permission to promote a canonical engine. The old pre-dispatch grammar
+failure remains intact. All output hashes, exact batch completion, usage and
+native exit verify; no resubmission or positive-only salvage occurred.
+
+Curator roll-up: instrument validity · Can literal extraction survive known
+answers? · **Infrastructure** · Six constructed feature checks pass, with failed
+questions disabled · project meaning: natural validation still required · next
+engineering obligation: freeze blind native reference labels and eligible
+feature-only comparison · public claim unchanged · curator decision required:
+No · detail: [complete admission](results/phase_2_4_stage_15/DRIVE/A0_V2.json).
+
+### S15-DRIVE-FOUNDATION - complete event replay and reference inputs
+
+**Hypothesis.** Can the exposed human records be reconstructed without losing
+decisions, character provenance or the distinction between observed and inferred
+timing? **METHOD.** Replay the complete frozen CoAuthor roster with UTF-16 delta
+semantics; compare every final document and usable decision against the retained
+canonical replay, independently recount all outputs and verify contiguous origin
+spans. Count the released DICES panel directly, checking unique rater/item pairs.
+
+The table reports input coverage and integrity, not a psychological effect.
+
+| Completed check | Observation |
+|---|---|
+| Human sessions and writers | 1,399 sessions, 61 writers |
+| Recovered decisions | 16,855, exact canonical decision/handling equality |
+| Delta records and edit windows | 2,414,144 deltas; 203,462 bounded edit windows |
+| Timing | 16,719 observed selection/close endpoints; 136 censored ignores |
+| Documents and origin spans | Canonical replay equality; contiguous Unicode-length-conserving spans |
+| DICES source | 43,050 unique ratings, 123 raters by 350 items |
+| Retained evidence | All 1,408 terminal-bound files verify; native worker ended |
+
+**Found.** The session replay completed with canonical documents and decision
+labels intact. **Means.** Authenticated source summaries and chronology are ready
+for dependent work. They are descriptive references, not a healing witness for
+earlier failed simulations. The final document is replayed rather than independently
+saved, character insertions are not physical keypresses, and ignore endpoints are
+censored rather than observed mental decisions. The 104-rater sensitivity remains
+blocked without the actual exclusion roster. No predictive or mechanism claim.
+
+Curator roll-up: decision traces · Can the recorded process be retained faithfully?
+· **Infrastructure** · The whole exposed session roster reconciles with canonical
+replay · project meaning: shared input foundation ready · next engineering
+obligation: validate companion contracts and freeze dependent models · public
+claim unchanged · curator decision required: No · detail:
+[verification receipt](results/phase_2_4_stage_15/DRIVE/FOUNDATION.json).
+
+### OPS-S15-DRIVE-SETUP-1 - source catalogue ready; paid setup failed before dispatch
+
+**Hypothesis.** Can the new drive commission reuse the complete local reader
+ladder and enter paid known-answer admission without changing its answer contract?
+**METHOD.** Hash-pin weights and tokenizers for all five requested base readers,
+download only the missing public size arm, exercise the scoring/statistical and
+budget controls, build the complete canonical synthetic request roster and count
+provider tokens before reservation or generation.
+
+The table distinguishes completed infrastructure checks from research outcomes.
+
+| Check | Complete observation |
+|---|---|
+| Reader sources | All five model/tokenizer identities retained; no inference in source acquisition |
+| Local controls | Exact score decomposition, covariance residual, Unicode origins, source drift, reentry, cap boundaries and fake-provider whole-battery flow pass |
+| API setup | First 1,600 token counts retained; first themes schema fails because provider grammar rejects array maxItems |
+| Spending and outcomes | No reservation, submitted batch or model generation; no scientific negative result |
+| Recovery | Preserve v1; a separate transport repair may omit unsupported grammar constraints while canonical validation retains unique allowed labels |
+
+**Found.** The local reader sources are ready. Paid admission has not run; its
+setup failed before dispatch, and the exact provider error and native exit are
+verified. **Means.** Proceed with local preparation and a separately frozen
+schema repair. Native validity, predictive usefulness and prior scientific gates
+remain unchanged. No threshold relaxation, repeated-seed rescue or model change.
+
+Curator roll-up: instrument validity ? Can the commissioned instruments start
+with intact contracts? ? **Infrastructure** ? Five reader sources are pinned,
+while paid setup refuses unsupported grammar before spending ? project meaning:
+no scientific verdict ? next engineering obligation: validate a separate
+transport repair and complete throughput admission ? public claim unchanged ?
+curator decision required: No ? detail: [drive evidence](results/phase_2_4_stage_15/DRIVE/README.md).
+
+### OPS-S15-HEALTH-1016-1423 - drained queues remain healthy
+
+**Hypothesis.** Has completed work remained intact, or is an operational fault
+preventing authorized work? **METHOD.** Recheck exact native worker/service and
+watcher identities, scoped process inventory, terminal freshness and full landings,
+failures, leases, resource floors, frozen/research locks, companion returns and
+scientific admission, plus actual current delivery and the preceding health ACK.
+
+The table reports operational observations; finished queues require no fresh
+progress heartbeat and do not imply completion of every Stage 15 question.
+
+| Check | Observation |
+|---|---|
+| Execution and evidence | Nine ended identities, no project worker, no new terminal among 83 checked, completed landings reconcile |
+| Failures and leases | Four retained historical failures unchanged; CPU/GPU leases absent and project model unloaded |
+| Resources and locks | About 44 GiB available RAM, 38 GiB commit headroom and 517 GiB disk; all floors and 21 research locks pass |
+| Next work | Failed Ghost witness unchanged; profile fitting unrun, native annotation/input preparation unfinished |
+| Delivery | Exact watcher, loaded source hashes, fresh scan, actual health delivery and preceding ACK verified |
+| Recovery | None required; completed work stays closed |
+
+**Found.** No stranded authorized dispatch, new operational failure or unrecorded
+completion was found. Companion dependency notes and the ToMpathy return remain
+unchanged; no matching healing witness is present. No paid batch is active.
+The continuation handoff still used historical running/missing-witness language;
+its current-state text is corrected without altering evidence or scientific gates.
+
+Companion Git heads and the separate Codex native-queue CLI inventory were not
+refreshed; the earlier ownership/access limitations remain explicit. Scoped native
+process inspection had no access denials. Actual watcher delivery is verified.
+
+**Means.** Stage 15 remains open. Native reference/input preparation is independent
+unfinished work, while profile fitting requires separately reviewed matching
+Ghost healing. No new tests harvested, provider calls, gear change or delegation.
+ACK follows this write-through and rearms the six-hour inspection; immediate
+terminal/failure supervision remains enabled.
+
+**Curator roll-up.** Theory group: operational infrastructure. Question: is the
+queue healthy with unfinished work accurately gated? Outcome: **Infrastructure**.
+Result: completed queues remain intact without operational recovery. Project
+meaning: drained execution is distinct from full scientific closure. Next
+engineering obligation: native validation preparation and matching companion
+healing review. Public claim: unchanged. Curator decision required: No.
+Detail: [inspection receipt](results/phase_2_4_stage_15/HEALTH_20261016_1423_PUBLIC.json).
+
 
 ### OPS-S15-HEALTH-1016-0813 - drained queues and supervision verified
 
@@ -23533,6 +24344,13 @@ record asks for: a second checkpoint and domain for the causal-use read (L255).
 ---
 
 ## ⚠ Known weaknesses — open ones only
+
+**Phase 0 recovery is effect-specific (S15-DRIVE-V1-PHASE0).** The complete
+constructed grid recovers the largest constant accept offset but no smaller
+offset, content-taste or habit cell at the fixed criterion. Ten worlds per cell
+give coarse uncertainty; successful large-offset detection cannot attribute all
+weak human results to writers. Separate process-identity and text/adaptation
+constructions remain unbuilt. Original human findings are not reclassified.
 
 **Stage 14 personal text-adapter scope (S14-P03-FIRST-MAIN/S14-P03-QWEN-FIRST-MAIN).** The first complete backbone cells share the same exposed writers and evaluation choices. Many training histories are sparse; inference conditions on fixed past-only donor and pooled training. Normalized and residual readouts can have different dispositions, and the remaining matrix is unfinished. These cell results do not establish parity, independent human replication, a general personal-learning limit or private-goal recovery.
 

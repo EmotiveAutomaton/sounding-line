@@ -252,6 +252,17 @@ intractable. Evolutionary psychology holds instead that it is the criterion that
 and is not represented at all (Tooby & Cosmides, 1992, snippet). The two views agree on the target
 and differ on whether anything above the drives is there to be read.
 
+**Learned ends and the target** *(2026-10-16)*. The curator's ruling that anything can become a set
+point ([`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4, G191) answers what he called a
+pretty big hole in his theory, the assumption that only drives sit at the top of a person's
+hierarchy, and it lets personal ends sit beside the inherited ones. If a learned end inherits its
+structure from the needs that built it, terminal in operation and instrumental in origin as control
+theory's reorganization implies, the shared needs still lie beneath every top and the target keeps
+its population backbone; that reading is the analyst's. If it does not, the target includes ends
+that differ by person with no common backbone, and aggregation carries more of the weight. Which
+holds is open. The end test in that section identifies learned ends, but telling whether they keep
+the backbone needs evidence on how they formed.
+
 ## §4. The failure modes, named now rather than discovered later
 
 **This needs to survive attack to be worth anything, and stating them now is cheaper than finding

@@ -155,6 +155,62 @@ faithful test has a model read its own unprompted artifacts. A constructed test 
 between process and preference ran as card C2 of the Ghost V22 first pass (13 October); its result
 is not yet read into this file.
 
+**Readers converge with context, and the reader's habit is the reference** *(2026-10-16)*:
+
+> The AI reader would predict its own habits, and that'd be useful information. [...] That's why you
+> seek context, to ensure that you do have, you're putting yourself to the test properly. That you
+> aren't giving yourself, like, of course you can recreate the Mona Lisa [...] with Photoshop, but
+> like, can't you do it the way that he did it? Otherwise you didn't actually do it. [...] Of course
+> it produces its own habits, that's the easy thing, but you need context to produce the writer's,
+> and you can extract context from the document for the page, but also kind of from your own
+> history, which is largely what your readers are missing, I suspect. Kind of built-in base level
+> context understanding. I don't know, maybe not.
+
+> Readings shouldn't just depend on the reader. They do. They're changed by the reader. Certainly
+> different models should have different reading outputs just because that's how noise works. But
+> practically speaking, the goal is to fully align with context and thus have removed the difference
+> between the two, context being the only real difference in terms of solution, unless you can find
+> a truly alternative solution that also gets you there 100% of the way, which is not really a thing
+> that happens in physical space.
+
+*Curator's walkthroughs of the analyst's 16 October record and handoff questions, 2026-10-16 (12:57 and 14:17 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The line the curator answered reported that a model reader asked to forecast writers' choices
+forecast its own habits. He reads that as useful information, and the analyst's gloss is that the
+reader's habit is the reference rather than the error. Attention is a departure from the reader's
+own expected process, so the error was using the reference as the forecast, and the public CoAuthor
+release already holds the reference, since it logs the model's own probability for every suggestion
+it offered. Context is how a reader moves from its own habit to the writer's, and getting context
+beats imagining it. Across 25 experiments, imagining another person's perspective gave no consistent
+gain in accuracy and sometimes raised confidence, while getting the perspective by asking raised
+accuracy
+([Eyal, Steffel & Epley, 2018](https://cris.iucc.ac.il/en/publications/perspective-mistaking-accurately-understanding-the-mind-of-anothe/),
+abstract read).
+
+For Bayesian readers the convergence the curator describes is a theorem with a condition. When two
+readers' priors allow the same possibilities, their predictions of what comes next merge as shared
+evidence grows, and one reader's predictions merge with the other's when its prior rules out nothing
+the other allows ([Blackwell & Dubins, 1962](https://doi.org/10.1214/aoms/1177704456), through a
+summary read); with a common prior and common knowledge of each other's views, two readers cannot
+agree to disagree ([Aumann, 1976](https://doi.org/10.1214/aos/1176343654), read). If one reader
+gives zero weight to what the other allows, shared context is not guaranteed to close the gap.
+Disagreement beyond noise that persists as shared evidence grows therefore marks a support gap, a
+move one reader cannot represent, or rarely the truly alternative solution the curator allows for. A
+position paper argues that representations in different models converge as models grow
+([Huh et al., 2024](https://arxiv.org/abs/2405.07987), read). The dissent is that larger models'
+surprisal fits human reading times worse
+([Oh & Schuler, 2023](https://aclanthology.org/2023.tacl-1.20/), read), so readers converging with
+each other can drift from human readers, and a reader built to model people has to model a human
+reader rather than an ideal one.
+
+**(HH-READER-CONVERGENCE:** Readers differ through noise and missing context, and shared context
+removes the difference unless one reader cannot represent the move or a truly alternative solution
+exists; a reader's own habit is the reference against which a maker's departures are read, not a
+forecast of the maker. **OPEN.** The convergence claim is the curator's and the reading of habit as
+the reference is the analyst's. A theorem for Bayesian readers whose priors allow the same
+possibilities (lit, READ and through a summary read); larger models fit human reading times worse
+(lit, READ); no project measurement of convergence with context.)**
+
 **Proposed self-based initialization.** Shared organization may supply a cheap candidate
 generator that the reader can adjust toward the maker using artifact evidence and context.
 Relevant similarity is expected to make this shortcut more useful; the route is neither
@@ -576,18 +632,102 @@ confusion between the poem and its results" (Wimsatt & Beardsley, 1949, through 
 The top-down entry therefore needs the check the curator describes, finding the techniques once
 the goal is posited.
 
+**Three entries, and what sacrifice shows** *(2026-10-16)*:
+
+> I think the trick is [...] that humans have a starting point and we can often fill in any part of
+> the pyramid with our expertise piece of our own midbrain, which is itself just like I said an
+> expertise. Whereas, and what's more, we can also try to climb above the pyramid a bit because with
+> enough understanding of context and what their likely interests were in their immediate vicinity,
+> I can assume they want things like food, and that they had satiation needs, and that they had
+> belonging needs, and that they had whatever the fuck, because we all speak those same language.
+> And so if I want, I can kind of try to step above the pyramid and try to see whether there's any
+> obvious dependencies that would be explained by this act of behavior. And so I can even try to
+> come into the top of the pyramid from above by stapling a few things above it. That seems like the
+> second entry point that humans often will use. There, so we have three entry points that human
+> will use, but it's really just the same one applied three different times.
+
+> We have expertise applied at the bottom because it's easy to identify specific actions and you can
+> use cortical reference frames to find one or two and build out from there. Mirror neurons help
+> with that. You can use top down goal directed also again, part of larger goals and kind of
+> scattered about you'll find expertise and emotions and values filling in parts of that particular
+> graph again, kind of copy pasted throughout. They are complex rule sets that can be applied to
+> solve specific problems. Or, they also can enter through the middle, just through identifying any
+> particular part of the [...]. Say I can identify the metaphor that you're going for, and that
+> metaphor has something to do with lust or something, I don't know. Like, going through the middle
+> is also possible, because you can slap that block of solutions across the middle of the pyramid
+> too.
+
+*Curator's walkthrough of the analyst's 16 October theory pass, 2026-10-16 (11:56 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> I mean, you could do both. Like, the problem with number two is that it could easily do both. You
+> could easily say that they're trying to satisfy a belonging need, and they're using that through
+> taking lust-like actions. Like, in fact, I would argue most of the time, lust gets nested under
+> belonging needs. Although sometimes you could flip them and that results in a different class of
+> actions. What is the class of actions that makes that different? It's the difference between going
+> on a date with someone to get laid and sleeping with someone for the hopes of a relationship.
+> Like, it's literally just which goal is on top. That's it. What are you willing to sacrifice for
+> the one above it, if anything?
+
+*Curator's walkthrough of the analyst's 16 October theory record, 2026-10-16 (12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+The three entries are one mechanism, recognizing a stored piece at any level and propagating
+constraints through the rest, with different failure modes. From below, actions are recognized
+through learned sensorimotor association
+([Cook et al., 2014](https://doi.org/10.1017/S0140525X13000903), abstract read); the curator's
+cortical reference frames are the Thousand Brains hypothesis
+([Hawkins et al., 2019](https://doi.org/10.3389/fncir.2018.00121), snippet), not an established
+mechanism. Through the middle, masters recognize meaningful chunks
+([Chase & Simon, 1973](https://doi.org/10.1016/0010-0285(73)90004-2), snippet) and templates with
+open slots at a glance ([Gobet & Simon, 1996](https://doi.org/10.1006/cogp.1996.0011), snippet), the
+block slapped across the middle. From above, infants read action through its goal and efficiency
+([Gergely & Csibra, 2003](https://doi.org/10.1016/S1364-6613(03)00128-1), snippet), and people infer
+others' rewards and costs on the assumption that they act "as intuitive utility maximizers"
+([Jara-Ettinger et al., 2016](https://doi.org/10.1016/j.tics.2016.05.011), read), the needs stapled
+above the pyramid. Each entry fails its own way, so each should be weighted by its reliability. The
+top projects, assuming the maker wants what the reader would want at the reader's costs; the middle
+locks in, since the first familiar chunk can block a better reading
+([Bilalić, McLeod & Gobet, 2008](https://doi.org/10.1016/j.cognition.2008.05.005), abstract read);
+and the bottom is precise but local. Ghost's goal-tree card ran the mechanism in a constructed
+world, and its result is not yet read into this file.
+
+Disagreeing entries are often both right, since one goal can nest under another. Which is on top
+changes the class of actions, and sacrifice shows the order now, which is not the same as the
+structure. Priority moves with state. When choice minimizes the largest distance to any set point,
+the largest current deficit wins
+([Juechems & Summerfield, 2019](https://ora.ox.ac.uk/objects/uuid:02f3af5e-bc2d-49f5-bf1d-f2e3d7e2f545/files/m912294907691555c3e38afc843306587),
+read), and a hungry person sacrifices belonging for food without food sitting above belonging.
+People coast on a goal that is ahead of schedule and shift effort to another
+([Thürmer, Scheier & Carver, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC8022896/), read), so a
+neglected goal may be ahead rather than lower. Sacred values break the exchange, and material
+incentives increased opposition to compromise over them
+([Ginges et al., 2007](https://europepmc.org/article/MED/17460042), read). Order is also visible
+without sacrifice, because active goals inhibit competing goals, more strongly when they serve the
+same overarching purpose
+([Shah, Friedman & Kruglanski, 2002](https://europepmc.org/article/MED/12500810), read). Two orders
+therefore stay apart, structural order, whose reference is set by whom, and conflict priority, who
+wins now, which is what sacrifice reads; the split is the analyst's correction. The cleanest probe
+of the curator's example removes the relationship prospect, a change of contingency rather than a
+devaluation. Sex-seeking that then stops was serving belonging. Sex-seeking that continues was not
+serving belonging alone, and it may be lust on top, habit or a learned end, which the second probe
+of G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 separates.
+
 | # | hypothesis | status |
 |---|---|---|
 | **lit** | Entry at any level, ratcheting to the others | **CONTESTED (READ).** Bullot & Reber make design-stance understanding a *necessary condition*; the disagreement is over necessity, not temporal order (their own response describes recursive processing) |
 | **lit** | Bullot & Reber's framework is well supported | **REJECTED (READ-FULL).** 34 experiments across 23 publications: 26% support, 56% none |
 | **HH-GOAL-PYRAMID** | Readers infer a maker's goal hierarchy by jointly adjusting labeled nodes, climbing to the goal that explains every decision the artifact records, entering from below through expertise or from above through function; adjacent levels give the strongest evidence and the explaining goal the broadest | **OPEN.** A constructed test ran as card C1 of the Ghost V22 first pass (13 October); its result is not yet read into this file. Construction-integration is the nearest comprehension model and minimal-cover plan recognition the nearest formal account of the explaining goal (lit, SNIPPET); function-first explanation over-attributes purpose in children (lit, READ) |
+| **HH-ENTRY-RELIABILITY** | Readers enter a maker's goal hierarchy at three points, below through recognized actions, through the middle by recognized blocks of solutions, and above by assumed shared needs; the three are one mechanism with different failure modes, projection above, lock-in in the middle and locality below, so each entry should be weighted by its reliability | **OPEN.** Each entry has literature, and projection and Einstellung lock-in are documented failure modes (lit, READ and SNIPPET); the weighting by reliability is the analyst's; Ghost's goal-tree card ran in a constructed world and is not yet read into this file; no measurement on readers |
+| **HH-SACRIFICE-ORDER** | When goals nest, which one is on top changes the class of actions, and what the maker will sacrifice for the goal above reveals the order; sacrifice reads current priority, which moves with deficits, progress and sacred values, while structural order is read from whose reference is set by whom | **OPEN.** Set points compete by the largest deficit, goals ahead of schedule are coasted on, sacred values resist exchange, and goal shielding shows order without sacrifice (lit, READ); the split between priority and structure is the analyst's correction; removing the upper goal's prospect is the cleanest probe and has not been run |
 
 **What the table says.** The only occupying framework makes level-entry a necessity claim with a
 weak empirical record, which leaves enter-anywhere both undefended in the literature and untested
 here. The deciding experiment is the triple inference's missing mechanics arm. Joint settling over
 the goal hierarchy is the same claim inside the purpose level, entered from below or from above,
-with a constructed test run but not yet read and no measurement (HH-GOAL-PYRAMID). Confidence:
-untested, logic only, resting on a contested literature.
+with a constructed test run but not yet read and no measurement (HH-GOAL-PYRAMID). The three entries
+are one recognition mechanism with different failure modes, so a reader should trust each in
+proportion to its reliability (HH-ENTRY-RELIABILITY), and sacrifice reads which goal wins now rather
+than which sits above, the distinction the date example needs before it can order a maker's goals
+(HH-SACRIFICE-ORDER). Confidence: untested, logic only, resting on a contested literature.
 
 ## §4. Updating and active search
 
@@ -850,6 +990,47 @@ drives it passes on the way up the hierarchy, and he takes the mental-action for
 description of it. What remains open is the goal of the maker's epistemic foraging, which is an
 inference target rather than a gap.
 
+**What grabs and what wants** *(2026-10-16)*:
+
+> Attention stream shows both. [...] You are aesthetically pulled towards regions of falling
+> surprise. I believe it's falling surprise is the current guess. It actually sounds kind of nice to
+> me. [...] That is what aesthetics is, I would even argue. But you still have some ability to
+> direct it manually. You can move away from the thing pulling your attention. You can look away
+> from the cleavage.
+
+> In the moment, choices that people later reverse belong in the triple inference in something that
+> someone was letting their flow state, their expertise, overarchingly address. But then as they
+> step back and look at the entire work, they see that it doesn't actually help them in support of
+> their higher order goals, their highest order goals, whatever it is they're trying to accomplish
+> there. And so they need to make some modifications to that expertise's generation in order to work
+> for this particular function. And you're trying to correct that as it happens. That's why you are,
+> as an expert, that's what grabs your attention during flow state is things that you might want to
+> adjust for the greater higher order goal. But that you often miss things, just because.
+
+*Curator's walkthrough of the analyst's 16 October theory pass, 2026-10-16 (11:56 PDT), in the project's theory and analyst thread; filed 2026-10-16. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The attention stream mixes three things, two that grab and one that wants. The pull comes from
+surprise that is falling, which the curator calls aesthetic and §5 refines. Capture comes from
+drives, which is the analyst's reading of the curator's cleavage example, one he described as pull.
+It also comes from learned value, since previously rewarded stimuli keep capturing attention after
+the reward is gone, "independently of goals and salience"
+([Anderson, Laurent & Yantis, 2011](https://doi.org/10.1073/pnas.1104047108), read). That kind is
+learned rather than inherited, and whether it is habit or a learned end is the question of G191 in
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4. Voluntary direction is the third, the part
+that can look away, and it is the part directed by expected preference satisfaction. Preferences are
+read from it, which makes separating it from the pull and the capture the measurement problem of
+this section.
+
+Reversals come in two kinds. The curator's kind is flow-state output from expertise, audited later
+against the higher goal and corrected, which matches expert revision, since experienced writers
+revise for meaning and structure while students revise words
+([Sommers, 1980](https://openlab.citytech.cuny.edu/fywpd/files/2019/01/sommors-revision-strategies.pdf),
+read). The second kind, the analyst's addition, is a near-tie that flips because little was at
+stake, and choices between near-equal options are slow
+([Konovalov & Krajbich, 2019](https://doi.org/10.1017/S1930297500006082), read). The two predict
+opposite timing. An audited reversal follows a fast first choice and a later review, a near-tie
+reversal follows a slow first choice, and only the first carries the higher goal.
+
 **And apparent errors should eventually revise the reader's model of the maker**:
 
 > Every apparent mistake is suspicious because it may mean you do not understand the maker. If too
@@ -942,7 +1123,9 @@ closest named construct for the propagandist case (Friestad & Wright, 1994, snip
 | **HH-DISGUST-GATE** | Epistemic disgust protects by withholding attention or elaboration from a source's aims while its method can still be learned | **OPEN for withheld elaboration; CONTESTED (lit) for withheld gaze.** Disgust-evoking images hold visual attention longer than fear-evoking ones (lit, READ); a constructed reader can read accurately with its uptake gate closed (Ghost E42, sim), so attention and uptake can separate; a constructed test ran as card A3 of the Ghost V22 first pass (13 October), not yet read into this file. No human measurement of attended content, elaboration and uptake together |
 | **HH-DISGUST-POLICY** | Epistemic disgust fires on a decision the reader would not make and cannot fit into any goal it can model, policy divergence (methods, heuristics, a group's pre-solved solutions) judged useless as well as harmful, and growth past it runs through foraging licensed by humility and shared lower goals | **OPEN; the trigger's shape is supported and the label CONTESTED (lit).** Moralized preferences recruit disgust where taste does not; moral disgust targets norm violators; out-group aversion tracks violations of local practices; groups judged neither warm nor competent draw contempt and disgust and do not engage regions that support thinking about minds (lit, READ). Community-norm violations map to contempt in the CAD triad (lit, SNIPPET). Contact reduces prejudice mainly through anxiety and empathy, and humility and openness predict tolerance (lit, READ). No project measurement |
 | **HH-TOP-GOAL-UPTAKE** | Uptake depends on the reader having found the source's highest goal and on that goal matching the reader's; credibility is the same maker inference aimed at the source | **OPEN.** Constructed tests ran as cards A1 and A2 of the Ghost V22 first pass (13 October), not yet read into this file (endogenous trust, the misfiled propagandist); persuasion knowledge is the nearest literature (lit, SNIPPET) |
-| **HH-ATTENTION-SOURCES** | Attention is pulled toward falling prediction error and directed by expected preference satisfaction, which carries the maker's values and drives; preferences are read from the directed part, and the pull dominates when set points are met | **OPEN.** Learning progress, selection history and attention as a mental action each have literature (lit, READ and SNIPPET); no project measurement separates the directed part from the pull |
+| **HH-ATTENTION-SOURCES** | Attention mixes three sources, a pull toward falling prediction error, capture by drives or by learned value, and a part directed by expected preference satisfaction, which carries the maker's values and drives; preferences are read from the directed part, and the pull dominates when set points are met | **OPEN.** Learning progress, selection history, value-driven capture and attention as a mental action each have literature (lit, READ and SNIPPET); no project measurement separates the directed part from the pull and the capture |
+|   | | *(this row's history is its two-source form of 2026-10-14; capture by drives and by learned value, the analyst's readings of the curator's 2026-10-16 walkthrough, were added the same day)* |
+| **HH-REVERSAL-KINDS** | Reversed choices come in two kinds, flow-state output from expertise audited later against the higher goal, which carries that goal, and near-ties that flip because little was at stake, which do not; the first follows a fast original choice and the second a slow one | **OPEN.** Expert revision targets meaning and structure, and choices between near-equal options are slow (lit, READ); the near-tie kind and the timing contrast are the analyst's; no project measurement of reversal timing |
 | **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **Original contrast VOID; matched rendering advantage descriptive, general benefit OPEN (test, L455/L456/L460; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The complete information-matched, equal-length primary comparison favors linked over raw or repeated facts on both proper losses throughout. No memory performs better on calibration and reserve; misassociation also improves over raw, and padding changes performance. One component per partition and mostly identical projected views preclude population or replication claims; independent memory and paired literal-confidence comparison remain unavailable. |
 |   | | *(L455: original memory manipulation erased by token projection; L456: unequal-length development correction realizes distinct treatments but favors raw/repeated memory; L460: separately frozen full-roster matched projection reverses that ordering, while no-memory and misassociation controls limit the inference. Original void and exposure retained.)* |
 | **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the complete descriptive blocks (test, constructed worlds, Qwen model reader and exact-program reference, L412/L419).** Correct, false and irrelevant explanations improve against raw input; the second block favors the correct frame, but order, rereading and unchanged repetition also help. Further records substantially improve the second false-frame comparison, without consistent modal improvement under the correct frame. Invalids and infinite losses remain. No general truth-sensitive mechanism, stable method rank or human correction claim is established |
@@ -1033,9 +1216,11 @@ supports, a decision the reader cannot fit into any goal it can model, a protect
 perception research contests in its attentional form, and a release through humility and shared
 goals that contact research favors; uptake gated by the source's highest goal remains a
 constructed-world proposal whose tests have run but are not yet read (HH-DISGUST-GATE,
-HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Attention itself is held to have two sources, a pull toward
-falling prediction error and a part directed by expected preference satisfaction, and nothing here
-yet separates them (HH-ATTENTION-SOURCES). No model result licenses their internal psychological
+HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Attention itself is held to mix a pull toward falling
+prediction error, capture by drives or by learned value, and a part directed by expected preference
+satisfaction, and nothing here yet separates them (HH-ATTENTION-SOURCES). Reversed choices are held
+to come in an audited kind that carries the higher goal and a near-tie kind that does not, with
+opposite timing (HH-REVERSAL-KINDS). No model result licenses their internal psychological
 interpretation. Confidence: one bad test away for these scoped model measurements;
 instrument-dead for the collapsed memory comparison; untested, logic only for the
 human mechanisms and the endpoint comparison.
@@ -1081,6 +1266,60 @@ under deprivation, in prisons and camps, is the standing counterexample the clai
 The first part sharpens "ordered but unexplained" as an abstention state between comprehension and
 error. The suggestion that this may define all aesthetics remains an open extension, since
 aesthetics can also involve fluency, attraction, convention, affect, and successful recognition.
+
+**Falling surprise, then compression progress** *(2026-10-16)*:
+
+> Ooh, I really like compression progress more than I like falling surprise. That's really cool.
+> Going with "that's what aesthetics is", that's interesting, because does pleasure attract your
+> attention? I'm not necessarily sure that's true. Oh, it probably does. God damn it. Of course your
+> eyes flow towards food. Jesus. But no, that's also just. No, no, no [...]. That's also just
+> tracking you towards things that have incredibly easy-to-solve relationships to set points. It is
+> the fastest falling of the compression, because it's just the piece that gets auto-solved. You
+> don't even notice it. You just look towards food because your SEEKING network auto-checks food.
+> Assuming you're hungry.
+
+*Curator's walkthrough of the analyst's 16 October theory record, 2026-10-16 (12:57 PDT), in the project's theory and analyst thread; filed 2026-10-16. Contiguous excerpt with marked omissions; transcription repairs listed in the handoff.*
+
+The morning statement in §4 held that a reader is aesthetically pulled toward regions of falling
+surprise and that this is what aesthetics is; by the afternoon the curator preferred compression
+progress. The evidence splits the quantity into three terms on three timescales. Hedonic tone is
+error reduced faster than expected, on the timescale of inference. Pleasure from easy processing
+peaks "when processing is expected to be difficult, yet turns out to be easy"
+([Reber, Schwarz & Winkielman, 2004](https://pages.ucsd.edu/~pwinkielman/reber-schwarz-winkielman-beauty-PSPR-2004.pdf),
+read), ease is felt only "if it is discrepant from their expected fluency"
+([Graf & Landwehr, 2015](https://docenti.unimc.it/ivana.bianchi/teaching/2023/28153/files/articoli/pla-model_pleasure-and-interest-aesthetic-model),
+read), and feeling good comes from "reducing error at a faster than expected rate"
+([Kiverstein, Miller & Rietveld, 2019](https://pure.uva.nl/ws/files/37405887/Kiverstein2019_Article_TheFeelingOfGripNoveltyErrorDy.pdf),
+read). Free energy falls during fast inference too, and valence has been defined as its negative
+rate of change
+([Joffily & Coricelli, 2013](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003094),
+read), which fits the auto-solved case. Interest is compression progress, on the timescale of
+learning, the first derivative of how compressible the observed history has become. An item solved
+at once is beauty in Schmidhuber's terms rather than progress, and "what's beautiful is not
+necessarily interesting" ([Schmidhuber, 2009](https://arxiv.org/abs/0812.4360), read). Liking of
+music is an inverted U in surprisal and uncertainty
+([Gold et al., 2019](https://www.jneurosci.org/content/39/47/9397), read), the shape an interest
+term predicts.
+
+The third term is extrinsic value, the pull of bodily and social set points. Active inference splits
+a policy's value into extrinsic value, outcomes preferred a priori, and epistemic value, the
+expected information gain ([Friston et al., 2015](https://doi.org/10.1080/17588928.2015.1020053),
+read), and Schmidhuber set aside "rewards for achieving prewired target values" as not what
+curiosity is about. The curator placed looking toward food under the fastest-falling compression;
+the analyst places it in the extrinsic term instead. Fasted women looked longer at food, and once
+fed the bias vanished in normal-weight women and persisted in obese women
+([Castellanos et al., 2009](https://www.nature.com/articles/ijo2009138), read), a trace of need
+state and learned value rather than of learnability. Folding the food case into progress would erase
+the line between the pull of bodily and social set points and aesthetics, which is epistemic. An
+active inference account of art states the boundary condition the earlier prediction stated, that
+aesthetic experience arises "when more primary needs are satisfied" and "prior preferences recede
+into the background"
+([Van de Cruys, Frascaroli & Friston, 2024](https://discovery.ucl.ac.uk/id/eprint/10184831/1/van-de-cruys-et-al-2023-order-and-change-in-art-towards-an-active-inference-account-of-aesthetic-experience.pdf),
+read). The terms make opposite predictions in two places. Pleasure should follow the surprise of
+ease, with no leftover effect of ease itself, and hungry people's attention to one repeated food
+image should fade if it tracks progress but last until they eat if it tracks extrinsic value. Which
+drive's reward compression progress is, PLAY's on the analyst's proposal, is in
+[`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1.
 
 **Interest is the continuation signal.** Unresolved but apparently structured decisions keep the
 reader searching, which makes reader-reported interest an instrument:
@@ -1151,6 +1390,7 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 |---|---|---|
 | **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him.** Interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data. Informs this file only, never ground truth |
 | **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN.** A real, formalisable target, and deprioritized as a global text summary by the program |
+| **HH-AESTHETIC-TERMS** | Aesthetic response has three terms on three timescales, hedonic tone as error reduced faster than expected, interest as compression progress, and extrinsic value, the pull of bodily and social set points; aesthetic pull is the first two, and attention drawn by need, as to food when hungry, is the third | **OPEN.** Pleasure as better-than-expected ease, interest as compression progress, valence as the rate at which free energy falls, the split between extrinsic and epistemic value, and need-dependent attention to food each have support (lit, READ); the three-term split is the analyst's, and it departs from the curator's placement of looking at food under the fastest-falling compression; no project measurement separates the terms |
 | **HH-NO-TOP-GOAL** | When no goal explains an artifact's decisions, a reader either forages for context or stops by declaring its current level the peak, and a graded trait such as openness or need for closure sets how long it searches | **OPEN.** Openness relates to exploration and need for closure to prejudice (lit, READ); no project measurement |
 | **S12-STOPPING-1** | Does a reader stop or buy evidence according to its declared purpose and cost? | **OPEN; primary uncertainty analysis unavailable (test, L442; 64 constructed discovery histories in one law, Qwen model reader and independent exact references).** All requested calls and descriptive replay are complete. Reader regret exceeds at least one constant policy in each purpose/cost stratum, with strong descriptive answer-order differences and retained invalids. The frozen consumer has no paired regret interval, so no formal benefit, harm or equivalence is established. Current forecasts do not test use after purchase; human interest is untested. |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ).** The arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
@@ -1159,6 +1399,10 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 arousal theory is replaced by a sharper formal target (effective complexity), and the live
 opposing account, pleasure from processing ease, predicts the *opposite* correlation between
 interest and recoverability, which is exactly what the blocked ratings test would adjudicate.
+Splitting aesthetic response into pleasure at better-than-expected ease, interest as compression
+progress and the extrinsic value of bodily and social set points may dissolve that opposition, since
+fluency and interest accounts would then measure different terms, and the ratings test would need
+pleasure and interest rated separately to show it (HH-AESTHETIC-TERMS).
 The proposed relation between interest and unrecovered decisions also depends on the
 reader's purpose: material informative about a maker may add little to a reader's present
 learning task. Interest and stopping are consequently evidence about the reader as well
@@ -1169,7 +1413,8 @@ uncertainty interval. That result concerns an investigation decision, not human 
 or successful use of purchased evidence (S12-STOPPING-1, L442). Confidence: one bad test
 away for the scoped model description; untested, logic only for the human interest
 account, whose rating comparison remains blocked on curator ratings, and for the proposal that a
-reader without an explaining goal forages or shrugs (HH-NO-TOP-GOAL).
+reader without an explaining goal forages or shrugs (HH-NO-TOP-GOAL), and for the three-term aesthetic
+account (HH-AESTHETIC-TERMS).
 
 # Part II: Cue families
 
@@ -1617,6 +1862,7 @@ rate and next to a field bar.
 | **provenance prior** (§1) | ratio shift +0.007, *p* < 2×10⁻⁸, three corpora | paired identical text | **SUPPORTED (test), replicated.** In the reader model; human-side untested |
 | **maker-reader family similarity** (§1, model analogue) | historical exact-vs-cross +0.035, sibling-vs-cross +0.025; accepted Qwen paraphrase +0.016/+0.021; capacity rank 0.43; crossed +0.020/+0.014 original and +0.012/+0.011 weak rewrite; geometry ranks 0.50/0.77. Corrected full matrix: qwen +0.0137, smollm +0.0096, olmo +0.0365. Strong independent erasure: +0.001 in each powered family | identical candidates, within-reader contrasts, weaker rewrites, then stronger independent erasure with both families above floor | **SUPPORTED for original-artifact relatedness; mechanism OPEN (test, L163-L168, L177-L182, L217-L219, L225, L236, L251).** Stronger erasure removes the advantage; weak-rewrite survival does not exclude shared convention. Later hash splits are retrospective robustness, not untouched confirmation; see §1 for retained history |
 | **repeatability versus presentation robustness**, local model reader on constructed histories | identical repeats match; equivalent option/label/evidence presentations move canonicalized probabilities, with changed-presentation mean-loss contrasts unresolved | 64 histories, six paired views, unchanged exact targets; uniform loss remains below each view's descriptive mean | **SUPPORTED for output sensitivity in this reader construction; directional accuracy effect OPEN (test, L437).** Complete actual replay, invalids retained; original calibration voided and corrected without changing primary contrasts. No human or internal-mechanism claim |
+| **S15-DRIVE-V2**, calibration of saved human-choice forecasts | Whole 26-arm decomposition closes; all eight reader/backbone combinations have interval upper bounds below the 0.01 useful-gain margin | Frozen backbone on 234 exposed CoAuthor decisions from 31 writers; separate full Phase 0 population comparison retained | **REJECTED for useful gain in these frozen combinations (test, S15-DRIVE-V2; human process records, model and fitted-program readouts).** Descriptive reuse of saved fits, not independent replication; raw calibration error is substantial, exact-vector singleton resolution is not generalization evidence, and iid corrections are not cluster-valid |
 | anomaly entry (§2) · confidence trajectory (§4) · interest ratings (§5) · effort correlation (§8) | | | unmeasured: one simulation bound, a series never recorded, an hour of his time, an undefended proxy |
 
 **What the dashboard says.** Original-artifact relatedness survives within-reader and weaker
@@ -1627,8 +1873,11 @@ shared convention remain rivals, and representational correlation does not settl
 The probe trajectory's initial human-machine contrast is superseded by model/register sensitivity
 (L101, L105). A local model can repeat an identical request yet change its inferred distribution
 when equivalent evidence is presented differently; repeatability alone therefore does not establish
-presentation robustness or correct inference (L437). These measurements do not establish a general
-provenance mechanism, and stacking still requires construct validation. Confidence: replicated and controlled for the surface
+presentation robustness or correct inference (L437). On exposed human choice records, decomposing
+the complete saved forecast curve does not recover useful additional prediction from the frozen
+reader and backbone combinations; calibration error and bin-dependent resolution do not identify
+why the reader failed (S15-DRIVE-V2). These measurements do not establish a general provenance
+mechanism, and stacking still requires construct validation. Confidence: replicated and controlled for the surface
 variation number; instrument-dead for the probe's provenance reading; one bad test away for the
-relatedness mechanism, constructed presentation sensitivity and other measured heuristics; untested, logic only for everything
+relatedness mechanism, constructed presentation sensitivity, saved-forecast calibration and other measured heuristics; untested, logic only for everything
 unmeasured is untested.

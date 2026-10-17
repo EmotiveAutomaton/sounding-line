@@ -1,15 +1,68 @@
 # Codex operations
 
-**Gear 2 finite queues drained:** the [complete Qwen candidate batteries](../results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json)
-are independently verified and fully recorded. Worker exited, model unloaded and
-lease released; no active scientific worker or paid batch. Constructed candidate
-eligibility does not enable the canonical engine or admit natural-data/scientific
-use. Original failures remain. Profile fitting is still blocked by the unchanged
-failed Ghost witness; no matching healing return was found. Native-data validation
-preparation remains open; the [readiness handoff](../docs/design/stage-15/F4_NATIVE_READINESS.md)
-separates existing choice labels from literal reference annotations. Stage 15 stays open.
-October 16 morning inspection acknowledged; next health check: **October 16 14:23:17 PDT**.
-Existing terminal/failure supervision remains enabled.
+**October 17 final review:** completed evidence and documentation are verified
+for the requested publication and theory walkthrough. The commission remains
+open with resource-held and unbuilt work. [Review handoff](../results/phase_2_4_stage_15/WALKTHROUGH_HANDOFF_20261017.md).
+
+**October 16 drive commission is active in Gear 2.** The [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md)
+separates completed work, actual workers and unbuilt cards. Full event replay,
+reader sources, paid constructed admission and Wikipedia metadata/reference
+are verified and recorded. T1/T4 and the T3 supplement are delivered to Ghost's
+exchange folder; T3 requires API-native source-identity review.
+
+Content representations and the complete saved-forecast decomposition are
+verified and recorded. The complete 150-world Phase 0 planted-signal calibration
+is independently verified and recorded with effect-specific sensitivity limits. The completed paired diagnostic supports a float32 remedy
+for Pythia numerical agreement. The separate five-reader pilot stopped at its
+resource deadline before the largest model loaded. Full-corpus scoring remains
+unadmitted; strict model-specific memory limits remain. The complete chess download is verified;
+bounded parsing remains unbuilt. Other projects retain their workers. Original
+apparatus failures remain preserved and landed.
+
+The [complete calibration report](../results/phase_2_4_stage_15/DRIVE/V1_PHASE0.md)
+records the unchanged full grid and all controls. Storage recovery preserved
+the 120 completed checkpoints and computed the remaining 30 worlds within the
+original byte and aggregate time caps. Original evidence stays intact. The
+worker exited and released its lease. No drive worker or paid batch is running;
+remaining cards need their own implemented, validated executable plans.
+The reader is held after its [resource failure](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V4.json); native exit,
+released GPU lease and retained outputs verify. Current headroom remains below
+the fixed floor. Revisit at the existing health inspection; no implicit retry. See the [recovery launch](../results/phase_2_4_stage_15/DRIVE/V1_STORAGE_LAUNCH.json).
+
+Gear 3 has spent **$0.04** in the new campaign, with no active batch. Six
+constructed features pass; tone, contradiction and themes remain disabled.
+Natural validation, the augmented comparison and the remaining paid routes
+still need implementation. The first-$10 guard remains; the packet requires
+a concrete final approval before more. The earlier failed Ghost witness still
+blocks the separate profile-engine comparison. Stage 15 remains open.
+
+The October 17 health inspection verifies no active scientific worker or paid
+batch, no new terminal/failure, intact evidence and locks, released leases and
+actual watcher delivery. Reader headroom is 6,401 MiB against its fixed 8,500 MiB
+floor. No eligible prepared successor exists; P4/D1 fitting, blind references
+and bounded parsing remain implementation work. The commission is not complete.
+[Inspection receipt](../results/phase_2_4_stage_15/HEALTH_20261017_0245_PUBLIC.json).
+
+Next fixed health inspection: **October 17 08:52:58 PDT**. Current inspection ACK is verified. Immediate
+completion/failure supervision continues. No extra ETA wakes are scheduled.
+The dated inspections below describe the earlier, completed continuation.
+
+**Theory and filing:** the [October 16 errata](design/archive/THEORY_ERRATA_20261016_APPLIED.json)
+is applied across all five theory files. The [filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261016.json)
+records the incoming sources; stage navigation now consistently identifies
+Stage 15. This documentation pass leaves the live plans and scientific gates intact.
+
+## October 16 afternoon health inspection: drained and gated
+
+Completed native identities and full landings reconcile; no new terminal,
+failure or project worker is present. Resources, research/source locks, released
+leases, unloaded model and actual watcher delivery pass. No recovery is needed.
+The companion evidence is unchanged. Profile fitting remains unrun; native
+annotation/input preparation is unfinished with no launchable card. The
+continuation handoff now reflects this endpoint. Companion Git-head and separate
+native-queue CLI inventory limitations remain explicit. No new research or spending.
+
+[Inspection receipt](../results/phase_2_4_stage_15/HEALTH_20261016_1423_PUBLIC.json). [Verified ACK and next check](../results/phase_2_4_stage_15/HEALTH_20261016_1423_ACK_PUBLIC.json).
 
 ## October 16 morning health inspection: finite queues drained
 

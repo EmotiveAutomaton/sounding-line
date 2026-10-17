@@ -1,5 +1,10 @@
 # Documentation - current authority, methods and history
 
+**October 16 drive is active:** [commission and corrections](design/stage-15/drive/README.md)
+and [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguish
+verified completions, actual local workers and unbuilt cards. The prior bounded
+continuation below is complete; that closure does not describe this new packet.
+
 **Completed bounded continuation:** the [full Qwen candidate batteries](../results/phase_2_4_stage_15/LABEL_CANDIDATE_PUBLIC.json)
 are independently verified and fully recorded. Finite queues are drained; native-data
 validation preparation remains open. Original failures and scientific gates remain;
@@ -19,7 +24,7 @@ profile comparison is prepared and awaits exact research witnesses.
 with its deficits preserved. See [current status](../CURRENT_STATUS.md) for both
 gears, costs and remaining gates. Older closure statements below remain historical.
 
-**Navigation:** [all stages 2-15](design/README.md) · [program context](design/program/README.md) · [Gear 3 rounds](design/gear-3/README.md) · [applied October 14 theory errata](design/archive/THEORY_ERRATA_20261014_APPLIED.json).
+**Navigation:** [all stages 2-15](design/README.md) · [program context](design/program/README.md) · [Gear 3 rounds](design/gear-3/README.md) · [applied October 16 theory errata](design/archive/THEORY_ERRATA_20261016_APPLIED.json) · [source history](theory/README.md#approved-wording-and-source-history).
 
 **Start with [current status](../CURRENT_STATUS.md), [study authority](design/README.md) and [workspace layout](WORKSPACE_LAYOUT.md).** The admitted original and healing Stage 13 queues are drained, with the [final packet assembled](../results/phase_2_4_stage_13/FINAL_PACKET_20260930.md) and all retained completions verified. Reader admission and unavailable comparisons remain explicit deficits; the [October 1 endpoint](../results/phase_2_4_stage_13/FINAL_ENDPOINT_20261001.json) is reconciled and the exited helper watch retired; Stage 12 remains stopped with its [final evidence packet assembled](../results/phase_2_4_stage_12/FINAL_PACKET_20260927.md) and its [final endpoint reconciled](../results/phase_2_4_stage_12/FINAL_ENDPOINT_20260928.json); scientific deficits remain.
 

@@ -1,5 +1,33 @@
 # Stage 15 evidence
 
+[October 17 walkthrough handoff](WALKTHROUGH_HANDOFF_20261017.md) and
+[final record check](WALKTHROUGH_CHECK_20261017.json) distinguish verified
+completed evidence from unfinished studies. Stage 15 remains open.
+
+[October 17 health](HEALTH_20261017_0245_PUBLIC.json) verifies intact evidence,
+native closure, locks, released leases and actual delivery. No new failure or
+eligible prepared successor. The reader is resource-held and independent cards
+still need implementation; the drive commission remains open.
+[Verified ACK and next check](HEALTH_20261017_0245_ACK_PUBLIC.json).
+
+[October 16 evening health](HEALTH_20261016_2026_PUBLIC.json) verifies active
+local work and actual watcher delivery. The later [capacity failure](DRIVE/V1_CAPACITY_V2.json)
+is fully recorded; [lossless recovery and the full grid are complete](DRIVE/V1_PHASE0.md).
+The reader subsequently [exhausted its finite GPU wait](DRIVE/READER_PILOT_V4.json);
+its native exit and retained evidence are verified. Reader restart is held.
+[Verified ACK and next check](HEALTH_20261016_2026_ACK_PUBLIC.json).
+
+**October 16 drive:** [current execution index](DRIVE/INDEX.md), completed
+[source replay](DRIVE/P2.md), [paid admission](DRIVE/G3-A0.md),
+[source references](DRIVE/S0.md) and preserved apparatus failures. New local
+work is partly implemented; calibration is complete and reader recovery remains
+held. This does not close the whole drive commission.
+
+[October 16 afternoon health](HEALTH_20261016_1423_PUBLIC.json) verifies
+continued native closure, evidence, resources, locks and actual delivery.
+No new failure or recovery; scientific dependencies and native preparation remain.
+[Verified ACK and next check](HEALTH_20261016_1423_ACK_PUBLIC.json).
+
 [October 16 morning health](HEALTH_20261016_0813_PUBLIC.json) verifies drained
 queues, native closure, unchanged failures, resources, locks and actual delivery.
 Registry flags corrected; no recovery. Scientific admissions remain gated.
