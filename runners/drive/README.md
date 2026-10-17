@@ -1,5 +1,21 @@
 # October 16 drive runners
 
+## October 17 CPU cards
+
+`cards/` adds the counted-slot dispatcher, shared exhaustive states, authenticated
+timing/score extraction and matched-pair consistency instruments. The original
+dispatcher remains immutable; `batch_runtime_v2` adds saved-boundary yields,
+combined wall/output limits and periodic resource checks. Complete handlers run
+fresh-process verification. No retry, research selection or publication is automatic.
+
+P5/P6 checkpoint and resume without repeating saved units; a forecast overshoot
+yields before owner-dispatched next-ranked work. Runtime controls, known-answer
+checks, mutation refusal and actual serialized smoke execution pass. P4's first
+eligible-recipient pilot is execution-only. Other new modules may still be building;
+only the [dispatch ledger](../../docs/design/stage-15/drive/DISPATCH_20261017.json)
+and [evidence index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md) establish readiness.
+Raw text, per-writer models and private intermediates remain excluded from Git.
+
 `suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
 and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
 runner and is now active under verified native monitoring. Complete-output

@@ -110,6 +110,57 @@ assumptions go untested have produced "just-so stories"
 ([Rahnev & Denison, 2018](https://doi.org/10.1017/S0140525X18000936), read); timing, effort and
 recorded context are the independent measures available here.
 
+**One inference, three entries** *(2026-10-17)*:
+
+> Honestly, at this point it's not even the triple inference; it's all just one big inference of
+> empathy. I've unified the three inferences, in a sense. What we have are a series of strategies
+> you can use to solve the one big inference of empathy. [...] I guess figuring out the goal [...]
+> was one of the shortcuts. It was a vertex. [...] I guess it still is the triple inference. It's
+> fine. [...] One of them is just an early entry-point vertex that people often use, which isn't
+> even a good one, as it can be so multifaceted, and it honestly probably comes down to, oh my god,
+> the human trick of reverse engineering functionality based upon our own requirements. [...] So,
+> functional reverse engineering from the top, assuming they would use it for the same thing we
+> would use it for; the second one being the person; the third one being the process. It's still
+> here. It survived somehow, all the way here.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> Functional just means, can I imagine situations in which having this nearby changes my
+> forward-generating model? It's actually really easy to assess, especially if you can narrow down
+> the context. Context-limited functionality is something that pretty quickly converges on
+> something, largely because we share so many of our lower-level characteristics. All right, that's
+> the reason. It's the human trick again.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+The restatement keeps the three questions and changes their standing. The canonical claim already
+holds that evidence about one target constrains the posterior over the others; on the curator's
+reading the three are entries into one joint inference, places a reader starts, rather than three
+inferences run in turn. Computational theory of mind models the same thing as one inversion that
+infers an agent's beliefs, desires and percepts jointly
+([Baker et al., 2017](https://doi.org/10.1038/s41562-017-0064), read). The functional entry is the
+entry from above already filed in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §3
+(HH-GOAL-PYRAMID, HH-ENTRY-RELIABILITY); there it enters the maker's goal hierarchy, and here it
+enters the whole inference. The person and the process are the new entries.
+
+Its function-first half is what developmental psychology calls the teleological stance, reading an
+act through its goal on the assumption that the actor takes the most efficient means available
+([Gergely & Csibra, 2003](https://doi.org/10.1016/S1364-6613(03)00128-1), read), and its weakness is
+the one the curator names, joined by the function-first explanation of artifacts already cited in
+§3. People take another's perspective by adjusting from their own and stop once an estimate seems
+plausible ([Epley et al., 2004](https://doi.org/10.1037/0022-3514.87.3.327), read), so a reader who
+assumes the maker would use the thing as the reader would projects the reader's requirements onto a
+goal that may have several parts. Two terms matter for outside readers. Research calls this
+inference mentalizing or theory of mind, and empathy in its narrow sense, sharing another's feeling,
+runs on a network separable from mentalizing
+([Kanske et al., 2015](https://doi.org/10.1016/j.neuroimage.2015.07.082), read), so prose for
+outside readers says theory of mind where the curator says empathy. And the unity is computational,
+not mechanistic, since belief tracking appears to run on an efficient but inflexible system beside a
+flexible and demanding one ([Apperly & Butterfill, 2009](https://doi.org/10.1037/a0016923), read).
+No model of inference from artifacts with these three entries was found. Sounding Line card D37,
+commissioned on 17 October, measures how much each entry carries on one scored task, a writer's next
+decision.
+
 **Operational definition, ratified 2026-09-01.** Sounding Line is an artifact-grounded
 inverse-generative system that reconstructs a revisable model of how a maker transformed their
 perceived possibilities into an artifact, then tests that reconstruction through hidden future
@@ -339,6 +390,7 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 | # | hypothesis | status |
 |---|---|---|
 | **L-tier2** | Diverse episodes can narrow persistent motivational organization; the relative evidence needs of goal and value recovery remain to be measured | **OPEN for human value recovery and the relative-timescale comparison.** The author-identification curve measures identity, not values (test, L34; G60). Bounded constructed profiles can be recoverable from one artifact or from repeated artifacts (§5 G54; §6 S-15); these are construction-specific results, not human value ground truth. G65 remains the open comparison |
+| **G198** | The three questions are entries into one joint inference, through the artifact's function, the person and the process, rather than three inferences run in turn; the functional entry, reverse engineering from the top on the assumption that the maker would use the thing as the reader would, is an early entry readers often use and an unreliable one, because goals have several parts and readers project their own requirements | **OPEN.** The curator's restatement (2026-10-17); the functional entry is HH-ENTRY-RELIABILITY's entry from above in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §3, applied to the whole inference. Theory of mind as one joint inversion, the teleological stance and egocentric anchoring have support (lit, READ); belief tracking may run on two systems, and empathy and mentalizing use separable networks (lit, READ); no model of inference from artifacts with these entries was found; Sounding Line card D37 is commissioned to measure the entries' weights on writers' decisions |
 
 **State of the section's claim.** The object table fixes the working distinctions among
 expertise and process, external and interpreted context, set points and their deviations, the drives
@@ -353,9 +405,11 @@ identity-channel improvement followed by an early plateau (G60, L34). Constructe
 recovery establishes what can be recovered under its planted assumptions, not recovery of
 human values. Domain competence and familiarity remain candidate priors. Stage 8 passed
 its prediction component and failed generation, admitting no reader; it did not establish
-the complete proposed expertise prerequisite. Confidence: untested, logic only for the
-human recovery and relative-timescale claims; one bad test away for the scoped identity
-curve and constructed demonstrations.
+the complete proposed expertise prerequisite. The three questions are held as entries into one
+joint inference, through function, person and process, with the functional entry an often used and
+unreliable one (G198). Confidence: untested, logic only for the
+human recovery and relative-timescale claims and for the single-inference reading; one bad test
+away for the scoped identity curve and constructed demonstrations.
 
 ## §2. Forward generation and inverse recovery
 
@@ -1199,6 +1253,71 @@ to quantity
 ([Baron & Spranca, 1997](https://www.rand.org/pubs/external_publications/EP19970407.html), read),
 and honor may be partly such a rule.
 
+**A value is a decision you still agree with** *(2026-10-17)*:
+
+> People keep telling me not to write in the register that I like to write in, and you know what?
+> Fuck off with that. [...] It is kind of a value, in the sense that it's a solution that I have
+> already put into place. I've worked out that this is a way of being seen as somewhat authentic,
+> and that matters to me. [...] The biggest piece is that I made that decision previously, and I
+> still agree with that decision, and therefore that decision is going to continue being my
+> autocomplete [...]. If I disagree with that decision, then it would be a habit, or a previous goal
+> that I have changed. [...] Whereas a habit would be, the motif just showed up at one point, I
+> never really corrected it, and then I realized it was a bad idea, but I also don't want to put
+> forth the effort in changing it, because cognitive fatigue, laziness, is certainly a thing. Habit
+> takes effort to fight, because you have to repeat the other direction, and you could just be lazy.
+
+> When a writer says she wants to be bolder, what she wants is for her automatic processes to be
+> bolder. You can manually make boldness decisions, and what's more, it's hard to see the boldness
+> decisions, because the expertise distorts your view of what's possible anyway, through attention.
+> But as you make more and more bold decisions, the automatic processing finds more opportunities to
+> use it. It becomes easier to take them reflexively. [...] The statement is kind of a plan. It's a
+> plan to find opportunities and take them over time until it becomes automatic. And by definition,
+> it is a value under construction, too.
+
+> We all set up our own autocomplete, and we are our own autocomplete. However, we acknowledge that,
+> more specifically, we are our current intent. And the goal is to craft it, to have your
+> autocomplete always match your current intent.
+
+> One of the answers is that all of your values are set points, in gradient fashion. You kind of
+> need to collect all of them and put them into one big smorgasbord, which ToMpathy does currently
+> support. [...] I think you balance all of the goals all the time, in the Thousand Brains style,
+> but you do it from a single perspective, and those goals are solutions toward this final [...].
+> God, I want to say parameters on the loss function of survival, but that's really the
+> mesa-optimizers question, which is one that is super relevant here, because where do you stop, and
+> what is the stopping point?
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator's test for a value is present endorsement. A learned solution stays a value while he
+would still make the decision it encodes, and becomes a habit, or a goal he has dropped, once he
+would not; the effort of reversing it is what keeps a disowned habit running. Philosophy has the
+same structure in Frankfurt's account of the person, where a desire is one's own when a second-order
+volition endorses it
+([Frankfurt, 1971](https://www.yorku.ca/dimock/documents/FrankfurtFreedomoftheWillandtheConceptofaPerson.pdf),
+snippet), and this file's wanting to want is the second-order desire. Psychology draws its line
+elsewhere. Habits are responses cued by stable contexts that run whether or not they serve the
+current goal ([Wood & Neal, 2007](https://doi.org/10.1037/0033-295X.114.4.843), read), and
+endorsement adds what the outcome probes of G191 cannot see, the maker's present verdict on the
+routine.
+
+The laziness he names has a cost model. Control is allocated by its expected value net of an
+intrinsic cost ([Shenhav, Botvinick & Cohen, 2013](https://doi.org/10.1016/j.neuron.2013.07.007),
+read), which predicts that a disowned habit survives where the stakes are low. Fatigue is the weaker
+reading, since a 23-laboratory replication of the ego-depletion effect found it near zero, d = 0.04
+([Hagger et al., 2016](https://doi.org/10.1177/1745691616652873), abstract read). A stated
+aspiration such as wanting to be bolder is, on his account, a plan to make the automatic process
+match the current intent by repetition, a value under construction, which is the route to wanting to
+want through repetition filed from the 2026-10-14 walkthrough. The analyst's caution is that
+endorsement is self-report, and [`DECISION_TRACES.md`](DECISION_TRACES.md) §6 holds that a maker's
+account of a purpose passes through a self-model, so the criterion needs a behavioral check. A
+routine he endorses should be defended by varied means when disturbed, G191's test, and one he
+disowns should yield wherever the stakes rise. His closing question, where a stack of goals serving
+survival stops, is the mesa-optimization question of [`ALIGNMENT.md`](ALIGNMENT.md), a learned
+optimizer whose objective can come apart from the one that trained it
+([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820), snippet), and his balancing of every
+goal at once is, on the analyst's reading, closest to the largest-deficit rule above, though he
+doubted any such scaling.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G185** | Wanting to want arises by two acquisition routes, learned contingency and association, which outcome devaluation separates | **OPEN, logic only.** A constructed test ran as card B2 of the Ghost V22 first pass (13 October); its result is not yet read into this file; no project measurement |
@@ -1206,6 +1325,7 @@ and honor may be partly such a rule.
 |   | | *(this row's history is the curator's 2026-10-14 position, withdrawn by his 2026-10-16 ruling that anything can be a set point, with animal learning's test for an end adopted the same day)* |
 | **G191** | Learned ends exist; anything can become a set point, and a solution has become an end when it survives the need it served being met another way; disturbing or satisfying the candidate end then separates a learned end, defended by varied means and satiating, from a habit, which does neither | **OPEN.** Learned set points for cognitive goals, functional autonomy and learned references in control theory (lit, READ); the probes are contingency degradation, outcome devaluation and the test for the controlled variable (lit, READ and SNIPPET), with habitual goal selection as a third case (lit, READ); the human evidence on training-induced habits is mixed, and devaluation tests may be insensitive (lit, READ). A constructed test ran as conditional study N4b of Ghost V23; its result is not yet read into this file. No human measurement |
 | **G192** | Set points sit on needs, not acts; an act is the most common accepted solution for a set point, grown out of it, and a recurring act such as caregiving recurs because the state it serves decays, unless the act has itself become an end by G191's test | **OPEN, logic only.** The curator's ruling, with the decaying-state account of care the analyst's; consistent with reward as the reduction of a deviation and with allostatic regulation (lit, READ); a person who recreates occasions for care while the bond is secure would show caregiving become an end; no project measurement |
+| **G199** | A learned solution is a value while the maker still endorses the decision it encodes, and a habit or a dropped goal once the maker no longer would; a disowned habit persists where the effort of reversing it outweighs its stakes, and a stated aspiration is a plan to make the automatic process match the current intent | **OPEN.** The curator's criterion (2026-10-17). Second-order endorsement in philosophy (lit, SNIPPET); habits as context-cued responses insensitive to current goals, and control allocated by its expected value net of cost (lit, READ); the ego-depletion account of fatigue failed a multi-laboratory replication (lit, READ); endorsement is self-report, so a behavioral check is needed, and G191's disturbance probe is the candidate; no project measurement |
 
 **State of the section's claim.** The fourfold distinction has never been tested as a distinction;
 it is the file's working vocabulary, adopted for the reasons above. Its
@@ -1219,7 +1339,8 @@ solution counts as one only when it survives the need it served being met anothe
 disturbing or satisfying the candidate end telling a learned end from a habit (G191, replacing
 G188). Set points sit on needs rather than acts, so a recurring act points first to a decaying
 state, and to an end only when it passes that test (G192). The probes come from animal learning, and
-the human evidence on habits is mixed.
+the human evidence on habits is mixed. The curator's own test for a value is present endorsement, with
+a habit as a routine the maker no longer endorses but has not paid to reverse (G199).
 Confidence: untested, logic only, with the sim demonstration held by §5.
 
 ## §5. Where value information could live: four competing accounts
@@ -1688,6 +1809,34 @@ are the counter cases, structure placed so that the reader takes an incorrect mo
 artifact, which is why the prior is adoptable only conditionally. It is canonical in
 [`READER_HEURISTICS.md`](READER_HEURISTICS.md) (stated in its §1, tested in its §8) with the
 concealment caveat carried there; here it is one identifiability assumption among four.
+
+**A theory that can't lose** *(2026-10-17)*:
+
+> I am having more trouble with this one. If everything becomes calibration, the theory can't lose.
+> We're all zeroing in on an inference. This is always going to be an inference toward something
+> that we're trying to find little tricks to get closer and closer on. That's what we're doing.
+> That's where we're at right now. I know. That's why I'm so aggressive with this, because the
+> theory can't lose. Isn't it fun to be on the right side of history, betting on the horse that can
+> move at an infinite speed? [...] We're just being happy about being on a roll. Honestly, I'm kind
+> of stumbling.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+He offered this while, in his words, stumbling. The analyst agrees with the description and dissents
+from its comfort. A framework in which every outcome is calibration toward an inference cannot be
+refuted by any one result, which philosophy of science calls the hard core of a research programme,
+theories shielded from revision and surrounded by a protective belt of adjustable ones, and a
+programme is judged by whether the theories around its core keep predicting new facts that are then
+confirmed, or only absorb what arrives (Lakatos, 1970, through a
+[summary](https://en.wikipedia.org/wiki/Research_program) read). What can lose here are the models
+inside the framework, and each needs a rival that lacks its structure and a margin it must beat. The
+first such test, frozen on 17 October as Sounding Line's FX1, asks whether inferring goals from a
+writer's records predicts that writer better than the same records without a goal model, by a
+registered share of the gap to the writer's own consistency ceiling. It cannot run yet, because the
+project's instruments have not recovered planted taste or habit, and a failure now would indict the
+pipeline rather than the framework, so the commissioned tests of the instruments come first. A
+programme whose models only ever absorb results is what Lakatos called degenerating, however safe
+its core.
 
 | # | hypothesis | status |
 |---|---|---|

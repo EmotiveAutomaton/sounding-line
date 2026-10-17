@@ -1,5 +1,9 @@
 # Stage 15: next-round research division
 
+**October 17 amendment is rolling out:** [packet, frozen wave and live execution](drive/README.md)
+remain part of Stage 15. The [October 17 theory errata](../../theory/README.md#approved-wording-and-source-history)
+is applied and filed; previous stages remain closed.
+
 **October 16 drive commission authorized:** implementation with the review
 fixes is underway. The [drive shelf](drive/README.md) holds the preserved packet,
 execution amendments and explicit readiness registry. Earlier completed queues

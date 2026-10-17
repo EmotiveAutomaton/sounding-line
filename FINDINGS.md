@@ -9,6 +9,21 @@ ran it.
 
 ---
 
+### S15-DRIVE-W1-1017 — timing, repeatability and producer-score extraction
+
+**Hypothesis.** The writing logs may support pause tests and contain repeatable personal handling patterns, while the producer's own scores provide a separate reference.
+**METHOD.** Recount all logged insertions/intervals; compare matched same-prompt decisions within writers across sessions and between writers with writer-cluster uncertainty and shuffled labels; authenticate and regenerate every recorded producer score. Each complete card has pinned inputs, verified outputs and fresh-process statistic replay.
+
+**Found.** The timing rule admits logged per-character intervals: 99.23% of typed characters arrived singly. Similar choices are more consistent within a writer across sessions, with a descriptive headroom proxy of 0.02862 and a 95% interval of [0.00249, 0.06363]. All producer scores are recovered, but 21 exceed one, so their probability semantics remain unverified. **Means.** Continue the timing and personal-forecast tests; retain matched-population and timestamp caveats, and do not treat the raw producer field as a calibrated likelihood.
+
+Complete card reports carry the fixed sensitivity curve, controls, hashes, routes and scope: [TC](results/phase_2_4_stage_15/DRIVE/TC.md), [V5](results/phase_2_4_stage_15/DRIVE/V5.md), [P8](results/phase_2_4_stage_15/DRIVE/P8.md). V5's four shuffle diagnostics are registered as descriptive diagnostics in the multiplicity ledger. No Tier 1 family count advances from these shared/instrument passes. V4 remains pending. Theory rows/afterwords and TODO are scheduled for the packet's 20:00 digest; no unfinished GPU or pilot scores are reported.
+
+Curator roll-up, TC: decision traces; Can these logs support pause tests?; **Infrastructure**; Logged timing passes the commissioned census rule; project meaning: timing analyses can proceed under a timestamp caveat; next engineering obligation: run the frozen pause cards and controls; public claim unchanged; curator decision required: No; detail: TC report above.
+
+Curator roll-up, V5: reader inference; Is there repeated personal choice structure?; **Strengthens**; Matched choices give a positive personal-consistency proxy of 0.02862; project meaning: evaluate personal forecasts without claiming a universal error floor; next engineering obligation: complete P4 and V4 calibration; public claim newly licensed only for this descriptive matched sample; curator decision required: No; detail: V5 report above.
+
+Curator roll-up, P8: reader reference; Can the producer's own scores be recovered faithfully?; **Infrastructure**; Raw scores and settings are recovered but probability semantics are unresolved; project meaning: extraction supports qualified descriptive uses, not calibrated likelihood claims; next engineering obligation: verify backend semantics before probability-based use; public claim unchanged; curator decision required: No; detail: P8 report above.
+
 ### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
 
 **Hypothesis.** Is the authorized full suggestion run progressing with intact

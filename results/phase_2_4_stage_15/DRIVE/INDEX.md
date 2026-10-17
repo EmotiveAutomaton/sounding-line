@@ -1,5 +1,31 @@
 # October 16 drive: execution index
 
+## October 17 wave 1
+
+The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
+The GPU suggestion main continues; P5 sentence/edit extraction, P6 word baseline
+are dispatched under counted CPU leases; the [P4 execution pilot](P4_PILOT.md) is verified complete.
+No paid batch is active. Each row describes a whole card, never unfinished scores.
+
+| Card | Complete state or execution status | Evidence / next action |
+|---|---|---|
+| TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
+| V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 pending |
+| P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
+| P5 | dispatched, checkpointed CPU extraction | Supplies edit/sentence features; no result yet |
+| P6 | dispatched, checkpointed CPU baseline | Supplies D30/D33; no result yet |
+| P4 | first eligible-recipient execution pilot verified complete | [Timing receipt](P4_PILOT.md); full primary and conditional extension are building |
+| V4 | pilot building/review; full sensitivity pending | No taste/habit label available yet |
+| D30/D32/D35/D33/D34/D39/D17 | builders preparing and validating | Dispatch by packet rank as inputs and controls finish |
+| P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
+
+Family ladder null counts: K 0, B 0, A 0, G 0, E 0, R 0, S 0, P 0.
+No Tier 1 primary has landed in this wave; shared/instrument passes do not count.
+[Pending 20:00 integration](DIGEST_PENDING_20261017.json) tracks theory/TODO work.
+[Operations](OPS_LOG.md) records failures, recoveries and dispatch.
+One planned check is due October 17 at 14:16:49 PDT; independent health is 14:58:11 PDT.
+The dated October 16/earlier October 17 records below retain their original scope.
+
 **Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
 after [complete v4 admission](SUGGESTION_PILOT_V4.md). All compared token losses
 match the prior valid pilot, with unchanged safety checks and a 43.27-hour

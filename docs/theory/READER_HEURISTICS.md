@@ -711,6 +711,90 @@ devaluation. Sex-seeking that then stops was serving belonging. Sex-seeking that
 serving belonging alone, and it may be lust on top, habit or a learned end, which the second probe
 of G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 separates.
 
+**Teardrops that emerge, overlay, and are topped by the last pass** *(2026-10-17)*:
+
+> Everyone has a teardrop that is them. At the very top of that teardrop, hypothetically, you've got
+> survival, but just beneath it are all of your attempts to solve it. You're a teardrop missing its
+> tip, under this frame of reference, and it's made up of a bunch of tiny smaller teardrops that fit
+> together. They kind of form out your plan for your life, and they literally are series of actions
+> you want to take for your life.
+
+> I think you start with a single goal, and other goals kind of emerge from it. You notice, for
+> example, as you are creating that spoon, that it actually fits in such a way that you could use
+> this spoon in other ways. You could use it to impress the lady that you like. And so you then put
+> a little bit of effort into making sure that both of these teardrops are stable, but now you're
+> trying to do both, and it's hard to balance the two [...]. You make it look good for the lady, but
+> then it's not as good a spoon.
+
+> I think what the editor is doing is expanding the teardrop. You, as an author, had a specific
+> goal. The editor is making different goals. [...] As I say this, the author probably does it for
+> many different goals, which is why we have the weird teardrop shape in ToMpathy, where it's really
+> multiple teardrops overlaid on top of each other. [...] So the editor really overlays other
+> teardrop shapes on top, to make sure that they also have appropriate fit.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> You can have a starting goal, but the problem is, once you have a starting goal, the other
+> pattern-matching expertise pieces can look at what you have created, look at the landscape, the
+> tools that you now have in front of them, the new starting positions that now exist, and you can
+> literally, if you want, discard your original goal and decide that this is your new goal, that
+> you've made something more than you expected.
+
+> I do think that the top goal is kind of [set by] the last person to pass judgment over the whole
+> thing with the capability of changing it. They get to decide what that top goal is. [...] If they
+> had handed it over to the editor, so the editor got the final stamp of approval, or they both had
+> to do it together, simultaneously, both of them agreeing on the same set, that would be the only
+> case in which both of them have parallel, equivalently high teardrops, I guess.
+
+> Practically speaking, there's no top as much as [there are] different lenses. There are different
+> overlays that you can add to it, and you have to make sure that your overlay lines up properly.
+> [...] The only way to truly climb on top of someone, teardrop-wise, is if you saw they made a
+> comment and you wanted to address it in some way, by incorporating it into the overall structure.
+> And then you put a node on top of that, and all of a sudden it becomes leading into your teardrop
+> instead. [...] I think the hierarchy is only implied if it's implied by the structure of the
+> creation, but it isn't necessarily implied by the actual creation. Not every creation needs a
+> hierarchy inherently.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The teardrop is the curator's picture of the goal structure this section reads, a maker's hierarchy
+capped by survival with its tip missing and built from smaller teardrops of the same shape. Three
+claims come with it. Goals emerge during making, as expertise sees new uses in the partial work, and
+an emergent goal can replace the one that started it. The top goal of a shared work belongs to
+whoever holds the last pass with power to change it, with equal tops only when parties sign off
+together. And goal structures overlay rather than nest, so a hierarchy exists only where the
+creation's structure implies one, and one party rises above another only by taking the other's
+contribution into its own structure under a node of its own. The research names for the first claim
+are opportunistic planning
+([Hayes-Roth & Hayes-Roth, 1978](https://apps.dtic.mil/sti/tr/pdf/ADA064445.pdf), snippet) and, in
+design, problem-solution co-evolution
+([Dorst & Cross, 2001](https://cschan.arch.iastate.edu/235/20_Dorst-Creativity_coevolution.pdf),
+snippet), and one means serving several goals at once is multifinality.
+
+Law matches the second claim more closely than psychology does. In the Ninth Circuit's test for
+joint authorship, control, superintending the work as its "master mind", is the first of three
+factors, and "absence of control over the work is strong evidence of absence of co-authorship"
+(Aalmuhammed v. Lee, 2000, through a
+[summary](https://www.fwrv.com/news-articles/co-authorship-claim-denied) read). People's own sense
+of authorship tracks something else. Writers did not consider themselves the owners and authors of
+text a model generated, and their sense of ownership rose with their influence on it
+([Draxler et al., 2024](https://doi.org/10.1145/3637875), read), and credit in human and AI
+co-creation varied with the type, amount and initiative of each contribution
+([He, Houde & Weisz, 2025](https://arxiv.org/abs/2502.18357), read). So the last pass decides who
+may declare the top goal, contribution decides whose goals the work carries, and the two part where
+the last party changes little. A single-author preprint argues that final selection authority is not
+sufficient for authorship ([Cao, 2026](https://arxiv.org/abs/2609.10738), read, not peer reviewed).
+
+On the third claim the cognitive literature is split. Routine action sequences can be learned with
+no explicit hierarchy of schemas, context held in a single distributed representation
+([Botvinick & Plaut, 2004](https://doi.org/10.1037/0033-295X.111.2.395), read), while flexible
+behavior has been argued to require explicit, hierarchically organized goal representations
+([Cooper & Shallice, 2006](https://doi.org/10.1037/0033-295X.113.4.887), read). Without a hierarchy
+the last judge's top goal describes an attribution rather than the work's structure, which is the
+analyst's reading of where the second and third claims meet. Ghost study N12, commissioned on 17
+October, tests what an artifact alone can show of emergence, overlays and final authority, with the
+prediction that final authority is visible only where the overlaid goals conflict.
+
 | # | hypothesis | status |
 |---|---|---|
 | **lit** | Entry at any level, ratcheting to the others | **CONTESTED (READ).** Bullot & Reber make design-stance understanding a *necessary condition*; the disagreement is over necessity, not temporal order (their own response describes recursive processing) |
@@ -718,6 +802,9 @@ of G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4 separates.
 | **HH-GOAL-PYRAMID** | Readers infer a maker's goal hierarchy by jointly adjusting labeled nodes, climbing to the goal that explains every decision the artifact records, entering from below through expertise or from above through function; adjacent levels give the strongest evidence and the explaining goal the broadest | **OPEN.** A constructed test ran as card C1 of the Ghost V22 first pass (13 October); its result is not yet read into this file. Construction-integration is the nearest comprehension model and minimal-cover plan recognition the nearest formal account of the explaining goal (lit, SNIPPET); function-first explanation over-attributes purpose in children (lit, READ) |
 | **HH-ENTRY-RELIABILITY** | Readers enter a maker's goal hierarchy at three points, below through recognized actions, through the middle by recognized blocks of solutions, and above by assumed shared needs; the three are one mechanism with different failure modes, projection above, lock-in in the middle and locality below, so each entry should be weighted by its reliability | **OPEN.** Each entry has literature, and projection and Einstellung lock-in are documented failure modes (lit, READ and SNIPPET); the weighting by reliability is the analyst's; Ghost's goal-tree card ran in a constructed world and is not yet read into this file; no measurement on readers |
 | **HH-SACRIFICE-ORDER** | When goals nest, which one is on top changes the class of actions, and what the maker will sacrifice for the goal above reveals the order; sacrifice reads current priority, which moves with deficits, progress and sacred values, while structural order is read from whose reference is set by whom | **OPEN.** Set points compete by the largest deficit, goals ahead of schedule are coasted on, sacred values resist exchange, and goal shielding shows order without sacrifice (lit, READ); the split between priority and structure is the analyst's correction; removing the upper goal's prospect is the cleanest probe and has not been run |
+| **HH-GOALS-EMERGE** | A maker starts from one goal, and others emerge during making as expertise sees new uses in the partial work; an emergent goal can join the first or replace it, and balancing two goals with one focus of attention costs each some fit | **OPEN.** The curator's claim (2026-10-17); the research terms are opportunistic planning, problem-solution co-evolution in design, and multifinality for one means serving several goals (lit, SNIPPET); learned ends that outlive their origin are G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4; Ghost study N12 is commissioned to test what an artifact shows of it |
+| **HH-LAST-PASS** | The top goal of a shared work belongs to whoever holds the last pass over the whole with power to change it; equal tops exist only when parties sign off together | **OPEN for the last pass as the right to declare the top goal; CONTESTED (lit) for authorship following the last pass.** One appeals court's joint-authorship test weighs control first (lit, SNIPPET); writers' felt ownership and lay credit track influence and contribution rather than final say (lit, READ); one preprint argues final selection authority is insufficient (lit, READ); Ghost study N12 tests when final authority is identifiable from the artifact |
+| **HH-OVERLAYS** | Goal structures overlay rather than nest; a work carries several makers' structures as lenses, a hierarchy exists only where the creation's structure implies one, and one party rises above another only by incorporating the other's contribution under a node of its own | **OPEN.** Routine sequences are learnable without a schema hierarchy, while flexible action has been argued to need one (lit, READ); the curator's claim; no project measurement; Ghost study N12 compares single-top and overlay readers |
 
 **What the table says.** The only occupying framework makes level-entry a necessity claim with a
 weak empirical record, which leaves enter-anywhere both undefended in the literature and untested
@@ -727,7 +814,10 @@ with a constructed test run but not yet read and no measurement (HH-GOAL-PYRAMID
 are one recognition mechanism with different failure modes, so a reader should trust each in
 proportion to its reliability (HH-ENTRY-RELIABILITY), and sacrifice reads which goal wins now rather
 than which sits above, the distinction the date example needs before it can order a maker's goals
-(HH-SACRIFICE-ORDER). Confidence: untested, logic only, resting on a contested literature.
+(HH-SACRIFICE-ORDER). Goals also emerge during making and can replace the first (HH-GOALS-EMERGE),
+the top goal of a shared work belongs to whoever holds the last pass, a claim the law supports and the
+psychology of credit qualifies (HH-LAST-PASS), and several makers' structures can overlay one work
+without nesting (HH-OVERLAYS). Confidence: untested, logic only, resting on a contested literature.
 
 ## §4. Updating and active search
 
@@ -1031,6 +1121,67 @@ stake, and choices between near-equal options are slow
 opposite timing. An audited reversal follows a fast first choice and a later review, a near-tie
 reversal follows a slow first choice, and only the first carries the higher goal.
 
+**Attention is deciding what to trust** *(2026-10-17)*:
+
+> Whenever we're in any kind of psychological space, my answer is always going to be, it's all of
+> them. Every answer is always "it's all of them", because the one overarching rule is anything that
+> can be associated will. That is a bit of a cop-out, though, so let me give you a better answer.
+
+> Her past is just all previous habits. So yes, obviously it is her past, because it's pulling from
+> that. [...] [Her eye] is being pulled to the area that is compressing the fastest, which is that
+> corner, but she is purposefully going to move herself away from that, and that is her actual
+> preference. That is her wanting to want, in this case. [...] I would even say that the automatic
+> process of her eyes is to zero in on things that have compressing information. And if that's the
+> flow state of the eyes, she will literally have to manually wrest control of her eyes to move them
+> elsewhere. And that action, that very action, is attention.
+
+> I do think, off the cuff, that trust is going to be the big piece. You are deciding how much to
+> weight each signal, as always. [...] Allocating trust on, like, a math level is what we're doing.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> I'm treating attention as both. You're right. Maybe I'm assuming it's the same thing, that what
+> you're doing is adjusting the trust on various signals to control. Is that how you get control?
+> The effort is gained through adjusting trust levels? That's what you do as an attender. All you
+> can do, the safe option, is to decide what to trust. And in doing so, that automatically moves
+> your eyes to some other place. There are manual ways to do this. You can just manually increase
+> the belief that there is something interesting to be had in part of your field of view, and you
+> can use that to wrench your eyes wherever you want. Maybe that's what attention is.
+
+> Attention is a separate thing. It's the corrector. [...] Attention is trust, is what I think I'm
+> trying to say here. Or rather, attention is deciding to run an inference on whether to trust in a
+> given specific setting.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The research term for the curator's trust is precision. In predictive processing, attention is
+"inferring the level of uncertainty or precision during hierarchical perception", and a cue that
+raises the expected precision at a location draws processing there
+([Feldman & Friston, 2010](https://doi.org/10.3389/fnhum.2010.00215), read), which is his manual
+increase in the belief that something interesting lies in one part of the field of view. The
+framework splits what he joins, though. Sensory precision is attention in that narrow sense; where
+to look next is driven by expected information gain, which Parr and Friston separate as salience
+([Parr & Friston, 2019](https://doi.org/10.1016/j.copsyc.2018.10.006), read); and control is the
+precision on policies, the weight given to goal-directed evaluation against a habit prior. Effort
+then reads as the divergence between context-sensitive beliefs about how to act and the
+context-insensitive habit, and "effort is exerted to overcome a mental habit"
+([Parr, Holmes, Friston & Pezzulo, 2023](https://doi.org/10.1016/j.neuropsychologia.2023.108562),
+read; [Zénon, Solopchuk & Pezzulo, 2019](https://doi.org/10.1016/j.neuropsychologia.2018.09.013),
+read). That reverses one of his phrasings. Effort is the cost of acting on sharp beliefs against the
+habit, not something trust produces, and expected information gain follows from current uncertainty
+rather than being set at will.
+
+The safe corner fits the split. Her gaze runs on the habit and on what compresses fastest, and
+wrenching it away is policy precision overriding the habit prior, the corrector of his second
+answer. Arbitration between habitual and goal-directed control by their relative uncertainty is a
+standard account of which one wins ([Daw, Niv & Dayan, 2005](https://doi.org/10.1038/nn1560), read).
+Rival accounts of effort need no habit prior. Control may be allocated by its expected value net of
+cost ([Shenhav, Botvinick & Cohen, 2013](https://doi.org/10.1016/j.neuron.2013.07.007), read) or
+priced by the opportunity cost of other uses
+([Kurzban et al., 2013](https://doi.org/10.1017/S0140525X12003196), read). Sounding Line card D39,
+commissioned on 17 October, asks whether writers examine a source's next offers harder after it
+fails them, and Ghost study N15 asks what that test can separate.
+
 **And apparent errors should eventually revise the reader's model of the maker**:
 
 > Every apparent mistake is suspicious because it may mean you do not understand the maker. If too
@@ -1126,6 +1277,7 @@ closest named construct for the propagandist case (Friestad & Wright, 1994, snip
 | **HH-ATTENTION-SOURCES** | Attention mixes three sources, a pull toward falling prediction error, capture by drives or by learned value, and a part directed by expected preference satisfaction, which carries the maker's values and drives; preferences are read from the directed part, and the pull dominates when set points are met | **OPEN.** Learning progress, selection history, value-driven capture and attention as a mental action each have literature (lit, READ and SNIPPET); no project measurement separates the directed part from the pull and the capture |
 |   | | *(this row's history is its two-source form of 2026-10-14; capture by drives and by learned value, the analyst's readings of the curator's 2026-10-16 walkthrough, were added the same day)* |
 | **HH-REVERSAL-KINDS** | Reversed choices come in two kinds, flow-state output from expertise audited later against the higher goal, which carries that goal, and near-ties that flip because little was at stake, which do not; the first follows a fast original choice and the second a slow one | **OPEN.** Expert revision targets meaning and structure, and choices between near-equal options are slow (lit, READ); the near-tie kind and the timing contrast are the analyst's; no project measurement of reversal timing |
+| **HH-ATTENTION-TRUST** | Attention is the corrector that sets how far to trust each signal, an inference on whether to trust in a given setting; control, and the effort of wrenching gaze, come from adjusting trust, as when raising the believed interest of a region moves the eyes there | **OPEN.** Attention as precision, salience as expected information gain, policy precision against a habit prior, effort as divergence from habit and arbitration by uncertainty each have support (lit, READ); the framework separates the attention, salience and control the curator joins, and treats effort as the cost of overriding habit rather than a product of trust (lit, READ); Sounding Line card D39 and Ghost study N15 are commissioned |
 | **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **Original contrast VOID; matched rendering advantage descriptive, general benefit OPEN (test, L455/L456/L460; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The complete information-matched, equal-length primary comparison favors linked over raw or repeated facts on both proper losses throughout. No memory performs better on calibration and reserve; misassociation also improves over raw, and padding changes performance. One component per partition and mostly identical projected views preclude population or replication claims; independent memory and paired literal-confidence comparison remain unavailable. |
 |   | | *(L455: original memory manipulation erased by token projection; L456: unequal-length development correction realizes distinct treatments but favors raw/repeated memory; L460: separately frozen full-roster matched projection reverses that ordering, while no-memory and misassociation controls limit the inference. Original void and exposure retained.)* |
 | **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the complete descriptive blocks (test, constructed worlds, Qwen model reader and exact-program reference, L412/L419).** Correct, false and irrelevant explanations improve against raw input; the second block favors the correct frame, but order, rereading and unchanged repetition also help. Further records substantially improve the second false-frame comparison, without consistent modal improvement under the correct frame. Invalids and infinite losses remain. No general truth-sensitive mechanism, stable method rank or human correction claim is established |
@@ -1220,7 +1372,9 @@ HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Attention itself is held to mix a pull t
 prediction error, capture by drives or by learned value, and a part directed by expected preference
 satisfaction, and nothing here yet separates them (HH-ATTENTION-SOURCES). Reversed choices are held
 to come in an audited kind that carries the higher goal and a near-tie kind that does not, with
-opposite timing (HH-REVERSAL-KINDS). No model result licenses their internal psychological
+opposite timing (HH-REVERSAL-KINDS). Attention is held to be the corrector that allocates trust,
+the precision placed on each signal, with salience and control as the framework's separate parts
+(HH-ATTENTION-TRUST). No model result licenses their internal psychological
 interpretation. Confidence: one bad test away for these scoped model measurements;
 instrument-dead for the collapsed memory comparison; untested, logic only for the
 human mechanisms and the endpoint comparison.
@@ -1321,6 +1475,88 @@ image should fade if it tracks progress but last until they eat if it tracks ext
 drive's reward compression progress is, PLAY's on the analyst's proposal, is in
 [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1.
 
+**One scale: how fast things come apart** *(2026-10-17)*:
+
+> I feel like pleasure is also compressing information. It's just rapidly finding an easy path to a
+> solution.
+
+> Is beauty just the mix of interesting and pleasurable? Like, it's the rapidly disassembling, but
+> it's also the kind of rapidly disassembling that's easy to find. [...] Yeah, I think it is that
+> rapid disassembling. Maybe that is what beauty is, the most rapid of disassemblies.
+
+> But with landscapes, does the landscape have opportunity? Is there variance in its offerings, in a
+> way that gestures toward order, in a way that can be harnessed and understood? That is what beauty
+> is. It's a pretty reasonable guess, honestly. It explains the oddities, like how people can
+> describe the sudden appearance of a jaguar as beautiful [...]. Hitting beauty as an artist is more
+> difficult, and is also in the eye of the beholder.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> I think it's one scale, how fast things come apart. The beauty is the almost instant resolution;
+> that's how I would almost want it. It's the pleasure piece. It's seeing a clear path where you can
+> align your active states to a reward channel instantly [...]. There's a pleasure element to it,
+> maybe. [...] Regardless, all three of those seem like the same thing to me. It just seems one
+> scale.
+
+> Interest is disassembly, and beauty is the rapid disassembly. [...] I actually am not sure I agree
+> that what's beautiful is not necessarily interesting. I think my model would be that what's
+> beautiful is something that was ever so briefly interesting, just for a second, and then at that
+> moment was compressed. At some point it was interesting to you, and now you're seeing a little bit
+> more of it, or in a new way, or something like that.
+
+> The candy example is annoyingly good. [...] Perhaps something that's beautiful has to also have a
+> total lack of any kind of translation layer, no teaching layer, whether intended to propagandize
+> or otherwise. [...] If it is raw and stark in such a way that it has not been formatted for you,
+> or for you specifically, but rather it is a natural occurrence of a sufficiently interesting
+> thing, or it is the kind of raw, true [thing] that would effectively be a natural occurrence out
+> of a human, just the autocomplete, sort of, on its own. A flawless alignment, as everything kind
+> of fits into place. Maybe that's beauty. It's a starkness combined with that. Interesting. I'm
+> less confident about these as we go.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator puts beauty, interest and pleasure on one scale, the speed at which a thing comes apart
+into an understood structure, with interest the slower process and beauty the near-instant one, and
+he rejects the analyst's three-term split for it. The closest findings support his link between
+resolution and liking. Having an insight, and its intensity, "predicted subsequent gains in liking"
+([Muth & Carbon, 2013](https://doi.org/10.1016/j.actpsy.2013.05.001), read); the affect of an aha
+follows "the concomitant surprising fluency gain" of a sudden solution
+([Topolinski & Reber, 2010](https://doi.org/10.1177/0963721410388803), read); and valence has been
+defined formally as the rate at which free energy falls
+([Joffily & Coricelli, 2013](https://doi.org/10.1371/journal.pcbi.1003094), read), a speed. The
+nearest formal precedent places the terms the other way round. Schmidhuber puts beauty on
+compressibility and interest on its first derivative, the progress
+([Schmidhuber, 2009](https://doi.org/10.1007/978-3-642-02565-5_4), read), where the curator puts
+beauty on fast progress, and his "ever so briefly interesting, just for a second, and then at that
+moment was compressed" is the bridge, beauty as progress completed in a moment.
+
+Two findings resist one scale, and a third fits half of it. Across 900 images beauty tracked
+pleasure closely, r = 0.75 ([Brielmann & Pelli, 2019](https://doi.org/10.3389/fpsyg.2019.02420),
+read), which fits his pleasure piece; but interest and pleasantness were "essentially unrelated",
+and novelty and complexity raised interest while lowering pleasantness
+([Turner & Silvia, 2006](https://doi.org/10.1037/1528-3542.6.4.670), read); and beauty from fluency,
+as in symmetry and prototypes, has no interest phase to complete
+([Reber, Schwarz & Winkielman, 2004](https://doi.org/10.1207/s15327957pspr0804_3), read). His
+account fits beauty that arrives as insight better than beauty that arrives as ease, and no study
+was found that measures the speed of resolution against beauty, the test the scale implies.
+
+The landscape answer has a home in environmental psychology, whose preference matrix rates scenes on
+coherence, legibility, complexity and mystery (Kaplan & Kaplan, 1989, snippet); coherence,
+legibility and complexity predicted preference for urban parks in a 2025 study
+([Pardela, Beck & Lis, 2025](https://doi.org/10.3097/LO.2025.1133), abstract read), and the
+curator's variance that gestures toward order is, on the analyst's reading, complexity held within
+coherence. The condition of no translation layer meets Kant, for whom pleasure in beauty "does not
+depend on the subject's having a desire for the object" and charm or a governing concept makes the
+judgment impure ([Ginsborg, 2022](https://plato.stanford.edu/entries/kant-aesthetics/), read). Two
+findings complicate it. Strong sensory pleasure, candy included, can be felt as beautiful
+([Brielmann & Pelli, 2017](https://doi.org/10.1016/j.cub.2017.04.018), read), and removing the human
+maker lowers ratings, since identical images scored lower when labeled computer-made
+([Kirk et al., 2009](https://doi.org/10.1016/j.neuroimage.2008.10.009), read), while understanding
+an artist's intent raised liking ([Jucker et al., 2014](https://doi.org/10.2190/EM.32.2.c), read).
+The label and title findings favor intent without an ulterior purpose over the absence of intent,
+which is close to his raw, true human autocomplete. Sounding Line card D36, commissioned on 17
+October as exploratory, tests whether jokes are liked more when their punchlines resolve faster.
+
 **Interest is the continuation signal.** Unresolved but apparently structured decisions keep the
 reader searching, which makes reader-reported interest an instrument:
 
@@ -1391,6 +1627,8 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 | **HH-14** | Reader-reported interest correlates with unrecovered decisions | **OPEN, blocked on him.** Interest ratings on the fifteen read artifacts; an hour that turns the richest hypothesis source into data. Informs this file only, never ground truth |
 | **HH-16** | "Ordered but unexplained" is effective complexity rather than entropy | **OPEN.** A real, formalisable target, and deprioritized as a global text summary by the program |
 | **HH-AESTHETIC-TERMS** | Aesthetic response has three terms on three timescales, hedonic tone as error reduced faster than expected, interest as compression progress, and extrinsic value, the pull of bodily and social set points; aesthetic pull is the first two, and attention drawn by need, as to food when hungry, is the third | **OPEN.** Pleasure as better-than-expected ease, interest as compression progress, valence as the rate at which free energy falls, the split between extrinsic and epistemic value, and need-dependent attention to food each have support (lit, READ); the three-term split is the analyst's, and it departs from the curator's placement of looking at food under the fastest-falling compression; no project measurement separates the terms |
+| **HH-ONE-SCALE** | Beauty, interest and pleasure lie on one scale, how fast a thing comes apart into an understood structure; interest is the disassembly and beauty the rapid one, so the beautiful was briefly interesting and then compressed | **OPEN for beauty as fast resolution; CONTESTED (lit) for one scale joining interest and pleasure.** The curator's account (2026-10-17), against the analyst's three-term split (HH-AESTHETIC-TERMS). Insight and its intensity predict gains in liking, aha affect follows a sudden gain in fluency, and valence can be defined as a rate (lit, READ); interest and pleasantness were unrelated in one series, and fluency-based beauty has no interest phase (lit, READ); no study found measures resolution speed against beauty; Sounding Line card D36 is a first, exploratory test |
+| **HH-NO-TRANSLATION** | What is beautiful carries no translation layer, nothing formatted for the viewer or meant to teach or persuade, a natural occurrence or a maker's unforced autocomplete | **OPEN, the curator's tentative proposal.** Kant's disinterested and purpose-free beauty agrees (lit, READ); strong sensory pleasure can be felt as beautiful, removing the human maker lowers ratings, and grasping intent raises liking, so the label and title findings favor intent without an ulterior purpose over no intent (lit, READ); no project measurement |
 | **HH-NO-TOP-GOAL** | When no goal explains an artifact's decisions, a reader either forages for context or stops by declaring its current level the peak, and a graded trait such as openness or need for closure sets how long it searches | **OPEN.** Openness relates to exploration and need for closure to prejudice (lit, READ); no project measurement |
 | **S12-STOPPING-1** | Does a reader stop or buy evidence according to its declared purpose and cost? | **OPEN; primary uncertainty analysis unavailable (test, L442; 64 constructed discovery histories in one law, Qwen model reader and independent exact references).** All requested calls and descriptive replay are complete. Reader regret exceeds at least one constant policy in each purpose/cost stratum, with strong descriptive answer-order differences and retained invalids. The frozen consumer has no paired regret interval, so no formal benefit, harm or equivalence is established. Current forecasts do not test use after purchase; human interest is untested. |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ).** The arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
@@ -1402,7 +1640,11 @@ interest and recoverability, which is exactly what the blocked ratings test woul
 Splitting aesthetic response into pleasure at better-than-expected ease, interest as compression
 progress and the extrinsic value of bodily and social set points may dissolve that opposition, since
 fluency and interest accounts would then measure different terms, and the ratings test would need
-pleasure and interest rated separately to show it (HH-AESTHETIC-TERMS).
+pleasure and interest rated separately to show it (HH-AESTHETIC-TERMS). The curator holds the
+opposite view, one scale of how fast things come apart, with beauty as interest resolved in a moment
+(HH-ONE-SCALE), and he adds tentatively that beauty carries no layer formatted for the viewer
+(HH-NO-TRANSLATION); the ratings test would separate the two accounts if it timed the resolution as
+well as rating it.
 The proposed relation between interest and unrecovered decisions also depends on the
 reader's purpose: material informative about a maker may add little to a reader's present
 learning task. Interest and stopping are consequently evidence about the reader as well
@@ -1414,7 +1656,8 @@ or successful use of purchased evidence (S12-STOPPING-1, L442). Confidence: one 
 away for the scoped model description; untested, logic only for the human interest
 account, whose rating comparison remains blocked on curator ratings, and for the proposal that a
 reader without an explaining goal forages or shrugs (HH-NO-TOP-GOAL), and for the three-term aesthetic
-account (HH-AESTHETIC-TERMS).
+account (HH-AESTHETIC-TERMS) and the curator's one-scale account with its condition (HH-ONE-SCALE,
+HH-NO-TRANSLATION).
 
 # Part II: Cue families
 
@@ -1542,6 +1785,54 @@ and people add decision noise on purpose, as random exploration, when more choic
 abstract read). A caused mark can still carry no preference information, so the classifier needs
 a place for it whatever it is called.
 
+**Pervasive or local: telling an autocompleted branch** *(2026-10-17)*:
+
+> A reader would tell a branch she never saw from one she saw and declined because it would kind of
+> suffuse all of the decisions that are similar to it. As characters got into situations, you could
+> find the autocomplete yourself. There'd be characters that got into situations that were fearful,
+> that would give them the opportunity to be fearful, and you would expect them to be fearful. And
+> that would give you the background implication, piece by piece. You'd see it across everything.
+> [...] Attention is limited, and so it's the limited nature of attention that helps you here more
+> than anything. The biggest thing to tell a branch that has been autocompleted is the pervasiveness
+> of similar-looking decisions. Other characters being fearful imply that this character being
+> fearful is about the author, not about the character. It wasn't something they were attending to;
+> it was something that they do automatically without realizing it.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+Attribution theory has the instrument the curator describes. Kelley's covariation model reads where
+the cause of a behavior sits from three facts, consensus (whether others respond the same way to the
+same thing), distinctiveness (whether this person responds that way only to this thing) and
+consistency (whether the response recurs whenever the thing is presented), and low consensus, low
+distinctiveness and high consistency locate the cause in the person (Kelley, 1973, snippet;
+[McArthur, 1972](https://doi.org/10.1037/h0032602), read). Other characters being fearful is low
+distinctiveness; the author is the person, and characters, scene types and works are the entities
+and occasions. The research pass adds one fact and one correction. The test needs consensus, what
+other authors' characters do in matched scenes, or genre conventions pass as authors' traits, and
+observers underuse it too, since in McArthur's data consensus explained 6.25 percent of the variance
+in person attributions against 21.72 percent for distinctiveness. And covariation locates a cause
+and says how general and stable it is, while judgments of control rest on a different fact, the
+contingency of one's actions
+([Van Overwalle & Heylighen, 1995](https://doi.org/10.1002/ejsp.2420250407), read).
+
+Pervasiveness therefore shows that a choice belongs to the author, not that it was automatic. A
+deliberate global policy is pervasive and attended, as Poe claimed of a poem in which no point was
+"referrible either to accident or intuition"
+([Poe, 1846](https://www.eapoe.org/works/essays/philcomp.htm), read), and the automatic cases the
+habit and fear literatures describe can stay local, a habit being a response cued by a stable
+context and insensitive to current goals
+([Wood & Neal, 2007](https://doi.org/10.1037/0033-295X.114.4.843), read) and a one-shot fear one
+that generalizes along similarity to the scene that taught it
+([Dymond et al., 2015](https://doi.org/10.1016/j.beth.2014.10.001), read). The analyst's restatement
+keeps the curator's test and adds the missing half. An autocompleted branch shows low consensus, low
+distinctiveness and high consistency, which places it in the author, and it is insensitive to what
+it should track, flat against the character's traits and the threat's size, fast, and seldom
+revised. Computational literary studies found author and character signals "fused in novels"
+([Bamman, Underwood & Smith, 2014](https://doi.org/10.3115/v1/P14-1035), read), so the separation
+does not come free. Sounding Line cards D30 and D31 apply the test to writers' own markers and to
+fiction's characters, and Ghost study N14 scores the curator's rule against the restated one where
+the mechanisms are known.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G85** | Intention elicitation with a pre-registered target | **ALREADY BUILT.** The intent ladder is this protocol, validated on stone since 2010, with the R² = 0.655 ceiling attached |
@@ -1553,6 +1844,7 @@ a place for it whatever it is called.
 | **G90** | Report separability as a cross-validated confusion matrix | **OPEN, a reporting convention**, and the program's required output format for choice recovery |
 | **G91** | Inter-annotator agreement and per-feature accuracy before believing any extraction | **OPEN, and mandatory.** An aggregate concealed a worse-than-chance category |
 | **HH-DIVERGENCE-CLASSES** | Divergences from the expert steps sort into policy error, context inaccuracy, habit and deliberate choice on the maker's side, with epistemic foraging inside deliberate choice and aimed mostly at improvement, and into a wrong goal, missing structure or an unknown contextual limitation on the reader's side; only deliberate choices carry preference vectors, the list is held open, and the curator holds that nothing is noise | **OPEN.** Each class has literature (lit, READ and SNIPPET); the split between policy error and preference is not identifiable from behavior alone without normative assumptions (lit, READ); decision research reports variability from imprecise inference and deliberate random exploration (lit, READ and SNIPPET), against the no-noise position. No project measurement separates the classes |
+| **HH-PERVASIVENESS** | A branch a maker never draws because it was autocompleted away shows as the pervasiveness of similar decisions across the maker's work, other characters fearful where this one is, so it is about the author; restated, an autocompleted branch shows low consensus, low distinctiveness and high consistency and is also insensitive to what it should track, while pervasiveness alone shows only that the choice is the author's | **OPEN.** The curator's test (2026-10-17) with the analyst's restatement. Kelley's covariation model and its patterns (lit, READ and SNIPPET); observers underuse consensus, and control judgments rest on contingency rather than covariation (lit, READ); deliberate global policies are pervasive and attended, and cue-bound habits and one-shot fears can be local (lit, READ); Sounding Line cards D30 and D31 and Ghost study N14 are commissioned |
 
 **What the table says.** The forty-year practice arrives as one measured win, one protocol we had
 already built, and a discipline. The visibility partition produced a clean double crossover on its
@@ -1569,11 +1861,15 @@ locatable structure, and the reader's access to it is integrative rather than ev
 The distinction between an instrument that fails and a signal that is absent at a resolution
 is what the validation-first order bought, twice. The divergence classes turn the subtraction rule
 into a classifier, useful only if the deliberate class can be recovered without absorbing habit,
-unexplained variation or the reader's own errors (HH-DIVERGENCE-CLASSES). Confidence: the partition is one bad test
+unexplained variation or the reader's own errors (HH-DIVERGENCE-CLASSES). The curator's
+pervasiveness test supplies a classifier for the habit class, valid for where a choice sits and
+needing a second check, insensitivity to what the choice should track, before it can call the choice
+automatic (HH-PERVASIVENESS). Confidence: the partition is one bad test
 away; the ruler validation is one bad test away and constructed-world only; the text arc
 (null at short form, separation at long form) is one bad test away as a set, one corpus
 family deep with its fabrication warning attached; the ceiling import is replicated in its
-home field; the remaining rows, the divergence classes included, are untested.
+home field; the remaining rows, the divergence classes and the pervasiveness test included, are
+untested.
 
 ## §7. Habit, concealment, and revision
 

@@ -125,6 +125,21 @@ edits here.
 
 ## Approved wording and source history
 
+The October 17 curator errata is applied across four theory files and this README. Its
+[original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-17.md)
+and [application receipt](../design/archive/THEORY_ERRATA_20261017_APPLIED.json) preserve the exact
+source, anchor checks, stable identifiers and before/after hashes. It files the curator's three
+walkthroughs of that day. The triple inference is held as one joint inference with three entries,
+function, person and process (G198); a value is a decision the maker still endorses (G199);
+deliberate processing builds automatic routines, and one-shot aversive experience acts as broad
+expertise (G200, G201); language models may lack the corrector, on his hedged reading (G202); goals
+emerge, overlay and are topped by the last pass; attention allocates trust; aesthetics is one scale
+of resolution speed on the curator's account; and pervasiveness locates a choice in its maker, with
+automaticity a separate check. The curator asked that the files use the research literature's own
+terms and teach them in place. His quotations keep System 1 and System 2, and the prose uses Type 1
+and Type 2 processing, the current terms. Every position filed is OPEN. Ghost V23 results, N4b and
+N4c included, are not imported by this errata and await curator uptake.
+
 The October 16 curator errata is applied across the five theory files. Its
 [original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-16.md)
 and [46-edit application receipt](../design/archive/THEORY_ERRATA_20261016_APPLIED.json)

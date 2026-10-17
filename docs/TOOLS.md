@@ -2401,6 +2401,15 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 CPU wave:** counted native leases, two-thread below-normal execution,
+pin refusal, checkpoint yields and fresh-process primary replay have targeted
+controls and a complete serialized smoke check. [TC](../results/phase_2_4_stage_15/DRIVE/TC.md)
+admits logged timing; [V5](../results/phase_2_4_stage_15/DRIVE/V5.md) is a qualified
+matched-repeatability proxy; [P8](../results/phase_2_4_stage_15/DRIVE/P8.md) recovers
+raw producer scores with unresolved probability semantics. P5/P6 and P4 pilot
+are dispatched; complete-output validation remains required. No engine admission.
+
+
 **OPS-S15-DRIVE-V1-CAPACITY:** original byte guard fired with 120 complete
 worlds retained and one construction-only partial. Native exit, lease release,
 checkpoint hashes and source locks verify. Recovery remains storage-only and

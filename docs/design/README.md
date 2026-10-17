@@ -11,7 +11,7 @@ them; the folders are navigation homes, not duplicate copies of the papers.
 
 | Stage | Status and scope |
 |---|---|
-| [Stage 15](stage-15/README.md) | October 16 drive partly implemented and active in Gear 2; earlier finite queues drained, native validation and profile comparison gates remain |
+| [Stage 15](stage-15/README.md) | October 17 drive amendment rolling out in Gear 2; earlier finite queues drained, native validation and profile comparison gates remain |
 | [Stage 14](stage-14/README.md) | Closed October allocation; final packet and integrity filed, deficits retained and successor repairs owned by Stage 15 |
 | [Stage 13](stage-13/README.md) | Closed September campaign; final packet and endpoint retain deficits |
 | [Stage 12](stage-12/README.md) | Closed allocation; final packet retains incomplete comparisons |

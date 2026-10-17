@@ -1,5 +1,8 @@
 # Superseded operating snapshots
 
+The [October 17 filing ledger](DOCUMENT_RELOCATIONS_20261017.json) maps the new
+Stage 15 packet and applied theory errata to their permanent shelves, with exact hashes.
+
 These are byte-identical snapshots retired from live entry points on September 27.
 They preserve history; their old running/pending labels are not current authority.
 Use [CURRENT_STATUS](../../../CURRENT_STATUS.md) and the [design index](../../design/README.md).

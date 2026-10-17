@@ -1,5 +1,29 @@
 # October 16 drive commission
 
+## October 17 amendment: active
+
+The curator authorized the [new packet](PACKET_20261017_PUBLIC.md) and the obvious
+implementation corrections in [wave 1](BATCH_PLAN_20261017_W1_PUBLIC.md). This extends
+Stage 15. Three builders prepare separate cards; the owner alone dispatches,
+lands and publishes. Four counted CPU slots allow two threads each at below-normal
+priority while the admitted GPU suggestion main continues unchanged.
+
+[Dispatch bindings](DISPATCH_20261017.json) distinguish frozen executable cards
+from the unbuilt remainder. [Live evidence index](../../../../results/phase_2_4_stage_15/DRIVE/INDEX.md)
+records completed instruments and actual successors. The [October 17 theory
+errata](../../../theory/README.md#approved-wording-and-source-history) is applied.
+
+Planned checks are at most one hour apart while work builds, queues or runs;
+terminal/failure notices remain immediate and six-hour health stays independent.
+Cards land individually, FINDINGS batches by wake, and theory/TODO integrate at
+20:00 PDT. New starts freeze Wednesday October 21 at 06:00 PDT; the prior
+transition-only setting returns then. Paid cutoff is Monday October 19 at 17:00
+PDT. Only the first $10 is approved; K/P/A still require their exact input,
+blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
+
+Completed TC/V5/P8 and running P5/P6/P4 pilot do not complete the packet.
+The October 16 description below is retained as the earlier commission.
+
 [Throughput recovery v4](SUGGESTION_CORPUS_V4.md) is verified complete, preserving
 every compared score and all safety checks. Measured bounds admit the suggestion
 main, which is now running under native monitoring. Typed/history and downstream
@@ -56,4 +80,4 @@ Original source SHA-256: `d9261c5e93c91adc21ef9db79a6047581a178614f2ecef13d854b9
 The source's Thursday heading is superseded by its explicit Tuesday October 20
 digest and Wednesday October 21 freeze dates. Paid dispatch cutoff is October 19,
 17:00 America/Los_Angeles. Existing six-hour health and immediate failure supervision
-continue. No new agent delegation is part of this implementation.
+continue. The October 16 implementation carried no delegation; the October 17 amendment above explicitly commissions three builders.

@@ -1,5 +1,9 @@
 # Stage 15 evidence
 
+**October 17 new wave:** [completed instruments and live dispatch](DRIVE/INDEX.md)
+are recorded under the amended Stage 15 packet. The prior finite queues below
+stay closed; the new commission is only partly implemented.
+
 **Current execution:** [full suggestion main](DRIVE/SUGGESTION_MAIN_V4_LAUNCH.json)
 is running after [complete timing admission](DRIVE/SUGGESTION_PILOT_V4.md).
 The [08:53 health inspection](HEALTH_20261017_0853_PUBLIC.json) verifies native

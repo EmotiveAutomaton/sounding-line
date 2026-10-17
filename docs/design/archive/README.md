@@ -1,5 +1,10 @@
 # Historical study designs
 
+The [October 17 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-10-17.md) is **applied**.
+Its [34-edit receipt](THEORY_ERRATA_20261017_APPLIED.json) verifies exact anchors,
+independent reconstruction and theory lint. The machine-readable edit list and
+original quotations remain alongside it; no new literature review is implied.
+
 Closed study sources and operator handoffs, grouped by stage. Original dates,
 failed or incomplete branches and prior rulings remain in their documents.
 Filing does not grant execution or change scientific validity. Current authority

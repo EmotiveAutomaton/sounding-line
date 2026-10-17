@@ -9,9 +9,15 @@
 
 # Sounding Line
 
+**October 17 rollout:** CPU instruments and the first predictive pilot run beside
+the admitted GPU pass. [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+separates verified results, active work and the unbuilt remainder. The
+[October 17 theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
+is applied; [incoming documents are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
+
 **Theory walkthrough:** [October 17 handoff](results/phase_2_4_stage_15/WALKTHROUGH_HANDOFF_20261017.md) links the recorded evidence, applied errata and explicit unfinished work.
 
-**Current commission:** the [October 16 drive packet](docs/design/stage-15/drive/README.md)
+**Current commission:** the [October 17 drive amendment](docs/design/stage-15/drive/README.md)
 is partly implemented and active in Gear 2. Full source replay and first paid
 instrument admission and the complete outcome calibration are recorded. The
 reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the complete timing recovery preserves all compared scores and admits the full suggestion pass, which is now running with native monitoring. Typed/history preparation remains open. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)

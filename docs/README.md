@@ -1,5 +1,9 @@
 # Documentation - current authority, methods and history
 
+**October 17:** the [Stage 15 drive amendment](design/stage-15/drive/README.md)
+is rolling out beside the admitted GPU run. The [theory errata](design/archive/THEORY_ERRATA_20261017_APPLIED.json)
+is applied and [incoming files are filed](archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
+
 **October 16 drive is active:** [commission and corrections](design/stage-15/drive/README.md)
 and [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguish
 verified completions, actual local workers and unbuilt cards. The prior bounded

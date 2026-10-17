@@ -18,6 +18,15 @@ with the reason.
 
 ---
 
+## October 17 packet and three theory walkthroughs
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| 06:21 PDT walkthrough of the analyst's theory pass | Preserved the attention/expertise uncertainty and stated-purpose self-model distinction with exact source attribution | written | [October 17 source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-17.md) |
+| 07:52 PDT answers to the analyst's discussion questions | Filed the value endorsement, goal overlays, trust, aesthetics and revision accounts; lexical repairs and omissions remain explicit | written | [34-edit application receipt](../../docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json) |
+| 10:15 PDT answers to the second-round questions and scorecard | Filed the joint inference, automatic processing, pervasiveness and pause hypotheses while retaining hedges and analyst objections | written | [Theory index](../../docs/theory/README.md) |
+| Implement the October 17 research packet, then its theory errata; file and push the work | Stage 15 amended, three builders commissioned, bounded counted CPU execution and hourly planned checks reinstated; first wave dispatched | built; remaining cards in progress | [Wave plan](../../docs/design/stage-15/drive/BATCH_PLAN_20261017_W1_PUBLIC.md) |
+
 ## Theory errata, filing and partial GPU capacity - 2026-10-16
 
 Analyst paraphrase of the current instruction, not a quotation. The archived

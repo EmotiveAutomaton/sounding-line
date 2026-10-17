@@ -430,6 +430,130 @@ intentions and compiled habit can still alter behavior while another goal is foc
 concurrent control remains a rival. Serial switching is therefore a candidate description of
 focal control, not a frozen mechanism.
 
+**Attention trains the autocomplete, and habits grow** *(2026-10-17)*:
+
+> Effectively, what we're trying to do here is capture System 2. Okay, we can speak that language;
+> I'm cool with that. And what you have attention over is System 2, and System 2 creates System 1
+> over time.
+
+> I'll accept the word fluent. I think it's reasonable to have, but I do think fluent just means
+> compressing the fastest. I mean, it's already compressed, but you're running the same algorithm.
+> It's expertise. It's pre-compressed. It's the autocomplete.
+
+> Chess experts [...] are leaving their eye movement on autocomplete while they attend to their own
+> internal thoughts. They are thinking about the move that they are considering, and they aren't
+> even really attending to their visual stimuli. So their visual stimuli, on autocomplete, simply
+> move toward the most rapidly compressing information, the thing that's familiar, their fluency.
+
+> The habit problem I hadn't really properly considered as terrible as it was, but you would get, oh
+> my god, ghosts of repetitions, little minor solutions that you would be able to apply in bigger
+> and bigger circumstances that would then be misapplied. It would kind of just grow. You would grow
+> habits, and your job, in part, as the attention, is to squash those habits before they become
+> problematic.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+The research vocabulary he accepts has moved on. Its authors now say Type 1 and Type 2 processing
+rather than System 1 and System 2, because systems suggest, falsely, two processes located in two
+specific places; Type 2 is hypothetical thinking that loads working memory, and Type 1 includes both
+innate modules and "experiential associations that have been learned to the point of automaticity"
+([Evans & Stanovich, 2013](https://doi.org/10.1177/1745691612460685), read). The curator's claim
+that deliberate processing builds automatic processing is one of Type 1's routes, with two classic
+mechanisms, past solutions stored as instances and retrieved in one step in place of the algorithm
+that first produced them (Logan, 1988, snippet), and slow declarative rules compiled into fast
+productions (Anderson, 1982, snippet). It is not the only route, since innate modules and implicit
+learning also make Type 1 processes, and the two-type split itself is disputed
+([Melnikoff & Bargh, 2018](https://doi.org/10.1016/j.tics.2018.02.001), read). Fluency as
+pre-compressed processing fits instance theory, where a familiar input retrieves an answer instead
+of computing it, and habits resurface when people must respond under time pressure
+([Hardwick et al., 2019](https://doi.org/10.1038/s41562-019-0725-0), abstract read).
+
+The growth of habits has its closest experimental match in strong-but-wrong errors. A capture error
+is a frequent, well-learned sequence taking over an intended one that shares its opening (Norman,
+1981, snippet), and in sequence learning more training produced more errors on new sequences that
+resembled the trained ones, errors made at normal speed that "appeared to be undetected"
+([Woltz et al., 2000](https://doi.org/10.1037/0278-7393.26.3.601), read). The literature does not
+yet support two parts of the claim. No study was found in which habits spread to larger and larger
+circumstances, and habits are mostly right, "the efficient, default mode of response" bound to the
+contexts that built them
+([Wood & Rünger, 2016](https://doi.org/10.1146/annurev-psych-122414-033417), read), so
+misapplication is the exception the account must explain, by similarity to the trained context. The
+chess reading needs one correction. In the study it answers, experts who said they were looking for
+a better move kept their eyes on features of the solution they already knew and did not find the
+better one ([Bilalić, McLeod & Gobet, 2008](https://doi.org/10.1016/j.cognition.2008.05.005), read),
+so the familiar solution held their search as well as their gaze, and attention running internally
+did not escape it. Attention as the corrector that squashes misfiring habits is the policy-precision
+reading in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4.
+
+**Trauma is one-shot expertise** *(2026-10-17)*:
+
+> I do think that there might be an element to this that I'm missing, something like, the expertise
+> decisions influence the spread of the current decisions you're looking at. It kind of leaks in,
+> and I don't know if it always leaks in through unexamined subordinate decisions, or whether people
+> sneak in fearful reasoning because they have been a coward in their past. [...] I think attention
+> might be corrupted by expertise slightly too, maybe? That's a wall that I have to acknowledge is
+> one that I am assuming, and I'm doing so unjustly.
+
+*Curator's walkthrough of the analyst's 17 October theory pass, 2026-10-17 (06:21 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+> I think the fearful reasoning is a big part of it. I think that's how it infects your current
+> reasoning. [...] I think it's unintended expertise. [...] Trauma would be unintended expertise,
+> which is what this is too. [...] But of course it also changes what you can see as an option at
+> all, because it is expertise as well. Expertise would distort both directions. It adds, but it
+> also removes possibilities from the landscape. And if your expertise is one of fear, then that is
+> the way that the possibilities are removed from the landscape, because it applies itself
+> accidentally.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> You can have sudden expertise that appears through trauma. That's clearly a thing. So let's say
+> she had a sudden trauma, and now this expertise is pattern-matching onto things that it shouldn't
+> be pattern-matched onto, and she can't even see that her characters could fight back in this
+> scenario [...]. Other writers in the same spot would not have that same problem. They would be
+> more likely to see that option, because their lens isn't clouded by this expertise mapping that
+> was flashed into position through one-shot learning in trauma. [...] She could even be actively
+> trying to push out past that. [...] It's like making a chip in the wall of a cave that slowly
+> erodes that cave around you a little bit further every time. But that cave-wall erosion is decided
+> by expertise. [...] All the automatic decisions would kind of work against you a little bit, and
+> you'd have to fight against yourself to an extent, as they would auto-fit scenarios that are
+> slightly incorrect but fit well enough to make sense for the inference at large. Your autocomplete
+> is broken.
+
+> Expertise would sharpen discrimination through attending to more and more precise, small portions
+> of what it is you're processing. But fear blurs it, because it's a one-shot. It is an incredibly
+> highly weighted one-shot experience that then becomes applied to all kinds of stuff. The very
+> process would be blurry by definition. It's intended to quickly and rapidly learn a new thing and
+> apply it to new scenarios, because it is important.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The claim joins two literatures. Fear learning is the clearest case of learning from one highly
+weighted experience, and stronger threats widen the generalization gradient, the range of stimuli
+that come to evoke the response, without changing the initial learning
+([Dunsmoor et al., 2017](https://doi.org/10.1037/bne0000186), read). Expertise runs the other way,
+by differentiation, through which "stimuli that were once indistinguishable become psychologically
+separated" ([Goldstone, 1998](https://doi.org/10.1146/annurev.psych.49.1.585), read). The half that
+removes options has a computational home. In planning tasks people prune decision trees at branches
+that begin with a large loss, a reflexive Pavlovian response that shapes goal-directed choice even
+when the pruned branch held the better route
+([Huys et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3297555/), snippet), which is fear
+removing possibilities from the landscape.
+
+Four findings narrow the claim. Dunsmoor and colleagues varied the threat's intensity, not the
+number of exposures, and the curator's account joins the two. One-trial fears are selective, a
+"nonarbitrary and limited set of objects"
+([Seligman, 1971, republished 2016](https://doi.org/10.1016/j.beth.2016.08.006), read), and aversive
+learning sharpened the discrimination of odors in one study
+([Li et al., 2008](https://doi.org/10.1126/science.1152837), read) while blunting discrimination in
+another ([Resnik et al., 2011](https://doi.org/10.1038/nn.2802), read). And broad generalization
+from one example is what any Bayesian learner does before more examples tighten it
+([Tenenbaum & Griffiths, 2001](https://doi.org/10.1017/S0140525X01000061), abstract read), so
+breadth after one shot is not by itself a mark of fear. Trauma in its clinical sense has criteria
+this file does not test; the claim filed here is about one-shot aversive learning acting as
+expertise. Its reader-side consequence, that options pruned this way show as a branch never drawn
+across a maker's work while other makers in the same place draw it, is the pervasiveness test in
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §6.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G26** | A goal is a weighting across all levels rather than a level or attention state of its own | **OPEN, adopted as the working position** |
@@ -443,6 +567,8 @@ focal control, not a frozen mechanism.
 | **G193** | Drives are inherited pre-made controllers that run from set points; each serves particular set points by default, bundled with them in animals, and people unbundle them, learning what to fear and repurposing a drive to serve another need | **OPEN.** The split between needs and solutions is in Solms and Friston and in perceptual control theory; animals bundle assessment with response; displacement activities are the animal precursor of repurposing; need states revalue learned cues on the spot (lit, READ). Some set points may be emergent balances among controllers (lit, READ). No project measurement |
 | **G194** | PLAY runs from an epistemic set point, narrow error bars over one's own solutions in unfamiliar situations; play narrows them, and shared play brings people closer | **OPEN.** Play as training for unexpected loss of control, play under met needs, play as seeking resolvable surprise, juvenile play and adult social skill, and closeness after shared novelty or consensual risk (lit, READ); closeness is the curator's claim, and its working through each partner's narrower error bars about the other is the analyst's candidate mechanism; untested here |
 | **G195** | PLAY's reward is compression progress, and art is a made playground that creates bounded uncertainty and resolves it | **OPEN, logic only; the analyst's proposal.** Joins the three-term aesthetic account (HH-AESTHETIC-TERMS in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §5) to the drives; predicts that play falls with competence and stays at its edge |
+| **G200** | Attended, deliberate processing builds automatic routines over time, the curator's System 2 creating System 1, and routines built by repetition grow into bigger and bigger circumstances and are misapplied unless attention checks them; fluency is the speed of a routine already compressed | **OPEN.** Automatization by stored instances and by compiled rules, and strong-but-wrong errors that rise with training and go undetected, have support (lit, READ and SNIPPET); Type 1 processing also has innate and implicit sources, the two-type split is disputed, and habits are mostly correct and bound to context, with no study found of habits spreading to larger circumstances (lit, READ); misapplication by similarity to the trained context is the analyst's proposed mechanism; Sounding Line card D35 is commissioned to test whether a writer's corrections become her defaults |
+| **G201** | A single highly weighted aversive experience acts as expertise learned in one shot, broad where expertise built by repetition is narrow; it prunes options from the maker's landscape and fits later situations it does not match, while repeated expertise sharpens discrimination | **OPEN.** Stronger threats widen fear generalization, perceptual expertise differentiates, and aversive outcomes prune planning trees (lit, READ and SNIPPET); one-trial fears are selective, aversive learning both sharpens and blunts discrimination in different studies, and breadth after one example is general Bayesian behavior (lit, READ); the clinical sense of trauma is not tested; Sounding Line card D38 is a mild, exploratory analog, and Ghost study N9 tests whether pruning can be told from dislike |
 | **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event reader and the controller comparison inherit hidden future and generator-law dependencies; no architecture recovery, controller comparison, or switching conclusion is licensed; the reader-free construction fact stands: the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06, CLEAN) |
 |   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
 | **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
@@ -464,7 +590,11 @@ people unbundle and repurpose have support in parts from several literatures and
 measurement (G193). PLAY as the drive that narrows error bars over unfamiliar situations, and brings
 partners closer when shared, agrees with animal play research, a predictive theory of play and
 studies of shared novelty (G194); that its reward is compression progress is the analyst's untested
-proposal (G195).
+proposal (G195). Deliberate processing that builds automatic routines is one of several documented
+routes to automaticity; that such routines grow and misfire has a partial match in strong-but-wrong
+errors and no direct study (G200). A
+one-shot aversive experience acting as broad expertise that prunes options has support in parts and
+findings that narrow it (G201).
 
 The Stage 6 control and history reader claims are void because their realizer used hidden
 world information. The independently reader-free construction comparisons remain scoped
@@ -480,7 +610,8 @@ expertise prerequisite has not been installed and demonstrated by admission. Rec
 without an anomaly is a candidate entry route, and the relation between domain expertise
 and knowledge of an individual remains open. Confidence: untested, logic only for the
 scaffold, formation account, universal prerequisite, drive mapping, SEEKING prediction, drive
-repurposing and both PLAY proposals; one bad test away for the scoped
+repurposing, both PLAY proposals, the automatization account and one-shot expertise; one bad test
+away for the scoped
 Stage 7 and Stage 8 measurements; instrument-dead for the Stage 6 reader interpretations.
 
 On mirror systems *(the 2026-08-22 pass)*:
@@ -719,6 +850,51 @@ should need fewer copies; that prediction is the analyst's. The affect subspace 
 continuously through depth (G40), which a recomputed copy and a persisting feature would both
 produce; telling them apart needs evidence on which later components read each copy.
 
+**Autocomplete all the way down** *(2026-10-17)*:
+
+> Machines may only have the autocomplete, yeah? The second layer of attention-grabbing? Machines
+> don't have that, do they? That's all humans. We always do that.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> Okay, so it's not attention, it's the autocomplete, [for] "Attention Is All You Need". [...] It's
+> just associative memory. All this is, is just the vectorization.
+
+> I don't know that a machine that is autocomplete all the way down can grow it. Attention is a
+> separate thing. It's the corrector.
+
+> Self-reflection, verification, dynamic strategy adaptation. I'm not convinced that people are
+> actually seeing those events, and that they aren't seeing echoes of the strategies humans use,
+> very carefully autocompleted, because many of those processes would have specific autocomplete
+> mechanisms.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+The word attention means two things here. In a transformer it is a learned weighting over earlier
+positions, and its update rule is that of a modern Hopfield network, a content-addressable
+associative memory ([Ramsauer et al., 2020](https://arxiv.org/abs/2008.02217), snippet), which
+supports the curator's reading of it as the autocomplete. In this file attention is the corrector,
+the part that sets how far to trust each signal and can override the routine
+([`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4). Whether language models have that second layer
+is open, and the evidence on reasoning models leans his way without settling it. Reinforcement
+learning with verifiable rewards improves a model's first attempt while the base model wins when
+many attempts are allowed, so the trained abilities "originate from and are bounded by the base
+model" ([Yue et al., 2025](https://arxiv.org/abs/2504.13837), read); base models already show the
+self-reflection that training was credited with
+([Liu et al., 2025](https://arxiv.org/abs/2503.20783), read); and training gains require
+verification, backtracking and subgoal setting to be present beforehand
+([Gandhi et al., 2025](https://arxiv.org/abs/2503.01307), read).
+
+Against that, prolonged training produced gains "where base models fail entirely regardless of the
+number of attempts" ([ProRL, 2025](https://arxiv.org/abs/2505.24864), read), and a transformer
+trained from scratch with only final-answer rewards learned an algorithmic chain of thought
+([Rubin & Ringel, 2026](https://arxiv.org/abs/2609.28625), read). Verification is the sharper point.
+Models' hidden states encode whether an answer is correct, and the models fail to use that signal
+([Zhang et al., 2025](https://arxiv.org/abs/2504.05419), read), a trust signal without the corrector
+that would act on it. The position the literature supports as of October 2026 is that such training
+mostly reweights strategies learned from human text, with real but narrow expansion under particular
+conditions, so echoes of human strategies fits most of it and autocomplete only overstates it.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G40** | A coherent affect subspace exists, consistent across families | **SUPPORTED (test).** Four to six times its matched null even between the most distant blocks, in **all eleven families**, 0.35B to 3B, four architectures. The rotation *rate* is consistent where the magnitude profile never was |
@@ -728,6 +904,7 @@ produce; telling them apart needs evidence on which later components read each c
 | **G46** | Weaker models place the structure more poorly | **NO DETECTED RELATIONSHIP (test, L30), n = 11.** Placement quality against parameter count sits at rho +0.05 across eleven families in the 0.35B to 3B range. Eleven points cannot prove scale irrelevant, so "architectural, not learned" was the stronger unlicensed form; what stands is that placement gave no sign of tracking capability where measured |
 | **G39** | The three levels are subspaces rather than depths | **REJECTED (test).** The subspace rotates with depth |
 | **G196** | Structures that recur through a model's depth are copies of one function recomputed where depth demands it, not one concept read from many places; positions share weights and so share one copy | **OPEN, logic only.** The curator's conjecture as narrowed by the analyst. Untied layers store separate copies of a function needed at several depths in a toy two-hop task, and real models fail when the copy is missing at the needed depth (lit, READ); persistence through the residual stream, backup heads, ensembling of similar layers and dictionary artifacts are rival explanations with evidence of their own (lit, READ); no project measurement |
+| **G202** | Language models are associative autocomplete without the second layer, the corrector that sets how far to trust each signal; transformer attention is associative memory, not attention in this file's sense, and reinforcement learning on reasoning mostly reweights strategies learned from human text rather than growing that layer | **OPEN for the missing corrector; CONTESTED (lit) for autocomplete only, since narrow genuine expansion is documented.** Transformer attention as associative memory (lit, SNIPPET); reasoning training bounded by the base model's strategies, self-reflection present before training, and correctness encoded but unused (lit, READ); prolonged training and training from scratch show narrow genuine expansion (lit, READ); no project measurement |
 
 The rank-dilution caveat that rode all these numbers is retired (L50). Rank-truncated bases against a
 distant-matched null reproduce the rotation in all eleven families (adjacent blocks share
@@ -742,10 +919,14 @@ remains is a consistent shape that is not yet the shape this file claims**, beca
 the structure to drives, to the middle, or to any causal role, and its one candidate landmark just
 proved generic. Whether structures that recur through depth are recomputed copies of one function,
 which a single forward pass would need wherever depth demands it, is a conjecture with toy-scale
-support and live rivals (G196). Confidence: existence, rotation, the adapter-edge rejection, and the
+support and live rivals (G196). Whether models lack the corrector that sets trust, so that their
+reasoning training reweights human strategies rather than growing a second layer, leans the curator's
+way with narrow counterevidence (G202). Confidence: existence, rotation, the adapter-edge rejection,
+and the
 repaired-basis confirmation are replicated and controlled at eleven families each; the scale
 non-relationship is one bad test away at eleven points; what the structure *means* remains gated on
-causality; the depth-copy conjecture is untested, logic only (G196).
+causality; the depth-copy conjecture and the missing corrector are untested, logic only (G196,
+G202).
 
 ## §6. Address versus tracking: the two umbrellas the predictions became
 

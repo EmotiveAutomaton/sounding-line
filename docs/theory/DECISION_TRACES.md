@@ -954,6 +954,121 @@ hesitation, or smoother later execution are possible traces, not a diagnosis by 
 difficulty, fatigue, constraints, and editing practice remain rivals. The distinction is
 an analyst formulation of the example, not a validated sequence of learning stages.
 
+**Two accounts of one purpose** *(2026-10-17)*:
+
+> I want to note that stated purpose is not actually 100%, because you are relying on the creator's
+> self-model of their own motivation.
+
+*Curator's walkthrough of the analyst's 17 October theory pass, 2026-10-17 (06:21 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> The artist can tell you what she was attending to. She can tell you what her higher-order goal was
+> that she was trying to realign with. The problem was, as she was doing it, bits of her expertise
+> were filling in without her. They were putting the post-its on the board without her knowledge,
+> which is how expertise works. It fills out the rest of the puzzle for you rapidly.
+
+> Strictly speaking, afterwards, when she looks at it, she can give you two things. She can give you
+> what she was trying to do as she did it, her stated goal, and she can also go back and read it and
+> come away with the impression of, like, huh, I guess I was trying to do this too, and I had no
+> idea. So you can get both, actually. She can report it in both ways, and actually she has to
+> reconcile that in her own head. That's part of why I think Death of the Author is interesting,
+> because [authors'] own opinion can change over time, and that kind of creates the impression of
+> mysticism, when it's actually two separate opinions. Also, memory makes this kind of ugly [...].
+> You might misremember and think that you were intending to do things that you weren't. So really,
+> you'd better record that immediately, as you're doing it.
+
+> It doesn't surprise me that people defend choices they never made. We have this habit of owning
+> all of our expertise. [...] So if you convince someone that their brain autocompleted a decision,
+> that is their decision, and they know that, and so they feel themselves in it, especially if they
+> can still find a reason to agree with it.
+
+> You can put, for example, at the very top of the pyramid, I want to make a Dungeon Crawler Carl
+> book. And as you're doing it, you decide to make distracting metaphors. So you let your brain just
+> kind of fill it in with the things that distract you, and so you have a bunch of feet references.
+> But then you have too many of them, and you realize that that expertise mapping has been going on.
+> So you notice, for example, that there's a break in the inference between the expertise that was
+> solving the problem in the bottom side of your inference panel automatically and the chain that
+> leads it up to the top, which was your stated goal. And actually, as a result, it does even ever
+> so slightly change the implied stated goal, if someone else were to read it. And you don't like
+> that break. And so you go and you remove half the references to feet, for example, because you
+> want to make sure that that chain is there. But in doing so, you break some local references. And
+> now you have to go do a bunch of edits to make sure that things make sense, and you have to
+> manually, basically, replace the block that was put in for you by your expertise with your own
+> attention. That's why editing makes things so messy.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The two accounts have separate literatures. The account given in the moment is closest to what was
+attended, and verbal reports are accurate for information the person was attending to, while asking
+for what was never attended forces people "to infer rather than remember"
+([Ericsson & Simon, 1980](https://doi.org/10.1037/0033-295X.87.3.215), read), which is his advice to
+record the purpose at once. The account given on rereading is inference from one's own work. People
+infer their attitudes from their own behavior much as an observer would (Bem, 1972, snippet); they
+feel they willed an act when a matching thought came just before it, whether or not the thought
+caused it ([Wegner & Wheatley, 1999](https://philarchive.org/rec/WEGAMC), snippet); and in choice
+blindness people handed a choice they had not made often failed to notice and gave reasons for it
+([Johansson et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16210542/), snippet), his owning of an
+autocompleted decision. Literary theory reached the reader's half first, holding that "the design or
+intention of the author is neither available nor desirable as a standard" for judging the work
+([Wimsatt & Beardsley, 1946](https://pages.mtu.edu/~rlstrick/rsvtxt/wimsatt.htm), read); on the
+curator's reading Death of the Author is one maker reconciling two accounts, the later of which is
+one more reading.
+
+For the triple inference this keeps stated purpose as evidence filtered through the maker's
+self-model, never as ground truth, the restriction §6 of
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) already places on self-report of values. His
+editing example adds a mechanism to the ruling on two makers above. Expertise fills blocks without
+the maker's attention, a break in the chain from those blocks to the stated goal is what the maker
+notices, and the repair replaces an expertise-made block with attended choices, breaking local
+references on the way, which, on the analyst's reading, predicts that edits arrive in clusters after
+a removal.
+
+**Pauses in boxes, and words that carry information** *(2026-10-17)*:
+
+> My fingers are going to move in a rather similar cadence to my internal speech, assuming I can
+> keep up with them, and they basically never can keep up with my internal speech, which makes me
+> wonder if some of the noise is going to be that kind of physical stumbling. [...] It might
+> indicate that she saw a dependency that she's checking. She's checking something to make sure it
+> lines up properly. Maybe [it's] your phonological loop; maybe you're looking at it as it's being
+> generated. And if it kicks up something bad, you have to stop and regenerate. [...] It might also
+> be an indicator of a difficult choice. For example, there's a Sophie's Choice situation, where the
+> decision you're making has large knock-on ramifications. [...] The idea that you have an internal
+> generator and you're checking is not one I'm actually quite confident on.
+
+> I'm trying to imagine how we could get more textured information, like word ordering, or some kind
+> of word-choice mechanism, grabbing the words that are higher-information and treating that as
+> maybe the higher-information words, or the higher-information sentences, indicate more attention.
+> [...] If you're attending to the content, you would have more information.
+
+*Curator's answers to the analyst's 17 October discussion questions, 2026-10-17 (07:52 PDT), in the project's theory and analyst thread; filed 2026-10-17. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> I agree, the pause is a mixed signal. Though I do think you'd have different boxes in terms of how
+> long those pauses tend to take. It'd still be messy.
+
+*Curator's answers to the analyst's 17 October second-round questions and scorecard, 2026-10-17 (10:15 PDT), in the project's theory and analyst thread; filed 2026-10-17. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+Writing research measures his boxes. Pause durations are fit as mixtures of lognormal distributions,
+read as transcription pauses beside a "more involved cognitive process"
+([Almond et al., 2012](https://doi.org/10.1002/j.2333-8504.2012.tb02305.x), read), and between words
+three components appear, which their authors read as lexical, supra-lexical and reflective
+processing, with two components elsewhere
+([Hall, Baaijen & Galbraith, 2022](https://doi.org/10.1007/s11145-022-10284-4), read). Per-student
+lognormal parameters held across prompts in one study
+([Guo et al., 2018](https://doi.org/10.1111/jedm.12172), read), but whether the reflective
+components are a writer's own across sessions is untested, and in one 2026 study most keystroke
+timing features were unstable as individual traits (Babalola et al., 2026, snippet). His candidate
+causes are motor stumbling, the check of a dependency, regeneration after a failed check, and hard
+choices; on the analyst's reading they map onto the boxes only loosely, stumbling onto the shortest,
+checking and regeneration onto the middle, and hard choices onto the longest, since choices between
+near-equal options are slow ([`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4). The
+higher-information words are surprisal, and the version that would mark attention is surprisal
+against the writer's own history rather than the crowd's, the likelihood of a text under the
+author's own grammar against a reference population's, which authorship research already computes
+([Nini et al., 2026](https://doi.org/10.1057/s41599-025-06340-3), read). No writing study was found
+linking language-model surprisal to the pause before a word. Sounding Line cards D17 and D33,
+commissioned on 17 October, test the boxes' stability per writer and whether a writer pauses longer
+before words her own history did not predict; the second is the analyst's narrower version of a
+question the curator judged untestable at 10:15, whether surprisal shows how devoted a writer is.
+
 **86 university students, one prompt, three drafts each. Maker, prompt, topic, register, and genre
 all fixed by construction.**
 
@@ -984,6 +1099,10 @@ all fixed by construction.**
 | **D-AI-MIDDLE** | A model-made middle carries the maker's deeper goals only through the prompt, the person's selections and later corrections, and is refilled with the model's own defaults, so values read from it are mostly the model's under the maker's name; each selection and correction widens the channel | **OPEN.** The bound is the data processing inequality applied to the curator's claim (lit, READ); opinionated suggestions shifted writers' essays and later attitudes, and AI-assisted stories converge (lit, READ); no project measurement |
 | **D-EDIT-GUARD** | In AI-assisted work each decision has its own maker; the creator sets the top goal, the model fills lower decisions, and examined acceptance and editing are the person's checks that higher goals were not subverted, which hold for strongly held goals and fail for weakly held ones | **OPEN.** The standard writing model is hierarchical and goal-directed, with reviewing among its processes (lit, SNIPPET); writers weigh suggestions against their writing plans and take up themes from suggestions they disagree with, and opinionated suggestions show the check failing (lit, READ); the reconciliation by goal strength is the analyst's; no project measurement |
 | **D-ACCEPT-EXPERTISE** | A writer accepts suggestions whose value their expertise lets them see, so acceptances carry expertise as well as cognitive economy, but only where the offered options differ in what the expert sees; edits after acceptance should carry more of it | **OPEN.** That acceptances carry expertise is the curator's reading; the condition on the menu and the prediction about later edits are the analyst's. At the individual-suggestion grain writers pick the better-fitting suggestion slightly above chance under a large position default, and no reader reads the decision beyond its marginal (test, L253, L352); parallel suggestions sampled from one model are likely near-ties (logic only) |
+| **D-SELF-MODEL** | A maker's stated purpose is evidence filtered through the maker's self-model of their own motivation; stated in the moment it reports what was attended, read back later it is an inference from the work, and the maker reconciles the two accounts, with memory moving the later one | **OPEN.** Reports are accurate for attended information and inferred otherwise; people infer their attitudes from their own behavior, feel they willed acts their thoughts merely preceded, and give reasons for choices they did not make (lit, READ and SNIPPET); the intentional fallacy is the reader's side of the same split (lit, READ); no project measurement |
+| **D-EDIT-REPLACES** | Editing replaces blocks that expertise filled in without attention with attended choices, where the maker notices a break in the chain from those blocks to the stated goal; the repair breaks local references, so edits cluster after a removal | **OPEN, logic only.** The curator's account (2026-10-17), refining D-EDIT-GUARD; experienced writers revise for meaning and structure (lit, READ, filed in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4); Sounding Line's corrections cards D4, D22 and D35 are commissioned |
+| **D-PAUSE-BOXES** | Pauses in writing mix several causes, motor stumbling behind inner speech, the check of a dependency, regeneration after a failed check, and hard choices with large consequences, and they fall into distinct duration boxes, with how a writer's pauses divide among the boxes a candidate trait | **OPEN.** Pause durations fit lognormal mixtures with three between-word components, and per-student parameters held across prompts in one study (lit, READ); the stability of a writer's reflective components across sessions is untested, and most keystroke timing features are unstable as traits (lit, SNIPPET); Sounding Line card D17 is commissioned |
+| **D-OWN-SURPRISE** | Words that carry more information against the writer's own history than against the crowd's mark attended choices, so they should be preceded by longer pauses beyond the crowd's surprisal | **OPEN.** Likelihood ratios of a text under an author's own grammar against a population's are used in authorship verification (lit, READ); no writing study linking language-model surprisal to the pause before a word was found; at 10:15 the curator judged the related question, whether surprisal shows how devoted a writer is, untestable; Sounding Line card D33 is the analyst's narrower attempt |
 | **S12-REALIZATION-1** | A reader distinguishes realized surface features from requested ones, including unfulfilled requests and unrequested features | **SUPPORTED for explicit checker assistance; OPEN for the requested-versus-realized distinction (test, L449).** On model-generated G159 artifacts, a Qwen reader evaluates 64 exact-feature items from 20 lineages. Every view names the feature; the assisted view also supplies the exact program's answer and improves paired cluster loss by 0.265 [0.134, 0.389]. Pooled method and instruction-provenance contrasts are unresolved. The original pooled report lacked conditional request-by-presence analysis; the separate cell analysis (L454) leaves an interaction and learned rival absent. Assistance does not establish unassisted instruction recovery or human intention inference |
 | **S13-REALIZATION-CELLS** | Separating request status and actual feature presence identifies reliable unaided realization checking | **OPEN beyond the conditional diagnostic (test, L454; retained model-generated artifacts, Qwen readers and exact feature checker).** Every requested/present cell is recorded, with strong dependence on feature presence and supplied answers but no stable method order. Feature composition and prevalence differ across request groups; no paired interaction is fitted. The exact defining checker remains privileged, and confident errors and original infinite logarithmic losses persist. No semantic-goal or human-intention claim follows. |
 | **S14-P04** | Earlier personal choices improve known-writer future handling and selected alternatives beyond a population model | **OPEN (test, S14-P04/S14-P04-SEMANTIC; exposed human process records, fitted feature and finite-mixture choice models).** Personal handling features and candidate-level random coefficients with lexical or frozen semantic features do not resolve an advantage over their population rivals at the frozen margin. Candidate choice covers 45 writers; its donor and pooled contrasts remain practically unresolved and the crossed-prompt sensitivity remains conditional on fixed past-only donor/global training. Selection prediction is not private-goal identification. |
@@ -1068,15 +1187,19 @@ model-made middle carries the maker's deeper goals only through the prompt, sele
 corrections and is refilled with the model's defaults (D-AI-MIDDLE); examined acceptance and editing
 check that higher goals survive, a check that fails for weakly held goals (D-EDIT-GUARD); and
 acceptances show expertise only where the options differ in what the expert sees
-(D-ACCEPT-EXPERTISE). Their status is untested, logic only.
+(D-ACCEPT-EXPERTISE). Their status is untested, logic only. A stated purpose passes through the
+maker's self-model and comes in two accounts, the moment's and the rereading's (D-SELF-MODEL); editing
+replaces blocks expertise filled with attended choices where the chain to the goal breaks
+(D-EDIT-REPLACES); pauses mix causes in duration boxes (D-PAUSE-BOXES); and words surprising against
+the writer's own history should mark attention (D-OWN-SURPRISE). Their status is untested, logic only.
 Confidence: the paired-delta recovery claim is replicated and controlled (two batteries,
 gates quiet; scope one corpus, one reader family); the realized-choice result is one bad
 test away (preregistered, one corpus pair, one reader family); the route-blindness result
 is one bad test away, one construction deep, its surface-residue half unexplained; the
 earlier artifact-only reads stay exploratory; the annotation result is one bad test away as a
 descriptive measurement, one corpus, five projects; the current uptake inference is
-instrument-dead; the collapse and floor decomposition stand as before; expertise reuse and the
-two-maker rows are untested, logic only. Stage 7's history track draws the same boundary on constructed mixed histories (H-S7, L351): a one-time
+instrument-dead; the collapse and floor decomposition stand as before; expertise reuse, the
+two-maker rows and the purpose, editing, pause and surprise rows are untested, logic only. Stage 7's history track draws the same boundary on constructed mixed histories (H-S7, L351): a one-time
 switch of control is readable from the process record by process statistics; the direct change-point comparison cannot establish reader incapacity because its 20-option readout is defective,
 it survives a surface matched from one word pool, and no tested program localized it from the final artifact. That construction-bound result does not prove the artifact lacks every usable trace. Confidence: the process result is one bad test away; the direct change-point comparison is instrument-dead. On the
 human record the uptake question is answered at the corrected unit and at this scale (H04-S3, L352): the

@@ -73,6 +73,10 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ("S15-DRIVE-W1 V5 epsilon 0.6", 0.004975124378109453, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
+    ("S15-DRIVE-W1 V5 epsilon 0.7", 0.009950248756218905, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
+    ("S15-DRIVE-W1 V5 epsilon 0.8", 0.004975124378109453, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
+    ("S15-DRIVE-W1 V5 epsilon 0.9", 0.03980099502487562, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
     # Completed Modal cell, frozen eleven-slot campaign family (five API slots unavailable).
     # The campaign's Holm results remain primary; this project-wide audit is additional.
     ("G3-S14-MAKER R27.H1-B-pop", 0.007399260073992601, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),
