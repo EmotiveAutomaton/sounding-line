@@ -73,6 +73,8 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ("S15-DRIVE-W1 P4 content", 0.1427776339115159, "diagnostic", "results/phase_2_4_stage_15/DRIVE/P4.json"),
+    ("S15-DRIVE-W1 P4 shuffled control", 0.4740471303355678, "diagnostic", "results/phase_2_4_stage_15/DRIVE/P4.json"),
     ("S15-DRIVE-W1 V5 epsilon 0.6", 0.004975124378109453, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
     ("S15-DRIVE-W1 V5 epsilon 0.7", 0.009950248756218905, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
     ("S15-DRIVE-W1 V5 epsilon 0.8", 0.004975124378109453, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),

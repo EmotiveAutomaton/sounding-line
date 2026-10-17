@@ -24,6 +24,16 @@ Curator roll-up, V5: reader inference; Is there repeated personal choice structu
 
 Curator roll-up, P8: reader reference; Can the producer's own scores be recovered faithfully?; **Infrastructure**; Raw scores and settings are recovered but probability semantics are unresolved; project meaning: extraction supports qualified descriptive uses, not calibrated likelihood claims; next engineering obligation: verify backend semantics before probability-based use; public claim unchanged; curator decision required: No; detail: P8 report above.
 
+**Later in the same landing batch: P4.**
+
+**Hypothesis.** Suggestion content may improve prediction of a writer's handling choices beyond the chronological backbone.
+**METHOD.** Fit the frozen content models using only each recipient's permitted earlier records, select on separate calibration sessions, and score 3,623 decisions in 286 held-out sessions from 41 writers. Compare half-Brier prediction error, with equal-session weighting, writer-cluster bootstrap uncertainty and a same-chronology shuffled-outcome control.
+**Found.** The estimated error reduction is 0.00861, with a 95% interval of [-0.00219, 0.02092]. The improvement is unresolved and the point estimate is below the declared 0.01 useful margin. The shuffled control also includes zero. **Means.** State is marginal, so the packet permits its single writer-offset extension. This is a descriptive result on exposed writers, not proof of personal taste or useful forecast improvement.
+
+Full primary, shuffle diagnostic, denominators, limitations and bindings: [P4](results/phase_2_4_stage_15/DRIVE/P4.md). Both approximate Wald p-values are registered as descriptive diagnostics. Its one conditional extension is running; no extension score is reported.
+
+Curator roll-up, P4: reader inference; Does content improve the chronological handling forecast?; **Narrows**; Estimated half-Brier gain is 0.00861 with unresolved uncertainty; project meaning: this content recipe has not established a useful advantage; next engineering obligation: complete the single frozen writer-offset extension; public claim unchanged; curator decision required: No; detail: P4 report above.
+
 ### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
 
 **Hypothesis.** Is the authorized full suggestion run progressing with intact

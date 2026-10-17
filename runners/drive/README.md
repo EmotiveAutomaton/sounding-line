@@ -16,6 +16,16 @@ only the [dispatch ledger](../../docs/design/stage-15/drive/DISPATCH_20261017.js
 and [evidence index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md) establish readiness.
 Raw text, per-writer models and private intermediates remain excluded from Git.
 
+`menus_p4_primary` completes the full primary before its separately gated
+`menus_p4_extension`; both preserve the original pilot sources. `menus_v4` runs
+the fixed three-world timing pilot; full calibration requires independent
+admission. `calendar_20261017` emits finite campaign markers and restores the
+watcher mode at freeze, without dispatching studies or publication.
+
+`states_v2` corrects a validation defect: a valid percentile interval need not
+contain its point estimate. New, undispatched cards use v2. Frozen sources stay
+intact; the owner audits their completed classifications before routing.
+
 `suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
 and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
 runner and is now active under verified native monitoring. Complete-output

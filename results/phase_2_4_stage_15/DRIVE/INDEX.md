@@ -3,8 +3,9 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-The GPU suggestion main continues; P5 sentence/edit extraction, P6 word baseline
-are dispatched under counted CPU leases; the [P4 execution pilot](P4_PILOT.md) is verified complete.
+The GPU suggestion main continues; P5 sentence/edit extraction, P6 word baseline,
+V4 instrument timing and the conditional P4 extension hold counted CPU leases.
+The [P4 full primary](P4.md) is verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
 
 | Card | Complete state or execution status | Evidence / next action |
@@ -14,13 +15,17 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
 | P5 | dispatched, checkpointed CPU extraction | Supplies edit/sentence features; no result yet |
 | P6 | dispatched, checkpointed CPU baseline | Supplies D30/D33; no result yet |
-| P4 | first eligible-recipient execution pilot verified complete | [Timing receipt](P4_PILOT.md); full primary and conditional extension are building |
-| V4 | pilot building/review; full sensitivity pending | No taste/habit label available yet |
-| D30/D32/D35/D33/D34/D39/D17 | builders preparing and validating | Dispatch by packet rank as inputs and controls finish |
+| P4 | full primary marginal; verified complete | [Full comparison](P4.md); single frozen writer-offset extension dispatched |
+| V4 | fixed three-world timing pilot running; full sensitivity pending | No taste/habit label available yet |
+| D30/D32/D35/D33/D34/D39/D17 | tested successors arriving for owner review | Dispatch by packet rank as inputs and controls finish |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 Family ladder null counts: K 0, B 0, A 0, G 0, E 0, R 0, S 0, P 0.
 No Tier 1 primary has landed in this wave; shared/instrument passes do not count.
+The P4 shared fit is marginal with its conditional extension pending. A separate
+interval-state correction preserves valid percentile intervals that exclude
+their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
+pins stay frozen and later labels receive the same audit before routing.
 [Pending 20:00 integration](DIGEST_PENDING_20261017.json) tracks theory/TODO work.
 [Operations](OPS_LOG.md) records failures, recoveries and dispatch.
 One planned check is due October 17 at 14:16:49 PDT; independent health is 14:58:11 PDT.
