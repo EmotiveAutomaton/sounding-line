@@ -5,13 +5,17 @@
 The [new packet and frozen wave](docs/design/stage-15/drive/README.md) are active.
 The full suggestion GPU pass has resumed from verified checkpoints under its
 unchanged limits, beside V4 calibration. D32 saved its work and yielded because
-its measured forecast exceeded the declared boundary; two ranked intervening
-dispatches and measured resume admission are required. P5, P6's exact-arithmetic
+its measured forecast exceeded the declared boundary; after two ranked intervening
+dispatches it is now resuming under measured admission. P5, P6's exact-arithmetic
 recovery, D39 including its secondary, and the supported D34.v1 are verified complete.
 D34 and its extension are complete but unresolved. [P4's full primary](results/phase_2_4_stage_15/DRIVE/P4.md)
 is marginal; its [single extension](results/phase_2_4_stage_15/DRIVE/P4-extension.md) is positive with a similarly positive shuffled control, leaving content-specific prediction unresolved. Both are verified complete. [TC, V5 and P8](results/phase_2_4_stage_15/DRIVE/INDEX.md) are complete
 and verified; P8 preserves an original failure and its one permitted repair.
-Other ranked cards have tested implementations awaiting owner review and input completion.
+D30's primary is verified marginal; its frozen marker-count extension is positive,
+with a positive writer-shuffle control. Automaticity remains unestablished; the
+prescribed texture checks need implementation. D35 is verified null and its
+conditional extension stays closed. D32 reuses every saved checkpoint byte and
+charges its prior wall time. Other ranked cards await owner review and input completion.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).

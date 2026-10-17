@@ -24,7 +24,9 @@ blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopene
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
 P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
 its secondary are recorded. V4 and the GPU checkpoint recovery are running;
-D32 saved and yielded at its forecast boundary. A finite,
+D32 saved and yielded at its forecast boundary, then resumed after verified
+D30/D35 dispatches under measured admission. D30 and its extension, and D35,
+are fully recorded; the live index retains their control limitations. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

@@ -27,6 +27,11 @@ correction cohesion to directly linked model corrections under curator approval.
 `events_d39` verifies destructive revision against authenticated original codepoints;
 `events_d39_latency` completes the retained secondary without changing its primary route.
 `timing_p6_recovery` verifies the original producer-order arithmetic exactly, with no refit.
+`timing_d30` and `timing_checkpoint` retain exact writer-bootstrap draws across
+saved boundaries and verify results from original source-derived occurrences.
+`events_d35` excludes all recipient copies from resampled donors and rebuilds its
+metrics in a fresh process. Each passed twelve targeted checks before dispatch;
+both completed primaries are verified. Their code and inputs remain frozen.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 

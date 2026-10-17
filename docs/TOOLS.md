@@ -2401,6 +2401,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 timing and correction cards:** D30's exact saved-boundary bootstrap
+and source-derived replay, and D35's donor exclusion and correction-direction
+replay, each passed twelve targeted checks before dispatch. Both full primaries
+are verified. [D30](../results/phase_2_4_stage_15/DRIVE/D30.md) is marginal;
+[D35](../results/phase_2_4_stage_15/DRIVE/D35.md) is null. D30's completed
+[extension](../results/phase_2_4_stage_15/DRIVE/D30-extension.md) is positive with
+a positive writer-shuffle control; instrument validation does not imply scientific support.
+
 **October 17 CPU wave:** counted native leases, two-thread below-normal execution,
 pin refusal, checkpoint yields and fresh-process primary replay have targeted
 controls and a complete serialized smoke check. [TC](../results/phase_2_4_stage_15/DRIVE/TC.md)
@@ -2408,7 +2416,7 @@ admits logged timing; [V5](../results/phase_2_4_stage_15/DRIVE/V5.md) is a quali
 matched-repeatability proxy; [P8](../results/phase_2_4_stage_15/DRIVE/P8.md) recovers
 raw producer scores with unresolved probability semantics. P5, D34 and its supported
 variant, D39 including its secondary, and P6's exact-score arithmetic recovery
-are verified complete. D32 saved and yielded at its forecast boundary;
+are verified complete. D32's measured continuation reuses its saved forecast-yield checkpoints;
 [V4's verified timing pilot](../results/phase_2_4_stage_15/DRIVE/V4-pilot.md)
 admits full calibration, now running. [P4 primary](../results/phase_2_4_stage_15/DRIVE/P4.md)
 and [single extension](../results/phase_2_4_stage_15/DRIVE/P4-extension.md) are verified complete.

@@ -3,8 +3,8 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-The GPU checkpoint recovery and full V4 calibration are advancing. D32 saved
-its work and yielded at the forecast boundary. P5, P6's exact-score recovery,
+The GPU checkpoint recovery, full V4 calibration and measured D32 continuation
+are advancing. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
 The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
@@ -19,13 +19,16 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
 | V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
-| D30/D35/D33/D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
+| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
+| D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
+| D33/D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; family-prefix count waits for D35/D33 |
-| D32 | saved forecast yield; not a scientific result | [Pause receipt](D32-paused.md); two ranked intervening dispatches and measured resume admission required |
+| D32 | measured continuation running; not a scientific result | [Original pause](D32-paused.md), [resume admission](D32-resume.md); D30/D35 dispatches verified, prior wall time charged |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family resolved-prefix null counts: K 0, B 0, A 0, G 2, E 0, R 0, S 0, P 0.
+Family resolved-prefix null counts: K 0, B 0, A 1, G 2, E 0, R 0, S 0, P 0.
+D35 resolves the first A entry; D33 must resolve before D39 can advance that prefix.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude

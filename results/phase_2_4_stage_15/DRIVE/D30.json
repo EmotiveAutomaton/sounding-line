@@ -1,0 +1,127 @@
+{
+  "at": "2026-10-17T23:04:39.408898+00:00",
+  "card": "D30",
+  "status": "VERIFIED_COMPLETE",
+  "descriptive": true,
+  "scientific_admission": false,
+  "primary": {
+    "bigram_policy": "summed two-token surprisal; first-to-last character duration; other-writer produced-bigram frequency with P6 floor-one convention",
+    "bootstrap_draws": 2000,
+    "bootstrap_se": 0.059172338059380165,
+    "card": "D30",
+    "ci_high": 0.221123554298957,
+    "ci_low": -0.0003715989812488155,
+    "controls": {
+      "label_shuffle": {
+        "bootstrap_draws": 2000,
+        "bootstrap_se": 0.04135363358082803,
+        "ci_high": 0.09500662951349458,
+        "ci_low": -0.07212196929489154,
+        "effect": 0.01820076285125664,
+        "expected_direction": 1,
+        "interval": "writer-cluster percentile bootstrap, refit per resample",
+        "observations": 71038,
+        "p_reference": "approximate two-sided normal Wald test; descriptive; state remains percentile-CI based",
+        "seed": 20261017,
+        "state": "marginal",
+        "variance_ratio": 0.0,
+        "wald_p_two_sided": 0.6598466659064313,
+        "writers": 30,
+        "z": 0.44012487598416744
+      },
+      "timing_positive_control": {
+        "contrast": "word-onset minus within-word interval seconds",
+        "supported_writers": 61,
+        "writer_mean_difference": 0.4174700338548287
+      },
+      "writer_shuffle": {
+        "bigram_policy": "summed two-token surprisal; first-to-last character duration; other-writer produced-bigram frequency with P6 floor-one convention",
+        "bootstrap_draws": 2000,
+        "bootstrap_se": 0.05993499526267856,
+        "card": "D30",
+        "ci_high": 0.2220615298544825,
+        "ci_low": -0.01592527110153767,
+        "controls": {
+          "label_shuffle": null,
+          "timing_positive_control": {
+            "contrast": "word-onset minus within-word interval seconds",
+            "supported_writers": 61,
+            "writer_mean_difference": 0.3453699096663044
+          },
+          "writer_shuffle": null
+        },
+        "descriptive": true,
+        "effect": 0.11551490656589983,
+        "effective_card": "D30",
+        "expected_direction": 1,
+        "extension": false,
+        "interval": "writer-cluster percentile bootstrap, refit per resample",
+        "label_shuffle_unit": "one label per writer-marker, shared by all its occurrences",
+        "local_consensus": "other writers' marker rate on the overused prompt <= their pooled rate on this writer's other prompts",
+        "marker_policy": "Dirichlet prior concentration 1000 over same-prompt pooled marker frequencies; same-prompt donors; z>=1.96; >=5 occurrences",
+        "observations": 13459,
+        "p_reference": "approximate two-sided normal Wald test; descriptive; state remains percentile-CI based",
+        "raw_contrast": "local minus pervasive log pause",
+        "record_as_run": [],
+        "route": "Use the one frozen extension when available; a ladder variant has none and counts as a null.",
+        "secondary": {
+          "first_minus_later_log_pause": 0.03194298360300486,
+          "local_revision_rate": 0.042385057471264365,
+          "pervasive_revision_rate": 0.07433496312256567,
+          "repeated_writer_markers": 140,
+          "typing_rate_characters_per_second": {
+            "local": 8.227960889435657,
+            "pervasive": 13.189937779669881
+          }
+        },
+        "seed": 20261017,
+        "state": "marginal",
+        "timing_mode": "per_character",
+        "variance_ratio": 0.0,
+        "wald_p_two_sided": 0.05393770229026823,
+        "writers": 21,
+        "z": 1.9273365428599742
+      }
+    },
+    "descriptive": true,
+    "effect": 0.10299815065353013,
+    "effective_card": "D30",
+    "expected_direction": 1,
+    "extension": false,
+    "interval": "writer-cluster percentile bootstrap, refit per resample",
+    "label_shuffle_unit": "one label per writer-marker, shared by all its occurrences",
+    "local_consensus": "other writers' marker rate on the overused prompt <= their pooled rate on this writer's other prompts",
+    "marker_policy": "Dirichlet prior concentration 1000 over same-prompt pooled marker frequencies; same-prompt donors; z>=1.96; >=5 occurrences",
+    "observations": 71038,
+    "p_reference": "approximate two-sided normal Wald test; descriptive; state remains percentile-CI based",
+    "raw_contrast": "local minus pervasive log pause",
+    "record_as_run": [],
+    "route": "Use the one frozen extension when available; a ladder variant has none and counts as a null.",
+    "secondary": {
+      "first_minus_later_log_pause": -0.006873434882521357,
+      "local_revision_rate": 0.05360333531864205,
+      "pervasive_revision_rate": 0.06936374515203507,
+      "repeated_writer_markers": 790,
+      "typing_rate_characters_per_second": {
+        "local": 8.218790701056127,
+        "pervasive": 13.935536947850174
+      }
+    },
+    "seed": 20261017,
+    "state": "marginal",
+    "timing_mode": "per_character",
+    "variance_ratio": 0.0,
+    "wald_p_two_sided": 0.08174547991825273,
+    "writers": 30,
+    "z": 1.7406469649749217
+  },
+  "plan_sha256": "b32868e4ed2199f13dcae4e74ddcf7bd614110c59fd74e6fb8c5f66f53809901",
+  "terminal_sha256": "98e4a42ff2ee584bba253880d487f402a713b94a20c437039cbdce8ea894b6a9",
+  "fresh_verification_sha256": "0f04804e14d009155f6392cbcb6430b6cf0c2d000ec1143efe06e3a8b526c6d2",
+  "source_pins": 23,
+  "output_hashes": 74,
+  "native_ended": true,
+  "fresh_process_verified": true,
+  "known_answer_tests": 12,
+  "next": "One frozen extension adding own marker count; no family routing conclusion before extension."
+}

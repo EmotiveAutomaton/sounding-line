@@ -10,8 +10,8 @@
 # Sounding Line
 
 **October 17 rollout:** V4 calibration and the verified GPU checkpoint recovery
-are advancing. Completed comparisons and repairs are recorded; D32 has saved
-its work and yielded at its forecast boundary.
+are advancing beside D32's admitted checkpoint continuation. Completed D30,
+its extension and D35 are recorded with their controls and follow-up gates.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 separates verified results, active work and the unbuilt remainder. The
 [October 17 theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)

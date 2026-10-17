@@ -5,6 +5,11 @@ verified and recorded. The [live index](INDEX.md) separates actual CPU dispatche
 from building cards while the GPU checkpoint recovery advances. [Operations](OPS_LOG.md) and
 the [20:00 integration receipt](DIGEST_PENDING_20261017.json) implement batch reporting.
 
+[D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
+are verified complete. D30's positive extension has a positive writer-shuffle
+control; D35 is null. [D32's measured continuation](D32-resume.md) is running
+after its required intervening dispatches, with previous work and cost retained.
+
 **Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
 after the [recorded safety stop](SUGGESTION_MAIN_V4_FAILED.md). Completed checkpoints
 are reused exactly, safety limits are unchanged and prior elapsed time is charged

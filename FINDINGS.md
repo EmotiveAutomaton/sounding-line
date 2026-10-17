@@ -9,6 +9,37 @@ ran it.
 
 ---
 
+### S15-DRIVE-W1-1017-1550 - ranked timing and correction studies
+
+**Hypothesis.** Choices repeated across a writer's prompts may be produced more automatically than choices confined to one prompt.
+**METHOD.** Classify prompt-conditioned word, bigram and punctuation overuse, then compare local-minus-pervasive log pauses within writers, adjusting for length, frequency, position and leave-writer-out surprisal. Use 2,000 writer-bootstrap draws, marker-label and writer-label shuffles, and fresh source-derived replay.
+**Found.** The difference is 0.103 log seconds, with a 95% interval of [-0.0004, 0.2211], across 71,038 occurrences from 30 writers. Both shuffled comparisons also include zero. **Means.** The primary is marginal and does not establish automaticity; its one frozen extension adds each writer's marker count.
+
+
+[Complete D30 report](results/phase_2_4_stage_15/DRIVE/D30.md) records controls, secondaries, eligibility and all implementation caveats. Three descriptive probabilities are registered. No family count is resolved yet. Theory/TODO integration remains scheduled for 20:00 under the packet.
+
+Curator roll-up: reader heuristics and automaticity; Are pervasive choices produced faster than local choices?; **Narrows**; The complete primary is marginal; project meaning: pervasiveness has no established automaticity reading here; next engineering obligation: run the single frozen marker-count extension; public claim unchanged; curator decision required: No; detail: complete D30 report above.
+
+**Later in this landing batch: D35.**
+
+**Hypothesis.** A writer's earlier content corrections may become defaults visible in later untouched writing.
+**METHOD.** Learn correction directions from odd sessions in each writer's first half, then compare changes in untouched sentence projections from even first-half sessions to the second half against other writers' directions. Adjust for prompt and accepted model text; use 2,000 writer-bootstrap draws and a shuffled-direction control.
+**Found.** There is no positive transfer: the projection difference is -0.00133, with a 95% interval of [-0.00308, 0.00038], across 43 writers and 998 sessions. **Means.** This is null under the declared rule. Corrections becoming defaults is not established at this scale; the conditional extension stays closed.
+
+[Complete D35 report](results/phase_2_4_stage_15/DRIVE/D35.md) records every control, exclusion, verification and limit. Its descriptive probability is registered. Theory/TODO integration is due at 20:00.
+
+Curator roll-up: cognitive layers; Do corrections become defaults in later untouched text?; **Narrows**; No positive correction-to-default transfer is established; project meaning: the automatization claim remains unestablished at this scale; next engineering obligation: continue the ranked ladder without this conditional extension; public claim unchanged; curator decision required: No; detail: complete D35 report above.
+
+**Later in this landing batch: D30 extension.**
+
+**Hypothesis.** Choices spread across prompts may be faster even after accounting for how often the writer repeats them.
+**METHOD.** Re-estimate the same within-writer pause contrast with the one frozen addition of each writer's marker count, retaining the data, 2,000 bootstrap draws and both shuffled comparisons.
+**Found.** The adjusted difference is 0.10797 log seconds, with a 95% interval of [0.01171, 0.21374]. The writer-shuffle control is also positive. **Means.** The extension is positive under its sign rule, but writer-specific automaticity is not established. The prescribed texture checks open; no further extension or habits-panel claim is licensed.
+
+[Complete extension](results/phase_2_4_stage_15/DRIVE/D30-extension.md) retains all controls, support and verification. Three descriptive probabilities are registered; theory/TODO integration is due at 20:00.
+
+Curator roll-up: reader heuristics and automaticity; Does pervasiveness predict faster choices beyond repetition count?; **Narrows**; The stricter contrast is positive alongside a positive writer-shuffle control; project meaning: personal automaticity remains unestablished; next engineering obligation: run the prescribed texture checks with the control warning retained; public claim unchanged; curator decision required: No; detail: complete extension report above.
+
 ### S15-DRIVE-W1-1017 — timing, repeatability and producer-score extraction
 
 **Hypothesis.** The writing logs may support pause tests and contain repeatable personal handling patterns, while the producer's own scores provide a separate reference.
