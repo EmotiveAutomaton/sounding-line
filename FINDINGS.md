@@ -34,6 +34,16 @@ Full primary, shuffle diagnostic, denominators, limitations and bindings: [P4](r
 
 Curator roll-up, P4: reader inference; Does content improve the chronological handling forecast?; **Narrows**; Estimated half-Brier gain is 0.00861 with unresolved uncertainty; project meaning: this content recipe has not established a useful advantage; next engineering obligation: complete the single frozen writer-offset extension; public claim unchanged; curator decision required: No; detail: P4 report above.
 
+**Later in the same landing batch: P4 extension.**
+
+**Hypothesis.** Stable differences between writers may improve forecasts beyond the shared content model.
+**METHOD.** Apply the single frozen writer-offset extension to the same 3,623 held-out decisions from 41 writers, retaining the primary models and chronology. Compare half-Brier error with writer-cluster intervals and the matched within-session handling-shuffle control.
+**Found.** The added error reduction is 0.00736, with a 95% interval of [0.00265, 0.01243]. The shuffled control improves by 0.00810 as well. **Means.** The extension is positive under its declared sign rule, but the control prevents a content-specific interpretation. Neither point estimate reaches the declared 0.01 useful margin; no further extension is authorized by this result.
+
+[Complete extension report](results/phase_2_4_stage_15/DRIVE/P4-extension.md) records both diagnostics, support and verification. The two approximate p-values enter the descriptive multiplicity ledger. V4's timing-only pilot admits the full local calibration; its scientific grid remains unfinished.
+
+Curator roll-up, P4 extension: reader inference; Do writer offsets improve the content forecast?; **Narrows**; Positive offset gain also survives the shuffled control; project meaning: useful content-specific personal prediction is not established; next engineering obligation: complete calibration and keep offsets separate from taste claims; public claim unchanged; curator decision required: No; detail: extension report above.
+
 ### OPS-S15-HEALTH-1017-0853 - full suggestion run healthy
 
 **Hypothesis.** Is the authorized full suggestion run progressing with intact

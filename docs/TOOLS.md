@@ -2406,9 +2406,11 @@ pin refusal, checkpoint yields and fresh-process primary replay have targeted
 controls and a complete serialized smoke check. [TC](../results/phase_2_4_stage_15/DRIVE/TC.md)
 admits logged timing; [V5](../results/phase_2_4_stage_15/DRIVE/V5.md) is a qualified
 matched-repeatability proxy; [P8](../results/phase_2_4_stage_15/DRIVE/P8.md) recovers
-raw producer scores with unresolved probability semantics. P5/P6, V4 timing and
-P4's conditional extension are dispatched. [P4 primary](../results/phase_2_4_stage_15/DRIVE/P4.md)
-is verified complete and marginal. No engine admission.
+raw producer scores with unresolved probability semantics. P5/P6 and D34 are
+dispatched; [V4's verified timing pilot](../results/phase_2_4_stage_15/DRIVE/V4-pilot.md)
+admits full calibration, now running. [P4 primary](../results/phase_2_4_stage_15/DRIVE/P4.md)
+and [single extension](../results/phase_2_4_stage_15/DRIVE/P4-extension.md) are verified complete.
+The extension's shuffled control also improves; no engine admission follows.
 
 **Interval validation repair:** a known-answer fixture exposed a false rejection
 when a valid percentile interval excludes its observed point. Separate `states_v2`

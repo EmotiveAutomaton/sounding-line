@@ -21,8 +21,8 @@ transition-only setting returns then. Paid cutoff is Monday October 19 at 17:00
 PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
-Completed TC/V5/P8 and P4 primary do not complete the packet. P5/P6, the V4
-instrument pilot and P4's one conditional extension are running. A finite,
+Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
+P5/P6, full V4 calibration and D34 residual directions are running. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

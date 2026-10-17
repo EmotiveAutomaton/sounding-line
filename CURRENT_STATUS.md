@@ -4,15 +4,15 @@
 
 The [new packet and frozen wave](docs/design/stage-15/drive/README.md) are active.
 The full suggestion GPU main continues. P5 sentence/edit extraction, P6 word
-baseline, the V4 instrument timing pilot and P4's single conditional extension
+baseline, full V4 calibration and D34 residual directions
 are running on counted CPU slots. [P4's full primary](results/phase_2_4_stage_15/DRIVE/P4.md)
-is verified complete and marginal. [TC, V5 and P8](results/phase_2_4_stage_15/DRIVE/INDEX.md) are complete
+is marginal; its [single extension](results/phase_2_4_stage_15/DRIVE/P4-extension.md) is positive with a similarly positive shuffled control, leaving content-specific prediction unresolved. Both are verified complete. [TC, V5 and P8](results/phase_2_4_stage_15/DRIVE/INDEX.md) are complete
 and verified; P8 preserves an original failure and its one permitted repair.
-Other ranked cards are being built, not yet claimed as completed or executable.
+Other ranked cards have tested implementations awaiting owner review and input completion.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
-Commissioned builders are delivering tested successors. One planned check is due at 14:16:49 PDT;
+Commissioned builders have delivered their bounded assignments. The supported D34.v1 subset is built; its broader question remains open. One planned check stays at most one hour ahead;
 six-hour health remains due at 14:58:11 PDT. Immediate terminal/failure/paused
 monitoring remains active. Theory/TODO and STATE/CODEX_OPERATIONS update at the
 20:00 digest under the new packet; their earlier snapshot is historical meanwhile.

@@ -4,8 +4,8 @@
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
 The GPU suggestion main continues; P5 sentence/edit extraction, P6 word baseline,
-V4 instrument timing and the conditional P4 extension hold counted CPU leases.
-The [P4 full primary](P4.md) is verified complete.
+full V4 calibration and D34 residual directions hold counted CPU leases.
+The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
 
 | Card | Complete state or execution status | Evidence / next action |
@@ -15,20 +15,22 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
 | P5 | dispatched, checkpointed CPU extraction | Supplies edit/sentence features; no result yet |
 | P6 | dispatched, checkpointed CPU baseline | Supplies D30/D33; no result yet |
-| P4 | full primary marginal; verified complete | [Full comparison](P4.md); single frozen writer-offset extension dispatched |
-| V4 | fixed three-world timing pilot running; full sensitivity pending | No taste/habit label available yet |
-| D30/D32/D35/D33/D34/D39/D17 | tested successors arriving for owner review | Dispatch by packet rank as inputs and controls finish |
+| P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
+| V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
+| D34 | reviewed and dispatched; Phase 0 primary | Four owner-run known-answer tests pass; complete outputs pending |
+| D30/D32/D35/D33/D39/D17 | tested code delivered for owner review; some await P5/P6 | Dispatch by packet rank as inputs and controls finish |
+| D34.v1 | tested supported-subset implementation; awaits P5 and owner review | Directly linked model-suggestion corrections only; broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 Family ladder null counts: K 0, B 0, A 0, G 0, E 0, R 0, S 0, P 0.
 No Tier 1 primary has landed in this wave; shared/instrument passes do not count.
-The P4 shared fit is marginal with its conditional extension pending. A separate
+The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
 pins stay frozen and later labels receive the same audit before routing.
 [Pending 20:00 integration](DIGEST_PENDING_20261017.json) tracks theory/TODO work.
 [Operations](OPS_LOG.md) records failures, recoveries and dispatch.
-One planned check is due October 17 at 14:16:49 PDT; independent health is 14:58:11 PDT.
+One planned check remains at most one hour ahead; independent health is 14:58:11 PDT.
 The dated October 16/earlier October 17 records below retain their original scope.
 
 **Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
@@ -78,7 +80,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | V2 | verified complete |
 | P1 | v6 memory pilot verified; full v4 suggestion main running; typed/history unbuilt |
 | P3 | blind reference and classifier not built |
-| P4 | content features verified; fit not built |
+| P4 | full fit and single extension verified; specificity not established |
 | S0-T2 | download verified parsing not built |
 | S0-T3 | delivered source identity review required |
 

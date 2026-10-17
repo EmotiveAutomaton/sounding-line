@@ -10,7 +10,7 @@
 # Sounding Line
 
 **October 17 rollout:** Four CPU studies run beside the admitted GPU pass; the
-first full predictive comparison is recorded with its conditional extension running.
+first full predictive comparison and its single conditional extension are recorded.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 separates verified results, active work and the unbuilt remainder. The
 [October 17 theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
