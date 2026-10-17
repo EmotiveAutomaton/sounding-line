@@ -1,40 +1,29 @@
 # October 16 drive: execution index
 
-**Current endpoint:** [complete timing pilot](SUGGESTION_PILOT_V3.md) is valid,
-but its fixed runtime forecast refuses main admission. Native worker exited,
-lease released; throughput recovery remains implementation work.
+**Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
+after [complete v4 admission](SUGGESTION_PILOT_V4.md). All compared token losses
+match the prior valid pilot, with unchanged safety checks and a 43.27-hour
+allowance including threefold safety. Whole-corpus completion remains pending;
+typed/history preparation and other unbuilt cards remain open. No paid batch.
 
-**Current reader work:** [v2 storage failure](SUGGESTION_PILOT_V2_FAILED.md)
-is verified and repaired in a [separate v3 launch](SUGGESTION_V3_LAUNCH.json).
-The complete precision diagnostic supports float32. Main remains unadmitted;
-typed/history preparation and other unbuilt cards remain open.
-
-**Precision remedy:** the [complete paired diagnostic](SMOL_PRECISION_V1.md)
-supports float32 Smol scoring on the unchanged selected inputs. Finish a separate
-five-reader timing pilot before admitting main execution.
-
-**October 17 memory recovery:** v6 is [verified complete](READER_PILOT_V6.md).
-Precision, fixed-pilot contexts and loss tolerance are preserved; native worker
-exited and lease released. The [suggestion sizing pilot](SUGGESTION_PILOT_V1_FAILED.md) failed
-numerical admission. Original inputs and evidence remain; main is unadmitted;
-typed/history construction remains unbuilt. The older health snapshot
-below predates this explicitly authorized recovery.
+Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
+[paired precision](SMOL_PRECISION_V1.md), [original numerical failure](SUGGESTION_PILOT_V1_FAILED.md),
+[checkpoint failure/repair](SUGGESTION_PILOT_V2_FAILED.md),
+[valid pilot held by runtime](SUGGESTION_PILOT_V3.md), and
+[direct telemetry validation](GPU_TELEMETRY_V1.md). Original evidence is retained.
 
 The packet is partly implemented. Completed work below has a full internal
 write-through; registered studies still need executable plans. No unfinished
 scientific scores are reported. Earlier Stage 15 queues remain closed.
 
-Content representations and V2 decomposition are verified complete. The
-150-world Phase 0 V1 calibration is [complete and independently verified](V1_PHASE0.md),
-with lossless recovery inside the original byte and aggregate time caps. The paired precision diagnostic supports a float32 remedy. The separate
-five-reader pilot v4 stopped at its resource deadline before the largest model
-loaded. Its [failure and retained evidence](READER_PILOT_V4.json) are recorded;
-restart is held pending fixed headroom and a reviewed finite recovery. Chess download is verified;
-bounded parsing remains unbuilt. Immediate terminal/failure supervision is
-active. The [October 17 health inspection](../HEALTH_20261017_0245_PUBLIC.json)
-verifies intact evidence, released leases and no active worker. Reader headroom
-remains below its fixed floor; independent implementation remains. Health ACK
-is verified; the next fixed inspection is October 17 08:52:58 PDT.
+Content representations, V2 decomposition and the full 150-world Phase 0
+calibration are verified complete. Earlier reader resource failures remain in
+[their report](READER_PILOT_V4.json); the later memory and throughput recoveries
+above provide the currently admitted path. Chess download is verified; bounded
+parsing remains unbuilt. Immediate terminal/failure supervision is active.
+The [02:45 health inspection](../HEALTH_20261017_0245_PUBLIC.json) is historical;
+current main-worker state is in the launch receipt above. Next fixed health
+inspection remains October 17 08:52:58 PDT.
 
 The original [capacity failure](V1_CAPACITY_V2.json) is fully recorded. The
 [lossless recovery completed](V1_PHASE0.json), preserving all 120 complete
@@ -55,7 +44,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | S0-T4 | delivered aggregate |
 | S0-T4-104 | held released exclusion roster |
 | V2 | verified complete |
-| P1 | v6 memory pilot verified; v3 timing pilot verified; runtime gate refuses main; typed/history unbuilt |
+| P1 | v6 memory pilot verified; full v4 suggestion main running; typed/history unbuilt |
 | P3 | blind reference and classifier not built |
 | P4 | content features verified; fit not built |
 | S0-T2 | download verified parsing not built |

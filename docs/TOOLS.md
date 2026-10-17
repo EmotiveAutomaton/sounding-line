@@ -1,5 +1,17 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Suggestion main is admitted by a complete unchanged-score timing pilot.**
+All 6176 native-token losses exactly match v3, with identical safety-check counts.
+All output/source bindings and loaded telemetry comparisons verify. The threefold
+runtime estimate is 43.27 hours within the unchanged cap. Whole-corpus completion
+is separate. [Complete report](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V4.md).
+
+**Direct GPU telemetry is validated.** Five bracketed comparisons agree with the
+existing command; three refusal controls pass. The new runner keeps every check
+point and resource floor, with fresh direct readings and a pinned driver library.
+Complete timing/loss-equivalence admission remains separate.
+[Report](../results/phase_2_4_stage_15/DRIVE/GPU_TELEMETRY_V1.md).
+
 **Complete suggestion timing pilot is valid; main runtime gate refuses.** All
 25 checkpoints, numerical controls, tokenization/schema replay and source/output
 bindings pass. The fixed threefold forecast exceeds 72 hours; main has not run.

@@ -1,14 +1,19 @@
 # October 16 drive runners
 
+`suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
+and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
+runner and is now active under verified native monitoring. Complete-output
+validation remains required; do not start a duplicate.
+
 `suggestion_pilot_v3` completed the lossless-checkpoint recovery and all validity
-checks. Its measured forecast exceeds 72 hours, so main remains unadmitted. V2 failed
+checks. Its measured forecast exceeded 72 hours, so its own main stayed unadmitted. V2 failed
 only its Python tuple/list equality at JSON readback; original bytes are retained.
 Eight recovery controls and the actual checkpoint replay pass. V3 compares JSON
 values and retains full schema/binding checks. Main remains independently gated.
 
 `smol_precision` completed the paired float16/float32 diagnostic. Exact-input
 comparisons and all evidence verify; float32 passes, float16 fails. Do not rerun
-this completed diagnostic. A new timing attempt is required before main admission.
+this completed diagnostic. The later v4 timing attempt above supplies main admission.
 
 This namespace implements the [new commission](../../docs/design/stage-15/drive/README.md)
 without changing completed attempts. Public summaries belong in
@@ -32,7 +37,7 @@ Its no-cache float32 scorer clears only its own BLAS workspace between models.
 Do not rerun this completed pilot. `suggestion_pilot` completed its input census then failed the
 Smol360 cached/direct numerical check before a session score checkpoint.
 Its exact native exit, released lease and retained evidence are recorded.
-A separately frozen precision diagnostic is required before recovery. `suggestion_main` is built
+The separately completed precision diagnostic supplied the remedy. Original `suggestion_main` is built
 but refuses preparation until that pilot is independently landed and its
 measured bounds pass. Both use `suggestion_corpus`, thirteen passing targeted
 checks, hashed per-session gzip checkpoints and native monitoring. This is

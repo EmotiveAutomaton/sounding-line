@@ -9,6 +9,90 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-SUGGESTION-V4 - same scores, admitted runtime
+
+**Hypothesis.** Can lower-overhead safety telemetry make the unchanged
+suggestion pass feasible without changing its scores or safety checks?
+**METHOD.** Run the complete same-input five-reader timing pilot using direct
+NVIDIA telemetry; independently replay every checkpoint, tokenization and
+reduction, compare all native-token losses with the prior valid pilot, verify
+loaded-device telemetry against the original command, and recompute fixed costs.
+
+The table reports the entire timing and equivalence check, not scientific scores.
+
+| Check | Complete result |
+|---|---|
+| Integrity | All 25 checkpoints, 48 output bindings and 90 source pins verify |
+| Score equivalence | All 6176 native-token losses exactly match the prior valid pilot |
+| Safety | Same check counts; six startup/loaded-model telemetry comparisons and all floors pass |
+| Full-pass estimate | 43.27 hours including the unchanged threefold safety factor; below 72 hours |
+| Storage estimate | 0.91 GiB including the same factor; below 32 GiB |
+| Closure | Exact native worker exited and GPU lease released |
+
+**Found.** The complete pilot preserves every compared score and safety check,
+and its measured forecast now passes full-suggestion execution admission.
+**Means.** The suggestion component may run under its frozen measured bounds.
+This does not complete the corpus, typed/history component or downstream studies.
+
+The improvement changes telemetry transport only. All models remain float32
+and fully resident; contexts, input support, loss definitions and tolerance stay
+unchanged. All failures and original timings remain. Main has no scientific
+verdict until its complete support and outputs are independently checked.
+The input census is reused byte-identically, not independently retokenized in
+full. Pilot timing and sampled memory observations are estimates, not guarantees;
+main retains hard time/byte limits and immediate resource-loss refusal.
+
+The admitted full suggestion main was then launched. Its exact native identity,
+exclusive GPU lease, fresh complete-session checkpoints, 96 source pins and
+monitor handshake verify. Completion/failure/disappearance outputs are registered.
+[Launch verification](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V4_LAUNCH.json).
+
+No new research test was harvested; this is the authorized implementation recovery.
+
+Curator roll-up: operations; Can the same pass fit without weakening validity?;
+**Infrastructure**; The complete telemetry recovery preserves scores and passes runtime admission;
+project meaning: full suggestion execution is admitted; next engineering obligation:
+run and independently verify every full-roster checkpoint; public scientific claims
+unchanged; curator decision required: No; detail:
+[complete throughput report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V4.md).
+
+### OPS-S15-DRIVE-TELEMETRY - lower-overhead safety readings
+
+**Hypothesis.** Can direct GPU telemetry remove repeated process-launch
+overhead while preserving the existing safety checks?
+**METHOD.** Compare five live NVIDIA library readings, bracketing the existing
+command, and exercise known-answer units, API errors, accounting and disagreement
+refusals. Retain raw comparisons and pin the installed library and wrapper source.
+
+The table describes the complete read-only telemetry check, not model inference.
+
+| Check | Complete result |
+|---|---|
+| Live comparisons | Five agree within the declared temporal comparison margins |
+| Median call time | Direct library 0.0104 ms; command invocation 46.65 ms |
+| Refusal controls | Three tests pass; invalid accounting, API errors and mismatches refuse |
+| Safety policy | Same check points and floors; no cached readings; free memory rounds down |
+
+**Found.** Direct telemetry preserves the checked readings and removes most call
+overhead. **Means.** It supports a separate timing recovery, not full-corpus
+admission. The complete successor must still validate scores against the prior
+pilot and meet the unchanged measured runtime ceiling.
+
+The 16 MiB and 2 C cross-method margins cover sequential observations; they do
+not relax working safety floors. Values retain Windows/driver accounting limits.
+No driver settings, unrelated processes, model weights or scientific inputs change.
+
+No new scientific test was harvested. The new finite pilot has a native identity,
+registered completion/failure/disappearance paths and a verified monitor handshake.
+All predecessor lifetimes remain charged; the earlier cost refusal stays intact.
+
+Curator roll-up: operations; Can safety checks avoid command-launch overhead?;
+**Infrastructure**; Direct readings preserve the safety check while reducing call overhead;
+project meaning: a bounded throughput recovery is supported; next engineering obligation:
+land complete timing and loss equivalence before main; public scientific claims unchanged;
+curator decision required: No; detail:
+[telemetry verification](results/phase_2_4_stage_15/DRIVE/GPU_TELEMETRY_V1.md).
+
 ### OPS-S15-DRIVE-SUGGESTION-V3 - valid pilot, runtime admission held
 
 **Hypothesis.** Can the same readers complete the selected timing pilot and

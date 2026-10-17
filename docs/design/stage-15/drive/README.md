@@ -1,9 +1,14 @@
 # October 16 drive commission
 
+[Throughput recovery v4](SUGGESTION_CORPUS_V4.md) is verified complete, preserving
+every compared score and all safety checks. Measured bounds admit the suggestion
+main, which is now running under native monitoring. Typed/history and downstream
+work remain separate.
+
 [Storage recovery v3](SUGGESTION_CORPUS_V3.md) is complete and valid, but its
 full-pass runtime estimate fails the unchanged admission ceiling. The completed paired
 precision diagnostic supports float32; v2 then exposed a lossless JSON container
-comparison defect. Original evidence remains; main admission is still pending.
+comparison defect. Original evidence remains; the later v4 attempt above supplies main admission.
 
 The [paired Smol diagnostic](SMOL_PRECISION_V1.md) is complete and supports
 a separately reviewed float32 timing recovery; the original failure stays intact.
@@ -13,8 +18,8 @@ a separately reviewed float32 timing recovery; the original failure stays intact
 The fixed pilot preserves precision, inputs and acceptance while replacing cache
 reuse with bounded direct scoring. The [suggestion corpus component](SUGGESTION_CORPUS_V1.md) is built,
 with its input census retained and timing pilot stopped at a numerical
-comparison failure. Main dispatch awaits a separately tested repair and measured
-admission; typed sentences/history remain unbuilt.
+comparison failure. The later separately validated recovery now runs its main;
+typed sentences/history remain unbuilt.
 [v5](READER_PILOT_V5.md) and its cleanup-guard failure remain intact.
 
 The curator authorized implementation with the [review amendments](../DRIVE_PACKET_REVIEW_20261016.md)

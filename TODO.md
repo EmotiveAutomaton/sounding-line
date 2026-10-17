@@ -1,5 +1,10 @@
 # TODO: the study queue
 
+- [x] OPS-S15-DRIVE-TELEMETRY: complete direct/command parity and refusal
+  checks verified; source/library pinned; unchanged safety cadence and floors.
+- [x] S15-DRIVE-P1-THROUGHPUT: complete v4 timing and every native-token loss
+  independently verified against v3; all gates pass and full suggestion main is admitted.
+
 - [x] OPS-S15-DRIVE-READER-MEMORY-V5: cleanup-guard failure, native exit,
   lease release and source bindings recorded. Original arrays remain intact.
 - [x] OPS-S15-DRIVE-READER-MEMORY: complete v6 pilot independently verified;
@@ -16,8 +21,8 @@
   byte-identical handler repair and eight controls pass; original evidence retained.
 - [x] OPS-S15-DRIVE-SUGGESTION-V3: complete timing pilot and all retained outputs
   independently verified; native exit and lease release recorded. Runtime gate refuses main.
-- [ ] S15-DRIVE-P1-SUGGESTIONS: validate a separate throughput improvement,
-  then repeat bounded timing before main admission; unchanged support and caps.
+- [ ] S15-DRIVE-P1-SUGGESTIONS: v4 whole-suggestion main is running;
+  independently verify complete support and checkpoints before any scientific use.
 - [ ] S15-DRIVE-P1-FULL: implement and validate the separate writer-typed sentence
   roster and strictly earlier history context/packing. Suggestion scoring alone
   does not complete P1.

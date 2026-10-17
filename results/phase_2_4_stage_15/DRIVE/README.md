@@ -1,24 +1,16 @@
 # October 16 drive evidence
 
-**Current endpoint:** [complete timing pilot](SUGGESTION_PILOT_V3.md) is valid,
-but its fixed runtime forecast refuses main admission. Native worker exited,
-lease released; throughput recovery remains implementation work.
+**Current execution:** [the full suggestion main is running](SUGGESTION_MAIN_V4_LAUNCH.json)
+after [complete v4 admission](SUGGESTION_PILOT_V4.md). All compared token losses
+match the prior valid pilot, with unchanged safety checks and a 43.27-hour
+allowance including threefold safety. Whole-corpus completion remains pending;
+typed/history preparation and other unbuilt cards remain open. No paid batch.
 
-**Current reader work:** [v2 storage failure](SUGGESTION_PILOT_V2_FAILED.md)
-is verified and repaired in a [separate v3 launch](SUGGESTION_V3_LAUNCH.json).
-The complete precision diagnostic supports float32. Main remains unadmitted;
-typed/history preparation and other unbuilt cards remain open.
-
-[Complete paired Smol diagnostic](SMOL_PRECISION_V1.md) supports a separate
-float32 timing recovery; original failure remains, main unadmitted.
-
-**Reader memory recovery:** [complete v6 report](READER_PILOT_V6.md) and
-[verification](READER_PILOT_V6.json) establish fixed-pilot numerical and memory
-validity. Native worker exited and lease released. The [suggestion sizing failure](SUGGESTION_PILOT_V1_FAILED.md)
-is verified and retained; its checkpointed main runner remains unadmitted. Typed/history preparation
-remains unbuilt. [Launch history](READER_MEMORY_LAUNCH.json),
-[original cleanup failure](READER_PILOT_V5.json), and the
-[fixed contract](../../../docs/design/stage-15/drive/READER_PILOT_V6.md) remain.
+Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
+[paired precision](SMOL_PRECISION_V1.md), [original numerical failure](SUGGESTION_PILOT_V1_FAILED.md),
+[checkpoint failure/repair](SUGGESTION_PILOT_V2_FAILED.md),
+[valid pilot held by runtime](SUGGESTION_PILOT_V3.md), and
+[direct telemetry validation](GPU_TELEMETRY_V1.md). Original evidence is retained.
 
 [Commission and amendments](../../../docs/design/stage-15/drive/README.md).
 [Current card index](INDEX.md) distinguishes completed, running, queued and
