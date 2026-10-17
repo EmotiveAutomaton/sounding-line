@@ -1,5 +1,15 @@
 # October 16 drive runners
 
+`suggestion_pilot_v3` completed the lossless-checkpoint recovery and all validity
+checks. Its measured forecast exceeds 72 hours, so main remains unadmitted. V2 failed
+only its Python tuple/list equality at JSON readback; original bytes are retained.
+Eight recovery controls and the actual checkpoint replay pass. V3 compares JSON
+values and retains full schema/binding checks. Main remains independently gated.
+
+`smol_precision` completed the paired float16/float32 diagnostic. Exact-input
+comparisons and all evidence verify; float32 passes, float16 fails. Do not rerun
+this completed diagnostic. A new timing attempt is required before main admission.
+
 This namespace implements the [new commission](../../docs/design/stage-15/drive/README.md)
 without changing completed attempts. Public summaries belong in
 `results/phase_2_4_stage_15/DRIVE`; raw text, identifiers, plans, predictions and

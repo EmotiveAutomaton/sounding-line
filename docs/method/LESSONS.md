@@ -616,6 +616,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **A small model's short-pilot numerical pass does not cover broader input support.**
+  The suggestion sizing pilot's retained float16 Smol scorer failed cached/direct
+  agreement on its first newly selected input. A complete paired diagnostic on
+  unchanged selected menus and contexts confirmed the failure and showed float32
+  passing the original tolerance. Preserve both precision conditions and failed
+  admission; validate a separate precision recovery rather than widening tolerance
+  or dropping the failing case. (OPS-S15-DRIVE-SMOL-PRECISION, October 17)
+
 - **A categorical format pass does not validate the labels.** The complete Q8
   battery returned valid JSON for every item while correctly labeling fewer than
   half; the canonical gate still passed because its accuracy rule covered only
@@ -749,6 +757,13 @@ L132 (a shuffle gate that voided the alternative's own signature).
   device, infer a global driver leak, or stop unrelated applications from this
   evidence. The complete successor passed numerical and memory validation.
   (OPS-S15-DRIVE-READER-MEMORY-V6, October 17)
+
+- **Exercise serialization with the actual producer's container types.** A
+  score checkpoint passed list-only fixtures but rejected the tokenizer's tuple
+  offsets after lossless JSON conversion. Reproduce the failure with retained
+  bytes, compare canonical JSON values across that boundary, and retain full
+  schema/hash checks plus a changed-value refusal. A valid stored partial chunk
+  still does not complete its interrupted pilot. (OPS-S15-DRIVE-SUGGESTION-V2)
 
 - **Project retained bytes from a full unit, not just runtime from its fit.**
   A finite calibration's session-level fit receipts projected beyond its frozen

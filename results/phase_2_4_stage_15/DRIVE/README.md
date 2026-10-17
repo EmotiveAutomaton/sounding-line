@@ -1,5 +1,17 @@
 # October 16 drive evidence
 
+**Current endpoint:** [complete timing pilot](SUGGESTION_PILOT_V3.md) is valid,
+but its fixed runtime forecast refuses main admission. Native worker exited,
+lease released; throughput recovery remains implementation work.
+
+**Current reader work:** [v2 storage failure](SUGGESTION_PILOT_V2_FAILED.md)
+is verified and repaired in a [separate v3 launch](SUGGESTION_V3_LAUNCH.json).
+The complete precision diagnostic supports float32. Main remains unadmitted;
+typed/history preparation and other unbuilt cards remain open.
+
+[Complete paired Smol diagnostic](SMOL_PRECISION_V1.md) supports a separate
+float32 timing recovery; original failure remains, main unadmitted.
+
 **Reader memory recovery:** [complete v6 report](READER_PILOT_V6.md) and
 [verification](READER_PILOT_V6.json) establish fixed-pilot numerical and memory
 validity. Native worker exited and lease released. The [suggestion sizing failure](SUGGESTION_PILOT_V1_FAILED.md)

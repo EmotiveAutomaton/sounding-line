@@ -10,9 +10,14 @@
   monitoring launch verification pass.
 - [x] OPS-S15-DRIVE-SUGGESTION-V1: numerical failure independently replayed;
   retained input census, source pins, native exit and GPU lease verified/recorded.
-- [ ] S15-DRIVE-P1-SUGGESTIONS: test paired Smol precision on identical selected
-  inputs, then separately recover timing only if its unchanged checks pass.
-  Main remains unadmitted; preserve original pilot failure and input census.
+- [x] OPS-S15-DRIVE-SMOL-PRECISION: complete paired diagnostic independently
+  verified and fully recorded; float32 passes, float16 fails unchanged tolerance.
+- [x] OPS-S15-DRIVE-SUGGESTION-V2: storage failure independently reproduced;
+  byte-identical handler repair and eight controls pass; original evidence retained.
+- [x] OPS-S15-DRIVE-SUGGESTION-V3: complete timing pilot and all retained outputs
+  independently verified; native exit and lease release recorded. Runtime gate refuses main.
+- [ ] S15-DRIVE-P1-SUGGESTIONS: validate a separate throughput improvement,
+  then repeat bounded timing before main admission; unchanged support and caps.
 - [ ] S15-DRIVE-P1-FULL: implement and validate the separate writer-typed sentence
   roster and strictly earlier history context/packing. Suggestion scoring alone
   does not complete P1.

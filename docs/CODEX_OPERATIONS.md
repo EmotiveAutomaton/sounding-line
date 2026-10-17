@@ -1,10 +1,22 @@
 # Codex operations
 
+**October 17 suggestion timing pilot is verified complete.** All five readers,
+25 checkpoints, numerical controls, resource checks and retained bindings pass.
+The full-pass forecast is 161.78 hours including its threefold safety factor,
+above the unchanged 72-hour cap. Main is unadmitted; no scientific worker or paid
+batch is active. A separate throughput improvement needs validation and timing.
+Typed/history and other unbuilt cards remain open.
+[Complete timing report](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V3.md).
+
+**October 17 paired precision diagnostic is verified complete.** Higher precision
+passes every unchanged-input numerical comparison, while the original lower
+precision fails. The separate float32 timing recovery is supported; main corpus
+execution remains unadmitted. [Complete report](../results/phase_2_4_stage_15/DRIVE/SMOL_PRECISION_V1.md).
+
 **October 17 suggestion pilot stopped at numerical admission.** The smallest
 reader's cached/direct comparison exceeds its unchanged tolerance. Input census
 and original control arrays remain intact; no session score checkpoint completed.
-Exact native exit, released GPU lease and source bindings verify. A separately
-frozen precision diagnostic is the next repair; full main remains unadmitted.
+Exact native exit, released GPU lease and source bindings verify. The later precision diagnostic above supplies the repair; full main remains unadmitted.
 No paid batch is active. [Failure report](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V1_FAILED.md).
 
 **October 17 reader memory recovery is verified complete.** The full fixed
@@ -12,7 +24,7 @@ pilot passes unchanged numerical gates with float32 Pythias and bounded output
 projection. The largest reader leaves at least 1.29 GiB of sampled free GPU
 memory within the 5.75 GiB allocator cap. Exact native exit, released GPU lease,
 all outputs and source pins verify. That worker has exited.
-The separate suggestion pilot above has failed; typed/history preparation
+The original suggestion attempts failed; the separate recovery above completed. Typed/history preparation
 remains unbuilt and the commission stays open.
 [Complete recovery report](../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 

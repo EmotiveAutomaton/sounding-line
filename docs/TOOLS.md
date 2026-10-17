@@ -1,5 +1,23 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Complete suggestion timing pilot is valid; main runtime gate refuses.** All
+25 checkpoints, numerical controls, tokenization/schema replay and source/output
+bindings pass. The fixed threefold forecast exceeds 72 hours; main has not run.
+Native worker exited and lease released. [Report](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V3.md).
+
+**Checkpoint JSON recovery validated.** An actual tokenizer-offset checkpoint
+reproduces the original tuple/list refusal, then passes the corrected canonical
+JSON comparison byte-identically. Full schema checks remain; eight targeted
+recovery controls pass. Separate source-frozen v3 timing pilot runs with the same
+precision, resource limits and whole-pilot main gate.
+[Failure and repair](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V2_FAILED.md).
+
+**Complete Smol precision diagnostic supports float32 recovery.** Every unchanged
+selected-input cached/direct comparison passes at float32; float16 fails. Full
+tokenization, reductions, resource limits and source/output bindings independently
+verify; native worker exited and lease released. The original failure remains.
+Full-corpus admission is separate. [Complete report](../results/phase_2_4_stage_15/DRIVE/SMOL_PRECISION_V1.md).
+
 **Broader-support suggestion pilot fails numerical admission.** The smallest
 reader's float16 cached/direct control exceeds its unchanged tolerance before any
 session checkpoint completes. Retained arrays and input census, source bindings,

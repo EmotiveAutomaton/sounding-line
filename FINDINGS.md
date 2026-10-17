@@ -9,6 +9,121 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-SUGGESTION-V3 - valid pilot, runtime admission held
+
+**Hypothesis.** Can the same readers complete the selected timing pilot and
+fit a full suggestion pass within its fixed execution ceiling?
+**METHOD.** Score the complete input-selected menu roster with all five float32
+readers and four contexts; independently replay every compressed checkpoint's
+tokenization, schema, ranks and reductions, source/output bindings, numerical
+controls and native closure. Recompute the frozen threefold cost forecast.
+
+The table reports complete apparatus and capacity results, not scientific scores.
+
+| Check | Complete result |
+|---|---|
+| Coverage and integrity | All 25 session/model checkpoints, 42 output bindings and 81 source pins verify |
+| Numerical and resource checks | All pass; exact worker exited and GPU lease released |
+| Full-pass forecast | 161.78 hours with the fixed threefold safety factor, above the 72-hour ceiling |
+| Storage forecast | 0.91 GiB with the same factor, within the 32 GiB cap |
+
+**Found.** The complete pilot passes validity checks, but its measured runtime
+forecast refuses full-corpus admission. **Means.** The precision and storage
+repairs work on the selected support; the main has not run. A separately measured
+implementation improvement is needed before main admission. No accuracy or
+resource threshold is relaxed, and no scientific result is inferred.
+
+The input census is reused byte-identically and structurally checked, not fully
+retokenized again. Numerical controls cover each reader's first selected menu
+in the unconditional context; the earlier paired Smol diagnostic covers its
+whole selected support. Sampled safety telemetry is not a continuous guarantee.
+Typed sentences and writer history remain separate unfinished work.
+
+No new research test was harvested. Any throughput recovery must be a separate
+frozen attempt with the unchanged selection, scientific gates and aggregate caps.
+
+Curator roll-up: operations; Can the validated reader scale within its time cap?;
+**Infrastructure**; The valid pilot forecasts a full pass above its execution ceiling;
+project meaning: full-corpus admission remains held; next engineering obligation:
+validate and measure a bounded implementation improvement; public scientific claims
+unchanged; curator decision required: No; detail:
+[complete timing report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V3.md).
+
+### OPS-S15-DRIVE-SUGGESTION-V2 - lossless checkpoint representation failure
+
+**Hypothesis.** Did the checkpoint fail because scores were lost or because
+Python and JSON represent the same offsets differently?
+**METHOD.** Replay the actual retained checkpoint through the old and repaired
+handlers; compare compressed bytes, canonical values and full score schema.
+Verify predecessor source bindings, native closure and the released GPU lease.
+
+The table reports storage validation, not scientific scores.
+
+| Check | Verified result |
+|---|---|
+| Original failure | Reproduced exactly: tuples become JSON lists |
+| Data preservation | Retained compressed bytes and JSON values match |
+| Corrected handler | Actual checkpoint passes byte-identically; corrupt values still refuse |
+| Targeted controls | Eight recovery controls pass |
+| Execution | Separate v3 timing pilot launched with native monitoring and 81 verified pins |
+
+**Found.** The original validator rejected a lossless representation change;
+the corrected handler preserves the data and all scientific checks. **Means.**
+This repairs checkpoint storage, not a scientific finding. The original failure
+and unregistered chunk remain intact. The full five-reader timing pilot and
+measured main admission still have to finish. No new research test was harvested.
+
+The new plan charges all predecessor lifetimes against the original computation
+allowance, reuses only input census bytes and recomputes the selected pilot.
+No context, model, tolerance, resource floor or main ceiling changed. All 74 v2
+source pins and exact native closure verify. The v3 launch records fresh progress,
+monitor handshake, terminal/disappearance registration and watcher identity.
+
+Curator roll-up: operations; Did serialization lose score data?; **Infrastructure**;
+The storage repair preserves identical compressed checkpoint bytes;
+project meaning: timing can resume without weakening validity;
+next engineering obligation: independently land the complete pilot before main;
+public scientific claims unchanged; curator decision required: No; detail:
+[storage failure and repair](results/phase_2_4_stage_15/DRIVE/SUGGESTION_PILOT_V2_FAILED.md).
+
+### OPS-S15-DRIVE-SMOL-PRECISION - complete paired numerical repair
+
+**Hypothesis.** Does higher numerical precision repair the reader's cached/direct
+disagreement on the same selected inputs?
+**METHOD.** Run all five previously selected Smol360 menus in four unchanged
+contexts, under both float16 and float32, comparing every eligible native-token
+loss from cached scoring with ordinary direct teacher forcing. Independently
+rebuild tokenization, offsets, finite reductions, comparisons, source/output
+bindings, resource limits and native closure from the complete retained record.
+
+The table reports whole diagnostic results. Error is the largest absolute
+difference in native-token negative log likelihood, with a fixed tolerance of 0.02.
+
+| Precision | Complete comparisons | Maximum error | Admission |
+|---|---:|---:|---|
+| Float16 | 80 targets across 20 menu/context pairs | 0.032565 | Fails |
+| Float32 | Same 80 targets and 20 pairs | 0.00006390 | Passes |
+
+**Found.** Higher precision passes every numerical comparison, while the original
+lower precision fails. **Means.** The paired evidence supports a separately frozen
+float32 Smol recovery without changing inputs or tolerance. It does not complete
+the five-reader timing pilot, admit the full corpus, or establish a scientific result.
+
+All ten output bindings and 72 source pins verify. The exact native worker exited
+and released its GPU lease. The full float32 model remained on the GPU, reserved
+at most 2874 MiB under the 5888 MiB cap, and left at least 4603 MiB sampled free.
+Three targeted paired-comparison controls pass. Original failure and lower-precision
+arrays remain unchanged. No new research test was harvested; this is authorized
+instrument recovery. The diagnostic's selected support does not establish accuracy
+outside that support; the broader pilot and main retain their own checks.
+
+Curator roll-up: operations; Does precision repair the observed numerical disagreement?;
+**Infrastructure**; Higher precision passes the complete unchanged-input diagnostic;
+project meaning: a separate precision recovery is supported; next engineering obligation:
+finish five-reader timing and measured main admission; public scientific claims unchanged;
+curator decision required: No; detail:
+[complete diagnostic](results/phase_2_4_stage_15/DRIVE/SMOL_PRECISION_V1.md).
+
 ### OPS-S15-DRIVE-SUGGESTION-V1 - broader-support accuracy refusal
 
 **Hypothesis.** Can the validated readers process all exposed suggestion menus

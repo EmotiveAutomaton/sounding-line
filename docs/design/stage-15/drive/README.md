@@ -1,5 +1,13 @@
 # October 16 drive commission
 
+[Storage recovery v3](SUGGESTION_CORPUS_V3.md) is complete and valid, but its
+full-pass runtime estimate fails the unchanged admission ceiling. The completed paired
+precision diagnostic supports float32; v2 then exposed a lossless JSON container
+comparison defect. Original evidence remains; main admission is still pending.
+
+The [paired Smol diagnostic](SMOL_PRECISION_V1.md) is complete and supports
+a separately reviewed float32 timing recovery; the original failure stays intact.
+
 **October 17:** [memory recovery v6](READER_PILOT_V6.md) is
 [verified complete](../../../../results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md).
 The fixed pilot preserves precision, inputs and acceptance while replacing cache

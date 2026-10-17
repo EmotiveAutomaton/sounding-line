@@ -14,7 +14,7 @@
 **Current commission:** the [October 16 drive packet](docs/design/stage-15/drive/README.md)
 is partly implemented and active in Gear 2. Full source replay and first paid
 instrument admission and the complete outcome calibration are recorded. The
-reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the suggestion corpus runner is built but its sizing pilot stopped at numerical admission; a separate precision diagnostic is next. Typed/history preparation remains open. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the precision and checkpoint repairs pass a complete suggestion timing pilot. Its full-pass runtime forecast exceeds the fixed cap, so main remains unadmitted. Typed/history preparation remains open. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 for completed, waiting and unbuilt work, and [current status](CURRENT_STATUS.md)
 for monitoring, spending and scientific gates. Earlier continuation queues stay closed.
 

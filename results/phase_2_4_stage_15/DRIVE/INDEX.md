@@ -1,5 +1,18 @@
 # October 16 drive: execution index
 
+**Current endpoint:** [complete timing pilot](SUGGESTION_PILOT_V3.md) is valid,
+but its fixed runtime forecast refuses main admission. Native worker exited,
+lease released; throughput recovery remains implementation work.
+
+**Current reader work:** [v2 storage failure](SUGGESTION_PILOT_V2_FAILED.md)
+is verified and repaired in a [separate v3 launch](SUGGESTION_V3_LAUNCH.json).
+The complete precision diagnostic supports float32. Main remains unadmitted;
+typed/history preparation and other unbuilt cards remain open.
+
+**Precision remedy:** the [complete paired diagnostic](SMOL_PRECISION_V1.md)
+supports float32 Smol scoring on the unchanged selected inputs. Finish a separate
+five-reader timing pilot before admitting main execution.
+
 **October 17 memory recovery:** v6 is [verified complete](READER_PILOT_V6.md).
 Precision, fixed-pilot contexts and loss tolerance are preserved; native worker
 exited and lease released. The [suggestion sizing pilot](SUGGESTION_PILOT_V1_FAILED.md) failed
@@ -42,7 +55,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | S0-T4 | delivered aggregate |
 | S0-T4-104 | held released exclusion roster |
 | V2 | verified complete |
-| P1 | v6 memory pilot verified; suggestion timing pilot failed numerical admission, precision diagnostic next; typed/history unbuilt |
+| P1 | v6 memory pilot verified; v3 timing pilot verified; runtime gate refuses main; typed/history unbuilt |
 | P3 | blind reference and classifier not built |
 | P4 | content features verified; fit not built |
 | S0-T2 | download verified parsing not built |
