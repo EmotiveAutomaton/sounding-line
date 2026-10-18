@@ -29,7 +29,9 @@ its secondary are recorded. [V4 is verified complete](../../../../results/phase_
 with a failed null check and blind taste/habit labels; FX1/personal panels stay
 unadmitted. The GPU suggestion pass is invalid after its permitted retry;
 D32 saved and yielded at its forecast boundary, then resumed after verified
-D30/D35 dispatches under measured admission. D6 is verified complete with a null
+D30/D35 dispatches under measured admission. [D32 is now verified complete](../../../../results/phase_2_4_stage_15/DRIVE/D32.md);
+its marginal primary opens the single registered examination extension, still
+unbuilt. D6 is verified complete with a null
 pooled hover-position primary; its extension stays closed. D30 and its extension, and D35,
 are fully recorded; the live index retains their control limitations. D33's
 first primary is verified complete with a positive writer-shuffle warning; its

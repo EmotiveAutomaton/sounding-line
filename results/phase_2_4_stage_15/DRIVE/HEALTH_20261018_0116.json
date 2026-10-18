@@ -1,0 +1,405 @@
+{
+  "D32_verification": {
+    "arms": {
+      "k100": {
+        "certificate": {
+          "gradient_max": 9.445436867152874e-09,
+          "iterations": 525,
+          "loss": 0.4359569779721155
+        },
+        "draws": 2000,
+        "invalid_draws": 0,
+        "point_refit": true,
+        "summary_recomputed": true
+      },
+      "k20": {
+        "certificate": {
+          "gradient_max": 1.709572542604621e-08,
+          "iterations": 506,
+          "loss": 0.4360610587408443
+        },
+        "draws": 2000,
+        "invalid_draws": 0,
+        "point_refit": true,
+        "summary_recomputed": true
+      },
+      "k50": {
+        "certificate": {
+          "gradient_max": 2.4731331125008293e-08,
+          "iterations": 533,
+          "loss": 0.43596851502785805
+        },
+        "draws": 2000,
+        "invalid_draws": 0,
+        "point_refit": true,
+        "summary_recomputed": true
+      },
+      "outcome_shuffle": {
+        "certificate": {
+          "gradient_max": 9.341354624535118e-09,
+          "iterations": 528,
+          "loss": 0.47472168247588575
+        },
+        "draws": 2000,
+        "invalid_draws": 0,
+        "point_refit": true,
+        "summary_recomputed": true
+      },
+      "repertoire_shuffle": {
+        "certificate": {
+          "gradient_max": 8.332319044215179e-08,
+          "iterations": 524,
+          "loss": 0.43596113032265715
+        },
+        "draws": 2000,
+        "invalid_draws": 0,
+        "point_refit": true,
+        "summary_recomputed": true
+      }
+    },
+    "completion_hashes": 134,
+    "cpu_slot_released": true,
+    "native_ended": true,
+    "numerical_environment": "One BLAS thread matches actual production imports: batch_runtime imports next_round.queue, which sets thread variables to one before the card imports NumPy. At most two remains satisfied.",
+    "output_hashes": 243,
+    "plan_pins": 52,
+    "plan_sha256": "7cd141effdd2e4a48f4afc1bd63fc0f4bdabc9b8622eb606e99dd56ba0e6d1a2",
+    "reviewer_replay_correction": "Initial additional two-thread replay differed by 2.93350172459e-7 in primary coefficient and failed unchanged tolerance. Replaying the actual one-thread production environment matches exactly; no data, scientific runner, tolerance or score changed.",
+    "scope": "Fresh point-estimate refit of all five arms plus exact saved bootstrap summary and hash checks; not a second full bootstrap.",
+    "source_pins": 2805,
+    "summary_sha256": "42d6835b151eaa901f6ac7907dae2bb0edcb67cf6d2eaacfcc8d51a921f32a08",
+    "terminal_sha256": "7489167d207bfbba0247a6b05b40e6f7c637e3e615598b91e49c21251aeb5da1",
+    "verified": true
+  },
+  "acknowledgements": [
+    {
+      "acknowledged": 1792312058.9425495,
+      "id": "7eb31d41f595e0d8d733034f",
+      "state": "acknowledged"
+    },
+    {
+      "acknowledged": 1792312059.0619736,
+      "id": "08c0819fb35ae640bf723b60",
+      "state": "acknowledged"
+    }
+  ],
+  "at": "2026-10-18T08:26:07.906242+00:00",
+  "counted_cpu_slots": [],
+  "dispatch_rows_inspected": 29,
+  "event": "7eb31d41f595e0d8d733034f",
+  "events_before_ack": [
+    {
+      "delivered_at": 1792311373.8259592,
+      "id": "7eb31d41f595e0d8d733034f",
+      "path": "[watch deadline: inspect queue liveness]",
+      "state": "queued"
+    },
+    {
+      "delivered_at": null,
+      "id": "08c0819fb35ae640bf723b60",
+      "path": "results/phase_2_4_stage_15/raw/drive-wave-20261017-w1/D32-resume-1/COMPLETE.json",
+      "state": "pending"
+    }
+  ],
+  "final_jobs": [
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367730577840759,
+        "executable": "python.exe",
+        "pid": 140200
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D2",
+      "native": {
+        "created_ticks": 134367729911396225,
+        "executable": "python.exe",
+        "pid": 141340
+      },
+      "phase": "verify",
+      "source_pins": 32,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367732809848349,
+        "executable": "python.exe",
+        "pid": 148188
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D2-retry",
+      "native": {
+        "created_ticks": 134367732763265113,
+        "executable": "python.exe",
+        "pid": 147716
+      },
+      "phase": "verify",
+      "source_pins": 125,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367687067579701,
+        "executable": "python.exe",
+        "pid": 133968
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D30-outcome-shuffle",
+      "native": {
+        "created_ticks": 134367686822849132,
+        "executable": "python.exe",
+        "pid": 93300
+      },
+      "phase": "verify",
+      "source_pins": 31,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367652752115435,
+        "executable": "python.exe",
+        "pid": 103116
+      },
+      "child_alive": false,
+      "constructions": 110,
+      "job": "drive-wave-20261017-w1/V4",
+      "native": {
+        "created_ticks": 134367454569260506,
+        "executable": "python.exe",
+        "pid": 192924
+      },
+      "newest_output_age_seconds": 20473.139325141907,
+      "phase": "verify",
+      "source_pins": 36,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367641496546498,
+        "executable": "python.exe",
+        "pid": 75116
+      },
+      "child_alive": false,
+      "first_tenth": {
+        "elapsed_seconds": 5.4925302001065575,
+        "forecast_cpu_seconds": 3600,
+        "projected_seconds": 54.88606964249338,
+        "sessions": 140
+      },
+      "job": "drive-wave-20261017-w1/D6",
+      "native": {
+        "created_ticks": 134367640649810887,
+        "executable": "python.exe",
+        "pid": 190160
+      },
+      "newest_output_age_seconds": 21430.988438129425,
+      "phase": "verify",
+      "saved_sessions": 1399,
+      "source_pins": 31,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "bootstrap_blocks_by_phase": {
+        "k100": 20,
+        "k20": 20,
+        "k50": 20,
+        "outcome_shuffle": 20,
+        "repertoire_shuffle": 20
+      },
+      "child": {
+        "created_ticks": 134367851648942859,
+        "executable": "python.exe",
+        "pid": 132972
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D32-resume-1",
+      "native": {
+        "created_ticks": 134367523576266748,
+        "executable": "python.exe",
+        "pid": 157048
+      },
+      "newest_output_age_seconds": 406.07052755355835,
+      "phase": "verify",
+      "source_pins": 52,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367599601889231,
+        "executable": "python.exe",
+        "pid": 53916
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D17",
+      "native": {
+        "created_ticks": 134367599597149028,
+        "executable": "python.exe",
+        "pid": 165604
+      },
+      "phase": "execute",
+      "source_pins": 22,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367612231251830,
+        "executable": "python.exe",
+        "pid": 54436
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D17-retry",
+      "native": {
+        "created_ticks": 134367612226439750,
+        "executable": "python.exe",
+        "pid": 110536
+      },
+      "phase": "execute",
+      "source_pins": 30,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "job": "drive-suggestion-main-v5",
+      "native": {
+        "created_ticks": 134367482278832427,
+        "executable": "python.exe",
+        "pid": 79008
+      },
+      "source_pins": 102,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": true,
+      "all_pins_match": true,
+      "job": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "python.exe",
+        "pid": 77320
+      },
+      "source_pins": 5,
+      "terminal_files": []
+    }
+  ],
+  "gpu_lease_exists": false,
+  "independent_health_due": "2026-10-18T03:16:47.202773-07:00",
+  "initial_progress": {
+    "at": "2026-10-18T08:16:34.401182+00:00",
+    "bootstrap_blocks_by_phase": {
+      "k100": 19,
+      "k20": 20,
+      "k50": 20,
+      "outcome_shuffle": 20,
+      "repertoire_shuffle": 20
+    },
+    "newest_output_age_seconds": 125.7113847732544
+  },
+  "legacy_shell_queue": "September 6 drained lineage; current manual dispatch ledger governs",
+  "native_research_inventory": [
+    {
+      "created_epoch": 1792270760.101987,
+      "modules": [
+        "runners.drive.calendar_20261017"
+      ],
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "python.exe",
+        "pid": 77320
+      },
+      "pid": 77320
+    },
+    {
+      "created_epoch": 1792270760.0385275,
+      "modules": [
+        "runners.drive.calendar_20261017"
+      ],
+      "native": {
+        "created_ticks": 134367443600385275,
+        "executable": "python.exe",
+        "pid": 171368
+      },
+      "pid": 171368
+    }
+  ],
+  "next_check": {
+    "due": "2026-10-18T01:57:39.177577-07:00",
+    "no_scientific_completion_forecast": true,
+    "purpose": "D32 whole primary/control/specification card is verified and landed; all research workers exited. Continue the already authorized examination-extension implementation next. No reviewed executable successor is withheld; source interfaces are available and the extension remains unbuilt. This is an implementation check, not a claim that scientific computation is running."
+  },
+  "next_check_basis": "Continue the newly opened D32 examination-extension implementation under existing authority; no running scientific worker needs repeated liveness polling. Immediate failure/result events and the independent six-hour clock remain enabled.",
+  "no_new_tests_harvested": true,
+  "no_paid_call": true,
+  "no_scientific_worker_active": true,
+  "nonterminal_dispatches": [],
+  "other_projects_untouched": true,
+  "pin_checks": {
+    "cached": 466,
+    "hashed": 0
+  },
+  "previous_inspection": "HEALTH_20261018_0059.json",
+  "recovery": "No production-worker recovery required. Owner replay corrected its own numerical thread setting to match production, with unchanged tolerance and scores. D17/GPU retries remain exhausted.",
+  "research_locks": "All 21 passed during this inspection.",
+  "resources": {
+    "commit_headroom_GiB": 41.12442398071289,
+    "disk_free_GiB": 406.4075241088867,
+    "ram_available_GiB": 45.01215744018555
+  },
+  "runnable_authorized_work": "No reviewed executable successor is waiting for dispatch. D32 examination extension is next; D2 hierarchical extension, D30 texture, P7 for D33, D31 intake/admitted labels and later ranked implementation remain. The queue is not the whole commissioned backlog.",
+  "runtime_and_output_budget": {
+    "completed_wall_seconds": 32817.505033,
+    "limits_unchanged": true,
+    "max_output_bytes": 34359738368,
+    "max_wall_seconds": 123954,
+    "output_bytes": 80090011,
+    "predecessor_seconds_already_charged": 1308
+  },
+  "status": "D32_completed_verified_and_landed",
+  "terminal_reconciliation": "All other terminals already landed; D32 completed during this inspection and its whole-card write-through is now in D32.md/json, INDEX, FINDINGS and the descriptive probability ledger. Daily theory/TODO integration follows the campaign schedule.",
+  "watcher": {
+    "actual_delivery_verified": true,
+    "error": null,
+    "health_due_unchanged": 1792318607.202773,
+    "historical_notification_failures": 2,
+    "last_scan_age_seconds": 36.174983501434326,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_matches": true
+  }
+}

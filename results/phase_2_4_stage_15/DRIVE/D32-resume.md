@@ -1,5 +1,8 @@
 # D32: measured continuation after forecast yield
 
+This is the historical launch admission. The continuation subsequently completed
+and passed whole-card verification; see [the complete result](D32.md).
+
 The original attempt saved 300 bootstrap fits and yielded when its first-tenth
 projection reached 41,754 seconds. It remains intact and is not a failed or
 scientifically null result. The next ranked eligible D30 and D35 dispatches have

@@ -1,0 +1,235 @@
+{
+  "card": "D32",
+  "controls": {
+    "outcome_shuffle": {
+      "bootstrap_invalid": 0,
+      "certificate": {
+        "gradient_max": 9.341354624535118e-09,
+        "iterations": 528,
+        "loss": 0.47472168247588575
+      },
+      "ci95": [
+        -0.10295237713970092,
+        0.01767434904105688
+      ],
+      "effect": -0.0401539499705542,
+      "mode": "outcome_shuffle",
+      "p_approx": 0.18357543450296512,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "rows": 69109,
+      "standard_error": 0.03019487822715028,
+      "state": "marginal",
+      "writers": 61,
+      "z": -1.3298265245013983
+    },
+    "repertoire_shuffle": {
+      "bootstrap_invalid": 0,
+      "certificate": {
+        "gradient_max": 8.332319044215179e-08,
+        "iterations": 524,
+        "loss": 0.43596113032265715
+      },
+      "ci95": [
+        -0.01578080214750366,
+        0.11700981654989631
+      ],
+      "effect": 0.04806583257957213,
+      "mode": "repertoire_shuffle",
+      "p_approx": 0.15382807063094978,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "rows": 69109,
+      "standard_error": 0.033703457206668945,
+      "state": "null",
+      "writers": 61,
+      "z": 1.426139528797695
+    }
+  },
+  "descriptive": true,
+  "elapsed_seconds_this_invocation": 32802.327759799955,
+  "extension": "Examination split among declined out-of-repertoire offers, including keyboard/default exposure audit",
+  "extension_run": false,
+  "primary": {
+    "bootstrap_invalid": 0,
+    "certificate": {
+      "gradient_max": 2.4731331125008293e-08,
+      "iterations": 533,
+      "loss": 0.43596851502785805
+    },
+    "ci95": [
+      -0.11018024658744933,
+      0.020499094827526775
+    ],
+    "effect": -0.040062550737362236,
+    "mode": "main",
+    "p_approx": 0.24016401632400897,
+    "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+    "rows": 69109,
+    "standard_error": 0.03410806871313893,
+    "state": "marginal",
+    "writers": 61,
+    "z": -1.1745769329334543
+  },
+  "question": "Are offered branches absent from earlier typed text less likely to be accepted?",
+  "route": "Negative-direction support leaves absent branches unexplained until the frozen examination extension distinguishes unseen from declined.",
+  "scientific_admission": false,
+  "source_exclusions": {
+    "mixed_prompt_or_api_sentences": 18763
+  },
+  "specifications": {
+    "k100": {
+      "bootstrap_invalid": 0,
+      "certificate": {
+        "gradient_max": 9.445436867152874e-09,
+        "iterations": 525,
+        "loss": 0.4359569779721155
+      },
+      "ci95": [
+        -0.08894763700623382,
+        -0.00046648911342307237
+      ],
+      "effect": -0.039205670942426475,
+      "mode": "main",
+      "p_approx": 0.08684339476059875,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "rows": 69107,
+      "standard_error": 0.022896641545067587,
+      "state": "positive",
+      "writers": 61,
+      "z": -1.7122891523308226
+    },
+    "k20": {
+      "bootstrap_invalid": 0,
+      "certificate": {
+        "gradient_max": 1.709572542604621e-08,
+        "iterations": 506,
+        "loss": 0.4360610587408443
+      },
+      "ci95": [
+        -0.10370552583612454,
+        0.039418498666357715
+      ],
+      "effect": -0.03195541145812409,
+      "mode": "main",
+      "p_approx": 0.38472935756240423,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "rows": 69109,
+      "standard_error": 0.03676351523475533,
+      "state": "marginal",
+      "writers": 61,
+      "z": -0.8692153417340849
+    }
+  },
+  "support": {
+    "100": {
+      "clusters": 100,
+      "eligible_rows": 69107,
+      "excluded_rare_outside_options": 2,
+      "in_repertoire": 48848,
+      "inertia": 14813.770292066756,
+      "iterations": 70,
+      "offered_rows": 69109,
+      "out_of_repertoire": 20259
+    },
+    "20": {
+      "clusters": 20,
+      "eligible_rows": 69109,
+      "excluded_rare_outside_options": 0,
+      "in_repertoire": 59547,
+      "inertia": 16876.531619227757,
+      "iterations": 34,
+      "offered_rows": 69109,
+      "out_of_repertoire": 9562
+    },
+    "50": {
+      "clusters": 50,
+      "eligible_rows": 69109,
+      "excluded_rare_outside_options": 0,
+      "in_repertoire": 54378,
+      "inertia": 15606.675810111801,
+      "iterations": 41,
+      "offered_rows": 69109,
+      "out_of_repertoire": 14731
+    }
+  },
+  "verification": {
+    "verified": true,
+    "source_pins": 2805,
+    "plan_pins": 52,
+    "output_hashes": 243,
+    "arms": {
+      "k50": {
+        "point_refit": true,
+        "summary_recomputed": true,
+        "draws": 2000,
+        "invalid_draws": 0,
+        "certificate": {
+          "gradient_max": 2.4731331125008293e-08,
+          "iterations": 533,
+          "loss": 0.43596851502785805
+        }
+      },
+      "k20": {
+        "point_refit": true,
+        "summary_recomputed": true,
+        "draws": 2000,
+        "invalid_draws": 0,
+        "certificate": {
+          "gradient_max": 1.709572542604621e-08,
+          "iterations": 506,
+          "loss": 0.4360610587408443
+        }
+      },
+      "k100": {
+        "point_refit": true,
+        "summary_recomputed": true,
+        "draws": 2000,
+        "invalid_draws": 0,
+        "certificate": {
+          "gradient_max": 9.445436867152874e-09,
+          "iterations": 525,
+          "loss": 0.4359569779721155
+        }
+      },
+      "repertoire_shuffle": {
+        "point_refit": true,
+        "summary_recomputed": true,
+        "draws": 2000,
+        "invalid_draws": 0,
+        "certificate": {
+          "gradient_max": 8.332319044215179e-08,
+          "iterations": 524,
+          "loss": 0.43596113032265715
+        }
+      },
+      "outcome_shuffle": {
+        "point_refit": true,
+        "summary_recomputed": true,
+        "draws": 2000,
+        "invalid_draws": 0,
+        "certificate": {
+          "gradient_max": 9.341354624535118e-09,
+          "iterations": 528,
+          "loss": 0.47472168247588575
+        }
+      }
+    },
+    "completion_hashes": 134,
+    "terminal_sha256": "7489167d207bfbba0247a6b05b40e6f7c637e3e615598b91e49c21251aeb5da1",
+    "plan_sha256": "7cd141effdd2e4a48f4afc1bd63fc0f4bdabc9b8622eb606e99dd56ba0e6d1a2",
+    "summary_sha256": "42d6835b151eaa901f6ac7907dae2bb0edcb67cf6d2eaacfcc8d51a921f32a08",
+    "native_ended": true,
+    "cpu_slot_released": true,
+    "scope": "Fresh point-estimate refit of all five arms plus exact saved bootstrap summary and hash checks; not a second full bootstrap.",
+    "numerical_environment": "One BLAS thread matches actual production imports: batch_runtime imports next_round.queue, which sets thread variables to one before the card imports NumPy. At most two remains satisfied.",
+    "reviewer_replay_correction": "Initial additional two-thread replay differed by 2.93350172459e-7 in primary coefficient and failed unchanged tolerance. Replaying the actual one-thread production environment matches exactly; no data, scientific runner, tolerance or score changed."
+  },
+  "status": "VERIFIED_COMPLETE",
+  "native_ended": true,
+  "cpu_slot_released": true,
+  "completed_at": "2026-10-18T08:19:35.236905+00:00",
+  "next": "Implement the one registered examination split, preserving keyboard and default-highlight exposure caveats. No repertoire-expansion variant is triggered by this marginal primary.",
+  "daily_controls": "D30 and D32 outcome shuffles are marginal; D34 outcome shuffle is null. No positive-only daily control flag fires. This does not repair other positive shuffled controls or V4 calibration.",
+  "pending_digest": "2026-10-18 20:00 PDT theory/TODO integration",
+  "uncertainty": "2,000 writer-bootstrap refits per arm, rebuilding leave-writer-out appeal; conditional on fixed unsupervised clusters and repertoire labels.",
+  "family": "B prefix remains unresolved while D32 single examination extension is pending; D6 null and D2 marginal remain retained in order."
+}

@@ -4,13 +4,15 @@
 are recorded under the amended Stage 15 packet. The prior finite queues below
 stay closed; the new commission is only partly implemented.
 
-**Current execution:** V4 and D32 are running. The [D17 pause card](DRIVE/D17.md)
+**Current execution:** [V4](DRIVE/V4.md) and [D32](DRIVE/D32.md) are verified complete.
+No research worker remains active; D32's examination extension and the other
+authorized unbuilt cards remain open. The [D17 pause card](DRIVE/D17.md)
 is invalid after its second engineering failure; no primary result or further retry. The [full suggestion pass is invalid after its second safety stop](DRIVE/SUGGESTION_MAIN_V5_FAILED.md); its retry is exhausted and saved work remains intact.
-The [18:07 planned inspection](DRIVE/HEALTH_20261017_1807.json) verifies native
-identities, progress, resource floors, source/research locks and watcher delivery.
+The [current inspection](DRIVE/HEALTH_20261018_0116.json) records D32's final
+progress, verified completion and released CPU slot, with intact locks and delivery.
 Typed/history and other unbuilt cards remain separate. Earlier inspections below
 retain their dated scope.
-[Verified ACK and next check](HEALTH_20261017_0853_ACK_PUBLIC.json).
+[Verified ACKs and next check](DRIVE/HEALTH_20261018_0116.json).
 
 **Earlier October 17 reader recovery:** [bounded float32 memory validation is complete](DRIVE/READER_PILOT_V6.md).
 All fixed-pilot numerical and memory checks pass; native worker exited and lease

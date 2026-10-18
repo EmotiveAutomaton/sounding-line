@@ -5,9 +5,46 @@ can be looked up rather than reconstructed. **It used to be the claims index; it
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we
 ran it.
 
-**Last updated: 2026-10-17.**
+**Last updated: 2026-10-18.**
 
 ---
+
+### S15-DRIVE-D32-1018 - earlier-repertoire acceptance contrast remains unresolved
+
+**Hypothesis.** Writers may be less likely to accept offered suggestions outside the kinds of sentences they previously typed.
+**METHOD.** Cluster writer-typed sentence embeddings, define each writer's repertoire from strictly earlier completed sessions, and estimate adjusted acceptance log odds for outside versus inside suggestions, with writer-bootstrap refits, two cluster specifications and two within-writer shuffles.
+**Found.** The primary is marginal, and the outcome-shuffle control is also marginal. **Means.** The primary does not establish an acceptance gap; the registered examination split remains open, and absence alone does not distinguish an unseen option from a disliked one.
+
+The table reports outside-minus-inside acceptance log odds. Negative values
+match the prediction; intervals are percentile writer-bootstrap intervals. States
+follow the frozen direction-aware interval rule, while the probability column is
+a separate two-sided normal-reference Wald approximation, descriptive only.
+
+| Complete comparison | Log-odds contrast | 95% interval | Descriptive probability | State |
+|---|---:|---|---:|---|
+| Primary, 50 clusters | -0.040063 | [-0.110180, +0.020499] | 0.240164 | marginal |
+| Specification, 20 clusters | -0.031955 | [-0.103706, +0.039418] | 0.384729 | marginal |
+| Specification, 100 clusters | -0.039206 | [-0.088948, -0.000466] | 0.086843 | positive |
+| Repertoire-label shuffle | +0.048066 | [-0.015781, +0.117010] | 0.153828 | null |
+| Outcome shuffle | -0.040154 | [-0.102952, +0.017674] | 0.183575 | marginal |
+
+[The complete report](results/phase_2_4_stage_15/DRIVE/D32.md) retains support,
+source exclusions, all five arms and the examination limitations. The primary
+uses 69,109 suggestions from 61 writers. Every arm completes 2,000 writer-bootstrap
+refits with no invalid draw. Production fresh primary replay and owner replay of
+all five point estimates and summaries pass in the actual one-thread numerical
+environment. Input/output bindings, native exit and released slot verify.
+The owner's initial two-thread replay mismatch is retained as an environment
+correction; no score, tolerance or scientific code changed.
+
+The 100-cluster positive specification does not replace the marginal primary.
+The outcome shuffle is marginal without triggering the daily positive-only flag;
+it does not repair other positive shuffled controls or the blind V4 lens. All five
+probabilities enter the descriptive multiplicity ledger. The single examination
+extension needs implementation. Family B remains unresolved; no causal, attention,
+habit or preference admission. Theory/TODO integration follows at 20:00.
+
+Curator roll-up: branch availability and examination; Are offered suggestions outside earlier writing less likely to be accepted?; **Infrastructure**; The primary and outcome shuffle remain unresolved; project meaning: absence alone cannot distinguish unseen from disliked options; next engineering obligation: implement the frozen examination split with keyboard/default exposure caveats; public claim unchanged; curator decision required: No; detail: complete D32 report and aggregate.
 
 ### S15-DRIVE-D2-1017 - menu-dissimilarity contrast remains unresolved
 

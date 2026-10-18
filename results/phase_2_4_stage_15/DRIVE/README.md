@@ -3,12 +3,15 @@
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,
 verified and recorded. The [live index](INDEX.md) separates actual CPU dispatches
 from building cards; the GPU suggestion recovery has stopped at its retry limit. [Operations](OPS_LOG.md) and
-the [20:00 digest](DIGEST_20261017.md) implement batch reporting. Theory/TODO integration is recorded; exact daily-control coverage remains incomplete.
+the [20:00 digest](DIGEST_20261017.md) implement batch reporting. That historical
+digest had incomplete control coverage; D30 and D32 now fill the missing outcome
+controls, with marginal results and other control limitations retained below.
 
 [D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
 are verified complete. D30's positive extension has a positive writer-shuffle
-control; D35 is null. [D32's measured continuation](D32-resume.md) is running
-after its required intervening dispatches, with previous work and cost retained.
+control; D35 is null. [D32](D32.md) is verified complete after its measured continuation, with the
+previous work and cost retained. Its primary and outcome shuffle are marginal;
+the registered examination extension needs implementation.
 [D33's first comparison](D33.md) is verified complete: its primary and writer-shuffle
 control are positive, leaving personal specificity unestablished. Its single
 stronger-baseline extension awaits P7; prescribed texture remains.
@@ -17,7 +20,7 @@ stronger-baseline extension awaits P7; prescribed texture remains.
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
 [V4 is complete](V4.md), with blind taste/habit labels after its null check fails;
-FX1 and personal panels stay unadmitted. D32 continues. The [required D30 outcome shuffle](D30-outcome-shuffle.md) is verified marginal without a positive failure flag; daily coverage still awaits D32. [D6](D6.md) is verified complete with a null pooled
+FX1 and personal panels stay unadmitted. D32 is complete. The [required D30 outcome shuffle](D30-outcome-shuffle.md) is verified marginal without a positive failure flag; D32 now completes that outcome-control coverage without a positive flag; other control failures remain. [D6](D6.md) is verified complete with a null pooled
 hover-position primary; no extension opens, and unobserved exposure remains
 unidentified. The [D17 pause card](D17.md) is invalid after its second engineering failure, with no primary result and all retained files intact. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.

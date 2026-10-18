@@ -9,9 +9,11 @@ validate, but the second-failure rule makes the unfinished pass invalid; no
 further retry is dispatched. [V4 calibration is complete](results/phase_2_4_stage_15/DRIVE/V4.md): its combined
 reader fails the null check. The lens is blind to taste and habit at every tested
 size under the frozen bands, despite oracle recovery; FX1 and personal panels
-remain unadmitted. Matched-representation forecast gain does not repair that gate. D32 saved its work and yielded because
-its measured forecast exceeded the declared boundary; after two ranked intervening
-dispatches it is now resuming under measured admission. P5, P6's exact-arithmetic
+remain unadmitted. Matched-representation forecast gain does not repair that gate.
+[D32 is verified complete](results/phase_2_4_stage_15/DRIVE/D32.md), with a marginal
+primary and marginal outcome shuffle. Its measured continuation preserved prior
+work and charged prior time; the one registered examination extension now needs
+implementation. P5, P6's exact-arithmetic
 recovery, D39 including its secondary, and the supported D34.v1 are verified complete.
 D34 and its extension are complete but unresolved. [P4's full primary](results/phase_2_4_stage_15/DRIVE/P4.md)
 is marginal; its [single extension](results/phase_2_4_stage_15/DRIVE/P4-extension.md) is positive with a similarly positive shuffled control, leaving content-specific prediction unresolved. Both are verified complete. [TC, V5 and P8](results/phase_2_4_stage_15/DRIVE/INDEX.md) are complete
@@ -23,7 +25,7 @@ conditional extension stays closed. D32 reuses every saved checkpoint byte and
 charges its prior wall time. D33's personal-surprise primary is verified positive,
 with a positive writer-shuffle control; personal specificity is unestablished.
 Its single stronger-baseline extension awaits P7, followed by prescribed texture.
-The [D17 pause-stability card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after numerical nonconvergence and a progress-file failure on its permitted retry. All retained files verify; no primary result or family-null count follows, and no third attempt is authorized. D32 continues in the sole currently occupied counted CPU slot; the earlier ToMpathy lease is no longer present, and no unrelated process was stopped. [D6](results/phase_2_4_stage_15/DRIVE/D6.md) is now verified complete with a null pooled hover-position comparison; its extension stays closed. Its slot is released, and [D2](results/phase_2_4_stage_15/DRIVE/D2.md) is verified complete after one exact-score replay repair. Its primary is marginal with a positive uniform-choice control; the single hierarchical extension now needs implementation, with V4's blind label retained. D31 still needs intake and admitted labels; the packet remains partly built.
+The [D17 pause-stability card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after numerical nonconvergence and a progress-file failure on its permitted retry. All retained files verify; no primary result or family-null count follows, and no third attempt is authorized. D32's native workers have exited and released the last counted CPU slot. No research worker is currently active; the remaining authorized cards need implementation, beginning with D32's examination extension. The finite calendar and watcher remain active. No unrelated process was stopped. [D6](results/phase_2_4_stage_15/DRIVE/D6.md) is verified complete with a null pooled hover-position comparison; its extension stays closed. [D2](results/phase_2_4_stage_15/DRIVE/D2.md) is verified complete after one exact-score replay repair. Its primary is marginal with a positive uniform-choice control; the single hierarchical extension needs implementation, with V4's blind label retained. D31 still needs intake and admitted labels; the packet remains partly built.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
@@ -33,8 +35,11 @@ own-text correction question remains open. One planned check stays at most one h
 the [six-hour inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261017_1501.json)
 is recorded with recovery performed. Immediate terminal/failure/paused
 monitoring remains active. The [20:00 digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
-integrates theory/TODO and STATE/CODEX_OPERATIONS. The daily control check is incomplete:
-the [exact D30 outcome shuffle](results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.md) is now verified marginal without a positive failure flag, while D32 remains unfinished. No clean-screen verdict.
+integrates theory/TODO and STATE/CODEX_OPERATIONS. The required outcome controls are
+now complete: the [exact D30 shuffle](results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.md)
+and D32 shuffle are marginal, while D34's is null. No positive-only daily flag
+fires. Other positive shuffled controls and failed V4 calibration still prevent
+a clean-screen verdict. Post-digest findings integrate at October 18, 20:00 PDT.
 A tested finite calendar emits the digest/cutoff markers and restores the prior
 watcher mode at the freeze. It performs no study dispatch or publication.
 
