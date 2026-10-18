@@ -1,5 +1,13 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 18:** D30.s's paired specification-curve implementation passes eleven
+targeted checks, including exact known answers, independent least squares,
+resume/reentry and actual counted-runtime smoke. Its production attempt paused
+at the forecast-yield boundary; scientific verification is unfinished.
+[Contract](design/stage-15/drive/D30_SPECIFICATION.md) ·
+[retained execution](../results/phase_2_4_stage_15/DRIVE/D30.s.md).
+
+
 **October 18:** D32's examination-marker consumer is validated and verified
 complete. It joins frozen repertoire offers to D6 events with explicit mouse,
 keyboard, hypothetical default and censored-duration handling. Sixteen targeted

@@ -2,6 +2,14 @@
 
 ## October 17 CPU cards
 
+D30.s is implemented in the timing_d30_specification module. Eleven targeted
+checks, including actual counted-runtime smoke and fresh-process replay, pass.
+Its live attempt saved at the forecast-yield boundary; source pins and partial
+draws verify, workers exited and its slot released. Two ranked successor
+dispatches are required before measured continuation. No scientific result
+is available. [Contract](../../docs/design/stage-15/drive/D30_SPECIFICATION.md) ·
+[operational receipt](../../results/phase_2_4_stage_15/DRIVE/D30.s.md).
+
 The D32 examination consumer completes its single registered extension on frozen
 repertoire and D6 event rows. Sixteen targeted checks, actual counted-runtime smoke,
 fresh source-based replay and independent point/interval reconstruction pass.

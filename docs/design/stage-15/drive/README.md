@@ -21,6 +21,9 @@ transition-only setting returns then. Paid cutoff is Monday October 19 at 17:00
 PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
+[D30.s specification texture](D30_SPECIFICATION.md) is tested and frozen. Its
+live attempt paused at a saved forecast boundary; two ranked successors must be
+dispatched before measured continuation. No scientific result is available.
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
 [D2's primary](D2_PRIMARY.md) now has a tested, frozen executable dispatch;
 its conditional hierarchical extension is separate.

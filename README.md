@@ -13,7 +13,7 @@
 and fails the mandatory null check; personal taste/habit admission remains closed.
 [D32 is verified complete](results/phase_2_4_stage_15/DRIVE/D32.md), with a marginal primary and marginal outcome shuffle; its [single examination extension](results/phase_2_4_stage_15/DRIVE/D32-examination.md) is verified null. The [D17 pause card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure, with retained evidence intact and no primary result. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
 saved checkpoints validate, but the incomplete pass is invalid under the retry limit. Completed D30,
-its extension and D35 are recorded with their controls and follow-up gates.
+its extension and D35 are recorded with their controls and follow-up gates. [D30.s specification texture](results/phase_2_4_stage_15/DRIVE/D30.s.md) is tested and paused at a saved forecast boundary, with no scientific result yet.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 separates verified results, active work and the unbuilt remainder. The
 [October 17 theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)

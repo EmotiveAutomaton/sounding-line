@@ -8,7 +8,7 @@ digest had incomplete control coverage; D30 and D32 now fill the missing outcome
 controls, with marginal results and other control limitations retained below.
 
 [D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
-are verified complete. D30's positive extension has a positive writer-shuffle
+are verified complete. [D30.s specification texture](D30.s.md) is built and tested; its live run saved at the forecast-yield boundary and awaits two ranked successor dispatches. No scientific result is available from it. D30's positive extension has a positive writer-shuffle
 control; D35 is null. [D32](D32.md) is verified complete after its measured continuation, with the
 previous work and cost retained. Its primary and outcome shuffle are marginal;
 the [registered examination extension](D32-examination.md) is verified complete with a null primary.
