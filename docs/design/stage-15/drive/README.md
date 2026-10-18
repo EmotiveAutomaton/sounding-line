@@ -6,6 +6,8 @@
 
 [Current evidence](../../../../results/phase_2_4_stage_15/DRIVE/INDEX.md) includes immediate source-validity holds; prior rules/statuses below are historical. Daily20:00integration and all cutoff/freeze dates remain unchanged.
 
+The curator [approved separate supported-match paired-history comparisons](D33_SUPPORTED_MATCH_DECISION_20261018.json) after the complete input audit found missing exact donors. Their smaller populations must be explicit; the original full-population question remains open. Approval commissions implementation, not a completed result.
+
 ## October 17 amendment: active
 
 The curator authorized the [new packet](PACKET_20261017_PUBLIC.md) and the obvious
