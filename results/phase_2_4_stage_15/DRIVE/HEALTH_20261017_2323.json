@@ -1,0 +1,195 @@
+{
+  "acknowledgement": {
+    "acknowledged": 1792304871.6047707,
+    "id": "d3efa6eb62a92785ed77acd9",
+    "state": "acknowledged"
+  },
+  "active_job": {
+    "alive": true,
+    "all_pins_match": true,
+    "bootstrap_blocks_by_phase": {
+      "k20": 16,
+      "k50": 20,
+      "outcome_shuffle": 20,
+      "repertoire_shuffle": 20
+    },
+    "child": {
+      "created_ticks": 134367523582098741,
+      "executable": "python.exe",
+      "pid": 68444
+    },
+    "child_alive": true,
+    "job": "drive-wave-20261017-w1/D32-resume-1",
+    "native": {
+      "created_ticks": 134367523576266748,
+      "executable": "python.exe",
+      "pid": 157048
+    },
+    "native_descendants": [
+      {
+        "cpu_seconds": 0.015625,
+        "native": {
+          "created_ticks": 134367523582180800,
+          "executable": "conhost.exe",
+          "pid": 145000
+        }
+      },
+      {
+        "cpu_seconds": 25528.515625,
+        "native": {
+          "created_ticks": 134367523582356797,
+          "executable": "python.exe",
+          "pid": 56716
+        }
+      }
+    ],
+    "newest_output_age_seconds": 200.25153827667236,
+    "phase": "execute",
+    "source_pins": 52,
+    "terminal_files": []
+  },
+  "all_pins_match": true,
+  "at": "2026-10-18T06:25:20.059129+00:00",
+  "counted_cpu_slots": [
+    {
+      "card": "D32-resume-1",
+      "native": {
+        "created_ticks": 134367523576266748,
+        "executable": "python.exe",
+        "pid": 157048
+      },
+      "slot": "slot-1.json"
+    }
+  ],
+  "delivered_at": 1792304683.8338408,
+  "dispatch_rows_inspected": 29,
+  "event": "d3efa6eb62a92785ed77acd9",
+  "gpu_lease_exists": false,
+  "independent_health_due": "2026-10-18T03:16:47.202773-07:00",
+  "legacy_shell_queue": "September 6 drained lineage; current manual dispatch ledger governs",
+  "native_research_inventory": [
+    {
+      "created_epoch": 1792278758.2356796,
+      "modules": [
+        "runners.drive.cards.batch_runtime_v2"
+      ],
+      "native": {
+        "created_ticks": 134367523582356797,
+        "executable": "python.exe",
+        "pid": 56716
+      },
+      "pid": 56716
+    },
+    {
+      "created_epoch": 1792278758.209874,
+      "modules": [
+        "runners.drive.cards.batch_runtime_v2"
+      ],
+      "native": {
+        "created_ticks": 134367523582098741,
+        "executable": "python.exe",
+        "pid": 68444
+      },
+      "pid": 68444
+    },
+    {
+      "created_epoch": 1792270760.101987,
+      "modules": [
+        "runners.drive.calendar_20261017"
+      ],
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "python.exe",
+        "pid": 77320
+      },
+      "pid": 77320
+    },
+    {
+      "created_epoch": 1792278757.5587811,
+      "modules": [
+        "runners.drive.cards.batch_runtime_v2"
+      ],
+      "native": {
+        "created_ticks": 134367523575587813,
+        "executable": "python.exe",
+        "pid": 141368
+      },
+      "pid": 141368
+    },
+    {
+      "created_epoch": 1792278757.626675,
+      "modules": [
+        "runners.drive.cards.batch_runtime_v2"
+      ],
+      "native": {
+        "created_ticks": 134367523576266748,
+        "executable": "python.exe",
+        "pid": 157048
+      },
+      "pid": 157048
+    },
+    {
+      "created_epoch": 1792270760.0385275,
+      "modules": [
+        "runners.drive.calendar_20261017"
+      ],
+      "native": {
+        "created_ticks": 134367443600385275,
+        "executable": "python.exe",
+        "pid": 171368
+      },
+      "pid": 171368
+    }
+  ],
+  "next_check": {
+    "due": "2026-10-18T00:12:51.750778-07:00",
+    "phase_estimate_only": "2026-10-18T01:42:51.750778-07:00",
+    "reason": "D32 saved 16 of 20 blocks in its 20-cluster specification by 23:25 PDT, about five minutes per block. A 100-cluster specification follows with twenty blocks plus setup. Check in forty-five minutes before its conservative phase estimate; full-card verification is separate. No prepared successor is withheld."
+  },
+  "next_check_basis": "Four current-phase blocks remain at the inspection, roughly five minutes each. The subsequent 100-cluster specification has twenty blocks plus setup. Check in forty-five minutes before its conservative two-hour-fifteen-minute milestone estimate; full-card verification remains separate.",
+  "no_new_tests_harvested": true,
+  "no_paid_call": true,
+  "nonterminal_dispatches": [
+    "D32-resume-1"
+  ],
+  "other_projects_untouched": true,
+  "pin_checks": {
+    "cached": 466,
+    "hashed": 0
+  },
+  "previous_inspection": "HEALTH_20261017_2250.json",
+  "progress_since_previous": "Six additional 20-cluster specification checkpoint blocks saved; no unfinished scores inspected.",
+  "recovery": "No worker recovery required. D17 and full suggestion retries remain exhausted; no restart.",
+  "research_locks": "All 21 passed during this inspection.",
+  "resources": {
+    "commit_headroom_GiB": 41.229740142822266,
+    "disk_free_GiB": 406.4331855773926,
+    "ram_available_GiB": 46.21961212158203
+  },
+  "runnable_authorized_work": "No reviewed executable successor waits for dispatch. D2 hierarchical extension, D30 texture, P7 review for D33, D31 intake/admitted labels and later ranked implementations remain.",
+  "runtime_and_output_budget": {
+    "at": "2026-10-17T23:27:31.366649-07:00",
+    "elapsed_wall_seconds": 26093.69016933441,
+    "limits_unchanged": true,
+    "max_output_bytes": 34359738368,
+    "max_wall_seconds": 123954,
+    "output_bytes": 53299379,
+    "predecessor_seconds_already_charged": 1308,
+    "remaining_wall_seconds": 97860.30983066559
+  },
+  "status": "healthy_continuation",
+  "terminal_reconciliation": "Other dispatches match already-landed completions, preserved failures or the superseded D32 pause. No new unlanded terminal.",
+  "watcher": {
+    "actual_delivery_verified": true,
+    "error": null,
+    "health_due_unchanged": 1792318607.202773,
+    "historical_notification_failures": 2,
+    "last_scan_age_seconds": 44.695377588272095,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_matches": true
+  }
+}
