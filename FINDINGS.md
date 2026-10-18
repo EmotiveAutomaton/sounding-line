@@ -9,6 +9,25 @@ ran it.
 
 ---
 
+### S15-DRIVE-W1-D6-1017 - menu-position examination
+
+**Hypothesis.** Writers may examine the first displayed suggestion more than the fifth.
+**METHOD.** Reconstruct recorded hovers, keyboard navigation and selections from the complete source roster, then compare first-versus-fifth hover rates with equal writer weights and 2,000 writer-bootstrap draws.
+**Found.** The primary is null: a difference of -5.95 percentage points, with a 95% interval from -12.86 to +1.03, across 60 writers. **Means.** This does not establish a first-position hover advantage or identify unrecorded exposure, reading or preference. The content-model extension stays closed.
+
+The complete contrast covers 8,988 five-item menus within 1,399 authenticated
+sessions. The position-shuffle control is null. Adding keyboard/selection traces
+leaves the interval spanning zero; hypothetical default-first highlighting changes
+the answer, while latent-exposure bounds include both directions. The creative-domain
+secondary is negative and does not change the frozen pooled route. All nine
+probabilities are recorded as descriptive diagnostics in the multiplicity ledger.
+[Complete methods, comparisons and validation](results/phase_2_4_stage_15/DRIVE/D6.md)
+include ten passing targeted tests, fresh-process verification, all source/output
+hashes, native exit and slot release. Family B waits for its preceding D32 branch;
+no family stop. Theory/TODO integration is queued for the 20:00 digest.
+
+Curator roll-up: bounded examination and preference; Do writers hover over the first suggestion more than the fifth?; **Narrows**; The registered first-position hover advantage is unresolved; project meaning: logged hovering cannot identify unobserved exposure or dislike; next engineering obligation: retain the null route and continue independent ranked work; public claim unchanged; curator decision required: No; detail: complete D6 record above.
+
 ### OPS-S15-D17-1017 - pause instrument retry exhausted
 
 **Hypothesis.** Writers may have stable patterns in their longest normalized pauses across sessions.

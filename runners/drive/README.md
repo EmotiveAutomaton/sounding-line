@@ -47,6 +47,11 @@ plus an optimality certificate; all 22 original/recovery checks pass. Its permit
 retry then failed on Windows progress-file replacement before fitting. The card is
 invalid with retry exhausted; source/checkpoint evidence remains intact. No primary
 result is available; uncertainty would condition on the selected pooled mixture.
+`events_d6` reconstructs option-specific mouse hovers separately from keyboard
+positions and default highlighting. Ten owner-run controls, source/output
+bindings and production fresh-process replay pass. Its full primary is null;
+hypothetical default exposure does not establish observed examination or reading.
+The content-model extension remains closed.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 

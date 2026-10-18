@@ -2401,6 +2401,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 menu-position instrument:** D6 separates option identities, keyboard
+positions, visibility episodes and hypothetical default highlighting. Ten targeted
+controls and full production fresh-process replay pass; source/output hashes and
+native closure verify. Its pooled primary is null. Logged targeting is evidence
+of examination, not proof of reading; absent hovering does not establish absent
+exposure or dislike. The content-model extension stays closed.
+[Complete report](../results/phase_2_4_stage_15/DRIVE/D6.md).
+
 **October 17 normalized-pause instrument:** D17 is invalid after two engineering
 failures. The original session fit exceeded its convergence limit; the isolated
 same-objective repair passed 22 targeted checks, including the retained failing
