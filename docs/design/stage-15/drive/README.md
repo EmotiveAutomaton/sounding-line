@@ -26,7 +26,9 @@ P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
 its secondary are recorded. V4 and the GPU checkpoint recovery are running;
 D32 saved and yielded at its forecast boundary, then resumed after verified
 D30/D35 dispatches under measured admission. D30 and its extension, and D35,
-are fully recorded; the live index retains their control limitations. A finite,
+are fully recorded; the live index retains their control limitations. D33's
+first primary is verified complete with a positive writer-shuffle warning; its
+single stronger-baseline extension awaits P7. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

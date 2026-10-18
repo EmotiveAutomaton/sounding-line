@@ -15,7 +15,10 @@ D30's primary is verified marginal; its frozen marker-count extension is positiv
 with a positive writer-shuffle control. Automaticity remains unestablished; the
 prescribed texture checks need implementation. D35 is verified null and its
 conditional extension stays closed. D32 reuses every saved checkpoint byte and
-charges its prior wall time. Other ranked cards await owner review and input completion.
+charges its prior wall time. D33's personal-surprise primary is verified positive,
+with a positive writer-shuffle control; personal specificity is unestablished.
+Its single stronger-baseline extension awaits P7, followed by prescribed texture.
+Other ranked cards await owner review and input completion.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).

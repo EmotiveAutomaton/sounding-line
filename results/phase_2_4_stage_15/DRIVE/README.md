@@ -9,6 +9,9 @@ the [20:00 integration receipt](DIGEST_PENDING_20261017.json) implement batch re
 are verified complete. D30's positive extension has a positive writer-shuffle
 control; D35 is null. [D32's measured continuation](D32-resume.md) is running
 after its required intervening dispatches, with previous work and cost retained.
+[D33's first comparison](D33.md) is verified complete: its primary and writer-shuffle
+control are positive, leaving personal specificity unestablished. Its single
+stronger-baseline extension awaits P7; prescribed texture remains.
 
 **Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
 after the [recorded safety stop](SUGGESTION_MAIN_V4_FAILED.md). Completed checkpoints

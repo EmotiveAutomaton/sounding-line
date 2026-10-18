@@ -4,7 +4,7 @@
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
 The GPU checkpoint recovery, full V4 calibration and measured D32 continuation
-are advancing. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
+are running. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
 The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
@@ -21,14 +21,16 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
-| D33/D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
-| D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; family-prefix count waits for D35/D33 |
+| D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
+| D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
+| D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | measured continuation running; not a scientific result | [Original pause](D32-paused.md), [resume admission](D32-resume.md); D30/D35 dispatches verified, prior wall time charged |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 Family resolved-prefix null counts: K 0, B 0, A 1, G 2, E 0, R 0, S 0, P 0.
-D35 resolves the first A entry; D33 must resolve before D39 can advance that prefix.
+D33's positive primary resets A after D35; the already-landed D39 null then gives
+one. D33's single extension and required texture remain unfinished. No family stops.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude

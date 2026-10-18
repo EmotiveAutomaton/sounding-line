@@ -2401,6 +2401,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 personal-surprise card:** D33 passes nine targeted checks, including
+known-effect recovery from serialized source records, strict earlier-session
+history, independent donor identity, saved-boundary resume, fresh-process replay,
+immutable reentry and source/completion/path mutation refusal. The full primary
+and fresh-process replay are complete; a positive writer-shuffle control limits
+interpretation. Execution validation does not establish personal specificity.
+[Complete report](../results/phase_2_4_stage_15/DRIVE/D33.md).
+
 **October 17 timing and correction cards:** D30's exact saved-boundary bootstrap
 and source-derived replay, and D35's donor exclusion and correction-direction
 replay, each passed twelve targeted checks before dispatch. Both full primaries

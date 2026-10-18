@@ -32,6 +32,11 @@ saved boundaries and verify results from original source-derived occurrences.
 `events_d35` excludes all recipient copies from resampled donors and rebuilds its
 metrics in a fresh process. Each passed twelve targeted checks before dispatch;
 both completed primaries are verified. Their code and inputs remain frozen.
+`timing_d33` adds the registered chronological personal-surprise comparison.
+Nine targeted checks include a serialized planted-effect run, saved-boundary
+resume, fresh-process replay, immutable reentry and changed-source refusal.
+Its first full card is verified complete; the positive shuffled-history control
+limits interpretation. The stronger-baseline extension awaits completed P7.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 

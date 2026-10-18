@@ -9,6 +9,20 @@ ran it.
 
 ---
 
+### S15-DRIVE-W1-1017-1702 - personal surprise and pauses
+
+**Hypothesis.** Writers may pause longer when a word surprises their own expectations, beyond how surprising it is to the crowd.
+**METHOD.** Fit personal word histories using strictly earlier sessions, tune their weight chronologically, then compare held-out word-onset pauses with population surprise and other word features controlled. Use writer random intercepts, 2,000 writer-bootstrap draws and donor and shuffled-history controls.
+**Found.** The coefficient is positive: 0.0472 log seconds per unit of personal surprise, with a 95% interval of [0.0333, 0.0599], across 41 writers. The writer-shuffle control is also positive. **Means.** This does not yet identify a benefit specific to the writer's own history. The frozen stronger-baseline extension opens and awaits P7; no personal-map claim is admitted.
+
+[Complete D33 report](results/phase_2_4_stage_15/DRIVE/D33.md) records every control,
+support difference, source binding and verification. Four descriptive probabilities
+are registered. The extension is admitted by the primary sign rule but awaits P7;
+the positive writer-shuffle warning remains. Theory/TODO integrate at 20:00 under
+the packet. No tests were harvested from this operational wake.
+
+Curator roll-up: attention and personal expectations; Do pauses track surprises against the writer's own past?; **Narrows**; The primary and writer-shuffle control are both positive; project meaning: a person-specific history benefit remains unestablished; next engineering obligation: complete P7 and the single frozen stronger-baseline extension, then prescribed texture; public claim unchanged; curator decision required: No; detail: complete D33 report above.
+
 ### S15-DRIVE-W1-1017-1550 - ranked timing and correction studies
 
 **Hypothesis.** Choices repeated across a writer's prompts may be produced more automatically than choices confined to one prompt.
