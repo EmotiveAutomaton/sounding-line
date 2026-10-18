@@ -1,0 +1,217 @@
+{
+  "corpus_calls": 0,
+  "model_calls": 0,
+  "native_marginalization_cost": "unmeasured; no impossibility/cap-exceedance claim",
+  "native_tokenizer_support": "unmeasured",
+  "primary_source_read": "Pimentel and Meister (2024), arxiv2406.14561v1, sections4.1-4.3, Theorem2/equation25 and section5.4; https://arxiv.org/html/2406.14561v1",
+  "production_admission": false,
+  "sources": {
+    "runners/drive/cards/timing_word_event.py": "d6e47e4ad8961ce8fe0e2b98862edd4018b80bf24e71f80707a1dae0a7259e4b",
+    "tests/test_drive_cards_timing_word_event.py": "deb7f406c0371eea0b091af3e072fd7d4679b4f2ae09adfd7692f22ef3bb5e54"
+  },
+  "status": "FINITE_CONSTRUCTED_VALIDATION_ONLY",
+  "test_count": 7,
+  "test_exit": 0,
+  "test_log_sha256": "9df8a64c3caf3767bcb0f8059d5de09daf3f00482e8d89ad04fae46c1644c43c",
+  "witness": {
+    "actual_casefold_a": 0.48571428571428577,
+    "canonical_lowercase_only": 0.17142857142857143,
+    "casefold": {
+      "events": {
+        "<EOS>": 0.14285714285714288,
+        "a": 0.48571428571428577,
+        "ax": 0.08571428571428572,
+        "b": 0.28571428571428575
+      },
+      "paths": [
+        {
+          "after_mass": 0.8,
+          "before_mass": 0.7,
+          "event": "a",
+          "probability": 0.17142857142857143,
+          "surface": "A",
+          "token_probabilities": [
+            0.15
+          ],
+          "tokens": [
+            "BA"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "ax",
+          "probability": 0.04285714285714286,
+          "surface": "Ax",
+          "token_probabilities": [
+            0.15,
+            0.2
+          ],
+          "tokens": [
+            "BA",
+            "x"
+          ]
+        },
+        {
+          "after_mass": 0.8,
+          "before_mass": 0.7,
+          "event": "a",
+          "probability": 0.17142857142857143,
+          "surface": "a",
+          "token_probabilities": [
+            0.15
+          ],
+          "tokens": [
+            "Ba"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "ax",
+          "probability": 0.04285714285714286,
+          "surface": "ax",
+          "token_probabilities": [
+            0.15,
+            0.2
+          ],
+          "tokens": [
+            "Ba",
+            "x"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "b",
+          "probability": 0.28571428571428575,
+          "surface": "b",
+          "token_probabilities": [
+            0.2
+          ],
+          "tokens": [
+            "Bb"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "a",
+          "probability": 0.14285714285714288,
+          "surface": "a",
+          "token_probabilities": [
+            0.1,
+            1.0
+          ],
+          "tokens": [
+            "Bempty",
+            "a"
+          ]
+        }
+      ],
+      "start_mass": 0.7,
+      "total": 1.0
+    },
+    "limitation": "Finite witness validates algebra and exposes event mismatch; it neither establishes native tokenizer coverage nor measures corpus marginalization cost.",
+    "native_gpt2_admitted": false,
+    "surface": {
+      "events": {
+        "<EOS>": 0.14285714285714288,
+        "A": 0.17142857142857143,
+        "Ax": 0.04285714285714286,
+        "a": 0.3142857142857143,
+        "ax": 0.04285714285714286,
+        "b": 0.28571428571428575
+      },
+      "paths": [
+        {
+          "after_mass": 0.8,
+          "before_mass": 0.7,
+          "event": "A",
+          "probability": 0.17142857142857143,
+          "surface": "A",
+          "token_probabilities": [
+            0.15
+          ],
+          "tokens": [
+            "BA"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "Ax",
+          "probability": 0.04285714285714286,
+          "surface": "Ax",
+          "token_probabilities": [
+            0.15,
+            0.2
+          ],
+          "tokens": [
+            "BA",
+            "x"
+          ]
+        },
+        {
+          "after_mass": 0.8,
+          "before_mass": 0.7,
+          "event": "a",
+          "probability": 0.17142857142857143,
+          "surface": "a",
+          "token_probabilities": [
+            0.15
+          ],
+          "tokens": [
+            "Ba"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "ax",
+          "probability": 0.04285714285714286,
+          "surface": "ax",
+          "token_probabilities": [
+            0.15,
+            0.2
+          ],
+          "tokens": [
+            "Ba",
+            "x"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "b",
+          "probability": 0.28571428571428575,
+          "surface": "b",
+          "token_probabilities": [
+            0.2
+          ],
+          "tokens": [
+            "Bb"
+          ]
+        },
+        {
+          "after_mass": 1.0,
+          "before_mass": 0.7,
+          "event": "a",
+          "probability": 0.14285714285714288,
+          "surface": "a",
+          "token_probabilities": [
+            0.1,
+            1.0
+          ],
+          "tokens": [
+            "Bempty",
+            "a"
+          ]
+        }
+      ],
+      "start_mass": 0.7,
+      "total": 1.0
+    },
+    "trailing_only_total": 0.7
+  }
+}

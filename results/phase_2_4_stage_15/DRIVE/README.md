@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**Current October 18 amendment:** [mid-run changes](MIDRUN_20261018.md) supersede older retry rules below. D17's environmental continuation and D18's canonical retry are verified complete. [Selected-option source defects](SELECTED_OPTION_AUDIT_20261018.md) hold affected prior inferences; corrected effects remain unknown. D11's primary is complete but its later-text secondary is held. [Current index](INDEX.md) identifies live dispatches and new-card implementation. All earlier completion statements retain execution history, not an override of current validity holds.
+
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,
 verified and recorded. The [live index](INDEX.md) separates actual CPU dispatches
 from building cards; the GPU suggestion recovery has stopped at its retry limit. [Operations](OPS_LOG.md) and

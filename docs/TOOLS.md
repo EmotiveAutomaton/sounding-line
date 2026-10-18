@@ -1,5 +1,15 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**Mid-run validation:** V5.d's complete decomposition and both 200-control ensembles have full source replay; its fake-person control is invalid on 14 fixed-support assignments, with no person inference. The bounded P7 word-event validator passes seven constructed checks of boundary normalization and alternative spellings/token paths. It does not admit native GPT-2 scoring or establish cost feasibility. [Validation receipt](../results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_VALIDATION.json).
+
+**October 18 verified landings:** [D17 pause stability](../results/phase_2_4_stage_15/DRIVE/D17-complete.md), [D18 canonical revision comparison](../results/phase_2_4_stage_15/DRIVE/D18.md), and [D11 acceptance fit](../results/phase_2_4_stage_15/DRIVE/D11.md) have complete fresh-process/source verification. D11 later-text secondary is held. New runtime and GPU continuation checks pass; GPU remains resource-gated. This does not validate exposed selected-option consumers or admit personal taste.
+
+**October 18 validity update:** [Canonical selection audit](../results/phase_2_4_stage_15/DRIVE/SELECTED_OPTION_AUDIT_20261018.md) exposes prepared choice-index defects in selected-option consumers. D3 retries failed actual source validation despite fixture passes; both are invalid. New environmental recovery and scheduling controls pass their targeted/native checks; [implementation](../results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md).
+
+**October 18:** D3 primary/content canonical-source recoveries pass 13 focused checks and both native fixtures. Original scoring and limits remain; saved primary checkpoints are preserved. [Instrument receipt](../results/phase_2_4_stage_15/DRIVE/D3-recovery.md).
+
+**October 18:** D18 canonical repeated-selection recovery passes 17 focused checks and exact failed-session replay; all 254 checkpoints are retained. The native-tested single retry preserves original time/byte limits. [Instrument receipt](../results/phase_2_4_stage_15/DRIVE/D18-recovery.md).
+
 **October 18:** The exact crossed writer/marker REML timing pilot verifies six converged fits and a feasible full-run projection; [full instrument record](../results/phase_2_4_stage_15/DRIVE/D30.p-pilot.md). The [second-source metadata inspection](../results/phase_2_4_stage_15/DRIVE/D30.r-intake.md) retains missing section/identity mappings as a dependency hold. D24 canonical excluded-API provenance repair passes six focused checks, preserves 35scored sessions and the original cap; its later forecast yield preserves140sessions.
 
 **October 18:** D14's separately tested schema repair carries authenticated

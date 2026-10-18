@@ -1,5 +1,9 @@
 # October 16 drive runners
 
+## October 18 current runtime
+
+`cards/batch_runtime_v3` with `midrun_policy` implements reviewed-waiter forecast yields and evidenced environmental resumes. Ten targeted tests including native execution pass. `suggestion_environment_resume` validates 4,453 retained checkpoints and original cumulative budget; ten focused checks pass, with launch gated by 7,424 MiB cold free memory. `menus_v5_decomposition` passed seven focused tests and actual monitored native fixture before production. PMAP production stopped at a source-roster preflight; corrected V4.c and paired follow-ups are being built. New preparations do not imply executed results. See [current index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md); dated statements below retain original scope.
+
 ## October 18 reviewed implementations
 
 `timing_events`, `menus_d12`, `timing_stopping` and `timing_stopping_timer`

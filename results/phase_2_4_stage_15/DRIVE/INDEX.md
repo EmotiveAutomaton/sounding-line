@@ -2,37 +2,40 @@
 
 ## October 18 implementation wave
 
-The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-V4 calibration is verified complete with a failed null check; D32 is verified complete with a marginal primary and marginal outcome shuffle; its single examination extension is verified null. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
-suggestion pass is invalid after its second GPU-safety failure; no further
-retry is dispatched. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
-D39 including its secondary, and the supported D34.v1 are verified complete.
-The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
-No paid batch is active. Each row describes a whole card, never unfinished scores.
+The [October 18 mid-run errata](../../../docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md)
+is active. [Implemented changes](MIDRUN_20261018.md) and the [selected-option audit](SELECTED_OPTION_AUDIT_20261018.md)
+supersede prior retry restrictions and exposed result interpretations below.
+Environmental resumes preserve science and original limits; invalid data and code
+failures still have one retry. No partial scientific scores are reported.
 
 | Card | Complete state or execution status | Evidence / next action |
 |---|---|---|
+| PMAP | production source-census failure before extraction; single repair being prepared | [Failure](PMAP-preflight-failed.md); synthetic fixture had passed |
+| V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
+| V4.c | corrected split authorized; implementation underway | Original V4 labels unchanged; null-world calibration required |
+| D33.pair / .fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
-| D12 | primary verified null; conditional extension closed | [Complete report](D12.md); raw score semantics unresolved |
+| D12 | original selected-score primary under source-validity hold | [Original record](D12.md); canonical rank-only variant being built |
 | D29 | primary and timer extension verified complete | [Length](D29.md), [timer](D29-timer.md); timer diagnostics invalid, no internal-target admission |
-| D14 | primary verified marginal; restoration extension building | [Pilot repair](D14-pilot.md), [primary](D14.md) |
-| D4 | primary verified null; style extension closed | [Complete comparison](D4.md) |
+| D14 | primary inference held on selected-vector source defect; restoration admission held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original](D14.md) |
+| D4 | original inference under selected-label validity hold | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original](D4.md) |
 | D24 | pilot verified; first main failed, single repaired attempt saved at cost yield | [Instrument](D24-pilot.md), [cost hold](WAVE2_CONTINUATION.md) |
 | D15 / V3 | both complete: D15 marginal, V3 positive conditional reliability | [D15](D15.md), [V3 table](V3.md) |
 | D28 | negative primary verified; reversal extension closed | [Full comparison/control warning](D28.md) |
-| D38 | primary verified positive in supported subset; matched-own extension dispatched | [Primary](D38.md); exploratory, no causal claim |
-| D3 / D3-content | first source-replay failures; canonical repair building | [Failures retained](WAVE2_CONTINUATION.md) |
-| D18 | first duplicate-origin failure; one repair building | [Failure retained](WAVE2_CONTINUATION.md) |
-| D20 | native-tested comparison dispatched | Lexical primary, embedding secondary; no partial scores |
+| D38 | primary source exposed; extension statistic invariant but opening gate held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original extension](D38-extension.md) |
+| D3 / D3-content | both single engineering retries failed source validation; invalid | [Complete failure record](D3-recovery.md); no further engineering retry |
+| D18 | canonical retry verified complete; primary null | [Complete result](D18.md); independent of prepared choice index; P1 fluency gate retained |
+| D20 | lossless recovery verified complete; lexical primary positive | [Complete comparison and control limits](D20.md) |
+| D11 | verified primary positive; later-text secondary held on source defect | [Complete report](D11.md); writer-slope extension awaits calibrated V4.c |
 | D30.p | crossed-model cost pilot verified; full pipeline building | [Instrument](D30.p-pilot.md) |
 | D30.r | metadata inspection verified; replication held | [Missing mappings](D30.r-intake.md) |
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
-| V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 taste/habit lens blind |
+| V5 | verified descriptive proxy; V5.d decomposition complete with explicit control deficit | [Original](V5.md); no cross-population headroom denominators |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension; V4 taste/habit lens blind |
-| P1 suggestion pass | invalid, incomplete; engineering retry exhausted | [Second memory-safety failure](SUGGESTION_MAIN_V5_FAILED.md); saved checkpoints intact, dependent comparisons blocked |
+| P1 suggestion pass | validated environmental continuation prepared, waiting for cold GPU floor | [Mid-run authority](MIDRUN_20261018.md); original failures/checkpoints preserved |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |
@@ -41,16 +44,16 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
-| D2 | primary marginal, positive uniform control; extension saved at cost yield | [Primary](D2.md), [cost hold](WAVE2_CONTINUATION.md) |
-| D17 | invalid; engineering retry exhausted | [Both failures and retained evidence](D17.md); no primary result, no family-null increment, conditional extension closed |
+| D2 | original selected-label inference held; extension also awaits V4.c | [Original record](D2.md); diagnostics require canonical choices |
+| D17 | environmental continuation verified complete; positive writer stability | [Complete result](D17-complete.md); psychological component identity unestablished |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
-| D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); [single examination extension](D32-examination.md) verified null; no attention/preference admission |
+| D32 | saved execution complete; selected-label inference and routing held | [Audit](SELECTED_OPTION_AUDIT_20261018.md); original results retained |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | Jester text intake | verified input only; ratings parser pending | [Exact text/source verification](JESTER_TEXT_INTAKE.md); P7 pilot verified; full corpus cost remains unadmitted |
-| P7 | original/batching pilots verified; census/tokenizer pilot saved at cost boundaries | [Census](P7-work-census.md), [cost holds](WAVE2_CONTINUATION.md); main unadmitted |
+| P7 | full corpus census superseded; scoped D33/Jester CPU execution being built | [Mid-run plan](../../../docs/design/stage-15/drive/BATCH_PLAN_20261018_W2_MIDRUN.md); no full-corpus restart |
 | P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family resolved-prefix null counts: K 0, B 2, A 2, G 2, E 0, R 1, S 0, P 0.
+**Historical routing snapshot, held pending selected-source correction and current digest:** family resolved-prefix null counts: K 0, B 2, A 2, G 2, E 0, R 1, S 0, P 0.
 D15 adds one E routing null, V3 resets it and P4's positive extension keeps E at zero; D37 remains dependency-held.
 D33's positive primary resets A after D35; the already-landed D39 null then gives
 one; D23's null extension adds the second, with invalid D17 excluded. D33's single extension and required texture remain unfinished. No family stops.
@@ -71,7 +74,7 @@ One planned check remains at most one hour ahead; the [six-hour inspection](HEAL
 records actual identities, progress, resources, delivery and performed recovery.
 The dated October 16/earlier October 17 records below retain their original scope.
 
-**Current execution:** [the full suggestion pass is invalid after its second
+**Historical execution snapshot before the mid-run amendment:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
 V4 is complete with failed null calibration; D32 and its single examination extension are verified complete; the extension primary is null. D17 is invalid after its second engineering failure; its evidence is retained and its conditional extension is closed. Full reader output remains unavailable;
@@ -169,3 +172,5 @@ P4/D1 fitting under [recipient-specific chronology](../../../docs/design/stage-1
 blind native edit references; bounded chess parsing and Wikipedia text pairs;
 then concrete gated paid routes. The earlier failed Ghost profile witness still
 blocks that separate engine comparison; descriptive work does not bypass it.
+
+Consumer coverage is complete for the audited selection path: D2 training/calibration/test and D12 primary labels are exposed; D6 selection-derived sensitivities are held while its direct-hover primary remains. P8, P4 and D28 are invariant to this defect. [Exact aggregate audit](SELECTED_OPTION_AUDIT_20261018.md).

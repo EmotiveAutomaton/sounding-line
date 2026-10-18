@@ -73,3 +73,21 @@ Operational events are recorded once here under the October 17 packet. Scientifi
 - 2026-10-18: D14 whole primary and D30 crossed-model pilot/source-intake inspection fully landed. D14 verification scope explicitly excludes repeating neural extraction; its single restoration extension is being built. D3, D18 and D3 content companion passed native fixtures and were dispatched. P7 exact tokenizer-cost comparison is active. D24 recovery saved at 140sessions; projected5340.80seconds exceeds original2700second cap, so continuation is held pending an exact cost-feasible implementation.
 
 - 2026-10-18 07:02 PDT: Full native/lock/resource/watcher inspection HEALTH_20261018_W2_NEXT.json passed. D18 also stopped on duplicate accepted-span origin; preserved first failure and assigned canonical repair. D20/D38 extension live. D3 failures and cost holds documented in WAVE2_CONTINUATION.md; no new study or cap authorized.
+
+- 2026-10-18: D38 matched own-error extension independently verified and fully landed, including all three descriptive probabilities. Workers exited and lease released. D20 first attempt reached its output cap after all 1,399 session extractions; exact lossless checkpoint recovery is being prepared under unchanged byte and cumulative time caps. No test harvested from this operational wake.
+
+- 2026-10-18 07:18 PDT: D18 exact canonical-source retry dispatched after 17 checks and native fixture. Original 254 checkpoints preserved and failed-wrapper time charged. D38 extension fully landed. The 07:15 native inspection found every terminal worker exited, no stale leases, all source/research locks intact, RAM/commit/disk floors clear and watcher/calendar live. D20 storage-only recovery and D3 stricter refusal checks continue; no new research harvested. Next planned inspection is 07:45 PDT; six-hour due time remains 09:26 PDT.
+
+- 2026-10-18 07:23 PDT: D11 actual native fixture passed and production dispatched; exact input-only storage audit forecasts 262.23 MiB against 512 MiB cap. D3 primary/content strict canonical recoveries passed 13 checks and separate native fixtures, then dispatched. Original failures/checkpoints and cumulative time caps retained. Four counted CPU slots were available at launch. D20 compression, D14 restoration and D30 crossed-pipeline focused tests continue serially. No new test harvested.
+
+- 2026-10-18T07:44:03.745186-07:00: Mid-run errata filed and scheduling/environmental policy validated; D17 resumed after1,399checkpoint checks; GPU continuation prepared from4,453validatedchunks, resource-held. D20 lossless repair native-passed/dispatched. D3 primary/content second failures invalid; selected-option audit holds exposed interpretations and gates. Three builders reassigned; K-only paid scope. No additional hypotheses harvested beyond supplied cards.
+
+- 2026-10-18T14:52:54.703902+00:00: D11,D17 environmental continuation,D18 canonical retry fully verified and recorded; all source/output hashes, fresh verification, exact native exits and slot release checked. D11 later-text secondary held on selected-index exposure. Daily theory/TODO integration queued.
+
+- V5.d fully verified and landed: all40pins,810completion artifacts, fresh-process reconstruction, native exits and released slot. Reassignment support refusal retained, no repair by redraw.
+
+- D20 lossless recovery fully landed after source/output verification and native exit. PMAP native fixture passed and production launched under monitored v3 runtime; native PID92680, creation ticks134368091221631953.
+
+- 2026-10-18T15:05:14.082257+00:00: PMAP production census refused source-population mismatch before extraction; all49pins verify, exact workers exited, no session checkpoint or scientific score. Single tested source recovery being prepared. Prior launch statement describes dispatch only.
+
+- 2026-10-18T08:11:24.707179-07:00: verified every consumer-audit input/output pin and reviewed D2/D12/D6 source statements. Filed exact source-exposure counts and partial validity holds; no fits, rescoring or new research run. Original results retained; next canonical successors keep their separate authorization.

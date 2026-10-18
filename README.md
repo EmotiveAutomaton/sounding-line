@@ -9,6 +9,8 @@
 
 # Sounding Line
 
+**Mid-run errata applied:** [current status](CURRENT_STATUS.md) identifies new dispatches, environmental recoveries and source-validity holds. The [implementation record](results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md) separates completed changes from studies still being built. Older dated snapshots below are historical.
+
 **October 18:** Reviewed CPU comparisons are running and completed results are
 recorded. [Current status](CURRENT_STATUS.md) and the [execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguish active dispatches, tested successors and unfinished implementation.
 

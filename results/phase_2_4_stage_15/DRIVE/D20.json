@@ -1,0 +1,160 @@
+{
+  "arms": {
+    "embedding_observed": {
+      "exclusions": {},
+      "menus": 3315,
+      "primary": {
+        "ci95": [
+          0.06964102024858183,
+          0.11360137512561302
+        ],
+        "draws": 2000,
+        "effect": 0.09137516409860137,
+        "p_approx": 1.8002316331536977e-16,
+        "standard_error": 0.011096369616852916,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "split_half_reliability": null,
+      "writers": 56
+    },
+    "embedding_outcome_control": {
+      "exclusions": {},
+      "menus": 3315,
+      "primary": {
+        "ci95": [
+          -0.00539421379124478,
+          0.03363173199187022
+        ],
+        "draws": 2000,
+        "effect": 0.011838006423816213,
+        "p_approx": 0.21904855853136973,
+        "standard_error": 0.009631740592859669,
+        "state": "marginal",
+        "undefined_draws": 0
+      },
+      "split_half_reliability": null,
+      "writers": 56
+    },
+    "lexical_observed": {
+      "exclusions": {
+        "no supported offered option": 16
+      },
+      "menus": 3299,
+      "primary": {
+        "ci95": [
+          0.05567311682941249,
+          0.10109761739304488
+        ],
+        "draws": 2000,
+        "effect": 0.07653200987246113,
+        "p_approx": 3.071951480818095e-11,
+        "standard_error": 0.011520561358299321,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "split_half_reliability": null,
+      "writers": 56
+    },
+    "lexical_outcome_control": {
+      "exclusions": {
+        "no supported offered option": 16
+      },
+      "menus": 3299,
+      "primary": {
+        "ci95": [
+          -0.002142457275824703,
+          0.036520917763366884
+        ],
+        "draws": 2000,
+        "effect": 0.014403513644652774,
+        "p_approx": 0.13815081884306243,
+        "standard_error": 0.00971429990025373,
+        "state": "marginal",
+        "undefined_draws": 0
+      },
+      "split_half_reliability": null,
+      "writers": 56
+    }
+  },
+  "baseline": "Exact permutation expectation: uniform other session with same prompt and completed-typed-word progress decile, then uniform menu and supported option. Recipient session excluded in full. Bootstrap resamples writers and recomputes donor weights.",
+  "card": "D20",
+  "comparison_storage": {
+    "compressed_bytes": 4178870,
+    "raw_bytes": 14602497,
+    "raw_sha256": "e629976b1298843f7363b7dba2092c74bf00ff06a1b6380451b51cb397ed641a",
+    "sha256": "1165d11a2ed50df109dc4192f916f67945dbce9d7e6bbdcc88ff7e7e71cf5574"
+  },
+  "comparisons_hash": "1165d11a2ed50df109dc4192f916f67945dbce9d7e6bbdcc88ff7e7e71cf5574",
+  "config": {
+    "batch_size": 16,
+    "bootstrap": 2000,
+    "maximum_undefined_fraction": 0.05,
+    "minimum_writers": 4,
+    "seed": 20261018,
+    "threads": 2
+  },
+  "counts": {
+    "dismissed": 4038,
+    "dismissed_short_tail": 723,
+    "menus": 16855
+  },
+  "descriptive": true,
+  "estimand": "Equal writers, equal sessions within writer, equal dismissed menus within session. Lexical suggestion-content-word recall primary; MiniLM cosine secondary. Next50 completed newly typed words, including later revisions.",
+  "extension": "Separate split-half reliability only if lexical primary positive or marginal; not computed by this primary runner.",
+  "input_hashes": {
+    "content_complete": "4aed0fda373d449c3ca572f81ec05f73bf167e1808b494f2ce055ffb27af5362",
+    "content_model": "3960d5b616a3364d19231cbdc82fd87b20ff5056e64b9226eb08ef0004a0c089",
+    "content_records": "999412526fb0ea8fe0d0497794527d45c7c0e4724f6eb4c546dd77f19d22972d",
+    "content_vectors": "558bc89131c1758d1039bfd6b96d742e0d174eec3296a843f857408f4a415b39",
+    "foundation_complete": "941fc313d7f4f69baf3d5365b2d13243273bd03f2396f13b77431b74d30920da",
+    "p5_completion": "cf2c76d5c137da81fc35c074b38c74a45c546426af3a1227d93117dca91cc650",
+    "p5_index": "d02bb9a4eab51e75b6d5f80db8791fa758c836b8215035107418757493c94150",
+    "p5_inputs": "9ffe4b89eac15be2c0f1b46c6b94f1151da7c8a3ecf073bb40c0db66aebdc346",
+    "p6_completion": "99ac1069cd7da9e1495e38e677c976e6ce33ba22df6af5b69bc4e1e3ae1ed6e2",
+    "p6_index": "49a0d0850f11ee2376fcbe51dba4d5ef3b1317471ba594d4a3426272cf4bb991",
+    "p6_original_plan": "abc41d5bf0eb30ae42dcd585c1789802680cbdfe228212f549fa79c8998d936c",
+    "p6_plan": "ebd3f018625ae16d0d0e3f3924845a25004d28c8ae726cdff85d953437543c3c",
+    "session_index": "b53e82f90def6375a36208701e8e549378fe1406926084f482fd7787238c1297",
+    "sessions": "37398e735edeca45f23717f92cb19854082fe3ed028d277ac59235eb3bea76a3"
+  },
+  "primary": {
+    "ci95": [
+      0.05567311682941249,
+      0.10109761739304488
+    ],
+    "draws": 2000,
+    "effect": 0.07653200987246113,
+    "p_approx": 3.071951480818095e-11,
+    "standard_error": 0.011520561358299321,
+    "state": "positive",
+    "undefined_draws": 0
+  },
+  "recovery": {
+    "all_decompressed_bytes_identical": true,
+    "compressed_session_bytes": 276528279,
+    "max_output_bytes": 536870912,
+    "original_failure_sha256": "74b16d872897ac9bca20f4fbb3022cd6b9a53f7c9d21eb8a735c82915b295f59",
+    "original_inventory_sha256": "78904359d59fb54ac84cefe7ffcc65b0a7a0644b8ea62b96ac4b23813a0e3b58",
+    "original_max_wall_seconds": 10800,
+    "original_plan_sha256": "7105c46fa0fb76196769c5f9ab4de951231dfe55a664d7dab5deede1e8dede39",
+    "original_session_bytes": 611976419,
+    "prior_elapsed_charged_seconds": 182.367988,
+    "reused_sessions": 1399
+  },
+  "repeated_controls": "Original single outcome controls retained; new200-permutation controls still required before clean-day claim",
+  "scientific_admission": false,
+  "state": "positive",
+  "uncertainty": "Writer-node bootstrap of target and donor roles together; lexical primary and embedding secondary fixed before outcomes.",
+  "verification": {
+    "at": "2026-10-18T14:58:43.934606+00:00",
+    "complete_sha256": "c54e9c5a92ad107636e90533a8e1096d2de269f2ec4f6a72d4a9c0d86e3c3a9d",
+    "completion_outputs": 2810,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "f4b82d09f5e7ed7140d90dc742398b488b074087caedb7a88ff235c27e4d175e",
+    "source_pins": 56,
+    "summary_sha256": "f671bf91dece4873016ea24f1721d56a36e04343e2ba5e093a2622bf5024d7c6"
+  }
+}

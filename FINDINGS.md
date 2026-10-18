@@ -9,6 +9,174 @@ ran it.
 
 ---
 
+### OPS-S15-PMAP-PREFLIGHT-1018
+
+**Hypothesis.** The person-map comparison requires identical authenticated source session populations.
+**METHOD.** Verify all frozen input/code pins and run the production source census before any feature extraction or fit.
+**Found.** The census refused mismatched session-index populations before saving any session checkpoint. **Means.** This attempt is invalid infrastructure, not a scientific null. Exact namespace/population reconciliation and a separately tested source-only recovery are required; its one engineering retry remains available.
+
+Curator roll-up: input validity; do the person-map inputs describe the same sessions?; **Infrastructure**; production preflight refused the mismatch; project meaning: no person-map result yet; next engineering obligation: authenticate the entire roster before the single recovery; public scientific claim unchanged; curator decision required: No; detail: PMAP-preflight-failed.json.
+
+### OPS-S15-WORD-EVENT-1018
+
+**Hypothesis.** The cache and language model must assign probabilities to the same word event before their surprises can be compared.
+**METHOD.** Independently enumerate a complete finite token tree with alternative tokenizations and case variants, and compare its exact word-event sums with the two-boundary ratio; test normalization, first-word behavior and incomplete-tree refusal.
+**Found.** All seven constructed checks pass. A single canonical spelling path omits mass belonging to the case-folded cache event; omitting the start-boundary denominator also loses normalization. **Means.** Scoped P7 requires a compatible native event implementation before admission. Native tokenizer coverage and marginalization cost remain unmeasured; this fixture proves no native-model impossibility.
+
+Curator roll-up: reader measurement; do compared word probabilities describe the same event?; **Infrastructure**; the finite validator detects incompatible event definitions; project meaning: no native P7 admission from token overlap alone; next engineering obligation: exact native event/support and cost validation, while P6-based pairs proceed; public scientific claim unchanged; curator decision required: No; detail: [validation](results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_VALIDATION.json).
+
+### S15-DRIVE-D20-1018
+
+**Hypothesis.** Words from dismissed suggestions may still appear in the writer's next produced text more than words from comparable other sessions.
+**METHOD.** Compare dismissed suggestions with the next 50 completed writer-typed words, against the exact expected overlap from other sessions matched on supplied prompt and writing-progress decile. Average equally across writers, then sessions and menus; resample writer nodes in both target and donor roles 2,000 times.
+**Found.** Lexical uptake is positive against this matched baseline; the embedding secondary is also positive. **Means.** Dismissed suggestions overlap subsequent wording more than this comparison predicts. Exposure, causation and person-specific uptake remain unestablished.
+
+The table reports excess content-word recall for lexical comparisons and excess cosine similarity for embedding comparisons, percentile writer-bootstrap 95% intervals, descriptive two-sided normal-reference probabilities and frozen states.
+
+| Complete comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Lexical primary | +0.076532 | [+0.055673, +0.101098] | 3.0719515e-11 | positive |
+| Original lexical shuffle | +0.014404 | [-0.002142, +0.036521] | 0.13815082 | marginal |
+| Embedding secondary | +0.091375 | [+0.069641, +0.113601] | 1.8002316e-16 | positive |
+| Original embedding shuffle | +0.011838 | [-0.005394, +0.033632] | 0.21904856 | marginal |
+
+Of 4,038 dismissed menus, 723 lack the complete later 50-word window. The embedding comparison uses 3,315 menus; the lexical primary uses 3,299 after 16 lack a supported content-word option. Newly produced words include later revisions rather than only final survivors. The matcher excludes the recipient's complete session from donors. No within-writer result or causal exposure effect is implied by this baseline. The single-draw outcome controls are marginal; they do not substitute for the newly required 200-permutation check. The separately gated uptake-reliability extension remains unexecuted.
+
+All 1,399 retained session extractions are byte-identical after decompression. Their original 611,976,419 bytes became 276,528,279 compressed bytes, fitting the unchanged output ceiling. Prior elapsed time remains charged to the original combined budget. Fresh source/statistical replay, all output and source hashes, native worker exit and slot release verify. The prepared selected-option defect does not enter all-offer/dismiss handling used here; this is defect-specific invariance, not universal validity.
+
+Curator roll-up: suggestion uptake; does dismissed wording recur beyond a matched baseline?; **Narrows**; lexical uptake is positive; project meaning: a descriptive association without causal or person-specific admission; next engineering obligation: repeated controls and the registered reliability extension; public claim newly licensed only for matched descriptive overlap; curator decision required: No; detail: D20.md/json.
+
+Theory/TODO integrate at 20:00 PDT under the active packet.
+
+### S15-DRIVE-V5D-1018
+
+**Hypothesis.** A writer may handle similar suggestions consistently beyond her overall tendency to accept, edit or dismiss.
+**METHOD.** Reuse V5's exact pair graph and canonical handling labels, subtract expected agreement from each writer's class frequencies with both compared decisions excluded, and bootstrap real writer nodes 2,000 times. Run 200 within-writer outcome permutations and 200 session-to-writer reassignments on the same pair rows.
+**Found.** The primary context-specific contrast is null, with an interval too broad to meet the registered near-zero route. **Means.** Neither situation-specific consistency nor the claim that handling is only a personal lean is established by this comparison.
+
+The table reports half the within-writer cross-session versus between-writer agreement difference at the registered 0.8 similarity cutoff, its base-rate component and the residual. Intervals are percentile real-writer-node 95% intervals; probabilities are descriptive two-sided normal approximations.
+
+| Complete contrast | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Raw agreement difference | +0.028622 | [+0.001345, +0.064105] | 0.079028211 | positive |
+| Personal lean component | +0.028858 | [+0.010300, +0.060422] | 0.027495388 | positive |
+| Context-specific primary | -0.000237 | [-0.016633, +0.024234] | 0.98130155 | null |
+
+All 16,855 handling labels across 61 writers agree with canonical source replay; the defective prepared choice index is not used. The primary graph contains 1,617 within-writer cross-session pairs, 20,956 between-writer pairs and 3,831 same-session pairs, with no leave-pair-out support exclusions. The complete JSON retains every cutoff, same-session contrast, timing curve, Cohen kappa with separate endpoint marginals, and the separately named pooled-mixture adjustment.
+
+The 200 outcome permutations have mean +0.000221710, standard deviation 0.009747338 and 95% range [-0.021213317,+0.018587503]. The predicted-direction permutation probability is 0.542288557; the absolute mean does not exceed one quarter of its standard deviation. This particular bias check does not flag the pipeline.
+
+The fake-person control is **invalid**:14 of 200 fixed reassignments lack full leave-pair-out support. The runner retains all assignments and refuses an own-minus-fake estimate or probability instead of redrawing or silently dropping rows. No person-specific reading is licensed. The balanced base-rate identity verifies separately with its finite-writer correction; it is not substituted for the unequal matched graph. No gain on another population may be divided by these quantities. This Tier 0 instrument does not increment family counters; original V5 remains unchanged.
+
+Curator roll-up: personal handling; is context consistency greater than a writer's base-rate lean?; **Infrastructure**; the primary contrast is null with an unresolved route; project meaning: no personal context or lean-only admission and fake-person inference unavailable; next engineering obligation: retain this support failure and deliver the complete decomposition at the next digest; public claim unchanged; curator decision required: No; detail: V5.d.md/json.
+
+Theory/TODO and cross-repository delivery integrate at 20:00 PDT under the packet.
+
+### S15-DRIVE-MIDRUN-LANDINGS-1018
+
+**Hypothesis.** Suggestions closer to a writer's recent wording may be more likely to be accepted.
+**METHOD.** Fit a descriptive partial-pooling logistic acceptance model to 15,827 menus from 61 writers, using all offered options' mean similarity to the preceding 50 produced words, prompt similarity, length and frozen embedding components; resample real writers 2,000 times.
+**Found.** The own-fit coefficient is positive, while the original single outcome shuffle is null. **Means.** Recent-text fit predicts acceptance in this descriptive fit; it does not establish held-out forecasting or differences between personal slopes.
+
+The table reports the complete contrast, percentile writer-bootstrap 95% interval, descriptive two-sided normal-reference probability, and frozen state. These probabilities do not supply confirmatory admission.
+
+| Comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Own-fit coefficient | +1.833997 | [+0.659494, +3.218477] | 0.0049745189 | positive |
+| Original single outcome shuffle | -0.379337 | [-1.680711, +0.839749] | 0.5543006 | null |
+
+The primary excludes 1,028 menus without earlier text. Twenty-four primary and twelve control bootstrap fits are undefined under the fixed numerical certification, below the prespecified five-percent ceiling; intervals use certified draws. The selected-suggestion indexing defect does not enter the all-option primary or handling outcome. The later-text secondary does use it and is held: 1,530 exposed rows enter supported paired sessions. Its old score is retained privately, not accepted as a valid result. The new 200-permutation control remains pending; one clean draw does not establish a clean pipeline. The conditional writer-slope comparison waits for calibrated V4.c.
+
+Curator roll-up: reader fit; does similarity to recent wording predict acceptance?; **Narrows**; the descriptive own-fit coefficient is positive; project meaning: useful association without personal-slope admission; next engineering obligation: repeated controls and corrected secondary source, with V4.c before slope testing; public claim unchanged; curator decision required: No; detail: D11.md/json.
+
+#### Completed comparison
+
+**Hypothesis.** Writers may have stable proportions of slower pauses across their sessions.
+**METHOD.** Normalize logged between-word intervals, exclude system waits, select a pooled pause mixture by Bayesian information criterion, and estimate the writer intraclass correlation of its slowest-component weight with 2,000 writer-bootstrap draws.
+**Found.** The slowest-component weight has positive writer stability. **Means.** Logged pause proportions support a stable process feature on this corpus; the mixture components are not identified psychological processes.
+
+The table reports the complete contrast, percentile writer-bootstrap 95% interval, descriptive two-sided normal-reference probability, and frozen state. These probabilities do not supply confirmatory admission.
+
+| Comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Slowest-component writer stability | +0.724086 | [+0.538672, +0.798951] | 1.1660471e-27 | positive |
+
+The selected mixture has 3 components. The primary uses 1389 sessions from 53 writers; 1397 of 1399 source sessions support extraction. It excludes 114131 system-wait intervals, 523 multicharacter deltas and 471 zero pre-delta intervals. Its original writer-label shuffle is -0.005632; this is not the new paired fake-writer contrast. Intervals condition on the selected pooled mixture. The one numerical repair is unchanged; the later Windows access-denied interruption resumed only after all retained checkpoint and input hashes passed. Original failed attempts remain intact.
+
+Curator roll-up: process stability; do normalized pause proportions recur within writer?; **Strengthens**; slow-component weights show positive stability; project meaning: a process descriptor without psychological component identification; next engineering obligation: paired identity controls and registered downstream consumers; public claim newly licensed only at the descriptive process level; curator decision required: No; detail: D17-complete.md/json.
+
+#### Completed comparison
+
+**Hypothesis.** Writers may consistently delete text with less fit to the supplied prompt than comparable text they keep.
+**METHOD.** Match fully deleted original spans to fully retained spans within session and origin, compare their frozen embedding similarity to the released prompt, and correlate writers' mean sacrifice rates across odd and even chronological sessions with 2,000 writer-bootstrap draws.
+**Found.** The primary split-half correlation is null. **Means.** This span-matching representation does not establish stable personal prompt-fit sacrifice.
+
+The table reports the complete contrast, percentile writer-bootstrap 95% interval, descriptive two-sided normal-reference probability, and frozen state. These probabilities do not supply confirmatory admission.
+
+| Comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| All supported source spans | -0.209093 | [-0.594383, +0.261824] | 0.35551682 | null |
+| Writer-typed specification | -0.253732 | [-0.644627, +0.239037] | 0.27787242 | null |
+| Accepted suggestion specification | +0.704361 | [-0.886216, +0.993834] | 0.21413229 | marginal |
+| Original pair-label shuffle | +0.015932 | [-0.346494, +0.449985] | 0.93867414 | marginal |
+
+The extraction covers 1399 sessions and 61 writers; 41 writers satisfy the primary two-session-per-half support rule, with 5496 matched pairs and 227 cosine ties retained as zero sacrifice. Only six writers support the accepted-suggestion specification. Partial survival, system deletion and whitespace-only spans are excluded explicitly. All text is authenticated against canonical actual insertions, so the prepared selected-index defect does not affect this primary. Original failures and all 254 reusable checkpoints remain intact. The separate fluency extension still requires P1; it was not executed. Single-draw control is historical, not a new clean-day certificate.
+
+Curator roll-up: revision priorities; is prompt-fit sacrifice stable within writer?; **Narrows**; the split-half primary is null; project meaning: this observable does not establish a personal revision feature; next engineering obligation: retain source limits and P1-dependent extension gate; public claim unchanged; curator decision required: No; detail: D18.md/json.
+
+Theory/TODO integration is queued for20:00PDT under the active campaign policy. No uncompleted-card scores are reported.
+
+### OPS-S15-MIDRUN-1018 - errata and source validity
+
+**Hypothesis.** Prepared selected-suggestion text should identify the suggestion actually inserted.
+**METHOD.** Join every prepared menu to the authenticated canonical full-document replay, verify option ordering and insertion identity, then inspect saved eligible inputs of completed consumers. No corrected models, effects or intervals were fitted.
+**Found.** There are 2,510 proven choice mismatches across 366 sessions; all 16,855 handling labels agree. **Means.** Selected-option consumers require correction before their original scientific interpretation can be relied on. This is a data defect, not evidence that their hypotheses are false.
+
+The table counts source/design cells affected, not corrected scientific effects.
+
+| Consumer | Verified exposure | Disposition |
+|---|---|---|
+| D2 | 2,294 unique training menus, 156 calibration menus and 7 saved test labels | Primary inference and original hierarchical design held; separate canonical successor required |
+| D12 | 2,507 of 12,167 primary-supported selections | Selected-score and rank interpretations held |
+| D6 | 1,557 selected slots among 8,988 eligible menus | Selection-derived summaries/sensitivities held; direct-hover primary retained |
+| P8 / P4 / D28 | All-option extraction, handling and direct-hover paths | Invariant to this defect; existing independent limits remain |
+| D4 | 122 calibration labels and 1 held-out label | Original inference under validity hold |
+| D14 | 2,510 chosen-offer drift cells; 2,504 disturbance vectors | Primary inference and restoration admission held |
+| D32 | 5,020 binary option labels in each specification | Original coefficients/control interpretations held |
+| D32 examination | 2,510 menus exposed | Selection-dependent flags require audit; direct event records retained |
+| D38 | 40 of 108 eligible events have changed near/far input cells | Original primary inference held |
+| D38 extension | Fixed-window binary and offered-fraction outcomes invariant | Opening primary gate exposed; no renewed route |
+| D11 | All-option primary and handling control invariant; selected-vector later-text secondary exposed | Primary verified complete; secondary held |
+| D18 / D20 | Actual inserted spans / all offered options and dismiss handling | No dependence on the defective choice index in their primaries |
+
+
+The follow-up consumer audit verifies all completed source pins and exact saved
+partition memberships. D2 has 2,294 affected unique training menus out of 6,903,
+156 of 2,478 calibration menus, and 7 of 2,543 test menus; this is not merely a
+test-label problem. No fits or scores were recomputed. D2's original engineering
+retry is used; the newly commissioned canonical diagnostic is a separate successor.
+D12's new rank-only variant likewise preserves the original exposed result.
+D6's direct-hover primary does not use the affected selection flags. P8, P4 and
+D28 require no selected-identity repair. These are defect-specific conclusions,
+not an all-purpose validity certificate.
+
+Canonical choices are unique throughout the accepted roster. No writer identifiers,
+raw text or fitted identification models are published. The original audit's first
+path-separator refusal is retained; the completed census authenticates source pins
+and completed artifact bindings. Owner rehashed every audit input/output and
+independently recomputed the choice and handling census. [Aggregate evidence](results/phase_2_4_stage_15/DRIVE/SELECTED_OPTION_AUDIT_20261018.json).
+
+Original completed outputs and probabilities are preserved as historical evidence;
+corrected effect sizes and states remain unknown. Family stop decisions depending
+on these results are held. Theory/TODO corrections integrate at 20:00 under the
+campaign policy; visible validity warnings apply immediately.
+
+Curator roll-up: process-record validity; does a recorded selection identify actual inserted text?; **Infrastructure**; selected-option consumers have a proven source mismatch; project meaning: affected inferences are held, not scientific negatives; next engineering obligation: canonical-source repairs within the permitted attempts and new paired controls; public claim weakened for exposed comparisons; curator decision required: No; detail: SELECTED_OPTION_AUDIT_20261018.md/json.
+
+Both D3 retries are invalid on source-validation failures; no further engineering retry follows from the environmental rule. D20's lossless recovery passed its actual native fixture and is dispatched. D17 resumed after validated environmental interruption. Full operational changes and outstanding new-card implementation are recorded in [MIDRUN_20261018.md](results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md).
+
+Curator roll-up: execution validity; can existing authorized work continue without changing its science?; **Infrastructure**; tested scheduling and environmental recovery are applied; project meaning: original failures and resource protections remain visible; next engineering obligation: finish revised W2 and valid retained-work continuations; public scientific claim unchanged; curator decision required: No; detail: MIDRUN_20261018.md.
+
 ### S15-DRIVE-W2-1018 - familiarity and model-departure cards
 
 **Hypothesis.** Writers may request fewer alternatives after becoming familiar with a prompt.
@@ -318,6 +486,44 @@ Curator roll-up: pervasive choices; is the next implementation admitted?; **Infr
 [Complete instrument record](results/phase_2_4_stage_15/DRIVE/D30.r-intake.md).
 
 Curator roll-up: pervasive choices; is the next implementation admitted?; **Infrastructure**; required source mappings are absent; project meaning: scientific conclusions unchanged; next engineering obligation: retain explicit replication hold; public claim unchanged; curator decision required: No; detail: D30.r-intake.md/json.
+
+#### D38 matched own-error extension
+
+**Hypothesis.** A substantial correction to model text may reduce subsequent acceptance more than a matched correction to the writer's own text.
+**METHOD.** Match supported model and own-text correction events within writer by deleted length, request timing and session order; compare before-minus-after offered-option acceptance drops with 2,000 writer bootstraps and the fixed within-writer outcome shuffle.
+**Found.** The model-minus-own difference is marginal: its interval includes zero. **Means.** This comparison does not establish a greater acceptance drop after model errors; the earlier semantic-narrowing association remains a separate exploratory result.
+
+The table reports model-minus-own differences in acceptance drops across eight supported writers. The primary averages selected-offer fractions within menus; the binary sensitivity counts any menu uptake. Intervals are percentile writer-bootstrap 95% intervals, and probabilities are descriptive normal-reference Wald approximations.
+
+| Complete comparison | Difference | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Offered-option primary | +0.0127865 | [-0.0085215, +0.0430949] | 0.34837863 | marginal |
+| Within-writer outcome shuffle | +0.0228068 | [-0.0266728, +0.0649930] | 0.33978785 | marginal |
+| Binary menu uptake sensitivity | +0.0305641 | [-0.0470602, +0.1360335] | 0.51445699 | marginal |
+
+[Support, limitations and verification](results/phase_2_4_stage_15/DRIVE/D38-extension.md).
+
+Curator roll-up: choice and examination; do model errors reduce acceptance more than own errors?; **Narrows**; the matched difference is marginal; project meaning: model-specific acceptance reduction remains unestablished; next engineering obligation: continue eligible independent cards, no further extension; public claim unchanged; curator decision required: No; detail: D38-extension.md/json.
+
+### OPS-S15-D18-RECOVERY-1018
+
+**Hypothesis.** An engineering repair can retain canonically unusable API insertions without treating them as eligible accepted text or losing their document provenance.
+**METHOD.** Reproduce the failed raw session, require the canonical unusable-selection reason, verified insertion, exact final document and absence from P2/prepared decisions; retain both API spans separately and reuse authenticated original checkpoints without changing the matching or statistic.
+**Found.** Seventeen focused checks, actual failed-session replay and the counted native fixture pass. **Means.** The single engineering retry is dispatched; no population result or scientific negative follows from the original failure.
+
+[Full diagnosis, preserved evidence and bounded dispatch](results/phase_2_4_stage_15/DRIVE/D18-recovery.md).
+
+Curator roll-up: provenance instrument; can excluded API appends be preserved without misclassification?; **Infrastructure**; exact source recovery passes its checks; project meaning: the failed attempt has no scientific verdict; next engineering obligation: inspect the one bounded retry; public claim unchanged; curator decision required: No; detail: D18-recovery.md/json.
+
+### OPS-S15-D3-RECOVERY-1018
+
+**Hypothesis.** Exact source replay can preserve unusable repeated API insertions without adding them to eligible acceptance or reversal outcomes.
+**METHOD.** Require canonical reconstruction without errors, the exact unusable-selection reason, verified insertion and absence from eligible P2 accepted decisions. Retain every document edit and an exclusion ledger; re-run the unchanged primary and content companion in separate bounded attempts.
+**Found.** Thirteen checks and both native fixtures pass, including positive, null and reversed complete pipelines and refusal of wrong reasons or unverified insertions. **Means.** The single retries are dispatched; their original failures supply no scientific verdict.
+
+[Full diagnosis and bounded retries](results/phase_2_4_stage_15/DRIVE/D3-recovery.md).
+
+Curator roll-up: provenance instrument; can unusable appends be preserved without changing reversal measurement?; **Infrastructure**; both native recovery fixtures pass; project meaning: original failures have no scientific verdict; next engineering obligation: verify bounded retries and retain first-tenth cost stops; public claim unchanged; curator decision required: No; detail: D3-recovery.md/json.
 
 ### OPS-S15-P7-BATCHING-1018 - causal batching validated; corpus cost still open
 

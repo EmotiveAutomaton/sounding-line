@@ -18,6 +18,13 @@ with the reason.
 
 ---
 
+## October 18 mid-run corrections
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| Mid-run errata supplied for review and implementation | Operational policy applied; prioritized person-profile and paired-control cards commissioned; conditional K-only paid scope; source validity holds recorded | built / planned | [Exact errata](../../docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md), SHA256708a4fa814fd4743a2ec20fbd7221130e7121845cb5982c31cc525795374383c; [handoff](../../docs/design/stage-15/drive/MIDRUN_HANDOFF_20261018.json) |
+| “Build the corrected split test” | Separate V4.c learns choices/history on one half and tests variance on the other; original labels and null-world gates preserved | planned | [Decision](../../docs/design/stage-15/drive/V4C_SPLIT_DECISION_20261018.json) |
+
 ## October 17 packet and three theory walkthroughs
 
 | Contribution | What changed | Status | Record |

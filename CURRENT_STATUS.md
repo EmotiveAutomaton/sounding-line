@@ -1,27 +1,33 @@
 # Current status
 
-## October 18: continued implementation and execution
+## October 18: mid-run errata applied
 
-Gear 2 remains active and Stage 15 open. D20 and D38's registered extension
-have native dispatches. D14, D15, V3, D28 and D38 have complete recorded
-results alongside the earlier wave. The [execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
-links each full card.
+Gear 2 remains active; Stage 15 is open. The [mid-run errata](docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md)
+changes forecast yields, environmental resumes, repeated and paired controls,
+and the order of the next studies. Tested runtime changes are in use.
+[D17](results/phase_2_4_stage_15/DRIVE/D17-complete.md),
+[D18](results/phase_2_4_stage_15/DRIVE/D18.md) and
+[D11](results/phase_2_4_stage_15/DRIVE/D11.md) have complete verified landings.
+D20's lossless recovery is verified complete; [V5.d](results/phase_2_4_stage_15/DRIVE/V5.d.md) is complete with its fake-control support failure recorded. PMAP passed its synthetic native fixture, then production refused a source-roster mismatch before extraction;
+D33's pairs, scoped P7 and the corrected V4.c split are being built.
 
-D3 and its content companion, and D18, stopped on a repeated accepted-span
-source case. First failures/checkpoints remain; one tested repair each is
-being built. D2, repaired D24 and the P7 tokenizer pilot saved at cost
-boundaries. Caps remain unchanged. These are neither completed studies nor
-scientific negatives. D30's exact crossed-model pilot is verified and its full
-comparison is being built. Its second-dataset replication lacks authentic
-section/author mappings. D11 and later eligible cards remain implementation
-work. D31 needs verified novels and admitted labels. The packet is unfinished.
+A [source audit](results/phase_2_4_stage_15/DRIVE/SELECTED_OPTION_AUDIT_20261018.md)
+found a prepared selected-option indexing defect. D2, D4, D12, D14, D32 and D38 inferences,
+selection-dependent examination flags, D6 selected-slot sensitivities, and D11's later-text secondary are held.
+Original evidence remains intact; corrected effects are unknown. The D11 primary,
+D18 and D20 do not use that defective index. Both D3 engineering retries failed
+source validation and remain invalid, without a scientific-negative conclusion.
 
-[Continuation and limits](results/phase_2_4_stage_15/DRIVE/WAVE2_CONTINUATION.md)
-and the [native inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_W2_NEXT.json)
-record identities, locks, resources and watcher delivery. No paid batch is
-active; GPU suggestions and D17 remain invalid with retries exhausted.
-Theory/TODO integrate at 20:00 PDT; six-hour health stays independent. Dated
-snapshots below are retained history.
+The GPU suggestion continuation has validated all 4,453 retained checkpoints.
+It waits for at least 7,424 MiB free GPU memory and the existing temperature limit;
+the latest check had 7,296 MiB free. No unrelated application was stopped.
+Only Gear 3 K remains authorized, conditional on D31 intake and known-answer
+readiness before Monday noon PDT; no paid batch is running. Full P7 census is
+superseded and will not resume this campaign. The [live index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+separates actual dispatches, completed evidence and implementation work.
+Theory/TODO integrate at 20:00 PDT, with immediate validity holds already visible.
+The packet is not fully implemented or scientifically closed. Earlier snapshots
+below preserve the rules and observations that applied when written.
 
 ## Earlier October 18: recorded results, unfinished queue
 

@@ -1,5 +1,7 @@
 # Documentation - current authority, methods and history
 
+**October 18 mid-run authority:** [errata](design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md) and [implementation/validity record](../results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md) supersede historical retry and routing statements below. Use [current status](../CURRENT_STATUS.md) for dispatches and source-validity holds.
+
 **October 18:** The [reviewed implementation wave](design/stage-15/drive/BATCH_PLAN_20261018_W2.md) is running; [current status](../CURRENT_STATUS.md) and the
 [evidence index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) show native dispatches,
 completed landings and remaining implementation. The dated records below retain

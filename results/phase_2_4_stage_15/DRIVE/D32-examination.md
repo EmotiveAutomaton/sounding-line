@@ -1,5 +1,7 @@
 # D32 examination: process markers among declined suggestions
 
+**October18 validity hold:** Canonical insertion audit proves or identifies exposure to incorrect prepared choice indexes. Original outputs remain; corrected scientific interpretation is not established. [Audit](SELECTED_OPTION_AUDIT_20261018.md).
+
 **Hypothesis.** Declined suggestions outside a writer's earlier repertoire may more often lack examination markers during a short menu display.
 **METHOD.** Join the frozen repertoire labels to authenticated menu events, compare outside and inside declined offers within each writer, and use 2,000 paired writer-bootstrap draws with fixed duration and exposure-policy sensitivities.
 **Found.** The primary is null: outside offers do not show the predicted excess of short, unmarked displays. **Means.** These markers do not support that process prediction; neither their absence nor the higher recorded hover share establishes pruning or dislike.
