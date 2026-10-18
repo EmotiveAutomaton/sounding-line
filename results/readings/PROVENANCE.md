@@ -22,6 +22,8 @@ with the reason.
 
 | Contribution | What changed | Status | Record |
 |---|---|---|---|
+| Build the supported matched-history variant and push the mid-work state first | Mid-work push completed before continuing; separate supported calibration/evaluation comparison enters implementation with the original full-population question open | written; validation underway | [Decision](../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json) |
+| Use the complete Jester records; retain the original gap | Separate input preparation authorized for all 50,691 complete records, quarantining exactly one incomplete final record without imputing its 28 blanks | written; implementation underway | [Decision](../../docs/design/stage-15/drive/JESTER_COMPLETE_RECORDS_DECISION_20261018.json) |
 | Mid-run errata supplied for review and implementation | Operational policy applied; prioritized person-profile and paired-control cards commissioned; conditional K-only paid scope; source validity holds recorded | built / planned | [Exact errata](../../docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md), SHA256708a4fa814fd4743a2ec20fbd7221130e7121845cb5982c31cc525795374383c; [handoff](../../docs/design/stage-15/drive/MIDRUN_HANDOFF_20261018.json) |
 | “Build the corrected split test” | Separate V4.c learns choices/history on one half and tests variance on the other; original labels and null-world gates preserved | planned | [Decision](../../docs/design/stage-15/drive/V4C_SPLIT_DECISION_20261018.json) |
 
