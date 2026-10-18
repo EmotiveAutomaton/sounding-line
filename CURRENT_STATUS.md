@@ -1,5 +1,23 @@
 # Current status
 
+## October 18 week rollout, 15:20 PDT
+
+Gear 2 remains active. [The reviewed week packet](docs/design/stage-15/drive/WEEK_REVIEW_20261018.md)
+is rolling out with the approved population-relative SDT1 interpretation and its
+competence gap retained. D38 and D14 canonical successors are fully verified and
+recorded; D32 canonical is running. D2 canonical primary and the engine consumers
+remain implementation work. The engine handoff is delivered; theory filing stays
+scheduled for 20:00 PDT as requested by its source.
+
+The GPU reader [stopped at its unchanged working memory floor](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_2_STOP.md).
+All 6,102 retained checkpoints validate. A separately labeled continuation is
+prepared with prior time charged, but the current memory sample is below its
+cold-start requirement. It has not restarted. No scientific verdict follows from
+this unfinished pass. D32 continues to produce fresh CPU checkpoints. The next
+planned inspection is 15:26; independent six-hour health remains 15:27:49 PDT.
+The [execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md) identifies completed,
+running, resource-held and unbuilt work. The older snapshots below are historical.
+
 ## October 18: mid-run errata applied
 
 Gear 2 remains active; Stage 15 is open. The [mid-run errata](docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md)

@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-GPU-ENVIRONMENT-2-STOP-1018
+
+**Hypothesis.** Completed reader checkpoints can survive a resource interruption without changing the scientific comparison.
+**METHOD.** Inspect the exact safety sample, ended native owner and released GPU lease; validate every retained checkpoint against source cases, origin plans and numerical reductions, then prepare a separately labeled continuation with cumulative time charged.
+**Found.** All 6,102 retained checkpoints validate after a stop below the unchanged GPU memory floor. **Means.** The unfinished study has an environmental interruption, not a scientific negative. The prepared continuation remains below its cold-start memory requirement; no new attempt or partial score is reported.
+
+The working sample was 1,015 MiB free against a 1,024 MiB floor at 15:10 PDT. The prepared successor binds 124 pins and charges 9,178 seconds to the original allowance, leaving 110,167 seconds. At 15:20, its 7,132 MiB free is below the 7,424 MiB cold-start requirement. Exact owner exit and GPU lease release verify; other applications remain untouched. D32's CPU execution continues. No scientific gate, roster or precision changed. Shared operational integration remains at 20:00; watcher inspection and recovery readiness are recorded now. No new test was harvested.
+
+Curator roll-up: reader operations; can saved work survive a resource interruption?; **Infrastructure**; every retained checkpoint validates; project meaning: the original unfinished comparison can continue when resources permit; next engineering obligation: recheck the unchanged restart floor at the planned inspection and resume only within original limits; public claim unchanged; curator decision required: No; detail: [failure and prepared continuation](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_2_STOP.md).
+
 ### S15-WEEK-D14-CANONICAL-1018
 
 **Hypothesis.** Suggestions departing from the preceding paragraph are dismissed or edited more often, after the original content and handling features are accounted for.

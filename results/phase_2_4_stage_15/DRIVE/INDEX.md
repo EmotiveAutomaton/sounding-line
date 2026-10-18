@@ -1,6 +1,6 @@
 # October 16 drive: execution index
 
-[D14 canonical is verified complete](D14-canonical.md): marginal primary, null original drift shuffle and a biased repeated outcome reference. D32 and the GPU reader continue; canonical D2 is next to implement. The [15:06 rollout checkpoint](WEEK_PROGRESS_20261018_1506.md) retains its earlier observation and dependency handoff.
+[D14 canonical is verified complete](D14-canonical.md): marginal primary, null original drift shuffle and a biased repeated outcome reference. D32 continues; canonical D2 is next to implement. The GPU reader [stopped at its working memory floor](SUGGESTION_ENVIRONMENT_2_STOP.md); all retained checkpoints validate and a same-study continuation is prepared but below its restart floor. The [15:06 rollout checkpoint](WEEK_PROGRESS_20261018_1506.md) retains its earlier observation and dependency handoff.
 
 October 18 week update: [D32 timing-pilot pause and validated telemetry recovery](D32-canonical-pilot-pause.md); the [complete pilot admits full D32 main, now running](D32-canonical-pilot.md). [D14 canonical validation and launch](D14-canonical-build.md) preceded its completed landing. [Finite extended calendar](WEEK_CALENDAR_20261018.md) is running.
 
@@ -54,7 +54,7 @@ failures still have one retry. No partial scientific scores are reported.
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension; V4 taste/habit lens blind |
-| P1 suggestion pass | unchanged environmental continuation running since 12:37 PDT; live output and resource guards verified | [Launch and inspection](SUGGESTION_ENVIRONMENT_2_LAUNCH.md); all 4,988 predecessor checkpoints revalidated, original [stop](SUGGESTION_ENVIRONMENT_1_STOP.md), evidence and allowance preserved |
+| P1 suggestion pass | environmental stop15:10; complete checkpoint validation and separate continuation prepared, resource-held | [Stop and recovery preparation](SUGGESTION_ENVIRONMENT_2_STOP.md);6,102 retained checkpoints, original allowance and limits preserved |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |
