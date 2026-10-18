@@ -2401,6 +2401,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 choice-model instrument:** D2's primary is verified complete after
+one canonical-order replay repair. Nine checks, exact byte reuse, fresh production
+replay and all source/output bindings pass. The primary is marginal, with a positive
+uniform-choice contrast; no clean preference-information or personal-taste claim.
+Intervals condition on fitted forecasts; the hierarchical extension remains separate.
+[Complete report and retained failure](../results/phase_2_4_stage_15/DRIVE/D2.md).
+
 **October 17 required timing control:** the isolated D30 outcome-shuffle runner
 preserves the original primary design and all within-writer outcome multisets.
 Eight targeted checks, production fresh-process bootstrap replay, independent

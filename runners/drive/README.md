@@ -64,6 +64,16 @@ watcher mode at freeze, without dispatching studies or publication.
 contain its point estimate. New, undispatched cards use v2. Frozen sources stay
 intact; the owner audits their completed classifications before routing.
 
+`menus_d2` implements the registered choice-among-suggestions primary, with
+strict chronological preprocessing, calibrated conditional logit, training-defined
+dissimilarity bins and a whole-pipeline uniform-choice control. Original fresh
+verification refused a floating-point aggregation-order mismatch in bin means;
+`menus_d2_recovery` canonicalizes writer traversal and reproduces every original
+summary field from byte-identical saved forecasts. Nine targeted checks and
+production fresh replay pass. The primary is marginal, with a positive uniform
+control. Its hierarchical Bayes extension is separate; the interval conditions
+on fitted forecasts. [Frozen scope](../../docs/design/stage-15/drive/D2_PRIMARY.md).
+
 `suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
 and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
 runner. Its safety stop retained 2,608 intact checkpoints. The separately validated

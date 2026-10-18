@@ -9,6 +9,39 @@ ran it.
 
 ---
 
+### S15-DRIVE-D2-1017 - menu-dissimilarity contrast remains unresolved
+
+**Hypothesis.** Choice prediction may improve when offered suggestions are more dissimilar.
+**METHOD.** Fit conditional choice models on earlier sessions, select regularization on calibration sessions, and compare held-session log-score gain over uniform between training-defined extreme dissimilarity quintiles. Repeat the entire pipeline with fixed uniform choices.
+**Found.** The primary is marginal, and the uniform-choice control is positive. **Means.** This does not establish that menu differences reveal preference; the packet's single hierarchical extension remains open, with V4's blind taste label retained.
+
+The table reports most-dissimilar minus most-similar log-score gain in natural-log
+units per selected menu, on the same 33 writers with both extreme bins. Writer
+intervals condition on fitted forecasts and training-defined bins.
+
+| Complete comparison | Contrast | 95% interval | Descriptive Wald probability | State |
+|---|---:|---|---:|---|
+| Observed choices | +0.023182 | [-0.110863, +0.179928] | 0.756253 | marginal |
+| Uniform-choice control | +0.013567 | [+0.003863, +0.025737] | 0.015474 | positive warning |
+
+The [complete card](results/phase_2_4_stage_15/DRIVE/D2.md) and
+[aggregate](results/phase_2_4_stage_15/DRIVE/D2.json) retain all five bins and
+support. Both extreme-bin mean gains on paired support are below uniform;
+a positive difference is not demonstrated predictive benefit. There are 2,543
+held-session choices from 41 writers, with 1,000 extreme-bin choices from 33
+writers in the primary. No mechanism or content-specificity claim follows.
+
+Original execution completed its fits but fresh verification refused a
+floating-point writer-order mismatch in descriptive bin means. The single
+isolated repair reproduced every original summary field without changing fits,
+scores, seeds or samples. Nine checks pass; 85 files reused byte for byte,
+125 source pins and 93 output hashes verified, production fresh replay and
+native closure confirmed. The original failure stays preserved. Both p-values
+are entered in the descriptive multiplicity ledger. Family B remains unresolved
+behind D32; theory/TODO integration follows at the next daily digest.
+
+Curator roll-up: branch availability and preference; Does choice prediction improve when suggestions differ more?; **Infrastructure**; The primary remains unresolved and the uniform-choice control is positive; project meaning: no clean preference-information interpretation is established; next engineering obligation: build the one frozen hierarchical extension with an honest null and retain V4's blind label; public claim unchanged; curator decision required: No; detail: complete D2 card and aggregate.
+
 ### S15-DRIVE-D30-OUTCOME-1017 - required outcome shuffle completed
 
 **Hypothesis.** D30's timing contrast should disappear when outcomes are shuffled within each writer.

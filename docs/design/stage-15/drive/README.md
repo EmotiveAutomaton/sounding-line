@@ -22,6 +22,8 @@ PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
+[D2's primary](D2_PRIMARY.md) now has a tested, frozen executable dispatch;
+its conditional hierarchical extension is separate.
 P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
 its secondary are recorded. [V4 is verified complete](../../../../results/phase_2_4_stage_15/DRIVE/V4.md)
 with a failed null check and blind taste/habit labels; FX1/personal panels stay

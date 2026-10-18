@@ -22,6 +22,10 @@ hover-position primary; no extension opens, and unobserved exposure remains
 unidentified. The [D17 pause card](D17.md) is invalid after its second engineering failure, with no primary result and all retained files intact. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
+[D2](D2.md) is verified complete after one exact-score replay repair. Its primary
+is marginal and its uniform-choice control is positive; the conditional hierarchical
+extension needs implementation, with V4's blind taste/habit label retained.
+
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
 [paired precision](SMOL_PRECISION_V1.md), [original numerical failure](SUGGESTION_PILOT_V1_FAILED.md),
 [checkpoint failure/repair](SUGGESTION_PILOT_V2_FAILED.md),

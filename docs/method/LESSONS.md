@@ -237,6 +237,11 @@ current truth lives in the folded end-state of the record, never in an interim s
   and test actual data in separate hash-seeded processes. Preserve the original
   defective interval; repair only the CPU analysis under unchanged estimand,
   seed, draw count and margin, with no regenerated observations. (L439)
+  The same defect later reached D2's descriptive bin means: writer-order execution
+  and hashed-filename verification differed only in floating-point accumulation.
+  Canonicalize every reported aggregation, not just the primary bootstrap. Its
+  single repair reproduced every original summary field from unchanged saved
+  forecasts; the primary and its interval had already matched. (S15-DRIVE-D2-1017)
 
 - **Fixed bins must form an actual partition at exact floating-point boundaries.**
   The local-program calibration used lower plus width for each upper edge;

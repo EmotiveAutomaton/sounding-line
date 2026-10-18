@@ -26,6 +26,7 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
+| D2 | verified complete; primary marginal with positive uniform-choice control | [Complete report](D2.md); single hierarchical extension needs implementation; V4 taste/habit lens blind |
 | D17 | invalid; engineering retry exhausted | [Both failures and retained evidence](D17.md); no primary result, no family-null increment, conditional extension closed |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | measured continuation running; not a scientific result | [Original pause](D32-paused.md), [resume admission](D32-resume.md); D30/D35 dispatches verified, prior wall time charged |
@@ -41,7 +42,7 @@ writer-level taste/habit nulls and any later family stop as instrument-limited.
 These labels do not replace the separate controls on direct process-record cards.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 D6 is null, but B stays at zero until preceding D32 and any registered variant resolve.
-The next rank is D2, whose runner still needs implementation; D31 needs intake and admitted labels.
+D2's primary is complete; its single conditional hierarchical extension needs implementation. D31 needs intake and admitted labels; D14 and later ranked cards remain unbuilt.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
