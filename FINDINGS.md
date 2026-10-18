@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-D2-CANONICAL-ADMISSION-1018
+
+**Hypothesis.** The corrected menu-choice primary and week controls can finish within the original cumulative allowance.
+**METHOD.** Complete all202 arms for the first eligible recipient, freshly replay every fit, authenticate the source and project combined main execution/replay by the larger recipient/work ratio.
+**Found.** The complete pilot admits main within the six-hour ceiling. **Means.** The final ordered canonical primary is now running; no human-data verdict follows. All1,930 pins and417 pilot artifacts verify; all pilot processes exited and their lease was released. The forecast is7,993.53seconds with148.139174 prior seconds charged; projected storage fits its fixed cap. Main's2,348 pins, exact native owner/child and counted lease verify. Original source-held results remain, the hierarchical extension stays closed and daily integration stays at20:00. No new tests or probabilities were harvested.
+
+Curator roll-up: choice prediction; can the corrected primary complete within bounds?; **Infrastructure**; the complete pilot cost-admits main; project meaning: the remaining ordered source correction can execute; next engineering obligation: full verification and landing, then EV consumer preparation; public claim unchanged; curator decision required: No; detail: [complete timing admission](results/phase_2_4_stage_15/DRIVE/D2-canonical-pilot.md).
+
 ### OPS-S15-D2-CANONICAL-BUILD-1018
 
 **Hypothesis.** Correcting selected offers preserves the original menu-dissimilarity choice test.

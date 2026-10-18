@@ -1,6 +1,6 @@
 # October 16 drive: execution index
 
-[Corrected D2 primary is built and natively validated](D2-canonical-build.md). Its corpus timing pilot is running alongside D32; main admission awaits the complete pilot and no human-data score is available.
+[Corrected D2 primary is built and natively validated](D2-canonical-build.md). Its [complete timing pilot admits main, now running](D2-canonical-pilot.md); no human-data score is available. D32 continues.
 
 [15:30 six-hour inspection](HEALTH_20261018_1530.md): D32 healthy, GPU continuation resource-held, source/locks/calendar/watcher delivery verified; canonical D2 implementation is next.
 
