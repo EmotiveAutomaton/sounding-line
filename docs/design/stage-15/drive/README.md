@@ -21,6 +21,11 @@ transition-only setting returns then. Paid cutoff is Monday October 19 at 17:00
 PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
+[P7's execution pilot](P7_EXECUTION_PILOT.md) is verified complete with source
+and numerical checks passed. Full corpus execution remains held on projected
+cost; exact-score batching needs validation before a new admission. The D33
+extension and D36 consumer remain unfinished.
+
 [D30.s specification texture](D30_SPECIFICATION.md) is tested and frozen. Its
 live attempt paused at a saved forecast boundary; two ranked successors must be
 dispatched before measured continuation. No scientific result is available.

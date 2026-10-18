@@ -2417,6 +2417,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 18 P7 CPU pilot:** authenticated full-prefix GPT-2 medium scoring,
+hashed 50-target checkpoints and fresh-process numerical reconstruction pass.
+Thirteen targeted controls include actual counted-runtime execution. The
+full-corpus cost projection fails admission; exact-score batching remains to
+build. [Complete pilot record](../results/phase_2_4_stage_15/DRIVE/P7-pilot.md).
+
 **October 18 Jester source preparation:** the full 150-joke text input passes
 source hash/ZIP checks and exact fresh-process XML parity. The retained ratings
 archive is not yet parsed. P7 execution and D36 scientific admission remain open.

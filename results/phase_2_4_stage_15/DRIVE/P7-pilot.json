@@ -1,0 +1,112 @@
+{
+  "complete_sha256": "52db2873ccefaa16ef15426ae536482aa57f082d8c751168f738493720c73664",
+  "family_count_change": false,
+  "fresh_verification": {
+    "cached_direct_max_error": 1.239776611328125e-05,
+    "checked_targets": 6,
+    "fresh_source_reconstruction": true,
+    "main_admitted": false,
+    "primary": {
+      "card": "P7",
+      "context": "full visible prefix, left-truncated only at GPT-2's 1024-token context; native-token boundary overlap retained",
+      "descriptive": true,
+      "mean_word_surprisal": 3.117446232544442,
+      "model": "GPT-2 medium, CPU float32",
+      "pilot_only": true,
+      "state": "positive",
+      "total_nll": 1907.8770943171985,
+      "unit": "sum of native token losses overlapping each word or punctuation token",
+      "units": 2,
+      "words": 612
+    },
+    "verified": true
+  },
+  "full_pass_forecast_hours": 13.031592124666833,
+  "limits": "Execution pilot only. Length-selected samples, not scientific estimates. Full projection excludes verification. Downstream word-vocabulary interpolation requires explicit semantic review; native overlap scores are features, not normalized word probabilities.",
+  "main_admission": false,
+  "native_identities": [
+    {
+      "exited": true,
+      "native": {
+        "created_ticks": 134367939488039774,
+        "executable": "python.exe",
+        "pid": 116336
+      },
+      "record": "OWNER.json"
+    },
+    {
+      "exited": true,
+      "native": {
+        "created_ticks": 134367939492315619,
+        "executable": "python.exe",
+        "pid": 15080
+      },
+      "record": "EXECUTE_CHILD.json"
+    },
+    {
+      "exited": true,
+      "native": {
+        "created_ticks": 134367940372863665,
+        "executable": "python.exe",
+        "pid": 29168
+      },
+      "record": "VERIFY_CHILD.json"
+    }
+  ],
+  "native_target_tokens": 635,
+  "next": "Review exact-score batching/cost reduction against this frozen pilot before proposing a separately bounded full pass. No GPU restart, paid calls or D30.s successor credit.",
+  "numerical_controls": {
+    "cases": 6,
+    "covers": [
+      "prefix reuse",
+      "revision",
+      "identical reentry",
+      "Unicode",
+      "context overflow"
+    ],
+    "max_error": 1.239776611328125e-05,
+    "tolerance": 0.0001
+  },
+  "output_hashes_checked": 44,
+  "owner_reductions_exact": true,
+  "plan_sha256": "0ef5bdeb0e5c29335cc366b78d75fb3f07ae2ad6e37e24b71583f074e6b0b43f",
+  "primary": {
+    "card": "P7",
+    "context": "full visible prefix, left-truncated only at GPT-2's 1024-token context; native-token boundary overlap retained",
+    "descriptive": true,
+    "mean_word_surprisal": 3.117446232544442,
+    "model": "GPT-2 medium, CPU float32",
+    "pilot_only": true,
+    "state": "positive",
+    "total_nll": 1907.8770943171985,
+    "unit": "sum of native token losses overlapping each word or punctuation token",
+    "units": 2,
+    "words": 612
+  },
+  "reference_main_forecast_hours": 2,
+  "reference_threefold_cap_hours": 6,
+  "scientific_admission": false,
+  "slot_released": true,
+  "source_coverage": {
+    "complete_joke_texts": 150,
+    "complete_typed_sessions": 1399,
+    "selected_joke_targets": 306,
+    "selected_typed_targets": 306
+  },
+  "source_pins_checked": 55,
+  "status": "pilot_verified_main_runtime_unadmitted",
+  "targeted_tests_passed": 13,
+  "timing": {
+    "excludes_final_verification": true,
+    "forward_tokens": 1402,
+    "includes_source_checks": true,
+    "model_load_seconds": 9.939633300004061,
+    "observed_scoring_seconds": {
+      "jester": 27.414152500103228,
+      "typed": 30.383685300010256
+    },
+    "pilot_only": true,
+    "projected_cpu_seconds": 46913.731648800596,
+    "projection_basis": "length-selected median typed session and longest joke; per-domain token-rate scaling; not a main admission"
+  }
+}

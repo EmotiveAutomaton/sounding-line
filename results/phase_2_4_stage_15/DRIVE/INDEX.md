@@ -32,8 +32,9 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); [single examination extension](D32-examination.md) verified null; no attention/preference admission |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
-| Jester text intake | verified input only; ratings parser pending | [Exact text/source verification](JESTER_TEXT_INTAKE.md); P7 checkpoint/source admission still required |
-| P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
+| Jester text intake | verified input only; ratings parser pending | [Exact text/source verification](JESTER_TEXT_INTAKE.md); P7 pilot verified; full corpus cost remains unadmitted |
+| P7 | execution pilot verified; full corpus cost unadmitted | [Complete pilot](P7-pilot.md); preserve exact scores while reducing cost; D33/D36 remain unfinished |
+| P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 Family resolved-prefix null counts: K 0, B 2, A 1, G 2, E 0, R 0, S 0, P 0.
 D33's positive primary resets A after D35; the already-landed D39 null then gives

@@ -17,7 +17,9 @@ control are positive, leaving personal specificity unestablished. Its single
 stronger-baseline extension awaits P7; prescribed texture remains.
 
 [Jester text intake](JESTER_TEXT_INTAKE.md) now verifies the complete text input
-for P7. Ratings parsing and P7 execution remain unfinished.
+for P7. Its [execution pilot](P7-pilot.md) now verifies source and numerical
+correctness; full corpus execution remains unadmitted on projected cost. Ratings
+parsing and the separate consumer analyses remain unfinished.
 
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint

@@ -2,6 +2,14 @@
 
 ## October 17 CPU cards
 
+`timing_p7_admitted` owns P7 dispatch, using the draft's prefix/cache helpers.
+Thirteen targeted checks and the native CPU pilot pass complete source and
+numerical verification. Main configuration is refused: projected full cost
+exceeds admission. A separately tested exact-score batching implementation is
+next; the completed source and outputs stay frozen.
+[Pilot contract](../../docs/design/stage-15/drive/P7_EXECUTION_PILOT.md) ·
+[complete record](../../results/phase_2_4_stage_15/DRIVE/P7-pilot.md).
+
 D30.s is implemented in the timing_d30_specification module. Eleven targeted
 checks, including actual counted-runtime smoke and fresh-process replay, pass.
 Its live attempt saved at the forecast-yield boundary; source pins and partial

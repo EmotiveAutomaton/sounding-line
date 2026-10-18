@@ -9,6 +9,21 @@ ran it.
 
 ---
 
+### OPS-S15-P7-PILOT-1018 - CPU scorer valid; full pass held on cost
+
+**Question.** Can the commissioned CPU reader score complete visible prefixes correctly and finish the full workload within its allowance?
+**METHOD.** Authenticate the completed production ledger, raw logs, cached GPT-2 medium and all joke texts; score a length-selected typed session and joke, retain native-token losses, and independently reconstruct source coverage and fresh forward checks.
+**Found.** The execution pilot passes numerical and source validation, but projects 13.03 hours for the full corpus before verification. **Means.** The reader is numerically usable on this pilot; the full pass remains unadmitted because that estimate exceeds the six-hour threefold allowance.
+
+The full [pilot report](results/phase_2_4_stage_15/DRIVE/P7-pilot.md) and
+[aggregate receipt](results/phase_2_4_stage_15/DRIVE/P7-pilot.json) retain all
+numerical checks, timings, limitations and exact source/output hashes. The
+completed pilot is not completion of P7's corpus, D33 or D36. No hypothesis
+probability or family-state change follows. Native workers exited and released
+the counted slot. Exact-score batching is the next engineering prerequisite.
+
+**Curator roll-up:** instrument validity · can the CPU reference be scored correctly within cost? · **Infrastructure** · pilot verifies, but full cost exceeds admission · consumer studies remain open · validate an exact-score cost reduction · public claim unchanged · curator decision required: No · detail above.
+
 ### OPS-S15-JESTER-TEXT-1018 - CPU scoring source input verified
 
 **Question.** Is the commissioned Jester text input complete and faithfully retained for the next CPU scoring pass?
