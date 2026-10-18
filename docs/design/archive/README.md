@@ -1,5 +1,10 @@
 # Historical study designs
 
+The [October 18 theory filing](SOUNDING_LINE_THEORY_FILING_2026-10-18.md) is
+preserved byte-for-byte and **pending its requested 20:00 integration**. It is
+not yet an applied-theory receipt. The [week review](../stage-15/drive/WEEK_REVIEW_20261018.md)
+records provenance and implementation concerns.
+
 The [October 17 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-10-17.md) is **applied**.
 Its [34-edit receipt](THEORY_ERRATA_20261017_APPLIED.json) verifies exact anchors,
 independent reconstruction and theory lint. The machine-readable edit list and

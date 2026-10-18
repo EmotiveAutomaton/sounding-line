@@ -182,6 +182,8 @@ TESTS = [
     ('S15-DRIVE-W2 V3 Ignoring shuffle', 1.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V3.json'),
     ('S15-DRIVE-W2 V3 Observed menu latency shuffle', 0.3690314571930702, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V3.json'),
     ('S15-DRIVE-W2 V3 Typed text since prior menu shuffle', 0.18105767495526554, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V3.json'),
+    ('S15-WEEK D38 canonical primary', 0.02390331308219502, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D38-canonical.json'),
+    ('S15-WEEK D38 canonical single outcome control', 0.34781163456520603, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D38-canonical.json'),
     ('S15-DRIVE-W2 D38 Primary', 0.04500395746406622, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D38.json'),
     ('S15-DRIVE-W2 D38 Within-writer outcome shuffle', 0.46812324278597345, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D38.json'),
     ('S15-DRIVE-W2 D15 outcome control primary', 0.08368303102273172, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D15.json'),

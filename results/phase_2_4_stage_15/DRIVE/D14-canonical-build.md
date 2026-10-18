@@ -1,0 +1,11 @@
+# D14 canonical successor: validation and launch
+
+**Hypothesis.** Correcting the handled offer can preserve the original topic-drift probability ruler.
+**METHOD.** Five focused checks cover exact full-assembly covariate parity, null/planted/reversed slopes, invalid-fit retention, authenticated source reconstruction, immutable reentry and mutation refusal. Complete counted native execution and fresh verification then refit both 2,000-bootstrap arms and all 200 outcome permutations.
+**Found.** All checks pass, the constructed positive is recovered, and all 104 pins and 4,216 final artifacts verify. **Means.** The separately labeled corrected primary is executable; this is instrument validation, not a human-data result.
+
+An initial synthetic fixture incorrectly called every action acceptance; the source identity gate refused it. The fixture was corrected to retain actual synthetic action labels and a deliberately planted positive drift association. No production attempt or scientific threshold was changed. The original degenerate-PCA unit fixture emits a harmless undefined explained-variance ratio; exact covariate values and parity still pass. Fresh native source/fit replay, exact worker exits and lease release verify.
+
+The corpus successor is now running after D32's full primary start, through week admission and the reserved demo slot. It reuses authenticated all-offer disturbances and unchanged menu predictors, replacing canonical selected offers and their seven offer-specific covariates. Original excluded menus, original primary/bootstrap seed, original single drift shuffle and original source-held result remain. The additional outcome control permutes whole menu outcomes within writer and included-offer count; no row gets a different action from its menu peers. It is a constrained reference, not proof of causal exchangeability.
+
+One numerical thread, a counted slot, 20-minute forecast, original three-hour ceiling with a single permitted doubling and 512 MiB output cap. The complete comparison and fresh fit replay must finish before reporting any score. No automatic restoration extension or scientific claim is admitted by this launch. No probability is reported. Theory/TODO/instrument updates join tonight's 20:00 digest.

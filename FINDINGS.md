@@ -9,6 +9,83 @@ ran it.
 
 ---
 
+### OPS-S15-D32-CANONICAL-ADMISSION-1018
+
+**Hypothesis.** The corrected repertoire primary can finish within the week allowance.
+**METHOD.** Complete full-source timing execution and fresh replay of the first 20 frozen bootstrap fits and 20 outcome permutations; independently reconstruct the conservative cost calculation.
+**Found.** No fit fails and the forecast plus charged prior work fits the twelve-hour allowance. **Means.** The full corrected primary is admitted and running; no partial scientific verdict follows. All 4,536 pins and 54 artifacts verify, completed pilot workers exited and released the lease. The original timing pause and both pilot costs remain charged; the main will freshly verify all fits.
+
+Curator roll-up: repertoire measurement; can the corrected primary finish under its authorized limits?; **Infrastructure**; the complete timing pilot admits main; project meaning: the second ordered source correction is running; next engineering obligation: complete full replay and landing; public claim unchanged; curator decision required: No; detail: [complete timing admission](results/phase_2_4_stage_15/DRIVE/D32-canonical-pilot.md).
+
+### OPS-S15-D14-CANONICAL-BUILD-1018
+
+**Hypothesis.** Correcting handled offers preserves the original topic-drift ruler.
+**METHOD.** Five known-answer/parity/source checks and complete counted native execution/replay of both 2,000-bootstrap arms and all 200 outcome permutations.
+**Found.** Validation passes and the constructed positive is recovered. **Means.** The separately frozen corpus successor is running; no human-data effect is reported. All 104 pins and 4,216 artifacts verify, completed native workers exited and lease release verifies. Original features/projection and excluded menus are retained; only selected-offer support and associated covariates change. The initial test fixture's action-label error and harmless degenerate-PCA warning remain recorded; neither changed a scientific gate.
+
+Curator roll-up: response to topical disturbance; can the selected-offer repair preserve the original adjusted comparison?; **Infrastructure**; complete native validation passes; project meaning: another ordered canonical primary is running; next engineering obligation: full corpus replay and landing; public claim unchanged; curator decision required: No; detail: [validation and launch](results/phase_2_4_stage_15/DRIVE/D14-canonical-build.md).
+
+### OPS-S15-D32-PILOT-COST-1018
+
+**Hypothesis.** The timing pilot can project its own cost separately from the later full comparison.
+**METHOD.** Inspect the preserved pause, validate unchanged scientific artifacts and run a complete native corrected pilot with fresh replay.
+**Found.** The original pause compared full-main cost against the smaller pilot allowance; the telemetry-only successor passes parity and complete replay. **Means.** The corpus timing pilot may resume in a separately labeled attempt, charging 109.268018 prior seconds; main remains unadmitted until its complete timing evidence. All source pins, original native exit and lease release verify. No partial score, probability or scientific null follows. Detailed attempted-check history remains in the report.
+
+Curator roll-up: timing infrastructure; can execution cost be measured without changing the test?; **Infrastructure**; the separate projection repair passes complete native validation; project meaning: the original statistical question is unchanged; next engineering obligation: complete pilot and cost admission; public claim unchanged; curator decision required: No; detail: [pause and recovery](results/phase_2_4_stage_15/DRIVE/D32-canonical-pilot-pause.md).
+
+### OPS-S15-WEEK-CALENDAR-1018
+
+**Hypothesis.** Finite week markers can preserve handoff windows without automatic study selection.
+**METHOD.** Three calendar boundary/catch-up checks and exact pinned native startup, heartbeat and watcher-registration inspection.
+**Found.** The additional finite calendar is running. **Means.** Monday dependency checks, Thursday reopening and final digests/drain are supervised; their future delivery remains unclaimed. No scientific dispatch or publication is automatic.
+
+Curator roll-up: operations; will the extended week preserve its intervention deadlines?; **Infrastructure**; the finite calendar is running; project meaning: explicit authorized windows remain supervised; next engineering obligation: act on actual markers and apply the theory filing at tonight's digest; public claim unchanged; curator decision required: No; detail: [calendar](results/phase_2_4_stage_15/DRIVE/WEEK_CALENDAR_20261018.md).
+
+### S15-WEEK-D32-CANONICAL-BUILD-1018
+
+**Hypothesis.** Correcting chosen offers can retain the frozen repertoire/acceptance comparison and its known-answer behavior.
+**METHOD.** Three successor checks cover authenticated synthetic source correction, mutation refusal, original bootstrap selection parity, retained failures and full timing-pilot replay. Two original null/planted/reversed sign checks pass. Complete counted native execution and fresh verification refit all 2,000 bootstrap draws and 200 outcome permutations.
+**Found.** Complete constructed validation passes with no failed bootstrap or control fit. **Means.** The corrected primary is ready for a measured corpus timing pilot, not yet a corpus verdict or full-cost admission. All 86 pins and 2,214 artifacts verify; exact workers exited and released the lease. Original clustering, support, covariates, objective and seed remain; canonical outcomes replace prepared choices, with appeal recomputed for every writer resample. Original evidence and source holds remain intact. No new probability is reported.
+
+Curator roll-up: absence and repertoire; can the chosen-offer repair preserve the original test?; **Infrastructure**; complete constructed validation passes; project meaning: the second ordered canonical primary is executable; next engineering obligation: measured full-source timing admission before main; public claim unchanged; curator decision required: No; detail: [validation](results/phase_2_4_stage_15/DRIVE/D32-canonical-build.md).
+
+### OPS-S15-WEEK-RUNTIME-1018
+
+**Hypothesis.** Week windows and the demo reservation can be enforced without changing scientific output or current workers.
+**METHOD.** Eleven focused admission checks cover exact start boundaries, cumulative cost, pilot requirements, completion evidence and RAM; the complete constructed D38 handler then runs and freshly verifies through the new counted native runtime.
+**Found.** All checks pass and the complete constructed result is unchanged. **Means.** A separate prospective runtime is available for reviewed new starts; it does not alter active plans or select studies. All 82 pins and 14 outputs verify, native workers exited and the lease was released. It conservatively reserves one counted slot and required RAM for the demo, enforces the Wednesday/post-talk/final windows, and prevents repeated doubling or omission of previously charged wall time. No scientific probability or new result is implied.
+
+Curator roll-up: execution infrastructure; can the week run within its shared-machine windows?; **Infrastructure**; complete native admission validation passes; project meaning: reviewed successors can use the new schedule; next engineering obligation: admit individual cards and respect dependencies; public claim unchanged; curator decision required: No; detail: [runtime validation](results/phase_2_4_stage_15/DRIVE/WEEK_RUNTIME_20261018.md).
+
+### S15-WEEK-D38-CANONICAL-1018
+
+**Hypothesis.** After an accepted suggestion is substantially corrected, avoidance of similar rather than distant suggestions increases across writing sessions.
+**METHOD.** Authenticate canonical selected offers, retain the original near-minus-far acceptance-drop comparison and contrast later with earlier session halves; use 2,000 writer bootstraps, the original outcome shuffle and 200 within-writer/menu-size permutations.
+**Found.** The corrected primary is positive; the repeated outcome reference does not trigger the predeclared bias warning. **Means.** The narrow observed writing-log association survives the selected-offer repair. It does not establish causal learning, fear, trauma, regret or a general property of writers.
+
+The table reports later-minus-earlier differences in near-minus-far acceptance drops. Nine supported writers receive equal weight. Intervals are percentile 95% writer-bootstrap intervals; probabilities are descriptive two-sided normal-reference approximations, not permutation probabilities. Frozen states use the interval and predicted direction.
+
+| Complete comparison | Difference | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Corrected primary | 0.1856439585 | [0.0197535815, 0.3463381647] | 0.02390331308 | positive |
+| Corrected single outcome shuffle | 0.0689692322 | [-0.0705687875, 0.2108192798] | 0.3478116346 | marginal |
+
+The repeated reference has 200 finite draws, mean 0.01544971685 and standard deviation 0.09908276741; its absolute mean is below one quarter of its spread. Passing this warning does not establish causal validity or eliminate shared context retained by the shuffle. Fake-writer identification is inapplicable to this mean contrast and no person-specific claim follows. Both probabilities enter the diagnostic multiplicity ledger; no adjusted confirmatory claim is made.
+
+The corpus-wide audit corrects 2,510 of 16,855 prepared choices. Original support is retained: 429 model-failure candidates, 109 source/window-supported events, 108 with near/far support and nine of 61 writers with both session halves. There are 320 event exclusions, one bin exclusion, no menu exclusion and no truncated anchor. All excluded units remain in the audit. Original windows, weights, seed, event provenance and authenticated deleted-span embeddings remain; no encoder refit was needed. These are human writing-process records read by exact source reconstruction and frozen MiniLM embeddings.
+
+All 1,742 pins and 72 artifacts verify; fresh-process source/control replay and independent saved-contrast bootstrap/reference arithmetic agree. Six targeted checks and a complete counted native fixture preceded production. Workers exited and released the lease within the retained cost/output limits. Original D38 evidence remains source-held; this separately labeled successor supplies corrected evidence. The original matched own-failure extension remains complete and null, with no second extension. Theory, family accounting and TODO integrate at 20:00.
+
+Curator roll-up: learning from observed writing failure; does similar-option avoidance grow across sessions after substantial correction?; **Strengthens**; the corrected association survives in nine supported writers; project meaning: a narrow writing-log association survives the source repair, with mechanism and generalization open; next engineering obligation: D32 canonical timing admission; public claim unchanged outside this bounded descriptive association; curator decision required: No; detail: [full result](results/phase_2_4_stage_15/DRIVE/D38-canonical.md).
+
+### S15-WEEK-D38-CANONICAL-BUILD-1018
+
+**Hypothesis.** The selected-offer source correction can retain the original acceptance-after-failure comparison and known-answer behavior.
+**METHOD.** Six targeted constructed checks cover null, planted and reversed gradients, canonical offer/vector identity, event/anchor provenance, yielding, immutability and mutation refusal. A complete counted native execution then uses authenticated synthetic source files, with fresh-process source replay and all 200 outcome permutations recomputed.
+**Found.** All checks pass; 77 source/input pins and 14 final artifacts verify, workers exited and the CPU lease was released. **Means.** The separately labeled canonical successor is executable; this is instrument validation, not a human-data effect. Original D38 evidence remains source-held and unchanged. Execution and replay enforce one numerical thread. Original primary seed, chronology, weights and support rules remain; added repeated controls do not redefine the primary. No new probability is reported in this build entry.
+
+Curator roll-up: response to writing failure; can the original comparison survive a verified source correction?; **Infrastructure**; complete constructed validation passes; project meaning: the first ordered canonical successor is ready; next engineering obligation: run and land the complete corpus comparison under its frozen limits; public claim unchanged; curator decision required: No; detail: [validation](results/phase_2_4_stage_15/DRIVE/D38-canonical-build.md).
+
 ### S15-DRIVE-D20-UPTAKE-1018
 
 **Hypothesis.** A writer's tendency to reuse content from dismissed suggestions is consistent across their writing sessions.

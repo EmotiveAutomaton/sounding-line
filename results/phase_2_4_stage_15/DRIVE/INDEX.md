@@ -1,5 +1,21 @@
 # October 16 drive: execution index
 
+October 18 week update: [D32 timing-pilot pause and validated telemetry recovery](D32-canonical-pilot-pause.md); the [complete pilot admits full D32 main, now running](D32-canonical-pilot.md). [D14 canonical validation and launch](D14-canonical-build.md) follow; no partial scores. [Finite extended calendar](WEEK_CALENDAR_20261018.md) is running.
+
+## October 18–25 week
+
+The [new week packet and review](../../../docs/design/stage-15/drive/WEEK_REVIEW_20261018.md)
+now govern unstarted work. D38's [canonical successor is verified complete](D38-canonical.md):
+descriptive positive on its retained support; repeated outcome reference passes
+the specified bias warning. Its original remains source-held. D4 canonical and Jester recovery are already complete;
+D2 hierarchical and D11 writer-slope extensions close for this campaign.
+EV/DR/NP/GEN1 and population-relative SDT1 are commissioned, not yet completed
+implementations. The theory filing is preserved for the requested 20:00 digest.
+
+The [prospective week runtime](WEEK_RUNTIME_20261018.md) is verified on exact
+boundary tests and full native replay. D32's [canonical primary passes complete
+constructed validation](D32-canonical-build.md); its complete corpus timing pilot admits full main, now running. D14 canonical is also validated and running.
+
 ## October 18 implementation wave
 
 The [October 18 mid-run errata](../../../docs/design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md)

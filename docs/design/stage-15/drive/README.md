@@ -1,5 +1,14 @@
 # October 16 drive commission
 
+## October 18–25 week: current dispatch authority
+
+The curator commissioned the [week packet](WEEK_PACKET_20261018.md) in Gear 2.
+Its [implementation review and explicit SDT1 decision](WEEK_REVIEW_20261018.md)
+record the fixes, closed branches, completed-card reconciliation, engine dependency
+and Wednesday/post-talk windows. This replaces the unstarted mid-run dispatch
+order; original sources and live pinned workers remain unchanged. Build status
+is distinct from authorization and remains in the evidence index.
+
 ## October 18 mid-run amendment: current
 
 [Exact source](SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md), [verbatim handoff](MIDRUN_HANDOFF_20261018.json), and [separate frozen revised batch](BATCH_PLAN_20261018_W2_MIDRUN.md) govern the remainder. Earlier batch plans retain their original bytes. Environmental interruptions no longer consume engineering retries; forecast yields require actual reviewed waiting work and never apply below two projected CPU-hours. GPU starts require7,424MiB free. Only conditional K remains in Gear3; P and A-first-look are dropped. Full P7 census is superseded by scoped D33/Jester execution. Repeated outcome and paired same-row fake controls are required. The [corrected V4.c split decision](V4C_SPLIT_DECISION_20261018.json) preserves original V4 labels.
