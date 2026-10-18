@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-D2-CANONICAL-RECOVERY-1018
+
+**Hypothesis.** The corrected original choice test can finish with every fit meeting its unchanged numerical certificate.
+**METHOD.** Authenticate original inputs and retained fits; reproduce the exact numerical failure; validate curvature, known answers, original passing-fit parity, checkpoint reuse, tamper refusal and complete fresh-process replay.
+**Found.** The first canonical execution is invalid after one optimizer stopped above its gradient limit; the validated single engineering retry is running. **Means.** This is no scientific negative. All2,348 original pins and2,024 retained fits verify. Four targeted checks and the full native rehearsal pass, with86 pins,1,631 artifacts and independent reconstruction of808 constructed fits. The original objective and1e-6 certificate are preserved; bounded refinement reaches the stricter1e-8 certificate. Original/native workers exited and leases released. The separate recovery charges all prior corpus work to the same six-hour maximum, reuses bytes exactly and independently refits everything before landing. D32 continues; GPU remains below its unchanged restart floor. No new research test or probability; shared integration remains20:00.
+
+Curator roll-up: choice prediction; can the original contrast finish with certified fits?; **Infrastructure**; a reproduced numerical stop has a validated single retry; project meaning: the canonical primary remains unfinished without a scientific negative; next engineering obligation: finish and independently verify the retry, then EV consumers; public claim unchanged; curator decision required: No; detail: [failure and recovery](results/phase_2_4_stage_15/DRIVE/D2-canonical-recovery.md).
+
 ### OPS-S15-D2-CANONICAL-ADMISSION-1018
 
 **Hypothesis.** The corrected menu-choice primary and week controls can finish within the original cumulative allowance.

@@ -11,7 +11,7 @@ is distinct from authorization and remains in the evidence index.
 
 The [corrected D2 primary contract](D2_CANONICAL_20261018.md) preserves the
 original contrast and adds the week outcome reference. Native validation is
-complete; corpus timing admission is separate. Its hierarchical extension stays closed.
+complete; its timing pilot admitted main. The [single solver recovery](D2_SOLVER_RECOVERY_20261018.md) preserves the subsequent numerical failure and unchanged scientific contract. Its hierarchical extension stays closed.
 
 The [engine input/output handoff](ENGINE_INTERFACE_20261018.md) records Monday's
 exporter dependency, exact span/provenance checks, demo reservation and aggregate
