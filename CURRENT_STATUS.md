@@ -1,13 +1,20 @@
 # Current status
 
-## October 18: P7 cost validation
+## October 18: recorded results, unfinished queue
 
 Gear 2 remains authorized and Stage 15 open. The [two causal-batching pilots](results/phase_2_4_stage_15/DRIVE/P7-hybrid-pilot.md)
-are complete and independently verified; no scientific worker remains active.
-The full CPU reader needs actual long-context workload/cost coverage before
-admission. D30.s retains its saved pause and still requires two ranked successor
-dispatches. No GPU retry or paid batch was started. The finite calendar and
-watcher remain active; daily theory/TODO integration stays at 20:00 PDT.
+are complete and independently verified. The new [full native-work census](results/phase_2_4_stage_15/DRIVE/P7-work-census.md)
+passed five targeted checks, ran, and saved at the forecast-yield boundary.
+It remains unfinished. No scientific worker is currently active; the finite
+calendar and watcher remain live. The full test tree is not yet built.
+
+Two ranked eligible cards must dispatch before forecast-yield continuation.
+D30.s retains its own saved pause. D31 input preparation/admitted labels, D2's
+hierarchical extension and later cards remain implementation work. Full P7
+scoring needs measured long-context cost within the existing allowance. No GPU
+retry or paid batch was started; daily theory/TODO integration stays at 20:00 PDT.
+The [current inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_0515.json)
+checks all dispatches, retained historical source snapshots, locks and monitoring.
 
 ## October 17 afternoon: amended Stage 15 rollout
 

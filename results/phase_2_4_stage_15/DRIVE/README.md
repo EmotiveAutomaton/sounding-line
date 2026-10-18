@@ -26,6 +26,10 @@ original pilot losses within tolerance. The uncached attempt is retained even
 though typed cost increased. Full native-context workload census and measured
 admission remain before main; neither pilot covers left-cropped targets.
 
+[P7 native-work census](P7-work-census.md) passed targeted validation and saved
+at the forecast-yield boundary. The corpus remains unfinished; no model forwards
+or scientific scores were produced. No scientific worker is currently active.
+
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.

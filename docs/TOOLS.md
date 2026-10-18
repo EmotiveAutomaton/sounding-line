@@ -2417,6 +2417,11 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 18 P7 native-work census:** five targeted checks pass, including actual
+model cache-work parity and counted-runtime replay. The production input census
+is paused at its forecast bound with saved units intact; full corpus validation
+and scoring admission remain open. [Record](../results/phase_2_4_stage_15/DRIVE/P7-work-census.md).
+
 **October 18 P7 causal batching:** uncached and cache-preserving implementations
 pass complete frozen-pilot comparisons and 24 targeted checks, including actual
 native runtime and fresh verification. Uncached batching increases typed cost;

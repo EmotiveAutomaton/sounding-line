@@ -2,6 +2,11 @@
 
 ## October 17 CPU cards
 
+`timing_p7_work_census` reconstructs native context/cache work without inference.
+Five targeted checks pass; production saved at its first-tenth forecast yield.
+The [retained census](../../results/phase_2_4_stage_15/DRIVE/P7-work-census.md)
+is unfinished and supplies no full-corpus admission or scientific successor credit.
+
 `timing_p7_batched` and `timing_p7_hybrid` have separate verified pilot
 handlers. Both pass the fixed-input numerical gate and targeted native-runtime
 tests; uncached batching is slower on typed text. The hybrid retains the frozen

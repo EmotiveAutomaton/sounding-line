@@ -21,6 +21,10 @@ transition-only setting returns then. Paid cutoff is Monday October 19 at 17:00
 PDT. Only the first $10 is approved; K/P/A still require their exact input,
 blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopened.
 
+[Full native-work census](P7_WORK_CENSUS.md) is tested and dispatched; its
+production attempt saved at the forecast-yield boundary. It remains unfinished,
+with original checkpoints and cost limits preserved.
+
 [Uncached](P7_BATCH_PILOT.md) and [cached](P7_HYBRID_PILOT.md) causal-batching
 pilots are verified complete, preserving every original target loss within
 tolerance. Whole-corpus native-context cost remains unadmitted.
