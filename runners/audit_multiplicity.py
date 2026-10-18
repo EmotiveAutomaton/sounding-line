@@ -73,6 +73,16 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-D2-diagnostic content primary', 2.1624453907052276e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic content uniform_control', 0.5033425039884707, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic position primary', 0.2625593175262686, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic position uniform_control', 0.42123979294020164, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic length primary', 1.1331105138035038e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic length uniform_control', 0.077495137924142, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic content_minus_position', 5.7662971882007284e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic content_minus_length', 0.09421025413657749, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic original quintile primary', 0.9828914673026767, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
+    ('S15-DRIVE-D2-diagnostic original quintile uniform_control', 0.01547383894253211, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
     ('S15-DRIVE-V4c split primary INVALID calibration', 4.686678675978141e-10, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V4.c-split.json'),
     ('S15-DRIVE-PMAP-rhythm primary', 7.296188796783537e-44, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP-rhythm.json'),
     ('S15-DRIVE-PMAP-rhythm own minus fake', 7.546645483790994e-44, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP-rhythm.json'),

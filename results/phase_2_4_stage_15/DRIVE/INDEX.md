@@ -13,7 +13,7 @@ failures still have one retry. No partial scientific scores are reported.
 | PMAP | verified complete; positive primary with biased reassignment and incomplete content controls | [Full channel table and reliability](PMAP.md); [frozen rhythm contrast verified complete](PMAP-rhythm.md), original limitations retained |
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
 | V4.c | verified complete; primary invalid on null calibration; taste/combined blind, history-only sees large taste only | [Full split](V4.c-split.md); original V4 unchanged; medium-strength taste route and dependent cards held |
-| D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json); [native verification passed; supported-match corpus comparison running](D33-supported-build.md); prompt-excluded variant pending, original full-population gap retained |
+| D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json); [native validation passed](D33-supported-build.md); [first corpus attempt failed before fitting](D33.pair-supported-failed.md), reopen recovery native validation running, corpus retry cost-held and unspent; prompt-excluded variant waits, original full-population gap retained |
 | D33.fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
 | D12 | original selected-score primary under source-validity hold | [Original record](D12.md); [canonical rank successor verified null](D12-rank-canonical.md) |
@@ -45,7 +45,7 @@ failures still have one retry. No partial scientific scores are reported.
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
-| D2 | original selected-label inference held; extension also awaits V4.c | [Original record](D2.md); diagnostics require canonical choices |
+| D2 | original selected-label inference held; extension also awaits V4.c | [Original record](D2.md); [canonical diagnostic verified complete](D2-diagnostics-canonical.md): content/length beat uniform, content beats position, content over length unresolved; original quintile control positive and hierarchical extension held |
 | D17 | environmental continuation verified complete; positive writer stability | [Complete result](D17-complete.md); psychological component identity unestablished |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | saved execution complete; selected-label inference and routing held | [Audit](SELECTED_OPTION_AUDIT_20261018.md); original results retained |
