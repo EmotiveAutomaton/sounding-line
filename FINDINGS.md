@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-D2-CANONICAL-BUILD-1018
+
+**Hypothesis.** Correcting selected offers preserves the original menu-dissimilarity choice test.
+**METHOD.** Six known-answer, exact-parity, chronological, permutation and serialized-replay checks, followed by complete counted native execution/replay and independent saved-summary reconstruction.
+**Found.** All checks and native validation pass. **Means.** The corrected primary's corpus timing pilot is running; no human-data score or main cost admission follows. All81 pins and1,631 native artifacts verify, native validation workers exited and their lease was released. The pilot's1,930 pins and exact native startup verify. Original fitting and features remain, with200 refitted outcome permutations and the hierarchical extension closed. The initial temporary-directory access failure and its separate workspace-local rerun remain recorded. Theory/TODO/shared integration stays at20:00; no new test was harvested.
+
+Curator roll-up: choice prediction; can the selected-offer correction preserve the original contrast?; **Infrastructure**; the complete native validation passes; project meaning: the final ordered canonical primary now has a tested implementation; next engineering obligation: complete its measured corpus timing admission and continue EV consumers; public claim unchanged; curator decision required: No; detail: [validation](results/phase_2_4_stage_15/DRIVE/D2-canonical-build.md).
+
 ### OPS-S15-HEALTH-1018-1530
 
 **Hypothesis.** The corrected week workload can continue within its execution and monitoring limits.

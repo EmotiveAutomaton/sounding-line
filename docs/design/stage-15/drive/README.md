@@ -9,6 +9,10 @@ and Wednesday/post-talk windows. This replaces the unstarted mid-run dispatch
 order; original sources and live pinned workers remain unchanged. Build status
 is distinct from authorization and remains in the evidence index.
 
+The [corrected D2 primary contract](D2_CANONICAL_20261018.md) preserves the
+original contrast and adds the week outcome reference. Native validation is
+complete; corpus timing admission is separate. Its hierarchical extension stays closed.
+
 The [engine input/output handoff](ENGINE_INTERFACE_20261018.md) records Monday's
 exporter dependency, exact span/provenance checks, demo reservation and aggregate
 Tuesday return. Preparation and file delivery do not imply engine execution.

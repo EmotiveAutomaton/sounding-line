@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+[Corrected D2 primary is built and natively validated](D2-canonical-build.md). Its corpus timing pilot is running alongside D32; main admission awaits the complete pilot and no human-data score is available.
+
 [15:30 six-hour inspection](HEALTH_20261018_1530.md): D32 healthy, GPU continuation resource-held, source/locks/calendar/watcher delivery verified; canonical D2 implementation is next.
 
 [D14 canonical is verified complete](D14-canonical.md): marginal primary, null original drift shuffle and a biased repeated outcome reference. D32 continues; canonical D2 is next to implement. The GPU reader [stopped at its working memory floor](SUGGESTION_ENVIRONMENT_2_STOP.md); all retained checkpoints validate and a same-study continuation is prepared but below its restart floor. The [15:06 rollout checkpoint](WEEK_PROGRESS_20261018_1506.md) retains its earlier observation and dependency handoff.

@@ -7,7 +7,7 @@ checks and complete counted native replay with unchanged scientific output.
 New reviewed plans enforce the week windows and demo reservation; original
 runtime sources and live workers stay pinned. `events_d38_canonical` has passed
 full constructed validation and its complete corpus successor is landed.
-`events_d32_canonical_v2` separates pilot/main cost telemetry, passes native parity and complete corpus timing admission; full D32 main is running. `events_d14_canonical` passes five checks and complete native replay; its corpus successor is running.
+`events_d32_canonical_v2` separates pilot/main cost telemetry, passes native parity and complete corpus timing admission; full D32 main is running. `events_d14_canonical` passes five checks and complete native replay; its corpus successor is verified complete. `menus_d2_canonical` passes six targeted checks, exact original-fit/feature parity and complete counted native replay of all200 outcome permutations. Corpus timing admission remains before main. [D2 validation](../../results/phase_2_4_stage_15/DRIVE/D2-canonical-build.md).
 [Week review](../../docs/design/stage-15/drive/WEEK_REVIEW_20261018.md).
 
 ## October 18 current runtime
