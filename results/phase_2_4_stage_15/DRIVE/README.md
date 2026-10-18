@@ -16,7 +16,7 @@ stronger-baseline extension awaits P7; prescribed texture remains.
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
-V4, D32 and the [validated D17 pause card](D17-launch.md) continue. Full reader output remains unavailable;
+V4 and D32 continue. The [D17 pause card](D17.md) is invalid after its second engineering failure, with no primary result and all retained files intact. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

@@ -29,7 +29,7 @@ D30/D35 dispatches under measured admission. D30 and its extension, and D35,
 are fully recorded; the live index retains their control limitations. D33's
 first primary is verified complete with a positive writer-shuffle warning; its
 single stronger-baseline extension awaits P7. D17 passed owner review and 14 targeted
-checks and is now running; its [launch scope](../../../../results/phase_2_4_stage_15/DRIVE/D17-launch.md) is recorded. A finite,
+checks before its original fit exceeded the convergence limit. Its same-objective repair passed 22 checks, but the permitted retry then failed on Windows progress-file replacement; [D17 is invalid](../../../../results/phase_2_4_stage_15/DRIVE/D17.md) with no primary result or further retry. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

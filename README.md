@@ -9,8 +9,8 @@
 
 # Sounding Line
 
-**October 17 rollout:** V4 calibration, D32's admitted checkpoint continuation
-and the [validated D17 pause card](results/phase_2_4_stage_15/DRIVE/D17-launch.md) are advancing. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
+**October 17 rollout:** V4 calibration and D32's admitted checkpoint continuation
+are advancing. The [D17 pause card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure, with retained evidence intact and no primary result. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
 saved checkpoints validate, but the incomplete pass is invalid under the retry limit. Completed D30,
 its extension and D35 are recorded with their controls and follow-up gates.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)

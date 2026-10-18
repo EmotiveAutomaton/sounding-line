@@ -194,6 +194,15 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Separated mixture examples do not test slow convergence of overlapping components.**
+  D17's session-weight fit passed the original fixtures but exceeded its fixed
+  iteration cap on a retained corpus input. Test overlapping components and actual
+  failure inputs; any acceleration must preserve the objective and require the
+  original convergence tolerance plus an optimality certificate. The tested repair
+  subsequently failed on progress-file replacement before fitting, so it supplies
+  no corpus result. Preserve both failures and enforce the card's retry limit.
+  (OPS-S15-D17-1017)
+
 - **Choose among certified solutions, not just the smallest objective.** Two
   solutions can have nearly identical objectives and different gradient gaps.
   The first convergence audit stopped after a later candidate passed because

@@ -40,8 +40,13 @@ limits interpretation. The stronger-baseline extension awaits completed P7.
 `timing_d17` authenticates raw/foundation/TC identities, excludes system-wait
 intervals and fits shared normalized pause mixtures with session-specific weights.
 Fourteen targeted checks include actual serialized positive/negative controls,
-source refusal, saved-boundary resume and fresh-process replay. Its primary is
-running; uncertainty conditions on the selected pooled mixture.
+source refusal, saved-boundary resume and fresh-process replay. The original fit
+exceeded its convergence limit. `timing_d17_recovery` preserves convergent answers,
+accelerates only the same failed objective and requires the original tolerance
+plus an optimality certificate; all 22 original/recovery checks pass. Its permitted
+retry then failed on Windows progress-file replacement before fitting. The card is
+invalid with retry exhausted; source/checkpoint evidence remains intact. No primary
+result is available; uncertainty would condition on the selected pooled mixture.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 

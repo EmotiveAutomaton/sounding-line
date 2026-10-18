@@ -1,7 +1,7 @@
 # Documentation - current authority, methods and history
 
 **October 17:** the [Stage 15 drive amendment](design/stage-15/drive/README.md)
-continues with V4, D32 and the validated D17 pause card. The [GPU recovery stopped](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md) at the unchanged memory guard and has exhausted its retry. The [theory errata](design/archive/THEORY_ERRATA_20261017_APPLIED.json)
+continues with V4 and D32. The [D17 pause card](../results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure; no scientific negative follows. The [GPU recovery stopped](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md) at the unchanged memory guard and has exhausted its retry. The [theory errata](design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and [incoming files are filed](archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
 
 **October 16 drive is active:** [commission and corrections](design/stage-15/drive/README.md)

@@ -4,8 +4,8 @@
 are recorded under the amended Stage 15 packet. The prior finite queues below
 stay closed; the new commission is only partly implemented.
 
-**Current execution:** V4, D32 and the [reviewed D17 pause card](DRIVE/D17-launch.md)
-are running. The [full suggestion pass is invalid after its second safety stop](DRIVE/SUGGESTION_MAIN_V5_FAILED.md); its retry is exhausted and saved work remains intact.
+**Current execution:** V4 and D32 are running. The [D17 pause card](DRIVE/D17.md)
+is invalid after its second engineering failure; no primary result or further retry. The [full suggestion pass is invalid after its second safety stop](DRIVE/SUGGESTION_MAIN_V5_FAILED.md); its retry is exhausted and saved work remains intact.
 The [18:07 planned inspection](DRIVE/HEALTH_20261017_1807.json) verifies native
 identities, progress, resource floors, source/research locks and watcher delivery.
 Typed/history and other unbuilt cards remain separate. Earlier inspections below

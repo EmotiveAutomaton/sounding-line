@@ -9,6 +9,21 @@ ran it.
 
 ---
 
+### OPS-S15-D17-1017 - pause instrument retry exhausted
+
+**Hypothesis.** Writers may have stable patterns in their longest normalized pauses across sessions.
+**METHOD.** Fit shared pause components, estimate each session's component weights, and compare their stability within writers using the frozen writer-bootstrap and shuffle checks. After numerical nonconvergence, validate one same-objective solver repair and reuse authenticated checkpoints under the original combined runtime cap.
+**Found.** The original fit exceeded its convergence limit; the permitted retry then failed while replacing a Windows progress file, before reaching the repaired fit. **Means.** D17 is invalid and its retry is exhausted. No scientific result or family-null increment follows.
+
+[Complete failure and recovery record](results/phase_2_4_stage_15/DRIVE/D17.md)
+retains both failures, exact native closure, all source/checkpoint bindings, the
+unchanged tolerance and runtime accounting, and all 22 passing targeted checks.
+V4 and D32 continue. No new p-value or research test was produced by this wake;
+the conditional extension remains closed. Theory/TODO integration is queued
+for the packet's 20:00 digest.
+
+Curator roll-up: pause apparatus; Are writers' normalized pause patterns stable across sessions?; **Infrastructure**; The permitted retry failed before producing a primary result; project meaning: the hypothesis remains untested by this card; next engineering obligation: preserve the invalid pass and continue independent ranked work; public claim unchanged; curator decision required: No; detail: complete D17 record above.
+
 ### OPS-S15-DRIVE-SUGGESTION-1017-1748 - permitted recovery stopped
 
 **Hypothesis.** The full suggestion pass can finish from authenticated checkpoints under the unchanged memory limits.
