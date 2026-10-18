@@ -36,7 +36,7 @@ failures still have one retry. No partial scientific scores are reported.
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension; V4 taste/habit lens blind |
-| P1 suggestion pass | environmental continuation running from validated checkpoints since 11:01 PDT | [Mid-run authority](MIDRUN_20261018.md); all 4,453 checkpoints/110 pins revalidated, original failures and compute allowance preserved |
+| P1 suggestion pass | environmental interruption at 11:56 PDT; unchanged continuation prepared, cold-start resource-held | [Stop and integrity report](SUGGESTION_ENVIRONMENT_1_STOP.md); all 4,988 checkpoints revalidated, original evidence and allowance preserved |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |

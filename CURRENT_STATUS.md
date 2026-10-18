@@ -19,10 +19,13 @@ Original evidence remains intact; corrected effects are unknown. The D11 primary
 D18 and D20 do not use that defective index. Both D3 engineering retries failed
 source validation and remain invalid, without a scientific-negative conclusion.
 
-The GPU suggestion continuation resumed at 11:01 PDT after all 4,453 retained
-checkpoints and 110 pins were revalidated. Cold-start free memory was 7,874 MiB
-and temperature 37 C, meeting the unchanged limits. Monitoring is registered;
-the remaining original compute allowance is 122,643 seconds. No unrelated application was stopped.
+The GPU suggestion continuation [stopped at its unchanged memory guard at 11:56 PDT](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_1_STOP.md).
+All 4,988 checkpoints, including 535 new ones, validate. The worker exited and
+released its lease. Environmental continuation is prepared with 119,345 seconds
+left in the original allowance; it remains parked below the 7,424 MiB cold-start
+floor. No unrelated application was stopped. D33's exact-output count-cache
+repair passed five focused checks and is undergoing full native validation;
+the corpus retry remains unspent pending that validation and admission.
 Only Gear 3 K remains authorized, conditional on D31 intake and known-answer
 readiness before Monday noon PDT; no paid batch is running. Full P7 census is
 superseded and will not resume this campaign. The [live index](results/phase_2_4_stage_15/DRIVE/INDEX.md)

@@ -9,6 +9,17 @@ ran it.
 
 ---
 
+### OPS-S15-SUGGESTION-ENVIRONMENT-1018
+
+**Hypothesis.** The unchanged suggestion pass can continue from authenticated checkpoints while respecting its original GPU limits.
+**METHOD.** Inspect the recorded guard sample, exact native exit and released lease; revalidate every retained checkpoint against its source cases, origin plan and reductions, and charge elapsed time to the original allowance.
+**Found.** The memory guard stopped the worker; all 4,988 saved checkpoints validate. **Means.** This is an environmental interruption under the October 18 errata. The same study is prepared to resume when the unchanged cold-start floor is met; it is unfinished, with no scientific verdict.
+
+The 11:56 PDT sample records 1,022 MiB free against the unchanged 1,024 MiB working floor, at 66 C below the 78 C limit. All 535 new checkpoints and the predecessor prefix survive. All 110 predecessor pins and 117 prepared-continuation pins verify; native exit and GPU lease release are confirmed. Charging 3,298 elapsed seconds leaves 119,345 seconds in the original allowance. The 12:01 sample has 4,827 MiB free, below the unchanged 7,424 MiB cold-start floor, so no GPU relaunch occurs. No unrelated process was stopped. Full checkpoint validation precedes any later launch; the original evidence, scorer and limits remain intact. No engineering retry, scientific probability or family-null count is consumed. CPU validation continues; theory/TODO integrate at 20:00 PDT.
+
+Curator roll-up: reader apparatus; can the fixed pass continue safely without losing work?; **Infrastructure**; every saved checkpoint survives the environmental interruption; project meaning: reader execution remains unfinished but recoverable; next engineering obligation: relaunch only after the unchanged cold-start floor and fresh integrity checks pass; public claim unchanged; curator decision required: No; detail: [full operational report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_1_STOP.md).
+
+
 ### S15-DRIVE-D2-DIAGNOSTICS-1018
 
 **Hypothesis.** Authenticated choice labels reveal whether the original content-feature reader predicts later selections better than uniform choice and simple position or length baselines.
