@@ -1,0 +1,291 @@
+{
+  "at": "2026-10-18T16:50:09.349742-07:00",
+  "demo_reservation_retained": true,
+  "engine_export": "Received, exact pinned source and seven reader files verified; five constructed checks pass; corpus provenance and consumer admission remain",
+  "event": "ab86046844f4c6fe9a2b1b03",
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 1878,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 56,
+    "used_MiB": 10120,
+    "utilization_percent": 78
+  },
+  "jobs": [
+    {
+      "first_tenth": {
+        "includes_fresh_refit": true,
+        "projected_seconds": 7274.530172951628,
+        "recipients": 5,
+        "total_recipients": 41
+      },
+      "identities": [
+        {
+          "cpu_seconds": 25.25,
+          "live": true,
+          "native": {
+            "created_ticks": 134368387354121717,
+            "executable": "python.exe",
+            "pid": 40756
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.026134490966796875
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368387392751830,
+            "executable": "python.exe",
+            "pid": 193516
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "cpu_seconds": 0.078125,
+          "live": true,
+          "native": {
+            "created_ticks": 134368398694884207,
+            "executable": "python.exe",
+            "pid": 178016
+          },
+          "priority": 16384,
+          "record": "VERIFY_CHILD.json",
+          "rss_GiB": 0.004657745361328125
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D2-canonical-recovery",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 21052.96518509997,
+        "original_wall_ceiling_seconds": 10800,
+        "prior_wall_seconds_charged": 547.0348149000312
+      },
+      "newest_output_age_seconds": 1141.3518245220184,
+      "output_bytes": 74314465,
+      "output_files": 16611,
+      "phase": "verify",
+      "plan_sha256": "7fd4c13d747965988a5cd0f94aa8272cd6552149369f125240427853409caedd",
+      "source_pins": 6473,
+      "terminals": []
+    },
+    {
+      "first_tenth": {
+        "completed_bootstrap": 20,
+        "projected_full_main_seconds": 24337.88480929588,
+        "projected_seconds": 24337.88480929588,
+        "projection_scope": "Conservative slowest measured bootstrap fit; execution plus full replay; controls measured separately in timing pilot",
+        "total_bootstrap": 2000
+      },
+      "identities": [
+        {
+          "cpu_seconds": 29.3125,
+          "live": true,
+          "native": {
+            "created_ticks": 134368340173768984,
+            "executable": "python.exe",
+            "pid": 3780
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.026844024658203125
+        },
+        {
+          "cpu_seconds": 0.0,
+          "live": true,
+          "native": {
+            "created_ticks": 134368340205353646,
+            "executable": "python.exe",
+            "pid": 80212
+          },
+          "priority": 16384,
+          "record": "EXECUTE_CHILD.json",
+          "rss_GiB": 0.004543304443359375
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 42650.479929,
+        "original_wall_ceiling_seconds": 43200,
+        "prior_wall_seconds_charged": 549.520071
+      },
+      "newest_output_age_seconds": 1.1126720905303955,
+      "output_bytes": 26256115,
+      "output_files": 3355,
+      "phase": "execute",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-18T23:49:56.834869+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "identities": [
+        {
+          "cpu_seconds": 5.796875,
+          "live": true,
+          "native": {
+            "created_ticks": 134367443601019868,
+            "executable": "python.exe",
+            "pid": 77320
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.019123077392578125
+        }
+      ],
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-18T23:49:54.983688+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "identities": [
+        {
+          "cpu_seconds": 0.609375,
+          "live": true,
+          "native": {
+            "created_ticks": 134368329836144485,
+            "executable": "python.exe",
+            "pid": 644
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.018756866455078125
+        }
+      ],
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "terminals": []
+    }
+  ],
+  "no_scientific_scores_read": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 1985,
+    "hashed": 9158
+  },
+  "recovery": "No new worker recovery required; GPU remains guarded; inspect final D2 terminal if emitted",
+  "research_locks": "All21 verified separately this pass",
+  "resources": {
+    "commit_headroom_GiB": 15.00870132446289,
+    "disk_free_GiB": 397.55001068115234,
+    "ram_available_GiB": 27.501209259033203
+  },
+  "slots": [
+    {
+      "at": "2026-10-18T21:53:40.532062+00:00",
+      "card": "D32-canonical-main",
+      "native": {
+        "created_ticks": 134368340173768984,
+        "executable": "python.exe",
+        "pid": 3780
+      },
+      "slot": "slot-0.json"
+    },
+    {
+      "at": "2026-10-18T23:12:19.270807+00:00",
+      "card": "D2-canonical-recovery-main",
+      "native": {
+        "created_ticks": 134368387354121717,
+        "executable": "python.exe",
+        "pid": 40756
+      },
+      "slot": "slot-1.json"
+    }
+  ],
+  "watcher": {
+    "error": null,
+    "events": [
+      {
+        "delivered_at": 1792367192.8812757,
+        "id": "ab86046844f4c6fe9a2b1b03",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      }
+    ],
+    "health_schedule": {
+      "due": 1792384283.121583,
+      "id": "19dd28e89eb444618e55a8e6055de28d",
+      "interval_seconds": 21600,
+      "last_inspected": 1792362683.121583,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "historical_failures": 2,
+    "last_scan_age_seconds": 34.977551221847534,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_verified": true,
+    "wake_plan": {
+      "created": 1792365316.5096426,
+      "due": 1792367116.5096426,
+      "event_id": "ab86046844f4c6fe9a2b1b03",
+      "expected_finish": 1792372516.5096426,
+      "id": "6e75f00412694f5cb239dafdd2164453",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "reason": "D2 certified retry cost/progress and D32 continuation; prepare EV consumers; recheck unchanged GPU cold-start floor"
+    }
+  },
+  "numerical_workers": [
+    {
+      "native": {
+        "pid": 211680,
+        "created_ticks": 134368398695969273,
+        "executable": "python.exe"
+      },
+      "parent": 178016,
+      "cpu_seconds": 1125.671875,
+      "priority": 16384
+    },
+    {
+      "native": {
+        "pid": 167968,
+        "created_ticks": 134368340205600640,
+        "executable": "python.exe"
+      },
+      "parent": 80212,
+      "cpu_seconds": 6851.765625,
+      "priority": 16384
+    }
+  ],
+  "verification_progress_followup": {
+    "D2_cpu_seconds": 1170.609375,
+    "D32_cpu_seconds": 6899.171875,
+    "both_increased": true,
+    "D2_saved_output_unchanged_expected_during_replay": true
+  }
+}

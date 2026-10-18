@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-ENGINE-EXPORT-RECEIVED-1018
+
+**Hypothesis.** The delivered engine interface preserves its frozen features and exact source spans.
+**METHOD.** Authenticate the script, pinned engine archive and seven installed reader files; run five existing constructed software checks against the frozen engine in a fresh process, plus its independent Unicode input validator.
+**Found.** The dependency arrived and those checks pass. **Means.** EV consumer implementation can proceed; no real reader or corpus execution, production-occurrence validation, pilot admission or scientific result follows. Exact provenance joins and consumer known-answer checks remain. D2 is independently replaying its single retry; D32 continues. The scheduled inspection verifies native workers, advancing activity, pins, resources, leases, calendars and actual watcher delivery. The GPU remains below its unchanged restart floor. No new research test or probability was introduced; shared integration remains 20:00.
+
+Curator roll-up: engine validation; can the frozen engine's features be exported faithfully?; **Infrastructure**; five existing constructed interface checks pass; project meaning: the dependency is received but corpus admission remains unfinished; next engineering obligation: validate provenance and EV consumers, then a counted measured pilot; public claim unchanged; curator decision required: No; detail: [exporter receipt](results/phase_2_4_stage_15/DRIVE/ENGINE_EXPORT_RECEIVED_20261018.md) and [scheduled inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1645.md).
+
 ### OPS-S15-D2-CANONICAL-RECOVERY-1018
 
 **Hypothesis.** The corrected original choice test can finish with every fit meeting its unchanged numerical certificate.
