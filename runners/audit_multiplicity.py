@@ -73,6 +73,14 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-D20-uptake embedding reliability normal', 0.6964759615567022, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake embedding own-minus-fake normal', 0.6883229079423718, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake embedding mean outcome permutation BIASED', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake embedding reliability outcome permutation BIASED', 0.13930348258706468, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake lexical reliability normal', 0.9160005871096494, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake lexical own-minus-fake normal', 0.8962756151487887, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake lexical mean outcome permutation BIASED', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
+    ('S15-DRIVE-D20-uptake lexical reliability outcome permutation BIASED', 0.0945273631840796, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
     ('S15-DRIVE-D4-canonical model content_gain', 0.37805711122465335, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
     ('S15-DRIVE-D4-canonical model housekeeping_gain', 0.07409884103064221, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
     ('S15-DRIVE-D4-canonical model primary', 0.8554229617788001, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),

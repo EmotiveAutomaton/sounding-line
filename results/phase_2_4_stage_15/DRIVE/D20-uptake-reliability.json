@@ -1,0 +1,239 @@
+{
+  "card": "D20-uptake-reliability",
+  "config": {
+    "batch_size": 16,
+    "bootstrap": 2000,
+    "checkpoint_draws": 25,
+    "identity_permutations": 200,
+    "maximum_undefined_fraction": 0.05,
+    "minimum_writers": 4,
+    "permutations": 200,
+    "seed": 20261018,
+    "threads": 1
+  },
+  "counts": {
+    "dismissed": 4038,
+    "dismissed_short_tail": 723,
+    "menus": 16855
+  },
+  "descriptive": true,
+  "estimand": "Original Pearson correlation of odd/even chronological-session uptake means; lexical primary, embedding secondary. Original donor expectation and writer/session/menu weighting unchanged.",
+  "identity_policy": "200+ fixed permutations of whole even-half identities among the original two-half-supported writers. Own-minus-mean-fake on exactly the same odd-half rows and even-half gallery. Bootstrap resamples real writer nodes taking both arms together and reweights donor roles; all counterparts must remain supported. Conditional on this fixed graph/support.",
+  "limitations": "Association, not observed reading/exposure or causal influence. Saved MiniLM vectors authenticated, not neurally recomputed. Reliability and paired identity diagnostic do not establish latent goals, preferences or needs.",
+  "outcome_policy": "200+ seeded within-writer, prompt and progress-decile permutations of complete next50-word windows. Same targets and donor graph, singleton groups fixed; no redraw. Controls report original mean uptake and reliability separately.",
+  "primary": {
+    "ci95": [
+      -0.40848903177011053,
+      0.43391007735130543
+    ],
+    "draws": 2000,
+    "effect": -0.022800355860805765,
+    "p_approx": 0.9160005871096494,
+    "standard_error": 0.21617268310905213,
+    "state": "null",
+    "undefined_draws": 0
+  },
+  "scientific_admission": false,
+  "shuffle_support": {
+    "groups": 1767,
+    "groups_with_distinct_outcomes": 588,
+    "potentially_movable_windows": 2307,
+    "singleton_groups": 1008,
+    "total_windows": 3315,
+    "windows_in_groups_with_distinct_outcomes": 1869
+  },
+  "state": "null",
+  "uncertainty": "Original2000 writer-node bootstrap (target and donor roles), percentile95% intervals. Approximate two-sided normal p is descriptive; predicted-direction permutation p is separate. Unsupported draws retained; original5% bootstrap ceiling, no p from a reduced permutation set.",
+  "arms": {
+    "embedding": {
+      "primary": {
+        "ci95": [
+          -0.3495415216111939,
+          0.24767698214105924
+        ],
+        "draws": 2000,
+        "effect": -0.05919986353524395,
+        "p_approx": 0.6964759615567022,
+        "standard_error": 0.1517626386040874,
+        "state": "null",
+        "undefined_draws": 0
+      },
+      "original_mean_unchanged": 0.09137516409860143,
+      "outcome_permutation": {
+        "mean": {
+          "bias_flag": true,
+          "draws": 200,
+          "mean": 0.08431006597485399,
+          "moments_scope": "all draws",
+          "p_one_sided": 0.004975124378109453,
+          "quantiles95": [
+            0.08300978857777376,
+            0.08549197621647549
+          ],
+          "sd": 0.0006429734071452093,
+          "undefined_draws": 0,
+          "valid": true
+        },
+        "reliability": {
+          "bias_flag": true,
+          "draws": 200,
+          "mean": -0.07351649565962727,
+          "moments_scope": "all draws",
+          "p_one_sided": 0.13930348258706468,
+          "quantiles95": [
+            -0.0989250986627304,
+            -0.04364481044382783
+          ],
+          "sd": 0.013888305651161408,
+          "undefined_draws": 0,
+          "valid": true
+        }
+      },
+      "support": {
+        "eligible_writers": 46,
+        "exclusions": {},
+        "mean": 0.09137516409860143,
+        "menus": 3315,
+        "reliability": -0.05919986353524395,
+        "unsupported_half_writers": 15,
+        "writers": 61
+      },
+      "identity": {
+        "fake_mean": 0.0038918061018288095,
+        "fixed_graph": true,
+        "own_minus_fake": {
+          "ci95": [
+            -0.36484935557518133,
+            0.2517539820742365
+          ],
+          "draws": 2000,
+          "effect": -0.06309166963707276,
+          "p_approx": 0.6883229079423718,
+          "standard_error": 0.1572840420125999,
+          "state": "null",
+          "undefined_draws": 1
+        },
+        "permutations": 200,
+        "undefined_point_permutations": 0
+      }
+    },
+    "lexical": {
+      "primary": {
+        "ci95": [
+          -0.40848903177011053,
+          0.43391007735130543
+        ],
+        "draws": 2000,
+        "effect": -0.022800355860805765,
+        "p_approx": 0.9160005871096494,
+        "standard_error": 0.21617268310905213,
+        "state": "null",
+        "undefined_draws": 0
+      },
+      "original_mean_unchanged": 0.07653200987246112,
+      "outcome_permutation": {
+        "mean": {
+          "bias_flag": true,
+          "draws": 200,
+          "mean": 0.07042519575014936,
+          "moments_scope": "all draws",
+          "p_one_sided": 0.004975124378109453,
+          "quantiles95": [
+            0.06857196598887288,
+            0.07252133153470966
+          ],
+          "sd": 0.0011838331536950368,
+          "undefined_draws": 0,
+          "valid": true
+        },
+        "reliability": {
+          "bias_flag": true,
+          "draws": 200,
+          "mean": -0.12069384335315846,
+          "moments_scope": "all draws",
+          "p_one_sided": 0.0945273631840796,
+          "quantiles95": [
+            -0.2066311005893059,
+            -0.008098918631010551
+          ],
+          "sd": 0.07572046869739113,
+          "undefined_draws": 0,
+          "valid": true
+        }
+      },
+      "support": {
+        "eligible_writers": 46,
+        "exclusions": {
+          "no supported offered option": 16
+        },
+        "mean": 0.07653200987246112,
+        "menus": 3299,
+        "reliability": -0.022800355860805765,
+        "unsupported_half_writers": 15,
+        "writers": 61
+      },
+      "identity": {
+        "fake_mean": 0.005321117553238707,
+        "fixed_graph": true,
+        "own_minus_fake": {
+          "ci95": [
+            -0.4160217030327122,
+            0.4259126438376737
+          ],
+          "draws": 2000,
+          "effect": -0.028121473414044473,
+          "p_approx": 0.8962756151487887,
+          "standard_error": 0.21570910065319818,
+          "state": "null",
+          "undefined_draws": 1
+        },
+        "permutations": 200,
+        "undefined_point_permutations": 0
+      }
+    }
+  },
+  "verification": {
+    "plan_sha256": "398fcf02979deddd3211ec1961c7f75698f5abd48615676628d255b1dc3b0a73",
+    "complete_sha256": "6f9bb3bcc2f37f94c4e6c3da2387aca32348e9e31812bf3056abe0cb184edbdb",
+    "verified_sha256": "5e1be3ebbfa70c9c044e3a2209100c6b0105ca11f1b6e11002f5c85f075160ac",
+    "summary_sha256": "ee185b56384299b951382b13492ac08bb379ff34c1ce334a8ac20e231807f1e6",
+    "pin_count": 66,
+    "output_count": 3791,
+    "all_pins_and_outputs_verified": true,
+    "cpu_lease_released": true,
+    "elapsed_controller_seconds": 397.599445,
+    "independent_checks": {
+      "embedding": {
+        "primary_recomputed": -0.059199863535243896,
+        "mean_recomputed": 0.09137516409860143,
+        "eligible_writers": 46,
+        "bootstrap_intervals_recomputed": true,
+        "permutation_probabilities_recomputed": true
+      },
+      "lexical": {
+        "primary_recomputed": -0.022800355860805723,
+        "mean_recomputed": 0.07653200987246112,
+        "eligible_writers": 46,
+        "bootstrap_intervals_recomputed": true,
+        "permutation_probabilities_recomputed": true
+      }
+    },
+    "shuffle_moved_range": [
+      1462,
+      1621
+    ],
+    "shuffle_changed_range": [
+      1046,
+      1194
+    ]
+  },
+  "native_exits_verified": true,
+  "measured_execute_and_verify_threads": 1,
+  "paired_interval_finite_draws": 1999,
+  "undefined_draws_retained_without_redraw": true,
+  "new_descriptive_probability_count": 8,
+  "family_E_prefix_held": true,
+  "additional_extension_admitted": false,
+  "theory_TODO_integration": "2026-10-18 20:00 PDT",
+  "public_claim": "Original descriptive matched overlap unchanged; stable personal uptake, causal influence and clean-control admission not established"
+}
