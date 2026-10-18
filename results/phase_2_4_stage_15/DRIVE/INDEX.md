@@ -12,7 +12,7 @@ failures still have one retry. No partial scientific scores are reported.
 |---|---|---|
 | PMAP | verified complete; positive primary with biased reassignment and incomplete content controls | [Full channel table and reliability](PMAP.md); [frozen rhythm contrast verified complete](PMAP-rhythm.md), original limitations retained |
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
-| V4.c | full 110-world corrected split running after verified timing and native reuse admission | [Diagnostic](V4.c-saved-diagnostics.md), [pilot](V4.c-split-pilot.md); original null-world calibration required |
+| V4.c | verified complete; primary invalid on null calibration; taste/combined blind, history-only sees large taste only | [Full split](V4.c-split.md); original V4 unchanged; medium-strength taste route and dependent cards held |
 | D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json), not dispatched |
 | D33.fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |

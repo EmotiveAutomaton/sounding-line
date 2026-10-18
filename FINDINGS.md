@@ -9,6 +9,54 @@ ran it.
 
 ---
 
+### S15-DRIVE-V4C-SPLIT-1018
+
+**Hypothesis.** Learning a reader's feature choices on separate decisions makes its test for writer-specific taste distinguish planted structure from worlds with no such structure.
+**METHOD.** Refit all 110 original constructed worlds, alternating decisions within each session into two halves. Learn feature directions, dimension, scaling and history settings on one half; freeze them, estimate only variance components on the other half, then swap and average the two marginal likelihood-ratio statistics. Separate causal histories prevent outcomes crossing the split. An exact numerical program compares taste features, history alone and their combination against the original zero-effect and shuffled-world gates.
+**Found.** The taste and combined readers still fail their mandatory false-alarm gates. **Means.** The corrected split does not admit the primary taste reader. This is an instrument failure, not evidence that people lack taste or history-dependent behavior. The history-only reader meets the sampled null bands but detects taste reliably only at the largest planted strength; that narrower result does not admit the medium-strength route.
+
+Each row below is a reader/plant combination. Columns count detections out of the constructed worlds at zero, weak (0.2), medium (0.4) and large (0.8) planted strength. The same 20 shuffled worlds appear once per reader and are repeated across that reader's rows for comparison. A valid null gate allows at most one detection in ten zero-effect worlds and two in twenty shuffled worlds. The fixed labels require at least 80% medium-strength recovery for `sees`, or at least 80% large-strength recovery for `sees large only`, after passing those null gates.
+
+| Reader | Planted structure | Zero | Weak | Medium | Large | Shuffled null | Frozen label |
+|---|---|---:|---:|---:|---:|---:|---|
+| Taste plus history | Outcome-history plant | 3/10 | 1/5 | 6/10 | 4/5 | 4/20 | blind |
+| Taste plus history | Lexical taste plant | 2/10 | 2/5 | 10/10 | 5/5 | 4/20 | blind |
+| Taste plus history | Matched-feature taste plant | 2/10 | 5/5 | 10/10 | 5/5 | 4/20 | blind |
+| Taste features | Outcome-history plant | 3/10 | 2/5 | 4/10 | 2/5 | 2/20 | blind |
+| Taste features | Lexical taste plant | 2/10 | 2/5 | 10/10 | 5/5 | 2/20 | blind |
+| Taste features | Matched-feature taste plant | 3/10 | 5/5 | 10/10 | 5/5 | 2/20 | blind |
+| History only | Outcome-history plant | 0/10 | 0/5 | 6/10 | 3/5 | 2/20 | blind |
+| History only | Lexical taste plant | 1/10 | 1/5 | 4/10 | 5/5 | 2/20 | sees large only |
+| History only | Matched-feature taste plant | 1/10 | 3/5 | 5/10 | 5/5 | 2/20 | sees large only |
+
+The predefined primary is the combined reader's matched-feature medium-minus-zero detection share: **+0.8**, with a 95% percentile interval **[+0.5, +1.0]**. Its descriptive normal-reference probability is **4.686678675978141e-10**, using bootstrap standard error 0.1284263375. Its inferential state is **INVALID** because null calibration fails; the small probability does not turn it into an admitted positive. The interval uses 2,000 independent constructed-world resamples within the two cells, seed 20261018, conditional on the retained real-data design. It does not quantify human-population uncertainty.
+
+For the requested adjacent comparisons, the next table gives each medium-minus-zero detection-share difference, computed directly from the complete counts above. These are descriptive differences, not additional admitted discoveries or confidence intervals.
+
+| Reader | Planted structure | Medium minus zero | Null-gate status |
+|---|---|---:|---|
+| Taste plus history | Outcome-history plant | +0.3 | fail |
+| Taste plus history | Lexical taste plant | +0.8 | fail |
+| Taste plus history | Matched-feature taste plant | +0.8 | fail |
+| Taste features | Outcome-history plant | +0.1 | fail |
+| Taste features | Lexical taste plant | +0.8 | fail |
+| Taste features | Matched-feature taste plant | +0.7 | fail |
+| History only | Outcome-history plant | +0.6 | pass sampled bands |
+| History only | Lexical taste plant | +0.3 | pass sampled bands |
+| History only | Matched-feature taste plant | +0.4 | pass sampled bands |
+
+All cell-wise Wilson 95% intervals are retained in the aggregate JSON. The null samples are small: the history-only reader's one-in-ten zero-effect taste rate has interval [0.017876, 0.404150], and its two-in-twenty shuffled rate has interval [0.027866, 0.301034]. Passing those sampled counts is not precise assurance of a 10% false-alarm rate. It recovers only five of ten medium matched-feature plants and four of ten medium lexical plants, below the original recovery criterion. All habit-plant labels remain blind, including the history-only reader.
+
+The original chronological training/calibration masks are restricted to the learning half. Dimension is selected from {2,4}, decay from {0.5,0.8,0.95}, by calibration half-Brier loss with lexical tie-breaking. The population baseline uses pseudocount-one class frequencies from learning-half decisions in strictly earlier completed sessions. Scaling uses learning-half training means and standard deviations; the original constant-feature convention and whole-writer baseline center are retained. Testing uses the full original eligible opposite-half roster and the unchanged Laplace marginal objective and optimizer tolerances. The reference uses correlated Gaussian variance-score directions within each half and independent draws between halves; this approximates their shared-world dependence. The original null-world gate, rather than a post-result reference adjustment, determines admission.
+
+The saved-output threshold, predictive and feature-overlap diagnostics are separately recorded in V4.c-saved-diagnostics.md/json. They remain descriptive and do not override the failed split gate. The original likelihood integrates writer loadings through its Laplace approximation; it is not a simple plug-in likelihood. This run covers the exact 30 zero-effect and 20 saved shuffled worlds within the original 110-world roster. The optional 199-null whole-pipeline Monte Carlo reference has not run; its condition is spare capacity after the unfinished revised wave, not automatic continuation of this card. No further extension is opened by this result.
+
+All 47 source/input pins and 231 completion artifacts verify. Complete fresh-source refitting reproduces all 110 worlds; the three timing-pilot worlds were initially reused byte-for-byte and are included in the full fresh refit. Exact native workers exited and the counted CPU lease was released. Twelve focused checks and native fixtures preceded production. Controller wall time, including execution and fresh verification, was 4427.048442 seconds; adding the charged timing pilot gives 4533.588433 seconds within the original 11,700-second cumulative ceiling. No raw text or participant identities are published.
+
+Original V4 labels remain unchanged. D2's hierarchical extension, writer-level taste comparisons, FX1 and personal panels remain unadmitted through this route. This Tier 0 instrument adds no family null. The current execution index and instrument ledger carry the hold immediately; theory rows, afterwords and TODO integrate at 20:00 PDT.
+
+Curator roll-up: reader calibration; does separating feature learning from testing admit a taste reader?; **Infrastructure**; the corrected split still fails the primary null gate; project meaning: the taste instrument remains unadmitted, without rejecting the human hypothesis; next engineering obligation: preserve the gated downstream holds and integrate the full sensitivity record at the daily digest; public claim unchanged; curator decision required: No; detail: V4.c-split.md/json.
+
 ### S15-DRIVE-PMAP-RHYTHM-1018
 
 **Hypothesis.** Logged production rhythm identifies a writer more accurately than her handling of model offers.

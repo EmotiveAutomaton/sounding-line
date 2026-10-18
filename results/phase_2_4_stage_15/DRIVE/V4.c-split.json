@@ -1,0 +1,620 @@
+{
+  "calibrated_matched_coordinate_reader": false,
+  "card": "V4.c",
+  "config": {
+    "bootstrap_draws": 2000,
+    "mode": "full",
+    "optimizer_maxiter": 100,
+    "reference_draws": 20000,
+    "seed": 20261018
+  },
+  "control_scope": "exact stipulated 30 zero-effect and20 saved shuffled worlds; no optional199-world whole-pipeline Monte Carlo step run",
+  "curator_decision": {
+    "date": "2026-10-18",
+    "verbatim": "Build the corrected split test."
+  },
+  "curves": {
+    "R-both": {
+      "habit": {
+        "cells": {
+          "0.0": {
+            "detected": 3,
+            "rate": 0.3,
+            "wilson95": [
+              0.10779126740630099,
+              0.6032218525388546
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 1,
+            "rate": 0.2,
+            "wilson95": [
+              0.03622410863243014,
+              0.6244653702374747
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 6,
+            "rate": 0.6,
+            "wilson95": [
+              0.31267376973365824,
+              0.8318196702937638
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 4,
+            "rate": 0.8,
+            "wilson95": [
+              0.37553462976252533,
+              0.9637758913675698
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 4,
+          "rate": 0.2,
+          "wilson95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_lexical": {
+        "cells": {
+          "0.0": {
+            "detected": 2,
+            "rate": 0.2,
+            "wilson95": [
+              0.05668215145437519,
+              0.5098375284633583
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 2,
+            "rate": 0.4,
+            "wilson95": [
+              0.11762077423264783,
+              0.769275718723987
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 10,
+            "rate": 1.0,
+            "wilson95": [
+              0.7224672001371107,
+              0.9999999999999999
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 4,
+          "rate": 0.2,
+          "wilson95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_matched": {
+        "cells": {
+          "0.0": {
+            "detected": 2,
+            "rate": 0.2,
+            "wilson95": [
+              0.05668215145437519,
+              0.5098375284633583
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 10,
+            "rate": 1.0,
+            "wilson95": [
+              0.7224672001371107,
+              0.9999999999999999
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 4,
+          "rate": 0.2,
+          "wilson95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "worlds": 20
+        }
+      }
+    },
+    "R-kernel": {
+      "habit": {
+        "cells": {
+          "0.0": {
+            "detected": 0,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2775327998628892
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 0,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 6,
+            "rate": 0.6,
+            "wilson95": [
+              0.31267376973365824,
+              0.8318196702937638
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 3,
+            "rate": 0.6,
+            "wilson95": [
+              0.2307242812760128,
+              0.882379225767352
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_lexical": {
+        "cells": {
+          "0.0": {
+            "detected": 1,
+            "rate": 0.1,
+            "wilson95": [
+              0.017876213095072896,
+              0.4041500267952385
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 1,
+            "rate": 0.2,
+            "wilson95": [
+              0.03622410863243014,
+              0.6244653702374747
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 4,
+            "rate": 0.4,
+            "wilson95": [
+              0.16818032970623614,
+              0.6873262302663417
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_matched": {
+        "cells": {
+          "0.0": {
+            "detected": 1,
+            "rate": 0.1,
+            "wilson95": [
+              0.017876213095072896,
+              0.4041500267952385
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 3,
+            "rate": 0.6,
+            "wilson95": [
+              0.2307242812760128,
+              0.882379225767352
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 5,
+            "rate": 0.5,
+            "wilson95": [
+              0.236593090512564,
+              0.7634069094874361
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      }
+    },
+    "R-taste": {
+      "habit": {
+        "cells": {
+          "0.0": {
+            "detected": 3,
+            "rate": 0.3,
+            "wilson95": [
+              0.10779126740630099,
+              0.6032218525388546
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 2,
+            "rate": 0.4,
+            "wilson95": [
+              0.11762077423264783,
+              0.769275718723987
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 4,
+            "rate": 0.4,
+            "wilson95": [
+              0.16818032970623614,
+              0.6873262302663417
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 2,
+            "rate": 0.4,
+            "wilson95": [
+              0.11762077423264783,
+              0.769275718723987
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_lexical": {
+        "cells": {
+          "0.0": {
+            "detected": 2,
+            "rate": 0.2,
+            "wilson95": [
+              0.05668215145437519,
+              0.5098375284633583
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 2,
+            "rate": 0.4,
+            "wilson95": [
+              0.11762077423264783,
+              0.769275718723987
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 10,
+            "rate": 1.0,
+            "wilson95": [
+              0.7224672001371107,
+              0.9999999999999999
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      },
+      "taste_matched": {
+        "cells": {
+          "0.0": {
+            "detected": 3,
+            "rate": 0.3,
+            "wilson95": [
+              0.10779126740630099,
+              0.6032218525388546
+            ],
+            "worlds": 10
+          },
+          "0.2": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          },
+          "0.4": {
+            "detected": 10,
+            "rate": 1.0,
+            "wilson95": [
+              0.7224672001371107,
+              0.9999999999999999
+            ],
+            "worlds": 10
+          },
+          "0.8": {
+            "detected": 5,
+            "rate": 1.0,
+            "wilson95": [
+              0.5655175352168251,
+              1.0
+            ],
+            "worlds": 5
+          }
+        },
+        "shuffled_null": {
+          "detected": 2,
+          "rate": 0.1,
+          "wilson95": [
+            0.027866481213768224,
+            0.3010336452284873
+          ],
+          "worlds": 20
+        }
+      }
+    }
+  },
+  "extension": null,
+  "input_hashes": {
+    "geometry": "d41ff3ebac56b13c883538b7d8c53db80f9dfedcdc7a34b27ff86039c684d6de",
+    "geometry_arrays": "8a7ccfa01f17b4ca1e44d98f53e23b36f50bc50abfed934740f0fb56f95a664b",
+    "likelihood_source": "67ee5dfd356408e7ead2496f0ef072f98356610a004aa1d8b5a8504711aca359",
+    "null_worlds": "06bacb817b35b608b67ba09d732693a607e14e1bdb481cfc2ea23fa881823a91",
+    "predictions": "5f05839f9bea25bf3b3ecffef96792831dfdec8d1ef11c4bda98128f795c6ba9",
+    "sessions": "37398e735edeca45f23717f92cb19854082fe3ed028d277ac59235eb3bea76a3",
+    "v4_complete": "ab74a3cf0c92830c91a8f36ad43466125987b178119c0a513714c094a3fc3eba",
+    "v4_plan": "d12b7dfad3f95fdc1fdd94dd15fce666775fd56a223a361349c090654c56c988",
+    "v4_summary": "da649bb2b14a51a9cc91f7e6cc80f1062c66d8f9c70642d217228b2abdbe3f7c",
+    "worlds": "d93b3147563ac790f2e8b3e11e2ebdd400cf7e9c59315024e01ecc9d2c2fddee"
+  },
+  "labels": {
+    "R-both": {
+      "habit": "blind",
+      "taste_lexical": "blind",
+      "taste_matched": "blind"
+    },
+    "R-kernel": {
+      "habit": "blind",
+      "taste_lexical": "sees_large_only",
+      "taste_matched": "sees_large_only"
+    },
+    "R-taste": {
+      "habit": "blind",
+      "taste_lexical": "blind",
+      "taste_matched": "blind"
+    }
+  },
+  "limits": [
+    "Constructed outcomes on an exposed real-data design; no real human taste result.",
+    "The original 1/10 and2/20 null bands are retained; Wilson intervals disclose their coarse uncertainty.",
+    "Chi-bar reference uses fixed-design information; learned cross-fit directions and causal history make exact joint size unknown before the saved null check.",
+    "Original V4 label and any prior scientific route are not rewritten by this separate card."
+  ],
+  "method": {
+    "choices": "original chronological train/calibration masks restricted to learning half; K in {2,4}, decay in {.5,.8,.95}; minimum calibration half-Brier, lexical name breaks ties",
+    "history": "separate causal outcome stream for each half; original frozen whole-writer baseline center",
+    "population": "original B-pop class-frequency pseudocount +1; only learning-half decisions in strictly earlier completed sessions",
+    "reference": "correlated Gaussian variance-score cone within half; independent draws between halves approximate shared-world cross-fit dependence",
+    "scaling": "learning-half chronological training mean/SD only; original <1e-10 constant convention",
+    "split": "alternate decisions sorted by open time/key within each session",
+    "statistic": "mean of two swapped marginal-likelihood ratio statistics",
+    "testing": "full original eligible roster in opposite half; only nonnegative variance components estimated there; exact original Laplace objective/tolerances",
+    "validity": "original null bands decisive; no reference tuning after outcomes"
+  },
+  "original_V4_unchanged": true,
+  "primary": {
+    "approximate_two_sided_wald_p": 4.686678675978141e-10,
+    "bootstrap_draws": 2000,
+    "estimate": 0.8,
+    "interval95": [
+      0.5,
+      1.0
+    ],
+    "method": "independent constructed-world bootstrap within matched .4 and zero cells; conditional on retained real-data design",
+    "seed": 20261018,
+    "standard_error": 0.12842633749383747,
+    "state": "invalid",
+    "valid_under_null_calibration": false
+  },
+  "reporting": {
+    "downstream_taste_admission": false,
+    "new_family_nulls": 0,
+    "primary_validity": "invalid",
+    "raw_text_or_participant_ids_published": false,
+    "theory_todo_integration": "2026-10-18T20:00:00-07:00",
+    "tier": 0
+  },
+  "runtime": {
+    "controller_elapsed_seconds": 4427.048442,
+    "cumulative_cap_seconds": 11700,
+    "cumulative_seconds": 4533.588433,
+    "prior_pilot_seconds": 106.539991
+  },
+  "scientific_admission": false,
+  "status": "complete",
+  "supporting_detection_differences": [
+    {
+      "medium_minus_zero": 0.3,
+      "plant": "habit",
+      "reader": "R-both",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.8,
+      "plant": "taste_lexical",
+      "reader": "R-both",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.8,
+      "plant": "taste_matched",
+      "reader": "R-both",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.10000000000000003,
+      "plant": "habit",
+      "reader": "R-taste",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.8,
+      "plant": "taste_lexical",
+      "reader": "R-taste",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.7,
+      "plant": "taste_matched",
+      "reader": "R-taste",
+      "sampled_null_bands_pass": false,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.6,
+      "plant": "habit",
+      "reader": "R-kernel",
+      "sampled_null_bands_pass": true,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.30000000000000004,
+      "plant": "taste_lexical",
+      "reader": "R-kernel",
+      "sampled_null_bands_pass": true,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    },
+    {
+      "medium_minus_zero": 0.4,
+      "plant": "taste_matched",
+      "reader": "R-kernel",
+      "sampled_null_bands_pass": true,
+      "source": "arithmetic difference of complete detection counts; no additional fit"
+    }
+  ],
+  "verification": {
+    "at": "2026-10-18T16:47:43.840966+00:00",
+    "complete_sha256": "7cf0f48e264d6680e7ed64943087a4f9245c7e8c29c990a081e4eaba8c3099f7",
+    "completion_outputs": 231,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "ddd30beb69d18a9acf6f34ccae93cf4fa86858fafd27e7451bd9c1cbb4e71d1c",
+    "source_pins": 47,
+    "summary_sha256": "bf367424d53a0279e370fb15f66b61bfa8cecb89812d721fcc9a33df9147b497"
+  },
+  "world_count": 110
+}

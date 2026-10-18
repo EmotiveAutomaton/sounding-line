@@ -73,6 +73,7 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-V4c split primary INVALID calibration', 4.686678675978141e-10, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V4.c-split.json'),
     ('S15-DRIVE-PMAP-rhythm primary', 7.296188796783537e-44, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP-rhythm.json'),
     ('S15-DRIVE-PMAP-rhythm own minus fake', 7.546645483790994e-44, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP-rhythm.json'),
     ('S15-DRIVE-PMAP-rhythm session permutation', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP-rhythm.json'),

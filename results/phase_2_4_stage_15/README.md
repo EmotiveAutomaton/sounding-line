@@ -1,6 +1,6 @@
 # Stage 15 evidence
 
-**Current October 18:** [the execution index](DRIVE/INDEX.md) records verified PMAP and its rhythm extension, running corrected split verification, supported-match implementation and the separately authorized Jester input recovery. Stage 15 is open. The dated execution statements below are historical; current validity holds and native dispatches are in the index.
+**Current October 18:** [the execution index](DRIVE/INDEX.md) records verified PMAP and its rhythm extension, completed corrected split calibration with the primary taste route still held, supported-match implementation and the separately authorized Jester input recovery. Stage 15 is open. The dated execution statements below are historical; current validity holds and native dispatches are in the index.
 
 **October 17 new wave:** [completed instruments and live dispatch](DRIVE/INDEX.md)
 are recorded under the amended Stage 15 packet. The prior finite queues below
