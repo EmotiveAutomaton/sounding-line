@@ -91,3 +91,13 @@ Operational events are recorded once here under the October 17 packet. Scientifi
 - 2026-10-18T15:05:14.082257+00:00: PMAP production census refused source-population mismatch before extraction; all49pins verify, exact workers exited, no session checkpoint or scientific score. Single tested source recovery being prepared. Prior launch statement describes dispatch only.
 
 - 2026-10-18T08:11:24.707179-07:00: verified every consumer-audit input/output pin and reviewed D2/D12/D6 source statements. Filed exact source-exposure counts and partial validity holds; no fits, rescoring or new research run. Original results retained; next canonical successors keep their separate authorization.
+
+- 2026-10-18T08:19:28.818640-07:00: PMAP source-only recovery dispatched after exact1399/1445roster reconciliation, full metadata preflight,10targeted checks and native fixture. Original2.321824seconds charged, unchanged extraction/statistics,5400second cumulative cap. V4.c saved diagnostics dispatched; corrected split native fixture passed. First reviewed mid-run package pushed as741ab6de3.
+
+- 2026-10-18T08:25:30.445973-07:00: V4.c saved diagnostics fully verified and landed: 41 pins, 230 outputs, complete fresh-process replay, native exit and slot release. Original V4 labels unchanged; split timing pilot is next. No new probabilities quoted; reused detection shares remain descriptive.
+
+- 2026-10-18T08:32:39.349450-07:00: Canonical D12 rank successor fully verified and landed, original source hold preserved; seven probabilities registered. Corrected V4.c three-world execution pilot fully verified and landed, measured full execute/fresh-refit projection3711.96s. Full110-world admission remains subject to native reuse check; no interim scores. D33 exact-history support intake dispatched after11targeted tests and native fixture.
+
+- 2026-10-18T08:34:23.188592-07:00: Full V4.c corrected split dispatched with all110original worlds, exact pilot reuse,3900sforecast and11700scumulative cap including charged pilot time. Native full-reuse fixture verifies. D33 exact-history support intake running; canonical D12 rank successor complete. No unfinished scientific scores published.
+
+- 2026-10-18T08:37:53.607427-07:00: Native owners, progress/output freshness, source/research locks, CPU leases, RAM/commit/disk and watcher delivery verified in HEALTH_20261018_SPLIT_RUNNING.json. GPU cold memory6773MiB remains below7424MiB floor; no recovery launch or unrelated cleanup. Pilot/rank events acknowledged only after full write-through. Planned inspection renewed; independent six-hour health remains unchanged.

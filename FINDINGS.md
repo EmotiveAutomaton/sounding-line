@@ -9,6 +9,79 @@ ran it.
 
 ---
 
+### OPS-S15-V4C-PILOT-1018
+
+**Hypothesis.** The corrected split test can execute with its frozen inputs and separate histories within the remaining local campaign.
+**METHOD.** Run the fixed medium-strength first replicate of each of the three original plant families, then independently refit all three in a fresh process. Measure per-world time and project all 110 original worlds plus full verification without assuming parallel speedup.
+**Found.** The execution-only pilot passes; its measured projection is 3,711.96 seconds, about 62 minutes. **Means.** A 3,900-second forecast including overhead admits the full original-world comparison within a 11,700-second cumulative ceiling, with pilot elapsed time charged. This is compute admission, not a scientific label.
+
+All 44 source pins and 18 completion artifacts verify. The three saved worlds are reused byte for byte; all worlds will be freshly refitted at final verification. No interim scientific score is published. The full null and shuffled-world checks, uncertainty and the original calibration bands remain decisive; the approximate joint reference alone does not establish calibration. Original V4 labels remain unchanged.
+
+Curator roll-up: validation apparatus; is the corrected split runnable at the authorized scope?; **Infrastructure**; measured execution admits the full comparison; project meaning: the instrument is ready for its decisive null-world test; next engineering obligation: run and verify every original world; public claim unchanged; curator decision required: No; detail: V4.c-split-pilot.md/json.
+
+### S15-DRIVE-D12-RANK-1018
+
+**Hypothesis.** Writers may consistently choose suggestions with relatively higher or lower producer scores across their sessions.
+**METHOD.** Recover each actual inserted suggestion from canonical process replay, rank its raw logged score within its original menu, and correlate each writer's mean centered rank across odd and even chronological sessions. Bootstrap real writer nodes 2,000 times; compare with 200 fixed even-half identity permutations using the same supported rows and paired node multiplicities.
+**Found.** The rank-reliability primary is null, as is own minus fake identity. **Means.** This representation does not establish stable personal selection of higher-ranked suggestions. The earlier source-exposed D12 result remains held.
+
+The table reports complete split-half correlations or their differences, percentile writer-node 95% intervals, descriptive normal-reference probabilities, and frozen states. The above-threshold row subtracts the original 0.3 benchmark; it is secondary. Acceptance uses the same supported writers, with all their decisions in each complete session half. These are human process records read by exact rank and correlation programs.
+
+| Comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Rank primary | -0.031848 | [-0.442079, +0.344373] | 0.8749915 | null |
+| Rank minus fake identity | -0.053631 | [-0.459099, +0.339667] | 0.79357959 | null |
+| Rank minus 0.3 | -0.331848 | [-0.742079, +0.044373] | 0.10116257 | null |
+| Acceptance reliability | +0.780262 | [+0.591884, +0.901492] | 1.1052974e-21 | positive |
+| Rank minus acceptance | -0.812110 | [-1.231843, -0.411110] | 8.913962e-05 | negative |
+| Uniform-choice control | -0.145731 | [-0.537474, +0.394337] | 0.57511639 | null |
+
+The primary includes 53 writers and 12,167 selected menus; 8 writers lack an eligible selection in one half. Across the full source roster, 12,196 selected menus have usable ranks, 485 have only one option, and 4,174 have no observed selection. No missing-score or all-tied exclusion occurs. All 2,510 exposed canonical-choice mismatches are corrected at the source join; unknown backend probability semantics remain unresolved. Raw-score ranks make no claim about token likelihood or fluency.
+
+The 200 identity permutations have mean +0.021783298, standard deviation 0.132346299 and 95% range [-0.225764833, +0.265729983]. Their one-sided probability is 0.631840796; the mean does not exceed one quarter of the standard deviation. All fixed graphs and bootstrap replicates are defined. This is a writer-identity control, not a within-writer outcome-shuffle certificate. The uniform-choice pipeline is separately null. Paired uncertainty conditions on the fixed permutation graphs; no unsupported draw is replaced and no Spearman-Brown correction is applied.
+
+All 38 source pins and 132 completion artifacts verify; fresh canonical-source and statistical reconstruction, native exit and released slot pass. The original raw-score comparison and its evidence remain unchanged. No personal-taste admission or original-inference restoration follows, and no conditional extension opens from this null.
+
+Curator roll-up: observable preference; do within-menu raw-score ranks recur by writer?; **Narrows**; the corrected rank primary is null; project meaning: no stable rank-preference signal on this representation; next engineering obligation: retain original source hold and deliver at the daily integration; public claim unchanged; curator decision required: No; detail: D12-rank-canonical.md/json.
+
+Theory/TODO integrate at 20:00 PDT under the active packet.
+
+### S15-DRIVE-V4C-DIAGNOSTICS-1018
+
+**Hypothesis.** The earlier taste/habit validation failure may involve direction selection, reference calibration or the features available to the reader.
+**METHOD.** Reconstruct all 110 saved constructed worlds, reread likelihood statistics against each reader's 50 saved null worlds, inspect existing held-out Brier-gain intervals, and regress the known planted feature on each frozen reader span. Verify the original likelihood implementation without fitting new outcomes.
+**Found.** The saved diagnostics distinguish reference sensitivity, predictive detection and feature coverage; they do not repair the original calibration. The original statistic uses a Laplace marginal likelihood, including its prior penalty and Hessian correction, rather than an unpenalized plug-in writer likelihood. **Means.** The corrected split test remains necessary; neither a descriptive threshold nor feature overlap licenses personal taste or habit inference.
+
+The table shows complete medium-strength (0.4) cells, each containing ten constructed worlds. Empirical detection is the share above the reader's saved-null 95th percentile; predictive detection is the share whose existing held-out half-Brier-gain interval excludes zero in the positive direction. Overlap is mean within-writer variance explained in the known planted feature by the frozen reader span, evaluated on chronological test rows. It is descriptive coverage, not held-out estimation of new regression coefficients. The full aggregate JSON retains all strengths and readers.
+
+| Reader | Planted feature | Empirical detection | Predictive detection | Feature overlap |
+|---|---|---:|---:|---:|
+| Learned taste directions | Lexical taste | 1.000 | 0.000 | 0.141 |
+| Learned taste directions | Reader-coordinate taste | 1.000 | 0.800 | 0.722 |
+| Learned taste directions | Habit | 0.200 | 0.000 | 0.046 |
+| Taste plus habit | Lexical taste | 0.900 | 0.000 | 0.160 |
+| Taste plus habit | Reader-coordinate taste | 1.000 | 0.800 | 0.739 |
+| Taste plus habit | Habit | 0.500 | 0.000 | 0.902 |
+| Habit kernel | Lexical taste | 0.400 | 0.300 | 0.030 |
+| Habit kernel | Reader-coordinate taste | 0.600 | 0.000 | 0.072 |
+| Habit kernel | Habit | 0.700 | 0.200 | 0.896 |
+| Known planted direction | Lexical taste | 1.000 | 0.800 | 1.000 |
+| Known planted direction | Reader-coordinate taste | 1.000 | 1.000 | 1.000 |
+| Known planted direction | Habit | 0.800 | 0.400 | 1.000 |
+| Original frozen reader | Lexical taste | unavailable | 0.000 | unavailable |
+| Original frozen reader | Reader-coordinate taste | unavailable | 0.000 | unavailable |
+| Original frozen reader | Habit | unavailable | 0.000 | unavailable |
+
+The empirical threshold reuses 30 zero-effect and 20 identity-shuffled worlds and is descriptive, not an independent calibration certificate. Small cell counts remain visible. The original frozen reader lacks the corresponding likelihood statistic and feature span; these entries are unavailable, not zero. The known planted direction is an oracle diagnostic, not an available human reader.
+
+The original likelihood-ratio support includes training and calibration rows, overlapping the data that learned directions. Its chronological held-out predictions are a separate criterion. The likelihood integrates writer effects approximately; therefore counting every fitted writer loading as a freely fitted likelihood degree of freedom would misdescribe this implementation. The variance-reference and adaptive-selection concerns still require the separately authorized split test. High overlap alone does not guarantee predictive sensitivity or identify why a reader fails.
+
+All 41 source pins and 230 completion artifacts verify, with complete independent fresh-process reconstruction, exited native workers and released CPU slot. No primary contrast, new scientific label, family count or human-mechanism claim is produced. Original V4 labels remain unchanged.
+
+Curator roll-up: reader validation; can saved diagnostics locate the earlier instrument failure?; **Infrastructure**; the descriptive audit is complete; project meaning: calibration remains unresolved pending the corrected split; next engineering obligation: timing pilot then complete original-world calibration; public claim unchanged; curator decision required: No; detail: V4.c-saved-diagnostics.md/json.
+
+Theory/TODO integrate at 20:00 PDT under the active packet.
+
 ### OPS-S15-PMAP-PREFLIGHT-1018
 
 **Hypothesis.** The person-map comparison requires identical authenticated source session populations.

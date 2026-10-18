@@ -8,8 +8,9 @@ and the order of the next studies. Tested runtime changes are in use.
 [D17](results/phase_2_4_stage_15/DRIVE/D17-complete.md),
 [D18](results/phase_2_4_stage_15/DRIVE/D18.md) and
 [D11](results/phase_2_4_stage_15/DRIVE/D11.md) have complete verified landings.
-D20's lossless recovery is verified complete; [V5.d](results/phase_2_4_stage_15/DRIVE/V5.d.md) is complete with its fake-control support failure recorded. PMAP passed its synthetic native fixture, then production refused a source-roster mismatch before extraction;
-D33's pairs, scoped P7 and the corrected V4.c split are being built.
+D20's lossless recovery is verified complete; [V5.d](results/phase_2_4_stage_15/DRIVE/V5.d.md) is complete with its fake-control support failure recorded. PMAP's separately validated source-only recovery is running after reconciling the upstream roster.
+V4.c's corrected split implementation is complete and has passed targeted and native fixture checks;
+its [saved-output diagnostic](results/phase_2_4_stage_15/DRIVE/V4.c-saved-diagnostics.md) and [timing pilot](results/phase_2_4_stage_15/DRIVE/V4.c-split-pilot.md) are verified complete. The full 110-world split is running with an approximately one-hour measured projection including fresh verification. D33's exact-history support audit is running; its scientific paired runner remains in implementation. The [canonical rank successor](results/phase_2_4_stage_15/DRIVE/D12-rank-canonical.md) is verified complete and null. Scoped P7 still requires a compatible native word event.
 
 A [source audit](results/phase_2_4_stage_15/DRIVE/SELECTED_OPTION_AUDIT_20261018.md)
 found a prepared selected-option indexing defect. D2, D4, D12, D14, D32 and D38 inferences,
@@ -20,7 +21,7 @@ source validation and remain invalid, without a scientific-negative conclusion.
 
 The GPU suggestion continuation has validated all 4,453 retained checkpoints.
 It waits for at least 7,424 MiB free GPU memory and the existing temperature limit;
-the latest check had 7,296 MiB free. No unrelated application was stopped.
+the 08:35 PDT check had 6,773 MiB free. No unrelated application was stopped.
 Only Gear 3 K remains authorized, conditional on D31 intake and known-answer
 readiness before Monday noon PDT; no paid batch is running. Full P7 census is
 superseded and will not resume this campaign. The [live index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
