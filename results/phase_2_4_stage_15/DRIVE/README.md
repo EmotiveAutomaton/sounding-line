@@ -16,6 +16,9 @@ the [registered examination extension](D32-examination.md) is verified complete 
 control are positive, leaving personal specificity unestablished. Its single
 stronger-baseline extension awaits P7; prescribed texture remains.
 
+[Jester text intake](JESTER_TEXT_INTAKE.md) now verifies the complete text input
+for P7. Ratings parsing and P7 execution remain unfinished.
+
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.

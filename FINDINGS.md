@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-JESTER-TEXT-1018 - CPU scoring source input verified
+
+**Question.** Is the commissioned Jester text input complete and faithfully retained for the next CPU scoring pass?
+**METHOD.** Download pinned official source bytes, check lengths, hashes and archive integrity, then compare every extracted cell string with a fresh independent XML reconstruction.
+**Found.** All 150 joke texts match exactly. **Means.** The text input is ready; P7 scoring and the ratings adapter remain unbuilt, with no scientific result or admission.
+
+The retained ratings archive has passed byte integrity only. Conflicting source-page user counts remain unresolved until worksheet census; no rating outcomes were summarized. Raw text stays private. [Full source record](results/phase_2_4_stage_15/DRIVE/JESTER_TEXT_INTAKE.md) and [aggregate manifest](results/phase_2_4_stage_15/DRIVE/JESTER_TEXT_INTAKE.json) identify the exact release and verification.
+
+**Curator roll-up:** source readiness · is the joke text input complete? · **Infrastructure** · all 150 texts independently match · removes P7's missing-text prerequisite · finish P7 source/checkpoint admission and ratings parsing separately · public claim unchanged · curator decision required: No · detail above.
+
 ### S15-DRIVE-D32-EXAMINATION-1018 - short unmarked displays do not increase outside repertoire
 
 **Hypothesis.** Declined suggestions outside a writer's earlier repertoire may more often lack examination markers during a short menu display.

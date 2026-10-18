@@ -2417,6 +2417,11 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 18 Jester source preparation:** the full 150-joke text input passes
+source hash/ZIP checks and exact fresh-process XML parity. The retained ratings
+archive is not yet parsed. P7 execution and D36 scientific admission remain open.
+[Input record](../results/phase_2_4_stage_15/DRIVE/JESTER_TEXT_INTAKE.md).
+
 **October 17 choice-model instrument:** D2's primary is verified complete after
 one canonical-order replay repair. Nine checks, exact byte reuse, fresh production
 replay and all source/output bindings pass. The primary is marginal, with a positive
