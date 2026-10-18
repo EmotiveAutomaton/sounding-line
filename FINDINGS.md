@@ -9,6 +9,45 @@ ran it.
 
 ---
 
+### S15-DRIVE-PMAP-RHYTHM-1018
+
+**Hypothesis.** Logged production rhythm identifies a writer more accurately than her handling of model offers.
+**METHOD.** Reconstruct rhythm and handling profiles from the same saved human session summaries and the original prompt-separated halves. Use one fixed complete gallery, 2,000 paired real-probe-writer bootstrap draws and the original 200 whole-session reassignments. An exact nearest-neighbour program supplies identification; no new reader or raw-text extraction is involved.
+**Found.** The rhythm identification advantage is 0.822222, with a paired 95% interval [0.711111, 0.933333]. **Means.** Recorded rhythm is a strong observed identity channel on this corpus. The difference remains positive relative to the reassigned-session difference, but recording/device context and the original channel-level control warnings prevent an automaticity or psychological-mechanism claim.
+
+The table reports differences in correct-identification fractions, paired real-writer percentile intervals, descriptive two-sided normal-reference probabilities and frozen direction states. All comparisons use the same 45 probe writers and complete 45-writer gallery. Rhythm identifies 0.977778 correctly; handling identifies 0.155556. Chance is 1/45. The second row subtracts the mean rhythm-minus-handling difference across the fixed 200 reassignments, pairing both arms within every bootstrap draw.
+
+| Comparison | Difference | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Rhythm minus handling | +0.822222 | [+0.711111, +0.933333] | 7.2961888e-44 | positive |
+| Real difference minus reassigned-session difference | +0.821111 | [+0.706165, +0.931338] | 7.5466455e-44 | positive |
+
+The complete reassignment distribution has mean +0.001111, standard deviation 0.0396648 and 2.5%/97.5% points [-0.088889, +0.067222]. Its one-sided permutation probability is 0.0049751244. All 200 assignments are supported; the mean does not exceed one quarter of its standard deviation, so this contrast's frozen bias flag does not fire. This is a session-reassignment control, not a within-writer outcome-shuffle certificate. Uncertainty conditions on the fixed gallery and the fixed reassignment ensemble.
+
+The original style-minus-handling contrast remains positive with a biased reassignment distribution. Both rhythm and handling separately retain their original chance-centered control flags. The original content channel still lacks 55 of its 200 controls; no content-taste admission is restored. The new contrast does not erase those limits. Logged text-delta timing can retain hardware, recording and task context; it does not isolate keypress speed, automaticity, values or a psychological component.
+
+All 37 source/input pins and 214 completion artifacts verify. Fresh reconstruction from the authenticated saved session summaries and original assignment graphs reproduces every result; exact native workers exited and the CPU slot is released. Six targeted checks and a monitored native fixture preceded production. Execution plus fresh verification used 120.472951 seconds within the 900-second cumulative ceiling. No raw text or participant identities are published.
+
+This completes PMAP's one predefined extension. It adds no family null and authorizes no further extension. The qualified channel result and original warnings enter the companion delivery at the next digest. Theory rows, afterwords and TODO integrate at 20:00 PDT under the active packet.
+
+Curator roll-up: person traces; does recorded rhythm identify the writer more strongly than handling offers?; **Strengthens**; the observed rhythm advantage is 0.822222 with the recording-context limitation retained; project meaning: production timing is a measured identity channel on this corpus; next engineering obligation: deliver the qualified channel comparison at the daily integration; public claim newly licensed only for the fixed-corpus identification contrast, psychological claims unchanged; curator decision required: No; detail: PMAP-rhythm.md/json.
+
+### OPS-S15-JESTER-INTAKE-1018
+
+**Hypothesis.** The pinned Dataset 2+ workbook can be reconstructed without changing any rating, missing-value code, joke column or source rater.
+**METHOD.** Parse the original numeric spreadsheet in sealed chunks, preserving signed ratings and exact zeros, checking its observed-rating count column and treating only the documented 99 sentinel as missing. The complete original text workbook is authenticated separately; a fresh source reparse is required before completion.
+**Found.** Intake stopped on a blank string in the final spreadsheet block. **Means.** Ratings preparation is incomplete; this is an input-validation failure, not a result about liking or predictability.
+
+The first 49 chunks contain 50,176 source rows, all sealed and hash-verified. The workbook's declared extent is 50,692 rows, whereas its archived description advertises 66,336. The exact final-block audit found 515 complete numeric rows and one partial final record with 123 numeric cells and 28 blanks, with no wholly empty rows. The curator approved a separately labeled input containing all 50,691 complete records and quarantining that one incomplete record. The original full-population intake remains incomplete. No blank is recoded as zero or 99 and no alternative dataset is substituted; the separate recovery must pass this actual source case before launch.
+
+All 39 source/input pins, original failure and stderr bindings verify. The exact controller and execute worker have exited and the counted CPU lease is released. The attempt used 10.295497 seconds of the unchanged 900-second cumulative allowance. One separately reviewed engineering recovery remains available; original evidence and sealed chunks must be retained and charged. No scientific result, family-null count or downstream admission follows.
+
+Before production, the parser passed eleven distinct focused checks across its original and timing-correction runs, plus a monitored native multi-sheet fixture and full fresh-process verification. Those controls did not contain this actual final-block blank. The missing source case must be exercised before any recovery.
+
+[Exact operational receipt](results/phase_2_4_stage_15/DRIVE/Jester2plus-intake-failed.json). Theory/TODO readiness integrates at 20:00 PDT; the current execution index carries this immediate hold.
+
+Curator roll-up: rating-source apparatus; can the original ratings be preserved exactly?; **Infrastructure**; the final spreadsheet block fails numeric validation; project meaning: liking comparisons remain unadmitted; next engineering obligation: validate the curator-authorized separate complete-record input; public claim unchanged; curator decision required: No; detail: Jester2plus-intake-failed.md/json.
+
 ### S15-DRIVE-PMAP-1018
 
 **Hypothesis.** A writer is more recognizable from the words and punctuation she produces than from how she handles model offers.
