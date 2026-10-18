@@ -5,8 +5,7 @@ are recorded under the amended Stage 15 packet. The prior finite queues below
 stay closed; the new commission is only partly implemented.
 
 **Current execution:** [V4](DRIVE/V4.md) and [D32](DRIVE/D32.md) are verified complete.
-No research worker remains active; D32's examination extension and the other
-authorized unbuilt cards remain open. The [D17 pause card](DRIVE/D17.md)
+The [single D32 examination extension](DRIVE/D32-examination.md) is also verified complete with a null primary. No research worker remains active; other authorized unbuilt cards remain open. The [D17 pause card](DRIVE/D17.md)
 is invalid after its second engineering failure; no primary result or further retry. The [full suggestion pass is invalid after its second safety stop](DRIVE/SUGGESTION_MAIN_V5_FAILED.md); its retry is exhausted and saved work remains intact.
 The [current inspection](DRIVE/HEALTH_20261018_0116.json) records D32's final
 progress, verified completion and released CPU slot, with intact locks and delivery.

@@ -1,0 +1,201 @@
+{
+  "at": "2026-10-18T09:08:53.426041+00:00",
+  "card": "D32-examination",
+  "contract": "docs/design/stage-15/drive/D32_EXAMINATION.md",
+  "control": {
+    "ci95": [
+      -0.010030592017289336,
+      0.0005451089828494513
+    ],
+    "effect": -0.004475741619042301,
+    "expected_direction": 1,
+    "inside_events": 827,
+    "inside_share": 0.02344180611709074,
+    "outside_events": 231,
+    "outside_share": 0.018966064498048437,
+    "p_approx": 0.10178736416661488,
+    "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+    "standard_error": 0.002735366095498739,
+    "state": "null",
+    "z": -1.6362495778563195
+  },
+  "descriptive": true,
+  "extraction_audit": {
+    "accepted_excluded": 12681,
+    "declined_censored_duration": 545,
+    "declined_missing_hover_target": 0,
+    "declined_offers": 56428,
+    "eligible_declined_offers": 55883,
+    "excluded_unknown_union": 545,
+    "source_menus": 16855,
+    "source_offers": 69109
+  },
+  "interpretation": "No target marker is not no examination; default-first is hypothetical; duration is menu-level, not option gaze; no pruning/dislike/taste/habit identification",
+  "output_bytes": 39764249,
+  "primary": {
+    "ci95": [
+      -0.021702735199696926,
+      0.002085049120604645
+    ],
+    "effect": -0.008133425807116028,
+    "expected_direction": 1,
+    "inside_events": 864,
+    "inside_share": 0.024711435009645004,
+    "outside_events": 194,
+    "outside_share": 0.016578009202528974,
+    "p_approx": 0.185133022794072,
+    "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+    "standard_error": 0.006137902002073116,
+    "state": "null",
+    "z": -1.3251149667050584
+  },
+  "question": "Do declined outside-repertoire offers more often have no target marker during short menu displays?",
+  "route": "Extension primary null after marginal parent: one B routing null; already-landed D6 adds a second. D2 extension unresolved. No family stop, further D32 extension or mechanism admission.",
+  "runtime_seconds": 8.804725,
+  "scientific_admission": false,
+  "specifications": {
+    "default_argumentative_short": {
+      "ci95": [
+        -0.022153978106754395,
+        0.0028189605852417653
+      ],
+      "effect": -0.008059057167473781,
+      "expected_direction": 1,
+      "inside_events": 1043,
+      "inside_share": 0.029312782933580774,
+      "outside_events": 252,
+      "outside_share": 0.021253725766107,
+      "p_approx": 0.21104011254973143,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.0064435831211758785,
+      "state": "null",
+      "z": -1.2507105155497857
+    },
+    "explicit_targets_short": {
+      "ci95": [
+        -0.02713909044379956,
+        0.0022731928951459446
+      ],
+      "effect": -0.010306799143514216,
+      "expected_direction": 1,
+      "inside_events": 1190,
+      "inside_share": 0.033075786473149446,
+      "outside_events": 275,
+      "outside_share": 0.02276898732963523,
+      "p_approx": 0.17421616539606316,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.0075853306770500735,
+      "state": "null",
+      "z": -1.3587804648646535
+    },
+    "hover_only_short": {
+      "ci95": [
+        -0.02723818497509616,
+        0.0021861878043843313
+      ],
+      "effect": -0.010383831357441255,
+      "expected_direction": 1,
+      "inside_events": 1194,
+      "inside_share": 0.03315281868707649,
+      "outside_events": 275,
+      "outside_share": 0.02276898732963523,
+      "p_approx": 0.17087648444276793,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.0075827990371079065,
+      "state": "null",
+      "z": -1.369392925570881
+    },
+    "hovered": {
+      "ci95": [
+        0.0017476683073696187,
+        0.08174419879072282
+      ],
+      "effect": 0.038860398567274676,
+      "expected_direction": -1,
+      "inside_events": 25285,
+      "inside_share": 0.5634463572735671,
+      "outside_events": 6789,
+      "outside_share": 0.6023067558408417,
+      "p_approx": 0.05599492380276355,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.02033431208665832,
+      "state": "negative",
+      "z": 1.9110751522679554
+    },
+    "short_1s": {
+      "ci95": [
+        -0.003766855138203562,
+        0.006338726516834088
+      ],
+      "effect": 0.0010918906824978782,
+      "expected_direction": 1,
+      "inside_events": 239,
+      "inside_share": 0.009339076539187245,
+      "outside_events": 103,
+      "outside_share": 0.010430967221685124,
+      "p_approx": 0.6658199974410204,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.002528157475893911,
+      "state": "marginal",
+      "z": 0.4318918789312383
+    },
+    "short_5s": {
+      "ci95": [
+        -0.05494448520746565,
+        -0.0032763784277864863
+      ],
+      "effect": -0.025360558764647156,
+      "expected_direction": 1,
+      "inside_events": 4899,
+      "inside_share": 0.09087995951075725,
+      "outside_events": 902,
+      "outside_share": 0.06551940074611011,
+      "p_approx": 0.05561171556145797,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.013249573408116477,
+      "state": "negative",
+      "z": -1.9140660595994496
+    },
+    "targeted": {
+      "ci95": [
+        -0.00015344019699733708,
+        0.08074527058273852
+      ],
+      "effect": 0.03735076437474721,
+      "expected_direction": -1,
+      "inside_events": 25890,
+      "inside_share": 0.5958209702571344,
+      "outside_events": 7279,
+      "outside_share": 0.6331717346318816,
+      "p_approx": 0.0714198485732098,
+      "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+      "standard_error": 0.020718212321835905,
+      "state": "null",
+      "z": 1.802798609964117
+    }
+  },
+  "support": {
+    "bootstrap_draws": 2000,
+    "declined_inside": 43998,
+    "declined_outside": 11673,
+    "excluded_unpaired_offers": 212,
+    "excluded_unpaired_writers": 9,
+    "paired_writers": 52,
+    "weighting": "equal paired writer weight; within-writer offer fractions"
+  },
+  "theory_todo_integration_due": "2026-10-18T20:00:00-07:00",
+  "uncertainty": "Conditions on frozen repertoire and interface reconstruction; no cluster refit",
+  "validation_tests_passed": 16,
+  "verification": {
+    "complete_sha256": "d16bac933d3accc1c12f7807613b2064eb72ab8a98849773850fd0305ec23cad",
+    "completion_outputs": 22,
+    "counted_slot_released": true,
+    "native_controller_and_children_exited": true,
+    "owner_independent_all_eight_point_and_interval_replays": true,
+    "plan_sha256": "5fa06b8be61f0e0a4add297f4ab11d2582ebf7560f1e63436fc0742f3feb6f27",
+    "production_fresh_process_replay": true,
+    "scientific_admission": false,
+    "source_pins": 78,
+    "summary_sha256": "e61cdd6636bd9bbbcb6fb7b8b23e2206e7ba1889eb897db883b99069e56d5ec5"
+  }
+}

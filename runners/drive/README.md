@@ -2,6 +2,13 @@
 
 ## October 17 CPU cards
 
+The D32 examination consumer completes its single registered extension on frozen
+repertoire and D6 event rows. Sixteen targeted checks, actual counted-runtime smoke,
+fresh source-based replay and independent point/interval reconstruction pass.
+The primary is null; exposure policies and duration cutoffs remain explicit
+proxies. [Contract](../../docs/design/stage-15/drive/D32_EXAMINATION.md) ·
+[complete result](../../results/phase_2_4_stage_15/DRIVE/D32-examination.md).
+
 `cards/` adds the counted-slot dispatcher, shared exhaustive states, authenticated
 timing/score extraction and matched-pair consistency instruments. The original
 dispatcher remains immutable; `batch_runtime_v2` adds saved-boundary yields,

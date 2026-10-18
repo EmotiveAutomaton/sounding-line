@@ -11,7 +11,7 @@
 
 **October 17 rollout:** [V4 calibration is complete](results/phase_2_4_stage_15/DRIVE/V4.md)
 and fails the mandatory null check; personal taste/habit admission remains closed.
-[D32 is verified complete](results/phase_2_4_stage_15/DRIVE/D32.md), with a marginal primary and marginal outcome shuffle; its registered examination extension needs implementation. The [D17 pause card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure, with retained evidence intact and no primary result. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
+[D32 is verified complete](results/phase_2_4_stage_15/DRIVE/D32.md), with a marginal primary and marginal outcome shuffle; its [single examination extension](results/phase_2_4_stage_15/DRIVE/D32-examination.md) is verified null. The [D17 pause card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure, with retained evidence intact and no primary result. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
 saved checkpoints validate, but the incomplete pass is invalid under the retry limit. Completed D30,
 its extension and D35 are recorded with their controls and follow-up gates.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)

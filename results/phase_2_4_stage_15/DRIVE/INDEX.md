@@ -3,7 +3,7 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-V4 calibration is verified complete with a failed null check; D32 is verified complete with a marginal primary and marginal outcome shuffle; its examination extension needs implementation. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
+V4 calibration is verified complete with a failed null check; D32 is verified complete with a marginal primary and marginal outcome shuffle; its single examination extension is verified null. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
 suggestion pass is invalid after its second GPU-safety failure; no further
 retry is dispatched. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
@@ -29,11 +29,11 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D2 | verified complete; primary marginal with positive uniform-choice control | [Complete report](D2.md); single hierarchical extension needs implementation; V4 taste/habit lens blind |
 | D17 | invalid; engineering retry exhausted | [Both failures and retained evidence](D17.md); no primary result, no family-null increment, conditional extension closed |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
-| D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); one registered examination extension needs implementation; no attention/preference admission |
+| D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); [single examination extension](D32-examination.md) verified null; no attention/preference admission |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | P7/P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family resolved-prefix null counts: K 0, B 0, A 1, G 2, E 0, R 0, S 0, P 0.
+Family resolved-prefix null counts: K 0, B 2, A 1, G 2, E 0, R 0, S 0, P 0.
 D33's positive primary resets A after D35; the already-landed D39 null then gives
 one. D33's single extension and required texture remain unfinished. No family stops.
 V4 labels: **the lens is blind to taste at every tested size** and **the lens is
@@ -41,7 +41,7 @@ blind to habit at every tested size**. Its false-positive gate fails; interpret
 writer-level taste/habit nulls and any later family stop as instrument-limited.
 These labels do not replace the separate controls on direct process-record cards.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
-D6 is null, but B stays unresolved until the preceding marginal D32 examination extension resolves.
+D32's null examination extension resolves its marginal parent as one routing null; D6 then adds a second. D2's extension is the next unresolved B entry.
 D2's primary is complete; its single conditional hierarchical extension needs implementation. D31 needs intake and admitted labels; D14 and later ranked cards remain unbuilt.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
@@ -56,7 +56,7 @@ The dated October 16/earlier October 17 records below retain their original scop
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
-V4 is complete with failed null calibration; D32 is verified complete and its examination extension remains unbuilt. D17 is invalid after its second engineering failure; its evidence is retained and its conditional extension is closed. Full reader output remains unavailable;
+V4 is complete with failed null calibration; D32 and its single examination extension are verified complete; the extension primary is null. D17 is invalid after its second engineering failure; its evidence is retained and its conditional extension is closed. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

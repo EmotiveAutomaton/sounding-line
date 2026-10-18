@@ -1,5 +1,13 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 18:** D32's examination-marker consumer is validated and verified
+complete. It joins frozen repertoire offers to D6 events with explicit mouse,
+keyboard, hypothetical default and censored-duration handling. Sixteen targeted
+checks, actual runtime smoke and independent replay pass. It does not measure
+latent attention or identify dislike. [Contract](design/stage-15/drive/D32_EXAMINATION.md) ·
+[complete evidence](../results/phase_2_4_stage_15/DRIVE/D32-examination.md).
+
+
 **October 17 08:53 health inspection:** the admitted full suggestion run is
 progressing with intact checkpoints, source/research locks, owned GPU lease and
 verified terminal/disappearance monitoring and actual health delivery. No new

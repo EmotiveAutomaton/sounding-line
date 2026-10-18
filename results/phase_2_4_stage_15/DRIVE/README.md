@@ -11,7 +11,7 @@ controls, with marginal results and other control limitations retained below.
 are verified complete. D30's positive extension has a positive writer-shuffle
 control; D35 is null. [D32](D32.md) is verified complete after its measured continuation, with the
 previous work and cost retained. Its primary and outcome shuffle are marginal;
-the registered examination extension needs implementation.
+the [registered examination extension](D32-examination.md) is verified complete with a null primary.
 [D33's first comparison](D33.md) is verified complete: its primary and writer-shuffle
 control are positive, leaving personal specificity unestablished. Its single
 stronger-baseline extension awaits P7; prescribed texture remains.

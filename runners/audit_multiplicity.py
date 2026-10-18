@@ -73,6 +73,15 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-W1 D32 examination primary', 0.185133022794072, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination default_argumentative_short', 0.21104011254973143, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination explicit_targets_short', 0.17421616539606316, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination hover_only_short', 0.17087648444276793, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination hovered', 0.05599492380276355, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination short_1s', 0.6658199974410204, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination short_5s', 0.05561171556145797, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination targeted', 0.0714198485732098, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
+    ('S15-DRIVE-W1 D32 examination control', 0.10178736416661488, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
     ('S15-DRIVE-W1 D34 content_minus_variants.reader.p_value_approx', 0.19249858304168943, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D34.json'),
     ('S15-DRIVE-W1 D34 content_minus_variants.state.p_value_approx', 0.6486058324055777, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D34.json'),
     ('S15-DRIVE-W1 D34 last_session_transfer.p_value_approx', 0.513978589905643, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D34.json'),
