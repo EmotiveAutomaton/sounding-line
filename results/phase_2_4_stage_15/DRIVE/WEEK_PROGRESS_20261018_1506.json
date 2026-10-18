@@ -1,0 +1,161 @@
+{
+  "at": "2026-10-18T22:05:31.553600+00:00",
+  "status": "AUTHORIZED_WORK_RUNNING",
+  "gear": 2,
+  "cpu": {
+    "D32-canonical": {
+      "native": {
+        "created_ticks": 134368340173768984,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 3780
+      },
+      "live": true,
+      "phase": "execute",
+      "phase_child_native": {
+        "created_ticks": 134368340205353646,
+        "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+        "pid": 80212
+      },
+      "phase_child_live": true,
+      "latest_output": "output/bootstrap/0166.json",
+      "latest_output_mtime": 1792361129.7415934,
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins_verified": 4536,
+      "terminal": []
+    },
+    "D14-canonical": {
+      "native": {
+        "created_ticks": 134368340568516307,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 177528
+      },
+      "live": true,
+      "phase": "verify",
+      "phase_child_native": {
+        "created_ticks": 134368344600489960,
+        "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+        "pid": 151124
+      },
+      "phase_child_live": true,
+      "latest_output": "output/SUMMARY.json",
+      "latest_output_mtime": 1792360857.410992,
+      "plan_sha256": "a14317a1c0550a5c369f8fdd59086746f1a1e8b14ad9ab57f422fa8ea7481ddd",
+      "source_pins_verified": 1780,
+      "terminal": []
+    }
+  },
+  "gpu": {
+    "native": {
+      "created_ticks": 134368258228851833,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 131472
+    },
+    "live": true,
+    "progress": {
+      "at": "2026-10-18T22:05:15.788037+00:00",
+      "new_chunks": 478,
+      "reused_chunks": 0,
+      "session": 478,
+      "task": "pythia1400",
+      "total": 1399
+    },
+    "pins_verified": 117,
+    "lease_owner_matches": true
+  },
+  "resources": {
+    "ram_available_GiB": 36.90715026855469,
+    "commit_headroom_GiB": 25.970054626464844,
+    "disk_free_GiB": 398.5928382873535
+  },
+  "cpu_leases": [
+    {
+      "native": {
+        "pid": 3780,
+        "created_ticks": 134368340173768984,
+        "executable": "C:\\Python313\\python.exe"
+      },
+      "card": "D32-canonical-main",
+      "at": "2026-10-18T21:53:40.532062+00:00"
+    },
+    {
+      "native": {
+        "pid": 177528,
+        "created_ticks": 134368340568516307,
+        "executable": "C:\\Python313\\python.exe"
+      },
+      "card": "D14-canonical-main",
+      "at": "2026-10-18T21:54:18.934933+00:00"
+    }
+  ],
+  "calendars": {
+    "drive-calendar-20261017": {
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 77320
+      },
+      "live": true,
+      "heartbeat": {
+        "at": "2026-10-18T22:05:26.317866+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      }
+    },
+    "drive-calendar-20261018-week": {
+      "native": {
+        "created_ticks": 134368329836144485,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 644
+      },
+      "live": true,
+      "heartbeat": {
+        "at": "2026-10-18T22:05:24.463658+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      }
+    }
+  },
+  "repository_locks": "21 of21 verified",
+  "recoveries": "D32 pilot projection scope corrected separately and validated; earlier attempt retained and charged",
+  "runnable_backlog": "D2 canonical primary next in implementation; EV consumers need prepared exact provenance joins and Monday pinned exporter; other authorized cards remain in the week backlog",
+  "theory_filing": "Preserved, pending20:00PDT application",
+  "watcher": {
+    "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+    "native": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:/Python313/pythonw.exe"
+    },
+    "source_sha256": "470cab49cf3fdd6a0118026efaa88e055bdac4319e8f43099832919634e6e5df",
+    "source_matches": true,
+    "last_scan_utc": "2026-10-18T22:05:28.920862+00:00",
+    "watch_error": null,
+    "pending_events": 0,
+    "historical_notification_failures": [
+      "TimeoutError",
+      "UnicodeEncodeError"
+    ],
+    "historical_failures_unchanged": true,
+    "delivery_decision": "nothing-pending",
+    "next_check": "2026-10-18T15:26:08-07:00",
+    "independent_health": "2026-10-18T15:27:49-07:00",
+    "immediate_terminal_supervision": true
+  },
+  "new_scientific_scores_reported": false
+}

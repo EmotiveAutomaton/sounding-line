@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-WEEK-ROLLOUT-1018
+
+**Hypothesis.** The first corrected week wave can continue while the engine dependency is prepared.
+**METHOD.** Inspect exact native identities, current phase children, output freshness, source/research pins, leases, resources, finite calendar heartbeats and watcher state; verify the recipient handoff file hash.
+**Found.** Two counted CPU comparisons and the GPU reader are progressing, with the demo reservation retained. **Means.** The rollout is operational, with remaining implementation distinct from running work. The engine dependency note is delivered to ToMpathy without private research data; agent uptake is unverified. The theory filing remains pending tonight's scheduled integration. No partial scores or new research were produced by this inspection.
+
+Curator roll-up: week operations; can work continue through the engine handoff?; **Infrastructure**; the initial wave is running; project meaning: implementation and execution remain separate and supervised; next engineering obligation: land complete cards, build next canonical/EV consumers and apply the20:00 filing; public claim unchanged; curator decision required: No; detail: [operational checkpoint](results/phase_2_4_stage_15/DRIVE/WEEK_PROGRESS_20261018_1506.md).
+
 ### OPS-S15-D32-CANONICAL-ADMISSION-1018
 
 **Hypothesis.** The corrected repertoire primary can finish within the week allowance.
