@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### S15-DRIVE-DIGEST-20261017 - completed screen integrated; controls incomplete
+
+**Hypothesis.** The completed screen may reveal decision traces worth further testing once its controls and measurement limits are retained.
+**METHOD.** Integrate only whole verified cards available at 20:00 PDT, retain both original and stricter-extension contrasts, compute the packet's descriptive multiplicity and shrinkage summaries, and check its daily control coverage.
+**Found.** The screen is not yet control-complete. The exact D30 outcome shuffle is absent, and D32 is still running. Completed positive contrasts retain positive shuffled controls; the fitted taste/habit instrument fails null calibration. **Means.** No clean-screen or personal-mechanism claim follows. Existing authorized extensions and implementation work remain open.
+
+[The complete daily table](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
+retains all nine Tier 1 primary/strict-extension contrasts, their original states,
+writer intervals, approximate Wald probabilities, descriptive BH q values and
+positive-z shrinkage. Shared P4 fits are separately reported. No new raw probability
+is introduced; every source value is already in the multiplicity ledger. Direct
+BH arithmetic agrees with an independent library implementation. Three fixed
+constant-offset controls recover; D34's outcome shuffle is null, while the exact
+D30 shuffle is absent and D32 unfinished. This is incomplete coverage, not a pass.
+The [aggregate](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.json) binds every
+source and states the family, selection and dependence limitations. Theory rows
+and afterwords, TODO, STATE and operations now reflect the completed cards.
+No unfinished score, new scientific admission, family stop or stage closure.
+
+Curator roll-up: screen validity; Do the completed contrasts support a clean day of personal-mechanism evidence?; **Infrastructure**; Daily control coverage remains incomplete; project meaning: keep descriptive findings and their specificity warnings without promoting them; next engineering obligation: exact D30 outcome shuffle, finish D32 and continue ranked implementation; public claim unchanged; curator decision required: No; detail: daily table and aggregate above.
+
 ### S15-DRIVE-W1-V4-1017 - fitted taste and habit lens fails null calibration
 
 **Hypothesis.** Readers aimed at writer-specific taste and habit can distinguish planted structure from no structure.

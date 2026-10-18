@@ -32,8 +32,9 @@ D34.v1 is marginal and closes its route without another extension; the broader
 own-text correction question remains open. One planned check stays at most one hour ahead;
 the [six-hour inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261017_1501.json)
 is recorded with recovery performed. Immediate terminal/failure/paused
-monitoring remains active. Theory/TODO and STATE/CODEX_OPERATIONS update at the
-20:00 digest under the new packet; their earlier snapshot is historical meanwhile.
+monitoring remains active. The [20:00 digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
+integrates theory/TODO and STATE/CODEX_OPERATIONS. The daily control check is incomplete:
+the exact D30 outcome shuffle is absent and D32 unfinished. No clean-screen verdict.
 A tested finite calendar emits the digest/cutoff markers and restores the prior
 watcher mode at the freeze. It performs no study dispatch or publication.
 

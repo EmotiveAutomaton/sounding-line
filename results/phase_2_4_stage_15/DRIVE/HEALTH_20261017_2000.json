@@ -1,0 +1,219 @@
+{
+  "at": "2026-10-18T03:00:57.654894+00:00",
+  "counted_cpu_slots": [
+    {
+      "card": "D32-resume-1",
+      "native": {
+        "created_ticks": 134367523576266748,
+        "executable": "python.exe",
+        "pid": 157048
+      },
+      "slot": "slot-1.json"
+    }
+  ],
+  "event": "be46ec34570bb78e704b65fa",
+  "events": [
+    {
+      "delivered_at": 1792292283.8166206,
+      "id": "be46ec34570bb78e704b65fa",
+      "path": "[watch deadline: inspect queue liveness]",
+      "state": "queued"
+    }
+  ],
+  "gpu_lease_exists": false,
+  "jobs": [
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367652752115435,
+        "executable": "python.exe",
+        "pid": 103116
+      },
+      "child_alive": false,
+      "constructions": 110,
+      "job": "drive-wave-20261017-w1/V4",
+      "native": {
+        "created_ticks": 134367454569260506,
+        "executable": "python.exe",
+        "pid": 192924
+      },
+      "newest_output_age_seconds": 962.8598158359528,
+      "phase": "verify",
+      "source_pins": 36,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367641496546498,
+        "executable": "python.exe",
+        "pid": 75116
+      },
+      "child_alive": false,
+      "first_tenth": {
+        "elapsed_seconds": 5.4925302001065575,
+        "forecast_cpu_seconds": 3600,
+        "projected_seconds": 54.88606964249338,
+        "sessions": 140
+      },
+      "job": "drive-wave-20261017-w1/D6",
+      "native": {
+        "created_ticks": 134367640649810887,
+        "executable": "python.exe",
+        "pid": 190160
+      },
+      "newest_output_age_seconds": 1920.710911989212,
+      "phase": "verify",
+      "saved_sessions": 1399,
+      "source_pins": 31,
+      "terminal_files": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "alive": true,
+      "all_pins_match": true,
+      "bootstrap_blocks_by_phase": {
+        "k50": 20,
+        "repertoire_shuffle": 16
+      },
+      "child": {
+        "created_ticks": 134367523582098741,
+        "executable": "python.exe",
+        "pid": 68444
+      },
+      "child_alive": true,
+      "job": "drive-wave-20261017-w1/D32-resume-1",
+      "native": {
+        "created_ticks": 134367523576266748,
+        "executable": "python.exe",
+        "pid": 157048
+      },
+      "native_descendants": [
+        {
+          "cpu_seconds": 0.015625,
+          "native": {
+            "created_ticks": 134367523582180800,
+            "executable": "conhost.exe",
+            "pid": 145000
+          }
+        },
+        {
+          "cpu_seconds": 13452.718749999998,
+          "native": {
+            "created_ticks": 134367523582356797,
+            "executable": "python.exe",
+            "pid": 56716
+          }
+        }
+      ],
+      "newest_output_age_seconds": 109.87933015823364,
+      "phase": "execute",
+      "source_pins": 52,
+      "terminal_files": []
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367599601889231,
+        "executable": "python.exe",
+        "pid": 53916
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D17",
+      "native": {
+        "created_ticks": 134367599597149028,
+        "executable": "python.exe",
+        "pid": 165604
+      },
+      "phase": "execute",
+      "source_pins": 22,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "child": {
+        "created_ticks": 134367612231251830,
+        "executable": "python.exe",
+        "pid": 54436
+      },
+      "child_alive": false,
+      "job": "drive-wave-20261017-w1/D17-retry",
+      "native": {
+        "created_ticks": 134367612226439750,
+        "executable": "python.exe",
+        "pid": 110536
+      },
+      "phase": "execute",
+      "source_pins": 30,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": false,
+      "all_pins_match": true,
+      "job": "drive-suggestion-main-v5",
+      "native": {
+        "created_ticks": 134367482278832427,
+        "executable": "python.exe",
+        "pid": 79008
+      },
+      "source_pins": 102,
+      "terminal_files": [
+        "FAILED.json"
+      ]
+    },
+    {
+      "alive": true,
+      "all_pins_match": true,
+      "job": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "python.exe",
+        "pid": 77320
+      },
+      "source_pins": 5,
+      "terminal_files": []
+    }
+  ],
+  "limits_unchanged": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 278,
+    "hashed": 0
+  },
+  "resources": {
+    "commit_headroom_GiB": 43.90586471557617,
+    "disk_free_GiB": 406.49069595336914,
+    "ram_available_GiB": 48.661231994628906
+  },
+  "watcher": {
+    "actual_delivery_verified": true,
+    "error": null,
+    "health_due_unchanged": 1792296581.2880845,
+    "historical_notification_failures": 2,
+    "last_scan_age_seconds": 54.53210663795471,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_matches": true
+  },
+  "research_locks": "all 21 passed",
+  "legacy_shell_queue": "September 6 drained lineage, not the active manual wave",
+  "runnable_authorized_work": "D2 next ranked needs implementation; D31 needs intake/admitted labels; P7 draft review and D30 texture remain. No reviewed successor ready.",
+  "recovery": "No live-worker recovery required. D17 and GPU suggestion pass remain invalid with retry exhausted; no restart.",
+  "publication_scope": "Aggregate daily integration only; six prior unreviewed builder drafts excluded.",
+  "no_paid_call": true,
+  "other_projects_untouched": true
+}

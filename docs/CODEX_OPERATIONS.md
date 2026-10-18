@@ -1,5 +1,29 @@
 # Codex operations
 
+**October 17, 20:00 PDT integration: Gear 2 is active, Stage 15 remains open.**
+D32 is the sole live counted CPU analysis; exact native identities and advancing
+saved bootstrap output verify. No GPU or paid worker is active. The full suggestion
+pass and D17 exhausted their permitted retries and are invalid, with evidence
+retained; they are not restarted or counted as scientific negatives.
+
+The [daily screen](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md) integrates
+all completed primary contrasts, controls, theory rows/afterwords and TODO.
+Daily control coverage is incomplete: D30 lacks the exact outcome shuffle and
+D32's control is unfinished. Positive shuffled controls still limit the completed
+D30, D33 and P4 findings. V4's fitted taste/habit lens fails null calibration;
+FX1 and personal panels stay unadmitted. No family stop or stage closure follows.
+
+D2 is next by rank and needs implementation. D31 needs intake/admitted labels;
+P7 needs review for D33's stronger-baseline extension; D30's registered texture
+remains unbuilt. No reviewed successor is presently launchable. Paid-route setup
+is unfinished, new-campaign spend remains $0.04 and the first-$10 boundary stays.
+Holdout outcomes remain unopened. [Inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261017_2000.json)
+verifies resource floors, source/research locks, counted leases and actual watcher
+delivery. The independent six-hour check remains due 21:09:41 PDT; planned checks
+remain at most one hour apart while building, queued or running.
+
+The dated snapshots below are historical and are superseded by this integration.
+
 **October 17 full suggestion execution is running in Gear 2.** The complete
 five-reader timing recovery preserves every compared token loss and all safety
 checks. Its 43.27-hour allowance includes the fixed threefold safety margin and

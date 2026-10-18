@@ -3,7 +3,7 @@
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,
 verified and recorded. The [live index](INDEX.md) separates actual CPU dispatches
 from building cards; the GPU suggestion recovery has stopped at its retry limit. [Operations](OPS_LOG.md) and
-the [20:00 integration receipt](DIGEST_PENDING_20261017.json) implement batch reporting.
+the [20:00 digest](DIGEST_20261017.md) implement batch reporting. Theory/TODO integration is recorded; exact daily-control coverage remains incomplete.
 
 [D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
 are verified complete. D30's positive extension has a positive writer-shuffle

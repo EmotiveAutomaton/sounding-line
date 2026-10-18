@@ -45,7 +45,7 @@ The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
 pins stay frozen and later labels receive the same audit before routing.
-[Pending 20:00 integration](DIGEST_PENDING_20261017.json) tracks theory/TODO work.
+[Completed 20:00 integration](DIGEST_20261017.md) records theory/TODO work and the explicitly incomplete daily control coverage.
 [Operations](OPS_LOG.md) records failures, recoveries and dispatch.
 One planned check remains at most one hour ahead; the [six-hour inspection](HEALTH_20261017_1501.json)
 records actual identities, progress, resources, delivery and performed recovery.

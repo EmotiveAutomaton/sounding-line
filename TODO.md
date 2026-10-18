@@ -1,5 +1,40 @@
 # TODO: the study queue
 
+The [October 17 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
+is complete as a record of landed cards; its mandatory daily-control coverage
+remains incomplete. Stage 15 is open. No current ready runner is being withheld;
+the remaining queue below includes implementation work, not executable dispatches.
+
+- [x] S15-DRIVE-W1-INSTRUMENTS: TC/V5/P8, P5/P6 and full V4 verified and recorded;
+  timing is logged text-delta timing, producer probability semantics unresolved,
+  and fitted taste/habit calibration blind after false-positive failure.
+- [x] S15-DRIVE-D30: primary and single stricter extension verified; positive
+  extension has a positive writer-label control, without automaticity admission.
+- [ ] S15-DRIVE-D30-TEXTURE: build registered specification, second-pipeline and
+  second-dataset checks; handling calibration is not applicable to this outcome.
+- [x] S15-DRIVE-D33-PRIMARY: positive primary and positive rebuilt writer-label
+  control recorded; personal specificity remains unestablished.
+- [ ] S15-DRIVE-D33: review/complete P7, run the one stronger-baseline extension,
+  then the prescribed texture; no personal-map admission meanwhile.
+- [x] S15-DRIVE-D34: primary, stricter extension and supported D34.v1 recorded;
+  all marginal, two G routing nulls. Broad own-text correction question stays open.
+- [x] S15-DRIVE-D35-D39-D6: complete null primaries and declared secondary/control
+  work recorded; conditional extensions closed. No general mechanism rejection.
+- [x] S15-DRIVE-D17: both failures and intact evidence recorded; invalid with
+  retry exhausted, no primary or additional attempt under this packet.
+- [ ] S15-DRIVE-D32: finish the admitted measured continuation and whole-card
+  verification; only then integrate primary, controls and the ordered B route.
+- [ ] S15-DRIVE-DAILY-CONTROLS: implement the exact D30 within-writer outcome
+  shuffle from the frozen contrast and integrate D32's completed outcome control.
+  Current marker/writer-label shuffles are not substitutes. No clean-day verdict.
+- [ ] S15-DRIVE-D2: next ranked card needs a reviewed executable implementation;
+  CONTENT_V2/P8 are available with raw-score semantics caveated.
+- [ ] S15-DRIVE-D31: Gutenberg intake and bounded admitted G3-K labels remain;
+  no fiction outcome or paid batch is implied by registration.
+- [x] OPS-S15-DIGEST-1017: completed-card theory rows/afterwords, shared-pass
+  dispositions and operational snapshots integrated; incomplete controls explicit.
+
+
 - [x] OPS-S15-HEALTH-1017-0853: native execution, advancing checkpoints,
   evidence/locks/resources and actual watcher delivery verified; stale status
   records reconciled. No worker recovery or new study required.
@@ -25,8 +60,9 @@
   byte-identical handler repair and eight controls pass; original evidence retained.
 - [x] OPS-S15-DRIVE-SUGGESTION-V3: complete timing pilot and all retained outputs
   independently verified; native exit and lease release recorded. Runtime gate refuses main.
-- [ ] S15-DRIVE-P1-SUGGESTIONS: v4 whole-suggestion main is running;
-  independently verify complete support and checkpoints before any scientific use.
+- [x] S15-DRIVE-P1-SUGGESTIONS: full suggestion pass recorded invalid after
+  its second GPU-safety stop; retained checkpoints validate, retry exhausted.
+  Full-reader dependent comparisons remain blocked; no automatic restart.
 - [ ] S15-DRIVE-P1-FULL: implement and validate the separate writer-typed sentence
   roster and strictly earlier history context/packing. Suggestion scoring alone
   does not complete P1.
@@ -37,9 +73,11 @@
 - [x] OPS-S15-HEALTH-1017-0245: native closure, retained evidence, source/research
   locks, resources, dependencies and actual delivery verified. No new failure
   or eligible prepared successor; reader remains below its fixed memory floor.
-- [ ] S15-DRIVE-P4-D1: build and validate the shared predictive fit under
-  recipient-specific chronology, independently of the unfinished full-corpus reader runner.
-  Content representations are ready; no executable fit is queued yet.
+- [x] S15-DRIVE-P4-D1: shared P4 primary and single writer-offset extension
+  verified and recorded under recipient chronology. Positive handling-shuffle
+  gain prevents content-specific inference; this does not complete paid D1.
+- [ ] S15-DRIVE-D1-PAID: augmented comparison and bounded paid-route setup remain
+  separate work behind their existing admission and spending gates.
 
 - [x] S15-DRIVE-V1-PHASE0-LANDING: all 150 worlds, compressed/raw bindings,
   construction, fit chronology and saved statistics verified; full instrument
