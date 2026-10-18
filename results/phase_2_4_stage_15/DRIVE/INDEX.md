@@ -13,7 +13,7 @@ failures still have one retry. No partial scientific scores are reported.
 | PMAP | verified complete; positive primary with biased reassignment and incomplete content controls | [Full channel table and reliability](PMAP.md); [frozen rhythm contrast verified complete](PMAP-rhythm.md), original limitations retained |
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
 | V4.c | verified complete; primary invalid on null calibration; taste/combined blind, history-only sees large taste only | [Full split](V4.c-split.md); original V4 unchanged; medium-strength taste route and dependent cards held |
-| D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json), not dispatched |
+| D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json); full source fixture passed, final native validation running; corpus admission pending |
 | D33.fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
 | D12 | original selected-score primary under source-validity hold | [Original record](D12.md); [canonical rank successor verified null](D12-rank-canonical.md) |
@@ -50,7 +50,7 @@ failures still have one retry. No partial scientific scores are reported.
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | saved execution complete; selected-label inference and routing held | [Audit](SELECTED_OPTION_AUDIT_20261018.md); original results retained |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
-| Jester text intake | text verified; ratings intake refused final-block blank | [Text](JESTER_TEXT_INTAKE.md), [ratings failure](Jester2plus-intake-failed.md); separate complete-record recovery authorized; original partial-record gap retained, no scientific admission |
+| Jester text/ratings intake | text and separate complete-record ratings verified; original partial-record gap retained | [Complete-record source](Jester2plus-complete-records.md), [original failure](Jester2plus-intake-failed.md); P7/D36 admission remains separate |
 | P7 | full corpus census superseded; scoped D33/Jester CPU execution being built | [Mid-run plan](../../../docs/design/stage-15/drive/BATCH_PLAN_20261018_W2_MIDRUN.md); no full-corpus restart |
 | P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 

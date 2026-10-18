@@ -20,8 +20,7 @@ stronger-baseline extension awaits P7; prescribed texture remains.
 
 [Jester text intake](JESTER_TEXT_INTAKE.md) now verifies the complete text input
 for P7. Its [execution pilot](P7-pilot.md) now verifies source and numerical
-correctness; full corpus execution remains unadmitted on projected cost. Ratings
-parsing and the separate consumer analyses remain unfinished.
+correctness; full corpus execution remains unadmitted on projected cost. The [separate complete-record ratings input](Jester2plus-complete-records.md) is verified complete, with the original partial-record gap retained. Scoped reader admission and consumer analyses remain unfinished.
 
 [Two complete causal-batching comparisons](P7-hybrid-pilot.md) preserve the
 original pilot losses within tolerance. The uncached attempt is retained even
