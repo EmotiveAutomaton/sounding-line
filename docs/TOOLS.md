@@ -2430,9 +2430,11 @@ admits full calibration, now running. [P4 primary](../results/phase_2_4_stage_15
 and [single extension](../results/phase_2_4_stage_15/DRIVE/P4-extension.md) are verified complete.
 The extension's shuffled control also improves; no engine admission follows.
 The [GPU checkpoint recovery](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_LAUNCH.md)
-passes ten targeted checks and advances under unchanged numerical/resource limits.
-Every retained chunk was authenticated; prior wall time is charged against the
-original allowance. Original failures remain. No incomplete-cell scores are released.
+passed ten targeted checks, then [stopped at the unchanged memory floor](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md).
+All 4,453 saved checkpoints and 102 source pins validate; exact native exit and
+released lease verify. The second failure exhausts the one permitted retry, so
+the incomplete pass is invalid. Original evidence remains; no unfinished scores
+are released or admitted to downstream comparisons.
 
 **Saved-pause supervision:** the watcher now recognizes only the runtime's explicit saved-pause receipt, avoiding a false disappearance alarm without treating a pause as scientific completion. Thirty-six transition checks and live source/scan adoption pass; original alerts and delivery state remain intact.
 

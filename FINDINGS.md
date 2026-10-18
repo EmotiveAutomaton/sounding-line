@@ -9,6 +9,19 @@ ran it.
 
 ---
 
+### OPS-S15-DRIVE-SUGGESTION-1017-1748 - permitted recovery stopped
+
+**Hypothesis.** The full suggestion pass can finish from authenticated checkpoints under the unchanged memory limits.
+**METHOD.** Inspect the exact safety sample, native exit and lease release, then validate every retained checkpoint, its input binding and reductions against the frozen plans.
+**Found.** Free GPU memory fell below the fixed safety floor during the permitted retry; all 4,453 saved checkpoints validate. **Means.** The unfinished pass is invalid under the packet's second-failure rule. This is an apparatus failure, not a negative scientific result; dependent comparisons remain blocked.
+
+[Complete failure report](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md)
+records the guard sample, checkpoint integrity, unchanged limits, retry disposition,
+native closure and continuing CPU work. No scientific probability or family-null
+increment follows. TODO/STATE integration is queued for the 20:00 digest.
+
+Curator roll-up: reader apparatus · Can the full suggestion pass finish safely from saved work? · **Infrastructure** · The permitted retry hit the memory floor · project meaning: full reader output remains unavailable, not scientifically negative · next engineering obligation: retain the invalid pass and continue independent ranked CPU work · public claim unchanged · curator decision required: No · detail: complete failure report above.
+
 ### S15-DRIVE-W1-1017-1702 - personal surprise and pauses
 
 **Hypothesis.** Writers may pause longer when a word surprises their own expectations, beyond how surprising it is to the crowd.

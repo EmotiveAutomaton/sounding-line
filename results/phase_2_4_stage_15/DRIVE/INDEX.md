@@ -3,8 +3,9 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-The GPU checkpoint recovery, full V4 calibration and measured D32 continuation
-are running. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
+Full V4 calibration and measured D32 continuation are running. The GPU
+suggestion pass is invalid after its second GPU-safety failure; no further
+retry is dispatched. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
 The [P4 full primary](P4.md) and [single extension](P4-extension.md) are verified complete.
 No paid batch is active. Each row describes a whole card, never unfinished scores.
@@ -17,6 +18,7 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
+| P1 suggestion pass | invalid, incomplete; engineering retry exhausted | [Second memory-safety failure](SUGGESTION_MAIN_V5_FAILED.md); saved checkpoints intact, dependent comparisons blocked |
 | V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
@@ -42,10 +44,10 @@ One planned check remains at most one hour ahead; the [six-hour inspection](HEAL
 records actual identities, progress, resources, delivery and performed recovery.
 The dated October 16/earlier October 17 records below retain their original scope.
 
-**Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
-after its recorded safety stop. All retained checkpoint bytes validate; numerical
-and safety limits stay fixed, with prior wall time charged against the original
-allowance. Whole-corpus completion remains pending;
+**Current execution:** [the full suggestion pass is invalid after its second
+GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
+validates, but the one-retry limit forbids another attempt under this packet.
+V4 and D32 continue. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

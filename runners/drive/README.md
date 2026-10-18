@@ -47,9 +47,10 @@ intact; the owner audits their completed classifications before routing.
 `suggestion_pilot_v4` is verified complete with exact prior-pilot score equivalence
 and admitted measured bounds. `suggestion_main_v4` is the admitted whole-suggestion
 runner. Its safety stop retained 2,608 intact checkpoints. The separately validated
-`suggestion_resume_v1` is active, reusing exact bytes and charging prior elapsed
-time against the original allowance. All numerical and resource limits remain.
-Complete-output validation remains required; do not start a duplicate.
+`suggestion_resume_v1` reused exact bytes and charged prior elapsed time, then
+stopped at the unchanged memory floor. Its [second failure](../../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md)
+exhausts the packet's one retry. The incomplete pass is invalid; all saved
+checkpoints validate and remain intact. Do not start another attempt under this packet.
 
 `suggestion_pilot_v3` completed the lossless-checkpoint recovery and all validity
 checks. Its measured forecast exceeded 72 hours, so its own main stayed unadmitted. V2 failed

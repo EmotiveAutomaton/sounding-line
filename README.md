@@ -9,8 +9,9 @@
 
 # Sounding Line
 
-**October 17 rollout:** V4 calibration and the verified GPU checkpoint recovery
-are advancing beside D32's admitted checkpoint continuation. Completed D30,
+**October 17 rollout:** V4 calibration and D32's admitted checkpoint continuation
+are advancing. The [GPU suggestion pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md);
+saved checkpoints validate, but the incomplete pass is invalid under the retry limit. Completed D30,
 its extension and D35 are recorded with their controls and follow-up gates.
 [Current execution](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 separates verified results, active work and the unbuilt remainder. The
@@ -22,7 +23,7 @@ is applied; [incoming documents are filed](docs/archive/operations/DOCUMENT_RELO
 **Current commission:** the [October 17 drive amendment](docs/design/stage-15/drive/README.md)
 is partly implemented and active in Gear 2. Full source replay and first paid
 instrument admission and the complete outcome calibration are recorded. The
-reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the complete timing recovery preserves all compared scores and admits the full suggestion pass, which is now running with native monitoring. Typed/history preparation remains open. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+reader memory recovery is [verified complete](results/phase_2_4_stage_15/DRIVE/READER_PILOT_V6.md); the complete timing recovery preserves all compared scores and admitted the full suggestion pass; that pass is now invalid after its second GPU-safety stop, with saved evidence intact. Typed/history preparation remains open. No paid batch is active. See the [card-by-card execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
 for completed, waiting and unbuilt work, and [current status](CURRENT_STATUS.md)
 for monitoring, spending and scientific gates. Earlier continuation queues stay closed.
 

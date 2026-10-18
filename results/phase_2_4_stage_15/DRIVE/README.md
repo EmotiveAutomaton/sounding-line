@@ -2,7 +2,7 @@
 
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,
 verified and recorded. The [live index](INDEX.md) separates actual CPU dispatches
-from building cards while the GPU checkpoint recovery advances. [Operations](OPS_LOG.md) and
+from building cards; the GPU suggestion recovery has stopped at its retry limit. [Operations](OPS_LOG.md) and
 the [20:00 integration receipt](DIGEST_PENDING_20261017.json) implement batch reporting.
 
 [D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
@@ -13,10 +13,10 @@ after its required intervening dispatches, with previous work and cost retained.
 control are positive, leaving personal specificity unestablished. Its single
 stronger-baseline extension awaits P7; prescribed texture remains.
 
-**Current execution:** [the full suggestion checkpoint recovery is running](SUGGESTION_MAIN_V5_LAUNCH.md)
-after the [recorded safety stop](SUGGESTION_MAIN_V4_FAILED.md). Completed checkpoints
-are reused exactly, safety limits are unchanged and prior elapsed time is charged
-against the original allowance. Whole-corpus completion remains pending;
+**Current execution:** [the full suggestion pass is invalid after its second
+GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
+validates, but the one-retry limit forbids another attempt under this packet.
+V4 and D32 continue. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

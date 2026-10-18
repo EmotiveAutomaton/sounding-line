@@ -3,8 +3,10 @@
 ## October 17 afternoon: amended Stage 15 rollout
 
 The [new packet and frozen wave](docs/design/stage-15/drive/README.md) are active.
-The full suggestion GPU pass has resumed from verified checkpoints under its
-unchanged limits, beside V4 calibration. D32 saved its work and yielded because
+The [full suggestion GPU pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md)
+after free memory crossed the unchanged safety floor. All saved checkpoints
+validate, but the second-failure rule makes the unfinished pass invalid; no
+further retry is dispatched. V4 calibration continues. D32 saved its work and yielded because
 its measured forecast exceeded the declared boundary; after two ranked intervening
 dispatches it is now resuming under measured admission. P5, P6's exact-arithmetic
 recovery, D39 including its secondary, and the supported D34.v1 are verified complete.

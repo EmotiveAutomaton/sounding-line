@@ -23,7 +23,7 @@ blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopene
 
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
 P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
-its secondary are recorded. V4 and the GPU checkpoint recovery are running;
+its secondary are recorded. V4 is running; the GPU suggestion pass is invalid after its permitted retry;
 D32 saved and yielded at its forecast boundary, then resumed after verified
 D30/D35 dispatches under measured admission. D30 and its extension, and D35,
 are fully recorded; the live index retains their control limitations. D33's
@@ -38,7 +38,8 @@ The October 16 description below is retained as the earlier commission.
 every compared score and all safety checks. Measured bounds admit the suggestion
 main. Its later safety stop preserves every completed checkpoint; the
 [validated recovery](../../../../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_LAUNCH.md)
-now advances under native monitoring and unchanged limits. Typed/history and downstream
+later stopped at the unchanged memory floor. The [second failure](../../../../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md)
+exhausts its one retry; the incomplete pass is invalid and retains all checkpoints. Typed/history and downstream
 work remain separate.
 
 [Storage recovery v3](SUGGESTION_CORPUS_V3.md) is complete and valid, but its
