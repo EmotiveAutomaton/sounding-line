@@ -1,5 +1,7 @@
 # Supported-history comparison: validated recovery and corpus launch
 
+**Terminal follow-through, October 18:** the [single corpus retry completed with a verified calibration-support refusal](D33.pair-supported.md). It is INVALID before fitting, not a scientific negative. The launch and original failure evidence below remain historical.
+
 **Purpose.** Run the already authorized supported-history comparison after repairing its source reconstruction without changing its population, histories, statistical contrast or controls.
 
 **Method.** Validate the empty-reopen repair and exact-output UTF16, prefix-scan and token-count optimizations against the original sources. Run a complete native fixture through execution and fresh source/inference verification. Admit the single corpus engineering retry only after measured execution costs fit the original cumulative ceiling.

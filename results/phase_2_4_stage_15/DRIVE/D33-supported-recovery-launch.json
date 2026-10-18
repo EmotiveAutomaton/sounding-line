@@ -1,22 +1,40 @@
 {
   "at": "2026-10-18T19:12:52.691954+00:00",
+  "below_normal_execution_verified": true,
+  "bootstrap_draws": 2000,
+  "checkpoint_reuse_count": 10,
+  "classification": "Operational validation and launch only; corpus unfinished",
   "conservative_stress_cumulative_seconds": 1676.3101350438942,
   "cost_sha256": "f9deb5a1689e1f99e9f555fdfc255e6063a1136ab8593f82f829e6dd99d66f3a",
   "cumulative_cap_seconds": 1800,
-  "final_write_through_pending": true,
+  "daily_integration": "20:00 PDT",
+  "final_write_through_pending": false,
   "forecast_range_cumulative_seconds": [
     1490.8703977755288,
     1521.8889886062166
   ],
+  "gpu": {
+    "cold_start_floor_MiB": 7424,
+    "free_MiB": 4815,
+    "remaining_seconds": 119345,
+    "retained_checkpoints": 4988,
+    "status": "resource-held",
+    "temperature_C": 52
+  },
   "native": {
     "created_ticks": 134368243724737125,
     "executable": "C:\\Python313\\python.exe",
     "pid": 118420
   },
+  "numerical_threads": 2,
   "original_failure_preserved": true,
+  "original_population_question": "OPEN",
+  "permutations_per_control": 200,
   "pins": 68,
   "plan_sha256": "4e83988318e084360ecef7a4e82c168316033f3367fe0e1b08927bfd66ba80f6",
+  "population_changes": false,
   "prior_controller_seconds": 318.406307,
+  "prompt_excluded_variant": "waiting",
   "remaining_seconds": 1481.593693,
   "resources": {
     "commit_headroom_GiB": 32.071128845214844,
@@ -24,8 +42,15 @@
     "ram_available_GiB": 39.981971740722656
   },
   "root": "results/phase_2_4_stage_15/raw/drive-wave-20261017-w1/D33.pair-supported-recovery",
+  "seed": 20261018,
   "single_engineering_retry_dispatched": true,
+  "source_parity_matching_proofs": 1116,
+  "source_parity_original_rows": 78602,
   "source_parity_sha256": "762f6e3e82e5c08b78e323f6f2cf284908ccb744ceb62f777096547b2f2c4d7c",
+  "statistical_changes": false,
+  "targeted_checks": 5,
+  "terminal_report": "D33.pair-supported.json",
+  "terminal_state": "invalid",
   "tests_sha256": "d76c1dff57fdc0c24a8be06c4966ed047b70f35efb0571c504e1a0fb08726727",
   "validation": {
     "at": "2026-10-18T19:08:23.811550+00:00",
@@ -67,28 +92,5 @@
     "prior_equivalent_artifacts": 45,
     "root": ".agent-state/drive-20261017/native-wave2-smoke/D33.pair-supported-counts",
     "verified_sha256": "6f862203fb807f46f2d1bc922055e5e9ff9350ce384e012c938c459b0bba1989"
-  },
-  "classification": "Operational validation and launch only; corpus unfinished",
-  "targeted_checks": 5,
-  "source_parity_original_rows": 78602,
-  "source_parity_matching_proofs": 1116,
-  "statistical_changes": false,
-  "population_changes": false,
-  "checkpoint_reuse_count": 10,
-  "bootstrap_draws": 2000,
-  "permutations_per_control": 200,
-  "seed": 20261018,
-  "numerical_threads": 2,
-  "below_normal_execution_verified": true,
-  "original_population_question": "OPEN",
-  "prompt_excluded_variant": "waiting",
-  "daily_integration": "20:00 PDT",
-  "gpu": {
-    "status": "resource-held",
-    "free_MiB": 4815,
-    "cold_start_floor_MiB": 7424,
-    "temperature_C": 52,
-    "retained_checkpoints": 4988,
-    "remaining_seconds": 119345
   }
 }
