@@ -2401,6 +2401,15 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 taste/habit calibration:** V4 completes all 110 worlds with fresh
+statistic replay, source/output hashes and native closure verified. Both fitted
+taste-bearing readers reject every zero-effect cell and all 20 shuffled nulls.
+The frozen label is blind, including excessive false positives; the oracle sees
+the plants, and matched-arm predictive gain is retained separately. No personal
+taste/habit panel or FX1 admission follows. This is a failed instrument gate,
+not evidence that human taste or habit is absent.
+[Full curves, usefulness and routing](../results/phase_2_4_stage_15/DRIVE/V4.md).
+
 **October 17 menu-position instrument:** D6 separates option identities, keyboard
 positions, visibility episodes and hypothetical default highlighting. Ten targeted
 controls and full production fresh-process replay pass; source/output hashes and

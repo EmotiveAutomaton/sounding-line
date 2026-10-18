@@ -16,7 +16,8 @@ stronger-baseline extension awaits P7; prescribed texture remains.
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
-V4 and D32 continue. [D6](D6.md) is verified complete with a null pooled
+[V4 is complete](V4.md), with blind taste/habit labels after its null check fails;
+FX1 and personal panels stay unadmitted. D32 continues. [D6](D6.md) is verified complete with a null pooled
 hover-position primary; no extension opens, and unobserved exposure remains
 unidentified. The [D17 pause card](D17.md) is invalid after its second engineering failure, with no primary result and all retained files intact. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.

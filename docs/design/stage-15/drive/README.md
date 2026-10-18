@@ -23,7 +23,9 @@ blind-label, cost-reservation and stopping gates. Tier 4 outcomes remain unopene
 
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
 P5, P6's exact-score recovery, D34 and its supported variant, and D39 including
-its secondary are recorded. V4 is running; the GPU suggestion pass is invalid after its permitted retry;
+its secondary are recorded. [V4 is verified complete](../../../../results/phase_2_4_stage_15/DRIVE/V4.md)
+with a failed null check and blind taste/habit labels; FX1/personal panels stay
+unadmitted. The GPU suggestion pass is invalid after its permitted retry;
 D32 saved and yielded at its forecast boundary, then resumed after verified
 D30/D35 dispatches under measured admission. D6 is verified complete with a null
 pooled hover-position primary; its extension stays closed. D30 and its extension, and D35,

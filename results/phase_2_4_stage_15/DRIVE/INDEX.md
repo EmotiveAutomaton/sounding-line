@@ -3,7 +3,7 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-Full V4 calibration and measured D32 continuation are running. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
+V4 calibration is verified complete with a failed null check; measured D32 continuation is running. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
 suggestion pass is invalid after its second GPU-safety failure; no further
 retry is dispatched. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
@@ -13,14 +13,14 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | Card | Complete state or execution status | Evidence / next action |
 |---|---|---|
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
-| V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 pending |
+| V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 taste/habit lens blind |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
-| P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension |
+| P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension; V4 taste/habit lens blind |
 | P1 suggestion pass | invalid, incomplete; engineering retry exhausted | [Second memory-safety failure](SUGGESTION_MAIN_V5_FAILED.md); saved checkpoints intact, dependent comparisons blocked |
-| V4 | full calibration running after verified timing pilot | [Timing admission](V4-pilot.md); no taste/habit label available yet |
-| D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved |
+| V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
+| D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
@@ -34,6 +34,10 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 Family resolved-prefix null counts: K 0, B 0, A 1, G 2, E 0, R 0, S 0, P 0.
 D33's positive primary resets A after D35; the already-landed D39 null then gives
 one. D33's single extension and required texture remain unfinished. No family stops.
+V4 labels: **the lens is blind to taste at every tested size** and **the lens is
+blind to habit at every tested size**. Its false-positive gate fails; interpret
+writer-level taste/habit nulls and any later family stop as instrument-limited.
+These labels do not replace the separate controls on direct process-record cards.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 D6 is null, but B stays at zero until preceding D32 and any registered variant resolve.
 The next rank is D2, whose runner still needs implementation; D31 needs intake and admitted labels.
@@ -50,7 +54,7 @@ The dated October 16/earlier October 17 records below retain their original scop
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
-V4 and D32 continue. D17 is invalid after its second engineering failure; its evidence is retained and its conditional extension is closed. Full reader output remains unavailable;
+V4 is complete with failed null calibration; D32 continues. D17 is invalid after its second engineering failure; its evidence is retained and its conditional extension is closed. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),

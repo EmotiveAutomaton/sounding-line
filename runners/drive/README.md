@@ -18,8 +18,9 @@ Raw text, per-writer models and private intermediates remain excluded from Git.
 
 `menus_p4_primary` completes the full primary before its separately gated
 `menus_p4_extension`; both preserve the original pilot sources. `menus_v4` runs
-the fixed three-world timing pilot; `menus_v4_full` is admitted and running with
-verified pilot reuse. `menus_d34` implements the reviewed residual-direction
+the fixed three-world timing pilot; `menus_v4_full` is verified complete with
+byte-identical pilot reuse. Its mandatory null check fails, yielding blind taste
+and habit labels. Frozen evidence remains; no personal-panel or FX1 admission. `menus_d34` implements the reviewed residual-direction
 primary, its fixed planted controls and held-session transfer checks. The separately
 verified extension retains exact content-reader designs. `menus_d34_v1` restricts
 correction cohesion to directly linked model corrections under curator approval.

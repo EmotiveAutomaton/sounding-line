@@ -9,6 +9,25 @@ ran it.
 
 ---
 
+### S15-DRIVE-W1-V4-1017 - fitted taste and habit lens fails null calibration
+
+**Hypothesis.** Readers aimed at writer-specific taste and habit can distinguish planted structure from no structure.
+**METHOD.** Run the complete fixed calibration: three planted families at four strengths, with 90 calibration worlds and 20 separate shuffled-identity null worlds, then replay every saved likelihood test and held-out forecast score.
+**Found.** The combined reader rejects all 20 shuffled null worlds and every zero-effect cell; it therefore fails calibration. The oracle reader detects the medium-strength plants with acceptable null rates. **Means.** The fitted reader is not admitted for personal taste or habit claims. This is an instrument limit, not evidence that writers lack those properties.
+
+All three combined-reader medium-minus-zero detection contrasts are zero,
+with conservative world-recovery intervals [-0.277533, +0.277533] and descriptive
+probabilities 1.0. The matched-representation arm still has descriptive held-out
+forecast gain; that gain cannot repair the existence test's false-positive failure.
+[Complete calibration curves, usefulness and validity record](results/phase_2_4_stage_15/DRIVE/V4.md)
+retains every reader/plant cell, mandatory null gate, frozen labels and verification.
+All 455 completion hashes and 36 plan pins verify; native workers exited and
+released their slot. Labels propagate to dependent taste/habit interpretations;
+FX1 and personal panels remain unadmitted. Theory/TODO integrates at 20:00.
+No new research test or paid call is inferred from this wake.
+
+Curator roll-up: taste and habit measurement; Can the fitted readers distinguish planted writer structure from no structure?; **Infrastructure**; The combined reader fails every shuffled null world; project meaning: instrument-limited conclusions, not human absences; next engineering obligation: review fitting and post-selection calibration while preserving the failed ruler; public claim unchanged, personal taste/habit admission forbidden; curator decision required: No; detail: complete V4 record above.
+
 ### S15-DRIVE-W1-D6-1017 - menu-position examination
 
 **Hypothesis.** Writers may examine the first displayed suggestion more than the fifth.

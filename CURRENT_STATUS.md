@@ -6,7 +6,10 @@ The [new packet and frozen wave](docs/design/stage-15/drive/README.md) are activ
 The [full suggestion GPU pass stopped on its permitted retry](results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md)
 after free memory crossed the unchanged safety floor. All saved checkpoints
 validate, but the second-failure rule makes the unfinished pass invalid; no
-further retry is dispatched. V4 calibration continues. D32 saved its work and yielded because
+further retry is dispatched. [V4 calibration is complete](results/phase_2_4_stage_15/DRIVE/V4.md): its combined
+reader fails the null check. The lens is blind to taste and habit at every tested
+size under the frozen bands, despite oracle recovery; FX1 and personal panels
+remain unadmitted. Matched-representation forecast gain does not repair that gate. D32 saved its work and yielded because
 its measured forecast exceeded the declared boundary; after two ranked intervening
 dispatches it is now resuming under measured admission. P5, P6's exact-arithmetic
 recovery, D39 including its secondary, and the supported D34.v1 are verified complete.
@@ -20,7 +23,7 @@ conditional extension stays closed. D32 reuses every saved checkpoint byte and
 charges its prior wall time. D33's personal-surprise primary is verified positive,
 with a positive writer-shuffle control; personal specificity is unestablished.
 Its single stronger-baseline extension awaits P7, followed by prescribed texture.
-The [D17 pause-stability card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after numerical nonconvergence and a progress-file failure on its permitted retry. All retained files verify; no primary result or family-null count follows, and no third attempt is authorized. V4 and D32 continue alongside untouched ToMpathy; three counted CPU slots are occupied. [D6](results/phase_2_4_stage_15/DRIVE/D6.md) is now verified complete with a null pooled hover-position comparison; its extension stays closed. Its slot is released, and the next ranked D2 runner requires implementation. D31 still needs intake and admitted labels; the packet remains partly built.
+The [D17 pause-stability card](results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after numerical nonconvergence and a progress-file failure on its permitted retry. All retained files verify; no primary result or family-null count follows, and no third attempt is authorized. D32 continues in the sole currently occupied counted CPU slot; the earlier ToMpathy lease is no longer present, and no unrelated process was stopped. [D6](results/phase_2_4_stage_15/DRIVE/D6.md) is now verified complete with a null pooled hover-position comparison; its extension stays closed. Its slot is released, and the next ranked D2 runner requires implementation. D31 still needs intake and admitted labels; the packet remains partly built.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).
