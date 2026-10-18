@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-18T22:29:46.220843+00:00",
+  "gpu": {
+    "free_MiB": 6296,
+    "used_MiB": 5701,
+    "temperature_C": 42
+  },
+  "resources": {
+    "ram_available_GiB": 36.252784729003906,
+    "commit_headroom_GiB": 29.495288848876953,
+    "disk_free_GiB": 398.22840118408203
+  },
+  "gpu_lease_absent": true,
+  "gpu_failed_owner_exited": true,
+  "gpu_continuation_prepared": true,
+  "gpu_continuation_pins": 124,
+  "gpu_no_new_attempt": true,
+  "demo_reservation_retained": true,
+  "watcher_source_verified": true,
+  "watcher_last_scan": 1792362553.8063009,
+  "watch_error": null,
+  "scientific_scores_read": false,
+  "no_new_tests_harvested": true,
+  "next_authorized_work": "Canonical D2 primary implementation and EV interface consumers; D32 running, GPU continuation only above unchanged7424MiB cold floor; D24 saved-cost review and D33/P7/D30 continuations remain; no paid batch or new authority",
+  "jobs": {
+    "drive-wave-20261017-w1/D32-canonical": {
+      "exact_identity_live": true,
+      "priority": 32,
+      "cpu_seconds": 5.609375,
+      "rss_GiB": 0.02593994140625,
+      "terminal": {},
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "verified_pins": 4536,
+      "checkpoint_count": 537,
+      "latest_output_epoch": 1792362583.5703862,
+      "output_age_seconds": 2.4722492694854736
+    },
+    "drive-calendar-20261017": {
+      "exact_identity_live": true,
+      "priority": 32,
+      "cpu_seconds": 5.46875,
+      "rss_GiB": 0.019134521484375,
+      "terminal": {},
+      "heartbeat": {
+        "at": "2026-10-18T22:29:26.427792+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "verified_pins": 5
+    },
+    "drive-calendar-20261018-week": {
+      "exact_identity_live": true,
+      "priority": 32,
+      "cpu_seconds": 0.296875,
+      "rss_GiB": 0.01876068115234375,
+      "terminal": {},
+      "heartbeat": {
+        "at": "2026-10-18T22:29:24.585744+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "verified_pins": 5
+    }
+  },
+  "active_cpu_leases": 1,
+  "research_locks_passed": 21,
+  "historical_delivery_failure_count": 2,
+  "events": [
+    {
+      "id": "d52b40b9c66291074cba261a",
+      "path": "[watch deadline: inspect queue liveness]",
+      "state": "queued",
+      "delivered_at": 1792362502.617361
+    },
+    {
+      "id": "9c42c969705cd3b7edf59bd4",
+      "path": "[queue health: inspect progress, failures, locks and authorized next work]",
+      "state": "queued",
+      "delivered_at": 1792362502.6174293
+    }
+  ],
+  "recovery": "No worker or lease recovery required; GPU continuation retained below unchanged cold-start floor; implement next authorized CPU card"
+}

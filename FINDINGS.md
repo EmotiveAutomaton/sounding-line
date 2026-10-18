@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-HEALTH-1018-1530
+
+**Hypothesis.** The corrected week workload can continue within its execution and monitoring limits.
+**METHOD.** Inspect exact native owners/children, fresh output, source and research pins, resource floors, leases, failures, runnable authorized work, calendar heartbeats and actual watcher delivery.
+**Found.** D32 is progressing; the GPU reader remains below its unchanged restart floor after a recorded environmental stop. **Means.** No worker or lock recovery is required. Canonical D2 and EV consumers remain implementation work; a healthy worker does not mean the packet is fully built.
+
+The active D32 pins, prepared GPU-continuation bindings, both calendar processes, all research locks and watcher source verify. Both current events have recorded delivery timestamps. Historical transport failures remain visible; no new failure or orphaned result was found. The GPU lease is released, preserved checkpoints remain bound to the prepared continuation, and other applications stay untouched. Demo capacity and original study limits remain. No partial scores or new tests were harvested. Full evidence is recorded before the two ACKs, with the health ACK alone rearming six hours.
+
+Curator roll-up: operations; is authorized execution progressing and supervised?; **Infrastructure**; the CPU comparison is healthy while the GPU continuation waits for memory; project meaning: implementation and resource holds remain explicit; next engineering obligation: build canonical D2, prepare engine consumers and resume the unchanged GPU study only when its floor passes; public claim unchanged; curator decision required: No; detail: [six-hour inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1530.md).
+
 ### OPS-S15-GPU-ENVIRONMENT-2-STOP-1018
 
 **Hypothesis.** Completed reader checkpoints can survive a resource interruption without changing the scientific comparison.
