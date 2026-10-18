@@ -20,7 +20,7 @@ conditional extension stays closed. D32 reuses every saved checkpoint byte and
 charges its prior wall time. D33's personal-surprise primary is verified positive,
 with a positive writer-shuffle control; personal specificity is unestablished.
 Its single stronger-baseline extension awaits P7, followed by prescribed texture.
-Other ranked cards await owner review and input completion.
+The [D17 pause-stability card](results/phase_2_4_stage_15/DRIVE/D17-launch.md) passed 14 targeted checks and is running in the fourth counted CPU slot, alongside V4, D32 and ToMpathy. Other ranked cards await owner review and input completion.
 
 The [34-edit theory errata](docs/design/archive/THEORY_ERRATA_20261017_APPLIED.json)
 is applied and lint-clean; [all incoming files are filed](docs/archive/operations/DOCUMENT_RELOCATIONS_20261017.json).

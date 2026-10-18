@@ -2401,6 +2401,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 normalized-pause instrument:** D17 passes 14 targeted tests, including
+serialized planted/unstable-writer logs, speed normalization, system-wait exclusion,
+source authentication, checkpoint resume, immutable reentry and fresh-process replay.
+Its whole primary is running; no scientific support is asserted. Bootstrap uncertainty
+conditions on the selected pooled mixture. [Launch and limits](../results/phase_2_4_stage_15/DRIVE/D17-launch.md).
+
 **October 17 personal-surprise card:** D33 passes nine targeted checks, including
 known-effect recovery from serialized source records, strict earlier-session
 history, independent donor identity, saved-boundary resume, fresh-process replay,

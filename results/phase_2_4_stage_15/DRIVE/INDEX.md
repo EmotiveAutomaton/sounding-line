@@ -3,7 +3,7 @@
 ## October 17 wave 1
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
-Full V4 calibration and measured D32 continuation are running. The GPU
+Full V4 calibration, measured D32 continuation and the reviewed D17 pause card are running. The GPU
 suggestion pass is invalid after its second GPU-safety failure; no further
 retry is dispatched. D33 is verified complete. D32 retained its saved forecast-yield attempt. P5, P6's exact-score recovery,
 D39 including its secondary, and the supported D34.v1 are verified complete.
@@ -24,7 +24,7 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
-| D17 | code delivered for owner review; P5/P6 inputs ready | Dispatch by packet rank after owner validation |
+| D17 | reviewed, validated and running | [Launch and scope](D17-launch.md); 14 targeted checks pass; no scientific result yet |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | measured continuation running; not a scientific result | [Original pause](D32-paused.md), [resume admission](D32-resume.md); D30/D35 dispatches verified, prior wall time charged |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
@@ -47,7 +47,7 @@ The dated October 16/earlier October 17 records below retain their original scop
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
 validates, but the one-retry limit forbids another attempt under this packet.
-V4 and D32 continue. Full reader output remains unavailable;
+V4, D32 and D17 continue. Full reader output remains unavailable;
 typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
@@ -89,7 +89,7 @@ The shared-pass table reports execution readiness, not scientific admission.
 | S0-T4 | delivered aggregate |
 | S0-T4-104 | held released exclusion roster |
 | V2 | verified complete |
-| P1 | v6 memory pilot verified; full v4 suggestion main running; typed/history unbuilt |
+| P1 | pilot verified; full suggestion pass invalid after its permitted retry; typed/history unbuilt |
 | P3 | blind reference and classifier not built |
 | P4 | full fit and single extension verified; specificity not established |
 | S0-T2 | download verified parsing not built |

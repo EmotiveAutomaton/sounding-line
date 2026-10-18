@@ -6,7 +6,7 @@ The curator authorized the [new packet](PACKET_20261017_PUBLIC.md) and the obvio
 implementation corrections in [wave 1](BATCH_PLAN_20261017_W1_PUBLIC.md). This extends
 Stage 15. Three builders prepare separate cards; the owner alone dispatches,
 lands and publishes. Four counted CPU slots allow two threads each at below-normal
-priority while the admitted GPU suggestion main continues unchanged.
+priority with shared leases respected; the full GPU suggestion pass later exhausted its retry.
 
 [Dispatch bindings](DISPATCH_20261017.json) distinguish frozen executable cards
 from the unbuilt remainder. [Live evidence index](../../../../results/phase_2_4_stage_15/DRIVE/INDEX.md)
@@ -28,7 +28,8 @@ D32 saved and yielded at its forecast boundary, then resumed after verified
 D30/D35 dispatches under measured admission. D30 and its extension, and D35,
 are fully recorded; the live index retains their control limitations. D33's
 first primary is verified complete with a positive writer-shuffle warning; its
-single stronger-baseline extension awaits P7. A finite,
+single stronger-baseline extension awaits P7. D17 passed owner review and 14 targeted
+checks and is now running; its [launch scope](../../../../results/phase_2_4_stage_15/DRIVE/D17-launch.md) is recorded. A finite,
 monitored calendar delivers the digest/cutoff markers without dispatching studies
 or publishing. The curator approved D34.v1 on directly linked model-suggestion
 corrections only; the broader own-text correction question remains open.

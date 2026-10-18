@@ -4,11 +4,12 @@
 are recorded under the amended Stage 15 packet. The prior finite queues below
 stay closed; the new commission is only partly implemented.
 
-**Current execution:** [full suggestion main](DRIVE/SUGGESTION_MAIN_V4_LAUNCH.json)
-is running after [complete timing admission](DRIVE/SUGGESTION_PILOT_V4.md).
-The [08:53 health inspection](HEALTH_20261017_0853_PUBLIC.json) verifies native
-ownership, fresh intact checkpoints, resource floors and actual watcher delivery.
-No restart is needed. Typed/history and other unbuilt cards remain separate.
+**Current execution:** V4, D32 and the [reviewed D17 pause card](DRIVE/D17-launch.md)
+are running. The [full suggestion pass is invalid after its second safety stop](DRIVE/SUGGESTION_MAIN_V5_FAILED.md); its retry is exhausted and saved work remains intact.
+The [18:07 planned inspection](DRIVE/HEALTH_20261017_1807.json) verifies native
+identities, progress, resource floors, source/research locks and watcher delivery.
+Typed/history and other unbuilt cards remain separate. Earlier inspections below
+retain their dated scope.
 [Verified ACK and next check](HEALTH_20261017_0853_ACK_PUBLIC.json).
 
 **Earlier October 17 reader recovery:** [bounded float32 memory validation is complete](DRIVE/READER_PILOT_V6.md).

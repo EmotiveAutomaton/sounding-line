@@ -37,6 +37,11 @@ Nine targeted checks include a serialized planted-effect run, saved-boundary
 resume, fresh-process replay, immutable reentry and changed-source refusal.
 Its first full card is verified complete; the positive shuffled-history control
 limits interpretation. The stronger-baseline extension awaits completed P7.
+`timing_d17` authenticates raw/foundation/TC identities, excludes system-wait
+intervals and fits shared normalized pause mixtures with session-specific weights.
+Fourteen targeted checks include actual serialized positive/negative controls,
+source refusal, saved-boundary resume and fresh-process replay. Its primary is
+running; uncertainty conditions on the selected pooled mixture.
 `calendar_20261017` emits finite campaign markers and restores the
 watcher mode at freeze, without dispatching studies or publication.
 
