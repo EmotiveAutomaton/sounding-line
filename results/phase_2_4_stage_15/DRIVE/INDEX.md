@@ -13,7 +13,7 @@ failures still have one retry. No partial scientific scores are reported.
 | PMAP | source-only recovery running after full metadata and native admission | [Recovery](PMAP-recovery-launch.md); original preflight failure retained |
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
 | V4.c | full 110-world corrected split running after verified timing and native reuse admission | [Diagnostic](V4.c-saved-diagnostics.md), [pilot](V4.c-split-pilot.md); original null-world calibration required |
-| D33.pair / .pair2 | exact-history support audit running; scientific runner being built | [Admission](MIDRUN_ADMISSIONS_20261018.json); all original rows retained |
+| D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); separate supported-match design requested |
 | D33.fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
 | D12 | original selected-score primary under source-validity hold | [Original record](D12.md); [canonical rank successor verified null](D12-rank-canonical.md) |

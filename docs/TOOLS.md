@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 18 exact-history audit:** All original D33 rows and calibration identities reconstruct; the donor matcher preserves chronology, session/token counts and sequence boundaries. Eleven focused tests, native fixture and complete production replay pass. Exact support is incomplete, so both scientific variants remain held. [Support record](../results/phase_2_4_stage_15/DRIVE/D33.pair-intake.md).
+
 **October 18 canonical ranks and split admission:** Canonical selection/P8 identity joins, midrank invariance and paired real-writer graph bootstrap pass five targeted checks, native fixture and complete fresh production verification. The separate corrected split pilot passes complete fresh refit and admits full original-world execution; scientific calibration remains pending. [Rank instrument](../results/phase_2_4_stage_15/DRIVE/D12-rank-canonical.md) · [split timing admission](../results/phase_2_4_stage_15/DRIVE/V4.c-split-pilot.md).
 
 **October 18 saved validation diagnostic:** All 110 constructed worlds are reconstructed and verified. Saved-null thresholds, held-out prediction and reader-span overlap are recorded descriptively; the original likelihood is Laplace marginal, and its direction-learning support overlaps the likelihood test. No calibration or scientific route changes. [Complete diagnostic](../results/phase_2_4_stage_15/DRIVE/V4.c-saved-diagnostics.md).

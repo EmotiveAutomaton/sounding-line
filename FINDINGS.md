@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### OPS-S15-D33-PAIR-SUPPORT-1018
+
+**Hypothesis.** Every original timing observation can be compared with an equally sized, strictly earlier history from one other writer.
+**METHOD.** Reconstruct all 78,602 original word rows and their original calibration records, then seek one other writer with the same prior-session count and enough typed tokens for each target. Prefer prompt overlap, trim donor excess only at existing word/sequence boundaries, and repeat with the target prompt excluded from both histories. No regression or outcome-based match selection is performed.
+**Found.** Exact history support is incomplete in both variants. **Means.** Neither full-population paired comparison is runnable as specified. This is a missing-comparison problem, not a scientific negative about personal fluency.
+
+The table reports calibration and evaluation target-session counts, and original evaluation word rows whose target session lacks a match. Every original row is retained; the last column is a support gap, not a dropped analysis sample.
+
+| History variant | Required target sessions | Supported | Unsupported | Unsupported evaluation word rows |
+|---|---:|---:|---:|---:|
+| All earlier completed history | 558 | 409 | 149 | 24,560 |
+| Target prompt excluded from both histories | 558 | 397 | 161 | 26,184 |
+
+The 41 original evaluation writers, all word keys, nuisance values and chronological calibration sessions reconstruct exactly. Matching is deterministic and uses only earlier history metadata and token counts. No future session, shortened own history, pooled multiple-writer donor, repeated donor session or silently changed outcome population is substituted. All 42 source pins and 1,129 completion artifacts verify, including full fresh source/matching replay, native exit and released CPU slot.
+
+A separately labeled supported-match comparison has been proposed to the curator; it would change the population and is not launched or treated as the original test. Screen/current-session covariates, calibrated donor mixtures, 200 outcome permutations and paired uncertainty still require a scientific runner. The original question remains open, and no person-specific interface route is licensed.
+
+Curator roll-up: personal-history comparison; can the exact original population receive an equal-history rival?; **Infrastructure**; both variants lack complete donor support; project meaning: the registered comparison is held without a scientific verdict; next engineering obligation: resolve the separate supported-match design while independent work continues; public claim unchanged; curator decision required: Yes, recommend a separately labeled supported-match variant retaining the original question; detail: D33.pair-intake.md/json.
+
+Theory/TODO integrate at 20:00 PDT under the active packet.
+
 ### OPS-S15-V4C-PILOT-1018
 
 **Hypothesis.** The corrected split test can execute with its frozen inputs and separate histories within the remaining local campaign.
