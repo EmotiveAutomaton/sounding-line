@@ -1,6 +1,6 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
-**October 18 supported-history validation:** The full constructed source-to-handler fixture and explicit optimizer-failure refusals pass. Final native verification is running; a pre-execution monitor-receipt failure was retained and repaired in a separate launch without scientific code changes. Corpus execution remains subject to measured admission; no supported-history result is reported.
+**October 18 supported-history validation:** The complete counted native source reconstruction and inference replay pass; all 55 pins and 76 artifacts verify, workers exited and the lease was released. The pre-execution receipt failure and charge remain preserved. The [first supported-match corpus comparison](../results/phase_2_4_stage_15/DRIVE/D33-supported-build.md) is dispatched under the active first-tenth CPU timing rule and unchanged 1,800-second ceiling. No corpus score or psychological admission is reported.
 
 **October 18 complete-record input verified:** Jester recovery preserves all 50,691 complete rows, the exact partial-row quarantine and 49 byte-identical original chunks. Five source-policy checks, counted native fixture and complete fresh production reparse pass. The original full-population gap remains open; source readiness supplies no liking result or downstream model admission. [Complete receipt](../results/phase_2_4_stage_15/DRIVE/Jester2plus-complete-records.md).
 
