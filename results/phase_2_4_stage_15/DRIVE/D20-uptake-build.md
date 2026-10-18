@@ -1,0 +1,15 @@
+# D20 uptake reliability: validated implementation
+
+**Hypothesis.** Writers differ consistently in how much dismissed suggestion content appears in their next typed words.
+**METHOD.** Retain the original next-50-word uptake measure and its matched other-session donor expectation. Test the registered odd/even-session reliability extension against known positive, reversed and null constructions, including original-code parity, 2,000 paired writer resamples, 200 within-writer outcome permutations and 200 whole-even-half identity permutations. Execute and reconstruct all sources and statistics in separate counted native processes.
+**Found.** Thirteen focused checks and complete native validation pass after two retained wrapper failures. **Means.** The implementation is ready for the already authorized descriptive extension; this is instrument evidence, with no new human result.
+
+The constructed fixture has eight writers and sixteen sessions. It completes the production draw counts, saved-boundary checks, source reconstruction and fresh recomputation. All 65 pins and 229 final artifacts verify; exact native workers exited and released their CPU lease. Both numerical-pool measurements report one thread. The original source, estimand, weighting, seed, bootstrap support and comparison gates are unchanged.
+
+The first native wrapper failed while writing its thread receipt after constructed execution. Its replacement wrote that receipt inside the scientific output directory, so fresh verification correctly refused an altered artifact inventory. The separate final wrapper writes telemetry beside that directory. Both failures and their source capsules remain intact. The final primary, both statistical arms, counts and shuffle support match the prior constructed execution exactly. These are development failures before corpus dispatch, not scientific negatives or corpus retries. Two test-fixture access refusals were handled by rerunning those tests in a separate workspace scratch directory; no assertion was weakened.
+
+Real writer resampling reweights target and donor roles together. The identity contrast pairs own and reassigned complete even halves on the same supported graph. Outcome permutations keep writer, prompt and progress stratum fixed; singleton and identical windows can limit perturbation and are counted. Undefined draws remain visible, with no redraw or permutation probability after dropping unsupported draws. Lexical reliability is primary; embedding reliability is secondary. Neither identifies observed reading, causal influence, hidden goals or generalization to a new prompt.
+
+The corpus forecast is one CPU-hour, conservatively unmeasured, with a three-hour combined execution/replay ceiling and 512 MiB output cap. The first tenth supplies cost feedback. The dispatcher enforces below-normal priority and measured one-thread execution. Original D20 results and their control limits remain retained; the extension does not reopen held source-dependent studies.
+
+[Aggregate validation receipt](D20-uptake-build.json) ? [original D20](D20.md) ? [current index](INDEX.md).

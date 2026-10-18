@@ -26,7 +26,7 @@ failures still have one retry. No partial scientific scores are reported.
 | D38 | primary source exposed; extension statistic invariant but opening gate held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original extension](D38-extension.md) |
 | D3 / D3-content | both single engineering retries failed source validation; invalid | [Complete failure record](D3-recovery.md); no further engineering retry |
 | D18 | canonical retry verified complete; primary null | [Complete result](D18.md); independent of prepared choice index; P1 fluency gate retained |
-| D20 | lossless recovery verified complete; lexical primary positive | [Complete comparison and control limits](D20.md) |
+| D20 | lossless recovery verified complete; registered reliability extension running | [Original comparison and limits](D20.md); [13-check/native validation with retained wrapper failures](D20-uptake-build.md); [counted one-thread corpus launch](D20-uptake-launch.json). No unfinished scores |
 | D11 | verified primary positive; later-text secondary held on source defect | [Complete report](D11.md); writer-slope extension awaits calibrated V4.c |
 | D30.p | crossed-model cost pilot verified; full pipeline building | [Instrument](D30.p-pilot.md) |
 | D30.r | metadata inspection verified; replication held | [Missing mappings](D30.r-intake.md) |

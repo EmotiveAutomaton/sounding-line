@@ -9,6 +9,18 @@ ran it.
 
 ---
 
+### OPS-S15-D20-UPTAKE-BUILD-1018
+
+**Hypothesis.** Writers differ consistently in how much dismissed suggestion content appears in their next typed words.
+**METHOD.** Validate the registered odd/even-session reliability extension against positive, reversed and null constructions, original-code parity and complete source reconstruction. Run the production 2,000 paired writer resamples and both 200-permutation controls through execution and independent native verification.
+**Found.** Thirteen focused checks and complete native validation pass after two retained telemetry-wrapper failures. **Means.** This licenses the prepared descriptive extension to run, with no new corpus finding.
+
+All 65 pins and 229 final artifacts verify. Actual numerical pools are limited to one thread; exact native workers exited and the counted lease was released. The first wrapper called an unavailable receipt writer. The second contaminated the scientific file inventory with operational telemetry and was refused by fresh verification. The separately frozen final wrapper places telemetry outside that inventory; scientific code and gates are unchanged. All statistical fields match the prior constructed execution. The original failures remain, and no corpus attempt or scientific null is counted. Workspace-local scratch resolves two test-fixture access refusals without changing assertions.
+
+The lexical reliability is primary; embedding is secondary. Controls preserve real-writer target/donor weights and pair own/fake halves on fixed support; unsupported draws are retained. Identity specificity, causal reading and hidden values are not established by validation. Original D20 evidence remains intact. Corpus forecast is one hour, with three-hour combined wall cap and 512 MiB output cap; first-tenth feedback remains required.
+
+Curator roll-up: decision uptake; does uptake vary consistently between writers?; **Infrastructure**; full constructed validation passes; project meaning: the registered extension is executable but unscored on human data; next engineering obligation: dispatch under frozen limits and land the complete result; public claim unchanged; curator decision required: No; detail: [implementation and failures](results/phase_2_4_stage_15/DRIVE/D20-uptake-build.md).
+
 ### S15-DRIVE-D4-CANONICAL-1018
 
 **Hypothesis.** A writer's earlier content corrections predict later suggestion choices better than housekeeping corrections do.
