@@ -8,7 +8,7 @@ and the order of the next studies. Tested runtime changes are in use.
 [D17](results/phase_2_4_stage_15/DRIVE/D17-complete.md),
 [D18](results/phase_2_4_stage_15/DRIVE/D18.md) and
 [D11](results/phase_2_4_stage_15/DRIVE/D11.md) have complete verified landings.
-D20's lossless recovery is verified complete; [V5.d](results/phase_2_4_stage_15/DRIVE/V5.d.md) is complete with its fake-control support failure recorded. PMAP's separately validated source-only recovery has emitted completion; final inspection and write-through are in progress.
+D20's lossless recovery is verified complete; [V5.d](results/phase_2_4_stage_15/DRIVE/V5.d.md) is complete with its fake-control support failure recorded. [PMAP](results/phase_2_4_stage_15/DRIVE/PMAP.md) is verified complete and fully recorded, with biased reassignment and incomplete content-control warnings retained. Its frozen rhythm contrast is next in preparation.
 V4.c's corrected split implementation is complete and has passed targeted and native fixture checks;
 its [saved-output diagnostic](results/phase_2_4_stage_15/DRIVE/V4.c-saved-diagnostics.md) and [timing pilot](results/phase_2_4_stage_15/DRIVE/V4.c-split-pilot.md) are verified complete. The full 110-world split is running with an approximately one-hour measured projection including fresh verification. D33's [exact-history audit](results/phase_2_4_stage_15/DRIVE/D33.pair-intake.md) is verified complete: required donor matches are unavailable for part of the original population, holding both exact paired variants. The curator has [authorized a separate supported-match variant](docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json), with its smaller population explicit and the original question left open; implementation is not yet dispatched. The [canonical rank successor](results/phase_2_4_stage_15/DRIVE/D12-rank-canonical.md) is verified complete and null. Scoped P7 still requires a compatible native word event.
 
@@ -21,7 +21,7 @@ source validation and remain invalid, without a scientific-negative conclusion.
 
 The GPU suggestion continuation has validated all 4,453 retained checkpoints.
 It waits for at least 7,424 MiB free GPU memory and the existing temperature limit;
-the 08:35 PDT check had 6,773 MiB free. No unrelated application was stopped.
+the 09:22 PDT check had 7,239 MiB free. No unrelated application was stopped.
 Only Gear 3 K remains authorized, conditional on D31 intake and known-answer
 readiness before Monday noon PDT; no paid batch is running. Full P7 census is
 superseded and will not resume this campaign. The [live index](results/phase_2_4_stage_15/DRIVE/INDEX.md)

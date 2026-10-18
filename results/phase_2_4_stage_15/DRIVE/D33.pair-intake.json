@@ -1,7 +1,7 @@
 {
   "at": "2026-10-18T08:41:29.593754-07:00",
   "card": "D33.pair-intake",
-  "decision_requested": "Separate supported-match comparison, with changed population explicit; original full-population question remains open. Awaiting curator response.",
+  "decision_requested": "Resolved: curator authorized separate supported-match comparison; original full-population question stays open.",
   "matching_policy": "Same session count and typed-token count, prompt agreement prioritized; only donor excess prefix trimmed at word boundaries, preserving existing sequence breaks",
   "method": "Exact original P6 row reconstruction; only earlier completed other-writer session metadata/token counts used for matching; no regression or outcome-based tuning",
   "primary_rows": 78602,
@@ -9,6 +9,7 @@
   "remaining": "Screen/current-session covariates, matched-history calibration, 200 within-writer permutations and paired writer-bootstrap scientific runner remain separate.",
   "scientific_result": false,
   "status": "input_audit_complete",
+  "supported_match_implementation": "Calibration and evaluation support frozen separately from completed input audit before fitting; both caches tune on identical retained original chronological calibration words; report exclusions and retain original own-history sensitivity. Not dispatched.",
   "variants": {
     "pair": {
       "disposition": "HOLD: exact history support absent; no row or own-history change authorized",

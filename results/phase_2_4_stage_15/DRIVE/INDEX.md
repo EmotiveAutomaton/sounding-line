@@ -10,7 +10,7 @@ failures still have one retry. No partial scientific scores are reported.
 
 | Card | Complete state or execution status | Evidence / next action |
 |---|---|---|
-| PMAP | recovery completion received; final inspection and write-through in progress | [Recovery](PMAP-recovery-launch.md); original preflight failure retained |
+| PMAP | verified complete; positive primary with biased reassignment and incomplete content controls | [Full channel table and reliability](PMAP.md); frozen rhythm contrast eligible, not yet run |
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
 | V4.c | full 110-world corrected split running after verified timing and native reuse admission | [Diagnostic](V4.c-saved-diagnostics.md), [pilot](V4.c-split-pilot.md); original null-world calibration required |
 | D33.pair / .pair2 | support audit verified complete; exact full-population comparisons held | [Missing donor support](D33.pair-intake.md); [separate supported-match implementation authorized](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json), not dispatched |

@@ -73,6 +73,14 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-PMAP primary', 0.0012194266844588611, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP session permutation', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP lean own minus fake', 0.02571899685042335, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP style own minus fake', 1.8475488490531418e-09, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP rhythm own minus fake numerical underflow', 0.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP revision own minus fake', 2.94927186396015e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP requests own minus fake', 0.07400315196779757, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
+    ('S15-DRIVE-PMAP length own minus fake', 0.00585292594567863, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PMAP.json'),
     ('S15-DRIVE-D20 embedding_observed', 1.8002316331536977e-16, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20.json'),
     ('S15-DRIVE-D20 embedding_outcome_control', 0.21904855853136973, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20.json'),
     ('S15-DRIVE-D20 lexical_observed', 3.071951480818095e-11, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20.json'),
