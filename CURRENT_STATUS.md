@@ -1,5 +1,14 @@
 # Current status
 
+## October 18: P7 cost validation
+
+Gear 2 remains authorized and Stage 15 open. The [two causal-batching pilots](results/phase_2_4_stage_15/DRIVE/P7-hybrid-pilot.md)
+are complete and independently verified; no scientific worker remains active.
+The full CPU reader needs actual long-context workload/cost coverage before
+admission. D30.s retains its saved pause and still requires two ranked successor
+dispatches. No GPU retry or paid batch was started. The finite calendar and
+watcher remain active; daily theory/TODO integration stays at 20:00 PDT.
+
 ## October 17 afternoon: amended Stage 15 rollout
 
 The [new packet and frozen wave](docs/design/stage-15/drive/README.md) are active.

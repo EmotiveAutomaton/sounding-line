@@ -2,11 +2,17 @@
 
 ## October 17 CPU cards
 
-`timing_p7_admitted` owns P7 dispatch, using the draft's prefix/cache helpers.
+`timing_p7_batched` and `timing_p7_hybrid` have separate verified pilot
+handlers. Both pass the fixed-input numerical gate and targeted native-runtime
+tests; uncached batching is slower on typed text. The hybrid retains the frozen
+scalar prefix cache between causal groups. Full corpus needs native-context
+work census and measured admission. [Complete comparisons](../../results/phase_2_4_stage_15/DRIVE/P7-hybrid-pilot.md).
+
+`timing_p7_admitted` owns the original P7 pilot, using the prefix/cache helpers.
 Thirteen targeted checks and the native CPU pilot pass complete source and
 numerical verification. Main configuration is refused: projected full cost
-exceeds admission. A separately tested exact-score batching implementation is
-next; the completed source and outputs stay frozen.
+exceeds admission. The separate batching comparisons above preserve these
+completed sources and outputs; corpus admission remains separate.
 [Pilot contract](../../docs/design/stage-15/drive/P7_EXECUTION_PILOT.md) ·
 [complete record](../../results/phase_2_4_stage_15/DRIVE/P7-pilot.md).
 

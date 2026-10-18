@@ -9,6 +9,21 @@ ran it.
 
 ---
 
+### OPS-S15-P7-BATCHING-1018 - causal batching validated; corpus cost still open
+
+**Question.** Can equivalent causal computation reduce the CPU reader's cost?
+**METHOD.** Compare every original pilot target under uncached and cache-preserving causal batching, retaining the same source prefixes, native tokens, float32 model and acceptance tolerance; independently reconstruct identities and fresh direct checks.
+**Found.** Both complete comparisons preserve the original losses within tolerance; uncached batching increases typed-text cost. **Means.** The cached implementation is numerically validated on this pilot, but full execution still needs cost coverage for long contexts absent from the pilot.
+
+The [uncached report](results/phase_2_4_stage_15/DRIVE/P7-batch-pilot.md) and
+[cached report](results/phase_2_4_stage_15/DRIVE/P7-hybrid-pilot.md) retain complete
+timing tables, numerical checks, source/output hashes and limitations. All
+24 targeted checks and both production fresh verifiers pass. Original outputs
+remain frozen; all new workers exited and released their counted CPU slots.
+No scientific verdict, multiplicity entry or family routing change follows.
+
+**Curator roll-up:** instrument validity · can shared causal computation reduce cost? · **Infrastructure** · both scoring implementations pass numerical comparison · corpus admission remains open · census full native-context work and bound its cost · public claim unchanged · curator decision required: No · detail above.
+
 ### OPS-S15-P7-PILOT-1018 - CPU scorer valid; full pass held on cost
 
 **Question.** Can the commissioned CPU reader score complete visible prefixes correctly and finish the full workload within its allowance?
@@ -20,7 +35,8 @@ The full [pilot report](results/phase_2_4_stage_15/DRIVE/P7-pilot.md) and
 numerical checks, timings, limitations and exact source/output hashes. The
 completed pilot is not completion of P7's corpus, D33 or D36. No hypothesis
 probability or family-state change follows. Native workers exited and released
-the counted slot. Exact-score batching is the next engineering prerequisite.
+the counted slot. The subsequent batching comparison above completes that
+engineering prerequisite; full-corpus context/cost coverage remains open.
 
 **Curator roll-up:** instrument validity · can the CPU reference be scored correctly within cost? · **Infrastructure** · pilot verifies, but full cost exceeds admission · consumer studies remain open · validate an exact-score cost reduction · public claim unchanged · curator decision required: No · detail above.
 

@@ -1,0 +1,109 @@
+{
+  "complete_sha256": "cd3b8c87da525dbfc09519788ec89326d8cef0449547d0790d06499c6f2d812e",
+  "d30_ranked_successor_credit": 0,
+  "family_count_change": false,
+  "fresh_verification": {
+    "all_original_target_losses_compared": true,
+    "fresh_direct_checks": 6,
+    "fresh_direct_max_error": 1.1444091796875e-05,
+    "main_admitted": false,
+    "max_token_error": 6.866455078125e-05,
+    "reconstructed_targets": 612,
+    "scientific_admission": false,
+    "verified": true
+  },
+  "instrument_only": true,
+  "limitation": "Same length-selected pilot; neither domain contains cropped targets. Domain-rate projection excludes source replay/verification and cannot admit the full corpus. Original model, precision, context, targets and tolerance unchanged.",
+  "main_admitted": false,
+  "native_identities": [
+    {
+      "created_ticks": 134367969611341212,
+      "exited": true,
+      "pid": 63024,
+      "record": "OWNER.json"
+    },
+    {
+      "created_ticks": 134367969616008651,
+      "exited": true,
+      "pid": 183556,
+      "record": "EXECUTE_CHILD.json"
+    },
+    {
+      "created_ticks": 134367969896333278,
+      "exited": true,
+      "pid": 71908,
+      "record": "VERIFY_CHILD.json"
+    }
+  ],
+  "original_timing": {
+    "excludes_final_verification": true,
+    "forward_tokens": 1402,
+    "includes_source_checks": true,
+    "model_load_seconds": 9.939633300004061,
+    "observed_scoring_seconds": {
+      "jester": 27.414152500103228,
+      "typed": 30.383685300010256
+    },
+    "pilot_only": true,
+    "projected_cpu_seconds": 46913.731648800596,
+    "projection_basis": "length-selected median typed session and longest joke; per-domain token-rate scaling; not a main admission"
+  },
+  "output_hashes": {
+    "ADMISSION.json": "5ccdbfa4e8430fe5af5efdb47c6344f78e887c0c08b6e97088a0d49eb509e03e",
+    "EXECUTE_CHILD.json": "a59493d173406f3c4e3585579b5d9258cc30798768fc8eba7376eaec04f354c3",
+    "OWNER.json": "5f08fe6ad7fd52dc6f4ea5f6d125149aec348279582c5a7cc38e578cd323ed3a",
+    "PLAN.json": "703432dc9d39bfe7a6bc141f0a1c989c3d4397784170c375cabde9016f47055f",
+    "RESULT.json": "dacaae56c46f6cccd6faf65fd77a02511ae86f6e3e97feb72859c4775f7b7edd",
+    "VERIFIED.json": "c9f0913e407e6a824c3c37ee273ffe6f416c450e5fdbfce663841f34dec3989c",
+    "VERIFY_CHILD.json": "a304025f54ad35a3853a2201054f1eb69c86d829f2bfa7a2de49f9d1f80aee25",
+    "output/BATCH_INDEX.json": "bfd7c8a51df3da15d42946278e30cdf3acada8049355985dc117464883c1b23e",
+    "output/BATCH_PRIMARY.json": "89129bf1cf22545d6dabe4921373515201e8b186c3f4c5f400e0c06fc5bcc275",
+    "output/BATCH_TIMING.json": "4a62359731e1ee4981c013c79c79294edd6d9b7b8dfd32f77b155f96a81f7894",
+    "output/BINDING.json": "b66f1e685050ee95476534d77bbc1af03f53ed8858dc7176cde70435ff746fc8",
+    "output/FIRST_TENTH.json": "3934ee2e544928a0684eae53078387c29ef45db3c959a2010c8342da4d483fe1",
+    "output/jester.json.gz": "a55f51d03b46d16dc82be3aa7f0ce0d2d946935c15f0b91fe844f5d4902a07af",
+    "output/jester.receipt.json": "b8115575e1af3ce72e714e1b74becbf9764d083f2f93211ab47c8171b5b33138",
+    "output/typed.json.gz": "83a06846b7f84ec8b21c1aaeb0527e6f6c03c4f6248ea00329bb782352f0abf2",
+    "output/typed.receipt.json": "d6b60178e7ae2664252d8b94b4fd040d5a4ce5fd965c629b44770bd0c107be63"
+  },
+  "output_hashes_checked": 16,
+  "plan_sha256": "703432dc9d39bfe7a6bc141f0a1c989c3d4397784170c375cabde9016f47055f",
+  "prior_attempts_retained": true,
+  "scientific_admission": false,
+  "slot_released": true,
+  "source_pins_checked": 107,
+  "status": "verified_complete_main_unadmitted",
+  "targeted_tests_passed": 12,
+  "targets": 612,
+  "timing": {
+    "by_domain": [
+      {
+        "cropped_targets": 0,
+        "domain": "typed",
+        "file": "typed.json.gz",
+        "forward_tokens": 502,
+        "forwards": 22,
+        "max_token_error": 6.771087646484375e-05,
+        "seconds": 9.478967799979728,
+        "sha256": "83a06846b7f84ec8b21c1aaeb0527e6f6c03c4f6248ea00329bb782352f0abf2",
+        "targets": 306
+      },
+      {
+        "cropped_targets": 0,
+        "domain": "jester",
+        "file": "jester.json.gz",
+        "forward_tokens": 320,
+        "forwards": 8,
+        "max_token_error": 6.866455078125e-05,
+        "seconds": 3.8497922999667935,
+        "sha256": "a55f51d03b46d16dc82be3aa7f0ce0d2d946935c15f0b91fe844f5d4902a07af",
+        "targets": 306
+      }
+    ],
+    "excludes_source_replay_and_verification": true,
+    "full_context_cost_coverage": false,
+    "main_admitted": false,
+    "model_load_seconds": 8.162033800035715,
+    "projected_scoring_seconds": 14430.64997439094
+  }
+}
