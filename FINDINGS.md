@@ -9,6 +9,27 @@ ran it.
 
 ---
 
+### S15-WEEK-D14-CANONICAL-1018
+
+**Hypothesis.** Suggestions departing from the preceding paragraph are dismissed or edited more often, after the original content and handling features are accounted for.
+**METHOD.** Authenticate the actual selected offers and fit the original equal-writer, session/menu-weighted linear probability slope, retaining writer intercepts, nuisance features and projection. Refit 2,000 writer bootstraps for both the primary and original within-writer drift shuffle; add 200 whole-menu outcome permutations within writer and included-offer count.
+**Found.** The corrected primary is marginal, the original drift shuffle is null, and the repeated outcome reference triggers its bias warning. **Means.** This descriptive comparison does not establish additional protection against topical departure, a causal set point, restoration or personal identification.
+
+The table reports probability change per unit paragraph-to-suggestion cosine distance across 61 writers, 1,399 sessions and 27,496 handled offers. Intervals are percentile 95% writer-bootstrap intervals; probabilities are descriptive two-sided normal-reference Wald approximations. The frozen marginal label means a positive point estimate with an interval crossing zero, not near statistical significance.
+
+| Complete comparison | Probability slope | 95% interval | Descriptive probability | State |
+|---|---:|---|---:|---|
+| Corrected primary | 0.01713435525 | [-0.09695308383, 0.1214392530] | 0.7648191114 | marginal |
+| Original within-writer drift shuffle on corrected rows | -0.005487837307 | [-0.07219818582, 0.06386964374] | 0.8758639102 | null |
+
+The 200 finite outcome-control fits have mean 0.02700282833 and sample standard deviation 0.05062664154. The mean exceeds the quarter-spread warning threshold. Whole-menu blocks preserve writer and included-offer count; constant/singleton blocks remain. No fake-writer identification claim applies, and no clean reference or causal interpretation follows. Both probabilities enter the diagnostic multiplicity ledger.
+
+The source repair changes 2,510 selected menus while retaining the original 16,711 supported menus and 144 exclusions. Frozen all-offer distances and menu-level nuisance features are reused; the selected offer and its seven offer covariates are corrected. These are human writing-process records read by exact reconstruction and frozen embeddings. The fixed rank-deficient nuisance fit explicitly checks identification of the target slope. All 4,000 bootstrap fits succeed.
+
+All 1,780 pins and 4,216 artifacts verify. Fresh-process source reconstruction and every fit replay pass; independently reconstructed saved summaries and point estimates agree. Exact workers exited and the lease was released. Original D14 remains source-held and preserved; the separate restoration extension is unrun. Theory/TODO/shared operational integration stays at 20:00 under the active batch policy. No new tests were harvested from this completion event.
+
+Curator roll-up: response to topical disturbance; are off-topic suggestions protected against more often?; **Narrows**; the corrected primary remains marginal with a biased outcome reference; project meaning: topical protection and its proposed mechanism remain unestablished; next engineering obligation: build canonical D2 and integrate the completed correction at the digest; public claim unchanged, causal set-point and identification claims forbidden; curator decision required: No; detail: [complete corrected comparison](results/phase_2_4_stage_15/DRIVE/D14-canonical.md).
+
 ### OPS-S15-WEEK-ROLLOUT-1018
 
 **Hypothesis.** The first corrected week wave can continue while the engine dependency is prepared.

@@ -1,8 +1,8 @@
 # October 16 drive: execution index
 
-[October18 live rollout and dependency handoff](WEEK_PROGRESS_20261018_1506.md): D32 executing, D14 in fresh replay, GPU reader advancing; remaining implementation is explicitly listed.
+[D14 canonical is verified complete](D14-canonical.md): marginal primary, null original drift shuffle and a biased repeated outcome reference. D32 and the GPU reader continue; canonical D2 is next to implement. The [15:06 rollout checkpoint](WEEK_PROGRESS_20261018_1506.md) retains its earlier observation and dependency handoff.
 
-October 18 week update: [D32 timing-pilot pause and validated telemetry recovery](D32-canonical-pilot-pause.md); the [complete pilot admits full D32 main, now running](D32-canonical-pilot.md). [D14 canonical validation and launch](D14-canonical-build.md) follow; no partial scores. [Finite extended calendar](WEEK_CALENDAR_20261018.md) is running.
+October 18 week update: [D32 timing-pilot pause and validated telemetry recovery](D32-canonical-pilot-pause.md); the [complete pilot admits full D32 main, now running](D32-canonical-pilot.md). [D14 canonical validation and launch](D14-canonical-build.md) preceded its completed landing. [Finite extended calendar](WEEK_CALENDAR_20261018.md) is running.
 
 ## October 18–25 week
 
@@ -16,7 +16,7 @@ implementations. The theory filing is preserved for the requested 20:00 digest.
 
 The [prospective week runtime](WEEK_RUNTIME_20261018.md) is verified on exact
 boundary tests and full native replay. D32's [canonical primary passes complete
-constructed validation](D32-canonical-build.md); its complete corpus timing pilot admits full main, now running. D14 canonical is also validated and running.
+constructed validation](D32-canonical-build.md); its complete corpus timing pilot admits full main, now running. D14 canonical is verified complete.
 
 ## October 18 implementation wave
 
