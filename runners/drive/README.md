@@ -1,5 +1,16 @@
 # October 16 drive runners
 
+## October 18 reviewed implementations
+
+`timing_events`, `menus_d12`, `timing_stopping` and `timing_stopping_timer`
+have complete source-verified production landings and known-answer controls.
+`menus_d2_bayes` adds the conditional hierarchical comparison with numerical,
+null and planted calibration before the observed fit. `events_d4` uses strictly
+earlier corrections to predict held-out menu choices. `events_d14_recovery`
+repairs parent-end metadata only, retains the original failure and reuses sealed
+extraction. `timing_closure` has held-out native instrument admission; lexical
+false positives remain explicit. Exact live states are in the [evidence index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md).
+
 ## October 17 CPU cards
 
 `timing_p7_work_census` reconstructs native context/cache work without inference.
@@ -23,10 +34,8 @@ completed sources and outputs; corpus admission remains separate.
 
 D30.s is implemented in the timing_d30_specification module. Eleven targeted
 checks, including actual counted-runtime smoke and fresh-process replay, pass.
-Its live attempt saved at the forecast-yield boundary; source pins and partial
-draws verify, workers exited and its slot released. Two ranked successor
-dispatches are required before measured continuation. No scientific result
-is available. [Contract](../../docs/design/stage-15/drive/D30_SPECIFICATION.md) ·
+Its measured continuation is verified complete after the required successor
+rotation, retaining saved draws and the original cumulative cap. [Contract](../../docs/design/stage-15/drive/D30_SPECIFICATION.md) ·
 [operational receipt](../../results/phase_2_4_stage_15/DRIVE/D30.s.md).
 
 The D32 examination consumer completes its single registered extension on frozen
@@ -67,7 +76,7 @@ saved boundaries and verify results from original source-derived occurrences.
 `timing_d30_outcome` adds the required daily outcome permutation in an isolated
 module. Eight targeted checks, whole production replay and independent full-matrix
 least squares pass; the marginal control does not trigger the daily positive flag.
-Original D30 code/results remain frozen and whole-day coverage still awaits D32.
+Original D30 code/results remain frozen; D32 has also completed its outcome control.
 `events_d35` excludes all recipient copies from resampled donors and rebuilds its
 metrics in a fresh process. Each passed twelve targeted checks before dispatch;
 both completed primaries are verified. Their code and inputs remain frozen.

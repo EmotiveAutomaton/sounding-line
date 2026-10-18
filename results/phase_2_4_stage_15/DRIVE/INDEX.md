@@ -1,6 +1,6 @@
 # October 16 drive: execution index
 
-## October 17 wave 1
+## October 18 implementation wave
 
 The [ratified amendment](../../../docs/design/stage-15/drive/README.md) is active.
 V4 calibration is verified complete with a failed null check; D32 is verified complete with a marginal primary and marginal outcome shuffle; its single examination extension is verified null. D17 is invalid after its permitted engineering retry failed; no primary result exists. The GPU
@@ -12,6 +12,14 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 
 | Card | Complete state or execution status | Evidence / next action |
 |---|---|---|
+| D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
+| D12 | primary verified null; conditional extension closed | [Complete report](D12.md); raw score semantics unresolved |
+| D29 | primary and timer extension verified complete | [Length](D29.md), [timer](D29-timer.md); timer diagnostics invalid, no internal-target admission |
+| D14 pilot | original failed; single tested schema-only retry dispatched | Seven sealed extraction checkpoints reused, prior time charged; no population verdict |
+| D4 | native CPU dispatch running | Earlier correction directions and held-out conditional choices |
+| D24 | native instrument pilot verified; main dispatched | [Instrument validation and limits](D24-pilot.md); whole comparison pending |
+| D15 / V3 | tested, frozen; owner dispatch pending | V3 requires completed D15 |
+| D28 | tested and frozen; native smoke pending | Frozen hover transitions and content, no new inference |
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
 | V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 taste/habit lens blind |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
@@ -21,13 +29,13 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P1 suggestion pass | invalid, incomplete; engineering retry exhausted | [Second memory-safety failure](SUGGESTION_MAIN_V5_FAILED.md); saved checkpoints intact, dependent comparisons blocked |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
-| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is built and paused at forecast yield; .p/.r need implementation |
-| D30.s | built, tested and paused at forecast yield; no scientific result | [Retained checkpoint and next steps](D30.s.md); dispatch two ranked successors before measured continuation |
+| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p feasibility is built/tested, .r metadata preflight built with actual mapping gap |
+| D30.s | verified complete; positive paired specification median | [Complete texture](D30.s.md); original positive writer-control warning persists |
 | D30 daily outcome shuffle | verified complete; marginal, no positive failure flag | [Complete required control](D30-outcome-shuffle.md); D32 outcome shuffle now complete and marginal; other control failures still limit interpretation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
-| D2 | verified complete; primary marginal with positive uniform-choice control | [Complete report](D2.md); single hierarchical extension needs implementation; V4 taste/habit lens blind |
+| D2 | verified complete; primary marginal with positive uniform-choice control | [Complete report](D2.md); single hierarchical extension is running; V4 taste/habit lens blind |
 | D17 | invalid; engineering retry exhausted | [Both failures and retained evidence](D17.md); no primary result, no family-null increment, conditional extension closed |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); [single examination extension](D32-examination.md) verified null; no attention/preference admission |
@@ -36,16 +44,16 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P7 | original and two batching pilots verified; full work census saved at forecast yield; main unadmitted | [Original](P7-pilot.md), [uncached](P7-batch-pilot.md), [cached](P7-hybrid-pilot.md), [census pause](P7-work-census.md); D33/D36 unfinished |
 | P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
-Family resolved-prefix null counts: K 0, B 2, A 1, G 2, E 0, R 0, S 0, P 0.
+Family resolved-prefix null counts: K 0, B 2, A 2, G 2, E 0, R 1, S 0, P 0.
 D33's positive primary resets A after D35; the already-landed D39 null then gives
-one. D33's single extension and required texture remain unfinished. No family stops.
+one; D23's null extension adds the second, with invalid D17 excluded. D33's single extension and required texture remain unfinished. No family stops.
 V4 labels: **the lens is blind to taste at every tested size** and **the lens is
 blind to habit at every tested size**. Its false-positive gate fails; interpret
 writer-level taste/habit nulls and any later family stop as instrument-limited.
 These labels do not replace the separate controls on direct process-record cards.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 D32's null examination extension resolves its marginal parent as one routing null; D6 then adds a second. D2's extension is the next unresolved B entry.
-D2's primary is complete; its single conditional hierarchical extension needs implementation. D31 needs intake and admitted labels; D14 and later ranked cards remain unbuilt.
+D2's primary is complete and its single conditional hierarchical extension is running. D31 needs verified intake and admitted labels. Additional ranked cards are still being implemented; the packet is not fully built.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
@@ -122,9 +130,9 @@ runner exists. Dependencies are necessary inputs, not evidence of admission.
 | 4 | D27: What the page retains | registered not built | P1, P2 |
 | 5 | D6: Position and exposure | registered not built | P2 |
 | 6 | D16: Writer verification from process | registered not built | P2, D17, D15, V3 |
-| 7 | D23: Exploration across experience | registered not built | P1, P2 |
+| 7 | D23: Exploration across experience | non-reader primary verified marginal; extension eligible | [D23](D23.md); reader half awaits P1 |
 | 8 | D14: Protected variables and restoration | registered not built | P2, P3 |
-| 9 | D12: Model-probability departures | registered not built | P1 |
+| 9 | D12: Model-probability departures | logged-score primary verified null; conditional extension closed | [D12](D12.md) |
 | 10 | D29: Stopping and thresholds | registered not built | P2 |
 | 11 | D13: Surprisal and decision effort | registered not built | P1, P2 |
 | 12 | D24: Closure around task threshold | registered not built | P2 |

@@ -1,9 +1,14 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 18:** The frozen closure composite passes held-out ending/incomplete
+known answers and native uncached replay. A misleading midstory cue remains a
+false-positive limitation; this is no intention or need-state validation.
+[Complete pilot](../results/phase_2_4_stage_15/DRIVE/D24-pilot.md).
+
 **October 18:** D30.s's paired specification-curve implementation passes eleven
 targeted checks, including exact known answers, independent least squares,
-resume/reentry and actual counted-runtime smoke. Its production attempt paused
-at the forecast-yield boundary; scientific verification is unfinished.
+resume/reentry and actual counted-runtime smoke. Its measured continuation is now independently verified complete, with saved
+work and the original total cap preserved.
 [Contract](design/stage-15/drive/D30_SPECIFICATION.md) ·
 [retained execution](../results/phase_2_4_stage_15/DRIVE/D30.s.md).
 
@@ -3793,7 +3798,7 @@ Both real source-preparation jobs and all twelve broad-generation package/popula
 
 | Actual nested-service final audit | Original service bytes and wire requests through a fresh final-ledger process | Eleven-job CPU rehearsal and independent reconstruction pass; old missing compilation proof and failed commits remain explicit. All reentries preserve bytes (OPS-S9-CLOSURE-1). |
 
-| Full nested-service regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 748 tests expected across 138 files; last full715/137/21. Native owner and child are live. All354sourcefiles and138testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
+| Full nested-service regression liveness | Original source/test archive, native owners, watcher | The full CPU suite is running with 748 tests expected across 138 files; last full715/137/21. Native owner and child are live. All354sourcefiles and 138testfiles remain frozen until final inspection. Full scientific closure remains separate (OPS-S9-CLOSURE-1). |
 
 | Repaired compiled-service wake inspection | Both original and repaired queue/source/nested compilation/capsule/request/readout/checkpoint records | Original refused completions and later accepted commits verify without model/tokenizer reruns. Historical base/long-source audits remain separately attributed (OPS-S9-EXECUTION-1). |
 
@@ -4107,7 +4112,7 @@ Both real source-preparation jobs and all twelve broad-generation package/popula
 
 | Explicit evidence-view execution validation | Requested comparator views, matched controls and failed-route isolation | 1280 checks/155 files/21 locks independently pass. The process-record route can be assigned separately; actual rehearsal and scientific acceptance remain distinct (OPS-S9-LAUNCH-1). |
 
-| Maker/accumulation workload assignment | Complete record-only differentiated comparison and independent ordinary view grid | Eleven commands,36 record and130 ordinary-view contrasts verify in the586-command order. Full development rival menu and original failed-artifact ceiling retained; no science executed (OPS-S9-LAUNCH-1). |
+| Maker/accumulation workload assignment | Complete record-only differentiated comparison and independent ordinary view grid | Eleven commands,36 record and 130 ordinary-view contrasts verify in the586-command order. Full development rival menu and original failed-artifact ceiling retained; no science executed (OPS-S9-LAUNCH-1). |
 
 | Complete-ancestry queue cost census | Preserve original baseline and every cumulative delta | Two queues add12 unique CPU attempts;94 queues/743 attempts independently reconcile. GPU reservation is unchanged; other preparation scopes and final forecast remain separate (OPS-S9-CLOSURE-1). |
 

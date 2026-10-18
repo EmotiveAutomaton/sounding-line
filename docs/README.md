@@ -1,5 +1,10 @@
 # Documentation - current authority, methods and history
 
+**October 18:** The [reviewed implementation wave](design/stage-15/drive/BATCH_PLAN_20261018_W2.md) is running; [current status](../CURRENT_STATUS.md) and the
+[evidence index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) show native dispatches,
+completed landings and remaining implementation. The dated records below retain
+the earlier scope.
+
 **October 17:** the [Stage 15 drive amendment](design/stage-15/drive/README.md)
 continues with D32. [V4 calibration is complete](../results/phase_2_4_stage_15/DRIVE/V4.md)
 and fails the null check; no personal taste/habit admission follows. The [D17 pause card](../results/phase_2_4_stage_15/DRIVE/D17.md) is invalid after its second engineering failure; no scientific negative follows. The [GPU recovery stopped](../results/phase_2_4_stage_15/DRIVE/SUGGESTION_MAIN_V5_FAILED.md) at the unchanged memory guard and has exhausted its retry. The [theory errata](design/archive/THEORY_ERRATA_20261017_APPLIED.json)

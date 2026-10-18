@@ -1,6 +1,34 @@
 # Current status
 
-## October 18: recorded results, unfinished queue
+## October 18: implementation wave running
+
+Gear 2 is active. D2's hierarchical extension, D4's correction-choice comparison,
+D14's single repaired execution pilot and D24's admitted closure comparison have
+native dispatches and immediate terminal monitoring. Four counted CPU slots are
+available under the ratified limits; a dispatch is not a completed result.
+
+Five newly completed comparisons are fully recorded: D12, D23, its single
+extension, D29 and D30.s. D29's timer extension and D24's native instrument pilot
+are also verified and recorded, with their control limitations explicit in the
+[evidence index](results/phase_2_4_stage_15/DRIVE/INDEX.md). D30.s reused all saved
+work and retained its original cumulative cap. D14's first failure is preserved;
+the tested schema repair reuses seven extraction checkpoints and charges prior
+time. It changes no scientific input, contrast or tolerance.
+
+D15/V3, D28 and the D30 second-pipeline feasibility pilot have tested runners
+awaiting owner dispatch as slots open. The second-dataset intake identifies a
+real section/author metadata gap; it does not invent the missing mappings.
+Additional commissioned cards are still being implemented. P7 full scoring
+needs a cost-feasible continuation, and D31 needs verified novel intake and
+admitted labels. The packet is not fully built or finished.
+
+The GPU suggestion pass and D17 remain invalid with retries exhausted. No paid
+batch is active. The [latest inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_W2.json)
+records evidence integrity, native ownership, resources and watcher delivery.
+Theory/TODO integrate at 20:00 PDT; the six-hour health clock stays independent.
+The dated snapshots below are retained history.
+
+## Earlier October 18: recorded results, unfinished queue
 
 Gear 2 remains authorized and Stage 15 open. The [two causal-batching pilots](results/phase_2_4_stage_15/DRIVE/P7-hybrid-pilot.md)
 are complete and independently verified. The new [full native-work census](results/phase_2_4_stage_15/DRIVE/P7-work-census.md)

@@ -8,7 +8,7 @@ digest had incomplete control coverage; D30 and D32 now fill the missing outcome
 controls, with marginal results and other control limitations retained below.
 
 [D30](D30.md), its [frozen extension](D30-extension.md), and [D35](D35.md)
-are verified complete. [D30.s specification texture](D30.s.md) is built and tested; its live run saved at the forecast-yield boundary and awaits two ranked successor dispatches. No scientific result is available from it. D30's positive extension has a positive writer-shuffle
+are verified complete. [D30.s specification texture](D30.s.md) is independently verified complete after saved-work continuation under its unchanged cap. D30's positive extension has a positive writer-shuffle
 control; D35 is null. [D32](D32.md) is verified complete after its measured continuation, with the
 previous work and cost retained. Its primary and outcome shuffle are marginal;
 the [registered examination extension](D32-examination.md) is verified complete with a null primary.
@@ -28,7 +28,7 @@ admission remain before main; neither pilot covers left-cropped targets.
 
 [P7 native-work census](P7-work-census.md) passed targeted validation and saved
 at the forecast-yield boundary. The corpus remains unfinished; no model forwards
-or scientific scores were produced. No scientific worker is currently active.
+or scientific scores were produced. Current CPU dispatches and tested successors are listed in the [live index](INDEX.md).
 
 **Current execution:** [the full suggestion pass is invalid after its second
 GPU-safety failure](SUGGESTION_MAIN_V5_FAILED.md). Every saved checkpoint
@@ -41,13 +41,20 @@ typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 [D2](D2.md) is verified complete after one exact-score replay repair. Its primary
 is marginal and its uniform-choice control is positive; the conditional hierarchical
-extension needs implementation, with V4's blind taste/habit label retained.
+extension is now running, with V4's blind taste/habit label retained.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
 [paired precision](SMOL_PRECISION_V1.md), [original numerical failure](SUGGESTION_PILOT_V1_FAILED.md),
 [checkpoint failure/repair](SUGGESTION_PILOT_V2_FAILED.md),
 [valid pilot held by runtime](SUGGESTION_PILOT_V3.md), and
 [direct telemetry validation](GPU_TELEMETRY_V1.md). Original evidence is retained.
+
+[D12](D12.md), [D23](D23.md), [D23 extension](D23-extension.md), [D29](D29.md) and
+[D29 timer](D29-timer.md) are independently verified and recorded. The timer
+comparison retains invalid diagnostics, without a clean-control claim.
+[D24's native instrument pilot](D24-pilot.md) admits its fixed main comparison;
+semantic specificity remains limited. D4 and the single D14 schema repair also
+have native dispatches.
 
 [Commission and amendments](../../../docs/design/stage-15/drive/README.md).
 [Current card index](INDEX.md) distinguishes completed, running, queued and

@@ -8,6 +8,12 @@ Stage 15. Three builders prepare separate cards; the owner alone dispatches,
 lands and publishes. Four counted CPU slots allow two threads each at below-normal
 priority with shared leases respected; the full GPU suggestion pass later exhausted its retry.
 
+[October 18 reviewed wave](BATCH_PLAN_20261018_W2.md) and its
+[continuations](BATCH_PLAN_20261018_W2_CONTINUED.md) record the next frozen
+implementations. D12/D23, D23 extension, D29/timer and D30.s have completed
+landings; D24 native instrument admission is recorded. Current native dispatches
+and tested successors are in the evidence index below.
+
 [Dispatch bindings](DISPATCH_20261017.json) distinguish frozen executable cards
 from the unbuilt remainder. [Live evidence index](../../../../results/phase_2_4_stage_15/DRIVE/INDEX.md)
 records completed instruments and actual successors. The [October 17 theory
@@ -35,8 +41,8 @@ cost coverage; batching is now validated on that pilot. The D33
 extension and D36 consumer remain unfinished.
 
 [D30.s specification texture](D30_SPECIFICATION.md) is tested and frozen. Its
-live attempt paused at a saved forecast boundary; two ranked successors must be
-dispatched before measured continuation. No scientific result is available.
+measured continuation is now independently verified complete, preserving saved
+work and the original cumulative cap after the two ranked successor dispatches.
 Completed TC/V5/P8, P4 primary and its single extension do not complete the packet.
 [D2's primary](D2_PRIMARY.md) now has a tested, frozen executable dispatch;
 its conditional hierarchical extension is separate.

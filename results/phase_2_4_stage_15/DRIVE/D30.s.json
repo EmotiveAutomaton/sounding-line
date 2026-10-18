@@ -1,35 +1,85 @@
 {
-  "actual_counted_runtime_smoke_passed": true,
-  "all_saved_checkpoint_hashes_match": true,
-  "all_source_pins_match": true,
-  "artifact_type": "operational pause receipt; no scientific result",
   "card": "D30.s",
-  "checkpoint_blocks": 20,
-  "contract": "docs/design/stage-15/drive/D30_SPECIFICATION.md",
-  "counted_slot_released": true,
-  "counted_wall_seconds": 36.420576,
-  "first_tenth": {
-    "active_seconds": 31.84718320000684,
-    "forecast_cpu_seconds": 600,
-    "method": "Conservative 40 times preparation plus first tenth of paired bootstrap, covering permutations and fresh replay",
-    "projected_cpu_seconds": 1273.8873280002736
+  "completed_at": "2026-10-18T13:00:41.798931+00:00",
+  "descriptive": true,
+  "interval": "Paired writer bootstrap of the median of the two refitted coefficients; frozen marker labels",
+  "observations": 71038,
+  "original_control_warning": "Positive extension writer-label shuffle remains; no person-location or automaticity admission",
+  "primary": {
+    "bootstrap_draws": 2000,
+    "bootstrap_se": 0.05639017698436678,
+    "ci_high": 0.2162881608184065,
+    "ci_low": 0.0058157756173273425,
+    "effect": 0.10548358110159303,
+    "expected_direction": 1,
+    "null_95_interval": [
+      -0.05318181220914374,
+      0.05571294414638916
+    ],
+    "null_mean_effect": 0.00016175962167585745,
+    "null_median_effect": -0.000630267640820395,
+    "permutation_reference": "Raw log pauses permuted within writer, both designs held fixed; not a conditional causal test",
+    "permutations": 2000,
+    "state": "positive",
+    "upper_tail_permutation_p": 0.0004997501249375312
   },
-  "forecast_cpu_seconds": 600,
-  "native_controller_and_child_exited": true,
-  "original_attempt_unchanged": true,
-  "paused_sha256": "423eaf4fc146346776644ff7375676fd8aa1f24126cce0248fba0be3a5974d42",
-  "plan_sha256": "db4f0a1e8989f9899d17578a99b744dc85668d678655fd0ac6f951682c51fa61",
-  "prior_scientific_states_unchanged": true,
-  "reason": "first_tenth_projection_exceeds_twice_forecast",
-  "resume_requires": "Two next-ranked eligible cards dispatched before measured continuation; unchanged plan, saved draws and charged prior cost",
-  "retained_intermediates_sha256": "d70b2629aae2e3fedd21509ed7d24ae19e9f48916ff54c5ba3fa78b96033d68e",
-  "retained_paired_bootstrap_draws": 2000,
-  "retained_paired_permutations": 400,
+  "resume_admission": {
+    "at": "2026-10-18T12:58:58.392009+00:00",
+    "combined_wall_ceiling_seconds": 1800,
+    "forecast_seconds": 600,
+    "measured_combined_projection_seconds": 1273.8873280002736,
+    "pause_sha256": "423eaf4fc146346776644ff7375676fd8aa1f24126cce0248fba0be3a5974d42",
+    "plan_sha256": "da077d2d127c82d03ceedeac3f7f74163ffab9b3f46036b8f522ceb509a30c7f",
+    "prior_wall_seconds_charged": 36.420576,
+    "remaining_wall_seconds": 1763,
+    "retained_file_count": 52,
+    "rule": "Two ranked eligible scientific dispatches completed; same science/checkpoints, original cumulative cap unchanged; remove only satisfied yield request from active copy.",
+    "saved_result_sha256": "45c03318593a0885f21328ca63693c7597c47f0df53615b4a9f0de1bdafc628c",
+    "scientific_admission": false,
+    "scientific_plan_sha256": "db4f0a1e8989f9899d17578a99b744dc85668d678655fd0ac6f951682c51fa61",
+    "status": "MEASURED_RESUME_ADMITTED",
+    "successors": {
+      "D12": {
+        "admission_sha256": "5fb45a95c2867529c9e3ebb3a3d0c7f966d985de0c6403f315283221f522f89e",
+        "admitted_at": "2026-10-18T12:47:03.783247+00:00",
+        "plan_sha256": "d77325707ddec7a9af371d4690d77545ec1b7534189c37d2c104cd73d62b6422"
+      },
+      "D23": {
+        "admission_sha256": "84f69791e4e39899d110494996dc04668c5a182a156ded1c8b46a119548dc940",
+        "admitted_at": "2026-10-18T12:46:51.857691+00:00",
+        "plan_sha256": "01a465404a3df028e7df0d5b19b0c1913c19fa675da9d131301af0b7d80e6892"
+      }
+    }
+  },
   "scientific_admission": false,
-  "scientific_result_available": false,
-  "source_attempt": "results/phase_2_4_stage_15/raw/drive-wave-20261017-w1/D30.s",
-  "source_pins": 39,
-  "status": "PAUSED",
-  "successor_review": "P7 draft reviewed; no frozen Jester input was located in the current build/attempt namespace. Main also needs durable per-session resume and explicit completed-source checks before dispatch.",
-  "validation_tests_passed": 11
+  "specifications": [
+    {
+      "ci_high": 0.221123554298957,
+      "ci_low": -0.0003715989812488155,
+      "effect": 0.10299815065353013,
+      "name": "original_adjustment",
+      "state": "marginal"
+    },
+    {
+      "ci_high": 0.21374451610729475,
+      "ci_low": 0.01170567889802504,
+      "effect": 0.10796901154965592,
+      "name": "plus_own_marker_count",
+      "state": "positive"
+    }
+  ],
+  "theory_todo_integration_due": "2026-10-18T20:00:00-07:00",
+  "timing_mode": "per_character",
+  "verification": {
+    "at": "2026-10-18T13:03:07.817341+00:00",
+    "complete_sha256": "560f5488e66a1ab9012fc6336911f3e968a5fb1a46d1e4a49a4eba8fda602998",
+    "completion_outputs": 54,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "da077d2d127c82d03ceedeac3f7f74163ffab9b3f46036b8f522ceb509a30c7f",
+    "source_pins": 100,
+    "summary_sha256": "a4bd554deb50eec505f1b84f99dc7572b1974eb58490dc703c265873a19d4078"
+  },
+  "writers": 30
 }

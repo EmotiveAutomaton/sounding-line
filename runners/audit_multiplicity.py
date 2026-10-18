@@ -73,6 +73,21 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-W2 D29 timer primary', 2.0280909814542697e-07, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D29-timer.json'),
+    ('S15-DRIVE-W2 D30.s upper-tail outcome permutation', 0.0004997501249375312, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.s.json'),
+    ('S15-DRIVE-W2 D29 Primary', 7.057265942241612e-198, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D29.json'),
+    ('S15-DRIVE-W2 D29 Shuffled writer identity', 0.1426270790945638, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D29.json'),
+    ('S15-DRIVE-W2 D29 writer permutation', 0.0004997501249375312, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D29.json'),
+    ('S15-DRIVE-W2 D23 extension Primary', 0.05826058832269171, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D23-extension.json'),
+    ('S15-DRIVE-W2 D23 extension Within-writer request shuffle', 0.851356348017626, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D23-extension.json'),
+    ('S15-DRIVE-W2 D12 primary', 0.9419669294163113, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D12 above_point_three', 0.1554827717041583, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D12 accept_reliability', 1.1052973621359818e-21, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D12 reliability_minus_accept', 0.001163712812768165, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D12 uniform_control', 0.5090013237539022, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D12 writer permutation', 0.8811188811188811, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D12.json'),
+    ('S15-DRIVE-W2 D23 primary', 0.8534167826400598, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D23.json'),
+    ('S15-DRIVE-W2 D23 request shuffle', 0.8569952522465586, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D23.json'),
     ('S15-DRIVE-W1 D32 examination primary', 0.185133022794072, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
     ('S15-DRIVE-W1 D32 examination default_argumentative_short', 0.21104011254973143, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),
     ('S15-DRIVE-W1 D32 examination explicit_targets_short', 0.17421616539606316, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-examination.json'),

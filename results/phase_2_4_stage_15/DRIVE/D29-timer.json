@@ -1,0 +1,76 @@
+{
+  "assumption": "The 660-900 second density extrapolates linearly to 600-660 seconds absent timer bunching; no internal-target identification",
+  "bootstrap_draws": 2000,
+  "bootstrap_se": 0.050995081233954916,
+  "card": "D29",
+  "ci_high": 0.36685885345102187,
+  "ci_low": 0.1683781380401739,
+  "contrast": "equal-writer excess duration mass in [600,660) over a linear right-side baseline from [660,900)",
+  "controls": {
+    "within_writer_duration_bin_shuffle": {
+      "predicted_first_two_bin_masses": [
+        0.04338972841259296,
+        0.04736647376873003
+      ],
+      "reason": "negative or undefined extrapolated counterfactual bin mass",
+      "state": "invalid",
+      "writers": 61
+    }
+  },
+  "descriptive": true,
+  "diagnostics": {
+    "bin_width_seconds": 30,
+    "cutoff_seconds": 600,
+    "fit_bins": [
+      660,
+      690,
+      720,
+      750,
+      780,
+      810,
+      840,
+      870
+    ],
+    "shifted_cutoff_780_diagnostic": {
+      "predicted_first_two_bin_masses": [
+        0.015997718219868562,
+        0.015005033136126188
+      ],
+      "reason": "negative or undefined extrapolated counterfactual bin mass",
+      "state": "invalid",
+      "writers": 61
+    },
+    "target_bins": [
+      600,
+      630
+    ]
+  },
+  "duration_definition": "P2 last logged event minus first logged event; not inferred finish-button time",
+  "effect": 0.26500839412161487,
+  "expected_direction": 1,
+  "extension": true,
+  "interval": "whole-writer percentile bootstrap; linear right-side baseline refit by equivalent sufficient statistics",
+  "observed_first_two_bin_mass": 0.4082845162025803,
+  "p_reference": "approximate two-sided normal Wald; descriptive; state remains percentile-CI based",
+  "predicted_first_two_bin_masses": [
+    0.07583993244287268,
+    0.06743618963809282
+  ],
+  "seed": 20261017,
+  "state": "positive",
+  "verification": {
+    "at": "2026-10-18T13:21:20.714581+00:00",
+    "complete_sha256": "9fefbac31c226e94b25bb92745eb3db6a63adaae1927e4c93db963b9975612d6",
+    "completion_outputs": 1414,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "57fb41de17b64b3390c5bd900df8ab8bafff6c5a6d5606cf1f2cee7ae27f2380",
+    "source_pins": 37,
+    "summary_sha256": "9056c86ef84df3703f5198602ea864c9030203dd5da0edbe43fb28872aa0934f"
+  },
+  "wald_p_two_sided": 2.0280909814542697e-07,
+  "weighting": "Each writer equal; each bin count divided by all that writer's sessions, including sessions outside the displayed window",
+  "writers": 61,
+  "z": 5.196744229228913
+}

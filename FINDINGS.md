@@ -9,6 +9,150 @@ ran it.
 
 ---
 
+### S15-DRIVE-W2-1018 - familiarity and model-departure cards
+
+**Hypothesis.** Writers may request fewer alternatives after becoming familiar with a prompt.
+**METHOD.** Compare first-session and repeat-session requests per 100 final nonprompt words within each writer and prompt, average equally across writers, and use 2,000 writer-bootstrap draws plus a within-writer request shuffle.
+**Found.** The predicted difference is marginal: its interval includes zero. **Means.** This contrast does not establish reduced exploration with familiarity and leaves the single registered session-order extension eligible.
+
+The table shows first minus repeat requests per 100 final nonprompt words,
+averaged equally across 37 writers with repeat support. Intervals are percentile
+writer-bootstrap 95% intervals; probabilities are descriptive two-sided Wald
+approximations. A positive primary is the predicted direction.
+
+| Complete comparison | Difference | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Primary | +0.025116 | [-0.234381, +0.293449] | 0.85341678 | marginal |
+| Within-writer request shuffle | -0.024102 | [-0.302567, +0.230307] | 0.85699525 | null |
+
+**Hypothesis.** A writer may consistently choose suggestions that depart from the model's highest-scored option.
+**METHOD.** Standardize each logged producer score within its menu, average selected scores within odd and even chronological sessions, and correlate those averages across writers, with 2,000 writer-bootstrap draws and fixed uniform-choice and writer-permutation controls.
+**Found.** The primary split-half correlation is null. **Means.** This raw-score representation does not establish a stable personal departure from the model's favorite; it does not test every possible preference representation.
+
+The table shows Pearson correlations, or their stated differences, across the same
+53 eligible writers. Intervals are percentile writer-bootstrap 95% intervals;
+probabilities are descriptive two-sided normal-reference approximations.
+
+| Complete comparison | Estimate | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| primary | -0.016206 | [-0.423315, +0.399750] | 0.94196693 | null |
+| above point three | -0.316206 | [-0.723315, +0.099750] | 0.15548277 | null |
+| accept reliability | +0.780262 | [+0.591884, +0.901492] | 1.1052974e-21 | positive |
+| reliability minus accept | -0.796468 | [-1.251994, -0.339022] | 0.0011637128 | negative |
+| uniform control | -0.142836 | [-0.471820, +0.354216] | 0.50900132 | null |
+
+The [D23 report](results/phase_2_4_stage_15/DRIVE/D23.md) and
+[D12 report](results/phase_2_4_stage_15/DRIVE/D12.md) retain source definitions,
+all controls, exclusions, pooled descriptive counts, verification and routing.
+D12's writer-permutation probability is 0.88111888.
+Every quoted probability enters the descriptive multiplicity ledger. V4's blind
+taste/habit lens and earlier positive controls remain unchanged. D23's single
+extension is eligible; D12's conditional extension is closed. Theory/TODO are
+queued for the 20:00 digest, under the ratified batch-reporting policy.
+
+Curator roll-up: attention and exploration; does familiarity reduce requests?; **Narrows**; the first/repeat contrast is marginal; project meaning: play is unestablished by this proxy; next engineering obligation: run frozen session-order extension; public claim unchanged; curator decision required: No; detail: D23.md/json.
+
+Curator roll-up: reader departures; are choices relative to the producer's favorite stable within writer?; **Narrows**; split-half departure reliability is null; project meaning: this score is not established as a personal feature; next engineering obligation: continue ranked independent cards; public claim unchanged; curator decision required: No; detail: D12.md/json.
+
+#### D30.s
+
+**Hypothesis.** The association between locally unusual wording and longer pauses may persist across both registered adjustment sets.
+**METHOD.** Refit the original and own-marker-count models on identical occurrences, take their median coefficient, and use 2,000 paired writer bootstraps and 2,000 within-writer outcome permutations.
+**Found.** The median specification contrast is positive. **Means.** This association survives the two specified adjustments, while the original positive writer-label control still prevents identifying person location or automaticity.
+
+The table reports signed coefficients on log pause duration for locally unusual
+versus pervasive markers, with paired-writer percentile 95% intervals.
+
+| Complete specification | Estimate | 95% interval | State |
+|---|---:|---|---|
+| Median of both | +0.105484 | [+0.005816, +0.216288] | positive |
+| original adjustment | +0.102998 | [-0.000372, +0.221124] | marginal |
+| plus own marker count | +0.107969 | [+0.011706, +0.213745] | positive |
+
+[Full source, limitations and verification](results/phase_2_4_stage_15/DRIVE/D30.s.md).
+
+Curator roll-up: pervasive choices; does the pause association survive both adjustments?; **Narrows**; the paired specification median is positive; project meaning: association retains the writer-shuffle warning; next engineering obligation: second pipeline and dataset texture; public claim unchanged; curator decision required: No; detail: D30.s.md/json.
+
+#### D29
+
+**Hypothesis.** Writers may stop at lengths that remain consistent across their sessions.
+**METHOD.** Correlate each writer's mean final nonprompt word count in odd and even chronological sessions, using 2,000 complete-writer bootstrap draws and a fixed writer-label shuffle and permutation reference.
+**Found.** Split-half stopping-length reliability is positive. **Means.** Final length is stable in this corpus, but stability alone does not establish an internal target or distinguish task constraints and personal habits.
+
+The table reports Pearson correlations across 53 paired writers. Intervals are
+writer-bootstrap percentile 95% intervals; probabilities are descriptive Wald
+approximations. The reference shuffles even-half writer identities.
+
+| Complete comparison | Correlation | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Primary | +0.908123 | [+0.839516, +0.958549] | 7.0572659e-198 | positive |
+| Shuffled writer identity | +0.191480 | [-0.048496, +0.459915] | 0.14262708 | marginal |
+
+[Full source, limitations and verification](results/phase_2_4_stage_15/DRIVE/D29.md).
+
+Curator roll-up: hidden goals and stopping; do writers end at consistent lengths?; **Strengthens**; stopping length is repeatable across sessions; project meaning: a candidate stable feature, not an internal-target identification; next engineering obligation: registered timer extension and controlled texture; public claim unchanged; curator decision required: No; detail: D29.md/json.
+
+#### D23-extension
+
+**Hypothesis.** Writers may request fewer alternatives as their session experience accumulates.
+**METHOD.** Regress requests per 100 final nonprompt words on negative chronological session order and prompt novelty, with writer fixed effects and 2,000 writer-cluster refits; retain the within-writer request shuffle.
+**Found.** The single registered extension is null in the predicted decline direction. **Means.** This comparison does not establish familiarity-driven decline and closes this extension route.
+
+The table reports the decline in requests per 100 final nonprompt words per
+additional session. Positive is the predicted direction. Intervals are
+writer-cluster percentile 95% intervals; probabilities are descriptive Wald
+approximations.
+
+| Complete comparison | Decline coefficient | 95% interval | Probability | State |
+|---|---:|---|---:|---|
+| Primary | -0.015306 | [-0.029118, +0.002654] | 0.058260588 | null |
+| Within-writer request shuffle | +0.000360 | [-0.003126, +0.004464] | 0.85135635 | marginal |
+
+[Full source, limitations and verification](results/phase_2_4_stage_15/DRIVE/D23-extension.md).
+
+Curator roll-up: attention and exploration; do requests decline with session experience?; **Narrows**; the session-order extension is null; project meaning: no familiarity decline established by these proxies; next engineering obligation: continue other ranked cards; public claim unchanged; curator decision required: No; detail: D23-extension.md/json.
+
+#### D29 timer extension
+
+**Hypothesis.** Sessions may end unusually often just after the task's ten-minute minimum.
+**METHOD.** Compare equal-writer duration mass from 600 to 660 seconds with a fixed linear extrapolation from 660 to 900 seconds, using 30-second bins and 2,000 writer bootstraps; retain the fixed duration-bin shuffle and shifted-cutoff diagnostic.
+**Found.** The primary bunching contrast is positive, but both diagnostics are invalid because their extrapolated bin masses become negative in resampling. **Means.** The observed bunching is conditional on the linear baseline and lacks a valid result from these controls; it does not identify an internal stopping target.
+
+The table shows excess session share, in percentage points, averaged equally
+over 61 writers. The interval is a writer-bootstrap percentile 95% interval.
+The probability is an approximate descriptive two-sided Wald reference.
+
+| Complete comparison | Excess, points | 95% interval, points | Probability | State |
+|---|---:|---|---:|---|
+| Ten-minute boundary | 26.5008 | [16.8378, 36.6859] | 2.02809098e-07 | positive |
+| Within-writer duration-bin shuffle | unavailable | unavailable | unavailable | invalid |
+| Shifted 780-second cutoff | unavailable | unavailable | unavailable | invalid |
+
+[Full method and verification](results/phase_2_4_stage_15/DRIVE/D29-timer.md).
+
+Curator roll-up: hidden goals and stopping · does the task boundary bunch session endings? · **Narrows** · positive primary has invalid diagnostics · baseline-dependent descriptive evidence only · retain required controlled texture · public claim unchanged · curator decision required: No · detail: D29-timer.md/json.
+
+### OPS-S15-D24-PILOT-1018 - closure instrument admitted for execution
+
+**Question.** Does the frozen closure measure distinguish held-out literal endings from matched incomplete passages and reproduce its scores?
+**METHOD.** Score twelve held-out endings and twelve matched incomplete passages with the fixed lexical/MiniLM composite, retaining cosine alone, anchor-self sanity, a misleading lexical example and uncached repeated-forward identity.
+**Found.** Both held-out directional checks pass and repeated scores match; the misleading midstory example still receives a high closure score. **Means.** The native instrument can run the registered comparison, but this small known-answer check does not establish semantic specificity, intention or a need-state measure.
+
+The table reports ending-minus-incomplete mean score differences. The composite
+equally weights lexical cues and rescaled anchor cosine; cosine is also separate.
+No hypothesis probabilities are computed for this instrument check.
+
+| Known-answer check | Difference or outcome |
+|---|---:|
+| Held-out composite | 0.22048332 |
+| Held-out cosine | 0.04859995 |
+| Uncached repeated forward | exact match |
+| Misleading midstory composite | 0.78420100 |
+
+[Full validation and limitations](results/phase_2_4_stage_15/DRIVE/D24-pilot.md).
+
+Curator roll-up: instrument validity · can literal closure be scored reproducibly? · **Infrastructure** · held-out directions and replay pass · main execution admitted, semantic specificity unproven · run frozen comparison and retain controls · public claim unchanged · curator decision required: No · detail: D24-pilot.md/json.
+
 ### OPS-S15-P7-BATCHING-1018 - causal batching validated; corpus cost still open
 
 **Question.** Can equivalent causal computation reduce the CPU reader's cost?
