@@ -41,7 +41,7 @@ typed/history preparation and other unbuilt cards remain open. No paid batch.
 
 [D2](D2.md) is verified complete after one exact-score replay repair. Its primary
 is marginal and its uniform-choice control is positive; the conditional hierarchical
-extension is now running, with V4's blind taste/habit label retained.
+extension is saved at its cost boundary, with V4's blind taste/habit label retained.
 
 Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
 [paired precision](SMOL_PRECISION_V1.md), [original numerical failure](SUGGESTION_PILOT_V1_FAILED.md),
@@ -53,8 +53,10 @@ Recovery history: [fixed memory pilot](READER_PILOT_V6.md),
 [D29 timer](D29-timer.md) are independently verified and recorded. The timer
 comparison retains invalid diagnostics, without a clean-control claim.
 [D24's native instrument pilot](D24-pilot.md) admits its fixed main comparison;
-semantic specificity remains limited. D4 and the single D14 schema repair also
-have native dispatches.
+semantic specificity remains limited; repaired main saved at a cost boundary.
+[D4](D4.md), [D14](D14.md), [D15](D15.md), [V3](V3.md), [D28](D28.md) and
+[D38](D38.md) have complete landings. [Continuation](WAVE2_CONTINUATION.md)
+records first failures, cost holds, dispatches and remaining implementation.
 
 [Commission and amendments](../../../docs/design/stage-15/drive/README.md).
 [Current card index](INDEX.md) distinguishes completed, running, queued and

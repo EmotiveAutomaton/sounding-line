@@ -1,0 +1,150 @@
+{
+  "arms": {
+    "outcome_control": {
+      "coarse_reliability": {
+        "ci95": [
+          0.11495592243448208,
+          0.603345869831591
+        ],
+        "draws": 2000,
+        "effect": 0.3524762697016398,
+        "p_approx": 0.004731905572998446,
+        "standard_error": 0.12478186323400105,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "fine_reliability": {
+        "ci95": [
+          0.5009564463951247,
+          0.7745141673161717
+        ],
+        "draws": 2000,
+        "effect": 0.6043971185183179,
+        "p_approx": 7.82970405259674e-20,
+        "standard_error": 0.06630421399328708,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "primary": {
+        "ci95": [
+          -0.028304188621214456,
+          0.5428216654674907
+        ],
+        "draws": 2000,
+        "effect": 0.2519208488166781,
+        "p_approx": 0.08368303102273172,
+        "standard_error": 0.14564383997675082,
+        "state": "marginal",
+        "undefined_draws": 0
+      },
+      "uncertainty": "Writer-node bootstrap conditional on the separately fitted half-models; all pairs of copies of one original writer excluded. Not full variance-component refit uncertainty.",
+      "unsupported_writer_count": 8,
+      "writers": 53
+    },
+    "primary": {
+      "coarse_reliability": {
+        "ci95": [
+          0.41620282343855936,
+          0.7795859147081607
+        ],
+        "draws": 2000,
+        "effect": 0.6221359396561567,
+        "p_approx": 1.1725743206915914e-11,
+        "standard_error": 0.0917124300083568,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "fine_reliability": {
+        "ci95": [
+          0.4999627020863171,
+          0.8344532119781267
+        ],
+        "draws": 2000,
+        "effect": 0.7022964591303923,
+        "p_approx": 6.982639114603184e-16,
+        "standard_error": 0.0870167189539106,
+        "state": "positive",
+        "undefined_draws": 0
+      },
+      "primary": {
+        "ci95": [
+          -0.03998906649305286,
+          0.1780823844814895
+        ],
+        "draws": 2000,
+        "effect": 0.08016051947423564,
+        "p_approx": 0.14628563954848528,
+        "standard_error": 0.055177437049177075,
+        "state": "marginal",
+        "undefined_draws": 0
+      },
+      "uncertainty": "Writer-node bootstrap conditional on the separately fitted half-models; all pairs of copies of one original writer excluded. Not full variance-component refit uncertainty.",
+      "unsupported_writer_count": 8,
+      "writers": 53
+    }
+  },
+  "card": "D15",
+  "config": {
+    "bootstrap": 2000,
+    "maximum_undefined_fraction": 0.05,
+    "minimum_writers": 4,
+    "seed": 20261018
+  },
+  "descriptive": true,
+  "fit_hashes": {
+    "outcome_control-0.json": "9e61592e23e69a150fce9a9c1c0febfdcbd2fad4deba2d8b5a7bfbc591fe0896",
+    "outcome_control-1.json": "12fd78869fac67df9363b3719093114927f0dc2638851f0b2007b3382bceda09",
+    "primary-0.json": "a66b347cab75e91a3d1680d7ea6e49b2957532737b96d9300b92cb56fcb47d13",
+    "primary-1.json": "96e496c3d12235da8b65ba16165e8abea35aaa867d9eeb1597c318e5e506475f"
+  },
+  "input_hashes": {
+    "foundation_complete": "941fc313d7f4f69baf3d5365b2d13243273bd03f2396f13b77431b74d30920da",
+    "foundation_plan": "ba3804e735543c89691c807134a60c8dba06b904206c5acb975f35200f07ccbd",
+    "p8": "6f6f72393e7c7a94ae38f92d17ab7a44df9d796a8c786e427bbc30cf17359efe",
+    "p8_complete": "673ef0fdb07d88bf1a3d3874e15fc834978f5749503496eb6eeb6134c3079709",
+    "session_index": "b53e82f90def6375a36208701e8e549378fe1406926084f482fd7787238c1297",
+    "sessions": "37398e735edeca45f23717f92cb19854082fe3ed028d277ac59235eb3bea76a3"
+  },
+  "model": "Trial-level crossed response-scale Gaussian second-moment model of four one-hot handling indicators; writer, prompt, exact decoding tuple and writer-by-prompt components; nonnegative least-squares moments, unconstrained diagnostics retained.",
+  "primary": {
+    "ci95": [
+      -0.03998906649305286,
+      0.1780823844814895
+    ],
+    "draws": 2000,
+    "effect": 0.08016051947423564,
+    "p_approx": 0.14628563954848528,
+    "standard_error": 0.055177437049177075,
+    "state": "marginal",
+    "undefined_draws": 0
+  },
+  "row_hash": "be66af0796e918a0be5c9717230a56dd3b9a170130f46f4b0824042a9728c026",
+  "scientific_admission": false,
+  "state": "marginal",
+  "support": {
+    "counts": {
+      "decisions": 16855,
+      "latency_observed_selection_or_close": 16719,
+      "latency_right_censored_at_next_menu_or_end": 136,
+      "missing_setting_decisions": 0
+    },
+    "pause_features": "D17 slow-mixture pause feature unavailable after its failed card; not replaced by API-wait-contaminated intervals.",
+    "prompt_count": 20,
+    "scope": "Over writers conditional on the exact observed prompt roster; missing decoding values are explicit tuple levels.",
+    "session_count": 1399,
+    "setting_count": 4
+  },
+  "support_hash": "cb04579c47fbe3aee209aa05d9164b70d6c6fa10920aeaef106230477c5ab90b",
+  "theory_todo_integration_due": "2026-10-18T20:00:00-07:00",
+  "verification": {
+    "at": "2026-10-18T13:37:36.665326+00:00",
+    "complete_sha256": "97f83ece75a749c5789fa3a09aa64f6d623ec9db99958cd2043306c0712a1f65",
+    "completion_outputs": 20,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "6ea4162d0795c2d115c60c59315a43ec0e09a7ec0105e350a6100aa7d273c2db",
+    "source_pins": 38,
+    "summary_sha256": "1f393b4bcb2277168d750071fcb65004055a827ec2659dce06c66822e69885f9"
+  }
+}

@@ -1,32 +1,27 @@
 # Current status
 
-## October 18: implementation wave running
+## October 18: continued implementation and execution
 
-Gear 2 is active. D2's hierarchical extension, D4's correction-choice comparison,
-D14's single repaired execution pilot and D24's admitted closure comparison have
-native dispatches and immediate terminal monitoring. Four counted CPU slots are
-available under the ratified limits; a dispatch is not a completed result.
+Gear 2 remains active and Stage 15 open. D20 and D38's registered extension
+have native dispatches. D14, D15, V3, D28 and D38 have complete recorded
+results alongside the earlier wave. The [execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md)
+links each full card.
 
-Five newly completed comparisons are fully recorded: D12, D23, its single
-extension, D29 and D30.s. D29's timer extension and D24's native instrument pilot
-are also verified and recorded, with their control limitations explicit in the
-[evidence index](results/phase_2_4_stage_15/DRIVE/INDEX.md). D30.s reused all saved
-work and retained its original cumulative cap. D14's first failure is preserved;
-the tested schema repair reuses seven extraction checkpoints and charges prior
-time. It changes no scientific input, contrast or tolerance.
+D3 and its content companion, and D18, stopped on a repeated accepted-span
+source case. First failures/checkpoints remain; one tested repair each is
+being built. D2, repaired D24 and the P7 tokenizer pilot saved at cost
+boundaries. Caps remain unchanged. These are neither completed studies nor
+scientific negatives. D30's exact crossed-model pilot is verified and its full
+comparison is being built. Its second-dataset replication lacks authentic
+section/author mappings. D11 and later eligible cards remain implementation
+work. D31 needs verified novels and admitted labels. The packet is unfinished.
 
-D15/V3, D28 and the D30 second-pipeline feasibility pilot have tested runners
-awaiting owner dispatch as slots open. The second-dataset intake identifies a
-real section/author metadata gap; it does not invent the missing mappings.
-Additional commissioned cards are still being implemented. P7 full scoring
-needs a cost-feasible continuation, and D31 needs verified novel intake and
-admitted labels. The packet is not fully built or finished.
-
-The GPU suggestion pass and D17 remain invalid with retries exhausted. No paid
-batch is active. The [latest inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_W2.json)
-records evidence integrity, native ownership, resources and watcher delivery.
-Theory/TODO integrate at 20:00 PDT; the six-hour health clock stays independent.
-The dated snapshots below are retained history.
+[Continuation and limits](results/phase_2_4_stage_15/DRIVE/WAVE2_CONTINUATION.md)
+and the [native inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_W2_NEXT.json)
+record identities, locks, resources and watcher delivery. No paid batch is
+active; GPU suggestions and D17 remain invalid with retries exhausted.
+Theory/TODO integrate at 20:00 PDT; six-hour health stays independent. Dated
+snapshots below are retained history.
 
 ## Earlier October 18: recorded results, unfinished queue
 

@@ -1,0 +1,71 @@
+{
+  "card": "D38",
+  "elapsed_seconds": 17.45838059997186,
+  "events": 109,
+  "exclusion_counts": {
+    "bin_exclusions": {
+      "missing near/far support on one side": 1
+    },
+    "event_exclusions": {
+      "fewer than five eligible menus on either side": 316,
+      "missing exact originating acceptance": 4
+    },
+    "menu_exclusions": {}
+  },
+  "extension": "Overall acceptance-drop difference model minus length-matched own failure, conditional and unrun",
+  "extension_run": false,
+  "forecast_cpu_seconds": 1800,
+  "method": "Near-minus-far acceptance drop before-minus-after model failure; later session half minus earlier; equal menus per bin/phase, events per session and sessions per half, equal writers",
+  "model_failures": 429,
+  "outcome_scope": "Selected offer=1, other offered options=0; discard ambiguous selected menus, ignore/dismiss uptake=0",
+  "outcome_shuffle": {
+    "ci95": [
+      -0.13651216721256404,
+      0.07292257530584245
+    ],
+    "effect": -0.03983267895635622,
+    "p_approx": 0.46812324278597345,
+    "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+    "standard_error": 0.05490103415456607,
+    "state": "null",
+    "writers": 9,
+    "z": -0.7255360408004877
+  },
+  "own_failures": 58928,
+  "primary": {
+    "ci95": [
+      0.022997391419390414,
+      0.5286120624748682
+    ],
+    "effect": 0.2609293894793233,
+    "p_approx": 0.04500395746406622,
+    "p_method": "two-sided normal-reference Wald approximation; descriptive, not permutation p",
+    "standard_error": 0.13016418009832692,
+    "state": "positive",
+    "writers": 9,
+    "z": 2.0046174706606337
+  },
+  "saved_extraction_seconds": 14.234606999671087,
+  "scientific_admission": false,
+  "scope": "Exploratory observed writing-failure analog; not fear, trauma or causal expertise",
+  "temporal_scope": "Completed pre-event menus and strictly later openings only, original acceptance excluded; up to10 each side, at least5",
+  "theory_todo_integration_due": "2026-10-18T20:00:00-07:00",
+  "truncated_anchors": 0,
+  "verification": {
+    "at": "2026-10-18T13:47:17.823036+00:00",
+    "complete_sha256": "f790d8981565ea05047df415fb648aa7c41410d70b8c425ee36ec6796f8c5d22",
+    "completion_outputs": 73,
+    "counted_slot_released": true,
+    "fresh_source_replay_verified": true,
+    "native_workers_exited": true,
+    "plan_sha256": "0a55082c5a6453e7f3725c8811510e3f2df10ef7bc7353851ef6abde758a70ab",
+    "source_pins": 44,
+    "summary_sha256": "123553c50080fd2af3527330f8951642cffc58e6d20577a8672049193185da8d"
+  },
+  "writer_support": {
+    "eligible": 9,
+    "excluded_reasons": {
+      "missing eligible event in either session half": 52
+    }
+  }
+}

@@ -11,6 +11,15 @@ repairs parent-end metadata only, retains the original failure and reuses sealed
 extraction. `timing_closure` has held-out native instrument admission; lexical
 false positives remain explicit. Exact live states are in the [evidence index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md).
 
+D15/V3, D28/D38 and D14 main have complete landings. Exact crossed REML
+cost verifies; its full pipeline is building. Second-source metadata gaps are
+recorded. D24 canonical-provenance recovery preserved checkpoints and yielded
+at its cost boundary. D3 primary/content and D18 exposed repeated accepted-span
+origins in production; separate canonical repairs are being built. D20 and D38
+extension passed native fixtures and are dispatched. P7 tokenizer pilot saved
+at its cost boundary, without main admission.
+[Current continuation](../../results/phase_2_4_stage_15/DRIVE/WAVE2_CONTINUATION.md).
+
 ## October 17 CPU cards
 
 `timing_p7_work_census` reconstructs native context/cache work without inference.

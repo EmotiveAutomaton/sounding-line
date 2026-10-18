@@ -15,11 +15,17 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
 | D12 | primary verified null; conditional extension closed | [Complete report](D12.md); raw score semantics unresolved |
 | D29 | primary and timer extension verified complete | [Length](D29.md), [timer](D29-timer.md); timer diagnostics invalid, no internal-target admission |
-| D14 pilot | original failed; single tested schema-only retry dispatched | Seven sealed extraction checkpoints reused, prior time charged; no population verdict |
-| D4 | native CPU dispatch running | Earlier correction directions and held-out conditional choices |
-| D24 | native instrument pilot verified; main dispatched | [Instrument validation and limits](D24-pilot.md); whole comparison pending |
-| D15 / V3 | tested, frozen; owner dispatch pending | V3 requires completed D15 |
-| D28 | tested and frozen; native smoke pending | Frozen hover transitions and content, no new inference |
+| D14 | primary verified marginal; restoration extension building | [Pilot repair](D14-pilot.md), [primary](D14.md) |
+| D4 | primary verified null; style extension closed | [Complete comparison](D4.md) |
+| D24 | pilot verified; first main failed, single repaired attempt saved at cost yield | [Instrument](D24-pilot.md), [cost hold](WAVE2_CONTINUATION.md) |
+| D15 / V3 | both complete: D15 marginal, V3 positive conditional reliability | [D15](D15.md), [V3 table](V3.md) |
+| D28 | negative primary verified; reversal extension closed | [Full comparison/control warning](D28.md) |
+| D38 | primary verified positive in supported subset; matched-own extension dispatched | [Primary](D38.md); exploratory, no causal claim |
+| D3 / D3-content | first source-replay failures; canonical repair building | [Failures retained](WAVE2_CONTINUATION.md) |
+| D18 | first duplicate-origin failure; one repair building | [Failure retained](WAVE2_CONTINUATION.md) |
+| D20 | native-tested comparison dispatched | Lexical primary, embedding secondary; no partial scores |
+| D30.p | crossed-model cost pilot verified; full pipeline building | [Instrument](D30.p-pilot.md) |
+| D30.r | metadata inspection verified; replication held | [Missing mappings](D30.r-intake.md) |
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
 | V5 | positive descriptive consistency proxy; verified complete | [Full curve](V5.md); qualify forecast-gain ratios; V4 taste/habit lens blind |
 | P8 | extraction verified complete; backend probability semantics unresolved | [Raw score recovery](P8.md); one engineering retry used |
@@ -29,22 +35,23 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | P1 suggestion pass | invalid, incomplete; engineering retry exhausted | [Second memory-safety failure](SUGGESTION_MAIN_V5_FAILED.md); saved checkpoints intact, dependent comparisons blocked |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
-| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p feasibility is built/tested, .r metadata preflight built with actual mapping gap |
+| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |
 | D30.s | verified complete; positive paired specification median | [Complete texture](D30.s.md); original positive writer-control warning persists |
 | D30 daily outcome shuffle | verified complete; marginal, no positive failure flag | [Complete required control](D30-outcome-shuffle.md); D32 outcome shuffle now complete and marginal; other control failures still limit interpretation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
-| D2 | verified complete; primary marginal with positive uniform-choice control | [Complete report](D2.md); single hierarchical extension is running; V4 taste/habit lens blind |
+| D2 | primary marginal, positive uniform control; extension saved at cost yield | [Primary](D2.md), [cost hold](WAVE2_CONTINUATION.md) |
 | D17 | invalid; engineering retry exhausted | [Both failures and retained evidence](D17.md); no primary result, no family-null increment, conditional extension closed |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | verified complete; primary and outcome shuffle marginal | [Complete report](D32.md); [single examination extension](D32-examination.md) verified null; no attention/preference admission |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | Jester text intake | verified input only; ratings parser pending | [Exact text/source verification](JESTER_TEXT_INTAKE.md); P7 pilot verified; full corpus cost remains unadmitted |
-| P7 | original and two batching pilots verified; full work census saved at forecast yield; main unadmitted | [Original](P7-pilot.md), [uncached](P7-batch-pilot.md), [cached](P7-hybrid-pilot.md), [census pause](P7-work-census.md); D33/D36 unfinished |
+| P7 | original/batching pilots verified; census/tokenizer pilot saved at cost boundaries | [Census](P7-work-census.md), [cost holds](WAVE2_CONTINUATION.md); main unadmitted |
 | P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 Family resolved-prefix null counts: K 0, B 2, A 2, G 2, E 0, R 1, S 0, P 0.
+D15 adds one E routing null, V3 resets it and P4's positive extension keeps E at zero; D37 remains dependency-held.
 D33's positive primary resets A after D35; the already-landed D39 null then gives
 one; D23's null extension adds the second, with invalid D17 excluded. D33's single extension and required texture remain unfinished. No family stops.
 V4 labels: **the lens is blind to taste at every tested size** and **the lens is
@@ -53,7 +60,7 @@ writer-level taste/habit nulls and any later family stop as instrument-limited.
 These labels do not replace the separate controls on direct process-record cards.
 D34 and its variant resolve the first two G entries; shared/instrument passes do not count.
 D32's null examination extension resolves its marginal parent as one routing null; D6 then adds a second. D2's extension is the next unresolved B entry.
-D2's primary is complete and its single conditional hierarchical extension is running. D31 needs verified intake and admitted labels. Additional ranked cards are still being implemented; the packet is not fully built.
+D2's primary is complete and its single conditional hierarchical extension is saved at its cost boundary. D31 needs verified intake and admitted labels. Additional ranked cards are still being implemented; the packet is not fully built.
 The P4 shared fit is marginal; its single extension is complete. A separate
 interval-state correction preserves valid percentile intervals that exclude
 their point estimate; completed TC/V5/P8/P4 labels are unchanged. Live source
