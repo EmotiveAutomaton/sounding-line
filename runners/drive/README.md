@@ -30,6 +30,10 @@ correction cohesion to directly linked model corrections under curator approval.
 `timing_p6_recovery` verifies the original producer-order arithmetic exactly, with no refit.
 `timing_d30` and `timing_checkpoint` retain exact writer-bootstrap draws across
 saved boundaries and verify results from original source-derived occurrences.
+`timing_d30_outcome` adds the required daily outcome permutation in an isolated
+module. Eight targeted checks, whole production replay and independent full-matrix
+least squares pass; the marginal control does not trigger the daily positive flag.
+Original D30 code/results remain frozen and whole-day coverage still awaits D32.
 `events_d35` excludes all recipient copies from resampled donors and rebuilds its
 metrics in a fresh process. Each passed twelve targeted checks before dispatch;
 both completed primaries are verified. Their code and inputs remain frozen.

@@ -1,0 +1,102 @@
+{
+  "all_hashes_match": true,
+  "at": "2026-10-18T03:46:35.019539+00:00",
+  "completion_sha256": "f96745d0b4aab63142098b2970f227ea22527ac5fb8dcac87a8a1405f1ffffd5",
+  "cpu_slot_released": true,
+  "exact_permutation_writer_multisets_verified": true,
+  "fresh_process_full_2000_draw_replay": true,
+  "full_matrix_independent_lstsq_effect": 0.014325118957507887,
+  "full_matrix_matches_checkpoint_sufficient_statistics": true,
+  "native": [
+    {
+      "exact_identity_exited": true,
+      "native": {
+        "created_ticks": 134367686822849132,
+        "executable": "python.exe",
+        "pid": 93300
+      },
+      "role": "OWNER.json"
+    },
+    {
+      "exact_identity_exited": true,
+      "native": {
+        "created_ticks": 134367686827283747,
+        "executable": "python.exe",
+        "pid": 139344
+      },
+      "role": "EXECUTE_CHILD.json"
+    },
+    {
+      "exact_identity_exited": true,
+      "native": {
+        "created_ticks": 134367687067579701,
+        "executable": "python.exe",
+        "pid": 133968
+      },
+      "role": "VERIFY_CHILD.json"
+    }
+  ],
+  "original_primary_parity_verified": true,
+  "output_count": 32,
+  "pin_count": 31,
+  "plan_sha256": "8ce88e3ee490e415a4923bdaebfc82eec1b79146009e6b104d3f13ab9923a96c",
+  "primary": {
+    "bootstrap_draws": 2000,
+    "bootstrap_se": 0.028247013853147745,
+    "card": "D30-outcome-shuffle",
+    "ci_high": 0.06176072987264434,
+    "ci_low": -0.05246751767552151,
+    "control": "outcomes shuffled within writer, fixed eligible occurrence order",
+    "coverage_complete": true,
+    "daily_screen_failure_flag": false,
+    "descriptive": true,
+    "effect": 0.014325118957508338,
+    "expected_direction": 1,
+    "interval": "writer-cluster percentile bootstrap, refit per resample",
+    "observations": 71038,
+    "p_reference": "approximate two-sided normal Wald test; descriptive; state remains percentile-CI based",
+    "permutation_seed": 20261017,
+    "scientific_admission": false,
+    "seed": 20261017,
+    "source_card": "D30 original primary",
+    "state": "marginal",
+    "timing_mode": "per_character",
+    "variance_ratio": 0.0,
+    "wald_p_two_sided": 0.6120583701971676,
+    "writers": 30,
+    "z": 0.5071374635203076
+  },
+  "tests_passed": 8,
+  "tests_sha256": "1ea15c7860ba76c7ac3598b6edb6315a610d2089fedd579d88163882487d2240",
+  "question": "Does the original D30 timing contrast remain after outcomes are shuffled within writer?",
+  "authority": "BATCH_PLAN_20261017_W1_PUBLIC.md section 3.5",
+  "registration": "Implementation and permutation frozen after original results and before the control outcome; one fixed seed, no search.",
+  "scope": "Original D30 primary only, not its marker-count extension; no scientific admission or family-null count.",
+  "daily_coverage": "D30 complete without a positive flag; D32 unfinished; no whole-day pass.",
+  "caveats": [
+    "Raw outcome shuffle also breaks nuisance associations; not a conditional causal test.",
+    "Positive original writer-label controls remain; this control does not establish person location or automaticity."
+  ],
+  "code_sha256": {
+    "runners/drive/cards/batch_runtime.py": "e2d3e6c68dc5ebb24d91532d6cd32cc321fbc14a1328d6af4c467ef7d245477d",
+    "runners/drive/cards/batch_runtime_v2.py": "1b740c9ff24d2c8481004a45bef3c74dbcc7e96e34754fb262a00ab7d0e15086",
+    "runners/drive/cards/states.py": "e374201a563c7781fd17388022e80b25b625f05a488286d7df5807b5e11d26fc",
+    "runners/drive/cards/states_v2.py": "d10007458ad71baa1a49999eb07200734b6d5c069de729c5b0d0babc268358fa",
+    "runners/drive/cards/timing_census.py": "3924f339747b98926d75644b3f3787a5fb42ab1b8d881212a322d245724ebb91",
+    "runners/drive/cards/timing_checkpoint.py": "868f456ac8543c649e0b0ff29350979c223f24cff21151629a84c70fbd891725",
+    "runners/drive/cards/timing_d30.py": "9ce1c69d73819a369760e81e4baa3086fad93e85989272410318111656cad00e",
+    "runners/drive/cards/timing_d30_outcome.py": "a627b8fa1581856b138a93875ba0d6cfe1528de779dc007c64025af6edca0c46",
+    "runners/drive/cards/timing_p6.py": "7cc5ededb03cd68e26e345691449cfc3ca0c2829237e6f4e4a21062b05c88ba8",
+    "runners/drive/cards/timing_stats.py": "f9903fd5be776dc8f78b038c4a991d2bb90e168db554d45e99b29677906c507f",
+    "runners/drive/cards/timing_text.py": "6d33da8f93aa5e3da8f89d55b9c5de2553e44eb05e1d4c00205d8b2cc7da1a4e",
+    "runners/next_round/queue.py": "98e3547d9495541d078ede583f486c50c01242c7df9055ede0f6b1b6a6f6f93f",
+    "runners/stage14/common.py": "58984a13a81c68f5214437a3844692a683d6b143e07c852eebbfbcee1f71e8c4",
+    "runners/stage14_midweek/baselines.py": "b98ce49c83fcc127210c54bbccab2b0a899930a3799b7903e38e81806c99d2c9",
+    "runners/stage9/coauthor.py": "e30ecbadec814d53ea82cf79ae903d573dbbd2a3a615b805326ea4833cb6c5ac",
+    "runners/stage9/process_identity.py": "a17bc3ca37ffafea5b272acc7bea0d1536049e11e870fc04471fefb1cee84a35",
+    "tests/test_drive_cards_timing_checkpoint.py": "58b0c46f15825ec75b4bb500d77457d1e955be23e4a9aedefc2fd98be510d521",
+    "tests/test_drive_cards_timing_d30.py": "ce03d7efda24cfa570d7f4daaceeca7037dedb68f30be7d381eb53f730e2e406",
+    "tests/test_drive_cards_timing_d30_outcome.py": "887cade92d48cb42eb8f898e65e577b2529f787e43575569a55144a5bbb7cec0",
+    "tests/test_drive_cards_timing_stats.py": "1fa04fea6c9141e3bb150209d0b6f2fcaaf63580b1913b31bcbdc96a2c6f6920"
+  }
+}

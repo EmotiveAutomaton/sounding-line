@@ -147,6 +147,7 @@ TESTS = [
     ('S15-DRIVE-W1 D6 Creative-domain hover', 0.040302192764555884, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D6.json'),
     ('S15-DRIVE-W1 D6 Latent-exposure lower endpoint', 4.742491905357921e-51, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D6.json'),
     ('S15-DRIVE-W1 D6 Latent-exposure upper endpoint', 1.774073459057205e-41, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D6.json'),
+    ('S15-DRIVE-W1 D30 within-writer outcome shuffle', 0.6120583701971676, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.json'),
     ('S15-DRIVE-W1 D33 primary', 5.384858693405395e-12, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D33.json'),
     ('S15-DRIVE-W1 D33 donor history', 0.2481370409276193, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D33.json'),
     ('S15-DRIVE-W1 D33 within-writer surprise shuffle', 0.05527849454660292, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D33.json'),

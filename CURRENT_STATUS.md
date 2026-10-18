@@ -34,7 +34,7 @@ the [six-hour inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261017_1501.
 is recorded with recovery performed. Immediate terminal/failure/paused
 monitoring remains active. The [20:00 digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
 integrates theory/TODO and STATE/CODEX_OPERATIONS. The daily control check is incomplete:
-the exact D30 outcome shuffle is absent and D32 unfinished. No clean-screen verdict.
+the [exact D30 outcome shuffle](results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.md) is now verified marginal without a positive failure flag, while D32 remains unfinished. No clean-screen verdict.
 A tested finite calendar emits the digest/cutoff markers and restores the prior
 watcher mode at the freeze. It performs no study dispatch or publication.
 

@@ -2401,6 +2401,13 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 17 required timing control:** the isolated D30 outcome-shuffle runner
+preserves the original primary design and all within-writer outcome multisets.
+Eight targeted checks, production fresh-process bootstrap replay, independent
+full-matrix least squares and all source/output bindings pass. The marginal
+control does not trigger the daily positive flag; D32 remains unfinished.
+[Complete control and limits](../results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.md).
+
 **October 17 taste/habit calibration:** V4 completes all 110 worlds with fresh
 statistic replay, source/output hashes and native closure verified. Both fitted
 taste-bearing readers reject every zero-effect cell and all 20 shuffled nulls.

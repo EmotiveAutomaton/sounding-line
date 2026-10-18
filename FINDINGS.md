@@ -9,6 +9,24 @@ ran it.
 
 ---
 
+### S15-DRIVE-D30-OUTCOME-1017 - required outcome shuffle completed
+
+**Hypothesis.** D30's timing contrast should disappear when outcomes are shuffled within each writer.
+**METHOD.** Keep the original eligible occurrences, marker labels, covariates and estimator fixed; permute log pauses once within writer and refit all 2,000 writer-bootstrap draws.
+**Found.** The shuffled contrast is marginal: 0.0143 log-pause units, with a 95% interval from -0.0525 to +0.0618. **Means.** It does not trigger the packet's positive negative-control flag. D32 is unfinished, so daily control coverage remains incomplete; the original positive writer-label controls still limit interpretation.
+
+The [complete control](results/phase_2_4_stage_15/DRIVE/D30-outcome-shuffle.md)
+retains all 30 writers and 71,038 original eligible occurrences. Its descriptive
+Wald probability is 0.6120583702 and is entered in the multiplicity ledger. Eight
+targeted checks, production fresh-process replay, all input/output hashes, an
+independent full-matrix least-squares calculation and native closure verify.
+Implementation was frozen before this control outcome, after the original results;
+one fixed permutation, no seed search. No original result, family count or admission
+changes. The control breaks outcome-nuisance associations too; no causal claim.
+Theory/TODO integration is pending the next daily digest under the active packet.
+
+Curator roll-up: screen validity; Does the original timing contrast survive within-writer outcome shuffling?; **Infrastructure**; The required control does not trigger the daily positive flag; project meaning: one missing control is filled, while D32 remains unfinished; next engineering obligation: finish D32 verification and continue ranked implementation; public claim unchanged; curator decision required: No; detail: control report and aggregate above.
+
 ### S15-DRIVE-DIGEST-20261017 - completed screen integrated; controls incomplete
 
 **Hypothesis.** The completed screen may reveal decision traces worth further testing once its controls and measurement limits are retained.

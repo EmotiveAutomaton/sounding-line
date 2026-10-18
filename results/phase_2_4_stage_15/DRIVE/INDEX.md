@@ -22,6 +22,7 @@ No paid batch is active. Each row describes a whole card, never unfinished score
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; texture .s/.p/.r needs implementation |
+| D30 daily outcome shuffle | verified complete; marginal, no positive failure flag | [Complete required control](D30-outcome-shuffle.md); D32 remains unfinished, so no whole-day pass |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
