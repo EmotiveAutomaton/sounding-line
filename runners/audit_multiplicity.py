@@ -73,6 +73,17 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-D4-canonical model content_gain', 0.37805711122465335, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical model housekeeping_gain', 0.07409884103064221, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical model primary', 0.8554229617788001, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical own content_gain', 0.2497870288489526, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical own housekeeping_gain', 0.2465023556456575, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical own primary', 0.8212174927737708, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical cohesion model_content', 3.368102581477581e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical cohesion model_housekeeping', 3.5049615400000615e-08, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical cohesion own_content', 3.933351816811463e-29, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical cohesion own_housekeeping', 1.4393195640016779e-129, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
+    ('S15-DRIVE-D4-canonical outcome permutation', 0.36318407960199006, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.json'),
     ('S15-DRIVE-D2-diagnostic content primary', 2.1624453907052276e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
     ('S15-DRIVE-D2-diagnostic content uniform_control', 0.5033425039884707, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),
     ('S15-DRIVE-D2-diagnostic position primary', 0.2625593175262686, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-diagnostics-canonical.json'),

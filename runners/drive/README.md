@@ -6,6 +6,8 @@
 
 ## October 18 reviewed implementations
 
+`menus_d4_predictive_one_thread` wraps the reviewed canonical D4 successor with measured one-thread BLAS/OpenMP limits for both execution and fresh verification. Eight focused checks and counted native validation pass, including 200 scalar-oracle permutation comparisons, source reconstruction, fitted-model replay and immutable reentry. The original D4 source/output remain unchanged and held. [Validation](../../results/phase_2_4_stage_15/DRIVE/D4-canonical-build.md). The [separate corpus successor](../../results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.md) is now fully verified: primary null, permutation reference biased, conditional earlier-style extension closed. Original source-held results remain intact.
+
 `timing_events`, `menus_d12`, `timing_stopping` and `timing_stopping_timer`
 have complete source-verified production landings and known-answer controls.
 `menus_d2_bayes` adds the conditional hierarchical comparison with numerical,

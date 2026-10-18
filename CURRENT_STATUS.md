@@ -15,18 +15,13 @@ its [saved-output diagnostic](results/phase_2_4_stage_15/DRIVE/V4.c-saved-diagno
 A [source audit](results/phase_2_4_stage_15/DRIVE/SELECTED_OPTION_AUDIT_20261018.md)
 found a prepared selected-option indexing defect. D2, D4, D12, D14, D32 and D38 inferences,
 selection-dependent examination flags, D6 selected-slot sensitivities, and D11's later-text secondary are held.
-Original evidence remains intact; corrected effects are unknown. The D11 primary,
+Original evidence remains intact; separate corrected D2, D12 and D4 results are linked in this record, while the other affected contrasts remain held. The D11 primary,
 D18 and D20 do not use that defective index. Both D3 engineering retries failed
 source validation and remain invalid, without a scientific-negative conclusion.
 
-The GPU suggestion continuation [stopped at its unchanged memory guard at 11:56 PDT](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_1_STOP.md).
-All 4,988 checkpoints, including 535 new ones, validate. The worker exited and
-released its lease. Environmental continuation is prepared with 119,345 seconds
-left in the original allowance; it remains parked below the 7,424 MiB cold-start
-floor. No unrelated application was stopped. D33's supported-match corpus retry has exited
-and released its CPU slot after independent verification of its calibration refusal.
-D4's canonical predictive successor is under final runtime validation; no successor
-corpus worker is active at this snapshot. No unfinished scores are reported.
+The [unchanged GPU suggestion continuation is running](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_2_LAUNCH.md), launched at 12:37 PDT after all 4,988 retained checkpoints and the original cold-start floor passed. The 12:44 inspection verifies exact native/GPU ownership, advancing output and original resource limits. The prior memory interruption and cumulative time charge remain preserved. No unrelated application was stopped.
+
+D33's supported-match corpus retry has exited with its calibration refusal fully recorded. The [canonical D4 successor is also verified complete](results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.md): primary null, permutation reference biased, conditional earlier-style extension closed. Original D4 stays source-held. Their counted CPU leases are released; remaining CPU implementation/review work is explicit in the index. No unfinished scores are reported.
 Only Gear 3 K remains authorized, conditional on D31 intake and known-answer
 readiness before Monday noon PDT; no paid batch is running. Full P7 census is
 superseded and will not resume this campaign. The [live index](results/phase_2_4_stage_15/DRIVE/INDEX.md)

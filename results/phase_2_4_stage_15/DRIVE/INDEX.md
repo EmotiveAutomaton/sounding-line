@@ -19,7 +19,7 @@ failures still have one retry. No partial scientific scores are reported.
 | D12 | original selected-score primary under source-validity hold | [Original record](D12.md); [canonical rank successor verified null](D12-rank-canonical.md) |
 | D29 | primary and timer extension verified complete | [Length](D29.md), [timer](D29-timer.md); timer diagnostics invalid, no internal-target admission |
 | D14 | primary inference held on selected-vector source defect; restoration admission held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original](D14.md) |
-| D4 | original inference under selected-label validity hold | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original](D4.md) |
+| D4 | canonical predictive successor verified complete; primary null, permutation reference biased | [Full successor](D4-predictive-canonical.md); conditional earlier-style extension closed; original [audit](SELECTED_OPTION_AUDIT_20261018.md) and [result](D4.md) retained |
 | D24 | pilot verified; first main failed, single repaired attempt saved at cost yield | [Instrument](D24-pilot.md), [cost hold](WAVE2_CONTINUATION.md) |
 | D15 / V3 | both complete: D15 marginal, V3 positive conditional reliability | [D15](D15.md), [V3 table](V3.md) |
 | D28 | negative primary verified; reversal extension closed | [Full comparison/control warning](D28.md) |
@@ -36,7 +36,7 @@ failures still have one retry. No partial scientific scores are reported.
 | P5 | verified complete | [Full sentence/edit ledger](P5.md); reviewed consumers eligible |
 | P6 | exact-score recovery verified complete | [Recovery](P6.md); [original diagnosis](P6-failed.md) retained |
 | P4 | primary marginal; extension positive, with a similarly positive shuffled control | [Primary](P4.md), [extension](P4-extension.md); no content-specific inference or further extension; V4 taste/habit lens blind |
-| P1 suggestion pass | environmental interruption at 11:56 PDT; unchanged continuation prepared, cold-start resource-held | [Stop and integrity report](SUGGESTION_ENVIRONMENT_1_STOP.md); all 4,988 checkpoints revalidated, original evidence and allowance preserved |
+| P1 suggestion pass | unchanged environmental continuation running since 12:37 PDT; live output and resource guards verified | [Launch and inspection](SUGGESTION_ENVIRONMENT_2_LAUNCH.md); all 4,988 predecessor checkpoints revalidated, original [stop](SUGGESTION_ENVIRONMENT_1_STOP.md), evidence and allowance preserved |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
 | D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |
