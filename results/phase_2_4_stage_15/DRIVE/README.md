@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 19, 04:36 PDT:** [Full engine-reader export](EV_FULL_READER_V1.md) is verified complete, including exact reuse, uncached replay, original-row retention, cumulative cost and native shutdown. Scientific consumers remain unfinished; no science worker is active at this cutoff. Gear 2 authorization and the demo reservation remain; GPU work is resource-held.
+
 **October 19, 02:12 PDT:** [Full-reader continuation](EV_FULL_READER_LAUNCH_20261019.json) is running under counted CPU supervision after [complete source validation](EV_FULL_SOURCE_V1.md) and actual-cost admission. The demo reservation, original population and combined ceiling are preserved. Scientific consumers remain separate.
 
 **October 19, 02:09 PDT:** [Full source preparation](EV_FULL_SOURCE_V1.md) is verified complete. Exact reuse, independent remaining-source replay and cumulative cost pass; the validated reader continuation is ready for dispatch. No scientific result or badge follows.

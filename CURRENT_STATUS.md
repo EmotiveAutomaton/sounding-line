@@ -1,5 +1,15 @@
 # Current status
 
+**October 19, 04:36 PDT: full engine-reader export is verified complete.**
+[Complete evidence](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md)
+authenticates the entire fixed population, exact pilot reuse, fresh uncached
+replay, original rows, typed fragments and cumulative cost. The workers exited
+and released their counted CPU slot. No scientific worker is active at this
+cutoff. Gear 2 remains authorized; EV scientific consumers are the next
+implementation work, with typed-text habits and the other costed continuations
+still unfinished. GPU remains below its unchanged start floor; no paid batch
+is active. Stage 15 is open and no badge is licensed by this export.
+
 **October 19, 02:12 PDT: full engine-reader continuation is running in Gear 2.**
 [Complete source preparation](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md)
 passes exact reconstruction/replay, source integrity and native closure. Actual

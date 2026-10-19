@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-FULL-READER
+
+**Hypothesis.** The pinned engine can read the complete document population, preserve original writing-log identities and reproduce its exports exactly.
+**METHOD.** Reuse the verified pilot bytes, export all remaining documents, and repeat every new batch uncached in fresh native workers. Authenticate sources, manifests, output hashes, batch seals, exact replay, original rows, typed fragments, cumulative cost and native shutdown.
+**Found.** The complete reader export reproduces exactly. **Means.** Its inputs are ready for validated scientific consumers. Pause associations, signature specificity and writer identification remain untested by this export; typed fragments are retained but have not been reader-scored. [Complete evidence, support and cost](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md).
+
+Curator roll-up: engine inputs; can the full reader population retain writing-log identity and exact replay?; **Infrastructure**; the complete reader export reproduces exactly; project meaning: authenticated engine outputs are available for the prescribed comparisons; next engineering obligation: build and validate EV scientific consumers and the typed-text habit variant; public claim unchanged; curator decision required: No. Detail: [complete export](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md). No new research test or probability harvested.
+
 ### OPS-S15-EV-FULL-SOURCE
 
 **Hypothesis.** The complete final-document population can preserve production identity while reusing verified pilot bytes and independently reconstructing the remaining records within the existing allowance.

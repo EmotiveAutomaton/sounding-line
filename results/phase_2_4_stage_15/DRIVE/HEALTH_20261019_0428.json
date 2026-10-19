@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-19T04:28:42.090280-07:00",
+  "pin_checks": {
+    "cached": 25921,
+    "hashed": 0
+  },
+  "resources": {
+    "commit_headroom_GiB": 29.004817962646484,
+    "disk_free_GiB": 396.2788619995117,
+    "ram_available_GiB": 34.31521987915039
+  },
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 6565,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 36,
+    "used_MiB": 5433,
+    "utilization_percent": 2
+  },
+  "demo_reservation_retained": true,
+  "research_locks": "All 21 verified separately this pass",
+  "no_tests_harvested": true,
+  "no_partial_scientific_scores_read": true,
+  "event": "236ddecdbf8ffb5687f17232",
+  "post_completion_inspection_at": "2026-10-19T04:37:22.550290-07:00",
+  "reader_completion": "EV_FULL_READER_V1.json",
+  "reader_complete_sha256": "f751ed9c665fdde274867df92116252f2d2804baadb049c10e2f85bfc69a3dc3",
+  "reader_native_exit_verified": true,
+  "cpu_slot_released": true,
+  "current_counted_cpu_slots": 0,
+  "calendars": [
+    {
+      "job": "drive-calendar-20261017",
+      "pid": 77320,
+      "created_ticks": 134367443601019868,
+      "heartbeat": {
+        "at": "2026-10-19T11:36:59.780144+00:00",
+        "next_milestones": [
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      }
+    },
+    {
+      "job": "drive-calendar-20261018-week",
+      "pid": 644,
+      "created_ticks": 134368329836144485,
+      "heartbeat": {
+        "at": "2026-10-19T11:36:57.884888+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      }
+    }
+  ],
+  "post_completion_resources": {
+    "ram_available_GiB": 37.240882873535156,
+    "commit_headroom_GiB": 32.08315658569336,
+    "disk_free_GiB": 396.27192306518555
+  },
+  "post_completion_gpu_free_MiB": 6696,
+  "watcher": {
+    "native": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "source_verified": true,
+    "actual_deadline_delivery_verified": true,
+    "last_scan_age_seconds": 51.83878564834595,
+    "error": null,
+    "historical_failures": 2,
+    "health_schedule": {
+      "id": "6d87a4197d02481baa86aa7cdcad4857",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "interval_seconds": 21600,
+      "last_inspected": 1792406707.9781258,
+      "due": 1792428307.9781258
+    }
+  },
+  "recovery": "No recovery required. At the initial inspection replay was advancing with fresh output. The reader then completed; its full independent integrity/replay/cost/native-closure audit and required write-through are complete. Calendars and watcher remain healthy.",
+  "eligible_next_work": "No ready admitted successor. The completed engine exports now support implementing and validating EV scientific consumers; other costed continuations retain their prerequisite gaps. Gear 2 stays authorized; no scientific worker or paid batch is active. GPU continuation remains below its unchanged cold-start floor.",
+  "next_check_basis": "Refresh the planned implementation/admission check within60 minutes under the campaign contract; completion does not grant a new scientific result or expand study authority."
+}

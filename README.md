@@ -9,6 +9,8 @@
 
 # Sounding Line
 
+**October 19, 04:36 PDT:** [Full engine-reader export](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md) is verified complete, including exact reuse, uncached replay, original-row retention, cumulative cost and native shutdown. Scientific consumers remain unfinished; no science worker is active at this cutoff. Gear 2 authorization and the demo reservation remain; GPU work is resource-held.
+
 **October 19, 02:12 PDT:** [Full source preparation](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md) is verified complete; the [full engine-reader continuation](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_LAUNCH_20261019.json) is running in Gear 2 within the remaining combined allowance. The demo slot is preserved. Scientific comparisons remain unfinished; older dated snapshots below retain their cutoff times.
 
 **October 18, 22:45 PDT:** The [engine reader timing pilot](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md)

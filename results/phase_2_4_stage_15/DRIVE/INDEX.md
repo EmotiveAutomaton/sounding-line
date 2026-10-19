@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**October 19, 04:36 PDT:** [Full engine-reader export](EV_FULL_READER_V1.md) is verified complete, including exact reuse, uncached replay, original-row retention, cumulative cost and native shutdown. Scientific consumers remain unfinished; no science worker is active at this cutoff. Gear 2 authorization and the demo reservation remain; GPU work is resource-held.
+
 [Full-reader continuation](EV_FULL_READER_LAUNCH_20261019.json) is running at October 19 02:12 PDT after [verified full-source completion](EV_FULL_SOURCE_V1.md) and actual-cost admission. Exact native owner, exporter descendants, all source pins, counted slot and monitoring pass. The fixed scope retains completed-pilot bytes and uncached new-batch replay. Scientific consumers remain unfinished.
 
 [Full source preparation](EV_FULL_SOURCE_V1.md) is verified complete at October 19 02:09 PDT. Exact pilot reuse, fresh remaining-source replay, native closure and actual cumulative cost pass. The validated full-reader continuation is admitted on cost; actual dispatch is a separate operational event. No scientific comparison or badge follows.
