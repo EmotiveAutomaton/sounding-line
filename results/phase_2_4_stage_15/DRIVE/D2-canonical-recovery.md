@@ -1,5 +1,7 @@
 # Canonical D2: invalid first execution and certified solver recovery
 
+**Completed successor:** the single retry and full independent replay have now passed. [The complete canonical primary](D2-canonical.md) supersedes the running status in the retained launch record below; the original failure remains preserved.
+
 **Hypothesis.** The corrected original choice test can finish with every fit meeting its unchanged numerical certificate.
 **METHOD.** Authenticate all original inputs and retained fit seals; reproduce the exact failing fit; validate objective curvature, known answers, passing-fit parity, checkpoint reuse, tamper refusal and complete fresh-process replay.
 **Found.** The original execution is invalid because one optimization stopped above its required gradient tolerance. Its separately validated single engineering retry is running.
@@ -15,5 +17,5 @@ Original failure SHA256: `f765acb0ba52829e2f46f0eb8e82020bc17761ed05de09cf46f1f6
 Native completion SHA256: `64f24405decf0a79dd14df34bd3e85404d9a24f1ea62ce9326a186b6697be4b0`.
 Recovery plan SHA256: `7fd4c13d747965988a5cd0f94aa8272cd6552149369f125240427853409caedd`.
 
-[Prospective recovery contract](../../../../docs/design/stage-15/drive/D2_SOLVER_RECOVERY_20261018.md) ? [machine-readable record](D2-canonical-recovery.json).
+[Prospective recovery contract](../../../docs/design/stage-15/drive/D2_SOLVER_RECOVERY_20261018.md) · [machine-readable record](D2-canonical-recovery.json).
 The hierarchical extension stays closed. Shared theory, instrument and TODO integration remains at 20:00. No new research test or probability was harvested.

@@ -73,6 +73,8 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('S15-DRIVE-D2-canonical primary SAME UNITS AS PRIOR DIAGNOSTIC', 0.9828914673026767, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-canonical.json'),
+    ('S15-DRIVE-D2-canonical uniform control SAME UNITS AS PRIOR DIAGNOSTIC', 0.01547383894253211, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-canonical.json'),
     ('S15-DRIVE-D20-uptake embedding reliability normal', 0.6964759615567022, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
     ('S15-DRIVE-D20-uptake embedding own-minus-fake normal', 0.6883229079423718, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),
     ('S15-DRIVE-D20-uptake embedding mean outcome permutation BIASED', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D20-uptake-reliability.json'),

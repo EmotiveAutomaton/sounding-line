@@ -9,6 +9,25 @@ ran it.
 
 ---
 
+### S15-DRIVE-D2-CANONICAL
+
+**Hypothesis.** Writers' selected suggestions are easier to predict when the offered alternatives differ more.
+**METHOD.** Reconstruct actual selected offers, fit the original past-only pooled conditional-choice model and compare held-session log-score gain across training-defined extreme dissimilarity bins. Retain the independent uniform-choice pipeline and add 200 within-writer, offer-count-matched outcome permutations with complete refitting and calibration.
+**Found.** There is no resolved advantage for more-dissimilar menus. The primary is marginal under the frozen rule; the original uniform-choice control is positive, while the repeated outcome reference does not trigger its bias warning. **Means.** The comparison does not establish that menu diversity makes expertise or preference more readable; the hierarchical extension remains closed by the current week packet.
+
+The table reports most-dissimilar minus most-similar log-score gain in natural-log units per selected menu, on 33 writers and 1,000 extreme-bin observations. Intervals use 2,000 writer-bootstrap draws conditional on fitted forecasts, preprocessing and training bins. Probabilities are descriptive two-sided normal-reference Wald approximations. Marginal denotes a positive point with a zero-crossing interval, not near significance.
+
+| Complete comparison | Log-score contrast | 95% interval | Descriptive probability | State |
+|---|---:|---|---:|---|
+| Canonical observed choices | +0.000386565 | [-0.037944409, +0.033606144] | 0.9828914673 | marginal |
+| Independent uniform choices | +0.013567104 | [+0.003862988, +0.025737038] | 0.01547383894 | positive control warning |
+
+All 200 repeated outcome fits are finite; their contrast mean is +0.000358196 and sample standard deviation 0.008241419, below the specified quarter-spread bias threshold. That passing diagnostic does not erase the original positive uniform-choice warning or establish personal specificity. Actual-choice correction changes 2,510 menus while retaining 12,196 eligible choices, 41 recipients and 2,543 held menus; eight recipients lack both extreme bins. Position and producer scores remain covariates, and the input includes human process records and model-offered suggestions. Original token/context bounds remain. Both displayed summaries exactly reproduce the earlier corrected-choice diagnostic on the same human units, not an independent replication.
+
+The sole engineering retry is independently verified complete: all 6,473 pins, 16,618 artifacts and 8,282 sealed recipient-arm records check; fresh source/full fit replay and saved-summary reconstruction agree. Exact workers exited and the CPU lease released. Original failure evidence remains; unchanged cost/storage limits hold. Both probabilities enter the diagnostic ledger, with no new family increment. Theory/TODO/instrument integration remains at 20:00. No new test was harvested.
+
+Curator roll-up: choice prediction; do more-dissimilar menus make choices easier to predict?; **Narrows**; no resolved menu-diversity advantage, with a positive original uniform-choice control; project meaning: the corrected primary supplies no expertise or preference claim; next engineering obligation: finish D32 and validate EV inputs/consumers; public claim unchanged, expertise interpretation remains unlicensed; curator decision required: No; detail: [complete canonical D2](results/phase_2_4_stage_15/DRIVE/D2-canonical.md).
+
 ### OPS-S15-ENGINE-EXPORT-RECEIVED-1018
 
 **Hypothesis.** The delivered engine interface preserves its frozen features and exact source spans.

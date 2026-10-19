@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+[Canonical D2 is verified complete](D2-canonical.md): marginal primary, positive original uniform-choice control, no repeated-outcome bias warning. The sole numerical retry and full independent replay are complete; the hierarchical extension stays closed. D32 continues. EV provenance/consumer validation and measured pilot admission are next; exporter receipt below is complete.
+
 [16:45 scheduled inspection](HEALTH_20261018_1645.md): D2's single retry is in independent replay, D32 is progressing, and the GPU remains resource-held. [The pinned engine exporter has arrived](ENGINE_EXPORT_RECEIVED_20261018.md); source, reader files and existing software checks verify. EV provenance/consumer validation and measured pilot admission remain before corpus execution.
 
 [D2 stopped on an uncertified fit; its validated single engineering retry is now running](D2-canonical-recovery.md), with saved fits and original thresholds retained. D32 continues. No human-data score is available; [original validation](D2-canonical-build.md) and [timing admission](D2-canonical-pilot.md) remain as history.
