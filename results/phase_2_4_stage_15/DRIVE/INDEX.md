@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+[18:12 scheduled inspection](HEALTH_20261018_1812.md): D32's independent verifier
+continues with advancing native CPU time; source locks, resources, leases and
+watcher delivery verify. The [EV source adapter](EV_SOURCE_BUILD_20261018.md)
+passes eight additional constructed checks and authenticates the whole source
+metadata roster. Corpus replay, exact D33/export joins, typed fragments and
+counted reader admission remain unfinished. GPU continuation remains resource-held.
+
 [17:32 scheduled inspection](HEALTH_20261018_1732.md): D32 has entered full independent replay with advancing native CPU time; GPU continuation remains resource-held. The [EV final-survivor adapter](EV_OCCURRENCE_BUILD_20261018.md) passes eight constructed checks and the actual exporter input validator. Whole-corpus source/consumer admission and a measured reader pilot remain unbuilt; no EV corpus worker is claimed.
 
 [Canonical D2 is verified complete](D2-canonical.md): marginal primary, positive original uniform-choice control, no repeated-outcome bias warning. The sole numerical retry and full independent replay are complete; the hierarchical extension stays closed. D32 continues. EV provenance/consumer validation and measured pilot admission are next; exporter receipt below is complete.

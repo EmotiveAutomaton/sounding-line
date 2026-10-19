@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-EV-SOURCE-BUILD-1018
+
+**Hypothesis.** The engine input bridge can refuse mismatched source records before attaching a saved production occurrence to a final document.
+**METHOD.** Authenticate completed P2/P5/P6 metadata chains, check exact identities, chronology and source bytes, reconstruct constructed documents and occurrences in a fresh process, and challenge the adapter with altered raw text and resealed false records. Separately inspect the actual corpus metadata without replaying its documents.
+**Found.** Eight new checks and all sixteen combined source/occurrence checks pass. Actual metadata authenticates 1,399 primary sessions and discloses 46 additional upstream records outside that population. **Means.** Source authentication is implemented and validated on constructed records; the counted corpus handler, D33/export joins, typed fragments, statistical consumers and measured reader admission remain unfinished. No human result or scientific admission follows.
+
+D32 continues independent verification under its original limits. The scheduled inspection verifies native identity and CPU progress, frozen sources, research locks, resource floors, leases, calendars and actual watcher delivery. No worker recovery is needed; the GPU remains below its unchanged restart floor. No new research test or probability was added. Shared instrument/TODO/theory integration remains at 20:00.
+
+Curator roll-up: engine validation; can input authentication reject wrong source records?; **Infrastructure**; eight additional constructed checks pass; project meaning: the commissioned EV input bridge now authenticates source chains; next engineering obligation: complete counted corpus/native and consumer admission before reader execution; public claim unchanged; curator decision required: No; detail: [source validation](results/phase_2_4_stage_15/DRIVE/EV_SOURCE_BUILD_20261018.md) and [scheduled inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1812.md).
+
 ### OPS-S15-EV-OCCURRENCE-BUILD-1018
 
 **Hypothesis.** An exact occurrence join can distinguish surviving writer-produced words from identical deleted, retyped or model-supplied words.

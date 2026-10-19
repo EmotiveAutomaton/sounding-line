@@ -1,0 +1,256 @@
+{
+  "at": "2026-10-18T18:13:29.838776-07:00",
+  "demo_reservation_retained": true,
+  "engine_export": "Source adapter constructed validation complete; all1399 primary metadata records authenticated. Corpus replay, joins, typed fragments and native/reader admission remain.",
+  "event": "7a0f9aa8b41f9f6af85a74c4",
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 2319,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 57,
+    "used_MiB": 9679,
+    "utilization_percent": 77
+  },
+  "jobs": [
+    {
+      "first_tenth": {
+        "completed_bootstrap": 20,
+        "projected_full_main_seconds": 24337.88480929588,
+        "projected_seconds": 24337.88480929588,
+        "projection_scope": "Conservative slowest measured bootstrap fit; execution plus full replay; controls measured separately in timing pilot",
+        "total_bootstrap": 2000
+      },
+      "identities": [
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.09375,
+              "native": {
+                "created_ticks": 134368433756264053,
+                "executable": "python.exe",
+                "pid": 25224
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368433757024767,
+                "executable": "conhost.exe",
+                "pid": 73308
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 2606.46875,
+              "native": {
+                "created_ticks": 134368433757531782,
+                "executable": "python.exe",
+                "pid": 186524
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 49.296875,
+          "live": true,
+          "native": {
+            "created_ticks": 134368340173768984,
+            "executable": "python.exe",
+            "pid": 3780
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.026897430419921875
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340205353646,
+            "executable": "python.exe",
+            "pid": 80212
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368433757024767,
+                "executable": "conhost.exe",
+                "pid": 73308
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 2606.5,
+              "native": {
+                "created_ticks": 134368433757531782,
+                "executable": "python.exe",
+                "pid": 186524
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 0.09375,
+          "live": true,
+          "native": {
+            "created_ticks": 134368433756264053,
+            "executable": "python.exe",
+            "pid": 25224
+          },
+          "priority": 16384,
+          "record": "VERIFY_CHILD.json",
+          "rss_GiB": 0.004657745361328125
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 42650.479929,
+        "original_wall_ceiling_seconds": 43200,
+        "prior_wall_seconds_charged": 549.520071
+      },
+      "newest_output_age_seconds": 2637.4401247501373,
+      "output_bytes": 26413168,
+      "output_files": 4412,
+      "phase": "verify",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T01:13:27.228042+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 6.125,
+          "live": true,
+          "native": {
+            "created_ticks": 134367443601019868,
+            "executable": "python.exe",
+            "pid": 77320
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.019123077392578125
+        }
+      ],
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T01:13:25.383229+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 0.984375,
+          "live": true,
+          "native": {
+            "created_ticks": 134368329836144485,
+            "executable": "python.exe",
+            "pid": 644
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.0191497802734375
+        }
+      ],
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "terminals": []
+    }
+  ],
+  "no_scientific_scores_read": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 4670,
+    "hashed": 0
+  },
+  "recovery": "D2 completion fully landed and ACKed; no rerun. D32/calendars checked; GPU recovery stays below unchanged floor if sample fails admission",
+  "research_locks": "All21 verified separately this pass",
+  "resources": {
+    "commit_headroom_GiB": 16.383682250976562,
+    "disk_free_GiB": 397.5356559753418,
+    "ram_available_GiB": 28.583797454833984
+  },
+  "slots": [
+    {
+      "at": "2026-10-18T21:53:40.532062+00:00",
+      "card": "D32-canonical-main",
+      "native": {
+        "created_ticks": 134368340173768984,
+        "executable": "python.exe",
+        "pid": 3780
+      },
+      "slot": "slot-0.json"
+    }
+  ],
+  "watcher": {
+    "error": null,
+    "events": [
+      {
+        "delivered_at": 1792372382.8645852,
+        "id": "7a0f9aa8b41f9f6af85a74c4",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      }
+    ],
+    "health_schedule": {
+      "due": 1792384283.121583,
+      "id": "19dd28e89eb444618e55a8e6055de28d",
+      "interval_seconds": 21600,
+      "last_inspected": 1792362683.121583,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "historical_failures": 2,
+    "last_scan_age_seconds": 41.003117084503174,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_verified": true,
+    "wake_plan": {
+      "created": 1792370514.8703575,
+      "due": 1792372314.8703575,
+      "event_id": "7a0f9aa8b41f9f6af85a74c4",
+      "expected_finish": 1792374114.8703575,
+      "id": "b5eb8603058144dfb8194a8511e73df1",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "reason": "D32 full independent replay progress; continue EV authenticated corpus-source handler and native admission; unchanged GPU floor"
+    }
+  }
+}

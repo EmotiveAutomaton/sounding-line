@@ -2,6 +2,14 @@
 
 ## EV input construction
 
+`engine_sources` authenticates P2/P5/P6 source chains before calling the occurrence
+adapter. Its eight constructed checks pass; the combined sixteen checks include
+fresh serialized replay and refusal of resealed false records. The actual source
+metadata identifies all 1,399 primary sessions and discloses 46 upstream-only
+sessions. No corpus document or reader has run through this new component yet.
+The counted handler, D33/export joins, typed fragments and measured admission
+remain. [Source validation](../../results/phase_2_4_stage_15/DRIVE/EV_SOURCE_BUILD_20261018.md).
+
 `engine_occurrences` preserves exact final-word character identities against the
 frozen P6 replay and P5 source partitions. Eight constructed checks, fresh-process
 reconstruction and three records through the actual exporter input validator pass.
