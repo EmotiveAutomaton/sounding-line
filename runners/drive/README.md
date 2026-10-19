@@ -1,5 +1,14 @@
 # October 16 drive runners
 
+## EV input construction
+
+`engine_occurrences` preserves exact final-word character identities against the
+frozen P6 replay and P5 source partitions. Eight constructed checks, fresh-process
+reconstruction and three records through the actual exporter input validator pass.
+It is an input component, with no corpus reader or scientific dispatch entry point.
+Whole-corpus authentication, D33/export joins, typed fragments and measured/native
+admission remain. [Validation](../../results/phase_2_4_stage_15/DRIVE/EV_OCCURRENCE_BUILD_20261018.md).
+
 ## October 18–25 prospective runtime
 
 `cards/batch_runtime_v4` and `week_policy` pass eleven boundary/resource/cost

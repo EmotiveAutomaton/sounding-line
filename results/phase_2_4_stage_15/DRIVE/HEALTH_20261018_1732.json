@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-18T17:34:00.484840-07:00",
+  "event": "91105eaafed1d5677d06713d",
+  "inspection": "documented before ACK",
+  "jobs": [
+    {
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "phase": "verify",
+      "terminals": []
+    },
+    {
+      "job": "drive-calendar-20261017",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "phase": "calendar",
+      "terminals": []
+    },
+    {
+      "job": "drive-calendar-20261018-week",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "phase": "calendar",
+      "terminals": []
+    }
+  ],
+  "pins_checked": {
+    "cached": 4670,
+    "hashed": 0
+  },
+  "research_locks_verified": 21,
+  "resources": {
+    "commit_headroom_GiB": 16.183609008789062,
+    "disk_free_GiB": 397.5421943664551,
+    "ram_available_GiB": 28.616058349609375
+  },
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 2151,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 63,
+    "used_MiB": 9847,
+    "utilization_percent": 76
+  },
+  "occupied_counted_slots": 1,
+  "demo_reservation_retained": true,
+  "D32_followup": {
+    "D32_verifier": {
+      "created_ticks": 134368433757531782,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 186524
+    },
+    "at": "2026-10-18T17:39:50.624100-07:00",
+    "cpu_seconds": 606.96875,
+    "pending_events": [
+      {
+        "delivered_at": 1792369992.876677,
+        "id": "91105eaafed1d5677d06713d",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      }
+    ],
+    "progress": {
+      "at": "2026-10-19T00:29:35.624110+00:00",
+      "phase": "verify"
+    },
+    "terminals": [],
+    "watch_error": null
+  },
+  "watcher": {
+    "error": null,
+    "events": [
+      {
+        "delivered_at": 1792369992.876677,
+        "id": "91105eaafed1d5677d06713d",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      }
+    ],
+    "health_schedule": {
+      "due": 1792384283.121583,
+      "id": "19dd28e89eb444618e55a8e6055de28d",
+      "interval_seconds": 21600,
+      "last_inspected": 1792362683.121583,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "historical_failures": 2,
+    "last_scan_age_seconds": 60.95501399040222,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe",
+      "pid": 131912
+    },
+    "source_verified": true,
+    "wake_plan": {
+      "created": 1792368153.9582398,
+      "due": 1792369953.9582398,
+      "event_id": "91105eaafed1d5677d06713d",
+      "expected_finish": 1792371753.9582398,
+      "id": "8339a0effece4218a1f165374a551edb",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "reason": "D32 canonical progress and EV exporter corpus/provenance consumer admission; D2 complete; recheck unchanged GPU floor"
+    }
+  },
+  "recovery_required": false,
+  "new_research_tests_harvested": false,
+  "adapter_validation": "EV_OCCURRENCE_BUILD_20261018.json",
+  "shared_integration": "2026-10-18 20:00 PDT",
+  "remaining": "D32 full replay; EV source handler, native admission, joins, fragments, consumer checks and measured reader pilot. GPU continuation only above unchanged resource floor."
+}

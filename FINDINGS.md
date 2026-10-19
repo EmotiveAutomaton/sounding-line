@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-EV-OCCURRENCE-BUILD-1018
+
+**Hypothesis.** An exact occurrence join can distinguish surviving writer-produced words from identical deleted, retyped or model-supplied words.
+**METHOD.** Replay character ownership, compare all original P6 occurrence fields and P5 source partitions, exercise constructed Unicode and adversarial edit histories, reconstruct in a fresh process, and validate serialized records with the delivered exporter.
+**Found.** All eight targeted checks pass, and the actual exporter accepts three constructed inputs without feature computation. **Means.** The final-survivor adapter is validated on known answers; whole-corpus source authentication, D33/export joins, typed fragments, statistical consumers and measured reader admission remain unfinished. No human result, reader execution, scientific admission or new probability follows.
+
+The scheduled inspection identifies D32's completed execution and active independent verifier, with advancing native CPU time. Source/research locks, resources, leases, calendars and watcher delivery verify; the GPU remains below its unchanged restart floor. No recovery or paid work is needed. Shared theory/instrument/TODO integration remains 20:00. No new research test was harvested.
+
+Curator roll-up: engine validation; can the input bridge preserve exact human production occurrences?; **Infrastructure**; eight constructed checks pass; project meaning: a validated input component advances the commissioned EV build; next engineering obligation: authenticate corpus sources and complete exact consumer/native admission before a measured reader pilot; public claim unchanged; curator decision required: No; detail: [adapter validation](results/phase_2_4_stage_15/DRIVE/EV_OCCURRENCE_BUILD_20261018.md) and [scheduled inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1732.md).
+
 ### S15-DRIVE-D2-CANONICAL
 
 **Hypothesis.** Writers' selected suggestions are easier to predict when the offered alternatives differ more.

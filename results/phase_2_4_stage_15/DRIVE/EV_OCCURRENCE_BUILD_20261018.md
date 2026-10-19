@@ -1,0 +1,13 @@
+# EV final-survivor adapter: constructed validation complete
+
+**Hypothesis.** An exact occurrence join can distinguish surviving writer-produced words from identical words that were deleted, retyped or supplied by the model.
+
+**METHOD.** Independently replay character ownership and compare the complete occurrence ledger with the frozen P6 replay and its revision companion. Require ordered original character identities, exact final spelling, complete P5 sentence coverage and identical typed/accepted/prompt/API source counts. Exercise Unicode, repeated spellings, internal edits, deletion/reinsertion, malformed sources and changed expected records. Reconstruct serialized inputs in a fresh process and pass three constructed documents through the delivered exporter's actual input validator.
+
+**Found.** All eight targeted software checks pass, including fresh-process reconstruction. The actual exporter accepts all three constructed inputs without computing features. **Means.** This validates a component of the input bridge. It does not establish corpus coverage, reader execution, statistical consumer validity or EV admission.
+
+The adapter preserves original P6 occurrence fields. A completed occurrence survives only when its whole ordered character tuple is an exact final token. Equal spelling never identifies a replacement as the deleted original. Lost or changed occurrences stay explicit support exclusions. P6 token boundaries and engine lexical boundaries can differ, including around combining marks; the future exporter join must account for those exclusions instead of silently matching text. API insertion handling preserves P5's canonical terminal-newline relocation and never assigns model text a typed identity.
+
+This is an outcome-blind implementation of the existing week packet. No corpus data were processed, no model loaded, no new research test harvested, and no probability added to the multiplicity registry. No active worker source changed. The complete adapter is in `runners/drive/engine_occurrences.py`; validation is in `tests/test_drive_engine_occurrences.py`. [Machine-readable validation](EV_OCCURRENCE_BUILD_20261018.json) binds exact source bytes and the delivered exporter.
+
+Before dispatch: build the authenticated whole-corpus P2/P5/P6 handler and counted native rehearsal; join the original D33 primary rows and engine output by exact occurrence/span identity; implement the separately labeled typed-fragment variant and statistical known-answer controls; then admit the measured 100-document support/cost pilot. The real corpus exporter and the EV comparisons are not yet running. Shared instrument/TODO integration remains at 20:00 PDT.
