@@ -1,5 +1,21 @@
 # FINDINGS — the method archive
 
+### S15-EV3-IDENTIFICATION-V1
+
+**Hypothesis.** The engine's habit descriptions identify a writer across different prompts better than the same procedure identifies reassigned writers.
+**METHOD.** Average fixed engine features over each writer's prompt-alternating halves, identify against the complete fixed second-half gallery, and compare paired real-probe scores with 200 whole-session reassignments and 2,000 writer-bootstrap draws.
+**Found.** Both complete variants fail the frozen fake-reference bias check. **Means.** EV3 is INVALID for habit-identification admission; the positive observed contrasts do not license a validated habit badge. This is a control failure, not a negative finding about the proposed habit mechanism. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md) records both variants beside PMAP style, all support, intervals, reliability, controls, source audit and cumulative cost.
+
+Curator roll-up: engine habits; do fixed engine habit descriptions identify writers across prompts?; **Infrastructure**; both complete variants fail their frozen fake-reference bias check; project meaning: no validated habit-identification route is admitted; next engineering obligation: retain the failed controls in the feature table and finish the separate departure comparison; public claim forbidden for a validated habit badge; curator decision required: No. Detail: [complete evidence](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md). No new research test or probability harvested.
+
+### OPS-S15-EV3-IDENTIFICATION-BUILD
+
+**Hypothesis.** A fixed-gallery comparison can distinguish stable engine habit profiles from identical or wrongly matched profiles without inventing a signal from missing support or rounding.
+**METHOD.** Test planted and exact-null profiles, wrong-gallery matching, whole-prompt splits, count-preserving reassignments, paired arithmetic, missing support, corrupted inputs, stops, immutable reentry and complete fresh native replay.
+**Found.** All 16 targeted checks and the corrected native rehearsal pass. **Means.** The prescribed full-corpus identification comparison is running; no corpus result or habit badge is yet available. The initial exact-null rounding defect and failed stricter check are preserved. [Complete validation and launch](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md).
+
+Curator roll-up: engine habits; can fixed-gallery identification preserve known answers and complete controls?; **Infrastructure**; the comparison passes 16 targeted checks and full native replay; project meaning: the commissioned corpus comparison is running; next engineering obligation: verify the complete result and controls, then finish departure analysis and the feature table; public claim unchanged; curator decision required: No. Detail: [build record](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md). No new research test or probability harvested.
+
 ### OPS-S15-EV3-HABIT-INPUT
 
 **Hypothesis.** The pinned engine can describe the complete final-document and surviving typed-fragment populations reproducibly without another reader run.

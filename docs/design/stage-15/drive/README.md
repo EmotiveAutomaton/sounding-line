@@ -2,7 +2,9 @@
 
 ## October 18–25 week: current dispatch authority
 
-The [EV3 habit-input contract](EV3_HABIT_INPUT_20261019.md) prepares final and surviving typed-fragment vectors without reader calls. Targeted and native validation pass; full preparation is running. Identification remains a separate consumer, and preparation cost carries into the original EV3 allowance.
+The [EV3 identification card](EV3_IDENTIFICATION_20261019.md) freezes the exact PMAP procedure, per-session engine vectors, missing-support treatment and paired controls. Targeted and native validation pass; corpus execution is complete, with both fake-reference bias controls fired. No habit badge is admitted.
+
+The [EV3 habit-input contract](EV3_HABIT_INPUT_20261019.md) prepares final and surviving typed-fragment vectors without reader calls. Targeted and native validation and full preparation are verified complete. Identification remains a separate consumer, and preparation cost carries into the original EV3 allowance.
 
 The [EV2 implementation card](EV2_SIGNATURES_20261019.md) freezes exact matching, prompt weighting, common support and paired controls under S1/S5. The corpus comparison is verified complete. Other EV consumers remain separate.
 

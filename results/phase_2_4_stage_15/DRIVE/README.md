@@ -1,5 +1,9 @@
 # October 16 drive evidence
 
+**October 19, 06:03 PDT:** [Habit identification](EV3_IDENTIFICATION_V1.md) is verified complete and recorded; both variants fail their fixed bias controls, so no validated habit badge is admitted. Workers exited and released their slot. Departure analysis and the final feature table remain implementation work. Gear 2 authorization, the demo reservation and GPU resource hold remain.
+
+**October 19, 05:51 PDT:** [Habit identification](EV3_IDENTIFICATION_BUILD_20261019.md) is running in Gear 2 after targeted and native validation. Complete habit inputs and signature recurrence are recorded. Departure analysis and the feature table remain unfinished. The counted slot, demo reservation, resource limits and terminal monitoring verify.
+
 **October 19, 05:38 PDT:** [Complete final and typed habit inputs](EV3_HABIT_INPUT_V1.md) are independently verified and recorded. The worker exited and released its slot; identification is the next build. The signature comparison is already complete. No science worker is active at this cutoff; calendars and watcher are healthy. Gear 2 remains authorized, with the GPU resource hold and ToMpathy reservation retained.
 
 **October 19, 05:26 PDT:** [Final and typed habit preparation](EV3_HABIT_INPUT_BUILD_20261019.md) is running in Gear 2 after targeted and native validation. The signature comparison is complete and recorded. Habit identification and departure analysis remain unfinished; the GPU resource hold and ToMpathy reservation remain.

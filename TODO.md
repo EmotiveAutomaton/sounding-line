@@ -6,8 +6,9 @@ pilot and required first-100 support export are verified complete.
 The support gate passes; full-source continuation is verified complete.
 Full-reader export and complete uncached replay are verified.
 EV2 signature recurrence is verified complete and recorded. EV3 habit input
-preparation is verified complete; identification and EV1 remain implementation work.
-[Latest input completion](results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_V1.md).
+preparation and identification are verified complete; identification is control-invalid.
+EV1 and the feature table remain implementation work.
+[Complete identification](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md).
 
 - [x] S15-DRIVE-CANONICALS: D38, D32, D4, D14 and D2 primaries independently
   verified and integrated; originals retained under source holds. D12 rank-only

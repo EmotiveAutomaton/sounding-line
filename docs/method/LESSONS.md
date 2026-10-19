@@ -194,6 +194,14 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **An exact-null gate must require exact null classification, not just a tiny effect.**
+  Averaging repeated fake scores before subtracting produced a rounding residual
+  on identical profiles; a zero-width interval classified that residual as negative.
+  A tolerance-only fixture missed the categorical error. Preserve the failed check,
+  average paired differences directly, and require exact zero plus null state for
+  identical inputs before corpus dispatch. The estimand and thresholds stay fixed.
+  (OPS-S15-EV3-IDENTIFICATION-BUILD)
+
 - **Separated mixture examples do not test slow convergence of overlapping components.**
   D17's session-weight fit passed the original fixtures but exceeded its fixed
   iteration cap on a retained corpus input. Test overlapping components and actual
