@@ -2,13 +2,21 @@
 
 ## EV input construction
 
+`cards/engine_input_pilot` adds the resumable counted source-preparation worker.
+All 21 combined targeted checks and the monitored native rehearsal pass, including
+fresh-process replay, immutable reentry and source/output mutation refusal.
+The first100 source-only pilot is running under its fixed combined execution/replay
+cap with one numerical thread. Full-corpus configuration is refused. This does not
+admit the engine reader or scientific consumers.
+[Worker validation](../../results/phase_2_4_stage_15/DRIVE/EV_INPUT_BUILD_20261018.md).
+
 `engine_sources` authenticates P2/P5/P6 source chains before calling the occurrence
 adapter. Its eight constructed checks pass; the combined sixteen checks include
 fresh serialized replay and refusal of resealed false records. The actual source
 metadata identifies all 1,399 primary sessions and discloses 46 upstream-only
-sessions. No corpus document or reader has run through this new component yet.
-The counted handler, D33/export joins, typed fragments and measured admission
-remain. [Source validation](../../results/phase_2_4_stage_15/DRIVE/EV_SOURCE_BUILD_20261018.md).
+sessions. The counted source pilot now uses this component; no engine reader has
+run. D33/export joins, typed fragments and measured reader admission remain.
+[Source validation](../../results/phase_2_4_stage_15/DRIVE/EV_SOURCE_BUILD_20261018.md).
 
 `engine_occurrences` preserves exact final-word character identities against the
 frozen P6 replay and P5 source partitions. Eight constructed checks, fresh-process

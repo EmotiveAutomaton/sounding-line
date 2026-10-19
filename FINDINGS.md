@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-EV-INPUT-BUILD-1018
+
+**Hypothesis.** A resumable input worker can reconstruct final documents and exact production occurrences without silently changing sources or accepting altered checkpoints.
+**METHOD.** Exercise constructed edits, saved-boundary resume, immutable reentry, corrupted source/output refusal and fresh serialized replay, then run the complete worker through the monitored counted dispatcher and independently reconcile every source/output hash and its known answer.
+**Found.** All 21 combined targeted checks pass. The native rehearsal completes fresh-process verification, with all 54 source pins and 17 artifacts verified, exact worker exits and a released slot. **Means.** The bounded source-preparation pilot is admitted and running; original D33/export joins, typed fragments, statistical controls and measured reader admission remain unfinished. No human result, scientific admission or new probability follows.
+
+The scheduled queue inspection verifies advancing D32 replay, frozen source/research locks, resource floors, leases, calendars and actual watcher delivery. GPU continuation remains below its unchanged cold-start floor. The new source pilot uses one counted CPU slot and one numerical thread, retaining the demo reservation. No worker recovery or new research test is required. Shared instrument/TODO/theory integration remains at 20:00.
+
+Curator roll-up: engine validation; can resumable source preparation preserve exact evidence?; **Infrastructure**; all 21 combined checks pass; project meaning: validated input preparation is now executing on a bounded corpus pilot; next engineering obligation: complete source pilot and exact consumer/native admission before reader execution; public claim unchanged; curator decision required: No; detail: [worker validation](results/phase_2_4_stage_15/DRIVE/EV_INPUT_BUILD_20261018.md) and [queue inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1852.md).
+
 ### OPS-S15-EV-SOURCE-BUILD-1018
 
 **Hypothesis.** The engine input bridge can refuse mismatched source records before attaching a saved production occurrence to a final document.

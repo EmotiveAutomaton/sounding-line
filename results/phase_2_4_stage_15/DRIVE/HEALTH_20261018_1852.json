@@ -1,0 +1,357 @@
+{
+  "at": "2026-10-18T19:03:55.069057-07:00",
+  "demo_reservation_retained": true,
+  "engine_export": "EV source pilot running after constructed/native validation; reader and scientific consumer admission remain.",
+  "event": "d2bf69bd803175f322c89e3a",
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 6136,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 40,
+    "used_MiB": 5862,
+    "utilization_percent": 71
+  },
+  "jobs": [
+    {
+      "identities": [
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.09375,
+              "native": {
+                "created_ticks": 134368433756264053,
+                "executable": "python.exe",
+                "pid": 25224
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368433757024767,
+                "executable": "conhost.exe",
+                "pid": 73308
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 5580.34375,
+              "native": {
+                "created_ticks": 134368433757531782,
+                "executable": "python.exe",
+                "pid": 186524
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 49.34375,
+          "live": true,
+          "native": {
+            "created_ticks": 134368340173768984,
+            "executable": "python.exe",
+            "pid": 3780
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.026897430419921875
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340205353646,
+            "executable": "python.exe",
+            "pid": 80212
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368433757024767,
+                "executable": "conhost.exe",
+                "pid": 73308
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 5580.375,
+              "native": {
+                "created_ticks": 134368433757531782,
+                "executable": "python.exe",
+                "pid": 186524
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 0.09375,
+          "live": true,
+          "native": {
+            "created_ticks": 134368433756264053,
+            "executable": "python.exe",
+            "pid": 25224
+          },
+          "priority": 16384,
+          "record": "VERIFY_CHILD.json",
+          "rss_GiB": 0.004657745361328125
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 42650.479929,
+        "original_wall_ceiling_seconds": 43200,
+        "prior_wall_seconds_charged": 549.520071
+      },
+      "newest_output_age_seconds": 5662.321135997772,
+      "output_bytes": 26413168,
+      "output_files": 4412,
+      "phase": "verify",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T02:03:27.448612+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 6.296875,
+          "live": true,
+          "native": {
+            "created_ticks": 134367443601019868,
+            "executable": "python.exe",
+            "pid": 77320
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.019123077392578125
+        }
+      ],
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T02:03:25.600616+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 1.203125,
+          "live": true,
+          "native": {
+            "created_ticks": 134368329836144485,
+            "executable": "python.exe",
+            "pid": 644
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.0191497802734375
+        }
+      ],
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "identities": [
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.0,
+              "native": {
+                "created_ticks": 134368487767205595,
+                "executable": "python.exe",
+                "pid": 180384
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368487767285602,
+                "executable": "conhost.exe",
+                "pid": 184820
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 255.65625,
+              "native": {
+                "created_ticks": 134368487767436086,
+                "executable": "python.exe",
+                "pid": 81708
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 0.5,
+          "live": true,
+          "native": {
+            "created_ticks": 134368487760369029,
+            "executable": "python.exe",
+            "pid": 146396
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.023387908935546875
+        },
+        {
+          "children": [
+            {
+              "cpu_seconds": 0.015625,
+              "native": {
+                "created_ticks": 134368487767285602,
+                "executable": "conhost.exe",
+                "pid": 184820
+              },
+              "priority": 16384
+            },
+            {
+              "cpu_seconds": 255.703125,
+              "native": {
+                "created_ticks": 134368487767436086,
+                "executable": "python.exe",
+                "pid": 81708
+              },
+              "priority": 16384
+            }
+          ],
+          "cpu_seconds": 0.0,
+          "live": true,
+          "native": {
+            "created_ticks": 134368487767205595,
+            "executable": "python.exe",
+            "pid": 180384
+          },
+          "priority": 16384,
+          "record": "EXECUTE_CHILD.json",
+          "rss_GiB": 0.004581451416015625
+        }
+      ],
+      "job": "drive-ev-input-pilot-v1",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 1800,
+        "original_wall_ceiling_seconds": 1800,
+        "prior_wall_seconds_charged": 0
+      },
+      "newest_output_age_seconds": 2.57376766204834,
+      "output_bytes": 887285,
+      "output_files": 50,
+      "phase": "execute",
+      "plan_sha256": "52da2d7863e218af753548f4dcc77560f43d6a952b4ced318b634f56a73d51e9",
+      "source_pins": 450,
+      "terminals": []
+    }
+  ],
+  "no_scientific_scores_read": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 4810,
+    "hashed": 310
+  },
+  "recovery": "D2 completion fully landed and ACKed; no rerun. D32/calendars checked; GPU recovery stays below unchanged floor if sample fails admission",
+  "research_locks": "All21 verified separately this pass",
+  "resources": {
+    "commit_headroom_GiB": 29.462677001953125,
+    "disk_free_GiB": 397.5219306945801,
+    "ram_available_GiB": 36.22392654418945
+  },
+  "slots": [
+    {
+      "at": "2026-10-18T21:53:40.532062+00:00",
+      "card": "D32-canonical-main",
+      "native": {
+        "created_ticks": 134368340173768984,
+        "executable": "python.exe",
+        "pid": 3780
+      },
+      "slot": "slot-0.json"
+    },
+    {
+      "at": "2026-10-19T01:59:36.717696+00:00",
+      "card": "EV-input-pilot",
+      "native": {
+        "created_ticks": 134368487760369029,
+        "executable": "python.exe",
+        "pid": 146396
+      },
+      "slot": "slot-1.json"
+    }
+  ],
+  "watcher": {
+    "error": null,
+    "events": [
+      {
+        "delivered_at": 1792374772.9231398,
+        "id": "d2bf69bd803175f322c89e3a",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      },
+      {
+        "delivered_at": null,
+        "id": "1e81363a91a8b92a20daf4c5",
+        "path": ".agent-state/drive-20261018-week/native-EV-input/COMPLETE.json",
+        "state": "pending"
+      }
+    ],
+    "health_schedule": {
+      "due": 1792384283.121583,
+      "id": "19dd28e89eb444618e55a8e6055de28d",
+      "interval_seconds": 21600,
+      "last_inspected": 1792362683.121583,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "historical_failures": 2,
+    "last_scan_age_seconds": 23.85142159461975,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_verified": true,
+    "wake_plan": {
+      "created": 1792372948.1627855,
+      "due": 1792374748.1627855,
+      "event_id": "d2bf69bd803175f322c89e3a",
+      "expected_finish": 1792376548.1627855,
+      "id": "77d6fb537466433398c9f11c6f50bfbf",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "reason": "D32 full independent replay progress; build counted EV corpus handler and exact D33/export joins; preserve GPU floor and demo reservation"
+    }
+  },
+  "initial_inspection_at": "2026-10-18T18:53:39.482710-07:00"
+}

@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+[18:52 scheduled inspection](HEALTH_20261018_1852.md), refreshed at 19:03: D32's
+independent verifier continues, and the [validated EV source-input worker](EV_INPUT_BUILD_20261018.md)
+is running its bounded 100-session source pilot on a second counted CPU slot.
+Native rehearsal and 21 targeted checks pass. This is source preparation only;
+consumer joins, reader execution and statistical admission remain unfinished.
+The demo reservation is retained; GPU continuation remains resource-held.
+
 [18:12 scheduled inspection](HEALTH_20261018_1812.md): D32's independent verifier
 continues with advancing native CPU time; source locks, resources, leases and
 watcher delivery verify. The [EV source adapter](EV_SOURCE_BUILD_20261018.md)
