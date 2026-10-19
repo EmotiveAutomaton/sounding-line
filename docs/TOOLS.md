@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV2 signature comparison:** 23 targeted checks, two counted native rehearsals and exact original/guarded-handler equality pass. The validated comparison is running over authenticated full-reader output with common support and all 200 reassignment controls; no corpus result yet. [Validation](../results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md).
+
 **EV full-reader export is verified complete:** the full fixed document population, exact pilot reuse, fresh uncached remaining-batch replay, all original writing-log rows and typed fragments pass independent integrity checks. Source/output pins, cumulative cost, native exits and slot release verify. Scientific consumers and the typed-fragment habit variant remain unfinished. [Complete evidence](../results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md). Earlier build/dispatch notes below describe their original cutoffs.
 
 **EV full-source completion:** The complete fixed source population passes fresh reconstruction, exact pilot reuse, saved document assembly and all source/output checks. Native workers exited and released their slot. Actual cumulative cost admits the validated full-reader continuation; scientific consumers remain separate. [Complete evidence and cost](../results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md).

@@ -2,6 +2,8 @@
 
 ## October 18–25 week: current dispatch authority
 
+The [EV2 implementation card](EV2_SIGNATURES_20261019.md) freezes exact matching, prompt weighting, common support and paired controls under S1/S5. Targeted and native validation pass; the corpus comparison is running. Other EV consumers remain separate.
+
 The curator commissioned the [week packet](WEEK_PACKET_20261018.md) in Gear 2.
 Its [implementation review and explicit SDT1 decision](WEEK_REVIEW_20261018.md)
 record the fixes, closed branches, completed-card reconciliation, engine dependency

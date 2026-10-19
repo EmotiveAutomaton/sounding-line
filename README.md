@@ -9,6 +9,8 @@
 
 # Sounding Line
 
+**October19,04:57PDT:** The [signature-recurrence comparison](results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md) is running after23 targeted checks and complete native replay. Full reader export is verified; departure-pause and habit consumers remain unfinished. No corpus result or badge is available. The demo reservation and GPU resource hold remain.
+
 **October 19, 04:36 PDT:** [Full engine-reader export](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md) is verified complete, including exact reuse, uncached replay, original-row retention, cumulative cost and native shutdown. Scientific consumers remain unfinished; no science worker is active at this cutoff. Gear 2 authorization and the demo reservation remain; GPU work is resource-held.
 
 **October 19, 02:12 PDT:** [Full source preparation](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md) is verified complete; the [full engine-reader continuation](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_LAUNCH_20261019.json) is running in Gear 2 within the remaining combined allowance. The demo slot is preserved. Scientific comparisons remain unfinished; older dated snapshots below retain their cutoff times.

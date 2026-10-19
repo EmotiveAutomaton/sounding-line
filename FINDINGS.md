@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV2-BUILD
+
+**Hypothesis.** A matched cross-prompt comparison can distinguish writer-specific phrase recurrence from shared or prompt-only wording.
+**METHOD.** Test planted and null populations, exact rate arithmetic, same-row session reassignments, missing support, changed evidence, full fresh native replay and runtime stop boundaries before corpus dispatch.
+**Found.** All 23 targeted checks and both counted native rehearsals pass. The guarded handler preserves the original statistic exactly. **Means.** The authorized corpus comparison is running; no human-corpus result or signature badge is available. The initial incorrect fixture expectation is retained and corrected without relaxing a gate. [Complete build and launch](results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md).
+
+Curator roll-up: engine signatures; can recurring page phrases be compared across a writer's other prompts?; **Infrastructure**; the handler passes 23 targeted checks and full native replay; project meaning: the prescribed comparison is executing; next engineering obligation: verify its complete result and controls, then finish the other engine consumers; public claim unchanged; curator decision required: No. Detail: [build and limits](results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md). No new research test harvested from the wake.
+
 ### OPS-S15-EV-FULL-READER
 
 **Hypothesis.** The pinned engine can read the complete document population, preserve original writing-log identities and reproduce its exports exactly.

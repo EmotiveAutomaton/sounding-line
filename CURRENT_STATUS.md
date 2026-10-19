@@ -1,5 +1,7 @@
 # Current status
 
+**October 19, 04:57 PDT:** The [signature-recurrence comparison](results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md) is running after 23 targeted checks and complete native replay. Full reader export is verified; departure-pause and habit consumers remain unfinished. No corpus result or badge is available. The demo reservation and GPU resource hold remain.
+
 **October 19, 04:36 PDT: full engine-reader export is verified complete.**
 [Complete evidence](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md)
 authenticates the entire fixed population, exact pilot reuse, fresh uncached
