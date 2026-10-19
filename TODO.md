@@ -1,8 +1,9 @@
 # TODO: the study queue
 
 The [October 18 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md)
-is complete. Stage 15 remains open. The first unfinished item below is implementation
-work; no scientific worker is currently active at the recorded cutoff.
+is complete. Stage 15 remains open. The fixed ten-document EV reader timing
+pilot is verified complete; the required first-100 support pilot is next.
+Full-corpus and scientific admission remain separate.
 
 - [x] S15-DRIVE-CANONICALS: D38, D32, D4, D14 and D2 primaries independently
   verified and integrated; originals retained under source holds. D12 rank-only
@@ -22,11 +23,13 @@ work; no scientific worker is currently active at the recorded cutoff.
   dispositions retained. [Complete receipt](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md).
 - [x] S15-EV-EXPORT-JOIN-COMPONENT: exact exporter word/content spans and
   retained typed fragments pass constructed and actual-exporter checks.
-- [ ] S15-EV-CONSUMER: build the counted authenticated exporter handler;
-  native known-answer/full-handler admission precedes the measured real-reader
-  pilot. Full-corpus source, support and reader admission remain separate.
-- [ ] S15-EV-READER: measured pinned-exporter pilot, resource/cost accounting
-  including source prep and full replay, then admitted 1,399-document execution.
+- [x] S15-EV-CONSUMER: counted authenticated exporter handler passes
+  known-answer/full-handler admission; corrected native replay and retained
+  first failure recorded. [Validation](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md).
+- [x] S15-EV-READER-TIMING: fixed ten-document pinned-exporter timing pilot
+  verified complete, with full replay and prior charges recorded.
+- [ ] S15-EV-READER: first-100 support pilot and combined-cost admission,
+  including source prep and full replay, before 1,399-document execution.
 - [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
   reliability table and exact limits. No badge before a complete valid cell.
 - [ ] S15-D33-SUPPORTED: calibration-supported smaller variant under S1;

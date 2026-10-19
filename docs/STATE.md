@@ -1,5 +1,12 @@
 # STATE: the agent's operational file
 
+**October 18, 22:36 PDT:** The ten-document EV reader timing pilot has completed
+and passed exact fresh uncached replay. Native workers exited and released their
+counted slot. First-100 support/cost admission is next; full-corpus execution and
+statistical consumers remain unadmitted. No science worker is active at this
+cutoff. Demo reservation, guarded GPU wait, week cutoffs and paid limits remain.
+[Complete pilot](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md).
+
 **October 18 daily integration: Gear 2 is authorized; Stage 15 remains open.**
 All five canonical primaries and the EV 100-session input pilot are complete and
 verified. No science worker is active at the 20:02 native inspection. GPU work

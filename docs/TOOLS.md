@@ -1,5 +1,18 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV pinned reader:** The complete ten-document CPU pilot reproduces exactly
+in fresh uncached verification. All source/output hashes, original-row support,
+native exits and released slot verify. First-100 support, full-corpus cost
+admission and statistical consumers remain; no badge is licensed.
+[Complete pilot](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md).
+
+**EV counted exporter handler:** 42 targeted checks and corrected full native
+execution/replay pass. Source/manifest authentication, exact joins and native
+descendant containment precede the fixed ten-document real-reader timing pilot,
+now running in ToMpathy's pinned CPU environment. The first import-shadowing
+failure and owner audit correction remain. No full-corpus or scientific admission.
+[Validation and launch](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md).
+
 **EV exporter join and typed fragments:** Exact Unicode/source joins, explicit
 unsupported words and retained typed-run boundaries pass 23 new checks and
 14 existing join checks. Fresh actual-exporter replay matches four constructed

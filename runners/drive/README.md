@@ -1,5 +1,13 @@
 # October 16 drive runners
 
+`cards/engine_export_pilot_v2` uses the authenticated handler with a safe Python
+import path; its failed v1 native attempt and capsule are retained. The native
+job runtime contains descendants and monitors both execution and verification.
+42 targeted checks and complete native replay pass. The fixed first-ten real
+reader timing pilot is running in ToMpathy's pinned interpreter, uncached in
+both phases. No full-corpus or scientific admission follows.
+[Handler validation](../../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md).
+
 `engine_export_join` matches only exact engine lexical spans and preserves every
 original word row with explicit unsupported dispositions. Typed fragments retain
 all surviving typed runs and declared synthetic boundaries across removed text.

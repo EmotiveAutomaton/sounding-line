@@ -1,5 +1,21 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-EXPORT-TIMING-V1
+
+**Hypothesis.** The pinned CPU reader can export authenticated engine features and reproduce them in a fresh uncached process within its timing allocation.
+**METHOD.** Export the first ten sorted source documents, reconstruct their source records and repeat the reader in a fresh process; independently authenticate all source/output hashes, exact original-word joins, support dispositions, native exits and lease release.
+**Found.** The complete pilot reproduces exactly in 185.30 seconds. **Means.** The bounded reader path is validated; full-corpus, signature-support and scientific admission remain separate. All 2,008 pins and 29 terminal artifacts verify. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md) accounts for every original row, memory and accumulated cost. A naive full source-plus-handler projection exceeds the one-time eight-hour export ceiling; the commissioned first-100 support pilot is the next bounded admission step. No new hypothesis, probability or badge follows.
+
+Curator roll-up: engine validation; can the pinned reader reproduce authenticated exports under counted supervision?; **Infrastructure**; the ten-document timing pilot reproduces exactly; project meaning: real-reader execution is validated at bounded scope; next engineering obligation: required first-100 support and combined-cost admission, then statistical consumers; public claim unchanged; curator decision required: No; detail: [complete timing pilot](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md).
+
+### OPS-S15-EV-EXPORT-HANDLER
+
+**Hypothesis.** A counted exporter handler can preserve source identity and reproduce the pinned engine's output in its supplied environment.
+**METHOD.** Test source/manifest refusal and native descendant containment, run the complete constructed handler in fresh execution and verification processes, audit every pin/output and exact known answer, and verify repeat entry without another exporter launch.
+**Found.** All 42 targeted checks and corrected native rehearsal pass. **Means.** The fixed ten-document real-reader timing pilot is admitted and running; full-corpus, signature-support and scientific admission remain separate. The first native import-shadowing failure and the owner's lexical-versus-allocated-loss audit error are retained; neither produced a scientific result. The [build report](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md) records controls, exact scope, resource limits and remaining obligations. No new research test or probability was harvested.
+
+Curator roll-up: engine validation; can the pinned exporter run with authenticated inputs and fresh replay?; **Infrastructure**; the handler passes 42 targeted checks and corrected native replay; project meaning: real-reader timing is executing under the counted CPU supervisor; next engineering obligation: land the whole timing pilot and assess combined source/reader cost and support; public claim unchanged; curator decision required: No; detail: [handler build](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md).
+
 ### OPS-S15-EV-EXPORT-JOIN-BUILD
 
 **Hypothesis.** Original word occurrences can join engine spans without substitute matches, and typed fragments can preserve source boundaries.

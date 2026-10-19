@@ -1,0 +1,46 @@
+{
+  "design_lint": "pass",
+  "ev2_support_pilot_complete": false,
+  "full_corpus_admitted": false,
+  "native": {
+    "complete_sha256": "52b6cc1ee13a9910f48a69c54cd6c5fab663e18066aa0923dfa2720e4919aea6",
+    "constructed": true,
+    "immutable_reentry": true,
+    "known_answer": true,
+    "lease_released": true,
+    "native_exit": true,
+    "outputs_verified": 29,
+    "plan_sha256": "35835d0634b5f682be711aa5b8cbba7764c80c6d9584d8a23f395b4b88b0fb8c",
+    "real_reader_executed": false,
+    "verified": true
+  },
+  "native_pin_count": 90,
+  "next": "Land complete fixed-ten timing pilot and combined source/reader cost before admission",
+  "research_locks": "21 pass",
+  "retained_failure": {
+    "plan_sha256": "7fe8baefb17b52d4a5ced7f23791eba06494d65c8dc3ba2dbd570bb300dbabf8",
+    "reason": "Wrapper script directory shadowed standard-library statistics; no model loaded",
+    "source_capsule_verified": true,
+    "terminal_sha256": "267c44fa33910988f58e12cb68ee8bb71bbafdcf1a3a88a936d0bfaa04dab15d"
+  },
+  "retained_owner_audit_correction_sha256": "f30e1104a2667ea1c263da01b52d89adb2c506277d2cefee09d5bcf14c642eeb",
+  "schema": "sounding-line.ev-export-handler-build.v1",
+  "scientific_admission": false,
+  "source_sha256": {
+    "runners/drive/cards/engine_export_pilot.py": "84b6e90e64574c232ef2f19cd73bcdbec4b7da6bd5831742fcfc2387b165e1d1",
+    "runners/drive/cards/engine_export_pilot_v2.py": "521bda2d3c34fe614625479f7b4c0755b686010471bd1b41c5e4f828bb8404c5",
+    "runners/drive/cards/engine_export_runtime.py": "00c267ffeed192b7b821d18d35426e771b10649192ea35bd02013452116da6cb",
+    "runners/drive/engine_export_child.py": "e6aaa4ce287cf8232f3380cb8c29fa335351fd1f5708ae24bb06826ec2d7bcb6",
+    "runners/drive/native_job.py": "aeddbc16e9739d971f263b00cb53f438fa76d11d4affe1314a5900638ab3de54"
+  },
+  "targeted_tests": 42,
+  "test_receipt_sha256": "b4b8e9cf3aa18b9841250a055ce852ffe501add61f2b561f5cc271d8865f77b9",
+  "validated": true,
+  "verified_behaviors": [
+    "exact input/cohort/spans and source/exporter/reader/environment authentication",
+    "fresh uncached actual exporter replay",
+    "immutable repeat entry without relaunch",
+    "kill-on-close native descendant containment including supervisor crash",
+    "both phases monitored under one counted lease and combined cap"
+  ]
+}

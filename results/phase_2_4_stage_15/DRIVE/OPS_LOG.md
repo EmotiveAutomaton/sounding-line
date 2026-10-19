@@ -1,5 +1,7 @@
 # Campaign operations
 
+- 2026-10-18 22:14 PDT: [deadline inspection](HEALTH_20261018_2214.json) verifies native closure, advancing calendars, intact cached pins/research locks, released leases, resources and actual watcher delivery. GPU remains below its unchanged floor. Completed the authenticated exporter handler; first native import-shadowing failure retained, separate safe-path wrapper and complete native replay pass. Fixed ten-document reader timing launched at 22:26 on a counted CPU slot, with the demo reservation preserved. [Build/launch](EV_EXPORT_HANDLER_BUILD_20261018.md). No new research test harvested.
+
 - 2026-10-18 21:34 PDT: deadline and due six-hour health inspected; exact native exits, advancing calendars, released CPU leases, source/research locks, resource limits and actual deadline delivery verify. No new failure or orphan; GPU below unchanged start floor. Exact exporter-span/typed-fragment component now passes 37 combined checks and actual-exporter constructed replay. Counted handler and reader admission remain. [Inspection](HEALTH_20261018_2134.md) · [build](EV_EXPORT_JOIN_BUILD_20261018.md).
 
 - 2026-10-18 20:50 PDT: [bounded EV input consumer](EV_D33_CONSUMER_V1.md) is fully verified complete. All 1,990 pins and 12 outputs match; exact original-row/covariate and support reconciliation passes after fresh document/source replay. Native workers exited and slot released; no reader or scientific admission. Delayed first native notification was already landed and acknowledged; evidence retained. No new tests harvested.

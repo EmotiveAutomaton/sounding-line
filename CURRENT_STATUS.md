@@ -1,5 +1,21 @@
 # Current status
 
+**October 18, 22:36 PDT:** The ten-document EV reader pilot is verified
+complete, including exact fresh uncached replay and native cleanup. The required
+first-100 support pilot is next to build; no science worker is active at this
+cutoff. Full-corpus execution remains held on combined-cost admission.
+The demo slot stays reserved and GPU work stays below its unchanged floor.
+[Complete timing and support record](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md).
+
+**October 18, 22:26 PDT:** The fixed ten-document EV real-reader timing pilot
+is running on one counted CPU slot, with one slot reserved for ToMpathy.
+The corrected authenticated handler passes targeted and complete native checks.
+Fresh uncached verification is included in its 30-minute cap. Full-corpus,
+100-document signature support and scientific admission remain separate;
+GPU continuation stays below its unchanged memory floor.
+[Build and launch](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_HANDLER_BUILD_20261018.md).
+Earlier snapshots below retain their inspected times.
+
 **October 18, after the daily integration:** The bounded EV authenticated
 D33 consumer is independently verified complete. Exact workers exited and
 released their CPU slot; the demo reservation remains. Exact engine-word matching

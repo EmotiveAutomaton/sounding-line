@@ -761,6 +761,13 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A direct script's directory can shadow the standard library in a different interpreter.**
+  The exporter handler loaded ToMpathy's correct environment but its wrapper sat beside
+  Sounding Line's `statistics.py`, so `from statistics import mean` failed before scoring.
+  Preserve the failure, use a separate safe-path wrapper, and test the exact native command
+  with an intentional standard-library shadow before corpus admission. Environment version
+  agreement alone does not establish import identity. (OPS-S15-EV-EXPORT-HANDLER)
+
 - **Verify the actual Unicode bytes in a fixture before using it to validate offsets.**
   A Windows shell pipeline replaced literal emoji and accented letters while generating
   an exporter fixture. The prefix check caught the loss; the corrupted fixture and

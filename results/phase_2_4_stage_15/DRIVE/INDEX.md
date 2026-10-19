@@ -1,5 +1,15 @@
 # October 16 drive: execution index
 
+[Ten-document real-reader timing](EV_EXPORT_TIMING_V1.md) is verified complete,
+with exact fresh replay and released slot. The first-100 signature-support pilot
+is next; full-corpus cost admission and scientific consumers remain unbuilt.
+
+[Counted exporter handler](EV_EXPORT_HANDLER_BUILD_20261018.md) passes 42
+targeted checks and corrected full native replay. The fixed ten-document real
+reader timing pilot is running; its full uncached verification is required.
+Full-corpus and scientific admission remain separate. Earlier snapshots below
+retain their observed times.
+
 [Exact exporter joins and typed fragments](EV_EXPORT_JOIN_BUILD_20261018.md)
 pass constructed checks and fresh actual-exporter replay. Counted handler and
 measured real-reader admission remain unbuilt; no scientific worker is active.
