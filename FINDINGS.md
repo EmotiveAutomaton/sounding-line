@@ -1,5 +1,21 @@
 # FINDINGS — the method archive
 
+### S15-EV1-PAUSES-V1
+
+**Hypothesis.** Words with higher engine departure scores follow longer pauses within a writer's session, after the original word and history covariates are accounted for.
+**METHOD.** Fit the log pre-word pause on exact page-normalized departure among surviving engine-scored D33 words, absorb nested writer/session intercepts, and use 2,000 whole-writer bootstrap draws and 200 within-session departure permutations.
+**Found.** The complete slope is positive and its permutation reference passes the frozen bias check. **Means.** The scoped engine route is supported: “tested on human writing logs: flagged words came after longer pauses”. This is a conditional association on retained words, not causal attention evidence. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md) records the slope, uncertainty, all dispositions, controls, fixed-intercept interpretation and independent audit.
+
+Curator roll-up: engine departures; do high-departure words follow longer within-session pauses?; **Infrastructure**; the completed conditional association passes its permutation reference check; project meaning: the scoped pause-association route is supported; next engineering obligation: include the exact readout and limits in the consolidated feature table; public claim newly licensed only for the scoped association, not causal attention; curator decision required: No. Detail: [complete result](results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md). No new research test or probability harvested.
+
+### OPS-S15-EV1-BUILD
+
+**Hypothesis.** The departure-pause comparison can recover a planted within-session relationship while rejecting spurious effects from session offsets or broken source identities.
+**METHOD.** Compare absorbed-intercept fits with explicit dummy-matrix least squares; test planted, reversed and exact-null outcomes, writer resampling, every within-session reassignment, corrupted inputs, complete serialization and fresh native replay.
+**Found.** All 13 targeted checks and the native known-answer rehearsal pass. **Means.** The authorized complete pause comparison is running; its corpus result is not yet available. [Complete build and retained failures](results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md).
+
+Curator roll-up: engine departures; can the pause comparison recover known within-session effects without source or intercept errors?; **Infrastructure**; the comparison passes 13 targeted checks and native replay; project meaning: the authorized complete comparison is running; next engineering obligation: verify complete source/statistic/control replay and finish the feature table; public claim unchanged; curator decision required: No. Detail: [build report](results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md). No new research test or probability harvested.
+
 ### S15-EV3-IDENTIFICATION-V1
 
 **Hypothesis.** The engine's habit descriptions identify a writer across different prompts better than the same procedure identifies reassigned writers.

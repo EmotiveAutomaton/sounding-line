@@ -1,5 +1,9 @@
 # Current status
 
+**October 19, 06:17 PDT:** [Departure-pause comparison](results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md) is independently verified complete, with a positive conditional association and passing permutation reference. EV1–3 are recorded; EV3 remains control-invalid. Workers exited and released their slot. The feature table and other commissioned backlog remain unfinished. Gear 2 authorization, demo reservation and GPU resource hold remain.
+
+**October 19, 06:13 PDT:** [Departure-pause comparison](results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md) is running in a counted Gear 2 CPU slot after targeted and native validation. EV2 and EV3 results are recorded, including EV3 control failures. The feature table remains unfinished. Demo reservation, GPU resource hold and monitoring remain.
+
 **October 19, 06:03 PDT:** [Habit identification](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md) is verified complete and recorded; both variants fail their fixed bias controls, so no validated habit badge is admitted. Workers exited and released their slot. Departure analysis and the final feature table remain implementation work. Gear 2 authorization, the demo reservation and GPU resource hold remain.
 
 **October 19, 05:51 PDT:** [Habit identification](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md) is running in Gear 2 after targeted and native validation. Complete habit inputs and signature recurrence are recorded. Departure analysis and the feature table remain unfinished. The counted slot, demo reservation, resource limits and terminal monitoring verify.

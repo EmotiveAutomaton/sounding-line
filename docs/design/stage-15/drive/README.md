@@ -2,6 +2,8 @@
 
 ## October 18–25 week: current dispatch authority
 
+The [EV1 pause card](EV1_DEPARTURE_PAUSES_20261019.md) freezes the nested fixed-intercept interpretation, original covariates and controls. Targeted/native validation and complete corpus verification pass; the conditional pause association is positive with a passing permutation reference.
+
 The [EV3 identification card](EV3_IDENTIFICATION_20261019.md) freezes the exact PMAP procedure, per-session engine vectors, missing-support treatment and paired controls. Targeted and native validation pass; corpus execution is complete, with both fake-reference bias controls fired. No habit badge is admitted.
 
 The [EV3 habit-input contract](EV3_HABIT_INPUT_20261019.md) prepares final and surviving typed-fragment vectors without reader calls. Targeted and native validation and full preparation are verified complete. Identification remains a separate consumer, and preparation cost carries into the original EV3 allowance.

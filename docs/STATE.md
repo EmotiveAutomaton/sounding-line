@@ -1,5 +1,9 @@
 # STATE: the agent's operational file
 
+**October 19, 06:17 PDT:** [Departure-pause comparison](../results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md) is independently verified complete, with a positive conditional association and passing permutation reference. EV1–3 are recorded; EV3 remains control-invalid. Workers exited and released their slot. The feature table and other commissioned backlog remain unfinished. Gear 2 authorization, demo reservation and GPU resource hold remain.
+
+**October 19, 06:13 PDT:** [Departure-pause comparison](../results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md) is running in a counted Gear 2 CPU slot after targeted and native validation. EV2 and EV3 results are recorded, including EV3 control failures. The feature table remains unfinished. Demo reservation, GPU resource hold and monitoring remain.
+
 **October 19, 06:03 PDT:** [Habit identification](../results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md) is verified complete and recorded; both variants fail their fixed bias controls, so no validated habit badge is admitted. Workers exited and released their slot. Departure analysis and the final feature table remain implementation work. Gear 2 authorization, the demo reservation and GPU resource hold remain.
 
 **October 19, 05:38 PDT:** [Complete final and typed habit inputs](../results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_V1.md) are independently verified and recorded. The worker exited and released its slot; identification is the next build. The signature comparison is already complete. No science worker is active at this cutoff; calendars and watcher are healthy. Gear 2 remains authorized, with the GPU resource hold and ToMpathy reservation retained.

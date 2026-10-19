@@ -1,5 +1,9 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV1 pause association verified:** the complete supported-word slope is positive and its within-session reference passes the frozen bias check. Independent source, QR, bootstrap and permutation audits pass. The scoped pause-association route is supported; attention causation remains unestablished. [Full evidence](../results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md).
+
+**EV1 pause consumer:** 13 targeted checks and complete native replay pass, including explicit fixed-intercept least-squares equivalence. Corpus execution is active; source and statistical admission remain distinct. The first serialization failure is preserved. [Build](../results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md).
+
 **EV3 identification complete, control-invalid:** final and surviving typed variants both fire the frozen fake-reference bias gate. Source/replay integrity, every independent gallery check and native shutdown pass; no validated habit badge follows. [Full evidence, including PMAP reference](../results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md).
 
 **EV3 habit identification:** 16 targeted checks and complete native replay pass after preserving and correcting an exact-null rounding defect. Full-corpus execution is active with the prescribed fake-writer controls; no corpus result yet. [Validation and launch](../results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md).

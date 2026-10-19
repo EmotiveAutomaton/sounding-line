@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/engine_departure_pauses` implements EV1 with authenticated original rows, fixed nested intercepts, whole-writer resampling and within-session controls. Thirteen checks, full native replay and complete corpus verification pass; the scoped pause association is positive with passing controls. [Frozen card](../../docs/design/stage-15/drive/EV1_DEPARTURE_PAUSES_20261019.md).
+
 `cards/engine_habits_identification` implements the commissioned fixed-gallery habit comparison. Sixteen targeted checks and full native replay pass; the complete corpus comparison is verified, with both fixed fake-reference bias controls fired. The earlier habit-input job is verified complete. [Fixed choices](../../docs/design/stage-15/drive/EV3_IDENTIFICATION_20261019.md) · [build and retained failure](../../results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md).
 
 `cards/engine_habits_input` and `engine_habits_child` prepare final/typed habit vectors under the pinned engine, with no reader execution. Twelve checks and actual-engine native replay pass; corpus preparation is verified complete. The signature comparison is now [verified complete](../../results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md); earlier dispatch notes below retain their historical scope. [Habit input contract](../../docs/design/stage-15/drive/EV3_HABIT_INPUT_20261019.md).
