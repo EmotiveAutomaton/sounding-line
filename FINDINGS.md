@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-D33-CONSUMER-BUILD
+
+**Hypothesis.** Authenticated original word rows can join verified final documents without changing covariates or substituting missing evidence.
+**METHOD.** Test complete source authentication, exact production joins, corruption refusal, serialized fresh replay and immutable reentry, then run the handler through the counted native runtime before admitting the bounded corpus consumer.
+**Found.** All nine targeted checks and corrected native rehearsal pass. The fixture's original completion-schema mismatch was corrected before corpus dispatch, with both validations retained. **Means.** The corpus consumer is now in fresh verification; no reader score or scientific result is available. Engine-word matching, typed fragments and measured reader/statistical admission remain. This instruments the already commissioned EV work; no new research test is harvested.
+
+Curator roll-up: engine inputs; can original rows retain authenticated production identity?; **Infrastructure**; nine targeted checks and native replay pass; project meaning: the validated input consumer is executing; next engineering obligation: land complete source replay, finish exporter-span matching and measured reader admission; public claim unchanged; curator decision required: No; detail: [build and launch](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_BUILD_20261018.md).
+
 ### S15-DRIVE-DIGEST-20261018
 
 **Hypothesis.** The completed screen may identify decision traces worth further testing once source corrections and controls are retained.

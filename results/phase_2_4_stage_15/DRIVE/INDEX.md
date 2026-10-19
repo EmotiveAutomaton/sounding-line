@@ -1,5 +1,10 @@
 # October 16 drive: execution index
 
+[EV authenticated consumer is running](EV_D33_CONSUMER_BUILD_20261018.md), in
+fresh source verification after passing nine targeted checks and corrected native
+rehearsal. No unfinished support count or scientific score is reported. The
+earlier daily no-worker snapshot below precedes this dispatch.
+
 **October 18 daily integration completed.** [Screen, controls and family
 dispositions](DIGEST_20261018.md) supersede the dated execution and routing
 snapshots below. All five canonical primaries are verified. No science worker

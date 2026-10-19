@@ -1,5 +1,7 @@
 # Campaign operations
 
+- 2026-10-18 EV consumer: nine targeted checks and corrected native rehearsal pass; first fixture/native producer-schema mismatch retained and repaired before corpus dispatch. All 73 native pins/12 artifacts, known answer, worker exits and released slot verified. Bounded corpus consumer launched with 1,990 pins, counted slot/demo reservation and 1,800-second combined cap; fresh verifier active. Daily integration pushed as c1e4dd16b and event a61ec3a19d0be43fca3af348 acknowledged after write-through.
+
 - 2026-10-18 daily integration: 34 completed-primary descriptive screen, all required control execution statuses, current family holds, twelve-position theory filing, instruments and shared status/TODO reconciled. Exact source/quote retention, added links, theory lint, 21 locks and multiplicity audit verified; no new test or scientific admission. EV counted consumer implementation remains next.
 
 ## October 18 20:02 PDT: daily-boundary liveness

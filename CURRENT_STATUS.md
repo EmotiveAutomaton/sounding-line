@@ -1,5 +1,13 @@
 # Current status
 
+**October 18, after the daily integration:** The validated EV authenticated
+D33 consumer is running in Gear 2 and has entered fresh verification. It uses
+one counted CPU slot and preserves the demo reservation. Engine-reader and
+statistical admission remain unfinished; GPU continuation remains resource-held.
+[Native validation and launch](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_BUILD_20261018.md).
+The daily checkpoint is pushed as `c1e4dd16b`; its no-worker observation below
+describes the earlier cutoff, before this dispatch.
+
 **October 18 daily integration: Gear 2 is authorized; Stage 15 remains open.**
 All five canonical primaries and the EV 100-session input pilot are complete and
 verified. No science worker is active at the 20:02 native inspection. GPU work

@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-18T20:43:31.904717-07:00",
+  "instrument": "EV authenticated D33 consumer",
+  "targeted_checks": 9,
+  "native_rehearsal": {
+    "pins": 73,
+    "artifacts": 12,
+    "plan_sha256": "73f6e88e0f13e03b24376aa6f35259865648dc782707b2ae413bc76ed89f2d58",
+    "exact_workers_exited": true,
+    "released_slot": true,
+    "known_answer_reconciled": true
+  },
+  "first_rehearsal_limit": "First constructed completion included an extra plan-hash field absent from the native producer. Before corpus dispatch the consumer was corrected to use the native output manifest binding and the fixture now matches that schema. Both nine-check suites and both native runs remain preserved.",
+  "scope": "Full original D33 row/covariate reconstruction joined to the completed first100 final-document input cohort, keeping every original row and explicit support dispositions. No engine score or scientific admission.",
+  "code_sha256": "b7d3548333a513037eefc1fee8188c381241929882843433a0a98add60371286",
+  "test_sha256": "78f47c87bbdfa183cad2c2e3fcabf881c86d23a05f5bab23db5503510501ede2",
+  "launch": {
+    "plan_sha256": "609da74455c58b1192741f9cc4e66c35e362a23dae20173ec0ef9fd81d3ce9d0",
+    "pins": 1990,
+    "native": [
+      {
+        "cpu_seconds": 1.0,
+        "matching": true,
+        "native": {
+          "created_ticks": 134368548761664587,
+          "executable": "C:\\Python313\\python.exe",
+          "pid": 188332
+        },
+        "role": "OWNER.json"
+      },
+      {
+        "cpu_seconds": null,
+        "matching": false,
+        "native": {
+          "created_ticks": 134368548774557112,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 63016
+        },
+        "role": "EXECUTE_CHILD.json"
+      },
+      {
+        "cpu_seconds": 0.0,
+        "matching": true,
+        "native": {
+          "created_ticks": 134368548954852826,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 148960
+        },
+        "role": "VERIFY_CHILD.json"
+      }
+    ],
+    "progress": {
+      "at": "2026-10-19T03:41:35.483011+00:00",
+      "phase": "verify"
+    },
+    "resources": {
+      "commit_headroom_GiB": 27.57845687866211,
+      "disk_free_GiB": 397.4727439880371,
+      "ram_available_GiB": 34.36791229248047
+    },
+    "actual_verifier": {
+      "pid": 67144,
+      "created_ticks": 134368548955067026,
+      "cpu_seconds_at_inspection": 43.046875
+    },
+    "counted_cpu_slots": 1,
+    "numerical_threads": 1,
+    "combined_wall_cap_seconds": 1800,
+    "demo_reservation_retained": true
+  },
+  "status": "corpus consumer in fresh verification; unfinished, no per-artifact support or scores reported",
+  "scientific_admission": false
+}

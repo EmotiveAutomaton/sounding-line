@@ -1,5 +1,13 @@
 # October 16 drive runners
 
+`cards/engine_d33_consumer` authenticates the completed source pilot and original
+D33 rows before exact final-survivor joins. Nine targeted checks and corrected
+native rehearsal pass; bounded corpus execution is in fresh verification.
+Every original row remains, with unsupported states explicit. This does not
+admit engine-word scoring, typed fragments or scientific consumers. The source
+pilot and all five canonical primaries are complete; older running snapshots
+below retain their historical time. [Consumer build](../../results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_BUILD_20261018.md).
+
 ## EV input construction
 
 `cards/engine_input_pilot` adds the resumable counted source-preparation worker.
