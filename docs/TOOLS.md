@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV3 habit-input preparation:** 12 targeted checks and actual-engine native replay pass, including exact parity with retained final-text exporter fixtures and typed-gap preservation. Full input preparation is running; identification is unrun. Original failed checks and the sandbox ownership refusal remain. [Validation and dispatch](../results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_BUILD_20261019.md).
+
 **EV2 signature comparison is verified complete:** the common supported population passes the frozen recurrence and reassignment gates. The route “recurs in the writer's other work” is supported as an aggregate final-text instrument result; unmatched support, model-suggested wording and fixed-corpus uncertainty remain explicit. Source/output integrity, complete fresh replay, independent saved arithmetic and native closure pass. [Complete result and limits](../results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md). Earlier dispatch notes retain their cutoff dates.
 
 **EV2 signature comparison:** 23 targeted checks, two counted native rehearsals and exact original/guarded-handler equality pass. The validated comparison is running over authenticated full-reader output with common support and all 200 reassignment controls; no corpus result yet. [Validation](../results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md).

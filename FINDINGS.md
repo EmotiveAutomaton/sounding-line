@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV3-HABIT-INPUT-BUILD
+
+**Hypothesis.** The pinned engine's final-text and surviving typed-text habit descriptions can preserve source boundaries without rerunning the preview reader.
+**METHOD.** Test exact rates, missing support, Unicode/gaps, complete replay, immutable reentry and source/output/stop refusals, then run the actual contained native child and independently compare its final habits with retained actual-exporter fixtures.
+**Found.** All 12 targeted checks and the owner-account native rehearsal pass, including fresh replay and exact exporter parity. **Means.** Full-corpus habit preparation is running; writer identification remains unrun. The initial fragment-schema defect, incomplete unit fixtures and sandbox Git-ownership refusal are preserved. The owner-account rehearsal retains Git's protections and unchanged engine/statistic definitions. [Complete build, failures and dispatch](results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_BUILD_20261019.md).
+
+Curator roll-up: engine habits; can final and typed habit inputs preserve source boundaries and exact engine definitions?; **Infrastructure**; the input handler passes 12 targeted checks and full native replay; project meaning: commissioned habit preparation is executing without model calls; next engineering obligation: land the complete input replay and build the fixed-gallery comparison; public claim unchanged; curator decision required: No. Detail: [build and limits](results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_BUILD_20261019.md). No new research test harvested.
+
 ### S15-EV2-SIGNATURES-V1
 
 **Hypothesis.** Phrases selected as recurring departures on one page recur more often in that writer's work on other prompts than in other writers' work on the same prompts.

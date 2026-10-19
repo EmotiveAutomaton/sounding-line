@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/engine_habits_input` and `engine_habits_child` prepare final/typed habit vectors under the pinned engine, with no reader execution. Twelve checks and actual-engine native replay pass; corpus preparation is running. The signature comparison is now [verified complete](../../results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md); earlier dispatch notes below retain their historical scope. [Habit input contract](../../docs/design/stage-15/drive/EV3_HABIT_INPUT_20261019.md).
+
 `cards/engine_signatures` and its separately validated `engine_signatures_guarded` handler implement the week EV2 comparison.23 focused checks and two counted native rehearsals pass. Full reader completion is authenticated; the corpus comparison is running with prompt-matched target pools, common supported source rows, 200 session reassignments and 2,000 paired real-writer draws. No unfinished corpus scores are reported. [Frozen choices](../../docs/design/stage-15/drive/EV2_SIGNATURES_20261019.md) · [build and launch](../../results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md).
 
 `cards/engine_export_full` validates exact completed-pilot export reuse, fixed

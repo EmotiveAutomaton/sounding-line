@@ -1,5 +1,7 @@
 # Campaign operations
 
+- October 19, 05:26 PDT: native habit-input validation and exact exporter-fixture parity pass; original schema/fixture failures and sandbox ownership refusal retained. Full habit-input preparation launched under the owner account with all 9,058 source pins, actual native ownership, lease, resource floors and terminal watches verified. [Complete build record](EV3_HABIT_INPUT_BUILD_20261019.md). No model/paid call or GPU restart; input cost carries into the original EV3 allowance.
+
 - October 19, 05:09 PDT: EV2 corpus completion authenticated: all 9,057 pins, terminal outputs, full fresh replay, independently reconstructed saved arithmetic, native exits and released CPU lease. Full [instrument result](EV2_SIGNATURES_V1.md) recorded. The delivered original-native rehearsal notice was already landed and ACKed; delayed delivery does not rerun it. No paid call, GPU restart or new study. Theory/TODO integrate at 20:00; other EV consumers remain unfinished.
 
 - October 19, 04:57 PDT: EV2 native build/replay passed; corpus owner/children, 9,057 pins, CPU lease, resources and watcher registration verified. [Build and launch](EV2_BUILD_20261019.md). Original failed fixture retained; no scientific result, paid call or new test harvested.
