@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+[19:15 scheduled inspection](HEALTH_20261018_1915.md): the
+[100-session EV source pilot is complete and fully verified](EV_INPUT_PILOT_V1.md),
+including the actual exporter input check. Its workers exited and slot is released.
+D32 continues independent replay. Exact consumer joins, typed fragments and
+measured reader admission remain unfinished; source cost must be included in
+full-corpus admission. GPU continuation remains resource-held.
+
 [18:52 scheduled inspection](HEALTH_20261018_1852.md), refreshed at 19:03: D32's
 independent verifier continues, and the [validated EV source-input worker](EV_INPUT_BUILD_20261018.md)
 is running its bounded 100-session source pilot on a second counted CPU slot.

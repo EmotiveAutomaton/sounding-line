@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### OPS-S15-EV-INPUT-PILOT-V1
+
+**Hypothesis.** The authenticated input worker can reconstruct final documents and exact production occurrences on actual source records within its bounded pilot allocation.
+**METHOD.** Process the first 100 sorted primary sessions, fully reconstruct them from source in a fresh process, independently reconcile all source/output hashes and support counts, and pass every serialized document through the pinned exporter's input validator with feature computation disabled.
+**Found.** All 100 inputs and full fresh replay verify; 450 source pins and 116 terminal artifacts reconcile. The original occurrence ledger and all serialized documents agree, exact workers exited and the CPU slot is released. Combined active wall time is 962.19 seconds under the unchanged cap. **Means.** This completed input cohort is ready for separately admitted consumers; no reader, scientific test, full-corpus admission or badge has run. Source preparation/replay alone projects to about 3.74 hours by linear extrapolation, without an uncertainty allowance; measured reader cost must be added before combined admission.
+
+D32 continues independent verification with advancing actual CPU time. Source/research locks, resources, leases, calendars and actual watcher delivery pass inspection; GPU continuation remains below its unchanged cold-start floor. No failed worker requires recovery and no new research test or probability was added. Shared instrument/TODO/theory integration remains at 20:00.
+
+Curator roll-up: engine validation; can the authenticated input worker complete its bounded corpus pilot?; **Infrastructure**; all 100 pilot documents and fresh replay verify; project meaning: real source preparation is validated and costed; next engineering obligation: finish exact consumer joins and measured reader admission with full combined cost accounting; public claim unchanged; curator decision required: No; detail: [complete input pilot](results/phase_2_4_stage_15/DRIVE/EV_INPUT_PILOT_V1.md) and [scheduled inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_1915.md).
+
 ### OPS-S15-EV-INPUT-BUILD-1018
 
 **Hypothesis.** A resumable input worker can reconstruct final documents and exact production occurrences without silently changing sources or accepting altered checkpoints.
