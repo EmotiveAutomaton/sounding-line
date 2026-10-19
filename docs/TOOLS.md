@@ -1,5 +1,11 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV first-100 support exporter:** Separate fixed scope passes 21 targeted checks
+and complete native known-answer replay. Exact corpus dispatch is running under
+one counted CPU slot with prior costs and demo reservation. Source, support and
+full-population admission remain separate; retained test/native failures are recorded.
+[Build and dispatch](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md).
+
 **EV pinned reader:** The complete ten-document CPU pilot reproduces exactly
 in fresh uncached verification. All source/output hashes, original-row support,
 native exits and released slot verify. First-100 support, full-corpus cost

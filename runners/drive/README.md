@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+`cards/engine_export_support_pilot` freezes the required first-100 scope over
+the same authenticated exporter functions. It passes 21 targeted checks and
+complete native known-answer replay; the real-reader support export is running
+under the contained runtime. Prior corpus-pilot charges and measured RAM are
+retained. First-ten timing is complete; full-population/statistical admission
+remains separate. [Build and limits](../../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md).
+
 `cards/engine_export_pilot_v2` uses the authenticated handler with a safe Python
 import path; its failed v1 native attempt and capsule are retained. The native
 job runtime contains descendants and monitors both execution and verification.

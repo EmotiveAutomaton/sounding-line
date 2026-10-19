@@ -1,5 +1,11 @@
 # STATE: the agent's operational file
 
+**October 18, 22:45 PDT:** The required first-100 EV support export is running
+after targeted and full native admission. It retains prior costs, fresh uncached
+replay, measured RAM and the demo slot. The completed first-ten result is pushed.
+Full-population/statistical admission remains separate. GPU work is resource-held;
+no paid batch is active. [Dispatch and limits](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md).
+
 **October 18, 22:36 PDT:** The ten-document EV reader timing pilot has completed
 and passed exact fresh uncached replay. Native workers exited and released their
 counted slot. First-100 support/cost admission is next; full-corpus execution and

@@ -1,5 +1,13 @@
 # Current status
 
+**October 18, 22:45 PDT:** The required first-100 EV support export is running
+on one counted CPU slot, with exact native progress and monitoring verified.
+One slot remains reserved for ToMpathy. All prior pilot costs are retained;
+execution and fresh uncached verification share a one-hour cap. Full-population
+and scientific admission remain separate. GPU continuation remains resource-held.
+The completed first-ten result and handler are pushed as `df28d9b18`.
+[Validated support dispatch](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md).
+
 **October 18, 22:36 PDT:** The ten-document EV reader pilot is verified
 complete, including exact fresh uncached replay and native cleanup. The required
 first-100 support pilot is next to build; no science worker is active at this

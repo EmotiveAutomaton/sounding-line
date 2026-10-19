@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 18, 22:45 PDT:** [First-ten reader timing](EV_EXPORT_TIMING_V1.md) is
+verified complete and pushed. The [required first-100 support export](EV_EXPORT_SUPPORT_V1_BUILD.md)
+is running under counted supervision; full-population and scientific admission
+remain separate. Earlier inspection snapshots below retain their original times.
+
 **October 18 daily integration is current:** [complete digest](DIGEST_20261018.md)
 supersedes the older running/retry statements below. All five canonical primaries
 are verified; original source-held comparisons and control failures remain

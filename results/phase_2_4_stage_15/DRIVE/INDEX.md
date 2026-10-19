@@ -1,5 +1,10 @@
 # October 16 drive: execution index
 
+[Required first-100 support export](EV_EXPORT_SUPPORT_V1_BUILD.md) is running
+after native validation, with all prior charges and the demo slot preserved.
+The [first-ten pilot](EV_EXPORT_TIMING_V1.md) is fully landed. Full-population
+and statistical admission remain separate; earlier snapshots retain their dates.
+
 [Ten-document real-reader timing](EV_EXPORT_TIMING_V1.md) is verified complete,
 with exact fresh replay and released slot. The first-100 signature-support pilot
 is next; full-corpus cost admission and scientific consumers remain unbuilt.

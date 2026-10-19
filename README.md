@@ -9,6 +9,11 @@
 
 # Sounding Line
 
+**October 18, 22:45 PDT:** The [engine reader timing pilot](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_TIMING_V1.md)
+is verified complete. The [required first-100 support export](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md)
+is running in Gear 2 with the demo reservation preserved. Full-population and
+scientific admission remain separate; the dated snapshots below are history.
+
 **October 18 daily integration:** [Current completed screen and next work](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md). All canonical primaries are verified, the twelve-position theory filing is applied, and EV source preparation is validated. No science worker is active at the inspected cutoff: GPU continuation is resource-held and EV consumer/reader admission is being built. Earlier rollout snapshots below are historical.
 
 **Mid-run errata applied:** [current status](CURRENT_STATUS.md) identifies new dispatches, environmental recoveries and source-validity holds. The [implementation record](results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md) separates completed changes from studies still being built. Older dated snapshots below are historical.

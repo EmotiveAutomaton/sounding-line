@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-SUPPORT-BUILD
+
+**Hypothesis.** The authenticated exporter can retain the required first-100 population, exact joins and fresh replay under counted supervision.
+**METHOD.** Freeze the larger pilot separately; test scope/cap refusal, retained identity gates, unsupported rows and replay, then independently audit complete native known-answer execution before real-reader dispatch.
+**Found.** All 21 targeted checks and corrected native rehearsal pass. **Means.** The commissioned first-100 export is running, with prior cost charges and the demo slot preserved. Unit-fixture mistakes and the sandbox-account Git ownership failure are retained; no production validation or Git safeguard was weakened. The [complete build and launch record](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md) records controls, failures, exact scope and limits. No unfinished reader scores, new research test or scientific admission follow.
+
+Curator roll-up: engine validation; can the required support cohort execute without changing source identity or cost accounting?; **Infrastructure**; the handler passes 21 targeted checks and native replay; project meaning: the first-100 support export is executing; next engineering obligation: land the whole cell, evaluate support and combined-cost admission; public claim unchanged; curator decision required: No; detail: [support build](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1_BUILD.md).
+
 ### OPS-S15-EV-EXPORT-TIMING-V1
 
 **Hypothesis.** The pinned CPU reader can export authenticated engine features and reproduce them in a fresh uncached process within its timing allocation.
