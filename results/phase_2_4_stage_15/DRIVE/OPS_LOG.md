@@ -1,5 +1,7 @@
 # Campaign operations
 
+- October 19, 05:09 PDT: EV2 corpus completion authenticated: all 9,057 pins, terminal outputs, full fresh replay, independently reconstructed saved arithmetic, native exits and released CPU lease. Full [instrument result](EV2_SIGNATURES_V1.md) recorded. The delivered original-native rehearsal notice was already landed and ACKed; delayed delivery does not rerun it. No paid call, GPU restart or new study. Theory/TODO integrate at 20:00; other EV consumers remain unfinished.
+
 - October 19, 04:57 PDT: EV2 native build/replay passed; corpus owner/children, 9,057 pins, CPU lease, resources and watcher registration verified. [Build and launch](EV2_BUILD_20261019.md). Original failed fixture retained; no scientific result, paid call or new test harvested.
 
 - 2026-10-18 22:45 PDT: [current inspection](HEALTH_20261018_2245.json) verifies exact native identities, advancing CPU/output, source/research locks, calendars, resources, reserved demo slot and watcher delivery. First-ten reader pilot fully landed and pushed. First-100 support handler passes 21 targeted checks and native replay; its sandbox-account Git failure is retained and separately resolved under owner identity without changing Git configuration. [Support export](EV_EXPORT_SUPPORT_V1_BUILD.md) is running with prior charges and a combined one-hour cap. GPU remains below its unchanged floor. No new tests harvested.

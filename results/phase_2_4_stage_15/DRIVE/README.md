@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 19, 05:09 PDT:** The [signature-recurrence comparison](EV2_SIGNATURES_V1.md) is complete, independently verified and recorded with its full controls and support limits. Its workers exited and released their slot. Departure and habit comparisons remain implementation work; no science worker is active at this cutoff. Gear 2 authorization, the demo reservation and the guarded GPU resource hold remain.
+
 **October 19, 04:57 PDT:** The [signature-recurrence comparison](EV2_BUILD_20261019.md) is running after 23 targeted checks and complete native replay. Full reader export is verified; departure-pause and habit consumers remain unfinished. No corpus result or badge is available. The demo reservation and GPU resource hold remain.
 
 **October 19, 04:36 PDT:** [Full engine-reader export](EV_FULL_READER_V1.md) is verified complete, including exact reuse, uncached replay, original-row retention, cumulative cost and native shutdown. Scientific consumers remain unfinished; no science worker is active at this cutoff. Gear 2 authorization and the demo reservation remain; GPU work is resource-held.

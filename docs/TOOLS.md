@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV2 signature comparison is verified complete:** the common supported population passes the frozen recurrence and reassignment gates. The route “recurs in the writer's other work” is supported as an aggregate final-text instrument result; unmatched support, model-suggested wording and fixed-corpus uncertainty remain explicit. Source/output integrity, complete fresh replay, independent saved arithmetic and native closure pass. [Complete result and limits](../results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md). Earlier dispatch notes retain their cutoff dates.
+
 **EV2 signature comparison:** 23 targeted checks, two counted native rehearsals and exact original/guarded-handler equality pass. The validated comparison is running over authenticated full-reader output with common support and all 200 reassignment controls; no corpus result yet. [Validation](../results/phase_2_4_stage_15/DRIVE/EV2_BUILD_20261019.md).
 
 **EV full-reader export is verified complete:** the full fixed document population, exact pilot reuse, fresh uncached remaining-batch replay, all original writing-log rows and typed fragments pass independent integrity checks. Source/output pins, cumulative cost, native exits and slot release verify. Scientific consumers and the typed-fragment habit variant remain unfinished. [Complete evidence](../results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_V1.md). Earlier build/dispatch notes below describe their original cutoffs.

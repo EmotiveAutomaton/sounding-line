@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### S15-EV2-SIGNATURES-V1
+
+**Hypothesis.** Phrases selected as recurring departures on one page recur more often in that writer's work on other prompts than in other writers' work on the same prompts.
+**METHOD.** Compare prompt-matched literal recurrence in authenticated final-document exports, using common supported source rows across the real assignment and 200 session reassignments, equal-writer averaging and 2,000 paired writer-bootstrap draws.
+**Found.** The supported comparison is positive and its reassignment reference passes the frozen bias check. Own-minus-other recurrence is 1.3842 occurrences per 10,000 words, with a conditional 95% interval of 0.0461 to 3.1419. The paired real-minus-fake contrast is also positive. **Means.** The week packet's signature route is supported on this population: “recurs in the writer's other work”. This is aggregate instrument validation, not private preference, human-only wording or proof about each individual phrase. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md) records all support losses, controls, descriptive probability, validation, cost and limits; no external badge deployment occurred.
+
+Curator roll-up: engine signatures; do page signatures recur in a writer's work on other prompts?; **Infrastructure**; the supported signature comparison passes its frozen interval and control gates; project meaning: the scoped cross-prompt recurrence route is validated; next engineering obligation: finish departure and habit comparisons, then return the complete feature table; public claim newly licensed only for the scoped aggregate recurrence route; curator decision required: No. Detail: [complete evidence](results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.md). No new research test harvested from this wake.
+
 ### OPS-S15-EV2-BUILD
 
 **Hypothesis.** A matched cross-prompt comparison can distinguish writer-specific phrase recurrence from shared or prompt-only wording.
