@@ -1,0 +1,311 @@
+{
+  "at": "2026-10-19T00:07:39.121766-07:00",
+  "pin_checks": {
+    "cached": 14497,
+    "hashed": 2633
+  },
+  "resources": {
+    "commit_headroom_GiB": 31.040069580078125,
+    "disk_free_GiB": 397.3269844055176,
+    "ram_available_GiB": 36.343849182128906
+  },
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 6504,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 36,
+    "used_MiB": 5494,
+    "utilization_percent": 3
+  },
+  "demo_reservation_retained": true,
+  "research_locks": "All21 verified separately this pass",
+  "no_tests_harvested": true,
+  "no_partial_scientific_scores_read": true,
+  "engine_export": "First100 support pilot complete, independently verified and fully landed. Full-source continuation running with exact parent reuse and fresh replay of remaining sessions; full-reader adapter and actual-cost admission remain. No scientific score or badge.",
+  "event": "21279d50ea04fdf7e1149e92",
+  "jobs": [
+    {
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "phase": "verify",
+      "terminals": [
+        "COMPLETE.json"
+      ],
+      "output_files": 4412,
+      "output_bytes": 26413168,
+      "newest_output_age_seconds": 23882.345443487167,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 3780,
+          "created_ticks": 134368340173768984,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 80212,
+          "created_ticks": 134368340205353646,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 25224,
+          "created_ticks": 134368433756264053,
+          "live": false,
+          "cpu_seconds": null
+        }
+      ]
+    },
+    {
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "terminals": [],
+      "output_files": null,
+      "output_bytes": null,
+      "newest_output_age_seconds": null,
+      "heartbeat": {
+        "at": "2026-10-19T07:07:28.669342+00:00",
+        "next_milestones": [
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "native_identities": [
+        {
+          "pid": 77320,
+          "created_ticks": 134367443601019868,
+          "live": true,
+          "cpu_seconds": 7.296875
+        }
+      ]
+    },
+    {
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "terminals": [],
+      "output_files": null,
+      "output_bytes": null,
+      "newest_output_age_seconds": null,
+      "heartbeat": {
+        "at": "2026-10-19T07:07:26.790017+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "native_identities": [
+        {
+          "pid": 644,
+          "created_ticks": 134368329836144485,
+          "live": true,
+          "cpu_seconds": 2.21875
+        }
+      ]
+    },
+    {
+      "job": "drive-ev-input-pilot-v1",
+      "phase": "verify",
+      "terminals": [
+        "COMPLETE.json"
+      ],
+      "output_files": 110,
+      "output_bytes": 7975930,
+      "newest_output_age_seconds": 17512.660496234894,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 146396,
+          "created_ticks": 134368487760369029,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 180384,
+          "created_ticks": 134368487767205595,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 117500,
+          "created_ticks": 134368492570157468,
+          "live": false,
+          "cpu_seconds": null
+        }
+      ]
+    },
+    {
+      "job": "drive-ev-d33-consumer-v1",
+      "phase": "verify",
+      "terminals": [
+        "COMPLETE.json"
+      ],
+      "output_files": 5,
+      "output_bytes": 4143967,
+      "newest_output_age_seconds": 12005.429914712906,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 188332,
+          "created_ticks": 134368548761664587,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 63016,
+          "created_ticks": 134368548774557112,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 148960,
+          "created_ticks": 134368548954852826,
+          "live": false,
+          "cpu_seconds": null
+        }
+      ]
+    },
+    {
+      "job": "drive-ev-export-timing-v1",
+      "phase": "verify",
+      "terminals": [
+        "COMPLETE.json"
+      ],
+      "output_files": 26,
+      "output_bytes": 11055067,
+      "newest_output_age_seconds": 5865.238151311874,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 114224,
+          "created_ticks": 134368611954557129,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 199536,
+          "created_ticks": 134368611975533758,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 135972,
+          "created_ticks": 134368612873960703,
+          "live": false,
+          "cpu_seconds": null
+        }
+      ]
+    },
+    {
+      "job": "drive-ev-export-support-v1",
+      "phase": "verify",
+      "terminals": [
+        "COMPLETE.json"
+      ],
+      "output_files": 26,
+      "output_bytes": 69476599,
+      "newest_output_age_seconds": 3975.8151700496674,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 100216,
+          "created_ticks": 134368623203490862,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 82708,
+          "created_ticks": 134368623224592958,
+          "live": false,
+          "cpu_seconds": null
+        },
+        {
+          "pid": 150840,
+          "created_ticks": 134368626513563965,
+          "live": false,
+          "cpu_seconds": null
+        }
+      ]
+    },
+    {
+      "job": "drive-ev-input-full-v1",
+      "phase": "execute",
+      "terminals": [],
+      "output_files": 1519,
+      "output_bytes": 13566132,
+      "newest_output_age_seconds": 5.249140024185181,
+      "heartbeat": null,
+      "native_identities": [
+        {
+          "pid": 182124,
+          "created_ticks": 134368645640342515,
+          "live": true,
+          "cpu_seconds": 9.53125
+        },
+        {
+          "pid": 186292,
+          "created_ticks": 134368645688666309,
+          "live": true,
+          "cpu_seconds": 0.0
+        }
+      ]
+    }
+  ],
+  "active_source": {
+    "plan_sha256": "024d7675730072aaec4d9528a9fbd21bbdb1e3fa8aa37df21af628bc238b434f",
+    "progress_followup_at": "2026-10-19T00:13:15.751427-07:00",
+    "progress": {
+      "completed": 832,
+      "phase": "execute",
+      "total": 1399
+    },
+    "progress_age_seconds": 2.40700101852417,
+    "actual_worker": {
+      "pid": 114928,
+      "created_ticks": 134368645688922326
+    },
+    "actual_worker_cpu_seconds_at_inspection": 2672.234375,
+    "execution_below_normal": true,
+    "limits": {
+      "max_output_bytes": 4294967296,
+      "max_wall_seconds": 13500,
+      "original_wall_ceiling_seconds": 14400,
+      "prior_wall_seconds_charged": 2464.068555400004
+    },
+    "first_tenth": {
+      "new_completed": 130,
+      "projected_seconds": 10978.392435651096,
+      "scope": "Remaining source construction plus full new-session replay; reader reserved separately"
+    }
+  },
+  "counted_cpu_slots": 1,
+  "watcher": {
+    "source_verified": true,
+    "last_scan_age_seconds": 26.453749418258667,
+    "error": null,
+    "historical_failures": 2,
+    "health_schedule": {
+      "due": 1792406508.260207,
+      "id": "2428b807e5e949a08d9d5c7758694b40",
+      "interval_seconds": 21600,
+      "last_inspected": 1792384908.260207,
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63"
+    },
+    "actual_deadline_delivery_verified": true
+  },
+  "recovery": "No recovery required. Full source preparation advances under its unchanged cap. Completed predecessor workers exited; current owner and actual worker identities verified. Both calendar heartbeats and watcher delivery pass.",
+  "eligible_next_work": "Full-reader reuse remains implementation work, followed by actual-source-cost admission. No ready admissible successor. GPU continuation remains below the unchanged cold-start floor. No new research, paid work or gear change.",
+  "next_check_basis": "About 30 minutes ahead, before the estimated execution-to-fresh-replay boundary; terminal and failure notifications remain immediate. The independent six-hour health deadline is unchanged."
+}

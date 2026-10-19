@@ -33,8 +33,9 @@ Full-reader continuation and scientific admission remain separate.
   and required signature-support floors independently verified.
 - [ ] S15-EV-FULL-SOURCE: validated full 1,399-document source continuation running;
   exact pilot reuse and remaining fresh replay within the fixed cost reservation.
-- [ ] S15-EV-READER: implement/validate full-reader reuse and admit against actual
-  source costs, all prior charges and fresh reader replay before full-reader dispatch.
+- [ ] S15-EV-READER: full-reader reuse is implemented and passes 12 targeted
+  checks plus counted native replay. Admit against verified completed source costs,
+  all prior charges and fresh reader replay before full-reader dispatch.
 - [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
   reliability table and exact limits. No badge before a complete valid cell.
 - [ ] S15-D33-SUPPORTED: calibration-supported smaller variant under S1;

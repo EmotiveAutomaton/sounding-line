@@ -1,5 +1,12 @@
 # Current status
 
+**October 19, 00:55 PDT: Gear 2 source preparation is in fresh replay.**
+The full-reader continuation is built and passes 12 targeted checks plus counted
+native known-answer replay. It preserves verified pilot bytes and the single
+combined cost ceiling. Corpus dispatch awaits verified full-source completion
+and actual remaining-cost admission. GPU remains resource-held; no paid batch
+is active. [Build and limits](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_BUILD_20261019.md).
+
 **October 18, 23:23 PDT: Gear 2 source continuation is running.** The full
 1,399-document input worker reuses the verified first 100 records and reconstructs
 and freshly replays the remaining 1,299. Nine targeted checks and actual native

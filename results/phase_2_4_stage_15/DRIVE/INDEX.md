@@ -1,5 +1,10 @@
 # October 16 drive: execution index
 
+[Full-reader continuation](EV_FULL_READER_BUILD_20261019.md) passes 12 targeted
+checks and complete counted native replay. The real full-source worker is in
+fresh replay at October 19 00:55 PDT. Reader dispatch awaits verified source
+completion and actual cumulative-cost admission; no scientific comparison is admitted.
+
 [Full source continuation](EV_FULL_SOURCE_BUILD_20261018.md) is validated and
 running at October 18 23:23 PDT, over all 1,399 documents with the exact first 100
 reused. Independent replay of the remaining 1,299 is included in its fixed cap.

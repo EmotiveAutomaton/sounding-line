@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 19, 00:55 PDT:** [Full-reader continuation](EV_FULL_READER_BUILD_20261019.md)
+is built and validated with targeted tests and complete native replay. Source
+preparation is in fresh replay; reader dispatch waits for verified source
+completion and actual remaining-cost admission. Scientific work remains separate.
+
 **October 18, 23:23 PDT:** [Full source preparation](EV_FULL_SOURCE_BUILD_20261018.md)
 is validated and running. Prior pilot records are reused byte-identically;
 remaining documents receive fresh source replay under a cap that reserves reader

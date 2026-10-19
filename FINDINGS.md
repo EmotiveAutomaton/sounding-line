@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-FULL-READER-BUILD
+
+**Hypothesis.** Completed reader exports can be reused exactly while the remaining documents receive fresh scoring and independent replay within the original combined allowance.
+**METHOD.** Validate fixed-batch continuation with known answers, changed-evidence refusals, saved-batch resume and counted native execution through the pinned exporter, then compare fresh uncached replay and original-row accounting.
+**Found.** All 12 targeted checks and native replay pass. **Means.** The full-reader continuation is built and validated; dispatch awaits verified source completion and actual-cost admission. No scientific result or badge follows. [Complete build report](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_BUILD_20261019.md).
+
+Curator roll-up: engine export; can authenticated pilot work carry forward without losing exact replay or resetting cost?; **Infrastructure**; twelve targeted checks and native replay pass; project meaning: the full-reader continuation is built; next engineering obligation: land source completion, recheck actual cost and dispatch if admitted; public claim unchanged; curator decision required: No; detail: [build validation](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_BUILD_20261019.md). No new research tests or probabilities harvested.
+
 ### OPS-S15-EV-SUPPORT-V1
 
 **Hypothesis.** The pinned reader can export the required support cohort, retain original word identities and reproduce its output within the allocation.

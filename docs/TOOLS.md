@@ -1,5 +1,12 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV full-reader continuation:** Twelve targeted checks and counted native
+known-answer replay validate exact completed-pilot reuse, fixed new batches,
+uncached replay, original-row retention, sealed-batch resume and cumulative-cost
+refusal. Full-reader corpus dispatch awaits verified source completion and
+actual-cost admission. No scientific comparison is included.
+[Validation](../results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_BUILD_20261019.md).
+
 **EV full-source continuation:** Nine targeted checks and native known-answer
 replay validate exact pilot reuse, newly reconstructed sessions, corruption
 refusal, saved boundaries and fixed cumulative-cost reservation. The full source

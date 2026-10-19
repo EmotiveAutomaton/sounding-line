@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+`cards/engine_export_full` validates exact completed-pilot export reuse, fixed
+new batches and fresh uncached replay. Twelve targeted checks and complete
+counted native known-answer validation pass. Full-reader corpus dispatch waits
+for verified source completion and actual cumulative-cost admission. It preserves
+all original rows and the single combined ceiling; it runs no statistical test.
+[Validation](../../results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_BUILD_20261019.md).
+
 `cards/engine_input_full` validates byte-identical completed pilot reuse and
 fresh source replay for remaining sessions. Nine targeted checks and actual
 counted native validation pass. Full1,399-document source preparation is running
