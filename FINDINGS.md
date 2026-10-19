@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV3-HABIT-INPUT
+
+**Hypothesis.** The pinned engine can describe the complete final-document and surviving typed-fragment populations reproducibly without another reader run.
+**METHOD.** Extract both variants from authenticated source records, repeat extraction in a fresh native process, and independently verify every source/output hash, exact final-export parity, fragment construction, saved assembly and native shutdown.
+**Found.** Both complete habit-input variants reproduce exactly. **Means.** Inputs for the prescribed writer-identification test are ready; that test remains unrun. The typed variant consists of surviving typed runs separated at non-typed gaps, not the original continuous prose. [Complete coverage, evidence and cost](results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_V1.md).
+
+Curator roll-up: engine habits; can complete final and surviving typed inputs preserve exact engine definitions and source boundaries?; **Infrastructure**; both complete habit-input variants reproduce exactly; project meaning: authenticated identification inputs are ready; next engineering obligation: build and validate the fixed-gallery consumer within the remaining combined allowance; public claim unchanged; curator decision required: No. Detail: [complete report](results/phase_2_4_stage_15/DRIVE/EV3_HABIT_INPUT_V1.md). No new research test or probability harvested.
+
 ### OPS-S15-EV3-HABIT-INPUT-BUILD
 
 **Hypothesis.** The pinned engine's final-text and surviving typed-text habit descriptions can preserve source boundaries without rerunning the preview reader.
