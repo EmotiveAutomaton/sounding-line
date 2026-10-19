@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-FULL-SOURCE
+
+**Hypothesis.** The complete final-document population can preserve production identity while reusing verified pilot bytes and independently reconstructing the remaining records within the existing allowance.
+**METHOD.** Reconstruct every new session, repeat source reconstruction in a fresh native process, and independently authenticate all source/output hashes, exact pilot reuse, saved document assembly, counts, timing, native exits and slot release.
+**Found.** The full source preparation reproduces exactly. **Means.** Its completed evidence and measured cost admit the already validated full-reader continuation. Reader execution and scientific comparisons remain separate; no association, writer-identification result or badge follows. The [complete report](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md) records the whole population, source support and cumulative cost.
+
+Curator roll-up: engine inputs; can the full source population preserve identity and exact replay within its allocation?; **Infrastructure**; the complete source preparation reproduces exactly; project meaning: source evidence and actual cost permit the validated reader continuation; next engineering obligation: dispatch and verify complete reader export, then admit scientific consumers; public claim unchanged; curator decision required: No; detail: [complete source and cost](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md). No new research test or probability harvested.
+
 ### OPS-S15-EV-FULL-READER-BUILD
 
 **Hypothesis.** Completed reader exports can be reused exactly while the remaining documents receive fresh scoring and independent replay within the original combined allowance.

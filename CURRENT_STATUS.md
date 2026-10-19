@@ -1,5 +1,16 @@
 # Current status
 
+**October 19, 02:12 PDT: full engine-reader continuation is running in Gear 2.**
+[Complete source preparation](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md)
+passes exact reconstruction/replay, source integrity and native closure. Actual
+remaining cost admits the fixed full-reader continuation, now verified under a
+counted CPU lease with contained exporter descendants and immediate monitoring.
+The completed first 100 exports are reused; remaining documents receive fresh
+scoring and uncached replay. The forecast is about 3 hours 26 minutes; the fixed
+remaining cap is about 4 hours 34 minutes. One slot stays reserved for ToMpathy.
+GPU remains resource-held; no paid batch or scientific result follows.
+[Native launch and limits](results/phase_2_4_stage_15/DRIVE/EV_FULL_READER_LAUNCH_20261019.json).
+
 **October 19, 00:55 PDT: Gear 2 source preparation is in fresh replay.**
 The full-reader continuation is built and passes 12 targeted checks plus counted
 native known-answer replay. It preserves verified pilot bytes and the single

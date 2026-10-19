@@ -3,8 +3,9 @@
 The [October 18 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md)
 is complete. Stage 15 remains open. The fixed ten-document EV reader timing
 pilot and required first-100 support export are verified complete.
-The support gate passes; validated full-source continuation is running.
-Full-reader continuation and scientific admission remain separate.
+The support gate passes; full-source continuation is verified complete.
+Full-reader continuation is running after actual-cost admission; complete replay
+and scientific admission remain separate.
 
 - [x] S15-DRIVE-CANONICALS: D38, D32, D4, D14 and D2 primaries independently
   verified and integrated; originals retained under source holds. D12 rank-only
@@ -31,11 +32,11 @@ Full-reader continuation and scientific admission remain separate.
   verified complete, with full replay and prior charges recorded.
 - [x] S15-EV-SUPPORT: complete first-100 export, exact uncached replay, source/row integrity
   and required signature-support floors independently verified.
-- [ ] S15-EV-FULL-SOURCE: validated full 1,399-document source continuation running;
-  exact pilot reuse and remaining fresh replay within the fixed cost reservation.
+- [x] S15-EV-FULL-SOURCE: all 1,399 documents verified; exact pilot reuse,
+  fresh remaining-source replay, native closure and actual-cost admission pass.
 - [ ] S15-EV-READER: full-reader reuse is implemented and passes 12 targeted
-  checks plus counted native replay. Admit against verified completed source costs,
-  all prior charges and fresh reader replay before full-reader dispatch.
+  checks plus counted native replay. Completed source and actual-cost admission
+  now pass; fixed full-reader scope is running, with fresh replay required.
 - [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
   reliability table and exact limits. No badge before a complete valid cell.
 - [ ] S15-D33-SUPPORTED: calibration-supported smaller variant under S1;

@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV full-source completion:** The complete fixed source population passes fresh reconstruction, exact pilot reuse, saved document assembly and all source/output checks. Native workers exited and released their slot. Actual cumulative cost admits the validated full-reader continuation; scientific consumers remain separate. [Complete evidence and cost](../results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_V1.md).
+
 **EV full-reader continuation:** Twelve targeted checks and counted native
 known-answer replay validate exact completed-pilot reuse, fixed new batches,
 uncached replay, original-row retention, sealed-batch resume and cumulative-cost

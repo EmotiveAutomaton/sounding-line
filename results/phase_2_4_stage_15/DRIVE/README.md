@@ -1,5 +1,9 @@
 # October 16 drive evidence
 
+**October 19, 02:12 PDT:** [Full-reader continuation](EV_FULL_READER_LAUNCH_20261019.json) is running under counted CPU supervision after [complete source validation](EV_FULL_SOURCE_V1.md) and actual-cost admission. The demo reservation, original population and combined ceiling are preserved. Scientific consumers remain separate.
+
+**October 19, 02:09 PDT:** [Full source preparation](EV_FULL_SOURCE_V1.md) is verified complete. Exact reuse, independent remaining-source replay and cumulative cost pass; the validated reader continuation is ready for dispatch. No scientific result or badge follows.
+
 **October 19, 00:55 PDT:** [Full-reader continuation](EV_FULL_READER_BUILD_20261019.md)
 is built and validated with targeted tests and complete native replay. Source
 preparation is in fresh replay; reader dispatch waits for verified source
