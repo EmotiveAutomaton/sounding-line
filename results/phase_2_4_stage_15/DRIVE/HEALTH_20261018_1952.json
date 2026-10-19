@@ -1,0 +1,223 @@
+{
+  "at": "2026-10-18T19:52:27.806467-07:00",
+  "demo_reservation_retained": true,
+  "engine_export": "Input pilot complete and source verified; D33 join component constructed checks pass. Counted authenticated join/engine-reader admission remain implementation work",
+  "events_inspected": [],
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 6227,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 38,
+    "used_MiB": 5771,
+    "utilization_percent": 2
+  },
+  "jobs": [
+    {
+      "first_tenth": {
+        "completed_bootstrap": 20,
+        "projected_full_main_seconds": 24337.88480929588,
+        "projected_seconds": 24337.88480929588,
+        "projection_scope": "Conservative slowest measured bootstrap fit; execution plus full replay; controls measured separately in timing pilot",
+        "total_bootstrap": 2000
+      },
+      "identities": [
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340173768984,
+            "executable": "python.exe",
+            "pid": 3780
+          },
+          "record": "OWNER.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340205353646,
+            "executable": "python.exe",
+            "pid": 80212
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368433756264053,
+            "executable": "python.exe",
+            "pid": 25224
+          },
+          "record": "VERIFY_CHILD.json"
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 42650.479929,
+        "original_wall_ceiling_seconds": 43200,
+        "prior_wall_seconds_charged": 549.520071
+      },
+      "newest_output_age_seconds": 8575.416038036346,
+      "output_bytes": 26413168,
+      "output_files": 4412,
+      "phase": "verify",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "terminals": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T02:51:57.648608+00:00",
+        "next_milestones": [
+          "DIGEST_20261018",
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 6.46875,
+          "live": true,
+          "native": {
+            "created_ticks": 134367443601019868,
+            "executable": "python.exe",
+            "pid": 77320
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.019123077392578125
+        }
+      ],
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T02:52:25.798697+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "identities": [
+        {
+          "children": [],
+          "cpu_seconds": 1.328125,
+          "live": true,
+          "native": {
+            "created_ticks": 134368329836144485,
+            "executable": "python.exe",
+            "pid": 644
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.0191497802734375
+        }
+      ],
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "first_tenth": {
+        "completed": 10,
+        "projected_full_input_seconds": 14589.514113559597,
+        "projected_seconds": 1042.8530460014008,
+        "scope": "Source-inclusive execution extrapolated and doubled for complete fresh replay; no reader cost",
+        "total": 100
+      },
+      "identities": [
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368487760369029,
+            "executable": "python.exe",
+            "pid": 146396
+          },
+          "record": "OWNER.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368487767205595,
+            "executable": "python.exe",
+            "pid": 180384
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368492570157468,
+            "executable": "python.exe",
+            "pid": 117500
+          },
+          "record": "VERIFY_CHILD.json"
+        }
+      ],
+      "job": "drive-ev-input-pilot-v1",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 1800,
+        "original_wall_ceiling_seconds": 1800,
+        "prior_wall_seconds_charged": 0
+      },
+      "newest_output_age_seconds": 2205.7453067302704,
+      "output_bytes": 7975930,
+      "output_files": 110,
+      "phase": "verify",
+      "plan_sha256": "52da2d7863e218af753548f4dcc77560f43d6a952b4ced318b634f56a73d51e9",
+      "source_pins": 450,
+      "terminals": [
+        "COMPLETE.json"
+      ]
+    }
+  ],
+  "next_action": "20:00 PDT shared integration and October18 theory filing; then authenticated EV corpus consumer and measured reader admission.",
+  "no_scientific_scores_read": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 5120,
+    "hashed": 0
+  },
+  "recovery": "No failed/orphaned worker needs recovery. D32 and EV input pilot complete; both calendars live. EV consumer implementation continues; GPU continuation below unchanged floor.",
+  "research_locks": "All21 verified separately this pass",
+  "resources": {
+    "commit_headroom_GiB": 30.188312530517578,
+    "disk_free_GiB": 397.49498748779297,
+    "ram_available_GiB": 36.71920394897461
+  },
+  "slots": [],
+  "watcher": {
+    "error": null,
+    "historical_failures": 2,
+    "last_scan_age_seconds": 47.90620303153992,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "executable": "pythonw.exe",
+      "pid": 131912
+    },
+    "source_verified": true
+  }
+}

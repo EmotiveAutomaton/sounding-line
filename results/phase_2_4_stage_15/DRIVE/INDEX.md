@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+[The D33-to-document join component](EV_D33_JOIN_BUILD_20261018.md) passes 14
+constructed checks and fresh serialized replay. Authenticated counted corpus
+consumption and the engine-word join remain; this is not an EV scientific run.
+
 [Canonical D32 is complete and fully verified](D32-canonical.md): the primary
 remains marginal, all fits pass and the repeated outcome reference does not
 trigger its bias warning. Native workers exited and the CPU slot is released.

@@ -9,6 +9,14 @@ ran it.
 
 ---
 
+### OPS-S15-EV-D33-JOIN-BUILD
+
+**Hypothesis.** Original D33 words and covariates can be joined to final-document occurrences without substituting deleted words or silently dropping unsupported rows.
+**METHOD.** Retain each original row, join only by session/production identity, validate exact typed provenance and support, and exercise known repeated-word/Unicode cases, deliberate corruption and fresh serialized replay.
+**Found.** All 14 targeted checks pass; the first invocation's temporary-directory setup error is retained and the complete rerun passes without a code change. **Means.** The input-join component is validated on constructed cases. Authenticated corpus consumption and counted native rehearsal, exact engine-word/content-word matching, typed fragments, reader cost/support admission and statistical validation remain. No corpus or model ran, and no unsupported row received a zero score. Shared instrument/TODO integration remains at 20:00.
+
+Curator roll-up: engine validation; can original words retain exact identities and covariates through the final-document join?; **Infrastructure**; all 14 constructed checks pass; project meaning: the bridge preserves support and original outcomes; next engineering obligation: authenticated counted consumer and engine-word join; public claim unchanged; curator decision required: No; detail: [join validation](results/phase_2_4_stage_15/DRIVE/EV_D33_JOIN_BUILD_20261018.md).
+
 ### S15-DRIVE-D32-CANONICAL
 
 **Hypothesis.** Offered suggestions outside a writer's earlier typed repertoire are less likely to be accepted.
