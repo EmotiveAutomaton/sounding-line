@@ -520,6 +520,39 @@ interpretation; replicated and controlled for the scoped surface defeats; one ba
 away for explicit-route and record-reading results; untested, logic only for the new
 criticism and familiarity hypotheses.
 
+**Shared expertise and reading from the middle**
+
+> empathy does require shared expertise
+
+> as soon as you have some understanding of the other person's base rate, you can start to look for variations in that base rate to identify preference
+
+> you can still reverse engineer from the middle [...] difficult and rare
+
+> we [have] a lot more shared expertise with any AI model than you would with a human
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator treats shared expertise as necessary for empathy and a known baseline as the starting point for personal variation. The supplied literature proposes an amplifier rather than proving that necessity. Reading a production sequence from an artifact is a separate possible entry; it does not establish the maker's purpose.
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Normative accuracy**: means judging the typical person correctly, distinct from individual departures ([source](https://doi.org/10.1037/h0044919), SNIPPET).
+- **Distinctive accuracy**: means recovering what distinguishes this person from the typical profile ([source](https://doi.org/10.1080/00273171.2010.519262), SNIPPET).
+- **Perception-action model**: links perception of another's state to the observer's own representations ([source](https://doi.org/10.1017/S0140525X02000018), SNIPPET).
+- **In-group advantage**: names better emotion recognition within a shared cultural group ([source](https://doi.org/10.1037/0033-2909.128.2.203), SNIPPET).
+- **Motor expertise**: can contribute anticipatory information beyond watching experience ([source](https://doi.org/10.1038/nn.2182), SNIPPET).
+- **Production-trace compatibility**: asks whether visible stroke directions interact with the observer's movements ([source](https://doi.org/10.1016/j.cognition.2012.06.012), SNIPPET).
+- **Kinematic self-recognition**: uses movement timing to recognize one's own actions ([source](https://doi.org/10.1037/0096-1523.27.2.456), SNIPPET).
+The supplied archaeological term *chaîne opératoire* names a reconstructed production sequence; it is an analyst analogy here, not a validated reader.
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G213** | A reader needs shared coordinates to detect a maker's taste | **OPEN; current existence instrument INSTRUMENT DEAD (test, S15-DRIVE-V4C-DIAGNOSTICS-1018; S15-DRIVE-V4C-SPLIT-1018).** Constructed worlds and exact fitted readers: the descriptive own-coordinate predictive contrast does not repair failed false-alarm calibration. The split history-only reader sees large taste only, not the required medium-strength route. |
+| **G214** | A reader can enter the inference through a production sequence visible in the artifact | **OPEN.** Curator account; shared-expertise and static-trace analogies do not establish the complete human-artifact inference. |
+
+**What the table says.** Recognizing a baseline and recognizing a person's departures are different tasks. Shared experience can be useful without being demonstrated as universally necessary; the current fitted taste test cannot decide that stronger claim. Confidence: instrument-dead for the current existence test; untested, logic only for the shared-coordinate and middle-entry claims.
+
 ## §3. Traversing explanatory levels
 
 > Walking up to an unknown oil painting, you can engage with it on the level of **metaphor** – why did
@@ -1278,6 +1311,7 @@ closest named construct for the propagandist case (Friestad & Wright, 1994, snip
 |   | | *(this row's history is its two-source form of 2026-10-14; capture by drives and by learned value, the analyst's readings of the curator's 2026-10-16 walkthrough, were added the same day)* |
 | **HH-REVERSAL-KINDS** | Reversed choices come in two kinds, flow-state output from expertise audited later against the higher goal, which carries that goal, and near-ties that flip because little was at stake, which do not; the first follows a fast original choice and the second a slow one | **OPEN.** Expert revision targets meaning and structure, and choices between near-equal options are slow (lit, READ); the near-tie kind and the timing contrast are the analyst's; no project measurement of reversal timing |
 | **HH-ATTENTION-TRUST** | Attention is the corrector that sets how far to trust each signal, an inference on whether to trust in a given setting; control, and the effort of wrenching gaze, come from adjusting trust, as when raising the believed interest of a region moves the eyes there | **OPEN.** Attention as precision, salience as expected information gain, policy precision against a habit prior, effort as divergence from habit and arbitration by uncertainty each have support (lit, READ); the framework separates the attention, salience and control the curator joins, and treats effort as the cost of overriding habit rather than a product of trust (lit, READ); Sounding Line card D39 and Ghost study N15 are commissioned. The complete matched next-menu hover comparison is null and its latency secondary unresolved (test, S15-DRIVE-W1-1017, D39; human CoAuthor menu-event records, exact program). These logs do not identify gaze or internal trust; the general mechanism remains open. |
+|   | | *(2026-10-18: the curator specifies per-mistake, surprise-sensitive updating; D39 remains null, while canonical D38 supplies a scoped association rather than a trust measure. See G225 and the section conclusion.)* |
 | **S13-CONTEXT-MEMORY** | Evidence-linked memory improves recorded-action support beyond raw retrieval or repetition | **Original contrast VOID; matched rendering advantage descriptive, general benefit OPEN (test, L455/L456/L460; exposed CoAuthor process records, GPT-2-medium likelihood reader).** The complete information-matched, equal-length primary comparison favors linked over raw or repeated facts on both proper losses throughout. No memory performs better on calibration and reserve; misassociation also improves over raw, and padding changes performance. One component per partition and mostly identical projected views preclude population or replication claims; independent memory and paired literal-confidence comparison remain unavailable. |
 |   | | *(L455: original memory manipulation erased by token projection; L456: unequal-length development correction realizes distinct treatments but favors raw/repeated memory; L460: separately frozen full-roster matched projection reverses that ordering, while no-memory and misassociation controls limit the inference. Original void and exposure retained.)* |
 | **S12-CONTEXT-1** | Correct relations help beyond equally supplied false/irrelevant framing, and more records correct a false frame | **OPEN beyond the complete descriptive blocks (test, constructed worlds, Qwen model reader and exact-program reference, L412/L419).** Correct, false and irrelevant explanations improve against raw input; the second block favors the correct frame, but order, rereading and unchanged repetition also help. Further records substantially improve the second false-frame comparison, without consistent modal improvement under the correct frame. Invalids and infinite losses remain. No general truth-sensitive mechanism, stable method rank or human correction claim is established |
@@ -1381,6 +1415,35 @@ psychological interpretation. Confidence: one bad test away for these scoped mod
 human process measurements;
 instrument-dead for the collapsed memory comparison; untested, logic only for the
 human mechanisms and the endpoint comparison.
+
+**Familiarity, examination and trust after mistakes**
+
+> indicative of confusion, processing time
+
+> Familiarity often wins the choice [...] because it resolves more quickly, and [vision] moves to wherever surprise is decreasing the fastest
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator distinguishes processing difficulty from choosing an option and proposes attention toward rapidly resolving surprise. A hover marker records neither gaze nor all exposure. The trust account below treats each error as evidence, without treating the writing-log readout as internal trust.
+
+> it should move with each mistake. Everything gives evidence. Surprising mistakes are the most notable. Expected mistakes [...] you just fit that into how to use the tool properly
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Trial-wise trust updating**: measures trust after successive interactions; the inspected abstract reports larger effects of failures than successes ([source](https://doi.org/10.1177/00187208211034716), READ, abstract only).
+- **Bayesian trust dynamics**: models changing trust through sequential evidence accumulation ([source](https://doi.org/10.1007/s12369-020-00703-3), SNIPPET).
+- **Error expectancy**: distinguishes surprising easy-item failures from expected difficulty ([source](https://doi.org/10.1518/001872006777724408), SNIPPET).
+- **Functional specificity**: distinguishes trust in different functions of the same tool ([source](https://doi.org/10.1518/hfes.46.1.50_30392), SNIPPET).
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G215** | Out-of-repertoire options attract examination without acceptance | **OPEN (test, S15-DRIVE-D32-CANONICAL).** Human offer records and exact fitted readout: the corrected acceptance primary is marginal. The original examination extension is null and its declined-option secondary remains source-held; the corrected primary does not repair those outputs. |
+| **G225** | Avoidance of similar options after a model letdown becomes narrower over sessions | **SUPPORTED as a scoped association (test, S15-WEEK-D38-CANONICAL-1018).** Human writing records and exact program: the canonical primary is positive on nine supported writers and its repeated outcome reference has no declared bias flag. The original matched own-failure extension is null, not evidence of a model-specific mechanism; fear, regret and causal learning remain unidentified. |
+
+**What the table says.** The corrected records support a narrow avoidance association, but not a general psychological account of trust. A failed suggestion does not produce a resolved next-menu hover increase, and source-held examination outputs cannot settle what was seen or considered. Confidence: one bad test away for these human process associations; untested, logic only for internal trust and attention.
 
 ## §5. Continuation and stopping
 
@@ -1880,6 +1943,42 @@ family deep with its fabrication warning attached; the ceiling import is replica
 home field; the scoped process comparisons are one bad test away; the general
 divergence classification, person-location and automaticity mechanisms remain untested, logic only.
 
+**Communal fluency and personal departures**
+
+> priming is just as messy as expertise [...] recursive, collective, shared neural [weighting]
+
+> fluency is communal, and the variation of that fluency is hers [...] if you pull out culture, it would remain
+
+> you give wider error bars around what culture drives you to do, and then deviations are seen as more indicative
+
+> hearing other words over time counts as practice [...] built-in expertise from culture, there's a cultural net there
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+On the curator's account, hearing and reading train a communal repertoire; the personal signal is a departure from that repertoire. A culture can make conduct unsurprising without erasing the person. Neither a shared history effect nor a successful identity classifier alone identifies the preference behind the departure.
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Comprehension-to-production priming**: earlier hearing can influence later production, the proposed sense in which hearing is practice ([source](https://doi.org/10.1016/j.cognition.2006.07.003), SNIPPET).
+- **Matched comprehension and production priming**: compares the two routes under matched materials ([source](https://doi.org/10.1016/j.cognition.2014.04.002), SNIPPET).
+- **Lexical repetition priming**: connects prior hearing or saying to later word production ([source](https://doi.org/10.1080/01690965.2013.848989), SNIPPET).
+- **Correspondent inference**: infers a disposition from conduct that alternatives and role demands do not explain ([source](https://doi.org/10.1016/S0065-2601%2808%2960107-0), SNIPPET).
+- **Out-of-role inference**: uses departures from an assigned role as evidence about a person ([source](https://doi.org/10.1037/h0048514), SNIPPET).
+- **Discounting and augmentation**: downweights a cause when alternatives suffice and upweights it when opposing pressures are present ([source](https://doi.org/10.1037/h0034225), SNIPPET).
+- **Situational strength**: describes how constraints reduce behavioral variation ([source](https://doi.org/10.1177/0149206309349309), SNIPPET).
+- **Cultural tightness**: concerns strong norms and low tolerance of departures ([source](https://doi.org/10.1126/science.1197754), SNIPPET).
+- **Behavioral dispersion**: operationalizes one cultural-tightness comparison through cross-person spread ([source](https://doi.org/10.1177/0022022114563611), SNIPPET).
+- **Correspondence bias**: names insufficient discounting of situational causes ([source](https://doi.org/10.1037/0033-2909.117.1.21), SNIPPET).
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G203** | Fluent production draws on shared experience, while a writer's deviations identify her | **OPEN (test, S15-DRIVE-W1-1017-1702; S15-DRIVE-D33-SUPPORTED-1018).** Human writing logs, fitted history and pause readers: the own-history association and shuffled-history association are positive on different support; the equal-sized donor comparison is marginal. The supported-match successor is INVALID before fitting because two evaluation writers lack calibration support. Communality and personal specificity remain unresolved. |
+| **G204** | Production records identify a writer beyond a shared population template | **SUPPORTED within this corpus (test, S15-DRIVE-PMAP-1018; S15-DRIVE-PMAP-RHYTHM-1018).** Human logs and exact nearest-neighbour readout: style identifies 47% and rhythm 98% of 45 writers. The rhythm-minus-handling contrast survives its reassignment check; the style contrast is biased and device/context explanations remain. |
+| **G205** | Out-of-role departures are more diagnostic than culturally prescribed conduct | **OPEN (lit, SNIPPET).** A proposed application of correspondent inference, discounting and situational strength; no project comparison of culturally prescribed wording and its departures. |
+
+**What the table says.** Production carries a strong observed identity channel, while the personal-versus-shared source of the history effect remains unresolved. Cultural departure is a candidate clue with alternative causes, not a license to read a private preference from unusual language. Confidence: one bad test away for production identity; untested, logic only for the cultural diagnostic and communal mechanism.
+
 ## §7. Habit, concealment, and revision
 
 The reader's rules for exploiting the automatic traces (the trace ontology itself is
@@ -1930,6 +2029,27 @@ The admissibility filter's fourth criterion remains the best-rated unrun import;
 where habit is switched *off*, which is information every other measure discards. Confidence:
 the homogeneity result is one bad test away; the scaffolding instrument is re-scoped with its
 provenance reading rejected on the matched arms; everything else is untested.
+
+**Habits caught by corrective expertise**
+
+> [the everywhere marks, faster and more revised, are] flow state [...] corrective expertise blocks
+
+> [uncaught habits] fulfill some higher-order goals, so they don't look inefficient
+
+> the thing attention would struggle with more so is misapplied expertise, out-of-context expertise
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator interprets fast pervasive production plus later revision as flow interrupted by corrective expertise. An uncaught routine may serve a higher goal without appearing inefficient. The proposed harder case is expertise applied in the wrong context, not repetition by itself.
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G216** | Fast pervasive markers plus revision indicate flow and corrective blocks | **OPEN interpretation (test, S15-DRIVE-W1-1017-1550).** Human process records and exact program: descriptive rates are 13.9 versus 8.2 characters per second and 6.9% versus 5.4% revised. Positive writer-label controls prevent a clean person-location or automaticity claim. |
+| **G217** | Misapplied expertise is harder for attention to catch than habit | **OPEN, logic only.** Curator proposal; no comparison isolates this difference. |
+
+**What the table says.** Faster production and more revision can coexist. These observations do not identify flow, corrective awareness or the difficulty of catching an inappropriate routine. Confidence: one bad test away for the descriptive process comparison; untested, logic only for its mechanism.
 
 ## §8. Communicative shaping: the bard
 
@@ -2073,6 +2193,39 @@ owned by §4 (HH-SELECTIVE-ATTENTION). Confidence: one bad test away for the sco
 transmission and uptake findings; untested, logic only for the human mechanisms and the
 historical polish/contribution relationship.
 
+**Play as a frame for personal expression**
+
+> play is a [scaler] [...] rules are relaxed
+
+> Laughter is a way of saying you're getting near the edge, but it's entertaining [...] funny is getting as close to the line as possible and not interacting with it
+
+> Getting in the wrong mode costs.
+
+> play is part of how you express yourself [...] freedom [...] that's why you're able to find the author in fiction more so [...] play is going to be one of the better ways to identify others
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator proposes a play mode that loosens constraints and exposes more of the person. The supplied analyst correction concerns stakes rather than an absence of rules; the quote keeps the uncertain word [scaler]. Detecting a frame and benefiting from it are separate requirements.
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Metacommunication**: signals how an act should be interpreted, including as play ([source](https://pubmed.ncbi.nlm.nih.gov/13297882/), SNIPPET).
+- **Play bow**: provides a behavioral candidate for a visible play-frame signal ([source](https://doi.org/10.1163/156853995X00649), SNIPPET).
+- **Benign violation**: requires a violation to be experienced as acceptable at the same time ([source](https://doi.org/10.1177/0956797610376073), READ, abstract only).
+- **Psychological distance**: changes the conditions under which a violation is amusing ([source](https://doi.org/10.1177/0956797612443831), SNIPPET).
+- **Laughter as social signal**: connects humor and play through an evolutionary account ([source](https://doi.org/10.1086/498281), SNIPPET).
+- **Weak situation**: allows greater variation in the relation between traits and performance ([source](https://doi.org/10.1002/job.602), SNIPPET).
+- **Personality from creative stories**: tests which traits are readable from fiction rather than assuming all are ([source](https://doi.org/10.1016/j.jrp.2010.05.003), SNIPPET).
+The supplied Burghardt relaxed-field term concerns safety and reduced immediate pressure; its book was not inspected and this remains an attributed analyst gloss.
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G220** | Playful or fictional records identify a maker better once the frame is detected | **OPEN.** GEN1 and Ghost N18 are the commissioned routes; the human identity comparison remains unrun. |
+| **G221** | Ignoring a play frame can reverse an inferred preference | **SUPPORTED only under the stated construction (sim, OPS-THEORY-1018-SIM).** Ghost N8 stipulates preference reversal during play; its mode-aware reader gains 0.049 to 2.588 nats across the play settings, with no-play controls at numerical zero. Discovery only, not human confirmation. |
+
+**What the table says.** A frame can matter decisively when it changes how actions express a preference. The constructed result demonstrates that conditional error, while play as a stronger human identity window remains untested. Confidence: one bad test away, with probe support confined to constructed worlds; untested, logic only for the human identity claim.
+
 # Part III: Calibration
 
 ## §9. Baselines and admissibility
@@ -2092,6 +2245,24 @@ historical polish/contribution relationship.
   category.
 - **Pre-register the feature set.** The tradition that defines attributes after seeing the
   assemblage defends a garden of forking paths; refuse it.
+
+**Competence is an independent baseline**
+
+> competence is something we just optimize for. And so base rates are really your best attempt at competence [...] everyone's doing the same signal detection [...] how sensitive are you in detection
+
+> [a divergence from competence] would indicate a larger preference
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator asks for departures from competent behavior to reveal a preference. The analyst distinction is between sensitivity, criterion and the normative payoffs. Population conformity cannot supply all three. In equal-variance signal detection, the optimal likelihood-ratio threshold is the prior-odds ratio multiplied by the relevant utility-difference ratio; translating that threshold into a response location depends on the evidence distributions.
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G223** | A departure from a competent criterion reveals preference | **OPEN.** Independent quality and payoff information are required; the approved SDT1 diagnostic measures population-relative behavior and retains the competence gap (curator decision, WEEK_REVIEW_20261018). |
+
+**What the table says.** A baseline must predict what counts as success independently of the writer being explained. Agreement with other writers cannot certify that baseline or isolate preference from belief and sensitivity. Confidence: untested, logic only.
 
 ## §10. Reliability and ground truth
 

@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**October 18 daily integration completed.** [Screen, controls and family
+dispositions](DIGEST_20261018.md) supersede the dated execution and routing
+snapshots below. All five canonical primaries are verified. No science worker
+is active at the inspected cutoff; EV authenticated consumer/reader admission
+is being built, and GPU continuation remains resource-held. The supplied theory
+filing is applied. Current tasks are in [TODO](../../../TODO.md); historical
+tables below retain source holds and do not license a renewed branch.
+
 [The D33-to-document join component](EV_D33_JOIN_BUILD_20261018.md) passes 14
 constructed checks and fresh serialized replay. Authenticated counted corpus
 consumption and the engine-word join remain; this is not an EV scientific run.

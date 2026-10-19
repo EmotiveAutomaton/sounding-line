@@ -1,5 +1,18 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 18 daily integration:** All five canonical primaries are fully verified,
+including D2's single unchanged-contract numerical recovery and D32's full replay.
+Source repair does not erase biased controls. The pinned ToMpathy exporter and
+reader files authenticate; existing software checks pass. EV occurrence/source
+components pass 21 combined checks, the 100-session source pilot passes full
+fresh reconstruction and actual exporter input validation, and the D33 join
+passes 14 constructed checks. Authenticated counted consumption, engine-word
+matching, typed fragments, measured reader cost/support and statistical admission
+remain unfinished. [Input pilot](../results/phase_2_4_stage_15/DRIVE/EV_INPUT_PILOT_V1.md)
+and [join component](../results/phase_2_4_stage_15/DRIVE/EV_D33_JOIN_BUILD_20261018.md).
+The GPU remains below its unchanged start floor; earlier running snapshots below
+are historical. No active paid batch or corpus EV reader is claimed.
+
 **October 18 uptake reliability:** Thirteen focused checks and complete counted native source/statistic replay pass after two retained telemetry-wrapper failures. All 65 pins and 229 outputs verify; one-thread pools, exact exits and lease release are measured. The original D20 statistic and scientific gates are unchanged; no corpus finding follows. [Implementation, failures and limits](../results/phase_2_4_stage_15/DRIVE/D20-uptake-build.md).
 
 **October 18 canonical D4:** Eight focused checks and actual counted native source/refit validation pass. An isolated wrapper enforces and records the declared one-thread numerical limit; original scoring and configuration are unchanged. All 53 pins and 23 fixture artifacts verify, native workers exited and the lease was released. The separately frozen [corpus comparison is verified complete](../results/phase_2_4_stage_15/DRIVE/D4-predictive-canonical.md), with 53 pins, 137 artifacts and full fresh source/refit/reference replay. Its primary is null and the permutation bias flag fires; original D4 inference remains held. [Implementation and limits](../results/phase_2_4_stage_15/DRIVE/D4-canonical-build.md).

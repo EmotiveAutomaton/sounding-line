@@ -125,6 +125,21 @@ edits here.
 
 ## Approved wording and source history
 
+The October 18 twelve-position walkthrough is applied in the existing sections of
+the three affected theory files. Its [supplied filing](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md)
+and [application receipt](../design/archive/THEORY_FILING_20261018_APPLIED.json)
+preserve quotation repairs, identifiers G203–G225 and source limitations. The
+filing distinguishes communal fluency, acceptance lean, production stability,
+shared expertise, habit and flow, model letdowns, separate choices, overlaying
+corrections, fear/expertise aliases, play, sacrifice and the person entry.
+Ghost N4d/N9/N8 are now imported with their constructed-world and discovery
+limits; they do not establish human mechanisms. Completed local canonical
+comparisons and control failures are integrated. Most linked full texts were
+inaccessible or uninspected, so their vocabulary remains an attributed analyst
+summary; READ marks inspected abstracts only. No exhaustive novelty search is
+claimed. Earlier sources below retain their own dates and reading status.
+
+
 The October 17 curator errata is applied across four theory files and this README. Its
 [original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-10-17.md)
 and [application receipt](../design/archive/THEORY_ERRATA_20261017_APPLIED.json) preserve the exact

@@ -1,5 +1,13 @@
 # October 16 drive evidence
 
+**October 18 daily integration is current:** [complete digest](DIGEST_20261018.md)
+supersedes the older running/retry statements below. All five canonical primaries
+are verified; original source-held comparisons and control failures remain
+explicit. The theory filing is applied. EV source pilot and join component are
+validated, while authenticated consumer/reader admission remains implementation
+work. GPU continuation is resource-held under the week environmental policy;
+there is no active science worker at the inspected cutoff.
+
 **Current October 18 amendment:** [mid-run changes](MIDRUN_20261018.md) supersede older retry rules below. D17's environmental continuation and D18's canonical retry are verified complete. [Selected-option source defects](SELECTED_OPTION_AUDIT_20261018.md) hold affected prior inferences; corrected effects remain unknown. D11's primary is complete but its later-text secondary is held. [Current index](INDEX.md) identifies live dispatches and new-card implementation. All earlier completion statements retain execution history, not an override of current validity holds.
 
 **October 17 amendment:** [TC](TC.md), [V5](V5.md) and [P8](P8.md) are complete,

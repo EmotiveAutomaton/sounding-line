@@ -391,6 +391,7 @@ different *kind* of thing, defined across episodes, which is most of why it has 
 |---|---|---|
 | **L-tier2** | Diverse episodes can narrow persistent motivational organization; the relative evidence needs of goal and value recovery remain to be measured | **OPEN for human value recovery and the relative-timescale comparison.** The author-identification curve measures identity, not values (test, L34; G60). Bounded constructed profiles can be recoverable from one artifact or from repeated artifacts (§5 G54; §6 S-15); these are construction-specific results, not human value ground truth. G65 remains the open comparison |
 | **G198** | The three questions are entries into one joint inference, through the artifact's function, the person and the process, rather than three inferences run in turn; the functional entry, reverse engineering from the top on the assumption that the maker would use the thing as the reader would, is an early entry readers often use and an unreliable one, because goals have several parts and readers project their own requirements | **OPEN.** The curator's restatement (2026-10-17); the functional entry is HH-ENTRY-RELIABILITY's entry from above in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §3, applied to the whole inference. Theory of mind as one joint inversion, the teleological stance and egocentric anchoring have support (lit, READ); belief tracking may run on two systems, and empathy and mentalizing use separable networks (lit, READ); no model of inference from artifacts with these entries was found; Sounding Line card D37 is commissioned to measure the entries' weights on writers' decisions |
+|   | | *(2026-10-18: the curator retains three entries for human inference and proposes that the process entry reduces to a trust signal for a model without chosen training uptake; logic only, not a measured necessity claim.)* |
 
 **State of the section's claim.** The object table fixes the working distinctions among
 expertise and process, external and interpreted context, set points and their deviations, the drives
@@ -410,6 +411,26 @@ joint inference, through function, person and process, with the functional entry
 unreliable one (G198). Confidence: untested, logic only for the
 human recovery and relative-timescale claims and for the single-inference reading; one bad test
 away for the scoped identity curve and constructed demonstrations.
+
+**The person entry reads production**
+
+> your suggestion's fine
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The short assent accepts the analyst's proposal that the person entry should read voice and production rather than equating it with preference. It does not establish that preference is absent. The curator also distinguishes human uptake choice from a model's supplied training exposure:
+
+> for humans, one inference that needs all three entries. But for AI, because you aren't choosing what to uptake, you don't need the third entry [...] the information of the third entry should fall out [...] it is literally the signal telling you what to trust in a world where your only decision is deciding what to trust
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G222** | The person entry is better served by production than selection in this corpus | **SUPPORTED within the measured channels (test, S15-DRIVE-PMAP-1018; S15-DRIVE-PMAP-RHYTHM-1018).** Human logs, exact classifier, 45 writers across prompts: rhythm identifies 98%, style 47%, revision 31%, length 20% and handling 16%; content taste is near chance with invalid control support. Rhythm minus handling is 0.82 [0.71, 0.93] with its contrast reassignment check passing; style contrast bias and device context remain. |
+
+**What the table says.** How a writer produces carries more observed identity than how she handles offers in this corpus. This supports a person entry without identifying her goals or values. The claim that the process entry serves trust differently in humans and models is still a proposed account of joint inference. Confidence: one bad test away for the production comparison; untested, logic only for the uptake distinction.
 
 ## §2. Forward generation and inverse recovery
 
@@ -1343,6 +1364,43 @@ the human evidence on habits is mixed. The curator's own test for a value is pre
 a habit as a routine the maker no longer endorses but has not paid to reverse (G199).
 Confidence: untested, logic only, with the sim demonstration held by §5.
 
+**Goal hierarchies, set points and acceptance lean**
+
+> competence is something we just optimize for. And so base rates are really your best attempt at competence [...] everyone's doing the same signal detection [...] how sensitive are you in detection
+
+> [a divergence from competence] would indicate a larger preference
+
+> Goals on goals on goals [...] terminal units of one's value function
+
+> I do want to make sure that preferences are set points
+
+> Temperament I would translate into just being a habit [...] A threshold would be more like a predisposition or personality
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+Preferences are set points in the curator's formulation. The observed lean is a behavioral quantity to explain, not that set point itself. The hierarchy links many means to a goal and one means to several goals. Endorsement and the Panksepp vocabulary retain their existing meanings. A temperament-as-habit account and a threshold-as-predisposition account remain proposed distinctions.
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Signal detection theory**: separates sensitivity from a decision criterion ([source](https://archive.org/details/signaldetectiont0000gree), SNIPPET).
+- **Utility-sensitive criterion**: distinguishes utility maximization from classification accuracy ([source](https://doi.org/10.1177/0956797614541991), READ, abstract only).
+- **Accuracy and payoff tradeoff**: asks why unequal payoffs need not produce the optimal criterion ([source](https://doi.org/10.1901/jeab.2002.78-567), SNIPPET).
+- **Planner-reward ambiguity**: prevents unique decomposition without substantive normative assumptions ([source](https://arxiv.org/abs/1712.05812), READ, abstract only).
+- **Perceptual control theory**: treats action as control toward a reference input ([source](https://doi.org/10.1126/science.179.4071.351), SNIPPET).
+- **Feedback self-regulation**: relates discrepancy, action and a reference state ([source](https://doi.org/10.1037/0033-2909.92.1.111), SNIPPET).
+- **Equifinality and multifinality**: name many means for one goal and one means for several goals ([source](https://doi.org/10.1016/S0065-2601%2802%2980008-9), SNIPPET).
+- **Personal striving**: names a recurring aim a person characteristically pursues ([source](https://doi.org/10.1037/0022-3514.51.5.1058), SNIPPET).
+- **Option**: names a temporally extended policy with a termination rule, not necessarily a psychological set point ([source](https://doi.org/10.1016/S0004-3702%2899%2900052-1), SNIPPET).
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G206** | A writer's overall acceptance lean is stable across sittings | **SUPPORTED descriptively (test, S15-DRIVE-W2-1018; S15-DRIVE-D12-RANK-1018).** Human process records, exact program: acceptance intraclass correlation is 0.093 and canonical split-half reliability is 0.78 [0.59, 0.90]. V5.d's fake-person control is invalid, so its separate lean component grants no person-specific inference. |
+| **G207** | Acceptance lean can be separated into sensitivity, beliefs and payoff criterion | **OPEN.** SDT1 is authorized only as a population-relative diagnostic; independent quality labels are absent. A population acceptance rate is not competence or correctness. |
+| **G208** | Temperament is habit, while a threshold is a predisposition | **OPEN, logic only.** Curator naming proposal; no measurement separates these constructs. |
+
+**What the table says.** Acceptance rates carry a stable descriptive lean, but that lean does not yet identify competence, beliefs or a valued end. Goal hierarchies retain the distinction between a reference state and the means serving it; their human ordering still requires discriminating observations. Confidence: one bad test away for the acceptance measurements; untested, logic only for the proposed decomposition.
+
 ## §5. Where value information could live: four competing accounts
 
 The file used to declare one of these the answer; they are candidates, and the constructed world
@@ -1715,7 +1773,8 @@ establish that personal signal is intrinsically weak.
 | **G48** | A maker's weighting is more stable within than between makers | **OPEN.** The 34-book corpus supports the design, and per the program another stable author vector would be circular without behavioral tradeoffs; G135's held-out tradeoff prediction is the honest form |
 | **G65** | Value recovery improves sharply with works per maker while goal recovery does not | **OPEN.** The follower-corpus design tests this and G48 at once |
 | **G66** | Adherence to a declared value tradition is recoverable as a graded quantity | **OPEN.** A ladder made of humans; the honest output is predicted patterns of uptake or adherence from behavior; blocked on sourcing |
-| **G197** | A person shows up more in how they work than in what they choose; process and timing records carry more personal signal than accept-or-dismiss outcomes, and the weight one person's own records deserve is the reliability of their average | **OPEN; the analyst's proposal.** Chess and essay-process identification succeed where per-decision gains are small, hyperalignment raises individual reliability, and the reliability paradox explains robust group effects with weak individual ones (lit, READ); the project's outcome channels resolve no personal advantage (test, S14-P04); no project measurement compares process and outcome channels on the same writers |
+| **G197** | A person shows up more in how they work than in what they choose; process and timing records carry more personal signal than accept-or-dismiss outcomes, and the weight one person's own records deserve is the reliability of their average | **SUPPORTED for the scoped rhythm-versus-handling comparison; broader reliability and value claims OPEN.** Chess and essay-process identification succeed where per-decision gains are small, hyperalignment raises individual reliability, and the reliability paradox explains robust group effects with weak individual ones (lit, READ); the project's outcome channels resolve no personal advantage (test, S14-P04); PMAP now compares production and handling on the same 45 writers, with the rhythm-minus-handling contrast passing its reassignment check and the style contrast biased (test, S15-DRIVE-PMAP-RHYTHM-1018); no human-value inference follows |
+|   | | *(2026-10-18: the earlier unmeasured process-versus-outcome proposal now has the scoped PMAP rhythm comparison; psychological and value interpretations remain open.)* |
 
 **State of the section's claim.** Longitudinal evidence is a motivated route to separating
 persistent tradeoffs from local purpose, habit, and constraint. The bounded simulation
@@ -1726,13 +1785,58 @@ provenance and reliability. None automatically certifies the target values. No c
 currently validated by this project supplies the complete value-recovery comparison
 specified by the open rows. Public process and choice corpora can supply partial tests;
 their suitability remains an intake and construct-validation question. A commissioned
-pilot is one possible source, not evidence that no useful public corpus exists. Where the person
-shows up is itself open. Process records may carry more of a person than outcome records, and the
-weight one person's records deserve depends on the reliability of their average, not on its size
-alone (G197).
+pilot is one possible source, not evidence that no useful public corpus exists. Recorded rhythm identifies these writers more accurately than their offer handling on the matched cohort, with a passing contrast-level reassignment check and recording-context rivals retained. The weight one person's records deserve depends on the reliability of their average, not on its size alone (G197).
 Confidence: one bad test away for the scoped identity curve and bounded simulation;
-untested, logic only for human value recovery, the open corpus comparisons and the process
-account of personal signal.
+one bad test away for the scoped production comparison; untested, logic only for human value recovery and the open corpus comparisons.
+
+**A person plus a mood**
+
+> at an individual painting, what you're getting is not just a person, but a mood
+
+> A mood is [...] a mix of particular drive states.
+
+> Everything becomes habit. The expertise is the attentional part.
+
+> How are we differentiating previous habit from previous expertise?
+
+> We're using previous deviations from patterns to inform the definition of attention. But those deviations themselves become patterns.
+
+> the more calories are spent, the more likely it is that attention was involved [...] the constituent cost is what matters
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+One work combines persistent organization with current state. The curator leaves habit versus expertise as a live distinction and asks how recurring deviations become a new baseline. The analyst retains effort as cost, while declining to equate each unit of attention with measurable calorie use. Pauses, errors and revisions are candidate proxies with multiple causes.
+
+**Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
+- **Whole trait theory**: represents a trait through the distribution of momentary states ([source](https://doi.org/10.1037/0022-3514.80.6.1011), SNIPPET).
+- **Latent state-trait theory**: separates persistent person effects from occasion effects and error ([source](https://doi.org/10.1002/%28SICI%291099-0984%28199909/10%2913:5%3C389::AID-PER361%3E3.0.CO;2-A), SNIPPET).
+- **Contextual inference**: attributes changes to latent contexts rather than a single fixed state ([source](https://doi.org/10.1038/s41586-021-04129-3), SNIPPET).
+- **DynAffect**: models an affective home base, variability and attraction back toward it ([source](https://doi.org/10.1037/a0020962), SNIPPET).
+- **Prediction-error mood account**: relates reported momentary happiness to recent reward expectations and outcomes ([source](https://doi.org/10.1073/pnas.1407535111), SNIPPET).
+- **Bayesian surprise**: measures change in a belief distribution after an observation ([source](https://doi.org/10.1016/j.visres.2008.09.007), SNIPPET).
+- **Volatility-sensitive learning**: adjusts learning to how changeable the environment is ([source](https://doi.org/10.1038/nn1954), SNIPPET).
+- **Outcome devaluation**: tests whether an action changes after its consequence loses value ([source](https://doi.org/10.1080/14640748108400816), SNIPPET).
+- **Human habit replication**: questions whether extended training reliably produces devaluation-insensitive responding ([source](https://doi.org/10.1037/xge0000402), SNIPPET).
+- **Time-sensitive habit probes**: test whether old responses return under short response deadlines ([source](https://doi.org/10.1038/s41562-019-0725-0), SNIPPET).
+- **Deliberate practice**: connects improvement to structured practice rather than experience alone ([source](https://doi.org/10.1017/CBO9780511816796.038), SNIPPET).
+- **Skilled attention**: asks which components of performance require attention ([source](https://doi.org/10.1016/j.tics.2022.02.002), SNIPPET).
+- **Skill-focused interference**: tests whether attending to well-learned steps can disrupt performance ([source](https://doi.org/10.1037/1076-898X.8.1.6), SNIPPET).
+- **Brain energy budget**: distinguishes ongoing metabolic expenditure from task increments ([source](https://doi.org/10.1016/j.tics.2010.01.008), SNIPPET).
+- **Ego-depletion replication**: reports a small standardized effect with an interval including zero ([source](https://doi.org/10.1177/1745691616652873), READ, abstract only).
+- **Further depletion replication**: supplies another test of the resource-depletion account ([source](https://doi.org/10.1177/0956797621989733), SNIPPET).
+- **Opportunity cost**: treats effort as the value of alternatives displaced by current control ([source](https://doi.org/10.1017/S0140525X12003196), SNIPPET).
+- **Expected value of control**: allocates control according to benefits relative to its costs ([source](https://doi.org/10.1016/j.neuron.2013.07.007), SNIPPET).
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G209** | A sitting contributes a state beyond the writer's stable lean | **OPEN (test, S15-DRIVE-V5D-1018).** Human process records and exact pair-graph readout: excess agreement is concentrated below one minute, 0.546 against a lean expectation of 0.459; the context-specific primary is null and fake-person support fails. This does not establish a sitting-long mood. |
+| **G210** | Production features persist across sittings | **SUPPORTED descriptively (test, S15-DRIVE-MIDRUN-LANDINGS-1018; S15-DRIVE-W2-1018; S15-DRIVE-PMAP-1018).** Human logs and fitted/exact readouts: slow-pause share has intraclass correlation 0.72, stopping-length reliability is 0.91 and median rhythm reliability 0.985. Recording and device context remain rivals. |
+| **G211** | Context change and response time distinguish habit from expertise | **OPEN.** The proposed audience-change probe and outcome devaluation address different mechanisms; neither is established by these writing logs. |
+| **G212** | Attention can be measured as metabolic expenditure | **CONTESTED (lit, SNIPPET).** The supplied metabolic argument is not established here; the ego-depletion replication is small with an interval spanning zero (READ, abstract). Effort as time and correction cost remains **OPEN**. |
+
+**What the table says.** Production has a stable personal component in these records. Nearby decisions can carry over without revealing a whole-session mood, and stable production is not private-value ground truth. Effort needs a validated cost measure rather than a calorie interpretation of pauses. Confidence: one bad test away for the scoped production and agreement measurements; untested, logic only for mood, habit and effort mechanisms.
 
 # Part III: Epistemic limits and evidence
 
@@ -1866,6 +1970,24 @@ L446). Which human constraints improve prediction without introducing false cert
 the empirical question. Confidence: one bad test away for the toy narrowing and scoped
 candidate-list and witnessed-match comparisons; instrument-dead for the independent-frame
 test; untested, logic only for the human-artifact extension.
+
+**Narrow fear and narrow expertise**
+
+> A reader of minds would need it [...] that is how you place that in context [...] otherwise just noise on noise
+
+> these known problems are going to have to come to grips with one by one
+
+*Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
+
+The curator asks for missing context to be resolved problem by problem. More observations cannot separate mechanisms that the observed law makes identical; other works could help only if they expose a difference the current observations do not.
+
+The table separates the proposed claim from its evidence and scope.
+
+| # | Hypothesis | Status and evidence |
+|---|---|---|
+| **G219** | Other works can distinguish narrow fear from narrow expertise | **OPEN for human inference; exact alias SUPPORTED in the tested construction (sim, OPS-THEORY-1018-SIM).** Ghost N9 preserves identical narrow fear/expertise laws under every tested probe. Different widths or contexts are possible sources of separation, not demonstrated human remedies. |
+
+**What the table says.** Context is useful when it changes the predictions of competing accounts. The constructed alias marks where more samples alone cannot help and leaves the proposed other-work comparison open. Confidence: one bad test away, with the alias confined to the constructed world; untested, logic only for the human extension.
 
 ## §8. Scope and boundaries
 

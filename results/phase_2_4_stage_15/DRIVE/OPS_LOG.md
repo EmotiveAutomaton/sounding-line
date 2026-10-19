@@ -1,5 +1,15 @@
 # Campaign operations
 
+- 2026-10-18 daily integration: 34 completed-primary descriptive screen, all required control execution statuses, current family holds, twelve-position theory filing, instruments and shared status/TODO reconciled. Exact source/quote retention, added links, theory lint, 21 locks and multiplicity audit verified; no new test or scientific admission. EV counted consumer implementation remains next.
+
+## October 18 20:02 PDT: daily-boundary liveness
+
+[Inspection](HEALTH_20261018_2000.md) verifies exact exits, both live calendars,
+source/research locks, resource limits and actual watcher delivery. No science
+worker is active; EV implementation continues and GPU continuation remains
+resource-held. No orphan or new failure required recovery. The digest marker
+awaits its separate full integration; no scientific scores are reported here.
+
 Operational events are recorded once here under the October 17 packet. Scientific cards have separate reports and one batched FINDINGS entry.
 
 - 2026-10-17: Four counted CPU slots (two numerical threads each), below-normal worker priority, 6 GiB RAM start floor, bounded native supervision and immediate terminal/paused watches enabled; the admitted GPU worker is preserved. Hourly planned checks reinstated; six-hour health clock unchanged.

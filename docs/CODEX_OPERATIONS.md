@@ -1,28 +1,26 @@
 # Codex operations
 
-**October 17, 20:00 PDT integration: Gear 2 is active, Stage 15 remains open.**
-D32 is the sole live counted CPU analysis; exact native identities and advancing
-saved bootstrap output verify. No GPU or paid worker is active. The full suggestion
-pass and D17 exhausted their permitted retries and are invalid, with evidence
-retained; they are not restarted or counted as scientific negatives.
+**October 18 daily integration: Gear 2 is authorized; Stage 15 remains open.**
+All five canonical primaries and the EV 100-session input pilot are complete and
+verified. No science worker is active at the 20:02 native inspection. GPU work
+is resource-held below its unchanged 7,424 MiB start floor; the prepared
+continuation retains all checkpoints and cumulative charges. EV authenticated
+consumer joins, engine-word matching and measured reader admission are the next
+implementation work. An authorized backlog is not a running queue.
 
-The [daily screen](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md) integrates
-all completed primary contrasts, controls, theory rows/afterwords and TODO.
-Daily control coverage is incomplete: D30 lacks the exact outcome shuffle and
-D32's control is unfinished. Positive shuffled controls still limit the completed
-D30, D33 and P4 findings. V4's fitted taste/habit lens fails null calibration;
-FX1 and personal panels stay unadmitted. No family stop or stage closure follows.
+The [daily digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md) records the full descriptive screen,
+source-held originals, canonical replacements, controls and family boundaries.
+No clean-screen certification, family stop or stage closure follows. The taste
+lens remains blind; production identity is a scoped result with recording-context
+rivals. The [twelve-position theory filing](design/archive/THEORY_FILING_20261018_APPLIED.json) is applied, with supplied
+literature summaries and constructed simulations clearly attributed.
 
-D2 is next by rank and needs implementation. D31 needs intake/admitted labels;
-P7 needs review for D33's stronger-baseline extension; D30's registered texture
-remains unbuilt. No reviewed successor is presently launchable. Paid-route setup
-is unfinished, new-campaign spend remains $0.04 and the first-$10 boundary stays.
-Holdout outcomes remain unopened. [Inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261017_2000.json)
-verifies resource floors, source/research locks, counted leases and actual watcher
-delivery. The independent six-hour check remains due 21:09:41 PDT; planned checks
-remain at most one hour apart while building, queued or running.
-
-The dated snapshots below are historical and are superseded by this integration.
+The [inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_2000.md) verifies native exits, research/source
+locks, free resources, calendars and actual watcher delivery. One CPU slot stays
+reserved for ToMpathy. No paid batch is active; campaign spend remains $0.04,
+conditional K retains its first-$10 limit and Monday cutoff. EV implementation,
+costed D30/P7/D24 continuations, K/D31 intake and the guarded GPU wait remain;
+post-talk work follows the week packet. Older snapshots below are historical.
 
 **October 17 full suggestion execution is running in Gear 2.** The complete
 five-reader timing recovery preserves every compared token loss and all safety

@@ -1,5 +1,7 @@
 # Documentation - current authority, methods and history
 
+**October 18 daily integration:** [Current completed screen and next work](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md). All canonical primaries are verified, the twelve-position theory filing is applied, and EV source preparation is validated. No science worker is active at the inspected cutoff: GPU continuation is resource-held and EV consumer/reader admission is being built. Earlier rollout snapshots below are historical.
+
 **October 18 mid-run authority:** [errata](design/stage-15/drive/SOUNDING_LINE_MIDRUN_ERRATA_2026-10-18.md) and [implementation/validity record](../results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md) supersede historical retry and routing statements below. Use [current status](../CURRENT_STATUS.md) for dispatches and source-validity holds.
 
 **October 18:** The [reviewed implementation wave](design/stage-15/drive/BATCH_PLAN_20261018_W2.md) is running; [current status](../CURRENT_STATUS.md) and the

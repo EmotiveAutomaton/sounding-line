@@ -3,8 +3,10 @@
 Authority: the curator's October 18 handoff commissions the exact
 [week packet](WEEK_PACKET_20261018.md) in Gear 2. The separate
 [theory filing](../../archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md)
-is preserved for its requested 20:00 integration. Filing the source is not
-evidence that its twelve positions have already been applied.
+is applied at the October 18 daily integration. The [application receipt](../../archive/THEORY_FILING_20261018_APPLIED.json)
+records all twelve positions, exact sources and reading limitations. Dependency
+statements below describe the initial review; the exporter and five canonical
+primaries have since completed their documented receipts.
 
 ## Decisions before execution
 

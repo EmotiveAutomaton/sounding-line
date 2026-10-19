@@ -1,39 +1,50 @@
 # TODO: the study queue
 
-The [October 17 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261017.md)
-is complete as a record of landed cards; its mandatory daily-control coverage
-remains incomplete. Stage 15 is open. No current ready runner is being withheld;
-the remaining queue below includes implementation work, not executable dispatches.
+The [October 18 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md)
+is complete. Stage 15 remains open. The first unfinished item below is implementation
+work; no scientific worker is currently active at the recorded cutoff.
 
-- [x] S15-DRIVE-W1-INSTRUMENTS: TC/V5/P8, P5/P6 and full V4 verified and recorded;
-  timing is logged text-delta timing, producer probability semantics unresolved,
-  and fitted taste/habit calibration blind after false-positive failure.
-- [x] S15-DRIVE-D30: primary and single stricter extension verified; positive
-  extension has a positive writer-label control, without automaticity admission.
-- [ ] S15-DRIVE-D30-TEXTURE: build registered specification, second-pipeline and
-  second-dataset checks; handling calibration is not applicable to this outcome.
-- [x] S15-DRIVE-D33-PRIMARY: positive primary and positive rebuilt writer-label
-  control recorded; personal specificity remains unestablished.
-- [ ] S15-DRIVE-D33: review/complete P7, run the one stronger-baseline extension,
-  then the prescribed texture; no personal-map admission meanwhile.
-- [x] S15-DRIVE-D34: primary, stricter extension and supported D34.v1 recorded;
-  all marginal, two G routing nulls. Broad own-text correction question stays open.
-- [x] S15-DRIVE-D35-D39-D6: complete null primaries and declared secondary/control
-  work recorded; conditional extensions closed. No general mechanism rejection.
-- [x] S15-DRIVE-D17: both failures and intact evidence recorded; invalid with
-  retry exhausted, no primary or additional attempt under this packet.
-- [ ] S15-DRIVE-D32: finish the admitted measured continuation and whole-card
-  verification; only then integrate primary, controls and the ordered B route.
-- [ ] S15-DRIVE-DAILY-CONTROLS: implement the exact D30 within-writer outcome
-  shuffle from the frozen contrast and integrate D32's completed outcome control.
-  Current marker/writer-label shuffles are not substitutes. No clean-day verdict.
-- [ ] S15-DRIVE-D2: next ranked card needs a reviewed executable implementation;
-  CONTENT_V2/P8 are available with raw-score semantics caveated.
-- [ ] S15-DRIVE-D31: Gutenberg intake and bounded admitted G3-K labels remain;
-  no fiction outcome or paid batch is implied by registration.
-- [x] OPS-S15-DIGEST-1017: completed-card theory rows/afterwords, shared-pass
-  dispositions and operational snapshots integrated; incomplete controls explicit.
+- [x] S15-DRIVE-CANONICALS: D38, D32, D4, D14 and D2 primaries independently
+  verified and integrated; originals retained under source holds. D12 rank-only
+  successor complete; selected-score question remains distinct.
+- [x] S15-DRIVE-MIDRUN-LANDINGS: D17/D18/D11, D20 and reliability extension,
+  D12/D23/extension/D29/timer, D15/V3/D28 and D30.s integrated with controls.
+- [x] S15-DRIVE-DAILY-CONTROLS: originally required executions complete;
+  original D32 is source-held, canonical repeated reference is separate. No clean-day claim.
+- [x] OPS-THEORY-1018: all twelve supplied positions, quotes/repairs,
+  attributed literature and scoped Ghost imports filed; afterwords current.
+- [x] S15-EV-SOURCE-PILOT: exact occurrence/source components and counted
+  100-session source/replay pilot validated; actual exporter input check passes.
+- [x] S15-EV-D33-JOIN-COMPONENT: fourteen constructed checks pass; every
+  original row retained with explicit support disposition.
+- [ ] S15-EV-CONSUMER: authenticate and run the counted D33 corpus join;
+  join exact exporter word/content spans, preserve typed fragments and all
+  original covariates. Native known-answer/full-handler admission precedes corpus.
+- [ ] S15-EV-READER: measured pinned-exporter pilot, resource/cost accounting
+  including source prep and full replay, then admitted 1,399-document execution.
+- [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
+  reliability table and exact limits. No badge before a complete valid cell.
+- [ ] S15-D33-SUPPORTED: calibration-supported smaller variant under S1;
+  existing supported-match attempt invalid before fitting; original question open.
+- [ ] S15-D30-CONTINUATIONS: same-row controls, crossed-model main and scoped
+  follow-ups remain to be admitted; second-source identity mappings missing.
+- [ ] S15-P7: scoped D33/Jester reader and common word-event native validation;
+  Jester complete-record intake done; original full-population gap retained.
+- [ ] S15-D24: reconcile saved attempt's cumulative execution/replay cost
+  under single 2x original ceiling before resuming; never repeatedly double it.
+- [ ] S15-P1: prepared environmental suggestion continuation resource-held;
+  typed/history source work and downstream comparisons remain separate.
+- [ ] S15-K-D31: intake/known-answer preparation by Monday noon; conditional
+  first-$10 gate, spend cutoff Monday 17:00; no active paid batch.
+- [ ] S15-POST-TALK: DR1, NP1, GEN1 and population-relative SDT1 under their
+  gates; competence gap retained. Pruned backlog only after eligible priority work.
+- [x] S15-CLOSED-BRANCHES: D2 hierarchical, D11 writer-slope and D16 closed
+  by week authority; V4/V4.c taste failure remains; original D3 attempts invalid.
+- [x] OPS-S15-DIGEST-1018: complete-card screen, theory/instrument/TODO and
+  shared operating state integrated. No new research test harvested from wake.
 
+Earlier task entries below are historical snapshots; current authority and
+dispositions above supersede their retry, running and readiness statements.
 
 - [x] OPS-S15-HEALTH-1017-0853: native execution, advancing checkpoints,
   evidence/locks/resources and actual watcher delivery verified; stale status

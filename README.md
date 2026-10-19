@@ -9,6 +9,8 @@
 
 # Sounding Line
 
+**October 18 daily integration:** [Current completed screen and next work](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md). All canonical primaries are verified, the twelve-position theory filing is applied, and EV source preparation is validated. No science worker is active at the inspected cutoff: GPU continuation is resource-held and EV consumer/reader admission is being built. Earlier rollout snapshots below are historical.
+
 **Mid-run errata applied:** [current status](CURRENT_STATUS.md) identifies new dispatches, environmental recoveries and source-validity holds. The [implementation record](results/phase_2_4_stage_15/DRIVE/MIDRUN_20261018.md) separates completed changes from studies still being built. Older dated snapshots below are historical.
 
 **October 18:** Reviewed CPU comparisons are running and completed results are

@@ -22,9 +22,9 @@ with the reason.
 
 | Contribution | What changed | Status | Record |
 |---|---|---|---|
-| Review the new week packet, resolve implementation issues and run Gear 2 | Week windows/demo reservation are enforced in a separate validated runtime; D38 canonical is landed, D32 and D14 canonical primaries are running, remaining cards retain their dependencies | built / planned | [Review](../../docs/design/stage-15/drive/WEEK_REVIEW_20261018.md), [execution index](../phase_2_4_stage_15/DRIVE/INDEX.md) |
+| Review the new week packet, resolve implementation issues and run Gear 2 | Week windows/demo reservation are enforced in a separate validated runtime; all five canonical primaries and the EV source pilot are complete; consumer/reader implementation and remaining cards retain their dependencies | built / planned | [Review](../../docs/design/stage-15/drive/WEEK_REVIEW_20261018.md), [execution index](../phase_2_4_stage_15/DRIVE/INDEX.md) |
 | “Run population-relative diagnostic; retain competence gap” | SDT1 retains Ghost's prerequisite and becomes a population-relative sensitivity/criterion diagnostic; independent quality evidence is still needed for competence | written / planned | [Explicit decision](../../docs/design/stage-15/drive/WEEK_REVIEW_20261018.md) |
-| File the October 18 theory walkthrough at the next 20:00 digest | Exact supplied source is archived and indexed; application of its twelve positions remains scheduled for 20:00, not already applied | written / planned | [Original filing](../../docs/design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md) |
+| File the October 18 theory walkthrough at the next 20:00 digest | All twelve positions applied, G203–G225 filed, afterwords reconciled, quotations/repairs and reading limits preserved | written | [Original filing](../../docs/design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md) |
 
 ## October 18 mid-run corrections
 

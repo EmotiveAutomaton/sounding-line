@@ -1,5 +1,40 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261018
+
+**Hypothesis.** The completed screen may identify decision traces worth further testing once source corrections and controls are retained.
+**METHOD.** Reconcile every whole completed Tier 1 primary, retaining source-held originals and separate canonical successors; recompute descriptive Benjamini–Hochberg and positive-effect shrinkage summaries, check required control coverage, and write through the theory and operational record.
+**Found.** All five canonical primaries are complete. The required original control runs finished, but original D32's control is source-held; its canonical repeated reference is a separate diagnostic. Other biased references and failed taste calibration remain. **Means.** This is not a clean-screen or personal-mechanism certification. No family stop or stage closure follows. The complete captioned 34-comparison table, source hashes, family dispositions and controls are in the [daily digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md). Existing probabilities retain their diagnostic-ledger entries; no new test or probability is introduced.
+
+The shared theory, tools, TODO, state, status and indices now include the completed canonical set, prior mid-run landings and EV input components. No scientific worker is active at the inspected cutoff: GPU continuation is resource-held; EV consumer/reader admission is implementation work. The authorized remaining work is not an empty or finished commission. No new tests were harvested from this wake.
+
+Curator roll-up: decision-trace screen; what survives source correction and controls?; **Narrows**; all five canonical primaries are complete with their limitations retained; project meaning: completed associations and invalid apparatus are separated; next engineering obligation: authenticated EV consumer and measured engine-reader admission; public claim unchanged; curator decision required: No; detail: [daily digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md).
+
+### OPS-THEORY-1018-FILING
+
+**Hypothesis.** The supplied twelve-position walkthrough can be filed without converting proposals or imported summaries into measured human claims.
+**METHOD.** Preserve the exact archived source and its quote-repair ledger, file the positions under existing theory sections, assign stable identifiers G203–G225, revisit every touched afterword, and reconcile source statements against completed local cards. Requested literature links distinguish inspected abstracts from inaccessible or uninspected full texts.
+**Found.** All twelve positions are filed. Original quotes remain; repairs are attributed to the supplied source. The matched-history attempt is invalid before fitting, canonical avoidance is complete, its own-failure extension is null, and SDT1 stays population-relative with competence unresolved. **Means.** The theory record is current without treating the analyst's framing, literature summaries or constructed simulations as human validation. [Application receipt](docs/design/archive/THEORY_FILING_20261018_APPLIED.json) records source hashes, mapping, repairs and limitations.
+
+Curator roll-up: theory maintenance; does the record preserve the curator's framework and current evidence?; **Infrastructure**; all twelve supplied positions are filed; project meaning: proposals, tests, literature and simulations remain distinct; next engineering obligation: execute already commissioned discriminating tests within admission; public claim unchanged; curator decision required: No; detail: [theory index](docs/theory/README.md).
+
+### OPS-THEORY-1018-SIM
+
+**Hypothesis.** Varying stakes, possible explanations and play frames can alter what an exact reader identifies in specified constructed worlds.
+**METHOD.** Read Ghost's complete N4d and N9 reports and the result/qualification portion of N8, then import their declared assumptions and limits. This operator did not rerun Ghost's simulations. The source reports describe their own independent replay.
+
+The table separates the manipulated construction, measured result and human-inference limit. Natural-log units measure information gain within those known candidate worlds.
+
+| Imported result | Measured scope | Retained limit |
+|---|---|---|
+| [N4d](https://github.com/EmotiveAutomaton/ghost-scale-sim/blob/main/docs/versions/v23-research-division/N4D_REPORT.md) | 12,288 cases; visible-stakes gains 0.095–0.987 nats with two or six probes; zero probes leave the prior | Two goals, known candidates and reliability; fixed stakes alias weighted and fixed-order rules; not a human goal hierarchy or reopening of main N4 |
+| [N9](https://github.com/EmotiveAutomaton/ghost-scale-sim/blob/main/docs/versions/v23-research-division/N9_REPORT.md) | 12,288 cases; narrow fear and narrow expertise remain exactly aliased under all tested probes | Different stipulated widths can separate other cases; no psychological diagnosis or human mechanism claim |
+| [N8](https://github.com/EmotiveAutomaton/ghost-scale-sim/blob/main/docs/versions/v23-research-division/N8_REPORT.md) | 49,152 cases; mode-aware gains 0.049–2.588 nats in the play settings, no-play controls at numerical zero | Play reverses binary preference by construction; discovery only; frozen confirmation infeasible |
+
+**Found.** Probe variation can distinguish some stipulated rules and cannot separate exactly identical ones. **Means.** The imports inform open human hypotheses without validating the human mapping. Source report hashes are retained in the filing receipt.
+
+Curator roll-up: value and process inference; what do the constructed probes distinguish?; **Narrows**; exact aliasing remains despite richer probes; project meaning: human assumptions and measurement remain necessary; next engineering obligation: retain construction boundaries in commissioned tests; public claim unchanged; curator decision required: No; detail: theory rows G219, G221 and G224.
+
 **The method archive.** How each test was actually run, kept so a hypothesis row in `docs/theory/`
 can be looked up rather than reconstructed. **It used to be the claims index; it is not any more** —
 [`docs/theory/`](docs/theory/) holds the claims, organised by what we believe rather than by when we

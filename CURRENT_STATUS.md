@@ -1,22 +1,26 @@
 # Current status
 
-## October 18 week rollout, 15:20 PDT
+**October 18 daily integration: Gear 2 is authorized; Stage 15 remains open.**
+All five canonical primaries and the EV 100-session input pilot are complete and
+verified. No science worker is active at the 20:02 native inspection. GPU work
+is resource-held below its unchanged 7,424 MiB start floor; the prepared
+continuation retains all checkpoints and cumulative charges. EV authenticated
+consumer joins, engine-word matching and measured reader admission are the next
+implementation work. An authorized backlog is not a running queue.
 
-Gear 2 remains active. [The reviewed week packet](docs/design/stage-15/drive/WEEK_REVIEW_20261018.md)
-is rolling out with the approved population-relative SDT1 interpretation and its
-competence gap retained. D38 and D14 canonical successors are fully verified and
-recorded; D32 canonical is running. D2 canonical primary and the engine consumers
-remain implementation work. The engine handoff is delivered; theory filing stays
-scheduled for 20:00 PDT as requested by its source.
+The [daily digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md) records the full descriptive screen,
+source-held originals, canonical replacements, controls and family boundaries.
+No clean-screen certification, family stop or stage closure follows. The taste
+lens remains blind; production identity is a scoped result with recording-context
+rivals. The [twelve-position theory filing](docs/design/archive/THEORY_FILING_20261018_APPLIED.json) is applied, with supplied
+literature summaries and constructed simulations clearly attributed.
 
-The GPU reader [stopped at its unchanged working memory floor](results/phase_2_4_stage_15/DRIVE/SUGGESTION_ENVIRONMENT_2_STOP.md).
-All 6,102 retained checkpoints validate. A separately labeled continuation is
-prepared with prior time charged, but the current memory sample is below its
-cold-start requirement. It has not restarted. No scientific verdict follows from
-this unfinished pass. D32 continues to produce fresh CPU checkpoints. The next
-planned inspection is 15:26; independent six-hour health remains 15:27:49 PDT.
-The [execution index](results/phase_2_4_stage_15/DRIVE/INDEX.md) identifies completed,
-running, resource-held and unbuilt work. The older snapshots below are historical.
+The [inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_2000.md) verifies native exits, research/source
+locks, free resources, calendars and actual watcher delivery. One CPU slot stays
+reserved for ToMpathy. No paid batch is active; campaign spend remains $0.04,
+conditional K retains its first-$10 limit and Monday cutoff. EV implementation,
+costed D30/P7/D24 continuations, K/D31 intake and the guarded GPU wait remain;
+post-talk work follows the week packet. Older snapshots below are historical.
 
 ## October 18: mid-run errata applied
 
