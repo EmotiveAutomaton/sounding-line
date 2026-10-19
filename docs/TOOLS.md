@@ -3,8 +3,10 @@
 **EV authenticated consumer:** Nine targeted checks and complete counted native
 rehearsal verify source/covariate preservation, support dispositions and mutation
 refusal. Actual producer-schema validation was corrected before corpus dispatch;
-both rehearsals remain. The bounded real-data consumer is in fresh verification,
-without reader execution or scientific admission. [Build/launch receipt](../results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_BUILD_20261018.md).
+both rehearsals remain. The bounded real-data consumer is now independently
+verified complete: original rows/covariates, full selected-document replay,
+all source/output hashes, exact worker exits and released slot verify.
+No reader execution or scientific admission follows. [Complete consumer](../results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md) · [build/launch history](../results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_BUILD_20261018.md).
 
 **October 18 daily integration:** All five canonical primaries are fully verified,
 including D2's single unchanged-contract numerical recovery and D32's full replay.

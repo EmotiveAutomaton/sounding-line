@@ -1,9 +1,10 @@
 # October 16 drive: execution index
 
-[EV authenticated consumer is running](EV_D33_CONSUMER_BUILD_20261018.md), in
-fresh source verification after passing nine targeted checks and corrected native
-rehearsal. No unfinished support count or scientific score is reported. The
-earlier daily no-worker snapshot below precedes this dispatch.
+[EV authenticated input consumer is verified complete](EV_D33_CONSUMER_V1.md).
+Original rows and covariates, all selected documents, source/output hashes,
+native exits and released slot verify. Engine-word matching, typed fragments,
+measured reader execution and statistical admission remain implementation work.
+The earlier launch and daily snapshots below retain their dated scope.
 
 **October 18 daily integration completed.** [Screen, controls and family
 dispositions](DIGEST_20261018.md) supersede the dated execution and routing

@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-D33-CONSUMER-V1
+
+**Hypothesis.** Original writing-log word rows can retain their identities and covariates when joined to final documents, with missing support explicit.
+**METHOD.** Authenticate original D33 rows and the bounded source producer, join exact production occurrences, independently reconstruct the source documents and rows in a fresh process, and compare saved rows and every source/output hash.
+**Found.** The bounded input consumer passes independent reconstruction and integrity checks. **Means.** The exact input join is validated; engine-word matching, typed fragments, reader execution and scientific admission remain unfinished. All original rows remain, including those outside the pilot and those without intact final words. The [complete captioned support table](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md) records every disposition, cumulative execution/replay cost, source integrity and remaining limits. Exact workers exited and the counted slot released. No new research test or probability was harvested.
+
+Curator roll-up: engine inputs; can original word identities survive the final-document join?; **Infrastructure**; the bounded input join preserves all 78,602 original rows; project meaning: authenticated input support is ready for exporter matching; next engineering obligation: validate exact engine-word spans and typed fragments, then measured reader admission; public claim unchanged; curator decision required: No; detail: [complete consumer](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md).
+
 ### OPS-S15-EV-D33-CONSUMER-BUILD
 
 **Hypothesis.** Authenticated original word rows can join verified final documents without changing covariates or substituting missing evidence.

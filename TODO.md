@@ -17,9 +17,12 @@ work; no scientific worker is currently active at the recorded cutoff.
   100-session source/replay pilot validated; actual exporter input check passes.
 - [x] S15-EV-D33-JOIN-COMPONENT: fourteen constructed checks pass; every
   original row retained with explicit support disposition.
-- [ ] S15-EV-CONSUMER: authenticate and run the counted D33 corpus join;
-  join exact exporter word/content spans, preserve typed fragments and all
-  original covariates. Native known-answer/full-handler admission precedes corpus.
+- [x] S15-EV-CONSUMER-INPUT: bounded counted D33 input join authenticated
+  and independently verified; all original rows/covariates and explicit support
+  dispositions retained. [Complete receipt](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md).
+- [ ] S15-EV-CONSUMER: join exact exporter word/content spans and preserve
+  typed fragments. Full-corpus source and reader admission remain separate;
+  native known-answer/full-handler admission precedes corpus.
 - [ ] S15-EV-READER: measured pinned-exporter pilot, resource/cost accounting
   including source prep and full replay, then admitted 1,399-document execution.
 - [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
