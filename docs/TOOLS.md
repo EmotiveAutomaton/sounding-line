@@ -1,5 +1,11 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV full-source continuation:** Nine targeted checks and native known-answer
+replay validate exact pilot reuse, newly reconstructed sessions, corruption
+refusal, saved boundaries and fixed cumulative-cost reservation. The full source
+worker is running; full reader and statistical admission remain separate.
+[Validation and limits](../results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_BUILD_20261018.md).
+
 **EV first-100 support is verified complete:** exact fresh uncached replay,
 all source/output pins, original-row joins and native closure pass. The complete
 support count exceeds both required signature floors; this admits building the

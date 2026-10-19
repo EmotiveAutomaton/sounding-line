@@ -1,5 +1,13 @@
 # Current status
 
+**October 18, 23:23 PDT: Gear 2 source continuation is running.** The full
+1,399-document input worker reuses the verified first 100 records and reconstructs
+and freshly replays the remaining 1,299. Nine targeted checks and actual native
+validation passed before dispatch. Its 3-hour-45-minute cap preserves all prior
+charges and reserves measured remaining reader cost under the single eight-hour
+ceiling. Full reader/scientific admission is separate. GPU stays resource-held;
+no paid batch is active. [Build, validation and dispatch](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_BUILD_20261018.md).
+
 **October 18, 23:05 PDT:** The required first-100 EV support export is verified
 complete, with exact fresh replay and released CPU slot. Its support gate passes;
 full-source/reader reuse and cumulative-cost admission are the next implementation

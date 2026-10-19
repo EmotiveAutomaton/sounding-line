@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+`cards/engine_input_full` validates byte-identical completed pilot reuse and
+fresh source replay for remaining sessions. Nine targeted checks and actual
+counted native validation pass. Full1,399-document source preparation is running
+under its fixed cumulative cap with the remaining reader reservation retained.
+No reader or scientific comparison runs in this handler.
+[Validation and limits](../../results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_BUILD_20261018.md).
+
 `cards/engine_export_support_pilot` freezes the required first-100 scope over
 the same authenticated exporter functions. It passes 21 targeted checks and
 complete native known-answer replay; the real-reader support export is running

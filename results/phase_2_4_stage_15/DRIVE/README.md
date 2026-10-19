@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 18, 23:23 PDT:** [Full source preparation](EV_FULL_SOURCE_BUILD_20261018.md)
+is validated and running. Prior pilot records are reused byte-identically;
+remaining documents receive fresh source replay under a cap that reserves reader
+cost. No full-reader or scientific admission follows from source dispatch.
+
 **October 18, 23:05 PDT:** [First-100 support](EV_EXPORT_SUPPORT_V1.md) is verified
 complete. Exact replay and required signature support pass; full-population
 reuse/cost admission and scientific comparisons remain unfinished. Earlier

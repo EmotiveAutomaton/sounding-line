@@ -8,6 +8,16 @@
 
 Curator roll-up: engine validation; can the reader reproduce the support cohort without losing original identities or exceeding its allocation?; **Infrastructure**; the complete pilot passes the signature support floor; project meaning: the support prerequisite is met, with scientific questions still open; next engineering obligation: validate checkpointed reuse and full-source/reader cost admission; public claim unchanged; curator decision required: No; detail: [complete support pilot](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1.md).
 
+The same landing pass validated the source continuation on known answers and
+fresh native replay before dispatch. Nine targeted checks pass, including
+checkpoint resume, corruption/refusal and cumulative reader reservation. Full
+source preparation is now running; the complete population, prior charges and
+remaining reader reservation are preserved. The initial test invocation failed
+before fixture setup on temporary-directory access; its receipt is retained.
+[Continuation build and admission](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_BUILD_20261018.md).
+
+Curator roll-up: engine inputs; can completed source records be reused while remaining records receive independent replay?; **Infrastructure**; nine targeted checks and native replay pass; project meaning: full source preparation is executing; next engineering obligation: verify full source completion and admit the reader against actual remaining cost; public claim unchanged; curator decision required: No; detail: [source continuation](results/phase_2_4_stage_15/DRIVE/EV_FULL_SOURCE_BUILD_20261018.md).
+
 ### OPS-S15-EV-SUPPORT-BUILD
 
 **Hypothesis.** The authenticated exporter can retain the required first-100 population, exact joins and fresh replay under counted supervision.

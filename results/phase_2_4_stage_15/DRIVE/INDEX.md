@@ -1,5 +1,10 @@
 # October 16 drive: execution index
 
+[Full source continuation](EV_FULL_SOURCE_BUILD_20261018.md) is validated and
+running at October 18 23:23 PDT, over all 1,399 documents with the exact first 100
+reused. Independent replay of the remaining 1,299 is included in its fixed cap.
+Reader continuation and scientific admission remain separate.
+
 [Required first-100 support export](EV_EXPORT_SUPPORT_V1.md) is verified complete.
 Exact uncached replay and original-row joins pass; its signature-support floor
 is met. Full-population reuse and cost admission remain to be implemented. No
