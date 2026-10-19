@@ -9,6 +9,16 @@ ran it.
 
 ---
 
+### S15-DRIVE-D32-CANONICAL
+
+**Hypothesis.** Offered suggestions outside a writer's earlier typed repertoire are less likely to be accepted.
+**METHOD.** Correct selected-offer outcomes while keeping the original clusters, earlier-history repertoire, support and covariates; fit the original acceptance model with leave-writer-out appeal, refitting all 2,000 writer-bootstrap draws and 200 within-writer outcome permutations, and repeat every fit from source in a fresh process.
+**Found.** The corrected comparison does not resolve lower acceptance outside the earlier repertoire. The coefficient is -0.032615607 log odds, with 95% writer-bootstrap interval [-0.092152988, +0.020579751] and descriptive normal-reference probability 0.2673288351: marginal under the frozen direction-aware rule. All fits pass; the repeated outcome reference does not trigger its quarter-spread bias warning. **Means.** This association does not establish that the measured repertoire limits acceptance, and it does not reject the broader expertise account. No new extension follows from this primary-only successor.
+
+Support retains 69,109 offered options and 61 writers; 2,510 corrected menu choices change 5,020 offer labels while every other extracted row field stays identical. All 4,536 pins, 2,214 terminal artifacts and 2,205 sealed checkpoints verify; independent summary and point-gradient reconstruction agree, exact workers exited and the CPU slot is released. The original alternate cluster specifications and examination extension retain their source holds. Outcome shuffling within writer is a declared population diagnostic, not a causal intervention or writer-identification test. No new family-null count or scientific admission follows. Shared theory/instrument/TODO integration remains at 20:00.
+
+Curator roll-up: expertise and available choices; does earlier typed repertoire predict which offered suggestions are accepted?; **Narrows**; the corrected primary remains marginal; project meaning: this recorded-repertoire association is unresolved and does not adjudicate general expertise; next engineering obligation: integrate the completed canonical correction set and continue EV consumer/reader admission; public claim unchanged; curator decision required: No; detail: [complete canonical D32](results/phase_2_4_stage_15/DRIVE/D32-canonical.md).
+
 ### OPS-S15-EV-INPUT-PILOT-V1
 
 **Hypothesis.** The authenticated input worker can reconstruct final documents and exact production occurrences on actual source records within its bounded pilot allocation.

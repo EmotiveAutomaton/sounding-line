@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+[Canonical D32 is complete and fully verified](D32-canonical.md): the primary
+remains marginal, all fits pass and the repeated outcome reference does not
+trigger its bias warning. Native workers exited and the CPU slot is released.
+All five commissioned canonical primaries are now complete; Stage 15 remains
+open. EV consumer joins and measured reader admission remain implementation
+work, and GPU continuation remains resource-held. Shared integration is at 20:00.
+
 [19:15 scheduled inspection](HEALTH_20261018_1915.md): the
 [100-session EV source pilot is complete and fully verified](EV_INPUT_PILOT_V1.md),
 including the actual exporter input check. Its workers exited and slot is released.
