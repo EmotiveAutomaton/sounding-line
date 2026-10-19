@@ -1,5 +1,10 @@
 # October 16 drive: execution index
 
+[Required first-100 support export](EV_EXPORT_SUPPORT_V1.md) is verified complete.
+Exact uncached replay and original-row joins pass; its signature-support floor
+is met. Full-population reuse and cost admission remain to be implemented. No
+EV scientific worker is active at completion; earlier launch snapshots are history.
+
 [Required first-100 support export](EV_EXPORT_SUPPORT_V1_BUILD.md) is running
 after native validation, with all prior charges and the demo slot preserved.
 The [first-ten pilot](EV_EXPORT_TIMING_V1.md) is fully landed. Full-population

@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 18, 23:05 PDT:** [First-100 support](EV_EXPORT_SUPPORT_V1.md) is verified
+complete. Exact replay and required signature support pass; full-population
+reuse/cost admission and scientific comparisons remain unfinished. Earlier
+running statements below retain their original cutoff times.
+
 **October 18, 22:45 PDT:** [First-ten reader timing](EV_EXPORT_TIMING_V1.md) is
 verified complete and pushed. The [required first-100 support export](EV_EXPORT_SUPPORT_V1_BUILD.md)
 is running under counted supervision; full-population and scientific admission

@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-SUPPORT-V1
+
+**Hypothesis.** The pinned reader can export the required support cohort, retain original word identities and reproduce its output within the allocation.
+**METHOD.** Export 100 fixed source documents; reconstruct sources and repeat the uncached reader in a fresh process; authenticate all source/output hashes, exact joins and phrase spans, and check the support counter on known answers before inspecting corpus phrases.
+**Found.** The whole pilot reproduces exactly and exceeds the required signature support floors. **Means.** The support gate permits building EV2; full-population execution still requires validated reuse and cumulative-cost admission. No scientific claim or badge follows. All original rows and typed fragments remain; exact workers exited and the slot released. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1.md) records support, whole-cell timing, prior charges and the narrow projected margin. No new research test or probability was harvested.
+
+Curator roll-up: engine validation; can the reader reproduce the support cohort without losing original identities or exceeding its allocation?; **Infrastructure**; the complete pilot passes the signature support floor; project meaning: the support prerequisite is met, with scientific questions still open; next engineering obligation: validate checkpointed reuse and full-source/reader cost admission; public claim unchanged; curator decision required: No; detail: [complete support pilot](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1.md).
+
 ### OPS-S15-EV-SUPPORT-BUILD
 
 **Hypothesis.** The authenticated exporter can retain the required first-100 population, exact joins and fresh replay under counted supervision.

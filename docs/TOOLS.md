@@ -1,5 +1,11 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV first-100 support is verified complete:** exact fresh uncached replay,
+all source/output pins, original-row joins and native closure pass. The complete
+support count exceeds both required signature floors; this admits building the
+comparison, not a scientific result. Full-population reuse and cumulative-cost
+admission remain unimplemented. [Complete support and limits](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1.md).
+
 **EV first-100 support exporter:** Separate fixed scope passes 21 targeted checks
 and complete native known-answer replay. Exact corpus dispatch is running under
 one counted CPU slot with prior costs and demo reservation. Source, support and

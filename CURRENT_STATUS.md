@@ -1,5 +1,12 @@
 # Current status
 
+**October 18, 23:05 PDT:** The required first-100 EV support export is verified
+complete, with exact fresh replay and released CPU slot. Its support gate passes;
+full-source/reader reuse and cumulative-cost admission are the next implementation
+work. No EV scientific worker is running at this cutoff. GPU continuation remains
+resource-held and no paid batch is active. One slot stays reserved for ToMpathy.
+[Complete support and cost record](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_SUPPORT_V1.md).
+
 **October 18, 22:45 PDT:** The required first-100 EV support export is running
 on one counted CPU slot, with exact native progress and monitoring verified.
 One slot remains reserved for ToMpathy. All prior pilot costs are retained;
