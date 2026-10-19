@@ -20,9 +20,11 @@ work; no scientific worker is currently active at the recorded cutoff.
 - [x] S15-EV-CONSUMER-INPUT: bounded counted D33 input join authenticated
   and independently verified; all original rows/covariates and explicit support
   dispositions retained. [Complete receipt](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md).
-- [ ] S15-EV-CONSUMER: join exact exporter word/content spans and preserve
-  typed fragments. Full-corpus source and reader admission remain separate;
-  native known-answer/full-handler admission precedes corpus.
+- [x] S15-EV-EXPORT-JOIN-COMPONENT: exact exporter word/content spans and
+  retained typed fragments pass constructed and actual-exporter checks.
+- [ ] S15-EV-CONSUMER: build the counted authenticated exporter handler;
+  native known-answer/full-handler admission precedes the measured real-reader
+  pilot. Full-corpus source, support and reader admission remain separate.
 - [ ] S15-EV-READER: measured pinned-exporter pilot, resource/cost accounting
   including source prep and full replay, then admitted 1,399-document execution.
 - [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,

@@ -1,0 +1,273 @@
+{
+  "ack_state_at_record": "Pending full write-through; acknowledgement follows record creation",
+  "at": "2026-10-18T21:34:08.765786-07:00",
+  "demo_reservation_retained": true,
+  "engine_export": "Input pilot and authenticated original-word consumer fully verified and landed. Exact exporter-span/typed-fragment component passes targeted and actual-exporter constructed checks. Counted native handler and measured reader admission remain implementation work",
+  "events_inspected": [
+    "680877d83382f2e71a0a206b",
+    "a0f74f2430f103c5b20fb154"
+  ],
+  "gpu": {
+    "attempt_exists": false,
+    "cold_floor_MiB": 7424,
+    "free_MiB": 6362,
+    "lease_exists": false,
+    "prepared_pins": 124,
+    "prepared_plan_sha256": "8fe364421528b302eb0dd9b35e34f6da31cf37a266499a3509b9e8f20221642d",
+    "temperature_C": 37,
+    "used_MiB": 5636,
+    "utilization_percent": 2
+  },
+  "inspection_receipt_sha256": "74aa29b439262ffad6500e8d2de72c4589a9ce6079f527081224bc7d43970024",
+  "jobs": [
+    {
+      "identities": [
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340173768984,
+            "executable": "python.exe",
+            "pid": 3780
+          },
+          "record": "OWNER.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368340205353646,
+            "executable": "python.exe",
+            "pid": 80212
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368433756264053,
+            "executable": "python.exe",
+            "pid": 25224
+          },
+          "record": "VERIFY_CHILD.json"
+        }
+      ],
+      "job": "drive-wave-20261017-w1/D32-canonical",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 42650.479929,
+        "original_wall_ceiling_seconds": 43200,
+        "prior_wall_seconds_charged": 549.520071
+      },
+      "newest_output_age_seconds": 14675.394062280655,
+      "output_bytes": 26413168,
+      "output_files": 4412,
+      "phase": "verify",
+      "plan_sha256": "f19fa9202786134ed8bf850c6471d299caa21d7a2e51b8f084bc2434c3d0b64f",
+      "source_pins": 4536,
+      "terminals": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T04:33:58.050451+00:00",
+        "next_milestones": [
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "identities": [
+        {
+          "cpu_seconds": 6.78125,
+          "live": true,
+          "native": {
+            "created_ticks": 134367443601019868,
+            "executable": "python.exe",
+            "pid": 77320
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.019123077392578125
+        }
+      ],
+      "job": "drive-calendar-20261017",
+      "phase": "calendar",
+      "plan_sha256": "5cbb39fd078e4e53cfdc152cd0be06748351818efd36d9beda368f65cfddbf28",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "heartbeat": {
+        "at": "2026-10-19T04:33:56.189777+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "identities": [
+        {
+          "cpu_seconds": 1.671875,
+          "live": true,
+          "native": {
+            "created_ticks": 134368329836144485,
+            "executable": "python.exe",
+            "pid": 644
+          },
+          "priority": 32,
+          "record": "OWNER.json",
+          "rss_GiB": 0.0191497802734375
+        }
+      ],
+      "job": "drive-calendar-20261018-week",
+      "phase": "calendar",
+      "plan_sha256": "af5e7ea14344a70ffc4e1d3b2d604a7dfc6d831a2b053a0c0a63f3353c671da4",
+      "source_pins": 5,
+      "terminals": []
+    },
+    {
+      "identities": [
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368487760369029,
+            "executable": "python.exe",
+            "pid": 146396
+          },
+          "record": "OWNER.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368487767205595,
+            "executable": "python.exe",
+            "pid": 180384
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368492570157468,
+            "executable": "python.exe",
+            "pid": 117500
+          },
+          "record": "VERIFY_CHILD.json"
+        }
+      ],
+      "job": "drive-ev-input-pilot-v1",
+      "limits": {
+        "max_output_bytes": 536870912,
+        "max_wall_seconds": 1800,
+        "original_wall_ceiling_seconds": 1800,
+        "prior_wall_seconds_charged": 0
+      },
+      "newest_output_age_seconds": 8305.729150056839,
+      "output_bytes": 7975930,
+      "output_files": 110,
+      "phase": "verify",
+      "plan_sha256": "52da2d7863e218af753548f4dcc77560f43d6a952b4ced318b634f56a73d51e9",
+      "source_pins": 450,
+      "terminals": [
+        "COMPLETE.json"
+      ]
+    },
+    {
+      "identities": [
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368548761664587,
+            "executable": "python.exe",
+            "pid": 188332
+          },
+          "record": "OWNER.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368548774557112,
+            "executable": "python.exe",
+            "pid": 63016
+          },
+          "record": "EXECUTE_CHILD.json"
+        },
+        {
+          "live": false,
+          "native": {
+            "created_ticks": 134368548954852826,
+            "executable": "python.exe",
+            "pid": 148960
+          },
+          "record": "VERIFY_CHILD.json"
+        }
+      ],
+      "job": "drive-ev-d33-consumer-v1",
+      "limits": {
+        "max_output_bytes": 268435456,
+        "max_wall_seconds": 1800,
+        "original_wall_ceiling_seconds": 1800,
+        "prior_wall_seconds_charged": 0
+      },
+      "newest_output_age_seconds": 2799.222551584244,
+      "output_bytes": 4143967,
+      "output_files": 5,
+      "phase": "verify",
+      "plan_sha256": "609da74455c58b1192741f9cc4e66c35e362a23dae20173ec0ef9fd81d3ce9d0",
+      "source_pins": 1990,
+      "terminals": [
+        "COMPLETE.json"
+      ]
+    }
+  ],
+  "no_orphan_research_worker": true,
+  "no_scientific_scores_read": true,
+  "no_tests_harvested": true,
+  "pin_checks": {
+    "cached": 5581,
+    "hashed": 1529
+  },
+  "recovery": "All five canonical primaries and bounded EV source/consumer jobs fully landed; no CPU science worker. Both calendars live. Inspect GPU floor before any continuation. Continue authorized EV exporter integration; no new research",
+  "research_locks": "All21 verified separately this pass",
+  "resources": {
+    "commit_headroom_GiB": 30.515079498291016,
+    "disk_free_GiB": 397.4623031616211,
+    "ram_available_GiB": 36.306617736816406
+  },
+  "schema": "sounding-line.operational-health.v1",
+  "scoped_native_inventory_sha256": "2f928953c8c62b3ca61ca1618d2be217783aee2eedd7cfcc98874868bcffdfa1",
+  "slots": [],
+  "watcher": {
+    "error": null,
+    "events": [
+      {
+        "delivered_at": 1792383912.6274111,
+        "id": "680877d83382f2e71a0a206b",
+        "path": "[watch deadline: inspect queue liveness]",
+        "state": "queued"
+      },
+      {
+        "delivered_at": null,
+        "id": "a0f74f2430f103c5b20fb154",
+        "path": "[queue health: inspect progress, failures, locks and authorized next work]",
+        "state": "pending"
+      }
+    ],
+    "historical_failures": 2,
+    "last_scan_age_seconds": 31.71648144721985,
+    "native": {
+      "created_ticks": 134367488548255199,
+      "pid": 131912
+    },
+    "source_verified": true
+  }
+}

@@ -1,5 +1,12 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**EV exporter join and typed fragments:** Exact Unicode/source joins, explicit
+unsupported words and retained typed-run boundaries pass 23 new checks and
+14 existing join checks. Fresh actual-exporter replay matches four constructed
+fixtures and accepts their fragments. Initial fixture-generation failures remain;
+no real reader or corpus ran. Counted handler and measured reader admission remain.
+[Validation](../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_JOIN_BUILD_20261018.md).
+
 **EV authenticated consumer:** Nine targeted checks and complete counted native
 rehearsal verify source/covariate preservation, support dispositions and mutation
 refusal. Actual producer-schema validation was corrected before corpus dispatch;

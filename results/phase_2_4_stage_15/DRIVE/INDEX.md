@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+[Exact exporter joins and typed fragments](EV_EXPORT_JOIN_BUILD_20261018.md)
+pass constructed checks and fresh actual-exporter replay. Counted handler and
+measured real-reader admission remain unbuilt; no scientific worker is active.
+[21:34 inspection](HEALTH_20261018_2134.md) verifies calendars, locks, resources
+and watcher delivery. GPU continuation remains below its unchanged start floor.
+
 [EV authenticated input consumer is verified complete](EV_D33_CONSUMER_V1.md).
 Original rows and covariates, all selected documents, source/output hashes,
 native exits and released slot verify. Engine-word matching, typed fragments,

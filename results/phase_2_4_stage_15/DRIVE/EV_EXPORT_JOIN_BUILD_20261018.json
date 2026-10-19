@@ -1,0 +1,80 @@
+{
+  "cases": [
+    {
+      "case": "replacement",
+      "exporter_parity": true,
+      "fragment_input_accepted": true,
+      "fragment_output_accepted": true,
+      "rows_preserved": true
+    },
+    {
+      "case": "unicode",
+      "exporter_parity": true,
+      "fragment_input_accepted": true,
+      "fragment_output_accepted": true,
+      "rows_preserved": true
+    },
+    {
+      "case": "unsupported",
+      "exporter_parity": true,
+      "fragment_input_accepted": true,
+      "fragment_output_accepted": true,
+      "rows_preserved": true
+    },
+    {
+      "case": "mixed",
+      "exporter_parity": true,
+      "fragment_input_accepted": true,
+      "fragment_output_accepted": true,
+      "rows_preserved": true
+    }
+  ],
+  "component_sha256": "66985a84e5079d8619a5d27c63a78f39c5eab25fbf17dd5bb76c04292079656d",
+  "corpus_executed": false,
+  "counted_runtime_admission": false,
+  "design_lint": "pass",
+  "engine_commit": "5f3ad0a304727fff5e1a6beca592e786ee71b181",
+  "engine_source_manifest_sha256": "8aeee563b8f23202a042c7b4385df0669e1fd78c2d5f7f8455fd85ee6cb32bc7",
+  "existing_join_checks": 14,
+  "exporter_sha256": "a5dd4bc6447524968e75d1d4ae5f7d6c058529b41bbf2143ed44d4b7261273aa",
+  "final_pytest": {
+    "errors": "0",
+    "failures": "0",
+    "hostname": "DESKTOP-9FR2IUH",
+    "name": "pytest",
+    "skipped": "0",
+    "tests": "37",
+    "time": "0.457",
+    "timestamp": "2026-10-18T21:34:05.713925-07:00"
+  },
+  "fixture_sha256": "389fc74f90efe59d63ca7cd3eca3e4b9c6d226cc68adc2eda6c351dfd3118afd",
+  "limitations": [
+    "Producer authentication, pin verification and independent replay remain caller obligations",
+    "Constructed losses do not validate real-reader correctness",
+    "Typed fragments are not original prose; partial surviving runs remain fragments",
+    "Counted full-handler validation and measured reader admission remain unfinished"
+  ],
+  "new_checks": 23,
+  "new_research_tests": false,
+  "real_reader_executed": false,
+  "research_locks": "21 pass",
+  "retained_attempts": [
+    {
+      "outcome": "22 passed, 1 failed",
+      "reason": "Literal Unicode corrupted in shell fixture-generation pipe",
+      "receipt_sha256": "f975559e5189dc0b4b195c45b371753122ca6e336e6698e69cb528d0519ec22d"
+    },
+    {
+      "outcome": "22 passed, 1 failed",
+      "reason": "Expected scored-word count still reflected corrupted fixture; corrected to explicit known words",
+      "receipt_sha256": "e19d295e6880439afcdf4b8f7077de89edd36f9ef997f7e4edbc1b0fe51ae37b"
+    }
+  ],
+  "retained_original_fixture_sha256": "2dca0db97e6cf98745bb49d58292817e72918159277e2ca0fab3ea4224d856e1",
+  "schema": "sounding-line.ev-export-join-component-validation.v1",
+  "scientific_admission": false,
+  "scope": "Actual pinned exporter with constructed deterministic losses; component validation only",
+  "status": "verified",
+  "test_receipt_sha256": "d1dc802697016e892bf701b0250a9048af395bfc50eeb4a3af196f834049b3c4",
+  "tests_sha256": "abbefaf035bcd38dd22cf8f36455e0cae6e42c1d8441050ac89b72ec18c21603"
+}

@@ -2,10 +2,13 @@
 
 **October 18, after the daily integration:** The bounded EV authenticated
 D33 consumer is independently verified complete. Exact workers exited and
-released their CPU slot; the demo reservation remains. Engine-word matching,
-reader execution and statistical admission are the next implementation work;
+released their CPU slot; the demo reservation remains. Exact engine-word matching
+and typed fragments now pass constructed/actual-exporter component checks.
+Counted handler, reader execution and statistical admission remain unfinished;
 GPU continuation remains resource-held.
 [Complete input consumer](results/phase_2_4_stage_15/DRIVE/EV_D33_CONSUMER_V1.md).
+[Exporter component](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_JOIN_BUILD_20261018.md) ·
+[21:34 native/resource inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_2134.md).
 The daily checkpoint is pushed as `c1e4dd16b`; its no-worker observation below
 describes the earlier cutoff, before this dispatch.
 

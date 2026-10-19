@@ -1,5 +1,13 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV-EXPORT-JOIN-BUILD
+
+**Hypothesis.** Original word occurrences can join engine spans without substitute matches, and typed fragments can preserve source boundaries.
+**METHOD.** Use actual pinned-exporter outputs with constructed losses; test Unicode coordinates, duplicate spelling, unsupported words, source corruption, retained rows and fresh serialized replay. Independently reproduce the fixtures and fragment exports from the frozen engine.
+**Found.** All 23 new checks, 14 existing join checks and actual-exporter fixture replay pass. **Means.** The component is validated; counted full-handler validation, measured real-reader execution and scientific admission remain unfinished. The lossy shell-generated fixture and two failed test receipts are retained with the correction explained. No real reader or corpus ran. The [build report](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_JOIN_BUILD_20261018.md) records exact scope, controls and remaining obligations. The [21:34 inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261018_2134.md) verifies native closure, calendars, locks, resources and watcher delivery. GPU continuation remains below its unchanged floor; no new research test was harvested.
+
+Curator roll-up: engine inputs; can engine scores and typed fragments preserve exact production identity?; **Infrastructure**; the component passes 23 new constructed checks; project meaning: exporter matching is implemented without corpus admission; next engineering obligation: counted native handler and measured reader pilot; public claim unchanged; curator decision required: No; detail: [component validation](results/phase_2_4_stage_15/DRIVE/EV_EXPORT_JOIN_BUILD_20261018.md).
+
 ### OPS-S15-EV-D33-CONSUMER-V1
 
 **Hypothesis.** Original writing-log word rows can retain their identities and covariates when joined to final documents, with missing support explicit.

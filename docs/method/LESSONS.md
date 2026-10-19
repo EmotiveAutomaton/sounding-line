@@ -761,6 +761,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Verify the actual Unicode bytes in a fixture before using it to validate offsets.**
+  A Windows shell pipeline replaced literal emoji and accented letters while generating
+  an exporter fixture. The prefix check caught the loss; the corrupted fixture and
+  failed checks remain. Generate through an encoding-safe file or explicit Unicode
+  escapes, assert the intended codepoints, and retain fresh-process parity with the
+  actual producer. A correct parser cannot recover characters lost before it ran.
+  (OPS-S15-EV-EXPORT-JOIN-BUILD, October 18)
+
 - **A deleted model can leave native framework workspaces outside Python's tensor inventory.**
   A reader stopped at its exact-zero unload guard after model deletion and
   `empty_cache()`. A bounded tiny-model probe verified that the model had been

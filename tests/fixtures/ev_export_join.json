@@ -1,0 +1,2468 @@
+{
+  "exporter_sha256": "a5dd4bc6447524968e75d1d4ae5f7d6c058529b41bbf2143ed44d4b7261273aa",
+  "engine_commit": "5f3ad0a304727fff5e1a6beca592e786ee71b181",
+  "constructed_losses": true,
+  "cases": [
+    {
+      "name": "replacement",
+      "record": {
+        "document": {
+          "keys": {
+            "writer": "constructed-w",
+            "session": "constructed-replacement",
+            "prompt": "constructed-p"
+          },
+          "text": "cat cat ",
+          "textSha256": "2b47aa97c5a2f2210c161ab59bf10fd67ead270077f34335ec78a3bfb259a999",
+          "variant": "final-document",
+          "provenance": [
+            {
+              "start": 0,
+              "end": 3,
+              "occurrenceId": "p6:2",
+              "source": "typed",
+              "productionOrdinals": [
+                2
+              ]
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "occurrenceId": "source:3",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "occurrenceId": "p6:1",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "occurrenceId": "source:7",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "index": 0,
+            "character_ids": [
+              0,
+              1,
+              2
+            ],
+            "is_word": true,
+            "disposition": "not-an-intact-final-token",
+            "final_codepoints": null
+          },
+          {
+            "index": 1,
+            "character_ids": [
+              4,
+              5,
+              6
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              4,
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "character_ids": [
+              8,
+              9,
+              10
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              0,
+              3
+            ]
+          }
+        ],
+        "support": {
+          "original_occurrences": 3,
+          "intact_final_occurrences": 2,
+          "original_words": 3,
+          "intact_final_words": 2
+        },
+        "production_mapping": "constructed adapter only; corpus source authentication and D33/export joins still required"
+      },
+      "rows": [
+        {
+          "writer": "constructed-w",
+          "session": "constructed-replacement",
+          "index": 0,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-replacement",
+          "index": 1,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-replacement",
+          "index": 2,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        }
+      ],
+      "export": {
+        "status": "complete",
+        "keys": {
+          "writer": "constructed-w",
+          "session": "constructed-replacement",
+          "prompt": "constructed-p"
+        },
+        "variant": "final-document",
+        "textSha256": "2b47aa97c5a2f2210c161ab59bf10fd67ead270077f34335ec78a3bfb259a999",
+        "inputRecordSha256": "60f3701da904a01fd8558b07f270f4b5a056037459c42d290c2e1297ef26c37a",
+        "provenance": [
+          {
+            "start": 0,
+            "end": 3,
+            "occurrenceId": "p6:2",
+            "source": "typed",
+            "productionOrdinals": [
+              2
+            ]
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "occurrenceId": "source:3",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "occurrenceId": "p6:1",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "occurrenceId": "source:7",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          }
+        ],
+        "provenanceSha256": "7b3ed0cccb9dd2a21e7c6d052630ed073f6e801995f8111f0e4fc2a86bba4944",
+        "productionMappingValidated": false,
+        "regions": [
+          {
+            "id": "p0",
+            "start": 0,
+            "end": 8
+          }
+        ],
+        "fragmentConstruction": null,
+        "habits": {
+          "raw": {
+            "repeats": [],
+            "words": 2,
+            "quotedWords": 0,
+            "sentenceCount": 1,
+            "sentenceMean": 2,
+            "sentenceSpread": 0.0,
+            "connectives": {},
+            "punctuation": {}
+          },
+          "ratesPer1000UnquotedWords": {
+            "and": 0.0,
+            "but": 0.0,
+            "because": 0.0,
+            "however": 0.0,
+            "therefore": 0.0,
+            "although": 0.0,
+            "yet": 0.0,
+            "so": 0.0,
+            ",": 0.0,
+            ";": 0.0,
+            ":": 0.0,
+            "—": 0.0,
+            "?": 0.0,
+            "!": 0.0
+          },
+          "rateStatus": "supported",
+          "sentenceMean": 2,
+          "sentenceSpread": 0.0,
+          "quotedWordShare": 0.0
+        },
+        "normalization": {
+          "mean": 18.0,
+          "median": 18.0,
+          "iqr": 8.0,
+          "words": 2,
+          "heldOut": 0,
+          "heldOutExamples": []
+        },
+        "words": [
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                0,
+                3
+              ],
+              "utf8": [
+                0,
+                3
+              ],
+              "utf16": [
+                0,
+                3
+              ],
+              "exact": "cat"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                0,
+                4
+              ],
+              "utf8": [
+                0,
+                4
+              ],
+              "utf16": [
+                0,
+                4
+              ],
+              "exact": "cat "
+            },
+            "allocatedTokenLossNats": 10.0,
+            "heldOut": false,
+            "content": true,
+            "departure": -1.0,
+            "provenanceIntersections": [
+              {
+                "index": 0,
+                "codepoints": [
+                  0,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                4,
+                7
+              ],
+              "utf8": [
+                4,
+                7
+              ],
+              "utf16": [
+                4,
+                7
+              ],
+              "exact": "cat"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                4,
+                8
+              ],
+              "utf8": [
+                4,
+                8
+              ],
+              "utf16": [
+                4,
+                8
+              ],
+              "exact": "cat "
+            },
+            "allocatedTokenLossNats": 26.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 1.0,
+            "provenanceIntersections": [
+              {
+                "index": 2,
+                "codepoints": [
+                  4,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "departurePhrases": [
+          {
+            "region": "p0",
+            "departure": 1.0,
+            "span": {
+              "codepoints": [
+                4,
+                7
+              ],
+              "utf8": [
+                4,
+                7
+              ],
+              "utf16": [
+                4,
+                7
+              ],
+              "exact": "cat"
+            },
+            "occurrences": [
+              {
+                "region": "p0",
+                "section": "p0",
+                "span": {
+                  "codepoints": [
+                    0,
+                    3
+                  ],
+                  "utf8": [
+                    0,
+                    3
+                  ],
+                  "utf16": [
+                    0,
+                    3
+                  ],
+                  "exact": "cat"
+                }
+              },
+              {
+                "region": "p0",
+                "section": "p0",
+                "span": {
+                  "codepoints": [
+                    4,
+                    7
+                  ],
+                  "utf8": [
+                    4,
+                    7
+                  ],
+                  "utf16": [
+                    4,
+                    7
+                  ],
+                  "exact": "cat"
+                }
+              }
+            ],
+            "paragraphSupport": 1,
+            "sectionSupport": 1,
+            "recurring": false,
+            "matching": "pinned casefold substring; exact source spans; not production identity"
+          }
+        ],
+        "previewAttention": [
+          {
+            "region": "p0",
+            "departure": 1.0,
+            "span": {
+              "codepoints": [
+                4,
+                7
+              ],
+              "utf8": [
+                4,
+                7
+              ],
+              "utf16": [
+                4,
+                7
+              ],
+              "exact": "cat"
+            }
+          },
+          {
+            "region": "p0",
+            "departure": 0.0,
+            "span": {
+              "codepoints": [
+                0,
+                8
+              ],
+              "utf8": [
+                0,
+                8
+              ],
+              "utf16": [
+                0,
+                8
+              ],
+              "exact": "cat cat "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "unicode",
+      "record": {
+        "document": {
+          "keys": {
+            "writer": "constructed-w",
+            "session": "constructed-unicode",
+            "prompt": "constructed-p"
+          },
+          "text": "😀 café é can't foo_bar Straße 123 and.\r\n\r\nunusual words return.",
+          "textSha256": "2c30df69b56d8348fb75e538d60f645a0d7908c5a1b007447763bed43e0b25d9",
+          "variant": "final-document",
+          "provenance": [
+            {
+              "start": 0,
+              "end": 2,
+              "occurrenceId": "source:0",
+              "source": "prompt",
+              "productionOrdinals": [
+                0
+              ]
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "occurrenceId": "p6:0",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "occurrenceId": "source:6",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "occurrenceId": "p6:1",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "occurrenceId": "p6:2",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 9,
+              "end": 10,
+              "occurrenceId": "source:9",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "occurrenceId": "p6:3",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 15,
+              "end": 20,
+              "occurrenceId": "source:15",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 20,
+              "end": 23,
+              "occurrenceId": "p6:4",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 23,
+              "end": 24,
+              "occurrenceId": "source:23",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 24,
+              "end": 30,
+              "occurrenceId": "p6:5",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 30,
+              "end": 31,
+              "occurrenceId": "source:30",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 31,
+              "end": 34,
+              "occurrenceId": "p6:6",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 34,
+              "end": 35,
+              "occurrenceId": "source:34",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 35,
+              "end": 38,
+              "occurrenceId": "p6:7",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 38,
+              "end": 39,
+              "occurrenceId": "p6:8",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 39,
+              "end": 43,
+              "occurrenceId": "source:39",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 43,
+              "end": 50,
+              "occurrenceId": "p6:9",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 50,
+              "end": 51,
+              "occurrenceId": "source:50",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 51,
+              "end": 56,
+              "occurrenceId": "p6:10",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 56,
+              "end": 57,
+              "occurrenceId": "source:56",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 57,
+              "end": 63,
+              "occurrenceId": "p6:11",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 63,
+              "end": 64,
+              "occurrenceId": "p6:12",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "index": 0,
+            "character_ids": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              2,
+              6
+            ]
+          },
+          {
+            "index": 1,
+            "character_ids": [
+              5
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              7,
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "character_ids": [
+              6
+            ],
+            "is_word": false,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              8,
+              9
+            ]
+          },
+          {
+            "index": 3,
+            "character_ids": [
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              10,
+              15
+            ]
+          },
+          {
+            "index": 4,
+            "character_ids": [
+              18,
+              19,
+              20
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              20,
+              23
+            ]
+          },
+          {
+            "index": 5,
+            "character_ids": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              24,
+              30
+            ]
+          },
+          {
+            "index": 6,
+            "character_ids": [
+              29,
+              30,
+              31
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              31,
+              34
+            ]
+          },
+          {
+            "index": 7,
+            "character_ids": [
+              33,
+              34,
+              35
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              35,
+              38
+            ]
+          },
+          {
+            "index": 8,
+            "character_ids": [
+              36
+            ],
+            "is_word": false,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              38,
+              39
+            ]
+          },
+          {
+            "index": 9,
+            "character_ids": [
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              43,
+              50
+            ]
+          },
+          {
+            "index": 10,
+            "character_ids": [
+              49,
+              50,
+              51,
+              52,
+              53
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              51,
+              56
+            ]
+          },
+          {
+            "index": 11,
+            "character_ids": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              57,
+              63
+            ]
+          },
+          {
+            "index": 12,
+            "character_ids": [
+              61
+            ],
+            "is_word": false,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              63,
+              64
+            ]
+          }
+        ],
+        "support": {
+          "original_occurrences": 13,
+          "intact_final_occurrences": 13,
+          "original_words": 10,
+          "intact_final_words": 10
+        },
+        "production_mapping": "constructed adapter only; corpus source authentication and D33/export joins still required"
+      },
+      "rows": [
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 0,
+          "length": 4,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 1,
+          "length": 1,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 3,
+          "length": 5,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 4,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 5,
+          "length": 6,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 6,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 7,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 9,
+          "length": 7,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 10,
+          "length": 5,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "index": 11,
+          "length": 6,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        }
+      ],
+      "export": {
+        "status": "complete",
+        "keys": {
+          "writer": "constructed-w",
+          "session": "constructed-unicode",
+          "prompt": "constructed-p"
+        },
+        "variant": "final-document",
+        "textSha256": "2c30df69b56d8348fb75e538d60f645a0d7908c5a1b007447763bed43e0b25d9",
+        "inputRecordSha256": "6c9821b4485d36eca1c7442a6b65c154b8753b1a630a833bfcaf90a894b3b33a",
+        "provenance": [
+          {
+            "start": 0,
+            "end": 2,
+            "occurrenceId": "source:0",
+            "source": "prompt",
+            "productionOrdinals": [
+              0
+            ]
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "occurrenceId": "p6:0",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "occurrenceId": "source:6",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "occurrenceId": "p6:1",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "occurrenceId": "p6:2",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "occurrenceId": "source:9",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "occurrenceId": "p6:3",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "occurrenceId": "source:15",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "occurrenceId": "p6:4",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 23,
+            "end": 24,
+            "occurrenceId": "source:23",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "occurrenceId": "p6:5",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "occurrenceId": "source:30",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "occurrenceId": "p6:6",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 34,
+            "end": 35,
+            "occurrenceId": "source:34",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 35,
+            "end": 38,
+            "occurrenceId": "p6:7",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 38,
+            "end": 39,
+            "occurrenceId": "p6:8",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "occurrenceId": "source:39",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 43,
+            "end": 50,
+            "occurrenceId": "p6:9",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 50,
+            "end": 51,
+            "occurrenceId": "source:50",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "occurrenceId": "p6:10",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 56,
+            "end": 57,
+            "occurrenceId": "source:56",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 57,
+            "end": 63,
+            "occurrenceId": "p6:11",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 63,
+            "end": 64,
+            "occurrenceId": "p6:12",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          }
+        ],
+        "provenanceSha256": "8b68f00967d8a409dcd7d2df068518f9059ae03b6b4c9eb896d510e93c9e810d",
+        "productionMappingValidated": false,
+        "regions": [
+          {
+            "id": "p0",
+            "start": 0,
+            "end": 39
+          },
+          {
+            "id": "p1",
+            "start": 43,
+            "end": 64
+          }
+        ],
+        "fragmentConstruction": null,
+        "habits": {
+          "raw": {
+            "repeats": [],
+            "words": 8,
+            "quotedWords": 0,
+            "sentenceCount": 2,
+            "sentenceMean": 4,
+            "sentenceSpread": 1.0,
+            "connectives": {
+              "and": 1
+            },
+            "punctuation": {}
+          },
+          "ratesPer1000UnquotedWords": {
+            "and": 125.0,
+            "but": 0.0,
+            "because": 0.0,
+            "however": 0.0,
+            "therefore": 0.0,
+            "although": 0.0,
+            "yet": 0.0,
+            "so": 0.0,
+            ",": 0.0,
+            ";": 0.0,
+            ":": 0.0,
+            "—": 0.0,
+            "?": 0.0,
+            "!": 0.0
+          },
+          "rateStatus": "supported",
+          "sentenceMean": 4,
+          "sentenceSpread": 1.0,
+          "quotedWordShare": 0.0
+        },
+        "normalization": {
+          "mean": 36.142857142857146,
+          "median": 36.0,
+          "iqr": 16.0,
+          "words": 7,
+          "heldOut": 2,
+          "heldOutExamples": [
+            "Straße",
+            "123"
+          ]
+        },
+        "words": [
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                2,
+                6
+              ],
+              "utf8": [
+                5,
+                10
+              ],
+              "utf16": [
+                3,
+                7
+              ],
+              "exact": "café"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                2,
+                7
+              ],
+              "utf8": [
+                5,
+                11
+              ],
+              "utf16": [
+                3,
+                8
+              ],
+              "exact": "café "
+            },
+            "allocatedTokenLossNats": 25.0,
+            "heldOut": false,
+            "content": true,
+            "departure": -0.6875,
+            "provenanceIntersections": [
+              {
+                "index": 1,
+                "codepoints": [
+                  2,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                7,
+                8
+              ],
+              "utf8": [
+                11,
+                12
+              ],
+              "utf16": [
+                8,
+                9
+              ],
+              "exact": "e"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                7,
+                10
+              ],
+              "utf8": [
+                11,
+                15
+              ],
+              "utf16": [
+                8,
+                11
+              ],
+              "exact": "é "
+            },
+            "allocatedTokenLossNats": 27.0,
+            "heldOut": false,
+            "content": true,
+            "departure": -0.5625,
+            "provenanceIntersections": [
+              {
+                "index": 3,
+                "codepoints": [
+                  7,
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                10,
+                15
+              ],
+              "utf8": [
+                15,
+                20
+              ],
+              "utf16": [
+                11,
+                16
+              ],
+              "exact": "can't"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                10,
+                16
+              ],
+              "utf8": [
+                15,
+                21
+              ],
+              "utf16": [
+                11,
+                17
+              ],
+              "exact": "can't "
+            },
+            "allocatedTokenLossNats": 26.0,
+            "heldOut": false,
+            "content": true,
+            "departure": -0.625,
+            "provenanceIntersections": [
+              {
+                "index": 6,
+                "codepoints": [
+                  10,
+                  15
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                16,
+                23
+              ],
+              "utf8": [
+                21,
+                28
+              ],
+              "utf16": [
+                17,
+                24
+              ],
+              "exact": "foo_bar"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                16,
+                24
+              ],
+              "utf8": [
+                21,
+                29
+              ],
+              "utf16": [
+                17,
+                25
+              ],
+              "exact": "foo_bar "
+            },
+            "allocatedTokenLossNats": 54.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 1.125,
+            "provenanceIntersections": [
+              {
+                "index": 7,
+                "codepoints": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "index": 8,
+                "codepoints": [
+                  20,
+                  23
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                24,
+                30
+              ],
+              "utf8": [
+                29,
+                36
+              ],
+              "utf16": [
+                25,
+                31
+              ],
+              "exact": "Straße"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                24,
+                31
+              ],
+              "utf8": [
+                29,
+                37
+              ],
+              "utf16": [
+                25,
+                32
+              ],
+              "exact": "Straße "
+            },
+            "allocatedTokenLossNats": 42.0,
+            "heldOut": true,
+            "content": true,
+            "departure": null,
+            "provenanceIntersections": [
+              {
+                "index": 10,
+                "codepoints": [
+                  24,
+                  30
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                31,
+                34
+              ],
+              "utf8": [
+                37,
+                40
+              ],
+              "utf16": [
+                32,
+                35
+              ],
+              "exact": "123"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                31,
+                35
+              ],
+              "utf8": [
+                37,
+                41
+              ],
+              "utf16": [
+                32,
+                36
+              ],
+              "exact": "123 "
+            },
+            "allocatedTokenLossNats": 24.0,
+            "heldOut": true,
+            "content": true,
+            "departure": null,
+            "provenanceIntersections": [
+              {
+                "index": 12,
+                "codepoints": [
+                  31,
+                  34
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                35,
+                38
+              ],
+              "utf8": [
+                41,
+                44
+              ],
+              "utf16": [
+                36,
+                39
+              ],
+              "exact": "and"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                35,
+                39
+              ],
+              "utf8": [
+                41,
+                45
+              ],
+              "utf16": [
+                36,
+                40
+              ],
+              "exact": "and."
+            },
+            "allocatedTokenLossNats": 18.0,
+            "heldOut": false,
+            "content": false,
+            "departure": null,
+            "provenanceIntersections": [
+              {
+                "index": 14,
+                "codepoints": [
+                  35,
+                  38
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p1",
+            "span": {
+              "codepoints": [
+                43,
+                50
+              ],
+              "utf8": [
+                49,
+                56
+              ],
+              "utf16": [
+                44,
+                51
+              ],
+              "exact": "unusual"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                43,
+                51
+              ],
+              "utf8": [
+                49,
+                57
+              ],
+              "utf16": [
+                44,
+                52
+              ],
+              "exact": "unusual "
+            },
+            "allocatedTokenLossNats": 36.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 0.0,
+            "provenanceIntersections": [
+              {
+                "index": 17,
+                "codepoints": [
+                  43,
+                  50
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p1",
+            "span": {
+              "codepoints": [
+                51,
+                56
+              ],
+              "utf8": [
+                57,
+                62
+              ],
+              "utf16": [
+                52,
+                57
+              ],
+              "exact": "words"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                51,
+                57
+              ],
+              "utf8": [
+                57,
+                63
+              ],
+              "utf16": [
+                52,
+                58
+              ],
+              "exact": "words "
+            },
+            "allocatedTokenLossNats": 36.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 0.0,
+            "provenanceIntersections": [
+              {
+                "index": 19,
+                "codepoints": [
+                  51,
+                  56
+                ]
+              }
+            ]
+          },
+          {
+            "region": "p1",
+            "span": {
+              "codepoints": [
+                57,
+                63
+              ],
+              "utf8": [
+                63,
+                69
+              ],
+              "utf16": [
+                58,
+                64
+              ],
+              "exact": "return"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                57,
+                64
+              ],
+              "utf8": [
+                63,
+                70
+              ],
+              "utf16": [
+                58,
+                65
+              ],
+              "exact": "return."
+            },
+            "allocatedTokenLossNats": 49.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 0.8125,
+            "provenanceIntersections": [
+              {
+                "index": 21,
+                "codepoints": [
+                  57,
+                  63
+                ]
+              }
+            ]
+          }
+        ],
+        "departurePhrases": [
+          {
+            "region": "p0",
+            "departure": 1.125,
+            "span": {
+              "codepoints": [
+                16,
+                23
+              ],
+              "utf8": [
+                21,
+                28
+              ],
+              "utf16": [
+                17,
+                24
+              ],
+              "exact": "foo_bar"
+            },
+            "occurrences": [
+              {
+                "region": "p0",
+                "section": "p0",
+                "span": {
+                  "codepoints": [
+                    16,
+                    23
+                  ],
+                  "utf8": [
+                    21,
+                    28
+                  ],
+                  "utf16": [
+                    17,
+                    24
+                  ],
+                  "exact": "foo_bar"
+                }
+              }
+            ],
+            "paragraphSupport": 1,
+            "sectionSupport": 1,
+            "recurring": false,
+            "matching": "pinned casefold substring; exact source spans; not production identity"
+          },
+          {
+            "region": "p1",
+            "departure": 0.8125,
+            "span": {
+              "codepoints": [
+                57,
+                63
+              ],
+              "utf8": [
+                63,
+                69
+              ],
+              "utf16": [
+                58,
+                64
+              ],
+              "exact": "return"
+            },
+            "occurrences": [
+              {
+                "region": "p1",
+                "section": "p1",
+                "span": {
+                  "codepoints": [
+                    57,
+                    63
+                  ],
+                  "utf8": [
+                    63,
+                    69
+                  ],
+                  "utf16": [
+                    58,
+                    64
+                  ],
+                  "exact": "return"
+                }
+              }
+            ],
+            "paragraphSupport": 1,
+            "sectionSupport": 1,
+            "recurring": false,
+            "matching": "pinned casefold substring; exact source spans; not production identity"
+          },
+          {
+            "region": "p0",
+            "departure": -0.625,
+            "span": {
+              "codepoints": [
+                2,
+                15
+              ],
+              "utf8": [
+                5,
+                20
+              ],
+              "utf16": [
+                3,
+                16
+              ],
+              "exact": "café é can't"
+            },
+            "occurrences": [
+              {
+                "region": "p0",
+                "section": "p0",
+                "span": {
+                  "codepoints": [
+                    2,
+                    15
+                  ],
+                  "utf8": [
+                    5,
+                    20
+                  ],
+                  "utf16": [
+                    3,
+                    16
+                  ],
+                  "exact": "café é can't"
+                }
+              }
+            ],
+            "paragraphSupport": 1,
+            "sectionSupport": 1,
+            "recurring": false,
+            "matching": "pinned casefold substring; exact source spans; not production identity"
+          }
+        ],
+        "previewAttention": [
+          {
+            "region": "p0",
+            "departure": 1.125,
+            "span": {
+              "codepoints": [
+                16,
+                23
+              ],
+              "utf8": [
+                21,
+                28
+              ],
+              "utf16": [
+                17,
+                24
+              ],
+              "exact": "foo_bar"
+            }
+          },
+          {
+            "region": "p1",
+            "departure": 0.8125,
+            "span": {
+              "codepoints": [
+                57,
+                63
+              ],
+              "utf8": [
+                63,
+                69
+              ],
+              "utf16": [
+                58,
+                64
+              ],
+              "exact": "return"
+            }
+          },
+          {
+            "region": "p0",
+            "departure": -0.625,
+            "span": {
+              "codepoints": [
+                2,
+                15
+              ],
+              "utf8": [
+                5,
+                20
+              ],
+              "utf16": [
+                3,
+                16
+              ],
+              "exact": "café é can't"
+            }
+          },
+          {
+            "region": "p1",
+            "departure": 0.2708333333333335,
+            "span": {
+              "codepoints": [
+                43,
+                64
+              ],
+              "utf8": [
+                49,
+                70
+              ],
+              "utf16": [
+                44,
+                65
+              ],
+              "exact": "unusual words return."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "unsupported",
+      "record": {
+        "document": {
+          "keys": {
+            "writer": "constructed-w",
+            "session": "constructed-unsupported",
+            "prompt": "constructed-p"
+          },
+          "text": "the and ",
+          "textSha256": "507003eb87acb60a4d4aa236bc5cfa57d719bb8e566a62b72d6bbdc373bb947f",
+          "variant": "final-document",
+          "provenance": [
+            {
+              "start": 0,
+              "end": 3,
+              "occurrenceId": "p6:0",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "occurrenceId": "source:3",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 4,
+              "end": 7,
+              "occurrenceId": "p6:1",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 7,
+              "end": 8,
+              "occurrenceId": "source:7",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "index": 0,
+            "character_ids": [
+              0,
+              1,
+              2
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              0,
+              3
+            ]
+          },
+          {
+            "index": 1,
+            "character_ids": [
+              4,
+              5,
+              6
+            ],
+            "is_word": true,
+            "disposition": "intact-final-token",
+            "final_codepoints": [
+              4,
+              7
+            ]
+          }
+        ],
+        "support": {
+          "original_occurrences": 2,
+          "intact_final_occurrences": 2,
+          "original_words": 2,
+          "intact_final_words": 2
+        },
+        "production_mapping": "constructed adapter only; corpus source authentication and D33/export joins still required"
+      },
+      "rows": [
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unsupported",
+          "index": 0,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        },
+        {
+          "writer": "constructed-w",
+          "session": "constructed-unsupported",
+          "index": 1,
+          "length": 3,
+          "personal_surprise": 0.25,
+          "donor_surprise": -0.3,
+          "population_surprisal": 2.0,
+          "log_pause": -0.7,
+          "log_frequency": -4.0,
+          "sentence_start": 0,
+          "after_punctuation": 1
+        }
+      ],
+      "export": {
+        "status": "unsupported",
+        "keys": {
+          "writer": "constructed-w",
+          "session": "constructed-unsupported",
+          "prompt": "constructed-p"
+        },
+        "variant": "final-document",
+        "textSha256": "507003eb87acb60a4d4aa236bc5cfa57d719bb8e566a62b72d6bbdc373bb947f",
+        "inputRecordSha256": "8c2943c675dc16b4b15572b11b9db6a188f185a6504a46f625547eb018f518bd",
+        "provenance": [
+          {
+            "start": 0,
+            "end": 3,
+            "occurrenceId": "p6:0",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "occurrenceId": "source:3",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "occurrenceId": "p6:1",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "occurrenceId": "source:7",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          }
+        ],
+        "provenanceSha256": "1ddf6da47ded73c0ed1cb0177282564457b571ad04f9eecfd7f9b84836df5a55",
+        "productionMappingValidated": false,
+        "regions": [
+          {
+            "id": "p0",
+            "start": 0,
+            "end": 8
+          }
+        ],
+        "fragmentConstruction": null,
+        "habits": {
+          "raw": {
+            "repeats": [],
+            "words": 2,
+            "quotedWords": 0,
+            "sentenceCount": 1,
+            "sentenceMean": 2,
+            "sentenceSpread": 0.0,
+            "connectives": {
+              "and": 1
+            },
+            "punctuation": {}
+          },
+          "ratesPer1000UnquotedWords": {
+            "and": 500.0,
+            "but": 0.0,
+            "because": 0.0,
+            "however": 0.0,
+            "therefore": 0.0,
+            "although": 0.0,
+            "yet": 0.0,
+            "so": 0.0,
+            ",": 0.0,
+            ";": 0.0,
+            ":": 0.0,
+            "—": 0.0,
+            "?": 0.0,
+            "!": 0.0
+          },
+          "rateStatus": "supported",
+          "sentenceMean": 2,
+          "sentenceSpread": 0.0,
+          "quotedWordShare": 0.0
+        },
+        "reason": "No scorable content words after names/numbers/code holdouts",
+        "words": [],
+        "departurePhrases": [],
+        "previewAttention": []
+      }
+    },
+    {
+      "name": "mixed",
+      "record": {
+        "document": {
+          "keys": {
+            "writer": "constructed-w",
+            "session": "constructed-mixed",
+            "prompt": "constructed-p"
+          },
+          "text": "leftMODELright",
+          "textSha256": "24eef8d58e1c5397a745e79cae573e789f72d7df9c0dab04bd3e4a6aa4dd3887",
+          "variant": "final-document",
+          "provenance": [
+            {
+              "start": 0,
+              "end": 4,
+              "occurrenceId": "source:0",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            },
+            {
+              "start": 4,
+              "end": 9,
+              "occurrenceId": "source:4",
+              "source": "prompt",
+              "productionOrdinals": [
+                0
+              ]
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "occurrenceId": "source:9",
+              "source": "typed",
+              "productionOrdinals": [
+                1
+              ]
+            }
+          ]
+        },
+        "occurrences": [],
+        "support": {
+          "original_occurrences": 0,
+          "intact_final_occurrences": 0,
+          "original_words": 0,
+          "intact_final_words": 0
+        },
+        "production_mapping": "constructed adapter only; corpus source authentication and D33/export joins still required"
+      },
+      "rows": [],
+      "export": {
+        "status": "complete",
+        "keys": {
+          "writer": "constructed-w",
+          "session": "constructed-mixed",
+          "prompt": "constructed-p"
+        },
+        "variant": "final-document",
+        "textSha256": "24eef8d58e1c5397a745e79cae573e789f72d7df9c0dab04bd3e4a6aa4dd3887",
+        "inputRecordSha256": "9e3714165498aab17b72663caaf7a64eac7188ad879fc49d166e697cf93d2e44",
+        "provenance": [
+          {
+            "start": 0,
+            "end": 4,
+            "occurrenceId": "source:0",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "occurrenceId": "source:4",
+            "source": "prompt",
+            "productionOrdinals": [
+              0
+            ]
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "occurrenceId": "source:9",
+            "source": "typed",
+            "productionOrdinals": [
+              1
+            ]
+          }
+        ],
+        "provenanceSha256": "f3cd53bd64fdeea120c40914bffcb5dd83da0c766cacc6091734ae334bfde8b9",
+        "productionMappingValidated": false,
+        "regions": [
+          {
+            "id": "p0",
+            "start": 0,
+            "end": 14
+          }
+        ],
+        "fragmentConstruction": null,
+        "habits": {
+          "raw": {
+            "repeats": [],
+            "words": 1,
+            "quotedWords": 0,
+            "sentenceCount": 1,
+            "sentenceMean": 1,
+            "sentenceSpread": 0.0,
+            "connectives": {},
+            "punctuation": {}
+          },
+          "ratesPer1000UnquotedWords": {
+            "and": 0.0,
+            "but": 0.0,
+            "because": 0.0,
+            "however": 0.0,
+            "therefore": 0.0,
+            "although": 0.0,
+            "yet": 0.0,
+            "so": 0.0,
+            ",": 0.0,
+            ";": 0.0,
+            ":": 0.0,
+            "—": 0.0,
+            "?": 0.0,
+            "!": 0.0
+          },
+          "rateStatus": "supported",
+          "sentenceMean": 1,
+          "sentenceSpread": 0.0,
+          "quotedWordShare": 0.0
+        },
+        "normalization": {
+          "mean": 72.0,
+          "median": 72.0,
+          "iqr": 0.0,
+          "words": 1,
+          "heldOut": 0,
+          "heldOutExamples": []
+        },
+        "words": [
+          {
+            "region": "p0",
+            "span": {
+              "codepoints": [
+                0,
+                14
+              ],
+              "utf8": [
+                0,
+                14
+              ],
+              "utf16": [
+                0,
+                14
+              ],
+              "exact": "leftMODELright"
+            },
+            "allocatedSpan": {
+              "codepoints": [
+                0,
+                14
+              ],
+              "utf8": [
+                0,
+                14
+              ],
+              "utf16": [
+                0,
+                14
+              ],
+              "exact": "leftMODELright"
+            },
+            "allocatedTokenLossNats": 72.0,
+            "heldOut": false,
+            "content": true,
+            "departure": 0.0,
+            "provenanceIntersections": [
+              {
+                "index": 0,
+                "codepoints": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "index": 1,
+                "codepoints": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "index": 2,
+                "codepoints": [
+                  9,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "departurePhrases": [
+          {
+            "region": "p0",
+            "departure": 0.0,
+            "span": {
+              "codepoints": [
+                0,
+                14
+              ],
+              "utf8": [
+                0,
+                14
+              ],
+              "utf16": [
+                0,
+                14
+              ],
+              "exact": "leftMODELright"
+            },
+            "occurrences": [
+              {
+                "region": "p0",
+                "section": "p0",
+                "span": {
+                  "codepoints": [
+                    0,
+                    14
+                  ],
+                  "utf8": [
+                    0,
+                    14
+                  ],
+                  "utf16": [
+                    0,
+                    14
+                  ],
+                  "exact": "leftMODELright"
+                }
+              }
+            ],
+            "paragraphSupport": 1,
+            "sectionSupport": 1,
+            "recurring": false,
+            "matching": "pinned casefold substring; exact source spans; not production identity"
+          }
+        ],
+        "previewAttention": [
+          {
+            "region": "p0",
+            "departure": 0.0,
+            "span": {
+              "codepoints": [
+                0,
+                14
+              ],
+              "utf8": [
+                0,
+                14
+              ],
+              "utf16": [
+                0,
+                14
+              ],
+              "exact": "leftMODELright"
+            }
+          },
+          {
+            "region": "p0",
+            "departure": 0.0,
+            "span": {
+              "codepoints": [
+                0,
+                14
+              ],
+              "utf8": [
+                0,
+                14
+              ],
+              "utf16": [
+                0,
+                14
+              ],
+              "exact": "leftMODELright"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

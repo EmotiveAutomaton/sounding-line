@@ -1,8 +1,15 @@
 # October 16 drive runners
 
+`engine_export_join` matches only exact engine lexical spans and preserves every
+original word row with explicit unsupported dispositions. Typed fragments retain
+all surviving typed runs and declared synthetic boundaries across removed text.
+23 new checks, 14 existing join checks and fresh actual-exporter fixture replay
+pass. No real reader/corpus execution or counted handler admission follows.
+[Component validation](../../results/phase_2_4_stage_15/DRIVE/EV_EXPORT_JOIN_BUILD_20261018.md).
+
 `cards/engine_d33_consumer` authenticates the completed source pilot and original
 D33 rows before exact final-survivor joins. Nine targeted checks and corrected
-native rehearsal pass; bounded corpus execution is in fresh verification.
+native rehearsal pass; bounded corpus execution is independently verified complete.
 Every original row remains, with unsupported states explicit. This does not
 admit engine-word scoring, typed fragments or scientific consumers. The source
 pilot and all five canonical primaries are complete; older running snapshots
