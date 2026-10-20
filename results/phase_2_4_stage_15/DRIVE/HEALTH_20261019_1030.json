@@ -1,0 +1,128 @@
+{
+  "inspected_at": "2026-10-19T10:37:24.951495-07:00",
+  "event": "a2f0ebaa320de5bc0b5ad7cc",
+  "inspection": "10:30 planned campaign liveness check",
+  "active": {
+    "root": "results/phase_2_4_stage_15/raw/drive-d30-revision-input-full-v1",
+    "phase": "fresh source replay",
+    "owner": {
+      "created_ticks": 134369026476004812,
+      "executable": "C:\\Python313\\python.exe",
+      "pid": 68444
+    },
+    "verify_wrapper": {
+      "created_ticks": 134369047667380025,
+      "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+      "pid": 187564
+    },
+    "actual_worker": {
+      "pid": 124024,
+      "created_ticks": 134369047667633394,
+      "executable": "C:\\Python313\\python.exe"
+    },
+    "execution_complete_sessions": 1399,
+    "execution_total_sessions": 1399,
+    "execution_workers_exited": true,
+    "verify_started": "2026-10-19T17:32:46.743288+00:00",
+    "worker_cpu_seconds_samples": [
+      179.9375,
+      215.5625
+    ],
+    "priority": "BelowNormal",
+    "output_freshness": "Preparation ended at 10:32 PDT. Fresh verification does not rewrite progress or output records until it finishes; actual worker CPU advanced.",
+    "stderr_empty": true,
+    "terminal_absent": true,
+    "scientific_admission": false
+  },
+  "resources": {
+    "ram_available_GiB": 35.19630432128906,
+    "commit_headroom_GiB": 30.24850845336914,
+    "disk_free_GiB": 395.54432678222656
+  },
+  "gpu": {
+    "free_MiB": 5689,
+    "used_MiB": 6309,
+    "utilization_percent": 3,
+    "temperature_C": 39
+  },
+  "gpu_start_floor_MiB": 7424,
+  "gpu_disposition": "resource-held; no restart",
+  "counted_cpu_slots_used": 1,
+  "counted_cpu_slots_available_to_project": 3,
+  "demo_slot_reserved": true,
+  "locks": {
+    "research_locks_verified": 21,
+    "stale_lease": false,
+    "plan_sha256": "a744b6d3cd79b76d5f4420c2490baec4c4f72184a3277c878dfdba960ccedcab",
+    "pins_stat_checked": 4268,
+    "changed_pins": 0,
+    "basis": "All pins checked at native dispatch; all current pin stats predate the frozen plan and remain unchanged across this inspection. Rehash only changed pins; final full integrity check remains mandatory."
+  },
+  "costs": {
+    "first_tenth": {
+      "includes_fresh_replay": true,
+      "new_seconds": 204.09085860010237,
+      "new_sessions": 139,
+      "projected_seconds": 4095.245878768242
+    },
+    "prior_charge_seconds": 63.22925,
+    "execution_replay_cap_seconds": 6900,
+    "combined_ceiling_seconds": 7200,
+    "disposition": "within existing allowance; no extension or restart"
+  },
+  "calendars": [
+    {
+      "job": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 77320
+      },
+      "heartbeat_age_seconds": 23.583357572555542
+    },
+    {
+      "job": "drive-calendar-20261018-week",
+      "native": {
+        "created_ticks": 134368329836144485,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 644
+      },
+      "heartbeat_age_seconds": 25.52283477783203
+    }
+  ],
+  "watcher": {
+    "native": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "source_hashes_verified": true,
+    "last_scan_age_seconds": 60.003713607788086,
+    "transition_only": false,
+    "terminal_paths_registered_urgent": true,
+    "event_state": "queued",
+    "actual_delivery_at": "2026-10-19T17:30:12.647046+00:00",
+    "error": null,
+    "historical_notification_failures": [
+      {
+        "id": "90a246a81310a5d21c8ca8db0385f43d886f26ffb2020b4fefedaa64d3c02a11",
+        "state": "failed_or_unknown",
+        "updated": 1789053578.7725835,
+        "error": "TimeoutError"
+      },
+      {
+        "id": "16e52e4e635b0e7b178ca942a8f7957588064ac1ef320e782a965a96c2d399c6",
+        "state": "failed_or_unknown",
+        "updated": 1792078125.1734307,
+        "error": "UnicodeEncodeError"
+      }
+    ],
+    "six_hour_due": 1792450327.018817
+  },
+  "failures": "No new failure or orphan. Historical numerical and resource failures remain recorded; healthy replay needs no recovery.",
+  "runnable_work": "No separately reviewed and admitted successor is ready. Remaining D30 correction classifier/fixed-effect and word-list comparisons, P7 word-event validation and D33 supported history need implementation. K/D31 still lacks a reviewed cohort and blind labels; noon readiness checkpoint retained. EV4 Tuesday delivery and 20:00 digest remain pending.",
+  "recovery": "None required. Continue the existing replay within its caps; preserve all checkpoints, demo reservation and GPU hold.",
+  "next_check_basis": "Preparation took about 35 minutes. Comparable full replay started 10:32; check near 11:00, before estimated completion around 11:08. Terminal alerts remain immediate.",
+  "no_tests_harvested": true,
+  "no_unfinished_scientific_scores": true
+}

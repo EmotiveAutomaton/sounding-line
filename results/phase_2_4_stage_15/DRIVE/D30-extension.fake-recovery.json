@@ -1,0 +1,158 @@
+{
+  "at": "2026-10-19T12:00:55.399424-07:00",
+  "verified": true,
+  "write_through_complete": true,
+  "card": "D30-extension.fake",
+  "result": {
+    "bootstrap_draws": 2000,
+    "bootstrap_unit": "real writers; both arms use identical resampled writer indices",
+    "card": "D30-extension.fake",
+    "controls": {
+      "fake": {
+        "bias_flag": false,
+        "ci_high": 0.08420601701347148,
+        "ci_low": -0.10226634087348431,
+        "limit": "raw outcome shuffling also destroys nuisance associations; descriptive reference",
+        "mean": -0.005128797120196239,
+        "permutations": 200,
+        "sd": 0.048653404476284585,
+        "upper_tail_permutation_p": 0.004975124378109453
+      },
+      "own": {
+        "bias_flag": false,
+        "ci_high": 0.10675397504660437,
+        "ci_low": -0.09924982848419422,
+        "limit": "raw outcome shuffling also destroys nuisance associations; descriptive reference",
+        "mean": -0.0043508905013303,
+        "permutations": 200,
+        "sd": 0.05104492084858572,
+        "upper_tail_permutation_p": 0.004975124378109453
+      },
+      "paired_gap": {
+        "bias_flag": false,
+        "ci_high": 0.06243256217014694,
+        "ci_low": -0.06655985827916955,
+        "limit": "raw outcome shuffling also destroys nuisance associations; descriptive reference",
+        "mean": 0.0007779066188659392,
+        "permutations": 200,
+        "sd": 0.03266235711053841,
+        "upper_tail_permutation_p": 0.9850746268656716
+      }
+    },
+    "descriptive": true,
+    "excluded_occurrences": 65048,
+    "full_original_effect": 0.10796901154965592,
+    "original_occurrences": 71038,
+    "paired_fake": {
+      "ci_high": 0.40530890082014676,
+      "ci_low": 0.1536780057711696,
+      "effect": 0.2824100033817934,
+      "expected_direction": 1,
+      "state": "positive"
+    },
+    "paired_occurrences": 5990,
+    "paired_own": {
+      "ci_high": 0.35283745767480174,
+      "ci_low": 0.09057080019844929,
+      "effect": 0.20817745187633144,
+      "expected_direction": 1,
+      "state": "positive"
+    },
+    "paired_writers": 30,
+    "permutations": 200,
+    "primary": {
+      "ci_high": 0.019505393455823628,
+      "ci_low": -0.12893959614165515,
+      "effect": -0.07423255150546196,
+      "expected_direction": 1,
+      "state": "null"
+    },
+    "scientific_admission": false,
+    "secondary": {
+      "paired_population": {
+        "fake": {
+          "local": {
+            "counts": {
+              "immediate_user_deletion": 17,
+              "later_user_edit": 18,
+              "non_user_change": 0,
+              "within_burst_user_insertion": 0
+            },
+            "occurrences": 1092,
+            "rates": {
+              "immediate_user_deletion": 0.015567765567765568,
+              "later_user_edit": 0.016483516483516484,
+              "non_user_change": 0.0,
+              "within_burst_user_insertion": 0.0
+            }
+          },
+          "pervasive": {
+            "counts": {
+              "immediate_user_deletion": 209,
+              "later_user_edit": 146,
+              "non_user_change": 0,
+              "within_burst_user_insertion": 0
+            },
+            "occurrences": 4898,
+            "rates": {
+              "immediate_user_deletion": 0.04267047774601878,
+              "later_user_edit": 0.029808084932625562,
+              "non_user_change": 0.0,
+              "within_burst_user_insertion": 0.0
+            }
+          }
+        },
+        "own": {
+          "local": {
+            "counts": {
+              "immediate_user_deletion": 16,
+              "later_user_edit": 16,
+              "non_user_change": 0,
+              "within_burst_user_insertion": 0
+            },
+            "occurrences": 981,
+            "rates": {
+              "immediate_user_deletion": 0.0163098878695209,
+              "later_user_edit": 0.0163098878695209,
+              "non_user_change": 0.0,
+              "within_burst_user_insertion": 0.0
+            }
+          },
+          "pervasive": {
+            "counts": {
+              "immediate_user_deletion": 210,
+              "later_user_edit": 148,
+              "non_user_change": 0,
+              "within_burst_user_insertion": 0
+            },
+            "occurrences": 5009,
+            "rates": {
+              "immediate_user_deletion": 0.04192453583549611,
+              "later_user_edit": 0.02954681573168297,
+              "non_user_change": 0.0,
+              "within_burst_user_insertion": 0.0
+            }
+          }
+        }
+      },
+      "scope": "descriptive occurrence proportions on the same paired population; categories can overlap within an occurrence; no psychological burst or attention identification"
+    }
+  },
+  "plan_sha256": "1e9fb3ceda4091cc49045a9031ef950f8440668971c93a08ce745c11c8626825",
+  "complete_sha256": "6549078bb1607783c1625ebe3b02b358d7b8754142ad75079ce48242cc9a14f6",
+  "pins_verified": 7272,
+  "outputs_verified": 34,
+  "independent_dummy_ols": true,
+  "independent_saved_draw_intervals_and_references": true,
+  "independent_secondary_counts": true,
+  "full_source_and_fit_replay": true,
+  "native_workers_exited": true,
+  "slot_released": true,
+  "native_wall_seconds": 206.095524,
+  "prior_charged_seconds": 239.333343,
+  "total_charged_seconds": 445.428867,
+  "original_ceiling_seconds": 3600,
+  "output_bytes": 4273130,
+  "scientific_admission": false,
+  "multiplicity_audit_sha256": "b490395a6e410f42fc210df45b6e20165034f1eb834306e7115a5ec2e56ae025"
+}

@@ -253,3 +253,119 @@ Operational events are recorded once here under the October 17 packet. Scientifi
 - 2026-10-19 04:36 PDT: [Complete reader export](EV_FULL_READER_V1.md) independently verified and fully written through. Exact pilot reuse, uncached new-batch replay, all original rows and typed fragments, source/output hashes, cumulative cost, native exits and slot release pass. No scientific comparison or badge follows; consumers remain implementation work. No new test or probability harvested.
 
 - 2026-10-19 04:28 PDT: [Deadline inspection and completion follow-through](HEALTH_20261019_0428.json) verifies advancing final replay, native ownership, fresh outputs, unchanged pins, all 21 research locks, resources, demo reservation, calendars and actual watcher delivery. The reader subsequently completed and passed its full recorded audit; native exit and CPU-slot release verify. No recovery required. GPU remains below its start floor; no scientific successor is yet admitted. Both the inspection and full result write-through precede ACK.
+
+2026-10-19: EV4 local preparation maps all 21 completed channel rows. Source/schema/value/definition-hash/privacy checks pass; no new fitting. Tuesday delivery and literal dictionary licence review remain open. Complete scientific receipts retain original controls and scope.
+
+- 2026-10-19 06:44 PDT: [D24 continuation](D24_WEEK_BUILD_20261019.md) built, validated and dispatched with exact saved-score reuse and one cumulative execution/replay allowance. Eight targeted checks and full native rehearsal pass; original attempts and failures remain. [Inspection](HEALTH_20261019_0644.md) verifies advancing actual workers, source/research locks, resources, reservations and monitoring. The feature table is prepared; remaining implementation stays open. Full build write-through precedes native-event ACK; no unfinished scientific scores or new tests harvested.
+
+- 2026-10-19 06:59 PDT: Native D24 validation fully landed and acknowledged. The obsolete completed EV3-input fallback plan was retired with its audit trail and outbox retained. Immediate D24 terminal alerts remain registered; the independent six-hour health deadline remains 09:45 PDT. No extra ETA wake was added.
+
+- 2026-10-19 07:02 PDT: Delayed original EV3 habit-input native failure notice matches its retained bytes and prior full build landing. The retained archive failure was diagnosed as unchanged Git ownership protection; its separate owner-account native rehearsal and full corpus preparation already completed and were recorded. Original failed workers are exited. D24 remains active, with no pending delivery or new recovery requirement. Duplicate ACK is idempotent; no scientific verdict or new test follows.
+
+- 2026-10-19 07:03 PDT: Delayed native D24 completion notice independently matches all 38 pinned sources and 40 completion artifacts, the prior full build landing and original ACK. Rehearsal workers are exited; the separately monitored corpus continuation remains live. Inspection recorded before idempotent ACK. No new scientific result, recovery or test follows.
+
+- 2026-10-19 07:29 PDT: D24 complete continuation independently verified: all source/output/checkpoint bindings, complete fresh replay, every reported fit/interval, cumulative cost and native exits pass. Full card/FINDINGS/INDEX/ledger/state write-through precedes ACK; theory integration is queued for the 20:00 digest. Primary null closes its conditional extension. CPU slot released; calendars/watcher healthy; GPU remains below its floor. No new tests harvested.
+
+- October 19, 07:57 PDT: D30 current-control/numerical build passes10targeted checks and counted native replay;78pins/37artifacts, exits, slot release and21research locks verify. Failed fixtures and numerical attempts retained; measured whole-design pilot required before full main. [Build](D30_WEEK_BUILD_20261019.md).
+
+- October 19, 07:58 PDT: D30 whole-design cost pilot launched after full native filing/ACK; exact live owner/child,235pins, CPU lease, demo reservation, resource floors and terminal watches verify. GPU remainsbelow7,424MiBfloor; no paid dispatch. Next fixedhealth09:45PDT; noextraETA. [Launch](D30_WEEK_PILOT_LAUNCH_20261019.md).
+
+- 2026-10-19T08:09:26.217081-07:00: D30 whole-design pilot fully verified and recorded; both pilot charges fit the unchanged cumulative ceiling. Native validation notice was a delayed duplicate; unchanged terminal, artifacts and prior full landing reverified. No new study or gear.
+
+- 2026-10-19T08:14:44.287428-07:00: Full D30 crossed comparison dispatched and native-verified in one Gear 2 CPU slot; both pilots charged, unchanged 19,800-second cumulative ceiling, 60-second supervisor administration reserve, demo slot retained. Terminal monitoring registered; health due 09:45 PDT.
+
+- 2026-10-19T08:17:35.577178-07:00: Delayed D30 cost-pilot notice reverified against its unchanged complete artifact hashes, source pins and full write-through. Full main retains live native identities and fresh bootstrap checkpoints; first-tenth cost projection fits the original cumulative allowance with both pilots charged. Monitoring healthy; no recovery or new tests, health clock unchanged.
+
+- 2026-10-19T08:30:46.849831-07:00: D30 numerical failure fully audited and recorded; native processes exited and exact saved blocks retained. Certified continuation passes five checks and complete native replay; one authorized engineering retry ready, all costs charged, no new research or score.
+
+- 2026-10-19T08:33:01.195463-07:00: D30 single engineering retry launched and native-verified after five checks and fresh replay. All 285 pins pass; prior charges and exact retained prefix remain guarded; one counted slot, two threads, demo reservation and terminal monitoring verified. No second engineering retry is allowed.
+
+- 2026-10-19T09:32:00-07:00: D30 crossed recovery complete; all 285 pins, 190 outputs, 8,204 fresh-replayed fits and exact prefix independently audited. Full card/index/FINDINGS/instrument/TODO records filed; unresolved primary and null paired advantage retained. Workers exited, slot released, cumulative charge within original ceiling; digest integration remains.
+
+- 2026-10-19T09:43:16.077599-07:00: D30 revision-input apparatus passes 15 targeted checks and full counted native replay; all pins/outputs and exit/slot release verified. Source-only first-ten pilot admitted, charges retained; no new research or classification.
+
+- 2026-10-19 09:50 PDT: D30 revision source pilot independently verified; all inputs/outputs, full replay, aggregate counts, native exits and slot release pass. Completed pilot and native-build records filed before ACK. Full continuation requires validated exact reuse and S4 cumulative admission; no new tests or scientific scores.
+
+- 2026-10-19 09:51 PDT: [Six-hour queue inspection](HEALTH_20261019_0951.json) verifies native calendar/watcher identities and freshness, completed worker exits, released slots, 21 locks, pilot pins, RAM/commit/disk/GPU limits and delivery state. No active worker failure or orphan; full revision input is the next build. GPU resource hold and demo reservation retained; no new research or partial scores.
+
+- 2026-10-19T09:57:08.987677-07:00: Full D30 revision-input continuation passes seven checks and full native replay, source/output pins, exact retained prefix, exit and slot-release verification. S4 doubles the original source allowance once; all costs retained. Runtime thread configuration corrected in the report; no scientific definition changed.
+
+- 2026-10-19T09:59:27.596458-07:00: [Full revision source launch](D30_REVISION_FULL_LAUNCH_20261019.json) verifies native owner and actual BelowNormal worker, advancing saved units, counted slot, demo reservation, resources, 1,399-session scope and terminal monitoring. Exact pilot reuse; prior charges and single S4 doubling retained. Classifier/scientific consumers remain separate.
+
+- 2026-10-19 10:03 PDT: Delayed native revision-input completion delivery reconciled against its existing build record, original ACK and all 13 completed output hashes. Full revision source continuation has matching native identities, advancing fresh output and no terminal failure; watcher has no pending event or error. Existing 10:30 check retained; no result duplicated or new test harvested.
+
+- 2026-10-19T10:04:11.856357-07:00: Delayed native full-revision validation delivery reconciled against its existing build write-through, original ACK and all 15 completed output hashes. Full source continuation has matching native identities and fresh advancing output, with no failure or watcher error. Existing planned check retained; no duplicated result or new test.
+
+- 2026-10-19T10:37:24.951495-07:00: [Planned queue inspection](HEALTH_20261019_1030.json) verifies the full revision source pass has entered fresh replay, matching native identities and advancing CPU, one valid counted lease, 21 research locks and 4,268 unchanged pins, resources, calendars and actual watcher delivery. No new failure or recovery; GPU resource hold and demo reservation remain. Remaining comparisons still require implementation; next check near 11:00 PDT. No new tests or unfinished scores.
+
+- 2026-10-19T11:02:21.126691-07:00: [Planned liveness inspection](HEALTH_20261019_1100.json) verifies the same fresh-replay worker with advancing CPU, one valid counted lease, 21 locks and 4,268 input-pin stat checks, calendars, resources and actual watcher delivery. No new failure or recovery; demo reservation and GPU resource hold remain. No further admitted successor is ready; implementation backlog and noon intake checkpoint remain. No new tests or unfinished scores.
+
+- 2026-10-19T11:11:42.599027-07:00: [Full D30 revision input](D30_REVISION_INPUT_FULL_V1.md) independently verified and filed: all 4,268 pins, 1,412 outputs, 1,399 record aggregations, exact ten-record pilot prefix, full uncached replay, native exits, slot release and cumulative costs pass. No classifier or scientific score computed; remaining commissioned comparisons stay open.
+
+- 2026-10-19T18:12:14.959874+00:00: [Planned liveness inspection](HEALTH_20261019_1106.json) observed normal full-source replay completion. Full output/input integrity, 21 locks, native exits, slot release, resources, calendars and actual watcher delivery verify; source landing recorded before ACK. No recovery needed; GPU hold/demo reservation persist. Next commissioned classifier and comparisons remain implementation work; no new tests.
+
+- 2026-10-19T11:19:55.094125-07:00: [D30 correction classifier](D30_REVISION_BURSTS_BUILD_20261019.md) passes 15 targeted checks and full counted native replay; three initial scratch-permission errors retained. Exact boundary/category expectations, pins, outputs, native exits, slot release and cumulative allowance verify. Full source-labeling dispatch admitted; no scientific contrast or new test harvested.
+
+- 2026-10-19T11:27:09.900142-07:00: [Complete correction timing labels](D30_REVISION_BURSTS_V1.md) independently verified and filed: 5,688 pins, 1,410 outputs, all original occurrences/revisions, full fresh classification replay, native exits, slot release and cumulative costs pass. Scientific consumers remain unfinished; no probability or new hypothesis is reported.
+
+- 2026-10-19T11:46:54.799790-07:00: [Paired fixed-effect instrument](D30_PAIRED_BUILD_20261019.md) independently verified and filed: twelve checks, all pins/outputs, complete native known-answer replay, native exit, slot release and cumulative charges. Original failed fixtures retained; corpus execution is next.
+
+- 2026-10-19T11:53:57.481698-07:00: [Paired history join failures and repair](D30_PAIRED_RECOVERY_BUILD_20261019.md) independently verified and filed. Both original attempts exited before fitting; pins, released slots, all prior costs, thirteen checks and fresh native replay verify. Single engineering retries admitted; no scientific negative or new probability.
+
+- 2026-10-19T12:03:43.546595-07:00: [Both paired fixed-effect comparisons](D30.fake-recovery.md) fully recorded with [count-adjusted companion](D30-extension.fake-recovery.md): null paired advantages; full source/fit replay, all pins/outputs, independent arithmetic, costs and slot release verified. Six probabilities registered/audited; theory and TODO at20:00.
+
+- 2026-10-19T12:03:43.546595-07:00: [K/D31 noon readiness](K_D31_READINESS_20261019.json): metadata/review frame only; reviewed cohort, texts and blind known-answer labels absent. Existing midrun rule7 defers both after the talk; no paid dispatch or authorization extension.
+
+- 2026-10-19T12:05:17.817475-07:00: [Monday exporter deadline](ENGINE_EXPORT_DEADLINE_20261019.json) satisfied already: exact admitted exporter hash matches and the1,399-document export is verified complete. No fallback or repeated export; feature-table delivery remains Tuesday20:00.
+
+- 2026-10-19T12:13:12.628254-07:00: [Shared-word instrument](D30_SHARED_BUILD_20261019.md) fully validated and filed: nine checks, complete counted native replay, all pins/outputs, native exit, slot release and test costs verified. Original checkpoint-shape failure retained; corpus dispatch is next.
+
+- 2026-10-19T12:24:29.161423-07:00: D30.v2-shared support refusal verified and fully recorded; all 7,270 pins, native exit and slot release checked. No fit/probability, no threshold change or automatic retry; 20:00 theory/TODO integration retained.
+
+- 2026-10-19T12:28:58.202711-07:00: P7 native word-event CPU diagnostic dispatched and native identities, advancing structures/path checkpoints, slot/resources, all21 locks and watcher health verified; shared-word support failure fully recorded/ACKed. One phase wake replaces the obsolete shared-word plan; no GPU/paid work or new research. [Receipt](P7_WORD_EVENT_BUILD_20261019.json).
+
+- 2026-10-19T12:33:09.220993-07:00: Duplicate revision-classifier completion e2b1741b837f7ea64a1acad4 reauthenticated against the existing full landing: 45 input pins,15 outputs, terminal digest, native exits and released lease match; no rerun or new verdict.
+
+- 2026-10-19T12:33:09.220993-07:00: [P7 native word-event diagnostic](P7_WORD_EVENT_NATIVE_20261019.md) fully verified and recorded:19 targeted checks, all612targets,49 sampled paths, full fresh native replay,124pins/628outputs and cumulative cost pass; workers exited/slot released. Common-event scientific admission remains false; no probability or new test harvested.
+
+- 2026-10-19T12:35:24.238665-07:00: Both completion notices acknowledged after verified records; P7 workers closed and no other admitted CPU successor exists. D33 calibration-supported variant remains implementation backlog under week S1; next actionable build wake scheduled within30minutes. Stage remains open, with GPU hold and existing deadlines unchanged.
+
+- 2026-10-19T12:36:14.667673-07:00: Duplicate native paired-history completion ac4df4ff1ef5d6fa7f74107a reauthenticated against its existing full instrument landing:244input pins,35outputs, plan/completion hashes, fresh replay, native exits and released slot match. Existing ACK confirmed; no rerun, new test or scientific verdict. Watcher has no current error; existing next-action wake retained.
+
+- 2026-10-19T12:37:21.107546-07:00: Duplicate D30.fake and D30-extension.fake original failure notices 2aeccbc38204ae020e81fd0f / b40cd26734e1ba62dbd7e336 reauthenticated: original ambiguous-bigram refusals,7,268pins each, failed native exits/slot release and existing full recovery write-through match. Both single retries are already complete; terminal hashes and all34outputs per successor reverify. No further retry, new test or verdict; existing next-action wake retained.
+
+- 2026-10-19T12:38:31.719255-07:00: Duplicate paired-history final completions93f654bfd525aaefed7c6b73/c2b0ff0932b67d866e577d9c reauthenticated against their complete result records:7,272pins and34outputs each, exact recorded primary, full native replay, exits/slot release and existing ACKs match. Batch FINDINGS/roll-ups and six registered probabilities retained; theory/TODO integration remains due at20:00. No rerun, new test or verdict; next-action wake unchanged.
+
+- 2026-10-19T12:39:29.038526-07:00: Duplicate shared-word native completion820cc71ba2980527269e8970 reauthenticated:246pins/57outputs, plan/completion hashes, full known-answer replay, native exits and released slot match its existing complete instrument landing and ACK. Later corpus support-invalid disposition remains unchanged; no rerun, new test or scientific verdict. Existing next-action wake retained.
+
+- 2026-10-19T12:40:22.601097-07:00: Duplicate shared-word failure0e6a98d286bd53ff8e3927b5 reauthenticated against complete support-invalid landing:7,270pins, failure/plan/stderr hashes, absent fit, native exits, released slot and prior ACK match. Original support threshold and no-retry disposition retained; no new test or scientific negative. Existing next-action wake unchanged.
+
+- 2026-10-19T12:44:46.694009-07:00: Duplicate P7 native word-event completion 5e082aec4431738e5b16e01f reauthenticated against its complete instrument landing: 124 input pins, 628 outputs, plan/completion hashes, recorded full native replay, native exits and released slot match. Existing ACK verified; common-event scientific admission remains false. No rerun, new test or scientific verdict; existing next-action wake retained.
+
+- 2026-10-19T13:17:08.173382-07:00: [D33 calibration-supported build](D33_CALIBRATED_BUILD_20261019.md) verified: 18 targeted checks and full constructed native statistical replay pass; all source/output pins and native exits verify. Corpus execution held under cumulative S4 accounting; no scientific result or ceiling reset.
+
+- 2026-10-19T13:17:08.173382-07:00: [Deadline inspection](HEALTH_20261019_1315.json) for467815f96f865543a06fdd6e verifies native calendars/watcher, fresh heartbeats, no stale slots,21locks, resource floors and delivered wake. Authorized D33 implementation/native validation completed; corpus cost hold and GPU resource hold retained. No process recovery or new research; P7 engineering remains next.
+
+- 2026-10-19T14:15:40.623382-07:00: [P7 bounded word-event diagnostic](P7_WORD_BOUNDS_20261019.md) built and fully verified after24component checks,2handler checks and fresh native replay; original fixture errors retained, precision gate unmet, all costs charged. No scientific verdict or corpus admission.
+
+- 2026-10-19T14:15:40.623382-07:00: [Monday exporter fallback inspection](ENGINE_FALLBACK_INSPECTION_20261019.json) authenticates the original exporter and completed full export; fallback already unnecessary, no rerun or new scientific verdict.
+
+- 2026-10-19T14:15:40.623382-07:00: [Deadline health inspection](HEALTH_20261019_1415.json) verifies native identities, completed output, empty leases, locks, resources and actual watcher delivery. Authorized P7 build/native validation completed before ACK; no scientific worker remains. GPU resource hold, demo reservation and cumulative study limits retained; no new tests harvested.
+
+- 2026-10-19T14:58:44.004929-07:00: [P7 capacity refinement](P7_WORD_BOUNDS_REFINEMENT_20261019.md) built, dispatched and fully verified with original events/precision; prior oracle bytes exact, complete precision still unmet. Optional pytest-cache warning and stale-phase launch-report refusal retained; no model restart. All costs charged.
+
+- 2026-10-19T14:58:44.004929-07:00: [Deadline inspection](HEALTH_20261019_1458.json) verifies native ownership/exit, completed output, locks, empty leases, resources, calendars and actual watcher delivery. Authorized refinement completed before ACK; GPU resource hold, demo reservation and D33 cost hold persist. No new research tests harvested.
+
+- 2026-10-19T15:43:39.591918-07:00: [P7 twelve-prefix refinement](P7_WORD_BOUNDS_TWELVE_20261019.md) built, dispatched and fully verified within the original cumulative allowance; unchanged numerical functions, fixed events and predecessor bytes. No scientific admission, GPU restart or paid call.
+
+- 2026-10-19T15:44:34.277751-07:00: [Deadline inspection](HEALTH_20261019_1544.json) verifies native ownership and shutdown, completed output freshness, absence of new orphan/failure records in active roots, locks, free leases, resources, calendars and actual watcher delivery. Authorized P7 refinement fully landed before ACK; further native work and D33 are cost-held, GPU remains below its start floor, and demo reservation persists. No new research tests harvested.
+
+- 2026-10-19T15:55:03.081408-07:00: [Six-hour queue inspection](HEALTH_20261019_1555.json) verifies watcher/calendar native identities and freshness, no new unlanded terminal or worker failure, all21 research locks, empty CPU leases and resource limits. P7/D33 cost holds, P1 GPU floor and demo reservation persist; no recovery or restart warranted. No new research tests harvested.
+
+- 2026-10-19T17:04:15.962017-07:00: [Paid cutoff inspection](PAID_CUTOFF_20261019.json) verifies the scheduled marker, actual native identities, current-campaign reconciled ledger, unchanged historical accounting holds and refusal at/after the cutoff. No paid worker, reservation or provider call started; K/D31 remain post-talk after the noon intake gap. Existing cost/resource holds and20:00 integration remain; no new research test or scientific verdict.
+
+- 2026-10-19T20:10:28.295508-07:00: October19 daily integration reconciles complete landings, updates the 38-primary descriptive screen, theory/afterwords, instruments, TODO and operating state. Native workers are absent; monitoring and research locks pass. Cost/resource holds and paid cutoff retained; no new tests. [Digest](DIGEST_20261019.md).
+
+- 2026-10-19T21:59:28.529227-07:00: [Six-hour queue inspection](HEALTH_20261019_2159.json) verifies native watcher/calendar identities, fresh monitoring, no new unlanded terminal or worker failure, all21 research locks, clear leases and resource limits. Daily integration is complete; paid ledger unchanged. P7/D33 cost holds, P1 GPU floor and ToMpathy reservation persist; no recovery or restart warranted. No new research tests harvested.
+
+- 2026-10-20T04:02:37.533600-07:00: [Six-hour queue inspection](HEALTH_20261020_0402.json) verifies native watcher/calendar identities, fresh monitoring, no new unlanded terminal or worker failure, all21 research locks, clear leases and resource limits. P7/D33 cost holds, P1 GPU floor, paid cutoff and ToMpathy reservation persist; no recovery or restart warranted. No new research tests harvested.

@@ -769,6 +769,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A continuation forecast needs positive new work in its denominator.** A
+  complete serialized D30 recovery fixture had already saved every bootstrap
+  block. Its first-tenth forecast divided by zero because retained progress was
+  mistaken for new timed work. Require positive newly completed work before
+  forecasting, keep retained blocks byte-identical, and verify the fully retained
+  prefix as well as a partial continuation. The repaired fixture and fresh native
+  replay pass; the failed check remains retained. (OPS-S15-D30-NUMERICAL-RETRY)
+
 - **A direct script's directory can shadow the standard library in a different interpreter.**
   The exporter handler loaded ToMpathy's correct environment but its wrapper sat beside
   Sounding Line's `statistics.py`, so `from statistics import mean` failed before scoring.

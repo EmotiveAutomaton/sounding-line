@@ -1,0 +1,13 @@
+# Paired history comparisons: original join failure and validated repair
+
+**Hypothesis.** The paired pause comparison can attach correction timing to the exact original occurrences without merging repeated typed bigrams.
+**METHOD.** Inspect both failed native attempts, reproduce their joining assumption on constructed duplicate bigrams, and validate a separate recovery that follows the original occurrence-generator order. Repeat all earlier targeted checks and the complete native source/fit replay with the signed known answers and exact identical-arm null.
+**Found.** Both original corpus attempts stopped before fitting; the repaired instrument passes thirteen checks and complete native replay. **Means.** This is a source-join defect with no scientific negative. Each card's single engineering retry is admitted under its unchanged data, estimator, seeds, controls and cumulative ceiling.
+
+A retained first word can precede more than one separately typed copy of the same second word. The original join treated their session, first-word index and bigram text as unique and refused. The repair instead uses each retained original source-row position, reconstructing the original generator's order and checking its session, index and marker. It preserves both constituents and every separate occurrence; wrong and missing positions refuse. The new test gives the repeated bigrams distinct correction labels and confirms that they stay distinct. No outcome or scientific threshold informed this repair.
+
+Both failed roots, all frozen code and logs remain intact. All 7,268 pins per failed attempt verify; neither wrote a design or primary fit, both native process trees exited and their slots were released. The base attempt used 94.642 seconds and the count-adjusted attempt 93.737 seconds. The larger elapsed time is conservatively charged to both successors.
+
+The repaired native rehearsal verifies 248 pins and 35 outputs, all 2,000 bootstrap draws and 200 permutations, complete fresh reconstruction/replay, native exit and slot release. Its elapsed time is 8.560 seconds. All original validation, the larger failed attempt, repair checks and native validation total 239.333 seconds charged to each successor before launch. Shared revision preparation remains separately recorded. No further engineering retry is available after these successors; no GPU or paid reader is used.
+
+[Frozen repair contract](../../../docs/design/stage-15/drive/D30_PAIRED_RECOVERY_20261019.md) · [Original validation and retained fixture failures](D30_PAIRED_BUILD_20261019.md) · [Verification and costs](D30_PAIRED_RECOVERY_BUILD_20261019.json).

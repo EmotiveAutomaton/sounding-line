@@ -9,6 +9,27 @@
 
 # Sounding Line
 
+**October 19 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
+Engine signature recurrence and departure-pause association pass their scoped checks;
+habit identification is control-invalid. D24 is null; the crossed D30 primary remains
+unresolved and its own-history controls are null. The shared-word variant is VOID.
+Theory, instruments and TODO are current. No scientific worker is active: P7/D33 are
+cost-held and P1 is GPU resource-held. Paid dispatch is closed; K/D31 remain deferred.
+Stage 15 is open. Tuesday feature delivery and gated post-talk work remain.
+Earlier dated launch/status snapshots below are historical.
+
+**October 19, 09:32 PDT:** [D30 crossed recovery](results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md) is verified complete and recorded. The primary is unresolved; the paired own-history advantage is null. All native workers exited and released their slot. No counted science worker is active at this cutoff; the remaining commissioned backlog is unfinished. The separate fixed-effect/word-list cards, P7 and conditional K/D31 intake remain; Gear 2 authorization, the demo reservation and GPU resource hold persist. Theory integration is due at the 20:00 digest.
+
+**October 19, 08:32 PDT:** [D30 numerical recovery](results/phase_2_4_stage_15/DRIVE/D30_WEEK_FAILURE_RECOVERY_20261019.md) passes targeted and full native validation after the original main stopped on a non-converged fit. The [single engineering retry is now running](results/phase_2_4_stage_15/DRIVE/D30_WEEK_RETRY_LAUNCH_20261019.md) with original tolerances, exact saved blocks and cumulative costs retained. No corpus verdict follows; the demo reservation, GPU resource hold and other commissioned backlog remain.
+
+**October 19, 08:14 PDT:** [Full D30 crossed comparison](results/phase_2_4_stage_15/DRIVE/D30_WEEK_MAIN_LAUNCH_20261019.md) is running in Gear 2 after the completed timing pilot passed source, numerical and cost admission. Both pilot charges are included in one unchanged cumulative ceiling; scientific code remains unchanged. Native execution and terminal monitoring verify. The demo reservation, GPU resource hold and unfinished commissioned backlog remain; Stage 15 is open.
+
+**October 19, 07:58 PDT:** [D30 crossed-model timing pilot](results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_LAUNCH_20261019.md) is running in Gear 2 after ten checks and full native replay. The repaired estimator and current controls need this measured cost admission before the full scientific comparison. D24 is verified, filed and acknowledged; theory integration is due at the 20:00 digest. The demo reservation, GPU resource hold and remaining commissioned backlog persist. Terminal monitoring is healthy; this is not stage closure.
+
+**October 19, 07:29 PDT:** [D24 closure comparison](results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md) is verified complete and recorded. The primary is null; its conditional window extension is not admitted. Native workers exited and released the CPU slot. No counted science job is active at this cutoff; calendars and terminal monitoring are healthy. D30/P7 and conditional intake remain implementation work. GPU continuation remains below its unchanged start floor, and the ToMpathy reservation remains. This is not stage closure; theory integration follows the 20:00 digest.
+
+**October 19, 06:44 PDT:** [D24 closure continuation](results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.md) is running in Gear 2 after eight targeted checks and native replay. Saved scores and prior costs are preserved within one cumulative allowance. EV1-EV3 are recorded, including EV3 control failures; the [feature table](results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md) is prepared for Tuesday delivery. [Native health inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261019_0644.md) verifies progress, locks, resources and monitoring. The demo reservation and GPU resource hold remain; D30/P7, conditional intake and other commissioned work remain unfinished. Earlier dated snapshots below retain their original cutoffs.
+
 **October 19, 06:17 PDT:** [Departure-pause comparison](results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md) is independently verified complete, with a positive conditional association and passing permutation reference. EV1–3 are recorded; EV3 remains control-invalid. Workers exited and released their slot. The feature table and other commissioned backlog remain unfinished. Gear 2 authorization, demo reservation and GPU resource hold remain.
 
 **October 19, 06:13 PDT:** [Departure-pause comparison](results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md) is running in a counted Gear 2 CPU slot after targeted and native validation. EV2 and EV3 results are recorded, including EV3 control failures. The feature table remains unfinished. Demo reservation, GPU resource hold and monitoring remain.

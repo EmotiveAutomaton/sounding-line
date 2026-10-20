@@ -1,6 +1,38 @@
 # October 16 drive commission
 
+**October 19 integration:** [Completed screen, instruments and remaining gates](../../../../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md). D24 and all admitted D30 comparisons have final dispositions; P7/D33 corpus work remains cost-held, P1 resource-held, and K/D31 deferred. Tuesday delivery and the Thursday post-talk window remain. Earlier build/launch snapshots are historical.
+
+[Twelve-prefix refinement](P7_WORD_BOUNDS_TWELVE_20261019.md) is verified complete within the original diagnostic allowance. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Instrument record](../../../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).
+
+[Word-bound capacity refinement](P7_WORD_BOUNDS_REFINEMENT_20261019.md) is verified complete under its original cumulative allowance. Native and saved-evidence replay pass; whole-diagnostic precision and corpus admission remain unmet. [Complete record](../../../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_REFINEMENT_20261019.md).
+
+[Bounded word-event validation](P7_WORD_BOUNDS_20261019.md) is verified complete. The fixed native diagnostic preserves residual probability mass but does not meet point-score precision; no corpus comparison is admitted. [Validation and remaining allowance](../../../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_20261019.md).
+
+[D33 calibration-supported variant](D33_CALIBRATION_SUPPORTED_20261019.md) is built and validated on constructed data. Corpus execution is held under the cumulative S4 allowance; original questions remain open. [Validation and cost record](../../../../results/phase_2_4_stage_15/DRIVE/D33_CALIBRATED_BUILD_20261019.md).
+
+[Native word-event diagnostic](P7_WORD_EVENT_NATIVE_20261019.md) is verified complete after nineteen targeted checks and fresh native replay. [Complete diagnostic](../../../../results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_NATIVE_20261019.md). Common-event/scientific admission remains separate; the full-corpus census stays superseded.
+
+[Shared-word specificity](D30_SHARED_WORDS_20261019.md) implements the commissioned D30.v2 with the exact PMAP dictionary, original full primary and separate paired control. [Native validation](../../../../results/phase_2_4_stage_15/DRIVE/D30_SHARED_BUILD_20261019.md) passes; corpus dispatch is separate.
+
+[Paired occurrence-identity repair](D30_PAIRED_RECOVERY_20261019.md) is separately validated after both original corpus attempts stopped before fitting. Original contracts and evidence remain; each card has one charged engineering retry.
+
+[Paired fixed-effect history comparisons](D30_PAIRED_FIXED_20261019.md) implement the commissioned own-history controls, preserving the original adjustment variables and reporting supported-population limits. [Known-answer validation](../../../../results/phase_2_4_stage_15/DRIVE/D30_PAIRED_BUILD_20261019.md) is complete; corpus dispatch is separate.
+
+**October 19, 09:32 PDT:** [D30 crossed recovery](../../../../results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md) is verified complete and recorded. The primary is unresolved; the paired own-history advantage is null. All native workers exited and released their slot. No counted science worker is active at this cutoff; the remaining commissioned backlog is unfinished. The separate fixed-effect/word-list cards, P7 and conditional K/D31 intake remain; Gear 2 authorization, the demo reservation and GPU resource hold persist. Theory integration is due at the 20:00 digest.
+
+**October 19, 08:32 PDT:** [D30 numerical recovery](../../../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_FAILURE_RECOVERY_20261019.md) passes targeted and full native validation after the original main stopped on a non-converged fit. The [single engineering retry is now running](../../../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_RETRY_LAUNCH_20261019.md) with original tolerances, exact saved blocks and cumulative costs retained. No corpus verdict follows; the demo reservation, GPU resource hold and other commissioned backlog remain.
+
+The [full D30 crossed comparison](../../../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_MAIN_LAUNCH_20261019.md) is running after full pilot replay and cost admission, with both pilot charges included and unchanged scientific code. Earlier build notes below retain their cutoff times.
+
 ## October 18–25 week: current dispatch authority
+
+The [D30 crossed cost pilot](../../../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_LAUNCH_20261019.md) is running under the current control contract. Full scientific execution awaits its measured admission.
+
+The [D30 crossed implementation](D30_CROSSED_WEEK_20261019.md) records the paired control choice and numerical repair. Ten checks and counted native replay pass; the full main awaits measured timing admission. [Build receipt](../../../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_BUILD_20261019.md).
+
+The [D24 continuation](D24_WEEK_CONTINUATION_20261019.md) is now verified complete, with a null primary and no conditional window extension. The complete [result and retained control limits](../../../../results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md) preserve the source question and original allowance.
+
+The [D24 saved-work continuation](D24_WEEK_CONTINUATION_20261019.md) reconciles actual prior charges against the week packet's single doubled ceiling without changing the scorer. Targeted and native validation pass; full execution and fresh replay are running. [Validation and cost accounting](../../../../results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.md).
 
 The [EV1 pause card](EV1_DEPARTURE_PAUSES_20261019.md) freezes the nested fixed-intercept interpretation, original covariates and controls. Targeted/native validation and complete corpus verification pass; the conditional pause association is positive with a passing permutation reference.
 

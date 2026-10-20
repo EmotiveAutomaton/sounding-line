@@ -1,15 +1,13 @@
 # TODO: the study queue
 
-The [October 18 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261018.md)
-is complete. Stage 15 remains open. The fixed ten-document EV reader timing
-pilot and required first-100 support export are verified complete.
-The support gate passes; full-source continuation is verified complete.
-Full-reader export and complete uncached replay are verified.
-EV2 signature recurrence is verified complete and recorded. EV3 habit input
-preparation and identification are verified complete; identification is control-invalid.
-EV1 is verified complete with a positive conditional pause association and passing
-reference; the feature table remains implementation work.
-[Complete identification](results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md).
+The [October 19 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md)
+is complete. Stage 15 remains open. EV1 pause association and EV2 signature recurrence
+pass their scoped checks; EV3 habit identification is control-invalid. D24 is null;
+the crossed D30 primary is unresolved and all three paired own-history advantages are null.
+The shared-word variant is VOID before fitting. Completed source, reader and revision
+inputs are filed. No scientific worker is currently active. P7 and D33 corpus work are
+cost-held; P1 is GPU resource-held. K/D31 are deferred after the missed intake gate
+and paid cutoff. Tuesday delivery and the explicitly gated post-talk work remain.
 
 - [x] S15-DRIVE-CANONICALS: D38, D32, D4, D14 and D2 primaries independently
   verified and integrated; originals retained under source holds. D12 rank-only
@@ -41,22 +39,46 @@ reference; the feature table remains implementation work.
 - [x] S15-EV-READER: complete fixed export, exact pilot reuse, fresh uncached
   replay, original-row retention, typed fragments, cumulative cost and native
   closure independently verified. Scientific consumers remain separate.
-- [ ] S15-EV1-EV4: validated statistical consumers, repeated/paired controls,
-  reliability table and exact limits. No badge before a complete valid cell.
-- [ ] S15-D33-SUPPORTED: calibration-supported smaller variant under S1;
-  existing supported-match attempt invalid before fitting; original question open.
-- [ ] S15-D30-CONTINUATIONS: same-row controls, crossed-model main and scoped
-  follow-ups remain to be admitted; second-source identity mappings missing.
-- [ ] S15-P7: scoped D33/Jester reader and common word-event native validation;
-  Jester complete-record intake done; original full-population gap retained.
-- [ ] S15-D24: reconcile saved attempt's cumulative execution/replay cost
-  under single 2x original ceiling before resuming; never repeatedly double it.
+- [x] S15-EV1-EV3: complete validated executions and landings; EV3 remains
+  control-invalid, with no habit badge.
+- [ ] S15-EV4: source-verified table prepared; deliver at Tuesday 20:00 digest,
+  retain receiving hashes and resolve literal dictionary terms. Unmeasured curves
+  and control gaps stay explicit. [Table](results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md).
+- [x] S15-D33-CALIBRATED-BUILD: smaller calibration-supported adapter and complete
+  constructed statistical replay pass; original supported-match failure retained.
+- [ ] S15-D33-SUPPORTED: corpus run is cost-held, with at most 42.032 seconds of the
+  single 3,600-second allowance remaining and no admitted corpus forecast. No reset;
+  original full-population question remains open.
+- [x] S15-D30-CROSSED: single engineering recovery verified complete; primary
+  unresolved and paired own-history advantage null. Exact prefix, full source/fit
+  replay, controls, cumulative costs and native closure verified. [Full result](results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md).
+- [x] S15-D30-DIGEST: crossed and fixed-effect paired results, support failures and
+  unchanged mechanism gaps integrated into theory rows and afterwords.
+- [x] S15-D30-PAIRED: both fixed-effect paired cards complete, primary advantages null;
+  full source/fit replay and exact-occurrence correction texture verified.
+- [x] S15-D30-SHARED: shared-word card reaches its fixed support refusal before fitting;
+  VOID, not a scientific negative; no automatic retry.
+- [ ] S15-D30-CONTINUATIONS: second-source replication remains blocked on identity
+  mappings; completed original and paired cards do not commission further extensions.
+- [x] S15-P7-INSTRUMENT: original and bounded word-event diagnostics plus twelve-prefix
+  refinement fully verified; instrument ledger current. Full point-score precision unmet.
+- [ ] S15-P7: scoped D33/Jester corpus comparison remains unadmitted; further native
+  refinement cost-held at 813.866/900 seconds, with 86.134 remaining. No reset.
+  Jester complete-record intake is complete; original full-population gap retained.
+- [x] S15-D24: complete source/model/statistic replay and independent audit verify;
+  null primary, conditional window extension not admitted. Original single control
+  remains limited. [Full landing](results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md).
+- [x] S15-D24-DIGEST: scoped null, secondary limits and afterword integrated;
+  conditional narrower-window extension remains unadmitted.
 - [ ] S15-P1: prepared environmental suggestion continuation resource-held;
   typed/history source work and downstream comparisons remain separate.
-- [ ] S15-K-D31: intake/known-answer preparation by Monday noon; conditional
-  first-$10 gate, spend cutoff Monday 17:00; no active paid batch.
-- [ ] S15-POST-TALK: DR1, NP1, GEN1 and population-relative SDT1 under their
-  gates; competence gap retained. Pruned backlog only after eligible priority work.
+- [ ] S15-K-D31: missed Monday noon intake/known-answer gate; deferred to post-talk
+  disposition. Monday 17:00 paid cutoff enforced; no active batch or new paid authority.
+- [ ] S15-POST-TALK: dispatch window opens Thursday October 22 at 07:00 PDT.
+  DR1, NP1, GEN1 and population-relative SDT1 retain their gates; competence gap retained.
+  Pruned backlog only after eligible priority work. No early dispatch from a digest.
+- [x] OPS-S15-DIGEST-1019: all completed cards, 38-primary descriptive screen,
+  instrument limits, theory/afterwords, TODO and shared runbook integrated.
 - [x] S15-CLOSED-BRANCHES: D2 hierarchical, D11 writer-slope and D16 closed
   by week authority; V4/V4.c taste failure remains; original D3 attempts invalid.
 - [x] OPS-S15-DIGEST-1018: complete-card screen, theory/instrument/TODO and

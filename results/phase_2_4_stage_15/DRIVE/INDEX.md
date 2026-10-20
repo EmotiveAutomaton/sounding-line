@@ -1,5 +1,83 @@
 # October 16 drive: execution index
 
+**Current family boundaries (October 19):**
+
+| Family | Resolved prefix | Boundary |
+|---|---:|---|
+| A | 1 | D35 null, D33 positive resets, D39 null, D17 positive resets, D23 null extension gives one; D3 invalid and D16 administratively closed do not count; D7 post-talk |
+| B | held | Original D32 examination source-held; canonical marginal does not complete the held route. D2 extension closed, later D28 negative and D38 positive retained; no stop inferred |
+| E | 0 | D15 marginal resolution followed by positive V3/P4 resets; D37 post-talk; later D20/D11 positives retained |
+| G | 2 | D34 and supported variant resolve two; canonical D14 remains unresolved. Later D4/D18/D24 nulls retained without jumping the unresolved earlier rung; D24 extension not admitted. |
+| K | 0 | Crossed primary unresolved and paired controls null; original positive extension retains warning. Shared-word variant VOID. D31 deferred after missed intake/cutoff. Follow-up controls are not extra ladder rungs. |
+| P | 0 | No completed ladder entry |
+| R | 1 | Canonical rank-only D12 null applies only to its changed question; full original selected-score claim remains held; D21/P1 pending |
+| S | 0 | D36 post-talk |
+
+Taste and habit calibration lenses remain blind under their fixed gates. EV instruments do not enter family counters; no family stop or stage closure is licensed.
+
+**October 19 daily integration:** [Complete digest](DIGEST_20261019.md).
+Engine signature recurrence and departure-pause association pass their scoped checks;
+habit identification is control-invalid. D24 is null; the crossed D30 primary remains
+unresolved and its own-history controls are null. The shared-word variant is VOID.
+Theory, instruments and TODO are current. No scientific worker is active: P7/D33 are
+cost-held and P1 is GPU resource-held. Paid dispatch is closed; K/D31 remain deferred.
+Stage 15 is open. Tuesday feature delivery and gated post-talk work remain.
+Earlier dated launch/status snapshots below are historical.
+
+**October 19, 15:43 PDT:** The twelve-prefix P7 refinement is verified complete with exact replay and unchanged predecessor distributions. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. Native workers exited and released the slot; no scientific worker is active. Further P7 native refinement and D33 corpus execution are cost-held; GPU resource hold and demo reservation remain. Stage 15 is open. [Complete instrument record](P7_WORD_BOUNDS_TWELVE_20261019.md).
+
+**October 19, 14:58 PDT:** P7 capacity refinement is verified complete with exact native replay, unchanged predecessor evidence and tighter bounds. Whole-diagnostic precision and corpus admission remain unmet. Native workers exited and released their slot; no scientific worker is active. D33 remains cost-held; GPU resource hold and demo reservation persist. Stage 15 remains open. [Complete instrument record](P7_WORD_BOUNDS_REFINEMENT_20261019.md).
+
+**October 19, 14:15 PDT:** P7 bounded word-event validation is verified complete: known-answer checks, native replay and saved-evidence reconstruction pass, but the fixed diagnostic does not meet point-score precision. No scientific worker is active; the CPU slot is released. P7 refinement remains implementation work within its unchanged allowance, and D33 corpus dispatch remains cost-held. Watcher/calendars are healthy; the GPU resource hold and demo reservation persist. Stage 15 is open. [Complete instrument record](P7_WORD_BOUNDS_20261019.md).
+
+**October 19, 13:17 PDT:** D33 calibration-supported implementation passes eighteen targeted checks and complete constructed native statistical replay. Corpus execution is held by the cumulative S4 allowance; the original incomplete comparisons remain. No counted science worker is active. Watcher/calendars are healthy, no stale CPU lease exists, and GPU continuation remains below its fixed start floor. P7 compatible event scoring and other commissioned backlog remain; Stage 15 is open. [D33 build and cost disposition](D33_CALIBRATED_BUILD_20261019.md).
+
+**October 19, 12:33 PDT:** P7 native word-event diagnostic and complete fresh replay are verified; its workers exited and released the CPU slot. Common-event scoring and scientific admission remain unfinished. The D30 revision-classifier notice is a verified duplicate of its already-landed record. D33 calibration-supported implementation remains next; no counted science worker is active at this cutoff. Gear 2 authorization, GPU resource hold, demo reservation, K/D31 post-talk disposition and 20:00 integration remain. Stage 15 is open. [Complete diagnostic](P7_WORD_EVENT_NATIVE_20261019.md).
+
+**October 19, 12:28 PDT:** P7 native word-event validation is running in a counted Gear 2 CPU slot after nineteen targeted checks. Full fresh replay remains required; this diagnostic admits no scientific word probability. The shared-word D30 card is recorded as support-invalid before fitting, and both paired fixed-effect cards are complete. GPU resource hold, demo reservation, K/D31 post-talk disposition and 20:00 theory integration remain. Stage 15 is open. [Build and launch](P7_WORD_EVENT_BUILD_20261019.md).
+
+**October 19, 12:24 PDT:** The shared-word D30 comparison is VOID after its unchanged writer-support gate stopped it before fitting. No automatic retry or scientific negative follows. Both paired fixed-effect cards are complete and recorded. P7 native word-event validation and the supported calibration variant remain unfinished; no counted science worker is active at this inspection. K/D31 remain post-talk; the GPU resource hold and demo reservation persist. Stage 15 is open. [Full support record](D30.v2-shared.md).
+
+**Shared-word specificity build:** nine checks and complete counted native source/fit replay pass; the original primary and paired control stay separate. The completed corpus attempt is support-invalid before fitting. [Validation](D30_SHARED_BUILD_20261019.md) · [Support refusal](D30.v2-shared.md).
+
+**October 19, 12:03 PDT:** Both paired fixed-effect history comparisons are independently verified complete; their paired own-history advantages are null. Full source/fit replay, saved-draw arithmetic, hashes, cumulative costs, native exit and slot release pass. Six descriptive probabilities are registered and audited. The shared-word card, supported calibration variant and P7 validation remain implementation work; Stage 15 is open. K/D31 missed the Monday noon intake/known-answer condition and move after the talk under the existing rule; no paid batch ran. No counted science worker is active at this cutoff. GPU resource hold and demo reservation remain. [Complete paired results](D30.fake-recovery.md).
+
+**D30 paired recovery:** both original attempts stopped before fitting at an ambiguous bigram join. A separate exact-occurrence repair passes thirteen checks and complete native replay. Both single engineering retries are now verified complete; paired advantages are null. [Failure and repair](D30_PAIRED_RECOVERY_BUILD_20261019.md).
+
+**D30 paired fixed-effect build:** twelve targeted checks and complete counted native known-answer replay pass. Both authorized corpus cards are complete under the separately validated occurrence-identity repair. [Validation](D30_PAIRED_BUILD_20261019.md).
+
+**October 19, 11:27 PDT:** Correction timing labels are verified complete for all 1,399 original sessions, with every occurrence and revision retained, full fresh replay and cumulative costs checked. Workers exited and released the CPU slot. The remaining D30 statistical comparisons, P7/D33 and conditional K/D31 intake are unfinished; no counted research worker is active at this cutoff. Gear 2 authorization, the GPU resource hold and demo reservation persist. This is input readiness, not stage closure. [Complete labels](D30_REVISION_BURSTS_V1.md).
+
+**D30 correction timing classifier:** fifteen checks and full native known-answer replay pass; the complete corpus label pass is independently verified. Scientific consumers remain unfinished. [Validation](D30_REVISION_BURSTS_BUILD_20261019.md).
+
+**October 19, 11:11 PDT:** Full revision-history input preparation is verified complete, including all 1,399 original sessions, exact pilot reuse, uncached replay, independent count/hash checks and cumulative costs. Workers exited and released the CPU slot. Correction classification and the remaining D30 comparisons are the next implementation work; P7/D33 and conditional K/D31 intake remain open. GPU resource hold and demo reservation persist. This is source readiness, not a scientific verdict. [Complete source record](D30_REVISION_INPUT_FULL_V1.md).
+
+**October 19, 09:59 PDT:** Full revision-history source preparation is running in Gear 2 after seven targeted checks and complete native replay. The ten pilot records remain exact; all 1,399 original sessions receive authenticated input preparation and fresh replay. One counted CPU slot, demo reservation, cumulative S4 ceiling and immediate terminal monitoring verify. Correction classification and remaining D30 comparisons are unfinished; GPU remains resource-held. No unfinished scientific scores are reported. [Launch and limits](D30_REVISION_FULL_LAUNCH_20261019.json).
+
+**D30 complete revision input:** seven checks and fresh counted native replay pass; exact pilot reuse and cumulative cost admitted. Full source dispatch follows; correction classification remains unbuilt. [Build](D30_REVISION_FULL_BUILD_20261019.md).
+
+**D30 revision source pilot:** verified complete, with exact original occurrences and fresh replay. Full source continuation remains to validate; no correction classification or scientific verdict. [Pilot and cost](D30_REVISION_INPUT_PILOT_V1.md).
+
+**D30 revision-input build:** Fifteen checks and complete counted native replay pass. The raw event companion is ready for the first-ten source pilot; no burst classifier or science comparison is admitted. [Build](D30_REVISION_INPUT_BUILD_20261019.md).
+
+**October 19, 09:32 PDT:** [D30 crossed recovery](D30.p-week-recovery.md) is verified complete and recorded. The primary is unresolved; the paired own-history advantage is null. All native workers exited and released their slot. No counted science worker is active at this cutoff; the remaining commissioned backlog is unfinished. The separate fixed-effect/word-list cards, P7 and conditional K/D31 intake remain; Gear 2 authorization, the demo reservation and GPU resource hold persist. Theory integration is due at the 20:00 digest.
+
+**October 19, 08:32 PDT:** [D30 numerical recovery](D30_WEEK_FAILURE_RECOVERY_20261019.md) passes targeted and full native validation after the original main stopped on a non-converged fit. The [single engineering retry is now running](D30_WEEK_RETRY_LAUNCH_20261019.md) with original tolerances, exact saved blocks and cumulative costs retained. No corpus verdict follows; the demo reservation, GPU resource hold and other commissioned backlog remain.
+
+**October 19, 08:14 PDT:** [Full D30 crossed comparison](D30_WEEK_MAIN_LAUNCH_20261019.md) is running in Gear 2 after the completed timing pilot passed source, numerical and cost admission. Both pilot charges are included in one unchanged cumulative ceiling; scientific code remains unchanged. Native execution and terminal monitoring verify. The demo reservation, GPU resource hold and unfinished commissioned backlog remain; Stage 15 is open.
+
+[Completed D30 cost pilot](D30_WEEK_PILOT_20261019.md): full replay and cost admission pass. Main dispatch awaits authenticated cumulative accounting.
+
+**October 19, 07:58 PDT:** [D30 crossed-model timing pilot](D30_WEEK_PILOT_LAUNCH_20261019.md) is running in Gear 2 after ten checks and full native replay. The repaired estimator and current controls need this measured cost admission before the full scientific comparison. D24 is verified, filed and acknowledged; theory integration is due at the 20:00 digest. The demo reservation, GPU resource hold and remaining commissioned backlog persist. Terminal monitoring is healthy; this is not stage closure.
+
+[D30 crossed control build](D30_WEEK_BUILD_20261019.md): native validation complete; full-design cost pilot next. Full scientific comparison remains unadmitted.
+
+**October 19, 07:29 PDT:** [D24 closure comparison](D24-week-continuation.md) is verified complete and recorded. The primary is null; its conditional window extension is not admitted. Native workers exited and released the CPU slot. No counted science job is active at this cutoff; calendars and terminal monitoring are healthy. D30/P7 and conditional intake remain implementation work. GPU continuation remains below its unchanged start floor, and the ToMpathy reservation remains. This is not stage closure; theory integration follows the 20:00 digest.
+
+**October 19, 06:44 PDT:** [D24 closure continuation](D24_WEEK_BUILD_20261019.md) is running in Gear 2 after eight targeted checks and native replay. Saved scores and prior costs are preserved within one cumulative allowance. EV1-EV3 are recorded, including EV3 control failures; the [feature table](ENGINE_FEATURE_TABLE.md) is prepared for Tuesday delivery. [Native health inspection](HEALTH_20261019_0644.md) verifies progress, locks, resources and monitoring. The demo reservation and GPU resource hold remain; D30/P7, conditional intake and other commissioned work remain unfinished. Earlier dated snapshots below retain their original cutoffs.
+
+**October 19 feature return:** [The consolidated table](ENGINE_FEATURE_TABLE.md) is prepared and source-verified. EV1-EV3 are recorded; EV3 remains control-invalid. Tuesday delivery and dictionary release review remain. D30/P7/D24 and other commissioned work are still open; this is not a drained queue.
+
 **October 19, 06:17 PDT:** [Departure-pause comparison](EV1_PAUSES_V1.md) is independently verified complete, with a positive conditional association and passing permutation reference. EV1–3 are recorded; EV3 remains control-invalid. Workers exited and released their slot. The feature table and other commissioned backlog remain unfinished. Gear 2 authorization, demo reservation and GPU resource hold remain.
 
 **October 19, 06:13 PDT:** [Departure-pause comparison](EV1_BUILD_20261019.md) is running in a counted Gear 2 CPU slot after targeted and native validation. EV2 and EV3 results are recorded, including EV3 control failures. The feature table remains unfinished. Demo reservation, GPU resource hold and monitoring remain.
@@ -125,12 +203,11 @@ now govern unstarted work. D38's [canonical successor is verified complete](D38-
 descriptive positive on its retained support; repeated outcome reference passes
 the specified bias warning. Its original remains source-held. D4 canonical and Jester recovery are already complete;
 D2 hierarchical and D11 writer-slope extensions close for this campaign.
-EV/DR/NP/GEN1 and population-relative SDT1 are commissioned, not yet completed
-implementations. The theory filing is preserved for the requested 20:00 digest.
+EV1-EV3 are complete with the control dispositions in the current digest; EV4 is prepared for Tuesday delivery. DR/NP/GEN1 and population-relative SDT1 remain post-talk work. The theory filing and daily integrations are applied.
 
 The [prospective week runtime](WEEK_RUNTIME_20261018.md) is verified on exact
 boundary tests and full native replay. D32's [canonical primary passes complete
-constructed validation](D32-canonical-build.md); its complete corpus timing pilot admits full main, now running. D14 canonical is verified complete.
+constructed validation](D32-canonical-build.md); its canonical corpus comparison is complete, as are D14 and D2.
 
 ## October 18 implementation wave
 
@@ -146,21 +223,21 @@ failures still have one retry. No partial scientific scores are reported.
 | V5.d | verified complete; primary null, route undetermined, fake control invalid | [Full decomposition and support failure](V5.d.md) |
 | V4.c | verified complete; primary invalid on null calibration; taste/combined blind, history-only sees large taste only | [Full split](V4.c-split.md); original V4 unchanged; medium-strength taste route and dependent cards held |
 | D33.pair / .pair2 | supported-match retry complete, INVALID before fitting; original population and prompt-excluded comparisons held | [Complete support failure](D33.pair-supported.md): two retained evaluation writers lack supported calibration; no fit or controls run and no scientific null. [Original donor gap](D33.pair-intake.md), [approved subset](../../../docs/design/stage-15/drive/D33_SUPPORTED_MATCH_DECISION_20261018.json), [first failure](D33.pair-supported-failed.md) and [launch](D33-supported-recovery-launch.md) retained |
-| D33.fake; D30.v2 / .fake | implementation underway | Same-row comparisons; no new scores |
+| D33 supported; D30.v2 / .fake | D33 corpus cost-held; D30 shared-word VOID; both fixed-effect pairs null | [D33 build](D33_CALIBRATED_BUILD_20261019.md), [shared support](D30.v2-shared.md), [base pair](D30.fake-recovery.md), [adjusted pair](D30-extension.fake-recovery.md) |
 | D23 | primary marginal; single extension verified null | [Primary](D23.md), [extension](D23-extension.md); reader half awaits P1 |
 | D12 | original selected-score primary under source-validity hold | [Original record](D12.md); [canonical rank successor verified null](D12-rank-canonical.md) |
 | D29 | primary and timer extension verified complete | [Length](D29.md), [timer](D29-timer.md); timer diagnostics invalid, no internal-target admission |
 | D14 | primary inference held on selected-vector source defect; restoration admission held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original](D14.md) |
 | D4 | canonical predictive successor verified complete; primary null, permutation reference biased | [Full successor](D4-predictive-canonical.md); conditional earlier-style extension closed; original [audit](SELECTED_OPTION_AUDIT_20261018.md) and [result](D4.md) retained |
-| D24 | pilot verified; first main failed, single repaired attempt saved at cost yield | [Instrument](D24-pilot.md), [cost hold](WAVE2_CONTINUATION.md) |
+| D24 | verified complete; null primary, conditional extension not admitted | [Complete continuation](D24-week-continuation.md); original failures and single-control limitation retained |
 | D15 / V3 | both complete: D15 marginal, V3 positive conditional reliability | [D15](D15.md), [V3 table](V3.md) |
 | D28 | negative primary verified; reversal extension closed | [Full comparison/control warning](D28.md) |
 | D38 | primary source exposed; extension statistic invariant but opening gate held | [Audit](SELECTED_OPTION_AUDIT_20261018.md), [original extension](D38-extension.md) |
 | D3 / D3-content | both single engineering retries failed source validation; invalid | [Complete failure record](D3-recovery.md); no further engineering retry |
 | D18 | canonical retry verified complete; primary null | [Complete result](D18.md); independent of prepared choice index; P1 fluency gate retained |
 | D20 | original and registered reliability extension verified complete; reliability null, repeated references biased | [Original](D20.md), [complete extension and controls](D20-uptake-reliability.md); no stable personal or causal admission |
-| D11 | verified primary positive; later-text secondary held on source defect | [Complete report](D11.md); writer-slope extension awaits calibrated V4.c |
-| D30.p | crossed-model cost pilot verified; full pipeline building | [Instrument](D30.p-pilot.md) |
+| D11 | verified primary positive; later-text secondary held on source defect | [Complete report](D11.md); writer-slope extension closed after V4.c calibration failure |
+| D30.p | verified complete; primary unresolved, paired own-history advantage null | [Complete recovery](D30.p-week-recovery.md); repeated reference passes |
 | D30.r | metadata inspection verified; replication held | [Missing mappings](D30.r-intake.md) |
 | TC | positive instrument; verified complete | [Timing census](TC.md); use admitted logged intervals |
 | V5 | verified descriptive proxy; V5.d decomposition complete with explicit control deficit | [Original](V5.md); no cross-population headroom denominators |
@@ -171,19 +248,19 @@ failures still have one retry. No partial scientific scores are reported.
 | P1 suggestion pass | environmental stop15:10; complete checkpoint validation and separate continuation prepared, resource-held | [Stop and recovery preparation](SUGGESTION_ENVIRONMENT_2_STOP.md);6,102 retained checkpoints, original allowance and limits preserved |
 | V4 | verified complete; blind for taste and habit | [Full calibration](V4.md); combined reader rejects all shuffled nulls, oracle sees plants; FX1/personal panels unadmitted |
 | D34 | primary and single extension verified complete; both marginal | [Primary](D34.md), [extension](D34-extension.md); one routing null, mechanism unresolved; V4 taste/habit lens blind |
-| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p native pilot verified and main building; .r metadata preflight verified with actual mapping gap |
+| D30 | primary marginal; verified extension positive, with positive writer-shuffle control | [Primary](D30.md), [extension](D30-extension.md); automaticity not established; [.s](D30.s.md) is verified complete; .p crossed comparison complete, primary unresolved and paired advantage null; .r metadata preflight verified with actual mapping gap |
 | D30.s | verified complete; positive paired specification median | [Complete texture](D30.s.md); original positive writer-control warning persists |
 | D30 daily outcome shuffle | verified complete; marginal, no positive failure flag | [Complete required control](D30-outcome-shuffle.md); D32 outcome shuffle now complete and marginal; other control failures still limit interpretation |
 | D35 | verified complete; null | [Complete report](D35.md); no extension or texture |
 | D33 | verified complete; primary and writer-shuffle control positive | [Full report](D33.md); personal specificity unestablished; single stronger-baseline extension awaits P7, then texture |
 | D6 | verified complete; pooled hover-position primary null | [Complete report](D6.md); no extension; unobserved exposure remains unidentified |
-| D2 | original selected-label inference held; extension also awaits V4.c | [Original record](D2.md); [canonical diagnostic verified complete](D2-diagnostics-canonical.md): content/length beat uniform, content beats position, content over length unresolved; original quintile control positive and hierarchical extension held |
+| D2 | original selected-label inference held; hierarchical extension closed after V4.c failure | [Original record](D2.md); [canonical diagnostic verified complete](D2-diagnostics-canonical.md): content/length beat uniform, content beats position, content over length unresolved; original quintile control positive and hierarchical extension held |
 | D17 | environmental continuation verified complete; positive writer stability | [Complete result](D17-complete.md); psychological component identity unestablished |
 | D39 | verified complete; null primary and unresolved secondary | [Complete report](D39.md); no decay extension; one A null after the D33 reset |
 | D32 | saved execution complete; selected-label inference and routing held | [Audit](SELECTED_OPTION_AUDIT_20261018.md); original results retained |
 | D34.v1 | verified complete; marginal, no extension | [Supported subset](D34.v1.md); directly linked model corrections only, broader question OPEN |
 | Jester text/ratings intake | text and separate complete-record ratings verified; original partial-record gap retained | [Complete-record source](Jester2plus-complete-records.md), [original failure](Jester2plus-intake-failed.md); P7/D36 admission remains separate |
-| P7 | full corpus census superseded; scoped D33/Jester CPU execution being built | [Mid-run plan](../../../docs/design/stage-15/drive/BATCH_PLAN_20261018_W2_MIDRUN.md); no full-corpus restart |
+| P7 | native instrument complete but point-score/corpus admission unmet; further refinement cost-held | [Full diagnostic and cumulative cost](P7_WORD_BOUNDS_TWELVE_20261019.md); original full-corpus census superseded |
 | P3/P1 typed+history/new source intakes/Gear 3 routes | implementation remains | No claim of a fully built packet |
 
 **Historical routing snapshot, held pending selected-source correction and current digest:** family resolved-prefix null counts: K 0, B 2, A 2, G 2, E 0, R 1, S 0, P 0.

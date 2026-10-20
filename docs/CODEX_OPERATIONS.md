@@ -1,5 +1,14 @@
 # Codex operations
 
+**October 19 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
+Engine signature recurrence and departure-pause association pass their scoped checks;
+habit identification is control-invalid. D24 is null; the crossed D30 primary remains
+unresolved and its own-history controls are null. The shared-word variant is VOID.
+Theory, instruments and TODO are current. No scientific worker is active: P7/D33 are
+cost-held and P1 is GPU resource-held. Paid dispatch is closed; K/D31 remain deferred.
+Stage 15 is open. Tuesday feature delivery and gated post-talk work remain.
+Earlier dated launch/status snapshots below are historical.
+
 **October 18 daily integration: Gear 2 is authorized; Stage 15 remains open.**
 All five canonical primaries and the EV 100-session input pilot are complete and
 verified. No science worker is active at the 20:02 native inspection. GPU work

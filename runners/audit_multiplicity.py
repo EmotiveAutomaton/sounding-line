@@ -334,6 +334,32 @@ TESTS = [
     ("S15-DRIVE-W1 V5 epsilon 0.9", 0.03980099502487562, "diagnostic", "results/phase_2_4_stage_15/DRIVE/V5.json"),
     # Week EV2 instrument: descriptive reassignment reference, no family-counter change.
     ("S15-EV2 cross-prompt signature reassignment", 0.004975124378109453, "diagnostic", "results/phase_2_4_stage_15/DRIVE/EV2_SIGNATURES_V1.json"),
+    # Completed D24 continuation: descriptive only; duplicate primary secondary omitted.
+    # Completed paired fixed-effect cards: descriptive references, no family admission.
+    ('S15-D30-PAIRED-FIXED D30.fake-recovery own permutation upper tail', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.fake-recovery.json'),
+    ('S15-D30-PAIRED-FIXED D30.fake-recovery fake permutation upper tail', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.fake-recovery.json'),
+    ('S15-D30-PAIRED-FIXED D30.fake-recovery paired_gap permutation upper tail', 0.9850746268656716, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.fake-recovery.json'),
+    ('S15-D30-PAIRED-FIXED D30-extension.fake-recovery own permutation upper tail', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30-extension.fake-recovery.json'),
+    ('S15-D30-PAIRED-FIXED D30-extension.fake-recovery fake permutation upper tail', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30-extension.fake-recovery.json'),
+    ('S15-D30-PAIRED-FIXED D30-extension.fake-recovery paired_gap permutation upper tail', 0.9850746268656716, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30-extension.fake-recovery.json'),
+    ('S15-D30-CROSSED-WEEK primary', 0.37336696094893296, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK marker-label shuffle', 0.6182598174880971, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK paired own', 0.01755230032263647, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK paired reassigned', 1.264001704641518e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK paired own minus reassigned', 0.30249982889132915, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK timing positive control', 7.97115740676507e-21, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D30-CROSSED-WEEK outcome permutation upper tail', 0.009950248756218905, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json'),
+    ('S15-D24-WEEK primary', 0.5181314327882179, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK single outcome shuffle', 0.6958400391544663, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK accepted_closure_own_median_length', 0.25555173479990884, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK accepted_cosine_timer', 0.3960635645008233, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK accepted_lexical_timer', 0.39239833243682415, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK accepted_times_per_minute_timer', 0.005898020449851489, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK requests_per_minute_timer', 0.0020497676556391685, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK typed_closure_own_median_length', 0.01916325331306545, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK typed_closure_timer', 0.1670084827980223, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK typed_cosine_timer', 0.08316623968073651, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
+    ('S15-D24-WEEK typed_lexical_timer', 0.209548957074443, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json'),
     # Completed Modal cell, frozen eleven-slot campaign family (five API slots unavailable).
     # The campaign's Holm results remain primary; this project-wide audit is additional.
     ("G3-S14-MAKER R27.H1-B-pop", 0.007399260073992601, "primary", "results/gear3/G3-S14-MAKER-1/MODAL_MAIN_RESULTS.json"),

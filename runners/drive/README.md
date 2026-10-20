@@ -1,5 +1,39 @@
 # October 16 drive runners
 
+`cards/timing_word_bounds_twelve` changes only the prefix cap to twelve. Complete constructed checks and native replay pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).
+
+`cards/timing_word_bounds_refined` changes only the fixed prefix cap to eight. Three checks, complete native replay and exact predecessor evidence pass. Whole-diagnostic precision and corpus admission remain unmet. [Complete instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_REFINEMENT_20261019.md).
+
+`cards/timing_word_bounds` and `cards/timing_word_bounds_native` preserve unresolved token-path probability as an interval. Known-answer checks and complete native replay pass; the fixed diagnostic remains too wide for point-score admission. [Completed instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_20261019.md).
+
+`cards/timing_d33_calibrated` implements the separately labelled calibration-supported variant. Eighteen targeted checks and complete constructed native statistical replay pass; corpus dispatch is cost-held. [Build and limits](../../results/phase_2_4_stage_15/DRIVE/D33_CALIBRATED_BUILD_20261019.md).
+
+`cards/timing_word_event_native` passes nineteen targeted checks and complete native CPU validation/fresh replay. [Complete diagnostic](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_NATIVE_20261019.md). It admits no scientific word probability. [Contract](../../docs/design/stage-15/drive/P7_WORD_EVENT_NATIVE_20261019.md).
+
+`cards/timing_d30_shared` implements the shared-word primary, separate paired history control and split correction texture. Nine checks and full native replay pass. [Contract](../../docs/design/stage-15/drive/D30_SHARED_WORDS_20261019.md) ? [Build](../../results/phase_2_4_stage_15/DRIVE/D30_SHARED_BUILD_20261019.md).
+
+`cards/timing_d30_paired_recovery` repairs the original paired runner's ambiguous bigram join using retained source-row positions, preserving both constituents and all original observations. Thirteen checks and full native replay pass. Both original failed attempts remain; one retry per card, all costs charged. [Failure and repair](../../results/phase_2_4_stage_15/DRIVE/D30_PAIRED_RECOVERY_BUILD_20261019.md).
+
+`cards/timing_d30_paired` implements the two commissioned fixed-effect history comparisons on identical supported rows, with paired real-writer resampling and full fresh source/fit replay. Twelve targeted checks and counted native validation pass. [Contract](../../docs/design/stage-15/drive/D30_PAIRED_FIXED_20261019.md) · [Validation](../../results/phase_2_4_stage_15/DRIVE/D30_PAIRED_BUILD_20261019.md).
+
+`cards/timing_revision_bursts` passes fifteen boundary/source checks and complete counted native replay. Its [complete corpus input pass](../../results/phase_2_4_stage_15/DRIVE/D30_REVISION_BURSTS_V1.md) is independently verified. It preserves the original logged-delta clock and separates immediate user deletion, later user edits, within-burst insertion and non-user changes; it runs no statistical contrast. [Contract](../../docs/design/stage-15/drive/D30_REVISION_BURSTS_20261019.md).
+
+`cards/timing_revision_full` continues authenticated raw revision inputs with exact pilot reuse and fresh all-session replay. Seven checks and counted native validation pass under one cumulative S4 allowance. No burst classification or scientific readout. [Contract](../../docs/design/stage-15/drive/D30_REVISION_FULL_20261019.md).
+
+`cards/timing_revision_input` validates and checkpoints the raw revision-event companion for the commissioned D30 follow-ups. Fifteen targeted checks and full native replay pass; the first-ten source pilot precedes full-corpus admission and burst classification. [Build](../../results/phase_2_4_stage_15/DRIVE/D30_REVISION_INPUT_BUILD_20261019.md). The crossed comparison is [verified complete](../../results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md); older running notes below are historical.
+
+**October 19, 08:32 PDT:** [D30 numerical recovery](../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_FAILURE_RECOVERY_20261019.md) passes targeted and full native validation after the original main stopped on a non-converged fit. The [single engineering retry is now running](../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_RETRY_LAUNCH_20261019.md) with original tolerances, exact saved blocks and cumulative costs retained. No corpus verdict follows; the demo reservation, GPU resource hold and other commissioned backlog remain.
+
+The [full D30 crossed comparison](../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_MAIN_LAUNCH_20261019.md) is running after verified cost admission. Both pilot charges are enforced in the frozen supervisor plan; statistical sources remain unchanged. Earlier dated build notes retain their cutoffs.
+
+The validated D30 crossed-control repair now has a [whole-design cost pilot running](../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_LAUNCH_20261019.md). Full main admission remains separate; earlier dated build notes retain their cutoffs.
+
+`cards/timing_d30_crossed_week`, its timing pilot and `crossed_reml_stable` pass ten targeted checks and complete counted native replay. They preserve the original estimator target, with current repeated and same-row paired controls. Main admission awaits measured cost. [Validation](../../results/phase_2_4_stage_15/DRIVE/D30_WEEK_BUILD_20261019.md).
+
+`cards/timing_closure_week` has completed its corpus continuation and fresh replay within the single cumulative allowance. Independent direct/weighted-row least-squares checks reproduce every reported fit and interval. Primary null; no conditional extension. [Complete evidence](../../results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md).
+
+`cards/timing_closure_week` resumes the paused D24 scorer with exact checkpoint reuse and all prior charges included in the single authorized ceiling. Eight checks and full native rehearsal pass; the complete corpus continuation is running. Scientific definitions and the original single outcome shuffle remain unchanged. [Continuation contract](../../docs/design/stage-15/drive/D24_WEEK_CONTINUATION_20261019.md) - [build and limits](../../results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.md).
+
 `cards/engine_departure_pauses` implements EV1 with authenticated original rows, fixed nested intercepts, whole-writer resampling and within-session controls. Thirteen checks, full native replay and complete corpus verification pass; the scoped pause association is positive with passing controls. [Frozen card](../../docs/design/stage-15/drive/EV1_DEPARTURE_PAUSES_20261019.md).
 
 `cards/engine_habits_identification` implements the commissioned fixed-gallery habit comparison. Sixteen targeted checks and full native replay pass; the complete corpus comparison is verified, with both fixed fake-reference bias controls fired. The earlier habit-input job is verified complete. [Fixed choices](../../docs/design/stage-15/drive/EV3_IDENTIFICATION_20261019.md) · [build and retained failure](../../results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_BUILD_20261019.md).

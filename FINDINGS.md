@@ -1,5 +1,148 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261019
+
+**Hypothesis.** Recorded choices, words and pauses may expose useful features of a writer without identifying private goals or automaticity.
+**METHOD.** Integrate complete verified cards, preserve their source and control limits, and recompute the descriptive screen from authenticated saved estimates and paired draws.
+**Found.** Engine signature recurrence and departure-pause association pass their scoped checks; engine habit identification fails its control. Timer-related closure and paired own-history pause advantages are null; the crossed pause primary remains unresolved. **Means.** These findings support specific engine readouts and leave the broader personal-mechanism questions open. Stage 15 is not complete.
+
+The [complete daily screen](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md) retains every earlier primary and adds four completed follow-ups, with explicit probability references, descriptive multiplicity and shrinkage, failed controls, family boundaries and all input hashes. Paired standard errors are reconstructed from authenticated saved draws; no new probability or scientific decision family is introduced. Completed card roll-ups remain in their original entries. Theory rows and afterwords, TODO, instrument pointers and shared operating state are integrated. Cost/resource holds, the paid cutoff and Tuesday feature delivery remain; no new tests harvested.
+
+Curator roll-up: decision traces and bounded reading; which completed observations survive their own controls without becoming private-mechanism claims?; **Infrastructure**; the completed daily record separates supported readouts, nulls, unresolved comparisons and invalid instruments; project meaning: specific engine features have scoped validation while personal-mechanism questions remain open; next engineering obligation: Tuesday return and scheduled resource/dependency checks, preserving existing ceilings; public claims unchanged from the landed cards; curator decision required: No. Detail: [aggregate digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.json).
+
+### OPS-S15-P7-WORD-TWELVE-1019
+
+**Hypothesis.** Further exact search can tighten the same native word-event bounds within the original diagnostic allowance.
+**METHOD.** Increase the fixed cap to twelve prefixes on unchanged pilot examples, with identical numerical functions, complete constructed checks, full fresh native replay and independent saved-bound reconstruction.
+**Found.** Complete constructed checks, fresh native replay and independent saved-bound reconstruction pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. This is an instrument result, not a scientific positive or negative.
+**Means.** The original comparison remains open; no scientific probability or multiplicity family is added.
+
+[Complete method, coverage and cumulative cost](results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md). The instrument ledger and current index are updated now; theory/TODO integration follows the 20:00 digest.
+
+Curator roll-up: bounded reading and habit; can more exact search make the same word event usable?; **Infrastructure**; full-population comparison remains unadmitted; project meaning: preserve the question and numerical limits; next engineering obligation: cost and whole-population compatibility admission; public claim unchanged; curator decision required: No. No new research tests harvested from this wake.
+
+
+### OPS-S15-P7-WORD-REFINEMENT-1019
+
+**Hypothesis.** A larger fixed work cap can tighten the native word-event bounds without changing the event or precision requirement.
+**METHOD.** Expand the same fixed pilot examples to eight prefixes, retain identical numerical function/import bodies, and validate complete constructed execution, full fresh native replay, all predecessor distributions and saved-bound reconstruction.
+**Found.** Validation and replay pass; one fixed example reaches numerical precision while the remaining examples stay unresolved. **Means.** This is progress in the reader apparatus, not a scientific positive or negative. The full diagnostic and corpus comparison remain unadmitted.
+
+[Full method, completed coverage table, retained reporting assertion and cumulative costs](results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_REFINEMENT_20261019.md). Instrument ledger and current index updated; theory/TODO integration follows the 20:00 digest. No scientific probability or multiplicity family is added.
+
+Curator roll-up: bounded reading and habit; can more exact search produce useful bounds for the same word event?; **Infrastructure**; the refined diagnostic remains incomplete for point scoring; project meaning: the corpus question stays open; next engineering obligation: only cost-admitted refinement and whole-population compatibility; public claim unchanged; curator decision required: No. No new research tests harvested from this wake.
+
+
+### OPS-S15-P7-WORD-BOUNDS-1019
+
+**Hypothesis.** The native reader can bound the original next-word event while retaining alternate tokenizations and unfinished probability mass.
+**METHOD.** Validate exact finite-tree answers and boundary counterexamples, then compute the same fixed pilot examples and repeat every native next-token distribution and enclosure in a fresh CPU process.
+**Found.** Known-answer checks and exact native replay pass, but none of the fixed examples reaches the required precision. **Means.** The enclosure apparatus is validated for this numerical reference distribution; a usable point score and the scientific comparison remain unadmitted. This is not a negative scientific finding or an impossibility result.
+
+[Full method, coverage table, retained fixture failures, cost and limitations](results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_20261019.md). The instrument ledger and execution index are updated now; theory/TODO integration follows the 20:00 digest. No scientific probability is generated or multiplicity family added.
+
+Curator roll-up: bounded reading and habit; can the reader bound the same word event without discarding unresolved mass?; **Infrastructure**; the fixed diagnostic remains too wide for point scoring; project meaning: the corpus question stays open; next engineering obligation: cost-admitted refinement and full-population event compatibility; public claim unchanged; curator decision required: No. No new tests harvested from this operational wake.
+
+
+### S15-DRIVE-D30-SHARED-SUPPORT-1019
+
+**Hypothesis.** Local-versus-pervasive production pauses remain distinguishable in the commissioned shared vocabulary.
+**METHOD.** Reconstruct the original prompt-conditioned marker classes after restricting typed occurrences to the frozen common-word and punctuation dictionary, then apply the original writer-support requirement before fitting.
+**Found.** Only two writers have both required classes, below the fixed minimum of three. **Means.** The comparison is VOID: neither its primary nor its paired control was estimated, and no negative scientific result follows. [Full input counts, failure, cost and verification](results/phase_2_4_stage_15/DRIVE/D30.v2-shared.md) are retained. All input pins verify; native workers exited and released the slot. No probability is generated, no support threshold is changed, and no automatic engineering retry is admitted. Theory/TODO integration is due at the 20:00 digest.
+
+Curator roll-up: habit and production stability; can the pause contrast be tested within the fixed shared vocabulary?; **Infrastructure**; required writer support is absent; project meaning: this restricted comparison leaves the question open; next engineering obligation: retain the support gap and continue independent commissioned work; public claim unchanged; curator decision required: No. No new tests harvested from this wake.
+
+
+### S15-DRIVE-D30-PAIRED-FIXED-1019
+
+**Hypothesis.** Local-versus-pervasive production pauses depend more strongly on the writer's own history than on reassigned histories.
+**METHOD.** Compare both histories on identical supported occurrences with fixed adjustment variables, resampling the same real writers in both arms for 2,000 paired bootstrap draws and applying 200 within-writer outcome permutations. Repeat with the original marker-count adjustment; reconstruct and refit both complete cards in fresh native processes.
+**Found.** The paired own-history advantage is null in both fixed-effect comparisons. **Means.** Neither comparison establishes person-specific automaticity or attention; positive separate arms do not supply the missing paired advantage. [Base comparison](results/phase_2_4_stage_15/DRIVE/D30.fake-recovery.md) and [marker-count comparison](results/phase_2_4_stage_15/DRIVE/D30-extension.fake-recovery.md) retain all estimates, intervals, references and correction texture.
+
+Both pairs retain 5,990 of 71,038 original occurrences across 30 real writers, with 65,048 unsupported occurrences explicitly outside the pair. The primary differences are -0.0727662 [-0.1253502, 0.0196514] and -0.0742326 [-0.1289396, 0.0195054] log-pause units. All repeated references pass the fixed bias check. Complete fresh source/fit replay, independent dummy-variable fits, saved-draw interval/reference arithmetic, revision counts, hashes, cumulative costs, native exit and released slots verify. The original ambiguous bigram join failures and their single exact-occurrence retries remain recorded. Six descriptive probabilities are registered; no new decision family or automatic extension is admitted. Theory rows, afterwords and queue bookkeeping integrate at the 20:00 digest.
+
+Curator roll-up: person location and habit; does the pause contrast depend specifically on the writer's own history?; **Narrows**; both paired fixed-effect advantages are null; project meaning: this measured contrast does not establish person-specific automaticity; next engineering obligation: digest integration and the separately commissioned common-word comparison, retaining support limits; public claim unchanged; curator decision required: No. No new tests harvested from this wake.
+
+
+### OPS-S15-D30-PAIRED-JOIN-RETRY
+
+**Hypothesis.** Paired history comparisons can preserve exact typed occurrences while attaching correction timing.
+**METHOD.** Authenticate both failed attempts and validate an occurrence-order repair on duplicate-bigram counterexamples, the earlier targeted battery and complete fresh native source/fit replay.
+**Found.** Both original corpus attempts stopped before fitting; thirteen repair checks and full native replay pass. **Means.** The failure supplies no scientific negative. Each card's single engineering retry is admitted with original observations, seeds, estimator, controls and all earlier costs retained. [Complete failure and repair record](results/phase_2_4_stage_15/DRIVE/D30_PAIRED_RECOVERY_BUILD_20261019.md).
+
+Curator roll-up: person location and habit; can the paired history comparison preserve exact typed occurrences?; **Infrastructure**; the repaired join passes known-answer and fresh replay checks; project meaning: no corpus finding follows yet; next engineering obligation: complete and independently verify the single retries; public claim unchanged; curator decision required: No. No new research test or probability harvested.
+
+
+### S15-DRIVE-D30-CROSSED-WEEK-1019
+
+**Hypothesis.** Local markers take longer to produce than markers used pervasively across a writer's work, after jointly accounting for writer and marker differences and the writer's marker count.
+**METHOD.** Fit the frozen crossed pause model with 2,000 writer-bootstrap draws per arm, a same-row paired history comparison and 200 within-writer raw-outcome permutations; reconstruct all sources and refit the complete comparison in a fresh native process.
+**Found.** The crossed pause contrast remains unresolved, and the paired own-history advantage is null. **Means.** This completed comparison does not establish person-specific automaticity or attention. Earlier fixed-effect results and their control failures remain unchanged. The [full captioned card](results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md) records every arm, interval, probability and support limit.
+
+The full primary is 0.0672123 log-pause units, with 95% interval -0.0782446 to 0.1928852. The paired own-minus-reassigned difference is -0.0816727, interval -0.2405423 to 0.0738723, on 5,990 supported occurrences; 65,048 original occurrences remain outside that comparison. Both separate paired arms are positive, which does not establish an own-history advantage. The repeated reference passes its fixed bias check; its small descriptive tail does not supersede the unresolved primary bootstrap interval. All source/output hashes, exact prefix, full fresh replay, independent report arithmetic, native exits and slot release verify. Seven unique probabilities are registered and the multiplicity audit is rerun. Total conservative charge is within the original ceiling. Theory row and afterword integration follows the 20:00 digest; the separate fixed-effect and word-list cards remain open.
+
+Curator roll-up: person location and habit; does the local-versus-pervasive pause difference survive the crossed model and own-history control?; **Narrows**; the completed paired comparison does not establish an own-history advantage; project meaning: pervasiveness timing has not identified automaticity or personal specificity; next engineering obligation: digest integration and the remaining commissioned comparisons, without an automatic scientific extension; public claim unchanged; curator decision required: No. Detail: [complete evidence](results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.json). No new tests harvested this pass.
+
+
+### OPS-S15-D30-NUMERICAL-RETRY
+
+**Hypothesis.** The crossed pause comparison can finish every fixed bootstrap and control fit without changing its statistical ruler.
+**METHOD.** Authenticate the failed attempt and saved prefix, reproduce the exact numerical failure, then test certified local continuation on known answers and refusal cases and replay the complete recovery in a fresh native process.
+**Found.** The original main failed numerical convergence; the repaired instrument passes targeted and native validation. **Means.** Its [single engineering retry is now running](results/phase_2_4_stage_15/DRIVE/D30_WEEK_RETRY_LAUNCH_20261019.md), with all earlier costs charged and no scientific verdict from the incomplete attempt. Successful old fits and saved blocks remain exact; original tolerances, data, seeds, contrasts and controls are unchanged. [Complete failure, validation and allowance](results/phase_2_4_stage_15/DRIVE/D30_WEEK_FAILURE_RECOVERY_20261019.md).
+
+Curator roll-up: person location and habit; can the crossed ruler finish without dropping failed draws?; **Infrastructure**; the repaired instrument passes five targeted checks; project meaning: the numerical failure supplies no scientific negative; next engineering obligation: run the single authorized retry and verify every retained and new fit before landing; public claim unchanged; curator decision required: No. No new research test or probability harvested.
+
+### OPS-S15-D30-WEEK-PILOT
+
+**Hypothesis.** The commissioned crossed pause comparison can complete its full repeated and paired controls within its existing allowance.
+**METHOD.** Reconstruct the whole original design, measure all four arms and repeated controls, then replay every source and fit in a fresh native process; price the full comparison using the slowest measured fit and charge both pilots.
+**Found.** Full pilot replay passes and the projected cumulative total is within the existing ceiling. **Means.** [Full execution is now running](results/phase_2_4_stage_15/DRIVE/D30_WEEK_MAIN_LAUNCH_20261019.md), with the completed pilot authenticated and both prior charges enforced by the native supervisor. This is instrument admission, not a scientific result. [Complete cost, verification and limitations](results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_20261019.md).
+
+Curator roll-up: person location and habit; can the crossed comparison run under the current control and cost contract?; **Infrastructure**; the conservative cumulative projection is 3.44 hours; project meaning: the full comparison can be launched within its existing allowance; next engineering obligation: verify complete main replay and controls before landing; public claim unchanged; curator decision required: No. No new research test or probability harvested this pass.
+
+### OPS-S15-D30-WEEK-BUILD
+
+**Hypothesis.** The commissioned crossed pause model can obey repeated and paired control requirements without changing its statistical target.
+**METHOD.** Compare the repaired REML objective with direct covariance and derivative checks; exercise known directions, paired exact nulls, support and integrity refusals, full-count scheduling, complete serialized handlers and fresh counted native replay.
+**Found.** Ten targeted checks and native validation pass. **Means.** The [whole-design timing pilot is running](results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_LAUNCH_20261019.md); the scientific main remains unadmitted. The estimator repair retains the original objective, variance ceiling and tolerances; failed validation and original code remain. Same-row paired controls hold nuisance covariates and real writer/marker intercepts fixed. No new inferential probability or corpus score is reported. [Complete instrument record](results/phase_2_4_stage_15/DRIVE/D30_WEEK_BUILD_20261019.md).
+
+Curator roll-up: person location and habit; can the crossed comparison be measured under the current controls?; **Infrastructure**; the complete native validation passes; project meaning: numerical readiness does not establish automaticity or personal specificity; next engineering obligation: inspect the measured full-design timing receipt before main admission; public claim unchanged; curator decision required: No. No new research tests harvested this pass.
+
+### S15-DRIVE-D24-WEEK-1019
+
+**Hypothesis.** Writers choose more ending-like suggestions just after the recorded ten-minute timer than just before it, among sessions that continue beyond that timer.
+**METHOD.** Use the frozen equal-weight closing-marker and anchor-embedding composite; fit a fixed two-minute local window with writer intercepts and separate time slopes, then use 2,000 writer-bootstrap draws and the original single within-writer outcome shuffle. Source reconstruction, encoder scoring and statistics were independently replayed in a fresh native process.
+**Found.** The completed primary is null: the estimated closure jump is -0.00320, with a 95% interval from -0.01238 to 0.00732. **Means.** This ruler does not establish the predicted increase in ending-like accepted suggestions. The conditional narrower-window extension is not admitted; the broader internal-goal question remains open. The [complete captioned report](results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md) records every frozen secondary and its support, interval and descriptive probability.
+
+All source sessions are retained in the census. The primary uses 1,931 accepted insertions across 786 sessions and 56 writers after the registered continuing-session and window restrictions. The single shuffled outcome is null but cannot certify repeated-reference calibration. Exploratory rates decrease at the timer and typed closure increases around retrospective own median length; those secondaries neither replace the null primary nor identify a stopping target. All source/output hashes, checkpoint identities, fresh replay, independently reconstructed fits and intervals, native exits and slot release verify. The conservative total charge is 2,742.396077 seconds, including earlier attempts, within the single 5,400-second ceiling. Prior failures remain preserved. Eleven unique descriptive probabilities are registered and the multiplicity audit rerun; the repeated primary secondary is not double-counted. Theory-row/afterword integration belongs to the scheduled 20:00 digest under the active packet.
+
+Curator roll-up: hidden goals and set points; does accepted wording become more ending-like at the recorded timer?; **Narrows**; the complete primary does not establish the predicted timer-related increase; project meaning: this observed closure proxy does not identify need satisfaction or an internal target; next engineering obligation: integrate the scoped null at the daily digest and continue eligible commissioned cards without the conditional window extension; public claim unchanged; curator decision required: No. Detail: [complete evidence](results/phase_2_4_stage_15/DRIVE/D24-week-continuation.json). No new tests harvested this pass.
+
+### OPS-S15-D24-WEEK-BUILD
+
+**Hypothesis.** The paused closure comparison can resume identical measurements without losing saved work or resetting its charged allowance.
+**METHOD.** Authenticate the original attempts and saved session checkpoints, compare the continuation with the original scorer on positive, reversed and exact-null fixtures, test corrupted inputs and resource/budget stops, then execute and independently verify a counted native rehearsal.
+**Found.** Eight targeted checks and full native replay pass. **Means.** The full closure comparison is running in Gear 2 under its single authorized cumulative ceiling; no corpus verdict is available. The [complete build report](results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.md) retains every prior charge, validation failure and scope limitation. Original scores and scientific definitions are unchanged; execution and fresh replay share the remaining allowance. The original single outcome shuffle is retained and does not certify a new repeated-control screen.
+
+Curator roll-up: closure measurement; can the paused comparison continue without changing its ruler or resetting cost?; **Infrastructure**; the continuation passes eight targeted checks and native replay; project meaning: the commissioned full comparison is active again; next engineering obligation: verify complete source/statistic replay and controls before landing; public claim unchanged; curator decision required: No. Detail: [aggregate evidence](results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.json). No new research test or probability harvested.
+
+### OPS-S15-HEALTH-1019-0644
+
+**Hypothesis.** The current queue and delivery service retain live ownership, advancing work and intact evidence within the authorized allocation.
+**METHOD.** Inspect actual native creation identities and interpreter children, progress/output freshness, failures, source/research locks, CPU leases, resources, eligible backlog, calendars and watcher delivery.
+**Found.** The closure continuation is advancing; completed EV workers have exited, all research locks pass and monitoring is healthy. **Means.** No additional recovery is required at this cutoff. GPU work remains resource-held, the ToMpathy reservation remains, and Stage 15 is unfinished. The [complete inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261019_0644.md) records resources, historical delivery failures, frozen evidence and remaining implementation. Native validation receives its complete build write-through before ACK.
+
+Curator roll-up: operations; are evidence and authorized execution healthy?; **Infrastructure**; all 21 research locks pass; project meaning: active work and terminal monitoring are intact; next engineering obligation: land complete closure output and continue eligible commissioned implementation; public claim unchanged; curator decision required: No. Detail: [inspection receipt](results/phase_2_4_stage_15/DRIVE/HEALTH_20261019_0644.json). No new tests harvested this pass.
+
+### OPS-S15-EV4-TABLE
+
+**Hypothesis.** The completed channel measurements can be returned with their exact definitions and limitations without turning missing measurements or failed controls into validated badges.
+**METHOD.** Map the complete aggregate PMAP, V3, D17, D29 and EV1-EV3 receipts into one source-hashed schema; preserve distinct estimands, every control warning and reasons for unavailable fields.
+**Found.** All 21 requested channel rows are filed and independently checked against their source receipts. **Means.** The local handoff is prepared; Tuesday delivery and literal dictionary release review remain open. This filing adds no scientific result. The [captioned feature table](results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md) retains unavailable measurements, conditional V3 projections, device-context limits and all failed controls. Exact dictionary arrays remain local with ordered-array hashes under a reversible S5 filing choice; absence of explicit inspected dataset terms is not recorded as a prohibition.
+
+Curator roll-up: engine interface; can completed channels retain their definitions and validity boundaries in one return?; **Infrastructure**; the table covers 21 completed channel rows; project meaning: a reviewable aggregate return is prepared; next engineering obligation: Tuesday delivery receipt and literal dictionary release review; public claim unchanged; curator decision required: No. Detail: [machine-readable table](results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.json). No new test or probability harvested.
+
+
 ### S15-EV1-PAUSES-V1
 
 **Hypothesis.** Words with higher engine departure scores follow longer pauses within a writer's session, after the original word and history covariates are accounted for.

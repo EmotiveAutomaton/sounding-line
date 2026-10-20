@@ -1,0 +1,62 @@
+{
+  "inspected_at": "2026-10-19T18:12:14.959874+00:00",
+  "event": "6ed41b0b242fb74ef7d66183",
+  "transition": "Replay completed during inspection; full source landing verified and recorded",
+  "source_receipt": "D30_REVISION_INPUT_FULL_V1.json",
+  "plan_sha256": "a744b6d3cd79b76d5f4420c2490baec4c4f72184a3277c878dfdba960ccedcab",
+  "complete_sha256": "b28a0b329cfce22c141e3aedf098a17accdca660e15848b338a82b62591b9af7",
+  "input_pins_verified": 4268,
+  "output_hashes_verified": 1412,
+  "research_locks_verified": 21,
+  "native_workers_exited": true,
+  "counted_slots_used": 0,
+  "stale_lease": false,
+  "demo_reservation_retained": true,
+  "resources": {
+    "ram_available_GiB": 34.467403411865234,
+    "commit_headroom_GiB": 29.572662353515625,
+    "disk_free_GiB": 395.5428123474121
+  },
+  "gpu_previous_observation": {
+    "free_MiB": 6116,
+    "used_MiB": 5882,
+    "utilization_percent": 5,
+    "temperature_C": 38
+  },
+  "gpu_start_floor_MiB": 7424,
+  "gpu_disposition": "Resource-held; not restarted",
+  "calendar_heartbeat_ages_seconds": {
+    "drive-calendar-20261017": 13.590420722961426,
+    "drive-calendar-20261018-week": 15.529720544815063
+  },
+  "watcher": {
+    "native": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "source_verified": true,
+    "scan_age_seconds": 18.493151664733887,
+    "actual_event_delivery_at": 1792433202.752178,
+    "error": null,
+    "historical_notification_failures": [
+      {
+        "id": "90a246a81310a5d21c8ca8db0385f43d886f26ffb2020b4fefedaa64d3c02a11",
+        "state": "failed_or_unknown",
+        "updated": 1789053578.7725835,
+        "error": "TimeoutError"
+      },
+      {
+        "id": "16e52e4e635b0e7b178ca942a8f7957588064ac1ef320e782a965a96c2d399c6",
+        "state": "failed_or_unknown",
+        "updated": 1792078125.1734307,
+        "error": "UnicodeEncodeError"
+      }
+    ]
+  },
+  "failures": "No worker failure; the live-identity check observed normal completion and was reconciled against COMPLETE, full replay, native exits and slot release.",
+  "runnable_work": "No extra admitted successor. Correction classifier and remaining D30/P7/D33 work are implementation backlog; K/D31 reviewed cohort and blind labels still absent. Noon checkpoint and current bounds retained.",
+  "recovery": "None required; full source pass landed, no restart.",
+  "no_tests_harvested": true,
+  "no_unfinished_scores": true
+}

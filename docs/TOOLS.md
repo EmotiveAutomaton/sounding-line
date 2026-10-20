@@ -1,5 +1,39 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 19 integrated instrument state:** EV1 and EV2 pass their scoped checks; EV3 fails its fixed reference. P7 native enclosures remain incomplete for point scoring and further refinement is cost-held. The D33 calibration-supported build passes constructed tests but has no corpus result. [Daily evidence and limits](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md). Older launch notes below retain their historical cutoffs.
+
+**P7 twelve-prefix refinement:** Three constructed checks, full fresh native replay, byte-exact predecessor agreement and independent saved-bound reconstruction pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Complete validation and cost](../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).
+
+**P7 fixed-event capacity refinement:** Three checks and full fresh native replay pass. Every earlier prefix distribution remains byte-exact and the numerical bounds tighten, but complete precision/corpus admission remains unmet. Workers exited; all costs retain the original allowance. [Completed instrument record](../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_REFINEMENT_20261019.md).
+
+**P7 bounded word-event enclosure:** Twenty-four known-answer checks, two full-handler checks and exact fresh native replay pass. Unresolved probability mass remains explicit; the fixed diagnostic does not meet point-score precision, so corpus/scientific admission remains false. [Validation, retained setup errors and cumulative cost](../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_20261019.md).
+
+**D33 calibration-supported variant:** Eighteen targeted checks and complete constructed native statistical replay pass. The support-only selection retains the original chronological split and identifies dropped rows separately. Corpus source execution remains unrun in this variant; cumulative cost holds dispatch. [Validation and limits](../results/phase_2_4_stage_15/DRIVE/D33_CALIBRATED_BUILD_20261019.md).
+
+**D30 correction timing classifier:** Fifteen checks plus full counted native replay validate exact two-second boundaries, repeated events, provenance separation and immutable source/output refusal. Full labeling of all 1,399 original sessions is independently verified, with every occurrence and revision retained, full fresh replay and cumulative costs checked. Scientific consumers remain separate. [Complete labels](../results/phase_2_4_stage_15/DRIVE/D30_REVISION_BURSTS_V1.md).
+
+**D30 full revision input:** exact pilot retention, new raw-source reconstruction and full native replay pass seven targeted checks and the counted rehearsal. Scope, source/output tampering, reentry, saved-boundary yield and cost refusal tested. Source-only admission; no burst classification. [Validation](../results/phase_2_4_stage_15/DRIVE/D30_REVISION_FULL_BUILD_20261019.md).
+
+**D30 revision input:** Fifteen source checks and seven continuation checks plus full native rehearsals validate occurrence/event preservation and tamper refusal. Full preparation of all 1,399 original sessions is independently verified, including exact pilot reuse, uncached replay, aggregate reconstruction, cumulative cost and worker closure. Burst classification is complete; scientific comparisons remain unfinished. [Complete source](../results/phase_2_4_stage_15/DRIVE/D30_REVISION_INPUT_FULL_V1.md).
+
+**D30 complete numerical validation:** All 8,204 fits reproduce in fresh native replay, including the exact saved prefix. Two certified continuations meet the original tolerances; source/output integrity and independent report reconstruction pass. The completed primary is unresolved and the paired advantage is null; numerical completion is not mechanism admission. [Full result and retained failure](../results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md).
+
+**OPS-S15-D30-NUMERICAL-RETRY:** The full crossed run failed one bootstrap optimization. A separate continuation meets the original function/gradient tolerances with positive-curvature certification; successful original fits and retained blocks remain exact. Five checks and full native replay pass. The single retry is now running, with original costs and failed validation preserved. [Complete instrument record](../results/phase_2_4_stage_15/DRIVE/D30_WEEK_FAILURE_RECOVERY_20261019.md).
+
+**D30 full dispatch:** The verified timing pilot admits the full comparison. The native supervisor charges both pilots and bounds execution plus replay within the unchanged total; original statistical sources remain immutable. [Accounting and native launch](../results/phase_2_4_stage_15/DRIVE/D30_WEEK_MAIN_LAUNCH_20261019.md).
+
+**OPS-S15-D30-WEEK-PILOT:** All whole-design pilot fits and sources reproduce exactly in fresh native replay. Cost admission passes with both pilots charged; full main dispatch requires an authenticated remaining-allowance guard. [Complete receipt](../results/phase_2_4_stage_15/DRIVE/D30_WEEK_PILOT_20261019.md). No scientific score or probability follows.
+
+**OPS-S15-D30-WEEK-BUILD:** Ten checks and complete native replay validate repeated outcome and paired controls plus a stable evaluation of the unchanged REML objective. Original failures remain; a whole-design timing pilot is required before main admission. [Validation](../results/phase_2_4_stage_15/DRIVE/D30_WEEK_BUILD_20261019.md).
+
+**D24 continuation verified complete:** exact source/model replay and an independent weighted-row least-squares audit reproduce the full reported output. All checkpoint/pin/artifact hashes, native exits and slot release verify. The primary is null; the original single shuffle does not certify repeated-control calibration. [Complete report](../results/phase_2_4_stage_15/DRIVE/D24-week-continuation.md).
+
+**OPS-S15-D24-WEEK-BUILD:** The saved-score closure continuation passes eight targeted checks and full native replay. It authenticates all prior attempts and exact saved checkpoints, preserves the original scorer, and enforces one remaining execution/replay allowance. The full comparison is running; no unfinished corpus claim follows. [Build, retained failures and limits](../results/phase_2_4_stage_15/DRIVE/D24_WEEK_BUILD_20261019.md).
+
+**OPS-S15-HEALTH-1019-0644:** Native workers, advancing outputs, source/research locks, counted CPU ownership, resources and terminal delivery verify. The GPU start floor and ToMpathy reservation remain. [Inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261019_0644.md).
+
+**OPS-S15-EV4-TABLE:** The [engine feature table](../results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md) maps 21 complete channels to exact definitions, source hashes, controls and unavailable fields. Independent mapping, schema, dictionary-hash and privacy checks pass. V3 projections remain distinct from empirical reliability curves; EV3 control failures remain. Prepared locally for Tuesday delivery; literal dictionary terms remain unresolved.
+
 **EV1 pause association verified:** the complete supported-word slope is positive and its within-session reference passes the frozen bias check. Independent source, QR, bootstrap and permutation audits pass. The scoped pause-association route is supported; attention causation remains unestablished. [Full evidence](../results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md).
 
 **EV1 pause consumer:** 13 targeted checks and complete native replay pass, including explicit fixed-intercept least-squares equivalence. Corpus execution is active; source and statistical admission remain distinct. The first serialization failure is preserved. [Build](../results/phase_2_4_stage_15/DRIVE/EV1_BUILD_20261019.md).
@@ -4593,3 +4627,11 @@ Full instrument write-through: OPS-S10-READING-REPAIR and its
 Stage 11.2 OPS-S11.2-I3: full 3B/9B admission replay and thirteen checks pass; both gates refuse. The seven-job initial queue correctly blocks six dependents. Two unused Ollama source inventory mismatches in the 3B receipt remain disclosed. No activation or task competence inferred from transport.
 
 Stage 11.2 OPS-S11.2-I4: the single repaired Ollama interface passes the fixed task gate; all 192 requests semantically replay, native exit/source pins verify, and nineteen focused checks pass. Fourteen successor jobs rehearse with 270 fake calls and no-call reentry. This admits predictions only; smaller HF activation conditions remain refused.
+
+- **D30 paired fixed-effect history instrument (2026-10-19):** twelve targeted checks and full counted native source/fit replay pass; signed known answers, exact identical-arm null, shared writer draws, source mutation and immutable continuation verified. Corpus comparisons remain separate. [Validation](../results/phase_2_4_stage_15/DRIVE/D30_PAIRED_BUILD_20261019.md).
+
+- **D30 paired occurrence-identity recovery (2026-10-19):** thirteen checks and full native replay validate distinct repeated bigram identities. Original ambiguous joins failed before fitting; frozen originals retained, both single charged retries verified complete with independent point/interval/reference arithmetic. [Failure and repair](../results/phase_2_4_stage_15/DRIVE/D30_PAIRED_RECOVERY_BUILD_20261019.md).
+
+- **D30 shared-word specificity instrument (2026-10-19):** nine checks and full native source/fit replay pass. The corpus support gate correctly refuses before fitting: only two writers have both classes; no automatic retry. [Support refusal](../results/phase_2_4_stage_15/DRIVE/D30.v2-shared.md). Original primary, paired control and correction denominators remain separate; first checkpoint-shape defect retained and repaired before corpus dispatch. [Validation](../results/phase_2_4_stage_15/DRIVE/D30_SHARED_BUILD_20261019.md).
+
+- **P7 word-event native diagnostic (2026-10-19):** nineteen constructed checks and complete CPU native replay pass. All original targets retained; exact sampled paths and losses verify. [Complete diagnostic](../results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_NATIVE_20261019.md). Exact path and decoder agreement are instrument checks only; common-event and main admission remain false. [Build](../results/phase_2_4_stage_15/DRIVE/P7_WORD_EVENT_BUILD_20261019.md).

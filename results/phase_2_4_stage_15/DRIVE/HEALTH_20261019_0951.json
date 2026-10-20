@@ -1,0 +1,211 @@
+{
+  "at": "2026-10-19T16:51:55.756408+00:00",
+  "event": "c989066418c25a1ef94f10b1",
+  "jobs": [
+    {
+      "job": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 77320
+      },
+      "live": true,
+      "heartbeat": {
+        "at": "2026-10-19T16:51:31.042835+00:00",
+        "next_milestones": [
+          "PAID_CUTOFF",
+          "DIGEST_20261019",
+          "TALK_PAGE_DUE",
+          "DIGEST_20261020",
+          "FREEZE",
+          "DRAIN_REVIEW"
+        ]
+      },
+      "heartbeat_age_seconds": 24.637474060058594
+    },
+    {
+      "job": "drive-calendar-20261018-week",
+      "native": {
+        "created_ticks": 134368329836144485,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 644
+      },
+      "live": true,
+      "heartbeat": {
+        "at": "2026-10-19T16:51:29.110137+00:00",
+        "next_milestones": [
+          "ENGINE_EXPORT_DUE",
+          "ENGINE_WRAPPER_FALLBACK",
+          "DIGEST_20261021",
+          "POST_TALK_OPEN",
+          "DIGEST_20261022",
+          "DIGEST_20261023",
+          "DIGEST_20261024",
+          "FINAL_DIGEST_AND_START_FREEZE",
+          "FINAL_DRAIN_RECONCILIATION"
+        ]
+      },
+      "heartbeat_age_seconds": 26.57716703414917
+    },
+    {
+      "job": "native-D30-revision-input",
+      "complete": true,
+      "native_exits": [
+        {
+          "created_ticks": 134369017085110558,
+          "executable": "C:\\Python313\\python.exe",
+          "pid": 187012
+        },
+        {
+          "created_ticks": 134369017089148150,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 159140
+        },
+        {
+          "created_ticks": 134369017109358714,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 81184
+        }
+      ],
+      "slot_released": true,
+      "newest_output_at": "2026-10-19T16:41:53.000920+00:00"
+    },
+    {
+      "job": "drive-d30-revision-input-pilot-v1",
+      "complete": true,
+      "native_exits": [
+        {
+          "created_ticks": 134369017978201767,
+          "executable": "C:\\Python313\\python.exe",
+          "pid": 80044
+        },
+        {
+          "created_ticks": 134369017982663587,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 163684
+        },
+        {
+          "created_ticks": 134369018162958336,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 106056
+        }
+      ],
+      "slot_released": true,
+      "newest_output_at": "2026-10-19T16:43:54.417178+00:00"
+    },
+    {
+      "job": "D30.p-week-recovery",
+      "complete": true,
+      "native_exits": [
+        {
+          "created_ticks": 134368974757693145,
+          "executable": "C:\\Python313\\python.exe",
+          "pid": 114140
+        },
+        {
+          "created_ticks": 134368974763783400,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 186940
+        },
+        {
+          "created_ticks": 134368989493167668,
+          "executable": "E:\\EmotiveAutomaton\\Projects\\SoundingLine\\sounding-line\\.venv\\Scripts\\python.exe",
+          "pid": 26036
+        }
+      ],
+      "slot_released": true,
+      "newest_output_at": "2026-10-19T16:24:02.295783+00:00"
+    }
+  ],
+  "resources": {
+    "ram_available_GiB": 36.46603775024414,
+    "commit_headroom_GiB": 32.53359603881836,
+    "disk_free_GiB": 395.583553314209
+  },
+  "gpu_columns": [
+    "free_MiB",
+    "used_MiB",
+    "utilization_percent",
+    "temperature_C"
+  ],
+  "gpu": "6664, 5334, 7, 36",
+  "gpu_start_floor_MiB": 7424,
+  "gpu_disposition": "resource-held; no restart",
+  "counted_cpu_slots": 0,
+  "demo_slot_reserved": true,
+  "research_locks": "all 21 verified",
+  "pins": "79 pilot pins and 22 outputs verified during this landing; native 51 pins/13 outputs verified; unchanged older pins retain their prior inspection",
+  "failures": "No new failure. Original D30 solver failure and old GPU resource failures retained; recovery and pilot complete.",
+  "watcher": {
+    "pid": 131912,
+    "native": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "source_verified": true,
+    "last_scan_age_seconds": 33.69776487350464,
+    "error": null,
+    "events": [
+      {
+        "id": "7a8e58fff7c16f411b7934d0",
+        "path": ".agent-state/drive-20261018-week/native-D30-revision-input/COMPLETE.json",
+        "digest": "53fa3ed4aa5248ebe97bfae6f57bb565d4373c992f7c5f10d9b4199c63e77c15",
+        "created": 1792428173.489777,
+        "state": "queued",
+        "attempts": 1,
+        "next_try": 1792428296.9138143,
+        "queue_id": "01a1550b-76e6-7ea2-97ff-9b19d2abedeb",
+        "error": null,
+        "acknowledged": null,
+        "delivered_at": null
+      },
+      {
+        "id": "5cf708887100abda193f86cd",
+        "path": "results/phase_2_4_stage_15/raw/drive-d30-revision-input-pilot-v1/COMPLETE.json",
+        "digest": "3c1af189806748ff55826cd7c4e906ad7dec59fbfd6d962f50c34d254967eb36",
+        "created": 1792428237.288942,
+        "state": "pending",
+        "attempts": 0,
+        "next_try": 0.0,
+        "queue_id": null,
+        "error": null,
+        "acknowledged": null,
+        "delivered_at": null
+      },
+      {
+        "id": "c989066418c25a1ef94f10b1",
+        "path": "[queue health: inspect progress, failures, locks and authorized next work]",
+        "digest": "health:6d87a4197d02481baa86aa7cdcad4857",
+        "created": 1792428364.4696093,
+        "state": "pending",
+        "attempts": 0,
+        "next_try": 0.0,
+        "queue_id": null,
+        "error": null,
+        "acknowledged": null,
+        "delivered_at": null
+      }
+    ],
+    "historical_notification_failures": [
+      {
+        "id": "90a246a81310a5d21c8ca8db0385f43d886f26ffb2020b4fefedaa64d3c02a11",
+        "state": "failed_or_unknown",
+        "updated": 1789053578.7725835,
+        "error": "TimeoutError"
+      },
+      {
+        "id": "16e52e4e635b0e7b178ca942a8f7957588064ac1ef320e782a965a96c2d399c6",
+        "state": "failed_or_unknown",
+        "updated": 1792078125.1734307,
+        "error": "UnicodeEncodeError"
+      }
+    ],
+    "d30_ack_verified": true
+  },
+  "delivery": "Native completion accepted by queue; delivery acknowledgement is absent. Pilot and health pending behind that batch. Actual resumed owner inspections are complete; no claim of idle delivery.",
+  "runnable_work": "No reviewed ready successor. Full revision-input continuation is being built after the completed source pilot; fixed scientific comparisons remain separate. P7 common-word validation and D33 supported-history preparation remain. K/D31 lacks reviewed cohort and blind labels; noon intake deadline remains. EV4 Tuesday delivery and 20:00 digest pending.",
+  "recovery": "No stale lease or failed active worker requires recovery. Continue authorized CPU build; preserve GPU hold and demo reservation.",
+  "no_tests_harvested": true,
+  "no_partial_scientific_scores": true
+}
