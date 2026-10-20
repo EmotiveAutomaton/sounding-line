@@ -9,6 +9,11 @@
 
 # Sounding Line
 
+**October 20:** [Plain-language talk summary](results/phase_2_4_stage_15/DRIVE/TALK_PAGE_20261020.md)
+and [validated preparation for the next tests](results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md)
+are filed. Completed results are pushed. Stage 15 remains open; the new census
+and reading comparisons are scientifically unrun and retain Thursday's opening.
+
 **October 19 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
 Engine signature recurrence and departure-pause association pass their scoped checks;
 habit identification is control-invalid. D24 is null; the crossed D30 primary remains

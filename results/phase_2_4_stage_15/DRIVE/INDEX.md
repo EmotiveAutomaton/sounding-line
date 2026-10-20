@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+**October 20 build state:** NP1 is constructed-validated with a pinned Thursday
+plan; DR1 has complete constructed/native validation and awaits corpus timing
+admission. GEN1 and population-relative SDT1 remain implementation work; Ghost's
+scoped synthetic return is available. [Preparation](POST_TALK_PREPARATION_20261020.md) ·
+[DR1 build](DR1_BUILD_20261020.md) · [Talk page](TALK_PAGE_20261020.md).
+No new scientific result or family counter follows.
+
 **Current family boundaries (October 19):**
 
 | Family | Resolved prefix | Boundary |

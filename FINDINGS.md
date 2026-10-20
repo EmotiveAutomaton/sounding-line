@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-POST-TALK-BUILD-20261020
+
+**Hypothesis.** The commissioned probe census and metadata-only reading comparison can be implemented without starting the post-talk campaign early.
+**METHOD.** Validate event definitions, source bindings, acquisition probabilities and full known-answer policy comparisons, then run complete production handlers with fresh native verification.
+**Found.** Both constructed builds pass; the census has a guarded Thursday plan, while the reading comparison still needs corpus timing admission. **Means.** Preparation has advanced without a new human-data result or early campaign start.
+
+The [preparation record](results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md) and [full reading build](results/phase_2_4_stage_15/DRIVE/DR1_BUILD_20261020.md) retain the complete scope, source/test hashes, fixture setup corrections and native closure. Nine census, twelve acquisition and nine full-reading checks pass. Ghost's supplied synthetic prerequisite is received and summary-bound, with partial calibration and the competence gap retained; no independent whole-case replay is claimed. The talk page is prepared. Genre and population-relative sensitivity implementations remain unfinished. No new tests harvested, probability added or family counter changed.
+
+Curator roll-up: bounded reading and recorded decisions; can the commissioned comparisons be prepared with their validity limits intact?; **Infrastructure**; both constructed builds pass while scientific execution remains gated; project meaning: executable census preparation and a validated reading runner are available; next engineering obligation: Thursday census dispatch, measured reading admission, remaining genre/sensitivity builds and Tuesday feature handoff; public claims unchanged; curator decision required: No. Detail: linked build receipts. Instrument ledger and TODO updated; no theory claim changes.
+
 ### S15-DRIVE-DIGEST-20261019
 
 **Hypothesis.** Recorded choices, words and pauses may expose useful features of a writer without identifying private goals or automaticity.

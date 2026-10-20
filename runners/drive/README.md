@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+`cards/week_probes` is the validated NP1 census. Its private pinned plan uses
+the existing contained week runtime and refuses execution before Thursday
+October 22 at 07:00 PDT. `cards/week_reading_order` and
+`cards/week_directed_reading` implement DR1; complete constructed/native replay
+passes, but real-input timing admission remains. Neither corpus comparison has
+run. [Contracts and validation](../../docs/design/stage-15/drive/POST_TALK_PREPARATION_20261020.md).
+
 `cards/timing_word_bounds_twelve` changes only the prefix cap to twelve. Complete constructed checks and native replay pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).
 
 `cards/timing_word_bounds_refined` changes only the fixed prefix cap to eight. Three checks, complete native replay and exact predecessor evidence pass. Whole-diagnostic precision and corpus admission remain unmet. [Complete instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_REFINEMENT_20261019.md).

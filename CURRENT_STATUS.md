@@ -1,5 +1,12 @@
 # Current status
 
+**October 20:** completed results are pushed; the
+[talk page](results/phase_2_4_stage_15/DRIVE/TALK_PAGE_20261020.md) and
+[validated post-talk builds](results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md)
+are filed. NP1 has a guarded Thursday plan. DR1 needs real-input timing
+admission; GEN1/SDT1 still need full implementation. No scientific worker is
+active under the current gates. Tuesday feature delivery remains due at 20:00.
+
 **October 19 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
 Engine signature recurrence and departure-pause association pass their scoped checks;
 habit identification is control-invalid. D24 is null; the crossed D30 primary remains

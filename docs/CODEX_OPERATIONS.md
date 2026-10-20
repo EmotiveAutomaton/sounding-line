@@ -1,5 +1,11 @@
 # Codex operations
 
+**October 20 preparation inspection:** [Native/service/resource receipt](../results/phase_2_4_stage_15/DRIVE/DAY_READINESS_20261020.json)
+verifies the watcher and both calendars, completed validation workers and released
+slots. No science worker is active under the current gates. Both new instrument
+events are landed and acknowledged. The independent health deadline remains
+10:03 PDT; Tuesday 18:00 talk-page and 20:00 feature-return markers remain.
+
 **October 19 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
 Engine signature recurrence and departure-pause association pass their scoped checks;
 habit identification is control-invalid. D24 is null; the crossed D30 primary remains

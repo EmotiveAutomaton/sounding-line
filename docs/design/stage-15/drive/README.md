@@ -1,5 +1,11 @@
 # October 16 drive commission
 
+**October 20 preparation:** [Probe census and acquisition contract](POST_TALK_PREPARATION_20261020.md)
+and [full directed-reading implementation](DIRECTED_READING_BUILD_20261020.md)
+are built and validated on constructed data. The census has a guarded Thursday
+plan; reading needs measured timing admission. Genre and sensitivity builds
+remain. This does not open the post-talk window early.
+
 **October 19 integration:** [Completed screen, instruments and remaining gates](../../../../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md). D24 and all admitted D30 comparisons have final dispositions; P7/D33 corpus work remains cost-held, P1 resource-held, and K/D31 deferred. Tuesday delivery and the Thursday post-talk window remain. Earlier build/launch snapshots are historical.
 
 [Twelve-prefix refinement](P7_WORD_BOUNDS_TWELVE_20261019.md) is verified complete within the original diagnostic allowance. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Instrument record](../../../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).

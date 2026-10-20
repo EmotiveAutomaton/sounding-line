@@ -2587,6 +2587,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**October 20 post-talk builds:** the probe-like event census passes nine checks
+and complete contained native source reconstruction; its pinned plan refuses
+early dispatch. The full directed-reading runner passes twelve acquisition and
+nine complete comparison checks, including helpful/null/harmful constructed
+worlds and full native replay. Corpus timing admission remains. Both scientific
+comparisons are unrun. [Census preparation](../results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md) ·
+[Reading build](../results/phase_2_4_stage_15/DRIVE/DR1_BUILD_20261020.md).
+
 **October 18 P7 native-work census:** five targeted checks pass, including actual
 model cache-work parity and counted-runtime replay. The production input census
 is paused at its forecast bound with saved units intact; full corpus validation

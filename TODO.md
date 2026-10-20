@@ -1,5 +1,27 @@
 # TODO: the study queue
 
+**October 20 preparation:** [Census plan and input checks](results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md)
+and [full reading-comparison build](results/phase_2_4_stage_15/DRIVE/DR1_BUILD_20261020.md)
+are validated on constructed data. Corpus execution remains unrun and follows
+Thursday's window. [Tuesday talk page](results/phase_2_4_stage_15/DRIVE/TALK_PAGE_20261020.md)
+is prepared. No prior cost/resource hold is lifted.
+
+- [x] S15-NP1-BUILD: complete census handlers, nine checks, contained native
+  execution/replay, actual source-binding/schema preflight and pinned Thursday plan.
+- [ ] S15-NP1: dispatch after Thursday 07:00, verify full output and land census.
+- [x] S15-DR1-BUILD: full retrospective comparison, twelve acquisition and nine
+  pipeline checks, full native replay; no corpus policies evaluated.
+- [ ] S15-DR1: build and admit a bounded actual-input timing pilot for Thursday;
+  preserve full reference gallery, all policy counts and original cumulative cost.
+- [ ] S15-GEN1: exact matched typed-word/session input and timing boundaries,
+  full fixed-gallery comparison and required known-answer/control validation.
+- [ ] S15-SDT1: Ghost synthetic route received and summary-bound; local
+  population-relative reader, split halves, fake control and native validation
+  remain. Competence and human record requirements remain open.
+- [x] S15-TALK-PAGE: plain-language summary prepared ahead of Tuesday 18:00.
+- [ ] S15-TUESDAY-RETURN: deliver the source-verified feature package at 20:00,
+  retain receiving hashes; literal dictionary terms remain unresolved.
+
 The [October 19 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md)
 is complete. Stage 15 remains open. EV1 pause association and EV2 signature recurrence
 pass their scoped checks; EV3 habit identification is control-invalid. D24 is null;

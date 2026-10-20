@@ -1,5 +1,14 @@
 # STATE: the agent's operational file
 
+**October 20 preparation:** Completed results through the October 19 integration
+are pushed. The [talk page](../results/phase_2_4_stage_15/DRIVE/TALK_PAGE_20261020.md)
+is prepared. NP1 has a validated guarded Thursday plan; DR1's full constructed
+build passes and awaits measured corpus timing admission. GEN1 and
+population-relative SDT1 remain implementation work; Ghost's scoped synthetic
+return is available. No new scientific worker is active. Existing cost,
+GPU-resource, paid-cutoff and demo-reservation limits remain. Stage 15 stays open.
+[Build records](../results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md).
+
 **October 19 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md).
 Engine signature recurrence and departure-pause association pass their scoped checks;
 habit identification is control-invalid. D24 is null; the crossed D30 primary remains

@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 20:** [Validated preparation](POST_TALK_PREPARATION_20261020.md),
+[full reading build](DR1_BUILD_20261020.md) and the
+[plain-language talk page](TALK_PAGE_20261020.md) are filed. Both new comparisons
+are scientifically unrun; existing holds and Thursday's opening remain.
+
 **October 19 daily integration:** [Complete digest](DIGEST_20261019.md).
 Engine signature recurrence and departure-pause association pass their scoped checks;
 habit identification is control-invalid. D24 is null; the crossed D30 primary remains
