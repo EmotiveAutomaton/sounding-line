@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-20T22:14:34.420435-07:00",
+  "event": "253ab3a10e9d0e1a4183feff",
+  "inspection_complete": true,
+  "gear": 2,
+  "stage_complete": false,
+  "active_science_workers": 0,
+  "native_identities": {
+    "131912": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "77320": {
+      "pid": 77320,
+      "created_ticks": 134367443601019868,
+      "executable": "C:\\Python313\\python.exe"
+    },
+    "644": {
+      "pid": 644,
+      "created_ticks": 134368329836144485,
+      "executable": "C:\\Python313\\python.exe"
+    }
+  },
+  "native_inventory": "Only watcher and two calendar owner/launcher trees.",
+  "services": [
+    {
+      "name": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 77320
+      },
+      "heartbeat_age_seconds": 25.055202960968018,
+      "remaining_milestones": [
+        "FREEZE",
+        "DRAIN_REVIEW"
+      ]
+    },
+    {
+      "name": "drive-calendar-20261018-week",
+      "native": {
+        "created_ticks": 134368329836144485,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 644
+      },
+      "heartbeat_age_seconds": 26.91875457763672,
+      "remaining_milestones": [
+        "DIGEST_20261021",
+        "POST_TALK_OPEN",
+        "DIGEST_20261022",
+        "DIGEST_20261023",
+        "DIGEST_20261024",
+        "FINAL_DIGEST_AND_START_FREEZE",
+        "FINAL_DRAIN_RECONCILIATION"
+      ]
+    }
+  ],
+  "counted_cpu_leases": [],
+  "stale_leases": false,
+  "legacy_cpu_gpu_locks_absent": true,
+  "watcher_kernel_lock_held": true,
+  "research_locks_verified": 21,
+  "freshness": {
+    "since": "2026-10-20T16:11:07.780812-07:00",
+    "terminal_records_inspected": 246,
+    "new_terminals_already_landed": [],
+    "unlanded_terminals": [],
+    "pins_outputs_stat_checked": 446,
+    "changed_pins_outputs_rehashed": [],
+    "independent_raw_native_inventory": {
+      "new_terminals": [],
+      "errors": []
+    }
+  },
+  "resources": {
+    "ram_available_GiB": 38.225189208984375,
+    "commit_headroom_GiB": 34.47367477416992,
+    "disk_free_GiB": 395.14271545410156
+  },
+  "gpu": {
+    "free_MiB": 6367,
+    "used_MiB": 5631,
+    "utilization_percent": 3,
+    "temperature_C": 39,
+    "start_floor_MiB": 7424,
+    "resource_held": true
+  },
+  "demo": {
+    "reservation_retained": false,
+    "receipt_present": false,
+    "expires": "2026-10-20T20:00:00-07:00",
+    "slots_reserved": 0,
+    "original_archive_verified": true
+  },
+  "feature_return": {
+    "package_hashes_verified": true,
+    "state": "prepared_pending_destination_approval",
+    "receiving_copies_verified": false
+  },
+  "paid": {
+    "dispatch_closed": true,
+    "ledger_unchanged_since_cutoff": true,
+    "guard_source_unchanged": true,
+    "historical_accounting_holds_retained": true,
+    "new_provider_calls": 0
+  },
+  "watcher": {
+    "scan_age_seconds": 42.813315868377686,
+    "sources_verified": true,
+    "error": null,
+    "cancelled": false,
+    "delivered_at": 1792559581.4335992,
+    "historical_failures": [
+      {
+        "id": "90a246a81310a5d21c8ca8db0385f43d886f26ffb2020b4fefedaa64d3c02a11",
+        "state": "failed_or_unknown",
+        "updated": 1789053578.7725835,
+        "error": "TimeoutError"
+      },
+      {
+        "id": "16e52e4e635b0e7b178ca942a8f7957588064ac1ef320e782a965a96c2d399c6",
+        "state": "failed_or_unknown",
+        "updated": 1792078125.1734307,
+        "error": "UnicodeEncodeError"
+      }
+    ],
+    "health_schedule_before_ack": {
+      "id": "c0e4ed67e98f4b8e8f0da52f35b6cfe6",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "interval_seconds": 21600,
+      "last_inspected": 1792537911.6340437,
+      "due": 1792559511.6340437,
+      "event_id": "253ab3a10e9d0e1a4183feff"
+    }
+  },
+  "failures": "No new worker, monitor or transport failure; historical failures retained.",
+  "progress": "Completed validation records match their published landings; no scientific job is active.",
+  "runnable_work": {
+    "P1": "Prepared continuation remains below GPU start floor; no restart.",
+    "P7": "Cost-held: 86.1338537 seconds remain; shortest completed replay 124.952718 seconds.",
+    "D33": "Cost-held: at most 42.031825 seconds remain; no admitted corpus forecast.",
+    "NP1": "Validated guarded plan; dispatch after Thursday October22 07:00 PDT.",
+    "DR1": "Validated build; actual-input timing admission remains for Thursday window.",
+    "GEN1_SDT1": "Implementation backlog; not runnable corpus jobs.",
+    "K_D31": "Deferred after missed intake and paid cutoff.",
+    "EV4": "Verified package published locally; cross-repository copies await destination approval. No retry.",
+    "talk_page": "Verified numerical correction published and review acknowledged."
+  },
+  "recovery": "No queue recovery required. Reviewed read-only native inventory confirms original services; no process changed.",
+  "new_tests_harvested": false,
+  "scientific_claims_changed": false,
+  "next": "ACK rearms six-hour health; retain Wednesday06:00 no-start and12:00 drain calendar boundaries. Thursday07:00 corpus opening unchanged."
+}
