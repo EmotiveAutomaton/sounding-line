@@ -1,0 +1,177 @@
+{
+  "at": "2026-10-21T06:07:25.987299-07:00",
+  "event": "b86baca15c40faabbc5e4a68",
+  "inspection_complete": true,
+  "kind": "scheduled_operational_freeze",
+  "stage_complete": false,
+  "gear_authorization": 2,
+  "dispatch_state": "frozen_until_Thursday_07:00_PDT",
+  "marker": {
+    "path": "results/phase_2_4_stage_15/raw/drive-calendar-20261017/FREEZE.json",
+    "sha256": "5419bf22c2cc0ac67fadd04344b7722b5fbab9cc33a78cec480e83f99a8c15d6",
+    "at": "2026-10-21T13:00:10.206348+00:00",
+    "event": "FREEZE",
+    "owner_action_required": true,
+    "previous_config_sha256": "b946aa78027ab290d9dcb49889df280adbc29578feb3edd262b8b5ede9eb7d70",
+    "publication_performed": false,
+    "restored_config_sha256": "640d75d9139b6754734412b3ad1fa6f7596d64cc52de172e68cbfdff7ef7e877",
+    "scheduled_at": "2026-10-21T13:00:00+00:00",
+    "scientific_verdict": false,
+    "watcher_transition_only": true
+  },
+  "authority": {
+    "packet": "docs/design/stage-15/drive/PACKET_20261017.md section2",
+    "week": "docs/design/stage-15/drive/WEEK_PACKET_20261018.md sections5-6"
+  },
+  "active_science_workers": 0,
+  "workers_to_drain": 0,
+  "native_identities": {
+    "131912": {
+      "pid": 131912,
+      "created_ticks": 134367488548255199,
+      "executable": "C:\\Python313\\pythonw.exe"
+    },
+    "77320": {
+      "pid": 77320,
+      "created_ticks": 134367443601019868,
+      "executable": "C:\\Python313\\python.exe"
+    },
+    "644": {
+      "pid": 644,
+      "created_ticks": 134368329836144485,
+      "executable": "C:\\Python313\\python.exe"
+    }
+  },
+  "native_inventory": "Only the existing watcher and two calendar owner/launcher trees; no project research worker.",
+  "services": [
+    {
+      "name": "drive-calendar-20261017",
+      "native": {
+        "created_ticks": 134367443601019868,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 77320
+      },
+      "heartbeat_age_seconds": 14.662039518356323,
+      "remaining_milestones": [
+        "DRAIN_REVIEW"
+      ]
+    },
+    {
+      "name": "drive-calendar-20261018-week",
+      "native": {
+        "created_ticks": 134368329836144485,
+        "executable": "C:\\Python313\\python.exe",
+        "pid": 644
+      },
+      "heartbeat_age_seconds": 16.594807386398315,
+      "remaining_milestones": [
+        "DIGEST_20261021",
+        "POST_TALK_OPEN",
+        "DIGEST_20261022",
+        "DIGEST_20261023",
+        "DIGEST_20261024",
+        "FINAL_DIGEST_AND_START_FREEZE",
+        "FINAL_DRAIN_RECONCILIATION"
+      ]
+    }
+  ],
+  "counted_cpu_leases": [],
+  "cpu_gpu_locks_absent": true,
+  "watcher_kernel_lock_held": true,
+  "research_locks_verified": 21,
+  "freshness": {
+    "since": "2026-10-21T04:17:58.913164-07:00",
+    "terminal_records_inspected": 246,
+    "new_unlanded_terminals": [],
+    "pins_outputs_stat_checked": 446,
+    "changed_pins_outputs_rehashed": [],
+    "independent_raw_native_inventory": {
+      "new_terminals": [],
+      "errors": []
+    }
+  },
+  "resources": {
+    "ram_available_GiB": 37.879669189453125,
+    "commit_headroom_GiB": 34.00246047973633,
+    "disk_free_GiB": 395.13999938964844
+  },
+  "gpu": {
+    "free_MiB": 6452,
+    "used_MiB": 5546,
+    "utilization_percent": 11,
+    "temperature_C": 38,
+    "unchanged_start_floor_MiB": 7424,
+    "resource_floor_met": false,
+    "dispatch_blocked_by_freeze": true
+  },
+  "watcher": {
+    "transition_only": true,
+    "restored_config_sha256_verified": true,
+    "live_source_hashes_verified": true,
+    "config_reloaded_each_scan": true,
+    "observed_scan_after_restoration": true,
+    "scan_age_seconds": 27.93902063369751,
+    "delivered_at": 1792587641.5031374,
+    "error": null,
+    "cancelled": false,
+    "historical_failures": [
+      {
+        "id": "90a246a81310a5d21c8ca8db0385f43d886f26ffb2020b4fefedaa64d3c02a11",
+        "state": "failed_or_unknown",
+        "updated": 1789053578.7725835,
+        "error": "TimeoutError"
+      },
+      {
+        "id": "16e52e4e635b0e7b178ca942a8f7957588064ac1ef320e782a965a96c2d399c6",
+        "state": "failed_or_unknown",
+        "updated": 1792078125.1734307,
+        "error": "UnicodeEncodeError"
+      }
+    ],
+    "health_schedule_preserved": {
+      "id": "03d5033383e244b99a5e3501ab9d06fa",
+      "owner": "01a0b4eb-5ab6-7551-a8de-ea8ee5dedb63",
+      "interval_seconds": 21600,
+      "last_inspected": 1792581551.5816078,
+      "due": 1792603151.5816078
+    },
+    "extra_eta_wake_added": false
+  },
+  "guard": {
+    "current_window_refused": "Week no-new-start boundary",
+    "Thursday_opening_preserved": true,
+    "no_study_dispatched_by_guard_check": true
+  },
+  "demo": {
+    "reservation_expired_and_archived": true,
+    "completion_receipt_present": false
+  },
+  "feature_return": {
+    "state": "prepared_pending_destination_approval",
+    "package_hashes_verified": true,
+    "receiving_copies_verified": false
+  },
+  "paid": {
+    "dispatch_closed": true,
+    "ledger_and_guard_unchanged": true,
+    "new_provider_calls": 0
+  },
+  "backlog": {
+    "P1": "Prepared continuation; freeze and unchanged GPU floor apply.",
+    "P7_D33": "Cumulative cost holds unchanged; no new admission.",
+    "NP1": "Validated guarded Thursday plan remains unstarted.",
+    "DR1": "Validated build; actual-input timing admission remains.",
+    "GEN1_SDT1": "Implementation incomplete; population-relative interpretation and competence gap retained.",
+    "K_D31": "Deferred after missed intake and paid cutoff.",
+    "EV4": "Receiving copies await destination approval; no retry."
+  },
+  "recovery": "None required. Calendar restored the ratified watcher setting; no worker was restarted or stopped.",
+  "new_tests_harvested": false,
+  "scientific_claims_changed": false,
+  "next": {
+    "health_pdt": "2026-10-21T10:19:11.581608-07:00",
+    "drain_review_pdt": "2026-10-21T12:00:00-07:00",
+    "digest_pdt": "2026-10-21T20:00:00-07:00",
+    "post_talk_opening_pdt": "2026-10-22T07:00:00-07:00"
+  }
+}

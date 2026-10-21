@@ -1,5 +1,12 @@
 # Current status
 
+**October 21, 06:00 PDT freeze:** [Operational inspection](results/phase_2_4_stage_15/DRIVE/FREEZE_20261021.json)
+verifies that new study starts are closed, no research workers remain to drain,
+and transition-only monitoring is restored with the independent six-hour health
+clock intact. Stage 15 remains open. The noon drain review and 20:00 digest remain;
+the post-talk execution window opens Thursday October 22 at 07:00 PDT.
+Existing cost/resource holds and pending recipient-copy approval are unchanged.
+
 **October 20 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
 No new scientific result; the completed screen and controls are unchanged.
 The talk-page correction is recorded, and the [aggregate feature return](results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md)

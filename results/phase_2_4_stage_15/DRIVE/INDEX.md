@@ -1,5 +1,12 @@
 # October 16 drive: execution index
 
+**October 21, 06:00 PDT freeze:** [Verified operational transition](FREEZE_20261021.json).
+No new study starts and no research workers to drain. Transition-only monitoring
+and the independent six-hour health clock are active; noon drain review and the
+20:00 digest remain. Thursday October 22 at 07:00 PDT reopens eligible execution.
+NP1 remains prepared; DR1 timing admission and GEN1/SDT1 implementation remain.
+Cost/resource holds and recipient-copy approval persist. Stage 15 is not closed.
+
 **October 20 daily integration:** [Complete digest](DIGEST_20261020.md).
 No new scientific result; the completed screen and controls are unchanged.
 The talk-page correction is recorded, and the [aggregate feature return](EV4_RETURN_20261020/README.md)

@@ -1,5 +1,10 @@
 # October 16 drive evidence
 
+**October 21 freeze:** [The 06:00 transition is verified](FREEZE_20261021.json).
+No research worker remains to drain. New starts are closed until Thursday
+October 22 at 07:00 PDT; monitoring, the noon drain review and daily digest remain.
+Stage 15 and its recorded implementation, cost and delivery gaps remain open.
+
 **October 20 daily integration:** [Complete digest](DIGEST_20261020.md).
 No new scientific result; the completed screen and controls are unchanged.
 The talk-page correction is recorded, and the [aggregate feature return](EV4_RETURN_20261020/README.md)
