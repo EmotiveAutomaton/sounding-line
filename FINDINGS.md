@@ -1,5 +1,16 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261020
+
+**Hypothesis.** Completed evidence can be carried into the theory review and recipient package without mistaking preparation for new scientific results.
+**METHOD.** Authenticate the previous complete screen and saved-draw sources, reconcile terminal deliveries and native service state, and package the existing aggregate channel definitions with their control warnings.
+**Found.** No new scientific result was produced today; the completed screen is unchanged. The next-test builds and corrected talk page are recorded. The feature package is prepared, but receiving copies await destination approval. **Means.** The record is current, while Stage 15 and the recipient handoff remain open.
+
+The [daily record](results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md) carries the complete unchanged descriptive screen, prior controls and family boundaries. All previous report and paired-draw hashes verify. Today's constructed build terminals were already fully landed. The [aggregate return](results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md) is prepared with source hashes; receiving copies remain pending. The expired demo reservation is archived and released. No new scientific probability, family counter or claim is introduced; relevant theory rows and afterwords remain current without a duplicate result row. No new tests harvested.
+
+Curator roll-up: bounded reading and recorded decisions; can the completed record and prepared engine return remain faithful to the evidence?; **Infrastructure**; the completed screen is unchanged and recipient delivery remains pending; project meaning: current review materials preserve validity and unresolved work; next engineering obligation: recipient copies after destination approval, Wednesday freeze and guarded post-talk admission; public claims unchanged; curator decision required: Yes, approve the prepared aggregate package copies to ToMpathy and Ghost. Detail: linked digest and delivery receipt.
+
+
 ### OPS-S15-POST-TALK-BUILD-20261020
 
 **Hypothesis.** The commissioned probe census and metadata-only reading comparison can be implemented without starting the post-talk campaign early.

@@ -1,5 +1,13 @@
 # STATE: the agent's operational file
 
+**October 20 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
+No new scientific result; the completed screen and controls are unchanged.
+The talk-page correction is recorded, and the [aggregate feature return](../results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md)
+is prepared pending destination approval. The demo CPU reservation expired and
+was archived. No science worker is active; cost/resource holds and the paid cutoff
+remain. Wednesday freeze and Thursday corpus opening are unchanged. Stage 15 stays open.
+
+
 **October 20 preparation:** Completed results through the October 19 integration
 are pushed. The [talk page](../results/phase_2_4_stage_15/DRIVE/TALK_PAGE_20261020.md)
 is prepared. NP1 has a validated guarded Thursday plan; DR1's full constructed

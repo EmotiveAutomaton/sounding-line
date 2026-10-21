@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 20 instrument handoff:** The [source-verified aggregate package](../results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md) is prepared; receiving copies await destination approval. No measurement or admission changed. NP1/DR1 constructed validation remains recorded, with corpus execution still gated. [Daily record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
+
 **October 19 integrated instrument state:** EV1 and EV2 pass their scoped checks; EV3 fails its fixed reference. P7 native enclosures remain incomplete for point scoring and further refinement is cost-held. The D33 calibration-supported build passes constructed tests but has no corpus result. [Daily evidence and limits](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md). Older launch notes below retain their historical cutoffs.
 
 **P7 twelve-prefix refinement:** Three constructed checks, full fresh native replay, byte-exact predecessor agreement and independent saved-bound reconstruction pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Complete validation and cost](../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).

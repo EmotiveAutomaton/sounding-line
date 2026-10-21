@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**October 20 daily integration:** [Complete digest](DIGEST_20261020.md).
+No new scientific result; the completed screen and controls are unchanged.
+The talk-page correction is recorded, and the [aggregate feature return](EV4_RETURN_20261020/README.md)
+is prepared pending destination approval. The demo CPU reservation expired and
+was archived. No science worker is active; cost/resource holds and the paid cutoff
+remain. Wednesday freeze and Thursday corpus opening are unchanged. Stage 15 stays open.
+
+
 **October 20 build state:** NP1 is constructed-validated with a pinned Thursday
 plan; DR1 has complete constructed/native validation and awaits corpus timing
 admission. GEN1 and population-relative SDT1 remain implementation work; Ghost's

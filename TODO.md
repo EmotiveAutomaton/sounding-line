@@ -1,5 +1,13 @@
 # TODO: the study queue
 
+**October 20 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
+No new scientific result; the completed screen and controls are unchanged.
+The talk-page correction is recorded, and the [aggregate feature return](results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md)
+is prepared pending destination approval. The demo CPU reservation expired and
+was archived. No science worker is active; cost/resource holds and the paid cutoff
+remain. Wednesday freeze and Thursday corpus opening are unchanged. Stage 15 stays open.
+
+
 **October 20 preparation:** [Census plan and input checks](results/phase_2_4_stage_15/DRIVE/POST_TALK_PREPARATION_20261020.md)
 and [full reading-comparison build](results/phase_2_4_stage_15/DRIVE/DR1_BUILD_20261020.md)
 are validated on constructed data. Corpus execution remains unrun and follows
@@ -18,9 +26,11 @@ is prepared. No prior cost/resource hold is lifted.
 - [ ] S15-SDT1: Ghost synthetic route received and summary-bound; local
   population-relative reader, split halves, fake control and native validation
   remain. Competence and human record requirements remain open.
-- [x] S15-TALK-PAGE: plain-language summary prepared ahead of Tuesday 18:00.
-- [ ] S15-TUESDAY-RETURN: deliver the source-verified feature package at 20:00,
-  retain receiving hashes; literal dictionary terms remain unresolved.
+- [x] S15-TALK-PAGE: prose prepared ahead of Tuesday 18:00; missing estimates
+  and intervals corrected just after the deadline, verified and pushed.
+- [ ] S15-TUESDAY-RETURN: source-verified package prepared; recipient copies
+  await destination approval. Retain receiving hashes; literal dictionary terms
+  remain unresolved. The demo reservation expired and was archived at this digest.
 
 The [October 19 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md)
 is complete. Stage 15 remains open. EV1 pause association and EV2 signature recurrence

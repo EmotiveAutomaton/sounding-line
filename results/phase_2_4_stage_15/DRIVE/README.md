@@ -1,5 +1,13 @@
 # October 16 drive evidence
 
+**October 20 daily integration:** [Complete digest](DIGEST_20261020.md).
+No new scientific result; the completed screen and controls are unchanged.
+The talk-page correction is recorded, and the [aggregate feature return](EV4_RETURN_20261020/README.md)
+is prepared pending destination approval. The demo CPU reservation expired and
+was archived. No science worker is active; cost/resource holds and the paid cutoff
+remain. Wednesday freeze and Thursday corpus opening are unchanged. Stage 15 stays open.
+
+
 **October 20:** [Validated preparation](POST_TALK_PREPARATION_20261020.md),
 [full reading build](DR1_BUILD_20261020.md) and the
 [plain-language talk page](TALK_PAGE_20261020.md) are filed. Both new comparisons
