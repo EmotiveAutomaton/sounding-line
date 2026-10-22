@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261021
+
+**Hypothesis.** The completed evidence and remaining study obligations can be preserved through the scheduled research pause.
+**METHOD.** Authenticate the prior complete screen and saved-draw sources, reconcile today's freeze, drain and health receipts, and verify native monitoring and guarded next work.
+**Found.** No new scientific result was produced today; the completed screen and controls are unchanged. The scheduled freeze and drain are verified. **Means.** The record is current, while Stage 15 and its implementation and delivery gaps remain open.
+
+The [daily record](results/phase_2_4_stage_15/DRIVE/DIGEST_20261021.md) carries the complete unchanged screen, controls and family boundaries. Prior report and saved-draw hashes verify. Today's operational receipts are reconciled; the finite calendar exited normally, research is drained and monitoring remains live. The census is prepared for Thursday, the reading comparison needs timing admission, and genre/sensitivity work remains unfinished. The aggregate feature return still awaits destination approval. No new scientific probability, family counter, theory claim or instrument validation is introduced. No new tests harvested.
+
+Curator roll-up: bounded reading and recorded decisions; can the completed evidence survive the scheduled pause with its unfinished obligations explicit?; **Infrastructure**; the completed screen is unchanged and research is drained; project meaning: current review materials preserve validity and remaining work; next engineering obligation: guarded Thursday admission, remaining implementations and recipient copies after destination approval; public claims unchanged; curator decision required: Yes, the existing request to approve the aggregate copies to ToMpathy and Ghost remains pending. Detail: linked digest and original delivery receipt.
+
 ### S15-DRIVE-DIGEST-20261020
 
 **Hypothesis.** Completed evidence can be carried into the theory review and recipient package without mistaking preparation for new scientific results.

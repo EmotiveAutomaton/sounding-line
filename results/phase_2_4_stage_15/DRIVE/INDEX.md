@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**October 21 daily integration:** [Complete digest](DIGEST_20261021.md).
+No new scientific result; the completed screen and controls are unchanged.
+The scheduled freeze and noon drain are verified, with no research worker active.
+Monitoring continues; eligible execution reopens Thursday October 22 at 07:00 PDT.
+The census is prepared; reading-comparison timing admission and genre/sensitivity
+implementation remain. Cost/resource holds and recipient-copy approval persist.
+Stage 15 remains open.
+
 **October 21, 06:00 PDT freeze:** [Verified operational transition](FREEZE_20261021.json).
 No new study starts and no research workers to drain. Transition-only monitoring
 and the independent six-hour health clock are active; noon drain review and the
