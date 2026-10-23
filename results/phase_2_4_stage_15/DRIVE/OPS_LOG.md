@@ -424,3 +424,5 @@ Operational events are recorded once here under the October 17 packet. Scientifi
 October 23 GEN1 source recovery: actual raw/canonical hashes agree; the first feature attempt failed on mixed path separators before output. Original attempt retained, three new targeted checks and complete native replay pass, normalized-path successor dispatched with failed cost charged. No scientific result.
 
 October 23 GEN1 continuation build: six checks, complete contained native replay and exact byte reuse verify. The current source pass is progressing; its existing combined cap remains. A separately bounded continuation is prepared for the specific verify-phase timeout, with all costs retained under one S4 extension. [Record](GEN1_CONTINUATION_BUILD_20261023.md).
+
+October 23 13:39 PDT: OPS-S15-GEN1-FEATURE-CONTINUATION-20261023. Original feature run timed out during verification after complete extraction. Exact files retained, full unchanged source replay active in counted continuation, old native identities exited, all pins intact, monitoring fresh. Cumulative ceiling and GPU hold unchanged. [Full record](GEN1_FEATURE_CONTINUATION_20261023.md).

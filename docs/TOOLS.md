@@ -2593,6 +2593,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-GEN1-FEATURE-CONTINUATION-20261023:** Complete extraction retained after its combined verification cap; all six files and source pins agree, and unchanged fresh reconstruction is running in a separate bounded continuation. No corpus genre inference admitted. [Receipt](../results/phase_2_4_stage_15/DRIVE/GEN1_FEATURE_CONTINUATION_20261023.md).
+
 **OPS-S15-GEN1-CONTINUATION-BUILD-20261023:** Six interruption/tamper checks and full native retained-extraction/source reconstruction pass. Conditional continuation is prepared; original failed attempts and cumulative costs remain. [Validation](../results/phase_2_4_stage_15/DRIVE/GEN1_CONTINUATION_BUILD_20261023.md).
 
 **OPS-S15-GEN1-BUILD-20261023:** Twelve targeted known-answer checks and complete native feature/statistical execution and fresh replay pass. Both empirical control banks are implemented. The first corpus attempt refused mixed source-pin path forms; three additional checks and fresh native replay validate the separate path-normalization recovery. Corpus features are running; full science remains separate. [Validation](../results/phase_2_4_stage_15/DRIVE/GEN1_BUILD_20261023.md).

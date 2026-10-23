@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-23T13:39:00.659514-07:00",
+  "entry": "OPS-S15-GEN1-FEATURE-CONTINUATION-20261023",
+  "event": "53455a0ab971271ef00fc9d2",
+  "status": "full_source_verification_running",
+  "scientific_admission": false,
+  "failed_attempt": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/GEN1-features-recovery",
+  "continuation": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/GEN1-features-verified",
+  "failure": {
+    "at": "2026-10-23T20:31:14.999364+00:00",
+    "card": "GEN1-features",
+    "error": "TimeoutError('Combined execution/replay bound exceeded')",
+    "scientific_admission": false,
+    "status": "FAILED"
+  },
+  "original_failure_sha256": "cfb1ccee7a501cfc112e6565ea22d32bfcef6e409b353b3a0b1225cfd6797a42",
+  "plan_sha256": "8e8e1b6c428220f15df8bfe9bd8ba6aa9b6b4521ec4e8c089661d2d32c4b11fd",
+  "pins_verified": 93,
+  "retained_output_hashes": {
+    "FEATURES.json.gz": "8153bd2b94e502315b8c275b4b419166c7df8cf9defd3771f061f177b653026a",
+    "DICTIONARY.json": "7c923f11761e969636bb7f27319158e3a2e5fca1562414f9e60a09643148fad3",
+    "SUMMARY.json": "db694aa458e8d8277327d47c851d464b976882f13634f3d2d1f75281dbac1239",
+    "BINDINGS.json": "13b2fdf489715ddda010fab328ea9d1f69ca5c5d187832095bcf1e52626297d5",
+    "SUPPORT.json": "29e45cb01571f5474601b532bea4b14fcede50097a12cde87dae62a6512cf704",
+    "EXECUTE_TIME.json": "283d67f2167129d01370d41e036f059cf2d8b1d4c5365d7b47ba3a7de4a10260"
+  },
+  "prior_wall_seconds_charged": 1499.6859490000002,
+  "continuation_wall_cap_seconds": 1200,
+  "cumulative_wall_ceiling_seconds": 3600,
+  "original_wall_ceiling_seconds": 1800,
+  "failed_attempt_wall_seconds": 900.433359,
+  "resources": {
+    "ram_available_GiB": 35.1490592956543,
+    "commit_headroom_GiB": 26.53683090209961,
+    "disk_free_GiB": 383.9410591125488
+  },
+  "gpu_free_MiB": 5484,
+  "gpu_start_floor_MiB": 7424,
+  "original_native_workers_exited": true,
+  "continuation_owner_and_verifier_identity_verified": true,
+  "immediate_terminals_registered": true,
+  "watch_error": null,
+  "next_health": "2026-10-23T17:04:35.862152-07:00",
+  "comparison": "built_and_validated_not_dispatched",
+  "validation_checks": 21,
+  "remaining": "Complete full source replay, land verified features, admit the full controlled comparison using actual cumulative remaining time; Stage 15 and other recorded holds remain open."
+}

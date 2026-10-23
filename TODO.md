@@ -1,6 +1,6 @@
 # TODO: the study queue
 
-**October 23 GEN1 build:** [Matched features and the full controlled comparison](results/phase_2_4_stage_15/DRIVE/GEN1_BUILD_20261023.md) pass constructed and fresh native validation. The first corpus feature attempt refused a mixed Windows/POSIX source-pin lookup before features; the separately validated normalization recovery is running in Gear 2. The corpus comparison remains pending. Stage 15 and other recorded holds remain open. Earlier dated states below retain their own cutoffs.
+**October 23 GEN1 continuation:** [Extraction is preserved; full source verification is running](results/phase_2_4_stage_15/DRIVE/GEN1_FEATURE_CONTINUATION_20261023.md). The combined cap interrupted the first verification, and the separate continuation retains exact outputs and all prior costs. The controlled comparison is built and awaits verified features and cost admission. Stage 15 remains open; other recorded holds persist. Earlier dated states retain their cutoffs.
 **October 23 feature delivery:** [Both approved repository copies are verified](results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
 
 **October 22 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
@@ -50,7 +50,7 @@ is prepared. No prior cost/resource hold is lifted.
 - [x] S15-GEN1-INPUT: single source-only corpus retry and independent replay complete; primary input supported, all source/exclusion identities retained. Cumulative charge 279.617759 seconds; original allowance remaining 1520.382241 seconds. [Complete input record](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
 - [x] S15-GEN1-CONTINUATION-BUILD: six checks and complete native replay validate byte-exact retained extraction after a verify-phase wall timeout; conditional dispatch only, one cumulative S4 ceiling.
 - [x] S15-GEN1-COMPARISON-BUILD: twelve known-answer checks and full contained native feature/statistical replay pass; both reference banks implemented.
-- [ ] S15-GEN1: separate path-normalization feature recovery running after source-only refusal; complete replay, cost admission and the comparison remain. No corpus scores from the build.
+- [ ] S15-GEN1: extraction complete but its combined cap interrupted verification; byte-exact continuation is running full source replay. Controlled comparison is built and awaits verified features plus measured cumulative-cost admission. No genre outcome yet.
 - [ ] S15-SDT1: Ghost synthetic route received and summary-bound; local
   population-relative reader, split halves, fake control and native validation
   remain. Competence and human record requirements remain open.

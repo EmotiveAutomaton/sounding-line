@@ -1,5 +1,16 @@
 # FINDINGS — the method archive
 
+### OPS-S15-GEN1-FEATURE-CONTINUATION-20261023
+
+**Hypothesis.** Completed matched-feature extraction can survive a verification timeout while retaining full source reconstruction as its admission requirement.
+**METHOD.** Retain the six extraction files byte-for-byte, authenticate every frozen source and binding, and run the unchanged complete verification in a fresh contained process under the remaining cumulative allowance.
+**Found.** The first combined execution/replay cap interrupted verification after extraction completed. The separately validated continuation is running; no genre comparison has been scored.
+**Means.** Saved extraction is preserved, but it remains unverified until the full reconstruction succeeds. This interruption is not a scientific negative.
+
+All original workers exited; current owner/verifier identities, plan pins and byte-exact retained files verify. The controlled comparison is built but not dispatched. [Failure, continuation and cumulative accounting](results/phase_2_4_stage_15/DRIVE/GEN1_FEATURE_CONTINUATION_20261023.md). No new scientific probability, family count or theory result.
+
+Curator roll-up: personal expression; can completed extraction retain full verification across its time limit?; **Infrastructure**; the complete extraction is preserved while independent source replay continues; project meaning: no unverified genre result is admitted; next engineering obligation: complete replay, land features, then admit the built comparison within the cumulative remainder; public claims unchanged; curator decision required: No. Detail: linked receipt.
+
 ### OPS-S15-GEN1-CONTINUATION-BUILD-20261023
 
 **Hypothesis.** A completed matched-feature extraction can be retained across its verification time limit without admitting an unverified result.

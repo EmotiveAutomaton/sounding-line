@@ -1,5 +1,7 @@
 # Documentation - current authority, methods and history
 
+**October 23 GEN1 continuation:** [Extraction is preserved; full source verification is running](../results/phase_2_4_stage_15/DRIVE/GEN1_FEATURE_CONTINUATION_20261023.md). The combined cap interrupted the first verification, and the separate continuation retains exact outputs and all prior costs. The controlled comparison is built and awaits verified features and cost admission. Stage 15 remains open; other recorded holds persist. Earlier dated states retain their cutoffs.
+
 **October 23 feature delivery:** [Both approved repository copies are verified](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
 
 **October 22 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
