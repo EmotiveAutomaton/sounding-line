@@ -1,5 +1,32 @@
 # FINDINGS — the method archive
 
+### S15-GEN1
+
+**Hypothesis.** At matched exposure, an exact program identifies the same writer more accurately from creative writing than argumentative writing.
+**METHOD.** Use the original primary cohort and frozen prompt halves, exact matched style and rhythm features, fixed galleries and fractional ties; compare genres with 2,000 paired real-writer draws, 200 within-writer paired genre exchanges and 200 same-row fake-writer assignments, then repeat the complete calculation in a fresh native process.
+**Found.** The style primary is null in its frozen band and does not favor creative writing; rhythm has no genre difference at its observed ceiling. Both genre-level fake-writer references fail their centering gates in both channels. **Means.** The completed comparison supplies no validated basis for preferential fiction weighting. Keep genres equally weighted and the broader play/frame claim open.
+
+The table reports the entire matched cohort. Accuracies are the proportions of writers identified by the exact program; contrasts are creative minus argumentative accuracy in percentage points. Intervals resample real probe writers with both full galleries fixed. Rhythm is secondary.
+
+| Channel | Writers | Creative accuracy | Argumentative accuracy | Difference, percentage points | 95% interval | Frozen band |
+|---|---:|---:|---:|---:|---|---|
+| Style, primary | 24 | 41.67% | 50.00% | -8.33 | [-20.83, 0.00] | Null |
+| Rhythm, secondary | 24 | 100.00% | 100.00% | 0.00 | [0.00, 0.00] | Null |
+
+All 200 draws in each reference bank are valid, but the genre-level fake controls fail in both channels; centered difference references do not repair those gates. Exact source/output replay, native exits and own-lease release verify. Cumulative charge is 2320.311502 wall seconds. [Complete controls, diagnostic probabilities, scope and accounting](results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.md). Genre weights stay equal; no family counter changes.
+
+Curator roll-up: personal expression; does matched creative writing identify its writer better than argumentative writing?; **Narrows**; the completed style contrast does not favor creative writing and genre-level fake controls fail; project meaning: no genre preference is licensed by this corpus comparison while the broader play claim remains open; next engineering obligation: preserve the full failed-control record and build the separately commissioned population-relative sensitivity reader; public claim unchanged; curator decision required: No. Detail: linked complete report.
+
+### OPS-S15-GEN1-FEATURES-20261023
+
+**Hypothesis.** The admitted matched-genre corpus can yield exact style and timing features without importing exposure outside its retained words.
+**METHOD.** Authenticate the original PMAP and completed word/character records, reconstruct unrestricted timing pairs for exact source parity, retain the frozen matched atoms, and independently reconstruct every saved feature in a fresh native process.
+**Found.** Complete corpus feature reconstruction passes. **Means.** The matched inputs are ready for the controlled genre comparison; no genre effect or weighting recommendation has been computed.
+
+All original and continuation source/output hashes, retained bytes, native exits and own-lease release verify. Original failed attempts remain. Cumulative charge is 2176.982397 wall seconds within the single S4 ceiling. [Complete source, scope and cost record](results/phase_2_4_stage_15/DRIVE/GEN1_FEATURES_20261023.md). No new scientific probability, family count or theory conclusion.
+
+Curator roll-up: personal expression; can matched genre inputs preserve exact exposure and timing provenance?; **Infrastructure**; complete matched features pass independent source reconstruction; project meaning: the controlled genre comparison now has verified inputs; next engineering obligation: admit and run the frozen comparison within the remaining cumulative allowance; public claims unchanged; curator decision required: No. Detail: linked receipt.
+
 ### OPS-S15-GEN1-FEATURE-CONTINUATION-20261023
 
 **Hypothesis.** Completed matched-feature extraction can survive a verification timeout while retaining full source reconstruction as its admission requirement.

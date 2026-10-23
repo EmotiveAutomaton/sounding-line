@@ -73,6 +73,22 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    # Complete GEN1 descriptive probabilities; failed controls remain failed.
+    ('S15-GEN1 style primary approximate Wald', 0.14901620079658814, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style within-writer one-sided reference', 0.8706467661691543, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style fake-writer one-sided reference', 1.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style paired own-minus-fake approximate Wald', 0.13900042560751807, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style creative own-minus-fake approximate Wald', 3.945871447660133e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style creative chance-centered fake one-sided reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style argumentative own-minus-fake approximate Wald', 9.665894998602629e-07, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 style argumentative chance-centered fake one-sided reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm within-writer one-sided reference', 0.7611940298507462, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm fake-writer one-sided reference', 0.6069651741293532, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm paired own-minus-fake approximate Wald', 0.6291836213238445, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm creative own-minus-fake approximate Wald', 0.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm creative chance-centered fake one-sided reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm argumentative own-minus-fake approximate Wald', 0.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
+    ('S15-GEN1 rhythm argumentative chance-centered fake one-sided reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.json'),
     ('S15-DRIVE-D32-canonical primary', 0.26732883512731614, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D32-canonical.json'),
     ('S15-DRIVE-D2-canonical primary SAME UNITS AS PRIOR DIAGNOSTIC', 0.9828914673026767, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-canonical.json'),
     ('S15-DRIVE-D2-canonical uniform control SAME UNITS AS PRIOR DIAGNOSTIC', 0.01547383894253211, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D2-canonical.json'),

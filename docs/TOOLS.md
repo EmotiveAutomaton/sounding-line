@@ -2593,6 +2593,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-GEN1:** Full corpus comparison and both complete reference banks replay exactly. Native workers exited; descriptive style/rhythm genre contrasts are null, with biased genre-level fake controls retained. No genre-weighting claim. [Complete report](../results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.md).
+
+**OPS-S15-GEN1-FEATURES-20261023:** Complete matched style/timing features pass full source reconstruction after byte-exact continuation. Original primary inputs, all hashes, native exits and own-lease release verify. No scientific genre comparison yet. [Receipt](../results/phase_2_4_stage_15/DRIVE/GEN1_FEATURES_20261023.md).
+
 **OPS-S15-GEN1-FEATURE-CONTINUATION-20261023:** Complete extraction retained after its combined verification cap; all six files and source pins agree, and unchanged fresh reconstruction is running in a separate bounded continuation. No corpus genre inference admitted. [Receipt](../results/phase_2_4_stage_15/DRIVE/GEN1_FEATURE_CONTINUATION_20261023.md).
 
 **OPS-S15-GEN1-CONTINUATION-BUILD-20261023:** Six interruption/tamper checks and full native retained-extraction/source reconstruction pass. Conditional continuation is prepared; original failed attempts and cumulative costs remain. [Validation](../results/phase_2_4_stage_15/DRIVE/GEN1_CONTINUATION_BUILD_20261023.md).

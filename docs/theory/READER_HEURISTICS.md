@@ -2221,10 +2221,10 @@ The table separates the proposed claim from its evidence and scope.
 
 | # | Hypothesis | Status and evidence |
 |---|---|---|
-| **G220** | Playful or fictional records identify a maker better once the frame is detected | **OPEN.** GEN1 and Ghost N18 are the commissioned routes; the human identity comparison remains unrun. |
+| **G220** | Playful or fictional records identify a maker better once the frame is detected | **OPEN; scoped genre contrast null and control-limited (test, S15-GEN1).** On matched human writing/event records read by an exact program, creative-minus-argumentative style identification is -8.33 percentage points, interval [-20.83, 0.00]; rhythm is at its ceiling in both genres. Genre-level fake-writer references fail their centering gates. This does not establish a detected play frame or license unequal genre weighting; Ghost N18 remains a separate prerequisite. |
 | **G221** | Ignoring a play frame can reverse an inferred preference | **SUPPORTED only under the stated construction (sim, OPS-THEORY-1018-SIM).** Ghost N8 stipulates preference reversal during play; its mode-aware reader gains 0.049 to 2.588 nats across the play settings, with no-play controls at numerical zero. Discovery only, not human confirmation. |
 
-**What the table says.** A frame can matter decisively when it changes how actions express a preference. The constructed result demonstrates that conditional error, while play as a stronger human identity window remains untested. Confidence: one bad test away, with probe support confined to constructed worlds; untested, logic only for the human identity claim.
+**What the table says.** A frame can matter decisively when it changes how actions express a preference. The constructed result demonstrates that conditional error. The matched human corpus comparison supplies no validated creative-writing advantage, and its biased fake-writer references prevent a clean positive identity claim from the high observed accuracies. Genre alone does not establish play or frame detection, so the broader human claim remains open and genre weights stay equal. Confidence: one bad test away for the scoped genre comparison and constructed frame result; untested, logic only for the broader human play-frame mechanism.
 
 # Part III: Calibration
 

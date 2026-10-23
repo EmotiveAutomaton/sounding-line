@@ -426,3 +426,7 @@ October 23 GEN1 source recovery: actual raw/canonical hashes agree; the first fe
 October 23 GEN1 continuation build: six checks, complete contained native replay and exact byte reuse verify. The current source pass is progressing; its existing combined cap remains. A separately bounded continuation is prepared for the specific verify-phase timeout, with all costs retained under one S4 extension. [Record](GEN1_CONTINUATION_BUILD_20261023.md).
 
 October 23 13:39 PDT: OPS-S15-GEN1-FEATURE-CONTINUATION-20261023. Original feature run timed out during verification after complete extraction. Exact files retained, full unchanged source replay active in counted continuation, old native identities exited, all pins intact, monitoring fresh. Cumulative ceiling and GPU hold unchanged. [Full record](GEN1_FEATURE_CONTINUATION_20261023.md).
+
+October 23 OPS-S15-GEN1-FEATURES-20261023: full source reconstruction, byte retention, source/output hashes, native exits and own-lease release verify. Controlled comparison ready for measured-cost admission. [Complete receipt](GEN1_FEATURES_20261023.md).
+
+October 23 S15-GEN1: full feature and comparison components completed, both reference banks independently replayed, all pins/hashes and native exits verified. Original interruptions/cumulative costs retained; control limitations recorded and equal weighting unchanged. [Complete comparison](GEN1_COMPARISON_20261023.md).

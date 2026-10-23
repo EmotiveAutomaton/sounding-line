@@ -1,0 +1,316 @@
+{
+  "at": "2026-10-23T13:53:11.535510-07:00",
+  "status": "complete_null_contrast_control_limited",
+  "entry": "S15-GEN1",
+  "completion_sha256": "36d2976125ad4def05addc48052d343b9e21827ea14a186b2dfdd29bbe90c9fd",
+  "verification_sha256": "daddd2705343abf3a361c92d88272c9d78494ce9c508445372e9fa7cd4872402",
+  "plan_sha256": "43695b4e8a7836fc58f3fa0562818bbf16f376758a7610855801e319ed2ba1f4",
+  "outputs": {
+    "ADMISSION.json": "d921f38627e08edaf891cd6b250e65d70f7fd153b9257650a63343665ca84acc",
+    "EXECUTE_CHILD.json": "fafb5e68bcb05dfe0415bc9346a7de5126c850980a4ff6c5574b3533267edf99",
+    "OWNER.json": "d00c2a99540fcbab2297e9131cd90fca8313052ee7e0add41e33ad9ab32bcf9a",
+    "PLAN.json": "43695b4e8a7836fc58f3fa0562818bbf16f376758a7610855801e319ed2ba1f4",
+    "RESULT.json": "a2060157800ef242b3cee151e55dce9c6fbf970d0068870f6cb23854ad84d2f0",
+    "VERIFIED.json": "daddd2705343abf3a361c92d88272c9d78494ce9c508445372e9fa7cd4872402",
+    "VERIFY_CHILD.json": "972050c68b1af58f02ed0a85b19c4bf4e050d0a6c387f63cdd1f941d8834916c",
+    "output/CONTROLS.json.gz": "d455d0bd44abac3033a43d19af8e96c4c2bd35e43488c043c5c5a9bd80d63425",
+    "output/EXECUTE_TIME.json": "25ee3a747732c1bd33dd774633b21a7ae5fe1e67e74b74db62db048425270c9f",
+    "output/PRIMARY.json": "374c2e946734401c916f8449619cd6c014eaa73f425289c9fc9000c3a4424dc7",
+    "output/VERIFY_TIME.json": "74aaff18e4e1fde36e255de535cd43d08a6c808d6989c9b887bff3e3b47a57c4"
+  },
+  "pins_verified": 34,
+  "channels": {
+    "rhythm": {
+      "controls": {
+        "fake_writer": {
+          "bias_flag": false,
+          "mean": -0.0027083333333333326,
+          "one_sided_p": 0.6069651741293532,
+          "q025": -0.08437499999999998,
+          "q975": 0.125,
+          "sd": 0.06054342533422144,
+          "valid_draws": 200
+        },
+        "genre_own_minus_fake": {
+          "argumentative": {
+            "approximate_two_sided_wald_p": 0.0,
+            "bootstrap_draws": 2000,
+            "bootstrap_se": 0.006810437889931338,
+            "chance_centered_fake": {
+              "bias_flag": true,
+              "mean": 0.015625,
+              "one_sided_p": 0.004975124378109453,
+              "q025": -0.041666666666666664,
+              "q975": 0.125,
+              "sd": 0.0444892967949959,
+              "valid_draws": 200
+            },
+            "ci_high": 0.9556302083333333,
+            "ci_low": 0.9295833333333333,
+            "effect": 0.9427083333333334,
+            "state": "positive",
+            "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+            "writers": 24,
+            "z": 138.42110427687018
+          },
+          "creative": {
+            "approximate_two_sided_wald_p": 0.0,
+            "bootstrap_draws": 2000,
+            "bootstrap_se": 0.008833327903631751,
+            "chance_centered_fake": {
+              "bias_flag": true,
+              "mean": 0.012916666666666667,
+              "one_sided_p": 0.004975124378109453,
+              "q025": -0.041666666666666664,
+              "q975": 0.125,
+              "sd": 0.04545008797493234,
+              "valid_draws": 200
+            },
+            "ci_high": 0.9618802083333333,
+            "ci_low": 0.9283281250000001,
+            "effect": 0.9454166666666666,
+            "state": "positive",
+            "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+            "writers": 24,
+            "z": 107.02836767533176
+          }
+        },
+        "invalid_draws": {
+          "fake_writer": 0,
+          "within_writer": 0
+        },
+        "own_minus_fake": {
+          "approximate_two_sided_wald_p": 0.6291836213238445,
+          "bootstrap_draws": 2000,
+          "bootstrap_se": 0.005608752663504869,
+          "ci_high": 0.012916666666666667,
+          "ci_low": -0.008958333333333334,
+          "effect": 0.0027083333333333334,
+          "state": "marginal",
+          "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+          "writers": 24,
+          "z": 0.4828762286053305
+        },
+        "within_writer": {
+          "bias_flag": false,
+          "mean": 0.0016666666666666666,
+          "one_sided_p": 0.7611940298507462,
+          "q025": -0.041666666666666664,
+          "q975": 0.041666666666666664,
+          "sd": 0.032848228899290934,
+          "valid_draws": 200
+        }
+      },
+      "gates": {
+        "complete_reference": true,
+        "fake_difference_centered": true,
+        "fake_genres_centered": false,
+        "paired_own_exceeds_fake": false,
+        "within_writer_centered": true
+      },
+      "positive_claim_licensed": false,
+      "primary": {
+        "approximate_two_sided_wald_p": null,
+        "bootstrap_draws": 2000,
+        "bootstrap_se": 0.0,
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "effect": 0.0,
+        "state": "null",
+        "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+        "writers": 24,
+        "z": null
+      },
+      "state": "null",
+      "observed": {
+        "argumentative": {
+          "absent_B_features": 0,
+          "accuracy": 1.0,
+          "chance": 0.041666666666666664,
+          "constant_features": 0,
+          "features": 22,
+          "missing_A": 0,
+          "missing_B": 0,
+          "standardization": "B-only observed means; partial missing cells imputed to B mean; B standard deviations; fixed gallery",
+          "tied_probes": 0,
+          "used_features": 22
+        },
+        "creative": {
+          "absent_B_features": 0,
+          "accuracy": 1.0,
+          "chance": 0.041666666666666664,
+          "constant_features": 0,
+          "features": 22,
+          "missing_A": 0,
+          "missing_B": 0,
+          "standardization": "B-only observed means; partial missing cells imputed to B mean; B standard deviations; fixed gallery",
+          "tied_probes": 0,
+          "used_features": 22
+        }
+      }
+    },
+    "style": {
+      "controls": {
+        "fake_writer": {
+          "bias_flag": false,
+          "mean": 0.00020833333333333316,
+          "one_sided_p": 1.0,
+          "q025": -0.08333333333333333,
+          "q975": 0.08333333333333333,
+          "sd": 0.03532015868757165,
+          "valid_draws": 200
+        },
+        "genre_own_minus_fake": {
+          "argumentative": {
+            "approximate_two_sided_wald_p": 9.665894998602629e-07,
+            "bootstrap_draws": 2000,
+            "bootstrap_se": 0.09833301031636651,
+            "chance_centered_fake": {
+              "bias_flag": true,
+              "mean": -0.02333333333333333,
+              "one_sided_p": 0.004975124378109453,
+              "q025": -0.041666666666666664,
+              "q975": 0.041666666666666664,
+              "sd": 0.024584770562421844,
+              "valid_draws": 200
+            },
+            "ci_high": 0.6719583333333329,
+            "ci_low": 0.2797864583333333,
+            "effect": 0.4816666666666667,
+            "state": "positive",
+            "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+            "writers": 24,
+            "z": 4.898321175330664
+          },
+          "creative": {
+            "approximate_two_sided_wald_p": 3.945871447660133e-05,
+            "bootstrap_draws": 2000,
+            "bootstrap_se": 0.09685263459594809,
+            "chance_centered_fake": {
+              "bias_flag": true,
+              "mean": -0.023125,
+              "one_sided_p": 0.004975124378109453,
+              "q025": -0.041666666666666664,
+              "q975": 0.041666666666666664,
+              "sd": 0.025646818175433177,
+              "valid_draws": 200
+            },
+            "ci_high": 0.5967031249999998,
+            "ci_low": 0.23019791666666664,
+            "effect": 0.398125,
+            "state": "positive",
+            "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+            "writers": 24,
+            "z": 4.110626434282418
+          }
+        },
+        "invalid_draws": {
+          "fake_writer": 0,
+          "within_writer": 0
+        },
+        "own_minus_fake": {
+          "approximate_two_sided_wald_p": 0.13900042560751807,
+          "bootstrap_draws": 2000,
+          "bootstrap_se": 0.05646524734265483,
+          "ci_high": 0.0006249999999999999,
+          "ci_low": -0.20792708333333335,
+          "effect": -0.08354166666666667,
+          "state": "null",
+          "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+          "writers": 24,
+          "z": -1.4795236113941157
+        },
+        "within_writer": {
+          "bias_flag": false,
+          "mean": 0.006250000000000001,
+          "one_sided_p": 0.8706467661691543,
+          "q025": -0.16666666666666666,
+          "q975": 0.20833333333333334,
+          "sd": 0.1008366383721262,
+          "valid_draws": 200
+        }
+      },
+      "gates": {
+        "complete_reference": true,
+        "fake_difference_centered": true,
+        "fake_genres_centered": false,
+        "paired_own_exceeds_fake": false,
+        "within_writer_centered": true
+      },
+      "positive_claim_licensed": false,
+      "primary": {
+        "approximate_two_sided_wald_p": 0.14901620079658814,
+        "bootstrap_draws": 2000,
+        "bootstrap_se": 0.05774945105168193,
+        "ci_high": 0.0,
+        "ci_low": -0.20833333333333334,
+        "effect": -0.08333333333333333,
+        "state": "null",
+        "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+        "writers": 24,
+        "z": -1.443015159724298
+      },
+      "state": "null",
+      "observed": {
+        "argumentative": {
+          "absent_B_features": 0,
+          "accuracy": 0.5,
+          "chance": 0.041666666666666664,
+          "constant_features": 3,
+          "features": 122,
+          "missing_A": 0,
+          "missing_B": 0,
+          "standardization": "B-only observed means; partial missing cells imputed to B mean; B standard deviations; fixed gallery",
+          "tied_probes": 0,
+          "used_features": 119
+        },
+        "creative": {
+          "absent_B_features": 0,
+          "accuracy": 0.4166666666666667,
+          "chance": 0.041666666666666664,
+          "constant_features": 4,
+          "features": 122,
+          "missing_A": 0,
+          "missing_B": 0,
+          "standardization": "B-only observed means; partial missing cells imputed to B mean; B standard deviations; fixed gallery",
+          "tied_probes": 0,
+          "used_features": 118
+        }
+      }
+    }
+  },
+  "matched_writers": 24,
+  "common_writers": {
+    "rhythm": 24,
+    "style": 24
+  },
+  "excluded_writer_counts": {
+    "rhythm": 0,
+    "style": 0
+  },
+  "mode": "primary",
+  "permutations": 200,
+  "bootstrap_draws": 2000,
+  "genre_weighting": "retain_equal",
+  "positive_claim_licensed": false,
+  "scientific_execution_complete": true,
+  "original_gate_flags_preserved": true,
+  "all_native_workers_exited": true,
+  "own_cpu_lease_released": true,
+  "comparison_wall_seconds": 143.329105,
+  "cumulative_wall_seconds": 2320.311502,
+  "unused_wall_allowance_seconds": 1279.688498,
+  "original_wall_ceiling_seconds": 1800,
+  "cumulative_wall_ceiling_seconds": 3600,
+  "limitations": [
+    "Prompt, topic, device and recording context remain alternative explanations.",
+    "Fixed gallery and partial-feature B-only mean imputation are inherited from PMAP.",
+    "Matched rhythm includes only retained occurrence atoms and adjoining whitespace; logged deltas are not keypresses.",
+    "All probabilities descriptive; no family counter change."
+  ],
+  "resources": {
+    "ram_available_GiB": 39.28972625732422,
+    "commit_headroom_GiB": 31.884342193603516,
+    "disk_free_GiB": 383.9380226135254
+  }
+}

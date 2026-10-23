@@ -2,7 +2,7 @@
 
 [GEN1 checkpoint continuation](GEN1_CONTINUATION_BUILD_20261023.md) passes six checks and full native source replay. It is prepared only for a verify-phase wall interruption; the original live plan and scientific definitions remain unchanged.
 
-**October 23 GEN1 continuation:** [Extraction is preserved; full source verification is running](GEN1_FEATURE_CONTINUATION_20261023.md). The combined cap interrupted the first verification, and the separate continuation retains exact outputs and all prior costs. The controlled comparison is built and awaits verified features and cost admission. Stage 15 remains open; other recorded holds persist. Earlier dated states retain their cutoffs.
+**October 23 GEN1 complete:** [The full matched-genre comparison and independent replay are recorded](GEN1_COMPARISON_20261023.md). Descriptive genre contrasts are null and genre-level fake controls fail; equal weighting remains. All workers exited. Population-relative SDT1 remains implementation work; Stage 15 and other recorded holds remain open.
 **October 23 feature delivery:** [Both approved repository copies are verified](EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
 
 **October 22 daily integration:** [Complete digest](DIGEST_20261022.md).
