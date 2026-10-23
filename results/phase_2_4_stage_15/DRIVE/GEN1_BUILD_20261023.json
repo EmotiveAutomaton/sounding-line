@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-23T13:13:42.586666-07:00",
+  "state": "source_path_recovery_validated_and_dispatched",
+  "tests": 12,
+  "checks": [
+    {
+      "component": "features",
+      "completion_sha256": "71712bf3dcd2aa1e0c34d05a2565a496280ebc32ff54c8bdd7dd8fd958d2eb7d",
+      "pins": 775,
+      "outputs": 14,
+      "execute_seconds": 3.2353477000724524,
+      "verify_seconds": 3.6251846000086516,
+      "native_wall_seconds": 17.035955
+    },
+    {
+      "component": "compare",
+      "completion_sha256": "ad8f117edc29d69d547ef50ba55cb6a5d87e7b550c8999685113707588bb224d",
+      "pins": 33,
+      "outputs": 11,
+      "execute_seconds": 13.120288399979472,
+      "verify_seconds": 20.2613599000033,
+      "native_wall_seconds": 36.958232
+    }
+  ],
+  "validation_reservation_seconds": 150,
+  "prior_plus_reservation_wall_seconds": 479.25259,
+  "feature_run_cap_seconds": 900,
+  "original_wall_ceiling_seconds": 1800,
+  "feature_plan_sha256": "48bbcd0ef1e30cbb4ad36b33a3404633c36809c009faa326715ad13e790893a2",
+  "native_inspection_sha256": "c6519963ceaf2a25eab2494e36037ea8bd58a2f8521b41fbe5b01b894fbd24a4",
+  "last_verified_remote_commit": "4800d26753a3a86ce90c7f3bd4b627fa31a3203c",
+  "scientific_admission": false,
+  "unstarted_gpu_free_MiB": 5607,
+  "gpu_floor_MiB": 7424,
+  "recovery": "Completion preflight now compares lease owner identity because another project legitimately reused its path; original helper retained.",
+  "source_hashes": {
+    "runners\\drive\\cards\\week_genre_atoms.py": "d5010f0f59d4a3843343a6f237753853ff4a378164f3fc84985acf3aa579a33c",
+    "runners\\drive\\cards\\week_genre_features.py": "97b28a218f485f91bc7621366fa99fb8f04f34ae7e972de1d4aea4d4780e9879",
+    "runners\\drive\\cards\\week_genre_compare.py": "8a54762bb8fd63dbebff24acf1a60aa20f71c76da6dbb5b7a3008a64d325790b",
+    "tests\\test_drive_week_genre_compare.py": "e9cc916a100ddc34198ac41b8d8602d931f76332ade9f4222b70ac73ebc4857b"
+  },
+  "failed_feature_attempt": {
+    "terminal_sha256": "62bfbf7bfbff00850d55007ab39f085da24b9c3214ac48b0e29598efc3f4716a",
+    "error": "RuntimeError('execute child failed; retained stderr')",
+    "wall_seconds": 49.634831,
+    "produced_features": 0
+  },
+  "path_recovery": {
+    "checks": 3,
+    "completion_sha256": "1939b0cc9d32f94eea8b218b108793f5f14e7e88e4e2559b79699a4921689ea4",
+    "pins": 777,
+    "outputs": 14,
+    "fresh_process_verified": true
+  },
+  "recovery_plan_sha256": "57d4209bfcd8d7af9fb06b05b27e92e61e8ce72f7f75d860f2a7963476abbc89"
+}

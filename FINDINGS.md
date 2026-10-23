@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-GEN1-BUILD-20261023
+
+**Hypothesis.** The commissioned genre comparison can preserve matched exposure and distinguish stronger, weaker and absent author identification.
+**METHOD.** Reconstruct original character identities and matched features, exercise signed and zero constructed worlds through both complete reference banks, then run both handlers in contained counted processes with fresh replay.
+**Found.** Twelve targeted checks and both complete native rehearsals pass. **Means.** The first real matched-feature pass refused a source-path lookup before features; no corpus contrast or genre-weighting claim is available from this build.
+
+The first corpus attempt refused mixed path forms before producing features; actual source hashes agree. Three additional mixed-path/conflict/tamper checks and complete native replay pass for the separate normalization successor, now running with all failed-attempt cost retained. Original PMAP pair parity, Unicode/edits, occurrence membership within shared events, fixed common support, row/count preservation, chance ties, signed reversals and output tampering are covered. All source/output hashes and exited native identities verify. A shared-slot reuse preflight was corrected by comparing ownership, retaining the original helper. Full costs, source bindings and remaining gates are in the [build and launch receipt](results/phase_2_4_stage_15/DRIVE/GEN1_BUILD_20261023.md). No new probability, family count or theory conclusion. This completes an existing follow-up rather than harvesting a new hypothesis.
+
+Curator roll-up: personal expression; can the genre comparison distinguish identity signal with its controls?; **Infrastructure**; the complete constructed pipeline passes; project meaning: matched features and empirical controls are executable; next engineering obligation: complete real feature replay and admit the full comparison within the retained allowance; public claims unchanged; curator decision required: No. Detail: linked receipt.
+
 ### OPS-S15-EV4-DELIVERY-20261023
 
 **Hypothesis.** The prepared aggregate engine-feature package can be delivered unchanged to both companion repositories.

@@ -1,5 +1,6 @@
 # October 16 drive commission
 
+**October 23 GEN1 build:** [Matched features and the full controlled comparison](GEN1_COMPARISON_20261023.md) pass constructed and fresh native validation. The first corpus feature attempt refused a mixed Windows/POSIX source-pin lookup before features; the separately validated normalization recovery is running in Gear 2. The corpus comparison remains pending. Stage 15 and other recorded holds remain open. Earlier dated states below retain their own cutoffs.
 [Complete GEN1 corpus inputs](../../../../results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md) pass independent replay and support the original primary cohort. Workers exited and released their slot; exact matched features and the scientific comparison/controls remain unfinished.
 
 [GEN1 population recovery](GEN1_POPULATION_RECOVERY_20261022.md) fixes the original source-join refusal without changing the completed study population or matching policy. Full constructed/native validation passes; one bounded corpus retry is admitted.

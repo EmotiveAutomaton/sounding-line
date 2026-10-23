@@ -2593,6 +2593,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-GEN1-BUILD-20261023:** Twelve targeted known-answer checks and complete native feature/statistical execution and fresh replay pass. Both empirical control banks are implemented. The first corpus attempt refused mixed source-pin path forms; three additional checks and fresh native replay validate the separate path-normalization recovery. Corpus features are running; full science remains separate. [Validation](../results/phase_2_4_stage_15/DRIVE/GEN1_BUILD_20261023.md).
+
 **OPS-S15-GEN1-INPUTS-20261022:** Complete admitted-corpus matching and independent replay pass, with primary eligibility supported, exact within-writer session/word balance and all exclusions retained. Source/output integrity, native exits and lease release verify. Matched feature reconstruction and scientific controls remain unfinished; input completion is not a genre result. [Full input landing](../results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
 
 **OPS-S15-GEN1-POPULATION-RECOVERY-20261022:** The original corpus join failed before matching because the archive is broader than the admitted study. A separate source-only successor binds every completed PMAP session, requires exact word-ledger equality and full archive coverage, and retains upstream-only identities separately. Eight new checks and complete native replay pass; original matching and failure remain. [Failure and validation](../results/phase_2_4_stage_15/DRIVE/GEN1_POPULATION_RECOVERY_20261022.md).
