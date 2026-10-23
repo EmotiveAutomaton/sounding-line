@@ -176,6 +176,21 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §2. Before building an extractor over someone else's data
 
+- **The upstream archive roster and the admitted study population are different contracts.**
+  GEN1 repeated PMAP's earlier source-join error by requiring all archive sessions
+  to equal the completed word-ledger population. Its fixture also hid the mismatch.
+  Bind the exact completed predecessor population, require equal downstream IDs
+  and full upstream coverage, and retain upstream-only records separately. Include
+  both legitimate extras and missing primary records in the full native fixture.
+  Never silently take an intersection. (OPS-S15-GEN1-POPULATION-RECOVERY-20261022)
+
+- **A completed event ledger need not be wholly represented in a reduced downstream table.**
+  Check join coverage before declaring source compatibility. NP1's first corpus run
+  refused four real correction origins missing from prepared menus. The separate
+  recovery authenticated their complete session ledgers with the original raw
+  extractor; it neither invented menu rows nor dropped corrections. Contradictory
+  existing rows still fail. (S15-NP1-SOURCE-RECOVERY-20261022)
+
 - **The unit of analysis is theirs, not yours.** Find the corpus's canonical reader (ArgRewrite:
   the toolkit's mergeUnit over Revision Index; ScholaWrite: the authors' training script) before
   writing your own. Two plausible-but-wrong unit definitions cost three runs. (L79, L77)
@@ -193,6 +208,8 @@ current truth lives in the folded end-state of the record, never in an interim s
   source's own totals. (L107, L108, the BST decode gate)
 
 ## §3. Before building a statistic or instrument
+
+- **A card-specific comparator does not waive packet-wide controls.** DR1 implemented the requested random-order comparator and constructed known-answer cases but omitted the week default permutation and fake-writer controls. Map every inherited control to an executable and receipt before dispatch; a complete replay validates computation, not missing scientific checks. Retain the completed descriptive output and hold its routing claim while separately validating the supplement. (S15-DR1-MAIN-20261022)
 
 - **An exact-null gate must require exact null classification, not just a tiny effect.**
   Averaging repeated fake scores before subtracting produced a rounding residual
@@ -768,6 +785,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
   verdicts). (L139)
 
 ## §5. Before queueing or touching the loop infrastructure
+
+- **Verify the exact landing entry after writing, not merely a file or link.**
+  DR1 corpus parity produced its report and queue update, but a text replacement
+  silently missed both Unicode-bearing ledger headers. A subsequent check only
+  inspected reports and evidence hashes, so the event was acknowledged before
+  full write-through. Use an encoding-safe edit, require the expected replacement
+  count, and re-read/assert the exact new identifier in every required destination
+  before ACK. Preserve the timing of the omission and its repair. (OPS-S15-DR1-STYLE-PARITY-20261022)
 
 - **A continuation forecast needs positive new work in its denominator.** A
   complete serialized D30 recovery fixture had already saved every bootstrap

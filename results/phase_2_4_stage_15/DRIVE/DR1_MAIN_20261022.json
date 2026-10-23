@@ -1,0 +1,215 @@
+{
+  "source_sessions": 1399,
+  "source_writers": 61,
+  "retained_sessions": 1265,
+  "retained_writers": 29,
+  "excluded_sessions": 134,
+  "excluded_writers": 32,
+  "summary": {
+    "style": {
+      "identification": {
+        "directed": {
+          "mean": 1.4827586206896552,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 3.586206896551724,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 1.6551724137931034,
+          "censored": 0
+        },
+        "random": {
+          "mean": 1.793103448275862,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_recovery": {
+        "directed": {
+          "mean": 6.413793103448276,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 8.03448275862069,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 6.379310344827586,
+          "censored": 0
+        },
+        "random": {
+          "mean": 6.911724137931034,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_support": {
+        "evaluated": 3538,
+        "omitted": 0,
+        "total": 3538
+      }
+    },
+    "rhythm": {
+      "identification": {
+        "directed": {
+          "mean": 1.0689655172413792,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 1.0689655172413792,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 1.0344827586206897,
+          "censored": 0
+        },
+        "random": {
+          "mean": 1.1274137931034482,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_recovery": {
+        "directed": {
+          "mean": 4.689655172413793,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 7.655172413793103,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 4.275862068965517,
+          "censored": 0
+        },
+        "random": {
+          "mean": 4.854310344827587,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_support": {
+        "evaluated": 638,
+        "omitted": 0,
+        "total": 638
+      }
+    },
+    "lean": {
+      "identification": {
+        "directed": {
+          "mean": 18.379310344827587,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 26.724137931034484,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 16.413793103448278,
+          "censored": 0
+        },
+        "random": {
+          "mean": 18.116206896551724,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_recovery": {
+        "directed": {
+          "mean": 1.9310344827586208,
+          "censored": 0
+        },
+        "chronological": {
+          "mean": 3.5172413793103448,
+          "censored": 0
+        },
+        "mixed": {
+          "mean": 2.2413793103448274,
+          "censored": 0
+        },
+        "random": {
+          "mean": 2.048793103448276,
+          "censored": 0,
+          "orders": 5800
+        }
+      },
+      "feature_support": {
+        "evaluated": 116,
+        "omitted": 0,
+        "total": 116
+      }
+    }
+  },
+  "contrasts": {
+    "lean": {
+      "estimate": 0.26310344827586224,
+      "lower": -3.347120689655172,
+      "method": "Paired writer bootstrap; fixed full-reference gallery; conditional on these writers, sessions and random-order bank",
+      "outcome": "unresolved",
+      "upper": 3.981353448275856
+    },
+    "rhythm": {
+      "estimate": -0.05844827586206896,
+      "lower": -0.11448706896551726,
+      "method": "Paired writer bootstrap; fixed full-reference gallery; conditional on these writers, sessions and random-order bank",
+      "outcome": "unresolved",
+      "upper": 0.002241379310344841
+    },
+    "style": {
+      "estimate": -0.3103448275862069,
+      "lower": -0.6191896551724138,
+      "method": "Paired writer bootstrap; fixed full-reference gallery; conditional on these writers, sessions and random-order bank",
+      "outcome": "unresolved",
+      "upper": 0.01673706896551719
+    }
+  },
+  "wall_seconds": 2242.039367,
+  "prior_wall_seconds": 416.818549,
+  "cumulative_wall_seconds": 2658.857916,
+  "remaining_s4_seconds": 4541.142084,
+  "at": "2026-10-22T15:20:55.210701+00:00",
+  "status": "COMPLETE_DESCRIPTIVE_CONTROL_GAP",
+  "scientific_admission": false,
+  "classification": "Infrastructure",
+  "route": "retain chronological default",
+  "full_fresh_native_replay": true,
+  "all_source_output_pins_verified": true,
+  "output_pins_checked": 10,
+  "plan_pins_checked": 40,
+  "native_workers_exited": true,
+  "lease_released": true,
+  "no_new_probability": true,
+  "no_family_counter": true,
+  "controls": {
+    "known_answer": "passed before production",
+    "within_writer_permutations": "not implemented; required by week section 0",
+    "same_row_fake_writer": "not implemented; required by week section 0",
+    "uniform_reading_orders": "200 per writer; comparator, not substitute for null controls"
+  },
+  "evidence_hashes": {
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/COMPLETE.json": "cc25f1c38fd511ec88c1dc38552349d57af2a714d94ee572acf7c3e8c32c97c6",
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/PLAN.json": "7ea1d8befed9d91abb3d7f47fa33fdfa252ab73719e2da694837361df058bab0",
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/VERIFIED.json": "ae07d0650089480887c1f8132bc9b430e59068ac7d9785724d07db417f1203e3",
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/output/DR1_PRIMARY.json": "b8c0112215a979ff36e7398bcded07eb2214c97a4e1fec57bb55c349142e9d0b",
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/output/DR1_ORDERS.json.gz": "9f8f36621ce6b79a346b448ff9a542696575f4432ff9dfa710677a1f6abfb624",
+    "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/output/DR1_BINDINGS.json": "8d88cbd6286cb6136e995212d49ed780f24b41bda3940afdb81c98462d5973d2"
+  },
+  "cost": {
+    "original_wall_seconds": 3600,
+    "s4_doubled_wall_seconds": 7200,
+    "s4_doubling_used": true,
+    "full_attempt_cap_seconds": 6000
+  },
+  "limitations": [
+    "Full-cohort policy benchmark; no outcome used to select records",
+    "One randomized exploration realization per writer; 200 uniform orders",
+    "The original PMAP dictionary and device/context limitations remain",
+    "An unresolved contrast does not establish noninferiority",
+    "Retrospective recovery of full-record profile and identity; overlapping reference, not held-out unseen-work prediction",
+    "One sample SD across this writer's session profiles, fixed before policy evaluation; unsupported features omitted with counts in ledger",
+    "n+1 is the prespecified failure-to-recover penalty; comparisons are restricted recovery costs, not uncensored mean time",
+    "No routing improvement or noninferiority licensed; required empirical controls absent."
+  ]
+}

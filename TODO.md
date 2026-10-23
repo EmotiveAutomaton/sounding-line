@@ -1,5 +1,14 @@
 # TODO: the study queue
 
+**October 22 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
+The event census, full reading comparison, exact style parity and genre inputs are recorded.
+Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
+No research worker is active at the digest inspection. Genre features/statistics and
+population-relative sensitivity remain implementation work. Monitoring is live;
+cost/resource holds, the paid cutoff and recipient-copy approval persist. Stage 15 remains open.
+
+**October 22 post-talk work:** The [complete probe census](results/phase_2_4_stage_15/DRIVE/NP1_SOURCE_RECOVERY_20261022.md) and [full directed-reading comparison](results/phase_2_4_stage_15/DRIVE/DR1_MAIN_20261022.md) are verified and recorded. The reading comparison is unresolved and lacks required empirical controls; routing remains unchanged. Its workers exited and released their slot. An [exact style-parity check](results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_20261022.md) also completed; the currently projected empirical controls are cost-held. [Genre input matching](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md) is now complete after a recorded source-join recovery. Exact matched features, genre statistics/controls and population-relative sensitivity remain implementation work. Gear 2 is authorized; no research worker is active at this receipt. GPU/resource and cost holds, the paid cutoff and recipient-copy approval persist. Stage 15 remains open.
+
 **October 21 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261021.md).
 No new scientific result; the completed screen and controls are unchanged.
 The scheduled freeze and noon drain are verified, with no research worker active.
@@ -24,13 +33,19 @@ is prepared. No prior cost/resource hold is lifted.
 
 - [x] S15-NP1-BUILD: complete census handlers, nine checks, contained native
   execution/replay, actual source-binding/schema preflight and pinned Thursday plan.
-- [ ] S15-NP1: dispatch after Thursday 07:00, verify full output and land census.
+- [x] S15-NP1: full census verified and landed after one source-authentication repair; original failure and cumulative cost retained.
 - [x] S15-DR1-BUILD: full retrospective comparison, twelve acquisition and nine
   pipeline checks, full native replay; no corpus policies evaluated.
-- [ ] S15-DR1: build and admit a bounded actual-input timing pilot for Thursday;
-  preserve full reference gallery, all policy counts and original cumulative cost.
-- [ ] S15-GEN1: exact matched typed-word/session input and timing boundaries,
-  full fixed-gallery comparison and required known-answer/control validation.
+- [x] S15-DR1-TIMING-BUILD: six checks, exact full-run sampled-output parity and complete fresh native validation.
+- [x] S15-DR1-TIMING: full-gallery pilot and fresh replay complete; original full comparison admitted with one cumulative S4 doubling.
+- [x] S15-DR1-MAIN: full comparison and fresh replay recorded; unresolved primary, no censoring, required empirical controls absent.
+- [x] S15-DR1-STYLE-PARITY-BUILD: nine checks and complete native constructed parity/replay pass; actual-corpus parity/timing is complete.
+- [x] S15-DR1-STYLE-PARITY: complete original corpus parity and fresh replay recorded; no empirical controls or new contrast.
+- [ ] S15-DR1-CONTROLS: cost-held for the benchmarked implementation; conservative 31027.853280-second projection exceeds remaining4367.941902 seconds. Original output and chronological route retained; exact faster implementation and actual control validation would need fresh measured admission.
+- [x] S15-GEN1-INPUT-BUILD: source-bound session/typed-word matching and exact occurrence-boundary manifest; nineteen targeted checks and full constructed native replay pass.
+- [x] S15-GEN1-POPULATION-RECOVERY: original corpus join failed before matching; eight additional checks and full native validation pass for the exact admitted-population successor. Original policy/failure and cumulative costs retained.
+- [x] S15-GEN1-INPUT: single source-only corpus retry and independent replay complete; primary input supported, all source/exclusion identities retained. Cumulative charge 279.617759 seconds; original allowance remaining 1520.382241 seconds. [Complete input record](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
+- [ ] S15-GEN1: matched feature/timing reconstruction, full fixed-gallery comparison and required known-answer/control validation. Input preparation is not a scientific result.
 - [ ] S15-SDT1: Ghost synthetic route received and summary-bound; local
   population-relative reader, split halves, fake control and native validation
   remain. Competence and human record requirements remain open.

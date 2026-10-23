@@ -1,5 +1,17 @@
 # October 16 drive commission
 
+[Complete GEN1 corpus inputs](../../../../results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md) pass independent replay and support the original primary cohort. Workers exited and released their slot; exact matched features and the scientific comparison/controls remain unfinished.
+
+[GEN1 population recovery](GEN1_POPULATION_RECOVERY_20261022.md) fixes the original source-join refusal without changing the completed study population or matching policy. Full constructed/native validation passes; one bounded corpus retry is admitted.
+
+[GEN1 input matching](GEN1_INPUT_MATCHING_20261022.md) specifies deterministic session/word matching, source bindings and explicit support limits. Targeted and full native constructed validation pass; corpus preparation and the scientific comparison remain separate.
+
+[Exact DR1 style parity](DR1_CONTROL_PARITY_20261022.md) passes constructed and complete corpus replay; the [control-work projection](../../../../results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_20261022.md) is cost-held. The original comparison and missing controls remain explicit.
+
+[DR1 timing admission](DR1_TIMING_ADMISSION_20261022.md) preserves the full gallery and original full comparison. Constructed and real-input fresh verification pass; the unchanged full comparison has completed. Its [landing](../../../../results/phase_2_4_stage_15/DRIVE/DR1_MAIN_20261022.md) records an unresolved primary and missing empirical controls, with routing unchanged.
+
+[October 22 NP1 source repair](NP1_SOURCE_RECOVERY_20261022.md) preserves the full census and original failed attempt. Known-answer and fresh native validation pass; the recovered corpus is complete. DR1 is complete with controls outstanding; GEN1/SDT1 builds remain.
+
 **October 20 preparation:** [Probe census and acquisition contract](POST_TALK_PREPARATION_20261020.md)
 and [full directed-reading implementation](DIRECTED_READING_BUILD_20261020.md)
 are built and validated on constructed data. The census has a guarded Thursday

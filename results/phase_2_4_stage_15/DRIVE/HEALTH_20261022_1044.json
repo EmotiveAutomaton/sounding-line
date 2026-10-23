@@ -1,0 +1,158 @@
+{
+  "at": "2026-10-22T10:43:57.034144-07:00",
+  "event": "e7f6832251c95c5da197ea14",
+  "inspection_complete": true,
+  "gear": 2,
+  "stage_complete": false,
+  "science_workers": 0,
+  "resources": {
+    "ram_available_GiB": 36.747825622558594,
+    "commit_headroom_GiB": 28.63399887084961,
+    "disk_free_GiB": 384.32465744018555
+  },
+  "gpu": {
+    "free_MiB": 6424,
+    "used_MiB": 5574,
+    "utilization_percent": 1,
+    "temperature_C": 33
+  },
+  "cpu_leases": [],
+  "gpu_cpu_locks_absent": true,
+  "watcher_singleton_lock_held": true,
+  "research_locks": 21,
+  "freshness": {
+    "since": "2026-10-22T04:31:03.932605-07:00",
+    "terminal_records_inspected": 294,
+    "terminals_already_landed": [
+      {
+        "path": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-main/COMPLETE.json",
+        "sha256": "cc25f1c38fd511ec88c1dc38552349d57af2a714d94ee572acf7c3e8c32c97c6",
+        "event": "0ad2fceab867fed2ec68f566",
+        "state": "acknowledged"
+      },
+      {
+        "path": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-style-parity/COMPLETE.json",
+        "sha256": "52c1829c535b68da1b138c4fbd9bbd53eb980ac184432a09d36fa67c093a9980",
+        "event": "b152fcf9614158546662d9e3",
+        "state": "acknowledged"
+      },
+      {
+        "path": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/DR1-timing/COMPLETE.json",
+        "sha256": "b3a3d2a64209fd15cbad4f5b345ba89962dd45f88ad912b098685eafd8965c3a",
+        "event": "524aa857a2a66a6d99b08699",
+        "state": "acknowledged"
+      },
+      {
+        "path": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/NP1/FAILED.json",
+        "sha256": "78a277838b2d8eac0f01d133e87260e376e67bc8d188014b3e1bc113aa18ba98",
+        "event": "83b7990272739c4600531986",
+        "state": "acknowledged"
+      },
+      {
+        "path": "results/phase_2_4_stage_15/raw/drive-post-talk-20261022/NP1-recovery/COMPLETE.json",
+        "sha256": "339e092c031def74cdb004db57db87b1a0e649278f0463b8b891913fe54e443b",
+        "event": "8c493dab5e7b5b60fd9b5e3b",
+        "state": "acknowledged"
+      },
+      {
+        "path": ".agent-state/drive-20261018-week/native-DR1-style-parity-20261022/COMPLETE.json",
+        "sha256": "eee46bfc0a055dadf6c8b95f13605c8fa2a4de262ede28c9b88ee6100f7872f0",
+        "event": "e0f288ce006012f9d4e213e1",
+        "state": "acknowledged"
+      },
+      {
+        "path": ".agent-state/drive-20261018-week/native-DR1-timing-20261022/COMPLETE.json",
+        "sha256": "50a3fa29301ea3d4cfeffde27585be3cd4b1c6052a9096fa07927c66c640b0a2",
+        "event": "f6fb012c53bf2285694fc908",
+        "state": "acknowledged"
+      },
+      {
+        "path": ".agent-state/drive-20261018-week/native-NP1-recovery-20261022/COMPLETE.json",
+        "sha256": "ae421e64c27239dbdbef2bc9a7052050eab4e2eae5b1cefcce2a7480e46aaa4a",
+        "event": "02163a1da54213bd34013747",
+        "state": "acknowledged"
+      }
+    ],
+    "scan_errors": [],
+    "unique_files_rehashed": 335,
+    "exact_report_entries_verified": [
+      "DR1_MAIN_20261022",
+      "DR1_STYLE_PARITY_BUILD_20261022",
+      "DR1_STYLE_PARITY_20261022",
+      "DR1_TIMING_BUILD_20261022",
+      "DR1_TIMING_PILOT_20261022",
+      "NP1_SOURCE_RECOVERY_20261022"
+    ]
+  },
+  "p1": {
+    "sources_verified": true,
+    "start_floor_MiB": 7424,
+    "resource_held": true,
+    "never_dispatched": true,
+    "terminal_watch_registered": true
+  },
+  "window": [
+    "post-talk",
+    "2026-10-26T03:00:00+00:00",
+    "2026-10-26T05:00:00+00:00"
+  ],
+  "paid": {
+    "dispatch_closed": true,
+    "ledger_and_guard_unchanged": true,
+    "new_calls": 0
+  },
+  "external_return": {
+    "state": "prepared_pending_destination_approval",
+    "package_hashes_verified": true,
+    "retry_attempted": false
+  },
+  "recovery": "Registered three missing final paths for the prepared, unstarted GPU continuation. No process, gear, scientific source or budget changed; its resource hold remains.",
+  "inspection_setup_corrections": [
+    "Replaced inherited pre-opening transition-only expectation with the recorded post-talk false mode; no live mode change.",
+    "Initial prepared-P1 terminal-registration check failed; registered the three final paths before completion."
+  ],
+  "runnable_work": {
+    "DR1_controls": "Cost-held under current implementation; cumulative allowance preserved.",
+    "P7_D33": "Cost-held; no restart.",
+    "GEN1": "Authorized implementation backlog; no executable corpus card yet.",
+    "SDT1": "Population-relative build and validation remain; competence gap retained.",
+    "P1": "Prepared but GPU resource-held.",
+    "EV4": "Awaiting recipient destination approval."
+  },
+  "new_tests_harvested": false,
+  "scientific_claims_changed": false,
+  "limits": [
+    "Historical terminal contents are not reinterpreted; newest terminal hashes, plans, outputs and their full write-through entries verified.",
+    "Separate native Codex queue inventory was not queried; event queue acceptance and actual owner delivery are recorded."
+  ],
+  "calendar": {
+    "heartbeat": {
+      "at": "2026-10-22T17:43:43.767299+00:00",
+      "next_milestones": [
+        "DIGEST_20261022",
+        "DIGEST_20261023",
+        "DIGEST_20261024",
+        "FINAL_DIGEST_AND_START_FREEZE",
+        "FINAL_DRAIN_RECONCILIATION"
+      ]
+    },
+    "heartbeat_age_seconds": 14.21353816986084,
+    "source_pins_verified": true
+  },
+  "watcher": {
+    "scan_age_seconds": 35.79007530212402,
+    "sources_verified": true,
+    "watch_error": null,
+    "transition_only": false,
+    "mode_basis": "Ratified post-talk calendar opening; restore at Sunday drain.",
+    "delivery": {
+      "state": "queued",
+      "attempts": 1,
+      "delivered_at": 1792690440.2138348,
+      "error": null
+    },
+    "historical_failure_count": 2
+  },
+  "private_evidence_sha256": "8fdc6a0503d83bbfe80fa307aeea2b3bd55eea01b239de47d60191bab12cd30b",
+  "acknowledgement": "Pending documented inspection; separate ACK receipt follows."
+}

@@ -1,11 +1,18 @@
 # October 16 drive runners
 
-`cards/week_probes` is the validated NP1 census. Its private pinned plan uses
-the existing contained week runtime and refuses execution before Thursday
-October 22 at 07:00 PDT. `cards/week_reading_order` and
-`cards/week_directed_reading` implement DR1; complete constructed/native replay
-passes, but real-input timing admission remains. Neither corpus comparison has
-run. [Contracts and validation](../../docs/design/stage-15/drive/POST_TALK_PREPARATION_20261020.md).
+[Complete GEN1 corpus inputs](../../results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md) pass independent replay and support the original primary cohort. Workers exited and released their slot; exact matched features and the scientific comparison/controls remain unfinished.
+
+`cards/week_genre_inputs_recovery` retains the completed PMAP population when the raw archive has extra sessions. The original corpus attempt failed before matching; eight new checks and complete native replay pass for the separate recovery. Matching policy and original attempt remain unchanged. [Recovery](../../results/phase_2_4_stage_15/DRIVE/GEN1_POPULATION_RECOVERY_20261022.md).
+
+`cards/week_genre_inputs` prepares exact matched session/typed-word manifests from authenticated genre and production-word sources. Nineteen checks and full native constructed replay pass. It does not reconstruct matched rhythm features or compute genre accuracy; the full scientific comparison and controls remain unfinished. [Validation](../../results/phase_2_4_stage_15/DRIVE/GEN1_INPUT_BUILD_20261022.md).
+
+`cards/week_directed_style_parity` passes constructed checks and complete native replay. Full corpus parity and fresh replay also pass; the missing empirical controls remain unbuilt and cost-held under the measured conservative projection. The original `cards/week_directed_reading` comparison is complete, recorded and held from policy claims. [Validation](../../results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_BUILD_20261022.md).
+
+`cards/week_probes_source_recovery` completes the NP1 census after one raw-source
+repair of missing prepared-menu origins. Original inputs and failed attempt are
+retained; nineteen checks and full native replay pass. `cards/week_reading_order`
+and `cards/week_directed_reading` implement DR1; its full comparison is complete with empirical controls outstanding.
+[Complete census](../../results/phase_2_4_stage_15/DRIVE/NP1_SOURCE_RECOVERY_20261022.md).
 
 `cards/timing_word_bounds_twelve` changes only the prefix cap to twelve. Complete constructed checks and native replay pass. The fixed diagnostic remains incomplete for point scoring; the full-population comparison remains unadmitted. [Instrument record](../../results/phase_2_4_stage_15/DRIVE/P7_WORD_BOUNDS_TWELVE_20261019.md).
 

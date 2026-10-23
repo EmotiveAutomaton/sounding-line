@@ -1,5 +1,14 @@
 # October 16 drive evidence
 
+**October 22 daily integration:** [Complete digest](DIGEST_20261022.md).
+The event census, full reading comparison, exact style parity and genre inputs are recorded.
+Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
+No research worker is active at the digest inspection. Genre features/statistics and
+population-relative sensitivity remain implementation work. Monitoring is live;
+cost/resource holds, the paid cutoff and recipient-copy approval persist. Stage 15 remains open.
+
+**October 22 post-talk work:** The [complete probe census](NP1_SOURCE_RECOVERY_20261022.md) and [full directed-reading comparison](DR1_MAIN_20261022.md) are verified and recorded. The reading comparison is unresolved and lacks required empirical controls; routing remains unchanged. Its workers exited and released their slot. An [exact style-parity check](DR1_STYLE_PARITY_20261022.md) also completed; the currently projected empirical controls are cost-held. [Genre input matching](GEN1_INPUTS_20261022.md) is now complete after a recorded source-join recovery. Exact matched features, genre statistics/controls and population-relative sensitivity remain implementation work. Gear 2 is authorized; no research worker is active at this receipt. GPU/resource and cost holds, the paid cutoff and recipient-copy approval persist. Stage 15 remains open.
+
 **October 21 daily integration:** [Complete digest](DIGEST_20261021.md).
 No new scientific result; the completed screen and controls are unchanged.
 The scheduled freeze and noon drain are verified, with no research worker active.

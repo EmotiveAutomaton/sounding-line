@@ -1,5 +1,14 @@
 # Codex operations
 
+**October 22 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
+The event census, full reading comparison, exact style parity and genre inputs are recorded.
+Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
+No research worker is active at the digest inspection. Genre features/statistics and
+population-relative sensitivity remain implementation work. Monitoring is live;
+cost/resource holds, the paid cutoff and recipient-copy approval persist. Stage 15 remains open.
+
+**October 22, 10:44 PDT:** [Native queue inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261022_1044.md) verifies the original watcher/calendar identities, fresh scanning, actual health delivery, recorded recent results, research locks and released compute leases. The prepared GPU continuation's three terminal paths are now registered; it remains resource-held and unstarted. No scientific worker is active. Post-talk monitoring mode matches the calendar opening; no extra ETA wake or process restart. Implementation and cost holds remain.
+
 **October 21 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261021.md).
 No new scientific result; the completed screen and controls are unchanged.
 The scheduled freeze and noon drain are verified, with no research worker active.

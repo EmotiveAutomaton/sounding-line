@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 22 integrated instrument state:** The full event census reaches the fixed common-event planning threshold without identifying deliberate probes. The directed-reading comparison is unresolved and lacks required empirical controls; exact style parity passes but the projected supplement is cost-held. Genre input matching is complete after a source-only recovery; feature reconstruction and scientific controls remain unfinished. All original per-instrument validation records below retain their limits. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
+
 **October 20 instrument handoff:** The [source-verified aggregate package](../results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md) is prepared; receiving copies await destination approval. No measurement or admission changed. NP1/DR1 constructed validation remains recorded, with corpus execution still gated. [Daily record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
 
 **October 19 integrated instrument state:** EV1 and EV2 pass their scoped checks; EV3 fails its fixed reference. P7 native enclosures remain incomplete for point scoring and further refinement is cost-held. The D33 calibration-supported build passes constructed tests but has no corpus result. [Daily evidence and limits](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md). Older launch notes below retain their historical cutoffs.
@@ -2588,6 +2590,38 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**OPS-S15-GEN1-INPUTS-20261022:** Complete admitted-corpus matching and independent replay pass, with primary eligibility supported, exact within-writer session/word balance and all exclusions retained. Source/output integrity, native exits and lease release verify. Matched feature reconstruction and scientific controls remain unfinished; input completion is not a genre result. [Full input landing](../results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
+
+**OPS-S15-GEN1-POPULATION-RECOVERY-20261022:** The original corpus join failed before matching because the archive is broader than the admitted study. A separate source-only successor binds every completed PMAP session, requires exact word-ledger equality and full archive coverage, and retains upstream-only identities separately. Eight new checks and complete native replay pass; original matching and failure remain. [Failure and validation](../results/phase_2_4_stage_15/DRIVE/GEN1_POPULATION_RECOVERY_20261022.md).
+
+**OPS-S15-GEN1-INPUT-BUILD-20261022:** Source-bound genre matching passes nineteen targeted checks and full constructed native execution/replay. Exact session/typed-word parity, original prompt splits, explicit fallback and exclusions, changed-source refusal and saved-output verification pass. Corpus preparation, matched feature reconstruction and scientific controls remain separate. [Complete validation](../results/phase_2_4_stage_15/DRIVE/GEN1_INPUT_BUILD_20261022.md).
+
+**October 22 DR1 corpus parity:** every original style prefix and endpoint agrees in separate execution and replay. Required empirical controls remain unrun; their conservative projection exceeds the remaining one-time doubled allowance. No routing change is admitted. [Complete parity and cost accounting](../results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_20261022.md). This ledger entry was restored during delayed-notice reconciliation after the initial unchecked text replacement omitted it; original evidence is unchanged.
+
+**October 22 DR1 style parity apparatus:** nine targeted checks and complete separate native execution/replay pass, including every constructed order and prefix. Corpus parity and timing are next; empirical controls remain unbuilt and no policy claim is admitted. [Validation](../results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_BUILD_20261022.md).
+
+**October 22 complete DR1:** full source/output authentication and fresh replay pass. The primary is unresolved; required within-writer permutation and same-row fake-writer controls are missing. No routing improvement or noninferiority is licensed. Preserve the original comparison and cost a separate control supplement; full support, censoring and accounting are [recorded](../results/phase_2_4_stage_15/DRIVE/DR1_MAIN_20261022.md).
+
+**October 22 DR1 actual-input timing:** complete source authentication and exact
+fresh replay pass for the full eligible gallery. The original complete comparison
+is cost-admitted under one cumulative S4 doubling, with full policy counts and
+hard guards retained. Pilot outcomes are not interpreted.
+[Timing and admission](../results/phase_2_4_stage_15/DRIVE/DR1_TIMING_PILOT_20261022.md).
+
+**October 22 DR1 timing:** six checks and complete contained native execution
+and fresh replay pass. Sampled work matches the unchanged full runner exactly,
+with the entire gallery retained. Real-input timing is now executable; no
+scientific comparison is admitted by constructed timing alone.
+[Build and limits](../results/phase_2_4_stage_15/DRIVE/DR1_TIMING_BUILD_20261022.md).
+
+**October 22 NP1 source recovery:** the original census refused four corrections
+whose origins were absent from a reduced menu table. Its separate single retry
+authenticates complete affected ledgers by original raw replay, preserving all
+sessions, corrections and counting rules. Nineteen checks, complete native
+constructed replay and the full corpus census verify; original failure retained.
+This is a descriptive instrument, with no deliberate-probing or private-goal
+admission. [Complete record](../results/phase_2_4_stage_15/DRIVE/NP1_SOURCE_RECOVERY_20261022.md).
 
 **October 20 post-talk builds:** the probe-like event census passes nine checks
 and complete contained native source reconstruction; its pinned plan refuses

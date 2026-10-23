@@ -1,5 +1,145 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261022
+
+**Hypothesis.** Recorded writing events and metadata-guided reading can support the next bounded reader tests.
+**METHOD.** Integrate the complete event census, the full directed-versus-random reading comparison and its computational parity check, and independently replayed matched-genre inputs; authenticate earlier screen records and inspect native queue supervision.
+**Found.** Probe-like events reach the fixed common-event planning threshold. Directed reading remains unresolved and lacks required empirical controls. Genre inputs are complete, but the genre comparison is unrun. **Means.** Event availability is established at the declared definition; routing and genre weights stay unchanged, and Stage 15 remains open.
+
+The [complete daily packet](results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md) records today's full instrument measurements, source repairs, validation and limits alongside the unchanged 38-row screen and family boundaries. All prior report/draw bindings and today's terminal records verify; monitoring is live and no research worker is active. The reading control supplement is cost-held; genre features/statistics and population-relative sensitivity remain implementation work. The feature return still awaits destination approval. No scientific probability or family counter is added. No new tests harvested.
+
+Curator roll-up: bounded reading and recorded decisions; what can the completed post-talk work support now?; **Infrastructure**; the event census and genre inputs are complete while directed reading remains unresolved with a control gap; project meaning: current review materials distinguish usable inputs from validated inference; next engineering obligation: exact matched-genre features and controlled comparison, then population-relative sensitivity; public claims unchanged; curator decision required: Yes, the existing aggregate recipient-copy destination approval remains pending. Detail: linked digest and original reports.
+
+### OPS-S15-GEN1-INPUTS-20261022
+
+**Hypothesis.** The admitted corpus contains enough writers with both kinds of writing to prepare the planned matched comparison.
+**METHOD.** Authenticate the complete PMAP and production-word populations against the genre archive, apply the fixed per-genre eligibility rule, balance session counts and completed typed-word prefixes within writers, then reconstruct every input and saved manifest in a fresh native process.
+**Found.** The original primary cohort has sufficient support and the complete matched inputs pass independent replay. **Means.** The planned genre comparison can use these inputs; no genre-identification result or weighting recommendation has been computed.
+
+The complete input contains 24 writers and 990 matched sessions; all 1,399 admitted source sessions are authenticated and every exclusion is retained. The primary mode is supported; no fallback was invoked. Original build, source-join failure and recovery remain recorded. Source/output hashes, native exits and slot release verify. Cumulative charge is 279.617759 wall seconds within the original conservative 1,800-second allowance. No probability, family counter or theory claim; no new tests harvested. Instrument ledger and TODO updated. [Full input counts, matching limits and remaining work](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
+
+Curator roll-up: bounded reading; does the corpus support the planned matched genre comparison?; **Infrastructure**; the complete primary input cohort passes independent reconstruction; project meaning: source preparation is complete while the scientific comparison remains open; next engineering obligation: exact matched feature reconstruction and full statistical/control validation; public claims unchanged; curator decision required: No. Detail: linked complete input report.
+
+### OPS-S15-GEN1-POPULATION-RECOVERY-20261022
+
+**Hypothesis.** Genre metadata can join the exact completed study population even when the upstream archive is larger.
+**METHOD.** Authenticate every completed PMAP session and aggregate count, require exact equality with the completed word ledger and full coverage by the archive, retain upstream-only records separately, and replay the unchanged matching policy in a fresh native process.
+**Found.** The first corpus attempt refused the archive/study population mismatch before matching. Eight additional checks and full native recovery validation pass. **Means.** A single source-only corpus retry is admitted; no genre result exists.
+
+The original component repeated PMAP's earlier archive-versus-study join error. The source-only successor retains every admitted study session and records upstream-only records separately. Original validation, failed attempt and cumulative costs remain. All source/output hashes, native exits and lease releases verify. No probability, family counter or theory claim; no tests harvested. Instrument ledger, source-join lesson and TODO updated. [Full failure and recovery record](results/phase_2_4_stage_15/DRIVE/GEN1_POPULATION_RECOVERY_20261022.md).
+
+Curator roll-up: measurement integrity; can archive metadata join the exact completed study population?; **Infrastructure**; the source-only recovery passes full constructed and native validation; project meaning: unchanged input matching can retry without silently intersecting sources; next engineering obligation: complete bounded corpus matching, then matched features and scientific controls; public claims unchanged; curator decision required: No. Detail: linked report.
+
+### OPS-S15-GEN1-INPUT-BUILD-20261022
+
+**Hypothesis.** Creative and argumentative records can be matched within writers without selecting on identification outcomes or losing source provenance.
+**METHOD.** Bind the original genre roster and completed production-word ledgers, balance sessions and completed typed words deterministically, preserve exact occurrence boundaries and support exclusions, then reconstruct the entire handler in a fresh native process.
+**Found.** Nineteen targeted checks and complete native constructed replay pass. **Means.** Corpus input matching can proceed; the genre comparison, matched rhythm reconstruction and scientific controls remain unrun.
+
+All source/output hashes, native exits and lease release verify. Primary and exploratory support remain distinct; missing cells remain missing. The build reserves 120 seconds within the original 1,800-second conservative allowance, with corpus execution/replay charged separately. No scientific probability, theory claim or family count; no new tests harvested. Instrument ledger and TODO updated. [Full validation and limitations](results/phase_2_4_stage_15/DRIVE/GEN1_INPUT_BUILD_20261022.md).
+
+Curator roll-up: bounded reading; can same-writer genres be matched without outcome selection or lost provenance?; **Infrastructure**; constructed input matching and fresh native replay pass; project meaning: a source-bound input component is available while the scientific comparison remains unfinished; next engineering obligation: corpus matching, exact feature reconstruction and full control validation; public claims unchanged; curator decision required: No. Detail: linked build report.
+
+### OPS-S15-HEALTH-20261022-1044
+
+**Hypothesis.** Queue supervision preserves completed evidence while respecting the active admission limits.
+**METHOD.** Reconcile native identities, fresh monitoring, recent terminal manifests and exact write-through entries; verify source/output hashes, research locks, leases, resource limits and authorized next work.
+**Found.** Monitoring is live, all recent results are recorded, and no research worker is active. The prepared GPU continuation lacked terminal registrations; all three paths are now registered. **Means.** Stage 15 remains open, with genre/sensitivity implementation next and cost/resource holds retained. No scientific restart or new result.
+
+The [complete inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261022_1044.md) records eight reconciled terminals, 335 rehashed files, all 21 intact research locks, empty compute leases, available resources and actual first-attempt health delivery. The GPU remains below its original start floor. No new tests harvested; no theory row, scientific probability or family counter changes. Documentation and registration recovery precede health ACK.
+
+Curator roll-up: research operations; can the authorized queue continue without losing evidence or crossing its limits?; **Infrastructure**; monitoring and recent landings verify, with prepared terminal coverage repaired; project meaning: unfinished implementation and admission holds remain explicit; next engineering obligation: build the genre comparison with its required controls; public claims unchanged; curator decision required: No new decision. Detail: linked inspection.
+
+### OPS-S15-DR1-STYLE-PARITY-20261022
+
+**Hypothesis.** The faster style calculation reproduces every completed corpus readout and makes the missing control workload fit the remaining allowance.
+**METHOD.** Authenticate all original sources and saved outputs, recompute every style identification prefix and endpoint using unchanged counts, dictionary, gallery and tie rules, then repeat in a fresh process. Project complete control banks using slower per-writer maximum order times, both passes and a twofold margin.
+**Found.** Exact corpus parity passes; the conservative projected control workload exceeds the remaining cumulative allowance. **Means.** Preserve the completed comparison, retain chronological routing and hold empirical-control dispatch. Computational parity does not replace the missing controls.
+
+The table describes complete computational validation and conservative wall-time accounting under the original two-thread conversion. The control forecast is provisional, not measured execution of the unbuilt transformations.
+
+| Item | Complete value | Disposition |
+|---|---:|---|
+| Retained writers / sessions | 29 / 1,265 | Full original cohort |
+| Original policy orders / style prefixes | 5,887 / 256,795 | Every flag and endpoint agrees exactly |
+| Execution plus independent replay | 53.200182 seconds | Complete |
+| Cumulative charge, including build reserve | 2,832.058098 seconds | Includes prior study and 120-second build reserve |
+| Remaining one-time doubled allowance | 4,367.941902 seconds | No budget reset |
+| Conservative projected control workload | 31,027.853280 seconds | Not admitted |
+
+All source/output hashes and native replay pass; workers exited and the CPU lease is released. This projection applies to the benchmarked implementation, not every possible exact optimization. The empirical supplement remains unrun; no scientific admission, new probability or family null follows. No tests harvested; instrument ledger and queue updated. The source report and queue records were written at completion, but an unchecked text replacement omitted this entry and the instrument-ledger entry. The delayed native-notice reconciliation found and repaired both omissions; the earlier corpus ACK preceded full write-through. Raw evidence, estimates and limits are unchanged.
+
+Curator roll-up: bounded reading; can exact style computation make the required controls executable within the remaining allowance?; **Infrastructure**; full corpus parity passes but the conservative control projection is cost-held; project meaning: the original result is preserved without an unsupported routing claim; next engineering obligation: independent genre/sensitivity implementation, or a separately validated lower-cost exact control path; public claim status unchanged; curator decision required: No. Detail: [full parity and cost report](results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_20261022.md).
+
+### OPS-S15-DR1-STYLE-PARITY-BUILD-20261022
+
+**Hypothesis.** A cumulative-count implementation can reproduce the original directed-reading style readout exactly while reducing the cost of its missing control checks.
+**METHOD.** Preserve the full pooled denominator, dictionary, gallery, missing-prefix and tie rules; compare every identification flag and bounded endpoint with the original in helpful, null, harmful and support-edge cases, then execute and replay the complete handler in separate native processes.
+**Found.** All nine targeted checks and the native constructed run pass. **Means.** Actual-corpus parity and timing can now be checked; the empirical controls and any policy claim remain unadmitted.
+
+The complete native constructed case reproduces 609 orders and 7,308 prefix flags/endpoints. All nine targeted checks pass; fixture/import/access setup failures are retained. Source/output pins, native exits and lease release verify. No empirical control, new probability or family counter; no new tests harvested. [Full validation and limitations](results/phase_2_4_stage_15/DRIVE/DR1_STYLE_PARITY_BUILD_20261022.md).
+
+Curator roll-up: bounded reading; can required control checks reuse an exact faster style calculation?; **Infrastructure**; constructed and native parity validation passes; project meaning: corpus parity and timing are executable without changing the original result; next engineering obligation: verify all original corpus prefixes and cost the actual control supplement; public claim status unchanged; curator decision required: No. Detail: linked build report.
+
+### S15-DR1-MAIN-20261022
+
+**Hypothesis.** Selecting a writer's records using metadata can recover the writer's full-record profile with fewer reads than uniform random order.
+**METHOD.** Use all eligible writers and a fixed full-reference gallery; compare metadata-directed, chronological and 20%-random mixed policies with 200 uniform orders per writer, then compute 2,000 paired writer bootstrap draws. A fresh process reconstructs every policy and output from authenticated PMAP records.
+**Found.** The completed primary interval crosses zero. The required empirical permutation and fake-writer controls are absent, so this is a descriptive comparison with a control gap, not a validated policy result. **Means.** Retain chronological routing; neither a useful improvement nor noninferiority has been established.
+
+The table reports completed directed-minus-random bounded recovery costs in sessions. Negative values favor directed reading; intervals are paired-writer 95% bootstrap intervals conditional on the fixed gallery and random-order bank. Style is the primary; the other channels are descriptive.
+
+| Channel | Difference in sessions | 95% interval | Descriptive comparison |
+|---|---:|---:|---|
+| Style | -0.310345 | [-0.619190, 0.016737] | Unresolved; controls outstanding |
+| Rhythm | -0.058448 | [-0.114487, 0.002241] | Unresolved; controls outstanding |
+| Suggestion handling | 0.263103 | [-3.347121, 3.981353] | Unresolved; controls outstanding |
+
+Full source/output authentication, independent replay, native exit and lease release pass. All retained features and all policy endpoints have support without censoring. Required empirical controls were omitted; this is recorded as a validity deficit, not silently treated as passing. The full report retains every endpoint, support count, cost, caveat and repair obligation. No new probability or family counter. No tests harvested from the wake. Instrument ledger and TODO updated.
+
+Curator roll-up: bounded reading; does metadata-directed reading recover a maker with fewer records?; **Infrastructure**; the completed comparison is unresolved and lacks required empirical controls; project meaning: chronological routing remains the safe default without a claim of equivalence; next engineering obligation: validate and cost a separate control supplement, retaining the frozen comparison; public claim status unchanged; curator decision required: No. Detail: [full completed report](results/phase_2_4_stage_15/DRIVE/DR1_MAIN_20261022.md).
+
+### OPS-S15-DR1-TIMING-PILOT-20261022
+
+**Hypothesis.** The original full directed-reading comparison can finish within the active cumulative cost allowance without reducing its planned work.
+**METHOD.** Authenticate all PMAP records and time every eligible writer in the full gallery through the three fixed policies and five fixed random orders; repeat in a fresh process and project unchanged full counts using slower timings, a twofold margin, replay and overhead.
+**Found.** The complete timing pilot passes replay and fits the one cumulative S4 doubling. **Means.** The original full comparison is admitted under a hard bound; no pilot scientific contrast or partial score follows.
+
+All 1,399 source records authenticate; the fixed rule retains 29 writers and 1,265 sessions, with 232 complete timed orders per pass. Pilot charge is 116.818549 wall seconds; prior preparation reserves 300 seconds. The conservative full forecast is 5,777.907689 seconds. A 6,000-second full execution/replay cap gives cumulative reserved cost 6,416.818549, below the one doubled limit of 7,200. This exceeds the original 3,600-second two-thread conversion of two CPU-hours, so S4 is explicitly used once. Source/output hashes, exact replay, native exits and lease release verify. [Full accounting and limitations](results/phase_2_4_stage_15/DRIVE/DR1_TIMING_PILOT_20261022.md). No scientific probability, family counter or theory claim; instrument ledger and TODO updated. No new tests harvested.
+
+Curator roll-up: bounded reading; can the complete comparison run within its cumulative allowance?; **Infrastructure**; measured timing admits the unchanged full workload under one S4 doubling; project meaning: full execution can proceed with a hard cap; next engineering obligation: monitor and fully verify the complete result before interpretation; public claims unchanged; curator decision required: No. Detail: linked timing report and source receipt.
+
+### OPS-S15-DR1-TIMING-BUILD-20261022
+
+**Hypothesis.** The complete reading comparison can receive a measured cost forecast without changing its cohort, gallery or policy counts.
+**METHOD.** Time the original profile/order functions on every eligible writer and full gallery for the three fixed policies and five fixed random orders; require exact fresh replay and project the original full workload with replay and a twofold margin.
+**Found.** Six targeted checks and complete native constructed execution and verification pass. **Means.** The real-input timing pilot can run, while full scientific execution still needs measured admission.
+
+Sampled outputs match the original complete runner exactly. Invalid work, times, configurations, identities and modified sources or saved results refuse. Native pins and output hashes verify, workers exited and the lease released. The original comparison remains unchanged. [Full validation and limits](results/phase_2_4_stage_15/DRIVE/DR1_TIMING_BUILD_20261022.md). No corpus score, scientific probability, family counter or theory claim; instrument ledger and TODO updated. No new tests harvested.
+
+Curator roll-up: bounded reading; can the original comparison be admitted from measured complete-gallery costs?; **Infrastructure**; the timing apparatus passes constructed and native validation; project meaning: the outstanding admission measurement is executable; next engineering obligation: run the bounded real-input pilot and inspect cumulative cost; public claims unchanged; curator decision required: No. Detail: linked timing validation.
+
+### S15-NP1-SOURCE-RECOVERY-20261022
+
+**Hypothesis.** Recorded corrections, rejection runs and returns to a prompt may be frequent enough to support future probe-oriented reading.
+**METHOD.** Count all three frozen categories over every authenticated session, retaining zero-event sessions; authenticate missing prepared-menu origins through exact original D39 raw replay and independently reconstruct the complete census in a fresh native process.
+**Found.** The full census is verified complete and reaches the packet's common-event planning threshold. **Means.** Observed events are available for future scoped reading; frequency alone does not identify deliberate probing or private goals.
+
+All 1,399 sessions and 61 writers remain. The table reports total events, events divided by all sessions, and the mean of each writer's own per-session rate. Categories overlap; writer contributions differ.
+
+| Event | Total | Pooled rate | Mean writer rate |
+|---|---:|---:|---:|
+| Accepted model span at least 80% deleted | 429 | 0.306648 | 0.213936 |
+| Maximal run of at least three dismissals | 292 | 0.208721 | 0.209247 |
+| Return to the same prompt by the same writer | 792 | 0.566119 | 0.269971 |
+| Sum | 1,513 | 1.081487 | 0.693154 |
+
+983 sessions contain at least one event. The fixed planning rule uses the pooled sum, not the equal-writer mean; its weighting dependence remains explicit. No inference about deliberate information seeking, expected information gain or goal identification follows. No new probability or family counter is added.
+
+The original attempt failed before output because four corrections lacked prepared-menu origins. One separate engineering retry reproduced all affected session ledgers from authenticated raw logs, preserving every session and correction, the original thresholds and failed attempt. Nineteen checks and full constructed native replay pass; the first fixture mutation errors are retained and corrected without changing production gates. Corpus output hashes, fresh verification, native exits and released leases verify. Conservative cumulative charge is 310.913776 wall seconds within the original 1,800-second bound; no doubling. [Full method, controls and source receipts](results/phase_2_4_stage_15/DRIVE/NP1_SOURCE_RECOVERY_20261022.md). Instrument ledger, lesson and TODO updated; daily theory integration preserves unchanged interpretation. No tests harvested.
+
+Curator roll-up: bounded reading and recorded decisions; are observed probe-like events frequent enough for future scoped reading?; **Infrastructure**; the complete census reaches the fixed common-event planning route; project meaning: observed events are available but deliberate probing remains unidentified; next engineering obligation: measured admission for the commissioned directed-reading comparison; public claims unchanged; curator decision required: No. Detail: linked complete census and recovery record.
+
 ### S15-DRIVE-DIGEST-20261021
 
 **Hypothesis.** The completed evidence and remaining study obligations can be preserved through the scheduled research pause.
