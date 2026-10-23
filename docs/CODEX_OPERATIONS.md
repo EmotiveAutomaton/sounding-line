@@ -1,5 +1,7 @@
 # Codex operations
 
+**October 23 feature delivery:** [Both approved repository copies are verified](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
+
 **October 22 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
 The event census, full reading comparison, exact style parity and genre inputs are recorded.
 Directed reading remains unresolved with missing empirical controls; routing stays unchanged.

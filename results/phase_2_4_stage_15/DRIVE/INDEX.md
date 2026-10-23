@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**October 23 feature delivery:** [Both approved repository copies are verified](EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
+
 **October 22 daily integration:** [Complete digest](DIGEST_20261022.md).
 The event census, full reading comparison, exact style parity and genre inputs are recorded.
 Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
@@ -250,7 +252,7 @@ now govern unstarted work. D38's [canonical successor is verified complete](D38-
 descriptive positive on its retained support; repeated outcome reference passes
 the specified bias warning. Its original remains source-held. D4 canonical and Jester recovery are already complete;
 D2 hierarchical and D11 writer-slope extensions close for this campaign.
-EV1-EV3 are complete with the control dispositions in the current digest; EV4 is prepared for Tuesday delivery. DR/NP/GEN1 and population-relative SDT1 remain post-talk work. The theory filing and daily integrations are applied.
+EV1-EV3 are complete with the control dispositions in the current digest; EV4 receiving copies were verified October 23; recipient uptake and dictionary terms remain separate. DR/NP/GEN1 and population-relative SDT1 remain post-talk work. The theory filing and daily integrations are applied.
 
 The [prospective week runtime](WEEK_RUNTIME_20261018.md) is verified on exact
 boundary tests and full native replay. D32's [canonical primary passes complete

@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 23 feature delivery:** [Both approved repository copies are verified](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
+
 **October 22 integrated instrument state:** The full event census reaches the fixed common-event planning threshold without identifying deliberate probes. The directed-reading comparison is unresolved and lacks required empirical controls; exact style parity passes but the projected supplement is cost-held. Genre input matching is complete after a source-only recovery; feature reconstruction and scientific controls remain unfinished. All original per-instrument validation records below retain their limits. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
 
 **October 20 instrument handoff:** The [source-verified aggregate package](../results/phase_2_4_stage_15/DRIVE/EV4_RETURN_20261020/README.md) is prepared; receiving copies await destination approval. No measurement or admission changed. NP1/DR1 constructed validation remains recorded, with corpus execution still gated. [Daily record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261020.md).
@@ -36,7 +38,7 @@
 
 **OPS-S15-HEALTH-1019-0644:** Native workers, advancing outputs, source/research locks, counted CPU ownership, resources and terminal delivery verify. The GPU start floor and ToMpathy reservation remain. [Inspection](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261019_0644.md).
 
-**OPS-S15-EV4-TABLE:** The [engine feature table](../results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md) maps 21 complete channels to exact definitions, source hashes, controls and unavailable fields. Independent mapping, schema, dictionary-hash and privacy checks pass. V3 projections remain distinct from empirical reliability curves; EV3 control failures remain. Prepared locally for Tuesday delivery; literal dictionary terms remain unresolved.
+**OPS-S15-EV4-TABLE:** The [engine feature table](../results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md) maps 21 complete channels to exact definitions, source hashes, controls and unavailable fields. Independent mapping, schema, dictionary-hash and privacy checks pass. V3 projections remain distinct from empirical reliability curves; EV3 control failures remain. Both approved repository copies are hash-verified in the [October 23 delivery receipt](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md); recipient uptake and literal dictionary terms remain unresolved.
 
 **EV1 pause association verified:** the complete supported-word slope is positive and its within-session reference passes the frozen bias check. Independent source, QR, bootstrap and permutation audits pass. The scoped pause-association route is supported; attention causation remains unestablished. [Full evidence](../results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md).
 

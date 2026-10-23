@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+**October 23 feature delivery:** [Both approved repository copies are verified](results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
+
 **October 22 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261022.md).
 The event census, full reading comparison, exact style parity and genre inputs are recorded.
 Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
@@ -51,9 +53,7 @@ is prepared. No prior cost/resource hold is lifted.
   remain. Competence and human record requirements remain open.
 - [x] S15-TALK-PAGE: prose prepared ahead of Tuesday 18:00; missing estimates
   and intervals corrected just after the deadline, verified and pushed.
-- [ ] S15-TUESDAY-RETURN: source-verified package prepared; recipient copies
-  await destination approval. Retain receiving hashes; literal dictionary terms
-  remain unresolved. The demo reservation expired and was archived at this digest.
+- [x] S15-TUESDAY-RETURN: both explicitly approved repository copies completed October 23; all receiving hashes verified. Recipient uptake/deployment remains unverified; literal dictionary terms remain under S15-EV4. The original late-delivery history is retained.
 
 The [October 19 daily integration](results/phase_2_4_stage_15/DRIVE/DIGEST_20261019.md)
 is complete. Stage 15 remains open. EV1 pause association and EV2 signature recurrence
@@ -96,9 +96,8 @@ and paid cutoff. Tuesday delivery and the explicitly gated post-talk work remain
   closure independently verified. Scientific consumers remain separate.
 - [x] S15-EV1-EV3: complete validated executions and landings; EV3 remains
   control-invalid, with no habit badge.
-- [ ] S15-EV4: source-verified table prepared; deliver at Tuesday 20:00 digest,
-  retain receiving hashes and resolve literal dictionary terms. Unmeasured curves
-  and control gaps stay explicit. [Table](results/phase_2_4_stage_15/DRIVE/ENGINE_FEATURE_TABLE.md).
+- [x] S15-EV4-DELIVERY: both recipient folders contain the exact approved package; all receiving hashes retained. [Delivery](results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md).
+- [ ] S15-EV4: resolve literal dictionary release terms. Existing ordered-array hashes, unmeasured reliability curves and control gaps remain explicit; no recipient adoption or deployment is inferred.
 - [x] S15-D33-CALIBRATED-BUILD: smaller calibration-supported adapter and complete
   constructed statistical replay pass; original supported-match failure retained.
 - [ ] S15-D33-SUPPORTED: corpus run is cost-held, with at most 42.032 seconds of the

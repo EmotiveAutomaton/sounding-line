@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-EV4-DELIVERY-20261023
+
+**Hypothesis.** The prepared aggregate engine-feature package can be delivered unchanged to both companion repositories.
+**METHOD.** Following explicit approval for both destinations, copy the frozen table, eight aggregate receipts, README and checksum manifest; independently verify every receiving file against the source SHA-256 map and exact file list.
+**Found.** Both approved repository copies are complete and byte-identical to the source package. **Means.** The delivery dependency is cleared; recipient adoption and deployment are not established.
+
+The original preparation packet and pending receipt remain unchanged. Literal dictionary release terms, missing measurements and all control limitations remain open; no participant text or identities were included. Other recipient work and Git indexes were untouched. No scientific probability, family counter, theory change or new test is added. [Complete delivery record](results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md).
+
+Curator roll-up: engine interface; can both companion projects receive the same defined features and evidence?; **Infrastructure**; both repository copies match all 12 approved source files; project meaning: the prepared aggregate return is now available in both named repositories; next engineering obligation: retain recipient uptake separately and resolve literal dictionary terms; public claims unchanged; curator decision required: No for this completed delivery. Detail: linked receipt.
+
 ### S15-DRIVE-DIGEST-20261022
 
 **Hypothesis.** Recorded writing events and metadata-guided reading can support the next bounded reader tests.

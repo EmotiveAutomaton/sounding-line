@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 23 feature delivery:** [Both approved repository copies are verified](EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
+
 **October 22 daily integration:** [Complete digest](DIGEST_20261022.md).
 The event census, full reading comparison, exact style parity and genre inputs are recorded.
 Directed reading remains unresolved with missing empirical controls; routing stays unchanged.
