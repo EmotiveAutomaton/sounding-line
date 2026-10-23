@@ -48,6 +48,7 @@ is prepared. No prior cost/resource hold is lifted.
 - [x] S15-GEN1-INPUT-BUILD: source-bound session/typed-word matching and exact occurrence-boundary manifest; nineteen targeted checks and full constructed native replay pass.
 - [x] S15-GEN1-POPULATION-RECOVERY: original corpus join failed before matching; eight additional checks and full native validation pass for the exact admitted-population successor. Original policy/failure and cumulative costs retained.
 - [x] S15-GEN1-INPUT: single source-only corpus retry and independent replay complete; primary input supported, all source/exclusion identities retained. Cumulative charge 279.617759 seconds; original allowance remaining 1520.382241 seconds. [Complete input record](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
+- [x] S15-GEN1-CONTINUATION-BUILD: six checks and complete native replay validate byte-exact retained extraction after a verify-phase wall timeout; conditional dispatch only, one cumulative S4 ceiling.
 - [x] S15-GEN1-COMPARISON-BUILD: twelve known-answer checks and full contained native feature/statistical replay pass; both reference banks implemented.
 - [ ] S15-GEN1: separate path-normalization feature recovery running after source-only refusal; complete replay, cost admission and the comparison remain. No corpus scores from the build.
 - [ ] S15-SDT1: Ghost synthetic route received and summary-bound; local

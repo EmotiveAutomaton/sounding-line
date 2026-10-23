@@ -786,6 +786,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **A released slot can already belong to the next job.** Compare the lease's
+  native owner identity, not merely whether its pathname still exists. The GEN1
+  validation process had exited and released its lease; ToMpathy correctly reused
+  that slot before the preflight. Do not delete or reclaim the next owner's lease.
+  (OPS-S15-GEN1-BUILD-20261023)
+- **Test real pin-path representations, not just hashes.** GEN1's actual bytes
+  matched PMAP, but a canonical lookup failed because the source ledger mixed
+  Windows and forward-slash paths. A separately validated successor normalizes
+  keys and refuses conflicting aliases; it does not normalize source contents or
+  relax any digest. (OPS-S15-GEN1-BUILD-20261023)
+
 - **Verify the exact landing entry after writing, not merely a file or link.**
   DR1 corpus parity produced its report and queue update, but a text replacement
   silently missed both Unicode-bearing ledger headers. A subsequent check only

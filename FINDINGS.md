@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### OPS-S15-GEN1-CONTINUATION-BUILD-20261023
+
+**Hypothesis.** A completed matched-feature extraction can be retained across its verification time limit without admitting an unverified result.
+**METHOD.** Copy completed extraction files exactly, reconstruct all features from their original sources in a fresh process, and deliberately test incomplete, changed, already-completed and wrongly classified interruption records.
+**Found.** Six targeted checks and the complete counted native rehearsal pass. **Means.** A bounded continuation is prepared if the live feature run reaches its combined cap during verification. The corpus comparison remains unrun.
+
+Exact byte reuse, complete native source replay, failed-case refusals, original source/output integrity and native exits verify. An initial dispatcher pinning preflight refused a directory before launch and was corrected. The live plan stays unchanged; all prior costs and the additional validation reservation remain under the single cumulative S4 limit. [Full build and accounting](results/phase_2_4_stage_15/DRIVE/GEN1_CONTINUATION_BUILD_20261023.md). No scientific probability, family count or new theory result.
+
+Curator roll-up: personal expression; can valid extraction survive a bounded verification interruption?; **Infrastructure**; the retained-extraction continuation passes complete native replay; project meaning: completed extraction need not be discarded when verification hits the cap; next engineering obligation: inspect the live terminal, admit only the specified continuation, then run the controlled comparison within the cumulative remainder; public claims unchanged; curator decision required: No. Detail: linked receipt.
+
 ### OPS-S15-GEN1-BUILD-20261023
 
 **Hypothesis.** The commissioned genre comparison can preserve matched exposure and distinguish stronger, weaker and absent author identification.
