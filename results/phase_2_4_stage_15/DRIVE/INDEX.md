@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**October 23 daily integration:** [Complete digest](DIGEST_20261023.md).
+GEN1 is complete: the genre contrasts are null and genre-level fake controls fail;
+equal weighting and the broader open play claim remain. Both approved feature-package
+copies are verified. No research worker is active. SDT1 implementation, empirical-control
+cost holds and the GPU resource hold remain; paid dispatch is closed. Stage 15 stays open.
+
 [GEN1 checkpoint continuation](GEN1_CONTINUATION_BUILD_20261023.md) passes six checks and full native source replay. It is prepared only for a verify-phase wall interruption; the original live plan and scientific definitions remain unchanged.
 
 **October 23 GEN1 complete:** [The full matched-genre comparison and independent replay are recorded](GEN1_COMPARISON_20261023.md). Descriptive genre contrasts are null and genre-level fake controls fail; equal weighting remains. All workers exited. Population-relative SDT1 remains implementation work; Stage 15 and other recorded holds remain open.

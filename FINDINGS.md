@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261023
+
+**Hypothesis.** At matched exposure, an exact program identifies the same writer more accurately from creative writing than argumentative writing.
+**METHOD.** Integrate the complete matched style/rhythm comparison and its independently replayed genre-exchange and fake-writer references, verify the approved aggregate package deliveries, and authenticate the prior screen and current queue state.
+**Found.** The style primary is null in its frozen band and does not favor creative writing; rhythm has no genre difference at its observed ceiling. Genre-level fake-writer references fail their centering gates in both channels. Both approved repository copies are verified. **Means.** No preferential fiction weighting is licensed; the broader play/frame claim remains open. Delivery is complete, while Stage 15 and its remaining work stay open.
+
+The [daily packet](results/phase_2_4_stage_15/DRIVE/DIGEST_20261023.md) integrates the complete genre result, its failed-control limits, source recovery and aggregate deliveries alongside the unchanged screen and family boundaries. All sources, recorded terminal events and native exits verify. The original genre landing already updated G220 and its afterword, instruments and TODO, with all diagnostic probabilities audited. No new hypothesis, computation, family rung or positive claim is added by this digest. No research worker is active; population-relative SDT1 remains implementation work and existing resource/cost holds remain. No tests harvested from this wake.
+
+Curator roll-up: personal expression; does creative writing identify its maker better at matched exposure?; **Narrows**; the completed genre comparison supplies no validated creative-writing advantage; project meaning: preserve equal genre weighting and the broader open play claim while the approved feature deliveries are complete; next engineering obligation: source admission and implementation of the population-relative sensitivity reader; public claim unchanged; curator decision required: No. Detail: linked digest and original full reports.
+
 ### S15-GEN1
 
 **Hypothesis.** At matched exposure, an exact program identifies the same writer more accurately from creative writing than argumentative writing.

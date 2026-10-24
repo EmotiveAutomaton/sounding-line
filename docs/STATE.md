@@ -1,5 +1,11 @@
 # STATE: the agent's operational file
 
+**October 23 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261023.md).
+GEN1 is complete: the genre contrasts are null and genre-level fake controls fail;
+equal weighting and the broader open play claim remain. Both approved feature-package
+copies are verified. No research worker is active. SDT1 implementation, empirical-control
+cost holds and the GPU resource hold remain; paid dispatch is closed. Stage 15 stays open.
+
 **October 23 GEN1 complete:** [The full matched-genre comparison and independent replay are recorded](../results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.md). Descriptive genre contrasts are null and genre-level fake controls fail; equal weighting remains. All workers exited. Population-relative SDT1 remains implementation work; Stage 15 and other recorded holds remain open.
 **October 23 feature delivery:** [Both approved repository copies are verified](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.
 
