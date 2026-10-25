@@ -475,3 +475,5 @@ October25: [OPS-S15-W3-THEORY-FILING](THEORY_FILING_20261025.md): All supplied W
 October25: [registered identification follow-up native gates](WA0_FOLLOWUP_NATIVE_20261025.md) complete; all three cost pilots dispatched. No scientific verdict or next generation.
 
 October25: [follow-up cost admissions](WA0_FOLLOWUP_COST_20261025.md) recorded. Three full comparisons now running; complete outcomes remain unreported.
+
+October25: [complete feature-block follow-up](WA0_H1_M_20261025.md) and [complete second-reader comparison](WA0_H1_P_20261025.md) are fully recorded with all members, limitations, replay and cumulative charges. Their native workers exited. The partition comparison remains running; no next generation. Repeated CA0 native notice reverified against its original full write-through; no rerun.

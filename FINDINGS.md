@@ -1,5 +1,114 @@
 # FINDINGS — the method archive
 
+### S15-WA0-H1-M-20261025
+
+**Hypothesis.** Does corrected final-page identification require any one of its four feature blocks?
+**METHOD.** On the unchanged 1,399-session source and 45 eligible writers, reproduce all eleven baseline channels, then remove each actual final-page feature block separately: eight connectives, six punctuation counts, sentence mean/spread, or quoted share. Preserve prompt-disjoint halves, independent donor writers and three fixed 30-writer galleries. Refit gallery-only accepted-share adjustment on retained features. Run all 1,000 within-prompt-and-role null assignments and 2,000 paired probe-writer bootstrap draws, then reconstruct the complete workload in a fresh native process.
+
+The table retains every baseline and follow-up member. Accuracy is correct identification with fractional credit for ties; context uses separate donor writers. Intervals resample probe writers while fixing complete galleries. Both gates require a descriptive one-sided null probability below .05 and a context-gap interval strictly above zero. All null assignments are valid; chance is 3.33% in each gallery. Baselines are exact replays, not new independent evidence.
+
+| Member | Channel | Real accuracy, % | Context accuracy, % | Real minus context, points [95% interval] | Descriptive permutation probability | Both gates pass |
+|---|---|---:|---:|---|---:|---|
+| Original reader | Final-page habits, raw | 44.44 | 0.00 | 44.44 [28.89, 60.00] | 0.000999 | Yes |
+| Original reader | Final-page habits, accepted-share adjusted (primary) | 42.22 | 0.00 | 42.22 [26.67, 57.78] | 0.000999 | Yes |
+| Original reader | Typed-fragment habits | 51.11 | 0.00 | 51.11 [37.78, 64.44] | 0.000999 | Yes |
+| Original reader | Final-page style, raw | 28.89 | 0.00 | 28.89 [15.56, 42.22] | 0.000999 | Yes |
+| Original reader | Final-page style, adjusted | 28.89 | 0.00 | 28.89 [15.56, 42.22] | 0.000999 | Yes |
+| Original reader | Acceptance lean | 26.67 | 2.22 | 24.44 [11.11, 37.78] | 0.000999 | Yes |
+| Original reader | Length | 24.44 | 6.67 | 17.78 [4.44, 33.33] | 0.000999 | Yes |
+| Original reader | Request count | 22.22 | 0.00 | 22.22 [11.11, 33.33] | 0.000999 | Yes |
+| Original reader | Revision | 40.00 | 0.00 | 40.00 [26.67, 55.56] | 0.000999 | Yes |
+| Original reader | Rhythm | 82.22 | 0.00 | 82.22 [71.11, 93.33] | 0.000999 | Yes |
+| Original reader | Process style | 40.00 | 0.00 | 40.00 [26.67, 55.56] | 0.000999 | Yes |
+| Without connectives | Final-page habits, raw | 35.56 | 0.00 | 35.56 [22.22, 48.89] | 0.000999 | Yes |
+| Without connectives | Final-page habits, accepted-share adjusted (primary) | 35.56 | 0.00 | 35.56 [22.22, 51.11] | 0.000999 | Yes |
+| Without punctuation | Final-page habits, raw | 37.78 | 0.00 | 37.78 [24.44, 53.33] | 0.000999 | Yes |
+| Without punctuation | Final-page habits, accepted-share adjusted (primary) | 40.00 | 0.00 | 40.00 [26.67, 53.33] | 0.000999 | Yes |
+| Without quoted share | Final-page habits, raw | 40.00 | 0.00 | 40.00 [26.67, 53.33] | 0.000999 | Yes |
+| Without quoted share | Final-page habits, accepted-share adjusted (primary) | 42.22 | 0.00 | 42.22 [26.67, 57.78] | 0.000999 | Yes |
+| Without sentence length | Final-page habits, raw | 35.56 | 0.00 | 35.56 [22.22, 48.89] | 0.000999 | Yes |
+| Without sentence length | Final-page habits, accepted-share adjusted (primary) | 33.33 | 0.00 | 33.33 [20.00, 46.67] | 0.000999 | Yes |
+
+The paired table reports original baseline minus the follow-up on the same writers. A positive value favors the baseline; intervals containing zero do not resolve a difference. All paired intervals use 2,000 draws and hold galleries fixed.
+
+| Member | Channel | Baseline minus member accuracy, points [95% interval] | Baseline minus member context gap, points [95% interval] |
+|---|---|---|---|
+| Without connectives | Final-page habits, raw | 8.89 [-8.89, 26.67] | 8.89 [-8.89, 26.67] |
+| Without connectives | Final-page habits, accepted-share adjusted (primary) | 6.67 [-13.33, 24.50] | 6.67 [-13.33, 24.50] |
+| Without punctuation | Final-page habits, raw | 6.67 [-6.67, 20.00] | 6.67 [-6.67, 20.00] |
+| Without punctuation | Final-page habits, accepted-share adjusted (primary) | 2.22 [-6.67, 13.33] | 2.22 [-6.67, 13.33] |
+| Without quoted share | Final-page habits, raw | 4.44 [-2.22, 13.33] | 4.44 [-2.22, 13.33] |
+| Without quoted share | Final-page habits, accepted-share adjusted (primary) | 0.00 [-6.67, 6.67] | 0.00 [-6.67, 6.67] |
+| Without sentence length | Final-page habits, raw | 8.89 [0.00, 20.00] | 8.89 [0.00, 20.00] |
+| Without sentence length | Final-page habits, accepted-share adjusted (primary) | 8.89 [0.00, 20.00] | 8.89 [0.00, 20.00] |
+
+**Found.** All four raw and adjusted ablations pass the two identification gates. Adjusted accuracy spans 33.33% to 42.22%, against the reproduced 42.22% baseline. Every paired baseline-minus-ablation interval includes zero, including the sentence-length interval whose lower endpoint is exactly zero. The strongest point reduction therefore does not establish that any individual block is necessary.
+**Means.** The conditional pattern survives each single block removal. Correlated features, changed metric weighting and mixed human/model pages prevent a causal mechanism claim. A block-removal difference was not resolved; sensitivity of those paired differences at a useful size is untested. This is readout attribution, not an intervention on writers. The separate process channels were reproduced unchanged, not ablated. No further generation is authorized.
+
+Complete main and fresh replay consumed 631.109375 CPU seconds; all earlier native and pilot charges bring the card to 709.1875 of its 5,400 CPU-second ceiling. All frozen sources, outputs and original native exits verify. Raw text, writer identities and per-writer profiles remain private. All probabilities are descriptive; the multiplicity inventory records them without changing decision families. No new tests were harvested from this wake.
+
+Aggregate result and integrity record: [complete receipt](results/phase_2_4_stage_15/DRIVE/WA0_H1_M_20261025.json).
+
+Curator roll-up: person-pattern inference; Does corrected final-page identification require any one of its four feature blocks?; **Strengthens**; Supports conditional final-page identification after each single feature-block removal; no individual block's necessity or causal role is established.; project meaning: scope remains conditional on the frozen representation and gallery; next engineering obligation: complete remaining commissioned cards and the partition comparison; public claim newly licensed only within this scope; curator decision required: No. Detail: WA0_H1_M_20261025.md.
+
+### S15-WA0-H1-P-20261025
+
+**Hypothesis.** Does corrected identification survive a second, shape-based reader on the same writers and galleries?
+**METHOD.** Reproduce every original channel, then replace squared Euclidean distance with correlation distance after the unchanged gallery-only scaling, imputation and accepted-share adjustment. Preserve all 45 writers, original role partitions and fixed 30-writer galleries. A centered profile with no shape has neutral zero similarity and exact fractional ties. Run 1,000 within-prompt-and-role null assignments and 2,000 paired writer bootstrap draws for all eleven channels, then independently replay the complete workload.
+
+The table retains every baseline and follow-up member. Accuracy is correct identification with fractional credit for ties; context uses separate donor writers. Intervals resample probe writers while fixing complete galleries. Both gates require a descriptive one-sided null probability below .05 and a context-gap interval strictly above zero. All null assignments are valid; chance is 3.33% in each gallery. Baselines are exact replays, not new independent evidence.
+
+| Member | Channel | Real accuracy, % | Context accuracy, % | Real minus context, points [95% interval] | Descriptive permutation probability | Both gates pass |
+|---|---|---:|---:|---|---:|---|
+| Original reader | Final-page habits, raw | 44.44 | 0.00 | 44.44 [28.89, 60.00] | 0.000999 | Yes |
+| Original reader | Final-page habits, accepted-share adjusted (primary) | 42.22 | 0.00 | 42.22 [26.67, 57.78] | 0.000999 | Yes |
+| Original reader | Typed-fragment habits | 51.11 | 0.00 | 51.11 [37.78, 64.44] | 0.000999 | Yes |
+| Original reader | Final-page style, raw | 28.89 | 0.00 | 28.89 [15.56, 42.22] | 0.000999 | Yes |
+| Original reader | Final-page style, adjusted | 28.89 | 0.00 | 28.89 [15.56, 42.22] | 0.000999 | Yes |
+| Original reader | Acceptance lean | 26.67 | 2.22 | 24.44 [11.11, 37.78] | 0.000999 | Yes |
+| Original reader | Length | 24.44 | 6.67 | 17.78 [4.44, 33.33] | 0.000999 | Yes |
+| Original reader | Request count | 22.22 | 0.00 | 22.22 [11.11, 33.33] | 0.000999 | Yes |
+| Original reader | Revision | 40.00 | 0.00 | 40.00 [26.67, 55.56] | 0.000999 | Yes |
+| Original reader | Rhythm | 82.22 | 0.00 | 82.22 [71.11, 93.33] | 0.000999 | Yes |
+| Original reader | Process style | 40.00 | 0.00 | 40.00 [26.67, 55.56] | 0.000999 | Yes |
+| Correlation reader | Final-page habits, raw | 40.00 | 0.00 | 40.00 [26.67, 53.33] | 0.000999 | Yes |
+| Correlation reader | Final-page habits, accepted-share adjusted (primary) | 37.78 | 0.00 | 37.78 [24.44, 51.11] | 0.000999 | Yes |
+| Correlation reader | Typed-fragment habits | 55.56 | 2.22 | 53.33 [40.00, 66.67] | 0.000999 | Yes |
+| Correlation reader | Final-page style, raw | 31.11 | 0.00 | 31.11 [17.78, 44.44] | 0.000999 | Yes |
+| Correlation reader | Final-page style, adjusted | 35.56 | 0.00 | 35.56 [22.22, 51.11] | 0.000999 | Yes |
+| Correlation reader | Acceptance lean | 17.78 | 2.22 | 15.56 [4.44, 28.89] | 0.000999 | Yes |
+| Correlation reader | Length | 3.33 | 3.33 | 0.00 [0.00, 0.00] | 1.000000 | No |
+| Correlation reader | Request count | 3.33 | 3.33 | 0.00 [0.00, 0.00] | 1.000000 | No |
+| Correlation reader | Revision | 15.56 | 4.44 | 11.11 [0.00, 22.22] | 0.007992 | No |
+| Correlation reader | Rhythm | 80.00 | 0.00 | 80.00 [66.67, 91.11] | 0.000999 | Yes |
+| Correlation reader | Process style | 53.33 | 0.00 | 53.33 [37.78, 66.72] | 0.000999 | Yes |
+
+The paired table reports original baseline minus the follow-up on the same writers. A positive value favors the baseline; intervals containing zero do not resolve a difference. All paired intervals use 2,000 draws and hold galleries fixed.
+
+| Member | Channel | Baseline minus member accuracy, points [95% interval] | Baseline minus member context gap, points [95% interval] |
+|---|---|---|---|
+| Correlation reader | Final-page habits, raw | 4.44 [-8.89, 17.78] | 4.44 [-8.89, 17.78] |
+| Correlation reader | Final-page habits, accepted-share adjusted (primary) | 4.44 [-8.89, 17.78] | 4.44 [-8.89, 17.78] |
+| Correlation reader | Typed-fragment habits | -4.44 [-15.56, 6.67] | -2.22 [-11.11, 6.67] |
+| Correlation reader | Final-page style, raw | -2.22 [-15.56, 11.11] | -2.22 [-15.56, 11.11] |
+| Correlation reader | Final-page style, adjusted | -6.67 [-20.00, 6.67] | -6.67 [-20.00, 6.67] |
+| Correlation reader | Acceptance lean | 8.89 [0.00, 20.00] | 8.89 [0.00, 20.00] |
+| Correlation reader | Length | 21.11 [10.00, 34.44] | 17.78 [4.44, 33.33] |
+| Correlation reader | Request count | 18.89 [7.78, 30.00] | 22.22 [11.11, 33.33] |
+| Correlation reader | Revision | 24.44 [6.67, 42.22] | 28.89 [11.11, 46.67] |
+| Correlation reader | Rhythm | 2.22 [-6.67, 11.11] | 2.22 [-6.67, 11.11] |
+| Correlation reader | Process style | -13.33 [-26.67, 0.00] | -13.33 [-26.67, 0.00] |
+
+**Found.** The primary adjusted final-page channel passes both gates at 37.78% accuracy; its advantage over independent context is 37.78 points [24.44, 51.11]. The paired baseline-minus-second-reader difference is 4.44 points [-8.89, 17.78], so superiority of either reader is unresolved. Eight of eleven channels pass. Length and request count have only one coordinate and therefore no centered shape: both tie at 3.33% chance with a zero context gap. Revision has a positive point gap and a small permutation tail, but its interval reaches zero and fails the joint gate. Those three failures remain visible.
+**Means.** Final-page identification is supported under both frozen readers. This is a second pipeline on the same data, not independent population replication. The three process failures rule out a claim of robustness across every channel; one-coordinate degeneracy is loss of information by this reader, not negative evidence about writers. Sensitivity for the unresolved revision gap and paired reader differences is untested. Do not select a winning reader or infer attention, values or automaticity. No further generation is authorized.
+
+Complete main and fresh replay consumed 816.453125 CPU seconds; all earlier native and pilot charges bring the card to 907.796875 of its 5,400 CPU-second ceiling. All frozen sources, outputs and original native exits verify. Raw text, writer identities and per-writer profiles remain private. All probabilities are descriptive; the multiplicity inventory records them without changing decision families. No new tests were harvested from this wake.
+
+Aggregate result and integrity record: [complete receipt](results/phase_2_4_stage_15/DRIVE/WA0_H1_P_20261025.json).
+
+Curator roll-up: person-pattern inference; Does corrected identification survive a second, shape-based reader on the same writers and galleries?; **Narrows**; Supports final-page identification under the second reader; three process channels fail its joint gate, so robustness does not cover every channel.; project meaning: scope remains conditional on the frozen representation and gallery; next engineering obligation: complete remaining commissioned cards and the partition comparison; public claim newly licensed only within this scope; curator decision required: No. Detail: WA0_H1_P_20261025.md.
+
+
 ### OPS-S15-W3-WA0-FOLLOWUP-COST
 
 **Hypothesis.** Can all registered corrected-control follow-ups run their complete design within their individual cost limits?
