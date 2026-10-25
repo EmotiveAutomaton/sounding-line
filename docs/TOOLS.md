@@ -1,5 +1,7 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+**October 24 integrated instrument state:** No new instrument or scientific execution. Existing validation and failed-control limits are unchanged; exact genre features and the recorded aggregate deliveries remain verified. Population-relative sensitivity is still unbuilt, while the existing empirical-control and GPU holds remain. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md).
+
 **October 23 integrated instrument state:** Exact matched-genre features and the complete comparison independently replay; genre-level fake controls fail and license no preferential weighting. Both approved aggregate package copies are verified. The earlier event census, directed-reading control gap and invalid habit instrument retain their scopes. Population-relative sensitivity is unbuilt; recipient adoption and dictionary terms remain separate. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261023.md).
 
 **October 23 feature delivery:** [Both approved repository copies are verified](../results/phase_2_4_stage_15/DRIVE/EV4_DELIVERY_20261023.md). All 12 files per destination match the prepared aggregate package. The delivery hold is cleared; recipient adoption/deployment and literal dictionary terms remain unresolved. Earlier pending-delivery notes below describe their dated snapshots. Stage 15 and existing research holds remain open.

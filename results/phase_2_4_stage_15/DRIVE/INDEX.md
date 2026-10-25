@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**October 24 daily integration:** [Complete digest](DIGEST_20261024.md).
+No new scientific result; completed findings and failed-control limits are unchanged.
+Monitoring is healthy, with no research worker active. SDT1 remains unimplemented;
+GPU and cumulative cost holds remain, and paid dispatch is closed. Stage 15 stays
+open; the final digest/start freeze is Sunday October 25 at 20:00 PDT, draining by 22:00.
+
 **October 23 daily integration:** [Complete digest](DIGEST_20261023.md).
 GEN1 is complete: the genre contrasts are null and genre-level fake controls fail;
 equal weighting and the broader open play claim remain. Both approved feature-package

@@ -1,5 +1,15 @@
 # FINDINGS — the method archive
 
+### S15-DRIVE-DIGEST-20261024
+
+**Hypothesis.** The completed campaign evidence and its validity limits remain unchanged unless a new verified result has landed.
+**METHOD.** Reconcile terminal records since the previous digest, authenticate the completed reports and saved reference draws, reproduce the descriptive screen arithmetic, and inspect native processes, monitoring, locks and admission limits.
+**Found.** No new scientific result or failure has landed. Previously recorded findings and failed-control limits are unchanged; no research worker is active. **Means.** Stage 15 remains open with implementation work and resource/cost holds. Healthy monitoring does not mean the research queue is running or complete.
+
+The [daily packet](results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md) authenticates the unchanged completed screen, scientific receipts and three recorded operational inspections. Source bindings, research locks and monitoring pass. No new scientific result, probability or claim is added. Existing theory rows and afterwords remain current. SDT1 is unimplemented; GPU and cumulative cost holds remain. No tests harvested from this wake.
+
+Curator roll-up: campaign evidence integrity; has new evidence changed the completed findings or made the remaining work executable?; **Infrastructure**; no new scientific evidence or admitted executable successor was found; project meaning: retain prior conclusions and explicit unfinished work; next engineering obligation: implement and validate the authorized population-relative sensitivity reader; public claim unchanged; curator decision required: No. Detail: linked daily packet and original complete reports.
+
 ### S15-DRIVE-DIGEST-20261023
 
 **Hypothesis.** At matched exposure, an exact program identifies the same writer more accurately from creative writing than argumentative writing.
