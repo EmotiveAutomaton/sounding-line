@@ -1,5 +1,19 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-SHARED-REPAIR-ATTEMPT1: first shared recovery failure and five native gates fully recorded.
+- [x] OPS-S15-W3-SHARED-REPAIR-FINAL: second shared repair recorded; no third retry.
+- [ ] WC2 / FR1 / TR5 / span-dependent WC4: blocked by exhausted shared extraction failure (accepted origin reused); no scientific verdict.
+- [ ] PP1: independent full source, then exact statistical native validation and complete-design cost pilot.
+
+- [x] OPS-S15-W3-WA1-INPUTS: complete 86-cell input preparation and fresh replay.
+- [x] OPS-S15-W3-CA1-RESOURCE-COST: cooperative pause, saved chunks, false monitor alarm and cost hold recorded.
+- [x] WA1: complete conditional instrument audit and fresh replay landed as S15-WA1-20261025.
+- [ ] WA1 retrained planted-preference calibration remains GPU-deferred; no universal exclusion from the saved-forecast audit.
+- [ ] CA1: demonstrate an exact cheaper implementation before any continuation; all original texts and controls retained.
+
+- [x] OPS-S15-W3-NATIVE-COVERAGE: four native fixtures and full-population coverage cost pilot recorded.
+- [ ] WB1: measure remaining effects/encoder and final-bootstrap cost; keep full-study admission separate.
+
 - [x] OPS-S15-W3-CA1-INPUTS: complete instrument write-through; dependent studies remain separately gated.
 - [x] OPS-S15-W3-WB1-VERIFIED: complete instrument write-through; dependent studies remain separately gated.
 - [x] OPS-S15-W3-WD1-COST: complete instrument write-through; dependent studies remain separately gated.
@@ -7,18 +21,18 @@
 - [x] OPS-S15-W3-CA1-DEPENDENCY: complete instrument write-through; dependent studies remain separately gated.
 - [x] OPS-S15-W3-SHARED-SPAN-FAILURE: complete instrument write-through; dependent studies remain separately gated.
 - [ ] WD1.h1: cost-held; no reduction of its required reference bank.
-- [ ] WC2 / FR1: validate one shared canonical-span recovery against actual failing input.
+- [x] WC2 / FR1: first canonical-span recovery validated; corpus successor exposed a distinct missing-comparator case (OPS-S15-W3-SHARED-REPAIR-ATTEMPT1).
 
 - [x] S15-WA0-H1-20261025 / S15-WA0-LITERAL-20261025 / S15-GEN1-IC-20261025: complete internal write-through, original control retained, corrected scope explicit.
 - [ ] WA0.h1.s / WA0.h1.m / WA0.h1.p: build the registered one-generation checks, 5,400 CPU seconds each; no locked holdout.
 - [ ] WA0 companion return: prepare exact aggregate licence and reader identity; recipient adoption remains separate.
 
 - [x] S15-CA5: complete controlled comparison and fresh replay landed; narrow recurring disagreement claim.
-- [ ] S15-CA5.s: frozen coding/split/quality specification checks; cap1,800 CPU seconds.
-- [ ] S15-CA5.m: topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
+- [x] S15-CA5.s: complete comparison and fresh replay recorded as S15-CA5-S-20261025; no next generation; frozen coding/split/quality specification checks; cap1,800 CPU seconds.
+- [x] S15-CA5.m: complete comparison and fresh replay recorded as S15-CA5-M-20261025; no next generation; topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
 - [ ] S15-CA5.r: independently admitted Jester recurrence replication; comparable feature construction must be frozen before execution; cap1,800 CPU seconds.
 
-**October 25 Week 3 checkpoint:** Completed control comparisons and source checks are recorded in the claim ledger and full evidence records. Gear 2 continues with the CPU encoder cost pilot and validation of the next event studies. The paid PROC calibration failed its response-format gate; a tested repair is prepared but its transfer remains approval-held. The full sensitivity reference bank is cost-held. Local GPU work stays parked. Remaining commissioned cards and the ready-queue target are unfinished. The new packet supersedes earlier weekly closure snapshots: new starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
+**October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 is preparing the independent pause-study source. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. Remaining commissioned cards, theory filing and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
 
 - [x] OPS-S15-W3-INPUT-INSTRUMENTS: completed instrument/source or failure write-through; Complete the measured pilots and build the remaining commissioned cards.
 - [x] S15-CA0: completed instrument/source or failure write-through; Prepare exact conversation/prompt-disjoint inputs and time the pinned multilingual encoder.

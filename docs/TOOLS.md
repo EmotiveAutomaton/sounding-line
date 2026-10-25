@@ -2597,6 +2597,23 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-SHARED-REPAIR-FINAL:** The shared event source remains instrument-invalid after two engineering healing attempts; dependent comparisons are untested. The independent PP1 source native check passes. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_SHARED_SOURCE_FINAL_20261025.md).
+
+**S15-WA1-20261025:** The retained personal-model audit finds conditional sensitivity limits; no universal absence of personal advantage is licensed. Full original roster, canonical labels, 1,000 outer worlds, original inner intervals and fresh replay verified. [Complete audit](../results/phase_2_4_stage_15/DRIVE/WA1_AUDIT_20261025.md).
+
+**OPS-S15-W3-SHARED-REPAIR-ATTEMPT1:** Native fixtures pass, but all three first repaired source pilots expose a missing unchosen comparator. Their corpus admission remains blocked; second shared repair is diagnosis-only. The independent sensitivity native handlers pass. Watcher pause-schema repair passes 48 checks and is loaded. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_SOURCE_REPAIR_ATTEMPT_20261025.md).
+
+**S15-CA5-S-20261025:** Specification stability supports scoped recurring perceived-harm judgments; it does not identify private values. [Full record](../results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.md).
+
+**S15-CA5-M-20261025:** Overall severity and topic-specific recurrence coexist; causal attribution remains open. [Full record](../results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.md).
+
+**OPS-S15-W3-WA1-INPUTS:** Complete retained adapter inputs are verified; sensitivity remains untested. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_INPUTS_AND_RESOURCE_HOLD_20261025.md).
+
+**OPS-S15-W3-CA1-RESOURCE-COST:** The interrupted encoder is cost-held with validated saved chunks; no scientific negative is inferred. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_INPUTS_AND_RESOURCE_HOLD_20261025.md).
+
+
+**OPS-S15-W3-NATIVE-COVERAGE:** Four exact-handler native fixtures and the full-population event coverage pilot pass fresh replay. Coverage plus charged prior work projects 7935.078125 CPU seconds; effect/encoder and final-bootstrap costs remain unadmitted. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_NATIVE_AND_COVERAGE_20261025.md).
+
 **OPS-S15-W3-CA1-INPUTS:** The prepared source retains 2,979 eligible annotators and 226,228 comparisons, with 893,400 unique text records and 100,866 explained comparisons. The 624 below-threshold source annotators remain explicit exclusions; no additional unsupported people are silently discarded. The frozen input and all 11 pinned model-intake files are ready. Neither input preparation nor model download fits preference directions. Model revision e8f8c211226b894fcb81acc59f3b34ba3efd5f42 is retained; provider spend is zero.
 
 **OPS-S15-W3-WB1-VERIFIED:** The complete source and fresh replay pass: 61 writers and 2,181,606 timing intervals. The interrupted recovery spent 1,803.359375 CPU seconds; the continuation spent 1,063.421875. All attempts and native validation total 2,875.40625 CPU seconds. This is an exact S4 verification continuation under the original shared 10,800-second ceiling, not a third healing attempt. Event clocks describe logged changes, not physical keypresses. Coverage, effects and typing comparisons remain separate.

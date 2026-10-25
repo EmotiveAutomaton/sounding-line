@@ -455,3 +455,13 @@ October 23 S15-GEN1: full feature and comparison components completed, both refe
 
 
 October 25: [complete input, recovery and cost records](WEEK3_INSTRUMENTS_20261025.md). WB1 source verified; CA1 dependency recovery admitted after actual encoder gate; WD1 full reference cost-held; PROC failed format calibration with one-cent reconciliation; shared WC2/FR1 span assertion under bounded engineering recovery.
+
+October 25: [next native gates and full-population coverage timing](WEEK3_NATIVE_AND_COVERAGE_20261025.md) fully recorded. Checkpoint d5268e965 pushed. Source and scientific admissions remain distinct; ready-queue depth and remaining card construction remain open.
+
+October 25: [complete specification and mechanism follow-ups](CA5_FOLLOWUPS_20261025.md) and [saved adapter inputs plus encoder pause/cost hold](WEEK3_INPUTS_AND_RESOURCE_HOLD_20261025.md) fully recorded. Environmental pause consumes no healing attempt. False monitor alarm is a terminal-schema engineering defect; narrow repair tested. No new tests harvested from the correction approval.
+
+October 25: [first shared repair attempts and sensitivity native gates](WEEK3_SOURCE_REPAIR_ATTEMPT_20261025.md) recorded. Engineering class: missing unchosen comparator after canonical-span repair; second shared repair pending diagnosis. Watcher schema repair verified loaded. The saved-adapter sensitivity cost pilot is independently running.
+
+October 25: [complete retained-adapter conditional sensitivity audit](WA1_AUDIT_20261025.md), source/native/pilot/main costs and authenticated launcher version history recorded. The complete main worker exited; no model retraining or new inference.
+
+October25: [second/final shared source healing](WEEK3_SHARED_SOURCE_FINAL_20261025.md) failed on accepted origin reused. Class: engineering. Two attempts exhausted; dependent WC2/FR1/TR5/WC4 extraction held. Independent PP1 source admitted after native replay. No third repair.

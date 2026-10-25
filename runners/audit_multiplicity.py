@@ -73,6 +73,18 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('CA5.s all_released_raters unsure0.0 odd_even', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s all_released_raters unsure0.0 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s all_released_raters unsure0.5 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s all_released_raters unsure1.0 odd_even', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s all_released_raters unsure1.0 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s published_quality_subset unsure0.0 odd_even', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s published_quality_subset unsure0.0 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s published_quality_subset unsure0.5 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s published_quality_subset unsure1.0 odd_even', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.s published_quality_subset unsure1.0 first_last', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.m all_released_raters overall severity', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
+    ('CA5.m published_quality_subset overall severity', 0.000999000999000999, "diagnostic", "results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.json"),
     ('WA0.literal.channels.EV3.final.permutation.one_sided_p', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_20261025.json'),
     ('WA0.literal.channels.EV3.final.residual.permutation.one_sided_p', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_20261025.json'),
     ('WA0.literal.channels.EV3.typed.permutation.one_sided_p', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_20261025.json'),

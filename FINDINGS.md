@@ -1,5 +1,178 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-SHARED-REPAIR-FINAL
+
+**Hypothesis.** Can the second shared span extractor preserve valid single-option menus while reconstructing every original source event?
+**METHOD.** Retain absent-comparator support explicitly; validate the exact successor on six constructed/actual-source fixture sessions in a counted native process with fresh replay, then run the original first-tenth corpus source pilot. Inspect the terminal, preserved exception and original native identities. Separately validate the independent pause-study source without using this failed dependency.
+
+The table records complete execution attempts, not scientific comparisons.
+
+| Attempt | State | CPU seconds |
+|---|---|---:|
+| Second shared source native fixture | COMPLETE | 1.390625 |
+| Second shared source first-tenth pilot | FAILED | 43.9375 |
+| Independent pause source native fixture | COMPLETE | 2.828125 |
+
+**Found.** The repaired fixture passes but the corpus pilot stops after 80 prepared sessions on `accepted origin reused`. The repeated accepted-menu assumption fails on another real source case. No corpus comparison is produced. The WC2 cumulative source charge through this attempt is 55.046875 CPU seconds. Both allowed shared engineering healing attempts are exhausted.
+**Means.** The shared extraction route is instrument-invalid; WC2, FR1, TR5 and the span-dependent WC4 source remain blocked. Preserve all attempts and checkpoints, do not run a third retry or relabel the same repair as a new hypothesis. The separate one-option-menu scope decision cannot fix this failure. Independent PP1 source preparation passes native replay and proceeds from the fully verified WB1 continuation, retaining every canonical session. This failure says nothing for or against the scientific hypotheses.
+
+Curator roll-up: instrument integrity; Does the repaired source cover the declared event population?; **Infrastructure**; the second shared repair fails on a reused-origin case; project meaning: dependent comparisons remain scientifically untested; next engineering obligation: dispatch independent commissioned work; public claim unchanged; curator decision required: No for stopping the exhausted route. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/WEEK3_SHARED_SOURCE_FINAL_20261025.json).
+
+
+### S15-WA1-20261025
+
+**Hypothesis.** Did the retained personal-model choice tests use incorrect labels, and could their original decision rule detect a useful added advantage?
+**METHOD.** Authenticate all 86 original retained cells and their original writer/prompt populations. Re-score saved likelihoods with original labels, canonical labels at fixed original temperatures, and canonical labels with temperatures recalibrated only on the original earlier partition. Compare each base model with uniform choice. Add legal true-choice mixtures that improve every writer's mean half-Brier loss by 0.01, 0.02, 0.03 or 0.05; resample complete writer clusters 1,000 times, applying both original 4,000-draw intervals against all three rivals. Repeat the complete calculation in an independent native process. No new model inference or retraining occurs.
+
+The table counts model cells by the smallest **added improvement over that cell's retained personal forecasts** detected in at least 80% of the constructed worlds. It is not a common total advantage over all rivals.
+
+| Smallest added loss improvement | Cells |
+|---|---:|
+| 0.02 | 13 |
+| 0.03 | 13 |
+| 0.05 | 9 |
+| More than 0.05 | 49 |
+| Unsupported requested plant | 2 |
+
+**Found.** No retained cell passes the original useful-personal-advantage rule under any of the three label/calibration variants. Canonical labels differ in all three retained populations; they change 2 of 303, 10 of 324 and 10 of 341 evaluation choices respectively (the repeated cells share these populations). Thirteen cells detect an added improvement of 0.02; 71 require a larger increment or never reach the detection criterion on this grid, and two have infeasible requested plants. Corrected base-versus-uniform mean loss differences span -0.016359 to 0.021332 across cells, so the base readout is not uniformly better or worse than uniform. Every cell's two intervals, all label variants, four detection frequencies with Monte Carlo intervals, actual rival advantages and unsupported counts are retained in the aggregate receipt.
+**Means.** This is conditional sensitivity of existing forecasts. An added improvement is not the same as a fixed total advantage against each rival, and observed-cell non-passing plus this simulation does not license a universal claim of no personal advantage above that size. Per-writer models and retrained planted-preference learning remain open; retraining remains GPU-deferred. The original diagnostic is preserved, including the distinction between unresolved, non-passing and unsupported. No new generation of follow-ups is opened by this instrument audit; remaining commissioned calibration and comparison cards retain their own gates.
+
+The complete 100-world cost pilot consumed 120.5 CPU seconds and discarded scientific scores. Its conservative full-run forecast was 1205.0 CPU seconds; the complete main and fresh verification consumed 193.25. The cumulative source/native/pilot/main charge is 495.234375 of 7,200 CPU seconds. Linear scaling overestimated repeated fixed calibration/setup work. All completed output hashes and original native exits were checked. The pre-main launcher was archived with its exact original digest after adding main-mode support; scientific and runtime sources remained unchanged.
+
+Curator roll-up: instrument integrity; Could retained personal-model tests detect an added useful improvement?; **Infrastructure**; sensitivity is conditional and does not license universal exclusion; project meaning: keep instrument limits separate from model-learning claims; next engineering obligation: remaining commissioned cards and deferred retrained-preference calibration; public claim unchanged; curator decision required: No. Detail: [complete aggregate audit](results/phase_2_4_stage_15/DRIVE/WA1_AUDIT_20261025.json).
+
+
+### OPS-S15-W3-SHARED-REPAIR-ATTEMPT1
+
+**Hypothesis.** Can the canonical accepted-span repair prepare every declared source event, and can the saved-adapter sensitivity handlers pass native replay before a corpus timing run?
+**METHOD.** Exercise the exact repaired handlers in counted native processes with fresh verification, then run the fixed first-tenth event-source pilots. Inspect each terminal, preserved exception and original native identity. Validate the sensitivity and timing handlers separately on their known-answer fixtures.
+
+The table reports complete execution attempts and counted CPU time. A passing constructed fixture is not proof of full-corpus compatibility.
+
+| Attempt | Terminal | CPU seconds |
+|---|---|---:|
+| native-WC2inputs-recovery | COMPLETE | 1.15625 |
+| native-FR1inputs-recovery | COMPLETE | 0.96875 |
+| native-TR5inputs-recovery | COMPLETE | 0.96875 |
+| native-WA1-analysis-native | COMPLETE | 3.765625 |
+| native-WA1-timing-native | COMPLETE | 4.234375 |
+| WC2-inputs-recovery-cost-pilot | FAILED | 6.640625 |
+| FR1-inputs-recovery-cost-pilot | FAILED | 6.4375 |
+| TR5-inputs-recovery-cost-pilot | FAILED | 8.609375 |
+
+**Found.** All five native fixtures pass fresh replay. All three repaired event-source pilots stop on the same explicit assertion: an accepted menu has no unchosen comparator. No downstream comparison or score is produced. The native tests had covered the prior canonical-append defect but did not cover this actual source case.
+**Means.** Retain the original failures, all source events and the first shared repair. Diagnose the missing-comparator case before the second and final shared engineering repair; do not invent a comparison or silently narrow the population. The independent adapter sensitivity timing pilot is admitted with all 86 retained cells, the original inner resampling count and no new model inference.
+
+The separate encoder monitor alarm is resolved operationally: the exact Week 3 cooperative-pause schema now owns its terminal notification without admitting science. All 48 targeted transition checks pass, including malformed records and repeated scans. The reloaded watcher reports the repaired source digest, the same owner and unchanged six-hour schedule; the original false alarm is preserved. The PowerShell script launcher was unavailable under the local execution policy, so the same documented watcher CLI was resumed after its old singleton lock released; policy was unchanged.
+
+Curator roll-up: instrument integrity; Do the repaired sources and sensitivity handlers support their intended next run?; **Infrastructure**; source pilots expose one shared missing-comparator case while sensitivity native checks pass; project meaning: source support and fixture success remain distinct; next engineering obligation: diagnose the second shared repair and finish sensitivity cost admission; public claim unchanged; curator decision required: No at this diagnosis. Detail: [complete integrity receipt](results/phase_2_4_stage_15/DRIVE/WEEK3_SOURCE_REPAIR_ATTEMPT_20261025.json).
+
+
+### OPS-S15-W3-CA1-RESOURCE-COST
+
+**Hypothesis.** Can the multilingual encoder continue within resource and cumulative-cost limits while preserving all required texts and comparisons?
+**METHOD.** Inspect the native pause, actual process exits, saved input bindings and each contiguous chunk's hash, dimensions, indices and unit norms; project complete encoding and fresh replay from recorded CPU work. Keep incomplete work separate from a completed timing pilot.
+
+The table records operational accounting, not scientific outcomes.
+
+| Item | Recorded amount |
+|---|---:|
+| Retained chunks / texts | 81 / 41,472 |
+| Pilot text requirement | 99,169 |
+| Full text requirement | 893,400 |
+| Interrupted attempt CPU seconds | 3,463.5625 |
+| Earlier charged CPU seconds | 273.703125 |
+| Diagnostic reserve CPU seconds | 10 |
+| Cumulative charge including reserve | 3,747.265625 |
+
+**Found.** Windows commit headroom fell below the unchanged 6 GiB yield floor; the worker cooperatively saved a pause and exited. All retained checkpoints validate structurally, but fresh embedding replay has not occurred. Observed encoding work projects about 148,034 CPU seconds for full execution and replay alone, above the original 43,200 and doubled 86,400 ceiling. Even the fastest observed chunk rate projects about 131,796 seconds. The original pilot was interrupted, not completed and not a scientific negative.
+**Means.** Preserve the original pause and all chunks; do not resume the cost-inadmissible pipeline just to finish its pilot. No additional healing attempt is consumed by the resource interruption. A separately frozen exact cheaper implementation needs its own parity and timing evidence. Unrelated applications and parked GPU work are untouched. The missing-output monitor alarm is false: its schema recognized an earlier saved-result pause but not the explicit Week 3 checkpoint-validation pause. A narrow schema correction is tested without weakening scientific admission.
+
+Curator roll-up: scoped personal judgments or instrument integrity; What does this complete comparison or operational record license?; **Infrastructure**; The interrupted encoder is cost-held with validated saved chunks; no scientific negative is inferred.; project meaning: preserve the boundary between recurrence, construct validity and execution; next engineering obligation: remaining commissioned cards and cost-admitted successors; public claim scoped as stated; curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/WEEK3_INPUTS_AND_RESOURCE_HOLD_20261025.md).
+
+### OPS-S15-W3-WA1-INPUTS
+
+**Hypothesis.** Can the complete retained adapter roster be reconstructed with canonical labels before testing sensitivity?
+**METHOD.** Authenticate all original Stage 14 source completions and tokenizers, reproduce saved calibrated probabilities, prepare canonical labels without new model inference, and independently repeat the entire source preparation.
+
+The table distinguishes preparation from scientific admission.
+
+| Scope | Completion | Scientific admission |
+|---|---|---|
+| All 86 original retained cells | Fresh replay passed | No new performance or sensitivity result |
+
+**Found.** The complete original roster and original saved/model-filtered populations are retained; canonical labels are prepared and original calibrated probabilities reproduced. Later Stage 15 repairs remain separate. Execution and verification cost 167.5625 CPU seconds, plus 5.921875 for native validation.
+**Means.** The full-roster sensitivity cost pilot can proceed after its own exact-handler native validation. Preparation does not establish sensitivity or rehabilitate an earlier null.
+
+Curator roll-up: scoped personal judgments or instrument integrity; What does this complete comparison or operational record license?; **Infrastructure**; Complete retained adapter inputs are verified; sensitivity remains untested.; project meaning: preserve the boundary between recurrence, construct validity and execution; next engineering obligation: remaining commissioned cards and cost-admitted successors; public claim scoped as stated; curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/WEEK3_INPUTS_AND_RESOURCE_HOLD_20261025.md).
+
+### S15-CA5-M-20261025
+
+**Hypothesis.** Both a person's overall severity and their topic-specific departures can recur across different rated items.
+**METHOD.** In the fixed odd/even partition, measure severity as the correlation across raters of each half's mean leave-one-rater-out group/item deviation. Separately measure mean within-rater correlation of severity-centered harm-topic profiles. Rebuild all profiles under 1,000 independent itemwise rater-label reassignments within demographic groups; recompute real and reference endpoints within each of 2,000 paired-rater resamples. Repeat the complete comparison in a fresh process.
+
+The table gives each population and endpoint, observed correlation, unadjusted 95% paired-rater interval and reassignment mean. The severity and topic endpoints have different statistical units and must not be subtracted or read as variance shares.
+
+| Population | Endpoint | Correlation | 95% interval | Reference mean |
+|---|---|---:|---|---:|
+| All released (123) | Overall severity | 0.980455 | [0.971127, 0.991237] | -0.001496 |
+| All released (123) | Topic-specific departures | 0.139767 | [0.105093, 0.174035] | 0.000036 |
+| Published quality (104) | Overall severity | 0.974192 | [0.956091, 0.981702] | 0.003491 |
+| Published quality (104) | Topic-specific departures | 0.133955 | [0.096592, 0.170797] | -0.000068 |
+
+**Found.** Both endpoints recur in both populations. All four one-sided probabilities are 1/1001 and the four-endpoint Holm values are 4/1001. The topic endpoints reproduce the original comparison; they are aliases, not new independent evidence.
+**Means.** Stable overall severity coexists with a smaller topic-specific component after severity centering. This descriptive decomposition does not identify a causal mechanism, private values, independent competence or objective safety. Conditional intervals do not propagate uncertainty from newly sampled items. No further generation is registered.
+
+Curator roll-up: scoped personal judgments or instrument integrity; What does this complete comparison or operational record license?; **Strengthens**; Overall severity and topic-specific recurrence coexist; causal attribution remains open.; project meaning: preserve the boundary between recurrence, construct validity and execution; next engineering obligation: remaining commissioned cards and cost-admitted successors; public claim scoped as stated; curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.md).
+
+### S15-CA5-S-20261025
+
+**Hypothesis.** Recurring personal harm-topic judgments survive fixed choices about uncertain responses, item splits and the published quality restriction.
+**METHOD.** Rebuild every shared group/item response and within-person profile for all twelve prespecified combinations: uncertain responses scored zero, one half or one; odd/even or first/last numeric item IDs; all 123 raters or the published 104-person subset. Each combination retains all 350 items, 1,000 itemwise within-group label reassignments and 2,000 paired-rater bootstrap draws. Independently reconstruct the entire calculation in a fresh native process.
+
+The table gives the population, score assigned to uncertain responses, item partition, observed average within-person topic correlation, unadjusted 95% paired-rater interval and mean reassignment correlation. Item order is not a temporal claim.
+
+| Population | Uncertain score | Item partition | Correlation | 95% interval | Reference mean |
+|---|---:|---|---:|---|---:|
+| All released (123) | 0.0 | Odd/even item IDs | 0.124940 | [0.090809, 0.159803] | 0.000232 |
+| All released (123) | 0.0 | First/last item IDs | 0.149320 | [0.108523, 0.191775] | 0.000609 |
+| All released (123) | 0.5 | Odd/even item IDs | 0.139767 | [0.105093, 0.174035] | 0.000036 |
+| All released (123) | 0.5 | First/last item IDs | 0.165505 | [0.123053, 0.210328] | 0.000488 |
+| All released (123) | 1.0 | Odd/even item IDs | 0.137310 | [0.101814, 0.171808] | -0.000089 |
+| All released (123) | 1.0 | First/last item IDs | 0.155966 | [0.112845, 0.200604] | 0.000228 |
+| Published quality (104) | 0.0 | Odd/even item IDs | 0.123208 | [0.084742, 0.162144] | -0.000340 |
+| Published quality (104) | 0.0 | First/last item IDs | 0.152731 | [0.107549, 0.198330] | -0.000215 |
+| Published quality (104) | 0.5 | Odd/even item IDs | 0.133955 | [0.096592, 0.170797] | -0.000068 |
+| Published quality (104) | 0.5 | First/last item IDs | 0.165788 | [0.118437, 0.212191] | -0.000020 |
+| Published quality (104) | 1.0 | Odd/even item IDs | 0.131224 | [0.092924, 0.167517] | 0.000095 |
+| Published quality (104) | 1.0 | First/last item IDs | 0.151382 | [0.105395, 0.197255] | 0.000303 |
+
+**Found.** All twelve fixed combinations pass the stated recurrence criteria. Each empirical one-sided probability is 1/1001; each within-card Holm-adjusted probability is 12/1001. Every raters' row remains; there are no singleton-group or zero-profile exceptions. The odd/even partition supports 36 common topics and the first/last partition 29; topics absent from either half are retained as explicit support limits.
+**Means.** This supports specification stability of the scoped recurring disagreement claim in the same DICES population. It is not an independent replication or evidence for objective safety, competence or private values. Rater intervals condition on the observed group/item adjustment. These are descriptive commissioned probabilities; the two midpoint odd/even cells reproduce the original endpoints and are recorded as aliases. One-generation policy forbids automatic follow-ups of this follow-up.
+
+Curator roll-up: scoped personal judgments or instrument integrity; What does this complete comparison or operational record license?; **Strengthens**; Specification stability supports scoped recurring perceived-harm judgments; it does not identify private values.; project meaning: preserve the boundary between recurrence, construct validity and execution; next engineering obligation: remaining commissioned cards and cost-admitted successors; public claim scoped as stated; curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/CA5_FOLLOWUPS_20261025.md).
+
+### OPS-S15-W3-NATIVE-COVERAGE
+
+**Hypothesis.** Can the next fixed specification, mechanism, saved-adapter and event-coverage programs execute and replay correctly before their corpus results are interpreted?
+**METHOD.** Run each exact handler in a counted native process on its known-answer fixture, verify in a fresh process, then time both complete event-reference scopes on all eligible sessions at the fixed first tenth of draws. Rehash every terminal artifact and verify original native exits.
+
+The table lists each complete instrument attempt, its counted execution plus verification cost, and its fresh-process replay status. It is not a table of scientific effects.
+
+| Attempt | CPU seconds | Fresh replay |
+|---|---:|---|
+| native-WB1coverage | 3.453125 | passed |
+| native-CA5.s | 1.296875 | passed |
+| native-CA5.m | 1.109375 | passed |
+| native-WA1inputs | 5.921875 | passed |
+| WB1-coverage-cost-pilot | 502.84375 | passed |
+
+**Found.** All four native handlers pass. The coverage cost pilot and fresh replay retain all 1,399 sessions, 61 writers and 2,823 eligible candidates, with 20 draws in each of the whole-session and time-third scopes. The conservative larger execution/replay projection for complete coverage alone is 4553.375 CPU seconds. Prior source, native and pilot charges total 3381.703125; coverage plus those charges projects 7935.078125.
+**Means.** The specification and mechanism follow-ups and saved-adapter source preparation are admitted separately under their own fixed caps. The complete process-piece study still needs final-bootstrap overhead and effects/encoder timing before full-study admission. No pilot significance or partially computed scientific score is admitted. The original controls, population, required draw counts and combined CPU accounting remain fixed.
+
+Curator roll-up: instrument integrity; Can the next programs execute and replay before interpretation?; **Infrastructure**; native validation and full-population coverage timing pass; project meaning: preserve the boundary between tested code and a completed scientific study; next engineering obligation: finish cost admission and the commissioned dependent comparisons; public claim unchanged; curator decision required: No. Detail: [complete instrument receipt](results/phase_2_4_stage_15/DRIVE/WEEK3_NATIVE_AND_COVERAGE_20261025.md).
+
+
 ### OPS-S15-W3-CA1-INPUTS
 
 **Hypothesis.** Can the multilingual comparison population be prepared without leaking outcomes across its split?

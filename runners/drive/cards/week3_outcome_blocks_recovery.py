@@ -195,14 +195,14 @@ def assemble(sessions):
     for e in events:
         e['kept_reference'] = None
         if e['kind'] != 'deleted' or not e['window'] or not e['context']: continue
-        candidates = kept[e['writer']]
-        if candidates:
+        kept_candidates = kept[e['writer']]
+        if kept_candidates:
             # Frozen equal-scale coordinates: relative position and log word length.
             length = max(1,len(e['span']['text'].split()))
             def distance(k):
                 d=(e['position']-k['position'])**2+math.log(max(1,len(k['span']['text'].split()))/length)**2
                 return d,k['session'],k['ordinal']
-            k=min(candidates,key=distance)
+            k=min(kept_candidates,key=distance)
             e['kept_reference']=dict(id=k['id'],distance=distance(k)[0])
     complete=[e for e in events if e['kind']=='deleted' and e['window'] and e['context']]
     support=len(complete)>=150 and len({e['writer'] for e in complete})>=25

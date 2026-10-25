@@ -90,6 +90,17 @@ def test_complete_recovery_source_and_fresh_replay(tmp_path):
     with pytest.raises(ValueError,match='changed'):card.verify(out,inputs,card.CONSTRUCTED)
 
 
+def test_context_census_counts_all_windows_not_last_kept_reference_pool():
+    sessions=[card.prepare_session(**f) for f in fixture()]
+    # One complete context window in each of six sessions, but just one kept
+    # reference for each writer. The former is the reported source census.
+    assert [len(s['context_windows']) for s in sessions]==[1]*6
+    value=card.assemble(sessions)
+    assert value['summary']['complete_deleted_with_kept_reference']==3
+    assert value['summary']['context_window_count']==6
+    assert sum(e['kind']=='kept' and e['writer']=='w2' for e in value['events'])==1
+
+
 def test_retained_actual_failure_session_replays_without_exclusion():
     path=Path('.agent-state/drive-20261025/WC2_ACTUAL_FAILURE_FIXTURE.json')
     if not path.exists():pytest.skip('private actual-source regression fixture not distributed')

@@ -91,6 +91,32 @@ def test_saved_pause_owns_notification_without_claiming_completion(context,monke
     assert watch.urgent({'path':'job/PAUSED.json'},cfg)
 
 
+@pytest.mark.parametrize('changes,expected', [({}, True),
+    ({'checkpoint_validation_required': False}, False),
+    ({'scientific_admission': True}, False), ({'cpu_seconds': True}, False),
+    ({'cpu_seconds': float('nan')}, False), ({'cpu_seconds': -1}, False),
+    ({'card': ''}, False), ({'at': None}, False),
+    ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'running'}}, False),
+    ({'reason': {'reason': 'resource_floor'}}, False),
+    ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'week_drain'}}, True),
+    ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'cpu_projection_above_cumulative_S4_cap'}}, True)])
+def test_week3_checkpoint_pause_not_a_disappeared_job(context, monkeypatch, changes, expected):
+    repo, state, cfg, native = context
+    record = dict(at='2026-10-25T22:12:53Z', status='PAUSED',
+                  card='CA1-features-cost-pilot-recovery', cpu_seconds=3463.5625,
+                  scientific_admission=False, checkpoint_validation_required=True,
+                  reason={'at': '2026-10-25T22:12:29Z', 'reason': 'resource_floor'})
+    record.update(changes)
+    (repo/'job').mkdir(); (repo/'job/PAUSED.json').write_text(json.dumps(record))
+    cfg['paths'] = ['job/PAUSED.json']
+    cfg['process_watches'][0]['terminal_paths'] = ['job/PAUSED.json']
+    monkeypatch.setattr(watch, 'native_identity', lambda pid: None)
+    events = watch.scan(cfg, repo=repo, state=state, now=10)
+    assert (repo/cfg['process_watches'][0]['failure_output']).exists() is not expected
+    assert len(events) == (1 if expected else 2)
+    assert watch.scan(cfg, repo=repo, state=state, now=100) == []
+
+
 @pytest.mark.parametrize('name,changes,expected', [
     ('FAILED-123.json', {}, True),
     ('FAILED-worker.json', {}, False),

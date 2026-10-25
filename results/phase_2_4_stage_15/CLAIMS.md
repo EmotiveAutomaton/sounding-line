@@ -52,3 +52,11 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | OPS-S15-W3-PROC-CALIBRATION | PROC-CALIBRATION | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
 | OPS-S15-W3-CA1-DEPENDENCY | CA1-DEPENDENCY | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
 | OPS-S15-W3-SHARED-SPAN-FAILURE | SHARED-SPAN-FAILURE | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-NATIVE-COVERAGE | Week3-native-and-coverage | infrastructure / untested | Instrument checks pass; the full process-piece study remains unadmitted pending its remaining measured costs. |
+| S15-CA5-S-20261025 | S15-CA5-S-20261025 | positive / passes | Specification stability supports scoped recurring perceived-harm judgments; it does not identify private values. |
+| S15-CA5-M-20261025 | S15-CA5-M-20261025 | positive / passes | Overall severity and topic-specific recurrence coexist; causal attribution remains open. |
+| OPS-S15-W3-WA1-INPUTS | OPS-S15-W3-WA1-INPUTS | infrastructure / untested | Complete retained adapter inputs are verified; sensitivity remains untested. |
+| OPS-S15-W3-CA1-RESOURCE-COST | OPS-S15-W3-CA1-RESOURCE-COST | infrastructure / untested | The interrupted encoder is cost-held with validated saved chunks; no scientific negative is inferred. |
+| OPS-S15-W3-SHARED-REPAIR-ATTEMPT1 | Source repair and native gates | infrastructure / invalid source | First repaired event-source pilots stop on a shared missing-comparator case; sensitivity native gates pass. |
+| S15-WA1-20261025 | Retained-adapter sensitivity | infrastructure / passes within scope | The retained personal-model audit finds conditional sensitivity limits; no universal absence of personal advantage is licensed. |
+| OPS-S15-W3-SHARED-REPAIR-FINAL | Shared source validity | infrastructure / invalid | The shared event source remains instrument-invalid after two engineering healing attempts; dependent comparisons are untested. |

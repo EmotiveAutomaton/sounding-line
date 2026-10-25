@@ -175,6 +175,22 @@ def valid_json(path):
                        and isinstance(record.get("card"), str) and bool(record["card"])
                        and isinstance(record.get("saved_result_sha256"), str)
                        and re.fullmatch(r"[0-9a-f]{64}", record["saved_result_sha256"]) is not None)
+        # Week 3 pauses carry a mandatory owner validation flag rather than a
+        # completed-result digest. Recognize the exact bounded runtime schema;
+        # this ends supervision only and never admits the saved checkpoints.
+        reason = record.get("reason")
+        cpu = record.get("cpu_seconds")
+        checkpoint_pause = (path.name == "PAUSED.json" and status == "PAUSED"
+                            and record.get("scientific_admission") is False
+                            and record.get("checkpoint_validation_required") is True
+                            and isinstance(record.get("card"), str) and bool(record["card"])
+                            and isinstance(record.get("at"), str) and bool(record["at"])
+                            and type(cpu) in (int, float) and math.isfinite(cpu) and cpu >= 0
+                            and isinstance(reason, dict)
+                            and isinstance(reason.get("at"), str) and bool(reason["at"])
+                            and reason.get("reason") in {
+                                "resource_floor", "week_drain",
+                                "cpu_projection_above_cumulative_S4_cap"})
         # Finite coordinators retain PID-suffixed, statusless exception receipts.
         # Recognize that exact filename/field shape without accepting a running
         # record, arbitrary error log or malformed exception as a terminal.
@@ -183,7 +199,8 @@ def valid_json(path):
                        and all(isinstance(record.get(key), str) and bool(record[key])
                                for key in ("at", "error", "traceback")))
         return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
-                or (path.name == "FAILED.json" and "error" in record) or pid_failure or saved_pause)
+                or (path.name == "FAILED.json" and "error" in record) or pid_failure
+                or saved_pause or checkpoint_pause)
     except (ValueError, OSError):
         return False
 
