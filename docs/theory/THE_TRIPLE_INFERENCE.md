@@ -1775,6 +1775,7 @@ establish that personal signal is intrinsically weak.
 | **G66** | Adherence to a declared value tradition is recoverable as a graded quantity | **OPEN.** A ladder made of humans; the honest output is predicted patterns of uptake or adherence from behavior; blocked on sourcing |
 | **G197** | A person shows up more in how they work than in what they choose; process and timing records carry more personal signal than accept-or-dismiss outcomes, and the weight one person's own records deserve is the reliability of their average | **SUPPORTED for the scoped rhythm-versus-handling comparison; broader reliability and value claims OPEN.** Chess and essay-process identification succeed where per-decision gains are small, hyperalignment raises individual reliability, and the reliability paradox explains robust group effects with weak individual ones (lit, READ); the project's outcome channels resolve no personal advantage (test, S14-P04); PMAP now compares production and handling on the same 45 writers, with the rhythm-minus-handling contrast passing its reassignment check and the style contrast biased (test, S15-DRIVE-PMAP-RHYTHM-1018); no human-value inference follows |
 |   | | *(2026-10-18: the earlier unmeasured process-versus-outcome proposal now has the scoped PMAP rhythm comparison; psychological and value interpretations remain open.)* |
+| **S15-CA5** | Personal harm-topic judgments recur after shared group/item responses and overall severity are removed | **SUPPORTED for scoped recurrence (test, S15-CA5), broader value inference OPEN.** Human DICES ratings read by an exact program: correlation 0.140, 95% interval [0.105, 0.174], across 123 raters; the quality subset agrees and within-group itemwise reassignments center near zero. One rating per person/item cannot separate interaction from noise; neither objective safety nor private values are identified. |
 
 **State of the section's claim.** Longitudinal evidence is a motivated route to separating
 persistent tradeoffs from local purpose, habit, and constraint. The bounded simulation
@@ -1785,9 +1786,9 @@ provenance and reliability. None automatically certifies the target values. No c
 currently validated by this project supplies the complete value-recovery comparison
 specified by the open rows. Public process and choice corpora can supply partial tests;
 their suitability remains an intake and construct-validation question. A commissioned
-pilot is one possible source, not evidence that no useful public corpus exists. Recorded rhythm identifies these writers more accurately than their offer handling on the matched cohort, with a passing contrast-level reassignment check and recording-context rivals retained. The weight one person's records deserve depends on the reliability of their average, not on its size alone (G197).
+pilot is one possible source, not evidence that no useful public corpus exists. Recorded rhythm identifies these writers more accurately than their offer handling on the matched cohort, with a passing contrast-level reassignment check and recording-context rivals retained. The weight one person's records deserve depends on the reliability of their average, not on its size alone (G197). A small harm-topic pattern recurs within people across different rated items after shared responses and overall severity are removed; this supplies a scoped example of persistent disagreement, not ground truth for the values behind it (S15-CA5).
 Confidence: one bad test away for the scoped identity curve and bounded simulation;
-one bad test away for the scoped production comparison; untested, logic only for human value recovery and the open corpus comparisons.
+one bad test away for the scoped production and harm-judgment comparisons; untested, logic only for human value recovery and the open corpus comparisons.
 
 **A person plus a mood**
 

@@ -30,3 +30,5 @@ handoff for operating state.
 The [October 16 filing ledger](DOCUMENT_RELOCATIONS_20261016.json) records the
 applied theory errata and byte-verified duplicate incoming Stage 15 briefs.
 Current plans and evidence keep their existing paths.
+
+The [October 25 filing ledger](DOCUMENT_RELOCATIONS_20261025.json) records the processed October18 amendments/filing and operative Week3 packet. All four canonical source copies are byte-identical; duplicate incoming originals remain preserved privately.

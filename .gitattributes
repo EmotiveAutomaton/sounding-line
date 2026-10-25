@@ -16,3 +16,8 @@
 
 # frozen adapters are hashed as bytes by the ADAPTERS registry: stored as-is, never eol-converted
 results/**/adapters/** -text
+
+# Completed Week 3 solver attempts already bind these bytes; preserve their
+# existing CRLF rather than silently changing the recorded source hashes.
+runners/drive/cards/week3_sdt_newton.py -text
+runners/drive/cards/week3_sdt_recovery.py -text

@@ -1,0 +1,54 @@
+# Stage 15 claim ledger
+
+Each identifier names a scoped claim. Public wording is controlled by the recorded reference status; original rows remain when successors change the measurement. Detailed estimates, intervals, sources and correction links are in [CLAIM_LEDGER.json](CLAIM_LEDGER.json).
+
+Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 copies do not prove recipient adoption; direct T3 delivery evidence remains unverified. Historical operational snapshots are not current queue state.
+
+| Claim | Card | Outcome / control | Public wording |
+|---|---|---|---|
+| S15-EV1-PAUSES-V1 | EV1 | positive / passes | Supports the scoped association: tested on human writing logs, flagged words came after longer pauses. |
+| S15-EV2-SIGNATURES-V1 | EV2 | positive / passes | Supports the scoped aggregate route: recurs in the writer's other work. |
+| S15-EV3-IDENTIFICATION-V1 | EV3 | invalid control / invalid | Descriptive only: both original engine-habit variants fail their frozen fake-reference bias gate and license no badge under that original design. Successor: S15-WA0-H1-20261025. |
+| OPS-S15-EV4-TABLE | EV4-preparation | infrastructure / passes | The aggregate feature table records 21 channels with their missing measurements, scope and control limits. |
+| OPS-S15-EV4-DELIVERY-20261023 | EV4-delivery | infrastructure / passes | Both approved repository copies are verified; recipient adoption and deployment are not established. |
+| S15-GEN1 | GEN1 | not detected; sensitivity untested / invalid | Descriptive only: no fiction advantage was detected; sensitivity is untested. Per-genre fake references failed, so genre weighting remains equal. Successor: S15-GEN1-IC-20261025. |
+| S15-DR1-MAIN-20261022 | DR1 | unresolved / untested | A directed-reading improvement was not detected; the comparison is descriptive and required empirical controls remain unrun. |
+| S15-NP1-SOURCE-RECOVERY-20261022 | NP1 | infrastructure / passes | The verified census contains observed corrections, dismissal runs and prompt returns; frequency does not establish deliberate probing. |
+| S15-DRIVE-D24-WEEK-1019 | D24 | not detected; sensitivity untested / untested | The predicted timer-related increase in ending-like accepted wording was not detected; sensitivity and repeated-reference calibration remain untested. |
+| S15-DRIVE-D30-CROSSED-WEEK-1019 | D30-crossed | unresolved / passes | The crossed pause contrast and paired own-history advantage were not detected; neither establishes personal automaticity. |
+| S15-DRIVE-D30-PAIRED-FIXED-1019 | D30-paired-fixed | not detected; sensitivity untested / passes | An own-history advantage was not detected in either fixed-effect paired comparison; personal automaticity remains open. |
+| S15-DRIVE-D30-SHARED-SUPPORT-1019 | D30-shared-vocabulary | unsupported / untested | Unsupported: only two writers have both required marker classes, below the frozen minimum of three. |
+| S15-DRIVE-PMAP-1018 | PMAP | positive descriptive; biased reference / biased reference | Descriptive only: production features identify writers more strongly than handling offers in this corpus; biased and incomplete controls limit person-mechanism claims. |
+| S15-DRIVE-PMAP-RHYTHM-1018 | PMAP-rhythm | positive scoped contrast / passes | Supports a scoped observed rhythm-over-handling advantage; original channel-level bias flags and recording/device rivals remain. |
+| S15-DRIVE-V2 | V2 | positive scoped diagnostic / passes | Supports the scoped saved-forecast gain over population rates; no calibrated reader combination reaches the declared useful margin over the backbone. |
+| S15-DRIVE-V1-PHASE0 | V1-Phase0 | instrument sensitivity boundary / passes | In constructed worlds, the largest constant offset is recovered; the tested taste and habit plants are not recovered. |
+| S15-DRIVE-W1-V4-1017 | V4 | invalid calibration / invalid | In constructed worlds, the fitted taste and habit reader fails null calibration; the descriptive contrasts do not license personal claims. |
+| S15-DRIVE-V4C-SPLIT-1018 | V4.c-split | invalid calibration / invalid | In constructed worlds, the corrected split still fails the primary taste-reader null gate. The descriptive contrast does not admit a personal taste route. |
+| S15-DRIVE-A0-V2 | G3-A0 | instrument pass/fail by question / passes | In constructed worlds, six literal feature checks pass; tone, contradiction and themes fail and remain disabled. |
+| S15-DRIVE-FOUNDATION | P2 | infrastructure / passes | The complete event replay reconciles with canonical documents and decisions; this is source integrity, not a psychological result. |
+| S15-DRIVE-CONTENT | CONTENT | infrastructure / passes | The representation covers the full menu roster with retained visibility limits; intent measurement and predictive usefulness remain untested. |
+| S15-DRIVE-WIKIPEDIA | S0 | infrastructure / passes | Aggregate source references are prepared; metadata does not establish edit intent or a healing witness. |
+| S15-DATA-INTAKE | PUBLIC-TESTBEDS | infrastructure / passes | Pinned public testbeds are available as sources; the intake itself modelled no outcomes and makes no competence claim. |
+| L161 | g177-ceiling | instrument-specific boundary / untested | The cheap realized-edit classifier scores 0.048 macro-F1; the record does not support calling the labels noise or the whole interface unreadable. |
+| L82 | ScholaWrite-trained-grid | descriptive transfer / passes | Supports the existence of trained-encoder transfer across held projects, with strong project dependence; the table reports weighted F1. |
+| L68 | ScholaWrite-split-audit | invalid generalization protocol / invalid | Descriptive only: the shipped within-project split leaks near-duplicate writing states; its scores do not establish held-project generalization. |
+| L69 | ScholaWrite-split-audit | invalid generalization protocol / invalid | Descriptive only: the shipped within-project split leaks near-duplicate writing states; its scores do not establish held-project generalization. |
+| OPS-S9-DATA-7 | ScholaWrite-Stage9 | not detected / passes | A gain beyond the previous-transition rival was not detected in the bounded held-project development sample. |
+| L388 | ScholaWrite-Stage10 | descriptive baseline dominance / passes | The training-frequency prior beats every tested model in 27 of 30 ScholaWrite project/target/view cells; general assistance superiority is not established. |
+| S15-WEEK3-SDT1-1 | SDT1-snapshot | historical infrastructure / untested | At the 25 October packet snapshot SDT1 was unbuilt; Ghost N17 was reported to pass within its synthetic model. Human competence remains open. |
+| S15-WEEK3-HELD-1 | held-work-snapshot | historical infrastructure / untested | The packet records GPU, control-cost and unimplemented-source holds; a held queue is not completed research. |
+| S15-WEEK3-IDLE-1 | idle-snapshot | historical infrastructure / untested | The 25 October packet records no research worker since GEN1 landed on 23 October; this dated snapshot does not describe the new Week 3 rollout. |
+| S15-WEEK3-SCHOLA-SNAPSHOT-1 | g177-packet-snapshot | superseded scope wording / invalid | Superseded: the packet repeats an automatic label-noise label that the existing L161 correction rejects. Successor: L161, L82. |
+| S15-SNAPSHOT-1017-running | 17 October-state | historical infrastructure / untested | At the 17 October snapshot P1 v4 was running; the forecast and running state are historical, not current evidence. |
+| S15-SNAPSHOT-1017-not-done | 17 October-state | historical infrastructure / untested | At the 17 October snapshot the 31 D cards and listed dependencies were unfinished; later landings supersede that status per card. |
+| S15-SNAPSHOT-1017-process | 17 October-state | historical infrastructure / untested | The 17 October packet attributes the backlog to its recorded operational constraints; this is the curator’s process assessment, not a scientific result. |
+| S15-WA0-LITERAL-20261025 | WA0 | invalid instrument for licensing / invalid | Descriptive only: the literal leave-writer-out reference can carry the omitted writer's identity and licenses no badge. |
+| S15-WA0-H1-20261025 | WA0.h1 | positive scoped identification / passes | Supports corpus-specific writer identification from final-document habit profiles beyond independent prompt context, including after accepted-share adjustment; the tested gallery has 30 writers and each of 45 eligible writers is probed once. |
+| S15-GEN1-IC-20261025 | GEN1.ic | feature-specific diagnostic; planning sensitivity limited / passes | No general fiction advantage detected: style has no creative advantage; rhythm supports a positive genre-swap diagnostic with its interval touching zero and a nonsignificant exact paired diagnostic. Frame detection and the broader play claim remain open. |
+| S15-CA5 | CA5 | positive descriptive / passes | Supports recurring personal harm-topic judgments across items after shared demographic responses and overall severity are removed; this does not establish private values, objective safety or competence. |
+| OPS-S15-W3-CA1-INPUTS | CA1-INPUTS | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-WB1-VERIFIED | WB1-VERIFIED | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-WD1-COST | WD1-COST | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-PROC-CALIBRATION | PROC-CALIBRATION | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-CA1-DEPENDENCY | CA1-DEPENDENCY | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |
+| OPS-S15-W3-SHARED-SPAN-FAILURE | SHARED-SPAN-FAILURE | infrastructure / untested | Instrument disposition is recorded; no unfinished scientific result or new psychological claim is admitted. |

@@ -131,3 +131,67 @@ parking remains healthy when required by the active allocation. No new research 
 - Locks verified + `git status` deletion lines read before any commit (and NO git at all while
   a freeze line stands in `AGENTS.md`).
 - The report leads with queue state and ends with what runs next.
+
+## Standing amendments, 25 October
+
+Ratified by the October 25 Week 3 packet and current handoff. These amendments
+supersede the older retry/refill defaults; scientific write-through and final-packet
+reporting remain mandatory. Source: `docs/design/stage-15/week3/PACKET.md`, section 0.3.
+
+**A. Never idle.**
+- Keep at least two ready cards per CPU slot.
+- When the ready queue drops below that, building the next cards comes before routine events. Failures and triggers are acknowledged first.
+- Sources, in order: this packet's tree, the follow-ups under C, section 6's backlog.
+- Report idle slot-hours in every digest. Any idle hour while commissioned work remains is a defect, recorded in OPS_LOG with its cause.
+
+**B. Healing passes run automatically.** This amends the 17 October packet's row 9 and errata rule 2's "exactly one retry" for engineering failures.
+- **What heals.** An engineering failure: a crash, a code bug, a dependency or join error, a failed known-answer check (an instrument failure, not a result), or non-convergence that a repair leaving the estimand unchanged can fix (starting values, optimiser settings, iterations). A repair that changes the model is a `.h1` card (step 3).
+- **What doesn't:**
+  - an environmental interruption, as rule 2 defines it (a memory or temperature guard, an operating-system refusal, sleep, power loss or reboot, disk exhaustion): resume from validated checkpoints as rule 2 says, as often as the cause recurs. It uses up no healing attempt;
+  - a data defect: S3's canonical successor;
+  - a cost overrun: S4 first. If a cheaper exact implementation is then needed, register it under step 3;
+  - a scientific gate that fails (a null, a negative, a pass rule not met): that is a result. Record it and route it under C; never heal it.
+- **Steps:**
+  1. Diagnose the cause. Record one line in OPS_LOG with its class: engineering or instrument.
+  2. Repair and rerun, with inputs, comparators, seeds and contrast unchanged. Up to two healing attempts per card. Shared passes keep row 10's count: at most 2 attempts in all.
+  3. If the repair has to change the design (a new estimator, a reduced grid, a cheaper exact implementation), register it as a new card with the suffix `.h1`, frozen before it runs, and dispatch it at the parent's rank.
+  4. After two failed healing attempts, record the card as invalid with its reason, and dispatch the next.
+
+**C. Follow-ups run automatically.** After each landing, register follow-ups from this menu, frozen before their outcomes, without waiting to be asked:
+
+| Parent's state | Follow-ups registered at once (at most three) |
+|---|---|
+| Positive or marginal | (a) specification curve `.s`; (d) a mechanism probe `.m`, the smallest test that would say why; then (c) a second dataset `.r` where one is already in hand, otherwise (b) a second pipeline `.p` |
+| Null | (e) an instrument check `.ic`: could this pipeline have seen the effect at the size that matters (a planted calibration, or a power curve over effect size)? Until (e) lands, the null is reported as "not detected; sensitivity untested", never as a negative |
+| Unsupported (too few events to test) | None. Recorded apart from nulls, with the support count |
+| Negative | (a), plus the reversal's mechanism probe `.m` |
+| Invalid | B's healing passes |
+| Anything the owner finds surprising | One exploratory card `.x`, labelled exploratory, registered only while the parent has fewer than three follow-ups |
+
+- **Caps.**
+  - Each follow-up is capped at half its parent's ceiling.
+  - At most three follow-ups per parent per week, the exploratory card included.
+  - **One generation only.** A follow-up registers no follow-ups of its own; its result goes to the digest.
+  - **No locked holdout is spent automatically.** `.r` never reads a Tier 4 holdout (Padmakumar & He's logs, FX1's folds).
+  - Follow-ups rank below this packet's cards, except that an instrument check `.ic` jumps ahead of any card that depends on the same instrument.
+- **Suffixes.** `.s`, `.p` and `.r` keep their 17 October meanings. `.m`, `.ic` and `.x` are new. `.c` keeps its 17 October meaning (planted calibration in V4's worlds) and isn't used by this menu.
+- **Rationale.** Each follow-up carries one line on why, written by the owner. The curator may veto at the digest; nothing waits for him.
+
+**D. A claim ledger.** The workflow fix for corrections.
+- **Start a Stage 15 claim ledger modelled on Stage 4's and 5's:** `results/phase_2_4_stage_15/CLAIM_LEDGER.json`, rendered as `CLAIMS.md`. Each row keeps their fields (`card`, `estimand`, `outcome`, `strongest_rival`, `scope`, `pursuit`, `warrant`, `public_wording`, `detail`, `at`) and adds:
+  - **id:** the FINDINGS id where one exists (for example `S15-EV1-PAUSES-V1`), otherwise `S15-<card>-<n>`, so companion repositories can cite rows;
+  - **estimate,** with its interval;
+  - **control status:** passes, biased reference, invalid, untested;
+  - **scope qualifiers:** corpus, population, real or constructed, descriptive or confirmatory;
+  - **source file and line;**
+  - **supersedes / superseded by;**
+  - **correction class** when changed: arithmetic, data, instrument, control, scope, attribution, citation or wording.
+- **Allowed verbs are fixed by status:**
+  - passing controls → "supports";
+  - biased or invalid controls → "descriptive only";
+  - constructed → "in constructed worlds";
+  - a null with untested sensitivity → "not detected";
+  - too few events → "unsupported".
+- **Anything sent to the curator** quotes claims by ledger id with their public wording. That covers digests, talk pages and returns to companion repositories. A paraphrase must cite the id.
+- **Corrections come first in every digest,** with their class. A superseded row stays, marked.
+- **Backfill** the ledger at handoff for every claim in the 17 October packet's section 1, the 18 October week packet's section 0 state bullets and this packet's section 1, and for EV1 to EV4, PMAP, GEN1, DR1, NP1, D24 and D30.

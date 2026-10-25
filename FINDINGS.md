@@ -1,5 +1,273 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-CA1-INPUTS
+
+**Hypothesis.** Can the multilingual comparison population be prepared without leaking outcomes across its split?
+**METHOD.** Authenticate the source and completed census, partition prompt/conversation components before modelling, and repeat the complete preparation in a fresh process.
+**Found.** The prepared source retains 2,979 eligible annotators and 226,228 comparisons, with 893,400 unique text records and 100,866 explained comparisons. The 624 below-threshold source annotators remain explicit exclusions; no additional unsupported people are silently discarded.
+**Means.** The frozen input and all 11 pinned model-intake files are ready. Neither input preparation nor model download fits preference directions. Model revision e8f8c211226b894fcb81acc59f3b34ba3efd5f42 is retained; provider spend is zero.
+
+Curator roll-up: instrument integrity; Can the multilingual comparison population be prepared without leaking outcomes across its split?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: No. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+### OPS-S15-W3-WB1-VERIFIED
+
+**Hypothesis.** Can the complete event source survive a fresh verification after its first verification exceeded the CPU allowance?
+**METHOD.** Preserve every output byte from the original execution, copy only hash-matching artifacts into a new continuation, and independently replay all 1,399 sessions from the first session.
+**Found.** The complete source and fresh replay pass: 61 writers and 2,181,606 timing intervals. The interrupted recovery spent 1,803.359375 CPU seconds; the continuation spent 1,063.421875. All attempts and native validation total 2,875.40625 CPU seconds.
+**Means.** This is an exact S4 verification continuation under the original shared 10,800-second ceiling, not a third healing attempt. Event clocks describe logged changes, not physical keypresses. Coverage, effects and typing comparisons remain separate.
+
+Curator roll-up: instrument integrity; Can the complete event source survive a fresh verification after its first verification exceeded the CPU allowance?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: No. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+### OPS-S15-W3-WD1-COST
+
+**Hypothesis.** Can an exact sensitivity-model solver support all required reference draws within the authorized ceiling?
+**METHOD.** Validate the same ridge objective with direct damped Newton and its original gradient certificate, then time one complete refitted null and independently replay the pilot.
+**Found.** The exact solver passes, but one complete null costs 50.484375 CPU seconds. One thousand draws project 50,484.375 CPU seconds for one execution, about 100,968.75 with fresh replay before other work.
+**Means.** The full study is cost-held above its doubled 14,400-second cap. This is not a scientific negative. All diagnostic costs are reconciled with a conservative 60-second reserve; cumulative pilot/diagnostic cost is 300.171875 seconds. The completed plan had underbooked prior work at 40 seconds; the supplemental ledger corrects it without changing the frozen plan. Population-relative sensitivity does not measure independent competence.
+
+Curator roll-up: instrument integrity; Can an exact sensitivity-model solver support all required reference draws within the authorized ceiling?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: No. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+### OPS-S15-W3-PROC-CALIBRATION
+
+**Hypothesis.** Can the paid sentence-role reader satisfy its complete response grammar and blind calibration gates?
+**METHOD.** Send the fixed first 100 calibration items, compare against labels made blindly by the operating agent, preserve every response, and reconcile actual billed token usage.
+**Found.** The batch returned all 100 items, but only 97 satisfy the grammar. Two responses exhausted their output allowance with prose and one used an out-of-range story role. The complete calibration fails before agreement scoring; one cent is reconciled.
+**Means.** No main batch is admitted. The single permitted format repair uses constrained JSON, the same semantic task and token cap, and a fresh fixed 100-item calibration with new blind labels; seven targeted checks pass. Its three-cent reservation remains unsubmitted pending explicit transfer approval. Agent-made labels are not human validation.
+
+Curator roll-up: instrument integrity; Can the paid sentence-role reader satisfy its complete response grammar and blind calibration gates?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: Yes, approve the prepared provider transfer if desired. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+### OPS-S15-W3-CA1-DEPENDENCY
+
+**Hypothesis.** Does the actual inference environment execute the pinned CPU encoder before corpus work?
+**METHOD.** Inspect the preserved missing-import failure, install only the hash-verified sentence-transformers 6.2.0 wheel without changing dependencies, then load the actual local model on constructed multilingual strings and repeat in a fresh process.
+**Found.** The first feature pilot failed before encoding because sentence_transformers was absent. The actual model smoke now passes shape, normalization, finite-output, duplicate-text, repeated-call and fresh-process equality checks.
+**Means.** The first engineering recovery preserves the corpus, model, encoder and pilot scope. The original mock fixture did not exercise actual package loading and remains distinguished from this real-model gate. The wheel hash is ffb51ccfef65427cfa61776d0eeeb257600b0099cf0c7533ae9a6856d31e4665; no dependency upgrade or GPU run occurred.
+
+Curator roll-up: instrument integrity; Does the actual inference environment execute the pinned CPU encoder before corpus work?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: No. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+### OPS-S15-W3-SHARED-SPAN-FAILURE
+
+**Hypothesis.** Do accepted-span inputs agree with the canonical inserted suggestion on actual records?
+**METHOD.** Run the previously tested outcome-block and frustration source extractors on their fixed first-tenth source pilots with exact canonical-choice comparisons.
+**Found.** Both stop at the same shared assertion before a scientific comparison: the replayed inserted span differs from the uniquely identified canonical offer. Costs are 1.125 and 1.203125 CPU seconds respectively.
+**Means.** The original attempts and native fixture successes remain intact. A separately versioned shared repair is being diagnosed against the actual source, without dropping observations or relaxing uniqueness. No downstream result is licensed; one shared repair attempt is pending.
+
+Curator roll-up: instrument integrity; Do accepted-span inputs agree with the canonical inserted suggestion on actual records?; **Infrastructure**; the instrument disposition is explicit and no unfinished scientific score is admitted; project meaning: preserve validity and scope before interpreting effects; next engineering obligation: execute only the authorized valid successor or cost-admitted dependent; public claim unchanged; curator decision required: No. Detail: [complete receipts](results/phase_2_4_stage_15/DRIVE/WEEK3_INSTRUMENTS_20261025.md).
+
+
+### S15-WA0-H1-20261025
+
+**Hypothesis.** Writer identity remains detectable beyond an independent same-prompt context reference, including in final documents after adjustment for accepted model text.
+**METHOD.** Rebuild the complete saved populations under matched session averaging; compute both the original omitted-writer diagnostic and the approved three-role independent-donor correction, with 1,000 conditional reassignments and 2,000 paired probe-writer resamples. Check genre differences with the measured joint correctness tables and full dependence-constrained planning grid.
+**Found.** The approved final-document primary and both page-required raw/residual variants pass. The original omitted-writer reference remains invalid. Genre contrasts differ by feature and do not establish a general fiction advantage.
+**Means.** The new control licenses scoped feature-based identification in this corpus. It neither repairs old pooled estimates retrospectively nor identifies automaticity, private values or human-only authorship.
+
+## Corrections first
+
+- **control**: Literal leave-writer-out context can encode a negative fingerprint of the omitted writer. Its complete results are diagnostic only and cannot license badges, even where both numerical gates pass.
+- **scope**: WA0.h1 is the curator-approved independent-donor successor on a separately declared session-summary estimand and smaller fixed galleries. Original pooled results and failed old reference flags remain unchanged.
+- **arithmetic**: GEN1 marginal totals do not identify paired discordance. Retain measured joint tables and exact planning grids; remove the unsupported universal 31-point sensitivity assertion for this rebuilt design.
+
+## Primary and route
+
+The approved h1 primary passes both gates: residualized final-document habit identification is 0.422222, context 0, difference 0.422222 [0.266667, 0.577778], one-sided empirical p=0.000999001. The raw habit arm also passes. The literal diagnostic has no badge licence regardless of its numerical gates.
+
+Human CoAuthor source records and mixed human/model final documents; exact nearest-neighbour program over frozen features. All 1,399 original sessions and 990 genre-matched sessions are retained. Identification probes retain 45 eligible writers, each tested once against a fixed 30-writer gallery. Genre probes retain all 24 writers, each tested once against 16. The estimates are descriptive and conditional on those galleries and features; intervals resample probe writers, not galleries. No psychological automaticity, causal mechanism, private preference or general population identification claim follows.
+
+The new session-summary variant uses unweighted session-feature means in real, context and permuted arms. Whole prompts, ordered by first timestamp within writer, alternate between disjoint halves. In three frozen writer-role rotations, independent donor writers supply same-prompt context means; each writer is a probe once. One common writer-label assignment is shuffled within prompt and role fold for each of 1,000 draws and reused across rotations. Accepted-share nuisance coefficients are fit using gallery sessions only and refit in every null draw. The pass rule is one-sided empirical p<0.05 and a positive lower bound for the 2,000-draw paired probe-writer 95% interval. Page routes additionally require both raw and residualized variants to pass.
+
+Both raw and residualized final-document style pass. All six complete PMAP process channels pass under h1; content remains unsupported. Typed fragments remain auxiliary. These are conditional identification results, without a causal habit or automaticity interpretation.
+
+## Complete gate table
+
+All 30 channel/genre rows have 1,000 attempted and zero invalid null draws. Literal numerical passes are not claim passes. Intervals are fixed-gallery paired probe-writer 95% intervals.
+
+| Design | Group/channel | Probes | Gallery | Real | Context | Difference [95%] | Null mean [95% band] | Raw p | Numeric / claim pass |
+|---|---|---:|---|---:|---:|---|---|---:|---|
+| WA0-literal | corpus/EV3.final | 45 | 45 | 0.377778 | 0 | 0.377778 [0.244444, 0.533333] | 0.0176 [0, 0.0666667] | 0.000999001 | True / False |
+| WA0-literal | corpus/EV3.final.residual | 45 | 45 | 0.355556 | 0 | 0.355556 [0.222222, 0.488889] | 0.0171111 [0, 0.0666667] | 0.000999001 | True / False |
+| WA0-literal | corpus/EV3.typed | 45 | 45 | 0.511111 | 0 | 0.511111 [0.377778, 0.644444] | 0.0339111 [0, 0.0888889] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.final_style | 45 | 45 | 0.288889 | 0 | 0.288889 [0.155556, 0.422222] | 0.00304444 [0, 0.0222222] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.final_style.residual | 45 | 45 | 0.288889 | 0 | 0.288889 [0.155556, 0.422222] | 0.00293333 [0, 0.0222222] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.lean | 45 | 45 | 0.155556 | 0 | 0.155556 [0.0666667, 0.266667] | 0.0335444 [0, 0.0888889] | 0.001998 | True / False |
+| WA0-literal | corpus/PMAP.length | 45 | 45 | 0.2 | 0.0222222 | 0.177778 [0.0888889, 0.288889] | 0.0296444 [0, 0.0888889] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.requests | 45 | 45 | 0.155556 | 0.0222222 | 0.133333 [0.0222222, 0.244444] | 0.0271556 [0, 0.0888889] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.revision | 45 | 45 | 0.288889 | 0 | 0.288889 [0.155556, 0.422778] | 0.0342 [0, 0.0888889] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.rhythm | 45 | 45 | 0.844444 | 0.0222222 | 0.822222 [0.711111, 0.933333] | 0.0336667 [0, 0.0888889] | 0.000999001 | True / False |
+| WA0-literal | corpus/PMAP.style | 45 | 45 | 0.422222 | 0 | 0.422222 [0.288889, 0.555556] | 0.00888889 [0, 0.0444444] | 0.000999001 | True / False |
+| WA0-literal | GEN1.argumentative/rhythm | 24 | 24 | 0.833333 | 0.0416667 | 0.791667 [0.583333, 0.958333] | 0.0515833 [0, 0.125] | 0.000999001 | True / False |
+| WA0-literal | GEN1.argumentative/style | 24 | 24 | 0.5 | 0 | 0.5 [0.291667, 0.708333] | 0.0174583 [0, 0.0833333] | 0.000999001 | True / False |
+| WA0-literal | GEN1.creative/rhythm | 24 | 24 | 0.916667 | 0.0416667 | 0.875 [0.75, 1] | 0.0512083 [0, 0.166667] | 0.000999001 | True / False |
+| WA0-literal | GEN1.creative/style | 24 | 24 | 0.416667 | 0 | 0.416667 [0.208333, 0.625] | 0.01475 [0, 0.0833333] | 0.000999001 | True / False |
+| WA0.h1 | corpus/EV3.final | 45 | 30,30,30 | 0.444444 | 0 | 0.444444 [0.288889, 0.6] | 0.0364444 [0, 0.0888889] | 0.000999001 | True / True |
+| WA0.h1 | corpus/EV3.final.residual | 45 | 30,30,30 | 0.422222 | 0 | 0.422222 [0.266667, 0.577778] | 0.0369111 [0, 0.0888889] | 0.000999001 | True / True |
+| WA0.h1 | corpus/EV3.typed | 45 | 30,30,30 | 0.511111 | 0 | 0.511111 [0.377778, 0.644444] | 0.0688222 [0, 0.133889] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.final_style | 45 | 30,30,30 | 0.288889 | 0 | 0.288889 [0.155556, 0.422222] | 0.0104 [0, 0.0444444] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.final_style.residual | 45 | 30,30,30 | 0.288889 | 0 | 0.288889 [0.155556, 0.422222] | 0.0101111 [0, 0.0444444] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.lean | 45 | 30,30,30 | 0.266667 | 0.0222222 | 0.244444 [0.111111, 0.377778] | 0.0634 [0, 0.133333] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.length | 45 | 30,30,30 | 0.244444 | 0.0666667 | 0.177778 [0.0444444, 0.333333] | 0.0622667 [0, 0.133889] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.requests | 45 | 30,30,30 | 0.222222 | 0 | 0.222222 [0.111111, 0.333333] | 0.0479778 [0, 0.111111] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.revision | 45 | 30,30,30 | 0.4 | 0 | 0.4 [0.266667, 0.555556] | 0.0656444 [0, 0.133333] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.rhythm | 45 | 30,30,30 | 0.822222 | 0 | 0.822222 [0.711111, 0.933333] | 0.0952889 [0.0222222, 0.177778] | 0.000999001 | True / True |
+| WA0.h1 | corpus/PMAP.style | 45 | 30,30,30 | 0.4 | 0 | 0.4 [0.266667, 0.555556] | 0.0279333 [0, 0.0666667] | 0.000999001 | True / True |
+| WA0.h1 | GEN1.argumentative/rhythm | 24 | 16,16,16 | 0.791667 | 0 | 0.791667 [0.625, 0.916667] | 0.135583 [0, 0.25] | 0.000999001 | True / True |
+| WA0.h1 | GEN1.argumentative/style | 24 | 16,16,16 | 0.541667 | 0 | 0.541667 [0.333333, 0.75] | 0.0625833 [0, 0.166667] | 0.000999001 | True / True |
+| WA0.h1 | GEN1.creative/rhythm | 24 | 16,16,16 | 0.916667 | 0 | 0.916667 [0.791667, 1] | 0.139 [0.0416667, 0.25] | 0.000999001 | True / True |
+| WA0.h1 | GEN1.creative/style | 24 | 16,16,16 | 0.416667 | 0 | 0.416667 [0.25, 0.625] | 0.05125 [0, 0.125] | 0.000999001 | True / True |
+
+## Original accuracy replication and changed ruler
+
+Original pooled outputs are reproduced as an audit. New session averaging and smaller h1 galleries change the estimand; differences across these columns are not a repaired estimate of one statistic.
+
+| Channel | Original pooled/full gallery | New session summary/full gallery | New session summary/h1 gallery |
+|---|---:|---:|---:|
+| GEN1.argumentative.rhythm | 1 | 0.833333 | 0.791667 |
+| GEN1.argumentative.style | 0.5 | 0.5 | 0.541667 |
+| GEN1.creative.rhythm | 1 | 0.916667 | 0.916667 |
+| GEN1.creative.style | 0.416667 | 0.416667 | 0.416667 |
+| PMAP.lean | 0.155556 | 0.155556 | 0.266667 |
+| PMAP.length | 0.2 | 0.2 | 0.244444 |
+| PMAP.requests | 0.111111 | 0.155556 | 0.222222 |
+| PMAP.revision | 0.311111 | 0.288889 | 0.4 |
+| PMAP.rhythm | 0.977778 | 0.844444 | 0.822222 |
+| PMAP.style | 0.466667 | 0.422222 | 0.4 |
+
+## GEN1.ic joint tables and full sensitivity grid
+
+Cells are [creative wrong / argumentative wrong, creative wrong / argumentative right, creative right / argumentative wrong, both right]. All four identification prerequisites pass under h1. Literal identification remains inadmissible because of the known context defect.
+
+| Design/channel | Paired cells 00,01,10,11 | Difference [95%] | Genre-swap p | McNemar p | Phi | Feasible / 121 | Maximum grid power | 80% cell |
+|---|---|---|---:|---:|---:|---:|---:|---|
+| WA0-literal/rhythm | 2,0,2,20 | 0.0833333 [0, 0.208333] | 0.406593 | 0.5 | 0.6742 | 59 | 0.148677 | none |
+| WA0-literal/style | 12,2,0,10 | -0.0833333 [-0.208333, 0] | 0.546454 | 0.5 | 0.845154 | 27 | 0.00272684 | none |
+| WA0.h1/rhythm | 2,0,3,19 | 0.125 [0, 0.25] | 0.040959 | 0.25 | 0.587754 | 77 | 0.574246 | none |
+| WA0.h1/style | 11,3,0,10 | -0.125 [-0.291667, 0] | 0.233766 | 0.25 | 0.777429 | 43 | 0.0346756 | none |
+
+The h1 rhythm genre-swap diagnostic meets its frozen p<.05 criterion, while its interval includes zero and McNemar p=.25. Report those together. The genre-swap null rebuilds the identification pipeline after within-writer genre swaps; McNemar conditions on the observed paired correctness table. Their different results do not license selecting one to omit the other. The broader play-frame claim remains open.
+
+Full grids: `WA0_GEN1_IC_POWER_GRID.csv` (484 rows; infeasible cells retained) and the aggregate JSON receipt. No feasible grid cell reaches 80% power under the empirical dependence; this is a planning statement for the frozen galleries, not a universal detection limit.
+
+## Known answers, replay and accounting
+
+The receipted analysis suite passes 21 checks, including a full 1,000-draw known-answer reference. Identical profiles and prompt-only features cannot pass. A persistent person fingerprint gives real=context=1 under the literal omitted-writer reference, demonstrating its defect. With 12 writers, h1 gives real=1 and independent context=1/8 across three fixed galleries of eight; every writer is probed once. Tests also cover donor isolation, role-preserving shared assignments, missing support without dropped writers, gallery-only nuisance fitting, reversed galleries, paired discordance, infeasible dependence cells and corruption refusal.
+
+Native literal and h1 constructed handlers complete with separate-process replay. Both full corpus executions then complete with full replay. Source/output hashes are independently authenticated by the owner. Focused test receipt: `WA0_ANALYSIS_TESTS.xml`.
+
+| Receipt | CPU seconds | Wall seconds | Verified named artifacts |
+|---|---:|---:|---:|
+| WA0-inputs | 37.515625 | 50.45115750003606 | 17 |
+| WA0-cost-pilot | 99.546875 | 114.53142439993098 | 17 |
+| WA0-literal | 287.46875 | 300.53915660013445 | 16 |
+| WA0.h1 | 577.6875 | 606.6270409999415 | 16 |
+| native-WA0 | 3.328125 | 8.428218999877572 | 16 |
+| native-WA0h1 | 5.40625 | 10.43100109999068 | 16 |
+
+Preparation, timing, both full comparisons and all four native fixtures total 1016.3125 CPU seconds against the shared 10,800-second parent ceiling. All costs include independent replay. No new paid or GPU work was used.
+
+
+Follow-ups registered before their own outcomes, one generation only, each capped at 5,400 CPU seconds: `WA0.h1.s` checks a frozen balanced set of donor-role rotations; `WA0.h1.m` removes rhythm and page-style feature blocks in turn to test which measured channel carries the primary identification; `WA0.h1.p` uses a separately frozen correlation-distance reader on identical support. These are build work, not queued executions. GEN1.ic is already an instrument follow-up and generates no further generation; commissioned FIC1/FIC3 remain separate.
+
+Curator roll-up: bounded maker identification; Does a writer remain identifiable beyond independent shared context?; **Strengthens**; the approved final-document control supports scoped identification; project meaning: a conditional page-pattern route is available while human mechanism remains open; next engineering obligation: prepare the aggregate companion licence and frozen sensitivity checks; public claim newly licensed in the new design only; curator decision required: No. Detail: [full aggregate receipt](results/phase_2_4_stage_15/DRIVE/WA0_20261025.md).
+
+### S15-WA0-LITERAL-20261025
+
+**Hypothesis.** Can the literal omitted-writer context reference license identification?
+**METHOD.** Complete paired-control calculation, known-answer checks, joint tables and exact dependence-constrained power grid as recorded in S15-WA0-H1-20261025 above.
+**Found.** No. A known-answer fingerprint demonstrates that removing the target writer can encode their identity; numerical corpus gates remain descriptive only.
+**Means.** Original results and limits remain distinct from the approved successor. Full numbers, controls and cost are included in the shared entry above.
+
+Curator roll-up: measurement integrity; Can the literal omitted-writer context reference license identification?; **Infrastructure**; No. A known-answer fingerprint demonstrates that removing the target writer can encode their identity; numerical corpus gates remain descriptive only.; project meaning: no universal sensitivity or original-control licence; next engineering obligation: use the approved reference and measured planning grid; public claim unchanged outside the successor; curator decision required: No. Detail: [full receipt](results/phase_2_4_stage_15/DRIVE/WA0_20261025.md).
+
+### S15-GEN1-IC-20261025
+
+**Hypothesis.** Could the matched genre instrument detect a difference at its observed dependence?
+**METHOD.** Complete paired-control calculation, known-answer checks, joint tables and exact dependence-constrained power grid as recorded in S15-WA0-H1-20261025 above.
+**Found.** No feasible planning-grid cell reaches 80% power; the rhythm genre-swap diagnostic and its zero-touching interval coexist with a nonsignificant exact paired test. The broader play-frame claim stays open.
+**Means.** Original results and limits remain distinct from the approved successor. Full numbers, controls and cost are included in the shared entry above.
+
+Curator roll-up: measurement integrity; Could the matched genre instrument detect a difference at its observed dependence?; **Infrastructure**; No feasible planning-grid cell reaches 80% power; the rhythm genre-swap diagnostic and its zero-touching interval coexist with a nonsignificant exact paired test. The broader play-frame claim stays open.; project meaning: no universal sensitivity or original-control licence; next engineering obligation: use the approved reference and measured planning grid; public claim unchanged outside the successor; curator decision required: No. Detail: [full receipt](results/phase_2_4_stage_15/DRIVE/WA0_20261025.md).
+
+
+### S15-CA5
+
+**Hypothesis.** A person's pattern of perceived harm judgments recurs across different items after shared demographic responses and overall severity are removed.
+**METHOD.** Use all 123 released DICES raters and 350 items, subtract the leave-one-rater-out gender-by-race group/item mean, and separately center each person's odd/even-item half. Correlate each person's profiles across 36 harm topics present in both halves. Compare the mean with 1,000 itemwise writer-label permutations within demographic groups; use 2,000 paired-rater bootstrap draws. Repeat on the published 104-person quality subset and reconstruct the complete calculation in a fresh native process.
+**Found.** The topic-specific pattern recurs weakly but above the within-group reference in both the full population and published quality subset.
+**Means.** This supports recurring personal disagreement about perceived harm in this corpus. It does not identify independent values, objective safety or competence.
+
+The table reports the complete real-human comparison read by an exact program. Correlation runs from negative agreement to perfect agreement at 1; intervals resample raters, and the reference probability is the one-sided empirical tail from 1,000 reassignments. Both estimates are descriptive commissioned comparisons, not an independently replicated confirmatory claim.
+
+| Population | Raters | Mean profile correlation |95% rater interval| Mean reassignment correlation |95% reference interval| Empirical probability |
+|---|---:|---:|---|---:|---|---:|
+| All released |123|0.139767|[0.105093,0.174035]|0.000036|[-0.034320,0.034560]|0.000999001|
+| Published quality subset |104|0.133955|[0.096592,0.170797]|-0.000068|[-0.035626,0.037446]|0.000999001|
+
+Both populations contain all 350 items. Thirty-six harm topics occur in both halves; 35 lack support in one half and do not define a shared profile coordinate. Every retained rater contributes, with no singleton-group or constant-profile exception. The full-population real-minus-reference contrast is 0.139731; the quality sensitivity is 0.134023. The score maps No to 0, Unsure to 0.5 and Yes to 1. The quality sensitivity follows the published 19-rater exclusion list; it does not replace the full population.
+
+The descriptive full-population sum-of-squares partition is 239.936792 for demographic group, 1830.411823 for item, 469.098621 for item-by-group, 1444.843103 for rater within group, and 5236.393841 for item-by-rater plus unreplicated error, totaling 9220.684181. There is only one observation per rater/item, so the last term cannot separate interaction from noise. Recurrence across distinct items helps test persistence; it cannot turn this partition into independent value ground truth. Demographic strata are declared source recruitment variables, not inferred identities.
+
+Source SHA-256: `63cb8620eb04e64957f9e45b1f7cb3d079c4eed8e8b28909f46e0b7038ce4301`. Codebook SHA-256: `0e9d5b8fa1ae3d102a77ca4f773a2551b9c0a56f88f5cf825e5db2d405ebd5f3`. Eight targeted tests, the complete constructed native fixture, source/output checks and independent full replay pass. Corpus execution plus verification costs 95.5 CPU seconds; the fixture adds 0.734375, totaling 96.234375. No participant text or identities are published. Both probabilities are registered as diagnostics in the multiplicity archive; neither changes an older confirmatory family.
+
+Registered next work, one generation only and at most 1,800 CPU seconds each: `CA5.s` checks unsure coding, fixed item splits and the published quality restriction; `CA5.m` compares topic-specific recurrence with overall severity to locate the stable component; `CA5.r` admits a separately labeled Jester taste recurrence comparison only after authenticating the complete-record input and freezing its comparable item-feature construction. The replication is not yet executable and cannot silently substitute a new population or claim value ground truth. No follow-up spends a locked holdout.
+
+Curator roll-up: recurring personal judgments; Does a person retain a distinctive harm-topic pattern across items?; **Strengthens**; small topic-specific recurrence survives the stated within-group reference; project meaning: a scoped personal judgment component is measurable without identifying private values; next engineering obligation: frozen specification, mechanism and second-corpus checks; public claim newly licensed within this corpus; curator decision required: No. Detail: [full receipt](results/phase_2_4_stage_15/DRIVE/CA5_20261025.md).
+
+
+### OPS-S15-W3-INPUT-INSTRUMENTS
+
+**Hypothesis.** Can the new census, source, control and comparison instruments execute their complete known-answer fixtures under the actual native runtime?
+**METHOD.** Execute the seven constructed handlers, replay every output in a separate process, and independently verify frozen source/output hashes and original native exits.
+**Found.** All seven constructed fixtures pass complete replay. The legacy process-exit race remains separately recorded; no passing full-suite claim is made.
+**Means.** These instruments can be dispatched within their individual admission gates; corpus effects and full-cost admission are separate.
+
+[Complete scope, validation, failures and accounting](results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md). Source/output hashes and original native exits verify. Instrument evidence is recorded in TOOLS; no new scientific probability or theory claim is added.
+
+Curator roll-up: Week 3 measurement integrity; Can the new census, source, control and comparison instruments execute their complete known-answer fixtures under the actual native runtime?; **Infrastructure**; All seven constructed fixtures pass complete replay; project meaning: These instruments can be dispatched within their individual admission gates; corpus effects and full-cost admission are separate.; next engineering obligation: Complete the measured pilots and build the remaining commissioned cards.; public claim unchanged; curator decision required: No. Detail: linked full receipt.
+
+### S15-CA0
+
+**Hypothesis.** Does the public comparison corpus support the commissioned population and its original prompt-sharing reference?
+**METHOD.** Census every released conversation and four-candidate turn, retain exact exclusions and minimum writer support, and repeat the census in a fresh process.
+**Found.** The source yields 231,651 valid comparisons and 2,979 eligible annotators. Fewer than half the eligible comparisons have the required shared prompt, activating the frozen country-and-prompt-cluster fallback.
+**Means.** The choice model has authenticated support and an explicit reference route; no preference or temporal result has been fitted.
+
+[Complete scope, validation, failures and accounting](results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md). Source/output hashes and original native exits verify. Instrument evidence is recorded in TOOLS; no new scientific probability or theory claim is added.
+
+Curator roll-up: Week 3 measurement integrity; Does the public comparison corpus support the commissioned population and its original prompt-sharing reference?; **Infrastructure**; The source yields 231,651 valid comparisons and 2,979 eligible annotators; project meaning: The choice model has authenticated support and an explicit reference route; no preference or temporal result has been fitted.; next engineering obligation: Prepare exact conversation/prompt-disjoint inputs and time the pinned multilingual encoder.; public claim unchanged; curator decision required: No. Detail: linked full receipt.
+
+### OPS-S15-W3-WA0-INPUTS
+
+**Hypothesis.** Can the complete saved identification populations be represented with the same aggregation in the real and context-control arms?
+**METHOD.** Authenticate the original PMAP, habit, final-document and matched-genre completions; reconstruct session vectors and independently replay every saved join and feature.
+**Found.** The full 1,399-session population and 990-session genre comparison are retained. The new matched session-summary measurement is ready; original pooled vectors remain audit evidence.
+**Means.** Input integrity passes without retroactively validating the old person controls. The literal flawed control and approved separate correction remain distinct.
+
+[Complete scope, validation, failures and accounting](results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md). Source/output hashes and original native exits verify. Instrument evidence is recorded in TOOLS; no new scientific probability or theory claim is added.
+
+Curator roll-up: Week 3 measurement integrity; Can the complete saved identification populations be represented with the same aggregation in the real and context-control arms?; **Infrastructure**; The full 1,399-session population and 990-session genre comparison are retained; project meaning: Input integrity passes without retroactively validating the old person controls. The literal flawed control and approved separate correction remain distinct.; next engineering obligation: Finish the whole-design cost pilot before either full reference bank is admitted.; public claim unchanged; curator decision required: No. Detail: linked full receipt.
+
+### OPS-S15-W3-WB1-CLOCK-RECOVERY
+
+**Hypothesis.** Can event timing be reproduced exactly from the original raw clock and admitted P2 source?
+**METHOD.** Compare subtraction-before-division with division-before-subtraction, retain the failed attempt, and validate canonical arithmetic against large-epoch and corrupted-clock fixtures plus fresh replay.
+**Found.** The original pass failed on floating-point operation order. The separately validated recovery keeps the original tolerance and design and is running; no process-piece result exists yet.
+**Means.** This is an engineering failure, not a scientific negative. Original failure cost and evidence remain in cumulative accounting.
+
+[Complete scope, validation, failures and accounting](results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md). Source/output hashes and original native exits verify. Instrument evidence is recorded in TOOLS; no new scientific probability or theory claim is added.
+
+Curator roll-up: Week 3 measurement integrity; Can event timing be reproduced exactly from the original raw clock and admitted P2 source?; **Infrastructure**; The original pass failed on floating-point operation order; project meaning: This is an engineering failure, not a scientific negative. Original failure cost and evidence remain in cumulative accounting.; next engineering obligation: Finish the shared source recovery and measure full decomposition cost; no third shared attempt.; public claim unchanged; curator decision required: No. Detail: linked full receipt.
+
+### OPS-S15-W3-WD1-PILOT-FAILURE
+
+**Hypothesis.** Can the population-relative sensitivity reference satisfy its unchanged optimization certificate on the actual corpus?
+**METHOD.** Run the admitted timing pilot, retain its first failed design, and inspect the optimizer stop and independently evaluated gradient before changing any implementation.
+**Found.** The optimizer stopped before its original gradient certificate passed, before scientific scores. The failed pilot consumed 12.515625 CPU seconds; a separately certified exact solver is being prepared.
+**Means.** This is an instrument failure. The population-relative question remains open, and the independent competence gap remains open.
+
+[Complete scope, validation, failures and accounting](results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md). Source/output hashes and original native exits verify. Instrument evidence is recorded in TOOLS; no new scientific probability or theory claim is added.
+
+Curator roll-up: Week 3 measurement integrity; Can the population-relative sensitivity reference satisfy its unchanged optimization certificate on the actual corpus?; **Infrastructure**; The optimizer stopped before its original gradient certificate passed, before scientific scores; project meaning: This is an instrument failure. The population-relative question remains open, and the independent competence gap remains open.; next engineering obligation: Validate the exact solver and measure a complete-null cost before any full 1,000-null run.; public claim unchanged; curator decision required: No. Detail: linked full receipt.
+
 ### S15-DRIVE-DIGEST-20261024
 
 **Hypothesis.** The completed campaign evidence and its validity limits remain unchanged unless a new verified result has landed.

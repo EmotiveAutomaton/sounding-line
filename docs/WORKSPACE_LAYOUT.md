@@ -10,12 +10,12 @@ current; Stages 14 and 13 are closed with final packets.**
 |---|---|
 | Startup and operating constraints | [AGENTS](../AGENTS.md), [STATE](STATE.md), [TODO](../TODO.md), [operations](CODEX_OPERATIONS.md) |
 | Any stage's plans, sources and evidence | [Design index](design/README.md): one visible folder per stage, 2 through 15 |
-| Current campaign | [Stage 15](design/stage-15/README.md); October 16 drive partly implemented and active, earlier finite queues drained; [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguishes running, held and unbuilt cards |
+| Current campaign | [Stage 15](design/stage-15/README.md); October 25 Week 3 in implementation, earlier finite queues retained; [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguishes running, held and unbuilt cards |
 | Closed October campaign | [Stage 14](design/stage-14/README.md) |
 | Closed September campaigns | [Stage 13](design/stage-13/README.md), [Stage 12](design/stage-12/README.md) |
 | Cloud rounds across stages | [Gear 3 campaign index](design/gear-3/README.md) |
 | Program-wide context | [Program shelf](design/program/README.md) |
-| Claims and curator framing | [Theory](theory/README.md); October 16 errata applied, earlier sources retained |
+| Claims and curator framing | [Theory](theory/README.md); applied filings and their source receipts |
 | Methods and capabilities | [Method shelf](method/README.md), [TOOLS](TOOLS.md) |
 | Complete method/results record | [FINDINGS](../FINDINGS.md), `results/` and immutable receipts |
 | Original briefs and errata | [Design archive](design/archive/README.md), [supplied-source archive](archive/study-specs/README.md) |
@@ -53,9 +53,11 @@ root operating files and frozen experimental paths remain in place.
 | `sounding-line/` | Main repository and active operating checkout |
 | `reference/` | Separate research checkouts; do not edit during ordinary work |
 | `.worktrees/gear3-round1/` | Inactive historical worktree; branch and evidence retained |
-| `.workspace/assessments/` | Private workspace assessment and incoming-source preservation |
+| `.workspace/assessments/processed/stage-15/` | Private byte-preserved processed incoming sources, grouped by filing date |
 | `.agents/`, `.codex/`, `.claude/` | Existing local instruction/runtime surfaces |
 
 Raw text, local models and operational evidence remain in their existing ignored
 paths. The independent health cadence is six hours; a documentation pass does not
 reset it or authorize new work.
+
+The [October 25 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261025.json) records four exact source copies filed by stage and date. Incoming root files are temporary intake locations. After review, preserve one canonical source on the stage shelf, put decisions and implementation state beside it, update the ledger, then move the duplicate original to the private processed-stage archive. Keep unprocessed items visibly pending; keep locked and runtime-bound paths fixed.

@@ -1,5 +1,34 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-CA1-INPUTS: complete instrument write-through; dependent studies remain separately gated.
+- [x] OPS-S15-W3-WB1-VERIFIED: complete instrument write-through; dependent studies remain separately gated.
+- [x] OPS-S15-W3-WD1-COST: complete instrument write-through; dependent studies remain separately gated.
+- [x] OPS-S15-W3-PROC-CALIBRATION: complete instrument write-through; dependent studies remain separately gated.
+- [x] OPS-S15-W3-CA1-DEPENDENCY: complete instrument write-through; dependent studies remain separately gated.
+- [x] OPS-S15-W3-SHARED-SPAN-FAILURE: complete instrument write-through; dependent studies remain separately gated.
+- [ ] WD1.h1: cost-held; no reduction of its required reference bank.
+- [ ] WC2 / FR1: validate one shared canonical-span recovery against actual failing input.
+
+- [x] S15-WA0-H1-20261025 / S15-WA0-LITERAL-20261025 / S15-GEN1-IC-20261025: complete internal write-through, original control retained, corrected scope explicit.
+- [ ] WA0.h1.s / WA0.h1.m / WA0.h1.p: build the registered one-generation checks, 5,400 CPU seconds each; no locked holdout.
+- [ ] WA0 companion return: prepare exact aggregate licence and reader identity; recipient adoption remains separate.
+
+- [x] S15-CA5: complete controlled comparison and fresh replay landed; narrow recurring disagreement claim.
+- [ ] S15-CA5.s: frozen coding/split/quality specification checks; cap1,800 CPU seconds.
+- [ ] S15-CA5.m: topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
+- [ ] S15-CA5.r: independently admitted Jester recurrence replication; comparable feature construction must be frozen before execution; cap1,800 CPU seconds.
+
+**October 25 Week 3 checkpoint:** Completed control comparisons and source checks are recorded in the claim ledger and full evidence records. Gear 2 continues with the CPU encoder cost pilot and validation of the next event studies. The paid PROC calibration failed its response-format gate; a tested repair is prepared but its transfer remains approval-held. The full sensitivity reference bank is cost-held. Local GPU work stays parked. Remaining commissioned cards and the ready-queue target are unfinished. The new packet supersedes earlier weekly closure snapshots: new starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
+
+- [x] OPS-S15-W3-INPUT-INSTRUMENTS: completed instrument/source or failure write-through; Complete the measured pilots and build the remaining commissioned cards.
+- [x] S15-CA0: completed instrument/source or failure write-through; Prepare exact conversation/prompt-disjoint inputs and time the pinned multilingual encoder.
+- [x] OPS-S15-W3-WA0-INPUTS: completed instrument/source or failure write-through; Finish the whole-design cost pilot before either full reference bank is admitted.
+- [x] OPS-S15-W3-WB1-CLOCK-RECOVERY: completed instrument/source or failure write-through; Finish the shared source recovery and measure full decomposition cost; no third shared attempt.
+- [x] OPS-S15-W3-WD1-PILOT-FAILURE: completed instrument/source or failure write-through; Validate the exact solver and measure a complete-null cost before any full 1,000-null run.
+- [ ] S15-W3-READY-QUEUE: build and validate two ready cards per available CPU slot; registered work does not count as ready.
+- [x] S15-W3-CLAIM-LEDGER: historical backfill and current complete landings recorded; three explicit source/delivery gaps retained.
+- [ ] S15-W3-PROC: land calibration and actual spend; main only if both agreement gates pass.
+
 **October 24 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md).
 No new scientific result; completed findings and failed-control limits are unchanged.
 Monitoring is healthy, with no research worker active. SDT1 remains unimplemented;

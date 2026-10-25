@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**October 25:** [Week 3 is rolling out](WEEK3_INITIAL_20261025.md). Complete input landings, preserved instrument failures, new counted runtime and the active paid calibration are recorded. The new packet supersedes earlier weekly cutoff snapshots. Full implementation and controlled comparisons remain open.
+
 **October 24 daily integration:** [Complete digest](DIGEST_20261024.md).
 No new scientific result; completed findings and failed-control limits are unchanged.
 Monitoring is healthy, with no research worker active. SDT1 remains unimplemented;
@@ -448,3 +450,6 @@ then concrete gated paid routes. The earlier failed Ghost profile witness still
 blocks that separate engine comparison; descriptive work does not bypass it.
 
 Consumer coverage is complete for the audited selection path: D2 training/calibration/test and D12 primary labels are exposed; D6 selection-derived sensitivities are held while its direct-hover primary remains. P8, P4 and D28 are invariant to this defect. [Exact aggregate audit](SELECTED_OPTION_AUDIT_20261018.md).
+
+
+October 25: [complete input, recovery and cost records](WEEK3_INSTRUMENTS_20261025.md). WB1 source verified; CA1 dependency recovery admitted after actual encoder gate; WD1 full reference cost-held; PROC failed format calibration with one-cent reconciliation; shared WC2/FR1 span assertion under bounded engineering recovery.

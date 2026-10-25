@@ -1,5 +1,7 @@
 # Stage 15: next-round research division
 
+**October 25:** [Week 3 operative packet and reviewed amendments](week3/README.md). Gear 2 and the bounded new Gear 3 campaign are authorized and rolling out; source packets and earlier results remain preserved.
+
 **October 17 amendment is rolling out:** [packet, frozen wave and live execution](drive/README.md)
 remain part of Stage 15. The [October 17 theory errata](../../theory/README.md#approved-wording-and-source-history)
 is applied and filed; previous stages remain closed.

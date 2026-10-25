@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+**October 25 Week 3 checkpoint:** Completed control comparisons and source checks are recorded in the claim ledger and full evidence records. Gear 2 continues with the CPU encoder cost pilot and validation of the next event studies. The paid PROC calibration failed its response-format gate; a tested repair is prepared but its transfer remains approval-held. The full sensitivity reference bank is cost-held. Local GPU work stays parked. Remaining commissioned cards and the ready-queue target are unfinished. The new packet supersedes earlier weekly closure snapshots: new starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
+
 [GEN1 checkpoint continuation](../../results/phase_2_4_stage_15/DRIVE/GEN1_CONTINUATION_BUILD_20261023.md) passes six checks and full native source replay. It is prepared only for a verify-phase wall interruption; the original live plan and scientific definitions remain unchanged.
 
 **October 23 GEN1 complete:** [The full matched-genre comparison and independent replay are recorded](../../results/phase_2_4_stage_15/DRIVE/GEN1_COMPARISON_20261023.md). Descriptive genre contrasts are null and genre-level fake controls fail; equal weighting remains. All workers exited. Population-relative SDT1 remains implementation work; Stage 15 and other recorded holds remain open.
