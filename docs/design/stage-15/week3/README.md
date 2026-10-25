@@ -10,6 +10,7 @@ belongs in [the execution archive](../../../../results/phase_2_4_stage_15/DRIVE/
 Raw inputs, private joins and API payloads remain ignored under the raw-result tree.
 Older packets stay on their dated shelves; no historical source is overwritten.
 
+- [Theory filing application](THEORY_FILING_APPLIED_20261025.json): all 34 Appendix A/B/C positions, exact edits, attribution and open G226–G234 rows. Existing quotations and empirical results retained.
 - [WA0 correction](WA0.md): approved independent-writer context control, with
   the flawed original retained and the changed gallery/aggregation scope explicit.
 - [Initial rollout and complete input landings](../../../../results/phase_2_4_stage_15/DRIVE/WEEK3_INITIAL_20261025.md).

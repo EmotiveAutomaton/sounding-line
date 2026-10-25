@@ -2597,6 +2597,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-WA0-FOLLOWUP-COST:** All three complete follow-up cost pilots fit their allowances; full registered comparisons are running and have no reported interim verdict. [Full record](../results/phase_2_4_stage_15/DRIVE/WA0_FOLLOWUP_COST_20261025.md).
+
+**OPS-S15-W3-WA0-FOLLOWUP-NATIVE:** All three registered identification follow-ups pass native instrument and timing checks; corpus comparisons remain separately cost-gated. FR1/TR5 second-repair wrappers remain corpus-held despite passing fixtures. [Full record](../results/phase_2_4_stage_15/DRIVE/WA0_FOLLOWUP_NATIVE_20261025.md).
+
+**OPS-S15-W3-THEORY-FILING:** All supplied Week3 theory positions are filed as attributed proposals; existing quotations and empirical evidence remain intact. [Full record](../results/phase_2_4_stage_15/DRIVE/THEORY_FILING_20261025.md).
+
+**OPS-S15-W3-PP1-COST:** The full pause study is cost-held after a complete verified pilot; no corpus scientific result is licensed. [Full record](../results/phase_2_4_stage_15/DRIVE/PP1_COST_HOLD_20261025.md).
+
+**OPS-S15-W3-PP1-INPUTS:** Complete canonical pause inputs and native model instruments pass fresh replay; corpus analysis and full-work cost admission remain separate. [Full record](../results/phase_2_4_stage_15/DRIVE/PP1_INPUTS_20261025.md).
+
 **OPS-S15-W3-SHARED-REPAIR-FINAL:** The shared event source remains instrument-invalid after two engineering healing attempts; dependent comparisons are untested. The independent PP1 source native check passes. [Full record](../results/phase_2_4_stage_15/DRIVE/WEEK3_SHARED_SOURCE_FINAL_20261025.md).
 
 **S15-WA1-20261025:** The retained personal-model audit finds conditional sensitivity limits; no universal absence of personal advantage is licensed. Full original roster, canonical labels, 1,000 outer worlds, original inner intervals and fresh replay verified. [Complete audit](../results/phase_2_4_stage_15/DRIVE/WA1_AUDIT_20261025.md).

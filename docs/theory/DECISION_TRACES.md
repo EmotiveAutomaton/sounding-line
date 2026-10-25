@@ -1264,7 +1264,7 @@ Each row is a completed descriptive primary on human writing/process records, so
 
 *Curator walkthrough, 2026-10-18, about 09:15 PDT, answering the twelve analyst questions; filed at the October 18 daily integration. Excerpts and marked lexical repairs are preserved from the [filing source](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md).*
 
-Repeated edits that pay a cost on one goal to serve another are proposed evidence about goal ordering. The analyst caution is that sacrifice can also signal a belief about a means' effectiveness. A correction direction and an observed cost need independent meanings before either can identify a human hierarchy.
+Repeated edits that pay a cost on one goal to serve another are proposed evidence about goal ordering. The analyst caution is that sacrifice can also signal a belief about a means' effectiveness. A correction direction and an observed cost need independent meanings before either can identify a human hierarchy. The curator's 25 October walk, preserved as a condensed paraphrase in the [Week 3 packet](../design/stage-15/week3/PACKET.md), Appendices A, B and C, keeps sacrifice as the test of what is an end and asks whether it can be read at a micro level. A second look, including correcting one's own micro-racisms, is a candidate occasion for that tradeoff, not evidence of the tradeoff without its costs and purpose.
 
 **Literature vocabulary, analyst handoff.** The following explanations retain the supplied analyst attribution. Linked sources were requested; inaccessible papers and uninspected full texts are **SNIPPET**, not independently verified findings in this pass.
 - **Naive utility calculus**: describes inferring value from an agent's costs and rewards ([source](https://doi.org/10.1016/j.tics.2016.05.011), SNIPPET).
@@ -1274,9 +1274,9 @@ The table separates the proposed claim from its evidence and scope.
 
 | # | Hypothesis | Status and evidence |
 |---|---|---|
-| **G224** | Repeated sacrifices order a maker's goal hierarchy | **SUPPORTED only in the stipulated construction (sim, OPS-THEORY-1018-SIM).** Ghost N4d's exact reader gains 0.095 to 0.987 nats with visible stakes and two or six probes; zero probes preserve the prior and fixed stakes alias weighted and fixed-order rules. Human edit-goal ordering remains **OPEN**. Canonical correction prediction is null with a biased permutation reference (test, S15-DRIVE-D4-CANONICAL-1018). |
+| **G224** | Repeated sacrifices order a maker's goal hierarchy | **SUPPORTED only in the stipulated construction (sim, OPS-THEORY-1018-SIM).** Ghost N4d's exact reader gains 0.095 to 0.987 nats with visible stakes and two or six probes; zero probes preserve the prior and fixed stakes alias weighted and fixed-order rules. Human edit-goal ordering remains **OPEN**. Canonical correction prediction is null with a biased permutation reference (test, S15-DRIVE-D4-CANONICAL-1018). The 25 October micro-level proposal retains the requirement to identify what was sacrificed; a correction's existence alone does not supply the cost or its preferred end. |
 
-**What the table says.** Variation in visible stakes can separate stipulated goal rules in a constructed world. Human corrections still do not identify those rules or establish useful future-choice prediction. Confidence: one bad test away, with probe support confined to constructed worlds.
+**What the table says.** Variation in visible stakes can separate stipulated goal rules in a constructed world. Human corrections still do not identify those rules or establish useful future-choice prediction. Reading small sacrifices requires independently interpretable costs and alternatives; neither a second look nor its duration supplies them by itself. Confidence: one bad test away for the constructed probes; untested, logic only for human micro-level sacrifice.
 
 **Corrections can overlay rather than erase a route**
 

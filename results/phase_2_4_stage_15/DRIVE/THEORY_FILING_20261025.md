@@ -1,0 +1,9 @@
+# Week3 Appendices A/B/C
+
+**Hypothesis.** Can the supplied theory positions be integrated without turning condensed summaries into quotations or proposals into results?
+**METHOD.** Read the supplied appendices and the affected theory sections, afterwords and correction history. Apply unique exact replacements to the current files, retaining newer result rows. Check every old blockquote byte-for-byte, preserve stable identifiers, map each supplied position to its edits, and run the theory-format checker.
+
+**Found.** All 34 positions are filed across the four existing theory documents and their index. Nine new rows, G226–G234, are explicitly OPEN. Existing quotations and measured-result scopes are retained. The application receipt records every exact replacement, before/after file hash, source date, attribution and open uncertainty. The format checker passes.
+**Means.** The current account covers reusable processes and the needs they serve, learned ends, present trust, selective uptake, repetition, group resistance and small sacrifices. Persistence remains tentative; the meanings of CARE and PANIC/GRIEF, shared fundamental ends and the proposed anti-capture effect retain their uncertainties. This filing imports no new literature verdict, empirical result, compute authority or new generation of follow-ups. The processed packet and application receipt are on the Week3 shelf; card designs and completed evidence retain separate indexed locations.
+
+Curator roll-up: theory provenance; Are the supplied positions recorded with their original status?; **Infrastructure**; every supplied position is filed with attribution and uncertainty; project meaning: theory and implementation now share the same commissioned account; next engineering obligation: continue bounded execution and full landings; public claim unchanged; curator decision required: No. Detail: [exact application receipt](docs/design/stage-15/week3/THEORY_FILING_APPLIED_20261025.json).

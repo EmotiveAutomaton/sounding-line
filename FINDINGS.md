@@ -1,5 +1,101 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-WA0-FOLLOWUP-COST
+
+**Hypothesis.** Can all registered corrected-control follow-ups run their complete design within their individual cost limits?
+**METHOD.** Run the full source population, every fixed member, all 2,000 bootstrap draws and the first 100 of 1,000 null assignments per member. Repeat in an independent process, discard scientific scores, conservatively scale the measured complete pilot tenfold and add every native/pilot charge. Authenticate all output hashes and native exits before freezing the main plans.
+
+The table reports counted CPU seconds. The prior charge includes the complete pilot and its native instruments; the projection includes the full main and fresh replay. Each card has a separate 5,400 CPU-second allowance.
+
+| Card | Pilot and replay | All prior charge | Full main and replay projection |
+|---|---:|---:|---:|
+| WA0.h1.s | 202.890625 | 216.28125 | 1999.21875 |
+| WA0.h1.m | 67.84375 | 78.078125 | 649.84375 |
+| WA0.h1.p | 82.4375 | 91.34375 | 795.15625 |
+
+**Found.** All three verified pilots fit their individual cumulative allowances. The exact full plans are dispatched with original populations, fixed galleries, every member and the complete inference counts. Native identities and immutable plan hashes are retained in the receipt.
+**Means.** These are cost admissions, not scientific results. Preserve every full comparison and failed/unsupported member; do not choose a successful partition or representation. Complete independent replay and full write-through must precede scientific reporting. Follow-ups open no further generation. The ready-queue target and remaining packet implementation remain unfinished.
+
+Curator roll-up: instrument integrity; Are the complete follow-ups affordable?; **Infrastructure**; every registered follow-up fits its separate allowance; project meaning: full comparisons can proceed; next engineering obligation: inspect terminal outputs and complete write-through; public claim unchanged; curator decision required: No. Detail: [complete admissions](results/phase_2_4_stage_15/DRIVE/WA0_FOLLOWUP_COST_20261025.json).
+
+
+### OPS-S15-W3-WA0-FOLLOWUP-NATIVE
+
+**Hypothesis.** Can the registered corrected-control follow-ups preserve the original comparison while testing partition, feature-block and reader sensitivity?
+**METHOD.** Owner-review the frozen implementations and sixteen targeted checks, then run each complete statistical and timing handler on known-answer fixtures through the counted native runtime. Recompute in fresh native processes, authenticate every completion output and verify original process exits. Keep the three cards' charges separate.
+
+The table records completed native instrument checks, not corpus scientific results.
+
+| Card | Native handler | CPU seconds |
+|---|---|---:|
+| WA0.h1.s | native | 9.59375 |
+| WA0.h1.s | timing-native | 3.796875 |
+| WA0.h1.m | native | 6.546875 |
+| WA0.h1.m | timing-native | 3.6875 |
+| WA0.h1.p | native | 5.484375 |
+| WA0.h1.p | timing-native | 3.421875 |
+
+**Found.** All six native handlers pass fresh reconstruction. The specification curve retains all five fixed partitions. Feature attribution removes each of the four actual primary feature blocks; separate process channels remain distinct. The second reader uses the frozen correlation distance with neutral treatment of profiles that have no shape. Original source populations, fixed galleries, paired inference and independent-donor controls remain. The complete original baseline is required again in each main run.
+**Means.** All three full-population first-tenth cost pilots are dispatched, with their scientific scores discarded. Each main must fit its own 5,400 CPU-second allowance including native validation, pilot and fresh replay. This is one generation of registered follow-ups, not permission to choose a winning partition, shrink the population or generate descendants. Original diagnostics and corrected-parent evidence remain intact. No tests were harvested beyond these registered cards.
+
+The independent local source-repair wrappers for FR1 and TR5 are owner-reviewed and pass eight targeted checks, including both previously recorded source failures and fresh process replay. They remain unadmitted because the shared source's second corpus attempt exposed another defect and exhausted the repair allowance. Their fixture success does not restore corpus eligibility.
+
+Curator roll-up: instrument integrity; Are the registered robustness instruments executable under their frozen design?; **Infrastructure**; all native follow-up handlers pass replay; project meaning: corpus findings remain gated; next engineering obligation: complete cost admission and full comparisons where allowed; public claim unchanged; curator decision required: No. Detail: [native receipts](results/phase_2_4_stage_15/DRIVE/WA0_FOLLOWUP_NATIVE_20261025.json).
+
+
+### OPS-S15-W3-THEORY-FILING
+
+**Hypothesis.** Can the supplied theory positions be integrated without turning condensed summaries into quotations or proposals into results?
+**METHOD.** Read the supplied appendices and the affected theory sections, afterwords and correction history. Apply unique exact replacements to the current files, retaining newer result rows. Check every old blockquote byte-for-byte, preserve stable identifiers, map each supplied position to its edits, and run the theory-format checker.
+
+**Found.** All 34 positions are filed across the four existing theory documents and their index. Nine new rows, G226–G234, are explicitly OPEN. Existing quotations and measured-result scopes are retained. The application receipt records every exact replacement, before/after file hash, source date, attribution and open uncertainty. The format checker passes.
+**Means.** The current account covers reusable processes and the needs they serve, learned ends, present trust, selective uptake, repetition, group resistance and small sacrifices. Persistence remains tentative; the meanings of CARE and PANIC/GRIEF, shared fundamental ends and the proposed anti-capture effect retain their uncertainties. This filing imports no new literature verdict, empirical result, compute authority or new generation of follow-ups. The processed packet and application receipt are on the Week3 shelf; card designs and completed evidence retain separate indexed locations.
+
+Curator roll-up: theory provenance; Are the supplied positions recorded with their original status?; **Infrastructure**; every supplied position is filed with attribution and uncertainty; project meaning: theory and implementation now share the same commissioned account; next engineering obligation: continue bounded execution and full landings; public claim unchanged; curator decision required: No. Detail: [exact application receipt](docs/design/stage-15/week3/THEORY_FILING_APPLIED_20261025.json).
+
+
+### OPS-S15-W3-PP1-COST
+
+**Hypothesis.** Can the complete pause study, including all bootstrap refits and controls, fit its commissioned cost allowance?
+**METHOD.** Run both genres on the full canonical source, fit five complete writer-bootstrap replicates and one hundred identification permutations per genre, then repeat the entire pilot in a fresh process. Project the frozen full workload of 2,000 bootstrap refits and 1,000 permutations per genre, keeping the larger execution or verification forecast and all earlier charges.
+
+The table gives cost accounting only; no pilot scientific score is retained.
+
+| Cost item | CPU seconds |
+|---|---:|
+| Complete pilot and fresh replay | 327.171875 |
+| Cumulative source, native and pilot charge | 394.453125 |
+| Conservative projected full main and replay | 121121.09375 |
+| Original allowance | 3600 |
+| Doubled allowance | 7200 |
+
+**Found.** The complete pilot and fresh replay pass. The projected full workload exceeds even the doubled allowance. Every original session, both genres and the specified whole-fit bootstrap remain in the planning calculation.
+**Means.** Hold PP1's full comparison. This is a cost outcome, not a failed scientific hypothesis or an engineering retry. Do not lower draws, omit difficult fits or run a successful subset. A separately registered exact cheaper implementation would need validation and a new measured forecast before admission. Continue independent commissioned cards.
+
+Curator roll-up: instrument integrity; Is the full pause study affordable under its authorized design?; **Infrastructure**; the full study exceeds its cost allowance; project meaning: human pause hierarchy remains untested by this card; next engineering obligation: independent cards or a validated exact cheaper implementation; public claim unchanged; curator decision required: No. Detail: [complete cost receipt](results/phase_2_4_stage_15/DRIVE/PP1_COST_HOLD_20261025.json).
+
+
+### OPS-S15-W3-PP1-INPUTS
+
+**Hypothesis.** Can the independent pause source retain the complete canonical session population and support the exact planned pause-model instrument?
+**METHOD.** Rebuild eligible character-to-character and revision intervals from the fully verified source continuation, preserving all canonical sessions. Validate the full model and its timing handler on known-answer records, then independently reconstruct each output in fresh native processes. Verify all terminal output hashes and original process exits.
+
+The table records completed source and instrument work, not corpus scientific scores.
+
+| Completed work | CPU seconds |
+|---|---:|
+| Full pause source, 1,399 sessions | 52.640625 |
+| Complete model native fixture | 5.375 |
+| Complete timing-handler native fixture | 6.4375 |
+
+**Found.** All three runs pass independent replay. The source retains 61 writers, 817 creative sessions and 582 argumentative sessions. Four sessions lack a within-word speed baseline and remain explicitly marked; no session is silently removed. The interval scope is single-character writer insertions and separately tagged deletion targets, with suggestion-touching and multi-insert intervals excluded by the authenticated source definition. Cumulative independent source and native work is 67.28125 CPU seconds including the earlier source fixture. Source preparation is not a corpus result or full-model cost admission.
+**Means.** The exact whole-population cost pilot is dispatched under the original 3,600 CPU-second parent allowance. It retains both genres and estimates the required complete bootstrap, permutation and independent replay work. A forecast beyond the allowance holds the full comparison; it does not justify reducing the design. No new tests were harvested beyond the commissioned card. Theory and scientific claims are unchanged.
+
+The watcher has been cooperatively restarted in its ordinary native user context after its queue client could not resolve the home directory. Read-only native queue inspection now succeeds, the same owner and expected code are loaded, and the six-hour deadline is unchanged. This establishes local monitoring and transport access, not a new observed idle wake. Ambiguous transport history is preserved.
+
+Curator roll-up: instrument integrity; Can complete pause inputs support the planned study?; **Infrastructure**; complete inputs and native instruments pass replay; project meaning: corpus analysis remains separately gated; next engineering obligation: complete exact-design cost admission; public claim unchanged; curator decision required: No. Detail: [complete receipt](results/phase_2_4_stage_15/DRIVE/PP1_INPUTS_20261025.json).
+
+
 ### OPS-S15-W3-SHARED-REPAIR-FINAL
 
 **Hypothesis.** Can the second shared span extractor preserve valid single-option menus while reconstructing every original source event?

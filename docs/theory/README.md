@@ -125,6 +125,20 @@ edits here.
 
 ## Approved wording and source history
 
+The October 21 positions and October 25 morning and walk positions are filed from
+the [Week 3 packet](../design/stage-15/week3/PACKET.md), Appendices A, B and C.
+The supplied appendices are condensed accounts, so this filing uses attributed
+paraphrases and adds no invented verbatim quotations. The reusable-piece process,
+channel-specific functions, learned ends, current trust, selective uptake,
+repetition and group resistance remain proposals with their stated uncertainties.
+Existing quotations, corrections and measured-result scopes are retained. The
+current account keeps persistence tentative, the meaning of PANIC/GRIEF open,
+and shared fundamental ends an assumption the curator himself questions.
+No new literature verification or empirical confirmation is claimed by this filing.
+
+The [application receipt](../design/stage-15/week3/THEORY_FILING_APPLIED_20261025.json) maps all 34 supplied positions to the exact edits and records the new open identifiers G226–G234.
+
+
 The October 18 twelve-position walkthrough is applied in the existing sections of
 the three affected theory files. Its [supplied filing](../design/archive/SOUNDING_LINE_THEORY_FILING_2026-10-18.md)
 and [application receipt](../design/archive/THEORY_FILING_20261018_APPLIED.json)

@@ -465,3 +465,13 @@ October 25: [first shared repair attempts and sensitivity native gates](WEEK3_SO
 October 25: [complete retained-adapter conditional sensitivity audit](WA1_AUDIT_20261025.md), source/native/pilot/main costs and authenticated launcher version history recorded. The complete main worker exited; no model retraining or new inference.
 
 October25: [second/final shared source healing](WEEK3_SHARED_SOURCE_FINAL_20261025.md) failed on accepted origin reused. Class: engineering. Two attempts exhausted; dependent WC2/FR1/TR5/WC4 extraction held. Independent PP1 source admitted after native replay. No third repair.
+
+October25: [PP1 complete source and native instruments](PP1_INPUTS_20261025.md) recorded. Full-design cost pilot dispatched. Same-owner watcher context recovered; new idle delivery remains unverified.
+
+October25: [OPS-S15-W3-PP1-COST](PP1_COST_HOLD_20261025.md): The full pause study is cost-held after a complete verified pilot; no corpus scientific result is licensed.
+
+October25: [OPS-S15-W3-THEORY-FILING](THEORY_FILING_20261025.md): All supplied Week3 theory positions are filed as attributed proposals; existing quotations and empirical evidence remain intact.
+
+October25: [registered identification follow-up native gates](WA0_FOLLOWUP_NATIVE_20261025.md) complete; all three cost pilots dispatched. No scientific verdict or next generation.
+
+October25: [follow-up cost admissions](WA0_FOLLOWUP_COST_20261025.md) recorded. Three full comparisons now running; complete outcomes remain unreported.
