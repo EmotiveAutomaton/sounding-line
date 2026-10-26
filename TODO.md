@@ -1,6 +1,9 @@
 # TODO: the study queue
 
-- [ ] WB1-source-canonical is RUNNING in Gear 2: full source replay plus non-provenance invariance. Fully land it before consuming corrected anchors in the effects-cost probe. Continue ranked commissioned builds; ready-card target remains unmet.
+- [x] OPS-S15-W3-WB1-CANONICAL-COST-CONTINUATION: full source execution retained after verification cost stop; seven checks and complete native continuation replay pass.
+- [ ] WB1 verification-only continuation is RUNNING: land its complete source before downstream effects and rebind the cost-probe dispatcher to the completed successor. Current cumulative charge/reserve 5709.375 of 10800 CPU seconds; old source-canonical attempt stopped on cost.
+
+- [x] WB1-source-canonical execution completed; independent verification stopped on cost. Failure and continuation validation are fully recorded above; this is not source admission. Continue ranked commissioned builds; ready-card target remains unmet.
 
 - [x] OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE: failed corpus probe diagnosed; four checks and full native canonical source repair replay complete.
 - [ ] WB1: rebuild and land the full canonical source before restarting the effects cost probe; 3783.65625 CPU seconds charged/reserved. Earlier preparation cannot supply effect anchors; other-field invariance remains to be proven on the full corpus.

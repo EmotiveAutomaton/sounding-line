@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 26 verification continuation:** [Verified live state](WB1_CANONICAL_VERIFY_LAUNCH_20261026.md). Complete canonical WB1 source verification is running in Gear 2 after a cost stop. Saved execution bytes are preserved; seven checks and full native continuation replay pass. Corpus verification and downstream cost/scientific admission remain open. Calendar, terminal monitoring and ToMpathy's separate lease verify. Ready-card backlog, GPU parking and source/paid-transfer holds remain. Earlier launch snapshots below are historical.
+
 **October 26 recovery and live work:** [Verified launch](WB1_SOURCE_CANONICAL_LAUNCH_20261026.md). The full canonical WB1 source rebuild is running in Gear 2 with verified native ownership, increasing progress and terminal monitoring. The effects-cost attempt exposed aliased action provenance; its failure and the validated repair are fully recorded. Calendar and delivery configuration are restored. ToMpathy's separate CPU lease is preserved. Full source/cost/scientific admission and the ready-card backlog remain unfinished; GPU, source and paid-transfer holds remain.
 
 **October 25 late health check:** [Inspection and native progress](HEALTH_20261025_2340.md). Monitoring is healthy. The existing process-piece effects handler now passes constructed native replay; all validation workers have exited. No research worker is active. Complete corpus cost admission and commissioned builds remain unfinished; GPU, source, cost and paid-transfer holds remain.

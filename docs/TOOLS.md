@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-WB1-CANONICAL-COST-CONTINUATION:** Seven targeted checks and full native verification-continuation replay pass. The original full source producer succeeded, but its verifier hit the attempt CPU allocation. Completed bytes are retained; full corpus replay remains required. [Record](../results/phase_2_4_stage_15/DRIVE/WB1_CANONICAL_COST_CONTINUATION_20261026.md).
+
 **OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE, data correction:** The full-source cost probe caught aliased action provenance. Canonical repair passes four checks and native replay; old preparation is invalid for downstream effect anchors. Full corpus invariance and cost admission remain. [Complete record](../results/phase_2_4_stage_15/DRIVE/WB1_SOURCE_CANONICAL_NATIVE_20261026.md).
 
 **OPS-S15-W3-WB1-EFFECTS-COST-NATIVE:** Four targeted checks and complete fresh constructed native replay pass; real encoder timing and scientific admission remain separate. [Validation](../results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_COST_NATIVE_20261026.md).

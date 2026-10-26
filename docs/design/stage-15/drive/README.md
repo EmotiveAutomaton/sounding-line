@@ -219,3 +219,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [Remaining WB1 effects/bootstrap cost instrument](WB1_EFFECTS_COST_20261026.md) passes four targeted checks and complete constructed native replay. The separate real-corpus timing probe and full cumulative admission remain; scientific population and controls are unchanged.
 
 [WB1 canonical provenance successor](WB1_SOURCE_CANONICAL_20261026.md) preserves the full population and rejects all non-provenance changes after the effects consumer exposed an aliasing bug. Four checks and complete native replay pass; full source reconstruction precedes downstream cost admission.
+
+[Canonical WB1 verification continuation](WB1_CANONICAL_CONTINUATION_20261026.md) preserves completed source bytes after the independent replay hit its attempt allocation. Seven targeted checks and full native replay pass; full corpus verification remains required, with prior costs retained.
