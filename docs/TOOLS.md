@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-WB1-EFFECTS-NATIVE:** Four checks and fresh constructed native occurrence/embedding replay pass; real encoder timing and corpus admission remain. [Complete validation](../results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_NATIVE_20261025.md).
+
+**OPS-S15-W3-HEALTH-20261025-2340:** Native ownership, terminal records, locks, delivery and resources inspected; no runtime repair required. Ready queue remains below target. [Health record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261025_2340.md).
+
 **OPS-S15-W3-DIGEST-20261025:** Daily evidence, native liveness, idle capacity and campaign accounting reconciled; no scientific rerun or new instrument. Ready queue remains incomplete. [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261025.md).
 
 **OPS-S15-W3-VAL-BLIND-GOLD:** One hundred complete blind agent annotations are frozen and structurally verified against the exact source view. Provider agreement and independent semantic validity are untested. [Annotation receipt](../results/phase_2_4_stage_15/DRIVE/VAL_BLIND_GOLD_20261025.md).

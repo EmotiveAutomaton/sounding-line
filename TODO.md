@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
+- [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
+- [ ] WB1: full effects/real encoder and final-bootstrap cost measurement remain. Cumulative charge/reserve is 3445.375 of 10800 CPU seconds; no complete corpus admission.
+
 - [x] OPS-S15-W3-DIGEST-20261025: corrections-first daily packet, complete evidence/accounting reconciliation and idle-capacity record.
 
 - [x] OPS-S15-W3-CA2-NATIVE: design/code/tests owner-reviewed; fourteen checks and both native handlers independently verified.

@@ -1,5 +1,61 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-HEALTH-20261025-2340
+
+**Hypothesis.** Is the authorized queue progressing, and can any operational failure be recovered within its current limits?
+**METHOD.** Inspect all registered native identities and a separate native process inventory, authenticate completed outputs and claim sources, reconcile the actual owner queue, and check freshness, locks, leases, resources, spending and eligible work. Advance the already implemented effects handler through its missing native validation step.
+
+The table reports operational observations at inspection, before that short validation job. It contains no scientific scores.
+
+| Check | Observation |
+|---|---|
+| Registered native identities inspected | 378; only the calendar remains live |
+| Separate process inventory | Calendar wrapper, calendar worker and watcher; no research worker |
+| Existing terminal records / ledger sources | 81 records and 108 source anchors verified |
+| Existing ledger rows | 71, all source bindings valid |
+| Research locks / occupied CPU leases | All 21 locks pass / none |
+| Ready-card target | Unmet; commissioned implementation remains |
+| Idle capacity since last native completion | At least 22.087 research-slot hours |
+| Week 3 booked charge / active reservation | $0.01 / none |
+
+**Found.** The queue-health inspection found healthy monitoring and no active research worker; commissioned builds and admission work remain unfinished. The calendar heartbeat and watcher scans are fresh; the loaded watcher matches all three current source hashes. This health event has an actual delivery record and reached the owner. The separate native owner queue is empty: delivery has been consumed, but the event is still awaiting this completed inspection's acknowledgment. No unacknowledged failed or unknown transport row is present. The old September general-queue log is historical, not evidence about the active Week 3 queue.
+
+No stale process lease or orphan worker needs cleanup. The empty admission mutex marker is not a process lease. Final resource inspection shows 31.39 GiB available RAM, 23.03 GiB commit headroom and 376.07 GiB free disk on a machine with 24 logical processors. CPU resource shortage does not explain the idle queue. Local GPU research remains intentionally parked.
+
+**Means.** The idle interval from 18:18:37 to 23:49:55 PDT is a lower bound, not a daily sum. It overlaps the digest's earlier interval and must not be added to it. Its cause is unfinished owner build/admission work alongside source, cost and concrete-payload approval holds. This is an operational defect, not research exhaustion. The missing constructed native effects validation was completed during this inspection; all its workers then exited. [Its full record](results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_NATIVE_20261025.md) retains the separate corpus cost gate. No runtime repair, parked GPU restart, third shared-source retry, paid request, population reduction or new scientific hypothesis was introduced.
+
+Next authorized work is the remaining process-piece effects/encoder and bootstrap cost measurement, followed by the ranked commissioned builds. The exhausted shared extractor, existing cost holds and concrete-payload approval hold remain. Stage 15 stays open. The health event is acknowledged after full write-through; that ACK alone rearms the six-hour health cadence. No tests harvested from the operational wake.
+
+[Aggregate inspection](results/phase_2_4_stage_15/DRIVE/HEALTH_20261025_2340.json).
+
+Curator roll-up: operational integrity; Is the authorized queue progressing?; **Infrastructure**; The queue-health inspection found healthy monitoring and no active research worker; commissioned builds and admission work remain unfinished.; project meaning: retain the distinction between completed operational checks and scientific admission; next engineering obligation: continue commissioned builds and measured admission; public claim unchanged; curator decision required: No new decision from this inspection. Detail: HEALTH_20261025_2340.md.
+
+### OPS-S15-W3-WB1-EFFECTS-NATIVE
+
+**Hypothesis.** Can the existing occurrence-effects handler execute and independently replay its known-answer fixture before a human-data comparison is admitted?
+**METHOD.** Review the frozen implementation card, exact handler and tests; run the four targeted checks, then execute the unchanged constructed fixture through the counted Week 3 runtime and verify it in a fresh process. Authenticate every output and source pin and confirm all original native identities have exited.
+
+The table describes complete instrument validation and cumulative accounting. It contains no human-data result or model-agreement score.
+
+| Check | Result |
+|---|---|
+| Targeted checks | Four passed |
+| Constructed occurrences replayed | Eight |
+| Complete output hashes / source pins verified | 15 / 84 |
+| Fresh occurrence and constructed embedding replay | Passed |
+| Native execution and verification CPU seconds | 3.671875 |
+| Prior charge plus new test/fixture reserve plus native charge | 3381.703125 + 60 + 3.671875 = 3445.375 CPU seconds |
+| Original complete-card ceiling | 10800 CPU seconds |
+
+**Found.** The existing process-piece effects handler passes constructed native replay; human-data effects and complete study cost admission remain untested. Future-window boundaries, censored follow-up, missing accepted-character support, label-shuffle/constant-effect behavior and discovery-only class fitting pass their existing targeted checks. Exact fresh-process reconstruction passes. The owner, execution child and verification child have exited and their counted lease is released.
+
+**Means.** This advances the original WB1 instrument, without changing its source population, controls, seeds, estimator or scientific gates. The fixture uses a constructed encoder and does not validate or time the real MiniLM encoder. Remaining full effects/encoder and final-bootstrap costs still have to be added before complete corpus admission. The earlier coverage-only projection is not a complete-card admission. No corpus effects, provider calls, GPU work, new hypothesis or scientific probability were introduced. No scientific follow-up is triggered by this instrument completion.
+
+[Aggregate receipt](results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_NATIVE_20261025.json).
+
+Curator roll-up: instrument integrity; Can the frozen effects handler independently replay its fixture?; **Infrastructure**; The existing process-piece effects handler passes constructed native replay; human-data effects and complete study cost admission remain untested.; project meaning: retain the distinction between completed operational checks and scientific admission; next engineering obligation: measure remaining full effects/encoder and bootstrap costs; public claim unchanged; curator decision required: No new decision from this inspection. Detail: WB1_EFFECTS_NATIVE_20261025.md.
+
+
 ### OPS-S15-W3-DIGEST-20261025
 
 **Hypothesis.** Can the day's completed evidence, corrections and unfinished work be reported without converting an instrument landing into a scientific claim?
