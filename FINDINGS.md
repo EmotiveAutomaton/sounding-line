@@ -1,5 +1,63 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-CA3-INPUTS
+
+**Hypothesis.** Can choices without explanations be separated from held-out explanation targets for every annotator in the commissioned population?
+**METHOD.** Run four targeted separation checks and the exact native fixture, then reconstruct the complete authenticated CA1 and VAL sources. Exclude every explained comparison from the reader-fit pool, including explanations not sampled for labeling. Join sampled statement targets by exact writer, conversation, turn, prompt, original half and text bytes. Preserve every fixed annotator and independently replay the complete partition in a fresh process. No reader, value code, prototype or performance statistic is computed.
+
+The table gives the complete source census and execution cost. Input support means both a nonempty fit pool and sampled statement targets; it is not model identifiability or scientific admission.
+
+| Source or check | Complete count or disposition |
+|---|---|
+| Fixed annotators / original comparisons | 2,979 / 226,228 |
+| Comparisons without explanations, eligible for future fits | 125,362 |
+| Explained comparisons excluded from every fit | 100,866 |
+| Held-out sampled explanation targets | 15,032 |
+| Annotators with both input types | 836 |
+| Annotators with no explanation-free comparisons | 720 |
+| Annotators with no sampled explanation target | 1,423 |
+| Targeted separation checks | 4 passed |
+| Native fixture execution and replay | 3.171875 CPU seconds |
+| Full census execution and replay | 16.875 CPU seconds |
+
+**Found.** The complete census and fresh replay agree, with every annotator retained. The two missing-input groups account for the remaining population; no row is deleted or replaced with a population model. Full-population input admission fails. All frozen source bindings, output hashes and native exits verify.
+**Means.** The commissioned full-population comparison is unsupported at this source gate, not negative evidence about values. A separately labeled supported-input variant was proposed to the curator and remains unapproved; the original population and question stay intact. Complete features, blind calibration, reader refits, prototypes and empirical controls are still required even for an approved variant. No downstream fit or population reduction has run.
+
+Cumulative native and full preparation cost is 20.046875 CPU seconds within the separately frozen 600-second source allowance. Participant records and joins remain private. No probabilities or new tests were harvested from this wake.
+
+Aggregate evidence: [complete receipt](results/phase_2_4_stage_15/DRIVE/CA3_INPUTS_20261025.json).
+
+Curator roll-up: choice-to-values input support; Can choices without explanations be separated from held-out explanation targets for every annotator in the commissioned population?; **Infrastructure**; The full-population choice-to-values comparison is unsupported at source admission; missing fit or target inputs remain explicit.; project meaning: source support prevents full-population inference; next engineering obligation: retain full census and resolve the separately labeled supported-input variant before fitting; public claim unchanged; curator decision required: Yes, recommend the explicit supported variant while retaining the original gap. Detail: CA3_INPUTS_20261025.md.
+
+### OPS-S15-W3-VAL-INPUTS
+
+**Hypothesis.** Can the commissioned values-label population be prepared with fixed sampling, authenticated typed provenance and every private source link retained?
+**METHOD.** Run five targeted source checks and the exact handler on a constructed native fixture, then prepare and independently reconstruct the complete CA1 and canonical EV sources in separate counted native processes. Select up to ten nonempty explanations per annotator by the frozen hash order, preserve all population rows, extract surviving typed argumentative spans with explicit gap boundaries, and deduplicate identical texts while retaining every private join. No provider request, label or scientific score is computed.
+
+The table reports the complete preparation census and instrument costs. No row is a value-label or scientific-performance result.
+
+| Source or check | Complete count or disposition |
+|---|---|
+| CA1 annotators / comparisons | 2,979 / 226,228 |
+| Sampled nonempty explanations | 15,032 |
+| Annotators with no available explanation | 1,423, retained explicitly |
+| Canonical EV sessions / argumentative sessions | 1,399 / 582 |
+| Argumentative typed-span status | All 582 complete |
+| H01 roster sessions outside canonical EV | 46, including 33 argumentative |
+| Unique texts after deduplication | 15,594 |
+| Targeted source checks | 5 passed |
+| Native fixture execution and replay | 3.109375 CPU seconds |
+| Full source execution and replay | 40.546875 CPU seconds |
+
+**Found.** The complete preparation and independent source replay agree. Every fixed annotator remains in the census, including those without explanations. All canonical argumentative sessions supply surviving typed spans; upstream-only sessions remain audit rows. Deduplication retains all comparison and session links privately. Frozen sources, all output hashes and original native exits verify.
+**Means.** The blind labeling input and downstream source-separation input are available. Missing explanations do not imply absent values or zero performance. Fragmented surviving typed spans are not continuous original prose or all produced/deleted words. Blind owner annotation of the first hundred items, paid calibration, final code coverage and downstream statistical comparisons remain unrun. Local preparation grants no new transfer or spending authority and does not clear the separate paid-node ordering hold.
+
+Cumulative native and full preparation cost is 43.65625 CPU seconds within the separately frozen 1,200-second source allowance. Raw texts, identifiers and joins remain private. No probabilities, new scientific claims or new tests were harvested from this wake.
+
+Aggregate evidence: [complete receipt](results/phase_2_4_stage_15/DRIVE/VAL_INPUTS_20261025.json).
+
+Curator roll-up: values-input integrity; Can the commissioned values-label population be prepared with fixed sampling, authenticated typed provenance and every private source link retained?; **Infrastructure**; The fixed values-label input is prepared and independently replayed; labels and scientific comparisons remain unrun.; project meaning: source readiness is distinct from semantic and scientific validity; next engineering obligation: complete independent CA3 source separation and blind labeling under existing gates; public claim unchanged; curator decision required: No. Detail: VAL_INPUTS_20261025.md.
+
 ### S15-WA0-H1-S-20261025
 
 **Hypothesis.** Does corrected writer identification survive the five frozen ways of assigning writers to donor, probe and gallery roles?

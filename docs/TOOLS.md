@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-CA3-INPUTS:** Four separation checks, exact native fixture and full source replay pass; full-population input support fails and every unsupported annotator remains explicit. No fitting or replacement population. [Complete census](../results/phase_2_4_stage_15/DRIVE/CA3_INPUTS_20261025.md).
+
+**OPS-S15-W3-VAL-INPUTS:** Five targeted checks, exact native fixture and full source reconstruction pass. Population census, typed provenance, deduplication and private joins are preserved; no labeling or paid request. [Complete source receipt](../results/phase_2_4_stage_15/DRIVE/VAL_INPUTS_20261025.md).
+
 **S15-WA0-H1-S-20261025:** All 55 partition/channel members pass complete fresh replay, support and source verification; original baseline parity is exact. Scientific joint gates fail for two members, retained explicitly. No further generation. [Complete partition comparison](../results/phase_2_4_stage_15/DRIVE/WA0_H1_S_20261025.md).
 
 **S15-WA0-H1-M-20261025 / S15-WA0-H1-P-20261025:** Complete feature-block and second-reader workloads pass full independent replay and exact parent-baseline parity. All outputs, source pins and native exits verify. One-coordinate correlation profiles tie neutrally; no all-channel scientific admission follows. [Block removal](../results/phase_2_4_stage_15/DRIVE/WA0_H1_M_20261025.md) · [Second reader](../results/phase_2_4_stage_15/DRIVE/WA0_H1_P_20261025.md).

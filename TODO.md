@@ -1,5 +1,10 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-VAL-INPUTS: complete native validation and private full source preparation independently replayed.
+- [ ] VAL: blind first-hundred annotation, existing paid-node gates and complete calibration remain; no provider call made by preparation.
+- [x] OPS-S15-W3-CA3-INPUTS: exact native and full source-separation census replayed; all annotators retained.
+- [ ] CA3: full-population comparison source-held; separately labeled 836-person supported-input variant awaits curator decision. Features, labels, models and controls remain unadmitted.
+
 - [x] OPS-S15-W3-SHARED-REPAIR-ATTEMPT1: first shared recovery failure and five native gates fully recorded.
 - [x] OPS-S15-W3-SHARED-REPAIR-FINAL: second shared repair recorded; no third retry.
 - [ ] WC2 / FR1 / TR5 / span-dependent WC4: blocked by exhausted shared extraction failure (accepted origin reused); no scientific verdict.
