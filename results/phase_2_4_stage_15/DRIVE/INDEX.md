@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**October 26 Jester input preparation:** [Complete record](CA5R_SUPPORT_20261026.md). The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. Scientific scope and comparable feature construction remain separate; GPU and source holds remain.
+
+**October 26 Jester input preparation:** [Complete record](CA5R_SUPPORT_NATIVE_20261026.md). The complete-record source checker passes constructed validation; full Jester source preparation remains required. Scientific scope and comparable feature construction remain separate; GPU and source holds remain.
+
 **October 26 effects-source hold:** [Complete failure record](WB1_EFFECTS_SPAN_FAILURE_20261026.md). WB1 effects-cost execution stopped on a repeated acceptance origin. The same-source diagnosis reproduces the exhausted shared extractor defect; no third repair is dispatched. Canonical action-reference preparation remains valid, while WB1 effects and cost admission are held. No Sounding Line research worker is active at inspection. Independent commissioned CA5.r implementation is next; the ready-card backlog remains unfinished. GPU parking and paid-transfer holds remain.
 
 **October 26 corrected-source cost probe:** [Verified launch](WB1_CANONICAL_COST_LAUNCH_20261026.md). Canonical WB1 source reconstruction and full independent replay are complete and recorded. The unchanged effects-cost probe is now running in Gear 2 against those corrected inputs. Its cumulative allocation uses the existing single S4 extension; scientific admission remains pending. Native ownership, CPU activity, terminal monitoring and ToMpathy's separate lease verify. Ready-card backlog, GPU parking and paid-transfer holds remain; earlier launch snapshots are historical.

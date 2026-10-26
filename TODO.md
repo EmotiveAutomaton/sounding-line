@@ -70,7 +70,9 @@
 - [x] S15-CA5: complete controlled comparison and fresh replay landed; narrow recurring disagreement claim.
 - [x] S15-CA5.s: complete comparison and fresh replay recorded as S15-CA5-S-20261025; no next generation; frozen coding/split/quality specification checks; cap1,800 CPU seconds.
 - [x] S15-CA5.m: complete comparison and fresh replay recorded as S15-CA5-M-20261025; no next generation; topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
-- [ ] S15-CA5.r: independently admitted Jester recurrence replication; comparable feature construction must be frozen before execution; cap1,800 CPU seconds.
+- [x] OPS-S15-W3-CA5R-SUPPORT-NATIVE: complete instrument write-through and counted fresh native replay.
+- [x] OPS-S15-W3-CA5R-SUPPORT: complete source-support census and fresh replay; all approved records retained.
+- [ ] S15-CA5.r: input support complete; separately labeled population-relative comparison awaits scope choice and frozen comparable features. Original demographic-relative harm question remains open. Cumulative charge/reserve 122.578125 of 1800 CPU seconds.
 
 **October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 has completed the pause source, native checks and full-design cost pilot; the complete pause study is cost-held. All three corrected-identification follow-ups are complete and fully recorded. Their native workers have exited; remaining execution needs separate build and admission. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. The theory filing is applied. Remaining commissioned cards and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
 

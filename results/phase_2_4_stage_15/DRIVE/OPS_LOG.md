@@ -519,3 +519,9 @@ October 26 WB1 effects-cost admission: original remaining allowance is 3829.375 
 October 26 effects-cost launch: [native owner/worker and actual CPU activity verified](WB1_CANONICAL_COST_LAUNCH_20261026.md); all frozen pins authenticate and terminal/disappearance watches are registered. Sounding Line occupies one CPU slot; separate ToMpathy lease preserved. Cost instrument and scientific gates unchanged. Full cost measurement and scientific admission remain pending.
 
 October 26 WB1 cost failure: engineering class, `empty/repeated accepted span`; [same-source diagnosis](WB1_EFFECTS_SPAN_FAILURE_20261026.md) reproduces `accepted origin reused` in the exhausted shared extractor. Both shared repairs remain used; no third retry. Original source-reference correction stays valid. Failed work and a 30-second diagnostic reserve bring cumulative WB1 charge/reserve to 8438.953125 CPU seconds. Scientific and cost results absent; independent CA5.r implementation next.
+
+October 26 six-hour health inspection: [native services, resources, locks, delivery and ledger checks](HEALTH_20261026_0600.json) pass. WB1 failure is fully recorded and acknowledged; no research worker is active, and zero ready cards against eight is an implementation defect. The shared-span repair remains exhausted; independent commissioned CA5.r source/support preparation is next. GPU parking and paid-transfer holds remain. No service recovery or new test harvested.
+
+October 26 OPS-S15-W3-CA5R-SUPPORT-NATIVE: The complete-record source checker passes constructed validation; full Jester source preparation remains required. Counted native workers exited; cumulative charge/reserve 120.515625 CPU seconds.
+
+October 26 OPS-S15-W3-CA5R-SUPPORT: The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. Counted native workers exited; cumulative charge/reserve 122.578125 CPU seconds.

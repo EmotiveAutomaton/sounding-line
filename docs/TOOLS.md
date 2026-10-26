@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-CA5R-SUPPORT:** The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_SUPPORT_20261026.md).
+
+**OPS-S15-W3-CA5R-SUPPORT-NATIVE:** The complete-record source checker passes constructed validation; full Jester source preparation remains required. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_SUPPORT_NATIVE_20261026.md).
+
 **OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE:** Corpus effects-cost instrumentation fails on a repeated accepted origin. Exact source diagnosis reproduces the exhausted shared extractor failure; prior D3 single-case repair does not establish full validity. Canonical action references remain valid; WB1 effects and cost admission are held. [Record](../results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_SPAN_FAILURE_20261026.md).
 
 **OPS-S15-W3-WB1-SOURCE-CANONICAL:** Complete original-source reconstruction and fresh replay pass for all 1399 sessions. Only action-reference lists changed; all other fields, split and bins are retained. Corrected inputs are admitted; scientific effects and cumulative cost admission remain open. [Full record](../results/phase_2_4_stage_15/DRIVE/WB1_SOURCE_CANONICAL_20261026.md).

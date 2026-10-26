@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[CA5.r complete input support](CA5R_INPUT_SUPPORT_20261026.md) is validated and fully replayed on the admitted Jester population. The separate preference comparison awaits its scope decision and frozen comparable features.
+
 [GEN1 checkpoint continuation](GEN1_CONTINUATION_20261023.md) passes six checks and full native source replay. It is prepared only for a verify-phase wall interruption; the original live plan and scientific definitions remain unchanged.
 
 **October 23 GEN1 build:** [Matched features and the full controlled comparison](GEN1_COMPARISON_20261023.md) pass constructed and fresh native validation. The first corpus feature attempt refused a mixed Windows/POSIX source-pin lookup before features; the separately validated normalization recovery is running in Gear 2. The corpus comparison remains pending. Stage 15 and other recorded holds remain open. Earlier dated states below retain their own cutoffs.
