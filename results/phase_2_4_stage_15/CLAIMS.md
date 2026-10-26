@@ -72,3 +72,4 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | OPS-S15-W3-CA3-INPUTS | CA3-inputs | unsupported / untested | The full-population choice-to-values comparison is unsupported at source admission; missing fit or target inputs remain explicit. |
 | OPS-S15-W3-WC4-BUILD | WC4-build | infrastructure / untested | The production-stability build passes constructed checks; its corpus comparison remains unrun and source-held. |
 | OPS-S15-W3-WC4-NATIVE | WC4-native | infrastructure / passes in constructed worlds | In constructed worlds, the production-stability instrument passes native reconstruction; its human-data comparison remains unrun and source-held. |
+| OPS-S15-W3-CA3-SUPPORTED-INPUTS | CA3.supported-inputs | infrastructure / untested | The approved supported-input preparation is complete for 836 annotators; the full-population question and scientific comparison remain open. |

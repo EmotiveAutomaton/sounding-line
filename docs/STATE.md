@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 25 approved CA3 subset:** [Input preparation](../results/phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.md) and independent replay are complete for the approved 836 annotators; all 2,979 remain in the census. The scientific comparison still needs complete features, calibrated labels, validated models and cost admission. Both preparation workers exited. Other Week 3 holds and unfinished builds remain.
+
 **October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 has completed the pause source, native checks and full-design cost pilot; the complete pause study is cost-held. All three corrected-identification follow-ups are complete and fully recorded. Their native workers have exited; remaining execution needs separate build and admission. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. The theory filing is applied. Remaining commissioned cards and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
 
 **October 24 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md).

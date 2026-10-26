@@ -7,7 +7,8 @@
 - [x] OPS-S15-W3-VAL-INPUTS: complete native validation and private full source preparation independently replayed.
 - [ ] VAL: blind first-hundred annotation, existing paid-node gates and complete calibration remain; no provider call made by preparation.
 - [x] OPS-S15-W3-CA3-INPUTS: exact native and full source-separation census replayed; all annotators retained.
-- [ ] CA3: full-population comparison source-held; separately labeled 836-person supported-input variant awaits curator decision. Features, labels, models and controls remain unadmitted.
+- [x] OPS-S15-W3-CA3-SUPPORTED-INPUTS: curator-approved 836-person preparation and independent replay complete; original full census retained.
+- [ ] CA3.supported: complete calibrated labels, full features, comparison/controls and measured admission; original full-population question remains source-held.
 
 - [x] OPS-S15-W3-SHARED-REPAIR-ATTEMPT1: first shared recovery failure and five native gates fully recorded.
 - [x] OPS-S15-W3-SHARED-REPAIR-FINAL: second shared repair recorded; no third retry.

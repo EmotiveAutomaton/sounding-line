@@ -1,5 +1,33 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-CA3-SUPPORTED-INPUTS
+
+**Hypothesis.** Can the approved supported comparison be prepared without losing the original population or leaking held-out explanation comparisons into fitting?
+**METHOD.** Authenticate the original complete source census, reconstruct every partition from the CA1 and VAL sources, and select all annotators with both required input types. Retain the complete census and exact original recipient records. Validate all input-presence combinations, overlap and false-source refusal, then independently reconstruct both the native fixture and complete corpus preparation in fresh processes. No labels, features, fitted directions or performance statistics determine membership.
+
+The table reports complete input support and instrument cost. These are source counts, not value-prediction scores or scientific results.
+
+| Quantity | Complete count or disposition |
+|---|---:|
+| Fixed annotators retained in the census | 2,979 |
+| Approved supported recipients | 836 |
+| Other annotators retained with missing-input reasons | 2,143 |
+| Supported recipients' unexplained fitting comparisons | 35,367 |
+| Supported recipients' held-out explanation targets | 7,832 |
+| Original full-census explanation targets retained | 15,032 |
+| Targeted known-answer and refusal checks | 5 passed |
+| Native validation and fresh replay, CPU seconds | 3.71875 |
+| Complete preparation and fresh replay, CPU seconds | 17.8125 |
+
+**Found.** Every source and output hash, complete fresh reconstruction and original native exit verifies. The separate preparation contains all 836 eligible recipients, with no within-recipient input removed and no new population substitute. All 2,979 original annotators remain in the private census. All explained comparisons remain excluded from fitting, including unsampled explanations. The curator's explicit approval is recorded in the separate design and provenance ledger.
+**Means.** The approved supported-input preparation is complete for 836 annotators; the full-population question and scientific comparison remain open. Eligibility was based only on input presence. It does not establish model identifiability, label quality or representativeness of the full population. Complete features, calibrated labels, actual reader refits, leave-annotator-out prototypes, empirical controls and measured cost admission remain required. No provider request, model fit, GPU work or new scientific follow-up ran.
+
+New measured native and corpus cost is 21.53125 CPU seconds. Including the original 20.046875 source seconds and the separately declared 120-second preparatory reserve, cumulative charged/reserved cost is 161.578125 of the original 600 CPU-second source allowance. The reserve is conservative accounting, not measured execution. Original source artifacts and the full-population gap remain unchanged. No scientific probabilities were generated.
+
+Aggregate evidence: [complete receipt](results/phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.json).
+
+Curator roll-up: choice-to-values input support; Can the approved supported comparison be prepared without losing the original population or leaking held-out explanation comparisons into fitting?; **Infrastructure**; The approved supported-input preparation is complete for 836 annotators; the full-population question and scientific comparison remain open.; project meaning: the approved smaller population is prepared without claiming the original question is answered; next engineering obligation: complete features, calibrated labels and independently validated comparison admission; public claim unchanged; curator decision required: No. Detail: CA3_SUPPORTED_INPUTS_20261025.md.
+
 ### OPS-S15-W3-WC4-NATIVE
 
 **Hypothesis.** Can the frozen production-stability source, language tagger and statistical handler reproduce their complete constructed checks through the counted native runtime?
@@ -53,13 +81,13 @@ The table gives the complete source census and execution cost. Input support mea
 | Full census execution and replay | 16.875 CPU seconds |
 
 **Found.** The complete census and fresh replay agree, with every annotator retained. The two missing-input groups account for the remaining population; no row is deleted or replaced with a population model. Full-population input admission fails. All frozen source bindings, output hashes and native exits verify.
-**Means.** The commissioned full-population comparison is unsupported at this source gate, not negative evidence about values. A separately labeled supported-input variant was proposed to the curator and remains unapproved; the original population and question stay intact. Complete features, blind calibration, reader refits, prototypes and empirical controls are still required even for an approved variant. No downstream fit or population reduction has run.
+**Means.** The commissioned full-population comparison is unsupported at this source gate, not negative evidence about values. The curator subsequently approved the separately labeled supported-input preparation, now completed as OPS-S15-W3-CA3-SUPPORTED-INPUTS; the original population and question stay intact. Complete features, blind calibration, reader refits, prototypes and empirical controls are still required even for an approved variant. The original census remains unchanged; the separately approved preparation is not a downstream fit.
 
 Cumulative native and full preparation cost is 20.046875 CPU seconds within the separately frozen 600-second source allowance. Participant records and joins remain private. No probabilities or new tests were harvested from this wake.
 
 Aggregate evidence: [complete receipt](results/phase_2_4_stage_15/DRIVE/CA3_INPUTS_20261025.json).
 
-Curator roll-up: choice-to-values input support; Can choices without explanations be separated from held-out explanation targets for every annotator in the commissioned population?; **Infrastructure**; The full-population choice-to-values comparison is unsupported at source admission; missing fit or target inputs remain explicit.; project meaning: source support prevents full-population inference; next engineering obligation: retain full census and resolve the separately labeled supported-input variant before fitting; public claim unchanged; curator decision required: Yes, recommend the explicit supported variant while retaining the original gap. Detail: CA3_INPUTS_20261025.md.
+Curator roll-up: choice-to-values input support; Can choices without explanations be separated from held-out explanation targets for every annotator in the commissioned population?; **Infrastructure**; The full-population choice-to-values comparison is unsupported at source admission; missing fit or target inputs remain explicit.; project meaning: source support prevents full-population inference; next engineering obligation: retain full census and resolve the separately labeled supported-input variant before fitting; public claim unchanged; curator decision required: No, the explicit supported variant was approved and its preparation is recorded separately while retaining the original gap. Detail: CA3_INPUTS_20261025.md.
 
 ### OPS-S15-W3-VAL-INPUTS
 
