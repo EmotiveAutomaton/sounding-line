@@ -9,7 +9,8 @@
 
 - [x] OPS-S15-W3-VAL-INPUTS: complete native validation and private full source preparation independently replayed.
 - [x] OPS-S15-W3-VAL-BLIND-PREP: complete request packet and first-hundred annotation view frozen and independently reconstructed; fourteen constructed checks pass.
-- [ ] VAL: blind first-hundred annotation, existing paid-node gates and complete calibration remain. No provider call has been made; cumulative source charged/reserved CPU is 79.40625 of 1,200 seconds.
+- [x] OPS-S15-W3-VAL-BLIND-GOLD: all one hundred blind agent annotations frozen, with exact coverage and structural verification.
+- [ ] VAL: existing paid-node ordering and transfer gates, then complete provider calibration. No provider call has been made; cumulative source charged/reserved CPU is 82.015625 of 1,200 seconds. Frozen labels cannot be revised after provider access.
 - [x] OPS-S15-W3-CA3-INPUTS: exact native and full source-separation census replayed; all annotators retained.
 - [x] OPS-S15-W3-CA3-SUPPORTED-INPUTS: curator-approved 836-person preparation and independent replay complete; original full census retained.
 - [ ] CA3.supported: complete calibrated labels, full features, comparison/controls and measured admission; original full-population question remains source-held.

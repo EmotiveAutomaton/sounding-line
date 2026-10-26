@@ -1,6 +1,34 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-VAL-BLIND-GOLD
+
+**Hypothesis.** Can the fixed calibration items receive complete agent annotations before any provider access, without changing the protocol or source population?
+**METHOD.** The operating agent read all one hundred frozen text-only items and manually assigned the existing ten named categories plus other. Each assignment retained a private rationale, including borderline interpretations. No participant joins, demographic metadata or provider predictions were inspected for annotation. A fresh process checked complete request coverage, category encoding, rationale-to-label correspondence, source hashes and the frozen label digest. The existing fourteen constructed protocol checks remain passing; no scoring code changed.
+
+The table describes completed reference preparation and its limits. It contains no model-agreement score or scientific result.
+
+| Item | Disposition |
+|---|---|
+| Frozen calibration texts / complete agent labels | 100 / 100 |
+| Named categories retained, plus other | 10 plus other |
+| Source population or protocol changes | None |
+| Actual provider calls / submitted batches | 0 / 0 |
+| Independent semantic validation / provider agreement | Untested |
+
+**Found.** Every frozen calibration item has one valid binary code for each category and a retained rationale. The label file and its hash are frozen before provider access. Independent structural reconstruction verifies exact item identity and coverage; both local recording/check processes exited.
+**Means.** The blind-annotation prerequisite is complete. These are agent judgments, not human gold or verified personal values. Borderline judgments remain in the private notes; structural checks do not establish their semantic correctness. No provider response was viewed, and labels must not be revised to improve later agreement. The paid predecessor ordering, concrete-payload approval hold and complete calibration gate remain. No main labeling or downstream comparison is admitted.
+
+Recorded source/preparation/check CPU is 52.015625 seconds, plus the unchanged 30-second test/startup reserve, for 82.015625 charged/reserved within the original 1,200-second source allowance. Manual annotation effort is distinct from this CPU accounting. Raw texts, item-level codes, identities and rationales remain private. No probability or new test hypothesis was introduced.
+
+This advances the operational readiness statement in OPS-S15-W3-VAL-BLIND-PREP; its original preparation evidence remains valid and retained. It is not a scientific correction.
+
+Aggregate evidence: [annotation receipt](results/phase_2_4_stage_15/DRIVE/VAL_BLIND_GOLD_20261025.json).
+
+Curator roll-up: values-label reference readiness; Can the fixed calibration items receive complete agent annotations before any provider access, without changing the protocol or source population?; **Infrastructure**; The first hundred values-label items now have frozen blind agent annotations; provider agreement and independent semantic validity remain untested.; project meaning: a frozen agent reference is available but semantic validity is still untested; next engineering obligation: resolve existing paid-node gates before provider calibration; public claim unchanged; curator decision required: No new decision from this completion. Detail: VAL_BLIND_GOLD_20261025.md.
+
 ### OPS-S15-W3-VAL-BLIND-PREP
+
+Operational readiness subsequently advanced to OPS-S15-W3-VAL-BLIND-GOLD: the annotation prerequisite is now complete; the unannotated state below is the original preparation snapshot.
 
 **Hypothesis.** Can the complete values-label source be frozen into an annotation packet without exposing joins or making a provider request?
 **METHOD.** Review the existing values-coding runner, run its fourteen targeted constructed checks with provider calls mocked, and prepare the authenticated complete source through its existing local-only action. In a fresh process reconstruct every request from the original texts, compare every private join and population row, and verify the exact first-hundred annotation view. Actual provider access is disabled in both local actions.
