@@ -1,16 +1,16 @@
 # TODO: the study queue
 
 - [x] OPS-S15-W3-WB1-CANONICAL-COST-CONTINUATION: full source execution retained after verification cost stop; seven checks and complete native continuation replay pass.
-- [ ] WB1 verification-only continuation is RUNNING: land its complete source before downstream effects and rebind the cost-probe dispatcher to the completed successor. Current cumulative charge/reserve 5709.375 of 10800 CPU seconds; old source-canonical attempt stopped on cost.
+- [x] OPS-S15-W3-WB1-SOURCE-CANONICAL: complete canonical source and independent replay landed; corrected action references admitted, with all other fields and full population retained.
 
 - [x] WB1-source-canonical execution completed; independent verification stopped on cost. Failure and continuation validation are fully recorded above; this is not source admission. Continue ranked commissioned builds; ready-card target remains unmet.
 
 - [x] OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE: failed corpus probe diagnosed; four checks and full native canonical source repair replay complete.
-- [ ] WB1: rebuild and land the full canonical source before restarting the effects cost probe; 3783.65625 CPU seconds charged/reserved. Earlier preparation cannot supply effect anchors; other-field invariance remains to be proven on the full corpus.
+- [x] WB1 canonical source rebuild and complete replay finished. Earlier preparation remains historical for provenance; full non-provenance invariance is verified.
 
 - [x] OPS-S15-W3-REBOOT-20261026: original failure retained; calendar restored, watcher path repaired, existing terminal records and claim sources authenticated.
 - [x] OPS-S15-W3-WB1-EFFECTS-COST-NATIVE: four checks and full fresh native cost-probe replay complete.
-- [ ] WB1: dispatch and land the CPU-only real-corpus cost probe; then review complete cumulative cost before scientific admission. Current charge/reserve 3630.1875 of 10800 CPU seconds. Ready-card backlog remains.
+- [ ] WB1 effects-cost-canonical is RUNNING in Gear 2 against the fully landed canonical source. Complete its fresh replay, then review all coverage/effects projections and cumulative charges before science. Prior charge/reserve 6970.625 CPU seconds; attempt cap 5000; single cumulative S4 maximum 21600. Ready-card backlog remains.
 
 - [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
 - [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
