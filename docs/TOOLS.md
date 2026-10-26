@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-DIGEST-20261025:** Daily evidence, native liveness, idle capacity and campaign accounting reconciled; no scientific rerun or new instrument. Ready queue remains incomplete. [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261025.md).
+
 **OPS-S15-W3-VAL-BLIND-GOLD:** One hundred complete blind agent annotations are frozen and structurally verified against the exact source view. Provider agreement and independent semantic validity are untested. [Annotation receipt](../results/phase_2_4_stage_15/DRIVE/VAL_BLIND_GOLD_20261025.md).
 
 **OPS-S15-W3-VAL-BLIND-PREP:** Fourteen constructed checks and full fresh request reconstruction pass. The complete private annotation packet is frozen; blind labels are subsequently completed in OPS-S15-W3-VAL-BLIND-GOLD, while provider calibration remains unrun. [Preparation receipt](../results/phase_2_4_stage_15/DRIVE/VAL_BLIND_PREPARATION_20261025.md).

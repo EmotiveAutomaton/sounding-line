@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-DIGEST-20261025: corrections-first daily packet, complete evidence/accounting reconciliation and idle-capacity record.
+
 - [x] OPS-S15-W3-CA2-NATIVE: design/code/tests owner-reviewed; fourteen checks and both native handlers independently verified.
 - [ ] CA2: complete CA1 feature and first-half reference dependencies, then measured whole-design cost admission. Cumulative charged/reserved CPU remains 307.84375 of 3,600 seconds; no reduced bank or population.
 

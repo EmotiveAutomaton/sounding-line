@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**October 25 daily integration:** [Complete digest](DIGEST_20261025.md). Completed Week 3 comparisons, instrument records and theory filing are reconciled, with corrections and scope limits explicit. No research worker is active; the ready queue is below target and commissioned builds remain unfinished. Source/cost and concrete-transfer holds remain, local GPU work stays parked, and Week 3 spending is one cent. The new-start freeze remains November 1 at 20:00 PST; this is not stage closure.
+
 **October 25:** [Week 3 is rolling out](WEEK3_INITIAL_20261025.md). Complete input landings, preserved instrument failures, new counted runtime and the active paid calibration are recorded. The new packet supersedes earlier weekly cutoff snapshots. Full implementation and controlled comparisons remain open.
 
 **October 24 daily integration:** [Complete digest](DIGEST_20261024.md).

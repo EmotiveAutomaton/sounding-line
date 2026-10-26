@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 25 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261025.md). Completed Week 3 comparisons, instrument records and theory filing are reconciled, with corrections and scope limits explicit. No research worker is active; the ready queue is below target and commissioned builds remain unfinished. Source/cost and concrete-transfer holds remain, local GPU work stays parked, and Week 3 spending is one cent. The new-start freeze remains November 1 at 20:00 PST; this is not stage closure.
+
 **October 25 VAL annotation:** [All one hundred blind agent annotations](../results/phase_2_4_stage_15/DRIVE/VAL_BLIND_GOLD_20261025.md) are frozen and structurally verified. Provider agreement and independent semantic validity remain untested; no provider call or spend. Paid-node ordering, concrete-payload approval, and other source/cost holds remain.
 
 **October 25 CA2 build:** [Native validation](../results/phase_2_4_stage_15/DRIVE/CA2_NATIVE_VALIDATION_20261025.md) is complete after fourteen targeted checks. Both constructed-fixture workers exited. The human-data comparison remains unrun, pending complete CA1 features/reference fits and measured cost admission. Existing source, GPU and paid holds remain.

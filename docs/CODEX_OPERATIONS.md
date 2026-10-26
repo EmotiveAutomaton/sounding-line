@@ -1,5 +1,7 @@
 # Codex operations
 
+**October 25 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261025.md). Completed Week 3 comparisons, instrument records and theory filing are reconciled, with corrections and scope limits explicit. No research worker is active; the ready queue is below target and commissioned builds remain unfinished. Source/cost and concrete-transfer holds remain, local GPU work stays parked, and Week 3 spending is one cent. The new-start freeze remains November 1 at 20:00 PST; this is not stage closure.
+
 **October 24 daily integration:** [Complete digest](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md).
 No new scientific result; completed findings and failed-control limits are unchanged.
 Monitoring is healthy, with no research worker active. SDT1 remains unimplemented;

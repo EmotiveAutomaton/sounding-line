@@ -1,5 +1,28 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-DIGEST-20261025
+
+**Hypothesis.** Can the day's completed evidence, corrections and unfinished work be reported without converting an instrument landing into a scientific claim?
+**METHOD.** Reconcile all registered Week 3 terminal evidence and acknowledgments; verify every claim-ledger source and completed-record binding; inspect native identities, leases, resources, watcher/calendar delivery and campaign accounting. Compare current theory rows and afterwords with the already landed findings. No new scientific computation is performed.
+
+The table reports complete administrative verification at the daily cutoff. Idle capacity is a lower bound over the stated final interval, not a whole-day estimate.
+
+| Item | Disposition |
+|---|---|
+| Registered Week 3 terminal records | 81 reconciled |
+| Existing ledger rows / source anchors | 70 / 107 verified |
+| Active research workers | None |
+| Final-interval idle research-slot hours | At least 6.759 |
+| Week 3 booked charge / campaign ceiling | $0.01 / $10.00 |
+| Ready-card target / Stage 15 closure | Unmet / remains open |
+
+**Found.** Completed comparisons and instrument landings are fully recorded. The digest presents control, scope, arithmetic and wording corrections first, quotes each current-day ledger claim with its control status, and retains follow-up limits. No unrecorded terminal result, active worker or required runtime recovery was found. Source, cost and concrete-transfer holds remain; commissioned build work is unfinished.
+**Means.** Completed Week 3 findings and validity limits are recorded; the research queue is idle with unfinished builds and admission holds, and the stage remains open. The idle capacity is an operational defect caused by owner build/admission backlog alongside recorded holds. It is not a scientific negative or exhaustion of the commissioned research. The already applied theory filing and existing afterwords remain current. No new tests, probabilities, provider requests or extra research generation were introduced; the independent health deadline is unchanged.
+
+Complete corrections, exact claim wording, follow-up dispositions, idle interval and spending: [daily digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261025.md).
+
+Curator roll-up: daily evidence integrity; Can completed evidence and unfinished work be kept distinct?; **Infrastructure**; Completed Week 3 findings and validity limits are recorded; the research queue is idle with unfinished builds and admission holds, and the stage remains open.; project meaning: preserve valid scoped findings while exposing the remaining execution backlog; next engineering obligation: continue commissioned builds and measured admission within existing holds; public claim unchanged; curator decision required: No new decision from this digest. Detail: DIGEST_20261025.md.
+
 ### OPS-S15-W3-VAL-BLIND-GOLD
 
 **Hypothesis.** Can the fixed calibration items receive complete agent annotations before any provider access, without changing the protocol or source population?
