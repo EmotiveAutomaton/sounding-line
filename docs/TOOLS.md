@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-WA0-H1-S-20261025:** All 55 partition/channel members pass complete fresh replay, support and source verification; original baseline parity is exact. Scientific joint gates fail for two members, retained explicitly. No further generation. [Complete partition comparison](../results/phase_2_4_stage_15/DRIVE/WA0_H1_S_20261025.md).
+
 **S15-WA0-H1-M-20261025 / S15-WA0-H1-P-20261025:** Complete feature-block and second-reader workloads pass full independent replay and exact parent-baseline parity. All outputs, source pins and native exits verify. One-coordinate correlation profiles tie neutrally; no all-channel scientific admission follows. [Block removal](../results/phase_2_4_stage_15/DRIVE/WA0_H1_M_20261025.md) · [Second reader](../results/phase_2_4_stage_15/DRIVE/WA0_H1_P_20261025.md).
 
 **OPS-S15-W3-WA0-FOLLOWUP-COST:** All three complete follow-up cost pilots fit their allowances; full registered comparisons are running and have no reported interim verdict. [Full record](../results/phase_2_4_stage_15/DRIVE/WA0_FOLLOWUP_COST_20261025.md).

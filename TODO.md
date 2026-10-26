@@ -30,7 +30,7 @@
 - [x] OPS-S15-W3-WA0-FOLLOWUP-NATIVE: six complete native gates recorded.
 - [x] OPS-S15-W3-WA0-FOLLOWUP-COST: complete cost pilots and cumulative admission recorded.
 - [x] WA0.h1.m / WA0.h1.p: complete comparisons and independent replay fully recorded; no next generation.
-- [ ] WA0.h1.s: full partition comparison running; independent replay and full landing required; 5,400 CPU seconds, no next generation.
+- [x] WA0.h1.s: complete partition comparison and full replay recorded as S15-WA0-H1-S-20261025; all members retained; no next generation.
 - [ ] WA0 companion return: prepare exact aggregate licence and reader identity; recipient adoption remains separate.
 
 - [x] S15-CA5: complete controlled comparison and fresh replay landed; narrow recurring disagreement claim.
@@ -38,7 +38,7 @@
 - [x] S15-CA5.m: complete comparison and fresh replay recorded as S15-CA5-M-20261025; no next generation; topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
 - [ ] S15-CA5.r: independently admitted Jester recurrence replication; comparable feature construction must be frozen before execution; cap1,800 CPU seconds.
 
-**October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 has completed the pause source, native checks and full-design cost pilot; the complete pause study is cost-held. The block-removal and second-reader follow-ups are complete and fully recorded; the full partition-sensitivity comparison is still running. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. The theory filing is applied. Remaining commissioned cards and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
+**October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 has completed the pause source, native checks and full-design cost pilot; the complete pause study is cost-held. All three corrected-identification follow-ups are complete and fully recorded. Their native workers have exited; remaining execution needs separate build and admission. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. The theory filing is applied. Remaining commissioned cards and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
 
 - [x] OPS-S15-W3-INPUT-INSTRUMENTS: completed instrument/source or failure write-through; Complete the measured pilots and build the remaining commissioned cards.
 - [x] S15-CA0: completed instrument/source or failure write-through; Prepare exact conversation/prompt-disjoint inputs and time the pinned multilingual encoder.
