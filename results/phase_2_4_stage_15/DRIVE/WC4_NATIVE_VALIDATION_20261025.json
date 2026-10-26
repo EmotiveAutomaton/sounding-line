@@ -1,0 +1,79 @@
+{
+  "id": "OPS-S15-W3-WC4-NATIVE",
+  "at": "2026-10-26T00:49:59.219800+00:00",
+  "public_wording": "In constructed worlds, the production-stability instrument passes native reconstruction; its human-data comparison remains unrun and source-held.",
+  "attempts": [
+    {
+      "mode": "tagger",
+      "terminal": ".agent-state/drive-20261025/native-WC4-tagger/COMPLETE.json",
+      "sha256": "9ba365cd228ed0195205cbfb130c95cad0f7c5d9b61f963a16e4ca9260ca8bb6",
+      "cpu_seconds": 9.140625,
+      "outputs_verified": 14,
+      "pins_verified": 72,
+      "verification": {
+        "constructed": true,
+        "scientific_admission": false,
+        "verified": true
+      },
+      "config": {
+        "card": "WC4-tagger-smoke",
+        "mode": "constructed",
+        "seed": 20261026
+      },
+      "prior_charged": 300.0
+    },
+    {
+      "mode": "source",
+      "terminal": ".agent-state/drive-20261025/native-WC4-source/COMPLETE.json",
+      "sha256": "c738f244d0645b78fbf8543eeb6aa4b2417d097699df3e862b55d7c1f17954b7",
+      "cpu_seconds": 2.0625,
+      "outputs_verified": 20,
+      "pins_verified": 47,
+      "verification": {
+        "full_source_replay": true,
+        "verified": true
+      },
+      "config": {
+        "card": "WC4-inputs",
+        "expected_sessions": 1,
+        "mode": "constructed",
+        "seed": 20261026,
+        "session_limit": 1
+      },
+      "prior_charged": 309.140625
+    },
+    {
+      "mode": "analysis",
+      "terminal": ".agent-state/drive-20261025/native-WC4-analysis/COMPLETE.json",
+      "sha256": "1fa51e99f6028e0544ae4137fa6a7923a7a6f2d9447e8316b5a397a13339d83e",
+      "cpu_seconds": 5.59375,
+      "outputs_verified": 16,
+      "pins_verified": 51,
+      "verification": {
+        "scientific_admission": false,
+        "verified": true
+      },
+      "config": {
+        "bootstraps": 2000,
+        "card": "WC4",
+        "mode": "constructed",
+        "permutations": 1000,
+        "seed": 20261026
+      },
+      "prior_charged": 311.203125
+    }
+  ],
+  "measured_native_cpu_seconds": 16.796875,
+  "preparatory_reserve_cpu_seconds": 300,
+  "cumulative_charged_cpu_seconds": 316.796875,
+  "original_ceiling_cpu_seconds": 3600,
+  "native_exits_verified": true,
+  "scientific_admission": false,
+  "corpus_launched": false,
+  "remaining": [
+    "valid complete source",
+    "whole-design cost admission"
+  ],
+  "shared_source_healing_attempts_remaining": 0,
+  "new_tests_harvested": false
+}

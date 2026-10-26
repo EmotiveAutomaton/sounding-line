@@ -1,7 +1,8 @@
 # TODO: the study queue
 
 - [x] OPS-S15-W3-WC4-BUILD: frozen code owner-reviewed; all eight targeted checks pass.
-- [ ] WC4: native wrapper and full cost admission remain; corpus extraction stays blocked by the exhausted shared-source failure.
+- [x] OPS-S15-W3-WC4-NATIVE: all three native handlers and fresh reconstructions complete; cumulative allowance retained.
+- [ ] WC4: valid complete source and full cost admission remain; corpus extraction stays blocked by the exhausted shared-source failure.
 
 - [x] OPS-S15-W3-VAL-INPUTS: complete native validation and private full source preparation independently replayed.
 - [ ] VAL: blind first-hundred annotation, existing paid-node gates and complete calibration remain; no provider call made by preparation.
