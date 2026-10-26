@@ -1,5 +1,8 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-CA2-NATIVE: design/code/tests owner-reviewed; fourteen checks and both native handlers independently verified.
+- [ ] CA2: complete CA1 feature and first-half reference dependencies, then measured whole-design cost admission. Cumulative charged/reserved CPU remains 307.84375 of 3,600 seconds; no reduced bank or population.
+
 - [x] OPS-S15-W3-WC4-BUILD: frozen code owner-reviewed; all eight targeted checks pass.
 - [x] OPS-S15-W3-WC4-NATIVE: all three native handlers and fresh reconstructions complete; cumulative allowance retained.
 - [ ] WC4: valid complete source and full cost admission remain; corpus extraction stays blocked by the exhausted shared-source failure.

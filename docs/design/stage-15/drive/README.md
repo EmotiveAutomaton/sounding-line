@@ -213,3 +213,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [WC4 frozen production-stability design](WC4_WEEK3.md) is owner-reviewed with eight passing targeted checks. [Validation and admission limits](../../../../results/phase_2_4_stage_15/DRIVE/WC4_BUILD_REVIEW_20261025.md) retain the invalid shared-source hold; the corpus study has not run.
 
 [WC4 native validation](../../../../results/phase_2_4_stage_15/DRIVE/WC4_NATIVE_VALIDATION_20261025.md) is complete for the CPU tagger, source and statistics. The corpus source remains invalid; whole-design cost admission is still required.
+
+[CA2 culture-versus-person build](WEEK3_CA2_BUILD.md) is owner-reviewed with fourteen checks and both counted native fixtures verified. [Validation and remaining admission](../../../../results/phase_2_4_stage_15/DRIVE/CA2_NATIVE_VALIDATION_20261025.md) retain the full CA1 feature/reference dependency and cumulative cost.

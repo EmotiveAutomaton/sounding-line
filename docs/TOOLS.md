@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-CA2-NATIVE:** Both CA2 handlers pass full native fixture reconstruction after fourteen owner-run checks. Original sources and exact future inference counts remain; full features, parent reference fits and corpus cost admission are outstanding. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA2_NATIVE_VALIDATION_20261025.md).
+
 **OPS-S15-W3-CA3-SUPPORTED-INPUTS:** Five targeted checks, native validation and complete fresh source reconstruction pass. The approved 836-person input population is prepared with the full census retained; model and label admission remain separate. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.md).
 
 **OPS-S15-W3-WC4-NATIVE:** Installed CPU tagger, constructed source and complete statistical handler pass counted native execution and fresh replay. All outputs/pins and original exits verify. Corpus source and cost admission remain held. [Native validation](../results/phase_2_4_stage_15/DRIVE/WC4_NATIVE_VALIDATION_20261025.md).
