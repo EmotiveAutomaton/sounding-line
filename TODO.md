@@ -10,7 +10,8 @@
 
 - [x] OPS-S15-W3-REBOOT-20261026: original failure retained; calendar restored, watcher path repaired, existing terminal records and claim sources authenticated.
 - [x] OPS-S15-W3-WB1-EFFECTS-COST-NATIVE: four checks and full fresh native cost-probe replay complete.
-- [ ] WB1 effects-cost-canonical is RUNNING in Gear 2 against the fully landed canonical source. Complete its fresh replay, then review all coverage/effects projections and cumulative charges before science. Prior charge/reserve 6970.625 CPU seconds; attempt cap 5000; single cumulative S4 maximum 21600. Ready-card backlog remains.
+- [x] OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE: full failure diagnosis and shared-dependency reconciliation recorded.
+- [ ] WB1 effects/cost: HELD on repeated acceptance-origin dependency; no third shared extractor repair. Canonical action-reference source stays valid. Cumulative charge/reserve 8438.953125 CPU seconds; single S4 limit 21600. Build independent commissioned CA5.r next; ready-card target remains unmet.
 
 - [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
 - [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
