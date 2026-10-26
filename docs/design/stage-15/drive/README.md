@@ -209,3 +209,5 @@ The source's Thursday heading is superseded by its explicit Tuesday October 20
 digest and Wednesday October 21 freeze dates. Paid dispatch cutoff is October 19,
 17:00 America/Los_Angeles. Existing six-hour health and immediate failure supervision
 continue. The October 16 implementation carried no delegation; the October 17 amendment above explicitly commissions three builders.
+
+[WC4 frozen production-stability design](WC4_WEEK3.md) is owner-reviewed with eight passing targeted checks. [Validation and admission limits](../../../../results/phase_2_4_stage_15/DRIVE/WC4_BUILD_REVIEW_20261025.md) retain the invalid shared-source hold; the corpus study has not run.

@@ -70,3 +70,4 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | S15-WA0-H1-S-20261025 | WA0.h1.s | positive within scope / passes within stated channels | Supports final-page identification across all five frozen role partitions; length and request-count channels fail one partition, so robustness is not uniform across channels. |
 | OPS-S15-W3-VAL-INPUTS | VAL-inputs | infrastructure / untested | The fixed values-label input is prepared and independently replayed; labels and scientific comparisons remain unrun. |
 | OPS-S15-W3-CA3-INPUTS | CA3-inputs | unsupported / untested | The full-population choice-to-values comparison is unsupported at source admission; missing fit or target inputs remain explicit. |
+| OPS-S15-W3-WC4-BUILD | WC4-build | infrastructure / untested | The production-stability build passes constructed checks; its corpus comparison remains unrun and source-held. |

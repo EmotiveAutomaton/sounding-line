@@ -1,0 +1,46 @@
+{
+  "id": "OPS-S15-W3-WC4-BUILD",
+  "at": "2026-10-26T00:31:57.194741+00:00",
+  "status": "owner_reviewed_targeted_tests_pass_corpus_source_held",
+  "public_wording": "The production-stability build passes constructed checks; its corpus comparison remains unrun and source-held.",
+  "reviewed_source_sha256": {
+    "docs/design/stage-15/drive/WC4_WEEK3.md": "2671e1b3863600af1b25f12cca41641fca18739d10ab8c8fe3efaec4b5abdf54",
+    "runners/drive/cards/week3_stability_analysis.py": "c27deec4f5a04b5ee30c36492d359a1406018ad53db98c050390684faa2cb168",
+    "runners/drive/cards/week3_stability_inputs.py": "9f2887d6d9219c8269e44351dd46684d906325dd37fb1deeae1e8601c5707576",
+    "runners/drive/cards/week3_stability_stats.py": "0a2acdf9dc345767e45aabdc2791a795c978d9318ceccfc987ad7029a0dd394c",
+    "runners/drive/cards/week3_stability_tagger_smoke.py": "83512d9f0e7a6fbe3776734e8660f77c11d5dae291deade20430860777957457",
+    "tests/test_week3_stability.py": "2da3ac93a1373e132de80422485dfcb81a48dc6e3fa4153ec5772770b521a823"
+  },
+  "tests": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds": 27.388,
+    "cases": [
+      "test_source_opportunities_and_missing_not_zero",
+      "test_lexical_density_counts_pos_not_word_length",
+      "test_profile_null_positive_and_reversal",
+      "test_prompt_adjustment_and_fixed_support",
+      "test_source_full_reentry_fresh_process_and_binding",
+      "test_analysis_full_reentry_fresh_process_and_mutation",
+      "test_actual_cpu_tagger_known_answers_and_fresh_process",
+      "test_paired_correlation_bootstrap_equals_literal_rebuild"
+    ],
+    "receipt_sha256": "4b0c3c8533c71a286bdaac16692e014f4d44876dbff63d204d5e8ee71a4b6980"
+  },
+  "constructed": true,
+  "actual_cpu_tagger_tested": true,
+  "fresh_process_tested": true,
+  "native_wrapper_admitted": false,
+  "scientific_admission": false,
+  "corpus_launched": false,
+  "new_healing_attempt": false,
+  "original_cpu_ceiling_seconds": 3600,
+  "blocker": "shared accepted-span extraction invalid after two engineering healing attempts",
+  "remaining": [
+    "native wrapper admission",
+    "valid full corpus source",
+    "full-design cost admission"
+  ],
+  "new_tests_harvested": false
+}

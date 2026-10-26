@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-WC4-BUILD:** Owner review and all eight constructed checks pass, including actual CPU tagging and fresh-process replay. Native wrapper and cost admission remain; the corpus source is still invalid after exhausted shared healing. [Build record](../results/phase_2_4_stage_15/DRIVE/WC4_BUILD_REVIEW_20261025.md).
+
 **OPS-S15-W3-CA3-INPUTS:** Four separation checks, exact native fixture and full source replay pass; full-population input support fails and every unsupported annotator remains explicit. No fitting or replacement population. [Complete census](../results/phase_2_4_stage_15/DRIVE/CA3_INPUTS_20261025.md).
 
 **OPS-S15-W3-VAL-INPUTS:** Five targeted checks, exact native fixture and full source reconstruction pass. Population census, typed provenance, deduplication and private joins are preserved; no labeling or paid request. [Complete source receipt](../results/phase_2_4_stage_15/DRIVE/VAL_INPUTS_20261025.md).
