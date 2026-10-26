@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 25 VAL preparation:** [The private annotation packet](../results/phase_2_4_stage_15/DRIVE/VAL_BLIND_PREPARATION_20261025.md) is frozen and independently reconstructed after fourteen constructed checks. Blind annotation and provider calibration remain unrun; no provider call or spend. Other source, cost and approval holds remain.
+
 **October 25 CA2 build:** [Native validation](../results/phase_2_4_stage_15/DRIVE/CA2_NATIVE_VALIDATION_20261025.md) is complete after fourteen targeted checks. Both constructed-fixture workers exited. The human-data comparison remains unrun, pending complete CA1 features/reference fits and measured cost admission. Existing source, GPU and paid holds remain.
 
 **October 25 approved CA3 subset:** [Input preparation](../results/phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.md) and independent replay are complete for the approved 836 annotators; all 2,979 remain in the census. The scientific comparison still needs complete features, calibrated labels, validated models and cost admission. Both preparation workers exited. Other Week 3 holds and unfinished builds remain.

@@ -74,3 +74,4 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | OPS-S15-W3-WC4-NATIVE | WC4-native | infrastructure / passes in constructed worlds | In constructed worlds, the production-stability instrument passes native reconstruction; its human-data comparison remains unrun and source-held. |
 | OPS-S15-W3-CA3-SUPPORTED-INPUTS | CA3.supported-inputs | infrastructure / untested | The approved supported-input preparation is complete for 836 annotators; the full-population question and scientific comparison remain open. |
 | OPS-S15-W3-CA2-NATIVE | CA2-native | infrastructure / passes | In constructed worlds, the culture-versus-person instrument passes native validation; its human-data comparison remains unrun and source-held. |
+| OPS-S15-W3-VAL-BLIND-PREP | VAL-blind-preparation | infrastructure / untested | The values-label annotation packet is prepared and independently reconstructed; blind labels and provider calibration remain unrun. |
