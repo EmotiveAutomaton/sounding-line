@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**October 26 recovery and live work:** [Verified launch](WB1_SOURCE_CANONICAL_LAUNCH_20261026.md). The full canonical WB1 source rebuild is running in Gear 2 with verified native ownership, increasing progress and terminal monitoring. The effects-cost attempt exposed aliased action provenance; its failure and the validated repair are fully recorded. Calendar and delivery configuration are restored. ToMpathy's separate CPU lease is preserved. Full source/cost/scientific admission and the ready-card backlog remain unfinished; GPU, source and paid-transfer holds remain.
+
+**October 26 reboot recovery:** [Complete inspection and recovery](REBOOT_20261026.md). Calendar restored, delivery configuration repaired and completed evidence verified. The missing WB1 cost instrument passes native replay; its separate CPU corpus probe is next. ToMpathy owns another live CPU lease and is preserved. Existing GPU, source, cost and paid-transfer holds remain; the ready-card backlog is unfinished.
+
 **October 25 late health check:** [Inspection and native progress](HEALTH_20261025_2340.md). Monitoring is healthy. The existing process-piece effects handler now passes constructed native replay; all validation workers have exited. No research worker is active. Complete corpus cost admission and commissioned builds remain unfinished; GPU, source, cost and paid-transfer holds remain.
 
 **October 25 daily integration:** [Complete digest](DIGEST_20261025.md). Completed Week 3 comparisons, instrument records and theory filing are reconciled, with corrections and scope limits explicit. No research worker is active; the ready queue is below target and commissioned builds remain unfinished. Source/cost and concrete-transfer holds remain, local GPU work stays parked, and Week 3 spending is one cent. The new-start freeze remains November 1 at 20:00 PST; this is not stage closure.

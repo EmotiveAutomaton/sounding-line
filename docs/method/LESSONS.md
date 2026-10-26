@@ -176,6 +176,8 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §2. Before building an extractor over someone else's data
 
+- **Deep-copy each independently emitted action before merging mutable provenance.** A shared source-ordinal list let a later typing burst extend a neighboring revision while its clock stayed unchanged. Fresh replay reproduced the same bug; only a downstream ordinal/clock invariant caught it. Deep-copying the entire list preserves internal aliases. Exercise simultaneous action types followed by a merged continuation, then require complete non-provenance invariance in the canonical successor. (OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE)
+
 - **The upstream archive roster and the admitted study population are different contracts.**
   GEN1 repeated PMAP's earlier source-join error by requiring all archive sessions
   to equal the completed word-ledger population. Its fixture also hid the mismatch.

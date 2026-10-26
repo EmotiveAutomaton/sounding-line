@@ -2597,6 +2597,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE, data correction:** The full-source cost probe caught aliased action provenance. Canonical repair passes four checks and native replay; old preparation is invalid for downstream effect anchors. Full corpus invariance and cost admission remain. [Complete record](../results/phase_2_4_stage_15/DRIVE/WB1_SOURCE_CANONICAL_NATIVE_20261026.md).
+
+**OPS-S15-W3-WB1-EFFECTS-COST-NATIVE:** Four targeted checks and complete fresh constructed native replay pass; real encoder timing and scientific admission remain separate. [Validation](../results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_COST_NATIVE_20261026.md).
+
+**OPS-S15-W3-REBOOT-20261026:** Calendar restored without replaying completed markers; obsolete local CLI path repaired and native queue access verified. Actual post-repair idle delivery remains unobserved. [Recovery](../results/phase_2_4_stage_15/DRIVE/REBOOT_20261026.md).
+
 **OPS-S15-W3-WB1-EFFECTS-NATIVE:** Four checks and fresh constructed native occurrence/embedding replay pass; real encoder timing and corpus admission remain. [Complete validation](../results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_NATIVE_20261025.md).
 
 **OPS-S15-W3-HEALTH-20261025-2340:** Native ownership, terminal records, locks, delivery and resources inspected; no runtime repair required. Ready queue remains below target. [Health record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261025_2340.md).

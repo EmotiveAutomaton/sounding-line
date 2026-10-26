@@ -1,5 +1,89 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE
+
+**Hypothesis.** Does every prepared action still point to its own source event after adjacent typing events are merged?
+**METHOD.** Inspect the failed full-source cost attempt and reproduce its anchor mismatch. Trace the shared mutable ordinal list, preserve the failure and original implementation, then build a canonical successor that independently copies each action before the unchanged merge. Run four targeted checks and complete fresh native replay on a constructed alias-triggering source.
+
+The table reports complete engineering/instrument evidence and cumulative accounting. There is no corpus effect or partial scientific score.
+
+| Check | Result |
+|---|---|
+| Real-corpus cost attempt | Refused source-anchor mismatch before cost result |
+| Failed attempt CPU seconds | 31.28125 |
+| New targeted checks | Four pass |
+| Native fixture sessions / changed action lists | Eight / eight |
+| Native output hashes / source pins | 26 / 80 verified |
+| Fresh complete reconstruction | Passes; all other fields, split and bins equal |
+| Native CPU seconds | 2.1875 |
+| Cumulative CPU charge/reserve | 3783.65625 of 10800 seconds |
+
+**Found.** The real-corpus cost probe exposed invalid action provenance; a canonical source repair passes constructed validation, while full corpus reconstruction and downstream admission remain pending. A revision and insertion emitted at the same source event share the same ordinal list. When a continuing insertion is merged into the typing burst, that list also changes the revision's final ordinal, while its timestamp remains fixed. The exact consumer check correctly refused. Earlier preparation replay reproduced this deterministic bug; that replay alone did not validate provenance. The original cost-probe fixture did not exercise this alias shape.
+
+An initial dispatch-helper lookup had already refused before freezing a plan because it referenced the historical recovery directory instead of its verified successor. The separate source-bound helper then matched the earlier coverage pilot's exact preparation bundle and reached the real anchor refusal. Both records are retained; no completed source is overwritten and the early lookup did not run research.
+
+**Means.** This is a data defect requiring a canonical source successor under the ratified rules. It is not a scientific negative, a widened tolerance or a third attempt at the separate exhausted shared extractor. The new fixture demonstrates the defect and the exact corrected future-window anchor; tests also enforce caller immutability, cleanup after error, changed-predecessor refusal and serialized fresh replay. The full successor must rebuild all original sessions and prove equality of every non-provenance field before earlier coverage and timing measurements can be retained. Downstream effect work is held until that complete landing.
+
+Original owner/execution identities and all native validation identities have exited. Accounting includes the failed run, an additional 120-second build/diagnostic reserve and actual native execution/verification. The unchanged cost probe needs the corrected source, with its full cumulative forecast checked again. No paid call, GPU restart, new hypothesis or scientific probability follows. The tool ledger and source-preparation claim are corrected; theory rows and afterwords remain unchanged.
+
+[Aggregate validation](results/phase_2_4_stage_15/DRIVE/WB1_SOURCE_CANONICAL_NATIVE_20261026.json). [Frozen repair design](docs/design/stage-15/drive/WB1_SOURCE_CANONICAL_20261026.md).
+
+Curator roll-up: source integrity; Does each prepared action retain its own event provenance?; **Infrastructure**; The real-corpus cost probe exposed invalid action provenance; a canonical source repair passes constructed validation, while full corpus reconstruction and downstream admission remain pending.; project meaning: provenance repair is required before downstream effects; next engineering obligation: rebuild and independently verify the full canonical source, then resume cost admission; public claim unchanged; curator decision required: No. Detail: WB1_SOURCE_CANONICAL_NATIVE_20261026.md.
+
+### OPS-S15-W3-REBOOT-20261026
+
+**Hypothesis.** Did the restart lose completed evidence or stop work that can safely resume under the existing Week 3 commission?
+**METHOD.** Inspect the actual Windows boot and native process identities, all registered Week 3 terminal records, ledger sources, resources, CPU leases and watcher transport. Preserve the interrupted calendar evidence, restore its unchanged schedule in a separate recovery root, and reconcile the actual native owner queue before repairing delivery configuration.
+
+The table reports complete operational checks before the new corpus cost probe. It contains no scientific scores.
+
+| Check | Observation |
+|---|---|
+| Windows restart | October 26, 03:27:05 PDT |
+| Registered native identities inspected | 381 |
+| Completed/failed/paused terminal records authenticated | 83 |
+| Existing ledger rows / source anchors authenticated | 73 / 110 |
+| Files authenticated | 2818 |
+| Current other-project CPU lease | One, verified as ToMpathy; preserved |
+| Available RAM / commit headroom / free disk | 53.08 / 46.00 / 370.71 GiB |
+| Week 3 booked charge / active paid reservation | One cent / none |
+
+**Found.** The reboot interrupted the calendar; its schedule is restored and the obsolete local delivery path is repaired. Existing evidence remains intact; commissioned build and cost admission work remains. The previous calendar identity is absent. The watcher restarted automatically but its configured extension executable had been removed during an update; the attempted failure notification became unknown with a file-not-found error. The installed CLI was verified, the old configuration backed up, and only that executable path replaced. The native owner queue can now be read and is empty. This verifies configuration and queue access, not a new post-repair idle conversation wake. Current watcher scans and the recovered calendar heartbeat are fresh; loaded watcher source hashes match.
+
+The recovery calendar retains original schedule and source pins and the already completed daily marker byte for byte. It does not replay completed work. The original disappearance marker remains unchanged. A reboot is an environmental interruption and consumes no engineering healing attempt. ToMpathy owns the other active CPU worker; neither it nor normal applications were stopped. No stale research lease needed deletion.
+
+**Means.** The pre-reboot research queue was already idle with unfinished owner builds and admission work; the restart did not erase an active scientific queue. That earlier idle defect remains recorded. This pass built and validated the missing WB1 effects/encoder/bootstrap cost instrument, whose [complete validation](results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_COST_NATIVE_20261026.md) precedes its separate corpus dispatch. The ready-card target remains unmet; this is not a fully built week or stage closure. GPU parking, exhausted shared-source repair, prior cost holds and concrete paid-payload approval remain. No new hypothesis was harvested from this operational request; no scientific rerun, paid call or scientific claim follows.
+
+The failure event is acknowledged only after this landing. The independent six-hour check remains October 26 at 06:00:30 PDT; unrelated acknowledgment does not reset it. [Aggregate receipt](results/phase_2_4_stage_15/DRIVE/REBOOT_20261026.json).
+
+Curator roll-up: operational integrity; Can authorized work resume with completed evidence preserved?; **Infrastructure**; The reboot interrupted the calendar; its schedule is restored and the obsolete local delivery path is repaired. Existing evidence remains intact; commissioned build and cost admission work remains.; project meaning: keep instrument validation and operational recovery separate from scientific admission; next engineering obligation: verify the separate corpus-cost dispatch and continue ranked commissioned builds; public claim unchanged; curator decision required: No new decision from this landing. Detail: REBOOT_20261026.md.
+
+### OPS-S15-W3-WB1-EFFECTS-COST-NATIVE
+
+**Hypothesis.** Can the missing effects/encoder/bootstrap cost instrument authenticate and independently replay its full constructed workload before it measures real corpus work?
+**METHOD.** Freeze the operational card and exact source bundle, run four targeted tests, then execute through the counted Week 3 runtime and repeat the entire probe in a fresh process. Authenticate outputs and all source pins, and verify exit of the owner, execution and verification identities.
+
+The table describes complete instrument validation, not a human-data finding or partial scientific score.
+
+| Check | Result |
+|---|---|
+| Targeted tests | Four passed |
+| Output hashes / source pins | 14 / 87 verified |
+| Fresh full work replay | Passed |
+| Original native identities | All three exited; lease released |
+| Native execution and verification CPU seconds | 4.8125 |
+| Prior charge + test/fixture reserve + native charge | 3445.375 + 180 + 4.8125 = 3630.1875 CPU seconds |
+| Original complete-card allowance | 10800 CPU seconds |
+
+**Found.** The remaining-cost probe passes constructed native replay; the real-corpus cost measurement and full scientific admission remain separate. Tests cover serialized fresh replay and mutation refusal, source-bundle authentication, outcome-independent session selection, exact corpus configuration and cooperative yield. The fixture uses constructed embeddings. It neither times the real encoder nor admits a corpus comparison.
+
+**Means.** The separate corpus cost probe authenticates the full prepared population and enumerates every eligible candidate occurrence. Its fixed first-tenth timing sample is chosen from session identity before effects; final study population and controls are unchanged. It uses the existing CPU encoder/effect handlers, samples shuffle cost, measures both full-shape bootstraps, and independently replays all work. The forecast includes two passes and threefold safety but remains an estimate requiring owner review of tail workload and the cumulative budget. The earlier coverage cost is retained rather than rerun. No automatic scientific admission or follow-up is licensed.
+
+The bounded corpus cost probe is now eligible within the original remaining allowance; its separate launch receipt must establish actual execution. No new probability or scientific result was introduced; theory rows and afterwords are unchanged. [Aggregate validation](results/phase_2_4_stage_15/DRIVE/WB1_EFFECTS_COST_NATIVE_20261026.json).
+
+Curator roll-up: instrument integrity; Can authorized work resume with completed evidence preserved?; **Infrastructure**; The remaining-cost probe passes constructed native replay; the real-corpus cost measurement and full scientific admission remain separate.; project meaning: keep instrument validation and operational recovery separate from scientific admission; next engineering obligation: measure the real-corpus workload before complete study admission; public claim unchanged; curator decision required: No new decision from this landing. Detail: WB1_EFFECTS_COST_NATIVE_20261026.md.
+
+
 ### OPS-S15-W3-HEALTH-20261025-2340
 
 **Hypothesis.** Is the authorized queue progressing, and can any operational failure be recovered within its current limits?

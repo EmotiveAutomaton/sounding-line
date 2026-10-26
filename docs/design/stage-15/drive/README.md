@@ -215,3 +215,7 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [WC4 native validation](../../../../results/phase_2_4_stage_15/DRIVE/WC4_NATIVE_VALIDATION_20261025.md) is complete for the CPU tagger, source and statistics. The corpus source remains invalid; whole-design cost admission is still required.
 
 [CA2 culture-versus-person build](WEEK3_CA2_BUILD.md) is owner-reviewed with fourteen checks and both counted native fixtures verified. [Validation and remaining admission](../../../../results/phase_2_4_stage_15/DRIVE/CA2_NATIVE_VALIDATION_20261025.md) retain the full CA1 feature/reference dependency and cumulative cost.
+
+[Remaining WB1 effects/bootstrap cost instrument](WB1_EFFECTS_COST_20261026.md) passes four targeted checks and complete constructed native replay. The separate real-corpus timing probe and full cumulative admission remain; scientific population and controls are unchanged.
+
+[WB1 canonical provenance successor](WB1_SOURCE_CANONICAL_20261026.md) preserves the full population and rejects all non-provenance changes after the effects consumer exposed an aliasing bug. Four checks and complete native replay pass; full source reconstruction precedes downstream cost admission.

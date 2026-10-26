@@ -1,5 +1,14 @@
 # TODO: the study queue
 
+- [ ] WB1-source-canonical is RUNNING in Gear 2: full source replay plus non-provenance invariance. Fully land it before consuming corrected anchors in the effects-cost probe. Continue ranked commissioned builds; ready-card target remains unmet.
+
+- [x] OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE: failed corpus probe diagnosed; four checks and full native canonical source repair replay complete.
+- [ ] WB1: rebuild and land the full canonical source before restarting the effects cost probe; 3783.65625 CPU seconds charged/reserved. Earlier preparation cannot supply effect anchors; other-field invariance remains to be proven on the full corpus.
+
+- [x] OPS-S15-W3-REBOOT-20261026: original failure retained; calendar restored, watcher path repaired, existing terminal records and claim sources authenticated.
+- [x] OPS-S15-W3-WB1-EFFECTS-COST-NATIVE: four checks and full fresh native cost-probe replay complete.
+- [ ] WB1: dispatch and land the CPU-only real-corpus cost probe; then review complete cumulative cost before scientific admission. Current charge/reserve 3630.1875 of 10800 CPU seconds. Ready-card backlog remains.
+
 - [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
 - [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
 - [ ] WB1: full effects/real encoder and final-bootstrap cost measurement remain. Cumulative charge/reserve is 3445.375 of 10800 CPU seconds; no complete corpus admission.
