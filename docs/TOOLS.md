@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR3-TYPING-NATIVE:** The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_NATIVE_20261026.md).
+
+**OPS-S15-W3-TR3-SOURCE-COMPLETE:** The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_COMPLETE_20261026.md).
+
 **OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE:** The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. [Validation](../results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_RECOVERY2_NATIVE_20261026.md).
 
 **OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE:** The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_RECOVERY_FAILURE_20261026.md).

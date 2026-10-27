@@ -1,5 +1,64 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR3-TYPING-NATIVE
+
+**Hypothesis.** Can the writer's edits retain their actual document context and original insertion source, including text deleted later?
+
+**METHOD.** Test a constructed sequence with Unicode user insertions, API text, an unknown source, a later deletion and a cursor edit. Reconstruct every UTF-16 delta and final ownership run, require exact source equality, then execute and independently rebuild the complete fixture through the production native executor.
+
+The table reports source instrument validation, not a carryover effect.
+
+| Check | Complete observation |
+|---|---|
+| Known-answer fixture | Four edits preserved; five user characters inserted, four survive |
+| Unicode and source boundaries | Correct UTF-16 retention/deletion, API and unknown-source exclusion |
+| Refusal cases | Changed final document, identity, insertion total, clock, malformed surrogate and repeated initialization refuse |
+| Empty source | Empty document and zero-edit session retained |
+| Serialized checks | Immutable reentry, complete independent replay and changed-output refusal pass |
+| Targeted checks | Nine pass |
+| Initial test setup | One temporary-directory access error retained; rerun in a fresh workspace test directory passes |
+| Native inputs / outputs authenticated | 36 / 17 |
+| Native termination | All exact worker identities exited |
+| Cumulative TR3 charge/reserve | 501.546875 of 7,200 CPU seconds, including the additional 60-second construction/test reserve |
+
+**Found.** The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
+
+**Means.** The full primary corpus can undergo bounded typing-context preparation under the existing TR3 allocation. The compact stream preserves all edits, including non-user changes and later-deleted characters, so downstream extraction need not concatenate distant user deltas or select only surviving text. It computes no feature, effect, test-half statistic or probability. The exact exposure source and writer split remain unchanged. Discovery feature selection, production-time occurrence definitions, placebos, calibration and whole-study cost admission remain. The ready-card target is not yet met. No new tests were harvested from the wake notices.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.; project meaning: scoped operational record; next engineering obligation: Complete TR3 typing-source preparation, then freeze and validate the feature/comparison pipeline; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_TYPING_NATIVE_20261026.md.
+
+### OPS-S15-W3-TR3-SOURCE-COMPLETE
+
+**Hypothesis.** Can the recorded suggestion history and the writer's own edits be preserved across sessions without inventing attention, acceptance or chronological order?
+
+**METHOD.** Authenticate the completed PMAP source family, all raw/P2/P6 joins and the exact WB1 writer split. Reconstruct every primary session, including empty and reopened displays, then rebuild the complete output in a fresh process. Match native identities, verify every input pin and output digest, and retain both original failed attempts and their costs.
+
+The table reports complete source coverage and instrument accounting. It contains no carryover effect.
+
+| Check | Complete observation |
+|---|---|
+| Full primary population | 1,399 sessions, 61 writers; all retained |
+| Exact discovery/test split | 745 sessions / 31 writers and 654 sessions / 30 writers |
+| Repeated-session support | 53 writers; 1,338 sessions have strictly earlier history |
+| Strict-history sessions by split | 714 discovery, 624 test |
+| Recorded display opportunities | 16,934 displays; 16,889 unique menus |
+| Unknown handling | 79 displays retained without an invented handling label |
+| Overlapping or touching session pairs | 15 retained without imposed order |
+| Raw user-inserted Unicode characters | 2,218,699; API insertions excluded; no concatenated-delta n-grams |
+| Independent reconstruction | Complete source replay passes; exact writer split preserved |
+| Authenticated inputs / outputs | 7,154 pins / 1,417 outputs |
+| Native termination | Owner, execution and verification identities all exited |
+| This source attempt | 276.828125 CPU seconds; 305.426958 elapsed seconds |
+| Cumulative TR3 charge/reserve | 441.046875 of 7,200 CPU seconds, including construction/tests and retained failures |
+
+**Found.** The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
+
+**Means.** This completes the source preparation component after two ordinary engineering repairs. It does not establish that a writer read a displayed suggestion or adopted any feature. The full carryover comparison still requires discovery-only feature definitions, own-typing character/n-gram semantics, matched unseen placebos, known-answer calibration and whole-study cost admission. All primary sessions remain, including those without strict earlier history; any comparison support must be reported explicitly. The exhausted accepted-span extractor was neither called nor repaired. Raw text, identities and edit sequences remain private. No hypothesis probability, holdout read or scientific follow-up is created. No tests harvested from these wake notices.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.; project meaning: scoped operational record; next engineering obligation: Build the frozen TR3 features, calibrated matched-placebo comparison and full-design cost admission; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_SOURCE_COMPLETE_20261026.md.
+
 ### OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE
 
 **Hypothesis.** Can the source instrument retain every shown suggestion and determine earlier sessions without inventing exposure, acceptance or chronological order?

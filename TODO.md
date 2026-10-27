@@ -1,6 +1,10 @@
 # TODO: the study queue
 
-- [ ] TR3: full source census running under final ordinary healing pass; both original failures retained. Complete source replay, discovery features, typed-character/n-gram semantics, calibrated placebo comparison and whole-study cost admission remain. Prior charge/reserve 164.21875 of 7200 CPU seconds. [Launch](results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md).
+- [x] OPS-S15-W3-TR3-TYPING-NATIVE: The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
+
+- [x] OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
+
+- [ ] TR3: complete exposure census recorded; exact typing-context source running in Gear 2. Discovery features, production-time occurrence semantics, calibrated matched-placebo comparison and whole-study cost admission remain. Prior charge/reserve 501.546875 of 7200 CPU seconds; current source allowance 1200. [Launch](results/phase_2_4_stage_15/DRIVE/TR3_TYPING_LAUNCH_20261026.md).
 
 - [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
 

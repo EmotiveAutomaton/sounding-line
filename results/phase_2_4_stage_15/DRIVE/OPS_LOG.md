@@ -583,3 +583,9 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T03:17:57.430341+00:00 OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. Cumulative charge/reserve 164.21875 CPU seconds. Ready queue below target; build backlog is an idle-capacity defect.
 
 2026-10-27T03:20:19.515103+00:00 TR3 source final ordinary recovery launched: exact owner, execution, fresh progress, counted lease and urgent terminal monitoring verified. All population and source constraints remain.
+
+2026-10-27T03:29:52.778751+00:00 OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
+
+2026-10-27T03:37:09.788979+00:00 OPS-S15-W3-TR3-TYPING-NATIVE: The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
+
+2026-10-27T03:39:49.217650+00:00 TR3 typing-context source dispatched after full native landing; exact owner, counted lease, progress and terminal monitoring verify. No new research, GPU or paid authority. Source preparation follows the completed chronological census. Ready queue below eight-card target; remaining build backlog is an idle-capacity defect.

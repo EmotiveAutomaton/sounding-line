@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**October 26 TR3 typing context:** [Running full source](TR3_TYPING_LAUNCH_20261026.md). Complete native validation has landed; scientific comparison remains unbuilt.
+
+**OPS-S15-W3-TR3-TYPING-NATIVE:** [Record](TR3_TYPING_NATIVE_20261026.md). The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
+
+**OPS-S15-W3-TR3-SOURCE-COMPLETE:** [Record](TR3_SOURCE_COMPLETE_20261026.md). The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
+
 **October 26 TR3 source recovery:** [Verified launch](TR3_SOURCE_LAUNCH_20261026.md). The full chronological exposure census is running in Gear 2 after fifteen checks and complete native recovery validation. Original failures and charges remain; all primary sessions and the exact writer split are retained. Full corpus completion and the carryover comparison remain unadmitted. The daily digest is recorded; GPU, source/cost and receiving-copy approval holds persist. The ready-card target is unfinished.
 
 **October 26 TR3 source instrument:** [Complete native validation](TR3_INPUTS_RECOVERY2_NATIVE_20261026.md). The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.

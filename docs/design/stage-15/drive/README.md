@@ -241,3 +241,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [PP3 edit-feature ablation is complete](../../../../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md), with all rows, both complete reference banks and independent replay. Sensitivity remains separately monitored; the second pipeline is cost-held. No descendants.
 
 [PP3 sensitivity is complete](../../../../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md), with both registered settings, full reference banks and fresh replay. The parent, sensitivity and ablation are fully recorded; the second classifier is cost-held. No descendants.
+
+[TR3 typing-context preparation](TR3_TYPING_20261026.md) is native-validated and running on the full primary population. The exposure census is complete; feature and comparison admission remain separate.
