@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[TR4 input preparation](TR4_INPUTS_20261027.md) is complete on the primary corpus after sixteen checks and independent native replay. All six forecasts, calibration and full cost admission remain unbuilt.
+
 **TR3 execution authority:** [The card-wide repair cap was exceeded](../../../../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Further execution is held pending a continuation decision; the completed source and candidate replay remain retained.
 
 [TR3 discovery candidate counting](TR3_CANDIDATES_20261026.md), its [canonical schema repair](TR3_CANDIDATES_RECOVERY_20261026.md) and [final empty-display repair](TR3_CANDIDATES_RECOVERY2_20261026.md) are complete with twenty-four checks and full corpus replay. [Complete record](../../../../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md); human comparison and selection remain unbuilt.

@@ -607,3 +607,9 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-27T04:18:39.925165+00:00 OPS-S15-W3-TR3-CANDIDATES-COMPLETE: The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
 
 2026-10-27T04:24:57.731627+00:00 OPS-S15-W3-TR3-REPAIR-CAP: TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
+
+2026-10-27T08:04:31.932900+00:00 OPS-S15-W3-TR4-INPUTS-NATIVE: The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.
+
+2026-10-27T08:07:23.468651+00:00 OPS-S15-W3-TR4-INPUTS-COMPLETE: The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
+
+2026-10-27T08:09:32.464047+00:00 OPS-S15-W3-HEALTH-20261027-0047: services, native ownership, fresh calendar, delivery, locks, resources and 29 recent terminals verified; TR4 input recovery built and fully landed. Research workers/ready cards 0; target 8. Estimated idle capacity 24.494 slot-hours (receipt qualification applies): implementation backlog remains a defect. TR3 and GPU/source/cost/transfer holds retained. Receipt: HEALTH_20261027_0047.json.

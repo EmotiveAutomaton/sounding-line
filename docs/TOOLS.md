@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR4-INPUTS-COMPLETE:** The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed. [Record](../results/phase_2_4_stage_15/DRIVE/TR4_INPUTS_COMPLETE_20261027.md).
+
+**OPS-S15-W3-TR4-INPUTS-NATIVE:** The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR4_INPUTS_NATIVE_20261027.md).
+
 **OPS-S15-W3-TR3-REPAIR-CAP:** TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md).
 
 **OPS-S15-W3-TR3-CANDIDATES-COMPLETE:** The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md).

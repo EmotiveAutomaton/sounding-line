@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-TR4-INPUTS-COMPLETE:** [Record](TR4_INPUTS_COMPLETE_20261027.md). The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
+
+**OPS-S15-W3-TR4-INPUTS-NATIVE:** [Record](TR4_INPUTS_NATIVE_20261027.md). The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.
+
 **OPS-S15-W3-TR3-REPAIR-CAP:** [Record](TR3_REPAIR_CAP_20261026.md). TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
 
 **OPS-S15-W3-TR3-CANDIDATES-COMPLETE:** [Record](TR3_CANDIDATES_COMPLETE_20261026.md). The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.

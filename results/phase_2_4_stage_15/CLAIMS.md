@@ -120,3 +120,5 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE | operational | infrastructure / passes | The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate. |
 | OPS-S15-W3-TR3-CANDIDATES-COMPLETE | TR3-candidates | infrastructure / passes | The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested. |
 | OPS-S15-W3-TR3-REPAIR-CAP | TR3 | infrastructure / invalid | TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded. |
+| OPS-S15-W3-TR4-INPUTS-NATIVE | operational | infrastructure / passes | The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate. |
+| OPS-S15-W3-TR4-INPUTS-COMPLETE | operational | infrastructure / passes | The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed. |

@@ -1,5 +1,60 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR4-INPUTS-COMPLETE
+
+**Hypothesis.** Can every primary session supply an honest source for comparing recent and whole-history predictions of a writer's handling choices?
+
+**METHOD.** Authenticate the complete previously landed canonical source and exact WB1 writer split; count each original menu's four-class handling once, retain unknowns and empty/reopened displays, and reconstruct strict chronology without ordering overlapping sessions. Recompute the entire census in an independent process, verify all source and output hashes and confirm all worker exits.
+
+The table reports complete input support, not predictive performance or a claim about a person's current wants.
+
+| Check | Complete observation |
+|---|---|
+| Retained primary population | All 1399 sessions and 61 writers |
+| Commissioned 12-session criterion | 29 writers; 1265 sessions; other records retained |
+| Original menus | 16889 |
+| Known / unknown handling menus | 16855 / 34; unknowns retain their exclusion reason |
+| Reopened displays / unanchored empty reopens | 45 / 3; no extra choices invented |
+| Touching or overlapping session pairs | 15; no strict precedence invented |
+| Independent reconstruction | Complete; 8581 pins and 17 outputs authenticated |
+| Native execution / verification / owner | All exited |
+| Full input CPU / elapsed seconds | 37.71875 / 50.51824790000683 |
+| Cumulative CPU charge and reserve | 98.1875 of 3,600 seconds |
+| Card-wide engineering repairs used | One pre-dispatch test import correction; original failure retained; no corpus repair |
+
+**Found.** The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
+
+**Means.** The commissioned source preparation is complete. The six forecasting models, planted calibration, reliability calculation and complete statistical/cost admission still need implementation. Chronological ambiguity and unknown handling remain explicit inputs to that design; this census does not silently reduce its population or license any scientific result. Reading the completed source did not resume held TR3 execution or access its later candidate outputs. GPU parking, exhausted shared-extractor repairs and transfer/cost holds remain. No new scientific tests were harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.; project meaning: scoped operational record; next engineering obligation: Build all six declared forecasts, calibration and complete cost admission; preserve explicit chronology and handling support; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_INPUTS_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR4-INPUTS-NATIVE
+
+**Hypothesis.** Can the recent-versus-whole-history study preserve canonical handling choices and chronology without counting reopens twice?
+
+**METHOD.** Exercise complete four-class, unknown, empty, orphan, repeat, zero-choice and chronology fixtures; compare the actual source producer schema; test changed split/coverage and byte-stable reentry. Run the constructed handler and its independent replay in counted native CPU processes, then authenticate every pin, output and worker exit.
+
+The table reports complete instrument validation, not a forecast or human effect.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | 16 pass |
+| Constructed coverage | 23 sessions, including the 12-session eligibility boundary |
+| Independent native replay | Complete; all three worker identities exited |
+| Native CPU charge | 0.46875 seconds; 60-second construction-test reserve retained |
+| Initial validation failure | Test import path failed; one pre-dispatch engineering correction used |
+| Environment interruption | Default temporary directory denied; separate workspace-local test directory used |
+| Card-wide repairs used / allowed | 1 / 2, shared by all TR4 components |
+| Scientific comparison | All six predictors, calibration and full cost admission unbuilt |
+
+**Found.** The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.
+
+**Means.** The bounded complete input census can now run against the authenticated canonical source. This reuses completed source data without resuming held TR3 execution. Original test failure XML is retained and pinned. The packet's full population, unknown-choice and chronological-ambiguity constraints remain; no reduced scientific population is licensed. No scientific tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.; project meaning: scoped operational record; next engineering obligation: Complete full input census, then build the six forecasts and calibration within the original card ceiling; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_INPUTS_NATIVE_20261027.md.
+
 ### OPS-S15-W3-TR3-REPAIR-CAP
 
 **Hypothesis.** Did TR3 preparation remain within the commissioned repair allowance?

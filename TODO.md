@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [ ] TR4: complete input census is landed; build all six forecasts, known-answer calibration and cost admission within the original 3,600 CPU-second ceiling. One card-wide engineering repair used. Unknown choices and overlapping chronology remain explicit; no scientific score yet.
+
+- [x] OPS-S15-W3-TR4-INPUTS-COMPLETE: The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
+
+- [x] OPS-S15-W3-TR4-INPUTS-NATIVE: The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.
+
 - [x] OPS-S15-W3-TR3-REPAIR-CAP: TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
 
 - [x] OPS-S15-W3-TR3-CANDIDATES-COMPLETE: The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
