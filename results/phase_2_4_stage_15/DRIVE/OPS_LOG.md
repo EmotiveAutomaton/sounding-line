@@ -619,3 +619,11 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-27T12:48:21.043892+00:00 OPS-S15-W3-TR3-HUMAN-NATIVE: The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.
 
 2026-10-27T12:56:14.358842+00:00 OPS-S15-W3-TR3-HUMAN-COMPLETE: Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
+
+2026-10-27T13:09:43.443156+00:00 OPS-S15-W3-TR3-SELECTION-NATIVE: The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate.
+
+2026-10-27T13:11:32.291737+00:00 OPS-S15-W3-TR3-SELECTION-COMPLETE: The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed.
+
+2026-10-27T13:19:55.665951+00:00 OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE: The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.
+
+2026-10-27T13:24:49.035038+00:00 OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE: Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.

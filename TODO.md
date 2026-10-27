@@ -1,5 +1,13 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE: Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.
+
+- [x] OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE: The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.
+
+- [x] OPS-S15-W3-TR3-SELECTION-COMPLETE: The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed.
+
+- [x] OPS-S15-W3-TR3-SELECTION-NATIVE: The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate.
+
 - [x] OPS-S15-W3-TR3-HUMAN-COMPLETE: Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
 
 - [x] OPS-S15-W3-TR3-HUMAN-NATIVE: The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.
@@ -32,7 +40,7 @@
 
 - [x] OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
 
-- [ ] TR3: continuation explicitly authorized October 27 under the original 7,200 CPU-second ceiling, with no additional automatic repairs. Discovery human counts are complete; cumulative charge/reserve is 1,680.875 seconds. Prior breach and failed attempts remain. Build discovery selection, calibration and unchanged carryover comparison. [Decision](results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md).
+- [ ] TR3: October 27 continuation under the original 7,200 CPU-second ceiling, with no additional automatic repairs. Discovery selection and complete selected-feature counts are independently verified; cumulative charge/reserve is 2,035.21875 seconds. The comparison contract is frozen. Build matched statistics, all three secondary contrasts and known-answer calibration. Prior breach and failed attempts remain. [Decision](results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md).
 
 - [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
 

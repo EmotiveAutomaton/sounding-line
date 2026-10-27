@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/week3_tr3_selection` and `cards/week3_tr3_outcome_inputs` pass their known-answer checks and complete corpus independent replays. Discovery features are frozen before reserved-writer outcomes; canonical insertion identifies accepted options. Matched statistics and calibration remain unbuilt, with no further automatic repairs authorized. [Complete preparation](../../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_COMPLETE_20261027.md).
+
 `cards/week3_tr3_human_counts` passes twenty targeted checks and complete discovery-corpus independent replay. Feature selection and the matched carryover comparison remain separate gates; no further automatic repairs are authorized.
 
 `cards/week3_tr4_inputs` preserves complete canonical handling and strict chronology. Sixteen checks and complete primary-corpus independent replay pass. All six forecasting models and calibration remain unbuilt.

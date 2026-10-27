@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE:** [Record](TR3_OUTCOME_INPUT_COMPLETE_20261027.md). Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.
+
+**OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE:** [Record](TR3_OUTCOME_INPUT_NATIVE_20261027.md). The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.
+
+**OPS-S15-W3-TR3-SELECTION-COMPLETE:** [Record](TR3_SELECTION_COMPLETE_20261027.md). The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed.
+
+**OPS-S15-W3-TR3-SELECTION-NATIVE:** [Record](TR3_SELECTION_NATIVE_20261027.md). The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate.
+
 **OPS-S15-W3-TR3-HUMAN-COMPLETE:** [Record](TR3_HUMAN_COMPLETE_20261027.md). Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
 
 **OPS-S15-W3-TR3-HUMAN-NATIVE:** [Record](TR3_HUMAN_NATIVE_20261027.md). The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.

@@ -1,5 +1,111 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE
+
+**Hypothesis.** Can the fixed feature bank be counted in writers' own typing and attributed to actual offered or accepted alternatives without the logged-index error?
+
+**METHOD.** Use the independently frozen discovery selection, preserve the complete census and split, reuse discovery human counts and replay reserved typing with the unchanged production instrument. Count each feature once per offered alternative at its original menu, and use only canonically reconstructed insertion to identify the accepted alternative. Reconstruct all outputs in a fresh counted process and authenticate source hashes and native exits.
+
+**Observation.** All 1399 sessions and 61 writers are retained. The 745 discovery count records are reused unchanged, and all 654 reserved sessions are reconstructed with the same production counter. Every original menu is joined to canonical handling; no logged selection index is read. Complete counts are private and no carryover score is computed.
+
+The table records source preparation, not a carryover comparison.
+
+| Check | Complete observation |
+|---|---|
+| Authenticated pins / outputs | 11583 / 1417 |
+| Independent reconstruction | Complete |
+| Native owner / execution / verification | All exited |
+| CPU / elapsed seconds | 192.5 / 219.87801859999308 |
+| Cumulative TR3 charge and reserve | 2035.21875 of 7,200 CPU seconds |
+| New failures or repairs after approval | None; no further automatic repairs authorized |
+
+**Found.** Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.
+
+**Means.** The pre-outcome comparison contract fixes matching, chronology, canonical production attribution, covariates through session pairing, primary weighting, all three secondary contrasts, bootstrap and permutation rules. Instrument and statistical calibration remain distinct from source preparation. Repeated later use, automaticity, attention and causal capture are not established by these counts. Prior failures and the repair-cap breach remain. Any new failure stops the affected TR3 continuation for review. No new scientific test was harvested from the continuation reply.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Build the frozen matched comparison, required secondary contrasts and known-answer calibration; retain every unsupported row; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_OUTCOME_INPUT_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE
+
+**Hypothesis.** Can the fixed feature bank be counted in writers' own typing and attributed to actual offered or accepted alternatives without the logged-index error?
+
+**METHOD.** Use the independently frozen discovery selection, preserve the complete census and split, reuse discovery human counts and replay reserved typing with the unchanged production instrument. Count each feature once per offered alternative at its original menu, and use only canonically reconstructed insertion to identify the accepted alternative. Reconstruct all outputs in a fresh counted process and authenticate source hashes and native exits.
+
+**Observation.** Ten targeted checks pass on first execution. Actual reconstructed insertion overrides a deliberately wrong logged index. Reopens, repeated tokens within an alternative, unknown handling and empty menus preserve their declared count rules. Missing, changed or ambiguous source, identity and denominator records refuse. Discovery counts are reused while reserved typing is reconstructed; reentry and independent replay preserve exact bytes.
+
+The table records source preparation, not a carryover comparison.
+
+| Check | Complete observation |
+|---|---|
+| Authenticated pins / outputs | 37 / 20 |
+| Independent reconstruction | Complete |
+| Native owner / execution / verification | All exited |
+| CPU / elapsed seconds | 0.546875 / 4.393837900002836 |
+| Cumulative TR3 charge and reserve | 1842.71875 of 7,200 CPU seconds |
+| New failures or repairs after approval | None; no further automatic repairs authorized |
+
+**Found.** The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.
+
+**Means.** The pre-outcome comparison contract fixes matching, chronology, canonical production attribution, covariates through session pairing, primary weighting, all three secondary contrasts, bootstrap and permutation rules. Instrument and statistical calibration remain distinct from source preparation. Repeated later use, automaticity, attention and causal capture are not established by these counts. Prior failures and the repair-cap breach remain. Any new failure stops the affected TR3 continuation for review. No new scientific test was harvested from the continuation reply.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.; project meaning: scoped operational record; next engineering obligation: Prepare the complete selected-feature corpus under the original ceiling and zero-repair continuation; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_OUTCOME_INPUT_NATIVE_20261027.md.
+
+### OPS-S15-W3-TR3-SELECTION-COMPLETE
+
+**Hypothesis.** Can model-associated features be fixed from discovery writers without choosing them on later carryover outcomes?
+
+**METHOD.** Freeze within-family, equal-prior pointwise mutual information with Jeffreys smoothing, a twofold model-probability threshold and fixed occurrence/session/writer support floors. Reconstruct both complete discovery count banks, retain every qualifying feature, and freeze tied pooled-frequency deciles. Independently repeat the entire handler and authenticate inputs, outputs and native exits.
+
+**Observation.** All 745 discovery sessions and 31 discovery writers contribute. Both complete per-session banks reproduce their parent aggregates exactly. The frozen rule selects 4272 features; all selected features and frequency bins are retained privately. This is feature preparation, not a carryover result.
+
+The table reports preparation and accounting, not a human carryover score.
+
+| Check | Complete observation |
+|---|---|
+| Independent replay | Complete |
+| Authenticated input pins / outputs | 11556 / 17 |
+| Test-half payloads read | Zero |
+| Native owner / execution / verification | All exited |
+| CPU / elapsed seconds | 40.75 / 57.05181350000203 |
+| Cumulative TR3 charge and reserve | 1782.171875 of 7,200 CPU seconds |
+| New failures or repairs after continuation approval | None; no additional automatic repairs authorized |
+
+**Found.** The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed.
+
+**Means.** The selection rule operationalizes the commissioned high-information feature bank. Literal word sequences cover lexical function-word and hedge candidates but do not identify pragmatic function. Fixed frequency bins do not establish successful matching, causal exposure, automaticity or attention. The matched primary, dose, accepted-versus-dismissed and dismissed-versus-placebo contrasts and their calibration remain uncomputed. The original repair breach and failures remain; any new failure stops the affected TR3 continuation. No new scientific test was harvested from the approval.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Build and calibrate the matched held-out exposure comparison and all commissioned secondary contrasts; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_SELECTION_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR3-SELECTION-NATIVE
+
+**Hypothesis.** Can model-associated features be fixed from discovery writers without choosing them on later carryover outcomes?
+
+**METHOD.** Freeze within-family, equal-prior pointwise mutual information with Jeffreys smoothing, a twofold model-probability threshold and fixed occurrence/session/writer support floors. Reconstruct both complete discovery count banks, retain every qualifying feature, and freeze tied pooled-frequency deciles. Independently repeat the entire handler and authenticate inputs, outputs and native exits.
+
+**Observation.** Fourteen targeted checks pass on their first execution. Equal banks select nothing, the planted recurrent feature matches its analytic information value, sparse support is refused, tied frequencies stay together and changed inputs or outputs are rejected. The native handler and complete fresh replay pass.
+
+The table reports preparation and accounting, not a human carryover score.
+
+| Check | Complete observation |
+|---|---|
+| Independent replay | Complete |
+| Authenticated input pins / outputs | 35 / 17 |
+| Test-half payloads read | Zero |
+| Native owner / execution / verification | All exited |
+| CPU / elapsed seconds | 0.546875 / 4.39617000000726 |
+| Cumulative TR3 charge and reserve | 1741.421875 of 7,200 CPU seconds |
+| New failures or repairs after continuation approval | None; no additional automatic repairs authorized |
+
+**Found.** The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate.
+
+**Means.** The selection rule operationalizes the commissioned high-information feature bank. Literal word sequences cover lexical function-word and hedge candidates but do not identify pragmatic function. Fixed frequency bins do not establish successful matching, causal exposure, automaticity or attention. The matched primary, dose, accepted-versus-dismissed and dismissed-versus-placebo contrasts and their calibration remain uncomputed. The original repair breach and failures remain; any new failure stops the affected TR3 continuation. No new scientific test was harvested from the approval.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate.; project meaning: scoped operational record; next engineering obligation: Execute complete discovery selection within the original cumulative cap; stop on any new failure; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_SELECTION_NATIVE_20261027.md.
+
 ### OPS-S15-W3-TR3-HUMAN-COMPLETE
 
 **Hypothesis.** Can all discovery writers' completed production be counted without false adjacency or final-survivor selection?

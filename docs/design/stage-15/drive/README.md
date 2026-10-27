@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[TR3 discovery selection](TR3_SELECTION_20261027.md) and [the pre-outcome comparison contract](TR3_COMPARISON_20261027.md) are frozen. Complete selected-feature inputs and independent replay pass; matched statistics and calibration remain to be built. [Complete preparation record](../../../../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_COMPLETE_20261027.md). No further automatic repairs are authorized.
+
 [TR3 human-production counts](TR3_HUMAN_COUNTS_20261027.md) are complete on the discovery corpus after twenty checks and independent replay under the explicit continuation approval. Feature selection and scientific admission remain separate; no additional automatic repairs.
 
 [TR4 input preparation](TR4_INPUTS_20261027.md) is complete on the primary corpus after sixteen checks and independent native replay. All six forecasts, calibration and full cost admission remain unbuilt.

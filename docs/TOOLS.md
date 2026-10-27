@@ -2597,6 +2597,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE:** Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_COMPLETE_20261027.md).
+
+**OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE:** The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_NATIVE_20261027.md).
+
+**OPS-S15-W3-TR3-SELECTION-COMPLETE:** The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SELECTION_COMPLETE_20261027.md).
+
+**OPS-S15-W3-TR3-SELECTION-NATIVE:** The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SELECTION_NATIVE_20261027.md).
+
 **OPS-S15-W3-TR3-HUMAN-COMPLETE:** Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_HUMAN_COMPLETE_20261027.md).
 
 **OPS-S15-W3-TR3-HUMAN-NATIVE:** The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_HUMAN_NATIVE_20261027.md).
