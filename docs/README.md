@@ -1,5 +1,7 @@
 # Documentation - current authority, methods and history
 
+**October 26 TR3 execution hold and correction:** [Repair-cap record](../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Source, typing and discovery suggestion counts pass independent replay, but the operator used four repairs against a two-repair card limit. Further TR3 execution awaits a continuation decision; all evidence and costs are retained. No research worker remains active after these completed preparations. Human counts and the carryover comparison remain unfinished; the ready-card deficit and existing GPU, source/cost and receiving-copy holds persist. Earlier status snapshots are historical.
+
 **October 26 PP3.s complete:** [Full instrument record](../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.
 
 **October 26 PP3.m complete:** [Full instrument record](../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.

@@ -1,5 +1,205 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR3-REPAIR-CAP
+
+**Hypothesis.** Did TR3 preparation remain within the commissioned repair allowance?
+
+**METHOD.** Reconcile the original source and candidate attempts against Week 3 section 0.3 B and the standing grind contract. Count engineering reruns across the commissioned TR3 card rather than resetting the allowance at a new implementation component; retain terminal evidence and costs.
+
+The table reports execution authority, not a scientific outcome.
+
+| Check | Complete observation |
+|---|---|
+| Authorized ordinary repairs | Two per commissioned card |
+| Exposure-source repairs | Two; second repair completed |
+| Candidate-counter repairs | Two additional repairs; second completed |
+| Total / excess repairs | Four / two |
+| Cumulative CPU charge and reserve | 1462.890625 of 7,200 seconds; this separate ceiling was not exceeded |
+| Preparation integrity | Completed source, typing and discovery counts independently reconstructed |
+| Scientific comparison | Unbuilt and unrun; no carryover claim |
+| Disposition | Further TR3 execution held; all evidence preserved |
+
+**Found.** TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
+
+**Means.** The operator incorrectly treated two implementation components as having separate repair allowances. The packet authorizes two per card; successful reconstruction does not erase the breach, and remaining compute budget is not repair authority. The prior candidate records now carry an explicit execution-authority correction while preserving their original observations and admission wording as history. Frozen code, raw terminal receipts, failed attempts and scientific definitions remain unchanged. The recommended continuation, submitted for curator decision, is to use the already verified preparation within the original CPU ceiling with no additional automatic repairs. Until a reply, no dependent TR3 execution is dispatched. This does not close the study or turn the preparation into a scientific result. Independent commissioned work and publication of the record remain authorized. No tests were harvested from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.; project meaning: scoped operational record; next engineering obligation: Await continuation decision; no further TR3 execution; public scientific claim unchanged; curator decision required: Yes; recommend continuing from verified preparation within the original CPU ceiling with no additional automatic repairs. Detail: TR3_REPAIR_CAP_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-COMPLETE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Can all discovery suggestion candidates be counted with the exact writer split and without repeated-reopen frequency inflation?
+
+**METHOD.** Authenticate the complete exposure source and WB1 writer split, count canonical displayed alternatives once per original menu, retain empty displays with no invented offers, and use the existing tokenizer for word sequences and Unicode punctuation. Reconstruct every discovery count in an independent process; verify all pins, outputs and native exits.
+
+The table reports complete candidate preparation, not selected features or a carryover effect.
+
+| Check | Complete observation |
+|---|---|
+| Discovery population | All 745 sessions and 31 discovery writers |
+| Test suggestion payloads read | Zero; exact complete population census retained |
+| Original menus / offered alternatives | 9,149 / 37,110; reopened alternatives not counted twice |
+| Empty display records | Nine, retained with zero offered alternatives |
+| Displayed-text characters | 2,393,859 |
+| Distinct lexical candidates | 297,521; all retained, none selected |
+| Independent reconstruction | Complete session and aggregate count replay passes |
+| Authenticated inputs / outputs | 8588 / 762 |
+| Exact native identities | Owner, execute and verify workers exited |
+| Final source attempt | 39.09375 CPU seconds; 57.138511 elapsed seconds |
+| Cumulative TR3 charge/reserve | 1462.890625 of 7,200 CPU seconds |
+| Repair history | Both failed corpus attempts and all three native fixtures retained |
+
+**Found.** The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
+
+**Means.** This completes the model-side frequency table after two ordinary engineering repairs. The first wrapper fixture used the wrong option shape; the first repair omitted empty reopens already supported upstream. The final adapter preserves all substantive offers and corrects the empty-event diagnostic. The known-answer suite has twenty-four passing checks. Human production-time counts, model-versus-human pointwise mutual information, feature selection, frequency-matched unseen placebos, known-answer scientific calibration and whole-study cost admission remain unbuilt. Source preparation is not evidence for adoption, attention or learning. Raw text, candidate strings and participant identities remain private. No GPU, paid work, holdout or scientific follow-up was used. The ready-card deficit remains. No new tests were harvested from this wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.; project meaning: scoped operational record; next engineering obligation: Build production-time human candidate counts, then frozen selection and the controlled carryover comparison; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_COMPLETE_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Can the final adapter preserve the complete canonical display contract without changing substantive candidate counts?
+
+**METHOD.** Exercise original, reopened, empty and orphan display fixtures, exact feature/offer parity and malformed-record refusals. Execute and independently reconstruct the complete constructed fixture through the production native executor.
+
+The table reports instrument validation, not a carryover effect.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | Twenty-four pass |
+| Canonical and empty support | Exact prior feature/offer parity; empty displays contribute zero offers |
+| Source refusals | Wrong origin, order, index, missing empty flag and changed nonempty reopen all refuse |
+| Independent reconstruction | Complete fresh-process replay, immutable reentry and tamper checks pass |
+| Authenticated inputs / outputs | 40 / 19 |
+| Native workers | All exact identities exited |
+| Cumulative charge/reserve | 1423.796875 of 7,200 CPU seconds, including both failed corpus attempts |
+
+**Found.** The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate.
+
+**Means.** The second and final ordinary repair is admitted for the same bounded discovery population and count definition. The complete source and both failed counters remain immutable. Human production counts, selection, placebos and the carryover contrast remain unbuilt; no GPU, paid service or holdout access is used. No new tests harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate.; project meaning: scoped operational record; next engineering obligation: Complete full discovery candidate replay, then build the human comparator and carryover contrast; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_RECOVERY2_NATIVE_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Does the candidate adapter preserve the completed exposure source's empty-display support?
+
+**METHOD.** Inspect the retained failing adapter against the separately completed empty-display source contract. Preserve the failed run and its complete session checkpoints. Validate a separate second repair on both kinds of empty reopen, exact prior feature/offer counts, canonical identities and complete serialized replay.
+
+The table reports an engineering failure, not a carryover result.
+
+| Check | Complete observation |
+|---|---|
+| Failure | Empty reopen after a nonempty menu incorrectly required matching nonempty alternatives |
+| Complete checkpoints | Seventeen sessions retained; no full result admitted |
+| Attempt / cumulative CPU charge | 5.703125 / 1423.25 seconds |
+| Repair limit | Second and final ordinary engineering repair |
+| Targeted checks | Twenty-four pass, including all inherited candidate checks |
+| Worker identities | Original owner and child exited |
+
+**Found.** The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives.
+
+**Means.** The previous fixture omitted a source case already supported upstream. The new adapter preserves every session and offer, validates the empty flag, origin and order, and counts zero alternatives for the empty event. The empty-event diagnostic also counts reopens of an empty original menu; feature and offer counts remain unchanged on earlier representable inputs. Both failures, partial files and costs remain. Full native and corpus recovery are separate gates; no probability, carryover finding or new test was harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives.; project meaning: scoped operational record; next engineering obligation: Land final native repair, then complete the unchanged discovery candidate count pass; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_RECOVERY_FAILURE_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Can canonical suggestion records feed the fixed counter without changing displayed-text frequencies or reopening identities?
+
+**METHOD.** Construct records through the source's canonical parser; validate every index, original and displayed-text field; require full reopen metadata equality before projecting displayed text. Compare exact counts with equivalent strings, exercise malformed and tampered inputs, then execute and independently reconstruct the complete fixture in native processes.
+
+The table reports instrument validation only.
+
+| Check | Complete observation |
+|---|---|
+| Combined targeted checks | Seventeen pass |
+| Count parity | Exact agreement with equivalent original displayed strings |
+| Refusals | Missing text, noncanonical strings, repeated indices and changed original/index reopen metadata |
+| Independent replay | Full constructed output, reentry and changed-output refusal pass |
+| Test isolation | No test-writer payload is supplied or read |
+| Authenticated inputs / outputs | 38 / 19 |
+| Native workers | All exact identities exited |
+| Cumulative TR3 charge/reserve | 1417.546875 of 7,200 CPU seconds, including the original failure |
+
+**Found.** The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate.
+
+**Empty-display scope correction.** The later corpus attempt rejected an authenticated empty reopen after a nonempty menu; this fixture had omitted that case. See TR3_CANDIDATES_RECOVERY_FAILURE_20261026.md for the retained failure and final ordinary repair.
+
+**Means.** The first engineering repair is admitted for bounded full-discovery execution with unchanged count definitions, population and CPU ceiling. The original failing wrapper is retained. Corpus counts, human production semantics, selection and the carryover comparison remain separate. No scientific result, new follow-up, paid work, GPU or holdout access is licensed. No tests harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate.; project meaning: scoped operational record; next engineering obligation: Run the full discovery count recovery, then implement the human comparator and carryover; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_RECOVERY_NATIVE_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-FAILURE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Does the constructed candidate counter accept the actual suggestion records emitted by the completed source?
+
+**METHOD.** Execute the full discovery counter under the existing bounded native supervisor. Inspect the retained exception against the canonical suggestion parser and its producer fixture, then preserve the failed attempt and separately validate a schema adapter with unchanged count definitions.
+
+The table reports an engineering failure, not a scientific result.
+
+| Check | Complete observation |
+|---|---|
+| Failure | The wrapper expected strings; the source provides index, original and trimmed display text records |
+| Corpus progress | Failed before a complete session count; no corpus result admitted |
+| Original known-answer limitation | String fixtures missed the real producer boundary |
+| Failed attempt CPU | 5.734375 seconds |
+| Cumulative TR3 charge/reserve | 1416.984375 of 7,200 seconds |
+| Exact worker identities | Original owner and child exited |
+| Recovery | First ordinary engineering attempt, canonical parser and displayed text projection |
+| Targeted recovery checks | Seventeen pass; initial test-import collection error retained and corrected |
+
+**Found.** The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted.
+
+**Means.** The original construction validation does not establish real-source compatibility. A separate adapter validates complete canonical records and unchanged reopen metadata before projecting displayed text. Its count output must equal the original counter on equivalent strings. No session, alternative, candidate, seed, comparator or scientific target changes. The original run, code and costs remain; full independent native recovery and corpus replay are separate admission gates. No tests harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted.; project meaning: scoped operational record; next engineering obligation: Land native canonical-record recovery and rerun unchanged full discovery counts; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_FAILURE_20261026.md.
+
+### OPS-S15-W3-TR3-CANDIDATES-NATIVE
+
+**Execution-authority correction (OPS-S15-W3-TR3-REPAIR-CAP).** The earlier repair-admission wording below was mistaken: two source repairs had already consumed TR3's card-wide allowance. The two later candidate repairs exceeded it. Independent reconstruction remains valid evidence of preparation, but neither technical success nor the remaining CPU budget authorizes further TR3 execution. All attempts are retained; continuation awaits the curator's decision. See TR3_REPAIR_CAP_20261026.md.
+
+**Hypothesis.** Can the model-side candidate frequencies be counted without duplicate reopened offers or test-writer leakage?
+
+**METHOD.** Reuse the existing Unicode produced-word tokenizer. Count word sequences of one to three tokens and literal Unicode punctuation on constructed discovery offers; preserve sentence/offer boundaries, require matching reopen identities and omit the fixture's test payload entirely. Execute and independently rebuild through the production native executor.
+
+The table reports instrument validation, not a carryover effect.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | Ten pass |
+| Known text | Exact unigrams, bigrams, trigrams and punctuation agree |
+| Unicode | Case folding, apostrophes, symbols, underscores and malformed-surrogate refusal checked |
+| Menu and split boundaries | Reopened menu counted once; empty orphan retained; changed identities and split refuse |
+| Test isolation | Test writer retained in census; no test payload supplied or read |
+| Serialized output | Immutable reentry, full fresh-process reconstruction and tamper refusal pass |
+| Authenticated inputs / outputs | 34 / 19 |
+| Native workers | Exact owner, execution and verification identities exited |
+| Cumulative TR3 charge/reserve | 1411.25 of 7,200 CPU seconds, including the additional 60-second construction/test reserve |
+
+**Found.** The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested.
+
+**Source compatibility correction.** The later corpus run exposed an option-record schema mismatch: this native fixture used strings, so it did not validate the canonical record boundary. The failed attempt and separate repair are recorded in TR3_CANDIDATES_FAILURE_20261026.md.
+
+**Means.** The fixed discovery candidate counter is ready for its bounded full-source pass. It keeps all candidate frequencies and selects none; human production counts, pointwise mutual information selection, matched unseen placebos, calibration and the full contrast remain separate gates. No test-writer suggestion payload, human outcome, GPU, paid service or holdout is read. The ready-card deficit remains; no new tests were harvested from the wake. The source completion was already fully recorded and its duplicate notice was acknowledged after reauthentication.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested.; project meaning: scoped operational record; next engineering obligation: Prepare full discovery counts; then validate human production counts, feature selection and the controlled carryover comparison; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CANDIDATES_NATIVE_20261026.md.
+
 ### OPS-S15-W3-TR3-TYPING-COMPLETE
 
 **Hypothesis.** Can every primary writing session preserve the actual document context and insertion source of its edits, including text deleted later?

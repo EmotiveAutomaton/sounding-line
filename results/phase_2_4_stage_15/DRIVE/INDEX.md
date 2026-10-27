@@ -1,5 +1,19 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-TR3-REPAIR-CAP:** [Record](TR3_REPAIR_CAP_20261026.md). TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
+
+**OPS-S15-W3-TR3-CANDIDATES-COMPLETE:** [Record](TR3_CANDIDATES_COMPLETE_20261026.md). The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE:** [Record](TR3_CANDIDATES_RECOVERY2_NATIVE_20261026.md). The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate.
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE:** [Record](TR3_CANDIDATES_RECOVERY_FAILURE_20261026.md). The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives.
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE:** [Record](TR3_CANDIDATES_RECOVERY_NATIVE_20261026.md). The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate.
+
+**OPS-S15-W3-TR3-CANDIDATES-FAILURE:** [Record](TR3_CANDIDATES_FAILURE_20261026.md). The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted.
+
+**OPS-S15-W3-TR3-CANDIDATES-NATIVE:** [Record](TR3_CANDIDATES_NATIVE_20261026.md). The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested.
+
 **OPS-S15-W3-TR3-TYPING-COMPLETE:** [Record](TR3_TYPING_COMPLETE_20261026.md). The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
 
 **October 26 TR3 typing context:** [Running full source](TR3_TYPING_LAUNCH_20261026.md). Complete native validation has landed; scientific comparison remains unbuilt.

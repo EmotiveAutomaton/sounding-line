@@ -1,6 +1,10 @@
 # October 16 drive commission
 
-[TR3 chronological source design](TR3_INPUTS_20261026.md) is implemented and native-validated. The two ordinary parser healing passes preserve empty log events without invented exposure; [full source execution](../../../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md) is running. No carryover outcome is admitted.
+**TR3 execution authority:** [The card-wide repair cap was exceeded](../../../../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Further execution is held pending a continuation decision; the completed source and candidate replay remain retained.
+
+[TR3 discovery candidate counting](TR3_CANDIDATES_20261026.md), its [canonical schema repair](TR3_CANDIDATES_RECOVERY_20261026.md) and [final empty-display repair](TR3_CANDIDATES_RECOVERY2_20261026.md) are complete with twenty-four checks and full corpus replay. [Complete record](../../../../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md); human comparison and selection remain unbuilt.
+
+[TR3 chronological source design](TR3_INPUTS_20261026.md) is implemented and native-validated. The two ordinary parser healing passes preserve empty log events without invented exposure; [full source execution](../../../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_COMPLETE_20261026.md) is complete. No carryover outcome is admitted.
 
 [CA5.r.h1 approved preference comparison](CA5R_PREFERENCE_H1_20261026.md) is complete with full independent replay. [Recorded outcome](../../../../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md) keeps the original demographic-relative harm and archive-population gaps open. CA5's three first-generation follow-ups are exhausted; earlier pending-scope notes retain their historical cutoff.
 

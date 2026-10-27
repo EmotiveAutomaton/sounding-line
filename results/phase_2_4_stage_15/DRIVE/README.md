@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 26 TR3 execution hold and correction:** [Repair-cap record](TR3_REPAIR_CAP_20261026.md). Source, typing and discovery suggestion counts pass independent replay, but the operator used four repairs against a two-repair card limit. Further TR3 execution awaits a continuation decision; all evidence and costs are retained. No research worker remains active after these completed preparations. Human counts and the carryover comparison remain unfinished; the ready-card deficit and existing GPU, source/cost and receiving-copy holds persist. Earlier status snapshots are historical.
+
 **October 26 TR3 source recovery:** [Verified launch](TR3_SOURCE_LAUNCH_20261026.md). The full chronological exposure census is running in Gear 2 after fifteen checks and complete native recovery validation. Original failures and charges remain; all primary sessions and the exact writer split are retained. Full corpus completion and the carryover comparison remain unadmitted. The daily digest is recorded; GPU, source/cost and receiving-copy approval holds persist. The ready-card target is unfinished.
 
 **October 26 PP3.s complete:** [Full instrument record](PP3_S_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.

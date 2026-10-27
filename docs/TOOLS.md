@@ -2597,6 +2597,20 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR3-REPAIR-CAP:** TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-COMPLETE:** The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE:** The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_RECOVERY2_NATIVE_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE:** The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_RECOVERY_FAILURE_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE:** The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_RECOVERY_NATIVE_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-FAILURE:** The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_FAILURE_20261026.md).
+
+**OPS-S15-W3-TR3-CANDIDATES-NATIVE:** The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_NATIVE_20261026.md).
+
 **OPS-S15-W3-TR3-TYPING-COMPLETE:** The complete typing-context source passes independent reconstruction; cross-session carryover remains untested. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_COMPLETE_20261026.md).
 
 **OPS-S15-W3-TR3-TYPING-NATIVE:** The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_NATIVE_20261026.md).

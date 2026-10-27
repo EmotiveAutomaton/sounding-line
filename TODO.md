@@ -1,12 +1,26 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-TR3-REPAIR-CAP: TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-COMPLETE: The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE: The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE: The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE: The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-FAILURE: The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted.
+
+- [x] OPS-S15-W3-TR3-CANDIDATES-NATIVE: The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested.
+
 - [x] OPS-S15-W3-TR3-TYPING-COMPLETE: The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
 
 - [x] OPS-S15-W3-TR3-TYPING-NATIVE: The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
 
 - [x] OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
 
-- [ ] TR3: complete exposure and typing-context sources independently verified and recorded. Discovery features, production-time occurrence semantics, calibrated matched-placebo comparison and whole-study cost admission remain unbuilt. Cumulative charge/reserve 1350.71875 of 7200 CPU seconds. [Complete typing source](results/phase_2_4_stage_15/DRIVE/TR3_TYPING_COMPLETE_20261026.md).
+- [ ] TR3: further execution held after four ordinary repairs against the card-wide limit of two. Exposure, typing context and discovery suggestion counts independently verify and remain retained. Await curator decision on continuing under the original ceiling with no additional automatic repairs. Human counts, feature selection, calibrated comparison and cost admission remain unbuilt. [Execution correction](results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md).
 
 - [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
 

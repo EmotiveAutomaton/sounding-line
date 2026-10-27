@@ -1,6 +1,10 @@
 # October 16 drive runners
 
-`cards/week3_tr3_inputs` and its separately retained recovery handlers prepare complete chronological exposure inputs. Fifteen checks and complete native replays pass; full source execution is running. Empty and unanchored reopen events remain, without invented offers. [Launch and limits](../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md).
+**TR3 execution authority:** [The card-wide repair cap was exceeded](../../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Further execution is held pending a continuation decision; the completed source and candidate replay remain retained.
+
+`cards/week3_tr3_candidates` and its retained recovery handlers now have twenty-four checks and complete discovery-corpus independent replay. [Complete candidate preparation](../../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md); human comparison and selection remain unbuilt.
+
+`cards/week3_tr3_inputs` and its separately retained recovery handlers prepare complete chronological exposure inputs. Fifteen checks and complete native replays pass; full source execution and independent replay are complete. Empty and unanchored reopen events remain, without invented offers. [Complete source and limits](../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_COMPLETE_20261026.md).
 
 The PP3.s follow-up has completed full source, model, reference and bootstrap replay. [Full scoped instrument result](../../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md); no descendants.
 

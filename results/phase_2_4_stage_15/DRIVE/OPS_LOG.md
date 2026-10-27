@@ -593,3 +593,17 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T03:54:32.115827+00:00 OPS-S15-W3-TR3-TYPING-COMPLETE: The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
 
 OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks count 12 -> 15, matching the saved passing test report and existing Markdown. No run, cost or claim changed.
+
+2026-10-27T04:04:27.977054+00:00 OPS-S15-W3-TR3-CANDIDATES-NATIVE: The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested.
+
+2026-10-27T04:10:39.488033+00:00 OPS-S15-W3-TR3-CANDIDATES-FAILURE: The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted.
+
+2026-10-27T04:10:42.628077+00:00 OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE: The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate.
+
+2026-10-27T04:15:29.439656+00:00 OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE: The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives.
+
+2026-10-27T04:15:32.583601+00:00 OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE: The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate.
+
+2026-10-27T04:18:39.925165+00:00 OPS-S15-W3-TR3-CANDIDATES-COMPLETE: The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested.
+
+2026-10-27T04:24:57.731627+00:00 OPS-S15-W3-TR3-REPAIR-CAP: TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded.
