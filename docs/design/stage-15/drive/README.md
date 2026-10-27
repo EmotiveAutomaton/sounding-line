@@ -229,3 +229,9 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [PP3 complete-source preparation](PP3_INPUTS_20261026.md) preserves all released rows and missing timing. [Full validation and retained native repair](../../../../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md) pass; the classifier and complete references remain to be built.
 
 [PP3 full classifier](PP3_CLASSIFIER_20261026.md) has complete known-answer and native validation plus full-population timing. [The full comparison is running](../../../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_LAUNCH_20261026.md) with both complete reference banks; its scientific result is pending.
+
+[PP3 registered follow-ups](PP3_FOLLOWUPS_20261026.md) follow the [fully completed parent](../../../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.md). All three are first-generation and independently capped; no scientific outcomes exist for them yet.
+
+[PP3 follow-up instruments](PP3_FOLLOWUPS_20261026.md) are built and independently native-verified. [All three cost jobs are dispatched](../../../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.md), with full scientific admission still separate.
+
+[PP3 sensitivity and ablation are running](../../../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_LAUNCH_20261026.md) with complete controls; the second pipeline is cost-held. Earlier preparation and launch notes are historical.

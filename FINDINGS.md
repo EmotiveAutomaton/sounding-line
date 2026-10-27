@@ -1,5 +1,184 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-PP3-P-COST-HOLD
+
+**Hypothesis.** Can the frozen nonlinear classifier complete both reference banks and independent replay within its bounded follow-up allowance?
+
+**METHOD.** Run the registered depth-five entropy tree on the entire released population with the fixed held-project splits, process and content arms, three-category and fifteen-category targets, and two twenty-draw timing banks. Keep the 450 CPU-second timing guard, all prior charges and immutable fingerprints. Inspect native identities, execution accounting and checkpoint freshness after the stop; do not inspect or interpret unfinished predictive scores.
+
+The table reports the cost stop and operational evidence, not a scientific null or a completed comparison.
+
+| Item | Observation |
+|---|---|
+| Native construction | Previously complete and independently replayed, with known-answer gates passed |
+| Full population | 61,504 released rows; no subsampling |
+| Stop | Combined execution/replay CPU ceiling, during execution |
+| Attempt charge | 452.921875 CPU seconds, including the recorded termination margin |
+| Cumulative charge/reserve | 582.125 of the original 3,600 CPU seconds |
+| Saved evidence | Fingerprints at first-bank draw indices zero and five; no final summary or full verification |
+| Five additional draw completions | 208.582 wall seconds between checkpoint writes |
+| Worker disposition | Exact owner and execution identities exited; no verification child was launched |
+| Scientific admission | None |
+
+**Found.** The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted. The original failure and usage receipts are retained. This is a cost failure, not an engineering healing attempt or negative scientific evidence. The fingerprint files do not contain reusable fitted outputs, so they are audit evidence rather than a claim that the unfinished comparison can resume without work.
+
+**Means.** S4 was checked before considering recovery. At the observed incremental fit rate, the unchanged four-hundred-draw main and fresh replay project beyond the allowed doubled ceiling, even before source and bootstrap overhead. This is a rough scheduling extrapolation, not a completed timing measurement; the required full-cost admission gate has not passed. No extension, third scientific follow-up, smaller population, reduced reference bank or shallower replacement tree is dispatched. A separately registered exact cheaper implementation would need full parity and cost validation before admission. The two other follow-ups continue under their own measured allowances. Local GPU parking and paid-transfer holds remain.
+
+No tests were harvested from the wake. No empirical probability or theory claim is added. [Original frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [complete failure inspection](results/phase_2_4_stage_15/DRIVE/PP3_P_COST_HOLD_20261026.json).
+
+Curator roll-up: process-label robustness; Can the second classifier fit its full-design allowance?; **Infrastructure**; The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted.; project meaning: the second-pipeline evidence remains unavailable; next engineering obligation: retain cost hold unless an exact cheaper implementation is validated; public scientific claim unchanged; curator decision required: No. Detail: PP3_P_COST_HOLD_20261026.md.
+
+### OPS-S15-W3-PP3-M-COST
+
+**Hypothesis.** Can the frozen paired edit-feature ablation follow-up run the complete population, models, controls and uncertainty within its bounded allowance?
+
+**METHOD.** Rebuild every source feature and held-project fit for all released ScholaWrite rows. Execute twenty draws in each of the two reassignment banks and the full author/project bootstraps, then independently repeat every model, reference and bootstrap in a fresh process. Discard outcome scores in cost mode. Forecast the full two-hundred-draw execution and replay at twelve times this complete attempt cost.
+
+The table gives timing and validation only. These reduced reference banks are never admitted as a scientific comparison.
+
+| Check | Completed observation |
+|---|---|
+| Population | 61,504 rows, five projects, twelve project-scoped author identities |
+| Reference banks | Twenty draws each within project and within project-author; main requires two hundred each |
+| Uncertainty | Full 2,000 author-cluster and 2,000 project-cluster paired resamples |
+| Replay | All 152 pins and 22 outputs authenticate; complete fresh replay; all native workers exited |
+| This attempt | 105.046875 CPU seconds |
+| Cumulative charge and reserve | 230.140625 of 3,600 CPU seconds, including construction, tests and native rehearsal |
+| Complete main plus replay forecast | 1260.5625 CPU seconds |
+| Remaining allocation | 3369.859375 CPU seconds |
+| Admission | Fits unchanged allocation |
+
+**Found.** The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation. The previously recorded constructed known-answer checks also pass during the full-population handler. The timing receipt contains no predictive scores.
+
+**Means.** This is an execution admission decision, not evidence for the follow-up hypothesis. The full comparison retains all rows, both complete reference banks, fixed classes, the prior competitor and paired uncertainty. The source remains publisher-filtered, serially related annotation rows across only five projects; classification does not establish private goals or a causal mental mechanism. The first-generation limit forbids descendants. The GPU and paid-transfer holds are unchanged.
+
+No tests were harvested from this wake; this is an already frozen follow-up. No empirical probability or theory claim is added. [Frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [authenticated receipt](results/phase_2_4_stage_15/DRIVE/PP3_M_COST_20261026.json).
+
+Curator roll-up: process-label robustness; Can the complete follow-up fit its allowance?; **Infrastructure**; The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation.; project meaning: timing does not establish the empirical result; next engineering obligation: run the unchanged full comparison; public scientific claim unchanged; curator decision required: No. Detail: PP3_M_COST_20261026.md.
+
+### OPS-S15-W3-PP3-S-COST
+
+**Hypothesis.** Can the frozen regularization sensitivity follow-up run the complete population, models, controls and uncertainty within its bounded allowance?
+
+**METHOD.** Rebuild every source feature and held-project fit for all released ScholaWrite rows. Execute twenty draws in each of the two reassignment banks and the full author/project bootstraps, then independently repeat every model, reference and bootstrap in a fresh process. Discard outcome scores in cost mode. Forecast the full two-hundred-draw execution and replay at twelve times this complete attempt cost.
+
+The table gives timing and validation only. These reduced reference banks are never admitted as a scientific comparison.
+
+| Check | Completed observation |
+|---|---|
+| Population | 61,504 rows, five projects, twelve project-scoped author identities |
+| Reference banks | Twenty draws each within project and within project-author; main requires two hundred each |
+| Uncertainty | Full 2,000 author-cluster and 2,000 project-cluster paired resamples |
+| Replay | All 152 pins and 30 outputs authenticate; complete fresh replay; all native workers exited |
+| This attempt | 158.515625 CPU seconds |
+| Cumulative charge and reserve | 283.9375 of 3,600 CPU seconds, including construction, tests and native rehearsal |
+| Complete main plus replay forecast | 1902.1875 CPU seconds |
+| Remaining allocation | 3316.0625 CPU seconds |
+| Admission | Fits unchanged allocation |
+
+**Found.** The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. The previously recorded constructed known-answer checks also pass during the full-population handler. The timing receipt contains no predictive scores.
+
+**Means.** This is an execution admission decision, not evidence for the follow-up hypothesis. The full comparison retains all rows, both complete reference banks, fixed classes, the prior competitor and paired uncertainty. The source remains publisher-filtered, serially related annotation rows across only five projects; classification does not establish private goals or a causal mental mechanism. The first-generation limit forbids descendants. The GPU and paid-transfer holds are unchanged.
+
+No tests were harvested from this wake; this is an already frozen follow-up. No empirical probability or theory claim is added. [Frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [authenticated receipt](results/phase_2_4_stage_15/DRIVE/PP3_S_COST_20261026.json).
+
+Curator roll-up: process-label robustness; Can the complete follow-up fit its allowance?; **Infrastructure**; The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation.; project meaning: timing does not establish the empirical result; next engineering obligation: run the unchanged full comparison; public scientific claim unchanged; curator decision required: No. Detail: PP3_S_COST_20261026.md.
+
+### OPS-S15-W3-PP3-FOLLOWUP-NATIVE
+
+**Hypothesis.** Can the three frozen follow-up instruments preserve the parent comparison, recover known answers and distinguish exact-null behavior before using corpus outcomes?
+
+**METHOD.** Rehearse both regularization settings, the paired edit-feature removal and the fixed decision-tree pipeline on constructed project-separated records. Run the entire native handler and replay in a fresh process, including both eight-draw fixture reference banks, complete two-thousand-draw author and project bootstraps, source guards and immutable checkpoint checks. Corpus modes retain two hundred draws per bank.
+
+The table reports instrument validation only. Each card's allowance includes its own construction/test reserve; source preparation remains charged to the parent.
+
+| Instrument | Constructed rows | Pins / outputs verified | Attempt CPU seconds | Cumulative charge/reserve / ceiling |
+|---|---:|---|---:|---|
+| PP3.s | 450 | 33 / 22 | 5.421875 | 125.421875 / 3600 |
+| PP3.m | 450 | 33 / 18 | 5.09375 | 125.09375 / 3600 |
+| PP3.p | 450 | 33 / 18 | 9.203125 | 129.203125 / 3600 |
+
+**Found.** All three registered PP3 follow-up instruments pass constructed native execution and independent replay; full-population cost and scientific admission remain separate. Ten targeted checks pass. Constant features give the prior and an exactly zero primary classified null. Separable signal survives held projects; reassignment removes it on average. The mechanism recovers loss of a constructed edit-only signal and retention of a timing-only signal. Penalty-one coefficients and output agree exactly with the original ridge implementation. The tree handles missing fitted classes while retaining the frozen probability shape. Full reentry and corruption refusals pass.
+
+**Means.** Known-answer behavior establishes the scoped instrument, not the corpus outcome. Each full-population timing job has been dispatched through the counted Gear 2 lease, with native identity, source pins and terminal monitoring. A twelvefold cost forecast must fit each card's remaining 3,600-second allocation before main execution. All rows, both full reference banks, source limitations and one-generation bounds remain. The wider ready-card target is unfinished; no new GPU or paid dispatch is implied.
+
+No tests were harvested from this notice; these are the parent result's already registered follow-ups. No empirical probability or theory claim is added. [Frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [complete receipts and launch snapshot](results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.json).
+
+Curator roll-up: process-label instrument robustness; Do the three frozen follow-up instruments satisfy known answers?; **Infrastructure**; All three registered PP3 follow-up instruments pass constructed native execution and independent replay; full-population cost and scientific admission remain separate.; project meaning: validated construction is separate from human-corpus evidence; next engineering obligation: complete cost admission then the unchanged full comparisons; public scientific claim unchanged; curator decision required: No. Detail: PP3_FOLLOWUP_NATIVE_20261026.md.
+
+### S15-PP3-20261026
+
+**Hypothesis.** Can a process-only readout recover expert-labelled planning, implementation and revision on a different ScholaWrite project better than a training-frequency prior and reassigned labels?
+
+**METHOD.** Fit one frozen ridge least-squares predictor of annotation indicators, using training-standardized process features and a valid probability-simplex projection, leaving each complete project out. Score all 61,504 released rows across five projects and twelve project-scoped author identities. The primary uses pooled fixed-three-class macro-F1, giving each class equal weight, and subtracts the better of the training prior and mean within-project label-reassignment reference. Both the within-project and within-project-author references use 200 draws, rebuilding every label-dependent fit. The auxiliary adds fixed hashed word features from complete before/after visible text; no words enter the primary. Full independent reconstruction repeats every source, fit, reference and bootstrap.
+
+The first table gives paired effects and 95% intervals. Author intervals resample twelve project-scoped identities; project intervals resample five projects. Both use 2,000 draws with fitted predictions fixed; neither is model-refit or unrestricted-population uncertainty. Half-Brier improvement is positive when probability error falls. Macro-F1 is the equal mean of the fixed classes' precision/recall summaries, including zero for an unrecovered class.
+
+| Contrast | Effect | Author-cluster interval | Project-cluster interval |
+|---|---:|---|---|
+| Process macro-F1 excess over the better reference | 0.123251 | [0.108300, 0.133151] | [0.116670, 0.137483] |
+| Process half-Brier improvement over the prior | 0.019217 | [0.013177, 0.026679] | [0.015543, 0.029780] |
+| Added-content macro-F1 gain | -0.007894 | [-0.034525, 0.005355] | [-0.028686, 0.006550] |
+| Added-content half-Brier improvement | -0.041723 | [-0.059525, -0.025918] | [-0.057481, -0.035625] |
+
+Process macro-F1 is 0.385933; the training-prior score is 0.262540 and the primary reassignment mean is 0.262681. The declared primary is positive under both cluster definitions. The prior always predicts implementation. The complete primary probability-error comparison also favors the process model, so its macro-F1 advantage is not bought by worse half-Brier.
+
+The reference table retains every complete bank. Bands are the central 95% of reference draws; probabilities are one-sided descriptive permutation probabilities. They are not multiplicity-adjusted confirmation, and none is an identification-control chance test.
+
+| Reference / arm | Mean macro-F1 | Reference band | Descriptive probability |
+|---|---:|---|---:|
+| within_project / process | 0.262681 | [0.262516, 0.263923] | 0.004975124 |
+| within_project / process plus content | 0.264534 | [0.263145, 0.267858] | 0.004975124 |
+| within_project_author / process | 0.262688 | [0.262520, 0.264244] | 0.004975124 |
+| within_project_author / process plus content | 0.265796 | [0.263610, 0.270016] | 0.004975124 |
+| within_project / fifteen-way process | 0.048663 | [0.048637, 0.048889] | 0.004975124 |
+| within_project_author / fifteen-way process | 0.048661 | [0.048636, 0.048826] | 0.004975124 |
+
+The confusion table has true categories in rows and predicted implementation, planning and revision in columns. It exposes the limitation hidden by an overall gain: the process model never predicts planning. No row is removed to improve this table.
+
+| Arm / true category | Implementation | Planning | Revision |
+|---|---:|---:|---:|
+| Process / IMPLEMENTATION | 36827 | 0 | 3129 |
+| Process / PLANNING | 5391 | 0 | 568 |
+| Process / REVISION | 11223 | 0 | 4366 |
+| Process plus content / IMPLEMENTATION | 30650 | 1183 | 8123 |
+| Process plus content / PLANNING | 3462 | 153 | 2344 |
+| Process plus content / REVISION | 9612 | 239 | 5738 |
+
+The fifteen-category process macro-F1 is 0.089943, against the prior's 0.048641. Its author interval is [0.077175, 0.099535] and project interval [0.082582, 0.094843]. The following table retains every category, with true and predicted counts and per-class F1. Full matrices, including prior matrices, are in the aggregate receipt. The prior expectation near the earlier 0.048 ceiling is not reproduced as an exact value; that historical runner and the current feature/model/readout are different, so this does not revise the older result or establish a new optimal ceiling.
+
+| Expert category | True rows | Predicted rows | F1 |
+|---|---:|---:|---:|
+| Citation Integration | 667 | 0 | 0.000000 |
+| Clarity | 7096 | 1989 | 0.121299 |
+| Coherence | 2004 | 427 | 0.154669 |
+| Cross-reference | 1016 | 0 | 0.000000 |
+| Fluency | 863 | 4 | 0.000000 |
+| Idea Generation | 4325 | 0 | 0.000000 |
+| Idea Organization | 310 | 0 | 0.000000 |
+| Linguistic Style | 962 | 0 | 0.000000 |
+| Macro Insertion | 136 | 0 | 0.000000 |
+| Object Insertion | 2814 | 3269 | 0.221272 |
+| Scientific Accuracy | 443 | 432 | 0.018286 |
+| Section Planning | 1324 | 0 | 0.000000 |
+| Structural | 2269 | 13 | 0.000876 |
+| Text Production | 35323 | 54644 | 0.747607 |
+| Visual Formatting | 1952 | 726 | 0.085138 |
+
+**Found.** Supports improved average classification of expert ScholaWrite writing labels from process features beyond the training prior and tested reassignments; planning is never predicted, and private goals or CoAuthor goals are not established.
+
+Adding the frozen lexical hash features does not improve macro-F1 and increases probability error. This is a result about that compressed auxiliary and fixed model, not evidence that word content is generally useless. The passing reference comparisons concern association with these annotations; serially related label rows and annotation definitions remain rivals to any psychological interpretation.
+
+**Means.** Visible editing operations and timing/structure proxies carry some information about the expert categories across these held projects, particularly the implementation/revision distinction. This does not validate all categories, writer self-reported goals, a private intention, a causal mechanism, or a mapping to CoAuthor. Released snapshots were publisher-filtered and represent partial editor states rather than raw keystrokes or independent intention episodes. Timestamp ties and discontinuities remain explicitly missing; long valid intervals and every row remain. Cluster resampling has few independent projects and conditions on the fitted models. The result is descriptive instrument evidence, recorded in TOOLS rather than as a new claim about the curator's theory.
+
+Ten targeted checks, known separable/constant/reassigned constructions and complete native replay pass. A post-completion degenerate constant-feature audit also returns exactly zero excess, a zero-width interval and the null state. All 58 pins and 94 sealed outputs authenticate; every worker exited and released its lease. Main execution plus verification used 330.546875 CPU seconds. Total preparation, retained failure, native rehearsals, construction reserves, timing and main charges are 673.984375 of the original 7,200 CPU seconds, without an extension. The generic completion envelope withholds scientific admission by design; the pinned main-mode result and full verifier explicitly admit this completed descriptive comparison.
+
+No new tests were harvested from this operational notice. The packet's positive-result menu registers exactly three first-generation follow-ups: the frozen regularization curve, edit-feature ablation and second classifier. Each keeps all rows/controls and is capped at 3,600 CPU seconds, with no descendants. Raw text, row identities and trained model parameters remain private.
+
+[Frozen parent design](docs/design/stage-15/drive/PP3_CLASSIFIER_20261026.md), [registered follow-ups](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [complete aggregate receipt](results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json).
+
+Curator roll-up: process labels; Can a process readout recover expert writing categories on held projects?; **Infrastructure**; The frozen process readout improves average classification but never predicts planning.; project meaning: scoped annotation recovery is measured, with no private-goal or CoAuthor mapping; next engineering obligation: complete the three bounded first-generation follow-ups; public claim newly licensed only in the ledger wording above; curator decision required: No. Detail: PP3_MAIN_20261026.md.
+
 ### OPS-S15-W3-PP3-CLASSIFIER-COST
 
 **Hypothesis.** Can the process-label classifier distinguish known signal from a training prior, preserve held-project isolation and execute the complete comparison within its declared allowance?

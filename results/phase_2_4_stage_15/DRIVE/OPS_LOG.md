@@ -551,3 +551,15 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T02:05:17.608404+00:00 OPS-S15-W3-PP3-CLASSIFIER-COST: The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated. Cumulative charge/reserve 343.4375 CPU seconds; prior native source initialization failure and test collection syntax error retained.
 
 2026-10-27T02:06:49.741676+00:00 PP3 full comparison: native identity, immutable pins, counted lease, fresh CPU progress and terminal monitoring verified. Full design forecast 1179 CPU seconds within 6856.5625 remaining; both 200-draw banks and all rows retained. No result or new follow-up implied.
+
+2026-10-27T02:21:53.116054+00:00 S15-PP3-20261026: complete main and independent replay; all 58 pins and 94 outputs authenticate, native workers exited and lease released. Full instrument write-through, scope limits, multiplicity registration and three bounded follow-up registrations completed. Total parent charge 673.984375 of 7200 CPU seconds.
+
+2026-10-27T02:30:08.947138+00:00 OPS-S15-W3-PP3-FOLLOWUP-NATIVE: ten targeted checks and all three native independent replays pass; all source pins, outputs and native exits verified. All three full-population timing jobs dispatched in Gear 2 with separate 3600 CPU second ceilings and no descendants. Full admission and wider ready queue remain unfinished.
+
+2026-10-27T02:36:24.266158+00:00 OPS-S15-W3-PP3-S-COST: The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. All native workers exited; complete population/replay retained. Cumulative 283.9375 CPU seconds; full forecast 1902.1875 against 3316.0625 remaining.
+
+2026-10-27T02:36:33.037463+00:00 OPS-S15-W3-PP3-M-COST: The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation. All native workers exited; complete population/replay retained. Cumulative 230.140625 CPU seconds; full forecast 1260.5625 against 3369.859375 remaining.
+
+2026-10-27T02:39:51.187775+00:00 OPS-S15-W3-PP3-P-COST-HOLD: class cost, not healing. Full timing stopped before replay; original native identities exited. S4 incremental-rate review exceeds doubled ceiling, so retain full-design hold; cumulative 582.125 CPU seconds. Other two full follow-ups continue.
+
+2026-10-27T02:41:17.883185+00:00 PP3 full follow-ups: sensitivity and ablation native identities, fresh progress, counted leases and terminal monitoring verified. Separate complete-cost forecasts fit unchanged caps. Second classifier cost hold retained; full population and reference banks unchanged. Wider ready-card backlog remains.

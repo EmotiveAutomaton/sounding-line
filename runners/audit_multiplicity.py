@@ -73,6 +73,12 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('PP3 bank0 arm0', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
+    ('PP3 bank0 arm1', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
+    ('PP3 bank1 arm0', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
+    ('PP3 bank1 arm1', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
+    ('PP3 fifteen bank0', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
+    ('PP3 fifteen bank1', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
     ('CA5.r.h1 item p', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
     ('CA5.r.h1 item reverse_p', 1.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
     ('CA5.r.h1 person p', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),

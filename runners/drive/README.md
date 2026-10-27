@@ -1,5 +1,11 @@
 # October 16 drive runners
 
+The full PP3 sensitivity and ablation follow-ups are running after complete cost admission. The second classifier is cost-held after the recorded timing failure. [Verified state](../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_LAUNCH_20261026.md).
+
+`cards/week3_pp3_followups` implements all three bounded first-generation PP3 cards. Ten targeted checks and complete native replays pass; full-population timing is dispatched. [Validation and limits](../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.md). No full follow-up scientific result is admitted yet.
+
+`cards/week3_pp3_analysis` has completed its full source, model, reference and bootstrap replay. [Complete instrument result](../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.md) retains unrecovered planning and other scope limits; the three follow-ups are separately registered.
+
 `cards/week3_pp3_analysis` implements the frozen held-project ridge classifier, both full reassignment references and paired author/project uncertainty. Ten targeted checks, constructed native replay and full-population timing pass; the complete comparison is running. [Launch and limits](../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_LAUNCH_20261026.md).
 
 `cards/week3_pp3_inputs` retains every released ScholaWrite row, explicitly marks missing timing and independently reconstructs all process features. Eight checks and complete native/full-source replay pass after a retained output-directory initialization failure. [Validation](../../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md). Classifier and scientific admission remain separate.

@@ -1,5 +1,17 @@
 # October 16 drive: execution index
 
+**October 26 full PP3 follow-ups:** [Verified launch](PP3_FOLLOWUP_LAUNCH_20261026.md). Full sensitivity and edit-feature ablation comparisons are running in Gear 2 with all rows, both complete reference banks and independent replay. Native progress, counted leases and monitoring verify. The second classifier is cost-held; the wider implementation backlog and shared-source, GPU and paid-transfer holds remain. Earlier snapshots are historical.
+
+**October 26 second-classifier hold:** [Failure and S4 review](PP3_P_COST_HOLD_20261026.md). The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted.
+
+**October 26 PP3.m timing:** [Complete admission record](PP3_M_COST_20261026.md). The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation.
+
+**October 26 PP3.s timing:** [Complete admission record](PP3_S_COST_20261026.md). The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation.
+
+**October 26 PP3 follow-up execution:** [Complete native validation and cost launch snapshot](PP3_FOLLOWUP_NATIVE_20261026.md). All three follow-ups are built and their native independent replays pass. Full-population cost runs are dispatched in Gear 2; full comparison admission remains gated. The parent is fully recorded; wider ready-card backlog, shared-source, GPU and paid-transfer holds remain. Earlier snapshots are historical.
+
+**October 26 PP3 complete:** [Full instrument record](PP3_MAIN_20261026.md). Complete execution, both full reference banks and independent replay are recorded, with unrecovered planning and source limits explicit. Workers exited. Three bounded follow-ups are registered; their implementation/admission and the wider ready-card backlog remain. Existing shared-source, GPU and paid-transfer holds remain; earlier launch snapshots are historical.
+
 **October 26 full PP3 dispatch:** [Verified launch](PP3_MAIN_LAUNCH_20261026.md). The complete PP3 process-label comparison is running in Gear 2 after ten targeted checks, native replay and full-population cost admission. All rows and both full reference banks remain; no scientific result is yet licensed. Native progress, lease and terminal monitoring verify. The ready-card backlog and existing shared-source, GPU and paid-transfer holds remain; earlier snapshots are historical.
 
 **October 26 PP3 cost validation:** [Complete record](PP3_CLASSIFIER_COST_20261026.md). The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated.

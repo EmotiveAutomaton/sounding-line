@@ -2597,6 +2597,16 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-PP3-P-COST-HOLD:** The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted. [Cost failure and S4 review](../results/phase_2_4_stage_15/DRIVE/PP3_P_COST_HOLD_20261026.md).
+
+**OPS-S15-W3-PP3-M-COST:** The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation. [Complete cost validation](../results/phase_2_4_stage_15/DRIVE/PP3_M_COST_20261026.md).
+
+**OPS-S15-W3-PP3-S-COST:** The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. [Complete cost validation](../results/phase_2_4_stage_15/DRIVE/PP3_S_COST_20261026.md).
+
+**OPS-S15-W3-PP3-FOLLOWUP-NATIVE:** All three registered PP3 follow-up instruments pass constructed native execution and independent replay; full-population cost and scientific admission remain separate. [Complete native validation](../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.md).
+
+**S15-PP3-20261026:** Supports improved average classification of expert ScholaWrite writing labels from process features beyond the training prior and tested reassignments; planning is never predicted, and private goals or CoAuthor goals are not established. Full source, both reference banks, paired uncertainty and independent replay pass; lexical augmentation worsens probability error. [Complete instrument result](../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.md).
+
 **OPS-S15-W3-PP3-CLASSIFIER-COST:** The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated. [Validation](../results/phase_2_4_stage_15/DRIVE/PP3_CLASSIFIER_COST_20261026.md).
 
 **OPS-S15-W3-PP3-CLASSIFIER-NATIVE:** The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun. [Validation](../results/phase_2_4_stage_15/DRIVE/PP3_CLASSIFIER_NATIVE_20261026.md).
