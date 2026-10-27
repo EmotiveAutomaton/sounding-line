@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+The PP3.m follow-up has completed full source, model, reference and bootstrap replay. [Full scoped instrument result](../../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md); no descendants.
+
 The full PP3 sensitivity and ablation follow-ups are running after complete cost admission. The second classifier is cost-held after the recorded timing failure. [Verified state](../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_LAUNCH_20261026.md).
 
 `cards/week3_pp3_followups` implements all three bounded first-generation PP3 cards. Ten targeted checks and complete native replays pass; full-population timing is dispatched. [Validation and limits](../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.md). No full follow-up scientific result is admitted yet.

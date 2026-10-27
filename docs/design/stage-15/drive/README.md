@@ -235,3 +235,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [PP3 follow-up instruments](PP3_FOLLOWUPS_20261026.md) are built and independently native-verified. [All three cost jobs are dispatched](../../../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_NATIVE_20261026.md), with full scientific admission still separate.
 
 [PP3 sensitivity and ablation are running](../../../../results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_LAUNCH_20261026.md) with complete controls; the second pipeline is cost-held. Earlier preparation and launch notes are historical.
+
+[PP3 edit-feature ablation is complete](../../../../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md), with all rows, both complete reference banks and independent replay. Sensitivity remains separately monitored; the second pipeline is cost-held. No descendants.

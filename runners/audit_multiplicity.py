@@ -73,6 +73,12 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('PP3.m remove_edit bank0 full process', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
+    ('PP3.m remove_edit bank0 without edit features', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
+    ('PP3.m remove_edit bank1 full process', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
+    ('PP3.m remove_edit bank1 without edit features', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
+    ('PP3.m remove_edit bank0 full_minus_ablated', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
+    ('PP3.m remove_edit bank1 full_minus_ablated', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json'),
     ('PP3 bank0 arm0', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
     ('PP3 bank0 arm1', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),
     ('PP3 bank1 arm0', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_MAIN_20261026.json'),

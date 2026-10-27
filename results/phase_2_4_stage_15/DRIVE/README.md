@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 26 PP3.m complete:** [Full instrument record](PP3_M_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.
+
 **October 26 full PP3 follow-ups:** [Verified launch](PP3_FOLLOWUP_LAUNCH_20261026.md). Full sensitivity and edit-feature ablation comparisons are running in Gear 2 with all rows, both complete reference banks and independent replay. Native progress, counted leases and monitoring verify. The second classifier is cost-held; the wider implementation backlog and shared-source, GPU and paid-transfer holds remain. Earlier snapshots are historical.
 
 **October 26 PP3 follow-up execution:** [Complete native validation and cost launch snapshot](PP3_FOLLOWUP_NATIVE_20261026.md). All three follow-ups are built and their native independent replays pass. Full-population cost runs are dispatched in Gear 2; full comparison admission remains gated. The parent is fully recorded; wider ready-card backlog, shared-source, GPU and paid-transfer holds remain. Earlier snapshots are historical.

@@ -4,7 +4,7 @@
 - [ ] PP3.p: full design cost-held; no corpus result. Exact cheaper implementation would require separate frozen parity and full cost validation; no reduced controls or descendants.
 
 - [x] OPS-S15-W3-PP3-M-COST: The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation. Cumulative charge/reserve 230.140625 of 3600 CPU seconds.
-- [ ] PP3.m: full comparison running after complete cost admission; full scientific landing pending.
+- [x] S15-PP3-M-20261026: full comparison and independent replay fully recorded; no descendants.
 
 - [x] OPS-S15-W3-PP3-S-COST: The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. Cumulative charge/reserve 283.9375 of 3600 CPU seconds.
 - [ ] PP3.s: full comparison running after complete cost admission; full scientific landing pending.
@@ -14,7 +14,7 @@
 - [x] OPS-S15-W3-PP3-CLASSIFIER-COST: The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated.
 - [x] S15-PP3-20261026: complete comparison, both reference banks and fresh replay fully recorded; scope and unrecovered planning explicit.
 - [x] OPS-S15-W3-PP3-FOLLOWUP-NATIVE: all three fixtures and independent native replays complete; ten checks pass.
-- [ ] PP3.s / PP3.m: full comparisons running, all rows and full reference banks retained. PP3.p is cost-held. No descendants. [Verified launch](results/phase_2_4_stage_15/DRIVE/PP3_FOLLOWUP_LAUNCH_20261026.md).
+- [ ] PP3.s: full sensitivity comparison pending. PP3.m is complete and fully recorded; PP3.p is cost-held. No descendants.
 
 - [x] OPS-S15-W3-CA5R-TOPICS-FAILURE: original text-only failure retained and fully recorded; separate .h1 correction has thirteen passing checks, native replay next.
 

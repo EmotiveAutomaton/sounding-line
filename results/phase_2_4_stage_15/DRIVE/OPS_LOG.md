@@ -563,3 +563,5 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T02:39:51.187775+00:00 OPS-S15-W3-PP3-P-COST-HOLD: class cost, not healing. Full timing stopped before replay; original native identities exited. S4 incremental-rate review exceeds doubled ceiling, so retain full-design hold; cumulative 582.125 CPU seconds. Other two full follow-ups continue.
 
 2026-10-27T02:41:17.883185+00:00 PP3 full follow-ups: sensitivity and ablation native identities, fresh progress, counted leases and terminal monitoring verified. Separate complete-cost forecasts fit unchanged caps. Second classifier cost hold retained; full population and reference banks unchanged. Wider ready-card backlog remains.
+
+2026-10-27T02:45:59.925132+00:00 S15-PP3-M-20261026: full comparison and fresh replay landed; all pins/outputs/native exits verified. Full instrument write-through and scope limits recorded; cumulative 464.640625 of 3600 CPU seconds. No descendants.

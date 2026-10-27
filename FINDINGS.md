@@ -1,5 +1,67 @@
 # FINDINGS — the method archive
 
+### S15-PP3-M-20261026
+
+**Hypothesis.** Does removing visible edit features reduce the process classifier's held-project accuracy?
+
+**METHOD.** Compare the full twenty-four-feature ridge model with the same model omitting the nine frozen edit-size, operation, position and visible-length features. Retain timing and LaTeX structure, the original penalty and every row. The primary is full-minus-ablated macro-F1; recomputed full-model confusion matrices must exactly match the completed parent. All 61,504 released ScholaWrite rows, five whole-project held-out folds and twelve project-scoped author identities remain. Refit under both complete two-hundred-draw label-reassignment banks, within project and within project-author. Reconstruct the complete source and repeat every fit, reference and bootstrap in a fresh native process.
+
+The effect table gives paired 95% cluster intervals from 2,000 author resamples and 2,000 project resamples. Resampling keeps the fitted predictions fixed; this is conditional uncertainty with only five independent projects. Macro-F1 averages the three fixed categories equally, including a zero for an unrecovered category. Positive half-Brier improvement means lower probability error.
+
+| Contrast | Effect | Author-cluster interval | Project-cluster interval |
+|---|---:|---|---|
+| Registered card primary | 0.052198 | [0.025767, 0.081690] | [0.019611, 0.072479] |
+| remove_edit: Full process excess over better reference | 0.123251 | [0.108300, 0.133151] | [0.116670, 0.137483] |
+| remove_edit: Full process half-Brier gain over prior | 0.019217 | [0.013177, 0.026679] | [0.015543, 0.029780] |
+| remove_edit: Ablated minus full macro-F1 | -0.052198 | [-0.081690, -0.025767] | [-0.072479, -0.019611] |
+| remove_edit: Ablated half-Brier improvement over full | -0.010539 | [-0.015737, -0.006231] | [-0.017187, -0.006577] |
+
+The next table gives absolute macro-F1 for each arm. In the ablation, the second arm has no edit block; in the sensitivity card, it adds the parent's fixed content hashes. The training prior is evaluated on the same rows.
+
+| Setting | Full process | Second arm | Prior |
+|---|---:|---:|---:|
+| remove_edit | 0.385933 | 0.333735 | 0.262540 |
+
+Every complete reference bank is reported below. Intervals are central reference-draw bands. The one-sided probabilities are descriptive diagnostics, not multiplicity-adjusted confirmation or identification-control chance gates. They are registered in the project's multiplicity audit without upgrading their status.
+
+| Setting / bank / readout | Mean reference | Reference band | Descriptive probability |
+|---|---:|---|---:|
+| remove_edit: within project, full process | 0.262681 | [0.262516, 0.263923] | 0.004975124 |
+| remove_edit: within project, without edit features | 0.262654 | [0.262520, 0.263927] | 0.004975124 |
+| remove_edit: within project-author, full process | 0.262688 | [0.262520, 0.264244] | 0.004975124 |
+| remove_edit: within project-author, without edit features | 0.262659 | [0.262520, 0.264219] | 0.004975124 |
+| remove_edit: within project, full_minus_ablated | 0.000028 | [-0.000016, 0.000216] | 0.004975124 |
+| remove_edit: within project-author, full_minus_ablated | 0.000029 | [-0.000105, 0.000381] | 0.004975124 |
+
+Confusion rows give true categories; columns give predicted implementation, planning and revision. Every row remains, including unrecovered planning.
+
+| Setting / arm / truth | Implementation | Planning | Revision |
+|---|---:|---:|---:|
+| remove_edit: full process / IMPLEMENTATION | 36827 | 0 | 3129 |
+| remove_edit: full process / PLANNING | 5391 | 0 | 568 |
+| remove_edit: full process / REVISION | 11223 | 0 | 4366 |
+| remove_edit: without edit features / IMPLEMENTATION | 37260 | 0 | 2696 |
+| remove_edit: without edit features / PLANNING | 5436 | 0 | 523 |
+| remove_edit: without edit features / REVISION | 13218 | 0 | 2371 |
+
+The fifteen-category auxiliary below uses the full process arm. It is not a separately fitted fifteen-category ablation. All fifteen categories, complete matrices and prior matrices remain in the aggregate receipt. Repeated parent-derived predictions are not independent evidence.
+
+| Setting | Fifteen-way macro-F1 | Prior | Author interval | Project interval |
+|---|---:|---:|---|---|
+| remove_edit | 0.089943 | 0.048641 | [0.077175, 0.099535] | [0.082582, 0.094843] |
+
+**Found.** Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism.
+
+The accuracy drop is positive under both cluster definitions, and removing edit features also worsens probability accuracy. The reduced model still exceeds the prior in aggregate macro-F1; the edit block does not explain all recovery. Neither process arm predicts planning. The runner's inherited `content_*` keys refer to ablated-minus-full here; the displayed card primary reverses the macro-F1 sign. No lexical content enters either ablation arm.
+
+**Means.** This is a result about the predictive instrument's dependence on its specified features or fitting recipe. Expert annotation definitions and visible operation semantics remain possible explanations; the intervention on model inputs is not an intervention on the writer. It licenses neither private intention, a causal mental mechanism, value inference nor a mapping to CoAuthor. Publisher filtering, serially related labelled snapshots, partial editor states, missing timing and the few project clusters remain. The result is filed in the instrument ledger, not as a new theory claim.
+
+All native known-answer gates, source/parent bindings and complete fresh replay pass. All 154 source pins and 94 sealed outputs authenticate; native owner, execution and verification identities exited. Execution plus replay used 234.5 CPU seconds; cumulative construction, tests, native, timing and main charge/reserve is 464.640625 of 3,600. The generic envelope does not license science by itself; the pinned main summary and independent verifier explicitly admit this completed descriptive comparison.
+
+No tests were harvested from the notice. This is a first-generation follow-up and has no descendants. The other registered cards keep their separate states; no new GPU or paid dispatch follows. Participant text, row identities and trained parameters remain private. [Frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [complete aggregate receipt](results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.json).
+
+Curator roll-up: process-label instrument robustness; Does removing visible edit features reduce the process classifier's held-project accuracy?; **Infrastructure**; Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism.; project meaning: scoped predictive evidence without a psychological mechanism; next engineering obligation: retain first-generation limit and complete other independently authorized work; public claim limited to the ledger wording; curator decision required: No. Detail: PP3_M_MAIN_20261026.md.
+
 ### OPS-S15-W3-PP3-P-COST-HOLD
 
 **Hypothesis.** Can the frozen nonlinear classifier complete both reference banks and independent replay within its bounded follow-up allowance?
