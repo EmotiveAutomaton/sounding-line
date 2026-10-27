@@ -1,7 +1,9 @@
 # TODO: the study queue
 
 - [x] OPS-S15-W3-PP3-INPUTS: all released rows and process features independently reconstructed; first native initialization failure retained and repaired.
-- [ ] PP3: build and validate leave-one-project-out classification, full references, content comparison and uncertainty; measure whole-design cost before admission. Preparation charge/reserve 120.96875 of 7200 CPU seconds. [Prepared source](results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md).
+- [x] OPS-S15-W3-PP3-CLASSIFIER-NATIVE: The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun.
+- [x] OPS-S15-W3-PP3-CLASSIFIER-COST: The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated.
+- [ ] PP3: full comparison running with all rows, both 200-draw reference banks and fresh replay. Native and cost validation complete; scientific landing pending. Cumulative prior charge/reserve 343.4375 of 7200 CPU seconds. [Verified launch](results/phase_2_4_stage_15/DRIVE/PP3_MAIN_LAUNCH_20261026.md).
 
 - [x] OPS-S15-W3-CA5R-TOPICS-FAILURE: original text-only failure retained and fully recorded; separate .h1 correction has thirteen passing checks, native replay next.
 

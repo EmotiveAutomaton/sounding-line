@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**October 26 full PP3 dispatch:** [Verified launch](PP3_MAIN_LAUNCH_20261026.md). The complete PP3 process-label comparison is running in Gear 2 after ten targeted checks, native replay and full-population cost admission. All rows and both full reference banks remain; no scientific result is yet licensed. Native progress, lease and terminal monitoring verify. The ready-card backlog and existing shared-source, GPU and paid-transfer holds remain; earlier snapshots are historical.
+
+**October 26 PP3 cost validation:** [Complete record](PP3_CLASSIFIER_COST_20261026.md). The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated.
+
+**October 26 PP3 native validation:** [Complete record](PP3_CLASSIFIER_NATIVE_20261026.md). The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun.
+
 **October 26 process-label preparation:** [Complete validation and retained repair](PP3_INPUTS_20261026.md). The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun. All workers exited. The ready-card target remains unmet; independent commissioned builds continue. Existing shared-source, full-design cost, GPU and paid-transfer holds remain. Earlier launch snapshots are historical.
 
 **October 26 six-hour health inspection:** [Complete inspection](HEALTH_20261026_1206.md). Services, delivery, completed evidence, resource floors and leases verify. No research worker is active; zero ready cards against eight remains an implementation defect. The [WA0/EV aggregate return](WA0_RETURN_20261026/README.md) is prepared, with receiving-copy confirmation pending. Existing source, cost, GPU and paid-transfer holds remain.

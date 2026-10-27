@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-PP3-CLASSIFIER-COST:** The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated. [Validation](../results/phase_2_4_stage_15/DRIVE/PP3_CLASSIFIER_COST_20261026.md).
+
+**OPS-S15-W3-PP3-CLASSIFIER-NATIVE:** The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun. [Validation](../results/phase_2_4_stage_15/DRIVE/PP3_CLASSIFIER_NATIVE_20261026.md).
+
 **OPS-S15-W3-PP3-INPUTS:** The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun. [Complete validation and retained failure](../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md).
 
 **CA5.r.h1 complete corpus replay:** all approved records, source and text features, actual-mask constructed controls and both full reference banks reconstruct in a fresh native process. Thirteen targeted checks pass. The original feature-support failure remains preserved. [Complete scoped comparison](../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md).

@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/week3_pp3_analysis` implements the frozen held-project ridge classifier, both full reassignment references and paired author/project uncertainty. Ten targeted checks, constructed native replay and full-population timing pass; the complete comparison is running. [Launch and limits](../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_LAUNCH_20261026.md).
+
 `cards/week3_pp3_inputs` retains every released ScholaWrite row, explicitly marks missing timing and independently reconstructs all process features. Eight checks and complete native/full-source replay pass after a retained output-directory initialization failure. [Validation](../../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md). Classifier and scientific admission remain separate.
 
 The separate `week3_jester_comparison_h1` completed all approved records and full reference banks with exact independent replay. Original failed features remain; the worker and its lease have closed. [Complete scoped comparison](../../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md). No descendant is commissioned.

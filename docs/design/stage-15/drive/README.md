@@ -227,3 +227,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [Canonical WB1 verification continuation](WB1_CANONICAL_CONTINUATION_20261026.md) preserves completed source bytes after the independent replay hit its attempt allocation. Seven targeted checks and full native replay pass; full corpus verification remains required, with prior costs retained.
 
 [PP3 complete-source preparation](PP3_INPUTS_20261026.md) preserves all released rows and missing timing. [Full validation and retained native repair](../../../../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md) pass; the classifier and complete references remain to be built.
+
+[PP3 full classifier](PP3_CLASSIFIER_20261026.md) has complete known-answer and native validation plus full-population timing. [The full comparison is running](../../../../results/phase_2_4_stage_15/DRIVE/PP3_MAIN_LAUNCH_20261026.md) with both complete reference banks; its scientific result is pending.
