@@ -1,8 +1,10 @@
 # October 16 drive runners
 
+`cards/week3_tr3_human_counts` passes twenty targeted checks and complete discovery-corpus independent replay. Feature selection and the matched carryover comparison remain separate gates; no further automatic repairs are authorized.
+
 `cards/week3_tr4_inputs` preserves complete canonical handling and strict chronology. Sixteen checks and complete primary-corpus independent replay pass. All six forecasting models and calibration remain unbuilt.
 
-**TR3 execution authority:** [The card-wide repair cap was exceeded](../../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Further execution is held pending a continuation decision; the completed source and candidate replay remain retained.
+**TR3 execution authority:** [October 27 continuation approval](../../results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md) permits use of verified preparation within the original ceiling, with no more automatic repairs. The earlier cap breach and all failed attempts remain recorded.
 
 `cards/week3_tr3_candidates` and its retained recovery handlers now have twenty-four checks and complete discovery-corpus independent replay. [Complete candidate preparation](../../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md); human comparison and selection remain unbuilt.
 

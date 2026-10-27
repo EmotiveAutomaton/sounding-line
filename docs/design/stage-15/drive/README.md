@@ -1,8 +1,10 @@
 # October 16 drive commission
 
+[TR3 human-production counts](TR3_HUMAN_COUNTS_20261027.md) are complete on the discovery corpus after twenty checks and independent replay under the explicit continuation approval. Feature selection and scientific admission remain separate; no additional automatic repairs.
+
 [TR4 input preparation](TR4_INPUTS_20261027.md) is complete on the primary corpus after sixteen checks and independent native replay. All six forecasts, calibration and full cost admission remain unbuilt.
 
-**TR3 execution authority:** [The card-wide repair cap was exceeded](../../../../results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md). Further execution is held pending a continuation decision; the completed source and candidate replay remain retained.
+**TR3 execution authority:** [October 27 continuation approval](../../../../results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md) permits use of verified preparation within the original ceiling, with no more automatic repairs. The earlier cap breach and all failed attempts remain recorded.
 
 [TR3 discovery candidate counting](TR3_CANDIDATES_20261026.md), its [canonical schema repair](TR3_CANDIDATES_RECOVERY_20261026.md) and [final empty-display repair](TR3_CANDIDATES_RECOVERY2_20261026.md) are complete with twenty-four checks and full corpus replay. [Complete record](../../../../results/phase_2_4_stage_15/DRIVE/TR3_CANDIDATES_COMPLETE_20261026.md); human comparison and selection remain unbuilt.
 

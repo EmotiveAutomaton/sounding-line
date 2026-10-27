@@ -22,6 +22,7 @@ with the reason.
 
 | Contribution | What changed | Status | Record |
 |---|---|---|---|
+| October 27: “Continue from verified preparation; no more repairs” | Restores prospective TR3 continuation within its original cumulative CPU ceiling; earlier repair-cap breach and all attempts retained; no additional automatic repair | written / planned | [Decision](../phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md) |
 | October 26: “Build the separate preference comparison” | Authorized the separately labeled Jester topic-preference recurrence comparison, retaining the original demographic-relative harm question and full-population archive gap | built / complete | [Frozen design](../../docs/design/stage-15/drive/CA5R_PREFERENCE_20261026.md) |
 | Prepare the supported subset; retain the full-population gap | Prepared and independently replayed the separate 836-person CA3 input population; all 2,979 census rows retained, scientific comparison still gated | built | [Approved variant](../../docs/design/stage-15/week3/CA3_SUPPORTED.md), [complete preparation](../phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.md) |
 | Review, implement and file the Week 3 packet; start Gear 2 and bounded Gear 3 | Processed source and stage filing system established; local cards, cost gates and bounded paid campaign built; execution continues with documented engineering, cost and transfer holds | built / planned | [Processed commission](../../docs/design/stage-15/week3/README.md), [execution index](../phase_2_4_stage_15/DRIVE/INDEX.md) |

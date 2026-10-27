@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-TR3-HUMAN-COMPLETE:** [Record](TR3_HUMAN_COMPLETE_20261027.md). Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
+
+**OPS-S15-W3-TR3-HUMAN-NATIVE:** [Record](TR3_HUMAN_NATIVE_20261027.md). The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.
+
+**OPS-S15-W3-TR3-CONTINUATION-AUTHORIZED:** [Record](TR3_CONTINUATION_20261027.md). The curator authorized continuing TR3 from verified preparation under its original CPU ceiling, with no additional automatic repairs; the prior breach remains recorded.
+
 **OPS-S15-W3-TR4-INPUTS-COMPLETE:** [Record](TR4_INPUTS_COMPLETE_20261027.md). The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
 
 **OPS-S15-W3-TR4-INPUTS-NATIVE:** [Record](TR4_INPUTS_NATIVE_20261027.md). The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate.

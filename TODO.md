@@ -1,5 +1,11 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-TR3-HUMAN-COMPLETE: Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
+
+- [x] OPS-S15-W3-TR3-HUMAN-NATIVE: The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.
+
+- [x] OPS-S15-W3-TR3-CONTINUATION-AUTHORIZED: The curator authorized continuing TR3 from verified preparation under its original CPU ceiling, with no additional automatic repairs; the prior breach remains recorded.
+
 - [ ] TR4: complete input census is landed; build all six forecasts, known-answer calibration and cost admission within the original 3,600 CPU-second ceiling. One card-wide engineering repair used. Unknown choices and overlapping chronology remain explicit; no scientific score yet.
 
 - [x] OPS-S15-W3-TR4-INPUTS-COMPLETE: The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed.
@@ -26,7 +32,7 @@
 
 - [x] OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
 
-- [ ] TR3: further execution held after four ordinary repairs against the card-wide limit of two. Exposure, typing context and discovery suggestion counts independently verify and remain retained. Await curator decision on continuing under the original ceiling with no additional automatic repairs. Human counts, feature selection, calibrated comparison and cost admission remain unbuilt. [Execution correction](results/phase_2_4_stage_15/DRIVE/TR3_REPAIR_CAP_20261026.md).
+- [ ] TR3: continuation explicitly authorized October 27 under the original 7,200 CPU-second ceiling, with no additional automatic repairs. Discovery human counts are complete; cumulative charge/reserve is 1,680.875 seconds. Prior breach and failed attempts remain. Build discovery selection, calibration and unchanged carryover comparison. [Decision](results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md).
 
 - [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
 

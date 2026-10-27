@@ -1,5 +1,70 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR3-HUMAN-COMPLETE
+
+**Hypothesis.** Can all discovery writers' completed production be counted without false adjacency or final-survivor selection?
+
+**METHOD.** Authenticate the complete typing archive and WB1 split, track unique user-inserted characters through every discovery edit, and count completed wholly typed word sequences plus literal punctuation. Independently reconstruct every session and aggregate, authenticate all pins and outputs, and inspect all native exits.
+
+The table reports completed source preparation, not model-characteristic selection or carryover performance.
+
+| Check | Complete observation |
+|---|---|
+| Discovery population | All 745 sessions and 31 writers |
+| Test payloads read | Zero; all writers retained in the census |
+| Replayed edits / user-inserted Unicode characters | 1192601 / 1092133 |
+| Distinct human lexical candidates | 215227; all retained, none selected |
+| Independent reconstruction | Complete; 10007 input pins and 762 outputs verified |
+| Native owner / execution / verification | All exited |
+| Full count CPU / elapsed seconds | 157.4375 / 180.2243759000121 |
+| Cumulative TR3 charge and reserve | 1680.875 of 7,200 CPU seconds |
+| New failures or repairs after continuation approval | None; additional automatic repairs remain forbidden |
+
+**Found.** Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.
+
+**Means.** Both sides of discovery feature counting are prepared under the original cumulative ceiling. Discovery-only selection, held-out matched exposure construction, calibration and full comparison remain separate gates. The counter retains completed later-deleted production and missing composition support in its character denominator; it does not identify attention or automaticity. The original repair-cap breach and failed attempts remain recorded. No scientific test was added by the continuation reply.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Freeze discovery-only feature selection, then build matched exposure and calibration before full comparison; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_HUMAN_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR3-HUMAN-NATIVE
+
+**Hypothesis.** Can completed human-produced lexical candidates be counted without false cursor adjacency, mixed machine text or survivor-only selection?
+
+**METHOD.** Track typed Unicode character identities through the authenticated UTF-16 edit representation; complete word and phrase occurrences at typed separators, moves elsewhere or session end; retain finished later-deleted production. Test exact static counts, incremental composition, mixed sources, user versus machine joins, whitespace edits, canonical formatting attributes and source/tamper refusals. Execute the full constructed handler and replay it in an independent counted native process.
+
+The table reports instrument validation, not human exposure or carryover performance.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | 20 pass on first execution |
+| Native complete independent replay | Passes; all three native identities exited |
+| Authenticated inputs / outputs | 35 / 25 |
+| Native CPU / elapsed seconds | 0.546875 / 4.394865599999321 |
+| Cumulative TR3 charge and reserve | 1523.4375 of 7,200 CPU seconds |
+| Additional automatic repairs | Zero allowed; zero used after the explicit continuation approval |
+| Scientific disposition | No features selected and no carryover score computed |
+
+**Found.** The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.
+
+**Means.** Complete discovery-corpus counts may now run within the remaining original ceiling. Only wholly typed lexical text and intervening whitespace supply human n-grams; source text cannot create a new human-produced phrase. This operational production definition does not measure automaticity or attention. Exact population and future test-half protection remain. Any new failure stops the affected continuation for review. The prior repair-cap breach and all failed attempts remain recorded.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate.; project meaning: scoped operational record; next engineering obligation: Run complete discovery counts under the original cumulative cap; stop on any new failure; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_HUMAN_NATIVE_20261027.md.
+
+### OPS-S15-W3-TR3-CONTINUATION-AUTHORIZED
+
+**Hypothesis.** May the commissioned suggestion-carryover test continue after its recorded repair-cap breach?
+
+**METHOD.** Apply the curator's explicit October 27 reply to the separate execution-authority record. Preserve all completed and failed attempts, the four repairs against the original two-repair limit, and all previously charged CPU time.
+
+**Decision.** “Continue from verified preparation; no more repairs.” This restores permission to build and execute the remaining unchanged TR3 preparation and comparison. The ceiling remains 7,200 CPU seconds, with 1,462.890625 already charged or reserved. Every further validation, execution and independent verification charges to that same total. No further automatic engineering repair or design-renamed retry is authorized. A new failure is retained and stops the affected TR3 execution for review.
+
+**Means.** Technical preparation remains verified; the earlier scope breach is not erased or retroactively approved. The earlier hold snapshots describe their original cutoff and are superseded prospectively by this decision. Human production counts, discovery-only selection, calibration, matched comparison and cost admission remain to be built. No carryover claim, holdout access, gear change or new paid work follows from this permission. No new scientific test is harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The curator authorized continuing TR3 from verified preparation under its original CPU ceiling, with no additional automatic repairs; the prior breach remains recorded.; project meaning: scoped operational record; next engineering obligation: Build and validate remaining unchanged TR3 components; retain original cumulative cap and stop on any new failure; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CONTINUATION_20261027.md.
+
 ### OPS-S15-W3-TR4-INPUTS-COMPLETE
 
 **Hypothesis.** Can every primary session supply an honest source for comparing recent and whole-history predictions of a writer's handling choices?

@@ -2597,6 +2597,12 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR3-HUMAN-COMPLETE:** Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_HUMAN_COMPLETE_20261027.md).
+
+**OPS-S15-W3-TR3-HUMAN-NATIVE:** The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_HUMAN_NATIVE_20261027.md).
+
+**OPS-S15-W3-TR3-CONTINUATION-AUTHORIZED:** The curator authorized continuing TR3 from verified preparation under its original CPU ceiling, with no additional automatic repairs; the prior breach remains recorded. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md).
+
 **OPS-S15-W3-TR4-INPUTS-COMPLETE:** The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed. [Record](../results/phase_2_4_stage_15/DRIVE/TR4_INPUTS_COMPLETE_20261027.md).
 
 **OPS-S15-W3-TR4-INPUTS-NATIVE:** The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/TR4_INPUTS_NATIVE_20261027.md).
