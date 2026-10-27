@@ -1,5 +1,21 @@
 # TODO: the study queue
 
+- [ ] TR3: full source census running under final ordinary healing pass; both original failures retained. Complete source replay, discovery features, typed-character/n-gram semantics, calibrated placebo comparison and whole-study cost admission remain. Prior charge/reserve 164.21875 of 7200 CPU seconds. [Launch](results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md).
+
+- [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
+
+- [x] OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE: The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated.
+
+- [x] OPS-S15-W3-DIGEST-20261026: Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete.
+
+- [x] OPS-S15-W3-READER-IDENTITY-DUE: The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed.
+
+- [x] OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE: twelve checks and complete independent native replay pass.
+
+- [x] OPS-S15-W3-TR3-SOURCE-FAILURE: TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated.
+
+- [x] OPS-S15-W3-TR3-INPUTS-NATIVE: eight checks and complete independent native replay pass.
+
 - [x] OPS-S15-W3-PP3-P-COST-HOLD: original failure, native exits, charges and S4 cost review fully recorded.
 - [ ] PP3.p: full design cost-held; no corpus result. Exact cheaper implementation would require separate frozen parity and full cost validation; no reduced controls or descendants.
 

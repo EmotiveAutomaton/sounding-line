@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/week3_tr3_inputs` and its separately retained recovery handlers prepare complete chronological exposure inputs. Fifteen checks and complete native replays pass; full source execution is running. Empty and unanchored reopen events remain, without invented offers. [Launch and limits](../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md).
+
 The PP3.s follow-up has completed full source, model, reference and bootstrap replay. [Full scoped instrument result](../../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md); no descendants.
 
 The PP3.m follow-up has completed full source, model, reference and bootstrap replay. [Full scoped instrument result](../../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md); no descendants.

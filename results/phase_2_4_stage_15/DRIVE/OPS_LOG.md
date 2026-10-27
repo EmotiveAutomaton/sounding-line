@@ -567,3 +567,19 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T02:45:59.925132+00:00 S15-PP3-M-20261026: full comparison and fresh replay landed; all pins/outputs/native exits verified. Full instrument write-through and scope limits recorded; cumulative 464.640625 of 3600 CPU seconds. No descendants.
 
 2026-10-27T02:51:16.173765+00:00 S15-PP3-S-20261026: full comparison and fresh replay landed; all pins/outputs/native exits verified. Full instrument write-through and scope limits recorded; cumulative 929.8125 of 3600 CPU seconds. No descendants.
+
+2026-10-27T03:06:31.871527+00:00 OPS-S15-W3-TR3-INPUTS-NATIVE: The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. Cumulative charge/reserve 120.53125 CPU seconds. Ready queue below target; build backlog is an idle-capacity defect.
+
+2026-10-27T03:12:35.318775+00:00 OPS-S15-W3-TR3-SOURCE-FAILURE: TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated.
+
+2026-10-27T03:12:55.827471+00:00 OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE: The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. Cumulative charge/reserve 129.375 CPU seconds. Ready queue below target; build backlog is an idle-capacity defect.
+
+2026-10-27T03:15:03.195125+00:00 OPS-S15-W3-READER-IDENTITY-DUE: The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed.
+
+2026-10-27T03:15:06.007870+00:00 OPS-S15-W3-DIGEST-20261026: Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete.
+
+2026-10-27T03:17:49.633430+00:00 OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE: The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated.
+
+2026-10-27T03:17:57.430341+00:00 OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. Cumulative charge/reserve 164.21875 CPU seconds. Ready queue below target; build backlog is an idle-capacity defect.
+
+2026-10-27T03:20:19.515103+00:00 TR3 source final ordinary recovery launched: exact owner, execution, fresh progress, counted lease and urgent terminal monitoring verified. All population and source constraints remain.

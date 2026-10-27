@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 26 TR3 source recovery:** [Verified launch](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md). The full chronological exposure census is running in Gear 2 after fifteen checks and complete native recovery validation. Original failures and charges remain; all primary sessions and the exact writer split are retained. Full corpus completion and the carryover comparison remain unadmitted. The daily digest is recorded; GPU, source/cost and receiving-copy approval holds persist. The ready-card target is unfinished.
+
 **October 26 PP3.s complete:** [Full instrument record](../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.
 
 **October 26 PP3.m complete:** [Full instrument record](../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.

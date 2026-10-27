@@ -1,5 +1,235 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE
+
+**Hypothesis.** Can the source instrument retain every shown suggestion and determine earlier sessions without inventing exposure, acceptance or chronological order?
+
+**METHOD.** Replay a constructed four-session, two-writer fixture through the production native executor and an independent verification process. Include an unanchored empty reopen, anchored empty reopens, reopened menus, unusable acceptance correspondence, API and Unicode user insertions, separated sessions and touching sessions. Run fifteen targeted checks for complete retention, changed/missing menus, clock refusal, strict chronology, frozen split coverage, immutable reentry and output tampering.
+
+The table reports completed instrument checks, not a carryover effect.
+
+| Check | Observation |
+|---|---|
+| Complete constructed population | Four sessions and both writers retained |
+| Displays | All openings and reopens retained, including an empty reopen before any menu, with no invented origin or offered alternatives; ambiguous handling stays unknown |
+| User characters | Unicode codepoints counted separately from API text; no artificial n-grams |
+| Strict earlier history | Only wholly ended earlier sessions; touching intervals remain flagged |
+| Targeted checks | Fifteen pass |
+| Native verification | Every output independently rebuilt; all workers exited |
+| Authenticated pins / outputs | 39 / 22 |
+| Cumulative CPU charge/reserve | 164.21875 of original 7,200 seconds, including construction/tests |
+
+**Found.** The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
+**Means.** The second and final ordinary engineering repair preserves every original nonempty-unit output exactly; the original failed attempt and its cost remain. The complete exposed corpus can now undergo bounded source preparation. Display is not evidence of actual attention. Raw insertion counts and P6 token semantics are distinct; character/n-gram outcomes, discovery-only feature selection, placebo matching, calibrated comparisons and whole-study cost admission remain to be built. The exhausted accepted-span extractor is not called or repaired. Exact WB1 splitting, all primary sessions, GPU parking and paid-transfer holds remain. No Tier 4 holdout access, scientific score or probability is involved. No tests harvested from this wake.
+
+[Frozen source design](docs/design/stage-15/drive/TR3_INPUTS_20261026.md); [aggregate receipt](results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_RECOVERY2_NATIVE_20261026.json).
+
+Curator roll-up: learning from suggestions; Can exposure history be reconstructed without false precedence?; **Infrastructure**; The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.; project meaning: constructed source validation; next engineering obligation: complete corpus preparation and unchanged TR3 design; public scientific claim unchanged; curator decision required: No. Detail: TR3_INPUTS_RECOVERY2_NATIVE_20261026.md.
+
+### OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE
+
+**Hypothesis.** Does the TR3 source parser preserve the full recorded display history?
+
+**METHOD.** Run the complete primary-source preparation under counted CPU supervision, inspect the new failing raw event and its canonical binding, and test the unchanged full-population parser contract on empty reopens.
+
+The table describes an instrument failure, not a carryover result.
+
+| Item | Complete observation |
+|---|---|
+| Failure | An empty suggestion-reopen was wrongly required to have a preceding menu |
+| Partial checkpoint | 338 complete sessions retained; no full census or effect admitted |
+| Engineering classification | Parser support defect, second and final healing attempt; not a scientific null |
+| Attempt CPU | 34.28125 seconds |
+| Cumulative charge/reserve before repair | 163.65625 of 7,200 seconds |
+| Recovery checks | Fifteen pass, including exact equality for originally representable units, empty event retention and malformed-record refusal |
+| Original workers | Exact native owner and execution identities exited |
+
+**Found.** The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated.
+
+**Means.** An empty logged event contributes no offered alternatives. The separate recovery preserves its ordinal and timestamp with an empty list and no invented original-menu identity, retains unknown handling, and leaves every original nonempty unit unchanged. No session is deleted, no alternative invented, no feature/outcome statistic fitted and no shared accepted-span repair attempted. Corpus and fresh native recovery admission remain separate. No new tests harvested; no probability or theory claim.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated.; project meaning: scoped operational record; next engineering obligation: Complete independent native recovery and full corpus source replay; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_SOURCE_RECOVERY_FAILURE_20261026.md.
+
+### OPS-S15-W3-DIGEST-20261026
+
+**Hypothesis.** Are the completed results, corrections, limits and operating obligations reconciled for the daily theory handoff?
+
+**METHOD.** Authenticate the calendar markers, all terminal produces in the scheduled daily interval, current claim anchors and their evidence records. Inspect exact native service identities, leases, resource headroom, delivery health and paid bookings. Keep completed instrument results separate from empirical findings; include a clearly dated post-cutoff operational addendum.
+
+**Corrections first.** Canonical WB1 action provenance was repaired and independently replayed without changing its other fields. Its effects remain held on the separate exhausted accepted-span source defect; no third shared repair is admitted. The Jester preference comparison uses the separately approved complete-record population and text-only topic correction; the original demographic-relative harm and partial-record gaps remain open. PP3's initial output-directory failure and native test-collection typo remain recorded; its completed parent, sensitivity and edit ablation retain unrecovered planning and source limits. The second classifier is cost-held, not a scientific null. After the digest cutoff, TR3 preparation exposed an empty-reopen parser defect; the original failed attempt is retained, twelve checks and independent native recovery now pass. This repair does not alter the study's population or estimate.
+
+**Theory integration.** The current theory rows and afterwords already incorporate the completed preference comparison and its narrow scope. PP3 parent/follow-ups and TR3 preparation belong in the instrument ledger. No new theory claim or structural theory edit is introduced by this digest. Historical failed controls, corpus restrictions, the full-population source gaps and unread Tier 4 holdouts remain.
+
+The following table quotes each landing's exact ledger wording with its recorded control status. These are completed records since the preceding daily digest; post-cutoff operational entries are included as the addendum, not backdated to the scheduled cutoff.
+
+| Ledger identifier | Control status | Exact public wording |
+|---|---|---|
+| OPS-S15-W3-DIGEST-20261025 | passes | Completed Week 3 findings and validity limits are recorded; the research queue is idle with unfinished builds and admission holds, and the stage remains open. |
+| OPS-S15-W3-HEALTH-20261025-2340 | passes | The queue-health inspection found healthy monitoring and no active research worker; commissioned builds and admission work remain unfinished. |
+| OPS-S15-W3-WB1-EFFECTS-NATIVE | passes | The existing process-piece effects handler passes constructed native replay; human-data effects and complete study cost admission remain untested. |
+| OPS-S15-W3-REBOOT-20261026 | passes | The reboot interrupted the calendar; its schedule is restored and the obsolete local delivery path is repaired. Existing evidence remains intact; commissioned build and cost admission work remains. |
+| OPS-S15-W3-WB1-EFFECTS-COST-NATIVE | passes | The remaining-cost probe passes constructed native replay; the real-corpus cost measurement and full scientific admission remain separate. |
+| OPS-S15-W3-WB1-SOURCE-CANONICAL-NATIVE | passes | The real-corpus cost probe exposed invalid action provenance; a canonical source repair passes constructed validation, while full corpus reconstruction and downstream admission remain pending. |
+| OPS-S15-W3-WB1-CANONICAL-COST-CONTINUATION | passes | Canonical source execution finished, but its fresh verification hit the attempt CPU allocation; a byte-preserving continuation passes constructed validation, with complete corpus verification still required. |
+| OPS-S15-W3-WB1-SOURCE-CANONICAL | passes | Complete source replay verifies the canonical action references while preserving every other prepared value and the full population; this admits corrected inputs, not a scientific finding. |
+| OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE | invalid | The effects-cost probe is instrument-invalid on a repeated acceptance origin; the existing shared-source repair limit is exhausted, so WB1 remains scientifically untested. |
+| OPS-S15-W3-CA5R-SUPPORT-NATIVE | passes | The complete-record source checker passes constructed validation; full Jester source preparation remains required. |
+| OPS-S15-W3-CA5R-SUPPORT | passes | The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. |
+| OPS-S15-W3-CA5R-PREFERENCE-NATIVE | passes | The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. |
+| OPS-S15-W3-CA5R-TOPICS-FAILURE | invalid | The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed. |
+| OPS-S15-W3-CA5R-H1-PREFERENCE-NATIVE | passes | The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. |
+| OPS-S15-W3-CA5R-H1-TOPICS | passes | All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun. |
+| OPS-S15-W3-CA5R-H1-PREFERENCE-COST | passes | The full-population cost pilot and independent replay are complete; no partial preference score is released. |
+| S15-CA5-R-H1-20261026 | passes | Supports small joke-topic preference recurrence beyond additive person and item averages in the approved Jester records; this descriptive conditional comparison does not establish demographic-relative harm judgments or value recovery. |
+| OPS-S15-W3-PP3-INPUTS | passes | The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun. |
+| OPS-S15-W3-PP3-CLASSIFIER-NATIVE | passes | The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun. |
+| OPS-S15-W3-PP3-CLASSIFIER-COST | passes | The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated. |
+| S15-PP3-20261026 | passes | Supports improved average classification of expert ScholaWrite writing labels from process features beyond the training prior and tested reassignments; planning is never predicted, and private goals or CoAuthor goals are not established. |
+| OPS-S15-W3-PP3-FOLLOWUP-NATIVE | passes | All three registered PP3 follow-up instruments pass constructed native execution and independent replay; full-population cost and scientific admission remain separate. |
+| OPS-S15-W3-PP3-S-COST | passes | The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. |
+| OPS-S15-W3-PP3-M-COST | passes | The full-population paired edit-feature ablation timing and independent replay pass; the unchanged complete comparison fits its existing allocation. |
+| OPS-S15-W3-PP3-P-COST-HOLD | untested | The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted. |
+| S15-PP3-M-20261026 | passes | Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism. |
+| S15-PP3-S-20261026 | passes | Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery. |
+| OPS-S15-W3-TR3-INPUTS-NATIVE | passes | The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
+| OPS-S15-W3-TR3-SOURCE-FAILURE | invalid | TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated. |
+| OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE | passes | The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
+| OPS-S15-W3-READER-IDENTITY-DUE | untested | The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed. |
+
+**Follow-ups and runnable work.** The PP3 parent, regularization sensitivity and edit-feature ablation are fully landed; its separately fitted second classifier is cost-held after S4 review. All are within the one-generation menu, with no descendants. CA5's three first-generation follow-ups are complete. TR3 source preparation is the next ranked independent build; the first native recovery is complete, with full corpus preparation being relaunched in a separate attempt. Its features, matched placebo, comparison and complete cost admission remain unfinished. WB1/shared-span, PP1/WD1/CA1 full-cost, dependent CA2/CA3, intentional local-GPU and concrete paid-transfer holds remain. The two-ready-cards-per-slot target is unmet; registered cards are not executable cards.
+
+The accounting table gives a conservative idle lower bound and current paid bookings. Earlier idle intervals and spare slots during single-card execution are not treated as occupied or silently set to zero.
+
+| Operating item | Observation |
+|---|---|
+| Daily terminal records authenticated | 30; complete outputs checked against receipts |
+| Claim source anchors checked at inspection | 135 |
+| Idle slot-hours, lower bound | 0.781591, from 2026-10-27T02:48:16.567747+00:00 to the scheduled digest |
+| Idle cause / defect | Commissioned build and admission backlog; ready-card target unmet |
+| Week 3 booked paid spend | 1 cents of 1,000 cents; no new provider call |
+| Node caps | PROC 200, VAL 250, K 250, AUTH 100, GOAL 50, P 50 cents |
+| Available RAM / commit / disk at inspection | 60.928 / 55.012 / 363.920 GiB |
+| Watcher and calendar | Exact native identities and fresh heartbeat verified; terminal delivery active |
+| Reader identity due | Package authenticated; receiving-copy approval still pending, deadline not represented as met |
+| Local GPU | Intentionally parked |
+| Final freeze / drain | November 1, 20:00 / 22:00 PST; this daily digest is not closure |
+
+**Found.** Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete.
+
+**Means.** Continue bounded ranked CPU builds and full write-through after each terminal. The six-hour health clock is unchanged; immediate failures and completions remain monitored. The previously requested exact-payload receiving-copy approval remains outstanding. No new research was harvested from these operational notices, no new gear or spend was inferred, and no unfinished scientific scores are reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete.; project meaning: scoped operational record; next engineering obligation: Continue ranked Gear 2 builds, full result landings and the pending exact-payload receiving approval; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261026.md.
+
+### OPS-S15-W3-READER-IDENTITY-DUE
+
+**Hypothesis.** Is the reader identity required for ToMpathy by Monday evening available and delivered?
+
+**METHOD.** Authenticate the five-file prepared return, its checksum manifest, complete EV1/EV2 source receipts and frozen reader manifest identity against the recorded preparation. Inspect the scheduled deadline marker and the outstanding exact-payload approval state.
+
+The table separates prepared identity from actual receiving delivery.
+
+| Item | Verified state |
+|---|---|
+| Model | Qwen/Qwen2.5-0.5B |
+| Revision | 060db6499f32faf8b98477b0a26969ef7d8b9987 |
+| Canonical manifest SHA-256 | 7612cbcd48959ed57557d659d6aa3961a8c9e210fd9e4c76f7a8923c1b6a2e8f |
+| Exact manifest-file SHA-256 | b68fadd3231d71f0eb8116fc53761518872521600c8f453a04753b6bda55260f |
+| Backend | torch 2.9.1+cpu, transformers 4.57.6; dynamic-int8 linear, float32 embeddings, one thread |
+| Prepared package | Five aggregate-only files authenticate; no participant text, identities, profiles or weights |
+| Receiving copy | Not performed; specific-payload/destination approval requested after automatic review rejection remains pending |
+| Recipient adoption | Not established |
+
+**Found.** The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed.
+
+**Means.** Preparation satisfies the identity-information requirement but does not satisfy the receiving-copy deadline. Preserve the prepared package and pending approval; do not bypass the review or infer consent from this operational marker. Once the existing question is answered, copy only that approved payload, compare every hash and record delivery, without committing in the recipient repository. No model rerun, new scientific claim, paid call or new test was harvested.
+
+[Prepared return](results/phase_2_4_stage_15/DRIVE/WA0_RETURN_20261026/README.md).
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed.; project meaning: scoped operational record; next engineering obligation: Resolve pending exact-payload approval and verify receiving copy; public scientific claim unchanged; curator decision required: No new decision. Detail: READER_IDENTITY_DUE_20261026.md.
+
+### OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE
+
+**Hypothesis.** Can the source instrument retain every shown suggestion and determine earlier sessions without inventing exposure, acceptance or chronological order?
+
+**METHOD.** Replay a constructed four-session, two-writer fixture through the production native executor and an independent verification process. Include an empty reopen, reopened menus, unusable acceptance correspondence, API and Unicode user insertions, separated sessions and touching sessions. Run twelve targeted checks for complete retention, changed/missing menus, clock refusal, strict chronology, frozen split coverage, immutable reentry and output tampering.
+
+The table reports completed instrument checks, not a carryover effect.
+
+| Check | Observation |
+|---|---|
+| Complete constructed population | Four sessions and both writers retained |
+| Displays | All openings and reopens retained, including the empty reopen with no offered alternatives; ambiguous handling stays unknown |
+| User characters | Unicode codepoints counted separately from API text; no artificial n-grams |
+| Strict earlier history | Only wholly ended earlier sessions; touching intervals remain flagged |
+| Targeted checks | Twelve pass |
+| Native verification | Every output independently rebuilt; all workers exited |
+| Authenticated pins / outputs | 37 / 22 |
+| Cumulative CPU charge/reserve | 129.375 of original 7,200 seconds, including construction/tests |
+
+**Found.** The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
+**Means.** The first engineering repair preserves every original nonempty-unit output exactly; the original failed attempt and its cost remain. The complete exposed corpus can now undergo bounded source preparation. Display is not evidence of actual attention. Raw insertion counts and P6 token semantics are distinct; character/n-gram outcomes, discovery-only feature selection, placebo matching, calibrated comparisons and whole-study cost admission remain to be built. The exhausted accepted-span extractor is not called or repaired. Exact WB1 splitting, all primary sessions, GPU parking and paid-transfer holds remain. No Tier 4 holdout access, scientific score or probability is involved. No tests harvested from this wake.
+
+[Frozen source design](docs/design/stage-15/drive/TR3_INPUTS_20261026.md); [aggregate receipt](results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_RECOVERY_NATIVE_20261026.json).
+
+Curator roll-up: learning from suggestions; Can exposure history be reconstructed without false precedence?; **Infrastructure**; The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.; project meaning: constructed source validation; next engineering obligation: complete corpus preparation and unchanged TR3 design; public scientific claim unchanged; curator decision required: No. Detail: TR3_INPUTS_RECOVERY_NATIVE_20261026.md.
+
+### OPS-S15-W3-TR3-SOURCE-FAILURE
+
+**Hypothesis.** Does the TR3 source parser preserve the full recorded display history?
+
+**METHOD.** Run the complete primary-source preparation under counted CPU supervision, inspect the first failing raw event and its canonical binding, and test the unchanged full-population parser contract on empty reopens.
+
+The table describes an instrument failure, not a carryover result.
+
+| Item | Complete observation |
+|---|---|
+| Failure | Empty suggestion-reopen list was wrongly required to contain an offer |
+| Partial checkpoint | 35 complete sessions retained; no full census or effect admitted |
+| Engineering classification | Parser support defect, first healing attempt; not a scientific null |
+| Attempt CPU | 8.265625 seconds |
+| Cumulative charge/reserve before repair | 128.796875 of 7,200 seconds |
+| Recovery checks | Twelve pass, including exact equality for originally representable units, empty event retention and malformed-record refusal |
+| Original workers | Exact native owner and execution identities exited |
+
+**Found.** TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated.
+
+**Means.** An empty logged event contributes no offered alternatives. The separate recovery preserves its ordinal and timestamp with an empty list, retains unknown handling, and leaves every original nonempty unit unchanged. No session is deleted, no alternative invented, no feature/outcome statistic fitted and no shared accepted-span repair attempted. Corpus and fresh native recovery admission remain separate. No new tests harvested; no probability or theory claim.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated.; project meaning: scoped operational record; next engineering obligation: Complete independent native recovery and full corpus source replay; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_SOURCE_FAILURE_20261026.md.
+
+### OPS-S15-W3-TR3-INPUTS-NATIVE
+
+**Hypothesis.** Can the source instrument retain every shown suggestion and determine earlier sessions without inventing exposure, acceptance or chronological order?
+
+**METHOD.** Replay a constructed four-session, two-writer fixture through the production native executor and an independent verification process. Include reopened menus, unusable acceptance correspondence, API and Unicode user insertions, separated sessions and touching sessions. Run eight targeted checks for complete retention, changed/missing menus, clock refusal, strict chronology, frozen split coverage, immutable reentry and output tampering.
+
+The table reports completed instrument checks, not a carryover effect.
+
+| Check | Observation |
+|---|---|
+| Complete constructed population | Four sessions and both writers retained |
+| Displays | All openings and reopens retained; ambiguous handling stays unknown |
+| User characters | Unicode codepoints counted separately from API text; no artificial n-grams |
+| Strict earlier history | Only wholly ended earlier sessions; touching intervals remain flagged |
+| Targeted checks | Eight pass |
+| Native verification | Every output independently rebuilt; all workers exited |
+| Authenticated pins / outputs | 34 / 22 |
+| Cumulative CPU charge/reserve | 120.53125 of original 7,200 seconds, including construction/tests |
+
+**Found.** The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
+**Means.** The complete exposed corpus can now undergo bounded source preparation. Display is not evidence of actual attention. Raw insertion counts and P6 token semantics are distinct; character/n-gram outcomes, discovery-only feature selection, placebo matching, calibrated comparisons and whole-study cost admission remain to be built. The exhausted accepted-span extractor is not called or repaired. Exact WB1 splitting, all primary sessions, GPU parking and paid-transfer holds remain. No Tier 4 holdout access, scientific score or probability is involved. No tests harvested from this wake.
+
+[Frozen source design](docs/design/stage-15/drive/TR3_INPUTS_20261026.md); [aggregate receipt](results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_NATIVE_20261026.json).
+
+Curator roll-up: learning from suggestions; Can exposure history be reconstructed without false precedence?; **Infrastructure**; The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.; project meaning: constructed source validation; next engineering obligation: complete corpus preparation and unchanged TR3 design; public scientific claim unchanged; curator decision required: No. Detail: TR3_INPUTS_NATIVE_20261026.md.
+
 ### S15-PP3-S-20261026
 
 **Hypothesis.** Does the process-label advantage survive both registered regularization settings?

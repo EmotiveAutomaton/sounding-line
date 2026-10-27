@@ -1,5 +1,21 @@
 # October 16 drive: execution index
 
+**October 26 TR3 source recovery:** [Verified launch](TR3_SOURCE_LAUNCH_20261026.md). The full chronological exposure census is running in Gear 2 after fifteen checks and complete native recovery validation. Original failures and charges remain; all primary sessions and the exact writer split are retained. Full corpus completion and the carryover comparison remain unadmitted. The daily digest is recorded; GPU, source/cost and receiving-copy approval holds persist. The ready-card target is unfinished.
+
+**October 26 TR3 source instrument:** [Complete native validation](TR3_INPUTS_RECOVERY2_NATIVE_20261026.md). The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
+**OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE:** [Record](TR3_SOURCE_RECOVERY_FAILURE_20261026.md). The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated.
+
+**OPS-S15-W3-DIGEST-20261026:** [Record](DIGEST_20261026.md). Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete.
+
+**OPS-S15-W3-READER-IDENTITY-DUE:** [Record](READER_IDENTITY_DUE_20261026.md). The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed.
+
+**October 26 TR3 source instrument:** [Complete native validation](TR3_INPUTS_RECOVERY_NATIVE_20261026.md). The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
+**OPS-S15-W3-TR3-SOURCE-FAILURE:** [Record](TR3_SOURCE_FAILURE_20261026.md). TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated.
+
+**October 26 TR3 source instrument:** [Complete native validation](TR3_INPUTS_NATIVE_20261026.md). The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested.
+
 **October 26 PP3.s complete:** [Full instrument record](PP3_S_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.
 
 **October 26 PP3.m complete:** [Full instrument record](PP3_M_MAIN_20261026.md). Complete population, both full reference banks and independent replay are recorded with scope limits. Workers exited; no descendants. The second classifier remains cost-held. Wider implementation and source, GPU and paid-transfer holds remain; earlier snapshots are historical.

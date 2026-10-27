@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[TR3 chronological source design](TR3_INPUTS_20261026.md) is implemented and native-validated. The two ordinary parser healing passes preserve empty log events without invented exposure; [full source execution](../../../../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_LAUNCH_20261026.md) is running. No carryover outcome is admitted.
+
 [CA5.r.h1 approved preference comparison](CA5R_PREFERENCE_H1_20261026.md) is complete with full independent replay. [Recorded outcome](../../../../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md) keeps the original demographic-relative harm and archive-population gaps open. CA5's three first-generation follow-ups are exhausted; earlier pending-scope notes retain their historical cutoff.
 
 [CA5.r complete input support](CA5R_INPUT_SUPPORT_20261026.md) is validated and fully replayed on the admitted Jester population. The separate preference comparison awaits its scope decision and frozen comparable features.

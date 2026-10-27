@@ -2597,6 +2597,20 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE:** The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. [Validation](../results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_RECOVERY2_NATIVE_20261026.md).
+
+**OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE:** The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_RECOVERY_FAILURE_20261026.md).
+
+**OPS-S15-W3-DIGEST-20261026:** Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete. [Record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261026.md).
+
+**OPS-S15-W3-READER-IDENTITY-DUE:** The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed. [Record](../results/phase_2_4_stage_15/DRIVE/READER_IDENTITY_DUE_20261026.md).
+
+**OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE:** The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. [Validation](../results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_RECOVERY_NATIVE_20261026.md).
+
+**OPS-S15-W3-TR3-SOURCE-FAILURE:** TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated. [Record](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_FAILURE_20261026.md).
+
+**OPS-S15-W3-TR3-INPUTS-NATIVE:** The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. [Validation](../results/phase_2_4_stage_15/DRIVE/TR3_INPUTS_NATIVE_20261026.md).
+
 **S15-PP3-S-20261026:** Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery. Full population, both complete banks, paired uncertainty and independent replay pass. [Complete result](../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md).
 
 **S15-PP3-M-20261026:** Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism. Full population, both complete banks, paired uncertainty and independent replay pass. [Complete result](../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md).
