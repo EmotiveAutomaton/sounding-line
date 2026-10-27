@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**S15-PP3-S-20261026:** Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery. Full population, both complete banks, paired uncertainty and independent replay pass. [Complete result](../results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.md).
+
 **S15-PP3-M-20261026:** Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism. Full population, both complete banks, paired uncertainty and independent replay pass. [Complete result](../results/phase_2_4_stage_15/DRIVE/PP3_M_MAIN_20261026.md).
 
 **OPS-S15-W3-PP3-P-COST-HOLD:** The second-classifier follow-up is cost-held before complete timing and independent replay; no corpus result is admitted. [Cost failure and S4 review](../results/phase_2_4_stage_15/DRIVE/PP3_P_COST_HOLD_20261026.md).

@@ -1,5 +1,81 @@
 # FINDINGS — the method archive
 
+### S15-PP3-S-20261026
+
+**Hypothesis.** Does the process-label advantage survive both registered regularization settings?
+
+**METHOD.** Fit the two frozen ridge penalties, one tenth and ten, with the same process and content matrices. The primary is the smaller process-only excess over the better prior or mean within-project reassignment reference across these settings. Resample the same clusters for both settings and recompute the minimum. Retain the parent penalty-one result as an explicitly historical anchor. All 61,504 released ScholaWrite rows, five whole-project held-out folds and twelve project-scoped author identities remain. Refit under both complete two-hundred-draw label-reassignment banks, within project and within project-author. Reconstruct the complete source and repeat every fit, reference and bootstrap in a fresh native process.
+
+The effect table gives paired 95% cluster intervals from 2,000 author resamples and 2,000 project resamples. Resampling keeps the fitted predictions fixed; this is conditional uncertainty with only five independent projects. Macro-F1 averages the three fixed categories equally, including a zero for an unrecovered category. Positive half-Brier improvement means lower probability error.
+
+| Contrast | Effect | Author-cluster interval | Project-cluster interval |
+|---|---:|---|---|
+| Registered card primary | 0.123251 | [0.108300, 0.133151] | [0.116670, 0.137483] |
+| ridge_0.1: Full process excess over better reference | 0.123251 | [0.108300, 0.133151] | [0.116670, 0.137483] |
+| ridge_0.1: Full process half-Brier gain over prior | 0.019217 | [0.013177, 0.026679] | [0.015542, 0.029780] |
+| ridge_0.1: Added-content macro-F1 gain | -0.007924 | [-0.034585, 0.005327] | [-0.028668, 0.006572] |
+| ridge_0.1: Added-content half-Brier improvement | -0.041737 | [-0.059541, -0.025932] | [-0.057496, -0.035638] |
+| ridge_10: Full process excess over better reference | 0.123251 | [0.108300, 0.133151] | [0.116670, 0.137483] |
+| ridge_10: Full process half-Brier gain over prior | 0.019220 | [0.013180, 0.026680] | [0.015545, 0.029781] |
+| ridge_10: Added-content macro-F1 gain | -0.007883 | [-0.034233, 0.005389] | [-0.028726, 0.006269] |
+| ridge_10: Added-content half-Brier improvement | -0.041593 | [-0.059342, -0.025787] | [-0.057349, -0.035494] |
+
+The next table gives absolute macro-F1 for each arm. In the ablation, the second arm has no edit block; in the sensitivity card, it adds the parent's fixed content hashes. The training prior is evaluated on the same rows.
+
+| Setting | Full process | Second arm | Prior |
+|---|---:|---:|---:|
+| ridge_0.1 | 0.385933 | 0.378009 | 0.262540 |
+| ridge_10 | 0.385933 | 0.378050 | 0.262540 |
+
+Every complete reference bank is reported below. Intervals are central reference-draw bands. The one-sided probabilities are descriptive diagnostics, not multiplicity-adjusted confirmation or identification-control chance gates. They are registered in the project's multiplicity audit without upgrading their status.
+
+| Setting / bank / readout | Mean reference | Reference band | Descriptive probability |
+|---|---:|---|---:|
+| ridge_0.1: within project, full process | 0.262681 | [0.262516, 0.263923] | 0.004975124 |
+| ridge_0.1: within project, process plus content | 0.264557 | [0.263149, 0.267854] | 0.004975124 |
+| ridge_0.1: within project-author, full process | 0.262688 | [0.262520, 0.264244] | 0.004975124 |
+| ridge_0.1: within project-author, process plus content | 0.265813 | [0.263638, 0.269996] | 0.004975124 |
+| ridge_10: within project, full process | 0.262682 | [0.262516, 0.263923] | 0.004975124 |
+| ridge_10: within project, process plus content | 0.264368 | [0.262965, 0.267754] | 0.004975124 |
+| ridge_10: within project-author, full process | 0.262688 | [0.262520, 0.264244] | 0.004975124 |
+| ridge_10: within project-author, process plus content | 0.265608 | [0.263402, 0.269774] | 0.004975124 |
+
+Confusion rows give true categories; columns give predicted implementation, planning and revision. Every row remains, including unrecovered planning.
+
+| Setting / arm / truth | Implementation | Planning | Revision |
+|---|---:|---:|---:|
+| ridge_0.1: full process / IMPLEMENTATION | 36827 | 0 | 3129 |
+| ridge_0.1: full process / PLANNING | 5391 | 0 | 568 |
+| ridge_0.1: full process / REVISION | 11223 | 0 | 4366 |
+| ridge_0.1: process plus content / IMPLEMENTATION | 30646 | 1186 | 8124 |
+| ridge_0.1: process plus content / PLANNING | 3461 | 153 | 2345 |
+| ridge_0.1: process plus content / REVISION | 9612 | 239 | 5738 |
+| ridge_10: full process / IMPLEMENTATION | 36827 | 0 | 3129 |
+| ridge_10: full process / PLANNING | 5391 | 0 | 568 |
+| ridge_10: full process / REVISION | 11223 | 0 | 4366 |
+| ridge_10: process plus content / IMPLEMENTATION | 30658 | 1178 | 8120 |
+| ridge_10: process plus content / PLANNING | 3464 | 152 | 2343 |
+| ridge_10: process plus content / REVISION | 9611 | 238 | 5740 |
+
+The fifteen-category auxiliary below uses the full process arm. It is not a separately fitted fifteen-category ablation. All fifteen categories, complete matrices and prior matrices remain in the aggregate receipt. Repeated parent-derived predictions are not independent evidence.
+
+| Setting | Fifteen-way macro-F1 | Prior | Author interval | Project interval |
+|---|---:|---:|---|---|
+| ridge_0.1 | 0.089943 | 0.048641 | [0.077175, 0.099535] | [0.082582, 0.094843] |
+| ridge_10 | 0.089834 | 0.048641 | [0.077173, 0.099474] | [0.082497, 0.094645] |
+
+**Found.** Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery.
+
+The primary minimum is positive under both cluster definitions. The parent penalty-one anchor had macro-F1 0.385933 and excess 0.123251; it was completed before these settings and is not a new replicate. All registered settings are reported, without choosing a preferred setting after outcomes.
+
+**Means.** This is a result about the predictive instrument's dependence on its specified features or fitting recipe. Expert annotation definitions and visible operation semantics remain possible explanations; the intervention on model inputs is not an intervention on the writer. It licenses neither private intention, a causal mental mechanism, value inference nor a mapping to CoAuthor. Publisher filtering, serially related labelled snapshots, partial editor states, missing timing and the few project clusters remain. The result is filed in the instrument ledger, not as a new theory claim.
+
+All native known-answer gates, source/parent bindings and complete fresh replay pass. All 154 source pins and 174 sealed outputs authenticate; native owner, execution and verification identities exited. Execution plus replay used 645.875 CPU seconds; cumulative construction, tests, native, timing and main charge/reserve is 929.8125 of 3,600. The generic envelope does not license science by itself; the pinned main summary and independent verifier explicitly admit this completed descriptive comparison.
+
+No tests were harvested from the notice. This is a first-generation follow-up and has no descendants. The other registered cards keep their separate states; no new GPU or paid dispatch follows. Participant text, row identities and trained parameters remain private. [Frozen design](docs/design/stage-15/drive/PP3_FOLLOWUPS_20261026.md), [complete aggregate receipt](results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.json).
+
+Curator roll-up: process-label instrument robustness; Does the process-label advantage survive both registered regularization settings?; **Infrastructure**; Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery.; project meaning: scoped predictive evidence without a psychological mechanism; next engineering obligation: retain first-generation limit and complete other independently authorized work; public claim limited to the ledger wording; curator decision required: No. Detail: PP3_S_MAIN_20261026.md.
+
 ### S15-PP3-M-20261026
 
 **Hypothesis.** Does removing visible edit features reduce the process classifier's held-project accuracy?

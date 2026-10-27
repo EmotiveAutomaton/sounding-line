@@ -7,14 +7,14 @@
 - [x] S15-PP3-M-20261026: full comparison and independent replay fully recorded; no descendants.
 
 - [x] OPS-S15-W3-PP3-S-COST: The full-population regularization sensitivity timing and independent replay pass; the unchanged complete comparison fits its existing allocation. Cumulative charge/reserve 283.9375 of 3600 CPU seconds.
-- [ ] PP3.s: full comparison running after complete cost admission; full scientific landing pending.
+- [x] S15-PP3-S-20261026: full comparison and independent replay fully recorded; no descendants.
 
 - [x] OPS-S15-W3-PP3-INPUTS: all released rows and process features independently reconstructed; first native initialization failure retained and repaired.
 - [x] OPS-S15-W3-PP3-CLASSIFIER-NATIVE: The frozen process-label classifier passes constructed native execution and independent replay; full corpus comparison remains unrun.
 - [x] OPS-S15-W3-PP3-CLASSIFIER-COST: The complete-population classifier timing run and independent replay pass; full reference-bank execution remains separately gated.
 - [x] S15-PP3-20261026: complete comparison, both reference banks and fresh replay fully recorded; scope and unrecovered planning explicit.
 - [x] OPS-S15-W3-PP3-FOLLOWUP-NATIVE: all three fixtures and independent native replays complete; ten checks pass.
-- [ ] PP3.s: full sensitivity comparison pending. PP3.m is complete and fully recorded; PP3.p is cost-held. No descendants.
+- [x] PP3.s and PP3.m: both full first-generation comparisons are recorded. PP3.p remains cost-held; no descendants.
 
 - [x] OPS-S15-W3-CA5R-TOPICS-FAILURE: original text-only failure retained and fully recorded; separate .h1 correction has thirteen passing checks, native replay next.
 
