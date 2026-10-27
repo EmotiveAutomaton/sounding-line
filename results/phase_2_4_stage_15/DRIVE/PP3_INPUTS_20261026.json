@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-27T01:45:01.235712+00:00",
+  "attempts": [
+    {
+      "cpu_seconds": 0.390625,
+      "native_workers_exited": true,
+      "outputs_verified": 0,
+      "pins_verified": "Immutable production source capsule retained; test and launch helper superseded",
+      "plan_sha256": "96913d806da0490eaa7a2454ae46a01217842d17d030cf728d5fe0f66ede1eb1",
+      "root": ".agent-state/drive-20261026/native-PP3-inputs",
+      "terminal": "FAILED.json",
+      "terminal_sha256": "c6a3a19c3219df911fa5e01e133030a8591b9b26dc9c565af1554539fb6dbfd3",
+      "wall_seconds": 2.38667460000579
+    },
+    {
+      "cpu_seconds": 0.765625,
+      "native_workers_exited": true,
+      "outputs_verified": 15,
+      "pins_verified": 33,
+      "plan_sha256": "fa55d7511d20c71419af06501bf59ee81d6a034b21c68b062c45eca52a0e2ae3",
+      "root": ".agent-state/drive-20261026/native-PP3-inputs-recovery",
+      "terminal": "COMPLETE.json",
+      "terminal_sha256": "ab96f2ad64031450e23be8047f2610e886b64d05930135aa71abc4f7b716c3b4",
+      "wall_seconds": 4.589547700001276
+    },
+    {
+      "cpu_seconds": 89.8125,
+      "native_workers_exited": true,
+      "outputs_verified": 15,
+      "pins_verified": 39,
+      "plan_sha256": "8ca079560061bacfed6d8ee32cc87d97bed51d130692e904ad8573714863cb53",
+      "root": "results/phase_2_4_stage_15/raw/drive-week3-20261025/PP3-inputs",
+      "terminal": "COMPLETE.json",
+      "terminal_sha256": "f2d306c8d3e05cd53e5fc1a0255789a94d5c2c1ce36f37528b7df15572a0798d",
+      "wall_seconds": 99.47920500000328
+    }
+  ],
+  "cumulative_cpu_seconds_charged_or_reserved": 120.96875,
+  "full_write_through": true,
+  "healing_attempts_used": 1,
+  "id": "OPS-S15-W3-PP3-INPUTS",
+  "original_cpu_ceiling_seconds": 7200,
+  "public_wording": "The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun.",
+  "scientific_admission": false,
+  "summary": {
+    "features": [
+      "log_pause_ms",
+      "pause_missing",
+      "log_burst_rows",
+      "log_inserted_chars",
+      "log_deleted_chars",
+      "insertion",
+      "deletion",
+      "replacement",
+      "no_change",
+      "at_visible_end",
+      "relative_visible_position",
+      "log_before_chars",
+      "section",
+      "subsection",
+      "subsubsection",
+      "paragraph",
+      "figure",
+      "table",
+      "equation",
+      "align",
+      "itemize",
+      "enumerate",
+      "verbatim",
+      "dollar_math"
+    ],
+    "input_sha256": {
+      "source_identity": "96c29f03ad9df4ebc9f8091dde63ce71835fba0ec24b46113ca57e534ba165f6"
+    },
+    "mode": "source",
+    "pause_missing": {
+      "ambiguous timestamp block": 9799,
+      "discontinuous visible editor text": 2942,
+      "first released row": 12
+    },
+    "pause_observed": 48751,
+    "project_scoped_author_ids": 12,
+    "projects": 5,
+    "row_deletions": 0,
+    "rows": 61504,
+    "rows_canonical_sha256": "2d49b381a6030e0bc33947bd2101aed909fd66860387cc32ebc815c5dfc0fc18",
+    "scientific_admission": false,
+    "scope": "Released labelled edit rows in partial visible editor states; filtered intervals are not raw physical keypress pauses. Project-scoped IDs are not established persons. Labels are annotations, not writer self-report.",
+    "source_categories": {
+      "IMPLEMENTATION": 39956,
+      "PLANNING": 5959,
+      "REVISION": 15589
+    },
+    "source_classes": {
+      "Citation Integration": 667,
+      "Clarity": 7096,
+      "Coherence": 2004,
+      "Cross-reference": 1016,
+      "Fluency": 863,
+      "Idea Generation": 4325,
+      "Idea Organization": 310,
+      "Linguistic Style": 962,
+      "Macro Insertion": 136,
+      "Object Insertion": 2814,
+      "Scientific Accuracy": 443,
+      "Section Planning": 1324,
+      "Structural": 2269,
+      "Text Production": 35323,
+      "Visual Formatting": 1952
+    },
+    "source_text_exported": false
+  },
+  "tests_passed": 8
+}

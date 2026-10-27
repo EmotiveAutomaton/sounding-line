@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[CA5.r.h1 approved preference comparison](CA5R_PREFERENCE_H1_20261026.md) is complete with full independent replay. [Recorded outcome](../../../../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md) keeps the original demographic-relative harm and archive-population gaps open. CA5's three first-generation follow-ups are exhausted; earlier pending-scope notes retain their historical cutoff.
+
 [CA5.r complete input support](CA5R_INPUT_SUPPORT_20261026.md) is validated and fully replayed on the admitted Jester population. The separate preference comparison awaits its scope decision and frozen comparable features.
 
 [GEN1 checkpoint continuation](GEN1_CONTINUATION_20261023.md) passes six checks and full native source replay. It is prepared only for a verify-phase wall interruption; the original live plan and scientific definitions remain unchanged.
@@ -223,3 +225,5 @@ continue. The October 16 implementation carried no delegation; the October 17 am
 [WB1 canonical provenance successor](WB1_SOURCE_CANONICAL_20261026.md) preserves the full population and rejects all non-provenance changes after the effects consumer exposed an aliasing bug. Four checks and complete native replay pass; full source reconstruction precedes downstream cost admission.
 
 [Canonical WB1 verification continuation](WB1_CANONICAL_CONTINUATION_20261026.md) preserves completed source bytes after the independent replay hit its attempt allocation. Seven targeted checks and full native replay pass; full corpus verification remains required, with prior costs retained.
+
+[PP3 complete-source preparation](PP3_INPUTS_20261026.md) preserves all released rows and missing timing. [Full validation and retained native repair](../../../../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md) pass; the classifier and complete references remain to be built.

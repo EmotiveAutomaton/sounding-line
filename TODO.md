@@ -1,5 +1,10 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-PP3-INPUTS: all released rows and process features independently reconstructed; first native initialization failure retained and repaired.
+- [ ] PP3: build and validate leave-one-project-out classification, full references, content comparison and uncertainty; measure whole-design cost before admission. Preparation charge/reserve 120.96875 of 7200 CPU seconds. [Prepared source](results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md).
+
+- [x] OPS-S15-W3-CA5R-TOPICS-FAILURE: original text-only failure retained and fully recorded; separate .h1 correction has thirteen passing checks, native replay next.
+
 - [x] OPS-S15-W3-WB1-CANONICAL-COST-CONTINUATION: full source execution retained after verification cost stop; seven checks and complete native continuation replay pass.
 - [x] OPS-S15-W3-WB1-SOURCE-CANONICAL: complete canonical source and independent replay landed; corrected action references admitted, with all other fields and full population retained.
 
@@ -65,14 +70,19 @@
 - [x] OPS-S15-W3-WA0-FOLLOWUP-COST: complete cost pilots and cumulative admission recorded.
 - [x] WA0.h1.m / WA0.h1.p: complete comparisons and independent replay fully recorded; no next generation.
 - [x] WA0.h1.s: complete partition comparison and full replay recorded as S15-WA0-H1-S-20261025; all members retained; no next generation.
-- [ ] WA0 companion return: prepare exact aggregate licence and reader identity; recipient adoption remains separate.
+- [x] WA0 companion return preparation: [five-file aggregate package](results/phase_2_4_stage_15/DRIVE/WA0_RETURN_20261026/README.md) contains exact ledger wording, completed figures and authenticated EV1/EV2 reader revision/manifest identity.
+- [ ] WA0 companion receiving copy: prepared payload awaits explicit destination confirmation; no receiving files changed. Recipient adoption remains separate.
 
 - [x] S15-CA5: complete controlled comparison and fresh replay landed; narrow recurring disagreement claim.
 - [x] S15-CA5.s: complete comparison and fresh replay recorded as S15-CA5-S-20261025; no next generation; frozen coding/split/quality specification checks; cap1,800 CPU seconds.
 - [x] S15-CA5.m: complete comparison and fresh replay recorded as S15-CA5-M-20261025; no next generation; topic-specific versus overall severity mechanism; cap1,800 CPU seconds.
 - [x] OPS-S15-W3-CA5R-SUPPORT-NATIVE: complete instrument write-through and counted fresh native replay.
 - [x] OPS-S15-W3-CA5R-SUPPORT: complete source-support census and fresh replay; all approved records retained.
-- [ ] S15-CA5.r: input support complete; separately labeled population-relative comparison awaits scope choice and frozen comparable features. Original demographic-relative harm question remains open. Cumulative charge/reserve 122.578125 of 1800 CPU seconds.
+- [x] OPS-S15-W3-CA5R-PREFERENCE-NATIVE: The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+- [x] OPS-S15-W3-CA5R-H1-PREFERENCE-NATIVE: The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+- [x] OPS-S15-W3-CA5R-H1-TOPICS: All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun.
+- [x] OPS-S15-W3-CA5R-H1-PREFERENCE-COST: The full-population cost pilot and independent replay are complete; no partial preference score is released.
+- [x] S15-CA5.r.h1: full approved comparison and independent replay landed as S15-CA5-R-H1-20261026. All records and reference banks retained; cumulative charge/reserve 1260.375 of 1800 CPU seconds. Original demographic-relative harm and archive-population gaps remain. This completes CA5's third first-generation follow-up; no descendants. [Complete record](results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md).
 
 **October 25 Week 3 checkpoint:** Completed comparisons, source checks and the full retained-adapter sensitivity audit are recorded in the claim ledger and evidence records. Gear 2 has completed the pause source, native checks and full-design cost pilot; the complete pause study is cost-held. All three corrected-identification follow-ups are complete and fully recorded. Their native workers have exited; remaining execution needs separate build and admission. The shared event extractor exhausted both engineering healing attempts, blocking its dependent comparisons. The encoder and full sensitivity reference bank remain cost-held. The paid PROC format repair is prepared but its transfer remains approval-held. Local GPU work stays parked. The theory filing is applied. Remaining commissioned cards and the ready-queue target are unfinished. New starts freeze November 1 at 20:00 PST, drain at 22:00 PST; paid cutoff is October 30 at 17:00 PDT.
 

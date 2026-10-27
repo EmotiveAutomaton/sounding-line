@@ -1,5 +1,201 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-PP3-INPUTS
+
+**Hypothesis.** Can the commissioned process-label comparison receive every released row without inventing timing, mixing project-scoped identities, or leaking labels into its process features?
+
+**METHOD.** Authenticate the complete canonical release and reconstruct each edit envelope from its full Unicode before/after visible text. Within each project and author, use only preceding released rows to construct pause and observed burst features. Mark first rows, tied-time endpoints and discontinuous snapshots as timing-unavailable; retain every row. Extract insertion/deletion/replacement size, visible edit position and fixed LaTeX structural proxies without word content or label features. A fresh native process independently reconstructs the entire source and every prepared row.
+
+The table reports preparation and validation, not predictive scores.
+
+| Check | Complete observation |
+|---|---|
+| Released population | 61,504 rows, five projects, twelve project-scoped author identities; zero row deletions |
+| High-level annotation classes | 5,959 planning; 39,956 implementation; 15,589 revision |
+| Process representation | Twenty-four frozen features; original fifteen annotation labels retained |
+| Observed preceding intervals | 48,751 rows |
+| Missing preceding intervals | 9,799 tied-time rows; 2,942 discontinuous visible snapshots; twelve first rows |
+| Targeted checks | Eight pass, including true first-run creation, corruption refusal, future/label independence and identity isolation |
+| First native attempt | Engineering failure before output: missing directory initialization; retained with its stderr and source capsule |
+| Separate native recovery | Complete execution and independent replay; output initialization fixed without changing features, source or gates |
+| Full source and feature replay | Complete; all current input/code pins and fifteen sealed outputs authenticated |
+| Native closure | All three attempts' workers exited; leases released |
+| Total preparation charge/reserve | 120.96875 of the original 7,200 CPU seconds, including failed attempt, recovery, full replay and construction reserve |
+
+**Found.** Preparation passes. The original native fixture failure is an engineering defect, not a scientific negative. The unit test originally supplied an existing output directory and therefore missed the actual first-run path; the corrected check exercises the missing-directory case. One healing attempt was used. No scientific score or probability was calculated.
+
+**Means.** The classifier can now be built against a complete, reproducible source with missing timing explicit. Released labelled editor rows are a filtered view, not raw physical keypresses; pauses and bursts describe that view. A contiguous edit envelope can combine multiple operations. LaTeX indicators are structural proxies, not a full parser. Project-scoped author identifiers do not establish distinct people; annotator labels are not writer self-report. The trained classifier, leave-one-project-out evaluation, complete references, probability-error and content comparisons, uncertainty and whole-design cost admission remain required. No inference about CoAuthor goals follows.
+
+No tests were harvested from this operational notice; this is implementation of the existing PP3 card. Instrument evidence goes to TOOLS, with no new theory claim or multiplicity entry. Raw source text, row records and identifiers remain private. [Frozen preparation design](docs/design/stage-15/drive/PP3_INPUTS_20261026.md) and [aggregate receipt](results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.json).
+
+Curator roll-up: process labels; Can the process-only comparison retain the complete released source with valid feature provenance?; **Infrastructure**; The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun.; project meaning: prepared inputs do not license goal or mechanism inference; next engineering obligation: build and validate the full classifier, references and cost admission; public scientific claim unchanged; curator decision required: No. Detail: PP3_INPUTS_20261026.md.
+
+### S15-CA5-R-H1-20261026
+
+**Hypothesis.** Do a person's joke-topic preferences recur across different jokes after accounting for joke popularity and that person's general rating tendency?
+
+**METHOD.** An exact program compared topic profiles across odd- and even-numbered jokes for all 50,691 approved complete Jester records, using 1,728,830 observed ratings. Eight lexical topics were frozen from all 150 complete joke texts before rating outcomes; one text without learned topic loading retains uniform weights under the separately frozen correction. Separate least-squares person and item effects on each half's actual observed cells remove additive rating generosity and popularity. Correlation measures how similarly a person's topic departures vary across halves, from minus one for opposite profiles to one for matching profiles; the primary equally weights persons and subtracts the rebuilt reference mean.
+
+The full comparison uses 1,000 within-item residual reassignments and 200 within-person outcome reassignments, rebuilding the additive fit and profiles for each reassignment. Its 2,000 paired-person bootstrap samples resample the resulting real and mean-reference correlations with the fitted population adjustment fixed. Missing cells stay missing; no rater is dropped and no rating is imputed. Every source, feature, known-answer check and statistic was reconstructed in a fresh native process before this landing.
+
+The table compares the same real-person mean correlation with two separately rebuilt references. The reference band is its 2.5th to 97.5th percentile across draws. The excess and its 95% interval use paired real-person resampling. Probabilities are one-sided descriptive permutation values, not multiplicity-adjusted confirmation.
+
+| Comparison | Real mean | Reference mean / standard deviation | Reference 95% band | Excess over reference [95% paired interval] | Descriptive probability |
+|---|---:|---:|---|---|---:|
+| Primary: residuals reassigned among people within each joke | 0.024669 | 0.000034 / 0.002009 | [-0.003950, 0.004050] | 0.024636 [0.020876, 0.028524] | 0.000999001 |
+| Outcome control: residuals reassigned within each person and half | 0.024669 | 0.000135 / 0.002025 | [-0.004068, 0.004038] | 0.024534 [0.020726, 0.028473] | 0.004975124 |
+
+**Found.** Supports small joke-topic preference recurrence beyond additive person and item averages in the approved Jester records; this descriptive conditional comparison does not establish demographic-relative harm judgments or value recovery.
+
+The full result is positive under the frozen conjunction of a positive lower interval endpoint and a primary permutation probability below .05. Neither reference triggers the inherited mean-bias warning: each mean is less than a quarter of its reference standard deviation. All 50,691 records remain, with no constant profiles. The ten unrated items remain in the text census and do not acquire invented ratings. The within-person reference is an outcome control, not a second independent dataset.
+
+The validation table reports known constructed answers using the real exposure mask, not additional empirical effects. The null gate is exact for additive person/item effects; the noise gate concerns the mean of twenty fixed worlds, not absence of every individual false alarm.
+
+| Validation or accounting check | Complete observation |
+|---|---|
+| Additive person/item null | Exactly zero residuals |
+| Stable / reversed planted mean correlation | 0.558916 / -0.559733 |
+| Twenty noise worlds: ensemble mean | 0.000405, within the frozen 0.03 tolerance |
+| Targeted tests and constructed full-bank replay | Thirteen checks pass; original fixture failures and corrections retained |
+| Main immutable pins / sealed outputs | 197 / 17 authenticated |
+| Full execution and fresh verification | Complete; native workers exited and CPU lease released |
+| Main CPU seconds, including replay | 715.875 |
+| All construction reserves, preparation, failed attempt, pilot and main | 1260.375 of the original 1800 CPU seconds; no extension |
+
+**Means.** Personal departures can recur in this joke-rating corpus after subtracting additive population responses and overall rating tendency. The average recurrence is small. The comparison is conditional on observed exposure, this joke bank, learned lexical coordinates, fitted population adjustment and the fixed reference banks. Recommendation-dependent exposure is not randomized or repaired by preserving its mask; residual exchangeability remains an assumption. Numeric item halves are not a test of persistence over time. Topic proxies are not validated psychological categories, and no causal mechanism, competence, objective joke quality, individual-person diagnosis or unrestricted-population claim follows.
+
+The curator approved a separate preference comparison because demographic groups and harm labels are absent. The originally proposed demographic-relative harm replication therefore remains open; the existing DICES result is unchanged. The incomplete archive record remains quarantined by the earlier approval and the advertised-population discrepancy remains unresolved. Original failed text features and all pre-outcome corrections remain preserved. This completes CA5's third and final first-generation follow-up; no descendant is commissioned. No new tests were harvested from this operational notice.
+
+The generic completion envelope always withholds scientific admission: it certifies execution, not a claim. Here the pinned main-mode module and its full fresh verification both admit the completed comparison; this landing applies the frozen outcome and control rules. The four quoted forward/reverse probabilities are registered as descriptive diagnostics under the active packet; their registration does not convert the study into confirmatory evidence.
+
+[Original design](docs/design/stage-15/drive/CA5R_PREFERENCE_20261026.md) · [separate representation correction](docs/design/stage-15/drive/CA5R_PREFERENCE_H1_20261026.md) · [aggregate receipt](results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json). The aggregate receipt retains both opposite-tail probabilities, each 1.0. Private raw ratings, text, identities and reference-draw vectors are not included in this report.
+
+Curator roll-up: personal departures; Do joke-topic preferences recur beyond shared responses and rating generosity?; **Strengthens**; A small conditional topic pattern recurs in the approved joke ratings.; project meaning: another scoped rating setting carries repeatable departures, without identifying human values; next engineering obligation: retain complete evidence, integrate at the digest and continue independent commissioned work, with no follow-up descendants; public claim newly licensed only in the ledger wording above; curator decision required: No. Detail: CA5R_H1_PREFERENCE_20261026.md.
+
+### OPS-S15-W3-CA5R-H1-PREFERENCE-COST
+
+**Hypothesis.** Can the separately approved preference comparison be executed without mistaking generosity, joke popularity or input defects for topic recurrence?
+**METHOD.** Authenticate the entire approved source and frozen text representation; test constructed ratings on the actual exposure mask, then time the fixed one-tenth reference banks and full bootstrap on every person, repeating independently. Scientific statistics are discarded.
+
+The table describes completed instrument validation or preparation, not an empirical preference finding.
+
+| Check | Observation |
+|---|---|
+| Targeted checks | Thirteen pass |
+| Native execution and complete fresh replay | Complete |
+| Frozen pins / output hashes authenticated | 191 / 18 |
+| Execution and verification CPU seconds | 92.5625 |
+| Cumulative charge and reserve / original ceiling | 544.5 / 1800 CPU seconds |
+| conservative full execution and replay cpu seconds | 837.375 |
+| measured comparison cpu seconds | 34.890625 |
+| scope | 10x reference work, 2x fresh replay, 20 percent margin; source/controls charged separately |
+
+**Found.** The full-population cost pilot and independent replay are complete; no partial preference score is released.
+
+**Means.** The separate population-relative comparison retains all approved records. Original demographic-relative harm, private values, competence, objective quality and unrestricted-population claims remain open. The two unit-fixture failures and their corrections are retained in the review receipt: the positive fixture needed identical known coordinates, and a noise expectation required repeated worlds rather than an arbitrary one-world demand. No corpus threshold was tuned after scores. No new theory row or scientific probability follows. No new hypothesis was harvested beyond the curator-approved comparison.
+
+[Design](docs/design/stage-15/drive/CA5R_PREFERENCE_H1_20261026.md) · [receipt](results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_COST_20261026.json).
+
+Curator roll-up: personal departures; Can the approved preference comparison distinguish recurring topics from additive baselines?; **Infrastructure**; The full-population cost pilot and independent replay are complete; no partial preference score is released.; project meaning: scientific comparison remains distinct from preparation; next engineering obligation: complete remaining feature/cost/main admission; public scientific claim unchanged; curator decision required: No. Detail: CA5R_H1_PREFERENCE_COST_20261026.md.
+
+### OPS-S15-W3-CA5R-H1-TOPICS
+
+**Hypothesis.** Can the separately approved preference comparison be executed without mistaking generosity, joke popularity or input defects for topic recurrence?
+**METHOD.** Fit the frozen eight-component lexical representation from all complete joke texts, then reconstruct every feature and parameter in a separate native process without reading ratings.
+
+The table describes completed instrument validation or preparation, not an empirical preference finding.
+
+| Check | Observation |
+|---|---|
+| Targeted checks | Thirteen pass |
+| Native execution and complete fresh replay | Complete |
+| Frozen pins / output hashes authenticated | 35 / 14 |
+| Execution and verification CPU seconds | 3.21875 |
+| Cumulative charge and reserve / original ceiling | 451.9375 / 1800 CPU seconds |
+| texts | 150 |
+| topics | 8 |
+| empty vocabulary items | 1 |
+| zero component items | 1 |
+| iterations | 81 |
+| features sha256 | 99ca96ea8ce08da9c1dd7ba638dfb5538a5e76d1507bda24d510a65d04c3c1d3 |
+
+**Found.** All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun.
+
+**Means.** The separate population-relative comparison retains all approved records. Original demographic-relative harm, private values, competence, objective quality and unrestricted-population claims remain open. The two unit-fixture failures and their corrections are retained in the review receipt: the positive fixture needed identical known coordinates, and a noise expectation required repeated worlds rather than an arbitrary one-world demand. No corpus threshold was tuned after scores. No new theory row or scientific probability follows. No new hypothesis was harvested beyond the curator-approved comparison.
+
+[Design](docs/design/stage-15/drive/CA5R_PREFERENCE_H1_20261026.md) · [receipt](results/phase_2_4_stage_15/DRIVE/CA5R_H1_TOPICS_20261026.json).
+
+Curator roll-up: personal departures; Can the approved preference comparison distinguish recurring topics from additive baselines?; **Infrastructure**; All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun.; project meaning: scientific comparison remains distinct from preparation; next engineering obligation: complete remaining feature/cost/main admission; public scientific claim unchanged; curator decision required: No. Detail: CA5R_H1_TOPICS_20261026.md.
+
+### OPS-S15-W3-CA5R-H1-PREFERENCE-NATIVE
+
+**Hypothesis.** Can the separately approved preference comparison be executed without mistaking generosity, joke popularity or input defects for topic recurrence?
+**METHOD.** Run source authentication, text-only feature reconstruction, sparse additive adjustment, signed and noise known answers, complete reference banks and paired-person intervals on constructed records; replay the entire pipeline in a fresh native process.
+
+The table describes completed instrument validation or preparation, not an empirical preference finding.
+
+| Check | Observation |
+|---|---|
+| Targeted checks | Thirteen pass |
+| Native execution and complete fresh replay | Complete |
+| Frozen pins / output hashes authenticated | 48 / 18 |
+| Execution and verification CPU seconds | 12.71875 |
+| Cumulative charge and reserve / original ceiling | 448.71875 / 1800 CPU seconds |
+
+**Found.** The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+
+**Means.** The separate population-relative comparison retains all approved records. Original demographic-relative harm, private values, competence, objective quality and unrestricted-population claims remain open. The two unit-fixture failures and their corrections are retained in the review receipt: the positive fixture needed identical known coordinates, and a noise expectation required repeated worlds rather than an arbitrary one-world demand. No corpus threshold was tuned after scores. No new theory row or scientific probability follows. No new hypothesis was harvested beyond the curator-approved comparison.
+
+[Design](docs/design/stage-15/drive/CA5R_PREFERENCE_H1_20261026.md) · [receipt](results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_NATIVE_20261026.json).
+
+Curator roll-up: personal departures; Can the approved preference comparison distinguish recurring topics from additive baselines?; **Infrastructure**; The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.; project meaning: scientific comparison remains distinct from preparation; next engineering obligation: complete remaining feature/cost/main admission; public scientific claim unchanged; curator decision required: No. Detail: CA5R_H1_PREFERENCE_NATIVE_20261026.md.
+
+### OPS-S15-W3-CA5R-TOPICS-FAILURE
+
+**Hypothesis.** Can the frozen topic representation cover every valid joke without dropping any item?
+**METHOD.** Inspect the retained native failure and reconstruct vocabulary support from text alone. No ratings or preference results are read.
+
+The table records the complete instrument failure and its pre-outcome correction.
+
+| Check | Observation |
+|---|---|
+| Failure class | Engineering / feature support |
+| Valid texts without retained vocabulary | 1 of 150 |
+| Failed attempt CPU seconds | 1.5625 |
+| Cumulative charge/reserve before correction | 376 CPU seconds |
+| Separate correction targeted checks | 13 pass, including original ten |
+
+**Found.** The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed.
+
+**Means.** The original representation is unadmitted. The separate CA5.r.h1 correction keeps the existing vocabulary, model, seeds and statistical comparison; zero vocabulary or fitted component mass becomes an explicitly uniform topic row. All items and raters remain, and no rating is imputed. Non-convergence still fails. This is a representation-policy amendment, not a scientific rescue or new follow-up generation. A further 60-second construction reserve and native validation remain charged to the original 1,800 seconds. Original demographic-relative harm and archive-population gaps remain open.
+
+[Separate frozen correction](docs/design/stage-15/drive/CA5R_PREFERENCE_H1_20261026.md).
+
+Curator roll-up: representation integrity; Can every valid joke be represented without deleting it?; **Infrastructure**; The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed.; project meaning: original feature admission failed; next engineering obligation: complete separate corrected native replay and text freeze; public scientific claim unchanged; curator decision required: No. Detail: CA5R_TOPICS_FAILURE_20261026.md.
+
+### OPS-S15-W3-CA5R-PREFERENCE-NATIVE
+
+**Hypothesis.** Can the separately approved preference comparison be executed without mistaking generosity, joke popularity or input defects for topic recurrence?
+**METHOD.** Run source authentication, text-only feature reconstruction, sparse additive adjustment, signed and noise known answers, complete reference banks and paired-person intervals on constructed records; replay the entire pipeline in a fresh native process.
+
+The table describes completed instrument validation or preparation, not an empirical preference finding.
+
+| Check | Observation |
+|---|---|
+| Targeted checks | Ten pass |
+| Native execution and complete fresh replay | Complete |
+| Frozen pins / output hashes authenticated | 47 / 18 |
+| Execution and verification CPU seconds | 11.859375 |
+| Cumulative charge and reserve / original ceiling | 374.4375 / 1800 CPU seconds |
+
+**Found.** The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+
+**Means.** The separate population-relative comparison retains all approved records. Original demographic-relative harm, private values, competence, objective quality and unrestricted-population claims remain open. The two unit-fixture failures and their corrections are retained in the review receipt: the positive fixture needed identical known coordinates, and a noise expectation required repeated worlds rather than an arbitrary one-world demand. No corpus threshold was tuned after scores. No new theory row or scientific probability follows. No new hypothesis was harvested beyond the curator-approved comparison.
+
+[Design](docs/design/stage-15/drive/CA5R_PREFERENCE_20261026.md) · [receipt](results/phase_2_4_stage_15/DRIVE/CA5R_PREFERENCE_NATIVE_20261026.json).
+
+Curator roll-up: personal departures; Can the approved preference comparison distinguish recurring topics from additive baselines?; **Infrastructure**; The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.; project meaning: scientific comparison remains distinct from preparation; next engineering obligation: complete remaining feature/cost/main admission; public scientific claim unchanged; curator decision required: No. Detail: CA5R_PREFERENCE_NATIVE_20261026.md.
+
 ### OPS-S15-W3-CA5R-SUPPORT
 
 **Hypothesis.** Can the complete approved ratings input be prepared without silently changing its population or missingness?

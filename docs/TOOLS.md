@@ -2597,6 +2597,20 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-PP3-INPUTS:** The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun. [Complete validation and retained failure](../results/phase_2_4_stage_15/DRIVE/PP3_INPUTS_20261026.md).
+
+**CA5.r.h1 complete corpus replay:** all approved records, source and text features, actual-mask constructed controls and both full reference banks reconstruct in a fresh native process. Thirteen targeted checks pass. The original feature-support failure remains preserved. [Complete scoped comparison](../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.md).
+
+**OPS-S15-W3-CA5R-H1-PREFERENCE-COST:** The full-population cost pilot and independent replay are complete; no partial preference score is released. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_COST_20261026.md).
+
+**OPS-S15-W3-CA5R-H1-TOPICS:** All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_H1_TOPICS_20261026.md).
+
+**OPS-S15-W3-CA5R-H1-PREFERENCE-NATIVE:** The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_NATIVE_20261026.md).
+
+**OPS-S15-W3-CA5R-TOPICS-FAILURE:** The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed. [Failure and correction](../results/phase_2_4_stage_15/DRIVE/CA5R_TOPICS_FAILURE_20261026.md).
+
+**OPS-S15-W3-CA5R-PREFERENCE-NATIVE:** The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_PREFERENCE_NATIVE_20261026.md).
+
 **OPS-S15-W3-CA5R-SUPPORT:** The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_SUPPORT_20261026.md).
 
 **OPS-S15-W3-CA5R-SUPPORT-NATIVE:** The complete-record source checker passes constructed validation; full Jester source preparation remains required. [Complete record](../results/phase_2_4_stage_15/DRIVE/CA5R_SUPPORT_NATIVE_20261026.md).

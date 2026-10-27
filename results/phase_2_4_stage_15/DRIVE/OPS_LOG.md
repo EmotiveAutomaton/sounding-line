@@ -525,3 +525,23 @@ October 26 six-hour health inspection: [native services, resources, locks, deliv
 October 26 OPS-S15-W3-CA5R-SUPPORT-NATIVE: The complete-record source checker passes constructed validation; full Jester source preparation remains required. Counted native workers exited; cumulative charge/reserve 120.515625 CPU seconds.
 
 October 26 OPS-S15-W3-CA5R-SUPPORT: The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. Counted native workers exited; cumulative charge/reserve 122.578125 CPU seconds.
+
+2026-10-26T17:08:42.057854+00:00 OPS-S15-W3-CA5R-PREFERENCE-NATIVE: The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. Cumulative charge/reserve 374.4375 CPU seconds.
+
+2026-10-26T17:14:38.782235+00:00 OPS-S15-W3-CA5R-TOPICS-FAILURE engineering: The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed. Separate .h1 frozen before outcomes; no scientific gate softened.
+
+2026-10-26T17:15:40.890673+00:00 OPS-S15-W3-CA5R-H1-PREFERENCE-NATIVE: The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun. Cumulative charge/reserve 448.71875 CPU seconds.
+
+2026-10-26T17:16:29.062041+00:00 OPS-S15-W3-CA5R-H1-TOPICS: All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun. Cumulative charge/reserve 451.9375 CPU seconds.
+
+2026-10-26T17:19:04.303708+00:00 OPS-S15-W3-CA5R-H1-PREFERENCE-COST: The full-population cost pilot and independent replay are complete; no partial preference score is released. Cumulative charge/reserve 544.5 CPU seconds.
+
+2026-10-26T17:21:32.416334+00:00 CA5.r.h1 full comparison dispatched and native/source/lease/monitor verified. Remaining original allocation 1255.5 CPU seconds; conservative forecast 879.7125. Ready-card target remains unmet; building the next commissioned executable work remains outstanding.
+
+2026-10-26T17:37:35.166319+00:00 S15-CA5-R-H1-20261026: complete execution, independent replay and full internal scientific write-through. All 197 pins and 17 outputs authenticated; native workers exited and lease released. Cumulative charge/reserve 1260.375 of 1800 CPU seconds. No descendants or new tests harvested. Ready-card target remains unmet: ongoing idle capacity is an implementation deficit, not completion of the commission.
+
+October 26, 12:19 PDT six-hour health: [full native, progress, failure, lock, resource, eligible-work and delivery inspection](HEALTH_20261026_1206.md). Eight recent terminal events and all 124 claim anchors authenticate. Watcher/calendar healthy; no research worker or stale CPU lease. Zero ready cards against eight is an implementation/admission defect, with approximately 7.24 inferred idle slot-hours since the last completion. No third shared-span repair, GPU restart or paid call. Prepared and verified the five-file WA0/EV aggregate return; receiving copy is pending confirmation. No new tests harvested; independent ranked builds remain unfinished.
+
+2026-10-27T01:45:01.235712+00:00 OPS-S15-W3-PP3-INPUTS: original native engineering failure (missing output directory) retained; one unchanged-design repair, eight checks and full native/source replay pass. All 61504 rows retained; cumulative charge/reserve 120.96875 of 7200 CPU seconds. Full internal write-through complete; classifier and ready queue remain unfinished.
+
+October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md). Services, actual delivery, fresh calendar, all three PP3 terminal records, native exits, empty leases, resource floors, 21 locks and 125 claim anchors verify. One native initialization defect healed; complete source preparation landed. Zero executable ready cards against eight remains a defect, with approximately 25.65 inferred idle slot-hours since the previous health ACK. Full classifier and independent commissioned builds remain unfinished; no third shared repair, GPU restart or paid call.

@@ -73,6 +73,10 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('CA5.r.h1 item p', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
+    ('CA5.r.h1 item reverse_p', 1.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
+    ('CA5.r.h1 person p', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
+    ('CA5.r.h1 person reverse_p', 1.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/CA5R_H1_PREFERENCE_20261026.json'),
     ('WA0.h1.s.baseline.EV3.final.permutation', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_H1_S_20261025.json'),
     ('WA0.h1.s.baseline.EV3.final.residual.permutation', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_H1_S_20261025.json'),
     ('WA0.h1.s.baseline.EV3.typed.permutation', 0.000999000999000999, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WA0_H1_S_20261025.json'),

@@ -1,0 +1,1005 @@
+{
+  "at": "2026-10-26T19:16:42.604595+00:00",
+  "rows": [
+    {
+      "additional_source": {
+        "anchor": "| Original conditional slope |",
+        "file": "results/phase_2_4_stage_15/DRIVE/EV1_PAUSES_V1.md",
+        "line": 11,
+        "source_sha256": "b1edbd5af20af8a89588b25a82cc6862899ce4eb9e69df310a814f00b880ed14"
+      },
+      "at": "2026-10-25T21:13:47.966354+00:00",
+      "card": "EV1",
+      "control_status": "passes",
+      "correction_class": null,
+      "detail": {
+        "bootstrap": 2000,
+        "control": "within-session permutation bias gate passes; fake writer inapplicable",
+        "permutations": 200
+      },
+      "estimand": "Within-session log pre-word pause slope per page-IQR departure",
+      "estimate": {
+        "interval": [
+          0.060292895,
+          0.086472619
+        ],
+        "point": 0.072960162,
+        "unit": "log pause per page-IQR departure"
+      },
+      "existing_findings_id": "S15-EV1-PAUSES-V1",
+      "id": "S15-EV1-PAUSES-V1",
+      "outcome": "positive",
+      "public_wording": "Supports the scoped association: tested on human writing logs, flagged words came after longer pauses.",
+      "pursuit": "retain scoped evidence; commissioned follow-ups only",
+      "scope": "Human CoAuthor: 44,494 surviving engine-scored words, 41 writers, 286 sessions; descriptive",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "as_of": null,
+        "corpus": "CoAuthor",
+        "evidence_type": "real records",
+        "population": "Human CoAuthor: 44,494 surviving engine-scored words, 41 writers, 286 sessions; descriptive"
+      },
+      "source": {
+        "anchor": "### S15-EV1-PAUSES-V1",
+        "file": "FINDINGS.md",
+        "line": 1809,
+        "previous_source_sha256": "bad5704e06c09eb0121379f14a3a383bdd2e7af36359086ddcfef20ce780ff91",
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Survival selection and other causes of pausing; conditional association does not establish causal attention",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Owner-reviewed completed source evidence; controls and limitations retained, no new computation"
+    },
+    {
+      "at": "2026-10-25T21:13:47.967404+00:00",
+      "card": "EV2",
+      "control_status": "passes",
+      "correction_class": null,
+      "detail": {
+        "bootstrap": 2000,
+        "permutations": 200,
+        "support": "common supported source rows; final document exports, not human-only wording"
+      },
+      "estimand": "Own-minus-other cross-prompt phrase recurrence",
+      "estimate": {
+        "interval": [
+          0.0461,
+          3.1419
+        ],
+        "point": 1.3842,
+        "unit": "occurrences per 10,000 words"
+      },
+      "existing_findings_id": "S15-EV2-SIGNATURES-V1",
+      "id": "S15-EV2-SIGNATURES-V1",
+      "outcome": "positive",
+      "public_wording": "Supports the scoped aggregate route: recurs in the writer's other work.",
+      "pursuit": "retain scoped evidence; commissioned follow-ups only",
+      "scope": "Human CoAuthor process records; descriptive",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "as_of": null,
+        "corpus": "CoAuthor",
+        "evidence_type": "real records",
+        "population": "Human CoAuthor process records; descriptive"
+      },
+      "source": {
+        "anchor": "### S15-EV2-SIGNATURES-V1",
+        "file": "FINDINGS.md",
+        "line": 1857,
+        "previous_source_sha256": "bad5704e06c09eb0121379f14a3a383bdd2e7af36359086ddcfef20ce780ff91",
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Shared prompt language and accepted AI text; no private preference or each-phrase guarantee",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Owner-reviewed completed source evidence; controls and limitations retained, no new computation"
+    },
+    {
+      "additional_source": {
+        "anchor": "| Final-document engine habits |",
+        "file": "results/phase_2_4_stage_15/DRIVE/EV3_IDENTIFICATION_V1.md",
+        "line": 11,
+        "source_sha256": "00491e9192cb6b420d6443da31dddcaee75c379c9307244e24ced33dd6236c9f"
+      },
+      "at": "2026-10-25T21:13:47.968824+00:00",
+      "card": "EV3",
+      "control_status": "invalid",
+      "correction_class": "scope",
+      "detail": {
+        "feature_counts": {
+          "final": 17,
+          "typed_nonconstant": 16
+        },
+        "final_document": {
+          "fake_mean": 0.014333,
+          "interval": [
+            0.229994,
+            0.497558
+          ],
+          "point": 0.363444,
+          "real_accuracy": 0.377778,
+          "unit": "real-minus-fake correct fraction"
+        },
+        "interval_absence": "No interval was reported for this source count, operational state, or descriptive point; none is invented.",
+        "permutations": 200,
+        "surviving_typed": {
+          "fake_mean": 0.03,
+          "interval": [
+            0.332094,
+            0.628231
+          ],
+          "point": 0.481111,
+          "real_accuracy": 0.511111,
+          "unit": "real-minus-fake correct fraction"
+        }
+      },
+      "estimand": "Cross-prompt habit identification over a fixed 45-writer gallery",
+      "estimate": {
+        "interval": null,
+        "point": null,
+        "unit": null
+      },
+      "existing_findings_id": "S15-EV3-IDENTIFICATION-V1",
+      "id": "S15-EV3-IDENTIFICATION-V1",
+      "original_public_wording": "Descriptive only: both engine habit variants fail their frozen fake-reference bias gate; no habit badge is licensed.",
+      "outcome": "invalid control",
+      "public_wording": "Descriptive only: both original engine-habit variants fail their frozen fake-reference bias gate and license no badge under that original design.",
+      "pursuit": "retain scoped evidence; commissioned follow-ups only",
+      "scope": "Human CoAuthor final documents and surviving typed fragments, 45 eligible of 61 writers; fixed galleries; descriptive",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "as_of": null,
+        "corpus": "CoAuthor",
+        "evidence_type": "real records",
+        "population": "Human CoAuthor final documents and surviving typed fragments, 45 eligible of 61 writers; fixed galleries; descriptive"
+      },
+      "source": {
+        "anchor": "### S15-EV3-IDENTIFICATION-V1",
+        "file": "FINDINGS.md",
+        "line": 1825,
+        "previous_source_sha256": "bad5704e06c09eb0121379f14a3a383bdd2e7af36359086ddcfef20ce780ff91",
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Biased reassignment references; accepted AI text in final documents; synthetic gap boundaries in typed fragments",
+      "superseded_by": [
+        "S15-WA0-H1-20261025"
+      ],
+      "supersedes": [],
+      "warrant": "Owner-reviewed completed source evidence; controls and limitations retained, no new computation"
+    },
+    {
+      "at": "2026-10-25T21:45:44.295765+00:00",
+      "card": "WA0",
+      "control_status": "invalid",
+      "correction_class": "control",
+      "detail": "DRIVE/WA0_20261025.md",
+      "estimand": "Conditional fixed-gallery identification and reference difference",
+      "estimate": {
+        "interval": [
+          0.2222222222222222,
+          0.4888888888888889
+        ],
+        "point": 0.35555555555555557
+      },
+      "id": "S15-WA0-LITERAL-20261025",
+      "outcome": "invalid instrument for licensing",
+      "public_wording": "Descriptive only: the literal leave-writer-out reference can carry the omitted writer's identity and licenses no badge.",
+      "pursuit": "Commissioned downstream cards and frozen one-generation checks only",
+      "scope": "Human CoAuthor source records and mixed human/model final documents; exact nearest-neighbour program over frozen features. All 1,399 original sessions and 990 genre-matched sessions are retained. Identification probes retain 45 eligible writers, each tested once against a fixed 30-writer gallery. Genre probes retain all 24 writers, each tested once against 16. The estimates are descriptive and conditional on those galleries and features; intervals resample probe writers, not galleries. No psychological automaticity, causal mechanism, private preference or general population identification claim follows.",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "corpus": "CoAuthor",
+        "evidence_type": "real human process and mixed human/model artifact records",
+        "population": "45 writer probes; genre comparison 24"
+      },
+      "source": {
+        "anchor": "### S15-WA0-LITERAL-20261025",
+        "file": "FINDINGS.md",
+        "line": 1308,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Device/recording/context confounding and mixed human/model final text; descriptive classification does not identify psychological mechanism",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Known-answer checks, complete corpus replays and owner source/output verification"
+    },
+    {
+      "at": "2026-10-25T21:45:44.295784+00:00",
+      "card": "WA0.h1",
+      "control_status": "passes",
+      "correction_class": "control",
+      "detail": "DRIVE/WA0_20261025.md",
+      "estimand": "Conditional fixed-gallery identification and reference difference",
+      "estimate": {
+        "interval": [
+          0.26666666666666666,
+          0.5777777777777777
+        ],
+        "point": 0.4222222222222222,
+        "unit": "correct-identification fraction"
+      },
+      "id": "S15-WA0-H1-20261025",
+      "outcome": "positive scoped identification",
+      "public_wording": "Supports corpus-specific writer identification from final-document habit profiles beyond independent prompt context, including after accepted-share adjustment; the tested gallery has 30 writers and each of 45 eligible writers is probed once.",
+      "pursuit": "Commissioned downstream cards and frozen one-generation checks only",
+      "raw_p": 0.000999000999000999,
+      "scope": "Human CoAuthor source records and mixed human/model final documents; exact nearest-neighbour program over frozen features. All 1,399 original sessions and 990 genre-matched sessions are retained. Identification probes retain 45 eligible writers, each tested once against a fixed 30-writer gallery. Genre probes retain all 24 writers, each tested once against 16. The estimates are descriptive and conditional on those galleries and features; intervals resample probe writers, not galleries. No psychological automaticity, causal mechanism, private preference or general population identification claim follows.",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "corpus": "CoAuthor",
+        "evidence_type": "real human process and mixed human/model artifact records",
+        "population": "45 writer probes; genre comparison 24",
+        "successor_note": "New measurement and smaller galleries; original outputs and failed flags remain unchanged"
+      },
+      "source": {
+        "anchor": "### S15-WA0-H1-20261025",
+        "file": "FINDINGS.md",
+        "line": 1194,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Device/recording/context confounding and mixed human/model final text; descriptive classification does not identify psychological mechanism",
+      "superseded_by": [],
+      "supersedes": [
+        "S15-EV3-IDENTIFICATION-V1"
+      ],
+      "warrant": "Known-answer checks, complete corpus replays and owner source/output verification"
+    },
+    {
+      "at": "2026-10-25T21:45:44.295794+00:00",
+      "card": "GEN1.ic",
+      "control_status": "passes",
+      "correction_class": "arithmetic",
+      "detail": "DRIVE/WA0_20261025.md",
+      "estimand": "Matched creative-minus-argumentative identification and measured paired sensitivity",
+      "estimate": {
+        "rhythm": {
+          "bootstrap_draws": 2000,
+          "bootstrap_se": 0.06574311501850341,
+          "ci_high": 0.25,
+          "ci_low": 0.0,
+          "effect": 0.125,
+          "state": "marginal",
+          "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+          "writers": 24
+        },
+        "style": {
+          "bootstrap_draws": 2000,
+          "bootstrap_se": 0.06778951838707496,
+          "ci_high": 0.0,
+          "ci_low": -0.2916666666666667,
+          "effect": -0.125,
+          "state": "null",
+          "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+          "writers": 24
+        }
+      },
+      "id": "S15-GEN1-IC-20261025",
+      "outcome": "feature-specific diagnostic; planning sensitivity limited",
+      "public_wording": "No general fiction advantage detected: style has no creative advantage; rhythm supports a positive genre-swap diagnostic with its interval touching zero and a nonsignificant exact paired diagnostic. Frame detection and the broader play claim remain open.",
+      "pursuit": "Commissioned downstream cards and frozen one-generation checks only",
+      "scope": "Human CoAuthor source records and mixed human/model final documents; exact nearest-neighbour program over frozen features. All 1,399 original sessions and 990 genre-matched sessions are retained. Identification probes retain 45 eligible writers, each tested once against a fixed 30-writer gallery. Genre probes retain all 24 writers, each tested once against 16. The estimates are descriptive and conditional on those galleries and features; intervals resample probe writers, not galleries. No psychological automaticity, causal mechanism, private preference or general population identification claim follows.",
+      "scope_qualifiers": {
+        "analysis": "descriptive",
+        "corpus": "CoAuthor",
+        "evidence_type": "real human process and mixed human/model artifact records",
+        "population": "45 writer probes; genre comparison 24"
+      },
+      "source": {
+        "anchor": "### S15-GEN1-IC-20261025",
+        "file": "FINDINGS.md",
+        "line": 1317,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Device/recording/context confounding and mixed human/model final text; descriptive classification does not identify psychological mechanism",
+      "superseded_by": [],
+      "supersedes": [
+        "S15-GEN1"
+      ],
+      "warrant": "Known-answer checks, complete corpus replays and owner source/output verification"
+    },
+    {
+      "at": "2026-10-25T23:47:38.870151+00:00",
+      "card": "WA0.h1.m",
+      "control_status": "passes within stated channels",
+      "correction_class": null,
+      "detail": "DRIVE/WA0_H1_M_20261025.md",
+      "estimand": "Conditional fixed-gallery identification robustness",
+      "estimate": {
+        "all_channels": "DRIVE/WA0_H1_M_20261025.json",
+        "primary_members": {
+          "baseline": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.03691111111111111,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0739452115929702,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.26666666666666666,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "without_connectives": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.0326,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.35555555555555557
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07145067802210393,
+              "ci_high": 0.5111111111111111,
+              "ci_low": 0.2222222222222222,
+              "effect": 0.35555555555555557,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "without_punctuation": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.05442222222222222,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.13333333333333333,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07294520695466024,
+              "ci_high": 0.5333333333333333,
+              "ci_low": 0.26666666666666666,
+              "effect": 0.4,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "without_quoted_share": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.038266666666666664,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0735784093553292,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.26666666666666666,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "without_sentence_length": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.033355555555555555,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.3333333333333333
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07009345527338488,
+              "ci_high": 0.4666666666666667,
+              "ci_low": 0.2,
+              "effect": 0.3333333333333333,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          }
+        }
+      },
+      "id": "S15-WA0-H1-M-20261025",
+      "outcome": "positive within scope",
+      "public_wording": "Supports conditional final-page identification after each single feature-block removal; no individual block's necessity or causal role is established.",
+      "pursuit": "No further generation",
+      "scope": "Same CoAuthor source, 45 eligible writers, fixed galleries of 30, complete predeclared members",
+      "scope_qualifiers": {
+        "analysis": "descriptive, same-dataset robustness",
+        "corpus": "CoAuthor",
+        "population": "45 eligible writers",
+        "substrate": "human process records and mixed human/model pages"
+      },
+      "source": {
+        "anchor": "### S15-WA0-H1-M-20261025",
+        "file": "FINDINGS.md",
+        "line": 759,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Mixed human/model pages, fixed gallery uncertainty, correlated features and recording conditions; no human causal mechanism",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Full known-answer validation, complete corpus execution and independent fresh replay"
+    },
+    {
+      "at": "2026-10-25T23:47:38.870178+00:00",
+      "card": "WA0.h1.p",
+      "control_status": "passes within stated channels",
+      "correction_class": null,
+      "detail": "DRIVE/WA0_H1_P_20261025.md",
+      "estimand": "Conditional fixed-gallery identification robustness",
+      "estimate": {
+        "all_channels": "DRIVE/WA0_H1_P_20261025.json",
+        "primary_members": {
+          "baseline": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.03691111111111111,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0739452115929702,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.26666666666666666,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "correlation": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.03504444444444445,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.37777777777777777
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0728346985361576,
+              "ci_high": 0.5111111111111111,
+              "ci_low": 0.24444444444444444,
+              "effect": 0.37777777777777777,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          }
+        }
+      },
+      "id": "S15-WA0-H1-P-20261025",
+      "outcome": "positive within scope",
+      "public_wording": "Supports final-page identification under the second reader; three process channels fail its joint gate, so robustness does not cover every channel.",
+      "pursuit": "No further generation",
+      "scope": "Same CoAuthor source, 45 eligible writers, fixed galleries of 30, complete predeclared members",
+      "scope_qualifiers": {
+        "analysis": "descriptive, same-dataset robustness",
+        "corpus": "CoAuthor",
+        "population": "45 eligible writers",
+        "substrate": "human process records and mixed human/model pages"
+      },
+      "source": {
+        "anchor": "### S15-WA0-H1-P-20261025",
+        "file": "FINDINGS.md",
+        "line": 810,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Mixed human/model pages, fixed gallery uncertainty, correlated features and recording conditions; no human causal mechanism",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Full known-answer validation, complete corpus execution and independent fresh replay"
+    },
+    {
+      "at": "2026-10-26T00:08:10.797050+00:00",
+      "card": "WA0.h1.s",
+      "control_status": "passes within stated channels",
+      "correction_class": null,
+      "detail": "DRIVE/WA0_H1_S_20261025.md",
+      "estimand": "Conditional identification across frozen donor/probe/gallery partitions",
+      "estimate": {
+        "primary_members": {
+          "baseline": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.03691111111111111,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0739452115929702,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.26666666666666666,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "fold_seed_20261027": {
+            "chance": 0.03333333333333334,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              30,
+              30
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.0368,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4444444444444444
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07433686686302404,
+              "ci_high": 0.6,
+              "ci_low": 0.28888888888888886,
+              "effect": 0.4444444444444444,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "fold_seed_20261028": {
+            "chance": 0.033333333333333326,
+            "context": {
+              "accuracy": 0.022222222222222223
+            },
+            "fold_gallery_sizes": [
+              31,
+              28,
+              31
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.04237777777777777,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.1111111111111111,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.0796083521530284,
+              "ci_high": 0.5333333333333333,
+              "ci_low": 0.2222222222222222,
+              "effect": 0.37777777777777777,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "fold_seed_20261029": {
+            "chance": 0.03333415729411281,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              31,
+              29
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.038288888888888886,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.08888888888888889,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07411516137644766,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.28888888888888886,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          },
+          "fold_seed_20261030": {
+            "chance": 0.033332509372553866,
+            "context": {
+              "accuracy": 0.0
+            },
+            "fold_gallery_sizes": [
+              30,
+              29,
+              31
+            ],
+            "pass_both": true,
+            "permutation": {
+              "attempted": 1000,
+              "invalid": 0,
+              "mean": 0.047266666666666665,
+              "one_sided_p": 0.000999000999000999,
+              "q025": 0.0,
+              "q975": 0.1111111111111111,
+              "state": "complete"
+            },
+            "real": {
+              "accuracy": 0.4222222222222222
+            },
+            "real_minus_context": {
+              "bootstrap_draws": 2000,
+              "bootstrap_se": 0.07366243906711555,
+              "ci_high": 0.5777777777777777,
+              "ci_low": 0.28888888888888886,
+              "effect": 0.4222222222222222,
+              "state": "positive",
+              "uncertainty": "real probe-writer bootstrap; complete B gallery fixed; paired arms",
+              "writers": 45
+            },
+            "state": "positive",
+            "writers": 45
+          }
+        },
+        "specification_curve": {
+          "EV3.final": {
+            "accuracy_range": [
+              0.4,
+              0.4888888888888889
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.4,
+              0.4888888888888889
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "EV3.final.residual": {
+            "accuracy_range": [
+              0.4,
+              0.4444444444444444
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.37777777777777777,
+              0.4444444444444444
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "EV3.typed": {
+            "accuracy_range": [
+              0.4666666666666667,
+              0.5555555555555556
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.4666666666666667,
+              0.5555555555555556
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.final_style": {
+            "accuracy_range": [
+              0.28888888888888886,
+              0.3333333333333333
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.28888888888888886,
+              0.3333333333333333
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.final_style.residual": {
+            "accuracy_range": [
+              0.28888888888888886,
+              0.3333333333333333
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.28888888888888886,
+              0.3333333333333333
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.lean": {
+            "accuracy_range": [
+              0.17777777777777778,
+              0.26666666666666666
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.13333333333333333,
+              0.24444444444444444
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.length": {
+            "accuracy_range": [
+              0.2222222222222222,
+              0.26666666666666666
+            ],
+            "all_pass": false,
+            "all_supported": true,
+            "context_gap_range": [
+              0.1111111111111111,
+              0.24444444444444444
+            ],
+            "passing": 4,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.requests": {
+            "accuracy_range": [
+              0.2,
+              0.26666666666666666
+            ],
+            "all_pass": false,
+            "all_supported": true,
+            "context_gap_range": [
+              0.1111111111111111,
+              0.26666666666666666
+            ],
+            "passing": 4,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.revision": {
+            "accuracy_range": [
+              0.28888888888888886,
+              0.4
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.26666666666666666,
+              0.4
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.rhythm": {
+            "accuracy_range": [
+              0.8222222222222222,
+              0.8888888888888888
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.8222222222222222,
+              0.8888888888888888
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          },
+          "PMAP.style": {
+            "accuracy_range": [
+              0.37777777777777777,
+              0.4888888888888889
+            ],
+            "all_pass": true,
+            "all_supported": true,
+            "context_gap_range": [
+              0.37777777777777777,
+              0.4888888888888889
+            ],
+            "passing": 5,
+            "scope": "all frozen balanced partitions shown; no best partition, pooled permutation probability or successful-subset aggregate",
+            "specifications": 5
+          }
+        }
+      },
+      "id": "S15-WA0-H1-S-20261025",
+      "outcome": "positive within scope",
+      "public_wording": "Supports final-page identification across all five frozen role partitions; length and request-count channels fail one partition, so robustness is not uniform across channels.",
+      "pursuit": "No further generation",
+      "scope": "Complete five-partition by eleven-channel curve on 45 eligible CoAuthor writers",
+      "scope_qualifiers": {
+        "analysis": "descriptive, same-dataset robustness",
+        "corpus": "CoAuthor",
+        "population": "45 eligible writers",
+        "substrate": "human process records and mixed human/model pages"
+      },
+      "source": {
+        "anchor": "### S15-WA0-H1-S-20261025",
+        "file": "FINDINGS.md",
+        "line": 669,
+        "source_sha256": "056ed61712426e2593efdaa6846d8025e0e3a5dfce0b196296ced501013c59f2"
+      },
+      "strongest_rival": "Mixed human/model pages, recording conditions and conditional gallery uncertainty; same writers in every partition",
+      "superseded_by": [],
+      "supersedes": [],
+      "warrant": "Complete native validation, full corpus execution and fresh independent replay"
+    }
+  ],
+  "schema": "sounding-line.claim-return.v1",
+  "source_file": "results/phase_2_4_stage_15/CLAIM_LEDGER.json",
+  "source_sha256": "b2be6abfc2824434c78172623c4d57dad073c1f1b913c9eebfde25b8d7c24c0f"
+}

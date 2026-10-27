@@ -1,5 +1,23 @@
 # October 16 drive: execution index
 
+**October 26 process-label preparation:** [Complete validation and retained repair](PP3_INPUTS_20261026.md). The complete released ScholaWrite source and process features pass independent reconstruction; the project-held-out classifier and its controls remain unrun. All workers exited. The ready-card target remains unmet; independent commissioned builds continue. Existing shared-source, full-design cost, GPU and paid-transfer holds remain. Earlier launch snapshots are historical.
+
+**October 26 six-hour health inspection:** [Complete inspection](HEALTH_20261026_1206.md). Services, delivery, completed evidence, resource floors and leases verify. No research worker is active; zero ready cards against eight remains an implementation defect. The [WA0/EV aggregate return](WA0_RETURN_20261026/README.md) is prepared, with receiving-copy confirmation pending. Existing source, cost, GPU and paid-transfer holds remain.
+
+**October 26 full preference comparison complete:** [Complete record](CA5R_H1_PREFERENCE_20261026.md), claim S15-CA5-R-H1-20261026. Full execution and independent replay are landed. Worker exited; no descendants. Other commissioned work remains unfinished.
+
+**October 26 full preference comparison running:** [Verified launch](CA5R_H1_MAIN_LAUNCH_20261026.md). Full scientific outcome awaits completion and independent replay.
+
+**October 26 preference preparation:** [Complete record](CA5R_H1_PREFERENCE_COST_20261026.md). The full-population cost pilot and independent replay are complete; no partial preference score is released.
+
+**October 26 preference preparation:** [Complete record](CA5R_H1_TOPICS_20261026.md). All joke-text features are frozen and independently reconstructed without rating outcomes; the preference comparison remains unrun.
+
+**October 26 preference preparation:** [Complete record](CA5R_H1_PREFERENCE_NATIVE_20261026.md). The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+
+**October 26 feature-support failure:** [Retained failure and correction](CA5R_TOPICS_FAILURE_20261026.md). The first text-only representation failed because one valid joke had no retained vocabulary; no preference score was computed.
+
+**October 26 preference preparation:** [Complete record](CA5R_PREFERENCE_NATIVE_20261026.md). The separate preference instrument passes constructed native execution and complete independent replay; the human comparison remains unrun.
+
 **October 26 Jester input preparation:** [Complete record](CA5R_SUPPORT_20261026.md). The full approved Jester population passes the source-support census and independent replay; the recurrence comparison remains unrun. Scientific scope and comparable feature construction remain separate; GPU and source holds remain.
 
 **October 26 Jester input preparation:** [Complete record](CA5R_SUPPORT_NATIVE_20261026.md). The complete-record source checker passes constructed validation; full Jester source preparation remains required. Scientific scope and comparable feature construction remain separate; GPU and source holds remain.
