@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-TR3-TYPING-COMPLETE:** [Record](TR3_TYPING_COMPLETE_20261026.md). The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
+
 **October 26 TR3 typing context:** [Running full source](TR3_TYPING_LAUNCH_20261026.md). Complete native validation has landed; scientific comparison remains unbuilt.
 
 **OPS-S15-W3-TR3-TYPING-NATIVE:** [Record](TR3_TYPING_NATIVE_20261026.md). The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.

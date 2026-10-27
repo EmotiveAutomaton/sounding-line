@@ -112,3 +112,4 @@ Verification gaps: Ghost N17 still requires a primary companion receipt; EV4 cop
 | OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE | TR3-inputs-native | infrastructure / passes | The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
 | OPS-S15-W3-TR3-SOURCE-COMPLETE | TR3-inputs | infrastructure / passes | The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested. |
 | OPS-S15-W3-TR3-TYPING-NATIVE | operational | infrastructure / passes | The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates. |
+| OPS-S15-W3-TR3-TYPING-COMPLETE | TR3-typing | infrastructure / passes | The complete typing-context source passes independent reconstruction; cross-session carryover remains untested. |

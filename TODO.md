@@ -1,10 +1,12 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-TR3-TYPING-COMPLETE: The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
+
 - [x] OPS-S15-W3-TR3-TYPING-NATIVE: The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
 
 - [x] OPS-S15-W3-TR3-SOURCE-COMPLETE: The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested.
 
-- [ ] TR3: complete exposure census recorded; exact typing-context source running in Gear 2. Discovery features, production-time occurrence semantics, calibrated matched-placebo comparison and whole-study cost admission remain. Prior charge/reserve 501.546875 of 7200 CPU seconds; current source allowance 1200. [Launch](results/phase_2_4_stage_15/DRIVE/TR3_TYPING_LAUNCH_20261026.md).
+- [ ] TR3: complete exposure and typing-context sources independently verified and recorded. Discovery features, production-time occurrence semantics, calibrated matched-placebo comparison and whole-study cost admission remain unbuilt. Cumulative charge/reserve 1350.71875 of 7200 CPU seconds. [Complete typing source](results/phase_2_4_stage_15/DRIVE/TR3_TYPING_COMPLETE_20261026.md).
 
 - [x] OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE: fifteen checks and complete independent native replay pass.
 

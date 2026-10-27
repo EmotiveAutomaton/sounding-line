@@ -1,6 +1,6 @@
 # STATE: the agent's operational file
 
-**October 26 TR3 typing context running:** [Verified launch](../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_LAUNCH_20261026.md). The complete exposure census has landed; full typing-context preparation is running in Gear 2 after nine checks and native replay. Feature selection and the carryover comparison remain unbuilt. Counted ownership, progress and monitoring verify. The wider ready-card target and existing GPU, source/cost and receiving-copy holds remain.
+**October 26 TR3 typing source complete:** [Complete instrument record](../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_COMPLETE_20261026.md). All primary edit streams, final documents and insertion counts pass independent replay. Source workers exited. Discovery features and the carryover comparison remain unbuilt; the wider ready-card target and existing GPU, source/cost and receiving-copy holds remain.
 
 **October 26 TR3 source complete:** [Complete instrument record](../results/phase_2_4_stage_15/DRIVE/TR3_SOURCE_COMPLETE_20261026.md). All primary sessions, exact writer splitting and complete chronological-source replay are verified. Source workers exited. The carryover comparison and wider ready-card backlog remain unfinished; GPU, source/cost and receiving-copy approval holds persist. The daily digest and prior failures remain recorded.
 

@@ -363,4 +363,4 @@ original failed versions remain. Do not rerun or edit a live plan's imported
 source. Read the [execution index](../../results/phase_2_4_stage_15/DRIVE/INDEX.md)
 before dispatch; prepare/run commands refuse an existing attempt identity.
 
-`week3_tr3_typing` preserves exact edit context and insertion provenance; nine checks and native replay pass, full primary source is running. It emits no scientific feature or effect.
+`week3_tr3_typing` preserves exact edit context and insertion provenance; nine checks and complete primary-corpus independent replay pass. It emits no scientific feature or effect. The [full source receipt](../../results/phase_2_4_stage_15/DRIVE/TR3_TYPING_COMPLETE_20261026.md) retains its counts and cost.

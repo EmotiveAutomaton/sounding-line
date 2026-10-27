@@ -589,3 +589,7 @@ October 26, 18:46 PDT six-hour health: [full inspection](HEALTH_20261026_1821.md
 2026-10-27T03:37:09.788979+00:00 OPS-S15-W3-TR3-TYPING-NATIVE: The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates.
 
 2026-10-27T03:39:49.217650+00:00 TR3 typing-context source dispatched after full native landing; exact owner, counted lease, progress and terminal monitoring verify. No new research, GPU or paid authority. Source preparation follows the completed chronological census. Ready queue below eight-card target; remaining build backlog is an idle-capacity defect.
+
+2026-10-27T03:54:32.115827+00:00 OPS-S15-W3-TR3-TYPING-COMPLETE: The complete typing-context source passes independent reconstruction; cross-session carryover remains untested.
+
+OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks count 12 -> 15, matching the saved passing test report and existing Markdown. No run, cost or claim changed.
