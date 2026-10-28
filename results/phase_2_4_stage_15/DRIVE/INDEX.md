@@ -1,5 +1,105 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-PUBLICATION-REVIEW-1027:** [Record](PUBLICATION_REVIEW_20261027.md). Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.
+
+**OPS-S15-W3-DIGEST-20261027:** [Record](DIGEST_20261027.md). Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.
+
+**OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE:** [Record](FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md). Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed.
+
+**OPS-S15-W3-FIC1-CONTEXT-RECOVERY-NATIVE:** [Record](FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md). The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun.
+
+**OPS-S15-W3-FIC1-CONTEXT-COST-STOP:** [Record](FIC1_CONTEXT_COST_STOP_20261027.md). FIC1 context construction reached its component CPU cap during independent verification; retained output remains unverified and human identification uncomputed.
+
+**OPS-S15-W3-FIC1-CONTEXT-TIMING-NATIVE:** [Record](FIC1_CONTEXT_TIMING_NATIVE_20261027.md). The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun.
+
+**OPS-S15-W3-FIC1-CONTEXT-NATIVE:** [Record](FIC1_CONTEXT_NATIVE_20261027.md). The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed.
+
+**OPS-S15-W3-FIC1-SCORING-NATIVE:** [Record](FIC1_SCORING_NATIVE_20261027.md). The FIC1 scoring core passes known-answer arithmetic and independent native replay; human identification and full control calibration remain uncomputed.
+
+**OPS-S15-W3-FIC1-REASSIGNMENT-TIMING:** [Record](FIC1_REASSIGNMENT_TIMING_20261027.md). Complete FIC1 identity and single-shuffle profile reconstruction independently replay; the scientific reference bank and identification remain uncomputed.
+
+**OPS-S15-W3-FIC1-REASSIGNMENT-NATIVE:** [Record](FIC1_REASSIGNMENT_NATIVE_20261027.md). The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured.
+
+**OPS-S15-W3-FIC1-GALLERY-RECOVERY-COMPLETE:** [Record](FIC1_GALLERY_RECOVERY_COMPLETE_20261027.md). Complete FIC1 galleries and length adjustments independently replay after the first loader repair; identification and its controls remain uncomputed.
+
+**OPS-S15-W3-FIC1-GALLERY-RECOVERY-NATIVE:** [Record](FIC1_GALLERY_RECOVERY_NATIVE_20261027.md). The first FIC1 gallery loader repair passes predecessor-schema checks, numerical parity and independent native replay; corpus recovery and identification remain unfinished.
+
+**OPS-S15-W3-FIC1-GALLERY-ORDER-FAILURE:** [Record](FIC1_GALLERY_ORDER_FAILURE_20261027.md). FIC1 gallery preparation stopped before fitting on an order-sensitive predecessor comparison; all keyed profile contents agree, and the first engineering repair is being prepared.
+
+**OPS-S15-W3-FIC1-GALLERY-NATIVE:** [Record](FIC1_GALLERY_NATIVE_20261027.md). The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**OPS-S15-W3-FIC1-PREFIX-COMPLETE:** [Record](FIC1_PREFIX_COMPLETE_20261027.md). Complete FIC1 production occurrences and fixed-length prefix features independently replay; identification remains uncomputed.
+
+**OPS-S15-W3-FIC1-PREFIX-LAUNCH:** [Record](FIC1_PREFIX_LAUNCH_20261027.md). Complete FIC1 prefix preparation is running in Gear 2 after native validation and measured cost admission; identification remains uncomputed.
+
+**OPS-S15-W3-FIC1-PREFIX-TIMING:** [Record](FIC1_PREFIX_TIMING_20261027.md). The bounded FIC1 prefix timing pass independently replays; complete prefix preparation is cost-admitted, while identification remains uncomputed.
+
+**OPS-S15-W3-FIC1-PREFIX-NATIVE:** [Record](FIC1_PREFIX_NATIVE_20261027.md). The exact FIC1 prefix builder passes known-answer checks and independent native replay; corpus preparation and identification remain unfinished.
+
+**OPS-S15-W3-FIC1-FEATURE-COMPLETE:** [Record](FIC1_FEATURE_COMPLETE_20261027.md). Complete FIC1 session features independently replay with full production and original memberships; identification remains uncomputed.
+
+**OPS-S15-W3-FIC1-FEATURE-NATIVE:** [Record](FIC1_FEATURE_NATIVE_20261027.md). The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.
+
+**OPS-S15-W3-FIC1-INPUT-COMPLETE:** [Record](FIC1_INPUT_COMPLETE_20261027.md). Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.
+
+**OPS-S15-W3-FIC1-INPUT-NATIVE:** [Record](FIC1_INPUT_NATIVE_20261027.md). The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**S15-P3C-CALIBRATION-20261027:** [Record](P3C_CALIBRATION_COMPLETE_20261027.md). The edit-intent classifier fails its frozen agreement gate against agent-made labels; population edit-intent labels remain unadmitted.
+
+**OPS-S15-W3-P3C-CALIBRATION-LAUNCH:** [Record](P3C_CALIBRATION_LAUNCH_20261027.md). The CPU edit-intent timing and complete blind-label calibration are running in Gear 2 with independent replay and explicit token coverage; no unfinished score is admitted.
+
+**OPS-S15-W3-P3C-CLASSIFIER-NATIVE:** [Record](P3C_CLASSIFIER_NATIVE_20261027.md). The pinned CPU edit-intent classifier passes numerical and input-support checks with independent replay; complete blind-label calibration remains required.
+
+**S15-TR3-CALIBRATION-20261027:** [Record](TR3_CALIBRATION_COMPLETE_20261027.md). In constructed worlds, the recurrence instrument fails its frozen negative-direction sensitivity requirement; human carryover remains untested.
+
+**OPS-S15-W3-TR3-CALIBRATION-LAUNCH:** [Record](TR3_CALIBRATION_LAUNCH_20261027.md). The complete constructed TR3 calibration is running in Gear 2 under the original CPU ceiling; no human carryover or unfinished calibration score is admitted.
+
+**OPS-S15-W3-TR3-CALIBRATION-TIMING:** [Record](TR3_CALIBRATION_TIMING_20261027.md). The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference.
+
+**OPS-S15-W3-TR3-FIXTURE-CORRECTED:** [Record](TR3_FIXTURE_CORRECTED_20261027.md). The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference.
+
+**OPS-S15-W3-P3C-MODEL-INTAKE:** [Record](P3C_MODEL_INTAKE_20261027.md). The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested.
+
+**OPS-S15-W3-P3C-INPUT-COMPLETE:** [Record](P3C_INPUT_COMPLETE_20261027.md). The complete saved edit population and blinded calibration selection independently replay; edit-intent labels and classifier agreement remain unmeasured.
+
+**OPS-S15-W3-P3C-INPUT-NATIVE:** [Record](P3C_INPUT_NATIVE_20261027.md). The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished.
+
+**S15-PR1-SUPPORT-20261027:** [Record](PR1_SUPPORT_COMPLETE_20261027.md). Unsupported: only 24 writers meet the examined/fast-dismissal event minimum against 25 required; no paying-to-say-it effect was computed.
+
+**OPS-S15-W3-PR1-SUPPORT-NATIVE:** [Record](PR1_SUPPORT_NATIVE_20261027.md). The PR1 support checker passes known-answer checks and independent native replay; complete corpus support and the scientific comparison remain unmeasured.
+
+**S15-TR4-IC-20261027:** [Complete instrument check](TR4_IC_COMPLETE_20261027.md). In constructed worlds, planted drift produces positive forecast-gain intervals, but the unchanged biased-reference gate prevents positive admission; volatility-reliability uncertainty remains unsupported. No descendants; human parent unchanged.
+
+**OPS-S15-W3-TR4-IC-RECOVERY-LAUNCH:** [Record](TR4_IC_RECOVERY_LAUNCH_20261027.md). The unchanged TR4 instrument matrix is continuing in Gear 2 after its validated first I/O repair; retained checkpoints are byte-identical and every world still requires independent replay.
+
+**OPS-S15-W3-TR4-IC-RECOVERY-NATIVE:** [Record](TR4_IC_RECOVERY_NATIVE_20261027.md). The first TR4 instrument-check recovery passes bounded Windows I/O checks, exact checkpoint parity and fresh native replay; the complete continuation fits the original allocation.
+
+**OPS-S15-W3-TR4-IC-PROGRESS-FAILURE:** [Record](TR4_IC_PROGRESS_FAILURE_20261027.md). The TR4 instrument check stopped on a Windows progress-file replacement refusal; the incomplete matrix is unscored and its completed checkpoints are preserved.
+
+**OPS-S15-W3-TR4-IC-FULL-LAUNCH:** [Record](TR4_IC_MAIN_LAUNCH_20261027.md). The complete twelve-world TR4 instrument check is running in Gear 2 with unchanged controls and independent replay; the wider ready-card backlog remains incomplete.
+
+**OPS-S15-W3-TR4-IC-FULL-COST:** [Record](TR4_IC_COST_20261027.md). The full-control constructed timing run and independent replay are verified; the unchanged twelve-world TR4 instrument check fits its separate CPU allocation.
+
+**OPS-S15-W3-TR4-IC-COST-LAUNCH:** [Record](TR4_IC_COST_LAUNCH_20261027.md). The registered TR4 instrument check is running its full-control timing world in Gear 2; the twelve-world main remains gated on measured cost.
+
+**OPS-S15-W3-TR4-IC-NATIVE:** [Record](TR4_IC_NATIVE_20261027.md). The planted-drift constructor and unchanged TR4 consumer pass targeted checks and independent native replay; the full twelve-world instrument check remains cost-gated.
+
+**October 27 TR4 complete (S15-TR4-20261027):** [Full comparison and limits](TR4_MAIN_20261027.md). All models, controls and independent replay are complete; the temporal reference fails its bias gate and reliability uncertainty is unsupported. Workers exited. A bounded first-generation instrument check is registered; no corrected human claim is licensed. TR3 and other source/cost, GPU and transfer holds remain; the wider ready-card backlog is unfinished. Earlier running snapshots are historical.
+
+**OPS-S15-W3-TR4-FULL-LAUNCH:** [Record](TR4_MAIN_LAUNCH_20261027.md). The complete TR4 comparison is running in Gear 2 with all reference banks, paired uncertainty and independent replay; the wider ready-card backlog remains unfinished.
+
+**OPS-S15-W3-TR4-FULL-COST:** [Record](TR4_COST_20261027.md). The complete-population TR4 timing pass and independent replay are verified; the unchanged full comparison fits the original CPU allocation with explicit clock-resolution and runtime reserves.
+
+**OPS-S15-W3-TR4-COST-LAUNCH-REFUSAL:** [Record](TR4_COST_LAUNCH_REFUSAL_20261027.md). TR4 cost dispatch refused an incomplete validation-receipt binding before execution; its final ordinary repair supplies the existing verified receipts without changing the study.
+
+**OPS-S15-W3-TR4-ANALYSIS-NATIVE:** [Record](TR4_ANALYSIS_NATIVE_20261027.md). The complete TR4 comparison and reference pipeline pass constructed validation and independent native replay; full-population cost admission remains.
+
+**OPS-S15-W3-TR4-MODELS-NATIVE:** [Record](TR4_MODELS_NATIVE_20261027.md). All six prospective four-class TR4 models pass constructed checks and independent native replay; complete statistical controls and corpus cost admission remain separate.
+
+**OPS-S15-W3-TR3-STATISTICS-VALIDATION-HOLD:** [Record](TR3_STATISTICS_VALIDATION_HOLD_20261027.md). The TR3 control implementation is held after one constructed validation example failed; human carryover remains uncomputed and no automatic repair is taken.
+
+**OPS-S15-W3-TR3-REFERENCE-CORRECTION:** [Record](TR3_REFERENCE_CORRECTION_20261027.md). The curator approved rebuilding histories and matches within the unrun TR3 permutation control; the primary comparison, original CPU ceiling and zero further retries remain unchanged.
+
 **OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE:** [Record](TR3_OUTCOME_INPUT_COMPLETE_20261027.md). Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.
 
 **OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE:** [Record](TR3_OUTCOME_INPUT_NATIVE_20261027.md). The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.

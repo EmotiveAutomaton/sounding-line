@@ -22,6 +22,7 @@ with the reason.
 
 | Contribution | What changed | Status | Record |
 |---|---|---|---|
+| October 27: “Make all corrections as appropriate”; double-check the operator because it may be wrong | Clears the deficient TR3 constructed-fixture hold after source/specification review; authorizes checked corrections within commissioned scope without repeated confirmation; original estimator, failed evidence and resource limits retained | built | [Validation](../phase_2_4_stage_15/DRIVE/TR3_FIXTURE_CORRECTED_20261027.md) |
 | October 27: “Continue from verified preparation; no more repairs” | Restores prospective TR3 continuation within its original cumulative CPU ceiling; earlier repair-cap breach and all attempts retained; no additional automatic repair | written / planned | [Decision](../phase_2_4_stage_15/DRIVE/TR3_CONTINUATION_20261027.md) |
 | October 26: “Build the separate preference comparison” | Authorized the separately labeled Jester topic-preference recurrence comparison, retaining the original demographic-relative harm question and full-population archive gap | built / complete | [Frozen design](../../docs/design/stage-15/drive/CA5R_PREFERENCE_20261026.md) |
 | Prepare the supported subset; retain the full-population gap | Prepared and independently replayed the separate 836-person CA3 input population; all 2,979 census rows retained, scientific comparison still gated | built | [Approved variant](../../docs/design/stage-15/week3/CA3_SUPPORTED.md), [complete preparation](../phase_2_4_stage_15/DRIVE/CA3_SUPPORTED_INPUTS_20261025.md) |
@@ -330,3 +331,5 @@ Kept visible on purpose.
 | C-19 | the two arms disagree | Hybrid readings remain unsound; no API replication has run |
 | C-20 | a second reader | Every calibration is one person. E10 says reader skill caps extraction; one reader cannot bound their own cap. |
 | C-23 | no analog for human-shaped maker goals | S1.4 proposes affective primitives as the answer. Nothing is built. |
+
+2026-10-27: TR3 reference correction. Curator: “Correct the unrun control; retain the original record”. Prospective correction rebuilds earlier typing, eligibility and matches for each permutation; all original evidence, primary contrast, cumulative ceiling and zero further retries retained. Record: OPS-S15-W3-TR3-REFERENCE-CORRECTION.

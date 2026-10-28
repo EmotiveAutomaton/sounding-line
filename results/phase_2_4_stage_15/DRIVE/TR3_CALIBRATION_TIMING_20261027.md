@@ -1,0 +1,11 @@
+# TR3 CALIBRATION TIMING 20261027
+
+**Hypothesis.** Can the unchanged recurrence instrument execute and independently reconstruct the complete declared control procedure within its remaining allocation?
+
+**METHOD.** Execute the first frozen constructed null world with twenty writers and four sessions each, two hundred history-rebuilding permutations and two thousand complete-writer bootstrap draws. Independently reconstruct the whole world and all statistics, authenticate every input/output, and inspect native exit and lease release. Forecast the complete already frozen 140-world matrix from combined execution/replay cost with a fifty-percent margin plus sixty seconds overhead.
+
+**Found.** The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference.
+
+**Means.** The corrected statistical suite has seventeen passing checks and the calibration wrapper has two passing checks. The full native handler and independent replay complete in 1.421875 CPU seconds. Total TR3 charge and construction/test reserve is 2,186.640625 of the original 7,200 seconds. The matrix forecast is 359 CPU seconds, with a separate 900-second hard allowance and at least 1,000 seconds retained for later human preparation/execution. Fixed ceilings still stop overruns; a single timing world does not establish every world's duration or validate sensitivity.
+
+The full matrix keeps all one hundred null and forty directional worlds, all two hundred permutations and two thousand bootstrap draws, original seeds and unchanged inference gates. It recomputes the timing world as part of the fixed complete matrix, with that repeat included in the forecast and charged. No scientific score is admitted from this timing cell. No human outcome, new data, GPU, paid request or changed scientific criterion is used. The fixture correction is authorized and recorded, while the estimator remains byte-identical to the failed first test's snapshot. All native timing workers exited and released their lease. The next dispatch is the complete constructed calibration; failure of its scientific gate will not be repaired into a pass. No new test was harvested from the operational wake.

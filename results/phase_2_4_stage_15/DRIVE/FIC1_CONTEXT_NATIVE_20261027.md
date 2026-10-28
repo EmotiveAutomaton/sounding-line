@@ -1,0 +1,11 @@
+# FIC1 CONTEXT NATIVE 20261027
+
+**Hypothesis.** Can a context reference preserve the original pooled profile operator while keeping the writers being tested out of its donor pool?
+
+**METHOD.** Rebuild the exact prompt halves and word prefixes. Replace each selected portion by its prompt's equal-session mean sufficient measure per word, then pool counts and timing distributions before computing rates and medians. Partial portions use the same exact first-word quota in every donor; insufficient donors remain unsupported. Rotate three disjoint writer roles, retaining every originally supported probe once and fixed galleries. Fit length and provenance adjustments separately on each arm's B gallery. Retain the literal leave-writer-out diagnostic. Check pooled denominators, weighted medians, recipient-feature isolation, null-context parity, missing support, role conservation, nuisance refits and serialization in sixteen targeted checks, then independently reconstruct the entire fixture in fresh native execution.
+
+**Found.** The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed.
+
+**Means.** This validates construction only. The sufficient-measure convention is an explicitly labeled analyst implementation for pooled profiles, not a silent replacement of the completed session-mean WA0 or GEN1 analyses. Its context draws use no recipient word choices or timing values. The complete null and planted calibration, full corpus timing and whole-study cost admission remain required. No writer-matching score or scientific probability is computed. The constructed-only handler refuses human mode; AUTH remains separately gated.
+
+All sixteen targeted checks passed on their first run. Native execution and replay used 3.65625 CPU seconds. Including the 180-second construction/test reserve and prior work, FIC1's cumulative charge is 2,213.65625 of the original 7,200 seconds. No repair or S4 extension was used. Workers exited and released their lease. The wider ready-card queue remains underbuilt; source/cost, scientific, GPU and transfer holds remain. No new hypothesis was harvested from the operational wake.

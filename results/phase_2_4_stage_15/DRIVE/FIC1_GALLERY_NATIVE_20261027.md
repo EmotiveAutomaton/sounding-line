@@ -1,0 +1,11 @@
+# FIC1 GALLERY NATIVE 20261027
+
+**Hypothesis.** Can the commissioned genre comparison adjust its full profiles for length without fitting on probe observations or losing writers with insufficient prefix support?
+
+**METHOD.** Preserve the completed pooled typed style/rhythm vectors and rebuild pooled final-document style from full counts. Retain each original writer, genre and prompt half. Fit feature-wise ordinary least squares on gallery B only, using log-base-two word count; retain raw features and, for final style, the additional accepted-character-share adjustment. Keep missing and rank-exhausted fits unsupported. Retain per-length support and the all-length common set. Validate pure nuisance removal, preserved orthogonal fingerprints, probe independence, exact pooling, missing/rank cases and serialization with twenty targeted checks; execute and reconstruct all prepared matrices in separate native processes. Authenticate source pins, output seals, native exits and lease release.
+
+**Found.** The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**Means.** Numerical transformation checks are distinct from complete identification calibration. No human writer-matching score, reference distribution, paired genre diagnostic or length-curve score is computed. Controls and independent-donor rotations must rebuild their own profiles and refit their own gallery coefficients; these observed prepared matrices do not replace that work. Full scientific and cost admission remain unestablished. AUTH remains separately gated, and final documents retain their mixed provenance.
+
+The completed pass uses 0.671875 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1676.78125 of 7,200 seconds. All workers exited and released their lease. All twenty targeted checks passed on the first run; no repair was required. The wider ready-card queue remains underbuilt; the build interval was spent implementing and validating commissioned gallery preparation. No tests were harvested from the wake. Failed scientific gates, parked GPU work and source/cost/transfer holds remain.

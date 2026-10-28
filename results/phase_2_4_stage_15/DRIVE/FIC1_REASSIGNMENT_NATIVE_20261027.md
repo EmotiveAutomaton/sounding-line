@@ -1,0 +1,11 @@
+# FIC1 REASSIGNMENT NATIVE 20261027
+
+**Hypothesis.** Can the writer-label control rebuild the exact production profiles after each reassignment without losing sessions, changing prompt support or reusing observed prefixes?
+
+**METHOD.** Authenticate every completed source binding. Preserve each writer-label count within genre and prompt, assign whole sessions, recompute each writer's chronological whole-prompt halves, then rebuild all fixed word-length prefixes and pooled final-document features with the unchanged operators. Retain unsupported halves and lengths. Require the identity assignment to equal every original profile membership, word count and prefix feature. Test exact parity, changed chronology, count conservation, missing support, refusals and serialization in ten targeted checks, then independently reconstruct the complete declared pass in separate native processes. Verify every pin and output, native exits and lease release.
+
+**Found.** The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured.
+
+**Means.** This validates reconstruction and measures preparation cost only. It computes no writer-matching score, context reference, permutation probability, length-curve score or scientific admission. One timing shuffle cannot replace the required complete bank. Full controls must still use consistent observed and reconstructed feature operators, refit nuisance models and retain fixed support. The approved independent-donor correction, paired uncertainty, length-trend rule, full calibration and complete statistical cost admission remain. AUTH stays separately gated.
+
+The completed pass uses 0.734375 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1871.6875 of 7,200. All workers exited and released their lease. All ten targeted checks passed on the first run. The earlier gallery ordering failure and first recovery remain recorded; no numerical or scientific gate changed. The wider ready-card queue remains underbuilt while commissioned implementation continues. No tests were harvested from the wake; GPU parking and source/cost/transfer holds persist.

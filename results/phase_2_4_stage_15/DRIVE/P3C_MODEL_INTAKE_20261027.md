@@ -1,0 +1,13 @@
+# P3C MODEL INTAKE 20261027
+
+**Hypothesis.** Can the commissioned edit-intent classifier be retained with exact source identity before any corpus prediction?
+
+**METHOD.** Read the official implementation notices and pinned model metadata, fetch only the seven declared public checkpoint files without credentials, compare the weight file to its published LFS hash and the smaller files to their Git blob hashes, and repeat the complete inventory in an independent native process. Separately read all two hundred blinded edit pairs under criteria frozen before opening them; save agent labels and reasons before any classifier execution.
+
+**Found.** The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested.
+
+**Means.** Six targeted intake checks pass, including the actual fake-transport handler, immutable reentry, changed-file refusal and metadata bounds. All seven model files match their pinned metadata. The checkpoint revision is d9e6e6ee893e9f36cbba8047b838ccbfea1c1c32. The official implementation revision 41adc0818356f78b362a9382a3732e0529f3fe35 directly links this checkpoint and carries Apache 2.0; the Hugging Face card has no separate license field. Exact notices remain retained. The 1,421,620,013-byte weight file was hashed, not deserialized, and no weights or participant text were redistributed.
+
+The annotations are explicitly made by the operating Codex agent, not the curator or a human panel. All two hundred complete pairs were read in their blinded order before model predictions; uncertainty is retained and no clearer replacements are selected. Agreement is uncomputed. Input validity, numerical checks, token coverage, full timing and the unchanged agreement gate still precede any downstream use.
+
+Intake and fresh verification use 14.359375 CPU seconds. Source preparation, native tests and construction/test reserves bring P3c's cumulative charge to 218.0625 of 14,400 seconds. All native intake workers exited and released their lease. There were no engineering retries, GPU starts, paid requests, external copies or new p-values. The sandbox's initial read-only metadata request was blocked; its authorized ordinary network retry succeeded without bypassing an access restriction. No test was harvested from the wake. The broader commissioned queue remains underbuilt. The curator has now authorized appropriate corrections after independent checking; the next work is the retained TR3 constructed-fixture defect, followed by native validation and cost admission under its existing ceiling.

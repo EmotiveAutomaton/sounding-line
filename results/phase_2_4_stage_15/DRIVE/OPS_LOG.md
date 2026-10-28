@@ -627,3 +627,219 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-27T13:19:55.665951+00:00 OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE: The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate.
 
 2026-10-27T13:24:49.035038+00:00 OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE: Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed.
+
+2026-10-27T13:33:30.696304+00:00 OPS-S15-W3-TR3-REFERENCE-CORRECTION: The curator approved rebuilding histories and matches within the unrun TR3 permutation control; the primary comparison, original CPU ceiling and zero further retries remain unchanged.
+
+2026-10-27 administrative recording note: the authority-copy command stopped after the successful public write-through because the record helper had already inserted its timestamp and identifier. The existing public receipt was copied exactly into the private authority record, and remaining provenance/navigation filing completed. No research runner, scientific statistic or retry was executed; no frozen source was changed.
+
+2026-10-27T13:47:57.796630+00:00 OPS-S15-W3-TR3-STATISTICS-VALIDATION-HOLD: The TR3 control implementation is held after one constructed validation example failed; human carryover remains uncomputed and no automatic repair is taken.
+
+2026-10-27T14:03:59.726141+00:00 OPS-S15-W3-TR4-MODELS-NATIVE: All six prospective four-class TR4 models pass constructed checks and independent native replay; complete statistical controls and corpus cost admission remain separate.
+
+2026-10-27T14:15:08.857014+00:00 OPS-S15-W3-HEALTH-20261027-0715: services, native ownership, fresh calendar, delivery, locks, resources and 7 recent terminals verified; TR4 six-model native validation fully landed; complete comparison built with sixteen passing checks; native admission next. Research workers/ready cards 0; target 8. Estimated idle capacity 24.193 slot-hours (receipt qualification applies): implementation backlog remains a defect. TR3 and GPU/source/cost/transfer holds retained. Receipt: HEALTH_20261027_0715.json.
+
+2026-10-27T14:18:23.701005+00:00 OPS-S15-W3-TR4-ANALYSIS-NATIVE: The complete TR4 comparison and reference pipeline pass constructed validation and independent native replay; full-population cost admission remains.
+
+2026-10-27T14:19:53.027788+00:00 OPS-S15-W3-TR4-COST-LAUNCH-REFUSAL: TR4 cost dispatch refused an incomplete validation-receipt binding before execution; its final ordinary repair supplies the existing verified receipts without changing the study.
+
+2026-10-27T14:22:03.161005+00:00 OPS-S15-W3-TR4-FULL-COST: The complete-population TR4 timing pass and independent replay are verified; the unchanged full comparison fits the original CPU allocation with explicit clock-resolution and runtime reserves.
+
+2026-10-27T14:24:58.041560+00:00 OPS-S15-W3-TR4-FULL-LAUNCH: The complete TR4 comparison is running in Gear 2 with all reference banks, paired uncertainty and independent replay; the wider ready-card backlog remains unfinished.
+
+2026-10-27T14:30:33.987890+00:00 OPS-S15-W3-TR3-DELAYED-WAKE: event 296e04e3def8b9c3e94cbd9d already acknowledged after full instrument write-through; completion digest, sealed outputs and all companion records reverified. Delayed delivery is not new work; TR3 validation hold unchanged. No tests harvested.
+
+2026-10-27T14:34:10.766908+00:00 S15-TR4-20261027: all 35 pins, 16 outputs and native exits verified; full parent and control-limit write-through, two diagnostic probabilities registered. Total 402.828125/3600 CPU seconds. One bounded instrument check registered; other holds persist.
+
+2026-10-27T14:41:08.224698+00:00 OPS-S15-W3-TR4-IC-NATIVE: The planted-drift constructor and unchanged TR4 consumer pass targeted checks and independent native replay; the full twelve-world instrument check remains cost-gated.
+
+2026-10-27T14:42:20.903783+00:00 OPS-S15-W3-TR4-IC-COST-LAUNCH: The registered TR4 instrument check is running its full-control timing world in Gear 2; the twelve-world main remains gated on measured cost.
+
+2026-10-27T14:49:14.993233+00:00 OPS-S15-W3-TR3-HUMAN-DELAYED-WAKE: event 857065d3a00adc50ae695d3a was previously acknowledged after full corpus-preparation write-through. Completion digest, every sealed output, native exits and all linked records reverify. No new execution or test is authorized; TR3 statistics hold remains unchanged.
+
+2026-10-27T14:49:15.145530+00:00 OPS-S15-W3-TR4-IC-FULL-COST: The full-control constructed timing run and independent replay are verified; the unchanged twelve-world TR4 instrument check fits its separate CPU allocation.
+
+2026-10-27T14:50:47.193137+00:00 OPS-S15-W3-TR4-IC-FULL-LAUNCH: The complete twelve-world TR4 instrument check is running in Gear 2 with unchanged controls and independent replay; the wider ready-card backlog remains incomplete.
+
+
+2026-10-27T14:52:26.803601+00:00 OPS-S15-W3-TR3-SELECTION-DELAYED-WAKE: event 396860bf950dcb7526227a3a was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original preparation is unchanged and the TR3 statistics hold remains. TR4.ic-main has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T14:53:58.683471+00:00 OPS-S15-W3-TR3-SELECTION-FULL-DELAYED-WAKE: event 45486eacc0d83159d25c7107 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original preparation is unchanged and the TR3 statistics hold remains. TR4.ic-main has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+2026-10-27T14:57:17.150670+00:00 OPS-S15-W3-TR4-IC-PROGRESS-FAILURE: The TR4 instrument check stopped on a Windows progress-file replacement refusal; the incomplete matrix is unscored and its completed checkpoints are preserved.
+
+2026-10-27T14:57:21.303831+00:00 OPS-S15-W3-TR3-OUTCOME-NATIVE-DELAYED-WAKE: event 53f98df63fdbb9817ed98aeb was already acknowledged after full preparation write-through. All pins, sealed outputs, native exits and companion records reverify; no new execution or change to the TR3 hold.
+
+2026-10-27T15:03:03.661937+00:00 OPS-S15-W3-TR4-IC-RECOVERY-NATIVE: The first TR4 instrument-check recovery passes bounded Windows I/O checks, exact checkpoint parity and fresh native replay; the complete continuation fits the original allocation.
+
+2026-10-27T15:04:25.827943+00:00 OPS-S15-W3-TR4-IC-RECOVERY-LAUNCH: The unchanged TR4 instrument matrix is continuing in Gear 2 after its validated first I/O repair; retained checkpoints are byte-identical and every world still requires independent replay.
+
+
+2026-10-27T15:06:03.665756+00:00 OPS-S15-W3-TR3-OUTCOME-FULL-DELAYED-WAKE: event 2df38ed5292e285b175240be was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original preparation is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:11:21.664041+00:00 OPS-S15-W3-TR4-MODELS-DELAYED-WAKE: event 8f739bc93e76d78554a2cca8 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original constructed model validation is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:12:18.591254+00:00 OPS-S15-W3-TR4-ANALYSIS-DELAYED-WAKE: event 533ee78a02039edf25fe6a40 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original constructed comparison validation is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:13:07.974050+00:00 OPS-S15-W3-TR4-COST-DELAYED-WAKE: event 77ab83bb43e9e617552fb934 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original complete-population resource admission is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:15:06.657636+00:00 OPS-S15-W3-TR4-MAIN-DELAYED-WAKE: event 0e15c1ac8149a63934192ba4 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The index already linked the full report; its missing stable claim identifier has been restored. The original complete descriptive comparison is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:16:03.380447+00:00 OPS-S15-W3-TR4-IC-NATIVE-DELAYED-WAKE: event 407f2f46bb00d82bdd70d3c0 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original constructed instrument validation is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:16:49.483596+00:00 OPS-S15-W3-TR4-IC-COST-DELAYED-WAKE: event 366566eaff95715a59775821 was previously acknowledged after complete instrument write-through. All source pins, sealed outputs, native exits and linked evidence records reverify. The original full-control constructed resource admission is unchanged and the TR3 statistics hold remains. TR4.ic-recovery has exact live native ownership, fresh reference progress, a counted CPU lease and healthy terminal monitoring. No failed terminal, recovery, new study, GPU restart or extra wake is introduced; the ordinary health deadline is unchanged.
+
+
+2026-10-27T15:22:28.248183+00:00 S15-TR4-IC-20261027: full twelve-world result and independent replay landed; 48 pins, 29 outputs, exact checkpoints, native exits and lease release authenticate. Total 1267.828125/1800 CPU seconds including failed work and reserves. Scientific gate failures retained; no descendants. No new p-values quoted; multiplicity registry unchanged. No counted research worker active at this cutoff; ready queue remains underfilled and separate holds persist.
+
+
+2026-10-27T15:24:36.444660+00:00 OPS-S15-W3-TR4-IC-FAILURE-DELAYED-WAKE: delayed event 4664f36f7b7c56ac4170dca8 authenticates against the already-landed progress failure. Its separate validated successor has now completed and received full instrument write-through as S15-TR4-IC-20261027; every world was independently replayed. All claim anchors reverify. Both events may be acknowledged. No counted research worker or occupied CPU lease remains; ready-card deficit persists. Current monitoring is healthy, the health deadline is unchanged, and TR3/GPU/source/cost/transfer holds remain. No new test or recovery is commissioned by this wake.
+
+
+2026-10-27T15:38:59.998165+00:00 OPS-S15-W3-TR4-IC-RECOVERY-NATIVE-DELAYED-WAKE: event a34faec0b56a21cb56ebe4a1 was previously acknowledged after full validation write-through. All 43 pins, 18 sealed outputs, native exits and exact ledger/source anchors reverify. The complete successor is already landed as S15-TR4-IC-20261027 and its workers have exited. No rerun or repair is needed. Existing commissioned PR1 source-support preparation is building; the ready-card backlog remains incomplete. TR3 and GPU/source/cost/transfer holds remain. Watcher delivery is healthy and the separate health deadline is unchanged. No new test was harvested from this wake.
+
+2026-10-27T15:41:05.396045+00:00 OPS-S15-W3-PR1-SUPPORT-NATIVE: The PR1 support checker passes known-answer checks and independent native replay; complete corpus support and the scientific comparison remain unmeasured.
+
+2026-10-27T15:44:59.864370+00:00 S15-PR1-SUPPORT-20261027: Unsupported: only 24 writers meet the examined/fast-dismissal event minimum against 25 required; no paying-to-say-it effect was computed.
+
+
+2026-10-27T15:52:55.913365+00:00 OPS-S15-W3-TR4-IC-COMPLETE-DELAYED-WAKE: event df28eacf11d291c3a858c532 is a delayed notice of the already-landed completed recovery. All 48 pins, 29 sealed outputs, twelve-world coverage, five exact retained checkpoints, original cost ceiling, native exits and released lease reverify. Full instrument write-through as S15-TR4-IC-20261027, its exact public wording and all claim-source anchors remain intact. No scientific computation, new claim, repair or descendant follows. No counted research worker is active and the ready-card backlog remains incomplete; P3c prerequisite preparation is next. Watcher scans are fresh with no delivery error; the six-hour health deadline is unchanged. TR3 and other source/cost, GPU and transfer holds remain. No tests harvested from this wake.
+
+2026-10-27T16:07:22.955896+00:00 OPS-S15-W3-P3C-INPUT-NATIVE: The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished.
+
+2026-10-27T16:10:03.485636+00:00 OPS-S15-W3-P3C-INPUT-COMPLETE: The complete saved edit population and blinded calibration selection independently replay; edit-intent labels and classifier agreement remain unmeasured.
+
+2026-10-27T16:19:44.305751+00:00 OPS-S15-W3-P3C-MODEL-INTAKE: The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested.
+
+2026-10-27T16:22:56.438785+00:00 OPS-S15-W3-TR3-FIXTURE-CORRECTED: The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference.
+
+2026-10-27T16:26:56.992388+00:00 OPS-S15-W3-TR3-CALIBRATION-TIMING: The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference.
+
+2026-10-27T16:28:43.413237+00:00 OPS-S15-W3-TR3-CALIBRATION-LAUNCH: The complete constructed TR3 calibration is running in Gear 2 under the original CPU ceiling; no human carryover or unfinished calibration score is admitted.
+
+
+2026-10-27T16:35:10.723647+00:00 OPS-S15-W3-PR1-NATIVE-DELAYED-WAKE: event f7ea80b57eb9c3c50c533054 is a delayed notice of already-landed native preparation. All 27 pins and 17 sealed outputs, native exits, released lease, prior full write-through and current claim-source anchors reverify. The subsequent full support landing S15-PR1-SUPPORT-20261027 remains authoritative; no PR1 rerun or descendant is dispatched. TR3 full calibration is now terminal and requires landing; P3c classifier validation remains the next independent build. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested, new authority, GPU restart or paid request.
+
+2026-10-27T16:36:24.530877+00:00 S15-TR3-CALIBRATION-20261027: In constructed worlds, the recurrence instrument fails its frozen negative-direction sensitivity requirement; human carryover remains untested.
+
+2026-10-27T16:44:11.907938+00:00 OPS-S15-W3-P3C-CLASSIFIER-NATIVE: The pinned CPU edit-intent classifier passes numerical and input-support checks with independent replay; complete blind-label calibration remains required.
+
+2026-10-27T16:46:32.258321+00:00 OPS-S15-W3-P3C-CALIBRATION-LAUNCH: The CPU edit-intent timing and complete blind-label calibration are running in Gear 2 with independent replay and explicit token coverage; no unfinished score is admitted.
+
+
+2026-10-27T16:49:03.356708+00:00 OPS-S15-W3-PR1-COMPLETE-DELAYED-WAKE: event 5e8d6f4e653bf900c2a22f9c is a delayed notice of the already-landed full support census. All 33 pins and 17 sealed outputs, complete replay, original cost ceiling, native exits and released lease reverify. Full write-through S15-PR1-SUPPORT-20261027, its theory row and afterword, exact public wording and all claim-source anchors remain intact. No PR1 effect, rerun or descendant is introduced. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+
+2026-10-27T16:50:24.393195+00:00 OPS-S15-W3-P3C-INPUT-NATIVE-DELAYED-WAKE: event 5a6ca18c575507ff66223274 is a delayed notice of the already-landed native source preparation. All 27 pins and 24 sealed outputs, complete replay, original ceiling, native exits and released lease reverify. Full write-through OPS-S15-W3-P3C-INPUT-NATIVE, exact public wording and all claim-source anchors remain intact; the subsequent full corpus preparation is also landed. No source rerun occurs. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. No unfinished score is inspected or admitted. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+
+2026-10-27T16:51:47.852627+00:00 OPS-S15-W3-P3C-INPUT-COMPLETE-DELAYED-WAKE: event b287dd30a4060852290abf85 is a delayed notice of the already-landed complete source preparation. All 31 pins and 1420 sealed outputs, complete replay, original ceiling, native exits and released lease reverify. Full write-through OPS-S15-W3-P3C-INPUT-COMPLETE, exact public wording and all claim-source anchors remain intact; the complete corpus preparation remains landed. No source rerun occurs. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. No unfinished score is inspected or admitted. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+
+2026-10-27T16:53:21.541077+00:00 OPS-S15-W3-P3C-MODEL-INTAKE-DELAYED-WAKE: event e06ddd0d741e38d6125cecd3 is a delayed notice of the already-landed pinned model intake. All 33 pins and 19 sealed outputs, complete byte-inventory replay, original ceiling, native exits and released lease reverify. Full write-through OPS-S15-W3-P3C-MODEL-INTAKE, exact public wording and all claim-source anchors remain intact; the complete corpus preparation remains landed. This reconciliation repeats no download or model execution; all seven checkpoint file hashes and the frozen annotation hash verify. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. No unfinished score is inspected or admitted. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+
+2026-10-27T16:54:28.401012+00:00 OPS-S15-W3-TR3-CALIBRATION-TIMING-DELAYED-WAKE: event 6baadd32743f543bc703f456 is a delayed notice of the already-landed constructed timing and cost admission. All 32 pins and 16 sealed outputs, complete replay, original ceiling, native exits and released lease reverify. Full write-through OPS-S15-W3-TR3-CALIBRATION-TIMING, exact public wording and all claim-source anchors remain intact; the later complete calibration remains recorded as failed, so human inference stays blocked. No timing or calibration rerun occurs. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. No unfinished score is inspected or admitted. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+
+2026-10-27T16:59:00.743678+00:00 OPS-S15-W3-TR3-CALIBRATION-COMPLETE-DELAYED-WAKE: event 4d10666c0d5dec97133803fa is a delayed notice of the already-landed complete constructed calibration. All 34 pins and 156 sealed outputs, complete replay, original ceiling, native exits and released lease reverify. Full write-through S15-TR3-CALIBRATION-20261027, exact public wording and all claim-source anchors remain intact; the complete calibration remains recorded with its failed sensitivity gate, so human inference stays blocked. No calibration rerun or human comparison occurs. P3c timing/calibration continues with verified native identities, CPU activity, fresh progress, held counted lease, unchanged pins and urgent terminal watches. No unfinished score is inspected or admitted. The wider ready queue remains incomplete. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+2026-10-27T17:02:41.417328+00:00 S15-P3C-CALIBRATION-20261027: The edit-intent classifier fails its frozen agreement gate against agent-made labels; population edit-intent labels remain unadmitted.
+
+
+2026-10-27T17:06:53.635567+00:00 OPS-S15-W3-P3C-CLASSIFIER-NATIVE-DELAYED-WAKE: event 517cc0686a7ed1f9c80de51a is a delayed notice of already-landed numerical/interface validation. All 32 native source pins and 17 sealed outputs, independent replay, original ceiling, native exits and lease release reverify. Full write-through OPS-S15-W3-P3C-CLASSIFIER-NATIVE and subsequent S15-P3C-CALIBRATION-20261027, their exact public wording and all claim-source anchors remain intact. The subsequent complete calibration also reauthenticates all 38 pins and 1219 sealed outputs, worker exits and lease release; its failed agreement gate and unadmitted population labels remain unchanged. No calibration rerun or downstream inference is performed. The broader commissioned queue remains underbuilt; next work is ordered second-labeler admission and independent buildout, not restarting the failed classifier. Watcher scans are fresh; the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+2026-10-27T17:17:02.212540+00:00 OPS-S15-W3-FIC1-INPUT-NATIVE: The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+2026-10-27T17:21:53.712466+00:00 OPS-S15-W3-FIC1-INPUT-COMPLETE: Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.
+
+
+2026-10-27T17:27:48.778017+00:00 OPS-S15-W3-P3C-CALIBRATION-DELAYED-WAKE: event da8e6f095cd62d95895a6059 is a delayed notice of the already-landed complete calibration. All 38 source pins and 1219 sealed outputs, independent classifier replay, original ceiling, native exits and released lease reverify. Full write-through S15-P3C-CALIBRATION-20261027, its exact public wording and all claim-source anchors remain intact. The failed gate and unadmitted population labels remain unchanged. No calibration rerun or downstream inference is performed. The commissioned queue remains underbuilt; next work is FIC1 feature preparation from its fully landed source. Watcher scans are fresh and the six-hour health deadline remains unchanged. No tests harvested from this wake; GPU, paid-transfer and other holds remain.
+
+2026-10-27T17:34:31.300061+00:00 OPS-S15-W3-FIC1-FEATURE-NATIVE: The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.
+
+2026-10-27T17:36:04.244189+00:00 OPS-S15-W3-FIC1-FEATURE-COMPLETE: Complete FIC1 session features independently replay with full production and original memberships; identification remains uncomputed.
+
+
+2026-10-27T17:39:34.001368+00:00 OPS-S15-W3-FIC1-INPUT-NATIVE-DELAYED-WAKE: event 89b3e0c19d582553c67b5521 is delayed notice of already-landed constructed source validation. Its full write-through and the later complete source and feature records reauthenticate every source pin, sealed output, independent replay, native exit, released lease, original ceiling and public wording. No result is recomputed or reinterpreted. Identification remains uncomputed; exact prefix construction and calibrated controls remain commissioned implementation. The wider queue remains underbuilt. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested from this wake; GPU, failed scientific gates, source/cost and transfer holds remain.
+
+2026-10-27T17:47:58.511851+00:00 OPS-S15-W3-FIC1-PREFIX-NATIVE: The exact FIC1 prefix builder passes known-answer checks and independent native replay; corpus preparation and identification remain unfinished.
+
+2026-10-27T17:49:23.452022+00:00 OPS-S15-W3-FIC1-PREFIX-TIMING: The bounded FIC1 prefix timing pass independently replays; complete prefix preparation is cost-admitted, while identification remains uncomputed.
+
+2026-10-27T17:51:37.604400+00:00 OPS-S15-W3-FIC1-PREFIX-LAUNCH: Complete FIC1 prefix preparation is running in Gear 2 after native validation and measured cost admission; identification remains uncomputed.
+
+
+2026-10-27T17:53:32.820407+00:00 OPS-S15-W3-FIC1-INPUT-FULL-DELAYED-WAKE: event b7e2b82adabdf93c0002368e is delayed notice of already-landed complete source preparation. All 40 source pins, 1008 sealed outputs, independent replay, full write-through, public wording and 195 claim-source anchors reverify; its workers exited and released their lease. The current complete-prefix owner and active child have exact live native identities, fresh progress, an owned counted lease, sufficient resource headroom and all urgent terminal registrations. It continues under the original cumulative ceiling without restart. No unfinished score is read or reported. Watcher scans are fresh, with the six-hour health deadline unchanged. No tests harvested from this wake; the wider queue remains underbuilt and failed scientific gates, GPU/source/cost/transfer holds remain.
+
+
+2026-10-27T17:57:38.358835+00:00 OPS-S15-W3-FIC1-FEATURE-NATIVE-DELAYED-WAKE: event 01e577143e0e4c61c6a4bd19 is delayed notice of already-landed native feature validation. All 39 source pins, 31 sealed outputs, independent replay, full write-through, public wording and 195 claim-source anchors reverify; its workers exited and released their lease. The current complete-prefix owner and active child have exact live native identities, fresh progress, an owned counted lease, sufficient resource headroom and all urgent terminal registrations. It continues under the original cumulative ceiling without restart. No unfinished score is read or reported. Watcher scans are fresh, with the six-hour health deadline unchanged. No tests harvested from this wake; the wider queue remains underbuilt and failed scientific gates, GPU/source/cost/transfer holds remain.
+
+
+2026-10-27T17:58:57.810045+00:00 OPS-S15-W3-FIC1-FEATURE-FULL-DELAYED-WAKE: event d7243b0c2e7a5cf14e6fa6e7 is delayed notice of already-landed complete session feature preparation. All 42 source pins, 1009 sealed outputs, independent replay, full write-through, public wording and 195 claim-source anchors reverify; its workers exited and released their lease. The current complete-prefix owner and active child have exact live native identities, fresh progress, an owned counted lease, sufficient resource headroom and all urgent terminal registrations. It continues under the original cumulative ceiling without restart. No unfinished score is read or reported. Watcher scans are fresh, with the six-hour health deadline unchanged. No tests harvested from this wake; the wider queue remains underbuilt and failed scientific gates, GPU/source/cost/transfer holds remain.
+
+
+2026-10-27T18:00:03.719463+00:00 OPS-S15-W3-FIC1-PREFIX-NATIVE-DELAYED-WAKE: event e71bf7853515612143e856fa is delayed notice of already-landed native prefix validation. All 41 source pins, 43 sealed outputs, independent replay, full write-through, public wording and 195 claim-source anchors reverify; its workers exited and released their lease. The current complete-prefix owner and active child have exact live native identities, fresh progress, an owned counted lease, sufficient resource headroom and all urgent terminal registrations. It continues under the original cumulative ceiling without restart. No unfinished score is read or reported. Watcher scans are fresh, with the six-hour health deadline unchanged. No tests harvested from this wake; the wider queue remains underbuilt and failed scientific gates, GPU/source/cost/transfer holds remain.
+
+
+2026-10-27T18:01:00.408733+00:00 OPS-S15-W3-FIC1-PREFIX-TIMING-DELAYED-WAKE: event 087a599a5e581703b7c57ab6 is delayed notice of already-landed bounded prefix timing and cost admission. All 45 source pins, 38 sealed outputs, independent replay, full write-through, public wording and 195 claim-source anchors reverify; its workers exited and released their lease. The current complete-prefix owner and active child have exact live native identities, fresh progress, an owned counted lease, sufficient resource headroom and all urgent terminal registrations. It continues under the original cumulative ceiling without restart. No unfinished score is read or reported. Watcher scans are fresh, with the six-hour health deadline unchanged. No tests harvested from this wake; the wider queue remains underbuilt and failed scientific gates, GPU/source/cost/transfer holds remain.
+
+2026-10-27T18:08:12.353575+00:00 OPS-S15-W3-FIC1-PREFIX-COMPLETE: Complete FIC1 production occurrences and fixed-length prefix features independently replay; identification remains uncomputed.
+
+2026-10-27T18:18:08.111316+00:00 OPS-S15-W3-FIC1-GALLERY-NATIVE: The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+2026-10-27T18:20:23.951931+00:00 OPS-S15-W3-FIC1-GALLERY-ORDER-FAILURE: FIC1 gallery preparation stopped before fitting on an order-sensitive predecessor comparison; all keyed profile contents agree, and the first engineering repair is being prepared.
+
+2026-10-27T18:27:06.171561+00:00 OPS-S15-W3-FIC1-GALLERY-RECOVERY-NATIVE: The first FIC1 gallery loader repair passes predecessor-schema checks, numerical parity and independent native replay; corpus recovery and identification remain unfinished.
+
+2026-10-27T18:27:55.114161+00:00 OPS-S15-W3-FIC1-GALLERY-RECOVERY-COMPLETE: Complete FIC1 galleries and length adjustments independently replay after the first loader repair; identification and its controls remain uncomputed.
+
+2026-10-27T18:33:06.385736+00:00 OPS-S15-W3-FIC1-REASSIGNMENT-NATIVE: The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured.
+
+2026-10-27T18:35:18.739783+00:00 OPS-S15-W3-FIC1-REASSIGNMENT-TIMING: Complete FIC1 identity and single-shuffle profile reconstruction independently replay; the scientific reference bank and identification remain uncomputed.
+
+
+2026-10-27T11:36:18.235324-07:00 FIC1 operational handoff: requested prefix event and completed recovery/reconstruction records fully landed; no pending watcher events. FIC1 workers exited and leases released. Remaining implementation prevents a ready scientific successor; this is an underbuilt queue, not a completed commission. Complete cost admission remains mandatory; six-hour health due is unchanged.
+
+
+2026-10-27T18:38:05.296089+00:00 OPS-S15-W3-FIC1-GALLERY-NATIVE-DELAYED-WAKE: event e79e114789f560cb0ad4c550 is a delayed notice of already-landed constructed gallery validation. All 42 pins, 16 sealed outputs, independent replay, complete write-through and 202 ledger anchors reverify. Original workers exited and released their lease. The subsequent corpus ordering failure, first recovery and complete reassignment timing remain separately recorded; original numerical validation is unchanged. Latest FIC1 workers exited; full scoring, consistent context controls and calibration remain unbuilt and without complete cost admission. Ready queue remains underbuilt. Watcher scans are fresh and its six-hour health deadline is unchanged. No tests harvested, no new scientific score, no restart, gear/spending change or delegation.
+
+
+2026-10-27T18:39:23.296381+00:00 OPS-S15-W3-FIC1-GALLERY-FAILURE-DELAYED-WAKE: event 9a00a4470caa424dd241e1bf is a delayed notice of the already-recorded profile-order engineering failure. Failure bytes, traceback, all 45 original pins and the 96 equal identity-keyed profile records reverify. The separately completed first recovery, all 48 recovery pins and 16 outputs, independent replay and full write-through reverify; 202 claim-source anchors authenticate. Failed, recovered and latest FIC1 workers exited and released their leases. Original failure and CPU charge remain retained; no additional recovery or rerun is needed. Full scoring, context controls, calibration and complete cost admission remain outstanding, and the ready queue is underbuilt. Watcher scans are fresh; health deadline unchanged. No tests harvested, new scientific scores, gear/spending changes or delegation.
+
+
+2026-10-27T18:40:42.782105+00:00 OPS-S15-W3-FIC1-GALLERY-RECOVERY-NATIVE-DELAYED-WAKE: event 5cfa6b483631536941d2d2e2 is a delayed notice of already-landed native validation of the first gallery loader repair. All 45 pins, 16 sealed outputs, independent replay, complete write-through and 202 ledger anchors reverify. Original workers exited and released their lease. The prior corpus ordering failure, completed full recovery and subsequent reassignment timing remain separately recorded; original numerical operations are unchanged. Latest FIC1 workers exited; full scoring, consistent context controls and calibration remain unbuilt and without complete cost admission. Ready queue remains underbuilt. Watcher scans are fresh and its six-hour health deadline is unchanged. No tests harvested, no new scientific score, no restart, gear/spending change or delegation.
+
+
+2026-10-27T18:41:52.979994+00:00 OPS-S15-W3-FIC1-GALLERY-RECOVERY-COMPLETE-DELAYED-WAKE: event fb5768f93116acd439478470 is a delayed notice of the already-landed complete corpus gallery recovery and independent replay. All 48 pins, 16 sealed outputs, independent replay, complete write-through and 202 ledger anchors reverify. Original workers exited and released their lease. The prior corpus ordering failure, completed full recovery and subsequent reassignment timing remain separately recorded; original numerical operations are unchanged. Latest FIC1 workers exited; full scoring, consistent context controls and calibration remain unbuilt and without complete cost admission. Ready queue remains underbuilt. Watcher scans are fresh and its six-hour health deadline is unchanged. No tests harvested, no new scientific score, no restart, gear/spending change or delegation.
+
+
+2026-10-27T18:43:38.521255+00:00 OPS-S15-W3-FIC1-REASSIGNMENT-TIMING-DELAYED-WAKE: event 29577c487a18c27a2e0251b5 is a delayed notice of already-landed exact identity/single-shuffle reconstruction timing. All 48 source pins, 19 sealed outputs, independent replay, full write-through, cost accounting and 202 claim-source anchors reverify. Native workers exited and released their lease. This is unscored preparation timing; no complete reference bank or scientific admission follows. Scoring, consistent context controls and calibration remain unbuilt and without complete cost admission; ready queue remains underbuilt. Watcher scans are fresh and the six-hour health deadline is unchanged. No tests harvested, completed work restarted, gear/spending change or delegation.
+
+2026-10-27T20:25:30.451993+00:00 OPS-S15-W3-HEALTH-20261027-1325: exact watcher/calendar identities, fresh progress, first-attempt actual health delivery, all 21 content locks, available admission mutex and resource floors verify. All 30 recent terminals bind to retained full-write-through receipts; 202 claim anchors verify; no orphan found in inspected paths. Both interval engineering failures have completed, recorded recoveries. No service restart or process cleanup is required. Research workers and executable ready cards are zero against eight ready cards required. Estimated idle capacity is 23.646 slot-hours, with the receipt's measurement limits: commissioned implementation/admission remains a defect, not an empty commission. FIC1 scoring, consistent references, calibration and whole-design cost admission remain unfinished. Scientific failures, GPU parking, source/cost and transfer holds persist. No tests harvested or new scientific verdict. Inspection receipt: HEALTH_20261027_1325.json. Documentation precedes health ACK.
+
+2026-10-27T20:37:01.190770+00:00 OPS-S15-W3-FIC1-SCORING-NATIVE: The FIC1 scoring core passes known-answer arithmetic and independent native replay; human identification and full control calibration remain uncomputed.
+
+2026-10-27T20:42:45.600572+00:00 OPS-S15-W3-FIC1-SCORING-NATIVE-DELAYED-WAKE: event da2cd74fdcb601d8b78fa8c7 reverified against all 62 pins, 16 sealed outputs, fresh native replay, complete original write-through and 203 claim anchors. Original workers exited and released the lease. This is already-landed constructed arithmetic validation, not a human identification result. Context reconstruction, full calibration and complete cost admission remain unfinished; the ready queue is underbuilt. No tests harvested, completed work restarted, scientific verdict, gear/spending change or delegation. Documentation precedes idempotent ACK; the independent health deadline is retained.
+
+2026-10-28T02:28:28.673055+00:00 OPS-S15-W3-HEALTH-1027-1930: due event 2902c7b574e020fc62543410 inspected before ACK. Original watcher/calendar native identities, fresh scan/heartbeat, delivery, all 21 content locks, available admission mutex, released CPU leases, RAM/commit/disk and original GPU parking verified. One recent completion has full write-through; all 203 claim anchors verify; no new failure or orphaned terminal. No research worker active and zero ready cards against eight required. The interval contains an estimated 24.091 idle CPU-slot hours from terminal-duration accounting, excluding uncounted local construction/inspection. Cause: commissioned implementation and admission backlog, not an empty commission or failed service. No process recovery warranted; next authorized construction is the pooled FIC1 context reference and full calibration/cost admission. Scientific/source/cost/transfer holds preserved. No tests harvested from this wake. Receipt: HEALTH_20261027_1930.json.
+
+2026-10-28T02:44:02.670225+00:00 OPS-S15-W3-FIC1-CONTEXT-NATIVE: The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed.
+
+2026-10-28T02:49:17.914151+00:00 OPS-S15-W3-FIC1-CONTEXT-TIMING-NATIVE: The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun.
+
+2026-10-28T02:58:15.301902+00:00 OPS-S15-W3-FIC1-CONTEXT-COST-STOP: FIC1 context construction reached its component CPU cap during independent verification; retained output remains unverified and human identification uncomputed.
+
+2026-10-28T03:09:45.550686+00:00 OPS-S15-W3-FIC1-CONTEXT-RECOVERY-NATIVE: The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun.
+
+2026-10-28T03:14:03.407568+00:00 OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE: Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed.
+
+2026-10-28T03:15:51.767530+00:00 OPS-S15-W3-DIGEST-20261027: Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.
+
+2026-10-28T03:19:10.928256+00:00 OPS-S15-W3-PUBLICATION-REVIEW-1027: Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.

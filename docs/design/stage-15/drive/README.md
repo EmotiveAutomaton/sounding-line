@@ -1,5 +1,65 @@
 # October 16 drive commission
 
+[FIC1 context continuation](FIC1_CONTEXT_CONTINUATION_20261027.md): Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md).
+
+[FIC1 context continuation](FIC1_CONTEXT_CONTINUATION_20261027.md): The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md).
+
+[FIC1 context timing](FIC1_CONTEXT_TIMING_20261027.md): The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_TIMING_NATIVE_20261027.md).
+
+[FIC1 pooled context construction](FIC1_CONTEXT_20261027.md) passes constructed native replay. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_NATIVE_20261027.md). Full calibration and complete cost admission remain.
+
+[FIC1 fixed-support scoring](FIC1_SCORING_CORE_20261027.md) passes constructed native validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_SCORING_NATIVE_20261027.md). Context reconstruction and full scientific/cost admission remain.
+
+[Exact FIC1 reassignment reconstruction](FIC1_REASSIGNMENT_20261027.md) passes complete-source timing replay. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_REASSIGNMENT_TIMING_20261027.md). Complete controls, calibration and full-cost admission remain separate.
+
+[Exact FIC1 reassignment reconstruction](FIC1_REASSIGNMENT_20261027.md) passes native validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_REASSIGNMENT_NATIVE_20261027.md). Complete controls, calibration and full-cost admission remain separate.
+
+[First FIC1 gallery loader repair](FIC1_GALLERY_RECOVERY_20261027.md) passes complete corpus replay. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_RECOVERY_COMPLETE_20261027.md). Full identification calibration and controls remain separate.
+
+[First FIC1 gallery loader repair](FIC1_GALLERY_RECOVERY_20261027.md) passes native validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_RECOVERY_NATIVE_20261027.md). Full identification calibration and controls remain separate.
+
+[FIC1 gallery preparation](FIC1_GALLERIES_20261027.md) passes native validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_NATIVE_20261027.md). Full identification calibration and controls remain separate.
+
+[Exact FIC1 prefixes](FIC1_PREFIXES_20261027.md) pass bounded corpus source/cost validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_PREFIX_TIMING_20261027.md). No length curve or identification result is computed.
+
+[Exact FIC1 prefixes](FIC1_PREFIXES_20261027.md) pass native validation. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_PREFIX_NATIVE_20261027.md). No length curve or identification result is computed.
+
+[FIC1 feature preparation](FIC1_FEATURES_20261027.md) is complete on the corpus. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_FEATURE_COMPLETE_20261027.md). No identification or length-curve score is computed.
+
+[FIC1 feature preparation](FIC1_FEATURES_20261027.md) is native-validated. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_FEATURE_NATIVE_20261027.md). No identification or length-curve score is computed.
+
+[FIC1 source preparation](FIC1_INPUTS_20261027.md) is complete with fresh corpus replay. [Full record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_INPUT_COMPLETE_20261027.md). Features, length adjustment, controls and AUTH remain separate builds/admissions; no identification score is available.
+
+[FIC1 source preparation](FIC1_INPUTS_20261027.md) is built and native-verified; complete corpus replay is next. P3c calibration is complete with its agreement gate failed and no population label admission. Earlier running snapshots are historical.
+
+[P3c classifier execution](P3C_CLASSIFIER_20261027.md) is native-validated; complete timing, token coverage and blind-label calibration are running. TR3 calibration is complete with its sensitivity gate failed and human comparison uncomputed. Earlier running snapshots are historical.
+
+[TR3 calibration execution](TR3_CALIBRATION_EXECUTION_20261027.md) is native-verified and running its complete frozen matrix. [P3c model intake](P3C_MODEL_INTAKE_20261027.md) and [blind annotation criteria](P3C_CALIBRATION_20261027.md) are implemented; classifier validity remains untested.
+
+[P3c complete source preparation](../../../../results/phase_2_4_stage_15/DRIVE/P3C_INPUT_COMPLETE_20261027.md) retains every completed P5 edit and freezes the blinded selection; model validity remains untested.
+
+[P3c source preparation](P3C_INPUTS_20261027.md) is implemented and native-verified. Every completed edit is retained, with frozen blind calibration selection; no classifier or effect has run.
+
+[PR1 complete support census](../../../../results/phase_2_4_stage_15/DRIVE/PR1_SUPPORT_COMPLETE_20261027.md) closes this card as unsupported under the original threshold; no effect or follow-up. The source-support contract and all original data remain unchanged.
+
+[PR1 source support](PR1_SUPPORT_20261027.md) is implemented and native-verified; it computes no effect and leaves the final comparison unfrozen until source support and its ambiguities are inspected.
+
+[TR4.ic complete instrument record](../../../../results/phase_2_4_stage_15/DRIVE/TR4_IC_COMPLETE_20261027.md) (S15-TR4-IC-20261027) closes the frozen twelve-world check with full independent replay. Parent claims and failed gates remain unchanged; there are no descendants. Earlier admission and running snapshots below are historical.
+
+[TR4.ic recovery](TR4_IC_RECOVERY_20261027.md) preserves the frozen scientific matrix after Windows progress replacement failed. Bounded retry, exact checkpoint parity and native replay pass; the unchanged full continuation is admitted within its original allocation.
+
+[TR4.ic planted-drift design](TR4_IC_20261027.md) is implemented and native-verified. [Complete validation](../../../../results/phase_2_4_stage_15/DRIVE/TR4_IC_NATIVE_20261027.md) precedes full cost admission; the completed human result is unchanged.
+
+[TR4 complete parent](../../../../results/phase_2_4_stage_15/DRIVE/TR4_MAIN_20261027.md) has biased-reference and uncertainty limits; one first-generation instrument check is registered without changing the parent.
+
+[Full TR4 execution](../../../../results/phase_2_4_stage_15/DRIVE/TR4_MAIN_LAUNCH_20261027.md) follows complete validation and cost admission. All references and uncertainty remain; no human result is yet admitted.
+
+[Complete TR4 comparison](TR4_COMPARISON_20261027.md) is implemented and independently native-verified, with missing and biased references explicit. [Record](../../../../results/phase_2_4_stage_15/DRIVE/TR4_ANALYSIS_NATIVE_20261027.md). Whole-design cost admission remains.
+
+[TR4 six-model specification](TR4_FORECASTS_20261027.md) is implemented and independently native-verified. [Complete model validation](../../../../results/phase_2_4_stage_15/DRIVE/TR4_MODELS_NATIVE_20261027.md) preserves prospective boundaries; full statistical controls and cost admission remain.
+
+[Approved TR3 reference correction](TR3_REFERENCE_CORRECTION_20261027.md) requires rebuilding histories and matches for every permutation. The original unrun specification remains; primary, ceiling and zero further retries are unchanged. Statistics and calibration are not yet executed.
+
 [TR3 discovery selection](TR3_SELECTION_20261027.md) and [the pre-outcome comparison contract](TR3_COMPARISON_20261027.md) are frozen. Complete selected-feature inputs and independent replay pass; matched statistics and calibration remain to be built. [Complete preparation record](../../../../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_COMPLETE_20261027.md). No further automatic repairs are authorized.
 
 [TR3 human-production counts](TR3_HUMAN_COUNTS_20261027.md) are complete on the discovery corpus after twenty checks and independent replay under the explicit continuation approval. Feature selection and scientific admission remain separate; no additional automatic repairs.

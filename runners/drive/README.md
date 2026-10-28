@@ -1,5 +1,63 @@
 # October 16 drive runners
 
+`cards/week3_fic1_context_recovery`: Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md).
+
+`cards/week3_fic1_context_recovery`: The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md).
+
+`cards/week3_fic1_context_timing`: The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_TIMING_NATIVE_20261027.md).
+
+`cards/week3_fic1_context` passes sixteen targeted construction checks and fresh native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_NATIVE_20261027.md). Complete corpus timing and scientific calibration remain.
+
+`cards/week3_fic1_scoring` passes 24 arithmetic checks and constructed native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_SCORING_NATIVE_20261027.md). Human scoring, control construction and full calibration remain unadmitted.
+
+`cards/week3_fic1_reassignment` passes ten known-answer checks and complete-source timing replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_REASSIGNMENT_TIMING_20261027.md). Whole-session reassignment rebuilds prompt halves and exact prefixes; no scientific score is computed.
+
+`cards/week3_fic1_reassignment` passes ten known-answer checks and native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_REASSIGNMENT_NATIVE_20261027.md). Whole-session reassignment rebuilds prompt halves and exact prefixes; no scientific score is computed.
+
+`cards/week3_fic1_galleries_recovery` retains the original numerical code and passes nine loader/parity checks plus complete corpus replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_RECOVERY_COMPLETE_20261027.md). No human identification or scientific control is computed.
+
+`cards/week3_fic1_galleries_recovery` retains the original numerical code and passes nine loader/parity checks plus native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_RECOVERY_NATIVE_20261027.md). No human identification or scientific control is computed.
+
+`cards/week3_fic1_galleries` passes twenty numerical/source checks and native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_GALLERY_NATIVE_20261027.md). No human identification or scientific control is computed.
+
+`cards/week3_fic1_prefixes` passes twenty-one checks and bounded corpus timing replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_PREFIX_TIMING_20261027.md). Complete prefix preparation and calibrated identification remain separate; original source and failed scientific gates stay unchanged.
+
+`cards/week3_fic1_prefixes` passes twenty-one checks and complete native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_PREFIX_NATIVE_20261027.md). Complete prefix preparation and calibrated identification remain separate; original source and failed scientific gates stay unchanged.
+
+`cards/week3_fic1_features` passes nineteen checks and complete corpus replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_FEATURE_COMPLETE_20261027.md) retains full production, mixed final provenance and pooled sufficient records. Identification, exact prefix curves, calibrated controls and AUTH remain separate.
+
+`cards/week3_fic1_features` passes nineteen checks and constructed native replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_FEATURE_NATIVE_20261027.md) retains full production, mixed final provenance and pooled sufficient records. Identification, exact prefix curves, calibrated controls and AUTH remain separate.
+
+`cards/week3_fic1_inputs` now has complete corpus and native replay. [Source record](../../results/phase_2_4_stage_15/DRIVE/FIC1_INPUT_COMPLETE_20261027.md) preserves the original cohort, restores full typed production and retains mixed final provenance. Features, scientific comparisons and AUTH remain separate; earlier preparation snapshots are historical.
+
+`cards/week3_fic1_inputs` passes seventeen targeted checks and complete native replay. [Source contract](../../docs/design/stage-15/drive/FIC1_INPUTS_20261027.md) preserves the original cohort and prompt halves while restoring full production. Corpus preparation and scientific consumers remain separate. P3c calibration is now complete and fails its frozen agreement gate; its earlier running snapshots are historical.
+
+`cards/week3_p3c_classifier` passes eight targeted checks and native CPU replay. [Complete timing and blind-label calibration are running](../../results/phase_2_4_stage_15/DRIVE/P3C_CALIBRATION_LAUNCH_20261027.md). TR3 calibration is complete and failed its frozen sensitivity requirement; human carryover remains uncomputed. Earlier running snapshots are historical.
+
+The full constructed TR3 calibration is [running with native monitoring](../../results/phase_2_4_stage_15/DRIVE/TR3_CALIBRATION_LAUNCH_20261027.md). The estimator is unchanged after the authorized fixture correction; complete calibration gates human execution. P3c inputs, blind labels and model intake are complete; classifier validation remains next.
+
+P3c complete source preparation and blinded selection independently replay. [Full record](../../results/phase_2_4_stage_15/DRIVE/P3C_INPUT_COMPLETE_20261027.md) retains every completed edit; labels and classifier admission remain unfinished.
+
+`cards/week3_p3c_inputs` passes eleven targeted checks and independent native replay. Its [source contract](../../docs/design/stage-15/drive/P3C_INPUTS_20261027.md) retains every completed P5 edit and freezes blinded calibration before labels; complete corpus preparation remains next.
+
+PR1 source support and complete independent replay are finished. [Full record](../../results/phase_2_4_stage_15/DRIVE/PR1_SUPPORT_COMPLETE_20261027.md) closes the commissioned comparison as unsupported without computing an effect or opening descendants. Earlier build snapshots are historical.
+
+`cards/week3_pr1_support` passes eleven targeted checks and complete native replay. Its [source-support contract](../../docs/design/stage-15/drive/PR1_SUPPORT_20261027.md) preserves ties, hover overlap and missing windows before comparison; full corpus support remains next.
+
+TR4.ic execution and independent replay are complete. [Full instrument record](../../results/phase_2_4_stage_15/DRIVE/TR4_IC_COMPLETE_20261027.md) (S15-TR4-IC-20261027) preserves the failed reporting gates and the unchanged human parent; no descendants follow. Original and recovery code remain immutable. Earlier launch and admission snapshots below are historical.
+
+`cards/week3_tr4_sensitivity_recovery` isolates the [first validated I/O and checkpoint repair](../../results/phase_2_4_stage_15/DRIVE/TR4_IC_RECOVERY_NATIVE_20261027.md). Original consumers and failed attempt remain immutable; complete fresh replay is required for every retained world.
+
+`cards/week3_tr4_sensitivity` passes six checks and native replay; its [frozen instrument matrix](../../docs/design/stage-15/drive/TR4_IC_20261027.md) retains the parent unchanged and awaits full cost admission.
+
+TR4 full execution and independent replay are complete. [Parent record](../../results/phase_2_4_stage_15/DRIVE/TR4_MAIN_20261027.md) preserves failed inference gates; completed code and evidence stay immutable. The one registered instrument check is separate.
+
+The complete TR4 consumer is [running under the original allocation](../../results/phase_2_4_stage_15/DRIVE/TR4_MAIN_LAUNCH_20261027.md), with all controls and fresh replay. Completed/native code is frozen while the worker runs; no further automatic engineering repair remains.
+
+`cards/week3_tr4_comparison` and `cards/week3_tr4_analysis` implement all six prospective models, uncertainty and required references. Nineteen targeted checks and independent native replay pass. Complete-population cost admission remains. [Record](../../results/phase_2_4_stage_15/DRIVE/TR4_ANALYSIS_NATIVE_20261027.md).
+
+`cards/week3_tr4_models` and `cards/week3_tr4_model_checks` pass all targeted constructed checks and complete native replay. All six four-class predictors are built; complete comparison controls and corpus admission remain. [Record](../../results/phase_2_4_stage_15/DRIVE/TR4_MODELS_NATIVE_20261027.md).
+
 `cards/week3_tr3_selection` and `cards/week3_tr3_outcome_inputs` pass their known-answer checks and complete corpus independent replays. Discovery features are frozen before reserved-writer outcomes; canonical insertion identifies accepted options. Matched statistics and calibration remain unbuilt, with no further automatic repairs authorized. [Complete preparation](../../results/phase_2_4_stage_15/DRIVE/TR3_OUTCOME_INPUT_COMPLETE_20261027.md).
 
 `cards/week3_tr3_human_counts` passes twenty targeted checks and complete discovery-corpus independent replay. Feature selection and the matched carryover comparison remain separate gates; no further automatic repairs are authorized.

@@ -323,6 +323,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
   known-answer gates are cheap and they fire (a trusted criterion once returned 335 components
   on pure noise; PD-34's planted-trend gate; the event-harness gates caught two of its own
   faults). (CLAUDE.md hard rules; L74, L56)
+  Test the complete admission rule as well as the estimator: in TR4.ic every planted-change
+  world had a positive gain interval, yet the unchanged reference-bias gate blocked every
+  admission and also fired in stationary worlds. Distinguish tracking from licensed
+  sensitivity; retain failed gates and the human result rather than removing a gate after
+  seeing the plant. Four seeds per dose establish only the constructed conditional behavior.
+  (S15-TR4-IC-20261027)
 - **Check that the criterion CAN fail.** A z-scored variance is 1 by construction; a
   shuffle-ratio of an order-invariant statistic cannot exceed 1 for any data. Write the failure
   condition before the run and confirm it is reachable. (L53, L55)
@@ -1175,6 +1181,12 @@ L132 (a shuffle gate that voided the alternative's own signature).
   live Stage-4 freeze died on its first attempt while a CPU card was loading the lineage
   file it was rewriting; the cell-level retry carried it, and the writer now retries for
   five seconds before raising. (2026-08-27, soundingline/s4.py write_json)
+  The same defect recurred in the TR4 instrument check through a legacy progress
+  helper with no retry. Keep the historical shared helper pinned; use a separate
+  card wrapper, test a real non-delete-sharing handle, and reconstruct every
+  retained checkpoint during fresh verification. Reading this lesson without
+  checking the actual imported writer did not prevent the failure.
+  (OPS-S15-W3-TR4-IC-PROGRESS-FAILURE, OPS-S15-W3-TR4-IC-RECOVERY-NATIVE)
 - **A stage whose produce can never appear leaves the stage list the moment its cell
   resolves; a queue-empty test counts it forever.** The M02 interchange exited cleanly
   without a produce every pass after its gate failed, and any emptiness test over

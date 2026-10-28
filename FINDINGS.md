@@ -1,5 +1,1064 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-PUBLICATION-REVIEW-1027
+
+**Hypothesis.** Do the accumulated code and evidence changes have traceable validation before the authorized push?
+
+**METHOD.** Check current code hashes against completed native plans, parse changed evidence files, verify every claim source anchor and all research locks, and inspect deletion lines and scoped theory/provenance changes. Manually review the one test source not pinned in its earlier native plan and rerun its six checks unchanged. Exclude unrelated companion-exchange files and ignored raw/private run state from publication.
+
+**Found.** Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.
+
+**Means.** The first additional test invocation was refused at temporary-directory setup before any test body ran. Its six setup errors are retained as an environmental refusal, not an instrument or scientific failure. A fresh workspace temporary directory and disabled optional test cache resolve the path restriction; all six unchanged checks pass. No estimator, control, gate or source changes were made. The earlier full native validation remains recorded, but its missing test-source pin is not retroactively claimed. The current source hash and fresh pass receipt are now bound explicitly.
+
+All 21 research locks pass; no deleted files appear and the whitespace diff check passes. Claim anchors and completed code bindings reconcile. This records readiness for publication only; a push requires its own actual Git result. FIC1 construction is verified while scientific calibration and complete cost admission remain unfinished. No new research hypothesis or unfinished score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.; project meaning: scoped operational record; next engineering obligation: Complete the authorized Git push and continue bounded commissioned buildout; public scientific claim unchanged; curator decision required: No new decision. Detail: PUBLICATION_REVIEW_20261027.md.
+
+### OPS-S15-W3-DIGEST-20261027
+
+**Hypothesis.** Are the completed evidence, corrections and operating obligations fully recorded for the daily theory handoff?
+
+**METHOD.** Authenticate the scheduled calendar marker, every recorded terminal in the daily interval, all complete-output manifests and current claim anchors. Inspect the actual watcher/calendar identities, leases, resource headroom, delivery health and existing paid bookings. Distinguish the scheduled cutoff from the subsequent FIC1 continuation addendum. Quote completed claim wording from the ledger rather than inferring a new scientific result.
+
+**Corrections first.** TR3's preparation repairs and repair-limit breach remain recorded. The curator subsequently authorized appropriate checked corrections. The corrected shuffle rebuilds eligibility and matches; its complete calibration still fails a frozen sensitivity gate, so no human carryover comparison is admitted. TR4's completed prospective comparison retains its biased temporal reference and unsupported reliability uncertainty; its constructed instrument check does not repair those limits or open descendants. Its Windows progress-write interruption and separately validated recovery remain recorded. PR1 remains unsupported, with no effect or follow-up. P3c's frozen classifier agreement gate fails; no downstream population label result is admitted. FIC1's original gallery-order failure and separate loader repair preserve all keyed numeric contents. Its context timing forecast was too low: execution finished, verification hit the component cap, and all failed CPU is charged. A separately frozen exact continuation now independently replays the retained construction; the failed attempt is preserved.
+
+**Theory and instrument integration.** Existing completed entries and their scopes are retained. This digest adds no theory synthesis, new hypothesis, weakened gate or descendant beyond the existing commission. FIC1 source, features, prefixes, galleries, reassignment, scoring-core construction and pooled context preparation are instrument records. They do not establish human identification. The pooled context convention is explicitly labeled as an analyst implementation; it does not silently replace completed session-mean analyses. Full null/planted calibration and complete study cost admission remain necessary.
+
+The table quotes each completed landing's exact ledger wording and control status since the previous daily cutoff. Entries after 2026-10-28 03:00 UTC are a post-cutoff operational addendum; none is backdated. Historical statements of running work describe their own recorded snapshots.
+
+| Ledger identifier | Control status | Exact public wording |
+|---|---|---|
+| OPS-S15-W3-TR3-INPUTS-NATIVE | passes | The chronological exposure instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
+| OPS-S15-W3-TR3-SOURCE-FAILURE | invalid | TR3 source preparation failed on an empty recorded reopen; the original attempt is retained and its first engineering repair is separately validated. |
+| OPS-S15-W3-TR3-INPUTS-RECOVERY-NATIVE | passes | The empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
+| OPS-S15-W3-READER-IDENTITY-DUE | untested | The EV1/EV2 reader identity is authenticated and prepared; the scheduled receiving copy remains approval-held, so delivery is not claimed. |
+| OPS-S15-W3-DIGEST-20261026 | passes | Completed evidence and operating limits are reconciled; the commissioned queue remains partly unbuilt and is not complete. |
+| OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE | invalid | The first TR3 source repair failed on an empty reopen without a preceding menu; the second and final ordinary healing pass is separately validated. |
+| OPS-S15-W3-TR3-INPUTS-RECOVERY2-NATIVE | passes | The second empty-display recovery instrument passes constructed native execution and complete independent replay; corpus support and carryover remain untested. |
+| OPS-S15-W3-TR3-SOURCE-COMPLETE | passes | The complete chronological suggestion-exposure source passes independent reconstruction; cross-session carryover remains untested. |
+| OPS-S15-W3-TR3-TYPING-NATIVE | passes | The exact typing-context instrument passes known-answer and native replay checks; corpus preparation and carryover remain separate gates. |
+| OPS-S15-W3-TR3-TYPING-COMPLETE | passes | The complete typing-context source passes independent reconstruction; cross-session carryover remains untested. |
+| OPS-S15-W3-TR3-CANDIDATES-NATIVE | passes | The discovery suggestion counter passes known-answer and native replay checks; feature selection and carryover remain untested. |
+| OPS-S15-W3-TR3-CANDIDATES-FAILURE | invalid | The discovery candidate corpus pass failed on the canonical option-record schema; no corpus counts or carryover effect were admitted. |
+| OPS-S15-W3-TR3-CANDIDATES-RECOVERY-NATIVE | passes | The canonical suggestion-record adapter passes exact count parity and independent native replay; full discovery preparation remains separate. |
+| OPS-S15-W3-TR3-CANDIDATES-RECOVERY-FAILURE | invalid | The first candidate recovery rejected an authenticated empty reopen; the final ordinary repair retains it with zero offered alternatives. |
+| OPS-S15-W3-TR3-CANDIDATES-RECOVERY2-NATIVE | passes | The final candidate adapter passes canonical and empty-display checks plus independent native replay; full discovery counts remain separate. |
+| OPS-S15-W3-TR3-CANDIDATES-COMPLETE | passes | The complete discovery suggestion candidate counts pass independent reconstruction; human comparison, feature selection and carryover remain untested. |
+| OPS-S15-W3-TR3-REPAIR-CAP | invalid | TR3 preparation authenticates, but further execution is held after the card-wide repair limit was exceeded. |
+| OPS-S15-W3-TR4-INPUTS-NATIVE | passes | The TR4 input instrument passes known-answer checks and independent native replay; the complete corpus and six predictors remain separate. |
+| OPS-S15-W3-TR4-INPUTS-COMPLETE | passes | The complete TR4 handling and chronology census passes independent reconstruction; no recent-versus-whole-history forecast has been computed. |
+| OPS-S15-W3-TR3-CONTINUATION-AUTHORIZED | untested | The curator authorized continuing TR3 from verified preparation under its original CPU ceiling, with no additional automatic repairs; the prior breach remains recorded. |
+| OPS-S15-W3-TR3-HUMAN-NATIVE | passes | The discovery human-production counter passes known-answer checks and independent native replay; corpus counts, feature selection and carryover remain separate. |
+| OPS-S15-W3-TR3-HUMAN-COMPLETE | passes | Complete discovery human-production counts pass independent reconstruction; feature selection and cross-session carryover remain uncomputed. |
+| OPS-S15-W3-TR3-SELECTION-NATIVE | passes | The frozen discovery selector passes known-answer checks and independent native replay; corpus selection and carryover remain separate. |
+| OPS-S15-W3-TR3-SELECTION-COMPLETE | passes | The complete discovery feature selection passes independent reconstruction without reading test-half payloads; carryover remains uncomputed. |
+| OPS-S15-W3-TR3-OUTCOME-INPUT-NATIVE | passes | The selected-feature input instrument passes known-answer checks and independent native replay; complete corpus preparation and carryover remain separate. |
+| OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE | passes | Complete selected-feature typing counts and canonical offer attribution pass independent reconstruction; matched carryover and calibration remain uncomputed. |
+| OPS-S15-W3-TR3-REFERENCE-CORRECTION | passes | The curator approved rebuilding histories and matches within the unrun TR3 permutation control; the primary comparison, original CPU ceiling and zero further retries remain unchanged. |
+| OPS-S15-W3-TR3-STATISTICS-VALIDATION-HOLD | invalid | The TR3 control implementation is held after one constructed validation example failed; human carryover remains uncomputed and no automatic repair is taken. |
+| OPS-S15-W3-TR4-MODELS-NATIVE | passes | All six prospective four-class TR4 models pass constructed checks and independent native replay; complete statistical controls and corpus cost admission remain separate. |
+| OPS-S15-W3-TR4-ANALYSIS-NATIVE | passes | The complete TR4 comparison and reference pipeline pass constructed validation and independent native replay; full-population cost admission remains. |
+| OPS-S15-W3-TR4-COST-LAUNCH-REFUSAL | invalid | TR4 cost dispatch refused an incomplete validation-receipt binding before execution; its final ordinary repair supplies the existing verified receipts without changing the study. |
+| OPS-S15-W3-TR4-FULL-COST | passes | The complete-population TR4 timing pass and independent replay are verified; the unchanged full comparison fits the original CPU allocation with explicit clock-resolution and runtime reserves. |
+| OPS-S15-W3-TR4-FULL-LAUNCH | passes | The complete TR4 comparison is running in Gear 2 with all reference banks, paired uncertainty and independent replay; the wider ready-card backlog remains unfinished. |
+| S15-TR4-20261027 | biased reference | Descriptive only: adaptive handling forecasts did not improve on whole-history forecasts; the outcome-order reference is biased and volatility-reliability uncertainty is unsupported. |
+| OPS-S15-W3-TR4-IC-NATIVE | passes | The planted-drift constructor and unchanged TR4 consumer pass targeted checks and independent native replay; the full twelve-world instrument check remains cost-gated. |
+| OPS-S15-W3-TR4-IC-COST-LAUNCH | passes | The registered TR4 instrument check is running its full-control timing world in Gear 2; the twelve-world main remains gated on measured cost. |
+| OPS-S15-W3-TR4-IC-FULL-COST | passes | The full-control constructed timing run and independent replay are verified; the unchanged twelve-world TR4 instrument check fits its separate CPU allocation. |
+| OPS-S15-W3-TR4-IC-FULL-LAUNCH | passes | The complete twelve-world TR4 instrument check is running in Gear 2 with unchanged controls and independent replay; the wider ready-card backlog remains incomplete. |
+| OPS-S15-W3-TR4-IC-PROGRESS-FAILURE | invalid | The TR4 instrument check stopped on a Windows progress-file replacement refusal; the incomplete matrix is unscored and its completed checkpoints are preserved. |
+| OPS-S15-W3-TR4-IC-RECOVERY-NATIVE | passes | The first TR4 instrument-check recovery passes bounded Windows I/O checks, exact checkpoint parity and fresh native replay; the complete continuation fits the original allocation. |
+| OPS-S15-W3-TR4-IC-RECOVERY-LAUNCH | passes | The unchanged TR4 instrument matrix is continuing in Gear 2 after its validated first I/O repair; retained checkpoints are byte-identical and every world still requires independent replay. |
+| S15-TR4-IC-20261027 | biased reference | In constructed worlds, planted drift produces positive forecast-gain intervals, but the unchanged biased-reference gate prevents positive admission; volatility-reliability uncertainty remains unsupported. |
+| OPS-S15-W3-PR1-SUPPORT-NATIVE | passes | The PR1 support checker passes known-answer checks and independent native replay; complete corpus support and the scientific comparison remain unmeasured. |
+| S15-PR1-SUPPORT-20261027 | untested | Unsupported: only 24 writers meet the examined/fast-dismissal event minimum against 25 required; no paying-to-say-it effect was computed. |
+| OPS-S15-W3-P3C-INPUT-NATIVE | passes | The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished. |
+| OPS-S15-W3-P3C-INPUT-COMPLETE | passes | The complete saved edit population and blinded calibration selection independently replay; edit-intent labels and classifier agreement remain unmeasured. |
+| OPS-S15-W3-P3C-MODEL-INTAKE | passes | The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested. |
+| OPS-S15-W3-TR3-FIXTURE-CORRECTED | passes | The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference. |
+| OPS-S15-W3-TR3-CALIBRATION-TIMING | passes | The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference. |
+| OPS-S15-W3-TR3-CALIBRATION-LAUNCH | passes | The complete constructed TR3 calibration is running in Gear 2 under the original CPU ceiling; no human carryover or unfinished calibration score is admitted. |
+| S15-TR3-CALIBRATION-20261027 | invalid | In constructed worlds, the recurrence instrument fails its frozen negative-direction sensitivity requirement; human carryover remains untested. |
+| OPS-S15-W3-P3C-CLASSIFIER-NATIVE | passes | The pinned CPU edit-intent classifier passes numerical and input-support checks with independent replay; complete blind-label calibration remains required. |
+| OPS-S15-W3-P3C-CALIBRATION-LAUNCH | passes | The CPU edit-intent timing and complete blind-label calibration are running in Gear 2 with independent replay and explicit token coverage; no unfinished score is admitted. |
+| S15-P3C-CALIBRATION-20261027 | invalid | The edit-intent classifier fails its frozen agreement gate against agent-made labels; population edit-intent labels remain unadmitted. |
+| OPS-S15-W3-FIC1-INPUT-NATIVE | passes | The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished. |
+| OPS-S15-W3-FIC1-INPUT-COMPLETE | passes | Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed. |
+| OPS-S15-W3-FIC1-FEATURE-NATIVE | passes | The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished. |
+| OPS-S15-W3-FIC1-FEATURE-COMPLETE | passes | Complete FIC1 session features independently replay with full production and original memberships; identification remains uncomputed. |
+| OPS-S15-W3-FIC1-PREFIX-NATIVE | passes | The exact FIC1 prefix builder passes known-answer checks and independent native replay; corpus preparation and identification remain unfinished. |
+| OPS-S15-W3-FIC1-PREFIX-TIMING | passes | The bounded FIC1 prefix timing pass independently replays; complete prefix preparation is cost-admitted, while identification remains uncomputed. |
+| OPS-S15-W3-FIC1-PREFIX-LAUNCH | passes | Complete FIC1 prefix preparation is running in Gear 2 after native validation and measured cost admission; identification remains uncomputed. |
+| OPS-S15-W3-FIC1-PREFIX-COMPLETE | passes | Complete FIC1 production occurrences and fixed-length prefix features independently replay; identification remains uncomputed. |
+| OPS-S15-W3-FIC1-GALLERY-NATIVE | passes | The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished. |
+| OPS-S15-W3-FIC1-GALLERY-ORDER-FAILURE | invalid | FIC1 gallery preparation stopped before fitting on an order-sensitive predecessor comparison; all keyed profile contents agree, and the first engineering repair is being prepared. |
+| OPS-S15-W3-FIC1-GALLERY-RECOVERY-NATIVE | passes | The first FIC1 gallery loader repair passes predecessor-schema checks, numerical parity and independent native replay; corpus recovery and identification remain unfinished. |
+| OPS-S15-W3-FIC1-GALLERY-RECOVERY-COMPLETE | passes | Complete FIC1 galleries and length adjustments independently replay after the first loader repair; identification and its controls remain uncomputed. |
+| OPS-S15-W3-FIC1-REASSIGNMENT-NATIVE | passes | The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured. |
+| OPS-S15-W3-FIC1-REASSIGNMENT-TIMING | passes | Complete FIC1 identity and single-shuffle profile reconstruction independently replay; the scientific reference bank and identification remain uncomputed. |
+| OPS-S15-W3-FIC1-SCORING-NATIVE | passes | The FIC1 scoring core passes known-answer arithmetic and independent native replay; human identification and full control calibration remain uncomputed. |
+| OPS-S15-W3-FIC1-CONTEXT-NATIVE | passes | The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed. |
+| OPS-S15-W3-FIC1-CONTEXT-TIMING-NATIVE | passes | The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun. |
+| OPS-S15-W3-FIC1-CONTEXT-COST-STOP | untested | FIC1 context construction reached its component CPU cap during independent verification; retained output remains unverified and human identification uncomputed. |
+| OPS-S15-W3-FIC1-CONTEXT-RECOVERY-NATIVE | passes | The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. |
+| OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE | passes | Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. |
+
+**Follow-ups and runnable work.** FIC1's exact context continuation is fully verified and all of its workers have exited. Its cumulative CPU charges and construction reserves are 2813.234375 of the original 7,200 seconds; no card-ceiling extension is invoked. Complete null/planted calibration, full reference-bank cost admission and AUTH remain gated. TR3 and P3c retain failed instrument admission; TR4 and its first-generation check retain their recorded limits. PR1 is unsupported. WB1 shared-source repairs are exhausted. PP1, WD1.h1, CA1 and PP3.p cost holds remain; CA2/CA3 have calibrated dependencies. GPU work is intentionally parked. Concrete paid-transfer/admission holds and the outstanding exact WA0 receiving-copy approval remain. EV4 copy approval does not cover WA0. No provider request, new delegation or gear change was made by this wake.
+
+The operating table covers the daily interval from 2026-10-27T03:00:00+00:00 to 2026-10-28T03:00:00+00:00. Idle time is an estimate from authenticated terminal wall durations, not continuous telemetry; construction, inspection and uncounted agent work are excluded from worker occupancy.
+
+| Operating item | Observation |
+|---|---|
+| Daily terminal records authenticated | 57; complete output hashes checked |
+| Claim source anchors checked at inspection | 207 |
+| Recorded worker slot-hours | 1.647923 |
+| Estimated idle slot-hours | 94.352077 of 96 available |
+| Idle cause and defect | Commissioned implementation and admission backlog; ready-card target unmet |
+| Ready cards after continuation | 0 against the target of 8; no claim of a fully built queue |
+| Week 3 paid booking | 1 cents of 1,000 cents; existing reservation remains reconciled |
+| Node caps | PROC 200, VAL 250, K 250, AUTH 100, GOAL 50, P 50 cents |
+| Available RAM / commit / disk at inspection | 49.443 / 30.662 / 361.970 GiB |
+| Monitoring | Watcher/calendar identities and fresh heartbeat verified; terminal watches retained |
+| Receiving copy | WA0 payload verified; specific approval outstanding, delivery not claimed |
+| Final freeze / drain | November 1, 20:00 / 22:00 PST; this digest is not stage closure |
+
+**Found.** Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.
+
+**Means.** Continue bounded ranked Gear 2 construction and measured admission. The idle-capacity defect remains an implementation obligation, not a healthy-queue claim. Fixed six-hour health monitoring and immediate terminal/failure monitoring remain; no extra ETA wake is scheduled. Scientific results remain internal until the active stage's final packet. No tests were harvested from these operational notices, and no unfinished per-artifact score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.; project meaning: scoped operational record; next engineering obligation: Continue ranked Gear 2 builds, FIC1 calibration and complete cost admission; preserve all current holds; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261027.md.
+
+### OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE
+
+**Hypothesis.** Can retained context construction be reused without changing any inputs or outputs, then be independently rebuilt within the original study allocation?
+
+**METHOD.** Authenticate the original plan, terminal record, source pins, bound inputs and four complete output files. Copy those outputs unchanged during execution; rebuild every original input and context gallery in a fresh native verification process. Six targeted checks cover exact reuse and independent replay, incomplete output and changed input/configuration/source/destination refusal. Preserve the failed timing attempt and all charged CPU.
+
+**Found.** Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed.
+
+**Means.** This validates construction and continuation only. The original pooled operator, donor rotations, fixed support and nuisance fits are unchanged. The failed attempt remains recorded. No human identification, scientific reference bank, probability or passing scientific gate is computed; full null/planted calibration, whole-study cost admission and the separate AUTH gate remain.
+
+All original 990 sessions and 24 writers are retained. This continuation used 169.546875 CPU seconds; cumulative charges and construction/test reserves are 2813.234375 of the original 7,200. The copied execution-cost receipt is historical and is not charged again. No S4 card extension or engineering repair was used. Workers exited and released their lease. No tests were harvested from the operational wake; the broader queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete null/planted calibration and whole-study cost admission before human scoring; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md.
+
+### OPS-S15-W3-FIC1-CONTEXT-RECOVERY-NATIVE
+
+**Hypothesis.** Can retained context construction be reused without changing any inputs or outputs, then be independently rebuilt within the original study allocation?
+
+**METHOD.** Authenticate the original plan, terminal record, source pins, bound inputs and four complete output files. Copy those outputs unchanged during execution; rebuild every original input and context gallery in a fresh native verification process. Six targeted checks cover exact reuse and independent replay, incomplete output and changed input/configuration/source/destination refusal. Preserve the failed timing attempt and all charged CPU.
+
+**Found.** The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun.
+
+**Means.** This validates construction and continuation only. The original pooled operator, donor rotations, fixed support and nuisance fits are unchanged. The failed attempt remains recorded. No human identification, scientific reference bank, probability or passing scientific gate is computed; full null/planted calibration, whole-study cost admission and the separate AUTH gate remain.
+
+The native fixture is constructed. This continuation used 3.234375 CPU seconds; cumulative charges and construction/test reserves are 2643.6875 of the original 7,200. The copied execution-cost receipt is historical and is not charged again. No S4 card extension or engineering repair was used. Workers exited and released their lease. No tests were harvested from the operational wake; the broader queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun.; project meaning: scoped operational record; next engineering obligation: Independently verify retained full-source context construction; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-CONTEXT-COST-STOP
+
+**Hypothesis.** Can the complete-source context preparation and its independent replay finish inside the component's bounded timing allowance?
+
+**METHOD.** Run the validated pooled builder on all original sessions and three donor rotations, then reconstruct the saved outputs in a separate process. Inspect the exact failure, native identities, released lease and retained bytes before deciding recovery.
+
+**Found.** FIC1 context construction reached its component CPU cap during independent verification; retained output remains unverified and human identification uncomputed.
+
+**Means.** This is a cost failure, not a scientific result or an engineering gate failure. Complete execution used 170.359375 CPU seconds; the combined process guard stopped at 303.15625 during verification against a 300-second component cap. No verification receipt or completion exists. The earlier 180-second forecast was too low. All original inputs, context outputs and failed attempt remain retained; no score or passing scientific control is inferred.
+
+Cumulative FIC1 charges and reserves are 2580.453125 of the original 7,200 seconds. A separately frozen continuation may retain completed construction and independently replay it under a measured allowance, with fresh binding checks. That continuation stays within the original card allocation; no S4 card-ceiling extension, source change, reduced grid, engineering retry or new paid/GPU work is authorized by this failure. Workers exited and released their lease. No tests harvested from the wake; the broader queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; FIC1 context construction reached its component CPU cap during independent verification; retained output remains unverified and human identification uncomputed.; project meaning: scoped operational record; next engineering obligation: Validate a continuation of the retained complete construction and independently replay all outputs under measured cost admission; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONTEXT_COST_STOP_20261027.md.
+
+### OPS-S15-W3-FIC1-CONTEXT-TIMING-NATIVE
+
+**Hypothesis.** Can the complete-source context handler preserve all original inputs, reconstruct every context gallery and measure its cost without computing human identification?
+
+**METHOD.** Load authenticated predecessors, retain original writers and exact prefix rules, rebuild the literal context diagnostic and three independent-writer rotations, and refit each arm's B-only nuisance models. Four targeted checks exercise actual handler replay, immutable reentry, malformed population and changed configuration/source refusals. Execute the declared construction and rebuild every output in a separate native verification process. Retain missing donor support rather than selecting successful galleries.
+
+**Found.** The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun.
+
+**Means.** This is construction and timing evidence only. No human identification score, scientific reference bank or probability is computed. Full null/planted calibration and complete study cost admission remain; AUTH stays separately gated. Existing results and failed gates remain unchanged.
+
+The native constructed fixture contains six writers and all three rotations. Execution and independent replay used 3.640625 CPU seconds; cumulative charges and construction/test reserves are 2277.296875 of the original 7,200. No repair or S4 extension was used. Workers exited and released the lease. The broader queue remains underbuilt. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The FIC1 context timing handler passes constructed native replay; complete-source timing remains unrun.; project meaning: scoped operational record; next engineering obligation: Measure complete-source context construction; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONTEXT_TIMING_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-CONTEXT-NATIVE
+
+**Hypothesis.** Can a context reference preserve the original pooled profile operator while keeping the writers being tested out of its donor pool?
+
+**METHOD.** Rebuild the exact prompt halves and word prefixes. Replace each selected portion by its prompt's equal-session mean sufficient measure per word, then pool counts and timing distributions before computing rates and medians. Partial portions use the same exact first-word quota in every donor; insufficient donors remain unsupported. Rotate three disjoint writer roles, retaining every originally supported probe once and fixed galleries. Fit length and provenance adjustments separately on each arm's B gallery. Retain the literal leave-writer-out diagnostic. Check pooled denominators, weighted medians, recipient-feature isolation, null-context parity, missing support, role conservation, nuisance refits and serialization in sixteen targeted checks, then independently reconstruct the entire fixture in fresh native execution.
+
+**Found.** The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed.
+
+**Means.** This validates construction only. The sufficient-measure convention is an explicitly labeled analyst implementation for pooled profiles, not a silent replacement of the completed session-mean WA0 or GEN1 analyses. Its context draws use no recipient word choices or timing values. The complete null and planted calibration, full corpus timing and whole-study cost admission remain required. No writer-matching score or scientific probability is computed. The constructed-only handler refuses human mode; AUTH remains separately gated.
+
+All sixteen targeted checks passed on their first run. Native execution and replay used 3.65625 CPU seconds. Including the 180-second construction/test reserve and prior work, FIC1's cumulative charge is 2,213.65625 of the original 7,200 seconds. No repair or S4 extension was used. Workers exited and released their lease. The wider ready-card queue remains underbuilt; source/cost, scientific, GPU and transfer holds remain. No new hypothesis was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The pooled FIC1 context builder passes constructed checks and independent native replay; full calibration and human identification remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Measure complete-source context construction, then complete null/planted calibration and whole-study cost admission before human scoring; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONTEXT_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-SCORING-NATIVE
+
+**Hypothesis.** Can the identification scorer preserve fixed writers and honest uncertainty, refuse incomplete controls and stop a nonrising length curve?
+
+**METHOD.** Test constant ties, exact identity fingerprints and reverse signals against known answers. Require the entire fixed writer roster in every reference draw, pair context differences before writer resampling and preserve the complete gallery. Validate exact paired-genre arithmetic without converting fractional ties into binary counts. Freeze the raw common-support length rule before human outcomes. Exercise malformed inputs, order invariance and immutable serialization in 24 targeted checks, then repeat the constructed handler from its inputs in a separate native process. Verify every source pin and output, process exit and lease release.
+
+**Found.** The FIC1 scoring core passes known-answer arithmetic and independent native replay; human identification and full control calibration remain uncomputed.
+
+**Means.** This validates the arithmetic component only. Its handler structurally refuses human mode. It does not validate how pooled context profiles are generated, fit independent-donor rotations, construct a scientific reference bank or license a human claim. Those controls, complete calibration and full measured cost admission remain. AUTH stays separately gated. The raw length curve requires positive full-minus-short gain and positive ordered slope within each genre; a flat ceiling also stops interpretation. Covariate-adjusted full profiles remain a separate comparison.
+
+The first targeted run passed all 24 checks. Native execution plus independent replay used 2.21875 CPU seconds; construction/test reserves and all prior charges now total 2,030 of the original 7,200. No repair or S4 extension was used. The standing S4 rule permits a single cumulative ceiling up to twice the original if a later complete measured forecast requires it, but no full scientific run is admitted by this arithmetic receipt.
+
+Workers exited and released their lease. The ready queue remains underbuilt, with no research worker active at this cutoff; completed validation is not a full running study. No hypotheses were harvested from the operational wake. Scientific failures, GPU parking, source/cost and transfer holds remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The FIC1 scoring core passes known-answer arithmetic and independent native replay; human identification and full control calibration remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Build consistent pooled context reconstruction and full-pipeline calibration, then measure complete study cost before human scoring; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_SCORING_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-REASSIGNMENT-TIMING
+
+**Hypothesis.** Can the writer-label control rebuild the exact production profiles after each reassignment without losing sessions, changing prompt support or reusing observed prefixes?
+
+**METHOD.** Authenticate every completed source binding. Preserve each writer-label count within genre and prompt, assign whole sessions, recompute each writer's chronological whole-prompt halves, then rebuild all fixed word-length prefixes and pooled final-document features with the unchanged operators. Retain unsupported halves and lengths. Require the identity assignment to equal every original profile membership, word count and prefix feature. Test exact parity, changed chronology, count conservation, missing support, refusals and serialization in ten targeted checks, then independently reconstruct the complete declared pass in separate native processes. Verify every pin and output, native exits and lease release.
+
+**Found.** Complete FIC1 identity and single-shuffle profile reconstruction independently replay; the scientific reference bank and identification remain uncomputed.
+
+**Means.** This validates reconstruction and measures preparation cost only. It computes no writer-matching score, context reference, permutation probability, length-curve score or scientific admission. One timing shuffle cannot replace the required complete bank. Full controls must still use consistent observed and reconstructed feature operators, refit nuisance models and retain fixed support. The approved independent-donor correction, paired uncertainty, length-trend rule, full calibration and complete statistical cost admission remain. AUTH stays separately gated.
+
+The conservative reconstruction-only forecast for 1,000 draws and independent replay is 5188.547 CPU seconds, using three times the complete measured per-draw costs plus measured loading and identity replay. This excludes all scoring, independent-donor reference reconstruction and scientific calibration, so it cannot admit the complete study. The remaining original allocation is 5292.218750 CPU seconds.
+
+The completed pass uses 36.09375 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1907.78125 of 7,200. All workers exited and released their lease. All ten targeted checks passed on the first run. The earlier gallery ordering failure and first recovery remain recorded; no numerical or scientific gate changed. The wider ready-card queue remains underbuilt while commissioned implementation continues. No tests were harvested from the wake; GPU parking and source/cost/transfer holds persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 identity and single-shuffle profile reconstruction independently replay; the scientific reference bank and identification remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Build calibrated scoring and consistent references only within measured full-cost admission; preserve all holds; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_REASSIGNMENT_TIMING_20261027.md.
+
+### OPS-S15-W3-FIC1-REASSIGNMENT-NATIVE
+
+**Hypothesis.** Can the writer-label control rebuild the exact production profiles after each reassignment without losing sessions, changing prompt support or reusing observed prefixes?
+
+**METHOD.** Authenticate every completed source binding. Preserve each writer-label count within genre and prompt, assign whole sessions, recompute each writer's chronological whole-prompt halves, then rebuild all fixed word-length prefixes and pooled final-document features with the unchanged operators. Retain unsupported halves and lengths. Require the identity assignment to equal every original profile membership, word count and prefix feature. Test exact parity, changed chronology, count conservation, missing support, refusals and serialization in ten targeted checks, then independently reconstruct the complete declared pass in separate native processes. Verify every pin and output, native exits and lease release.
+
+**Found.** The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured.
+
+**Means.** This validates reconstruction and measures preparation cost only. It computes no writer-matching score, context reference, permutation probability, length-curve score or scientific admission. One timing shuffle cannot replace the required complete bank. Full controls must still use consistent observed and reconstructed feature operators, refit nuisance models and retain fixed support. The approved independent-donor correction, paired uncertainty, length-trend rule, full calibration and complete statistical cost admission remain. AUTH stays separately gated.
+
+The completed pass uses 0.734375 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1871.6875 of 7,200. All workers exited and released their lease. All ten targeted checks passed on the first run. The earlier gallery ordering failure and first recovery remain recorded; no numerical or scientific gate changed. The wider ready-card queue remains underbuilt while commissioned implementation continues. No tests were harvested from the wake; GPU parking and source/cost/transfer holds persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact FIC1 reassignment builder passes known-answer checks and independent native replay; corpus reconstruction cost and identification remain unmeasured.; project meaning: scoped operational record; next engineering obligation: Measure complete-source single-shuffle reconstruction cost; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_REASSIGNMENT_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-GALLERY-RECOVERY-COMPLETE
+
+**Hypothesis.** Can the commissioned genre comparison adjust its full profiles for length without fitting on probe observations or losing writers with insufficient prefix support?
+
+**METHOD.** Compare complete predecessor records by writer, genre and half, rejecting duplicate identities and any changed fields while allowing only top-level order differences. Nine repair checks exercise the actual predecessor schema, refusal cases and exact numerical parity. Preserve the completed pooled typed style/rhythm vectors and rebuild pooled final-document style from full counts. Retain each original writer, genre and prompt half. Fit feature-wise ordinary least squares on gallery B only, using log-base-two word count; retain raw features and, for final style, the additional accepted-character-share adjustment. Keep missing and rank-exhausted fits unsupported. Retain per-length support and the all-length common set. Validate pure nuisance removal, preserved orthogonal fingerprints, probe independence, exact pooling, missing/rank cases and serialization with twenty targeted checks; execute and reconstruct all prepared matrices in separate native processes. Authenticate source pins, output seals, native exits and lease release.
+
+**Found.** Complete FIC1 galleries and length adjustments independently replay after the first loader repair; identification and its controls remain uncomputed.
+
+**Means.** Numerical transformation checks are distinct from complete identification calibration. No human writer-matching score, reference distribution, paired genre diagnostic or length-curve score is computed. Controls and independent-donor rotations must rebuild their own profiles and refit their own gallery coefficients; these observed prepared matrices do not replace that work. Full scientific and cost admission remain unestablished. AUTH remains separately gated, and final documents retain their mixed provenance.
+
+The table counts supported original writers across both genres and both halves for each complete prepared representation. It reports input support, not accuracy; every unsupported writer remains in the census.
+
+| Representation and word budget | Supported writers | Unsupported writers |
+|---|---:|---:|
+| final_style.full | 24 | 0 |
+| rhythm.1000 | 18 | 6 |
+| rhythm.2000 | 11 | 13 |
+| rhythm.500 | 23 | 1 |
+| rhythm.full | 24 | 0 |
+| style.1000 | 18 | 6 |
+| style.2000 | 11 | 13 |
+| style.500 | 23 | 1 |
+| style.full | 24 | 0 |
+
+The completed pass uses 9.296875 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1750.953125 of 7,200 seconds. All workers exited and released their lease. All twenty original numerical checks and nine recovery checks pass. This is engineering repair 1 of 2: only predecessor list-order equality changed to complete identity-keyed equality. The failed original run remains immutable and its charge remains counted; original numerical code, chronology, inputs, covariates and scientific gates are unchanged. The wider ready-card queue remains underbuilt; the build interval was spent implementing and validating commissioned gallery preparation. No tests were harvested from the wake. Failed scientific gates, parked GPU work and source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 galleries and length adjustments independently replay after the first loader repair; identification and its controls remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Build full identification references, complete calibration and full-design cost admission; AUTH stays separately gated; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_GALLERY_RECOVERY_COMPLETE_20261027.md.
+
+### OPS-S15-W3-FIC1-GALLERY-RECOVERY-NATIVE
+
+**Hypothesis.** Can the commissioned genre comparison adjust its full profiles for length without fitting on probe observations or losing writers with insufficient prefix support?
+
+**METHOD.** Compare complete predecessor records by writer, genre and half, rejecting duplicate identities and any changed fields while allowing only top-level order differences. Nine repair checks exercise the actual predecessor schema, refusal cases and exact numerical parity. Preserve the completed pooled typed style/rhythm vectors and rebuild pooled final-document style from full counts. Retain each original writer, genre and prompt half. Fit feature-wise ordinary least squares on gallery B only, using log-base-two word count; retain raw features and, for final style, the additional accepted-character-share adjustment. Keep missing and rank-exhausted fits unsupported. Retain per-length support and the all-length common set. Validate pure nuisance removal, preserved orthogonal fingerprints, probe independence, exact pooling, missing/rank cases and serialization with twenty targeted checks; execute and reconstruct all prepared matrices in separate native processes. Authenticate source pins, output seals, native exits and lease release.
+
+**Found.** The first FIC1 gallery loader repair passes predecessor-schema checks, numerical parity and independent native replay; corpus recovery and identification remain unfinished.
+
+**Means.** Numerical transformation checks are distinct from complete identification calibration. No human writer-matching score, reference distribution, paired genre diagnostic or length-curve score is computed. Controls and independent-donor rotations must rebuild their own profiles and refit their own gallery coefficients; these observed prepared matrices do not replace that work. Full scientific and cost admission remain unestablished. AUTH remains separately gated, and final documents retain their mixed provenance.
+
+The completed pass uses 0.625 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1741.65625 of 7,200 seconds. All workers exited and released their lease. All twenty original numerical checks and nine recovery checks pass. This is engineering repair 1 of 2: only predecessor list-order equality changed to complete identity-keyed equality. The failed original run remains immutable and its charge remains counted; original numerical code, chronology, inputs, covariates and scientific gates are unchanged. The wider ready-card queue remains underbuilt; the build interval was spent implementing and validating commissioned gallery preparation. No tests were harvested from the wake. Failed scientific gates, parked GPU work and source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first FIC1 gallery loader repair passes predecessor-schema checks, numerical parity and independent native replay; corpus recovery and identification remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run complete gallery preparation and fresh replay; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_GALLERY_RECOVERY_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-GALLERY-ORDER-FAILURE
+
+**Hypothesis.** Do the completed prefix and full-feature preparations name the same profile memberships?
+
+**METHOD.** Inspect the stopped native execution and exact traceback; authenticate every pinned input and module, verify both native workers exited and the lease was released, then compare both complete profile manifests by writer, genre and half. Check duplicate identities and every field of each paired record before changing any comparison.
+
+**Found.** FIC1 gallery preparation stopped before fitting on an order-sensitive predecessor comparison; all keyed profile contents agree, and the first engineering repair is being prepared.
+
+**Means.** Both manifests contain the same 96 distinct records and all fields agree; only their top-level order differs. The loader incorrectly treated ordering as a source defect. No gallery adjustment or identification score was computed and no prepared result was emitted. The original failure and source capsule stay immutable. The first separately versioned repair will compare complete identity-keyed records while continuing to reject duplicates, altered fields, missing profiles and changed sealed inputs. No membership, chronological session order, estimator, covariate, scientific gate or CPU ceiling changes.
+
+The failed pass used 4.25 CPU seconds, bringing cumulative FIC1 charges/reserves to 1681.03125 of 7,200. Known-answer numerical checks and the prior native preparation remain valid within their constructed scope. The missing test was the actual predecessor loader with differently ordered manifests. Recovery validation must exercise that path, including changed-data refusals, before corpus dispatch. The wider queue remains underbuilt; no research worker is active at this cutoff. No tests were harvested from the wake and all scientific, GPU and transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; FIC1 gallery preparation stopped before fitting on an order-sensitive predecessor comparison; all keyed profile contents agree, and the first engineering repair is being prepared.; project meaning: scoped operational record; next engineering obligation: Validate the first identity-keyed loader repair on actual predecessor schemas and native replay; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_GALLERY_ORDER_FAILURE_20261027.md.
+
+### OPS-S15-W3-FIC1-GALLERY-NATIVE
+
+**Hypothesis.** Can the commissioned genre comparison adjust its full profiles for length without fitting on probe observations or losing writers with insufficient prefix support?
+
+**METHOD.** Preserve the completed pooled typed style/rhythm vectors and rebuild pooled final-document style from full counts. Retain each original writer, genre and prompt half. Fit feature-wise ordinary least squares on gallery B only, using log-base-two word count; retain raw features and, for final style, the additional accepted-character-share adjustment. Keep missing and rank-exhausted fits unsupported. Retain per-length support and the all-length common set. Validate pure nuisance removal, preserved orthogonal fingerprints, probe independence, exact pooling, missing/rank cases and serialization with twenty targeted checks; execute and reconstruct all prepared matrices in separate native processes. Authenticate source pins, output seals, native exits and lease release.
+
+**Found.** The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**Means.** Numerical transformation checks are distinct from complete identification calibration. No human writer-matching score, reference distribution, paired genre diagnostic or length-curve score is computed. Controls and independent-donor rotations must rebuild their own profiles and refit their own gallery coefficients; these observed prepared matrices do not replace that work. Full scientific and cost admission remain unestablished. AUTH remains separately gated, and final documents retain their mixed provenance.
+
+The completed pass uses 0.671875 CPU seconds; cumulative FIC1 charges and construction/test reserves are 1676.78125 of 7,200 seconds. All workers exited and released their lease. All twenty targeted checks passed on the first run; no repair was required. The wider ready-card queue remains underbuilt; the build interval was spent implementing and validating commissioned gallery preparation. No tests were harvested from the wake. Failed scientific gates, parked GPU work and source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The FIC1 gallery and length-adjustment builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run complete gallery preparation and fresh replay; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_GALLERY_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-PREFIX-COMPLETE
+
+**Hypothesis.** Can the commissioned word-length comparison retain exactly the requested production occurrences and their timing while preserving the original writers, sessions, chronology and prompt halves?
+
+**METHOD.** Authenticate the completed source and full-session feature predecessors. Reconstruct every selected session's production occurrences, exact character identities and original PMAP records, including later-deleted words. Pool whole sessions chronologically and use the original atom-bound GEN1 selector for each boundary session. Retain all profiles and explicitly mark insufficient word support. Independently reconstruct every session and every fixed-length profile in a separate native process. Recheck all source pins, sealed outputs, aggregate memberships and counts, native exits and lease release. Twenty-one targeted checks and the earlier native and bounded timing passes are fully recorded.
+
+**Found.** Complete FIC1 production occurrences and fixed-length prefix features independently replay; identification remains uncomputed.
+
+The table counts completed profile preparation, not identification accuracy. Each profile is one original writer, genre and prompt-half combination; prepared profiles have the requested number of words, and unsupported profiles remain explicitly present.
+
+| Requested typed words | Prepared profiles | Unsupported profiles |
+|---|---:|---:|
+| 500 | 95 | 1 |
+| 1000 | 75 | 21 |
+| 2000 | 57 | 39 |
+| full | 96 | 0 |
+
+**Means.** All 990 original sessions, 24 writers, 96 profiles and 275,033 produced words remain in the full source. Prefixes preserve chronology, later deletions and exact word quotas without retaining other words inserted in the same delta. Whole-session features retain their completed values, and missing timing remains missing. Saved full occurrence records allow later reassignment controls to rebuild selection and features. Unsupported shorter profiles are neither padded nor silently removed; their paired comparison support must be reported by the statistical consumer.
+
+No length curve has been scored, no length adjustment fitted, no writer identification or reference distribution computed, and no AUTH request prepared. This is complete instrument preparation, not evidence for a genre advantage. The original paired genre table, calibrated identification controls, approved independent-donor correction and measured full-statistical-design cost admission remain. AUTH stays separately gated.
+
+Execution and full independent replay use 953.375 CPU seconds. Cumulative FIC1 charges and construction/test reserves are 1556.109375 of 7,200 seconds, leaving 5643.890625 seconds under the original ceiling. All workers exited and released their lease; no repair was required. Monitoring is healthy and the six-hour health deadline is unchanged. No tests were harvested from this operational wake. No counted FIC1 research worker remains active at this cutoff. The broader ready-card queue remains underbuilt; the next authorized work is the statistical consumer and known-answer calibration, subject to remaining cost admission. Failed scientific gates, GPU parking and source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 production occurrences and fixed-length prefix features independently replay; identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Build length adjustment and complete calibrated identification controls within the remaining original allocation; AUTH stays separately gated; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_PREFIX_COMPLETE_20261027.md.
+
+### OPS-S15-W3-FIC1-PREFIX-LAUNCH
+
+**Hypothesis.** Is the next commissioned FIC1 preparation actually running under its original allocation with reproducible inputs and terminal delivery?
+
+**METHOD.** Require the full native-validation and bounded corpus-timing write-throughs before launch. Check their exact completion hashes and cost verdict, then launch the frozen full occurrence/prefix plan through the counted Gear 2 runtime. Inspect the owner and execution child by exact native identity, fresh session progress, CPU charge, commit/RAM headroom, owned lease, monitor receipt and all four urgent terminal registrations. Verify fresh watcher scans and the existing owner.
+
+**Found.** Complete FIC1 prefix preparation is running in Gear 2 after native validation and measured cost admission; identification remains uncomputed.
+
+**Means.** The full 990-session occurrence reconstruction and exact 500/1,000/2,000/full-word preparation are active, with fresh execution progress. Independent replay is mandatory before completion. Twenty-one targeted checks, native replay and the completed twenty-session timing/replay are fully recorded. This is a live dispatch receipt, not a completed feature result or a scientific finding. The original cohort, chronology, prompt halves, missing-support policy and source dictionary remain fixed.
+
+The plan retains 602.734375 prior CPU seconds and a combined execution/replay cap of 3600 seconds within the original 7,200-second FIC1 total. The timing forecast is 2212.688 CPU seconds with its recorded safety margins. The statistical study is not cost-admitted by this preparation. The next terminal action is complete write-through or documented failure recovery. The durable watcher handles waiting; no ETA/liveness wake was added and the six-hour health deadline is unchanged.
+
+Length adjustment, the paired genre table, inherited controls, approved independent-donor correction and known-answer scientific admission remain implementation work. AUTH remains separately gated. The wider queue remains underbuilt; the build interval was spent implementing and validating these commissioned inputs. Failed P3c/TR3 gates, GPU parking and source/cost/transfer holds remain. The delayed native-input event is fully reconciled; no tests were harvested from it.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 prefix preparation is running in Gear 2 after native validation and measured cost admission; identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Land complete prefix preparation, then implement calibrated identification without changing scientific holds; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_PREFIX_LAUNCH_20261027.md.
+
+### OPS-S15-W3-FIC1-PREFIX-TIMING
+
+**Hypothesis.** Can the commissioned word-length comparison retain exactly the requested production occurrences and their timing without changing the original writers, session chronology or prompt halves?
+
+**METHOD.** Validate the complete occurrence selector with explicit cross-session quotas, Unicode, later deletions, same-delta unselected words, absent timing, JSON reentry and altered-source/output refusals. Save full occurrence/character identities and timing so later reassignment controls can reconstruct their own prefixes. Whole sessions keep their completed features; a boundary session uses the exact GEN1 atom-bound selector. Profiles with insufficient words remain unsupported. Run twenty-one targeted checks and a separate native execution and full independent reconstruction; authenticate every pin and output, native exits and released lease. The bounded corpus pass authenticates complete predecessor populations and reconstructs the fixed first twenty session identities twice, retaining load, per-session CPU and output-byte costs. It computes no profile or scientific score.
+
+**Found.** The bounded FIC1 prefix timing pass independently replays; complete prefix preparation is cost-admitted, while identification remains uncomputed.
+
+**Means.** Prefix construction is distinct from full identification. Exact quotas preserve production order and later-deleted words; partial records exclude other words inserted in the same delta. Missing timing stays missing. Saved typed atoms use a list that preserves integer identities through JSON. Later controls must rebuild selection and features under each reassignment rather than reassigning observed prefixes. No length-trend gate, genre accuracy, p-value, fitted covariate or AUTH request is computed.
+
+This completed pass uses 48.796875 CPU seconds. Cumulative FIC1 charges and construction/test reserves are 602.734375 of 7,200 seconds. All workers exited and released their lease. All twenty-one final targeted checks pass, with no engineering repair. The conservative two-pass complete-preparation forecast is 2212.688 CPU seconds and 203468231 output bytes, against the retained 3,600-second and 512-MiB preparation caps. This admits only prefix preparation, not the complete statistical study. The original length adjustment, paired genre table, inherited controls, approved independent-donor correction, known-answer admission and complete statistical cost admission remain. AUTH stays separately gated. The duplicate native-input notice is reconciled and acknowledged. No tests were harvested from this wake. The broader ready-card queue remains underbuilt because commissioned implementation is still in progress; existing failed scientific gates and GPU/source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The bounded FIC1 prefix timing pass independently replays; complete prefix preparation is cost-admitted, while identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run complete FIC1 prefix preparation only if its cost admission passes; then build calibrated identification; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_PREFIX_TIMING_20261027.md.
+
+### OPS-S15-W3-FIC1-PREFIX-NATIVE
+
+**Hypothesis.** Can the commissioned word-length comparison retain exactly the requested production occurrences and their timing without changing the original writers, session chronology or prompt halves?
+
+**METHOD.** Validate the complete occurrence selector with explicit cross-session quotas, Unicode, later deletions, same-delta unselected words, absent timing, JSON reentry and altered-source/output refusals. Save full occurrence/character identities and timing so later reassignment controls can reconstruct their own prefixes. Whole sessions keep their completed features; a boundary session uses the exact GEN1 atom-bound selector. Profiles with insufficient words remain unsupported. Run twenty-one targeted checks and a separate native execution and full independent reconstruction; authenticate every pin and output, native exits and released lease. The constructed fixture uses twenty-four sessions and twelve profiles with two supported word budgets and a deliberately unsupported larger budget.
+
+**Found.** The exact FIC1 prefix builder passes known-answer checks and independent native replay; corpus preparation and identification remain unfinished.
+
+**Means.** Prefix construction is distinct from full identification. Exact quotas preserve production order and later-deleted words; partial records exclude other words inserted in the same delta. Missing timing stays missing. Saved typed atoms use a list that preserves integer identities through JSON. Later controls must rebuild selection and features under each reassignment rather than reassigning observed prefixes. No length-trend gate, genre accuracy, p-value, fitted covariate or AUTH request is computed.
+
+This completed pass uses 0.6875 CPU seconds. Cumulative FIC1 charges and construction/test reserves are 553.9375 of 7,200 seconds. All workers exited and released their lease. All twenty-one final targeted checks pass, with no engineering repair. The original length adjustment, paired genre table, inherited controls, approved independent-donor correction, known-answer admission and complete statistical cost admission remain. AUTH stays separately gated. The duplicate native-input notice is reconciled and acknowledged. No tests were harvested from this wake. The broader ready-card queue remains underbuilt because commissioned implementation is still in progress; existing failed scientific gates and GPU/source/cost/transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact FIC1 prefix builder passes known-answer checks and independent native replay; corpus preparation and identification remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run bounded corpus timing before complete prefix preparation; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_PREFIX_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-FEATURE-COMPLETE
+
+**Hypothesis.** Can the commissioned genre comparison restore complete session features while retaining the original writers, prompt halves and the distinction between typed production and mixed final documents?
+
+**METHOD.** Authenticate FIC1 source preparation and its exact completed PMAP predecessor. Independently rebuild word and punctuation counters from full produced occurrences, including later deletions, and require exact agreement with PMAP. Compute fixed-dictionary style rates using all word and punctuation tokens in the denominator, original logged-delta rhythm medians, and final-document style with exact mixed-provenance checks. Retain the full counts and interval records for later pooled profiles. Run nineteen targeted checks, including numerical known answers, independent historical implementations, absent timing, altered input/output refusals and immutable reentry. Independently reconstruct every feature in a separate native process; reverify pins, sealed outputs, aggregate membership/counts, native exits and lease release.
+
+**Found.** Complete FIC1 session features independently replay with full production and original memberships; identification remains uncomputed.
+
+**Means.** The source dictionary, original cohort and prompt halves are unchanged. Complete typed production and mixed final documents remain different views. Out-of-dictionary words remain in rate denominators; symbols do not become punctuation. Missing timing is not filled with zeros. Saved sufficient records allow pooled features to be rebuilt without averaging session medians. No writer identification, fitted length adjustment, prefix curve, reference distribution or AUTH request is computed. These are instrument features, not evidence for a fiction advantage.
+
+The original FIC1 statistical work remains: exact prefix features at the specified lengths, length adjustment, the paired genre table, complete inherited controls with the approved independent-donor correction, calibration and measured full-design cost admission. AUTH's primary comparison still needs its exact prose/pair preparation, known-answer calibration and ordered concrete transfer/spending admission. No failed scientific gate is healed or weakened.
+
+The completed corpus pass retains 990 sessions, 24 writers and 96 genre/half profiles. Execution plus independent replay use 37.1875 CPU seconds. Cumulative FIC1 charges and construction/test reserves are 373.25 of 7,200 seconds. All native workers exited and released their lease. All nineteen targeted feature checks passed on their first run; no engineering repair was needed. The wider queue remains underbuilt, with inline feature implementation accounting for this build interval. The delayed P3c calibration notice is fully reconciled and acknowledged; P3c/TR3 calibration failures and GPU, source/cost and paid-transfer holds remain. No tests were harvested from the operational wake and no new p-value is introduced.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 session features independently replay with full production and original memberships; identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Build FIC1 exact prefix features, length adjustment and complete calibrated controls under its remaining original allocation; AUTH remains separately gated; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_FEATURE_COMPLETE_20261027.md.
+
+### OPS-S15-W3-FIC1-FEATURE-NATIVE
+
+**Hypothesis.** Can the commissioned genre comparison restore complete session features while retaining the original writers, prompt halves and the distinction between typed production and mixed final documents?
+
+**METHOD.** Authenticate FIC1 source preparation and its exact completed PMAP predecessor. Independently rebuild word and punctuation counters from full produced occurrences, including later deletions, and require exact agreement with PMAP. Compute fixed-dictionary style rates using all word and punctuation tokens in the denominator, original logged-delta rhythm medians, and final-document style with exact mixed-provenance checks. Retain the full counts and interval records for later pooled profiles. Run nineteen targeted checks, including numerical known answers, independent historical implementations, absent timing, altered input/output refusals and immutable reentry. Independently reconstruct every feature in a separate native process; reverify pins, sealed outputs, aggregate membership/counts, native exits and lease release.
+
+**Found.** The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.
+
+**Means.** The source dictionary, original cohort and prompt halves are unchanged. Complete typed production and mixed final documents remain different views. Out-of-dictionary words remain in rate denominators; symbols do not become punctuation. Missing timing is not filled with zeros. Saved sufficient records allow pooled features to be rebuilt without averaging session medians. No writer identification, fitted length adjustment, prefix curve, reference distribution or AUTH request is computed. These are instrument features, not evidence for a fiction advantage.
+
+The original FIC1 statistical work remains: exact prefix features at the specified lengths, length adjustment, the paired genre table, complete inherited controls with the approved independent-donor correction, calibration and measured full-design cost admission. AUTH's primary comparison still needs its exact prose/pair preparation, known-answer calibration and ordered concrete transfer/spending admission. No failed scientific gate is healed or weakened.
+
+The completed constructed native pass retains 12 sessions, 3 writers and 12 genre/half profiles. Execution plus independent replay use 0.53125 CPU seconds. Cumulative FIC1 charges and construction/test reserves are 336.0625 of 7,200 seconds. All native workers exited and released their lease. All nineteen targeted feature checks passed on their first run; no engineering repair was needed. The wider queue remains underbuilt, with inline feature implementation accounting for this build interval. The delayed P3c calibration notice is fully reconciled and acknowledged; P3c/TR3 calibration failures and GPU, source/cost and paid-transfer holds remain. No tests were harvested from the operational wake and no new p-value is introduced.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run complete FIC1 feature preparation and independent replay before scientific consumers; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_FEATURE_NATIVE_20261027.md.
+
+### OPS-S15-W3-FIC1-INPUT-COMPLETE
+
+**Hypothesis.** Can the commissioned genre comparison recover the complete typed-production records for its original writers and sessions without changing prompt halves or confusing final documents with human-only text?
+
+**METHOD.** Authenticate the entire completed primary word/PMAP population and original GEN1 matching manifest. Keep the original selected writers, sessions, genres and prompt halves; verify every old matched-word prefix and restore each session's remaining typed occurrences. Join the independently completed final-document export on exact writer/session/prompt identity and require the entire text hash and contiguous typed/accepted/prompt provenance partition. Independently reconstruct every selected source record, all memberships and all counts in a fresh native process. Reverify every source pin and sealed output, reconstruct aggregate counts from the saved units and inspect native exits and lease release.
+
+**Found.** Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.
+
+The table counts completed input records and retained typed-production occurrences. These are source coverage totals, not identification accuracy or evidence for a fiction advantage.
+
+| Source quantity | Complete count |
+|---|---:|
+| Completed primary sessions checked | 1,399 |
+| Original GEN1 sessions retained | 990 |
+| Original writers retained | 24 |
+| Writer/genre/prompt-half profiles | 96 |
+| Words in the old matched prefixes | 238,310 |
+| Complete produced typed words retained | 275,033 |
+| Additional typed occurrences restored | 36,723 |
+| Primary sessions outside the unchanged selected cohort, retained in the census | 409 |
+
+**Means.** The exact original cohort and prompt-half memberships remain intact. Every full typed-production occurrence is retained, including later deletions, while final documents keep their mixed human/model/prompt provenance. Tokens are production records rather than an exact whitespace-preserving prose reconstruction. They are not concatenated into AUTH provider requests. No identification feature, contrast, length curve, paid label or scientific admission is computed. The next build is the original commissioned FIC1 feature/comparison path, with length adjustment, the approved context-control correction, full inherited controls and measured cost admission. AUTH's text construction, pair sampling, calibration and ordered concrete transfer/spending admission remain separate.
+
+Complete execution and independent replay use 34.921875 CPU seconds, bringing cumulative FIC1 charges and construction/test reserve to 215.53125 of 7,200 seconds. All workers exited and released the lease. The attempted operational launch snapshot refused because the worker had already completed; it wrote no running status and is not a source failure or a new attempt. The complete result is recorded directly instead. All seventeen targeted source checks and the earlier native fixture are retained. No new p-value or hypothesis is introduced. The P3c delayed native notice is reconciled and acknowledged, and both P3c and TR3 failed calibration gates remain enforced. Wider queue buildout is incomplete; GPU, source/cost and transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Build FIC1 features, length adjustment and complete identification controls under the original remaining CPU allocation; AUTH stays separately gated; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_INPUT_COMPLETE_20261027.md.
+
+### OPS-S15-W3-FIC1-INPUT-NATIVE
+
+**Hypothesis.** Can the next commissioned genre comparison retain its original writers and prompt halves while restoring complete typed production and binding the same sessions to their final documents?
+
+**METHOD.** Re-read the commissioned FIC1 source requirements and extractor, instrument, model and runtime lessons. Exercise a constructed complete predecessor population with an upstream-only session, Unicode, later-deleted typed occurrences and mixed final-document provenance. Validate original matched prefixes, restore the full typed ledgers and refuse identity, count, split, provenance or source-seal changes. Run all seventeen targeted checks, then execute and independently reconstruct the whole native fixture in a separate process. Authenticate every frozen pin and sealed output and inspect native exits and the released CPU lease.
+
+**Found.** The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**Means.** All seventeen targeted checks pass. The native fixture retains its twelve selected sessions, three writers and twelve genre/half profiles, restoring twelve word occurrences beyond the old matched prefixes; its separate source-only session is retained in the census. Every final document keeps its exact text hash and typed/accepted/prompt provenance. Fresh replay reconstructs every selected session and its complete membership and count summaries. This is source validation, not evidence for genre identification, private intention or a fiction advantage.
+
+The corpus source step preserves the original 24-writer, 990-session GEN1 cohort and prompt halves. It restores full produced occurrences, including later deletions, instead of substituting a larger cohort. Production tokens do not preserve exact whitespace or form an AUTH request by concatenation. Feature fitting, length adjustment, approved independent-donor controls, full comparison/cost admission and AUTH's own text construction, calibration and transfer admission remain separate. No provider request, GPU work or scientific score is produced here.
+
+Native execution and independent replay use 0.609375 CPU seconds. With the 180-second construction/test reserve, cumulative FIC1 charge is 180.609375 of 7,200 seconds. The next complete source pass has a 600-second combined execution/replay allowance. All native workers exited and released the lease. The delayed P3c native notice is fully reconciled and acknowledged; its later failed agreement gate and unadmitted population labels remain unchanged. No new hypothesis is harvested from the wake. The wider ready-card backlog remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run complete FIC1 source preparation and independent replay, then build its separately gated comparisons; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_INPUT_NATIVE_20261027.md.
+
+### S15-P3C-CALIBRATION-20261027
+
+**Hypothesis.** Can the commissioned CPU classifier distinguish edits that change meaning from those that do not well enough to supply edit-intent labels for later comparisons?
+
+**METHOD.** Authenticate the exact IteraTeR checkpoint and tokenizer, all completed edit-pair sources and the two hundred annotations frozen blind before prediction. Census the untruncated token lengths of all 203,462 pairs; time the original thousand events and predict all two hundred calibration pairs in their fixed order. Collapse the five categories to meaning-changed versus the other four, and compute Cohen kappa, agreement corrected for the class frequencies. Require the unchanged threshold of 0.6. Independently reconstruct the complete source census and all 1,200 predictions in a fresh native process, retaining numerical and categorical parity. At landing, reconstruct the complete agreement tables and kappa again from sealed predictions and annotations.
+
+**Found.** The edit-intent classifier fails its frozen agreement gate against agent-made labels; population edit-intent labels remain unadmitted.
+
+The table compares every frozen agent label (rows) with the classifier label (columns), after the predetermined binary collapse. These are agent judgments about visible edits, not human ground truth or recovered private intentions.
+
+| Agent-made reference | Classifier: no meaning change | Classifier: meaning change | Total |
+|---|---:|---:|---:|
+| No meaning change | 191 | 3 | 194 |
+| Meaning change | 5 | 1 | 6 |
+| Total | 196 | 4 | 200 |
+
+Raw agreement is 0.96, while the class-frequency chance agreement is 0.9512. Cohen kappa is 0.18032786885245752, below the frozen 0.6 requirement. The full five-class table and all label marginals remain sealed in the complete summary. The event-uniform sample is strongly imbalanced; that is a limitation of this fixed calibration, not permission to balance, relabel, replace or tune it after seeing predictions. No interval or p-value was specified or introduced.
+
+**Means.** This completed instrument result blocks population use of this checkpoint for the commissioned edit-intent consumers. It is not an execution defect and licenses no gate-healing retry. All 203,462 source pairs fit the exact paired-token limit without clipping or omission, and numerical replay passes, but those facts do not rescue semantic validity. No population intent labels, human purpose inference or downstream effect is admitted. The instrument ledger carries this result; the theory remains unchanged.
+
+The packet routes the failed classifier to Gear 3 node P as a separate second labeler. That route still requires the campaign order, concrete transfer and spending admission and its own blind calibration; no provider request is made here. The deterministic PP4/WD2 fallback is not activated, because the second labeler has not failed. Existing source/cost and GPU holds remain. This shared pass registers no new follow-up generation, and no new hypothesis is harvested from the operational wake.
+
+The first thousand predictions use 322.0625 CPU seconds and the two hundred calibration predictions use 60.328125. The direct population forecast from the timing set is 65527.480375 CPU seconds before replay or overhead; it is a diagnostic rate projection, not a dispatch or validity admission. Complete execution and independent replay use 823.1875 CPU seconds. Cumulative charges and construction/test reserves are 1185.390625 of the original 14,400-second box. All native workers exited and released their lease. The wider commissioned queue remains underbuilt, rather than finished. Earlier running snapshots are historical. No GPU restart, paid request or external transfer occurred.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The edit-intent classifier fails its frozen agreement gate against agent-made labels; population edit-intent labels remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Preserve the failed classifier gate; prepare node P through its existing ordered admission while continuing independent commissioned work; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_CALIBRATION_COMPLETE_20261027.md.
+
+### OPS-S15-W3-P3C-CALIBRATION-LAUNCH
+
+**Hypothesis.** Is the commissioned edit-intent instrument progressing through complete validity and cost checks with accounted resources and reliable terminal delivery?
+
+**METHOD.** Verify native owner and execution identities, active CPU use, every frozen pin, fresh outputs and the counted CPU lease. Inspect the source/model/annotation admission receipts and bounded plan. Confirm the operating watcher, fresh error-free scan and all four urgent terminal paths. Keep the original thousand timing events, two hundred blind agent labels, no-truncation rule and complete independent replay.
+
+**Found.** The CPU edit-intent timing and complete blind-label calibration are running in Gear 2 with independent replay and explicit token coverage; no unfinished score is admitted.
+
+**Means.** Eight targeted checks and native model/interface replay are complete and recorded. The first sandbox test-setup interruption is preserved; unchanged-code validation passes. This cell includes a complete source token census and has a 1,800 CPU-second allowance for execution and replay within the original 14,400-second box, after 362.203125 seconds of prior charges and construction/test reserves. Numerical readiness does not establish semantic accuracy or cost admission for a population pass. The unchanged agreement gate, measured cost and complete input support still govern downstream use.
+
+The PR1 delayed native notice has been reconciled against its existing full landing and acknowledged without rerunning it. TR3's complete constructed calibration is recorded with its failed sensitivity gate; human carryover remains uncomputed. The wider ready-card backlog remains underbuilt. No new tests were harvested from the operational wake, and no GPU restart, paid request or external transfer is introduced. The watcher owns completion/failure delivery; the independent six-hour health deadline is unchanged and no extra ETA wake is scheduled. Earlier running/held snapshots remain historical.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The CPU edit-intent timing and complete blind-label calibration are running in Gear 2 with independent replay and explicit token coverage; no unfinished score is admitted.; project meaning: scoped operational record; next engineering obligation: Land complete classifier calibration and measured cost before admitting population labels or downstream consumers; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_CALIBRATION_LAUNCH_20261027.md.
+
+### OPS-S15-W3-P3C-CLASSIFIER-NATIVE
+
+**Hypothesis.** Can the exact commissioned edit-intent checkpoint run reproducibly on the CPU without clipping inputs or confusing numerical readiness with semantic validity?
+
+**METHOD.** Authenticate the complete pinned model inventory, use local-only weights-only loading with CPU float32 parameters and evaluation mode, and inspect all module states and label ordering. Execute and repeat four constructed before/after pairs spanning a surface repair, numeric change, Unicode and empty revised text. Refuse an overlength constructed pair before inference. Independently load the model and reconstruct all checks in a separate native process. Targeted known-answer tests cover Cohen kappa, the exact pass boundary, missing/constant reference, full serialized calibration/reentry, source mutation, prediction corruption and retained overlength records.
+
+**Found.** The pinned CPU edit-intent classifier passes numerical and input-support checks with independent replay; complete blind-label calibration remains required.
+
+**Means.** All eight targeted checks pass. Their first invocation retained three passing tests and five setup errors because the sandbox could not access pytest's existing temporary directory; the authorized rerun used the same code and retained the first XML. This is an environmental test-setup interruption, not a classifier repair or a scientific failure. No P3c engineering healing attempt is used.
+
+The native handler and separate replay preserve the exact five-class mapping, repeat labels and numerical tolerances. Every parameter is CPU float32 and every module is in evaluation mode. These constructed examples validate execution and repeatability, not semantic accuracy. All two hundred agent labels remain frozen before classifier predictions; no human-corpus classification or agreement score has yet run. The next bounded cell audits every source pair's untruncated token length, times the original thousand events and calibrates against all two hundred labels. It refuses unsupported selected inputs, retains all overlength population events and requires complete independent replay. Population labels, downstream comparisons and paid fallback remain separately gated.
+
+Native execution and independent replay use 24.140625 CPU seconds. Including the new 120-second construction/test reserve, P3c cumulative charge is 362.203125 of 14,400 seconds. The next full timing/calibration cell has a 1,800-second combined execution/replay allowance. All native workers exited and released their lease. TR3 calibration is fully recorded as failed; its human comparison remains uncomputed. The wider ready queue is still underbuilt. No new hypothesis, p-value, GPU start, paid request or external transfer is introduced.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The pinned CPU edit-intent classifier passes numerical and input-support checks with independent replay; complete blind-label calibration remains required.; project meaning: scoped operational record; next engineering obligation: Run the complete source token audit, frozen timing and blind-label calibration with independent replay; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_CLASSIFIER_NATIVE_20261027.md.
+
+### S15-TR3-CALIBRATION-20261027
+
+**Hypothesis.** Can the recurrence instrument distinguish known later use and avoidance of previously offered features while keeping false findings bounded under no carryover?
+
+**METHOD.** Run every world in the frozen matrix: one hundred zero-effect worlds and twenty worlds in each planted direction, with twenty writers and four sessions per writer. Preserve the actual matched-feature statistic, all two hundred within-writer/prompt permutations rebuilding prior typing and eligibility, and two thousand paired-writer bootstrap draws in each world. Independently reconstruct every world and its complete analysis in a fresh native process. Authenticate all source pins, sealed outputs, process exits and resource charges, then recompute the aggregate gate from the complete records.
+
+**Found.** In constructed worlds, the recurrence instrument fails its frozen negative-direction sensitivity requirement; human carryover remains untested.
+
+This table counts routes across complete constructed worlds. Correct-direction routes satisfy the unchanged interval, reference-support and directional reference requirements. The null row counts positive and negative false routes together.
+
+| Constructed population | Complete worlds | Routed findings | Frozen requirement | Gate |
+|---|---:|---:|---|---|
+| No carryover | 100 | 1 false route | At most 10 false routes | Pass |
+| Planted later use | 20 | 20 positive routes | At least 18 positive routes | Pass |
+| Planted later avoidance | 20 | 17 negative routes | At least 18 negative routes | Fail |
+
+**Means.** The combined calibration does not pass. Its failed directional gate blocks this continuation before any human comparison. This is a completed instrument result, not an execution failure or evidence against human carryover. All worlds, reference values, unsupported cases, seeds and thresholds remain intact. There is no threshold relaxation, extra seed, resampled matrix or renamed retry to recover the missing route. The current permission for appropriate corrections does not turn a failed scientific gate into an engineering defect. No human effect, causal capture, automaticity or successful recurrence inference is licensed. The instrument ledger carries the result; the theory remains open.
+
+Complete execution and independent replay use 107.515625 CPU seconds. The cumulative charge and construction/test reserve is 2,294.15625 of the original 7,200 seconds. All native workers exited and released their lease. No new p-value is quoted, no human comparison ran, and no GPU, paid request or external transfer occurred. No new test is harvested from this operational wake. The next independent commissioned build is P3c classifier validation with already frozen inputs, blind annotations and model identity; the wider ready-card backlog remains underbuilt. Historical preparation failures and their authorized corrections remain recorded.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; In constructed worlds, the recurrence instrument fails its frozen negative-direction sensitivity requirement; human carryover remains untested.; project meaning: scoped operational record; next engineering obligation: Preserve the failed calibration and uncomputed human comparison; continue independent P3c validation; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CALIBRATION_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR3-CALIBRATION-LAUNCH
+
+**Hypothesis.** Is the authorized corrected recurrence instrument progressing through its complete calibration with accounted resources and reliable terminal delivery?
+
+**METHOD.** Authenticate the owner PID, native creation identity, frozen source pins and counted CPU lease. Inspect fresh progress, resource admission, the watcher owner and recent error-free scan, and registration of all four terminal paths. Preserve the complete frozen world matrix and independent verification requirement.
+
+**Found.** The complete constructed TR3 calibration is running in Gear 2 under the original CPU ceiling; no human carryover or unfinished calibration score is admitted.
+
+**Means.** The scoped fixture correction and all targeted/native checks are fully recorded. The unchanged complete calibration has a 900 CPU-second allowance including independent replay, within the original 7,200-second card ceiling. The watcher owns completion/failure delivery; no extra ETA wake is added. The six-hour health clock is unchanged. Human inference remains gated on full calibration, source authentication and measured cost. P3c's complete source population, blind agent labels and pinned model intake are recorded; its classifier validation and timing remain next. The broader queue is underbuilt rather than drained. GPU and paid-transfer holds remain; no unrelated job is stopped, no locked outcome is read, and no new scientific hypothesis is harvested from the operational wake. Appropriate corrections now proceed after checking evidence under the curator's current instruction, without weakening scientific gates.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed TR3 calibration is running in Gear 2 under the original CPU ceiling; no human carryover or unfinished calibration score is admitted.; project meaning: scoped operational record; next engineering obligation: Land the complete calibration before admitting human inference; build P3c classifier validation next; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CALIBRATION_LAUNCH_20261027.md.
+
+### OPS-S15-W3-TR3-CALIBRATION-TIMING
+
+**Hypothesis.** Can the unchanged recurrence instrument execute and independently reconstruct the complete declared control procedure within its remaining allocation?
+
+**METHOD.** Execute the first frozen constructed null world with twenty writers and four sessions each, two hundred history-rebuilding permutations and two thousand complete-writer bootstrap draws. Independently reconstruct the whole world and all statistics, authenticate every input/output, and inspect native exit and lease release. Forecast the complete already frozen 140-world matrix from combined execution/replay cost with a fifty-percent margin plus sixty seconds overhead.
+
+**Found.** The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference.
+
+**Means.** The corrected statistical suite has seventeen passing checks and the calibration wrapper has two passing checks. The full native handler and independent replay complete in 1.421875 CPU seconds. Total TR3 charge and construction/test reserve is 2,186.640625 of the original 7,200 seconds. The matrix forecast is 359 CPU seconds, with a separate 900-second hard allowance and at least 1,000 seconds retained for later human preparation/execution. Fixed ceilings still stop overruns; a single timing world does not establish every world's duration or validate sensitivity.
+
+The full matrix keeps all one hundred null and forty directional worlds, all two hundred permutations and two thousand bootstrap draws, original seeds and unchanged inference gates. It recomputes the timing world as part of the fixed complete matrix, with that repeat included in the forecast and charged. No scientific score is admitted from this timing cell. No human outcome, new data, GPU, paid request or changed scientific criterion is used. The fixture correction is authorized and recorded, while the estimator remains byte-identical to the failed first test's snapshot. All native timing workers exited and released their lease. The next dispatch is the complete constructed calibration; failure of its scientific gate will not be repaired into a pass. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-sized constructed TR3 timing world independently replays; the unchanged complete calibration fits its original CPU allocation and remains required before human inference.; project meaning: scoped operational record; next engineering obligation: Run the complete frozen constructed calibration with independent replay; admit no human comparison unless it passes; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_CALIBRATION_TIMING_20261027.md.
+
+### OPS-S15-W3-TR3-FIXTURE-CORRECTED
+
+**Hypothesis.** Does the retained TR3 implementation preserve an undefined shuffled comparison when every eligible writer loses support?
+
+**METHOD.** Recheck the frozen specification, failed example and source implementation. The old example gave the second writer empty typing in both sessions, so every shuffle retained one supported writer. Change only that example to give both writers later typing that, when moved earlier, removes eligibility. Explicitly exercise the both-swapped case and require a missing estimate with zero supported writers, then rerun the complete targeted suite once. Compare the estimator bytes to the retained first attempt.
+
+**Found.** The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference.
+
+**Means.** All seventeen targeted checks pass. The example now contains both supported and unsupported references and confirms that missing values are retained rather than replaced by zero. This corrects a false test expectation; it neither weakens the missing-support rule nor changes human observations, matching, the approved history reconstruction, seeds, inference thresholds or the original CPU ceiling. Original code snapshots and the failed XML remain intact.
+
+The curator authorizes appropriate corrections after checking correctness and directs the operator not to seek approval for each correction. That current instruction clears the scoped fixture hold and supersedes its earlier prohibition on such a correction; it does not authorize changing a failed scientific gate, spending on new work or opening locked data. The operator's own diagnosis remains a claim to verify, not an authority over the frozen specification. The predeclared null and positive/negative constructed worlds remain mandatory before any human carryover result. An added thirty-second validation reserve makes the cumulative charge 2,125.21875 of 7,200 CPU seconds. No human comparison, GPU start, paid call or new scientific test occurs. P3c's preparation and pinned model intake are complete; its classifier validation remains unfinished. The broader ready queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference.; project meaning: scoped operational record; next engineering obligation: Run measured native constructed calibration under the original CPU ceiling before any human comparison; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_FIXTURE_CORRECTED_20261027.md.
+
+### OPS-S15-W3-P3C-MODEL-INTAKE
+
+**Hypothesis.** Can the commissioned edit-intent classifier be retained with exact source identity before any corpus prediction?
+
+**METHOD.** Read the official implementation notices and pinned model metadata, fetch only the seven declared public checkpoint files without credentials, compare the weight file to its published LFS hash and the smaller files to their Git blob hashes, and repeat the complete inventory in an independent native process. Separately read all two hundred blinded edit pairs under criteria frozen before opening them; save agent labels and reasons before any classifier execution.
+
+**Found.** The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested.
+
+**Means.** Six targeted intake checks pass, including the actual fake-transport handler, immutable reentry, changed-file refusal and metadata bounds. All seven model files match their pinned metadata. The checkpoint revision is d9e6e6ee893e9f36cbba8047b838ccbfea1c1c32. The official implementation revision 41adc0818356f78b362a9382a3732e0529f3fe35 directly links this checkpoint and carries Apache 2.0; the Hugging Face card has no separate license field. Exact notices remain retained. The 1,421,620,013-byte weight file was hashed, not deserialized, and no weights or participant text were redistributed.
+
+The annotations are explicitly made by the operating Codex agent, not the curator or a human panel. All two hundred complete pairs were read in their blinded order before model predictions; uncertainty is retained and no clearer replacements are selected. Agreement is uncomputed. Input validity, numerical checks, token coverage, full timing and the unchanged agreement gate still precede any downstream use.
+
+Intake and fresh verification use 14.359375 CPU seconds. Source preparation, native tests and construction/test reserves bring P3c's cumulative charge to 218.0625 of 14,400 seconds. All native intake workers exited and released their lease. There were no engineering retries, GPU starts, paid requests, external copies or new p-values. The sandbox's initial read-only metadata request was blocked; its authorized ordinary network retry succeeded without bypassing an access restriction. No test was harvested from the wake. The broader commissioned queue remains underbuilt. The curator has now authorized appropriate corrections after independent checking; the next work is the retained TR3 constructed-fixture defect, followed by native validation and cost admission under its existing ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The pinned edit-intent checkpoint is downloaded and independently authenticated; blind agent annotations are frozen, but classifier validity and inference remain untested.; project meaning: scoped operational record; next engineering obligation: Validate the exact local model and token coverage, then measure timing and the full frozen calibration; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_MODEL_INTAKE_20261027.md.
+
+### OPS-S15-W3-P3C-INPUT-COMPLETE
+
+**Hypothesis.** Can the shared edit-intent pass prepare every completed edit without selecting on earlier labels, while keeping its calibration blind?
+
+**METHOD.** Authenticate the original P5 completion, plan, index and every saved session. Preserve the exact affected before/after sentence windows and source event identities, retaining every edit regardless of its previous deterministic class. Freeze a complete event permutation with seed 20261026, its first two hundred pairs as the blind calibration set, and the first thousand canonical events as the timing set. Reconstruct the entire saved-source preparation in an independent native process.
+
+**Found.** The complete saved edit population and blinded calibration selection independently replay; edit-intent labels and classifier agreement remain unmeasured.
+
+The table counts the complete prepared human process records, not model labels or a scientific effect. Mixed origins can overlap the source's model-linked category and are not removed.
+
+| Preparation quantity | Count |
+|---|---:|
+| Sessions / writers | 1,399 / 61 |
+| Edit events retained | 203,462 |
+| Model-linked / own-text / other origins | 15,191 / 186,707 / 1,564 |
+| Unique before/after pair contents | 186,873 |
+| Mixed deleted origins / multiple accepted owners | 235 / 44 |
+| Empty after-text / unchanged pairs | 9 / 0 |
+| Blind calibration pairs / distinct calibration contents | 200 / 200 |
+| Timing events | 1,000 |
+
+**Means.** The population is the completed P5 edit ledger; no broader claim about every historical action is inferred. The blinded file contains only random-order aliases and exact before/after text. Original labels, embeddings and identities are absent from that review view, while a private map preserves joins. The full permutation fixes future cost-sized sampling before model outcomes. All source files and failed historical attempts stay unchanged, and the exhausted newer accepted-span extractor is untouched.
+
+Full preparation and independent replay use 23.3125 CPU seconds. Including native validation and the 120-second construction/test reserve, the cumulative P3c charge is 143.703125 of 14,400 CPU seconds. All native workers exited and released their lease. No engineering repair has been used. Written annotation criteria, two hundred blind agent labels, model intake/validation and measured inference admission remain implementation work. The required meaning-change agreement gate remains untested; no consumer is admitted from source completion alone. No new p-value, model call, GPU start, paid request or external copy occurs. No test was harvested from the wake. Existing TR3 and other holds remain, and the commissioned ready queue is underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete saved edit population and blinded calibration selection independently replay; edit-intent labels and classifier agreement remain unmeasured.; project meaning: scoped operational record; next engineering obligation: Freeze written criteria and blind agent labels, validate the pinned classifier and measure complete inference cost; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_INPUT_COMPLETE_20261027.md.
+
+### OPS-S15-W3-P3C-INPUT-NATIVE
+
+**Hypothesis.** Can the shared edit-intent pass preserve the completed edit population and prepare a blind calibration sample without selecting on earlier labels?
+
+**METHOD.** Test exact event preservation across provenance classes, Unicode and empty or unchanged text, seeded selection, old-label invariance and blinded fields. Refuse duplicate events or sessions, malformed provenance, altered source bytes, path escapes and mutated saved outputs. Run the serialized constructed handler and reconstruct every output in an independent native process; test byte-stable reentry separately.
+
+**Found.** The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished.
+
+**Means.** All eleven targeted checks pass on first execution. The native fixture retains three constructed writers and 240 edit events, including repeated content, and freezes exactly 200 blind calibration pairs. Native execution and independent replay use 0.390625 CPU seconds. With the 120-second construction/test reserve, the cumulative charge is 120.390625 of the original 14,400 CPU seconds. No P3c engineering repair is used. The next source pass authenticates every completed P5 session and retains all its edit events, including mixed and other provenance; the old intent labels and embeddings are not features or filters. The newer exhausted accepted-span extractor is untouched. Agent labels, classifier validity, timing and scientific consumers remain separate unbuilt steps. No model, effect, agreement statistic, GPU, paid request or external transfer occurs. No test is harvested from the operational wake. Existing TR3 and all other holds remain; the commissioned ready queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished.; project meaning: scoped operational record; next engineering obligation: Run the complete authenticated P5 source preparation, then freeze blind agent labels before classifier predictions; public scientific claim unchanged; curator decision required: No new decision. Detail: P3C_INPUT_NATIVE_20261027.md.
+
+### S15-PR1-SUPPORT-20261027
+
+**Hypothesis.** Does a writer pay to express her own words after examining a dismissed offer, beyond the offer merely predicting what she would type?
+
+**METHOD.** Before freezing that comparison, authenticate complete D6 logged visible-menu duration/hover records and the D20 next-fifty-produced-word windows. Join every menu by exact identity, require all fifty occurrences to start and complete after resolution, and retain short tails. Within writer, use the frozen linearly interpolated lower and upper duration terciles among observed dismissals. The examined proxy is upper duration or an actual logged hover; a hover with an unknown target remains a hover. Count the packet's literal groups and separately disclose their intersection, ties and support after removing examined events from the fast group. Independently rebuild the entire census from saved source records in a separate process. No cosine or outcome comparison is computed.
+
+**Found.** Unsupported: only 24 writers meet the examined/fast-dismissal event minimum against 25 required; no paying-to-say-it effect was computed.
+
+The table counts complete human process records under fixed eligibility rules. A supported writer contributes at least ten examined dismissals and ten fast dismissals with complete fifty-word windows. The separate disjoint count excludes examined events from the fast group; it is an ambiguity audit, not a selected replacement comparison.
+
+| Source/support quantity | Count |
+|---|---:|
+| Complete sessions / writers | 1,399 / 61 |
+| Canonical menus, all handling classes | 16,855 |
+| Dismissed menus, all with observed duration | 4,038 |
+| Dismissals with complete next-fifty-word windows | 3,315 |
+| Examined dismissals with complete windows | 2,220 |
+| Fast dismissals with complete windows | 1,078 |
+| Complete-window events in both groups | 453 |
+| Fast-only dismissals with complete windows | 625 |
+| Events at overlapping duration tercile cutoffs | 3 |
+| Writers meeting the literal event minimum | 24 |
+| Writers meeting the disjoint event minimum | 19 |
+| Preregistered required writers | 25 |
+
+**Means.** Even the literal groups fall below the packet's frozen support floor. PR1 is unsupported, distinct from a null or a negative. No threshold, duration ranking, word-window length or population is changed to recover the missing writer. Context-donor support, balance adjustment, the price secondary and its reliability, and PROC/TR3 associations are not computed. The costly-redirection hypothesis remains open. Examination is a logged proxy, never proof of attention or reading. Following the packet's unsupported branch, no instrument check or descendant is registered.
+
+All primary sessions and all menu classes remain in the private census. The D6/D20 histories and failed original attempts remain immutable; this source preparation does not reuse the held accepted-span extractor. Complete source replay uses 29.734375 CPU seconds. With native validation and the sixty-second construction/test reserve, total cost is 90.09375 of the original 3,600 CPU seconds. All native workers exited and released their lease. There were no PR1 engineering retries, new p-values, GPU starts, paid requests or external copies. No new test was harvested from the operational wake. TR3 and all unrelated holds remain. The wider commissioned queue remains underbuilt.
+
+
+Curator roll-up: costly preference evidence; Are there enough examined and fast dismissals to test paying for her own wording?; **Infrastructure**; The comparison lacks its required writer support.; project meaning: the effort hypothesis remains untested; next engineering obligation: Close PR1 as unsupported; preserve the open effort hypothesis and dispatch the next independent commissioned card; public scientific claim unchanged; curator decision required: No new decision. Detail: PR1_SUPPORT_COMPLETE_20261027.md.
+
+### OPS-S15-W3-PR1-SUPPORT-NATIVE
+
+**Hypothesis.** Can the commissioned paying-to-say-it comparison count its required examined and fast-dismissal events without inventing exposure or hiding missing support?
+
+**METHOD.** Test the exact 24/25-writer boundary, complete fifty-word windows, post-resolution chronology, duration ties, censored episodes and fast/hover overlap. Refuse missing or duplicate joins, changed identities, malformed duration and corrupted source/output bytes. Execute the serialized native handler and reconstruct the entire saved-source census in a separate process; verify immutable reentry separately.
+
+**Found.** The PR1 support checker passes known-answer checks and independent native replay; complete corpus support and the scientific comparison remain unmeasured.
+
+**Means.** All eleven targeted checks pass on first execution. The native fixture uses two constructed writers and sixty menus and correctly does not meet the population gate; it is a validity check, not evidence about human support. Native execution plus replay uses 0.359375 CPU seconds. Including the sixty-second construction/test reserve, 60.359375 of PR1's original 3,600 seconds are charged. No engineering repair has been used. The next source-only pass is bounded to three hundred CPU seconds and preserves all primary sessions while authenticating the existing D6/D20 records. No effect, model, balance test, causal interpretation or donor support is licensed. Overlapping flags and duration ties are retained for explicit pre-comparison review. This is an existing commissioned card, with no new test harvested from the wake. TR3 and other source/cost, GPU and transfer holds remain, and the wider ready-card queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The PR1 support checker passes known-answer checks and independent native replay; complete corpus support and the scientific comparison remain unmeasured.; project meaning: scoped operational record; next engineering obligation: Run the full authenticated source-support census before freezing any PR1 effect comparison; public scientific claim unchanged; curator decision required: No new decision. Detail: PR1_SUPPORT_NATIVE_20261027.md.
+
+### S15-TR4-IC-20261027
+
+**Hypothesis.** Could the unchanged handling-forecast pipeline recognize known preference-like changes, or can its reporting rule block an adaptive reader that actually tracks them?
+
+**METHOD.** Evaluate the complete frozen matrix of three categorical-probability change magnitudes and four independent seeds per magnitude. Each constructed world has eighteen writers, four discovery and fourteen test, twenty-four sessions and one hundred choices per session. At the halfway point acceptance probability changes by the declared magnitude, with opposite directions across writers and the remaining probability redistributed equally. Corresponding magnitudes share initial probabilities and random draws within each seed. Preserve all six parent forecasts, discovery-only tuning, prospective scoring, two hundred outcome-order references, one thousand writer-label references, two thousand paired uncertainty draws and the original reference-bias gate. Independently regenerate the truth, observations and complete analysis of every world, including retained checkpoints.
+
+**Found.** In constructed worlds, planted drift produces positive forecast-gain intervals, but the unchanged biased-reference gate prevents positive admission; volatility-reliability uncertainty remains unsupported.
+
+This table reports counts among all four completed worlds at each frozen change magnitude. Magnitude is the absolute change in acceptance probability, also the total-variation change of the four-class distribution. Positive admission means the full unchanged primary rule passes; positive interval means the lower writer-cluster gain bound exceeds zero before that rule's reference gate. The last two columns count fired bias flags and unsupported reliability uncertainty, respectively.
+
+| Change magnitude | Worlds | Positive admission | Positive gain interval | Biased reference | Unsupported reliability |
+|---|---:|---:|---:|---:|---:|
+| 0.00 | 4 | 0 / 4 | 0 / 4 | 4 / 4 | 4 / 4 |
+| 0.15 | 4 | 0 / 4 | 4 / 4 | 4 / 4 | 4 / 4 |
+| 0.30 | 4 | 0 / 4 | 4 / 4 | 4 / 4 | 4 / 4 |
+
+The preregistered largest-change admission fraction is zero of four, beside zero of four under stationarity. Every changed world nevertheless has a positive forecast-gain interval before the reference gate. This separates tracking behavior in these worlds from the complete rule's ability to license a result. It does not justify removing the gate, substituting a secondary model or revising the completed human comparison.
+
+The following table includes every completed world. Gain is whole-history log loss minus adaptive local-level log loss per choice; positive values favor adaptation. Intervals are the original writer-cluster 95% percentile intervals. Bias ratio is the absolute outcome-reference mean divided by its sample standard deviation; the frozen flag fires above 0.25. Undefined draws are retained paired volatility-reliability draws, not dropped observations. These are descriptive constructed-world diagnostics, not new significance tests.
+
+| Change magnitude | Frozen seed | Forecast gain | Gain interval | Reference bias ratio | Undefined reliability draws |
+|---|---:|---:|---|---:|---:|
+| 0.00 | 202610260 | -0.000291030 | [-0.000553704, -0.000078726] | 1.656120 | 2000 / 2000 |
+| 0.00 | 202610261 | -0.000333352 | [-0.000755484, 0.000014203] | 1.670260 | 2000 / 2000 |
+| 0.00 | 202610262 | -0.000452550 | [-0.000806916, -0.000227546] | 1.436491 | 2000 / 2000 |
+| 0.00 | 202610263 | -0.000407849 | [-0.000925214, 0.000013126] | 1.343842 | 2000 / 2000 |
+| 0.15 | 202610260 | 0.012395816 | [0.010567882, 0.014296457] | 2.763051 | 1610 / 2000 |
+| 0.15 | 202610261 | 0.011883782 | [0.010299946, 0.013504410] | 2.584967 | 1516 / 2000 |
+| 0.15 | 202610262 | 0.014927238 | [0.013380767, 0.016353381] | 2.697600 | 968 / 2000 |
+| 0.15 | 202610263 | 0.014174634 | [0.010706694, 0.017301635] | 2.422509 | 590 / 2000 |
+| 0.30 | 202610260 | 0.076138069 | [0.069681135, 0.082180699] | 5.191237 | 2000 / 2000 |
+| 0.30 | 202610261 | 0.074561239 | [0.069087634, 0.079998826] | 4.974182 | 2000 / 2000 |
+| 0.30 | 202610262 | 0.079351491 | [0.071309251, 0.088263147] | 4.993182 | 2000 / 2000 |
+| 0.30 | 202610263 | 0.077128983 | [0.071064132, 0.083092182] | 5.480281 | 2000 / 2000 |
+
+All latent probability vectors, sampled counts, seed identities and change magnitudes independently reconstruct. The oracle penalty of retaining old probabilities is exactly zero in stationary worlds and positive in every changed world. All twelve reference banks and paired uncertainty banks retain their full frozen counts. No world, unsupported correlation, model or dose is discarded. The reference mean is displaced even in stationary worlds; this gate is therefore not a diagnostic that uniquely identifies planted drift. The causal reason for its displacement is not established by this comparison.
+
+**Means.** The tested adaptive forecast can respond to the planted changes in this particular regime, while the unchanged reporting rule admits none. The complete instrument has not established useful calibrated sensitivity, and volatility reliability remains unsupported. Four independent seeds per magnitude provide a coarse conditional diagnostic, not a general size/power estimate, a human negative or recovery of human values. The human parent S15-TR4-20261027 and the broader drift claim remain unchanged. The exact program reads constructed categorical counts, not human judgments or generated narratives.
+
+The original progress-file failure and all of its cost remain recorded. The distinct recovery preserved five exact execution checkpoints and independently recomputed all twelve worlds. All 48 pinned inputs/code records and 29 sealed outputs authenticate; every native worker exited and its CPU lease released. Recovery execution plus full replay used 809.046875 CPU seconds. Cumulative construction/test reserves, initial validation, timing, failed execution, repair validation and recovery total 1267.828125 of the original 1800 CPU seconds. No extension was used.
+
+This completes the single first-generation instrument check. A firing scientific gate is a result and is not repaired. No descendant, additional calibration grid, human reanalysis, GPU restart, paid work or external transfer is authorized by this landing. No new tests were harvested from the operational wake. TR3's explicit no-further-retry decision hold and the other resource/source/transfer holds persist; the ready-card backlog remains incomplete.
+
+Curator roll-up: instrument sensitivity for current and historical preference evidence; Can the complete reader rule recognize planted drift?; **Infrastructure**; The unchanged rule blocks every positive planted-drift admission.; project meaning: tracking and claim admission must remain separate; next engineering obligation: retain the completed instrument limit and proceed only with independently authorized work; public human claim unchanged; curator decision required: No new decision for this landing. Detail: TR4_IC_COMPLETE_20261027.md.
+
+### OPS-S15-W3-TR4-IC-RECOVERY-LAUNCH
+
+**Hypothesis.** Is the complete continuation genuinely executing with preserved evidence and effective monitoring?
+
+**METHOD.** Verify the exact native owner and current child, owner-matched CPU lease, fresh reference progress, all source/input pins, byte identity of the five retained checkpoints and all four immediate terminal watches. Verify the existing owner and fresh watcher scans without scheduling an extra liveness wake.
+
+**Found.** The unchanged TR4 instrument matrix is continuing in Gear 2 after its validated first I/O repair; retained checkpoints are byte-identical and every world still requires independent replay.
+
+**Means.** The separate successor preserves the failed attempt and uses the full original twelve-world design. Its seven remaining execution worlds are followed by fresh reconstruction of all twelve, including the retained prefix. The remaining native attempt is capped at 1,341 CPU seconds after 458.78125 prior seconds of charges and reserves. One of two engineering repairs is used. Measured complete-pass cost suggests roughly fifteen minutes for remaining execution and verification, with the admitted conservative projection around twenty-two CPU minutes; these are estimates, not completion claims. Immediate terminal events provide the next intervention, and the existing independent six-hour health deadline remains unchanged. No partial scores, descendants, GPU or paid work are introduced. TR3 remains on its separate no-retry hold, and the wider ready-card backlog is incomplete. No new tests were harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged TR4 instrument matrix is continuing in Gear 2 after its validated first I/O repair; retained checkpoints are byte-identical and every world still requires independent replay.; project meaning: scoped operational record; next engineering obligation: Land only the completed twelve-world instrument matrix after full independent replay; preserve existing holds; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_RECOVERY_LAUNCH_20261027.md.
+
+### OPS-S15-W3-TR4-IC-RECOVERY-NATIVE
+
+**Hypothesis.** Can the interrupted matrix continue without losing evidence, changing its scientific rule, or bypassing independent verification?
+
+**METHOD.** Test a real Windows handle that temporarily denies atomic replacement, persistent refusal and unrelated I/O errors. Exercise partial and fully retained checkpoint paths through the actual handler, require exact original output parity, refuse changed source/destination bytes and malformed prefixes, and count every recomputation. Execute the one-world constructed continuation natively, then independently reconstruct that retained world. Reauthenticate the failed main source and its exact completed prefix without using its scientific scores for routing.
+
+**Found.** The first TR4 instrument-check recovery passes bounded Windows I/O checks, exact checkpoint parity and fresh native replay; the complete continuation fits the original allocation.
+
+**Means.** All six targeted checks pass on first execution; the native execute/replay uses 2.53125 CPU seconds. A sixty-second repair-construction reserve is charged. Cumulative costs/reserves are 458.78125 of the original 1,800 seconds. Five unchanged execution checkpoints leave seven new execution passes and twelve fresh verification passes. At the original maximum measured 42.890625 seconds per pass, the same 1.5 factor and sixty-second runtime reserve project 1,282.3828125 additional seconds, or 1,741.1640625 cumulatively. The remaining native cap is 1,341 seconds, keeping the total below the original ceiling.
+
+The original failed attempt, source and partial files remain. This is the first of two allowed engineering repairs for the separate instrument check; it changes only progress writing and checkpoint reuse. Every scientific world, model, reference bank, uncertainty rule and gate remains unchanged. Every retained world will be recomputed in independent verification before any complete instrument claim. No human result is repaired, no partial scores are admitted, and no descendant, GPU or paid work is added. TR3's stricter no-retry hold remains separate.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first TR4 instrument-check recovery passes bounded Windows I/O checks, exact checkpoint parity and fresh native replay; the complete continuation fits the original allocation.; project meaning: scoped operational record; next engineering obligation: Continue the complete matrix with exact prefix retention and fresh replay of all twelve worlds; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_RECOVERY_NATIVE_20261027.md.
+
+### OPS-S15-W3-TR4-IC-PROGRESS-FAILURE
+
+**Hypothesis.** Did the instrument check finish, or did an operational failure interrupt its declared matrix?
+
+**METHOD.** Inspect the original child exception, counted descendant CPU, exact native exits, source pins, released CPU lease and retained checkpoint prefix. Compare the failure path with the progress writer rather than interpreting partial constructed-world statistics.
+
+**Found.** The TR4 instrument check stopped on a Windows progress-file replacement refusal; the incomplete matrix is unscored and its completed checkpoints are preserved.
+
+**Means.** Windows returned access denied during atomic replacement of the shared progress JSON. The writer had no bounded retry for this known sharing failure; the interfering process is not established. The native runtime correctly retained an engineering failure. Five complete execution checkpoints precede the interrupted sixth world, and independent verification never began. They are preserved byte-for-byte but are not admitted results. All workers exited and the lease released. Failed execution used 248.21875 CPU seconds; cumulative charge and reserve are 396.25 of the separate 1,800 seconds. The completed human parent remains unchanged.
+
+The first of two allowed instrument-check engineering repairs will harden only progress I/O and checkpoint continuation. It must validate bounded refusal/retry behavior, unchanged full outputs, tamper refusal and fresh replay of every world. A distinct successor may reuse the authenticated prefix, then finish every remaining world and independently reconstruct the entire twelve-world matrix. All failed cost remains charged, and remaining execution plus validation must fit the original ceiling. No dose, seed, reference, model, estimator or gate may change. TR3 retains its separate no-retry hold; other holds and the unfinished ready-card backlog remain. No new scientific test was harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The TR4 instrument check stopped on a Windows progress-file replacement refusal; the incomplete matrix is unscored and its completed checkpoints are preserved.; project meaning: scoped operational record; next engineering obligation: Validate first I/O and checkpoint repair, then continue the unchanged full matrix only within the original cumulative ceiling; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_PROGRESS_FAILURE_20261027.md.
+
+### OPS-S15-W3-TR4-IC-FULL-LAUNCH
+
+**Hypothesis.** Is the admitted instrument check actually running under its registered design and original allocation?
+
+**METHOD.** Verify exact native owner and current child identities, fresh reference progress, the counted CPU lease, all frozen source and input pins and immediate terminal monitoring. Confirm the watcher is scanning under the existing owner and the delayed TR3 preparation and TR4 cost events are acknowledged only after their complete records verify.
+
+**Found.** The complete twelve-world TR4 instrument check is running in Gear 2 with unchanged controls and independent replay; the wider ready-card backlog remains incomplete.
+
+**Means.** All three fixed drift magnitudes and four seeds per magnitude run with the parent's full reference banks and fresh verification. This is constructed conditional calibration, not new human evidence, and no partial world scores are reported. The prior charge and reserves are 148.03125 CPU seconds; the new native attempt is capped at 1,651, keeping the total below the separate 1,800-second ceiling. At most two numerical threads and one counted slot are used. The measured workload suggests roughly twenty minutes, with a conservative half-hour planning allowance; this is not a completion guarantee or an extra wake schedule. Immediate completion, failure, pause and monitor-failure events own the next intervention. No repairs are used on this follow-up; there are no descendants. TR3's specific no-retry hold and other source/cost, GPU and transfer holds persist. Eight ready cards across four slots remains unmet; an active run does not make the backlog complete. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete twelve-world TR4 instrument check is running in Gear 2 with unchanged controls and independent replay; the wider ready-card backlog remains incomplete.; project meaning: scoped operational record; next engineering obligation: Land the complete instrument matrix at its terminal event; keep all existing holds and continue independent ranked builds; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_MAIN_LAUNCH_20261027.md.
+
+### OPS-S15-W3-TR4-IC-FULL-COST
+
+**Hypothesis.** Can the complete planted-drift instrument check, with all parent controls and independent verification, fit its registered allocation?
+
+**METHOD.** Execute the discarded, separately seeded construction with all eighteen writers, twenty-four sessions, two hundred outcome references, one thousand label references and two thousand paired uncertainty draws. Reconstruct it independently in a counted native worker. Authenticate every code/input pin and output, exact native exits and both complete descendant CPU receipts. Apply the frozen projection to the larger of execute and verification CPU, without inspecting the timing world's scientific readout for routing.
+
+The table reports resource admission only. CPU seconds include exited descendants and the full independent replay.
+
+| Quantity | CPU seconds |
+|---|---:|
+| Timing execution | 42.125 |
+| Independent verification | 42.890625 |
+| Total timing charge | 85.015625 |
+| Cumulative prior charge and reserve | 148.03125 |
+| Full twenty-four-pass projection with 1.5 safety factor and runtime reserve | 1604.0625 |
+| Projected cumulative total | 1752.09375 |
+| Original separate allocation | 1800 |
+
+**Found.** The full-control constructed timing run and independent replay are verified; the unchanged twelve-world TR4 instrument check fits its separate CPU allocation.
+
+**Means.** The unchanged twelve-world matrix is admitted, retaining all three doses, four seeds per dose, complete references, undefined results and fresh replay. Its native hard cap remains the unused part of the original allocation. Timing is an estimate, not permission to overrun; a new cost boundary must stop rather than silently reduce the design. The completed human parent and its failed inference gates remain unchanged. No sensitivity result is admitted by timing. No repair, additional generation, new test, GPU or paid work is introduced. TR3 and the other recorded holds persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-control constructed timing run and independent replay are verified; the unchanged twelve-world TR4 instrument check fits its separate CPU allocation.; project meaning: scoped operational record; next engineering obligation: Dispatch the unchanged twelve-world instrument check within the remaining original allocation; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_COST_20261027.md.
+
+### OPS-S15-W3-TR4-IC-COST-LAUNCH
+
+**Hypothesis.** Is the bounded follow-up executing with every required control before its complete matrix is admitted?
+
+**METHOD.** Verify the current native owner and child identities, fresh reference progress, all frozen code/input pins and immediate completion/failure registrations. The separate timing world uses all two hundred outcome references, one thousand writer-label references and two thousand paired uncertainty draws, followed by independent replay.
+
+**Found.** The registered TR4 instrument check is running its full-control timing world in Gear 2; the twelve-world main remains gated on measured cost.
+
+**Means.** This is constructed timing work only, not a new human result. Six targeted checks and the native rehearsal are fully recorded. Main admission will include the full twelve-world matrix, independent verification and all prior charges within the separate 1,800 CPU-second ceiling. No descendants, changed parent rule, GPU or paid work is authorized. TR3 and other holds persist; the wider executable backlog remains incomplete. No tests were harvested from the delayed event.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The registered TR4 instrument check is running its full-control timing world in Gear 2; the twelve-world main remains gated on measured cost.; project meaning: scoped operational record; next engineering obligation: Land full timing and admit the unchanged matrix only if it fits; preserve all other holds; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_COST_LAUNCH_20261027.md.
+
+### OPS-S15-W3-TR4-IC-NATIVE
+
+**Hypothesis.** Does the separate instrument check realize known stationary and changing handling probabilities while retaining the completed parent's scoring rules?
+
+**METHOD.** Verify fixed categorical probabilities, exact total-variation changes, zero stationary and positive changed-state oracle penalties, paired seeds, complete count support, actual-handler reentry and tamper refusal. Execute a separate constructed seed through the unchanged consumer and independently reconstruct every output in a counted native worker. Shortened native reference counts validate execution only, not sensitivity or calibration.
+
+**Found.** The planted-drift constructor and unchanged TR4 consumer pass targeted checks and independent native replay; the full twelve-world instrument check remains cost-gated.
+
+**Means.** Six targeted checks pass on first execution. All source pins and outputs authenticate and all workers exited. The twelve-world matrix is frozen before its outcomes: four independent seeds at each of three change magnitudes, with all parent references and uncertainty retained. Only constructed conditional diagnostics will be licensed; four replicates cannot establish general statistical size or human power. Parent observations, failed reference and unsupported reliability uncertainty remain unchanged. No repair is used. Native execution and replay consumed 3.015625 CPU seconds; cumulative construction reserve and native charge are 63.015625 of the follow-up's separate 1,800 seconds. Full cost admission precedes main dispatch.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The planted-drift constructor and unchanged TR4 consumer pass targeted checks and independent native replay; the full twelve-world instrument check remains cost-gated.; project meaning: scoped operational record; next engineering obligation: Time the discarded full-bank construction and admit the unchanged twelve-world matrix only if it fits; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_IC_NATIVE_20261027.md.
+
+### S15-TR4-20261027
+
+**Hypothesis.** Does adapting to a writer's recent handling choices predict her later choices better than averaging her entire earlier record, and do estimated change rates recur across two halves of her record?
+
+**METHOD.** Use all 1,399 canonical CoAuthor session records from 61 writers, retaining eligibility and chronology exclusions explicitly. Fit exponential decay and change-point hazard only on the frozen discovery writers. Compare six four-class prospective forecasts on identical last-third test sessions, scoring raw handling choices before any current-session update. Average sessions within each writer, then writers equally. Rebuild the complete adaptive state for 200 within-writer outcome-order permutations; refit volatility profiles for 1,000 within-prompt session reassignments. Resample the same real writers in both arms for 2,000 uncertainty draws. Independently replay every result in a separate counted native process.
+
+**Found.** Descriptive only: adaptive handling forecasts did not improve on whole-history forecasts; the outcome-order reference is biased and volatility-reliability uncertainty is unsupported.
+
+The primary table reports natural-log loss reduction per observed choice, averaged equally across sessions and writers. Positive gain favors the adaptive forecast. Intervals are writer-cluster percentiles; permutation probabilities are descriptive only.
+
+| Primary quantity | Complete observation |
+|---|---:|
+| Supported test writers / sessions | 14 / 200 |
+| Adaptive gain over whole history | -0.000895663 |
+| Writer-cluster 95% interval | [-0.008317399, 0.007493453] |
+| Outcome-reference mean / sample SD | 0.001472460 / 0.003709035 |
+| Outcome-reference central 95% band | [-0.004680358, 0.009703883] |
+| Inclusive one-sided probability | 0.7164179104477612 |
+| Reference mean in SD units | 0.396993 |
+| Frozen bias flag | Fires: absolute mean exceeds 0.25 SD |
+
+The effect is not a licensed negative result. Its interval includes either direction, and the failed reference additionally restricts it to descriptive reporting. Sensitivity to meaningful drift remains unestablished.
+
+All six forecasts below use exactly the same supported test rows. Lower loss is better. These are secondary descriptive comparisons; the lowest secondary is not promoted to the primary after outcomes.
+
+| Forecast | Mean log loss |
+|---|---:|
+| Whole-history mean | 1.035267524 |
+| Last observed session | 1.152463113 |
+| Discovery-tuned exponential mean | 1.038332825 |
+| Adaptive local-level Kalman | 1.036163187 |
+| Local linear trend | 1.030705429 |
+| Discovery-tuned change-point mixture | 0.998317393 |
+
+Discovery selection used fourteen supported writers and chose exponential rate 0.25 and change-point hazard 0.01. The Gaussian filters selected their process-variance grids only from each writer's preceding observations. The Gaussian additive-log-ratio observation and softmax-mean approximations remain part of the frozen instrument.
+
+The reliability table uses fourteen test writers with strict complete chronology and at least two observed sessions in each half. It concerns the rank ordering of fitted process variances, not a measured psychological trait. Every reference and uncertainty draw is retained, including undefined draws caused by constant ranks.
+
+| Volatility comparison | Complete observation |
+|---|---:|
+| Two-half rank correlation | -0.438715578 |
+| Reassignment reference mean | 0.009088520 |
+| Reference central 95% band | [-0.556477459, 0.585056041] |
+| Inclusive one-sided probability | 0.9430569430569431 |
+| Real correlation minus reference mean | -0.447804098 |
+| Paired uncertainty | Unsupported: 600 of 2,000 draws contain an undefined required correlation |
+
+The reference itself has no undefined draws. The undefined paired bootstrap draws were neither dropped nor changed to zero. Full-record fitted process variance is zero for six writers, 0.0001 for one, 0.001 for three, 0.01 for three and 0.1 for one. These are variances per recorded session on the declared log-ratio scale; they are not transferable effect sizes or direct estimates of changing values.
+
+All 1,399 rows remain in the census: 134 belong to writers below twelve sessions, 829 are before the final third, 29 have ambiguous earlier chronology, and 407 are supported final-third rows across discovery and test (200 test, 207 discovery). The complete input census retained 34 unknown menus separately, with no invented choice class. The primary support is narrower than the full record; it was fixed before forecasts, not selected for outcomes.
+
+**Means.** This particular adaptive reader did not establish an advantage on these handling records. Outcome-order bias prevents a calibrated temporal-order claim, and the reliability interval is unsupported. Neither fact rejects the curator's broader proposal that preferences drift or that old expertise reflects earlier decisions: the comparison observes handling choices and does not date the formation of a value, separate current goals from training, or estimate preferences from artifacts. The unchanged full claim remains open. The change-point secondary remains descriptive and cannot rescue the primary. No badge or companion-repository claim is licensed.
+
+All 35 frozen pins and 16 sealed outputs authenticate; every worker exited and released its CPU lease. Full main execution and independent replay used 145.546875 CPU seconds; total parent charge and reserves are 402.828125 of 3,600. The launch-metadata refusal and both used repairs remain recorded. A scientific control failure is not an engineering bug to heal.
+
+The packet's non-detection menu registers one first-generation instrument check, TR4.ic, capped at 1,800 CPU seconds. Its rationale is to test whether the unchanged complete reporting rule can recognize planted drift and whether the reference flag blocks it. This check cannot repair, replace or retroactively promote the human result. Its construction and cost admission must be frozen before it runs; no second-generation work follows. No new study was harvested from this delayed operational event.
+
+Curator roll-up: current and historical preference evidence; Does a changing-history reader improve later handling forecasts?; **Infrastructure**; The comparison remains descriptive because its temporal reference fails.; project meaning: no calibrated adaptive-reader or volatility claim; next engineering obligation: bounded instrument sensitivity check without changing the parent; public claim unchanged; curator decision required: No. Detail: TR4_MAIN_20261027.md.
+
+### OPS-S15-W3-TR4-FULL-LAUNCH
+
+**Hypothesis.** Is the commissioned recent-versus-whole-history comparison genuinely executing within its original allocation?
+
+**METHOD.** Dispatch the frozen complete plan after constructed native validation and full-population cost admission. Verify the owner and current execution or verification child's exact native identities, active counted CPU lease, progressing output, every code/input pin and all four terminal watcher registrations.
+
+**Found.** The complete TR4 comparison is running in Gear 2 with all reference banks, paired uncertainty and independent replay; the wider ready-card backlog remains unfinished.
+
+**Means.** One complete analysis is active, using at most two numerical threads. All six predictors, two hundred outcome permutations, one thousand writer-label permutations and two thousand paired writer bootstrap draws remain. Fresh independent replay precedes a final result. Both TR4 engineering repairs are used, so another engineering failure must stop for review; environmental recovery retains the packet's separate rule. TR3 remains held at its failed constructed test example under the specific zero-retry restriction. The broader source/cost, GPU and receiving-copy holds persist. Eight ready cards across four slots remains unmet: registered cards are not represented as executable work. Earlier status snapshots are historical. No new study was harvested from the queue-continuation request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete TR4 comparison is running in Gear 2 with all reference banks, paired uncertainty and independent replay; the wider ready-card backlog remains unfinished.; project meaning: scoped operational record; next engineering obligation: Land the complete comparison on its terminal event; continue ranked independent builds without bypassing existing holds; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_MAIN_LAUNCH_20261027.md.
+
+### OPS-S15-W3-TR4-FULL-COST
+
+**Hypothesis.** Can the complete recent-versus-whole-history design, including all controls and fresh verification, fit the commissioned allocation?
+
+**METHOD.** Time the actual consumer on the entire verified census with two repetitions per reference bank and twenty uncertainty draws. Project the unchanged two hundred outcome references, one thousand writer-label references and two thousand paired bootstrap draws, plus fresh independent replay and the frozen 1.5 safety factor. Inspect exact native exits, all source/code pins and output hashes. Do not admit or interpret the timing pass's human scores.
+
+The table records completed resource admission, not scientific evidence.
+
+| Quantity | CPU seconds |
+|---|---:|
+| Counted cost execution and independent replay | 4.171875 |
+| Cumulative charge/reserve before main | 257.28125 |
+| Raw extrapolation | 208.6875 |
+| Admitted projection including resolution padding and runtime reserve | 2680.65625 |
+| Projected cumulative total | 2937.9375 |
+| Original allocation | 3,600 |
+
+**Found.** The complete-population TR4 timing pass and independent replay are verified; the unchanged full comparison fits the original CPU allocation with explicit clock-resolution and runtime reserves.
+
+**Means.** The uncertainty timing was below a sampled CPU-clock increment and recorded zero. Admission therefore adds one full observed 1/64-second increment to every measured phase before multiplying to full scale, then adds another hundred CPU seconds. Zero timing is not treated as zero cost. A hard native allocation remains authoritative if the estimate is optimistic. No population, reference count, model or scoring rule is reduced. Both ordinary card-wide repairs are used; the launch-metadata refusal remains recorded, and no further automatic repair is allowed. Main dispatch is authorized by the existing Week 3 commission and Gear 2 instruction.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-population TR4 timing pass and independent replay are verified; the unchanged full comparison fits the original CPU allocation with explicit clock-resolution and runtime reserves.; project meaning: scoped operational record; next engineering obligation: Dispatch the unchanged complete comparison under its remaining original CPU allocation; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_COST_20261027.md.
+
+### OPS-S15-W3-TR4-COST-LAUNCH-REFUSAL
+
+**Hypothesis.** Does the queue refuse a launch plan without pinned validation evidence?
+
+**METHOD.** Inspect the launch guard, original frozen plan and attempt directory after dispatch refused. The directory contains only the frozen plan, with no attempt claim or native worker. Preserve that record and build a separate plan containing the already-passed native validation receipt.
+
+**Found.** TR4 cost dispatch refused an incomplete validation-receipt binding before execution; its final ordinary repair supplies the existing verified receipts without changing the study.
+
+**Means.** This is a launch-metadata engineering error, not a scientific outcome or an environmental interruption. It consumes the second and final card-wide repair. The full population, all models and references, seed, contrast and original CPU ceiling remain unchanged. No additional automatic TR4 repair remains; native CPU is zero and one administrative CPU second is conservatively reserved.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; TR4 cost dispatch refused an incomplete validation-receipt binding before execution; its final ordinary repair supplies the existing verified receipts without changing the study.; project meaning: scoped operational record; next engineering obligation: Dispatch the separately frozen receipt-complete plan; no further ordinary repair; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_COST_LAUNCH_REFUSAL_20261027.md.
+
+### OPS-S15-W3-TR4-ANALYSIS-NATIVE
+
+**Hypothesis.** Can the recent-versus-whole-history comparison retain prospective scoring, uncertainty and every required reference without inventing evidence from missing support?
+
+**METHOD.** Build the complete consumer with discovery-only parameter fitting, six forecasts on identical strict chronological rows, two thousand paired writer bootstraps, two hundred outcome-order references and one thousand within-prompt writer-label references for volatility reliability. Validate the actual consumer on exact uniform and persistent-change constructions using shortened reference counts only for instrument checks; independently replay all constructed outputs in a counted native worker. Full human counts remain unchanged and separately cost-gated.
+
+The table records completed instrument validation and accounting, not human forecast results.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | Sixteen comparison and three actual-handler checks pass on first execution |
+| Native gates | Exact uniform zero, no false positive, undefined reliability retained, persistent change tracked and biased-reference restriction preserved |
+| Fresh replay | All code/input and output hashes verify; all workers exited |
+| Native CPU seconds | 2.953125 |
+| Cumulative charge/reserve | 252.109375 of 3,600 CPU seconds |
+| Card-wide repairs | One earlier source-test import repair; no new comparison repair |
+
+**Found.** The complete TR4 comparison and reference pipeline pass constructed validation and independent native replay; full-population cost admission remains.
+
+**Means.** All commissioned model, statistic, uncertainty and reference components now exist. The shortened constructed banks establish only their specified known-answer behaviors, not general statistical size. No human effect is admitted. A complete-population timing pass must project the full reference banks, paired uncertainty and independent replay under the remaining allocation before main dispatch. TR3 and all separate resource/source/transfer holds remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete TR4 comparison and reference pipeline pass constructed validation and independent native replay; full-population cost admission remains.; project meaning: scoped operational record; next engineering obligation: Run complete-population cost admission for the unchanged complete design; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_ANALYSIS_NATIVE_20261027.md.
+
+### OPS-S15-W3-TR4-MODELS-NATIVE
+
+**Hypothesis.** Can the six commissioned recent-versus-whole-history forecasts track known changes without reading the outcome they predict?
+
+**METHOD.** Implement whole-history, last-session, exponential, adaptive Gaussian local-level, local-linear-trend and exact run-length-mixture forecasts for all four canonical handling classes. Test analytic updates, retained-grid equivalence, exact equal-share behavior, missing observations, malformed input refusal and prospective invariance. Exercise the actual constructed handler, reentry and tamper refusal, then repeat every constructed output in a separate counted native process.
+
+The table describes completed model-instrument validation, not a human forecast comparison.
+
+| Check | Complete observation |
+|---|---|
+| Targeted checks | Nineteen model checks and two complete-handler checks pass on first execution |
+| Constructed native cases | Equal shares, stable skew and persistent changes in both directions |
+| Prospective boundary | Changing current or future targets cannot alter their prior forecast |
+| Full native replay | Complete; all input/code pins and output digests match; all worker identities exited |
+| Native CPU seconds | 0.96875 |
+| Cumulative charge and construction reserve | 159.15625 of 3,600 CPU seconds |
+| Card-wide engineering repairs | One earlier input-test import repair; no additional model repair |
+| Human statistics | Not computed |
+
+**Found.** All six prospective four-class TR4 models pass constructed checks and independent native replay; complete statistical controls and corpus cost admission remain separate.
+
+**Means.** This removes the six-model implementation gap but does not establish calibrated population inference. Complete chronology support, discovery-only tuning, required outcome and writer-reassignment controls, volatility reliability, uncertainty and whole-design cost admission remain. The Gaussian models use explicitly documented additive-log-ratio and plug-in approximations. Completed source inputs remain unchanged. TR3 remains held under its specific zero-retry limit; no new study was harvested from the Gear 2 continuation request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All six prospective four-class TR4 models pass constructed checks and independent native replay; complete statistical controls and corpus cost admission remain separate.; project meaning: scoped operational record; next engineering obligation: Build the complete prospective comparison and its controls, then measure cost within the original allocation; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_MODELS_NATIVE_20261027.md.
+
+### OPS-S15-W3-TR3-STATISTICS-VALIDATION-HOLD
+
+**Hypothesis.** Does the corrected recurrence instrument rebuild histories and retain genuinely undefined shuffle comparisons without treating them as zero?
+
+**METHOD.** Run the seventeen targeted constructed checks once, before native calibration or corpus inference. Inspect the retained test XML and exact fixture and implementation source after the failing check. No test or statistic was rerun for this diagnosis.
+
+**Found.** The TR3 control implementation is held after one constructed validation example failed; human carryover remains uncomputed and no automatic repair is taken.
+
+The table describes implementation validation, not a human carryover score.
+
+| Check | Complete observation |
+|---|---|
+| First targeted execution | Sixteen passed; one failed; no errors or skips |
+| Failed expectation | The constructed example expected fewer than twenty defined references; all twenty were defined |
+| Static diagnosis | The second writer has empty typing in both sessions and therefore always retains eligible features and usable placebos; exchanging those sessions cannot make the aggregate undefined |
+| Corrected-history check | Exact reassignment changes prior typing, eligibility, matches and practice as expected |
+| Native constructed calibration / human inference | Neither executed |
+| Construction-test reserve added | Sixty CPU seconds; cumulative charge and reserve 2,095.21875 of 7,200 |
+| Automatic repair or retry after this failure | None |
+
+**Means.** The failing example does not exercise the missing-support condition it claims to test. This is an instrument-validation defect, not a negative carryover result. The implementation is not admitted on the strength of its other checks. The original XML and code snapshots are retained; completed source preparations and original design records remain unchanged. The zero-further-retry instruction stops affected TR3 execution. A narrowly scoped decision is requested to change only this constructed example and validate once; the estimator, human data, approved control, original cap and prohibition on further repairs stay fixed. No new scientific test was harvested from this approval. Independent commissioned TR4 work remains eligible.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The TR3 control implementation is held after one constructed validation example failed; human carryover remains uncomputed and no automatic repair is taken.; project meaning: scoped operational record; next engineering obligation: Keep TR3 stopped pending a scoped fixture decision; continue independent commissioned work; public scientific claim unchanged; curator decision required: Yes; recommended: correct only the deficient constructed test example and validate once, retaining this failure and all other limits. Detail: TR3_STATISTICS_VALIDATION_HOLD_20261027.md.
+
+### OPS-S15-W3-TR3-REFERENCE-CORRECTION
+
+**Hypothesis.** Does the planned no-effect reference preserve the eligibility rule after typing records are reassigned?
+
+**METHOD.** Inspect the original frozen control before statistical execution. In a constructed two-session example, a feature absent in the first session and present in the second becomes earlier typing after the vectors are swapped; the original fixed history would incorrectly retain its eligibility. Preserve the original specification and apply the curator-approved correction only to the unrun permutation control.
+
+**Decision.** ?Correct the unrun control; retain the original record.? Rebuild earlier typing, practice, eligible features and all matches for every within-writer, within-prompt reassignment. Retain all support changes and undefined references explicitly. The primary comparison, secondary contrasts, discovery selection, writer split, 2,000 bootstraps, 200 permutations, original 7,200 CPU-second ceiling and zero further retry limit remain unchanged.
+
+**Found.** The curator approved rebuilding histories and matches within the unrun TR3 permutation control; the primary comparison, original CPU ceiling and zero further retries remain unchanged.
+
+**Means.** Completed discovery selection and source counts remain valid and fully recorded. The earlier fixed-history clause is superseded prospectively; its exact file and source pins remain intact. No carryover or permutation statistic has run, and no scientific claim changes. The corrected instrument still needs known-answer, native and complete cost validation before corpus inference. No new scientific study was harvested from the approval.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The curator approved rebuilding histories and matches within the unrun TR3 permutation control; the primary comparison, original CPU ceiling and zero further retries remain unchanged.; project meaning: scoped operational record; next engineering obligation: Build and calibrate the approved corrected reference before corpus inference; public scientific claim unchanged; curator decision required: No new decision. Detail: TR3_REFERENCE_CORRECTION_20261027.md.
+
 ### OPS-S15-W3-TR3-OUTCOME-INPUT-COMPLETE
 
 **Hypothesis.** Can the fixed feature bank be counted in writers' own typing and attributed to actual offered or accepted alternatives without the logged-index error?

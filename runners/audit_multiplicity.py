@@ -73,6 +73,8 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('TR4 biased outcome-order reference', 0.7164179104477612, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/TR4_MAIN_20261027.json'),
+    ('TR4 volatility label reference unsupported interval', 0.9430569430569431, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/TR4_MAIN_20261027.json'),
     ('PP3.s ridge_0.1 bank0 full process', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.json'),
     ('PP3.s ridge_0.1 bank0 process plus content', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.json'),
     ('PP3.s ridge_0.1 bank1 full process', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/PP3_S_MAIN_20261026.json'),

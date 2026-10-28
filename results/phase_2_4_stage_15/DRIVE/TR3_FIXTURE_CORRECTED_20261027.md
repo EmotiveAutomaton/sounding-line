@@ -1,0 +1,11 @@
+# TR3 FIXTURE CORRECTED 20261027
+
+**Hypothesis.** Does the retained TR3 implementation preserve an undefined shuffled comparison when every eligible writer loses support?
+
+**METHOD.** Recheck the frozen specification, failed example and source implementation. The old example gave the second writer empty typing in both sessions, so every shuffle retained one supported writer. Change only that example to give both writers later typing that, when moved earlier, removes eligibility. Explicitly exercise the both-swapped case and require a missing estimate with zero supported writers, then rerun the complete targeted suite once. Compare the estimator bytes to the retained first attempt.
+
+**Found.** The corrected missing-support example passes all targeted checks; the TR3 estimator and approved control remain byte-identical, while constructed calibration still precedes human inference.
+
+**Means.** All seventeen targeted checks pass. The example now contains both supported and unsupported references and confirms that missing values are retained rather than replaced by zero. This corrects a false test expectation; it neither weakens the missing-support rule nor changes human observations, matching, the approved history reconstruction, seeds, inference thresholds or the original CPU ceiling. Original code snapshots and the failed XML remain intact.
+
+The curator authorizes appropriate corrections after checking correctness and directs the operator not to seek approval for each correction. That current instruction clears the scoped fixture hold and supersedes its earlier prohibition on such a correction; it does not authorize changing a failed scientific gate, spending on new work or opening locked data. The operator's own diagnosis remains a claim to verify, not an authority over the frozen specification. The predeclared null and positive/negative constructed worlds remain mandatory before any human carryover result. An added thirty-second validation reserve makes the cumulative charge 2,125.21875 of 7,200 CPU seconds. No human comparison, GPU start, paid call or new scientific test occurs. P3c's preparation and pinned model intake are complete; its classifier validation remains unfinished. The broader ready queue remains underbuilt.

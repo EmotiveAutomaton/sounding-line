@@ -1,0 +1,13 @@
+# FIC1 INPUT NATIVE 20261027
+
+**Hypothesis.** Can the next commissioned genre comparison retain its original writers and prompt halves while restoring complete typed production and binding the same sessions to their final documents?
+
+**METHOD.** Re-read the commissioned FIC1 source requirements and extractor, instrument, model and runtime lessons. Exercise a constructed complete predecessor population with an upstream-only session, Unicode, later-deleted typed occurrences and mixed final-document provenance. Validate original matched prefixes, restore the full typed ledgers and refuse identity, count, split, provenance or source-seal changes. Run all seventeen targeted checks, then execute and independently reconstruct the whole native fixture in a separate process. Authenticate every frozen pin and sealed output and inspect native exits and the released CPU lease.
+
+**Found.** The FIC1 source builder passes known-answer checks and independent native replay; complete corpus preparation and identification remain unfinished.
+
+**Means.** All seventeen targeted checks pass. The native fixture retains its twelve selected sessions, three writers and twelve genre/half profiles, restoring twelve word occurrences beyond the old matched prefixes; its separate source-only session is retained in the census. Every final document keeps its exact text hash and typed/accepted/prompt provenance. Fresh replay reconstructs every selected session and its complete membership and count summaries. This is source validation, not evidence for genre identification, private intention or a fiction advantage.
+
+The corpus source step preserves the original 24-writer, 990-session GEN1 cohort and prompt halves. It restores full produced occurrences, including later deletions, instead of substituting a larger cohort. Production tokens do not preserve exact whitespace or form an AUTH request by concatenation. Feature fitting, length adjustment, approved independent-donor controls, full comparison/cost admission and AUTH's own text construction, calibration and transfer admission remain separate. No provider request, GPU work or scientific score is produced here.
+
+Native execution and independent replay use 0.609375 CPU seconds. With the 180-second construction/test reserve, cumulative FIC1 charge is 180.609375 of 7,200 seconds. The next complete source pass has a 600-second combined execution/replay allowance. All native workers exited and released the lease. The delayed P3c native notice is fully reconciled and acknowledged; its later failed agreement gate and unadmitted population labels remain unchanged. No new hypothesis is harvested from the wake. The wider ready-card backlog remains incomplete.

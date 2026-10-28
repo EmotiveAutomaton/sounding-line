@@ -1,0 +1,9 @@
+# P3C INPUT NATIVE 20261027
+
+**Hypothesis.** Can the shared edit-intent pass preserve the completed edit population and prepare a blind calibration sample without selecting on earlier labels?
+
+**METHOD.** Test exact event preservation across provenance classes, Unicode and empty or unchanged text, seeded selection, old-label invariance and blinded fields. Refuse duplicate events or sessions, malformed provenance, altered source bytes, path escapes and mutated saved outputs. Run the serialized constructed handler and reconstruct every output in an independent native process; test byte-stable reentry separately.
+
+**Found.** The edit-pair preparation passes known-answer checks and independent native replay; complete corpus preparation and classifier validation remain unfinished.
+
+**Means.** All eleven targeted checks pass on first execution. The native fixture retains three constructed writers and 240 edit events, including repeated content, and freezes exactly 200 blind calibration pairs. Native execution and independent replay use 0.390625 CPU seconds. With the 120-second construction/test reserve, the cumulative charge is 120.390625 of the original 14,400 CPU seconds. No P3c engineering repair is used. The next source pass authenticates every completed P5 session and retains all its edit events, including mixed and other provenance; the old intent labels and embeddings are not features or filters. The newer exhausted accepted-span extractor is untouched. Agent labels, classifier validity, timing and scientific consumers remain separate unbuilt steps. No model, effect, agreement statistic, GPU, paid request or external transfer occurs. No test is harvested from the operational wake. Existing TR3 and all other holds remain; the commissioned ready queue remains underbuilt.

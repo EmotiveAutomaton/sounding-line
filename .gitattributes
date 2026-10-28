@@ -21,3 +21,6 @@ results/**/adapters/** -text
 # existing CRLF rather than silently changing the recorded source hashes.
 runners/drive/cards/week3_sdt_newton.py -text
 runners/drive/cards/week3_sdt_recovery.py -text
+
+# Preserve the original failed-test receipt's recorded bytes and SHA-256.
+results/phase_2_4_stage_15/DRIVE/TR3_STATISTICS_TEST_FAILURE_20261027.xml -text whitespace=cr-at-eol
