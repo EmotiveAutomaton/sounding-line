@@ -1,5 +1,7 @@
 # Stage 15 evidence
 
+**October 28 FIC1 consumer validation complete:** [Complete constructed integration](DRIVE/FIC1_CONSUMER_NATIVE_20261028.md) (OPS-S15-W3-FIC1-CONSUMER-NATIVE). Both complete reference banks and fresh reconstruction/scoring replay pass. Workers exited. Full scientific calibration and whole-study cost admission remain; human identification is uncomputed. The wider ready queue is still underbuilt. Existing holds remain; earlier execution snapshots are historical.
+
 **October 27 daily integration:** [Complete digest](DRIVE/DIGEST_20261027.md) (OPS-S15-W3-DIGEST-20261027). All daily terminal records, corrections and scope limits reconcile. FIC1 retained context construction independently replays; its workers exited. Full scientific calibration and cost admission remain, and the ready queue is underbuilt. The idle-capacity defect and other holds are explicit. Monitoring continues; earlier execution snapshots are historical.
 
 **October 27 FIC1 context preparation complete:** [Verified retained construction](DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md) (OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE). Every original input and context gallery independently replays after the recorded component cost stop. Donor support gaps remain explicit. Workers exited. Full calibration and whole-study cost admission remain; human identification is uncomputed. The broader queue remains underbuilt. Other holds persist; earlier snapshots are historical.

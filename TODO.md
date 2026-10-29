@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-WB1-RETURN-GAP: WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.
+
+- [x] OPS-S15-W3-FIC1-CONSUMER-NATIVE: The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.
+
 - [x] OPS-S15-W3-PUBLICATION-REVIEW-1027: Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.
 
 - [x] OPS-S15-W3-DIGEST-20261027: Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.
@@ -40,7 +44,7 @@
 
 - [x] OPS-S15-W3-FIC1-FEATURE-NATIVE: The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.
 
-- [ ] FIC1: Complete null/planted calibration and whole-study cost admission before human scoring. Remaining original CPU allocation: 4386.765625 seconds. Retain fixed full bank, support gaps, original diagnostic and AUTH gate; one cumulative S4 extension requires a complete measured forecast. [Latest construction record](results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md).
+- [ ] FIC1: source, prefixes, galleries, pooled contexts and complete constructed consumer are verified. Full scientific calibration and measured whole-corpus admission remain before human scoring. Remaining original CPU allocation: 3,373.765625 seconds. Preserve all 1,000 reference draws, fixed support, original diagnostic and AUTH gate; no S4 extension invoked. [Consumer record](results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md).
 
 - [x] OPS-S15-W3-FIC1-INPUT-COMPLETE: Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.
 
@@ -186,11 +190,11 @@
 - [x] OPS-S15-W3-REBOOT-20261026: original failure retained; calendar restored, watcher path repaired, existing terminal records and claim sources authenticated.
 - [x] OPS-S15-W3-WB1-EFFECTS-COST-NATIVE: four checks and full fresh native cost-probe replay complete.
 - [x] OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE: full failure diagnosis and shared-dependency reconciliation recorded.
-- [ ] WB1 effects/cost: HELD on repeated acceptance-origin dependency; no third shared extractor repair. Canonical action-reference source stays valid. Cumulative charge/reserve 8438.953125 CPU seconds; single S4 limit 21600. Build independent commissioned CA5.r next; ready-card target remains unmet.
+- [ ] WB1 effects/cost and Ghost W5 return: HELD on the repeated acceptance-origin dependency; no third shared extractor repair. Canonical action-reference source stays valid. The October 28 noon effects return is unfulfilled; the six-file gap notice was copied and verified at 12:10 PDT. Cumulative charge/reserve remains 8438.953125 CPU seconds; single S4 limit 21600. Continue independent commissioned builds. [Deadline record](results/phase_2_4_stage_15/DRIVE/WB1_RETURN_DEADLINE_20261028.md).
 
 - [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
 - [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
-- [ ] WB1: full effects/real encoder and final-bootstrap cost measurement remain. Cumulative charge/reserve is 3445.375 of 10800 CPU seconds; no complete corpus admission.
+- [x] WB1 historical preparation snapshot (superseded by OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE; this is not scientific completion): full effects/real encoder and final-bootstrap cost measurement remain. Cumulative charge/reserve is 3445.375 of 10800 CPU seconds; no complete corpus admission.
 
 - [x] OPS-S15-W3-DIGEST-20261025: corrections-first daily packet, complete evidence/accounting reconciliation and idle-capacity record.
 
@@ -224,7 +228,7 @@
 - [ ] CA1: demonstrate an exact cheaper implementation before any continuation; all original texts and controls retained.
 
 - [x] OPS-S15-W3-NATIVE-COVERAGE: four native fixtures and full-population coverage cost pilot recorded.
-- [ ] WB1: measure remaining effects/encoder and final-bootstrap cost; keep full-study admission separate.
+- [x] WB1 historical preparation snapshot (superseded by OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE; this is not scientific completion): measure remaining effects/encoder and final-bootstrap cost; keep full-study admission separate.
 
 - [x] OPS-S15-W3-CA1-INPUTS: complete instrument write-through; dependent studies remain separately gated.
 - [x] OPS-S15-W3-WB1-VERIFIED: complete instrument write-through; dependent studies remain separately gated.

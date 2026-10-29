@@ -1,0 +1,11 @@
+# FIC1 CONSUMER NATIVE 20261028
+
+**Hypothesis.** Can the exact profile and context builders feed the identification scorer without losing writers, changing galleries or replacing reconstructed controls with artificial score maps?
+
+**METHOD.** Construct nine writers in both genres from explicit typed events. In one world, only shared prompts determine words and timing; in the other, persistent writer fingerprints determine them. Replay raw events, reconstruct whole-prompt halves and exact prefixes, build all independent donor rotations and retain the original literal diagnostic. For every raw and adjusted variant, reconstruct all 1,000 coherent within-role prompt shuffles, retain every fixed-roster score map and apply the unchanged scorer. Run eleven targeted routing, missing-support, topology, order-invariance and human-mode refusal checks, then independently reconstruct both complete worlds and their banks in fresh native execution.
+
+**Found.** The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.
+
+**Means.** Prompt-only arms agree without positive admission; strong constructed writer fingerprints clear the declared numerical gates. These are deterministic engineering examples, not a calibrated false-positive rate, a meaningful-effect sensitivity curve, human evidence or genre-effect power. Short engineering prefixes do not replace the human word-length grid. The consumer still refuses human mode. No source, estimator, gate, existing result or AUTH authority changes.
+
+All eleven targeted checks passed on the first run. Three-draw construction timing projected 1,359.2578125 CPU seconds for execution and full replay under a 2,000-second component cap. The complete native run used 833 CPU seconds. Including the 180-second construction/test reserve, cumulative FIC1 charges are 3,826.234375 of the original 7,200 seconds, leaving 3,373.765625. No component repair or S4 extension was used. All native workers exited and released the counted lease. Full calibration and whole-corpus cost admission remain required before human scoring; the broader ready queue remains underbuilt. No tests were harvested from the operational wake. Existing scientific, source/cost, GPU and transfer holds remain.

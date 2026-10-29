@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[FIC1 constructed consumer](FIC1_CONSUMER_20261028.md) passes complete native replay. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md). Human calibration and full cost admission remain.
+
 [FIC1 context continuation](FIC1_CONTEXT_CONTINUATION_20261027.md): Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md).
 
 [FIC1 context continuation](FIC1_CONTEXT_CONTINUATION_20261027.md): The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. [Record](../../../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md).

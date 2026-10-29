@@ -1,5 +1,42 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-WB1-RETURN-GAP
+
+**Hypothesis.** Are the process-piece classes and their standardised mean effects ready for Ghost W5 at the commissioned return deadline?
+
+**METHOD.** Authenticate the October 28 noon PDT calendar marker, the completed canonical source receipt and the final effects-cost failure. Inspect all nine registered WB1 directories and all twenty-one recorded native worker identities. Check the two current claim rows against their source anchors. Confirm the watcher and calendar identities, fresh heartbeat and actual event delivery. Prepare an aggregate-only status package, copy its six files into Ghost's named exchange folder under Week 3 section 7, and compare every source and destination hash.
+
+**Found.** WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.
+
+**Existing claim wording, failure first.**
+
+- OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE: The effects-cost probe is instrument-invalid on a repeated acceptance origin; the existing shared-source repair limit is exhausted, so WB1 remains scientifically untested.
+- OPS-S15-W3-WB1-SOURCE-CANONICAL: Complete source replay verifies the canonical action references while preserving every other prepared value and the full population; this admits corrected inputs, not a scientific finding.
+
+**Means.** The requested scientific payload was unavailable at 12:00 PDT. The gap notice was copied and hash-verified at 12:10 PDT; it does not meet the effects-return obligation and does not establish recipient reading, adoption or W5 calibration. It contains the exact claim wording, two aggregate source receipts, an explicit unavailable-effects status, README and checksum manifest. No incomplete effect values, participant text, identities, profiles or raw traces are exported. Missing effects are not zeros or a negative finding. Both shared repairs remain exhausted; no third shared retry, new research, gear change or recipient execution is authorized by this deadline.
+
+Only the native watcher and calendar services are active; no research worker or counted CPU lease is present. All inspected former WB1 workers have exited, and no completed scientific effects successor appears in its terminal inventory. Canonical action-reference preparation remains valid. The wider ready queue is underbuilt; FIC1 scientific calibration and measured whole-corpus admission remain the current build obligation, while other commissioned cards retain their own gates. This operational deadline inspection does not replace the independent six-hour health inspection. No tests were harvested from the wake. No new p-value, theory claim or scientific gate was changed.
+
+The source-side receipt records the exact copy manifest. The return package is `DRIVE/WB1_RETURN_GAP_20261028/`; the recipient folder is `ghost-scale-sim/docs/exchange/sounding-line-WB1-status-2026-10-28`. No recipient commit or push was performed. Earlier WB1 TODO entries are retained as superseded preparation snapshots, with the active source-dependency hold made explicit.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.; project meaning: scoped operational record; next engineering obligation: Keep the unfulfilled effects return explicit; build independent commissioned work within its scientific and cost gates, without a third shared extractor repair; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_RETURN_DEADLINE_20261028.md.
+
+### OPS-S15-W3-FIC1-CONSUMER-NATIVE
+
+**Hypothesis.** Can the exact profile and context builders feed the identification scorer without losing writers, changing galleries or replacing reconstructed controls with artificial score maps?
+
+**METHOD.** Construct nine writers in both genres from explicit typed events. In one world, only shared prompts determine words and timing; in the other, persistent writer fingerprints determine them. Replay raw events, reconstruct whole-prompt halves and exact prefixes, build all independent donor rotations and retain the original literal diagnostic. For every raw and adjusted variant, reconstruct all 1,000 coherent within-role prompt shuffles, retain every fixed-roster score map and apply the unchanged scorer. Run eleven targeted routing, missing-support, topology, order-invariance and human-mode refusal checks, then independently reconstruct both complete worlds and their banks in fresh native execution.
+
+**Found.** The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.
+
+**Means.** Prompt-only arms agree without positive admission; strong constructed writer fingerprints clear the declared numerical gates. These are deterministic engineering examples, not a calibrated false-positive rate, a meaningful-effect sensitivity curve, human evidence or genre-effect power. Short engineering prefixes do not replace the human word-length grid. The consumer still refuses human mode. No source, estimator, gate, existing result or AUTH authority changes.
+
+All eleven targeted checks passed on the first run. Three-draw construction timing projected 1,359.2578125 CPU seconds for execution and full replay under a 2,000-second component cap. The complete native run used 833 CPU seconds. Including the 180-second construction/test reserve, cumulative FIC1 charges are 3,826.234375 of the original 7,200 seconds, leaving 3,373.765625. No component repair or S4 extension was used. All native workers exited and released the counted lease. Full calibration and whole-corpus cost admission remain required before human scoring; the broader ready queue remains underbuilt. No tests were harvested from the operational wake. Existing scientific, source/cost, GPU and transfer holds remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Complete scientific calibration and measured whole-corpus admission within the remaining allocation; no human scoring or AUTH dispatch yet; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_CONSUMER_NATIVE_20261028.md.
+
 ### OPS-S15-W3-PUBLICATION-REVIEW-1027
 
 **Hypothesis.** Do the accumulated code and evidence changes have traceable validation before the authorized push?

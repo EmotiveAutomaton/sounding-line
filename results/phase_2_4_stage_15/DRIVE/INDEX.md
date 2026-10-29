@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-HEALTH-1028-1950:** [Health inspection](HEALTH_20261028_1950.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.
+
+**OPS-S15-W3-HEALTH-1028-1345:** [Health inspection](HEALTH_20261028_1345.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.
+
+**OPS-S15-W3-WB1-RETURN-GAP:** [Record](WB1_RETURN_DEADLINE_20261028.md). WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.
+
+**OPS-S15-W3-FIC1-CONSUMER-NATIVE:** [Record](FIC1_CONSUMER_NATIVE_20261028.md). The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.
+
 **OPS-S15-W3-PUBLICATION-REVIEW-1027:** [Record](PUBLICATION_REVIEW_20261027.md). Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace.
 
 **OPS-S15-W3-DIGEST-20261027:** [Record](DIGEST_20261027.md). Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished.

@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`cards/week3_fic1_consumer` passes eleven targeted checks and complete two-world native reconstruction/scoring replay. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md). Full scientific calibration and human admission remain separate.
+
 `cards/week3_fic1_context_recovery`: Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_COMPLETE_20261027.md).
 
 `cards/week3_fic1_context_recovery`: The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. [Record](../../results/phase_2_4_stage_15/DRIVE/FIC1_CONTEXT_RECOVERY_NATIVE_20261027.md).
