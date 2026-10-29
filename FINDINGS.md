@@ -1,5 +1,60 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-DIGEST-20261028
+
+**Hypothesis.** Are the completed evidence, corrections, delivery obligations and unused capacity fully accounted for in the daily handoff?
+
+**METHOD.** Authenticate the scheduled calendar marker, all three native terminal records in the fixed daily interval and their complete output manifests. Verify current claim source anchors, watcher and calendar identities, fresh monitoring, counted leases, available resources, paid bookings and the prior push receipt. Recheck the six-file WB1 receiving copy. Reconcile exact ledger wording without interpreting unfinished comparisons.
+
+**Corrections first.**
+
+- **Scope and cost accounting:** FIC1's retained context construction now independently replays after the earlier component cost stop. The original failed attempt and its CPU charge remain. The two recovery rows were already reported in yesterday's post-cutoff addendum; their inclusion in today's fixed interval is reconciliation, not another discovery or another run. The complete constructed consumer validates deterministic known-answer examples, not the full false-positive and meaningful-effect sensitivity calibration. No human identification is admitted.
+- **Instrument and delivery scope:** WB1's shared span extractor remains invalid with both shared repairs exhausted. The effects-return deadline was missed. A six-file aggregate gap notice was copied and hash-verified, but it does not fulfill the scientific return or establish recipient adoption. Canonical action-reference preparation remains valid; the failed effects attempts are retained.
+- **Operational inspection correction:** the first read-only digest helper incorrectly required every registered process watch to have exited. The calendar is an expected live service. The helper now exempts only exact preverified service identities. This changed no research worker, scientific code, raw data or result.
+- **Environmental record retained:** the earlier publication check's temporary-directory refusal and unchanged successful workspace rerun remain recorded. No scientific gate was weakened. This digest introduces no new scientific correction or theory synthesis.
+
+The table quotes each ledger row filed during the fixed daily interval. Control status describes that row's scoped instrument or operational check, not scientific admission. The two entries explicitly marked as previously reported belonged to the prior digest's post-cutoff addendum. Historical wording such as “remains unrun” describes its own landing time; the later complete row records the successor.
+
+| Ledger identifier | Control status | Exact public wording | Follow-up disposition |
+|---|---|---|---|
+| OPS-S15-W3-FIC1-CONTEXT-RECOVERY-NATIVE | passes | The retained-output FIC1 continuation passes native validation and independent replay; full-source verification remains unrun. | No new scientific descendant from this operational/instrument entry. Previously reported in the prior digest addendum. |
+| OPS-S15-W3-FIC1-CONTEXT-RECOVERY-COMPLETE | passes | Complete retained FIC1 context construction independently replays; full calibration and human identification remain uncomputed. | No new scientific descendant from this operational/instrument entry. Previously reported in the prior digest addendum. |
+| OPS-S15-W3-DIGEST-20261027 | passes | Completed evidence and corrections are reconciled; FIC1 preparation is verified, but the research queue remains underbuilt and scientific admission is unfinished. | No new scientific descendant from this operational/instrument entry. |
+| OPS-S15-W3-PUBLICATION-REVIEW-1027 | passes | Publication review authenticates the current code and evidence records; a retained temporary-directory access failure is resolved by an unchanged targeted test run in the workspace. | No new scientific descendant from this operational/instrument entry. |
+| OPS-S15-W3-FIC1-CONSUMER-NATIVE | passes | The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted. | No new scientific descendant from this operational/instrument entry. |
+| OPS-S15-W3-WB1-RETURN-GAP | passes | WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled. | No new scientific descendant from this operational/instrument entry. |
+
+**Follow-ups and authorized next work.** No new scientific comparison landed in this interval, so these records open no new scientific descendants. Full FIC1 scientific calibration and whole-study cost admission remain original commissioned work. Cumulative charges and reserves are 3,826.234375 of the original 7,200 CPU seconds, leaving 3,373.765625; no S4 extension has been invoked. The retained reconstruction-only forecast of 5,188.546875 CPU seconds already exceeds that remainder, before a complete study forecast. It is a measured partial forecast, not a mathematical lower bound. A launch cannot be justified by the component example alone. Any exact cheaper implementation needs the packet's separately frozen treatment and parity validation before measured admission; no unverified shortcut or ceiling extension is claimed here. AUTH remains gated.
+
+WB1's exhausted shared-source hold persists. PP1, PP3.p, WD1.h1, CA1 and DR1 retain their cost/control obligations; CA2 and CA3 retain their calibrated prerequisites. P3c's separately calibrated fallback remains subject to campaign order and concrete paid-transfer admission. Existing scientific failures and unsupported cases retain their ledger scopes. Intentional GPU parking and the outstanding exact WA0 receiving-copy approval remain. A verified WB1 notice copy does not discharge WA0's separate hold. No provider request, new gear, delegation or research authority follows from this calendar marker.
+
+The operating table covers 2026-10-28T03:00:00+00:00 through 2026-10-29T03:00:00+00:00, exactly 24 hours and 96 available CPU-slot hours. Occupancy is estimated from deduplicated authenticated terminal wall intervals. It is not continuous telemetry and excludes uncounted construction, inspection and agent work. Idle hours describe research-worker capacity, not total human or agent effort.
+
+| Operating item | Observation |
+|---|---|
+| Daily native terminals authenticated | 3; all complete output manifests verified |
+| Authenticated file bindings / claim source anchors | 77 / 212 |
+| Recorded worker slot-hours | 0.284595 |
+| Estimated idle slot-hours | 95.715405 of 96 |
+| Idle cause and defect | Commissioned implementation and scientific/cost admission remain unfinished; the ready queue is underbuilt |
+| Active research workers / counted leases | 0 / 0 at inspection |
+| Ready cards | 0 against the target of 8 |
+| Week 3 Gear 3 spending | 1 cent booked against the 1,000-cent campaign cap; no new paid call in this interval |
+| Stored reservation | PROC's historical 3-cent reservation is RECONCILED, not an active reservation |
+| Node caps | PROC 200, VAL 250, K 250, AUTH 100, GOAL 50, P 50 cents |
+| Available RAM / commit headroom / disk | 53.556 / 41.906 / 361.951 GiB at inspection |
+| Monitoring | Exact watcher/calendar identities, fresh heartbeat and actual digest delivery verified; no service recovery required |
+| WB1 receiving copy | Six aggregate files reverified; scientific effects return remains unfulfilled |
+| Prior push | Commit 208448a9d3c2ec3f321eb62c3333c3b17cfe8654; this digest was not part of that commit |
+| Final digest and new-start freeze / drain | November 1 at 20:00 / 22:00 PST; final addendum at 23:00 PST |
+
+**Found.** Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.
+
+**Means.** Continue the ranked commissioned build and measured admission work in Gear 2. The ready-card and idle-capacity defects remain open implementation obligations; this is neither a healthy research queue nor stage closure. Immediate terminal/failure monitoring and the independent six-hour health schedule remain. No extra ETA wake is scheduled. Completed scientific claims stay internal until the final packet. No tests were harvested from this operational notice, and no unfinished per-artifact score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.; project meaning: scoped operational record; next engineering obligation: Build ranked commissioned work and resolve FIC1 calibration and whole-study cost admission; preserve all current holds; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261028.md.
+
 ### OPS-S15-W3-WB1-RETURN-GAP
 
 **Hypothesis.** Are the process-piece classes and their standardised mean effects ready for Ghost W5 at the commissioned return deadline?

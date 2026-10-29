@@ -1,5 +1,7 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-DIGEST-20261028:** [Record](DIGEST_20261028.md). Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.
+
 **OPS-S15-W3-HEALTH-1028-1950:** [Health inspection](HEALTH_20261028_1950.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.
 
 **OPS-S15-W3-HEALTH-1028-1345:** [Health inspection](HEALTH_20261028_1345.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.

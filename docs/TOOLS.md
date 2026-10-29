@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-DIGEST-20261028:** Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt. [Record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261028.md).
+
 **OPS-S15-W3-WB1-RETURN-GAP:** WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled. [Record](../results/phase_2_4_stage_15/DRIVE/WB1_RETURN_DEADLINE_20261028.md).
 
 **OPS-S15-W3-FIC1-CONSUMER-NATIVE:** The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md).

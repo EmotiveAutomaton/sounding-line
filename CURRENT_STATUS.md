@@ -1,5 +1,7 @@
 # Current status
 
+**October 28 daily integration:** [Complete digest](results/phase_2_4_stage_15/DRIVE/DIGEST_20261028.md) (OPS-S15-W3-DIGEST-20261028). Completed engineering and delivery records reconcile. No new scientific comparison is admitted. Research workers are idle and the ready queue remains underbuilt; full FIC1 calibration and cost admission remain. WB1 effects are unreturned despite the verified gap notice. Monitoring and existing holds persist; earlier snapshots are historical.
+
 **October 28 WB1 return deadline:** [Full reconciliation](results/phase_2_4_stage_15/DRIVE/WB1_RETURN_DEADLINE_20261028.md) (OPS-S15-W3-WB1-RETURN-GAP). The effects return is unfulfilled because the shared span dependency remains invalid. An aggregate gap notice is copied to Ghost and hash-verified; recipient adoption is unverified. No research worker is active; the ready queue remains underbuilt. FIC1 calibration and complete cost admission remain the current build obligation. Existing holds persist.
 
 **October 28 FIC1 consumer validation complete:** [Complete constructed integration](results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md) (OPS-S15-W3-FIC1-CONSUMER-NATIVE). Both complete reference banks and fresh reconstruction/scoring replay pass. Workers exited. Full scientific calibration and whole-study cost admission remain; human identification is uncomputed. The wider ready queue is still underbuilt. Existing holds remain; earlier execution snapshots are historical.

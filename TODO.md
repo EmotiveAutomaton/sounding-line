@@ -1,5 +1,7 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-DIGEST-20261028: Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.
+
 - [x] OPS-S15-W3-WB1-RETURN-GAP: WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.
 
 - [x] OPS-S15-W3-FIC1-CONSUMER-NATIVE: The complete constructed FIC1 consumer passes its known-answer checks and independent replay; full scientific calibration and human identification remain unadmitted.
