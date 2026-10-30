@@ -1,5 +1,145 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-D5-FEATURE-CORPUS: Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.
+
+- [x] OPS-S15-W3-D5-FEATURE-NATIVE: The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.
+
+- [ ] S15-D5: SOURCE AND FEATURES COMPLETE. Build and freeze identification, bin/matching choices, full inherited controls and known-answer scientific calibration. Retain all previous CPU charges. [Latest record](results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md).
+
+- [x] OPS-S15-W3-D5-SOURCE-CORPUS: The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.
+
+- [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: RUNNING source preparation and fresh replay only. Identification, length matching, bins and scientific controls require a separate frozen build. Retain the fixed CPU probe total and all previous charges. [Launch](results/phase_2_4_stage_15/DRIVE/D5_AUTHENTICATED_REUSE_LAUNCH_20261029.md).
+
+- [x] OPS-S15-W3-D5-AUTHENTICATED-REUSE-LAUNCH: D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+- [x] OPS-S15-W3-D5-AUTHENTICATED-REUSE-NATIVE: The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+- [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: BUILD exact reuse of both authenticated completed upstream sources with unchanged D5 transforms and retained-session parity. Original D5 source is cost-stopped; all charges remain. No identification result.
+
+- [x] OPS-S15-W3-D5-EXACT-REUSE-COST-STOP: D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+- [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: RUNNING source preparation and fresh replay only. Identification, length matching, bins and scientific controls require a separate frozen build. Retain the fixed CPU probe total and all previous charges. [Launch](results/phase_2_4_stage_15/DRIVE/D5_EXACT_REUSE_LAUNCH_20261029.md).
+
+- [x] OPS-S15-W3-D5-EXACT-REUSE-LAUNCH: D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+- [x] OPS-S15-W3-D5-EXACT-REUSE-NATIVE: The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+- [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: BUILD exact reuse of authenticated completed PMAP process rows with unchanged raw text replay and retained-session parity. Original D5 source is cost-stopped; all charges remain. No identification result.
+
+- [x] OPS-S15-W3-D5-SOURCE-COST-STOP: D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+- [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5: RUNNING source preparation and fresh replay only. Identification, length matching, bins and scientific controls require a separate frozen build. Retain the fixed CPU probe total and both engineering corrections. [Launch](results/phase_2_4_stage_15/DRIVE/D5_SOURCE_LAUNCH_20261029.md).
+
+- [x] OPS-S15-W3-D5-SOURCE-LAUNCH: D5 complete-source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+- [x] OPS-S15-W3-D5-SOURCE-RECOVERY-NATIVE: The separate source adapter authenticates the actual upstream receipt and passes complete constructed native replay; full-corpus preparation and writer identification remain separate.
+
+- [x] OPS-S15-W3-D5-SOURCE-NATIVE: The separated text-source transforms pass constructed native replay; actual upstream receipt inspection found a schema mismatch, so corpus dispatch remains held.
+
+- [ ] S15-D19: HOLD. Complete source and factorization timing plus independent replay are recorded. The conservative full-refit envelope exceeds the retained allowance; scientific consumers remain unfinished. Preserve all evidence and charges. [Record](results/phase_2_4_stage_15/DRIVE/D19_COST_CORPUS_20261029.md).
+
+- [x] OPS-S15-W3-D19-COST-CORPUS: The complete-session factorization cost probe independently replays; its conservative full-refit workload exceeds the retained allowance, and scientific stability and reliability remain untested.
+
+- [x] OPS-S15-W3-D19-COST-RECOVERY-NATIVE: The factorization cost instrument completes its constructed rank grid and fresh native replay after a fixed-objective iteration-limit recovery; human inference remains unadmitted.
+
+- [x] OPS-S15-W3-D19-NATIVE-NONCONVERGENCE: The factorization timing instrument stopped on constructed nonconvergence; no human factorization has run.
+
+- [x] OPS-S15-W3-D7-COST-CORPUS: The complete-writer duration timing probe independently replays; the full comparison is cost-held and scientific controls remain unfinished.
+
+- [x] OPS-S15-W3-D7-MODEL-COST-NATIVE: The chronological duration and acceptance predictors pass constructed checks and complete native fitting replay; whole-corpus cost and scientific calibration remain separate.
+
+- [ ] S15-D7: HOLD. Complete source and predictor checks plus native whole-writer cost replay are recorded. Full workload exceeds the retained allowance; controls/calibration remain unfinished. Preserve all charges; any exact acceleration requires a separately frozen parity-validated successor. [Source record](results/phase_2_4_stage_15/DRIVE/D7_SOURCE_CORPUS_20261029.md).
+
+- [x] OPS-S15-W3-D7-SOURCE-CORPUS: The complete visible-menu duration and novelty source independently replays with all prepared menus retained; the predictive comparison remains uncomputed.
+
+- [x] OPS-S15-W3-D7-SOURCE-NATIVE: The visible-menu duration and novelty adapter passes constructed checks and fresh native source replay; the full source run and predictive comparison remain separate.
+
+- [x] S15-P7-REFINEMENT24-20261029: The fixed word-event refinement reproduces all prior distributions and tightens its numerical bounds, but complete point-score precision and full-corpus admission remain unmet.
+
+- [x] S15-P7-REFINEMENT24: Complete fixed refinement, fresh replay, predecessor parity and nested bounds are recorded. Full point precision/corpus admission remain held; no automatic descendant. [Record](results/phase_2_4_stage_15/DRIVE/P7_REFINEMENT24_20261029.md).
+
+- [x] OPS-S15-W3-P7-REFINEMENT-LAUNCH: The bounded P7 refinement is running in Gear 2 after complete constructed checks; D37 is fully recorded and scientifically held, and the ready buffer remains incomplete.
+
+- [x] S15-D37-CALIBRATION-20261029: In constructed worlds, the three-entry comparison fails its frozen calibration gate; the human comparison remains uncomputed and held.
+
+- [ ] S15-D37-COMPLETE: HOLD. Complete frozen calibration and independent replay are recorded; scientific admission failed. Human consumer remains built but uncomputed. Preserve original result and 1,750.6875 CPU seconds charged against the 40,102.875 cumulative ceiling. No automatic calibration repair. Next commissioned build: P7 refinement. [Record](results/phase_2_4_stage_15/DRIVE/D37_CALIBRATION_20261029.md).
+
+- [x] OPS-S15-W3-D37-CALIBRATION-LAUNCH: The complete D37 calibration is running in Gear 2 after measured cost admission; its human consumer is built but scientifically gated, and the wider ready buffer remains incomplete.
+
+- [x] OPS-S15-W3-D37-RUN-NATIVE: The complete constructed reference and fresh fitting replay pass; the full D37 scientific calibration remains required before human execution.
+
+- [x] OPS-S15-W3-D37-COST-CORPUS: The complete-source D37 timing probe independently replays; the full workload has a measured forecast, while scientific calibration remains required.
+
+- [x] OPS-S15-W3-D37-COST-NATIVE: The complete-unit timing instrument independently replays on constructed data; corpus timing and full D37 admission remain separate.
+
+- [x] OPS-S15-W3-D37-READERS-NATIVE: The separated three-entry reader passes known-answer fitting, chronology checks and fresh native replay; scientific calibration and whole-study cost admission remain unfinished.
+
+- [x] OPS-S15-W3-D37-INPUTS-CORPUS: The complete three-entry source independently replays with all prepared decisions retained; fitted readers, calibration and whole-study cost admission remain unfinished.
+
+- [x] OPS-S15-W3-D37-INPUTS-NATIVE: The three-entry preparation transforms pass native known-answer replay; complete human-source preparation and fitted comparison remain uncomputed.
+
+- [x] OPS-S15-W3-HEALTH-20261029-1400: The due health inspection verifies completed records and live monitoring; the specification probe is now complete and cost-held, and research CPU slots are idle while commissioned builds remain.
+
+- [x] OPS-S15-W3-D33-SPEC-COST: The complete-source specification timing probe independently replays; full inference is cost-held under the fixed follow-up allowance.
+
+- [x] OPS-S15-W3-D33-SPEC-NATIVE: The complete constructed specification-cost instrument independently replays; full human specification inference remains uncomputed.
+
+- [ ] D33.pair-calibration-supported.s/.m/.p: register the three bounded first-generation settings described in D33_CALIBRATION_SUPPORTED_FULL_20261029; each cap 786 CPU seconds including validation/replay, no descendants. Screen specification first; existing prompt-excluded and common-word variants occupy the other two slots. No duplicate executions.
+
+- [x] S15-D33-CALIBRATION-SUPPORTED-20261029: The supported comparison supports a personal-history association with writing pauses after matched donor history and measured context are accounted for; the full-population and causal questions remain open.
+
+- [x] OPS-S15-W3-D33-FULL-LAUNCH: The full supported-history comparison is running in Gear 2 after verified cost admission; completed controls are recorded and the wider ready buffer remains incomplete.
+
+- [x] OPS-S15-W3-D33-COST-ADMISSION: The complete-source supported-history timing probe independently replays and admits full unchanged inference within the retained Week 3 allowance.
+
+- [x] OPS-S15-W3-D33-COST-VALIDATION: The supported-history cost instrument passes complete constructed first-block replay; corpus timing and full inference admission remain separate.
+
+- [x] S15-DR1-CONTEXT-20261029: Session-summary style identifies writers beyond the separate independent-context reference in the original eligible reading cohort; this does not establish a directed-reading advantage.
+
+- [x] OPS-S15-W3-DR1-CONTEXT-COST: The complete-gallery context timing pass independently replays and admits the full registered control bank within the explicit Week 3 backlog allowance.
+
+- [x] S15-DR1-RANKS-20261029: A directed-reading advantage is not detected by the calibrated order-rank test; the original retrospective scope and separate identification-control obligations remain.
+
+- [x] OPS-S15-W3-DR1-CONTEXT-VALIDATION: The separate independent-context diagnostic passes complete known-answer validation and fresh replay; the original reading benchmark and its scope remain unchanged.
+
+- [x] OPS-S15-W3-DR1-RANK-VALIDATION: The commissioned reading-order rank instrument passes its complete constructed calibration and fresh replay; human and identification-control admission remain separate.
+
+- [x] OPS-S15-W3-WB1-H1-EFFECTS-COST-STOP: The corrected effects timing pass stopped at its CPU ceiling during independent replay; full WB1 remains cost-held and its effect result is uncomputed.
+
+- [x] S15-TR4-H1-20261029: An adaptive handling-forecast advantage is not detected under the separately calibrated conditional-order control; this does not establish stable preferences or equivalence.
+
+- [x] S15-TR4-H1-CALIBRATION-20261029: In constructed worlds, the separate conditional-order control passes its frozen null and sensitivity gates; the human comparison remains uncomputed.
+
+- [x] OPS-S15-W3-WB1-H1-EFFECTS-COST-LAUNCH: The complete provenance census is recorded and its corrected effects timing pass is running in Gear 2; full effects remain cost-gated.
+
+- [x] OPS-S15-W3-WB1-H1-CORPUS: The complete physical-insertion census independently replays with the original eligible decisions; effect estimation and complete study cost admission remain pending.
+
+- [x] OPS-S15-W3-CLAIM-ANCHOR-CORRECTION-20261029: Three claim-source pointers are corrected to exact original headings; all findings and scientific outcomes are retained.
+
+- [x] OPS-S15-W3-ACTIVE-CORRECTIONS-20261029: Two bounded correction jobs are progressing in Gear 2 and completed records reconcile; their guarded continuations are prepared, while the eight-card ready buffer remains unmet.
+
+- [x] TR4.h1: complete frozen calibration and full-population human comparison independently replay and are fully recorded. Adaptive advantage is not detected; sensitivity is established only in the finite constructed calibration. Original evidence and unsupported secondary reliability are retained. No new automatic follow-up is opened. [Full result](results/phase_2_4_stage_15/DRIVE/TR4_H1_HUMAN_20261029.md).
+
+- [x] OPS-S15-W3-TR4-H1-ADMISSION-RECOVERY: The conditional-order calibration stopped before its first world on a receipt-field mismatch; the validated interface correction is now running with the full frozen matrix and prior costs retained.
+
+- [x] OPS-S15-W3-TR4-H1-COST-ADMISSION-CORRECTION: The complete conditional-control calibration fits its registered cost rule and original cumulative ceiling; an extra unregistered attempt margin caused the earlier erroneous cost hold.
+
+- [x] OPS-S15-W3-TR4-H1-COST: The complete conditional-control timing world independently replays, but the frozen calibration does not fit the remaining original allocation; the design is cost-held.
+
+- [x] OPS-S15-W3-TR4-H1-NATIVE: The separate conditional-order control passes exact-rank and preservation checks with fresh native replay; complete cost and calibration admission remain required.
+
+- [ ] WB1.h1: complete provenance census is fully recorded; effects timing stopped during replay at its attempt CPU ceiling. Cumulative charge/reserve is 16,879.359375 of the existing 21,600-second S4 ceiling. Full effects and Ghost W5 return remain cost-held; preserve the saved unverified timing artifact and all original failures. No second extension. [Cost stop](results/phase_2_4_stage_15/DRIVE/WB1_H1_EFFECTS_COST_STOP_20261029.md).
+
+- [x] OPS-S15-W3-VALIDITY-HEALING-LAUNCH: The corrected complete-source provenance rerun is active in Gear 2 with verified monitoring; recorded results reconcile, but the wider ready queue is not fully built.
+
+- [x] OPS-S15-W3-WB1-H1-TIMING: The physical-insertion timing subset independently replays, preserving eligible decisions; the complete source census remains to be verified.
+
+- [x] OPS-S15-W3-WB1-H1-EFFECTS-NATIVE: The separate effects consumer preserves known-answer windows and exact eligible retention under fresh replay; full corpus and cost admission remain required.
+
+- [x] OPS-S15-W3-WB1-H1-NATIVE: The separate physical-insertion instrument passes known-answer checks and independent replay; complete corpus validation and effects admission remain pending.
+
+- [x] OPS-S15-W3-FIC1-H1-CACHE-NATIVE: The separate context cache exactly reproduces complete constructed outputs; a consistent speedup, corpus parity and scientific admission remain unestablished.
+
 - [x] OPS-S15-W3-DIGEST-20261028: Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.
 
 - [x] OPS-S15-W3-WB1-RETURN-GAP: WB1 effects were unavailable at the return deadline; a hash-verified gap notice is copied to Ghost, while the scientific return remains unfulfilled.
@@ -46,7 +186,7 @@
 
 - [x] OPS-S15-W3-FIC1-FEATURE-NATIVE: The FIC1 feature builder passes known-answer checks and independent native replay; corpus feature preparation and identification remain unfinished.
 
-- [ ] FIC1: source, prefixes, galleries, pooled contexts and complete constructed consumer are verified. Full scientific calibration and measured whole-corpus admission remain before human scoring. Remaining original CPU allocation: 3,373.765625 seconds. Preserve all 1,000 reference draws, fixed support, original diagnostic and AUTH gate; no S4 extension invoked. [Consumer record](results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md).
+- [ ] FIC1: source, prefixes, galleries, pooled contexts and complete constructed consumer are verified. Full scientific calibration and measured whole-corpus admission remain before human scoring. Remaining original CPU allocation: 3,186.5625 seconds. The separate FIC1.h1 context cache passes constructed full-output parity but has mixed timing and no corpus speedup admission; see [cache record](results/phase_2_4_stage_15/DRIVE/FIC1_H1_CACHE_NATIVE_20261029.md). Preserve all 1,000 reference draws, fixed support, original diagnostic and AUTH gate; no S4 extension invoked. [Consumer record](results/phase_2_4_stage_15/DRIVE/FIC1_CONSUMER_NATIVE_20261028.md).
 
 - [x] OPS-S15-W3-FIC1-INPUT-COMPLETE: Complete FIC1 source preparation independently replays with the original cohort and full typed production; identification remains uncomputed.
 
@@ -192,7 +332,7 @@
 - [x] OPS-S15-W3-REBOOT-20261026: original failure retained; calendar restored, watcher path repaired, existing terminal records and claim sources authenticated.
 - [x] OPS-S15-W3-WB1-EFFECTS-COST-NATIVE: four checks and full fresh native cost-probe replay complete.
 - [x] OPS-S15-W3-WB1-EFFECTS-SPAN-FAILURE: full failure diagnosis and shared-dependency reconciliation recorded.
-- [ ] WB1 effects/cost and Ghost W5 return: HELD on the repeated acceptance-origin dependency; no third shared extractor repair. Canonical action-reference source stays valid. The October 28 noon effects return is unfulfilled; the six-file gap notice was copied and verified at 12:10 PDT. Cumulative charge/reserve remains 8438.953125 CPU seconds; single S4 limit 21600. Continue independent commissioned builds. [Deadline record](results/phase_2_4_stage_15/DRIVE/WB1_RETURN_DEADLINE_20261028.md).
+- [ ] WB1 effects/cost and Ghost W5 return: the original shared route remains invalid, while the separate WB1.h1 provenance census is complete. Corrected effects timing is cost-stopped before independent replay finishes; no full effects result or W5 return is admitted. Current cumulative charge/reserve is 16,879.359375 under the existing 21,600-second limit. [Current cost record](results/phase_2_4_stage_15/DRIVE/WB1_H1_EFFECTS_COST_STOP_20261029.md).
 
 - [x] OPS-S15-W3-HEALTH-20261025-2340: complete native/service/resource/delivery inspection and existing-record reconciliation; idle defect recorded.
 - [x] OPS-S15-W3-WB1-EFFECTS-NATIVE: four targeted checks and the unchanged constructed native handler independently replayed.
@@ -327,7 +467,7 @@ is prepared. No prior cost/resource hold is lifted.
 - [x] S15-DR1-MAIN: full comparison and fresh replay recorded; unresolved primary, no censoring, required empirical controls absent.
 - [x] S15-DR1-STYLE-PARITY-BUILD: nine checks and complete native constructed parity/replay pass; actual-corpus parity/timing is complete.
 - [x] S15-DR1-STYLE-PARITY: complete original corpus parity and fresh replay recorded; no empirical controls or new contrast.
-- [ ] S15-DR1-CONTROLS: cost-held for the benchmarked implementation; conservative 31027.853280-second projection exceeds remaining4367.941902 seconds. Original output and chronological route retained; exact faster implementation and actual control validation would need fresh measured admission.
+- [x] S15-DR1-CONTROLS: The complete calibrated rank comparison and separate independent-context diagnostic independently replay and are fully recorded. Their distinct estimands, original retrospective result and chronological routing are retained. [Context record](results/phase_2_4_stage_15/DRIVE/DR1_CONTEXT_HUMAN_20261029.md).
 - [x] S15-GEN1-INPUT-BUILD: source-bound session/typed-word matching and exact occurrence-boundary manifest; nineteen targeted checks and full constructed native replay pass.
 - [x] S15-GEN1-POPULATION-RECOVERY: original corpus join failed before matching; eight additional checks and full native validation pass for the exact admitted-population successor. Original policy/failure and cumulative costs retained.
 - [x] S15-GEN1-INPUT: single source-only corpus retry and independent replay complete; primary input supported, all source/exclusion identities retained. Cumulative charge 279.617759 seconds; original allowance remaining 1520.382241 seconds. [Complete input record](results/phase_2_4_stage_15/DRIVE/GEN1_INPUTS_20261022.md).
@@ -387,9 +527,7 @@ and paid cutoff. Tuesday delivery and the explicitly gated post-talk work remain
 - [ ] S15-EV4: resolve literal dictionary release terms. Existing ordered-array hashes, unmeasured reliability curves and control gaps remain explicit; no recipient adoption or deployment is inferred.
 - [x] S15-D33-CALIBRATED-BUILD: smaller calibration-supported adapter and complete
   constructed statistical replay pass; original supported-match failure retained.
-- [ ] S15-D33-SUPPORTED: corpus run is cost-held, with at most 42.032 seconds of the
-  single 3,600-second allowance remaining and no admitted corpus forecast. No reset;
-  original full-population question remains open.
+- [x] S15-D33-SUPPORTED: Full unchanged calibration-supported inference and independent replay are complete and fully recorded. Original population/calibration gaps and all charges remain. Bounded follow-ups are tracked separately. [Completed record](results/phase_2_4_stage_15/DRIVE/D33_CALIBRATION_SUPPORTED_FULL_20261029.md).
 - [x] S15-D30-CROSSED: single engineering recovery verified complete; primary
   unresolved and paired own-history advantage null. Exact prefix, full source/fit
   replay, controls, cumulative costs and native closure verified. [Full result](results/phase_2_4_stage_15/DRIVE/D30.p-week-recovery.md).

@@ -1,0 +1,15 @@
+# D19 COST CORPUS 20261029
+
+**Hypothesis.** Can the exploratory process/content factorization and its proposed full-resampling workload fit the commissioned CPU probe allowance?
+
+**METHOD.** Authenticate every completed PMAP session, retain all sessions and explicit missingness, transform process features and signed suggestion-content vectors into the frozen nonnegative blocks, and fit every rank from five through fifteen on the full matrix and one whole-writer resample. In a fresh native process reconstruct the source matrix and refit every saved factor array. Measure complete-fit time and bytes, then extrapolate the stated full-refit accounting envelope without interpreting partial components.
+
+**Found.** The complete-session factorization cost probe independently replays; its conservative full-refit workload exceeds the retained allowance, and scientific stability and reliability remain untested.
+
+All 1,399 sessions from 61 writers remain in the matrix, with 26 process/missingness coordinates and 1,536 signed content coordinates. All twenty-two fits complete and independently reproduce their full factor arrays exactly. Content represents accepted suggestions and dismissed menus, not final-document semantics. The completed timing fits are not a component-stability estimate or evidence identifying drives, goals or reusable psychological parts.
+
+The conservative envelope is 802268.343750 CPU seconds, covering both passes, 2,000 full stability refits and 1,000 full-refit reliability references for every rank, with a factor of three and reporting allowance. That envelope exceeds the retained 3,600 CPU-second probe ceiling. It is not a measured runtime for an implemented full analysis: the reference, stability and scientific-gate consumers remain unfinished. In particular, a later exact design may avoid invariant refits, but no saving is claimed or silently substituted here. The frozen byte projection is 7348149567 for retained factor matrices alone, before auxiliary records.
+
+All 1430 pins and 62 output hashes verify. Execution and fresh replay consumed 65.890625 CPU seconds and 47.521252 wall seconds. Cumulative D19 charge is 245.820500, including the original fixture assertion correction, native nonconvergence, separate iteration-limit recovery, every test and the build reserve. Native owner and phase children exited and the CPU lease is released. The attempted live-status record refused after this terminal appeared and wrote no running claim. No p-value is introduced.
+
+**Means.** Preserve all successful source/factor outputs and original failures. Hold the proposed full workload pending a separately frozen executable design and measured admission; no additional automatic engineering retry is available. D7 remains cost-held and D36 retains its whole-P7 dependency. D5 is the next independent commissioned build; D10 remains GPU-held and V4.c's supplemental reference remains backlog. Gear 2 remains authorized, with research slots idle during the next build and the ready buffer incomplete. No new test was harvested from the wake.

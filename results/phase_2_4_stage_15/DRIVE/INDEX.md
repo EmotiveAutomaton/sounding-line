@@ -1,5 +1,123 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-D5-FEATURE-CORPUS:** [Record](D5_FEATURE_CORPUS_20261029.md). Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.
+
+**OPS-S15-W3-D5-FEATURE-NATIVE:** [Record](D5_FEATURE_NATIVE_20261029.md). The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.
+
+**OPS-S15-W3-D5-SOURCE-CORPUS:** [Record](D5_SOURCE_CORPUS_20261029.md). The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.
+
+**OPS-S15-W3-D5-AUTHENTICATED-REUSE-LAUNCH:** [Record](D5_AUTHENTICATED_REUSE_LAUNCH_20261029.md). D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+**OPS-S15-W3-D5-AUTHENTICATED-REUSE-NATIVE:** [Record](D5_AUTHENTICATED_REUSE_NATIVE_20261029.md). The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+**OPS-S15-W3-D5-EXACT-REUSE-COST-STOP:** [Record](D5_EXACT_REUSE_COST_STOP_20261029.md). D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+**OPS-S15-W3-D5-EXACT-REUSE-LAUNCH:** [Record](D5_EXACT_REUSE_LAUNCH_20261029.md). D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+**OPS-S15-W3-D5-EXACT-REUSE-NATIVE:** [Record](D5_EXACT_REUSE_NATIVE_20261029.md). The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+**OPS-S15-W3-D5-SOURCE-COST-STOP:** [Record](D5_SOURCE_COST_STOP_20261029.md). D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+**OPS-S15-W3-D5-SOURCE-LAUNCH:** [Record](D5_SOURCE_LAUNCH_20261029.md). D5 complete-source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+**OPS-S15-W3-D5-SOURCE-RECOVERY-NATIVE:** [Record](D5_SOURCE_RECOVERY_NATIVE_20261029.md). The separate source adapter authenticates the actual upstream receipt and passes complete constructed native replay; full-corpus preparation and writer identification remain separate.
+
+**OPS-S15-W3-D5-SOURCE-NATIVE:** [Record](D5_SOURCE_NATIVE_20261029.md). The separated text-source transforms pass constructed native replay; actual upstream receipt inspection found a schema mismatch, so corpus dispatch remains held.
+
+**OPS-S15-W3-D19-COST-CORPUS:** [Record](D19_COST_CORPUS_20261029.md). The complete-session factorization cost probe independently replays; its conservative full-refit workload exceeds the retained allowance, and scientific stability and reliability remain untested.
+
+**OPS-S15-W3-D19-COST-RECOVERY-NATIVE:** [Record](D19_COST_RECOVERY_NATIVE_20261029.md). The factorization cost instrument completes its constructed rank grid and fresh native replay after a fixed-objective iteration-limit recovery; human inference remains unadmitted.
+
+**OPS-S15-W3-D19-NATIVE-NONCONVERGENCE:** [Record](D19_NATIVE_NONCONVERGENCE_20261029.md). The factorization timing instrument stopped on constructed nonconvergence; no human factorization has run.
+
+**OPS-S15-W3-D7-COST-CORPUS:** [Record](D7_COST_CORPUS_20261029.md). The complete-writer duration timing probe independently replays; the full comparison is cost-held and scientific controls remain unfinished.
+
+**OPS-S15-W3-D7-MODEL-COST-NATIVE:** [Record](D7_MODEL_COST_NATIVE_20261029.md). The chronological duration and acceptance predictors pass constructed checks and complete native fitting replay; whole-corpus cost and scientific calibration remain separate.
+
+**OPS-S15-W3-D7-SOURCE-CORPUS:** [Record](D7_SOURCE_CORPUS_20261029.md). The complete visible-menu duration and novelty source independently replays with all prepared menus retained; the predictive comparison remains uncomputed.
+
+**OPS-S15-W3-D7-SOURCE-NATIVE:** [Record](D7_SOURCE_NATIVE_20261029.md). The visible-menu duration and novelty adapter passes constructed checks and fresh native source replay; the full source run and predictive comparison remain separate.
+
+**S15-P7-REFINEMENT24-20261029:** [Record](P7_REFINEMENT24_20261029.md). The fixed word-event refinement reproduces all prior distributions and tightens its numerical bounds, but complete point-score precision and full-corpus admission remain unmet.
+
+**OPS-S15-W3-P7-REFINEMENT-LAUNCH:** [Record](P7_REFINEMENT_LAUNCH_20261029.md). The bounded P7 refinement is running in Gear 2 after complete constructed checks; D37 is fully recorded and scientifically held, and the ready buffer remains incomplete.
+
+**S15-D37-CALIBRATION-20261029:** [Record](D37_CALIBRATION_20261029.md). In constructed worlds, the three-entry comparison fails its frozen calibration gate; the human comparison remains uncomputed and held.
+
+**OPS-S15-W3-D37-CALIBRATION-LAUNCH:** [Record](D37_CALIBRATION_LAUNCH_20261029.md). The complete D37 calibration is running in Gear 2 after measured cost admission; its human consumer is built but scientifically gated, and the wider ready buffer remains incomplete.
+
+**OPS-S15-W3-D37-RUN-NATIVE:** [Record](D37_RUN_NATIVE_20261029.md). The complete constructed reference and fresh fitting replay pass; the full D37 scientific calibration remains required before human execution.
+
+**OPS-S15-W3-D37-COST-CORPUS:** [Record](D37_COST_CORPUS_20261029.md). The complete-source D37 timing probe independently replays; the full workload has a measured forecast, while scientific calibration remains required.
+
+**OPS-S15-W3-D37-COST-NATIVE:** [Record](D37_COST_NATIVE_20261029.md). The complete-unit timing instrument independently replays on constructed data; corpus timing and full D37 admission remain separate.
+
+**OPS-S15-W3-D37-READERS-NATIVE:** [Record](D37_READERS_NATIVE_20261029.md). The separated three-entry reader passes known-answer fitting, chronology checks and fresh native replay; scientific calibration and whole-study cost admission remain unfinished.
+
+**OPS-S15-W3-D37-INPUTS-CORPUS:** [Record](D37_INPUTS_CORPUS_20261029.md). The complete three-entry source independently replays with all prepared decisions retained; fitted readers, calibration and whole-study cost admission remain unfinished.
+
+**OPS-S15-W3-D37-INPUTS-NATIVE:** [Record](D37_INPUTS_NATIVE_20261029.md). The three-entry preparation transforms pass native known-answer replay; complete human-source preparation and fitted comparison remain uncomputed.
+
+**OPS-S15-W3-HEALTH-20261029-1400:** [Record](HEALTH_20261029_1400.md). The due health inspection verifies completed records and live monitoring; the specification probe is now complete and cost-held, and research CPU slots are idle while commissioned builds remain.
+
+**OPS-S15-W3-D33-SPEC-COST:** [Record](D33_SPEC_COST_20261029.md). The complete-source specification timing probe independently replays; full inference is cost-held under the fixed follow-up allowance.
+
+**OPS-S15-W3-D33-SPEC-NATIVE:** [Record](D33_SPEC_NATIVE_20261029.md). The complete constructed specification-cost instrument independently replays; full human specification inference remains uncomputed.
+
+**S15-D33-CALIBRATION-SUPPORTED-20261029:** [Record](D33_CALIBRATION_SUPPORTED_FULL_20261029.md). The supported comparison supports a personal-history association with writing pauses after matched donor history and measured context are accounted for; the full-population and causal questions remain open.
+
+**OPS-S15-W3-D33-FULL-LAUNCH:** [Record](D33_FULL_LAUNCH_20261029.md). The full supported-history comparison is running in Gear 2 after verified cost admission; completed controls are recorded and the wider ready buffer remains incomplete.
+
+**OPS-S15-W3-D33-COST-ADMISSION:** [Record](D33_COST_ADMISSION_20261029.md). The complete-source supported-history timing probe independently replays and admits full unchanged inference within the retained Week 3 allowance.
+
+**OPS-S15-W3-D33-COST-VALIDATION:** [Record](D33_COST_VALIDATION_20261029.md). The supported-history cost instrument passes complete constructed first-block replay; corpus timing and full inference admission remain separate.
+
+**S15-DR1-CONTEXT-20261029:** [Record](DR1_CONTEXT_HUMAN_20261029.md). Session-summary style identifies writers beyond the separate independent-context reference in the original eligible reading cohort; this does not establish a directed-reading advantage.
+
+**OPS-S15-W3-DR1-CONTEXT-COST:** [Record](DR1_CONTEXT_COST_20261029.md). The complete-gallery context timing pass independently replays and admits the full registered control bank within the explicit Week 3 backlog allowance.
+
+**S15-DR1-RANKS-20261029:** [Record](DR1_RANK_SUPPLEMENT_20261029.md). A directed-reading advantage is not detected by the calibrated order-rank test; the original retrospective scope and separate identification-control obligations remain.
+
+**OPS-S15-W3-DR1-CONTEXT-VALIDATION:** [Record](DR1_CONTEXT_VALIDATION_20261029.md). The separate independent-context diagnostic passes complete known-answer validation and fresh replay; the original reading benchmark and its scope remain unchanged.
+
+**OPS-S15-W3-DR1-RANK-VALIDATION:** [Record](DR1_RANK_VALIDATION_20261029.md). The commissioned reading-order rank instrument passes its complete constructed calibration and fresh replay; human and identification-control admission remain separate.
+
+**OPS-S15-W3-WB1-H1-EFFECTS-COST-STOP:** [Record](WB1_H1_EFFECTS_COST_STOP_20261029.md). The corrected effects timing pass stopped at its CPU ceiling during independent replay; full WB1 remains cost-held and its effect result is uncomputed.
+
+**S15-TR4-H1-20261029:** [Record](TR4_H1_HUMAN_20261029.md). An adaptive handling-forecast advantage is not detected under the separately calibrated conditional-order control; this does not establish stable preferences or equivalence.
+
+**S15-TR4-H1-CALIBRATION-20261029:** [Record](TR4_H1_CALIBRATION_20261029.md). In constructed worlds, the separate conditional-order control passes its frozen null and sensitivity gates; the human comparison remains uncomputed.
+
+**OPS-S15-W3-WB1-H1-EFFECTS-COST-LAUNCH:** [Record](WB1_H1_EFFECTS_COST_LAUNCH_20261029.md). The complete provenance census is recorded and its corrected effects timing pass is running in Gear 2; full effects remain cost-gated.
+
+**OPS-S15-W3-WB1-H1-CORPUS:** [Record](WB1_H1_CORPUS_20261029.md). The complete physical-insertion census independently replays with the original eligible decisions; effect estimation and complete study cost admission remain pending.
+
+**OPS-S15-W3-CLAIM-ANCHOR-CORRECTION-20261029:** [Record](CLAIM_ANCHOR_CORRECTION_20261029.md). Three claim-source pointers are corrected to exact original headings; all findings and scientific outcomes are retained.
+
+**OPS-S15-W3-ACTIVE-CORRECTIONS-20261029:** [Record](ACTIVE_CORRECTIONS_20261029.md). Two bounded correction jobs are progressing in Gear 2 and completed records reconcile; their guarded continuations are prepared, while the eight-card ready buffer remains unmet.
+
+**OPS-S15-W3-TR4-H1-ADMISSION-RECOVERY:** [Record](TR4_H1_ADMISSION_RECOVERY_20261029.md). The conditional-order calibration stopped before its first world on a receipt-field mismatch; the validated interface correction is now running with the full frozen matrix and prior costs retained.
+
+**OPS-S15-W3-TR4-H1-COST-ADMISSION-CORRECTION:** [Record](TR4_H1_COST_ADMISSION_CORRECTION_20261029.md). The complete conditional-control calibration fits its registered cost rule and original cumulative ceiling; an extra unregistered attempt margin caused the earlier erroneous cost hold.
+
+**OPS-S15-W3-TR4-H1-COST:** [Record](TR4_H1_COST_20261029.md). The complete conditional-control timing world independently replays, but the frozen calibration does not fit the remaining original allocation; the design is cost-held.
+
+**OPS-S15-W3-TR4-H1-NATIVE:** [Record](TR4_H1_NATIVE_20261029.md). The separate conditional-order control passes exact-rank and preservation checks with fresh native replay; complete cost and calibration admission remain required.
+
+**OPS-S15-W3-VALIDITY-HEALING-LAUNCH:** [Record](VALIDITY_HEALING_LAUNCH_20261029.md). The corrected complete-source provenance rerun is active in Gear 2 with verified monitoring; recorded results reconcile, but the wider ready queue is not fully built.
+
+**OPS-S15-W3-WB1-H1-TIMING:** [Record](WB1_H1_TIMING_20261029.md). The physical-insertion timing subset independently replays, preserving eligible decisions; the complete source census remains to be verified.
+
+**OPS-S15-W3-WB1-H1-EFFECTS-NATIVE:** [Record](WB1_H1_EFFECTS_NATIVE_20261029.md). The separate effects consumer preserves known-answer windows and exact eligible retention under fresh replay; full corpus and cost admission remain required.
+
+**OPS-S15-W3-WB1-H1-NATIVE:** [Record](WB1_H1_NATIVE_20261029.md). The separate physical-insertion instrument passes known-answer checks and independent replay; complete corpus validation and effects admission remain pending.
+
+**OPS-S15-W3-FIC1-H1-CACHE-NATIVE:** [Record](FIC1_H1_CACHE_NATIVE_20261029.md). The separate context cache exactly reproduces complete constructed outputs; a consistent speedup, corpus parity and scientific admission remain unestablished.
+
+**OPS-S15-W3-HEALTH-1029-0800:** [Health inspection](HEALTH_20261029_0800.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.
+
+**OPS-S15-W3-HEALTH-1029-0155:** [Health inspection](HEALTH_20261029_0155.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.
+
 **OPS-S15-W3-DIGEST-20261028:** [Record](DIGEST_20261028.md). Completed engineering and delivery records are reconciled; no new scientific comparison is admitted, and the research queue remains idle and underbuilt.
 
 **OPS-S15-W3-HEALTH-1028-1950:** [Health inspection](HEALTH_20261028_1950.md). Monitoring and recorded landings verify; the ready queue is idle and underbuilt, with FIC1 scientific/cost admission unfinished.

@@ -1,0 +1,13 @@
+# D33 COST ADMISSION 20261029
+
+**Hypothesis.** Can the unchanged calibration-supported history comparison complete both model arms, both full reference families and fresh statistical replay within its commissioned idle-CPU budget?
+
+**METHOD.** Reconstruct and authenticate the original supported source roster, donor matches, calibration and sealed covariates. Run the complete first inference block with 200 paired writer uncertainty draws and 20 permutations from each family. Independently reconstruct the source and first block in a fresh native process. Project ten blocks from the slower per-component CPU timings, include both passes, multiply by three and add 120 seconds. Reauthenticate the earlier full constructed statistical validation. No partial scientific coefficient or probability is inspected or reported.
+
+**Found.** The complete-source supported-history timing probe independently replays and admits full unchanged inference within the retained Week 3 allowance.
+
+The measured full execution-plus-replay forecast is 1047.375000 CPU seconds. Week 3 section 6 permits the recorded projection plus 50 percent; rounding that bounded attempt up gives 1572 CPU seconds and the same wall safeguard. This probe charged 188.281250 CPU seconds. Its native validation and build reserve bring new charges to 311.031250; even new charges plus the entire full-attempt reservation fit inside 3,600 seconds. Historical 3,557.968175 wall seconds remain recorded separately and conservatively charged at twice that value in the CPU supervisor. The corresponding retained wall charges also fit. No earlier cost, support gap or failure is erased.
+
+**Means.** Admit the unchanged calibration-supported corpus comparison with all 2,000 paired writer uncertainty draws, both 200-permutation families and independent full replay. The original population and first supported-match questions remain open; selection depends only on original calibration support. This is a cost admission, not a scientific result. The old estimator and complete constructed validation are byte-authenticated. Workers exited and the counted lease is released. No new test is harvested from the operational wake. D37 remains next build priority; the ready-card buffer is still incomplete.
+
+The first launch inspection encountered a sandbox process-enumeration denial, then an overly strict check of historical packet-prefix anchors. After correcting the read-only checker, the worker had legitimately advanced to verification. Its current phase identity, source pins, counted lease, fresh progress, resources and watcher/calendar identities subsequently verified; no job was restarted. These inspection errors changed no research source or result.

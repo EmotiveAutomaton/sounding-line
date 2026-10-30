@@ -1,0 +1,15 @@
+# D33 FULL LAUNCH 20261029
+
+**Hypothesis.** Are completed results fully accounted for, and can the next commissioned CPU comparison continue under verified ownership and the existing limits?
+
+**METHOD.** Authenticate the complete measured cost admission and original constructed statistical validation, freeze the unchanged full estimator and source inputs, and launch its existing native execution/replay route in one counted CPU slot. Inspect native owner and phase child identities, CPU activity, progress freshness, lease, resource floors, source locks and terminal/disappearance registration. Reconcile claim-source anchors and watcher/calendar delivery state.
+
+**Found.** The full supported-history comparison is running in Gear 2 after verified cost admission; completed controls are recorded and the wider ready buffer remains incomplete.
+
+The complete DR1 rank and independent-context comparisons, their validation and cost records, and the D33 native and corpus cost probes have full internal write-through and event acknowledgements. Original WB1 cost failure and TR4 correction records remain. At the 13:40 PDT inspection the new D33 owner and execution child match their recorded creation identities, CPU usage is increasing, the counted lease belongs to that owner and progress is fresh. Available memory, commit and disk exceed their floors. All 21 research locks hold. The legacy main-queue log ends in September and does not describe the current native Week 3 queue.
+
+The full comparison retains both model arms, 2,000 paired writer uncertainty draws, both complete 200-permutation families and fresh reconstruction/inference replay. Its measured forecast is 1,047.375 CPU seconds; the forecast-plus-half cap is rounded to 1,572 CPU seconds with the same wall safeguard. All historical and new probe costs remain charged. No timing score is interpreted as a result. The original full-population and earlier unsupported-calibration questions remain open.
+
+**Means.** One research CPU slot is active. The eight-card ready buffer is not filled; the remaining idle capacity while commissioned builds remain is an operational defect. D37 is the next build priority, followed by P7 and the remaining ordered CPU backlog. A name in the packet does not constitute an executable card. GPU parking, paid-order and transfer gates, old scientific failures and unrelated resource holds persist. No extra agent or paid work is started. No test is harvested from the operational wake.
+
+The watcher and calendar match their native identities and have fresh heartbeats. All four terminal paths and owner disappearance are registered for immediate delivery. The independent six-hour inspection remains due at 14:00:59 PDT; ordinary result acknowledgements do not reset it. The native watcher owns waiting, with no extra ETA wake. All 199 current claim rows and 236 source anchors verify at the pre-launch-record cutoff. Scientific details remain for the final packet, with aggregate records available internally.

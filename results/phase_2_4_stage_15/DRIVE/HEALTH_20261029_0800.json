@@ -1,0 +1,63 @@
+{
+  "FIC1_S4_extension_invoked": false,
+  "FIC1_complete_cost_admission": false,
+  "FIC1_remaining_original_cpu_seconds": 3373.765625,
+  "FIC1_retained_reconstruction_only_forecast_cpu_seconds": 5188.546875,
+  "WB1_effects_return_unfulfilled": true,
+  "WB1_gap_notice_copy_hashes_verified": true,
+  "admission_mutex_available": true,
+  "at": "2026-10-29T14:57:25.841430+00:00",
+  "authorized_continuation": {
+    "card": "FIC1.h1-context-cache-native",
+    "launched_at": "2026-10-29T14:59:36.577741+00:00",
+    "monitor_sha256": "11e28e3f5a71cf6e474eb96ac736321c4018015b4834834276c1e77014e66b93",
+    "plan_sha256": "3f942bdf868da0b63c6eb4f8c254104413e3948ae2c7033df9c79af9b31ebb0f",
+    "prior_and_reserve_cpu_seconds": 3946.234375,
+    "scope": "Constructed context parity only; no human scoring"
+  },
+  "budget": [
+    {
+      "booked_cents": 1,
+      "node": "PROC",
+      "reserved_cents": 3,
+      "status": "RECONCILED"
+    }
+  ],
+  "cache_construction_reserve_cpu_seconds": 120,
+  "cache_native_cap_cpu_seconds": 300,
+  "claim_anchors_verified": 213,
+  "cost_source_sha256": {
+    "FIC1_CONSUMER_NATIVE_20261028.json": "467ca73d840bfa69f43634662f7385ae730ae220b8de65c4a6d7faeabb5f6a3d",
+    "FIC1_REASSIGNMENT_TIMING_20261027.json": "249509c345639a828920defd2403996339d7c1a57306dcf6e7a8a8b3cbc9debf"
+  },
+  "counted_cpu_leases": 0,
+  "cpu_slots": 4,
+  "disposition": "No failed service, orphaned worker, stale lease or resource shortage. The ready queue remains an implementation/admission defect. FIC1 needs complete cost assessment and an exact cheaper implementation or permissible measured cost admission before human dispatch; full scientific calibration remains required.",
+  "estimated_idle_slot_hours": 24.084074487951067,
+  "event_id": "1062d92dbf16e8886a810350",
+  "gpu_parked": true,
+  "gpu_snapshot": "12282, 8451, 0, 37.75",
+  "id": "OPS-S15-W3-HEALTH-1029-0800",
+  "inspection_interval_hours": 6.021018621987767,
+  "locks_verified": 21,
+  "new_delivery_failures": 0,
+  "no_process_recovery_needed": true,
+  "no_tests_harvested": true,
+  "prior_notification_failures_retained": 2,
+  "ready_cards": 0,
+  "ready_target": 8,
+  "recent_completions_verified": 0,
+  "recent_deadline_markers_verified": 0,
+  "recent_failures_verified": 0,
+  "recent_terminals_verified": 0,
+  "recorded_worker_slot_hours": 0.0,
+  "research_workers_active": 0,
+  "resources": {
+    "commit_headroom_GiB": 44.783390045166016,
+    "disk_free_GiB": 361.94701766967773,
+    "ram_available_GiB": 53.75694274902344
+  },
+  "scope": "Operational inspection only. Occupancy is estimated from recorded terminal wall durations, not continuous telemetry; local construction and inspection are not counted as research workers. No new research, gear, paid call or delegation.",
+  "shared_reservation_active": false,
+  "watcher_and_calendar": "Original native identities verified; fresh scans and heartbeat; actual health delivery confirmed"
+}

@@ -1,0 +1,13 @@
+# WB1 H1 EFFECTS COST STOP 20261029
+
+**Hypothesis.** Can the corrected complete effects pipeline finish a faithful timing pass and independent replay within the existing study allowance?
+
+**METHOD.** Inspect the failed native owner and both phase children, retained CPU job accounting and saved execution artifact. Authenticate every pinned input and source, establish native exit and lease release, and reconcile the attempted charge with all previous WB1 work. Apply the existing S4 doubled ceiling without resetting it. Inspect watcher delivery, empty counted research leases and resource headroom; no unfinished effect statistic is read or interpreted.
+
+**Found.** The corrected effects timing pass stopped at its CPU ceiling during independent replay; full WB1 remains cost-held and its effect result is uncomputed.
+
+**Cost and retained evidence.** Execution saved its timing artifact, but independent replay was terminated at the combined 5,000-second attempt limit. The recorded charge is 5,006.625 CPU seconds, including the supervisor's polling/termination overrun; all of it remains charged. Total WB1 charges and reserve are 16,879.359375 under the existing 21,600-second S4 ceiling, leaving 4,720.640625. The existing coverage forecast alone is 4,450.0625 seconds before complete effects work. The saved execution projection for effects is about 222,716.6 CPU seconds, excluding prior charges, this pilot and coverage. That projection is explicitly unverified because fresh replay did not finish, and it is not used to license a run or a scientific claim.
+
+**Means.** S4 is already applied once; no second doubling, continuation or cap reset is admitted. This is a cost stop, not an engineering or scientific-gate failure. Original failures, the valid full provenance census and the saved unverified timing artifact are retained. A new exact cheaper implementation would require its own frozen parity and complete cost admission within remaining authority; no reduced population or reference bank is substituted. The late encoder length warning did not cause this stop: the terminal identifies combined CPU enforcement, and execution completed before replay began.
+
+All identified workers exited and released the counted lease. No counted research job is active at inspection, so the Gear 2 research queue is idle and the eight-card buffer remains incomplete. The idle interval starts at the recorded terminal time and is an operational defect while commissioned work remains. Monitoring and the six-hour health deadline remain intact. Review the commissioned independent CPU backlog next; parked GPU, paid-order, transfer and failed-scientific-gate holds remain. No tests were harvested from this operational wake.

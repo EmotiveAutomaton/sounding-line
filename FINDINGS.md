@@ -1,5 +1,1148 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-D5-FEATURE-CORPUS
+
+**Hypothesis.** Can the commissioned writer comparison use separated human text, equal-length candidate representations and canonical process measurements without losing sessions or manufacturing evidence at source gaps?
+
+**METHOD.** Authenticate the complete D5 source and original PMAP dictionary. Tokenize each surviving human group separately; retain whole final-document and production counts as distinct channels. Construct six fixed word-length prefixes with explicit short-text support, canonical handling proportions and original timing medians. Rebuild every feature in a fresh native process. Check source bindings, all output hashes, exited worker identities and released lease.
+
+**Found.** Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.
+
+All 1,399 sessions from 61 writers are retained. Complete source-derived features and support records independently replay. Unsupported word lengths and absent timing remain explicit. The original production ledger includes later-deleted tokens and is distinct from surviving human text. All 1448 source pins and 1417 output hashes verify. Native execution and verification consumed 55.265625 CPU seconds and 68.413192 wall seconds. Cumulative D5 charge is 845.560625 of the unchanged 3,600 CPU-second probe. This retains every earlier source attempt and validation charge, the new build reserve and targeted tests. All native workers exited; the counted lease is released. No identification score or p-value is introduced.
+
+**Means.** The complete feature source is ready for the separately frozen identification consumer. Bin/matching choices, prompt-disjoint galleries, original and corrected context references, full permutation banks and scientific calibration remain unbuilt. The ready buffer remains incomplete. Other scientific, cost, GPU and paid holds persist. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete frozen identification and scientific/cost admission; preserve source and all prior holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_FEATURE_CORPUS_20261029.md.
+
+### OPS-S15-W3-D5-FEATURE-NATIVE
+
+**Hypothesis.** Can the commissioned writer comparison use separated human text, equal-length candidate representations and canonical process measurements without losing sessions or manufacturing evidence at source gaps?
+
+**METHOD.** Authenticate the complete D5 source and original PMAP dictionary. Tokenize each surviving human group separately; retain whole final-document and production counts as distinct channels. Construct six fixed word-length prefixes with explicit short-text support, canonical handling proportions and original timing medians. Rebuild every feature in a fresh native process. Check source bindings, all output hashes, exited worker identities and released lease.
+
+**Found.** The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.
+
+All thirteen targeted checks pass, including the actual completed corpus producer, corrupt-plan refusal, group boundaries, Unicode, out-of-dictionary denominators, empty text, prefix boundaries, missing timing, canonical handling and immutable reentry. Complete constructed execution and fresh replay pass. All 43 source pins and 23 output hashes verify. Native execution and verification consumed 0.515625 CPU seconds and 4.394179 wall seconds. Cumulative D5 charge is 790.295000 of the unchanged 3,600 CPU-second probe. This retains every earlier source attempt and validation charge, the new build reserve and targeted tests. All native workers exited; the counted lease is released. No identification score or p-value is introduced.
+
+**Means.** The full-source feature pass is eligible under its frozen bounded plan. Bin/matching choices, prompt-disjoint galleries, original and corrected context references, full permutation banks and scientific calibration remain unbuilt. The ready buffer remains incomplete. Other scientific, cost, GPU and paid holds persist. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.; project meaning: scoped operational record; next engineering obligation: Complete frozen identification and scientific/cost admission; preserve source and all prior holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_FEATURE_NATIVE_20261029.md.
+
+### OPS-S15-W3-D5-SOURCE-CORPUS
+
+**Hypothesis.** Can the commissioned writer comparison receive separate final text, surviving human text and process records with complete provenance and source validation?
+
+**METHOD.** Authenticate completed P2 timelines and PMAP process features, their original inputs and every source unit. Preserve exact source spans, adjacent human-only groups, separate production tokens, chronology and process records; validate UTF-16 coverage, final reconstruction and P6 token-sequence agreement. Independently rebuild every new D5 view in a fresh native process. Check all source/output hashes, complete population, ended native identities and lease release.
+
+**Found.** The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.
+
+All 1,399 prepared sessions from 61 writers are retained, with a defined provenance-based model share for every session and no surviving unknown-API characters. The source keeps 584,881 accepted and 209,570 accepted-edited model-origin codepoints, 2,007,493 typed and 445,050 prompt codepoints. Accepted-edited counts surviving original model characters, not user replacements. Prompt text, final typed groups and the production ledger remain distinct. These are source counts, not effect estimates or cognitive-contribution shares.
+
+The final implementation reuses the fully completed upstream producers and repeats all D5-specific construction, checks and serialization. It does not claim another full raw upstream reconstruction. Known-answer tests, actual producer integration, one complete raw-session comparison and exact parity with every retained payload from both stopped attempts precede this run. The original fixture and adapter corrections, the first cost-stop failure and the second clean cost pause remain recorded.
+
+All 8873 source pins and 1416 output hashes verify. Both full D5 passes consumed 127.218750 CPU seconds and 151.815886 wall seconds. Cumulative D5 charge is 643.209375 of the unchanged 3,600 CPU-second probe total. Workers exited and the counted CPU lease is released. No p-value or identification score is introduced.
+
+**Means.** The source is ready for a separately frozen identification consumer with bins, length matching, complete inherited controls, constructed calibration and measured whole-workload admission. D5 is not a completed scientific comparison. Other cost, scientific and GPU holds remain. Gear 2 is idle while remaining commissioned consumers are reviewed; the ready buffer remains incomplete. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Freeze and validate D5 identification and complete scientific/cost controls before inference.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_SOURCE_CORPUS_20261029.md.
+
+### OPS-S15-W3-D5-AUTHENTICATED-REUSE-LAUNCH
+
+**Hypothesis.** Can the next commissioned writer-comparison source run within existing CPU authority while completed results and operational failures remain fully recorded?
+
+**METHOD.** Validate the corrected adapter against the actual upstream producer and a constructed complete native replay. Pin the full source/code inventory, dispatch through the counted two-thread coordinator, verify the native owner and child creation identities, progress, resources, slot lease and all terminal watches. Reconcile the watcher outbox against completed write-through records and verify the twenty-one repository locks.
+
+**Found.** D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+The source worker is reconstructing all 1,399 sessions, using authenticated completed timeline/process features and independently rebuilt separated typed/final views. Native owner PID 66092 and execution child PID 50252 match their saved creation identities. The slot lease belongs to that owner; resource floors and monitoring are healthy. The plan pins 8873 source/code files. Execution and fresh replay share 2,400 CPU seconds; prior charged preparation is 515.990625 within the unchanged 3,600 total. The first-tenth projection may yield before the hard cap. No source completion or scientific result is claimed.
+
+The fixture and adapter corrections, original evidence, cost stop, exact-reuse parity on every retained session and all fourteen passing checks are recorded. Completed terminal notices were acknowledged only after their complete write-through. No other terminal notice is pending. The watcher and calendar retain their verified native identities; the six-hour health due time is unchanged. Two historical notification failures remain recorded and are not new failures. All twenty-one hash locks, changed-design lint and whitespace checks pass.
+
+The ready buffer still falls below two cards per each of four CPU slots. Between the previous source cost-stop terminal and this source launch, the known research pipeline was idle for at least 0.070793 slot-hours after subtracting the exact-reuse native validation runtime. This is a conservative one-slot lower bound, not a four-slot machine census; the cause is owner build/validation work and the exact-reuse build. Record the queue deficit as an operational defect. D7 and D19 retain full-workload cost holds; D36 retains its complete-P7 dependency. GPU and paid holds remain.
+
+**Means.** Let the monitored complete source preparation finish or yield at its frozen budget boundary; then perform full write-through before ACK. D5 identification, length matching, bins and scientific controls remain separate frozen builds. No new test was harvested from the operational wake. No interpretation of partial source or timing outputs is licensed.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Complete D5 source replay and write-through; freeze the identification consumer separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_AUTHENTICATED_REUSE_LAUNCH_20261029.md.
+
+### OPS-S15-W3-D5-AUTHENTICATED-REUSE-NATIVE
+
+**Hypothesis.** Can D5 reuse both completed upstream producers while preserving its complete source representation and provenance checks?
+
+**METHOD.** Reuse authenticated completed PMAP and P2 rows; retain raw source checksums, final-span/token validation and the original D5 text-view transform. Independently reconstruct every new D5 view in a fresh process; do not claim new full raw upstream reconstruction. Compare every retained complete-session payload from the cost-stopped attempt. Test the actual upstream integration, changed-plan refusal, known Unicode and separation cases, immutable reentry, cost-yield status and tamper refusal. Execute and independently verify the full constructed handler in the counted native coordinator.
+
+**Found.** The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+All fourteen targeted checks pass. All 327 retained session payloads match the unchanged transform exactly. The complete constructed native handler and fresh replay agree. The new summary explicitly labels completed process and timeline reuse rather than claiming a new raw upstream replay. The actual integration check also replays one complete raw session. Its cost-yield status uses the existing coordinator pause path, preserving the stop trigger. There is no scientific score or altered population.
+
+All 370 pins and 23 output hashes verify. Native CPU was 2.578125 seconds; wall time 4.677893. Cumulative D5 charge is 515.990625 of the unchanged 3,600 CPU-second probe allowance. This includes original failures, the cost-stopped source run and every validation invocation. All native workers exited and the slot is released. No automatic retry is planned.
+
+**Means.** Dispatch the separately frozen .h1 complete source pass within a 2,400 CPU-second combined execution/replay cap. Preserve the original first-tenth safety projection and all scientific gates. A source completion will require full independent replay before landing. D5 identification, binning, matching and scientific controls remain unbuilt. Other cost/GPU holds persist; the ready buffer remains incomplete. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.; project meaning: scoped operational record; next engineering obligation: Run full source using the exact reuse path; complete independent replay before landing.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_AUTHENTICATED_REUSE_NATIVE_20261029.md.
+
+### OPS-S15-W3-D5-EXACT-REUSE-COST-STOP
+
+**Hypothesis.** Can complete raw process re-extraction plus whole-timeline source preparation and fresh replay fit the retained D5 probe allowance?
+
+**METHOD.** Execute the frozen source build and inspect its first-tenth forecast, retained yield request, exception and native accounting. Verify all input pins, ended native identities and the released lease. Verify the declared cost-pause path.
+
+**Found.** D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+The first-tenth forecast was 3548.088839 CPU seconds including both passes and the frozen factor of two, exceeding the fixed 3,600 allowance. The runtime wrote a cost-yield request and the card returned its declared yielded state at a session boundary. The coordinator recorded PAUSED, preserving the checkpoints and scientific non-admission. There is no scientific failure or permission to increase the cap.
+
+Execution used 123.484375 CPU seconds and 131.342880 wall seconds. Cumulative charged preparation is 476.192500. All 8705 pins still match. Partial complete-session checkpoints remain, but full-source replay has not occurred. Workers exited and the lease is released.
+
+**Means.** Register a separately frozen exact source version reusing the completed whole-timeline producer as well as PMAP, with all original source authentication and identical D5 transforms. Require parity on every retained complete-session payload and a fresh D5 view-construction pass. Keep the original allowance and all charges. The two engineering corrections remain exhausted; this is a separate cost implementation, with no silent threshold or scope change. Gear 2 is idle during that validation; the ready buffer is incomplete. No test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.; project meaning: scoped operational record; next engineering obligation: Validate the separately frozen exact reuse path under unchanged cumulative allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_EXACT_REUSE_COST_STOP_20261029.md.
+
+### OPS-S15-W3-D5-EXACT-REUSE-LAUNCH
+
+**Hypothesis.** Can the next commissioned writer-comparison source run within existing CPU authority while completed results and operational failures remain fully recorded?
+
+**METHOD.** Validate the corrected adapter against the actual upstream producer and a constructed complete native replay. Pin the full source/code inventory, dispatch through the counted two-thread coordinator, verify the native owner and child creation identities, progress, resources, slot lease and all terminal watches. Reconcile the watcher outbox against completed write-through records and verify the twenty-one repository locks.
+
+**Found.** D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+The source worker is reconstructing all 1,399 sessions, including whole raw timelines, authenticated completed process features and separated typed/final sources. Native owner PID 32172 and execution child PID 164696 match their saved creation identities. The slot lease belongs to that owner; resource floors and monitoring are healthy. The plan pins 8705 source/code files. Execution and fresh replay share 2,700 CPU seconds; prior charged preparation is 352.708125 within the unchanged 3,600 total. The first-tenth projection may yield before the hard cap. No source completion or scientific result is claimed.
+
+The fixture and adapter corrections, original evidence, cost stop, exact-reuse parity on every retained session and all fourteen passing checks are recorded. Completed terminal notices were acknowledged only after their complete write-through. No other terminal notice is pending. The watcher and calendar retain their verified native identities; the six-hour health due time is unchanged. Two historical notification failures remain recorded and are not new failures. All twenty-one hash locks, changed-design lint and whitespace checks pass.
+
+The ready buffer still falls below two cards per each of four CPU slots. Between the previous source cost-stop terminal and this source launch, the known research pipeline was idle for at least 0.094263 slot-hours after subtracting the exact-reuse native validation runtime. This is a conservative one-slot lower bound, not a four-slot machine census; the cause is owner build/validation work and the exact-reuse build. Record the queue deficit as an operational defect. D7 and D19 retain full-workload cost holds; D36 retains its complete-P7 dependency. GPU and paid holds remain.
+
+**Means.** Let the monitored complete source preparation finish or yield at its frozen budget boundary; then perform full write-through before ACK. D5 identification, length matching, bins and scientific controls remain separate frozen builds. No new test was harvested from the operational wake. No interpretation of partial source or timing outputs is licensed.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Complete D5 source replay and write-through; freeze the identification consumer separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_EXACT_REUSE_LAUNCH_20261029.md.
+
+### OPS-S15-W3-D5-EXACT-REUSE-NATIVE
+
+**Hypothesis.** Can D5 avoid repeating already verified process extraction while preserving the source representation and raw text-provenance checks?
+
+**METHOD.** Reuse authenticated completed PMAP rows; retain raw whole-timeline reconstruction, final-span/token validation and the original text-view transform. Compare every retained complete-session payload from the cost-stopped attempt. Test the actual upstream integration, changed-plan refusal, known Unicode and separation cases, immutable reentry, cost-yield status and tamper refusal. Execute and independently verify the full constructed handler in the counted native coordinator.
+
+**Found.** The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.
+
+All fourteen targeted checks pass. All 160 retained session payloads match the unchanged transform exactly. The complete constructed native handler and fresh replay agree. The new summary explicitly labels completed process reuse rather than claiming a new raw process-feature replay. Its cost-yield status uses the existing coordinator pause path, preserving the stop trigger. There is no scientific score or altered population.
+
+All 202 pins and 23 output hashes verify. Native CPU was 2.484375 seconds; wall time 4.513598. Cumulative D5 charge is 352.708125 of the unchanged 3,600 CPU-second probe allowance. This includes original failures, the cost-stopped source run and every validation invocation. All native workers exited and the slot is released. No automatic retry is planned.
+
+**Means.** Dispatch the separately frozen .h1 complete source pass within a 2,700 CPU-second combined execution/replay cap. Preserve the original first-tenth safety projection and all scientific gates. A source completion will require full independent replay before landing. D5 identification, binning, matching and scientific controls remain unbuilt. Other cost/GPU holds persist; the ready buffer remains incomplete. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate.; project meaning: scoped operational record; next engineering obligation: Run full source using the exact reuse path; complete independent replay before landing.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_EXACT_REUSE_NATIVE_20261029.md.
+
+### OPS-S15-W3-D5-SOURCE-COST-STOP
+
+**Hypothesis.** Can complete raw process re-extraction plus whole-timeline source preparation and fresh replay fit the retained D5 probe allowance?
+
+**METHOD.** Execute the frozen source build and inspect its first-tenth forecast, retained yield request, exception and native accounting. Verify all input pins, ended native identities and the released lease. Distinguish the actual cost trigger from the wrapper's generic engineering failure label.
+
+**Found.** D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+
+The first-tenth forecast was 5724.658036 CPU seconds including both passes and the frozen factor of two, exceeding the fixed 3,600 allowance. The runtime wrote a cost-yield request; the card raised InterruptedError at a session boundary. Its generic wrapper then wrote an engineering-labelled FAILED terminal. The yield marker and exception establish a cost stop; the original terminal is retained, not relabelled in place. There is no scientific failure or permission to increase the cap.
+
+Execution used 176.156250 CPU seconds and 187.153484 wall seconds. Cumulative charged preparation is 318.389750. All 8544 pins still match. Partial complete-session checkpoints remain, but full-source replay has not occurred. Workers exited and the lease is released.
+
+**Means.** Register a separate cheaper exact source implementation under .h1: reuse authenticated completed PMAP process rows rather than repeat the already validated raw process extraction, retain fresh raw whole-timeline replay and identical text/source transforms, and require parity on every retained completed session. Keep the original allowance and all charges. The two engineering corrections remain exhausted; this is a separate cost implementation, with no silent threshold or scope change. Gear 2 is idle during that validation; the ready buffer is incomplete. No test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.; project meaning: scoped operational record; next engineering obligation: Validate the separately frozen exact reuse path under unchanged cumulative allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_SOURCE_COST_STOP_20261029.md.
+
+### OPS-S15-W3-D5-SOURCE-LAUNCH
+
+**Hypothesis.** Can the next commissioned writer-comparison source run within existing CPU authority while completed results and operational failures remain fully recorded?
+
+**METHOD.** Validate the corrected adapter against the actual upstream producer and a constructed complete native replay. Pin the full source/code inventory, dispatch through the counted two-thread coordinator, verify the native owner and child creation identities, progress, resources, slot lease and all terminal watches. Reconcile the watcher outbox against completed write-through records and verify the twenty-one repository locks.
+
+**Found.** D5 complete-source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.
+
+The source worker is reconstructing all 1,399 sessions, including whole raw timelines, complete process-feature equality and separated typed/final sources. Native owner PID 129700 and execution child PID 124196 match their saved creation identities. The slot lease belongs to that owner; resource floors and monitoring are healthy. The plan pins 8544 source/code files. Execution and fresh replay share 3,000 CPU seconds; prior charged preparation is 142.233500 within the unchanged 3,600 total. The first-tenth projection may yield before the hard cap. No source completion or scientific result is claimed.
+
+The fixture correction and upstream receipt-schema correction, original evidence, both constructed native runs and all thirteen passing recovery checks are recorded. Both terminal notices were acknowledged only after their complete write-through. No other terminal notice is pending. The watcher and calendar retain their verified native identities; the six-hour health due time is unchanged. Two historical notification failures remain recorded and are not new failures. All twenty-one hash locks, changed-design lint and whitespace checks pass.
+
+The ready buffer still falls below two cards per each of four CPU slots. Between the previous cost terminal and this source launch, the known research pipeline was idle for at least 0.324250 slot-hours after subtracting both constructed native runtimes. This is a conservative one-slot lower bound, not a four-slot machine census; the cause is owner build/validation work and two fixture/adapter corrections. Record the queue deficit as an operational defect. D7 and D19 retain full-workload cost holds; D36 retains its complete-P7 dependency. GPU and paid holds remain.
+
+**Means.** Let the monitored complete source preparation finish or yield at its frozen budget boundary; then perform full write-through before ACK. D5 identification, length matching, bins and scientific controls remain separate frozen builds. No new test was harvested from the operational wake. No interpretation of partial source or timing outputs is licensed.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; D5 complete-source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Complete D5 source replay and write-through; freeze the identification consumer separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_SOURCE_LAUNCH_20261029.md.
+
+### OPS-S15-W3-D5-SOURCE-RECOVERY-NATIVE
+
+**Hypothesis.** Can the source adapter consume the actual completed process record while retaining exact provenance checks and fresh replay?
+
+**METHOD.** Change only the plan-checksum lookup to the producer's actual authenticated output map. Validate the real complete-source loader and one complete raw session, refuse a changed plan, and rerun all provenance and handler checks. Exercise the complete constructed handler and independent replay in the counted native coordinator. Verify every source/output hash, native exit and released CPU lease.
+
+**Found.** The separate source adapter authenticates the actual upstream receipt and passes complete constructed native replay; full-corpus preparation and writer identification remain separate.
+
+All thirteen targeted checks pass, including the real producer-consumer boundary and one complete raw-session integration check. The original and successor source modules differ only in the upstream checksum lookup. The constructed handler reproduces every saved source field in a fresh native process. The original fixture failure, original module and first native completion remain retained; neither tested the real loader. This is source validation, not an identification result.
+
+All 41 plan pins and 23 output hashes verify. Native CPU was 2.031250 seconds and wall time 4.367393 seconds. Cumulative D5 charge is 142.233500 of the fixed 3,600 CPU-second probe ceiling, including all original/recovery tests and native passes. The second engineering correction is used; no further automatic engineering retry remains. Workers exited and the CPU lease is released.
+
+**Means.** Dispatch complete source preparation and independent replay within the retained 3,000 CPU-second attempt limit. Source support, identification models, length matching, bins, inherited controls and scientific calibration remain separate admissions. Gear 2 remains authorized, GPU parked and the wider ready buffer incomplete. Preserve D7/D19 full-workload holds and D36's whole-P7 dependency. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate source adapter authenticates the actual upstream receipt and passes complete constructed native replay; full-corpus preparation and writer identification remain separate.; project meaning: scoped operational record; next engineering obligation: Run full D5 source preparation; freeze the scientific comparison separately.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_SOURCE_RECOVERY_NATIVE_20261029.md.
+
+### OPS-S15-W3-D5-SOURCE-NATIVE
+
+**Hypothesis.** Can the source for the writer comparison distinguish surviving human text, surviving model text and production/process records without conflating their origins?
+
+**METHOD.** Test exact Unicode provenance, separate contiguous typed groups, explicit missing shares, immutable reentry, changed-source refusal and boundary yield. Run the full source handler on a constructed raw log and repeat it in a fresh native process. Inspect the actual completed upstream receipt before corpus dispatch, and authenticate all pins, outputs, native exits and lease release.
+
+**Found.** The separated text-source transforms pass constructed native replay; actual upstream receipt inspection found a schema mismatch, so corpus dispatch remains held.
+
+All eleven targeted checks pass after one fixture-only correction: two original checks lacked the menu field required by the retained timeline replay. The failed XML and original test source remain. The complete constructed handler then independently reproduced all saved outputs. This establishes the transforms and handler path, not the unexercised real-source loader.
+
+The real PMAP terminal has no top-level plan checksum; it authenticates PLAN.json in its output map. The new adapter incorrectly expected the former schema. That defect was identified by reading the actual receipt before any corpus dispatch. It is the second engineering correction, leaving the plan hash requirement and source bytes unchanged. Preserve this native attempt and source capsule; validate a separate adapter version against the actual producer and a corrupted checksum before corpus admission. No human preparation or identification has run.
+
+All 40 source pins and 23 output hashes verify. Native CPU was 1.906250 seconds; wall time was 4.384500 seconds. Cumulative charge is 126.200250 of the fixed 3,600 CPU-second probe ceiling, including both test invocations and the build reserve. Workers exited and the CPU lease is released. No p-value or scientific outcome is introduced.
+
+**Means.** Correct only the upstream plan binding in a separate source version and validate the producer-consumer boundary before dispatch. No further automatic engineering retry remains. D7 and D19 full-workload holds, D36's whole-P7 dependency and the GPU pause persist. Gear 2 remains idle during this build; the ready buffer remains incomplete. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separated text-source transforms pass constructed native replay; actual upstream receipt inspection found a schema mismatch, so corpus dispatch remains held.; project meaning: scoped operational record; next engineering obligation: Validate the separately corrected upstream receipt binding before complete source dispatch.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_SOURCE_NATIVE_20261029.md.
+
+### OPS-S15-W3-D19-COST-CORPUS
+
+**Hypothesis.** Can the exploratory process/content factorization and its proposed full-resampling workload fit the commissioned CPU probe allowance?
+
+**METHOD.** Authenticate every completed PMAP session, retain all sessions and explicit missingness, transform process features and signed suggestion-content vectors into the frozen nonnegative blocks, and fit every rank from five through fifteen on the full matrix and one whole-writer resample. In a fresh native process reconstruct the source matrix and refit every saved factor array. Measure complete-fit time and bytes, then extrapolate the stated full-refit accounting envelope without interpreting partial components.
+
+**Found.** The complete-session factorization cost probe independently replays; its conservative full-refit workload exceeds the retained allowance, and scientific stability and reliability remain untested.
+
+All 1,399 sessions from 61 writers remain in the matrix, with 26 process/missingness coordinates and 1,536 signed content coordinates. All twenty-two fits complete and independently reproduce their full factor arrays exactly. Content represents accepted suggestions and dismissed menus, not final-document semantics. The completed timing fits are not a component-stability estimate or evidence identifying drives, goals or reusable psychological parts.
+
+The conservative envelope is 802268.343750 CPU seconds, covering both passes, 2,000 full stability refits and 1,000 full-refit reliability references for every rank, with a factor of three and reporting allowance. That envelope exceeds the retained 3,600 CPU-second probe ceiling. It is not a measured runtime for an implemented full analysis: the reference, stability and scientific-gate consumers remain unfinished. In particular, a later exact design may avoid invariant refits, but no saving is claimed or silently substituted here. The frozen byte projection is 7348149567 for retained factor matrices alone, before auxiliary records.
+
+All 1430 pins and 62 output hashes verify. Execution and fresh replay consumed 65.890625 CPU seconds and 47.521252 wall seconds. Cumulative D19 charge is 245.820500, including the original fixture assertion correction, native nonconvergence, separate iteration-limit recovery, every test and the build reserve. Native owner and phase children exited and the CPU lease is released. The attempted live-status record refused after this terminal appeared and wrote no running claim. No p-value is introduced.
+
+**Means.** Preserve all successful source/factor outputs and original failures. Hold the proposed full workload pending a separately frozen executable design and measured admission; no additional automatic engineering retry is available. D7 remains cost-held and D36 retains its whole-P7 dependency. D5 is the next independent commissioned build; D10 remains GPU-held and V4.c's supplemental reference remains backlog. Gear 2 remains authorized, with research slots idle during the next build and the ready buffer incomplete. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-session factorization cost probe independently replays; its conservative full-refit workload exceeds the retained allowance, and scientific stability and reliability remain untested.; project meaning: scoped operational record; next engineering obligation: Preserve D19 full-workload hold and build the next commissioned D5 source.; public scientific claim unchanged; curator decision required: No new decision. Detail: D19_COST_CORPUS_20261029.md.
+
+### OPS-S15-W3-D19-COST-RECOVERY-NATIVE
+
+**Hypothesis.** Can the separate iteration-limit recovery complete the entire constructed factorization workload without changing its mathematical objective or source representation?
+
+**METHOD.** Retain the original failed module and compare the recovery bytes, allowing only the iteration limit to change from 1,000 to 5,000. Re-run the five targeted checks under two-thread numerical limits. In a counted native process reconstruct the source features and fit every rank from five through fifteen, both unchanged and with whole-writer resampling. Independently reconstruct and refit every saved matrix and factor array in a fresh process; authenticate all pins, outputs, process exits and lease release.
+
+**Found.** The factorization cost instrument completes its constructed rank grid and fresh native replay after a fixed-objective iteration-limit recovery; human inference remains unadmitted.
+
+The whole constructed grid completes: twenty-two fits in execution and twenty-two in independent verification, with exact saved-factor agreement. The known nonnegative mixture reconstructs at its fixed numerical tolerance. All five targeted checks pass, including sign splitting, explicit missing flags, whole-writer sampling, changed-output refusal and yield. Only the optimizer iteration limit changed; initialization, seed, objective, tolerance, ranks and feature definitions are unchanged. This is numerical/source validation, not a measured human recipe or a scientific calibration result.
+
+All 30 pins and 64 output hashes verify. The native attempt consumed 8.859375 CPU seconds and 12.394213 wall seconds. Cumulative D19 charge is 179.929875 of the fixed 3,600 CPU-second probe allowance, retaining both earlier test invocations, the fixture correction, native nonconvergence, recovery tests and build reserve. The owner and both phase children exited; the CPU slot is released. Correction two is used; no further automatic healing retry is available for a subsequent failure.
+
+**Means.** Dispatch the bounded full-session cost probe under the same model/source contract. Component stability, writer-loading reliability and scientific controls remain to be implemented and admitted after its measured forecast. D7 remains cost-held, D36 retains its full-P7 dependency, and all other scientific, source, paid and GPU holds persist. The wider ready buffer remains incomplete. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The factorization cost instrument completes its constructed rank grid and fresh native replay after a fixed-objective iteration-limit recovery; human inference remains unadmitted.; project meaning: scoped operational record; next engineering obligation: Run the bounded complete-source timing probe; build scientific controls only after measured admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: D19_COST_RECOVERY_NATIVE_20261029.md.
+
+### OPS-S15-W3-D19-NATIVE-NONCONVERGENCE
+
+**Hypothesis.** Can the exploratory factorization cost instrument complete its frozen rank grid and fresh replay under the actual counted native runtime?
+
+**METHOD.** Run the complete constructed source and rank-grid handler under the two-thread native coordinator, requiring convergence at the unchanged tolerance before saving each fit. Inspect the retained exception, source pins, native exit and CPU lease. Compare this outcome with the retained targeted test records.
+
+**Found.** The factorization timing instrument stopped on constructed nonconvergence; no human factorization has run.
+
+The execution child reached the 1,000-iteration solver limit, raised the required convergence warning and stopped before independent verification. This is an engineering/nonconvergence failure on a constructed fixture, not a null or a human result. The prior test invocation also retained one erroneous expectation that a present missing-data flag be zero; correcting that assertion left the feature algorithm unchanged and all five targeted tests then passed. Those tests did not establish completion under the native runtime. All failed evidence remains.
+
+All 29 plan pins verify at inspection. Native owner and execution child exited; the slot is released. The attempt consumed 1.812500 CPU seconds, bringing cumulative D19 charges to 154.898500 of the fixed 3,600 CPU-second probe ceiling. No new CPU allowance is created.
+
+**Means.** Preserve this failed version and test one separate optimizer recovery with only the iteration limit increased to 5,000. Keep the objective, initialization, seed, tolerance, complete rank grid and constructed/human source definitions fixed. This is the second recorded engineering correction after the fixture assertion correction; no further automatic healing attempt follows if it fails. Scientific stability/reliability gates remain unfinished. No human component or p-value exists. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The factorization timing instrument stopped on constructed nonconvergence; no human factorization has run.; project meaning: scoped operational record; next engineering obligation: Validate the separate fixed-objective iteration-limit recovery; retain all failed evidence.; public scientific claim unchanged; curator decision required: No new decision. Detail: D19_NATIVE_NONCONVERGENCE_20261029.md.
+
+### OPS-S15-W3-D7-COST-CORPUS
+
+**Hypothesis.** Can the complete duration comparison, all declared settings, both reference banks and constructed calibration fit its retained CPU allowance?
+
+**METHOD.** Authenticate the fully landed source, census every writer for strict chronological and observed-duration support, and time complete penalty selection, fitting, prediction and loss aggregation for the five largest supported writers. Run all six response/cost combinations with unchanged and two jointly shuffled duration/acceptance arrays. Repeat all writers of one fixed constructed world. Reconstruct all saved fits in a fresh native process. Project both full passes using the slower observed complete-writer cost, all reference arms, thirty calibration worlds and the frozen factor of three.
+
+**Found.** The complete-writer duration timing probe independently replays; the full comparison is cost-held and scientific controls remain unfinished.
+
+The full source contains 16,855 menus. The timing census retains 38 supported writers and explicitly excludes 23 for its predeclared session, chronology or observed-menu requirements. All five selected human writer units and all twelve constructed writers complete the three arms and six settings, with every saved fit reproduced. Their partial gains are timing artifacts and are not interpreted or reported as a scientific result.
+
+The complete forecast is 25682.250000 CPU seconds: 11788.500000 for the human reference workload and 13893.750000 for constructed calibration, including both passes, reporting allowance and the frozen safety factor. This exceeds the retained 3,600 CPU-second no-projection probe allowance. The reference and scientific-gate code is still unfinished; the forecast is an accounting envelope, not scientific admission or a claim that all cards are executable.
+
+All 1451 pins and 19 output hashes verify. The attempt used 6.875000 CPU seconds and 9.528274 wall seconds. Cumulative D7 charge is 344.676250, retaining all source/model preparation, native validation and test costs. All native workers exited and the counted CPU lease is released. No p-value or human effect is introduced.
+
+**Means.** Retain D7's cost hold and all completed source/model evidence. A cheaper exact implementation would require a separately frozen successor with parity validation, not relaxing this forecast or selectively dropping controls. D36, the next commissioned card, still requires the whole P7 source pass; the completed precision diagnostic does not supply it, so that source hold remains. D19 is the next independent build, followed by D5 and the remaining backlog. Gear 2 remains authorized; research slots are idle during preparation and the eight-card ready buffer is incomplete. GPU parking and scientific/source/paid holds remain. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-writer duration timing probe independently replays; the full comparison is cost-held and scientific controls remain unfinished.; project meaning: scoped operational record; next engineering obligation: Retain D7 cost and D36 source holds; build the next independent commissioned D19 instrument.; public scientific claim unchanged; curator decision required: No new decision. Detail: D7_COST_CORPUS_20261029.md.
+
+### OPS-S15-W3-D7-MODEL-COST-NATIVE
+
+**Hypothesis.** Can the commissioned duration comparison be implemented without test-response leakage, incorrect binary scoring or an incomplete timing unit?
+
+**METHOD.** Check signed planted novelty, exact constant-response equality, held-out response mutation, training-only feature transformation, session weighting, binary half-Brier arithmetic, censoring, support and strict chronology. Exercise the real complete cost handler with all six response/cost settings, full penalty selection and scoring, immutable reentry, changed-output refusal and resource yield. Reconstruct the known-answer cases and every saved fit in a separate native process; authenticate pins, outputs, exit and lease release.
+
+**Found.** The chronological duration and acceptance predictors pass constructed checks and complete native fitting replay; whole-corpus cost and scientific calibration remain separate.
+
+All ten combined targeted checks pass. The complete native handler and independent fresh fitting replay agree. Both signs of planted novelty improve prediction in the constructed check; constant responses yield exact zero gain. These are engineering checks, not the full scientific calibration or a human effect. Binary half-Brier is half the sum of errors over both classes, equivalently squared error of the acceptance probability.
+
+The duration baseline conditions on eventual acceptance and the separate acceptance comparison uses completed visible duration. Both are explicitly retrospective completed-event associations, not predictions available when a menu opens. Only observed durations enter these fits; censored rows remain in the source and support census. The embedding novelty channel is implemented; Q1/Q2 are still unavailable. The six settings cross duration/acceptance with no cost term, menu ordinal or elapsed time.
+
+All 33 source pins and 21 output hashes verify; native owner and phase children exited and released the CPU slot. The attempt consumed 1.203125 CPU seconds and 4.363472 wall seconds. Cumulative D7 charge is 337.801250 of the fixed 3,600 CPU-second probe ceiling, including earlier preparation, an additional 120-second model-build reserve and twice every targeted test invocation. No failed attempt or prior charge is removed.
+
+**Means.** Run the separately bounded complete-source timing probe. The timing envelope includes both full reference banks and thirty calibration worlds, but the scientific gates and reference implementation still require freezing and validation; a cost forecast cannot admit an unfinished analysis. Gear 2, parked GPU and all existing holds persist. The ready buffer remains incomplete. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The chronological duration and acceptance predictors pass constructed checks and complete native fitting replay; whole-corpus cost and scientific calibration remain separate.; project meaning: scoped operational record; next engineering obligation: Run complete-source cost probe, then freeze full controls and calibration before human execution.; public scientific claim unchanged; curator decision required: No new decision. Detail: D7_MODEL_COST_NATIVE_20261029.md.
+
+### OPS-S15-W3-D7-SOURCE-CORPUS
+
+**Hypothesis.** Can the original writing logs supply reproducible visible-menu duration and choice-independent novelty for the commissioned duration comparison?
+
+**METHOD.** Reconstruct every prepared menu's visibility episodes from authenticated raw logs and provenance records, require exact equality with the earlier D6 extraction, and calculate each offered option's distance from its pre-opening context using pinned unit content vectors. Preserve censored durations, later handling, menu size and pre-opening session time separately. Reconstruct the complete source in a fresh native process and verify every plan and output hash, native exit and counted lease release.
+
+**Found.** The complete visible-menu duration and novelty source independently replays with all prepared menus retained; the predictive comparison remains uncomputed.
+
+All 16,855 menus in 1,399 sessions from 61 writers are retained. Duration is observed for 16,719 menus and censored for 136; no censored endpoint is treated as zero duration. Handling counts are 9,553 accepted unchanged, 3,128 edited, 4,038 dismissed and 136 ignored. No reopened menu appears in this complete source; the constructed reopening tests remain necessary checks of the adapter. Every reconstructed visibility record agrees exactly with D6. All offered options contribute to novelty, independent of which is subsequently selected.
+
+These are source coverage and replay results. Visible-menu duration does not identify gaze, separate attention to an option, trust, information gain or fatigue. The embedding distance is a dissimilarity measure, not observed information gain. No fitted effect, p-value or scientific gate has been calculated.
+
+All 48 plan pins and 1417 output hashes verify. Owner and phase children have exited and the CPU lease is released. Execution and fresh replay used 83.593750 CPU seconds and 109.537533 wall seconds, within the 600 CPU-second and 900 wall-second caps. Cumulative D7 preparation charge is 210.694125 of the fixed 3,600 CPU-second no-projection probe ceiling, leaving 3389.305875. The first-tenth projection covered source reconstruction and replay only; it is not a full statistical workload forecast.
+
+The prior attempted launch record correctly refused to write a live status after this terminal had appeared; no launch claim was written. The interval from P7's completion to D7's source dispatch, subtracting constructed validation occupancy, incurred 0.854371 idle slot-hours across four slots during write-through and build. The wider eight-card ready buffer remains incomplete, a recorded operational deficit. All P7 results and its unmet full-corpus admission are retained.
+
+**Means.** Build and freeze D7's prospective versus retrospective predictors, held-out losses, inherited references, complete constructed calibration and whole-study cost before admitting its human comparison. Gear 2 remains authorized, with research slots idle during that build. D36, D19, D5, D10 and V4.c remain ordered backlog. GPU parking and all other scientific, source, cost and paid holds persist. No new test was harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete visible-menu duration and novelty source independently replays with all prepared menus retained; the predictive comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Build, calibrate and cost D7 prediction before scientific dispatch.; public scientific claim unchanged; curator decision required: No new decision. Detail: D7_SOURCE_CORPUS_20261029.md.
+
+### OPS-S15-W3-D7-SOURCE-NATIVE
+
+**Hypothesis.** Can D7 prepare recorded menu duration and pre-opening novelty without mistaking hidden time for exposure, missing timing for zero, or later choice for predecision information?
+
+**METHOD.** Exercise known-answer visible close/reopen/select episodes, censored endings, orthogonal and identical content vectors, choice-independent novelty, malformed clocks/joins/vectors, immutable reentry, changed-output refusal and resource-boundary yield. Run the complete preparation handler on a constructed source and reconstruct it in a fresh counted native process. Authenticate every source/output hash, process exit and CPU lease release.
+
+**Found.** The visible-menu duration and novelty adapter passes constructed checks and fresh native source replay; the full source run and predictive comparison remain separate.
+
+All ten targeted checks pass. The complete native constructed handler and independent replay agree, including the real serialization and reentry paths. All 38 plan pins and 22 output hashes verify. Native owner and both phase children exited; the counted CPU slot is released. The attempt used 3.234375 CPU seconds and 8.377215 wall seconds. Cumulative preparation charge is 127.100375 of D7's fixed 3,600 CPU-second no-projection probe allowance, retaining the build reserve and test time.
+
+The source is menu visibility duration, not gaze or independently timed attention on each suggestion. All offered options contribute to the context-distance feature; later acceptance stays a separate observed outcome. Hidden intervals are excluded and censored episodes retained explicitly. These are numerical/source checks, with no p-value or human effect.
+
+**Means.** Dispatch the complete authenticated raw-log reconstruction and independent replay under its 600 CPU-second attempt limit. Freeze and validate the subsequent predictor, full controls and whole-study cost separately. No scientific admission or mechanism claim follows. Gear 2 remains authorized, GPU parked and other holds unchanged. The ready buffer remains incomplete. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The visible-menu duration and novelty adapter passes constructed checks and fresh native source replay; the full source run and predictive comparison remain separate.; project meaning: scoped operational record; next engineering obligation: Complete source reconstruction, then build and calibrate D7 prediction with inherited controls before scientific dispatch.; public scientific claim unchanged; curator decision required: No new decision. Detail: D7_SOURCE_NATIVE_20261029.md.
+
+### S15-P7-REFINEMENT24-20261029
+
+**Hypothesis.** Can a larger fixed prefix budget resolve the same word-event probabilities without changing the event, its context or the required numerical precision?
+
+**METHOD.** Run the frozen four first/last diagnostic word events with a maximum of twenty-four expanded prefixes, preserving the twelve-prefix predecessor's pinned GPT-2 medium, CPU float32 evaluation, canonical histories and crop, observed-overlap conditioning, casefolded word event and 0.0001-nat precision. Reconstruct the source and every full-vocabulary distribution in a fresh native replay. Compare all earlier saved distributions byte for byte, all event definitions and every probability enclosure against the predecessor. Check all frozen source/output hashes and native exit/lease release.
+
+**Found.** The fixed word-event refinement reproduces all prior distributions and tightens its numerical bounds, but complete point-score precision and full-corpus admission remain unmet.
+
+The full fixed diagnostic is complete. Seventy-one distinct native distributions per pass reproduce in fresh evaluation, and all forty-two predecessor distributions remain byte-identical. All four event definitions are unchanged. Every numerator, denominator and conditional probability interval is nested within its previous interval. Two events meet the frozen precision; two remain unresolved. This is numerical validation on the fixed pilot events, not a human comparative result or a full-corpus forecast.
+
+Table: rows identify the four fixed diagnostic positions without publishing text or identity. Forward counts are predecessor / refinement native evaluations. Width is the upper minus lower negative-log-probability bound in nats; unbounded means a zero probability lower bound still prevents a finite upper log-loss bound. Precision requires width at most 0.0001 nat.
+
+| Fixed diagnostic ordinal | Native forwards, old / new | Old log-width | New log-width | Precision met |
+|---:|---:|---:|---:|---|
+| 1 | 12 / 24 | 0.003758572146 | 0.002752193876 | no |
+| 2 | 6 / 6 | 0.000080485789 | 0.000080485789 | yes |
+| 3 | 12 / 24 | Unbounded | Unbounded | no |
+| 4 | 12 / 17 | 0.000233361701 | 0.000091041745 | yes |
+
+No unresolved frontier or context-limited probability mass is set to zero, replaced by a midpoint or removed by dropping a target. In particular, an unbounded log interval is unresolved numerical precision, not a measured zero probability. The intervals and original failed admission remain retained. No p-value is introduced.
+
+All 284 source pins and 92 output hashes verify. Both native phases and the owner have exited; the counted CPU lease is released. The attempt used 661.500000 CPU seconds and 251.175755 wall seconds, below its 1,200 CPU-second and 900 wall-second caps. The conservative cumulative charge is 2423.964293 of the fixed 3,600 CPU seconds, leaving 1176.035707. This preserves twice the legacy diagnostic wall time, the build reserve and both retained test invocations. The earlier temporary-directory setup errors remain recorded; the unchanged tests passed on a fresh workspace temporary root. No failed run or cost is erased.
+
+**Means.** Full point scoring and full-corpus execution remain unadmitted. This completed bounded capacity refinement does not open automatic descendants or authorize spending the remaining allowance on a changed event or wider search. Preserve it for a separately frozen admission decision. Next commissioned build is D7, followed by D36, D19, D5, D10 and V4.c in the backlog order. Research slots are idle during that build; the eight-card ready buffer remains incomplete, an operational deficit. Gear 2 remains authorized; GPU parking, D37's scientific hold and all other source, scientific, cost and paid holds remain. No new test was harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The fixed word-event refinement reproduces all prior distributions and tightens its numerical bounds, but complete point-score precision and full-corpus admission remain unmet.; project meaning: scoped operational record; next engineering obligation: Retain P7 full-corpus hold and build the next commissioned D7 card within its existing CPU admission limits.; public scientific claim unchanged; curator decision required: No new decision. Detail: P7_REFINEMENT24_20261029.md.
+
+### OPS-S15-W3-P7-REFINEMENT-LAUNCH
+
+**Hypothesis.** Can the next commissioned word-probability refinement proceed with preserved evidence, unchanged numerical meaning and a bounded CPU allocation?
+
+**METHOD.** Authenticate the complete twelve-prefix predecessor and its source pins. Copy the numerical handler immutably, changing only the fixed prefix capacity to twenty-four; require equal function/import syntax trees and unchanged probability precision, contexts and target selection. Exercise complete constructed execution, fresh replay, reentry, mutation refusal and resource yield. Verify production source admission, native ownership, counted lease, resources and terminal/disappearance registration before accepting the launch.
+
+**Found.** The bounded P7 refinement is running in Gear 2 after complete constructed checks; D37 is fully recorded and scientifically held, and the ready buffer remains incomplete.
+
+Three targeted checks pass. The initial test invocation had two temporary-directory setup errors before the affected test bodies ran; its XML and charge remain retained. The same unchanged tests pass with a fresh workspace temporary root. This is environmental setup recovery, not a model or estimator repair. Every prior native distribution must be reproduced and all probability bounds must remain nested at landing. No partial word score or human comparison is interpreted.
+
+The new probe forecasts 943 CPU seconds and has a 1,200 CPU-second attempt cap plus a 900-second safety wall cap. Prior conservative charges are 1762.464293 CPU seconds, including twice the legacy wall-second diagnostic total, a 120-second build reserve and twice both new test durations. The fixed cumulative probe ceiling is 3,600 CPU seconds. No full common-event corpus projection or scientific admission is supplied by the old token-loss timings.
+
+The verified launch occupies one of four CPU slots with two numerical threads. The native owner is identified by PID and creation time in the aggregate operational receipt. D37 completed all calibration and fresh replay; its human consumer remains held by the unchanged failed scientific gate. The idle interval from D37's terminal to this launch accounts for 0.482948 unused slot-hours across four slots, caused by calibration write-through and the next-card build. This is a recorded capacity deficit while commissioned work remains.
+
+**Means.** Complete and record P7's fixed diagnostic before any larger dispatch. D7, D36, D19, D5, D10 and V4.c remain ordered backlog rather than ready executables. The eight-card target is unmet. Existing GPU, paid, source and scientific/cost holds remain. Watcher/calendar health and immediate terminal delivery verify; the six-hour health deadline is unchanged and no ETA wake is added. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The bounded P7 refinement is running in Gear 2 after complete constructed checks; D37 is fully recorded and scientifically held, and the ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Fully land the fixed P7 diagnostic, then continue the commissioned backlog without bypassing scientific or cost admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: P7_REFINEMENT_LAUNCH_20261029.md.
+
+### S15-D37-CALIBRATION-20261029
+
+**Hypothesis.** Can the three-entry forecasting comparison distinguish complementary page, person and process evidence from worlds without that complementarity?
+
+**METHOD.** Run the frozen thirty-world matrix: ten common uniform worlds, ten page-only worlds and ten complementary worlds. Each uses eight writers, twelve chronological sessions per writer and eight menus per session. Fit all three readers and choose their combination on the prescribed chronological calibration sessions. Compute the primary and all 200 within-writer outcome references, rebuilding histories and fits each time, with 2,000 writer bootstrap draws. Repeat every fitted arm in a fresh native process. Authenticate every pinned source and output hash, terminal identity and released CPU lease.
+
+**Found.** In constructed worlds, the three-entry comparison fails its frozen calibration gate; the human comparison remains uncomputed and held.
+
+Table: counts are licensed positives in the two no-complementarity groups and useful licensed detections in the complementary group. Intervals are exact binomial 95% intervals for the corresponding finite-world rate.
+
+| Constructed law | Count / worlds | Rate interval | Frozen admission requirement |
+|---|---:|---|---|
+| Common uniform | 0 / 10 | [0, 0.308497] | At most 2 |
+| Page only | 0 / 10 | [0, 0.308497] | At most 2 |
+| Complementary entries | 0 / 10 | [0, 0.308497] | At least 8 |
+
+The reference bias flag fires in every world. Therefore the first two zero counts do not establish a useful error-controlled instrument: the full rule also licenses none of the known complementary cases. The raw signed classification is positive in six complementary worlds and marginal in four; those classifications are descriptive only and do not pass admission. The outcome reference preserves writer marginals, so its failure does not by itself identify a unique faulty mechanism. The finite calibration fails as specified; neither an engineering retry nor a changed threshold is justified by this result.
+
+Table: every completed world is retained. Gain is calibration-selected single-reader loss minus combination loss in half-Brier units, so positive favors the combination. The interval is a writer bootstrap interval conditional on fitted forecasts. The one-sided reference probability is descriptive because every row has the inherited bias flag. Licensed and useful require the complete frozen rule.
+
+| World | Law | Gain | 95% interval | Reference probability | Bias flag | Licensed | Useful |
+|---:|---|---:|---|---:|---|---|---|
+| 0 | common | 0.000605606 | [-0.000737020, 0.002214738] | 0.393034825871 | yes | no | no |
+| 1 | common | 0.000012435 | [-0.000060332, 0.000110414] | 0.65671641791 | yes | no | no |
+| 2 | common | -0.000483512 | [-0.003615925, 0.003064490] | 0.855721393035 | yes | no | no |
+| 3 | common | 0.000416335 | [0.000000000, 0.001047580] | 0.512437810945 | yes | no | no |
+| 4 | common | -0.001565288 | [-0.002981503, -0.000439284] | 0.985074626866 | yes | no | no |
+| 5 | common | 0.000530510 | [0.000040966, 0.001296732] | 0.422885572139 | yes | no | no |
+| 6 | common | 0.000173996 | [-0.000694016, 0.001264185] | 0.592039800995 | yes | no | no |
+| 7 | common | 0.000693586 | [-0.000456752, 0.002106446] | 0.412935323383 | yes | no | no |
+| 8 | common | 0.000226886 | [-0.000096089, 0.000776747] | 0.567164179104 | yes | no | no |
+| 9 | common | 0.000593086 | [0.000040814, 0.001373800] | 0.442786069652 | yes | no | no |
+| 10 | page only | -0.001309901 | [-0.006995330, 0.003350381] | 0.975124378109 | yes | no | no |
+| 11 | page only | -0.006394910 | [-0.017932623, 0.000047796] | 1 | yes | no | no |
+| 12 | page only | -0.002709586 | [-0.008109646, 0.000462605] | 1 | yes | no | no |
+| 13 | page only | -0.004800309 | [-0.011973825, 0.000588108] | 1 | yes | no | no |
+| 14 | page only | 0.020030711 | [-0.001182116, 0.059810706] | 0.00497512437811 | yes | no | no |
+| 15 | page only | 0.008035848 | [-0.017076297, 0.042533462] | 0.00497512437811 | yes | no | no |
+| 16 | page only | -0.005037359 | [-0.011997475, -0.000419686] | 1 | yes | no | no |
+| 17 | page only | -0.009175693 | [-0.018916957, -0.001686119] | 1 | yes | no | no |
+| 18 | page only | -0.004496870 | [-0.010315964, -0.000509598] | 1 | yes | no | no |
+| 19 | page only | 0.011181943 | [-0.008644232, 0.039738441] | 0.00497512437811 | yes | no | no |
+| 20 | complementary | 0.020012785 | [0.007099586, 0.033482505] | 0.00497512437811 | yes | no | no |
+| 21 | complementary | 0.013729147 | [0.005673162, 0.023113593] | 0.00995024875622 | yes | no | no |
+| 22 | complementary | 0.008999540 | [-0.009319004, 0.028841627] | 0.0298507462687 | yes | no | no |
+| 23 | complementary | 0.014710443 | [0.006016270, 0.023256396] | 0.00497512437811 | yes | no | no |
+| 24 | complementary | 0.020230142 | [0.014245514, 0.025793973] | 0.00995024875622 | yes | no | no |
+| 25 | complementary | 0.014866656 | [0.005751830, 0.024987319] | 0.0199004975124 | yes | no | no |
+| 26 | complementary | 0.006752337 | [0.000421111, 0.013608201] | 0.119402985075 | yes | no | no |
+| 27 | complementary | 0.008001723 | [-0.004866097, 0.018998276] | 0.10447761194 | yes | no | no |
+| 28 | complementary | 0.009145853 | [-0.003123214, 0.023205502] | 0.0298507462687 | yes | no | no |
+| 29 | complementary | 0.002930607 | [-0.009650331, 0.017773991] | 0.313432835821 | yes | no | no |
+
+All 12,135 output hashes and 43 source pins verify. Independent replay reconstructs all 6,030 fitted primary/reference arms. All native workers exited and the counted CPU lease is released. The attempt used 1117.078125 CPU seconds and 1209.617129 wall seconds. Retained cumulative cost is 1750.687500 of the fixed 40102.875000 CPU-second allowance; unused allowance does not authorize bypassing scientific admission.
+
+**Means.** The prepared human consumer remains held and uncomputed. This is a completed constructed instrument failure, not evidence against complementary information in human writing or the curator's joint-inference account. No human weights or human effect is licensed. The complete original result, calibration law and thresholds remain intact. No automatic descendant or repair is opened from this scientific gate failure. Continue the independent commissioned backlog at P7 refinement; the eight-card ready buffer remains incomplete. Research slots are idle during that build, an operational deficit rather than a gear change. GPU, paid, source and other scientific/cost holds persist. No new test was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; In constructed worlds, the three-entry comparison fails its frozen calibration gate; the human comparison remains uncomputed and held.; project meaning: scoped operational record; next engineering obligation: Retain D37 scientific hold; build the next commissioned P7 refinement within its measured CPU allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_CALIBRATION_20261029.md.
+
+### OPS-S15-W3-D37-CALIBRATION-LAUNCH
+
+**Hypothesis.** Are completed records accounted for, and can the next commissioned three-entry comparison proceed with a validated executable and its existing resource limits?
+
+**METHOD.** Reconcile the complete source, readers, measured cost probe and full-reference native rehearsal. Authenticate the frozen complete calibration plan, native owner and phase child, counted CPU lease, source pins, resource floors, progress freshness and immediate terminal/disappearance monitoring. Verify current claim-source anchors and watcher/calendar identities.
+
+**Found.** The complete D37 calibration is running in Gear 2 after measured cost admission; its human consumer is built but scientifically gated, and the wider ready buffer remains incomplete.
+
+All completed D37 preparation, timing and rehearsal records have full internal write-through and acknowledgements. The 14:46 PDT inspection finds no pending delivered event. It verifies the active owner and execution child by native creation identity, fresh progress, the owner's counted lease, all frozen source pins and adequate memory, commit and disk headroom. CPU usage exceeds the preceding progress sample, establishing activity. The legacy main-queue log ends in September and is not the current native Week 3 scheduler. All 21 research hash locks passed the immediately preceding verification.
+
+The run retains all 30 known-answer worlds, every primary and all 200 complete outcome references per world, uncertainty estimation and independent fresh fitting replay. No unfinished world score is interpreted. The full human consumer, tests and guarded dispatcher are prepared; complete calibration and its passing scientific gate are required before human dispatch.
+
+Table: resource figures are CPU seconds, include both native passes where forecast, and preserve prior charges.
+
+| Accounting item | CPU seconds |
+|---|---:|
+| Complete calibration forecast | 5470.312500 |
+| Calibration attempt cap | 8206 |
+| Prior build, preparation and validation charge | 633.609375 |
+| Fixed complete-workload cumulative ceiling | 40102.875000 |
+
+**Means.** One of four research CPU slots is occupied. The eight-card ready target remains unmet, and unused capacity while commissioned builds remain is an operational defect. Completing D37 does not fill that buffer; the next ordered backlog is P7 and the remaining commissioned CPU cards. Scientific gate failures, old cost/source holds, parked GPU work, paid-order and transfer restrictions persist. No new spend or agent is started. No new test is harvested from the operational wake.
+
+The durable watcher and calendar are live and fresh. All terminal paths and owner disappearance are registered for immediate delivery. The independent six-hour health deadline remains 20:05:33 PDT; ordinary result acknowledgements do not reset it. There is no added ETA wake. Before this launch record, all 210 claim rows and 247 exact source anchors verify. Scientific interpretation remains for the final curator packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete D37 calibration is running in Gear 2 after measured cost admission; its human consumer is built but scientifically gated, and the wider ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Fully land the complete D37 calibration; run the prepared human consumer only if the scientific gate passes. Continue the ordered CPU backlog within its bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_CALIBRATION_LAUNCH_20261029.md.
+
+### OPS-S15-W3-D37-RUN-NATIVE
+
+**Hypothesis.** Can the three-entry comparison execute and independently reproduce its entire outcome reference without losing comparisons or substituting saved fits for fresh validation?
+
+**METHOD.** Run one constructed complementary world with the primary and every one of the 200 predeclared whole-writer permutations. Rebuild outcome-dependent histories and all reader fits for every arm, then reconstruct all arms in a fresh native process. Check sealed checkpoint integrity, source bindings, target availability, exact scoring identities and admission refusal in six targeted tests.
+
+**Found.** The complete constructed reference and fresh fitting replay pass; the full D37 scientific calibration remains required before human execution.
+
+Table: each row identifies an engineering coverage check; the count describes execution coverage rather than a scientific effect.
+
+| Check | Verified coverage |
+|---|---:|
+| Targeted engineering tests | 6 passing |
+| Complete primary and reference arms per pass | 201 |
+| Independent native passes | 2 |
+| Hashed output files | 419 |
+
+The native attempt used 38.953125 CPU seconds and 44.571194 wall seconds. All workers exited and the counted CPU lease was released. Cumulative build, preparation and validation charges are 633.609375 CPU seconds, retained against the measured complete-workload ceiling.
+
+
+**Means.** This validates full-reference execution, not scientific sensitivity. The separately frozen 30-world calibration must complete and pass before the human comparison can run. Human and calibration consumers are built; the wider ready buffer remains incomplete. Other scientific, cost, source, GPU and paid holds persist. No new test was harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed reference and fresh fitting replay pass; the full D37 scientific calibration remains required before human execution.; project meaning: scoped operational record; next engineering obligation: Run and fully land the frozen 30-world D37 calibration; admit the complete human comparison only if its scientific gate passes.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_RUN_NATIVE_20261029.md.
+
+### OPS-S15-W3-D37-COST-CORPUS
+
+**Hypothesis.** Can the complete three-entry comparison, its full outcome reference and known-answer calibration be costed without shortening their designs?
+
+**METHOD.** Time the actual reader fits and proper-score aggregation for complete recipients in both the primary and first permutation, then repeat them in a fresh native process. The production probe selects the five largest pooled training partitions without reading their outcomes and includes a whole complementary constructed world. Forecast all 41 recipients, all 200 references, 30 calibration worlds and fresh replay with the frozen threefold factor. Authenticate source bindings, exit identities and lease release.
+
+**Found.** The complete-source D37 timing probe independently replays; the full workload has a measured forecast, while scientific calibration remains required.
+
+Five targeted checks pass, including the actual complete human producer-consumer admission, changed-checksum refusal, frozen world laws, full reference/replay accounting, independent proper-score identities and retained-metadata refusal. No partial coefficient or incomplete reference is interpreted. The native fixture tests the whole cost handler but does not establish scientific sensitivity.
+
+The complete forecast is 26735.250000 CPU seconds including both passes and the frozen safety factor. Week 3 section 6 sets its ceiling to 40102.875000 CPU seconds. Initial probe/build charges total 474.656250 CPU seconds and are retained, not reset. Full calibration and human execution need their validated executable and reviewed admission; no automatic dispatch follows this receipt.
+
+**Means.** This is execution and cost evidence only. The original population, readers, control rules and scientific gates remain unchanged. D37's 30-world calibration and complete human comparison are the next bounded builds; the ready buffer remains incomplete. Other cost, scientific, GPU, paid and source holds persist. No new test is harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-source D37 timing probe independently replays; the full workload has a measured forecast, while scientific calibration remains required.; project meaning: scoped operational record; next engineering obligation: Complete and validate D37 calibration and controlled human execution within the measured retained allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_COST_CORPUS_20261029.md.
+
+### OPS-S15-W3-D37-COST-NATIVE
+
+**Hypothesis.** Can the complete three-entry comparison, its full outcome reference and known-answer calibration be costed without shortening their designs?
+
+**METHOD.** Time the actual reader fits and proper-score aggregation for complete recipients in both the primary and first permutation, then repeat them in a fresh native process. The production probe selects the five largest pooled training partitions without reading their outcomes and includes a whole complementary constructed world. Forecast all 41 recipients, all 200 references, 30 calibration worlds and fresh replay with the frozen threefold factor. Authenticate source bindings, exit identities and lease release.
+
+**Found.** The complete-unit timing instrument independently replays on constructed data; corpus timing and full D37 admission remain separate.
+
+Five targeted checks pass, including the actual complete human producer-consumer admission, changed-checksum refusal, frozen world laws, full reference/replay accounting, independent proper-score identities and retained-metadata refusal. No partial coefficient or incomplete reference is interpreted. The native fixture tests the whole cost handler but does not establish scientific sensitivity.
+
+The native attempt used 3.984375 CPU seconds. The cumulative initial-probe charge is 438.546875 of 3,600 CPU seconds, including all build reserves. Constructed-only timings do not admit the corpus.
+
+**Means.** This is execution and cost evidence only. The original population, readers, control rules and scientific gates remain unchanged. D37's 30-world calibration and complete human comparison are the next bounded builds; the ready buffer remains incomplete. Other cost, scientific, GPU, paid and source holds persist. No new test is harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-unit timing instrument independently replays on constructed data; corpus timing and full D37 admission remain separate.; project meaning: scoped operational record; next engineering obligation: Complete and validate D37 calibration and controlled human execution within the measured retained allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_COST_NATIVE_20261029.md.
+
+### OPS-S15-W3-D37-READERS-NATIVE
+
+**Hypothesis.** Can three independently bounded entries be fitted and combined without using future decisions to choose their parameters?
+
+**METHOD.** Fit page and process multinomial readers on training data, estimate the person prior from training-only crossed response moments, update only resolved history, and select the single entry and convex combination on chronological calibration sessions. Compare the combination with an independent dense simplex search, exercise exact identity and deliberately wrong forecasts, poison future outcomes and features, and reconstruct all eight constructed recipients in a fresh native process.
+
+**Found.** The separated three-entry reader passes known-answer fitting, chronology checks and fresh native replay; scientific calibration and whole-study cost admission remain unfinished.
+
+All nine targeted checks and the native replay pass. The native worker used 4.328125 CPU seconds. Its fixture validates computation and temporal separation, not population sensitivity or empathy. The prior-count conversion is a declared shrinkage convention; the source Gaussian moments do not themselves define predictive probabilities. Undefined training reliability refuses instead of excluding a recipient.
+
+**Means.** Freeze and cost the entire 200-permutation reference, known-answer calibration and human comparison before admitting inference. The complete prepared human source remains unchanged. The ready-card buffer is still incomplete; CPU slots are idle during buildout. Other scientific, cost, source, GPU and paid holds remain. No new hypothesis is harvested from the wake; this builds the already commissioned D37.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separated three-entry reader passes known-answer fitting, chronology checks and fresh native replay; scientific calibration and whole-study cost admission remain unfinished.; project meaning: scoped operational record; next engineering obligation: Freeze, validate and cost the complete D37 calibration and reference workload before human inference.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_READERS_NATIVE_20261029.md.
+
+### OPS-S15-W3-D37-INPUTS-CORPUS
+
+**Hypothesis.** Can page and predecision process inputs be separated faithfully for the commissioned three-entry forecast comparison?
+
+**METHOD.** Retain P4's content representations while removing its history and timing terms from the page entry. Derive request latency, earlier hovers and recent user edits strictly before menu opening. Exercise known raw-event cases and future-outcome poisoning, then compare fresh native reconstruction. Authenticate all source/output hashes, worker exits and released counted lease.
+
+**Found.** The complete three-entry source independently replays with all prepared decisions retained; fitted readers, calibration and whole-study cost admission remain unfinished.
+
+The source retains all 1,399 sessions, 61 writers and 16,855 decisions. Page features exclude history and timing; process features stop before menu opening. Original chronological eligibility and all exclusions remain. Missing request intervals are flagged without dropping rows. Every raw source and numeric array is reconstructed and compared in a fresh process; no fitted reader or human effect was computed.
+
+The attempt used 67.015625 CPU seconds and 70.491099 wall seconds. The 120-second build reserve and every native/source charge remain within D37's initial one-hour no-projection probe. Full comparison execution requires measured complete cost admission.
+
+**Means.** Preparation makes no empathy, preference or forecast-gain claim. Future fitting must use training-only reliability priors rather than full-corpus V3 estimates, and must choose the best single entry and stack weights only on the chronological calibration split. D17 pause shares and V5 headroom remain omitted by the ratified errata. The original sources/results are unchanged. No new test is harvested from this operational wake; D37 is already commissioned. The broader ready-card buffer remains incomplete; GPU, paid, source, scientific-gate and other cost holds persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete three-entry source independently replays with all prepared decisions retained; fitted readers, calibration and whole-study cost admission remain unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the commissioned three-entry source/model/calibration chain under preserved chronology and costs.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_INPUTS_CORPUS_20261029.md.
+
+### OPS-S15-W3-D37-INPUTS-NATIVE
+
+**Hypothesis.** Can page and predecision process inputs be separated faithfully for the commissioned three-entry forecast comparison?
+
+**METHOD.** Retain P4's content representations while removing its history and timing terms from the page entry. Derive request latency, earlier hovers and recent user edits strictly before menu opening. Exercise known raw-event cases and future-outcome poisoning, then compare fresh native reconstruction. Authenticate all source/output hashes, worker exits and released counted lease.
+
+**Found.** The three-entry preparation transforms pass native known-answer replay; complete human-source preparation and fitted comparison remain uncomputed.
+
+Eight targeted checks pass: Unicode/count units, absent and ambiguous requests, current/future interaction exclusion, page isolation from handling and decision count, bad clocks and identities, strict configuration and fresh replay with corruption refusal. Native validation exercises the actual page/process transforms, not full human-source admission.
+
+The attempt used 3.218750 CPU seconds and 8.361479 wall seconds. The 120-second build reserve and every native/source charge remain within D37's initial one-hour no-projection probe. Full comparison execution requires measured complete cost admission.
+
+**Means.** Preparation makes no empathy, preference or forecast-gain claim. Future fitting must use training-only reliability priors rather than full-corpus V3 estimates, and must choose the best single entry and stack weights only on the chronological calibration split. D17 pause shares and V5 headroom remain omitted by the ratified errata. The original sources/results are unchanged. No new test is harvested from this operational wake; D37 is already commissioned. The broader ready-card buffer remains incomplete; GPU, paid, source, scientific-gate and other cost holds persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three-entry preparation transforms pass native known-answer replay; complete human-source preparation and fitted comparison remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete the commissioned three-entry source/model/calibration chain under preserved chronology and costs.; public scientific claim unchanged; curator decision required: No new decision. Detail: D37_INPUTS_NATIVE_20261029.md.
+
+### OPS-S15-W3-HEALTH-20261029-1400
+
+**Hypothesis.** Are the authorized queue, evidence records and delivery path healthy, and what can run next?
+
+**METHOD.** Inspect the actual Windows owner and current phase child, creation identities, CPU progress, output freshness, counted lease, source pins, resource floors and watcher/calendar identities. Read the native process inventory and all pending events. Verify research locks and ledger anchors, then reconcile the probe that completed during inspection. Account for occupied owner intervals in the active Week 3 and native-validation trees since the previous health acknowledgement.
+
+**Found.** The due health inspection verifies completed records and live monitoring; the specification probe is now complete and cost-held, and research CPU slots are idle while commissioned builds remain.
+
+At 14:02 PDT the specification-cost worker was executing fresh verification with valid ownership, an owned counted lease, CPU activity and fresh progress. It then completed, independently replayed and was fully landed. The complete forecast exceeds the fixed follow-up remainder, so full specification inference is cost-held. No failed worker or stale lease requires restart. The ordinary sandbox refused CIM enumeration; the bounded read-only inspection succeeded under native approval. The watcher and calendar match their original native identities; scanning and heartbeat are fresh and delivery has no unresolved error. The due health event was queued to the correct owner. All 21 research locks and all 239 pre-landing source anchors verified; new landing refreshers preserve exact FINDINGS headings. The legacy queue log is a historical September drain, not this queue's authority.
+
+The tracked interval accounts for 2.087974 occupied and 22.209400 idle CPU slot-hours across four slots. This is counted owner occupancy, not processor utilization, and its exact roots and intervals are retained in the receipt. Unfilled capacity while commissioned work remains is an operational defect. D37 is the next independent build; its page/person/process chronology and source fields are under review. Eight executable ready cards are required and none is currently ready. Named or gated cards do not count as ready.
+
+**Means.** Monitoring is healthy, but queue buildout is incomplete. Preserve WB1's effects cost hold, FIC1's remaining admission, TR3/P3c scientific gate failures, the D33 specification cap, original population gaps, GPU parking and paid/transfer gates. No parked GPU work, paid call or agent is started. The completed D33 parent and validation/probe records have full internal write-through. No new test is harvested from this operational wake; the already commissioned backlog and frozen first-generation designs supply the next work. Health ACK rearms its independent six-hour deadline, without adding ETA or publication wakes.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The due health inspection verifies completed records and live monitoring; the specification probe is now complete and cost-held, and research CPU slots are idle while commissioned builds remain.; project meaning: scoped operational record; next engineering obligation: Build and validate the next commissioned CPU card; retain all cost/source/scientific holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261029_1400.md.
+
+### OPS-S15-W3-D33-SPEC-COST
+
+**Hypothesis.** Can the frozen complete screen-adjustment specification curve run faithfully within its bounded first-generation allowance?
+
+**METHOD.** Keep the parent population, outcomes and all non-screen terms unchanged. Zero only the declared omitted nuisance columns for each of three settings. Complete the first whole inference block, including both own-history arms and both references, then independently reproduce all three blocks in a fresh native process. Authenticate every source/output, native exit and released counted lease. Do not inspect partial coefficients.
+
+**Found.** The complete-source specification timing probe independently replays; full inference is cost-held under the fixed follow-up allowance.
+
+The forecast for all three new settings, both arms, complete reference banks and both passes is 1135.312500 CPU seconds, including the frozen threefold safety factor. Build, native validation and this probe total 102.656250 CPU seconds of the 786-second ceiling, leaving 683.343750. Do not shrink the grid, population or reference banks, or reset the cap. Retain the timing outputs without interpreting partial coefficients.
+
+**Means.** This is preparation and cost evidence, not a human specification result. The completed parent and original population gap remain. Three first-generation slots are frozen in D33_FOLLOWUPS_20261029.md: screen specification, existing prompt-excluded comparison, existing common-word scoring pipeline. Each is capped at 786 CPU seconds including verification; no descendants, GPU, paid work or new holdout. No test was harvested from this wake. The wider ready buffer remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-source specification timing probe independently replays; full inference is cost-held under the fixed follow-up allowance.; project meaning: scoped operational record; next engineering obligation: Continue only after complete source, scientific and cumulative cost admission; build the commissioned CPU backlog.; public scientific claim unchanged; curator decision required: No new decision. Detail: D33_SPEC_COST_20261029.md.
+
+### OPS-S15-W3-D33-SPEC-NATIVE
+
+**Hypothesis.** Can the frozen complete screen-adjustment specification curve run faithfully within its bounded first-generation allowance?
+
+**METHOD.** Keep the parent population, outcomes and all non-screen terms unchanged. Zero only the declared omitted nuisance columns for each of three settings. Complete the first whole inference block, including both own-history arms and both references, then independently reproduce all three blocks in a fresh native process. Authenticate every source/output, native exit and released counted lease. Do not inspect partial coefficients.
+
+**Found.** The complete constructed specification-cost instrument independently replays; full human specification inference remains uncomputed.
+
+Six targeted checks pass, including unchanged-row preservation, positive/zero/reversed known answers and independent reduced-matrix generalized-least-squares parity. The first mutation test exposed timing-output ordering that could mask the intended metadata refusal. That engineering failure is preserved in the first test receipt; one pre-admission correction checks metadata before timings. The second complete targeted run and native replay pass. No estimator or outcome threshold changed. The native charge is 5.812500 CPU seconds; with the 60-second build reserve, 720.187500 seconds remain within the fixed 786-second follow-up ceiling.
+
+**Means.** This is preparation and cost evidence, not a human specification result. The completed parent and original population gap remain. Three first-generation slots are frozen in D33_FOLLOWUPS_20261029.md: screen specification, existing prompt-excluded comparison, existing common-word scoring pipeline. Each is capped at 786 CPU seconds including verification; no descendants, GPU, paid work or new holdout. No test was harvested from this wake. The wider ready buffer remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed specification-cost instrument independently replays; full human specification inference remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Continue only after complete source, scientific and cumulative cost admission; build the commissioned CPU backlog.; public scientific claim unchanged; curator decision required: No new decision. Detail: D33_SPEC_NATIVE_20261029.md.
+
+### S15-D33-CALIBRATION-SUPPORTED-20261029
+
+**Hypothesis.** Does a writer's own word history explain pre-word pauses beyond a comparable other writer's history and the words already visible in the task?
+
+**METHOD.** Retain the separately authorized population with matched donor histories and nonempty original chronological calibration. Fit the frozen joint writer-random-intercept model of log pause on own and donor surprise, population surprise, word length and frequency, sentence and punctuation boundaries, prior on-screen occurrence and current-session word-cache surprise. Both histories are calibrated on the same supported calibration words, never on evaluation outcomes. Complete 2,000 paired real-writer uncertainty resamples and two fixed banks of 200 within-writer permutations. Rebuild matching, calibration and the complete inference in a fresh process; authenticate previously verified raw-screen covariates. Preserve the original own-history sensitivity.
+
+**Found.** The supported comparison supports a personal-history association with writing pauses after matched donor history and measured context are accounted for; the full-population and causal questions remain open.
+
+The table reports completed joint-model coefficients: change in log pause per unit of the corresponding surprise score, holding the listed model terms fixed. Intervals are paired writer percentile bootstrap intervals; probabilities in the first three rows are approximate two-sided Wald probabilities. The last two probabilities compare the primary own-history coefficient with its complete one-sided permutation reference.
+
+| Quantity | Estimate | 95% interval | Probability |
+|---|---:|---|---:|
+| Own-history coefficient, primary | 0.03836681 | [0.02728474, 0.05215524] | 7.611128e-10 |
+| Matched donor coefficient, diagnostic | 0.10282258 | [0.06782745, 0.14361490] | 5.267973e-8 |
+| Own minus donor coefficient, diagnostic | -0.06445577 | [-0.10503118, -0.02717511] | 0.000790083 |
+| Own-surprise permutation reference | 200 valid, zero invalid | central reference range [-0.01431712, 0.01598236] | 1/201 |
+| Outcome permutation reference | 200 valid, zero invalid | central reference range [-0.01731015, 0.01332472] | 1/201 |
+
+Both reference-bias flags are false. The primary is positive under the frozen signed interval rule. The donor coefficient is larger on these nominal scales, but a coefficient difference is not a predictive-model comparison: the history distributions and correlations differ. It does not establish that donor history predicts better. The original-own sensitivity reproduces every reported fit and interval exactly; it is redundant evidence, not an independent replication.
+
+The comparison retains 52,127 evaluation words from 35 writers in 192 sessions out of the original 78,602 words and 41 writers. The excluded 26,475 words, 94 evaluation sessions, six wholly unsupported writers and eight writers with any unsupported words remain enumerated. Of those excluded words, 1,915 from two writers were removed solely for absent supported calibration. Calibration retains 59,206 words in 213 sessions; 17,921 calibration words in 59 sessions remain unsupported. No population gap is imputed or silently closed. The original supported attempt remains invalid before fitting.
+
+**Means.** Own-history surprise carries a conditional observational association on this supported cohort after the measured donor and screen terms. This is consistent with personal fluency layered on shared experience, but it does not identify a causal priming mechanism, cultural departure, private value, attention or automaticity. The within-writer references depend on exchangeability and do not reproduce every temporal or contextual nuisance. Uncertainty conditions on calibrated histories and donor matches. The frozen P6 token event remains; P7 common-word normalization is unresolved. No full-population result or independent-corpus replication is licensed.
+
+All ten inference blocks and both arms independently replayed without saved inference blocks. Execution and verification used 279.046875 CPU seconds and 282.483696 wall seconds, under the admitted 1,572-second attempt cap. New charges including the build reserve and both probes total 590.078125 CPU seconds. Historical conservative charges remain, bringing cumulative accounted CPU to 7,706.014475 within the explicit 10,715.936350 ceiling. Original failed attempts and wall charges remain retained. All pinned sources and outputs authenticate, workers exited and the counted lease is released.
+
+The Week 3 menu opens three bounded first-generation follow-ups: a screen-adjustment specification curve, prompt-excluded history as a topical-reuse probe, and the already commissioned common-word scoring pipeline. Each receives at most 786 CPU seconds, conservatively half this parent's admitted attempt ceiling and below half its original 1,800-second ceiling. No grid, population or reference is reduced to fit; incomplete admission produces a cost/source hold. The two existing variants are tracked under these three slots, not duplicated as extra tests. Detailed freezes and known-answer validation precede outcomes. No descendants or locked holdout are authorized. No new hypothesis was harvested from the operational wake. Gear 2 is idle at this completed-run boundary and the eight-card ready buffer remains incomplete.
+
+
+Curator roll-up: G203, communal fluency and personal departures; Does personal history contribute beyond matched shared history?; **Strengthens**; The supported comparison supports a personal-history association with writing pauses after matched donor history and measured context are accounted for; the full-population and causal questions remain open.; project meaning: conditional personal fluency is supported within the authorized smaller cohort; next engineering obligation: complete the bounded specification, prompt-excluded and common-word follow-ups; public claim: scoped association newly licensed, causal and full-population claims unchanged; curator decision required: No. Detail: D33_CALIBRATION_SUPPORTED_FULL_20261029.md.
+
+### OPS-S15-W3-D33-FULL-LAUNCH
+
+**Hypothesis.** Are completed results fully accounted for, and can the next commissioned CPU comparison continue under verified ownership and the existing limits?
+
+**METHOD.** Authenticate the complete measured cost admission and original constructed statistical validation, freeze the unchanged full estimator and source inputs, and launch its existing native execution/replay route in one counted CPU slot. Inspect native owner and phase child identities, CPU activity, progress freshness, lease, resource floors, source locks and terminal/disappearance registration. Reconcile claim-source anchors and watcher/calendar delivery state.
+
+**Found.** The full supported-history comparison is running in Gear 2 after verified cost admission; completed controls are recorded and the wider ready buffer remains incomplete.
+
+The complete DR1 rank and independent-context comparisons, their validation and cost records, and the D33 native and corpus cost probes have full internal write-through and event acknowledgements. Original WB1 cost failure and TR4 correction records remain. At the 13:40 PDT inspection the new D33 owner and execution child match their recorded creation identities, CPU usage is increasing, the counted lease belongs to that owner and progress is fresh. Available memory, commit and disk exceed their floors. All 21 research locks hold. The legacy main-queue log ends in September and does not describe the current native Week 3 queue.
+
+The full comparison retains both model arms, 2,000 paired writer uncertainty draws, both complete 200-permutation families and fresh reconstruction/inference replay. Its measured forecast is 1,047.375 CPU seconds; the forecast-plus-half cap is rounded to 1,572 CPU seconds with the same wall safeguard. All historical and new probe costs remain charged. No timing score is interpreted as a result. The original full-population and earlier unsupported-calibration questions remain open.
+
+**Means.** One research CPU slot is active. The eight-card ready buffer is not filled; the remaining idle capacity while commissioned builds remain is an operational defect. D37 is the next build priority, followed by P7 and the remaining ordered CPU backlog. A name in the packet does not constitute an executable card. GPU parking, paid-order and transfer gates, old scientific failures and unrelated resource holds persist. No extra agent or paid work is started. No test is harvested from the operational wake.
+
+The watcher and calendar match their native identities and have fresh heartbeats. All four terminal paths and owner disappearance are registered for immediate delivery. The independent six-hour inspection remains due at 14:00:59 PDT; ordinary result acknowledgements do not reset it. The native watcher owns waiting, with no extra ETA wake. All 199 current claim rows and 236 source anchors verify at the pre-launch-record cutoff. Scientific details remain for the final packet, with aggregate records available internally.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full supported-history comparison is running in Gear 2 after verified cost admission; completed controls are recorded and the wider ready buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Fully land D33 at its terminal event; build D37 next under the unchanged idle-CPU commission.; public scientific claim unchanged; curator decision required: No new decision. Detail: D33_FULL_LAUNCH_20261029.md.
+
+### OPS-S15-W3-D33-COST-ADMISSION
+
+**Hypothesis.** Can the unchanged calibration-supported history comparison complete both model arms, both full reference families and fresh statistical replay within its commissioned idle-CPU budget?
+
+**METHOD.** Reconstruct and authenticate the original supported source roster, donor matches, calibration and sealed covariates. Run the complete first inference block with 200 paired writer uncertainty draws and 20 permutations from each family. Independently reconstruct the source and first block in a fresh native process. Project ten blocks from the slower per-component CPU timings, include both passes, multiply by three and add 120 seconds. Reauthenticate the earlier full constructed statistical validation. No partial scientific coefficient or probability is inspected or reported.
+
+**Found.** The complete-source supported-history timing probe independently replays and admits full unchanged inference within the retained Week 3 allowance.
+
+The measured full execution-plus-replay forecast is 1047.375000 CPU seconds. Week 3 section 6 permits the recorded projection plus 50 percent; rounding that bounded attempt up gives 1572 CPU seconds and the same wall safeguard. This probe charged 188.281250 CPU seconds. Its native validation and build reserve bring new charges to 311.031250; even new charges plus the entire full-attempt reservation fit inside 3,600 seconds. Historical 3,557.968175 wall seconds remain recorded separately and conservatively charged at twice that value in the CPU supervisor. The corresponding retained wall charges also fit. No earlier cost, support gap or failure is erased.
+
+**Means.** Admit the unchanged calibration-supported corpus comparison with all 2,000 paired writer uncertainty draws, both 200-permutation families and independent full replay. The original population and first supported-match questions remain open; selection depends only on original calibration support. This is a cost admission, not a scientific result. The old estimator and complete constructed validation are byte-authenticated. Workers exited and the counted lease is released. No new test is harvested from the operational wake. D37 remains next build priority; the ready-card buffer is still incomplete.
+
+The first launch inspection encountered a sandbox process-enumeration denial, then an overly strict check of historical packet-prefix anchors. After correcting the read-only checker, the worker had legitimately advanced to verification. Its current phase identity, source pins, counted lease, fresh progress, resources and watcher/calendar identities subsequently verified; no job was restarted. These inspection errors changed no research source or result.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-source supported-history timing probe independently replays and admits full unchanged inference within the retained Week 3 allowance.; project meaning: scoped operational record; next engineering obligation: Run full unchanged supported-calibration inference and fresh replay; preserve original questions and all charges.; public scientific claim unchanged; curator decision required: No new decision. Detail: D33_COST_ADMISSION_20261029.md.
+
+### OPS-S15-W3-D33-COST-VALIDATION
+
+**Hypothesis.** Can the unchanged calibration-supported history comparison be timed faithfully without presenting an unfinished scientific result?
+
+**METHOD.** Use the existing constructed supported-calibration fixture and unchanged estimator, two model arms, seed and reference algorithm. Complete the first block of 200 uncertainty draws and 20 permutations per reference family; retain the exact private block and independently rebuild it in a fresh native process. Targeted checks also exercise corrupted-block refusal and frozen configuration. Verify all source/output hashes, worker exits and released counted lease.
+
+**Found.** The supported-history cost instrument passes complete constructed first-block replay; corpus timing and full inference admission remain separate.
+
+The complete first-block computation agrees in fresh replay, and both targeted tests pass. The constructed source retains five supported writers and preserves the sixth writer's missing-calibration gap. This validates the timing wrapper, not a human effect or complete reference bank. No partial coefficient or probability is reported.
+
+**Means.** Week 3 section 6 explicitly lifts the earlier cumulative cost hold for an idle CPU slot. Because no full corpus forecast was recorded, the next step is one bounded one-hour cost probe, including validation and fresh replay. Retain the historical 3,557.968175 wall seconds as 7,115.936350 conservative CPU seconds, plus the new 120-second build reserve and this 2.75-second native charge. The corpus probe has at most 3,477.25 CPU and wall seconds remaining from the new hour. Full inference requires its complete measured projection and a separate reviewed admission. Original source gaps, the unsupported original question and earlier failure remain; no cap reset, GPU, paid call or locked holdout is used. No test is harvested from the operational wake. The wider ready-card buffer remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The supported-history cost instrument passes complete constructed first-block replay; corpus timing and full inference admission remain separate.; project meaning: scoped operational record; next engineering obligation: Run the bounded complete-source cost probe before deciding full D33 admission; continue D37 build priority.; public scientific claim unchanged; curator decision required: No new decision. Detail: D33_COST_VALIDATION_20261029.md.
+
+### S15-DR1-CONTEXT-20261029
+
+**Hypothesis.** Do the original eligible writers retain distinguishable page-style patterns across different prompts beyond a template built from other writers?
+
+**METHOD.** Retain all 29 originally eligible writers and their 1,265 CoAuthor sessions. Compute the frozen session-mean style representation on disjoint prompt halves. Rotate three fixed writer roles so every writer is probed once, while the context donors never overlap the scored gallery. Compare real and context-only identification, use 2,000 paired probe-writer bootstrap draws, and reconstruct the complete conditional reference through 1,000 permutations. Repeat all source reconstruction, comparisons and references in a fresh native process after complete known-answer validation. Retain the original leave-writer-out construction as an explicitly unlicensed diagnostic.
+
+**Found.** Session-summary style identifies writers beyond the separate independent-context reference in the original eligible reading cohort; this does not establish a directed-reading advantage.
+
+The table describes the completed fixed cohort. Identification is the fraction of probe writers matched to their own gallery profile. The interval concerns the paired real-minus-context difference, conditional on the fixed galleries. The probability compares real identification with the complete conditional reassignment reference.
+
+| Quantity | Completed result |
+|---|---:|
+| Writers / sessions retained | 29 / 1,265 |
+| Real identification | 22 of 29; 0.758621 |
+| Independent-context identification | 0 of 29 |
+| Real minus context | 0.758621 |
+| Paired writer 95% interval | [0.586207, 0.896551] |
+| Conditional reference probability | 0.0009990010 |
+| Reference draws / invalid draws | 1,000 / 0 |
+| Fixed role-gallery sizes | 19, 19, 20 |
+| Mean gallery chance | 0.051724 |
+
+Both frozen decision gates pass. The conditional null's mean identification is 0.048931, with its central 95% range [0, 0.137931]. The literal leave-writer-out diagnostic identifies no writer, but its known logical flaw remains; that output does not validate it.
+
+**Means.** This supports conditional style identification in these human process records and mixed human/model final pages, using an exact-program reader. It does not identify a psychological mechanism, value, attention or automaticity; device, recording and model-text contributions remain rivals. This is a separate session-mean, disjoint-prompt measurement, not a validation of the original pooled, overlapping DR1 endpoint. Its writers overlap the previous WA0 evidence, so it is not independent replication. The registered rank supplement still supplies no detected directed-order advantage or equivalence claim; chronological routing remains unchanged. Known-answer validation covers the specified constant, prompt-only and planted-person worlds, not every possible human nuisance. No second-generation follow-up is opened from this commissioned control leg.
+
+Execution and complete replay used 87.078125 CPU seconds and 90.434199 wall seconds, below the admitted 972-second attempt cap. Prior charges and the conservative reservations remain inside the explicit Week 3 section 6 allowance; no cap reset or new extension is used. Every pinned source and completed output authenticates, the workers exited and their counted lease is released. No new test is harvested from this operational wake. The wider research buffer remains incomplete.
+
+
+Curator roll-up: G204, choice versus shared context; Do page-style summaries identify writers beyond independent context?; **Strengthens**; Session-summary style identifies writers beyond the separate independent-context reference in the original eligible reading cohort; this does not establish a directed-reading advantage.; project meaning: conditional style identification extends to the original eligible reading cohort without establishing a reading-policy gain; next engineering obligation: preserve both scopes for the theory pass; public claim: scoped identification newly licensed, routing and mechanism unchanged; curator decision required: No. Detail: DR1_CONTEXT_HUMAN_20261029.md.
+
+### OPS-S15-W3-DR1-CONTEXT-COST
+
+**Hypothesis.** Can the separate fixed-population context diagnostic finish its full registered references and verification within the already commissioned idle-CPU allowance?
+
+**METHOD.** Authenticate all original sources, retain all 29 eligible writers and 1,265 sessions, and run all three independent-writer rotations with 100 timing permutations and 2,000 bootstrap draws. Repeat the complete computation in a fresh native process. Project all 1,000 permutations using ten times the slower pass, both execution and replay, a factor of three and 120 CPU seconds of overhead. No timing score is read or interpreted.
+
+**Found.** The complete-gallery context timing pass independently replays and admits the full registered control bank within the explicit Week 3 backlog allowance.
+
+The complete full-run forecast is 971.250000 CPU seconds. This attempt used 31.296875 CPU seconds and 34.415621 wall seconds. Retaining all original charges, both build reserves, both rank-attempt maximum reservations and this context preparation gives 7153.522446 CPU seconds and 4328.888410 wall seconds before the new 972-second attempt. These conservative reservations fit the 46,541.779920-second wall allowance and its two-thread CPU equivalent. No old cost is reset and no additional doubling is used.
+
+**Means.** Admit the full fixed 1,000-permutation, 2,000-bootstrap, three-role comparison with fresh replay. Scientific admission still depends on its complete outcomes. The original pooled benchmark and completed rank supplement retain their separate scope. Unsupported fixed support is reported without population reduction. All timing workers exited and their lease is released; the ready-card buffer remains incomplete. No new test is harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-gallery context timing pass independently replays and admits the full registered control bank within the explicit Week 3 backlog allowance.; project meaning: scoped operational record; next engineering obligation: Launch the complete fixed-population context diagnostic and independently replay all references before interpretation.; public scientific claim unchanged; curator decision required: No new decision. Detail: DR1_CONTEXT_COST_20261029.md.
+
+### S15-DR1-RANKS-20261029
+
+**Hypothesis.** Does selecting a writer's records using metadata recover that writer's full-record style identity sooner than reading the same records in random order?
+
+**METHOD.** Authenticate the original source population and replay every saved style prefix and bounded recovery endpoint. For each of the 29 writers, rank the original directed sequence among its 200 saved uniform random orders, including the tested sequence as a member. Break endpoint ties with the frozen seed and compare the mean rank with the exact sum of independent discrete uniform ranks. Repeat the entire supplement in a fresh native process. Date order is descriptive. Complete constructed calibration precedes this retrospective comparison.
+
+**Found.** A directed-reading advantage is not detected by the calibrated order-rank test; the original retrospective scope and separate identification-control obligations remain.
+
+The table describes the whole completed cohort, not selected writers. A lower rank favors the tested order; the reference mean rank is 101. The inclusive lower-tail probability is the conservative decision statistic. The mid-p gives half weight to equality of the rank sum; it is reported separately and does not replace the decision statistic.
+
+| Policy | Mean randomized rank | Mean deterministic midrank | Inclusive lower-tail probability | Mid-p |
+|---|---:|---:|---:|---:|
+| Metadata-directed, primary | 89.896552 | 87.137931 | 0.1525770754 | 0.1522002425 |
+| Date order, descriptive | 122.793103 | 129.017241 | 0.9787286426 | 0.9786453871 |
+
+All 1,265 sessions from the original 29 eligible writers remain. All 5,887 saved orders and 256,795 style prefixes agree exactly with the original computation. The original bounded-cost interval and its n+1 censoring rule are unchanged. The rank calibration passes the frozen finite no-effect and directional checks; it does not establish sensitivity at every human effect size.
+
+**Means.** This supplies no detected directed-order advantage and does not establish equivalence. The uniform-rank reference assumes that the tested order is exchangeable with random orders under the order-null, conditional on the fixed gallery; the no-effect plant verifies its explicit invariant case only. The original gallery overlaps the inspected records, so this remains retrospective reconstruction, not identification of unseen work. The supplement was specified after original results were known and is not independent confirmation. The separate disjoint-prompt, independent-context diagnostic still needs complete corpus execution; its preparation does not retroactively validate the original endpoint. Chronological routing remains unchanged. No second-generation follow-up or reduced-population substitute is opened.
+
+Complete execution and replay used 46.671875 CPU seconds and 56.391046 wall seconds. Original charges, native validation and build reserves remain in the explicit Week 3 section 6 allowance. All rank workers exited and their lease is released. Independent-context timing is dispatched separately. No new test is harvested from the operational wake.
+
+
+Curator roll-up: bounded reading; Does metadata-directed order recover style identity with fewer records?; **Narrows**; A directed-reading advantage is not detected by the calibrated order-rank test; the original retrospective scope and separate identification-control obligations remain.; project meaning: this scoped rank comparison supplies no detected reading-order advantage; next engineering obligation: complete the independent-context diagnostic; public claim: scoped non-detection newly licensed, general routing and person claims unchanged; curator decision required: No. Detail: DR1_RANK_SUPPLEMENT_20261029.md.
+
+### OPS-S15-W3-DR1-CONTEXT-VALIDATION
+
+**Hypothesis.** Can the commissioned reading-control component distinguish its declared known-answer cases without changing the original benchmark?
+
+**METHOD.** Run the frozen complete constructed instrument, repeat every output in a fresh native process, authenticate every source/output pin, reconcile the explicit gates, and verify owner/children exit and counted-lease release. Targeted checks separately exercise exact arithmetic, direction, fixed support and refusal paths.
+
+**Found.** The separate independent-context diagnostic passes complete known-answer validation and fresh replay; the original reading benchmark and its scope remain unchanged.
+
+All three complete constructed worlds, each with 1,000 reference permutations, three writer-role rotations and 2,000 uncertainty draws, independently replay. Constant and prompt-only worlds clear no person-signal claim; the planted person world passes both frozen references. Every eligible constructed writer is probed once, and donors never overlap the scored gallery. The literal leave-writer-out diagnostic remains unlicensed. These finite checks do not establish universal calibration or a human mechanism.
+
+**Means.** This is instrument validation only. Retain the original DR1 unresolved result, retrospective overlapping reference and chronological routing default. Week 3 section 6 explicitly lifts the earlier cumulative cost hold for idle CPU work: its last projection plus 50 percent is 46,541.779920 wall seconds. All prior charges and new build/replay costs remain inside that allowance; no second S4 doubling, GPU work or spending is inferred. The stale TODO hold is corrected against the packet. No test is harvested from the operational wake.
+
+This native attempt charged 18.109375 CPU seconds and 22.414691 wall seconds, including verification. Research build-out remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate independent-context diagnostic passes complete known-answer validation and fresh replay; the original reading benchmark and its scope remain unchanged.; project meaning: scoped operational record; next engineering obligation: Complete the independently validated DR1 control supplement under section 6 cost accounting; preserve original scopes.; public scientific claim unchanged; curator decision required: No new decision. Detail: DR1_CONTEXT_VALIDATION_20261029.md.
+
+### OPS-S15-W3-DR1-RANK-VALIDATION
+
+**Hypothesis.** Can the commissioned reading-control component distinguish its declared known-answer cases without changing the original benchmark?
+
+**METHOD.** Run the frozen complete constructed instrument, repeat every output in a fresh native process, authenticate every source/output pin, reconcile the explicit gates, and verify owner/children exit and counted-lease release. Targeted checks separately exercise exact arithmetic, direction, fixed support and refusal paths.
+
+**Found.** The commissioned reading-order rank instrument passes its complete constructed calibration and fresh replay; human and identification-control admission remain separate.
+
+All 4,096 no-effect tie-seed worlds and the complete helpful, harmful, constant and tied style worlds independently replay. The frozen exact-size and empirical-size gates pass. Every original human output remains unchanged; human ranks and identification controls are uncomputed at this receipt.
+
+**Means.** This is instrument validation only. Retain the original DR1 unresolved result, retrospective overlapping reference and chronological routing default. Week 3 section 6 explicitly lifts the earlier cumulative cost hold for idle CPU work: its last projection plus 50 percent is 46,541.779920 wall seconds. All prior charges and new build/replay costs remain inside that allowance; no second S4 doubling, GPU work or spending is inferred. The stale TODO hold is corrected against the packet. No test is harvested from the operational wake.
+
+This native attempt charged 10.171875 CPU seconds and 12.376382 wall seconds, including verification. Research build-out remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The commissioned reading-order rank instrument passes its complete constructed calibration and fresh replay; human and identification-control admission remain separate.; project meaning: scoped operational record; next engineering obligation: Complete the independently validated DR1 control supplement under section 6 cost accounting; preserve original scopes.; public scientific claim unchanged; curator decision required: No new decision. Detail: DR1_RANK_VALIDATION_20261029.md.
+
+### OPS-S15-W3-WB1-H1-EFFECTS-COST-STOP
+
+**Hypothesis.** Can the corrected complete effects pipeline finish a faithful timing pass and independent replay within the existing study allowance?
+
+**METHOD.** Inspect the failed native owner and both phase children, retained CPU job accounting and saved execution artifact. Authenticate every pinned input and source, establish native exit and lease release, and reconcile the attempted charge with all previous WB1 work. Apply the existing S4 doubled ceiling without resetting it. Inspect watcher delivery, empty counted research leases and resource headroom; no unfinished effect statistic is read or interpreted.
+
+**Found.** The corrected effects timing pass stopped at its CPU ceiling during independent replay; full WB1 remains cost-held and its effect result is uncomputed.
+
+**Cost and retained evidence.** Execution saved its timing artifact, but independent replay was terminated at the combined 5,000-second attempt limit. The recorded charge is 5,006.625 CPU seconds, including the supervisor's polling/termination overrun; all of it remains charged. Total WB1 charges and reserve are 16,879.359375 under the existing 21,600-second S4 ceiling, leaving 4,720.640625. The existing coverage forecast alone is 4,450.0625 seconds before complete effects work. The saved execution projection for effects is about 222,716.6 CPU seconds, excluding prior charges, this pilot and coverage. That projection is explicitly unverified because fresh replay did not finish, and it is not used to license a run or a scientific claim.
+
+**Means.** S4 is already applied once; no second doubling, continuation or cap reset is admitted. This is a cost stop, not an engineering or scientific-gate failure. Original failures, the valid full provenance census and the saved unverified timing artifact are retained. A new exact cheaper implementation would require its own frozen parity and complete cost admission within remaining authority; no reduced population or reference bank is substituted. The late encoder length warning did not cause this stop: the terminal identifies combined CPU enforcement, and execution completed before replay began.
+
+All identified workers exited and released the counted lease. No counted research job is active at inspection, so the Gear 2 research queue is idle and the eight-card buffer remains incomplete. The idle interval starts at the recorded terminal time and is an operational defect while commissioned work remains. Monitoring and the six-hour health deadline remain intact. Review the commissioned independent CPU backlog next; parked GPU, paid-order, transfer and failed-scientific-gate holds remain. No tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected effects timing pass stopped at its CPU ceiling during independent replay; full WB1 remains cost-held and its effect result is uncomputed.; project meaning: scoped operational record; next engineering obligation: Retain the cost hold and all charges; prepare the next independent commissioned CPU card without reducing this study.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_EFFECTS_COST_STOP_20261029.md.
+
+### S15-TR4-H1-20261029
+
+**Hypothesis.** Does the observed order of a writer's suggestion-handling choices give an adaptive forecast an advantage over the same writer's complete earlier history, beyond prompt context and the number of choices?
+
+**METHOD.** Retain all original CoAuthor human-process rows, writer memberships, strict temporal prefixes, final-third score masks and original adaptive and whole-history forecasts. Compare their average test-writer logarithmic prediction losses, with lower loss better. Reorder sessions only within each writer, prompt and total-choice-count group for all 200 conditional reference draws; retain fixed writers. Use 2,000 paired writer bootstrap draws for uncertainty. Require the separately completed eighty-world null/sensitivity calibration, exact original-population/forecast parity and fresh native replay of every output.
+
+**Corrections first.** The old reference's zero-mean requirement did not follow for unequal predictors. The separately registered conditional rank control replaces that requirement only for this new comparison. The original TR4 result, biased-reference flag, six-model results, TR4.ic record and unsupported volatility reliability remain intact. The new design was registered after the original human result was known, so it is a retrospective control correction, not an independent replication. Both admission-engineering errors and every charge remain recorded.
+
+**Found.** An adaptive handling-forecast advantage is not detected under the separately calibrated conditional-order control; this does not establish stable preferences or equivalence.
+
+The table gives the complete human comparison. Positive gain would favor the adaptive forecast; the interval describes uncertainty across test writers. The conditional probability is the rank of the observed gain among the frozen conditional reference draws, including the observed arrangement.
+
+| Quantity | Complete result |
+|---|---:|
+| Retained source sessions / writers | 1,399 / 61 |
+| Originally scoreable test sessions / writers | 200 / 14 |
+| Test writers with a nonconstant conditional group | 10; all 14 remain in the statistic |
+| Whole-history minus adaptive logarithmic loss, natural-log units per choice | -0.0008956631 |
+| Paired writer 95% interval | [-0.0086308313, 0.0078510861] |
+| Conditional reference probability | 0.2437810945 |
+| Complete reference / uncertainty draws | 200 / 2,000 |
+| Original forecast and population parity | Verified |
+
+**Means.** The corrected reference does not establish an adaptive advantage. The interval permits gains and losses; no negative finding, stable-preference claim or equivalence claim is licensed. The frozen finite calibration detects both planted drift doses and passes its two null-family gates, so sensitivity is tested for those constructions, not for every human effect. Human invariance within the conditioned groups remains an assumption; other serial dependence can violate it. This process proxy neither dates a learned decision nor measures current endorsement or the lifetime-versus-present trust tradeoff. G186 stays open and G233 is unchanged.
+
+The new probability is recorded as the primary comparison in the multiplicity audit; it does not pass either reported adjustment. All original secondary parameters, six-model losses and volatility-reliability uncertainty are retained without reinterpretation. This correction already carries its complete frozen sensitivity check; it opens no additional automatic sensitivity rerun or second-generation branch. A future theory pass can address the remaining construct and exchangeability questions.
+
+Complete human execution and replay used 36.484375 CPU seconds. Cumulative TR4 charges and build reserve are 2,103.015625 under the original 3,600-second ceiling. Workers exited and released their lease. Effects timing continues separately; the wider ready buffer remains incomplete. No new extension, spending, GPU run or holdout use occurred. The attempted launch-status writer found that the human job had already completed and stopped before writing a stale running claim.
+
+
+Curator roll-up: G186, temporal evidence and current preference; Does observed handling order improve adaptive forecasts beyond context and sample size?; **Narrows**; An adaptive handling-forecast advantage is not detected under the separately calibrated conditional-order control; this does not establish stable preferences or equivalence.; project meaning: the separately calibrated process proxy supplies no detected adaptive advantage, while the broader preference claim stays open; next engineering obligation: preserve all original evidence and completed calibration for the next theory pass; public claim: conditional non-detection newly licensed, preference/age claims unchanged; curator decision required: No. Detail: TR4_H1_HUMAN_20261029.md.
+
+### S15-TR4-H1-CALIBRATION-20261029
+
+**Hypothesis.** Can the separate conditional temporal-order reference avoid calling stable or prompt-driven behavior an adaptive advantage while detecting a planted within-context change?
+
+**METHOD.** Run the frozen eighty-world matrix with 18 constructed writers and 24 sessions each. For every world keep original sequential forecast arithmetic, discovery/test membership, sample sizes and score masks; use all 200 within-writer/prompt/choice-count permutations and 2,000 paired writer uncertainty draws. Reconstruct the complete matrix and every output in a fresh native process. Independently reconcile all seed identities, latent worlds, support counts, result classes and family gates before landing.
+
+**Corrections first.** This separately registered control ranks the observed forecast gain within its conditional reference; it does not require the difference between unequal predictors to average zero. The original TR4 biased-reference result and TR4.ic sensitivity record remain intact. Both earlier admission-engineering mistakes, the zero-world failed attempt and all costs remain recorded. No scientific gate was changed after inspecting calibration outcomes.
+
+**Found.** In constructed worlds, the separate conditional-order control passes its frozen null and sensitivity gates; the human comparison remains uncomputed.
+
+The table covers every completed constructed family. “Positive” means the entire frozen rule detected an adaptive advantage; “unsupported” means insufficient valid comparison support. These counts are instrument checks, not human findings.
+
+| Constructed family | Complete worlds | Positive | Unsupported | Frozen requirement |
+|---|---:|---:|---:|---|
+| Stable within writer and prompt | 32 | 1 | 0 | At most 3 positives |
+| Prompt changes without within-prompt drift | 32 | 1 | 0 | At most 3 positives |
+| Within-context drift of 0.15 | 8 | 8 | 0 | Report all; no sensitivity threshold |
+| Within-context drift of 0.30 | 8 | 8 | 0 | At least 7 positives |
+
+**Means.** Every frozen matrix, support, null-family and high-dose sensitivity gate passes. This admits the prepared human conditional comparison after full write-through and cost authentication. It does not establish universal false-positive control, a precise power curve, human exchangeability, causal preference change, the age of a learned value, or current endorsement. Serial dependence outside the conditioned cells remains a substantive limitation. The original volatility-reliability result is untouched. This instrument result belongs in TOOLS; G186 and G233 retain their current human-evidence limits until a completed human comparison is separately recorded.
+
+Complete execution and independent replay used 1,519.671875 CPU seconds. With all earlier charges and the existing build reserve, cumulative use is 2,066.531250 seconds. The reserved 300-second human attempt fits the original 3,600-second ceiling. No new extension, GPU work, spending or holdout use is authorized. Effects timing remains independently active; the wider ready buffer remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; In constructed worlds, the separate conditional-order control passes its frozen null and sensitivity gates; the human comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the prepared full-population human comparison under its original reserve; retain all original findings and conditional scope.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_H1_CALIBRATION_20261029.md.
+
+### OPS-S15-W3-WB1-H1-EFFECTS-COST-LAUNCH
+
+**Hypothesis.** Can the complete corrected effects comparison fit its existing allocation after preserving the entire eligible source population?
+
+**METHOD.** Authenticate the independently replayed full source census and its completed write-through, then require the constructed consumer checks and exact dependency-only parity with the original cost runner. Launch the unchanged fixed first-tenth timing design under a separate native identity. Authenticate both active job source closures, native owners and children, counted leases, fresh supervisor progress and all completion/failure watches.
+
+**Corrections first.** The source correction retains every original eligible decision and physical insertion. The separate record-link correction now uses exact unique headings; earlier incorrect source line pointers and the superseded cost-hold decision remain documented. The first delayed-receipt inspection expected sampled-session output during setup; it stopped before ACK. Inspection now records absent startup output explicitly and still requires native identity, lease and a fresh supervisor heartbeat.
+
+**Found.** The complete provenance census is recorded and its corrected effects timing pass is running in Gear 2; full effects remain cost-gated.
+
+**Means.** The full 1,399-session census has finished and its workers released their lease. Its 3,014.390625 CPU seconds bring the cumulative WB1 charge and reserve to 11,872.734375. The new timing attempt is capped at 5,000 CPU seconds within the existing 21,600-second S4 ceiling. No new extension is invoked. Complete execution and fresh replay precede any effects-cost projection; full coverage and effects still require a combined forecast including all prior costs. No scientific pilot score is inspected or used for routing.
+
+The separate conditional-order calibration is independently replaying its complete frozen matrix. Its human comparison remains gated on passing full calibration and completed write-through. Both jobs have verified native identities and terminal monitoring. The eight-card ready buffer remains unmet. Existing GPU, paid, transfer and scientific holds persist, and no additional ETA wake or health-clock reset is made. No tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete provenance census is recorded and its corrected effects timing pass is running in Gear 2; full effects remain cost-gated.; project meaning: scoped operational record; next engineering obligation: Land the complete timing pass and admit full WB1 only if the combined forecast fits; independently finish TR4 calibration.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_EFFECTS_COST_LAUNCH_20261029.md.
+
+### OPS-S15-W3-WB1-H1-CORPUS
+
+**Hypothesis.** Can every physical API insertion be retained without losing the original canonical acceptance population or the surviving characters of valid choices?
+
+**METHOD.** Use a separately registered physical-insertion identity instead of treating a menu as a unique insertion. Replay every source delta with original UTF-16 units, compare complete documents and accepted-origin survival against P2, and require exact canonical eligibility. Retain repeated and unverified excluded inserts explicitly. Compare eligible lifetimes with the original consumer wherever it succeeds. Independently reconstruct every output in a fresh native process. Ten targeted checks cover known survival, Unicode, rewritten prefixes, terminal-newline shifts, repeated selection, unmatched insertion, missing eligibility, corruption and independent replay.
+
+**Found.** The complete physical-insertion census independently replays with the original eligible decisions; effect estimation and complete study cost admission remain pending.
+
+**Means.** This is an engineering correction, not a scientific result. Original attempts, their exhausted repair counter, sources, outcomes and scientific gates remain unchanged. The October 29 explicit validity/healing commission authorizes this separate representation. No session or eligible choice is dropped, no unsupported effect is replaced with zero, and no model or threshold changes. The engineering findings are recorded in the instrument ledger rather than as a new theory result.
+
+This completed corpus pass independently replayed 1399 source units and used 3014.390625 CPU seconds. Including the earlier 8,438.953125-second charge and 120-second build/check reserve, cumulative WB1 accounting is 11872.734375 seconds under its existing 21,600-second S4 ceiling. All native workers exited and released their lease. No new extension, GPU work or paid work was used.
+
+The full census has now completed; the earlier idle inspection is historical. Dispatch the prepared corrected effects-cost consumer only after this full landing, then combine its complete forecast with the existing coverage forecast and all accumulated charges. The conditional-order calibration is separately monitored; the wider eight-card ready target remains unmet. Original scientific findings and other source, GPU, paid and transfer holds persist. No human effect is inferred from source validation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete physical-insertion census independently replays with the original eligible decisions; effect estimation and complete study cost admission remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source validation, then authenticate a repaired effects consumer and measure cumulative full-study cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_CORPUS_20261029.md.
+
+### OPS-S15-W3-CLAIM-ANCHOR-CORRECTION-20261029
+
+**Hypothesis.** Does each claim-ledger source pointer identify its own finding rather than a later correction with a similar identifier?
+
+**METHOD.** Compare every FINDINGS source anchor with an exact full heading, require exactly one match, and inspect mismatches against the retained entries. Exercise the actual record writer on a constructed original/correction pair and on missing and duplicate headings. Refresh line pointers and source hashes after recording this correction, then compare all pre-existing non-source claim fields byte-for-byte as parsed records.
+
+**Correction.** The private record writer used prefix matching. S15-GEN1, S15-CA5 and OPS-S15-W3-TR4-H1-COST pointed to suffixed headings. Each original entry exists uniquely. The writer now requires exact equality and refuses missing or duplicate headings. The old active-corrections entry explicitly qualifies its earlier, weaker anchor audit. The prior ledger is retained privately for replay.
+
+**Found.** Three claim-source pointers are corrected to exact original headings; all findings and scientific outcomes are retained.
+
+**Means.** This is a provenance correction, not a reanalysis or a change in a result. All existing public wording, estimates, scope, supersession and pursuit fields remain unchanged. The historical TR4 cost hold remains superseded by its recorded admission correction. Native research work and its immutable source closures are unaffected. The ready buffer remains incomplete.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Three claim-source pointers are corrected to exact original headings; all findings and scientific outcomes are retained.; project meaning: scoped operational record; next engineering obligation: Require exact unique headings in future write-throughs; continue the admitted correction jobs.; public scientific claim unchanged; curator decision required: No new decision. Detail: CLAIM_ANCHOR_CORRECTION_20261029.md.
+
+### OPS-S15-W3-ACTIVE-CORRECTIONS-20261029
+
+**Record-link correction (OPS-S15-W3-CLAIM-ANCHOR-CORRECTION-20261029).** The earlier anchor audit accepted identifier prefixes. Three ledger line pointers therefore selected a newer suffixed heading instead of the exact original heading. The underlying findings, source-file hashes and scientific results were intact. Exact unique-heading checks now correct those pointers and refuse missing or duplicate headings. The earlier count describes the weaker check, not exact heading validation.
+
+**Hypothesis.** Are all completed results accounted for, and does the authorized queue have useful work running with prepared next steps?
+
+**METHOD.** Verify native Windows owners, execution/verification children and creation times against the actual process inventory. Authenticate both live source closures, counted CPU leases, progress and output freshness; check available RAM, commit headroom, disk and absence of an active shared reservation. Inspect watcher ownership, terminal registrations, recent delivery/ACK state and the calendar heartbeat. Reconcile every current claim-source anchor and verify all research locks. Review the open queue against its declared source, calibration, spending and cost limits.
+
+**Corrections first.** The separate provenance representation and effects dependency preserve the original eligible population. The conditional-order design keeps the old forecast result and failed gate intact. Its initial admission imposed an unregistered extra cap margin; that accounting correction is retained. Its first full launch then stopped before any world because of a receipt-field mismatch. The actual admission guard now passes with the correct alias and refuses a corrupted checksum; the unchanged complete calibration is progressing under a separately identified recovery. All failures and CPU costs remain recorded. The final inspection also corrected an absent optional schedule-field lookup before its successful read-only audit; no service or study was changed by that inspection.
+
+**Found.** Two bounded correction jobs are progressing in Gear 2 and completed records reconcile; their guarded continuations are prepared, while the eight-card ready buffer remains unmet.
+
+The table identifies current work and its next gate. These are operational states, not unfinished scientific results.
+
+| Work | Current state | Next gate |
+|---|---|---|
+| Physical insertion provenance (WB1.h1) | All source execution finished; independent verification is progressing over the complete 1,399-session census | Full source write-through, then the prepared effects-cost consumer; combined coverage/effects forecast must fit the remaining existing S4 allocation |
+| Conditional temporal-order control (TR4.h1) | The complete eighty-world calibration is executing, with full fresh replay still required | Frozen null and sensitivity gates must pass and be fully recorded before the prepared human comparison |
+| Guarded human forecast consumer | Built; three integration checks pass, including full handler replay, failed/unlanded calibration refusal and original-population/forecast parity | Authenticated passing calibration, full original source and parent bindings, and the reserved original CPU allowance |
+| Remaining commissioned queue | Source-, calibration-, cost-, GPU- or transfer-held items remain; eight ready cards are not available | Resolve the particular prerequisites; do not count registrations or gated code as ready work |
+
+**Means.** Completed evidence is properly recorded, but the whole commission is not finished or fully buffered. The initial idle state has been remedied by two real native jobs. Source and known-answer checks are justified corrections, so no speculative analysis was substituted merely to fill slots. The correction branches preserve all previous findings and do not restart parked GPU work or spend new funds. Full claim-source reconciliation verifies records and provenance, not an independent recomputation of every historical statistic.
+
+At the inspection, all 222 claim-source anchors across 185 existing rows verify; this operational row is additional. Both counted leases correspond to their live owners. Resource headroom exceeds the registered guard thresholds. The watcher and calendar have their expected native identities and fresh heartbeats; every current completed event is acknowledged after full write-through. All four terminal types are registered for both jobs. No extra ETA wake is scheduled, and unrelated activity has not reset the next six-hour health inspection. Completion alerts own the handoff. No automatic publication is configured.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two bounded correction jobs are progressing in Gear 2 and completed records reconcile; their guarded continuations are prepared, while the eight-card ready buffer remains unmet.; project meaning: scoped operational record; next engineering obligation: Land the complete source and calibration, dispatch only their authenticated passing continuations, and keep the remaining ready-buffer deficit explicit.; public scientific claim unchanged; curator decision required: No new decision. Detail: ACTIVE_CORRECTIONS_20261029.md.
+
+### OPS-S15-W3-TR4-H1-ADMISSION-RECOVERY
+
+**Hypothesis.** Can the complete conditional-order calibration run with the registered design and authenticated cost admission?
+
+**METHOD.** Inspect the failed native owner and child, retained exception and zero-world state. Compare the receipt field expected by the immutable consumer with the completed cost record. Add only the expected checksum alias to a separately frozen admission receipt, exercise the exact production admission up to the first-world boundary, and verify that an incorrect checksum refuses. Relaunch the unchanged module and complete eighty-world configuration under a new attempt identity, with terminal monitoring.
+
+**Correction.** The consumer expects `cost_completion_sha256`; the operational receipt exposed `completion_sha256`. This failed before any constructed world was created. The original receipt and failed attempt remain immutable. The separate bound receipt carries both identical hashes. The first unregistered cap-margin correction and this interface correction are two recorded admission-engineering repairs; no scientific rule, seed, population or scoring code changes. No further automatic admission repair is presumed.
+
+**Found.** The conditional-order calibration stopped before its first world on a receipt-field mismatch; the validated interface correction is now running with the full frozen matrix and prior costs retained.
+
+**Means.** The failed attempt adds 0.890625 CPU seconds. Cumulative charges and build reserve are 546.859375; recovery cap is 2753 with 300 seconds held for the human comparison, all within the original 3,600. The earlier claim that both jobs were active was a launch snapshot: this calibration had already stopped; the provenance reconstruction remained healthy. Recovery native identity and watcher registration now verify. Complete calibration and full write-through remain mandatory before the prepared human runner. Original findings and all unrelated holds remain unchanged. No partial scientific score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The conditional-order calibration stopped before its first world on a receipt-field mismatch; the validated interface correction is now running with the full frozen matrix and prior costs retained.; project meaning: scoped operational record; next engineering obligation: Finish all eighty calibration worlds and fresh replay; fully land their verdict before guarded human dispatch.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_H1_ADMISSION_RECOVERY_20261029.md.
+
+### OPS-S15-W3-TR4-H1-COST-ADMISSION-CORRECTION
+
+**Hypothesis.** Does the complete frozen calibration fit the original allowance under its registered accounting rule?
+
+**METHOD.** Recompute eighty times the measured complete native pilot charge times 1.5, plus 60 CPU seconds, retaining all previous charges and the 300-second human/replay reserve. Compare this projection with the remaining original allowance; no scientific pilot readout is used.
+
+**Correction.** The first admission helper applied a further ten-percent attempt-cap multiplier not specified in the registration. Its 2,812-second cap incorrectly triggered a hold even though the registered projection fits. The first receipt and its ACK remain. The corrected cap is the remaining 2754 whole CPU seconds, still above the registered 2555.625000-second forecast. With 545.968750 already charged or reserved and 300 seconds held for the human comparison, the total remains within 3,600. This is an accounting implementation correction, not a change of population, worlds, thresholds, repetitions, safety factor or scientific outcome. No S4 extension or TR4.ic transfer occurs.
+
+**Found.** The complete conditional-control calibration fits its registered cost rule and original cumulative ceiling; an extra unregistered attempt margin caused the earlier erroneous cost hold.
+
+**Means.** The complete eighty-world calibration may run in Gear 2 with fresh replay. It must pass its frozen null and sensitivity gates and be fully recorded before human dispatch. Original TR4 and TR4.ic results and all other holds remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete conditional-control calibration fits its registered cost rule and original cumulative ceiling; an extra unregistered attempt margin caused the earlier erroneous cost hold.; project meaning: scoped operational record; next engineering obligation: Run the complete frozen calibration and independently replay every world before human admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_H1_COST_ADMISSION_CORRECTION_20261029.md.
+
+### OPS-S15-W3-TR4-H1-COST
+
+**Hypothesis.** Can a reference that preserves each writer's prompt context and sample sizes validly test whether temporal ordering helps the adaptive forecast?
+
+**METHOD.** Keep the parent forecast, original source preparation, all writer memberships, prospective score masks and paired uncertainty. Separately register a within-writer, within-prompt and equal-choice-count permutation group, using the rank of the observed gain rather than a zero-reference-mean requirement. Validate exact orbit arithmetic and complete source preservation, then require frozen known-answer calibration and independent replay. The conditional null is explicit; serial dependence can violate it, and no causal or preference interpretation follows automatically.
+
+**Corrections first.** A difference between unequal predictors need not average zero under a permutation null. This new control is frozen separately under the October 29 validity/healing commission; the original failed gate, human result, planted sensitivity check and unsupported volatility reliability remain intact. No threshold was removed from an existing result and no known calibration outcome was used to select new seeds.
+
+**Found.** The complete conditional-control timing world independently replays, but the frozen calibration does not fit the remaining original allocation; the design is cost-held.
+
+**Means.** The discarded full-size cost world and its independent replay used 20.796875 CPU seconds. Its scientific readout is not inspected for routing or design. The full eighty-world projection is 2555.625000 CPU seconds, including 1.5 safety and 60 seconds runtime reserve; attempt cap is 2812. A further 300 seconds is reserved for human execution and fresh replay. Cumulative previous costs and the 120-second build reserve are retained. Admission is False under the original 3,600-second ceiling, with no extension or borrowing from TR4.ic.
+
+The comparison concerns predictive temporal ordering, not the age of a value or current endorsement. This is an instrument record; theory claims remain unchanged. Complete calibration must retain both null families and both drift families, with every world replayed. A failed calibration is a result, never a retry trigger. Gear 2 CPU-only work preserves all GPU, paid, transfer and other study holds. The wider ready queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete conditional-control timing world independently replays, but the frozen calibration does not fit the remaining original allocation; the design is cost-held.; project meaning: scoped operational record; next engineering obligation: Retain the cost hold and complete other authorized work without reducing the frozen calibration.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_H1_COST_20261029.md.
+
+
+**Accounting correction (OPS-S15-W3-TR4-H1-COST-ADMISSION-CORRECTION).** The registered projection fits the original ceiling. An extra ten-percent attempt-cap margin in the admission helper caused the initial false hold; the corrected cap uses only the remaining allocation after prior charges and the original human reserve. The initial measurement and false-hold receipt remain retained.
+
+### OPS-S15-W3-TR4-H1-NATIVE
+
+**Hypothesis.** Can a reference that preserves each writer's prompt context and sample sizes validly test whether temporal ordering helps the adaptive forecast?
+
+**METHOD.** Keep the parent forecast, original source preparation, all writer memberships, prospective score masks and paired uncertainty. Separately register a within-writer, within-prompt and equal-choice-count permutation group, using the rank of the observed gain rather than a zero-reference-mean requirement. Validate exact orbit arithmetic and complete source preservation, then require frozen known-answer calibration and independent replay. The conditional null is explicit; serial dependence can violate it, and no causal or preference interpretation follows automatically.
+
+**Corrections first.** A difference between unequal predictors need not average zero under a permutation null. This new control is frozen separately under the October 29 validity/healing commission; the original failed gate, human result, planted sensitivity check and unsupported volatility reliability remain intact. No threshold was removed from an existing result and no known calibration outcome was used to select new seeds.
+
+**Found.** The separate conditional-order control passes exact-rank and preservation checks with fresh native replay; complete cost and calibration admission remain required.
+
+**Means.** Six targeted checks and a fresh native process verify exact small-orbit rank arithmetic, ties, offset invariance, fixed and missing rows, conditional-cell preservation, unchanged parent forecast arithmetic, handler reentry and corruption refusal. No scientific calibration or human outcome is admitted.
+
+The comparison concerns predictive temporal ordering, not the age of a value or current endorsement. This is an instrument record; theory claims remain unchanged. Complete calibration must retain both null families and both drift families, with every world replayed. A failed calibration is a result, never a retry trigger. Gear 2 CPU-only work preserves all GPU, paid, transfer and other study holds. The wider ready queue remains underbuilt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate conditional-order control passes exact-rank and preservation checks with fresh native replay; complete cost and calibration admission remain required.; project meaning: scoped operational record; next engineering obligation: Measure the complete discarded cost world, then admit the frozen eighty-world calibration only if total cost fits.; public scientific claim unchanged; curator decision required: No new decision. Detail: TR4_H1_NATIVE_20261029.md.
+
+### OPS-S15-W3-VALIDITY-HEALING-LAUNCH
+
+**Hypothesis.** Can the idle authorized queue resume useful work after a validity and healing review, with completed results fully recorded and original scientific limits preserved?
+
+**METHOD.** Reconcile current claim-source anchors, recent registered terminals, native ownership, resources, compute leases, locks and durable delivery. Trace the blocked process-effects consumer to its source assumption and compare it with canonical replay. Review the completed temporal-reference and recurrence-sensitivity failures before deciding what is repairable. Build and validate a separate physical-insertion representation, exercise the unchanged effect consumer, complete a measured 140-session timing pass with fresh replay, then launch the complete 1,399-session source reconstruction.
+
+**Corrections first.** The old span consumer wrongly assumes one insertion per menu. Canonical replay already marks repeated selections unusable; retaining separate physical insertion identities removes the whole-session refusal without adding an eligible decision. Earlier source attempts and exhausted repair counts remain intact. One test corruption fixture also used an exclusive-create writer; its failure is retained and its test-only overwrite corrected. The common native runtime records two admitted numerical threads per job; the source extractor itself is serial. The plan's advisory one-thread field is not an enforced runtime setting, and is not represented here as one. No runtime or scientific gate was changed.
+
+**Found.** The corrected complete-source provenance rerun is active in Gear 2 with verified monitoring; recorded results reconcile, but the wider ready queue is not fully built.
+
+**Means.** The machine has active, bounded work again. This is source and instrument verification, not a human process-effects result. The repaired effects and effects-cost consumers are built; their dispatch is guarded by full corpus write-through, exact source bindings and cumulative cost. No failed scientific gate was removed to create runnable work. Exploratory scientific additions are not substituted for this justified repair.
+
+The table distinguishes the audited blocker from its present disposition. It does not report unfinished effects or certify that every historical statistic was independently recomputed.
+
+| Reviewed component | Evidence and disposition |
+|---|---|
+| Result records | All 214 pre-existing claim-source anchors verified; no recent unlanded terminal at the initial inspection. All three new completed engineering passes have full findings, instrument, TODO, claim-ledger and operations entries, then ACKs. |
+| Process-effects source | Ten known-answer checks and native replay pass; seven complete effect cases and four consumer checks pass. The 140-session timing subset independently replays. Complete corpus execution and verification are now active. |
+| Temporal forecast comparison | Original biased-reference finding and planted-check failure retained. A scientifically different conditional control would require a separate frozen validation; removing the existing gate is not a repair. |
+| Cross-session recurrence | Original negative-direction sensitivity failure retained; human inference remains unadmitted. |
+| Fiction identification | Constructed cache parity is recorded, with mixed timings. Full scientific calibration and complete cost admission remain; no speedup is inferred. |
+| Wider queue | Eight ready cards are still not available. A built consumer with unverified inputs is gated, not counted as ready. Existing GPU, paid, transfer and other scientific holds persist. |
+
+The live source owner and execution child were identified by PID, creation time and executable; their counted lease, fresh source progress and all four terminal monitors verify. All 21 research locks pass. WB1's prior cumulative charge is 8858.343750 CPU seconds, the current attempt is capped at 5544 seconds including verification, and the worst-case total remains below the existing 21,600-second S4 ceiling. The recorded source timing suggests roughly an hour for full execution and replay, subject to session-size variation. Completion, failure and interruption alerts remain active; the independent six-hour health clock is unchanged.
+
+Next: fully land the complete provenance census, then dispatch the prepared effects-cost consumer only after its source and budget checks pass. Combine the existing coverage forecast with the completed effects forecast and every accumulated charge before a full WB1 dispatch. Preserve checkpoint evidence and route any new failure under the registered limits. No automatic publication is configured.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected complete-source provenance rerun is active in Gear 2 with verified monitoring; recorded results reconcile, but the wider ready queue is not fully built.; project meaning: scoped operational record; next engineering obligation: Land complete corpus provenance, run guarded effects-cost measurement, and admit the complete corrected comparison only if cumulative cost fits.; public scientific claim unchanged; curator decision required: No new decision. Detail: VALIDITY_HEALING_LAUNCH_20261029.md.
+
+### OPS-S15-W3-WB1-H1-TIMING
+
+**Hypothesis.** Can every physical API insertion be retained without losing the original canonical acceptance population or the surviving characters of valid choices?
+
+**METHOD.** Use a separately registered physical-insertion identity instead of treating a menu as a unique insertion. Replay every source delta with original UTF-16 units, compare complete documents and accepted-origin survival against P2, and require exact canonical eligibility. Retain repeated and unverified excluded inserts explicitly. Compare eligible lifetimes with the original consumer wherever it succeeds. Independently reconstruct every output in a fresh native process. Ten targeted checks cover known survival, Unicode, rewritten prefixes, terminal-newline shifts, repeated selection, unmatched insertion, missing eligibility, corruption and independent replay.
+
+**Found.** The physical-insertion timing subset independently replays, preserving eligible decisions; the complete source census remains to be verified.
+
+**Means.** This is an engineering correction, not a scientific result. Original attempts, their exhausted repair counter, sources, outcomes and scientific gates remain unchanged. The October 29 explicit validity/healing commission authorizes this separate representation. No session or eligible choice is dropped, no unsupported effect is replaced with zero, and no model or threshold changes. The engineering findings are recorded in the instrument ledger rather than as a new theory result.
+
+This completed timing pass independently replayed 140 source units and used 294.312500 CPU seconds. Including the earlier 8,438.953125-second charge and 120-second build/check reserve, cumulative WB1 accounting is 8855.093750 seconds under its existing 21,600-second S4 ceiling. All native workers exited and released their lease. No new extension, GPU work or paid work was used.
+
+The timing subset is the fixed first 140 sessions in the authenticated source order. It is only a cost/source check, not a scientific subset. The full-source execution plus replay forecast is 4411.534152 CPU seconds, with a further hard-cap reserve; complete population dispatch is admitted within the unchanged cumulative ceiling.
+
+The broader ready queue remains underbuilt. The preceding readiness inspection authenticated all 214 existing claim anchors, healthy watcher/calendar identities, fresh output scans and zero unlanded recent terminal files; it found no research worker active. The idle-capacity defect persists until measured work actually starts. TR4’s biased reference, TR3’s failed sensitivity, FIC1 cost/calibration, GPU parking and other holds remain. No exploratory scientific result is inferred from this source validation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The physical-insertion timing subset independently replays, preserving eligible decisions; the complete source census remains to be verified.; project meaning: scoped operational record; next engineering obligation: Complete source validation, then authenticate a repaired effects consumer and measure cumulative full-study cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_TIMING_20261029.md.
+
+### OPS-S15-W3-WB1-H1-EFFECTS-NATIVE
+
+**Hypothesis.** Does correcting physical insertion identity preserve every original effect window, censoring decision and valid acceptance retention value?
+
+**METHOD.** Freeze separate effects and cost consumers whose executable changes are limited to the provenance dependency and call. Verify source equivalence structurally. Exercise seven complete constructed raw logs through the original and corrected consumers, with known Unicode retention, deletion, interior replacement, rewritten-prefix and newline cases. Retain repeated and unverified excluded selections without turning them into eligible effects. Independently reconstruct all outputs in a fresh native process.
+
+**Corrections first.** A test intended to corrupt its disposable saved payload used the repository's exclusive-create writer. That writer correctly refused an overwrite before the corruption check. The test now overwrites only its disposable fixture explicitly; all consumer code remained unchanged. The failed test and three passing checks are retained; the corrected four-check run passes. This is one recorded engineering fixture repair, not a scientific gate adjustment.
+
+**Found.** The separate effects consumer preserves known-answer windows and exact eligible retention under fresh replay; full corpus and cost admission remain required.
+
+**Means.** Eligible retention remains exactly the original quantity, while excluded API inserts no longer force whole-session failure. Missing acceptance is still missing, and no new scientific result is admitted. The original source failure and exhausted shared repairs remain preserved. The source timing worker is separate and must complete its full replay and write-through before full corpus validation; that must land before effects-cost dispatch. This validation uses 3.25 CPU seconds, charged additionally to WB1; its concurrent launch reserved the full 600-second timing allocation. The existing 21,600-second S4 ceiling and 120-second build/check reserve remain. No new spending or GPU execution.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate effects consumer preserves known-answer windows and exact eligible retention under fresh replay; full corpus and cost admission remain required.; project meaning: scoped operational record; next engineering obligation: Finish complete source validation, then dispatch the unchanged effects cost workload with the corrected dependency.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_EFFECTS_NATIVE_20261029.md.
+
+### OPS-S15-W3-WB1-H1-NATIVE
+
+**Hypothesis.** Can every physical API insertion be retained without losing the original canonical acceptance population or the surviving characters of valid choices?
+
+**METHOD.** Use a separately registered physical-insertion identity instead of treating a menu as a unique insertion. Replay every source delta with original UTF-16 units, compare complete documents and accepted-origin survival against P2, and require exact canonical eligibility. Retain repeated and unverified excluded inserts explicitly. Compare eligible lifetimes with the original consumer wherever it succeeds. Independently reconstruct every output in a fresh native process. Ten targeted checks cover known survival, Unicode, rewritten prefixes, terminal-newline shifts, repeated selection, unmatched insertion, missing eligibility, corruption and independent replay.
+
+**Found.** The separate physical-insertion instrument passes known-answer checks and independent replay; complete corpus validation and effects admission remain pending.
+
+**Means.** This is an engineering correction, not a scientific result. Original attempts, their exhausted repair counter, sources, outcomes and scientific gates remain unchanged. The October 29 explicit validity/healing commission authorizes this separate representation. No session or eligible choice is dropped, no unsupported effect is replaced with zero, and no model or threshold changes. The engineering findings are recorded in the instrument ledger rather than as a new theory result.
+
+This completed constructed pass independently replayed 7 source units and used 1.828125 CPU seconds. Including the earlier 8,438.953125-second charge and 120-second build/check reserve, cumulative WB1 accounting is 8560.781250 seconds under its existing 21,600-second S4 ceiling. All native workers exited and released their lease. No new extension, GPU work or paid work was used.
+
+The seven constructed sources include exact positive survival, complete deletion, interior replacement, repeated selection and unverified excluded insertion. Full-population timing and corpus provenance validation are next.
+
+The broader ready queue remains underbuilt. The preceding readiness inspection authenticated all 214 existing claim anchors, healthy watcher/calendar identities, fresh output scans and zero unlanded recent terminal files; it found no research worker active. The idle-capacity defect persists until measured work actually starts. TR4’s biased reference, TR3’s failed sensitivity, FIC1 cost/calibration, GPU parking and other holds remain. No exploratory scientific result is inferred from this source validation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate physical-insertion instrument passes known-answer checks and independent replay; complete corpus validation and effects admission remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source validation, then authenticate a repaired effects consumer and measure cumulative full-study cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WB1_H1_NATIVE_20261029.md.
+
+### OPS-S15-W3-FIC1-H1-CACHE-NATIVE
+
+**Hypothesis.** Can repeated context calculations be reused without changing any observed profile, control, support decision or nuisance fit?
+
+**METHOD.** Freeze a separate FIC1.h1 implementation under the packet's exact-cheaper-implementation rule. Bind a bounded donor-measure cache and original support to one private data snapshot. Reuse the original arithmetic; reconstruct literal diagnostics, all donor rotations and all nuisance fits on every assignment. Compare complete canonical JSON against the original on both existing nine-writer typed-event worlds: identity, draws 0 through 31, repeated draw 0 and repeated identity. Independently rebuild all worlds and both implementations in a fresh native process. Eight targeted checks also cover eviction, unsupported prefixes, source/output mutation, instance isolation and role-crossing refusal.
+
+**Corrections first.** One constructed missing-donor fixture changed prompt metadata in occurrence units but not their linked feature rows. The original consistency guard correctly refused it before comparison. Updating the paired fixture field resolved the issue; the initial failed test and seven passing checks are retained. A private launcher then named a nonexistent prior-receipt filename and refused before any plan, worker or monitor was created. Substituting the verified existing native landing receipt resolved the preflight. Both count conservatively as used component engineering corrections. Neither changed the original analysis or cached arithmetic. No scientific failure was repaired or gate weakened.
+
+**Found.** The separate context cache exactly reproduces complete constructed outputs; a consistent speedup, corpus parity and scientific admission remain unestablished.
+
+**Means.** Every complete output, including unsupported cases, matches byte for byte on this constructed validation. The timing comparison is mixed: caching is slightly faster for prompt-only construction and slower for planted-writer construction in both execution and fresh replay. This is not a cost-admission success, a scientific calibration or human identification. Corpus-sized cost may differ, but it has not been measured here; no full-scale speedup is inferred. Original modules, populations, reference counts and all controls remain unchanged. No scientific descendants are registered from this engineering entry.
+
+The table records engineering execution cost, not scientific effect scores. Each timing column totals 35 complete context constructions within one fixed world; the cached constructor's small setup charge is additional and retained in the aggregate receipt.
+
+| Constructed world and process | Original context CPU seconds | Cached context CPU seconds |
+|---|---|---|
+| Prompt-only, execution | 7.109375 | 6.625 |
+| Planted-writer, execution | 7.859375 | 9.15625 |
+| Prompt-only, fresh replay | 7.078125 | 6.796875 |
+| Planted-writer, fresh replay | 7.234375 | 8.5 |
+
+All native workers exited and released the counted lease. Complete validation used 67.203125 CPU seconds against its 300-second cap. Including the 120-second construction/check reserve, cumulative FIC1 charges are 4,013.4375 of the original 7,200 seconds, leaving 3,186.5625. No S4 extension is invoked. Full corpus parity, scientific calibration and complete cost admission remain. Further optimization must retain exact parity and the packet's registration and cumulative-accounting rules; this result does not justify rerunning a complete scientific cell or silently dropping context reconstruction. The wider ready queue remains underbuilt. GPU parking, scientific gates, source and transfer holds persist. No new research hypothesis was harvested from the health wakes.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate context cache exactly reproduces complete constructed outputs; a consistent speedup, corpus parity and scientific admission remain unestablished.; project meaning: scoped operational record; next engineering obligation: Resolve exact whole-study execution cost and complete scientific calibration before human scoring; do not claim a cache speedup from these mixed timings; public scientific claim unchanged; curator decision required: No new decision. Detail: FIC1_H1_CACHE_NATIVE_20261029.md.
+
 ### OPS-S15-W3-DIGEST-20261028
 
 **Hypothesis.** Are the completed evidence, corrections, delivery obligations and unused capacity fully accounted for in the daily handoff?

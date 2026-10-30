@@ -794,6 +794,24 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Match complete claim headings, never identifier prefixes.** A ledger refresher
+  selected newer suffixed headings for three original entries because it used
+  `startswith`. A matching source-file hash did not detect the wrong line pointer.
+  Require exactly one equal heading and validate the actual writer against a
+  prefix collision, a missing heading and duplicate headings. Preserve the old
+  ledger and verify that scientific fields and supersession links do not change.
+  (OPS-S15-W3-CLAIM-ANCHOR-CORRECTION-20261029)
+
+- **Exercise production admission with the actual landing receipt before launch.**
+  TR4.h1's constructed mode passed while its main mode expected a checksum alias
+  absent from the cost receipt. The job stopped before its first world. Test the
+  actual producer-consumer boundary and a corrupted checksum, not just separate
+  helpers. Keep the registered safety factor distinct from the hard attempt cap:
+  an unregistered extra margin had also created a false cost hold. Retain both
+  corrections and all charges; neither changes scientific admission rules.
+  (OPS-S15-W3-TR4-H1-COST-ADMISSION-CORRECTION,
+  OPS-S15-W3-TR4-H1-ADMISSION-RECOVERY)
+
 - **A released slot can already belong to the next job.** Compare the lease's
   native owner identity, not merely whether its pathname still exists. The GEN1
   validation process had exited and released its lease; ToMpathy correctly reused
