@@ -1,5 +1,17 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-HEALTH-20261030-0330: The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
+
+- [x] OPS-S15-W3-DIGEST-20261029: Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained.
+
+- [ ] S15-V4C-MC199: BUILD NEXT under Week 3 section 6. CPU-only whole-pipeline 199-null reference, preserving original V4/V4.c labels. Inspect fitted no-taste generation, intercept/habit retention and whole-source cost before admission. No new gear or paid authority.
+
+- [ ] S15-D10: GPU HELD under the current Gear 2 allocation; the commissioned embedding card cannot be used to restart the parked GPU.
+
+- [x] OPS-S15-W3-D5-REFERENCE-PLANS-CORPUS: Every planned reference assignment independently replays; identification and scientific control admission remain uncomputed.
+
+- [x] OPS-S15-W3-D5-REFERENCE-PLANS-NATIVE: Fixed-population reference preparation passes constructed native replay; full-source support and scientific identification remain separate.
+
 - [x] OPS-S15-W3-D5-READER-CACHE-CORPUS: Exact reader inputs independently replay for the complete source; identification and its scientific controls remain uncomputed.
 
 - [x] OPS-S15-W3-D5-READER-CACHE-NATIVE: Exact reader preparation passes constructed native replay; complete source execution and scientific identification remain separate.
@@ -16,7 +28,7 @@
 
 - [x] OPS-S15-W3-D5-FEATURE-NATIVE: The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.
 
-- [ ] S15-D5: COMPLETE ORIGINAL GALLERY UNSUPPORTED under the inherited prompt split; all original writers retained. Source, word/process, character, gallery support and exact reader inputs are complete. Next: separately register the supported-writer diagnostic while retaining the full-population gap, then build identification, full controls, scientific calibration and cost admission. Cumulative charge is 1426.999625 of the unchanged 3600 CPU-second probe. [Latest record](results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md).
+- [ ] S15-D5: HUMAN-TEXT INFERENCE HELD. The original full gallery is unsupported; the separately registered supported comparison also lacks complete fixed-gallery reference support at every human-text length. All draws and gaps remain recorded. Final-text and process banks have support; their scientific calibration and scoring remain unbuilt. No identification outcome exists. Cumulative charge is 1596.494875 of the unchanged 3600 CPU-second probe. [Full preparation](results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_CORPUS_20261029.md).
 
 - [x] OPS-S15-W3-D5-SOURCE-CORPUS: The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.
 

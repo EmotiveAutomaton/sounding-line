@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-HEALTH-20261030-0330:** [Record](HEALTH_20261030_0330.md). The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
+
+**OPS-S15-W3-DIGEST-20261029:** [Record](DIGEST_20261029.md). Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained.
+
+**OPS-S15-W3-D5-REFERENCE-PLANS-CORPUS:** [Record](D5_REFERENCE_PLANS_CORPUS_20261029.md). Every planned reference assignment independently replays; identification and scientific control admission remain uncomputed.
+
+**OPS-S15-W3-D5-REFERENCE-PLANS-NATIVE:** [Record](D5_REFERENCE_PLANS_NATIVE_20261029.md). Fixed-population reference preparation passes constructed native replay; full-source support and scientific identification remain separate.
+
 **OPS-S15-W3-D5-READER-CACHE-CORPUS:** [Record](D5_READER_CACHE_CORPUS_20261029.md). Exact reader inputs independently replay for the complete source; identification and its scientific controls remain uncomputed.
 
 **OPS-S15-W3-D5-READER-CACHE-NATIVE:** [Record](D5_READER_CACHE_NATIVE_20261029.md). Exact reader preparation passes constructed native replay; complete source execution and scientific identification remain separate.

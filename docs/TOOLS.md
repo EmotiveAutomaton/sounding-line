@@ -2597,6 +2597,14 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-HEALTH-20261030-0330:** The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261030_0330.md).
+
+**OPS-S15-W3-DIGEST-20261029:** Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained. [Record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261029.md).
+
+**OPS-S15-W3-D5-REFERENCE-PLANS-CORPUS:** Every planned reference assignment independently replays; identification and scientific control admission remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_CORPUS_20261029.md).
+
+**OPS-S15-W3-D5-REFERENCE-PLANS-NATIVE:** Fixed-population reference preparation passes constructed native replay; full-source support and scientific identification remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_NATIVE_20261029.md).
+
 **OPS-S15-W3-D5-READER-CACHE-CORPUS:** Exact reader inputs independently replay for the complete source; identification and its scientific controls remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md).
 
 **OPS-S15-W3-D5-READER-CACHE-NATIVE:** Exact reader preparation passes constructed native replay; complete source execution and scientific identification remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_NATIVE_20261029.md).

@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[D5.supported prospective comparison](D5_SUPPORTED_COMPARISON_20261029.md) retains the original population gap. [Complete reference preparation](../../../../results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_CORPUS_20261029.md) replays every draw; missing candidate evidence holds the human-text inference. Final-text/process scientific calibration and scoring remain unbuilt.
+
 [Exact D5 reader preparation](D5_READER_CACHE_20261029.md) is complete with [independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md). Every original session and prepared text length is retained. This is source preparation; the supported-writer diagnostic, scientific controls and full-workload admission remain unbuilt.
 
 [D5 fixed-population gallery support](D5_GALLERY_SUPPORT_20261029.md) is complete with [fresh independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md). The inherited split supports 45 of 61 writers; the complete original gallery remains unsupported. Identification has not run.

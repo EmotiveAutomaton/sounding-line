@@ -1011,3 +1011,15 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-30T01:28:17.456602+00:00 OPS-S15-W3-D5-READER-CACHE-CORPUS: Exact reader inputs independently replay for the complete source; identification and its scientific controls remain uncomputed.
 
 2026-10-30T01:31:05.627686+00:00 D5 reader preparation: one-slot idle-hour lower bound 0.448174, from gallery completion to constructed dispatch and constructed completion to full dispatch, subtracting the entire targeted-test elapsed time. Cause: required build/known-answer validation, delayed-event reconciliation and complete internal landing before dependent execution. This is a queue defect while commissioned work remains, not a four-slot occupancy census. The full reader cache has now completed; the scientific consumer and eight-card ready buffer remain unbuilt. All result events are acknowledged after full write-through; no GPU or paid work restarted.
+
+2026-10-30T01:58:02.292260+00:00 OPS-S15-W3-D5-REFERENCE-PLANS-NATIVE: Fixed-population reference preparation passes constructed native replay; full-source support and scientific identification remain separate.
+
+2026-10-30T01:59:40.786708+00:00 OPS-S15-W3-D5-REFERENCE-PLANS-CORPUS: Every planned reference assignment independently replays; identification and scientific control admission remain uncomputed.
+
+2026-10-30T02:04:23.444937+00:00 D5 reference preparation close: one-slot idle-hour lower bound 0.574474, from prior reader completion to constructed dispatch and constructed completion to full dispatch, subtracting the entire new targeted-test elapsed time. Cause: prospective build, known-answer validation, delayed-event reconciliation and full internal landing before dependent execution. This is a queue defect, not a four-slot occupancy census. Both new preparations are fully landed and acknowledged. Required human-text reference support is unavailable; no scores computed or draws dropped. Gear 2 is idle, ready buffer incomplete; V4.c reference cost preparation is next. D10 remains GPU-held. Watcher and calendar native identities verify; no current delivery failure or resource stop. Ordinary ACKs preserved the six-hour health deadline.
+
+2026-10-30T10:37:27.998650+00:00 OPS-S15-W3-DIGEST-20261029: Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained.
+
+2026-10-30T10:37:36.755262+00:00 OPS-S15-W3-HEALTH-20261030-0330: The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
+
+2026-10-30T10:37:27.998650+00:00 Daily capacity defect: 93.194325 estimated idle research-worker slot-hours of 96; terminal intervals deduplicated by native owner, excluding uncounted construction/tests/inspection. Ready cards 0 of 8. Cause: unfinished implementation and admission. Existing one-slot lower bounds overlap and are not added. No scope or gate relaxed. Approved exact commit 60f47b16c pushed and remote verified after the reporting interval; later changes remain local.
