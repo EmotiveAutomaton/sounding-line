@@ -2615,7 +2615,7 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 **OPS-S15-W3-D5-AUTHENTICATED-REUSE-NATIVE:** The exact-reuse source path preserves every retained session payload and passes native replay; full source completion and identification remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_AUTHENTICATED_REUSE_NATIVE_20261029.md).
 
-**OPS-S15-W3-D5-EXACT-REUSE-COST-STOP:** D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists. [Record](../results/phase_2_4_stage_15/DRIVE/D5_EXACT_REUSE_COST_STOP_20261029.md).
+**OPS-S15-W3-D5-EXACT-REUSE-COST-STOP:** This D5 source attempt stopped on cumulative projected cost; its partial checkpoints are retained. A separately registered source successor subsequently completed; identification remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/D5_EXACT_REUSE_COST_STOP_20261029.md).
 
 **OPS-S15-W3-D5-EXACT-REUSE-LAUNCH:** D5 exact-reuse source preparation and fresh replay are running under verified Gear 2 ownership; completed records are reconciled and the ready buffer remains incomplete. [Record](../results/phase_2_4_stage_15/DRIVE/D5_EXACT_REUSE_LAUNCH_20261029.md).
 

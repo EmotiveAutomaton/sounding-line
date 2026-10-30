@@ -24,7 +24,7 @@
 
 - [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: BUILD exact reuse of both authenticated completed upstream sources with unchanged D5 transforms and retained-session parity. Original D5 source is cost-stopped; all charges remain. No identification result.
 
-- [x] OPS-S15-W3-D5-EXACT-REUSE-COST-STOP: D5 source preparation yielded at its conservative cost projection; partial checkpoints are retained and no complete source or identification result exists.
+- [x] OPS-S15-W3-D5-EXACT-REUSE-COST-STOP: This D5 source attempt stopped on cumulative projected cost; its partial checkpoints are retained. A separately registered source successor subsequently completed; identification remains uncomputed.
 
 - [x] Historical D5 preparation snapshot, resolved by subsequent completion or retained cost stop; not a runnable job: S15-D5.h1: RUNNING source preparation and fresh replay only. Identification, length matching, bins and scientific controls require a separate frozen build. Retain the fixed CPU probe total and all previous charges. [Launch](results/phase_2_4_stage_15/DRIVE/D5_EXACT_REUSE_LAUNCH_20261029.md).
 
