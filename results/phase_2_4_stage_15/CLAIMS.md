@@ -241,3 +241,5 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W3-D5-SOURCE-CORPUS | operational | infrastructure / passes | The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed. |
 | OPS-S15-W3-D5-FEATURE-NATIVE | operational | infrastructure / passes | The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate. |
 | OPS-S15-W3-D5-FEATURE-CORPUS | operational | infrastructure / passes | Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed. |
+| OPS-S15-W3-D5-CHARACTER-NATIVE | operational | infrastructure / passes | The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate. |
+| OPS-S15-W3-D5-CHARACTER-CORPUS | operational | infrastructure / passes | Exact character counts independently replay for every prepared session; writer identification remains uncomputed. |

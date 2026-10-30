@@ -1,10 +1,14 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-D5-CHARACTER-CORPUS: Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
+
+- [x] OPS-S15-W3-D5-CHARACTER-NATIVE: The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.
+
 - [x] OPS-S15-W3-D5-FEATURE-CORPUS: Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.
 
 - [x] OPS-S15-W3-D5-FEATURE-NATIVE: The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.
 
-- [ ] S15-D5: SOURCE AND FEATURES COMPLETE. Build and freeze identification, bin/matching choices, full inherited controls and known-answer scientific calibration. Retain all previous CPU charges. [Latest record](results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md).
+- [ ] S15-D5: SOURCE, WORD/PROCESS AND EXACT CHARACTER FEATURES COMPLETE. Build and freeze identification, bin/matching choices, full inherited controls and known-answer scientific calibration. Cumulative charge is 1071.349375 of the unchanged 3600 CPU-second probe. [Latest record](results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md).
 
 - [x] OPS-S15-W3-D5-SOURCE-CORPUS: The complete D5 text and process source independently replays with every prepared session retained; writer identification and its scientific controls remain uncomputed.
 

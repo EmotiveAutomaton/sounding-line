@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[Exact D5 character preparation](D5_CHARACTER_FEATURES_20261029.md) is complete on all prepared sessions with [independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md). All three channel sources are available; identification, scientific controls and whole-workload admission remain unbuilt.
+
 [D5 text-length and process features](D5_FEATURES_20261029.md) are complete and independently replayed. [Full record](../../../../results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md). Identification, scientific controls and full-workload cost admission remain unbuilt. Earlier source-running snapshots are historical.
 
 [D5 authenticated source reuse](D5_AUTHENTICATED_SOURCE_REUSE_20261029.md) pass constructed native replay and actual upstream integration. [Full source dispatch](../../../../results/phase_2_4_stage_15/DRIVE/D5_AUTHENTICATED_REUSE_LAUNCH_20261029.md) is running; identification remains uncomputed.

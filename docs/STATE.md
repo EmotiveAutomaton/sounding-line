@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 29 exact D5 character features complete:** [Full preparation and replay](../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md) (OPS-S15-W3-D5-CHARACTER-CORPUS). Every prepared session is retained. Final-text and matched human character counts now accompany the word and process features. Identification and complete scientific controls remain unbuilt. Workers exited; Gear 2 is idle. The eight-card ready buffer remains incomplete; earlier snapshots are historical.
+
 **October 29 complete D5 features:** [Full preparation and replay](../results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md) (OPS-S15-W3-D5-FEATURE-CORPUS). Every prepared session is retained with separated text-length and process measurements. Writer identification and its scientific controls remain uncomputed. Workers exited; Gear 2 is currently idle. The ready buffer remains incomplete. Earlier running snapshots are historical.
 
 **October 29 separated source complete:** [Full source and independent replay](../results/phase_2_4_stage_15/DRIVE/D5_SOURCE_CORPUS_20261029.md) (OPS-S15-W3-D5-SOURCE-CORPUS). All prepared D5 sessions are retained and verified. Writer identification and scientific controls remain uncomputed. Workers exited; Gear 2 is idle during further commissioned build review. The ready buffer remains incomplete. Earlier running snapshots are historical.

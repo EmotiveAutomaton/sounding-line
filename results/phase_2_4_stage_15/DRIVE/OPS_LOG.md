@@ -991,3 +991,9 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-30T00:00:29.646508+00:00 D5 feature build: at least 0.336436 idle slot-hours between source completion and feature dispatch, after subtracting constructed native validation wall time. Conservative one-slot lower bound, not a machine-wide census. Cause: manual review/build/validation with insufficient ready work. The completed feature job has exited; the eight-card ready buffer remains unmet. Identification remains unbuilt; V4.c199 also requires a separately fitted no-taste generator. No new scientific result or restart is inferred.
 
 2026-10-30T00:08:05.329892+00:00 Reconciliation: closed the stale D33 supported-comparison running TODO against its already completed full write-through. No new inference or scientific outcome; bounded follow-ups and original scope gaps remain.
+
+2026-10-30T00:31:18.607154+00:00 OPS-S15-W3-D5-CHARACTER-NATIVE: The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.
+
+2026-10-30T00:34:38.577894+00:00 OPS-S15-W3-D5-CHARACTER-CORPUS: Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
+
+2026-10-30T00:35:57.950508+00:00 D5 character build idle accounting: at least 0.575132 one-slot hours between prior feature completion and constructed dispatch, subtracting whole elapsed time of both targeted test invocations. This is a conservative pipeline lower bound, not a four-slot census. Cause: inline build, validation and delayed-event reconciliation. The ready buffer remains below eight cards and is an operational defect. Complete character execution and replay have now ended; identification and controls remain the next commissioned build.

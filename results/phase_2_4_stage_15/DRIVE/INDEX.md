@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-D5-CHARACTER-CORPUS:** [Record](D5_CHARACTER_CORPUS_20261029.md). Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
+
+**OPS-S15-W3-D5-CHARACTER-NATIVE:** [Record](D5_CHARACTER_NATIVE_20261029.md). The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.
+
 **OPS-S15-W3-D5-FEATURE-CORPUS:** [Record](D5_FEATURE_CORPUS_20261029.md). Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed.
 
 **OPS-S15-W3-D5-FEATURE-NATIVE:** [Record](D5_FEATURE_NATIVE_20261029.md). The complete constructed text and process feature consumer independently replays; full-source execution and identification remain separate.

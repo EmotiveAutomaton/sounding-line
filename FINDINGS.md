@@ -1,5 +1,35 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-D5-CHARACTER-CORPUS
+
+**Hypothesis.** Can the commissioned writer comparison receive exact final-text and length-matched human character features without inventing sequences across missing source spans?
+
+**METHOD.** Authenticate the completed D5 source and count exact two-, three- and four-codepoint sequences, retaining case, punctuation and whitespace. Count surviving human groups separately and retain the same six word-prefix lengths as the completed word features. Verify known counts, Unicode and group boundaries, actual producer integration, changed-source refusal, immutable reentry and a fresh native reconstruction. Inspect every source/output hash, native exit and released lease.
+
+**Found.** Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
+
+All 1,399 sessions from 61 writers are retained. Complete character features independently replay. Prefix support agrees exactly with the previous word-feature preparation at every declared length. The initial test invocation passed four checks but three fixture setups were blocked by access to the default temporary directory. Its XML and charge remain. Using a new repository-local temporary directory allowed all seven checks to execute; no source or assertion changed after that failure. This is an environmental test setup interruption, not a scientific failure or an extra engineering retry. All 1451 source pins and 1416 output hashes verify. Native execution and verification consumed 77.718750 CPU seconds and 90.521581 wall seconds. Cumulative D5 charge is 1071.349375 of the unchanged 3,600 CPU-second probe allowance, including all previous preparation, the build reserve and both test invocations. All native workers exited; the counted lease is released. No identification score or p-value is introduced.
+
+**Means.** All three commissioned channel sources are available for the separately frozen identification consumer. Bin/matching choices, prompt-disjoint galleries, original and corrected context references, full permutation banks, scientific calibration and whole-workload cost admission remain unbuilt. The ready buffer remains incomplete. Other scientific, cost, GPU and paid holds persist. No new test was harvested from the wake; this implements the existing D5 commission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Exact character counts independently replay for every prepared session; writer identification remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete frozen D5 identification, controls and cost admission; preserve all holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_CHARACTER_CORPUS_20261029.md.
+
+### OPS-S15-W3-D5-CHARACTER-NATIVE
+
+**Hypothesis.** Can the commissioned writer comparison receive exact final-text and length-matched human character features without inventing sequences across missing source spans?
+
+**METHOD.** Authenticate the completed D5 source and count exact two-, three- and four-codepoint sequences, retaining case, punctuation and whitespace. Count surviving human groups separately and retain the same six word-prefix lengths as the completed word features. Verify known counts, Unicode and group boundaries, actual producer integration, changed-source refusal, immutable reentry and a fresh native reconstruction. Inspect every source/output hash, native exit and released lease.
+
+**Found.** The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.
+
+All seven targeted checks pass and complete constructed execution independently replays. The initial test invocation passed four checks but three fixture setups were blocked by access to the default temporary directory. Its XML and charge remain. Using a new repository-local temporary directory allowed all seven checks to execute; no source or assertion changed after that failure. This is an environmental test setup interruption, not a scientific failure or an extra engineering retry. All 46 source pins and 22 output hashes verify. Native execution and verification consumed 0.500000 CPU seconds and 4.381713 wall seconds. Cumulative D5 charge is 993.630625 of the unchanged 3,600 CPU-second probe allowance, including all previous preparation, the build reserve and both test invocations. All native workers exited; the counted lease is released. No identification score or p-value is introduced.
+
+**Means.** The separately frozen complete-source character pass is eligible within the bounded plan. Bin/matching choices, prompt-disjoint galleries, original and corrected context references, full permutation banks, scientific calibration and whole-workload cost admission remain unbuilt. The ready buffer remains incomplete. Other scientific, cost, GPU and paid holds persist. No new test was harvested from the wake; this implements the existing D5 commission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.; project meaning: scoped operational record; next engineering obligation: Complete frozen D5 identification, controls and cost admission; preserve all holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_CHARACTER_NATIVE_20261029.md.
+
 ### OPS-S15-W3-D5-FEATURE-CORPUS
 
 **Hypothesis.** Can the commissioned writer comparison use separated human text, equal-length candidate representations and canonical process measurements without losing sessions or manufacturing evidence at source gaps?
