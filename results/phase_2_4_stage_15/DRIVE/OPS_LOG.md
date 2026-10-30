@@ -997,3 +997,9 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-30T00:34:38.577894+00:00 OPS-S15-W3-D5-CHARACTER-CORPUS: Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
 
 2026-10-30T00:35:57.950508+00:00 D5 character build idle accounting: at least 0.575132 one-slot hours between prior feature completion and constructed dispatch, subtracting whole elapsed time of both targeted test invocations. This is a conservative pipeline lower bound, not a four-slot census. Cause: inline build, validation and delayed-event reconciliation. The ready buffer remains below eight cards and is an operational defect. Complete character execution and replay have now ended; identification and controls remain the next commissioned build.
+
+2026-10-30T00:54:49.529372+00:00 OPS-S15-W3-D5-GALLERY-NATIVE: The fixed-population gallery-support instrument passes constructed native replay; full-source support and identification remain separate.
+
+2026-10-30T00:56:42.043552+00:00 OPS-S15-W3-D5-GALLERY-CORPUS: The complete original writer census independently replays, but the requested full gallery is unsupported under the inherited prompt split.
+
+2026-10-30T00:57:59.152929+00:00 D5 gallery preparation: one-slot idle-hour lower bound 0.358399 from character completion to constructed dispatch and constructed completion to full-support dispatch, subtracting the entire targeted-test elapsed time. Cause: required build/validation, delayed-event reconciliation and full internal landing before dependent dispatch. This is a recorded queue defect while commissioned work remains, not a four-slot occupancy census. Full support is complete and Gear 2 is idle; the original full-population gallery is unsupported. No GPU or paid restart.

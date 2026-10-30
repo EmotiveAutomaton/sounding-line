@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`week3_d5_gallery_support` independently replayed the complete census after seven targeted checks. [Full support record](../../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md). The original complete gallery is unsupported; all writers remain recorded. A supported-writer diagnostic requires a separate frozen consumer, scientific controls and cost admission.
+
 `week3_d5_character_features` completed every prepared session and fresh native replay after seven passing targeted checks. [Full record](../../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md). Exact character counts and matched word prefixes preserve source gaps. Identification remains unbuilt; all D5 workers exited.
 
 `week3_d5_features` completed all prepared sessions and independent replay. The fixed text-length variants and canonical process features preserve missing support. Thirteen targeted checks and complete native validation pass. [Record](../../results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md). Identification remains unbuilt; earlier D5 running snapshots are historical.

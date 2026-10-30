@@ -243,3 +243,5 @@ OPS-S15-W3-TR4-H1-COST admission disposition is superseded by OPS-S15-W3-TR4-H1-
 | OPS-S15-W3-D5-FEATURE-CORPUS | operational | infrastructure / passes | Complete text-length and process features independently replay for every prepared session; writer identification remains uncomputed. |
 | OPS-S15-W3-D5-CHARACTER-NATIVE | operational | infrastructure / passes | The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate. |
 | OPS-S15-W3-D5-CHARACTER-CORPUS | operational | infrastructure / passes | Exact character counts independently replay for every prepared session; writer identification remains uncomputed. |
+| OPS-S15-W3-D5-GALLERY-NATIVE | operational | infrastructure / passes | The fixed-population gallery-support instrument passes constructed native replay; full-source support and identification remain separate. |
+| OPS-S15-W3-D5-GALLERY-CORPUS | operational | infrastructure / passes | The complete original writer census independently replays, but the requested full gallery is unsupported under the inherited prompt split. |

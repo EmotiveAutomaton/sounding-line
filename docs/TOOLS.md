@@ -2597,6 +2597,10 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-D5-GALLERY-CORPUS:** The complete original writer census independently replays, but the requested full gallery is unsupported under the inherited prompt split. [Record](../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md).
+
+**OPS-S15-W3-D5-GALLERY-NATIVE:** The fixed-population gallery-support instrument passes constructed native replay; full-source support and identification remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_NATIVE_20261029.md).
+
 **OPS-S15-W3-D5-CHARACTER-CORPUS:** Exact character counts independently replay for every prepared session; writer identification remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md).
 
 **OPS-S15-W3-D5-CHARACTER-NATIVE:** The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_NATIVE_20261029.md).

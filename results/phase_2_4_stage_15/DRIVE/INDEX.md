@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-D5-GALLERY-CORPUS:** [Record](D5_GALLERY_CORPUS_20261029.md). The complete original writer census independently replays, but the requested full gallery is unsupported under the inherited prompt split.
+
+**OPS-S15-W3-D5-GALLERY-NATIVE:** [Record](D5_GALLERY_NATIVE_20261029.md). The fixed-population gallery-support instrument passes constructed native replay; full-source support and identification remain separate.
+
 **OPS-S15-W3-D5-CHARACTER-CORPUS:** [Record](D5_CHARACTER_CORPUS_20261029.md). Exact character counts independently replay for every prepared session; writer identification remains uncomputed.
 
 **OPS-S15-W3-D5-CHARACTER-NATIVE:** [Record](D5_CHARACTER_NATIVE_20261029.md). The exact character-count instrument passes constructed native replay; full-source preparation and identification remain separate.

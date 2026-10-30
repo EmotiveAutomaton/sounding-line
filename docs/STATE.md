@@ -1,5 +1,7 @@
 # STATE: the agent's operational file
 
+**October 29 D5 gallery support complete:** [Verified support inventory](../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md) (OPS-S15-W3-D5-GALLERY-CORPUS). All original sessions and writers remain recorded, but only 45 of 61 writers meet the inherited prompt split. The original complete-gallery comparison is unsupported. A separately registered supported-writer diagnostic is the next build; no identification result exists. Workers exited; Gear 2 is idle and the eight-card ready buffer is incomplete. Existing holds persist; earlier snapshots are historical.
+
 **October 29 exact D5 character features complete:** [Full preparation and replay](../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md) (OPS-S15-W3-D5-CHARACTER-CORPUS). Every prepared session is retained. Final-text and matched human character counts now accompany the word and process features. Identification and complete scientific controls remain unbuilt. Workers exited; Gear 2 is idle. The eight-card ready buffer remains incomplete; earlier snapshots are historical.
 
 **October 29 complete D5 features:** [Full preparation and replay](../results/phase_2_4_stage_15/DRIVE/D5_FEATURE_CORPUS_20261029.md) (OPS-S15-W3-D5-FEATURE-CORPUS). Every prepared session is retained with separated text-length and process measurements. Writer identification and its scientific controls remain uncomputed. Workers exited; Gear 2 is currently idle. The ready buffer remains incomplete. Earlier running snapshots are historical.
