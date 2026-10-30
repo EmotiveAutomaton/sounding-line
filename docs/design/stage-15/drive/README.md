@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+[Exact D5 reader preparation](D5_READER_CACHE_20261029.md) is complete with [independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md). Every original session and prepared text length is retained. This is source preparation; the supported-writer diagnostic, scientific controls and full-workload admission remain unbuilt.
+
 [D5 fixed-population gallery support](D5_GALLERY_SUPPORT_20261029.md) is complete with [fresh independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md). The inherited split supports 45 of 61 writers; the complete original gallery remains unsupported. Identification has not run.
 
 [Exact D5 character preparation](D5_CHARACTER_FEATURES_20261029.md) is complete on all prepared sessions with [independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md). All three channel sources are available; identification, scientific controls and whole-workload admission remain unbuilt.

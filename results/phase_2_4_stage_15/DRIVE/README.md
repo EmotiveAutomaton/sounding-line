@@ -1,5 +1,7 @@
 # October 16 drive evidence
 
+**October 29 D5 reader inputs complete:** [Full independent replay](D5_READER_CACHE_CORPUS_20261029.md) (OPS-S15-W3-D5-READER-CACHE-CORPUS). Every prepared session and text length is retained with explicit missing-evidence masks. Identification and its scientific controls remain uncomputed. All D5 workers exited; Gear 2 is idle and the eight-card ready buffer is incomplete. Next is the separately registered supported-writer diagnostic, retaining the original full-population gap. Existing GPU, paid, scientific and cost holds persist; earlier snapshots are historical.
+
 **October 29 complete D5 features:** [Full preparation and replay](D5_FEATURE_CORPUS_20261029.md) (OPS-S15-W3-D5-FEATURE-CORPUS). Every prepared session is retained with separated text-length and process measurements. Writer identification and its scientific controls remain uncomputed. Workers exited; Gear 2 is currently idle. The ready buffer remains incomplete. Earlier running snapshots are historical.
 
 **October 29 separated source complete:** [Full source and independent replay](D5_SOURCE_CORPUS_20261029.md) (OPS-S15-W3-D5-SOURCE-CORPUS). All prepared D5 sessions are retained and verified. Writer identification and scientific controls remain uncomputed. Workers exited; Gear 2 is idle during further commissioned build review. The ready buffer remains incomplete. Earlier running snapshots are historical.

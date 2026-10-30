@@ -1,5 +1,9 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-D5-READER-CACHE-CORPUS:** [Record](D5_READER_CACHE_CORPUS_20261029.md). Exact reader inputs independently replay for the complete source; identification and its scientific controls remain uncomputed.
+
+**OPS-S15-W3-D5-READER-CACHE-NATIVE:** [Record](D5_READER_CACHE_NATIVE_20261029.md). Exact reader preparation passes constructed native replay; complete source execution and scientific identification remain separate.
+
 **OPS-S15-W3-D5-GALLERY-CORPUS:** [Record](D5_GALLERY_CORPUS_20261029.md). The complete original writer census independently replays, but the requested full gallery is unsupported under the inherited prompt split.
 
 **OPS-S15-W3-D5-GALLERY-NATIVE:** [Record](D5_GALLERY_NATIVE_20261029.md). The fixed-population gallery-support instrument passes constructed native replay; full-source support and identification remain separate.

@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+`week3_d5_reader_cache` completed full-source execution and fresh native replay after six targeted checks, including an independent dense oracle and the actual producer boundary. [Full record](../../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md). Explicit masks preserve unavailable evidence. No human identification was scored; all workers exited.
+
 `week3_d5_gallery_support` independently replayed the complete census after seven targeted checks. [Full support record](../../results/phase_2_4_stage_15/DRIVE/D5_GALLERY_CORPUS_20261029.md). The original complete gallery is unsupported; all writers remain recorded. A supported-writer diagnostic requires a separate frozen consumer, scientific controls and cost admission.
 
 `week3_d5_character_features` completed every prepared session and fresh native replay after seven passing targeted checks. [Full record](../../results/phase_2_4_stage_15/DRIVE/D5_CHARACTER_CORPUS_20261029.md). Exact character counts and matched word prefixes preserve source gaps. Identification remains unbuilt; all D5 workers exited.
