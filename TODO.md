@@ -1,10 +1,16 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W3-V4C-MC-FULL-LAUNCH: Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
+
+- [x] OPS-S15-W3-V4C-MC-COST: The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.
+
+- [x] OPS-S15-W3-V4C-MC-NATIVE: The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending.
+
 - [x] OPS-S15-W3-HEALTH-20261030-0330: The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
 
 - [x] OPS-S15-W3-DIGEST-20261029: Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained.
 
-- [ ] S15-V4C-MC199: BUILD NEXT under Week 3 section 6. CPU-only whole-pipeline 199-null reference, preserving original V4/V4.c labels. Inspect fitted no-taste generation, intercept/habit retention and whole-source cost before admission. No new gear or paid authority.
+- [ ] S15-V4C-MC199: RUNNING all four fixed CPU shards after native validation, exact original-statistic parity and complete-source cost admission. All 110 outer worlds and 199 references per world remain. Collector is built and gated on four verified complete shards and their write-through; no intermediate scientific verdict. [Launch](results/phase_2_4_stage_15/DRIVE/V4C_MC_FULL_LAUNCH_20261030.md).
 
 - [ ] S15-D10: GPU HELD under the current Gear 2 allocation; the commissioned embedding card cannot be used to restart the parked GPU.
 

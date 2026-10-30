@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**OPS-S15-W3-V4C-MC-FULL-LAUNCH:** [Record](V4C_MC_FULL_LAUNCH_20261030.md). Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
+
+**OPS-S15-W3-V4C-MC-COST:** [Record](V4C_MC_COST_20261030.md). The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.
+
+**OPS-S15-W3-V4C-MC-NATIVE:** [Record](V4C_MC_NATIVE_20261030.md). The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending.
+
 **OPS-S15-W3-HEALTH-20261030-0330:** [Record](HEALTH_20261030_0330.md). The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
 
 **OPS-S15-W3-DIGEST-20261029:** [Record](DIGEST_20261029.md). Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained.

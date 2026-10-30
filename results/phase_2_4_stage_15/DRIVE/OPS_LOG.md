@@ -1023,3 +1023,9 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-30T10:37:36.755262+00:00 OPS-S15-W3-HEALTH-20261030-0330: The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted.
 
 2026-10-30T10:37:27.998650+00:00 Daily capacity defect: 93.194325 estimated idle research-worker slot-hours of 96; terminal intervals deduplicated by native owner, excluding uncounted construction/tests/inspection. Ready cards 0 of 8. Cause: unfinished implementation and admission. Existing one-slot lower bounds overlap and are not added. No scope or gate relaxed. Approved exact commit 60f47b16c pushed and remote verified after the reporting interval; later changes remain local.
+
+2026-10-30T10:58:07.118904+00:00 OPS-S15-W3-V4C-MC-NATIVE: The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending.
+
+2026-10-30T11:11:26.013277+00:00 OPS-S15-W3-V4C-MC-COST: The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.
+
+2026-10-30T11:18:04.573356+00:00 OPS-S15-W3-V4C-MC-FULL-LAUNCH: Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.

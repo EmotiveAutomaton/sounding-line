@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+**October 30 full reference running in Gear 2:** [Verified launch](../../results/phase_2_4_stage_15/DRIVE/V4C_MC_FULL_LAUNCH_20261030.md) (OPS-S15-W3-V4C-MC-FULL-LAUNCH). All four counted CPU slots are active after complete source, cost and independent replay admission. The full reference consumer and guarded collector are built. Completed evidence is recorded; the first requested push is verified at af1834c460b13e1ecfd4783765a863487cb3bdd2. The complete scientific result and eight-card ready buffer remain unfinished. GPU and paid holds persist. Earlier running/idle snapshots are historical.
+
 `week3_d5_reference_plans` passes six targeted checks, constructed native replay and full-source independent replay. [Complete record](../../results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_CORPUS_20261029.md). All assignments, failed-support draws and missing evidence are preserved. No identification accuracy is computed; the human-text comparison remains support-held.
 
 `week3_d5_reader_cache` completed full-source execution and fresh native replay after six targeted checks, including an independent dense oracle and the actual producer boundary. [Full record](../../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md). Explicit masks preserve unavailable evidence. No human identification was scored; all workers exited.

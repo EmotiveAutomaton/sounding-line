@@ -1,5 +1,7 @@
 # October 16 drive commission
 
+**October 30 full reference running in Gear 2:** [Verified launch](../../../../results/phase_2_4_stage_15/DRIVE/V4C_MC_FULL_LAUNCH_20261030.md) (OPS-S15-W3-V4C-MC-FULL-LAUNCH). All four counted CPU slots are active after complete source, cost and independent replay admission. The full reference consumer and guarded collector are built. Completed evidence is recorded; the first requested push is verified at af1834c460b13e1ecfd4783765a863487cb3bdd2. The complete scientific result and eight-card ready buffer remain unfinished. GPU and paid holds persist. Earlier running/idle snapshots are historical.
+
 [D5.supported prospective comparison](D5_SUPPORTED_COMPARISON_20261029.md) retains the original population gap. [Complete reference preparation](../../../../results/phase_2_4_stage_15/DRIVE/D5_REFERENCE_PLANS_CORPUS_20261029.md) replays every draw; missing candidate evidence holds the human-text inference. Final-text/process scientific calibration and scoring remain unbuilt.
 
 [Exact D5 reader preparation](D5_READER_CACHE_20261029.md) is complete with [independent replay](../../../../results/phase_2_4_stage_15/DRIVE/D5_READER_CACHE_CORPUS_20261029.md). Every original session and prepared text length is retained. This is source preparation; the supported-writer diagnostic, scientific controls and full-workload admission remain unbuilt.

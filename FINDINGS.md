@@ -1,5 +1,76 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-V4C-MC-FULL-LAUNCH
+
+**Hypothesis.** Are completed results properly recorded, and is the complete authorized reference workload actually progressing under monitored Gear 2 execution?
+
+**METHOD.** Authenticate source pins, original-statistic parity and landed cost admission. Freeze four disjoint shards of the complete original matrix, reserve their combined CPU ceiling and the complete collector, register terminal monitoring, then inspect native creation identities, CPU activity, fresh output, counted leases and resource headroom. Reconcile watcher delivery and research locks.
+
+**Found.** Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
+
+All 612 unique source pins and all 21 research locks verify. Each worker has a separate counted lease and two numerical threads. Native parent and execution identities match their recorded creation times. Every worker has produced a reference checkpoint, and monitoring covers completion, failure, pause and disappearance. The watcher and calendar retain their exact live identities.
+
+The table describes execution reservations, not scientific results. Each row is a fixed shard of the unchanged original outer-world roster; every world keeps all 199 references and requires full fresh replay.
+
+| Shard | Outer worlds | CPU cap, seconds |
+|---|---:|---:|
+| 1 | 28 | 174598 |
+| 2 | 28 | 174598 |
+| 3 | 27 | 168363 |
+| 4 | 27 | 168363 |
+
+The collector has a separate 120-second reservation. All reservations plus the retained 426.956875 CPU-second preparation charge fit the fixed 686472-second total. Estimated four-slot execution plus verification is about 32 hours before the already included 50 percent margin, about 48 hours with it. These are estimates, not completion promises. All jobs retain the original drain and resource stops.
+
+The first requested results/state push is remotely verified at af1834c460b13e1ecfd4783765a863487cb3bdd2. Native and full-source cost events were acknowledged only after their complete write-through. All six numerical-core checks, five continuation checks and the collector check pass; both initial test-setup failures remain recorded. No current scientific result was inferred from unfinished references.
+
+**Means.** The active CPU allocation is filled with commissioned work through the next day. The eight-card ready buffer remains an open build deficit; four running shards and a gated collector are not eight ready cards. The collector refuses missing, duplicated, mixed-source or unreplayed shards, and original V4/V4.c labels remain unchanged. No unrelated, GPU or paid job was restarted. Failure/completion events and the unchanged six-hour health schedule provide the next intervention; no extra ETA wake was added. No new test was harvested from the operational request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land all complete shard receipts without intermediate scientific scores, then execute the reserved full collector and complete the scientific write-through; preserve the open ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_MC_FULL_LAUNCH_20261030.md.
+
+### OPS-S15-W3-V4C-MC-COST
+
+**Hypothesis.** Can the complete fitted reference run within a measured, explicitly authorized CPU allocation while preserving the original split statistic?
+
+**METHOD.** Run the three fixed full-sized timing worlds, each with a newly fitted no-taste law, the observed split pipeline and one new complete null pipeline. Independently regenerate all choices and refit every stage. Authenticate original completion hashes and compare each observed statistic exactly with its saved original. Forecast the full 110-by-199 workload from the slowest measured unit, including fresh replay and the predeclared 50 percent margin.
+
+**Found.** The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.
+
+All 62 source pins and 30 output hashes verify. All three saved-statistic comparisons agree exactly. Execution and fresh replay used 152.500000 CPU seconds and 160.702531 wall seconds. The retained cumulative preparation charge, including all test attempts, is 426.956875 CPU seconds within the one-hour probe. Workers exited and released their counted slot.
+
+The table describes the complete workload forecast, not an interim scientific score. CPU hours sum across workers; wall time assumes four available counted slots and remains an estimate.
+
+| Accounting item | Value |
+|---|---:|
+| Complete execution plus fresh replay, before margin | 127.045226 CPU hours |
+| Full-work allowance with the fixed 50% margin | 190.567839 CPU hours |
+| Estimated four-slot wall time before / with margin | 31.76 / 47.64 hours |
+| Total CPU ceiling including retained preparation | 686472 seconds |
+
+Five continuation checks and the collector check pass; these isolate orchestration while the numerical core is covered by earlier constructed validation and this full-source replay. The collector test initially treated a null-world directory name as a reference filename; correcting the test matcher to inspect the basename preserves the original failure and changes no production statistic. The unused continuation draft also named the wrong legacy adapter; source review corrected it before dispatch.
+
+**Means.** Week 3 section 6 explicitly permits the recorded full projection plus 50 percent after an unprojected card receives its one-hour cost probe. This receipt logs that full-run allocation separately; it is not a further S4 doubling of the cost probe. Four fixed shards retain all worlds and reference draws, with a separately reserved complete collector. All shards require fresh verification. No scientific calibration verdict, human inference or changed V4/V4.c label follows from timing. The eight-card ready buffer remains incomplete, although the four prepared long jobs provide the commissioned next-day workload. GPU and paid holds persist. No new test was harvested.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.; project meaning: scoped operational record; next engineering obligation: Dispatch all four fixed shards within the single recorded allocation, then collect only complete independently verified references; retain original labels and all other holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_MC_COST_20261030.md.
+
+### OPS-S15-W3-V4C-MC-NATIVE
+
+**Hypothesis.** Can a no-taste reference retain fitted writer offsets and causal habit while rebuilding the complete split statistic independently?
+
+**METHOD.** Fit the declared intercept-and-habit null, simulate new resolved choices on fixed menus, and refit both split halves including directions, scales and selections. Validate known offsets, zero habit, causal histories, complete reference denominators, exact original-statistic parity, source-scope refusal and altered-output refusal. Rebuild the complete constructed cost unit in a fresh native process. No human comparison or Monte Carlo verdict is computed.
+
+**Found.** The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending.
+
+All six targeted checks pass. The first test run retained five passes and one test-fixture failure: its deliberate corruption used the immutable production writer, which correctly refused overwriting. The test alone now mutates its disposable output directly; the unchanged verifier then rejects the altered output as intended. The original failing XML remains. A harmless pytest cache-write warning is retained. No estimator or gate was relaxed.
+
+All 489 source pins and 470 output hashes verify. Execution and independent replay consumed 7.453125 CPU seconds and 11.013033 wall seconds. Cumulative charge is 256.978875 of the unchanged 3,600 CPU-second cost-probe allowance. This includes source authentication, a build reserve and both test attempts. Native workers exited and released their counted lease.
+
+**Means.** The commissioned cost probe may now measure complete original-source units. This constructed validation does not calibrate the fitted nuisance reference or change V4/V4.c labels. Complete outer calibration and exactly 199 references per outer world remain mandatory; partial banks cannot produce a verdict. The eight-card ready buffer remains incomplete. GPU and paid holds persist. No new test was harvested from the operational request.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending.; project meaning: scoped operational record; next engineering obligation: Run the bounded complete-source cost probe; require exact saved-statistic parity, whole-workload admission and complete outer calibration before any new scientific label.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_MC_NATIVE_20261030.md.
+
 ### OPS-S15-W3-HEALTH-20261030-0330
 
 **Hypothesis.** Is the quiet queue an interrupted runnable job, or a documented implementation and admission gap?
