@@ -1,5 +1,7 @@
 # Campaign operations
 
+- November 1, D5 numerical build: instrument-test fixture correction. The noisy third probe is nearest gallery 1, so reassigned truth can correctly receive credit; retain that expected answer and test reversed identities separately on orthogonal profiles. The canonical reader and new scorer already agreed, and neither estimator changed. First test XML retained; two temporary-directory permission errors are environmental and rerun in a new workspace temporary directory. All attempted test time remains charged.
+
 October 23: GEN1 complete constructed/native validation is landed; matched corpus feature reconstruction dispatched with a counted lease, contained children and terminal/disappearance monitoring. Watcher/calendar identities verify. Legitimate shared-slot reuse was distinguished from an unreleased lease; unrelated work was untouched. [Build and limits](GEN1_BUILD_20261023.md).
 - October 19, 05:26 PDT: native habit-input validation and exact exporter-fixture parity pass; original schema/fixture failures and sandbox ownership refusal retained. Full habit-input preparation launched under the owner account with all 9,058 source pins, actual native ownership, lease, resource floors and terminal watches verified. [Complete build record](EV3_HABIT_INPUT_BUILD_20261019.md). No model/paid call or GPU restart; input cost carries into the original EV3 allowance.
 
@@ -1029,3 +1031,95 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-10-30T11:11:26.013277+00:00 OPS-S15-W3-V4C-MC-COST: The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending.
 
 2026-10-30T11:18:04.573356+00:00 OPS-S15-W3-V4C-MC-FULL-LAUNCH: Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
+
+
+2026-10-30 V4C-MC199 shard zero: engineering failure in v5 output-size monitor; atomic progress temporary vanished between is_file and stat. Original failed attempt retained. Healing attempt one uses separately validated v6, unchanged scientific consumer and sealed checkpoint continuation; failed and repair costs stay within original reservation. Full landing follows native restart verification.
+
+2026-10-30T11:47:15.990584+00:00 OPS-S15-W3-V4C-MC-MONITOR-FAILURE: A temporary-file race in the supervisor stopped one CPU shard; its failed attempt and checkpoints remain preserved, with no scientific verdict.
+
+2026-10-30T11:47:28.069683+00:00 OPS-S15-W3-RUNTIME-V6-VALIDATION: The isolated supervisor passes race and refusal checks, native replay and the unchanged storage cap; scientific code and limits remain unchanged.
+
+2026-10-30T11:47:40.307535+00:00 OPS-S15-W3-V4C-MC-RUNTIME-RECOVERY: Four monitored CPU workers are again progressing in Gear 2 after the stopped shard resumed from authenticated checkpoints within its original allowance; the final scientific verdict and ready-card buffer remain unfinished.
+
+2026-10-30T16:46:44.609267+00:00 OPS-S15-W3-HEALTH-20261030-0940: The health inspection verifies four advancing Gear 2 workers and healthy monitoring; no recovery is required, while the ready-card buffer remains incomplete.
+
+
+2026-10-30T19:24:24.335630+00:00 V4C-MC199: environmental frozen-output-byte cap fired in shard 2. Full-output projection exceeds each existing cap; three live siblings received identity-checked checkpoint-boundary yield requests. Original attempts and costs retained. Investigating lossless compressed-storage continuation under unchanged scientific design, byte and CPU ceilings; no scientific verdict.
+
+2026-10-30T19:44:38.259739+00:00 OPS-S15-W3-V4C-STORAGE-STOP: One shard reached its storage cap and three siblings paused safely; all original checkpoints and charges remain retained, with no scientific verdict.
+
+2026-10-30T19:44:48.904463+00:00 OPS-S15-W3-V4C-STORAGE-VALIDATION: Lossless storage passes byte, checkpoint, corruption and fresh native replay checks; its conservative full-shard size forecast fits the unchanged cap.
+
+2026-10-30T19:49:28.810098+00:00 OPS-S15-W3-V4C-STORAGE-RECOVERY: Four Gear 2 workers are running validated checkpoint conversion before continuing the unchanged reference computation and full replay; the scientific verdict and ready-card buffer remain unfinished.
+
+2026-10-30T22:52:05.086060+00:00 OPS-S15-W3-HEALTH-20261030-1548: Four Gear 2 workers have completed checkpoint conversion and are advancing through the original computation within their limits; no recovery is required.
+
+2026-10-31T00:04:47.082283+00:00 OPS-S15-W3-PAID-CUTOFF: The paid-dispatch cutoff is enforced, the sole submitted batch is settled, and authorized CPU work continues unchanged.
+
+2026-10-31T03:08:08.882259+00:00 OPS-S15-W3-DIGEST-20261030: The daily evidence and corrections are reconciled, and four Gear 2 workers continue within their limits; the ready-card buffer and final collection remain unfinished.
+
+2026-10-31T03:08:08.882259+00:00 Daily capacity defect: 34.644565 estimated idle counted-worker slot-hours of 96; 61.355435 occupied, using nonoverlapping lease-admission intervals clipped to the fixed daily window. Cause: implementation before full dispatch and bounded operational recoveries. Uncounted construction/tests/inspection excluded. Prior interruption estimates overlap and are not added. Current workers 4; ready cards 0 of 8. No limit or scientific gate relaxed.
+
+2026-10-31T04:55:55.701422+00:00 OPS-S15-W3-HEALTH-20261030-2153: Four Gear 2 workers are advancing within their limits; no recovery or new result landing is needed, while the ready buffer and collection admission remain unfinished.
+
+2026-10-31T11:00:35.414925+00:00 OPS-S15-W3-HEALTH-20261031-0357: Four Gear 2 jobs have moved normally into fresh-process verification and remain within their limits; no recovery is required, while final collection and the ready buffer remain unfinished.
+
+2026-10-31T17:03:05.316985+00:00 OPS-S15-W3-HEALTH-20261031-1002: Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+2026-10-31T23:05:30.989227+00:00 OPS-S15-W3-HEALTH-20261031-1604: Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+2026-11-01T03:04:07.568911+00:00 OPS-S15-W3-DIGEST-20261031: The daily operational records and corrections are reconciled; four Gear 2 jobs remain in independent verification, with no completed scientific result and the collection and ready-buffer obligations still open.
+
+2026-11-01T03:04:07.568911+00:00 Daily capacity: 96.000000 counted slot-hours occupied and 0.000000 estimated idle of 96. Four retained parent lease intervals span the fixed reporting window; this is occupancy, not continuous CPU utilization. Prior-day idle/interruption estimates are not added. The ready buffer remains 0 of 8, a separate implementation defect; collection admission is still open. No study gate or resource limit relaxed.
+
+2026-11-01T05:11:25.041690+00:00 OPS-S15-W3-HEALTH-20261031-2209: Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+2026-11-01T06:26:00.448204+00:00 OPS-S15-W3-V4C-STORAGE-SHARD2: One reference shard has completed full independent replay and passed integrity checks; three remain active, so the combined scientific result is still pending.
+
+2026-11-01T06:53:01.131463+00:00 OPS-S15-W3-V4C-STORAGE-SHARD3: The second reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.
+
+2026-11-01T08:07:07.739244+00:00 OPS-S15-W3-V4C-STORAGE-SHARD1: The third reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.
+
+2026-11-01T08:23:11.435342+00:00 OPS-S15-W3-V4C-STORAGE-SHARD0: The final reference shard has completed full independent replay and passed integrity checks; combined scientific reporting still awaits admitted collection.
+
+2026-11-01T08:30:15.070938+00:00 OPS-S15-W3-V4C-COLLECTION-COST-NATIVE: The complete collection-cost instrument passes constructed compressed-input checks and fresh native replay; full-source cost and scientific aggregation remain pending.
+
+2026-11-01T08:33:14.549598+00:00 OPS-S15-W3-V4C-COLLECTION-COST-LAUNCH: The complete-source collection-cost probe is running in one Gear 2 CPU slot after native validation; scientific aggregation and the ready-card buffer remain unfinished.
+
+2026-11-01T09:23:55.336740+00:00 OPS-S15-W3-V4C-COLLECTION-COST-COMPLETE: The complete collection-cost probe independently replays, but exceeds the original collector reservation; scientific aggregation remains uncomputed pending a separately recorded allocation.
+
+2026-11-01T09:26:45.766812+00:00 OPS-S15-W3-V4C-COLLECTION-ALLOCATION: A separately recorded internal allocation admits the unchanged collector within the original whole-card CPU ceiling; scientific execution remains pending.
+
+2026-11-01T09:34:23.397017+00:00 OPS-S15-W3-V4C-COLLECTION-LAUNCH: The unchanged full collector is progressing in one monitored Gear 2 CPU slot within the original whole-card ceiling; scientific reporting and the ready-work buffer remain unfinished.
+
+2026-11-01T10:22:13.945969+00:00 S15-V4C-MC199-20261101: complete collector and all evidence landed. Zero-variance normal diagnostic excluded; fixed count gates preserved. Four slots now idle, ready buffer 0/8: commissioned build backlog remains, a capacity defect. No gear, paid or GPU change.
+
+2026-11-01T10:33:57.508615+00:00 OPS-S15-W3-D5-CONTEXT-NATIVE: Complete context-source support checks pass constructed native replay; full-source eligibility and scientific scoring remain separate.
+
+2026-11-01T10:37:14.478323+00:00 OPS-S15-W3-D5-CONTEXT-CORPUS: Every frozen context-reference draw independently replays; support gaps remain explicit and no identification outcome is computed.
+
+2026-11-01T10:40:11.543534+00:00 D5 context support close: complete source preparation and fresh replay fully recorded and ACKed. No identification scores computed. All workers exited, leases released, no pending events; independent six-hour health deadline unchanged. One-slot idle lower bound 0.315469 hours across collector-to-constructed and constructed-to-corpus dispatch, subtracting entire targeted-test time; cause is necessary source review, implementation, validation and complete write-through. This remains a queue capacity defect, not evidence of full Gear 2 buildout. Final-document/process scientific consumer and calibration remain unbuilt; original support, GPU and paid holds persist. No new tests harvested and no publication.
+
+2026-11-01T11:15:12.812035+00:00 OPS-S15-W3-HEALTH-20261101-0312: Gear 2 is idle because admitted work is unbuilt; completed outputs, locks, resources and monitoring verify, with no environmental recovery required.
+
+2026-11-01T11:28:03.052813+00:00 OPS-S15-W3-D5-NUMERICAL: The D5 numerical consumer passes constructed known-answer checks and fresh native replay; scientific calibration and human-data admission remain pending.
+
+2026-11-01T11:32:40.937190+00:00 OPS-S15-W3-D5-NUMERICAL-COST-NATIVE: The constructed numerical cost instrument passes fresh native replay; full-source timing and scientific admission remain pending.
+
+2026-11-01T11:35:22.357927+00:00 OPS-S15-W3-D5-NUMERICAL-COST-CORPUS: The D5 numerical cost probe completes full-source layout and mask replay using constructed values; scientific calibration and human scoring remain unadmitted.
+
+2026-11-01T11:40:17.450334+00:00 OPS-S15-W3-D5-IDENTICAL-NATIVE: The exact identical-profile reference check passes small constructed native replay; complete-bank execution and scientific calibration remain pending.
+
+2026-11-01T11:42:41.728811+00:00 OPS-S15-W3-D5-IDENTICAL-LAUNCH: The complete D5 identical-profile reference check is progressing in one monitored Gear 2 CPU slot; remaining scientific calibration and the ready-work buffer are unfinished.
+
+2026-11-01T11:48:32.474539+00:00 OPS-S15-W3-WATCH-ACK-RECONCILIATION: The completion remains fully recorded and acknowledged; a late delivery update left an inconsistent status label without pending work or an interrupted research job.
+
+2026-11-01T12:30:29.209433+00:00 OPS-S15-W3-D5-IDENTICAL-CORPUS: The complete identical-profile reference banks reproduce their analytic answers and independently replay; empirical scientific calibration and human scoring remain pending.
+
+2026-11-01T12:36:31.325469+00:00 OPS-S15-W3-WATCH-ACK-FIX: The watcher preserves completed acknowledgments across late delivery and cancellation; the tested repair is loaded with event history and the health deadline unchanged.
+
+2026-11-01T12:36:31.304057+00:00 Capacity defect: {"definition": "Unused counted research slots, not machine CPU utilization; excludes earlier prelaunch intervals", "intervals": [{"cause": "Ready buffer unbuilt while one admitted reference check ran", "end": "2026-11-01T12:23:48.025600+00:00", "slot_hours": 2.1231750591666665, "start": "2026-11-01T11:41:20.215529+00:00", "unused_slots": 3}, {"cause": "Research queue drained; remaining calibration unbuilt and cost admission held", "end": "2026-11-01T12:36:31.304057+00:00", "slot_hours": 0.8480871744444445, "start": "2026-11-01T12:23:48.025600+00:00", "unused_slots": 4}]}
+
+2026-11-01T17:21:09.786240+00:00 OPS-S15-W3-HEALTH-20261101-0916: Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.
+
+2026-11-01T17:19:25.286553+00:00 Capacity defect (nonoverlapping): {"cause": "No admitted ready cards; remaining calibration/cost and source builds unfinished", "definition": "Nonoverlapping continuation after WATCH_ACK_FIX; research lease slots, not total CPU utilization", "end": "2026-11-01T17:19:25.286553+00:00", "slot_hours": 18.85998055111111, "start": "2026-11-01T12:36:31.304057+00:00", "unused_research_slots": 4}

@@ -1,0 +1,13 @@
+# WATCH ACK RECONCILIATION 20261101
+
+**Hypothesis.** Did the delayed cost-completion notice reveal a missing result landing or a failed acknowledgment?
+
+**METHOD.** Reconcile the exact completion digest, all source pins and output hashes, exited native identities, test receipt, public/private result pair and current claim-ledger anchor. Inspect the persistent event row, prior ACK receipt, current pending query, independent health deadline and watcher delivery/acknowledgment implementation. Verify current research-worker identities, lease, fresh progress and terminal registration.
+
+**Found.** The completion remains fully recorded and acknowledged; a late delivery update left an inconsistent status label without pending work or an interrupted research job.
+
+The complete cost landing is unchanged. All 2,882 source pins and 18 output hashes verify, the four targeted tests remain recorded, and all completed native identities have ended. The delayed notice was actually received by the owner. The persistent event retains its original non-null acknowledgment timestamp. No unacknowledged event is pending and the six-hour health deadline is unchanged.
+
+The reinspection's final assertion expected the event label to be `acknowledged`; it instead found `queued` alongside the valid ACK timestamp. Inspection of the delivery code identifies the race: after the send returns, its update can overwrite the label without checking whether acknowledgment occurred during delivery. The duplicate ACK command returns early when an ACK timestamp already exists. The pending-status query and outstanding-send guard exclude this queued acknowledged row, so this observed case does not block the queue or require a research restart. The retained discrepancy is not evidence that the scientific result was rerun or lost.
+
+**Means.** The ACK timestamp and completed write-through establish processing of this notice. Preserve the event, transport receipt and original timestamps. Record the inconsistent label as an operational maintenance defect; a separately validated watcher correction must preserve acknowledgment when late delivery or cancellation updates arrive, filter pending selection by acknowledgment, and keep duplicate ACKs from changing health deadlines. No live watcher source or database history is rewritten in this reconciliation. The active D5 complete-bank check continues in one Gear 2 CPU slot. The ready buffer remains unfinished; scientific holds, GPU parking and paid closure persist. No tests were harvested and no scientific score or probability is reported. Records remain local.

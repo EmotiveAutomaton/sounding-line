@@ -287,7 +287,8 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
                       "AND acknowledged IS NULL LIMIT 1").fetchone():
             return "awaiting-acknowledgement"
         events = [dict(r) for r in db.execute(
-            "SELECT * FROM events WHERE state='pending' AND next_try<=? ORDER BY created", (now,))]
+            "SELECT * FROM events WHERE state='pending' AND acknowledged IS NULL "
+            "AND next_try<=? ORDER BY created", (now,))]
         if not events:
             return "nothing-pending"
         # Inspect urgency before limiting the batch: a failure must not sit behind
@@ -308,12 +309,20 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
                 if attended and now < attended + config.get("routine_interval_seconds", DEFAULT_ROUTINE_SECONDS):
                     return "coalescing"
         events = events[:20]
+        claimed = []
         for event in events:
-            db.execute("UPDATE events SET state='sending',attempts=attempts+1 WHERE id=?", (event["id"],))
+            updated = db.execute("UPDATE events SET state='sending',attempts=attempts+1 "
+                                 "WHERE id=? AND acknowledged IS NULL", (event["id"],))
+            if updated.rowcount:
+                claimed.append(event)
+        events = claimed
+        if not events:
+            return "nothing-pending"
     if (state / "watch.cancel").exists():
         with database(state) as db:
             for event in events:
-                db.execute("UPDATE events SET state='pending' WHERE id=?", (event["id"],))
+                db.execute("UPDATE events SET state='pending' WHERE id=? AND acknowledged IS NULL",
+                           (event["id"],))
         return "cancelled"
     cmd = [config["codex"], "queue", "--thread", owner, "--message", prompt(events)]
     if config.get("remote"):
@@ -336,7 +345,11 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
         for event in events:
             attempts = event["attempts"] + 1
             settled = "failed" if status == "pending" and attempts >= 5 else status
-            db.execute("UPDATE events SET state=?,queue_id=?,error=?,next_try=? WHERE id=?",
+            # Delivery can finish after the owner has already landed and ACKed.
+            # Retain the transport evidence without reopening processed work.
+            db.execute("UPDATE events SET state=CASE WHEN acknowledged IS NULL THEN ? "
+                       "ELSE 'acknowledged' END,queue_id=?,error=?,"
+                       "next_try=CASE WHEN acknowledged IS NULL THEN ? ELSE next_try END WHERE id=?",
                 (settled, queue_id, error, now + min(3600, 60 * 2**attempts), event["id"]))
     return status
 
@@ -428,7 +441,7 @@ def run(config, state=STATE, repo=REPO):
         with database(state) as db:
             # A crash between queue acceptance and persisting its ID cannot safely replay.
             db.execute("UPDATE events SET state='unknown',error='watcher restarted during send; reconcile queue' "
-                       "WHERE state='sending'")
+                       "WHERE state='sending' AND acknowledged IS NULL")
             put(db, "watcher", {"pid": os.getpid(), "started": time.time(),
                 "source_sha256": digest(Path(__file__)),
                 "queue_api_sha256": digest(Path(codex_queue_api.__file__)),

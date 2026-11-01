@@ -1,5 +1,1276 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W3-HEALTH-20261101-0916
+
+**Hypothesis.** Is the idle queue caused by a failed worker or monitor, and is any already admitted job stranded for restart?
+
+**METHOD.** Inspect native identities and command ownership, ended numerical-worker identities, terminal and output hashes, current source-code pins, registered output freshness, failures, counted leases, shared reservation, GPU ownership, research locks and resource headroom. Verify the repaired watcher source, fresh calendar heartbeat, actual health-event delivery and paid-ledger immutability. Reconcile the open queue rows against the completed cost receipts.
+
+**Found.** Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.
+
+The five recent D5 numerical/cost/known-answer invocations retain verified completions and full write-through. Their execution and fresh-verification identities have ended, and their output hashes and current source-code pins authenticate. The native census shows only the watcher and calendar processes for this repository. No counted CPU lease, new registered terminal, unrecorded failure or restartable admitted worker was found. All 21 research locks pass; the retired September queue remains retired.
+
+The table reports operational resource headroom in GiB, not scientific results.
+
+| Resource | Available | Admission floor |
+|---|---:|---:|
+| RAM | 54.299 | 6 |
+| Commit | 42.704 | 8 |
+| Disk | 305.909 | 20 |
+
+The repaired watcher retains its verified native identity and exact loaded source digest. Its real health alert was accepted and delivered to the owning session; the scan and calendar heartbeat are fresh, with no current delivery error. This verifies ordinary delivery after the reload, not a newly observed live race. Earlier transport failures and historical inconsistent labels remain preserved. Paid accounting is unchanged since cutoff. GPU parking is intentional and remains in force; no GPU restart is warranted.
+
+**Queue reconciliation.** Four research slots are free and zero cards are ready against the required eight. D5's completed numerical consumer and exact identical-profile rung do not admit its remaining scientific calibration. The retained balance is 4,515.3535 CPU seconds, below its latest conservative one-world forecast of 6,541.75. D33's open menu note incorrectly still requested specification preparation: that preparation and its full-source cost probe were already recorded. Its complete design forecast is 1,135.3125 CPU seconds against a remaining 683.34375 within the fixed 786-second follow-up ceiling. The queue row is corrected to cost-held without changing either design or cap. The other two D33 follow-up slots remain distinct and cannot be duplicated. Other cost, scientific, source, paid and GPU holds remain.
+
+An exact cheaper implementation and its independent parity/cost validation remain permissible build work where already commissioned; this health wake admits no new scientific test or reduced design. None is currently a runnable validated card. The absent ready buffer is a capacity defect, not an environmental failure or an intentional CPU pause.
+
+The nonoverlapping interval from 2026-11-01T12:36:31.304057+00:00 through 2026-11-01T17:19:25.286553+00:00 adds 18.859981 unused research-slot hours after the previous maintenance record. This counts unused research leases, not total machine CPU utilization; do not add overlapping older snapshots.
+
+**Means.** Correct the stale D33 queue wording and retain the capacity deficit. No worker restart, lease deletion, scientific retry or service repair is justified by this inspection. Existing cost and source preparation must pass its own admission before any run. Full internal recording precedes this event's ACK, which alone rearms the six-hour health deadline. No tests were harvested, no scientific scores are reported and no publication occurs. Later records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.; project meaning: scoped operational record; next engineering obligation: Build an exact, parity-validated implementation within the retained scope and cost allowance; the ready-buffer deficit remains open.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261101_0916.md.
+
+### OPS-S15-W3-WATCH-ACK-FIX
+
+**Hypothesis.** Can a completion remain acknowledged when the transport returns after the owner has already recorded it?
+
+**METHOD.** Reproduce late success, retryable failure, uncertain delivery, exhausted attempts, cancellation and restart against disposable outboxes. Verify that acknowledgment timestamps, queue receipts and error evidence survive, already processed rows cannot be selected again, and duplicate acknowledgment cannot move the independent health deadline. Run the existing transition and health checks, then perform a controlled watcher-only reload with an exact native identity and preserved event snapshot.
+
+**Found.** The watcher preserves completed acknowledgments across late delivery and cancellation; the tested repair is loaded with event history and the health deadline unchanged.
+
+The table reports operational checks, not scientific outcomes.
+
+| Check | Evidence |
+|---|---|
+| Original interleavings | Eight expected regression failures; one retry-limit check passed |
+| Repaired targeted suite | All seventy checks passed |
+| Persistent event records | All 2,807 unchanged across reload |
+| Pending unacknowledged events | None |
+| Calendar and health deadline | Unchanged |
+| Research workers | None; Gear 2 has drained |
+| Ready buffer | Zero of eight required cards |
+
+The pending selector and claim/cancellation/restart updates now exclude acknowledged rows. Late transport settlement retains the transport receipt or error but preserves the acknowledgment state. No historical event is normalized, deleted or fabricated; the previously reconciled legacy label remains preserved. The new native watcher advertises the verified source digest and has a fresh scan. These tests use no real message transport. A future naturally occurring late-delivery race has not yet been observed on the new service, so live source adoption and fixture correctness remain distinct from that observation.
+
+The complete D5 instrument landing and its event acknowledgment remain recorded under OPS-S15-W3-D5-IDENTICAL-CORPUS. The current D5 queue row now reflects its completed numerical work and retained cost balance. Scientific calibration and human scoring are not admitted by this maintenance result. The four research slots are unused because the ready buffer is unfinished and remaining D5 calibration needs cost admission; this is a capacity defect, not an intentional gear pause. Exact nonoverlapping research-slot intervals since the D5 launch are retained in the receipt. They do not measure total processor utilization and must not be added to overlapping historical snapshots.
+
+**Means.** Delivery bookkeeping no longer reopens processed work in the tested interleavings. No scientific runner, calibration rule, CPU ceiling, GPU parking rule or paid-work closure changes. No tests were harvested from the operational wake. New scientific results still require their own full write-through before acknowledgment. Current records remain local; no publication occurs.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The watcher preserves completed acknowledgments across late delivery and cancellation; the tested repair is loaded with event history and the health deadline unchanged.; project meaning: scoped operational record; next engineering obligation: Maintain terminal monitoring and build cost-admitted scientific calibration; the eight-card ready buffer remains unfinished.; public scientific claim unchanged; curator decision required: No new decision. Detail: WATCH_ACK_FIX_20261101.md.
+
+### OPS-S15-W3-D5-IDENTICAL-CORPUS
+
+**Hypothesis.** Does the fixed D5 reader return complete fractional identity ties and zero defined slopes when every observed profile is identical?
+
+**METHOD.** Preserve the original comparison layout, masks and context roles while replacing all observed process values and character inner products with one. Rebuild each saved label assignment, every comparison and all independent rotations. Assert the known reciprocal-gallery identity score and zero defined base slope, retaining undefined uncertainty. Run the frozen share-bin and writer-bootstrap banks. Regenerate the entire invocation in a fresh contained process.
+
+**Found.** The complete identical-profile reference banks reproduce their analytic answers and independently replay; empirical scientific calibration and human scoring remain pending.
+
+Three targeted tests pass, including a genuine-person alternative that must fail the identical-profile assertion, nonfinite/null-wrong-answer refusal, complete serialization and fresh replay, deliberate output corruption, reduced full-bank configuration refusal and boundary yield. This validates only the exact identical-profile instrument rung. Prompt-only nulls, empirical false-alarm rates, person and signed-effect sensitivity remain separate requirements. No human feature value enters scoring.
+
+The table reports instrument coverage and execution accounting, not human effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained source sessions | 1399 |
+| Original writers | 61 |
+| Fixed candidates | 45 |
+| Label draws per bank | 1000 |
+| Numerical arm evaluations per pass | 16016 |
+| Writer bootstrap draws per base arm | 2000 |
+| Share assignments per base arm | 200 |
+| Source pins | 2882 |
+| Output hashes | 18 |
+| Combined native CPU seconds | 2496.203125 |
+| Wall seconds | 2543.679807800043 |
+| Cumulative D5 CPU charge | 4735.5215 |
+| This invocation whole-card ceiling | 9250.875 |
+
+All thousand fixed assignments in both banks and all three independent rotations are covered in each fresh pass. The original 6,167.25-second admission forecast and 9,250.875-second whole-card ceiling remain unchanged. Cumulative charge is 4735.5215 CPU seconds, leaving 4515.3535 seconds. Post-run conservative single-world forecast is 6541.75 seconds; it exceeds that remaining balance. This is not a new allocation or permission to enlarge the cap. Further scientific calibration is unbuilt and needs separately validated cost admission.
+
+**Means.** This exact numerical rung is complete; it does not establish empirical size or sensitivity and does not admit human scoring. Every prior charge, test attempt and native replay remains retained. Workers exited, the lease is released and research locks pass. Watcher and calendar native identities verify; the health deadline remains unchanged. Gear 2 is idle during the next admitted build, with its ready buffer unfinished. GPU parking, paid closure, population and scientific holds persist. No tests were harvested from the wake and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete identical-profile reference banks reproduce their analytic answers and independently replay; empirical scientific calibration and human scoring remain pending.; project meaning: scoped operational record; next engineering obligation: Build and cost-admit the remaining scientific calibration within the retained whole-card ceiling; preserve human-scoring holds and the ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_IDENTICAL_CORPUS_20261101.md.
+
+### OPS-S15-W3-WATCH-ACK-RECONCILIATION
+
+**Hypothesis.** Did the delayed cost-completion notice reveal a missing result landing or a failed acknowledgment?
+
+**METHOD.** Reconcile the exact completion digest, all source pins and output hashes, exited native identities, test receipt, public/private result pair and current claim-ledger anchor. Inspect the persistent event row, prior ACK receipt, current pending query, independent health deadline and watcher delivery/acknowledgment implementation. Verify current research-worker identities, lease, fresh progress and terminal registration.
+
+**Found.** The completion remains fully recorded and acknowledged; a late delivery update left an inconsistent status label without pending work or an interrupted research job.
+
+The complete cost landing is unchanged. All 2,882 source pins and 18 output hashes verify, the four targeted tests remain recorded, and all completed native identities have ended. The delayed notice was actually received by the owner. The persistent event retains its original non-null acknowledgment timestamp. No unacknowledged event is pending and the six-hour health deadline is unchanged.
+
+The reinspection's final assertion expected the event label to be `acknowledged`; it instead found `queued` alongside the valid ACK timestamp. Inspection of the delivery code identifies the race: after the send returns, its update can overwrite the label without checking whether acknowledgment occurred during delivery. The duplicate ACK command returns early when an ACK timestamp already exists. The pending-status query and outstanding-send guard exclude this queued acknowledged row, so this observed case does not block the queue or require a research restart. The retained discrepancy is not evidence that the scientific result was rerun or lost.
+
+**Means.** The ACK timestamp and completed write-through establish processing of this notice. Preserve the event, transport receipt and original timestamps. Record the inconsistent label as an operational maintenance defect; a separately validated watcher correction must preserve acknowledgment when late delivery or cancellation updates arrive, filter pending selection by acknowledgment, and keep duplicate ACKs from changing health deadlines. No live watcher source or database history is rewritten in this reconciliation. The active D5 complete-bank check continues in one Gear 2 CPU slot. The ready buffer remains unfinished; scientific holds, GPU parking and paid closure persist. No tests were harvested and no scientific score or probability is reported. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The completion remains fully recorded and acknowledged; a late delivery update left an inconsistent status label without pending work or an interrupted research job.; project meaning: scoped operational record; next engineering obligation: Validate a watcher ACK/delivery race correction without losing transport metadata or moving the health deadline.; public scientific claim unchanged; curator decision required: No new decision. Detail: WATCH_ACK_RECONCILIATION_20261101.md.
+
+### OPS-S15-W3-D5-IDENTICAL-LAUNCH
+
+**Hypothesis.** Does the full fixed reference bank return its exact known answer for identical observed profiles?
+
+**METHOD.** Following fully landed numerical, cost and identical-profile native validation, launch all thousand assignments in each frozen reference bank with exact source pins, counted CPU ownership, contained execution and fresh replay. Inspect native creation identities and ancestry, processor progress, effective numerical thread environment, lease ownership, source capsule, resource headroom and watcher delivery. All observed process coordinates and character inner products equal one; the human character kernel is not read into the scorer.
+
+**Found.** The complete D5 identical-profile reference check is progressing in one monitored Gear 2 CPU slot; remaining scientific calibration and the ready-work buffer are unfinished.
+
+The table reports launch admission and capacity, not scientific scores.
+
+| Item | Verified state |
+|---|---:|
+| Source pins | 2882 |
+| Active CPU slots | 1 |
+| Free CPU slots | 3 |
+| Ready cards | 0 |
+| Required ready cards | 8 |
+| Prior D5 CPU charge | 2239.318375 |
+| Attempt CPU cap | 7011.556625 |
+| Wall safety cap | 10800 |
+| Explicit Week 3 backlog whole-card ceiling | 9250.875 |
+| Actual numerical threads | 1 |
+
+The explicit idle-slot backlog allocation is the landed full projection plus 50 percent under Week 3 section 6, including all prior D5 charges. The earlier one-hour probe is preserved. This is not an S4 doubling, a new scientific claim or paid/GPU authority.
+
+**Means.** Complete execution and fresh replay are required before landing this exact known-answer rung. Empirical size, prompt-only nulls and person/signed-effect sensitivity remain separately required. Human scoring remains held. The empty ready buffer remains an operational capacity defect. GPU parking and paid closure persist. No new test is harvested, no interim scientific score is reported and no publication occurs. The durable watcher owns terminal/failure waiting; the independent health check remains due November 1 at 09:15 PST, with no additional ETA wake. Records remain local.
+
+Between the latest health ACK and this launch, the four-slot allocation accumulated 1.711609 idle slot-hours after subtracting the observed native invocation intervals. Cause: the commissioned numerical, cost and complete-bank build and required write-through were not yet ready. This interval starts after the health inspection and must not be combined with overlapping measurements. The capacity defect remains explicit.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete D5 identical-profile reference check is progressing in one monitored Gear 2 CPU slot; remaining scientific calibration and the ready-work buffer are unfinished.; project meaning: scoped operational record; next engineering obligation: Inspect the complete identical-profile rung and fresh replay, write through before ACK, then build the remaining scientific calibration before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_IDENTICAL_LAUNCH_20261101.md.
+
+### OPS-S15-W3-D5-IDENTICAL-NATIVE
+
+**Hypothesis.** Does the fixed D5 reader return complete fractional identity ties and zero defined slopes when every observed profile is identical?
+
+**METHOD.** Preserve the original comparison layout, masks and context roles while replacing all observed process values and character inner products with one. Rebuild each saved label assignment, every comparison and all independent rotations. Assert the known reciprocal-gallery identity score and zero defined base slope, retaining undefined uncertainty. Run the frozen share-bin and writer-bootstrap banks. Regenerate the entire invocation in a fresh contained process.
+
+**Found.** The exact identical-profile reference check passes small constructed native replay; complete-bank execution and scientific calibration remain pending.
+
+Three targeted tests pass, including a genuine-person alternative that must fail the identical-profile assertion, nonfinite/null-wrong-answer refusal, complete serialization and fresh replay, deliberate output corruption, reduced full-bank configuration refusal and boundary yield. This validates only the exact identical-profile instrument rung. Prompt-only nulls, empirical false-alarm rates, person and signed-effect sensitivity remain separate requirements. No human feature value enters scoring.
+
+The table reports instrument coverage and execution accounting, not human effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained source sessions | 48 |
+| Original writers | 6 |
+| Fixed candidates | 6 |
+| Label draws per bank | 2 |
+| Numerical arm evaluations per pass | 48 |
+| Writer bootstrap draws per base arm | 2000 |
+| Share assignments per base arm | 200 |
+| Source pins | 54 |
+| Output hashes | 18 |
+| Combined native CPU seconds | 1.796875 |
+| Wall seconds | 4.408876100031193 |
+| Cumulative D5 CPU charge | 2239.318375 |
+| This invocation whole-card ceiling | 3600.0 |
+
+This native invocation uses the small constructed layout and two label draws per bank. It does not claim the complete source or thousand-draw banks have run. The full-source cost is already independently recorded under OPS-S15-W3-D5-NUMERICAL-COST-CORPUS. The separately frozen Week 3 section 6 allocation applies its recorded 6,167.25-second projection plus 50 percent as a 9,250.875-second whole-card ceiling including all prior charges. The old one-hour probe remains preserved; no S4 doubling or paid/GPU permission is added.
+
+**Means.** The exact complete-bank known-answer rung can now be separately dispatched in an idle CPU slot under its logged backlog allocation. Every prior charge, test attempt and native replay remains retained. Workers exited, the lease is released and research locks pass. Watcher and calendar native identities verify; the health deadline remains unchanged. Gear 2 is idle during the next admitted build, with its ready buffer unfinished. GPU parking, paid closure, population and scientific holds persist. No tests were harvested from the wake and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact identical-profile reference check passes small constructed native replay; complete-bank execution and scientific calibration remain pending.; project meaning: scoped operational record; next engineering obligation: Run the complete identical-profile reference check under its logged allocation, then require the remaining scientific calibration before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_IDENTICAL_NATIVE_20261101.md.
+
+### OPS-S15-W3-D5-NUMERICAL-COST-CORPUS
+
+**Hypothesis.** Can the complete frozen D5 numerical workload be costed without inspecting human identification outcomes?
+
+**METHOD.** Authenticate completed source and reference producers, preserve all original rows, masks, fixed candidates and roles, then replace every observed numerical feature with seeded constructed values. Measure the final-document and joint-process readers on the real assignment and the first predeclared label draws, retaining both context readings and all independent rotations. Run every frozen share-bin shuffle and writer-bootstrap draw on each base comparison. Regenerate the complete cost probe in a fresh native process and compare deterministic hashes and operation counts. No human character kernel enters the scorer.
+
+**Found.** The D5 numerical cost probe completes full-source layout and mask replay using constructed values; scientific calibration and human scoring remain unadmitted.
+
+Four targeted tests pass: native serialization/replay, deliberate output tampering, complete real-source layout and boolean-mask interface, wrong producer/configuration refusal and boundary yield. The timing sample is declared in advance and is not a shortened scientific reference bank. No empirical size or sensitivity gate is evaluated. All human-text support holds persist.
+
+The table describes operational coverage and accounting, not scientific effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained source sessions | 1399 |
+| Original writers | 61 |
+| Fixed candidates | 45 |
+| Sampled label draws per bank | 12 |
+| Numerical arm evaluations per pass | 208 |
+| Writer bootstrap draws per base arm | 2000 |
+| Share assignments per base arm | 200 |
+| Source pins | 2882 |
+| Output hashes | 18 |
+| Combined native CPU seconds | 57.75 |
+| Safety wall seconds | 63.14824509999016 |
+| Cumulative D5 CPU charge | 2174.4795 |
+| Unchanged probe ceiling | 3600 |
+
+The conservative projection for one complete numerical world, with both passes and the recorded margin, is 6167.25 CPU seconds. It uses the maximum sampled per-draw cost in each bank, complete base comparisons and source preparation. It excludes any unspecified number of calibration worlds and grants no automatic scientific dispatch or budget increase. A separate complete calibration matrix and prospective whole-workload allocation remain required.
+
+**Means.** Use this complete measurement to size the existing scientific calibration prerequisite before considering human scoring. Every prior charge and all execution/replay time remain retained. Workers exited, the counted lease is released and research locks pass. Watcher and calendar native identities verify; the health deadline remains unchanged. Gear 2 is idle during the next admitted build; the ready buffer remains unfinished. GPU parking, paid closure, population and scientific holds persist. No tests were harvested from the wake and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The D5 numerical cost probe completes full-source layout and mask replay using constructed values; scientific calibration and human scoring remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Freeze and cost-admit the complete scientific calibration matrix; human scoring remains held.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_NUMERICAL_COST_CORPUS_20261101.md.
+
+### OPS-S15-W3-D5-NUMERICAL-COST-NATIVE
+
+**Hypothesis.** Can the complete frozen D5 numerical workload be costed without inspecting human identification outcomes?
+
+**METHOD.** Authenticate completed source and reference producers, preserve all original rows, masks, fixed candidates and roles, then replace every observed numerical feature with seeded constructed values. Measure the final-document and joint-process readers on the real assignment and the first predeclared label draws, retaining both context readings and all independent rotations. Run every frozen share-bin shuffle and writer-bootstrap draw on each base comparison. Regenerate the complete cost probe in a fresh native process and compare deterministic hashes and operation counts. No human character kernel enters the scorer.
+
+**Found.** The constructed numerical cost instrument passes fresh native replay; full-source timing and scientific admission remain pending.
+
+Four targeted tests pass: native serialization/replay, deliberate output tampering, complete real-source layout and boolean-mask interface, wrong producer/configuration refusal and boundary yield. The timing sample is declared in advance and is not a shortened scientific reference bank. No empirical size or sensitivity gate is evaluated. All human-text support holds persist.
+
+The table describes operational coverage and accounting, not scientific effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained source sessions | 48 |
+| Original writers | 6 |
+| Fixed candidates | 6 |
+| Sampled label draws per bank | 2 |
+| Numerical arm evaluations per pass | 48 |
+| Writer bootstrap draws per base arm | 2000 |
+| Share assignments per base arm | 200 |
+| Source pins | 54 |
+| Output hashes | 18 |
+| Combined native CPU seconds | 1.640625 |
+| Safety wall seconds | 4.421493999951053 |
+| Cumulative D5 CPU charge | 2116.7295 |
+| Unchanged probe ceiling | 3600 |
+
+This native invocation uses the small constructed source layout. The complete human-source interface was exercised separately by the targeted loader test; no full-source numerical timing has run yet.
+
+**Means.** The full-source constructed-value cost attempt can now be separately dispatched within its frozen allowance. Every prior charge and all execution/replay time remain retained. Workers exited, the counted lease is released and research locks pass. Watcher and calendar native identities verify; the health deadline remains unchanged. Gear 2 is idle during the next admitted build; the ready buffer remains unfinished. GPU parking, paid closure, population and scientific holds persist. No tests were harvested from the wake and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed numerical cost instrument passes fresh native replay; full-source timing and scientific admission remain pending.; project meaning: scoped operational record; next engineering obligation: Measure the full-source constructed-value cost, then freeze and admit scientific calibration before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_NUMERICAL_COST_NATIVE_20261101.md.
+
+### OPS-S15-W3-D5-NUMERICAL
+
+**Hypothesis.** Does the proposed numerical reader recover known identity and slope answers while preserving fixed galleries, context roles and missing evidence?
+
+**METHOD.** Exercise literal and independent context rotations on identical and distinct constructed person profiles, using exact character-kernel cosine and the canonical gallery-only standardized process distance. Check signed within-writer slopes, undefined clustered-bootstrap draws, explicit feature-coordinate and row-resampling oracles, canonical-reader parity, missing-evidence refusal, source/output tampering and boundary yield. Serialize the complete native constructed check and regenerate it in a fresh contained process. No human identification is computed.
+
+**Found.** The D5 numerical consumer passes constructed known-answer checks and fresh native replay; scientific calibration and human-data admission remain pending.
+
+All six targeted tests pass. The original test attempt is retained: one noisy-profile reversed-identity expectation was wrong, while the new scorer and canonical reader agreed. Its third probe is closest to the reassigned writer; the expectation was corrected and a separate orthogonal-profile reversal added. Neither reader nor estimator changed. Two test setups failed on the default temporary-directory permissions; a new workspace-local temporary directory resolved that environmental issue. Both test attempts remain charged.
+
+The native comparison checks every registered rotation under identical and distinct profiles. The literal exclusion diagnostic retains its known identity leakage and cannot license the independent correction. Homogeneous bootstrap intervals are flagged as degenerate, and any undefined draw invalidates the interval without replacement. Numerical equivalence is not empirical false-alarm or sensitivity calibration.
+
+The table reports instrument execution and accounting, not scientific effects.
+
+| Check | Verified value |
+|---|---:|
+| Constructed identity/context cases | 16 |
+| Targeted tests | 6 |
+| Source pins | 52 |
+| Output hashes | 14 |
+| Combined native execution/replay CPU seconds | 1.125 |
+| Safety wall seconds used | 4.39472989999922 |
+| Cumulative D5 CPU charge | 2010.9648750000001 |
+| Unchanged D5 probe ceiling | 3600 |
+
+**Means.** The numerical implementation is available for separately frozen constructed cost and calibration workloads. Full-source scientific controls and whole-workload cost admission remain required before human scoring; original population and human-text reference-support gaps persist. Workers exited and the lease is released. Gear 2 is idle during the next admitted build, with zero ready cards against eight required; this remains a capacity defect. All research locks pass, watcher and calendar identities verify, and the six-hour health deadline is unchanged. GPU parking and paid closure persist. No new tests were harvested from this wake, no scientific probability is quoted and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The D5 numerical consumer passes constructed known-answer checks and fresh native replay; scientific calibration and human-data admission remain pending.; project meaning: scoped operational record; next engineering obligation: Freeze and measure the complete numerical workload on constructed features, then require scientific calibration before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_NUMERICAL_20261101.md.
+
+### OPS-S15-W3-HEALTH-20261101-0312
+
+**Hypothesis.** Is the idle queue caused by failed execution or monitoring, and is any already admitted work waiting to resume?
+
+**METHOD.** Inspect exact native identities for the completed collector and both D5 context preparations, their terminal outputs and source-code pins. Enumerate repository-owned native processes and counted leases; inspect registered produces since the previous close, failures, resources, research locks, GPU compute ownership, watcher and calendar identities, loaded-source hashes, heartbeat freshness and actual health-event delivery. Review current queue dependencies and remaining authorizations.
+
+**Found.** Gear 2 is idle because admitted work is unbuilt; completed outputs, locks, resources and monitoring verify, with no environmental recovery required.
+
+All three recent invocations have independently verified completion, complete write-through, unchanged terminal/output hashes and ended parent, execution and verification identities. No research worker or counted CPU lease remains. The native census found no inaccessible Python or shell identities, unexpected research worker or stale lease. No new registered completion, failure, pause or monitor failure awaits landing. Historical failures and recoveries remain preserved. All 21 research locks pass. The legacy September queue is retired and was not restarted.
+
+The table reports resource headroom in GiB, not scientific results.
+
+| Resource | Available | Admission floor |
+|---|---:|---:|
+| RAM | 54.906 | 6 |
+| Commit | 42.761 | 8 |
+| Disk | 305.943 | 20 |
+
+The watcher, calendar and wrapper retain their exact native identities. Loaded watcher and transport source hashes match, scan and calendar heartbeat are fresh, and this health event reached the owner with no current delivery error. Earlier delivery failures remain visible. Paid accounting is unchanged since cutoff; no provider request was made. GPU parking remains intentional and supplies no restart authority.
+
+**Authorized next work.** The ready buffer is empty against its required eight cards. D5 final-document/process source and context support are complete, but the numerical consumer, scientific known-answer calibration and full-workload cost admission remain unbuilt. Human-text identification remains support-held. The unchanged D5 probe has 1,714.974125 CPU seconds remaining after every prior charge. Other scientific, cost, source, GPU and paid holds remain. No already validated and admitted job is stranded for restart.
+
+Idle accounting since the last D5 completion is 2.464829 slot-hours across the four configured slots at this inspection. This is a capacity defect while commissioned build work remains, not a healthy full queue. It includes the earlier recorded post-completion idle interval and must not be added to that overlapping interval in the digest.
+
+The initial read-only inspection assumed both result receipt formats stored a completion pathname. The collector instead stores its digest; the inspector was corrected to bind its known exact terminal path and retained digest. This stopped only the inspector before any mutation and changed no source, experiment or limit.
+
+**Means.** No environmental retry, lease removal, source repair or service restart is warranted. Continue building the next commissioned D5 numerical consumer and calibration under the existing limits; do not fill slots with held, repeated or invented work. Record and ACK this inspection to rearm the independent six-hour health check. No new tests were harvested, no scientific score is reported, and no publication occurs. Later records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Gear 2 is idle because admitted work is unbuilt; completed outputs, locks, resources and monitoring verify, with no environmental recovery required.; project meaning: scoped operational record; next engineering obligation: Build the commissioned D5 numerical consumer and calibration; retain human-text support and other admission holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261101_0312.md.
+
+### OPS-S15-W3-D5-CONTEXT-CORPUS
+
+**Hypothesis.** Can the frozen context comparisons obtain evidence for every required probe and gallery component without silently dropping writers, sessions or reference draws?
+
+**METHOD.** Authenticate the completed reference-plan producer and original source, reconstruct each assignment from its frozen seed, rebuild whole-prompt chronological halves, and inspect the literal other-writer and independent donor-fold comparisons on the exact real-data masks. Preserve every original writer in the source and every declared candidate in its gallery. Record missing gallery profiles, missing probe writers and absent donor terms separately. Repeat the complete check in a fresh native process. No identification, slope or probability is computed.
+
+**Found.** Every frozen context-reference draw independently replays; support gaps remain explicit and no identification outcome is computed.
+
+Seven targeted checks pass, including an independent explicit donor-search oracle, intentionally absent donors, fixed-candidate failure, role overlap, malformed support, immutable reentry, changed saved assignments, output tampering, boundary yield and the actual completed source interface. Literal exclusion-based context remains a diagnostic; passing its support checks does not repair its known identity leakage. Independent rotations retain disjoint donors and all fixed scored candidates. The original human-text support holds remain.
+
+The table reports complete preparation and execution accounting, not scientific effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained sessions | 1399 |
+| Original writers | 61 |
+| Fixed candidates | 45 |
+| Retained draws per bank | 1000 |
+| Source pins | 2868 |
+| Output hashes | 19 |
+| Combined execution/replay CPU seconds | 131.234375 |
+| Safety wall seconds used | 141.00021460000426 |
+| Cumulative D5 CPU charge | 1885.025875 |
+| Unchanged D5 CPU ceiling | 3600 |
+
+The next table counts unsupported complete comparisons. A draw fails support if any fixed rotation lacks a required candidate, usable probe or context term. All such draws are retained; none is discarded or redrawn. These are support counts, not identification scores.
+
+| Channel | Literal unsupported draws | Independent unsupported draws |
+|---|---:|---:|
+| final | 0 | 0 |
+| human1024 | 1000 | 1000 |
+| human128 | 102 | 126 |
+| human256 | 995 | 1000 |
+| human32 | 0 | 1 |
+| human512 | 1000 | 1000 |
+| human64 | 10 | 25 |
+| process | 0 | 0 |
+| rhythm | 0 | 0 |
+| selection | 0 | 0 |
+
+Real-assignment unsupported channels: literal human256, human512, human1024; independent human256, human512, human1024.
+
+**Means.** This is necessary boolean source support only. Numerical norms and variance, exchangeability, null calibration, planted sensitivity and measured whole-workload admission remain requirements for the separate scientific consumer. No result or scientific gate is healed. All prior charges plus the build reserve, twice targeted-test time and this complete invocation remain inside the unchanged ceiling. Workers exited, the counted lease is released and research locks pass. Watcher and calendar native identities remain verified and the independent six-hour health deadline is unchanged. Gear 2 remains authorized; the eight-card ready buffer is unfinished. GPU parking and paid closure persist. No tests were harvested from the wake, no p-value is reported and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Every frozen context-reference draw independently replays; support gaps remain explicit and no identification outcome is computed.; project meaning: scoped operational record; next engineering obligation: Complete source eligibility before scientific calibration and scoring; retain all missing support and original population gaps.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_CONTEXT_CORPUS_20261101.md.
+
+### OPS-S15-W3-D5-CONTEXT-NATIVE
+
+**Hypothesis.** Can the frozen context comparisons obtain evidence for every required probe and gallery component without silently dropping writers, sessions or reference draws?
+
+**METHOD.** Authenticate the completed reference-plan producer and original source, reconstruct each assignment from its frozen seed, rebuild whole-prompt chronological halves, and inspect the literal other-writer and independent donor-fold comparisons on the exact real-data masks. Preserve every original writer in the source and every declared candidate in its gallery. Record missing gallery profiles, missing probe writers and absent donor terms separately. Repeat the complete check in a fresh native process. No identification, slope or probability is computed.
+
+**Found.** Complete context-source support checks pass constructed native replay; full-source eligibility and scientific scoring remain separate.
+
+Seven targeted checks pass, including an independent explicit donor-search oracle, intentionally absent donors, fixed-candidate failure, role overlap, malformed support, immutable reentry, changed saved assignments, output tampering, boundary yield and the actual completed source interface. Literal exclusion-based context remains a diagnostic; passing its support checks does not repair its known identity leakage. Independent rotations retain disjoint donors and all fixed scored candidates. The original human-text support holds remain.
+
+The table reports complete preparation and execution accounting, not scientific effects.
+
+| Check | Verified value |
+|---|---:|
+| Retained sessions | 48 |
+| Original writers | 6 |
+| Fixed candidates | 6 |
+| Retained draws per bank | 24 |
+| Source pins | 57 |
+| Output hashes | 19 |
+| Combined execution/replay CPU seconds | 0.890625 |
+| Safety wall seconds used | 4.4129180000163615 |
+| Cumulative D5 CPU charge | 1753.7915 |
+| Unchanged D5 CPU ceiling | 3600 |
+
+**Means.** This is necessary boolean source support only. Numerical norms and variance, exchangeability, null calibration, planted sensitivity and measured whole-workload admission remain requirements for the separate scientific consumer. No result or scientific gate is healed. All prior charges plus the build reserve, twice targeted-test time and this complete invocation remain inside the unchanged ceiling. Workers exited, the counted lease is released and research locks pass. Watcher and calendar native identities remain verified and the independent six-hour health deadline is unchanged. Gear 2 remains authorized; the eight-card ready buffer is unfinished. GPU parking and paid closure persist. No tests were harvested from the wake, no p-value is reported and no publication occurs. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete context-source support checks pass constructed native replay; full-source eligibility and scientific scoring remain separate.; project meaning: scoped operational record; next engineering obligation: Complete source eligibility before scientific calibration and scoring; retain all missing support and original population gaps.; public scientific claim unchanged; curator decision required: No new decision. Detail: D5_CONTEXT_NATIVE_20261101.md.
+
+### S15-V4C-MC199-20261101
+
+**Hypothesis.** Can fitting and replaying the entire no-taste reference distinguish planted writer taste from apparent taste caused by learning the reader on the same constructed decisions?
+
+**METHOD.** Retain all 110 original constructed worlds and their real-data-derived menus, chronology and writer/session assignments. For the combined taste-and-history reader, preserve the original mean of the two swapped split likelihood-ratio statistics. In each world fit an intercept-and-causal-history model without taste, generate all 199 fixed-seed no-taste datasets, and relearn population baselines, scaling, taste directions, dimension, history decay and variance fits in every dataset. Rank the observed statistic conservatively, counting ties against detection, as one plus the number of reference statistics at least as large, divided by 200. Independently regenerate and refit every reference, then collect and replay all four shards in fresh processes. Apply the original finite false-alarm and sensitivity gates; independently recount all worlds and verify exact parity with every original observed split statistic.
+
+**Corrections first.** The saved primary normal approximation returns literal zero because its empirical bootstrap standard error is zero. The all-one medium-strength sample versus all-zero no-effect sample also makes every resampled difference one. This is a degenerate descriptive calculation, not a valid zero probability or evidence of exact population certainty. The original bytes and interval remain unchanged; the diagnostic is explicitly excluded from inferential and multiplicity families. No gate uses that approximate probability. The fixed count-based calibration labels below remain independently reproducible.
+
+**Found.** In constructed worlds, the fitted 199-reference test supports detection of matched-feature taste under its frozen calibration rules; lexical taste fails false-alarm calibration, and habit sensitivity remains insufficient.
+
+Table: each row is one planted law read by the same combined reader. Zero, weak, medium and large denote planted strengths 0, 0.2, 0.4 and 0.8. Each cell is detections / complete constructed worlds. The shared shuffled-world count is repeated to show the gate for each row. False-alarm gates allow at most one of ten zero-strength worlds and two of twenty shuffled worlds; after those pass, at least eight of ten medium-strength recoveries licenses “sees”, or at least four of five large-strength recoveries licenses “sees large only”. A failed false-alarm gate always takes precedence.
+
+| Planted law | Zero | Weak | Medium | Large | Shuffled | Frozen label and reason |
+|---|---:|---:|---:|---:|---:|---|
+| Outcome history | 0/10 | 0/5 | 0/10 | 1/5 | 1/20 | blind: insufficient sensitivity |
+| Lexical taste | 2/10 | 1/5 | 6/10 | 5/5 | 1/20 | blind: zero-strength false-alarm gate fails |
+| Taste matched to reader features | 0/10 | 5/5 | 10/10 | 5/5 | 1/20 | sees: both null gates and medium recovery pass |
+
+The primary matched-feature medium-minus-zero detection share is **+1.0** (ten of ten versus zero of ten). Its saved 2,000-resample percentile interval is [1.0, 1.0], with seed 20261030; this degeneracy is explicitly not a precise population interval. Existing Wilson 95% intervals retain finite-sample uncertainty: matched medium recovery [0.722467, 1.000000], matched zero-strength false alarms [0, 0.277533], and shuffled false alarms [0.008881, 0.236131]. The lexical zero-strength false-alarm interval is [0.056682, 0.509838]. All other registered cell intervals are retained in the aggregate JSON. These are finite constructed-world rates conditional on the retained real-data design, not human-population intervals or proof of a uniformly controlled false-alarm rate.
+
+This is a separately fitted conditional parametric reference. The no-taste model keeps fitted writer intercept and habit coefficients and generates outcomes causally at original timestamps; it is a plug-in model with shrinkage assumptions, not an exact finite-sample randomization law. Passing the matched-feature branch does not make it calibrated for the lexical branch or demonstrate that shared coordinates are necessary. The original Gaussian-reference V4 and split V4.c labels remain unchanged. The history-only reader from the earlier split is not rerun or relabeled by this combined-reader continuation. Failure to recover the known history plant indicts sensitivity at the tested strengths, not the existence of human history dependence.
+
+All four full shard landings remain authenticated. Every world retains all 199 reference datasets, totaling 21,890 complete references; no world, failed fit or draw was dropped or replaced. Every observed combined-reader statistic equals its original split value exactly. The four shard fresh passes regenerate outcomes and refit all references; the collector independently rechecks physical hashes, all probabilities, roster, shared sources and the final summary. This is distinct from hash-only validation.
+
+The table describes integrity and cost, not scientific effect sizes.
+
+| Completed integrity check | Verified value |
+|---|---:|
+| Source/dependency pins | 22,395 |
+| Collector terminal output hashes | 14 |
+| Original observed-statistic parity | 110/110 worlds |
+| Collector execution / fresh replay CPU seconds | 1,280.234375 / 1,271.328125 |
+| Combined collector CPU / attempt limit | 2,551.5625 / 3,906 seconds |
+| Collector wall / safety wall | 2,630.0646864 / 4,365 seconds |
+| Prior retained charges/reservations plus collector actual | 635,924.69125 CPU seconds |
+| Full prospective allocation / unchanged whole-card ceiling | 637,279.12875 / 686,472 CPU seconds |
+
+All five collector native identities have ended; its counted lease is released. All 21 research locks pass, the source capsule and completed inputs remain intact, and paid accounting is unchanged. The terminal was delivered by the existing watcher without a delivery error. The independent six-hour health deadline is unchanged.
+
+**Means.** The matched-feature branch has finite constructed calibration support under the declared fitted law; the general shared-coordinate hypothesis remains open. The lexical branch retains a failed false-alarm gate, and the habit branch remains insensitive. No human taste finding, hierarchical D2 comparison, FX1 holdout, personal panel or other downstream route is admitted automatically. This commissioned continuation of the existing calibration does not open a new generation of descendants; no scientific gate is healed or threshold altered. The invalid normal-approximation diagnostic is retained with a reporting qualification and a method lesson, not replaced by a post-hoc significance test. The instrument ledger, G213 evidence row and its afterword, claim ledger, findings, queue and execution state receive this complete result. Daily/final packet integration remains required. No tests were harvested from the wake.
+
+Gear 2 remains authorized, but the collector's completion leaves all four research slots idle and the eight-card ready buffer unfinished. This is a recorded capacity deficit, not a gear change. Continue the independent commissioned D5 final-text/process calibration preparation; existing scientific, cost, GPU and paid holds remain. All earlier failures, pauses, cost holds, repairs and original result labels are preserved. These new records remain local; no publication occurs in this pass.
+
+
+Curator roll-up: reader calibration and shared coordinates; Can a separately fitted whole-pipeline reference recover known taste without false alarms?; **Strengthens**; In constructed worlds, the fitted 199-reference test supports detection of matched-feature taste under its frozen calibration rules; lexical taste fails false-alarm calibration, and habit sensitivity remains insufficient.; project meaning: scoped constructed instrument support, not human taste or universal shared-coordinate necessity; next engineering obligation: preserve failed lexical/habit branches and complete independent commissioned preparation; public claim newly licensed only for the matched-feature constructed calibration; curator decision required: No new decision. Detail: V4C_MC199_COMPLETE_20261101.md.
+
+### OPS-S15-W3-V4C-COLLECTION-LAUNCH
+
+**Hypothesis.** Can the complete, unchanged collector now proceed under the measured allocation with its evidence and supervision intact?
+
+**METHOD.** Verify the full cost landing and prospective allocation, all four fully landed shards, their complete dependency graph and the unchanged collector/runtime closure. Freeze a new attempt, authenticate every pin before execution, register terminal and exact-native monitoring, and inspect the live parent, launcher, worker, ancestry, counted lease, numerical-thread environment, processor progress, source capsule, resource floors and research locks. Reconcile watcher delivery, paid accounting and the independent health clock.
+
+**Found.** The unchanged full collector is progressing in one monitored Gear 2 CPU slot within the original whole-card ceiling; scientific reporting and the ready-work buffer remain unfinished.
+
+All four shard completions and their full write-through receipts remain bound to the new plan. The same complete roster, every reference, source-order bootstrap, fit and scientific gate remain unchanged. The collector performs complete physical authentication and decoding, then repeats the collection in a fresh process. Passing execution alone cannot license the result. The original 120-second collector allocation and its failed admission remain intact; the new internal allocation retains all prior charges and reservations.
+
+The table describes current execution and processor-time limits, not scientific effects.
+
+| Operational check | Verified value |
+|---|---:|
+| Counted active / free CPU slots | 1 / 3 |
+| Frozen dependency pins authenticated before execution | 22395 |
+| Unchanged code files / execution capsule files | 37 / 36 |
+| Observed numerical threads / permitted ceiling | 1 / 2 |
+| Combined execution and replay CPU limit | 3,906 seconds |
+| Combined safety wall | 4,365 seconds |
+| Total retained allocation / unchanged whole-card ceiling | 637,279.12875 / 686,472 CPU seconds |
+| Ready cards / required buffer | 0 / 8 |
+
+Exact native identities and ancestry agree, processor usage advances, the progress receipt is fresh and the counted lease belongs to this attempt. All 21 research locks pass. Memory, commit and disk remain above the established floors. The existing watcher and calendar retain their identities and loaded source bindings. Completion, failure, pause and disappearance paths are registered before work. There is no new terminal or pending delivery, and the six-hour health clock is unchanged. Paid accounting remains unchanged and dispatch stays closed; GPU parking persists.
+
+Two read-only inspection assertions were corrected before this verified record: the health schedule lives in the write-through proof, not its compact ACK receipt; and the launcher intentionally archives execution code while its own code is pinned separately. Both initial failures remain recorded privately. Neither changed a scientific input, runner, limit, test gate or running process.
+
+**Means.** The admitted collector is running. Its measured predecessor suggests roughly 49 minutes for execution and replay, with a 73-minute safety wall; neither is a completion claim. The next actionable event is complete collection or a failure, followed by independent scientific write-through. The existing health inspection remains due November 1 at 03:11 PST; no extra ETA wake is added. The ready buffer remains a capacity defect: this launch supplies one active job, not eight ready cards. The interval from cost completion through admission consumed 0.768597 idle slot-hours across the four free slots while full recording, allocation review, dependency preflight and dispatch were completed; subsequent three-slot underfill remains reportable in the digest. Existing D5 preparation and other commissioned admission obligations remain open. No tests were harvested from this operational wake, no scientific follow-up or p-value is reported, and no publication occurred. These records remain local; earlier approved pushes are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full collector is progressing in one monitored Gear 2 CPU slot within the original whole-card ceiling; scientific reporting and the ready-work buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Independently verify and fully land the completed collector; preserve final-packet reporting and the open ready-buffer obligation.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_COLLECTION_LAUNCH_20261101.md.
+
+### OPS-S15-W3-V4C-COLLECTION-ALLOCATION
+
+**Hypothesis.** Can the unchanged full collector run within the existing whole-card ceiling after every completed charge and retained reservation is counted?
+
+**METHOD.** Start from the completed probe's native execution and fresh verification cost, apply the already registered 50 percent margin, and round the attempt ceiling upward. Reconcile completed shard charges and all repair, probe and validation reservations. Retain even the original unused collector reservation. Verify the complete collector/runtime source closure against the source-cost plan, and exercise the actual policy's acceptance and above-ceiling refusal. Freeze the separate allocation before any scientific collection.
+
+**Found.** A separately recorded internal allocation admits the unchanged collector within the original whole-card CPU ceiling; scientific execution remains pending.
+
+The table gives processor-time accounting; none of these numbers is a scientific effect.
+
+| Allocation check | CPU seconds |
+|---|---:|
+| Native whole-invocation forecast with existing margin | 3905.3203125 |
+| New combined execution/replay attempt ceiling | 3906 |
+| All prior charges and retained reservations, including this preparation | 633373.12875 |
+| Total allocated | 637279.12875 |
+| Unchanged commissioned whole-card ceiling | 686472 |
+| Remaining unallocated room | 49192.87124999997 |
+
+The original 120-second reservation remains recorded as failed cost admission. Its preparer and the old allocation retain their exact bytes. The new allocation is inside the existing V4.c-MC199 card, not a new independent card or another S4 doubling. Completed shards are charged by their actual terminal usage with previous repair reservations retained, matching the original collector preparer's accounting. All 3,600 seconds of the cost-probe reservation, 240 seconds of its development/native validation reservations and the original 120-second collector reservation remain charged conservatively. This allocation reserves another 120 seconds for review and preparation. No current worker or prior charge is displaced.
+
+Every imported collector/runtime source matches its validated cost-plan pin; above-global-ceiling admission refuses. The original complete collector and its known-answer/ordering/mixed-source tests are unchanged. Its source cost probe already exercised every physical hash and reference read in both processes; constructed summary timing exercised the original summary's fixed known-answer patterns. The scientific summary will run on the actual complete roster only in the separate collection attempt. Seeds, worlds, reference banks, numerical fits, scientific gates and report interpretation are unchanged. The safety wall is 4365 seconds, the measured full probe wall with the same margin rounded up, subordinate to the original drain.
+
+**Means.** The internal allocation defect has an explicit prospective resolution, without changing the commissioned total. Prepare a separate collection-budget1 attempt, source-pin the full dependency graph and register monitoring before launch. The old cost hold stays in history. Gear 2 is idle at this prelaunch point; the eight-card ready buffer remains unfinished, and its idle accounting remains an operational obligation. GPU parking, paid closure and other scientific/support holds persist. No tests harvested, no new research or scientific follow-up, no p-value reported and no publication. Full scientific reporting still requires complete collector execution, fresh replay and write-through.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; A separately recorded internal allocation admits the unchanged collector within the original whole-card CPU ceiling; scientific execution remains pending.; project meaning: scoped operational record; next engineering obligation: Launch the unchanged fully admitted collector, then independently verify and fully record its complete scientific result.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_COLLECTION_ALLOCATION_20261101.md.
+
+### OPS-S15-W3-V4C-COLLECTION-COST-COMPLETE
+
+**Hypothesis.** Does full physical authentication, reference decoding and fresh collection replay fit the original collector reservation?
+
+**METHOD.** Measure all four completed source shards and every reference record, with the unchanged collector checking physical hashes, shard identities, source agreement, exact world coverage and retained reference probabilities. Repeat the complete readout in a fresh native process. Replace only the final actual-world summary with operational coverage, and time the unchanged summary on three fixed constructed patterns. Authenticate the complete terminal and all pinned outputs, compare the two proof records, inspect native job accounting, exact process exit, lease release, research locks and actual watcher delivery.
+
+**Found.** The complete collection-cost probe independently replays, but exceeds the original collector reservation; scientific aggregation remains uncomputed pending a separately recorded allocation.
+
+Every planned world and reference was decoded on both passes. The two source-bound coverage proofs are equal. Actual aggregate scientific outcomes were not computed. Both execution processes exited zero within the probe's unchanged combined allowance; the supervisor and contained launchers ended and the counted lease is released. All source pins and research locks pass. The only newly registered terminal is this completion; the watcher and calendar retain their native identities and loaded source hashes, with no current delivery error. Paid accounting is unchanged.
+
+The table contains complete cost and integrity measurements only. CPU seconds are processor time; the projections include the stated 50 percent margin and are not scientific scores.
+
+| Check | Verified value |
+|---|---:|
+| Source worlds / references per world | 110 / 199 |
+| References decoded on each complete pass | 21,890 |
+| Source pins verified | 22,361 |
+| Execution native CPU seconds | 1299.46875 |
+| Verification native CPU seconds | 1304.078125 |
+| Combined native CPU seconds / probe ceiling | 2603.546875 / 3,600 |
+| Registered component-timer projection | 3845.8125 CPU seconds |
+| Complete native-invocation projection | 3905.3203125 CPU seconds |
+| Original unstarted collector reservation | 120 CPU seconds |
+
+**Cost disposition.** The original reservation fails. No passing receipt for that 120-second plan is created and the original preparer continues to refuse it. Even one S4 doubling of that sub-reservation would not cover the work. The whole commissioned V4.c reference calculation, however, has a separately fixed 686,472-second cumulative ceiling; the collector's 120 seconds were an operator allocation inside that ceiling, not a separately commissioned study or a new scientific allowance. A prospective allocation review may use remaining room inside that unchanged whole-card ceiling, with every prior charge and repair reservation retained. This landing itself does not alter the allocation or dispatch the collector.
+
+The component timer's projection remains preserved exactly. Native whole-invocation accounting includes startup and worker overhead missing from the ten-second component allowance and therefore supplies the larger forecast for any subsequent allocation. This is a resource-accounting refinement, not a change in reference generation, fitting, seed, roster or scientific gate. No repeated fit or selected subset is proposed.
+
+**Means.** Full-source collection cost is now measured and verified, while the old collector plan remains cost-held. Record and validate any new internal allocation before starting the unchanged collector. Gear 2 is currently idle with four free slots and zero ready cards against eight required; this capacity deficit and the post-completion idle interval remain reportable defects. All original failed, paused and repaired attempts remain intact. GPU parking, paid closure, scientific/support holds and the final-packet policy persist. No tests were harvested from this operational wake, no scientific follow-up is registered and no p-value is reported. Instrument, findings, queue, claim ledger, execution index and current state are updated; records remain local. ACK follows full write-through verification without resetting the six-hour health schedule.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete collection-cost probe independently replays, but exceeds the original collector reservation; scientific aggregation remains uncomputed pending a separately recorded allocation.; project meaning: scoped operational record; next engineering obligation: Resolve a prospective collector allocation inside the unchanged whole-card ceiling, then collect and fully land the complete scientific result.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_COLLECTION_COST_COMPLETE_20261101.md.
+
+### OPS-S15-W3-V4C-COLLECTION-COST-LAUNCH
+
+**Hypothesis.** Can the remaining collection step be costed against the entire authenticated workload before scientific aggregation is admitted?
+
+**METHOD.** After full landing of every shard and the cost instrument's native validation, freeze and source-pin a separate complete-source measurement. Verify actual Windows parent, child and launcher identities, ancestry, counted lease, CPU progress, thread environment, resources, monitoring registration and unchanged source bindings. The probe repeats all physical hashing and reference decoding in a fresh process and times summary work on constructed known answers only.
+
+**Found.** The complete-source collection-cost probe is running in one Gear 2 CPU slot after native validation; scientific aggregation and the ready-card buffer remain unfinished.
+
+The table describes operational admission and limits; processor seconds are resource accounting, not scientific effects.
+
+| Check | Observation |
+|---|---:|
+| Complete source shards | 4 |
+| Planned worlds / references each | 110 / 199 |
+| Counted active CPU slots / allocation | 1 / 4 |
+| Actual numerical thread environment | 1 |
+| Source measurement CPU ceiling, execution and replay together | 3,600 seconds |
+| Prior charges and retained development/repair reservations | 629533.12875 seconds |
+| Original unstarted scientific collector reservation | 120 seconds |
+| Unchanged cumulative whole-card ceiling | 686,472 seconds |
+| Ready independent cards / required buffer | 0 / 8 |
+
+The actual execution process has consumed CPU, belongs to the recorded supervisor and holds one counted slot. Its supervisor progress is fresh; source hashing and the read-only scan may produce no result file until a complete pass ends. The unchanged resource floors and contained execution/replay accounting remain enforced. Terminal and failure paths are registered before computation; watcher and calendar native identities, loaded source hashes and the independent six-hour health schedule verify. No research worker was restarted or held job dispatched.
+
+All prior failed, paused and repaired attempts and their charges remain retained. Source measurement is a new bounded engineering step within the existing card ceiling, not a newly commissioned scientific test. The original 120-second scientific collector reservation stays unchanged. A measured forecast above it must land as a cost hold before any separate allocation or exact implementation is reviewed. The cost instrument does not compute the actual combined scientific summary. No partial scientific verdict is available.
+
+Three slots remain free and the ready buffer remains below its required depth. The interval from final shard completion through validation and this dispatch is retained for daily idle accounting; idle time while commissioned work remains is an operational defect. D5 supported final-text/process calibration and scoring remain an unfinished build obligation. GPU parking, paid closure and existing support, scientific and cost holds persist. No tests were harvested from this wake and no scientific follow-ups are registered from the unfinished calibration. Earlier approved pushes are verified through cc733d680; these later records remain local.
+
+**Means.** Gear 2 now has active authorized work again, but the week is not fully built out. The next actionable event is this probe's completion, failure or disappearance; then fully land its evidence and resolve collection admission without changing scientific definitions. The six-hour check remains November 1 at 03:11:58 PST. No additional ETA wake or polling loop is added. Instrument, claim, findings, queue and execution records are updated; no theory or multiplicity update is due for this operational record.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-source collection-cost probe is running in one Gear 2 CPU slot after native validation; scientific aggregation and the ready-card buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Fully land the cost measurement, resolve collection admission, and build the commissioned ready buffer without restarting held work.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_COLLECTION_COST_LAUNCH_20261101.md.
+
+### OPS-S15-W3-V4C-COLLECTION-COST-NATIVE
+
+**Hypothesis.** Can the cost instrument authenticate and decode an entire compressed collection while keeping the actual combined scientific summary uncomputed?
+
+**METHOD.** Drive the unchanged collector through four constructed shards and every planned reference per shard. Replace only its final summary call with operational coverage; time the unchanged summary separately on three fixed known-answer patterns. Test the real compressed-file boundary, missing shards, source-versus-fixture scope, corrupt physical bytes and changed saved proof. Run execution and complete replay in separate counted native processes, then verify all output hashes, source pins, exact process exit and lease release.
+
+**Found.** The complete collection-cost instrument passes constructed compressed-input checks and fresh native replay; full-source cost and scientific aggregation remain pending.
+
+The table reports instrument validation, not scientific effect estimates.
+
+| Check | Observation |
+|---|---:|
+| Targeted tests, including refusal branches | 2 passed |
+| Constructed shards | 4 |
+| References decoded in each complete pass | 796 |
+| Combined native execution/replay CPU seconds | 6.015625 |
+| Unchanged native validation allowance | 120 CPU seconds |
+
+Both native child processes exited zero. Complete output and compressed physical hashes match; supervisor, children and launchers ended and the counted lease is released. Actual source outcomes were not aggregated. The initial pytest invocation could not access its default temporary directory before either test ran. Its error XML remains retained; the unchanged tests passed using a new workspace scratch directory. This is an environmental setup failure, not a relaxed validation check.
+
+All four actual shards remain fully landed. The next source cost probe repeats complete physical authentication and decoding in fresh processes. The original collector reservation remains 120 CPU seconds and no passing cost receipt exists. Development/tests and native validation each retain a 120-second reservation; the source probe has a separate 3,600-second maximum, all inside the unchanged 686,472-second cumulative ceiling. Earlier charges and repair reservations stay retained. Source measurement will not claim that its own operation has admitted a larger collector allowance.
+
+**Means.** The cost instrument is eligible for its complete-source measurement. It does not establish a scientific pass, replace the completed shard refits or complete collection admission. Gear 2 is presently idle before that dispatch; the eight-card ready buffer remains unbuilt and idle interval accounting is retained for the digest. GPU, paid, scientific and support holds persist. No tests harvested from the wake; no scientific follow-up or p-value reported. This instrument landing updates FINDINGS, TOOLS, TODO, ledger and execution index; records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete collection-cost instrument passes constructed compressed-input checks and fresh native replay; full-source cost and scientific aggregation remain pending.; project meaning: scoped operational record; next engineering obligation: Measure complete-source collection cost inside the retained overall ceiling, then resolve collection admission before scientific reporting.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_COLLECTION_COST_NATIVE_20261101.md.
+
+### OPS-S15-W3-V4C-STORAGE-SHARD0
+
+**Hypothesis.** Has the final part of the fixed reference calculation retained its entire assigned workload and reproduced it independently within the original limits?
+
+**METHOD.** Authenticate the completion receipt, every bound output and every compressed-file hash. Match the exact assigned world roster and all reference seals against the frozen plan and source bindings. Inspect the unchanged independent verifier, its complete-replay receipt and measured zero-exit execution records. Check source pins, native process exit, lease release, resource limits and actual watcher delivery. Authenticate the other shards against their full landings without calculating or interpreting the combined result.
+
+**Found.** The final reference shard has completed full independent replay and passed integrity checks; combined scientific reporting still awaits admitted collection.
+
+Shard index 0 completed at 2026-11-01T08:17:15.291899+00:00 (November 01 at 01:17 PDT). Every assigned world and planned reference is present. Its fresh verification process regenerated and refitted the complete assigned workload and matched the retained output. This is full replay, separately authenticated by the landing's physical hashes and source-bound seals. Both execution and verification exited with code zero. Scientific definitions and the numerical consumer remain unchanged.
+
+The table reports completeness, integrity and resource accounting only. Counts describe planned work and verified files; CPU values are processor seconds, not effect estimates.
+
+| Check | Verified observation |
+|---|---:|
+| Assigned worlds, retained and freshly replayed | 28 |
+| References per world | 199 |
+| Compressed references and source-bound seals | 5,572 |
+| Completion-bound artifact hashes | 5,678 |
+| Unique source pins / research locks | 796 / 21 |
+| Execution CPU seconds | 52,265.531250 |
+| Independent verification CPU seconds | 76,585.093750 |
+| Combined attempt CPU seconds | 128,850.625000 |
+| Unchanged attempt CPU ceiling | 143,379.156250 |
+| Retained output bytes / unchanged byte cap | 4,818,020,460 / 8,589,934,592 |
+
+All four shard supervisors, execution and verification workers and contained launchers have ended under their recorded native identities. All counted leases are released. The prior shard 1, 2 and 3 completion hashes still match their full landings. No new failure or pause appeared. Watcher delivery, loaded source identities and service identity verify; this is the only new registered terminal since shard 1's ACK.
+
+**Capacity and next work.** The authorized Gear 2 allocation is now idle with four free CPU slots. The ready buffer remains zero against eight required. Idle capacity while commissioned work remains and the underbuilt buffer are operational defects. Completion and inspection timestamps are retained for the next digest's interval accounting; this point inspection does not assert continuous CPU utilization. D5 supported final-text/process calibration and scoring remain unbuilt, with the original human-text support gap retained.
+
+All four shard prerequisites are now complete. Collection still requires measured full physical hashing, decoding and fresh replay cost within its reserved 120 CPU seconds. This integrity inspection is not that cost admission. The original cumulative 686,472-second ceiling and all prior failure, pause and repair charges remain retained. This landing neither reclaims unused reservations nor enlarges a cap. Original failed and paused attempts remain intact.
+
+Paid dispatch stays closed with its ledger unchanged. GPU parking and the other scientific, support and cost holds persist. No paid request, new research, delegation or publication occurs. Earlier approved pushes remain verified through cc733d680; this completion record stays local. No tests were harvested from this operational wake, and no scientific follow-up is registered from an unfinished aggregate cell.
+
+**Means.** The fixed shard computation and its independent replay have drained successfully. This operational landing does not complete the combined calibration or establish a scientific pass. Finish collection-cost admission, retaining the original workload and charges, then collect only if admitted. Build the commissioned ready buffer without restarting held work. Raw outcomes remain private until complete collection. No p-value or scientific effect is quoted, so no multiplicity calculation or theory update is due. The instrument ledger, claim ledger, queue, execution index and state are updated. ACK follows write-through verification and preserves the independent six-hour health deadline.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The final reference shard has completed full independent replay and passed integrity checks; combined scientific reporting still awaits admitted collection.; project meaning: scoped operational record; next engineering obligation: Complete collection-cost admission, then admit the unchanged collector and build the commissioned ready buffer while retaining existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_SHARD0_COMPLETE_20261101.md.
+
+### OPS-S15-W3-V4C-STORAGE-SHARD1
+
+**Hypothesis.** Has the next completed part of the fixed reference calculation retained its entire assigned workload and reproduced it independently within the original limits?
+
+**METHOD.** Authenticate the completion receipt, every bound output and every compressed-file hash. Match the exact assigned world roster and all reference seals against the frozen plan and source bindings. Inspect the unchanged independent verifier, its complete-replay receipt and measured zero-exit execution records. Check source pins, native process exit, lease release, surviving workers, resource limits and actual watcher delivery. Retain both prior shards' fully recorded completions and do not combine or interpret an incomplete set.
+
+**Found.** The third reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.
+
+Shard index 1 completed at 2026-11-01T08:05:13.316787+00:00 (November 01 at 01:05 PDT). Every assigned world and planned reference is present. Its fresh verification process regenerated and refitted the complete assigned workload and matched the retained output; it did not substitute a hash audit for replay. Both execution and verification exited with code zero. The landing inspection authenticated the completion manifest, compressed physical manifest, source-bound seals and exact source pins. The original numerical consumer and all scientific definitions remain unchanged.
+
+The table reports completeness, integrity and resource accounting only. Counts describe planned work and verified files; CPU values are processor seconds, not effect estimates.
+
+| Check | Verified observation |
+|---|---:|
+| Assigned worlds, retained and freshly replayed | 28 |
+| References per world | 199 |
+| Compressed references and source-bound seals | 5,572 |
+| Completion-bound artifact hashes | 5,678 |
+| Unique source pins / research locks | 796 / 21 |
+| Execution CPU seconds | 51,449.828125 |
+| Independent verification CPU seconds | 76,573.765625 |
+| Combined attempt CPU seconds | 128,023.593750 |
+| Unchanged attempt CPU ceiling | 142,898.609375 |
+| Retained output bytes / unchanged byte cap | 4,820,113,690 / 8,589,934,592 |
+
+The completed supervisor, execution and verification workers and contained launchers no longer have their recorded native identities. Its counted lease is released. The prior shard 2 and shard 3 completion hashes still match their full landings; their workers remain ended and their leases remain absent. Shard 0 retains its original supervisor and verification worker, with matching creation identities and ancestry, increasing CPU counters and fresh output. Its original CPU/output limits, lease and one-thread environment remain intact. No sibling failure or yield request was present at inspection. Watcher delivery and service identity verify; this is the only new registered terminal since shard 3's ACK.
+
+**Capacity and next work.** One of the four authorized CPU slots is occupied and three are confirmed free. The ready buffer remains zero against the required eight. The underbuilt buffer is an operational defect while commissioned work remains, not a scientific result or a reason to restart held work. Completion and inspection timestamps are retained for the next digest's interval accounting; this point inspection does not assert continuous CPU utilization. D5 supported final-text/process calibration and scoring remain unbuilt, with the original human-text support gap retained.
+
+The collector remains gated on all four complete, fully landed shards and measured full hashing, decoding and fresh replay cost inside its reserved 120 CPU seconds. This integrity check is not that cost admission: it does not perform the full collector's decoding and replay. The original cumulative 686,472-second ceiling and all prior failure, pause and repair charges remain retained. This landing neither reclaims unused reservations nor enlarges a cap. Original failed and paused attempts remain intact.
+
+Paid dispatch stays closed with its ledger unchanged. GPU parking and the other scientific, support and cost holds persist. No paid request, new research, delegation or publication occurs. Earlier approved pushes remain verified through cc733d680; this completion record stays local. No tests were harvested from this operational wake, and no scientific follow-up is registered from an unfinished aggregate cell.
+
+**Means.** This is a complete operational landing of another fixed shard, not a completed calibration or scientific pass. Raw outcomes remain private pending complete collection. Allow the surviving verification workers to finish, fully land their terminal evidence, and admit collection only after its cost and completeness prerequisites pass. No p-value or scientific effect is quoted, so no multiplicity calculation or theory update is due. The instrument ledger, claim ledger, queue, execution index and state are updated. ACK follows write-through verification and leaves the independent six-hour health deadline unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The third reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.; project meaning: scoped operational record; next engineering obligation: Fully land the remaining shard, complete collection-cost admission and build the commissioned ready buffer while retaining existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_SHARD1_COMPLETE_20261101.md.
+
+### OPS-S15-W3-V4C-STORAGE-SHARD3
+
+**Hypothesis.** Has the next completed part of the fixed reference calculation retained its entire assigned workload and reproduced it independently within the original limits?
+
+**METHOD.** Authenticate the completion receipt, every bound output and every compressed-file hash. Match the exact assigned world roster and all reference seals against the frozen plan and source bindings. Inspect the unchanged independent verifier, its complete-replay receipt and measured zero-exit execution records. Check source pins, native process exit, lease release, surviving workers, resource limits and actual watcher delivery. Retain the prior shard's fully recorded completion and do not combine or interpret an incomplete set.
+
+**Found.** The second reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.
+
+Shard index 3 completed at 2026-11-01T06:50:31.792462+00:00 (October 31 at 23:50 PDT). Every assigned world and planned reference is present. Its fresh verification process regenerated and refitted the complete assigned workload and matched the retained output; it did not substitute a hash audit for replay. Both execution and verification exited with code zero. The landing inspection authenticated the completion manifest, compressed physical manifest, source-bound seals and exact source pins. The original numerical consumer and all scientific definitions remain unchanged.
+
+The table reports completeness, integrity and resource accounting only. Counts describe planned work and verified files; CPU values are processor seconds, not effect estimates.
+
+| Check | Verified observation |
+|---|---:|
+| Assigned worlds, retained and freshly replayed | 27 |
+| References per world | 199 |
+| Compressed references and source-bound seals | 5,373 |
+| Completion-bound artifact hashes | 5,476 |
+| Unique source pins / research locks | 796 / 21 |
+| Execution CPU seconds | 49,048.70312 |
+| Independent verification CPU seconds | 74,646.98438 |
+| Combined attempt CPU seconds | 123,695.68750 |
+| Unchanged attempt CPU ceiling | 136,631.71875 |
+| Retained output bytes / unchanged byte cap | 4,647,958,886 / 8,589,934,592 |
+
+The completed supervisor, execution and verification workers and contained launchers no longer have their recorded native identities. Its counted lease is released. The prior shard 2 completion still matches its full landing, its workers remain ended and its lease remains absent. Shards 0 and 1 retain their original supervisors and verification workers, with matching creation identities and ancestry, increasing CPU counters and fresh output. Their original CPU/output limits, leases and one-thread environments remain intact. No sibling failure or yield request was present at inspection. Watcher delivery and service identity verify; this is the only new registered terminal since shard 2's ACK.
+
+**Capacity and next work.** Two of the four authorized CPU slots are occupied and two are now confirmed free. The ready buffer remains zero against the required eight. The underbuilt buffer is an operational defect while commissioned work remains, not a scientific result or a reason to restart held work. Completion and inspection timestamps are retained for the next digest's interval accounting; this point inspection does not assert continuous CPU utilization. D5 supported final-text/process calibration and scoring remain unbuilt, with the original human-text support gap retained.
+
+The collector remains gated on all four complete, fully landed shards and measured full hashing, decoding and fresh replay cost inside its reserved 120 CPU seconds. This integrity check is not that cost admission: it does not perform the full collector's decoding and replay. The original cumulative 686,472-second ceiling and all prior failure, pause and repair charges remain retained. This landing neither reclaims unused reservations nor enlarges a cap. Original failed and paused attempts remain intact.
+
+Paid dispatch stays closed with its ledger unchanged. GPU parking and the other scientific, support and cost holds persist. No paid request, new research, delegation or publication occurs. Earlier approved pushes remain verified through cc733d680; this completion record stays local. No tests were harvested from this operational wake, and no scientific follow-up is registered from an unfinished aggregate cell.
+
+**Means.** This is a complete operational landing of another fixed shard, not a completed calibration or scientific pass. Raw outcomes remain private pending complete collection. Allow the surviving verification workers to finish, fully land their terminal evidence, and admit collection only after its cost and completeness prerequisites pass. No p-value or scientific effect is quoted, so no multiplicity calculation or theory update is due. The instrument ledger, claim ledger, queue, execution index and state are updated. ACK follows write-through verification and leaves the independent six-hour health deadline unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The second reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending.; project meaning: scoped operational record; next engineering obligation: Fully land the two remaining shards, complete collection-cost admission and build the commissioned ready buffer while retaining existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_SHARD3_COMPLETE_20261031.md.
+
+### OPS-S15-W3-V4C-STORAGE-SHARD2
+
+**Hypothesis.** Has the completed part of the fixed reference calculation retained its entire assigned workload and reproduced it independently within the original limits?
+
+**METHOD.** Authenticate the completion receipt, every bound output and every compressed-file hash. Match the exact assigned world roster and all reference seals against the frozen plan and source bindings. Inspect the unchanged independent verifier, its complete-replay receipt and measured zero-exit execution records. Check source pins, native process exit, lease release, surviving workers, resource limits and actual watcher delivery. Do not combine or interpret a partial set of shards.
+
+**Found.** One reference shard has completed full independent replay and passed integrity checks; three remain active, so the combined scientific result is still pending.
+
+Shard index 2 completed at 2026-11-01T06:21:12.964314+00:00 (October 31 at 23:21 PDT). Every assigned world and every planned reference is present. The fresh verification process regenerated and refitted the complete assigned workload and matched the retained output; it did not substitute a hash audit for replay. Both execution and verification exited with code zero. The later landing inspection authenticated the completion manifest, compressed physical manifest, source-bound seals and exact source pins. The original numerical consumer and all scientific definitions remain unchanged.
+
+The table reports completeness, integrity and resource accounting only. Counts describe planned work and verified files; CPU values are elapsed processor seconds, not effect estimates.
+
+| Check | Verified observation |
+|---|---:|
+| Assigned worlds, retained and freshly replayed | 27 |
+| References per world | 199 |
+| Complete compressed references and source-bound seals | 5,373 |
+| Completion-bound artifact hashes | 5,476 |
+| Unique source pins / research locks | 796 / 21 |
+| Execution CPU seconds | 48,364.8125 |
+| Independent verification CPU seconds | 73,711.96875 |
+| Combined attempt CPU seconds | 122,076.78125 |
+| Unchanged attempt CPU ceiling | 136,793.03125 |
+| Retained output bytes / unchanged byte cap | 4,646,860,081 / 8,589,934,592 |
+
+The completed supervisor, execution and verification workers and contained launchers no longer have their recorded native identities. Its counted lease is released. The other three original supervisors and verification workers remain alive with matching creation identities and ancestry, increasing CPU counters and fresh output. Their original limits, leases and one-thread environments remain intact. No sibling terminal or yield request was present at inspection. Watcher delivery and service identity verify, and the only new registered terminal since the preceding health ACK is this completion.
+
+**Capacity and next work.** Three of the four authorized CPU slots are occupied. One is now confirmed free, with zero ready cards against the required eight. This underbuilt buffer is an operational defect while commissioned work remains, not a scientific result or a reason to restart held work. The completion timestamp and inspection timestamp are retained for the next digest's interval accounting; this point inspection does not claim continuous CPU utilization. D5 supported final-text/process calibration and scoring remain unbuilt, with the original human-text support gap retained.
+
+The full collector remains gated on all four complete, fully landed shards and a measured full hashing, decoding and fresh replay cost inside its reserved 120 CPU seconds. This integrity check is not that cost admission: it does not perform the full collector's decoding and replay. The original cumulative 686,472-second ceiling and all prior failure, pause and repair charges remain retained. This landing does not reclaim unused reservations or enlarge a cap. Original failure and pause evidence remains unchanged.
+
+Paid dispatch remains closed with its ledger unchanged; GPU parking and the other scientific, support and cost holds remain. No paid request, new research, delegation or publication occurs. Earlier approved pushes remain verified through cc733d680; this completion record stays local. No tests were harvested from this operational wake, and no scientific follow-up is registered from an unfinished aggregate cell.
+
+**Means.** This is a complete operational landing of one fixed shard, not a completed calibration or a scientific pass. Its raw outcomes remain private pending the full collection. Allow the surviving verification workers to finish, fully land their terminal evidence, and admit collection only after its cost and completeness prerequisites pass. No p-value or scientific effect is quoted, so no multiplicity calculation or theory update is due. The instrument ledger, claim ledger, queue, execution index and state are updated. ACK follows write-through verification and leaves the independent six-hour health deadline unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; One reference shard has completed full independent replay and passed integrity checks; three remain active, so the combined scientific result is still pending.; project meaning: scoped operational record; next engineering obligation: Fully land the three remaining shards, complete collection-cost admission and build the commissioned ready buffer while retaining existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_SHARD2_COMPLETE_20261031.md.
+
+### OPS-S15-W3-HEALTH-20261031-2209
+
+**Hypothesis.** Is independent verification still progressing within the authorized limits, with evidence and delivery accounted for?
+
+**METHOD.** Compare native parent and verification-worker identities, CPU counters and output freshness with the preceding inspection. Authenticate execution-exit accounting and verification receipts; verify the parent-launcher-worker ancestry and commands. Check cumulative CPU advance, output freshness, counted leases, terminal/yield paths, source pins, research locks, resource limits, watcher/calendar identity and actual delivery. Inventory registered final produces since the previous ACK and inspect authorized next-work prerequisites.
+
+**Found.** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+All four original parent jobs remain alive and retain their counted leases. Each execution worker exited with code zero, and each parent launched the expected fresh verification process through its contained launcher. Native creation identities, ancestry and verification command lines agree. Both the same verification workers and the cumulative job CPU counters have advanced, and progress files remain fresh. No completion, failure, pause, monitor-failure or yield terminal exists for these active jobs, and no new registered terminal output awaits landing. A successful execution phase is not a complete verified scientific result.
+
+All 796 unique source pins and all 21 research locks verify. Numerical-thread environment settings remain one, below the ceiling of two. Current outputs remain below each fixed eight-GiB cap; cumulative CPU and the recorded remaining-work projections stay below their respective allowances. Total retained and reserved CPU remains 686468.956875 seconds inside the unchanged 686472-second ceiling. The completed byte-preserving checkpoint receipts remain consistent with their admitted prefixes.
+
+The table reports current host resources in GiB against admission floors. These are operational observations, not scientific estimates.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 53.998 | 6 |
+| Commit | 40.942 | 8 |
+| Disk | 305.973 | 20 |
+
+Watcher, calendar and wrapper native identities verify. The watcher, shared support and transport sources match their recorded loaded hashes. Scan and calendar heartbeat are fresh; the health event has actual owner delivery with no current error. Every active parent and its urgent final-produce paths remain registered. Historical delivery failures remain visible. A separate filtered Windows process census matches the four supervisors, four verification workers, their launchers and the watcher/calendar services, with no unexpected project Python worker. The first sandbox census was denied; the approved read-only census then succeeded. The September queue is a retired empty lineage and was not restarted.
+
+**Authorized next work.** All four counted CPU slots are occupied. The ready buffer remains zero against the required eight. The implemented compressed collector still requires all four verified, fully landed shards and measured complete hashing, decoding and replay cost inside its reservation; its cost-admission receipt remains absent. D5 supported final-text/process calibration and scoring remain unbuilt. Human-text support, D7/D19 cost and D37 scientific holds persist. This point inspection establishes no new idle interval or continuous utilization claim; previous daily capacity and interruption accounting remain retained.
+
+Week 3 paid dispatch remains closed. Its ledger is byte-identical to the cutoff inspection, with one cent settled and no outstanding campaign reservation. No provider request was made. GPU parking remains intentional. Earlier approved pushes are verified through cc733d680; subsequent records remain local. No tests were harvested from this operational wake.
+
+**Means.** Allow the unchanged jobs to complete their independent verification, then fully land their terminal evidence before any admitted collection. Preserve the explicit collector and ready-buffer obligations. No operational recovery is required or performed. ACK this fully recorded inspection to rearm the standing six-hour health cadence; add no ETA wake, new authority or unfinished per-artifact scientific report.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261031_2209.md.
+
+### OPS-S15-W3-DIGEST-20261031
+
+**Hypothesis.** Are today's operational evidence, corrections, capacity and spending fully accounted for without treating unfinished verification as a scientific result?
+
+**METHOD.** Authenticate the daily marker and actual delivery. Inventory terminal files independently of the watcher across the active native, local and paid roots for the fixed reporting window; reconcile them with delivered events and complete landings. Verify current claim anchors, native parent/verification-worker identities and ancestry, advancing CPU counters, fresh outputs, counted leases, source pins, locks and resource limits. Reconcile paid accounting and preserve the existing claim wording.
+
+**Corrections first.**
+
+- **Wording / typography:** three shell-encoding question-mark substitutions in yesterday's digest headings were changed to colons in both the digest and its FINDINGS entry. The original digest and its hash are retained. No numerical value or claim wording changed (OPS-S15-W3-HEALTH-20261030-2153).
+- **Instrument / inspection assumption:** the early health check initially expected the execution children to remain alive. They had exited normally and their unchanged parent jobs had launched fresh verification processes. The corrected inspection authenticated the successor identities, contained-launcher ancestry and zero execution exit codes, and compared cumulative CPU across the phase boundary. The initial read-only check is retained; no scientific job was repaired or restarted (OPS-S15-W3-HEALTH-20261031-0357).
+- **Earlier corrections remain in force:** the supervisor race, measured one-thread settings and exact-byte storage recovery are retained in yesterday's digest and their original ledger rows. No new scientific reversal, changed control or relaxed admission rule is introduced today.
+
+The table lists every ledger entry filed during this daily window. Public wording is reproduced exactly; a passing operational control applies only to that record's scope. Yesterday's digest was filed after its own cutoff and is included once as an operational landing. The pursuit column retains what was required when each record landed, not a claim that every consumer is runnable. These operational records register no scientific follow-up descendants.
+
+| Ledger identifier | Control status | Exact public wording | Recorded next work / follow-up disposition |
+|---|---|---|---|
+| OPS-S15-W3-DIGEST-20261030 | passes | The daily evidence and corrections are reconciled, and four Gear 2 workers continue within their limits; the ready-card buffer and final collection remain unfinished. | Continue the four bounded workers; complete collection-cost admission and build the commissioned ready buffer while preserving all current holds |
+| OPS-S15-W3-HEALTH-20261030-2153 | passes | Four Gear 2 workers are advancing within their limits; no recovery or new result landing is needed, while the ready buffer and collection admission remain unfinished. | Continue the four bounded workers; complete collection cost admission and the commissioned ready buffer while retaining existing holds. |
+| OPS-S15-W3-HEALTH-20261031-0357 | passes | Four Gear 2 jobs have moved normally into fresh-process verification and remain within their limits; no recovery is required, while final collection and the ready buffer remain unfinished. | Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds. |
+| OPS-S15-W3-HEALTH-20261031-1002 | passes | Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished. | Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds. |
+| OPS-S15-W3-HEALTH-20261031-1604 | passes | Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished. | Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds. |
+
+**Completed evidence and live work.** The independent inventory found no new completed, failed or paused study terminal during this window. The four retained parent jobs remain alive and hold their original counted leases. Their execution phases ended normally; all four fresh verification workers are now advancing with authenticated identities and commands, increased worker and cumulative CPU counters, and fresh output. No active job has a terminal or yield request. No scientific result is licensed until independent verification, complete shard landings and admitted final collection are finished. No unfinished scientific score is reported here.
+
+**Capacity accounting.** The fixed interval is 2026-10-31T03:00:00+00:00 through 2026-11-01T03:00:00+00:00: the 24 hours ending October 31 at 20:00 PDT. Four nonoverlapping parent lease intervals cover the entire window. This measures counted-slot occupancy from admission and retained ownership, not continuous CPU utilization. It includes phase handoffs while a parent retains its lease and excludes uncounted building or inspection. No idle counted-slot interval is identified by these records. Earlier interruption and idle estimates belong to the previous reporting interval and are not added again. The empty ready buffer remains a separate implementation defect despite current slot occupancy.
+
+The table separates fixed-window accounting from current execution and resource headroom. Host capacities are GiB; CPU reservations are seconds, not scientific estimates.
+
+| Operating item | Observation |
+|---|---|
+| Daily study terminals / ledger entries | 0 / 5 |
+| Unmatched receipts / unacknowledged daily terminals | 0 / 0 |
+| Source anchors verified before this digest | 297 |
+| Recorded counted-worker slot-hours | 96.000000 of 96 |
+| Estimated idle counted-worker slot-hours | 0.000000 |
+| Current parent jobs / verification workers / leases | 4 / 4 / 4 |
+| Ready cards / required buffer | 0 / 8; unresolved build obligation |
+| Unique source pins / research locks | 796 / 21, all verified |
+| Numerical-thread settings / ceiling | 1 / 2 per worker |
+| Available RAM / commit headroom / disk | 55.035 / 42.052 / 305.974 |
+| RAM / commit / disk floors | 6 / 8 / 20 |
+| Total retained and reserved CPU / unchanged ceiling | 686468.956875 / 686472 |
+| Output cap | 8,589,934,592 bytes per shard; all remain below it |
+| Collector reservation | 120 CPU seconds; complete measured cost admission still absent |
+| Monitoring | Native watcher, calendar and wrapper identities verified; loaded watcher-source hashes match; scan and heartbeat fresh; actual digest delivery verified |
+
+**Authorized next work and holds.** Continue the unchanged verification jobs and fully land each eventual terminal receipt. The compressed collector is implemented but requires all four verified, fully landed shards plus measured full hashing, decoding and replay cost within its reservation. Its cost-admission receipt is absent, so collection is not yet runnable. The required eight-card ready buffer is unbuilt. D5 supported final-text/process calibration and scoring remain unbuilt; human-text support, D7/D19 cost and D37 scientific holds persist. No parked or held job was restarted to fill capacity. GPU parking remains intentional. No new test was harvested from this operational wake.
+
+**Paid accounting.** Week 3 paid dispatch remains closed from October 30 at 17:00 PDT (October 31 at 00:00 UTC). The ledger is byte-identical to the fully recorded cutoff inspection: one settled PROC calibration booking of one cent against the 1,000-cent campaign ceiling, with no outstanding reservation. The historical three-cent reservation is reconciled. Node caps remain PROC 200, VAL 250, K 250, AUTH 100, GOAL 50 and P 50 cents. Retained ended-provider and billing evidence remain the basis for the sole submitted batch; this digest made no provider query or paid request. Prepared but unsubmitted nodes remain unrun. Unused budget does not reopen the ended window, and unavailable paid-dependent comparisons are not nulls.
+
+**Publication and final reporting.** Both earlier requested pushes were completed and verified through cc733d6808562d95cdb60cb0e711cb4ee50555b1. Later recoveries, inspections and daily digests remain local; this pass publishes nothing. The supplied theory appendices remain filed as attributed proposals (OPS-S15-W3-THEORY-FILING). This digest adds no scientific claim or p-value, so no theory edit or multiplicity calculation is required. The final digest and no-new-start boundary remain November 1 at 20:00 PST (November 2 at 04:00 UTC); drain is 22:00 PST (06:00 UTC), with its addendum by 23:00 PST. The daylight-saving change is already reflected in those UTC boundaries. Today's marker is not stage closure.
+
+**Found.** The daily operational records and corrections are reconciled; four Gear 2 jobs remain in independent verification, with no completed scientific result and the collection and ready-buffer obligations still open.
+
+**Means.** Current execution is healthy, but the collection and ready-buffer obligations remain unfinished. Keep the existing workers, bounds and monitoring intact. ACK only after this full write-through and claim-anchor verification; preserve the independent six-hour health deadline. This digest grants no new research, gear, spend or delegation authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The daily operational records and corrections are reconciled; four Gear 2 jobs remain in independent verification, with no completed scientific result and the collection and ready-buffer obligations still open.; project meaning: scoped operational record; next engineering obligation: Fully land complete verification outputs; complete collector cost admission and the commissioned ready buffer while preserving all holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261031.md.
+
+### OPS-S15-W3-HEALTH-20261031-1604
+
+**Hypothesis.** Is independent verification still progressing within the authorized limits, with evidence and delivery accounted for?
+
+**METHOD.** Compare native parent and verification-worker identities, CPU counters and output freshness with the preceding inspection. Authenticate execution-exit accounting and verification receipts; verify the parent-launcher-worker ancestry and commands. Check cumulative CPU advance, output freshness, counted leases, terminal/yield paths, source pins, research locks, resource limits, watcher/calendar identity and actual delivery. Inventory registered final produces since the previous ACK and inspect authorized next-work prerequisites.
+
+**Found.** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+All four original parent jobs remain alive and retain their counted leases. Each execution worker exited with code zero, and each parent launched the expected fresh verification process through its contained launcher. Native creation identities, ancestry and verification command lines agree. Both the same verification workers and the cumulative job CPU counters have advanced, and progress files remain fresh. No completion, failure, pause, monitor-failure or yield terminal exists for these active jobs, and no new registered terminal output awaits landing. A successful execution phase is not a complete verified scientific result.
+
+All 796 unique source pins and all 21 research locks verify. Numerical-thread environment settings remain one, below the ceiling of two. Current outputs remain below each fixed eight-GiB cap; cumulative CPU and the recorded remaining-work projections stay below their respective allowances. Total retained and reserved CPU remains 686468.956875 seconds inside the unchanged 686472-second ceiling. The completed byte-preserving checkpoint receipts remain consistent with their admitted prefixes.
+
+The table reports current host resources in GiB against admission floors. These are operational observations, not scientific estimates.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 58.491 | 6 |
+| Commit | 52.025 | 8 |
+| Disk | 305.974 | 20 |
+
+Watcher, calendar and wrapper native identities verify. The watcher, shared support and transport sources match their recorded loaded hashes. Scan and calendar heartbeat are fresh; the health event has actual owner delivery with no current error. Every active parent and its urgent final-produce paths remain registered. Historical delivery failures remain visible. The September queue is a retired empty lineage and was not restarted.
+
+**Authorized next work.** All four counted CPU slots are occupied. The ready buffer remains zero against the required eight. The implemented compressed collector still requires all four verified, fully landed shards and measured complete hashing, decoding and replay cost inside its reservation; its cost-admission receipt remains absent. D5 supported final-text/process calibration and scoring remain unbuilt. Human-text support, D7/D19 cost and D37 scientific holds persist. This point inspection establishes no new idle interval or continuous utilization claim; previous daily capacity and interruption accounting remain retained.
+
+Week 3 paid dispatch remains closed. Its ledger is byte-identical to the cutoff inspection, with one cent settled and no outstanding campaign reservation. No provider request was made. GPU parking remains intentional. Earlier approved pushes are verified through cc733d680; subsequent records remain local. No tests were harvested from this operational wake.
+
+**Means.** Allow the unchanged jobs to complete their independent verification, then fully land their terminal evidence before any admitted collection. Preserve the explicit collector and ready-buffer obligations. No operational recovery is required or performed. ACK this fully recorded inspection to rearm the standing six-hour health cadence; add no ETA wake, new authority or unfinished per-artifact scientific report.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261031_1604.md.
+
+### OPS-S15-W3-HEALTH-20261031-1002
+
+**Hypothesis.** Is independent verification still progressing within the authorized limits, with evidence and delivery accounted for?
+
+**METHOD.** Compare native parent and verification-worker identities, CPU counters and output freshness with the preceding inspection. Authenticate execution-exit accounting and verification receipts; verify the parent-launcher-worker ancestry and commands. Check cumulative CPU advance, output freshness, counted leases, terminal/yield paths, source pins, research locks, resource limits, watcher/calendar identity and actual delivery. Inventory registered final produces since the previous ACK and inspect authorized next-work prerequisites.
+
+**Found.** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.
+
+All four original parent jobs remain alive and retain their counted leases. Each execution worker exited with code zero, and each parent launched the expected fresh verification process through its contained launcher. Native creation identities, ancestry and verification command lines agree. Both the same verification workers and the cumulative job CPU counters have advanced, and progress files remain fresh. No completion, failure, pause, monitor-failure or yield terminal exists for these active jobs, and no new registered terminal output awaits landing. A successful execution phase is not a complete verified scientific result.
+
+All 796 unique source pins and all 21 research locks verify. Numerical-thread environment settings remain one, below the ceiling of two. Current outputs remain below each fixed eight-GiB cap; cumulative CPU and the recorded remaining-work projections stay below their respective allowances. Total retained and reserved CPU remains 686468.956875 seconds inside the unchanged 686472-second ceiling. The completed byte-preserving checkpoint receipts remain consistent with their admitted prefixes.
+
+The table reports current host resources in GiB against admission floors. These are operational observations, not scientific estimates.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 57.573 | 6 |
+| Commit | 49.003 | 8 |
+| Disk | 305.974 | 20 |
+
+Watcher, calendar and wrapper native identities verify. The watcher, shared support and transport sources match their recorded loaded hashes. Scan and calendar heartbeat are fresh; the health event has actual owner delivery with no current error. Every active parent and its urgent final-produce paths remain registered. Historical delivery failures remain visible. The September queue is a retired empty lineage and was not restarted.
+
+**Authorized next work.** All four counted CPU slots are occupied. The ready buffer remains zero against the required eight. The implemented compressed collector still requires all four verified, fully landed shards and measured complete hashing, decoding and replay cost inside its reservation; its cost-admission receipt remains absent. D5 supported final-text/process calibration and scoring remain unbuilt. Human-text support, D7/D19 cost and D37 scientific holds persist. This point inspection establishes no new idle interval or continuous utilization claim; previous daily capacity and interruption accounting remain retained.
+
+Week 3 paid dispatch remains closed. Its ledger is byte-identical to the cutoff inspection, with one cent settled and no outstanding campaign reservation. No provider request was made. GPU parking remains intentional. Earlier approved pushes are verified through cc733d680; subsequent records remain local. No tests were harvested from this operational wake.
+
+**Means.** Allow the unchanged jobs to complete their independent verification, then fully land their terminal evidence before any admitted collection. Preserve the explicit collector and ready-buffer obligations. No operational recovery is required or performed. ACK this fully recorded inspection to rearm the standing six-hour health cadence; add no ETA wake, new authority or unfinished per-artifact scientific report.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261031_1002.md.
+
+### OPS-S15-W3-HEALTH-20261031-0357
+
+**Hypothesis.** Is the change in worker identities an expected verification handoff or a loss of authorized work?
+
+**METHOD.** Compare native parent and phase-worker identities with the preceding inspection. Authenticate execution-exit accounting and fresh verification child receipts; verify the parent-launcher-worker ancestry and commands. Check cumulative CPU advance, output freshness, counted leases, terminal/yield paths, source pins, research locks, resource limits, watcher/calendar identity and actual delivery. Inventory registered final produces since the previous ACK and inspect authorized next-work prerequisites.
+
+**Found.** Four Gear 2 jobs have moved normally into fresh-process verification and remain within their limits; no recovery is required, while final collection and the ready buffer remain unfinished.
+
+All four original parent jobs remain alive and retain their counted leases. Each execution worker exited with code zero, and each parent launched the expected fresh verification process through its contained launcher. Native creation identities, ancestry and verification command lines agree. Cumulative job CPU counters have advanced, the new workers have consumed CPU, and progress files remain fresh. No completion, failure, pause, monitor-failure or yield terminal exists for these active jobs, and no new registered terminal output awaits landing. A successful execution phase is not a complete verified scientific result.
+
+**Inspection correction.** The first read-only check assumed the old execution children should still be alive and stopped on that assertion. The original check is retained. Inspection of the supervisor and phase receipts established the normal zero-exit transition; the completed check binds the new verification descendants and compares cumulative job CPU, rather than comparing CPU counters across different processes. No scientific worker, source, input or live environment was changed or restarted.
+
+All 796 unique source pins and all 21 research locks verify. Numerical-thread environment settings remain one, below the ceiling of two. Current outputs remain below each fixed eight-GiB cap; cumulative CPU and the recorded remaining-work projections stay below their respective allowances. Total retained and reserved CPU remains 686468.956875 seconds inside the unchanged 686472-second ceiling. The completed byte-preserving checkpoint receipts remain consistent with their admitted prefixes.
+
+The table reports current host resources in GiB against admission floors. These are operational observations, not scientific estimates.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 56.611 | 6 |
+| Commit | 47.813 | 8 |
+| Disk | 305.975 | 20 |
+
+Watcher, calendar and wrapper native identities verify. The watcher, shared support and transport sources match their recorded loaded hashes. Scan and calendar heartbeat are fresh; the health event has actual owner delivery with no current error. Every active parent and its urgent final-produce paths remain registered. Historical delivery failures remain visible. The September queue is a retired empty lineage and was not restarted.
+
+**Authorized next work.** All four counted CPU slots are occupied. The ready buffer remains zero against the required eight. The implemented compressed collector still requires all four verified, fully landed shards and measured complete hashing, decoding and replay cost inside its reservation; its cost-admission receipt remains absent. D5 supported final-text/process calibration and scoring remain unbuilt. Human-text support, D7/D19 cost and D37 scientific holds persist. This point inspection establishes no new idle interval or continuous utilization claim; previous daily capacity and interruption accounting remain retained.
+
+Week 3 paid dispatch remains closed. Its ledger is byte-identical to the cutoff inspection, with one cent settled and no outstanding campaign reservation. No provider request was made. GPU parking remains intentional. Earlier approved pushes are verified through cc733d680; subsequent records remain local. No tests were harvested from this operational wake.
+
+**Means.** Allow the unchanged jobs to complete their independent verification, then fully land their terminal evidence before any admitted collection. Preserve the explicit collector and ready-buffer obligations. No operational recovery is required or performed. ACK this fully recorded inspection to rearm the standing six-hour health cadence; add no ETA wake, new authority or unfinished per-artifact scientific report.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 jobs have moved normally into fresh-process verification and remain within their limits; no recovery is required, while final collection and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Fully land complete verification outputs; retain collection-cost admission and ready-buffer obligations without relaxing existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261031_0357.md.
+
+### OPS-S15-W3-HEALTH-20261030-2153
+
+**Hypothesis.** Is the authorized CPU workload continuing safely, with evidence, limits and delivery accounted for?
+
+**METHOD.** Verify exact native parent/worker identities and commands, counted leases, increased CPU use and fresh outputs against the daily inspection. Check terminal and yield paths, completed checkpoint-conversion receipts, source pins, research locks, remaining CPU projections, output size and host resources. Inspect service identities and loaded-source hashes, actual event delivery, configured final produces since the last ACK, current TODO prerequisites and paid-ledger continuity.
+
+**Found.** Four Gear 2 workers are advancing within their limits; no recovery or new result landing is needed, while the ready buffer and collection admission remain unfinished.
+
+All four parents and workers retain their native identities and own the four counted leases. Each has advanced CPU use and fresh progress in the original computation. The conversion receipts still match their authenticated retained prefixes; full independent scientific replay remains required at completion. There is no completion, failure, pause, monitor alarm or yield for the active continuations, and no new registered terminal output awaits write-through.
+
+All 796 unique source pins and all 21 research locks verify. Actual numerical-library environment settings remain one, below the two-thread ceiling. Every output remains below its fixed eight-GiB cap, and every CPU counter and recorded remaining-work projection is below its own limit. Total retained and reserved CPU remains 686468.956875 seconds inside the unchanged 686472-second ceiling. No run, guard, input, reference, model, seed or live environment was changed.
+
+The table shows current host headroom in GiB against admission floors; it contains no scientific score.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 56.603 | 6 |
+| Commit | 47.805 | 8 |
+| Disk | 310.158 | 20 |
+
+The watcher, calendar and wrapper retain their native identities. The watcher source, shared support and queue-transport hashes match the recorded loaded sources. Scan and calendar heartbeat are fresh; the exact health event has actual owner-delivery evidence with no current error. Historical notification failures remain visible and are not current failures. Every active owner and its urgent terminal paths remain registered. The September queue log describes a retired empty lineage and was not restarted.
+
+**Authorized next work and holds.** Four workers fill the current CPU allocation. Zero separately ready cards exist against the required eight: the build deficit remains open. The implemented compressed collector requires four independently verified, fully landed shards and measured hashing/decoding/full-replay cost inside its reservation; that cost receipt remains absent. D5 supported final-text/process calibration and scoring remain unbuilt. Human-text support, D7/D19 cost and D37 scientific holds persist. This point inspection identifies no additional idle interval; the daily capacity estimate and earlier interruptions remain recorded without being added again.
+
+Week 3 paid dispatch remains closed. The spending ledger is byte-identical to the cutoff inspection: one cent settled and no outstanding campaign reservation. No provider request was made. GPU parking remains intentional. Both approved pushes are recorded through cc733d680; later records remain local.
+
+**Record maintenance.** Three question-mark substitutions introduced by shell encoding in the prior digest headings were replaced with colons in the digest and matching FINDINGS entry. The original digest is archived with its hash; no claim wording, numerical value or scientific field changed. Claim anchors are refreshed and prior claim semantics verified before ACK.
+
+**Means.** Continue the four immutable workers; complete the existing collection-admission and ready-buffer obligations. No operational restart is required or performed. No tests were harvested from this wake, no scientific interpretation was added, and no unfinished per-artifact scores are reported. ACK this fully recorded inspection to rearm only the standing six-hour health cadence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 workers are advancing within their limits; no recovery or new result landing is needed, while the ready buffer and collection admission remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the four bounded workers; complete collection cost admission and the commissioned ready buffer while retaining existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261030_2153.md.
+
+### OPS-S15-W3-DIGEST-20261030
+
+**Hypothesis.** Are the day's completed evidence, failures, corrections and unused capacity fully accounted for while authorized local work continues?
+
+**METHOD.** Authenticate the calendar marker and actual delivery; independently inventory terminal files in the current local and paid run roots and reconcile every daily terminal with an acknowledged event and full public receipt. Verify every completed output manifest and all current ledger source anchors. Inspect the four native parent/worker identities, leases, progress freshness, source pins, limits, research locks and watcher/calendar health. Reproduce existing ledger statements without interpreting unfinished scientific outputs.
+
+**Corrections first.**
+
+- **Instrument: supervisor race:** a temporary-file disappearance between existence and size checks stopped the first shard. The separate supervisor uses one size query and ignores only the known vanished atomic-write temporary pattern; ordinary missing files, permission failures and byte-cap violations still refuse. Native positive replay and the expected cap refusal validate that repair. The original failed attempt, all checkpoint bytes and its CPU charge remain recorded (OPS-S15-W3-V4C-MC-MONITOR-FAILURE; OPS-S15-W3-RUNTIME-V6-VALIDATION; OPS-S15-W3-V4C-MC-RUNTIME-RECOVERY).
+- **Wording: thread settings:** the two-thread limit was mistakenly described as observed usage. Actual worker environments specify one numerical thread. The unchanged cost and execution chains share this setting; no live environment was changed. The original narrative carries the correction and the initial inspection assertion is retained (OPS-S15-W3-HEALTH-20261030-0940).
+- **Instrument / environmental interruption: storage:** one shard reached its fixed storage cap, and the other three were paused at retained-reference boundaries. Three monitor alarms misclassified the intentional manual pause because its custom reason was outside the accepted list; original alarms and pause receipts remain. Gzip's conservative full-world forecast failed, and the first bounded XZ probe stopped at its probe budget. A separately registered exact-byte XZ representation subsequently passed the expanded predetermined probe, corruption/refusal checks and fresh native replay. Original raw files, stopped attempts and all charges remain; neither the byte cap nor scientific model, roster, seed, precision or gate changed (OPS-S15-W3-V4C-STORAGE-STOP; OPS-S15-W3-V4C-STORAGE-VALIDATION; OPS-S15-W3-V4C-STORAGE-RECOVERY).
+- **Preserved validation history:** the preliminary timestamp-import failure occurred before compression. The optional test-cache warning did not fail test bodies. The supplemental test edit was archived separately and the original native-pinned source restored byte-for-byte. Earlier source-path normalization and verification-script syntax errors occurred before their ACKs; completed verification supersedes them without deleting their records. These are implementation records, not scientific reversals.
+
+The table includes every ledger entry filed in the fixed daily window, with its exact public wording and recorded pursuit. A passing operational control validates only that row's scope. Launch and earlier idle observations are historical; the live state below supersedes them. Yesterday's digest, filed after its own cutoff, appears once as an operational landing and is not counted as new scientific evidence. These instrument/operational landings create no automatic scientific descendants.
+
+| Ledger identifier | Control status | Exact public wording | Recorded next work / follow-up disposition |
+|---|---|---|---|
+| OPS-S15-W3-DIGEST-20261029 | passes | Completed results, corrections and failed attempts are reconciled; the research queue is idle and underbuilt, with scientific and cost holds retained. | Build and validate the commissioned V4.c reference and measured cost admission; preserve all current holds |
+| OPS-S15-W3-HEALTH-20261030-0330 | passes | The due health inspection verifies ended research workers and healthy monitoring; Gear 2 is idle with its ready buffer unbuilt, and no parked or held job was restarted. | Build V4.c reference and validated cost admission; keep the ready-buffer defect open |
+| OPS-S15-W3-V4C-MC-NATIVE | passes | The separate fitted no-taste reference passes constructed known-answer checks and fresh native replay; full-source cost, calibration and scientific admission remain pending. | Run the bounded complete-source cost probe; require exact saved-statistic parity, whole-workload admission and complete outer calibration before any new scientific label. |
+| OPS-S15-W3-V4C-MC-COST | passes | The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending. | Dispatch all four fixed shards within the single recorded allocation, then collect only complete independently verified references; retain original labels and all other holds. |
+| OPS-S15-W3-V4C-MC-FULL-LAUNCH | passes | Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished. | Land all complete shard receipts without intermediate scientific scores, then execute the reserved full collector and complete the scientific write-through; preserve the open ready-buffer deficit. |
+| OPS-S15-W3-V4C-MC-MONITOR-FAILURE | invalid | A temporary-file race in the supervisor stopped one CPU shard; its failed attempt and checkpoints remain preserved, with no scientific verdict. | Validate isolated supervisor recovery and retain original scientific consumer. |
+| OPS-S15-W3-RUNTIME-V6-VALIDATION | passes | The isolated supervisor passes race and refusal checks, native replay and the unchanged storage cap; scientific code and limits remain unchanged. | Use the validated supervisor only in separately frozen attempts; preserve live original sources. |
+| OPS-S15-W3-V4C-MC-RUNTIME-RECOVERY | passes | Four monitored CPU workers are again progressing in Gear 2 after the stopped shard resumed from authenticated checkpoints within its original allowance; the final scientific verdict and ready-card buffer remain unfinished. | Land complete shards without partial scientific scores, then use the recovery-aware reserved collector; keep the ready-buffer deficit explicit. |
+| OPS-S15-W3-HEALTH-20261030-0940 | passes | The health inspection verifies four advancing Gear 2 workers and healthy monitoring; no recovery is required, while the ready-card buffer remains incomplete. | Continue original four workers; land complete shards before the reserved recovery-aware collector. Preserve the ready-buffer and existing scientific/cost holds. |
+| OPS-S15-W3-V4C-STORAGE-STOP | invalid | One shard reached its storage cap and three siblings paused safely; all original checkpoints and charges remain retained, with no scientific verdict. | Validate lossless storage continuation within unchanged study caps. |
+| OPS-S15-W3-V4C-STORAGE-VALIDATION | passes | Lossless storage passes byte, checkpoint, corruption and fresh native replay checks; its conservative full-shard size forecast fits the unchanged cap. | Launch four source-bound storage continuations and retain every original attempt. |
+| OPS-S15-W3-V4C-STORAGE-RECOVERY | passes | Four Gear 2 workers are running validated checkpoint conversion before continuing the unchanged reference computation and full replay; the scientific verdict and ready-card buffer remain unfinished. | Land terminal results, measure collection throughput, and build the remaining authorized buffer. |
+| OPS-S15-W3-HEALTH-20261030-1548 | passes | Four Gear 2 workers have completed checkpoint conversion and are advancing through the original computation within their limits; no recovery is required. | Continue the original four workers; preserve collector admission and ready-buffer obligations. |
+| OPS-S15-W3-PAID-CUTOFF | passes | The paid-dispatch cutoff is enforced, the sole submitted batch is settled, and authorized CPU work continues unchanged. | Continue the four authorized CPU workers; retain paid-dependent holds and finish the remaining local admission/build obligations. |
+
+**Current execution and next work.** All four counted Gear 2 workers retain their native identities, leases and frozen source pins, have fresh output and increasing CPU use, and have completed checkpoint conversion. They continue the original reference computation; there is no complete scientific matrix or final verdict yet. No failure, pause or yield is pending. The eight-card ready buffer remains unbuilt. The compressed collector is implemented but requires all four fully landed shards plus a measured full-collection cost covering hashing, decoding and independent replay inside its reserved allowance. No collection cost receipt exists, so final aggregation is not yet admitted.
+
+The separately prepared D5 final-text/process comparison still needs calibration and scoring. Its human-text reference-support gap remains unsupported, rather than null. D7 and D19 cost holds, D37 scientific hold and other existing prerequisites remain. No stopped or scientifically held work was restarted to fill capacity. GPU parking remains intentional. No new tests were harvested from this operational wake.
+
+**Daily capacity.** The fixed interval is 2026-10-30T03:00:00+00:00 to 2026-10-31T03:00:00+00:00, the 24 hours ending October 30 at 20:00 PDT. Counted occupancy uses lease-admission-to-terminal intervals, plus currently live admissions clipped at the cutoff; intervals are checked for overlap per slot. The resulting idle capacity is not continuous CPU-utilization telemetry. It excludes uncounted helpers, building, tests and inspection; counted validation jobs are included. The earlier 0.225-slot-hour monitor interruption and 1.519-slot-hour storage interruption overlap this accounting and are not added again. The deficit reflects the period before full dispatch and recovery work while commissioned implementation remained unfinished; it remains an operational defect.
+
+The table separates fixed-window capacity, current resource headroom and retained accounting. Resource values are GiB, and CPU reservations are seconds; none is a scientific score.
+
+| Operating item | Verified observation |
+|---|---|
+| Daily terminal records / ledger entries | 13 / 14 |
+| Completed output files authenticated | 1141 |
+| Current ledger source anchors verified | 292 before adding this digest |
+| Unmatched terminal receipts / unacknowledged daily terminals | 0 / 0 |
+| Recorded counted-worker slot-hours | 61.355435 |
+| Estimated idle counted-worker slot-hours | 34.644565 of 96 |
+| Current research workers / counted leases | 4 / 4 |
+| Ready cards / required buffer | 0 / 8; unresolved implementation obligation |
+| Numerical thread settings / ceiling | 1 / 2 per worker |
+| Source pins / research locks | 796 / 21, all verified |
+| Available RAM / commit headroom / disk | 56.947 / 48.047 / 311.634 |
+| Resource floors: RAM / commit / disk | 6 / 8 / 20 |
+| Total retained and reserved CPU / unchanged ceiling | 686468.956875 / 686472 |
+| Per-shard output byte cap | 8,589,934,592; current outputs remain below it |
+| Collector reservation | 120 CPU seconds; measured full compressed-collection admission still required |
+| Monitoring | Original watcher/calendar identities, fresh scan/heartbeat and actual digest delivery verified |
+
+**Paid cutoff and accounting.** Week 3 new paid dispatch closed October 30 at 17:00 PDT (October 31 at 00:00 UTC). The real guard's exact-boundary and post-boundary refusals were already fully recorded as OPS-S15-W3-PAID-CUTOFF. The ledger remains byte-identical to that inspection: one settled PROC calibration booking of one cent, no outstanding reservation, against the 1,000-cent campaign ceiling. Node ceilings remain PROC 200, VAL 250, K 250, AUTH 100, GOAL 50 and P 50 cents. The historical three-cent reservation is reconciled, not outstanding. Its retained provider-ended and billing evidence authenticate the sole submitted batch; this digest made no provider query or paid request. Prepared but unsubmitted nodes remain unrun, and unused budget cannot reopen the ended window. No missing paid-dependent comparison is called a null.
+
+**Publication and reporting.** Both requested pushes were completed and verified through commit cc733d6808562d95cdb60cb0e711cb4ee50555b1. The later monitor/storage recoveries, health/cutoff records and this digest remain local; no new publication was performed. Earlier snapshots that say second-push approval was pending are historical. The supplied theory appendices were already filed as attributed proposals (OPS-S15-W3-THEORY-FILING); this operational reconciliation adds no scientific claim and needs no new theory edit or multiplicity calculation. The final digest and no-new-start boundary remain November 1 at 20:00 PST (November 2 at 04:00 UTC), drain at 22:00 PST (06:00 UTC), and drain addendum by 23:00 PST. This daily marker does not close the active CPU window.
+
+**Found.** The daily evidence and corrections are reconciled, and four Gear 2 workers continue within their limits; the ready-card buffer and final collection remain unfinished.
+
+**Means.** Continue the four immutable workers and retain the unresolved buffer and collector-admission obligations. Daily completed evidence is fully reconciled; scientific completion is not claimed. Immediate terminal/failure monitoring remains, and this digest ACK must preserve the independent six-hour health deadline. No research, gear, spend or delegation authority is added, and no unfinished per-artifact score is reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The daily evidence and corrections are reconciled, and four Gear 2 workers continue within their limits; the ready-card buffer and final collection remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the four bounded workers; complete collection-cost admission and build the commissioned ready buffer while preserving all current holds; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261030.md.
+
+### OPS-S15-W3-PAID-CUTOFF
+
+**Hypothesis.** Does the scheduled end of paid dispatch prevent further campaign spending while preserving authorized local work?
+
+**METHOD.** Authenticate the calendar marker, its live native owner and pinned source, and the ratified Week 3 cutoff. Inspect the actual campaign guard and the reservation-before-submission paths. Run pure in-memory guard checks immediately before, exactly at and after the cutoff, without reserving funds or contacting a provider. Reconcile the campaign ledger against retained submission, provider-ended status, complete-output and billing-proof hashes. Inventory campaign submissions and local paid-runner identities; verify the existing CPU workers, locks and watcher delivery.
+
+**Found.** The paid-dispatch cutoff is enforced, the sole submitted batch is settled, and authorized CPU work continues unchanged.
+
+Paid dispatch closed at October 30, 17:00 Pacific daylight time, equal to October 31, 00:00 UTC. The calendar marker appeared after that boundary as intended. All six approved node names are refused by the real guard at the exact boundary and at inspection time; the corresponding pre-boundary guard check accepts an otherwise valid synthetic invocation. These checks made no reservation, token-count request, submission or provider query. The spending ledger is byte-identical before and after inspection.
+
+The table separates recorded campaign accounting from remaining authorization. Amounts are integer cents; an unused cap is not permission to dispatch after the cutoff.
+
+| Item | Recorded state |
+|---|---|
+| Campaign ceiling | 1,000 cents |
+| Settled booking | 1 cent |
+| Outstanding reservations | None |
+| Submitted campaign batches | One, with authenticated provider-ended status |
+| New paid dispatch under this window | Closed |
+
+The single PROC calibration booking matches its retained reconciliation proof and complete result bytes. No other campaign submission or reservation artifact exists. Its prior instrument disposition remains as already recorded; this boundary is not a new scientific result. PROC repair and VAL preparation do not establish submission or readiness, and all remaining unsubmitted paid nodes stay unrun. No missing paid-dependent comparison is relabelled as a null or completed study. This inspection uses authenticated retained provider evidence, not a new provider-wide live inventory.
+
+All four CPU workers retain their native parent/child identities and counted leases, have increased CPU use and fresh scientific progress, and show no new terminal or yield state. All 21 research locks pass. Calendar, wrapper and watcher identities remain unchanged; the calendar heartbeat and watcher scan are fresh, and the cutoff event has actual owner-delivery evidence. No paid runner was found among the inspected accessible local Python/PowerShell command lines. No process was stopped or restarted.
+
+**Means.** Close new Week 3 paid dispatch while continuing the existing bounded CPU work. GPU parking remains intentional. The ready-card buffer and compressed-collector cost admission remain open; unrun paid-dependent work remains explicitly unavailable under this ended window. No new research test was harvested from the wake, no scientific score was reported, no publication occurred and no spend or gear authority was added. Fully record this boundary before ACK; its ACK must leave the separate six-hour health clock unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The paid-dispatch cutoff is enforced, the sole submitted batch is settled, and authorized CPU work continues unchanged.; project meaning: scoped operational record; next engineering obligation: Continue the four authorized CPU workers; retain paid-dependent holds and finish the remaining local admission/build obligations.; public scientific claim unchanged; curator decision required: No new decision. Detail: PAID_CUTOFF_20261030.md.
+
+### OPS-S15-W3-HEALTH-20261030-1548
+
+**Hypothesis.** Is the recovered Gear 2 workload progressing safely, with evidence, resource limits and watcher delivery accounted for?
+
+**METHOD.** Verify exact native parent and child creation identities and commands, counted leases, increased CPU use, fresh output, runtime resource guards, all source pins and research locks. Read the completed checkpoint-conversion receipts without interpreting scientific scores. Inspect every configured final-produce path modified since the prior ACK, service identities, delivery evidence and authorized next-work prerequisites.
+
+**Found.** Four Gear 2 workers have completed checkpoint conversion and are advancing through the original computation within their limits; no recovery is required.
+
+Each worker has advanced beyond the conversion phase into the unchanged scientific consumer. The retained-reference counts match their admitted prefixes, and the conversion receipts declare byte-preserving authentication. This health inspection checks the receipts and their source bindings; it does not repeat the entire conversion or substitute for the still-required independent scientific replay. No completion, failure, pause, monitor-failure or yield request exists for any active continuation. No new registered terminal output awaits landing.
+
+All 796 unique source pins and all 21 research locks verify. The four counted leases belong to the inspected parents; actual numerical-thread environment settings are one, below the ceiling of two. Every current output is below its eight-GiB cap, each CPU counter and remaining projection is below its own allowance, and cumulative reservations remain 686468.956875 CPU seconds inside the unchanged 686472 ceiling.
+
+The table reports available host resources in GiB against their admission floors. It is operational headroom, not scientific evidence.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| RAM | 57.16 | 6 |
+| Commit | 48.13 | 8 |
+| Disk | 315.09 | 20 |
+
+Watcher, calendar and wrapper retain their native identities. The watcher scan is fresh, no current transport error is present, and the health event has an actual owner-delivery timestamp. Every active continuation has its exact owner and urgent terminal paths registered. The prior manual-pause schema alarms remain preserved with their completed reconciliation; none affects the current workers. The September queue log is a retired, empty lineage and was not restarted.
+
+The four active workers occupy the authorized CPU allocation. Zero separately ready cards remain against the required eight; this buffer deficit is still open. The implemented compressed collector correctly requires four independently verified, fully landed shards and measured full-throughput cost admission within its reservation. Its cost receipt is absent, so it is not runnable. Supported final-text/process D5 calibration and scoring remain the next unbuilt work. Human-text support, D7/D19 cost and D37 scientific holds persist. No new idle interval is identified by this point inspection; earlier interruption accounting remains retained, and this is not continuous utilization measurement.
+
+Both requested pushes remain verified through cc733d680; later recovery and health records remain local. No tests were harvested from this operational wake. GPU parking and paid holds remain intentional.
+
+**Means.** Continue the four immutable workers, land their eventual complete outputs before aggregation, and preserve the explicit readiness and cost gaps. ACK this documented inspection to rearm only the existing six-hour health schedule; add no separate ETA wake and report no unfinished per-artifact scientific scores.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 workers have completed checkpoint conversion and are advancing through the original computation within their limits; no recovery is required.; project meaning: scoped operational record; next engineering obligation: Continue the original four workers; preserve collector admission and ready-buffer obligations.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261030_1548.md.
+
+### OPS-S15-W3-V4C-STORAGE-RECOVERY
+
+**Hypothesis.** Has authorized CPU work resumed without dropping checkpoints or expanding its resource allowance?
+
+**METHOD.** Freeze separate source-bound recovery plans, subtract all failed and paused charges and conservative validation reservations, and check the remaining full-workload forecast. Register terminal monitoring before launching. Verify actual native parent/worker identities, counted leases, advancing conversion output, thread settings, source pins, research locks and watcher state.
+
+**Found.** Four Gear 2 workers are running validated checkpoint conversion before continuing the unchanged reference computation and full replay; the scientific verdict and ready-card buffer remain unfinished.
+
+All four counted slots are active in the lossless-checkpoint conversion phase. Each original sealed prefix is authenticated during conversion; only after every retained reference passes will that worker automatically continue computation. Fresh verification still regenerates and refits all original references. This inspection does not claim that conversion or scientific execution has finished.
+
+The table gives each continuation's remaining forecast and hard CPU cap in seconds, including conversion and fresh replay. These are operational estimates and ceilings, not scientific scores.
+
+| Shard | Remaining forecast | Hard CPU cap |
+|---|---:|---:|
+| 0 | 123188.846 | 143379.15625 |
+| 1 | 137054.255 | 142898.60938 |
+| 2 | 129824.134 | 136793.03125 |
+| 3 | 129209.848 | 136631.71875 |
+
+The total reserved accounting is 686468.956875 CPU seconds inside the unchanged 686472 ceiling. This includes the first failed monitor attempt, its repair reservation, all four latest terminal charges, the new 12,000-second conservative validation reservation and the original collector reservation. Conversion charges accrue inside the remaining worker caps. All 796 unique source pins and all 21 research locks verify; observed numerical-thread environment settings are one, below the ceiling of two.
+
+The failure-to-readmission intervals total 1.519 slot-hours, including diagnosis, instruction reload, code preparation and validation. This is an interruption bound, not a claim that no validation work ran during it. The required eight-card ready buffer remains empty and is an open defect.
+
+The compressed collector is implemented and passes physical-binding/refusal checks. Its preparer requires four complete, fully landed shards plus a measured full-throughput collection forecast inside the original 120-second reservation; decompression makes that cost an explicit open admission check. No collector is launched or claimed ready. Supported final-text/process D5 calibration and scoring remain unbuilt; original support, scientific and cost holds persist.
+
+Immediate completion, failure, pause and disappearance paths are registered to the same owner. The six-hour health schedule remains unchanged; no ETA wake was added. GPU parking and paid holds remain intentional. Both requested pushes remain verified through cc733d680; these later repair records are local. No tests were harvested from the operational wake and no unfinished per-artifact scores are reported.
+
+**Means.** Let the four bounded continuations advance, fully land their eventual terminals, and admit collection only after its cost check. Preserve the ready-buffer deficit and existing scientific limits.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four Gear 2 workers are running validated checkpoint conversion before continuing the unchanged reference computation and full replay; the scientific verdict and ready-card buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land terminal results, measure collection throughput, and build the remaining authorized buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_RECOVERY_20261030.md.
+
+### OPS-S15-W3-V4C-STORAGE-VALIDATION
+
+**Hypothesis.** Can the existing reference checkpoints be stored within their fixed limit without changing any scientific byte or computation?
+
+**METHOD.** Compare original and compressed canonical bytes and hashes; exercise the actual 199-reference orchestration, authenticated-prefix resume, changed-value and corruption refusals, pause handling, physical-manifest collection and fresh replay. Measure compression on one complete fixed world and the first reference of every retained world, selected before the measurement. Run a separate native execution and verification under the real bounded supervisor.
+
+**Found.** Lossless storage passes byte, checkpoint, corruption and fresh native replay checks; its conservative full-shard size forecast fits the unchanged cap.
+
+Seven targeted tests and one additional source-retained resume-projection test pass. The native constructed rehearsal completes with fresh 199-reference replay under both storage paths. The numerical consumer and collector remain unchanged; separate wrappers adapt storage only. Each compressed file is bound by a physical manifest, itself bound by the completion receipt, while original seals retain the exact uncompressed digest. Original attempts and the original representation remain retained.
+
+The table describes storage engineering checks; it contains no scientific effect estimates.
+
+| Check | Outcome |
+|---|---|
+| Gzip complete-world forecast | Rejected: exceeds cap with margin |
+| First bounded XZ world probe | Stopped at its 120-second probe budget; no admission |
+| Expanded fixed XZ probe | 242 references reproduce every byte |
+| Largest-shard forecast, including 50% margin and metadata | 7,123,764,848 bytes, below 8,589,934,592 |
+| Native execute plus fresh replay | Complete; 4.84375 CPU seconds |
+
+The expanded XZ probe used 148.875 CPU seconds. A preliminary command failed on an unavailable timestamp import before any compression; it was corrected and retained in the probe record. The initial pytest run warned that its cache directory was unwritable, while all test bodies passed; subsequent invocations disabled that optional cache. A supplemental test edit occurred after native completion; its executed source was archived separately and the original pinned test source restored byte-for-byte.
+
+A conservative 3,000 CPU seconds per shard is reserved from the existing allowance for diagnosis and validation; unused reservation is not reclaimed. It supersedes the initial smaller reservation because stronger compression required a larger measured probe. Conversion itself runs inside each counted continuation and its remaining CPU ceiling, so the allowance is conservative. No global budget, byte cap, fitting operation, seed, precision, world or band changes.
+
+The resumed CPU projection uses the original measured first-tenth record, discounts only retained generation work, adds a ten-percent recovery allowance and measured compression overhead plus a bookkeeping allowance. Verification of every reference remains included. The original projection and its source hash remain recorded; cumulative hard limits remain authoritative.
+
+**Means.** Admit separately frozen storage continuations only after source and budget reconciliation. This is instrument validation, not scientific calibration; complete aggregation remains required.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Lossless storage passes byte, checkpoint, corruption and fresh native replay checks; its conservative full-shard size forecast fits the unchanged cap.; project meaning: scoped operational record; next engineering obligation: Launch four source-bound storage continuations and retain every original attempt.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_VALIDATION_20261030.md.
+
+### OPS-S15-W3-V4C-STORAGE-STOP
+
+**Hypothesis.** Did the interrupted reference computation fail scientifically or exceed its storage allocation?
+
+**METHOD.** Inspect the terminal error, supervisor traceback, complete output sizes, native parent and child identities, sealed checkpoint counts and contained-job charges. Forecast the complete retained output from actual reference bytes; request reference-boundary yields from the three confirmed live siblings and verify their exit.
+
+**Found.** One shard reached its storage cap and three siblings paused safely; all original checkpoints and charges remain retained, with no scientific verdict.
+
+The eight-GiB guard fired as specified. Complete uncompressed shard storage would exceed that guard even though the host still has free disk space. This repeats the earlier retained-byte forecasting lesson; runtime cost admission alone was insufficient. No cap was increased and no failed fit was treated as a null.
+
+The table lists operational dispositions, retained sealed-reference counts, and charged CPU seconds. Counts describe checkpoint coverage, not scientific scores.
+
+| Shard | Disposition | Sealed references | CPU seconds |
+|---|---|---:|---:|
+| 0 | PAUSED | 2003 | 26974.03125 |
+| 1 | PAUSED | 2043 | 28699.390625 |
+| 2 | FAILED | 2074 | 28569.96875 |
+| 3 | PAUSED | 2056 | 28731.28125 |
+
+All four original parents and workers exited. The three subsequent monitor-disappearance alarms are false classifications: each pause receipt predates the alarm, but the custom storage-projection reason is outside the watcher's allowed checkpoint-pause reasons. Both the alarms and pause receipts remain intact; no disappeared work is inferred from those alarms. Immediate terminal delivery still functions. Future automatic resource/drain/CPU pauses retain the recognized runtime schema; the custom manual pause needs explicit reconciliation.
+
+**Means.** Authenticate checkpoints into separate lossless-storage attempts only after validation and measured size admission. All original numerical code, seeds, matrix, fresh full replay, resource ceilings and parked GPU/paid holds persist. No tests were harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; One shard reached its storage cap and three siblings paused safely; all original checkpoints and charges remain retained, with no scientific verdict.; project meaning: scoped operational record; next engineering obligation: Validate lossless storage continuation within unchanged study caps.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_STORAGE_STOP_20261030.md.
+
+### OPS-S15-W3-HEALTH-20261030-0940
+
+**Hypothesis.** Is authorized Gear 2 work still progressing within its resource limits, with results and delivery properly accounted for?
+
+**METHOD.** Verify native parent and worker creation identities, exact commands, CPU advance, fresh output, terminal paths, counted leases, source hashes and research locks. Read actual thread environment settings, CPU reservations and resource floors. Inspect watcher/calendar identities, the delivered health event, all configured terminal paths changed since the prior inspection, and authorized next-work prerequisites.
+
+**Found.** The health inspection verifies four advancing Gear 2 workers and healthy monitoring; no recovery is required, while the ready-card buffer remains incomplete.
+
+**Correction first: wording.** The earlier launch narrative treated the two-thread admission ceiling as an observed thread count. All four running processes expose one-thread numerical-library settings. Source inspection identifies the existing resource-snapshot import as the reset; a fresh import of the pinned runtime and cost chain also loads one-thread OpenBLAS pools. That reproduction is not live-pool introspection. The configured settings are within the stage limit, and both the cost probe and workers use the same unchanged source chain. The initial inspection assertion expecting exactly two failed; the corrected inspection distinguishes measurement from the ceiling. Original receipts remain retained, and the prior narrative carries this correction.
+
+All 763 unique source pins and all 21 research locks verify. Every worker retains its inspected creation identity, owns a counted lease, has advanced CPU use and fresh output, and has no failure, pause or completion terminal. The original three v5 supervisors retain the known temporary-file race exposure; the recovered worker uses v6. No healthy work was restarted, no guard or ceiling changed, and no new terminal result awaits write-through.
+
+The table gives current resource headroom, in GiB, against the admission floor. It describes host capacity, not scientific results.
+
+| Resource | Available | Required floor |
+|---|---:|---:|
+| Physical RAM | 56.45 | 6 |
+| Commit headroom | 47.07 | 8 |
+| Disk | 337.16 | 20 |
+
+The complete reservations, retained failed attempt and repair reservation still fit the original global CPU ceiling. No resource or cost yield is pending. The watcher and calendar identities match, scanning is fresh, and this health message has an actual delivery receipt. Historical notification failures remain visible; no current delivery error is present. The September queue log is a stopped historical lineage and was not restarted.
+
+The active four workers fill the CPU allocation. There are zero separately ready cards against the required eight; the complete collector is built but correctly waits for four independently replayed shards and their full write-through. Supported final-text/process calibration and scoring remain the next unbuilt D5 work. Human-text support, D7/D19 cost and D37 scientific holds persist. No additional idle interval was identified by this inspection; this is not continuous utilization measurement, and the earlier recovery interruption remains charged in the record.
+
+Both requested pushes are verified through cc733d6808562d95cdb60cb0e711cb4ee50555b1; the later recovery and current inspection remain local. No tests were harvested from this operational wake.
+
+**Means.** Continue the current immutable CPU jobs and preserve the ready-buffer deficit explicitly. GPU parking and paid holds remain intentional. Immediate terminal/failure/disappearance monitoring continues; acknowledge this completed inspection to rearm the existing six-hour health cadence, without adding an ETA wake or licensing a scientific verdict.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The health inspection verifies four advancing Gear 2 workers and healthy monitoring; no recovery is required, while the ready-card buffer remains incomplete.; project meaning: scoped operational record; next engineering obligation: Continue original four workers; land complete shards before the reserved recovery-aware collector. Preserve the ready-buffer and existing scientific/cost holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261030_0940.md.
+
+### OPS-S15-W3-V4C-MC-RUNTIME-RECOVERY
+
+**Hypothesis.** Has the failed slot returned to authorized work without losing checkpoints or increasing its allowance?
+
+**METHOD.** Authenticate the failed attempt, unchanged scientific bindings and every reference/seal pair. Prepare a separate runtime recovery, deduct failed and repair charges, register terminal monitoring, then verify exact native identities, leases, fresh output, checkpoint bytes, source pins and research locks after launch.
+
+**Found.** Four monitored CPU workers are again progressing in Gear 2 after the stopped shard resumed from authenticated checkpoints within its original allowance; the final scientific verdict and ready-card buffer remain unfinished.
+
+All 69 sealed reference checkpoints are byte-identical in the new root, and new work has progressed beyond the retained prefix. The three original workers retain their identities and source bytes. All 763 unique pins and all 21 research locks verify. The original 110-world matrix and 199 references per world, scientific consumer, inputs, seeds, gates and complete fresh replay are unchanged.
+
+The table accounts for shard zero only. Each row is a retained charge or remaining reservation in CPU seconds; no row is a scientific result.
+
+| Component | CPU seconds |
+|---|---:|
+| Original shard allowance | 174598 |
+| Retained failed attempt | 944.8125 |
+| Bounded repair reservation | 300 |
+| Recovery execution plus fresh replay | 173353.1875 |
+
+The global 686472-second ceiling and the collector reservation remain unchanged. Approximately 0.225 slot-hours elapsed from failure to recovery admission; this interruption is recorded, with the bounded validation using part of the otherwise unavailable slot. No unrelated process was stopped. The recovery-aware collection preparer refuses incomplete shards, includes failed and repair charges, and requires each complete shard to be fully landed before collection.
+
+**Means.** Gear 2 has four active workers again, but the required eight-card ready buffer remains an open deficit. The three original supervisors still carry the observed race risk; failure monitoring remains active and no healthy job was restarted merely for monitoring. GPU parking and paid holds persist. Immediate transitions and the unchanged six-hour health schedule provide the next intervention. The first requested push remains verified; the second commit awaits the already-requested exact public-payload approval. No unfinished per-artifact scores were reported.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Four monitored CPU workers are again progressing in Gear 2 after the stopped shard resumed from authenticated checkpoints within its original allowance; the final scientific verdict and ready-card buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land complete shards without partial scientific scores, then use the recovery-aware reserved collector; keep the ready-buffer deficit explicit.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_MC_RUNTIME_RECOVERY_20261030.md.
+
+### OPS-S15-W3-RUNTIME-V6-VALIDATION
+
+**Hypothesis.** Can supervision tolerate the atomic writer replacing its temporary file while still refusing actual storage and I/O faults?
+
+**METHOD.** Exercise a deterministic disappearing-file race, normal missing-file refusals, permission denial, single-stat counting and retained temporary bytes. Then launch the actual v6 supervisor for native execution plus independent replay, and separately present an oversized output to its real cap handler.
+
+**Found.** The isolated supervisor passes race and refusal checks, native replay and the unchanged storage cap; scientific code and limits remain unchanged.
+
+All seven regression checks pass. The native positive rehearsal completes and freshly verifies; the negative rehearsal stops on the exact frozen byte-cap error and writes no completion. The first test invocation was blocked by its default temporary-directory permissions before any test body ran; that output and charge remain, followed by a successful fresh workspace-local invocation. No criterion was weakened.
+
+The table lists operational validation only. Each row identifies a native rehearsal and its retained CPU charge; the cap refusal is the intended known answer.
+
+| Rehearsal | Outcome | CPU seconds |
+|---|---|---:|
+| Atomic writer and fresh replay | Complete and verified | 1.4375 |
+| Oversized output | Correctly refused | 2.0 |
+
+Regression and native charges total 5.828125 CPU seconds before checkpoint-preparation bookkeeping. They are covered by a conservative 300-second reservation deducted from the existing shard allowance; unused reservation is not silently reclaimed. The v5 runtime remains immutable for the healthy workers.
+
+**Means.** This validates an infrastructure repair only. All source checks, native containment, resource floors, CPU/wall/drain limits and full fresh scientific replay still apply. No new scientific claim or additional compute allocation follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The isolated supervisor passes race and refusal checks, native replay and the unchanged storage cap; scientific code and limits remain unchanged.; project meaning: scoped operational record; next engineering obligation: Use the validated supervisor only in separately frozen attempts; preserve live original sources.; public scientific claim unchanged; curator decision required: No new decision. Detail: RUNTIME_V6_VALIDATION_20261030.md.
+
+### OPS-S15-W3-V4C-MC-MONITOR-FAILURE
+
+**Hypothesis.** Did the stopped worker fail in the scientific computation or in its supervision?
+
+**METHOD.** Inspect parent stderr, contained-job accounting, terminal hashes and exact parent/child creation identities. Authenticate every pinned source and retained sealed checkpoint, while checking the other workers and monitoring.
+
+**Found.** A temporary-file race in the supervisor stopped one CPU shard; its failed attempt and checkpoints remain preserved, with no scientific verdict.
+
+The v5 output-size scan called a file-existence check and then inspected size after the atomic progress writer replaced its unique temporary file. The resulting missing-file exception closed the contained worker. Its 944.8125 CPU seconds remain charged, including the termination margin; no fresh verification or complete outer-world result existed. The other three original workers continued with unchanged sources.
+
+**Means.** This is an engineering failure, not a scientific null or failed sensitivity gate. Healing attempt one isolates the supervisor correction, retains the original attempt and all failed evidence, and resumes only authenticated checkpoints within the original ceiling. No tests harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; A temporary-file race in the supervisor stopped one CPU shard; its failed attempt and checkpoints remain preserved, with no scientific verdict.; project meaning: scoped operational record; next engineering obligation: Validate isolated supervisor recovery and retain original scientific consumer.; public scientific claim unchanged; curator decision required: No new decision. Detail: V4C_MC_MONITOR_FAILURE_20261030.md.
+
 ### OPS-S15-W3-V4C-MC-FULL-LAUNCH
 
 **Hypothesis.** Are completed results properly recorded, and is the complete authorized reference workload actually progressing under monitored Gear 2 execution?
@@ -8,7 +1279,7 @@
 
 **Found.** Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
 
-All 612 unique source pins and all 21 research locks verify. Each worker has a separate counted lease and two numerical threads. Native parent and execution identities match their recorded creation times. Every worker has produced a reference checkpoint, and monitoring covers completion, failure, pause and disappearance. The watcher and calendar retain their exact live identities.
+All 612 unique source pins and all 21 research locks verify. Each worker has a separate counted lease. **Wording correction, October 30 health inspection:** the admission ceiling is two numerical threads; each running process exposes one-thread environment settings. The original receipt retains the admission-field value, not a measured live thread count. The pinned resource-snapshot import resets these environment variables before scientific imports; no live source or scientific result was changed. See OPS-S15-W3-HEALTH-20261030-0940. Native parent and execution identities match their recorded creation times. Every worker has produced a reference checkpoint, and monitoring covers completion, failure, pause and disappearance. The watcher and calendar retain their exact live identities.
 
 The table describes execution reservations, not scientific results. Each row is a fixed shard of the unchanged original outer-world roster; every world keeps all 199 references and requires full fresh replay.
 

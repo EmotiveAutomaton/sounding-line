@@ -2597,6 +2597,82 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W3-HEALTH-20261101-0916:** Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261101_0916.md).
+
+**OPS-S15-W3-WATCH-ACK-FIX:** The watcher preserves completed acknowledgments across late delivery and cancellation; the tested repair is loaded with event history and the health deadline unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/WATCH_ACK_FIX_20261101.md).
+
+**OPS-S15-W3-D5-IDENTICAL-CORPUS:** The complete identical-profile reference banks reproduce their analytic answers and independently replay; empirical scientific calibration and human scoring remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/D5_IDENTICAL_CORPUS_20261101.md).
+
+**OPS-S15-W3-WATCH-ACK-RECONCILIATION:** The completion remains fully recorded and acknowledged; a late delivery update left an inconsistent status label without pending work or an interrupted research job. [Record](../results/phase_2_4_stage_15/DRIVE/WATCH_ACK_RECONCILIATION_20261101.md).
+
+**OPS-S15-W3-D5-IDENTICAL-LAUNCH:** The complete D5 identical-profile reference check is progressing in one monitored Gear 2 CPU slot; remaining scientific calibration and the ready-work buffer are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/D5_IDENTICAL_LAUNCH_20261101.md).
+
+**OPS-S15-W3-D5-IDENTICAL-NATIVE:** The exact identical-profile reference check passes small constructed native replay; complete-bank execution and scientific calibration remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/D5_IDENTICAL_NATIVE_20261101.md).
+
+**OPS-S15-W3-D5-NUMERICAL-COST-CORPUS:** The D5 numerical cost probe completes full-source layout and mask replay using constructed values; scientific calibration and human scoring remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/D5_NUMERICAL_COST_CORPUS_20261101.md).
+
+**OPS-S15-W3-D5-NUMERICAL-COST-NATIVE:** The constructed numerical cost instrument passes fresh native replay; full-source timing and scientific admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/D5_NUMERICAL_COST_NATIVE_20261101.md).
+
+**OPS-S15-W3-D5-NUMERICAL:** The D5 numerical consumer passes constructed known-answer checks and fresh native replay; scientific calibration and human-data admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/D5_NUMERICAL_20261101.md).
+
+**OPS-S15-W3-HEALTH-20261101-0312:** Gear 2 is idle because admitted work is unbuilt; completed outputs, locks, resources and monitoring verify, with no environmental recovery required. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261101_0312.md).
+
+**OPS-S15-W3-D5-CONTEXT-CORPUS:** Every frozen context-reference draw independently replays; support gaps remain explicit and no identification outcome is computed. [Record](../results/phase_2_4_stage_15/DRIVE/D5_CONTEXT_CORPUS_20261101.md).
+
+**OPS-S15-W3-D5-CONTEXT-NATIVE:** Complete context-source support checks pass constructed native replay; full-source eligibility and scientific scoring remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/D5_CONTEXT_NATIVE_20261101.md).
+
+**S15-V4C-MC199-20261101:** In constructed worlds, the fitted 199-reference test supports detection of matched-feature taste under its frozen calibration rules; lexical taste fails false-alarm calibration, and habit sensitivity remains insufficient. The primary zero-variance normal diagnostic is invalid and excluded; complete counts and replay support only the stated calibration. [Full result](../results/phase_2_4_stage_15/DRIVE/V4C_MC199_COMPLETE_20261101.md).
+
+**OPS-S15-W3-V4C-COLLECTION-LAUNCH:** The unchanged full collector is progressing in one monitored Gear 2 CPU slot within the original whole-card ceiling; scientific reporting and the ready-work buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_COLLECTION_LAUNCH_20261101.md).
+
+**OPS-S15-W3-V4C-COLLECTION-ALLOCATION:** A separately recorded internal allocation admits the unchanged collector within the original whole-card CPU ceiling; scientific execution remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_COLLECTION_ALLOCATION_20261101.md).
+
+**OPS-S15-W3-V4C-COLLECTION-COST-COMPLETE:** The complete collection-cost probe independently replays, but exceeds the original collector reservation; scientific aggregation remains uncomputed pending a separately recorded allocation. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_COLLECTION_COST_COMPLETE_20261101.md).
+
+**OPS-S15-W3-V4C-COLLECTION-COST-LAUNCH:** The complete-source collection-cost probe is running in one Gear 2 CPU slot after native validation; scientific aggregation and the ready-card buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_COLLECTION_COST_LAUNCH_20261101.md).
+
+**OPS-S15-W3-V4C-COLLECTION-COST-NATIVE:** The complete collection-cost instrument passes constructed compressed-input checks and fresh native replay; full-source cost and scientific aggregation remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_COLLECTION_COST_NATIVE_20261101.md).
+
+**OPS-S15-W3-V4C-STORAGE-SHARD0:** The final reference shard has completed full independent replay and passed integrity checks; combined scientific reporting still awaits admitted collection. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_SHARD0_COMPLETE_20261101.md).
+
+**OPS-S15-W3-V4C-STORAGE-SHARD1:** The third reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_SHARD1_COMPLETE_20261101.md).
+
+**OPS-S15-W3-V4C-STORAGE-SHARD3:** The second reference shard has completed full independent replay and passed integrity checks; the combined scientific result remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_SHARD3_COMPLETE_20261031.md).
+
+**OPS-S15-W3-V4C-STORAGE-SHARD2:** One reference shard has completed full independent replay and passed integrity checks; three remain active, so the combined scientific result is still pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_SHARD2_COMPLETE_20261031.md).
+
+**OPS-S15-W3-HEALTH-20261031-2209:** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261031_2209.md).
+
+**OPS-S15-W3-DIGEST-20261031:** The daily operational records and corrections are reconciled; four Gear 2 jobs remain in independent verification, with no completed scientific result and the collection and ready-buffer obligations still open. [Record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261031.md).
+
+**OPS-S15-W3-HEALTH-20261031-1604:** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261031_1604.md).
+
+**OPS-S15-W3-HEALTH-20261031-1002:** Four Gear 2 verification workers continue advancing within their limits; no recovery or new result landing is needed, while collection admission and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261031_1002.md).
+
+**OPS-S15-W3-HEALTH-20261031-0357:** Four Gear 2 jobs have moved normally into fresh-process verification and remain within their limits; no recovery is required, while final collection and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261031_0357.md).
+
+**OPS-S15-W3-HEALTH-20261030-2153:** Four Gear 2 workers are advancing within their limits; no recovery or new result landing is needed, while the ready buffer and collection admission remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261030_2153.md).
+
+**OPS-S15-W3-DIGEST-20261030:** The daily evidence and corrections are reconciled, and four Gear 2 workers continue within their limits; the ready-card buffer and final collection remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261030.md).
+
+**OPS-S15-W3-PAID-CUTOFF:** The paid-dispatch cutoff is enforced, the sole submitted batch is settled, and authorized CPU work continues unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/PAID_CUTOFF_20261030.md).
+
+**OPS-S15-W3-HEALTH-20261030-1548:** Four Gear 2 workers have completed checkpoint conversion and are advancing through the original computation within their limits; no recovery is required. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261030_1548.md).
+
+**OPS-S15-W3-V4C-STORAGE-RECOVERY:** Four Gear 2 workers are running validated checkpoint conversion before continuing the unchanged reference computation and full replay; the scientific verdict and ready-card buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_RECOVERY_20261030.md).
+
+**OPS-S15-W3-V4C-STORAGE-VALIDATION:** Lossless storage passes byte, checkpoint, corruption and fresh native replay checks; its conservative full-shard size forecast fits the unchanged cap. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_VALIDATION_20261030.md).
+
+**OPS-S15-W3-V4C-STORAGE-STOP:** One shard reached its storage cap and three siblings paused safely; all original checkpoints and charges remain retained, with no scientific verdict. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_STORAGE_STOP_20261030.md).
+
+**OPS-S15-W3-HEALTH-20261030-0940:** The health inspection verifies four advancing Gear 2 workers and healthy monitoring; no recovery is required, while the ready-card buffer remains incomplete. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261030_0940.md).
+
+**OPS-S15-W3-V4C-MC-RUNTIME-RECOVERY:** Four monitored CPU workers are again progressing in Gear 2 after the stopped shard resumed from authenticated checkpoints within its original allowance; the final scientific verdict and ready-card buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_MC_RUNTIME_RECOVERY_20261030.md).
+
+**OPS-S15-W3-RUNTIME-V6-VALIDATION:** The isolated supervisor passes race and refusal checks, native replay and the unchanged storage cap; scientific code and limits remain unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/RUNTIME_V6_VALIDATION_20261030.md).
+
+**OPS-S15-W3-V4C-MC-MONITOR-FAILURE:** A temporary-file race in the supervisor stopped one CPU shard; its failed attempt and checkpoints remain preserved, with no scientific verdict. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_MC_MONITOR_FAILURE_20261030.md).
+
 **OPS-S15-W3-V4C-MC-FULL-LAUNCH:** Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_MC_FULL_LAUNCH_20261030.md).
 
 **OPS-S15-W3-V4C-MC-COST:** The complete-source reference timing probe independently replays and matches the original split statistic; the full fixed reference matrix is cost-admitted under the Week 3 backlog allocation, with scientific calibration pending. [Record](../results/phase_2_4_stage_15/DRIVE/V4C_MC_COST_20261030.md).

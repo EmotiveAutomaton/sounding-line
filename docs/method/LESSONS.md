@@ -242,6 +242,8 @@ current truth lives in the folded end-state of the record, never in an interim s
   including donor/global support. Preserve exclusions in the consumer rather than
   letting a mean or argmax discover an empty calibration list after expensive work.
   (S14-P01, OPS-S14-CONSUMER-REPAIR)
+- **Homogeneous binary samples do not license exact uncertainty.** A complete calibration can have all successes in one cell and all failures in another. Its empirical bootstrap then has zero variance and a collapsed interval; a code fallback returning a zero normal-reference probability is not a valid significance claim. Preserve the raw diagnostic, mark it invalid for inference, report finite count uncertainty, and distinguish any predeclared count-based gate that does not depend on the approximation. Never replace the completed gate or fit a new test to obtain a preferred outcome. (S15-V4C-MC199-20261101)
+
 - **An execution pilot with one independent unit has no population interval.**
   A bootstrap that repeatedly samples its sole writer can falsely emit a zero-width
   interval and parity verdict. Refuse population inference structurally; retain
@@ -794,6 +796,27 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **Acknowledgment must dominate late transport updates.** A queued-message receipt can return after its result has already been landed and acknowledged. Preserve transport metadata without resetting that acknowledgment; exclude acknowledged rows from selection, claiming, cancellation and restart recovery. Reproduce success, error, uncertain acceptance and cancellation interleavings in isolated outboxes, and verify duplicate ACKs do not move the health deadline. Keep historical discrepancies and validate source loading separately from future real delivery. (OPS-S15-W3-WATCH-ACK-FIX, 2026-11-01; tests/test_codex_watch_ack_race.py)
+
+- **Admission fields are ceilings, not measurements of a running worker.**
+  The V4.c launch narrative reported two numerical threads from its plan, but a
+  later resource-helper import reset all four thread environment variables to
+  one. Read the actual worker environment and inspect import order; distinguish
+  a fresh-process library-pool reproduction from live-pool introspection. Retain
+  the original receipt, correct the narrative, and do not restart healthy work
+  merely to make implementation agree with an inaccurate report.
+  (OPS-S15-W3-HEALTH-20261030-0940)
+
+- **An atomic writer can remove a temporary file during an output-size scan.**
+  V4.c lost a worker because the supervisor checked file existence and then called
+  stat after the progress writer replaced that temporary file. Use a single stat;
+  tolerate disappearance only for the writer's exact temporary-name format.
+  Existing temporary files still count, and missing ordinary data or permission
+  errors still fail. Validate the deterministic race and actual native byte-cap
+  refusal in a separate supervisor without editing live sources; retain failed
+  costs and resume only authenticated checkpoints.
+  (OPS-S15-W3-V4C-MC-MONITOR-FAILURE, OPS-S15-W3-RUNTIME-V6-VALIDATION)
+
 - **Match complete claim headings, never identifier prefixes.** A ledger refresher
   selected newer suffixed headings for three original entries because it used
   `startswith`. A matching source-file hash did not detect the wrong line pointer.
@@ -879,7 +902,7 @@ L132 (a shuffle gate that voided the alternative's own signature).
   the complete consecutive checkpoint prefix, binding original bytes and replaying
   construction/statistics, and require the entire original grid. Scratch byte
   equivalence and actual compression measurements establish storage readiness,
-  not scientific success. (OPS-S15-HEALTH-1016-2026)
+  not scientific success. The V4.c reference extension repeated this failure on October 30: full reference receipts, not only summary files, must enter the admission forecast. Lossless XZ retains canonical digests and a separately bound physical manifest; recovery costs remain inside the original allowance. (OPS-S15-HEALTH-1016-2026; OPS-S15-W3-V4C-STORAGE-STOP; OPS-S15-W3-V4C-STORAGE-VALIDATION)
 
 - **A reboot recovery checks installed runtime identity as well as saved card hashes.** The completed evidence survived the outage, but the restarted model service reported a newer runtime. Preserving a model digest alone did not preserve the service version. Hold affected unstarted readers before dispatch, prove the refusal in the actual loop, and continue independent pinned training. Retain interrupted work as unknown unless a validated resume path exists; a readable partial adapter is not a completed comparison. (OPS-S14-POWER-RECOVERY-1012)
 

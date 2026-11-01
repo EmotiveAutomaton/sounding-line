@@ -73,6 +73,8 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    # Raw boundary fallback only: zero SE makes this invalid for inference.
+    ('S15-V4C-MC199 primary INVALID zero-variance Wald diagnostic', 0.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V4C_MC199_COMPLETE_20261101.json'),
     ('D37 constructed calibration world 00', 0.39303482587064675, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D37_CALIBRATION_20261029.json'),
     ('D37 constructed calibration world 01', 0.6567164179104478, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D37_CALIBRATION_20261029.json'),
     ('D37 constructed calibration world 02', 0.8557213930348259, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D37_CALIBRATION_20261029.json'),

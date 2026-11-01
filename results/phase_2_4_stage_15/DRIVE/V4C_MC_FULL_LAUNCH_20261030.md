@@ -6,7 +6,7 @@
 
 **Found.** Four monitored CPU workers are progressing through the complete fitted-reference workload in Gear 2; completed validation and cost evidence are recorded, while the final scientific verdict and ready-card buffer remain unfinished.
 
-All 612 unique source pins and all 21 research locks verify. Each worker has a separate counted lease and two numerical threads. Native parent and execution identities match their recorded creation times. Every worker has produced a reference checkpoint, and monitoring covers completion, failure, pause and disappearance. The watcher and calendar retain their exact live identities.
+All 612 unique source pins and all 21 research locks verify. Each worker has a separate counted lease. **Wording correction, October 30 health inspection:** the admission ceiling is two numerical threads; each running process exposes one-thread environment settings. The original receipt retains the admission-field value, not a measured live thread count. The pinned resource-snapshot import resets these environment variables before scientific imports; no live source or scientific result was changed. See OPS-S15-W3-HEALTH-20261030-0940. Native parent and execution identities match their recorded creation times. Every worker has produced a reference checkpoint, and monitoring covers completion, failure, pause and disappearance. The watcher and calendar retain their exact live identities.
 
 The table describes execution reservations, not scientific results. Each row is a fixed shard of the unchanged original outer-world roster; every world keeps all 199 references and requires full fresh replay.
 
