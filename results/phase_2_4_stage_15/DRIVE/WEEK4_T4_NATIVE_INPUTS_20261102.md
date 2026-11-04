@@ -1,0 +1,13 @@
+# WEEK4 T4 NATIVE INPUTS 20261102
+
+**Hypothesis.** Can the frozen source be packed and its fitting cost measured without letting later data change normalization or using human choices for the probe?
+
+**METHOD.** Preserve compact canonical choices, variable offer masks, writer/session identities and fixed temporal halves. Independently reconstruct every packed feature and normalization constant. Require twenty training and twenty test menus per supported writer and twenty-five supported writers. The cost path uses generated labels under fixed shared and heterogeneous-temperature laws, unchanged certified models and complete fresh refitting; targeted tests also mutate human labels and completed dependency content.
+
+**Found.** The constructed input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.
+
+Source menus 24; eligible menus 24; supported writers 3; support floor 3. Support status True. These are input counts, not a model finding.
+
+Six targeted checks pass. Source/output hashes and all native exits verify. This invocation used 1.156250 CPU seconds with 1501.406250 already charged. Original sources and validation banks remain immutable. Per-writer data and generated model coefficients stay private. The three-writer constructed input fixture tests assembly only; its lower fixture floor is not empirical admission. The core cost projection, when present, covers primary plus two hundred refitted controls, independent replay and a factor-three margin, but omits unbuilt scientific calibration, parameter uncertainty and descriptive joins. It cannot authorize main execution.
+
+**Means.** Finish matched control validation, uncertainty, descriptive joins and complete cost admission before computing the human primary contrast. A fitted temperature remains a predictive parameter, with competence interpretation requiring separate evidence. The remaining Week 4 build and eight-card buffer are unfinished; GPU parking and final-packet policy persist.

@@ -1,0 +1,11 @@
+# T4 canonical menus and observed prior state
+
+**Case and check.** Preserve the full primary source roster and each canonical opened menu. Known mismatched logged selections must be overruled by exact inserted-option identity; dismissal remains its own alternative, and ignored menus never become dismissals. Future and unresolved decisions cannot enter earlier state. The final source gate requires twenty choices in each chronological half for twenty-five writers, after complete embedding-history support.
+
+**Smaller route.** A source-only cost probe retains the first 140 sessions in stable identity order, with no fitted prediction or effect. Its partial writer histories and halves are diagnostic only and cannot supply the final support gate. Forecast the complete source and fresh verification with a 1.5 margin; the full run restores every primary session. Later encoder and model costs retain the original one-hour S4 account and amendment E's floor.
+
+Canonical option order and original IDs must match the prepared menu exactly. An accepted or edited option needs one verified inserted identity; dismissal is the alternative after the offered options; ignore supplies no choice label. The last visible sentence span at menu opening is saved as context, including an unfinished final span, and empty context stays explicit. Complete text and provenance remain private.
+
+Prior state uses the five most recent menus whose resolution precedes the target opening strictly. Accepted/edited choices count as accepted, while closed ignored menus count as not accepted without being converted into a dismissal target. Tied clocks and unresolved menus remain outside the prior set. Time since last acceptance converts the source milliseconds to seconds. Before five resolved menus or any recorded acceptance, state is unsupported rather than imputed.
+
+Split each writer's full sessions by start time and stable identity into first floor-half and remaining half. Training sessions overlapping the later half remain counted but ineligible, so future source cannot enter fitting. This stage prepares no embeddings, personal-temperature fit or likelihood comparison. The source support count stays provisional until complete encoder/history joins; the current state is never a full T4 result.

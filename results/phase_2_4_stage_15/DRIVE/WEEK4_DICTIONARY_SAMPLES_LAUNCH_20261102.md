@@ -1,0 +1,19 @@
+# WEEK4 DICTIONARY SAMPLES LAUNCH 20261102
+
+**Hypothesis.** Are delayed notices properly reconciled, and can the declared control preparations continue without changing the comparisons or exceeding their allowances?
+
+**METHOD.** Reconcile both delayed window-result notices against original hashes, full landings, native exits and the completed unchanged recovery; preserve original ACK timestamps and health cadence. Fully verify and land both completed dictionary histories and cost probes. Freeze whole-writer samples using the previously validated exact genre join and selection method, admitting each from its measured source-heavy cost. Inspect actual native owner/child identities, thread environment, progress, source pins, leases, resources and watcher/calendar health.
+
+**Found.** Two cost-admitted whole-writer control preparations are progressing in monitored Gear 2; completed dictionary histories and cost records are filed, while scoring and the Week 4 ready buffer remain unfinished.
+
+The delivered notices were already fully recorded and acknowledged. The original Windows progress-file refusal and successful unchanged recovery remain intact; duplicate delivery causes no rerun or reinterpretation. Both complete dictionary history passes and cost probes independently replay, with all pins, outputs and native exits verified. The initial inspection of two live cost workers correctly refused after the first had completed; no stale running claim was written.
+
+Full-population control forecasts exceed the remaining separate one-hour texture allowances after prior charges and a six-hundred-second statistical reserve. Those holds remain recorded. Each sample uses the predeclared seed and majority-genre stratification, with whole writers retained, exact quotas and source-loading cost charged in full. The largest pre-outcome whole-writer sample fitting the conservative forecast is frozen. All native validation and preparation charges remain. Neither population membership nor outcome thresholds are changed after scoring; no recurrence outcome has been computed by these preparations.
+
+The original source census and donor pool remain intact. Exact histories, timing endpoints, typed predecessor joins, inherited pair medians, prior-session word frequency and missingness rules are unchanged. The original twenty-five-supported-writer/twenty-per-arm floor still applies after controls. These preparations may remain unsupported; sample selection alone admits no statistic. The parent result and sensitivity limits remain, the variants are descriptive with no claim upgrades or descendants, and preparatory counts do not increment the texture stopping counter.
+
+Both sampled preparations progress in separate counted slots with one numerical thread each at inspection. Their actual native identities, complete source pins, finite limits and terminal registrations verify. No stale owned lease requires recovery. The watcher matches loaded sources, holds its singleton and scans freshly without current error or cancellation; the calendar is alive. Historical delivery errors remain visible. The health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+Zero ready successors against eight required and 21.1476 idle slot-hours since handoff remain an explicit build defect. Week 4 is not fully built. T4 human scoring and PROC main keep their existing holds, and remaining primary/paid builds remain unfinished. GPU parking and paid scope are unchanged. No new hypothesis was harvested from the wake, and no paid call, delegation or publication occurred. Records remain local; scientific reporting stays in the final packet.
+
+**Means.** Independently verify and land each completed sample, then admit the unchanged recurrence statistic only if final support and complete forecast pass. Continue the remaining commissioned build while retaining source gaps, costs and failure history.

@@ -195,3 +195,30 @@ reporting remain mandatory. Source: `docs/design/stage-15/week3/PACKET.md`, sect
 - **Anything sent to the curator** quotes claims by ledger id with their public wording. That covers digests, talk pages and returns to companion repositories. A paraphrase must cite the id.
 - **Corrections come first in every digest,** with their class. A superseded row stays, marked.
 - **Backfill** the ledger at handoff for every claim in the 17 October packet's section 1, the 18 October week packet's section 0 state bullets and this packet's section 1, and for EV1 to EV4, PMAP, GEN1, DR1, NP1, D24 and D30.
+
+## Standing amendments, 2 November
+
+Ratified by the Week 4 packet and current handoff. Source: `docs/design/stage-15/week4/PACKET.md`, section 0.3.
+
+**E. Cost overruns get a sample route.** This amends standing decision S4 and amendment B's cost line.
+- If a card's cost probe projects more than twice its ceiling:
+  1. run a **frozen sample**: whole writers (or whole annotators, raters or projects, by the card's unit), drawn with seed 20261102, stratified by each writer's majority genre where the card analyses genres, sized from the probe to fit twice the card's ceiling less what the card has already been charged (standing decision S4's limit);
+  2. report it as **sample-scoped**, with its size and its share of the full population, using the verb rules of amendment D;
+  3. queue the full run in section 6's backlog for idle slots;
+  4. if even the card's declared floor doesn't fit (default: 20 CoAuthor writers, 200 Community Alignment annotators, all 123 DICES raters, all ScholaWrite identities), record it cost-held, as before.
+- A sample run is neither a heal nor a new hypothesis. It inherits the card's estimand, controls and route, at sample scope.
+- A cheaper exact implementation remains welcome; it no longer has to come first.
+- For sample-scoped runs only, this supersedes any record that forbids a reduced population (D33's follow-ups and CA1 among them); full-population records stay.
+
+**F. Design pre-mortem before admission.** Every card records two lines before its first draw:
+1. **The case and its check.** The situation the question is about, and the check that these data can produce it: a support count, a planted-recovery check, or a structural argument. A card whose data can't produce its case is recorded **"design cannot test"**, with the reason and the numbers. It isn't a null, and it gets no `.ic`.
+2. **The smaller route.** What the card runs if it costs too much (normally amendment E's sample).
+
+**G. The texture lane builds the ready buffer.** While fewer than two ready cards per counted slot exist:
+- the owner builds **texture cards**: declared variants of landed or running cards (another threshold, genre, population or specification), each frozen before outcomes, capped at 1 CPU-hour, ranked below this packet's cards;
+- texture results are descriptive and never upgrade a claim; they register no follow-ups;
+- a family's texture lane stops after five consecutive texture cards in which no texture estimate differs from its parent card's estimate by more than half the parent's 95% interval width;
+- section 2 lists each family's texture grid.
+
+**H. One paid approval, at handoff.** Before any paid call, the owner sends the curator one request covering every node in section 5: each node's payload, destination, rung, cap, and one recorded prompt fix with its rerun. His words go verbatim into the approval file. No node waits mid-week for a further approval inside that list. If he declines a node, it is blocked under standing decision S6, naming it.
+

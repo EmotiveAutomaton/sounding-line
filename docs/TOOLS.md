@@ -2597,6 +2597,324 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W4-HEALTH-20261104-0438:** Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261104_0438.md).
+
+**OPS-S15-W4-T4-SAMPLE-COST-COST-20261104:** The T4 whole-writer sample cost probe independently replays all generated fits; complete calibration, workload admission and human scoring remain held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_SAMPLE_COST_COST_20261104.md).
+
+**OPS-S15-W4-T4-SAMPLE-COST-NATIVE-20261104:** The T4 whole-writer sample adapter passes constructed selection, original fit certificates and fresh native replay; empirical costing and human admission remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_SAMPLE_COST_NATIVE_20261104.md).
+
+**OPS-S15-W4-HEALTH-20261103-2215:** Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261103_2215.md).
+
+**OPS-S15-W4-RUNTIME-V8-20261103:** The versioned byte-accounting repair passes native stress and refusal checks; source replay remains cost-held and Gear 2 research work is currently drained. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_RUNTIME_V8_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103:** The revision-source sample finished extraction but failed during independent replay; its preserved output remains unverified and recovery is cost-held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_SAMPLE_FAILURE_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-SAMPLE-LAUNCH-20261103:** The validated whole-writer revision-source sample is progressing in monitored Gear 2 within its original allowance; full-source cost holds and the unfinished ready buffer remain. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_SAMPLE_LAUNCH_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-SAMPLE-NATIVE-20261103:** The whole-writer revision-source adapter passes constructed selection and exact native replay; source sample execution and analytical admission remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_SAMPLE_NATIVE_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-H1-TIMING-20261103:** The exact materialization successor for the revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_H1_TIMING_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-H1-CONSTRUCTED-20261103:** The exact materialization successor for the constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_H1_CONSTRUCTED_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-TIMING-20261103:** The revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_TIMING_20261103.md).
+
+**OPS-S15-W4-DIGEST-20261103:** The November 3 daily digest reconciles completed records and corrections; Gear 2 is running the validated revision-source cost probe, while the ready buffer and scientific consumers remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261103.md).
+
+**OPS-S15-W4-S2-SOURCE-CONSTRUCTED-20261103:** The constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S2_SOURCE_CONSTRUCTED_20261103.md).
+
+**S15-W4-PP1-IC-20261103:** In constructed worlds, the original pause instrument detects the planted boundary gradient and leaves the known nulls undetected; human sensitivity and the stopped CoAuthor route remain unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_IC_COMPLETE_20261103.md).
+
+**OPS-S15-W4-PP1-IC-LAUNCH:** The full constructed pause calibration is running in Gear 2 with verified native progress and monitoring; the ready buffer and independent primary builds remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_IC_LAUNCH_20261103.md).
+
+**OPS-S15-W4-PP1-IC-ADMISSION:** The exact cached-input pause calibration passes validation and measured cost admission; the original cost hold and human result remain unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_IC_ADMISSION_20261103.md).
+
+**S15-W4-PP1-FULL-20261103:** The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_FULL_20261103.md).
+
+**S15-W4-WD1-INVALID-20261103:** The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_WD1_INVALID_20261103.md).
+
+**OPS-S15-W4-HEALTH-20261103-1610:** Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261103_1610.md).
+
+**OPS-S15-W4-HEALTH-20261103-1005:** Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261103_1005.md).
+
+**OPS-S15-W4-BUILD-20261103:** The commissioned menu-comparison pipeline is complete and recorded; both existing Gear 2 studies continue with verified progress, while the ready buffer and remaining campaign builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_BUILD_20261103.md).
+
+**S15-W4-S4B-MENU-20261103:** Menu browsing style recurs across session halves; the supported chosen-option comparison has an interval spanning zero and does not identify an attention or device effect. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4B_MENU_20261103.md).
+
+**OPS-S15-W4-S4-MENU-SOURCE-FULL:** The full menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_MENU_SOURCE_FULL_20261103.md).
+
+**OPS-S15-W4-S4-MENU-COMPARISON-NATIVE:** The descriptive menu-comparison instrument passes full-sized equal, positive and reversed known-answer banks and fresh replay; human comparison admission remains separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_MENU_COMPARISON_NATIVE_20261103.md).
+
+**OPS-S15-W4-S4-MENU-SOURCE-TIMING:** The timing menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_MENU_SOURCE_TIMING_20261103.md).
+
+**OPS-S15-W4-S4-MENU-SOURCE-CONSTRUCTED:** The constructed menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_MENU_SOURCE_CONSTRUCTED_20261103.md).
+
+**OPS-S15-W4-HEALTH-20261103-0357:** Both Gear 2 CPU studies progressed through the night within their limits; monitoring and records verify, while the ready buffer and remaining commissioned builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261103_0357.md).
+
+**OPS-S15-W4-HEALTH-2152:** Both admitted Gear 2 CPU studies continue with fresh output and verified limits; no new failure requires recovery, while the ready buffer and remaining campaign builds stay unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261102_2152.md).
+
+**OPS-S15-W4-DIGEST-20261102:** The November 2 daily digest reconciles completed Week 4 records; two Gear 2 CPU studies continue within their limits, while the ready buffer and remaining campaign builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261102.md).
+
+**OPS-S15-W4-HEALTH-1547:** Two bounded Gear 2 CPU workers are progressing after the validated full pause study filled an idle slot; monitoring, locks and resource limits verify, while the ready buffer and remaining builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261102_1547.md).
+
+**OPS-S15-W4-WD1-IDLE-LAUNCH:** The validated full population-relative sensitivity comparison is running in monitored Gear 2 under the Week 4 idle-slot allowance; the ready buffer and remaining commissioned builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_WD1_IDLE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-PP3-PROJECT-COST-HOLD:** The minimum whole-project classifier sample is cost-held after complete independent timing replay; no scientific result is admitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP3_PROJECT_COST_HOLD_20261102.md).
+
+**OPS-S15-W4-PP3-PROJECT-COST-LAUNCH:** The validated whole-project classifier cost probe is progressing in monitored Gear 2; completed results are recorded, while the eight-card ready buffer and remaining Week 4 builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP3_PROJECT_COST_LAUNCH_20261102.md).
+
+**OPS-S15-W4-PP3-PROJECT-COST-NATIVE:** The whole-project classifier cost adapter passes known-answer checks and complete native replay; corpus timing and scientific sample admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PP3_PROJECT_COST_NATIVE_20261102.md).
+
+**S15-W4-S5-TEXTURE-SUPPORT-20261102:** Design cannot test: all declared planning-gap and separate-project variants lack the original author support; no effect was computed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S5_TEXTURE_SUPPORT_20261102.md).
+
+**OPS-S15-W4-S5-TEXTURE-SUPPORT-NATIVE:** The planning-gap texture support instrument passes known cases and complete independent replay; corpus support and any later statistical admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S5_TEXTURE_SUPPORT_NATIVE_20261102.md).
+
+**S15-W4-S1-GRAM-3-20261102:** The 3-word skeleton-template whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RESULT_20261102.md).
+
+**OPS-S15-W4-S1-GRAM-RECURRENCE-LAUNCH:** The validated three-word recurrence comparison is running on its frozen whole-writer sample in monitored Gear 2; the ready buffer and remaining Week 4 builds are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_RECURRENCE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-GRAM-3-RECURRENCE-NATIVE:** The three-word recurrence adapter passes complete constructed source and statistical replay; sampled human scoring still requires cost admission. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RECURRENCE_NATIVE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-SAMPLE:** The 3-word skeleton-template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_NUISANCE_SAMPLE_20261102.md).
+
+**OPS-S15-W4-S1-GRAM-SAMPLE-LAUNCH:** The three-word template variant is running cost-admitted whole-writer control preparation in monitored Gear 2; completed source and history records are filed, while matched-length scoring and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_SAMPLE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-TIMING:** The 3-word skeleton-template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_NUISANCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-FULL:** The 3-word skeleton-template texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_HISTORIES_FULL_20261102.md).
+
+**OPS-S15-W4-S1-GRAM-HISTORY-LAUNCH:** The next declared template-length variant is running complete history preparation in monitored Gear 2; completed dictionary comparisons are recorded, while remaining controls, scoring and the ready buffer are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_HISTORY_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-TIMING:** The 3-word skeleton-template texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-INPUTS:** The 3-word skeleton-template texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_INPUTS_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-GRAM-3-NATIVE:** The 3-word skeleton-template texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_GRAM_3_NATIVE_20261102.md).
+
+**S15-W4-S1-DICTIONARY-300-20261102:** The 300-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_300_RESULT_20261102.md).
+
+**S15-W4-S1-DICTIONARY-100-20261102:** The 100-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_100_RESULT_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-SAMPLE:** The 300-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_NUISANCE_SAMPLE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-SAMPLE:** The 100-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_NUISANCE_SAMPLE_20261102.md).
+
+**OPS-S15-W4-DICTIONARY-SAMPLES-LAUNCH:** Two cost-admitted whole-writer control preparations are progressing in monitored Gear 2; completed dictionary histories and cost records are filed, while scoring and the Week 4 ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DICTIONARY_SAMPLES_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-TIMING:** The 300-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_NUISANCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-TIMING:** The 100-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_NUISANCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-FULL:** The 300-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_HISTORIES_FULL_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-FULL:** The 100-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_HISTORIES_FULL_20261102.md).
+
+**OPS-S15-W4-DICTIONARY-HISTORIES-LAUNCH:** Two declared dictionary variants are running complete history matching in monitored Gear 2; completed comparisons and support failures are recorded, while the Week 4 ready buffer remains unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DICTIONARY_HISTORIES_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-TIMING:** The 300-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-TIMING:** The 100-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-INPUTS:** The 300-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_INPUTS_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-INPUTS:** The 100-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_INPUTS_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NATIVE:** The 300-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_300_NATIVE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NATIVE:** The 100-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_DICTIONARY_100_NATIVE_20261102.md).
+
+**S15-W4-T3-SUPPORT-20261102:** The chunk-library comparison is unsupported in the declared final typed-text channel; no compression result was computed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T3_SUPPORT_20261102.md).
+
+**OPS-S15-W4-T3-SOURCE-NATIVE:** The commissioned chunk-library source passes constructed boundary, dated-half and exact support checks plus full native replay; corpus support and compression remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T3_SOURCE_NATIVE_20261102.md).
+
+**S15-W4-S1-WINDOW-12-20261102:** The 12-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_12_RESULT_20261102.md).
+
+**S15-W4-S1-WINDOW-5-20261102:** The 5-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_5_RESULT_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-12-ENVIRONMENT:** The twelve-word comparison stopped during verification after a Windows progress-file replacement refusal; its unverified output is retained and the unchanged bounded rerun is admitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_12_ENVIRONMENT_20261102.md).
+
+**OPS-S15-W4-S1-WINDOW-TEXTURE-RECURRENCE-LAUNCH:** Both admitted sample-scoped template comparisons are progressing in monitored Gear 2; complete control preparation is recorded, while outcomes and the Week 4 ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_TEXTURE_RECURRENCE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-SAMPLE:** The 12-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_NUISANCE_SAMPLE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-SAMPLE:** The 5-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_NUISANCE_SAMPLE_20261102.md).
+
+**OPS-S15-W4-S1-WINDOW-TEXTURE-SAMPLES-LAUNCH:** Two authorized whole-writer control-input samples are progressing in monitored Gear 2; completed preparation is fully recorded, while scoring and the Week 4 ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_TEXTURE_SAMPLES_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE-V2:** The corrected sample adapter validates the actual genre-source join and passes complete native replay; original evidence and the uncomputed human comparison remain preserved. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_SAMPLE_NATIVE_V2_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE:** The whole-writer sample adapter passes known-answer checks and complete native replay; sampled control preparation and descriptive scoring remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_SAMPLE_NATIVE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-TIMING:** The 12-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_NUISANCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-TIMING:** The 5-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_NUISANCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-FULL:** The 12-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_HISTORIES_FULL_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-FULL:** The 5-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_HISTORIES_FULL_20261102.md).
+
+**OPS-S15-W4-S1-WINDOW-TEXTURE-HISTORIES-LAUNCH:** Both declared template variants are running complete prior-history matching in monitored Gear 2; source and timing records are complete, while final controls and the ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_TEXTURE_HISTORIES_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-TIMING:** The 12-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-TIMING:** The 5-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-INPUTS:** The complete 12-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_INPUTS_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-INPUTS:** The complete 5-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_INPUTS_20261102.md).
+
+**OPS-S15-W4-S1-WINDOW-TEXTURE-LAUNCH:** Two declared template-source variants are running in monitored Gear 2; completed numerical validations are recorded, while human scoring and the eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_TEXTURE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-12-NATIVE:** The declared 12-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_12_NATIVE_20261102.md).
+
+**OPS-S15-W4-S1-TEXTURE-WINDOW-5-NATIVE:** The declared 5-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_WINDOW_5_NATIVE_20261102.md).
+
+**OPS-S15-W4-T4-H1-COST-COST:** The T4.h1 full-feature cost probe independently replays every generated fit with original certificates; human scoring and complete cost admission remain held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_COST_COST_20261102.md).
+
+**OPS-S15-W4-T4-H1-COST-CONSTRUCTED:** The T4.h1 constructed interface independently replays every generated fit with original certificates; human scoring and complete cost admission remain held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_COST_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-H1-KERNEL-FULL:** The complete T4.h1 constructed bank meets the unchanged recovery rule and original fit certificates; new full-feature cost and human scientific admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_KERNEL_FULL_20261102.md).
+
+**OPS-S15-W4-T4-H1-KERNEL-TIMING:** The T4.h1 timing numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_KERNEL_TIMING_20261102.md).
+
+**OPS-S15-W4-T4-H1-KERNEL-CONSTRUCTED:** The T4.h1 constructed numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_KERNEL_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-COST-HOLD:** T4 human scoring is cost-held under the original implementation, including its projected minimum writer sample; a separately validated exact numerical successor is being built. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_COST_HOLD_20261102.md).
+
+**OPS-S15-W4-T4-COST:** The full-feature cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_COST_20261102.md).
+
+**OPS-S15-W4-T4-MATCHED-COST-LAUNCH:** The full-feature generated-choice cost probe is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MATCHED_COST_LAUNCH_20261102.md).
+
+**OPS-S15-W4-T4-NATIVE-COST:** The constructed cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_NATIVE_COST_20261102.md).
+
+**OPS-S15-W4-T4-FULL-INPUTS:** The complete human-input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_FULL_INPUTS_20261102.md).
+
+**OPS-S15-W4-T4-NATIVE-INPUTS:** The constructed input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_NATIVE_INPUTS_20261102.md).
+
+**OPS-S15-W4-T4-VARIABLE-FULL:** The complete variable-menu constructed bank meets its frozen recovery rule, with bounded fits retained; human scoring and controls remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_VARIABLE_FULL_20261102.md).
+
+**OPS-S15-W4-T4-VARIABLE-LAUNCH:** The complete variable-menu validation bank is running in monitored Gear 2; human scoring, the remaining Week 4 build and the eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_VARIABLE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-T4-VARIABLE-TIMING:** The T4 variable-menu timing instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_VARIABLE_TIMING_20261102.md).
+
+**OPS-S15-W4-T4-VARIABLE-CONSTRUCTED:** The T4 variable-menu constructed instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_VARIABLE_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-CHOICE-FULL:** The complete constructed choice-model bank meets its frozen recovery rule, with bounded temperature fits retained; human scoring and controls remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_CHOICE_FULL_20261102.md).
+
+**OPS-S15-W4-T4-CHOICE-LAUNCH:** The complete T4 constructed model-validation bank is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_CHOICE_LAUNCH_20261102.md).
+
+**OPS-S15-W4-T4-CHOICE-TIMING:** The T4 timing choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_CHOICE_TIMING_20261102.md).
+
+**OPS-S15-W4-T4-CHOICE-CONSTRUCTED:** The T4 constructed choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_CHOICE_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-HISTORY-FULL:** The T4 full history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_HISTORY_FULL_20261102.md).
+
+**OPS-S15-W4-T4-HISTORY-TIMING:** The T4 timing history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_HISTORY_TIMING_20261102.md).
+
+**OPS-S15-W4-T4-HISTORY-CONSTRUCTED:** The T4 constructed history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_HISTORY_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-ENCODING-FULL:** The T4 full representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_ENCODING_FULL_20261102.md).
+
+**OPS-S15-W4-BUILD-1051:** Gear 2 is progressing through the full T4 CPU representation pass; completed S1 and source records are filed, while the remaining Week 4 models and eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_BUILD_20261102_1051.md).
+
+**OPS-S15-W4-T4-ENCODING-TIMING:** The T4 timing representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_ENCODING_TIMING_20261102.md).
+
+**S15-W4-S1-IC-20261102:** In constructed sessions, the complete template rule detects large planted contrasts more often than small ones; the human contrast remains not detected and its psychological interpretation stays open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_IC_FULL_20261102.md).
+
+**OPS-S15-W4-T4-ENCODING-CONSTRUCTED:** The T4 constructed representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_ENCODING_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-S1-IC-TIMING:** The S1 planted-template timing pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_IC_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-IC-CONSTRUCTED:** The S1 planted-template constructed pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_IC_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-T4-MENUS-V2-FULL:** The T4 full menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MENUS_V2_FULL_20261102.md).
+
+**S15-W4-S1-RECURRENCE-20261102:** An own-template advantage in flow windows was not detected among 38 supported writers; planted-template sensitivity remains untested. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_FULL_20261102.md).
+
+**OPS-S15-W4-T4-MENUS-V2-TIMING:** The T4 timing menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MENUS_V2_TIMING_20261102.md).
+
+**OPS-S15-W4-T4-MENUS-V2-CONSTRUCTED:** The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MENUS_V2_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-S1-NUISANCE-V2-FULL:** The S1 full control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_NUISANCE_V2_FULL_20261102.md).
+
+**OPS-S15-W4-T4-MENUS-CONSTRUCTED:** The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MENUS_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-S1-RECURRENCE-NATIVE:** The S1 recurrence statistic recovers known positive, reversed, zero and nuisance-only answers and refuses an unidentifiable contrast; complete human scoring remains unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_NATIVE_20261102.md).
+
+**OPS-S15-W4-S1-NUISANCE-V2-TIMING:** The S1 timing control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_NUISANCE_V2_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-NUISANCE-V2-CONSTRUCTED:** The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_NUISANCE_V2_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-S1-NUISANCE-CONSTRUCTED:** The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_NUISANCE_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-S1-HISTORIES-FULL:** The complete S1 earlier-history match independently replays; the nuisance join and scientific recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_HISTORIES_FULL_20261102.md).
+
+**S15-W4-S4-TEXTURE-SUPPORT-20261102:** All three declared cursor variants remain unsupported at the writer floor after complete source replay; the parent claim and separate menu question remain unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_TEXTURE_SUPPORT_20261102.md).
+
+**OPS-S15-W4-S1-HISTORIES-TIMING:** The S1 history cost probe independently replays its exact matching; full support and the scientific recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_HISTORIES_TIMING_20261102.md).
+
+**OPS-S15-W4-S1-HISTORIES-CONSTRUCTED:** The S1 history instrument passes exact-count, future-exclusion and mutation-refusal checks with fresh native replay; corpus support and recurrence remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_HISTORIES_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-HEALTH-0937:** Three bounded Gear 2 texture workers are progressing after the previous queue drained; monitoring, locks and resources verify, while primary builds and the eight-card ready buffer remain unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261102_0937.md).
+
+**OPS-S15-W4-S4-TEXTURE-NATIVE:** All three frozen cursor texture instruments pass constructed native replay; each complete-corpus variant remains descriptive and preserves the unsupported parent. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_TEXTURE_NATIVE_20261102.md).
+
+**OPS-S15-W4-R2-FULL:** The R2 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R2_FULL_20261102.md).
+
+**S15-W4-S4A-SUPPORT-20261102:** The complete cursor census lacks the declared writer support for the landing comparison; no primary effect is computed, and the separate menu comparison remains open. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4A_SUPPORT_20261102.md).
+
+**S15-W4-D33-SPEC-20261102:** The supported personal-history pause association remains positive across all frozen screen-adjustment specifications; this is descriptive robustness on the same cohort, not independent or causal evidence. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.md).
+
+**OPS-S15-W4-S1-INPUTS-FULL:** Complete typed-window preparation and its frozen skeleton dictionary independently replay; donor support, inherited controls and the S1 recurrence comparison remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_INPUTS_FULL_20261102.md).
+
+**OPS-S15-W4-D33-SPEC-ADMISSION:** Week 4 explicitly admits the retained full D33 specification curve within its cumulative extension; the earlier Week 3 cost hold remains preserved. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_ADMISSION_20261102.md).
+
+**OPS-S15-W4-S1-INPUTS-NATIVE:** The S1 typed-window instrument passes known stopped-window and skeleton decisions with fresh native replay; human source support and recurrence remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S1_INPUTS_NATIVE_20261102.md).
+
+**OPS-S15-W4-S4-SOURCE-TIMING:** The cursor source-cost probe independently replays; full census and scientific comparison still require cumulative cost admission. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_SOURCE_TIMING_20261102.md).
+
+**OPS-S15-W4-S4-SOURCE-NATIVE:** The cursor source instrument passes known geometry, complete follow-up and fresh native replay; full empirical admission remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S4_SOURCE_NATIVE_20261102.md).
+
+**OPS-S15-W4-R1-FULL:** The R1 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R1_FULL_20261102.md).
+
+**OPS-S15-W4-TIMING-FULL:** The complete Week 4 timing preparation independently replays with every source interval accounted for; dependent scientific comparisons remain uncomputed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_TIMING_FULL_20261102.md).
+
+**OPS-S15-W4-BUILD-0832:** Gear 2 has 3 verified active CPU jobs; completed Week 4 instrument and support records are filed, while the remaining tree and eight-card ready buffer are unfinished. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_BUILD_20261102_0832.md).
+
+**OPS-S15-W4-TIMING-NATIVE:** The Week 4 per-writer timing ruler passes constructed component recovery, typing-speed invariance and independent native replay; complete corpus preparation remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_TIMING_NATIVE_20261102.md).
+
+**S15-W4-S5-SUPPORT-20261102:** Design cannot test: the planning-gap comparison lacks its declared author support; no primary effect was computed. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S5_SUPPORT_20261102.md).
+
+**OPS-S15-W4-S5-NATIVE-H1:** The separately versioned S5 numerical repair passes known-answer decisions and independent native replay; full empirical execution is now eligible within its original cumulative ceiling. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S5_NATIVE_H1_20261102.md).
+
+**OPS-S15-W4-S5-NATIVE:** The S5 native calculation replays, but its exact-zero constructed case exposes a numerical classification defect; human-data admission is held for a separately validated repair. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_S5_NATIVE_20261102.md).
+
+**OPS-S15-W4-PROC-CALIBRATION:** The complete Week 4 PROC calibration passes format coverage but fails centrality agreement; its main run remains held, with one recorded prompt correction and fresh rung available. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PROC_CALIBRATION_20261102.md).
+
+**OPS-S15-W4-RECORD-S4:** Measured complete-source forecasts admit R1 and R2 within their separate one-time cumulative CPU extensions, preserving both full populations and every control. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_RECORD_S4_20261102.md).
+
+**OPS-S15-W4-R2-TIMING:** The R2 source-cost subset completes independent native replay; full-population source validation remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R2_TIMING_20261102.md).
+
+**OPS-S15-W4-R1-TIMING:** The R1 source-cost subset completes independent native replay; full-population source validation remains pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R1_TIMING_20261102.md).
+
+**OPS-S15-W4-R2-CONSTRUCTED:** The R2 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R2_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-R1-CONSTRUCTED:** The R1 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_R1_CONSTRUCTED_20261102.md).
+
+**OPS-S15-W4-HANDOFF:** The Week 4 execution window and seven-node paid approval are recorded; the new CPU runtime passes native replay, while scientific runners and the ready buffer remain under construction. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HANDOFF_20261102.md).
+
+**OPS-S15-W3-HEALTH-20261102-0326:** The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261102_0326.md).
+
+**OPS-S15-W3-CALENDAR-CLOSED:** The finite Week 3 calendar completed and exited; all milestones are present and the verified drain addendum was filed before its deadline. [Record](../results/phase_2_4_stage_15/DRIVE/CALENDAR_CLOSED_20261101.md).
+
+**OPS-S15-W3-DRAIN-ADDENDUM:** The Week 3 drain is reconciled with no new study results or active workers; the final packet stands, and unfinished work remains held under the start freeze. [Record](../results/phase_2_4_stage_15/DRIVE/DRAIN_20261101.md).
+
+**OPS-S15-W3-HEALTH-20261101-2124:** The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261101_2124.md).
+
+**OPS-S15-W3-FINAL-DIGEST-20261101:** The final Week 3 packet reconciles completed evidence and remaining gaps; new starts are frozen, no research workers remain, and the eight-card ready-buffer obligation was not met. [Record](../results/phase_2_4_stage_15/DRIVE/FINAL_DIGEST_20261101.md).
+
+**OPS-S15-W3-HEALTH-20261101-1522:** Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261101_1522.md).
+
 **OPS-S15-W3-HEALTH-20261101-0916:** Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted. [Record](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261101_0916.md).
 
 **OPS-S15-W3-WATCH-ACK-FIX:** The watcher preserves completed acknowledgments across late delivery and cancellation; the tested repair is loaded with event history and the health deadline unchanged. [Record](../results/phase_2_4_stage_15/DRIVE/WATCH_ACK_FIX_20261101.md).

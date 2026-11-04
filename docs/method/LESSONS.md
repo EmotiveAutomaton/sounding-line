@@ -211,6 +211,9 @@ current truth lives in the folded end-state of the record, never in an interim s
 
 ## §3. Before building a statistic or instrument
 
+- **Check the full allocation bank for support invariance before fitting any reference.** Whole-session label shuffles within prompt preserve session counts but can change usable decision counts and timestamp-defined halves. WD1 completed every expensive refit before its frozen guard found changed supported writers in sixty of one thousand assignments. A metadata-only reconstruction reproduces the problem without fitted effects. Keep the original invalid result; never silently intersect writers, discard draws or redraw a control after seeing the outcome. Any replacement control needs a separate freeze, known-answer calibration and complete cost admission. (S15-W4-WD1-INVALID-20261103)
+
+
 - **A card-specific comparator does not waive packet-wide controls.** DR1 implemented the requested random-order comparator and constructed known-answer cases but omitted the week default permutation and fake-writer controls. Map every inherited control to an executable and receipt before dispatch; a complete replay validates computation, not missing scientific checks. Retain the completed descriptive output and hold its routing claim while separately validating the supplement. (S15-DR1-MAIN-20261022)
 
 - **An exact-null gate must require exact null classification, not just a tiny effect.**
@@ -1398,3 +1401,17 @@ L132 (a shuffle gate that voided the alternative's own signature).
   hash matching and the failed attempt. Use binary retention for source receipts;
   never normalize an unknown download merely to make a hash pass.
   (2026-10-14, S15-PUBLIC-JSONL)
+
+
+- **Exercise every actual atomic-writer naming convention in accounting tests.**
+  The Week 4 monitor tolerated vanished UUID JSON temporaries, but source replay
+  used a PID-named progress temporary and crashed the monitor after extraction.
+  Preserve the failed attempt and charges; a versioned repair must still reject
+  ordinary missing files and other I/O failures and prove actual native byte-cap
+  enforcement. Concurrent Windows stress also exposed a sharing refusal in the
+  auxiliary writer: bounded writer retries in a fixture do not establish that a
+  pinned corpus writer has been repaired. Authenticate complete saved outputs,
+  but do not grant partial replay credit or choose a faster prefix forecast over
+  slower observed verification to fit a remaining allowance.
+  (2026-11-03, OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103;
+  OPS-S15-W4-RUNTIME-V8-20261103)

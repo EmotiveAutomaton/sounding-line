@@ -1,0 +1,13 @@
+# WEEK4 HANDOFF 20261102
+
+**Hypothesis.** Can the new commission open a separate, bounded execution window without altering the completed Week 3 evidence or its guards?
+
+**METHOD.** Preserve the supplied packet byte-for-byte, record the current commission and explicit seven-node transfer approval, copy the runtime into a separate version, and install the packet's amendments E–H verbatim. Exercise start/freeze boundaries, the shared reservation, resource and cumulative CPU refusals, paid caps, duplicate/unknown calls and the calendar drain. Run a constructed native execution and independent verification through the actual launcher, monitor handshake and counted lease; authenticate every completion output and source pin and verify native exits.
+
+**Found.** The Week 4 execution window and seven-node paid approval are recorded; the new CPU runtime passes native replay, while scientific runners and the ready buffer remain under construction.
+
+Twelve targeted checks pass. The first test invocation hit a filesystem permission error in pytest's default temporary directory; its receipt remains, and a workspace-local temporary directory resolved the environmental setup failure without changing tests. Native execution and fresh verification both passed, accounting for 1.578125 CPU seconds. All native identities exited and the counted lease was released. All 21 research locks pass. This is an infrastructure result, not a study result.
+
+The exact packet SHA-256 is `d8835bea67dd6033d212ff0b9622446b8e90141bad7e3aa865b06adb10062f52`. Week 4 permits four counted CPU slots, with shared reservations respected, and parks the local GPU. New starts stop November 8 at 20:00 PST, draining by 22:00 PST; the addendum is due at 23:00 PST. Paid dispatch stops November 6 at 17:00 PST. The seven node caps total $9, within the separate $10 campaign ceiling. Approval covers the listed transfers and one recorded prompt fix with a fresh validation rung per node; no call has yet been submitted or charged.
+
+**Means.** The current explicit commission supersedes the Week 3 start freeze for new versioned Week 4 attempts only. Earlier packets, failures and completed records remain immutable. Transition-only monitoring is cleared for the new window; the independent six-hour health clock is preserved. There are no admitted scientific workers or eight-card ready buffer yet. Building, calibration, source validation, cost admission and the seven paid adapters remain active obligations. The supplied studies are harvested as the Week 4 tree; no new analyst hypothesis is added. Per-artifact scores and scientific conclusions remain withheld until full cells land internally and the final-packet policy permits reporting.

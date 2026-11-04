@@ -1,0 +1,19 @@
+# WEEK4 S1 WINDOW TEXTURE SAMPLES LAUNCH 20261102
+
+**Hypothesis.** Are completed dependencies recorded, and is the authorized cost route progressing without changing measurement rules or overstating queue readiness?
+
+**METHOD.** Fully land and acknowledge both complete history passes, both control-input cost probes and the constructed sample adapter. Verify exact native owner/child creation identities, source pins, numerical-thread environment, progress, leases and resources for both sampled preparations. Check the original watcher identity, loaded sources, held singleton, delivery/error state, terminal registrations and calendar.
+
+**Found.** Two authorized whole-writer control-input samples are progressing in monitored Gear 2; completed preparation is fully recorded, while scoring and the Week 4 ready buffer remain unfinished.
+
+The delayed S4 notice was independently reconciled with its already-landed original completion and ACK, without rerunning or reinterpreting the source. Both texture histories and cost probes passed complete independent replay and full write-through. Their conservative full-population control forecasts exceed each variant's remaining one-hour allowance. Those holds remain recorded. The declared whole-writer sample route is frozen before recurrence outcomes, stratified by majority genre with seed 20261102. It preserves source records, histories and donor matches, every selected writer's complete target set, all nuisance values and the original support floors. Each sample fits its measured forecast after all charges and a six-hundred-second reserve for the statistic. That reserve alone does not admit scoring.
+
+The corrected sample adapter passed seven targeted checks and complete constructed native replay. The first preparation stopped before launch because genre belongs to the authenticated window ledger rather than the lower-level word record; its evidence remains and the separate first correction requires an exact session/writer join. Sampling, nuisance values and scientific criteria are unchanged. A separate retained test setup failure was an operating-system refusal to access pytest's default temporary directory; a fresh project-local directory resolved it. No human recurrence outcome is computed in these preparations. Sample membership stays private; the receipt contains only aggregate scope and binding hashes. The full-population gap, parent sensitivity limits, descriptive-only texture scope and no-descendant rule remain.
+
+Both native workers are alive, progressing with one numerical thread each and holding separate counted leases. Full source pins and registered terminal paths verify. No stale owned lease or environmental job failure requires recovery. Zero ready successors against eight required and 18.2040 idle slot-hours since handoff remain a build defect. All twenty-one scientific locks pass; Git status has no deletion entries. Week 4 is not fully built.
+
+The same-owner watcher matches its loaded sources, holds its singleton and has a recent scan without a current error or cancellation. Historical delivery failures remain retained. The calendar is alive; queue acceptance is distinguished from delivery and full landing. The unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+T4 human scoring is still held pending complete cost admission, calibration, controls, uncertainty and descriptive joins. PROC main remains instrument-held; its approved correction and six other paid-node builds remain unfinished. GPU parking, paid limits and final-packet reporting persist. No new paid call, delegation or publication occurred; current records remain local. No new hypothesis was harvested from the wake.
+
+**Means.** Land both complete sampled control preparations before admitting their unchanged recurrence statistic. Continue remaining primary and paid builds and repair the ready-buffer deficit within existing authority.

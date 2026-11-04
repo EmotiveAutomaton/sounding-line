@@ -1123,3 +1123,372 @@ OPS-S15-W3-TR3-SOURCE-RECOVERY-FAILURE receipt correction (wording): JSON checks
 2026-11-01T17:21:09.786240+00:00 OPS-S15-W3-HEALTH-20261101-0916: Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.
 
 2026-11-01T17:19:25.286553+00:00 Capacity defect (nonoverlapping): {"cause": "No admitted ready cards; remaining calibration/cost and source builds unfinished", "definition": "Nonoverlapping continuation after WATCH_ACK_FIX; research lease slots, not total CPU utilization", "end": "2026-11-01T17:19:25.286553+00:00", "slot_hours": 18.85998055111111, "start": "2026-11-01T12:36:31.304057+00:00", "unused_research_slots": 4}
+
+2026-11-01T23:23:18.948154+00:00 OPS-S15-W3-HEALTH-20261101-1522: Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.
+
+2026-11-01T23:22:45.619959+00:00 Capacity defect (nonoverlapping): {"cause": "No admitted ready cards; remaining calibration/cost and source builds unfinished", "definition": "Nonoverlapping continuation after morning health inspection; research lease slots, not total CPU utilization", "end": "2026-11-01T23:22:45.619959+00:00", "slot_hours": 24.222592673333335, "start": "2026-11-01T17:19:25.286553+00:00", "unused_research_slots": 4}
+
+2026-11-02T04:14:36.316935+00:00 OPS-S15-W3-FINAL-DIGEST-20261101: The final Week 3 packet reconciles completed evidence and remaining gaps; new starts are frozen, no research workers remain, and the eight-card ready-buffer obligation was not met.
+
+2026-11-02T05:25:09.217690+00:00 OPS-S15-W3-HEALTH-20261101-2124: The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.
+
+2026-11-02T05:25:00.034694+00:00 Post-freeze unused capacity (nonoverlapping with final digest; earlier deficit retained): {"cause": "Start freeze in force; pre-freeze build deficit retained, not permission to restart", "definition": "Post-freeze interval after final digest cutoff; research lease slots, not total CPU utilization", "end": "2026-11-02T05:25:00.034694+00:00", "slot_hours": 5.666705215555555, "start": "2026-11-02T04:00:00+00:00", "unused_research_slots": 4}
+
+2026-11-02T06:02:43.891506+00:00 OPS-S15-W3-DRAIN-ADDENDUM: The Week 3 drain is reconciled with no new study results or active workers; the final packet stands, and unfinished work remains held under the start freeze.
+
+2026-11-02T07:01:36.256514+00:00 OPS-S15-W3-CALENDAR-CLOSED: The finite Week 3 calendar completed and exited; all milestones are present and the verified drain addendum was filed before its deadline.
+
+2026-11-02T11:27:35.787584+00:00 OPS-S15-W3-HEALTH-20261102-0326: The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.
+
+2026-11-02T11:27:27.105659+00:00 Post-drain unused capacity (closed window; nonoverlapping with drain addendum): {"cause": "Start freeze in force; pre-freeze build deficit retained, not permission to restart", "definition": "Post-drain interval after completed drain window; research lease slots, not total CPU utilization", "end": "2026-11-02T11:27:27.105659+00:00", "slot_hours": 21.83011739888889, "start": "2026-11-02T06:00:00+00:00", "unused_research_slots": 4}
+
+2026-11-02T15:20:47.064116+00:00 OPS-S15-W4-HANDOFF: The Week 4 execution window and seven-node paid approval are recorded; the new CPU runtime passes native replay, while scientific runners and the ready buffer remain under construction.
+
+2026-11-02T15:29:55.592312+00:00 OPS-S15-W4-R1-CONSTRUCTED: The R1 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.
+
+2026-11-02T15:30:08.758240+00:00 OPS-S15-W4-R2-CONSTRUCTED: The R2 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.
+
+2026-11-02T15:39:23.011307+00:00 OPS-S15-W4-R1-TIMING: The R1 source-cost subset completes independent native replay; full-population source validation remains pending.
+
+2026-11-02T15:42:56.242465+00:00 OPS-S15-W4-R2-TIMING: The R2 source-cost subset completes independent native replay; full-population source validation remains pending.
+
+2026-11-02T15:44:34.949701+00:00 OPS-S15-W4-RECORD-S4: Measured complete-source forecasts admit R1 and R2 within their separate one-time cumulative CPU extensions, preserving both full populations and every control.
+
+2026-11-02T15:48:38.461305+00:00 OPS-S15-W4-PROC-CALIBRATION: The complete Week 4 PROC calibration passes format coverage but fails centrality agreement; its main run remains held, with one recorded prompt correction and fresh rung available.
+
+2026-11-02T16:08:55.370194+00:00 OPS-S15-W4-S5-NATIVE: The S5 native calculation replays, but its exact-zero constructed case exposes a numerical classification defect; human-data admission is held for a separately validated repair.
+
+2026-11-02T16:12:31.051598+00:00 OPS-S15-W4-S5-NATIVE-H1: The separately versioned S5 numerical repair passes known-answer decisions and independent native replay; full empirical execution is now eligible within its original cumulative ceiling.
+
+2026-11-02T16:21:26.815851+00:00 S15-W4-S5-SUPPORT-20261102: Design cannot test: the planning-gap comparison lacks its declared author support; no primary effect was computed.
+
+2026-11-02T16:29:19.016927+00:00 OPS-S15-W4-TIMING-NATIVE: The Week 4 per-writer timing ruler passes constructed component recovery, typing-speed invariance and independent native replay; complete corpus preparation remains pending.
+
+2026-11-02T16:32:05.697637+00:00 OPS-S15-W4-BUILD-0832: Gear 2 has 3 verified active CPU jobs; completed Week 4 instrument and support records are filed, while the remaining tree and eight-card ready buffer are unfinished.
+
+2026-11-02T16:48:38.792121+00:00 OPS-S15-W4-TIMING-FULL: The complete Week 4 timing preparation independently replays with every source interval accounted for; dependent scientific comparisons remain uncomputed.
+
+2026-11-02T16:48:51.527204+00:00 OPS-S15-W4-R1-FULL: The R1 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+
+2026-11-02T16:50:35.517414+00:00 Operational recording correction: two landing helpers were inadvertently allowed to overlap after their shell calls yielded. All six narrative records and both result receipts survived, but the later ledger write omitted the timing-full row. Reconstructed that exact row from its completed receipt, revalidated every source anchor and all expected Week 4 receipts, and serialized subsequent mutations. No source output, scientific result or authorization changed.
+
+2026-11-02T16:53:48.579655+00:00 OPS-S15-W4-S4-SOURCE-NATIVE: The cursor source instrument passes known geometry, complete follow-up and fresh native replay; full empirical admission remains pending.
+
+2026-11-02T17:00:58.357382+00:00 OPS-S15-W4-S4-SOURCE-TIMING: The cursor source-cost probe independently replays; full census and scientific comparison still require cumulative cost admission.
+
+2026-11-02T17:01:31.403426+00:00 OPS-S15-W4-S1-INPUTS-NATIVE: The S1 typed-window instrument passes known stopped-window and skeleton decisions with fresh native replay; human source support and recurrence remain pending.
+
+2026-11-02T17:06:22.203484+00:00 OPS-S15-W4-D33-SPEC-ADMISSION: Week 4 explicitly admits the retained full D33 specification curve within its cumulative extension; the earlier Week 3 cost hold remains preserved.
+
+2026-11-02T17:14:14.964662+00:00 OPS-S15-W4-S1-INPUTS-FULL: Complete typed-window preparation and its frozen skeleton dictionary independently replay; donor support, inherited controls and the S1 recurrence comparison remain pending.
+
+2026-11-02T17:20:46.569968+00:00 S15-W4-D33-SPEC-20261102: The supported personal-history pause association remains positive across all frozen screen-adjustment specifications; this is descriptive robustness on the same cohort, not independent or causal evidence.
+
+2026-11-02T17:29:59.169332+00:00 S15-W4-S4A-SUPPORT-20261102: The complete cursor census lacks the declared writer support for the landing comparison; no primary effect is computed, and the separate menu comparison remains open.
+
+2026-11-02T17:32:35.238064+00:00 OPS-S15-W4-R2-FULL: The R2 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+
+2026-11-02T17:36:29.392113+00:00 OPS-S15-W4-S4-TEXTURE-NATIVE: All three frozen cursor texture instruments pass constructed native replay; each complete-corpus variant remains descriptive and preserves the unsupported parent.
+
+2026-11-02T17:40:36.421961+00:00 OPS-S15-W4-HEALTH-0937: Three bounded Gear 2 texture workers are progressing after the previous queue drained; monitoring, locks and resources verify, while primary builds and the eight-card ready buffer remain unfinished.
+
+2026-11-02T17:48:44.322812+00:00 OPS-S15-W4-S1-HISTORIES-CONSTRUCTED: The S1 history instrument passes exact-count, future-exclusion and mutation-refusal checks with fresh native replay; corpus support and recurrence remain pending.
+
+2026-11-02T17:50:17.766206+00:00 OPS-S15-W4-S1-HISTORIES-TIMING: The S1 history cost probe independently replays its exact matching; full support and the scientific recurrence comparison remain pending.
+
+2026-11-02T17:53:22.868719+00:00 S15-W4-S4-TEXTURE-SUPPORT-20261102: All three declared cursor variants remain unsupported at the writer floor after complete source replay; the parent claim and separate menu question remain unchanged.
+
+2026-11-02T17:54:07.899786+00:00 OPS-S15-W4-S1-HISTORIES-FULL: The complete S1 earlier-history match independently replays; the nuisance join and scientific recurrence comparison remain pending.
+
+2026-11-02T17:59:17.666301+00:00 OPS-S15-W4-S1-NUISANCE-CONSTRUCTED: The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+2026-11-02T18:05:55.053212+00:00 OPS-S15-W4-S1-NUISANCE-V2-CONSTRUCTED: The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+2026-11-02T18:09:35.244941+00:00 OPS-S15-W4-S1-NUISANCE-V2-TIMING: The S1 timing control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+2026-11-02T18:10:43.023942+00:00 OPS-S15-W4-S1-RECURRENCE-NATIVE: The S1 recurrence statistic recovers known positive, reversed, zero and nuisance-only answers and refuses an unidentifiable contrast; complete human scoring remains unadmitted.
+
+2026-11-02T18:17:08.179655+00:00 OPS-S15-W4-T4-MENUS-CONSTRUCTED: The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+2026-11-02T18:24:48.226775+00:00 OPS-S15-W4-S1-NUISANCE-V2-FULL: The S1 full control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+2026-11-02T18:29:39.595700+00:00 OPS-S15-W4-T4-MENUS-V2-CONSTRUCTED: The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+2026-11-02T18:32:27.429311+00:00 OPS-S15-W4-T4-MENUS-V2-TIMING: The T4 timing menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+2026-11-02T18:34:49.674356+00:00 S15-W4-S1-RECURRENCE-20261102: An own-template advantage in flow windows was not detected among 38 supported writers; planted-template sensitivity remains untested.
+
+2026-11-02T18:38:10.925837+00:00 OPS-S15-W4-T4-MENUS-V2-FULL: The T4 full menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+2026-11-02T18:39:58.902447+00:00 OPS-S15-W4-S1-IC-CONSTRUCTED: The S1 planted-template constructed pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.
+
+2026-11-02T18:41:57.072036+00:00 OPS-S15-W4-S1-IC-TIMING: The S1 planted-template timing pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.
+
+2026-11-02T18:46:37.263107+00:00 OPS-S15-W4-T4-ENCODING-CONSTRUCTED: The T4 constructed representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+2026-11-02T18:48:38.740135+00:00 S15-W4-S1-IC-20261102: In constructed sessions, the complete template rule detects large planted contrasts more often than small ones; the human contrast remains not detected and its psychological interpretation stays open.
+
+2026-11-02T18:49:32.197943+00:00 OPS-S15-W4-T4-ENCODING-TIMING: The T4 timing representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+2026-11-02T18:52:15.328361+00:00 OPS-S15-W4-BUILD-1051: Gear 2 is progressing through the full T4 CPU representation pass; completed S1 and source records are filed, while the remaining Week 4 models and eight-card ready buffer remain unfinished.
+
+2026-11-02T18:59:01.930719+00:00 OPS-S15-W4-T4-ENCODING-FULL: The T4 full representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+2026-11-02T19:04:56.616148+00:00 OPS-S15-W4-T4-HISTORY-CONSTRUCTED: The T4 constructed history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+2026-11-02T19:05:55.802470+00:00 OPS-S15-W4-T4-HISTORY-TIMING: The T4 timing history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+2026-11-02T19:09:24.249422+00:00 OPS-S15-W4-T4-HISTORY-FULL: The T4 full history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+2026-11-02T19:13:59.036257+00:00 OPS-S15-W4-T4-CHOICE-CONSTRUCTED: The T4 constructed choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.
+
+2026-11-02T19:15:26.044084+00:00 OPS-S15-W4-T4-CHOICE-TIMING: The T4 timing choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.
+
+2026-11-02T19:17:38.275431+00:00 OPS-S15-W4-T4-CHOICE-LAUNCH: The complete T4 constructed model-validation bank is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.
+
+2026-11-02T19:22:52.999814+00:00 OPS-S15-W4-T4-CHOICE-FULL: The complete constructed choice-model bank meets its frozen recovery rule, with bounded temperature fits retained; human scoring and controls remain unadmitted.
+
+2026-11-02T19:27:27.989687+00:00 OPS-S15-W4-T4-VARIABLE-CONSTRUCTED: The T4 variable-menu constructed instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.
+
+2026-11-02T19:31:35.722593+00:00 OPS-S15-W4-T4-VARIABLE-TIMING: The T4 variable-menu timing instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.
+
+2026-11-02T19:32:58.603051+00:00 OPS-S15-W4-T4-VARIABLE-LAUNCH: The complete variable-menu validation bank is running in monitored Gear 2; human scoring, the remaining Week 4 build and the eight-card ready buffer remain unfinished.
+
+2026-11-02T19:35:37.136076+00:00 OPS-S15-W4-T4-VARIABLE-FULL: The complete variable-menu constructed bank meets its frozen recovery rule, with bounded fits retained; human scoring and controls remain unadmitted.
+
+2026-11-02T19:43:53.809263+00:00 OPS-S15-W4-T4-NATIVE-INPUTS: The constructed input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.
+
+2026-11-02T19:45:13.814510+00:00 OPS-S15-W4-T4-FULL-INPUTS: The complete human-input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.
+
+2026-11-02T19:46:17.130985+00:00 OPS-S15-W4-T4-NATIVE-COST: The constructed cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.
+
+2026-11-02T19:48:01.152979+00:00 OPS-S15-W4-T4-MATCHED-COST-LAUNCH: The full-feature generated-choice cost probe is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.
+
+2026-11-02T19:50:55.008373+00:00 OPS-S15-W4-T4-COST: The full-feature cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.
+
+2026-11-02T19:58:18.051737+00:00 OPS-S15-W4-T4-COST-HOLD: T4 human scoring is cost-held under the original implementation, including its projected minimum writer sample; a separately validated exact numerical successor is being built.
+
+2026-11-02T20:02:06.596216+00:00 OPS-S15-W4-T4-H1-KERNEL-CONSTRUCTED: The T4.h1 constructed numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.
+
+2026-11-02T20:03:12.582824+00:00 OPS-S15-W4-T4-H1-KERNEL-TIMING: The T4.h1 timing numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.
+
+2026-11-02T20:05:39.549764+00:00 OPS-S15-W4-T4-H1-KERNEL-FULL: The complete T4.h1 constructed bank meets the unchanged recovery rule and original fit certificates; new full-feature cost and human scientific admission remain pending.
+
+2026-11-02T20:07:22.525817+00:00 OPS-S15-W4-T4-H1-COST-CONSTRUCTED: The T4.h1 constructed interface independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.
+
+2026-11-02T20:11:02.401494+00:00 OPS-S15-W4-T4-H1-COST-COST: The T4.h1 full-feature cost probe independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.
+
+2026-11-02T20:15:56.515508+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-NATIVE: The declared 5-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.
+
+2026-11-02T20:16:08.411626+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-NATIVE: The declared 12-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.
+
+2026-11-02T20:17:52.053233+00:00 OPS-S15-W4-S1-WINDOW-TEXTURE-LAUNCH: Two declared template-source variants are running in monitored Gear 2; completed numerical validations are recorded, while human scoring and the eight-card ready buffer remain unfinished.
+
+2026-11-02T20:22:21.704892+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-INPUTS: The complete 5-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.
+
+2026-11-02T20:22:35.574749+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-INPUTS: The complete 12-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.
+
+2026-11-02T20:25:07.254045+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-TIMING: The 5-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+2026-11-02T20:25:21.134694+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-TIMING: The 12-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+2026-11-02T20:27:18.487955+00:00 OPS-S15-W4-S1-WINDOW-TEXTURE-HISTORIES-LAUNCH: Both declared template variants are running complete prior-history matching in monitored Gear 2; source and timing records are complete, while final controls and the ready buffer remain unfinished.
+
+2026-11-02T20:31:59.184554+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-FULL: The 5-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+2026-11-02T20:32:13.367951+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-FULL: The 12-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+2026-11-02T20:36:38.393567+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-TIMING: The 5-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+2026-11-02T20:36:54.226017+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-TIMING: The 12-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+2026-11-02T20:41:31.840913+00:00 OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE: The whole-writer sample adapter passes known-answer checks and complete native replay; sampled control preparation and descriptive scoring remain separate.
+
+2026-11-02T20:46:28.103684+00:00 OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE-V2: The corrected sample adapter validates the actual genre-source join and passes complete native replay; original evidence and the uncomputed human comparison remain preserved.
+
+2026-11-02T20:48:10.134031+00:00 OPS-S15-W4-S1-WINDOW-TEXTURE-SAMPLES-LAUNCH: Two authorized whole-writer control-input samples are progressing in monitored Gear 2; completed preparation is fully recorded, while scoring and the Week 4 ready buffer remain unfinished.
+
+2026-11-02T20:58:53.285464+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-SAMPLE: The 5-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+2026-11-02T20:59:08.734079+00:00 OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-SAMPLE: The 12-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+2026-11-02T21:01:34.178982+00:00 OPS-S15-W4-S1-WINDOW-TEXTURE-RECURRENCE-LAUNCH: Both admitted sample-scoped template comparisons are progressing in monitored Gear 2; complete control preparation is recorded, while outcomes and the Week 4 ready buffer remain unfinished.
+
+2026-11-02T21:07:40.975914+00:00 OPS-S15-W4-S1-TEXTURE-12-ENVIRONMENT: The twelve-word comparison stopped during verification after a Windows progress-file replacement refusal; its unverified output is retained and the unchanged bounded rerun is admitted.
+
+2026-11-02T21:09:48.017724+00:00 S15-W4-S1-WINDOW-5-20261102: The 5-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+2026-11-02T21:10:38.325130+00:00 S15-W4-S1-WINDOW-12-20261102: The 12-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+2026-11-02T21:17:02.677632+00:00 OPS-S15-W4-T3-SOURCE-NATIVE: The commissioned chunk-library source passes constructed boundary, dated-half and exact support checks plus full native replay; corpus support and compression remain uncomputed.
+
+2026-11-02T21:21:21.734598+00:00 S15-W4-T3-SUPPORT-20261102: The chunk-library comparison is unsupported in the declared final typed-text channel; no compression result was computed.
+
+2026-11-02T21:24:56.999011+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NATIVE: The 100-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:25:19.743509+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NATIVE: The 300-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:27:17.204964+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-INPUTS: The 100-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:28:22.639767+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-INPUTS: The 300-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:28:42.306794+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-TIMING: The 100-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:29:47.709759+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-TIMING: The 300-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:30:11.239684+00:00 OPS-S15-W4-DICTIONARY-HISTORIES-LAUNCH: Two declared dictionary variants are running complete history matching in monitored Gear 2; completed comparisons and support failures are recorded, while the Week 4 ready buffer remains unfinished.
+
+2026-11-02T21:33:52.151955+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-FULL: The 100-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:35:41.312594+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-FULL: The 300-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T21:37:07.788025+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-TIMING: The 100-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+2026-11-02T21:38:44.550466+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-TIMING: The 300-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+2026-11-02T21:43:13.394505+00:00 OPS-S15-W4-DICTIONARY-SAMPLES-LAUNCH: Two cost-admitted whole-writer control preparations are progressing in monitored Gear 2; completed dictionary histories and cost records are filed, while scoring and the Week 4 ready buffer remain unfinished.
+
+2026-11-02T21:49:07.187124+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-SAMPLE: The 100-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+2026-11-02T21:50:15.162980+00:00 OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-SAMPLE: The 300-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+2026-11-02T21:52:49.109608+00:00 S15-W4-S1-DICTIONARY-100-20261102: The 100-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+2026-11-02T21:53:52.118477+00:00 S15-W4-S1-DICTIONARY-300-20261102: The 300-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+2026-11-02T21:59:01.213219+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-NATIVE: The 3-word skeleton-template texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T22:00:47.622264+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-INPUTS: The 3-word skeleton-template texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T22:02:42.327224+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-TIMING: The 3-word skeleton-template texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T22:03:51.326778+00:00 OPS-S15-W4-S1-GRAM-HISTORY-LAUNCH: The next declared template-length variant is running complete history preparation in monitored Gear 2; completed dictionary comparisons are recorded, while remaining controls, scoring and the ready buffer are unfinished.
+
+2026-11-02T22:08:21.180472+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-FULL: The 3-word skeleton-template texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+2026-11-02T22:11:11.788462+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-TIMING: The 3-word skeleton-template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+2026-11-02T22:12:54.044169+00:00 OPS-S15-W4-S1-GRAM-SAMPLE-LAUNCH: The three-word template variant is running cost-admitted whole-writer control preparation in monitored Gear 2; completed source and history records are filed, while matched-length scoring and the ready buffer remain unfinished.
+
+2026-11-02T22:22:50.283155+00:00 OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-SAMPLE: The 3-word skeleton-template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+- 2026-11-02 S1 three-word recurrence validation, engineering repair 1: constructed completion keys used Windows separators while the authenticated consumer requires POSIX receipt keys. Three of six checks refused before human scoring. Correct only fixture serialization and the matching tamper test; preserve failed XML, estimator, source joins and all gates.
+
+2026-11-02T22:33:15.016702+00:00 OPS-S15-W4-S1-GRAM-3-RECURRENCE-NATIVE: The three-word recurrence adapter passes complete constructed source and statistical replay; sampled human scoring still requires cost admission.
+
+2026-11-02T22:35:16.331763+00:00 OPS-S15-W4-S1-GRAM-RECURRENCE-LAUNCH: The validated three-word recurrence comparison is running on its frozen whole-writer sample in monitored Gear 2; the ready buffer and remaining Week 4 builds are unfinished.
+
+2026-11-02T22:37:58.685907+00:00 S15-W4-S1-GRAM-3-20261102: The 3-word skeleton-template whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+2026-11-02T22:43:34.153193+00:00 OPS-S15-W4-S5-TEXTURE-SUPPORT-NATIVE: The planning-gap texture support instrument passes known cases and complete independent replay; corpus support and any later statistical admission remain pending.
+
+2026-11-02T22:49:39.143404+00:00 S15-W4-S5-TEXTURE-SUPPORT-20261102: Design cannot test: all declared planning-gap and separate-project variants lack the original author support; no effect was computed.
+
+2026-11-02T22:55:29.699388+00:00 PP3.p1 cost adapter, engineering repair 1: constructed validation caught noncontiguous sampled project indices in inherited project bootstrap. Remap project and author indices without changing membership, ordering, model or reference streams; failed check and original adapter retained. No human timing started.
+
+2026-11-02T22:57:32.328705+00:00 OPS-S15-W4-PP3-PROJECT-COST-NATIVE: The whole-project classifier cost adapter passes known-answer checks and complete native replay; corpus timing and scientific sample admission remain pending.
+
+2026-11-02T22:59:03.759747+00:00 OPS-S15-W4-PP3-PROJECT-COST-LAUNCH: The validated whole-project classifier cost probe is progressing in monitored Gear 2; completed results are recorded, while the eight-card ready buffer and remaining Week 4 builds are unfinished.
+
+2026-11-02T23:06:02.417077+00:00 OPS-S15-W4-PP3-PROJECT-COST-HOLD: The minimum whole-project classifier sample is cost-held after complete independent timing replay; no scientific result is admitted.
+
+2026-11-02T23:10:47.893673+00:00 OPS-S15-W4-WD1-IDLE-LAUNCH: The validated full population-relative sensitivity comparison is running in monitored Gear 2 under the Week 4 idle-slot allowance; the ready buffer and remaining commissioned builds are unfinished.
+
+2026-11-02T23:49:53.701867+00:00 OPS-S15-W4-HEALTH-1547: Two bounded Gear 2 CPU workers are progressing after the validated full pause study filled an idle slot; monitoring, locks and resource limits verify, while the ready buffer and remaining builds are unfinished.
+
+2026-11-03T04:10:30.653272+00:00 OPS-S15-W4-DIGEST-20261102: The November 2 daily digest reconciles completed Week 4 records; two Gear 2 CPU studies continue within their limits, while the ready buffer and remaining campaign builds are unfinished.
+
+OPS-S15-W4-DIGEST-20261102 idle accounting: 36.7753 idle slot-hours since handoff; 2/4 occupied and 0/8 ready at inspection. Causes: unbuilt scientific consumers/ready-buffer deficit, support failures and cost/instrument holds. This is a continuing readiness defect; no new worker failure or environmental restart is warranted.
+
+2026-11-03T05:55:05.885893+00:00 OPS-S15-W4-HEALTH-2152: Both admitted Gear 2 CPU studies continue with fresh output and verified limits; no new failure requires recovery, while the ready buffer and remaining campaign builds stay unfinished.
+
+OPS-S15-W4-HEALTH-2152: 40.3134 idle slot-hours since handoff; ready buffer 0/8. Cause: unfinished commissioned scientific consumers and readiness builds, with explicit cost/instrument/support holds. No active-process recovery warranted; retained R2 unowned plan is already superseded by its completed admitted successor. Citation paths corrected only in the previous digest archive entry.
+
+2026-11-03T11:59:53.541432+00:00 OPS-S15-W4-HEALTH-20261103-0357: Both Gear 2 CPU studies progressed through the night within their limits; monitoring and records verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+OPS-S15-W4-HEALTH-20261103-0357: 52.4985 idle slot-hours since handoff; 2/4 occupied and 0/8 ready. Causes remain unfinished scientific consumers and ready-buffer construction, with explicit cost/instrument/support holds. Active workers advance; no environmental recovery or unclaimed ready successor found.
+
+2026-11-03T13:16:54.011612+00:00 OPS-S15-W4-S4-MENU-SOURCE-CONSTRUCTED: The constructed menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+2026-11-03T13:20:32.674168+00:00 OPS-S15-W4-S4-MENU-SOURCE-TIMING: The timing menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+2026-11-03T13:23:54.803731+00:00 OPS-S15-W4-S4-MENU-COMPARISON-NATIVE: The descriptive menu-comparison instrument passes full-sized equal, positive and reversed known-answer banks and fresh replay; human comparison admission remains separate.
+
+2026-11-03T13:24:32.761303+00:00 OPS-S15-W4-S4-MENU-SOURCE-FULL: The full menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+2026-11-03T13:29:45.470172+00:00 S15-W4-S4B-MENU-20261103: Menu browsing style recurs across session halves; the supported chosen-option comparison has an interval spanning zero and does not identify an attention or device effect.
+
+2026-11-03T13:33:11.302043+00:00 OPS-S15-W4-BUILD-20261103: The commissioned menu-comparison pipeline is complete and recorded; both existing Gear 2 studies continue with verified progress, while the ready buffer and remaining campaign builds are unfinished.
+
+2026-11-03T18:07:47.843818+00:00 OPS-S15-W4-HEALTH-20261103-1005: Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+OPS-S15-W4-HEALTH-20261103-1005: 64.7259 idle slot-hours since handoff; 2/4 occupied and 0/8 ready. Causes remain unfinished scientific consumers and ready-buffer construction, with explicit cost/instrument/support holds. Active workers advance; no environmental recovery or unclaimed ready successor found.
+
+2026-11-04T00:11:40.578809+00:00 OPS-S15-W4-HEALTH-20261103-1610: Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+OPS-S15-W4-HEALTH-20261103-1610: 76.8702 idle slot-hours since handoff; 2/4 occupied and 0/8 ready. Causes remain unfinished scientific consumers and ready-buffer construction, with explicit cost/instrument/support holds. Active workers advance; no environmental recovery or unclaimed ready successor found.
+
+2026-11-04T01:58:20.887073+00:00 S15-W4-WD1-INVALID-20261103: The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim.
+
+S15-W4-WD1-INVALID-20261103: instrument/control failure. Within-prompt allocation changes decision-count support in 60/1000 complete references; independent metadata replay verifies every roster. No unchanged rerun or reference filtering. Separate frozen correction and calibration remain unbuilt. 80.3831 idle slot-hours; 1/4 occupied, 0/8 ready, caused by unbuilt consumers/calibration/admission and existing holds.
+
+2026-11-04T03:20:13.432641+00:00 S15-W4-PP1-FULL-20261103: The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed.
+
+2026-11-04T03:26:38.163956+00:00 OPS-S15-W4-PP1-IC-ADMISSION: The exact cached-input pause calibration passes validation and measured cost admission; the original cost hold and human result remain unchanged.
+
+2026-11-04T03:28:44.040407+00:00 OPS-S15-W4-PP1-IC-LAUNCH: The full constructed pause calibration is running in Gear 2 with verified native progress and monitoring; the ready buffer and independent primary builds remain unfinished.
+
+2026-11-04T03:50:21.124716+00:00 S15-W4-PP1-IC-20261103: In constructed worlds, the original pause instrument detects the planted boundary gradient and leaves the known nulls undetected; human sensitivity and the stopped CoAuthor route remain unchanged.
+
+
+2026-11-04T03:58:16.163459+00:00 W4-S2 source validation: retained initial environmental temporary-directory access refusal (four tests passed, two setup errors); repeated in a fresh repository scratch directory. That run found one engineering defect: reentry tried to replace its original timing receipt. Before any native/corpus attempt, preserve and validate the original timing receipt while still reconstructing all source outputs; no estimator or source rule changed. Both failed validation receipts remain private.
+
+2026-11-04T04:00:12.803354+00:00 OPS-S15-W4-S2-SOURCE-CONSTRUCTED-20261103: The constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+2026-11-04T04:04:34.389610+00:00 OPS-S15-W4-DIGEST-20261103: The November 3 daily digest reconciles completed records and corrections; Gear 2 is running the validated revision-source cost probe, while the ready buffer and scientific consumers remain unfinished.
+
+OPS-S15-W4-DIGEST-20261103: 87.4759 cumulative idle slot-hours; unfinished consumers/validation and retained holds. Ready0/8. Commissioned S2 source cost probe active; this does not close the readiness defect.
+
+2026-11-04T04:06:14.394450+00:00 OPS-S15-W4-S2-SOURCE-TIMING-20261103: The revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+2026-11-04T04:10:14.172808+00:00 OPS-S15-W4-S2-SOURCE-H1-CONSTRUCTED-20261103: The exact materialization successor for the constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+2026-11-04T04:16:52.555461+00:00 OPS-S15-W4-S2-SOURCE-H1-TIMING-20261103: The exact materialization successor for the revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+2026-11-04T04:22:34.743273+00:00 OPS-S15-W4-S2-SOURCE-SAMPLE-NATIVE-20261103: The whole-writer revision-source adapter passes constructed selection and exact native replay; source sample execution and analytical admission remain separate.
+
+2026-11-04T04:25:43.898708+00:00 OPS-S15-W4-S2-SOURCE-SAMPLE-LAUNCH-20261103: The validated whole-writer revision-source sample is progressing in monitored Gear 2 within its original allowance; full-source cost holds and the unfinished ready buffer remain.
+
+OPS-S15-W4-S2-SOURCE-SAMPLE-LAUNCH-20261103: 88.8496 cumulative idle slot-hours; unfinished consumers/validation and retained holds. Source sample active, ready0/8. No admission buffer completion is claimed.
+
+2026-11-04T04:27:51.288554+00:00 Delayed notice 50201c6767513c63e53faba2: original S2-source native completion matches its already acknowledged event and full write-through (OPS-S15-W4-S2-SOURCE-CONSTRUCTED-20261103). All output/source hashes and worker exits reverified; no duplicate result or rerun. Whole-writer source sample continues in its original Gear 2 slot with advancing CPU, fresh output and registered terminals. Watcher identity/loaded sources, lease and 21 locks verify. Ready0/8 remains unfinished. No recovery, new hypothesis, paid call, delegation, GPU restart or publication. Private inspection: .agent-state/drive-20261102/DELAYED_NOTICE_50201c6767513c63e53faba2_PRIVATE.json.
+
+2026-11-04T04:29:17.389191+00:00 Delayed digest notice 4aec079cdd545b9e06082a59: scheduled marker hash, original ACK, full write-through and exact completed-claim wording reverified (OPS-S15-W4-DIGEST-20261103). Historical digest retained; no duplicate digest or new scientific conclusion. The current whole-writer source sample continues in one monitored Gear 2 CPU slot with advancing CPU and fresh outputs within bounds; native worker, lease, watcher and calendar identities verify. Ready0/8 remains. No recovery, tests harvested, paid call, delegation, GPU restart or publication. Private receipt: .agent-state/drive-20261102/DELAYED_NOTICE_4aec079cdd545b9e06082a59_PRIVATE.json.
+
+2026-11-04T04:30:32.807179+00:00 Delayed native notice cb76ee723178ab3c70597cac: exact h1 source validation matches its prior ACK and full write-through (OPS-S15-W4-S2-SOURCE-H1-CONSTRUCTED-20261103). Output/source hashes, original output parity and native exits reverified. No duplicate result or rerun. Whole-writer source sample continues in its original Gear 2 slot with advancing CPU, fresh output, valid limits and registered terminals; watcher identity and loaded sources verify. Ready0/8 remains unfinished. No recovery, new hypothesis, paid call, delegation, GPU restart or publication. Private inspection: .agent-state/drive-20261102/DELAYED_NOTICE_cb76ee723178ab3c70597cac_PRIVATE.json.
+
+2026-11-04T04:31:55.085268+00:00 Delayed cost notice 2ae8c277d929baa5d088ce54: exact h1 timing completion matches prior ACK and full write-through (OPS-S15-W4-S2-SOURCE-H1-TIMING-20261103). All output/source hashes, full prefix parity, cost arithmetic and native exits reverified; the full-source hold remains. No duplicate result or rerun. The whole-writer source sample continues in its original Gear 2 slot with advancing CPU, fresh output and valid limits; exact watcher identity, loaded sources and terminal registrations verify. Ready0/8 remains unfinished. No recovery, new hypothesis, paid call, delegation, GPU restart or publication. Private inspection: .agent-state/drive-20261102/DELAYED_NOTICE_2ae8c277d929baa5d088ce54_PRIVATE.json.
+
+2026-11-04T04:33:12.842929+00:00 Delayed sample-validation notice 4c11b8110d23f1a7fddedb56: native completion matches prior ACK and full write-through (OPS-S15-W4-S2-SOURCE-SAMPLE-NATIVE-20261103). Output/source hashes, unchanged extraction functions, exact fixture parity, native exits and released validation lease reverified. No duplicate result or rerun. The whole-writer source sample continues in its original Gear 2 slot with advancing CPU, fresh outputs, valid limits and registered terminals; watcher identity and loaded sources verify. Ready0/8 remains unfinished. No recovery, new hypothesis, paid call, delegation, GPU restart or publication. Private inspection: .agent-state/drive-20261102/DELAYED_NOTICE_4c11b8110d23f1a7fddedb56_PRIVATE.json.
+
+2026-11-04 S2-source-sample: engineering failure in runtime v7 output-byte scan. A PID-shaped atomic PROGRESS temporary disappeared between enumeration and stat; v7 accepts only UUID-shaped temporaries. Execution exited zero and all retained session hashes match; verification incomplete, no scientific admission. All five native identities exited and lease released. Preserve the attempt and full failure charge before a versioned runtime repair.
+
+2026-11-04 runtime v8 stress fixture: native child exited after Windows PermissionError in the original PID telemetry writer. Raw supervisor class engineering retained; reviewed underlying class environmental sharing refusal. Preserve 0.890625 CPU seconds and original fixture. Bounded writer-only retry is isolated in a separately tested fixture; corpus source and source cost hold remain unchanged.
+
+2026-11-04T04:48:19.874148+00:00 OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103: The revision-source sample finished extraction but failed during independent replay; its preserved output remains unverified and recovery is cost-held.
+
+2026-11-04T04:50:52.879352+00:00 OPS-S15-W4-RUNTIME-V8-20261103: The versioned byte-accounting repair passes native stress and refusal checks; source replay remains cost-held and Gear 2 research work is currently drained.
+
+OPS-S15-W4-RUNTIME-V8-20261103: 90.3370 cumulative idle slot-hours; no research worker remains, ready0/8. Runtime repair validated, source replay cost-held; unfinished consumers and admission work remain the readiness defect.
+
+2026-11-04T06:19:34.390355+00:00 OPS-S15-W4-HEALTH-20261103-2215: Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.
+
+OPS-S15-W4-HEALTH-20261103-2215: 96.0851 cumulative idle slot-hours; 0/4 occupied, 0/8 ready. Unfinished consumers and admission remain the readiness defect. Retained R2 refusal is superseded by its completed successor; no restart or cleanup warranted. All earlier failures and costs retained.
+
+2026-11-04T12:35:05.733516+00:00 OPS-S15-W4-T4-SAMPLE-COST-NATIVE-20261104: The T4 whole-writer sample adapter passes constructed selection, original fit certificates and fresh native replay; empirical costing and human admission remain separate.
+
+2026-11-04T12:37:03.999321+00:00 OPS-S15-W4-T4-SAMPLE-COST-COST-20261104: The T4 whole-writer sample cost probe independently replays all generated fits; complete calibration, workload admission and human scoring remain held.
+
+2026-11-04T12:39:16.482185+00:00 OPS-S15-W4-HEALTH-20261104-0438: Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.
+
+OPS-S15-W4-HEALTH-20261104-0438: 121.5868 cumulative idle slot-hours; 0/4 occupied, 0/8 ready. Unfinished consumers and admission remain the readiness defect. Retained R2 refusal is superseded by its completed successor; no restart or cleanup warranted. Two authorized T4 sample cost attempts completed and were fully recorded this pass; remaining calibration and consumer construction are unfinished. All earlier failures and costs retained.

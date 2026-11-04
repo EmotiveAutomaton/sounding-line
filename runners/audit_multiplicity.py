@@ -73,6 +73,35 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    ('PP1 argumentative duration-profile reference', 0.000999000999000999, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_FULL_20261103.json'),
+    ('PP1 creative duration-profile reference', 0.000999000999000999, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_FULL_20261103.json'),
+    ('Week4 S1 3-word skeleton-template sample primary texture', 0.582089552238806, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RESULT_20261102.json'),
+    ('Week4 S1 3-word skeleton-template sample creative texture', 0.7014925373134329, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RESULT_20261102.json'),
+    ('Week4 S1 300-word dictionary sample primary texture', 0.12935323383084577, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_300_RESULT_20261102.json'),
+    ('Week4 S1 300-word dictionary sample creative texture', 0.06965174129353234, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_300_RESULT_20261102.json'),
+    ('Week4 S1 100-word dictionary sample primary texture', 0.7810945273631841, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_100_RESULT_20261102.json'),
+    ('Week4 S1 100-word dictionary sample creative texture', 0.9353233830845771, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_100_RESULT_20261102.json'),
+    ('Week4 S1 12-word sample primary texture', 0.8606965174129353, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_12_RESULT_20261102.json'),
+    ('Week4 S1 5-word sample primary texture', 0.06965174129353234, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_5_RESULT_20261102.json'),
+    ('Week4 S1 own-template flow contrast', 0.6019900497512438, 'primary', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_FULL_20261102.json'),
+    ('Week4 S1 creative contrast', 0.6517412935323383, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_FULL_20261102.json'),
+    # Complete fixed-grid Week 4 descriptive sensitivity; parent already recorded.
+    ('D33.s screen_only donor Wald diagnostic', 6.483646675301608e-08, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s screen_only own Wald diagnostic', 1.0791979726555929e-08, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s screen_only own_minus_donor Wald diagnostic', 0.0008888239134319922, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s screen_only outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s screen_only own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s cache_only donor Wald diagnostic', 3.89881304625929e-08, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s cache_only own Wald diagnostic', 5.401271660941624e-10, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s cache_only own_minus_donor Wald diagnostic', 0.0006852294600012651, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s cache_only outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s cache_only own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s neither donor Wald diagnostic', 3.255714966203818e-08, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s neither own Wald diagnostic', 9.711080945753659e-09, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s neither own_minus_donor Wald diagnostic', 0.0006757312639287814, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s neither outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+    ('D33.s neither own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.json'),
+
     # Raw boundary fallback only: zero SE makes this invalid for inference.
     ('S15-V4C-MC199 primary INVALID zero-variance Wald diagnostic', 0.0, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/V4C_MC199_COMPLETE_20261101.json'),
     ('D37 constructed calibration world 00', 0.39303482587064675, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/D37_CALIBRATION_20261029.json'),

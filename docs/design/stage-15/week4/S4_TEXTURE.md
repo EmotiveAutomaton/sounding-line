@@ -1,0 +1,7 @@
+# S4 descriptive texture grid
+
+**Case and check.** The parent has no primary estimate because only ten writers meet its twenty-writer support floor. This frozen packet grid checks whether the descriptive result is sensitive to the movement threshold or observation window. Retain the original support floor, matched-distance contrast, reference and bootstrap. Known threshold boundaries, complete follow-up and positive/null/reversed statistical fixtures must pass before corpus execution.
+
+**Smaller route.** Three separate cells, each at most one CPU-hour including its native validation and preparation: 20 characters/30 seconds, 80/30, and 40/60. Complete raw-source and statistical verification are included. Forecast from the completed full-source cost with a 1.5 margin and separate statistical reserve. If a cell exceeds its ceiling, stop and preserve it; no unregistered cross-grid extension or automatic doubling.
+
+Every cell replays all 1,399 primary sessions. It cannot reuse a thirty-second outcome for the sixty-second question. Each remains descriptive with no claim upgrade and no descendants. Unsupported cells compute no human effect. The original parent remains unsupported regardless of any variant. The parent has no confidence interval, so the five-consecutive-small-differences stopping comparison is undefined; do not invent a zero interval or a convergence count. Only these three packet variants are admitted here. They rank below every ready primary card.

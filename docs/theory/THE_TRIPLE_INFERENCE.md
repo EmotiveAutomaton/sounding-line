@@ -1401,10 +1401,10 @@ The table separates the proposed claim from its evidence and scope.
 | # | Hypothesis | Status and evidence |
 |---|---|---|
 | **G206** | A writer's overall acceptance lean is stable across sittings | **SUPPORTED descriptively (test, S15-DRIVE-W2-1018; S15-DRIVE-D12-RANK-1018).** Human process records, exact program: acceptance intraclass correlation is 0.093 and canonical split-half reliability is 0.78 [0.59, 0.90]. V5.d's fake-person control is invalid, so its separate lean component grants no person-specific inference. |
-| **G207** | Acceptance lean can be separated into sensitivity, beliefs and payoff criterion | **OPEN.** SDT1 is authorized only as a population-relative diagnostic; independent quality labels are absent. A population acceptance rate is not competence or correctness. |
+| **G207** | Acceptance lean can be separated into sensitivity, beliefs and payoff criterion | **OPEN; the population-relative instrument is invalid.** On human CoAuthor process records, the exact program completes fresh replay but its full reference bank changes the supported writer population, so no reliability or learning estimate is licensed (test, S15-W4-WD1-INVALID-20261103). Independent quality and payoff labels remain absent; population acceptance is not competence or correctness. |
 | **G208** | Temperament is habit, while a threshold is a predisposition | **OPEN, logic only.** Curator naming proposal; no measurement separates these constructs. |
 
-**What the table says.** Acceptance rates carry a stable descriptive lean, but that lean does not yet identify competence, beliefs or a valued end. Goal hierarchies retain the distinction between a reference state and the means serving it; their human ordering still requires discriminating observations. Confidence: one bad test away for the acceptance measurements; untested, logic only for the proposed decomposition.
+**What the table says.** Acceptance rates carry a stable descriptive lean, but that lean does not yet identify competence, beliefs or a valued end. The sensitivity comparison cannot add evidence while its shuffled reference changes the supported population (G207). Goal hierarchies retain the distinction between a reference state and the means serving it; their human ordering still requires discriminating observations. Confidence: one bad test away for the acceptance measurements; instrument-dead for the present sensitivity comparison; untested, logic only for the proposed decomposition.
 
 ## §5. Where value information could live: four competing accounts
 

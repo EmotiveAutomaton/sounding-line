@@ -1,5 +1,3523 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W4-HEALTH-20261104-0438
+
+**Hypothesis.** Is the drained queue explained by a failed service, stale ownership, a missed admitted job or unfinished construction?
+
+**METHOD.** Inspect native executable, PID and creation identities, actual Python command lines, counted leases, resource floors, GPU inventory and the shared reservation. Reconcile every Week 4 native process watch, all terminal receipts and every frozen local plan, including unstarted plans. Compare retained failure evidence to the preceding six-hour inspection, verify the source and runtime records, and authenticate the watcher singleton/source adoption/delivery and finite calendar plan, pins and heartbeat. Check complete write-through, claim anchors and locked files without reading unfinished scientific scores.
+
+**Found.** Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.
+
+The table reports operational readiness and evidence checks, not scientific estimates.
+
+| Check | Observed state |
+|---|---:|
+| Active research workers / occupied CPU leases | 0 / 0 |
+| Validated ready successors / required | 0 / 8 |
+| Frozen local Week 4 plans inspected | 131 |
+| Terminal attempts inspected | 130 |
+| Native process watches reconciled | 132 |
+| New failures or stale leases | 0 |
+| Scientific hash locks passing | 21 |
+| Existing claim anchors / complete Week 4 records verified | 442 / 152 |
+| Available RAM / commit headroom / disk, GiB | 54.71 / 44.59 / 304.68 |
+| Cumulative idle slot-hours since handoff | 121.5868 |
+
+**Ownership and freshness.** No research worker is live. The independent native Python inventory agrees with owner receipts; there are no unexplained workers or unreadable Python command lines. Terminal identities have exited and counted slots are empty. Every preceding terminal identity is unchanged. Two new completed attempts, the T4 sample adapter and its generated-choice cost probe, have been independently verified, fully written through and acknowledged before this health landing. The failed source's immutable files and completed extraction remain intact; old timestamps are expected because its verifier exited. They are not evidence of an active stalled worker. The earlier source, texture and native stress failures remain preserved and accounted for, including the deliberately triggered byte-cap refusal. No new failure requires a recovery attempt. Resources exceed the admitted floors and no shared reservation is active. GPU parking remains intentional.
+
+**Runnable work and recovery.** The sole unstarted plan is the unchanged R2-full pre-admission bookkeeping refusal: its completed-pilot flag was absent. The separately named R2-full-admitted successor already completed and was fully recorded. Its completion identity, every output hash and every source pin reverify; the old plan is neither lost work nor a runnable successor. This retained unstarted plan was rechecked against the original refusal and completed-successor records before classifying it as historical. No old attempt was relaunched or cleaned up. The commissioned T4 whole-writer route was built in new versioned source and attempt namespaces, passed six targeted checks and fresh native validation, and completed its generated-choice sample cost probe with full independent refitting. Both new attempts are already fully recorded; no human choice was fitted or scored.
+
+The repaired v8 byte-accounting runtime remains validated and unchanged. S2's complete source replay remains cost-held: its observed verification forecast is 717.442630 CPU seconds against 696.890625 remaining source seconds. Partial verification earns no credit, and the analytical reserve, original source definitions and frozen population remain. The original corpus telemetry writer is still pinned; its possible Windows sharing refusal is not claimed repaired by the constructed writer fixture. No recovery is dispatched without an affordable, fully validated continuation.
+
+The completed T4 sample route selects twenty-five of thirty-five supported writers with the frozen seed and genre quotas, retaining every selected writer's source menus and temporal halves. Its core-fitting forecast is 4,265 CPU seconds; the remaining cumulative allowance is 5,273.984375 CPU seconds after the conservative validation charge and both native attempts. The gap of 1,008.984375 seconds is not a complete allowance for unbuilt scientific calibration, parameter uncertainty and descriptive joins unless their full measured costs fit. The full-population hold remains. Next are prospective sample calibration, controls, full-workload admission and the human consumer, alongside independent commissioned builds. Neither old nor new core-only costing is main-run admission. Details: OPS-S15-W4-T4-SAMPLE-COST-NATIVE-20261104 and OPS-S15-W4-T4-SAMPLE-COST-COST-20261104. S2's analytical consumer is also unfinished. The separate S4(b) comparison, PP1 and its calibration are complete; the original stopped timing routes stay stopped. WD1's control correction is still unbuilt. D33.s is complete; PP3.p1 is held at its project floor; D7's consumer, CA1's sample prerequisite and WB1's bounded cost probe remain unfinished. D19 stays held. Closed S1 texture and unsupported S4(a), S5 and T3 routes are not reopened. PROC remains instrument-held; its approved prompt correction and the other paid nodes remain unbuilt or unadmitted. The campaign has booked one cent and this inspection makes no paid call.
+
+Zero ready successors is a continuing implementation/readiness defect while commissioned work remains. The idle total uses counted-slot wall occupancy, not CPU utilization. The cause is unfinished consumers, validation and admission work plus the documented holds, rather than insufficient hardware or lost queue ownership. Gear 2 authorization is retained, but the campaign is not represented as fully built or running research.
+
+**Delivery and records.** The watcher has the correct owner, native identity, loaded source hashes and singleton; scans are fresh with no current error or cancellation. The two newly completed terminal events were acknowledged only after their verified full write-through. This health event reached its owner on the first delivery attempt; historical notification failures remain visible. All terminal paths remain registered. The calendar's native identity, immutable plan and source pins match, its heartbeat is fresh, and diagnostic logs are empty. All existing complete write-throughs and claim anchors verify; no scientific probability or multiplicity entry changes. No deletion is present. This full internal landing precedes ACK, which rearms the independent six-hour health deadline. No extra ETA wake, new gear, GPU restart, new hypothesis, delegation or publication occurs. The new cost adapter implements the already ratified whole-writer sample route. No tests were harvested from this operational wake. Final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.; project meaning: scoped operational record; next engineering obligation: Build the remaining commissioned consumers and validation/admission prerequisites; preserve existing cost, scientific and GPU holds. Do not rerun the completed R2 successor.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261104_0438.md.
+
+### OPS-S15-W4-T4-SAMPLE-COST-COST-20261104
+
+**Hypothesis.** Can the commissioned whole-writer sample route be prepared and costed without changing the original offer-choice model or allowing human choices to influence generated-choice fits?
+
+**METHOD.** Select whole supported writers with seed 20261102 and proportional largest-remainder quotas by majority genre across distinct source sessions, with fixed lexical tie rules. Preserve every selected writer's source menus, exclusions and temporal halves. Reassemble training-only scaling through the original input packer, independently check each transformed cell, and authenticate original source producers and both complete constructed validation banks. Replace actual labels before generating targets under the original laws and seeds. Fit the retained T4.h1 kernel with the original starts, bounds, objective and gradient certificates, then independently reconstruct selection, packing, labels and every fitted case in a fresh native process.
+
+**Found.** The T4 whole-writer sample cost probe independently replays all generated fits; complete calibration, workload admission and human scoring remain held.
+
+The table reports completed validation scope and cost, not a human scientific effect.
+
+| Check | Complete scope |
+|---|---:|
+| Targeted checks passing | 6 |
+| Generated-choice cases fully replayed | 6 |
+| Sample / supported population writers | 25 / 35 |
+| Retained source menus | 11914 |
+| Training / later menus | 5211 / 6338 |
+| Output / source bindings verified | 17 / 60 |
+| Actual invocation CPU seconds | 35.875000 |
+| Previously charged CPU seconds | 1890.140625 |
+| Remaining cumulative CPU seconds | 5273.984375 |
+
+Selection and generated targets are invariant to source ordering and actual choices. Constructed checks also verify whole-unit retention, session-weighted genre strata, the unchanged support floor, heldout feature isolation, changed-output refusal, and failed or altered producer refusal. Every original fitted certificate verifies. All native identities have exited; terminal and source hashes match. No actual human choice was fitted or scored, and no scientific probability was computed. The tiny constructed scope does not establish empirical admission.
+
+**Validation history and accounting.** The first local test invocation passed three checks but three temporary-directory fixtures received an operating-system access refusal before their bodies ran. Its receipt and CPU charge remain retained. All six unchanged tests passed with a new workspace-local temporary directory and cache disabled. The entire eighty-second validation/preparation reserve is conservatively charged, including both invocations; no attempt or cost is erased. Native verification uses the separately validated v8 runtime, one numerical thread and bounded UUID telemetry writes. Historical source capsules and writers remain unchanged.
+
+**Means.** This is infrastructure under the ratified sample amendment, neither a new hypothesis nor a healing of a scientific result. Full-population and human-admission holds remain. The complete scientific calibration, controls, parameter uncertainty, descriptive joins and total workload must still be built and admitted within the unchanged ceiling. Selection identities and generated fitted profiles remain private. GPU parking, paid limits and final-packet reporting remain.
+
+**Core cost forecast.** The unchanged 201-pair schedule, doubled for independent replay, with a factor-three margin and fixed overhead forecasts 4265.000000 CPU seconds. This excludes the unbuilt calibration, parameter uncertainty and descriptive joins. It is below the remaining cumulative allowance of 5273.984375, but cannot by itself admit the scientific comparison. The frozen sample is not redrawn to seek a cheaper outcome.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 whole-writer sample cost probe independently replays all generated fits; complete calibration, workload admission and human scoring remain held.; project meaning: scoped operational record; next engineering obligation: Complete prospective sample calibration, controls, uncertainty and whole-workload admission; preserve the original full-population hold and all charges.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_SAMPLE_COST_COST_20261104.md.
+
+### OPS-S15-W4-T4-SAMPLE-COST-NATIVE-20261104
+
+**Hypothesis.** Can the commissioned whole-writer sample route be prepared and costed without changing the original offer-choice model or allowing human choices to influence generated-choice fits?
+
+**METHOD.** Select whole supported writers with seed 20261102 and proportional largest-remainder quotas by majority genre across distinct source sessions, with fixed lexical tie rules. Preserve every selected writer's source menus, exclusions and temporal halves. Reassemble training-only scaling through the original input packer, independently check each transformed cell, and authenticate original source producers and both complete constructed validation banks. Replace actual labels before generating targets under the original laws and seeds. Fit the retained T4.h1 kernel with the original starts, bounds, objective and gradient certificates, then independently reconstruct selection, packing, labels and every fitted case in a fresh native process.
+
+**Found.** The T4 whole-writer sample adapter passes constructed selection, original fit certificates and fresh native replay; empirical costing and human admission remain separate.
+
+The table reports completed validation scope and cost, not a human scientific effect.
+
+| Check | Complete scope |
+|---|---:|
+| Targeted checks passing | 6 |
+| Generated-choice cases fully replayed | 2 |
+| Sample / supported population writers | 3 / 6 |
+| Retained source menus | 24 |
+| Training / later menus | 12 / 12 |
+| Output / source bindings verified | 17 / 58 |
+| Actual invocation CPU seconds | 4.265625 |
+| Previously charged CPU seconds | 1885.875000 |
+| Remaining cumulative CPU seconds | 5309.859375 |
+
+Selection and generated targets are invariant to source ordering and actual choices. Constructed checks also verify whole-unit retention, session-weighted genre strata, the unchanged support floor, heldout feature isolation, changed-output refusal, and failed or altered producer refusal. Every original fitted certificate verifies. All native identities have exited; terminal and source hashes match. No actual human choice was fitted or scored, and no scientific probability was computed. The tiny constructed scope does not establish empirical admission.
+
+**Validation history and accounting.** The first local test invocation passed three checks but three temporary-directory fixtures received an operating-system access refusal before their bodies ran. Its receipt and CPU charge remain retained. All six unchanged tests passed with a new workspace-local temporary directory and cache disabled. The entire eighty-second validation/preparation reserve is conservatively charged, including both invocations; no attempt or cost is erased. Native verification uses the separately validated v8 runtime, one numerical thread and bounded UUID telemetry writes. Historical source capsules and writers remain unchanged.
+
+**Means.** This is infrastructure under the ratified sample amendment, neither a new hypothesis nor a healing of a scientific result. Full-population and human-admission holds remain. The complete scientific calibration, controls, parameter uncertainty, descriptive joins and total workload must still be built and admitted within the unchanged ceiling. Selection identities and generated fitted profiles remain private. GPU parking, paid limits and final-packet reporting remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 whole-writer sample adapter passes constructed selection, original fit certificates and fresh native replay; empirical costing and human admission remain separate.; project meaning: scoped operational record; next engineering obligation: Complete prospective sample calibration, controls, uncertainty and whole-workload admission; preserve the original full-population hold and all charges.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_SAMPLE_COST_NATIVE_20261104.md.
+
+### OPS-S15-W4-HEALTH-20261103-2215
+
+**Hypothesis.** Is the drained queue explained by a failed service, stale ownership, a missed admitted job or unfinished construction?
+
+**METHOD.** Inspect native executable, PID and creation identities, actual Python command lines, counted leases, resource floors, GPU inventory and the shared reservation. Reconcile every Week 4 native process watch, all terminal receipts and every frozen local plan, including unstarted plans. Compare retained failure evidence to the last recovery inspection, verify the source and runtime records, and authenticate the watcher singleton/source adoption/delivery and finite calendar plan, pins and heartbeat. Check complete write-through, claim anchors and locked files without reading unfinished scientific scores.
+
+**Found.** Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.
+
+The table reports operational readiness and evidence checks, not scientific estimates.
+
+| Check | Observed state |
+|---|---:|
+| Active research workers / occupied CPU leases | 0 / 0 |
+| Validated ready successors / required | 0 / 8 |
+| Frozen local Week 4 plans inspected | 129 |
+| Terminal attempts inspected | 128 |
+| Native process watches reconciled | 130 |
+| New failures or stale leases | 0 |
+| Scientific hash locks passing | 21 |
+| Existing claim anchors / complete Week 4 records verified | 439 / 149 |
+| Available RAM / commit headroom / disk, GiB | 55.82 / 45.35 / 304.68 |
+| Cumulative idle slot-hours since handoff | 96.0851 |
+
+**Ownership and freshness.** No research worker is live. The independent native Python inventory agrees with owner receipts; there are no unexplained workers or unreadable Python command lines. Terminal identities have exited and counted slots are empty. The terminal inventory matches the previous recovery inspection exactly. The failed source's immutable files and completed extraction remain intact; old timestamps are expected because its verifier exited. They are not evidence of an active stalled worker. The earlier source, texture and native stress failures remain preserved and accounted for, including the deliberately triggered byte-cap refusal. No new failure requires a recovery attempt. Resources exceed the admitted floors and no shared reservation is active. GPU parking remains intentional.
+
+**Runnable work and recovery.** The sole unstarted plan is the unchanged R2-full pre-admission bookkeeping refusal: its completed-pilot flag was absent. The separately named R2-full-admitted successor already completed and was fully recorded. Its completion identity, every output hash and every source pin reverify; the old plan is neither lost work nor a runnable successor. The initial inventory assertion deliberately stopped at this unstarted plan; its disposition was then checked against the prior records before continuing. Nothing was relaunched or cleaned up.
+
+The repaired v8 byte-accounting runtime remains validated and unchanged. S2's complete source replay remains cost-held: its observed verification forecast is 717.442630 CPU seconds against 696.890625 remaining source seconds. Partial verification earns no credit, and the analytical reserve, original source definitions and frozen population remain. The original corpus telemetry writer is still pinned; its possible Windows sharing refusal is not claimed repaired by the constructed writer fixture. No recovery is dispatched without an affordable, fully validated continuation.
+
+The next construction obligations remain the T4 scientific calibration, full-workload cost admission and human consumer, alongside independent commissioned builds. T4's earlier cost forecast is not main-run admission. S2's analytical consumer is also unfinished. The separate S4(b) comparison, PP1 and its calibration are complete; the original stopped timing routes stay stopped. WD1's control correction is still unbuilt. D33.s is complete; PP3.p1 is held at its project floor; D7's consumer, CA1's sample prerequisite and WB1's bounded cost probe remain unfinished. D19 stays held. Closed S1 texture and unsupported S4(a), S5 and T3 routes are not reopened. PROC remains instrument-held; its approved prompt correction and the other paid nodes remain unbuilt or unadmitted. The campaign has booked one cent and this inspection makes no paid call.
+
+Zero ready successors is a continuing implementation/readiness defect while commissioned work remains. The idle total uses counted-slot wall occupancy, not CPU utilization. The cause is unfinished consumers, validation and admission work plus the documented holds, rather than insufficient hardware or lost queue ownership. Gear 2 authorization is retained, but the campaign is not represented as fully built or running research.
+
+**Delivery and records.** The watcher has the correct owner, native identity, loaded source hashes and singleton; scans are fresh with no current error or cancellation. This health event reached its owner on the first delivery attempt; historical notification failures remain visible. All terminal paths remain registered. The calendar's native identity, immutable plan and source pins match, its heartbeat is fresh, and diagnostic logs are empty. All existing complete write-throughs and claim anchors verify; no scientific probability or multiplicity entry changes. No deletion is present. This full internal landing precedes ACK, which rearms the independent six-hour health deadline. No extra ETA wake, new gear, GPU restart, research design, delegation or publication occurs. No tests were harvested from this operational wake. Final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.; project meaning: scoped operational record; next engineering obligation: Build the remaining commissioned consumers and validation/admission prerequisites; preserve existing cost, scientific and GPU holds. Do not rerun the completed R2 successor.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261103_2215.md.
+
+### OPS-S15-W4-RUNTIME-V8-20261103
+
+**Hypothesis.** Can monitoring tolerate the actual temporary-file replacement race while still counting retained bytes and refusing missing data, I/O failures and oversized outputs?
+
+**METHOD.** Preserve v7 and all pinned attempts. Build v8 with only the decimal process-named progress temporary added to the existing UUID temporary exception, plus versioned module identities. Test the real writers, deterministic disappearance between enumeration and stat, near-match refusal, permanent I/O errors and exact byte totals. Run a bounded native concurrent stress fixture and a separate native oversized-output refusal; inspect every source pin, output hash, descendant exit, job charge and lease. No human measurement or scientific scoring is performed.
+
+**Found.** The versioned byte-accounting repair passes native stress and refusal checks; source replay remains cost-held and Gear 2 research work is currently drained.
+
+The table lists engineering checks and measured accounting. The deliberate cap refusal is the required successful guard outcome, not a research failure.
+
+| Check | Outcome |
+|---|---|
+| Actual-writer and fail-closed accounting tests | 17 passed |
+| Bounded auxiliary writer retry tests | 3 passed |
+| First native stress attempt | Retained Windows sharing refusal in PID telemetry writer |
+| Revised native stress and fresh verification | Complete |
+| Successful values written by each of the two formats | 1000 |
+| Concurrent accounting scans | 6025 |
+| Bounded PID-writer sharing retries observed | 7 |
+| Deliberate native output cap | 1024 retained bytes refused against 8-byte cap |
+| Cumulative infrastructure validation charge, CPU seconds | 42.437500 of 120 |
+| Research workers active / ready successors | 0 / 0 of 8 |
+
+**Failures, corrections and limits.** The first stress attempt remains FAILED, with its supervisor's engineering classification and full 0.890625-second charge. Direct child stderr identifies an environmental Windows sharing refusal in the original PID writer. The separate fixture successor retries only that writer's PermissionError, at most fifty calls, preserving every value; permanent denial and other errors fail. Its successful run charged 2.968750 seconds. The expected byte-cap refusal charged 2.000000 seconds including the forced-stop margin. Prior infrastructure validation and both test/preparation reserves remain charged. No failed receipt, input or shared writer was rewritten.
+
+The production change is narrow: only vanished recognized atomic temporaries are tolerated. Present temporary files still count, and ordinary missing artifacts, permissions and other I/O errors remain fatal. Native containment, slot count, thread environment, resource floors, CPU/wall/byte ceilings and the Week 4 window are unchanged. The bounded writer retry is confined to the constructed fixture: it does not repair the pinned corpus progress writer. Any future source continuation needs an explicitly pinned writer successor, full replay and cost admission. The sample's independent replay remains held at the unchanged allowance; no partial verification credit or scientific admission is granted. The historical admission receipt's thread field is not used as proof of actual numerical-thread configuration.
+
+**Operational reconciliation.** All validation workers and available child identities exited, leases released, original source files still match, and every validation manifest/source capsule verifies. All 21 scientific locks pass. The watcher singleton, loaded source hashes, owner and calendar verify; terminal notices and native disappearance are registered. Its six-hour health deadline remains 2026-11-03T22:12:33.844002-08:00; ordinary result ACKs do not move it. Resources at inspection: 55.72 GiB available RAM, 45.41 GiB commit headroom and 304.68 GiB free disk. No queue or resource lock needs forced cleanup.
+
+**Readiness defect and next work.** Cumulative idle capacity is 90.3370 slot-hours at this snapshot, calculated from counted-slot occupancy since handoff. The ready buffer remains 0/8 because scientific consumers and admission work are unfinished and existing source/cost/instrument holds remain. Gear 2 is authorized but the research queue is drained; the campaign is not fully built. Continue the independent T4 consumer and other commissioned packet builds. Keep S2's completed extraction immutable until an affordable, fully verified recovery exists. Closed families stay closed. PROC's approved correction and the other six paid nodes remain unbuilt; booking remains one cent and no paid call occurred. GPU parking is intentional. No new hypothesis was harvested, probability added, agent delegated, theory judgment made or publication performed. Final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The versioned byte-accounting repair passes native stress and refusal checks; source replay remains cost-held and Gear 2 research work is currently drained.; project meaning: scoped operational record; next engineering obligation: Build independent commissioned consumers and admissible cards; retain the source replay hold and require complete validation for any later continuation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_RUNTIME_V8_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103
+
+**Hypothesis.** Can the frozen whole-writer source sample complete independent reconstruction within its original source allocation?
+
+**METHOD.** Inspect the supervisor exception and both native job-accounting receipts; verify every input/source pin, source capsule, selected-session membership, retained session hash and aggregate binding. Confirm the supervisor, both launchers and both native children exited and released the counted lease. Compare complete-replay forecasts using the unchanged factor of 1.5 and retain the original analytical reserve. No candidate effect or unfinished score is interpreted.
+
+**Found.** The revision-source sample finished extraction but failed during independent replay; its preserved output remains unverified and recovery is cost-held.
+
+The table gives engineering completion and CPU accounting. Session counts describe stored source files, not analytical support.
+
+| Item | Value |
+|---|---:|
+| Complete extraction and zero native exit | Yes |
+| Retained sampled session hashes verified | 1195 |
+| Source/input pins verified | 3148 |
+| Verification progress before interruption | 367 of 1195 sessions |
+| Failed attempt charge, CPU seconds | 615.859375 |
+| Total charged source work, CPU seconds | 1103.109375 |
+| Remaining source allocation, CPU seconds | 696.890625 |
+| Replay forecast from interrupted verification, CPU seconds | 717.442630 |
+| Replay forecast from original timing prefix, CPU seconds | 582.762556 |
+| Complete execution cost with same factor, CPU seconds | 700.453125 |
+| Retained analytical reserve, CPU seconds | 1800 |
+| Original total allowance, CPU seconds | 3600 |
+
+**Cause and retained evidence.** This is an engineering failure: v7's byte scan accepts vanished UUID-named JSON temporaries, while the actual progress writer uses a decimal process identifier. That temporary disappeared between enumeration and stat, stopping the supervisor during verification. Native containment stopped the verification process; its two-second termination margin stays charged. The complete extraction files, all original receipts, pinned source, complete population roster, sample seed and source rules remain unchanged. No completion receipt or scientific admission is fabricated. Partial verification earns no replay credit.
+
+**Recovery decision.** Repair the monitor in versioned runtime v8 and validate both actual atomic-writer formats, ordinary missing-file refusal, other I/O refusal, exact bytes and native cap enforcement. The original source sample is not restarted: the observed corpus verification pace exceeds its remaining allowance even before continuation validation. The faster prefix estimate cannot override the slower direct evidence. An affordable exact continuation would need separate validation and a full replay from the beginning; otherwise the hold remains. Neither a narrower scientific definition nor a reduced reserve is substituted.
+
+**Operational state at inspection.** All five native identities from the failed source attempt exited, its slot is released, all scientific locks pass, and watcher source/owner/singleton, calendar, terminal registration and delivery were verified. Ready successors are 0/8; Gear 2 is authorized but the research queue is drained and the campaign is not fully built. The GPU remains parked and the existing paid holds persist. Runtime validation is the next bounded recovery action; the independent T4 consumer and other commissioned builds remain. No new hypothesis was harvested, probability added, paid call made, agent delegated, theory interpretation made or publication performed. Final-packet policy remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The revision-source sample finished extraction but failed during independent replay; its preserved output remains unverified and recovery is cost-held.; project meaning: scoped operational record; next engineering obligation: Validate the versioned accounting repair; keep source replay held unless an exact complete continuation is affordable, and continue independent commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_SAMPLE_FAILURE_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-SAMPLE-LAUNCH-20261103
+
+**Hypothesis.** Can the declared smaller source route restore useful Gear 2 execution without changing reconstruction rules or exceeding the original allowance?
+
+**METHOD.** After both full-source cost holds and the native selector landing, authenticate all primary metadata, freeze complete writers by majority-genre strata with seed 20261102, and admit from measured execution-plus-replay cost including complete metadata walks. Inspect exact native identities, pins, CPU/thread bounds, advancing output, leases, resources, locks and watcher/calendar delivery. No unfinished scientific estimate is inspected.
+
+**Found.** The validated whole-writer revision-source sample is progressing in monitored Gear 2 within its original allowance; full-source cost holds and the unfinished ready buffer remain.
+
+The table describes the frozen sample and execution allowance. Counts are source population scope, not support for a scientific effect.
+
+| Item | Value |
+|---|---:|
+| Selected whole writers | 58 of 61 |
+| Selected sessions | 1195 of 1399 |
+| Writer share | 0.950820 |
+| Session share | 0.854182 |
+| Prior charged CPU seconds | 487.250000 |
+| Sample execution/replay forecast, CPU seconds | 1234.344308 |
+| Sample CPU ceiling | 1312.750000 |
+| Retained analytical reserve, CPU seconds | 1800 |
+| Original total ceiling, CPU seconds | 3600 |
+
+**Accounting and scope.** All selected writers retain every primary session, including minority-genre sessions. Selection uses metadata only; the complete original roster remains pinned and authenticated. The source rules and four extraction functions are identical to the validated exact implementation. Both earlier cost probes, all validation charges and failures remain recorded. The extra metadata walk is measured and forecast with the same 1.5 factor. No cap, floor, reference bank or estimator is weakened. The whole-source hold remains; eventual inference from these inputs is sample-scoped. This source candidate census does not yet establish first-production sentence eligibility, timing, future revision linkage or final analytical support.
+
+**Live operation.** One of four counted CPU slots is active, with one numerical thread and all 3148 source/input pins matching. Supervisor and execution-child identities verify; CPU and session progress advance. Outputs remain fresh and inside the 512 MiB cap. All 21 scientific locks pass; available RAM is 55.48 GiB, commit headroom 44.68 GiB and free disk 304.70 GiB. The watcher singleton, loaded source identities and calendar verify; all four terminal paths and exact process disappearance are registered. The original six-hour health deadline remains 2026-11-03T22:12:33.844002-08:00; result ACKs have not reset it. The ancient general queue log is closed; this work uses the current counted native runtime. No healthy worker was restarted.
+
+**Readiness defect and next work.** Ready successors remain 0/8. Cumulative idle capacity is 88.8496 slot-hours at this snapshot, measured by counted-slot occupancy since handoff, not CPU utilization. Unfinished consumers, validation/admission and retained source, cost and instrument holds cause the deficit. This source run does not make the campaign fully built. Continue S2's first-production/timing/future-link consumer and the independent T4 consumer, then other commissioned builds. Closed texture/support families stay closed. PROC remains instrument-held after calibration; its approved correction and the other six paid nodes remain unbuilt. Week 4 booking remains one cent. GPU parking is intentional. No new hypothesis was harvested, probability added, theory verdict issued, paid call made, agent delegated or publication performed. Records remain local under final-packet reporting.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The validated whole-writer revision-source sample is progressing in monitored Gear 2 within its original allowance; full-source cost holds and the unfinished ready buffer remain.; project meaning: scoped operational record; next engineering obligation: Land the complete sample source on its terminal event; build the first-production/timing consumer and independent T4 consumer while retaining all gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_SAMPLE_LAUNCH_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-SAMPLE-NATIVE-20261103
+
+**Hypothesis.** Can cost-scoped source reconstruction preserve complete writers, genre strata and the original event definitions?
+
+**METHOD.** Validate deterministic selection by majority genre, fixed seed and whole-writer quotas, refusal below the writer floor, manifest corruption, Unicode extraction parity and fresh-process reconstruction. The native constructed fixture checks both selection quotas and exact source replay. Compare unchanged extraction functions and every constructed session output to the original exact implementation. No human outcome or scientific contrast is computed.
+
+**Found.** The whole-writer revision-source adapter passes constructed selection and exact native replay; source sample execution and analytical admission remain separate.
+
+The table describes validation and accounting, not a scientific estimate.
+
+| Check | Result |
+|---|---|
+| Targeted selector/parity/replay tests | 3 passed |
+| Fresh native execution and verification | Complete |
+| Unchanged extraction functions | 4 exact source matches |
+| Output hashes verified | 18 |
+| Source/input pins verified | 3127 |
+| Native CPU seconds | 11.375000 |
+| Prior charged CPU seconds, including new validation reserve | 475.875000 |
+
+**Means and route.** Freeze the complete metadata-only sample roster and admit its source reconstruction from measured cumulative cost, retaining the full-source hold and the analytical reserve. Both earlier full-source cost holds remain: the exact implementation's forecast exceeded its source allocation, despite byte-for-byte parity. The separately declared smaller route draws no outcome-dependent exclusions and changes no source definition, control or scientific floor. Its analytical consumer is still unbuilt. The original ceiling is 3,600 CPU seconds, including at least 1,800 retained for that consumer. The additional eighty-second reserve covers metadata preparation and this adapter's validation/landing. All workers exited, the slot is released, and existing failures remain preserved. No new hypothesis was harvested; no paid call, GPU restart, delegation or publication occurred. Final-packet policy remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The whole-writer revision-source adapter passes constructed selection and exact native replay; source sample execution and analytical admission remain separate.; project meaning: scoped operational record; next engineering obligation: Freeze the complete metadata-only sample roster and admit its source reconstruction from measured cumulative cost, retaining the full-source hold and the analytical reserve.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_SAMPLE_NATIVE_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-H1-TIMING-20261103
+
+**Hypothesis.** Can the process record identify edits inside earlier writer-typed sentences without confusing them with continuation, prompt text or API insertions?
+
+**METHOD.** Replay raw UTF-16 deltas with insertion provenance; identify every user change's affected pre-edit sentence, completeness and sentence distance from the leading edge. Preserve the recorded cursor separately from the exact delta anchor. Authenticate the full R2 archive index, then require exact primary-session, final-text and typed-provenance agreement. Fresh native verification reconstructs every source record and aggregate. No timing classifier or scientific contrast runs.
+
+**Found.** The exact materialization successor for the revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+The table reports source counts only. A candidate is a complete, wholly typed pre-edit sentence changed behind the final nonempty sentence; multiple targets in one delta count as one event. It is an upper bound before first-production and timing eligibility, not the final support gate.
+
+| Source item | Count |
+|---|---:|
+| Sessions | 140 |
+| Writers | 36 |
+| Candidate non-local events | 1653 |
+| Writers with candidate events | 23 |
+| Final analytical event floor, not yet evaluated | 300 |
+| Final analytical writer floor, not yet evaluated | 25 |
+
+**Integrity and accounting.** All 157 output hashes and 2963 pins verify; both computation children, both launchers and the supervisor exited and released the counted slot. Actual execution plus replay cost 93.781250 CPU seconds, with 302.093750 already charged including the sixty-second validation/landing reserve. Nine targeted checks across the original and successor pass. The successor changes only exact UTF-16 materialization; all source definitions remain unchanged. Its first parity fixture mistakenly retained later offsets after changing an earlier deletion; that failed example is retained and corrected to the intended complete prefix, with an explicit two-target assertion. No production-code change was needed for that fixture. The initial environmental temporary-directory refusal and subsequent timing-reentry engineering failure are retained; the validated correction preserves the first timing receipt while reconstructing every output. The data rules, population and packet primary are unchanged. The 140-session timing prefix is never represented as a scientific sample. The measured full-source forecast including the frozen 1.5 factor is 1405.713951 CPU seconds.
+
+**Route and means.** Hold the full h1 source: its 1405.713951-second forecast exceeds the 1404.125000-second source allocation that retains the declared analytical reserve. Use the separately frozen whole-writer sample route declared in S2_SOURCE_H1, sized from this measured cost and charged within the unchanged ceiling and analytical reserve. Retain the full-population hold; no reconstruction rule or scientific definition changes. This source instrument is not S2's later-revision probability, a causal goal claim or a result for T2/S3. Preserve all mixed and excluded targets and the complete source population. The first-production sentence and timing consumer remain unfinished; the ready buffer is still below eight. No new hypothesis, paid call, delegation, GPU restart or publication occurs. Aggregate source records remain internal pending the final packet; private text and identities stay in ignored intermediates.
+
+**Exact implementation check.** Every original 140-session source file, index, input binding and summary matches byte-for-byte; only separately recorded timing differs. Original cost hold and all prior charges are retained.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact materialization successor for the revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.; project meaning: scoped operational record; next engineering obligation: Hold the full h1 source: its 1405.713951-second forecast exceeds the 1404.125000-second source allocation that retains the declared analytical reserve. Use the separately frozen whole-writer sample route declared in S2_SOURCE_H1, sized from this measured cost and charged within the unchanged ceiling and analytical reserve. Retain the full-population hold; no reconstruction rule or scientific definition changes.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_H1_TIMING_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-H1-CONSTRUCTED-20261103
+
+**Hypothesis.** Can the process record identify edits inside earlier writer-typed sentences without confusing them with continuation, prompt text or API insertions?
+
+**METHOD.** Replay raw UTF-16 deltas with insertion provenance; identify every user change's affected pre-edit sentence, completeness and sentence distance from the leading edge. Preserve the recorded cursor separately from the exact delta anchor. Use the fixed Unicode constructed record with two known non-local changes. Fresh native verification reconstructs every source record and aggregate. No timing classifier or scientific contrast runs.
+
+**Found.** The exact materialization successor for the constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+The table reports source counts only. A candidate is a complete, wholly typed pre-edit sentence changed behind the final nonempty sentence; multiple targets in one delta count as one event. It is an upper bound before first-production and timing eligibility, not the final support gate.
+
+| Source item | Count |
+|---|---:|
+| Sessions | 1 |
+| Writers | 1 |
+| Candidate non-local events | 2 |
+| Writers with candidate events | 1 |
+| Final analytical event floor, not yet evaluated | 300 |
+| Final analytical writer floor, not yet evaluated | 25 |
+
+**Integrity and accounting.** All 18 output hashes and 42 pins verify; both computation children, both launchers and the supervisor exited and released the counted slot. Actual execution plus replay cost 2.531250 CPU seconds, with 299.562500 already charged including the sixty-second validation/landing reserve. Nine targeted checks across the original and successor pass. The successor changes only exact UTF-16 materialization; all source definitions remain unchanged. Its first parity fixture mistakenly retained later offsets after changing an earlier deletion; that failed example is retained and corrected to the intended complete prefix, with an explicit two-target assertion. No production-code change was needed for that fixture. The initial environmental temporary-directory refusal and subsequent timing-reentry engineering failure are retained; the validated correction preserves the first timing receipt while reconstructing every output. The data rules, population and packet primary are unchanged. The 140-session timing prefix is never represented as a scientific sample. 
+
+**Route and means.** Run the bounded 140-session cost prefix, then admit the full source only from measured cost. This source instrument is not S2's later-revision probability, a causal goal claim or a result for T2/S3. Preserve all mixed and excluded targets and the complete source population. The first-production sentence and timing consumer remain unfinished; the ready buffer is still below eight. No new hypothesis, paid call, delegation, GPU restart or publication occurs. Aggregate source records remain internal pending the final packet; private text and identities stay in ignored intermediates.
+
+**Exact implementation check.** Every original constructed source file, index, input binding and summary matches byte-for-byte; only separately recorded timing differs. Original cost hold and all prior charges are retained.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact materialization successor for the constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.; project meaning: scoped operational record; next engineering obligation: Run the bounded 140-session cost prefix, then admit the full source only from measured cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_H1_CONSTRUCTED_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-TIMING-20261103
+
+**Hypothesis.** Can the process record identify edits inside earlier writer-typed sentences without confusing them with continuation, prompt text or API insertions?
+
+**METHOD.** Replay raw UTF-16 deltas with insertion provenance; identify every user change's affected pre-edit sentence, completeness and sentence distance from the leading edge. Preserve the recorded cursor separately from the exact delta anchor. Authenticate the full R2 archive index, then require exact primary-session, final-text and typed-provenance agreement. Fresh native verification reconstructs every source record and aggregate. No timing classifier or scientific contrast runs.
+
+**Found.** The revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+The table reports source counts only. A candidate is a complete, wholly typed pre-edit sentence changed behind the final nonempty sentence; multiple targets in one delta count as one event. It is an upper bound before first-production and timing eligibility, not the final support gate.
+
+| Source item | Count |
+|---|---:|
+| Sessions | 140 |
+| Writers | 36 |
+| Candidate non-local events | 1653 |
+| Writers with candidate events | 23 |
+| Final analytical event floor, not yet evaluated | 300 |
+| Final analytical writer floor, not yet evaluated | 25 |
+
+**Integrity and accounting.** All 157 output hashes and 2958 pins verify; both computation children, both launchers and the supervisor exited and released the counted slot. Actual execution plus replay cost 177.078125 CPU seconds, with 62.484375 already charged including the sixty-second validation/landing reserve. Six targeted checks pass. The initial environmental temporary-directory refusal and subsequent timing-reentry engineering failure are retained; the validated correction preserves the first timing receipt while reconstructing every output. The data rules, population and packet primary are unchanged. The 140-session timing prefix is never represented as a scientific sample. The measured full-source forecast including the frozen 1.5 factor is 2654.274609 CPU seconds.
+
+**Route and means.** Hold the original full source: its 2654.274609-second forecast exceeds the 1560.437500-second source allocation that retains the declared analytical reserve. Freeze a separately named cheaper exact implementation under amendment B, validate complete output parity, then obtain fresh native and cost admission. No source population or scientific definition changes. This source instrument is not S2's later-revision probability, a causal goal claim or a result for T2/S3. Preserve all mixed and excluded targets and the complete source population. The first-production sentence and timing consumer remain unfinished; the ready buffer is still below eight. No new hypothesis, paid call, delegation, GPU restart or publication occurs. Aggregate source records remain internal pending the final packet; private text and identities stay in ignored intermediates.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The revision-source timing prefix passes exact native replay; its candidate census does not yet license the sentence-level comparison.; project meaning: scoped operational record; next engineering obligation: Hold the original full source: its 2654.274609-second forecast exceeds the 1560.437500-second source allocation that retains the declared analytical reserve. Freeze a separately named cheaper exact implementation under amendment B, validate complete output parity, then obtain fresh native and cost admission. No source population or scientific definition changes.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_TIMING_20261103.md.
+
+### OPS-S15-W4-DIGEST-20261103
+
+**Hypothesis.** Are completed results, corrections and the remaining execution obligations fully reconciled for the daily Week 4 record?
+
+**METHOD.** Reconcile the complete claim ledger and every Week 4 public receipt, inspect native process identities, frozen source pins, limits, progress, leases, resources, locks and watcher/calendar delivery. Quote completed claims by stable identifier and exact wording. Running source preparation contributes operational progress only; no unfinished score is read or interpreted.
+
+## Corrections first
+
+These dispositions preserve the original evidence and distinguish instrument/control limitations from a scientific negative.
+
+- **control — S15-W4-WD1-INVALID-20261103:** The completed reference changes supported writers. The full attempt remains invalid, with no reliability, learning or competence estimate; replacement inference needs a separately frozen support-valid control and known-answer validation.
+- **scope — S15-W4-PP1-IC-20261103:** The completed known-answer calibration establishes conditional constructed sensitivity only. Human sensitivity remains unestablished; the original primary and stopped CoAuthor timing route are unchanged. The sole instrument follow-up is complete, with no descendants.
+- **instrument — OPS-S15-W4-S2-SOURCE-CONSTRUCTED-20261103:** Pre-admission checks found timing-receipt reentry failure; the correction retains the original measurement and independently reconstructs the source. Six checks and native replay pass. The separate temporary-directory access refusal and original failed check remain retained. No data rule or scientific comparison changed.
+
+## Completed results today
+
+Every item quotes its ledger wording, control status and current follow-up route. Detailed methods and captioned measurements remain in the linked complete records. This is the daily reconciliation, not the final theory synthesis.
+
+- **S15-W4-S4B-MENU-20261103** ([record](WEEK4_S4B_MENU_20261103.md)); controls: **passes**. Menu browsing style recurs across session halves; the supported chosen-option comparison has an interval spanning zero and does not identify an attention or device effect. Follow-up: Descriptive menu comparison only, with sparse paired support. No attention/device mechanism or new automatic descendants are licensed by this explicitly descriptive subcard.
+
+- **S15-W4-WD1-INVALID-20261103** ([record](WEEK4_WD1_INVALID_20261103.md)); controls: **invalid**. The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim. Follow-up: Freeze and calibrate a separate support-valid control before replacement inference; preserve every failed reference and continue commissioned primary builds.
+
+- **S15-W4-PP1-FULL-20261103** ([record](WEEK4_PP1_FULL_20261103.md)); controls: **passes**. The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed. Follow-up: The sole PP1.ic follow-up has completed as S15-W4-PP1-IC-20261103. Keep the human sensitivity limitation and original stopped CoAuthor route; no unchanged human rerun.
+
+- **S15-W4-PP1-IC-20261103** ([record](WEEK4_PP1_IC_COMPLETE_20261103.md)); controls: **passes**. In constructed worlds, the original pause instrument detects the planted boundary gradient and leaves the known nulls undetected; human sensitivity and the stopped CoAuthor route remain unchanged. Follow-up: Close PP1.ic without descendants; retain the human inference boundary and build independent T4/S2 cards.
+
+## Execution and readiness
+
+**Found.** The November 3 daily digest reconciles completed records and corrections; Gear 2 is running the validated revision-source cost probe, while the ready buffer and scientific consumers remain unfinished.
+
+At 2026-11-03T20:02:48.237938-08:00, the S2 revision-source cost prefix occupies one of four counted CPU slots, with one numerical thread, fresh outputs and advancing execution inside its original limits. Its native constructed source has passed complete replay and full write-through. The previous PP1 full study, both calibration cost probes and the full constructed calibration have completed, exited and released their leases. The WD1 full attempt has also exited and retains its invalid control disposition. No healthy process was restarted and no stale lease needs removal.
+
+Ready successors remain **0 against 8 required**. Cumulative idle capacity is **87.4759 slot-hours**, measured as four slots times elapsed time since handoff, less admitted-to-terminal occupancy; this is not measured CPU utilization. Unfinished consumers, validation/admission, and retained support/cost/instrument holds explain the deficit. This remains an operational defect. A single source probe does not make the campaign fully built or provide a day of ready work.
+
+The S2 source first needs complete measured admission, then a first-production sentence denominator, onset timing, future revision linkage and its unchanged statistical controls. T4 still needs the calibrated human consumer, complete uncertainty/reference construction and measured whole-card admission. S3/T2 depend on source work; S6, D7's consumer, the commissioned CA1 sample, WB1's bounded cost return and the other remaining primary builds are still open. PP3.p1 remains cost-held at its floor. WD1 needs separately frozen control calibration. Closed S1 textures and unsupported S4/S5/T3 routes remain closed; no null is healed into a positive.
+
+All 120 terminal attempts and 123 Week 4 process watches reconcile to exact live identities or retained terminals. The two earlier failed attempts remain recorded and classified. All 21 scientific locks pass. Available RAM is 49.22 GiB, commit headroom 31.45 GiB and free disk 304.71 GiB. No shared reservation or scientific GPU process is present. GPU parking remains intentional.
+
+The watcher is freshly scanning, holds its singleton and matches its loaded source hashes under the same owner. The calendar remains alive; this digest's scheduled time was 20:00 PST. The independent health deadline remains 2026-11-03T22:12:33.844002-08:00; ordinary result/digest acknowledgments do not move it. Terminal delivery stays registered and no extra ETA wake is added. An initial private inspector expected an optional cumulative-ceiling field on every plan; it failed closed, then recorded the actual present plan limits without changing any worker or admission.
+
+## Texture accounting
+
+Rows distinguish completed estimate cards from support-only variants; source, validation and cost stages are not estimates.
+
+| Family | Completed estimates | Support-only variants | Current state |
+|---|---:|---:|---|
+| S1 | 5 | 0 | Five consecutive similar completed estimates close the lane; five-gram corpus work is not admitted. |
+| S2 | 0 | 0 | Native source preflight validated and measured cost prefix running; analytical primary and textures remain unbuilt. |
+| S3 | 0 | 0 | Primary and texture consumers unbuilt. |
+| S4 | 0 | 3 | All three cursor variants unsupported; separately commissioned descriptive menu comparison is now complete. |
+| S5 | 0 | 7 | Two alternative gaps and five projects unsupported; no effects or descendants. |
+| T2 | 0 | 0 | Primary and texture consumers unbuilt. |
+| T3 | 0 | 0 | Primary source is design cannot test; no texture estimate admitted. |
+| T4 | 0 | 0 | Constructed kernels and cost probes are not texture estimates; human admission unfinished. |
+
+All other texture families have zero completed estimates. No texture upgrades a claim or creates descendants.
+
+## Paid accounting
+
+This table reports Week 4 bookings and node caps in US cents; earlier campaigns are separate.
+
+| Node | Booked | Node cap | State |
+|---|---:|---:|---|
+| PROC | 1 | 200 | Main held after instrument failure; approved prompt correction and fresh rung unbuilt. |
+| PLAN | 0 | 150 | Approved scope; node unbuilt and undispatched. |
+| DRIVE | 0 | 150 | Approved scope; node unbuilt and undispatched. |
+| PLANT | 0 | 50 | Approved scope; node unbuilt and undispatched. |
+| REV | 0 | 50 | Approved scope; node unbuilt and undispatched. |
+| VAL | 0 | 200 | Approved scope; node unbuilt and undispatched. |
+| AUTH | 0 | 100 | Approved scope; node unbuilt and undispatched. |
+
+Total booking is one cent; the campaign hard ceiling is 1,000 cents and the listed node caps sum to 900 cents. No new paid call or transfer occurred. The approved correction does not waive PROC's fresh calibration rung.
+
+**Means.** Completed evidence and failures are preserved and the source cost probe is running under Gear 2. Continue its measured source admission and the remaining commissioned builds; the ready-buffer deficit remains explicit. No new hypothesis was harvested, probability added, theory interpretation introduced, delegation started or publication performed. Scientific synthesis remains for the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 3 daily digest reconciles completed records and corrections; Gear 2 is running the validated revision-source cost probe, while the ready buffer and scientific consumers remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the source cost probe and measured source admission; finish independent T4/S2 consumers and the required ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_DIGEST_20261103.md.
+
+### OPS-S15-W4-S2-SOURCE-CONSTRUCTED-20261103
+
+**Hypothesis.** Can the process record identify edits inside earlier writer-typed sentences without confusing them with continuation, prompt text or API insertions?
+
+**METHOD.** Replay raw UTF-16 deltas with insertion provenance; identify every user change's affected pre-edit sentence, completeness and sentence distance from the leading edge. Preserve the recorded cursor separately from the exact delta anchor. Use the fixed Unicode constructed record with two known non-local changes. Fresh native verification reconstructs every source record and aggregate. No timing classifier or scientific contrast runs.
+
+**Found.** The constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.
+
+The table reports source counts only. A candidate is a complete, wholly typed pre-edit sentence changed behind the final nonempty sentence; multiple targets in one delta count as one event. It is an upper bound before first-production and timing eligibility, not the final support gate.
+
+| Source item | Count |
+|---|---:|
+| Sessions | 1 |
+| Writers | 1 |
+| Candidate non-local events | 2 |
+| Writers with candidate events | 1 |
+| Final analytical event floor, not yet evaluated | 300 |
+| Final analytical writer floor, not yet evaluated | 25 |
+
+**Integrity and accounting.** All 18 output hashes and 37 pins verify; both computation children, both launchers and the supervisor exited and released the counted slot. Actual execution plus replay cost 2.484375 CPU seconds, with 60.000000 already charged including the sixty-second validation/landing reserve. Six targeted checks pass. The initial environmental temporary-directory refusal and subsequent timing-reentry engineering failure are retained; the validated correction preserves the first timing receipt while reconstructing every output. The data rules, population and packet primary are unchanged. The 140-session timing prefix is never represented as a scientific sample. 
+
+**Route and means.** Run the bounded 140-session cost prefix, then admit the full source only from measured cost. This source instrument is not S2's later-revision probability, a causal goal claim or a result for T2/S3. Preserve all mixed and excluded targets and the complete source population. The first-production sentence and timing consumer remain unfinished; the ready buffer is still below eight. No new hypothesis, paid call, delegation, GPU restart or publication occurs. Aggregate source records remain internal pending the final packet; private text and identities stay in ignored intermediates.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed revision-source instrument passes exact native replay; its candidate census does not yet license the sentence-level comparison.; project meaning: scoped operational record; next engineering obligation: Run the bounded 140-session cost prefix, then admit the full source only from measured cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S2_SOURCE_CONSTRUCTED_20261103.md.
+
+### S15-W4-PP1-IC-20261103
+
+**Hypothesis.** Can the unchanged pause instrument recover a known sentence-boundary increase while leaving equal-probability boundary worlds compatible with zero?
+
+**METHOD.** Cross two fixed seeds with three latent doses in six constructed worlds, each with twenty writers, four prompts per writer and 3,200 intervals. Retain the frozen speed shifts, mechanical confounding, separated duration components and shared random draws across doses. Refit the original pooled mixture, mechanical correction and crossed regression in all 2,000 whole-writer bootstrap draws per world. The separately registered exact implementation caches only invariant input arrays, not fitted parameters. A fresh native process reconstructs every world and every fit and exactly compares both complete output banks. No human data enter this calibration.
+
+**Found.** In constructed worlds, the original pause instrument detects the planted boundary gradient and leaves the known nulls undetected; human sensitivity and the stopped CoAuthor route remain unchanged.
+
+The table reports every frozen world. Dose is the assigned sentence-minus-word middle-component probability; realized difference is the sampled latent-label difference. Estimate and interval are the mechanical-adjusted fitted middle-component posterior contrast, not the latent dose. Each interval uses all 2,000 whole-writer refits.
+
+| Construction seed | Assigned dose | Realized difference | Fitted difference | 95% interval | Original interval classification |
+|---|---:|---:|---:|---|---|
+| 202611031 | 0.00 | 0.025000 | 0.059191 | [-0.010458, 0.126146] | not detected |
+| 202611031 | 0.10 | 0.125000 | 0.157763 | [0.077526, 0.239357] | positive |
+| 202611031 | 0.30 | 0.325000 | 0.366181 | [0.288083, 0.445790] | positive |
+| 202611032 | 0.00 | -0.004688 | 0.036656 | [-0.029702, 0.103802] | not detected |
+| 202611032 | 0.10 | 0.081250 | 0.125803 | [0.066101, 0.188261] | positive |
+| 202611032 | 0.30 | 0.296875 | 0.342212 | [0.262639, 0.426593] | positive |
+
+**Verdict and limits.** Both equal-probability worlds have intervals including zero; both seeds detect each planted dose. This supports sensitivity under this fixed construction, including its declared 0.10 calibration target. It is not a repeated-world power estimate, false-positive rate, coverage estimate, minimum meaningful human effect or validation of mental-state labels. The latent dose and fitted posterior contrast differ; no numerical equality or unbiased recovery claim is made. The construction has clean separated components and small equal-support synthetic writers, not the observed human timing distribution. Its passing result therefore does not turn the original human null into a negative or license its CoAuthor timing consumers. Duration-profile identification remains a separate parent instrument.
+
+**Route.** Close the sole PP1.ic follow-up as a complete conditional instrument calibration. Preserve PP1's original primary, interval, human sensitivity limitation and stopped CoAuthor PP2/PP4/PP5/PP6/PP7 route in both genres. Keep the separately declared within-writer ScholaWrite PP2 fallback available; no cross-writer fallback or new human rerun follows. This is one generation only: no specification, mechanism, replication or other descendants are registered from the calibration. Continue independent commissioned T4 and S2 builds. No new hypothesis was harvested from the operational wake.
+
+**Integrity and cost.** All 15 terminal output digests and 64 frozen pins match. The supervisor, both launchers and both actual computation children exited and the counted lease is released. Independent landing checks rebuild latent truth, verify every bank length and finite contrast, and reproduce all interval quantiles and classifications. Execute and full replay cost 808.843750 CPU seconds and 824.596644 wall seconds. Prior probes plus the existing sixty-second validation/landing reserve charge 73.890625 CPU seconds, yielding 882.734375 against the original 1,800-second ceiling. The 0.250000-second landing check is covered by that reserve. The original cost hold is retained; no ceiling increase, reduced world, thinner bank or selected successful output is used. Wrapper scientific admission remains false; completion is an apparatus result with the stated constructed scope. No new reference probability is quoted, so no multiplicity row is added.
+
+**Execution state.** All 119 terminal attempts and 121 watches reconcile. No research worker remains; no stale lease or failure needs a restart. The two retained earlier failures remain classified and recorded. All 21 locks pass, watcher source hashes and native identity verify, and the calendar remains active. The ready buffer is zero against eight; 86.5790 cumulative idle slot-hours are attributed to unfinished consumers and validation/admission, with existing holds preserved. Gear 2 remains authorized but is drained, not fully built or running. GPU work remains parked, paid spend remains one cent for PROC with existing holds, and no delegation, paid call or publication occurred. Results remain internal pending the final packet.
+
+**Means.** The apparatus can recover the stipulated boundary signal in its declared constructed settings. Human sensitivity remains unestablished; keep that inference boundary while building independent primary cards.
+
+
+Curator roll-up: process instruments; Can the original pause pipeline recover a known boundary signal?; **Infrastructure**; In constructed worlds, the original pause instrument detects the planted boundary gradient and leaves the known nulls undetected; human sensitivity and the stopped CoAuthor route remain unchanged.; project meaning: conditional constructed sensitivity, without human sensitivity or timing-route endorsement; next engineering obligation: independent commissioned T4 and S2 builds; public claim unchanged for human processes; curator decision required: No; detail: WEEK4_PP1_IC_COMPLETE_20261103.md.
+
+### OPS-S15-W4-PP1-IC-LAUNCH
+
+**Hypothesis.** Is the admitted calibration actually executing within its original allocation, with completed evidence recorded and terminal delivery working?
+
+**METHOD.** Inspect the exact supervisor and computation process identities, source pins, thread environment, progress freshness, output size, CPU/wall limits, counted lease, terminal registrations, monitoring service and calendar. Reconcile all terminal attempts and the prior scientific write-through before acknowledging either cost event.
+
+**Found.** The full constructed pause calibration is running in Gear 2 with verified native progress and monitoring; the ready buffer and independent primary builds remain unfinished.
+
+The table separates runtime measurements from frozen limits. No unfinished scientific output is interpreted.
+
+| Runtime item | Verified state |
+|---|---|
+| Work | Six fixed constructed worlds, original 2,000 writer refits each, then independent replay |
+| Counted slots / required ready cards | 1 of 4 occupied; 0 of 8 ready |
+| Native numerical threads | One |
+| Measured CPU at inspection | 29.421875 seconds |
+| Cumulative prior charge including reserve | 73.890625 CPU seconds |
+| Remaining hard attempt cap | 1726.109375 CPU seconds |
+| Complete execution/replay forecast | 1185.562500 CPU seconds |
+| Output byte cap | 128 MiB |
+| Scientific locks | 21 pass |
+| Terminal attempts reconciled | 118 |
+| Native watches reconciled | 121 |
+
+The complete original PP1 result and both calibration cost probes have full internal write-through. The original calibration cost hold is preserved; the separately frozen exact implementation is admitted by its measured cost. All failed attempts elsewhere remain retained and classified. Resource headroom is above every floor; there is no stale lease or environmental restart need. The watcher has its exact loaded source hashes and live native identity, terminal paths are registered, and calendar monitoring remains active. Ordinary completion acknowledgments do not rearm the independent six-hour health deadline.
+
+**Queue obligation.** Cumulative idle accounting is 85.3843 slot-hours at this inspection, by admitted-to-terminal occupancy. The deficit is unfinished consumers, validation/admission and existing holds; the machine is not fully built out. PP1.ic is the required null sensitivity check, not a replacement human result. T4's calibrated consumer and S2's revision source remain next independent primary builds. No closed/unsupported family is reopened. GPU work stays parked; existing paid-node holds remain and spending remains one cent for PROC. No new hypothesis was harvested, no new paid call, delegation or publication occurred.
+
+**Means.** Gear 2 has one bounded CPU calibration running with a verified completion/failure path. Let its original worker continue; the watcher owns the wait. No interim score is reported and final scientific synthesis remains in the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full constructed pause calibration is running in Gear 2 with verified native progress and monitoring; the ready buffer and independent primary builds remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land the complete calibration at its terminal event; build T4 and S2 and the remaining ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PP1_IC_LAUNCH_20261103.md.
+
+### OPS-S15-W4-PP1-IC-ADMISSION
+
+**Hypothesis.** Can the required known-answer calibration run with every original draw inside its own allowance, without changing the fitted primary?
+
+**METHOD.** Freeze six constructed worlds and the original 2,000-draw interval. Run five targeted tests on the original calibration and two on a separately named cached-input implementation, including all-world observed and repeated-writer array/contrast equality, fresh-process replay and corruption refusal. Independently execute and verify each full six-world cost probe with five bootstrap refits per world. No human data are read and no calibration verdict is scored by cost mode.
+
+**Found.** The exact cached-input pause calibration passes validation and measured cost admission; the original cost hold and human result remain unchanged.
+
+This table compares original and exact cached-input cost probes. Both projections include the full calibration, fresh replay and a sixty-second forecast overhead. Actual charges include the native execute/verify attempt.
+
+| Implementation | Actual probe CPU seconds | Execution forecast | Replay forecast | Admission |
+|---|---:|---:|---:|---|
+| Original PP1.ic | 7.796875 | 1748.343750 | 1685.812500 | Cost-held against remaining original allowance |
+| PP1.ic.h1 exact arrays | 6.093750 | 1123.031250 | 1185.562500 | Fits remaining 1726.109375 seconds |
+
+The original hold is retained. Whole-writer resampling preserves each copied writer's within-word median, so the successor caches only those input arrays, gathers them in the identical sampled order, and renames repeated copies. It refits mechanical correction, the mixture and crossed regression every time. Exact parity tests compare arrays and all primary/secondary contrast values against the unchanged original implementation; no fitted coefficient is reused. The full calibration has not yet run at this admission record. This is a separately frozen cheaper exact implementation under amendment B, not a scientific repair of the null or a new follow-up generation.
+
+**Accounting and integrity.** Seven tests pass, with total suite wall time 22.426 seconds inside the original sixty-second validation/landing reserve. The two native probes cost 13.890625 CPU seconds. Cumulative charge plus reserve is 73.890625; the original 1,800-second ceiling leaves 1726.109375. All output digests, source pins, native exits and released leases verify for both attempts. No ceiling increase, thinner bootstrap, new seed selection or environmental retry is used. The cost forecast is an estimate; the runtime still enforces the unchanged hard cumulative allowance.
+
+**Route and means.** Admit only the exact PP1.ic.h1 constructed calibration, one CPU slot and one numerical thread. Preserve the complete PP1 human null and its stopped CoAuthor route until further licensed evidence; this calibration cannot grant a human mechanism claim. All six worlds and every original bootstrap are required. No descendants, paid call, GPU work or delegation. T4 and S2 remain independent primary build priorities and the eight-card ready buffer remains unfinished. No new hypothesis was harvested from this wake. Scientific synthesis remains in the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact cached-input pause calibration passes validation and measured cost admission; the original cost hold and human result remain unchanged.; project meaning: scoped operational record; next engineering obligation: Dispatch only the admitted PP1.ic.h1 calibration, then build independent primary cards.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PP1_IC_ADMISSION_20261103.md.
+
+### S15-W4-PP1-FULL-20261103
+
+**Hypothesis.** Can the original CoAuthor timing instrument distinguish sentence-level from word-level hesitation, and do writers have recurring duration profiles across prompts?
+
+**METHOD.** Analyze all 1,399 canonical sessions with genres separate: 702,461 intervals from 47 argumentative writers and 1,107,481 intervals from 57 creative writers (the genre rosters overlap). Retain the original pooled three-component lognormal mixture, writer typing normalization, mechanical adjustment, crossed writer/prompt regression, seed and comparisons. Each of 2,000 whole-writer bootstrap draws refits the entire primary pipeline. Separately compare split-half duration-ratio profiles using independent donor/probe/gallery roles, 1,000 profile reassignments and 2,000 paired writer resamples. Fresh-process verification reconstructs every fit and reference.
+
+**Found.** The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed.
+
+The following table reports adjusted middle-component probability differences and 95% whole-writer intervals. Each genre uses 2,000 complete refits; upper-level contrasts are secondary.
+
+| Genre | Boundary contrast | Difference | 95% interval |
+|---|---|---:|---|
+| Argumentative | Paragraph minus sentence | -0.030798 | [-0.080775, 0.127435] |
+| Argumentative | Revision minus sentence | -0.033752 | [-0.139586, 0.046277] |
+| Argumentative | Sentence minus word | -0.032248 | [-0.072334, 0.164003] |
+| Creative | Paragraph minus sentence | 0.065686 | [-0.024549, 0.085096] |
+| Creative | Revision minus sentence | -0.046223 | [-0.071883, 0.044620] |
+| Creative | Sentence minus word | 0.084226 | [-0.049807, 0.111384] |
+
+The next table reports the separate duration-profile identification instrument: supported probe writers, real and context-only identification fractions, and their paired difference with 95% writer interval. These profiles are ratios of geometric durations, not the primary mixture posterior.
+
+| Genre | Probe writers | Real | Context-only | Difference and interval | Reference mean |
+|---|---:|---:|---:|---|---:|
+| Argumentative | 25 | 0.720000 | 0.040000 | 0.680000 [0.480000, 0.840000] | 0.139720 |
+| Creative | 42 | 0.595238 | 0.000000 | 0.595238 [0.452381, 0.738095] | 0.071500 |
+
+Both profile comparisons pass their original independent donor/probe/gallery context and empirical-reference checks. Each uses all 1,000 assignments without invalid draws; each one-sided reference probability is 1/1001 (0.000999001). The multiplicity audit records them as instrument controls: both remain below 0.05 after dependence-robust correction, including the combined family. The raw probabilities do not license attention or planning and do not override the primary route.
+
+The following table reports split-half Pearson correlations of duration ratios and the Spearman-Brown full-length extrapolation. They are descriptive reliability summaries, not corrected mechanism estimates.
+
+| Genre | Location | Paired writers | Half correlation | Full-length extrapolation |
+|---|---|---:|---:|---:|
+| Argumentative | before word | 25 | 0.988924 | 0.994431 |
+| Argumentative | before sentence | 25 | 0.886938 | 0.940082 |
+| Argumentative | before paragraph | 23 | 0.575205 | 0.730324 |
+| Argumentative | before revision | 25 | 0.780469 | 0.876700 |
+| Creative | before word | 42 | 0.978857 | 0.989316 |
+| Creative | before sentence | 42 | 0.869167 | 0.930005 |
+| Creative | before paragraph | 38 | 0.551245 | 0.710713 |
+| Creative | before revision | 42 | 0.705804 | 0.827532 |
+
+The location table reports interval counts, the fitted middle-component posterior and the middle-component-weighted duration in seconds. Component labels describe fitted durations; the legacy longest-component field is not evidence of disengagement.
+
+| Genre | Location | Intervals | Middle posterior | Weighted duration, seconds |
+|---|---|---:|---:|---:|
+| Argumentative | before paragraph | 876 | 0.302627 | 0.540329 |
+| Argumentative | before revision | 103333 | 0.405831 | 0.195746 |
+| Argumentative | before sentence | 6120 | 0.336871 | 0.409927 |
+| Argumentative | before word | 122186 | 0.472027 | 0.197266 |
+| Argumentative | within word | 469946 | 0.458108 | 0.169663 |
+| Creative | before paragraph | 2501 | 0.446811 | 4.547461 |
+| Creative | before revision | 132024 | 0.256437 | 1.324846 |
+| Creative | before sentence | 16120 | 0.379709 | 3.230417 |
+| Creative | before word | 206680 | 0.222446 | 1.039036 |
+| Creative | within word | 750156 | 0.123856 | 0.276842 |
+
+**Verdict and scope.** The primary is not detected with sensitivity untested, not a negative effect or proof that human pause hierarchies are absent. All secondary boundary intervals also include zero. Duration profiles carry recurring writer information under their declared controls, but the shared mechanical correction and browser timing remain possible sources of stable differences. This separate descriptive instrument result does not establish mental causes or rescue the failed primary. No mixture relabeling, new threshold, per-writer substitution, dropped bootstrap or selected genre is used. The newer Week 4 per-writer ruler is a distinct construction and receives no automatic endorsement from this result.
+
+**Route.** Stop the PP1-gated CoAuthor branches PP2, PP4, PP5, PP6 and PP7 in both genres. The declared fallback permits only PP2's within-writer contrast on held ScholaWrite; KLiCKe is conditional on separate intake, not implicitly acquired. Neither fallback permits cross-writer PP4 or PP5(ii). Register the sole automatic null follow-up **PP1.ic**, a separately frozen known-answer calibration of the unchanged primary, ahead of timing-dependent work. Its design is docs/design/stage-15/week4/PP1_IC.md: six fixed constructed worlds, original 2,000-draw interval, 1,800 cumulative CPU-second cap including costing and verification, no parent idle-cap inheritance, no descendant follow-ups. It is built and has five targeted tests including fresh-process replay, but cost and native admission remain pending at this landing. No scientific-gate healing or unchanged human rerun is authorized by this null.
+
+**Integrity and cost.** All 16 output digests and 109 pins match. Both actual computation children, their launchers and the supervisor exited; the counted lease is released. Independent saved-bank reconstruction verifies all bootstrap selections and quantiles. Execute plus fresh replay cost 97063.343750 CPU seconds; prior charged 454.453125; checksum/bank inspection 0.781250. Total plus a further sixty-second landing reserve is 97578.578125, within the named 181681.640625 allowance. The historical 3,600-second study cap and 7,200-second hold remain. Wrapper scientific admission remains false; the instrument's complete-corpus flag is not a passed scientific gate. Private writer identities, profiles and full bootstrap/reference banks remain outside public receipts.
+
+**Queue.** No research worker remains after this completion. All 116 terminal attempts and 118 watches reconcile; locks and watcher/calendar identities verify, with resource headroom and no stale counted lease. Ready cards are zero against eight. At inspection 84.4669 idle slot-hours are charged to unfinished consumers, validation/admission and existing holds. PP1.ic calibration and independent T4/S2 builds are next; Gear 2 stays authorized, but an idle queue is not described as running or fully built. GPU parking and paid-node holds remain, with one cent booked to PROC. No new hypothesis was harvested from this operational wake, no delegation or paid call occurred, and scientific synthesis remains for the final packet.
+
+**Means.** The timing primary does not license its downstream CoAuthor interpretation. Preserve the separately supported descriptive duration profiles, test the primary's sensitivity on known answers, and continue independent commissioned work.
+
+
+Curator roll-up: decision traces and process instruments; Can timing distinguish levels of writing and retain recurring duration profiles?; **Infrastructure**; The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed.; project meaning: the original timing-dependent route remains unlicensed while descriptive duration profiles remain separate; next engineering obligation: PP1.ic calibration and independent primary builds; public claim unchanged for human mental processes; curator decision required: No; detail: WEEK4_PP1_FULL_20261103.md.
+
+### S15-W4-WD1-INVALID-20261103
+
+**Hypothesis.** Does a writer's sensitivity to population-favored suggestions recur across separate prompts, beyond the recurrence produced by shuffled writer assignments?
+
+**METHOD.** Use all 1,399 primary human CoAuthor sessions and 16,855 canonical choices. Refit a population acceptance reference with the recipient's sessions and own-history predictors excluded. Estimate sensitivity and acceptance criterion separately on disjoint prompt halves, and rebuild all references and profiles for 1,000 whole-session writer assignments within prompt. Require identical supported writers before the declared reliability contrast and 2,000 paired writer resamples. Independently replay the complete execution, then reconstruct every support roster from session metadata and decision counts without reading fitted effects.
+
+**Found.** The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim.
+
+This table reports the complete validity census, not effect estimates. A supported writer has at least four sessions, two prompts and four usable decisions in each prompt half. A matching reference retains the exact real-writer roster, not merely its size.
+
+| Validity check | Complete count |
+|---|---:|
+| Writers in the source | 61 |
+| Supported writers in the original comparison | 45 |
+| Reference assignments with the identical roster | 940 of 1,000 |
+| Reference assignments losing one supported writer | 59 of 1,000 |
+| Reference assignments losing two supported writers | 1 of 1,000 |
+| Reference assignments adding a writer | 0 |
+| Paired bootstrap draws reached after the guard | 0 |
+
+The fixed validity guard fires before any primary correlation, reference probability, interval or secondary aggregate is calculated. The 2,000-resample setting was configured but was not executed after this refusal. All underlying profiles and all failed reference rosters remain private and retained. No completed primary estimate exists, no null or negative scientific verdict follows, and no p-value enters the multiplicity audit.
+
+**Diagnosis.** Independent metadata-only reconstruction reproduces the real roster and every saved reference roster. Within-prompt reassignment preserves each writer's number of sessions per prompt. It does not preserve the numbers of usable decisions or the timestamp order of newly assigned sessions, which determine the prompt halves and their support. The additional losses all arise at the four-decisions-per-half condition. This is a control/support failure exposed by the complete bank, not a numerical convergence failure or an environmental interruption. Taking an intersection, dropping the sixty assignments, or redrawing them after this result would change the frozen reference. None is done. The earlier constructed solver checks remain valid for their numerical scope but did not establish this corpus-wide support invariant.
+
+**Execution integrity.** All 2,017 output digests and 58 source pins match. Both native computation children and the supervisor exited, and the counted lease was released. Fresh-process verification refitted the real data and all 1,000 references and reproduced the invalid summary exactly. Execution plus replay used 94728.828125 CPU seconds. With 360.171875 previously charged and 6.984375 for the support audit, charged CPU is 95095.984375; a further sixty-second landing/check reserve is retained within the unchanged 151453.125-second named Week 4 allowance. The historical 7,200-second ceiling and prior failures stay recorded. The plan and completion retain their scientific-admission-false flag; successful execution is not scientific acceptance.
+
+**Route.** Record the original as invalid and close this attempt. Amendment B requires a separately frozen and calibrated control correction before any replacement inference; it is not an unchanged retry. The repair obligation is filed, with all reference membership checks required before expensive fitting, a complete known-answer validation, the original population-relative question and full bank size, and measured cost admission within the remaining allowance. No repaired estimator is declared ready and no reference subset is scored. An instrument-check follow-up for a null is not applicable because this card produced no null. Independent quality, payoffs and causal learning remain unidentified even if a later population-relative comparison succeeds.
+
+**Queue and record.** PP1 continues independent verification under its original native identity and limits. One of four counted slots is occupied; the ready buffer remains zero against eight. The 115 terminal attempts and 118 Week 4 watches reconcile, all twenty-one scientific locks pass, and the watcher and calendar are live. The cumulative idle accounting is 80.3831 slot-hours, measured by admitted-to-terminal occupancy. Unfinished scientific consumers, calibration/admission work and existing holds remain the causes. No already admitted successor is waiting; T4's calibrated consumer and S2's revision source remain next primary builds. GPU parking and the paid-node holds remain. The result event is acknowledged only after full write-through; the independent six-hour deadline is unchanged.
+
+**Means.** This completed test cannot decide whether population-relative sensitivity is a recurring personal property. Preserve that open question and the independent competence gap. Record the failed support invariant before any new control design, retain every original artifact, and continue the authorized independent work. No new hypothesis was harvested from the wake; no gear change, paid call or delegation occurred. Scientific synthesis remains in the final packet.
+
+
+Curator roll-up: reader inference and decision traces; Does sensitivity to population-favored offers recur across prompts?; **Infrastructure**; The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim.; project meaning: the sensitivity question remains open and independent competence is still unidentified; next engineering obligation: freeze and calibrate a support-preserving control before replacement inference, and build independent commissioned cards; public claim: no sensitivity, learning or competence claim licensed; curator decision required: No; detail: WEEK4_WD1_INVALID_20261103.md.
+
+### OPS-S15-W4-HEALTH-20261103-1610
+
+**Hypothesis.** Are the admitted studies advancing under their original limits, and is any failed process or runnable authorized successor being missed?
+
+**METHOD.** Compare exact native executable, PID and creation identity, real CPU accumulation and output freshness with the preceding six-hour inspection and a second observation during this inspection. Authenticate every active source pin, numerical-thread environment, finite resource limit and counted lease. Reconcile all current Week 4 process watches and terminal records, targeted runtime processes, unowned plans, locked files, resource headroom, GPU inventory, shared reservation, watcher delivery/source adoption and the calendar. Verify the existing complete write-through and claim anchors.
+
+**Found.** Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+PP1's original pooled pause study and WD1.h1's population-relative sensitivity comparison retain their original owners. Both studies continue independent verification with the same actual verifier identities as the preceding inspection. Both actual verifier identities match their native receipts and are accumulating CPU. Each study added nearly six hours of CPU since the preceding six-hour inspection. PP1 writes fresh verification progress; WD1.h1's pinned verifier deliberately does not rewrite execution artifacts, so its older output timestamps are expected. Its actual verifier CPU and fresh supervisor heartbeat establish liveness. Recorded numerical-thread settings remain one, and all source pins match. Both studies are below their CPU, wall and output limits. The complete reference banks and fresh replay remain required before accepting any result. No unfinished scientific score is reported.
+
+Two valid CPU leases account for the two studies. The 11 targeted Python processes resolve to those studies, their Windows virtual-environment launchers, the watcher and the finite calendar; launchers are not extra scientific slots. All 118 Week 4 native watches resolve to living owners or retained terminals. The 114 terminal attempts match the preceding inspection exactly. The two historical failed receipts remain preserved and already handled, including the separate environmental attribution for the twelve-word verification interruption. No new failure, stale lease or environmental interruption calls for recovery.
+
+All twenty-one scientific locks pass. Available physical RAM is 50.09 GiB, commit headroom 40.52 GiB and free disk 304.72 GiB. No shared reservation is active. No scientific Python/Ollama GPU process is observed; GPU parking remains intentional.
+
+The sole unowned plan is still the unchanged R2-full pre-admission refusal. Its separately admitted successor already completed and landed, so it is not ready work. D33.s is complete; PP3.p1 remains held at its minimum project floor; D7 still lacks its validated scientific consumer. WD1.h1 and PP1 are running. CA1 requires its commissioned sample prerequisite, and WB1 effects require their fresh bounded cost probe. The closed S1 texture lane and unsupported S4(a)/S5 grids stay closed. The separate S4(b) menu source and descriptive comparison are complete and fully recorded. The next builds are the T4 calibrated human consumer and S2 revision source; their validation and admission prerequisites remain unfinished. Remaining primary, numerical admission and paid-node builds are unfinished; PROC main remains instrument-held, with one cent booked and no new paid call.
+
+Ready successors remain zero against eight required; two of four counted slots are occupied. Handoff-to-inspection accounting contains 76.8702 idle slot-hours, using admitted-to-terminal occupancy rather than measured CPU utilization. Unfinished scientific consumers, readiness construction and explicit admission holds remain the causes. This is a continuing build/readiness defect while commissioned work exists; it is not a reason to restart healthy workers or rerun completed work. No already admitted ready successor was overlooked.
+
+The watcher holds its singleton, matches its loaded source and native identity, and scans freshly under the same owner without a current error or cancellation. This health event reached the owner on its first recorded attempt. Historical notification failures remain visible and the finite calendar has a fresh heartbeat. All active study and calendar diagnostic logs are empty. Existing complete records and all 424 claim anchors verify before this landing; all 134 complete Week 4 write-throughs and their required destinations verify. The health event is acknowledged only after this full write-through and verification, rearming its independent six-hour deadline. No separate ETA wake is added.
+
+**Means.** Continue both admitted studies under their unchanged limits and completion/failure monitoring. Complete the remaining commissioned validation and ready-buffer work through their existing admission gates. No tests were harvested from this operational wake, no scientific judgment or probability changed, and no process recovery was necessary. Scientific synthesis remains reserved for the final packet. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted verifiers; build the T4 calibrated human consumer and S2 revision source toward the required ready buffer, retaining all existing admission holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261103_1610.md.
+
+### OPS-S15-W4-HEALTH-20261103-1005
+
+**Hypothesis.** Are the admitted studies advancing under their original limits, and is any failed process or runnable authorized successor being missed?
+
+**METHOD.** Compare exact native executable, PID and creation identity, real CPU accumulation and output freshness with the preceding build inspection and a second observation during this inspection. Authenticate every active source pin, numerical-thread environment, finite resource limit and counted lease. Reconcile all current Week 4 process watches and terminal records, targeted runtime processes, unowned plans, locked files, resource headroom, GPU inventory, shared reservation, watcher delivery/source adoption and the calendar. Verify the existing complete write-through and claim anchors.
+
+**Found.** Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+PP1's original pooled pause study and WD1.h1's population-relative sensitivity comparison retain their original owners. PP1 has transitioned from execution to independent verification; WD1.h1 continues independent verification. Both actual verifier identities match their native receipts and are accumulating CPU. Each study added more than four hours of CPU since the preceding build inspection. PP1 writes fresh verification progress; WD1.h1's pinned verifier deliberately does not rewrite execution artifacts, so its older output timestamps are expected. Its actual verifier CPU and fresh supervisor heartbeat establish liveness. Recorded numerical-thread settings remain one, and all source pins match. Both studies are below their CPU, wall and output limits. The complete reference banks and fresh replay remain required before accepting any result. No unfinished scientific score is reported.
+
+Two valid CPU leases account for the two studies. The 11 targeted Python processes resolve to those studies, their Windows virtual-environment launchers, the watcher and the finite calendar; launchers are not extra scientific slots. All 118 Week 4 native watches resolve to living owners or retained terminals. The 114 terminal attempts match the preceding inspection exactly. The two historical failed receipts remain preserved and already handled, including the separate environmental attribution for the twelve-word verification interruption. No new failure, stale lease or environmental interruption calls for recovery.
+
+All twenty-one scientific locks pass. Available physical RAM is 51.28 GiB, commit headroom 41.74 GiB and free disk 304.72 GiB. No shared reservation is active. No scientific Python/Ollama GPU process is observed; GPU parking remains intentional.
+
+The sole unowned plan is still the unchanged R2-full pre-admission refusal. Its separately admitted successor already completed and landed, so it is not ready work. D33.s is complete; PP3.p1 remains held at its minimum project floor; D7 still lacks its validated scientific consumer. WD1.h1 and PP1 are running. CA1 requires its commissioned sample prerequisite, and WB1 effects require their fresh bounded cost probe. The closed S1 texture lane and unsupported S4(a)/S5 grids stay closed. The separate S4(b) menu source and descriptive comparison are complete and fully recorded. The next builds are the T4 calibrated human consumer and S2 revision source; their validation and admission prerequisites remain unfinished. Remaining primary, numerical admission and paid-node builds are unfinished; PROC main remains instrument-held, with one cent booked and no new paid call.
+
+Ready successors remain zero against eight required; two of four counted slots are occupied. Handoff-to-inspection accounting contains 64.7259 idle slot-hours, using admitted-to-terminal occupancy rather than measured CPU utilization. Unfinished scientific consumers, readiness construction and explicit admission holds remain the causes. This is a continuing build/readiness defect while commissioned work exists; it is not a reason to restart healthy workers or rerun completed work. No already admitted ready successor was overlooked.
+
+The watcher holds its singleton, matches its loaded source and native identity, and scans freshly under the same owner without a current error or cancellation. This health event reached the owner on its first recorded attempt. Historical notification failures remain visible and the finite calendar is alive. Existing complete records and all 423 claim anchors verify before this landing; all 133 complete Week 4 write-throughs and their required destinations verify. The health event is acknowledged only after this full write-through and verification, rearming its independent six-hour deadline. No separate ETA wake is added.
+
+**Means.** Continue both admitted studies under their unchanged limits and completion/failure monitoring. Complete the remaining commissioned validation and ready-buffer work through their existing admission gates. No tests were harvested from this operational wake, no scientific judgment or probability changed, and no process recovery was necessary. Scientific synthesis remains reserved for the final packet. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted verifiers; build the T4 calibrated human consumer and S2 revision source toward the required ready buffer, retaining all existing admission holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261103_1005.md.
+
+### OPS-S15-W4-BUILD-20261103
+
+**Hypothesis.** Are completed outputs recorded and Gear 2 progressing, and has the next commissioned work actually been built?
+
+**METHOD.** Compare exact native identities and CPU accumulation with the start-of-turn snapshot; inspect the active phase, pinned code, resource limits, slots, output behavior, historical and new terminals, watcher delivery and source adoption, calendar, locks and available resources. Build and validate the separate S4(b) menu source and descriptive consumer, then complete every admission, independent replay and full internal write-through. Recheck all claim anchors and Week 4 record destinations before acknowledging their events.
+
+**Found.** The commissioned menu-comparison pipeline is complete and recorded; both existing Gear 2 studies continue with verified progress, while the ready buffer and remaining campaign builds are unfinished.
+
+The new source passed seven targeted checks and fresh native execution. Its measured 140-session cost probe admitted the full 1,399-session source under the original shared S4 ceiling. The separate comparison passed five targeted checks and three full-sized constructed banks with independent replay before human scoring. Complete source and comparison execution, verification, output/source hashes and native exits are recorded in four instrument receipts and the complete descriptive result S15-W4-S4B-MENU-20261103. No unfinished per-artifact score is reported. One default temporary-directory permission refusal is retained; the unchanged tests passed with a workspace scratch directory. All S4 work and failures remain charged, with no ceiling extension or new paid call.
+
+PP1 remains in execution and WD1.h1 in independent verification, under their original owners and actual child identities. Each accumulated additional CPU during this build pass. PP1 has fresh operational output. WD1.h1's verified source intentionally does not rewrite execution artifacts during verification; its actual verifier CPU and current supervisor heartbeat establish liveness. Older execution-file modification times are therefore expected, not a stalled queue. Neither study is restarted, and both remain below their CPU, wall and output ceilings.
+
+Two valid leases account for the two ongoing studies. All 118 Week 4 native watches resolve; 114 terminal attempts now include the five new verified completions. The preceding 109 terminal records are unchanged, including the two already documented historical failures. All twenty-one scientific locks pass. Resource headroom remains above admission floors: 50.06 GiB physical RAM, 39.58 GiB commit headroom and 304.72 GiB disk. No shared reservation is active; GPU parking remains intentional. The watcher singleton, loaded sources, live calendar and delivery path verify. The independent six-hour health deadline is not reset by these result acknowledgments.
+
+Before this operational landing, all 422 claim anchors and 132 Week 4 write-throughs verified, and theory formatting passed. Current complete results are recorded locally. Git inspection finds no deletions; no publication is performed. PROC main remains instrument-held, with one cent booked and the other paid-node builds unfinished.
+
+**Readiness gap.** The completed menu comparison used the available slot and released it; no already admitted successor remains waiting. Ready successors are still **0/8**, with **2/4** counted slots occupied. Handoff-to-inspection idle accounting is 55.5432 slot-hours. Remaining scientific consumers, validation/admission work and explicit cost/instrument holds remain the cause. This is still a build/readiness defect, not a claim that the campaign is fully built. Next construction priorities are the T4 calibrated human consumer and S2 revision source, followed by their already commissioned dependencies; completed or unsupported cards are not rerun as filler.
+
+**Means.** Continue both healthy studies under completion/failure monitoring and the unchanged six-hour inspection. Preserve the completed menu result for the final packet and carry forward the unfinished ready-buffer construction. No new hypotheses were harvested from the operational request; no gear change, paid call or delegation occurred.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The commissioned menu-comparison pipeline is complete and recorded; both existing Gear 2 studies continue with verified progress, while the ready buffer and remaining campaign builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted studies; build T4 calibrated consumer and S2 revision source toward the eight-card ready buffer, preserving all existing holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_BUILD_20261103.md.
+
+### S15-W4-S4B-MENU-20261103
+
+**Hypothesis.** Is a writer's pointer-versus-keyboard menu browsing stable across sessions, and do the chosen options differ in similarity to her earlier writing?
+
+**METHOD.** Use every opened menu from all 1,399 primary human CoAuthor sessions and all 61 writers. Count only explicit hover or up/down events while the menu is visible, excluding stale opening snapshots, hidden episodes and events after selection. Keep both and neither separate. Compute each writer's pointer-only share among exclusive navigation menus and its correlation across frozen whole-session halves. For canonical accepted or edited choices with earlier typed history, subtract each writer's mean keyboard-only chosen-option cosine from her pointer-only mean using the pinned encoder; then average writers equally. Preserve every one of 2,000 writer bootstrap draws and independently replay the whole statistic and scalar writer arithmetic.
+
+**Found.** Menu browsing style recurs across session halves; the supported chosen-option comparison has an interval spanning zero and does not identify an attention or device effect.
+
+The table describes complete descriptive estimates. Correlation measures consistency of writer rankings across session halves; cosine difference measures closeness to earlier own text on a scale where positive favors pointer-browsed choices. Intervals resample writers, not individual menus.
+
+| Comparison | Supported writers of 61 | Estimate | 95% writer interval |
+|---|---:|---:|---|
+| Pointer-share correlation across session halves | 53 | 0.967431 | [0.930505, 0.996549] |
+| Chosen-option similarity, pointer minus keyboard | 13 | -0.005782 | [-0.082925, 0.064091] |
+
+All 16,855 menus remain: 14,169 pointer-only, 550 keyboard-only, 116 both and 2,020 neither. Pointer share is defined for 60 writers. The chosen-option comparison covers only 21.3% of the source writers; missing earlier history and missing exclusive-arm choices remain explicit rather than filled. No reliability resample is undefined. The full numerical bank, writer census and history witnesses remain private.
+
+Five targeted checks and complete equal, positive and reversed constructed banks passed before human scoring. The complete human result passes every frozen source/output digest, native exit and fresh-process replay check. This attempt used 13.046875 CPU seconds; cumulative S4 charges are 1315.421875 of the original 3,600-second allowance. Full wrapper cost exceeded the small constructed numerical forecast but stayed far below its original admitted cap; no bound or criterion was changed. No p-value was produced, and the multiplicity file is unchanged.
+
+**Means.** Logged browsing preference is a stable descriptive property on its supported session halves. The small and imbalanced set of writers with both kinds of usable choices leaves the chosen-text contrast unresolved; this is not evidence that devices are equivalent or that attention does not matter. Hover is an event, not gaze or proof of examination. These observational readouts do not recover higher-order intention, preference quality or a causal device effect. The packet explicitly assigns S4(b) a census and descriptive contrast, so there is no promoted primary verdict or newly licensed mechanistic follow-up. S4(a)'s unsupported cursor question remains separate. Scientific synthesis stays in the final packet.
+
+
+Curator roll-up: decision traces; Does browsing action reveal a recurring choice pattern?; **Narrows**; Menu browsing style recurs across session halves; the supported chosen-option comparison has an interval spanning zero and does not identify an attention or device effect.; project meaning: stable logged navigation remains distinct from attention and causal device influence; next engineering obligation: preserve sparse paired support and continue independent commissioned cards; public claim: scoped descriptive browsing stability only, mechanism unchanged; curator decision required: No; detail: WEEK4_S4B_MENU_20261103.md.
+
+### OPS-S15-W4-S4-MENU-SOURCE-FULL
+
+**Hypothesis.** Can the separately commissioned menu comparison distinguish logged pointer and keyboard browsing without counting stale snapshots or future writing?
+
+**METHOD.** Validate explicit visible-event ordinals against separate raw-boundary predecessor queries. Keep close/reopen episodes, exclude hidden and post-selection navigation, and preserve canonical physically inserted choices. Reuse the authenticated pinned encoder cache, computing every option against only the writer's earlier completed typed sessions. Keep both/neither browsing, all handling modes and absent own history separate. No T4 model eligibility restriction is imported.
+
+**Found.** The full menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+Seven targeted checks pass and the native handler completes both execution and independent-process replay. The complete output inventory, pinned sources and exited native identities verify. This attempt used 115.000000 CPU seconds, with 1176.093750 previously charged to the shared S4 account. Its counts and timing scope are retained in the aggregate receipt. Constructed mode contains no human inputs; the 140-session timing subset cannot establish population support. Full mode remains source preparation, without reliability, a chosen-option contrast, a probability or a scientific verdict.
+
+The initial local test run could not create its default temporary directory; six checks passed and the seventh did not execute. The unchanged suite passed with an explicit workspace scratch directory. That environmental refusal is retained. Before freezing native sources, review also replaced an incorrect progress-path call with the existing bounded atomic file writer and changed verification to query raw boundary predecessors. The final frozen seven-check suite passes. No corpus attempt failed or result was repaired.
+
+**Means.** Complete the cost-admitted full source and the separately frozen descriptive consumer. Opening hover snapshots remain distinct from actual hover events, absence of a hover is not absence of examination, and this record licenses no device-to-intention or causal inference. Other healthy Gear 2 studies continue; ready-buffer construction and paid-node admission remain unfinished. No tests were harvested from the operational request and no new paid or GPU work is launched by this landing.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete measured source admission and independently validate the descriptive menu comparison; preserve the ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_MENU_SOURCE_FULL_20261103.md.
+
+### OPS-S15-W4-S4-MENU-COMPARISON-NATIVE
+
+**Hypothesis.** Can the menu comparison recover its known writer contrasts while preserving unsupported cases and undefined reliability?
+
+**METHOD.** Exercise the frozen consumer on three constructed banks, each containing 61 writers and 17,080 menus, with all 2,000 writer resamples. Recover exact equal, positive and reversed chosen-option differences and known split-half reliability. Independently check writer arithmetic and repeat the entire consumer in a fresh native process. Targeted tests also check inverse and zero correlation, unequal menu counts, canonical option identity, both/neither browsing, missing histories, malformed data and undefined resamples.
+
+**Found.** The descriptive menu-comparison instrument passes full-sized equal, positive and reversed known-answer banks and fresh replay; human comparison admission remains separate.
+
+All five targeted checks pass. All output hashes, source pins and ended native identities verify. Whole native construction and fresh verification used 1.281250 CPU seconds. These banks exceed the complete primary menu count; the frozen human-cost envelope multiplies this whole cost by three, while all previous source and validation charges remain in S4's original allowance. All undefined correlation resamples remain stored; none is silently discarded to obtain an interval.
+
+**Means.** The descriptive consumer is built and validated. Complete source verification and its actual measured cumulative cost remain prerequisites to human dispatch. This apparatus check is not a human result, a claim about attention, or permission to infer causal device effects. The ready buffer remains unfinished while the two longer Gear 2 studies continue.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The descriptive menu-comparison instrument passes full-sized equal, positive and reversed known-answer banks and fresh replay; human comparison admission remains separate.; project meaning: scoped operational record; next engineering obligation: Complete source and measured admission before the descriptive human comparison; continue commissioned ready-buffer builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_MENU_COMPARISON_NATIVE_20261103.md.
+
+### OPS-S15-W4-S4-MENU-SOURCE-TIMING
+
+**Hypothesis.** Can the separately commissioned menu comparison distinguish logged pointer and keyboard browsing without counting stale snapshots or future writing?
+
+**METHOD.** Validate explicit visible-event ordinals against separate raw-boundary predecessor queries. Keep close/reopen episodes, exclude hidden and post-selection navigation, and preserve canonical physically inserted choices. Reuse the authenticated pinned encoder cache, computing every option against only the writer's earlier completed typed sessions. Keep both/neither browsing, all handling modes and absent own history separate. No T4 model eligibility restriction is imported.
+
+**Found.** The timing menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+Seven targeted checks pass and the native handler completes both execution and independent-process replay. The complete output inventory, pinned sources and exited native identities verify. This attempt used 23.765625 CPU seconds, with 1152.328125 previously charged to the shared S4 account. Its counts and timing scope are retained in the aggregate receipt. Constructed mode contains no human inputs; the 140-session timing subset cannot establish population support. Full mode remains source preparation, without reliability, a chosen-option contrast, a probability or a scientific verdict.
+
+The initial local test run could not create its default temporary directory; six checks passed and the seventh did not execute. The unchanged suite passed with an explicit workspace scratch directory. That environmental refusal is retained. Before freezing native sources, review also replaced an incorrect progress-path call with the existing bounded atomic file writer and changed verification to query raw boundary predecessors. The final frozen seven-check suite passes. No corpus attempt failed or result was repaired.
+
+**Means.** Complete the cost-admitted full source and the separately frozen descriptive consumer. Opening hover snapshots remain distinct from actual hover events, absence of a hover is not absence of examination, and this record licenses no device-to-intention or causal inference. Other healthy Gear 2 studies continue; ready-buffer construction and paid-node admission remain unfinished. No tests were harvested from the operational request and no new paid or GPU work is launched by this landing.
+
+**Full-source admission.** The measured execution/replay forecast with its factor-three margin is 162.540067 CPU seconds. Charged work is 1176.093750 seconds and 600 seconds remain reserved for analysis within the original 3,600-second S4 allowance.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The timing menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete measured source admission and independently validate the descriptive menu comparison; preserve the ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_MENU_SOURCE_TIMING_20261103.md.
+
+### OPS-S15-W4-S4-MENU-SOURCE-CONSTRUCTED
+
+**Hypothesis.** Can the separately commissioned menu comparison distinguish logged pointer and keyboard browsing without counting stale snapshots or future writing?
+
+**METHOD.** Validate explicit visible-event ordinals against separate raw-boundary predecessor queries. Keep close/reopen episodes, exclude hidden and post-selection navigation, and preserve canonical physically inserted choices. Reuse the authenticated pinned encoder cache, computing every option against only the writer's earlier completed typed sessions. Keep both/neither browsing, all handling modes and absent own history separate. No T4 model eligibility restriction is imported.
+
+**Found.** The constructed menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.
+
+Seven targeted checks pass and the native handler completes both execution and independent-process replay. The complete output inventory, pinned sources and exited native identities verify. This attempt used 0.734375 CPU seconds, with 1151.593750 previously charged to the shared S4 account. Its counts and timing scope are retained in the aggregate receipt. Constructed mode contains no human inputs; the 140-session timing subset cannot establish population support. Full mode remains source preparation, without reliability, a chosen-option contrast, a probability or a scientific verdict.
+
+The initial local test run could not create its default temporary directory; six checks passed and the seventh did not execute. The unchanged suite passed with an explicit workspace scratch directory. That environmental refusal is retained. Before freezing native sources, review also replaced an incorrect progress-path call with the existing bounded atomic file writer and changed verification to query raw boundary predecessors. The final frozen seven-check suite passes. No corpus attempt failed or result was repaired.
+
+**Means.** Complete the cost-admitted full source and the separately frozen descriptive consumer. Opening hover snapshots remain distinct from actual hover events, absence of a hover is not absence of examination, and this record licenses no device-to-intention or causal inference. Other healthy Gear 2 studies continue; ready-buffer construction and paid-node admission remain unfinished. No tests were harvested from the operational request and no new paid or GPU work is launched by this landing.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed menu-browsing source passes fresh replay of visible navigation and strictly earlier own text; the descriptive comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete measured source admission and independently validate the descriptive menu comparison; preserve the ready-buffer deficit.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_MENU_SOURCE_CONSTRUCTED_20261103.md.
+
+### OPS-S15-W4-HEALTH-20261103-0357
+
+**Hypothesis.** Are the overnight studies advancing under their original limits, and is any failed process or runnable authorized successor being missed?
+
+**METHOD.** Compare exact native executable, PID and creation identity, real CPU accumulation and output freshness with the preceding health inspection. Authenticate every active source pin, numerical-thread environment, finite resource limit and counted lease. Reconcile all current Week 4 process watches and terminal records, targeted runtime processes, unowned plans, locked files, resource headroom, GPU inventory, shared reservation, watcher delivery/source adoption and the calendar. Verify the existing complete write-through and claim anchors.
+
+**Found.** Both Gear 2 CPU studies progressed through the night within their limits; monitoring and records verify, while the ready buffer and remaining commissioned builds are unfinished.
+
+PP1's original pooled pause study and WD1.h1's population-relative sensitivity comparison retain the same owners and actual execution children. Each added more than five hours of CPU since the preceding final inspection. Operational output is fresh, recorded numerical-thread settings remain one, and all source pins match. Both studies are below their CPU, wall and output limits. The complete reference banks and fresh replay remain required before accepting any result. No unfinished scientific score is reported.
+
+Two valid CPU leases account for the two studies. The eleven targeted Python processes resolve to those studies, their Windows virtual-environment launchers, the watcher and the finite calendar; launchers are not extra scientific slots. All 113 Week 4 native watches resolve to living owners or retained terminals. The 109 terminal attempts match the preceding inspection exactly. The two historical failed receipts remain preserved and already handled, including the separate environmental attribution for the twelve-word verification interruption. No new failure, stale lease or environmental interruption calls for recovery.
+
+All twenty-one scientific locks pass. Available physical RAM is 47.08 GiB, commit headroom 35.29 GiB and free disk 304.78 GiB. No shared reservation is active. No scientific Python/Ollama GPU process is observed; GPU parking remains intentional.
+
+The sole unowned plan is still the unchanged R2-full pre-admission refusal. Its separately admitted successor already completed and landed, so it is not ready work. D33.s is complete; PP3.p1 remains held at its minimum project floor; D7 still lacks its validated scientific consumer. WD1.h1 and PP1 are running. CA1 requires its commissioned sample prerequisite, and WB1 effects require their fresh bounded cost probe. The closed S1 texture lane and unsupported S4/S5 grids stay closed. Remaining primary, numerical admission and paid-node builds are unfinished; PROC main remains instrument-held, with one cent booked and no new paid call.
+
+Ready successors remain zero against eight required; two of four counted slots are occupied. Handoff-to-inspection accounting contains 52.4985 idle slot-hours, using admitted-to-terminal occupancy rather than measured CPU utilization. Unfinished scientific consumers, readiness construction and explicit admission holds remain the causes. This is a continuing build/readiness defect while commissioned work exists; it is not a reason to restart healthy workers or rerun completed work. No already admitted ready successor was overlooked.
+
+The watcher holds its singleton, matches its loaded source and native identity, and scans freshly under the same owner without a current error or cancellation. This health event reached the owner on its first recorded attempt. Historical notification failures remain visible and the finite calendar is alive. Existing complete records and all 416 claim anchors verify before this landing; the prior digest's corrected archive links and dedicated report are preserved. The health event is acknowledged only after this full write-through and verification, rearming its independent six-hour deadline. No separate ETA wake is added.
+
+**Means.** Continue both admitted studies under their unchanged limits and completion/failure monitoring. Complete the remaining commissioned validation and ready-buffer work through their existing admission gates. No tests were harvested from this operational wake, no scientific judgment or probability changed, and no process recovery was necessary. Scientific synthesis remains reserved for the final packet. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both Gear 2 CPU studies progressed through the night within their limits; monitoring and records verify, while the ready buffer and remaining commissioned builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted studies and remaining commissioned validation; retain the ready-buffer deficit and all cost, source and instrument holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261103_0357.md.
+
+### OPS-S15-W4-HEALTH-2152
+
+**Hypothesis.** Are the admitted jobs and their monitoring progressing safely, and is any authorized recovery or ready successor being missed?
+
+**METHOD.** Verify exact native process identities, compare actual execution CPU with the previous digest, inspect fresh output and runtime progress, authenticate live source pins and finite limits, and reconcile counted leases. Check all current Week 4 native watches, completed and failed terminals, resource headroom, locked files, GPU inventory, shared reservation, watcher singleton/source adoption and actual delivery. Review the commissioned backlog and every Week 4 plan lacking an owner.
+
+**Found.** Both admitted Gear 2 CPU studies continue with fresh output and verified limits; no new failure requires recovery, while the ready buffer and remaining campaign builds stay unfinished.
+
+PP1's original pooled pause study and WD1.h1's population-relative sensitivity comparison remain in execution. Their owners and actual children have unchanged creation identities. Each actual worker added more than ninety minutes of CPU since the final digest inspection, and both have recently written operational progress. All source pins still match; recorded numerical thread settings are one. Neither exceeds CPU, wall or output limits. Complete reference banks and fresh independent replay remain required before accepting a result; no partial score is inspected for scientific interpretation or reported.
+
+The native process inventory resolves to these two jobs, their Windows virtual-environment launchers, the finite calendar and watcher. The zero-CPU launcher processes are not additional scientific slots. The two counted leases match live owners; no stale lease, orphan or disappearance was found. All 113 current Week 4 process watches resolve to live owners or retained terminal outputs. The 109 completed/failed attempt records match the digest inventory exactly. Earlier nuisance timing and twelve-word verification failures remain retained and already handled; the latter retains its documented environmental attribution. No old failure is treated as a new retry request.
+
+Available RAM is 48.42 GiB, commit headroom 36.09 GiB and free disk 304.80 GiB. All twenty-one locks pass. No shared reservation is active. GPU inventory shows no scientific Python/Ollama compute worker; parking remains intentional. The legacy general-queue log is historical and is not the current Week 4 supervisor.
+
+The single unowned Week 4 plan is the retained initial R2-full pre-admission refusal, missing its completed-pilot bookkeeping flag. Its separately admitted successor is already complete and fully recorded. It is not a ready successor and must not be restarted. D33.s is complete; PP3.p1 is cost-held at its declared project floor; D7 lacks its validated scientific consumer. WD1.h1 and PP1 occupy the next executable full-run positions. CA1 still needs its commissioned sample prerequisite and WB1 its fresh bounded cost probe. The closed S1 texture lane and unsupported S4/S5 grids remain unchanged. Paid-node construction and other primary consumers are unfinished; PROC main remains instrument-held after calibration, with one cent booked and no new paid call.
+
+There are zero ready successors against eight required and two occupied slots out of four. Handoff-to-inspection idle capacity is 40.3134 slot-hours, using counted admission-to-terminal occupancy rather than measured CPU utilization. The deficit remains a build/readiness defect while commissioned work exists, not evidence of a failed active worker. No already admitted ready successor was overlooked; no completed result or parked GPU job was restarted to fill capacity.
+
+The watcher matches its loaded sources and native creation identity, holds its singleton and scans freshly under the same owner without current error or cancellation. This health event reached the owner on its first recorded delivery attempt. Historical notification failures remain visible. The finite calendar is alive. Only after this full write-through and verification is the health event acknowledged, rearming the independent six-hour deadline; no ETA wake is added.
+
+**Citation-path correction.** The daily digest's duplicated entry in the root method archive contained report-relative links. This pass corrects 29 links to repository-relative destinations and checks that they resolve. Its dedicated report, JSON receipt, exact claim wording, results and follow-up dispositions remain unchanged. Claim source anchors are refreshed and verified in the same pass.
+
+**Means.** Keep both admitted studies under their existing limits and completion/failure monitoring. Continue the commissioned validation and ready-buffer obligations without lowering gates or treating an unbuilt card as executable. No new tests were harvested from this operational wake. No theory or multiplicity update is introduced; scientific synthesis remains in the final packet. Records remain local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both admitted Gear 2 CPU studies continue with fresh output and verified limits; no new failure requires recovery, while the ready buffer and remaining campaign builds stay unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted studies and unfinished commissioned validation; preserve all ready-buffer, support, cost and instrument deficits.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261102_2152.md.
+
+### OPS-S15-W4-DIGEST-20261102
+
+**Hypothesis.** Are today's completed evidence, corrections and remaining execution obligations consistently recorded under the Week 4 contract?
+
+**METHOD.** Reconcile the existing claim ledger and complete public receipts, verify all source anchors and cross-record write-through, and inspect exact native identities, advancing CPU, fresh output, source pins, limits, leases, locks, watcher delivery and the finite calendar. This digest quotes completed ledger claims without rescoring data or adding scientific interpretation. Running studies contribute operational state only.
+
+## Corrections first
+
+Classes below describe corrections already recorded today. Current dispositions distinguish the historical landing from later completion; all original failures remain retained. No new scientific correction is introduced by this digest.
+
+- **instrument — OPS-S15-W4-PROC-CALIBRATION** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_PROC_CALIBRATION_20261102.md)): Centrality agreement failed the complete blind rung. Main remains held; the single approved prompt correction and fresh rung are still unbuilt.
+- **instrument — OPS-S15-W4-S5-NATIVE** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S5_NATIVE_20261102.md)): Exact-zero classification was repaired in OPS-S15-W4-S5-NATIVE-H1 without changing coefficients. The later human census is design cannot test, not an instrument failure or a null.
+- **scope — S15-W4-S1-RECURRENCE-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_FULL_20261102.md)): The completed S1 instrument check replaces sensitivity-untested wording with conditional, limited small-effect sensitivity. It does not license a human negative. The original follow-up registration is completed under S15-W4-S1-IC-20261102.
+- **scope — OPS-S15-W4-T4-MATCHED-COST-LAUNCH** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MATCHED_COST_LAUNCH_20261102.md)): The complete source has 61 writers: eight have no eligible menus, eighteen more fail two-half support, and thirty-five qualify. The stored exclusion field covered only writers with menus. This corrects scope accounting, not source or fits; the launch itself is historical and its probe has completed.
+- **instrument — OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE-V2** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_SAMPLE_NATIVE_V2_20261102.md)): The genre join now uses authenticated window sessions instead of assuming genre exists in word records. Known real-interface cases and full replay passed; the five later sampled comparisons are complete.
+- **attribution — OPS-S15-W4-S1-TEXTURE-12-ENVIRONMENT** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_TEXTURE_12_ENVIRONMENT_20261102.md)): The retained generic engineering failure is an environmental Windows progress-file replacement refusal. The unchanged complete rerun subsequently passed replay and landed as S15-W4-S1-WINDOW-12-20261102.
+- **instrument — OPS-S15-W4-S1-NUISANCE-V2-CONSTRUCTED** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_NUISANCE_V2_CONSTRUCTED_20261102.md)): The source session start was converted from milliseconds to seconds. The original timing failure remains retained and charged; mixed-unit validation and complete later source replay passed.
+- **instrument — OPS-S15-W4-T4-MENUS-V2-CONSTRUCTED** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_T4_MENUS_V2_CONSTRUCTED_20261102.md)): Pre-admission source registry and Windows separator handling were corrected in a separate consumer. Original hashes, alias refusal, choices and histories remain intact; later full menu preparation passed.
+- **instrument — OPS-S15-W4-S1-GRAM-3-RECURRENCE-NATIVE** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RECURRENCE_NATIVE_20261102.md)): Constructed receipt keys were corrected to the existing POSIX path contract after three failed checks. Six targeted checks and complete source/statistical replay then passed; original failed evidence and charges remain.
+- **instrument — OPS-S15-W4-PP3-PROJECT-COST-NATIVE** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_PP3_PROJECT_COST_NATIVE_20261102.md)): Both project and author grouping indices were remapped after the constructed bootstrap exposed noncontiguous indices. Five checks and native replay passed; the subsequent minimum-project sample is cost-held. Its same record corrected the obsolete D33 open task after confirming D33.s had already landed; no duplicate D33 run occurred.
+
+## Completed results and support records
+
+Each item gives the stable ledger identifier, its exact current public wording, control status and registered follow-up disposition. These are completed records, not partial scores or a final theory synthesis.
+
+- **S15-W4-S5-SUPPORT-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S5_SUPPORT_20261102.md)); controls: **untested**. Design cannot test: the planning-gap comparison lacks its declared author support; no primary effect was computed. Follow-up: Close S5 as design cannot test, retain descriptive census and dispatch independent Week 4 cards; no sensitivity descendant.
+
+- **S15-W4-D33-SPEC-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_D33_SPEC_FULL_20261102.md)); controls: **passes**. The supported personal-history pause association remains positive across all frozen screen-adjustment specifications; this is descriptive robustness on the same cohort, not independent or causal evidence. Follow-up: The specification sibling is complete. The already registered prompt-excluded mechanism and common-word pipeline siblings remain separately unbuilt/unadmitted; no descendants of this follow-up.
+
+- **S15-W4-S4A-SUPPORT-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S4A_SUPPORT_20261102.md)); controls: **untested**. The complete cursor census lacks the declared writer support for the landing comparison; no primary effect is computed, and the separate menu comparison remains open. Follow-up: Retain unsupported S4(a); build the separate canonical menu comparison with inherited controls; no automatic descendants.
+
+- **S15-W4-S4-TEXTURE-SUPPORT-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S4_TEXTURE_SUPPORT_20261102.md)); controls: **untested**. All three declared cursor variants remain unsupported at the writer floor after complete source replay; the parent claim and separate menu question remain unchanged. Follow-up: Retain all three unsupported variants and the parent gap; continue S4(b) and commissioned primary builds without texture descendants.
+
+- **S15-W4-S1-RECURRENCE-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_RECURRENCE_FULL_20261102.md)); controls: **passes**. An own-template advantage in flow windows was not detected among 38 supported writers; completed constructed calibration shows limited small-effect sensitivity and does not license a human negative. Follow-up: Registered S1.ic completed as S15-W4-S1-IC-20261102. Retain its conditional sensitivity limits; no new descendant registered by this digest.
+
+- **S15-W4-S1-IC-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_IC_FULL_20261102.md)); controls: **passes**. In constructed sessions, the complete template rule detects large planted contrasts more often than small ones; the human contrast remains not detected and its psychological interpretation stays open. Follow-up: Preserve the parent null with conditional sensitivity limits; no follow-up descendants.
+
+- **S15-W4-S1-WINDOW-5-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_5_RESULT_20261102.md)); controls: **passes**. The 5-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. Follow-up: Retain descriptive sample scope and parent sensitivity limits; no texture descendants; continue commissioned builds.
+
+- **S15-W4-S1-WINDOW-12-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_WINDOW_12_RESULT_20261102.md)); controls: **passes**. The 12-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. Follow-up: Retain descriptive sample scope and parent sensitivity limits; no texture descendants; continue commissioned builds.
+
+- **S15-W4-T3-SUPPORT-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_T3_SUPPORT_20261102.md)); controls: **untested**. The chunk-library comparison is unsupported in the declared final typed-text channel; no compression result was computed. Follow-up: Retain the unsupported T3 case and unchanged floor; continue the remaining commissioned tree.
+
+- **S15-W4-S1-DICTIONARY-100-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_100_RESULT_20261102.md)); controls: **passes**. The 100-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. Follow-up: Retain descriptive sample scope and parent sensitivity limits; no texture descendants; continue commissioned builds.
+
+- **S15-W4-S1-DICTIONARY-300-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_DICTIONARY_300_RESULT_20261102.md)); controls: **passes**. The 300-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. Follow-up: Retain descriptive sample scope and parent sensitivity limits; no texture descendants; continue commissioned builds.
+
+- **S15-W4-S1-GRAM-3-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RESULT_20261102.md)); controls: **passes**. The 3-word skeleton-template whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim. Follow-up: Stop the S1 texture family at its five-consecutive-similar limit; retain descriptive sample scope and parent sensitivity limits; continue independent commissioned builds.
+
+- **S15-W4-S5-TEXTURE-SUPPORT-20261102** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_S5_TEXTURE_SUPPORT_20261102.md)); controls: **untested**. Design cannot test: all declared planning-gap and separate-project variants lack the original author support; no effect was computed. Follow-up: Close the declared S5 texture support grid; continue independent commissioned cards without lowering support or launching descendants.
+
+## Completed instruments and cost admissions
+
+These are operational validations, not additional scientific findings. Historical launch rows in the complete JSON inventory remain historical.
+
+- **OPS-S15-W4-R1-FULL** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_R1_FULL_20261102.md)); controls: **passes**. The R1 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+- **OPS-S15-W4-R2-FULL** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_R2_FULL_20261102.md)); controls: **passes**. The R2 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+- **OPS-S15-W4-TIMING-FULL** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_TIMING_FULL_20261102.md)); controls: **passes**. The complete Week 4 timing preparation independently replays with every source interval accounted for; dependent scientific comparisons remain uncomputed.
+- **OPS-S15-W4-T4-H1-KERNEL-FULL** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_KERNEL_FULL_20261102.md)); controls: **passes**. The complete T4.h1 constructed bank meets the unchanged recovery rule and original fit certificates; new full-feature cost and human scientific admission remain pending.
+- **OPS-S15-W4-T4-H1-COST-COST** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_T4_H1_COST_COST_20261102.md)); controls: **passes**. The T4.h1 full-feature cost probe independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.
+- **OPS-S15-W4-PP3-PROJECT-COST-HOLD** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_PP3_PROJECT_COST_HOLD_20261102.md)); controls: **passes**. The minimum whole-project classifier sample is cost-held after complete independent timing replay; no scientific result is admitted.
+
+## Execution, readiness and capacity
+
+**Found.** The November 2 daily digest reconciles completed Week 4 records; two Gear 2 CPU studies continue within their limits, while the ready buffer and remaining campaign builds are unfinished.
+
+At 2026-11-02T20:05:55.244520-08:00, PP1's original pooled pause study and WD1.h1's population-relative sensitivity comparison occupy two of four counted CPU slots. Both actual execution processes accumulate CPU, have fresh output, preserve all frozen source pins and have one numerical thread in their recorded environments. Both remain below CPU, wall and output limits; no terminal failure or stale lease requires recovery. Full reference banks and fresh replay remain required before any result is accepted. GPU parking is intentional.
+
+Ready successors: **0 against 8 required**. Handoff-to-inspection idle capacity is **36.7753 slot-hours**, calculated as four slots times elapsed wall time since 2026-11-02T15:01:54.476823Z, less admitted-to-terminal occupancy. This is slot occupancy accounting, not measured CPU utilization. Causes are serial build/readiness gaps, explicit support failures, incomplete scientific consumers and retained cost/instrument holds. Idle capacity while commissioned work remains is a recorded defect; healthy active workers do not make the campaign fully built.
+
+D33.s is complete and must not rerun. PP3.p1 is held at its declared three-project floor. D7 lacks its validated scientific consumer; CA1's full route still depends on its commissioned sample; WB1 effects require the fresh bounded cost probe. T4.h1's numerical and generated-fit cost evidence is complete, while human controls, uncertainty and total cost admission remain unfinished. Remaining S/T/V/U primary construction, eligible R1-unblocked returns and paid-node builds remain open. The S1 family stop and S4/S5 support holds are preserved. No merely registered or drafted card is counted as ready.
+
+All 113 current Week 4 native watches resolve to live owners or retained terminals; 109 local/native terminal attempts are reconciled with the prior inspection and no new terminal has appeared. The two retained failed terminal receipts were already handled, including the corrected environmental attribution above. All 21 scientific locks pass. Available physical RAM is 48.64 GiB, commit headroom 35.76 GiB and free disk 304.80 GiB. No shared reservation is present.
+
+The watcher holds its singleton, matches its loaded sources, scans freshly under the same owner and has no current error or cancellation. This digest event was delivered on its first recorded attempt and is acknowledged only after this complete write-through. The calendar remains alive. The independent health deadline stays **2026-11-02T21:51:10.575474-08:00**; an ordinary digest ACK does not reset it. Completion/failure transitions remain monitored, with no extra ETA wake.
+
+## Texture counts
+
+Rows name each declared texture grid. Estimate cards and support-only variants are distinct counts; preparation/native/cost runs are not counted as estimates.
+
+| Family | Completed estimate cards | Support-only variants checked | Current disposition |
+|---|---:|---:|---|
+| S1 | 5 | 0 | Five consecutive similar completed estimates close the lane; five-gram corpus work is not admitted. |
+| S2 | 0 | 0 | Primary and texture consumers unbuilt. |
+| S3 | 0 | 0 | Primary and texture consumers unbuilt. |
+| S4 | 0 | 3 | All declared cursor variants unsupported; separate menu comparison remains open. |
+| S5 | 0 | 7 | Two alternative gaps and five projects unsupported; no effects or descendants. |
+| T2 | 0 | 0 | Primary and texture consumers unbuilt. |
+| T3 | 0 | 0 | Primary source is design cannot test; no texture estimate admitted. |
+| T4 | 0 | 0 | Constructed kernels and cost probes are not texture estimates; human admission unfinished. |
+
+Other families have no completed texture estimate. Texture work is descriptive, cannot upgrade a claim and produces no descendants.
+
+## Paid accounting
+
+Rows show this Week 4 campaign only, in US cents, including reconciled bookings. Earlier campaigns remain separate.
+
+| Node | Booked cents | Node cap in cents | Current disposition |
+|---|---:|---:|---|
+| PROC | 1 | 200 | Calibration reconciled; main instrument-held; approved correction pending. |
+| PLAN | 0 | 150 | Approved scope; node not built or dispatched. |
+| DRIVE | 0 | 150 | Approved scope; node not built or dispatched. |
+| PLANT | 0 | 50 | Approved scope; node not built or dispatched. |
+| REV | 0 | 50 | Approved scope; node not built or dispatched. |
+| VAL | 0 | 200 | Approved scope; node not built or dispatched. |
+| AUTH | 0 | 100 | Approved scope; node not built or dispatched. |
+
+Total booking is one cent against the 1,000-cent hard campaign ceiling; listed node caps sum to 900 cents. No paid call, new transfer, delegation or scientific launch occurred during this digest. The approved PROC correction and fresh rung remain available within its cap; failed calibration does not authorize its main run.
+
+**Means.** Continue both admitted CPU studies under their original limits and transition monitoring, then complete the remaining commissioned validation and ready-buffer work. The daily record is complete; the campaign is not. No tests were harvested from this operational wake. No new probability or theory change is introduced, so the existing multiplicity record and theory interpretations are retained. Scientific synthesis remains reserved for the final Week 4 packet. Records remain local; this calendar event did not perform publication.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 2 daily digest reconciles completed Week 4 records; two Gear 2 CPU studies continue within their limits, while the ready buffer and remaining campaign builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Continue both admitted studies and complete remaining commissioned validation and ready-buffer work; preserve all support, cost and instrument holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_DIGEST_20261102.md.
+
+### OPS-S15-W4-HEALTH-1547
+
+**Hypothesis.** Is the authorized queue progressing within its limits, and can an idle slot run an already validated commissioned study?
+
+**METHOD.** Inspect exact native executable, PID and creation time for every active owner and execution process, real CPU accumulation, output freshness, source hashes, slot leases and finite limits. Reconcile completed and failed terminal states, all current Week 4 process watches, watcher source adoption and singleton, actual event delivery, calendar, shared reservation, GPU inventory and all twenty-one locked files. Check the packet's idle-slot order against executable validation and cost receipts. Re-run nine existing targeted pause-study checks before admitting the unchanged full study.
+
+**Found.** Two bounded Gear 2 CPU workers are progressing after the validated full pause study filled an idle slot; monitoring, locks and resource limits verify, while the ready buffer and remaining builds are unfinished.
+
+The existing population-relative sensitivity worker continues with advancing CPU and fresh private reference progress. The full pause study now occupies a second counted CPU slot. Both actual execution processes have one numerical thread in their environments, exact identities and unchanged source pins; this is not a claim of live library-pool introspection. Their complete/failure/pause paths and native disappearance watches were registered before work. Neither has a terminal failure. No partial scientific score is reported.
+
+The pause study's original native instrument, canonical source and whole-source cost pilot all reverify. Nine targeted tests pass, including known signal/no-signal cases, mechanical recovery, typing-speed invariance, complete replay, corruption refusal and full-population/draw-count guards. No scientific runner was edited. Both genres retain the original pooled mixture, 2,000 complete writer-bootstrap refits and 1,000 independent-role profile reassignments, followed by complete fresh-source replay. Week 4 explicitly leaves PP1's original pooled fit intact. Instrument and profile-identification admissions remain separate.
+
+The packet names 121,121.09375 CPU seconds as the last complete-work projection, giving a full-run allowance of 181,681.640625 with its fifty-percent margin. Earlier charges of 394.453125 and a sixty-second new check/admission reserve leave 181,227.1875 for this attempt. The unchanged runtime field for the original ceiling represents this new named allowance, with the historical 3,600-second cap retained separately. Prior charges plus the attempt ceiling equal the new allowance exactly; no further S4 doubling is authorized. The forecast includes 600 additional seconds of overhead inside that allocation. The full wall guard ends before the fixed drain. This runner does not persist its bootstrap bank, so admission does not assume resumable partial inference. Original evidence and cost holds stay recorded in [the prospective admission](../../../docs/design/stage-15/week4/PP1_IDLE_ADMISSION.md).
+
+The inspected machine has 48.17 GiB available physical RAM, 37.26 GiB commit headroom and 304.83 GiB free disk. Both jobs are below their CPU, wall and output limits. GPU inventory contains desktop processes and no scientific GPU worker; parking remains intentional. No stale counted lease or process disappearance requires cleanup. The finite calendar is alive.
+
+All 113 current Week 4 native watches resolve to a live owner or retained terminal. The 109 inspected local/native terminal attempts are preserved, including the two earlier nuisance/recurrence failures whose events and subsequent handling are already recorded. They are not new failures or permission to restart completed work. Existing result receipts and claim anchors are checked before ACK. The delayed completion notices were reconciled with their original full landings and original ACK timestamps. The watcher matches its loaded source, holds its singleton, scans freshly under the same owner and has no current cancellation or error. This health event reached the owner on its first recorded attempt. Historical notification failures remain visible.
+
+D33.s is complete, the minimum PP3.p1 project sample is cost-held, and D7 lacks its validated scientific consumer. WD1.h1 is running and PP1 was the next executable full run in the named order. CA1's full idle route still depends on its commissioned sample; WB1 needs its fresh bounded effects cost probe. The S1 texture stop and S4/S5 support holds are preserved. Primary and paid-node construction remains unfinished; PROC main stays instrument-held with one cent booked and no new paid call.
+
+The ready successor buffer remains zero against eight required; two slots remain idle. Handoff-to-inspection accounting contains 28.1649 idle slot-hours, using counted admission-to-terminal intervals. This remains a build/readiness defect while commissioned work exists. This pass recovered one idle slot by authenticating and admitting an existing validated full study; it does not claim the buffer or campaign is complete. No new hypothesis was harvested, no delegation was added and no scientific gate was weakened. Scientific synthesis remains in the final packet.
+
+**Means.** Keep both admitted workers under completion/failure monitoring and continue the unfinished commissioned builds. After this complete internal write-through and verification, acknowledge the health event to rearm its independent six-hour deadline. No separate ETA wake is added.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two bounded Gear 2 CPU workers are progressing after the validated full pause study filled an idle slot; monitoring, locks and resource limits verify, while the ready buffer and remaining builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Monitor both original full studies; complete primary/paid validation and the ready buffer under unchanged stage limits.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261102_1547.md.
+
+### OPS-S15-W4-WD1-IDLE-LAUNCH
+
+**Hypothesis.** Can the already-built population-relative sensitivity study proceed within the Week 4 full-run allowance, with its original controls and earlier costs preserved?
+
+**METHOD.** Authenticate the original constructed replay, complete-source cost probe and all input/source hashes. Rerun fourteen existing targeted checks covering criterion/sensitivity separation, recipient exclusion, forbidden-history invariance, gradient certificates, solver parity, complete-bank refusal, reentry and checkpoint recovery. Admit the unchanged full runner against the packet's named idle-slot allocation, then inspect native owner/child, numerical threads, progress, lease, resources, watcher and calendar.
+
+**Found.** The validated full population-relative sensitivity comparison is running in monitored Gear 2 under the Week 4 idle-slot allowance; the ready buffer and remaining commissioned builds are unfinished.
+
+The run retains all 1,000 within-prompt whole-session writer-label permutations, fresh recipient-complement preprocessing and population fits for every reference, original profile fits, and 2,000 paired writer bootstrap draws. The exact Newton objective, scientific gates, source population, PCA dimension and seed are unchanged. Its estimand remains sensitivity relative to population acceptance; no independently measured quality, competence, learning, payoff or causal claim follows. No unfinished result or partial score is reported.
+
+The packet explicitly allocates the last measured full projection of 100,968.75 CPU seconds plus fifty percent: 151,453.125 cumulative CPU seconds. Historical diagnostic/native/pilot charges of 300.171875 and a new sixty-second admission/check reserve leave 151,092.953125 for this attempt. The admission forecast adds 600 seconds for real fits, summaries and overhead without increasing the allowance. The wall guard ends before the fixed drain. The new plan preserves the historical 7,200-second study cap separately; its generic runtime budget field represents this new named full-run allowance. Actual attempt cap plus prior charges equals the named allowance exactly. No further S4 doubling is authorized.
+
+At inspection one native worker is active with one numerical thread and a counted CPU lease. All source pins and identities verify; live CPU, progress and resource headroom are retained in the receipt. The process remains under finite CPU, wall, memory and output limits. Checkpoints and all terminal paths are registered; no stale lease or recovery is required. The measured projection is roughly twenty-eight CPU hours, with timing uncertainty covered by the finite allowance; this estimate is not a completion claim or an ETA wake.
+
+The same-owner watcher is fresh, holds its singleton and matches loaded sources without a current error or cancellation. The calendar is alive. The independent health deadline remains 2026-11-02T15:41:17.802681-08:00; completion/failure transitions remain immediate. No extra timing wake was scheduled.
+
+D33.s is already complete. PP3.p1's minimum three-project sample is fully recorded and cost-held after independent replay; reducing its project floor or reference bank is not allowed. D7 is smaller in the backlog but lacks its complete scientific control/calibration consumer, so it is not executable. WD1.h1 is the next validated executable item in the named idle-slot order. The S1 texture stop and S4/S5 support holds are preserved; no result was rerun to fill a slot.
+
+The delayed S1 completion was fully reverified and idempotently acknowledged, preserving its original timestamp and health clock. The completed classifier probe was written through and acknowledged. Zero ready successors against eight required and 26.3449 idle slot-hours since handoff remain a build defect. Primary, paid-node and ready-buffer construction remain unfinished; this launch is not a fully built campaign. GPU remains parked, PROC main is instrument-held, and no new paid transfer or delegation occurred. No tests were harvested from the wake. Records remain local and scientific synthesis stays in the final packet.
+
+**Means.** Keep this admitted worker running under transition monitoring. Continue independent commissioned builds and land the complete reference bank only after fresh replay and full write-through; preserve all caps, support gaps and final-packet reporting.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The validated full population-relative sensitivity comparison is running in monitored Gear 2 under the Week 4 idle-slot allowance; the ready buffer and remaining commissioned builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Monitor the admitted full WD1.h1 bank and independent replay; continue unfinished Week4 builds and the ready buffer, retaining all study bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_WD1_IDLE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-PP3-PROJECT-COST-HOLD
+
+**Hypothesis.** Does the commissioned whole-project sample make the original alternative classifier and complete reference workload affordable?
+
+**METHOD.** Reconstruct the full authenticated source and preserve three complete projects chosen by seed 20261102. Retain all their rows, original features, held-project evaluation, tree settings and both reassignment streams. Time a real fit and two draws from each stream, plus complete-shape bootstrap work. Independently replay every source join, sample identity and actual timing fit. Forecast all 401 actual refits and complete summaries in two processes with a factor-three safety margin.
+
+**Found.** The minimum whole-project classifier sample is cost-held after complete independent timing replay; no scientific result is admitted.
+
+The frozen sample retains 29,206 of 61,504 rows, three of five projects and three of twelve project-scoped authors; the full census and unselected projects remain intact. These are whole-project units, not a row-level convenience sample. The reference and bootstrap semantics are unchanged. Repeated records were used only to size computation and are not an inferential bank. No empirical effect, interval, probability or partial score is reported.
+
+The complete projected workload is 26280.656250 CPU seconds against 6318.343750 remaining under the single 7,200-second allowance. The probe and its independent replay consumed 174.234375 CPU seconds; cumulative charged/reserved usage is 881.656250, including the original failed probe, the new construction/check reserve and native validation. The three-project floor does not fit. A smaller project count, fewer source rows or thinner references is not admitted. This is a budget hold, distinct from a scientific null or unsupported-source result.
+
+All source pins, output hashes, native exits and released lease verify. Five targeted checks and the repaired project's complete native replay remain recorded, including the first failed indexing check. No probability was introduced, so multiplicity is unchanged. The existing parent result and full-population question remain unchanged; an exact cheaper successor would require its own prospective parity and complete-cost checks.
+
+The S1 notification in this pass was a delayed duplicate: all 8,046 pins, 982 output hashes, theory rows and afterwords, multiplicity receipt and full write-through verify. Its original acknowledgement timestamp and independent six-hour health deadline are preserved. No test was harvested from that wake. No new GPU, paid or delegation authority was used.
+
+**Means.** Keep PP3.p1 held and continue the eligible commissioned build/backlog. The probe worker has exited; the ready buffer remains empty and the campaign is unfinished. Scientific synthesis remains reserved for the final packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The minimum whole-project classifier sample is cost-held after complete independent timing replay; no scientific result is admitted.; project meaning: scoped operational record; next engineering obligation: Retain PP3.p1 cost hold at the declared project floor; continue eligible Week 4 work without reducing controls.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PP3_PROJECT_COST_HOLD_20261102.md.
+
+### OPS-S15-W4-PP3-PROJECT-COST-LAUNCH
+
+**Hypothesis.** Are completed results fully recorded, and is the next eligible commissioned item progressing within its cost and monitoring limits?
+
+**METHOD.** Verify the live owner and child by native PID and creation identity, one-thread numerical environment, source pins, progress, finite resources and counted lease. Authenticate watcher singleton, loaded code, scan freshness and calendar. Reconcile completed S1, S5 and classifier-native receipts and their acknowledgement evidence; retain readiness and idle-capacity accounting.
+
+**Found.** The validated whole-project classifier cost probe is progressing in monitored Gear 2; completed results are recorded, while the eight-card ready buffer and remaining Week 4 builds are unfinished.
+
+The completed S1 three-word comparison is fully written through, including theory, multiplicity and ledger. Its fifth consecutive similar estimate stops that texture family. The S5 complete-source support grid and independent replay are fully recorded; every declared variant remains unsupported at its original floor, without a fitted effect or descendant. Their acknowledgements and the delayed original native-event reconciliation preserve the independent health clock.
+
+The new PP3.p1 adapter passes five targeted checks and complete native replay. One project-index engineering repair and its failed check remain preserved. Three complete projects are selected by the packet seed, retaining every row in those projects and the complete source census. The unchanged original classifier and reference machinery are timed; no corpus score is reported. Repeated records are used solely to benchmark full-shape bootstrap computation, never as a scientific reference bank. A future empirical consumer still requires the complete measured forecast and validation.
+
+The current source cost probe retains 707.421875 previously charged/reserved CPU seconds and a 600-second attempt guard, inside the single 7,200-second allowance. All source pins verify. One counted worker advances with one numerical thread. Native identity, CPU, progress and resource readings are in the receipt; terminal paths are registered. No stale lease or environmental failure requires recovery.
+
+The same-owner watcher is fresh, holds its singleton and matches loaded code without a current error or cancellation; the calendar is alive. The independent six-hour health inspection remains due 2026-11-02T15:41:17.802681-08:00. No ETA wake is created. Historical delivery failures remain visible; queued transport and completed acknowledgement are distinct.
+
+An exact-path guard prevented a duplicate D33 launch. Its existing completed attempt and landed result were verified; no scientific job or consumed plan was changed. The unused draft stays private and obsolete TODO wording is reconciled while preserving its separate unbuilt mechanism/pipeline routes.
+
+Zero ready successors against eight required and 25.6204 idle slot-hours since handoff remain a build defect, caused by sequential implementation and admission work. This does not certify a fully built campaign. T4 human scoring, PROC main and other source/cost holds remain; remaining primary and approved paid-node builds are unfinished. GPU stays parked. No new paid transfer, delegation or hypothesis was authorized by this wake. Records remain local and scientific synthesis stays in the final packet.
+
+**Means.** On the registered cost completion or failure, perform full write-through and review whole-project admission before any empirical scoring. Continue the other commissioned builds and ready-buffer work without rerunning completed or unsupported cards.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The validated whole-project classifier cost probe is progressing in monitored Gear 2; completed results are recorded, while the eight-card ready buffer and remaining Week 4 builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Land the complete PP3.p1 cost probe; preserve original sample floor, full references, all charges and final-packet policy; continue unfinished commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PP3_PROJECT_COST_LAUNCH_20261102.md.
+
+### OPS-S15-W4-PP3-PROJECT-COST-NATIVE
+
+**Hypothesis.** Can the commissioned whole-project sample retain the original classifier and clustered reference machinery while measuring its complete cost?
+
+**METHOD.** Freeze three of the five complete projects by the packet seed, retain every row and remap project and author indices without altering membership or ordered groups. Test whole-project retention, held-project separation, separable and constant known answers, complete deterministic timing replay and corrupted-output refusal. Independently replay all native fits and authenticate every source/output hash and process exit.
+
+**Found.** The whole-project classifier cost adapter passes known-answer checks and complete native replay; corpus timing and scientific sample admission remain pending.
+
+Five targeted checks pass. The constructed fixture selects 270 of 450 rows, all rows in three projects and six project-scoped authors. The original classifier, feature definitions and known-answer checks remain unchanged. The first constructed replay caught a noncontiguous project index reaching the inherited project bootstrap. One engineering repair remaps both grouping indices. Its failed test output and original adapter are preserved; no human-source timing preceded the repair.
+
+The probe fits the original model and two actual draws per reference stream. Repeated timing records then exercise the full bootstrap array shapes solely to measure computation. They are explicitly not a valid inferential reference bank and produce no empirical score, interval or probability. The full projection requires all 401 actual fits, both processes, full summary work and a factor-three margin. A later empirical consumer is unbuilt and unadmitted.
+
+Native validation and replay use 5.296875 CPU seconds. Prior failed/full-source work costs 582.125 seconds and the new build/check reserve is 120 seconds; cumulative charged/reserved usage is 707.421875. The forthcoming three-project cost probe is capped at 600 CPU seconds under the unchanged single 7,200-second S4 allowance. No fewer projects, thinner controls or new descendants are allowed.
+
+The delayed S1 event and completed S1 comparison are fully recorded. The declared S5 support grid is fully written through and acknowledged without fitting unsupported effects. A proposed D33 admission was refused before any launch because its existing completed attempt already occupied the exact path. Inspection confirmed D33 was completed and landed earlier today. No duplicate execution or plan mutation occurred; the unused admission draft and helper are retained privately. Its obsolete open queue wording is corrected below, preserving the distinct unbuilt mechanism and pipeline routes.
+
+**Means.** Admit only the bounded three-project cost probe, then compare its complete measured forecast plus all charges with the original allowance before building a scientific consumer. The Week 4 ready buffer and other commissioned work remain unfinished. No new test was harvested from the wake; no GPU, paid or delegation authority is added.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The whole-project classifier cost adapter passes known-answer checks and complete native replay; corpus timing and scientific sample admission remain pending.; project meaning: scoped operational record; next engineering obligation: Measure the approved complete-project sample cost; no empirical fit admission until its complete budget passes.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PP3_PROJECT_COST_NATIVE_20261102.md.
+
+### S15-W4-S5-TEXTURE-SUPPORT-20261102
+
+**Hypothesis.** Do the declared shorter and longer gap limits, or individual projects, supply enough planning starts to test whether planning follows a longer stop than implementation?
+
+**METHOD.** Replay all authenticated ScholaWrite released changes with the unchanged extractor at ten-, thirty- and sixty-minute limits. Count project-scoped authors with at least thirty planning starts and one implementation start. Apply the original six-author floor to the two declared gap variants and five separate projects at thirty minutes. Reconstruct every source output independently before checking native exits and hashes. No primary model, mixture, interval or reference probability is fitted in this support pass.
+
+**Found.** Design cannot test: all declared planning-gap and separate-project variants lack the original author support; no effect was computed.
+
+The table describes complete support counts, not scientific effects. Project numbers are opaque local ordering labels; each identity stays scoped to its project. Eligible intervals exclude first records, ambiguous timestamp edges and gaps exceeding the declared ceiling.
+
+| Declared case | Observed author identities | Authors meeting start floor | Authors required | Eligible intervals |
+|---|---:|---:|---:|---:|
+| gap-10-minutes | 12 | 3 | 6 | 51253 |
+| gap-60-minutes | 12 | 4 | 6 | 51479 |
+| project-1 | 8 | 2 | 6 | 22515 |
+| project-2 | 1 | 0 | 6 | 4173 |
+| project-3 | 1 | 0 | 6 | 6647 |
+| project-4 | 1 | 0 | 6 | 6119 |
+| project-5 | 1 | 1 | 6 | 11968 |
+
+All 61,504 released records, five projects and twelve project-scoped author identities are retained. The source keeps 9,799 ambiguous timestamp edges and twelve first records without intervals explicit. Ten-, thirty- and sixty-minute reconstructions respectively exclude 440, 271 and 214 long gaps. The original thirty-minute primary and its descriptive label census remain unchanged. No threshold is lowered to make a variant pass; unsupported variants are not nulls and do not establish absence of planning or deliberation.
+
+Complete execution and independent replay use 200.578125 CPU seconds. Including the six targeted checks and native validation, 233.703125 CPU seconds are conservatively charged in full to each prospective texture, within its 3,600-second ceiling. All source pins, output hashes and native exits verify, and the counted lease is released. No statistical admission or descendant is opened. No probability is introduced, so multiplicity is unchanged.
+
+The S1 texture family remains stopped after its fifth consecutive similar complete estimate. No new test was harvested from this wake. GPU parking, paid-node holds and final-packet reporting remain unchanged; the ready buffer and other commissioned builds remain unfinished.
+
+**Means.** Close this declared S5 texture grid as unsupported and continue independent commissioned work. Preserve the full source, original support floor and all earlier findings; this census does not reject the broader planning hypothesis.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Design cannot test: all declared planning-gap and separate-project variants lack the original author support; no effect was computed.; project meaning: scoped operational record; next engineering obligation: Close the declared S5 texture support grid; continue independent commissioned cards without lowering support or launching descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S5_TEXTURE_SUPPORT_20261102.md.
+
+### OPS-S15-W4-S5-TEXTURE-SUPPORT-NATIVE
+
+**Hypothesis.** Can the declared gap-limit and separate-project variants count their eligible planning starts without weakening the original evidence floor?
+
+**METHOD.** Retain the existing released-change extractor and apply the packet's ten- and sixty-minute limits, plus separate projects at the original thirty-minute limit. Before reading the corpus, test constructed source records that support six authors at sixty minutes, none at ten, and only two per project. Test the thirty-start and six-author boundaries, exact gap thresholds, ambiguous timestamps, project-scoped identities and changed-output refusal. Replay every native output independently and verify all source hashes and process exits.
+
+**Found.** The planning-gap texture support instrument passes known cases and complete independent replay; corpus support and any later statistical admission remain pending.
+
+Six targeted checks pass. The native constructed population retains all 366 records, three projects and six project-scoped author identities. All five constructed variants match their known support state; five authors or twenty-nine starts refuse. Equality at the gap ceiling remains eligible, matching the original extractor. No fitted effect, mixture, reference probability or empirical texture result has been computed. The original thirty-minute result remains unsupported and unchanged.
+
+Native execution and independent replay use 3.125000 CPU seconds; targeted checks are conservatively charged thirty seconds. The complete shared preparation cost is charged to every prospective texture under its unchanged one-hour ceiling. Full corpus admission uses the original complete extraction cost, tripled for three extractions and tripled again for forecast safety, retaining every source identity. No support floor is changed. Passing support would still require separate statistical validation and cost admission; insufficient support is not a null and creates no follow-up.
+
+The S1 comparison is fully landed under S15-W4-S1-GRAM-3-20261102, including theory rows, afterwords, multiplicity and claim ledger. Its fifth consecutive similar texture estimate closes that family's texture lane; no five-word corpus dispatch is permitted. The present S5 work is a separately declared packet grid. No new test was harvested from the operational wake; no new paid, GPU or delegation authority is used.
+
+**Means.** Run the cost-admitted full support census and land every case, retaining all source gaps and the original author/start floor. Then admit only supported cases with complete measured statistical costs. Week 4 and its ready buffer remain unfinished.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The planning-gap texture support instrument passes known cases and complete independent replay; corpus support and any later statistical admission remain pending.; project meaning: scoped operational record; next engineering obligation: Complete the declared S5 texture support census before statistical admission; preserve S1 family stop and all existing scope/cost holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S5_TEXTURE_SUPPORT_NATIVE_20261102.md.
+
+### S15-W4-S1-GRAM-3-20261102
+
+**Hypothesis.** Does changing the skeleton template length to 3 words change the descriptive comparison of personal-template reuse in fluent versus hesitant production?
+
+**METHOD.** Apply the frozen template-length variant, retaining eight-word windows and the original 150-word dictionary, to the cost-admitted whole-writer sample, preserving the complete source census and donor pool. Reconstruct strict earlier-session histories and all eight inherited timing controls; compute the original equal-writer adjusted flow-minus-hesitant contrast in own-minus-donor skeleton recurrence. Use 2,000 whole-writer resamples and 200 within-session label permutations, with separate genre checks. Independently reconstruct every source row, fitted contrast and reference bank in a fresh process.
+
+**Found.** The 3-word skeleton-template whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+The table contains complete comparisons only. Effects and intervals are percentage-point differences in recurrence share; reference probability is the one-sided within-session tail. The writer floor requires twenty windows per arm in twenty-five writers. Unsupported strata have no computed effect.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Sample primary | 36 / 25 | -0.41094644 | [-1.99437050, 0.96302829] | 0.582089552239 | null; descriptive, positive gate not met |
+| Creative | 34 / 25 | -0.59249128 | [-2.06438790, 0.82152696] | 0.701492537313 | null; descriptive, positive gate not met |
+| Argumentative | 19 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The frozen sample contains 59 of 61 writers (96.7213% of the population). The source census, unselected writers and full donor pool remain intact. Complete source reconstruction retains 965 history-supported sessions and 10588 eligible windows before writer filtering; 54 windows lack exact nuisance values. The final primary supports 36 writers. Its machine disposition is null, determined by the signed estimate and interval, while the separate registered positive gate is not met. Passing controls and the point estimate alone do not resolve the contrast. All known-answer checks pass; the parent's complete constructed sensitivity curve remains limited for small effects and does not establish human power for this variant.
+
+Complete source, statistical and reference replay, all 8046 source pins, all 982 output hashes and all native exits verify. This invocation uses 75.593750 CPU seconds; cumulative charged usage is 1099.937500 of 3,600. Both sample adapter validations, matching-length scorer checks and earlier failed work remain charged. The complete known-source replay establishes matching target/own/donor gram lengths. 
+
+The primary estimate differs from the unchanged eight-word parent by 0.003912025624 recurrence-share units, against half its interval width of 0.010184700929. This is within the declared similarity bound. The S1 family has 5 consecutive completed similar texture estimates; preparation passes and unsupported comparisons do not increment that count. The stopping rule requires five. At five the S1 texture lane stops; no five-word corpus variant is admitted. This stopping count is an operational rule, not evidence of equivalence. The changed template length and sampled population are not independent replication.
+
+**Means.** The contrast remains unresolved at this descriptive sample scope. The variant neither upgrades nor reverses the parent claim, and it licenses no causal, automaticity or psychological interpretation. Full-population cost holds and human small-effect sensitivity remain open. Supported genre comparisons remain unresolved, while any unsupported stratum is distinct from a null result. Amendment G registers no descendants or additional sensitivity study for a texture. No new test was harvested from the operational wake; scientific synthesis stays in the final packet.
+
+
+Curator roll-up: Process and personal expertise; Does changing template length alter the personal-template comparison?; **Narrows**; The 3-word skeleton-template whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.; project meaning: scoped texture leaves the original claim unresolved; next engineering obligation: retain scope and stopping account, continue commissioned builds; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_GRAM_3_RESULT_20261102.md.
+
+### OPS-S15-W4-S1-GRAM-RECURRENCE-LAUNCH
+
+**Hypothesis.** Can the declared three-word comparison proceed after completed source and scorer validation within its original allowance?
+
+**METHOD.** Reconcile complete sampled control preparation, targeted known-answer tests and independent native scorer replay. Inspect the admitted comparison's exact native owner and child, live CPU and progress, numerical-thread environment, source pins, slot lease, finite limits and terminal watches. Verify watcher source identity, singleton, scan freshness and calendar; retain readiness and idle-capacity accounting.
+
+**Found.** The validated three-word recurrence comparison is running on its frozen whole-writer sample in monitored Gear 2; the ready buffer and remaining Week 4 builds are unfinished.
+
+The 59-of-61 whole-writer control sample and its 36 supported writers are recorded under OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-SAMPLE. The matching-length scorer passes six targeted checks and complete constructed source/statistical replay under OPS-S15-W4-S1-GRAM-3-RECURRENCE-NATIVE. One fixture-path engineering correction and the failed first test output remain preserved. The original scorer, source gates and scientific rules are unchanged. Both completed events were acknowledged only after full write-through.
+
+The full forecast is 428.503187 CPU seconds against 2575.656250 remaining after 1024.343750 charged. This retains the separate cumulative 3,600 CPU-second texture ceiling, full nuisance span, 200 shuffles, 2,000 resamples and genre comparisons. No second sample selection, floor reduction or outcome-based change is allowed. No unfinished scores are reported.
+
+At inspection one research worker is active with one numerical thread in its counted slot; exact source and native identities, progress and resource headroom verify. Terminal paths are registered. The same-owner watcher is fresh, holds its singleton and matches loaded sources without current error or cancellation; the calendar is alive. The independent health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake was created. No stale lease or environmental failure requires recovery.
+
+Zero ready successors against eight required and 24.1192 idle slot-hours since handoff remain a build defect. This does not certify a fully built campaign. The family counter stays at four until a complete estimate lands; review the five-consecutive-similar stop before any five-word corpus dispatch. Results remain descriptive with no claim upgrade or descendants. T4 human scoring and PROC main retain their holds; other commissioned primary and approved paid-node builds remain unfinished. GPU stays parked. No new tests were harvested from this operational wake, and no paid transfer, delegation or publication occurred. Records remain local; scientific synthesis remains in the final packet.
+
+**Means.** Land the complete comparison and review the family stop, then continue independent commissioned builds while retaining source/cost holds and the unfinished ready-buffer obligation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The validated three-word recurrence comparison is running on its frozen whole-writer sample in monitored Gear 2; the ready buffer and remaining Week 4 builds are unfinished.; project meaning: scoped operational record; next engineering obligation: Land the complete three-word comparison, review the family stop before further S1 textures, and continue independent commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_GRAM_RECURRENCE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-GRAM-3-RECURRENCE-NATIVE
+
+**Hypothesis.** Does the declared three-word template comparison use matching lengths in targets and both histories while retaining the original estimator?
+
+**METHOD.** Build an entirely constructed authenticated chain of 1,399 records and exercise the actual source consumer with independently enumerated own-only, donor-only, repeated and shared targets. Validate source/sentence boundaries, all-placeholder exclusion and length mismatch refusal. Run the unchanged complete positive, reversed, null, nuisance-only and unidentifiable statistical bank; independently replay all outputs and verify source bindings and native exits.
+
+**Found.** The three-word recurrence adapter passes complete constructed source and statistical replay; sampled human scoring still requires cost admission.
+
+Six targeted tests pass, including complete source joins, wrong-source-length refusal, changed-target-length refusal and changed-output refusal. The complete constructed source gives +1, -1, one third and zero for the four known cases. The original four-word scorer and its default remain unchanged. The first test run failed three checks because constructed receipt keys used Windows path separators; one engineering correction uses the existing POSIX receipt contract. That failed XML and the repaired checks remain retained. No human recurrence effect or probability was computed in this validation; constructed sensitivity is not human power.
+
+Native execution and independent replay charge 6.593750 CPU seconds. Both targeted test runs are conservatively charged 120 CPU seconds, above their combined elapsed time. The cumulative texture charge is 1024.343750 of the unchanged 3,600 CPU-second limit, including all earlier source/control preparation. Original sample support, full-population gap, descriptive status, family stop and no-descendant rule remain. No new test was harvested from the wake.
+
+**Means.** Admit the already frozen whole-writer sample only after the complete statistical forecast fits the remaining allowance. Preserve the unchanged support floor, full nuisance span, all shuffles/resamples and the final-packet reporting policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three-word recurrence adapter passes complete constructed source and statistical replay; sampled human scoring still requires cost admission.; project meaning: scoped operational record; next engineering obligation: Complete measured admission for the frozen whole-writer sample and review the family stop after its full result; no claim upgrade or descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_GRAM_3_RECURRENCE_NATIVE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-SAMPLE
+
+**Hypothesis.** Can the cost-admitted whole-writer sample preserve the inherited control values and source gaps without changing the comparison?
+
+**METHOD.** Authenticate the complete source and unchanged prior/donor history matches. Reconstruct the fixed majority-genre frame from the exact session/writer window-ledger join, replay seed-20261102 whole-writer selection, then reproduce every selected window's exact typed predecessor, timing endpoints, inherited pair median and prior-session word frequency. Missing controls remain explicit. Independently replay selection, all complete outputs and aggregate scope, then verify native exits.
+
+**Found.** The 3-word skeleton-template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+The frozen sample retains 59 of 61 writers and 1271 of 1399 source sessions. Original census, unselected writers and the full donor pool remain intact. Complete control preparation leaves 36 writers meeting the unchanged twenty-per-arm floor; the final comparison still requires at least twenty-five supported writers. The pass uses 510.875000 CPU seconds, with 897.750000 cumulatively charged against the separate one-hour texture allowance. The source clock correction and full-record descriptive pair ruler are unchanged. Aggregate support and missingness are preserved in the receipt; private sample identities remain outside public records.
+
+Both native sample versions, the genre-interface preparation failure, environmental test setup refusal and their corrections remain recorded. No recurrence outcome, fitted effect or scientific probability has been computed by this preparation. The original parent finding and sensitivity limits remain unchanged.
+
+**Means.** Check the final support gate and complete matched-length scorer validation and complete statistical forecast before scoring. Retain sample-scoped descriptive status and the full-population gap; never lower the floor or silently enlarge the texture allowance. No claim upgrade or descendants are licensed. Preparatory support does not increment the similar-estimate stopping count. No new hypothesis was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.; project meaning: scoped operational record; next engineering obligation: Inspect final support and matched-length scoring validation and measured statistical admission; retain sample scope, whole-population gap and cumulative one-hour texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_NUISANCE_SAMPLE_20261102.md.
+
+### OPS-S15-W4-S1-GRAM-SAMPLE-LAUNCH
+
+**Hypothesis.** Are completed preparations fully recorded, and can the declared variant continue under its original source, cost and stopping rules?
+
+**METHOD.** Verify complete source and prior-history replays, all input/output hashes and native exits. Land the source-heavy control-input cost probe before freezing a whole-writer sample. Reauthenticate the unchanged sample adapter's known-answer tests and complete native replay. Inspect the admitted worker's native owner and child, numerical-thread environment, source bindings, limits, lease, progress, watcher and calendar.
+
+**Found.** The three-word template variant is running cost-admitted whole-writer control preparation in monitored Gear 2; completed source and history records are filed, while matched-length scoring and the ready buffer remain unfinished.
+
+The complete history pass and control-input timing probe are filed as OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-FULL and OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-TIMING. Both independently replay and all workers have exited. Full control preparation exceeds the remaining separate one-hour texture allowance after earlier charges and the statistic reserve. The original source census and complete donor pool remain intact. The largest whole-writer sample fitting the unchanged measured sizing rule contains 59 of 61 writers. It is frozen before outcomes, using the approved seed and majority-genre strata. The full-population gap stays open; no support floor, control or ceiling changed.
+
+At inspection one native control-preparation worker is progressing with one numerical thread in its counted slot. Its forecast fits the remaining allowance, including all prior validation/preparation charges and six hundred CPU seconds reserved for later statistical work. All source pins, exact process identities, finite limits and terminal watches verify. No stale lease or environmental failure requires recovery. The same-owner watcher matches its loaded sources, holds its singleton and scans freshly without current error or cancellation. The calendar is alive. Historical delivery errors remain retained. The six-hour health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+The three-word recurrence consumer must still be validated with matching gram lengths in targets and both own/donor histories. The original four-gram scorer is not admitted unchanged. Final support and full statistical cost admission remain required. The family counter remains four consecutive similar complete estimates; preparation does not increment it. Check the stop at five after the next complete comparison before any five-word corpus dispatch. All texture results remain descriptive, without claim upgrades or descendants.
+
+Zero ready successors against eight required and 22.7808 idle slot-hours since handoff remain a build defect. Week 4 is not fully built. T4 human scoring and PROC main retain their holds; other commissioned primary and approved paid-node builds remain unfinished. GPU parking and paid caps are unchanged. No new hypothesis was harvested from this wake. No paid transfer, delegation or publication occurred. Records remain local; scientific synthesis stays in the final packet.
+
+**Means.** Land complete sampled control preparation, validate matched-length recurrence and obtain complete support/cost admission. Continue independent commissioned builds and preserve the family stopping rule.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The three-word template variant is running cost-admitted whole-writer control preparation in monitored Gear 2; completed source and history records are filed, while matched-length scoring and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Complete sampled control preparation, validate matched-length scoring and measured statistical admission; preserve stopping rules and continue remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_GRAM_SAMPLE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-TIMING
+
+**Hypothesis.** Can the declared template-length variant preserve the original control inputs and their explicit missingness within its separate allowance?
+
+**METHOD.** Reuse the unchanged validated v2 consumer. Replay the complete edit stream to require the actual adjacent typed predecessor and exact timing endpoints; retain paragraph boundaries, Unicode geometry, observed same-writer pair medians and strictly earlier-session own-word frequencies. The original milliseconds-to-seconds correction is inherited without changing the source or statistic. Missing controls remain explicit. Cost timing uses twelve source-heavy sessions and is not a scientific sample. Independently reconstruct every declared output in a fresh native process and verify source hashes and native exits.
+
+**Found.** The 3-word skeleton-template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+All retained six targeted checks and native known answers remain authenticated. This pass processes 12 sessions and consumes 78.937500 CPU seconds, with 345.765625 cumulatively charged to the variant. Pair medians use the complete observed writer record as a descriptive mechanical adjustment, not past-only prediction. Source support is not a recurrence result. Aggregate missingness, support and timing are retained in the receipt; no scientific effect or probability is computed.
+
+**Means.** Preserve the parent result and its sensitivity limits. Retain the twenty-five-writer/twenty-per-arm floor, exact history matching, original statistic and its complete controls. The variant is descriptive, cannot upgrade a claim and has no descendants. Preparatory counts do not advance the similar-estimate stopping rule. No new hypothesis is harvested from this wake.
+
+**Full-preparation admission.** The measured full nuisance forecast is 2745.414062 CPU seconds against 2654.234375 after all charges and six hundred reserved for the original statistic. Full nuisance preparation is cost-held. Preserve the whole-writer sample route and declared floor; no silent truncation, second ceiling or scientific run is admitted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted nuisance support or cost/sample review, then validated matched-length scoring and measured statistical admission; preserve descriptive scope, floors and cumulative texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_NUISANCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-FULL
+
+**Hypothesis.** Can the packet's declared template-length variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the sentence-local template length, retaining the original eight-word windows, frequency ranking and lexical ties, the original 150-word dictionary, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 3-word skeleton-template texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 1356 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated.
+
+Complete execution and replay use 161.890625 CPU seconds, with 256.312500 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains four completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_HISTORIES_FULL_20261102.md.
+
+### OPS-S15-W4-S1-GRAM-HISTORY-LAUNCH
+
+**Hypothesis.** Are completed comparisons fully recorded, and is the next declared preparation running within its source, cost and stopping rules?
+
+**METHOD.** Independently verify both complete dictionary control samples and recurrence comparisons, all source/output bindings and native exits. Write their scope, controls, theory rows and afterwords, claims, multiplicity entries and stopping account through before acknowledging events. Validate the next template-length source on enumerated known answers, complete native replay and the entire primary corpus. Admit exact history preparation from its source-heavy measured cost. Inspect its actual native owner/child, numerical-thread environment, progress, limits, leases, watcher and calendar.
+
+**Found.** The next declared template-length variant is running complete history preparation in monitored Gear 2; completed dictionary comparisons are recorded, while remaining controls, scoring and the ready buffer are unfinished.
+
+The complete dictionary comparisons are filed as S15-W4-S1-DICTIONARY-100-20261102 and S15-W4-S1-DICTIONARY-300-20261102, with their sample fractions, supported and unsupported strata, controls and original sensitivity limits. All quoted reference probabilities are registered as descriptive diagnostics. Both complete statistical replays pass and their workers have exited. The attempted both-running snapshot correctly refused after the first comparison had already completed; it wrote no stale public running record. The source and scientific records remain unchanged.
+
+The packet names three- and five-word skeleton templates. Seven targeted checks validate both source parameterizations against explicit complete gram lists, sentence boundaries, repeated occurrences, unchanged eight-word windows and the original 150-word dictionary. The initial test invocation's temporary-directory access refusal is retained as environmental setup evidence; the unchanged tests pass in a fresh workspace directory. The three-word source passes native and complete corpus replay. No five-word corpus attempt has started. The family counter is four consecutive similar completed estimates; source preparations do not increment it. The next complete comparison must be checked against the stop at five before further family dispatch.
+
+The unchanged history consumer preserves strictly earlier own text, exact donor session/token counts, future exclusion, deterministic matching and all unsupported targets. Its twenty source-heavy targets project complete preparation within the remaining cumulative one-hour ceiling, retaining all validation and preparation charges and nine hundred CPU seconds reserved for later work. This admits history preparation only. The future three-word recurrence consumer must use the same gram length in targets and both histories; the original four-gram scorer is not admitted unchanged. Controls, support and complete cost admission remain required.
+
+At inspection one native history worker is progressing with one numerical thread in its counted slot. All consumed source pins, exact native identities, finite limits and terminal registrations verify. No stale lease or environmental interruption needs recovery. The same-owner watcher matches its loaded sources, holds its singleton and scans freshly without current error or cancellation. The calendar is alive. Historical transport errors remain visible. The six-hour deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+Zero ready successors against eight required and 22.2581 idle slot-hours since handoff remain a recorded build defect. Week 4 is not fully built. T4 human scoring and PROC main retain their holds; remaining primary and approved paid-node work remains unfinished. GPU parking and paid caps are unchanged. No new hypothesis was harvested from the wake; the next variant was already in the packet. No paid call, delegation or publication occurred. Records remain local; scientific synthesis stays in the final packet.
+
+**Means.** Land complete histories, prepare inherited controls and validate matched-length recurrence before any further comparison. Review the family stopping rule at the next complete estimate and continue independent commissioned builds.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The next declared template-length variant is running complete history preparation in monitored Gear 2; completed dictionary comparisons are recorded, while remaining controls, scoring and the ready buffer are unfinished.; project meaning: scoped operational record; next engineering obligation: Complete history/control preparation and matched-length scoring validation; preserve stopping rules and continue the remaining commissioned primary/paid builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_GRAM_HISTORY_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-TIMING
+
+**Hypothesis.** Can the packet's declared template-length variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the sentence-local template length, retaining the original eight-word windows, frequency ranking and lexical ties, the original 150-word dictionary, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 3-word skeleton-template texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 20 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated. The twenty source-heavy timing targets forecast 177.646875 CPU seconds for the full pass including independent replay and the original margin, leaving nine hundred CPU seconds after prior charges for later controls/statistics. This admits history preparation only.
+
+Complete execution and replay use 16.281250 CPU seconds, with 94.421875 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains four completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-INPUTS
+
+**Hypothesis.** Can the packet's declared template-length variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the sentence-local template length, retaining the original eight-word windows, frequency ranking and lexical ties, the original 150-word dictionary, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 3-word skeleton-template texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+All 1399 primary sessions and 61 writers remain represented, with 21386 timing-eligible windows and 44 writers meeting the preliminary candidate floor. This is not final donor or nuisance support. Original missing, repeated-onset, break and uninformative categories remain explicit.
+
+Complete execution and replay use 43.453125 CPU seconds, with 66.734375 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains four completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_INPUTS_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-GRAM-3-NATIVE
+
+**Hypothesis.** Can the packet's declared template-length variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the sentence-local template length, retaining the original eight-word windows, frequency ranking and lexical ties, the original 150-word dictionary, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 3-word skeleton-template texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+All seven targeted checks across both declared gram lengths pass. An independently enumerated oracle checks every gram from four hundred word types in fifty unchanged windows; sentence boundaries, repeated occurrences, empty grams and altered-output refusal are checked. The first test attempt hit a temporary-directory permission refusal before two fixtures could run; its XML remains retained. All unchanged checks passed in a fresh workspace directory. These are constructed counts, not human support.
+
+Complete execution and replay use 3.281250 CPU seconds, with 23.281250 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains four completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 3-word skeleton-template texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_GRAM_3_NATIVE_20261102.md.
+
+### S15-W4-S1-DICTIONARY-300-20261102
+
+**Hypothesis.** Does changing the frozen skeleton dictionary to 300 words change the descriptive comparison of personal-template reuse in fluent versus hesitant production?
+
+**METHOD.** Apply the frozen dictionary variant, retaining eight-word windows, to the cost-admitted whole-writer sample, preserving the complete source census and donor pool. Reconstruct strict earlier-session histories and all eight inherited timing controls; compute the original equal-writer adjusted flow-minus-hesitant contrast in own-minus-donor skeleton recurrence. Use 2,000 whole-writer resamples and 200 within-session label permutations, with separate genre checks. Independently reconstruct every source row, fitted contrast and reference bank in a fresh process.
+
+**Found.** The 300-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+The table contains complete comparisons only. Effects and intervals are percentage-point differences in recurrence share; reference probability is the one-sided within-session tail. The writer floor requires twenty windows per arm in twenty-five writers. Unsupported strata have no computed effect.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Sample primary | 31 / 25 | 0.42164397 | [-0.42575071, 1.39703636] | 0.129353233831 | marginal; descriptive, positive gate not met |
+| Creative | 29 / 25 | 0.49394712 | [-0.35660385, 1.32450955] | 0.069651741294 | marginal; descriptive, positive gate not met |
+| Argumentative | 17 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The frozen sample contains 50 of 61 writers (81.9672% of the population). The source census, unselected writers and full donor pool remain intact. Complete source reconstruction retains 912 history-supported sessions and 9905 eligible windows before writer filtering; 45 windows lack exact nuisance values. The final primary supports 31 writers. Its machine disposition is marginal, determined by the signed estimate and interval, while the separate registered positive gate is not met. Passing controls and the point estimate alone do not resolve the contrast. All known-answer checks pass; the parent's complete constructed sensitivity curve remains limited for small effects and does not establish human power for this variant.
+
+Complete source, statistical and reference replay, all 7986 source pins, all 929 output hashes and all native exits verify. This invocation uses 66.703125 CPU seconds; cumulative charged usage is 1128.140625 of 3,600. Both sample adapter validations and earlier failed work remain charged. 
+
+The primary estimate differs from the unchanged eight-word parent by 0.004413878417 recurrence-share units, against half its interval width of 0.010184700929. This is within the declared similarity bound. The S1 family has 4 consecutive completed similar texture estimates; preparation passes and unsupported comparisons do not increment that count. The stopping rule requires five. This stopping count is an operational rule, not evidence of equivalence. The changed dictionary and sampled population are not independent replication.
+
+**Means.** The contrast remains unresolved at this descriptive sample scope. The variant neither upgrades nor reverses the parent claim, and it licenses no causal, automaticity or psychological interpretation. Full-population cost holds and human small-effect sensitivity remain open. Supported genre comparisons remain unresolved, while any unsupported stratum is distinct from a null result. Amendment G registers no descendants or additional sensitivity study for a texture. No new test was harvested from the operational wake; scientific synthesis stays in the final packet.
+
+
+Curator roll-up: Process and personal expertise; Does changing the dictionary size alter the personal-template comparison?; **Narrows**; The 300-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.; project meaning: scoped texture leaves the original claim unresolved; next engineering obligation: retain scope and stopping account, continue commissioned builds; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_DICTIONARY_300_RESULT_20261102.md.
+
+### S15-W4-S1-DICTIONARY-100-20261102
+
+**Hypothesis.** Does changing the frozen skeleton dictionary to 100 words change the descriptive comparison of personal-template reuse in fluent versus hesitant production?
+
+**METHOD.** Apply the frozen dictionary variant, retaining eight-word windows, to the cost-admitted whole-writer sample, preserving the complete source census and donor pool. Reconstruct strict earlier-session histories and all eight inherited timing controls; compute the original equal-writer adjusted flow-minus-hesitant contrast in own-minus-donor skeleton recurrence. Use 2,000 whole-writer resamples and 200 within-session label permutations, with separate genre checks. Independently reconstruct every source row, fitted contrast and reference bank in a fresh process.
+
+**Found.** The 100-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+The table contains complete comparisons only. Effects and intervals are percentage-point differences in recurrence share; reference probability is the one-sided within-session tail. The writer floor requires twenty windows per arm in twenty-five writers. Unsupported strata have no computed effect.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Sample primary | 29 / 25 | -0.19619408 | [-1.71319823, 1.61785047] | 0.781094527363 | null; descriptive, positive gate not met |
+| Creative | 27 / 25 | -0.67972034 | [-1.69443415, 0.43380410] | 0.935323383085 | null; descriptive, positive gate not met |
+| Argumentative | 16 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The frozen sample contains 40 of 61 writers (65.5738% of the population). The source census, unselected writers and full donor pool remain intact. Complete source reconstruction retains 848 history-supported sessions and 9387 eligible windows before writer filtering; 44 windows lack exact nuisance values. The final primary supports 29 writers. Its machine disposition is null, determined by the signed estimate and interval, while the separate registered positive gate is not met. Passing controls and the point estimate alone do not resolve the contrast. All known-answer checks pass; the parent's complete constructed sensitivity curve remains limited for small effects and does not establish human power for this variant.
+
+Complete source, statistical and reference replay, all 7922 source pins, all 865 output hashes and all native exits verify. This invocation uses 67.968750 CPU seconds; cumulative charged usage is 1100.265625 of 3,600. Both sample adapter validations and earlier failed work remain charged. 
+
+The primary estimate differs from the unchanged eight-word parent by 0.001764502045 recurrence-share units, against half its interval width of 0.010184700929. This is within the declared similarity bound. The S1 family has 3 consecutive completed similar texture estimates; preparation passes and unsupported comparisons do not increment that count. The stopping rule requires five. This stopping count is an operational rule, not evidence of equivalence. The changed dictionary and sampled population are not independent replication.
+
+**Means.** The contrast remains unresolved at this descriptive sample scope. The variant neither upgrades nor reverses the parent claim, and it licenses no causal, automaticity or psychological interpretation. Full-population cost holds and human small-effect sensitivity remain open. Supported genre comparisons remain unresolved, while any unsupported stratum is distinct from a null result. Amendment G registers no descendants or additional sensitivity study for a texture. No new test was harvested from the operational wake; scientific synthesis stays in the final packet.
+
+
+Curator roll-up: Process and personal expertise; Does changing the dictionary size alter the personal-template comparison?; **Narrows**; The 100-word dictionary whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.; project meaning: scoped texture leaves the original claim unresolved; next engineering obligation: retain scope and stopping account, continue commissioned builds; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_DICTIONARY_100_RESULT_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-SAMPLE
+
+**Hypothesis.** Can the cost-admitted whole-writer sample preserve the inherited control values and source gaps without changing the comparison?
+
+**METHOD.** Authenticate the complete source and unchanged prior/donor history matches. Reconstruct the fixed majority-genre frame from the exact session/writer window-ledger join, replay seed-20261102 whole-writer selection, then reproduce every selected window's exact typed predecessor, timing endpoints, inherited pair median and prior-session word frequency. Missing controls remain explicit. Independently replay selection, all complete outputs and aggregate scope, then verify native exits.
+
+**Found.** The 300-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+The frozen sample retains 50 of 61 writers and 1142 of 1399 source sessions. Original census, unselected writers and the full donor pool remain intact. Complete control preparation leaves 31 writers meeting the unchanged twenty-per-arm floor; the final comparison still requires at least twenty-five supported writers. The pass uses 619.015625 CPU seconds, with 1050.437500 cumulatively charged against the separate one-hour texture allowance. The source clock correction and full-record descriptive pair ruler are unchanged. Aggregate support and missingness are preserved in the receipt; private sample identities remain outside public records.
+
+Both native sample versions, the genre-interface preparation failure, environmental test setup refusal and their corrections remain recorded. No recurrence outcome, fitted effect or scientific probability has been computed by this preparation. The original parent finding and sensitivity limits remain unchanged.
+
+**Means.** Check the final support gate and complete original-statistic forecast before scoring. Retain sample-scoped descriptive status and the full-population gap; never lower the floor or silently enlarge the texture allowance. No claim upgrade or descendants are licensed. Preparatory support does not increment the similar-estimate stopping count. No new hypothesis was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.; project meaning: scoped operational record; next engineering obligation: Inspect final support and measured unchanged-statistic admission; retain sample scope, whole-population gap and cumulative one-hour texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_NUISANCE_SAMPLE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-SAMPLE
+
+**Hypothesis.** Can the cost-admitted whole-writer sample preserve the inherited control values and source gaps without changing the comparison?
+
+**METHOD.** Authenticate the complete source and unchanged prior/donor history matches. Reconstruct the fixed majority-genre frame from the exact session/writer window-ledger join, replay seed-20261102 whole-writer selection, then reproduce every selected window's exact typed predecessor, timing endpoints, inherited pair median and prior-session word frequency. Missing controls remain explicit. Independently replay selection, all complete outputs and aggregate scope, then verify native exits.
+
+**Found.** The 100-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+The frozen sample retains 40 of 61 writers and 1068 of 1399 source sessions. Original census, unselected writers and the full donor pool remain intact. Complete control preparation leaves 29 writers meeting the unchanged twenty-per-arm floor; the final comparison still requires at least twenty-five supported writers. The pass uses 595.109375 CPU seconds, with 1021.296875 cumulatively charged against the separate one-hour texture allowance. The source clock correction and full-record descriptive pair ruler are unchanged. Aggregate support and missingness are preserved in the receipt; private sample identities remain outside public records.
+
+Both native sample versions, the genre-interface preparation failure, environmental test setup refusal and their corrections remain recorded. No recurrence outcome, fitted effect or scientific probability has been computed by this preparation. The original parent finding and sensitivity limits remain unchanged.
+
+**Means.** Check the final support gate and complete original-statistic forecast before scoring. Retain sample-scoped descriptive status and the full-population gap; never lower the floor or silently enlarge the texture allowance. No claim upgrade or descendants are licensed. Preparatory support does not increment the similar-estimate stopping count. No new hypothesis was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.; project meaning: scoped operational record; next engineering obligation: Inspect final support and measured unchanged-statistic admission; retain sample scope, whole-population gap and cumulative one-hour texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_NUISANCE_SAMPLE_20261102.md.
+
+### OPS-S15-W4-DICTIONARY-SAMPLES-LAUNCH
+
+**Hypothesis.** Are delayed notices properly reconciled, and can the declared control preparations continue without changing the comparisons or exceeding their allowances?
+
+**METHOD.** Reconcile both delayed window-result notices against original hashes, full landings, native exits and the completed unchanged recovery; preserve original ACK timestamps and health cadence. Fully verify and land both completed dictionary histories and cost probes. Freeze whole-writer samples using the previously validated exact genre join and selection method, admitting each from its measured source-heavy cost. Inspect actual native owner/child identities, thread environment, progress, source pins, leases, resources and watcher/calendar health.
+
+**Found.** Two cost-admitted whole-writer control preparations are progressing in monitored Gear 2; completed dictionary histories and cost records are filed, while scoring and the Week 4 ready buffer remain unfinished.
+
+The delivered notices were already fully recorded and acknowledged. The original Windows progress-file refusal and successful unchanged recovery remain intact; duplicate delivery causes no rerun or reinterpretation. Both complete dictionary history passes and cost probes independently replay, with all pins, outputs and native exits verified. The initial inspection of two live cost workers correctly refused after the first had completed; no stale running claim was written.
+
+Full-population control forecasts exceed the remaining separate one-hour texture allowances after prior charges and a six-hundred-second statistical reserve. Those holds remain recorded. Each sample uses the predeclared seed and majority-genre stratification, with whole writers retained, exact quotas and source-loading cost charged in full. The largest pre-outcome whole-writer sample fitting the conservative forecast is frozen. All native validation and preparation charges remain. Neither population membership nor outcome thresholds are changed after scoring; no recurrence outcome has been computed by these preparations.
+
+The original source census and donor pool remain intact. Exact histories, timing endpoints, typed predecessor joins, inherited pair medians, prior-session word frequency and missingness rules are unchanged. The original twenty-five-supported-writer/twenty-per-arm floor still applies after controls. These preparations may remain unsupported; sample selection alone admits no statistic. The parent result and sensitivity limits remain, the variants are descriptive with no claim upgrades or descendants, and preparatory counts do not increment the texture stopping counter.
+
+Both sampled preparations progress in separate counted slots with one numerical thread each at inspection. Their actual native identities, complete source pins, finite limits and terminal registrations verify. No stale owned lease requires recovery. The watcher matches loaded sources, holds its singleton and scans freshly without current error or cancellation; the calendar is alive. Historical delivery errors remain visible. The health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+Zero ready successors against eight required and 21.1476 idle slot-hours since handoff remain an explicit build defect. Week 4 is not fully built. T4 human scoring and PROC main keep their existing holds, and remaining primary/paid builds remain unfinished. GPU parking and paid scope are unchanged. No new hypothesis was harvested from the wake, and no paid call, delegation or publication occurred. Records remain local; scientific reporting stays in the final packet.
+
+**Means.** Independently verify and land each completed sample, then admit the unchanged recurrence statistic only if final support and complete forecast pass. Continue the remaining commissioned build while retaining source gaps, costs and failure history.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two cost-admitted whole-writer control preparations are progressing in monitored Gear 2; completed dictionary histories and cost records are filed, while scoring and the Week 4 ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Complete sampled control preparation and final support/cost admission; preserve scope and continue the remaining commissioned primary/paid builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_DICTIONARY_SAMPLES_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NUISANCE-TIMING
+
+**Hypothesis.** Can the declared dictionary-size variant preserve the original control inputs and their explicit missingness within its separate allowance?
+
+**METHOD.** Reuse the unchanged validated v2 consumer. Replay the complete edit stream to require the actual adjacent typed predecessor and exact timing endpoints; retain paragraph boundaries, Unicode geometry, observed same-writer pair medians and strictly earlier-session own-word frequencies. The original milliseconds-to-seconds correction is inherited without changing the source or statistic. Missing controls remain explicit. Cost timing uses twelve source-heavy sessions and is not a scientific sample. Independently reconstruct every declared output in a fresh native process and verify source hashes and native exits.
+
+**Found.** The 300-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+All retained six targeted checks and native known answers remain authenticated. This pass processes 12 sessions and consumes 89.937500 CPU seconds, with 390.312500 cumulatively charged to the variant. Pair medians use the complete observed writer record as a descriptive mechanical adjustment, not past-only prediction. Source support is not a recurrence result. Aggregate missingness, support and timing are retained in the receipt; no scientific effect or probability is computed.
+
+**Means.** Preserve the parent result and its sensitivity limits. Retain the twenty-five-writer/twenty-per-arm floor, exact history matching, original statistic and its complete controls. The variant is descriptive, cannot upgrade a claim and has no descendants. Preparatory counts do not advance the similar-estimate stopping rule. No new hypothesis is harvested from this wake.
+
+**Full-preparation admission.** The measured full nuisance forecast is 2937.257812 CPU seconds against 2609.687500 after all charges and six hundred reserved for the original statistic. Full nuisance preparation is cost-held. Preserve the whole-writer sample route and declared floor; no silent truncation, second ceiling or scientific run is admitted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted nuisance support or cost/sample review, then the original measured statistic; preserve descriptive scope, floors and cumulative texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_NUISANCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NUISANCE-TIMING
+
+**Hypothesis.** Can the declared dictionary-size variant preserve the original control inputs and their explicit missingness within its separate allowance?
+
+**METHOD.** Reuse the unchanged validated v2 consumer. Replay the complete edit stream to require the actual adjacent typed predecessor and exact timing endpoints; retain paragraph boundaries, Unicode geometry, observed same-writer pair medians and strictly earlier-session own-word frequencies. The original milliseconds-to-seconds correction is inherited without changing the source or statistic. Missing controls remain explicit. Cost timing uses twelve source-heavy sessions and is not a scientific sample. Independently reconstruct every declared output in a fresh native process and verify source hashes and native exits.
+
+**Found.** The 100-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+All retained six targeted checks and native known answers remain authenticated. This pass processes 12 sessions and consumes 81.203125 CPU seconds, with 385.078125 cumulatively charged to the variant. Pair medians use the complete observed writer record as a descriptive mechanical adjustment, not past-only prediction. Source support is not a recurrence result. Aggregate missingness, support and timing are retained in the receipt; no scientific effect or probability is computed.
+
+**Means.** Preserve the parent result and its sensitivity limits. Retain the twenty-five-writer/twenty-per-arm floor, exact history matching, original statistic and its complete controls. The variant is descriptive, cannot upgrade a claim and has no descendants. Preparatory counts do not advance the similar-estimate stopping rule. No new hypothesis is harvested from this wake.
+
+**Full-preparation admission.** The measured full nuisance forecast is 3202.425781 CPU seconds against 2614.921875 after all charges and six hundred reserved for the original statistic. Full nuisance preparation is cost-held. Preserve the whole-writer sample route and declared floor; no silent truncation, second ceiling or scientific run is admitted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted nuisance support or cost/sample review, then the original measured statistic; preserve descriptive scope, floors and cumulative texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_NUISANCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-FULL
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 300-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 1356 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated.
+
+Complete execution and replay use 186.640625 CPU seconds, with 289.859375 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_HISTORIES_FULL_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-FULL
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 100-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 1356 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated.
+
+Complete execution and replay use 189.593750 CPU seconds, with 293.359375 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary texture completes complete history preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_HISTORIES_FULL_20261102.md.
+
+### OPS-S15-W4-DICTIONARY-HISTORIES-LAUNCH
+
+**Hypothesis.** Are delivered results fully recorded, and is the next authorized work progressing with verified ownership, costs and monitoring?
+
+**METHOD.** Fully land both sampled window comparisons, the retained environmental interruption and exact unchanged recovery, and the next primary card's complete source case check. Validate both dictionary variants on known sources and native replay, land complete source and timing passes, and admit full history work from measured costs. Inspect actual native identities, thread environment, progress, source pins, leases, resources, locks, watcher loading and delivery state, and calendar ownership.
+
+**Found.** Two declared dictionary variants are running complete history matching in monitored Gear 2; completed comparisons and support failures are recorded, while the Week 4 ready buffer remains unfinished.
+
+All completed result scopes, controls, theory rows and afterwords, claim ledger entries and source anchors are recorded. Quoted probabilities are in the multiplicity audit as descriptive texture diagnostics. The Windows progress-file replacement refusal remains preserved with its inspected environmental classification; the fresh-directory rerun retained the original data, code and rules and exactly reproduced deterministic output. Neither a failed scientific gate nor a cost ceiling was relaxed.
+
+The next primary card's complete final typed-text source cannot meet its declared paired-half support. It is recorded separately from a null; no library or event-channel result was invented and no sensitivity descendant was registered. Remaining primary work stays unfinished.
+
+The packet explicitly names both dictionary sizes. Their source fixtures exercise the actual original dictionary builder and ranking ties, retaining the original eight-word windows. Complete primary-source and history cost passes independently replay. Each measured full-history forecast fits its separate cumulative one-hour allowance after prior charges and a nine-hundred-second reserve for remaining controls and scoring. This admits preparation only. The original parent and completed texture limitations remain; preparation does not increment the family stopping counter. No new hypothesis was harvested from the wake.
+
+At the recorded inspection both full-history workers are alive and progressing with one numerical thread each, in separate counted CPU slots. Every consumed source pin, native identity and terminal registration verifies. No stale lease requires recovery. The same-owner watcher holds its singleton, matches loaded source hashes and scans freshly without current error or cancellation. The calendar is alive. Prior transport failures remain and queue acceptance is distinguished from actual delivery and landing. The six-hour deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+All twenty-one scientific locks pass and no deletion entries are present. Zero ready successors against eight required and 20.5780 idle slot-hours since handoff remain an explicit build defect. Week 4 is not fully built. T4 human scoring and PROC main retain their existing holds; other primary and paid-node construction remains unfinished. GPU parking and paid caps remain unchanged. No new paid call, delegation or publication occurred. Records remain local; scientific synthesis stays in the final packet.
+
+**Means.** Land complete histories and prepare the inherited nuisance controls before admitting any dictionary comparison. Continue the remaining commissioned primary and paid builds within their gates; preserve the ready-buffer deficit, scope limits and failure history.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two declared dictionary variants are running complete history matching in monitored Gear 2; completed comparisons and support failures are recorded, while the Week 4 ready buffer remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete dictionary history/control preparation and original-statistic admission; continue the remaining commissioned primary/paid builds and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_DICTIONARY_HISTORIES_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-HISTORIES-TIMING
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 300-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 20 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated. The twenty source-heavy timing targets forecast 229.490625 CPU seconds for the full pass including independent replay and the original margin, leaving nine hundred CPU seconds after prior charges for later controls/statistics. This admits history preparation only.
+
+Complete execution and replay use 19.703125 CPU seconds, with 103.218750 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-HISTORIES-TIMING
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 100-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.
+
+The unchanged validated history consumer processes 20 of 1356 candidate sessions from all 1399 primary records, preserving strict earlier own history, different-writer donors, exact session counts and token budgets, deterministic prompt matching and boundary-safe trimming. All unsupported targets remain explicit. The three original targeted checks and native validation remain authenticated. The twenty source-heavy timing targets forecast 188.025000 CPU seconds for the full pass including independent replay and the original margin, leaving nine hundred CPU seconds after prior charges for later controls/statistics. This admits history preparation only.
+
+Complete execution and replay use 17.484375 CPU seconds, with 103.765625 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary texture completes history cost probe with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-INPUTS
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 300-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+All 1399 primary sessions and 61 writers remain represented, with 21386 timing-eligible windows and 44 writers meeting the preliminary candidate floor. This is not final donor or nuisance support. Original missing, repeated-onset, break and uninformative categories remain explicit.
+
+Complete execution and replay use 48.062500 CPU seconds, with 72.109375 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_INPUTS_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-INPUTS
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 100-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.
+
+All 1399 primary sessions and 61 writers remain represented, with 21386 timing-eligible windows and 44 writers meeting the preliminary candidate floor. This is not final donor or nuisance support. Original missing, repeated-onset, break and uninformative categories remain explicit.
+
+Complete execution and replay use 50.953125 CPU seconds, with 74.875000 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary texture completes complete source preparation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_INPUTS_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-300-NATIVE
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 300-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+All five targeted checks across both dictionary sizes pass. The actual original dictionary builder reproduces the declared top words from four hundred tied-frequency word types and fifty unchanged windows, then replays every source and output. These are constructed counts, not human support.
+
+Complete execution and replay use 4.046875 CPU seconds, with 24.046875 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 300-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_300_NATIVE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-DICTIONARY-100-NATIVE
+
+**Hypothesis.** Can the packet's declared dictionary-size variant preserve original source and comparison rules within its separate texture allowance?
+
+**METHOD.** Change only the frozen dictionary size, retaining the original eight-word windows, frequency ranking and lexical ties, sentence-local four-grams, timing ruler, first-onset exclusion, predecessor links, writer-specific thirds and complete source roster. Require unchanged exact history rules downstream. Independently replay every declared output in a fresh native process, then authenticate all source/output hashes and native exits.
+
+**Found.** The 100-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.
+
+All five targeted checks across both dictionary sizes pass. The actual original dictionary builder reproduces the declared top words from four hundred tied-frequency word types and fifty unchanged windows, then replays every source and output. These are constructed counts, not human support.
+
+Complete execution and replay use 3.921875 CPU seconds, with 23.921875 cumulatively charged to this texture's separate one-hour ceiling. No recurrence effect or scientific probability is computed. The stage retains all scope and missingness records and does not change the original parent finding.
+
+**Means.** Complete strict history and nuisance joins, final writer support and measured original-statistic admission before scoring. The unchanged floor remains twenty windows per arm in twenty-five writers. These declared variants remain descriptive, cannot upgrade a claim and register no descendants. Preparation does not increment the family stopping count, which remains two completed similar estimates. No new hypothesis was harvested from the wake. Full-population/sample cost routing and final-packet reporting remain binding.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 100-word dictionary texture completes constructed native source validation with independent replay; the descriptive recurrence comparison remains pending.; project meaning: scoped operational record; next engineering obligation: Complete declared dependencies and original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_DICTIONARY_100_NATIVE_20261102.md.
+
+### S15-W4-T3-SUPPORT-20261102
+
+**Hypothesis.** Does a writer's own earlier chunk library compress her later work better than matched other-writer and population libraries?
+
+**METHOD.** Before fitting any library, authenticate every primary CoAuthor source record and the frozen function-word dictionary. Reconstruct final writer-typed skeleton segments without crossing prompt/accepted spans or sentence boundaries. Divide each writer's complete dated session roster into the first floor-half and remaining sessions, preserving empty sessions. Count skeleton words in each half and check that training ends before evaluation begins. Independently replay every source and support record in a fresh contained process.
+
+**Found.** The chunk-library comparison is unsupported in the declared final typed-text channel; no compression result was computed.
+
+The table reports source support, not a scientific effect. Categories of unsupported writers overlap. The declared case requires two thousand skeleton words in each half for at least twenty-five writers.
+
+| Source or check | Complete count | Meaning |
+|---|---|---|
+| Primary source sessions | 1,399 | All primary records retained |
+| Writers | 61 | Whole writer roster retained |
+| Final typed skeleton words | 366,529 | Original symbols before any merge |
+| Writers meeting both token floors | 23 | Below 25 required |
+| Writers meeting token and chronology checks | 23 | Chronology adds no exclusion among token-supported writers |
+| Insufficient training words | 38 | Fewer than 2,000 in the fixed first half |
+| Insufficient evaluation words | 34 | Fewer than 2,000 in the fixed second half |
+| Empty training session half | 8 | The session split is retained rather than shifted |
+
+The source check's five targeted tests and constructed native replay passed before corpus dispatch. All 1506 pinned sources, 18 completed outputs and native exits verify. Complete execution plus replay uses 18.437500 CPU seconds, with 39.015625 cumulatively charged to T3's original 3,600-second ceiling. Private session, writer and sequence records remain local; receipts contain aggregate support only.
+
+**Means.** This source cannot run the declared test at its floor. It is not a null and says nothing against reusable personal pieces. The final typed-text channel deliberately excludes later-deleted words; it is distinct from the proposed production-event sequence. No donor match, library, compression effect, reuse statistic or ownership-reference result was computed. The failed common case check prevents admitting the card, including its event channel, rather than silently reducing the writer floor or changing the sequence definition. No healing pass, sensitivity study or automatic descendant is registered. The broader hypothesis remains open. No new tests were harvested from the wake; continue the remaining commissioned tree. Final reporting stays in the Week 4 packet.
+
+
+Curator roll-up: Process and reusable pieces; Can earlier personal chunks compress later work?; **Narrows**; The chunk-library comparison is unsupported in the declared final typed-text channel; no compression result was computed.; project meaning: this source does not test the proposed mechanism; next engineering obligation: preserve the support hold and continue commissioned cards; public claim unchanged; curator decision required: No. Detail: WEEK4_T3_SUPPORT_20261102.md.
+
+### OPS-S15-W4-T3-SOURCE-NATIVE
+
+**Hypothesis.** Can the prepared source preserve typed-text boundaries and chronological training/evaluation halves before a personal chunk comparison?
+
+**METHOD.** Exercise exact word and punctuation boundaries, retained typed-span boundaries, odd/even session halves, empty sessions, exact token-floor equality, overlapping dates and duplicate rejection. Replay the complete constructed source in a fresh contained process, then authenticate all source/output hashes and exited native identities.
+
+**Found.** The commissioned chunk-library source passes constructed boundary, dated-half and exact support checks plus full native replay; corpus support and compression remain uncomputed.
+
+Five targeted tests pass. The complete constructed source contains 104 sessions from 26 identities and retains the deliberately short evaluation half as unsupported. Exactly 25 satisfy the original two-thousand-words-per-half rule. These are constructed checks, not observations about human writers. The test runner also retained a nonfatal inability to write its optional pytest cache; all checks and independent native replay completed successfully.
+
+The skeleton source is final writer-typed text, with accepted/prompt spans unable to bridge typed spans. It is distinct from the still-unbuilt production-event sequence. Session dates determine halves before any fitting, with empty sessions retained. Donor and population matching, event tokens, merge/unigram learning, reuse, the thousand ownership reassignments, writer uncertainty and whole-cost admission remain unfinished. This validation does not claim that the full card or ready buffer is built.
+
+**Means.** Admit only the bounded complete source case check under the frozen design. Keep its cumulative charges within the original ceiling and require actual donor/reference support before scientific scoring. No new test was harvested from the wake; this builds the packet's existing T3 card.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The commissioned chunk-library source passes constructed boundary, dated-half and exact support checks plus full native replay; corpus support and compression remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the complete source case check, then validate both sequence channels, matched libraries, reuse, references and complete cost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T3_SOURCE_NATIVE_20261102.md.
+
+### S15-W4-S1-WINDOW-12-20261102
+
+**Hypothesis.** Does changing the typed window length to 12 words change the descriptive comparison of personal-template reuse in fluent versus hesitant production?
+
+**METHOD.** Apply the frozen window variant to the cost-admitted whole-writer sample, preserving the complete source census and donor pool. Reconstruct strict earlier-session histories and all eight inherited timing controls; compute the original equal-writer adjusted flow-minus-hesitant contrast in own-minus-donor skeleton recurrence. Use 2,000 whole-writer resamples and 200 within-session label permutations, with separate genre checks. Independently reconstruct every source row, fitted contrast and reference bank in a fresh process.
+
+**Found.** The 12-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+The table contains complete comparisons only. Effects and intervals are percentage-point differences in recurrence share; reference probability is the one-sided within-session tail. The writer floor requires twenty windows per arm in twenty-five writers. Unsupported strata have no computed effect.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Sample primary | 25 / 25 | -0.41947998 | [-1.34376134, 0.60158984] | 0.860696517413 | null; descriptive, positive gate not met |
+| Creative | 21 / 25 | Not computed | Not computed | Not computed | Unsupported |
+| Argumentative | 12 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The frozen sample contains 47 of 61 writers (77.0492% of the population). The source census, unselected writers and full donor pool remain intact. Complete source reconstruction retains 823 history-supported sessions and 4872 eligible windows before writer filtering; 31 windows lack exact nuisance values. The final primary supports 25 writers. Its machine disposition is null, determined by the signed estimate and interval, while the separate registered positive gate is not met. Passing controls and the point estimate alone do not resolve the contrast. All known-answer checks pass; the parent's complete constructed sensitivity curve remains limited for small effects and does not establish human power for this variant.
+
+Complete source, statistical and reference replay, all 7816 source pins, all 840 output hashes and all native exits verify. This invocation uses 63.406250 CPU seconds; cumulative charged usage is 1102.546875 of 3,600. Both sample adapter validations and earlier failed work remain charged. The original environmental verification failure is retained; 826 deterministic output artifacts exactly match the completed fresh-directory rerun. No code, input, rule or sample changed. 
+
+The primary estimate differs from the unchanged eight-word parent by 0.003997361057 recurrence-share units, against half its interval width of 0.010184700929. This is within the declared similarity bound. The S1 family has 2 consecutive completed similar texture estimates; preparation passes and unsupported comparisons do not increment that count. The stopping rule requires five. This stopping count is an operational rule, not evidence of equivalence. The changed window and sampled population are not independent replication.
+
+**Means.** The contrast remains unresolved at this descriptive sample scope. The variant neither upgrades nor reverses the parent claim, and it licenses no causal, automaticity or psychological interpretation. Full-population cost holds and human small-effect sensitivity remain open. The genre support failures are distinct from null results. Amendment G registers no descendants or additional sensitivity study for a texture. No new test was harvested from the operational wake; scientific synthesis stays in the final packet.
+
+
+Curator roll-up: Process and personal expertise; Does changing the window length alter the personal-template comparison?; **Narrows**; The 12-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.; project meaning: scoped texture leaves the original claim unresolved; next engineering obligation: retain scope and stopping account, continue commissioned builds; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_WINDOW_12_RESULT_20261102.md.
+
+### S15-W4-S1-WINDOW-5-20261102
+
+**Hypothesis.** Does changing the typed window length to 5 words change the descriptive comparison of personal-template reuse in fluent versus hesitant production?
+
+**METHOD.** Apply the frozen window variant to the cost-admitted whole-writer sample, preserving the complete source census and donor pool. Reconstruct strict earlier-session histories and all eight inherited timing controls; compute the original equal-writer adjusted flow-minus-hesitant contrast in own-minus-donor skeleton recurrence. Use 2,000 whole-writer resamples and 200 within-session label permutations, with separate genre checks. Independently reconstruct every source row, fitted contrast and reference bank in a fresh process.
+
+**Found.** The 5-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.
+
+The table contains complete comparisons only. Effects and intervals are percentage-point differences in recurrence share; reference probability is the one-sided within-session tail. The writer floor requires twenty windows per arm in twenty-five writers. Unsupported strata have no computed effect.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Sample primary | 26 / 25 | 0.59040218 | [-0.74707782, 1.95754387] | 0.069651741294 | marginal; descriptive, positive gate not met |
+| Creative | 24 / 25 | Not computed | Not computed | Not computed | Unsupported |
+| Argumentative | 18 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The frozen sample contains 30 of 61 writers (49.1803% of the population). The source census, unselected writers and full donor pool remain intact. Complete source reconstruction retains 718 history-supported sessions and 14319 eligible windows before writer filtering; 34 windows lack exact nuisance values. The final primary supports 26 writers. Its machine disposition is marginal, determined by the signed estimate and interval, while the separate registered positive gate is not met. Passing controls and a positive point estimate do not resolve the contrast. All known-answer checks pass; the parent's complete constructed sensitivity curve remains limited for small effects and does not establish human power for this variant.
+
+Complete source, statistical and reference replay, all 7819 source pins, all 735 output hashes and all native exits verify. This invocation uses 66.703125 CPU seconds; cumulative charged usage is 1043.468750 of 3,600. Both sample adapter validations and earlier failed work remain charged. 
+
+The primary estimate differs from the unchanged eight-word parent by 0.006101460535 recurrence-share units, against half its interval width of 0.010184700929. This is within the declared similarity bound. The S1 family has 1 consecutive completed similar texture estimates; preparation passes and unsupported comparisons do not increment that count. The stopping rule requires five. This stopping count is an operational rule, not evidence of equivalence. The changed window and sampled population are not independent replication.
+
+**Means.** The contrast remains unresolved at this descriptive sample scope. The variant neither upgrades nor reverses the parent claim, and it licenses no causal, automaticity or psychological interpretation. Full-population cost holds and human small-effect sensitivity remain open. The genre support failures are distinct from null results. Amendment G registers no descendants or additional sensitivity study for a texture. No new test was harvested from the operational wake; scientific synthesis stays in the final packet.
+
+
+Curator roll-up: Process and personal expertise; Does changing the window length alter the personal-template comparison?; **Narrows**; The 5-word whole-writer sample does not resolve an own-template advantage; its descriptive interval crosses zero and it does not upgrade the parent claim.; project meaning: scoped texture leaves the original claim unresolved; next engineering obligation: retain scope and stopping account, continue commissioned builds; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_WINDOW_5_RESULT_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-12-ENVIRONMENT
+
+**Hypothesis.** Did the comparison fail a scientific check, or was verification interrupted by its environment?
+
+**METHOD.** Inspect the complete retained verifier traceback, child job accounting, exact exited native identities, original plan and all source hashes. Preserve the execution output and failure without accepting the incomplete replay. Reassess the unchanged full-run forecast after charging the failed attempt.
+
+**Found.** The twelve-word comparison stopped during verification after a Windows progress-file replacement refusal; its unverified output is retained and the unchanged bounded rerun is admitted.
+
+Execution exited successfully, but Windows refused the verifier's atomic replacement of its progress JSON. No statistic or scientific criterion rejected a comparison. The generic runtime's engineering label is corrected in this inspection to environmental interruption; the original FAILED receipt stays byte-identical. Verification did not complete, so no result from that attempt is accepted. The immutable runtime provides no verification-only restart; use a fresh output directory for the same complete execute-and-verify sequence. Inputs, sample membership, module, controls, seeds, support floors and contrasts remain identical. All partial outputs and measured charges are retained. This environmental rerun uses no engineering healing attempt. It is not a scientific gate repair.
+
+**Means.** Require complete source and statistical replay before landing any scientific outcome. Preserve the cumulative one-hour texture ceiling, sample scope, full-population gap, descriptive-only status and prohibition on descendants. No new tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The twelve-word comparison stopped during verification after a Windows progress-file replacement refusal; its unverified output is retained and the unchanged bounded rerun is admitted.; project meaning: scoped operational record; next engineering obligation: Rerun the unchanged comparison in a fresh directory, then require complete independent verification.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_12_ENVIRONMENT_20261102.md.
+
+### OPS-S15-W4-S1-WINDOW-TEXTURE-RECURRENCE-LAUNCH
+
+**Hypothesis.** Are the declared template comparisons eligible under complete source support, original controls and remaining cost, and are their native workers actually progressing?
+
+**METHOD.** Independently verify both complete sampled control preparations, all source/output hashes and exited native identities; finish their full internal write-through before acknowledging the delivered events. Confirm the supported-writer and per-arm floors, authenticate the unchanged native-validated statistic and forecast its full source consumption and numerical work from measured receipts. Inspect each new owner/child by native creation identity, numerical-thread environment, progress, limits, leases and source pins; verify terminal registration and watcher/calendar health.
+
+**Found.** Both admitted sample-scoped template comparisons are progressing in monitored Gear 2; complete control preparation is recorded, while outcomes and the Week 4 ready buffer remain unfinished.
+
+Both frozen whole-writer samples meet the original twenty-five-supported-writer/twenty-per-arm floor after complete control exclusions. Exact participant counts, sample fractions and all missing categories remain in the preparatory receipts; this launch computes or reports no scientific outcome. The admitted module preserves the original nuisance-span adjustment, equal-writer contrast, two hundred within-session permutations, two thousand paired writer resamples, genre reports and unidentifiable-reference refusal. Its five targeted known-answer tests and native source/statistical replay remain authenticated. Each full-workload forecast fits the variant's remaining cumulative one-hour ceiling, with both sampling validations and failed preparation charges retained. No population, word, threshold or support floor changes after outcomes.
+
+The variants remain sample-scoped and descriptive. Full-population cost holds and the parent comparison's limited small-effect sensitivity remain open; neither texture can upgrade a claim or register descendants. A completed estimate, rather than preparation counts, will determine the family stopping counter. Scientific reporting stays in the final packet.
+
+Both native workers are progressing in separate counted CPU slots with one numerical thread each. Their source pins, resource limits and completion/failure registrations verify. No stale owned lease or environmental failure requires recovery. All twenty-one research locks pass. Zero ready successors against eight required and 18.7642 idle slot-hours since handoff remain a build defect; Week 4 is not fully built.
+
+The same-owner watcher matches its loaded sources, holds its singleton and scans without current error or cancellation. The calendar is alive. Historical transport failures remain and acceptance is distinguished from actual delivery and landing. The six-hour health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added. No new hypothesis was harvested from this wake.
+
+T4 human scoring, PROC's main, the remaining primary/paid builds and the ready buffer retain their existing holds and unfinished obligations. GPU parking, paid scope and caps remain unchanged. No paid call, delegation or publication occurred; records remain local.
+
+**Means.** Fully verify and land each finished comparison, preserving sample scope, controls and the parent claim; update the declared texture stopping counter only from completed estimates. Continue remaining commissioned builds within their authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both admitted sample-scoped template comparisons are progressing in monitored Gear 2; complete control preparation is recorded, while outcomes and the Week 4 ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Verify and land complete sampled comparisons and update the texture stopping counter; continue the remaining primary/paid builds and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_WINDOW_TEXTURE_RECURRENCE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-SAMPLE
+
+**Hypothesis.** Can the cost-admitted whole-writer sample preserve the inherited control values and source gaps without changing the comparison?
+
+**METHOD.** Authenticate the complete source and unchanged prior/donor history matches. Reconstruct the fixed majority-genre frame from the exact session/writer window-ledger join, replay seed-20261102 whole-writer selection, then reproduce every selected window's exact typed predecessor, timing endpoints, inherited pair median and prior-session word frequency. Missing controls remain explicit. Independently replay selection, all complete outputs and aggregate scope, then verify native exits.
+
+**Found.** The 12-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+The frozen sample retains 47 of 61 writers and 1085 of 1399 source sessions. Original census, unselected writers and the full donor pool remain intact. Complete control preparation leaves 25 writers meeting the unchanged twenty-per-arm floor; the final comparison still requires at least twenty-five supported writers. The pass uses 540.312500 CPU seconds, with 970.625000 cumulatively charged against the separate one-hour texture allowance. The source clock correction and full-record descriptive pair ruler are unchanged. Aggregate support and missingness are preserved in the receipt; private sample identities remain outside public records.
+
+Both native sample versions, the genre-interface preparation failure, environmental test setup refusal and their corrections remain recorded. No recurrence outcome, fitted effect or scientific probability has been computed by this preparation. The original parent finding and sensitivity limits remain unchanged.
+
+**Means.** Check the final support gate and complete original-statistic forecast before scoring. Retain sample-scoped descriptive status and the full-population gap; never lower the floor or silently enlarge the texture allowance. No claim upgrade or descendants are licensed. Preparatory support does not increment the similar-estimate stopping count. No new hypothesis was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 12-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.; project meaning: scoped operational record; next engineering obligation: Inspect final support and measured unchanged-statistic admission; retain sample scope, whole-population gap and cumulative one-hour texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_NUISANCE_SAMPLE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-SAMPLE
+
+**Hypothesis.** Can the cost-admitted whole-writer sample preserve the inherited control values and source gaps without changing the comparison?
+
+**METHOD.** Authenticate the complete source and unchanged prior/donor history matches. Reconstruct the fixed majority-genre frame from the exact session/writer window-ledger join, replay seed-20261102 whole-writer selection, then reproduce every selected window's exact typed predecessor, timing endpoints, inherited pair median and prior-session word frequency. Missing controls remain explicit. Independently replay selection, all complete outputs and aggregate scope, then verify native exits.
+
+**Found.** The 5-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.
+
+The frozen sample retains 30 of 61 writers and 917 of 1399 source sessions. Original census, unselected writers and the full donor pool remain intact. Complete control preparation leaves 26 writers meeting the unchanged twenty-per-arm floor; the final comparison still requires at least twenty-five supported writers. The pass uses 514.078125 CPU seconds, with 965.765625 cumulatively charged against the separate one-hour texture allowance. The source clock correction and full-record descriptive pair ruler are unchanged. Aggregate support and missingness are preserved in the receipt; private sample identities remain outside public records.
+
+Both native sample versions, the genre-interface preparation failure, environmental test setup refusal and their corrections remain recorded. No recurrence outcome, fitted effect or scientific probability has been computed by this preparation. The original parent finding and sensitivity limits remain unchanged.
+
+**Means.** Check the final support gate and complete original-statistic forecast before scoring. Retain sample-scoped descriptive status and the full-population gap; never lower the floor or silently enlarge the texture allowance. No claim upgrade or descendants are licensed. Preparatory support does not increment the similar-estimate stopping count. No new hypothesis was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 5-word template sample completes inherited control preparation with exact independent replay; recurrence scoring remains uncomputed and full-population scope remains open.; project meaning: scoped operational record; next engineering obligation: Inspect final support and measured unchanged-statistic admission; retain sample scope, whole-population gap and cumulative one-hour texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_NUISANCE_SAMPLE_20261102.md.
+
+### OPS-S15-W4-S1-WINDOW-TEXTURE-SAMPLES-LAUNCH
+
+**Hypothesis.** Are completed dependencies recorded, and is the authorized cost route progressing without changing measurement rules or overstating queue readiness?
+
+**METHOD.** Fully land and acknowledge both complete history passes, both control-input cost probes and the constructed sample adapter. Verify exact native owner/child creation identities, source pins, numerical-thread environment, progress, leases and resources for both sampled preparations. Check the original watcher identity, loaded sources, held singleton, delivery/error state, terminal registrations and calendar.
+
+**Found.** Two authorized whole-writer control-input samples are progressing in monitored Gear 2; completed preparation is fully recorded, while scoring and the Week 4 ready buffer remain unfinished.
+
+The delayed S4 notice was independently reconciled with its already-landed original completion and ACK, without rerunning or reinterpreting the source. Both texture histories and cost probes passed complete independent replay and full write-through. Their conservative full-population control forecasts exceed each variant's remaining one-hour allowance. Those holds remain recorded. The declared whole-writer sample route is frozen before recurrence outcomes, stratified by majority genre with seed 20261102. It preserves source records, histories and donor matches, every selected writer's complete target set, all nuisance values and the original support floors. Each sample fits its measured forecast after all charges and a six-hundred-second reserve for the statistic. That reserve alone does not admit scoring.
+
+The corrected sample adapter passed seven targeted checks and complete constructed native replay. The first preparation stopped before launch because genre belongs to the authenticated window ledger rather than the lower-level word record; its evidence remains and the separate first correction requires an exact session/writer join. Sampling, nuisance values and scientific criteria are unchanged. A separate retained test setup failure was an operating-system refusal to access pytest's default temporary directory; a fresh project-local directory resolved it. No human recurrence outcome is computed in these preparations. Sample membership stays private; the receipt contains only aggregate scope and binding hashes. The full-population gap, parent sensitivity limits, descriptive-only texture scope and no-descendant rule remain.
+
+Both native workers are alive, progressing with one numerical thread each and holding separate counted leases. Full source pins and registered terminal paths verify. No stale owned lease or environmental job failure requires recovery. Zero ready successors against eight required and 18.2040 idle slot-hours since handoff remain a build defect. All twenty-one scientific locks pass; Git status has no deletion entries. Week 4 is not fully built.
+
+The same-owner watcher matches its loaded sources, holds its singleton and has a recent scan without a current error or cancellation. Historical delivery failures remain retained. The calendar is alive; queue acceptance is distinguished from delivery and full landing. The unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+T4 human scoring is still held pending complete cost admission, calibration, controls, uncertainty and descriptive joins. PROC main remains instrument-held; its approved correction and six other paid-node builds remain unfinished. GPU parking, paid limits and final-packet reporting persist. No new paid call, delegation or publication occurred; current records remain local. No new hypothesis was harvested from the wake.
+
+**Means.** Land both complete sampled control preparations before admitting their unchanged recurrence statistic. Continue remaining primary and paid builds and repair the ready-buffer deficit within existing authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two authorized whole-writer control-input samples are progressing in monitored Gear 2; completed preparation is fully recorded, while scoring and the Week 4 ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land sampled controls, verify final support and measured original-statistic admission; finish remaining primary/paid cards and the eight-card ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_WINDOW_TEXTURE_SAMPLES_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE-V2
+
+**Hypothesis.** Does whole-writer cost sampling use genre from the actual authenticated source without changing any target, history or control value?
+
+**METHOD.** Reproduce the real producer schema: P6 word records lack genre, while completed window sessions carry it. Require exact complete session/writer identity equality before deriving the majority-genre frame. Preserve the original seed, proportional quotas and whole-writer view. Test missing, duplicated and mismatched joins, changed genre, complete source preservation and scope-file corruption; independently replay the entire corrected native construction.
+
+**Found.** The corrected sample adapter validates the actual genre-source join and passes complete native replay; original evidence and the uncomputed human comparison remain preserved.
+
+The first real preparation raised KeyError for genre before any sample manifest, worker launch or recurrence outcome. Its private failure receipt and original code, native validation and passing fixture remain intact. The fixture had incorrectly supplied genre in the word record, so the first known-answer pass did not cover the real producer interface. This engineering correction takes genre from the authenticated window ledger after the exact source join. It changes no source bytes, sampling rule, nuisance value, control, support floor or estimator. This is healing attempt one; no scientific failure was healed.
+
+Seven targeted checks and complete fresh native replay pass. Native execution plus verification uses 0.562500 CPU seconds. Both native versions and the failed preparation remain charged before sample admission. Every pin and output hash verifies; exact native owners and children have exited. The earlier separate pytest temporary-directory refusal and its successful project-local recovery also remain recorded.
+
+**Means.** Freeze only samples whose whole-workload allowance fits measured preparation plus the original-statistic reserve. Preserve the one-hour texture ceilings, whole-population gaps and twenty-five-supported-writer/twenty-per-arm floors. Scientific scoring remains unadmitted. No new hypothesis was harvested from the wake; final-packet policy and GPU parking remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The corrected sample adapter validates the actual genre-source join and passes complete native replay; original evidence and the uncomputed human comparison remain preserved.; project meaning: scoped operational record; next engineering obligation: Freeze cost-admitted whole-writer samples from the joined genre ledger; complete inherited controls before measured unchanged-statistic admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_SAMPLE_NATIVE_V2_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-SAMPLE-NATIVE
+
+**Hypothesis.** Can the declared cost route preserve complete writers and all original measurements without silently changing the full-population source?
+
+**METHOD.** Fix majority-genre strata, largest-remainder quotas and canonical writer order before seed-20261102 selection. Validate unique whole writers, order invariance, full-frame selection, changed membership refusal and preservation of the original source objects, donor pool and nuisance values. Reuse the unchanged original nuisance computation and its validated clock conversion. Fresh native verification reconstructs the complete constructed output, including the independent sample-scope file.
+
+**Found.** The whole-writer sample adapter passes known-answer checks and complete native replay; sampled control preparation and descriptive scoring remain separate.
+
+Six targeted checks pass. The first test command hit an operating-system access refusal in pytest temporary-directory setup for three cases; the other three passed. The original error XML remains. A fresh repository-local temporary directory and disabled test cache allowed all checks to run without altering an estimator or lowering a criterion. This environmental setup failure consumed no scientific healing attempt. Native execution and verification consumed 0.546875 CPU seconds. Source pins, complete outputs and exact native exits verify. No human outcome has been computed.
+
+The two full-population nuisance cost holds remain. For each variant, freeze the largest whole-writer sample of at least twenty-five that fits the measured per-session forecast after retaining full source cost, all charges and six hundred CPU seconds for the original statistic. Use the original factor of three for execution, fresh verification and margin. The final twenty-five-supported-writer/twenty-per-arm floor still binds after exclusions; no support is invented by drawing a sample. Both variants retain their separate cumulative one-hour ceilings and full-population gaps.
+
+**Means.** Admit only measured sample preparation after a complete source-bound manifest. Scientific scoring needs its own whole-workload admission, unchanged controls and complete landing. Texture scope remains descriptive, without a claim upgrade or descendants. No new hypothesis was harvested from the wake. GPU parking and the final-packet policy persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The whole-writer sample adapter passes known-answer checks and complete native replay; sampled control preparation and descriptive scoring remain separate.; project meaning: scoped operational record; next engineering obligation: Freeze cost-admitted whole-writer samples, complete inherited control preparation, then separately admit the unchanged statistic; preserve floors and full-population gaps.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_SAMPLE_NATIVE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-NUISANCE-TIMING
+
+**Hypothesis.** Can the declared template-length variant preserve the original control inputs and their explicit missingness within its separate allowance?
+
+**METHOD.** Reuse the unchanged validated v2 consumer. Replay the complete edit stream to require the actual adjacent typed predecessor and exact timing endpoints; retain paragraph boundaries, Unicode geometry, observed same-writer pair medians and strictly earlier-session own-word frequencies. The original milliseconds-to-seconds correction is inherited without changing the source or statistic. Missing controls remain explicit. Cost timing uses twelve source-heavy sessions and is not a scientific sample. Independently reconstruct every declared output in a fresh native process and verify source hashes and native exits.
+
+**Found.** The 12-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+All retained six targeted checks and native known answers remain authenticated. This pass processes 12 sessions and consumes 92.750000 CPU seconds, with 389.203125 cumulatively charged to the variant. Pair medians use the complete observed writer record as a descriptive mechanical adjustment, not past-only prediction. Source support is not a recurrence result. Aggregate missingness, support and timing are retained in the receipt; no scientific effect or probability is computed.
+
+**Means.** Preserve the parent result and its sensitivity limits. Retain the twenty-five-writer/twenty-per-arm floor, exact history matching, original statistic and its complete controls. The variant is descriptive, cannot upgrade a claim and has no descendants. Preparatory counts do not advance the similar-estimate stopping rule. No new hypothesis is harvested from this wake.
+
+**Full-preparation admission.** The measured full nuisance forecast is 3115.980469 CPU seconds against 2610.796875 after all charges and six hundred reserved for the original statistic. Full nuisance preparation is cost-held. Preserve the whole-writer sample route and declared floor; no silent truncation, second ceiling or scientific run is admitted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 12-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted nuisance support or cost/sample review, then the original measured statistic; preserve descriptive scope, floors and cumulative texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_NUISANCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-NUISANCE-TIMING
+
+**Hypothesis.** Can the declared template-length variant preserve the original control inputs and their explicit missingness within its separate allowance?
+
+**METHOD.** Reuse the unchanged validated v2 consumer. Replay the complete edit stream to require the actual adjacent typed predecessor and exact timing endpoints; retain paragraph boundaries, Unicode geometry, observed same-writer pair medians and strictly earlier-session own-word frequencies. The original milliseconds-to-seconds correction is inherited without changing the source or statistic. Missing controls remain explicit. Cost timing uses twelve source-heavy sessions and is not a scientific sample. Independently reconstruct every declared output in a fresh native process and verify source hashes and native exits.
+
+**Found.** The 5-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.
+
+All retained six targeted checks and native known answers remain authenticated. This pass processes 12 sessions and consumes 96.562500 CPU seconds, with 410.578125 cumulatively charged to the variant. Pair medians use the complete observed writer record as a descriptive mechanical adjustment, not past-only prediction. Source support is not a recurrence result. Aggregate missingness, support and timing are retained in the receipt; no scientific effect or probability is computed.
+
+**Means.** Preserve the parent result and its sensitivity limits. Retain the twenty-five-writer/twenty-per-arm floor, exact history matching, original statistic and its complete controls. The variant is descriptive, cannot upgrade a claim and has no descendants. Preparatory counts do not advance the similar-estimate stopping rule. No new hypothesis is harvested from this wake.
+
+**Full-preparation admission.** The measured full nuisance forecast is 3734.218750 CPU seconds against 2589.421875 after all charges and six hundred reserved for the original statistic. Full nuisance preparation is cost-held. Preserve the whole-writer sample route and declared floor; no silent truncation, second ceiling or scientific run is admitted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 5-word template control-input cost probe independently replays the inherited nuisance rules; descriptive recurrence scoring remains pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted nuisance support or cost/sample review, then the original measured statistic; preserve descriptive scope, floors and cumulative texture allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_NUISANCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-FULL
+
+**Hypothesis.** Can the declared window-length variant preserve exact earlier-history matching and source coverage inside its own texture allowance?
+
+**METHOD.** Reuse the unchanged validated history consumer. Authenticate the entire primary source and the variant's completed windows; require nonempty own histories and a different writer's strictly earlier history with exact session count and token budget. Preserve deterministic prompt matching, boundary-safe trimming and all unsupported targets. The timing subset takes twenty candidates with the most prior sessions, then target time and stable identity; it is a cost probe, not a scientific sample. Independently reconstruct every declared match in a fresh process and verify all hashes and native exits. The retained three targeted checks and native fixture remain hash-verified.
+
+**Found.** The 12-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+This full pass processes 1272 of 1272 candidate sessions from all 1399 primary sessions. It consumes 184.203125 CPU seconds across execution and verification, for 285.937500 cumulatively charged to this variant. No recurrence outcome or scientific probability has been computed. All missing-history and capacity failures remain explicit; the inherited nuisance join still determines final scientific support.
+
+**Means.** Keep the parent eight-word result and its sensitivity limits unchanged. These texture variants are descriptive, cannot upgrade a claim and have no descendants. Preserve the twenty-five-writer/twenty-per-arm floors, original controls and whole-workload admission. Preparatory support does not increment the similar-estimate stop count. No new hypothesis was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 12-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete history and inherited nuisance support, then measured original-statistic admission; retain descriptive scope, no descendants and the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_HISTORIES_FULL_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-FULL
+
+**Hypothesis.** Can the declared window-length variant preserve exact earlier-history matching and source coverage inside its own texture allowance?
+
+**METHOD.** Reuse the unchanged validated history consumer. Authenticate the entire primary source and the variant's completed windows; require nonempty own histories and a different writer's strictly earlier history with exact session count and token budget. Preserve deterministic prompt matching, boundary-safe trimming and all unsupported targets. The timing subset takes twenty candidates with the most prior sessions, then target time and stable identity; it is a cost probe, not a scientific sample. Independently reconstruct every declared match in a fresh process and verify all hashes and native exits. The retained three targeted checks and native fixture remain hash-verified.
+
+**Found.** The 5-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+This full pass processes 1383 of 1383 candidate sessions from all 1399 primary sessions. It consumes 199.125000 CPU seconds across execution and verification, for 303.500000 cumulatively charged to this variant. No recurrence outcome or scientific probability has been computed. All missing-history and capacity failures remain explicit; the inherited nuisance join still determines final scientific support.
+
+**Means.** Keep the parent eight-word result and its sensitivity limits unchanged. These texture variants are descriptive, cannot upgrade a claim and have no descendants. Preserve the twenty-five-writer/twenty-per-arm floors, original controls and whole-workload admission. Preparatory support does not increment the similar-estimate stop count. No new hypothesis was harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 5-word template complete history preparation independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete history and inherited nuisance support, then measured original-statistic admission; retain descriptive scope, no descendants and the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_HISTORIES_FULL_20261102.md.
+
+### OPS-S15-W4-S1-WINDOW-TEXTURE-HISTORIES-LAUNCH
+
+**Hypothesis.** Are all completed records preserved and the next authorized texture prerequisites genuinely progressing within their existing limits?
+
+**METHOD.** Reverify the delayed S4 native receipt, source pins, complete outputs, original landing and exited native identities before repeating its acknowledgement. Complete the two window-source and two history-timing landings. Authenticate the unchanged history consumer and measured full-history admission, then inspect both live native owners and children, numerical threads, progress, source hashes, leases, resource limits, registered terminals and watcher/calendar health.
+
+**Found.** Both declared template variants are running complete prior-history matching in monitored Gear 2; source and timing records are complete, while final controls and the ready buffer remain unfinished.
+
+The S4 notice was already acknowledged. Thirty-five source pins and eighteen output hashes match its original completion; native workers remain exited and the original ACK timestamp is preserved. Its later unsupported corpus and texture outcomes remain unchanged. No repeated source run or scientific reinterpretation follows from the delayed notification.
+
+The five- and twelve-word source passes retain all primary sessions and writers and independently replay all windows, timing classes and excluded categories. Both complete source receipts are filed. Each variant's separate source-heavy history timing probe also independently replays and fits its forecast inside its own one-hour ceiling, with at least nine hundred CPU seconds reserved for remaining work. The original exact earlier-history consumer is reused byte-identically: no empty-history donor, future session, outcome-selected match, shortened history or relaxed support floor is admitted. Full history preparation runs now; complete nuisance joins, the original descriptive statistic and whole-workload admission remain pending.
+
+At inspection both counted CPU slots are active with one numerical thread per worker. Source pins, native creation identities, progress and resources verify; their exact readings and hard limits are in the receipt. No stale owned lease or environmental failure requires recovery. Zero ready successors against eight required and 16.9932 idle slot-hours since handoff remain a build defect. The two length variants are already declared packet textures, without a parent-claim upgrade or descendants; no new hypothesis was harvested from this wake.
+
+All twenty-one research locks pass. The same-owner watcher matches its loaded sources and native creation identity, holds its singleton and has a recent scan without current error or cancellation. The calendar is alive and all terminal paths are registered. Historical notification failures remain preserved; queue acceptance is distinguished from owner delivery. The unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+T4 human scoring remains held pending full cost admission, calibration, controls, uncertainty and descriptive joins. PROC main remains instrument-held; its approved correction and the six other paid-node builds remain unfinished. GPU parking, paid limits and the final-packet policy persist. No paid transfer, delegation or publication occurred. Current records are local; Week 4 is not fully built.
+
+**Means.** Land the complete prior-history matches, then prepare inherited nuisance support before descriptive outcome admission. Continue the remaining primary and paid builds and repair the ready-buffer deficit within existing authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both declared template variants are running complete prior-history matching in monitored Gear 2; source and timing records are complete, while final controls and the ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land full histories and prepare inherited nuisance support; complete descriptive admission, remaining Week 4 primary/paid builds and the eight-card ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_WINDOW_TEXTURE_HISTORIES_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-HISTORIES-TIMING
+
+**Hypothesis.** Can the declared window-length variant preserve exact earlier-history matching and source coverage inside its own texture allowance?
+
+**METHOD.** Reuse the unchanged validated history consumer. Authenticate the entire primary source and the variant's completed windows; require nonempty own histories and a different writer's strictly earlier history with exact session count and token budget. Preserve deterministic prompt matching, boundary-safe trimming and all unsupported targets. The timing subset takes twenty candidates with the most prior sessions, then target time and stable identity; it is a cost probe, not a scientific sample. Independently reconstruct every declared match in a fresh process and verify all hashes and native exits. The retained three targeted checks and native fixture remain hash-verified.
+
+**Found.** The 12-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+This timing pass processes 20 of 1272 candidate sessions from all 1399 primary sessions. It consumes 18.656250 CPU seconds across execution and verification, for 101.734375 cumulatively charged to this variant. No recurrence outcome or scientific probability has been computed. All missing-history and capacity failures remain explicit; the inherited nuisance join still determines final scientific support.
+
+**Means.** Keep the parent eight-word result and its sensitivity limits unchanged. These texture variants are descriptive, cannot upgrade a claim and have no descendants. Preserve the twenty-five-writer/twenty-per-arm floors, original controls and whole-workload admission. Preparatory support does not increment the similar-estimate stop count. No new hypothesis was harvested from the operational wake.
+
+**Full-history admission.** The matched variant projects 256.031250 CPU seconds including complete fresh verification and the original margin. Its accumulated source and probe charges plus this forecast leave at least nine hundred CPU seconds for remaining work inside the one-hour texture ceiling. This admits history preparation only.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 12-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete history and inherited nuisance support, then measured original-statistic admission; retain descriptive scope, no descendants and the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-HISTORIES-TIMING
+
+**Hypothesis.** Can the declared window-length variant preserve exact earlier-history matching and source coverage inside its own texture allowance?
+
+**METHOD.** Reuse the unchanged validated history consumer. Authenticate the entire primary source and the variant's completed windows; require nonempty own histories and a different writer's strictly earlier history with exact session count and token budget. Preserve deterministic prompt matching, boundary-safe trimming and all unsupported targets. The timing subset takes twenty candidates with the most prior sessions, then target time and stable identity; it is a cost probe, not a scientific sample. Independently reconstruct every declared match in a fresh process and verify all hashes and native exits. The retained three targeted checks and native fixture remain hash-verified.
+
+**Found.** The 5-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.
+
+This timing pass processes 20 of 1383 candidate sessions from all 1399 primary sessions. It consumes 18.593750 CPU seconds across execution and verification, for 104.375000 cumulatively charged to this variant. No recurrence outcome or scientific probability has been computed. All missing-history and capacity failures remain explicit; the inherited nuisance join still determines final scientific support.
+
+**Means.** Keep the parent eight-word result and its sensitivity limits unchanged. These texture variants are descriptive, cannot upgrade a claim and have no descendants. Preserve the twenty-five-writer/twenty-per-arm floors, original controls and whole-workload admission. Preparatory support does not increment the similar-estimate stop count. No new hypothesis was harvested from the operational wake.
+
+**Full-history admission.** The matched variant projects 207.649219 CPU seconds including complete fresh verification and the original margin. Its accumulated source and probe charges plus this forecast leave at least nine hundred CPU seconds for remaining work inside the one-hour texture ceiling. This admits history preparation only.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The 5-word template history timing probe independently replays exact earlier-session matching; nuisance support and the descriptive recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete history and inherited nuisance support, then measured original-statistic admission; retain descriptive scope, no descendants and the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-INPUTS
+
+**Hypothesis.** Can the declared window-length variant retain the complete authenticated typed source and timing rules without inventing onsets or selecting words by their later fate?
+
+**METHOD.** Change only candidate length to 12 words, preserving the original completed timing ruler, exact primary-source joins, nonoverlap, first-onset exclusion, real typed predecessor links, sentence-local four-grams, frozen frequency dictionary and writer-specific thirds. Preserve all missing, break, repeated-onset and non-informative cases. Reconstruct every output in a fresh native process, then verify every source/output hash and native exit.
+
+**Found.** The complete 12-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.
+
+All 1399 primary sessions and 61 writers remain represented. The census contains 10893 timing-eligible windows and 34 writers meeting the candidate window floor before donor and nuisance support. These are preparation counts, not the final scientific population or an effect. The original 150-word dictionary rule is unchanged; all excluded candidate categories are retained in the aggregate receipt.
+
+Execution and full verification used 48.390625 CPU seconds; cumulative charged work is 71.671875 inside this texture's one-hour ceiling. Five targeted checks across the declared lengths and complete native replay precede the full source run. No recurrence value or scientific probability is computed.
+
+**Means.** Exact earlier-session matching and all inherited covariates must establish final support before the original statistic can run. The eight-word parent and its limited small-effect sensitivity remain unchanged. This variant is descriptive, cannot upgrade a claim, has no descendants and does not increment the five-similar-estimate stop counter before an estimate exists. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete 12-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Measure and complete strict history support, inherited nuisance joins and original statistical admission inside the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_INPUTS_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-INPUTS
+
+**Hypothesis.** Can the declared window-length variant retain the complete authenticated typed source and timing rules without inventing onsets or selecting words by their later fate?
+
+**METHOD.** Change only candidate length to 5 words, preserving the original completed timing ruler, exact primary-source joins, nonoverlap, first-onset exclusion, real typed predecessor links, sentence-local four-grams, frozen frequency dictionary and writer-specific thirds. Preserve all missing, break, repeated-onset and non-informative cases. Reconstruct every output in a fresh native process, then verify every source/output hash and native exit.
+
+**Found.** The complete 5-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.
+
+All 1399 primary sessions and 61 writers remain represented. The census contains 40521 timing-eligible windows and 49 writers meeting the candidate window floor before donor and nuisance support. These are preparation counts, not the final scientific population or an effect. The original 150-word dictionary rule is unchanged; all excluded candidate categories are retained in the aggregate receipt.
+
+Execution and full verification used 50.750000 CPU seconds; cumulative charged work is 74.375000 inside this texture's one-hour ceiling. Five targeted checks across the declared lengths and complete native replay precede the full source run. No recurrence value or scientific probability is computed.
+
+**Means.** Exact earlier-session matching and all inherited covariates must establish final support before the original statistic can run. The eight-word parent and its limited small-effect sensitivity remain unchanged. This variant is descriptive, cannot upgrade a claim, has no descendants and does not increment the five-similar-estimate stop counter before an estimate exists. No new test was harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete 5-word template source independently replays with the whole population retained; exact donor support, nuisance joins and its descriptive comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Measure and complete strict history support, inherited nuisance joins and original statistical admission inside the separate texture ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_INPUTS_20261102.md.
+
+### OPS-S15-W4-S1-WINDOW-TEXTURE-LAUNCH
+
+**Hypothesis.** Are completed jobs fully accounted for, and is eligible commissioned work progressing under the packet's resource and monitoring limits?
+
+**METHOD.** Reconcile the delayed timing notice and completed T4 source, cost and exact numerical successor. Verify both new template-source jobs by native PID and creation identity, source hashes, actual thread environment, leases, progress, resource limits and registered terminals. Check watcher singleton, loaded sources, scan freshness and calendar identity; record idle capacity and unbuilt work.
+
+**Found.** Two declared template-source variants are running in monitored Gear 2; completed numerical validations are recorded, while human scoring and the eight-card ready buffer remain unfinished.
+
+The latest timing wake was a delayed duplicate. Its complete source/output and native-exit inspection is retained privately; the original acknowledgement timestamp is preserved. It does not rerun the ruler or replace the subsequently completed S1 result. The original T4 cost probe, minimum-sample hold, complete forty-world numerical successor and new full-feature cost probe are fully recorded. Selected successor fits retain the original objective and gradient certificates. Actual human choices were never fitted in those generated-choice probes. The successor's core forecast is 6258.218750 CPU seconds against 5394.125000 remaining; it also excludes still-unbuilt calibration, parameter uncertainty and descriptive joins. Human scoring remains held. Whole-writer sample admission needs a complete forecast; no minimum floor or scientific criterion was lowered.
+
+The packet already names five- and twelve-word windows. Both source variants passed five targeted checks and complete native replay before whole-source dispatch. They preserve original provenance, timing, dictionary, grammar and population rules. Their whole-source preparation is capped at 240 CPU seconds each, within separate one-hour texture ceilings; original history, nuisance and statistical obligations remain pending. These are descriptive variants, without claim upgrades or descendants. No new hypothesis was harvested from the operational wake.
+
+At the recorded inspection both workers advance with one numerical thread each in two counted slots. Every source pin and native identity verifies; actual progress, CPU and resource readings are in the receipt. No environmental failure or stale owned lease requires recovery. Earlier failed attempts remain preserved. Zero ready successors against eight required and 16.4047 idle slot-hours since handoff remain an explicit build defect. This is not a claim that Week 4 is fully built.
+
+All twenty-one scientific locks pass and the working tree has no deletion entries. The same-owner watcher holds its singleton, matches its loaded sources and has a fresh scan without a current error or cancellation. The calendar is alive. Terminal paths are registered, historical notification failures remain, and accepted transport is distinguished from actual owner delivery. The unchanged six-hour inspection is due 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+GPU remains parked. PROC main remains instrument-held; its approved correction and the other six paid-node builds remain unfinished. No paid transfer or delegation occurred in this pass. Records remain local, with scientific reporting reserved for the Week 4 packet.
+
+**Means.** Land complete texture-source outputs before admitting their history and nuisance successors. Continue the T4 complete-cost/control build and remaining commissioned primary and paid work; preserve the ready-buffer deficit and all current holds.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two declared template-source variants are running in monitored Gear 2; completed numerical validations are recorded, while human scoring and the eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Complete source landings and texture history/nuisance consumers; finish T4 controls and whole-cost admission, remaining primary/paid cards and the ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_WINDOW_TEXTURE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-12-NATIVE
+
+**Hypothesis.** Can the packet's declared window-length variant preserve the original source rules while changing only the number of words per candidate?
+
+**METHOD.** Keep the original timing ruler, first-onset exclusion, typed predecessor chain, dictionary rule, sentence-local four-grams and writer-specific thirds. Check exact known windows and gram counts at the declared length, internal-break and disconnected-source refusal, invariance to future revision flags and altered-output refusal. Independently replay the whole fixture in a fresh native process; verify all pins, outputs and native exits.
+
+**Found.** The declared 12-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.
+
+All five targeted checks pass across both declared lengths. This complete fixture has nine windows split into three flow, three middle and three hesitant cases. Its cost was 3.281250 CPU seconds; twenty seconds are conservatively charged for shared preparation to each texture card. Native fixture counts establish arithmetic, not human support.
+
+**Means.** Complete whole-source assembly, strict donor/history matching, nuisance joins and the original statistic remain separate obligations. Both variants retain the original twenty-five-writer and twenty-per-arm floors and each has a one-hour ceiling. Their results are descriptive, do not upgrade the eight-word parent claim and have no descendants. Preparatory source counts do not increment the five-similar-estimate stop counter. No new hypothesis was harvested from the wake; these variants were already listed in the packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The declared 12-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete declared texture source, donor and nuisance preparation, then measured original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_12_NATIVE_20261102.md.
+
+### OPS-S15-W4-S1-TEXTURE-WINDOW-5-NATIVE
+
+**Hypothesis.** Can the packet's declared window-length variant preserve the original source rules while changing only the number of words per candidate?
+
+**METHOD.** Keep the original timing ruler, first-onset exclusion, typed predecessor chain, dictionary rule, sentence-local four-grams and writer-specific thirds. Check exact known windows and gram counts at the declared length, internal-break and disconnected-source refusal, invariance to future revision flags and altered-output refusal. Independently replay the whole fixture in a fresh native process; verify all pins, outputs and native exits.
+
+**Found.** The declared 5-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.
+
+All five targeted checks pass across both declared lengths. This complete fixture has nine windows split into three flow, three middle and three hesitant cases. Its cost was 3.625000 CPU seconds; twenty seconds are conservatively charged for shared preparation to each texture card. Native fixture counts establish arithmetic, not human support.
+
+**Means.** Complete whole-source assembly, strict donor/history matching, nuisance joins and the original statistic remain separate obligations. Both variants retain the original twenty-five-writer and twenty-per-arm floors and each has a one-hour ceiling. Their results are descriptive, do not upgrade the eight-word parent claim and have no descendants. Preparatory source counts do not increment the five-similar-estimate stop counter. No new hypothesis was harvested from the wake; these variants were already listed in the packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The declared 5-word template source variant passes complete constructed native replay; source support and its descriptive comparison remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete declared texture source, donor and nuisance preparation, then measured original-statistic admission within the one-hour ceiling; preserve parent and no-descendant rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_TEXTURE_WINDOW_5_NATIVE_20261102.md.
+
+### OPS-S15-W4-T4-H1-COST-COST
+
+**Hypothesis.** Does the exact numerical successor reduce fitting cost on unchanged source geometry while preserving the complete generated-choice comparison and every original certificate?
+
+**METHOD.** Require the recorded complete forty-world recovery bank and the original input and variable-menu producers. Retain the original generated-choice laws, seeds, fit starts, temperature bounds, regularization and cost margins. Replace human choices before fitting, then independently refit every declared case in a fresh process, including compilation. Verify the selected objective and projected gradient with the original implementation. Check the actual completed-producer interface and refusal of altered or failed dependencies and altered output.
+
+**Found.** The T4.h1 full-feature cost probe independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.
+
+The whole declared scope includes 6 generated-choice cases, 35 writers and 7181 training menus. It retains 2 bounded fitted solutions. All source/output hashes, original fit certificates and native exits verify. Three targeted checks pass. Actual invocation cost is 51.750000 CPU seconds, with 1754.125000 already charged. No human effect or scientific probability is computed. The constructed interface's three-writer fixture is not empirical admission.
+
+**Means.** The original implementation and its cost hold remain preserved. This numerical successor does not alter scientific acceptance or license human scoring. Complete calibration, controls, parameter uncertainty, descriptive joins and whole-workload cost admission remain required. A fitted temperature is a predictive parameter; normative competence requires separate evidence. GPU remains parked and the final-packet policy remains in force.
+
+**Core forecast.** 6258.218750 CPU seconds for the original primary-plus-two-hundred-refit schedule, fresh replay and factor-three margin. Remaining cumulative allowance after this probe: 5394.125000. The forecast excludes the unbuilt calibration, parameter uncertainty and descriptive joins; it is not a full admission forecast.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4.h1 full-feature cost probe independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.; project meaning: scoped operational record; next engineering obligation: Finish prospective human controls, uncertainty, descriptive joins and whole-cost admission; preserve original cost hold and exact numerical validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_H1_COST_COST_20261102.md.
+
+### OPS-S15-W4-T4-H1-COST-CONSTRUCTED
+
+**Hypothesis.** Does the exact numerical successor reduce fitting cost on unchanged source geometry while preserving the complete generated-choice comparison and every original certificate?
+
+**METHOD.** Require the recorded complete forty-world recovery bank and the original input and variable-menu producers. Retain the original generated-choice laws, seeds, fit starts, temperature bounds, regularization and cost margins. Replace human choices before fitting, then independently refit every declared case in a fresh process, including compilation. Verify the selected objective and projected gradient with the original implementation. Check the actual completed-producer interface and refusal of altered or failed dependencies and altered output.
+
+**Found.** The T4.h1 constructed interface independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.
+
+The whole declared scope includes 2 generated-choice cases, 3 writers and 12 training menus. It retains 1 bounded fitted solutions. All source/output hashes, original fit certificates and native exits verify. Three targeted checks pass. Actual invocation cost is 3.828125 CPU seconds, with 1750.296875 already charged. No human effect or scientific probability is computed. The constructed interface's three-writer fixture is not empirical admission.
+
+**Means.** The original implementation and its cost hold remain preserved. This numerical successor does not alter scientific acceptance or license human scoring. Complete calibration, controls, parameter uncertainty, descriptive joins and whole-workload cost admission remain required. A fitted temperature is a predictive parameter; normative competence requires separate evidence. GPU remains parked and the final-packet policy remains in force.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4.h1 constructed interface independently replays every generated fit with original certificates; human scoring and complete cost admission remain held.; project meaning: scoped operational record; next engineering obligation: Finish prospective human controls, uncertainty, descriptive joins and whole-cost admission; preserve original cost hold and exact numerical validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_H1_COST_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-H1-KERNEL-FULL
+
+**Hypothesis.** Can the same choice objective and full analytic gradient be evaluated more cheaply without changing the estimator, its numerical certificates or its recovery rule?
+
+**METHOD.** Validate a separate compiled loop against the retained objective and every gradient coordinate across variable menus, zero and large utilities. Retain masking, dismissal, temperature centering and bounds, regularization, all optimizer starts and acceptance rules. Each selected fit also passes the original implementation's objective and projected-gradient check. Independently replay the complete declared scope in a fresh process, including compilation, with pinned installed runtime versions.
+
+**Found.** The complete T4.h1 constructed bank meets the unchanged recovery rule and original fit certificates; new full-feature cost and human scientific admission remain pending.
+
+Three targeted checks pass; every source/output hash and native exit verifies. This invocation used 43.640625 CPU seconds with 1696.656250 already charged. The native arithmetic fixture and timing probe do not supply complete-bank acceptance. The original implementation, complete recovery bank, measured full-feature cost hold and projected minimum-sample hold remain preserved. No actual human choice is fitted or scored here.
+
+**Means.** Numerical equivalence and constructed recovery do not establish human scientific validity or affordability. Finish the new full-feature cost probe, controls, uncertainty and descriptive joins before human scoring. GPU parking and final-packet reporting remain unchanged.
+
+The table covers all twenty paired seeds. Gains are individual minus shared-temperature expected log likelihood per new constructed choice against exact generating probabilities.
+
+| Generating law | Mean expected gain, nats per choice | Unchanged criterion |
+|---|---:|---|
+| Shared temperature | -0.007465337569 | At most 0.005 |
+| Alternating temperatures | 0.208785292686 | Greater than 0.02 |
+
+Complete-bank acceptance: True; bounded individual fits: 9. Bounds are retained; unrestricted temperature magnitudes, human power and normative competence are not validated.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete T4.h1 constructed bank meets the unchanged recovery rule and original fit certificates; new full-feature cost and human scientific admission remain pending.; project meaning: scoped operational record; next engineering obligation: Finish full unchanged recovery validation and new matched-feature cost; retain human scoring hold until scientific controls and complete admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_H1_KERNEL_FULL_20261102.md.
+
+### OPS-S15-W4-T4-H1-KERNEL-TIMING
+
+**Hypothesis.** Can the same choice objective and full analytic gradient be evaluated more cheaply without changing the estimator, its numerical certificates or its recovery rule?
+
+**METHOD.** Validate a separate compiled loop against the retained objective and every gradient coordinate across variable menus, zero and large utilities. Retain masking, dismissal, temperature centering and bounds, regularization, all optimizer starts and acceptance rules. Each selected fit also passes the original implementation's objective and projected-gradient check. Independently replay the complete declared scope in a fresh process, including compilation, with pinned installed runtime versions.
+
+**Found.** The T4.h1 timing numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.
+
+Three targeted checks pass; every source/output hash and native exit verifies. This invocation used 10.171875 CPU seconds with 1686.484375 already charged. The native arithmetic fixture and timing probe do not supply complete-bank acceptance. The original implementation, complete recovery bank, measured full-feature cost hold and projected minimum-sample hold remain preserved. No actual human choice is fitted or scored here.
+
+**Means.** Numerical equivalence and constructed recovery do not establish human scientific validity or affordability. Finish the new full-feature cost probe, controls, uncertainty and descriptive joins before human scoring. GPU parking and final-packet reporting remain unchanged.
+
+**Cost admission.** Complete-bank validation with fresh refitting projects 83.437500 CPU seconds, with 600 reserved for later cost work inside the unchanged cumulative ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4.h1 timing numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.; project meaning: scoped operational record; next engineering obligation: Finish full unchanged recovery validation and new matched-feature cost; retain human scoring hold until scientific controls and complete admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_H1_KERNEL_TIMING_20261102.md.
+
+### OPS-S15-W4-T4-H1-KERNEL-CONSTRUCTED
+
+**Hypothesis.** Can the same choice objective and full analytic gradient be evaluated more cheaply without changing the estimator, its numerical certificates or its recovery rule?
+
+**METHOD.** Validate a separate compiled loop against the retained objective and every gradient coordinate across variable menus, zero and large utilities. Retain masking, dismissal, temperature centering and bounds, regularization, all optimizer starts and acceptance rules. Each selected fit also passes the original implementation's objective and projected-gradient check. Independently replay the complete declared scope in a fresh process, including compilation, with pinned installed runtime versions.
+
+**Found.** The T4.h1 constructed numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.
+
+Three targeted checks pass; every source/output hash and native exit verifies. This invocation used 4.218750 CPU seconds with 1682.265625 already charged. The native arithmetic fixture and timing probe do not supply complete-bank acceptance. The original implementation, complete recovery bank, measured full-feature cost hold and projected minimum-sample hold remain preserved. No actual human choice is fitted or scored here.
+
+**Means.** Numerical equivalence and constructed recovery do not establish human scientific validity or affordability. Finish the new full-feature cost probe, controls, uncertainty and descriptive joins before human scoring. GPU parking and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4.h1 constructed numerical implementation independently reproduces the unchanged objective and original fit certificates; human scoring remains cost-held.; project meaning: scoped operational record; next engineering obligation: Finish full unchanged recovery validation and new matched-feature cost; retain human scoring hold until scientific controls and complete admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_H1_KERNEL_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-COST-HOLD
+
+**Hypothesis.** Can the existing implementation run its required core refits within the remaining allowance, including the packet's smallest permitted writer sample?
+
+**METHOD.** Use the completed six-world generated-choice probe, retain its independent-replay and factor-three margins, then draw twenty-five whole writers with seed 20261102 from the frozen supported roster. Scale the measured full-feature forecast by the sample's actual training-menu count. This predicts sample cost; it is not a timed sample or a human outcome.
+
+**Found.** T4 human scoring is cost-held under the original implementation, including its projected minimum writer sample; a separately validated exact numerical successor is being built.
+
+The full core refit projection is 23933.656250 CPU seconds, with 5527.734375 left after all charged preparation and completed cost work. The minimum sample contains 5463 of 7181 training menus and projects 18212.494652 CPU seconds. Both exceed the remainder before the unbuilt calibration, parameter uncertainty and descriptive joins are added. No sample or human model is admitted, no writer floor is reduced, and the full-population question remains open.
+
+**Means.** Preserve the cost hold and all original outputs. The prospective T4.h1 implementation changes only evaluation of the same objective and analytic gradient. Three targeted checks pass for arithmetic, finite differences, padding and independent fitting; every selected solution must additionally pass the original implementation's gradient certificate. Native replay, the unchanged complete constructed bank and a new full-feature cost probe remain prerequisites. No new human result, paid call, delegation or gear change follows. No tests were harvested from the operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; T4 human scoring is cost-held under the original implementation, including its projected minimum writer sample; a separately validated exact numerical successor is being built.; project meaning: scoped operational record; next engineering obligation: Validate the separately frozen T4.h1 numerical successor at the parent rank; retain whole-writer sampling and the original cost gap.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_COST_HOLD_20261102.md.
+
+### OPS-S15-W4-T4-COST
+
+**Hypothesis.** Can the frozen source be packed and its fitting cost measured without letting later data change normalization or using human choices for the probe?
+
+**METHOD.** Preserve compact canonical choices, variable offer masks, writer/session identities and fixed temporal halves. Independently reconstruct every packed feature and normalization constant. Require twenty training and twenty test menus per supported writer and twenty-five supported writers. The cost path uses generated labels under fixed shared and heterogeneous-temperature laws, unchanged certified models and complete fresh refitting; targeted tests also mutate human labels and completed dependency content.
+
+**Found.** The full-feature cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.
+
+The complete declared probe includes 6 constructed worlds and 2 bounded fitted solutions. Actual human choices are replaced before any model fit. No empirical log likelihood, effect or scientific probability is computed.
+
+Six targeted checks pass. Source/output hashes and all native exits verify. This invocation used 164.359375 CPU seconds with 1507.906250 already charged. Original sources and validation banks remain immutable. Per-writer data and generated model coefficients stay private. The three-writer constructed input fixture tests assembly only; its lower fixture floor is not empirical admission. The core cost projection, when present, covers primary plus two hundred refitted controls, independent replay and a factor-three margin, but omits unbuilt scientific calibration, parameter uncertainty and descriptive joins. It cannot authorize main execution.
+
+**Means.** Finish matched control validation, uncertainty, descriptive joins and complete cost admission before computing the human primary contrast. A fitted temperature remains a predictive parameter, with competence interpretation requiring separate evidence. The remaining Week 4 build and eight-card buffer are unfinished; GPU parking and final-packet policy persist.
+
+**Core fitting forecast.** 23933.656250 CPU seconds, excluding the explicitly unbuilt components. Available after this probe: 5527.734375 CPU seconds. Preserve this measured limitation in subsequent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-feature cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.; project meaning: scoped operational record; next engineering obligation: Finish source/cost reconciliation and prospective human control, uncertainty and full-cost admission before scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_COST_20261102.md.
+
+### OPS-S15-W4-T4-MATCHED-COST-LAUNCH
+
+**Hypothesis.** Is the next commissioned model dependency fully accounted for and running within its existing CPU and monitoring limits?
+
+**METHOD.** Verify complete variable-menu validation and full-input write-through, the generated-choice native probe, every source pin, exact current native identities, actual numerical thread environment, shared leases, resources and watcher identity, source loading and scan freshness. Record ready-work and idle-slot deficits.
+
+**Found.** The full-feature generated-choice cost probe is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.
+
+The complete variable-menu validation bank and complete human-input assembly are independently verified and fully recorded. Six targeted checks cover packing, temporal halves, training-only scaling, invalid inputs, immutable replay, the actual completed producer-consumer interface and generated-label independence from human choices. The fresh native cost probe refits every declared constructed case. Generated-target invariance applies to the stored response column; the real history and state covariates remain fixed feature geometry. The full-feature probe replaces all human choices before fitting; it computes cost and numerical certificates only. No unfinished score or human contrast is reported.
+
+**Scope clarification.** The source contains 61 writers: 8 have no eligible menus, and 18 of those with eligible menus fail the two-half support floor, leaving 35. The preserved source summary field named excluded_writers counts only exclusions among writers with eligible menus. Its value is not the total number excluded from the source population. This supplement names both groups; no roster, feature, choice, fitted model or native source is changed.
+
+The probe's hard allowance is 600.000000 CPU seconds including fresh verification; 1507.906250 seconds were charged before admission. It retains the unchanged cumulative ceiling. Its core-fit forecast will explicitly exclude unbuilt scientific calibration, parameter uncertainty and descriptive joins and therefore cannot authorize human main execution. Complete-case evidence and any bound-active fits must be landed before further admission.
+
+At inspection 1 of four counted slots are occupied; actual worker settings are one numerical thread. Exact identities, CPU use, progress, resources and limits are in the receipt. Ready successors remain zero against eight required; 14.5019 idle slot-hours since handoff remain a build defect. No healthy worker was restarted or unrelated lease reclaimed. The S5 native repair notice was a delayed duplicate: its fifty-one source pins, fourteen output hashes, original landing and native exits were reverified; full write-through passed and its original ACK timestamp was preserved. This does not rerun S5 or replace its later empirical support finding. No new test was harvested from this operational wake.
+
+All twenty-one scientific locks pass. The same-owner watcher matches its native creation identity and loaded sources, holds its singleton and has a recent scan without current error or cancellation. All probe terminal paths are registered. Historical notification failures remain preserved. Accepted transport and actual idle-owner delivery are separate; the unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00. No ETA wake is added.
+
+GPU remains parked. PROC main remains instrument-held; its approved correction and the six other paid-node builds remain unfinished. No paid call or delegation occurred. Records remain local and scientific reporting follows the final Week 4 packet policy.
+
+**Means.** Reconcile the full-source cost measurement, then complete human controls, uncertainty and full cost admission. Continue the remaining commissioned builds and ready buffer.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-feature generated-choice cost probe is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land full-source cost; finish human controls, uncertainty, descriptive joins and admission, remaining primary/paid cards and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_MATCHED_COST_LAUNCH_20261102.md.
+
+### OPS-S15-W4-T4-NATIVE-COST
+
+**Hypothesis.** Can the frozen source be packed and its fitting cost measured without letting later data change normalization or using human choices for the probe?
+
+**METHOD.** Preserve compact canonical choices, variable offer masks, writer/session identities and fixed temporal halves. Independently reconstruct every packed feature and normalization constant. Require twenty training and twenty test menus per supported writer and twenty-five supported writers. The cost path uses generated labels under fixed shared and heterogeneous-temperature laws, unchanged certified models and complete fresh refitting; targeted tests also mutate human labels and completed dependency content.
+
+**Found.** The constructed cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.
+
+The complete declared probe includes 2 constructed worlds and 1 bounded fitted solutions. Actual human choices are replaced before any model fit. No empirical log likelihood, effect or scientific probability is computed.
+
+Six targeted checks pass. Source/output hashes and all native exits verify. This invocation used 1.468750 CPU seconds with 1506.437500 already charged. Original sources and validation banks remain immutable. Per-writer data and generated model coefficients stay private. The three-writer constructed input fixture tests assembly only; its lower fixture floor is not empirical admission. The core cost projection, when present, covers primary plus two hundred refitted controls, independent replay and a factor-three margin, but omits unbuilt scientific calibration, parameter uncertainty and descriptive joins. It cannot authorize main execution.
+
+**Means.** Finish matched control validation, uncertainty, descriptive joins and complete cost admission before computing the human primary contrast. A fitted temperature remains a predictive parameter, with competence interpretation requiring separate evidence. The remaining Week 4 build and eight-card buffer are unfinished; GPU parking and final-packet policy persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed cost probe independently refits every generated-choice case; human-choice scoring and scientific admission remain held.; project meaning: scoped operational record; next engineering obligation: Finish source/cost reconciliation and prospective human control, uncertainty and full-cost admission before scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_NATIVE_COST_20261102.md.
+
+### OPS-S15-W4-T4-FULL-INPUTS
+
+**Hypothesis.** Can the frozen source be packed and its fitting cost measured without letting later data change normalization or using human choices for the probe?
+
+**METHOD.** Preserve compact canonical choices, variable offer masks, writer/session identities and fixed temporal halves. Independently reconstruct every packed feature and normalization constant. Require twenty training and twenty test menus per supported writer and twenty-five supported writers. The cost path uses generated labels under fixed shared and heterogeneous-temperature laws, unchanged certified models and complete fresh refitting; targeted tests also mutate human labels and completed dependency content.
+
+**Found.** The complete human-input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.
+
+Source menus 16855; eligible menus 16144; supported writers 35; support floor 25. Support status True. These are input counts, not a model finding.
+
+Six targeted checks pass. Source/output hashes and all native exits verify. This invocation used 3.875000 CPU seconds with 1502.562500 already charged. Original sources and validation banks remain immutable. Per-writer data and generated model coefficients stay private. The three-writer constructed input fixture tests assembly only; its lower fixture floor is not empirical admission. The core cost projection, when present, covers primary plus two hundred refitted controls, independent replay and a factor-three margin, but omits unbuilt scientific calibration, parameter uncertainty and descriptive joins. It cannot authorize main execution.
+
+**Means.** Finish matched control validation, uncertainty, descriptive joins and complete cost admission before computing the human primary contrast. A fitted temperature remains a predictive parameter, with competence interpretation requiring separate evidence. The remaining Week 4 build and eight-card buffer are unfinished; GPU parking and final-packet policy persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete human-input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish source/cost reconciliation and prospective human control, uncertainty and full-cost admission before scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_FULL_INPUTS_20261102.md.
+
+### OPS-S15-W4-T4-NATIVE-INPUTS
+
+**Hypothesis.** Can the frozen source be packed and its fitting cost measured without letting later data change normalization or using human choices for the probe?
+
+**METHOD.** Preserve compact canonical choices, variable offer masks, writer/session identities and fixed temporal halves. Independently reconstruct every packed feature and normalization constant. Require twenty training and twenty test menus per supported writer and twenty-five supported writers. The cost path uses generated labels under fixed shared and heterogeneous-temperature laws, unchanged certified models and complete fresh refitting; targeted tests also mutate human labels and completed dependency content.
+
+**Found.** The constructed input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.
+
+Source menus 24; eligible menus 24; supported writers 3; support floor 3. Support status True. These are input counts, not a model finding.
+
+Six targeted checks pass. Source/output hashes and all native exits verify. This invocation used 1.156250 CPU seconds with 1501.406250 already charged. Original sources and validation banks remain immutable. Per-writer data and generated model coefficients stay private. The three-writer constructed input fixture tests assembly only; its lower fixture floor is not empirical admission. The core cost projection, when present, covers primary plus two hundred refitted controls, independent replay and a factor-three margin, but omits unbuilt scientific calibration, parameter uncertainty and descriptive joins. It cannot authorize main execution.
+
+**Means.** Finish matched control validation, uncertainty, descriptive joins and complete cost admission before computing the human primary contrast. A fitted temperature remains a predictive parameter, with competence interpretation requiring separate evidence. The remaining Week 4 build and eight-card buffer are unfinished; GPU parking and final-packet policy persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed input adapter independently preserves canonical choices and training-only scaling; human model scoring remains unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish source/cost reconciliation and prospective human control, uncertainty and full-cost admission before scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_NATIVE_INPUTS_20261102.md.
+
+### OPS-S15-W4-T4-VARIABLE-FULL
+
+**Hypothesis.** Can the same model handle the complete range of offered-set sizes without treating padding as an option or changing dismissal?
+
+**METHOD.** Validate compact versus padded probabilities, complete finite-difference gradients, extra-padding invariance, identical unmasked fits and refusal of selected padding. Rebind only choice-mask interfaces to the immutable original optimizer and objective. The paired bank changes only the independently drawn number of real offers, one through five; generating laws, seeds, sizes, constrained temperatures, certificates and acceptance remain the frozen ones. Fresh verification independently reconstructs and refits the declared scope.
+
+**Found.** The complete variable-menu constructed bank meets its frozen recovery rule, with bounded fits retained; human scoring and controls remain unadmitted.
+
+Three targeted checks pass. All native exits, frozen source pins and output hashes verify. This invocation used 135.546875 CPU seconds with 1355.859375 already charged. The complete human feature census has one through five real offers, so a three-offer-only check did not cover its input support. This separate extension preserves the original completed bank and its bounded-fit limitations. Constructed native mode checks arithmetic, timing mode is a cost probe, and neither supplies the full bank's acceptance.
+
+**Means.** Keep numerical validity, complete constructed recovery and human scientific admission distinct. A constrained temperature is a predictive parameter, not an independently justified optimum or unrestricted personal trait. Human permutations, intervals, correlations, cost and scoring remain unadmitted. GPU parking and final-packet reporting persist.
+
+The table covers every seed-paired world. Expected gains are individual minus shared-temperature log likelihood per new choice, evaluated against exact generating probabilities.
+
+| Generating law | Mean expected gain, nats per choice | Frozen criterion |
+|---|---:|---|
+| Shared temperature | -0.007465337531 | At most 0.005 |
+| Alternating temperatures | 0.208785356149 | Greater than 0.02 |
+
+Complete-bank acceptance is True. Bounded individual fits occur in 0 shared-law worlds and 9 heterogeneous-law worlds. These remain constrained solutions; unrestricted temperature recovery, its intervals and matched human power are not validated. No criterion or bound is changed after outcomes.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete variable-menu constructed bank meets its frozen recovery rule, with bounded fits retained; human scoring and controls remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish complete variable-menu validation, then human controls, uncertainty and cost admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_VARIABLE_FULL_20261102.md.
+
+### OPS-S15-W4-T4-VARIABLE-LAUNCH
+
+**Hypothesis.** Can the model's variable-menu input support be validated within the authorized CPU ceiling while preserving complete records and healthy supervision?
+
+**METHOD.** Check completed arithmetic and timing write-through, full-bank cost admission, every source pin, actual native owner and current execution or verification child, actual thread environment, shared leases, resources, scientific locks and watcher ownership, loaded sources and scan freshness. Reconcile delayed notices against their original completed landings rather than rerunning their jobs.
+
+**Found.** The complete variable-menu validation bank is running in monitored Gear 2; human scoring, the remaining Week 4 build and the eight-card ready buffer remain unfinished.
+
+The original fixed-size constructed bank is fully recorded. The separate variable-menu adapter passes compact-versus-padded probability, full-gradient, extra-padding invariance and unchanged-fit checks, with fresh native replay and a completed timing probe. The complete twenty-seed paired bank is now admitted; no unfinished score is reported. Its forecast including fresh refitting is 186.562500 CPU seconds. Prior charges are 1355.859375, and its attempt ceiling is 5244.140625, preserving 600 CPU seconds within the existing cumulative allowance for subsequent work. These constructed checks do not admit human scoring or its unbuilt controls and uncertainty.
+
+The receipt records native identity, actual child phase and CPU use, fresh progress, one-thread settings and resource headroom. At inspection 1 of four shared slots are occupied. No validated ready successor exists against eight required; 13.5413 idle slot-hours since handoff remain an unfinished-build defect. This count integrates recorded Week 4 admissions through their terminal times or this inspection. No healthy worker was restarted and no lease was reclaimed.
+
+All twenty-one scientific locks pass. The watcher matches the original native creation identity and loaded source hashes, holds its singleton lock and has a recent scan without a current error or cancellation. All worker terminal paths are registered. Historical notification failures remain preserved; accepted transport and actual idle-owner delivery remain distinct. The six-hour health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+The delivered R2 timing and PROC calibration notices were already fully landed and acknowledged. This pass reverified the original source, completion and output hashes and native exits, retained the original acknowledgment timestamps, and repeated their acknowledgments idempotently only after full write-through verification. The new variable-menu native and timing results are separately written through. Source anchors verified before this launch: 344. The delayed-notice private evidence is hash-bound in this receipt; no participant content is copied into public records.
+
+GPU remains parked. PROC main remains instrument-held; its approved correction and the six other paid-node builds remain outstanding. No new paid call or delegation occurred. Records remain local. No tests were harvested from this operational wake; this adapter is input-support engineering for the commissioned T4 card. Scientific reporting remains in the final Week 4 packet.
+
+**Means.** Finish the complete constructed validation before human cost admission, controls, uncertainty and the primary comparison. Continue the unfinished campaign and ready-buffer build.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete variable-menu validation bank is running in monitored Gear 2; human scoring, the remaining Week 4 build and the eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land the complete variable-menu bank; build human controls and scoring, remaining primary and paid work, and eight ready successors.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_VARIABLE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-T4-VARIABLE-TIMING
+
+**Hypothesis.** Can the same model handle the complete range of offered-set sizes without treating padding as an option or changing dismissal?
+
+**METHOD.** Validate compact versus padded probabilities, complete finite-difference gradients, extra-padding invariance, identical unmasked fits and refusal of selected padding. Rebind only choice-mask interfaces to the immutable original optimizer and objective. The paired bank changes only the independently drawn number of real offers, one through five; generating laws, seeds, sizes, constrained temperatures, certificates and acceptance remain the frozen ones. Fresh verification independently reconstructs and refits the declared scope.
+
+**Found.** The T4 variable-menu timing instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.
+
+Three targeted checks pass. All native exits, frozen source pins and output hashes verify. This invocation used 20.281250 CPU seconds with 1335.578125 already charged. The complete human feature census has one through five real offers, so a three-offer-only check did not cover its input support. This separate extension preserves the original completed bank and its bounded-fit limitations. Constructed native mode checks arithmetic, timing mode is a cost probe, and neither supplies the full bank's acceptance.
+
+**Means.** Keep numerical validity, complete constructed recovery and human scientific admission distinct. A constrained temperature is a predictive parameter, not an independently justified optimum or unrestricted personal trait. Human permutations, intervals, correlations, cost and scoring remain unadmitted. GPU parking and final-packet reporting persist.
+
+**Admission.** Full paired-bank validation and fresh refitting project 186.562500 CPU seconds; 1355.859375 are already charged and 600 remain reserved within the existing cumulative 7,200-second ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 variable-menu timing instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.; project meaning: scoped operational record; next engineering obligation: Finish complete variable-menu validation, then human controls, uncertainty and cost admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_VARIABLE_TIMING_20261102.md.
+
+### OPS-S15-W4-T4-VARIABLE-CONSTRUCTED
+
+**Hypothesis.** Can the same model handle the complete range of offered-set sizes without treating padding as an option or changing dismissal?
+
+**METHOD.** Validate compact versus padded probabilities, complete finite-difference gradients, extra-padding invariance, identical unmasked fits and refusal of selected padding. Rebind only choice-mask interfaces to the immutable original optimizer and objective. The paired bank changes only the independently drawn number of real offers, one through five; generating laws, seeds, sizes, constrained temperatures, certificates and acceptance remain the frozen ones. Fresh verification independently reconstructs and refits the declared scope.
+
+**Found.** The T4 variable-menu constructed instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.
+
+Three targeted checks pass. All native exits, frozen source pins and output hashes verify. This invocation used 1.343750 CPU seconds with 1334.234375 already charged. The complete human feature census has one through five real offers, so a three-offer-only check did not cover its input support. This separate extension preserves the original completed bank and its bounded-fit limitations. Constructed native mode checks arithmetic, timing mode is a cost probe, and neither supplies the full bank's acceptance.
+
+**Means.** Keep numerical validity, complete constructed recovery and human scientific admission distinct. A constrained temperature is a predictive parameter, not an independently justified optimum or unrestricted personal trait. Human permutations, intervals, correlations, cost and scoring remain unadmitted. GPU parking and final-packet reporting persist.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 variable-menu constructed instrument independently reproduces compact choice probabilities and the unchanged model; complete-bank and human admission remain separate.; project meaning: scoped operational record; next engineering obligation: Finish complete variable-menu validation, then human controls, uncertainty and cost admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_VARIABLE_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-CHOICE-FULL
+
+**Hypothesis.** Can the shared and writer-specific choice models reproduce their declared arithmetic and distinguish deliberately different sharpness without replacing writer dismissal rates?
+
+**METHOD.** Compare direct probabilities, full finite-difference gradients and exact zero-feature temperature invariance. Both models carry writer dismissal constants outside temperature scaling. The individual model centers log temperatures to identify scale. Retain every deterministic optimizer start and choose only certified fits. Timing and full modes compare held-out expected log likelihood with exact generating probabilities in paired shared/heterogeneous temperature worlds; fresh verification refits all selected worlds.
+
+**Found.** The complete constructed choice-model bank meets its frozen recovery rule, with bounded temperature fits retained; human scoring and controls remain unadmitted.
+
+Three targeted checks pass and all native exits, source pins and completion hashes verify. The invocation used 111.515625 CPU seconds with 1212.718750 charged earlier. Constructed mode checks arithmetic only, timing mode checks cost and the declared pilot, and neither constitutes the complete bank's gate. Complete aggregate fields remain in the attached receipt; no human-data likelihood or scientific probability is computed. The prospective model design records the regularizer, optimization certificate, bounds, bank and its acceptance rule before outcomes.
+
+**Means.** Numerical/model validation remains separate from the commissioned human comparison, its controls, uncertainty and descriptive correlations. Similarity to the population and a fitted temperature do not establish normative competence. GPU parking and the final Week 4 packet policy remain.
+
+**Complete-bank acceptance.** The following table covers all twenty seed-paired constructed worlds under each generating law. Gains are individual-temperature minus shared-temperature expected log likelihood per new choice; a positive value favors the individual model. Each expected score uses the known generating probabilities, not sampled test labels.
+
+| Generating law | Mean expected gain, nats per choice | Frozen check |
+|---|---:|---|
+| One shared temperature | -0.006583657989 | At most 0.005 |
+| Alternating temperatures 0.25 and 4 | 0.214516887482 | Greater than 0.02 |
+
+The complete bank's frozen acceptance is True. Exact probability and gradient checks, oracle dominance and independent refitting pass. 9 individual-model fits reach the raw log-temperature bounds: 0 under the shared law and 9 under the heterogeneous law. These are certified constrained solutions, not unconstrained temperature recovery. The selected bounded predictive procedure remains well-defined, but the bank does not validate unrestricted personal-temperature magnitudes, temperature intervals, small differences, or the human menu distribution. Unequal choice-set handling and the human controls still require validation before scoring. No post-outcome bound or acceptance change is made; no human negative or competence claim follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed choice-model bank meets its frozen recovery rule, with bounded temperature fits retained; human scoring and controls remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish complete model validation; then build human scoring, controls and uncertainty before admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_CHOICE_FULL_20261102.md.
+
+### OPS-S15-W4-T4-CHOICE-LAUNCH
+
+**Hypothesis.** Is the next authorized CPU dependency validated, bounded and supervised after the encoder and history features completed?
+
+**METHOD.** Verify completed source and probe write-through, measured cost, frozen source pins, native owner and current execution-or-verification child identities, actual thread environment, shared lease ownership, resources, research locks and watcher source/loading/scan health. Inspect the actual child phase rather than assuming the execution child remains live after its work ends.
+
+**Found.** The complete T4 constructed model-validation bank is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.
+
+The complete encoder and strictly earlier-history feature bank independently replay and are fully recorded. The prospective two-model instrument passes direct-probability, full-gradient and dismissal-invariance checks, plus its native three-world paired fit/cost probe. The full twenty-world paired bank is now running; no unfinished recovery score is reported and no human model is admitted. Its measured forecast is 177.500000 CPU seconds including fresh refitting. Prior charges are 1212.718750; its attempt ceiling is 5387.281250, retaining 600 CPU seconds for subsequent model work inside the single cumulative S4 allowance. All scientific acceptance rules remain frozen.
+
+Exact native identities, observed child CPU use, progress, actual one-thread environment, bounds and resource headroom are in the receipt. There are 1 occupied shared slots and 3 free at inspection. No validated ready successor exists against eight required; 12.5589 idle slot-hours since handoff remain an unfinished-build defect. No lease was reclaimed and no healthy job was restarted. A previous launch-only report refused an already-ended execution child during its normal transition to verification; that refusal is retained with the completed history pass and is not classified as a failed scientific run.
+
+All twenty-one scientific locks pass. The same-owner watcher has verified native creation identity, loaded source hashes, singleton ownership and a recent scan without current error or cancellation. Completion/failure/pause paths are registered. Accepted notification transport remains separate from proof of idle delivery; the original historical notification failures remain retained. The unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00; no separate ETA wake is added. All completed notices known before this launch were acknowledged only after the 340 source anchors and required write-through destinations verified. The stale S1 TODO wording now reflects its already-recorded completed calibration.
+
+GPU remains parked. PROC main is instrument-held after its completed calibration; its approved prompt correction and the remaining six paid-node builds are outstanding. No new paid call or delegation occurred. Records remain local. No new tests were harvested from this operational wake; scientific reporting remains in the final Week 4 packet.
+
+**Means.** Finish this complete constructed bank before deciding human model admission; then build the human controls, uncertainty and descriptive correlations. The broader campaign and ready buffer remain unfinished.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete T4 constructed model-validation bank is running in monitored Gear 2; human scoring, remaining Week 4 builds and the eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Land complete model validation; build human scoring and controls, remaining primary/paid work and eight ready successors.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_CHOICE_LAUNCH_20261102.md.
+
+### OPS-S15-W4-T4-CHOICE-TIMING
+
+**Hypothesis.** Can the shared and writer-specific choice models reproduce their declared arithmetic and distinguish deliberately different sharpness without replacing writer dismissal rates?
+
+**METHOD.** Compare direct probabilities, full finite-difference gradients and exact zero-feature temperature invariance. Both models carry writer dismissal constants outside temperature scaling. The individual model centers log temperatures to identify scale. Retain every deterministic optimizer start and choose only certified fits. Timing and full modes compare held-out expected log likelihood with exact generating probabilities in paired shared/heterogeneous temperature worlds; fresh verification refits all selected worlds.
+
+**Found.** The T4 timing choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.
+
+Three targeted checks pass and all native exits, source pins and completion hashes verify. The invocation used 17.812500 CPU seconds with 1194.906250 charged earlier. Constructed mode checks arithmetic only, timing mode checks cost and the declared pilot, and neither constitutes the complete bank's gate. Complete aggregate fields remain in the attached receipt; no human-data likelihood or scientific probability is computed. The prospective model design records the regularizer, optimization certificate, bounds, bank and its acceptance rule before outcomes.
+
+**Means.** Numerical/model validation remains separate from the commissioned human comparison, its controls, uncertainty and descriptive correlations. Similarity to the population and a fitted temperature do not establish normative competence. GPU parking and the final Week 4 packet policy remain.
+
+**Admission.** Full paired-bank validation and fresh refitting project 177.500000 CPU seconds; 1212.718750 are already charged and 600 remain reserved for later fitting within the existing cumulative 7,200-second ceiling. No bank gate is inferred from its pilot.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 timing choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish complete model validation; then build human scoring, controls and uncertainty before admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_CHOICE_TIMING_20261102.md.
+
+### OPS-S15-W4-T4-CHOICE-CONSTRUCTED
+
+**Hypothesis.** Can the shared and writer-specific choice models reproduce their declared arithmetic and distinguish deliberately different sharpness without replacing writer dismissal rates?
+
+**METHOD.** Compare direct probabilities, full finite-difference gradients and exact zero-feature temperature invariance. Both models carry writer dismissal constants outside temperature scaling. The individual model centers log temperatures to identify scale. Retain every deterministic optimizer start and choose only certified fits. Timing and full modes compare held-out expected log likelihood with exact generating probabilities in paired shared/heterogeneous temperature worlds; fresh verification refits all selected worlds.
+
+**Found.** The T4 constructed choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.
+
+Three targeted checks pass and all native exits, source pins and completion hashes verify. The invocation used 1.203125 CPU seconds with 1193.703125 charged earlier. Constructed mode checks arithmetic only, timing mode checks cost and the declared pilot, and neither constitutes the complete bank's gate. Complete aggregate fields remain in the attached receipt; no human-data likelihood or scientific probability is computed. The prospective model design records the regularizer, optimization certificate, bounds, bank and its acceptance rule before outcomes.
+
+**Means.** Numerical/model validation remains separate from the commissioned human comparison, its controls, uncertainty and descriptive correlations. Similarity to the population and a fitted temperature do not establish normative competence. GPU parking and the final Week 4 packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 constructed choice-model instrument independently replays its declared constructed checks; human choice scoring and its controls remain unadmitted.; project meaning: scoped operational record; next engineering obligation: Finish complete model validation; then build human scoring, controls and uncertainty before admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_CHOICE_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-HISTORY-FULL
+
+**Hypothesis.** Can the choice comparison use only text available before each menu, without admitting the target writer into the population prototype?
+
+**METHOD.** Authenticate the full menu source and completed CPU representations. Construct each writer's unit prototype from strictly earlier completed sessions and an equal-writer population prototype excluding that writer. Production advances a session-end sweep; fresh verification queries separate per-writer prefix sums. Known vectors also test both against a brute-force oracle, equal-time and future exclusions, missing/zero histories, actual option features and the dismissal alternative. Preserve the complete canonical census and existing temporal halves.
+
+**Found.** The T4 full history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+Four targeted checks pass; every output hash, source pin and native exit verifies. This invocation used 24.718750 CPU seconds with 1158.984375 previously charged. Its aggregate support and exclusion counts are in the receipt. Constructed mode validates known examples; timing mode is a cost probe and cannot establish population support. Full mode prepares raw features, not coefficients, temperatures or scientific probabilities. The original model admission requires twenty menus in each half for at least twenty-five writers.
+
+**Means.** A past-only representation source is now reproducible at this scope. Population similarity is not a normative competence label; both prospective fitted comparisons still need constructed validation and cost admission. No new scientific claim or descendant follows from this instrument receipt. GPU parking and the Week 4 final-packet policy remain.
+
+**Operational correction.** A launch-snapshot helper refused the ended execution child after the job had moved to its independent verification child. It wrote no landing. The real worker completed normally with both phases verified; no restart, source change or lease recovery occurred. The failed helper and traceback remain in the local execution record.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 full history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete full feature support and independently validate both fitted choice models before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_HISTORY_FULL_20261102.md.
+
+### OPS-S15-W4-T4-HISTORY-TIMING
+
+**Hypothesis.** Can the choice comparison use only text available before each menu, without admitting the target writer into the population prototype?
+
+**METHOD.** Authenticate the full menu source and completed CPU representations. Construct each writer's unit prototype from strictly earlier completed sessions and an equal-writer population prototype excluding that writer. Production advances a session-end sweep; fresh verification queries separate per-writer prefix sums. Known vectors also test both against a brute-force oracle, equal-time and future exclusions, missing/zero histories, actual option features and the dismissal alternative. Preserve the complete canonical census and existing temporal halves.
+
+**Found.** The T4 timing history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+Four targeted checks pass; every output hash, source pin and native exit verifies. This invocation used 5.000000 CPU seconds with 1153.984375 previously charged. Its aggregate support and exclusion counts are in the receipt. Constructed mode validates known examples; timing mode is a cost probe and cannot establish population support. Full mode prepares raw features, not coefficients, temperatures or scientific probabilities. The original model admission requires twenty menus in each half for at least twenty-five writers.
+
+**Means.** A past-only representation source is now reproducible at this scope. Population similarity is not a normative competence label; both prospective fitted comparisons still need constructed validation and cost admission. No new scientific claim or descendant follows from this instrument receipt. GPU parking and the Week 4 final-packet policy remain.
+
+**Admission.** The full feature forecast with independent selector replay is 51.994085 CPU seconds; 1158.984375 are already charged and 900 remain reserved for model work, within the existing cumulative 7,200-second ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 timing history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete full feature support and independently validate both fitted choice models before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_HISTORY_TIMING_20261102.md.
+
+### OPS-S15-W4-T4-HISTORY-CONSTRUCTED
+
+**Hypothesis.** Can the choice comparison use only text available before each menu, without admitting the target writer into the population prototype?
+
+**METHOD.** Authenticate the full menu source and completed CPU representations. Construct each writer's unit prototype from strictly earlier completed sessions and an equal-writer population prototype excluding that writer. Production advances a session-end sweep; fresh verification queries separate per-writer prefix sums. Known vectors also test both against a brute-force oracle, equal-time and future exclusions, missing/zero histories, actual option features and the dismissal alternative. Preserve the complete canonical census and existing temporal halves.
+
+**Found.** The T4 constructed history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.
+
+Four targeted checks pass; every output hash, source pin and native exit verifies. This invocation used 0.500000 CPU seconds with 1153.484375 previously charged. Its aggregate support and exclusion counts are in the receipt. Constructed mode validates known examples; timing mode is a cost probe and cannot establish population support. Full mode prepares raw features, not coefficients, temperatures or scientific probabilities. The original model admission requires twenty menus in each half for at least twenty-five writers.
+
+**Means.** A past-only representation source is now reproducible at this scope. Population similarity is not a normative competence label; both prospective fitted comparisons still need constructed validation and cost admission. No new scientific claim or descendant follows from this instrument receipt. GPU parking and the Week 4 final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 constructed history feature pass independently verifies strictly earlier text and exclusion of the target writer from the population comparison; both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete full feature support and independently validate both fitted choice models before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_HISTORY_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-ENCODING-FULL
+
+**Hypothesis.** Can existing representations be reused exactly while new option, context and typed-history text retains its identity and visible scope?
+
+**METHOD.** Authenticate complete canonical menus, typed-history sessions and the original encoder cache. Distinguish context and suggestion visibility keys, deduplicate only identical text and roles, retain session clocks, and test changed-cache and changed-output refusal. For actual encoding use pinned float32 CPU weights, exact cached anchors, repeatability and complete fresh re-encoding.
+
+**Found.** The T4 full representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+Three targeted source-interface tests pass. Every source pin, output hash and native exit verifies; this invocation uses 1000.031250 CPU seconds with 148.453125 already charged. Aggregate source and scope counts are in the receipt. Constructed mode validates joining only and makes no actual encoder claim. A timing pass validates the actual encoder on its declared probe, not unseen complete text. Full mode must finish before using the entire cache.
+
+**Means.** The cache is not a causal history selector: future source remains attached to its original clocks, and a downstream consumer must select only completed earlier sessions. No temperature, likelihood, personal preference or scientific probability is computed. Whole-writer support and both model validations remain open. GPU remains parked; final scientific reporting stays in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 full representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted representations, strict earlier-history selection and both independently validated competence models.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_ENCODING_FULL_20261102.md.
+
+### OPS-S15-W4-BUILD-1051
+
+**Hypothesis.** Are the completed results recorded consistently and is authorized Week 4 work actually progressing under its current limits?
+
+**METHOD.** Verify completion hashes, frozen sources, independent replay and native exits before full write-through and acknowledgment. Inspect live owner and child executable/PID/creation identities, actual child CPU use and numerical thread environment, inner encoding progress and freshness, shared slot ownership, resources, research locks and the durable watcher. Preserve all failed preparations and paid validation holds.
+
+**Found.** Gear 2 is progressing through the full T4 CPU representation pass; completed S1 and source records are filed, while the remaining Week 4 models and eight-card ready buffer remain unfinished.
+
+The complete S1 histories and controls, human comparison and required planted-template bank are recorded in FINDINGS, the claim ledger, theory rows and afterwords, instrument records and TODO. New reference probabilities are in the multiplicity audit. The complete T4 menu source and its single metadata/path correction are recorded with both pre-admission errors intact; all six corrected-source checks pass. Its encoder source-interface tests, actual cache/repeat checks and measured probe passed fresh replay. The full representation pass is now active under one counted CPU lease, with three free slots. Its inner progress is 22688 of 29101 new text representations and is 0.009 seconds old; the actual child has used 246.828 CPU seconds. Exact identities and bounds are in the receipt. No fitted T4 model or finished representation cache is claimed.
+
+There are zero validated ready successors against eight required. The handoff-to-inspection interval contains 10.9894 idle slot-hours under admission-to-terminal accounting; this is an unfinished-build defect while commissioned work remains, not a resource or queue failure. Recovery completed the required validation and source corrections and admitted the next full CPU pass. Primary builds, strict history selection, both competence models, the remaining paid-node builds and the ready buffer are outstanding. Historical snapshots below the new handoff remain historical.
+
+Available RAM is 50.52 GiB, commit headroom 41.18 GiB and free disk 305.19 GiB. Actual numerical thread environment is one for all four inspected variables; this is not live library-pool introspection. All twenty-one scientific locks pass. GPU inventory has no Sounding Line compute worker; parking remains intentional. The current full worker has no failure or pause marker, and no lease was reclaimed.
+
+Watcher owner, native creation identity, loaded source hashes, singleton lock and recent scan verify; no current watcher error or cancellation exists. Completed notices have queued/pending transport states and no recorded delivery timestamp, so acceptance is not relabelled as a newly proven idle wake. Full write-through precedes their ACK. The finite Week 4 calendar is live. The unchanged six-hour health deadline is 2026-11-02T15:41:17.802681-08:00; no separate ETA wake is added. Full completion, failure and pause paths are registered for the new worker.
+
+PROC main remains instrument-held after its recorded calibration; its approved correction and fresh calibration remain available. No new paid call, gear escalation or delegation occurred. No new tests were harvested from this operational wake. Scientific reporting remains in the final Week 4 packet. This pass remains local.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Gear 2 is progressing through the full T4 CPU representation pass; completed S1 and source records are filed, while the remaining Week 4 models and eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the admitted cache, remaining primary and paid-node builds, and eight validated ready successors.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_BUILD_20261102_1051.md.
+
+### OPS-S15-W4-T4-ENCODING-TIMING
+
+**Hypothesis.** Can existing representations be reused exactly while new option, context and typed-history text retains its identity and visible scope?
+
+**METHOD.** Authenticate complete canonical menus, typed-history sessions and the original encoder cache. Distinguish context and suggestion visibility keys, deduplicate only identical text and roles, retain session clocks, and test changed-cache and changed-output refusal. For actual encoding use pinned float32 CPU weights, exact cached anchors, repeatability and complete fresh re-encoding.
+
+**Found.** The T4 timing representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+Three targeted source-interface tests pass. Every source pin, output hash and native exit verifies; this invocation uses 61.015625 CPU seconds with 87.437500 already charged. Aggregate source and scope counts are in the receipt. Constructed mode validates joining only and makes no actual encoder claim. A timing pass validates the actual encoder on its declared probe, not unseen complete text. Full mode must finish before using the entire cache.
+
+**Means.** The cache is not a causal history selector: future source remains attached to its original clocks, and a downstream consumer must select only completed earlier sessions. No temperature, likelihood, personal preference or scientific probability is computed. Whole-writer support and both model validations remain open. GPU remains parked; final scientific reporting stays in the Week 4 packet.
+
+**Admission.** The full representation forecast with fresh replay is 2925.993632 CPU seconds; 148.453125 are already charged and 900 are reserved for model work. The full source fits the single cumulative S4 doubling to 7,200 seconds. No sample or second doubling is used.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 timing representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted representations, strict earlier-history selection and both independently validated competence models.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_ENCODING_TIMING_20261102.md.
+
+### S15-W4-S1-IC-20261102
+
+**Hypothesis.** Could the complete recurrence rule detect known personal templates in earlier sessions, rather than merely reproduce its own numeric formula?
+
+**METHOD.** Construct equal-length earlier own and donor histories and later eight-word windows for twenty-five writers. Preserve unique target four-grams and apply the actual skeleton-membership readout, full nuisance-adjusted statistic, 200 within-session permutations and 2,000 writer resamples. Freeze six planted own-template advantages and twenty coupled seeds per dose; independently rebuild all 120 worlds and complete reference banks.
+
+**Found.** In constructed sessions, the complete template rule detects large planted contrasts more often than small ones; the human contrast remains not detected and its psychological interpretation stays open.
+
+Every exact positive, reversed, identical and absent-history construction passes. The table records the full frozen sensitivity curve. Dose is the expected flow advantage in recurrence-share percentage points. Gate passes use the complete original positive rule, including its reference check. The count interval is a binomial Wilson 95% interval for the gate-pass fraction; coverage counts indicate whether the writer interval contains the known planted advantage. Each row contains twenty worlds, with no dropped seeds.
+
+| Planted advantage (percentage points) | Complete gate passes / worlds | 95% count interval | Mean estimated advantage (percentage points) | Writer intervals covering truth / worlds | Biased references |
+|---|---|---|---|---|---|
+| 0 | 2 / 20 | [0.027866, 0.301034] | -0.32542042 | 17 / 20 | 0 |
+| 1 | 2 / 20 | [0.027866, 0.301034] | 0.75727182 | 18 / 20 | 0 |
+| 2 | 2 / 20 | [0.027866, 0.301034] | 1.58074004 | 18 / 20 | 0 |
+| 5 | 6 / 20 | [0.145477, 0.518973] | 4.61770645 | 19 / 20 | 0 |
+| 10 | 15 / 20 | [0.531299, 0.888138] | 9.42560669 | 18 / 20 | 0 |
+| 20 | 20 / 20 | [0.838875, 1.000000] | 19.41656891 | 17 / 20 | 0 |
+
+The zero-dose rule passes in two of twenty worlds; its wide count interval includes the nominal .05 rate, so this small calibration neither certifies exact type-I control nor establishes its failure. The one- and two-point doses also pass only twice, and the five-point dose six times. No rule, reference, seed or threshold was repaired after these outcomes. No new significance probability is claimed for the curve; raw per-world reference banks stay private. Every output, source pin and native exit verifies. The full invocation uses 36.953125 CPU seconds, for 70.890625 cumulatively, below the original follow-up cap.
+
+**Means.** The required constructed template calibration is complete. It demonstrates large-contrast recovery and weak small-contrast sensitivity under its declared twenty-five-writer construction. It is not the human design's power curve, does not reproduce the timing/logging pipeline and does not identify psychological flow. The human primary remains not detected; a scientific negative or theory rejection is not licensed. The sole S1 follow-up closes and registers no descendants. Final curator reporting stays in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; In constructed sessions, the complete template rule detects large planted contrasts more often than small ones; the human contrast remains not detected and its psychological interpretation stays open.; project meaning: scoped operational record; next engineering obligation: Preserve the parent null with conditional sensitivity limits; no follow-up descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_IC_FULL_20261102.md.
+
+### OPS-S15-W4-T4-ENCODING-CONSTRUCTED
+
+**Hypothesis.** Can existing representations be reused exactly while new option, context and typed-history text retains its identity and visible scope?
+
+**METHOD.** Authenticate complete canonical menus, typed-history sessions and the original encoder cache. Distinguish context and suggestion visibility keys, deduplicate only identical text and roles, retain session clocks, and test changed-cache and changed-output refusal. For actual encoding use pinned float32 CPU weights, exact cached anchors, repeatability and complete fresh re-encoding.
+
+**Found.** The T4 constructed representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.
+
+Three targeted source-interface tests pass. Every source pin, output hash and native exit verifies; this invocation uses 3.046875 CPU seconds with 84.390625 already charged. Aggregate source and scope counts are in the receipt. Constructed mode validates joining only and makes no actual encoder claim. A timing pass validates the actual encoder on its declared probe, not unseen complete text. Full mode must finish before using the entire cache.
+
+**Means.** The cache is not a causal history selector: future source remains attached to its original clocks, and a downstream consumer must select only completed earlier sessions. No temperature, likelihood, personal preference or scientific probability is computed. Whole-writer support and both model validations remain open. GPU remains parked; final scientific reporting stays in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 constructed representation pass verifies its source and cache bindings; personal history selection and both fitted choice models remain pending.; project meaning: scoped operational record; next engineering obligation: Complete admitted representations, strict earlier-history selection and both independently validated competence models.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_ENCODING_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-S1-IC-TIMING
+
+**Hypothesis.** Can the complete template readout detect known planted personal recurrence without inventing a contrast from identical or absent histories?
+
+**METHOD.** Construct earlier matched-length own and donor sessions and later eight-word targets, authenticate distinct skeletons, and apply the actual template membership and original adjusted comparison. Test exact positive, reversed, identical and no-overlap histories, coupled stochastic draws, noncollapsed binomial count uncertainty and fresh native replay.
+
+**Found.** The S1 planted-template timing pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.
+
+Four targeted tests pass. All exact known answers and full gate checks pass; output mutation refuses. This timing invocation completes 3 stochastic cost worlds and uses 2.359375 CPU seconds. All output hashes, source pins and native exits verify. Cost-only draws are not a completed sensitivity estimate and confer no human claim. The full bank remains all six doses and twenty seeds, capped cumulatively at 1,800 CPU seconds.
+
+**Means.** The parent remains not detected, sensitivity untested. Constructed template sensitivity cannot identify psychological flow or validate the full logging pipeline. No descendants or new scientific scope are admitted. Final reporting remains in the Week 4 packet.
+
+**Admission.** The measured full execution-and-replay forecast is 114.375000 CPU seconds, plus 33.937500 already charged. The full unchanged bank fits the remaining original follow-up ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 planted-template timing pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.; project meaning: scoped operational record; next engineering obligation: Complete the full frozen planted-template bank within its half-parent account; retain conditional scope and no descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_IC_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-IC-CONSTRUCTED
+
+**Hypothesis.** Can the complete template readout detect known planted personal recurrence without inventing a contrast from identical or absent histories?
+
+**METHOD.** Construct earlier matched-length own and donor sessions and later eight-word targets, authenticate distinct skeletons, and apply the actual template membership and original adjusted comparison. Test exact positive, reversed, identical and no-overlap histories, coupled stochastic draws, noncollapsed binomial count uncertainty and fresh native replay.
+
+**Found.** The S1 planted-template constructed pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.
+
+Four targeted tests pass. All exact known answers and full gate checks pass; output mutation refuses. This constructed invocation completes 0 stochastic cost worlds and uses 1.578125 CPU seconds. All output hashes, source pins and native exits verify. Cost-only draws are not a completed sensitivity estimate and confer no human claim. The full bank remains all six doses and twenty seeds, capped cumulatively at 1,800 CPU seconds.
+
+**Means.** The parent remains not detected, sensitivity untested. Constructed template sensitivity cannot identify psychological flow or validate the full logging pipeline. No descendants or new scientific scope are admitted. Final reporting remains in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 planted-template constructed pass independently replays exact known answers and the complete statistical gate; the full sensitivity curve remains pending.; project meaning: scoped operational record; next engineering obligation: Complete the full frozen planted-template bank within its half-parent account; retain conditional scope and no descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_IC_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-T4-MENUS-V2-FULL
+
+**Hypothesis.** Can the choice model use the actual inserted alternative or dismissal and only information observable before each menu?
+
+**METHOD.** Authenticate original option identities and order, keep ignored menus distinct from dismissal targets, reconstruct the previous five resolved menus and elapsed time since an acceptance, and preserve chronological session halves. Test misleading logged choices, clock units, future resolution and output mutation; reconstruct all prepared output independently.
+
+**Found.** The T4 full menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+Six targeted tests pass. This full pass retains 1399 source sessions and uses 9.312500 CPU seconds. Every completion output, source pin and native exit verifies. Source counts and measured timing are in the aggregate receipt. The timing subset's partial histories and halves are cost diagnostics, never scientific support. Complete embedding-history joins and the full writer floor still bind.
+
+**Correction.** Before corpus admission the helper exposed a missing source-pin registry key and then the original manifest's Windows path separators. Both preparatory failures occurred before any corpus plan or worker. The separate v2 registry/consumer binds the original foundation manifest, normalizes lookup separators and refuses conflicting aliases while preserving original hash checks. Ten CPU seconds are charged for these preparations; original source and constructed receipts remain. A test invocation hit a denied default temporary directory; its XML is retained, and all six unchanged tests pass with a fresh project-owned temporary root. No scientific rule changes.
+
+**Means.** No temperature, fitted prediction, likelihood contrast or scientific probability has been computed. All text and per-writer rows remain private. The original CPU account, GPU pause and paid-node limits are unchanged. The authorized primary build and ready-buffer deficit remain open; scientific reporting stays in the final Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 full menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source admission and pinned-encoder history features, then validate both competence models before held-out scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_MENUS_V2_FULL_20261102.md.
+
+### S15-W4-S1-RECURRENCE-20261102
+
+**Hypothesis.** Do fluent typing runs reuse more of a writer's own earlier structural templates than hesitant runs do, beyond matched shared history?
+
+**METHOD.** Reconstruct frozen eight-word typed windows, matched earlier own and donor histories, and the eight inherited timing controls. Compare each window's own-minus-donor function-word skeleton recurrence, then average the adjusted flow coefficient equally across supported writers. Use 2,000 paired whole-writer resamples and 200 within-session label permutations that refit the contrast, with genres separately. Independently reconstruct all source rows, estimates and reference banks in a fresh process.
+
+**Found.** An own-template advantage in flow windows was not detected among 38 supported writers; completed constructed calibration shows limited small-effect sensitivity and does not license a human negative.
+
+The table reports complete comparisons. Writers meet twenty windows per arm; effect and interval are percentage-point differences in the own-minus-donor recurrence share, flow minus hesitant. The probability is the one-sided within-session reference tail. Unsupported means the declared floor prevents an effect calculation.
+
+| Scope | Supported writers / required | Adjusted effect (percentage points) | 95% writer interval | Reference probability | Disposition |
+|---|---|---|---|---|---|
+| Primary | 38 / 25 | -0.01974388 | [-0.93313500, 1.10380518] | 0.601990049751 | Not detected; sensitivity untested |
+| Creative | 36 / 25 | -0.35379536 | [-1.10727285, 0.49341722] | 0.651741293532 | Not detected; sensitivity untested |
+| Argumentative | 21 / 25 | Not computed | Not computed | Not computed | Unsupported |
+
+The source retains 1,399 sessions, with 1,063 history-supported sessions and 11,057 eligible windows before writer-level filtering; 55 windows lack an exact nuisance join and 336 sessions lack supported histories or informative windows. The primary supports 38 writers; its raw unadjusted difference is -0.000094609224 in recurrence-share units. Both computed reference intervals include zero. Known positive, reversed, zero, nuisance-only and unidentifiable checks pass, but these numerical fixtures are not a planted-template sensitivity curve. Every frozen source, completed output and native exit verifies. This invocation costs 69.593750 CPU seconds and the cumulative S1 account is 1290.984375, below the already admitted single doubled ceiling.
+
+**Means.** The proposed own-template contrast is not detected. This does not license a claim that fluent production lacks templates: the required template-level sensitivity check remains open. The argumentative comparison cannot test its case at the writer floor. The measurements are conditional observations of typed records, not diagnoses of awareness, flow or intention. The original millisecond/second preparation failure and its correction remain intact.
+
+**Sensitivity follow-up.** The entire registered constructed bank is complete (test, S15-W4-S1-IC-20261102). It recovers large planted contrasts, poorly detects small ones and does not establish the human design's power or a psychological mechanism. The original primary, references and source gaps remain unchanged. No descendant is registered.
+
+**Original routing at primary landing.** Register only S1.ic, the packet-required planted-template check, with a 1,800 CPU-second cumulative ceiling and no descendants. Its frozen six-dose, twenty-seed design is in docs/design/stage-15/week4/S1_IC.md. Sensitivity remains explicitly untested until that entire bank lands. Final curator reporting remains in the Week 4 packet; no new scientific test is harvested from this operational wake.
+
+
+Curator roll-up: Process and personal expertise; Do fluent typing runs reuse personal structural templates?; **Narrows**; An own-template advantage in flow windows was not detected among 38 supported writers; completed constructed calibration shows limited small-effect sensitivity and does not license a human negative.; project meaning: the scoped contrast is not detected, with sensitivity still open; next engineering obligation: S1.ic planted-template calibration; public claim unchanged; curator decision required: No. Detail: WEEK4_S1_RECURRENCE_FULL_20261102.md.
+
+### OPS-S15-W4-T4-MENUS-V2-TIMING
+
+**Hypothesis.** Can the choice model use the actual inserted alternative or dismissal and only information observable before each menu?
+
+**METHOD.** Authenticate original option identities and order, keep ignored menus distinct from dismissal targets, reconstruct the previous five resolved menus and elapsed time since an acceptance, and preserve chronological session halves. Test misleading logged choices, clock units, future resolution and output mutation; reconstruct all prepared output independently.
+
+**Found.** The T4 timing menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+Six targeted tests pass. This timing pass retains 140 source sessions and uses 4.125000 CPU seconds. Every completion output, source pin and native exit verifies. Source counts and measured timing are in the aggregate receipt. The timing subset's partial histories and halves are cost diagnostics, never scientific support. Complete embedding-history joins and the full writer floor still bind.
+
+**Correction.** Before corpus admission the helper exposed a missing source-pin registry key and then the original manifest's Windows path separators. Both preparatory failures occurred before any corpus plan or worker. The separate v2 registry/consumer binds the original foundation manifest, normalizes lookup separators and refuses conflicting aliases while preserving original hash checks. Ten CPU seconds are charged for these preparations; original source and constructed receipts remain. A test invocation hit a denied default temporary directory; its XML is retained, and all six unchanged tests pass with a fresh project-owned temporary root. No scientific rule changes.
+
+**Means.** No temperature, fitted prediction, likelihood contrast or scientific probability has been computed. All text and per-writer rows remain private. The original CPU account, GPU pause and paid-node limits are unchanged. The authorized primary build and ready-buffer deficit remain open; scientific reporting stays in the final Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 timing menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source admission and pinned-encoder history features, then validate both competence models before held-out scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_MENUS_V2_TIMING_20261102.md.
+
+### OPS-S15-W4-T4-MENUS-V2-CONSTRUCTED
+
+**Hypothesis.** Can the choice model use the actual inserted alternative or dismissal and only information observable before each menu?
+
+**METHOD.** Authenticate original option identities and order, keep ignored menus distinct from dismissal targets, reconstruct the previous five resolved menus and elapsed time since an acceptance, and preserve chronological session halves. Test misleading logged choices, clock units, future resolution and output mutation; reconstruct all prepared output independently.
+
+**Found.** The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+Six targeted tests pass. This constructed pass retains 2 source sessions and uses 0.500000 CPU seconds. Every completion output, source pin and native exit verifies. Source counts and measured timing are in the aggregate receipt. The timing subset's partial histories and halves are cost diagnostics, never scientific support. Complete embedding-history joins and the full writer floor still bind.
+
+**Correction.** Before corpus admission the helper exposed a missing source-pin registry key and then the original manifest's Windows path separators. Both preparatory failures occurred before any corpus plan or worker. The separate v2 registry/consumer binds the original foundation manifest, normalizes lookup separators and refuses conflicting aliases while preserving original hash checks. Ten CPU seconds are charged for these preparations; original source and constructed receipts remain. A test invocation hit a denied default temporary directory; its XML is retained, and all six unchanged tests pass with a fresh project-owned temporary root. No scientific rule changes.
+
+**Means.** No temperature, fitted prediction, likelihood contrast or scientific probability has been computed. All text and per-writer rows remain private. The original CPU account, GPU pause and paid-node limits are unchanged. The authorized primary build and ready-buffer deficit remain open; scientific reporting stays in the final Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source admission and pinned-encoder history features, then validate both competence models before held-out scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_MENUS_V2_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-S1-NUISANCE-V2-FULL
+
+**Hypothesis.** Can the inherited timing controls be reconstructed without inventing missing word onsets or letter pairs?
+
+**METHOD.** Replay exact UTF-16 edits, match the actual adjacent typed predecessor to the timing interval endpoint, authenticate the writer's observed pair medians and count only completed earlier sessions for own word frequency. Validate known API/prompt exclusions, paragraph and Unicode boundaries, arithmetic, changed-output refusal and empty history before corpus access. Missing values remain explicit.
+
+**Found.** The S1 full control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+All eight constructed checks and six targeted tests pass. The initial cost probe failed before any outcome because source session starts are milliseconds but word timestamps are seconds. That failure remains intact and charged. This first engineering correction converts only the source session start to seconds; its mixed-unit known answer passes. No measurement or comparison changes. Complete source pins, output hashes and native exits verify. This invocation uses 551.750000 CPU seconds; 638.640625 seconds remain charged from earlier preparation. Aggregate support and measured timing are retained in the receipt. Corpus cost probes are not scientific populations. The same-writer pair ruler uses the full observed record as a descriptive mechanical adjustment, not past-only prediction.
+
+**Means.** This is preparation, not a scientific effect or a probability. Full cost admission, the declared writer floor and the independently validated recurrence statistic still bind. No new test is harvested from the operational wake. The GPU pause and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 full control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete nuisance support and cost admission, then validate the frozen recurrence statistic before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_NUISANCE_V2_FULL_20261102.md.
+
+### OPS-S15-W4-T4-MENUS-CONSTRUCTED
+
+**Hypothesis.** Can the choice model use the actual inserted alternative or dismissal and only information observable before each menu?
+
+**METHOD.** Authenticate original option identities and order, keep ignored menus distinct from dismissal targets, reconstruct the previous five resolved menus and elapsed time since an acceptance, and preserve chronological session halves. Test misleading logged choices, clock units, future resolution and output mutation; reconstruct all prepared output independently.
+
+**Found.** The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.
+
+Four targeted tests pass. This constructed pass retains 2 source sessions and uses 0.453125 CPU seconds. Every completion output, source pin and native exit verifies. Source counts and measured timing are in the aggregate receipt. The timing subset's partial histories and halves are cost diagnostics, never scientific support. Complete embedding-history joins and the full writer floor still bind.
+
+**Means.** No temperature, fitted prediction, likelihood contrast or scientific probability has been computed. All text and per-writer rows remain private. The original CPU account, GPU pause and paid-node limits are unchanged. The authorized primary build and ready-buffer deficit remain open; scientific reporting stays in the final Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The T4 constructed menu pass independently replays canonical choices, distinct dismissals and past-only state; embeddings and the competence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Complete source admission and pinned-encoder history features, then validate both competence models before held-out scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_T4_MENUS_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-S1-RECURRENCE-NATIVE
+
+**Hypothesis.** Can the planned recurrence comparison distinguish a personal-template contrast from measured nuisance variation without inventing evidence when the contrast is unavailable?
+
+**METHOD.** Validate sentence-local skeleton membership, repeated target-gram weighting, within-writer nuisance adjustment, paired whole-writer resampling and within-session label permutations on constructed known answers. Independently replay the complete native outputs and authenticate every source pin and exit.
+
+**Found.** The S1 recurrence statistic recovers known positive, reversed, zero and nuisance-only answers and refuses an unidentifiable contrast; complete human scoring remains unadmitted.
+
+Five targeted tests pass, including actual native-interface replay and changed-output refusal. Positive and reversed constructed effects retain their known signs; zero and nuisance-only data yield zero; a label fully explained by nuisance values refuses as design cannot test. The native pass uses 1.000000 CPU seconds. No human recurrence score or probability has been computed. This calibration uses constructed rows and does not establish sensitivity on the eventual human-supported design.
+
+**Means.** Complete nuisance support, cumulative cost admission and exact source joins remain prerequisites to the full comparison. The S1 primary stays open. All evidence is recorded internally before ACK; scientific reporting remains in the final Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 recurrence statistic recovers known positive, reversed, zero and nuisance-only answers and refuses an unidentifiable contrast; complete human scoring remains unadmitted.; project meaning: scoped operational record; next engineering obligation: Complete control-input support and cumulative cost admission before any human recurrence scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_RECURRENCE_NATIVE_20261102.md.
+
+### OPS-S15-W4-S1-NUISANCE-V2-TIMING
+
+**Hypothesis.** Can the inherited timing controls be reconstructed without inventing missing word onsets or letter pairs?
+
+**METHOD.** Replay exact UTF-16 edits, match the actual adjacent typed predecessor to the timing interval endpoint, authenticate the writer's observed pair medians and count only completed earlier sessions for own word frequency. Validate known API/prompt exclusions, paragraph and Unicode boundaries, arithmetic, changed-output refusal and empty history before corpus access. Missing values remain explicit.
+
+**Found.** The S1 timing control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+All eight constructed checks and six targeted tests pass. The initial cost probe failed before any outcome because source session starts are milliseconds but word timestamps are seconds. That failure remains intact and charged. This first engineering correction converts only the source session start to seconds; its mixed-unit known answer passes. No measurement or comparison changes. Complete source pins, output hashes and native exits verify. This invocation uses 79.921875 CPU seconds; 558.718750 seconds remain charged from earlier preparation. Aggregate support and measured timing are retained in the receipt. Corpus cost probes are not scientific populations. The same-writer pair ruler uses the full observed record as a descriptive mechanical adjustment, not past-only prediction.
+
+**Means.** This is preparation, not a scientific effect or a probability. Full cost admission, the declared writer floor and the independently validated recurrence statistic still bind. No new test is harvested from the operational wake. The GPU pause and final-packet policy remain unchanged.
+
+**Cost admission.** The full control-input forecast is 3273.324219 CPU seconds, plus 638.640625 already charged and six hundred reserved for the final comparison. This exceeds the original remaining allowance but fits the single cumulative S4 doubling to 7,200 seconds. The full population is admitted under that existing rule; no sample, scientific change or second doubling is used. The full control-input hard cap is 5961.359375 seconds.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 timing control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete nuisance support and cost admission, then validate the frozen recurrence statistic before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_NUISANCE_V2_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-NUISANCE-V2-CONSTRUCTED
+
+**Hypothesis.** Can the inherited timing controls be reconstructed without inventing missing word onsets or letter pairs?
+
+**METHOD.** Replay exact UTF-16 edits, match the actual adjacent typed predecessor to the timing interval endpoint, authenticate the writer's observed pair medians and count only completed earlier sessions for own word frequency. Validate known API/prompt exclusions, paragraph and Unicode boundaries, arithmetic, changed-output refusal and empty history before corpus access. Missing values remain explicit.
+
+**Found.** The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+All eight constructed checks and six targeted tests pass. The initial cost probe failed before any outcome because source session starts are milliseconds but word timestamps are seconds. That failure remains intact and charged. This first engineering correction converts only the source session start to seconds; its mixed-unit known answer passes. No measurement or comparison changes. Complete source pins, output hashes and native exits verify. This invocation uses 0.515625 CPU seconds; 558.203125 seconds remain charged from earlier preparation. Aggregate support and measured timing are retained in the receipt. Corpus cost probes are not scientific populations. The same-writer pair ruler uses the full observed record as a descriptive mechanical adjustment, not past-only prediction.
+
+**Means.** This is preparation, not a scientific effect or a probability. Full cost admission, the declared writer floor and the independently validated recurrence statistic still bind. No new test is harvested from the operational wake. The GPU pause and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete nuisance support and cost admission, then validate the frozen recurrence statistic before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_NUISANCE_V2_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-S1-NUISANCE-CONSTRUCTED
+
+**Hypothesis.** Can the inherited timing controls be reconstructed without inventing missing word onsets or letter pairs?
+
+**METHOD.** Replay exact UTF-16 edits, match the actual adjacent typed predecessor to the timing interval endpoint, authenticate the writer's observed pair medians and count only completed earlier sessions for own word frequency. Validate known API/prompt exclusions, paragraph and Unicode boundaries, arithmetic, changed-output refusal and empty history before corpus access. Missing values remain explicit.
+
+**Found.** The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.
+
+All seven constructed checks and four targeted tests pass. Complete source pins, output hashes and native exits verify. This invocation uses 0.687500 CPU seconds; 519.843750 seconds remain charged from earlier preparation. Aggregate support and measured timing are retained in the receipt. Corpus cost probes are not scientific populations. The same-writer pair ruler uses the full observed record as a descriptive mechanical adjustment, not past-only prediction.
+
+**Means.** This is preparation, not a scientific effect or a probability. Full cost admission, the declared writer floor and the independently validated recurrence statistic still bind. No new test is harvested from the operational wake. The GPU pause and final-packet policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 constructed control-input pass independently replays exact onset geometry and nuisance values; the scientific recurrence comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Complete nuisance support and cost admission, then validate the frozen recurrence statistic before human scoring.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_NUISANCE_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-S1-HISTORIES-FULL
+
+**Hypothesis.** Can each target use only completed earlier sessions, with its comparison history matched exactly on session count and token budget?
+
+**METHOD.** Authenticate the frozen source and window joins, exclude empty own histories, retain exact deterministic matching and boundary-preserving trimming, and reconstruct every output in a fresh native process. Constructed checks verify a known donor, reject a donor ending after the target starts, reject insufficient capacity and detect changed outputs.
+
+**Found.** The complete S1 earlier-history match independently replays; the nuisance join and scientific recurrence comparison remain pending.
+
+This full invocation processes 1356 of 1356 candidate sessions and consumes 167.562500 CPU seconds across execution and verification. Three targeted checks passed. All completion outputs and source pins authenticate; all native workers have exited. Preparation and previous source charges remain in the plan; the timing subset is deliberately source-heavy and is not a scientific population. No recurrence effect or probability has been computed.
+
+**Means.** Exact history support is preparation, not evidence for the recurrence hypothesis. The inherited timing controls, complete support gate, known-answer statistic and full cost admission remain required. No new tests were harvested from this operational wake. GPU parking, the paid-node limits and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete S1 earlier-history match independently replays; the nuisance join and scientific recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Continue S1 cost admission, complete exact inherited nuisance joins and validate its statistic before human scoring; build the primary queue and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_HISTORIES_FULL_20261102.md.
+
+### S15-W4-S4-TEXTURE-SUPPORT-20261102
+
+**Hypothesis.** Would the declared alternative jump thresholds or longer observation window supply enough comparable landings to test the nearby-editing contrast?
+
+**METHOD.** Freeze twenty and eighty characters with thirty-second follow-up, and forty characters with sixty-second follow-up. Independently reconstruct all human CoAuthor source sessions in each variant, retain every original exclusion and require ten landings in each arm at shared distance bins for twenty writers. Apply the validated signed comparison only if that support gate passes.
+
+**Found.** All three declared cursor variants remain unsupported at the writer floor after complete source replay; the parent claim and separate menu question remain unchanged.
+
+The table records each complete variant: threshold is the backward jump distance, follow-up is the available observation time, landings are the eligible comparison events, and writers meet both-arm support at common distance bins.
+
+| Jump threshold (characters) | Follow-up (seconds) | Eligible landings | Supported writers / required | Cumulative CPU seconds |
+|---|---|---|---|---|
+| 20 | 30 | 3188 | 10 / 20 | 687.687500 |
+| 80 | 30 | 2770 | 10 / 20 | 685.984375 |
+| 40 | 60 | 2669 | 10 / 20 | 691.328125 |
+
+All variants retain 1,399 sessions and 61 writers in their source censuses. Neither genre meets the declared support gate. No primary effect, bootstrap or probability is computed. All output hashes, frozen pins and native exits verify; each variant remains below its one-hour ceiling, including preparation and native validation.
+
+**Means.** Each closes as design cannot test, not a scientific null. These descriptive texture cards do not upgrade a claim or register descendants. Because the unsupported parent has no effect interval, the numerical convergence counter is undefined rather than counted as five unchanged results. The finite three-card grid is exhausted. S4(b) and other commissioned primary cards remain open; no new scope is inferred. Final scientific reporting remains in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All three declared cursor variants remain unsupported at the writer floor after complete source replay; the parent claim and separate menu question remain unchanged.; project meaning: scoped operational record; next engineering obligation: Retain all three unsupported variants and the parent gap; continue S4(b) and commissioned primary builds without texture descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_TEXTURE_SUPPORT_20261102.md.
+
+### OPS-S15-W4-S1-HISTORIES-TIMING
+
+**Hypothesis.** Can each target use only completed earlier sessions, with its comparison history matched exactly on session count and token budget?
+
+**METHOD.** Authenticate the frozen source and window joins, exclude empty own histories, retain exact deterministic matching and boundary-preserving trimming, and reconstruct every output in a fresh native process. Constructed checks verify a known donor, reject a donor ending after the target starts, reject insufficient capacity and detect changed outputs.
+
+**Found.** The S1 history cost probe independently replays its exact matching; full support and the scientific recurrence comparison remain pending.
+
+This timing invocation processes 20 of 1356 candidate sessions and consumes 16.078125 CPU seconds across execution and verification. Three targeted checks passed. All completion outputs and source pins authenticate; all native workers have exited. Preparation and previous source charges remain in the plan; the timing subset is deliberately source-heavy and is not a scientific population. No recurrence effect or probability has been computed.
+
+**Means.** Exact history support is preparation, not evidence for the recurrence hypothesis. The inherited timing controls, complete support gate, known-answer statistic and full cost admission remain required. No new tests were harvested from this operational wake. GPU parking, the paid-node limits and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 history cost probe independently replays its exact matching; full support and the scientific recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Continue S1 cost admission, complete exact inherited nuisance joins and validate its statistic before human scoring; build the primary queue and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_HISTORIES_TIMING_20261102.md.
+
+### OPS-S15-W4-S1-HISTORIES-CONSTRUCTED
+
+**Hypothesis.** Can each target use only completed earlier sessions, with its comparison history matched exactly on session count and token budget?
+
+**METHOD.** Authenticate the frozen source and window joins, exclude empty own histories, retain exact deterministic matching and boundary-preserving trimming, and reconstruct every output in a fresh native process. Constructed checks verify a known donor, reject a donor ending after the target starts, reject insufficient capacity and detect changed outputs.
+
+**Found.** The S1 history instrument passes exact-count, future-exclusion and mutation-refusal checks with fresh native replay; corpus support and recurrence remain pending.
+
+This constructed invocation processes 4 of 4 candidate sessions and consumes 1.406250 CPU seconds across execution and verification. Three targeted checks passed. All completion outputs and source pins authenticate; all native workers have exited. Preparation and previous source charges remain in the plan; the timing subset is deliberately source-heavy and is not a scientific population. No recurrence effect or probability has been computed.
+
+**Means.** Exact history support is preparation, not evidence for the recurrence hypothesis. The inherited timing controls, complete support gate, known-answer statistic and full cost admission remain required. No new tests were harvested from this operational wake. GPU parking, the paid-node limits and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 history instrument passes exact-count, future-exclusion and mutation-refusal checks with fresh native replay; corpus support and recurrence remain pending.; project meaning: scoped operational record; next engineering obligation: Continue S1 cost admission, complete exact inherited nuisance joins and validate its statistic before human scoring; build the primary queue and ready buffer.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_HISTORIES_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-HEALTH-0937
+
+**Hypothesis.** Is the authorized Week 4 queue alive and delivering usable progress, and does any idle capacity require recovery?
+
+**METHOD.** Inspect exact native executable, PID and creation ticks for owners and children, current progress freshness, actual child thread environment, source pins, slot leases and runtime limits. Check the watcher source identity, singleton lock, fresh scan, owner, cancellation/error state and accepted delivery; inspect the finite calendar, GPU process inventory and all twenty-one locked files. Reconcile completed source and native results before acknowledging their events.
+
+**Found.** Three bounded Gear 2 texture workers are progressing after the previous queue drained; monitoring, locks and resources verify, while primary builds and the eight-card ready buffer remain unfinished.
+
+All previous main source jobs have completed with native exits, including R2, whose complete write-through is filed. The cursor landing primary closes unsupported under its original floor; its separate menu question remains unbuilt. Three predeclared variants now occupy three counted slots and have fresh progress. Their exact native identities and plans are retained in the receipt. The fourth slot is free for primary builds. There are zero validated ready successor cards against eight required, so the system is not fully built out.
+
+The handoff-to-inspection interval contains 6.9866 idle slot-hours, reconstructed from the counted admission-to-terminal intervals; this is an implementation/readiness deficit while commissioned work remains. The sole operating agent was validating instruments, completing source write-throughs and assembling successors. Recovery in this pass built, tested, independently validated and launched the three fixed packet variants, without restarting completed work. Remaining primary builds and the ready buffer stay the next obligation. The timing inventory is retained; short admission/terminal bookkeeping boundaries are the accounting convention, not claimed exact CPU utilization.
+
+Available physical RAM is 56.50 GiB, commit headroom 45.63 GiB and free disk 305.30 GiB. Actual numeric-thread environment values remain within the two-thread ceiling; this is not a claim of live library-pool introspection. No stale slot is reclaimed. GPU inspection shows ordinary desktop processes and no Sounding Line GPU worker; parking remains intentional. The finite Week 4 calendar is live. No current worker failed or paused; the retained pre-corpus fixture failure is already documented in the native texture landing.
+
+The watcher matches its recorded native identity and all loaded source hashes; its kernel lock is held, scan is fresh, cancellation is false and current error is null. The health event was accepted on its first transport attempt. Its delivery timestamp remains absent, so queue acceptance is not relabelled as a newly proven idle wake; the active owner inspected its durable record directly. Historical TimeoutError and UnicodeEncodeError delivery failures remain visible and are not blindly retried. Ordinary completed-result acknowledgments did not move the six-hour clock. This inspection and recovery precede health ACK, which will rearm that clock.
+
+PROC main remains held after its completed calibration, with one approved prompt correction and fresh calibration available. Other paid-node builds remain unfinished; existing approval and caps are unchanged. No new tests were harvested from this operational wake. Scientific results stay in the final Week 4 packet; all public claim boundaries and the intentional GPU pause remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Three bounded Gear 2 texture workers are progressing after the previous queue drained; monitoring, locks and resources verify, while primary builds and the eight-card ready buffer remain unfinished.; project meaning: scoped operational record; next engineering obligation: Build and validate the commissioned primary successors and eight-card buffer; retain paid validation and all scope limits.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261102_0937.md.
+
+### OPS-S15-W4-S4-TEXTURE-NATIVE
+
+**Hypothesis.** Can the declared threshold and observation-window variants retain exact source rules, support refusal and independent replay?
+
+**METHOD.** Freeze the packet's twenty- and eighty-character thresholds at thirty seconds and its forty-character threshold at sixty seconds. Test threshold boundaries and an edit after forty-five seconds, then execute and freshly verify each constructed full output. Reuse the previously validated signed statistic without altering its support or reference rules.
+
+**Found.** All three frozen cursor texture instruments pass constructed native replay; each complete-corpus variant remains descriptive and preserves the unsupported parent.
+
+Four targeted checks pass. The initial eighty-character fixture incorrectly expected its shorter opening move to remain a jump; that failed assertion and XML are retained. Manual document geometry shows two terminal step runs at eighty, versus those two plus the opening jump at twenty; the frozen assertion now checks exact event ordinals. This is a pre-corpus fixture correction, with no human score examined or source rule changed. Three separate native passes verify all output hashes, pins and exits. Their costs and fifteen seconds of preparation per variant are charged in the attached receipt, within each one-hour cap.
+
+**Means.** The three packet variants may enter available slots below ready primary cards after measured full-source cost admission. They cannot upgrade the parent or create descendants. Its absent interval makes the convergence counter undefined, not zero. No new scientific effect or probability is reported here. The eight-card ready buffer and primary builds remain unfinished.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All three frozen cursor texture instruments pass constructed native replay; each complete-corpus variant remains descriptive and preserves the unsupported parent.; project meaning: scoped operational record; next engineering obligation: Admit the three bounded packet texture variants below ready primary work, then continue the primary builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_TEXTURE_NATIVE_20261102.md.
+
+### OPS-S15-W4-R2-FULL
+
+**Hypothesis.** Can the provenance census retain every character and explicit replay exclusion through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R2 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+
+This completed full invocation covers 1445 source units and accounts for 5818.468750 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R2 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R2_FULL_20261102.md.
+
+### S15-W4-S4A-SUPPORT-20261102
+
+**Hypothesis.** Do large backward cursor jumps lead to more nearby editing than short step runs at comparable landing distances?
+
+**METHOD.** Reconstruct every primary human CoAuthor session with UTF-16 document geometry; preserve API movements, selections, pass-through jumps and censored follow-up as explicit exclusions. Require complete thirty-second follow-up, matched sentence-distance bins and at least ten landings in each arm for twenty writers. Independently replay the whole source and validate the planned statistic on equal, positive, reversed and deliberately biased constructed cases before any human effect.
+
+**Found.** The complete cursor census lacks the declared writer support for the landing comparison; no primary effect is computed, and the separate menu comparison remains open.
+
+All 1,399 primary sessions and 61 writers remain in the census. Jump and step groups are separable, but only 10 writers have the required common-distance support against twenty required. The declared case therefore closes as **design cannot test**, not a null or a negative; no sensitivity check or automatic descendant follows. No effect, bootstrap or probability is computed on the human data. The raw menu episodes retain pointer-only, keyboard-only, both and neither categories for the separate canonical menu join; this does not license its comparison.
+
+The full source used 977.703125 CPU seconds and constructed statistical validation used 0.796875. With prior source charges and fifteen seconds of comparison preparation, actual cumulative S4 charges are 1131.593750 seconds. The native plan's temporary reservation of the live source maximum is replaced in this accounting by its completed actual charge, not counted as additional consumption. All output hashes, frozen pins and native exits verify. The earlier incorrect source fixtures remain recorded; no outcome-selected revision or support relaxation occurs.
+
+**Means.** The observed record cannot test this declared cursor contrast at its floor. Geometry does not identify a physical device, attention or a higher-order goal. Pre-move timing and the separate menu question keep their own support and control requirements. The completed census remains available for explicitly frozen descriptive texture cards; it cannot upgrade this unsupported primary. Final curator reporting stays in the Week 4 packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete cursor census lacks the declared writer support for the landing comparison; no primary effect is computed, and the separate menu comparison remains open.; project meaning: scoped operational record; next engineering obligation: Retain unsupported S4(a); build the separate canonical menu comparison with inherited controls; no automatic descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4A_SUPPORT_20261102.md.
+
+### S15-W4-D33-SPEC-20261102
+
+**Hypothesis.** Does the personal-history association with writing pauses depend on either of the two measured screen-context adjustments?
+
+**METHOD.** Retain the completed supported cohort, calibrated own and matched-donor histories, outcomes and every non-screen nuisance term. Reuse the authenticated both-adjustments parent, then fit the three frozen alternatives that retain only earlier on-screen occurrence, only current-session cache surprise, or neither. Each new setting completes the original joint model, original-own sensitivity, 2,000 paired writer resamples and both banks of 200 within-writer permutations. Recompute all new inference in a fresh native process and authenticate the complete outputs and sources.
+
+**Found.** The supported personal-history pause association remains positive across all frozen screen-adjustment specifications; this is descriptive robustness on the same cohort, not independent or causal evidence.
+
+The table reports the own-history coefficient in log pause per unit of own surprise, adjusted for the retained joint-model terms. Intervals are paired writer percentile bootstrap intervals. The first probability is an approximate two-sided Wald diagnostic; the last two are the positive-direction probabilities against the complete own-surprise and outcome permutation banks. All settings are descriptive and reported together; the reused parent is not a new test.
+
+| Screen specification | Own-history coefficient | 95% interval | Wald diagnostic | Own-surprise reference | Outcome reference |
+|---|---:|---|---:|---:|---:|
+| Both retained, reused parent | 0.03836681 | [0.02728474, 0.05215524] | 7.61112824e-10 | 0.00497512438 | 0.00497512438 |
+| Prior on-screen occurrence only | 0.03761942 | [0.02563280, 0.05207416] | 1.07919797e-08 | 0.00497512438 | 0.00497512438 |
+| Current-session word cache only | 0.03871056 | [0.02764113, 0.05242639] | 5.40127166e-10 | 0.00497512438 | 0.00497512438 |
+| Neither screen adjustment | 0.03862742 | [0.02654390, 0.05348698] | 9.71108095e-09 | 0.00497512438 | 0.00497512438 |
+
+Every new setting retains 52,127 evaluation words from 35 writers in 192 sessions. The original 26,475-word and six-wholly-unsupported-writer gap remains. Each reference bank has all 200 valid draws, no invalid fit and no bias flag. Donor coefficients remain positive and own-minus-donor coefficients negative in all settings; these nominal coefficient comparisons do not compare predictive superiority. The original-own sensitivity duplicates the calibrated own arm here and supplies no independent replication. The aggregate receipt preserves all coefficients, intervals, diagnostics and reference summaries, including those not highlighted in this table.
+
+Execution plus fresh verification used 407.890625 CPU seconds. Historical preparation, native validation, the original cost probe and current continuation preparation bring cumulative charges to 525.546875, within the explicit Week 4 1,572-second limit. The earlier Week 3 cost hold and its narrower authority remain recorded. All native workers exited; full source pins and output hashes verify.
+
+**Means.** The scoped association is insensitive to these two measured screen adjustments. Reusing the same writers, donor matches, calibrated histories and outcomes establishes neither an independent replication nor causal priming, attention, value or automaticity. Omitting measured context cannot show that unmeasured context is absent. No best setting is selected and the original population and word-event questions stay open. This first-generation descriptive follow-up registers no descendants. Its remaining sibling designs keep their own source and cost obligations. Final curator reporting remains in the Week 4 packet.
+
+
+Curator roll-up: communal fluency and personal departures; Does measured screen context account for the supported personal-history pause association?; **Strengthens**; The association remains positive across the frozen screen-adjustment grid.; project meaning: descriptive robustness of the existing scoped association, with no causal or population upgrade; next engineering obligation: retain sibling admission and build Week 4 priorities, no descendants; public claim unchanged in scope; curator decision required: No. Detail: WEEK4_D33_SPEC_FULL_20261102.md.
+
+### OPS-S15-W4-S1-INPUTS-FULL
+
+**Hypothesis.** Does the complete typed source support the frozen stopped-window instrument without silent provenance bridges or surviving-text selection?
+
+**METHOD.** Authenticate all P6 and Week 4 timing inputs, require exact primary-session and writer joins, freeze the frequency dictionary before recurrence, and create nonoverlapping stopped windows from real typed predecessor links. Preserve missing timing, repeated onsets, disconnected candidates, internal breaks and non-informative skeletons. Recompute every source window and writer-specific third in a fresh native process and verify all native exits and hashes.
+
+**Found.** Complete typed-window preparation and its frozen skeleton dictionary independently replay; donor support, inherited controls and the S1 recurrence comparison remain pending.
+
+All 1,399 primary sessions and 61 writers remain represented. There are 21,386 timing-eligible windows; 44 writers meet the window floor before exact historical donor support is checked. This is a candidate census, not the final scientific population. The 150-word dictionary is frozen. Missing internal timing and disconnected candidates remain explicit rather than receiving imputed intervals. Later-deleted and revised produced words remain available; repeated ledger versions do not fabricate another original onset.
+
+Full preparation and verification consumed 54.062500 CPU seconds. Including earlier S1 charges, the cumulative total is 274.796875 within the original 3,600-second allowance. Exact earlier-session donor matching, recurrence, all inherited timing controls and complete inference are still unbuilt or unadmitted. No effect or probability was computed.
+
+**Means.** The completed input is usable for the next validated consumer; it does not establish flow, attention or template reuse as psychological mechanisms. The primary support gate is not passed until donor availability and complete covariates are counted. No new theory claim, descendant or paid call follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Complete typed-window preparation and its frozen skeleton dictionary independently replay; donor support, inherited controls and the S1 recurrence comparison remain pending.; project meaning: scoped operational record; next engineering obligation: Build exact historical donor support, inherited timing covariates and complete S1 scientific inference before admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_INPUTS_FULL_20261102.md.
+
+### OPS-S15-W4-D33-SPEC-ADMISSION
+
+**Hypothesis.** Does the previously held complete specification comparison now fit the exact allowance ratified for this week?
+
+**METHOD.** Recheck every retained source pin and output of the measured all-setting cost probe. Keep the complete parent population, three new settings, both own-history arms, two reference banks, original random streams and full fresh verification. Apply only the packet's explicit cost-rule override and count all historical charges plus current preparation.
+
+**Found.** Week 4 explicitly admits the retained full D33 specification curve within its cumulative extension; the earlier Week 3 cost hold remains preserved.
+
+Prior charges including current preparation are 117.656250 CPU seconds. The unchanged full forecast is 1135.312500; the remaining cap is 1454.343750. The total remains within 1,572 seconds. The complete continuation plan is frozen before execution and eligible only for an idle counted slot behind packet-ready work. No scientific specification outcome has been computed or inspected.
+
+**Means.** This supersedes the operative cost hold by authority, not by changing the hypothesis, controls or prior result. Complete recording and multiplicity reconciliation remain required after execution. Other D33 variants retain their separate admission obligations. No new descendant, GPU or paid authorization follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 4 explicitly admits the retained full D33 specification curve within its cumulative extension; the earlier Week 3 cost hold remains preserved.; project meaning: scoped operational record; next engineering obligation: Run the frozen D33 specification curve in an idle counted slot and complete fresh replay before scientific write-through.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_D33_SPEC_ADMISSION_20261102.md.
+
+### OPS-S15-W4-S1-INPUTS-NATIVE
+
+**Hypothesis.** Can stopped typing windows be selected from actual produced words without crossing provenance gaps, reusing a later revision as a new onset or selecting only surviving text?
+
+**METHOD.** Exercise exact nonoverlapping windows, sentence-local skeletons, first-onset exclusion, internal breaks, typed punctuation links, absent provenance and repeated original onsets. Check that future revision flags do not change selection. Independently replay known classified windows in a fresh native process, verify all hashes and require native exits. Five targeted tests passed before native admission.
+
+**Found.** The S1 typed-window instrument passes known stopped-window and skeleton decisions with fresh native replay; human source support and recurrence remain pending.
+
+The native pass consumed 4.718750 CPU seconds; 216.015625 was previously charged to S1 including its complete timing prerequisite and this input build. Known sentence boundaries and all-placeholder exclusion reproduce. Strict source population matching and the frozen dictionary precede any empirical recurrence outcome.
+
+**Means.** Complete source input and donor support remain prerequisites. The scientific comparison still needs inherited timing controls, genre contrasts, within-session label permutations and writer-cluster uncertainty. No effect, probability, scientific routing or theory conclusion is supplied by this instrument record.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S1 typed-window instrument passes known stopped-window and skeleton decisions with fresh native replay; human source support and recurrence remain pending.; project meaning: scoped operational record; next engineering obligation: Prepare complete source windows and the frozen function-word dictionary; validate exact historical matching and the complete scientific comparison.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S1_INPUTS_NATIVE_20261102.md.
+
+### OPS-S15-W4-S4-SOURCE-TIMING
+
+**Hypothesis.** Can logged cursor motion be reconstructed without mistaking an incomplete observation window or a pass-through move for an observed landing outcome?
+
+**METHOD.** Use UTF-16 document geometry and the packet's frozen move, step-run and distance rules. Preserve excluded API moves, selections and incomplete follow-up windows. Authenticate source hashes and independently reconstruct all outputs in a fresh native process. Seven targeted tests cover known geometry and complete-source fixture replay; no scientific effect is computed by this census.
+
+**Found.** The cursor source-cost probe independently replays; full census and scientific comparison still require cumulative cost admission.
+
+This timing invocation accounts for 105.468750 CPU seconds including verification, with 32.625000 previously charged to S4. All output hashes, source pins and native exits verify. The two earlier development fixtures incorrectly located a Unicode paragraph boundary and counted separate terminal step runs; their failures remain recorded and the assertions were corrected from independently known event geometry before native or empirical execution. No empirical outcome motivated those repairs.
+
+**Means.** Cursor displacement is observable; a physical mouse click is not inferred. The menu census is descriptive raw open/reopen episodes, requiring a canonical choice join before that separate comparison. The complete population's support, primary comparison, controls and paid-independent inputs remain obligations. No theory claim or new probability follows from an operational source probe.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The cursor source-cost probe independently replays; full census and scientific comparison still require cumulative cost admission.; project meaning: scoped operational record; next engineering obligation: Cost the complete S4 census and remaining statistical work, then admit the declared population or freeze its allowed whole-writer sample.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_SOURCE_TIMING_20261102.md.
+
+### OPS-S15-W4-S4-SOURCE-NATIVE
+
+**Hypothesis.** Can logged cursor motion be reconstructed without mistaking an incomplete observation window or a pass-through move for an observed landing outcome?
+
+**METHOD.** Use UTF-16 document geometry and the packet's frozen move, step-run and distance rules. Preserve excluded API moves, selections and incomplete follow-up windows. Authenticate source hashes and independently reconstruct all outputs in a fresh native process. Seven targeted tests cover known geometry and complete-source fixture replay; no scientific effect is computed by this census.
+
+**Found.** The cursor source instrument passes known geometry, complete follow-up and fresh native replay; full empirical admission remains pending.
+
+This native invocation accounts for 2.625000 CPU seconds including verification, with 30.000000 previously charged to S4. All output hashes, source pins and native exits verify. The two earlier development fixtures incorrectly located a Unicode paragraph boundary and counted separate terminal step runs; their failures remain recorded and the assertions were corrected from independently known event geometry before native or empirical execution. No empirical outcome motivated those repairs.
+
+**Means.** Cursor displacement is observable; a physical mouse click is not inferred. The menu census is descriptive raw open/reopen episodes, requiring a canonical choice join before that separate comparison. The complete population's support, primary comparison, controls and paid-independent inputs remain obligations. No theory claim or new probability follows from an operational source probe.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The cursor source instrument passes known geometry, complete follow-up and fresh native replay; full empirical admission remains pending.; project meaning: scoped operational record; next engineering obligation: Cost the complete S4 census and remaining statistical work, then admit the declared population or freeze its allowed whole-writer sample.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S4_SOURCE_NATIVE_20261102.md.
+
+### OPS-S15-W4-R1-FULL
+
+**Hypothesis.** Can the physical-insertion extractor preserve canonical choice and original survival through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R1 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.
+
+This completed full invocation covers 1399 source units and accounts for 3134.656250 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R1 complete source pass independently replays and authenticates; downstream scientific comparisons remain separate.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R1_FULL_20261102.md.
+
+### OPS-S15-W4-TIMING-FULL
+
+**Hypothesis.** Can the frozen per-writer timing instrument represent the complete typed-interval source without losing unsupported records or confusing a slow component with a psychological state?
+
+**METHOD.** Authenticate the completed PP1 source, apply its separately fitted mechanical correction, normalize within each writer using within-word intervals, and fit the declared ordered three-component mixture. Retain every interval, recording failed baselines or fits explicitly. Independently recompute the full corpus in a fresh native process and authenticate all outputs, source pins and native exits. Known-answer recovery, typing-speed invariance and boundary tests were completed before this run.
+
+**Found.** The complete Week 4 timing preparation independently replays with every source interval accounted for; dependent scientific comparisons remain uncomputed.
+
+The complete preparation represents 1,809,942 intervals in 1,399 sessions, with fitted rulers for all 61 writers. The full invocation consumed 151.125000 CPU seconds including fresh verification; prior preparation and native validation consumed 34.890625, giving 186.015625 charged to S1's original 3,600-second allowance. No interval disappeared through component assignment. Slowest-component observations remain explicit; first-onset exclusion and disjoint within-writer terciles are applied only by the dependent stretch consumer.
+
+**Means.** This completed instrument supplies timing posteriors, not evidence about planning, intention or individual identification. S1 and the remaining timing consumers still need their own validated windows, controls, support and cumulative cost admission. No scientific p-value or theory-row change follows. GPU parking and paid limits are unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete Week 4 timing preparation independently replays with every source interval accounted for; dependent scientific comparisons remain uncomputed.; project meaning: scoped operational record; next engineering obligation: Build S1 typed-word windows and validated recurrence comparisons, then the remaining Week 4 timing consumers.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_TIMING_FULL_20261102.md.
+
+### OPS-S15-W4-BUILD-0832
+
+**Hypothesis.** Is the new Week 4 work actually executing under its recorded limits while its remaining preparation stays visible?
+
+**METHOD.** Match every current worker's native PID, executable and creation ticks to its owner record. Inspect fresh progress, resource observations, immutable plan identity and terminal state. Reconcile the completed native and source-support write-throughs, current paid calibration and remaining build scope.
+
+**Found.** Gear 2 has 3 verified active CPU jobs; completed Week 4 instrument and support records are filed, while the remaining tree and eight-card ready buffer are unfinished.
+
+Active snapshot: R1-full, R2-full-admitted, timing-ruler. These are bounded source/instrument passes, not interim scientific verdicts. The R2 full launch initially refused a plan missing its completed-pilot bookkeeping flag before creating any attempt or lease. That unlaunched plan is retained, and the separate R2-full-admitted namespace supplies the exact pilot proof without changing the population or source method.
+
+The S5 primary closes as design cannot test under its declared support rule; its complete descriptive census is filed under S15-W4-S5-SUPPORT-20261102. PROC's completed calibration is instrument-held, with its original failure retained and the approved single fresh-rung prompt correction still unrun. Actual campaign spend is one cent. Other paid nodes and most local comparisons remain unbuilt. There are zero validated ready successor cards against eight required; this implementation backlog is recorded, not counted as a loaded queue. GPU parking remains intentional. No new tests were harvested from the wake.
+
+**Means.** Continue the commissioned builds, validate each before admission and maintain all cumulative ceilings. The final packet reports scientific results after complete write-through. Healthy source jobs are not restarted. This checkpoint grants no additional resources, spending or delegation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Gear 2 has 3 verified active CPU jobs; completed Week 4 instrument and support records are filed, while the remaining tree and eight-card ready buffer are unfinished.; project meaning: scoped operational record; next engineering obligation: Build the remaining Week 4 scientific and paid nodes and eight validated ready successors; copy the aggregate S5 return to Ghost.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_BUILD_20261102_0832.md.
+
+### OPS-S15-W4-TIMING-NATIVE
+
+**Hypothesis.** Can the new per-writer timing measure recover distinct known gap components without turning a difference in typing speed into a different class?
+
+**METHOD.** Fit the frozen three-component instrument to a constructed writer and a rescaled copy, require ordered class recovery and unchanged posteriors, and replay all outputs in a fresh native process. Three targeted tests also cover actual onset eligibility, first-onset exclusion, the exact sixty-second break boundary, tied terciles and missing baselines. Authenticate source/output hashes and native exits.
+
+**Found.** The Week 4 per-writer timing ruler passes constructed component recovery, typing-speed invariance and independent native replay; complete corpus preparation remains pending.
+
+The native pass used 4.890625 CPU seconds. Slowest-component onsets remain stops rather than falling out of the middle-component rule; within-word intervals never become stops. Ambiguous third cutoffs cannot create overlapping flow and hesitant arms. The measure is separate from PP1's unchanged pooled mixture, retains its mechanical correction, and supplies no psychological label or human effect.
+
+**Means.** Full corpus preparation still requires complete verification. Unsupported baselines and failed per-writer mixtures will remain explicit. Preparation and this native pass are charged to S1's original allowance. No new p-value, theory row, paid call, GPU use or scientific admission follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Week 4 per-writer timing ruler passes constructed component recovery, typing-speed invariance and independent native replay; complete corpus preparation remains pending.; project meaning: scoped operational record; next engineering obligation: Prepare and independently replay the complete per-writer timing ruler, then build the dependent Week 4 comparisons.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_TIMING_NATIVE_20261102.md.
+
+### S15-W4-S5-SUPPORT-20261102
+
+**Hypothesis.** Do expert-labelled planning runs begin after a longer stop than implementation runs within the same writer?
+
+**METHOD.** Reconstruct all authenticated ScholaWrite released changes, group by project-scoped author and preserve source chronology. Identify high-level run starts, exclude ambiguous timestamp edges and intervals longer than thirty minutes from the primary, normalize by each author's median eligible gap and count support before fitting. The frozen primary requires thirty planning-run starts in each of six authors. Independently replay the full source and complete descriptive gap/mixture census. No primary model or resampling runs when that support requirement fails.
+
+**Found.** Design cannot test: the planning-gap comparison lacks its declared author support; no primary effect was computed.
+
+The table describes the complete source census. Author identities are project-scoped; the released change log is filtered and its intervals are not raw keypress pauses.
+
+| Check | Complete count |
+|---|---:|
+| Released changes | 61,504 |
+| First records without a preceding interval | 12 |
+| Edges touching ambiguous timestamp blocks | 9,799 |
+| Gaps longer than thirty minutes | 271 |
+| Discontinuous visible editor views among retained intervals | 2,942 |
+| Authors meeting the frozen planning-start requirement | 3 |
+| Required authors | 6 |
+| Fine labels in descriptive census | 15 |
+
+All three high-level categories and all fifteen fine labels retain separate run-start, inside-run and long-gap distributions. Descriptive author-specific three-component lognormal posteriors are reported as aggregate equal-author summaries with fit failures explicit; per-author records remain private. These mixtures describe released-change gaps, not identified cognitive states. The primary floor remains unchanged, so there is no adjusted planning estimate, interval or probability and no finer-label inference presented as a substitute. The broad planning hypothesis remains open.
+
+**Means.** This is a design-support failure, distinct from a null, negative or failed sensitivity check. Amendment F opens no `.ic` or automatic descendant. The original numerical classifier defect remains recorded, with one separately validated repair. A reporting omission in the unsupported branch is completed by the separately pinned descriptive-census pass without changing support or running the primary. The native empirical pass and descriptive completion used 99.03125 and 8.25 CPU seconds respectively. Including preparation and both constructed passes, cumulative charges remain inside the original 1,800-second ceiling. All native workers exited and released their leases. No new p-value or scientific route is licensed. No new test was harvested from the wake; the remaining commissioned Week 4 work continues.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Design cannot test: the planning-gap comparison lacks its declared author support; no primary effect was computed.; project meaning: scoped operational record; next engineering obligation: Close S5 as design cannot test, retain descriptive census and dispatch independent Week 4 cards; no sensitivity descendant.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S5_SUPPORT_20261102.md.
+
+### OPS-S15-W4-S5-NATIVE-H1
+
+**Hypothesis.** Can the planning-gap instrument distinguish zero, positive and reversed known effects without changing the measured coefficients?
+
+**METHOD.** Re-run the unchanged constructed arrays using the separately frozen numerical-zero classifier. Verify numerical estimates, final decisions, dense and certified mixed-model agreement, nine targeted tests, complete output/source hashes and native exits. Independently reconstruct every native output.
+
+**Found.** The separately versioned S5 numerical repair passes known-answer decisions and independent native replay; full empirical execution is now eligible within its original cumulative ceiling.
+
+The coefficient and reference output is byte-identical to the original constructed receipt. The corrected decision boundary now reports the exact-zero world as null while retaining both resolvable directions. This native pass used 4.375 CPU seconds. The original instrument defect and failed admission remain preserved; this is healing attempt one. The companion fine-label summaries are frozen before empirical outcomes. All ScholaWrite identities and the original primary support threshold remain required.
+
+**Means.** This validates the instrument on constructed values; it does not establish population sensitivity or a planning result. Full human-data execution and fresh verification share the remaining original ceiling, including all earlier charges. No new p-value, theory row, paid call or GPU use follows from this receipt.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The separately versioned S5 numerical repair passes known-answer decisions and independent native replay; full empirical execution is now eligible within its original cumulative ceiling.; project meaning: scoped operational record; next engineering obligation: Run the full predeclared S5 comparison under its original cumulative ceiling; continue the remaining Week 4 builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S5_NATIVE_H1_20261102.md.
+
+### OPS-S15-W4-S5-NATIVE
+
+**Hypothesis.** Does the planning-gap instrument recover zero, positive and reversed known effects without converting numerical residue into a scientific direction?
+
+**METHOD.** Run three constructed known-answer arrays through the certified mixed model, exact centered-GLS calculation and whole-author bootstrap in separate native execution and verification processes. Authenticate all outputs, frozen sources and native exits. Audit the final decision rule in addition to numerical coefficient agreement.
+
+**Found.** The S5 native calculation replays, but its exact-zero constructed case exposes a numerical classification defect; human-data admission is held for a separately validated repair.
+
+Eight targeted tests passed, and all three coefficients recover their planted answers within the declared numerical tolerance. The original tests omitted the final null classification. The exact-zero coefficient and interval contain negative floating-point residue of order 1e-15, which the strict sign classifier reports as negative. The complete native attempt used 4.5625 CPU seconds; no human comparison ran. Original tests, sources and receipt remain preserved. This is an instrument failure, not evidence against the scientific hypothesis.
+
+**Means.** Healing attempt one will use a separately versioned implementation with a prospectively frozen 1e-12 numerical-zero tolerance applied only to classification, plus explicit null/positive/reversed decision tests. Coefficients, bootstrap arrays, seeds, controls and scientific thresholds remain unchanged. Subsidiary fifteen-label descriptive reporting is completed before empirical admission. No new scientific probability, claim or theory row follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The S5 native calculation replays, but its exact-zero constructed case exposes a numerical classification defect; human-data admission is held for a separately validated repair.; project meaning: scoped operational record; next engineering obligation: Validate the separately versioned numerical classification repair before human-data admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_S5_NATIVE_20261102.md.
+
+### OPS-S15-W4-PROC-CALIBRATION
+
+**Hypothesis.** Can the commissioned sentence-role labeler recover the frozen rhetorical and centrality categories on its blind calibration set?
+
+**METHOD.** Submit the previously prepared but never submitted 100-item blind rung using the unchanged semantic rubric, explicit role-code schema and 32-token ceiling. Bind every request and blind label to its source, reserve three cents before POST, retrieve all ended responses and reconcile actual token usage. Independently reproduce agreement with scikit-learn, authenticate every result and settlement hash, and verify the retrieval monitor exited.
+
+**Found.** The complete Week 4 PROC calibration passes format coverage but fails centrality agreement; its main run remains held, with one recorded prompt correction and fresh rung available.
+
+The table reports the whole completed calibration rung, not per-artifact scores.
+
+| Check | Complete result | Frozen requirement |
+|---|---:|---:|
+| Valid formatted outputs | 100 / 100 | At least 98 / 100 |
+| Genre-qualified role agreement beyond chance (Cohen's kappa) | 0.608938547486 | At least 0.6 |
+| Centrality agreement beyond chance (Cohen's kappa) | 0.409359382099 | At least 0.6 |
+| Reconciled cost | 1 cent | Within 200-cent node cap |
+
+The blind labels are agent-made annotations from fixed document prefixes, not human judgments or representative full-corpus class coverage. They were frozen before any provider response for these items. The three-cent reservation reconciles to one cent; no uncertain billing is released. No main request has been submitted. The initial sandbox network refusal happened during model-access preflight, before any paid POST; the authorized network preflight subsequently passed. Seven targeted adapter tests passed before dispatch.
+
+**Means.** Format validity does not establish semantic calibration. PROC remains instrument-held; dependent hierarchical-role analyses are unadmitted. The original rubric, blind labels, complete responses and failed rung remain immutable. The approved single prompt correction must be recorded and tested on 100 fresh items within the same cumulative node cap; a second failure stops this node. No scientific claim or theory row changes from this instrument result.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete Week 4 PROC calibration passes format coverage but fails centrality agreement; its main run remains held, with one recorded prompt correction and fresh rung available.; project meaning: scoped operational record; next engineering obligation: Audit semantic disagreements, retain the frozen reference and build the single permitted prompt correction with a fresh blind rung.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PROC_CALIBRATION_20261102.md.
+
+### OPS-S15-W4-RECORD-S4
+
+**Hypothesis.** Can both complete source passes finish within the standing one-time cost extension without sampling or changing their designs?
+
+**METHOD.** Use each completed execution-plus-verification timing subset, scale to the full declared population with a 50% reserve, retain constructed validation and preparation charges, and bind the new remaining allowance to its timing receipt. Compare the combined charge and reservation with twice the original card ceiling. A preparation assertion refused the first full R1 launch before any attempt or lease was created; it required this explicit allocation.
+
+**Found.** Measured complete-source forecasts admit R1 and R2 within their separate one-time cumulative CPU extensions, preserving both full populations and every control.
+
+The table reports cumulative CPU allowances in seconds, including fresh verification, not wall time or scientific effects.
+
+| Card | Full sessions | Prior charged/reserved | Full forecast | Remaining hard allocation | Whole-card maximum |
+|---|---:|---:|---:|---:|---:|
+| R1 | 1399 | 336.890625 | 4341.271875 | 6863.109375 | 7200 |
+| R2 | 1445 | 532.765625 | 7256.687231 | 13867.234375 | 14400 |
+
+**Means.** This uses the standing S4 extension once per card; it grants no recursive doubling. The full R1 and all-archive R2 populations remain intact. Original source counts, failures, known answers and fresh verification remain mandatory. No reduced scientific sample, new hypothesis, GPU use or additional paid authority is introduced. Both plans remain bounded by Week 4's drain and resource guards.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Measured complete-source forecasts admit R1 and R2 within their separate one-time cumulative CPU extensions, preserving both full populations and every control.; project meaning: scoped operational record; next engineering obligation: Launch both exact complete source passes and continue the ready-card builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_RECORD_S4_20261102.md.
+
+### OPS-S15-W4-R2-TIMING
+
+**Hypothesis.** Can the provenance census retain every character and explicit replay exclusion through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R2 source-cost subset completes independent native replay; full-population source validation remains pending.
+
+This completed timing invocation covers 145 source units and accounts for 485.453125 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R2 source-cost subset completes independent native replay; full-population source validation remains pending.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R2_TIMING_20261102.md.
+
+### OPS-S15-W4-R1-TIMING
+
+**Hypothesis.** Can the physical-insertion extractor preserve canonical choice and original survival through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R1 source-cost subset completes independent native replay; full-population source validation remains pending.
+
+This completed timing invocation covers 140 source units and accounts for 289.625000 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R1 source-cost subset completes independent native replay; full-population source validation remains pending.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R1_TIMING_20261102.md.
+
+### OPS-S15-W4-R2-CONSTRUCTED
+
+**Hypothesis.** Can the provenance census retain every character and explicit replay exclusion through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R2 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.
+
+This completed constructed invocation covers 7 source units and accounts for 2.312500 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R2 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R2_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-R1-CONSTRUCTED
+
+**Hypothesis.** Can the physical-insertion extractor preserve canonical choice and original survival through a fresh independent process?
+
+**METHOD.** Require the original, first repaired and second repaired shared extractors to reproduce their respective semantic-append, missing-comparator and reused-origin failures. Run the separate physical-insertion successor, validate known Unicode survival/deletion cases, and reconstruct every output independently in a native process. Check complete output hashes, frozen source pins and native exits. Corpus timing subsets are operational probes only, never scientific populations.
+
+**Found.** The R1 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.
+
+This completed constructed invocation covers 7 source units and accounts for 2.265625 CPU seconds across execution and verification. Seven targeted record checks passed before native admission. The two replay implementations use the same raw delta log; agreement is not represented as an independent externally saved final-document oracle. Missing unchosen comparators remain unsupported; reused menus do not become duplicate physical insertion identities. Earlier failed attempts remain unchanged. All completion outputs and pins authenticate; all native identities have exited.
+
+**Means.** This is an instrument and source-validation record, with no new scientific estimate or probability. The remaining source, cost, scientific calibration and ready-buffer obligations stay open. No local GPU or paid call is used. Full internal recording precedes any terminal ACK and any dependent admission.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The R1 source instrument passes the three historical failure fixtures and complete constructed native replay; corpus timing and full-population admission remain pending.; project meaning: scoped operational record; next engineering obligation: Continue complete source/cost admission and build commissioned scientific cards; no scientific conclusion from source validation.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_R1_CONSTRUCTED_20261102.md.
+
+### OPS-S15-W4-HANDOFF
+
+**Hypothesis.** Can the new commission open a separate, bounded execution window without altering the completed Week 3 evidence or its guards?
+
+**METHOD.** Preserve the supplied packet byte-for-byte, record the current commission and explicit seven-node transfer approval, copy the runtime into a separate version, and install the packet's amendments E–H verbatim. Exercise start/freeze boundaries, the shared reservation, resource and cumulative CPU refusals, paid caps, duplicate/unknown calls and the calendar drain. Run a constructed native execution and independent verification through the actual launcher, monitor handshake and counted lease; authenticate every completion output and source pin and verify native exits.
+
+**Found.** The Week 4 execution window and seven-node paid approval are recorded; the new CPU runtime passes native replay, while scientific runners and the ready buffer remain under construction.
+
+Twelve targeted checks pass. The first test invocation hit a filesystem permission error in pytest's default temporary directory; its receipt remains, and a workspace-local temporary directory resolved the environmental setup failure without changing tests. Native execution and fresh verification both passed, accounting for 1.578125 CPU seconds. All native identities exited and the counted lease was released. All 21 research locks pass. This is an infrastructure result, not a study result.
+
+The exact packet SHA-256 is `d8835bea67dd6033d212ff0b9622446b8e90141bad7e3aa865b06adb10062f52`. Week 4 permits four counted CPU slots, with shared reservations respected, and parks the local GPU. New starts stop November 8 at 20:00 PST, draining by 22:00 PST; the addendum is due at 23:00 PST. Paid dispatch stops November 6 at 17:00 PST. The seven node caps total $9, within the separate $10 campaign ceiling. Approval covers the listed transfers and one recorded prompt fix with a fresh validation rung per node; no call has yet been submitted or charged.
+
+**Means.** The current explicit commission supersedes the Week 3 start freeze for new versioned Week 4 attempts only. Earlier packets, failures and completed records remain immutable. Transition-only monitoring is cleared for the new window; the independent six-hour health clock is preserved. There are no admitted scientific workers or eight-card ready buffer yet. Building, calibration, source validation, cost admission and the seven paid adapters remain active obligations. The supplied studies are harvested as the Week 4 tree; no new analyst hypothesis is added. Per-artifact scores and scientific conclusions remain withheld until full cells land internally and the final-packet policy permits reporting.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Week 4 execution window and seven-node paid approval are recorded; the new CPU runtime passes native replay, while scientific runners and the ready buffer remain under construction.; project meaning: scoped operational record; next engineering obligation: Finish source/control validation, build the ready queue and dispatch only admitted Week 4 CPU and paid nodes.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HANDOFF_20261102.md.
+
+### OPS-S15-W3-HEALTH-20261102-0326
+
+**Hypothesis.** Is the idle queue caused by a failed worker or monitor, and is any already admitted job stranded for restart?
+
+**METHOD.** Inspect native identities and command ownership, ended numerical-worker identities, terminal and output hashes, current source-code pins, registered output freshness, failures, counted leases, shared reservation, GPU ownership, research locks and resource headroom. Verify the repaired watcher source, completed calendar heartbeat and terminal, actual health-event delivery and paid-ledger immutability. Reconcile the open queue rows against the completed cost receipts.
+
+**Found.** The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.
+
+The five recent D5 numerical/cost/known-answer invocations retain verified completions and full write-through. Their execution and fresh-verification identities have ended, and their output hashes and current source-code pins authenticate. The native census shows only the watcher process for this repository. No counted CPU lease, new registered terminal, unrecorded failure or restartable admitted worker was found. All 21 research locks pass; the retired September queue remains retired.
+
+The table reports operational resource headroom in GiB, not scientific results.
+
+| Resource | Available | Admission floor |
+|---|---:|---:|
+| RAM | 49.385 | 6 |
+| Commit | 33.207 | 8 |
+| Disk | 305.902 | 20 |
+
+The repaired watcher retains its verified native identity and exact loaded source digest. Its real health alert was accepted and delivered to the owning session; the scan is fresh; the calendar heartbeat has stopped as expected after verified completion, with no current delivery error. This verifies ordinary delivery after the reload, not a newly observed live race. Earlier transport failures and historical inconsistent labels remain preserved. Paid accounting is unchanged since cutoff. GPU parking is intentional and remains in force; no GPU restart is warranted.
+
+**Queue reconciliation.** Four research slots remain free and zero cards are ready against the required eight. The previously recorded D5 and D33 specification cost holds are unchanged. D5 has 4,515.3535 CPU seconds remaining against a conservative 6,541.75-second complete-world forecast; D33 specification has 683.34375 remaining against 1,135.3125 forecast. Its corrected menu note is current. Other scientific, source, paid and GPU holds persist. No admitted worker is stranded for restart.
+
+The start freeze has been in force since 20:00 PST, and the admission guard refuses new starts. The prior ready-buffer deficit remains recorded; present inactivity under the freeze is intentional. This wake does not permit new starts, reduced designs, increased ceilings or GPU restarts.
+
+The nonoverlapping interval from 2026-11-02T06:00:00+00:00 through 2026-11-02T11:27:27.105659+00:00 records 21.830117 post-freeze unused research-slot hours after the completed drain window. This counts unused research leases, not total machine CPU utilization; do not add overlapping older snapshots.
+
+**Means.** Retain the verified cost holds and capacity deficit. No worker restart, lease deletion, scientific retry or service repair is justified by this inspection. The no-new-start boundary remains binding; the final digest, drain addendum and calendar closure are complete. Full internal recording precedes this event's ACK, which alone rearms the six-hour health deadline. No tests were harvested, no scientific scores are reported and no publication occurs. The earlier completed records were pushed and remotely verified at commit 0b449a45791aa03573c48a84764511e80b55f8ad following the explicit publication request. This new health record remains local. The final digest, drain addendum and calendar closure are complete; the no-new-start boundary remains enforced. No extra ETA wake is scheduled.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.; project meaning: scoped operational record; next engineering obligation: Preserve closed window, evidence and holds; no authorized research start remains.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261102_0326.md.
+
+### OPS-S15-W3-CALENDAR-CLOSED
+
+**Hypothesis.** Did the operational calendar finish normally, and was its final reporting obligation satisfied on time?
+
+**METHOD.** Authenticate both delivered markers against their hashes; verify every scheduled milestone, the empty remaining-milestone heartbeat, ended calendar worker/wrapper identities and the live watcher's identity, loaded source hashes and recent scan. Check the already completed drain write-through and acknowledgment, its filing time against the deadline, registered study terminals, counted leases, research locks and paid-ledger immutability.
+
+**Found.** The finite Week 3 calendar completed and exited; all milestones are present and the verified drain addendum was filed before its deadline.
+
+The table distinguishes operational completion from scientific completion.
+
+| Item | Verified state |
+|---|---|
+| Calendar | All 13 milestone markers present; calendar-only COMPLETE; no failure marker |
+| Final heartbeat | No remaining milestones; a stopped heartbeat is expected after normal calendar exit |
+| Native processes | Calendar worker and wrapper ended; watcher remains live with matching identity and loaded sources |
+| Drain addendum | Fully written through, verified and acknowledged before November 1 at 23:00 PST |
+| Study work since addendum | No new registered study terminal or active research worker; no counted lease |
+| Research locks / paid ledger | All 21 locks pass; paid cutoff ledger unchanged |
+| Operating constraints | Start freeze, paid closure, GPU parking and transition-only configuration retained |
+
+**Means.** The calendar and reporting window are finished. The final scientific packet and drain addendum remain unchanged; unfinished research and the pre-freeze ready-buffer deficit remain explicit. Calendar completion is not proof that the research backlog is complete. No restart, cleanup, new study, scientific interpretation or additional wake is warranted. No tests were harvested. Both event ACKs follow this complete internal write-through and preserve the independent six-hour health schedule. Records remain local; this pass performs no publication.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The finite Week 3 calendar completed and exited; all milestones are present and the verified drain addendum was filed before its deadline.; project meaning: scoped operational record; next engineering obligation: Preserve closed window and evidence; unfinished research requires subsequent authorization within applicable limits.; public scientific claim unchanged; curator decision required: No new decision. Detail: CALENDAR_CLOSED_20261101.md.
+
+### OPS-S15-W3-DRAIN-ADDENDUM
+
+**Hypothesis.** Did any study result or unresolved worker remain between the final digest and the scheduled drain?
+
+**METHOD.** Independently inventory terminal markers and counted admissions across the active native, local and paid research roots for November 1, 20:00–22:00 PST (November 2, 04:00–06:00 UTC). Inspect native process ownership, watcher delivery and source hashes, calendar heartbeat, CPU leases, research locks, resource headroom and the unchanged paid ledger. Verify existing claim anchors and the actual no-new-start admission guard. Reconcile the calendar's transition-only configuration.
+
+**Found.** The Week 3 drain is reconciled with no new study results or active workers; the final packet stands, and unfinished work remains held under the start freeze.
+
+The independent inventory found no completed, failed, paused or monitor-failed study terminal in the drain window and no counted research admission spanning it. There is no result to append to the scientific findings. The only repository processes are the authenticated watcher, calendar worker and its wrapper. The final digest and subsequent health inspection remain the applicable records; this addendum changes no scientific claim, control, p-value or theoretical interpretation.
+
+The table records operational closure of this run window, not completion of the research backlog.
+
+| Item | Verified state |
+|---|---|
+| Drain-window study terminals / research workers / counted leases | 0 / 0 / 0 |
+| Four-slot window | 8 available slot-hours; 0 occupied and 8 unused under the start freeze |
+| Ready buffer | 0 of the required 8; the pre-freeze implementation deficit remains recorded |
+| Research locks | All 21 pass |
+| Paid accounting | Unchanged: one settled cent of 1,000; no outstanding reservation; dispatch closed |
+| GPU work | Intentionally parked; no restart |
+| Calendar | Drain marker delivered; transition-only configuration restored; only addendum deadline remains |
+| Watcher | Matching native identity and loaded sources, fresh scan, no current delivery error |
+| Research starts | Existing admission guard refuses new starts |
+
+The eight unused slot-hours describe the entire two-hour drain window and overlap the 21:24 health snapshot; do not add that snapshot again. They follow, and do not overlap, the final digest's daily accounting. Inactivity during the freeze is required; the earlier failure to prepare the ready buffer is not reclassified or erased.
+
+**Final packet.** [The final digest](FINAL_DIGEST_20261101.md) and its frozen claim inventory retain all completed scoped positives, failed calibrations, non-detections and source/cost holds. The 285 pre-integration ledger rows remain unchanged in scientific content. D5 and FIC1 human admission, cost-held comparisons and the other named unfinished obligations are not declared complete. The theory appendices remain filed under their existing attribution. No tests were harvested from this wake.
+
+**Means.** The Week 3 execution window has drained; the research program is not thereby scientifically complete. Preserve raw evidence, holds, start freeze and paid closure. No worker termination, restart, lease deletion or recovery was necessary. This addendum is filed before its 23:00 PST deadline. The calendar may still emit its deadline/completion markers; inspect and acknowledge those as operational records without rerunning studies. The six-hour health schedule is not reset by this ordinary marker ACK. No additional poll or ETA wake is created.
+
+**Publication.** Prior requested publication remains verified through `0b449a45791aa03573c48a84764511e80b55f8ad`. The final digest, later inspections and this addendum are local; no stage, commit or push is performed in this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The Week 3 drain is reconciled with no new study results or active workers; the final packet stands, and unfinished work remains held under the start freeze.; project meaning: scoped operational record; next engineering obligation: Preserve freeze and evidence; reconcile remaining calendar deadline/completion markers without new research starts.; public scientific claim unchanged; curator decision required: No new decision. Detail: DRAIN_20261101.md.
+
+### OPS-S15-W3-HEALTH-20261101-2124
+
+**Hypothesis.** Is the idle queue caused by a failed worker or monitor, and is any already admitted job stranded for restart?
+
+**METHOD.** Inspect native identities and command ownership, ended numerical-worker identities, terminal and output hashes, current source-code pins, registered output freshness, failures, counted leases, shared reservation, GPU ownership, research locks and resource headroom. Verify the repaired watcher source, fresh calendar heartbeat, actual health-event delivery and paid-ledger immutability. Reconcile the open queue rows against the completed cost receipts.
+
+**Found.** The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.
+
+The five recent D5 numerical/cost/known-answer invocations retain verified completions and full write-through. Their execution and fresh-verification identities have ended, and their output hashes and current source-code pins authenticate. The native census shows only the watcher and calendar processes for this repository. No counted CPU lease, new registered terminal, unrecorded failure or restartable admitted worker was found. All 21 research locks pass; the retired September queue remains retired.
+
+The table reports operational resource headroom in GiB, not scientific results.
+
+| Resource | Available | Admission floor |
+|---|---:|---:|
+| RAM | 55.048 | 6 |
+| Commit | 39.016 | 8 |
+| Disk | 305.903 | 20 |
+
+The repaired watcher retains its verified native identity and exact loaded source digest. Its real health alert was accepted and delivered to the owning session; the scan and calendar heartbeat are fresh, with no current delivery error. This verifies ordinary delivery after the reload, not a newly observed live race. Earlier transport failures and historical inconsistent labels remain preserved. Paid accounting is unchanged since cutoff. GPU parking is intentional and remains in force; no GPU restart is warranted.
+
+**Queue reconciliation.** Four research slots remain free and zero cards are ready against the required eight. The previously recorded D5 and D33 specification cost holds are unchanged. D5 has 4,515.3535 CPU seconds remaining against a conservative 6,541.75-second complete-world forecast; D33 specification has 683.34375 remaining against 1,135.3125 forecast. Its corrected menu note is current. Other scientific, source, paid and GPU holds persist. No admitted worker is stranded for restart.
+
+The start freeze has been in force since 20:00 PST, and the admission guard refuses new starts. The prior ready-buffer deficit remains recorded; present inactivity under the freeze is intentional. This wake does not permit new starts, reduced designs, increased ceilings or GPU restarts.
+
+The nonoverlapping interval from 2026-11-02T04:00:00+00:00 through 2026-11-02T05:25:00.034694+00:00 records 5.666705 post-freeze unused research-slot hours after the final-digest cutoff. This counts unused research leases, not total machine CPU utilization; do not add overlapping older snapshots.
+
+**Means.** Retain the verified cost holds and capacity deficit. No worker restart, lease deletion, scientific retry or service repair is justified by this inspection. The no-new-start boundary remains binding; the scheduled drain review and addendum are the next authorized operational work. Full internal recording precedes this event's ACK, which alone rearms the six-hour health deadline. No tests were harvested, no scientific scores are reported and no publication occurs. The earlier completed records were pushed and remotely verified at commit 0b449a45791aa03573c48a84764511e80b55f8ad following the explicit publication request. This new health record remains local. The final digest is complete and the no-new-start boundary is enforced. Drain review remains at 22:00 PST, with its addendum by 23:00 PST; no extra ETA wake is scheduled.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.; project meaning: scoped operational record; next engineering obligation: Preserve freeze and holds; inspect scheduled drain and complete its addendum.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261101_2124.md.
+
+### OPS-S15-W3-FINAL-DIGEST-20261101
+
+**Completed positives first.** This packet reproduces the existing ledger wording; it does not upgrade a control, pool incomparable studies, or license an unfinished cell. The table separates human-record results from the explicitly constructed V4.c calibration in its wording. Specification and ablation follow-ups reuse sources and are not independent replications.
+
+| Ledger identifier | Control status | Exact allowed wording |
+|---|---|---|
+| S15-WA0-H1-20261025 | passes | Supports corpus-specific writer identification from final-document habit profiles beyond independent prompt context, including after accepted-share adjustment; the tested gallery has 30 writers and each of 45 eligible writers is probed once. |
+| S15-WA0-H1-M-20261025 | passes within stated channels | Supports conditional final-page identification after each single feature-block removal; no individual block's necessity or causal role is established. |
+| S15-WA0-H1-P-20261025 | passes within stated channels | Supports final-page identification under the second reader; three process channels fail its joint gate, so robustness does not cover every channel. |
+| S15-WA0-H1-S-20261025 | passes within stated channels | Supports final-page identification across all five frozen role partitions; length and request-count channels fail one partition, so robustness is not uniform across channels. |
+| S15-CA5 | passes | Supports recurring personal harm-topic judgments across items after shared demographic responses and overall severity are removed; this does not establish private values, objective safety or competence. |
+| S15-CA5-S-20261025 | passes | Specification stability supports scoped recurring perceived-harm judgments; it does not identify private values. |
+| S15-CA5-M-20261025 | passes | Overall severity and topic-specific recurrence coexist; causal attribution remains open. |
+| S15-CA5-R-H1-20261026 | passes | Supports small joke-topic preference recurrence beyond additive person and item averages in the approved Jester records; this descriptive conditional comparison does not establish demographic-relative harm judgments or value recovery. |
+| S15-PP3-20261026 | passes | Supports improved average classification of expert ScholaWrite writing labels from process features beyond the training prior and tested reassignments; planning is never predicted, and private goals or CoAuthor goals are not established. |
+| S15-PP3-M-20261026 | passes | Supports predictive dependence of the ScholaWrite classifier on edit features: removing them reduces held-project label recovery and worsens probability accuracy, without establishing a psychological mechanism. |
+| S15-PP3-S-20261026 | passes | Supports held-project ScholaWrite label recovery across the registered ridge penalties; this is same-source specification robustness, not independent replication or private-goal recovery. |
+| S15-DR1-CONTEXT-20261029 | passes | Session-summary style identifies writers beyond the separate independent-context reference in the original eligible reading cohort; this does not establish a directed-reading advantage. |
+| S15-D33-CALIBRATION-SUPPORTED-20261029 | passes | The supported comparison supports a personal-history association with writing pauses after matched donor history and measured context are accounted for; the full-population and causal questions remain open. |
+| S15-V4C-MC199-20261101 | passes | In constructed worlds, the fitted 199-reference test supports detection of matched-feature taste under its frozen calibration rules; lexical taste fails false-alarm calibration, and habit sensitivity remains insufficient. |
+
+Earlier evidence remains available, but is not a new Week 3 discovery: EV1's scoped pause association (S15-EV1-PAUSES-V1, passes), EV2's cross-prompt recurrence (S15-EV2-SIGNATURES-V1, passes), the scoped rhythm-over-handling contrast (S15-DRIVE-PMAP-RHYTHM-1018, passes), and the bounded saved-forecast diagnostic (S15-DRIVE-V2, passes). Their exact wording and limitations remain in the [complete inventory](FINAL_WEEK3_CLAIM_INVENTORY_20261101.md). No result here establishes a private-value reader or a complete human process hierarchy.
+
+**One-page process-pyramid map.** This is an index of already recorded evidence and gaps, not a new model of cognition. The curator's proposed hierarchy and reusable action pieces remain distinct from what these instruments can observe. The rows describe levels of records, not a demonstrated causal ladder.
+
+| Level or cross-level question | What is visible in the current record | What remains unavailable or unlicensed |
+|---|---|---|
+| Word / local production | EV1 relates flagged surviving words to longer preceding pauses; D33 supports a scoped personal-history association after donor/context adjustment. | Pausing does not identify attention's cause. Full-population D33 and causal automaticity remain open; original D30 non-detections remain. |
+| Edit / action piece | PP3 recovers some expert ScholaWrite writing labels beyond its training prior; edit-feature removal reduces recovery. | Planning is never predicted. P3c fails agreement against agent-made labels; those labels are not human ground truth. WB1's effect comparison is cost-held. |
+| Sentence / paragraph timing | Canonical timing inputs and PP1 instruments are prepared and verified. | The complete PP1 study is cost-held. No corpus pause hierarchy, attention gradient, or PP2/PP4–PP7 inference follows from preparation. |
+| Page / session signature | WA0.h1 final-page writer identification survives its independent-context comparison and the stated follow-ups; DR1-context supports session-summary identification. | Identification is not motive recovery. Some process channels fail follow-up gates. GEN1 does not establish a general fiction advantage or frame detector. |
+| Across sessions / changing behavior | CA5 and its separate Jester comparison support recurring conditional judgments/preferences; TR4.h1 supplies a calibrated non-detection. | No equivalence or stable-preference conclusion; directed-reading advantage is not established. TR3 fails negative-direction sensitivity, so human carryover is untested. |
+| Higher goals / values / shared coordinates | V4.c detects matched-feature planted taste under its constructed calibration. | Lexical calibration fails and habit sensitivity is insufficient. CA3's approved 836-person input subset is prepared, not a completed choice-to-values test. D5/FIC1 human identification and calibrated higher-level goal recovery remain unadmitted. |
+
+**Hypothesis.** Are the completed results, controls, corrections and unfinished obligations accounted for at the no-new-start boundary?
+
+**METHOD.** Reproduce existing claim wording and dispositions from the authenticated ledger; verify every source anchor. Independently inventory the final daily window's terminal markers, reconcile their hashes with completed landings and acknowledged events, and reconstruct nonoverlapping counted-lease intervals. Inspect native service identities, calendar and watcher freshness, loaded source hashes, resource headroom and research locks. Exercise the existing admission guard without launching a job. Read the commissioned companion reports as constructed-source evidence, preserving their corrections and transfer limitations.
+
+**Corrections and boundaries retained.**
+
+- The literal leave-writer-out context diagnostic can encode the omitted identity. It remains invalid for licensing (S15-WA0-LITERAL-20261025); the separately approved independent-writer reference is retained under WA0.h1. The original EV3 failure is not erased.
+- TR4's original outcome-order reference remains biased. Its separately calibrated h1 control yields no detected adaptive advantage; this does not establish equivalence or stable preferences. TR3's eligibility-rebuilt shuffle and all engineering attempts remain recorded, but its failed signed-sensitivity gate still blocks human inference.
+- The original W4 companion export was a cost-probe export; the supplied full-study successor supersedes it. Ghost's omitted-truth correction concerns the chooser, not the full-library scoring reader. Neither correction is a new human result.
+- V4.c's fitted reference is a separate calibration. Its lexical failure and insufficient habit sensitivity persist. Degenerate Gaussian/Wald diagnostics are not valid existence evidence; empirical finite counts do not supply exact population certainty.
+- D5's exact known-answer reference replay is instrument evidence only. Prompt-only false alarms, genuine-person and signed-effect sensitivity are unfinished; human scoring remains held. Earlier population and human-text support gaps are retained.
+- Storage recovery, runtime supervision failures, source repairs and their charges remain in the individual records. The watcher acknowledgment-race fix is loaded and validated. No failed attempt was deleted, no healthy worker was restarted for this digest, and no scientific gate was relaxed.
+
+**Unfinished and held work.** PP1, WB1 effects, D33 specification and D7/D19 remain cost-held; PR1 and the full-population CA3 comparison have source-support gaps. CA3's approved supported subset is preparation only. D37 calibration and P3c agreement failed their respective gates. FIC1 and D5 require scientific calibration before human admission. Paid-dependent upper-pyramid nodes were not submitted; unavailable comparisons are not nulls. The complete frozen inventory retains each landed card's original follow-up disposition, including first-generation specification, mechanism and second-pipeline/source branches. Registration or preparation does not mean that a follow-up ran. No descendants or new studies are commissioned here.
+
+**Companion return read for this digest.** These are supplied Ghost Scale constructed-world reports, not Sounding Line human findings or automatic engine admission. Report hashes and the supplied texture manifest are bound in the receipt; this pass does not claim an independent rerun of Ghost's simulations.
+
+| Supplied claim(s) | Result and relevance within the supplied construction |
+|---|---|
+| G-V25-W1-1 | Designed intervention did not reach its practical advantage over one more passive choice. Its alias/intervention result does not diagnose the human writer controls. |
+| G-V25-W2-1 | Designed disturbances help when the plant is correctly specified; some wrong-decay cases lose the margin. Known open-loop structure remains a qualification for WC4. |
+| G-V25-W4-2; G-V25-W4F1-1 | The full population-prior comparison does not improve its registered detection contrast; increasing the prior-estimation population does not establish the claimed shortcut. First sampled prefixes are not exact interpolated record counts. |
+| G-V25-W6-1; G-V25-W6F2-1 | Signature information depends on the supplied signal law and scale; the larger fresh map is not a linear dose law or powered confirmation about human emotion. |
+| G-V25-W7-1; G-V25-W7F1-1 | Attention supplies no practical advantage at the registered later history; finite-history texture does not create an exact alias where final outputs already have distinct supports. |
+| G-V25-W8-1; G-V25-W8F1-1 | The parent's joint late-error prediction fails. The follow-up favors adaptation only at the highest tested ordinal drift dose, while lower doses favor whole-history reading; it does not reverse TR4.h1's human non-detection. |
+| G-V25-W10-1 | Repetition changes habits under the declared growth rule; zero exposure gain never crosses the target. Attention withdrawal and declining source inference share habit effects by construction, not as an observed human identity. |
+| G-V25-W12F1-1 | The supplied pleasure law can separate end from habit where distress flags coincide; that end-only signal is planted rather than psychologically validated. |
+
+The original companion reports retain their own uncertainty and complete curves. Units and generative assumptions are not transferred into Sounding Line effect sizes. These source-attributed readings add no new local scientific claim or p-value and do not alter the already filed theory rows. The curator's appendices A/B/C remain filed as attributed proposals (OPS-S15-W3-THEORY-FILING).
+
+**Execution, idle capacity and spend.** The final daily window runs from 2026-11-01T03:00:00+00:00 to 2026-11-02T04:00:00+00:00, October 31 at 20:00 PDT through November 1 at 20:00 PST. The clock change makes this 25 hours, or 100 available four-slot hours. Counted lease occupancy is 19.872527 hours and estimated idle capacity is 80.127473 hours. This counts admissions through terminals, not CPU utilization; it excludes uncounted building, tests and inspections. Earlier health snapshots overlap this window and are not added. Earlier daily digests retain their own intervals; no unsupported whole-week utilization total is invented.
+
+Idle time while commissioned work remained was an operational defect: the ready buffer was not built, and remaining implementations did not obtain source, calibration or cost admission. Resource headroom was not the final limiting factor. The freeze does not retroactively excuse that deficit.
+
+| Final operating observation | Verified state |
+|---|---|
+| Final-window study terminals | 14; each reconciled to an acknowledged event and recorded landing |
+| Pre-integration source anchors | 322, all verified |
+| Research workers / counted leases / ready cards | 0 / 0 / 0; eight ready cards were required |
+| RAM / commit headroom / disk, GiB | 56.011 / 39.688 / 305.904; floors 6 / 8 / 20 |
+| Research locks | All 21 pass |
+| Gear and GPU | Gear 2 allocation retained; idle. GPU remains intentionally parked. |
+| Paid spend | One settled cent of 1,000; no outstanding reservation; cutoff ledger unchanged |
+| Paid node caps, cents | PROC 200; VAL 250; K 250; AUTH 100; GOAL 50; P 50 |
+| Paid window | Closed October 30 at 17:00 PDT; no new provider request in this pass |
+| Monitoring | Watcher, calendar and wrapper native identities match; fresh scan and heartbeat; delivered event authenticated |
+| Start-freeze | November 1 20:00 PST; existing admission code refuses new starts |
+| Drain / addendum | November 1 22:00 / 23:00 PST; pending, no workers to drain at inspection |
+
+**Publication.** The requested push was completed and remotely verified through `0b449a45791aa03573c48a84764511e80b55f8ad`. The afternoon inspection and this final integration remain local. Incoming companion files remain preserved separately; they were not silently included in that push. This operational wake does not publish anything.
+
+**Found.** The final Week 3 packet reconciles completed evidence and remaining gaps; new starts are frozen, no research workers remain, and the eight-card ready-buffer obligation was not met.
+
+**Means.** Preserve the no-new-start boundary, paid closure and existing holds. The remaining calendar drain review must confirm final state and produce its addendum; do not silently reopen a campaign to fill slots. No tests were harvested from this wake. ACK follows verification of this complete write-through; the independent six-hour health deadline remains unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The final Week 3 packet reconciles completed evidence and remaining gaps; new starts are frozen, no research workers remain, and the eight-card ready-buffer obligation was not met.; project meaning: scoped operational record; next engineering obligation: Preserve start freeze and holds; inspect scheduled drain and write its addendum. No new starts.; public scientific claim unchanged; curator decision required: No new decision. Detail: FINAL_DIGEST_20261101.md.
+
+### OPS-S15-W3-HEALTH-20261101-1522
+
+**Hypothesis.** Is the idle queue caused by a failed worker or monitor, and is any already admitted job stranded for restart?
+
+**METHOD.** Inspect native identities and command ownership, ended numerical-worker identities, terminal and output hashes, current source-code pins, registered output freshness, failures, counted leases, shared reservation, GPU ownership, research locks and resource headroom. Verify the repaired watcher source, fresh calendar heartbeat, actual health-event delivery and paid-ledger immutability. Reconcile the open queue rows against the completed cost receipts.
+
+**Found.** Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.
+
+The five recent D5 numerical/cost/known-answer invocations retain verified completions and full write-through. Their execution and fresh-verification identities have ended, and their output hashes and current source-code pins authenticate. The native census shows only the watcher and calendar processes for this repository. No counted CPU lease, new registered terminal, unrecorded failure or restartable admitted worker was found. All 21 research locks pass; the retired September queue remains retired.
+
+The table reports operational resource headroom in GiB, not scientific results.
+
+| Resource | Available | Admission floor |
+|---|---:|---:|
+| RAM | 48.435 | 6 |
+| Commit | 35.455 | 8 |
+| Disk | 305.904 | 20 |
+
+The repaired watcher retains its verified native identity and exact loaded source digest. Its real health alert was accepted and delivered to the owning session; the scan and calendar heartbeat are fresh, with no current delivery error. This verifies ordinary delivery after the reload, not a newly observed live race. Earlier transport failures and historical inconsistent labels remain preserved. Paid accounting is unchanged since cutoff. GPU parking is intentional and remains in force; no GPU restart is warranted.
+
+**Queue reconciliation.** Four research slots remain free and zero cards are ready against the required eight. The previously recorded D5 and D33 specification cost holds are unchanged. D5 has 4,515.3535 CPU seconds remaining against a conservative 6,541.75-second complete-world forecast; D33 specification has 683.34375 remaining against 1,135.3125 forecast. Its corrected menu note is current. Other scientific, source, paid and GPU holds persist. No admitted worker is stranded for restart.
+
+An exact cheaper implementation and its independent parity/cost validation remain permissible build work where already commissioned; this health wake admits no new scientific test or reduced design. None is currently a runnable validated card. The absent ready buffer is a capacity defect, not an environmental failure or an intentional CPU pause.
+
+The nonoverlapping interval from 2026-11-01T17:19:25.286553+00:00 through 2026-11-01T23:22:45.619959+00:00 adds 24.222593 unused research-slot hours after the morning health inspection. This counts unused research leases, not total machine CPU utilization; do not add overlapping older snapshots.
+
+**Means.** Retain the verified cost holds and capacity deficit. No worker restart, lease deletion, scientific retry or service repair is justified by this inspection. Existing cost and source preparation must pass its own admission before any run. Full internal recording precedes this event's ACK, which alone rearms the six-hour health deadline. No tests were harvested, no scientific scores are reported and no publication occurs. The earlier completed records were pushed and remotely verified at commit 0b449a45791aa03573c48a84764511e80b55f8ad following the explicit publication request. This new health record remains local. The unchanged calendar has its final digest and no-new-start boundary at 20:00 PST and drain at 22:00 PST; no extra ETA wake is scheduled.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Gear 2 is idle with no admitted ready cards; completed outputs, monitoring, locks and resource headroom verify, and no environmental restart is warranted.; project meaning: scoped operational record; next engineering obligation: Build an exact, parity-validated implementation within the retained scope and cost allowance; the ready-buffer deficit remains open.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261101_1522.md.
+
 ### OPS-S15-W3-HEALTH-20261101-0916
 
 **Hypothesis.** Is the idle queue caused by a failed worker or monitor, and is any already admitted job stranded for restart?

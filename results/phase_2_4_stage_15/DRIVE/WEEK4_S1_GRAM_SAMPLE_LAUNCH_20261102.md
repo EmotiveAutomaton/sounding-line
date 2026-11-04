@@ -1,0 +1,17 @@
+# WEEK4 S1 GRAM SAMPLE LAUNCH 20261102
+
+**Hypothesis.** Are completed preparations fully recorded, and can the declared variant continue under its original source, cost and stopping rules?
+
+**METHOD.** Verify complete source and prior-history replays, all input/output hashes and native exits. Land the source-heavy control-input cost probe before freezing a whole-writer sample. Reauthenticate the unchanged sample adapter's known-answer tests and complete native replay. Inspect the admitted worker's native owner and child, numerical-thread environment, source bindings, limits, lease, progress, watcher and calendar.
+
+**Found.** The three-word template variant is running cost-admitted whole-writer control preparation in monitored Gear 2; completed source and history records are filed, while matched-length scoring and the ready buffer remain unfinished.
+
+The complete history pass and control-input timing probe are filed as OPS-S15-W4-S1-TEXTURE-GRAM-3-HISTORIES-FULL and OPS-S15-W4-S1-TEXTURE-GRAM-3-NUISANCE-TIMING. Both independently replay and all workers have exited. Full control preparation exceeds the remaining separate one-hour texture allowance after earlier charges and the statistic reserve. The original source census and complete donor pool remain intact. The largest whole-writer sample fitting the unchanged measured sizing rule contains 59 of 61 writers. It is frozen before outcomes, using the approved seed and majority-genre strata. The full-population gap stays open; no support floor, control or ceiling changed.
+
+At inspection one native control-preparation worker is progressing with one numerical thread in its counted slot. Its forecast fits the remaining allowance, including all prior validation/preparation charges and six hundred CPU seconds reserved for later statistical work. All source pins, exact process identities, finite limits and terminal watches verify. No stale lease or environmental failure requires recovery. The same-owner watcher matches its loaded sources, holds its singleton and scans freshly without current error or cancellation. The calendar is alive. Historical delivery errors remain retained. The six-hour health deadline remains 2026-11-02T15:41:17.802681-08:00; no ETA wake is added.
+
+The three-word recurrence consumer must still be validated with matching gram lengths in targets and both own/donor histories. The original four-gram scorer is not admitted unchanged. Final support and full statistical cost admission remain required. The family counter remains four consecutive similar complete estimates; preparation does not increment it. Check the stop at five after the next complete comparison before any five-word corpus dispatch. All texture results remain descriptive, without claim upgrades or descendants.
+
+Zero ready successors against eight required and 22.7808 idle slot-hours since handoff remain a build defect. Week 4 is not fully built. T4 human scoring and PROC main retain their holds; other commissioned primary and approved paid-node builds remain unfinished. GPU parking and paid caps are unchanged. No new hypothesis was harvested from this wake. No paid transfer, delegation or publication occurred. Records remain local; scientific synthesis stays in the final packet.
+
+**Means.** Land complete sampled control preparation, validate matched-length recurrence and obtain complete support/cost admission. Continue independent commissioned builds and preserve the family stopping rule.
