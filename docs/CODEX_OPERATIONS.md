@@ -1,5 +1,9 @@
 # Codex operations
 
+**Week 4 current health:** [Verified inspection](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0028.md) (OPS-S15-W4-HEALTH-20261106-0028). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected. Local research 0/4; ready 0/8. GPU parked; 112 campaign cents settled and no batch active. Existing admission holds and final-packet policy remain. Earlier snapshots are historical.
+
+**Week 4 current health:** [Full inspection](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261105_1820.md) (OPS-S15-W4-HEALTH-20261105-1820). Watcher, calendar, native exits, locks and completed records verify. Gear 2 is authorized but idle with no ready successors; no process recovery or GPU restart is warranted. The new Week 4 window remains open under its own admission gates. Earlier Week 3 closure snapshots are historical.
+
 **November 2 post-closure health inspection:** [The frozen queue has no active research workers or new results; monitoring, completed outputs, locks and resources verify, and no restart is warranted.](../results/phase_2_4_stage_15/DRIVE/HEALTH_20261102_0326.md) (OPS-S15-W3-HEALTH-20261102-0326). Existing cost/source holds and the ready-buffer deficit remain. The eight-card buffer remains unfinished; GPU parking and paid closure persist. Earlier work is published at 0b449a457; this inspection remains local. Final digest, drain addendum and calendar closure complete; new starts remain frozen. Older snapshots are historical.
 
 **Week 3 calendar closed:** [Verified closure](../results/phase_2_4_stage_15/DRIVE/CALENDAR_CLOSED_20261101.md) (OPS-S15-W3-CALENDAR-CLOSED). All milestones emitted; calendar exited normally. Final digest and on-time drain addendum complete. Research backlog remains unfinished, new starts frozen, paid dispatch closed and GPU parked. Watcher remains active; records remain local. Older snapshots are historical.

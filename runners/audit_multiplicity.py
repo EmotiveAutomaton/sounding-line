@@ -73,6 +73,58 @@ RESULTS = REPO / "results" / "audit"
 
 # (name, p, family, source)  -- family: primary | control | diagnostic
 TESTS = [
+    # Complete registered descriptive prompt-excluded probe; no unsupported donor probabilities.
+    ('D33.m prompt-excluded primary own Wald diagnostic', 6.277688360798217e-07, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),
+    ('D33.m prompt-excluded original_own_sensitivity own Wald diagnostic', 1.3726900611756714e-09, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),
+    ('D33.m prompt-excluded outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),
+    ('D33.m prompt-excluded own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D33_PROMPT_EXCLUDED_FULL_20261105.json'),
+
+    # Complete first-generation interaction probe; empirical sensitivity untested.
+    ('S6.m interaction adjusted_own Wald diagnostic', 0.00021489170425375743, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+    ('S6.m interaction interaction Wald diagnostic', 0.17422640676753606, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+    ('S6.m interaction original_own Wald diagnostic', 6.039524819785787e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+    ('S6.m interaction paired_difference Wald diagnostic', 0.6211743061288, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+    ('S6.m interaction outcome descriptive reference', 0.06467661691542288, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+    ('S6.m interaction own_surprise descriptive reference', 0.05970149253731343, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6M_HUMAN_20261104.json'),
+
+    # Complete first-generation specification curve on the original sample.
+    ('S6.s specification entropy_only adjusted_own Wald diagnostic', 6.246985012390081e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification entropy_only original_own Wald diagnostic', 6.039524819785787e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification entropy_only paired_difference Wald diagnostic', 0.9031742317833369, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification entropy_only outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification entropy_only own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification margin_only adjusted_own Wald diagnostic', 2.451978329313689e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification margin_only original_own Wald diagnostic', 6.039524819785787e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification margin_only paired_difference Wald diagnostic', 0.01594742326402309, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification margin_only outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+    ('S6.s specification margin_only own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6S_HUMAN_20261104.json'),
+
+    # Complete first-generation fixed-effects follow-up on the original sample.
+    ('S6.p fixed-effects adjusted_own Wald diagnostic', 5.9032879983616384e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects entropy Wald diagnostic', 0.018039861568010008, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects negative_margin Wald diagnostic', 0.6655877223992028, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects original_own Wald diagnostic', 6.039524819785787e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects paired_difference Wald diagnostic', 0.5923163152305959, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects outcome descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+    ('S6.p fixed-effects own_surprise descriptive reference', 0.004975124378109453, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6P_HUMAN_20261104.json'),
+
+    # Complete D7 primary; acceptance references flagged as biased.
+    ('D7.h1 complete human acceptance/elapsed positive-tail reference', 0.9402985074626866, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+    ('D7.h1 complete human acceptance/none positive-tail reference', 0.9353233830845771, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+    ('D7.h1 complete human acceptance/ordinal positive-tail reference', 0.9402985074626866, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+    ('D7.h1 complete human duration/elapsed positive-tail reference', 0.736318407960199, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+    ('D7.h1 complete human duration/none positive-tail reference', 0.8258706467661692, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+    ('D7.h1 complete human duration/ordinal positive-tail reference', 0.7064676616915423, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_D7_H1_HUMAN_20261104.json'),
+
+    # Complete S6 sample primary; revision extension remains untested.
+    ('S6 adjusted personal-history primary Wald', 6.039524819785787e-05, 'primary', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary entropy Wald diagnostic', 0.018066736364000753, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary negative_margin Wald diagnostic', 0.6656408783427302, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary original_own Wald diagnostic', 1.0513448023757993e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary paired_difference Wald diagnostic', 3.27010104521091e-05, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary outcome descriptive reference', 0.004975124378109453, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+    ('S6 primary own_surprise descriptive reference', 0.004975124378109453, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S6_PRIMARY_20261104.json'),
+
     ('PP1 argumentative duration-profile reference', 0.000999000999000999, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_FULL_20261103.json'),
     ('PP1 creative duration-profile reference', 0.000999000999000999, 'control', 'results/phase_2_4_stage_15/DRIVE/WEEK4_PP1_FULL_20261103.json'),
     ('Week4 S1 3-word skeleton-template sample primary texture', 0.582089552238806, 'diagnostic', 'results/phase_2_4_stage_15/DRIVE/WEEK4_S1_GRAM_3_RESULT_20261102.json'),

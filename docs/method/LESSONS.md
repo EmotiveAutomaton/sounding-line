@@ -668,6 +668,14 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §4. Before the model arm
 
+- **A one-line prose request is not an output-token budget.** PLAN's five-line
+  format rung exhausted its fixed 300-token allowance on seventeen responses:
+  each line could still be a long synopsis. Preserve all truncations, request
+  brief core directions in the separately approved prompt correction, and test
+  on fresh inputs. Keep the token cap, whole-response parser and format floor;
+  do not clip completed text or treat format as semantic validation.
+  (OPS-S15-W4-PLAN-FORMAT-20261105)
+
 - **A small model's short-pilot numerical pass does not cover broader input support.**
   The suggestion sizing pilot's retained float16 Smol scorer failed cached/direct
   agreement on its first newly selected input. A complete paired diagnostic on
@@ -798,6 +806,16 @@ L132 (a shuffle gate that voided the alternative's own signature).
   verdicts). (L139)
 
 ## §5. Before queueing or touching the loop infrastructure
+
+- **A landing's completion hash must equal the exact dependency it admits.**
+  A copied native-landing helper retained its predecessor's directory while its
+  heading named the optimized implementation. The optimized fixture itself had
+  passed and downstream plans pinned it correctly, but checking only the receipt's
+  full-write-through flag accepted the misattribution. Preserve the incorrect
+  pinned receipt, supersede it explicitly, and exercise both the actual corrected
+  producer/receipt pair and rejection of the mistaken pair before further admission.
+  Do not restart valid computation solely to repair its reporting.
+  (OPS-S15-W4-S6S-H1-NATIVE-CORRECTION-20261104)
 
 - **Acknowledgment must dominate late transport updates.** A queued-message receipt can return after its result has already been landed and acknowledged. Preserve transport metadata without resetting that acknowledgment; exclude acknowledged rows from selection, claiming, cancellation and restart recovery. Reproduce success, error, uncertain acceptance and cancellation interleavings in isolated outboxes, and verify duplicate ACKs do not move the health deadline. Keep historical discrepancies and validate source loading separately from future real delivery. (OPS-S15-W3-WATCH-ACK-FIX, 2026-11-01; tests/test_codex_watch_ack_race.py)
 
@@ -1415,3 +1433,20 @@ L132 (a shuffle gate that voided the alternative's own signature).
   slower observed verification to fit a remaining allowance.
   (2026-11-03, OPS-S15-W4-S2-SOURCE-SAMPLE-FAILURE-20261103;
   OPS-S15-W4-RUNTIME-V8-20261103)
+
+- **Local JSON Schema validity does not prove the provider supports its keywords.**
+  REV's constrained document arrays passed local and fake-transport checks but
+  were refused by the provider's unbilled token counter because minimum lengths
+  above one were unsupported. Retain the original source and refusal; isolate
+  a compatible grammar while preserving strict whole-response cardinality and
+  range checks in the parser. Verify exact prompt/sample equality and actual
+  provider counting before reserving generation. Count acceptance still does not
+  establish format generation or accuracy. (OPS-S15-W4-REV-PREP-20261105)
+
+- **Normal termination does not establish positional coverage.** REV document
+  replies returned valid compact JSON with unused tokens but omitted or added
+  sentence rows. Preserve the complete failed rung; a separately authorized
+  prompt correction must bind output rows to explicit input IDs and reject
+  missing, repeated or reordered IDs, without padding or guessed alignment.
+  Software validation does not establish provider format or scientific accuracy.
+  (OPS-S15-W4-REV-CALIBRATION-20261105; OPS-S15-W4-REV-PROMPT-PREP-20261105)

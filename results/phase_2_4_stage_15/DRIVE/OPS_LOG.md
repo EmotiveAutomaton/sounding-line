@@ -1492,3 +1492,394 @@ OPS-S15-W4-HEALTH-20261103-2215: 96.0851 cumulative idle slot-hours; 0/4 occupie
 2026-11-04T12:39:16.482185+00:00 OPS-S15-W4-HEALTH-20261104-0438: Queue infrastructure and completed records verify; Gear 2 is idle because no validated, admissible successor is ready, and the campaign build remains unfinished.
 
 OPS-S15-W4-HEALTH-20261104-0438: 121.5868 cumulative idle slot-hours; 0/4 occupied, 0/8 ready. Unfinished consumers and admission remain the readiness defect. Retained R2 refusal is superseded by its completed successor; no restart or cleanup warranted. Two authorized T4 sample cost attempts completed and were fully recorded this pass; remaining calibration and consumer construction are unfinished. All earlier failures and costs retained.
+
+2026-11-04T14:42:44.912393+00:00 OPS-S15-W4-S6-SOURCE-NATIVE-20261104: The conflict-feature instrument matches the original scalar population model and passes native replay; human fitting remains unadmitted.
+
+2026-11-04T14:44:47.130727+00:00 OPS-S15-W4-S6-SOURCE-COST-20261104: The frozen conflict-source timing prefix passes full independent reconstruction; complete source preparation and scientific validation remain separate.
+
+2026-11-04T14:50:10.078416+00:00 OPS-S15-W4-S6-SOURCE-FULL-20261104: The complete twenty-writer conflict features reconstruct from the original population model; calibration and analytical admission remain pending.
+
+2026-11-04T14:52:30.399657+00:00 OPS-S15-W4-S6-INFERENCE-NATIVE-20261104: The paired conflict regression reproduces signed known coefficients and dense GLS, with full native replay; human fitting remains held.
+
+2026-11-04T14:56:28.264542+00:00 OPS-S15-W4-S6-INFERENCE-CALIBRATION-COST-20261104: All six constructed conflict-calibration timing prefixes independently replay complete first blocks; full calibration remains separate.
+
+2026-11-04T14:56:56.399832+00:00 OPS-S15-W4-S6-INFERENCE-HUMAN-COST-20261104: Generated-response costing on the complete frozen human source passes full paired replay; actual pause scoring remains separately gated.
+
+2026-11-04T15:04:40.342195+00:00 OPS-S15-W4-S6-INFERENCE-CALIBRATION-FULL-20261104: The complete conflict-calibration banks reproduce all analytic coefficients and independently replay; empirical sensitivity and human comparison remain separate.
+
+2026-11-04T15:06:58.748374+00:00 OPS-S15-W4-CA1-S1-SOURCE-NATIVE-20261104: The whole-annotator sample instrument preserves mandatory members, complete comparisons and original prompt references in fresh native replay; human preparation remains separate.
+
+2026-11-04T15:11:54.441240+00:00 OPS-S15-W4-CA1-S1-SOURCE-FULL-20261104: The complete Community Alignment sample source independently reconstructs with every mandatory recipient and its original split; embedding and scientific admission remain gated.
+
+2026-11-04T15:16:21.465363+00:00 S15-W4-S6-PRIMARY-20261104: On the frozen supported CoAuthor sample, personal-history surprise retains a positive pause association after both population-conflict terms; the later-revision extension remains untested.
+
+2026-11-04T15:17:32.357321+00:00 OPS-S15-W4-CA1-S1-FEATURE-FIXTURE-20261104: The sample feature adapter preserves the complete scientific prompt reference and independently reproduces constructed arrays; the comparison-only cost prefix grants no inference.
+
+2026-11-04T15:18:33.826863+00:00 OPS-S15-W4-CA1-S1-FEATURE-SMOKE-20261104: The actual pinned multilingual encoder passes fresh CPU loading, constructed-string encoding and exact independent replay; corpus timing is eligible within its bounded allowance.
+
+2026-11-04T15:30:34.810918+00:00 OPS-S15-W4-BUILD-20261104-MORNING: Gear 2 is running the validated Community Alignment encoding cost probe; the new conflict primary and preparation records verify, while the remaining consumers and ready buffer are still being built.
+
+2026-11-04T15:45:10.907292+00:00 OPS-S15-W4-T4-COVARIATES-NATIVE-20261104: The descriptive-covariate adapter reproduces exact gallery distances, original cross-fit scores and full-window means in native constructed replay; human preparation remains separate.
+
+2026-11-04T15:47:31.703894+00:00 OPS-S15-W4-T4-COVARIATES-FULL-20261104: The complete descriptive covariates reproduce the original identification scores and timing-window denominators on the frozen choice-model sample; no temperature or correlation has been fitted.
+
+2026-11-04T15:57:23.163771+00:00 OPS-S15-W4-D7-CALIBRATION-NATIVE-20261104: The complete duration-calibration consumer passes constructed native replay of both reference mechanisms and writer resampling; full-bank calibration and human scoring remain separate.
+
+2026-11-04T16:01:10.831986+00:00 OPS-S15-W4-CA1-S1-COST-HELD-20261104: The Community Alignment sample encoder reached its fixed CPU ceiling during fresh verification; saved vectors remain unverified and the complete study remains cost-held.
+
+2026-11-04T16:01:54.062155+00:00 OPS-S15-W4-D7-CALIBRATION-TIMING-20261104: The whole-implementation duration-calibration timing prefix independently replays every fit and reference; the complete thirty-world bank still requires execution before human admission.
+
+2026-11-04T16:05:25.307742+00:00 OPS-S15-W4-D7-SUPPORT-NATIVE-20261104: The duration-reference support audit preserves every draw and detects invalid rosters before fitting; complete human-source audit remains separate.
+
+2026-11-04T16:10:06.469272+00:00 OPS-S15-W4-D7-SUPPORT-FULL-20261104: The duration-reference bank changes the supported human cohort; its complete metadata audit is recorded and human fitting is held before any scientific comparison.
+
+2026-11-04T16:14:14.730514+00:00 OPS-S15-W4-BUILD-20261104-D7: The complete duration-calibration bank is running in verified Gear 2; completed records and cost failures are reconciled, while a human-reference correction and the remaining ready buffer still require construction.
+
+2026-11-04T16:23:17.715317+00:00 OPS-S15-W4-D7-H1-SUPPORT-NATIVE-20261104: The separately conditioned duration-reference instrument passes native replay and finite-law validation; the original invalid bank remains preserved.
+
+2026-11-04T16:28:57.049557+00:00 OPS-S15-W4-D7-H1-SUPPORT-FULL-20261104: The separately conditioned duration-reference bank preserves the complete supported cohort in fresh replay; all original invalid assignments and rejected proposals remain recorded.
+
+2026-11-04T16:29:58.616143+00:00 OPS-S15-W4-D7-H1-HUMAN-NATIVE-20261104: The complete duration consumer reproduces the original constructed comparisons in fresh native replay; human fitting remains separately gated.
+
+2026-11-04T16:36:54.876968+00:00 OPS-S15-W4-D7-H1-HUMAN-COST-20261104: The complete duration-consumer cost probe independently replays generated responses on the full supported source; actual human scoring remains gated by calibration and cumulative budget.
+
+2026-11-04T16:37:27.462947+00:00 OPS-S15-W4-WB1-EXACT-NATIVE-20261104: The exact document-state cache matches complete original effect windows and cost-work digests in native replay; a fresh corpus cost probe remains required.
+
+2026-11-04T16:42:54.178083+00:00 OPS-S15-W4-WB1-PROFILE-NATIVE-20261104: The bounded piece-effects engineering profile independently replays all selected sessions; the complete first-tenth cost probe remains required.
+
+2026-11-04T16:49:12.631542+00:00 OPS-S15-W4-WB1-PROFILE-FULL-20261104: The bounded piece-effects engineering profile independently replays all selected sessions; the complete first-tenth cost probe remains required.
+
+2026-11-04T16:51:22.895737+00:00 OPS-S15-W4-D7-CALIBRATION-FULL-20261104: The complete duration calibration passes its frozen null, nuisance and signed-recovery requirements in constructed worlds; human evidence remains separate.
+
+2026-11-04T16:58:07.172282+00:00 OPS-S15-W4-WD1-H2-SUPPORT-NATIVE-20261104: The separately conditioned sensitivity-reference instrument passes native finite-law validation and replay; full source audit and scientific calibration remain required.
+
+2026-11-04T17:01:41.406614+00:00 OPS-S15-W4-WD1-H2-SUPPORT-FULL-20261104: The separately conditioned sensitivity-reference bank preserves the complete original supported roster in fresh metadata replay; scientific calibration and consumer admission remain required.
+
+2026-11-04T17:04:46.851340+00:00 OPS-S15-W4-WD1-H2-CALIBRATION-NATIVE-20261104: The corrected sensitivity calibration consumer completes all constructed interface cases in fresh replay; the complete thirty-world validation bank remains required.
+
+2026-11-04T17:08:57.404562+00:00 OPS-S15-W4-WD1-H2-CALIBRATION-TIMING-20261104: The complete sensitivity-calibration timing prefix independently refits every declared arm; whole-bank cost admission remains separate.
+
+2026-11-04T17:14:44.561464+00:00 OPS-S15-W4-WD1-CALIBRATION-COST-HOLD-20261104: The corrected sensitivity calibration is cost-held; two exact-solver candidates fail their frozen profile-parity check and remain unadmitted.
+
+2026-11-04T17:23:41.957141+00:00 OPS-S15-W4-WD1-H2ST-CALIBRATION-NATIVE-20261104: The corrected sensitivity calibration consumer completes all constructed interface cases in fresh replay; the complete thirty-world validation bank remains required.
+
+2026-11-04T17:28:01.307966+00:00 S15-W4-D7-H1-HUMAN-20261104: On supported CoAuthor writers, adding novelty worsens held-out completed-duration prediction; the acceptance references are biased and descriptive only.
+
+2026-11-04T17:29:23.422139+00:00 OPS-S15-W4-WD1-H2ST-CALIBRATION-TIMING-20261104: The complete sensitivity-calibration timing prefix independently refits every declared arm; whole-bank cost admission remains separate.
+
+2026-11-04T17:30:20.167579+00:00 OPS-S15-W4-WD1-H2ST-COST-HOLD-20261104: Single-thread remeasurement does not admit the corrected sensitivity calibration; its complete forecast still exceeds the remaining allowance.
+
+2026-11-04T17:31:44.477725+00:00 OPS-S15-W4-WB1-COST-HELD-20261104: The fresh piece-effects cost probe exhausted its shared CPU allowance during independent verification; full effects remain cost-held.
+
+2026-11-04T17:37:39.804811+00:00 OPS-S15-W4-S6P-NATIVE-20261104: The writer fixed-effects follow-up passes native known-answer and explicit-dummy equivalence checks; full calibration and cost admission remain required.
+
+2026-11-04T17:40:27.210604+00:00 OPS-S15-W4-S6P-CALIBRATION-COST-20261104: The complete fixed-effects timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T17:41:00.743296+00:00 OPS-S15-W4-S6P-HUMAN-COST-20261104: The complete fixed-effects timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T17:42:31.412128+00:00 OPS-S15-W4-BUILD-20261104-HEALING: Completed duration evidence and cost failures are fully recorded; Gear 2 is running the validated fixed-effects follow-up pipeline, while the ready buffer and Friday build remain unfinished.
+
+2026-11-04T17:45:34.846856+00:00 OPS-S15-W4-S6P-CALIBRATION-FULL-20261104: The writer fixed-effects follow-up passes complete algebraic calibration; human comparison remains separately gated.
+
+2026-11-04T17:49:34.419877+00:00 S15-W4-S6P-HUMAN-20261104: On the same supported CoAuthor sample, the positive personal-history pause association persists with writer fixed effects; this is estimator robustness, not independent replication.
+
+2026-11-04T17:55:59.684834+00:00 OPS-S15-W4-T4-COMPLETE-COST-HOLD-20261104: The supported choice-model sample remains cost-held when complete writer-refit uncertainty is included; preparation is complete but human inference is unadmitted.
+
+2026-11-04T17:59:49.563294+00:00 OPS-S15-W4-S6S-NATIVE-20261104: The conflict-specification follow-up passes native known-answer and dense-GLS equivalence checks; full calibration and cost admission remain required.
+
+2026-11-04T18:01:30.008320+00:00 OPS-S15-W4-S6S-HUMAN-COST-20261104: The complete specification timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T18:02:35.889117+00:00 OPS-S15-W4-S6S-CALIBRATION-COST-20261104: The complete specification timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T18:04:59.794686+00:00 OPS-S15-W4-S6S-COST-HOLD-20261104: The original specification implementation is cost-held; a separately frozen exact comparator cache preserves the complete design and original shared allowance.
+
+2026-11-04T18:05:59.788318+00:00 OPS-S15-W4-S6S_H1-NATIVE-20261104: The conflict-specification follow-up passes native known-answer and dense-GLS equivalence checks; full calibration and cost admission remain required.
+
+2026-11-04T18:07:48.081507+00:00 OPS-S15-W4-S6S_H1-CALIBRATION-COST-20261104: The complete specification timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T18:08:22.665756+00:00 OPS-S15-W4-S6S_H1-HUMAN-COST-20261104: The complete specification timing prefix independently replays both estimators and declared uncertainty; full banks remain separately gated.
+
+2026-11-04T18:10:56.825476+00:00 OPS-S15-W4-S6S-H1-NATIVE-CORRECTION-20261104: The optimized specification fixture passed native replay; its first landing misattributed the earlier fixture, and this corrected receipt supplies the actual source binding without changing valid computation.
+
+2026-11-04T18:13:37.179519+00:00 OPS-S15-W4-BUILD-20261104-SPEC: The complete specification-calibration bank is progressing in verified Gear 2; completed evidence and attribution corrections are recorded, while the ready buffer and Friday build remain unfinished.
+
+2026-11-04T18:18:39.715594+00:00 OPS-S15-W4-S6S_H1-CALIBRATION-FULL-20261104: The conflict-specification follow-up passes complete algebraic calibration; human comparison remains separately gated.
+
+2026-11-04T18:20:59.573695+00:00 OPS-S15-W4-S6S-HUMAN-LAUNCH-20261104: The complete specification calibration is recorded and the gated human comparison is running in verified Gear 2; the ready buffer and remaining campaign build are unfinished.
+
+2026-11-04T18:24:11.824317+00:00 S15-W4-S6S-HUMAN-20261104: On the same supported CoAuthor sample, both registered conflict specifications retain a positive personal-history pause association; omitting entropy increases its coefficient, without establishing causation or independent replication.
+
+2026-11-04T18:30:54.124521+00:00 OPS-S15-W4-S6M-NATIVE-20261104: The registered interaction probe passes native signed known-answer and dense-GLS validation; complete calibration and cost admission remain required.
+
+2026-11-04T18:32:18.869101+00:00 OPS-S15-W4-S6M-HUMAN-COST-20261104: The registered interaction probe independently replays its complete timing prefix; full calibration and human admission remain separately gated.
+
+2026-11-04T18:32:58.696969+00:00 OPS-S15-W4-S6M-CALIBRATION-COST-20261104: The registered interaction probe independently replays its complete timing prefix; full calibration and human admission remain separately gated.
+
+2026-11-04T18:35:03.057152+00:00 OPS-S15-W4-BUILD-20261104-INTERACTION: Completed specification evidence is fully recorded and the registered interaction calibration is progressing in verified Gear 2; the ready buffer and Friday build remain unfinished.
+
+2026-11-04T18:39:21.573817+00:00 OPS-S15-W4-S6M-CALIBRATION-FULL-20261104: The registered interaction probe passes its complete algebraic calibration; human admission remains separately gated.
+
+2026-11-04T18:41:16.626447+00:00 OPS-S15-W4-S6M-HUMAN-LAUNCH-20261104: The complete interaction calibration is recorded and the gated human comparison is running in verified Gear 2; the ready buffer and remaining campaign build are unfinished.
+
+2026-11-04T18:43:48.753051+00:00 S15-W4-S6M-HUMAN-20261104: Modulation of the personal-history pause association by population entropy is not detected on the supported CoAuthor sample; empirical sensitivity remains untested.
+
+2026-11-04T18:46:51.221876+00:00 OPS-S15-W4-HEALTH-20261104-1041: Completed records and queue infrastructure verify; Gear 2 research has drained, and the remaining campaign build and ready buffer are unfinished.
+
+2026-11-04T19:16:25.807974+00:00 OPS-S15-W4-D7S-NATIVE-20261104: The registered duration specification curve passes native exact-primitive and independent least-squares validation; complete calibration and cost admission remain required.
+
+2026-11-04T19:18:38.533110+00:00 OPS-S15-W4-D7S-CALIBRATION-COST-20261104: The registered duration specification curve independently replays its complete timing prefix; complete calibration and human admission remain separately gated.
+
+2026-11-04T19:20:20.956368+00:00 OPS-S15-W4-D7S-HUMAN-COST-20261104: The registered duration specification curve independently replays its complete timing prefix; complete calibration and human admission remain separately gated.
+
+2026-11-04T19:22:03.680830+00:00 OPS-S15-W4-D7S-COST-HOLD-20261104: The validated duration specification implementation is cost-held before full calibration and human inference; completed preparation is recorded, but the ready buffer and remaining campaign build are unfinished.
+
+2026-11-04T19:30:56.688912+00:00 OPS-S15-W4-PROC-H1-PREP-20261104: The single approved sentence-role prompt correction has a verified complete source and fresh blind calibration set; provider validation and main admission remain uncomputed.
+
+2026-11-04T19:34:50.602150+00:00 OPS-S15-W4-PROC-H1-LAUNCH-20261104: The approved fresh sentence-role calibration is running with verified retrieval and terminal monitoring; Gear 2 CPU research remains drained and its ready buffer unfinished.
+
+2026-11-04T19:42:55.887036+00:00 OPS-S15-W4-PROC-H1-CALIBRATION-20261104: The complete corrected sentence-role calibration fails centrality agreement; the single permitted prompt correction is exhausted, so PROC main and its dependent plan-role comparison remain stopped.
+
+2026-11-04T19:51:20.292206+00:00 OPS-S15-W4-D7M-NATIVE-20261104: The registered duration-stability implementation passes native original-fit parity and independent earlier/later coefficient validation; complete calibration and cost admission remain required.
+
+2026-11-04T19:54:14.002952+00:00 OPS-S15-W4-D7M-CALIBRATION-COST-20261104: The registered duration-stability implementation independently replays its complete timing prefix; complete calibration and human admission remain separately gated.
+
+2026-11-04T19:55:02.066421+00:00 OPS-S15-W4-D7M-HUMAN-COST-20261104: The registered duration-stability implementation independently replays its complete timing prefix; complete calibration and human admission remain separately gated.
+
+2026-11-04T19:56:41.608649+00:00 OPS-S15-W4-D7M-COST-HOLD-20261104: The validated duration-stability implementation is cost-held before full calibration and human inference; completed preparation is recorded, while Gear 2 research is drained and the remaining ready buffer is unfinished.
+
+2026-11-05T00:55:02.606058+00:00 OPS-S15-W4-HEALTH-20261104-1650: Records, locks and monitoring verify; Gear 2 research is idle because no remaining built plan is admissible, while the independent campaign build and ready buffer are unfinished.
+
+2026-11-05T04:06:19.631075+00:00 OPS-S15-W4-DIGEST-20261104: The November 4 digest reconciles completed results, corrections and spending; Gear 2 research remains idle, with the independent campaign build and eight-card ready buffer unfinished.
+
+OPS-S15-W4-DIGEST-20261104: 179.7677 cumulative idle slot-hours; independent build/validation deficit and retained holds; active0/4, ready0/8. No environmental recovery warranted.
+
+2026-11-05T07:10:11.365415+00:00 OPS-S15-W4-PLAN-SOURCE-NATIVE-20261104: The midpoint-text source instrument passes native known-answer replay; corpus support, paid PLAN calibration and predictive admission remain pending.
+
+2026-11-05T07:15:48.117233+00:00 OPS-S15-W4-PLAN-SOURCE-TIMING-20261104: The midpoint-text source timing prefix independently replays; full source support, paid PLAN calibration and predictive admission remain pending.
+
+2026-11-05T07:17:24.129108+00:00 OPS-S15-W4-PLAN-SOURCE-H1-NATIVE-20261104: The midpoint-text source instrument passes native known-answer replay; corpus support, paid PLAN calibration and predictive admission remain pending.
+
+2026-11-05T07:19:55.838483+00:00 OPS-S15-W4-PLAN-SOURCE-H1-TIMING-20261104: The midpoint-text source timing prefix independently replays; full source support, paid PLAN calibration and predictive admission remain pending.
+
+2026-11-05T07:23:22.887691+00:00 OPS-S15-W4-HEALTH-20261104-2320: The complete midpoint-source census is running in verified Gear 2 after source validation and measured admission; completed records reconcile, while the wider campaign build and ready buffer remain unfinished.
+
+2026-11-05T07:34:32.973781+00:00 OPS-S15-W4-PLAN-SOURCE-H1-FULL-20261104: The complete midpoint-text source census independently replays; paid PLAN calibration and the predictive consumer remain separately gated.
+
+2026-11-05T07:53:26.648557+00:00 OPS-S15-W4-PLAN-PREP-20261104: The approved continuation-plan format interface has verified source projection and complete transport rehearsal; provider format and semantic validation remain untested.
+
+2026-11-05T07:58:45.529072+00:00 OPS-S15-W4-PLAN-FORMAT-LAUNCH-20261104: The approved continuation-plan format calibration is running with verified retrieval and terminal monitoring; local Gear 2 research is idle and the ready buffer remains unfinished.
+
+2026-11-05T08:04:31.916182+00:00 OPS-S15-W4-PLAN-FORMAT-20261105: The complete continuation-plan format rung fails because replies exhaust the fixed token allowance; semantic validation remains untested and main admission is blocked.
+
+2026-11-05T08:08:57.764646+00:00 OPS-S15-W4-PLAN-H1-PREP-20261105: The single approved continuation-plan prompt correction has a verified fresh calibration set and unchanged gates; its provider format and semantic performance remain untested.
+
+2026-11-05T08:12:02.462834+00:00 OPS-S15-W4-PLAN-H1-LAUNCH-20261105: The single approved continuation-plan prompt correction is running on fresh calibration inputs with verified monitoring; local Gear 2 research and its ready buffer remain idle and unfinished.
+
+2026-11-05T08:20:43.101112+00:00 OPS-S15-W4-PLAN-H1-FORMAT-20261105: The corrected continuation-plan format rung passes complete replay and accounting; option-fit agreement remains untested and predictive admission remains blocked.
+
+2026-11-05T08:32:39.675831+00:00 OPS-S15-W4-PLAN-FIT-PREP-20261105: The option-fit calibration has a completely reconstructed fixed sample, blind agent labels and validated matrix transport; provider agreement and predictive admission remain untested.
+
+2026-11-05T08:35:43.350440+00:00 OPS-S15-W4-PLAN-FIT-LAUNCH-20261105: The commissioned blind option-fit calibration is running with verified cost and monitoring; local Gear 2 research and its ready buffer remain idle and unfinished.
+
+2026-11-05T08:40:25.933517+00:00 OPS-S15-W4-PLAN-FIT-CALIBRATION-20261105: The complete option-fit calibration fails agreement with the frozen blind agent reference; PLAN stops with its correction allowance exhausted, and its predictive consumer remains instrument-held.
+
+2026-11-05T13:39:37.926681+00:00 OPS-S15-W4-DRIVE-SOURCE-NATIVE-20261105: The drive-cue source adapter passes native known-answer and independent projection checks; corpus support and paid calibration remain untested.
+
+2026-11-05T13:41:18.597597+00:00 OPS-S15-W4-DRIVE-SOURCE-TIMING-20261105: The fixed drive-cue source timing prefix independently replays; whole-corpus support and paid admission remain pending.
+
+2026-11-05T13:44:33.712597+00:00 OPS-S15-W4-DRIVE-SOURCE-FULL-20261105: The complete final-surviving typed-sentence census cannot supply the declared repeated-writer support; V3 is design-cannot-test on this source and the corresponding DRIVE main batch is cancelled before spending.
+
+2026-11-05T13:47:16.637066+00:00 OPS-S15-W4-HEALTH-20261105-0525: Completed records, locks and monitoring verify; authorized source preparation advanced, but Gear 2 is idle with no admissible ready cards and the remaining campaign build unfinished.
+
+2026-11-05T13:47:43.253496+00:00 OPS-S15-W4-HEALTH-20261105-0525 idle-capacity defect: 218.226748 cumulative counted-slot hours; ready 0/8. Cause: remaining commissioned interfaces and consumers unbuilt or unadmitted. Three newly validated source passes completed; no held work restarted.
+
+2026-11-05T20:02:58.587149+00:00 OPS-S15-W4-PLANT-PREP-20261105: The planted-text calibration has a frozen allocation, validated complete-response transport and counted cost admission; generation, blind disclosure and goal recovery remain untested.
+
+2026-11-05T20:06:16.128761+00:00 OPS-S15-W4-HEALTH-20261105-1149: Completed records and queue services verify, and the approved planted-text calibration is running; local Gear 2 research remains idle with the ready buffer and wider build unfinished.
+
+2026-11-05T20:06:37.747492+00:00 OPS-S15-W4-HEALTH-20261105-1149 idle-capacity defect: 243.517808 cumulative counted-slot hours; ready 0/8. Cause: independent commissioned work still unbuilt or unadmitted. PLANT interface validated and approved calibration started; remote retrieval does not occupy a local research slot. No held GPU work restarted.
+
+2026-11-05T20:11:35.063562+00:00 OPS-S15-W4-PLANT-CALIBRATION-20261105: The complete planted-text calibration passes format and the fixed blind non-disclosure check; assigned-goal realization and reader recovery remain untested.
+
+2026-11-05T20:16:52.724422+00:00 OPS-S15-W4-PLANT-MAIN-PREP-20261105: The unchanged planted-text main allocation passes software and complete cost admission after fully recorded calibration; corpus generation and reader recovery remain pending.
+
+2026-11-05T20:18:04.010259+00:00 OPS-S15-W4-HEALTH-20261105-1149-CLOSE: Completed records and monitoring verify, and the approved full planted-text generation is running after calibration; local Gear 2 research remains idle and the wider ready buffer is unfinished.
+
+2026-11-05T20:18:25.094055+00:00 OPS-S15-W4-HEALTH-20261105-1149-CLOSE idle-capacity defect remains: 244.383239 cumulative local slot-hours, ready 0/8. Approved paid calibration completed and main generation launched; local independent consumers remain unbuilt or unadmitted.
+
+2026-11-05T20:28:33.438734+00:00 OPS-S15-W4-PLANT-MAIN-20261105: The complete planted-text corpus independently replays with all usage settled; assigned-goal realization and reader recovery remain untested.
+
+2026-11-05T20:39:44.899682+00:00 OPS-S15-W4-REV-PREP-20261105: The independent reader calibration has a verified source bank, tested schema compatibility repair and complete cost admission; provider format and scientific accuracy remain untested.
+
+2026-11-05T20:40:06.396208+00:00 REV preflight: engineering/schema compatibility failure before reservation; original retained, separate schema-h1 tested and counted with unchanged texts, prompts and acceptance criteria. One engineering repair; no prompt correction used.
+
+2026-11-05T20:42:01.313363+00:00 OPS-S15-W4-REV-LAUNCH-20261105: The approved independent-reader format calibration is running with verified source, budget and monitoring; local Gear 2 remains idle and its ready buffer is unfinished.
+
+2026-11-05T20:42:22.752417+00:00 OPS-S15-W4-REV-LAUNCH-20261105: idle-capacity defect persists at 245.919175 cumulative slot-hours; local 0/4, ready 0/8. Paid format calibration is active; no valid hold restarted.
+
+2026-11-05T20:50:24.059139+00:00 OPS-S15-W4-REV-CALIBRATION-20261105: The complete independent-reader calibration fails document row-count validity; no accuracy is evaluated, and main remains blocked pending the single approved fresh prompt correction.
+
+2026-11-05T20:55:26.715489+00:00 OPS-S15-W4-REV-PROMPT-PREP-20261105: The single approved reader prompt correction passes complete source, identity-format and cost checks on the frozen fresh set; provider format and scientific accuracy remain untested.
+
+2026-11-05T20:57:21.561197+00:00 OPS-S15-W4-REV-PROMPT-LAUNCH-20261105: The single approved fresh reader-format correction is running with verified source, budget and monitoring; local Gear 2 remains idle and its ready buffer is unfinished.
+
+2026-11-05T20:57:44.204022+00:00 OPS-S15-W4-REV-PROMPT-LAUNCH-20261105: idle-capacity defect persists at 246.959647 cumulative slot-hours; local 0/4, ready 0/8. Paid fresh-format calibration is active; no held work restarted.
+
+2026-11-05T21:03:45.779626+00:00 OPS-S15-W4-REV-PROMPT-CALIBRATION-20261105: The complete fresh reader calibration fails the fixed format gate; REV stops with its single prompt correction exhausted, and process and planted-goal accuracy remain untested.
+
+2026-11-05T21:18:54.516619+00:00 OPS-S15-W4-VAL-PREP-20261105: The approved explanation-only value reader has a verified frozen source, complete blind agent reference and tested capped calibration transport; provider agreement and scientific use remain untested.
+
+2026-11-05T21:21:10.233718+00:00 OPS-S15-W4-VAL-LAUNCH-20261105: The approved explanation-only value calibration is running with verified source, budget and monitoring; local Gear 2 remains idle and its ready buffer is unfinished.
+
+2026-11-05T21:21:31.881465+00:00 OPS-S15-W4-VAL-LAUNCH-20261105: idle-capacity defect persists at 248.544752 cumulative slot-hours; local 0/4, ready 0/8. Paid calibration is active; no held work restarted.
+
+2026-11-05T21:26:43.516083+00:00 OPS-S15-W4-VAL-CALIBRATION-20261105: The complete value-reader calibration fails agreement with the frozen blind agent reference despite valid format; main remains blocked, with one approved fresh prompt correction available.
+
+2026-11-05T21:37:42.528976+00:00 OPS-S15-W4-VAL-H1-PREP-20261105: The single approved value-reader prompt correction has a verified fresh sample, frozen blind agent reference and tested capped transport; provider agreement and scientific use remain untested.
+
+2026-11-05T21:39:20.879469+00:00 OPS-S15-W4-VAL-H1-LAUNCH-20261105: The single approved fresh value-reader correction is running with verified source, budget and monitoring; local Gear 2 remains idle and its ready buffer is unfinished.
+
+2026-11-05T21:39:43.554413+00:00 OPS-S15-W4-VAL-H1-LAUNCH-20261105: idle-capacity defect persists at 249.798438 cumulative slot-hours; local 0/4, ready 0/8. Paid calibration is active; no held work restarted.
+
+2026-11-05T21:43:13.292074+00:00 OPS-S15-W4-VAL-H1-CALIBRATION-20261105: The complete fresh value-reader calibration meets the fixed pooled agreement and format gates; category weaknesses remain explicit, and main requires separate source and cost admission.
+
+2026-11-05T21:49:53.859314+00:00 OPS-S15-W4-VAL-MAIN-PREP-20261105: The unchanged approved value-reader main allocation passes source and software verification; complete actual token counting and paid generation remain separately gated.
+
+2026-11-05T21:52:37.483825+00:00 OPS-S15-W4-VAL-MAIN-COUNT-LAUNCH-20261105: The approved main value-reader token-count task is progressing with verified source and terminal monitoring; generation remains gated and local Gear 2 research remains idle.
+
+2026-11-05T21:53:00.618382+00:00 OPS-S15-W4-VAL-MAIN-COUNT-LAUNCH-20261105: idle-capacity defect persists at 250.640405 cumulative slot-hours; local 0/4 and ready 0/8. Unbilled network count task is progressing; it is not a research slot or paid generation.
+
+2026-11-05T22:20:18.523376+00:00 OPS-S15-W4-VAL-MAIN-COST-20261105: Complete actual token counts and source verification admit the unchanged approved value-reader main within existing caps; generation and scientific collection remain pending.
+
+2026-11-05T22:20:42.038399+00:00 OPS-S15-W4-VAL-MAIN-COST-20261105: idle-capacity defect persists at 252.458737 counted-slot hours; local 0/4, ready 0/8. VAL cost admission completes; broader builds remain unfinished.
+
+2026-11-05T22:25:00.099057+00:00 OPS-S15-W4-VAL-MAIN-LAUNCH-20261105: The approved value-reader main batch is running with verified source, reservation and retrieval monitoring; local Gear 2 research remains idle and the wider build unfinished.
+
+2026-11-05T22:25:23.900042+00:00 OPS-S15-W4-VAL-MAIN-LAUNCH-20261105: idle-capacity defect persists at 252.799421 counted-slot hours; local 0/4, ready 0/8. Cloud generation is active but broader local builds remain unfinished. Read-only event lookup corrected from the pending-only status view to the durable delivery join; no execution repair.
+
+2026-11-05T22:32:58.785964+00:00 OPS-S15-W4-VAL-MAIN-COMPLETE-20261105: The complete value-reader batch fails its all-valid collection gate because of a provider refusal; all usage is settled, and collection assembly and scientific use remain blocked.
+
+2026-11-05T22:33:21.485658+00:00 OPS-S15-W4-VAL-MAIN-COMPLETE-20261105: instrument/output failure, provider refusal retained; no engineering repair or scientific null. Idle-capacity defect persists at 253.332552 counted-slot hours, local 0/4 and ready 0/8. All paid usage settled; independent AUTH build next.
+
+2026-11-05T22:46:02.365001+00:00 OPS-S15-W4-AUTH-SOURCE-NATIVE-20261105: The AUTH text source passes native known-answer and independent provenance replay; corpus coverage, pair allocation and paid admission remain untested.
+
+2026-11-05T22:46:24.142529+00:00 OPS-S15-W4-AUTH-SOURCE-NATIVE-20261105: idle-capacity defect persists at 254.266972 counted-slot hours; completed finite preparation recorded, wider ready buffer unfinished. Run the fixed source timing prefix before full measured admission.
+
+2026-11-05T22:49:10.800958+00:00 OPS-S15-W4-AUTH-SOURCE-TIMING-20261105: The fixed AUTH source timing prefix independently replays; full cohort coverage, pair allocation and paid admission remain separately gated.
+
+2026-11-05T22:49:32.012470+00:00 OPS-S15-W4-AUTH-SOURCE-TIMING-20261105: idle-capacity defect persists at 254.468448 counted-slot hours; completed finite preparation recorded, wider ready buffer unfinished. Check the measured complete-source forecast before full admission.
+
+2026-11-05T22:51:51.880497+00:00 OPS-S15-W4-AUTH-SOURCE-FULL-20261105: The complete original AUTH cohort has an independently replayed final-surviving typed-text source; pair allocation, paid calibration and scientific use remain gated.
+
+2026-11-05T22:52:15.264811+00:00 OPS-S15-W4-AUTH-SOURCE-FULL-20261105: idle-capacity defect persists at 254.636604 counted-slot hours; completed finite preparation recorded, wider ready buffer unfinished. Build and verify the original balanced prompt-matched pair allocation and calibration before paid admission.
+
+
+2026-11-05T22:55:34.396003+00:00 AUTH-pairs instrument/fixture failure: the 8-block constructed sample omits a fixture writer, correctly triggering unchanged coverage validation. Seven targeted checks share this upstream cause. Retain original source/tests and failed JUnit; first repair changes only constructed fixture to exhaustive 24 positive blocks per genre. Human 1000-block design, coverage gate, seed, matching and thresholds unchanged.
+
+2026-11-05T22:57:32.016376+00:00 OPS-S15-W4-AUTH-PAIRS-NATIVE-20261105: The AUTH pair allocator passes native matched-truth and complete replay checks after a recorded fixture correction; human allocation and calibration remain untested.
+
+2026-11-05T22:57:54.352113+00:00 OPS-S15-W4-AUTH-PAIRS-NATIVE-20261105: first fixture-only repair fully recorded; idle-capacity defect 255.013315 counted-slot hours, ready0/8. Run the bounded full original pair allocation.
+
+2026-11-05T22:59:11.004241+00:00 OPS-S15-W4-AUTH-PAIRS-FULL-20261105: The complete AUTH pair allocation independently replays with balanced truth, genre and prompt assignments; paid calibration and scientific use remain untested.
+
+2026-11-05T22:59:38.695172+00:00 OPS-S15-W4-AUTH-PAIRS-FULL-20261105: first fixture-only repair fully recorded; idle-capacity defect 255.122081 counted-slot hours, ready0/8. Implement the unchanged first-hundred argument calibration and admit its actual cost before any paid call.
+
+2026-11-05T23:04:03.085507+00:00 OPS-S15-W4-AUTH-PREP-20261105: The approved authorship calibration has a verified fixed sample, recorded identity truth, tested bounded transport and complete cost admission; provider discrimination and scientific use remain untested.
+
+2026-11-05T23:06:51.609077+00:00 OPS-S15-W4-AUTH-LAUNCH-20261105: The approved authorship calibration is running with verified source, budget and retrieval monitoring; local Gear 2 research remains idle and the wider ready buffer unfinished.
+
+2026-11-05T23:07:14.491529+00:00 OPS-S15-W4-AUTH-LAUNCH-20261105: idle-capacity defect persists at 255.564661 counted-slot hours, local0/4 ready0/8; finite approved AUTH calibration active and fully monitored. No worker recovery, additional repair, GPU restart or new authority inferred.
+
+2026-11-05T23:10:50.756027+00:00 OPS-S15-W4-AUTH-CALIBRATION-20261105: The complete authorship calibration fails its fixed discrimination gate despite valid format; main remains blocked, with one approved fresh prompt correction available.
+
+2026-11-05T23:18:03.623676+00:00 OPS-S15-W4-AUTH-H1-PREP-20261105: The single approved authorship prompt correction has a verified fresh sample, unchanged scoring gates and complete cost admission; provider discrimination and main remain untested.
+
+2026-11-05T23:19:54.317130+00:00 OPS-S15-W4-AUTH-H1-LAUNCH-20261105: The single approved fresh authorship correction is running with verified source, budget and retrieval monitoring; local Gear 2 research remains idle and the wider ready buffer unfinished.
+
+2026-11-05T23:20:19.194675+00:00 OPS-S15-W4-AUTH-H1-LAUNCH-20261105: idle-capacity defect persists at 256.463531 counted-slot hours, local0/4 ready0/8; finite approved fresh AUTH correction active and fully monitored. No worker recovery, additional repair, GPU restart or new authority inferred.
+
+2026-11-05T23:24:21.459980+00:00 OPS-S15-W4-AUTH-H1-CALIBRATION-20261105: The complete fresh authorship calibration meets the unchanged discrimination and format gates; original failure and source limits remain, and main requires separate source and cost admission.
+
+2026-11-05T23:33:36.333338+00:00 OPS-S15-W4-AUTH-MAIN-PREP-20261105: The unchanged approved authorship main allocation passes source and software verification; both used calibration sets are excluded, and complete cost admission remains pending.
+
+2026-11-05T23:36:01.723245+00:00 OPS-S15-W4-AUTH-MAIN-COUNT-LAUNCH-20261105: The approved authorship main token-count task is progressing with verified source and terminal monitoring; generation remains gated and local Gear 2 research remains idle.
+
+2026-11-05T23:36:25.097248+00:00 OPS-S15-W4-AUTH-MAIN-COUNT-LAUNCH-20261105: idle-capacity defect persists at 257.512521 cumulative counted-slot hours; local 0/4 and ready 0/8. AUTH network cost helper progresses but does not occupy a counted research slot.
+
+2026-11-05T23:49:10.609628+00:00 OPS-S15-W4-AUTH-MAIN-COST-20261105: Complete actual token counts and source verification admit the unchanged approved authorship main within existing caps; generation and scientific use remain pending.
+
+2026-11-05T23:51:43.408421+00:00 OPS-S15-W4-AUTH-MAIN-LAUNCH-20261105: The approved authorship main batch is running with verified source, reservation and retrieval monitoring; local Gear 2 research remains idle and the wider ready buffer unfinished.
+
+2026-11-05T23:52:08.256588+00:00 OPS-S15-W4-AUTH-MAIN-LAUNCH-20261105: idle-capacity defect persists at 258.559467 counted-slot hours, local 0/4 and ready 0/8; finite approved AUTH main active and monitored. No local worker recovery, extra prompt repair or GPU restart authorized or performed.
+
+2026-11-05T23:59:15.918329+00:00 OPS-S15-W4-AUTH-MAIN-COMPLETE-20261105: The complete authorship main batch independently replays with valid responses and all usage settled; the fiction-versus-argument scientific comparison remains uncomputed.
+
+2026-11-05T23:59:42.225299+00:00 OPS-S15-W4-AUTH-MAIN-COMPLETE-20261105: idle-capacity defect persists at 259.065369 counted-slot hours, local 0/4 and ready 0/8. AUTH main completed and settled; its scientific consumer and wider buffer remain unfinished.
+
+2026-11-06T00:09:58.399790+00:00 OPS-S15-W4-AUTH-COLLECTION-NATIVE-20261105: The authorship collection adapter passes known-answer native and independent complete-row replay; human assembly and scientific inference remain separately gated.
+
+2026-11-06T00:10:25.927831+00:00 OPS-S15-W4-AUTH-COLLECTION-NATIVE-20261105: complete operational write-through; idle-capacity defect 259.840184 counted-slot hours, ready0/8. Run the bounded complete original authorship collection.
+
+2026-11-06T00:11:36.746267+00:00 OPS-S15-W4-AUTH-COLLECTION-FULL-20261105: The complete authorship collection independently replays every label and both writer roles against the frozen source; the scientific genre comparison remains uncomputed.
+
+2026-11-06T00:12:04.286156+00:00 OPS-S15-W4-AUTH-COLLECTION-FULL-20261105: complete operational write-through; idle-capacity defect 259.946005 counted-slot hours, ready0/8. Build the commissioned FIC1 scientific consumer with validated writer dependence and applicable controls before computing the genre contrast.
+
+2026-11-06T00:21:46.491106+00:00 OPS-S15-W4-AUTH-AUC-RULER-NATIVE-20261105: The candidate authorship AUC calculation passes exact constructed arithmetic and native replay; population uncertainty and human inference remain unadmitted.
+
+2026-11-06T00:22:09.905410+00:00 OPS-S15-W4-AUTH-AUC-RULER-NATIVE-20261105: full write-through; idle-capacity defect 260.622282 counted-slot hours, ready0/8. Measure complete synthetic-world execution and replay on the frozen original pair geometry before admitting the full ruler calibration.
+
+2026-11-06T00:23:11.400190+00:00 OPS-S15-W4-AUTH-AUC-RULER-TIMING-20261105: The complete constructed timing prefix independently replays within its allowance; the full uncertainty calibration and human analysis remain separately gated.
+
+2026-11-06T00:23:37.685706+00:00 OPS-S15-W4-AUTH-AUC-RULER-TIMING-20261105: full write-through; idle-capacity defect 260.715409 counted-slot hours, ready0/8. Admit the frozen full constructed uncertainty calibration only if its conservative measured forecast fits the remaining original CPU allowance.
+
+2026-11-06T00:25:07.524403+00:00 OPS-S15-W4-AUTH-AUC-RULER-LAUNCH-20261105: The complete constructed authorship uncertainty calibration is running after recorded numerical validation and measured cost admission; human scientific inference remains gated.
+
+2026-11-06T00:27:47.070378+00:00 OPS-S15-W4-AUTH-AUC-RULER-CALIBRATION-20261105: The complete constructed authorship uncertainty calibration passes its fixed numerical ruler gates; inherited scientific controls and human admission remain outstanding.
+
+2026-11-06T00:28:13.073550+00:00 OPS-S15-W4-AUTH-AUC-RULER-CALIBRATION-20261105: full write-through; idle-capacity defect 261.006546 counted-slot hours, ready0/8. Preserve the complete calibration and map every inherited scientific control before any human genre inference; a numerical ruler is not an identification badge.
+
+2026-11-06T00:42:31.251865+00:00 OPS-S15-W4-AUTH-REFERENCE-SUPPORT-NATIVE-20261105: The proposed authorship reference support checker passes constructed membership, role-preservation and native replay checks; corpus support and human inference remain untested.
+
+2026-11-06T00:42:55.551314+00:00 OPS-S15-W4-AUTH-REFERENCE-SUPPORT-NATIVE-20261105: complete write-through; idle-capacity defect 261.987745 counted-slot hours, ready0/8. Run the one frozen complete-source cache-support audit before building a scientific reference.
+
+2026-11-06T00:44:26.895272+00:00 OPS-S15-W4-AUTH-REFERENCE-SUPPORT-FULL-20261105: The rebuilt authorship reference requires text pairs absent from the original scored allocation; this proposed cache-reuse route is held, with human inference uncomputed.
+
+2026-11-06T00:44:52.987699+00:00 OPS-S15-W4-AUTH-REFERENCE-SUPPORT-FULL-20261105: complete write-through; idle-capacity defect 262.113884 counted-slot hours, ready0/8. Preserve the exact missing-pair witnesses and original primary. Resolve a valid AUTH control mapping within existing scope, or record this route held and advance independent commissioned work; do not request unapproved extra pairs or substitute the available intersection.
+
+2026-11-06T01:08:24.247424+00:00 OPS-S15-W4-D33-PROMPT-SOURCE-NATIVE-20261105: The prompt-excluded history preparation passes constructed support, provenance and native replay checks; complete corpus preparation and inference remain gated.
+
+2026-11-06T01:08:24.235551+00:00 OPS-S15-W4-D33-PROMPT-SOURCE-NATIVE-20261105: operator test-selection error retained and charged; all25checks passed, no termination or rerun. Idle-capacity defect 263.684323 counted-slot hours; ready0/8. Run complete prompt-excluded source preparation within the remaining original follow-up allowance.
+
+2026-11-06T01:10:50.098805+00:00 OPS-S15-W4-D33-PROMPT-SOURCE-LAUNCH-20261105: The complete prompt-excluded history preparation is running under the original follow-up allowance with verified ownership and monitoring; statistical inference remains gated.
+
+2026-11-06T01:13:43.818782+00:00 OPS-S15-W4-D33-PROMPT-SOURCE-FULL-20261105: Complete prompt-excluded history preparation independently replays with every original row disposition retained; the registered statistical comparison remains uncomputed.
+
+2026-11-06T01:13:43.808347+00:00 OPS-S15-W4-D33-PROMPT-SOURCE-FULL-20261105: operator test-selection error retained and charged; all25checks passed, no termination or rerun. Idle-capacity defect 263.979781 counted-slot hours; ready0/8. Validate and cost the unchanged joint-model consumer on this complete prepared population before statistical admission; preserve both permutation banks and original support limits.
+
+2026-11-06T01:20:52.230586+00:00 OPS-S15-W4-D33-PROMPT-INFERENCE-NATIVE-20261105: The unchanged prompt-excluded-history statistical consumer passes complete constructed signed-world and independent arithmetic checks; human analysis remains separately gated.
+
+2026-11-06T01:20:52.219671+00:00 OPS-S15-W4-D33-PROMPT-INFERENCE-NATIVE-20261105: complete instrument write-through; idle-capacity defect 264.438436 counted-slot hours, ready0/8. Run the fixed complete first-block cost probe against the verified preparation, then admit full inference only within the remaining original ceiling.
+
+2026-11-06T01:27:08.718906+00:00 OPS-S15-W4-D33-PROMPT-INFERENCE-COST-20261105: The complete prompt-excluded-history cost probe and all fixed block outputs independently replay; full scientific admission remains a separate cumulative-cost decision.
+
+2026-11-06T01:27:08.708211+00:00 OPS-S15-W4-D33-PROMPT-INFERENCE-COST-20261105: complete instrument write-through; idle-capacity defect 264.852199 counted-slot hours, ready0/8. Compare the complete two-pass forecast with the original remaining allowance; run all ten unchanged blocks only if admitted, otherwise record the cost hold.
+
+2026-11-06T01:28:22.626587+00:00 OPS-S15-W4-D33-PROMPT-INFERENCE-LAUNCH-20261105: The complete registered prompt-excluded-history comparison is running after full source, numerical and cost admission; its scientific result awaits every control and independent replay.
+
+2026-11-06T01:34:34.746064+00:00 S15-W4-D33-PROMPT-EXCLUDED-20261105: The complete prompt-excluded comparison supports a conditional personal-history pause association on its supported cohort; it does not isolate a topical-reuse mechanism or establish an own-over-donor advantage.
+
+2026-11-06T01:34:34.745997+00:00 S15-W4-D33-PROMPT-EXCLUDED-20261105: complete scientific write-through, retained diagnostic support failure; no healing. Idle-capacity defect 265.314337 counted-slot hours, ready0/8. Existing build obligations remain.
+
+2026-11-06T02:26:35.548606+00:00 OPS-S15-W4-HEALTH-20261105-1820: Completed records, native exits, locks and monitoring verify; Gear 2 remains idle with no ready successors, and the campaign build is incomplete.
+
+2026-11-06T02:27:00.360662+00:00 OPS-S15-W4-HEALTH-20261105-1820 idle-capacity defect: 268.781875 cumulative counted-slot hours; ready 0/8. Cause: commissioned implementations or complete admission unfinished, with valid source/cost/instrument holds. Corrected stale T4 admission wording and three duplicate S2 reminders; no worker restart warranted.
+
+2026-11-06T04:10:46.380246+00:00 OPS-S15-W4-DIGEST-20261105: The November 5 digest reconciles completed results, retained failures, corrections and settled spending; Gear 2 is idle and the ready buffer remains unbuilt.
+
+2026-11-06T04:11:11.663669+00:00 OPS-S15-W4-DIGEST-20261105 idle-capacity defect: 275.727229 counted-slot hours, ready 0/8. Completed records reconcile; unbuilt consumers and valid admission holds remain. No worker restart warranted.
+
+2026-11-06T08:32:52.859374+00:00 OPS-S15-W4-HEALTH-20261106-0028: Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected.
+
+2026-11-06T08:33:17.528338+00:00 OPS-S15-W4-HEALTH-20261106-0028 idle-capacity defect: 293.201071 cumulative counted-slot hours, active 0/4, ready 0/8. Unfinished implementation/admission and valid source/control/cost holds remain. Two stale running-job reminders corrected without rerunning completed work.
+
+2026-11-06T11:49:51.952434+00:00 OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106: Completed Week 4 records and publication checks reconcile; the retained WD1 optimization still fails its known parity check and remains unadmitted.
