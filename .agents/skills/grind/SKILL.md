@@ -222,3 +222,40 @@ Ratified by the Week 4 packet and current handoff. Source: `docs/design/stage-15
 
 **H. One paid approval, at handoff.** Before any paid call, the owner sends the curator one request covering every node in section 5: each node's payload, destination, rung, cap, and one recorded prompt fix with its rerun. His words go verbatim into the approval file. No node waits mid-week for a further approval inside that list. If he declines a node, it is blocked under standing decision S6, naming it.
 
+## Standing amendments, 7 November
+
+Ratified by the Week 5 packet and current handoff. Source: `docs/design/stage-15/week5/PACKET.md`, section 0.3.
+
+**I. Build wakes.**
+- While any card of an open campaign is unbuilt, unadmitted, ready or running, keep one check-in at most 60 minutes ahead.
+- This carries out the 17 October row 4 rule. For those windows it overrides AGENTS.md's "Do not schedule routine liveness/ETA wakes, continue from a Stop hook, recurse through a queue rule, or invoke an agent merely because work remains" and the grind skill's "Do not add separate ETA wakes".
+- A health turn that finds unbuilt work builds. While work is unbuilt, inspection alone doesn't complete a turn.
+- Building section 2's cards at a check-in is implementing this packet's designs, not new research design.
+
+**J. Builders.**
+- This packet, and any later packet that lists builder assignments, is the explicit per-task delegation request AGENTS.md requires.
+- Keep three card builders (subagents) running from handoff while any card in section 2 is unbuilt, on section 3's assignments. A builder that finishes takes the next unbuilt card in dispatch order. A turn that ends with unbuilt cards and fewer than three builders running records the cause in OPS_LOG.
+- The owner (the Codex operating session) reviews each builder's design note and fixture before admission, as now.
+
+**K. Ready means designed and fixtured.**
+- A card is ready, and counts toward amendment A's buffer, once its design note (with its DESIGN CHECK block) is committed and its native fixture has passed.
+- Its cost probe, timing prefix and any pilot run inside a counted slot, as the first stage of its run, charged to the card.
+- A forecast over 7,200 CPU-seconds is met by a checkpointed in-slot pilot covering the first 5% of the work, not by a separate pilot card.
+- One design note and one fixture admit a family's pipeline and its declared grid. Each grid cell is then ready.
+
+**L. Ceilings sized to the work.**
+- (a) Each card has one CPU ceiling, given in section 2. Nothing inside a card holds a separate sub-allocation.
+- (b) Amendment E's sample route and S4's one doubling stay. But a card past its doubling continues under its family ceiling, checkpointed, whenever a counted slot is idle; it doesn't hold.
+- (c) Uncertainty:
+  - screening runs and texture cells use 200 cluster resamples;
+  - primaries, and anything entering the ledger as "supported" or "against", use 2,000;
+  - a texture cell whose 200-resample interval crosses its bar may rerun at 2,000 as a precision follow-up.
+- (d) A reservation never blocks a start while a counted slot is idle and the family ceiling has room.
+- (e) Texture cells keep amendment G's 1 CPU-hour cap, except cells that rescore or reanalyse (CH2's node counts, AT2's context lengths, LA1's preceding-act counts), which take up to a quarter of their parent card's ceiling from the family ceiling. CH2's node-count cells, whose parent ceiling leaves analysis aside, instead re-analyse a 25,000-position subset of CH1's sample within 200,000 CPU-seconds of CH's family ceiling.
+
+**M. Fallbacks and lanes.**
+- (a) Every support floor, whether stated in section 2 or added in a design note, has a declared descriptive fallback. A card with no stated floor uses 20 clusters of its unit as its floor and a pooled descriptive fit as its fallback. The fallback runs automatically when the floor fails and is reported "below floor, descriptive".
+- (b) A collection gate tolerates refusals or parse failures up to 1% of items, and reports them.
+- (c) A texture lane stops after seven consecutive cells whose estimates lie inside the parent's practical band around zero (between minus and plus its bar). For Week 5's grids this replaces amendment G's five-similar stop. The curator's 14 October stopping rule, recorded in `docs/design/stage-15/SOUNDING_LINE_NEXT_ROUND_SPEC_2026-10-14.md` as "stop a family after about five to seven null batches, not two", governs families of primaries and stays as the 17 October packet's six-null family stop.
+- (d) Follow-ups may run two generations deep within a week. A positive, or any result outside its parent's interval, may register descendants from amendment C's menu.
+- (e) A failed source moves its cards to the next fallback in section 0.5. It never holds a slot.
