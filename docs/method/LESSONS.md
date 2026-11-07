@@ -807,6 +807,18 @@ L132 (a shuffle gate that voided the alternative's own signature).
 
 ## §5. Before queueing or touching the loop infrastructure
 
+- **An admitted receipt is immutable even when its queue status becomes historical.**
+  The B4 sensitivity landing changed a follow-up state in the parent JSON that its
+  completed runs had pinned. Scientific values were unchanged, but dependency
+  verification failed. Preserve the edited version, restore only bytes matching
+  the already admitted digest, and recheck every dependent run. Keep current status
+  and later sensitivity in separate receipts and the claim ledger; never update
+  an admitted dependency merely to make its old status read as current.
+  Pinned documentation is also an admitted dependency: later navigation links
+  belong in an unpinned index, not in a README already used by completed plans.
+  Preserve the newer copy and restore only a version whose bytes match the pin.
+  (OPS-S15-TD-B4-RECEIPT-RESTORE-20261106; OPS-S15-TD-HEALTH-20261106-1244)
+
 - **A landing's completion hash must equal the exact dependency it admits.**
   A copied native-landing helper retained its predecessor's directory while its
   heading named the optimized implementation. The optimized fixture itself had

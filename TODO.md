@@ -1,5 +1,128 @@
 # TODO: the study queue
 
+**November 7 queue health:** [Verified inspection](results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0101.md) (OPS-S15-TD-HEALTH-20261107-0101). Completed evidence, locks, resources and monitoring verify; no new result or recoverable runtime fault. CPU-only Gear 2 remains idle: research 0/4, ready 0/8. Source retrieval and other source, control, cost and build holds persist. Paid dispatch is closed at $1.12, fully reconciled. Six-hour health checks continue; both original campaign clocks and final-packet policies remain. Earlier snapshots are historical.
+
+- [x] OPS-S15-TD-HEALTH-20261107-0101: Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.
+
+**November 6 daily reconciliation:** [Internal digest](results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261106.md) (OPS-S15-W4-DIGEST-20261106). Week 4 records and paid closure verify; no new Week 4 scientific claim. CPU-only Gear 2 is idle, research 0/4 and ready 0/8. Separate theory-days evidence is recorded; remaining source, control, cost and build holds persist. Paid usage is $1.12, all reconciled. Next fixed health: November 7 at 01:01:47 PST. Both original campaign windows and final-packet policies remain. Earlier snapshots are historical.
+
+- [x] OPS-S15-W4-DIGEST-20261106: The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.
+
+**Current queue health:** [Verified inspection](results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261106_1854.md) (OPS-S15-TD-HEALTH-20261106-1854). Completed evidence, locks, resources and monitoring verify. CPU-only Gear 2 is idle: research 0/4, ready 0/8. The registered texture grid is complete; remaining source, cost and build holds persist. The 12-hour source-access escalation threshold has been reached. Paid dispatch is closed, with $1.12 reconciled and none active. Original windows and final-packet policies remain; next campaign marker is the Week 4 20:00 PST digest. Earlier snapshots are historical.
+
+- [x] OPS-S15-TD-HEALTH-20261106-1854: Completed records, locks and monitoring verify; CPU-only Gear 2 is idle with no admitted ready work, and the source-access blockage has reached its escalation threshold.
+
+**Week 4 paid cutoff:** [Verified closure](results/phase_2_4_stage_15/DRIVE/WEEK4_PAID_CUTOFF_20261106.md) (OPS-S15-W4-PAID-CUTOFF-20261106). Paid dispatch closed November 6 at 17:00 PST. All 15 recorded batches are reconciled at $1.12; none is active or unsettled. CPU-only Gear 2 remains idle, research 0/4 and ready 0/8; source, control, cost and build holds remain. The separate theory-days clock and both final-packet policies are unchanged. Next health inspection: 18:54:44 PST. Earlier snapshots are historical.
+
+- [x] OPS-S15-W4-PAID-CUTOFF-20261106: Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.
+
+**Theory-days current execution:** [Complete descriptive texture](results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_EXPOSURE_COHORT.md) (S15-TD-B2-TEXTURE-EXPOSURE-COHORT-20261106). The full eight-card family and independent replay are recorded internally, including the retained original cost hold and exact-cache recovery. CPU-only Gear 2 is idle after this finite grid: research 0/4, ready 0/8. TD1 to TD3 retrieval and B1/B3 source holds remain; further texture is unbuilt. All 26 theory errata edits remain applied. Original ceiling, freeze/drain and final-packet policy remain. Next fixed health inspection: November 6 18:54:44 PST. Earlier snapshots are historical.
+
+- [x] S15-TD-B2-TEXTURE-EXPOSURE-COHORT-20261106: Complete eight-card descriptive texture, exact-cache recovery and fresh replay recorded; finite grid exhausted, no descendants.
+
+**Theory-days current execution:** [Errata and verified continuation](results/phase_2_4_stage_15/THEORY_DAYS/ERRATA_CONTINUATION_20261106.md) (OPS-S15-TD-ERRATA-CONTINUATION-20261106). All 26 errata edits are applied and second-pass verified. One admitted descriptive texture job is running in CPU-only Gear 2, with eight ordered cards and the registered early stop; local research 1/4, additional ready jobs 0/8. Source-held primary/backlog work remains held. Native monitoring, accounting and prior records verify; the original ceiling, freeze/drain and final-packet policy remain. Earlier snapshots are historical.
+
+- [x] OPS-S15-TD-ERRATA-CONTINUATION-20261106: The November 6 theory errata is applied and verified; the admitted descriptive choice-data texture is running in CPU-only Gear 2.
+
+- [x] S15-TD-B2-TEXTURE-H1-COST-20261106: The cached texture probe exactly reproduces the entire original probe and independently replays; full execution fits the unchanged family allowance.
+
+- [x] S15-TD-B2-TEXTURE-H1-CACHE-20261106: The complete private count cache exactly matches fresh source decoding and seeded subset reconstruction in independent native verification.
+
+- [x] S15-TD-B2-TEXTURE-H1-NATIVE-20261106: The exact input-cache adapter passes elementwise equality, corruption refusal, immutable reentry and independent native reconstruction.
+
+- [x] S15-TD-B2-TEXTURE-COST-20261106: The full-cohort texture cost probe replays but the complete uncertainty run is cost-held.
+
+- [x] S15-TD-B2-TEXTURE-NATIVE-20261106: The exposure-and-cohort texture consumer passes literal subset, nested selection, signed and zero cases, stopping and complete native replay.
+
+- [x] OPS-S15-TD-HEALTH-20261106-1244: Completed records and monitoring verify after restoring a pinned setup README; CPU-only Gear 2 remains idle with source holds and an unbuilt ready buffer.
+
+- [x] S15-TD5-IC-SENSITIVITY-20261106: The complete disagreement rule has limited sensitivity and poor interval coverage in the balanced constructed worlds; the human comparison remains inconclusive.
+
+- [x] S15-TD5-IC-COST-20261106: The complete-population disagreement cost probe independently replays; the full calibration fits its original allowance.
+
+- [x] S15-TD5-IC-NATIVE-20261106: The complete disagreement-rule calibration passes analytic signed controls, exact grouped-bootstrap validation and native replay.
+
+- [x] S15-TD4-M-COST-20261106: The word-axis comparison source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.
+
+- [x] S15-TD4-S-COST-20261106: The single-word influence source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.
+
+- [x] S15-TD4-M-NATIVE-20261106: The word-axis comparison diagnostic passes signed, constant, tied and coverage checks with complete native replay.
+
+- [x] S15-TD4-S-NATIVE-20261106: The single-word influence diagnostic passes signed, constant, tied and coverage checks with complete native replay.
+
+- [x] OPS-S15-TD-B4-RECEIPT-RESTORE-20261106: The original chess receipt bytes are restored and every sensitivity dependency verifies; scientific outputs are unchanged.
+
+- [x] S15-TD6-IC-SENSITIVITY-20261106: The rare-count calibration has limited sensitivity, and the sparse companion bootstrap is unreliable in these constructed worlds; the human comparison remains inconclusive.
+
+- [x] S15-TD6-IC-COST-20261106: The rare-count cost probe reproduces both complete human analyses and independently replays; the full constructed calibration fits its original allowance.
+
+- [x] S15-TD6-IC-NATIVE-20261106: The rare-count sensitivity consumer reproduces the original bootstrap, including singleton and undefined-denominator behavior, with complete native replay.
+
+- [x] S15-TD-B2-S-COST-20261106: The complete-cohort exposure cost probe reproduces both prior calculations and independently replays within its allowance; full exposure uncertainty remains unfinished.
+
+- [x] S15-TD-B2-S-NATIVE-20261106: The common-cohort exposure consumer passes literal enumeration, signed and zero cases, three-choice identity and complete native replay.
+
+- [x] S15-TD-B2-M-COST-20261106: The full-cohort component cost probe reproduces the parent and independently replays within its allowance; full component uncertainty remains unfinished.
+
+- [x] S15-TD-B2-M-NATIVE-20261106: The paired refusal-component consumer passes signed, opposing and identical-world checks with complete native replay.
+
+- [x] S15-TD-B4-IC-SENSITIVITY-20261106: The chess diagnostic has limited practical-size sensitivity in the registered constructed worlds; the human interaction remains inconclusive.
+
+**Theory-days current execution:** [Verified health inspection](results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261106_1244.md) (OPS-S15-TD-HEALTH-20261106-1244). All registered eligible theory-days runs have terminal records and full internal landings. CPU-only Gear 2 is idle: local research 0/4, ready 0/8. The pinned setup README is restored; monitoring, outputs, locks and resources verify. TD1 to TD3 retrieval and B1/B3 source holds remain, and the wider ready buffer is unbuilt. No process restart is indicated. Original ceilings, freeze/drain and final-packet policy apply. Earlier snapshots are historical.
+
+- [x] S15-TD-B4-IC-COST-20261106: The complete two-world chess sensitivity cost probe independently replays within the follow-up allowance; full calibration remains unfinished.
+
+- [x] S15-TD-B4-IC-NATIVE-20261106: The conditional chess sensitivity runner passes complete dose-shift parity and independent native replay.
+
+- [x] S15-TD-B2-P-COST-20261106: The complete-population exact-subset cost probe replays and reproduces the parent subset calculation; full uncertainty remains uncomputed.
+
+- [x] S15-TD-B2-P-NATIVE-20261106: The exact-subset expectation consumer passes literal enumeration, signed and identical-world checks, and complete native replay.
+
+- [x] S15-TD-B4-EFFORT-SKILL-20261106: The registered chess effort-by-skill diagnostic is inconclusive; the ordinary regression association does not establish that effort and power multiply causally.
+- [x] B4.ic: Complete conditional calibration landed as S15-TD-B4-IC-SENSITIVITY-20261106; sensitivity limited under construction, human result retained, no descendants.
+
+- [x] S15-TD-B4-COST-20261106: The full-sample chess model cost probe independently replays within its allowance; complete scientific uncertainty remains uncomputed.
+
+- [x] S15-TD-B4-SOURCE-20261106: The complete named-month chess sample passes its frozen source-support checks and independent replay; model inference remains uncomputed.
+
+**Theory-days current execution:** [Complete B2 record](results/phase_2_4_stage_15/THEORY_DAYS/B2_REFUSALS.md) (S15-TD-B2-REFUSALS-20261106). Complete B2 source and scientific write-through are recorded internally. Chess source preparation remains active in CPU-only Gear 2; its inference awaits source support and cost admission. Local research 1/4; ready 0/8. Registered follow-ups are not yet runnable, and the original source holds and final-packet policy remain. Earlier snapshots are historical.
+
+- [x] S15-TD-B2-REFUSALS-20261106: At matched exposure, the pooled species-and-intervention never-trading rate exceeds gender-and-fitness in this returning-fingerprint cohort; this does not identify terminal identity.
+- [x] B2.s: Complete common-cohort exposure comparison landed as S15-TD-B2-S-EXPOSURE-20261106; no descendants.
+- [x] B2.m: Complete descriptive paired decomposition landed as S15-TD-B2-M-COMPONENTS-20261106; no descendants.
+- [x] B2.p: Exact-subset expectation and complete paired sensitivity landed as S15-TD-B2-P-EXACT-SUBSETS-20261106; no descendants.
+
+
+- [x] S15-TD-B2-SOURCE-20261106: The complete Moral Machine source reconstruction passes its frozen common-cohort support check and independent replay; scientific comparison remains uncomputed.
+
+**Theory-days current execution:** [Validated backlog build](results/phase_2_4_stage_15/THEORY_DAYS/BACKLOG_BUILD.md) (S15-TD-BACKLOG-BUILD-20261106). The licensed Moral Machine and chess consumers pass their native checks, and both complete source preparations are running in CPU-only Gear 2. Completed primary results are recorded internally; source/support holds remain explicit. Local research 2/4; ready 0/8, with two dependency-gated inference successors. Earlier snapshots are historical.
+
+- [x] S15-TD-BACKLOG-BUILD-20261106: The licensed Moral Machine and chess consumers pass their native checks, and both complete source preparations are running in CPU-only Gear 2.
+
+- [x] S15-TD-CALENDAR-20261106: The finite theory-days calendar is running with registered freeze and drain events; its tested drain restores transition-only monitoring.
+
+- [x] S15-TD7-SUPPORT-20261106: The frozen writing-event matching fails the required writer support floor; the effect model is not fitted.
+
+- [x] S15-TD6-MIND-LANGUAGE-20261106: The registered disgust-versus-anger mind-language comparison is inconclusive; the sparse person-targeted companion cannot establish reduced mental modelling.
+- [x] TD6.ic: Complete conditional calibration landed as S15-TD6-IC-SENSITIVITY-20261106; limited sensitivity, human result retained, no descendants.
+
+- [x] S15-TD5-CHANNEL-DISAGREEMENT-20261106: The registered within-channel disagreement comparison is inconclusive; sensitivity at the practical bar remains untested.
+- [x] TD5.ic: Complete balanced-world calibration landed as S15-TD5-IC-SENSITIVITY-20261106; limited sensitivity and poor coverage, human result retained, no descendants.
+
+- [x] S15-TD56-COST-20261106: Both full-population annotation timing prefixes replay within their bounds; full 2,000-draw uncertainty remains uncomputed and scientifically unreported.
+
+- [x] S15-TD4-WORD-SCALES-20261106: The specified PLAY word order fails the frozen word-norm rule; four covered scales are inconclusive and three lack the required intensity coverage. These norms do not identify biological channels.
+- [x] S15-TD4-S-DIAGNOSTIC-20261106: The PLAY ordering remains against in some single-word omissions and becomes inconclusive in others; none supports the specified scale. No descendants.
+- [x] S15-TD4-M-DIAGNOSTIC-20261106: Arousal does not restore the supplied PLAY word order on the same covered words; the lexical ordering failure remains. No descendants.
+
+- [x] S15-TD-EMOTION-VALIDATION-20261106: All three emotion consumers pass constructed native handler replay; real-data contrasts and complete cost admission remain separate.
+
+**Theory-days current build:** [S15-TD-SETUP-20261106](results/phase_2_4_stage_15/THEORY_DAYS/SETUP_AND_SOURCE_INTAKE_20261106.md). The CPU-only theory-days runtime and two public sources verify; Dryad retrieval remains blocked, and scientific consumers are still being built. Complete native validation and cost admission of TD4 to TD6, then the supported TD7 and backlog routes; retain the TD1 to TD3 source hold without inventing data.
+
+- [x] S15-TD-SETUP-20261106: The CPU-only theory-days runtime and two public sources verify; Dryad retrieval remains blocked, and scientific consumers are still being built.
+
+- [x] OPS-S15-W4-HEALTH-20261106-0635: Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work.
+
 - [x] OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106: Completed Week 4 records and publication checks reconcile; the retained WD1 optimization still fails its known parity check and remains unadmitted.
 
 - [x] OPS-S15-W4-HEALTH-20261106-0028: Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected.
@@ -295,7 +418,7 @@ Both follow-ups require prospective detailed designs, support and constructed ca
 
 - [x] OPS-S15-W4-D7-H1-SUPPORT-NATIVE-20261104: The separately conditioned duration-reference instrument passes native replay and finite-law validation; the original invalid bank remains preserved.
 
-- [ ] D7.h1: Separate support-conditioned session-assignment diagnostic frozen in `docs/design/stage-15/week4/D7_REFERENCE_H1.md`. Preserve the original invalid bank; complete all 200 accepted assignments within 2,000 metadata-only proposals, retain every rejection, and verify exact calibration-bank parity before consumer admission. Native fixture and six targeted checks are prepared; full source replay, complete calibration and consumer costing remain required. No human scientific fit or new scientific hypothesis.
+- [x] D7.h1: Support-conditioned bank, complete constructed calibration, cost admission and full human comparison are complete (OPS-S15-W4-D7-H1-SUPPORT-FULL-20261104; OPS-S15-W4-D7-CALIBRATION-FULL-20261104; S15-W4-D7-H1-HUMAN-20261104). Original invalid reference retained; acceptance companions remain biased and descriptive only. The separately registered D7.s and D7.m follow-ups remain cost-held. No worker is running and no repeat is admitted.
 
 - [x] OPS-S15-W4-BUILD-20261104-D7: The complete duration-calibration bank is running in verified Gear 2; completed records and cost failures are reconciled, while a human-reference correction and the remaining ready buffer still require construction.
 
@@ -399,7 +522,7 @@ All three are first-generation follow-ups, ranked below packet cards; constructe
 - [x] S15-W4-PP1-FULL-20261103: The declared pause gradient is not detected in either genre; sensitivity remains untested, and the CoAuthor timing route is not licensed.
 
 - [x] W4-WD1.h1 full attempt: Complete fresh replay and validity census recorded under S15-W4-WD1-INVALID-20261103. Invalid reference; no scientific estimate.
-- [ ] WD1.h1 control repair: Freeze a separately named correction with a support invariant checked across the entire allocation bank before fitting, validate known null and planted cases, then obtain measured admission inside the remaining named allowance. Preserve all original draws; no post hoc intersection, dropped draws, thinner bank or unchanged repeat. This is a control redesign obligation, not a ready card.
+- [ ] WD1.h1 control repair: The separately frozen WD1.h2 support-conditioned bank is complete and independently replayed (OPS-S15-W4-WD1-H2-SUPPORT-FULL-20261104). Complete known-answer calibration and corrected human admission remain cost-held after single-thread remeasurement (OPS-S15-W4-WD1-H2ST-COST-HOLD-20261104); both failed solver-parity checks and all prior charges remain. Preserve the original invalid reference and every draw. No bank reduction, post hoc intersection, tolerance relaxation, ceiling reset or unchanged repeat is admitted. This remains an unfinished calibration/admission obligation, not a ready card.
 
 - [x] S15-W4-WD1-INVALID-20261103: The completed sensitivity comparison is invalid because its reference changes writer support; it licenses no reliability, learning or competence claim.
 
@@ -408,7 +531,7 @@ All three are first-generation follow-ups, ranked below packet cards; constructe
 - [x] OPS-S15-W4-HEALTH-20261103-1005: Both Gear 2 CPU studies are advancing in independent verification within their limits; monitoring and recorded results verify, while the ready buffer and remaining commissioned builds are unfinished.
 
 - [x] W4-S4(b): Full visible-navigation source and descriptive menu comparison complete with fresh replay; all results and scope limits recorded under S15-W4-S4B-MENU-20261103.
-- [ ] W4-ready-buffer: 0/8. Current health inspection verifies 0/4 active research workers; PP1 and WD1.h1 running reminders are corrected to their landed terminal states. Remaining consumers and full admission are unfinished; source, control, instrument and cost holds remain. See OPS-S15-W4-HEALTH-20261106-0028.
+- [ ] W4-ready-buffer: 0/8. Current health inspection verifies 0/4 active research workers; D7.h1 preparation is complete; WD1.h2 support is complete but full calibration and human admission remain cost-held. Remaining consumers and full admission are unfinished; source, control, instrument and cost holds remain. See OPS-S15-W4-HEALTH-20261106-0635.
 
 - [x] OPS-S15-W4-BUILD-20261103: The commissioned menu-comparison pipeline is complete and recorded; both existing Gear 2 studies continue with verified progress, while the ready buffer and remaining campaign builds are unfinished.
 

@@ -125,6 +125,34 @@ edits here.
 
 ## Approved wording and source history
 
+The November 6 curator errata is applied across four theory files and this README. Its
+[original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md)
+and [application receipt](../design/archive/THEORY_ERRATA_20261106_APPLIED.json) preserve the exact
+source, anchor checks, stable identifiers and before/after hashes. It files three sources in the
+curator's own words, lightly cleaned: his 1 November walkthrough of the analyst's 30 October
+questions, his turns of 3 and 4 November in the project's separate theory discussion thread, and his
+6 November message answering the analyst's readiness questions and evidence. The channels are held
+as pre-solved functions run forward and backward at graded strength, with triggers as slopes
+measured against the balance of needs (G235 to G240); set points, power, status and respect, what
+each channel is for and whom it serves, and DISGUST on trial follow (G241 to G247), with the theory
+thread's trial channel table as the analyst's draft, made at his request and not confirmed by him.
+The ladder ends in identity, which nothing trades for while it answers first, and values and
+channels are read from costly action and from output (G248 to G251). The reader's own autopilot and
+slotting, the closing of the model and AI read as opaque authority are reader heuristics
+(HH-OWN-AUTOPILOT, HH-SLOTTING, HH-CLOSE-MODEL, HH-OPAQUE-AUTHORITY), and flow, planning stops,
+global revision and the hand on the mouse are decision traces (D-FLOW-ENACTS, D-PLAN-STOPS,
+D-GLOBAL-REVISION, D-HAND-SWITCH). Research standing sits beside his words as the analyst's, never
+inside his quotations. Every position filed is OPEN. Ghost V26 results are not imported by this
+errata and await curator uptake.
+
+The supplied literature reading labels belong to the packet's analyst review, not a new
+full-text review by the filing operator. The original transcript and companion edit JSON
+were not supplied locally; quotation wording and repair provenance are preserved from the
+packet, without claiming an independent transcript comparison. The application receipt
+records the two afterword merges that preserve subsequent results, the corresponding
+measurement cross-references, and the qualification of the analyst's utility statement.
+
+
 The October 21 positions and October 25 morning and walk positions are filed from
 the [Week 3 packet](../design/stage-15/week3/PACKET.md), Appendices A, B and C.
 The supplied appendices are condensed accounts, so this filing uses attributed

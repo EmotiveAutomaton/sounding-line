@@ -1069,6 +1069,55 @@ commissioned on 17 October, test the boxes' stability per writer and whether a w
 before words her own history did not predict; the second is the analyst's narrower version of a
 question the curator judged untestable at 10:15, whether surprisal shows how devoted a writer is.
 
+**Flow, planning stops, global revision and the hand on the mouse** *(2026-11-01)*:
+
+> Obviously, if you have the ScholaWrite corpus, where we have the entry delays, we can hunt for
+> long periods in which there were low delays to identify flow states, and in doing so identify
+> segments that are just literally expertise being enacted one after the other. And that means [...]
+> there are recent records of higher-order decisions that were made in the past that are being
+> applied here as well. Like the three-paragraph format, or some other kind of best practice in
+> writing, be it named or casual.
+
+> Yeah, you definitely wouldn't be able to predict planning. The moments when someone stops to plan
+> are kind of explicitly System 2. And if anything, it's snippets of System 1 that are your
+> expertise. And if System 2 is just attention, and attention is just consciousness, which is kind
+> of more or less where we've fallen down [...].
+
+> For global revision, it sure does seem like that's a very critical thing. [...] So global revision
+> would occur when you have allowed your expertise to slot in words automatically, and then you need
+> to go back afterwards, or you decide to go back afterwards, and align those actions in a
+> higher-order dependency chain with a slightly different goal than was originally used for that
+> expertise outcome, like a function with an input and an output. And you need to go back and make
+> changes to align those automatic outputs with the higher-order functional hierarchy positions.
+> Anyway, revision's probably going to be very important.
+
+> I didn't know we had cursor movements on CoAuthor. [...] We have cursor moves. We have the
+> keyboard typing. But I would imagine people would often have the mouse in their hand while they
+> were thinking or planning. I feel like that's a higher-order move. Like, you literally would shift
+> from two hands on the keyboard to one hand keyboard, one hand mouse, when you're trying to make
+> higher-order decisions about the document. And I bet we could track that information.
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator places a writer's higher-order goals in four observable places: flow windows that enact
+compiled expertise and earlier decisions, such as a three-paragraph format; stops to plan, Type 2
+(deliberate) processing that an autopilot model cannot predict, and attention if, in his words,
+"System 2 is just attention"; global revisions realigning autopilot output with a later goal; and a
+hand leaving the keyboard for the mouse. Global revision goes with gains in the writer's
+understanding ([Baaijen & Galbraith, 2018](https://doi.org/10.1080/07370008.2018.1456431), read),
+and in stimulated recall, comments on a replay of one's session, planning made up 7 percent of
+comments on single-word revisions and 37 percent on larger ones
+([Révész et al., 2019](https://doi.org/10.1017/S027226311900024X), read; the analyst's arithmetic
+from the paper's counts). **Real objection.** A stop is neither necessary nor sufficient for
+planning. Planning also runs during typing
+([Roeser et al., 2025](https://par.nsf.gov/biblio/10614280), abstract read), and only about 40
+percent of recall comments on long pauses between sentences concerned planning (the same study and
+arithmetic). **Stress test.** Moving a hand between keyboard and mouse takes about 0.4 seconds in
+the keystroke-level model, a standard account of how long interface actions take
+([Card et al., 1980](https://doi.org/10.1145/358886.358895), snippet), so a hand switch lengthens a
+pause by itself. These records stand in this section's later table (S15-W4-S1, S15-W4-S4a,
+S15-W4-S4b, S15-W4-S5).
+
 **86 university students, one prompt, three drafts each. Maker, prompt, topic, register, and genre
 all fixed by construction.**
 
@@ -1104,6 +1153,10 @@ all fixed by construction.**
 | **D-PAUSE-BOXES** | Pauses in writing mix several causes, motor stumbling behind inner speech, the check of a dependency, regeneration after a failed check, and hard choices with large consequences, and they fall into distinct duration boxes, with how a writer's pauses divide among the boxes a candidate trait | **OPEN.** Pause durations fit lognormal mixtures with three between-word components, and per-student parameters held across prompts in one study (lit, READ); the stability of a writer's reflective components across sessions is untested, and most keystroke timing features are unstable as traits (lit, SNIPPET); Sounding Line card D17 is commissioned. **Earlier attempts VOID** after nonconvergence and engineering failure (OPS-S15-D17-1017). The authorized environmental continuation is verified complete and supports writer stability of slow-pause share, without identifying psychological components (test, S15-DRIVE-MIDRUN-LANDINGS-1018; human CoAuthor logs, fitted pause mixtures). |
 |   | | *(2026-10-18: failed original attempts retained; the separate authorized continuation supplies a valid descriptive stability result, not a psychological label for each component.)* |
 | **D-OWN-SURPRISE** | Words that carry more information against the writer's own history than against the crowd's mark attended choices, so they should be preceded by longer pauses beyond the crowd's surprisal | **OPEN.** Likelihood ratios of a text under an author's own grammar against a population's are used in authorship verification (lit, READ); no writing study linking language-model surprisal to the pause before a word was found; at 10:15 the curator judged the related question, whether surprisal shows how devoted a writer is, untestable; Sounding Line card D33 is the analyst's narrower attempt. **Scoped association SUPPORTED; personal specificity OPEN.** The complete chronological comparison has a positive coefficient, but rebuilding histories after writer-label shuffling also produces a positive coefficient; the stronger-baseline extension remains unrun (test, S15-DRIVE-W1-1017-1702; human CoAuthor text-delta records, fitted word-history and pause models). Browser onset intervals do not directly measure attention or devotion. |
+| **D-FLOW-ENACTS** | Long low-delay windows of production are flow, in which compiled expertise and earlier higher-order decisions are enacted one after another, such as a three-paragraph format or another named or casual best practice | **OPEN.** The curator's account (2026-11-01). Stance and structure markers sit at burst edges in second-language essays, and burst length mostly tracks typing skill between writers (lit, READ); the fluent-window comparison does not detect more personal template reuse in fluent than in hesitant windows, and its constructed check limits sensitivity to small effects (S15-W4-S1 below); that comparison tests personal templates, not shared practices such as the three-paragraph format |
+| **D-PLAN-STOPS** | The moments a writer stops to plan are, in his words, "kind of explicitly" Type 2 (deliberate) processing, which a model of the writer's autopilot, whose output is snippets of expertise, cannot predict; if, in his words, "System 2 is just attention", a stop to plan is attention | **OPEN.** The curator's account (2026-11-01). Planning also runs during typing without a stop, and about 40 percent of recall comments on long pauses between sentences concerned planning, by the analyst's arithmetic from the paper's counts, so a stop is neither necessary nor sufficient evidence of planning (lit, READ); the expert-labelled planning comparison is void at its declared author support (S15-W4-S5 below) |
+| **D-GLOBAL-REVISION** | Global revision occurs when expertise slotted in words automatically and the writer goes back to align those outputs, in a higher-order dependency chain, with a goal slightly different from the one first used; revision is where higher-order goals show | **OPEN, logic only.** The curator's account (2026-11-01), beside D-EDIT-REPLACES and D-RETARGET. Global revision goes with gains in the writer's understanding, and planning content rises with the level of a revision (lit, READ); no project measurement on people |
+| **D-HAND-SWITCH** | A shift from two hands on the keyboard to one hand on the mouse marks a higher-order decision about the document, and logged cursor moves can track it | **OPEN, logic only.** The curator's proposal (2026-11-01). No study either way was found; the keystroke-level model's homing time between keyboard and mouse would lengthen a pause by itself (lit, SNIPPET); the backward-jump comparison is void at its writer floor (S15-W4-S4a below), and the browsing comparison concerns pointer and keyboard use inside the suggestion menu and identifies neither attention nor a device effect (S15-W4-S4b below) |
 | **S12-REALIZATION-1** | A reader distinguishes realized surface features from requested ones, including unfulfilled requests and unrequested features | **SUPPORTED for explicit checker assistance; OPEN for the requested-versus-realized distinction (test, L449).** On model-generated G159 artifacts, a Qwen reader evaluates 64 exact-feature items from 20 lineages. Every view names the feature; the assisted view also supplies the exact program's answer and improves paired cluster loss by 0.265 [0.134, 0.389]. Pooled method and instruction-provenance contrasts are unresolved. The original pooled report lacked conditional request-by-presence analysis; the separate cell analysis (L454) leaves an interaction and learned rival absent. Assistance does not establish unassisted instruction recovery or human intention inference |
 | **S13-REALIZATION-CELLS** | Separating request status and actual feature presence identifies reliable unaided realization checking | **OPEN beyond the conditional diagnostic (test, L454; retained model-generated artifacts, Qwen readers and exact feature checker).** Every requested/present cell is recorded, with strong dependence on feature presence and supplied answers but no stable method order. Feature composition and prevalence differ across request groups; no paired interaction is fitted. The exact defining checker remains privileged, and confident errors and original infinite logarithmic losses persist. No semantic-goal or human-intention claim follows. |
 | **S15-P4** | Chronological content and writer offsets improve held-out handling forecasts beyond their frozen rivals | **OPEN for content-specific and personal-taste inference.** The content primary is marginal; its writer-offset extension is positive with a similarly positive handling-shuffle control. Neither point gain reaches the useful margin (test, S15-DRIVE-W1-1017, P4 and P4 extension; human CoAuthor handling records, fitted content and writer-offset models). These are descriptive forecasts, not recovered private goals. |
@@ -1198,7 +1251,12 @@ mechanism unestablished. Slow-pause share is stable across writers' sessions in 
 but a positive shuffled-history control prevents interpreting that association as
 specific to the writer or as attention (D-OWN-SURPRISE). Chronological writer offsets
 likewise improve prediction under a handling shuffle, leaving content-specific and
-personal-taste claims open (S15-P4).
+personal-taste claims open (S15-P4). The curator also places higher-order goals in flow windows that enact earlier decisions
+(D-FLOW-ENACTS), in stops to plan that an autopilot model cannot predict (D-PLAN-STOPS), in global
+revisions that realign autopilot output with a later goal (D-GLOBAL-REVISION) and in a hand leaving
+the keyboard for the mouse (D-HAND-SWITCH). The revision account fits writing research, a stop is
+neither necessary nor sufficient evidence of planning, and the records here leave all four untested
+in their stated forms.
 Confidence: the paired-delta recovery claim is replicated and controlled (two batteries,
 gates quiet; scope one corpus, one reader family); the realized-choice result is one bad
 test away (preregistered, one corpus pair, one reader family); the route-blindness result
@@ -1206,7 +1264,7 @@ is one bad test away, one construction deep, its surface-residue half unexplaine
 earlier artifact-only reads stay exploratory; the annotation result is one bad test away as a
 descriptive measurement, one corpus, five projects; the current uptake inference is
 instrument-dead; the collapse and floor decomposition stand as before; expertise reuse, the
-two-maker rows and the purpose and editing mechanisms are untested, logic only;
+two-maker rows, the purpose and editing mechanisms and the flow, planning, revision and hand-switch proposals are untested, logic only;
 the scoped surprise, forecasting and pause-stability comparisons are one bad test away; the original failed
 pause-box attempts remain instrument-dead. Stage 7's history track draws the same boundary on constructed mixed histories (H-S7, L351): a one-time
 switch of control is readable from the process record by process statistics; the direct change-point comparison cannot establish reader incapacity because its 20-option readout is defective,

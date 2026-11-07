@@ -564,6 +564,407 @@ PLAY is proposed to address broad uncertainty when the environment is safe, with
 
 LUST is retained as a distinct evolutionary system, perhaps deeper than the others. PANIC/GRIEF's name may mislead and its function is explicitly unresolved. Neither is to be absorbed into a simple copying account of the other channels. The proposed phylogenetic clue is provisional: only LUST and perhaps PANIC/GRIEF and CARE looked datable to him. The channels are held to be largely inherited and partly learned. Their triggers and confusing nuances are the object of explanation, not settled labels. The top of the chain may be persistence, with people as imperfect optimizers, but he explicitly finds that top hazy. Confidence: untested, logic only.
 
+**Channels are pre-solved functions, run forward and backward** *(2026-11-01, 2026-11-03 and 2026-11-04)*:
+
+> We have to define exactly what that process, or what that structure in the brain is, this forward
+> and backward process. By which I mean, like, we can use FEAR both to reverse engineer someone's
+> painting, or to forward engineer our own survival. Not survival, like persistence, but it becomes
+> kind of its own end.
+
+> I'm not sure what to make of that, feeling-like signals at logged blocks. [...] But it sure does
+> feel like feeling-like signals would just be expertise again. Right? Isn't that what we're
+> treating feelings as?
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+> In particular, they are all solutions. They are all chains in the inference that come pre-solved
+> to solve some of the most useful questions, or most pertinent questions, that living things tend
+> to interact with.
+
+> I'm also kind of curious as to whether anyone else sees them like this, as pre-solved chunks of an
+> inference. Run it forward to figure out what to do. Run it backward to understand someone else.
+
+*Curator's turn 2 in the project's separate theory discussion thread, 2026-11-03 (sent 07:32 PST); filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+> The trigger is the state that not only tends to invite the user to apply FEAR or anger or
+> whatever, but it also just attracts those solutions on its own, simply due to the shape of the
+> problem. There's certain situations that trigger FEAR and anger, and you could manually try to
+> interact with that triggering, but that's distinct from the function that those things serve. The
+> trigger is the shape of the problem; the function is the way they tend to transform it. Those are
+> two separate things. We're treating these as functions with triggers that sometimes fire on their
+> own, especially when the user isn't paying attention properly.
+
+*Curator's turn 9 in the project's separate theory discussion thread, 2026-11-04 (sent 06:15 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> To be clear, the everyday words, I actually kind of want a full scale. Like, anxiety is the word
+> we use. Like, there is a lowercase for fear. So, god damn it. Annoyingly, the lowercase words can
+> mean two things. The lowercase words can either refer to the higher-level mixes that tend to
+> include those, like fear. A lowercase fear is just a neocortical fear; that's fine. But in this
+> area, the channel "everyday words", I specifically want a kind of scaled list. You go from, like,
+> worry, anxiety, fear, terror, for example, to kind of indicate the strength of the application of
+> that set of rules, I think. They can be applied in variable senses, and I think that's a key note.
+> The variable way of applying them is perhaps different from the kind of control you get from
+> neocortex, which binds them associatively. And so, in a very real way, there's an all-capitals
+> ANXIETY, all-capitals WORRY, and all-capitals TERROR, for example, is my guess.
+
+> I think that it actually makes sense that you would have triggers and brakes for all of these
+> channels.
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+The theory thread's trial table of 4 November follows. The analyst drafted it after the curator's
+last turn there, at his request ("let's try making trigger slopes. See how that looks. Try it out").
+His only later remark on a channel table, "a first-pass weak suggestion" that is "not ridiculous"
+(his 6 November message, in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4), may mean this
+table or the thread's earlier "Channels, running" table. It is a trial, not confirmed by him, and
+the cells marked thin are the analyst's weakest.
+
+| Channel | Trigger, as a slope | Function | Brake | Strength, weak to strong | Off, or slope reversed |
+|---|---|---|---|---|---|
+| FEAR | Safety forecast dropping fast; looming | Moves me: still, then away | Distance, safety cues, someone of mine close | uneasy, worried, anxious, scared, terrified | calm; relief |
+| RAGE | Reach dropping while I still expect it (the analyst's, thin check): restraint, contingency loss, something taken, expected yield not coming, pain | Moves the world | Reach back; reach gone (turns to sad); stronger opponent | annoyed, frustrated, mad, angry, furious, rage | patient; triumph, grateful |
+| SEEKING | Always on. Any stimulus gets a fast burst, then better than forecast raises it | Turns anything into a get: how hard, stay or leave, take apart | Worse than forecast, threat, bitter, full, goal met | interested, curious, eager, enthusiastic, excited | listless is off; bored is on with no target; disappointed is reversed |
+| PANIC/GRIEF | A person's share of my forecasts falling faster than expected, scaled by routing (the analyst's, thin check) | Regains the link: blind request for care, search for someone to appreciate | Touch, presence, opioid release | sad, lonely, grief, anguish, heartbroken | belonging; moved, reunited |
+| CARE | Someone of mine dropping; also a level (helpless shape) | Spends my security raising theirs; teaches | Low security, FEAR, effort, not mine, rich elsewhere | tender, fond, protective, devoted, love | indifferent, cold |
+| PLAY | Mostly not a slope: flat, near even, safe, time since last | Loosens rules, lowers consequences, tightens | FEAR, hunger, steep slopes, real tears, need to be serious | amused, silly, giddy, playful, hilarious, hysterical | serious, solemn |
+| LUST | Mixed: rise on ladder, someone new, their rising interest; hormones as gain | Adds someone, closes distance, turns disgust down | DISGUST if first, FEAR, just finished | desire, passionate, lust, aroused | turned off, spent |
+| DISGUST, on trial | Something not mine about to get in; socially, someone far beneath me closing | Shuts intake, pulls away, stops me running their model | Mine, LUST sometimes | dislike, yucky, disgusted, gross, loathe | appetite, savor; trust on Plutchik's wheel |
+
+The thread's own note on the scales is that the word scales roughly follow the arousal ratings of
+Warriner et al. (2013, snippet, cited through the note), and that FEAR's top words tie on arousal
+and split on felt control.
+
+For the curator each Panksepp system is a pre-solved function, triggered by a problem's shape, run
+forward to act and backward to read another, at graded strength along an everyday word scale. One
+internal model run forward to predict and backward to infer intention has prior art
+([Wolpert et al., 2003](https://doi.org/10.1098/rstb.2002.1238), read;
+[Kilner et al., 2007](https://doi.org/10.1007/s10339-007-0170-2), read). His line that feeling-like
+signals would just be expertise again fits, on the analyst's reading, evolved expertise with live
+inputs, since a need can revalue a learned cue on the spot (Robinson & Berridge, 2013, read, cited
+above). **Stress test.** Tests of a shared circuit for pain are mixed, a whole-brain test finding
+one's own and another's pain dissociable, nearly orthogonal
+([Krishnan et al., 2016](https://doi.org/10.7554/eLife.15166), read), and an earlier local test
+finding shared patterns in anterior insula, where one's own pain also matched painless negative
+stimuli, so the shared code may be for aversive events generally
+([Corradi-Dell'Acqua et al., 2011](https://doi.org/10.1523/JNEUROSCI.2686-11.2011), abstract read);
+no comparable test for FEAR was found. **Stress test.** Emotion categories meet along smooth
+gradients, anxiety to fear to horror (Cowen & Keltner, 2017, abstract read), and an early sort of
+emotion words split worry and anxiety from terror (Shaver et al., 1987, snippet), so the low end of
+the FEAR scale may name a distant threat rather than a weaker dose.
+
+**Triggers are slopes, measured against the balance of needs** *(2026-11-03, 2026-11-04 and 2026-11-06)*:
+
+> Yeah, stress being defined as uncertainty is pretty reasonable. That's a nice unification. Stress
+> being [what's] left when nothing reduces, that makes sense. That is what's left when nothing
+> reduces. That's fair.
+
+*Curator's turn 6 in the project's separate theory discussion thread, 2026-11-03 (sent 18:10 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> I already have the idea of a set point over time, with vectors adjusting a value back towards a
+> preferred center line.
+
+> Like, a stupid fish can't compute relative uncertainty. It just reads "I won." [...] Like, the
+> trigger would be, in humans, sufficiently certain futures. Like, the futures you live are real in
+> a tiny sense. Like, if you are imagining a future where you will be afraid, then you are a little
+> bit afraid right now. And so by being near someone who is capable of doing something, and capable
+> and even likely to do something to hurt you, then all of a sudden you will start to be a little
+> bit afraid right now, because you model that in your perspective. But it's not like you're
+> responding to the uncertainty. You're responding to the stimulus, and the uncertainty is
+> attenuating that.
+
+*Curator's turn 9 in the project's separate theory discussion thread, 2026-11-04 (sent 06:15 PST); filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+> But it seems like the channels are ways to move around the space, whereas the space is the set
+> points itself. No, this [grid] isn't set points; this is like social transition mapping.
+
+> No, I think you're right. I think it is slopes, not levels. But the triggers for some of these
+> things are slopes along the set points, specifically, that you have. Is it set points? Or at least
+> slopes along the social ladder.
+
+> I still think my graph, for a central line with vectors, that is, there's like a preferred space
+> for that central line to be in. There's like a heated area, and as it goes too far up,
+> occasionally a vector will come and push it back down, and as it goes too far low, occasionally a
+> vector will come and push it back up. We just have to name what those things are. We found some of
+> them already.
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+> I don't know that's necessarily true for C3 on mood. So "the mood keeps falling when nothing
+> changes" would kind of be an expected effect, because if nothing is changing for a while, then
+> effectively you are more and more looking at your simulation, and that effectively means that more
+> and more you are returning to baseline, with the added note that any of your needs that are time
+> sensitive, such as, like, if you're low on belongingness, it gets worse. In fact, I would actually
+> back that up and say all of the needs that you currently have unmet will slowly drift further away
+> from acceptability, and mood decreasing would be normal from that. Like, if you aren't getting
+> your belongingness needs met, then just over time you'd expect a slow decrease in mood. Yeah,
+> there's a bunch of explanations for that. All of them are fine. Like, all of them are probably
+> true at the same time.
+
+> "What is velocity measured against?" I mean, it can't just be social. Is it just, like, other
+> needs? Because at a certain point we have to balance the needs against each other. And so it kind
+> of seems like it might be the strength of one need balanced against the strength of all the other
+> needs, maybe. And the kind of weighing on that, that's one of the things that Solms has suggested
+> is consciousness, for choosing how to weigh one versus the other. And he suggests that's where
+> consciousness lies, which honestly would just be an effective way for us to control when anger and
+> FEAR fire. It's quite reasonable, I think, as an entry point. We're talking about, you control
+> attention; that's what you're controlling attention on.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+Feeling as velocity is prior art
+([Carver & Scheier, 1990](https://doi.org/10.1037/0033-295X.97.1.19), snippet;
+[Joffily & Coricelli, 2013](https://doi.org/10.1371/journal.pcbi.1003094), abstract read). The
+curator's speed reference, the balance of all needs, fits homeostatic reinforcement learning, where
+"drive", not a Panksepp system, is the internal state's distance from its set points and its claimed
+inhibition between drives went unsimulated
+([Keramati & Gutkin, 2014](https://doi.org/10.7554/eLife.04811), read). Solms backs his paraphrase,
+the felt need depending on "needs in relation to other needs, and needs in relation to
+opportunities"
+([Solms, 2019](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02714/full),
+read). Hunger gates rival drives in mice
+([Burnett et al., 2016](https://doi.org/10.1016/j.neuron.2016.08.032), abstract read;
+[2019](https://doi.org/10.7554/eLife.44527), read) and mutes ongoing but not acute pain
+([Alhadeff et al., 2018](https://doi.org/10.1016/j.cell.2018.02.057), abstract read). **Stress
+test.** Solms has precision, the confidence weight a signal gets, pick one need among categorically
+separate needs; Cabanac puts all needs on one scale of pleasure
+([Cabanac, 1992](https://stafforini.com/works/cabanac-1992-pleasure-common-currency/), abstract
+read), and Morsella puts consciousness at conflicts between response systems
+([Morsella, 2005](https://doi.org/10.1037/0033-295X.112.4.1000), read). **Real objection.** Of his
+mood-drift explanations the analyst files unmet needs as testable, yet at rest those at higher
+depression risk drifted less ([Jangraw et al., 2023](https://doi.org/10.1038/s41562-023-01519-7),
+read), a tiny effect, reportedly replicated and robust to floor effects (Supplementary Notes,
+snippet). Isolation lowered energy like fasting in the lab, but in daily life, correlationally, only
+for the highly sociable and those living alone
+([Stijovic et al., 2023](https://orca.cardiff.ac.uk/168251/1/stijovic-et-al-2023-homeostatic-regulation-of-energetic-arousal-during-acute-social-isolation-evidence-from-the-lab-and.pdf),
+read).
+
+**Set points, power, status and respect** *(2026-11-03, 2026-11-04 and 2026-11-06)*:
+
+> Margin from dissolution isn't a set point. We optimally want to be as far away from dissolution as
+> possible. So I guess our set point is as far away as we can get. And if something moves us away
+> suddenly, then we can try to use anger to counteract that quickly.
+
+> Set points are too variable. I think we need fewer set points and more ways to interact with them
+> [...]. Doesn't Panksepp, or Solms at least, treat hunger as an emotion? As one of these set-point
+> things? Satiety as one of their set points? I should probably use their set points for sure.
+
+*Curator's turn 6 in the project's separate theory discussion thread, 2026-11-03 (sent 18:10 PST); filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+> Power is three things. [...] In this case, power is just accurate expertise. And what you've got
+> is the actual results of your expertise predictions. You've got your predictive assumptions and
+> your trajectory mapping about what's possible. And then also other people's prediction of your
+> ability to do those exact same things.
+
+*Curator's turn 9 in the project's separate theory discussion thread, 2026-11-04 (sent 06:15 PST); filed 2026-11-06. Contiguous excerpt with a marked omission; an intensifier removed and transcription repairs listed in the handoff.*
+
+> Speaking of number three, that study just still doesn't speak against it. All you're doing is
+> increasing the likelihood of reward, which is still just fine. Like, certainty is likelihood.
+> Yeah, I guess that study is reasonable. For number three, certainty does keep some small pull of
+> its own. Though I guess that's honestly more just a want to predict your future environment. I'm
+> not sure that that's a good example, since it's really just epistemic foraging, which is outside
+> the realm of triggers. Or rather, it's the decoding portion.
+
+> I think it's cleaner to say that respect counts as status plus kindness, which is kind of defined
+> here as a willingness to apply the CARE network to the reader, actually.
+
+> So what we're talking about is things like security. We're talking about safety and security, I
+> think. That's off the cuff, what seems like it fits for me, but I'm down for other set-point
+> names. Things more well informed by the research, for sure, would be nice. Belonging is a good set
+> point. Good. I don't think standing is a set point. I think standing is probably closer to being a
+> form of power, which by definition means that it doesn't sate, because you can set this metric as
+> an identity and then just chase it endlessly. [...] Frankly, I don't really see a big difference
+> between standing and power in this context, but no. No. The two of them do seem like they might
+> interact. [...] Still, there's something weird here. It's not quite a set point as we've defined
+> it yet.
+
+> I mean, effort times power is what gets the effect. Let's be clear here. A rich person could
+> casually toss aside a million dollars and have an incredible effect upon whatever it is they're
+> trying to affect, easily, whereas a poor person can try exclusively for years, and spend a great
+> deal more effort, and barely get the same effect.
+
+> In fact, I would even suggest that your preferred set point for those in your care increases,
+> perhaps. As you get better standing outcomes, predictions, and resources, you want to ensure those
+> in your care stay within range.
+
+> It makes sense that respect isn't domain specific, or that respect would have to be domain
+> specific, obviously. It's fitness, given the environment, that creates respect. Or status, rather.
+> Respect you get from the addition of kindness. Keeping it all precise is tricky.
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> The status not fading the way income does is interesting. Something to do with local environment
+> [...]. This is tricky. I'd need to know more about what status and income are defined as in that
+> circumstance, and also things like, did income result in changing your peer group? Did status?
+> There's a bunch of confounds that actually kind of would need to add texture to that one, for the
+> second half of C3.
+
+> I mean, so far this evidence isn't really against me. The status thing is notable, and I think
+> status is where my theory is weakest currently. But I also think that particular study might have
+> more nuance to it than you're giving it credit for.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+The curator wants fewer set points, physiological needs, security, belonging and those in one's
+care, and keeps certainty, power and standing off the list. He reads the analyst's pull toward
+certainty as epistemic foraging, power as accurate expertise, real, felt and credited, and respect
+as status, fitness in an environment, plus kindness. His words leave open whether learned ends can
+still become set points (G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4). Large
+datasets find feelings tracking close kin of two excluded variables, respect
+([Tay & Diener, 2011](https://doi.org/10.1037/a0023779), read) and felt control
+([Killingsworth, 2021](https://doi.org/10.1073/pnas.2016976118), read). On what he calls his weakest
+point, the contrast offered is weak on both sides. Status there was occupational prestige and income
+the household's; "no adaptation to status" failed to reject adaptation as large as income's
+([Di Tella et al., 2010](https://www.nber.org/papers/w13159), read); income adaptation vanishes in a
+longer panel controlling household size
+([Kaiser, 2020](https://mpra.ub.uni-muenchen.de/89867/1/MPRA_paper_89867.pdf), read); and local
+standing predicted well-being where family income did not
+([Anderson et al., 2012](https://escholarship.org/content/qt2x39c3kp/qt2x39c3kp.pdf), read). **Real
+objection.** People allocate status mainly for benefit to others
+([Durkee et al., 2020](https://doi.org/10.1073/pnas.2006148117), read), so status plus kindness may
+count kindness twice. **Stress test.** Ability and motivation mostly add in job performance, their
+product adding about 9 percent of explained variance by a contested method
+([Van Iddekinge et al., 2018](https://doi.org/10.1177/0149206317702220), read).
+
+**What each channel is for, and whom it is for** *(2026-11-03, 2026-11-04 and 2026-11-06)*:
+
+> LUST allows you to introduce more, to try to copy more things out in the world, whereas CARE
+> ensures that it reduces the uncertainty of existing copies. And PLAY allows you to decrease
+> uncertainty of yourself, ideally using your own copies. [...] So it's about managing uncertainty
+> in your environment with respect to the evolutionary lens that treats other people as you, but
+> only with respect to their individual channels.
+
+> This idea that RAGE fires when there's too little weight on your welfare, I feel like that's just
+> an application of anger. Like, anger, what you actually want is some kind of future state with
+> others that have a certain amount of weight on their welfare, maybe. And the anger is literally
+> just firing in those cases. Like, you want to be surrounded, like, you expect people who care
+> about you to care about you. And you expect people who are neutral to you to be neutral to you.
+> And you can be angry when they do less than that. That's an unfalsifiable definition for this. I
+> don't like that.
+
+*Curator's turn 4 in the project's separate theory discussion thread, 2026-11-03 (sent 16:35 PST); filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+> It's something about your copies. It's specifically, CARE is reacting to other copies of the CARE
+> network, specifically, that are themselves being activated. Anger fires when CARE is being fired,
+> but there's nothing on the other end. CARE is not being fired across.
+
+*Curator's turn 6 in the project's separate theory discussion thread, 2026-11-03 (sent 18:10 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> I think we might want to actually subdivide these words. A copy is a gene sharer. Anything
+> carrying your pieces is a carrier. And someone running the same channel is an active carrier, I
+> guess. I do think that the CARE network relies on it being used somewhat reactively, like both of
+> you use it on each other, or else anger comes in and fires because [of] the willingness to trade,
+> [the] welfare trade-off thing.
+
+*Curator's turn 9 in the project's separate theory discussion thread, 2026-11-04 (sent 06:15 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> The thing you're missing with PANIC/GRIEF is its function. Its function is to try to regain lost
+> connections. Like, it forces people to gather near you to help you, or at least it tries to. [...]
+> By definition, your model of the world is weaker, because your predictive outcomes all relied upon
+> the presence of someone else, and now that that presence is gone, you are by definition uncertain.
+> And so you are looking for someone to latch on to, to kind of help you and show you the way during
+> this confusing time, so to speak.
+
+> It's a possibility. It's kind of a blind request for care, is kind of what PANIC/GRIEF seems to
+> be. And it's, like, threat aware too, something I didn't realize.
+
+*Curator's turn 11 in the project's separate theory discussion thread, 2026-11-04 (sent 12:06 PST); filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+> I want to note, by the way, that carrying my pieces doesn't necessarily mean family. It also just
+> literally means in-group. Like, do you have the same neural structures that I have?
+
+> Interesting. RAGE wants something to stop, and SEEKING wants something to get. That's important.
+
+> So yearning is SEEKING. That makes sense.
+
+> Yeah, predation is just SEEKING, obviously. We've figured that out. That's fine. Instrumentalizing
+> other beings into objects is what it does. It wants to disassemble things and pick them apart, in
+> a very real way.
+
+> I still want one function for PANIC/GRIEF.
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+> Anger triggers as soon as you start hurting my copies. And that's kind of gently applied over
+> everything. Like, to an extent, any human is some percentage a copy of you, but the more similar
+> they are, the more anger would trigger, because you are hurting my goal of CARE copying.
+
+> I mean, I'm aware of that study. I don't understand why it's evidence against me. All you're
+> saying is that it's just a thing that I thought I couldn't, off the cuff, figure out a way to
+> falsify. Someone did, and there we go. That's like strong evidence for me, but not strong evidence
+> for my off-the-cuff experimental design chops.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+For the curator the welfare-weight account, anger firing when another puts too little weight on
+one's welfare, applies anger rather than rivalling RAGE wanting something to stop, and his own words
+tie anger to CARE meeting nothing on the other end. So its test bears for him: people judged that
+anger rises when the offender gains less from the harm, across 23 experiments in six cultures
+([Sell et al., 2017](https://doi.org/10.1016/j.cognition.2017.06.002), read), in judgments about
+vignettes rather than felt anger. His similarity gradient has partial support. Third parties protect
+in-group victims much more
+([Bernhard et al., 2006](https://kops.uni-konstanz.de/entities/publication/902aa3c3-c694-4b1c-a581-667058c2404a),
+abstract read), and a shared category raised anger on victims' behalf among those who identified
+with it
+([Yzerbyt et al., 2003](https://scispace.com/pdf/i-feel-for-us-the-impact-of-categorization-and-lvekibvrpu.pdf),
+read). **Real objection.** Two experiments found no support for perceived similarity as the source
+of empathy for strangers, and the second supported nurturance
+([Batson et al., 2005](https://scilit.com/publications/1e26074a13dab53e9a64d8b745cc6ff7), abstract
+read); anger on another's behalf ran through empathic concern, the caring response to another's need
+([Batson et al., 2007](https://scispace.com/papers/anger-at-unfairness-is-it-moral-outrage-6kcz0x0kv3),
+abstract read). The variable that survives is care, already his set point for those in his care.
+**Stress test.** One extension of his account, the analyst's, predicts that anger tracks expected
+recurrence, since a harm done for a tiny gain is likely to recur.
+
+**DISGUST on trial, and dislike of what cannot be fitted** *(2026-11-04 and 2026-11-06)*:
+
+> DISGUST is a great example. And Panksepp's list doesn't have it, which does bother me. Like, what
+> does that do in our set-point concept? It would effectively move you away from outgrouped, poorly
+> predictive models. It just prevents attention, prevents inference, and you don't therefore think
+> about them. It probably just grabbed the same disease-avoidance system and then applied it to
+> social circumstances, same as any. Like, the same process would apply. There'd be no reason why it
+> wouldn't. And avoiding attention would be just as easily, just as viable a way of keeping a mental
+> firewall.
+
+> Let's try a pass where we pretend that we have DISGUST as a function. [...] It tracks things that
+> you don't want to learn, and it pulls away fast.
+
+> I don't want precaution as an eighth channel, but I do want to explore DISGUST as an eighth
+> channel [...].
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+> Frankly, this is a weak study. [...] Actually, it kind of fits. Like, DISGUST would be dislike of
+> inefficiency [...].
+
+> I mean, this anger or disgust study just directly supports everything that we said. I mean,
+> DISGUST does follow an inferred desire to harm. Once you figure out that they have a desire to
+> harm, the inefficiency of that is dismissible. They don't care about why there is a desire to
+> harm.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with marked omissions; transcription repairs listed in the handoff.*
+
+The curator's DISGUST, on trial, is dislike of inefficiency, of a piece that cannot be fitted
+anywhere; it follows an inferred desire to harm and withholds attention and inference from
+outgrouped, poorly predictive models. This refines his epistemic disgust of 13 October
+(HH-DISGUST-GATE and HH-DISGUST-POLICY in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4). Prior
+art has dirt as what an ordering rejects
+([Douglas, 1966](https://www.qub.ac.uk/schools/happ/Events/annual-lectures/wiles-lecture-series/Secure-access/Filetoupload,967426,en.pdf),
+snippet) and blended faces devalued when viewers had to classify them
+([Halberstadt & Winkielman, 2014](https://pages.ucsd.edu/~pwinkiel/winkielman-halberstadt-JESP-2014.pdf),
+read). On his account the study offered against him supports him, since an agent's inferred desire
+to harm predicted disgust with anger held constant
+([Giner-Sorolla & Chapman, 2017](https://doi.org/10.1177/0956797616673193), abstract read). Panksepp
+classed disgust as a sensory affect (Panksepp, 2007, read, cited above), while a group including his
+long-time collaborator Burgdorf argues it meets his criteria, a debate unresolved
+([Tolchinsky et al., 2024](https://doi.org/10.3389/fpsyg.2024.1454774), abstract read). **Real
+objection, small.** The eyes hold first, briefly
+([van Hooff et al., 2013](https://orbi.uliege.be/bitstream/2268/263300/1/vanhooff2013ACTA.pdf),
+read), and looking falls away only over seconds and repeats
+([Armstrong et al., 2022](https://research-information.bris.ac.uk/en/publications/ive-seen-enough-prolonged-and-repeated-exposure-to-disgusting-sti/),
+abstract read), so on the analyst's reading the move away comes second, after a short attempt to
+slot the piece, in line with that file's §4, where withheld gaze is contested. The stop itself is a
+reader's stopping rule in its §5 (HH-CLOSE-MODEL).
+
 | # | hypothesis | status |
 |---|---|---|
 | **G26** | A goal is a weighting across all levels rather than a level or attention state of its own | **OPEN, adopted as the working position** |
@@ -574,16 +975,36 @@ LUST is retained as a distinct evolutionary system, perhaps deeper than the othe
 | **G187** | One candidate hierarchy places the set points served by inherited drives beneath survival and reproduction; persistence is a tentative broader top, with learned structures also able to serve external outcomes | **OPEN, logic only.** No published level-by-level pairing with the evolutionary motive pyramid was found; Solms's account treats emotional affects as felt needs, and Panksepp separates homeostatic, sensory and emotional affects (lit, READ); the SEEKING, status and disease-avoidance pairings fit loosely (lit, READ and SNIPPET). The curator's 25 October account leaves the top explicitly hazy; this row does not fix survival, reproduction or persistence as the single observed human objective. |
 |   | | *(2026-10-14: drives as heuristic set points with bodily needs among them; 2026-10-16: restated in the curator's needs/solutions vocabulary; 2026-10-25: persistence added as a tentative broader top, with no single human objective fixed)* |
 | **G190** | SEEKING runs from a set point like the other drives, and its deviation is felt as boredom | **OPEN.** Boredom tracks low information and goes with more exploration (lit, READ); SEEKING is also the general-purpose pursuit system the other drives share (lit, READ), a structural difference the model may have to carry; mild boredom also facilitates play (lit, READ), so boredom may belong to PLAY as well (G194). The 21 October tentative description, a scalar pointing toward a want that must differ from RAGE, remains another proposed functional distinction rather than a measured replacement for the boredom account. |
+|   | | *(2026-11-04: the curator's current statement of SEEKING's direction is that it wants something to get, where RAGE wants something to stop; see G244)* |
 | **G226** | Reusable action pieces with inputs, outputs and expected outcomes compose the maker's process, across inherited drives and learned structures | **OPEN, logic only.** Curator proposal, Week 3 Appendix A. This is a functional account of composition, not a new anatomical level or a demonstrated fixed process pyramid. |
 | **G227** | A drive's characteristic transformations constrain the outcome being sought even in an observational record | **OPEN, logic only.** Curator proposal, Week 3 Appendices B and C. A stymied want is proposed to constrain RAGE's interpretation; expression, context and rival motives remain to be separated before inferring an end. |
 | **G228** | FEAR and RAGE amplify other wants, including in lesser and partly automatic forms | **OPEN, logic only.** Curator proposal, Week 3 Appendix C. No project result isolates amplification from a direct action tendency or a change in opportunity. |
 | **G229** | CARE combines responsibility for others with sharing a useful solution and seeking confirmation through appreciation or copying | **OPEN, logic only.** Curator proposal, Week 3 Appendix C; its description as the opposite of PLAY is a proposed functional relation. It does not merge LUST or PANIC/GRIEF into a copying network. |
 | **G230** | Distinct channel triggers and evolutionary histories constrain interpretation, with LUST separate and PANIC/GRIEF still unresolved | **OPEN, logic only.** Curator's tentative positions, Week 3 Appendix C. The proposed phylogenetic clues and inherited versus learned contributions are not established by this filing. |
+|   | | *(2026-11-04: PANIC/GRIEF receives one proposed function, regaining a lost connection; see G245)* |
+| **S15-TD4-C2** | The supplied emotion-word orders form single increasing scales in human word norms | **REJECTED for the specified PLAY ordering; OPEN for four inconclusive covered lists; VOID for three insufficiently covered intensity lists (test, S15-TD4-WORD-SCALES-20261106; human NRC word norms, exact-program readout).** Single-word omissions alternate between against and inconclusive, with none supporting; arousal does not restore the supplied order on the same words (test, S15-TD4-S-DIAGNOSTIC-20261106; S15-TD4-M-DIAGNOSTIC-20261106, descriptive same-norm follow-ups). This constrains the stated word lists, not biological channel identity. |
+| **S15-TD6-C10** | Disgust reduces expressed modelling of another mind relative to anger | **OPEN, inconclusive (test, S15-TD6-MIND-LANGUAGE-20261106; human GoEmotions text and labels, exact lexical readout).** The registered primary is unresolved. The separately constructed rare-count calibration has limited practical sensitivity and unreliable sparse-companion coverage (test, S15-TD6-IC-SENSITIVITY-20261106, exact-program readout); neither supplies a human negative or mental-modelling mechanism. |
+| **S15-TD7-C10** | An examined rejection flattens sensitivity to option fit in later writing choices | **VOID, design cannot test (test, S15-TD7-SUPPORT-20261106; human CoAuthor process records, exact support checker).** The frozen matching yields eighteen writers with ten pairs, below the required twenty; no effect is fitted. |
+| **S15-TD5-C2** | Raters preferentially substitute words assigned to the same proposed channel | **OPEN, inconclusive (test, S15-TD5-CHANNEL-DISAGREEMENT-20261106; human GoEmotions annotations, exact-program readout).** The primary and exactly-three-rater companion each give two wins, two losses and two unresolved pairs; the complete balanced-world calibration has limited full-rule sensitivity and poor interval coverage (test, S15-TD5-IC-SENSITIVITY-20261106, constructed single-label worlds, exact-program readout). It does not establish human-population power or a negative human result. |
 | **G193** | Drives are inherited pre-made controllers that run from set points; each serves particular set points by default, bundled with them in animals, and people unbundle them, learning what to fear and repurposing a drive to serve another need | **OPEN.** The split between needs and solutions is in Solms and Friston and in perceptual control theory; animals bundle assessment with response; displacement activities are the animal precursor of repurposing; need states revalue learned cues on the spot (lit, READ). Some set points may be emergent balances among controllers (lit, READ). No project measurement |
 | **G194** | PLAY runs from an epistemic set point, narrow error bars over one's own solutions in unfamiliar situations; play narrows them, and shared play brings people closer | **OPEN.** Play as training for unexpected loss of control, play under met needs, play as seeking resolvable surprise, juvenile play and adult social skill, and closeness after shared novelty or consensual risk (lit, READ); closeness is the curator's claim, and its working through each partner's narrower error bars about the other is the analyst's candidate mechanism; untested here. The 21 October account emphasizes high uncertainty in a safe environment and inhibition by FEAR; this specifies the conjecture without turning genre or a pause into a PLAY measurement. |
 | **G195** | PLAY's reward is compression progress, and art is a made playground that creates bounded uncertainty and resolves it | **OPEN, logic only; the analyst's proposal.** Joins the three-term aesthetic account (HH-AESTHETIC-TERMS in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §5) to the drives; predicts that play falls with competence and stays at its edge |
 | **G200** | Attended, deliberate processing builds automatic routines over time, the curator's System 2 creating System 1, and routines built by repetition grow into bigger and bigger circumstances and are misapplied unless attention checks them; fluency is the speed of a routine already compressed | **OPEN.** Automatization by stored instances and by compiled rules, and strong-but-wrong errors that rise with training and go undetected, have support (lit, READ and SNIPPET); Type 1 processing also has innate and implicit sources, the two-type split is disputed, and habits are mostly correct and bound to context, with no study found of habits spreading to larger circumstances (lit, READ); misapplication by similarity to the trained context is the analyst's proposed mechanism; Sounding Line card D35 is commissioned to test whether a writer's corrections become her defaults. The completed correction-to-default comparison is null: later untouched text does not show positive transfer along earlier correction directions beyond other writers (test, S15-DRIVE-W1-1017-1550, D35; human CoAuthor records, frozen sentence embeddings and exact regression). General automatization remains OPEN. |
 | **G201** | A single highly weighted aversive experience acts as expertise learned in one shot, broad where expertise built by repetition is narrow; it prunes options from the maker's landscape and fits later situations it does not match, while repeated expertise sharpens discrimination | **OPEN.** Stronger threats widen fear generalization, perceptual expertise differentiates, and aversive outcomes prune planning trees (lit, READ and SNIPPET); one-trial fears are selective, aversive learning both sharpens and blunts discrimination in different studies, and breadth after one example is general Bayesian behavior (lit, READ); the clinical sense of trauma is not tested; Sounding Line card D38 is a mild, exploratory analog, and Ghost study N9 tests whether pruning can be told from dislike |
+| **G235** | Each Panksepp system is a pre-solved function, a chain of the inference that comes already solved; its trigger is the shape of a problem and its function the transformation it applies, a trigger can fire on its own when attention is elsewhere, and one function runs forward to act and backward to read another, as FEAR serves both one's own persistence and the reverse engineering of a painting | **OPEN.** The curator's account (2026-11-01 to 2026-11-04), extending G193 and G226. One internal model run forward to predict and backward to infer intention has prior art (lit, READ); tests of a shared circuit for pain are mixed, a whole-brain test finding own and observed pain nearly orthogonal and an earlier local test finding shared patterns in anterior insula (lit, READ); no comparable test for FEAR was found; drive systems recompute value from present need as well as from a cache (lit, READ); no human measurement |
+| **G236** | Each channel fires at graded strength along an everyday word scale from weak to strong, worry to terror for FEAR, with triggers and brakes; a capitalized name marks the graded channel, while lowercase emotion words can also name the neocortex's associative mixes that include it | **OPEN.** The curator's account (2026-11-04). Emotion categories meet along smooth gradients, and felt intensity splits into several factors rather than one number (lit, READ); an early sort of emotion words splits the low and high ends of the FEAR scale, which may mark a distant threat rather than a weaker dose (lit, SNIPPET); Related human word-norm and annotation comparisons are recorded below (S15-TD4-C2, S15-TD5-C2); the specified PLAY order fails, while channel identity and graded biological strength remain unmeasured |
+| **G237** | A channel's trigger is a slope, the rate of change toward or away from a set point or along the social ladder, not a level; mood follows recent expectations, the analyst's line, which he endorsed; mood that falls when nothing changes has several explanations he holds true at once, among them a return to baseline and every unmet need drifting further from acceptable, and the analyst files the unmet-needs version as the testable one | **OPEN.** The curator's account (2026-11-04 and 2026-11-06). Feeling as velocity toward set points is prior art (lit, READ and SNIPPET); mood fell at rest in a large sample, did not fall during freely chosen activity, and fell less in people at higher risk of depression, a very small effect (lit, READ), with replication and floor-effect robustness reported in Supplementary Notes not inspected in the supplied review (lit, SNIPPET); isolation lowered energy in the lab about as much as fasting, and in daily life only in the highly sociable and in people living alone, a correlational result (lit, READ); disability lowered life satisfaction with no recovery over years, a level effect (lit, READ); no project measurement |
+| **G238** | Uncertainty attenuates a trigger rather than being one; a sufficiently certain future is felt in the present, uncertainty around a threat weakens the response to it, and stress is what is left when nothing reduces, the analyst's wording, which he endorsed | **OPEN.** The curator's account (2026-11-03 and 2026-11-04); the literature pass found no prior statement of the gate. Stress tracked irreducible uncertainty about shocks, which peaks at a coin flip (lit, READ), and saying one was unsure intensified reactions to film clips in small samples (lit, READ); no project measurement |
+| **G239** | The speed a feeling registers is measured against the balance of needs, one need's strength against all the others'; on Solms's account the weighing is where consciousness lies, and it is how attention controls when RAGE and FEAR fire | **OPEN.** The curator's account (2026-11-06). Homeostatic reinforcement learning computes drive over all needs and claims an inhibitory effect of irrelevant drives, untested there with two needs (lit, READ); Solms makes the felt need depend on needs in relation to other needs and to opportunities, with precision selecting one need to feel and the needs kept categorically separate, and his evidence locates the weighing rather than explaining it; weighing every need on one scale is the common-currency version, and consciousness for conflicts between response systems the conflict version (lit, READ); hunger suppresses fear and other rival drives in mice, often only when food is at hand, and mating and aggression only when food is present, Solms's opportunities in a circuit, and it mutes ongoing but not acute pain (lit, READ); no project measurement |
+| **G240** | The theory's shape is a vector field on a space of set points, in which position gives the available moves, velocity gives the feeling, and the channels are the arrows that push a value back toward its preferred band | **OPEN, logic only.** The curator's picture as the thread summarized it (2026-11-03 and 2026-11-04); he read the analyst's status-by-warmth grid as social transition mapping rather than set points. A multidimensional space of set points in which approach is reward is prior art (lit, READ); the literature pass did not find Panksepp's systems as the arrows; no project measurement |
+| **G241** | Set points should be fewer, with more ways to interact with them: physiological needs, security, belonging and those in one's care; security, the margin from dissolution, is held as far from dissolution as one can get, and anger can be used to counter a sudden move away from that quickly; the set point for those in one's care may rise as standing, predictions and resources improve; certainty, power and standing are not set points; he read the pull toward certainty that the analyst drew from a monkey study as a want to predict one's environment, epistemic foraging rather than a trigger; and standing, close to power, does not sate and can be chased without end once set as an identity | **OPEN.** The curator's account (2026-11-03 and 2026-11-04), with the name security offered off the cuff and open to others. His words do not settle whether learned ends can still become set points (G191 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §4). Other need models list certainty and competence (lit, READ); feeling respected was the strongest predictor of positive feelings across 123 countries, status meets the criteria for a fundamental motive, and felt control carries most of income's link to momentary well-being (lit, READ); kin care ranks among the most important measured social motives (lit, READ); no project measurement |
+|   | | *(2026-11-03 to 2026-11-04: he first said margin from dissolution "isn't a set point", then put it "as far away as we can get"; on 4 November he called it a set point and named it security)* |
+| **G242** | Power is accurate expertise, read three ways, as the actual results of one's expertise (real), one's own predictions of what is possible (felt) and others' predictions of one's ability (credited); effect is effort times power | **OPEN.** The curator's account (2026-11-04). The literature calls the credited part prestige and the felt part self-efficacy (lit, READ and SNIPPET); ability and motivation mostly add in job performance, by a contested method (lit, READ); overconfidence rather than accuracy bought status in small groups and was not withdrawn when revealed (lit, READ); The human chess proxy is inconclusive with limited constructed sensitivity (S15-TD-B4-C6 in [`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md) §5); it does not establish a causal effort-times-power mechanism |
+| **G243** | Status is fitness in a given environment and so domain specific, and respect is status plus kindness, a willingness to apply CARE to the reader; status is, on the curator's own estimate, the theory's weakest point | **OPEN.** The curator's account (2026-11-04 and 2026-11-06). Status is allocated mainly for benefit to others, and morality earns respect more than warmth (lit, READ), so kindness may be counted twice; the contrast offered against him, status not fading while income does, is a failure to reject on status and may be household size on income, and standing in one's face-to-face group predicts well-being where family income does not (lit, READ); no project measurement |
+| **G244** | RAGE wants something to stop and SEEKING wants something to get, so predation and yearning are SEEKING; anger fires as soon as one's copies are harmed, applied gently to every human and growing with similarity; anger fires when CARE is fired with nothing on the other end, and CARE relies on being used somewhat reactively on both sides, or else anger fires through the welfare trade-off; the welfare-weight account of anger, that anger fires when another puts too little weight on one's welfare, is an application of anger rather than a rival | **OPEN.** The curator's account (2026-11-03 to 2026-11-06). People judged that anger rises when the offender gains less from the harm, across 23 experiments in six cultures, in vignettes rather than felt anger (lit, READ); that anger tracks expected recurrence is one extension of his account, the analyst's; third parties protect in-group victims more, and a category shared with victims raises anger among those who identify with it (lit, READ); experiments found no support for perceived similarity as the source of empathy for strangers and supported nurturance, and anger on another's behalf runs through empathic concern (lit, READ), so care rather than similarity is the variable the evidence supports; no project measurement |
+| **G245** | PANIC/GRIEF has one function, to regain a lost connection; a loss leaves the griever's model of the world uncertain, and the response is a blind request for care that draws others near, aware of threat | **OPEN, logic only.** The curator's account (2026-11-04), giving the function left unresolved in G230. An early sort of emotion words places lonely in the neglect subcluster, with alienation and rejection, apart from the subcluster holding sad and grief, though all sit under sadness, which on the analyst's reading leaves room for loneliness as the trigger state and grief as the loss state of this one function (lit, SNIPPET); no project measurement |
+| **G246** | An inference over who carries one's pieces, kin and in-group alike, sets whom each channel serves, its name still pending; copies share genes, carriers carry one's pieces, and active carriers run the same channel; PLAY lowers one's own uncertainty with others, CARE lowers the uncertainty of those already one's own, and LUST adds someone | **OPEN, logic only.** The curator's account (2026-11-03 to 2026-11-04). He found carrier inference and life history theory's somatic, mating and parental effort not quite right as names; kith is the analyst's proposal, made at his request. He called federated inference, belief sharing among agents in active inference, an excellent description of the same ground, while holding his account a little sharper for tying in the functions evolution supplied through Panksepp; no project measurement |
+| **G247** | DISGUST, an eighth system on trial, is dislike of inefficiency, of a piece that cannot be fitted anywhere; it follows an inferred desire to harm and moves the reader away from outgrouped, poorly predictive models by withholding attention and inference, the disease-avoidance system applied to social life | **OPEN.** The curator's account (2026-11-04 and 2026-11-06), refining his epistemic disgust of 13 October (HH-DISGUST-GATE and HH-DISGUST-POLICY in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4). Disgust tracks an inferred desire to harm with anger held constant (lit, READ); dirt as what an ordering rejects, and devaluation of what resists classification when a slot is demanded (lit, READ and SNIPPET); Panksepp classed disgust as a sensory affect, and a group including his long-time collaborator Burgdorf argues it meets his criteria, a debate still unresolved (lit, READ); disgusting pictures hold the eyes briefly before looking declines over seconds and repeats, so withheld gaze stays contested, as in HH-DISGUST-GATE (lit, READ); the stop that follows is a reader's stopping rule (HH-CLOSE-MODEL in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §5); The matched human lexical comparison is inconclusive with limited constructed sensitivity (S15-TD6-C10 below); it does not measure the proposed stopping mechanism |
 | **C-S6** | A bounded reader recovers which control architecture governs a constructed maker (one foreground goal with switching, maintained intention, compiled habit, concurrent control) from the order of work | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event reader and the controller comparison inherit hidden future and generator-law dependencies; no architecture recovery, controller comparison, or switching conclusion is licensed; the reader-free construction fact stands: the strict switcher leaves more hanging section-writes than the concurrent controller, opposite the declared direction (C06, CLEAN) |
 |   | | *(this row's history is NARROWED on the Stage-6 block, L316 and L322, then voided by the 2026-09-02 dependency audit, L330)* |
 | **A-S6** | A bounded reader reads the discriminating event on constructed makers whose expertise history (a practiced skill) or current goal governs it, and reads dated history as such | **VOID AS CURRENT EVIDENCE FOR THE NAMED CLAIM (Stage 7 D01 to D06, L330).** The event and changed-context reads inherit the common predictor's privileged state; the dated-history contrast does not validate the rest of the family; no Stage 6 attention-history, expertise-versus-goal, or changed-context inference is licensed; the reader-free construction fact stands: dated-versus-shuffled history separates nowhere at scale on the exact layer (−0.03 [−0.15, +0.10] on 1248 fresh units, A13/x5, CLEAN) |
@@ -619,7 +1040,7 @@ recover the complete cold state does not prove the demonstrations contain only l
 information (E-S7). The habit/redirection and dated-history results retain their measured
 construction scope; they do not identify a general human learning mechanism (V-S7).
 
-Reusable pieces provide a candidate account of process composition. Their outcomes, the needs they serve, and their individual rates of use remain distinct inference targets. The proposed channel transformations, amplification, responsibility and sharing functions do not establish biological identities, and persistence remains a tentative top rather than a fixed objective (G226 to G230). Confidence: untested, logic only.
+Reusable pieces provide a candidate account of process composition. Their outcomes, the needs they serve, and their individual rates of use remain distinct inference targets. The proposed channel transformations, amplification, responsibility and sharing functions do not establish biological identities, and persistence remains a tentative top rather than a fixed objective (G226 to G230). The curator's channels are pre-solved functions run forward to act and backward to read, at graded strength. The forward-and-backward model has prior art, and tests of a shared circuit for pain are mixed (G235, G236). The channels' triggers are slopes against set points, weakened by uncertainty and measured against the balance of all needs; the balance has a formal home in homeostatic learning, and mood drift at rest runs against its unmet-needs reading in people at risk of depression (G237 to G240). A shorter list of set points leaves out certainty, power and standing, though large datasets find feelings tracking respect and felt control, close kin of the last two (G241). Security, held as far from dissolution as one can get, has no ceiling either, so the test that excludes standing needs a reason to spare security (G241). Power, status and respect are defined through expertise, fitness and kindness, with kindness possibly counted twice (G242, G243). RAGE wants something to stop and SEEKING something to get, PANIC/GRIEF has one function, and an inference over who carries one's pieces, its name pending, sets whom the channels serve; for anger on another's behalf the evidence supports care over similarity (G244 to G246). DISGUST joins them on trial as dislike of what cannot be fitted, after a read of harmful intent, refining the epistemic disgust of [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §4 (G247). The specified PLAY word ordering fails its independent norm check. Single-word omissions change its decisiveness without supporting a replacement list, and arousal does not restore the same supplied order; the other covered scales are inconclusive and three intensity lists remain untestable (S15-TD4-C2). Rater substitutions do not decide the proposed channel partition under the registered rule. Its balanced-world calibration has limited sensitivity and poor interval coverage, so the human inconclusive result supplies neither equivalence nor absence (S15-TD5-C2). The matched lexical comparison leaves the proposed disgust function unresolved. Its rare-count calibration has limited sensitivity, and the sparse companion's interval has poor coverage in the declared constructed model; the human comparison establishes neither absence nor reduced modelling of another mind (S15-TD6-C10). The proposed writing-process contrast lacks its required matched-writer support and supplies no effect evidence (S15-TD7-C10). Confidence: one bad test away for the word-norm comparison; untested, logic only for the channel mechanisms.
 
 Domain competence and maker familiarity remain potentially interacting sources of useful
 expectations. Stage 8 passed prediction and failed generation, so the proposed complete
@@ -627,7 +1048,8 @@ expertise prerequisite has not been installed and demonstrated by admission. Rec
 without an anomaly is a candidate entry route, and the relation between domain expertise
 and knowledge of an individual remains open. Confidence: untested, logic only for the
 scaffold, formation account, universal prerequisite, drive mapping, SEEKING prediction, drive
-repurposing, both PLAY proposals, the general automatization account and one-shot expertise;
+repurposing, both PLAY proposals, the general automatization account, one-shot expertise and
+the curator's channel, trigger, set-point, power, status, respect and DISGUST proposals;
 one bad test away for the correction-transfer comparison and the scoped
 Stage 7 and Stage 8 measurements; instrument-dead for the Stage 6 reader interpretations.
 

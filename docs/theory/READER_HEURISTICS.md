@@ -336,6 +336,77 @@ SmolLM at chance), and mixed-policy makers are near unpredictable from records f
 (L227: 0.375 and 0.25 against 0.25 chance, n=24), so record reading is reader-bound and
 policy-purity-bound.**)**
 
+**Whose autopilot, and slotting in your own expertise** *(2026-11-01)*:
+
+> But the limitation, the big problem here, and this is going to be the consistent issue, and I bet
+> we'll need to go into the research for it, is that we need to figure out how to go from series of
+> steps to the higher-order structure that was being used. Honestly, I would expect you to be really
+> good at this, because the way humans ratchet their way in is through expertise. But are we
+> actually using complex, higher-order, nested beliefs that I'm not aware of? That no one's aware
+> of? How interesting.
+
+> But let's say, if you were a human, how would you do it? In large part it is through identifying
+> how it could be done, [...] given the same limitations that they had. And so it's kind of slotting
+> in your existing expertise into bits and pieces of the larger puzzle. Honestly, I don't know how
+> else you could do it.
+
+> I feel like with number one, fine, we could do that, but I feel like you're chasing artificial
+> structures that are pulled from existing tests, and that's all fine and dandy for training
+> ourselves and finding patterns, but practically speaking, humans do this with nothing, somehow. We
+> connect this whole process, somehow, with nothing. And maybe our error bars are wider or
+> something, but it really does feel like this is something that we need to do more on.
+
+> When a writer departs from autopilot, obviously it is the writer's autopilot that they are
+> departing from. I don't understand how it could be anything else. It is informed by her
+> population, but it is largely her specific context. It is her specific context and her repetitions
+> that create her autopilot, her expertise. The reader largely has to start by using their own
+> expertise and run it as a forward model, and try to modify it to fit it into a larger inference.
+
+> I guess maybe this is a poorly phrased question. Obviously the writer, when they're creating it,
+> has to use her autopilot, but the reader in their moment is using their own autopilot, but having
+> been auto-corrected for the general population, if they want to. They can put it in [an] every-man
+> kind of filter and imagine what the average person would be capable of, as far as they understand
+> it. But generally they just start with what they're able to do, what they're capable of making.
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with a marked omission; an intensifier removed and transcription repairs listed in the handoff.*
+
+The curator separates the two autopilots of the 30 October question. The writer departs from her
+own, built by her context and repetitions, and the reader reads with its own expertise run as a
+forward model, corrected toward the population when it chooses. The reader's half is egocentric
+anchoring and adjustment, and its warning is that people adjust from their own view and stop once an
+estimate seems plausible (Epley et al., 2004, cited at the opening of
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)). His slotting is analysis by synthesis,
+inferring how something was made by generating candidate processes under the maker's limits and
+checking them against the trace. People reconstructed events from physical evidence as a Bayesian
+event-reconstruction model did ([Lopez-Brau et al., 2022](https://doi.org/10.31234/osf.io/4zu9n),
+read, preprint), and they build simplified task representations to plan
+([Ho et al., 2022](https://doi.org/10.1038/s41586-022-04743-9), abstract read). **Stress test.** In
+this project's writing records surprise under the writer's own history has a conditional pause
+association, but other writers' histories also contribute and coefficient sizes cannot rank the two
+(G203 in §6; D-OWN-SURPRISE in [`DECISION_TRACES.md`](DECISION_TRACES.md) §6), so a departure needs
+a predictive comparison before it is read as hers. **Stress test.** Reconstruction from traces has
+been shown only in small worlds with few hypotheses, while humans, on his account, do it with
+nothing.
+
+**(HH-OWN-AUTOPILOT:** When a writer departs from autopilot it is her own autopilot, built by her
+specific context and repetitions and informed by her population; the reader reads with its own
+autopilot, its expertise run as a forward model, corrected toward the population through an
+every-man filter when it chooses and otherwise starting from what it could itself make. **OPEN.**
+The curator's account (2026-11-01). Egocentric anchoring and adjustment is the literature's name for
+the reader's half, with readings biased toward the reader (lit, READ, cited at the opening of
+[`THE_TRIPLE_INFERENCE.md`](THE_TRIPLE_INFERENCE.md)); the project's writing records show a personal
+pause association to which other writers' histories also contribute (G203 in §6; D-OWN-SURPRISE in
+[`DECISION_TRACES.md`](DECISION_TRACES.md) §6). The reader's half refines HH-23 and
+HH-READER-CONVERGENCE.)**
+
+**(HH-SLOTTING:** A reader climbs from a series of steps to the structure behind them by identifying
+how the work could be done under the maker's limitations, slotting its own expertise into pieces of
+the larger puzzle; humans do this with no outside structure, perhaps at wider error bars, and how
+they do it is the open problem. **OPEN.** The curator's account (2026-11-01). Analysis by synthesis
+matched Bayesian event reconstruction in small worlds (lit, READ, preprint); people build simplified
+task representations and choose subgoals that cut planning cost (lit, READ). It specifies the
+self-based initialization of HH-23.)**
+
 ## §2. Finding an entry point
 
 > The thing that most jumps out at me isn't mistakes but **unusual constructions, or odd decisions
@@ -1302,6 +1373,35 @@ Trust refers to the current projected map and shared ends, not to a track record
 
 Indoctrination is proposed to begin with the sense that a move might sometimes make sense, followed by repetition until it becomes a default autocomplete in flow. Absorption would appear in automatic behavior that was not receiving attention. His track-record concern is a tradeoff between confidence about a lifetime trajectory and confidence about what the person wants now; whether that is an anti-capture mechanism remains a question. The Heisenberg label is his analogy, not a claim of a quantum or mathematical impossibility. Confidence: untested, logic only.
 
+**AI read like Google or Wikipedia** *(2026-11-01)*:
+
+> I actually wonder about that Gallegos 2025 "identity doesn't gate" study, because I do wonder
+> whether what we're seeing there is something like the social effect of AI being treated kind of
+> like Google or Wikipedia these days. In both cases, it's not reverse engineerable. They can't
+> reverse engineer an expert's text any more [than] they can reverse engineer AI's text, and so it
+> all seems to be equally accurate and convincing and worth memorizing. [...] God, what's the
+> problem here? Something odd about this study.
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+The curator reads the null result for source labels as opacity. A lay reader can no more reverse
+engineer an expert's text than a model's, so both seem equally accurate, convincing and worth
+memorizing, and a label naming the source has nothing to change. The null he read has limits: every
+condition read the same AI-written text and both labels said expert, so it compares human with AI
+only within expertise at fixed quality ([Gallegos et al., 2025](https://arxiv.org/abs/2504.09865),
+abstract read, preprint). Searching the internet inflates people's estimates of their own knowledge
+([Fisher et al., 2015](https://doi.org/10.1037/xge0000070), abstract read), readers identified
+AI-written poems at 46.6 percent, below chance
+([Porter & Machery, 2024](https://doi.org/10.1038/s41598-024-76900-1), abstract read), and people
+with less AI literacy are more receptive because AI seems magical
+([Tully et al., 2025](https://doi.org/10.1177/00222429251314491), abstract read). **Real objection,
+which sharpens it.** An "AI-generated" label lowered belief in news headlines by a third as much as
+a "false" label, because readers assumed no human had checked the work
+([Altay & Gilardi, 2024](https://doi.org/10.1093/pnasnexus/pgae403), abstract read). Labels gate
+uptake when they change the reader's model of how the text was made, so what gates is that model
+rather than opacity as such, this section's uptake account aimed at a source whose process the
+reader cannot run (G231, HH-TOP-GOAL-UPTAKE).
+
 | # | hypothesis | status |
 |---|---|---|
 | **HH-9** | The confidence trajectory across a reading carries more than its endpoint | **OPEN for incremental value over the endpoint and for human readers.** A model-side series exists, but its tracking of exact information is a different comparison and is a valid null at the declared band (test, R05-S5, L329) |
@@ -1311,11 +1411,14 @@ Indoctrination is proposed to begin with the sense that a move might sometimes m
 | **HH-24** | Self-based process reconstruction can update a reader before source and value-similarity appraisal finishes | **OPEN.** The proposed indoctrination interval; requires separate measures of process uptake, belief uptake, and value change. G167 is adjacent instrument behavior, not evidence for the human mechanism. The 25 October proposed repetition route begins with provisional plausibility and ends in unexamined automatic defaults; the records here do not measure that acquisition sequence. |
 | **HH-SELECTIVE-ATTENTION** | Directed attention, potentially including precision control, supports useful process learning while limiting unwanted uptake from the same source | **OPEN.** Curator conjecture; the human test requires joint measures of attended content, process learning, belief uptake and value change that the current program does not provide. Constructed procedural interference is an analogue, not those missing measurements. The 25 October account specifies declining elaboration of some reasons, sometimes substituting a dispositional label, at an attention cost; accurate knowledge and deliberate non-engagement can coexist. |
 | **HH-DISGUST-GATE** | Epistemic disgust protects by withholding attention or elaboration from a source's aims while its method can still be learned | **OPEN for withheld elaboration; CONTESTED (lit) for withheld gaze.** Disgust-evoking images hold visual attention longer than fear-evoking ones (lit, READ); a constructed reader can read accurately with its uptake gate closed (Ghost E42, sim), so attention and uptake can separate; a constructed test ran as card A3 of the Ghost V22 first pass (13 October), not yet read into this file. No human measurement of attended content, elaboration and uptake together |
+|   | | *(2026-11-06: looking at disgusting pictures declines over seconds and repeats after a brief hold (lit, READ); the curator's DISGUST on trial, which refines this row, is G247 in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1)* |
 | **HH-DISGUST-POLICY** | Epistemic disgust fires on a decision the reader would not make and cannot fit into any goal it can model, policy divergence (methods, heuristics, a group's pre-solved solutions) judged useless as well as harmful, and growth past it runs through foraging licensed by humility and shared lower goals | **OPEN; the trigger's shape is supported and the label CONTESTED (lit).** Moralized preferences recruit disgust where taste does not; moral disgust targets norm violators; out-group aversion tracks violations of local practices; groups judged neither warm nor competent draw contempt and disgust and do not engage regions that support thinking about minds (lit, READ). Community-norm violations map to contempt in the CAD triad (lit, SNIPPET). Contact reduces prejudice mainly through anxiety and empathy, and humility and openness predict tolerance (lit, READ). No project measurement |
+|   | | *(2026-11-06: a later lab reads the 2006 mentalizing result cited here as possibly tracking similarity to self (uncorrected threshold) and found no mentalizing drop for groups rated less than human (lit, READ); the curator's stopping rule that refines this row is HH-CLOSE-MODEL in §5)* |
 | **HH-TOP-GOAL-UPTAKE** | Uptake depends on the reader having found the source's highest goal and on that goal matching the reader's; credibility is the same maker inference aimed at the source | **OPEN.** Constructed tests ran as cards A1 and A2 of the Ghost V22 first pass (13 October), not yet read into this file (endogenous trust, the misfiled propagandist); persuasion knowledge is the nearest literature (lit, SNIPPET). The 25 October formulation emphasizes the current transition map and similarity of ends, allowing selective reuse of a useful move while refusing its bundled end; the older highest-goal requirement is not a measured necessity. |
 | **G231** | Trust combines an accurate projection of the source's current transition map with similarity of ends | **OPEN, logic only.** Curator proposal, Week 3 Appendix B. Past choices supply evidence; shared fundamental goals, correct means and current objectives are not assumed from that history. |
 | **G232** | Betrayal hurts because the projected recurrence implies aloneness and recruits separation distress and renewed search for others | **OPEN, logic only.** Curator proposal, Week 3 Appendix B. No local writing-log measurement establishes this human mechanism. |
 | **G233** | Certainty about a lifetime trajectory can obscure present wants, possibly limiting capture | **OPEN, logic only.** Curator's explicitly tentative track-record analogy, Week 3 Appendix B. This filing claims neither a formal uncertainty bound nor a demonstrated protective effect. |
+| **HH-OPAQUE-AUTHORITY** | AI text is read the way Google or Wikipedia are, as authority whose process the reader cannot reverse engineer; since a reader can no more reverse engineer an expert's text than a model's, both seem equally accurate, convincing and worth memorizing, and a label naming the source changes little | **OPEN.** The curator's account (2026-11-01) of the label null. The null held one AI-written text under two expert labels (lit, READ, preprint); searching inflates felt knowledge, AI poems pass as human, and low AI literacy raises receptivity (lit, READ); a label that changes the reader's model of how a text was made does lower belief (lit, READ), so the gate is the inferred production process; no project measurement on people |
 | **HH-ATTENTION-SOURCES** | Attention mixes three sources, a pull toward falling prediction error, capture by drives or by learned value, and a part directed by expected preference satisfaction, which carries the maker's values and drives; preferences are read from the directed part, and the pull dominates when set points are met | **OPEN.** Learning progress, selection history, value-driven capture and attention as a mental action each have literature (lit, READ and SNIPPET); no project measurement separates the directed part from the pull and the capture |
 |   | | *(this row's history is its two-source form of 2026-10-14; capture by drives and by learned value, the analyst's readings of the curator's 2026-10-16 walkthrough, were added the same day)* |
 | **HH-REVERSAL-KINDS** | Reversed choices come in two kinds, flow-state output from expertise audited later against the higher goal, which carries that goal, and near-ties that flip because little was at stake, which do not; the first follows a fast original choice and the second a slow one | **OPEN.** Expert revision targets meaning and structure, and choices between near-equal options are slow (lit, READ); the near-tie kind and the timing contrast are the analyst's; no project measurement of reversal timing |
@@ -1409,7 +1512,7 @@ before value appraisal, and selective uptake through attention remain human hypo
 (HH-SELECTIVE-ATTENTION). The disgust account adds a trigger whose shape social cognition research
 supports, a decision the reader cannot fit into any goal it can model, a protective act that
 perception research contests in its attentional form, and a release through humility and shared
-goals that contact research favors. The current proposal treats uptake as selective use of a projected transition map under similarity of ends; the older highest-goal gate has constructed tests not yet read into this file (HH-DISGUST-GATE, HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Current trust, betrayal, repetition into defaults and the lifetime-versus-present tradeoff remain human hypotheses (G231 to G233). Attention itself is held to mix a pull toward falling
+goals that contact research favors. The curator's DISGUST on trial refines it, the reader closing the model once a desire to harm is read; looking at disgusting images declines only over seconds and repeats, and a later lab suggests the 2006 brain result behind withheld modelling may track similarity to self rather than lost modelling (G247 in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1; HH-CLOSE-MODEL in §5). The current proposal treats uptake as selective use of a projected transition map under similarity of ends; the older highest-goal gate has constructed tests not yet read into this file (HH-DISGUST-GATE, HH-DISGUST-POLICY, HH-TOP-GOAL-UPTAKE). Current trust, betrayal, repetition into defaults and the lifetime-versus-present tradeoff remain human hypotheses (G231 to G233). So does the reading of AI text as an authority whose process cannot be reverse engineered, which the label literature sharpens to the reader's model of how the text was made (HH-OPAQUE-AUTHORITY). Attention itself is held to mix a pull toward falling
 prediction error, capture by drives or by learned value, and a part directed by expected preference
 satisfaction, and nothing here yet separates them (HH-ATTENTION-SOURCES). Reversed choices are held
 to come in an audited kind that carries the higher goal and a near-tie kind that does not, with
@@ -1692,6 +1795,33 @@ the urge to reach an answer and keep it, and it underlies prejudice in several f
 ([Roets & Van Hiel, 2011](https://www.psychologicalscience.org/journals/current-directions/0963721411424894/),
 abstract read), which ties the shrug to epistemic disgust in §4.
 
+**Closing the model** *(2026-11-06)*:
+
+> They never take one step further once you find a puzzle piece that is truly inefficient. It cannot
+> be slotted anywhere. There's just no reason to ask why someone is racist, unless you yourself are
+> considering becoming racist, and that's how you would do so.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+A reader that has read harmful intent closes the model. It stops at the what, takes no step toward
+the why, and the only reason to step is considering becoming the thing. The step moves the explainer
+and is punished by observers. People who explained harmdoing then took a more condoning attitude
+toward perpetrators ([Miller et al., 1999](https://doi.org/10.1207/s15327957pspr0303_8), abstract
+read), observers punished an administrator who lingered over a taboo trade-off
+([Tetlock et al., 2000](https://core.ac.uk/download/191922501.pdf), read), and believers asked to
+reason through heretical counterfactuals, what-ifs about the sacred, felt contaminated
+([Tetlock, 2003](https://doi.org/10.1016/S1364-6613(03)00135-9), read). Closing is the stopping
+decision this section's need for closure names, aimed at one source (HH-NO-TOP-GOAL), and it refines
+the curator's epistemic disgust of 13 October (HH-DISGUST-GATE and HH-DISGUST-POLICY in §4). **Real
+objection, small.** What shuts is the why, not the model. People keep crediting disliked targets
+with rich, malicious minds ([Over, 2021](https://doi.org/10.1177/1745691620902133), read), and a
+later lab found no drop in the network that models other minds for groups rated less than human and
+suggests the 2006 result in §4 may track similarity to self rather than lost modelling, a nearby
+region tracking similarity at an uncorrected threshold
+([Bruneau et al., 2018](https://doi.org/10.1037/xge0000417), read). The channel behind the stop is
+DISGUST after an inferred desire to harm (G247 in
+[`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1).
+
 Stopping is the calibration side. Graded attribution when evidence supports only that (§10), and a
 **hard falsifier ends the inference outright**, the two-channel rule of §9.
 
@@ -1703,6 +1833,7 @@ Stopping is the calibration side. Graded attribution when evidence supports only
 | **HH-ONE-SCALE** | Beauty, interest and pleasure lie on one scale, how fast a thing comes apart into an understood structure; interest is the disassembly and beauty the rapid one, so the beautiful was briefly interesting and then compressed | **OPEN for beauty as fast resolution; CONTESTED (lit) for one scale joining interest and pleasure.** The curator's account (2026-10-17), against the analyst's three-term split (HH-AESTHETIC-TERMS). Insight and its intensity predict gains in liking, aha affect follows a sudden gain in fluency, and valence can be defined as a rate (lit, READ); interest and pleasantness were unrelated in one series, and fluency-based beauty has no interest phase (lit, READ); no study found measures resolution speed against beauty; Sounding Line card D36 is a first, exploratory test |
 | **HH-NO-TRANSLATION** | What is beautiful carries no translation layer, nothing formatted for the viewer or meant to teach or persuade, a natural occurrence or a maker's unforced autocomplete | **OPEN, the curator's tentative proposal.** Kant's disinterested and purpose-free beauty agrees (lit, READ); strong sensory pleasure can be felt as beautiful, removing the human maker lowers ratings, and grasping intent raises liking, so the label and title findings favor intent without an ulterior purpose over no intent (lit, READ); no project measurement |
 | **HH-NO-TOP-GOAL** | When no goal explains an artifact's decisions, a reader either forages for context or stops by declaring its current level the peak, and a graded trait such as openness or need for closure sets how long it searches | **OPEN.** Openness relates to exploration and need for closure to prejudice (lit, READ); no project measurement |
+| **HH-CLOSE-MODEL** | Once a reader has read harmful intent in a source, it closes the model and takes no step from the what to the why; asking why someone holds the harmful end is worth doing only when considering becoming it, and asking is how one would | **OPEN.** The curator's account (2026-11-06), refining his epistemic disgust of 13 October (HH-DISGUST-GATE and HH-DISGUST-POLICY in §4). Explaining harmdoing moves explainers toward condoning, lingering over a taboo trade-off is punished, and reasoning through heretical counterfactuals feels contaminating (lit, READ); disliked targets keep rich, malicious minds, and the mentalizing network shows no drop for groups rated less than human, a later lab reading the 2006 result cited under HH-DISGUST-POLICY as possibly tracking similarity to self (uncorrected threshold), so what shuts is the why rather than the model of the other (lit, READ); the channel is DISGUST on trial (G247 in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1); no project measurement |
 | **S12-STOPPING-1** | Does a reader stop or buy evidence according to its declared purpose and cost? | **OPEN; primary uncertainty analysis unavailable (test, L442; 64 constructed discovery histories in one law, Qwen model reader and independent exact references).** All requested calls and descriptive replay are complete. Reader regret exceeds at least one constant policy in each purpose/cost stratum, with strong descriptive answer-order differences and retained invalids. The frozen consumer has no paired regret interval, so no formal benefit, harm or equivalence is established. Current forecasts do not test use after purchase; human interest is untested. |
 | **lit** | Berlyne's collative variables support the interest claim | **REJECTED (READ).** The arousal theory is *"mostly abandoned"*; one fetch found this after fifteen searches had not |
 
@@ -1717,7 +1848,7 @@ pleasure and interest rated separately to show it (HH-AESTHETIC-TERMS). The cura
 opposite view, one scale of how fast things come apart, with beauty as interest resolved in a moment
 (HH-ONE-SCALE), and he adds tentatively that beauty carries no layer formatted for the viewer
 (HH-NO-TRANSLATION); the ratings test would separate the two accounts if it timed the resolution as
-well as rating it.
+well as rating it. Stopping also has a protective form. A reader that has read harmful intent is held to stop asking why; the literature agrees that the step toward the why reads as a step toward condoning, and finds that the other's mind stays modelled (HH-CLOSE-MODEL).
 The proposed relation between interest and unrecovered decisions also depends on the
 reader's purpose: material informative about a maker may add little to a reader's present
 learning task. Interest and stopping are consequently evidence about the reader as well
@@ -1729,8 +1860,8 @@ or successful use of purchased evidence (S12-STOPPING-1, L442). Confidence: one 
 away for the scoped model description; untested, logic only for the human interest
 account, whose rating comparison remains blocked on curator ratings, and for the proposal that a
 reader without an explaining goal forages or shrugs (HH-NO-TOP-GOAL), and for the three-term aesthetic
-account (HH-AESTHETIC-TERMS) and the curator's one-scale account with its condition (HH-ONE-SCALE,
-HH-NO-TRANSLATION).
+account (HH-AESTHETIC-TERMS), the curator's one-scale account with its condition (HH-ONE-SCALE,
+HH-NO-TRANSLATION) and the closing of the model (HH-CLOSE-MODEL).
 
 # Part II: Cue families
 

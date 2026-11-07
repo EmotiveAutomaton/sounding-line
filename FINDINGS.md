@@ -1,5 +1,1539 @@
 # FINDINGS — the method archive
 
+### OPS-S15-TD-HEALTH-20261107-0101
+
+**Hypothesis.** Is completed evidence accounted for, and is any authorized work waiting on a recoverable runtime failure?
+
+**METHOD.** Verify actual native process identity and creation time, both finite calendars and their source pins, watcher delivery and its exclusive lock, current attempt inventories, terminal receipts, output and input hashes, slot leases, resource floors and scientific locks. Reconcile full internal records and all ledger source anchors against the completed November 6 digest. Verify retained paid terminal/usage proofs and the cutoff guard. Recheck the existing source endpoints without changing sources, scope or access controls.
+
+**Found.** Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.
+
+This table reports operations at 2026-11-07T09:03:54.441585+00:00. Attempts are execution records, not scientific verdicts. Source bindings can reference the same file more than once.
+
+| Check | Observed state |
+|---|---|
+| Active research and ready queue | 0/4 counted slots; 0/8 ready cards |
+| Theory-days attempts | 55 terminal attempts, unchanged since the digest: 53 complete and two retained failed setup attempts with completed successors |
+| Evidence integrity | 780 output bindings and 2033 input-pin bindings checked across 1228 unique files; successful attempts match their pins |
+| Historical failed-attempt pins | Seven unchanged mismatches confined to the two superseded setup failures |
+| Week 4 execution | All 214 prior terminals unchanged; current attempt inventory matches; two unstarted placeholders remain superseded or cost-stopped |
+| Full internal records before this landing | 48 theory-days records and 312 Week 4 records verified; 687 source anchors verified |
+| Native workers and leases | All owned research processes exited; no orphan, counted-slot lease or active shared reservation |
+| Scientific locks | All 21 pass |
+| Available RAM / commit / disk | 49.30 / 35.52 / 274.94 GiB |
+| Theory-days CPU charge and conservative reservations | 5558.21875 of 54,000 seconds |
+| Paid Week 4 | Dispatch closed; 15 batches ended and reconciled at 112 cents; none active or unsettled |
+| Monitoring | Sole watcher and both calendars match native/source identities; scans and heartbeats fresh; this health event delivered without a transport error |
+
+**Progress and failures.** No new execution or result has appeared since the November 6 digest. Completed output and terminal bytes remain unchanged. All listed completion events were already acknowledged after their full write-through. The watcher is running under the correct owner with the six-hour cadence enabled, and its loaded source hashes match disk. A historical process-watch PID reused by an unrelated application remains distinguished by its executable and creation time; that application is not treated as a worker and is not touched. The old September general-queue log remains historical. No stale research lease, missing live worker or resource-floor failure calls for restart. Intentional GPU parking remains in force.
+
+**Authorized next work.** The finite B2 texture grid is complete and admits no descendants. TD1 to TD3 remain retrieval-held; B1 remains source/license-held; B3 remains license/initiator-semantics-held; TD7 remains below its declared support floor. Other texture is unbuilt and requires a frozen design, validation and cost admission. Week 4's remaining S2 replay and dependents, T4 uncertainty, corrected WD1 calibration, D7 follow-ups, Community Alignment encoding, WB1 effects, P7 point scoring and compatible ScholaWrite fallback retain their recorded implementation or admission deficits. The known WD1 optimization parity failure remains unadmitted. No existing admitted ready card is waiting on a scheduler or resource repair. Failed scientific or support gates are not engineering failures to rerun unchanged.
+
+**Source-access recheck.** The same official Dryad README and data download endpoints are still inaccessible through the available retrieval tool; it supplied no HTTP status for those two requests. The existing B1 OSF page returned HTTP 403. No source bytes or license confirmation were obtained. The prior 12-hour escalation remains recorded; this is a continuing retrieval blockage from this environment, not established provider-wide downtime. No source substitution, bypass, paid call or new research dispatch was attempted.
+
+**Idle-capacity defect.** Shared unused capacity increased by 19.830341 counted-slot hours since the digest's inspection, reaching 388.330673 cumulative shared unused slot-hours under that digest's accounting. Theory-days unused capacity since its conservative opening is 69.321645 slot-hours. These overlapping cumulative scopes must not be added. No research ran during the intervening interval. The causes remain source/support/control/cost holds and unfinished build/admission work. Healthy monitoring and ample resources do not make the queue fully built or satisfy the ready-buffer requirement.
+
+**Recovery and clocks.** No runtime recovery is indicated. All paid settlement evidence is retained; the unchanged reservation guard still refuses new paid work after the November 6 17:00 PST cutoff. Theory-days keeps its November 7 19:00 PST start freeze, November 8 07:00 drain and original CPU ceiling. Week 4 keeps its November 7 20:00 daily digest and November 8 20:00 start freeze/final digest, 22:00 drain and 23:00 addendum. After this write-through verifies, acknowledging this exact health event rearms the next six-hour inspection; it changes no campaign clock.
+
+**Means.** Complete source access or bounded implementation and full admission for already commissioned work; preserve paid closure, original clocks and final-packet policy. No tests were harvested, scientific interpretations added, workers restarted, delegation started or publication performed. The watcher owns waiting and the separate final scientific packets remain pending their original drains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.; project meaning: scoped operational record; next engineering obligation: Complete source access or bounded implementation and full admission for already commissioned work; preserve paid closure, original clocks and final-packet policy.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261107_0101.md.
+
+### OPS-S15-W4-DIGEST-20261106
+
+**Hypothesis.** Are the completed Week 4 records, corrections, spending and remaining obligations reconciled for the November 6 daily digest?
+
+**METHOD.** Compare the preceding digest inventory with the current claim ledger, verify complete internal destinations and source anchors, and match immutable reports and receipts. Reinspect exact native identities, both calendars, watcher delivery, terminal evidence, leases, resources, locks and retained paid settlement proofs. Account separately for the theory-days campaign's use of shared CPU slots. No scientific statistic is recomputed and no unfinished result is interpreted.
+
+## Corrections first
+
+The entries quote the existing ledger wording and control status. Both are wording repairs to operational reminders; neither changes a scientific result.
+
+- **wording — OPS-S15-W4-HEALTH-20261106-0028** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0028.md)); controls: **passes**. Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected.
+
+- **wording — OPS-S15-W4-HEALTH-20261106-0635** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0635.md)); controls: **passes**. Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work.
+
+**Accounting scope clarification.** Week 4 had no new execution since the preceding digest, but the separately commissioned theory-days campaign used shared slots. Report Week 4 non-occupancy separately from physically unused counted capacity. The shared-unused increment subtracts 2.938846 slot-hours of theory-days admission-to-terminal occupancy. This is an accounting clarification, not a change to either campaign's charges or allowance. Historical digest values remain intact.
+
+## Completed records and follow-up dispositions
+
+- **OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_THEORY_DAY_RECORD_CHECK_20261106.md)); controls: **passes for recording; known prototype parity failure retained**. Completed Week 4 records and publication checks reconcile; the retained WD1 optimization still fails its known parity check and remains unadmitted.
+
+- **OPS-S15-W4-PAID-CUTOFF-20261106** ([record](results/phase_2_4_stage_15/DRIVE/WEEK4_PAID_CUTOFF_20261106.md)); controls: **passes**. Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.
+
+There is **no newly completed Week 4 scientific claim** since the November 5 digest. All 306 entries in that inventory retain their wording, control status and report/receipt hashes. The current inventory contains 311 complete Week 4 records, including the previous digest itself and these four new operational records. Their controls concern recording and operations, not additional human evidence. No scientific follow-up is registered from this digest. Existing first-generation dispositions, support failures and instrument holds remain as recorded in the preceding digest.
+
+The separate theory-days evidence is fully recorded in its own index and ledger rows. Its completed texture family is descriptive and opens no descendants. Those records are not counted as new Week 4 findings or used to upgrade Week 4 claims. Theory errata is an attributed filing, not empirical confirmation. Neither campaign's final-packet policy is changed by this daily record.
+
+## Queue and capacity
+
+**Found.** The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.
+
+At 2026-11-07T04:06:27.135050+00:00, active research is **0 of 4 counted slots**, with **0 ready cards against 8 required**. The unused-capacity table distinguishes scope. A slot-hour is one counted slot available for one hour; occupied time uses admission through terminal receipt, not CPU charge.
+
+| Capacity scope | Slot-hours |
+|---|---:|
+| Four-slot capacity since the preceding digest | 95.711950 |
+| Week 4 occupied time during that interval | 0 |
+| Separate theory-days occupied time during that interval | 2.938846 |
+| Shared unused capacity during that interval | 92.773104 |
+| Cumulative shared unused capacity carried from the preceding digest | 368.500333 |
+| Cumulative Week 4 non-occupancy, including slots used by theory-days | 371.439179 |
+| Theory-days unused capacity since its conservative 07:00 PST opening | 49.491304 |
+
+The last two cumulative scopes overlap; do not add them. Ready-buffer and unused-capacity deficits remain operational defects. Valid source, support, instrument and cost holds coexist with unfinished implementation; this is not a claim of a fully built queue. No admitted work is waiting on a recoverable scheduler or resource failure.
+
+All 214 prior Week 4 terminal attempts are unchanged and the current attempt inventory matches; its two unstarted placeholders retain completed or cost-stopped successor dispositions. All 55 theory-days attempts are terminal, with 53 complete and two retained setup failures. Their 780 output bindings and 2033 pin bindings were checked; the seven historical pin mismatches remain confined to those two superseded failures. All owned research workers have exited, no counted slot lease or shared reservation is active, and all 21 locked files verify. The stale September legacy queue log is historical and does not represent the active schedulers.
+
+The watcher and both finite calendars have matching native identities, source pins and fresh scans/heartbeats. Delivery of this exact digest marker is recorded without a transport error. Available RAM, commit headroom and disk are 50.96, 36.49 and 274.94 GiB. No process restart, GPU work or cleanup is indicated. The retained unrelated PID reuse remains distinguished by executable and creation time.
+
+Week 4's source/control/cost backlog remains: complete S2 replay and its dependents, T4 uncertainty, corrected WD1 calibration, D7 follow-ups, Community Alignment encoding, WB1 effects, P7 point scoring and the compatible ScholaWrite fallback. The WD1 optimization's known parity failure remains unadmitted. New work must satisfy its existing frozen source, design, validation and complete-cost contract.
+
+Theory-days retains TD1 to TD3 retrieval holds, B1 source/license and B3 license/initiator-semantics holds, and TD7's insufficient writer support. The source-access escalation was recorded at the prior health inspection; no new endpoint request was made for this digest. This is a retrieval blockage from this environment, not proof of a provider-wide outage. Its finite B2 texture grid is complete; other texture remains unbuilt and unadmitted. Charged or conservatively reserved theory-days CPU is 5558.21875 of 54000.0 seconds, separate from paid Week 4 accounting.
+
+## Week 4 texture accounting
+
+Counts are unchanged. The table separates completed descriptive estimates from support-only variants; preparation, costing and ordinary first-generation follow-ups are excluded.
+
+| Family | Completed estimates | Support-only variants | Disposition |
+|---|---:|---:|---|
+| S1 | 5 | 0 | Five consecutive similar completed estimates close the lane; five-gram corpus work is not admitted. |
+| S2 | 0 | 0 | Extraction is preserved but complete replay is cost-held; the analytical consumer and textures remain unadmitted. |
+| S3 | 0 | 0 | Primary and texture consumers unbuilt. |
+| S4 | 0 | 3 | All three cursor variants unsupported; separately commissioned descriptive menu comparison is now complete. |
+| S5 | 0 | 7 | Two alternative gaps and five projects unsupported; no effects or descendants. |
+| T2 | 0 | 0 | Primary and texture consumers unbuilt. |
+| T3 | 0 | 0 | Primary source is design cannot test; no texture estimate admitted. |
+| T4 | 0 | 0 | Validated construction and cost probes are not texture estimates; complete calibration and human execution remain cost-held. |
+
+All other Week 4 texture families have zero completed estimates. The separate theory-days B2 grid is not included. No texture upgrades a claim or opens descendants.
+
+## Paid accounting and remaining clocks
+
+The table reports US cents. Failed rungs and permitted prompt corrections are included; each recorded batch has verified terminal and settlement evidence. Passing a component does not establish scientific admission.
+
+| Node | Settled cents | Node cap | Retained disposition |
+|---|---:|---:|---|
+| PROC | 2 | 200 | Both calibrations settled; permitted correction exhausted; main stopped. |
+| PLAN | 4 | 150 | Corrected format passed, option-fit agreement failed; node stopped; T5 instrument-held. |
+| DRIVE | 0 | 150 | Declared final-surviving source lacks required repeated-writer support; corresponding main cancelled before spending. |
+| PLANT | 10 | 50 | Complete generated corpus settled; assigned-goal realization and reader recovery untested. |
+| REV | 3 | 50 | Fresh corrected format rung failed; correction exhausted; main stopped. |
+| VAL | 64 | 200 | Fresh calibration passed; complete main has a provider refusal and fails the all-valid collection gate; scientific use held. |
+| AUTH | 29 | 100 | Fresh calibration and main completed; collection and numerical ruler validated; human comparison held on missing reference pairs. |
+
+All 15 batches are ended and reconciled at **112 cents ($1.12)**, with none active or unsettled. The campaign's paid dispatch closed November 6 at 17:00 PST. The unchanged cutoff guard refuses a new reservation; no provider request or paid call was made here. Unspent allowance does not reopen stopped nodes or extend authority. Node caps total 900 cents within the 1,000-cent hard ceiling.
+
+The next fixed health inspection remains **November 7 at 01:01:47 PST**; acknowledging this digest must not move it. Theory-days freezes new starts November 7 at 19:00 PST and drains November 8 at 07:00 PST. Week 4's next daily digest is November 7 at 20:00 PST; its final digest/start freeze remains November 8 at 20:00, with drain at 22:00 and addendum at 23:00. These are distinct campaign windows.
+
+**Means.** Preserve completed evidence and paid closure, keep the ready-buffer deficit explicit, and admit only existing commissioned work that meets its source, validation and cost requirements. No tests were harvested, scientific interpretation added, delegation started or publication performed in this integration. The watcher owns waiting; final scientific synthesis remains in the respective campaign packets.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.; project meaning: scoped operational record; next engineering obligation: Preserve paid closure and source/control/cost holds; complete admission for existing commissioned work and retain both original campaign windows.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_DIGEST_20261106.md.
+
+### OPS-S15-TD-HEALTH-20261106-1854
+
+**Hypothesis.** Is the authorized research queue stalled by a recoverable operational failure, and are completed evidence, paid closure and monitoring still accounted for?
+
+**METHOD.** Check exact native process identities and creation times, both calendar heartbeats and source pins, watcher delivery and its exclusive lock, all theory-days terminal receipts and output hashes, the previous Week 4 terminal inventory and its two unstarted placeholders. Match aggregate records to findings, instruments or theory, TODO, the index and claim ledger. Verify all source anchors, locked files, resource floors, slot leases, cumulative accounting, retained provider settlement evidence and the paid cutoff. Recheck the existing official source endpoints without new source substitution or bypass.
+
+**Found.** Completed records, locks and monitoring verify; CPU-only Gear 2 is idle with no admitted ready work, and the source-access blockage has reached its escalation threshold.
+
+The table reports operational state at 2026-11-07T02:59:10.299057+00:00. Attempts are execution records, not new scientific verdicts. CPU accounting includes actual terminal charges and the existing conservative reservations.
+
+| Check | Observed state |
+|---|---|
+| Theory-days attempts | 55 terminal plans: 53 complete and two retained setup failures with completed corrected successors; all owned research processes exited |
+| Output and input integrity | 780 output bindings verified; 2033 pin bindings examined; every successful attempt matches its pins |
+| Retained failed-attempt pins | Seven mismatches, exactly unchanged from the previous inspection and confined to the two superseded setup failures |
+| Full internal records | 47 existing theory-days records verified through required destinations; each completion digest maps to its receipt |
+| Claim ledger before this landing | 685 source anchors verify |
+| Week 4 attempts | All 214 previous terminal records unchanged; current attempt inventory matches, with no new orphan |
+| Active research / ready work | 0 of 4 counted slots; 0 of 8 ready cards |
+| Locks and resources | All 21 hash locks pass; no counted slot lease or shared reservation; watcher singleton held |
+| Resource headroom | 51.35 GiB RAM, 36.39 GiB commit and 274.94 GiB disk available |
+| Theory-days CPU accounting | 5558.21875 of 54,000 CPU seconds charged or conservatively reserved |
+| Unused counted capacity | 45.0059 slot-hours since the conservative 07:00 PST opening, subtracting admission-to-terminal occupancy |
+| Paid campaign | Dispatch closed; all 15 batches ended and reconciled at 112 cents; none active or unsettled |
+| Monitoring | Sole watcher and both finite calendars live, with fresh scans/heartbeats and matching source identities; delivered health event has no transport error |
+
+**Inspection-method recovery.** A historical process watch points to a Windows PID now assigned to an unrelated application. The native identity query refused access. An independent process query exposed both a different executable and a creation time days later than the original Python worker, while the original job has a verified completion receipt. The helper now records those two identity differences instead of treating PID reuse as a live research worker. The initial failed helper is preserved. No unrelated process, watcher configuration or scientific code was changed, and no worker was stopped or restarted.
+
+All new B2 texture validation, source-cache, cost and full-run records are already landed. Its finite eight-card grid is exhausted and admits no descendants. The two old setup failures retain their original evidence and mismatch history; the previously restored pinned setup README still matches. Week 4's R2-full placeholder has a completed successor and its WB1 cost placeholder a recorded cost-stopped successor; neither is ready work. Earlier source, support, control and cost failures remain distinguished from engineering failures. No unchanged failed gate is being rerun.
+
+**Source-access escalation.** The campaign's previously recorded 12-hour access threshold was November 6 at 19:00 PST, measured from its conservative opening. That threshold has now passed. The two official Dryad download endpoints remain inaccessible through the available retrieval tool; this recheck supplied no HTTP status for them. The existing B1 OSF page returned HTTP 403. No data bytes or license confirmation were obtained. This establishes a continuing retrieval blockage from this environment, not a provider-wide outage. TD1 to TD3 remain source-held; B1 remains source/license-held. The alert is recorded under packet section 7, without new data substitution, spending, scraping workarounds or a request to restart completed work.
+
+B3 remains held on license and initiator semantics; TD7 remains below its declared writer-support floor. The remaining texture and Week 4 implementation/admission backlog is unbuilt or held. The ready-buffer deficit and unused slot-hours remain operational defects; neither healthy monitoring nor intentional GPU parking makes the queue fully built. No existing admitted ready card was found waiting on a repairable scheduler or resource fault. Next work must satisfy the existing source, frozen design, validation and cost requirements before dispatch.
+
+**Means.** Escalate the continuing source-access blockage, preserve admission holds, and build only commissioned work that passes the original design, source, validation and cost requirements. Keep Week 4 paid dispatch closed and GPU work parked. Retain the separate theory-days November 7 19:00 PST start freeze and November 8 07:00 drain, and Week 4's November 8 20:00 start freeze, 22:00 drain and 23:00 addendum. Each final-packet policy remains unchanged. No new tests were harvested and no scientific interpretation, paid call, delegation or publication was performed. Full write-through precedes the health ACK, which rearms the next six-hour inspection; the Week 4 daily digest at 20:00 PST remains the next campaign marker.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed records, locks and monitoring verify; CPU-only Gear 2 is idle with no admitted ready work, and the source-access blockage has reached its escalation threshold.; project meaning: scoped operational record; next engineering obligation: Escalate the continuing source-access blockage, preserve admission holds, and build only commissioned work that passes the original design, source, validation and cost requirements.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261106_1854.md.
+
+### OPS-S15-W4-PAID-CUTOFF-20261106
+
+**Hypothesis.** Has the approved Week 4 paid campaign reached its dispatch cutoff with every submitted batch and charge accounted for?
+
+**METHOD.** Inspect the calendar marker and its exact source-bound native process, compare the approved packet to its frozen hash, and reconcile every campaign ledger row with its retained provider terminal and usage evidence. Verify those evidence hashes and each exited native monitor. Exercise the existing pure reservation guard for all seven approved nodes at the exact cutoff and at the current time, without invoking reservation or any provider API. Inspect the watcher, both campaign calendars and repository Python identities for outstanding work.
+
+**Found.** Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.
+
+The cutoff is November 6 at 17:00 PST (2026-11-07T01:00:00Z). All 15 submitted batches have retained provider status `ended`, no processing requests, reconciled accounting and exited monitors. Booked spend is 112 cents, or $1.12, against the campaign's $10 hard cap. No reservation remains unsettled. The ledger is byte-identical before and after this inspection. The evidence is the stored provider terminal/usage record checked against its settlement hash; this inspection made no new provider request.
+
+The table is accounting only. A submitted batch can be a calibration, prompt correction or main run; these counts do not indicate scientific admission or completion of every commissioned node. A zero means no submitted batch is recorded for that node.
+
+| Approved node | Reconciled batches | Settled cents |
+|---|---:|---:|
+| AUTH | 3 | 29 |
+| DRIVE | 0 | 0 |
+| PLAN | 3 | 4 |
+| PLANT | 2 | 10 |
+| PROC | 2 | 2 |
+| REV | 2 | 3 |
+| VAL | 3 | 64 |
+
+The unchanged reservation guard refuses every node with `Paid cutoff` at equality and afterward. All recorded reservations predate the cutoff. There is no active batch to cancel and no failed or unknown charge to resubmit. Unused budget does not extend the authorization, reopen a stopped calibration or transfer to another campaign. Unfinished paid-dependent obligations remain unfinished under their recorded admission holds; paid closure is not scientific completion.
+
+The sole watcher matches its native creation identity and loaded source hashes, holds its singleton and has a fresh scan without a service error. The Week 4 and theory-days calendars both match their native identities and pinned plans, with fresh heartbeats. No unexpected or unreadable repository Python worker and no counted CPU lease is present. CPU-only Gear 2 is idle: zero active research slots and zero ready cards. Existing source, control, cost and build deficits remain. GPU parking is unchanged. No worker or watcher recovery is indicated.
+
+This cutoff closes Week 4 paid dispatch only. Its existing local window still freezes new starts on November 8 at 20:00 PST, drains at 22:00 and receives its addendum by 23:00. The separately commissioned theory-days campaign keeps its original 54,000 CPU-second ceiling, November 7 19:00 start freeze and November 8 07:00 drain. Its finite B2 texture grid and full internal write-through are complete; broader ready work remains unbuilt or held. Neither clock nor allowance is extended.
+
+**Means.** Keep paid dispatch closed and preserve the ledger and all previous failures, holds and completed results. Retain the scheduled operational inspections and final-packet policy. The six-hour health inspection remains due November 6 at 18:54:44 PST; this cutoff event does not rearm it. The Week 4 daily digest remains due at 20:00 PST. No new tests were harvested, no scientific analysis was run, and no paid call, delegation, publication or GPU restart occurred.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.; project meaning: scoped operational record; next engineering obligation: Preserve paid closure and all existing admission holds; retain the scheduled health inspection, separate local windows and final packets.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_PAID_CUTOFF_20261106.md.
+
+### S15-TD-B2-TEXTURE-EXPOSURE-COHORT-20261106
+
+**Hypothesis.** How does the finite-choice refusal comparison depend on requiring more observed choices, and how much of that variation accompanies changing the returning-fingerprint cohort?
+
+**METHOD.** Freeze thresholds from four through eleven valid choices per original dimension. At each threshold retain only members of the original common returning-fingerprint cohort meeting that threshold in every dimension. Integrate every possible subset at the threshold count, at exactly three choices, and at each fingerprint's own minimum dimension count. Contrast mean expected never-trading probability for species/intervention against gender/fitness, jointly resampling whole fingerprints for 2,000 draws. Preserve a paired threshold-minus-three exposure difference within each selected cohort. Combine only exactly identical statistic vectors. Retain marginal descriptive 95% percentile intervals; the bounded-mean fallback applies only to homogeneous vectors. Require at least 1,000 fingerprints, stop unsupported nested cohorts, and stop after five consecutive cards whose three exposure estimates all stay within half the original parent's 95% interval width. The exact-cache successor changes only source representation and reproduces every field of the original 32-draw probe; full separate-process recalculation validates the complete family.
+
+**Found.** The exposure-and-cohort grid changes the observed refusal contrast and reverses the paired exposure difference across selected cohorts; this is descriptive sensitivity only.
+
+The table reports every registered threshold. Eligible fingerprints and their share refer to the original 301,689-fingerprint cohort. Each remaining cell is a species/intervention-minus-gender/fitness difference in percentage points, followed by its marginal descriptive 95% interval. The three exposure summaries use the same selected cohort within a row; cohorts differ between rows. These intervals are not simultaneous and are not used for new hypothesis tests.
+
+| Required choices in every dimension | Eligible fingerprints | Original cohort (%) | Exactly the threshold | Exactly three | Own minimum |
+|---|---:|---:|---|---|---|
+| 4 | 215797 | 71.529622 | 15.889833 [15.754983, 16.028247] | 13.870703 [13.748971, 13.993970] | 14.784932 [14.645866, 14.929497] |
+| 5 | 96973 | 32.143366 | 15.399214 [15.230486, 15.563245] | 13.294120 [13.155697, 13.437463] | 12.563660 [12.388715, 12.737025] |
+| 6 | 74564 | 24.715518 | 14.956290 [14.777454, 15.133661] | 13.327713 [13.176828, 13.475348] | 11.613362 [11.426776, 11.796644] |
+| 7 | 49037 | 16.254156 | 13.681364 [13.494963, 13.866081] | 13.307966 [13.146676, 13.463820] | 9.388905 [9.196528, 9.576874] |
+| 8 | 40415 | 13.396246 | 12.654126 [12.463242, 12.842546] | 13.441694 [13.279700, 13.607606] | 8.377897 [8.184476, 8.569396] |
+| 9 | 31502 | 10.441879 | 11.393706 [11.198219, 11.589160] | 13.631925 [13.451247, 13.800881] | 6.911968 [6.715851, 7.114452] |
+| 10 | 27361 | 9.069273 | 10.271985 [10.074913, 10.479208] | 13.741093 [13.574790, 13.926065] | 6.076607 [5.881113, 6.278910] |
+| 11 | 23150 | 7.673465 | 9.153474 [8.954961, 9.352307] | 13.974212 [13.790242, 14.162387] | 5.113700 [4.913611, 5.311166] |
+
+The next table isolates the exposure change within each selected cohort. It subtracts the exactly-three pooled contrast from the threshold-exposure contrast, in percentage points. A sign change concerns this finite-sampling comparison, not a reversal of an individual's preference.
+
+| Required choices | Paired threshold-minus-three difference and descriptive 95% interval |
+|---|---|
+| 4 | 2.019130 [1.984726, 2.052530] |
+| 5 | 2.105094 [2.055248, 2.156599] |
+| 6 | 1.628578 [1.546787, 1.702875] |
+| 7 | 0.373398 [0.281676, 0.458904] |
+| 8 | -0.787568 [-0.894774, -0.680087] |
+| 9 | -2.238219 [-2.354490, -2.114234] |
+| 10 | -3.469107 [-3.608284, -3.330822] |
+| 11 | -4.820738 [-4.960099, -4.685497] |
+
+The paired difference is positive at required counts four through seven and negative at eight through eleven in these selected cohorts. The exactly-three contrasts vary more modestly across the selected cohorts. The threshold-exposure contrast remains positive throughout the finite grid, while its magnitude falls across the displayed thresholds. No threshold is selected as preferred, no practical-bar rule is added, and no claim receives stronger status from this descriptive family.
+
+The table retains all four expected never-trading rates as percentages. Each row names a cohort threshold and exposure rule. These are finite hypothetical-choice summaries, not population prevalences or measurements of terminal identity.
+
+| Required choices | Exposure inspected | Species (%) | Intervention (%) | Gender (%) | Fitness (%) |
+|---|---|---:|---:|---:|---:|
+| 4 | Threshold | 54.445064 | 14.412763 | 18.023180 | 19.054980 |
+| 4 | Three | 62.384793 | 26.846192 | 30.249782 | 31.239796 |
+| 4 | Own minimum | 46.352346 | 9.603571 | 12.795631 | 13.590423 |
+| 5 | Threshold | 45.283571 | 7.701689 | 10.607996 | 11.578837 |
+| 5 | Three | 60.135750 | 26.612579 | 29.546909 | 30.613181 |
+| 5 | Own minimum | 33.528288 | 3.453686 | 5.641445 | 6.213208 |
+| 6 | Threshold | 39.831618 | 4.237659 | 6.650691 | 7.506005 |
+| 6 | Three | 59.872943 | 26.545741 | 29.325408 | 30.437852 |
+| 6 | Own minimum | 29.484501 | 2.108523 | 3.921848 | 4.444452 |
+| 7 | Threshold | 33.983358 | 2.284812 | 4.122269 | 4.783173 |
+| 7 | Three | 59.066232 | 26.373543 | 28.854751 | 29.969092 |
+| 7 | Own minimum | 22.445332 | 0.845519 | 2.088975 | 2.424067 |
+| 8 | Threshold | 29.898676 | 1.279407 | 2.657479 | 3.212351 |
+| 8 | Three | 58.920752 | 26.321851 | 28.595643 | 29.763572 |
+| 8 | Own minimum | 19.426203 | 0.500135 | 1.429934 | 1.740610 |
+| 9 | Threshold | 25.987084 | 0.707328 | 1.799756 | 2.107244 |
+| 9 | Three | 58.766448 | 26.226496 | 28.352187 | 29.376906 |
+| 9 | Own minimum | 15.603343 | 0.227964 | 0.949935 | 1.057436 |
+| 10 | Threshold | 22.898406 | 0.404477 | 1.282080 | 1.476833 |
+| 10 | Three | 58.711005 | 26.175241 | 28.176716 | 29.227344 |
+| 10 | Own minimum | 13.555669 | 0.136227 | 0.739120 | 0.799561 |
+| 11 | Threshold | 20.040635 | 0.244309 | 0.935705 | 1.042291 |
+| 11 | Three | 58.706220 | 26.153864 | 27.914239 | 28.997421 |
+| 11 | Own minimum | 11.264755 | 0.084278 | 0.550559 | 0.571075 |
+
+All eight planned cards pass the support floor. No early stop fires: every card has at least one of its three exposure estimates farther than half the original parent interval width from that parent's point. The parent point is 14.509147 percentage points and the half-width is 0.141623 percentage points. Every consecutive-stability counter is zero. The finite grid is exhausted; this does not authorize extending it or creating descendants.
+
+The source selection, offered scenarios, stable ordinary preferences and uncertain fingerprint linkage remain the strongest rivals. Whole-fingerprint bootstrap intervals assume exchangeable fingerprints; cross-fingerprint dependence and linkage errors are not modeled. Expected never-trading rates can fall mechanically as exposure grows. Holding a selected cohort fixed separates the arithmetic exposure change within it, but this is not a randomized intervention on people. None of these records observes current endorsement, satiation, actual personal sacrifice or unoffered trades. The original B2, component and two exposure results retain their exact evidence and status.
+
+The first uncached cost probe remains held under its frozen forecast. Its separately committed exact-cache successor passes all original parent reproductions, complete original-probe equality, immutable reentry and independent elementwise source reconstruction. Full execution and independent replay used 98.09375 CPU seconds; every family attempt including preparation and the retained original probe totals 187.484375 CPU seconds. The campaign has 5558.21875 charged or conservatively reserved CPU seconds against 54,000. No budget reset occurred. Design commits: original `3fc54998fd811156487ec644ae99faa1f798972c`; cache successor `9b8f0a59209dbd3c68308eea59d69c200cef9638`. Every output, pin and exited native identity verifies. Raw counts and cached arrays stay private. Source attribution: Awad et al. (2018), [CC-BY Moral Machine all-session release](https://osf.io/3hvt2/).
+
+**Means.** Retain this as descriptive exposure/cohort texture, with no new p-value, confidence upgrade or descendants. The supplied theory errata remains applied; this later result changes only the existing B2 result row and its afterword. The admitted research queue is now drained, with zero active slots and zero ready successors. TD1 to TD3 retrieval, B1 licensing and B3 licensing/semantics remain held; further texture is not yet built or admitted. No scientific failure is healed, no completed job is rerun, and no new tests are harvested from this wake. The existing six-hour health inspection remains due at 18:54:44 PST, ahead of the 19:00 source-outage trigger. Original CPU-only Gear 2 authority, ceiling, freeze/drain and final curator packet policy remain unchanged.
+
+Curator roll-up: finite-choice evidence and learned ends; How do exposure and cohort selection change the refusal summary?; **Narrows**; The exposure-and-cohort grid changes the observed refusal contrast and reverses the paired exposure difference across selected cohorts; this is descriptive sensitivity only.; project meaning: retain descriptive sampling sensitivity without identity inference; next engineering obligation: source holds and the scheduled health inspection; public claim unchanged; curator decision required: No; detail: THEORY_DAYS/B2_TEXTURE_EXPOSURE_COHORT.md.
+
+### OPS-S15-TD-ERRATA-CONTINUATION-20261106
+
+**Hypothesis.** Can the supplied theory corrections be integrated without losing later evidence, and can authorized CPU work continue within the original campaign bounds?
+
+**METHOD.** Read all supplied errata and its anchors, merge against the current theory files, independently reconstruct all edits from retained preimages, verify quotation and table-row preservation, check identifiers and links, and run theory lint. Build a prospectively committed descriptive exposure/cohort grid, validate signed and null cases, support and stopping behavior, retain its first cost hold, then validate an exact private input cache and whole-probe parity before full admission. Inspect native ownership, source pins, monitoring, resources and claim anchors.
+
+**Found.** The November 6 theory errata is applied and verified; the admitted descriptive choice-data texture is running in CPU-only Gear 2.
+
+All 26 edits are applied across the four theory files and theory index, with 25 unique new OPEN identifiers. The exact source and application receipt are archived under `docs/design/archive/`; curator contributions are recorded in `results/readings/PROVENANCE.md`. Two supplied afterword anchors predated today's empirical additions, so their unchanged prefixes were merged while retaining the later result sentences. The analyst's universal utility claim was qualified to finite compensatory utility. Existing measurement cross-references were retained without identifying the proposed human mechanisms. No curator quotation was silently strengthened, no Ghost V26 result imported, and supplied literature labels remain attributed to the packet's analyst. The raw transcripts and companion edit JSON were not supplied; this was not an independent transcript or full-text literature verification. The application receipt records every adaptation and all before/after hashes.
+
+Independent reconstruction, all existing quotation/table rows, new quote-to-payload equality, six local links, uniqueness and theory lint pass. All five theory files still match the verified application hashes. 682 current claim anchors verify. Eight targeted texture/cache checks pass, along with separate native validation and complete input reconstruction; design lint and all 21 immutable locks pass. The first test invocation had a temporary-directory setup refusal, retained alongside the passing unchanged workspace-local rerun.
+
+The first texture probe remains cost-held. The exact-cache successor reproduces every original count and seeded subset indicator, every field of the original 32-draw probe and all parent summaries. Its new forecast is 1768.06640625 CPU seconds. Full execution reserves 3510.609375 seconds after 89.390625 prior seconds charged, within the unchanged 3,600-second cumulative family ceiling. All prior attempts remain charged; the campaign currently reserves 8970.734375 of 54,000 CPU seconds. Cached arrays and raw records remain private.
+
+One counted research job is active, containing eight ordered texture cards with the registered five-stable-card stop. There are zero additional ready jobs; this is not full four-slot saturation or a day-deep ready buffer. The exact native coordinator and child identity, fresh phase progress, immutable plan and watched terminal paths are retained privately. No scientific texture estimate is reported until the whole family and independent replay finish. The resulting descriptive comparisons cannot upgrade a claim or register descendants.
+
+The sole durable watcher and both finite calendars match their native identities and pinned sources, with fresh heartbeats and no current watcher error. The exclusive watcher lock is held. Resource floors pass: 50.52 GiB available RAM, 35.68 GiB commit headroom and 275.26 GiB free disk. The six-hour health deadline is unchanged at November 6 18:54:44 PST. Result acknowledgments occurred only after their complete internal records. This ordinary continuation does not reset that clock.
+
+The official [Dryad landing page](https://datadryad.org/dataset/doi:10.5061/dryad.prr4xgxkk) is readable, but both linked README and ZIP retrievals still return HTTP 403 through the web retrieval tool; no dataset bytes were obtained. The [B1 OSF page](https://osf.io/km69z/) also returned HTTP 403, leaving licensing unverified. TD1 to TD3 and B1 remain source-held; B3's existing license/schema hold remains. No access challenge was bypassed, source substituted or gate relaxed. The 19:00 PST source-outage trigger remains due if unresolved.
+
+**Means.** Land the complete texture family after independent replay, preserve source holds, and perform the existing six-hour health inspection before the 19:00 PST source-outage trigger. The supplied theory edits are complete; no new psychological hypothesis or paid work was added. This texture is within the existing amendment-G commission, with its separate analyst rationale. GPU work remains parked. November 7 19:00 PST starts freeze and November 8 07:00 PST drain remain; one final curator packet follows drain. Only the two prospective design notes were committed locally for admission; this turn did not publish.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 6 theory errata is applied and verified; the admitted descriptive choice-data texture is running in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Land the complete texture family after independent replay, preserve source holds, and perform the existing six-hour health inspection before the 19:00 PST source-outage trigger.; public scientific claim unchanged; curator decision required: No new decision. Detail: ERRATA_CONTINUATION_20261106.md.
+
+### S15-TD-B2-TEXTURE-H1-COST-20261106
+
+**Hypothesis.** Can an exact count cache remove repeated source decoding without changing the registered texture calculation?
+
+**METHOD.** Run all supported thresholds at 32 draws using the verified exact cache, compare every result field against the original source-decoding probe, and replay in a fresh native process. Scale total CPU to 2,000 draws with the unchanged 50% margin.
+
+**Found.** The cached texture probe exactly reproduces the entire original probe and independently replays; full execution fits the unchanged family allowance.
+
+This rung used 18.859375 CPU seconds; all original and cache attempts total 89.390625 seconds so far. The retained original forecast exceeded the strict family cap. The exact-cache successor retains the same 3,600-second cumulative ceiling and original 54,000-second campaign budget. Full execute-and-replay forecast: 1768.06640625 CPU seconds. No probe estimate or interval is interpreted.
+
+Every output hash, source pin and native exit verifies. Design commit `9b8f0a59209dbd3c68308eea59d69c200cef9638`. Private arrays and source records are not published.
+
+**Means.** Run the unchanged full descriptive family with its five-card stop and independent replay. The first cost-held attempt remains; no scientific gate or claim changes. CPU-only Gear 2, original clock and final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The cached texture probe exactly reproduces the entire original probe and independently replays; full execution fits the unchanged family allowance.; project meaning: scoped operational record; next engineering obligation: Run the unchanged full descriptive family with its five-card stop and independent replay.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_TEXTURE_H1_COST.md.
+
+### S15-TD-B2-TEXTURE-H1-CACHE-20261106
+
+**Hypothesis.** Can an exact count cache remove repeated source decoding without changing the registered texture calculation?
+
+**METHOD.** Decode all admitted common-cohort counts and the original seeded subset indicators, retain them as two private non-pickled arrays, then independently decode the full source again and compare every element and source binding.
+
+**Found.** The complete private count cache exactly matches fresh source decoding and seeded subset reconstruction in independent native verification.
+
+This rung used 29.5 CPU seconds; all original and cache attempts total 70.53125 seconds so far. The retained original forecast exceeded the strict family cap. The exact-cache successor retains the same 3,600-second cumulative ceiling and original 54,000-second campaign budget.
+
+Every output hash, source pin and native exit verifies. Design commit `9b8f0a59209dbd3c68308eea59d69c200cef9638`. Private arrays and source records are not published.
+
+**Means.** Run the cached full-cohort 32-draw cost probe, requiring exact equality with the complete retained original probe. The first cost-held attempt remains; no scientific gate or claim changes. CPU-only Gear 2, original clock and final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete private count cache exactly matches fresh source decoding and seeded subset reconstruction in independent native verification.; project meaning: scoped operational record; next engineering obligation: Run the cached full-cohort 32-draw cost probe, requiring exact equality with the complete retained original probe.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_TEXTURE_H1_CACHE.md.
+
+### S15-TD-B2-TEXTURE-H1-NATIVE-20261106
+
+**Hypothesis.** Can an exact count cache remove repeated source decoding without changing the registered texture calculation?
+
+**METHOD.** Construct a complete count source and reconstruct its seeded subset indicators, save non-pickled private arrays, then decode the source again in a separate native process and compare every element. Three targeted checks also exercise corruption refusal and complete 32-draw family parity.
+
+**Found.** The exact input-cache adapter passes elementwise equality, corruption refusal, immutable reentry and independent native reconstruction.
+
+This rung used 0.96875 CPU seconds; all original and cache attempts total 41.03125 seconds so far. The retained original forecast exceeded the strict family cap. The exact-cache successor retains the same 3,600-second cumulative ceiling and original 54,000-second campaign budget.
+
+Every output hash, source pin and native exit verifies. Design commit `9b8f0a59209dbd3c68308eea59d69c200cef9638`. Private arrays and source records are not published.
+
+**Means.** Prepare and independently verify the complete real count cache before the new cost probe. The first cost-held attempt remains; no scientific gate or claim changes. CPU-only Gear 2, original clock and final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact input-cache adapter passes elementwise equality, corruption refusal, immutable reentry and independent native reconstruction.; project meaning: scoped operational record; next engineering obligation: Prepare and independently verify the complete real count cache before the new cost probe.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_TEXTURE_H1_NATIVE.md.
+
+### S15-TD-B2-TEXTURE-COST-20261106
+
+**Hypothesis.** Is the declared exposure-and-cohort texture ready for its next execution rung?
+
+**METHOD.** Load the original returning-fingerprint cohort, reproduce the original seeded subset and exact minimum and three-choice summaries, then run all supported thresholds with 32 whole-fingerprint bootstrap draws and independent replay. Disable stability stopping only in this conservative cost probe; project 2,000 draws from total CPU with a 50% margin.
+
+**Found.** The full-cohort texture cost probe replays but the complete uncertainty run is cost-held.
+
+Total CPU including replay is 38.890625 seconds; complete forecast 3645.99609375 seconds, with 40.0625 prior seconds charged. The family shares a strict 3,600-second cap including validation and probe, inside the original campaign ceiling. No probe estimate or interval is interpreted or reported.
+
+All output hashes, source pins and exited native identities verify. Design commit: `3fc54998fd811156487ec644ae99faa1f798972c`. This is implementation and cost evidence, not a new human or identity claim.
+
+**Means.** Hold this family; preserve its declared grid, support floor and draw count. The amendment-G lane is descriptive, starts after the eligible backlog, registers no descendants and retains the original CPU-only clock and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-cohort texture cost probe replays but the complete uncertainty run is cost-held.; project meaning: scoped operational record; next engineering obligation: Hold this family; preserve its declared grid, support floor and draw count.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_TEXTURE_COST.md.
+
+### S15-TD-B2-TEXTURE-NATIVE-20261106
+
+**Hypothesis.** Is the declared exposure-and-cohort texture ready for its next execution rung?
+
+**METHOD.** Validate exact subset probabilities against literal enumeration, nested eligibility, exposure identity, input ordering, support refusal, finite homogeneous uncertainty, corrupt-parent refusal and immutable handler reentry. Execute and replay signed and identical constructed families in separate native processes.
+
+**Found.** The exposure-and-cohort texture consumer passes literal subset, nested selection, signed and zero cases, stopping and complete native replay.
+
+Five targeted tests pass. The first test invocation retained four passes and one temporary-directory setup refusal; rerunning the unchanged tests with a fresh workspace-local temporary directory passed all five. No scientific or parser rule changed. Native execution and replay independently pass. No human texture estimate is computed by validation.
+
+All output hashes, source pins and exited native identities verify. Design commit: `3fc54998fd811156487ec644ae99faa1f798972c`. This is implementation and cost evidence, not a new human or identity claim.
+
+**Means.** Run the complete-population 32-draw probe, reproducing the original B2 and its two exposure references before full admission. The amendment-G lane is descriptive, starts after the eligible backlog, registers no descendants and retains the original CPU-only clock and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exposure-and-cohort texture consumer passes literal subset, nested selection, signed and zero cases, stopping and complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the complete-population 32-draw probe, reproducing the original B2 and its two exposure references before full admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_TEXTURE_NATIVE.md.
+
+### OPS-S15-TD-HEALTH-20261106-1244
+
+**Hypothesis.** Are completed results accounted for, are the native monitors healthy, and is any existing authorized work stalled by a recoverable operational fault?
+
+**METHOD.** Inspect exact native process creation identities, both calendar heartbeats, watcher source hashes and its exclusive lock, the delivered health event, every theory-days run terminal, complete output hashes and all plan pins. Reconcile aggregate records with findings, instruments or theory, TODO and the claim ledger; verify source anchors, resource floors, shared slots, GPU parking, settled paid work and the prior Week 4 terminal inventory. Distinguish a completed run from an admissible new start.
+
+**Found.** Completed records and monitoring verify after restoring a pinned setup README; CPU-only Gear 2 remains idle with source holds and an unbuilt ready buffer.
+
+**Correction first: dependency integrity.** The runtime and intake plans pinned the initial theory-days README. Later follow-up navigation had changed that file. Preserve the newer version privately and restore the exact original bytes from design commit `abeee0d8b`, whose SHA-256 is `72bfb9cf5b9171c1f5d8751137aaca199461a754bd2e46a09a5bf19a6943dc32`. Its newer copy had SHA-256 `1a197332ea1df9a74e37f5f7241a1cf06427d50f92a1cf1670d8245ab5bdb663`. The navigation now resides in the unpinned results index; every design link remains available. Both affected completed runs now match their original pins. No scientific code, source, output, threshold or result changed, and no run was repeated. The standing immutable-dependency lesson now explicitly includes documentation and navigation.
+
+The table separates completed evidence, live monitoring and missing runnable work. Counts are operational inventory, not scientific scores. Resource readings and idle capacity are at 2026-11-06T20:49:53.996908+00:00.
+
+| Check | Observed state |
+|---|---|
+| Theory-days attempts | 49 terminal plans: 47 complete and two retained original setup failures with completed healed successors; all owned native processes exited |
+| Complete outputs and source pins | 691 output bindings verified; 1768 pin bindings examined; all successful-attempt pins match after restoration |
+| Historical failed-attempt pins | Seven mismatches remain confined to the two superseded failed setup attempts; already documented in BACKLOG_BUILD, including the unavailable earlier successful XML snapshot. No claim that those old pins match current sources |
+| Full internal records | 39 existing theory-days records linked through their required destinations; all 47 completion digests map to receipts |
+| Earlier Week 4 terminals | 214 retained terminals unchanged; its two unstarted placeholder plans have documented complete or cost-held successors and are not runnable |
+| Active research / ready buffer | 0 of 4 counted research slots; 0 of 8 ready cards. This remains a build deficit, not full saturation |
+| Monitoring | Sole watcher and both finite calendars live with fresh heartbeats; current health event delivered on its first attempt; no current transport error or cancellation |
+| Locks and shared capacity | All 21 hash locks verify; no research slot files or active shared reservation; watcher exclusive lock held |
+| Resource headroom | 51.83 GiB available RAM, 38.21 GiB commit headroom, 275.35 GiB disk free; startup floors pass |
+| Campaign accounting | 5190.734375 of 54,000 CPU seconds charged or reserved, including build/coordinator reservations; no ceiling reset |
+| Unused counted capacity | 20.4442 slot-hours since the conservative 07:00 PST opening, using admission-to-terminal occupancy; source holds, serial build/write-through and missing ready cards are the causes |
+| Paid and GPU state | Theory-days remains CPU-only with no paid calls. Week 4's 15 batches remain reconciled at 112 cents; none active. GPU work remains parked |
+
+The current health delivery is separately evidenced from API acceptance. Two historical failed-or-unknown notification records remain retained and are not blindly retried. Ordinary duplicate result acknowledgments have not postponed this six-hour inspection. The health event is acknowledged only after this record and its checks; its acknowledgment then sets the next six-hour deadline.
+
+The initial inspection helper stopped twice on reporting-schema assumptions: delivery time belongs to watcher status, not the raw event row, and early native/intake proofs use named replay fields rather than the later common recalculation field. Those helper versions are retained. The corrected inspection honors each actual proof schema. A subsequent pin check exposed the README change above; it was restored before this successful inspection. No scientific test or rule was changed to pass an operational check.
+
+**Runnable-work disposition.** All currently registered eligible theory-days primary runs and first-generation follow-ups are complete. TD1 to TD3 retain the Dryad retrieval hold; the 12-hour outage trigger is due November 6 at 19:00 PST if still unavailable. B1 remains unadmitted because the data license is unconfirmed. B3 remains unadmitted for licensing and lack of identified initiator semantics. TD7 lacks the required writer support. These are not crashed workers to restart, and completed scientific gate failures are not engineering failures to heal. The remaining texture lane is unfrozen and unbuilt; any eventual card must pass the original post-backlog, scope, design, validation and cost rules before execution. No ready card or missing source is invented to fill slots.
+
+**Means.** Reconcile source-held primary and backlog work, then build only admitted texture work within the original CPU ceiling and window; preserve all holds and the final-packet policy. No process restart is indicated by this inspection. Preserve the November 7 19:00 PST start freeze and November 8 07:00 PST drain, with one curator packet at drain. No new tests harvested from this wake, no delegates, no GPU or paid starts, and no publication.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed records and monitoring verify after restoring a pinned setup README; CPU-only Gear 2 remains idle with source holds and an unbuilt ready buffer.; project meaning: scoped operational record; next engineering obligation: Reconcile source-held primary and backlog work, then build only admitted texture work within the original CPU ceiling and window; preserve all holds and the final-packet policy.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEALTH_20261106_1244.md.
+
+### S15-TD5-IC-SENSITIVITY-20261106
+
+**Hypothesis.** Can the entire registered six-pair disagreement rule distinguish uniform independent labels from a planted within-channel advantage and its reversal at the declared practical scale?
+
+**METHOD.** Generate 100 independent constructed worlds at each of four frozen contrasts, each containing 37,335 comments with three distinct single-label raters. Use balanced marginal probabilities over the original fourteen assigned labels and a declared mixture that analytically produces all six within-minus-strongest-rival contrasts. Recompute the original expected-count eligibility, canonical strongest-rival selection and 2,000 whole-comment bootstrap draws in every world. Retain the original fixed-rival interval and the maximum-reselected companion, the 0.1 point threshold, and the full six-pair rule. Grouping identical comment patterns preserves the empirical whole-comment bootstrap law, with a prospectively declared change of random stream. Full fresh-process replay and an independent recount of every retained world validate the record.
+
+**Found.** The complete disagreement rule has limited sensitivity and poor interval coverage in the balanced constructed worlds; the human comparison remains inconclusive.
+
+The table gives the true constructed lift contrast, the rival rule and the full packet's decisions. Every rate is a count out of 100 worlds with a Wilson 95% interval. Supports requires all six pair wins; against requires at least three pair losses. Either decisive verdict is their sum. Fixed chooses the full-world rival once; reselected recomputes the maximum within the same eligible pool on every bootstrap draw.
+
+| True contrast | Rival rule | Supports | Against | Inconclusive | Either decisive verdict |
+|---|---|---|---|---|---|
+| +0 | fixed | 0/100 [0.00%, 3.70%] | 1/100 [0.18%, 5.45%] | 99/100 [94.55%, 99.82%] | 1/100 [0.18%, 5.45%] |
+| +0 | reselected | 0/100 [0.00%, 3.70%] | 1/100 [0.18%, 5.45%] | 99/100 [94.55%, 99.82%] | 1/100 [0.18%, 5.45%] |
+| +0.1 | fixed | 0/100 [0.00%, 3.70%] | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] | 0/100 [0.00%, 3.70%] |
+| +0.1 | reselected | 0/100 [0.00%, 3.70%] | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] | 0/100 [0.00%, 3.70%] |
+| +0.2 | fixed | 68/100 [58.34%, 76.33%] | 0/100 [0.00%, 3.70%] | 32/100 [23.67%, 41.66%] | 68/100 [58.34%, 76.33%] |
+| +0.2 | reselected | 64/100 [54.24%, 72.73%] | 0/100 [0.00%, 3.70%] | 36/100 [27.27%, 45.76%] | 64/100 [54.24%, 72.73%] |
+| -0.2 | fixed | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] |
+| -0.2 | reselected | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] | 0/100 [0.00%, 3.70%] | 100/100 [96.30%, 100.00%] |
+
+Both rules meet the predeclared null-error requirement: one decisive result in 100 at zero has upper Wilson bound 5.45%, below 10%. Both detect the -0.2 reversal in all 100 worlds, with lower bound 96.30%, above 80%. Neither meets the positive-sensitivity requirement at +0.2: fixed supports in 68/100, lower bound 58.34%, and reselected in 64/100, lower bound 54.24%, both below 80%. All three requirements must pass, so both are limited in this construction. At the +0.1 boundary neither yields full-packet support; this dose had no high-power requirement.
+
+The following complete pair diagnostics use the same 100 worlds per row. Wins, losses and inconclusive are counts; coverage is the count of nominal 95% intervals containing the known population contrast with Wilson uncertainty. Bias is mean estimated contrast minus that truth in lift units. All pair uncertainties are finite and all assigned rivals supported in every world: invalid, undefined and unsupported counts are zero throughout. The aggregate JSON retains Wilson intervals for every decision and diagnostic count, including these zeros. Unassigned labels are absent by construction and their separate comparison is explicitly unsupported, never imputed as zero.
+
+| True contrast | Rival rule | Emotion pair | Wins | Losses | Inconclusive | Coverage | Mean point bias |
+|---|---|---|---:|---:|---:|---|---:|
+| +0 | fixed | anger / annoyance | 0 | 11 | 89 | 74/100 [64.63%, 81.60%] | -0.059631 |
+| +0 | fixed | fear / nervousness | 0 | 9 | 91 | 76/100 [66.77%, 83.31%] | -0.057376 |
+| +0 | fixed | grief / sadness | 0 | 5 | 95 | 74/100 [64.63%, 81.60%] | -0.054995 |
+| +0 | fixed | amusement / joy | 0 | 13 | 87 | 69/100 [59.37%, 77.22%] | -0.062129 |
+| +0 | fixed | curiosity / excitement | 0 | 5 | 95 | 77/100 [67.85%, 84.16%] | -0.055198 |
+| +0 | fixed | caring / love | 0 | 5 | 95 | 76/100 [66.77%, 83.31%] | -0.051512 |
+| +0 | reselected | anger / annoyance | 0 | 11 | 89 | 29/100 [21.01%, 38.54%] | -0.059631 |
+| +0 | reselected | fear / nervousness | 0 | 9 | 91 | 35/100 [26.36%, 44.75%] | -0.057376 |
+| +0 | reselected | grief / sadness | 0 | 5 | 95 | 33/100 [24.56%, 42.69%] | -0.054995 |
+| +0 | reselected | amusement / joy | 0 | 13 | 87 | 31/100 [22.78%, 40.63%] | -0.062129 |
+| +0 | reselected | curiosity / excitement | 0 | 5 | 95 | 35/100 [26.36%, 44.75%] | -0.055198 |
+| +0 | reselected | caring / love | 0 | 5 | 95 | 37/100 [28.18%, 46.78%] | -0.051512 |
+| +0.1 | fixed | anger / annoyance | 3 | 0 | 97 | 82/100 [73.33%, 88.30%] | -0.052296 |
+| +0.1 | fixed | fear / nervousness | 1 | 0 | 99 | 78/100 [68.93%, 85.00%] | -0.057850 |
+| +0.1 | fixed | grief / sadness | 6 | 0 | 94 | 76/100 [66.77%, 83.31%] | -0.055912 |
+| +0.1 | fixed | amusement / joy | 5 | 0 | 95 | 76/100 [66.77%, 83.31%] | -0.060549 |
+| +0.1 | fixed | curiosity / excitement | 8 | 0 | 92 | 78/100 [68.93%, 85.00%] | -0.052456 |
+| +0.1 | fixed | caring / love | 3 | 0 | 97 | 75/100 [65.70%, 82.45%] | -0.059062 |
+| +0.1 | reselected | anger / annoyance | 3 | 0 | 97 | 43/100 [33.73%, 52.78%] | -0.052296 |
+| +0.1 | reselected | fear / nervousness | 1 | 0 | 99 | 38/100 [29.10%, 47.79%] | -0.057850 |
+| +0.1 | reselected | grief / sadness | 6 | 0 | 94 | 36/100 [27.27%, 45.76%] | -0.055912 |
+| +0.1 | reselected | amusement / joy | 5 | 0 | 95 | 30/100 [21.89%, 39.58%] | -0.060549 |
+| +0.1 | reselected | curiosity / excitement | 8 | 0 | 92 | 46/100 [36.56%, 55.74%] | -0.052456 |
+| +0.1 | reselected | caring / love | 3 | 0 | 97 | 38/100 [29.10%, 47.79%] | -0.059062 |
+| +0.2 | fixed | anger / annoyance | 90 | 0 | 10 | 76/100 [66.77%, 83.31%] | -0.057596 |
+| +0.2 | fixed | fear / nervousness | 93 | 0 | 7 | 82/100 [73.33%, 88.30%] | -0.055666 |
+| +0.2 | fixed | grief / sadness | 95 | 0 | 5 | 85/100 [76.72%, 90.69%] | -0.053003 |
+| +0.2 | fixed | amusement / joy | 85 | 0 | 15 | 76/100 [66.77%, 83.31%] | -0.060188 |
+| +0.2 | fixed | curiosity / excitement | 94 | 0 | 6 | 86/100 [77.86%, 91.47%] | -0.046537 |
+| +0.2 | fixed | caring / love | 96 | 0 | 4 | 81/100 [72.22%, 87.49%] | -0.057894 |
+| +0.2 | reselected | anger / annoyance | 89 | 0 | 11 | 40/100 [30.94%, 49.80%] | -0.057596 |
+| +0.2 | reselected | fear / nervousness | 90 | 0 | 10 | 45/100 [35.61%, 54.76%] | -0.055666 |
+| +0.2 | reselected | grief / sadness | 95 | 0 | 5 | 42/100 [32.80%, 51.79%] | -0.053003 |
+| +0.2 | reselected | amusement / joy | 84 | 0 | 16 | 40/100 [30.94%, 49.80%] | -0.060188 |
+| +0.2 | reselected | curiosity / excitement | 94 | 0 | 6 | 51/100 [41.35%, 60.58%] | -0.046537 |
+| +0.2 | reselected | caring / love | 96 | 0 | 4 | 34/100 [25.46%, 43.72%] | -0.057894 |
+| -0.2 | fixed | anger / annoyance | 0 | 100 | 0 | 94/100 [87.52%, 97.22%] | -0.012127 |
+| -0.2 | fixed | fear / nervousness | 0 | 100 | 0 | 92/100 [85.00%, 95.89%] | -0.017209 |
+| -0.2 | fixed | grief / sadness | 0 | 100 | 0 | 97/100 [91.55%, 98.97%] | -0.019167 |
+| -0.2 | fixed | amusement / joy | 0 | 100 | 0 | 98/100 [93.00%, 99.45%] | -0.019018 |
+| -0.2 | fixed | curiosity / excitement | 0 | 99 | 1 | 91/100 [83.77%, 95.19%] | -0.017857 |
+| -0.2 | fixed | caring / love | 0 | 100 | 0 | 96/100 [90.16%, 98.43%] | -0.017711 |
+| -0.2 | reselected | anger / annoyance | 0 | 100 | 0 | 94/100 [87.52%, 97.22%] | -0.012127 |
+| -0.2 | reselected | fear / nervousness | 0 | 100 | 0 | 90/100 [82.56%, 94.48%] | -0.017209 |
+| -0.2 | reselected | grief / sadness | 0 | 100 | 0 | 93/100 [86.25%, 96.57%] | -0.019167 |
+| -0.2 | reselected | amusement / joy | 0 | 100 | 0 | 93/100 [86.25%, 96.57%] | -0.019018 |
+| -0.2 | reselected | curiosity / excitement | 0 | 99 | 1 | 91/100 [83.77%, 95.19%] | -0.017857 |
+| -0.2 | reselected | caring / love | 0 | 100 | 0 | 94/100 [87.52%, 97.22%] | -0.017711 |
+
+The positive and zero constructions contain tied population rivals. At zero, pair interval coverage is only 69% to 77% for fixed rivals and 29% to 37% for reselected rivals. Mean null point bias ranges from -0.062129 to -0.051512. Thus passing the packet's null-decision threshold does not establish nominal interval coverage. Maximum reselection does not repair coverage in this construction. These diagnostics support the original warning that the strongest-rival bootstrap is not guaranteed valid near tied maxima. At +0.2, fixed-pair wins range from 85 to 96 while the conjunction wins only 68 times; individual-pair recovery does not substitute for the registered full rule.
+
+The worlds omit actual label imbalance, multilabel annotation, reused raters, comment heterogeneity and adaptive additional ratings. They calibrate the rule on a simple declared population, not the power of either human cohort. The comment count matches the original exactly-three-rater companion; no real author field or new human text is read. All worlds and pairs remain in the denominators. The original human points, intervals and outcomes remain unchanged. This is a scientific instrument limitation, not a crash or arithmetic failure to heal; no estimator or mapping is changed after outcomes.
+
+**Means.** Replace the untested-sensitivity qualifier with this limited constructed calibration while retaining the human inconclusive result and its scope. Retain the human comparison and the complete constructed calibration; no descendants. Reconcile the remaining source-held primary and backlog cards inside the existing campaign bounds. No new tests were harvested from this wake. No p-value is added. Scientific reporting remains in the final packet at drain.
+
+Design commit `396c0c3e531c0c70be771c584c8356aea0047790`. Full execution and independent replay used 124.1875 CPU seconds; all TD5.ic rungs total 131.828125 against 900. Every output hash, source pin and native exit verifies. All aggregate decisions, biases, intervals and adequacy flags were independently checked against the retained complete-world records. The original pinned receipt stays byte-identical.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete disagreement rule has limited sensitivity and poor interval coverage in the balanced constructed worlds; the human comparison remains inconclusive.; project meaning: scoped operational record; next engineering obligation: Retain the human comparison and the complete constructed calibration; no descendants. Reconcile the remaining source-held primary and backlog cards inside the existing campaign bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD5_IC_SENSITIVITY.md.
+
+### S15-TD5-IC-COST-20261106
+
+**Hypothesis.** Can the registered complete disagreement-rule check proceed to its next execution rung?
+
+**METHOD.** Run two constructed worlds at each of four doses, with 37,335 complete three-rater comments and 2,000 whole-comment bootstrap draws per world, followed by full fresh-process replay. Project 100 worlds per dose with the declared 50% margin.
+
+**Found.** The complete-population disagreement cost probe independently replays; the full calibration fits its original allowance.
+
+Total CPU including replay is 4.96875; the full forecast is 372.65625, with 7.640625 prior seconds against 900. Calibration prefix scores are not interpreted. All worlds and six target pairs remain in the design.
+
+All output hashes, source pins and native exits verify. Design commit `396c0c3e531c0c70be771c584c8356aea0047790`. Balanced single-label three-rater worlds do not reproduce real label imbalance, multilabel annotation, rater reuse or adaptive extra ratings, and do not establish human-population power.
+
+**Means.** Run the full registered calibration with independent replay; preserve original human results. No tests harvested from this wake; this is the registered first-generation instrument check, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-population disagreement cost probe independently replays; the full calibration fits its original allowance.; project meaning: scoped operational record; next engineering obligation: Run the full registered calibration with independent replay; preserve original human results.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD5_IC_COST.md.
+
+### S15-TD5-IC-NATIVE-20261106
+
+**Hypothesis.** Can the registered complete disagreement-rule check proceed to its next execution rung?
+
+**METHOD.** Validate zero and signed population contrasts for every original channel pair, marginal invariance, literal ordered-rater counts, exhaustive small-world bootstrap-law equivalence, actual original-consumer point and rival parity, unsupported-rival refusal and immutable handler reentry.
+
+**Found.** The complete disagreement-rule calibration passes analytic signed controls, exact grouped-bootstrap validation and native replay.
+
+Six targeted tests pass. Grouping identical comment patterns preserves the empirical whole-comment bootstrap law but changes its seeded random stream; this was declared before outcomes. Both fixed and reselected comparisons retain the original point bar and full six-pair packet rule.
+
+All output hashes, source pins and native exits verify. Design commit `396c0c3e531c0c70be771c584c8356aea0047790`. Balanced single-label three-rater worlds do not reproduce real label imbalance, multilabel annotation, rater reuse or adaptive extra ratings, and do not establish human-population power.
+
+**Means.** Run the two-world-per-dose cost probe at complete constructed population and all 2,000 resamples. No tests harvested from this wake; this is the registered first-generation instrument check, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete disagreement-rule calibration passes analytic signed controls, exact grouped-bootstrap validation and native replay.; project meaning: scoped operational record; next engineering obligation: Run the two-world-per-dose cost probe at complete constructed population and all 2,000 resamples.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD5_IC_NATIVE.md.
+
+### S15-TD4-M-DIAGNOSTIC-20261106
+
+**Hypothesis.** Does the supplied PLAY list follow arousal even though it fails its mapped joy-intensity order?
+
+**METHOD.** Reproduce the original result, then compare joy intensity, arousal and dominance on exactly its five jointly covered PLAY words. Count adjacent inversions and ties, rank each axis against the supplied order, and enumerate all ten unordered word pairs for cross-axis concordance, discordance or a tie. Recompute independently in a fresh process.
+
+**Found.** Arousal does not restore the supplied PLAY word order on the same covered words; the lexical ordering failure remains.
+
+The table gives each norm axis, adjacent reversals and ties, and its Spearman rank correlation with the supplied weak-to-strong order; 1 means exact increasing rank order.
+
+| Axis | Adjacent reversals | Adjacent ties | Order correlation |
+|---|---:|---:|---:|
+| Joy intensity | 2 | 0 | -0.300000 |
+| Arousal | 3 | 0 | -0.307794 |
+| Dominance | 2 | 0 | -0.100000 |
+
+Arousal minus joy order correlation is -0.007793505626. It is not a statistical effect estimate with sampling uncertainty. The next table compares axes on all ten unordered pairs of these same five words. A pair tied on either axis is counted only as tied.
+
+| Axes compared | Concordant | Discordant | Tied | Rank correlation |
+|---|---:|---:|---:|---:|
+| Joy and arousal | 8 | 1 | 1 | 0.872082 |
+| Joy and dominance | 9 | 1 | 0 | 0.900000 |
+| Arousal and dominance | 8 | 1 | 1 | 0.872082 |
+
+Thus the axes largely agree with one another in this tiny fixed set while neither joy nor arousal follows its supplied sequence. This does not identify why each word was placed there, a semantic cause, or a biological channel mechanism. All-VAD extra words are not added to change the comparison.
+
+**Means.** This outcome-informed descriptive follow-up characterizes the original word-list result without replacing it or establishing a graded biological channel. No descendants. No new tests harvested from this wake. No p-value was added. Scientific reporting remains in the final packet at drain.
+
+Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`. Full execution and replay used 3.703125 CPU seconds; all rungs total 9.875 against 180. Every output, pin and native exit verifies. Raw NRC norm entries remain private under the admitted noncommercial research terms. Source: Saif M. Mohammad, NRC Emotion Intensity v1 and VAD v2.1, as attributed in TD4_WORD_SCALES.
+
+Curator roll-up: channel word scales; Does the supplied PLAY list follow arousal even though it fails its mapped joy-intensity order?; **Narrows**; Arousal does not restore the supplied PLAY word order on the same covered words; the lexical ordering failure remains.; project meaning: original word-list limitation retained; next engineering obligation: remaining registered sensitivity check; public claim: descriptive only, no biological-channel claim; curator decision required: No; detail: THEORY_DAYS/TD4_M_DIAGNOSTIC.md.
+
+### S15-TD4-S-DIAGNOSTIC-20261106
+
+**Hypothesis.** Does the failed PLAY ordering depend on a single supplied word?
+
+**METHOD.** Reproduce the entire original lexicon result, then omit each of the five intensity-covered PLAY words in turn, retaining original order and the unchanged four-word floor, inversion count, rank correlation, residual ratio and decision rule. Independently recompute all variants in a fresh process.
+
+**Found.** The PLAY ordering remains against in some single-word omissions and becomes inconclusive in others; none supports the specified scale.
+
+All five variants retain four jointly covered words. Three are against and two inconclusive; none supports and none loses support. Adjacent inversions range from one to two, rank correlations from -0.8 to 0.4, and residual ratios from 0.113073056843 to 0.346694068257. The original full list has two inversions and remains against. The retained ratio is below 0.5 in every deletion, so the decision changes arise from ordering, not a newly large residual ratio. New adjacencies after deletion are part of the declared diagnostic.
+
+The five omissions are a complete deterministic variant set, not independent observations or a population sample; no interval or significance test is claimed. All individual variants remain private, and only aggregate ranges and counts are published. No favorable omission is selected as a new list. Other lists and all original coverage failures remain unchanged.
+
+**Means.** This outcome-informed descriptive follow-up characterizes the original word-list result without replacing it or establishing a graded biological channel. No descendants. No new tests harvested from this wake. No p-value was added. Scientific reporting remains in the final packet at drain.
+
+Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`. Full execution and replay used 3.828125 CPU seconds; all rungs total 10.328125 against 180. Every output, pin and native exit verifies. Raw NRC norm entries remain private under the admitted noncommercial research terms. Source: Saif M. Mohammad, NRC Emotion Intensity v1 and VAD v2.1, as attributed in TD4_WORD_SCALES.
+
+Curator roll-up: channel word scales; Does the failed PLAY ordering depend on a single supplied word?; **Narrows**; The PLAY ordering remains against in some single-word omissions and becomes inconclusive in others; none supports the specified scale.; project meaning: original word-list limitation retained; next engineering obligation: remaining registered sensitivity check; public claim: descriptive only, no biological-channel claim; curator decision required: No; detail: THEORY_DAYS/TD4_S_DIAGNOSTIC.md.
+
+### S15-TD4-M-COST-20261106
+
+**Hypothesis.** Can the registered word-axis comparison follow-up proceed to its next execution rung?
+
+**METHOD.** Reparse both admitted archives, reproduce every original scale output and coverage mask, and verify complete common-word support in a fresh process. Forecast the full diagnostic at five times the complete probe CPU.
+
+**Found.** The word-axis comparison source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.
+
+Total probe execution and replay used 3.703125 CPU seconds; forecast 18.515625, with 6.171875 prior seconds against the 180-second card ceiling. No follow-up statistic was computed by this cost probe.
+
+All output hashes, source pins and native exits verify. Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`.
+
+**Means.** Run the frozen complete diagnostic and independent replay; keep its descriptive scope and original result. No tests harvested from this wake; these are registered first-generation follow-ups, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The word-axis comparison source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.; project meaning: scoped operational record; next engineering obligation: Run the frozen complete diagnostic and independent replay; keep its descriptive scope and original result.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD4_M_COST.md.
+
+### S15-TD4-S-COST-20261106
+
+**Hypothesis.** Can the registered single-word influence follow-up proceed to its next execution rung?
+
+**METHOD.** Reparse both admitted archives, reproduce every original scale output and coverage mask, and verify complete common-word support in a fresh process. Forecast the full diagnostic at five times the complete probe CPU.
+
+**Found.** The single-word influence source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.
+
+Total probe execution and replay used 3.71875 CPU seconds; forecast 18.59375, with 6.5 prior seconds against the 180-second card ceiling. No follow-up statistic was computed by this cost probe.
+
+All output hashes, source pins and native exits verify. Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`.
+
+**Means.** Run the frozen complete diagnostic and independent replay; keep its descriptive scope and original result. No tests harvested from this wake; these are registered first-generation follow-ups, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The single-word influence source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance.; project meaning: scoped operational record; next engineering obligation: Run the frozen complete diagnostic and independent replay; keep its descriptive scope and original result.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD4_S_COST.md.
+
+### S15-TD4-M-NATIVE-20261106
+
+**Hypothesis.** Can the registered word-axis comparison follow-up proceed to its next execution rung?
+
+**METHOD.** Exercise literal deletion adjacency, monotone and reversed lists, equal and opposite axes, tied ranks, constant axes, missing support and immutable handler reentry.
+
+**Found.** The word-axis comparison diagnostic passes signed, constant, tied and coverage checks with complete native replay.
+
+Four targeted tests pass. The first test invocation retained three passes and a setup error because its default temporary directory was inaccessible; the unchanged test passed using an explicit workspace scratch directory. Both reports remain. No source norms were scored in this rung.
+
+All output hashes, source pins and native exits verify. Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`.
+
+**Means.** Run the complete source and parent-reproduction cost probe under the committed design. No tests harvested from this wake; these are registered first-generation follow-ups, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The word-axis comparison diagnostic passes signed, constant, tied and coverage checks with complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the complete source and parent-reproduction cost probe under the committed design.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD4_M_NATIVE.md.
+
+### S15-TD4-S-NATIVE-20261106
+
+**Hypothesis.** Can the registered single-word influence follow-up proceed to its next execution rung?
+
+**METHOD.** Exercise literal deletion adjacency, monotone and reversed lists, equal and opposite axes, tied ranks, constant axes, missing support and immutable handler reentry.
+
+**Found.** The single-word influence diagnostic passes signed, constant, tied and coverage checks with complete native replay.
+
+Four targeted tests pass. The first test invocation retained three passes and a setup error because its default temporary directory was inaccessible; the unchanged test passed using an explicit workspace scratch directory. Both reports remain. No source norms were scored in this rung.
+
+All output hashes, source pins and native exits verify. Design commit `706e2b74e890e22b337230ffa7a9380084bdccbc`.
+
+**Means.** Run the complete source and parent-reproduction cost probe under the committed design. No tests harvested from this wake; these are registered first-generation follow-ups, with no descendants, under CPU-only Gear 2 and the original final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The single-word influence diagnostic passes signed, constant, tied and coverage checks with complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the complete source and parent-reproduction cost probe under the committed design.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD4_S_NATIVE.md.
+
+### OPS-S15-TD-B4-RECEIPT-RESTORE-20261106
+
+**Hypothesis.** Did the sensitivity landing preserve the exact parent evidence admitted by its completed runs?
+
+**METHOD.** Compare the parent receipt with every frozen B4.ic dependency, retain the later edited version privately, and reconstruct the original canonical receipt only after its bytes match the admitted SHA-256 exactly. Recheck every pin, output hash, complete native replay and exited process identity for all three sensitivity rungs. Compare the complete scientific result before and after restoration.
+
+**Found.** The original chess receipt bytes are restored and every sensitivity dependency verifies; scientific outputs are unchanged.
+
+**Correction class: data (receipt metadata); cause: engineering.** The sensitivity landing had added a status pointer and changed a follow-up state in a JSON receipt already pinned by the completed cost and full plans. That made the historical dependency unrepeatable at its admitted hash, although the result object and all scientific output files were unchanged. The edited version is preserved privately. Restoration was conditional on exact equality to the already frozen digest, not an invented replacement.
+
+Original restored SHA-256: `ebff2ede39bc09560952c09c73b7769f96825866bbb50078ac83b0b773020e19`. Retained edited SHA-256: `b1f6fe2ab9cd0f00b1373ec14c927f2b4588c8b13ce8af605b6f579bc2ceef0b`. All three complete sensitivity rungs now verify, including every dependency and output. No run was restarted, no scientific gate changed, and no additional CPU was charged for research.
+
+The restored parent receipt correctly retains the status as it existed when first landed. Current completed sensitivity status remains in B4_IC_SENSITIVITY, FINDINGS, the theory row, TODO and the claim ledger. A historical receipt is not the current queue state.
+
+**Means.** Keep admitted receipts immutable; record later status and sensitivity in separate receipts and the current claim ledger. Existing scientific interpretation is unchanged. No tests harvested from this wake; final-packet reporting remains in force.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original chess receipt bytes are restored and every sensitivity dependency verifies; scientific outputs are unchanged.; project meaning: scoped operational record; next engineering obligation: Keep admitted receipts immutable; record later status and sensitivity in separate receipts and the current claim ledger.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_RECEIPT_RESTORE.md.
+
+### S15-TD6-IC-SENSITIVITY-20261106
+
+**Hypothesis.** Could the original rare-phrase statistic reliably detect a reduction beyond its practical bar, while avoiding false support under equal underlying rates?
+
+**METHOD.** Reconstruct the original matching and both full human outputs exactly. Condition separately on each population's token counts, matched pairs, subreddit strata and pooled hit probability. Generate independent binomial hit counts with anger probability fixed and disgust probability changed by each registered relative dose. Run 100 worlds at each of five doses for both populations, retaining the original 2,000-draw within-subreddit paired bootstrap and three-way decision rule. Precompute exactly the original resampling multiplicities in the same random-call order; complete original-loop parity and independent native replay verify the implementation. No world or undefined draw is removed.
+
+**Found.** The rare-count calibration has limited sensitivity, and the sparse companion bootstrap is unreliable in these constructed worlds; the human comparison remains inconclusive.
+
+Every cell below reports a count out of 100 constructed worlds and a Wilson 95% interval for that rate. Supports and against mechanically apply the original interval rule relative to a 10% reduction; inconclusive includes invalid intervals. Coverage means that the interval contains the underlying ratio of expected rates used by the generator, not the realized sample ratio. A dose of -10% is the decision boundary and has no high-power requirement.
+
+| Population | Underlying relative rate change | Supports | Against | Inconclusive | Interval coverage |
+|---|---:|---|---|---|---|
+| Primary matched pairs | +0% | 1/100 [0.18%, 5.45%] | 11/100 [6.25%, 18.63%] | 88/100 [80.19%, 93.00%] | 91/100 [83.77%, 95.19%] |
+| Primary matched pairs | -10% | 5/100 [2.15%, 11.18%] | 5/100 [2.15%, 11.18%] | 90/100 [82.56%, 94.48%] | 90/100 [82.56%, 94.48%] |
+| Primary matched pairs | -20% | 10/100 [5.52%, 17.44%] | 2/100 [0.55%, 7.00%] | 88/100 [80.19%, 93.00%] | 87/100 [79.02%, 92.24%] |
+| Primary matched pairs | -40% | 37/100 [28.18%, 46.78%] | 1/100 [0.18%, 5.45%] | 62/100 [52.21%, 70.90%] | 92/100 [85.00%, 95.89%] |
+| Primary matched pairs | +20% | 0/100 [0.00%, 3.70%] | 36/100 [27.27%, 45.76%] | 64/100 [54.24%, 72.73%] | 94/100 [87.52%, 97.22%] |
+| Person-targeted companion | +0% | 22/100 [15.00%, 31.07%] | 27/100 [19.27%, 36.43%] | 51/100 [41.35%, 60.58%] | 43/100 [33.73%, 52.78%] |
+| Person-targeted companion | -10% | 26/100 [18.40%, 35.37%] | 26/100 [18.40%, 35.37%] | 48/100 [38.46%, 57.68%] | 44/100 [34.67%, 53.77%] |
+| Person-targeted companion | -20% | 32/100 [23.67%, 41.66%] | 15/100 [9.31%, 23.28%] | 53/100 [43.29%, 62.49%] | 44/100 [34.67%, 53.77%] |
+| Person-targeted companion | -40% | 49/100 [39.42%, 58.65%] | 16/100 [10.10%, 24.42%] | 35/100 [26.36%, 44.75%] | 35/100 [26.36%, 44.75%] |
+| Person-targeted companion | +20% | 22/100 [15.00%, 31.07%] | 34/100 [25.46%, 43.72%] | 44/100 [34.67%, 53.77%] | 43/100 [33.73%, 52.78%] |
+
+The primary has 1,437 pairs in 412 subreddits, 94 of them singleton strata. Its pooled construction probability is 0.00174628913559 per lexical token. At a 20% reduction it supports in 10/100 worlds, with rate interval [5.52%, 17.44%], failing the required lower bound of 80%. At equal rates it falsely supports in 1/100, with interval [0.18%, 5.45%], meeting the required upper bound of 10%. Limited sensitivity follows from failed power under this construction, not a claim that the human effect is absent.
+
+The person-targeted companion has 49 pairs in 41 subreddits, 35 singleton strata, and construction probability 0.00363825363825. At equal rates it falsely supports in 22/100 worlds, with interval [15.00%, 31.07%]; at a 20% reduction it supports in 32/100, with interval [23.67%, 41.66%]. Both adequacy criteria fail. At equal rates its nominal interval covers truth in only 43/100 worlds. This demonstrates poor calibration under the declared model and reinforces the original warning against treating the companion's narrow human interval as precise population evidence.
+
+The diagnostics below are counts out of 100 at each dose and population. Zero excluded means an interval lies wholly on either side of zero. A collapsed interval has identical endpoints. Undefined interval includes any nonfinite bootstrap draw; undefined point means the realized anger denominator is zero. All remain in denominators; the companion JSON gives Wilson uncertainty for every diagnostic as well.
+
+| Population | Underlying relative rate change | Zero excluded | Collapsed interval | Undefined interval | Undefined point |
+|---|---:|---:|---:|---:|---:|
+| Primary matched pairs | +0% | 9/100 | 0/100 | 0/100 | 0/100 |
+| Primary matched pairs | -10% | 17/100 | 0/100 | 0/100 | 0/100 |
+| Primary matched pairs | -20% | 23/100 | 0/100 | 0/100 | 0/100 |
+| Primary matched pairs | -40% | 56/100 | 0/100 | 0/100 | 0/100 |
+| Primary matched pairs | +20% | 22/100 | 0/100 | 0/100 | 0/100 |
+| Person-targeted companion | +0% | 49/100 | 0/100 | 8/100 | 3/100 |
+| Person-targeted companion | -10% | 52/100 | 4/100 | 4/100 | 0/100 |
+| Person-targeted companion | -20% | 47/100 | 4/100 | 6/100 | 2/100 |
+| Person-targeted companion | -40% | 65/100 | 22/100 | 6/100 | 2/100 |
+| Person-targeted companion | +20% | 55/100 | 0/100 | 4/100 | 3/100 |
+
+These conditional worlds hold estimated base rates fixed and assume independent constant-probability token trials. They omit semantic clustering, subreddit rate heterogeneity, author and label dependence, uncertainty in matching and lexical construct coverage. Counts are not asserted to be grammatical texts. The same fixed bootstrap bank is reused as the original seeded procedure would do; world outcomes are independent conditional on that bank. Singleton strata deliberately cannot vary their pair under resampling. The completed human effect estimates, intervals and verdicts remain unchanged and are not replaced by simulated outcomes.
+
+**Means.** The practical-size sensitivity qualifier changes from untested to limited in the stipulated construction. The primary remains inconclusive. The sparse companion remains descriptive and cannot license a mental-modelling claim. This is a completed scientific control failure, not an engineering failure to heal. Retain the original human result and its limited constructed sensitivity; no descendants. Build the other registered theory-days follow-ups within the existing budget and clock. No new tests were harvested from this wake, no p-value is added, and scientific reporting remains in the final packet at drain.
+
+Design commit: `0aff714c38f3d43fa326175b3cc65b1e75d1fbe9`. Full native execution plus independent replay used 33.140625 CPU seconds; all TD6.ic rungs total 66.78125 against 900. Every output hash, source pin, parent output and native exit verifies. All aggregate counts and their intervals were independently recalculated from every retained world. Raw source text and identifiers remain private.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The rare-count calibration has limited sensitivity, and the sparse companion bootstrap is unreliable in these constructed worlds; the human comparison remains inconclusive.; project meaning: scoped operational record; next engineering obligation: Retain the original human result and its limited constructed sensitivity; no descendants. Build the other registered theory-days follow-ups within the existing budget and clock.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD6_IC_SENSITIVITY.md.
+
+### S15-TD6-IC-COST-20261106
+
+**Hypothesis.** Can the registered rare-count sensitivity check proceed to its next execution rung?
+
+**METHOD.** Reconstruct original matching and both complete human outputs, then run eight constructed worlds for each of five doses in each population with the original 2,000-draw bootstrap. Replay independently and project 100 worlds from total CPU with a 50% margin.
+
+**Found.** The rare-count cost probe reproduces both complete human analyses and independently replays; the full constructed calibration fits its original allowance.
+
+Total CPU including replay is 30.953125 seconds; the full forecast is 580.37109375 seconds, with 33.640625 prior seconds charged against 900. Both original point estimates, complete intervals, counts and matching support reproduce exactly. Prefix calibration scores are not interpreted or reported.
+
+Every output hash, source pin, native replay and exited identity verifies. Design commit: `0aff714c38f3d43fa326175b3cc65b1e75d1fbe9`. The conditional binomial construction does not establish lexical coverage or human mental modelling.
+
+**Means.** Run the frozen complete conditional calibration and independent replay; retain the human result and no descendants. No new tests were harvested from this wake. This is the already registered first-generation TD6.ic check under the original CPU-only limits and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The rare-count cost probe reproduces both complete human analyses and independently replays; the full constructed calibration fits its original allowance.; project meaning: scoped operational record; next engineering obligation: Run the frozen complete conditional calibration and independent replay; retain the human result and no descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD6_IC_COST.md.
+
+### S15-TD6-IC-NATIVE-20261106
+
+**Hypothesis.** Can the registered rare-count sensitivity check proceed to its next execution rung?
+
+**METHOD.** Validate the exact integer-multiplicity resampling bank against the original per-draw loop, signed and zero cases, unchanged singleton weights, undefined denominators, binomial count bounds, finite count intervals and immutable native handler reentry.
+
+**Found.** The rare-count sensitivity consumer reproduces the original bootstrap, including singleton and undefined-denominator behavior, with complete native replay.
+
+Five targeted tests pass. The initial numeric fixture incorrectly demanded exact binary equality to a decimal ratio; its failed receipt is retained and only the fixture comparison was corrected to a 1e-15 tolerance. Exact-zero and categorical checks remain. Homogeneous collapsed intervals are deliberately reproduced as a vulnerability of the original bootstrap, not licensed as population certainty. No human comparison or full sensitivity verdict is produced here.
+
+Every output hash, source pin, native replay and exited identity verifies. Design commit: `0aff714c38f3d43fa326175b3cc65b1e75d1fbe9`. The conditional binomial construction does not establish lexical coverage or human mental modelling.
+
+**Means.** Run the full-support eight-world-per-dose cost probe and require complete original human-output reproduction. No new tests were harvested from this wake. This is the already registered first-generation TD6.ic check under the original CPU-only limits and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The rare-count sensitivity consumer reproduces the original bootstrap, including singleton and undefined-denominator behavior, with complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the full-support eight-world-per-dose cost probe and require complete original human-output reproduction.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD6_IC_NATIVE.md.
+
+### S15-TD-B2-S-EXPOSURE-20261106
+
+**Hypothesis.** Does the pooled refusal difference depend on how many choices are inspected, when the same returning fingerprints remain eligible?
+
+**METHOD.** Keep all common-cohort fingerprints and integrate over every possible subset, separately at each fingerprint's minimum dimension count and at exactly three choices per dimension. Compare mean species/intervention never-trading probability with mean gender/fitness probability. Jointly resample whole fingerprints for 2,000 draws, combining only exactly identical statistic vectors. Report 97.5% marginal percentile intervals for the two exposure contrasts, a Bonferroni adjustment at nominal 95% family coverage, and a descriptive 95% interval for their paired change. Literal small-subset enumeration, three-choice arm identity, signed and zero worlds, parent reproduction and complete separate-process replay validate the calculation before interpretation.
+
+**Found.** The pooled refusal contrast remains above the practical bar at both registered exposures; inspecting three choices reduces its size in the same cohort.
+
+Each difference below is in percentage points between the two pooled dimension groups. The adjusted intervals apply to the two exposure contrasts on the same common cohort; the five-percentage-point practical bar is unchanged. Coverage is approximate under the fingerprint bootstrap.
+
+| Choices inspected per dimension | Difference (percentage points) | Adjusted interval | Frozen verdict |
+|---|---:|---|---|
+| Own minimum across four dimensions | 14.518614 | [14.391297, 14.658032] | supports |
+| Exactly three | 13.864670 | [13.748157, 13.985448] | supports |
+
+The paired change from own minimum to three choices is -0.653944 percentage points, with a descriptive 95% interval [-0.693171, -0.617253]. Its negative sign establishes a difference between these registered exposure summaries, not equivalence or a psychological mechanism.
+
+The table below gives mean expected never-trading rates as percentages, averaging all finite subsets at each exposure. These are conditional cohort summaries, not population prevalences.
+
+| Dimension | Own minimum (%) | Three choices (%) |
+|---|---:|---:|
+| Species | 51.261988 | 62.729936 |
+| Intervention | 14.545559 | 26.879141 |
+| Gender | 17.945873 | 30.430762 |
+| Fitness | 18.824446 | 31.448975 |
+
+All 301689 returning fingerprints remain. Their minimum dimension count ranges from 3 to 10333, with 28.470378% already at three. The companion aggregate JSON retains the complete 712-cell minimum-count histogram. There are 73674 exact joint statistic classes; fingerprints remain the resampling unit. Every original subset rate and point reproduces, and the integrated minimum-exposure result reproduces B2.p to numerical tolerance. The earlier B2.p interval is retained unchanged; the interval here is adjusted for this separate two-exposure family.
+
+Never-trading probability can decline as more opportunities are inspected by construction; the difference between the two dimension groups need not be monotone. Both specified exposure summaries meet the same practical bar, while the paired change shows that their magnitudes differ. No preferred exposure is selected after seeing the outcome.
+
+Stable ordinary preferences, dimension-specific offered scenarios, selective return and uncertain fingerprint linkage remain rivals. Fingerprints are not verified individuals, and dependence across fingerprints is unmodeled. Neither exposure measures endorsement, satiation or unoffered trades. This is same-cohort descriptive sensitivity, not independent confirmation, protected-value identification or causal evidence.
+
+**Means.** Retain the primary, exact-subset sensitivity and descriptive component comparison. B2.s closes as the registered first-generation exposure comparison and generates no descendants. Continue the other registered instrument checks within the original ceiling and clock. No new tests were harvested from the wake. No p-value is added; scientific reporting remains in the final packet at drain.
+
+Design commit: `1647f116fc7f701fdec078de66815bf733812634`. Native execution and complete independent replay used 36.890625 CPU seconds. Every output hash, source pin, parent comparison and native exit verifies. The frozen full plan and this owner-reviewed record admit the scoped interpretation; the generic completion flag alone does not. Raw choices and identities remain private. Attribution: Awad et al. (2018), [CC-BY Moral Machine source](https://osf.io/3hvt2/).
+
+Curator roll-up: learned ends and finite refusals; Does the pooled contrast depend on exposure?; **Narrows**; The pooled refusal contrast remains above the practical bar at both registered exposures; inspecting three choices reduces its size in the same cohort.; project meaning: separates stable direction from exposure-dependent magnitude in the same cohort; next engineering obligation: other registered instrument checks; public claim: finite-choice support retained, identity claims unlicensed; curator decision required: No; detail: THEORY_DAYS/B2_S_EXPOSURE.md.
+
+### S15-TD-B2-S-COST-20261106
+
+**Hypothesis.** Is the registered exposure comparison ready for its next execution rung?
+
+**METHOD.** Load all common-cohort counts, reproduce the original subset point/rates and exact minimum-exposure expectation, run 32 paired fingerprint-bootstrap draws and replay independently. Project 2,000 draws from total CPU with a 50% margin.
+
+**Found.** The complete-cohort exposure cost probe reproduces both prior calculations and independently replays within its allowance; full exposure uncertainty remains unfinished.
+
+The unchanged common cohort has 301689 fingerprints. Total CPU including replay is 21.265625 seconds; full forecast 1993.65234375 seconds with 22.15625 prior seconds charged. The full residual 3,600-second follow-up and original campaign allowance suffice. No prefix estimate or interval is interpreted or reported.
+
+Every output hash, source pin, native replay and exited identity verifies. Design commit: `1647f116fc7f701fdec078de66815bf733812634`. Implementation and cost admission do not establish identity or a new human result.
+
+**Means.** Run the frozen complete exposure comparison with independent replay; preserve descriptive scope and no descendants. No new tests were harvested from this wake. This is the separately registered first-generation B2.s follow-up, not a descendant of B2.p. Original CPU-only limits and final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-cohort exposure cost probe reproduces both prior calculations and independently replays within its allowance; full exposure uncertainty remains unfinished.; project meaning: scoped operational record; next engineering obligation: Run the frozen complete exposure comparison with independent replay; preserve descriptive scope and no descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_S_COST.md.
+
+### S15-TD-B2-S-NATIVE-20261106
+
+**Hypothesis.** Is the registered exposure comparison ready for its next execution rung?
+
+**METHOD.** Validate both subset sizes against literal finite combinations, equality when every minimum is three, paired bootstrap tails, finite homogeneous uncertainty, corrupt-parent refusal and immutable handler reentry. Execute and replay all constructed worlds in separate native processes.
+
+**Found.** The common-cohort exposure consumer passes literal enumeration, signed and zero cases, three-choice identity and complete native replay.
+
+Five targeted tests pass. The two exposure arms retain the same fingerprint cohort and integrate subset-draw randomness. No human comparison is computed by this native validation.
+
+Every output hash, source pin, native replay and exited identity verifies. Design commit: `1647f116fc7f701fdec078de66815bf733812634`. Implementation and cost admission do not establish identity or a new human result.
+
+**Means.** Run the full-population cost probe, requiring exact reproduction of the original subset and B2.p expectation before full uncertainty. No new tests were harvested from this wake. This is the separately registered first-generation B2.s follow-up, not a descendant of B2.p. Original CPU-only limits and final-packet policy remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The common-cohort exposure consumer passes literal enumeration, signed and zero cases, three-choice identity and complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the full-population cost probe, requiring exact reproduction of the original subset and B2.p expectation before full uncertainty.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_S_NATIVE.md.
+
+### S15-TD-B2-M-COMPONENTS-20261106
+
+**Hypothesis.** Does the pooled refusal difference reflect both species and intervention, or unlike contributions from the two components?
+
+**METHOD.** Preserve every eligible parent fingerprint and its original seeded equal-exposure subset. Within each fingerprint, subtract the mean gender/fitness never-trading indicator from species and from intervention separately. Their arithmetic mean reproduces the original pooled contrast. Resample fingerprints jointly for 2,000 draws; combine only exactly identical paired statistic vectors. Report 97.5% marginal percentile intervals, Bonferroni-adjusted for the two-comparison family at nominal 95%. Five constructed checks and complete separate-process native replay precede corpus admission. The component point rates were already visible in the parent, so this outcome-informed follow-up is descriptive, not independent confirmation.
+
+**Found.** The positive pooled refusal contrast is carried by species; intervention is lower than the same mundane-dimension baseline in this descriptive decomposition.
+
+Each difference below is in percentage points relative to the mean gender/fitness never-trading rate in the same common cohort. Intervals use joint fingerprint resampling and the registered two-comparison adjustment; bootstrap coverage remains approximate. Component verdicts apply the parent's five-percentage-point bar, without changing the pooled verdict.
+
+| Component versus mundane mean | Difference (percentage points) | Adjusted interval | Frozen component verdict |
+|---|---:|---|---|
+| Species | 32.850054 | [32.628301, 33.063190] | supports |
+| Intervention | -3.831761 | [-4.007115, -3.641989] | against |
+
+The four parent never-trading rates below are percentages in the common returning-fingerprint cohort; they are not population prevalences. They and the original pooled point reproduce exactly.
+
+| Dimension | Original matched-subset rate (%) |
+|---|---:|
+| Species | 51.231235 |
+| Intervention | 14.549420 |
+| Gender | 17.942650 |
+| Fitness | 18.819712 |
+
+All 301689 fingerprints remain; 11 exact paired-statistic classes accelerate computation without becoming the resampling unit. The average of the two component differences is the original pooled difference of 14.509147 percentage points. The species interval lies above the practical bar; the intervention interval lies below zero. This explains the pooled arithmetic and prevents attributing its sign to both components. It does not identify why respondents choose as they do.
+
+Stable ordinary preferences, dimension-specific offered scenarios, selective return and uncertain fingerprint linkage remain rivals. Fingerprints are not verified individuals, and dependence across fingerprints is unmodeled. The original fair-coin reference does not represent heterogeneous ordinary preferences. No endorsement, satiation or unoffered trade is measured; the result cannot identify protected values or terminal identity. This is neither a causal mechanism experiment nor a new independent cohort.
+
+**Means.** Preserve the primary and exact-subset sensitivity unchanged. B2.m closes as the registered descriptive decomposition and generates no descendants. Build the separately registered exposure comparison within the original ceiling and clock. No new tests were harvested from the wake. No p-value is added, and scientific reporting remains in the final packet at drain.
+
+Design commit: `311e025e9577df5a3bf8df74c51eeca4df31b663`. Native execution plus complete independent replay used 20.09375 CPU seconds. Every output hash, source pin, exact parent comparison and native exit verifies. The frozen full plan and this owner-reviewed record admit the scoped interpretation; the generic completion flag alone does not. Raw choices and identities remain private. Attribution: Awad et al. (2018), [CC-BY Moral Machine source](https://osf.io/3hvt2/).
+
+Curator roll-up: learned ends and finite refusals; Do both components account for the positive pooled contrast?; **Narrows**; The positive pooled refusal contrast is carried by species; intervention is lower than the same mundane-dimension baseline in this descriptive decomposition.; project meaning: distinguishes pooled support from its opposing components without identifying terminal values; next engineering obligation: complete the registered exposure comparison; public claim: pooled result unchanged, both-components interpretation unlicensed; curator decision required: No; detail: THEORY_DAYS/B2_M_COMPONENTS.md.
+
+### S15-TD-B2-M-COST-20261106
+
+**Hypothesis.** Is the registered paired component comparison ready for its next execution rung?
+
+**METHOD.** Load the full common parent cohort, reconstruct exactly its original subset indicators, run 32 joint fingerprint-bootstrap draws and independently replay. Verify every parent component rate and the pooled point, then project 2,000 draws with a 50% margin.
+
+**Found.** The full-cohort component cost probe reproduces the parent and independently replays within its allowance; full component uncertainty remains unfinished.
+
+The full common cohort remains 301689 fingerprints. Total native CPU including replay is 19.578125 seconds; forecast 1835.44921875 seconds with 20.46875 prior seconds charged. This fits the residual 3,600-second follow-up and original campaign cap. Prefix estimates and intervals are not interpreted or reported.
+
+Every output hash, source pin, complete native replay and exited identity verifies. The design commit is `311e025e9577df5a3bf8df74c51eeca4df31b663`. This is implementation and cost admission, not independent confirmation or identity evidence.
+
+**Means.** Execute the frozen full component comparison and its independent replay; preserve descriptive scope and no descendants. No new tests were harvested from this wake. The existing first-generation follow-up remains within the original CPU-only campaign and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-cohort component cost probe reproduces the parent and independently replays within its allowance; full component uncertainty remains unfinished.; project meaning: scoped operational record; next engineering obligation: Execute the frozen full component comparison and its independent replay; preserve descriptive scope and no descendants.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_M_COST.md.
+
+### S15-TD-B2-M-NATIVE-20261106
+
+**Hypothesis.** Is the registered paired component comparison ready for its next execution rung?
+
+**METHOD.** Validate all binary dimension patterns, exact paired decomposition, independently generated bootstrap count tails, nonzero homogeneous uncertainty, wrong-parent refusal and immutable handler reentry. Execute and replay complete known-answer worlds in separate native processes.
+
+**Found.** The paired refusal-component consumer passes signed, opposing and identical-world checks with complete native replay.
+
+Five targeted tests pass. Opposing components remain separate even when their pooled mean is zero. No human contrast is computed in this native validation.
+
+Every output hash, source pin, complete native replay and exited identity verifies. The design commit is `311e025e9577df5a3bf8df74c51eeca4df31b663`. This is implementation and cost admission, not independent confirmation or identity evidence.
+
+**Means.** Run the complete-population 32-draw cost probe and verify exact parent reproduction before full uncertainty. No new tests were harvested from this wake. The existing first-generation follow-up remains within the original CPU-only campaign and final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The paired refusal-component consumer passes signed, opposing and identical-world checks with complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the complete-population 32-draw cost probe and verify exact parent reproduction before full uncertainty.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_M_NATIVE.md.
+
+### S15-TD-B4-IC-SENSITIVITY-20261106
+
+**Hypothesis.** Could the frozen chess pipeline detect a positive interaction at the one-centipawn practical size under a declared conditional error model?
+
+**METHOD.** Retain all 9,912 observed games and 514,787 moves, standardized predictors, instruments and controls. Preserve ordinary-regression nuisance coefficients, set its interaction to zero, and flip the original residual vector by one independent sign per whole game. Generate 100 worlds with seed 20261106. Refit both stages and run 2,000 game-bootstrap draws per zero world. Apply the algebraically exact, independently validated coefficient-and-interval shift at each of five fixed doses. Replay the complete grid in a separate process. All worlds and bootstrap draws remain in their denominators; none is invalid.
+
+**Found.** The chess diagnostic has limited practical-size sensitivity in the registered constructed worlds; the human interaction remains inconclusive.
+
+Every cell below gives a count out of 100 constructed worlds and its Wilson 95% interval for the corresponding rate. Positive and negative zero exclusion mean the entire interaction interval lies on that side of zero; practical-bar clearance requires its lower endpoint above +1. Coverage means the interval contains the planted interaction.
+
+| Planted interaction (centipawns) | Positive zero exclusion | Negative zero exclusion | Clears +1 bar | Coverage of planted value |
+|---|---|---|---|---|
+| -5 | 2/100 [0.55%, 7.00%] | 10/100 [5.52%, 17.44%] | 2/100 [0.55%, 7.00%] | 93/100 [86.25%, 96.57%] |
+| +0 | 3/100 [1.03%, 8.45%] | 4/100 [1.57%, 9.84%] | 2/100 [0.55%, 7.00%] | 93/100 [86.25%, 96.57%] |
+| +1 | 4/100 [1.57%, 9.84%] | 4/100 [1.57%, 9.84%] | 3/100 [1.03%, 8.45%] | 93/100 [86.25%, 96.57%] |
+| +5 | 11/100 [6.25%, 18.63%] | 1/100 [0.18%, 5.45%] | 9/100 [4.81%, 16.23%] | 93/100 [86.25%, 96.57%] |
+| +10 | 33/100 [24.56%, 42.69%] | 0/100 [0.00%, 3.70%] | 28/100 [20.14%, 37.49%] | 93/100 [86.25%, 96.57%] |
+
+The following table applies the original three-way human decision rule mechanically to each constructed world. Each cell again reports count out of 100 and Wilson 95% rate interval. These labels classify ruler worlds, not additional human findings.
+
+| Planted interaction (centipawns) | Supports | Against | Inconclusive |
+|---|---|---|---|
+| -5 | 2/100 [0.55%, 7.00%] | 10/100 [5.52%, 17.44%] | 88/100 [80.19%, 93.00%] |
+| +0 | 2/100 [0.55%, 7.00%] | 4/100 [1.57%, 9.84%] | 94/100 [87.52%, 97.22%] |
+| +1 | 3/100 [1.03%, 8.45%] | 4/100 [1.57%, 9.84%] | 93/100 [86.25%, 96.57%] |
+| +5 | 9/100 [4.81%, 16.23%] | 1/100 [0.18%, 5.45%] | 90/100 [82.56%, 94.48%] |
+| +10 | 28/100 [20.14%, 37.49%] | 0/100 [0.00%, 3.70%] | 72/100 [62.51%, 79.86%] |
+
+At +1, positive zero exclusion occurs in 4/100 worlds, with rate interval [1.57%, 9.84%]. Its lower bound is below the frozen 80% adequacy criterion. Null worlds exclude zero in either direction in 7/100 cases, with interval [3.43%, 13.75%]; the upper bound also fails the required at-most-10% calibration bound. That second failure does not prove excess false positives: its uncertainty includes 5%. Both predeclared adequacy requirements fail. The label is limited in this construction. Clearing a strict +1 threshold when truth is exactly +1 is a different event and is not the sensitivity adequacy criterion. Larger-dose detection remains limited; the complete grid and count uncertainty are retained.
+
+This is a conditional linear-model calibration. Whole-game signs preserve within-game residual patterns but assume independent sign-symmetric game errors, with no cross-game dependence for repeated players. Generated quality may exceed zero and does not represent invented legal chess. Fixed instruments passing their numerical strength gate do not validate exclusion: real clock pressure may directly change quality. Parent bootstrap draws with weak but nonsingular instruments remain included. No score, threshold, sample, control or model was tuned after these outcomes.
+
+**Means.** The original human interval and inconclusive verdict remain unchanged. Sensitivity is now tested and limited under the stipulated construction, replacing the earlier untested qualifier; no equivalence, human negative, causal multiplication or biological claim follows. Numerical implementation passes, but the practical-sensitivity admission criterion does not. Preserve the original human comparison and conditional sensitivity limits; no descendant follow-ups. Continue separately registered theory-days cards within the original budget and clock. No tests were harvested from this operational wake. Final scientific reporting remains at drain.
+
+Design commit: `456b6e753f07c319c806ffebb2c06974e81b3897`. Execution and full independent replay used 394.625 CPU seconds; all B4.ic rungs total 404.1875 seconds against 3,600. Every output and input pin, all native exits, and independently recomputed aggregate counts and Wilson intervals verify. No p-value is added. The generic result configuration's constructed flag is false because the predictor source is observed; the calibrated outcomes are explicitly constructed, as stated in the dedicated calibration output and this record. No raw moves or identities are published.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The chess diagnostic has limited practical-size sensitivity in the registered constructed worlds; the human interaction remains inconclusive.; project meaning: scoped operational record; next engineering obligation: Preserve the original human comparison and conditional sensitivity limits; no descendant follow-ups. Continue separately registered theory-days cards within the original budget and clock.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_IC_SENSITIVITY.md.
+
+### S15-TD-B4-IC-COST-20261106
+
+**Hypothesis.** Is the conditional chess sensitivity check ready for its next frozen execution rung?
+
+**METHOD.** Use the full admitted predictor design to construct the two-world timing prefix. Run 2,000 game-bootstrap draws for each zero-interaction world and the validated exact shift across all five frozen doses; independently replay the complete calculation. Forecast 100 worlds from total CPU with a 50% margin.
+
+**Found.** The complete two-world chess sensitivity cost probe independently replays within the follow-up allowance; full calibration remains unfinished.
+
+All 9912 parent games and 514787 moves remain in the design. The prefix has no invalid numerical world. Native CPU including replay is 8.765625 seconds; the conservative full forecast is 657.421875 seconds, with 9.5625 prior seconds charged. This fits the residual 3,600-second follow-up and original campaign cap. The short prefix supplies no reported sensitivity score or human scientific verdict.
+
+The design commit is `456b6e753f07c319c806ffebb2c06974e81b3897`. Every output hash, source pin, independent replay and native exit verifies. Calibration outcomes are constructed conditional on observed predictors and game-level residual signs; independence and sign symmetry are assumptions, and no causal human claim follows.
+
+**Means.** Run the frozen 100-world conditional calibration with complete game-bootstrap uncertainty, retaining the original human result. Preserve the original fixed bar, whole grid and final-packet policy. No new tests were harvested from this wake; this is the registered first-generation instrument check, with no descendants.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete two-world chess sensitivity cost probe independently replays within the follow-up allowance; full calibration remains unfinished.; project meaning: scoped operational record; next engineering obligation: Run the frozen 100-world conditional calibration with complete game-bootstrap uncertainty, retaining the original human result.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_IC_COST.md.
+
+### S15-TD-B4-IC-NATIVE-20261106
+
+**Hypothesis.** Is the conditional chess sensitivity check ready for its next frozen execution rung?
+
+**METHOD.** Check the unchanged two-stage estimator at all five frozen interaction doses by actual recomputation of both stages and bootstrap intervals. Validate one residual sign per whole game, finite count uncertainty, invalid-world refusal, and the actual execute/verify handlers. Repeat all dose checks in separate native execute and replay processes.
+
+**Found.** The conditional chess sensitivity runner passes complete dose-shift parity and independent native replay.
+
+Five targeted tests pass, including the complete dose grid and invalid-instrument refusal. This validates implementation, not human clock-pressure exclusion or practical-size sensitivity. Observed-design calibration remains separate.
+
+The design commit is `456b6e753f07c319c806ffebb2c06974e81b3897`. Every output hash, source pin, independent replay and native exit verifies. Calibration outcomes are constructed conditional on observed predictors and game-level residual signs; independence and sign symmetry are assumptions, and no causal human claim follows.
+
+**Means.** Run its frozen two-world observed-design cost probe before admitting the complete sensitivity grid. Preserve the original fixed bar, whole grid and final-packet policy. No new tests were harvested from this wake; this is the registered first-generation instrument check, with no descendants.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The conditional chess sensitivity runner passes complete dose-shift parity and independent native replay.; project meaning: scoped operational record; next engineering obligation: Run its frozen two-world observed-design cost probe before admitting the complete sensitivity grid.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_IC_NATIVE.md.
+
+### S15-TD-B2-P-EXACT-SUBSETS-20261106
+
+**Hypothesis.** Does the pooled refusal comparison persist when every possible equal-exposure subset contributes, rather than one seeded subset?
+
+**METHOD.** Keep the parent's complete common returning-fingerprint cohort, scenario definitions and minimum dimension count. For each fingerprint and dimension, compute the exact hypergeometric probability that a uniform matched subset contains only one choice side. Average species and intervention minus gender and fitness; compute a 2,000-draw fingerprint-cluster percentile interval. Retain the original seeded subset, reproduce its point and every component rate, and bootstrap the paired expectation-minus-subset difference. Combine only exactly identical per-fingerprint statistic vectors with integer frequencies, with no rounding or bins. Literal subset enumeration, signed/identical worlds and native replay validate the consumer before full execution.
+
+**Found.** Averaging all matched subsets retains the pooled finite-choice contrast; the result still does not identify terminal identity.
+
+The table reports differences in percentage points and 95% fingerprint-cluster intervals. The primary retains the parent's five-percentage-point practical bar; the paired sensitivity is descriptive and cannot independently upgrade the claim.
+
+| Contrast | Difference (percentage points) | 95% interval |
+|---|---:|---|
+| Expected pooled refusal difference | 14.518614 | [14.401297, 14.636930] |
+| Exact expectation minus original subset | 0.009467 | [-0.063431, 0.079493] |
+
+The primary interval lies above the frozen bar and supports the same scoped finite-choice prediction. The paired interval includes zero; that observation is not an equivalence test. The calculation uses all 301689 parent fingerprints, represented by 46621 exact paired-statistic classes for computation. Fingerprint remains the resampling unit; compression does not turn a class into an independent observation.
+
+Each row below is an expected or original never-trading percentage in the same common cohort, not a population prevalence or a marginal dimension-only cohort.
+
+| Dimension | Exact subset expectation (%) | Original seeded subset (%) |
+|---|---:|---:|
+| Species | 51.261988 | 51.231235 |
+| Intervention | 14.545559 | 14.549420 |
+| Gender | 17.945873 | 17.942650 |
+| Fitness | 18.824446 | 18.819712 |
+
+Species and intervention retain different component orderings. The pooled result must not be described as separate support for both. Integrating subsets removes random matching-draw noise conditional on these finite histories, not source selection, shared-person linkage, offered-scenario composition or stable ordinary preference. Fingerprints are not verified people. The original fair-coin reference remains weak and is not a model of heterogeneous ordinary preferences. Present endorsement, satiation and choices under unobserved offers remain unmeasured. This is a sensitivity analysis of the same cohort, not independent replication, and no causal identity claim follows.
+
+**Means.** Preserve the original result and this separately committed sensitivity result. This first-generation follow-up registers no descendants. B2.s and B2.m remain separately registered, not automatically completed by this calculation. No new test was harvested from the operational wake.
+
+Design commit: `39c327525284d99aaa8aeaf78b26156832c2d40a`. Native execution and full independent replay used 31.09375 CPU seconds. Source pins, all output hashes, parent reproduction and native exits verify. The generic completion's scientific-admission flag is false; the frozen full plan and this owner-reviewed write-through admit the scoped result. No p-value is added. Raw choices and identifiers remain private. Attribution: Awad et al. (2018), [CC-BY Moral Machine source](https://osf.io/3hvt2/). The curator receives the scientific result in the final packet at drain.
+
+Curator roll-up: learned ends and finite refusals; Does integrating all matched subsets change the pooled comparison?; **Strengthens**; Averaging all matched subsets retains the pooled finite-choice contrast; the result still does not identify terminal identity.; project meaning: addresses subset-draw sensitivity in the same selected cohort, not identity or independent replication; next engineering obligation: Preserve both results and build the separately registered exposure and component checks; public claim: scoped finite-choice result unchanged; curator decision required: No; detail: THEORY_DAYS/B2_P_EXACT_SUBSETS.md.
+
+### S15-TD-B2-P-COST-20261106
+
+**Hypothesis.** Is the exact-subset follow-up ready for its next declared execution rung?
+
+**METHOD.** Read the entire admitted private count source, reproduce the parent seeded subset point and all component rates, calculate exact finite-subset expectations, run a 32-draw cost prefix and independently replay it. Verify complete source pins and native exits. Forecast 2,000 draws from total CPU with a 50% margin.
+
+**Found.** The complete-population exact-subset cost probe replays and reproduces the parent subset calculation; full uncertainty remains uncomputed.
+
+The complete common cohort has 301689 fingerprints. Native CPU including replay is 20.796875 seconds; the conservative full forecast is 1949.70703125 seconds, with 21.78125 prior seconds charged. This fits the residual 3,600-second follow-up and original campaign cap. No coefficient or short-prefix scientific interval is interpreted here.
+
+The committed design is `39c327525284d99aaa8aeaf78b26156832c2d40a`. All output hashes, source pins, complete independent replay and native exits verify. The original source and scientific result are preserved.
+
+**Means.** Run the frozen 2,000-draw exact-subset comparison within its remaining first-generation allowance. No paid, GPU, delegation, new source or descendant work is added. No tests were harvested from this operational wake. Final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete-population exact-subset cost probe replays and reproduces the parent subset calculation; full uncertainty remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the frozen 2,000-draw exact-subset comparison within its remaining first-generation allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_P_COST.md.
+
+### S15-TD-B2-P-NATIVE-20261106
+
+**Hypothesis.** Is the exact-subset follow-up ready for its next declared execution rung?
+
+**METHOD.** Compare exact hypergeometric probabilities against every literal subset for small histories. Exercise signed and identical constructed histories, finite homogeneous uncertainty, invalid-count refusal, exact bootstrap compression and the actual execute/verify handlers. Run constructed fixtures in separate native execute and replay processes.
+
+**Found.** The exact-subset expectation consumer passes literal enumeration, signed and identical-world checks, and complete native replay.
+
+Five targeted tests pass. The three native worlds recover the declared signed or zero answers; the zero world retains nonzero finite uncertainty. No human contrast was computed in this validation. The method integrates matched subsets; it does not establish fingerprint identity or protected values.
+
+The committed design is `39c327525284d99aaa8aeaf78b26156832c2d40a`. All output hashes, source pins, complete independent replay and native exits verify. The original source and scientific result are preserved.
+
+**Means.** Run the frozen complete-population cost probe, then admit the full comparison only if cumulative cost fits. No paid, GPU, delegation, new source or descendant work is added. No tests were harvested from this operational wake. Final-packet reporting remains.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact-subset expectation consumer passes literal enumeration, signed and identical-world checks, and complete native replay.; project meaning: scoped operational record; next engineering obligation: Run the frozen complete-population cost probe, then admit the full comparison only if cumulative cost fits.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_P_NATIVE.md.
+
+### S15-TD-B4-EFFORT-SKILL-20261106
+
+**Hypothesis.** Does additional deliberation improve move quality more for stronger chess players, as a proxy test of the curator's effect-equals-effort-times-power conjecture?
+
+**METHOD.** Use the frozen one-percent game draw from the complete April 2017 Lichess month, retaining games with clock and engine-evaluation annotations and moves passing the source checks. Model negative centipawn loss on standardized rating, log seconds and their standardized product, with phase and absolute prior evaluation as declared controls. Instrument time and its rating product using a prior clock at most ten seconds and its rating product. Report ordinary least squares beside the two-stage diagnostic. Recompute both stages in 2,000 game-cluster bootstrap draws and independently replay the complete calculation. Constructed positive, negative and null fixtures and independent two-stage arithmetic preceded the run.
+
+**Found.** The registered chess effort-by-skill diagnostic is inconclusive; the ordinary regression association does not establish that effort and power multiply causally.
+
+The table reports the coefficient on the standardized interaction, in centipawns, with game-cluster percentile intervals. Higher quality means less centipawn loss. The primary supports only when its entire interval exceeds +1, counts against the proxy prediction when its entire interval is at or below zero, and is otherwise inconclusive.
+
+| Model | Product coefficient | 95% interval | Role |
+|---|---:|---|---|
+| Low-clock instrument diagnostic | -2.498420 | [-15.897875, 11.944513] | Primary: inconclusive |
+| Ordinary regression | 2.522756 | [1.253713, 3.761304] | Descriptive companion |
+
+The sample has 9912 usable games and 514787 moves, exceeding the frozen 1,000-game and 10,000-move floors. Both model matrices have full rank. The excluded-instrument partial F statistics are 9708.616868 and 8416.349592, above the frozen ten-point numerical gate. All 2000 bootstrap draws have valid numerical fits; none are dropped. The point-fit strength gate passes. Bootstrap draws with weaker but nonsingular instruments are retained under the implementation; this record does not assert that every resample passes the point-fit strength gate.
+
+Instrument strength does not establish exclusion. Low remaining time can directly impair decisions, and hard positions can both use time and worsen play. Absolute prior evaluation is an incomplete difficulty control. The ordinary regression and instrumental diagnostic have different signs and uncertainty; the companion cannot replace the registered primary after outcomes. Rating is an imperfect skill proxy and elapsed seconds is an imperfect effort proxy. These observations therefore neither identify causal effort nor prove or refute the general multiplicative conjecture.
+
+The one-percent draw precedes annotation filtering, but the analysis sample is annotation-dependent. One-second clock precision excludes nonpositive measured elapsed times; mate evaluations are excluded rather than converted into centipawns. Game clustering conditions on the sampled games and observed players. Repeated players across games and unknown cross-game dependence are not modeled, so this is not new-player population uncertainty. Complete source counts and dispositions remain in B4_SOURCE.md. No usernames, game identifiers or raw moves enter public artifacts. Source: [Lichess CC0 database](https://database.lichess.org/).
+
+Known-answer validation checks implementation under its stipulated strong instruments. Sensitivity at the one-centipawn practical size was untested at the primary landing; the complete registered conditional calibration now records limited sensitivity (S15-TD-B4-IC-SENSITIVITY-20261106). The human estimate and inconclusive verdict are unchanged, and neither equivalence nor a negative finding follows. A valid-null or inconclusive scientific gate is not an engineering failure and is not healed.
+
+**Means.** Freeze and validate B4.ic, a first-generation sensitivity check at the one-centipawn practical bar on the observed design, capped at 3,600 CPU seconds within the original campaign allowance and clock. No descendant follow-ups. Preserve the original result. The curator's effect, effort and power remain the theory terms; the chess measures are analyst proxies. No new tests were harvested from this operational wake beyond the commissioned first-generation follow-up rule.
+
+Design commit: `897988ff9659171ed9f6a028ead6fe4cbd6fd5de`. Execution plus complete independent replay used 4.796875 CPU seconds. Every input pin, output hash and native coordinator/child exit verifies. The native completion's generic scientific-admission flag is false; the frozen full-model plan admits scientific interpretation and this owner-reviewed write-through supplies it. No p-value is added. Scientific reporting remains in the final packet at drain.
+
+Curator roll-up: effort and power; Does time spent translate into better performance more strongly at higher skill?; **Narrows**; The registered chess effort-by-skill diagnostic is inconclusive; the ordinary regression association does not establish that effort and power multiply causally.; project meaning: the scoped proxy comparison remains unresolved and cannot support causal multiplication; next engineering obligation: Freeze and validate B4.ic, a first-generation sensitivity check at the one-centipawn practical bar on the observed design, capped at 3,600 CPU seconds within the original campaign allowance and clock. No descendant follow-ups.; public claim: unchanged, broad causal claim unlicensed; curator decision required: No; detail: THEORY_DAYS/B4_EFFORT_SKILL.md.
+
+### S15-TD-B4-COST-20261106
+
+**Hypothesis.** Can the already validated chess model complete its declared uncertainty calculation within the remaining allowance?
+
+**METHOD.** Run both model stages on the complete admitted game sample, with 32 game-cluster draws, then independently replay the complete calculation. Check every source pin, output hash and native exit. Scale the measured native CPU charge to the frozen 2,000 draws with a 50% margin. This is a cost decision, not an interpretation of prefix coefficients or intervals.
+
+**Found.** The full-sample chess model cost probe independently replays within its allowance; complete scientific uncertainty remains uncomputed.
+
+The table contains operational counts and costs only. The short draw prefix cannot supply the registered scientific interval.
+
+| Check | Observed |
+|---|---:|
+| Games | 9912 |
+| Moves | 514787 |
+| Cost-probe draws | 32 |
+| Invalid numerical draws | 0 |
+| Native CPU seconds, including replay | 2.03125 |
+| Wall seconds | 4.389884400065057 |
+| Full-run CPU forecast including margin | 190.4296875 |
+| All B4 native charges so far, retained failures included | 300.921875 |
+
+The full-sample fit passes the declared rank and instrument-strength gates. This establishes numerical admission only: clock pressure can directly impair move quality, so its exclusion restriction remains unverified. The forecast plus prior charges fits the original 7,200-second card ceiling and the 54,000-second campaign cap. No sample reduction, new source, scientific repair, paid call or GPU work is introduced.
+
+**Means.** Run the frozen 2,000-draw B4 model, then land its whole result with the instrument and observational limitations. Preserve the final-packet policy. No new tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full-sample chess model cost probe independently replays within its allowance; complete scientific uncertainty remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the frozen 2,000-draw B4 model, then land its whole result with the instrument and observational limitations.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_MODEL_COST.md.
+
+### S15-TD-B4-SOURCE-20261106
+
+**Hypothesis.** Can the complete named chess month supply the annotated move histories needed to compare skill, deliberation time and their interaction?
+
+**METHOD.** Download the complete April 2017 standard rated Lichess file, check its declared byte size and retain its full hash. Select games independently at probability 0.01 with seed 20261106 before inspecting annotation availability. Keep usable clocks and adjacent non-mate engine evaluations, verify mover sign and increment arithmetic, and exclude missing or nonpositive elapsed times. Reprocess the entire file in a fresh native process and compare source counts, selected-game hashes and feature arrays. This preparation fits no effect model.
+
+**Found.** The complete named-month chess sample passes its frozen source-support checks and independent replay; model inference remains uncomputed.
+
+The source table separates the random game draw from the annotation-dependent analysis sample. It does not represent all chess players or all games as annotation-complete.
+
+| Source or disposition | Count |
+|---|---:|
+| Complete-month games | 11348506 |
+| Selected before annotation filtering | 113257 |
+| Selected games lacking both required annotation types | 103345 |
+| Selected games with both annotation types | 9912 |
+| Usable games | 9912 |
+| Parsed moves in annotated games | 628573 |
+| Moves missing a required adjacent evaluation or clock | 66230 |
+| Moves with nonpositive elapsed seconds | 47556 |
+| Usable moves | 514787 |
+
+The frozen floors are 1,000 usable games and 10,000 moves. The source reports no invalid-control, missing-rating or unsupported-move-token rejection among these annotated games; absent disposition keys are zero for this parser, not proof of a general chess parser's completeness. No reduced population or early-file prefix replaces the named-month sample. Missing annotation is selective, and one-second clock precision excludes otherwise legal moves with no positive measured elapsed time. Mate scores do not become invented centipawn values.
+
+The full compressed source is 3,481,200,992 bytes, SHA-256 `559222b0e933bc02281643724fbd9bd46690074b10d784c4f264e0bff6c5992c`. Its selected-game and feature outputs are private; public records contain aggregates and hashes, no usernames or game identifiers. The source is [Lichess's CC0 database](https://database.lichess.org/). No player profile is created.
+
+Complete download, extraction and independent replay used 293.796875 native CPU seconds and 6826.2897042999975 wall seconds. Total recorded B4 native charges, including the retained first wrapper failure, are 298.890625 CPU seconds, below the original 7,200-second ceiling. Network waiting occupied the counted slot but did not consume equivalent CPU time. All output hashes, source pins and coordinator/child exits verify.
+
+**Means.** Run the frozen B4 full-sample cost probe, then admit complete model uncertainty only after its source, instrument/rank and cumulative-cost gates. Clock pressure is not established as an exogenous cause, and passing numerical checks cannot establish the exclusion restriction. The original observational scope and final-packet reporting policy remain. No new tests were harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete named-month chess sample passes its frozen source-support checks and independent replay; model inference remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the frozen B4 full-sample cost probe, then admit complete model uncertainty only after its source, instrument/rank and cumulative-cost gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: B4_SOURCE.md.
+
+### S15-TD-B2-REFUSALS-20261106
+
+**Hypothesis.** At equal numbers of observed dilemmas, do more returning Moral Machine choosers always choose the same side of species or intervention than of gender or fitness?
+
+**METHOD.** Use the complete authenticated all-session archive after source admission. Keep the common cohort with at least two sessions and at least three valid paired scenarios on each of four dimensions. Within each fingerprint, draw the same number of scenarios from each dimension, equal to its minimum dimension count, without replacement and with seed 20261106. A hypergeometric draw of binary-choice counts is equivalent to drawing those scenarios. Compare the mean never-trading indicator across species and intervention against the mean across gender and fitness. Compute a 2,000-draw fingerprint-cluster percentile interval, retain all component rates, and compare all-observed rates with the fair-coin expectation at their original counts. Signed and null arithmetic fixtures and a complete literal source fixture precede this run; the full analysis independently replays.
+
+**Found.** At matched exposure, the pooled species-and-intervention never-trading rate exceeds gender-and-fitness in this returning-fingerprint cohort; this does not identify terminal identity.
+
+The common cohort contains 301689 fingerprints. The pooled difference is 14.509147 percentage points, with a 95% fingerprint-bootstrap interval of [14.370420, 14.653667]. The entire interval exceeds the precommitted five-percentage-point practical bar, so the frozen pooled rule returns supports. This is a descriptive result in the selected common cohort, not a population prevalence estimate or a causal identity result.
+
+Every number in the table is a percentage of the same common cohort, except the last column, which is the mean expected percentage for independent fair choices at each fingerprint's original dimension count. Equal exposure uses the same number of choices across dimensions within a fingerprint. All observed uses each dimension's full available history. Neither column includes the marginal dimension-only cohorts reported at source admission.
+
+| Dimension | Equal-exposure never trading (%) | All-observed never trading (%) | All-observed fair-coin expectation (%) |
+|---|---:|---:|---:|
+| Species | 51.231235 | 48.366364 | 9.37531266 |
+| Intervention | 14.549420 | 0.136896 | 0.00012888 |
+| Gender | 17.942650 | 14.447660 | 9.44425464 |
+| Fitness | 18.819712 | 17.873041 | 11.93758377 |
+
+Species and intervention do not individually show the same ordering: species has the largest equal-exposure never-trading rate, while intervention falls below both mundane dimensions. The pooled support therefore must not be restated as separate support for each named component. No component significance test was performed here. The contrast does not distinguish protected values from stable ordinary preferences or choices induced by the offered scenarios. The fair-coin benchmark is deliberately weak: a stable unequal ordinary preference can also exceed it. It is not a calibrated model of ordinary preference heterogeneity.
+
+Fingerprint linkage does not prove person identity, and returning fingerprints with sufficient coverage form a selected population. The same person can have multiple fingerprints and a fingerprint can be shared. The interval treats the observed fingerprint as its cluster; it does not account for an unknown linkage map. Its primary uncertainty is conditional on the fixed matching, source release and seeded subset scheme. The source's prior release filtering and the broad intervention comparison remain limits. No present endorsement, satiation, contingency-degradation response, or refusal of an unobserved offer was measured. The curator's learned-end distinction remains open.
+
+All-observed rates and coin expectations here refer explicitly to the common cohort. Source-admission counts for all dimension-eligible fingerprints remain separately recorded; they are not substituted into these denominators. No raw choices, fingerprint identifiers, demographic fields or source text are published. Attribution: Awad et al. (2018), The Moral Machine experiment, [CC-BY source](https://osf.io/3hvt2/).
+
+**Means.** Retain the scoped pooled result and its component asymmetry, without converting finite repeated choice into proof of terminal identity. Register B2.s, B2.m and B2.p as first-generation follow-ups, each capped at 3,600 CPU seconds and subject to the original campaign allowance and deadlines. Freeze designs and validate before execution; follow-ups register no descendants.
+
+- B2.s: Check dependence on exposure: freeze a specification comparison of exactly three choices per dimension and the original within-fingerprint minimum, without changing the common cohort or original result.
+- B2.m: Separate the pooled result into species and intervention contrasts against the same mundane-dimension mean; test whether the component pattern explains the pooled contrast rather than assuming both components agree.
+- B2.p: Replace the single uniform subset draw with the exact hypergeometric expectation of never-trading for each fingerprint and dimension; compare against the original to check subset-randomness sensitivity.
+
+Design commit: `897988ff9659171ed9f6a028ead6fe4cbd6fd5de`. Complete execution plus independent replay used 22.984375 CPU seconds. Every source pin, output hash and native exit verifies. The generic native completion's scientific-admission flag is false; the frozen analysis plan admits the comparison, and this owner-reviewed scientific write-through supplies its interpretation. No p-value is added and no multiplicity entry is needed. No scientific score is reported to the curator before the final packet.
+
+Curator roll-up: learned ends and finite refusals; Do refusal patterns differ between the declared dimension groups after matching exposure?; **Strengthens**; At matched exposure, the pooled species-and-intervention never-trading rate exceeds gender-and-fitness in this returning-fingerprint cohort; this does not identify terminal identity.; project meaning: supports the scoped pooled prediction, while terminal identity and present endorsement remain unmeasured; next engineering obligation: Register B2.s, B2.m and B2.p as first-generation follow-ups, each capped at 3,600 CPU seconds and subject to the original campaign allowance and deadlines. Freeze designs and validate before execution; follow-ups register no descendants.; public claim: newly licensed scoped descriptive contrast, identity claim unchanged; curator decision required: No; detail: THEORY_DAYS/B2_REFUSALS.md.
+
+### S15-TD-B2-SOURCE-20261106
+
+**Hypothesis.** Does the complete Moral Machine source contain enough returning choice records to compare refusal patterns at equal exposure without treating unpaired rows as decisions?
+
+**METHOD.** Authenticate the licensed all-session archive and reconstruct each response across the entire compressed CSV using disk-backed keyed aggregation. Require two rows, one saved side, opposite intervention values, and matching fingerprint/session identifiers. Character dimensions also require consistent declared types and complementary levels. Preserve unmatched and invalid responses. Count fingerprints with three complete scenarios on each dimension and at least two sessions. Rebuild the entire source in a fresh process and compare every source count and the deterministic private count-file hash.
+
+**Found.** The complete Moral Machine source reconstruction passes its frozen common-cohort support check and independent replay; scientific comparison remains uncomputed.
+
+This is source admission, not an effect estimate. Fingerprints link browser response histories; they are not verified people. The source's own release filtering remains a limitation and is not reversed by reconstruction.
+
+The table reconciles the complete archive and the common-cohort gate. Each row is a count, not a scientific score.
+
+| Source disposition | Count |
+|---|---:|
+| Input rows | 70332355 |
+| Distinct responses | 36378852 |
+| Complete valid paired decisions | 33949338 |
+| Single-row orphan responses | 2425349 |
+| Duplicated response identifiers with more than two rows | 0 |
+| Two-row responses rejected by validity checks | 4165 |
+| Fingerprints with at least one valid decision | 2098561 |
+| Common returning fingerprints with at least three decisions on every dimension | 301689 |
+| Required common-cohort floor | 1000 |
+
+Before the common-cohort restriction, fingerprints with at least three usable decisions number {"Fitness": 342916, "Gender": 369659, "Intervention": 1986316, "Species": 371454}. These marginal counts do not separately impose the returning-session restriction. The primary common cohort does. The two-row invalid count is derived exactly from the complete response partition; no guess about the reason for each invalid pair is made.
+
+All 11,601,104,964 expanded bytes were consumed. The archived source matches the official digest recorded at intake. The execute and fresh verification count files have identical hashes. The earlier million-row prefix's absence of reconstructed pairs was a file-order artifact, not a population-support finding; complete-source pairing resolves that prerequisite without changing the design. Original parsing and wrapper failures remain recorded.
+
+Complete execution and replay used 2096.546875 CPU seconds. All prior B2 native attempts, including failures, now total 2169.5 CPU seconds, below the original 7,200-second card ceiling. The shared campaign remains within its 54,000-second cap. All outputs, source pins and coordinator/child exits were checked. No demographic fields, names, raw choice records or fingerprint identifiers enter the public report. Source attribution: Awad et al. (2018), The Moral Machine experiment; [CC-BY source archive](https://osf.io/3hvt2/).
+
+**Means.** Run the already frozen B2 equal-exposure comparison under its remaining shared allowance; retain the finite-scenario and fingerprint limitations. No new tests were harvested from this operational wake. Full internal write-through precedes event acknowledgment; the final-packet reporting policy is retained.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete Moral Machine source reconstruction passes its frozen common-cohort support check and independent replay; scientific comparison remains uncomputed.; project meaning: scoped operational record; next engineering obligation: Run the already frozen B2 equal-exposure comparison under its remaining shared allowance; retain the finite-scenario and fingerprint limitations.; public scientific claim unchanged; curator decision required: No new decision. Detail: B2_SOURCE.md.
+
+### S15-TD-BACKLOG-BUILD-20261106
+
+**Hypothesis.** Can the independently eligible theory-days backlog run with validated sources, exact consumers and bounded accounting?
+
+**METHOD.** Inspect the source providers and licenses, hash the all-session Moral Machine archive against its official digest, and rehearse a bounded chess stream. Test literal choice-pair reconstruction, invalid/orphan dispositions, matched-exposure statistics, clock/evaluation arithmetic, OLS/IV parity and signed/null constructed cases. Run the actual native handlers with independent replay, retain setup failures and test them on absent output directories, inspect native identities and resources, and register every terminal path before release.
+
+**Found.** The licensed Moral Machine and chess consumers pass their native checks, and both complete source preparations are running in CPU-only Gear 2.
+
+The source table separates legal/schema admission from science. No backlog effect is reported here.
+
+| Card | Source inspection | Current disposition |
+|---|---|---|
+| B1 | OSF km69z is public; its node has no license relationship or stated data license, and the wiki listing is empty | Unsupported at source for this intake contract: research license unconfirmed, not a claim that research is forbidden. The code's public-domain license is not transferred to data |
+| B2 | OSF 3hvt2 explicitly uses CC-BY 4.0. The all-session archive is 3,212,547,438 bytes and matches its published SHA-256. Its expanded CSV is 11,601,104,964 bytes | Complete source pairing and returning-user case check running; first-session and demographic survey files unused |
+| B3 | DomArchive DESCRIPTION leaves its license as a placeholder; its documented edgelist schema is sequence/winner/loser/time, not an identified aggression initiator | Unsupported at source for unconfirmed licensing. No winner-as-initiator substitution or behavioral regression |
+| B4 | Lichess declares CC0; April 2017's 64 MiB compressed probe contains both clocks and evaluations | Complete named-month download and the predeclared 1% game sample running; no prefix represented as a month sample |
+
+Primary source records: [Mood Drift](https://osf.io/km69z/), [Moral Machine](https://osf.io/3hvt2/), [DomArchive package declaration](https://github.com/DomArchive/DomArchive/blob/master/DESCRIPTION), [Lichess database](https://database.lichess.org/). OSF's public API was used when the webpage fetcher could not retrieve the landing page. No authentication or browser challenge was bypassed. The source metadata snapshots and hashes remain private. Cite Awad et al. (2018), The Moral Machine experiment, for B2; derived aggregates retain its CC-BY attribution. No demographics, usernames or raw source text enter public artifacts.
+
+The following table reports only computational completion and validation cost. Every listed attempt independently replays with verified hashes and exited native identities.
+
+| Completed attempt | CPU seconds |
+|---|---:|
+| B2-intake | 24.34375 |
+| B4-intake | 2.125 |
+| B2-native-h1 | 2.75 |
+| B4-native-h1 | 1.078125 |
+| B2-cost | 44.765625 |
+| B4-model-native | 1.359375 |
+
+B2's first constructed test exposed a pandas/tar stream seekability mismatch; the same archive consumer now uses seekable gzip without changing rows. Both first native fixture wrappers then failed before human data because the output directory did not exist. Both failures and charges remain. Absent-directory tests and fresh native recovery pass. The original failing test XML remains. A successful B2 test XML path was accidentally reused: the first failed native plan retains its original digest, but that earlier passed XML byte snapshot is unavailable. No current-source pin match is claimed for either superseded failed attempt; the recovered attempt pins a new test receipt. This reporting defect does not change a human outcome or relax a gate.
+
+B2's million-row timing prefix has one million orphaned response keys and no reconstructed pair. That shows why pairing must span the complete source; it is not an unsupported-population verdict. The full reconstruction uses disk-backed keyed aggregation, retains every invalid/orphan count, and independently rebuilds it. Only after that may the frozen common returning-user cohort be admitted. The cost forecast includes 1.5 times source-size scaling of complete execute/replay plus 600 seconds for final aggregation.
+
+B4's parser keeps sampling ahead of annotation filters, excludes mate/missing scores, and verifies Black/White sign and increment arithmetic. Its model recovers constructed positive and negative interactions, preserves the null state, refuses a missing instrument, and matches an independent two-stage formula. That validates arithmetic, not the exclusion restriction: low clock time may affect quality directly. Human analysis remains an observational diagnostic.
+
+Both scientific design notes are committed at `897988ff9`; primary TD1-TD7 notes remain at `abeee0d8b`. The two originally top-level packet files are filed on their proper Stage 15 design shelves, with byte-identical originals preserved privately. No new scientific hypotheses were harvested from the latest clarification; it resolved Gear 3 scope and filing. No cloud calls, GPU starts, cross-repository messages or publication were performed.
+
+**Means.** Land complete source outputs before inference; run the prepared B2 comparison and B4 cost/full stages only after their support and remaining-cost gates. Retain all source holds.
+
+The ordinary eight-ready-card target is not met: two preparations are active and their inference successors depend on completed support/cost admission. TD1-TD3 are retrieval-blocked at Dryad, TD7 failed its declared source floor, and B1/B3 have unconfirmed data licenses. Completed TD4-TD6 are fully written through internally. Registered follow-ups rank after commissioned cards and are not counted as executable before their own freeze/validation. Idle capacity during build and source gating is retained as an operational limitation, not described as full saturation.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The licensed Moral Machine and chess consumers pass their native checks, and both complete source preparations are running in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Land complete source outputs before inference; run the prepared B2 comparison and B4 cost/full stages only after their support and remaining-cost gates. Retain all source holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: BACKLOG_BUILD.md.
+
+### S15-TD-CALENDAR-20261106
+
+**Hypothesis.** Will the independent theory-days window stop new starts and request the final curator digest on its own clock?
+
+**METHOD.** Exercise exact UTC boundary and late/idempotent recovery fixtures against a temporary watcher configuration. Start the finite native calendar, verify its executable and creation identity, pin its source closure, register all terminal and milestone paths, and bind monitor readiness to the owner receipt.
+
+**Found.** The finite theory-days calendar is running with registered freeze and drain events; its tested drain restores transition-only monitoring.
+
+New starts freeze November 7 at 19:00 PST; drain is November 8 at 07:00 PST. The existing CPU admission and active runtime enforce those boundaries. The calendar requests full drain reconciliation and THEORY_DAYS/DIGEST.md, restores transition-only mode, and exits. It neither scores science nor publishes. The conservative start boundary is November 6 at 07:00 PST, chosen before observed processing; the precise transcript handoff time was not available. This corrects the README's earlier implication that an exact handoff timestamp had been observed. Week 4 retains its separate later schedule; no budget or deadline extension is inferred.
+
+**Means.** Let the watcher deliver actual transitions and the existing six-hour health event; add no separate ETA wakes. The aggregate final digest still requires owner inspection and full scientific write-through.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The finite theory-days calendar is running with registered freeze and drain events; its tested drain restores transition-only monitoring.; project meaning: scoped operational record; next engineering obligation: Inspect registered transitions and deliver the final digest at drain.; public scientific claim unchanged; curator decision required: No new decision. Detail: CALENDAR.md.
+
+### S15-TD7-SUPPORT-20261106
+
+**Hypothesis.** Do existing writing logs contain the matched, nonoverlapping examined-choice episodes needed to test whether a rejection changes later option sensitivity?
+
+**METHOD.** Authenticate the complete canonical-menu and actual-hover sources. Form upper open-time terciles within writer, including every resolved opened menu, with exact quantile ties assigned to the upper bin. Examination means upper tercile or actual hover. Treat edited acceptances as acceptances; ignored menus never become choices. Assign each event its next three canonical choices within the session, with earlier events owning overlapping menus before matching. Match examined dismissals and acceptances without replacement within writer, open-time tercile and session-time decile, seed 20261106. Test the entire literal source handler on a constructed exact-floor case and replay it independently before checking real support.
+
+**Found.** The frozen writing-event matching fails the required writer support floor; the effect model is not fitted.
+
+The source has 16,855 menus in 1,399 sessions from 61 writers. The frozen selection gives 4,380 nonoverlapping candidate events and 672 matched pairs; 18 writers have ten pairs, below the precommitted floor of 20. The consumer reports **design cannot test**, not a null. This is support under the declared allocation and matching, not proof that no alternative study could be supported. The matching policy is not changed after seeing its count.
+
+The table accounts for examination clauses and exclusions. The four examination categories are exclusive among resolved canonical-choice candidates; subsequent exclusion categories and fast dismissals refer to stages of selection and are not extra source rows.
+
+| Category | Count |
+|---|---:|
+| fast dismissals | 1331 |
+| fewer than three future choices | 3690 |
+| hover and upper | 4922 |
+| hover only | 9315 |
+| neither | 1769 |
+| overlap with earlier event | 6880 |
+| upper only | 713 |
+
+The positive constructed case contains exactly twenty writers with ten pairs each, all 1,200 future-menu memberships unique. Nineteen writers refuse; missing source coverage and ignored-menu fixtures also pass. The writing and calendar targeted tests total five passing assertions/tests. Native constructed validation and full source replay both pass. No feature fit, effect estimate, uncertainty interval or sensitivity-to-absence claim is computed. No automatic instrument follow-up attaches to unsupported event counts.
+
+**Means.** Close this specified source route as design cannot test. Preserve all original choices and gates; proceed to independently eligible backlog cards.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The frozen writing-event matching fails the required writer support floor; the effect model is not fitted.; project meaning: scoped operational record; next engineering obligation: Proceed to independently eligible backlog cards; do not relax the writer floor.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD7_SUPPORT.md.
+
+### S15-TD6-MIND-LANGUAGE-20261106
+
+**Hypothesis.** Do disgust-tagged comments contain less expressed modelling of another mind than matched anger-tagged comments?
+
+**METHOD.** Match without replacement within subreddit and whitespace-length decile. Require two disgust labels and no anger, versus two anger labels and no disgust; use the predeclared one-label fallback if fewer than 300 pairs remain. Count only the exact subject/verb token patterns, express hits per token, and compare rates relatively to anger. Resample whole matched pairs within subreddit 2,000 times; retain the original pairs in the he/she/they companion. Constructed signed, null, matching and zero-denominator checks precede human execution; the entire computation independently replays.
+
+**Found.** The registered disgust-versus-anger mind-language comparison is inconclusive; the sparse person-targeted companion cannot establish reduced mental modelling.
+
+The strict rule yields 732 disgust candidates, 1,485 anger candidates and 190 matched pairs, activating the frozen fallback. The fallback yields 2,786 disgust candidates, 4,380 anger candidates and 1,437 pairs. The primary does not decide whether the relative reduction exceeds 10%.
+
+Each row shows matched pairs, exact phrase hits and lexical tokens in each arm, relative rate difference and the within-subreddit 95% interval. A difference of -0.1 means 10% fewer hits per token relative to anger. The companion is not the primary.
+
+| Population | Pairs | Disgust hits / tokens | Anger hits / tokens | Relative difference | Interval | Mechanical rule |
+|---|---:|---:|---:|---:|---|---|
+| primary | 1437 | 34 / 20067 | 36 / 20018 | -0.0578617 | [-0.378018, 0.414195] | inconclusive |
+| person_targeted | 49 | 2 / 950 | 5 / 974 | -0.589895 | [-0.659329, -0.485744] | supports |
+
+The primary stratum support is {"subreddits": 412, "singleton_subreddits": 94, "pairs_in_singletons": 94}; the person-targeted support is {"subreddits": 41, "singleton_subreddits": 35, "pairs_in_singletons": 35}. These counts describe subreddit resampling, not people. Singleton strata cannot vary their pair under the specified bootstrap. The companion has only two versus five phrase hits; its narrow conditional interval must not be read as precise evidence about new subreddits or mental modelling. No undefined bootstrap draws occurred. The observed phrase dictionary is a lexical proxy and misses many ways of describing minds. Its constructed arithmetic checks do not validate construct coverage. Sensitivity was untested at the original landing; the complete registered rare-count calibration now records limited sensitivity and poor companion coverage under its conditional model (S15-TD6-IC-SENSITIVITY-20261106). The human estimates and original verdicts are retained.
+
+**Means.** Preserve the primary inconclusive result and the separately labelled companion. Register a sensitivity check that includes rare phrase counts and the observed stratum sizes before interpreting a non-detection as absence.
+
+
+Design commit: `abeee0d8b773fd223bd17771438571698e2ec423`. Complete execution and independent replay used 29.125 CPU seconds. All pinned sources, output hashes and native exits verify. No p-value is added. Raw text and identities remain private.
+
+Curator roll-up: channel functions; Does this observable consequence distinguish the channel account from its rival?; **Narrows**; The registered disgust-versus-anger mind-language comparison is inconclusive; the sparse person-targeted companion cannot establish reduced mental modelling.; project meaning: the primary remains unresolved at its registered bar; next engineering obligation: Freeze a first-generation instrument check including rare phrase counts, observed subreddit sizes and the 10% practical bar, capped at 900 CPU seconds. Preserve the original matched analysis and its singleton limitations.; public claim unchanged; curator decision required: No; detail: THEORY_DAYS/TD6_MIND_LANGUAGE.md.
+
+### S15-TD5-CHANNEL-DISAGREEMENT-20261106
+
+**Hypothesis.** Do disagreements between independent raters preferentially substitute words assigned to the same proposed channel?
+
+**METHOD.** Count exclusive-label disagreements over ordered distinct-rater pairs on each clear comment. Divide by the count expected from rating marginals, and compare each of six assigned pairs against its strongest supported cross-channel rival. Recompute marginals in 2,000 comment-cluster draws. Retain the full-data fixed competitor, add a maximum-reselected companion, compare unassigned categories separately, and repeat on exactly-three-rater comments. Exact scalar counts and an independent-label factorial null validate the arithmetic before human execution.
+
+**Found.** The registered within-channel disagreement comparison remains inconclusive; its complete sensitivity check is limited in balanced constructed worlds and does not establish human-population power (S15-TD5-IC-SENSITIVITY-20261106).
+
+The full primary contains 57,349 comments, 209,971 ratings and 607,458 ordered pairs. The exactly-three-rater companion contains 37,335 comments, 112,005 ratings and 224,010 ordered pairs. Both return the packet's inconclusive outcome: two cross-channel wins, two losses and two unresolved pairs. The against rule requires at least three losses; support requires all six wins. The frozen practical difference is 0.1 lift units in the declared direction.
+
+Each row is a declared pair compared with its strongest cross-channel rival. Difference is within-pair lift minus rival lift. Brackets are 95% comment-bootstrap intervals, conditional on this corpus and annotation allocation; the second interval reselects the maximum within the same eligible competitor pool on each draw.
+
+| Population | Pair | Fixed rival | Difference | Fixed interval | Reselected interval | Decision |
+|---|---|---|---:|---|---|---|
+| primary | anger / annoyance | anger / disgust | -0.0809312 | [-0.258341, 0.101728] | [-0.258341, 0.101728] | inconclusive |
+| primary | fear / nervousness | nervousness / sadness | 2.76959 | [1.97824, 3.54409] | [1.93931, 3.47914] | win |
+| primary | grief / sadness | nervousness / sadness | 2.89998 | [2.16741, 3.66237] | [2.16741, 3.66237] | win |
+| primary | amusement / joy | excitement / joy | -0.116395 | [-0.324439, 0.0924209] | [-0.324439, 0.0924209] | inconclusive |
+| primary | curiosity / excitement | excitement / joy | -1.3128 | [-1.50132, -1.12226] | [-1.50132, -1.12226] | loss |
+| primary | caring / love | caring / nervousness | -1.01221 | [-1.29957, -0.735765] | [-1.30106, -0.871336] | loss |
+| exactly_three | anger / annoyance | anger / disgust | 0.12683 | [-0.245979, 0.502482] | [-0.245979, 0.502482] | inconclusive |
+| exactly_three | fear / nervousness | disgust / fear | 3.19955 | [1.66478, 4.8733] | [1.66478, 4.8733] | win |
+| exactly_three | grief / sadness | fear / sadness | 3.94075 | [2.51851, 5.45196] | [2.48114, 5.41974] | win |
+| exactly_three | amusement / joy | excitement / joy | -0.105813 | [-0.404167, 0.207809] | [-0.404167, 0.207809] | inconclusive |
+| exactly_three | curiosity / excitement | excitement / joy | -1.35923 | [-1.63064, -1.07823] | [-1.63064, -1.07823] | loss |
+| exactly_three | caring / love | joy / love | -0.954194 | [-1.12297, -0.781733] | [-1.12297, -0.781733] | loss |
+
+Against unassigned categories, the full-data comparisons win for anger/annoyance and fear/nervousness, are unresolved for grief/sadness, and lose for amusement/joy, curiosity/excitement and caring/love. The exactly-three-rater comparison instead wins for amusement/joy. All unassigned estimates, intervals and expected counts are in the aggregate JSON receipt. These comparisons are separate because the theory treats unassigned categories as mixtures.
+
+The six primary pairs include sparse within-channel expected counts even where their rival passes the 50-count floor. The packet applies that floor to competitors, not to the within-channel pair. A reselected maximum bootstrap is a sensitivity calculation, not guaranteed valid post-selection inference near tied maxima. The comment bootstrap holds the observed rater pool fixed and does not estimate generalization to new raters. The original arithmetic null checks did not establish power. The complete first-generation calibration now shows limited full-rule sensitivity and poor interval coverage under its balanced single-label construction (S15-TD5-IC-SENSITIVITY-20261106), without establishing human-population power. This inconclusive human result is not evidence of channel equivalence or absence. Everyday emotion labels need not identify inherited functions.
+
+**Means.** Keep the mixed pair pattern and the aggregate inconclusive outcome. Retain the completed instrument sensitivity check and its construction limits; do not tune the mappings after these outcomes.
+
+
+Design commit: `abeee0d8b773fd223bd17771438571698e2ec423`. Complete execution and independent replay used 65.515625 CPU seconds. All pinned sources, output hashes and native exits verify. No p-value is added. Raw text and identities remain private.
+
+Curator roll-up: channel functions; Does this observable consequence distinguish the channel account from its rival?; **Narrows**; The registered within-channel disagreement comparison remains inconclusive; its complete sensitivity check is limited in balanced constructed worlds and does not establish human-population power (S15-TD5-IC-SENSITIVITY-20261106).; project meaning: the primary remains unresolved at its registered bar; next engineering obligation: Retain the completed first-generation constructed calibration and its limitations; human inference remains inconclusive, mappings unchanged, with no descendants.; public claim unchanged; curator decision required: No; detail: THEORY_DAYS/TD5_CHANNEL_DISAGREEMENT.md.
+
+### S15-TD56-COST-20261106
+
+**Hypothesis.** Can both complete annotation comparisons, including their registered companions and fresh replay, fit the shared CPU allowance?
+
+**METHOD.** Run each complete original population through its validated handler with a fixed 32-draw timing prefix. Repeat the entire prefix in a fresh process, bind all raw sources and outputs, and forecast the 2,000-draw run at 1.5 times linear scaling of total measured CPU, including fixed preparation and process overhead. Retain all prefix artifacts privately; do not interpret their estimates or intervals.
+
+**Found.** Both full-population annotation timing prefixes replay within their bounds; full 2,000-draw uncertainty remains uncomputed and scientifically unreported.
+
+This table reports measured computational cost and conservative forecast, not scientific scores.
+
+| Consumer | Prefix CPU seconds, execute plus replay | Forecast full CPU seconds |
+|---|---:|---:|
+| TD5 | 16.3125 | 1529.296875 |
+| TD6 | 11.984375 | 1123.53515625 |
+
+The original shared ceiling is 1,800 CPU seconds and one cumulative S4 doubling permits at most 3,600, including every native and prefix attempt. The whole campaign still has its separate hard 54,000-second allowance. Both forecasts together fit the remaining shared allowance, but each dispatch must use fresh actual charges. A partial bootstrap is not complete uncertainty and is not a scientific landing. No hypothesis, estimator, cohort, comparator or control changes.
+
+**Means.** Admit TD5 full first; admit TD6 only after reconciling the shared remaining allowance. No simultaneous full-cap reservations against the same shared ceiling.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both full-population annotation timing prefixes replay within their bounds; full 2,000-draw uncertainty remains uncomputed and scientifically unreported.; project meaning: scoped operational record; next engineering obligation: Admit TD5 full first; admit TD6 only after reconciling the shared remaining allowance. No simultaneous full-cap reservations against the same shared ceiling.; public scientific claim unchanged; curator decision required: No new decision. Detail: TD56_COST_ADMISSION.md.
+
+### S15-TD4-WORD-SCALES-20261106
+
+**Hypothesis.** Do the curator's ordered emotion words behave as single increasing scales in independent human word norms?
+
+**METHOD.** Apply the frozen words and emotion mappings to NRC Emotion Intensity v1 and VAD v2.1, with no stemming, synonyms or added zero scores. Require four covered words. Count adjacent inversions and rank correlation; fit dominance linearly on mapped intensity (arousal for LUST) and divide its residual standard deviation by arousal's standard deviation. Validate constructed straight, reversed, off-line and degenerate cases before the real run; reparse and recompute every result independently in a fresh process.
+
+**Found.** The specified PLAY word order fails the frozen word-norm rule; four covered scales are inconclusive and three lack the required intensity coverage. These norms do not identify biological channels.
+
+The table shows each declared scale, its number of intensity-covered words (arousal-covered words for LUST), adjacent reversals, rank correlation, the off-line residual ratio and the precommitted verdict. Correlation 1 means exact increasing rank order; the ratio is a linear-shape diagnostic. It is not an interval or a measure of a neural dimension.
+
+| Scale | Covered words | Adjacent inversions | Rank correlation | Off-line ratio | Verdict |
+|---|---:|---:|---:|---:|---|
+| CARE | 3 | not available | not available | not available | design cannot test |
+| DISGUST | 3 | not available | not available | not available | design cannot test |
+| FEAR | 5 | 0 | 1 | 0.778331 | inconclusive |
+| LUST | 4 | 0 | 1 | 0.550768 | inconclusive |
+| PANIC/GRIEF | 4 | 1 | 0.8 | 0.509329 | inconclusive |
+| PLAY | 5 | 2 | -0.3 | 0.309556 | against |
+| RAGE | 6 | 1 | 0.942857 | 0.968449 | inconclusive |
+| SEEKING | 3 | not available | not available | not available | design cannot test |
+
+All declared words are available in VAD. Missing intensity scores leave SEEKING, CARE and DISGUST with three words each; those scales cannot test the registered joint criterion. CARE's joy companion has two covered words and SEEKING's joy companion three, also below the floor. Coverage masks in the aggregate receipt refer to positions in the already-public curator lists; no raw lexicon entries or wordwise norm values are published. The covered PLAY list has two reversals, meeting the against rule independently of its low residual ratio. The other four covered primary lists meet neither decisive band. No scale meets both the no-inversion and ratio-below-0.5 support rule.
+
+Design commit: `abeee0d8b773fd223bd17771438571698e2ec423`. Native execution and full replay used 4.84375 CPU seconds. The original 360-second ceiling and single cumulative doubling remain; earlier native validation is charged separately in the campaign accounting. All source pins and complete output hashes verify, and the coordinator and both children have exited. No p-value was computed or added to the multiplicity family.
+
+The source word ratings are associations rather than direct measurements of a drive. Coverage is conditional on the lexicon's emotion association entries. A lexical ordering failure narrows this particular supplied scale; it does not refute the curator's broader functional channel account, replace his terminology, or establish a second neural dimension. No operational threshold was changed after seeing the norms.
+
+We use the NRC Emotion Intensity and NRC VAD lexicons created by Saif M. Mohammad at the National Research Council Canada: [Emotion Intensity](https://saifmohammad.com/WebPages/AffectIntensity.htm), [VAD](https://saifmohammad.com/WebPages/nrc-vad.html). Associated research: *Word Affect Intensities* (LREC 2018) and the VAD v2 research supplied with the 2025 release. The bundled research-use and no-redistribution terms remain in the private source archive.
+
+**Means.** Preserve the original word order and this complete result. Continue the independent annotation and process tests; neither substitutes for a direct graded-channel measurement. A permitted follow-up must be frozen separately, remain inside this window and budget, and preserve the original result.
+
+Curator roll-up: channel scales; Do the ordered words form single graded scales?; **Narrows**; The supplied PLAY order fails its word-norm rule.; project meaning: a particular lexical ordering is constrained; next engineering obligation: Complete the independently registered annotation and process comparisons.; public claim weakened for this word list, unchanged for biological channels; curator decision required: No; detail: THEORY_DAYS/TD4_WORD_SCALES.md.
+
+### S15-TD-EMOTION-VALIDATION-20261106
+
+**Hypothesis.** Do the proposed emotion measures return known answers without treating missing data, a zero denominator or a selected competitor as positive evidence?
+
+**METHOD.** Test exact scalar pair enumeration against vectorized ordered-rater counts, a complete independent-label factorial null, linear and reversed constructed word scales, off-line and constant-variable cases, frozen language-pattern boundaries and matched signed/null examples. Execute the literal ZIP/parquet consumers under native containment and repeat each whole handler in a fresh process. Verify input/output hashes and native exits.
+
+**Found.** All three emotion consumers pass constructed native handler replay; real-data contrasts and complete cost admission remain separate.
+
+The table records constructed validation cost and the number of independently verified output files, not human study estimates.
+
+| Consumer | Native execution and replay CPU seconds | Output hashes verified |
+|---|---:|---:|
+| TD4 | 3.71875 | 15 |
+| TD5 | 4.140625 | 15 |
+| TD6 | 3.65625 | 15 |
+
+Seven targeted checks pass. The word-scale handler receives constructed norms, the disagreement handler receives independent constructed raters with all labels available, and the language handler receives an exactly known matched contrast. Native handlers repeat the full parse, preparation and statistic. These checks do not establish calibration on the observed corpora or license the curator's substantive claims. The ordinary source-retrieval failure and the initial temporary-directory test error remain in the prior record.
+
+The designs remain at commit abeee0d8b. Source archives and parquet are private; no participant identifiers, comment text or lexicon entries are published. All validations consume the campaign budget and their respective shared card allowances. No paid call or GPU execution occurs. TD1 to TD3 remain retrieval-blocked; TD7 and backlog builds remain outstanding.
+
+**Means.** Run the complete inexpensive word-norm comparison and bounded full-population timing probes for both annotation consumers, then admit complete replay only within their shared allowance. The campaign is partially built, with validation distinguished from scientific completion.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All three emotion consumers pass constructed native handler replay; real-data contrasts and complete cost admission remain separate.; project meaning: scoped operational record; next engineering obligation: Run the complete inexpensive word-norm comparison and bounded full-population timing probes for both annotation consumers, then admit complete replay only within their shared allowance.; public scientific claim unchanged; curator decision required: No new decision. Detail: EMOTION_NATIVE_VALIDATION_20261106.md.
+
+### S15-TD-SETUP-20261106
+
+**Hypothesis.** Can the theory-days packet run within its approved CPU bounds with verifiable sources and private raw retention?
+
+**METHOD.** Preserve the supplied packet, commit seven design notes before outcomes, test admission boundaries and source-column projection, and run a constructed fixture through the actual native coordinator and fresh verification process. Retrieve the three ordered public sources and independently rehash and inspect their schemas. Verify exact process exits, source pins, output inventories and both top-level packet copies.
+
+**Found.** The CPU-only theory-days runtime and two public sources verify; Dryad retrieval remains blocked, and scientific consumers are still being built.
+
+The table reports operational source and software checks, not scientific effects.
+
+| Check | Verified state |
+|---|---|
+| Frozen design commit | abeee0d8b |
+| Runtime/source admission checks | 5 passed |
+| Emotion consumer arithmetic/boundary checks | 6 passed; native scientific handler admission pending |
+| Runtime fixture CPU seconds, execution plus replay | 0.40625 |
+| Source intake CPU seconds, execution plus replay | 4.171875 |
+| GoEmotions raw ratings / comments / raters | 211225 / 58011 / 82 |
+| Ratings excluded as unclear in this pinned raw source | 0 |
+| Comments with at least three clear raters | 57349 |
+| NRC source archives | Emotion Intensity v1 and VAD v2.1 retained and rehashed |
+| Paid calls / GPU jobs | None |
+| Research workers at this completed inspection | 0 of 4 |
+
+The initial test command encountered five setup errors because its temporary directory was inaccessible; no assertions ran. The unchanged checks passed in a fresh workspace-local directory. Both records remain. A 300-second build/test/source-probe reserve plus 30 seconds per coordinator is conservatively included in the campaign allowance, alongside measured native job charges. Subsequent work cannot reuse that reserve as an unlimited allowance.
+
+Dryad metadata and its published version/checksums are accessible. File API downloads return HTTP 401; the public website download returns a browser-validation page rather than the data. Those responses are retained as retrieval failures, not licence rejection or scientific evidence. No authentication or browser challenge was bypassed. The original intake's generic `unsupported_at_source` label is narrowed here to **retrieval blocked**; TD1 to TD3 await a legitimate source route and field mapping. This is not a null. The independent GoEmotions and NRC sources remain usable within their terms.
+
+GoEmotions is the pinned raw parquet revision specified in the intake design. The author column was never requested or decoded. The downloaded source contains no unclear-flagged rows; all exclusions and the actual 58,011-comment count remain explicit rather than forcing agreement with the official README headline. Source metadata and case counts do not establish any emotion result. NRC research use and no-redistribution terms were inspected; raw lexicon entries remain private.
+
+Both parent-root specification files now have byte-identical operative copies on the appropriate Stage 15 shelves, and duplicate originals are retained in the private workspace archive. Their hashes and dispositions are recorded. No reference checkout or incoming companion exchange was modified.
+
+The campaign opening is conservatively fixed at 07:00 PST on November 6, preceding observed processing; this is not a claim to know the exact transcript timestamp. Its start freeze is November 7 at 19:00 PST and drain November 8 at 07:00 PST. The packet's general statement that its window outlives Week 4 is not true for this early handoff; each campaign retains its actual clock. No clock was extended. The full seven-card build and ready buffer remain unfinished.
+
+**Means.** Complete native validation and cost admission of TD4 to TD6, then the supported TD7 and backlog routes; retain the TD1 to TD3 source hold without inventing data. All scientific results remain uncomputed. Record individual completions internally and provide one final curator digest at drain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The CPU-only theory-days runtime and two public sources verify; Dryad retrieval remains blocked, and scientific consumers are still being built.; project meaning: scoped operational record; next engineering obligation: Complete native validation and cost admission of TD4 to TD6, then the supported TD7 and backlog routes; retain the TD1 to TD3 source hold without inventing data.; public scientific claim unchanged; curator decision required: No new decision. Detail: SETUP_AND_SOURCE_INTAKE_20261106.md.
+
+### OPS-S15-W4-HEALTH-20261106-0635
+
+**Hypothesis.** Is the idle queue explained by a lost process, missing result, stale lease, monitoring failure, insufficient resources or unfinished admission work?
+
+**METHOD.** Inspect native coordinator and child identities for every Week 4 plan, actual repository Python processes, terminal freshness and preserved failures, counted leases, output and source hashes, research locks and resource floors. Reconcile all completed write-through records and claim anchors, settled paid-call proofs, watcher identity and loaded code, actual event delivery, and calendar identity and heartbeat. Check open queue entries against completed records before deciding whether any restart is warranted.
+
+**Found.** Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work.
+
+This table describes operational state, not scientific scores. Idle slot-hours measure unused counted research capacity; inspection and documentation are not research workers.
+
+| Check | Verified state |
+|---|---:|
+| Active local research workers / capacity | 0 / 4 |
+| Ready successors / required buffer | 0 / 8 |
+| Frozen plans / terminal attempts | 216 / 214 |
+| Completed Week 4 records / exact claim anchors before this entry | 309 / 599 |
+| Scientific locks | 21 passed |
+| Latest complete output hashes / source pins | 57 / 60 |
+| Settled paid invocations / cents / active batches | 15 / 112 / 0 |
+| Available RAM / commit headroom / disk, GiB | 53.28 / 30.58 / 287.66 |
+| Cumulative idle counted-slot hours | 317.866345 |
+
+Every started attempt has a terminal receipt, and every recorded coordinator and available execution/verification child has exited. The actual repository Python inventory contains only the watcher, calendar and identified launchers plus this inspection. No unexpected or unreadable worker, orphan, stale counted lease or resource-floor failure was found. Terminal evidence is unchanged since the preceding health inspection. The latest completed comparison and the daily digest are fully recorded; no new unlanded result was found. The general queue log remains its historical September 6 drain, not this week's scheduler.
+
+The two unstarted plans remain historical records: R2-full has a completed successor, and WB1-exact-effects-cost has a separately admitted cost-stopped successor. Neither is runnable work. Intentional GPU parking remains in force; no Python or Ollama GPU computation was found. All paid usage proofs reconcile with their raw evidence, with no active batch or unsettled reservation.
+
+The following table retains the disposition of earlier failures. It does not promote partial verification or failed scientific controls into usable results.
+
+| Retained attempt | Current disposition |
+|---|---|
+| Runtime oversized-output fixture | Expected guard refusal retained |
+| Runtime progress fixture | Original sharing refusal retained; validated successor complete |
+| Original S1 nuisance timing | Timestamp-unit engineering error repaired in the recorded successor |
+| Twelve-word S1 recurrence verification | Environmental failure retained; unchanged fresh-directory replay completed |
+| S2 source sample | Monitor repaired; full independent replay remains above its remaining source allowance |
+| CA1 sampled feature cost | CPU ceiling reached during verification; vectors remain unverified |
+| WB1 effects cost | Shared fresh-probe ceiling reached during verification; full effects remain held |
+
+**Wording recovery.** Two TODO entries lagged their landed evidence. D7.h1 still asked for support replay, calibration and human admission that are already complete. Its attempt is now closed using OPS-S15-W4-D7-H1-SUPPORT-FULL-20261104, OPS-S15-W4-D7-CALIBRATION-FULL-20261104 and S15-W4-D7-H1-HUMAN-20261104. The original invalid reference and biased acceptance companions remain; D7.s and D7.m remain cost-held. WD1's control-repair row is kept open, but now distinguishes its completed h2 support bank from the still cost-held complete calibration and corrected human admission (OPS-S15-W4-WD1-H2-SUPPORT-FULL-20261104; OPS-S15-W4-WD1-H2ST-COST-HOLD-20261104). Both failed solver candidates, original invalid reference, all draws and charges remain. These are corrections to preparation status, not scientific changes or a license to repeat completed work.
+
+The earlier Theory Day publication is complete at commit `1e3393113a45236c0ddec904c98032fbd3eae300`, with its remote reference independently verified in the retained publication proof. This health inspection adds a new local operational record; it does not perform another publication. The earlier targeted test result remains 457 passes and one known, unadmitted WD1 solver-parity failure. No scientific test is rerun during this inspection. Incoming companion exchange packages retain their existing uncommitted status.
+
+The watcher matches its exact native creation identity, holds its singleton, and reports the currently loaded source hashes with fresh scans, no cancellation and no current service error. The requested health event has reached its bound owner; transport queue acceptance is not used as a substitute for this observed delivery. Historical transport failures are retained. Calendar native and launcher identities and source pins verify; its heartbeat was 21.21 seconds old at inspection. No process, watcher or lease recovery is indicated.
+
+The ready-buffer deficit remains an operational failure to finish commissioned implementations and admission, alongside valid source, control, instrument and cost holds. T4 complete uncertainty, S2 replay, corrected WD1 calibration, D7 follow-ups, CA1 encoding and WB1 effects retain their recorded cost boundaries. AUTH's proposed cache-reuse reference remains missing required pairs. P7's saved refinement does not admit point scoring. The declared ScholaWrite fallback still needs a compatible source and instrument contract. Existing authority permits bounded construction and validation; none of these obligations is represented as ready or running. An unchanged held run is not authorized recovery.
+
+**Means.** Preserve all completed evidence and holds while continuing bounded build and full admission of commissioned work. No tests were harvested, no scientific statistic was computed, and no new paid call, delegation, publication or GPU restart occurred. Final Week 4 packet reporting remains in force. Acknowledge this event only after the operational write-through verifies; its ACK rearms the independent six-hour inspection.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work.; project meaning: scoped operational record; next engineering obligation: Complete bounded implementation, validation and full cost admission for existing commissioned work; preserve all source, control and GPU holds.; public scientific claim unchanged; curator decision required: No new decision. Detail: WEEK4_HEALTH_20261106_0635.md.
+
 ### OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106
 
 **Hypothesis.** Are completed Sounding Line results and current state fully recorded and reviewable for the requested Theory Day publication?

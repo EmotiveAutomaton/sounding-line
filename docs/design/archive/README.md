@@ -1,5 +1,11 @@
 # Historical study designs
 
+The [November 6 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md) is
+**applied**. Its [26-edit receipt](THEORY_ERRATA_20261106_APPLIED.json) records
+exact anchor checks, two afterword merges preserving later results, quotation
+provenance, and the second-pass verification. Supplied literature reading labels
+remain attributed to the packet's analyst; no new review is implied.
+
 The [October 18 theory filing](SOUNDING_LINE_THEORY_FILING_2026-10-18.md) is
 preserved byte-for-byte and **applied at the October 18 daily integration**.
 The [application receipt](THEORY_FILING_20261018_APPLIED.json) maps all twelve

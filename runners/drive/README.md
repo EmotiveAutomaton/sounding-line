@@ -1,5 +1,7 @@
 # October 16 drive runners
 
+**Week 4 current health:** [Verified inspection](../../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0635.md) (OPS-S15-W4-HEALTH-20261106-0635). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work. Local research 0/4; ready 0/8. GPU parked; 112 campaign cents settled and no batch active. Existing admission holds and final-packet policy remain. Earlier snapshots are historical.
+
 **Week 4 current health:** [Verified inspection](../../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0028.md) (OPS-S15-W4-HEALTH-20261106-0028). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected. Local research 0/4; ready 0/8. GPU parked; 112 campaign cents settled and no batch active. Existing admission holds and final-packet policy remain. Earlier snapshots are historical.
 
 **Week 4 current digest:** [November 5 integration](../../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261105.md) (OPS-S15-W4-DIGEST-20261105). The November 5 digest reconciles completed results, retained failures, corrections and settled spending; Gear 2 is idle and the ready buffer remains unbuilt. Local research 0/4; ready 0/8. GPU parked; campaign 112 cents settled, no batch active. Final-packet policy and all admission holds remain. Earlier snapshots are historical.

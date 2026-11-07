@@ -18,6 +18,19 @@ with the reason.
 
 ---
 
+## November 6 theory errata filing
+
+These three earlier spoken sources were supplied in the November 6 errata and
+filed on November 6. Their dates are source dates, not backdated filing dates.
+Quotation repairs and source limitations remain in the archived packet and receipt.
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| November 6: review and apply the theory errata, check it again, then continue Gear 2 | Applied all 26 edits across four theory files and their index; preserved later result landings and existing quotations; current CPU-only campaign limits remain binding | written | [Application receipt](../../docs/design/archive/THEORY_ERRATA_20261106_APPLIED.json) |
+| November 6, 07:22 PST: answers to the analyst's readiness questions and evidence | Filed need-relative slopes, identity and preemption, costly action and output, the anger interpretation, and DISGUST's proposed stopping rule, with analyst additions and contrary evidence separate | written | [Source and repair ledger](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md) |
+| November 3, 07:32 PST through November 4, 17:38 PST: theory discussion turns | Filed pre-solved channel functions, graded strength, triggers, set points, power and respect, CARE and PANIC/GRIEF, identity and the trial DISGUST channel; the analyst's channel table remains unconfirmed | written | [Source and repair ledger](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md) |
+| November 1, 13:38 PST: walkthrough of the analyst's October 30 questions | Filed forward/backward functions, the identity ladder, costly action, own autopilot and slotting, opaque authority, and flow, planning, revision and hand-switch proposals | written | [Source and repair ledger](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md) |
+
 ## October 25 Week 3 commission and theory filing
 
 | Contribution | What changed | Status | Record |

@@ -1,5 +1,7 @@
 # Stage 15: next-round research division
 
+**November 6 theory days:** [CPU-only campaign](theory-days/README.md). Seven designs are frozen before outcomes; source intake and native runtime verify, with Dryad retrieval blocked and scientific build ongoing.
+
 **October 25:** [Week 3 operative packet and reviewed amendments](week3/README.md). Gear 2 and the bounded new Gear 3 campaign are authorized and rolling out; source packets and earlier results remain preserved.
 
 **October 17 amendment is rolling out:** [packet, frozen wave and live execution](drive/README.md)

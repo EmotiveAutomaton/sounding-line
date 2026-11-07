@@ -1345,14 +1345,180 @@ Analyst paraphrase of the curator's condensed positions in the [Week 3 packet](.
 
 The wanting-to-want attentional channel remains central in his account. A second look may expose the higher goal being served, as when someone notices and corrects their own micro-racisms. What a person would sacrifice, including small local costs, is proposed evidence that something is an end. This keeps present endorsement, historical repetition and the outcome probes distinct: a recurring act alone does not settle which need or end it serves. Confidence: untested, logic only.
 
+**The ladder ends in identity** *(2026-11-01, 2026-11-03 and 2026-11-06)*:
+
+> And maybe it's that everything becomes its own end to an extent, and it becomes some kind of
+> equation describing how each one, how present each one is in the network of all of them
+> interacting with each other. Maybe it's some mathematical trick, if they're all just functions.
+> Like, all we have are a set of functions at this point, and they're all, at the end, optimizing
+> for something that cannot be seen. It has no actual proximal ability to be identified, other than
+> what these ancient brain mechanisms tell you works. And this would also allow you to kind of
+> seamlessly take on values. And maybe there's something here about values and identities. Like,
+> when you have identified a value enough, it becomes an identity. Or, what would it be? When you
+> have set a value such that it is a terminal output of a utility function, then that is when it
+> becomes an identity. I don't know if that's a very reasonable thing to say, but [...] that's one
+> of the two options, is that there are terminal values that are set in some way. The other option
+> is that they're all bleeding into each other in a kind of circuitous fashion, and it is instead
+> the ratio of how often they fire that we care about over time, both of which I think are
+> extractable from the data that we have.
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+> I was imagining identity as being something that shows up when a heuristic becomes [a] terminal
+> utility value. For example, I think I referenced honor as something you can use to help have a
+> good place in society, or you can decide that honor is all that matters and set that up as your
+> terminal metric for success.
+
+*Curator's turn 2 in the project's separate theory discussion thread, 2026-11-03 (sent 07:32 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> Channels are tools that are used for accomplishing things. Heuristics are personally created tools
+> that exist in the neocortex. Values are tools that you're beginning to apply as a metric, and an
+> identity is the point at which that heuristic and value, or, I don't know if there's a general
+> term for this concept, but that function, that process, has become the actual goal, has become
+> your actual terminal value. You've chosen it as a mesa-optimizer, as a target, mesa-target,
+> whatever it is.
+
+> But you even hit a situation where the metric can become a target, where you use it so often, like
+> you use the honor solution so often to solve the question of "what do I do?", that eventually you
+> just become value capture. Value capture happens inside your own head, and it becomes your
+> identity. And once value capture has shifted, you become an honorable person. An honorable person
+> can be either someone who makes a whole bunch of different honorable decisions, or someone who
+> simply optimizes for honor as an outcome. God, is there some way to tell the difference between
+> the two of those things? Yeah, the first one, the person would be willing to sacrifice it for
+> something else, I guess. They'd be willing to nest it as part of a larger function. But you're not
+> willing to nest honor in service of, to use the output of honor in service of, something else.
+
+*Curator's turn 4 in the project's separate theory discussion thread, 2026-11-03 (sent 16:35 PST); filed 2026-11-06. Separate excerpts; transcription repairs listed in the handoff.*
+
+> You'd have to be very surprised by an outcome in order for it to rise to the area of you
+> reconsidering an identity, such as honor or vegetarian or whatever.
+
+*Curator's turn 6 in the project's separate theory discussion thread, 2026-11-03 (sent 18:10 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> For number three, I mean, I think I addressed that, didn't I? "What would count in behavior as a
+> value that nothing trades for?" It's an identity. At the top of the list, the ladder literally
+> goes, what, something like habits, heuristics, values, and then identity, right? I was all kind of
+> referring to the same thing, the same puzzle pieces and outcomes, except that as they go further,
+> more and more of them is assumed to be a terminal output of your implied utility function, sort
+> of.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+The curator's ladder runs from habits through heuristics and values to identity, the same pieces
+read as more and more terminal. An identity is a value set as a terminal output, reached by value
+capture, a simple metric replacing the value it served, when one solution is used often enough. He
+names two ends for the hierarchy, terminal values set in some way or values circulating so that the
+ratio of how often each fires is what counts, and holds both extractable. That everything becomes
+its own end is functional autonomy (Allport, 1937, read, cited above), and the two ends may be two
+regimes of one learner of its own preferences, effectively terminal in a constant world and loose
+under volatility ([Sajid et al., 2021](https://arxiv.org/abs/2106.04316), read, preprint). **Real
+objection.** One snapshot cannot tell the two ends apart, since a network of mutually reinforcing
+variables and a model of hidden common causes fit the same data
+([Kruis & Maris, 2016](https://doi.org/10.1038/srep34175), abstract read), while repeated measures
+separate them ([Kievit et al., 2019](https://doi.org/10.1177/0956797619841265), read). **Stress
+test.** A finite compensatory utility model permits trades at some price, while sacred values refuse trades and a material sweetener
+raised outrage ([Ginges et al., 2007](https://doi.org/10.1073/pnas.0701768104), read), so a terminal
+output of a utility function and an identity may come apart.
+
+**Nothing trades for it while it answers first** *(2026-11-04 and 2026-11-06)*:
+
+> Because if you stake an identity on a ladder, then losing status on it, if that's a terminal goal,
+> you literally have decided that is a terminal goal of yours, which is what identity is, is how I
+> think we're phrasing this. Then if someone else is better than you, nothing else can be traded for
+> it. By definition, you cannot trade a willingness to be worse at this thing for anything else, or
+> it's not an identity.
+
+*Curator's turn 14 in the project's separate theory discussion thread, 2026-11-04 (sent 17:38 PST); filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+> I'm not surprised that protected values can be addressed by reframing. To an extent, what we're
+> talking about is pre-solved blocks kind of jumping to the wall when something looks familiar.
+> Like, you see a pre-solved block of "I value life", and that provides some of the satisfaction for
+> one of my needs, and I value that high enough that I can't see anything else that would be worth
+> trading off for it. That is an end goal. But you could just as easily tell, explain to me,
+> something else that could be worth trading for it, and present a circumstance where another one of
+> my values is all of a sudden front and center. And now they have to compete a little bit. Often, I
+> think, you get preemption, where the first answer you come up with gets precedence a little bit,
+> which makes sense. That would just be high-level implementation of synaptic inhibition.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt; transcription repairs listed in the handoff.*
+
+For the curator nothing trades for an identity, and protected values giving way to reframing is
+preemption, the first pre-solved block to answer taking precedence until a frame brings another
+value forward, so the claim holds while the identity answers first. The literature sorts trade-offs
+into taboo ones, a sacred value against a secular one, tragic ones, two sacred values, and routine
+ones, and people "often acquiesce" when a taboo violation is reframed as routine or tragic
+([Tetlock, 2003](https://doi.org/10.1016/S1364-6613(03)00135-9), read), while taboo trade-offs felt
+easier than routine ones, with no response times measured
+([Hanselmann & Tanner, 2008](https://doi.org/10.1017/S1930297500000164), read). His synaptic
+inhibition has two models. In query theory people answer a decision as a series of questions and the
+first suppresses answers to the second
+([Johnson et al., 2007](https://scispace.com/pdf/aspects-of-endowment-a-query-theory-of-value-construction-1qavhs69g6.pdf),
+read), and in leaky competing accumulators, options gathering evidence while inhibiting one another,
+early evidence wins when inhibition beats leak
+([Tsetsos et al., 2012](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2012.00079/full),
+read). A value that controls its own query order is the analyst's candidate marker, after a carbon
+"tax" study in which only 46 percent of Republicans followed an imposed reversed order
+([Hardisty et al., 2010](https://business.columbia.edu/sites/default/files-efs/pubfiles/4176/hardisty%20johnson%20weber%20psyc%20sci%20dirty%20word.pdf),
+read). **Stress test.** Preemption is a property of fast decisions; primacy weakened when people had
+time, so an identity should show as refusal without deliberation.
+
+**Values show in costly action, and channels in their output** *(2026-11-01 and 2026-11-06)*:
+
+> I'm not surprised on real records. Like, action would be necessary to identify values, things that
+> take cost. Saying one word with respect to another word, of any kind, [...] only has a cost if you
+> have values that make it harder to say one word over another word, such as the value for honesty.
+
+*Curator's walkthrough of the analyst's 30 October questions, 2026-11-01 (13:38 PST), in the project's theory and analyst thread; filed 2026-11-06. Contiguous excerpt with a marked omission; transcription repairs listed in the handoff.*
+
+> The way it shows in what someone writes, makes, or chooses has to do with the output of the
+> function. I mean, literally, each of those functions shows some change in behavior, in attention,
+> focus, whatever. When Dungeon Crawler Carl writes about feet, you can assume that that's the LUST
+> channel getting involved a little bit. [...] It shows in the outcome of behavior.
+
+> Like, the bottom of our inference pyramid, if you will, is just a sequence of steps. And, like,
+> you would see how the anger, for example, changed the sequence of steps due to altering what is
+> being attended to. Again, we have a table, I think, that took a first-pass weak suggestion at the
+> kinds of things that each function might output. It's not ridiculous.
+
+*Curator's message answering the analyst's 6 November readiness questions and evidence, 2026-11-06 (07:22 PST), in the project's theory and analyst thread; filed 2026-11-06. Separate excerpts with a marked omission; transcription repairs listed in the handoff.*
+
+Values show in costly action and channels in their output, down to the sequence of steps at the
+bottom of the inference pyramid. Language-model coders matched expert motive coding in aggregate, at
+intraclass correlations, an agreement index on which 1 is perfect, of .85 to .89
+([Nilsson et al., 2025](https://ersearch2.cvtisr.sk/vufind/EdsRecord/edsswe,edsswe.oai.portal.research.lu.se.publications.7dd21877.8fc2.4a40.84f9.d38e5a78aa0a?lng=en),
+abstract read), while dictionary categories are weak alone; the one that tracked coded power motive
+was Anger, whose word list "contains many words associated with strong, forceful actions, having
+control over others, or having negative emotional impact"
+([Schultheiss, 2013](https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00748/full), read).
+Anger and fear shift attention in the lab
+([Ford et al., 2010](https://cris.huji.ac.il/en/publications/keeping-your-eyes-on-the-prize-anger-and-visual-attention-to-thre/),
+abstract read;
+[Fawcett et al., 2013](https://roam.macewan.ca/items/cd72262c-13b6-4f3d-98e1-937ece81ffa0/full),
+abstract read), but no study yet shows the shift in a written product's sequence. **Real objection,
+small, the analyst's.** One output can come from a channel firing now, a habit it built or a
+convention, and by his 1 November line feelings may be expertise again. A channel's output should
+appear when its trigger shape appears and grow with it, the pervasiveness test as restated in
+[`READER_HEURISTICS.md`](READER_HEURISTICS.md) §6 (HH-PERVASIVENESS), applied to feelings. Validated
+text correlations run only about .10 to .20
+([Tackman et al., 2019](https://experts.arizona.edu/en/publications/depression-negative-emotionality-and-self-referential-language-a-/),
+abstract read;
+[Boyd et al., 2022](https://www.liwc.app/static/documents/LIWC-22%20Manual%20-%20Development%20and%20Psychometrics.pdf),
+the LIWC-22 manual, read), so one marker such as feet is weak evidence.
+
 | # | hypothesis | status |
 |---|---|---|
 | **G185** | Wanting to want arises by two acquisition routes, learned contingency and association, which outcome devaluation separates | **OPEN, logic only.** A constructed test ran as card B2 of the Ghost V22 first pass (13 October); its result is not yet read into this file; no project measurement |
 | **G188** | No learned goal becomes terminal; a means that looks like an end is a distorted transition map, and pursuit that survives the need being met is habit | **WITHDRAWN (curator, 2026-10-16).** Replaced by G191, which admits learned ends and names the probes that separate them from habit; habit remains one of G191's cases, and the human evidence that extended training produces it is mixed (lit, READ) |
 |   | | *(this row's history is the curator's 2026-10-14 position, withdrawn by his 2026-10-16 ruling that anything can be a set point, with animal learning's test for an end adopted the same day)* |
 | **G191** | Learned ends exist; anything can become a set point, and a solution has become an end when it survives the need it served being met another way; disturbing or satisfying the candidate end then separates a learned end, defended by varied means and satiating, from a habit, which does neither | **OPEN.** Learned set points for cognitive goals, functional autonomy and learned references in control theory (lit, READ); the probes are contingency degradation, outcome devaluation and the test for the controlled variable (lit, READ and SNIPPET), with habitual goal selection as a third case (lit, READ); the human evidence on training-induced habits is mixed, and devaluation tests may be insensitive (lit, READ). A constructed test ran as conditional study N4b of Ghost V23; its result is not yet read into this file. No human measurement. The 25 October position explicitly includes dearly held learned structures such as honor; their origin as solutions does not prohibit their becoming ends. |
+|   | | *(2026-11-03 and 2026-11-04: the curator wants fewer set points and more ways to interact with them, and lists physiological needs, security, belonging and those in one's care, excluding certainty, power and standing; see G241 in [`THREE_COGNITIVE_LAYERS.md`](THREE_COGNITIVE_LAYERS.md) §1)* |
 | **G192** | Set points sit on needs, not acts; an act is the most common accepted solution for a set point, grown out of it, and a recurring act such as caregiving recurs because the state it serves decays, unless the act has itself become an end by G191's test | **OPEN, logic only.** The curator's ruling, with the decaying-state account of care the analyst's; consistent with reward as the reduction of a deviation and with allostatic regulation (lit, READ); a person who recreates occasions for care while the bond is secure would show caregiving become an end; no project measurement |
 | **G199** | A learned solution is a value while the maker still endorses the decision it encodes, and a habit or a dropped goal once the maker no longer would; a disowned habit persists where the effort of reversing it outweighs its stakes, and a stated aspiration is a plan to make the automatic process match the current intent | **OPEN.** The curator's criterion (2026-10-17). Second-order endorsement in philosophy (lit, SNIPPET); habits as context-cued responses insensitive to current goals, and control allocated by its expected value net of cost (lit, READ); the ego-depletion account of fatigue failed a multi-laboratory replication (lit, READ); endorsement is self-report, so a behavioral check is needed, and G191's disturbance probe is the candidate; no project measurement. The wanting-to-want attentional channel remains the curator's priority in the 21 October position; observable second looks are candidate evidence, not direct readings of present endorsement. |
+| **G248** | The ladder runs habits, heuristics, values and identity, the same pieces and outcomes read as more and more terminal outputs of an implied utility function; channels are inherited tools, heuristics personally made ones, values tools applied as metrics, and an identity is a value set as a terminal output, reached by value capture when one solution is used often enough and then no longer nested in service of anything else | **OPEN.** The curator's account (2026-11-01, 2026-11-03 and 2026-11-06). Functional autonomy of motives is prior art (lit, READ); a finite compensatory utility model permits trades at some price, while sacred values refuse trades and backfire against material offers, and the values people kept in a real-money auction engaged rule retrieval rather than valuation (lit, READ); no human measurement identifies this mechanism; the adjacent finite-choice comparison below does not identify terminal identity (S15-TD-B2-C5) |
+| **G249** | The end of the hierarchy is either a set of terminal values set in some way or values circulating into one another, where the ratio of how often each fires over time is what counts; both are extractable from the project's data, and the pieces optimize for an end that cannot be seen beyond what the ancient brain mechanisms report as working | **OPEN, logic only.** The curator's two options (2026-11-01). One learner can produce both regimes, effectively terminal preferences in a constant world and loose ones under volatility (lit, READ); a network of mutually reinforcing variables and a common-cause model fit one snapshot equally and separate with repeated measures (lit, READ), so extraction needs records over time; a firing ratio ranks what a person does often, not what she would refuse to trade (the analyst's caution) |
+| **G250** | Nothing trades for an identity while it answers first; a pre-solved block preempts, the first answer taking precedence by something like synaptic inhibition, and a frame that brings another of the person's values forward makes the two compete, which is why protected values give way to reframing | **OPEN.** The curator's account (2026-11-04 and 2026-11-06). Taboo, tragic and routine trade-offs, acquiescence when a taboo violation is reframed, and taboo choices felt as easy (lit, READ); query order and mutual inhibition give the first answer precedence, mainly under time pressure (lit, READ); protected values gave way to counterexamples, and pointing attention at consequences reversed their insensitivity to quantity (lit, READ); refusal without deliberation, conflict only between identity-level values, and a value that controls its own query order are the analyst's candidate markers; no human measurement identifies this mechanism; the adjacent finite-choice comparison below does not identify terminal identity (S15-TD-B2-C5) |
+| **G251** | A value shows in costly action, and a word carries a value only when a value such as honesty makes one word costlier than another; a channel shows in a record as the output of its function, a change in behavior, attention and the sequence of steps; the analyst adds that the output must follow its trigger shape, appearing and growing with the trigger, to be read as the channel rather than as a habit or a convention | **OPEN.** The curator's output account (2026-11-01 and 2026-11-06), with the trigger condition the analyst's, applying the pervasiveness test as restated in [`READER_HEURISTICS.md`](READER_HEURISTICS.md) §6 (HH-PERVASIVENESS). Language-model coders match expert motive coding in aggregate, dictionary categories are weak alone, and validated text correlations run about .10 to .20 (lit, READ); anger and fear shift attention in the lab, and no study was found showing the shift in the sequence of a written product (lit, READ); no project measurement |
+| **S15-TD-B2-C5** | At equal exposure, never-trading is more common for the pooled species/intervention dimensions than gender/fitness | **SUPPORTED for the frozen pooled finite-choice contrast; OPEN for terminal identity (test, S15-TD-B2-REFUSALS-20261106; human Moral Machine dilemma responses, exact-program readout).** The descriptive joint component comparison finds species above and intervention below the same mundane-dimension mean (test, S15-TD-B2-M-COMPONENTS-20261106); stable ordinary preferences and the offered scenarios remain rivals. The separately committed exact-subset expectation retains the pooled contrast on the same cohort (test, S15-TD-B2-P-EXACT-SUBSETS-20261106); this addresses subset randomness, not independent replication. The registered comparison with exactly three choices retains the pooled practical-bar result but reduces its magnitude on the same cohort (test, S15-TD-B2-S-EXPOSURE-20261106); no exposure is selected as preferred. The descriptive higher-exposure grid changes cohort membership and reverses the paired exposure difference across selected cohorts (test, S15-TD-B2-TEXTURE-EXPOSURE-COHORT-20261106); it supplies no claim upgrade. |
 
 **State of the section's claim.** The fourfold distinction has never been tested as a distinction;
 it is the file's working vocabulary, adopted for the reasons above. Its
@@ -1367,7 +1533,7 @@ disturbing or satisfying the candidate end telling a learned end from a habit (G
 G188). Set points sit on needs rather than acts. State decay is one analyst explanation for recurring care; the curator also proposes responsibility and sharing useful solutions. Neither account identifies an end from recurrence alone (G192; G229 in `THREE_COGNITIVE_LAYERS.md`). The probes come from animal learning, and
 the human evidence on habits is mixed. The curator's own test for a value is present endorsement, with
 a habit as a routine the maker no longer endorses but has not paid to reverse (G199).
-The proposed distribution of higher goals must remain conditioned on context and available means; population departure does not establish optimality, and the top objective remains tentative. Confidence: untested, logic only, with the sim demonstration held by §5.
+The proposed distribution of higher goals must remain conditioned on context and available means; population departure does not establish optimality, and the top objective remains tentative. On the curator's ladder habits, heuristics, values and identity are the same pieces held more and more terminally (G248), and the end of the hierarchy is either set terminal values or a circulating ratio of firing, which one snapshot cannot tell apart (G249). An identity is what nothing trades for while it answers first, a preemption the literature on taboo trade-offs and query order supports in form (G250); values are read from costly action, and channels from their output, which the analyst requires to follow its trigger (G251). Finite dilemma choices separate the declared pooled refusal rates at matched exposure. The descriptive component comparison assigns its positive direction to species while intervention lies below the same mundane baseline; pooled support is not separate support for both components. Averaging every possible matched subset retains that comparison, so its support does not depend on the original single subset draw. Inspecting exactly three choices instead of each fingerprint's minimum retains the practical-bar result but reduces its magnitude; exposure matters to size, and this shared cohort does not supply independent replication. Requiring more shared choices changes which returning fingerprints qualify, and the descriptive difference between inspecting that threshold and exactly three choices reverses sign across the selected cohorts. This distinguishes exposure arithmetic from cohort selection without upgrading the claim. The source and linkage limits remain. They do not measure present endorsement, satiation or what a chooser would sacrifice under unobserved offers (S15-TD-B2-C5). Confidence: one bad test away for the finite-choice comparison; untested, logic only for the learned-end distinction, with the sim demonstration held by §5.
 
 **Goal hierarchies, set points and acceptance lean**
 
@@ -1476,6 +1642,7 @@ been recovered.**
 |   | | *(this row's history is SPLIT on the Stage-6 block, L316 to L322, then voided by the 2026-09-02 dependency audit, L330; the twins and the staircase geometry stand as construction facts, rebuilt behind the Stage 7 boundary as V01 to V06)* |
 | **G182** | A maker's choices grow more consistent the farther the maker is from a set point; near it they carry little set-point information | **OPEN, logic only.** Follows from reward as the reduction of a need (lit, SNIPPET) and from value-difference choice models (lit, READ); no project measurement. A constructed test ran as card B1 of the Ghost V22 first pass (13 October); its result is not yet read into this file |
 | **G183** | Effort a maker pays to depart from habit scales the strength of the revealed preference | **OPEN.** The CoAuthor examination/fast-dismissal comparison is unsupported: an exact program finds only 24 writers meeting the frozen event minimum against 25 required, before any effect is computed (test, human process records, S15-PR1-SUPPORT-20261027). This source limit leaves the costly-redirection claim untested. |
+| **S15-TD-B4-C6** | Deliberation time and player skill have a positive interaction in move quality, the theory-days chess proxy for effect as effort times power | **OPEN; inconclusive, limited sensitivity in constructed worlds (test, S15-TD-B4-EFFORT-SKILL-20261106; human chess process records and separately constructed outcomes, exact-program readout).** The complete game-cluster instrumental diagnostic spans both signs; its ordinary regression companion cannot replace it. The conditional whole-game calibration fails its frozen practical-size sensitivity criterion (test, S15-TD-B4-IC-SENSITIVITY-20261106); this supplies no human negative. Clock pressure has an unverified exclusion restriction, so no causal multiplication claim follows. |
 | **G184** | Unpredictability on difficult choices reflects difficulty, not preference | **OPEN; consistent with value-based choice research (lit, READ).** Choice probability rises smoothly with value difference and difficult choices are slower; no artifact-level test |
 | **G186** | Set points drift; estimating a maker's current set points trades the amount of evidence against its recency, and behavior executed from expertise dates from when it was learned rather than when it is executed | **OPEN.** An exact program detects no adaptive handling-forecast advantage in CoAuthor human process records under the separately calibrated conditional temporal-order control (test, S15-TR4-H1-20261029). Its finite constructed sensitivity checks pass, but human within-context exchangeability remains an assumption. This process proxy does not date learned decisions, recover current preferences or establish equivalence. Original volatility-reliability uncertainty remains unsupported. |
 |   | | *(The original comparison used a biased outcome-order reference, S15-TR4-20261027. Its result is retained; the separately registered conditional control preserves the original population and forecast arithmetic, S15-TR4-H1-20261029.)* |
@@ -1667,10 +1834,10 @@ maker's values have been recovered by any account. Preference evidence is expect
 to depart from habit, densest far from a set point and thinnest on hard choices between near-equal
 options (G182 to G184). Its weight should fall with the age of the decision that produced it, since
 set points drift (G186), and improvement attempts carry it as corrections, one constraint at a time
-(G189); these remain unestablished. The examination/fast-dismissal effort comparison lacks its required writer support and supplies no effect estimate (S15-PR1-SUPPORT-20261027). The handling-forecast proxy detects no adaptive advantage under a separately calibrated conditional temporal-order reference; its finite constructed sensitivity checks pass, while human exchangeability remains an assumption and volatility-reliability uncertainty remains unsupported (S15-TR4-H1-20261029). This is neither equivalence nor an adjudication of the age of a learned preference. The original biased-reference result is retained (S15-TR4-20261027). Confidence: the sim discriminations are
+(G189); these remain unestablished. The examination/fast-dismissal effort comparison lacks its required writer support and supplies no effect estimate (S15-PR1-SUPPORT-20261027). The chess proxy does not resolve whether deliberation and skill multiply in move quality; its instrumental diagnostic is inconclusive and clock pressure may act directly on quality. The positive ordinary regression companion does not settle that primary comparison or identify preference strength. Its conditional constructed-world calibration has limited practical-size sensitivity, so the inconclusive human result cannot establish absence or equivalence (S15-TD-B4-C6). The handling-forecast proxy detects no adaptive advantage under a separately calibrated conditional temporal-order reference; its finite constructed sensitivity checks pass, while human exchangeability remains an assumption and volatility-reliability uncertainty remains unsupported (S15-TR4-H1-20261029). This is neither equivalence nor an adjudication of the age of a learned preference. The original biased-reference result is retained (S15-TR4-20261027). Confidence: the sim discriminations are
 sim-only, authoritative about method; all four accounts and the separator are untested on real
 text; the Stage-3 rows are one bad test away, the carrier's triviality measured on twelve
-decisions; the Stage-6 quartet is instrument-dead; the conditional handling forecast is one bad test away; the set-point, effort, difficulty, drift and
+decisions; the Stage-6 quartet is instrument-dead; the conditional handling forecast and chess proxy comparison are one bad test away; the set-point, preference-effort, difficulty, drift and
 correction predictions are untested, logic only.
 
 ## §6. Value blindness, and where longitudinal ground truth could come from

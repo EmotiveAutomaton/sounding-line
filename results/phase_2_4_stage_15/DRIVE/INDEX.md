@@ -1,5 +1,11 @@
 # October 16 drive: execution index
 
+**OPS-S15-W4-DIGEST-20261106:** [Record](WEEK4_DIGEST_20261106.md). The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.
+
+**OPS-S15-W4-PAID-CUTOFF-20261106:** [Record](WEEK4_PAID_CUTOFF_20261106.md). Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.
+
+**OPS-S15-W4-HEALTH-20261106-0635:** [Record](WEEK4_HEALTH_20261106_0635.md). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work.
+
 **OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106:** [Record](WEEK4_THEORY_DAY_RECORD_CHECK_20261106.md). Completed Week 4 records and publication checks reconcile; the retained WD1 optimization still fails its known parity check and remains unadmitted.
 
 **OPS-S15-W4-HEALTH-20261106-0028:** [Record](WEEK4_HEALTH_20261106_0028.md). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected.

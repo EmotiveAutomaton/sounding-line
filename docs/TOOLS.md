@@ -2597,6 +2597,88 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-TD-HEALTH-20261107-0101:** Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0101.md).
+
+**OPS-S15-W4-DIGEST-20261106:** The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261106.md).
+
+**OPS-S15-TD-HEALTH-20261106-1854:** Completed records, locks and monitoring verify; CPU-only Gear 2 is idle with no admitted ready work, and the source-access blockage has reached its escalation threshold. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261106_1854.md).
+
+**OPS-S15-W4-PAID-CUTOFF-20261106:** Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_PAID_CUTOFF_20261106.md).
+
+**OPS-S15-TD-ERRATA-CONTINUATION-20261106:** The November 6 theory errata is applied and verified; the admitted descriptive choice-data texture is running in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/ERRATA_CONTINUATION_20261106.md).
+
+**S15-TD-B2-TEXTURE-H1-COST-20261106:** The cached texture probe exactly reproduces the entire original probe and independently replays; full execution fits the unchanged family allowance. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_H1_COST.md).
+
+**S15-TD-B2-TEXTURE-H1-CACHE-20261106:** The complete private count cache exactly matches fresh source decoding and seeded subset reconstruction in independent native verification. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_H1_CACHE.md).
+
+**S15-TD-B2-TEXTURE-H1-NATIVE-20261106:** The exact input-cache adapter passes elementwise equality, corruption refusal, immutable reentry and independent native reconstruction. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_H1_NATIVE.md).
+
+**S15-TD-B2-TEXTURE-COST-20261106:** The full-cohort texture cost probe replays but the complete uncertainty run is cost-held. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_COST.md).
+
+**S15-TD-B2-TEXTURE-NATIVE-20261106:** The exposure-and-cohort texture consumer passes literal subset, nested selection, signed and zero cases, stopping and complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_TEXTURE_NATIVE.md).
+
+**OPS-S15-TD-HEALTH-20261106-1244:** Completed records and monitoring verify after restoring a pinned setup README; CPU-only Gear 2 remains idle with source holds and an unbuilt ready buffer. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261106_1244.md).
+
+**S15-TD5-IC-SENSITIVITY-20261106:** The complete disagreement rule has limited sensitivity and poor interval coverage in the balanced constructed worlds; the human comparison remains inconclusive. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD5_IC_SENSITIVITY.md).
+
+**S15-TD5-IC-COST-20261106:** The complete-population disagreement cost probe independently replays; the full calibration fits its original allowance. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD5_IC_COST.md).
+
+**S15-TD5-IC-NATIVE-20261106:** The complete disagreement-rule calibration passes analytic signed controls, exact grouped-bootstrap validation and native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD5_IC_NATIVE.md).
+
+**S15-TD4-M-COST-20261106:** The word-axis comparison source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD4_M_COST.md).
+
+**S15-TD4-S-COST-20261106:** The single-word influence source probe exactly reproduces the complete parent result and admits the full diagnostic within its original allowance. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD4_S_COST.md).
+
+**S15-TD4-M-NATIVE-20261106:** The word-axis comparison diagnostic passes signed, constant, tied and coverage checks with complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD4_M_NATIVE.md).
+
+**S15-TD4-S-NATIVE-20261106:** The single-word influence diagnostic passes signed, constant, tied and coverage checks with complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD4_S_NATIVE.md).
+
+**OPS-S15-TD-B4-RECEIPT-RESTORE-20261106:** The original chess receipt bytes are restored and every sensitivity dependency verifies; scientific outputs are unchanged. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_RECEIPT_RESTORE.md).
+
+**S15-TD6-IC-SENSITIVITY-20261106:** The rare-count calibration has limited sensitivity, and the sparse companion bootstrap is unreliable in these constructed worlds; the human comparison remains inconclusive. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD6_IC_SENSITIVITY.md).
+
+**S15-TD6-IC-COST-20261106:** The rare-count cost probe reproduces both complete human analyses and independently replays; the full constructed calibration fits its original allowance. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD6_IC_COST.md).
+
+**S15-TD6-IC-NATIVE-20261106:** The rare-count sensitivity consumer reproduces the original bootstrap, including singleton and undefined-denominator behavior, with complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD6_IC_NATIVE.md).
+
+**S15-TD-B2-S-COST-20261106:** The complete-cohort exposure cost probe reproduces both prior calculations and independently replays within its allowance; full exposure uncertainty remains unfinished. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_S_COST.md).
+
+**S15-TD-B2-S-NATIVE-20261106:** The common-cohort exposure consumer passes literal enumeration, signed and zero cases, three-choice identity and complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_S_NATIVE.md).
+
+**S15-TD-B2-M-COST-20261106:** The full-cohort component cost probe reproduces the parent and independently replays within its allowance; full component uncertainty remains unfinished. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_M_COST.md).
+
+**S15-TD-B2-M-NATIVE-20261106:** The paired refusal-component consumer passes signed, opposing and identical-world checks with complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_M_NATIVE.md).
+
+**S15-TD-B4-IC-SENSITIVITY-20261106:** The chess diagnostic has limited practical-size sensitivity in the registered constructed worlds; the human interaction remains inconclusive. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_IC_SENSITIVITY.md).
+
+**S15-TD-B4-IC-COST-20261106:** The complete two-world chess sensitivity cost probe independently replays within the follow-up allowance; full calibration remains unfinished. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_IC_COST.md).
+
+**S15-TD-B4-IC-NATIVE-20261106:** The conditional chess sensitivity runner passes complete dose-shift parity and independent native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_IC_NATIVE.md).
+
+**S15-TD-B2-P-COST-20261106:** The complete-population exact-subset cost probe replays and reproduces the parent subset calculation; full uncertainty remains uncomputed. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_P_COST.md).
+
+**S15-TD-B2-P-NATIVE-20261106:** The exact-subset expectation consumer passes literal enumeration, signed and identical-world checks, and complete native replay. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_P_NATIVE.md).
+
+**S15-TD-B4-COST-20261106:** The full-sample chess model cost probe independently replays within its allowance; complete scientific uncertainty remains uncomputed. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_MODEL_COST.md).
+
+**S15-TD-B4-SOURCE-20261106:** The complete named-month chess sample passes its frozen source-support checks and independent replay; model inference remains uncomputed. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B4_SOURCE.md).
+
+**S15-TD-B2-SOURCE-20261106:** The complete Moral Machine source reconstruction passes its frozen common-cohort support check and independent replay; scientific comparison remains uncomputed. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/B2_SOURCE.md).
+
+**S15-TD-BACKLOG-BUILD-20261106:** The licensed Moral Machine and chess consumers pass their native checks, and both complete source preparations are running in CPU-only Gear 2. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/BACKLOG_BUILD.md).
+
+**S15-TD-CALENDAR-20261106:** The finite theory-days calendar is running with registered freeze and drain events; its tested drain restores transition-only monitoring. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/CALENDAR.md).
+
+**S15-TD7-SUPPORT-20261106:** The frozen writing-event matching fails the required writer support floor; the effect model is not fitted. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD7_SUPPORT.md).
+
+**S15-TD56-COST-20261106:** Both full-population annotation timing prefixes replay within their bounds; full 2,000-draw uncertainty remains uncomputed and scientifically unreported. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/TD56_COST_ADMISSION.md).
+
+**S15-TD-EMOTION-VALIDATION-20261106:** All three emotion consumers pass constructed native handler replay; real-data contrasts and complete cost admission remain separate. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/EMOTION_NATIVE_VALIDATION_20261106.md).
+
+**S15-TD-SETUP-20261106:** The CPU-only theory-days runtime and two public sources verify; Dryad retrieval remains blocked, and scientific consumers are still being built. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/SETUP_AND_SOURCE_INTAKE_20261106.md).
+
+**OPS-S15-W4-HEALTH-20261106-0635:** Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0635.md).
+
 **OPS-S15-W4-THEORY-DAY-RECORD-CHECK-20261106:** Completed Week 4 records and publication checks reconcile; the retained WD1 optimization still fails its known parity check and remains unadmitted. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_THEORY_DAY_RECORD_CHECK_20261106.md).
 
 **OPS-S15-W4-HEALTH-20261106-0028:** Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0028.md).
