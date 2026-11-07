@@ -1,0 +1,5 @@
+# IN native admission addendum
+
+The frozen IN source projection and estimators remain unchanged. Before human inference, `week5_in_fixture_v2.py` runs positive, negative and exact-null constructions through the complete IN1, IN2 and IN3 execute/verify handlers on constructed parquet inputs, using 2,000 cluster bootstrap draws each. The null intensity is exactly explained by the named valence rival. Signed plants exercise the mapped fit index, the standardized interaction with both parents, and the RAGE-minus-FEAR control contrast. Separate constructions exercise all six prompt maps, including the two partial-channel mappings. Constant-predictor designs must report rank failure. No human observations enter these fixtures.
+
+`week5_in_analysis_h1.py` supplies the existing design's fewer-than-twenty-cluster descriptive guard to IN2 and IN3 as well as the already guarded IN1 and IN4. This changes admission reporting only; fitted models, estimates, intervals, contrasts, seeds and resampling remain those frozen in [IN](IN.md). Both signed effects and nulls below that floor remain descriptive. The source module is not modified.
