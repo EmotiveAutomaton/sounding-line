@@ -69,7 +69,7 @@ def run(root):
         for operation in ('execute', 'verify'):
             atomic(root/'PROGRESS.json', dict(at=now(), phase=operation, cpu_seconds=charged))
             with measured_child(root, operation, [str(PYTHON), '-X', 'utf8', '-B', '-m',
-                    'runners.drive.cards.batch_runtime_v8', '_'+operation, str(root)]) as worker:
+                    'runners.drive.cards.week5_child', operation, str(root)]) as worker:
                 freeze(root/f'{operation.upper()}_CHILD.json', dict(at=now(), native=native_identity(worker.pid)))
                 next_check = 0
                 sampled_cpu = 0.0

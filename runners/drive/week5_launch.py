@@ -11,7 +11,7 @@ from runners.theory_days.launch import closure
 from runners.drive.cards.batch_runtime import check_files
 from runners.drive.cards import week5_policy as policy
 
-MODULES=['runners.drive.cards.week5_runtime','runners.drive.cards.week5_policy']
+MODULES=['runners.drive.cards.week5_runtime','runners.drive.cards.week5_policy','runners.drive.cards.week5_child']
 
 def review(plan):
     check_files(plan['pins'])
