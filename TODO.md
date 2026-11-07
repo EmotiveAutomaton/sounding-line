@@ -1,5 +1,9 @@
 # TODO: the study queue
 
+**November 7 publication and continuation:** [Verified record](results/phase_2_4_stage_15/THEORY_DAYS/PUBLICATION_CONTINUATION_20261107.md) (OPS-S15-TD-PUBLICATION-CONTINUATION-20261107). Completed results, theory errata and state were published in `9c74131af` before the grind resumed. Focused tests and evidence checks pass. CPU-only Gear 2 is idle, research 0/4 and ready 0/8; existing source, control, cost and build holds persist. No paid work is active. Next fixed health: November 7 at 07:06:23 PST. Original campaign windows remain; earlier snapshots are historical.
+
+- [x] OPS-S15-TD-PUBLICATION-CONTINUATION-20261107: Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution.
+
 **November 7 queue health:** [Verified inspection](results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0101.md) (OPS-S15-TD-HEALTH-20261107-0101). Completed evidence, locks, resources and monitoring verify; no new result or recoverable runtime fault. CPU-only Gear 2 remains idle: research 0/4, ready 0/8. Source retrieval and other source, control, cost and build holds persist. Paid dispatch is closed at $1.12, fully reconciled. Six-hour health checks continue; both original campaign clocks and final-packet policies remain. Earlier snapshots are historical.
 
 - [x] OPS-S15-TD-HEALTH-20261107-0101: Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.

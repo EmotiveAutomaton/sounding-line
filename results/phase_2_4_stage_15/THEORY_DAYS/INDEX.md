@@ -1,5 +1,7 @@
 # Theory-days record index
 
+**OPS-S15-TD-PUBLICATION-CONTINUATION-20261107:** [Record](PUBLICATION_CONTINUATION_20261107.md). Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution.
+
 **OPS-S15-TD-HEALTH-20261107-0101:** [Record](HEALTH_20261107_0101.md). Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.
 
 **OPS-S15-TD-HEALTH-20261106-1854:** [Record](HEALTH_20261106_1854.md). Completed records, locks and monitoring verify; CPU-only Gear 2 is idle with no admitted ready work, and the source-access blockage has reached its escalation threshold.

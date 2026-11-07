@@ -176,3 +176,5 @@ Preserve failed attempts, source refusals, accounting and admission decisions.
 2026-11-07T09:06:14.960761+00:00 OPS-S15-TD-HEALTH-20261107-0101: Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.
 
 2026-11-07T09:06:22.649830+00:00 OPS-S15-TD-HEALTH-20261107-0101: idle-capacity defect persists; +19.830341 shared unused slot-hours since the digest; 0/4 active, 0/8 ready. Source/support/control/cost holds and unfinished build/admission work; no recoverable runtime fault found.
+
+2026-11-07T11:15:15.683006+00:00 OPS-S15-TD-PUBLICATION-CONTINUATION-20261107: Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution.

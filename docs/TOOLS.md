@@ -2597,6 +2597,8 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-TD-PUBLICATION-CONTINUATION-20261107:** Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/PUBLICATION_CONTINUATION_20261107.md).
+
 **OPS-S15-TD-HEALTH-20261107-0101:** Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0101.md).
 
 **OPS-S15-W4-DIGEST-20261106:** The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261106.md).
