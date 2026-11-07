@@ -189,8 +189,21 @@ def valid_json(path):
                             and isinstance(reason, dict)
                             and isinstance(reason.get("at"), str) and bool(reason["at"])
                             and reason.get("reason") in {
-                                "resource_floor", "week_drain",
+                                "resource_floor", "week_drain", "week5_drain", "owner_cancel",
                                 "cpu_projection_above_cumulative_S4_cap"})
+        # Week 5's bounded producer quantum also ends its native worker.
+        # This recognizes a checkpoint receipt, never a completed science result.
+        producer = reason.get("producer") if isinstance(reason, dict) else None
+        producer_pause = (path.name == "PAUSED.json" and status == "PAUSED"
+                          and record.get("scientific_admission") is False
+                          and record.get("checkpoint_validation_required") is True
+                          and isinstance(record.get("card"), str) and bool(record["card"])
+                          and isinstance(record.get("at"), str) and bool(record["at"])
+                          and type(cpu) in (int, float) and math.isfinite(cpu) and cpu >= 0
+                          and isinstance(reason, dict)
+                          and reason.get("reason") == "Producer checkpoint quantum"
+                          and isinstance(producer, dict) and producer.get("status") == "yielded"
+                          and isinstance(producer.get("reason"), str) and bool(producer["reason"]))
         # Finite coordinators retain PID-suffixed, statusless exception receipts.
         # Recognize that exact filename/field shape without accepting a running
         # record, arbitrary error log or malformed exception as a terminal.
@@ -200,7 +213,7 @@ def valid_json(path):
                                for key in ("at", "error", "traceback")))
         return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
                 or (path.name == "FAILED.json" and "error" in record) or pid_failure
-                or saved_pause or checkpoint_pause)
+                or saved_pause or checkpoint_pause or producer_pause)
     except (ValueError, OSError):
         return False
 

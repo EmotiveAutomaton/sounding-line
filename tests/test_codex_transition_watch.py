@@ -99,6 +99,8 @@ def test_saved_pause_owns_notification_without_claiming_completion(context,monke
     ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'running'}}, False),
     ({'reason': {'reason': 'resource_floor'}}, False),
     ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'week_drain'}}, True),
+    ({'reason': {'at': '2026-11-16T06:00:00Z', 'reason': 'week5_drain'}}, True),
+    ({'reason': {'at': '2026-11-07T20:00:00Z', 'reason': 'owner_cancel'}}, True),
     ({'reason': {'at': '2026-10-25T22:12:29Z', 'reason': 'cpu_projection_above_cumulative_S4_cap'}}, True)])
 def test_week3_checkpoint_pause_not_a_disappeared_job(context, monkeypatch, changes, expected):
     repo, state, cfg, native = context
@@ -148,3 +150,22 @@ def test_pid_failure_receipt_owns_only_its_terminal_notification(context, monkey
     assert fault.exists() is not expected
     assert len(events) == (1 if expected else 2)
     assert watch.urgent({'path': terminal}, cfg)
+
+
+@pytest.mark.parametrize('changes,expected', [({},True),
+    ({'checkpoint_validation_required':False},False),({'scientific_admission':True},False),
+    ({'cpu_seconds':float('nan')},False),({'cpu_seconds':True},False),({'card':''},False),
+    ({'reason':{'reason':'Producer checkpoint quantum','producer':{'status':'running','reason':'wait'}}},False),
+    ({'reason':{'reason':'Producer checkpoint quantum','producer':{'status':'yielded','reason':''}}},False)])
+def test_week5_producer_pause_is_terminal_but_not_science(context,monkeypatch,changes,expected):
+    repo,state,cfg,native=context
+    record=dict(at='2026-11-07T18:45:19Z',status='PAUSED',card='native-quantum',cpu_seconds=.2,
+        scientific_admission=False,checkpoint_validation_required=True,
+        reason=dict(reason='Producer checkpoint quantum',producer=dict(status='yielded',reason='quantum')))
+    record.update(changes)
+    (repo/'job').mkdir();(repo/'job/PAUSED.json').write_text(json.dumps(record))
+    cfg['paths']=['job/PAUSED.json'];cfg['process_watches'][0]['terminal_paths']=['job/PAUSED.json']
+    monkeypatch.setattr(watch,'native_identity',lambda pid:None)
+    events=watch.scan(cfg,repo=repo,state=state,now=10)
+    assert (repo/cfg['process_watches'][0]['failure_output']).exists() is not expected
+    assert len(events)==(1 if expected else 2)
