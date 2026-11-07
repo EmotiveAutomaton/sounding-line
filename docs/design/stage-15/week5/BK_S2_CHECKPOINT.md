@@ -1,0 +1,11 @@
+# S2 bounded source pilot and continuation
+
+**DESIGN CHECK, 2026-11-07.** The original source's PILOT.json is telemetry; it did not cause a stop. This separate successor preserves its scientific projection unchanged and supplies the required actual 70-session execution boundary. Original frozen source and fixture files remain unchanged.
+
+The initial source plan uses `week5_bk_s2_source_checkpointed`, the original authenticated inputs, expected_sessions=1399, seed=20261102 and max_new_draws=70. In this source handler the runtime's existing operational quantum key counts complete source sessions. After the seventieth projection it saves the full per-session state and returns yielded; no full-source completion or scientific verification is asserted. The runtime seals the pause's output manifest. Owner review uses actual charged CPU and the retained pilot to forecast the remaining execution plus complete verification.
+
+A new attempt uses the existing authenticated `week5_resume` copy protocol and can increase max_new_draws without changing the source contract. Execution authenticates cached session bindings and reuses their projections; it does not parse raw event JSON or redo the first-production projection for saved sessions. The immutable upstream roster and prepared-source hashes are still rechecked. Every unsaved session is computed in full. Class thresholds and nuisance controls are computed only after all 1,399 sessions exist.
+
+Final verification ignores the computational cache: it parses and projects every raw session, compares every saved session projection and then rebuilds the complete classified output. A copied or rehashed false prefix must fail. Verification may honor an owner yield but always restarts from raw ordinal zero in a new attempt; no partially checked prefix is promoted. Pilot, continuation, failed-attempt and full-verification CPU all remain charged under S2 and BK. The original 4,000-second ceiling is not expanded by the pilot mechanism.
+
+The native three-session fixture pauses after one, preserves the immutable pilot receipt through a copied attempt, computes only the remaining two, and independently recomputes all three in a fresh process. A deliberately altered cached prefix is refused. This operational fixture does not supply a corpus forecast or human support count.
