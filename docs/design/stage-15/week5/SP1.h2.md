@@ -1,0 +1,9 @@
+# SP1 exact estimand-preserving rank repair
+
+DESIGN CHECK: LESSONS 2–5 and CONTROLS 6–7. AC and NV slopes in a fully interacted cooling-group model are algebraically separate OLS fits. A nuisance group's singular slope must not erase their identified contrast. If either primary group's own intercept/slope matrix loses rank, the draw remains unsupported. No failed draw is discarded or redrawn, and no threshold changes.
+
+The original SP1 run and its two failed bootstrap draws are preserved. A support-only diagnostic found that both failures arose from two resampled mixed-mode rows sharing one outdoor-temperature value. The air-conditioned and naturally ventilated components retained rank two in both draws, with many distinct outdoor temperatures. This is an irrelevant nuisance-column rank failure, not evidence against the primary effect and not a loss of AC/NV support.
+
+`week5_sp1_h2.py` computes the same NV-minus-AC slope contrast by fitting their two groups separately. Building eligibility, neutral-temperature estimates, fallback, equal building weighting, seed, all 2,000 original draw indices, interval method and bar remain unchanged. Mixed-mode observations continue to be sampled and counted; their nuisance coefficients do not enter the primary contrast. No outcome-based selection occurs. The separate fit equals the prior fully interacted fit wherever the latter is full-rank.
+
+Before rerunning the human contrast, native fixtures prove equality on randomly duplicated full-rank group samples, preserve the known contrast when only mixed mode is singular, and refuse when NV itself is singular. Signed and exact-null constructed worlds execute and independently verify all 2,000 bootstrap draws through the repaired handler. This is an engineering successor, not an altered scientific estimand.
