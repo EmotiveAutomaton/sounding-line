@@ -1,0 +1,30 @@
+# HEALTH CA1 CONTINUATION 20261108 0129
+
+**Hypothesis.** Can the bounded encoding recovery continue safely while the queue-health inspection distinguishes expected pauses, active work and unqualified preparation?
+
+**METHOD.** Authenticate the PAUSED terminal, stopped native identities, immutable source/model/plan pins and complete checkpoint manifest. Reconcile card/family charges and copy the checkpoint through the qualified same-module adapter into a fresh counted attempt. Inspect every current native worker and lease, progress freshness, prior failures, resource margins, research locks, coordinators, terminal coverage and watcher delivery before acknowledgement.
+
+**Found.** The encoder recovery reached its planned sealed checkpoint and continues unchanged; queue health, preserved evidence and monitoring verify.
+
+The following quantities are operational checkpoint and accounting measurements, not scientific effects or interim scores.
+
+| Checkpoint measure | Verified value |
+|---|---:|
+| Newly completed encoding chunks in the stopped quantum | 42 |
+| Sealed files in the copied checkpoint | 1281 |
+| Native CPU seconds for the stopped quantum | 2636.046875 |
+| Charge including the standard supervisor allowance | 2666.046875 |
+
+The producer stopped at its declared chunk limit, with a valid execute-phase pause and no FAILED or ambiguous terminal. Its complete saved tree and original bindings authenticate, and the native owner/child have exited. The new attempt copied all files exactly; fresh native execution is live. The unchanged 42-chunk/900-second producer bounds keep cooperative checkpoints short. The 85,000-second outer attempt cap and 80,000-second conservative forecast cover remaining execution and full independent replay. At admission the conservative spent upper bound, counting all Week 5 BK work plus earlier CA1 cost, was 89132.078125 seconds. That bound plus the new attempt cap and allowance remains below the original 180,000-second combined encoding/consumer ceiling; family room also passes. Every later continuation must reconcile accumulated charges afresh. No new sub-allocation, reduced population, model revision or scientific criterion is introduced.
+
+The preceding cost failure remains failed and fully recorded, including its 32,004.6875 CPU seconds and private preservation manifest. Its later unverified files were not relabelled as an authenticated pause or silently imported. This continuation uses the newly sealed recovery checkpoint, so no completed work from that recovery quantum is discarded. Complete independent re-encoding and original cluster equality remain mandatory before any representation bank or downstream preference result is accepted. This is a planned continuation, not another healing attempt or a scientific null.
+
+**Queue health.** At November 08, 01:29:36 PST, four counted native workers match four leases. April and May chess census execution and July pilot replay continue with advancing CPU and fresh output counters; the new encoder continuation has its own native identity, exact checkpoint copy and active child. All active children retain below-normal priority and two numerical threads. Available RAM is 47.55 GiB, commit headroom 28.74 GiB and free disk 166.10 GiB. All 21 research locks pass. No stale occupied lease or additional new terminal is found. The legacy dispatcher is alive but deliberately empty, its replaced dispatcher has a retained COMPLETE, and the Week 5 calendar is active. The current manual counted admissions preserve second gear; the old empty first-gear queue is not a failed queue to refill with incompatible plans.
+
+Watcher native identity and source hash match. Both delivered events are present, with no current transport error; the two historical transport exceptions remain retained. The new continuation's COMPLETE, PAUSED, FAILED and monitor-failure paths are registered for immediate delivery. Full write-through precedes both ACKs. The health ACK alone rearms its fixed six-hour clock; the subsequent build-review schedule and exact next health due are retained in this receipt and current execution pointer. The completed health inspection supersedes the expired build check without resetting it merely for receipt of the message.
+
+**Runnable work and building.** One qualified continuation was immediately eligible and has started. Other prepared cells remain outside the ready buffer until their committed reviewed design and native fixture pass. AT/LA has delivered a within-act masked-scoring checkpoint primitive and now builds the paired producer integration. Chess has delivered an operation-aware roster-row pilot adapter and now builds the missing disk-backed whole-player subset handler for the existing node-count grid. The row pilot explicitly covers initial roster traversal only, not total CPU or later calibration work; separate phase cost and native qualification remain gates. These deliveries received metadata hash checks here, not execution certification. The third builder's assigned implementation inventory is complete, so two builders remain active while other identified components are still being built; this is the recorded packet-J shortfall cause. No duplicate component is invented to inflate readiness.
+
+The ready unadmitted buffer remains zero against sixteen. Unused capacity since the prior full inspection is 1.307513 slot-hours, cumulative 459.860533. Owner qualification and unfinished integration remain a build/admission defect. Expected checkpoint pauses and valid source/reader dependencies do not authorize bypassing gates. The next review is scheduled conservatively before the measured fifteen-minute encoding quantum, with immediate terminal alerts retained. Original campaign freeze/drain clocks remain unchanged.
+
+**Means.** Continue exact bounded work in CPU-only second gear, qualify the prepared components and preserve full internal write-through before scientific use. No tests were harvested from this operational wake; no unfinished scientific scores, paid call, GPU/Ollama admission or publication occurred.

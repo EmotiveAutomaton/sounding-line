@@ -1,0 +1,15 @@
+# START FREEZE 20261107
+
+**Hypothesis.** Has the finite theory-days campaign reached its start boundary with all completed evidence preserved and an accurate digest, without interrupting the separate Week 5 commission?
+
+**METHOD.** Verify the calendar marker, native owner and frozen source closure; exercise the no-new-start guard; reconcile every theory-days terminal against the previous complete inventory, authenticate saved outputs and source/runtime pins, verify completed write-through records and cumulative accounting, and compile existing complete methods and claim wording into the requested digest. Preserve unrun cards separately from scientific nulls and retain all known failed attempts.
+
+**Found.** Theory-days new starts are frozen; completed evidence and accounting reconcile, an internal digest is assembled, and the final curator packet awaits the original drain.
+
+The marker was emitted at 19:00:20 PST for the original November 7, 19:00 PST start freeze. The admission guard now refuses starts. All 55 attempts are terminal and unchanged; no theory-days research worker remains active. All 780 declared outputs authenticate and 2,033 pin references were inspected. The seven historical discrepancies remain confined to the original failed Moral Machine and chess native attempts; no successful attempt has a new pin mismatch. Fifty-four existing public receipts reconcile with their findings, queue, index, operations log and claim-ledger entries. All twenty-one research locks pass.
+
+The campaign charge remains 5,558.21875 CPU-seconds against its original 54,000-second ceiling, including conservative build/launcher accounting. Failed, held and completed attempts all remain charged. The available remainder does not extend the window. Rutledge and Jangraw source holds were released in the recorded November 7 intakes, but the original TD1–TD3 and B1 scientific consumers were not admitted before freeze. DomArchive source/initiator admission remains unfinished; TD7 retains its failed support floor. These are not scientific nulls. Later Week 5 results remain separate.
+
+The internal [digest](DIGEST.md) compiles complete current ledger wording, methods, primaries, intervals, case counts, design commits, source records and corrections. Its status is explicitly start-freeze compilation, not a released final packet. No result is reinterpreted or upgraded by collation. The original drain remains November 8 at 07:00 PST; final reconciliation and curator delivery occur then. Existing historical repair and failure evidence is preserved.
+
+The theory-days calendar and watcher are alive, their native identities and pinned sources verify, and the delivered marker requires no runtime recovery. Week 5 retains its distinct clock and current first-gear one-worker allocation. Its existing calendar maintains the applicable watcher mode while that campaign remains open; this older marker does not restart parked work or authorize a gear change. No paid call, GPU work, new scientific run, delegation, publication or cross-repository delivery was performed. No tests harvested this pass.

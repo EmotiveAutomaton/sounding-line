@@ -1891,3 +1891,11 @@ OPS-S15-W4-DIGEST-20261104: 179.7677 cumulative idle slot-hours; independent bui
 2026-11-07T01:05:34.781838+00:00 OPS-S15-W4-PAID-CUTOFF-20261106: Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.
 
 2026-11-07T04:08:30.010343+00:00 OPS-S15-W4-DIGEST-20261106: The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.
+
+2026-11-08T04:14:19.396712+00:00 OPS-S15-W4-DIGEST-20261107: The November 7 Week 4 reconciliation preserves every recorded attempt and paid settlement; first-gear Week 5 occupancy is accounted separately and no new Week 4 scientific claim is added.
+
+2026-11-09T04:13:05.057531+00:00 OPS-S15-W4-FINAL-DIGEST-20261108: The Week 4 final digest preserves complete descriptive evidence and unresolved higher-goal recovery; new starts are frozen, paid dispatch is closed, and the drain addendum remains due.
+
+2026-11-09T06:13:39.400622+00:00 OPS-S15-W4-DRAIN-20261108: The Week 4 drain is reconciled with no additional result or charge; the filed final packet remains unchanged and Week 5 continues separately.
+
+2026-11-09T07:06:12.048466+00:00 OPS-S15-W4-CALENDAR-COMPLETE-20261108: The Week 4 calendar has completed and exited; its final packet and timely drain addendum remain intact, with no additional result or charge.

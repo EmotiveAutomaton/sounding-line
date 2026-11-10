@@ -13,7 +13,28 @@ models, interpreting unfinished cells, or changing the current gear. Never conta
 locked research files, adapters, and process ownership are separate from that choice.
 Read `docs/CODEX_OPERATIONS.md` for hooks, watcher health, session ownership, and rollback.
 
-**Six-hour queue health, curator instruction 2026-10-10:** the durable watcher
+**Current wake policy, curator instruction 2026-11-08:** wake on events and after
+four hours of owner inactivity. This replaces the hourly/at-most-sixty-minute
+build wakes in amendment I and the fixed six-hour health cadence below, including
+older grind-skill and packet scheduling defaults. The inactivity fallback resets
+from real owner activity or completed acknowledgements; it is not a repeating
+four-hour deadline independent of activity. Keep terminal, failure, disappearance
+and campaign-milestone events registered. Do not reinstall hourly schedules or
+run historical closure helpers that recreate them. On an event or idle wake,
+inspect and perform authorized work under the same full write-through policy.
+The cheap watcher owns waiting; jobs, gears, limits and scientific scope stay as
+authorized. Current runtime details are in `docs/CODEX_OPERATIONS.md`.
+
+**Wake delivery, curator instruction 2026-11-09:** keep at most one pending
+operational wake in the owner thread. Collect later events durably while a wake
+is pending or the owner is active, including urgent events. Actual resource
+guards continue independently. A local result ACK does not prove that its app
+message was consumed: retire an exact pending watcher message only when every
+event in it is fully landed and ACKed. Preserve ordinary user messages. Deleting
+a notification is not a scientific ACK; reconcile missing unlanded notifications
+without losing their events. Events and four-hour inactivity remain the policy.
+
+**Historical six-hour queue health, superseded by the November 8 policy:** the durable watcher
 must request an operational health inspection every six hours, including when
 there is no new result. This supersedes the September 12 ban on routine health
 wakes only at this cadence; immediate terminal/failure alerts remain. Inspect

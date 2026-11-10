@@ -1,5 +1,13 @@
 # October 16 drive: execution index
 
+**OPS-S15-W4-CALENDAR-COMPLETE-20261108:** [Record](WEEK4_CALENDAR_COMPLETE_20261108.md). The Week 4 calendar has completed and exited; its final packet and timely drain addendum remain intact, with no additional result or charge.
+
+**OPS-S15-W4-DRAIN-20261108:** [Record](WEEK4_DRAIN_20261108.md). The Week 4 drain is reconciled with no additional result or charge; the filed final packet remains unchanged and Week 5 continues separately.
+
+**OPS-S15-W4-FINAL-DIGEST-20261108:** [Record](WEEK4_FINAL_DIGEST_20261108.md). The Week 4 final digest preserves complete descriptive evidence and unresolved higher-goal recovery; new starts are frozen, paid dispatch is closed, and the drain addendum remains due.
+
+**OPS-S15-W4-DIGEST-20261107:** [Record](WEEK4_DIGEST_20261107.md). The November 7 Week 4 reconciliation preserves every recorded attempt and paid settlement; first-gear Week 5 occupancy is accounted separately and no new Week 4 scientific claim is added.
+
 **OPS-S15-W4-DIGEST-20261106:** [Record](WEEK4_DIGEST_20261106.md). The November 6 digest reconciles recorded Week 4 work and closed paid accounting; CPU-only Gear 2 is idle with no admitted ready buffer.
 
 **OPS-S15-W4-PAID-CUTOFF-20261106:** [Record](WEEK4_PAID_CUTOFF_20261106.md). Week 4 paid dispatch is closed; all recorded batches are reconciled and no paid work remains active.

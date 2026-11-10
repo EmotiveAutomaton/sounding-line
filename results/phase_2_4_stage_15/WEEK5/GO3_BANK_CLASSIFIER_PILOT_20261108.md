@@ -1,0 +1,15 @@
+# GO3 BANK CLASSIFIER PILOT 20261108
+
+**Hypothesis.** Can the commissioned complete revision bank cross its first counted cost checkpoint without losing evidence or changing the original source, model and control scope?
+
+**METHOD.** Authenticate every stopped output, source and design pin and exact exited native identity. Inspect only completed-work counts and native resource observations, reconcile all shared-card and family costs, and preserve the original estimator, full bank and reference counts for a fresh continuation.
+
+**Found.** The original complete revision bank reaches its planned classifier checkpoint with authenticated saved work and measured native resources; the remaining habit pilot and independent replay are unfinished.
+
+All five upfront classifier folds and the first 100 of 2,000 classifier resamples reached the declared checkpoint. All 21 saved files rehash exactly. This is the first classifier pilot, not completion of the entire model-training or scientific-analysis workload. The attempt consumed 83.265625 CPU seconds plus the standard supervisor allowance; the native execution interval was 128.675348 seconds. The finite read-only observer sampled a peak working-set counter of 1155670016 bytes and pagefile counter of 1309302784 bytes. Startup and sampling gaps remain; these are observed lower bounds, not certified lifetime peaks. Observer CPU is included within the existing supervisor allowance, with no duplicate charge.
+
+The complete source remains 759,354 rows across five sites. Full production retains 2,000 primary resamples, all 1,000 conditional references, 2,000 paired habit draws and fresh complete independent replay. The original habit-fit pilot is still unmeasured. Its cost cannot be inferred from classifier cost, so the provisional 450,000-CPU-second whole-work envelope remains until that pilot is inspected. Only one further bounded attempt is admitted, retaining the 900-second cooperative quantum, 7,200-CPU-second safety cap, 14,400-second wall cap and 3.5-GiB projected memory envelope; the unchanged inner frame gate is three GiB. These are operational guards, not reduced scientific allocations.
+
+The next attempt resumes all authenticated files toward the original first-50 conditional-reference boundary or an earlier safe pause. Before admission the complete conservative GO3 charge is 11055.655031 CPU seconds and the GO-family charge is 17496.295656. Retained failures, earlier qualifications and all native overhead remain charged. Current resource and family guards must pass again before launch. No scientific values are used to choose the continuation, and no estimates or unfinished scores are reported.
+
+**Means.** Record and acknowledge the expected pause before continuation. Preserve every predecessor and independent-replay requirement. This changes no scientific claim or theory row; the instrument ledger records operational qualification. CPU-only Gear 2 continues under its existing authorization. No tests harvested and no new gear, paid work or delegation.

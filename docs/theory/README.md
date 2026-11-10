@@ -125,6 +125,18 @@ edits here.
 
 ## Approved wording and source history
 
+The November 7 curator errata is applied across the three named theory files.
+The [supplied source](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-07.md)
+and [twelve-edit receipt](../design/archive/THEORY_ERRATA_20261107_APPLIED.json)
+preserve exact anchors, source and before/after hashes, quotations and transcription
+notes. G252–G265 and the three new closing/shared-inference rows remain OPEN.
+The edits refine graded channels, uncertainty and stress, set-point inference,
+identity, multiple motives, revision, laughter and recursive refinement. Existing
+results and hypothesis rows remain intact. Literature read levels belong to the
+supplied analyst review and are retained exactly; this filing does not claim a
+new literature review or independent comparison with the original audio transcript.
+
+
 The November 6 curator errata is applied across four theory files and this README. Its
 [original text, quotations and repair ledger](../design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md)
 and [application receipt](../design/archive/THEORY_ERRATA_20261106_APPLIED.json) preserve the exact

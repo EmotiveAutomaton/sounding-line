@@ -1,0 +1,17 @@
+# CA1 FEATURE BANK COMPLETE 20261108
+
+**Hypothesis.** Can the entire frozen representation bank be reproduced independently without dropping original people, comparisons, texts or prompts?
+
+**METHOD.** Complete the original CPU encoder across immutable, whole-checkpoint continuations. Independently re-encode every chunk and recompute the original prompt clustering; authenticate the final receipt, committed design, source closure, all output hashes and exited native identities. Keep every predecessor and its measured cost.
+
+**Found.** The complete original encoding and prompt clustering independently replay; the frozen individual-direction analysis now has its verified representation dependency.
+
+All 420,555 texts, 80,673 comparisons and 171,286 original prompts are retained. The frozen source remains 1,036 whole annotators, with the mandatory 836 and seeded 200 groups separate. Every vector and all original prompt clusters independently recompute exactly. All 3,360 declared final output files authenticate. The model remains the original multilingual MiniLM revision e8f8c211, using the original 128-token limit, 32-text batches, normalized 384-dimensional float32 vectors and sorted 512-text chunks. The original 50-cluster, ten-start seeded Lloyd implementation is unchanged.
+
+The final native attempt consumed 3,768.1875 CPU seconds, plus its standard 30-second supervisor allowance. Original clustering measured 330.53125 CPU seconds and independent replay clustering 617.375; these are already included in their native attempts, not added again. All earlier failures, pauses, vectors and charges remain. The conservative shared-card accounting upper bound is 149,180.109375 CPU seconds, including every Week 5 BK charge and the historical 11,233.09375 seconds. This upper bound is deliberately broader than the encoding alone.
+
+This is representation and instrument completion. It establishes neither stable preferences nor values, and it is not the commissioned V1 result. The existing committed V1 design and support addendum preserve both original groups, leave-person-out population/country priors, whole-conversation halves, all 200 choice-label control banks and 2,000 cluster resamples. Native known-answer proofs exist; their source pins, current resource and budget admission must be checked before the first human cost prefix. The source dependency is now released without changing those requirements.
+
+At 07:50:53 PST three other counted workers remained live: April and May independent source replay and whole retained July-pilot storage conversion. Their leases, source pins, low-priority children and CPU-only limits verify. The watcher has a recent scan and no current error; two historical transport errors remain. One historical pilot PID could not be inspected because the operating system denied access; its existing terminal evidence is retained, and no inference of process death or cleanup is made from that denial. All twenty-one locked files pass. The existing 08:00:45 build check and 13:40:45 fixed health deadline remain unchanged by this result ACK.
+
+**Means.** Retire the completed encoder worker and bind the exact completion to the original V1 admission review. Continue healthy work under CPU-only Gear 2. No new tests harvested, scientific result, paid work, delegation or publication authority; final curator reporting remains under the active packet.

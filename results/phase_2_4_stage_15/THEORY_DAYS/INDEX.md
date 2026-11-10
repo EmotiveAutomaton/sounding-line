@@ -1,5 +1,17 @@
 # Theory-days record index
 
+**OPS-S15-TD-FINAL-DRAIN-20261108:** [Record](FINAL_DRAIN_20261108.md). Theory-days is closed with complete evidence reconciliation and its final curator digest; unrun cards and all existing scientific limitations remain explicit.
+
+**OPS-S15-TD-START-FREEZE-20261107:** [Record](START_FREEZE_20261107.md). Theory-days new starts are frozen; completed evidence and accounting reconcile, an internal digest is assembled, and the final curator packet awaits the original drain.
+
+**OPS-S15-TD-ARGREWRITE-INVENTORY-20261107:** [Record](ARGREWRITE_LOCAL_INVENTORY_20261107.md). ArgRewrite V.2 is available locally, including the writers’ pre-study survey and revision-goal self-reports; the manifest’s unavailable status was stale.
+
+**OPS-S15-TD-JANGRAW-LOCAL-SOURCE-20261107:** [Record](JANGRAW_LOCAL_SOURCE_20261107.md). The pinned Jangraw archive and identifier-stripped working copy verify; the curator’s dated source-use decision releases B1’s source/licence hold, while scientific admission remains pending.
+
+**OPS-S15-TD-RUTLEDGE-LOCAL-SOURCE-20261107:** [Record](RUTLEDGE_LOCAL_SOURCE_20261107.md). The supplied Rutledge files match the registered source pins and are safely extracted; the TD1–TD3 retrieval hold is released, while mapping and scientific admission remain pending.
+
+**OPS-S15-TD-HEALTH-20261107-0706:** [Record](HEALTH_20261107_0706.md). Completed evidence, locks and monitoring remain valid; CPU-only Gear 2 is idle with no admitted ready work, and existing source, control, cost and build holds remain.
+
 **OPS-S15-TD-PUBLICATION-CONTINUATION-20261107:** [Record](PUBLICATION_CONTINUATION_20261107.md). Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution.
 
 **OPS-S15-TD-HEALTH-20261107-0101:** [Record](HEALTH_20261107_0101.md). Completed evidence and monitoring verify; CPU-only Gear 2 remains idle with no admitted ready cards, and the existing source, control, cost and build holds persist.

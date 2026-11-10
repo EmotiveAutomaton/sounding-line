@@ -10,7 +10,7 @@ current; Stages 14 and 13 are closed with final packets.**
 |---|---|
 | Startup and operating constraints | [AGENTS](../AGENTS.md), [STATE](STATE.md), [TODO](../TODO.md), [operations](CODEX_OPERATIONS.md) |
 | Any stage's plans, sources and evidence | [Design index](design/README.md): one visible folder per stage, 2 through 15 |
-| Current campaign | [Stage 15](design/stage-15/README.md); October 25 Week 3 in implementation, earlier finite queues retained; [execution index](../results/phase_2_4_stage_15/DRIVE/INDEX.md) distinguishes running, held and unbuilt cards |
+| Current campaign | [Stage 15](design/stage-15/README.md); November 7 Week 5 in implementation, earlier finite queues retained; [execution index](../results/phase_2_4_stage_15/WEEK5/INDEX.md) distinguishes running, held and unbuilt cards |
 | Closed October campaign | [Stage 14](design/stage-14/README.md) |
 | Closed September campaigns | [Stage 13](design/stage-13/README.md), [Stage 12](design/stage-12/README.md) |
 | Cloud rounds across stages | [Gear 3 campaign index](design/gear-3/README.md) |
@@ -61,3 +61,5 @@ paths. The independent health cadence is six hours; a documentation pass does no
 reset it or authorize new work.
 
 The [October 25 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261025.json) records four exact source copies filed by stage and date. Incoming root files are temporary intake locations. After review, preserve one canonical source on the stage shelf, put decisions and implementation state beside it, update the ledger, then move the duplicate original to the private processed-stage archive. Keep unprocessed items visibly pending; keep locked and runtime-bound paths fixed.
+
+The [November 8 filing ledger](archive/operations/DOCUMENT_RELOCATIONS_20261108.json) records independent verification of both November theory errata and filing of their duplicate incoming originals alongside the Week 5 packet. Current theory and source bytes remain unchanged; working results and runtime paths remain in place.

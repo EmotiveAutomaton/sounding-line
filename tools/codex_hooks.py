@@ -83,7 +83,9 @@ def handle(payload, *, repo=REPO, state=STATE, notifier=None):
             if event == "UserPromptSubmit":
                 submitted = payload.get("prompt", "")
                 if isinstance(submitted, str) and submitted.startswith("Sounding Line operational wake."):
-                    for row in db.execute("SELECT id FROM events WHERE state='queued'").fetchall():
+                    # Landing can precede message consumption. Preserve actual
+                    # delivery evidence even when this event was already ACKed.
+                    for row in db.execute("SELECT id FROM events").fetchall():
                         if row["id"] in submitted:
                             db.execute("INSERT OR IGNORE INTO deliveries VALUES (?,?,?)",
                                        (row["id"], time.time(), session))

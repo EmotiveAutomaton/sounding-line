@@ -1,5 +1,64 @@
 # TOOLS — what is installed, what it does, and what it does not solve
 
+## Current capability map — November 7, 2026
+
+This is the canonical tools catalog (the requested “tools.markdown”). Use this
+map for current source availability and environment primitives; dated records below
+retain their original validation boundaries. Available bytes, installed libraries,
+working readers and admitted scientific analyses are separate states.
+
+### Data and task environments
+
+Each row identifies a retained source or testbed, the operations it supports, and
+the checks still required before a new analysis. Raw records and participant
+identifiers stay private; source availability does not grant redistribution rights.
+
+| Source / test environment | Available primitive and entry point | Readiness and limits |
+|---|---|---|
+| **Rutledge Great Brain Experiment risk and happiness** | CC0 source ZIP, Markdown README, extracted MATLAB v5 data, MATLAB reference script and PDF field guide in `corpora/store/external/rutledge_gbe/`; private `SOURCE.md` contains all hashes. Cite [Dryad DOI 10.5061/dryad.prr4xgxkk](https://doi.org/10.5061/dryad.prr4xgxkk). | Both supplied MD5 checksums and both registered Dryad SHA-256 pins match. All six archive members are verified; three macOS resource-fork files are excluded from analysis. **TD1–TD3 retrieval hold released.** Field mapping, first-play support, rating timing, known-answer reproduction, controls and cost admission remain pending. No participant rows were decoded during this intake. [Receipt](../results/phase_2_4_stage_15/THEORY_DAYS/RUTLEDGE_LOCAL_SOURCE_20261107.md). |
+| **Jangraw mood-drift archive** | Verified OSF km69z `PassageOfTimeDysphoria_Data.zip` version 2 and private `working/` projection in `corpora/store/external/jangraw_mooddrift/`. Cite [Jangraw et al. (2023)](https://doi.org/10.1038/s41562-023-01519-7), OSF and archive version. | **B1 source/licence hold released.** The curator accepted the inspected packaged NIMH notice on November 7, 2026 for B1 and later work, with acknowledgement and derivative identification; OSF licence remains reported blank. All 6,664 CSVs, 15 numeric arrays and source documents independently verify after WorkerId/identifier-column removal and neutral naming. Private `SOURCE.md` records the decision, hashes and changes. Mapping, support, controls and cost gates remain. [Receipt](../results/phase_2_4_stage_15/THEORY_DAYS/JANGRAW_LOCAL_SOURCE_20261107.md). |
+| GoEmotions raw annotations | Pinned raw parquet, revision `add492243ff905527e67aeb8b80c082af02207c3`; allowlisted reader in `runners/theory_days/intake.py`; TD4–TD6 consumers in `emotions.py`, `word_followups.py`, `disagreement_sensitivity.py`, `mind_sensitivity.py`. | Source and consumers have completed receipts in the [theory-days index](../results/phase_2_4_stage_15/THEORY_DAYS/INDEX.md). Apache-2.0; never request or decode the author column. Preserve repeated-rater dependence and the recorded source-count discrepancy. |
+| NRC Emotion Intensity v1 and VAD v2.1 | Pinned source archives in the private theory-days intake; lexicon joins used by the emotion consumers. | Retrieved, licence/schema inspected and replayed. Noncommercial research use; **no raw redistribution**. Word coverage and task validity remain distinct from file availability. [Intake record](../results/phase_2_4_stage_15/THEORY_DAYS/SETUP_AND_SOURCE_INTAKE_20261106.md). |
+| Moral Machine | Licensed retained source; bounded archive intake and exact source consumer in `backlog_intake.py` and `moral.py`; components, expectation, exposure and cached texture modules under `runners/theory_days/`. | B2 source, analyses and bounded follow-ups have full internal receipts. The finite texture grid is complete and grants no descendant work. Preserve the original population, exposure and reference limits; identities remain local. |
+| Annotated chess games | Pinned-month PGN/Zstandard source; streaming sampling, evaluation/clock extraction and source checks in `chess_source.py`; modelling and sensitivity in `chess_model.py` and `chess_sensitivity.py`. | B4 source/model/control receipts are indexed. This parser uses retained annotations; it is not a chess engine or a general legal-move verifier. `python-chess`/`chess` are not installed. No player names are needed by the source projection. |
+| CoAuthor process records | Existing private canonical source and Stage 15 `runners/drive/cards/` consumers for typed edits, offered menus, selections, timing, histories, features and source-bound comparisons; `runners/theory_days/writing_support.py` for TD7 support. | Executed source and consumer paths have dated receipts in the [Drive index](../results/phase_2_4_stage_15/DRIVE/INDEX.md). TD7 retains its support hold. Source repair, uncertainty, scientific controls and cost holds on other cards remain card-specific. Offered/accepted model text must remain distinct from human typing. |
+| **ArgRewrite V.2** | Local `corpora/public/argrewrite/ArgRewrite.V2.zip` and all extracted members; [corpus manifest](../corpora/public/MANIFEST.json). Drafts, annotations, own pre/post-study surveys, feedback, verification logs and scores are present. | All extracted bytes verify. `Pre_Study.csv` contains 86 writer responses and typical revision-goal self-reports (Q26–Q28); exclude its question-label row and retain missing responses. These are distinct from annotation labels and do not by themselves validate per-draft intention/initiator semantics. There are 172 data workbooks plus one excluded Excel lock file. [Inventory](../results/phase_2_4_stage_15/THEORY_DAYS/ARGREWRITE_LOCAL_INVENTORY_20261107.md). |
+| Other retained human-source tasks | Earlier bounded ArgRewrite, ArXivEdits, IteraTeR, ScholaWrite, CommitBench, genetic-edition, PAN/CROSSNEWS/RAID and OpAI-Bench paths; Community Alignment, DICES and Jester consumers in the Stage 15 evidence/runner tree. | See the [source and reference catalog](#data-references-and-adjacent-workspaces) and each intake receipt. These are retained task-specific assets, not a claim that every upstream release is complete, freely redistributable or admitted for any new contrast. ScholaWrite fallback and Community Alignment encoding still have recorded build/support limits. |
+| Constructed worlds and exact controls | Stage 9 finite-world/automata/choice machinery; Stage 10 comparison/context banks; Stage 12 program, controlled and discrete modules; Stage 15 signed plants, fake references, arithmetic and replay fixtures. | Available for testing instruments under declared assumptions. Constructed checks do not establish a human effect. Keep each consumer's sensitivity and invalid-reference outcomes attached. |
+| External reference environments | Seventeen separate `reference/` research checkouts, enumerated below; shared/native packet consumers under Stage 12. | Checkout presence is not reproduction. Do not modify sibling checkouts or infer execution authority from their presence. B1 source/licence is now admitted as described above; its scientific build remains pending. B3 licence/initiator-semantics holds remain unresolved. |
+
+### Local execution and verification primitives
+
+The November 7 refresh checked installed package metadata and executable presence,
+ran a constructed MATLAB save/load round trip, and independently rehashed the new
+source and every extracted member. It did not reload model weights, run a GPU job,
+call a paid provider or rerun the entire test suite. Prior scientific validation
+remains in its dated receipts.
+
+| Primitive | Installed or implemented surface | Current verification boundary |
+|---|---|---|
+| Project interpreter and numerical work | `./.venv/Scripts/python.exe`: Python 3.13.2; NumPy 2.4.6, SciPy 1.17.1, pandas 3.0.5, statsmodels 0.14.6, scikit-learn 1.9.0, XGBoost 3.4.0. | Installed versions rechecked. Existing numerical consumers are separately validated; no package upgrades made. |
+| Source-file readers and integrity | Python `hashlib`, `zipfile`, `tarfile`, `csv`, `json`; SciPy `scipy.io.loadmat`/`savemat`; PyArrow 25.0.0; h5py 3.14.0; Requests 2.34.2. | ZIP CRC/path/type/collision checks and extracted-byte replay pass. MATLAB v5 constructed round trip passes; Rutledge header is v5. h5py is available for HDF5-backed files, but no MATLAB v7.3 field-mapping adapter is asserted. Parquet readers must use column allowlists. |
+| PDF, figures and file reports | PyMuPDF 1.28.2, pypdf 6.15.0, Pillow 12.3.0, Matplotlib 3.11.1, Seaborn 0.13.2, OpenPyXL 3.1.5, NetworkX 3.6.1. | Package metadata rechecked; original execution evidence remains below. These support reading field guides, standalone scientific figures and structured exports. |
+| Text measurement and search | spaCy 3.8.14, LFTK 1.0.9, BiberPlus 0.4.0, TextDescriptives 2.8.4, NLTK 3.10.3, wordfreq 3.1.1; tsfresh 0.21.2, ribs 0.12.0, Optuna 4.9.0. | Versions unchanged from the executed inventory below. Preserve the Biber workarounds and TextDescriptives/NumPy dependency mismatch; installed search packages are not automatically integrated runners. |
+| Neural/model primitives | torch 2.13.0+cu126, Transformers 5.14.1, Accelerate 1.14.0, PEFT 0.20.0, TransformerLens 3.6.0; TensorFlow 2.21.0, Hub 0.16.1 and tf-keras 2.21.0. | Versions rechecked; cached model/adapter inventory and prior execution checks are [below](#models-actually-present). No fresh residency, all-model execution or reader admission claim. GPU work remains parked under the active CPU-only allocation. |
+| Native bounded CPU campaigns | `runners/theory_days/{launch,runtime,policy,calendar}.py`; shared Week 4 runtime/policy; immutable plans, source pins, Windows Job Objects and CPU accounting. | Gear 2 remains CPU-only with four counted slots, 15 CPU-hour theory-days ceiling and original freeze/drain times. Source intake does not create a ready scientific card. |
+| Tests, locks and independent replay | pytest 9.1.1, focused `tests/test_theory_days*.py`, `tools/verify_locks.py`, design/theory lint, stage-specific verifier consumers and claim-source anchors. | Latest publication check passed 68 focused theory-days tests; latest health verified 21 locks. These are dated checks, not a full-suite pass. Known instrument failures remain failures. Use targeted serial checks while research runs. |
+| Monitoring and resource gates | psutil 7.2.2; `tools/codex_watch.py`, durable outbox, native identity checks, completion/failure receipts and campaign calendars. | Watcher status checked during intake: current owner, fresh scan, no watcher error; six-hour health deadline unchanged. No event was acknowledged merely for receiving these files. |
+| Shells and optional runtimes | PowerShell plus Git, Node/npm, WSL and Docker commands present. | WSL/container execution not retested. MATLAB, Octave, Julia and Rscript are absent from this session's PATH; an extracted `.m` script is reference code, not a runnable MATLAB installation. |
+| Provider and interactive surfaces | Installed Ollama 0.6.2 client, Anthropic 0.120.2 client and Modal 1.5.4; agent browser/artifact tools are separate runtime surfaces. | Client availability is distinct from account, model, task and spend admission. Week 4 paid dispatch is closed. Python Playwright, python-docx, python-pptx, reportlab, Hypothesis and pytest-cov remain absent here; an agent skill does not install those APIs. |
+
+For exact provenance of the new data, use the private `SOURCE.md` and the
+[aggregate intake record](../results/phase_2_4_stage_15/THEORY_DAYS/RUTLEDGE_LOCAL_SOURCE_20261107.md).
+No participant ID belongs in a URL, query or committed output. The source folder,
+including its ZIP, README, extracted files and `SOURCE.md`, remains Git-ignored.
+
+### Earlier dated inventory and instrument updates
+
+The snapshots below retain their dates. Descriptions such as “running” or
+“unsubmitted” refer to those historical inspections; current execution is recorded
+in [STATE](STATE.md), not inferred from an old inventory row.
+
 **October 24 integrated instrument state:** No new instrument or scientific execution. Existing validation and failed-control limits are unchanged; exact genre features and the recorded aggregate deliveries remain verified. Population-relative sensitivity is still unbuilt, while the existing empirical-control and GPU holds remain. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261024.md).
 
 **October 23 integrated instrument state:** Exact matched-genre features and the complete comparison independently replay; genre-level fake controls fail and license no preferential weighting. Both approved aggregate package copies are verified. The earlier event census, directed-reading control gap and invalid habit instrument retain their scopes. Population-relative sensitivity is unbuilt; recipient adoption and dictionary terms remain separate. [Daily evidence](../results/phase_2_4_stage_15/DRIVE/DIGEST_20261023.md).
@@ -2596,6 +2655,734 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 ---
 
 ## The instrument ledger — built-here tools and their validation state
+
+**S15-W5-IN-TEXTURES-FIRST-20261109 instrument:** Complete native execution and independent estimator replay pass; 200-draw textures do not upgrade the primary. [Record](../results/phase_2_4_stage_15/WEEK5/IN_TEXTURES_FIRST_20261109.md).
+
+**OPS-S15-W5-IN3-IC-QUAL-COMPLETE-20261109:** The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations. [Record](../results/phase_2_4_stage_15/WEEK5/IN3_IC_QUALIFICATION_COMPLETE_20261109.md).
+
+**OPS-S15-W5-IN-GRID-NATIVE-20261109:** The complete declared appraisal grid passes counted native signed, null and rank controls, and independently reproduces every constructed result record. [Record](../results/phase_2_4_stage_15/WEEK5/IN_GRID_NATIVE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT54-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT54_PAUSE_20261109.md).
+
+**OPS-S15-W5-IN3-IC-QUAL-VERIFY-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN3_IC_QUALIFICATION_VERIFY_PILOT_20261109.md).
+
+**OPS-S15-W5-IN3-IC-QUAL-SOURCE-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN3_IC_QUALIFICATION_SOURCE_PILOT_20261109.md).
+
+**OPS-S15-W5-CH-ROSTER-COMPLETE-20261109:** The complete constructed collector passes its separate native execution and verification pilots, immutable continuation and full fresh replay with exact original output bytes. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ROSTER_COMPLETE_20261109.md).
+
+**OPS-S15-W5-CH-ROSTER-VERIFY-20261109:** The collector preserves the authentic execution pilot, finishes its original outputs and reaches the independent verifier boundary; final complete replay remains required. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ROSTER_VERIFY_20261109.md).
+
+**OPS-S15-W5-CH-ROSTER-EXECUTE-20261109:** The actual native collector stops at its exact first roster boundary and preserves a complete authenticated checkpoint; later continuation and independent replay remain required. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ROSTER_EXECUTE_20261109.md).
+
+**OPS-S15-W5-V1-RESOURCE-RELEASE-20261109:** The authenticated full-source checkpoint is eligible to resume after memory recovers; the original study and all guards remain unchanged. [Record](../results/phase_2_4_stage_15/WEEK5/V1_RESOURCE_RELEASE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT53-RESOURCE-PAUSE-20261109:** The full-source comparison preserves a verified checkpoint after a system-memory interruption; the unchanged resource gate holds its continuation and the reader remains unstarted. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT53_RESOURCE_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT52-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT52_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT51-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT51_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT50-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT50_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT49-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT49_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT48-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT48_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT47-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT47_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT46-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT46_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT45-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT45_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT44-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT44_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT43-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT43_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT42-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT42_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT41-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT41_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT40-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT40_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT39-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT39_PAUSE_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0042-RESOURCE-HOLD-20261109:** The next original reader chunk remains unstarted after its unchanged memory gate refuses admission; completed evidence is preserved and the full-source continuation remains active. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0042_RESOURCE_HOLD_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0041-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0041_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0040-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0040_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0039-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0039_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT38-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT38_PAUSE_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0038-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0038_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0037-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0037_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0036-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0036_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0035-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0035_COST_20261108.md).
+
+**OPS-S15-W5-WAKE-BACKPRESSURE-20261109:** Operational wakes now wait for the active turn and pending app message to clear; acknowledged stale messages are retired without discarding results. [Record](../results/phase_2_4_stage_15/WEEK5/WAKE_BACKPRESSURE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT37-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT37_PAUSE_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0034-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0034_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0034-RESOURCE-PAUSE-20261109:** The reader chunk preserves its saved computation after verification startup refuses insufficient memory; independent verification and the complete pilot remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0034_RESOURCE_PAUSE_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0033-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0033_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0032-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0032_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0032-RESOURCE-RELEASE-20261109:** The next original reader chunk is admitted after fresh preparation and the unchanged memory gate pass; all completed evidence, prior failures and costs remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0032_RESOURCE_RELEASE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT36-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT36_PAUSE_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0032-RESOURCE-HOLD-20261109:** The completed reader prefix is preserved; its next original chunk remains unstarted because fresh preparation fails the unchanged memory requirement, while V1 continues. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0032_RESOURCE_HOLD_20261109.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0031-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0031_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0031-RESOURCE-RELEASE-20261109:** The next original reader chunk resumed after the unchanged memory gate passed; its prior evidence and all original scientific and cost limits remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0031_RESOURCE_RELEASE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT35-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT35_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT34-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT34_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT33-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT33_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT32-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT32_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT31-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT31_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT30-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT30_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT29-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT29_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT28-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT28_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT27-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT27_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT26-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT26_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT25-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT25_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT24-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT24_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT23-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT23_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT22-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT22_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT21-PAUSE-20261109:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT21_PAUSE_20261109.md).
+
+**OPS-S15-W5-V1-FULL-CONT20-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT20_PAUSE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT19-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT19_PAUSE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT18-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT18_PAUSE_20261108.md).
+
+**OPS-S15-W4-CALENDAR-COMPLETE-20261108:** The Week 4 calendar has completed and exited; its final packet and timely drain addendum remain intact, with no additional result or charge. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_CALENDAR_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT17-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT17_PAUSE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT16-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT16_PAUSE_20261108.md).
+
+**OPS-S15-W4-DRAIN-20261108:** The Week 4 drain is reconciled with no additional result or charge; the filed final packet remains unchanged and Week 5 continues separately. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DRAIN_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT15-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT15_PAUSE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT14-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT14_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0031-RESOURCE-HOLD-20261108:** The next original reader chunk remains unstarted because its unchanged memory gate refuses current commit headroom; completed reader evidence is preserved and the full-source continuation remains active. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0031_RESOURCE_HOLD_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0030-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0030_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT13-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT13_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0029-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0029_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0028-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0028_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0027-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0027_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT12-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT12_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0026-COST-20261108:** The original reader chunk completes scoring and independent checks after its bounded cost recovery; the earlier failure stays charged and the complete pilot and bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0026_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0026-RECOVERY1-PAUSE-20261108:** The same reader chunk now reaches its planned checkpoint with all saved work authenticated; its original cost failure remains retained and complete scoring and independent verification are still pending. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0026_RECOVERY1_PAUSE_20261108.md).
+
+**OPS-S15-W5-DIGEST-20261108:** The November 8 Week 5 digest reconciles complete claims, seven descriptive goal-texture cells and retained failures; CPU-only second gear continues with an explicitly deficient ready buffer. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261108.md).
+
+**OPS-S15-W4-FINAL-DIGEST-20261108:** The Week 4 final digest preserves complete descriptive evidence and unresolved higher-goal recovery; new starts are frozen, paid dispatch is closed, and the drain addendum remains due. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_FINAL_DIGEST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT11-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT11_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0026-COST-FAILURE-20261108:** The original reader chunk stopped at its attempt CPU limit; all saved evidence and charges are retained, with the same chunk prepared for a bounded recovery inside its family ceiling. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0026_COST_FAILURE_20261108.md).
+
+**OPS-S15-W5-EVENT-IDLE-WAKES-20261108:** Wakeups now follow events or four hours of owner inactivity; hourly build deadlines and fixed health timers are retired, with research jobs and result notifications preserved. [Record](../results/phase_2_4_stage_15/WEEK5/EVENT_IDLE_WAKE_POLICY_20261108.md).
+
+**OPS-S15-W5-RECOVERY-20261108-1938:** The reader memory interruption is recovered and its complete independent checks are recorded; the next original reader chunk and unchanged full-scope comparison continue under their existing guards. [Record](../results/phase_2_4_stage_15/WEEK5/RECOVERY_20261108_1938.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0025-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0025_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT10-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT10_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0025-RESOURCE-PAUSE-20261108:** The original reader chunk retains its complete checkpoint after verification startup refuses insufficient commit headroom; fresh resource admission is required before continuation. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0025_RESOURCE_PAUSE_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1856:** The complete constructed chess collector passes exact original-output and separate native replay checks; its native continuation and full-data admission remain gated while the original work continues. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1856.md).
+
+**OPS-S15-W5-CH-COLLECTION-REFERENCE-20261108:** The complete constructed bounded chess collector matches the original outputs and passes separate native replay; actual native continuation and full-data scale admission remain gated. [Record](../results/phase_2_4_stage_15/WEEK5/CH_COLLECTION_REFERENCE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0024-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0024_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT9-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT9_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0023-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0023_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0022-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0022_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0021-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0021_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT8-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT8_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0020-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0020_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0019-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0019_COST_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1740:** The complete constructed chess source-pipeline continuation qualification is recorded; whole-data admission remains gated while V1 continues and the next frozen reader chunk resumes after passing its original memory gate. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1740.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0018-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0018_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT7-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT7_PAUSE_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-HISTORY-COMPLETE-20261108:** The constructed chess source continuation preserves its complete checkpoint and independently reconstructs the original scientific outputs; broader admission remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_HISTORY_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-HISTORY-VERIFY-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_HISTORY_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-HISTORY-EXECUTE-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_HISTORY_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-SAMPLE-COMPLETE-20261108:** The constructed chess source continuation preserves its complete checkpoint and independently reconstructs the original scientific outputs; broader admission remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_SAMPLE_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-SAMPLE-VERIFY-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_SAMPLE_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-SAMPLE-EXECUTE-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_SAMPLE_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-MERGE-COMPLETE-20261108:** The constructed chess source continuation preserves its complete checkpoint and independently reconstructs the original scientific outputs; broader admission remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_MERGE_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-MERGE-VERIFY-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_MERGE_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-MERGE-EXECUTE-PILOT-20261108:** The constructed chess source adapter honors its planned transactional pause and preserves the complete checkpoint; continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_MERGE_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT6-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT6_PAUSE_20261108.md).
+
+**OPS-S15-W5-CH-PIPELINE-REFERENCE-20261108:** The constructed chess source pipeline matches its original merge, sample and history outputs and passes full fresh replay; native continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_PIPELINE_REFERENCE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0017-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0017_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT5-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT5_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0016-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0016_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0015-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0015_COST_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1643:** The complete May source and all original chess native continuation cases are recorded; full-data admission remains gated while the preserved V1 workload continues. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1643.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0014-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0014_COST_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH6-COMPLETE-20261108:** The constructed chess continuation preserves execution and independently replays the complete original output; the remaining family qualification stages stay pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH6_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT4-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT4_PAUSE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH6-VERIFY-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH6_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH6-EXECUTE-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH6_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH5-COMPLETE-20261108:** The constructed chess continuation preserves execution and independently replays the complete original output; the remaining family qualification stages stay pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH5_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH5-VERIFY-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH5_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH5-EXECUTE-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH5_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-CH-MAY-CENSUS-COMPLETE-20261108:** The complete May chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain unadmitted. [Record](../results/phase_2_4_stage_15/WEEK5/CH_MAY_CENSUS_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT3-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT3_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0014-RESOURCE-PAUSE-20261108:** The next frozen reader chunk pauses before loading its model because native commit headroom falls below the unchanged start floor; prior completed chunks and the guard receipt remain intact. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0014_RESOURCE_PAUSE_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1603:** CPU-only second gear preserves the completed cost prefix, continues the unchanged full workload and advances the chess native qualification; the remaining build and scientific comparisons are unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1603.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0013-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0013_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT2-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT2_PAUSE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH4-COMPLETE-20261108:** The constructed chess continuation preserves execution and independently replays the complete original output; the remaining family qualification stages stay pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH4_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH4-VERIFY-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH4_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0012-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0012_COST_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH4-EXECUTE-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH4_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0011-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0011_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0010-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0010_COST_20261108.md).
+
+**OPS-S15-W5-V1-FULL-CONT1-PAUSE-20261108:** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_FULL_CONT1_PAUSE_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0009-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0009_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0008-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0008_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0007-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0007_COST_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1527:** CPU-only second gear preserves the completed cost prefix, continues the unchanged full workload and advances the chess native qualification; the remaining build and scientific comparisons are unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1527.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH3-COMPLETE-20261108:** The constructed chess continuation preserves execution and independently replays the complete original output; the remaining family qualification stages stay pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH3_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH3-VERIFY-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH3_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0006-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0006_COST_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-COMPLETE-20261108:** The original individual-direction cost prefix reaches its declared boundary with every checkpoint preserved; complete production and independent replay remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH3-EXECUTE-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH3_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0005-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0005_COST_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH2-COMPLETE-20261108:** The constructed chess continuation preserves execution and independently replays the complete original output; the remaining family qualification stages stay pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH2_COMPLETE_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH2-VERIFY-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH2_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0004-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0004_COST_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-CH2-EXECUTE-PILOT-20261108:** The constructed chess adapter honors the planned native callback pause and preserves its complete checkpoint; full continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_CH2_EXECUTE_PILOT_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM20-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM20_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0003-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0003_COST_20261108.md).
+
+**OPS-S15-W5-BUILD-20261108-1434:** CPU-only second gear preserves the original pilot, advances native chess qualification and resumes the frozen reader cost chain under unchanged guards. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261108_1434.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0002-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0002_COST_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0001-COST-20261108:** The next frozen corrected-reader chunk completes native scoring and fresh checks with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0001_COST_20261108.md).
+
+**OPS-S15-W5-CH-ANALYSIS-REFERENCE-20261108:** The original five-case chess numerical reference passes counted execution and fresh replay; native continuation qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/CH_ANALYSIS_REFERENCE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM19-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM19_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM18-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM18_20261108.md).
+
+**OPS-S15-W5-CH-APRIL-CENSUS-COMPLETE-20261108:** The complete April chess source census and independent replay are authenticated; downstream engine collection and scientific comparisons remain unadmitted. [Record](../results/phase_2_4_stage_15/WEEK5/CH_APRIL_CENSUS_COMPLETE_20261108.md).
+
+**OPS-S15-W5-HEALTH-20261108-1340:** CPU-only second gear continues three verified workers after preserving the next pilot checkpoint and advancing the chess adapter qualification build. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_20261108_1340.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM17-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM17_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM16-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM16_20261108.md).
+
+**OPS-S15-W5-AT-M00-CHUNK0000-COST-20261108:** The first frozen corrected-reader chunk completes native scoring and fresh replay with measured cost; the full pilot and corrected bank remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/AT_M00_CHUNK0000_COST_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM15-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM15_20261108.md).
+
+**OPS-S15-W5-AT-410M-CONTROL-COMPLETE-20261108:** The exact retained 410m numerical control passes fresh independent verification at the original tolerance; CPU-only second gear preserves the original pilot and both source replays. [Record](../results/phase_2_4_stage_15/WEEK5/AT_410M_CONTROL_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM14-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM14_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM13-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM13_20261108.md).
+
+**OPS-S15-W5-ERRATA-FILING-20261108:** Both November theory errata independently replay against the current files, and all three loose incoming source copies are filed with unchanged bytes. [Record](../results/phase_2_4_stage_15/WEEK5/ERRATA_FILING_20261108.md).
+
+**OPS-S15-W5-AT-160M-CONTROL-COMPLETE-20261108:** The exact retained small-reader numerical control passes independent fresh verification at the original tolerance; the full corrected bank remains unadmitted. [Record](../results/phase_2_4_stage_15/WEEK5/AT_160M_CONTROL_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM12-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM12_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM11-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM11_20261108.md).
+
+**OPS-S15-W5-AT-GUARDED-BANK-COMPLETE-20261108:** The guarded scorer, complete constructed reader bank and unchanged statistical consumer pass fresh native replay; human-bank admission still requires exact model controls and measured costs. [Record](../results/phase_2_4_stage_15/WEEK5/AT_GUARDED_BANK_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM10-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM10_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM9-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM9_20261108.md).
+
+**OPS-S15-W5-BUILD-RECOVERY-HEALTH-20261108:** CPU-only second gear continues three verified workers after preserving the next pilot checkpoint and completing reader recovery and admission-tool qualification. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_RECOVERY_HEALTH_20261108.md).
+
+**OPS-S15-W5-AT-ADMISSION-SCAFFOLD-20261108:** The prepared reader-bank admission predicates pass counted native execution and fresh replay; full stage preparation and human-bank admission remain unqualified. [Record](../results/phase_2_4_stage_15/WEEK5/AT_ADMISSION_SCAFFOLD_NATIVE_20261108.md).
+
+**OPS-S15-W5-AT-PRECISION-MIGRATION-20261108:** The preserved largest-reader precision control completes its unchanged fresh verification; original score and cost bytes survive migration. [Record](../results/phase_2_4_stage_15/WEEK5/AT_PRECISION_MIGRATION_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM8-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM8_20261108.md).
+
+**OPS-S15-W5-GO3-TEXTURE-GRID-CLOSE-20261108:** All seven original GO3 descriptive cells are fully recorded and acknowledged; CPU-only second gear continues both source replays and the preserved individual-direction pilot. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURE_GRID_CLOSE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM7-20261108:** The original individual-direction pilot preserves another complete checkpoint; its full cost prefix and scientific comparison remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM7_20261108.md).
+
+**S15-W5-GO3-TEXTURES-REMAINING-20261108 instrument:** Both final complete declared texture cells independently replay every saved fold, prediction and resample; all 116 output files per cell authenticate. Two-hundred-draw texture labels do not upgrade scientific claims. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURES_REMAINING_COMPLETE_20261108.md).
+
+**OPS-S15-W5-GO3-TEXTURE-REMAINING-VERIFY-PILOTS-20261108:** Two remaining originally declared descriptive revision cells reach their independent replay pilot checkpoints with preserved complete folds and saved resamples; scientific comparisons remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURE_REMAINING_VERIFY_PILOTS_20261108.md).
+
+**OPS-S15-W5-GO3-LANDING-HEALTH-20261108:** The complete original GO3 analysis and five descriptive cells are recorded, the approved aggregate handoff is delivered, and CPU-only second gear continues with preserved checkpoints and the two remaining original cells. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_LANDING_HEALTH_20261108.md).
+
+**OPS-S15-W5-GO3-TEXTURE-REMAINING-PILOTS-20261108:** Two remaining originally declared descriptive revision cells reach their counted pilot checkpoints with preserved complete folds and saved resamples; scientific comparisons remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURE_REMAINING_PILOTS_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM6-20261108:** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM6_20261108.md).
+
+**S15-W5-GO3-TEXTURES-20261108 instrument:** All five complete declared texture cells independently replay every saved fold, prediction and resample; all 116 output files per cell authenticate. Two-hundred-draw texture labels do not upgrade scientific claims. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURES_COMPLETE_20261108.md).
+
+**OPS-S15-W5-GO3-HANDOFF-DELIVERED-20261108:** The explicitly approved four-file GO3 aggregate handoff is delivered to ToMpathy, and every destination file matches the reviewed source. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_HANDOFF_DELIVERED_20261108.md).
+
+**OPS-S15-W5-GO3-TEXTURE-VERIFY-PILOTS-20261108:** Five originally declared descriptive revision cells reach their independent replay pilot checkpoints with preserved complete folds and saved resamples; scientific comparisons remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURE_VERIFY_PILOTS_20261108.md).
+
+**OPS-S15-W5-GO3-HANDOFF-PENDING-20261108:** The complete GO3 scientific record is written through internally; its reviewed aggregate ToMpathy handoff is prepared but destination copying awaits explicit approval. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_HANDOFF_PENDING_20261108.md).
+
+**OPS-S15-W5-GO3-TEXTURE-PILOTS-20261108:** Five originally declared descriptive revision cells reach their counted pilot checkpoints with preserved complete folds and saved resamples; scientific comparisons remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TEXTURE_PILOTS_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM5-20261108:** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM5_20261108.md).
+
+**S15-W5-GO3-PRIMARY-20261108 instrument:** Complete models, predictions, reference banks and editor-resample outputs independently replay; all 116 final artifacts authenticate. The fixed-gallery support checker reports the personal-pattern companion unsupported. Constructed qualification and human evidence remain distinct. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_PRIMARY.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM4-20261108:** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM4_20261108.md).
+
+**OPS-S15-W5-GO3-BANK-VERIFY-PILOT-20261108:** The complete revision-bank producer is saved and independent replay preserves its first classifier checkpoint; the cell remains scientifically unverified. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_BANK_VERIFY_PILOT_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0841:** Second gear advances both preserved source replays and the original complete-bank and individual-direction pilots, with their checkpoint landings and remaining admission work recorded. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0841.md).
+
+**OPS-S15-W5-GO3-BANK-CLASSIFIER-PILOT-20261108:** The original complete revision bank reaches its planned classifier checkpoint with authenticated saved work and measured native resources; the remaining habit pilot and independent replay are unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_BANK_CLASSIFIER_PILOT_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM3-20261108:** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM3_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM2-20261108:** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM2_20261108.md).
+
+**OPS-S15-W5-GO3-BANK-RESOURCE-COMPLETE-20261108:** The original constructed bank independently replays with recorded native resource observations; complete human-bank admission remains a separate resource and cost decision. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_BANK_RESOURCE_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-QUANTUM1-20261108:** The original individual-direction cost pilot preserves its first complete fit-pair checkpoint; its declared five-percent pilot and independent analysis remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_QUANTUM1_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0801:** Second gear remains live, the whole retained pilot has verified lossless storage, and the next complete-bank resource qualification is running with original scope preserved. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0801.md).
+
+**OPS-S15-W5-CH-RETAINED-PILOT-STORAGE-COMPLETE-20261108:** The complete retained July pilot converts losslessly and every original logical value independently compares; full-month source admission remains a separate resource gate. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RETAINED_PILOT_STORAGE_COMPLETE_20261108.md).
+
+**OPS-S15-W5-V1-PILOT-ADMISSION-20261108:** The original individual-direction pipeline enters its counted cost pilot on complete verified representations; every commissioned person and control remains in scope. [Record](../results/phase_2_4_stage_15/WEEK5/V1_PILOT_ADMISSION_20261108.md).
+
+**OPS-S15-W5-CA1-FEATURE-BANK-COMPLETE-20261108:** The complete original encoding and prompt clustering independently replay; the frozen individual-direction analysis now has its verified representation dependency. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_FEATURE_BANK_COMPLETE_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0727:** Second gear advances preserved replay and whole-pilot storage measurement; the complete feature dependency is verified and remaining analysis admission gates are explicit. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0727.md).
+
+**OPS-S15-W5-CH-RETAINED-PILOT-5PCT-20261108:** The retained July pilot reaches its exact first conversion checkpoint with the original database preserved; complete conversion and value replay remain pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_RETAINED_PILOT_5PCT_20261108.md).
+
+**OPS-S15-W5-GO3-FEATURE-BANK-COMPLETE-20261108:** The complete five-site feature bank and external training model independently replay; scientific analysis remains a separate admission. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_BANK_COMPLETE_20261108.md).
+
+**OPS-S15-W5-GO3-FEATURE-CONT3-PAUSE-20261108:** The full-source feature bank preserves complete production and further independent replay; downstream scientific admission still awaits complete verification. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_CONT3_PAUSE_20261108.md).
+
+**OPS-S15-W5-CA1-QUANTUM6-PAUSE-20261108:** The encoder preserves complete production and its next full replay checkpoint; original independent verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM6_PAUSE_20261108.md).
+
+**OPS-S15-TD-FINAL-DRAIN-20261108:** Theory-days is closed with complete evidence reconciliation and its final curator digest; unrun cards and all existing scientific limitations remain explicit. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/FINAL_DRAIN_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0639:** Second gear workers advance under verified limits, and compressed census recovery passes complete constructed native replay with all predecessors retained. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0639.md).
+
+**OPS-S15-W5-GO3-FEATURE-CONT2-PAUSE-20261108:** The full-source feature producer preserves complete production and its planned first verification checkpoint; complete independent replay remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_CONT2_PAUSE_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-CENSUS-2-20261108:** The compressed census passes full fresh raw-source replay after actual native execution and verification pauses. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_CENSUS_2_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-CENSUS-1-20261108:** The constructed compressed census preserves an authenticated native pause; complete recovery qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_CENSUS_1_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-CENSUS-0-20261108:** The constructed compressed census preserves an authenticated native pause; complete recovery qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_CENSUS_0_20261108.md).
+
+**OPS-S15-W5-GO3-FEATURE-CONT1-PAUSE-20261108:** The full-source feature producer preserves its next complete-unit checkpoint with the original model, source population and verification requirements intact. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_CONT1_PAUSE_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0604:** Second gear advances the full-source feature bank and preserved encoder replay while current workers, resource limits and monitoring verify. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0604.md).
+
+**OPS-S15-W5-CA1-QUANTUM5-PAUSE-20261108:** The encoder preserves complete production and its next independent replay checkpoint without changing the original model or population. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM5_PAUSE_20261108.md).
+
+**OPS-S15-W5-GO3-FEATURE-PILOT-20261108:** The full-source feature producer reaches its declared first-five-percent checkpoint with all source and model bindings preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_PRODUCTION_PILOT_20261108.md).
+
+**OPS-S15-W5-GO3-FEATURE-MEASUREMENT-20261108:** The unchanged constructed feature pipeline completes native replay with measured resource observations for bounded production-pilot planning. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_FEATURE_NATIVE_MEASUREMENT_20261108.md).
+
+**OPS-S15-W5-GO3-BANK-READY-20261108:** Both constructed feature-bank branches pass complete original-analysis replay; the declared grid is ready under the packet rule and awaits its production feature dependency. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_BANK_READY_RECONCILIATION_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-SUPPORTED-4-20261108:** The constructed feature-bank consumer matches its original complete analysis and fresh model/reference replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_SUPPORTED_4_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-MISSING-CATEGORY-2-20261108:** The constructed feature-bank consumer matches its original complete analysis and fresh model/reference replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_MISSING_CATEGORY_2_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0515:** Second gear preserves and continues its source work; the complete mathematical grid and native storage migration pass their constructed qualification, with further admission gates explicit. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0515.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-SUPPORTED-3-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_SUPPORTED_3_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-SUPPORTED-2-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_SUPPORTED_2_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-MISSING-CATEGORY-1-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_MISSING_CATEGORY_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-SUPPORTED-1-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_SUPPORTED_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-MISSING-CATEGORY-0-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_MISSING_CATEGORY_0_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-BANK-SUPPORTED-0-20261108:** The constructed feature-bank consumer preserves an authenticated bounded-work checkpoint; complete native qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_BANK_SUPPORTED_0_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-MIGRATION-3-20261108:** The constructed storage migration passes complete fresh value comparison after authenticated execution and verification pauses. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_MIGRATION_3_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-MIGRATION-2-20261108:** The constructed storage migration preserves an authenticated native checkpoint; full qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_MIGRATION_2_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-MIGRATION-1-20261108:** The constructed storage migration preserves an authenticated native checkpoint; full qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_MIGRATION_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-8-20261108:** The complete constructed mathematical grid passes original estimator parity and full native replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_8_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-MIGRATION-0-20261108:** The constructed storage migration preserves an authenticated native checkpoint; full qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_MIGRATION_0_20261108.md).
+
+**OPS-S15-W5-CA1-QUANTUM5-20261108:** The encoder preserves its next complete replay checkpoint and continues with the original model, population and verification requirement. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM5_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-7-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_7_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-6-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_6_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-5-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_5_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-4-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_4_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0443:** Second gear advances preserved source and mathematical work; the constructed storage adapter passes full replay while remaining admission gates stay explicit. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0443.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-3-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_3_20261108.md).
+
+**OPS-S15-W5-CH-STORAGE-CONSTRUCTED-20261108:** The constructed lossless history-storage adapter passes full raw replay and consumer parity; real native continuation and complete-source storage admission remain unqualified. [Record](../results/phase_2_4_stage_15/WEEK5/CH_STORAGE_CONSTRUCTED_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-2-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_2_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-1-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_1_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0419:** Second gear preserves complete checkpoints and advances the original mathematical qualification alongside three ongoing source and replay workers. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0419.md).
+
+**OPS-S15-W5-GO3-UUID-MATH-0-20261108:** The original mathematical qualifier preserves its authenticated bounded-work checkpoint; full grid qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_MATH_0_20261108.md).
+
+**OPS-S15-W5-CA1-QUANTUM4-20261108:** The encoder preserves its next complete replay checkpoint and continues with the original model, population and verification requirement. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM4_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0316:** Second gear continues from preserved checkpoints; both constructed feature cases pass complete replay, while full census storage remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0316.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-MISSING-CATEGORY-2-20261108:** The complete constructed feature bank matches the original external model and all rows, with full independent replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_MISSING_CATEGORY_2_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-MISSING-CATEGORY-1-20261108:** The constructed feature qualifier preserves its authenticated verification pilot checkpoint; complete qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_MISSING_CATEGORY_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-MISSING-CATEGORY-0-20261108:** The constructed feature qualifier preserves its authenticated execution pilot checkpoint; complete qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_MISSING_CATEGORY_0_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-SUPPORTED-2-20261108:** The complete constructed feature bank matches the original external model and all rows, with full independent replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_SUPPORTED_2_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-SUPPORTED-1-20261108:** The constructed feature qualifier preserves its authenticated verification pilot checkpoint; complete qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_SUPPORTED_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-FEATURE-SUPPORTED-0-20261108:** The constructed feature qualifier preserves its authenticated execution pilot checkpoint; complete qualification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_FEATURE_SUPPORTED_0_20261108.md).
+
+**OPS-S15-W5-CA1-QUANTUM3-20261108:** The encoder retains complete production and its independent replay checkpoint, and continues unchanged in a new counted attempt. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM3_20261108.md).
+
+**OPS-S15-W5-CH0-JULY-PILOT-20261108:** The July census pilot passes full independent replay; the complete-month census requires a measured exact storage continuation. [Record](../results/phase_2_4_stage_15/WEEK5/CH0_JULY_PILOT_20261108.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261108-0234:** Second gear remains healthy, and the isolated checkpoint writer now passes counted interruption, exact continuation and complete replay. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261108_0234.md).
+
+**OPS-S15-W5-GO3-UUID-IO-2-20261108:** The isolated checkpoint writer passes complete counted pause, copy and independent replay. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_IO_2_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-IO-1-20261108:** The isolated checkpoint writer reached its authenticated verification pause with all case evidence preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_IO_1_20261108.md).
+
+**OPS-S15-W5-GO3-UUID-IO-0-20261108:** The isolated checkpoint writer reached its authenticated execution pause with all case evidence preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_UUID_IO_0_20261108.md).
+
+**OPS-S15-W5-CA1-QUANTUM2-20261108:** The encoder continues from its next authenticated wall-quantum checkpoint, preserving all completed work and cumulative charges. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_QUANTUM2_20261108.md).
+
+**OPS-S15-W5-HEALTH-CA1-CONTINUATION-20261108-0129:** The encoder recovery reached its planned sealed checkpoint and continues unchanged; queue health, preserved evidence and monitoring verify. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_CA1_CONTINUATION_20261108_0129.md).
+
+**OPS-S15-W5-CA1-COST-RECOVERY-20261108:** The encoder exhausted its attempt CPU limit during replay; all files are preserved, and recovery is running from the last authenticated pause. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_COST_RECOVERY_20261108.md).
+
+**OPS-S15-W5-BUILD-REVIEW-20261108-0022:** Second gear continues with healthy workers, a tested metadata admission scaffold and explicit remaining native qualification gaps. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_REVIEW_20261108_0022.md).
+
+**OPS-S15-W5-GO3-COLLECTION-COMPLETE-20261108:** The complete five-site metadata collection independently replays; source support is recorded, while feature and scientific consumers remain gated. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_COMPLETE.md).
+
+**OPS-S15-W5-GO3-COLLECTION-FINAL-REPLAY-20261107:** Second gear continues with final independent collection replay resumed from its authenticated checkpoint, four longer workers healthy and three builders active. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_FINAL_REPLAY.md).
+
+**OPS-S15-W5-GO3-COLLECTION-VERIFY-PAUSE-20261107:** Complete metadata production is preserved, and the independent collection replay has reached its declared pilot checkpoint; full verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_VERIFY_PAUSE.md).
+
+**OPS-S15-W5-GO3-COLLECTION-CONTINUATION-20261107:** Second gear continues with the qualified five-site metadata collector resumed from its authenticated pilot, four longer workers healthy and three builders active. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_CONTINUATION.md).
+
+**OPS-S15-W5-GO3-COLLECTION-QUALIFIED-PILOT-20261107:** The complete five-site collector passes both counted construction cases, and its real-source metadata pilot preserves an authenticated continuation checkpoint. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_QUALIFIED_PILOT.md).
+
+**OPS-S15-W5-GO3-COLLECTION-MISSING-CATEGORY-COMPLETE-20261107:** The constructed missing-category revision-collection case reached its complete native replay with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_MISSING_CATEGORY_COMPLETE.md).
+
+**OPS-S15-W5-GO3-COLLECTION-MISSING-CATEGORY-VERIFY-PILOT-20261107:** The constructed missing-category revision-collection case reached its independent verification pilot with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_MISSING_CATEGORY_VERIFY_PILOT.md).
+
+**OPS-S15-W5-GO3-COLLECTION-MISSING-CATEGORY-SOURCE-PILOT-20261107:** The constructed missing-category revision-collection case reached its execution pilot with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_MISSING_CATEGORY_SOURCE_PILOT.md).
+
+**OPS-S15-W5-GO3-COLLECTION-SUPPORTED-COMPLETE-20261107:** The constructed supported revision-collection case reached its complete native replay with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_SUPPORTED_COMPLETE.md).
+
+**OPS-S15-W5-GO3-COLLECTION-SUPPORTED-VERIFY-PILOT-20261107:** The constructed supported revision-collection case reached its independent verification pilot with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_SUPPORTED_VERIFY_PILOT.md).
+
+**OPS-S15-W5-GEAR2-SOURCE-COLLECTOR-PROGRESS-20261107:** Second gear remains active with all five revision sources recorded, language-act reentry qualified and the next collector qualification underway; the ready buffer is still under construction. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_SOURCE_AND_COLLECTOR_PROGRESS.md).
+
+**OPS-S15-W5-GO3-COLLECTION-SUPPORTED-SOURCE-PILOT-20261107:** The constructed supported revision-collection case reached its execution pilot with authenticated outputs and retained cost. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COLLECTION_SUPPORTED_SOURCE_PILOT.md).
+
+**OPS-S15-W5-LA-IDEMPOTENT-COMPLETION-20261107:** The language-act scorer preserves complete numeric and cost records through partial and completed reentry, and its constructed mixed-version collection independently replays. [Record](../results/phase_2_4_stage_15/WEEK5/LA_IDEMPOTENT_COMPLETION.md).
+
+**OPS-S15-W5-GO3-ENGLISH-SOURCE-COMPLETE-20261107:** All five commissioned revision sources now have complete independent source replay; the English completion and every earlier source attempt remain fully accounted for. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_ENGLISH_SOURCE_COMPLETE.md).
+
+**OPS-S15-W5-GO3-ENGLISH-REPLAY-PAUSE-20261107:** English source production is preserved at the exact independent-replay pilot boundary; full source verification is still required. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_ENGLISH_REPLAY_PAUSE.md).
+
+**OPS-S15-W5-GO3-WORLDBUILDING-SOURCE-20261107:** Worldbuilding source preparation independently replays in full after the narrow supervisor repair; all earlier failed evidence and costs remain retained. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_WORLDBUILDING_SOURCE.md).
+
+**OPS-S15-W5-GEAR2-RECOVERY-CONTINUATION-20261107:** Second gear continues with preserved checkpoints, verified supervisor recovery and complete internal records; the remaining source passes and three builders are active. [Record](../results/phase_2_4_stage_15/WEEK5/GEAR2_RECOVERY_CONTINUATION.md).
+
+**OPS-S15-W5-GO3-RECOVERY-BOUNDARIES-20261107:** Academia source preparation now independently replays in full; Worldbuilding recovery reached its planned independent-replay boundary with all evidence preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_RECOVERY_BOUNDARIES.md).
+
+**OPS-S15-W5-GO3-ENGLISH-PILOT-20261107:** The English revision-source pilot completed its exact registered byte prefix and preserved an authenticated continuation checkpoint. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_ENGLISH_PILOT.md).
+
+**OPS-S15-W5-GO3-V7-REFILL-20261107:** Qualified supervisor recovery and two further source stages are admitted with unchanged source contracts; all failed evidence, checkpoints and costs remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_V7_REFILL.md).
+
+**OPS-S15-W5-GO3-JOURNAL-RECOVERY-20261107:** The SQLite journal enumeration race is repaired and passes counted native replay; the failed source attempt is preserved and recovery is restricted to its earlier authenticated checkpoint. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_JOURNAL_RECOVERY.md).
+
+**OPS-S15-W5-GO3-ACADEMIA-REPLAY-PAUSE-20261107:** Academia source production is preserved at the independent-replay pilot boundary; complete verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_ACADEMIA_REPLAY_PAUSE.md).
+
+**OPS-S15-W5-GO3-TWO-SOURCES-20261107:** Two complete revision-source projections independently replay exactly; source preparation is recorded without granting a scientific inference. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_TWO_SOURCES.md).
+
+**OPS-S15-W5-GO3-SECOND-REFILL-20261107:** Four exact revision-source continuations were readmitted after full checkpoint write-through; second gear and all prior scientific, resource and campaign limits remain in force. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_SECOND_REFILL.md).
+
+**OPS-S15-W5-GO3-PARALLEL-BOUNDARIES-20261107:** The next revision-source boundaries are recorded with exact checkpoints: two source pilots and two independent-replay pilots completed their declared prefixes without a scientific verdict. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_PARALLEL_BOUNDARIES.md).
+
+**OPS-S15-W5-SECOND-GEAR-RESTORED-20261107:** CPU-only second gear is restored within the eight-slot Week 5 allocation, with saved work preserved, three builders resumed and completed evidence written through. [Record](../results/phase_2_4_stage_15/WEEK5/SECOND_GEAR_RESTORED.md).
+
+**OPS-S15-W5-GO3-SOURCE-PILOTS-20261107:** Both revision-source pilots reached the exact declared byte boundary and preserved authenticated checkpoints; their source comparisons and downstream scientific analyses remain unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_SOURCE_PILOTS.md).
+
+**OPS-S15-W5-CH-BOUNDED-20261107:** The bounded chess scorer passes authentic owner-pause, immutable continuation and complete native replay; the earlier fixture-envelope failure and all costs remain recorded. [Record](../results/phase_2_4_stage_15/WEEK5/CH_BOUNDED_QUALIFICATION.md).
+
+**OPS-S15-W5-AT-COLLECTION-V4-20261107:** The collector accepts the exact reviewed scoring versions and rejects incompatible provenance; its full constructed bank, statistical consumer and selection independently replay. [Record](../results/phase_2_4_stage_15/WEEK5/AT_COLLECTION_V4_QUALIFICATION.md).
+
+**S15-W5-MD3-20261107 instrument:** Complete native primary, dynamic-null trajectories and all companion checkpoint arrays independently replay. The rank-deficient rescue companion is unsupported; calibration does not identify a general security mechanism. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_PRIMARY.md).
+
+**OPS-S15-W5-GO3-COUNTED-QUALIFICATION-20261107:** The revision-source pipeline passes its complete counted pause, copy, continuation and independent-replay qualification; corpus source preparation remains separately admitted. [Record](../results/phase_2_4_stage_15/WEEK5/GO3_COUNTED_QUALIFICATION.md).
+
+**OPS-S15-W5-FIRST-GEAR-MD3-CONTINUATION-3-20261107:** The authenticated mood replay is continuing as the sole first-gear worker under a longer operating quantum; its scientific requirements and all saved work remain unchanged. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_MD3_CONTINUATION_3.md).
+
+**OPS-S15-W5-FIRST-GEAR-MD3-VERIFY-PAUSE-2-20261107:** The mood verifier preserved its next planned checkpoint and exited cleanly; the unchanged continuation is prepared with a longer operating interval under the same first-gear limits. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_MD3_VERIFY_PAUSE_2.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-2058:** First gear remains healthy with one advancing independent mood verifier; saved work is preserved and a fourth serial continuation is prepared without launching it. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_2058.md).
+
+**OPS-S15-W5-FIRST-GEAR-MD3-CONTINUATION-2-20261107:** The saved independent mood replay is continuing as the sole first-gear worker; the checkpoint, original costs and three other prepared continuations are preserved. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_MD3_CONTINUATION_2.md).
+
+**OPS-S15-W5-FIRST-GEAR-MD3-VERIFY-PAUSE-20261107:** The mood verifier reached its planned checkpoint with every saved file authenticated; the continuation is prepared under first gear and the scientific result remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_MD3_VERIFY_PAUSE.md).
+
+**OPS-S15-W5-DIGEST-20261107:** The November 7 Week 5 digest reconciles completed records, retained failures and utilization; one independent mood replay continues in first gear with three prepared serial continuations. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261107.md).
+
+**OPS-S15-W4-DIGEST-20261107:** The November 7 Week 4 reconciliation preserves every recorded attempt and paid settlement; first-gear Week 5 occupancy is accounted separately and no new Week 4 scientific claim is added. [Record](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261107.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-1954:** First gear continues with one advancing independent mood replay; saved work is preserved and a third reviewed continuation is prepared for later serial admission. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_1954.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-1921:** First gear is healthy with one progressing mood worker, four preserved paused workers and two prepared serial successors; no recovery or gear change is required. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_1921.md).
+
+**OPS-S15-W5-FIRST-GEAR-MD3-CONTINUATION-20261107:** The encoding checkpoint is fully recorded, and the authenticated mood continuation is running as the sole first-gear worker; the remaining saved work stays parked. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_MD3_CONTINUATION.md).
+
+**OPS-S15-W5-FIRST-GEAR-CA1-PAUSE-20261107:** The encoding continuation reached its planned checkpoint with every saved file authenticated; the worker exited cleanly and independent verification remains pending. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_CA1_PAUSE.md).
+
+**OPS-S15-TD-START-FREEZE-20261107:** Theory-days new starts are frozen; completed evidence and accounting reconcile, an internal digest is assembled, and the final curator packet awaits the original drain. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/START_FREEZE_20261107.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-1854:** First gear continues with one advancing encoding worker and preserved checkpoints; three reviewed continuations are prepared for later serial admission. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_1854.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-1805:** First gear remains healthy with one advancing encoding worker; two reviewed checkpoint continuations are prepared for later serial admission. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_1805.md).
+
+**OPS-S15-W5-FIRST-GEAR-CA1-CONTINUATION-20261107:** After the complete document-history source was recorded, the authenticated encoding continuation became the sole first-gear worker; all other saved work remains preserved. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_CA1_CONTINUATION.md).
+
+**OPS-S15-W5-GO2-SOURCE-COMPLETE-20261107:** The full document-history source passes independent replay, with historical gaps and exclusions retained; downstream goal comparisons remain separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/GO2_SOURCE_COMPLETE.md).
+
+**OPS-S15-W5-FIRST-GEAR-HEALTH-20261107-1700:** First gear remains healthy with one advancing source replay, and two authenticated checkpoint continuations are prepared for later serial admission. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_HEALTH_1700.md).
+
+**OPS-S15-W5-FIRST-GEAR-CONTINUATION-20261107:** The completed source is fully recorded, and one authenticated document-history continuation is running in first gear while the other checkpoints remain parked. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_CONTINUATION.md).
+
+**OPS-S15-W5-S3-SOURCE-COMPLETE-20261107:** The source recovery passes complete independent replay; both attempts and their costs are preserved, and downstream analysis remains separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/S3_SOURCE_COMPLETE.md).
+
+**OPS-S15-W5-FIRST-GEAR-S3-RECOVERY-20261107:** The telemetry repair passes native fault checks, and one serial CPU source recovery is progressing in first gear with all parked checkpoints preserved. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_S3_RECOVERY.md).
+
+**OPS-S15-W5-S3-SOURCE-VERIFY-FAILURE-20261107:** The source extraction is preserved, but independent verification stopped on a progress-file access error; the campaign is now idle in first gear with serial recovery pending. [Record](../results/phase_2_4_stage_15/WEEK5/S3_SOURCE_VERIFY_FAILURE.md).
+
+**OPS-S15-W5-FIRST-GEAR-20261107:** First gear is active with one CPU worker; six workers are safely checkpointed, their saved bytes authenticate, and automatic parallel refill is held. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_GEAR_20261107.md).
+
+**OPS-S15-W5-KLICKE-SOURCE-COMPLETE-20261107:** The complete licensed keystroke archive passes independent source replay, with parse failures and unverified writer linkage retained explicitly. [Record](../results/phase_2_4_stage_15/WEEK5/KLICKE_SOURCE_COMPLETE.md).
+
+**OPS-S15-W5-CA1-CONTINUATION-2-20261107:** The community-choice encoder continues from its authenticated completed chunks after the declared wall quantum, with full independent replay still required. [Record](../results/phase_2_4_stage_15/WEEK5/CA1_CONTINUATION_2.md).
+
+**OPS-S15-W5-AT-NUMERICAL-FAILURES-20261107:** Four original reader chunks failed independent numerical agreement and remain inadmissible; their costs and evidence are retained while the separate precision recovery remains gated. [Record](../results/phase_2_4_stage_15/WEEK5/AT_NUMERICAL_FAILURES.md).
+
+**OPS-S15-W5-AT-IDEMPOTENT-COMPLETION-20261107:** Completed reader scores now survive a real counted pause and continuation without overwriting their original cost or changing numerical checks. [Record](../results/phase_2_4_stage_15/WEEK5/AT_IDEMPOTENT_COMPLETION.md).
+
+**OPS-S15-W5-KLICKE-CONTINUATION-20261107:** The licensed keystroke-source intake passed its first five-percent checkpoint and is continuing the full archive under the unchanged source contract. [Record](../results/phase_2_4_stage_15/WEEK5/KLICKE_CONTINUATION.md).
+
+**OPS-S15-W5-BK-SLOT-BANK-20261107:** Backlog admission now uses only the original four CPU slots, with the corrected allocator independently verified and historical allocation deviations retained. [Record](../results/phase_2_4_stage_15/WEEK5/BK_SLOT_BANK.md).
+
+**OPS-S15-W5-GHOST-DELIVERY-20261107:** The approved six-comparison aggregate handoff has been copied to Ghost and every destination file matches its reviewed source. [Record](../results/phase_2_4_stage_15/WEEK5/GHOST_DELIVERY.md).
+
+**OPS-S15-W5-KLICKE-RUNTIME-20261107:** The keystroke-source verifier now satisfies the execution interface and passes a counted pause, continuation and fresh-replay fixture. [Record](../results/phase_2_4_stage_15/WEEK5/KLICKE_RUNTIME.md).
+
+**OPS-S15-W5-S2-SOURCE-COMPLETE-20261107:** The complete first-production writing source now passes independent raw replay, with unsupported timing strata retained explicitly. [Record](../results/phase_2_4_stage_15/WEEK5/S2_SOURCE_COMPLETE.md).
+
+**OPS-S15-W5-BUILD-CONTINUATION-20261107-1350:** Seven counted CPU workers are progressing; remaining builds continue while the largest numerical-control verification waits for its declared memory margin. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_CONTINUATION_20261107_1350.md).
+
+**OPS-S15-W5-MAY-CENSUS-CONTINUATION-20261107:** The May chess census has a fully replayed five-percent prefix and now continues toward a complete source census with verification from the first game. [Record](../results/phase_2_4_stage_15/WEEK5/MAY_CENSUS_CONTINUATION.md).
+
+**OPS-S15-W5-S2-EMPTY-SUPPORT-20261107:** The writing-source repair preserves writers with no eligible timing sentences and recomputes the complete source under the unchanged timing rule. [Record](../results/phase_2_4_stage_15/WEEK5/S2_EMPTY_SUPPORT.md).
+
+**OPS-S15-W5-RESUME-MONITOR-20261107:** Authenticated continuation now accepts only the declared operational bounds; sealed encoder and fit checkpoints retain their proper pause status. [Record](../results/phase_2_4_stage_15/WEEK5/RESUME_MONITOR.md).
+
+**OPS-S15-W5-HEALTH-BUILD-20261107-1312:** CPU-only Gear 2 is progressing under authenticated recovery, with the remaining build active and automatic reader admissions deliberately paused for numerical repair. [Record](../results/phase_2_4_stage_15/WEEK5/HEALTH_BUILD_20261107_1312.md).
+
+**S15-W5-LA2-ICSI-20261107 instrument:** Full constructed signed/null checks and independent human-data replay pass; numerical validity does not establish minimum-effect power or the proposed mechanism. [Complete record](../results/phase_2_4_stage_15/WEEK5/LA2_ICSI_BACKGROUND.md).
+
+**OPS-S15-W5-APRIL-CENSUS-RECOVERY-20261107:** The April chess census resumes its authenticated saved progress under the bounded-sharing-read runtime; the original failure remains charged and complete source replay is still mandatory. [Record](../results/phase_2_4_stage_15/WEEK5/APRIL_CENSUS_RECOVERY.md).
+
+**OPS-S15-W5-GO2-BYTE-RECOVERY-20261107:** The second proposal-history source correction captures raw Git bytes and treats undeclared undecodable versions as explicit gaps; both previous failures and their costs remain preserved. [Record](../results/phase_2_4_stage_15/WEEK5/GO2_BYTE_RECOVERY.md).
+
+**OPS-S15-W5-AT1-DONOR-SUPPORT-20261107:** The frozen writer-history comparison lacks donor support for a required writer even with the entire eligible donor pool; its primary and declared donor-count variants are unsupported on that roster. [Record](../results/phase_2_4_stage_15/WEEK5/AT1_DONOR_SUPPORT.md).
+
+**OPS-S15-W5-READER-PILOT-DISPATCH-20261107:** The reader pilot population is frozen from metadata, and the reviewed-plan dispatcher was validated; new automatic reader starts are paused after independent numerical checks failed. [Record](../results/phase_2_4_stage_15/WEEK5/READER_PILOT_DISPATCH.md).
+
+**OPS-S15-W5-GO2-HISTORY-FAILURE-20261107:** The proposal-history pilot stopped on a copied-file ancestry boundary; the original failure is retained and a separately fixtured same-document repair is in build. [Record](../results/phase_2_4_stage_15/WEEK5/GO2_HISTORY_FAILURE.md).
+
+**OPS-S15-W5-FIRST-COST-SUPPORT-20261107:** The first reader-cost and conversation-source checks verify; the writer-history cost prefix exposes exhausted donor support and requires its declared support route before further inference. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_COST_SUPPORT.md).
+
+**OPS-S15-W5-AT-COVARIATES-H3-20261107:** The repaired writing-control reconstruction replays the complete session population and records empty menu reopens as zero new display exposure. [Record](../results/phase_2_4_stage_15/WEEK5/AT_COVARIATES_H3.md).
+
+**OPS-S15-W5-RUNTIME-V4-RECOVERY-20261107:** Concurrent accounting reads now retry bounded Windows sharing failures, and both stopped chess prefixes resume from preserved journals with fresh source verification still required. [Record](../results/phase_2_4_stage_15/WEEK5/RUNTIME_V4_RECOVERY.md).
+
+**OPS-S15-W5-SEALED-PAUSE-MONITOR-20261107:** The watcher recognizes sealed producer checkpoints across both draw and document quanta without treating a pause as scientific completion. [Record](../results/phase_2_4_stage_15/WEEK5/SEALED_PAUSE_MONITOR.md).
+
+**OPS-S15-W5-AT-SOURCE-20261107:** The complete writing source passes independent replay and supplies frozen final-context and at-typing batches; reader scoring remains separately admitted work. [Record](../results/phase_2_4_stage_15/WEEK5/AT_SOURCE_COMPLETE.md).
+
+**S15-W5-MD12-20261107 instrument:** Full constructed signed/null checks and independent human-data replay pass; numerical validity does not establish minimum-effect power or the proposed mechanism. [Complete record](../results/phase_2_4_stage_15/WEEK5/MD12_PRIMARY.md).
+
+**OPS-S15-W5-GHOST-DELIVERY-PENDING-20261107:** Six completed aggregate result handoffs are prepared locally; delivery to Ghost awaits explicit approval after automatic review rejected the copy. [Record](../results/phase_2_4_stage_15/WEEK5/GHOST_DELIVERY_PENDING.md).
+
+**OPS-S15-W5-MD3-PAUSE-MONITOR-20261107:** The standing-choice pilot paused at its declared checkpoint; the disappearance alert was a notification-schema error and its saved work verifies. [Record](../results/phase_2_4_stage_15/WEEK5/MD3_PAUSE_MONITOR.md).
+
+**S15-W5-LA2-AMI-20261107 instrument:** Full constructed signed/null checks and independent human-data replay pass; numerical validity does not establish minimum-effect power or the proposed mechanism. [Complete record](../results/phase_2_4_stage_15/WEEK5/LA2_AMI_PRIMARY.md).
+
+**S15-W5-MD4-20261107 instrument:** Full constructed signed/null checks and independent human-data replay pass; numerical validity does not establish minimum-effect power or the proposed mechanism. [Complete record](../results/phase_2_4_stage_15/WEEK5/MD4_PRIMARY.md).
+
+**OPS-S15-W5-S2-SOURCE-SCOPE-20261107:** The prior revision-source candidate count covers currently wholly typed targets only; it is not an upper bound for every sentence that was wholly typed at first production. [Record](../results/phase_2_4_stage_15/WEEK5/S2_SOURCE_SCOPE_CORRECTION.md).
+
+**OPS-S15-W5-AT-COVARIATE-FAILURE-20261107:** The complete timing-control reconstruction stopped on a literal-empty reopen before any recorded display; a separately fixtured zero-exposure repair is being built. [Record](../results/phase_2_4_stage_15/WEEK5/AT_COVARIATE_FAILURE.md).
+
+**OPS-S15-W5-MIDDAY-SOURCES-20261107:** The mood-drift and AMI shared-laughter projections pass full independent replay with all source exclusions retained; their analytical consumers are separately admitted. [Record](../results/phase_2_4_stage_15/WEEK5/MIDDAY_SOURCE_REPLAY.md).
+
+**S15-W5-IN/SP numerical consumers:** Complete signed/null native appraisal and thermal handlers and full 2,000-draw human replay verify. IN1–IN4 preserve writer/text clusters and all reader pairs; SP1.h2 repairs only irrelevant nuisance-rank failure, preserving the original primary and draws. SP2/SP3 retain actual analytical support distinct from their resampling frame. Minimum-effect sensitivity and the declared texture grids remain separate admissions. [Appraisal records](../results/phase_2_4_stage_15/WEEK5/IN4_PRIMARY.md); [thermal repair result](../results/phase_2_4_stage_15/WEEK5/SP1_h2_PRIMARY.md).
+
+**OPS-S15-W5-BUILD-20261107-1142:** CPU-only Gear 2 is running under the separate Week 5 calendar and reviewed-plan dispatcher; the ready buffer and remaining backlog are still being built. [Record](../results/phase_2_4_stage_15/WEEK5/BUILD_20261107_1142.md).
+
+**OPS-S15-W5-SP1-RANK-20261107:** The original thermal slope contrast has invalid bootstrap uncertainty because an irrelevant mixed-mode nuisance group lost rank in two draws; the unchanged primary has a separately validated exact repair. [Record](../results/phase_2_4_stage_15/WEEK5/SP1_RANK_REPAIR.md).
+
+**OPS-S15-W5-GO-BK-SOURCES-20261107:** The complete proposal and revision-source projections independently replay; their scientific consumers remain separately admitted work. [Record](../results/phase_2_4_stage_15/WEEK5/GO_BK_SOURCE_REPLAY.md).
+
+**OPS-S15-W5-RUNTIME-V3-20261107:** The runtime now preserves verification pauses as authenticated checkpoints and completes only after a full independent replay; false verification still fails. [Record](../results/phase_2_4_stage_15/WEEK5/RUNTIME_V3_NATIVE.md).
+
+**OPS-S15-W5-SOURCE-RECOVERY-20261107:** The repaired mood source and the conversation sources pass full replay; the deliberate-pause monitoring mismatch is corrected and its original alert retained. [Record](../results/phase_2_4_stage_15/WEEK5/SECOND_SOURCE_REPLAY.md).
+
+**OPS-S15-W5-INTAKES-20261107:** The appraisal and thermal-comfort sources pass complete private replay, and the runtime successor preserves all output formats and deliberate checkpoints; scientific analyses remain separately gated. [Record](../results/phase_2_4_stage_15/WEEK5/FIRST_SOURCE_REPLAY.md).
+
+**OPS-S15-W5-RUNTIME-20261107:** The independent Week 5 CPU runtime passes native containment, exact replay and clock/resource checks; campaign build and scientific admission continue. [Record](../results/phase_2_4_stage_15/WEEK5/RUNTIME_NATIVE.md).
+
+**OPS-S15-TD-ARGREWRITE-INVENTORY-20261107:** ArgRewrite V.2 is available locally, including the writers’ pre-study survey and revision-goal self-reports; the manifest’s unavailable status was stale. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/ARGREWRITE_LOCAL_INVENTORY_20261107.md).
+
+**OPS-S15-TD-JANGRAW-LOCAL-SOURCE-20261107:** The pinned Jangraw archive and identifier-stripped working copy verify; the curator’s dated source-use decision releases B1’s source/licence hold, while scientific admission remains pending. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/JANGRAW_LOCAL_SOURCE_20261107.md).
+
+**OPS-S15-TD-RUTLEDGE-LOCAL-SOURCE-20261107:** The supplied Rutledge files match the registered source pins and are safely extracted; the TD1–TD3 retrieval hold is released, while mapping and scientific admission remain pending. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/RUTLEDGE_LOCAL_SOURCE_20261107.md).
+
+**OPS-S15-TD-HEALTH-20261107-0706:** Completed evidence, locks and monitoring remain valid; CPU-only Gear 2 is idle with no admitted ready work, and existing source, control, cost and build holds remain. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0706.md).
 
 **OPS-S15-TD-PUBLICATION-CONTINUATION-20261107:** Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution. [Record](../results/phase_2_4_stage_15/THEORY_DAYS/PUBLICATION_CONTINUATION_20261107.md).
 

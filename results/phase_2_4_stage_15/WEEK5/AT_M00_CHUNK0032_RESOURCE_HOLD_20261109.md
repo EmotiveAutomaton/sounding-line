@@ -1,0 +1,13 @@
+# AT M00 CHUNK0032 RESOURCE HOLD 20261109
+
+**Hypothesis.** Can the next frozen reader chunk start safely after its predecessor completes without sacrificing existing work or relaxing the resource requirements?
+
+**METHOD.** Authenticate and fully record original reader chunk ordinal 31, prepare its next unchanged successor against the complete prefix, and inspect the actual memory refusal, native identities, output/accounting freshness, failures, leases, locks and watcher delivery. Retain the original preparation failure and its request; do not launch a model after refusal.
+
+**Found.** The completed reader prefix is preserved; its next original chunk remains unstarted because fresh preparation fails the unchanged memory requirement, while V1 continues.
+
+The previous environmental hold was released when its own unchanged admission gate passed; that chunk then completed and was fully recorded and acknowledged. The next original chunk, ordinal 32, has no native start. Preparation refused the original memory requirement, and a direct recheck at 2026-11-09 07:02:22 PST found 26,715,230,208 bytes of commit headroom, below the required 26 GiB. Available RAM was 45,245,730,816 bytes, above its separate 20-GiB requirement. This is an environmental resource hold, not a scientific failure or healing attempt. The first 32 original chunks and all prior evidence, failures and charges remain preserved. The full pilot and corrected reader bank remain unfinished; no prefix is converted into a bank-wide forecast.
+
+V1 continuation 35 is recorded and acknowledged, and continuation 36 is active under the unchanged full workload and bounds. Its exact native identity, lease, below-normal two-thread child and fresh accounting verify; all 21 locks pass. Current monitoring has no error and both active coordinators are fresh; the intentionally retired coordinator remains complete. The sole inaccessible historical PID was separately resolved by creation time and executable as an unrelated later Firefox process. No unrelated process was stopped. Historical watcher delivery errors remain retained. The registered final-event paths and events-plus-four-hour-owner-inactivity policy verify; no fixed build or health timer is installed.
+
+**Means.** Continue V1 and retain the next reader request for fresh preparation when resources permit. Preserve its model, source, precision, context, numerical checks, cost ceilings and memory gates. Owner qualification remains unfinished and the ready buffer is 0/16; the original builders delivered and are inactive. No tests harvested this pass. This adds no scientific verdict, gear change, paid call, GPU, Ollama or delegation; final scientific reporting remains under the active packet.

@@ -1,0 +1,17 @@
+# AT M00 CHUNK0026 COST FAILURE 20261108
+
+**Hypothesis.** Can a cost-limited pilot chunk be recovered without losing evidence, changing its scientific scope or treating an incomplete score prefix as a result?
+
+**METHOD.** Inspect the actual native failure and descendant accounting, verify the stopped owner and execution child, seal every retained output and check each existing block receipt and source binding. Re-run the existing nonlaunching admission preparer on the same original chunk with a reviewed operational CPU bound; check all prior native controls, family charges and unchanged memory admission before a fresh immutable attempt.
+
+**Found.** The original reader chunk stopped at its attempt CPU limit; all saved evidence and charges are retained, with the same chunk prepared for a bounded recovery inside its family ceiling.
+
+The hard 1,800-CPU-second attempt limit fired after 585.786766 wall seconds, before the unchanged 900-second cooperative producer boundary. The terminal records 1,806.03125 charged descendant CPU seconds, including the termination margin; the standard 30-second supervisor allowance remains additional. There is no unresolved accounting reconciliation. Thirteen output files remain preserved, including six sealed blocks covering 48 of 108 words. No independent verification started, no complete scientific result exists, and none of these unfinished scores is reported. This is a cost failure, not a scientific negative, numerical gate failure or engineering healing attempt.
+
+The failed root, logs, source capsule and all partial outputs stay intact. A FAILED root is not an authenticated pause, so its partial files are not imported into the existing pause-resume adapter. The fresh recovery uses the same original ordinal 26, after the first 26 completed chunks; it neither skips to the next chunk nor relabels failed output as a checkpoint. Model and tokenizer revision, exact source rows, 1,024-token context, FP64 computation, reductions, kernel and original seeded fresh-forward checks remain identical.
+
+The existing reviewed preparer permits a bounded 7,200-CPU-second attempt. That replaces the inadequate 1,800-second operational guard for this recovery only, preserving the 900-second producer quantum, 1,700-second outer wall limit, twenty-GiB projected peak, two numerical threads and original 26-GiB commit/20-GiB available-RAM start gate. The conservative family accounting includes this failed attempt, every historical attempt and 1,765.546875 separately retained diagnostic/startup CPU seconds. The fresh family-room check permits the new safety cap. It is not a new card allocation or a validated whole-bank forecast. Future valid pauses use the unchanged authenticated continuation route.
+
+The original four-whole-writer, all-ten-reader pilot and complete corrected bank remain unfinished. No reduced reader set, word selection, tolerance relaxation or hidden scientific sub-allocation is introduced. The ready buffer remains deficient because owner qualification is unfinished; the original builders delivered and no additional agent is commissioned.
+
+**Means.** Continue the exact original chunk only after fresh native admission; retain all failed and successor costs in later forecasting. Wake on events and after four hours of owner inactivity, with no hourly or fixed-health schedule. No tests harvested, new research, gear change, paid call, GPU or Ollama work. Scientific reporting remains under the final-packet policy.

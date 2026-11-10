@@ -1,0 +1,17 @@
+# FINAL DRAIN 20261108
+
+**Hypothesis.** Can the finite theory-days campaign close with every completed result preserved and accurately reported, without disturbing the separate open Week 5 campaign?
+
+**METHOD.** Authenticate the original calendar source/plan, final drain and completion markers, native exit, all campaign terminals and declared outputs against the earlier inventory, known pin discrepancies, cumulative CPU and public write-through records. Compare all fifteen digest source records and claim wordings byte-for-byte with the compiled complete evidence. Exercise the closed admission guard and inspect the separate live Week 5 roster, leases, calendar and watcher mode before finalizing the packet.
+
+**Found.** Theory-days is closed with complete evidence reconciliation and its final curator digest; unrun cards and all existing scientific limitations remain explicit.
+
+The calendar emitted the drain marker at 07:00:22 PST for the scheduled November 8, 07:00 PST boundary and exited normally. All 55 theory-days attempts remain terminal with unchanged terminal hashes. All 780 declared outputs authenticate and 2,033 pin references were checked. The seven known pin discrepancies remain confined to the original failed native attempts; no new successful-attempt discrepancy exists. Fifty-five existing public receipts reconcile with the findings, queue, index, operations log and ledger. All 21 locks pass. No theory-days research worker or late scientific output remains.
+
+Final accounting remains 5,558.21875 CPU-seconds, including conservative prior build and launcher charges, against the original 54,000-second ceiling. Every failed, held and completed attempt remains charged. No paid or GPU work was used. The start and drain boundaries remain enforced; spare budget is not permission to reopen them.
+
+The [final curator digest](DIGEST.md) retains corrections first and all fifteen completed source records' methods, primaries, intervals, support counts, design commits and current ledger wording. Its scientific detail is unchanged from the verified compilation. The old compilation is preserved privately with its hash. TD1–TD3 and B1 remain unrun despite their later source release; B3 source/initiator admission remains unfinished, and TD7 retains its failed support floor. Missing outcomes are not nulls. No new interpretation, scientific score, p-value or claim is introduced by closure.
+
+Four Week 5 CPU workers and four matching leases were independently verified at 07:04:55 PST, with fresh progress and the existing Gear 2 setting. The theory-days calendar restored transition-only mode at its drain. The separate open Week 5 calendar reasserted its applicable mode at 07:00:43 PST, as recorded in its operation log; no manual restart was necessary. Its source pins and native identity verify. The next build check remains 07:27:10 PST, and the independent fixed health check remains 07:33:38 PST. Closing this older campaign does not change their allocation, scope or clocks.
+
+**Means.** Present the final packet to the curator in this conversation and preserve all original records and unrun dispositions. Both delivered calendar events are acknowledged only after this complete write-through. Continue Week 5 under its existing authority and scheduled checks. No tests harvested, new research, gear, spend, delegation, external message, cross-repository delivery or public publication occurs in this pass.

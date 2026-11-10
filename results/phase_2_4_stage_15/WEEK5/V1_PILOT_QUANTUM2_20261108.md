@@ -1,0 +1,17 @@
+# V1 PILOT QUANTUM2 20261108
+
+**Hypothesis.** Can the original cost pilot continue across its planned operational pause without losing completed fits or changing the commissioned population and controls?
+
+**METHOD.** Authenticate the terminal, full saved-output manifest, source/design pins and exact exited native identities after the unchanged producer yields between complete fit pairs. Reconcile cumulative card and family costs, retain every predecessor, and admit an immutable continuation using the remaining count to the original five-percent boundary.
+
+**Found.** The original individual-direction pilot preserves its next complete checkpoint and remains inside its declared cost-prefix stage; full scientific analysis is unfinished.
+
+The second operational quantum adds 430 complete person-pair fits. Together with the preceding 461, the checkpoint preserves 891 complete pairs in all 1,784 declared files. Its native attempt consumed 857.109375 CPU seconds plus the existing standard supervisor allowance; 813.1875 seconds belonged to the fit loop within that total. The producer stopped at its planned 900-second wall quantum. This is an expected checkpoint, not a scientific failure or completed pilot.
+
+The original first-five-percent boundary remains 10,412 pairs, leaving 9,521 for the cost prefix. Full production still comprises 208,236 pairs followed by complete independent replay, both original sample groups, all 200 choice-label controls and 2,000 resamples. The provisional full-work envelope remains 900,000 CPU seconds and needs reassessment after the complete pilot. No scientific values select the scope; no population, model, grid or control is reduced.
+
+Before admission, the conservative shared-card charge is 151800.484375 CPU seconds, including retained historical work and private qualification. Adding the next attempt's 25,000-second safety cap and standard allowance fits the original doubled card allowance; the family guard also has room. Every previous source, validation, failed, paused and completed attempt stays retained and charged. This operational safety cap is not a new scientific sub-allocation.
+
+**Means.** Fully record and acknowledge the pause before resuming all saved files in a fresh counted attempt. Retain the original 900-second quantum, full scope and independent verification obligations. April and May source replay continue in CPU-only Gear 2; human GO3 and full July admission retain their resource gates. The ready buffer remains below target while owner qualification/admission work remains; all three assigned builders have delivered, so no additional builder was started. No tests harvested or unfinished scientific scores reported.
+
+**Continuation verification.** Three counted CPU workers verified at November 08, 08:35:29 PST: April and May independent source replay and the second V1 pilot continuation. The new expected V1 pause is fully recorded and acknowledged; every saved checkpoint file is preserved in the fresh attempt. Human GO3 and full July admission retain their resource gates; eight ready analysis cells remain. Capacity is underfilled while owner qualification and admission work remains; all three assigned builders have delivered. Next build check: 08:41:41 PST; fixed health: 13:40:45 PST. GPU, Ollama and paid work remain off. Earlier snapshots below are historical. All 861 recursive claim-source anchors and 21 locks verify; native identities, leases, complete checkpoint-copy receipt, source plan, two-thread limits and child priority match. No unlanded event remains.

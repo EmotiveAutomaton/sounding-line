@@ -18,6 +18,12 @@ with the reason.
 
 ---
 
+## November 7 theory errata filing
+
+| Contribution | What changed | Status | Record |
+|---|---|---|---|
+| November 7, 07:02 PST: answers to the theory walkthrough, supplied and filed November 7 | Applied twelve exact edits across three theory files, adding G252–G265 and three reader-closing/shared-inference rows; preserved uncertainty, quotation notes, analyst attribution, existing results and OPEN status | written | [Source](../../docs/design/archive/SOUNDING_LINE_THEORY_ERRATA_2026-11-07.md); [application receipt](../../docs/design/archive/THEORY_ERRATA_20261107_APPLIED.json) |
+
 ## November 6 theory errata filing
 
 These three earlier spoken sources were supplied in the November 6 errata and

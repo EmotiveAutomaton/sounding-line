@@ -1,0 +1,15 @@
+# CH RETAINED PILOT STORAGE COMPLETE 20261108
+
+**Hypothesis.** Can lossless storage preserve the complete retained pilot and all original logical contents while leaving its full-source verification obligation explicit?
+
+**METHOD.** Continue the entire authenticated conversion checkpoint under the qualified storage adapter, then compare every source value and table schema afresh from logical row zero. Authenticate the native completion, source/design pins, every output and exited identities; reconcile finite read-only process and file-size observations. Keep the original raw and converted predecessors unchanged.
+
+**Found.** The complete retained July pilot converts losslessly and every original logical value independently compares; full-month source admission remains a separate resource gate.
+
+All 8,680,733 logical rows in the six original tables compare exactly. They retain the 4,464,422-game pilot, its exact source ordinal and its incomplete full-month flag. All 59 declared outputs authenticate. Conversion occupies 2,147,995,648 bytes, compared with the unchanged 4,120,850,432-byte original database. The resulting physical-size ratio is about 0.5213 on this retained pilot; it is neither a worst-case full-month ratio nor a complete peak-space forecast.
+
+The final native attempt consumed 1,236.46875 CPU seconds plus the standard 30-second supervisor allowance. The earlier first conversion quantum, standalone copy/verification and all previous source/qualification attempts remain separately retained and charged. The finite observer consumed 2.78125 CPU seconds within the supervisor allowance. Sampled high-water counters reached 73,334,784 working-set bytes and 90,394,624 pagefile bytes in conversion; verification reached 68,812,800 and 85,495,808 respectively. The largest sampled journal was 4,474,352 bytes. These observations have startup and sampling gaps and are lower bounds, not exact job-lifetime peaks or maximum indivisible-operation latency.
+
+The compressed pilot is representation evidence, not a new scientific result or a completed month. A future source continuation must still parse all original remaining games and independently reconstruct all 89,288,421 raw records from ordinal zero. It must preserve the fixed history selection, every model, control, grid and downstream logical value. Full admission still needs largest-payload and indivisible-operation measurements and a complete footprint forecast including new production, fresh replay, possible interrupted replay, retained originals, merged frame, history projection and concurrent growth. The observed two-file ratio alone does not release that gate.
+
+**Means.** Retire this completed conversion worker and use its exact completion as the preserved input to further resource preparation. No full July continuation is launched by this landing. Continue the existing CPU-only Gear 2 workers and the separately admitted bank-resource qualification. No tests harvested, no new scientific claim, spend or gear, and no unfinished scores.

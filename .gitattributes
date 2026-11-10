@@ -34,3 +34,39 @@ docs/design/archive/THEORY_ERRATA_20261106_APPLIED.json -text whitespace=cr-at-e
 
 # Completed Week 5 attempts pin these original bytes; preserve their hashes.
 runners/drive/cards/week5_go_revisions.py -text whitespace=cr-at-eol
+
+# Preserve byte-pinned Week 5 sources and received aggregate receipts.
+docs/exchange/ghost-v25-20261025/W0_CORRECTION.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v25-20261025/recovery-20261026/RECOVERY_REPORT_2026-10-26.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v25-20261025/superseded/6b3aca84c6a9861eb54536a692aec1c361941d715a095b6ed046e900ff69cf55-README.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/AGGREGATE_MANIFEST.json -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/AGGREGATE_REVIEW.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/README.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/docs/versions/v26-top-and-ends/H2_PROTOCOL.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/docs/versions/v26-top-and-ends/H2_REPORT.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/docs/versions/v26-top-and-ends/H3_PROTOCOL.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v26-20261102/docs/versions/v26-top-and-ends/H3_REPORT.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v27-2026-11-07/K4/ROUTE.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v27-2026-11-07/K6/ROUTE.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v27-20261107/K2/ROUTE.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v27-20261107/K4/ROUTE.md -text whitespace=cr-at-eol
+docs/exchange/ghost-v27-20261107/K6/ROUTE.md -text whitespace=cr-at-eol
+runners/drive/cards/week5_at_collect_v3.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_at_collect_v3_fixture.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_at_scoring_v4.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_at_selected_analysis_fixture_v2.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_at_selected_analysis_v2.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_go_history.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_go_history_h2_fixture.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_la_pipeline_v3.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_md12_bounded.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_md3_bounded.py -text whitespace=cr-at-eol
+runners/drive/cards/week5_sp1_h2.py -text whitespace=cr-at-eol
+
+# Retain original trailing blank lines in imported receipts and pinned fixtures.
+docs/exchange/ghost-v26-20261102/README.md whitespace=cr-at-eol,-blank-at-eof
+runners/drive/cards/week5_ch_engine.py whitespace=cr-at-eol,-blank-at-eof
+runners/drive/cards/week5_ch_source.py whitespace=cr-at-eol,-blank-at-eof
+tests/test_week5_ch_engine.py whitespace=cr-at-eol,-blank-at-eof
+tests/test_week5_ch_models.py whitespace=cr-at-eol,-blank-at-eof
+tests/test_week5_ch_source.py whitespace=cr-at-eol,-blank-at-eof

@@ -1,5 +1,72 @@
 # Codex operations
 
+## Current wake policy: events and four hours of inactivity
+
+The curator's November 8 instruction replaces hourly build wakes and fixed
+six-hour health wakes. The watcher delivers events and uses a 14,400-second
+inactivity fallback from the latest owner activity, completed ACK or previous
+idle check. It does not wake merely because an hour passed. Active-owner
+suppression, durable outbox delivery and full write-through before ACK remain.
+
+The private configuration uses `wake_mode: events_and_idle`,
+`fallback_seconds: 14400`, `routine_interval_seconds: 0` and
+`transition_only: false`, with no fixed `health_interval_seconds`.
+Persisted `wake_plan` and `health_schedule` are cleared under the recorded owner
+instruction; previous schedules remain in the private migration audit.
+Do not run old helpers that schedule another hourly or half-hourly build check.
+
+The calendar-only successor `runners/drive/calendar_20261107_week5_event_idle.py`
+preserves the original milestone dates and completed marker bytes without
+recreating build deadlines. The original calendar source, plan and owner record
+remain retained. Only its identified calendar process was replaced; research
+workers and the durable watcher were not restarted. Current calendar identity
+and root are in `.agent-state/drive-20261107/CALENDAR_CURRENT.json`.
+Use that pointer for liveness checks; the older calendar is intentionally retired.
+
+Four focused tests cover the exact four-hour boundary, reset after activity or
+ACK, event delivery without waiting for the idle deadline, disabled fixed health,
+and calendar milestone preservation without hourly scheduling. Runtime receipts
+are in `.agent-state/drive-20261107/event-idle-wakes-20261108/`.
+This supersedes scheduling instructions in the historical entries below.
+
+## One outstanding wake, November 9
+
+The curator requested that consecutive wakes stop stacking. Private configuration
+sets `single_pending_wake: true`. The watcher collects events during an active
+owner turn, including urgent events, and sends one combined batch when the owner
+is idle. The native queue also rejects another operational submission while one
+remains pending, independently of whether its result was already acknowledged.
+A kernel-held delivery lock covers the send and its receipt, including ACK races.
+Resource guards and saved terminal detection remain independent of message delivery.
+
+Queue acceptance, message consumption and full result write-through are separate.
+The inexpensive watcher lists only the existing owner thread's pending queue. It
+removes only an exact watcher-generated message whose stable batch identity,
+complete text and event IDs match local records and whose events are all ACKed.
+It rechecks that message before removal and confirms absence afterward. Ordinary
+user messages, altered messages and partially acknowledged batches are preserved.
+The delivery hook records late consumption even if the result was already ACKed.
+
+Deleting a queued wake does not delete its result files or local event record.
+An unacknowledged queued event absent from the native queue gets a one-minute,
+two-observation grace period for its delivery hook. It may return to pending only
+after the owner is no longer active and no consumption receipt exists. This
+transport recovery never acknowledges a result, resets the inactivity clock, or
+restarts research. Ambiguous sends without a reconciled receipt remain visible.
+Native inspection failure stops further dispatch until inspection succeeds.
+
+The event triggers and 14,400-second inactivity fallback remain unchanged. The
+native queue repair does not introduce recurring model checks. Verification uses
+disposable queues for burst batching, ACK-before-consumption, concurrent sends,
+deleted wakes, delayed hooks and user-message preservation; production checks
+inspect existing messages without adding a synthetic wake.
+
+**November 7 Jangraw source release:** [Verified source and privacy projection](../results/phase_2_4_stage_15/THEORY_DAYS/JANGRAW_LOCAL_SOURCE_20261107.md) (OPS-S15-TD-JANGRAW-LOCAL-SOURCE-20261107). The version-2 archive matches its pin; packaged notice, identifier removal and neutral filenames verify. The curator accepts the NIMH notice for B1 and later source use with citation, acknowledgement and derivative identification, dated November 7. **B1 source/licence hold released.** Scientific mapping, validation and cost admission remain pending. Rutledge TD1–TD3 retrieval remains released; other holds, CPU-only bounds and monitoring deadlines are unchanged.
+
+**November 7 Rutledge source release:** [Verified local intake](../results/phase_2_4_stage_15/THEORY_DAYS/RUTLEDGE_LOCAL_SOURCE_20261107.md) (OPS-S15-TD-RUTLEDGE-LOCAL-SOURCE-20261107). The supplied ZIP and README match both MD5 checksums and the registered Dryad SHA-256 pins; extraction and private provenance are complete. **TD1–TD3 retrieval hold released.** Field mapping, known-answer validation, controls and cost admission remain pending. The tools catalog is updated. CPU-only Gear 2 bounds, other holds and monitoring deadlines are unchanged; no new scientific worker was started. Earlier retrieval-blocked snapshots below are historical.
+
+**November 7 morning health:** [Verified inspection](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0706.md) (OPS-S15-TD-HEALTH-20261107-0706). Evidence, locks, resources and monitoring verify. CPU-only Gear 2 is idle: research 0/4, ready 0/8. No new result, orphan or recoverable runtime fault; existing source, control, cost and build holds remain. Paid dispatch stays closed at $1.12 reconciled. Theory-days freezes new starts today at 19:00 PST; both original campaign clocks and final-packet policies remain. Earlier snapshots are historical.
+
 **November 7 queue health:** [Verified inspection](../results/phase_2_4_stage_15/THEORY_DAYS/HEALTH_20261107_0101.md) (OPS-S15-TD-HEALTH-20261107-0101). Completed evidence, locks, resources and monitoring verify; no new result or recoverable runtime fault. CPU-only Gear 2 remains idle: research 0/4, ready 0/8. Source retrieval and other source, control, cost and build holds persist. Paid dispatch is closed at $1.12, fully reconciled. Six-hour health checks continue; both original campaign clocks and final-packet policies remain. Earlier snapshots are historical.
 
 **November 6 daily reconciliation:** [Internal digest](../results/phase_2_4_stage_15/DRIVE/WEEK4_DIGEST_20261106.md) (OPS-S15-W4-DIGEST-20261106). Week 4 records and paid closure verify; no new Week 4 scientific claim. CPU-only Gear 2 is idle, research 0/4 and ready 0/8. Separate theory-days evidence is recorded; remaining source, control, cost and build holds persist. Paid usage is $1.12, all reconciled. Next fixed health: November 7 at 01:01:47 PST. Both original campaign windows and final-packet policies remain. Earlier snapshots are historical.

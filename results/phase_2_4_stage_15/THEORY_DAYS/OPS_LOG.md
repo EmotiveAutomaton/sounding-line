@@ -178,3 +178,19 @@ Preserve failed attempts, source refusals, accounting and admission decisions.
 2026-11-07T09:06:22.649830+00:00 OPS-S15-TD-HEALTH-20261107-0101: idle-capacity defect persists; +19.830341 shared unused slot-hours since the digest; 0/4 active, 0/8 ready. Source/support/control/cost holds and unfinished build/admission work; no recoverable runtime fault found.
 
 2026-11-07T11:15:15.683006+00:00 OPS-S15-TD-PUBLICATION-CONTINUATION-20261107: Completed results and state were published before queue work resumed; recording checks pass, while source access and the unbuilt ready buffer still prevent new admitted execution.
+
+2026-11-07T15:10:17.763635+00:00 OPS-S15-TD-HEALTH-20261107-0706: Completed evidence, locks and monitoring remain valid; CPU-only Gear 2 is idle with no admitted ready work, and existing source, control, cost and build holds remain.
+
+2026-11-07T15:10:26.062991+00:00 OPS-S15-TD-HEALTH-20261107-0706: idle-capacity defect persists; +24.291118 shared unused slot-hours since prior health; 0/4 active, 0/8 ready. Existing holds and unbuilt admission buffer; no recoverable runtime fault.
+
+2026-11-07T15:44:30.443536+00:00 OPS-S15-TD-RUTLEDGE-LOCAL-SOURCE-20261107: The supplied Rutledge files match the registered source pins and are safely extracted; the TD1–TD3 retrieval hold is released, while mapping and scientific admission remain pending.
+
+2026-11-07T15:58:42.391862+00:00 OPS-S15-TD-JANGRAW-LOCAL-SOURCE-20261107: The pinned Jangraw archive and identifier-stripped working copy verify; the curator’s dated source-use decision releases B1’s source/licence hold, while scientific admission remains pending.
+
+2026-11-07T16:05:00.802046+00:00 OPS-S15-TD-ARGREWRITE-INVENTORY-20261107: ArgRewrite V.2 is available locally, including the writers’ pre-study survey and revision-goal self-reports; the manifest’s unavailable status was stale.
+
+2026-11-08T03:07:48.167493+00:00 OPS-S15-TD-START-FREEZE-20261107: Theory-days new starts are frozen; completed evidence and accounting reconcile, an internal digest is assembled, and the final curator packet awaits the original drain.
+
+2026-11-08T03:09:34.308673+00:00 OPS-S15-TD-START-FREEZE-20261107: Separate Week 5 liveness at 19:08 PST verifies one advancing worker, fresh accounting, matching lease, healthy resources and all locks. Next checkpoint check 19:12:29 PST; original six-hour health unchanged. No allocation change.
+
+2026-11-08T15:06:24.805532+00:00 OPS-S15-TD-FINAL-DRAIN-20261108: Theory-days is closed with complete evidence reconciliation and its final curator digest; unrun cards and all existing scientific limitations remain explicit.

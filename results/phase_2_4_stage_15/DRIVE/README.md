@@ -1,5 +1,9 @@
 # October 16 drive evidence
 
+**Week 4 final packet and drain:** [Final packet](WEEK4_FINAL_DIGEST_20261108.md) and [drain addendum](WEEK4_DRAIN_20261108.md). The drain adds no result or charge; completed evidence and paid settlement remain unchanged. New starts and paid dispatch stay closed. The [calendar has completed and exited](WEEK4_CALENDAR_COMPLETE_20261108.md), with the addendum filed before its deadline. Week 5 continues separately.
+
+**November 7 daily reconciliation:** [Internal digest](WEEK4_DIGEST_20261107.md). Week 4 evidence and closed paid settlement are preserved. Shared utilization accounts separately for Week 5 and the owner-selected first-gear change. Earlier snapshots below are historical.
+
 **November 6 daily reconciliation:** [Internal digest](WEEK4_DIGEST_20261106.md) (OPS-S15-W4-DIGEST-20261106). Week 4 records and paid closure verify; no new Week 4 scientific claim. CPU-only Gear 2 is idle, research 0/4 and ready 0/8. Separate theory-days evidence is recorded; remaining source, control, cost and build holds persist. Paid usage is $1.12, all reconciled. Next fixed health: November 7 at 01:01:47 PST. Both original campaign windows and final-packet policies remain. Earlier snapshots are historical.
 
 **Week 4 paid cutoff:** [Verified closure](WEEK4_PAID_CUTOFF_20261106.md) (OPS-S15-W4-PAID-CUTOFF-20261106). Paid dispatch closed November 6 at 17:00 PST. All 15 recorded batches are reconciled at $1.12; none is active or unsettled. CPU-only Gear 2 remains idle, research 0/4 and ready 0/8; source, control, cost and build holds remain. The separate theory-days clock and both final-packet policies are unchanged. Next health inspection: 18:54:44 PST. Earlier snapshots are historical.

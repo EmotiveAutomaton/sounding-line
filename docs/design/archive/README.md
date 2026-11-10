@@ -1,5 +1,12 @@
 # Historical study designs
 
+The [November 8 independent verification](THEORY_ERRATA_REVERIFIED_20261108.json) replays all 38 edits from both November source packets against retained preimages and authenticates the current theory files. Documented adaptations and the intervening result row and afterword remain intact. The [filing ledger](../../archive/operations/DOCUMENT_RELOCATIONS_20261108.json) records byte-preserved duplicate originals; existing application receipts remain unchanged.
+
+The [November 7 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-11-07.md) is
+**applied**. Its [twelve-edit receipt](THEORY_ERRATA_20261107_APPLIED.json)
+records exact unique anchors, retained old rows, supplied quotation/read-level
+provenance and verification. This is theory filing, not a new result landing.
+
 The [November 6 theory errata](SOUNDING_LINE_THEORY_ERRATA_2026-11-06.md) is
 **applied**. Its [26-edit receipt](THEORY_ERRATA_20261106_APPLIED.json) records
 exact anchor checks, two afterword merges preserving later results, quotation

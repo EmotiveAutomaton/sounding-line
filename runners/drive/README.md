@@ -1,5 +1,12 @@
 # October 16 drive runners
 
+**Current Week 5 wake policy (November 8):**
+`calendar_20261107_week5_event_idle` preserves campaign milestones while leaving
+event delivery and a four-hour owner-inactivity fallback to the watcher. It
+replaces only the original calendar process; the original source and completed
+markers remain retained. Use the private `CALENDAR_CURRENT.json` pointer in the
+Week 5 operational state for its live identity. No hourly build timer remains.
+
 **Week 4 current health:** [Verified inspection](../../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0635.md) (OPS-S15-W4-HEALTH-20261106-0635). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and outdated preparation reminders are reconciled with completed work. Local research 0/4; ready 0/8. GPU parked; 112 campaign cents settled and no batch active. Existing admission holds and final-packet policy remain. Earlier snapshots are historical.
 
 **Week 4 current health:** [Verified inspection](../../results/phase_2_4_stage_15/DRIVE/WEEK4_HEALTH_20261106_0028.md) (OPS-S15-W4-HEALTH-20261106-0028). Completed records and monitoring verify; Gear 2 remains idle with an unbuilt ready buffer, and stale running-job reminders are corrected. Local research 0/4; ready 0/8. GPU parked; 112 campaign cents settled and no batch active. Existing admission holds and final-packet policy remain. Earlier snapshots are historical.

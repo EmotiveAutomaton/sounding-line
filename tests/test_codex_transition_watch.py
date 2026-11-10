@@ -169,3 +169,97 @@ def test_week5_producer_pause_is_terminal_but_not_science(context,monkeypatch,ch
     events=watch.scan(cfg,repo=repo,state=state,now=10)
     assert (repo/cfg['process_watches'][0]['failure_output']).exists() is not expected
     assert len(events)==(1 if expected else 2)
+
+
+@pytest.mark.parametrize('change,expected', [({}, True),
+    ({'checkpoint_outputs': {}}, False),
+    ({'checkpoint_outputs': {'a': 'bad'}}, False),
+    ({'paused_operation': 'running'}, False),
+    ({'completed': True}, False), ({'completed': -1}, False),
+    ({'completed': 2000}, False), ({'total': None}, False),
+    ({'phase': ''}, False), ({'status': 'running'}, False)])
+def test_week5_counter_pause_owns_notification(context, monkeypatch, change, expected):
+    repo,state,cfg,native=context
+    producer=dict(status='yielded',phase='primary_bootstrap',completed=100,total=2000)
+    record=dict(at='2026-11-07T20:00:06Z',status='PAUSED',card='MD3-full-pilot-v2',
+                cpu_seconds=139.734375,scientific_admission=False,
+                checkpoint_validation_required=True,paused_operation='execute',
+                checkpoint_outputs={'first-play/standing_bootstrap.npz':'a'*64},
+                reason=dict(reason='Producer checkpoint quantum',producer=producer))
+    for k,v in change.items():
+        (producer if k in producer else record)[k]=v
+    (repo/'job').mkdir();(repo/'job/PAUSED.json').write_text(json.dumps(record))
+    cfg['paths']=['job/PAUSED.json'];cfg['process_watches'][0]['terminal_paths']=['job/PAUSED.json']
+    monkeypatch.setattr(watch,'native_identity',lambda pid:None)
+    events=watch.scan(cfg,repo=repo,state=state,now=10)
+    assert (repo/cfg['process_watches'][0]['failure_output']).exists() is not expected
+    assert len(events)==(1 if expected else 2)
+
+
+def test_week5_sealed_document_quantum_without_phase_reason(context, monkeypatch):
+    repo,state,cfg,native=context
+    record=dict(at='2026-11-07T20:00:06Z',status='PAUSED',card='GO2-source-pilot',
+                cpu_seconds=10,scientific_admission=False,checkpoint_validation_required=True,
+                paused_operation='execute',checkpoint_outputs={'document-parts/000000/SEAL.json':'b'*64},
+                reason=dict(reason='Producer checkpoint quantum',producer=dict(status='yielded',
+                    source_only=True,documents_complete=10,documents_total=200)))
+    (repo/'job').mkdir();(repo/'job/PAUSED.json').write_text(json.dumps(record))
+    cfg['paths']=['job/PAUSED.json'];cfg['process_watches'][0]['terminal_paths']=['job/PAUSED.json']
+    monkeypatch.setattr(watch,'native_identity',lambda pid:None)
+    assert len(watch.scan(cfg,repo=repo,state=state,now=10))==1
+    assert not (repo/cfg['process_watches'][0]['failure_output']).exists()
+
+
+@pytest.mark.parametrize('producer,valid',[
+    ({'status':'yielded','phase':'encoding','texts_completed':512,'texts_total':600,'new_chunks':1},True),
+    ({'status':'yielded','phase':'V1_directions','bank':0,'annotator_index':1,'new_fits':1,'full_fits':36},True),
+    ({'status':'yielded','phase':'clustering_pending','texts_completed':600,'texts_total':600},True),
+    ({'status':'yielded','phase':''},False),
+    ({'status':'yielded','phase':False},False),
+    ({'status':'running','phase':'encoding','texts_completed':512,'texts_total':600},False),
+    ({'status':'yielded','phase':'encoding','completed':5},False),
+    ({'status':'yielded','phase':'encoding','completed':True,'total':10},False),
+    ({'status':'yielded','phase':'encoding','completed':10,'total':10},False),
+])
+def test_phase_is_not_a_generic_counter_pair(tmp_path,producer,valid):
+    record=dict(status='PAUSED',at='2026-11-07T21:23:14Z',card='constructed',cpu_seconds=.5,
+        checkpoint_validation_required=True,scientific_admission=False,paused_operation='execute',
+        checkpoint_outputs={'chunk.bin':'a'*64},reason={'reason':'Producer checkpoint quantum','producer':producer})
+    path=tmp_path/'PAUSED.json';path.write_text(json.dumps(record),encoding='utf8')
+    assert watch.valid_json(path) is valid
+    path=tmp_path/'PROGRESS.json';path.write_text(json.dumps(record),encoding='utf8')
+    assert not watch.valid_json(path)
+    record['checkpoint_outputs']={};path=tmp_path/'PAUSED.json';path.write_text(json.dumps(record),encoding='utf8')
+    assert not watch.valid_json(path)
+
+
+@pytest.mark.parametrize('change,valid',[
+    ({},True),({'guard_reason':'native precision memory guard requested a sealed-block yield'},True),
+    ({'guard_reason':'generic wait'},False),({'identity':{}},False),({'identity_pid':True},False),
+    ({'identity_creation_time':float('nan')},False),({'identity_creation_time':0},False),
+    ({'identity_executable':''},False),({'identity_command_line':'python'},False),({'identity_command_line':[]},False),
+    ({'snapshot':{}},False),({'snapshot':{'commit_headroom_bytes':True,'ram_available_bytes':10}},False),
+    ({'snapshot':{'commit_headroom_bytes':-1,'ram_available_bytes':10}},False),
+    ({'snapshot':{'memory_query_error':'failed'},'guard_reason':'native precision memory guard requested a sealed-block yield'},True),
+    ({'snapshot':{'memory_query_error':''},'guard_reason':'native precision memory guard requested a sealed-block yield'},False),
+    ({'snapshot':{'memory_query_error':'failed'}},False),
+    ({'checkpoint_outputs':{}},False),({'checkpoint_outputs':{'x':'bad'}},False),
+    ({'paused_operation':'running'},False),({'scientific_admission':True},False),
+    ({'checkpoint_validation_required':False},False),({'status':'running'},False),({'cpu_seconds':True},False),
+])
+def test_exact_self_owned_guard_pause(tmp_path,change,valid):
+    identity=dict(pid=123,creation_time=100.,executable='python.exe',command_line=['python.exe','fixture'])
+    reason=dict(reason='precision verification resource admission refused',identity=identity,
+        snapshot={'commit_headroom_bytes':10,'ram_available_bytes':20})
+    record=dict(status='PAUSED',at='2026-11-07T21:37:15Z',card='constructed-guard',cpu_seconds=1.,
+        scientific_admission=False,checkpoint_validation_required=True,paused_operation='verify',
+        checkpoint_outputs={'guard.json':'a'*64},reason=reason)
+    for k,v in change.items():
+        if k.startswith('identity_'):identity[k.removeprefix('identity_')]=v
+        elif k in ['identity','snapshot']:reason[k]=v
+        elif k=='guard_reason':reason['reason']=v
+        else:record[k]=v
+    path=tmp_path/'PAUSED.json';path.write_text(json.dumps(record),encoding='utf8')
+    assert watch.valid_json(path) is valid
+    path=tmp_path/'PROGRESS.json';path.write_text(json.dumps(record),encoding='utf8')
+    assert not watch.valid_json(path)

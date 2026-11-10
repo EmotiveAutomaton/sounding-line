@@ -7,6 +7,7 @@ ambiguous send remains visible; a cancel file is checked just before every send.
 from __future__ import annotations
 
 import argparse
+import errno
 import hashlib
 import json
 import math
@@ -194,6 +195,24 @@ def valid_json(path):
         # Week 5's bounded producer quantum also ends its native worker.
         # This recognizes a checkpoint receipt, never a completed science result.
         producer = reason.get("producer") if isinstance(reason, dict) else None
+        # Producers may return counters rather than a reason string. The
+        # runtime's sealed-checkpoint envelope owns their terminal notification;
+        # actual checkpoint validation remains mandatory before any resume.
+        checkpoints = record.get("checkpoint_outputs")
+        counter_valid = (isinstance(producer, dict) and
+                         ("phase" not in producer or
+                          (isinstance(producer["phase"], str) and bool(producer["phase"]))) and
+                         (not ({"completed", "total"} & producer.keys()) or
+                          (isinstance(producer.get("phase"), str) and bool(producer["phase"])
+                           and type(producer.get("completed")) is int
+                           and type(producer.get("total")) is int
+                           and 0 <= producer["completed"] < producer["total"])))
+        counter_pause = (counter_valid
+                         and record.get("paused_operation") in {"execute", "verify"}
+                         and isinstance(checkpoints, dict) and bool(checkpoints)
+                         and all(isinstance(k, str) and bool(k)
+                                 and isinstance(v, str) and re.fullmatch(r"[0-9a-f]{64}", v)
+                                 for k, v in checkpoints.items()))
         producer_pause = (path.name == "PAUSED.json" and status == "PAUSED"
                           and record.get("scientific_admission") is False
                           and record.get("checkpoint_validation_required") is True
@@ -203,7 +222,42 @@ def valid_json(path):
                           and isinstance(reason, dict)
                           and reason.get("reason") == "Producer checkpoint quantum"
                           and isinstance(producer, dict) and producer.get("status") == "yielded"
-                          and isinstance(producer.get("reason"), str) and bool(producer["reason"]))
+                          and ((isinstance(producer.get("reason"), str) and bool(producer["reason"]))
+                               or counter_pause))
+        # The AT precision worker's self-owned native memory guard writes an
+        # exact request envelope, without the supervisor's timestamp/reason.
+        # This owns notification only; sealed bytes still need resume validation.
+        guard_identity = reason.get("identity") if isinstance(reason, dict) else None
+        guard_snapshot = reason.get("snapshot") if isinstance(reason, dict) else None
+        native_guard_identity = (isinstance(guard_identity, dict)
+            and type(guard_identity.get("pid")) is int and guard_identity["pid"] > 0
+            and type(guard_identity.get("creation_time")) in (int, float)
+            and math.isfinite(guard_identity["creation_time"]) and guard_identity["creation_time"] > 0
+            and isinstance(guard_identity.get("executable"), str) and bool(guard_identity["executable"])
+            and isinstance(guard_identity.get("command_line"), list) and bool(guard_identity["command_line"])
+            and all(isinstance(arg, str) for arg in guard_identity["command_line"])
+            and bool(guard_identity["command_line"][0]))
+        native_guard_snapshot = (isinstance(guard_snapshot, dict)
+            and ((set(guard_snapshot) == {"commit_headroom_bytes", "ram_available_bytes"}
+                  and all(type(v) is int and v >= 0 for v in guard_snapshot.values()))
+                 or (set(guard_snapshot) == {"memory_query_error"}
+                     and isinstance(guard_snapshot["memory_query_error"], str)
+                     and bool(guard_snapshot["memory_query_error"])
+                     and reason.get("reason") == "native precision memory guard requested a sealed-block yield")))
+        native_guard_pause = (path.name == "PAUSED.json" and status == "PAUSED"
+            and record.get("scientific_admission") is False
+            and record.get("checkpoint_validation_required") is True
+            and isinstance(record.get("card"), str) and bool(record["card"])
+            and isinstance(record.get("at"), str) and bool(record["at"])
+            and type(cpu) in (int, float) and math.isfinite(cpu) and cpu >= 0
+            and isinstance(reason, dict) and reason.get("reason") in {
+                "precision verification resource admission refused",
+                "native precision memory guard requested a sealed-block yield"}
+            and native_guard_identity and native_guard_snapshot
+            and record.get("paused_operation") in {"execute", "verify"}
+            and isinstance(checkpoints, dict) and bool(checkpoints)
+            and all(isinstance(k, str) and bool(k) and isinstance(v, str)
+                    and re.fullmatch(r"[0-9a-f]{64}", v) for k, v in checkpoints.items()))
         # Finite coordinators retain PID-suffixed, statusless exception receipts.
         # Recognize that exact filename/field shape without accepting a running
         # record, arbitrary error log or malformed exception as a terminal.
@@ -213,7 +267,7 @@ def valid_json(path):
                                for key in ("at", "error", "traceback")))
         return ((isinstance(status, str) and status.upper() in {"COMPLETE", "PASS", "FITTED", "FAILED"})
                 or (path.name == "FAILED.json" and "error" in record) or pid_failure
-                or saved_pause or checkpoint_pause or producer_pause)
+                or saved_pause or checkpoint_pause or producer_pause or native_guard_pause)
     except (ValueError, OSError):
         return False
 
@@ -288,10 +342,28 @@ def prompt(events):
 
 
 def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, native_sender=None):
+    # ACKs can arrive inside a send. Serialize the whole transport operation,
+    # rather than relying on the event state remaining 'sending' until return.
+    lock=singleton(state/'wake-delivery.lock')
+    try:
+        lock.__enter__()
+    except OSError as exc:
+        if exc.errno in {errno.EACCES,errno.EAGAIN}:
+            return 'delivery-in-progress'
+        raise
+    try:
+        return _deliver(config,state=state,repo=repo,runner=runner,now=now,
+                        native_sender=native_sender)
+    finally:
+        lock.__exit__(None,None,None)
+
+
+def _deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, native_sender=None):
     now = time.time() if now is None else now
     if (state / "watch.cancel").exists():
         return "cancelled"
     with database(state) as db:
+        db.execute("BEGIN IMMEDIATE")
         owner = get(db, "owner")
         if not owner:
             return "no-owner"
@@ -304,6 +376,10 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
             "AND next_try<=? ORDER BY created", (now,))]
         if not events:
             return "nothing-pending"
+        # A running owner will see durable events in its handoff. Urgency cannot
+        # manufacture another queued turn while that owner is already working.
+        if config.get('single_pending_wake') and owner_active(db, now):
+            return "owner-active"
         # Inspect urgency before limiting the batch: a failure must not sit behind
         # twenty routine successes. Keep the original outbox/acknowledgment guard.
         events.sort(key=lambda event: (not urgent(event, config), event["created"]))
@@ -349,6 +425,12 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
             status, error = 'queued', None
         else:
             status, queue_id, error = deliver_cli(cmd, runner, repo, owner)
+    except codex_queue_api.QueueBusy:
+        with database(state) as db:
+            for event in events:
+                db.execute("UPDATE events SET state='pending',attempts=attempts-1 "
+                           "WHERE id=? AND acknowledged IS NULL", (event['id'],))
+        return 'native-queue-pending'
     except (TimeoutError, RuntimeError, ValueError, OSError, KeyError, TypeError) as exc:
         # Native writes can be accepted before an exception; require reconciliation.
         status, queue_id, error = 'unknown', None, type(exc).__name__ + '; inspect native queue before retry'
@@ -365,6 +447,46 @@ def deliver(config, *, state=STATE, repo=REPO, runner=subprocess.run, now=None, 
                        "next_try=CASE WHEN acknowledged IS NULL THEN ? ELSE next_try END WHERE id=?",
                 (settled, queue_id, error, now + min(3600, 60 * 2**attempts), event["id"]))
     return status
+
+
+def reconcile_native_queue(config, *, state=STATE, repo=REPO, now=None, reconciler=None):
+    """Keep transport backlog separate from scientific landing acknowledgments."""
+    if not config.get('single_pending_wake') or config.get('queue_transport')!='native-api':
+        return None
+    now=time.time() if now is None else now
+    with database(state) as db:
+        owner=get(db,'owner')
+        if not owner: return None
+        known={r['id']:dict(r) for r in db.execute('SELECT * FROM events')}
+    inspect=reconciler or codex_queue_api.reconcile_owner
+    result=inspect(config['codex'],repo,state,owner,known,prompt)
+    present={e:item['queue_id'] for item in result['present'] for e in item['event_ids']}
+    with database(state) as db:
+        db.execute('BEGIN IMMEDIATE')
+        if get(db,'owner')!=owner: raise ValueError('owner changed during queue inspection')
+        missing=get(db,'native_queue_missing',{})
+        next_missing={}
+        for eid,qid in present.items():
+            db.execute("UPDATE events SET state='queued',queue_id=?,error=NULL "
+                       "WHERE id=? AND acknowledged IS NULL",(qid,eid))
+        rows=db.execute("SELECT events.*,deliveries.at AS delivered_at FROM events "
+            "LEFT JOIN deliveries ON events.id=deliveries.event_id "
+            "WHERE acknowledged IS NULL AND state='queued'").fetchall()
+        for row in rows:
+            if row['id'] in present or row['delivered_at'] is not None: continue
+            # Missing means consumed OR deleted. Allow hooks to record consumption
+            # and the active owner to finish; require two separated observations.
+            first=missing.get(row['id'],now)
+            if now-first>=60 and not owner_active(db,now):
+                db.execute("UPDATE events SET state='pending',queue_id=NULL,next_try=0,"
+                           "error=NULL WHERE id=? AND acknowledged IS NULL",(row['id'],))
+                audit(db,'wake_queue_missing_recovered',{'event_id':row['id'],
+                    'previous_queue_id':row['queue_id'],'absent_since':first})
+            else: next_missing[row['id']]=first
+        put(db,'native_queue_missing',next_missing)
+        put(db,'native_queue_reconciliation',{'at':now,**result})
+        for item in result['retired']: audit(db,'acknowledged_wake_retired',item)
+    return result
 
 
 def deliver_cli(cmd, runner, repo, owner):
@@ -437,6 +559,7 @@ def status(state=STATE):
             "last_dispatch": get(db, "last_dispatch"), "last_acknowledged": get(db, "last_acknowledged"),
             "health_schedule": get(db, "health_schedule"),
             "delivery_decision": get(db, "watch_delivery_decision"),
+            "native_queue_reconciliation": get(db, "native_queue_reconciliation"),
             "watcher": get(db, "watcher"), "last_scan": get(db, "last_scan"),
             "watch_error": get(db, "watch_error"),
             "cancelled": (state / "watch.cancel").exists(),
@@ -464,6 +587,7 @@ def run(config, state=STATE, repo=REPO):
                 if (state / "watch.json").exists():
                     config = json.loads((state / "watch.json").read_text(encoding="utf-8"))
                 scan(config, repo=repo, state=state)
+                reconcile_native_queue(config, repo=repo, state=state)
                 decision = deliver(config, repo=repo, state=state)
                 with database(state) as db:
                     put(db, "watch_error", None)
