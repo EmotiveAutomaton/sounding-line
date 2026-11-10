@@ -1,5 +1,307 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-DIGEST-20261109
+
+**Hypothesis.** Are the complete results, repairs, tests, theory filing and remaining Week 5 work recorded accurately enough to continue useful research?
+
+**METHOD.** Verify all ledger source anchors and report/receipt membership; reconcile native admission-to-terminal occupancy, exact live identities, leases, output freshness, current resources, source locks and watcher delivery. Preserve complete scientific wording, all failed attempts and the existing cost ceilings. Replay the filed theory-errata application against current source bytes. This is an internal daily reconciliation, not the final scientific packet.
+
+**Found.** The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates.
+
+**Corrections first.** The table preserves every correction-bearing ledger row and its stated class. Historical gear and wake directions remain historical. The two new texture failures occurred before slot admission when another worker retired its lease during enumeration; both preserve zero numerical child CPU, their supervisor allowances, and complete successful same-scope serial recoveries. They are environmental interruptions, not new scientific negatives or discarded trials. The static comfort-publication mismatch is a separately frozen compatibility successor, still undergoing native parity qualification at this snapshot.
+
+| Ledger ID | Class | Exact recorded wording |
+|---|---|---|
+| OPS-S15-W5-SOURCE-RECOVERY-20261107 | instrument | The repaired mood source and the conversation sources pass full replay; the deliberate-pause monitoring mismatch is corrected and its original alert retained. |
+| OPS-S15-W5-RUNTIME-V3-20261107 | instrument | The runtime now preserves verification pauses as authenticated checkpoints and completes only after a full independent replay; false verification still fails. |
+| OPS-S15-W5-SP1-RANK-20261107 | instrument | The original thermal slope contrast has invalid bootstrap uncertainty because an irrelevant mixed-mode nuisance group lost rank in two draws; the unchanged primary has a separately validated exact repair. |
+| OPS-S15-W5-AT-COVARIATE-FAILURE-20261107 | data | The complete timing-control reconstruction stopped on a literal-empty reopen before any recorded display; a separately fixtured zero-exposure repair is being built. |
+| OPS-S15-W5-S2-SOURCE-SCOPE-20261107 | scope | The prior revision-source candidate count covers currently wholly typed targets only; it is not an upper bound for every sentence that was wholly typed at first production. |
+| OPS-S15-W5-MD3-PAUSE-MONITOR-20261107 | instrument | The standing-choice pilot paused at its declared checkpoint; the disappearance alert was a notification-schema error and its saved work verifies. |
+| OPS-S15-W5-SEALED-PAUSE-MONITOR-20261107 | instrument | The watcher recognizes sealed producer checkpoints across both draw and document quanta without treating a pause as scientific completion. |
+| OPS-S15-W5-RUNTIME-V4-RECOVERY-20261107 | instrument | Concurrent accounting reads now retry bounded Windows sharing failures, and both stopped chess prefixes resume from preserved journals with fresh source verification still required. |
+| OPS-S15-W5-AT-COVARIATES-H3-20261107 | instrument | The repaired writing-control reconstruction replays the complete session population and records empty menu reopens as zero new display exposure. |
+| OPS-S15-W5-GO2-HISTORY-FAILURE-20261107 | data | The proposal-history pilot stopped on a copied-file ancestry boundary; the original failure is retained and a separately fixtured same-document repair is in build. |
+| OPS-S15-W5-READER-PILOT-DISPATCH-20261107 | instrument | The reader pilot population is frozen from metadata, and the reviewed-plan dispatcher was validated; new automatic reader starts are paused after independent numerical checks failed. |
+| OPS-S15-W5-GO2-BYTE-RECOVERY-20261107 | data | The second proposal-history source correction captures raw Git bytes and treats undeclared undecodable versions as explicit gaps; both previous failures and their costs remain preserved. |
+| OPS-S15-W5-APRIL-CENSUS-RECOVERY-20261107 | instrument | The April chess census resumes its authenticated saved progress under the bounded-sharing-read runtime; the original failure remains charged and complete source replay is still mandatory. |
+| OPS-S15-W5-RESUME-MONITOR-20261107 | instrument | Authenticated continuation now accepts only the declared operational bounds; sealed encoder and fit checkpoints retain their proper pause status. |
+| OPS-S15-W5-S2-EMPTY-SUPPORT-20261107 | instrument | The writing-source repair preserves writers with no eligible timing sentences and recomputes the complete source under the unchanged timing rule. |
+| OPS-S15-W5-BUILD-CONTINUATION-20261107-1350 | instrument | Seven counted CPU workers are progressing; remaining builds continue while the largest numerical-control verification waits for its declared memory margin. |
+| OPS-S15-W5-KLICKE-RUNTIME-20261107 | instrument | The keystroke-source verifier now satisfies the execution interface and passes a counted pause, continuation and fresh-replay fixture. |
+| OPS-S15-W5-BK-SLOT-BANK-20261107 | scope | Backlog admission now uses only the original four CPU slots, with the corrected allocator independently verified and historical allocation deviations retained. |
+| OPS-S15-W5-AT-IDEMPOTENT-COMPLETION-20261107 | instrument | Completed reader scores now survive a real counted pause and continuation without overwriting their original cost or changing numerical checks. |
+| OPS-S15-W5-AT-NUMERICAL-FAILURES-20261107 | instrument | Four original reader chunks failed independent numerical agreement and remain inadmissible; their costs and evidence are retained while the separate precision recovery remains gated. |
+| OPS-S15-W5-CH-BOUNDED-20261107 | instrument | The bounded chess scorer passes authentic owner-pause, immutable continuation and complete native replay; the earlier fixture-envelope failure and all costs remain recorded. |
+| OPS-S15-W5-GO3-JOURNAL-RECOVERY-20261107 | instrument | The SQLite journal enumeration race is repaired and passes counted native replay; the failed source attempt is preserved and recovery is restricted to its earlier authenticated checkpoint. |
+| OPS-S15-W5-AT-PRECISION-MIGRATION-20261108 | instrument | The preserved largest-reader precision control completes its unchanged fresh verification; original score and cost bytes survive migration. |
+
+**Complete scientific inventory.** Each row below is already fully written through. The route is its recorded route at landing; the current build matrix below distinguishes obligations subsequently completed. No unfinished cell supplies a score. The thirteen original appraisal textures and seven original revision-goal textures are complete and descriptive. No texture upgrades its parent. Primary null/against wording retains its sensitivity qualification; constructed arithmetic controls do not establish human sensitivity. Theory rows and afterwords remain deferred to the curator theory pass under Week 5 section 3.
+
+| Ledger ID / detail | Control status | Recorded outcome | Exact public wording |
+|---|---|---|---|
+| S15-W5-IN1-20261107 (WEEK5/IN1_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | supports | Across the four prompted emotions, the frozen trigger-fit index adds a positive descriptive association with reported intensity beyond valence, confidence and response style; only RAGE and DISGUST clear their separate bars. |
+| S15-W5-IN2-20261107 (WEEK5/IN2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The interaction of consequence anticipation and unpleasantness is inconclusive in the prompted FEAR reports; its negative point estimate does not distinguish uncertainty-sensitive fear from stress in the same rating. |
+| S15-W5-IN3-20261107 (WEEK5/IN3_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | against | The RAGE-minus-FEAR control contrast lies inside the registered practical band in these self-reports; minimum-effect sensitivity remains to be checked before treating this as evidence of absence. |
+| S15-W5-IN4-20261107 (WEEK5/IN4_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | against | The pooled excess disagreement on the proposed trigger profiles is not detected beyond the registered practical band; minimum-effect sensitivity remains untested. |
+| S15-W5-SP1-H2-20261107 (WEEK5/SP1_h2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | supports | The repaired, unchanged thermal contrast supports a larger outdoor-to-neutral-temperature slope in naturally ventilated buildings than in air-conditioned buildings; this is an observational adaptive-comfort comparison. |
+| S15-W5-SP2-20261107 (WEEK5/SP2_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | supports | Air-conditioned buildings have a larger median sensation-per-degree slope than naturally ventilated buildings in this observational sample; cooling type does not separate thermal history from perceived control. |
+| S15-W5-SP3-20261107 (WEEK5/SP3_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity separate | inconclusive | The registered negative relation between thermal sensitivity and distance from 22 degrees is inconclusive; the observational comparison does not establish dulling. |
+| S15-W5-MD4-20261107 (WEEK5/MD4_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The condition-specific mood-drift contrast is inconclusive in the accepted first-visit cohorts; it does not establish the analyst’s proposed interest set point. |
+| S15-W5-LA2-AMI-20261107 (WEEK5/LA2_AMI_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | The same-language difference in joined laughter is inconclusive in AMI; this does not establish shared background as a marker of shared inference. |
+| S15-W5-MD12-20261107 (WEEK5/MD12_PRIMARY.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | Both frozen happiness-model comparisons are inconclusive: the level model falls short of its error-gain bar, and the spread effect does not reach its practical magnitude. |
+| S15-W5-LA2-ICSI-20261107 (WEEK5/LA2_ICSI_BACKGROUND.md) | passes numerical known answers; minimum-effect sensitivity unquantified | inconclusive | Both ICSI background comparisons are inconclusive; recorded English variety and region do not establish a shared-inference mechanism. |
+| S15-W5-MD3-20261107 (WEEK5/MD3_PRIMARY.md) | passes | supports | The registered first-play comparison supports lower risk-taking further below the starting score. Risk-taking does not rise with surplus in that fit, and the repeat-play pattern depends on the reference used. |
+| S15-W5-GO3-PRIMARY-20261108 (WEEK5/GO3_PRIMARY.md) | passes | supports | The frozen diff-feature classifier supports prediction of comment-derived stated editing-reason categories beyond the training-prior baseline on held-out editors in the five-site archive. |
+| S15-W5-GO3-HABIT-SUPPORT-20261108 (WEEK5/GO3_PRIMARY.md) | untested | unsupported | The personal editing-pattern comparison is unsupported because its fixed galleries lack independent same-post donor coverage. |
+| S15-W5-GO3-SELF-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Self-edits cell records a gain of 0.055914 with interval [0.053234, 0.058509]; this does not upgrade the original primary. |
+| S15-W5-GO3-NO-ITERATER-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Without annotation-probability features cell records a gain of 0.038714 with interval [0.035730, 0.041810]; this does not upgrade the original primary. |
+| S15-W5-GO3-WRITERS-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Writers cell records a gain of 0.096156 with interval [0.085178, 0.107014]; this does not upgrade the original primary. |
+| S15-W5-GO3-PHILOSOPHY-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Philosophy cell records a gain of 0.053782 with interval [0.044394, 0.063290]; this does not upgrade the original primary. |
+| S15-W5-GO3-ACADEMIA-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Academia cell records a gain of 0.094147 with interval [0.086031, 0.104244]; this does not upgrade the original primary. |
+| S15-W5-GO3-WORLDBUILDING-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_REMAINING_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the Worldbuilding cell records a gain of 0.092221 with interval [0.083564, 0.099321]; this does not upgrade the original primary. |
+| S15-W5-GO3-ENGLISH-TEXTURE-20261108 (WEEK5/GO3_TEXTURES_REMAINING_COMPLETE_20261108.md) | passes | descriptive | Descriptive only: the English cell records a gain of 0.072247 with interval [0.068154, 0.076538]; this does not upgrade the original primary. |
+| S15-W5-IN1-DOUBLE_FIRST-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the double first cell records 0.162893 with interval [0.121902, 0.206020]; the primary claim is unchanged. |
+| S15-W5-IN1-BINARY4-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the binary4 cell records 0.122607 with interval [0.087144, 0.167683]; the primary claim is unchanged. |
+| S15-W5-IN1-MIN10-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the min10 cell records 0.154508 with interval [0.110770, 0.195195]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-TEXTURE-20261109 (WEEK5/IN_TEXTURES_FIRST_20261109.md) | passes | descriptive | Descriptive only: the reverse cell records -0.171252 with interval [-0.213013, -0.133385]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-FEAR-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.fear cell records -0.028376 with interval [-0.114370, 0.045622]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-ANGER-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.anger cell records -0.273093 with interval [-0.352581, -0.196030]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-SADNESS-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.sadness cell records -0.176189 with interval [-0.249076, -0.095564]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-DISGUST-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.disgust cell records -0.204965 with interval [-0.266214, -0.144309]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-JOY-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.joy cell records 0.081956 with interval [0.008813, 0.160773]; the primary claim is unchanged. |
+| S15-W5-IN1-REVERSE-BOREDOM-TEXTURE-20261109 (WEEK5/IN_TEXTURES_CHANNELS_20261109.md) | passes | descriptive | Descriptive only: the reverse.boredom cell records 0.164501 with interval [0.078532, 0.244201]; the primary claim is unchanged. |
+| S15-W5-IN4-LENGTH1-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length1 cell records 0.021750 with interval [-0.066433, 0.108461]; the primary claim is unchanged. |
+| S15-W5-IN4-LENGTH2-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length2 cell records -0.001063 with interval [-0.077773, 0.059718]; the primary claim is unchanged. |
+| S15-W5-IN4-LENGTH3-TEXTURE-20261109 (WEEK5/IN_TEXTURES_LENGTH_20261109.md) | passes | descriptive | Descriptive only: the agreement length3 cell records 0.001026 with interval [-0.052519, 0.068007]; the primary claim is unchanged. |
+
+**Utilization and remaining build.** From 2026-11-09T04:03:14.331124+00:00 through 2026-11-10T05:29:46.879965+00:00, eight authorized slots supplied 203.538997 slot-hours, of which 19.924086 were occupied and 183.614912 were idle. These are native occupancy hours, not CPU utilization. The two authenticated failures before admission add no occupied lane time; their operational costs remain charged. Across the retained allocation windows, available capacity is 427.071161, occupied 108.085710, idle 318.985451 slot-hours (74.69% idle). The earlier brief gear-transition excess remains separate.
+
+Idle capacity while commissioned work remains is a defect. Causes include incomplete owner qualification/admission, the reader memory gate, checkpoint restoration and landing, and source/numerical dependencies. Those causes were not separately timed; no invented causal split is supplied. The buffer is still below the required sixteen ready waiting cards. The original three builder assignments delivered; remaining review and native qualification are being handled inline. Zero builder agents are active. This records the shortfall rather than calling unqualified source files ready. No additional delegation or unrelated process cleanup is used to disguise it.
+
+The table distinguishes implemented or completed evidence from runnable human studies.
+
+| Family / obligation | Verified progress | Remaining gate or action |
+|---|---|---|
+| IN appraisal | Four primaries and all thirteen original texture cells complete. All three 500-world sensitivity qualification cases pass full native execution/replay, including a reachable high-noise failure. | Human IN3.ic/IN4.ic still require explicit publication/replay adapter admission and original remaining-cost review. Itemwise branches and optional precision successors remain prospective. |
+| SP comfort | Three primary results recorded, including repaired SP1. Nine known answers and all fourteen grid configurations complete native replay. | New human-publication wrapper is undergoing complete numerical-parity qualification; eleven textures and SP3.ic remain unadmitted. |
+| CH chess | April/May census and bounded collector/analysis controls retained; exact June first-five-percent census independently reproduced. | Full June census now running with independent source-zero verification. Complete July/source-storage, sample and scorer admission remain. |
+| AT / LA | Corrected reader checkpoint bank and prior numerical qualification retained. | Reader ordinal42 remains unstarted at its unchanged memory gate; complete selected-reader dependencies still gate downstream work. |
+| MD mood | Original completed primary records and source privacy projection retained. | Descendant implementations exist; fixed source constructors and complete native numerical qualification remain outstanding. |
+| GO goals | Original comparison and seven texture cells complete and recorded. | Other declared support/source limitations and separately registered descendants retain their original gates. |
+| BK long comparison | Complete immutable continuation54 checkpoint authenticated; continuation55 is progressing. | Whole208236-pair comparison, controls and independent replay remain incomplete. Operational quantum is now3600seconds; scientific configuration is unchanged. |
+
+**Validation and filing.** The focused checks passed 159 tests:27 source-free collector/qualification checks,114 wake-policy checks, and18 resume-boundary checks. The first two groups have retained log/receipt hashes; the last is observed successful tool execution, with no invented local log. The original27-test invocation encountered18 inaccessible default-scratch setup errors and9 passes; the same checks passed using an explicit writable workspace scratch directory. Native research qualifications are separate from this unit-test count. All21 locks pass. All38 November6/7 theory-errata edits were independently reverified against the current filed bytes. Source data, participant identities, predictions and raw archives remain ignored and uncommitted.
+
+**Current Gear 2 operations.** The table binds each active native attempt at the frozen inspection. Every child has two numerical threads and uses CPU only; source pins, accounting, leases and progress are inspected. The smaller reader-independent jobs do not override the reader's stricter memory floor.
+
+| Attempt | Native PID / creation ticks | Plan SHA-256 |
+|---|---|---|
+| BK-V1-whole-source-full-continuation-55 | 260968 / 134387587869001161 | 5618f02b2dd2b398a1f73c846e299a1af2d7052322b5d5b62d4c76d1944b8396 |
+| CH0-June-whole-source-20261109 | 273352 / 134387617869969317 | ebb1d2a2787e1730bb3d478f308f7665c4f7e5907053f8f8afca62c22ea034f4 |
+| SP-publication-counted-native-20261109 | 271632 / 134387620914622410 | dbde7fca903fd8d73490e39aeb08d06a3f684697e03cdb7e05481e70e07e5600 |
+
+Available RAM is 35.54GiB, system commit headroom 15.09GiB and disk 104.21GiB. Reader ordinal42 requires its unchanged26GiB commit/20GiB RAM margin and stays unstarted. The full June forecast is based on its complete measured prefix; the long comparison uses fewer costly checkpoint-copy boundaries without changing its estimand, participants, pairs, controls or draws.
+
+The watcher and current calendar match their native identities and pinned sources. Events plus14,400seconds of owner inactivity, with one pending owner wake, remain the policy. Routine event delivery is suppressed while the owner is active; durable results and guards remain independent. No hourly timer, polling agent, GPU, Ollama or paid work is added. The two old notification exceptions remain historical, with no current watcher error.
+
+**Publication and timing.** Checkpoint ac13874f4 was pushed and the exact remote HEAD verified before this record. It included the filed errata and reviewed prior evidence. The later comfort qualification and compatibility commits are local until the follow-up push is verified; the daily record does not claim that a future push has already happened. This20:00 daily reconciliation is filed late while the owner finishes active repairs, qualification and expansion; no timestamp is backdated. The November15 final packet,22:00 drain and23:00 addendum retain their original schedule.
+
+**Next.** Complete the active parity qualification and admit eligible original textures in frozen order with the seven-cell stop. Continue original source preparation and complete the remaining sensitivity/follow-up qualifications. No new hypothesis was harvested: this pass implements the commissioned healing and expansion work and the packet's existing grids. Preserve all result and cost records, then finish the authorized follow-up push.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates.; project meaning: scoped operational record; next engineering obligation: Continue the active native attempts and remaining original qualification, texture and source admissions; preserve all evidence and complete the authorized publication.; public scientific claim unchanged; curator decision required: No new decision. Detail: DIGEST_20261109.md.
+
+### OPS-S15-W5-IN-FAILURE-QUAL-COMPLETE-20261109
+
+**Hypothesis.** Can the sensitivity pipeline retain its ability to fail a high-noise design through full native execution and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations.
+
+Stage complete consumes 48.5 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 500 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Review all complete signed/null and high-noise branches together before separate human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations.; project meaning: scoped operational record; next engineering obligation: Reconcile all complete qualification branches, source and cost evidence before human sensitivity admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_FAILURE_QUALIFICATION_COMPLETE_20261109.md.
+
+### OPS-S15-W5-IN-FAILURE-QUAL-VERIFY-PILOT-20261109
+
+**Hypothesis.** Can the sensitivity pipeline retain its ability to fail a high-noise design through full native execution and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+Stage verify-pilot consumes 45.890625 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 500 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Review all complete signed/null and high-noise branches together before separate human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Reconcile all complete qualification branches, source and cost evidence before human sensitivity admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_FAILURE_QUALIFICATION_VERIFY_PILOT_20261109.md.
+
+### OPS-S15-W5-IN-FAILURE-QUAL-SOURCE-PILOT-20261109
+
+**Hypothesis.** Can the sensitivity pipeline retain its ability to fail a high-noise design through full native execution and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+Stage source-pilot consumes 3.859375 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 25 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Review all complete signed/null and high-noise branches together before separate human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Reconcile all complete qualification branches, source and cost evidence before human sensitivity admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_FAILURE_QUALIFICATION_SOURCE_PILOT_20261109.md.
+
+### OPS-S15-W5-CH-JUNE-PILOT-20261109
+
+**Hypothesis.** Can the complete commissioned June source be prepared with a measured cost basis and genuinely independent verification?
+
+**METHOD.** Read exactly the first 575,630 games of the original 11,512,600-game June 2017 source, preserving source and salt pins. Reconstruct the census from ordinal zero in a fresh SQLite database and compare every row in all six tables. Authenticate both native phases, final hashes and released ownership. No source subset is interpreted as the full population.
+
+**Found.** The exact first-five-percent June chess source pilot completes and every census row independently replays from source ordinal zero.
+
+The pilot consumes 2836.921875 measured CPU seconds and 2931.976 wall seconds, including complete independent replay. The linear twentyfold projection is 56738.438 CPU seconds before additional operational overhead; this is a forecast, not a measured full-run charge. The original 10,000-second pilot limit and all preparation/supervisor costs are retained. No new scientific estimate or p-value is produced.
+
+**Means.** Review full-population resource and remaining-family admission against this measured prefix, retaining the entire pilot and its charges. The whole-source census and subsequent sampling/scoring are still outstanding. Never treat a copied prefix or successful suffix as independently verified full evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The exact first-five-percent June chess source pilot completes and every census row independently replays from source ordinal zero.; project meaning: scoped operational record; next engineering obligation: Admit the unchanged full June census only after checking full replay cost, storage, resource headroom and remaining family budget.; public scientific claim unchanged; curator decision required: No new decision. Detail: CH_JUNE_PILOT_20261109.md.
+
+### OPS-S15-W5-SP-GRID-NATIVE-20261109
+
+**Hypothesis.** Can the original comfort models and all declared variations recover known building-level effects and reproduce their complete results?
+
+**METHOD.** Run nine positive, negative and exact-null building worlds through the actual three handlers with 2,000 resamples, using the accepted separate-group SP1 repair. Execute all fourteen original grid cells, including eleven 200-resample textures, then reconstruct every result in a fresh native verifier. Authenticate source pins, terminal outputs, native exits and complete output hashes.
+
+**Found.** The complete declared comfort grid passes signed and exact-null native controls, and every constructed result independently replays.
+
+The complete execution and replay consumed 437.765625 measured CPU seconds under the 1,200-second qualification cap, plus retained supervisor/preparation charges. These are constructed controls, not human findings. The ordinal variants retain latent-probit units; no linear practical bar is substituted. The numerical handlers, populations and controls remain unchanged. The local design and wrapper are committed in 64e209b4.
+
+**Means.** The eleven original texture configurations are eligible for separate owner admission using the already verified human source and original resource bounds. Each remains descriptive, has the original per-cell ceiling, and must obey the seven-cell practical-band stopping rule. Source validity, complete independent replay and full write-through still apply. This creates no p-value or scientific claim.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete declared comfort grid passes signed and exact-null native controls, and every constructed result independently replays.; project meaning: scoped operational record; next engineering obligation: Admit eligible original comfort textures in frozen order under their source, unit, budget and stopping rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP_GRID_NATIVE_20261109.md.
+
+### OPS-S15-W5-IN4-IC-QUAL-COMPLETE-20261109
+
+**Hypothesis.** Can the sensitivity pipeline preserve all registered worlds and refits through native pauses and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations.
+
+Stage complete consumes 53.890625 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 500 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Complete the remaining qualification stages and separate signed/failure cases before human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations.; project meaning: scoped operational record; next engineering obligation: Complete native qualification without changing sensitivity rules or reducing world counts.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN4_IC_QUALIFICATION_COMPLETE_20261109.md.
+
+### S15-W5-IN-TEXTURES-LENGTH-20261109
+
+**Hypothesis.** How stable is the original appraisal association under the declared weighting, intensity threshold, report-length and sign-reversal choices?
+
+**METHOD.** Use the complete admitted Crowd-enVENT projection, original within-prompt standardization and fixed controls for valence, confidence and response style. Each predeclared configuration resamples whole writers (or whole texts for agreement) 200 times; a fresh native verifier reconstructs the complete estimator. Controls retain the signed, exact-null, rank and reader-pair qualifications. No numerical model or participant population is selected after outcomes.
+
+**Found.** The completed predeclared appraisal variants are descriptive only; their original source, controls and complete independent replay are preserved, without upgrading the primary claim.
+
+The table gives each complete descriptive coefficient and its whole-cluster bootstrap interval. Appraisal slopes use within-prompt standardized units; agreement cells use rating-point excess error. The last column locates the interval against its original practical bar and is not a supported/against claim.
+
+| Declared variant | Reports/texts | Writer/text clusters | Estimate | 95% interval | Relation to 0.10 bar |
+|---|---:|---:|---:|---|---|
+| agreement length1 | 132 | 132 | 0.021750 | [-0.066433, 0.108461] | crosses |
+| agreement length2 | 132 | 132 | -0.001063 | [-0.077773, 0.059718] | below |
+| agreement length3 | 132 | 132 | 0.001026 | [-0.052519, 0.068007] | below |
+
+**Means and scope.** These are exploratory descriptions of prompted human self-reports, not biological channel measurements or causal interventions. Reversing every index sign algebraically reverses the slope; it is a diagnostic, not independent contrary evidence. Differences among cell estimates are not themselves tested paired contrasts. Raw program decision labels remain in the aggregate receipt but the ledger keeps every 200-draw cell descriptive. A crossing interval may receive the packet's separately frozen 2,000-draw precision follow-up. No p-values or automatic scientific descendants are introduced.
+
+The prior primary and its channel companions remain S15-W5-IN1-20261107, with agreement separately S15-W5-IN4-20261107. Related theory G235, G244, G247 and G252 and earlier word/rater instruments retain their distinct substrates; these writers cannot be joined retrospectively to those independent datasets. Theory rows and afterwords remain deferred to the curator theory pass under Week 5 section 3.
+
+Cite Troiano, Oberl?nder and Klinger (2023), doi:10.1162/coli_a_00461; corpus CC BY 4.0. No participant text or identities are published. Native terminal outputs, exact source/design pins, exited identities and released leases authenticate. Every launch, replay, supervisor allowance and preparation remains charged against the original 3,600-second texture and 60,000-second family limits.
+
+**Stopping and next work.** 13 original texture cells are complete; 0 remain. The consecutive count inside the practical band is 3 against seven required to stop. No original cell is skipped based on its result.
+
+Curator roll-up: channel triggers; How do the original appraisal relations vary across declared specifications?; **Narrows**; Complete descriptive appraisal variants retain the original primary scope.; project meaning: measurement dependence, not biological or causal inference; next engineering obligation: Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution.; public claim: original primary unchanged; curator decision required: No. Detail: WEEK5/IN_TEXTURES_LENGTH_20261109.md.
+
+### OPS-S15-W5-IN4-IC-QUAL-VERIFY-PILOT-20261109
+
+**Hypothesis.** Can the sensitivity pipeline preserve all registered worlds and refits through native pauses and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+Stage verify-pilot consumes 55.578125 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 500 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Complete the remaining qualification stages and separate signed/failure cases before human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete native qualification without changing sensitivity rules or reducing world counts.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN4_IC_QUALIFICATION_VERIFY_PILOT_20261109.md.
+
+### S15-W5-IN-TEXTURES-CHANNELS-20261109
+
+**Hypothesis.** How stable is the original appraisal association under the declared weighting, intensity threshold, report-length and sign-reversal choices?
+
+**METHOD.** Use the complete admitted Crowd-enVENT projection, original within-prompt standardization and fixed controls for valence, confidence and response style. Each predeclared configuration resamples whole writers (or whole texts for agreement) 200 times; a fresh native verifier reconstructs the complete estimator. Controls retain the signed, exact-null, rank and reader-pair qualifications. No numerical model or participant population is selected after outcomes.
+
+**Found.** The completed predeclared appraisal variants are descriptive only; their original source, controls and complete independent replay are preserved, without upgrading the primary claim.
+
+The table gives each complete descriptive coefficient and its whole-cluster bootstrap interval. Appraisal slopes use within-prompt standardized units; agreement cells use rating-point excess error. The last column locates the interval against its original practical bar and is not a supported/against claim.
+
+| Declared variant | Reports/texts | Writer/text clusters | Estimate | 95% interval | Relation to 0.10 bar |
+|---|---:|---:|---:|---|---|
+| reverse.fear | 547 | 473 | -0.028376 | [-0.114370, 0.045622] | below |
+| reverse.anger | 549 | 475 | -0.273093 | [-0.352581, -0.196030] | below |
+| reverse.sadness | 549 | 492 | -0.176189 | [-0.249076, -0.095564] | below |
+| reverse.disgust | 545 | 473 | -0.204965 | [-0.266214, -0.144309] | below |
+| reverse.joy | 549 | 478 | 0.081956 | [0.008813, 0.160773] | crosses |
+| reverse.boredom | 550 | 478 | 0.164501 | [0.078532, 0.244201] | crosses |
+
+**Means and scope.** These are exploratory descriptions of prompted human self-reports, not biological channel measurements or causal interventions. Reversing every index sign algebraically reverses the slope; it is a diagnostic, not independent contrary evidence. Differences among cell estimates are not themselves tested paired contrasts. Raw program decision labels remain in the aggregate receipt but the ledger keeps every 200-draw cell descriptive. A crossing interval may receive the packet's separately frozen 2,000-draw precision follow-up. No p-values or automatic scientific descendants are introduced.
+
+The prior primary and its channel companions remain S15-W5-IN1-20261107, with agreement separately S15-W5-IN4-20261107. Related theory G235, G244, G247 and G252 and earlier word/rater instruments retain their distinct substrates; these writers cannot be joined retrospectively to those independent datasets. Theory rows and afterwords remain deferred to the curator theory pass under Week 5 section 3.
+
+Cite Troiano, Oberl?nder and Klinger (2023), doi:10.1162/coli_a_00461; corpus CC BY 4.0. No participant text or identities are published. Native terminal outputs, exact source/design pins, exited identities and released leases authenticate. Every launch, replay, supervisor allowance and preparation remains charged against the original 3,600-second texture and 60,000-second family limits.
+
+**Stopping and next work.** 10 original texture cells are complete; 3 remain. The consecutive count inside the practical band is 0 against seven required to stop. No original cell is skipped based on its result.
+
+Curator roll-up: channel triggers; How do the original appraisal relations vary across declared specifications?; **Narrows**; Complete descriptive appraisal variants retain the original primary scope.; project meaning: measurement dependence, not biological or causal inference; next engineering obligation: Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution.; public claim: original primary unchanged; curator decision required: No. Detail: WEEK5/IN_TEXTURES_CHANNELS_20261109.md.
+
+### OPS-S15-W5-IN4-IC-QUAL-SOURCE-PILOT-20261109
+
+**Hypothesis.** Can the sensitivity pipeline preserve all registered worlds and refits through native pauses and independent verification?
+
+**METHOD.** Use the exact frozen constructed source, five signed effect levels, 100 worlds per level and 2,000 cluster refits per world. Authenticate native source pins, terminal outputs, whole copied ancestry and all prior costs. Compare each saved world after complete fresh replay, requiring both actual first-25-world pilot boundaries before qualification.
+
+**Found.** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+Stage source-pilot consumes 4.5 native CPU seconds, plus retained supervisor and launch/preparation allowances. The execution bank contains 25 complete sealed worlds. The earlier small component witness has a conservative 1,200-CPU-second reservation because its separate CPU receipt is absent; this reservation is not presented as measured use and is retained for both card and family admission. The unchanged 5,000-second descendant ceiling and 60,000-second family ceiling apply. No human outcome or scientific estimate is reported.
+
+**Means.** Complete the remaining qualification stages and separate signed/failure cases before human sensitivity admission. Preserve all original controls, draw counts, source scope and prior evidence.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete native qualification without changing sensitivity rules or reducing world counts.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN4_IC_QUALIFICATION_SOURCE_PILOT_20261109.md.
+
+### OPS-S15-W5-IN-TEXTURE-LEASE-RACE-20261109
+
+**Hypothesis.** Can declared texture cells start while other counted leases are being released without losing work or bypassing accounting?
+
+**METHOD.** Authenticate both failed terminal receipts, exact source plans, native exits and absence of numerical children. Inspect the failure stacks and active lease roster, then apply fresh admission in a new attempt after the completed short workers have exited. Preserve all originals and supervisor charges.
+
+**Found.** Two texture launches stopped before numerical execution when a concurrently retired lease disappeared; retained results are intact and fresh serial admission is the recovery.
+
+The missing lease was enumerated while another valid worker completed and removed it. Repeated reads of that vanished path failed closed. Neither failed launch started its statistical child or produced a scientific estimate. This is an environmental accounting-snapshot race, not a scientific null, resource-limit increase or loss of saved evidence. The original supervisor allowances and launch costs remain charged even though recorded child CPU is zero. Do not edit the live shared policy or relax its refusal. Serial re-admission is sufficient for these short jobs; any general lease-snapshot repair needs a separately qualified runtime.
+
+**Means.** Retain both exact failures, acknowledge only after this complete record, and launch immutable successors with the same source, cells, model, controls and resampling. Existing Gear 2 limits and event/idle policy remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Two texture launches stopped before numerical execution when a concurrently retired lease disappeared; retained results are intact and fresh serial admission is the recovery.; project meaning: scoped operational record; next engineering obligation: Retry the two unstarted cells serially under fresh unchanged admission; separately qualify any shared-runtime repair.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_TEXTURE_LEASE_RACE_20261109.md.
+
 ### S15-W5-IN-TEXTURES-FIRST-20261109
 
 **Hypothesis.** How stable is the original appraisal association under the declared weighting, intensity threshold, report-length and sign-reversal choices?

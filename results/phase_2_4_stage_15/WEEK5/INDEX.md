@@ -1,5 +1,29 @@
 # Week 5 verified records
 
+**OPS-S15-W5-DIGEST-20261109:** [Record](DIGEST_20261109.md). The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates.
+
+**OPS-S15-W5-IN-FAILURE-QUAL-COMPLETE-20261109:** [Record](IN_FAILURE_QUALIFICATION_COMPLETE_20261109.md). The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations.
+
+**OPS-S15-W5-IN-FAILURE-QUAL-VERIFY-PILOT-20261109:** [Record](IN_FAILURE_QUALIFICATION_VERIFY_PILOT_20261109.md). The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+**OPS-S15-W5-IN-FAILURE-QUAL-SOURCE-PILOT-20261109:** [Record](IN_FAILURE_QUALIFICATION_SOURCE_PILOT_20261109.md). The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+**OPS-S15-W5-CH-JUNE-PILOT-20261109:** [Record](CH_JUNE_PILOT_20261109.md). The exact first-five-percent June chess source pilot completes and every census row independently replays from source ordinal zero.
+
+**OPS-S15-W5-SP-GRID-NATIVE-20261109:** [Record](SP_GRID_NATIVE_20261109.md). The complete declared comfort grid passes signed and exact-null native controls, and every constructed result independently replays.
+
+**OPS-S15-W5-IN4-IC-QUAL-COMPLETE-20261109:** [Record](IN4_IC_QUALIFICATION_COMPLETE_20261109.md). The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations.
+
+**S15-W5-IN-TEXTURES-LENGTH-20261109:** [Complete descriptive cells](IN_TEXTURES_LENGTH_20261109.md). The completed predeclared appraisal variants are descriptive only; their original source, controls and complete independent replay are preserved, without upgrading the primary claim.
+
+**OPS-S15-W5-IN4-IC-QUAL-VERIFY-PILOT-20261109:** [Record](IN4_IC_QUALIFICATION_VERIFY_PILOT_20261109.md). The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+**S15-W5-IN-TEXTURES-CHANNELS-20261109:** [Complete descriptive cells](IN_TEXTURES_CHANNELS_20261109.md). The completed predeclared appraisal variants are descriptive only; their original source, controls and complete independent replay are preserved, without upgrading the primary claim.
+
+**OPS-S15-W5-IN4-IC-QUAL-SOURCE-PILOT-20261109:** [Record](IN4_IC_QUALIFICATION_SOURCE_PILOT_20261109.md). The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+**OPS-S15-W5-IN-TEXTURE-LEASE-RACE-20261109:** [Record](IN_TEXTURE_LEASE_RACE_20261109.md). Two texture launches stopped before numerical execution when a concurrently retired lease disappeared; retained results are intact and fresh serial admission is the recovery.
+
 **S15-W5-IN-TEXTURES-FIRST-20261109:** [Complete descriptive cells](IN_TEXTURES_FIRST_20261109.md). The completed predeclared appraisal variants are descriptive only; their original source, controls and complete independent replay are preserved, without upgrading the primary claim.
 
 **OPS-S15-W5-IN3-IC-QUAL-COMPLETE-20261109:** [Record](IN3_IC_QUALIFICATION_COMPLETE_20261109.md). The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations.

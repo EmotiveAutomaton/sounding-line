@@ -1,5 +1,35 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-DIGEST-20261109 validation:159 focused tests and all38 filed theory-errata edits verified; exact records and costs reconciled.
+- [ ] OPS-S15-W5-DIGEST-20261109 continuation: finish comfort-publication native parity, admit original comfort textures in order, and qualify remaining human sensitivity and mood descendants.
+- [ ] OPS-S15-W5-DIGEST-20261109 sources: finish the complete June census; preserve July/storage and selected-reader memory dependencies before downstream scientific admission.
+
+- [x] OPS-S15-W5-DIGEST-20261109: The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates.
+
+- [x] OPS-S15-W5-IN-FAILURE-QUAL-COMPLETE-20261109: The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations.
+
+- [x] OPS-S15-W5-IN-FAILURE-QUAL-VERIFY-PILOT-20261109: The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+- [x] OPS-S15-W5-IN-FAILURE-QUAL-SOURCE-PILOT-20261109: The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+- [x] OPS-S15-W5-CH-JUNE-PILOT-20261109: The exact first-five-percent June chess source pilot completes and every census row independently replays from source ordinal zero.
+
+- [x] OPS-S15-W5-SP-GRID-NATIVE-20261109: The complete declared comfort grid passes signed and exact-null native controls, and every constructed result independently replays.
+
+- [x] OPS-S15-W5-IN4-IC-QUAL-COMPLETE-20261109: The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations.
+
+- [x] S15-W5-IN-TEXTURES-LENGTH-20261109: 3 original descriptive texture cells and full replay recorded.
+- [ ] S15-W5-IN-TEXTURES-LENGTH-20261109 follow-through: Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution.
+
+- [x] OPS-S15-W5-IN4-IC-QUAL-VERIFY-PILOT-20261109: The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+- [x] S15-W5-IN-TEXTURES-CHANNELS-20261109: 6 original descriptive texture cells and full replay recorded.
+- [ ] S15-W5-IN-TEXTURES-CHANNELS-20261109 follow-through: Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution.
+
+- [x] OPS-S15-W5-IN4-IC-QUAL-SOURCE-PILOT-20261109: The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished.
+
+- [x] OPS-S15-W5-IN-TEXTURE-LEASE-RACE-20261109: Two texture launches stopped before numerical execution when a concurrently retired lease disappeared; retained results are intact and fresh serial admission is the recovery.
+
 - [x] S15-W5-IN-TEXTURES-FIRST-20261109: 4 original descriptive texture cells and full replay recorded.
 - [ ] S15-W5-IN-TEXTURES-FIRST-20261109 follow-through: Finish the eligible original grid and independently qualify prospective sensitivity successors; freeze any optional precision successor before execution.
 

@@ -2656,6 +2656,30 @@ Expected: `2.4.6 True`. `en_core_web_sm` 3.8.0 is required by all three feature 
 
 ## The instrument ledger — built-here tools and their validation state
 
+**OPS-S15-W5-DIGEST-20261109:** The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates. [Record](../results/phase_2_4_stage_15/WEEK5/DIGEST_20261109.md).
+
+**OPS-S15-W5-IN-FAILURE-QUAL-COMPLETE-20261109:** The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations. [Record](../results/phase_2_4_stage_15/WEEK5/IN_FAILURE_QUALIFICATION_COMPLETE_20261109.md).
+
+**OPS-S15-W5-IN-FAILURE-QUAL-VERIFY-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN_FAILURE_QUALIFICATION_VERIFY_PILOT_20261109.md).
+
+**OPS-S15-W5-IN-FAILURE-QUAL-SOURCE-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN_FAILURE_QUALIFICATION_SOURCE_PILOT_20261109.md).
+
+**OPS-S15-W5-CH-JUNE-PILOT-20261109:** The exact first-five-percent June chess source pilot completes and every census row independently replays from source ordinal zero. [Record](../results/phase_2_4_stage_15/WEEK5/CH_JUNE_PILOT_20261109.md).
+
+**OPS-S15-W5-SP-GRID-NATIVE-20261109:** The complete declared comfort grid passes signed and exact-null native controls, and every constructed result independently replays. [Record](../results/phase_2_4_stage_15/WEEK5/SP_GRID_NATIVE_20261109.md).
+
+**OPS-S15-W5-IN4-IC-QUAL-COMPLETE-20261109:** The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations. [Record](../results/phase_2_4_stage_15/WEEK5/IN4_IC_QUALIFICATION_COMPLETE_20261109.md).
+
+**S15-W5-IN-TEXTURES-LENGTH-20261109 instrument:** Complete native execution and independent estimator replay pass; 200-draw textures do not upgrade the primary. [Record](../results/phase_2_4_stage_15/WEEK5/IN_TEXTURES_LENGTH_20261109.md).
+
+**OPS-S15-W5-IN4-IC-QUAL-VERIFY-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN4_IC_QUALIFICATION_VERIFY_PILOT_20261109.md).
+
+**S15-W5-IN-TEXTURES-CHANNELS-20261109 instrument:** Complete native execution and independent estimator replay pass; 200-draw textures do not upgrade the primary. [Record](../results/phase_2_4_stage_15/WEEK5/IN_TEXTURES_CHANNELS_20261109.md).
+
+**OPS-S15-W5-IN4-IC-QUAL-SOURCE-PILOT-20261109:** The constructed sensitivity check reaches its genuine native pilot boundary and preserves its complete checkpoint; full qualification remains unfinished. [Record](../results/phase_2_4_stage_15/WEEK5/IN4_IC_QUALIFICATION_SOURCE_PILOT_20261109.md).
+
+**OPS-S15-W5-IN-TEXTURE-LEASE-RACE-20261109:** Two texture launches stopped before numerical execution when a concurrently retired lease disappeared; retained results are intact and fresh serial admission is the recovery. [Record](../results/phase_2_4_stage_15/WEEK5/IN_TEXTURE_LEASE_RACE_20261109.md).
+
 **S15-W5-IN-TEXTURES-FIRST-20261109 instrument:** Complete native execution and independent estimator replay pass; 200-draw textures do not upgrade the primary. [Record](../results/phase_2_4_stage_15/WEEK5/IN_TEXTURES_FIRST_20261109.md).
 
 **OPS-S15-W5-IN3-IC-QUAL-COMPLETE-20261109:** The full constructed sensitivity pipeline completes every world and independently reproduces every saved result through authentic native pilot continuations. [Record](../results/phase_2_4_stage_15/WEEK5/IN3_IC_QUALIFICATION_COMPLETE_20261109.md).
