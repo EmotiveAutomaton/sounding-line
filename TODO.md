@@ -1,5 +1,44 @@
 # TODO: the study queue
 
+- [x] OPS-S15-W5-MD3-S-POSITIVE-VERIFY-PILOT-V4-20261109: The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished.
+
+- [x] OPS-S15-W5-HEAL-EXPAND-COMFORT-MOOD-20261109: The comfort grid and complete constructed sensitivity checks are recorded; native mood qualification continues after the preserved path repairs, alongside the full comparison and June census.
+
+- [x] OPS-S15-W5-MD3-S-PATH-REPAIR-PILOT-20261109: The second path repair reaches the authentic full-design mood qualification pilot and preserves every declared discount, null bank and saved draw; complete qualification remains unfinished.
+
+- [x] OPS-S15-W5-MD3-INTERNAL-PATH-FAILURE-20261109: The first mood path repair stopped on an internal string-valued dependency path; a complete scoped hash-call adapter passes boundary checks, with native repair two still required.
+
+- [x] OPS-S15-W5-MD3-PATH-TYPE-FAILURE-20261109: The first mood qualification stopped before fitting on a serialized path-type defect; a separately versioned adapter passes the targeted boundary checks and awaits native qualification.
+
+- [x] OPS-S15-W5-MD3-FOLLOWUP-SOURCES-20261109: All twelve constructed mood-follow-up sources independently reproduce; complete numerical qualification remains outstanding.
+
+- [x] OPS-S15-W5-SP3-IC-HIGH-NOISE-COMPLETE-20261109: The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+- [x] OPS-S15-W5-SP3-IC-HIGH-NOISE-VERIFY-PILOT-20261109: The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+- [x] OPS-S15-W5-SP3-IC-HIGH-NOISE-SOURCE-PILOT-20261109: The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+- [x] OPS-S15-W5-SP3-IC-EXACT-COMPLETE-20261109: The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+- [x] OPS-S15-W5-SP3-IC-EXACT-VERIFY-PILOT-20261109: The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+- [x] OPS-S15-W5-SP3-IC-EXACT-SOURCE-PILOT-20261109: The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+- [x] S15-W5-SP-TEXTURES-REMAINING-20261109: 5 original comfort variants and complete independent replay recorded.
+- [x] S15-W5-SP-TEXTURES-REMAINING-20261109 follow-through: All eleven original variants and both constructed sensitivity cases are complete; separate human sensitivity admission remains under the current healing continuation.
+
+- [x] OPS-S15-W5-V1-FULL-CONT55-PAUSE-20261109: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+- [x] OPS-S15-W5-SP3-IC-SOURCES-20261109: Both constructed comfort sensitivity sources are complete and independently reproduced; full numerical sensitivity qualification remains prospective.
+
+- [x] S15-W5-SP-TEXTURES-FIRST-20261109: 4 original comfort variants and complete independent replay recorded.
+- [x] S15-W5-SP-TEXTURES-FIRST-20261109 follow-through: All eleven original variants and both constructed sensitivity cases are complete; separate human sensitivity admission remains under the current healing continuation.
+
+- [x] S15-W5-SP-TEXTURES-BASE-20261109: 2 original comfort variants and complete independent replay recorded.
+- [x] S15-W5-SP-TEXTURES-BASE-20261109 follow-through: All eleven original variants and both constructed sensitivity cases are complete; separate human sensitivity admission remains under the current healing continuation.
+
+- [x] OPS-S15-W5-SP-PUBLICATION-NATIVE-20261109: The comfort publication successor preserves every signed, null and declared-grid numerical result, with complete independent native replay.
+
 - [x] OPS-S15-W5-DIGEST-20261109 validation:159 focused tests and all38 filed theory-errata edits verified; exact records and costs reconciled.
 - [ ] OPS-S15-W5-DIGEST-20261109 continuation: finish comfort-publication native parity, admit original comfort textures in order, and qualify remaining human sensitivity and mood descendants.
 - [ ] OPS-S15-W5-DIGEST-20261109 sources: finish the complete June census; preserve July/storage and selected-reader memory dependencies before downstream scientific admission.

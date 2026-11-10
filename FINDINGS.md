@@ -1,5 +1,318 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-MD3-S-POSITIVE-VERIFY-PILOT-V4-20261109
+
+**Hypothesis.** Can the repaired mood specification instrument preserve the original complete numerical bank through independent native replay?
+
+**METHOD.** Authenticate the unchanged constructed source, all three discounts, complete original dynamic null and participant-draw banks, source/code bindings, native exits and copied ancestry. Require the verifier's authentic first-five-percent boundary and full independent comparison of every saved draw, null and numerical fit before accepting a complete constructed case.
+
+**Found.** The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished.
+
+This verify-pilot attempt consumes 57.015625 measured CPU seconds. The execution bank contains 2,000 participant draws and twenty dynamic nulls for each of the three discounts. Complete case status is not yet licensed. Both earlier engineering failures, all source and setup work, the component reservation and supervision charges remain inside the original descendant and family accounting. No individual or partial scientific estimate is reported.
+
+**Means.** Retain the complete original signed and null case roster; one passing constructed case is not the full twelve-case qualification or a human finding. Continue only through separate actual-cost admission, retaining the original models, thresholds, seeds, full uncertainty and support rules. The corrected path handling supplies no additional engineering retry beyond the already used two.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete remaining original native signed/null cases within actual budget, then review human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_POSITIVE_VERIFY_PILOT_V4_20261109.md.
+
+### OPS-S15-W5-HEAL-EXPAND-COMFORT-MOOD-20261109
+
+**Hypothesis.** Has the authorized healing and expansion pass converted the commissioned builds into verified records and useful bounded execution while preserving every failure and scientific gate?
+
+**METHOD.** Authenticate the completed comfort publication parity, original texture grid and both full sensitivity qualification chains. Retain the mood source proof, both pre-fit engineering failures, their separate repairs and the actual repaired pilot. Inspect native identities, progress freshness, leases, resources, source locks, remaining admissions and watcher delivery. Update current pointers without modifying historical snapshots or admitted source bytes.
+
+**Found.** The comfort grid and complete constructed sensitivity checks are recorded; native mood qualification continues after the preserved path repairs, alongside the full comparison and June census.
+
+The comfort publication check independently replays all 23 declared constructed cases. All eleven original comfort textures have complete independent replay and internal write-through, with support failures, separate ordinal units and observational/descriptive limits retained. Both comfort sensitivity qualification cases independently reproduce every signed world, all 2,000 draws per world and the expanded-row arithmetic witness. These constructed checks do not themselves establish human sensitivity or any causal mechanism.
+
+All twelve mood-follow-up sources reproduce. The two pre-fit failures and their costs remain recorded. Two sets of five targeted path regression checks pass; the final repair also reaches the actual native 300-of-6,000-draw pilot with all original null banks. Full mood numerical qualification is still unfinished. The first full positive case is executing toward its independent-verifier pilot; its measured first-pilot forecast and complete remaining cost review are retained.
+
+At 2026-11-10T06:31:15.874838+00:00, three native workers and their exact leases verify: comparison continuation 56, the complete June source census and the mood qualification continuation. Their current children and progress are inspected; all 21 source locks pass. Available RAM is 38.17 GiB, system commit headroom 19.68 GiB and free workspace disk 102.37 GiB. Reader ordinal 42 remains unstarted because its unchanged 26-GiB commit gate is not met. No unrelated application is stopped to create room.
+
+The sixteen-card ready buffer remains deficient. Original builders delivered; owner qualification and source/admission dependencies remain the capacity bottleneck. Remaining work includes complete mood qualification, source-specific human sensitivity admission, the full June census and later source/storage dependencies, selected-reader memory admission and remaining chess consumers. Earlier 159 focused checks and all 38 filed theory-errata edits remain recorded in the daily digest; they are not represented as rerun here.
+
+**Means.** Preserve CPU-only Gear 2, every original scientific bound and the final curator-packet policy. Continue through actual terminal events; the watcher retains events plus four hours of owner inactivity and one pending wake, with no current delivery error. Historical delivery errors remain visible. No additional theory or exploratory hypothesis is harvested from this operational wake. No GPU, paid calls, Ollama or additional agents are introduced.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort grid and complete constructed sensitivity checks are recorded; native mood qualification continues after the preserved path repairs, alongside the full comparison and June census.; project meaning: scoped operational record; next engineering obligation: Complete the existing counted qualifications and scientific admissions; preserve original limits, evidence and final-packet reporting.; public scientific claim unchanged; curator decision required: No new decision. Detail: HEAL_EXPAND_COMFORT_MOOD_20261109.md.
+
+### OPS-S15-W5-MD3-S-PATH-REPAIR-PILOT-20261109
+
+**Hypothesis.** Can the original mood specification qualification cross its native first-five-percent boundary after path-type repair without dropping work or changing the model?
+
+**METHOD.** Run the same constructed positive case through the complete actual arithmetic witness, all three fixed discounts, twenty dynamic null trajectories per discount and the first hundred participant refits per discount. Authenticate the source/design pins, complete stopped manifest and exited native identities; retain both prior failures and all preparation charges.
+
+**Found.** The second path repair reaches the authentic full-design mood qualification pilot and preserves every declared discount, null bank and saved draw; complete qualification remains unfinished.
+
+The native attempt consumes 4.03125 CPU seconds and preserves 730 checkpoint files. Its 300 new draws are exactly five percent of the original 6,000-draw target. All 60 dynamic nulls and three point fits are retained. A conservative linear execution-plus-replay forecast from this whole invocation is 161.25 CPU seconds, before future copy and supervisor overhead; setup is included in the extrapolation rather than falsely subtracted. Complete numerical qualification is still required, including the independent verifier's own pilot and all original signed/null cases.
+
+**Means.** The pre-fit path fault is repaired at the actual native boundary. Continue the same positive case in a new immutable attempt under measured cost review; preserve the original 1,800-second descendant and 34,400-second family ceilings, both failures, the conservative component reservation and every supervisory allowance. No partial scientific estimate, human result or control verdict is promoted.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The second path repair reaches the authentic full-design mood qualification pilot and preserves every declared discount, null bank and saved draw; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Complete the original full positive-case bank and independent replay, then the remaining signed/null cases under cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_S_PATH_REPAIR_PILOT_20261109.md.
+
+### OPS-S15-W5-MD3-INTERNAL-PATH-FAILURE-20261109
+
+**Hypothesis.** Does the native qualification preserve byte-exact file identity at both serialized-input and internal dependency hash boundaries?
+
+**METHOD.** Authenticate the retained first-repair failure, native exits and source hashes; inspect its internal dependency traceback and absence of point/draw outputs. Reproduce that failure through the actual numerical handler, then exercise both repaired entry points through dependency construction to a controlled pre-fit yield. Compare every dependency digest to an independent byte reader, retain changed-source refusal and test restoration after exceptions.
+
+**Found.** The first mood path repair stopped on an internal string-valued dependency path; a complete scoped hash-call adapter passes boundary checks, with native repair two still required.
+
+The attempt consumes 0.8125 measured CPU seconds and remains an engineering failure. The earlier five checks stubbed the numerical handler and missed its internal module-file strings. Five additional checks pass for the separately versioned v4 scoped hash adapter. Those checks do not execute the statistical bank and grant no numerical qualification. All original sources, the first repair and both failed attempts remain immutable.
+
+**Means.** Charge both failures and all preparation/supervision to the original limits, then allow shared engineering repair two from the same complete constructed source. It changes only path representation at the original byte reader, with restoration on exit; fitters, decisions, seeds, nulls, full populations and draw counts stay fixed. This exhausts the permitted repair count if it fails. Complete native known-answer controls and source-specific human admission remain separate. No empirical or causal claim follows.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first mood path repair stopped on an internal string-valued dependency path; a complete scoped hash-call adapter passes boundary checks, with native repair two still required.; project meaning: scoped operational record; next engineering obligation: Admit the second and final scoped hash-path repair; if it fails, record invalid qualification and dispatch other authorized work.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_INTERNAL_PATH_FAILURE_20261109.md.
+
+### OPS-S15-W5-MD3-PATH-TYPE-FAILURE-20261109
+
+**Hypothesis.** Can the commissioned mood qualification receive the native plan's JSON paths without changing their file identity or scientific contents?
+
+**METHOD.** Inspect the failed native child traceback, terminal charge, source pins and stopped identities. Confirm that no point fit or participant draw was produced. Reproduce the actual entry-point failure with JSON-string paths, test the separate successor through that same entry point, retain changed-source refusal, and check verifier normalization and unchanged non-mood registration.
+
+**Found.** The first mood qualification stopped before fitting on a serialized path-type defect; a separately versioned adapter passes the targeted boundary checks and awaits native qualification.
+
+The original attempt consumes 0.75 measured CPU seconds and remains an engineering failure. Its fixture passed a string to the parent's Path-only hash reader. Five targeted checks pass for the separate v3 adapter; these use stubbed numerical work and provide no numerical qualification credit. The v3 driver changes only the mood fixture registrations and pins the new repair note. Original constructors, sources, fitters, gates, world counts and output publication remain unchanged.
+
+**Means.** This is the first shared engineering repair. Retain the failed source and all supervision/preparation charges; use a new native attempt from the complete fixed constructed source. Require the original full-design pilot, measured cost review and entire twelve-case qualification before any human descendant. Never relabel the failed attempt as a paused checkpoint or a scientific null. No new research or resource authority is introduced.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first mood qualification stopped before fitting on a serialized path-type defect; a separately versioned adapter passes the targeted boundary checks and awaits native qualification.; project meaning: scoped operational record; next engineering obligation: Commit and admit the separately reviewed path adapter, then retain full native qualification and cost gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_PATH_TYPE_FAILURE_20261109.md.
+
+### OPS-S15-W5-MD3-FOLLOWUP-SOURCES-20261109
+
+**Hypothesis.** Can the commissioned specification, curvature and conditional-likelihood checks begin from a complete reproducible bank of signed and null trajectories?
+
+**METHOD.** Execute the original fixed constructor inside one bounded counted native attempt, then independently rebuild every trajectory and expectation manifest. Compare each full numeric array, source/case roster and source binding; authenticate final output hashes and native exits. Retain all twelve cases, their original 96 constructed people and thirty-trial histories. No human record is read by this preparation.
+
+**Found.** All twelve constructed mood-follow-up sources independently reproduce; complete numerical qualification remains outstanding.
+
+Complete source construction and replay consume 4.765625 measured CPU seconds. This common preparation is conservatively charged to the specification follow-up, including the supervision/driver allowance and a 300-second reservation for unmeasured component preparation. Reservation is not measured use. Original descendant ceilings of 1,800 CPU seconds and the 34,400-second family ceiling apply with all prior family costs retained. The first native numerical pilot is still unmeasured, and source success does not prove numerical feasibility or any scientific direction.
+
+**Means.** Admit only the fixed positive specification case's first counted pilot, with all three discounts, twenty dynamic nulls per discount and the full 2,000-draw target per discount. Measure the authentic 100-draw-per-discount boundary and review the all-in forecast before continuing. Twelve complete original cases remain required before any human descendant; no smaller constructed bank, changed decision rule or sampled denominator is substituted. This is already commissioned implementation, with no new hypothesis harvested from the wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; All twelve constructed mood-follow-up sources independently reproduce; complete numerical qualification remains outstanding.; project meaning: scoped operational record; next engineering obligation: Measure the first full-design native qualification pilot and retain all original card/family costs and gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: MD3_FOLLOWUP_SOURCES_20261109.md.
+
+### OPS-S15-W5-SP3-IC-HIGH-NOISE-COMPLETE-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+This high-noise case at stage complete consumes 15.40625 measured native CPU seconds and retains 500 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+The full known-answer decision matches its predeclared sensitivity-failure expectation. The instrument can return failure when the fixed practical effect cannot be resolved. This is constructed-world instrument evidence only.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_HIGH_NOISE_COMPLETE_20261109.md.
+
+### OPS-S15-W5-SP3-IC-HIGH-NOISE-VERIFY-PILOT-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+This high-noise case at stage verify-pilot consumes 9.546875 measured native CPU seconds and retains 500 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_HIGH_NOISE_VERIFY_PILOT_20261109.md.
+
+### OPS-S15-W5-SP3-IC-HIGH-NOISE-SOURCE-PILOT-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+This high-noise case at stage source-pilot consumes 2.984375 measured native CPU seconds and retains 25 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_HIGH_NOISE_SOURCE_PILOT_20261109.md.
+
+### OPS-S15-W5-SP3-IC-EXACT-COMPLETE-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+This exact case at stage complete consumes 14.46875 measured native CPU seconds and retains 500 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+The full known-answer decision matches its predeclared sensitivity-pass expectation. This is constructed-world instrument evidence only.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_EXACT_COMPLETE_20261109.md.
+
+### OPS-S15-W5-SP3-IC-EXACT-VERIFY-PILOT-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+This exact case at stage verify-pilot consumes 8.90625 measured native CPU seconds and retains 500 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_EXACT_VERIFY_PILOT_20261109.md.
+
+### OPS-S15-W5-SP3-IC-EXACT-SOURCE-PILOT-20261109
+
+**Hypothesis.** Can the comfort sensitivity instrument preserve the original full resampling law and distinguish an exactly recoverable slope from an intentionally noisy failure case?
+
+**METHOD.** Use the fixed constructed source and the unchanged five signed doses, 100 worlds per dose and 2,000 full-frame building draws per world. Require all-draw equality to expanded-row least squares, raw-response planting parity, a reachable support failure, authenticated native execution and verification pilot boundaries, immutable reentry and complete independent numerical replay. The exact-slope case is required to pass and the high-noise case to fail; neither expectation is chosen after outcomes.
+
+**Found.** The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+This exact case at stage source-pilot consumes 2.625 measured native CPU seconds and retains 25 execution worlds. All preceding native attempts, conservative supervision/driver allowances and the 300-second unmeasured component-work reservation remain charged to the original 5,000-second card and 40,000-second SP family ceilings. Reservations are not measured use. Complete source and case bindings and every sealed output authenticate; native owners and children have exited. No partial scientific coefficient or human sensitivity conclusion is reported.
+
+**Means.** Both complete constructed cases and the original source-specific human admission are separate requirements. Qualification does not turn an observational human comparison into a causal mechanism test. Preserve the original support failures, practical bar, all worlds and uncertainty draws, costs and prior records. The operational wake contributes no new hypothesis, delegation, paid or GPU authority.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish both full known-answer cases and separately review the original human-source admission; retain all scientific bounds.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_EXACT_SOURCE_PILOT_20261109.md.
+
+### S15-W5-SP-TEXTURES-REMAINING-20261109
+
+**Hypothesis.** How stable are the original comfort-location and sensitivity comparisons under the declared temperature-range, ordinal-scale, personal-control and climate specifications?
+
+**METHOD.** Use the complete previously admitted ASHRAE Global Thermal Comfort Database II projection and the original frozen estimators. Retain the separate-group SP1 repair, building or declared study clusters, complete-case exclusions, support fallbacks and200 whole-cluster resamples. Run the qualified publication successor without changing numerical handlers; independently reconstruct every complete result in a fresh native process. The full grid and nine signed/null cases were qualified before any texture outcome.
+
+**Found.** The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+The table gives each complete descriptive coefficient and its resampling interval, with the original scale stated explicitly. Cluster counts refer to the resampling population; cooling-group counts and exclusions are preserved in the companion aggregate receipt. An unestimable or invalid uncertainty result has no admissible effect claim.
+
+| Declared variant | Retained observations | Building/study clusters | Descriptive estimate | 95% interval | Units / status |
+|---|---:|---:|---|---|---|
+| cold-weather side | 10112 | 62 | 0.026692 | [0.003372, 0.052979] | sensitivity change per degree of weather distance; ok |
+| clothing and metabolic-rate controls | 25866 | 165 | 0.010144 | [-0.016215, 0.048215] | sensitivity change per degree of weather distance; ok |
+| whole-study resampling | 38982 | 30 | 0.017247 | [-0.006291, 0.048523] | sensitivity change per degree of weather distance; ok |
+| ordinal-probit with range matching | 3467 | 12 | -0.005570 | [-0.019992, 0.013809] | latent-probit slope; ok |
+| air-speed control | 33672 | 192 | 0.022652 | [-0.001160, 0.042872] | sensitivity change per degree of weather distance; ok |
+
+**Means and scope.** Cooling type jointly reflects thermal history and personal control; these observational contrasts cannot identify either mechanism alone. SP3's same-bin neutral-temperature companions remain in the aggregate receipt, so movement of the neutral point is not silently called sensory dulling. Differences between texture estimates are not independently tested paired contrasts. Two-hundred-draw textures remain descriptive even where the raw handler emits a directional primary-style label. Ordinal-probit coefficients retain latent units and cannot be compared to the linear sensation practical bar. Unsupported or rank-losing draws are never dropped or replaced; any such result remains explicit. No new p-values, scientific follow-up generation or primary claim upgrade is introduced.
+
+The original claims remain S15-W5-SP1-H2-20261107, S15-W5-SP2-20261107 and S15-W5-SP3-20261107. These observations bear on G255 and G256, whose human mechanisms remain open; the curator's distinction between moving a comfort point and changing resolution is preserved. Theory rows and afterwords remain deferred to the curator theory pass under Week5 section3. Cite Földváry Ličina et al. (2018), ASHRAE Global Thermal Comfort Database II, using the retained Zenodo4993952 CC BY4.0 source provenance. Raw measurements and salted building/study identities remain private. All launches, qualification, preparation and replay remain charged within the original3,600-second texture and40,000-second family limits.
+
+**Stopping and next work.** 11 original texture cells are complete; 0 remain. The current consecutive count inside a comparable parent practical band is0, against seven required to stop. A noncomparable ordinal or unavailable estimate cannot certify membership in that band and breaks the sequence; no latent-unit threshold is invented. The exact ordered checks are retained. No original variant is selected after seeing its estimate.
+
+Curator roll-up: set-point precision; How stable are the observed comfort relationships across declared specifications?; **Narrows**; Complete descriptive comfort variants retain the original observational scope.; project meaning: specification dependence remains distinct from causal mechanism; next engineering obligation: Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units.; public claim: original primaries unchanged; curator decision required: No. Detail: WEEK5/SP_TEXTURES_REMAINING_20261109.md.
+
+### OPS-S15-W5-V1-FULL-CONT55-PAUSE-20261109
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2307 complete fit pairs, preserving 41,794 completed pairs in all 83,630 checkpoint files. The native attempt consumes 3854.375 CPU seconds, including 3532.578125 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 232764.03125 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 767235.96875 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_FULL_CONT55_PAUSE_20261109.md.
+
+### OPS-S15-W5-SP3-IC-SOURCES-20261109
+
+**Hypothesis.** Can the commissioned comfort sensitivity test start from reproducible known-answer inputs without reading or exposing participant records?
+
+**METHOD.** Generate the fixed exact-slope and high-noise source tables inside a counted native attempt. Rebuild both tables and their complete source manifests independently, compare all values and source bindings, authenticate the final output hashes and verify that the native owner and children exited. Preserve the original seeds, models, signed doses and uncertainty design.
+
+**Found.** Both constructed comfort sensitivity sources are complete and independently reproduced; full numerical sensitivity qualification remains prospective.
+
+The complete source attempt consumes 3.984375 measured CPU seconds. Its 60-second attempt ceiling, standard supervisor charges and conservative 300-second unmeasured component-work reservation remain within the original 5,000-second card and 40,000-second family ceilings. The reservation is not represented as measured CPU use. Both cases and their source manifests are retained privately. This proves source construction only; no full world bank, sensitivity outcome or human-data finding is claimed.
+
+**Means.** Admit the original complete known-answer qualification through its authentic execution and independent-verification pilot boundaries, preserving all 500 worlds and 2,000 resamples per world. An exact-source case and a high-noise failure case must both finish before the separate human sensitivity admission. This is implementation of the already commissioned card, not a new hypothesis. No tests harvested from this operational wake; no paid, GPU or delegation authority is added.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both constructed comfort sensitivity sources are complete and independently reproduced; full numerical sensitivity qualification remains prospective.; project meaning: scoped operational record; next engineering obligation: Qualify both complete original sensitivity cases through authentic pilot and replay boundaries before human-data admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP3_IC_SOURCES_20261109.md.
+
+### S15-W5-SP-TEXTURES-FIRST-20261109
+
+**Hypothesis.** How stable are the original comfort-location and sensitivity comparisons under the declared temperature-range, ordinal-scale, personal-control and climate specifications?
+
+**METHOD.** Use the complete previously admitted ASHRAE Global Thermal Comfort Database II projection and the original frozen estimators. Retain the separate-group SP1 repair, building or declared study clusters, complete-case exclusions, support fallbacks and200 whole-cluster resamples. Run the qualified publication successor without changing numerical handlers; independently reconstruct every complete result in a fresh native process. The full grid and nine signed/null cases were qualified before any texture outcome.
+
+**Found.** The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+The table gives each complete descriptive coefficient and its resampling interval, with the original scale stated explicitly. Cluster counts refer to the resampling population; cooling-group counts and exclusions are preserved in the companion aggregate receipt. An unestimable or invalid uncertainty result has no admissible effect claim.
+
+| Declared variant | Retained observations | Building/study clusters | Descriptive estimate | 95% interval | Units / status |
+|---|---:|---:|---|---|---|
+| ordinal-probit sensitivity | 38893 | 211 | 0.107023 | [0.021200, 0.181821] | latent-probit slope; ok |
+| at least four-degree temperature range | 29200 | 121 | 0.149831 | [0.049393, 0.205416] | sensation-per-degree slope; ok |
+| recorded window and fan controls | 1019 | 9 | not admissible | not available | sensation-per-degree slope; unsupported |
+| hot-weather side | 13238 | 80 | 0.031049 | [-0.010113, 0.088754] | sensitivity change per degree of weather distance; ok |
+
+**Means and scope.** Cooling type jointly reflects thermal history and personal control; these observational contrasts cannot identify either mechanism alone. SP3's same-bin neutral-temperature companions remain in the aggregate receipt, so movement of the neutral point is not silently called sensory dulling. Differences between texture estimates are not independently tested paired contrasts. Two-hundred-draw textures remain descriptive even where the raw handler emits a directional primary-style label. Ordinal-probit coefficients retain latent units and cannot be compared to the linear sensation practical bar. Unsupported or rank-losing draws are never dropped or replaced; any such result remains explicit. No new p-values, scientific follow-up generation or primary claim upgrade is introduced.
+
+The original claims remain S15-W5-SP1-H2-20261107, S15-W5-SP2-20261107 and S15-W5-SP3-20261107. These observations bear on G255 and G256, whose human mechanisms remain open; the curator's distinction between moving a comfort point and changing resolution is preserved. Theory rows and afterwords remain deferred to the curator theory pass under Week5 section3. Cite Földváry Ličina et al. (2018), ASHRAE Global Thermal Comfort Database II, using the retained Zenodo4993952 CC BY4.0 source provenance. Raw measurements and salted building/study identities remain private. All launches, qualification, preparation and replay remain charged within the original3,600-second texture and40,000-second family limits.
+
+**Stopping and next work.** 6 original texture cells are complete; 5 remain. The current consecutive count inside a comparable parent practical band is0, against seven required to stop. A noncomparable ordinal or unavailable estimate cannot certify membership in that band and breaks the sequence; no latent-unit threshold is invented. The exact ordered checks are retained. No original variant is selected after seeing its estimate.
+
+Curator roll-up: set-point precision; How stable are the observed comfort relationships across declared specifications?; **Narrows**; Complete descriptive comfort variants retain the original observational scope.; project meaning: specification dependence remains distinct from causal mechanism; next engineering obligation: Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units.; public claim: original primaries unchanged; curator decision required: No. Detail: WEEK5/SP_TEXTURES_FIRST_20261109.md.
+
+### S15-W5-SP-TEXTURES-BASE-20261109
+
+**Hypothesis.** How stable are the original comfort-location and sensitivity comparisons under the declared temperature-range, ordinal-scale, personal-control and climate specifications?
+
+**METHOD.** Use the complete previously admitted ASHRAE Global Thermal Comfort Database II projection and the original frozen estimators. Retain the separate-group SP1 repair, building or declared study clusters, complete-case exclusions, support fallbacks and200 whole-cluster resamples. Run the qualified publication successor without changing numerical handlers; independently reconstruct every complete result in a fresh native process. The full grid and nine signed/null cases were qualified before any texture outcome.
+
+**Found.** The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+The table gives each complete descriptive coefficient and its resampling interval, with the original scale stated explicitly. Cluster counts refer to the resampling population; cooling-group counts and exclusions are preserved in the companion aggregate receipt. An unestimable or invalid uncertainty result has no admissible effect claim.
+
+| Declared variant | Retained observations | Building/study clusters | Descriptive estimate | 95% interval | Units / status |
+|---|---:|---:|---|---|---|
+| all-Griffiths neutral temperature | 38982 | 213 | 0.383648 | [0.332069, 0.467175] | neutral/outdoor temperature slope; ok |
+| matched temperature range and mean | 30509 | 148 | 0.114305 | [0.041755, 0.173296] | sensation-per-degree slope; ok |
+
+**Means and scope.** Cooling type jointly reflects thermal history and personal control; these observational contrasts cannot identify either mechanism alone. SP3's same-bin neutral-temperature companions remain in the aggregate receipt, so movement of the neutral point is not silently called sensory dulling. Differences between texture estimates are not independently tested paired contrasts. Two-hundred-draw textures remain descriptive even where the raw handler emits a directional primary-style label. Ordinal-probit coefficients retain latent units and cannot be compared to the linear sensation practical bar. Unsupported or rank-losing draws are never dropped or replaced; any such result remains explicit. No new p-values, scientific follow-up generation or primary claim upgrade is introduced.
+
+The original claims remain S15-W5-SP1-H2-20261107, S15-W5-SP2-20261107 and S15-W5-SP3-20261107. These observations bear on G255 and G256, whose human mechanisms remain open; the curator's distinction between moving a comfort point and changing resolution is preserved. Theory rows and afterwords remain deferred to the curator theory pass under Week5 section3. Cite Földváry Ličina et al. (2018), ASHRAE Global Thermal Comfort Database II, using the retained Zenodo4993952 CC BY4.0 source provenance. Raw measurements and salted building/study identities remain private. All launches, qualification, preparation and replay remain charged within the original3,600-second texture and40,000-second family limits.
+
+**Stopping and next work.** 2 original texture cells are complete; 9 remain. The current consecutive count inside a comparable parent practical band is0, against seven required to stop. A noncomparable ordinal or unavailable estimate cannot certify membership in that band and breaks the sequence; no latent-unit threshold is invented. The exact ordered checks are retained. No original variant is selected after seeing its estimate.
+
+Curator roll-up: set-point precision; How stable are the observed comfort relationships across declared specifications?; **Narrows**; Complete descriptive comfort variants retain the original observational scope.; project meaning: specification dependence remains distinct from causal mechanism; next engineering obligation: Complete eligible remaining original comfort textures in frozen order and separately qualify SP3 minimum-effect sensitivity; retain original claims and units.; public claim: original primaries unchanged; curator decision required: No. Detail: WEEK5/SP_TEXTURES_BASE_20261109.md.
+
+### OPS-S15-W5-SP-PUBLICATION-NATIVE-20261109
+
+**Hypothesis.** Can the comfort handlers use the current runtime publication convention without changing any statistical answer or dropping a declared configuration?
+
+**METHOD.** Run the original nine signed/null worlds and fourteen-cell grid, then execute the publication successor on every same-input case. Require exact parsed-result equality and complete fresh-process reconstruction of both banks. Authenticate all source/output hashes, native exits and released ownership. Original estimates, controls, populations, practical bars and resample counts remain unchanged.
+
+**Found.** The comfort publication successor preserves every signed, null and declared-grid numerical result, with complete independent native replay.
+
+All23 cases pass; complete execution and replay consume 864.5 measured CPU seconds and 886.057 wall seconds within the 1,800-second qualification cap. Earlier qualification, preparation and supervisor costs remain charged to SP's original40,000-second family ceiling. The committed design/source is3af46db02. Only the two child-local JSON writers change to the already qualified UUID temporary-name convention; no shared runtime rule or numerical handler changes. The original complete-grid qualification remains separate and immutable.
+
+**Means.** The compatibility gate for separate human-texture admission is satisfied. Eleven original variants remain prospective at this landing, with complete source checks,200 resamples, descriptive-only wording, original per-cell bounds and the seven-consecutive-cell stopping rule. Ordinal-probit units remain distinct from linear sensation units. This constructed check is not a human finding, a scientific claim upgrade or a new hypothesis. The full source and all earlier evidence remain intact. No tests harvested from this operational wake.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The comfort publication successor preserves every signed, null and declared-grid numerical result, with complete independent native replay.; project meaning: scoped operational record; next engineering obligation: Admit the original comfort texture grid in frozen order under existing source, scope, budget and stopping rules.; public scientific claim unchanged; curator decision required: No new decision. Detail: SP_PUBLICATION_NATIVE_20261109.md.
+
 ### OPS-S15-W5-DIGEST-20261109
 
 **Hypothesis.** Are the complete results, repairs, tests, theory filing and remaining Week 5 work recorded accurately enough to continue useful research?

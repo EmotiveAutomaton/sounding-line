@@ -1,5 +1,41 @@
 # Week 5 verified records
 
+**OPS-S15-W5-MD3-S-POSITIVE-VERIFY-PILOT-V4-20261109:** [Record](MD3_S_POSITIVE_VERIFY_PILOT_V4_20261109.md). The full positive mood execution bank is preserved and independent replay reaches its own first-five-percent checkpoint; complete qualification remains unfinished.
+
+**OPS-S15-W5-HEAL-EXPAND-COMFORT-MOOD-20261109:** [Record](HEAL_EXPAND_COMFORT_MOOD_20261109.md). The comfort grid and complete constructed sensitivity checks are recorded; native mood qualification continues after the preserved path repairs, alongside the full comparison and June census.
+
+**OPS-S15-W5-MD3-S-PATH-REPAIR-PILOT-20261109:** [Record](MD3_S_PATH_REPAIR_PILOT_20261109.md). The second path repair reaches the authentic full-design mood qualification pilot and preserves every declared discount, null bank and saved draw; complete qualification remains unfinished.
+
+**OPS-S15-W5-MD3-INTERNAL-PATH-FAILURE-20261109:** [Record](MD3_INTERNAL_PATH_FAILURE_20261109.md). The first mood path repair stopped on an internal string-valued dependency path; a complete scoped hash-call adapter passes boundary checks, with native repair two still required.
+
+**OPS-S15-W5-MD3-PATH-TYPE-FAILURE-20261109:** [Record](MD3_PATH_TYPE_FAILURE_20261109.md). The first mood qualification stopped before fitting on a serialized path-type defect; a separately versioned adapter passes the targeted boundary checks and awaits native qualification.
+
+**OPS-S15-W5-MD3-FOLLOWUP-SOURCES-20261109:** [Record](MD3_FOLLOWUP_SOURCES_20261109.md). All twelve constructed mood-follow-up sources independently reproduce; complete numerical qualification remains outstanding.
+
+**OPS-S15-W5-SP3-IC-HIGH-NOISE-COMPLETE-20261109:** [Record](SP3_IC_HIGH_NOISE_COMPLETE_20261109.md). The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+**OPS-S15-W5-SP3-IC-HIGH-NOISE-VERIFY-PILOT-20261109:** [Record](SP3_IC_HIGH_NOISE_VERIFY_PILOT_20261109.md). The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+**OPS-S15-W5-SP3-IC-HIGH-NOISE-SOURCE-PILOT-20261109:** [Record](SP3_IC_HIGH_NOISE_SOURCE_PILOT_20261109.md). The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+**OPS-S15-W5-SP3-IC-EXACT-COMPLETE-20261109:** [Record](SP3_IC_EXACT_COMPLETE_20261109.md). The complete constructed comfort sensitivity case independently reproduces every world, draw and expanded-row arithmetic witness through authentic native continuations.
+
+**OPS-S15-W5-SP3-IC-EXACT-VERIFY-PILOT-20261109:** [Record](SP3_IC_EXACT_VERIFY_PILOT_20261109.md). The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+**OPS-S15-W5-SP3-IC-EXACT-SOURCE-PILOT-20261109:** [Record](SP3_IC_EXACT_SOURCE_PILOT_20261109.md). The constructed comfort sensitivity check preserves its authentic first-five-percent checkpoint; full numerical qualification remains unfinished.
+
+**S15-W5-SP-TEXTURES-REMAINING-20261109:** [Complete descriptive variants](SP_TEXTURES_REMAINING_20261109.md). The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+**OPS-S15-W5-V1-FULL-CONT55-PAUSE-20261109:** [Record](V1_FULL_CONT55_PAUSE_20261109.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+**OPS-S15-W5-SP3-IC-SOURCES-20261109:** [Record](SP3_IC_SOURCES_20261109.md). Both constructed comfort sensitivity sources are complete and independently reproduced; full numerical sensitivity qualification remains prospective.
+
+**S15-W5-SP-TEXTURES-FIRST-20261109:** [Complete descriptive variants](SP_TEXTURES_FIRST_20261109.md). The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+**S15-W5-SP-TEXTURES-BASE-20261109:** [Complete descriptive variants](SP_TEXTURES_BASE_20261109.md). The completed declared comfort variants retain their observational and descriptive scope, with full independent replay and no upgrade to the primary claims.
+
+**OPS-S15-W5-SP-PUBLICATION-NATIVE-20261109:** [Record](SP_PUBLICATION_NATIVE_20261109.md). The comfort publication successor preserves every signed, null and declared-grid numerical result, with complete independent native replay.
+
 **OPS-S15-W5-DIGEST-20261109:** [Record](DIGEST_20261109.md). The November 9 Week 5 digest reconciles complete evidence and validation, thirteen appraisal textures, retained failures and unused capacity; CPU-only Gear 2 continues with explicit remaining qualification gates.
 
 **OPS-S15-W5-IN-FAILURE-QUAL-COMPLETE-20261109:** [Record](IN_FAILURE_QUALIFICATION_COMPLETE_20261109.md). The full constructed high-noise control correctly fails sensitivity and independently reproduces every saved world through authentic native pilot continuations.
