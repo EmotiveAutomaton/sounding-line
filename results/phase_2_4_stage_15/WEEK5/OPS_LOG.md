@@ -1291,3 +1291,44 @@ theory errata was absent at intake and has since been supplied, applied and inde
 2026-11-11T11:16:10.215538+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery14 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
 
 2026-11-11T12:08:53.386314+00:00 OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111: The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed.
+
+2026-11-11T12:46:27.011815+00:00 OPS-S15-W5-IN-IC-PUBLICATION-IN3-SOURCE-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T12:53:02.271896+00:00 OPS-S15-W5-IN-IC-NOTIFICATION-REPAIR-20261111: The first appraisal publication pilot preserved exact checkpoints but failed the watcher pause-envelope contract; its separate fixture repair passes both actual-handler notification checks.
+
+2026-11-11T12:56:32.311489+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-SOURCE-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T12:59:54.223237+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-VERIFY-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T13:03:24.361268+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-COMPLETE-20261111: The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+2026-11-11T13:04:34.569851+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-SOURCE-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T13:07:26.758406+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-VERIFY-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T13:10:37.423521+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-COMPLETE-20261111: The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+2026-11-11T13:12:03.098316+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-SOURCE-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T13:15:08.912956+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-VERIFY-PILOT-20261111: The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+2026-11-11T13:18:15.901805+00:00 OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-COMPLETE-20261111: The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+2026-11-11T13:19:30.574639+00:00 OPS-S15-W5-V1-ACCOUNTING-RECOVERY14-PAUSE-20261110: The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+
+2026-11-11T13:21:36.429308+00:00: OPS-S15-W5-V1-ACCOUNTING-RECOVERY14-PAUSE-20261110: Full planned checkpoint authenticated and acknowledged before unchanged recovery15 admission. One actual CPU-only Gear2 worker and valid lease; current reader128 memory gate still refuses admission, with native byte observations retained. All21 locks pass, no pending landing events, watcher and terminal registrations healthy. June remains complete; July, human mood and full-reader-bank gates remain. Ready buffer deficient; original builders delivered, none active. Events plus four-hour owner inactivity and single-pending wake unchanged.
+
+2026-11-11T13:24:55.518127+00:00 OPS-S15-W5-IN3-IC-HUMAN-SOURCE-PILOT-20261111: The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+2026-11-11T13:25:42.047774+00:00 OPS-S15-W5-IN4-IC-HUMAN-SOURCE-PILOT-20261111: The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+2026-11-11T13:31:48.813504+00:00 OPS-S15-W5-IN3-IC-HUMAN-VERIFY-PILOT-20261111: The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+2026-11-11T13:33:00.734062+00:00 OPS-S15-W5-IN4-IC-HUMAN-VERIFY-PILOT-20261111: The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+2026-11-11T13:38:09.531734+00:00 S15-W5-IN3-IC-20261111: Complete conditional sensitivity and independent replay filed; original scope and all costs preserved.
+
+2026-11-11T13:39:00.657100+00:00 S15-W5-IN4-IC-20261111: Complete conditional sensitivity and independent replay filed; original scope and all costs preserved.
+
+2026-11-11T13:41:48.525038+00:00 OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111: Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.

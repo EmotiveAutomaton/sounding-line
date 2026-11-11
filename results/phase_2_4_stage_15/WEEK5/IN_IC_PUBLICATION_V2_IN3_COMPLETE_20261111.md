@@ -1,0 +1,13 @@
+# IN IC PUBLICATION V2 IN3 COMPLETE 20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+The IN3 case reaches its complete boundary with 110.84375 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 500. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. The complete baseline and candidate paths and their independent replays agree.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.

@@ -1,0 +1,25 @@
+# reader-versus-writer appraisal-error conditional sensitivity
+
+**Hypothesis.** Could the original reader-versus-writer appraisal error comparison detect the fixed practical effect in its observed text design?
+
+**METHOD.** Reconstruct the exact completed parent sources and original normalization. Retain the original five-reader versus ten-distinct-reader-pair absolute-error calculation, the four prompted-channel intercepts and their equal-weight contrast. Fit the original source outcome once, remove only its component along the tested contrast, preserve orthogonal nuisance coefficients, and apply paired whole-cluster random signs to its residuals. Generate the five registered signed/null doses, 100 worlds per dose and 2,000 actual cluster refits per world. Preserve both 25-world pilot boundaries and require fresh native reconstruction of all 500 worlds, complete summaries and every saved world record.
+
+**Found.** The reader-versus-writer appraisal-error comparison passes its registered conditional sensitivity criterion under the observed source design; the original within-band result remains scoped to that observational contrast.
+
+The table reports the complete conditional calibration. Planted contrasts and estimate quantiles are in appraisal rating points. Quantiles describe variation across constructed worlds, not an uncertainty interval for the human primary. Coverage is the fraction of worlds whose interval contains the planted contrast. Zero exclusion is in the planted direction, two-sided for the null. The last column applies the unchanged original positive-support rule, which requires the interval to cross the practical bar; that is distinct from detecting a nonzero planted effect.
+
+| Planted contrast | Estimate distribution: 2.5% / median / 97.5% | Interval coverage | Expected-direction zero exclusion | Original positive-support classification |
+|---:|---|---:|---:|---:|
+| -0.200 | -0.23852683 / -0.20023822 / -0.15830830 | 0.96 | 1.00 | 0.00 |
+| -0.100 | -0.13852683 / -0.10023822 / -0.05830830 | 0.96 | 0.99 | 0.00 |
+| +0.000 | -0.03852683 / -0.00023822 / 0.04169170 | 0.96 | 0.04 | 0.00 |
+| +0.100 | 0.06147317 / 0.09976178 / 0.14169170 | 0.96 | 1.00 | 0.02 |
+| +0.200 | 0.16147317 / 0.19976178 / 0.24169170 | 0.96 | 1.00 | 1.00 |
+
+The frozen joint sensitivity criterion passes: null zero exclusion is 0.04, against a maximum of 0.10; negative and positive one-bar exclusion are 0.99 and 1.00, each requiring at least 0.80. All 500 worlds contain all 2,000 successful refits; every world and full summary matches the independent replay. This completed calibration outcome is not a reason to tune the gate or numerical method.
+
+**Scope.** This is a conditional residual calibration on 396 source observations and 396 original clusters, at a practical bar of 0.1. It conditions on the observed design, fitted nuisance coefficients and sign-symmetric cluster residual magnitudes. It does not establish general population power under other noise laws, causal control effects, a biological channel identity, accurate reconstruction of persistent values or literal absence of every effect. The original prompted observational primary and all its component estimates are retained. Source: Crowd-enVENT, Troiano, Oberlaender and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. No participant records or text are published. No p-value is introduced.
+
+**Integrity and cost.** All three original constructed compatibility cases preserve every original world and summary through complete native replay. Twenty-two focused checks pass. The first fixture's notification-envelope failure and its isolated repair remain recorded and charged. The final attempt consumes 64.968750 measured CPU seconds; all three original-source attempts consume 136.718750. The conservative card charge is 2987.937500, including all earlier qualification attempts, failures, 1,200 seconds of preparation reservation, 150 seconds of additional build allowance and retained coordination charges. Its original ceiling is 5000, with effective ceiling 5000 under original ceiling. The conservative family charge is 5730.766500 within 60,000 seconds, including the additional retained family allowance. Allowances and projections are not measurements. Complete source/design pins, final outputs, native exits and checkpoint lineage authenticate. No paid, GPU or Ollama work occurred.
+
+**Earlier evidence and next work.** This calibration accompanies S15-W5-IN4-20261107 and qualifies only that frozen observational comparison. G235, G244, G247 and G252, and the earlier S15-TD5-C2 and S15-TD6-C10 results retain their own substrates, estimands and controls. No compatible shared-cluster join or prespecified covariate is introduced into those other datasets. Theory rows and afterwords await the curator's theory pass under Week 5 section 3. File the original primary beside this conditional sensitivity record in the final packet. No follow-up is selected from the individual calibration worlds and no new tests were harvested from this operational request.

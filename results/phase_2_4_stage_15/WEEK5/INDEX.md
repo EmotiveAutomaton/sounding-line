@@ -1,5 +1,43 @@
 # Week 5 verified records
 
+**OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111:** [Record](IN_IC_COMPLETE_CONTINUATION_20261111.md). Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.
+
+**S15-W5-IN4-IC-20261111:** [Complete conditional calibration](IN4_IC_HUMAN_COMPLETE_20261111.md). The reader-versus-writer appraisal-error comparison passes its registered conditional sensitivity criterion under the observed source design; the original within-band result remains scoped to that observational contrast.
+
+**S15-W5-IN3-IC-20261111:** [Complete conditional calibration](IN3_IC_HUMAN_COMPLETE_20261111.md). The FEAR/RAGE control-slope comparison has limited sensitivity under the observed source design; its original within-band result cannot establish absence.
+
+**OPS-S15-W5-IN4-IC-HUMAN-VERIFY-PILOT-20261111:** [Record](IN4_IC_HUMAN_VERIFY_PILOT_20261111.md). The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+**OPS-S15-W5-IN3-IC-HUMAN-VERIFY-PILOT-20261111:** [Record](IN3_IC_HUMAN_VERIFY_PILOT_20261111.md). The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+**OPS-S15-W5-IN4-IC-HUMAN-SOURCE-PILOT-20261111:** [Record](IN4_IC_HUMAN_SOURCE_PILOT_20261111.md). The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+**OPS-S15-W5-IN3-IC-HUMAN-SOURCE-PILOT-20261111:** [Record](IN3_IC_HUMAN_SOURCE_PILOT_20261111.md). The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+**OPS-S15-W5-V1-ACCOUNTING-RECOVERY14-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY14_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-COMPLETE-20261111:** [Record](IN_IC_PUBLICATION_V2_FAILURE_COMPLETE_20261111.md). The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-VERIFY-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_FAILURE_VERIFY_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-SOURCE-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_FAILURE_SOURCE_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-COMPLETE-20261111:** [Record](IN_IC_PUBLICATION_V2_IN4_COMPLETE_20261111.md). The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-VERIFY-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_IN4_VERIFY_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-SOURCE-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_IN4_SOURCE_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-COMPLETE-20261111:** [Record](IN_IC_PUBLICATION_V2_IN3_COMPLETE_20261111.md). The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-VERIFY-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_IN3_VERIFY_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-SOURCE-PILOT-20261111:** [Record](IN_IC_PUBLICATION_V2_IN3_SOURCE_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+**OPS-S15-W5-IN-IC-NOTIFICATION-REPAIR-20261111:** [Record](IN_IC_NOTIFICATION_REPAIR_20261111.md). The first appraisal publication pilot preserved exact checkpoints but failed the watcher pause-envelope contract; its separate fixture repair passes both actual-handler notification checks.
+
+**OPS-S15-W5-IN-IC-PUBLICATION-IN3-SOURCE-PILOT-20261111:** [Record](IN_IC_PUBLICATION_IN3_SOURCE_PILOT_20261111.md). The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
 **OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111:** [Record](SP3_IC_GHOST_HANDOFF_20261111.md). The approved aggregate sensitivity addendum is copied to Ghost with matching hashes; recipient uptake remains unclaimed.
 
 **OPS-S15-W5-V1-ACCOUNTING-RECOVERY13-PAUSE-20261110:** [Record](V1_ACCOUNTING_RECOVERY13_PAUSE_20261110.md). The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.

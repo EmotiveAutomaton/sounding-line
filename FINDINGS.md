@@ -1,5 +1,365 @@
 # FINDINGS — the method archive
 
+### OPS-S15-W5-IN-IC-COMPLETE-CONTINUATION-20261111
+
+**Hypothesis.** Are the new completed results fully recorded while eligible original work remains active within its authorized limits?
+
+**METHOD.** Reconcile both completed conditional calibrations, their three complete native compatibility cases and 22 focused checks. Inspect actual native identities, current progress, resource limits, leases, terminal watches and all 21 source locks. Preserve the reader memory gate and the original scope of the active full-source comparison.
+
+**Found.** Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.
+
+The two complete calibration records are S15-W5-IN3-IC-20261111 and S15-W5-IN4-IC-20261111. Their methods, full aggregate grids, conditional limits, costs and parent relationships are recorded separately; this operational record adds no scientific verdict. Every terminal event was fully written through before ACK. The initial fixture notification defect, its isolated repair and the original attempts remain preserved.
+
+One counted research worker remains active, the full-source comparison in accounting recovery 15. Its exact native owner and child match their recorded identities, numerical work is below-normal priority with two threads, progress accounting is fresh and one valid lease is held. Its original complete scientific workload and replay are unfinished. Reader ordinal 128 remains unadmitted: observed Windows commit headroom is 10.535 GiB against its unchanged 26-GiB start gate, with 34.146 GiB available RAM against 20 GiB. No unrelated process is stopped to manufacture capacity. July chess source storage and native latency, human mood control qualification and downstream selected-reader dependencies remain gated.
+
+All 21 locks pass. The watcher has no pending unlanded event or current inspection error; its source hash matches and its native creation time is consistent with the recorded start. Historical notification failures remain visible. The active continuation has completion, pause and failure watches. Events plus four hours of owner inactivity, active-owner suppression and one pending wake remain unchanged. The sixteen-card ready buffer remains deficient; original builders delivered, none is active, and owner qualification and source-specific admission work remain. GPU, Ollama and paid calls remain off.
+
+**Means.** Completed result records are ready for the authorized publication pass while the healthy background comparison continues. Continue the existing commissioned builds and admit held work only after its actual source, control, resource and cost gates pass. The finite two-card sensitivity build is complete; the whole Week 5 queue is not fully built. Scientific synthesis remains under the final-packet policy. No tests harvested this pass.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; Both commissioned appraisal sensitivity checks and their full independent replays are filed; the original full-source comparison continues in CPU-only Gear 2.; project meaning: scoped operational record; next engineering obligation: Keep the authenticated comparison active; continue existing build and admission work under original source, control, memory and cost gates.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_COMPLETE_CONTINUATION_20261111.md.
+
+### S15-W5-IN4-IC-20261111
+
+**Hypothesis.** Could the original reader-versus-writer appraisal error comparison detect the fixed practical effect in its observed text design?
+
+**METHOD.** Reconstruct the exact completed parent sources and original normalization. Retain the original five-reader versus ten-distinct-reader-pair absolute-error calculation, the four prompted-channel intercepts and their equal-weight contrast. Fit the original source outcome once, remove only its component along the tested contrast, preserve orthogonal nuisance coefficients, and apply paired whole-cluster random signs to its residuals. Generate the five registered signed/null doses, 100 worlds per dose and 2,000 actual cluster refits per world. Preserve both 25-world pilot boundaries and require fresh native reconstruction of all 500 worlds, complete summaries and every saved world record.
+
+**Found.** The reader-versus-writer appraisal-error comparison passes its registered conditional sensitivity criterion under the observed source design; the original within-band result remains scoped to that observational contrast.
+
+The table reports the complete conditional calibration. Planted contrasts and estimate quantiles are in appraisal rating points. Quantiles describe variation across constructed worlds, not an uncertainty interval for the human primary. Coverage is the fraction of worlds whose interval contains the planted contrast. Zero exclusion is in the planted direction, two-sided for the null. The last column applies the unchanged original positive-support rule, which requires the interval to cross the practical bar; that is distinct from detecting a nonzero planted effect.
+
+| Planted contrast | Estimate distribution: 2.5% / median / 97.5% | Interval coverage | Expected-direction zero exclusion | Original positive-support classification |
+|---:|---|---:|---:|---:|
+| -0.200 | -0.23852683 / -0.20023822 / -0.15830830 | 0.96 | 1.00 | 0.00 |
+| -0.100 | -0.13852683 / -0.10023822 / -0.05830830 | 0.96 | 0.99 | 0.00 |
+| +0.000 | -0.03852683 / -0.00023822 / 0.04169170 | 0.96 | 0.04 | 0.00 |
+| +0.100 | 0.06147317 / 0.09976178 / 0.14169170 | 0.96 | 1.00 | 0.02 |
+| +0.200 | 0.16147317 / 0.19976178 / 0.24169170 | 0.96 | 1.00 | 1.00 |
+
+The frozen joint sensitivity criterion passes: null zero exclusion is 0.04, against a maximum of 0.10; negative and positive one-bar exclusion are 0.99 and 1.00, each requiring at least 0.80. All 500 worlds contain all 2,000 successful refits; every world and full summary matches the independent replay. This completed calibration outcome is not a reason to tune the gate or numerical method.
+
+**Scope.** This is a conditional residual calibration on 396 source observations and 396 original clusters, at a practical bar of 0.1. It conditions on the observed design, fitted nuisance coefficients and sign-symmetric cluster residual magnitudes. It does not establish general population power under other noise laws, causal control effects, a biological channel identity, accurate reconstruction of persistent values or literal absence of every effect. The original prompted observational primary and all its component estimates are retained. Source: Crowd-enVENT, Troiano, Oberlaender and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. No participant records or text are published. No p-value is introduced.
+
+**Integrity and cost.** All three original constructed compatibility cases preserve every original world and summary through complete native replay. Twenty-two focused checks pass. The first fixture's notification-envelope failure and its isolated repair remain recorded and charged. The final attempt consumes 64.968750 measured CPU seconds; all three original-source attempts consume 136.718750. The conservative card charge is 2987.937500, including all earlier qualification attempts, failures, 1,200 seconds of preparation reservation, 150 seconds of additional build allowance and retained coordination charges. Its original ceiling is 5000, with effective ceiling 5000 under original ceiling. The conservative family charge is 5730.766500 within 60,000 seconds, including the additional retained family allowance. Allowances and projections are not measurements. Complete source/design pins, final outputs, native exits and checkpoint lineage authenticate. No paid, GPU or Ollama work occurred.
+
+**Earlier evidence and next work.** This calibration accompanies S15-W5-IN4-20261107 and qualifies only that frozen observational comparison. G235, G244, G247 and G252, and the earlier S15-TD5-C2 and S15-TD6-C10 results retain their own substrates, estimands and controls. No compatible shared-cluster join or prespecified covariate is introduced into those other datasets. Theory rows and afterwords await the curator's theory pass under Week 5 section 3. File the original primary beside this conditional sensitivity record in the final packet. No follow-up is selected from the individual calibration worlds and no new tests were harvested from this operational request.
+
+Curator roll-up: appraisal and reader reconstruction; Could the original reader-versus-writer appraisal error comparison detect the fixed practical effect in its observed text design?; **Infrastructure**; The reader-versus-writer appraisal-error comparison passes its registered conditional sensitivity criterion under the observed source design; the original within-band result remains scoped to that observational contrast.; project meaning: completed sensitivity qualifies the original observational primary; next engineering obligation: Carry the original primary and complete conditional calibration together in the final packet; retain observational and conditional limits, with no result-dependent numerical repair.; public claim: conditional scope retained; curator decision required: No. Detail: WEEK5/IN4_IC_HUMAN_COMPLETE_20261111.md.
+
+### S15-W5-IN3-IC-20261111
+
+**Hypothesis.** Could the original difference between FEAR and RAGE control slopes detect the fixed practical effect in its observed writer design?
+
+**METHOD.** Reconstruct the exact completed parent sources and original normalization. Retain the six-column design with separate prompt intercepts, within-prompt standardized own-control and unpleasantness terms, their RAGE interactions and the original own-control slope difference. Fit the original source outcome once, remove only its component along the tested contrast, preserve orthogonal nuisance coefficients, and apply paired whole-cluster random signs to its residuals. Generate the five registered signed/null doses, 100 worlds per dose and 2,000 actual cluster refits per world. Preserve both 25-world pilot boundaries and require fresh native reconstruction of all 500 worlds, complete summaries and every saved world record.
+
+**Found.** The FEAR/RAGE control-slope comparison has limited sensitivity under the observed source design; its original within-band result cannot establish absence.
+
+The table reports the complete conditional calibration. Planted contrasts and estimate quantiles are in standardized slope units. Quantiles describe variation across constructed worlds, not an uncertainty interval for the human primary. Coverage is the fraction of worlds whose interval contains the planted contrast. Zero exclusion is in the planted direction, two-sided for the null. The last column applies the unchanged original positive-support rule, which requires the interval to cross the practical bar; that is distinct from detecting a nonzero planted effect.
+
+| Planted contrast | Estimate distribution: 2.5% / median / 97.5% | Interval coverage | Expected-direction zero exclusion | Original positive-support classification |
+|---:|---|---:|---:|---:|
+| -0.300 | -0.40502203 / -0.29488770 / -0.18478747 | 0.94 | 1.00 | 0.00 |
+| -0.150 | -0.25502203 / -0.14488770 / -0.03478747 | 0.94 | 0.70 | 0.00 |
+| +0.000 | -0.10502203 / 0.00511230 / 0.11521253 | 0.94 | 0.06 | 0.00 |
+| +0.150 | 0.04497797 / 0.15511230 / 0.26521253 | 0.94 | 0.69 | 0.03 |
+| +0.300 | 0.19497797 / 0.30511230 / 0.41521253 | 0.94 | 0.99 | 0.69 |
+
+The frozen joint sensitivity criterion fails: null zero exclusion is 0.06, against a maximum of 0.10; negative and positive one-bar exclusion are 0.70 and 0.69, each requiring at least 0.80. All 500 worlds contain all 2,000 successful refits; every world and full summary matches the independent replay. This completed calibration outcome is not a reason to tune the gate or numerical method.
+
+**Scope.** This is a conditional residual calibration on 1,096 source observations and 815 original clusters, at a practical bar of 0.15. It conditions on the observed design, fitted nuisance coefficients and sign-symmetric cluster residual magnitudes. It does not establish general population power under other noise laws, causal control effects, a biological channel identity, accurate reconstruction of persistent values or literal absence of every effect. The original prompted observational primary and all its component estimates are retained. Source: Crowd-enVENT, Troiano, Oberlaender and Klinger (2023), doi:10.1162/coli_a_00461, CC BY 4.0. No participant records or text are published. No p-value is introduced.
+
+**Integrity and cost.** All three original constructed compatibility cases preserve every original world and summary through complete native replay. Twenty-two focused checks pass. The first fixture's notification-envelope failure and its isolated repair remain recorded and charged. The final attempt consumes 101.328125 measured CPU seconds; all three original-source attempts consume 210.093750. The conservative card charge is 2535.234375, including all earlier qualification attempts, failures, 1,200 seconds of preparation reservation, 150 seconds of additional build allowance and retained coordination charges. Its original ceiling is 2500, with effective ceiling 5000 under S4 single doubling. The conservative family charge is 5375.296875 within 60,000 seconds, including the additional retained family allowance. Allowances and projections are not measurements. Complete source/design pins, final outputs, native exits and checkpoint lineage authenticate. No paid, GPU or Ollama work occurred.
+
+**Earlier evidence and next work.** This calibration accompanies S15-W5-IN3-20261107 and qualifies only that frozen observational comparison. G235, G244, G247 and G252, and the earlier S15-TD5-C2 and S15-TD6-C10 results retain their own substrates, estimands and controls. No compatible shared-cluster join or prespecified covariate is introduced into those other datasets. Theory rows and afterwords await the curator's theory pass under Week 5 section 3. File the original primary beside this conditional sensitivity record in the final packet. No follow-up is selected from the individual calibration worlds and no new tests were harvested from this operational request.
+
+Curator roll-up: appraisal and reader reconstruction; Could the original difference between FEAR and RAGE control slopes detect the fixed practical effect in its observed writer design?; **Infrastructure**; The FEAR/RAGE control-slope comparison has limited sensitivity under the observed source design; its original within-band result cannot establish absence.; project meaning: completed sensitivity qualifies the original observational primary; next engineering obligation: Carry the original primary and complete conditional calibration together in the final packet; retain observational and conditional limits, with no result-dependent numerical repair.; public claim: conditional scope retained; curator decision required: No. Detail: WEEK5/IN3_IC_HUMAN_COMPLETE_20261111.md.
+
+### OPS-S15-W5-IN4-IC-HUMAN-VERIFY-PILOT-20261111
+
+**Hypothesis.** Could the original reader-versus-writer appraisal error comparison detect the fixed practical effect in its observed text design?
+
+**METHOD.** Use the exact complete parent source, original matrix and normalization, five signed/null doses, 100 cluster-wild residual worlds per dose and 2,000 actual cluster refits per world. Preserve every original source cluster and nuisance coefficient. Admit after all three complete constructed publication compatibility cases, then authenticate the first 25-world execution or fresh-verification checkpoint and exact stopped native identities.
+
+**Found.** The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+The IN4 verify-pilot consumes 66.15625 measured native CPU seconds and retains 500 complete execution worlds. The original first-five-percent pilot is operational evidence only. No unfinished dose score, sensitivity verdict or revised human claim is reported. Null sensitivity remains untested until all 500 worlds and full independent replay are complete and interpreted under the original rule.
+
+All three original constructed cases have exact baseline/production parity and full native replay; twenty-two targeted checks pass. The first fixture's notification defect, its isolated repair and all charges remain preserved. The original card ceiling is 5000 CPU seconds, within IN's 60,000-second family allowance; the attached reconciliation retains all prior qualification, failure, preparation and supervisor charges. The attempt's CPU cap is 600, with 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads. The unchanged packet governs any subsequent measured cost route.
+
+**Means.** Review the complete measured pilot and actual remaining card/family allowance before an immutable continuation. Preserve every source, dose, draw and the full fresh replay. This conditional empirical-design calibration cannot establish general population power or a biological channel mechanism. The wider ready buffer remains deficient. No tests harvested this pass. CPU-only Gear 2, event wakes, four-hour inactivity, one pending wake and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original sensitivity grid and fresh replay after measured cost review; no interim scientific conclusion.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN4_IC_HUMAN_VERIFY_PILOT_20261111.md.
+
+### OPS-S15-W5-IN3-IC-HUMAN-VERIFY-PILOT-20261111
+
+**Hypothesis.** Could the original difference between FEAR and RAGE control slopes detect the fixed practical effect in its observed writer design?
+
+**METHOD.** Use the exact complete parent source, original matrix and normalization, five signed/null doses, 100 cluster-wild residual worlds per dose and 2,000 actual cluster refits per world. Preserve every original source cluster and nuisance coefficient. Admit after all three complete constructed publication compatibility cases, then authenticate the first 25-world execution or fresh-verification checkpoint and exact stopped native identities.
+
+**Found.** The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+The IN3 verify-pilot consumes 101.390625 measured native CPU seconds and retains 500 complete execution worlds. The original first-five-percent pilot is operational evidence only. No unfinished dose score, sensitivity verdict or revised human claim is reported. Null sensitivity remains untested until all 500 worlds and full independent replay are complete and interpreted under the original rule.
+
+All three original constructed cases have exact baseline/production parity and full native replay; twenty-two targeted checks pass. The first fixture's notification defect, its isolated repair and all charges remain preserved. The original card ceiling is 2500 CPU seconds, within IN's 60,000-second family allowance; the attached reconciliation retains all prior qualification, failure, preparation and supervisor charges. The attempt's CPU cap is 600, with 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads. The unchanged packet governs any subsequent measured cost route.
+
+**Means.** Review the complete measured pilot and actual remaining card/family allowance before an immutable continuation. Preserve every source, dose, draw and the full fresh replay. This conditional empirical-design calibration cannot establish general population power or a biological channel mechanism. The wider ready buffer remains deficient. No tests harvested this pass. CPU-only Gear 2, event wakes, four-hour inactivity, one pending wake and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original sensitivity grid and fresh replay after measured cost review; no interim scientific conclusion.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN3_IC_HUMAN_VERIFY_PILOT_20261111.md.
+
+### OPS-S15-W5-IN4-IC-HUMAN-SOURCE-PILOT-20261111
+
+**Hypothesis.** Could the original reader-versus-writer appraisal error comparison detect the fixed practical effect in its observed text design?
+
+**METHOD.** Use the exact complete parent source, original matrix and normalization, five signed/null doses, 100 cluster-wild residual worlds per dose and 2,000 actual cluster refits per world. Preserve every original source cluster and nuisance coefficient. Admit after all three complete constructed publication compatibility cases, then authenticate the first 25-world execution or fresh-verification checkpoint and exact stopped native identities.
+
+**Found.** The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+The IN4 source-pilot consumes 5.59375 measured native CPU seconds and retains 25 complete execution worlds. The original first-five-percent pilot is operational evidence only. No unfinished dose score, sensitivity verdict or revised human claim is reported. Null sensitivity remains untested until all 500 worlds and full independent replay are complete and interpreted under the original rule.
+
+All three original constructed cases have exact baseline/production parity and full native replay; twenty-two targeted checks pass. The first fixture's notification defect, its isolated repair and all charges remain preserved. The original card ceiling is 5000 CPU seconds, within IN's 60,000-second family allowance; the attached reconciliation retains all prior qualification, failure, preparation and supervisor charges. The attempt's CPU cap is 600, with 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads. The unchanged packet governs any subsequent measured cost route.
+
+**Means.** Review the complete measured pilot and actual remaining card/family allowance before an immutable continuation. Preserve every source, dose, draw and the full fresh replay. This conditional empirical-design calibration cannot establish general population power or a biological channel mechanism. The wider ready buffer remains deficient. No tests harvested this pass. CPU-only Gear 2, event wakes, four-hour inactivity, one pending wake and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original sensitivity grid and fresh replay after measured cost review; no interim scientific conclusion.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN4_IC_HUMAN_SOURCE_PILOT_20261111.md.
+
+### OPS-S15-W5-IN3-IC-HUMAN-SOURCE-PILOT-20261111
+
+**Hypothesis.** Could the original difference between FEAR and RAGE control slopes detect the fixed practical effect in its observed writer design?
+
+**METHOD.** Use the exact complete parent source, original matrix and normalization, five signed/null doses, 100 cluster-wild residual worlds per dose and 2,000 actual cluster refits per world. Preserve every original source cluster and nuisance coefficient. Admit after all three complete constructed publication compatibility cases, then authenticate the first 25-world execution or fresh-verification checkpoint and exact stopped native identities.
+
+**Found.** The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.
+
+The IN3 source-pilot consumes 7.375 measured native CPU seconds and retains 25 complete execution worlds. The original first-five-percent pilot is operational evidence only. No unfinished dose score, sensitivity verdict or revised human claim is reported. Null sensitivity remains untested until all 500 worlds and full independent replay are complete and interpreted under the original rule.
+
+All three original constructed cases have exact baseline/production parity and full native replay; twenty-two targeted checks pass. The first fixture's notification defect, its isolated repair and all charges remain preserved. The original card ceiling is 2500 CPU seconds, within IN's 60,000-second family allowance; the attached reconciliation retains all prior qualification, failure, preparation and supervisor charges. The attempt's CPU cap is 294.859375, with 3,600 wall seconds, three GiB projected memory, two GiB output and two numerical threads. The unchanged packet governs any subsequent measured cost route.
+
+**Means.** Review the complete measured pilot and actual remaining card/family allowance before an immutable continuation. Preserve every source, dose, draw and the full fresh replay. This conditional empirical-design calibration cannot establish general population power or a biological channel mechanism. The wider ready buffer remains deficient. No tests harvested this pass. CPU-only Gear 2, event wakes, four-hour inactivity, one pending wake and final-packet reporting remain unchanged.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The original-source appraisal sensitivity reaches its declared pilot boundary with authenticated checkpoints; complete calibration and independent replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the complete original sensitivity grid and fresh replay after measured cost review; no interim scientific conclusion.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN3_IC_HUMAN_SOURCE_PILOT_20261111.md.
+
+### OPS-S15-W5-V1-ACCOUNTING-RECOVERY14-PAUSE-20261110
+
+**Hypothesis.** Can the complete commissioned comparison continue after its measured pilot without losing saved work or changing its scientific scope?
+
+**METHOD.** Authenticate the planned native pause, source and design bindings, exact stopped identities and every saved checkpoint file. Reconcile the completed pair count and cumulative family charges, then admit one immutable continuation under the existing operational and resource guards. No scientific score selects the continuation.
+
+**Found.** The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.
+
+This operational quantum adds 2328 complete fit pairs, preserving 89,246 completed pairs in all 178,580 checkpoint files. The native attempt consumes 4147.359375 CPU seconds, including 3528.515625 in the fit loop, plus the existing standard supervisor allowance. The planned 3,600-second producer quantum is an operational pause, not a failed queue, a reduced scientific sample or a repeated initial pilot.
+
+The original 10,412-pair first-five-percent cost prefix remains complete. Full execution still requires all 208,236 pairs, the original 1,036 people in two separate sample groups, all 200 choice-label controls, 2,000 resamples and complete independent replay. The measured component estimate and unresolved growing checkpoint overhead remain recorded in V1_PILOT_COMPLETE_20261108. The former provisional 900,000-second all-in envelope is not certified by the pilot. No whole-run completion guarantee or unfinished scientific estimate is reported.
+
+Conservative BK-family use before continuation is 315299.0625 CPU seconds, including retained historical and private qualification charges; remaining family/campaign room after them is 684700.9375 seconds. Week 5 amendment L allows the unchanged workload to continue in an idle counted slot within that actual room. Preserve the 25,000-second attempt safety cap, 7,200-second outer wall cap, six-GiB projected peak and two numerical threads. Retain the previously admitted 3,600-second operational producer quantum to amortize repeated whole-checkpoint copying. The already-qualified resume adapter excludes this stopping bound from scientific configuration. Every completed fit remains individually sealed, resource/owner guards remain active, and no fit, resample, permutation, person or source changes. The original checkpoint is retained intact and all copies, failures, earlier quanta and fresh replay remain charged. Future exact checkpoint-overhead improvements require separate reviewed qualification; no such change is silently installed here.
+
+The operational table describes checkpoint preservation, not scientific outcomes.
+
+| Check | Disposition |
+|---|---|
+| Runtime | Qualified accounting runtime v8 retained |
+| Complete saved files | 178,580, every hash authenticated |
+| Completed fit pairs | 89,246 of the unchanged 208,236 |
+| Independent scientific replay | Still required |
+
+No tests harvested this pass. The earlier monitor failure, its untouched outputs, all prior source pins and native repair qualification remain retained.
+
+**Means.** Complete internal write-through and ACK before restoring the next continuation. The ready buffer remains under target because owner qualification and admission work are unfinished; the three assigned builders delivered and none is active. Preserve event delivery and the four-hour owner-inactivity fallback; do not restore fixed build or health schedules. This operational optimization implements the curator-authorized healing pass; it creates no new scientific hypothesis or paid/GPU authority. Final scientific reporting remains under the active packet.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The unchanged full-scope comparison preserves its next complete checkpoint; the original cost prefix is complete and scientific production and replay remain unfinished.; project meaning: scoped operational record; next engineering obligation: Continue the unchanged full workload from the complete checkpoint; qualify any exact checkpoint-overhead improvement before use and finish the remaining commissioned builds.; public scientific claim unchanged; curator decision required: No new decision. Detail: V1_ACCOUNTING_RECOVERY14_PAUSE_20261110.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-COMPLETE-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+The FAILURE case reaches its complete boundary with 90.609375 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 500. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. The complete baseline and candidate paths and their independent replays agree.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_FAILURE_COMPLETE_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-VERIFY-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The FAILURE case reaches its verify-pilot boundary with 87.40625 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 25. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_FAILURE_VERIFY_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-FAILURE-SOURCE-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The FAILURE case reaches its source-pilot boundary with 5.78125 measured native CPU seconds. Each execution bank preserves 25 complete worlds; fresh verification preserves 0. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_FAILURE_SOURCE_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-COMPLETE-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+The IN4 case reaches its complete boundary with 102.15625 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 500. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. The complete baseline and candidate paths and their independent replays agree.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN4_COMPLETE_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-VERIFY-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The IN4 case reaches its verify-pilot boundary with 95.96875 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 25. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN4_VERIFY_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN4-SOURCE-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The IN4 case reaches its source-pilot boundary with 7.078125 measured native CPU seconds. Each execution bank preserves 25 complete worlds; fresh verification preserves 0. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN4_SOURCE_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-COMPLETE-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.
+
+The IN3 case reaches its complete boundary with 110.84375 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 500. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. The complete baseline and candidate paths and their independent replays agree.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The complete constructed appraisal sensitivity case preserves every original world and summary through the publication adapter and fresh native replay.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN3_COMPLETE_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-VERIFY-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The IN3 case reaches its verify-pilot boundary with 122.234375 measured native CPU seconds. Each execution bank preserves 500 complete worlds; fresh verification preserves 25. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN3_VERIFY_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-V2-IN3-SOURCE-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The IN3 case reaches its source-pilot boundary with 7.15625 measured native CPU seconds. Each execution bank preserves 25 complete worlds; fresh verification preserves 0. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. The retained v1 notification defect is corrected only in the isolated fixture envelope; both actual pause handlers pass the unchanged watcher validator. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty-two focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_V2_IN3_SOURCE_PILOT_20261111.md.
+
+### OPS-S15-W5-IN-IC-NOTIFICATION-REPAIR-20261111
+
+**Hypothesis.** Can a completed operational checkpoint be recognized by the existing watcher without changing scientific admission?
+
+**METHOD.** Authenticate the first native pilot, every saved world, source pin and stopped identity; compare its pause envelope with the unchanged production watcher validator. Exercise both repaired fixture handlers and require recognition of their actual pause envelopes, with the omitted phase reproducing refusal.
+
+**Found.** The first appraisal publication pilot preserved exact checkpoints but failed the watcher pause-envelope contract; its separate fixture repair passes both actual-handler notification checks.
+
+The v1 fixture's counter-bearing pause omitted a phase label. The watcher correctly rejected it and retained a MONITOR_FAILED disappearance receipt. The native producer had saved 25 complete original and candidate worlds with exact parity and exited, using 7.53125 CPU seconds. Its prior pilot landing remains valid as checkpoint evidence but does not qualify the complete end-to-end pipeline. Both original terminal records, all source bytes, failed interface and its charges remain retained.
+
+The isolated v2 fixture adds only execute/verify phase labels. Two focused actual-handler/production-watcher checks pass; the twenty original publication checks remain recorded. No runtime, watcher code, matrix, estimator, seed, world or numerical gate changes. Retire only the exact ended attempt's process-watch entry after identity and checkpoint authentication; retain all active jobs and the event/inactivity policy. No silent repair of the original terminal or source occurs.
+
+**Means.** This is one engineering healing attempt for the qualification fixture, not a scientific retry. Repeat the original complete three-case native compatibility chain under new identities before human admission, retaining the failed cost and original ceilings. The ready buffer is still deficient; original builders delivered and none is active. No tests harvested this pass. CPU-only Gear 2 continues and final-packet limits remain.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The first appraisal publication pilot preserved exact checkpoints but failed the watcher pause-envelope contract; its separate fixture repair passes both actual-handler notification checks.; project meaning: scoped operational record; next engineering obligation: Complete all three native v2 control chains before human-source admission.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_NOTIFICATION_REPAIR_20261111.md.
+
+### OPS-S15-W5-IN-IC-PUBLICATION-IN3-SOURCE-PILOT-20261111
+
+**Hypothesis.** Can the existing appraisal sensitivity calculation use the qualified publication convention without changing any original numerical world, summary or checkpoint?
+
+**METHOD.** Run the qualified original and production publication paths on the same pinned constructed sources. Compare every world and full summary, retaining all five doses, 100 worlds per dose and 2,000 cluster refits per world. Preserve the first 25-world source and verification pilots through immutable native continuations and require complete fresh replay. The original exact signed/null and high-noise cases retain their pass and failure expectations.
+
+**Found.** The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.
+
+The IN3 case reaches its source-pilot boundary with 7.53125 measured native CPU seconds. Each execution bank preserves 25 complete worlds; fresh verification preserves 0. These are operational coverage counts, not a human sensitivity result. Every source pin, committed design, saved output and stopped native identity authenticates. Full execution and independent replay remain required.
+
+The wrapper changes only publication and checkpoint validation, retaining the original matrix and calibrator. Each attempt is bounded by 400 CPU seconds, 3,600 wall seconds, three GiB projected memory, two GiB retained output and two numerical threads. All previous attempts, unmeasured preparation reservation, new build allowance and supervisor charges remain in the attached cost receipt under the original card and family ceilings. Twenty focused checks pass, including original below-floor and rank-deficient dispositions, checkpoint tampering, a sealed per-world change despite equal summary, failed-fit retention and writer restoration on exceptions.
+
+**Means.** All three complete constructed compatibility cases are required before human-source admission; support, full source pins and cumulative cost remain separate gates. The ready buffer remains deficient. This builds an already commissioned follow-up; original builders delivered and none is active. No tests harvested this pass. Events plus four hours of owner inactivity and one pending wake remain unchanged. CPU-only Gear 2 continues; GPU, Ollama and paid calls remain off. Scientific synthesis remains under the final-packet policy.
+
+
+Curator roll-up: operational integrity; Are evidence and execution properly accounted for?; **Infrastructure**; The appraisal sensitivity publication adapter preserves its original constructed pilot boundary and exact saved-world parity; complete qualification remains unfinished.; project meaning: scoped operational record; next engineering obligation: Finish all three complete constructed cases, then admit the unchanged human source only after support and cumulative-cost review.; public scientific claim unchanged; curator decision required: No new decision. Detail: IN_IC_PUBLICATION_IN3_SOURCE_PILOT_20261111.md.
+
 ### OPS-S15-W5-SP3-IC-GHOST-HANDOFF-20261111
 
 **Hypothesis.** Can the approved sensitivity addendum be delivered intact to Ghost with its existing scientific limits preserved?
